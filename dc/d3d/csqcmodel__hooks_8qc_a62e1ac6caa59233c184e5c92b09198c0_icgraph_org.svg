@@ -26,17 +26,17 @@
 <path fill="none" stroke="midnightblue" d="M99.8307,-44.3103C112.019,-45.9655 125.135,-47.7467 137.885,-49.4782"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="100.22,-40.8311 89.8395,-42.9535 99.2776,-47.7674 100.22,-40.8311"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../dd/d2d/teleporters_8qh.html#aa4ad657aa593e009d50c6e19a4647ba5" target="_top" xlink:title="WarpZone_PostTeleportPlayer\l_Callback">
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="../../dd/d2d/teleporters_8qh.html#aa4ad657aa593e009d50c6e19a4647ba5" target="_top" xlink:title="WarpZone_PostTeleportPlayer\l_Callback">
 <polygon fill="none" stroke="black" points="134,-0 134,-30 284,-30 284,-0 134,-0"/>
 <text text-anchor="start" x="142" y="-18" font-family="Helvetica,sans-Serif" font-size="10.00">WarpZone_PostTeleportPlayer</text>
 <text text-anchor="middle" x="209" y="-7" font-family="Helvetica,sans-Serif" font-size="10.00">_Callback</text>
 </a>
 </g>
 </g>
-<!-- Node1&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node1&#45;&gt;Node4</title>
+<!-- Node1&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M99.9951,-29.6673C110.852,-28.1929 122.44,-26.6192 133.846,-25.0703"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="99.2776,-26.2326 89.8395,-31.0465 100.22,-33.1689 99.2776,-26.2326"/>
 </g>
@@ -53,42 +53,55 @@
 <path fill="none" stroke="midnightblue" d="M302.505,-59C310.932,-59 319.414,-59 327.699,-59"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="302.27,-55.5001 292.27,-59 302.27,-62.5001 302.27,-55.5001"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../d7/d2b/server_8qc.html#a5abb5925461820a6c1f79553bb556e39" target="_top" xlink:title="WarpZone_TeleportPlayer">
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:href="../../d5/dc9/cl__model_8qc.html#a26e61ab9cc5ce7c7cb105124b1c53337" target="_top" xlink:title="NET_HANDLE">
+<polygon fill="none" stroke="black" points="531.5,-49.5 531.5,-68.5 614.5,-68.5 614.5,-49.5 531.5,-49.5"/>
+<text text-anchor="middle" x="573" y="-56.5" font-family="Helvetica,sans-Serif" font-size="10.00">NET_HANDLE</text>
+</a>
+</g>
+</g>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
+<path fill="none" stroke="midnightblue" d="M496.447,-59C508.671,-59 520.703,-59 531.448,-59"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="496.158,-55.5001 486.158,-59 496.157,-62.5001 496.158,-55.5001"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="../../d7/d2b/server_8qc.html#a5abb5925461820a6c1f79553bb556e39" target="_top" xlink:title="WarpZone_TeleportPlayer">
 <polygon fill="none" stroke="black" points="342,-5.5 342,-24.5 472,-24.5 472,-5.5 342,-5.5"/>
 <text text-anchor="middle" x="407" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">WarpZone_TeleportPlayer</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M294.431,-15C310.287,-15 326.625,-15 341.744,-15"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="294.099,-11.5001 284.099,-15 294.099,-18.5001 294.099,-11.5001"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d7/d2b/server_8qc.html#acc540ec5b1736673c16d2e7d5ca8b739" target="_top" xlink:title="WarpZone_Teleport">
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="../../d7/d2b/server_8qc.html#acc540ec5b1736673c16d2e7d5ca8b739" target="_top" xlink:title="WarpZone_Teleport">
 <polygon fill="none" stroke="black" points="522,-5.5 522,-24.5 624,-24.5 624,-5.5 522,-5.5"/>
 <text text-anchor="middle" x="573" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">WarpZone_Teleport</text>
 </a>
 </g>
 </g>
-<!-- Node5&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
+<!-- Node6&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M482.453,-15C495.768,-15 509.35,-15 521.78,-15"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="482.346,-11.5001 472.346,-15 482.346,-18.5001 482.346,-11.5001"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d7/d2b/server_8qc.html#a5b2d9c25b073ca1138a5b86c49625eaf" target="_top" xlink:title="WarpZone_Touch">
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="../../d7/d2b/server_8qc.html#a5b2d9c25b073ca1138a5b86c49625eaf" target="_top" xlink:title="WarpZone_Touch">
 <polygon fill="none" stroke="black" points="660,-5.5 660,-24.5 754,-24.5 754,-5.5 660,-5.5"/>
 <text text-anchor="middle" x="707" y="-12.5" font-family="Helvetica,sans-Serif" font-size="10.00">WarpZone_Touch</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
+<!-- Node7&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node7&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M634.525,-15C643.005,-15 651.606,-15 659.763,-15"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="634.28,-11.5001 624.28,-15 634.28,-18.5001 634.28,-11.5001"/>
 </g>

@@ -1407,13 +1407,13 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l01301"></a><span class="lineno"> 1301</span>&#160;}</div>
 <div class="line"><a name="l01302"></a><span class="lineno"> 1302</span>&#160;</div>
 <div class="line"><a name="l01303"></a><span class="lineno"> 1303</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(kh, PlayerDies)</div>
-<div class="line"><a name="l01304"></a><span class="lineno"> 1304</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l01305"></a><span class="lineno"> 1305</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span> == <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>)</div>
-<div class="line"><a name="l01306"></a><span class="lineno"> 1306</span>&#160;        kh_Key_DropAll(<span class="keyword">self</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l01304"></a><span class="lineno"> 1304</span>&#160;{</div>
+<div class="line"><a name="l01305"></a><span class="lineno"> 1305</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a> == <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>)</div>
+<div class="line"><a name="l01306"></a><span class="lineno"> 1306</span>&#160;        kh_Key_DropAll(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>, <span class="keyword">true</span>);</div>
 <div class="line"><a name="l01307"></a><span class="lineno"> 1307</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>))</div>
-<div class="line"><a name="l01308"></a><span class="lineno"> 1308</span>&#160;        kh_Key_DropAll(<span class="keyword">self</span>, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l01308"></a><span class="lineno"> 1308</span>&#160;        kh_Key_DropAll(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>, <span class="keyword">false</span>);</div>
 <div class="line"><a name="l01309"></a><span class="lineno"> 1309</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01310"></a><span class="lineno"> 1310</span>&#160;        kh_Key_DropAll(<span class="keyword">self</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l01310"></a><span class="lineno"> 1310</span>&#160;        kh_Key_DropAll(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>, <span class="keyword">true</span>);</div>
 <div class="line"><a name="l01311"></a><span class="lineno"> 1311</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l01312"></a><span class="lineno"> 1312</span>&#160;}</div>
 <div class="line"><a name="l01313"></a><span class="lineno"> 1313</span>&#160;</div>
@@ -1634,7 +1634,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../de/d40/gamemode__keyhunt_8qc.html">gamemode_keyhunt.qc</a></li>
-    <li class="footer">Generated on Wed Jan 6 2016 09:03:44 for Xonotic by
+    <li class="footer">Generated on Wed Jan 6 2016 09:30:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

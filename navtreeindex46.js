@@ -1,11 +1,5 @@
 var NAVTREEINDEX46 =
 {
-"da/d3e/nades_8qh.html#a3997d036ed6f9515d3145c1c8dbda00a":[1,0,1,9,0,15,4,3],
-"da/d3e/nades_8qh.html#a4547268708a4e720cf672e1eb8359999":[1,0,1,9,0,15,4,19],
-"da/d3e/nades_8qh.html#a5475b64df4ac71825aa86be6dc2ae182":[1,0,1,9,0,15,4,16],
-"da/d3e/nades_8qh.html#a5a02811b8b07d92c52131c55c8b575d0":[1,0,1,9,0,15,4,17],
-"da/d3e/nades_8qh.html#a686132c927272e4033947a9294ac783b":[1,0,1,9,0,15,4,4],
-"da/d3e/nades_8qh.html#aa5aa4e0024cd20b96e7507a409286758":[1,0,1,9,0,15,4,18],
 "da/d3e/nades_8qh.html#aa601fd82ef7692d4ffbcc70e9a823552":[1,0,1,9,0,15,4,15],
 "da/d3e/nades_8qh.html#aadcf48091046b4806ede2c9dccc3a0b4":[1,0,1,9,0,15,4,5],
 "da/d3e/nades_8qh.html#ab9b3d6c7ff080a646f95cb35fa2859ec":[1,0,1,9,0,15,4,2],
@@ -126,8 +120,8 @@ var NAVTREEINDEX46 =
 "da/d4e/sv__monsters_8qc.html#a0c5d94fd195b12611f3bd45c0546bfca":[1,0,1,8,7,5],
 "da/d4e/sv__monsters_8qc.html#a100d851a4f02e4bd6177462aad0a9d1f":[1,0,1,8,7,12],
 "da/d4e/sv__monsters_8qc.html#a11264c2824e7a8f5b85b5197f8123d7b":[1,0,1,8,7,8],
-"da/d4e/sv__monsters_8qc.html#a13c832506cac26065a468274572e4e37":[1,0,1,8,7,1],
 "da/d4e/sv__monsters_8qc.html#a13c832506cac26065a468274572e4e37":[1,0,1,8,7,0],
+"da/d4e/sv__monsters_8qc.html#a13c832506cac26065a468274572e4e37":[1,0,1,8,7,1],
 "da/d4e/sv__monsters_8qc.html#a1601ffa4b140b54cb3c7a724f017d89b":[1,0,1,8,7,30],
 "da/d4e/sv__monsters_8qc.html#a1a655351164d85b497d04672f12af2d2":[1,0,1,8,7,35],
 "da/d4e/sv__monsters_8qc.html#a37f7dbf3b68666c1a9348403d38490b8":[1,0,1,8,7,24],
@@ -249,5 +243,11 @@ var NAVTREEINDEX46 =
 "da/d5e/rifle_8qc.html":[1,0,1,15,0,13],
 "da/d5e/rifle_8qc.html#a00ea5131ccbe790d034cb3f59885210a":[1,0,1,15,0,13,5],
 "da/d5e/rifle_8qc.html#a02fb30ce15d4a670d062ac4e8480a57a":[1,0,1,15,0,13,1],
-"da/d5e/rifle_8qc.html#a3736dca67d4dece311571a78b7922f63":[1,0,1,15,0,13,0]
+"da/d5e/rifle_8qc.html#a3736dca67d4dece311571a78b7922f63":[1,0,1,15,0,13,0],
+"da/d5e/rifle_8qc.html#a46f6aae3b1b726e3c84c83cc6e079c4b":[1,0,1,15,0,13,11],
+"da/d5e/rifle_8qc.html#a4a543ab0d2109d7ee7e6c551d3753b84":[1,0,1,15,0,13,4],
+"da/d5e/rifle_8qc.html#a6630662d4f4c4e2d2106b31190e01f46":[1,0,1,15,0,13,8],
+"da/d5e/rifle_8qc.html#a8fe4488185fed31de26f9f53bcf617d5":[1,0,1,15,0,13,10],
+"da/d5e/rifle_8qc.html#a999671623ecf569c9fc55d9805357b86":[1,0,1,15,0,13,6],
+"da/d5e/rifle_8qc.html#acb9e98d911a4c68ae9dc5a6489270296":[1,0,1,15,0,13,2]
 };

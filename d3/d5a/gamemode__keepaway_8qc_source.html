@@ -418,7 +418,7 @@ $(document).ready(function(){initNavTree('d3/d5a/gamemode__keepaway_8qc_source.h
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="comment">// ==============</span></div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(ka, PlayerDies)</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;{</div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keywordflow">if</span>((<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a8df4e48e1c24929ad753ea47f24f0027">frag_attacker</a> != <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>) &amp;&amp; (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a8df4e48e1c24929ad753ea47f24f0027">frag_attacker</a>)))</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    {</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>.ballcarried) { <span class="comment">// add to amount of times killing carrier</span></div>
@@ -434,7 +434,7 @@ $(document).ready(function(){initNavTree('d3/d5a/gamemode__keepaway_8qc_source.h
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;            <a class="code" href="../../d2/d79/scores_8qc.html#a4e597c14f389b7db7703d04c6f987db2">PlayerScore_Add</a>(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a8df4e48e1c24929ad753ea47f24f0027">frag_attacker</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a0bba94dc90d3b3a9a0d1db2cbeaf7bf5">SP_SCORE</a>, autocvar_g_keepaway_score_killac);</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    }</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a137a4251a46a5fea7db7d4f16b190dcb">ballcarried</a>) { <a class="code" href="../../d3/d5a/gamemode__keepaway_8qc.html#a259b3a95461e18da357a2b9d7512e2e6">ka_DropEvent</a>(<span class="keyword">self</span>); } <span class="comment">// a player with the ball has died, drop it</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>.ballcarried) { <a class="code" href="../../d3/d5a/gamemode__keepaway_8qc.html#a259b3a95461e18da357a2b9d7512e2e6">ka_DropEvent</a>(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>); } <span class="comment">// a player with the ball has died, drop it</span></div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;}</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
@@ -703,7 +703,7 @@ $(document).ready(function(){initNavTree('d3/d5a/gamemode__keepaway_8qc_source.h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../d3/d5a/gamemode__keepaway_8qc.html">gamemode_keepaway.qc</a></li>
-    <li class="footer">Generated on Wed Jan 6 2016 09:03:44 for Xonotic by
+    <li class="footer">Generated on Wed Jan 6 2016 09:30:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

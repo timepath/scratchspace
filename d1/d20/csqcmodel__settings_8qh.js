@@ -2,9 +2,6 @@ var csqcmodel__settings_8qh =
 [
     [ "CSQCMODEL_EF_RESPAWNGHOST", "d1/d20/csqcmodel__settings_8qh.html#a4d51648d080806031196f806ec59c803", null ],
     [ "CSQCMODEL_EXTRAPROPERTIES", "d1/d20/csqcmodel__settings_8qh.html#a7e45169d39a4fbe54c9e7bef975dc858", null ],
-    [ "CSQCMODEL_HOOK_POSTUPDATE", "d1/d20/csqcmodel__settings_8qh.html#a54bcd7582b54f2dbb9af08ed67c6fac7", null ],
-    [ "CSQCMODEL_HOOK_PREDRAW", "d1/d20/csqcmodel__settings_8qh.html#a3c2c98593635f40b46880c39bae98ae5", null ],
-    [ "CSQCMODEL_HOOK_PREUPDATE", "d1/d20/csqcmodel__settings_8qh.html#aabaf57828a2344954003180d65f26a01", null ],
     [ "CSQCMODEL_SETTINGS_H", "d1/d20/csqcmodel__settings_8qh.html#a310a895e7d03b89b56afbaa293fe83bd", null ],
     [ "CSQCPLAYER_FORCE_UPDATES", "d1/d20/csqcmodel__settings_8qh.html#afa3788f017d2c00503a944c4176a3f65", null ],
     [ "CSQCPLAYER_HOOK_POSTCAMERASETUP", "d1/d20/csqcmodel__settings_8qh.html#a878299eeec068b73303c1906e6de74dd", null ],

@@ -265,8 +265,8 @@ $(document).ready(function(){initNavTree('d9/d09/spawn__near__teammate_8qc_sourc
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;}</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(spawn_near_teammate, PlayerDies)</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keyword">self</span>.msnt_deathloc = <span class="keyword">self</span>.origin;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;{</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>.msnt_deathloc = <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>.origin;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;}</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
@@ -300,6 +300,7 @@ $(document).ready(function(){initNavTree('d9/d09/spawn__near__teammate_8qc_sourc
 <div class="ttc" id="state_8qh_html_a917978fc72821486ab248ab4253cf6e8"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a917978fc72821486ab248ab4253cf6e8">STAT</a></div><div class="ttdeci">STAT(SWITCHINGWEAPON, cl)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a0479e334f76d4fabe2c617373b2bd6f9"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a0479e334f76d4fabe2c617373b2bd6f9">Q3SURFACEFLAG_SKY</a></div><div class="ttdeci">float Q3SURFACEFLAG_SKY</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01140">csprogsdefs.qc:1140</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a147120fa263b120c8a20915dffa25c9b"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a147120fa263b120c8a20915dffa25c9b">SPAWN_PRIO_NEAR_TEAMMATE_FOUND</a></div><div class="ttdeci">const int SPAWN_PRIO_NEAR_TEAMMATE_FOUND</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00247">constants.qh:247</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_ad3d6bdb8aba8a491f5560d65265cf0ef"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a></div><div class="ttdeci">entity frag_target</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00055">events.qh:55</a></div></div>
 <div class="ttc" id="server_2mutators_2events_8qh_html_ae3b8b03a5f420f0d22bd451c4292b99f"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f">get_cvars_s</a></div><div class="ttdeci">string get_cvars_s</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00207">events.qh:207</a></div></div>
 <div class="ttc" id="random_8qh_html_a86198c138394780d6c34d63ee910c243"><div class="ttname"><a href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a></div><div class="ttdeci">entity RandomSelection_chosen_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d55/random_8qh_source.html#l00005">random.qh:5</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_ae0d7c9ee7d3e6ed43d37c30912a68497"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ae0d7c9ee7d3e6ed43d37c30912a68497">MOVE_WORLDONLY</a></div><div class="ttdeci">const int MOVE_WORLDONLY</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00138">csqc_constants.qh:138</a></div></div>
@@ -327,7 +328,7 @@ $(document).ready(function(){initNavTree('d9/d09/spawn__near__teammate_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_522059a54499aa1a8da2a05bb86fa7c7.html">spawn_near_teammate</a></li><li class="navelem"><a class="el" href="../../d9/d09/spawn__near__teammate_8qc.html">spawn_near_teammate.qc</a></li>
-    <li class="footer">Generated on Wed Jan 6 2016 09:03:41 for Xonotic by
+    <li class="footer">Generated on Wed Jan 6 2016 09:30:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

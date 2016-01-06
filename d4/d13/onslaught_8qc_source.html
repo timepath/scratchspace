@@ -1793,14 +1793,14 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l01687"></a><span class="lineno"> 1687</span>&#160;</div>
 <div class="line"><a name="l01688"></a><span class="lineno"> 1688</span>&#160;    <span class="keywordflow">return</span> closest_target;</div>
 <div class="line"><a name="l01689"></a><span class="lineno"> 1689</span>&#160;}</div>
-<div class="line"><a name="l01693"></a><span class="lineno"> 1693</span>&#160;<span class="keywordtype">int</span> ons_Count_SelfControlPoints()</div>
-<div class="line"><a name="l01694"></a><span class="lineno"> 1694</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l01693"></a><span class="lineno"> 1693</span>&#160;<span class="keywordtype">int</span> ons_Count_SelfControlPoints(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l01694"></a><span class="lineno"> 1694</span>&#160;{</div>
 <div class="line"><a name="l01695"></a><span class="lineno"> 1695</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> tmp_entity;</div>
 <div class="line"><a name="l01696"></a><span class="lineno"> 1696</span>&#160;    tmp_entity = findchain(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;onslaught_controlpoint&quot;</span>);</div>
 <div class="line"><a name="l01697"></a><span class="lineno"> 1697</span>&#160;    <span class="keywordtype">int</span> n = 0;</div>
 <div class="line"><a name="l01698"></a><span class="lineno"> 1698</span>&#160;    <span class="keywordflow">while</span>(tmp_entity)</div>
 <div class="line"><a name="l01699"></a><span class="lineno"> 1699</span>&#160;    {</div>
-<div class="line"><a name="l01700"></a><span class="lineno"> 1700</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(tmp_entity, <span class="keyword">self</span>))</div>
+<div class="line"><a name="l01700"></a><span class="lineno"> 1700</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(tmp_entity, <span class="keyword">this</span>))</div>
 <div class="line"><a name="l01701"></a><span class="lineno"> 1701</span>&#160;        <span class="keywordflow">if</span>(tmp_entity.iscaptured)</div>
 <div class="line"><a name="l01702"></a><span class="lineno"> 1702</span>&#160;            n++;</div>
 <div class="line"><a name="l01703"></a><span class="lineno"> 1703</span>&#160;        tmp_entity = tmp_entity.chain;</div>
@@ -1808,7 +1808,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l01705"></a><span class="lineno"> 1705</span>&#160;    tmp_entity = findchain(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;onslaught_generator&quot;</span>);</div>
 <div class="line"><a name="l01706"></a><span class="lineno"> 1706</span>&#160;    <span class="keywordflow">while</span>(tmp_entity)</div>
 <div class="line"><a name="l01707"></a><span class="lineno"> 1707</span>&#160;    {</div>
-<div class="line"><a name="l01708"></a><span class="lineno"> 1708</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(tmp_entity, <span class="keyword">self</span>))</div>
+<div class="line"><a name="l01708"></a><span class="lineno"> 1708</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(tmp_entity, <span class="keyword">this</span>))</div>
 <div class="line"><a name="l01709"></a><span class="lineno"> 1709</span>&#160;            n++;</div>
 <div class="line"><a name="l01710"></a><span class="lineno"> 1710</span>&#160;        tmp_entity = tmp_entity.chain;</div>
 <div class="line"><a name="l01711"></a><span class="lineno"> 1711</span>&#160;    }</div>
@@ -2034,8 +2034,8 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l01936"></a><span class="lineno"> 1936</span>&#160;    }</div>
 <div class="line"><a name="l01937"></a><span class="lineno"> 1937</span>&#160;</div>
 <div class="line"><a name="l01938"></a><span class="lineno"> 1938</span>&#160;    <span class="keywordflow">if</span> ( autocvar_g_onslaught_spawn_choose )</div>
-<div class="line"><a name="l01939"></a><span class="lineno"> 1939</span>&#160;    <span class="keywordflow">if</span> ( ons_Count_SelfControlPoints() &gt; 1 )</div>
-<div class="line"><a name="l01940"></a><span class="lineno"> 1940</span>&#160;        stuffcmd(<span class="keyword">self</span>, <span class="stringliteral">&quot;qc_cmd_cl hud clickradar\n&quot;</span>);</div>
+<div class="line"><a name="l01939"></a><span class="lineno"> 1939</span>&#160;    <span class="keywordflow">if</span> ( ons_Count_SelfControlPoints(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>) &gt; 1 )</div>
+<div class="line"><a name="l01940"></a><span class="lineno"> 1940</span>&#160;        stuffcmd(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>, <span class="stringliteral">&quot;qc_cmd_cl hud clickradar\n&quot;</span>);</div>
 <div class="line"><a name="l01941"></a><span class="lineno"> 1941</span>&#160;</div>
 <div class="line"><a name="l01942"></a><span class="lineno"> 1942</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l01943"></a><span class="lineno"> 1943</span>&#160;}</div>
@@ -2595,7 +2595,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_485953d51457a9f079ff3eef255d57d0.html">onslaught</a></li><li class="navelem"><a class="el" href="../../d4/d13/onslaught_8qc.html">onslaught.qc</a></li>
-    <li class="footer">Generated on Wed Jan 6 2016 09:03:40 for Xonotic by
+    <li class="footer">Generated on Wed Jan 6 2016 09:30:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,11 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"d5/d26/server_2defs_8qh.html#ab993c6c2a33d6c7c7c02b37d69369e95":[1,0,5,22,128],
-"d5/d26/server_2defs_8qh.html#ab999648480050a63fcddf038d561d7af":[1,0,5,22,127],
-"d5/d26/server_2defs_8qh.html#abab3fdf3c09e0fb9d91d3169cfaf6a0b":[1,0,5,22,13],
-"d5/d26/server_2defs_8qh.html#abae872f9d23683ec4e9f8227aec12083":[1,0,5,22,275],
-"d5/d26/server_2defs_8qh.html#abbaf61dc87ee098c26d39eb8d004616a":[1,0,5,22,129],
-"d5/d26/server_2defs_8qh.html#abcc345daf13f439f825e1383675beed4":[1,0,5,22,224],
 "d5/d26/server_2defs_8qh.html#abd9bbb26fc3db0656e3ea3e7a91d3ab1":[1,0,5,22,51],
 "d5/d26/server_2defs_8qh.html#abdc99ad43dd04e9cbb553b29c187b1e3":[1,0,5,22,153],
 "d5/d26/server_2defs_8qh.html#abde03c92927933bb6bc0d7cc14ba7bdd":[1,0,5,22,284],
@@ -249,5 +243,11 @@ var NAVTREEINDEX22 =
 "d5/da1/ladder_8qc.html#ab10017af0ca81cbf72fc3af1ef0a1ba5":[1,0,1,12,0,12,0],
 "d5/da1/ladder_8qc_source.html":[1,0,1,12,0,12],
 "d5/da5/racer__weapon_8qc.html":[1,0,1,14,0,4],
-"d5/da5/racer__weapon_8qc.html#a147978ec904c013e7c181775658c2c80":[1,0,1,14,0,4,3]
+"d5/da5/racer__weapon_8qc.html#a147978ec904c013e7c181775658c2c80":[1,0,1,14,0,4,3],
+"d5/da5/racer__weapon_8qc.html#a77cecd11d7e630e68503d78b2411bf19":[1,0,1,14,0,4,2],
+"d5/da5/racer__weapon_8qc.html#a9ddabff7168d49cfad9f1a7e3f2426a7":[1,0,1,14,0,4,0],
+"d5/da5/racer__weapon_8qc.html#ae19d899302ae89863e0242e50222a4d7":[1,0,1,14,0,4,1],
+"d5/da5/racer__weapon_8qc.html#af89eef300f91ed3fd00b375d407274d4":[1,0,1,14,0,4,4],
+"d5/da5/racer__weapon_8qc.html#afa8bd1426082543d719ebd976b5ef246":[1,0,1,14,0,4,5],
+"d5/da5/racer__weapon_8qc_source.html":[1,0,1,14,0,4]
 };
