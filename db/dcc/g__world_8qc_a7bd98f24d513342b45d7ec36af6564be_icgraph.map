@@ -1,22 +1,22 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$d7/d97/g__world_8qh.html#a1207e599d7420b0af40007a89426efec" title="DumpStats" alt="" coords="195,59,283,88"/>
-<area shape="rect" id="node16" href="$dc/d73/server_2miscfunctions_8qh.html#ae29e06e5cb547b4c30dcb593cf967fdb" title="readlevelcvars" alt="" coords="185,164,292,193"/>
-<area shape="rect" id="node18" href="$db/dcc/g__world_8qc.html#aac7f083651dfcb99dbbd8afc5e339233" title="spawnfunc" alt="" coords="415,112,500,141"/>
-<area shape="rect" id="node21" href="$d9/df0/weaponstats_8qh.html#a456ded6f061320557b90765d8d34c0f3" title="WeaponStats_ready" alt="" coords="169,271,308,300"/>
-<area shape="rect" id="node25" href="$d3/dcd/scores_8qh.html#adb8e69129e0def95c9d9f5d601f9056a" title="Sets the following results for the current scores entities." alt="" coords="157,217,320,247"/>
-<area shape="rect" id="node33" href="$dc/d73/server_2miscfunctions_8qh.html#a450084bb9c01e6e3fe55aa6027d4580f" title="write_recordmarker" alt="" coords="172,324,305,353"/>
-<area shape="rect" id="node5" href="$d3/df2/sv__cmd_8qc.html#a9162d8c88f72d5d3a8febd33dbf3d9d8" title="GameCommand_printstats" alt="" coords="368,5,547,35"/>
-<area shape="rect" id="node9" href="$db/dcc/g__world_8qc.html#a425e54e058e6e6701cc7fca07a234be9" title="NextLevel" alt="" coords="417,59,497,88"/>
-<area shape="rect" id="node7" href="$d3/df2/sv__cmd_8qc.html#a1a96e1b0fcd5737012d7ad99266c6e5a" title="SERVER_COMMAND" alt="" coords="596,5,751,35"/>
-<area shape="rect" id="node11" href="$d7/d97/g__world_8qh.html#a233af455133bc7ba4e3e100115bf2885" title="CheckRules_World" alt="" coords="607,124,740,153"/>
-<area shape="rect" id="node14" href="$d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1" title="StartFrame" alt="" coords="825,124,911,153"/>
-<area shape="rect" id="node23" href="$d9/df0/weaponstats_8qh.html#aa8f9d7c732fe1401e1ee110adfafa840" title="WeaponStats_Shutdown" alt="" coords="375,272,540,301"/>
-<area shape="rect" id="node28" href="$db/dcc/g__world_8qc.html#a848916ce8897f8d005e11fe3614a4762" title="WinningCondition_Assault" alt="" coords="371,219,544,248"/>
-<area shape="rect" id="node30" href="$db/dcc/g__world_8qc.html#a78c0ed0111dcca8924305a46bbf880bd" title="WinningCondition_Scores" alt="" coords="372,165,543,195"/>
-<area shape="rect" id="node35" href="$d6/d3b/race_8qc.html#ab63b3f030b81cc07f9f02edfcf12d07f" title="race_setTime" alt="" coords="407,325,508,355"/>
-<area shape="rect" id="node37" href="$d6/d3b/race_8qc.html#a67d4330e2cc2507d55de968501e8de67" title="race_SendTime" alt="" coords="617,325,729,355"/>
-<area shape="rect" id="node39" href="$d6/d3b/race_8qc.html#a9fde3e6d09915a98f33d67aed4235692" title="checkpoint_passed" alt="" coords="801,325,935,355"/>
-<area shape="rect" id="node41" href="$d6/d3b/race_8qc.html#ac809ddb29c364ac0d3c649a2837d855f" title="checkpoint_touch" alt="" coords="985,299,1108,328"/>
-<area shape="rect" id="node45" href="$d6/d3b/race_8qc.html#abd5c3d65d6e5a1541b75db05744bf44a" title="checkpoint_use" alt="" coords="991,352,1103,381"/>
-<area shape="rect" id="node43" href="$d6/d3b/race_8qc.html#a6875d9a76e72fefc380a22b30485cd5c" title="spawnfunc" alt="" coords="1157,325,1243,355"/>
+<map id="GetGametype" name="GetGametype">
+<area shape="rect" id="node2" href="$d7/d97/g__world_8qh.html#a1207e599d7420b0af40007a89426efec" title="DumpStats" alt="" coords="195,56,283,83"/>
+<area shape="rect" id="node8" href="$dc/d73/server_2miscfunctions_8qh.html#ae29e06e5cb547b4c30dcb593cf967fdb" title="readlevelcvars" alt="" coords="185,157,292,184"/>
+<area shape="rect" id="node9" href="$db/dcc/g__world_8qc.html#aac7f083651dfcb99dbbd8afc5e339233" title="spawnfunc" alt="" coords="415,107,500,133"/>
+<area shape="rect" id="node10" href="$d9/df0/weaponstats_8qh.html#a456ded6f061320557b90765d8d34c0f3" title="WeaponStats_ready" alt="" coords="169,259,309,285"/>
+<area shape="rect" id="node12" href="$d3/dcd/scores_8qh.html#adb8e69129e0def95c9d9f5d601f9056a" title="Sets the following results for the current scores entities. " alt="" coords="157,208,320,235"/>
+<area shape="rect" id="node15" href="$dc/d73/server_2miscfunctions_8qh.html#a450084bb9c01e6e3fe55aa6027d4580f" title="write_recordmarker" alt="" coords="172,309,305,336"/>
+<area shape="rect" id="node3" href="$d3/df2/sv__cmd_8qc.html#a9162d8c88f72d5d3a8febd33dbf3d9d8" title="GameCommand_printstats" alt="" coords="368,5,547,32"/>
+<area shape="rect" id="node5" href="$db/dcc/g__world_8qc.html#a425e54e058e6e6701cc7fca07a234be9" title="NextLevel" alt="" coords="417,56,498,83"/>
+<area shape="rect" id="node4" href="$d3/df2/sv__cmd_8qc.html#a1a96e1b0fcd5737012d7ad99266c6e5a" title="SERVER_COMMAND" alt="" coords="595,5,751,32"/>
+<area shape="rect" id="node6" href="$d7/d97/g__world_8qh.html#a233af455133bc7ba4e3e100115bf2885" title="CheckRules_World" alt="" coords="606,119,741,145"/>
+<area shape="rect" id="node7" href="$d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1" title="StartFrame" alt="" coords="825,119,911,145"/>
+<area shape="rect" id="node11" href="$d9/df0/weaponstats_8qh.html#aa8f9d7c732fe1401e1ee110adfafa840" title="WeaponStats_Shutdown" alt="" coords="374,259,541,285"/>
+<area shape="rect" id="node13" href="$db/dcc/g__world_8qc.html#a848916ce8897f8d005e11fe3614a4762" title="WinningCondition_Assault" alt="" coords="370,208,545,235"/>
+<area shape="rect" id="node14" href="$db/dcc/g__world_8qc.html#a78c0ed0111dcca8924305a46bbf880bd" title="WinningCondition_Scores" alt="" coords="371,157,543,184"/>
+<area shape="rect" id="node16" href="$d6/d3b/race_8qc.html#ab63b3f030b81cc07f9f02edfcf12d07f" title="race_setTime" alt="" coords="407,309,508,336"/>
+<area shape="rect" id="node17" href="$d6/d3b/race_8qc.html#a67d4330e2cc2507d55de968501e8de67" title="race_SendTime" alt="" coords="617,309,730,336"/>
+<area shape="rect" id="node18" href="$d6/d3b/race_8qc.html#a9fde3e6d09915a98f33d67aed4235692" title="checkpoint_passed" alt="" coords="801,309,935,336"/>
+<area shape="rect" id="node19" href="$d6/d3b/race_8qc.html#ac809ddb29c364ac0d3c649a2837d855f" title="checkpoint_touch" alt="" coords="985,284,1109,311"/>
+<area shape="rect" id="node21" href="$d6/d3b/race_8qc.html#abd5c3d65d6e5a1541b75db05744bf44a" title="checkpoint_use" alt="" coords="990,335,1103,361"/>
+<area shape="rect" id="node20" href="$d6/d3b/race_8qc.html#a6875d9a76e72fefc380a22b30485cd5c" title="spawnfunc" alt="" coords="1157,309,1243,336"/>
 </map>

@@ -1,5 +1,8 @@
 var effectinfo__ctf_8inc =
 [
+    [ "cap", "d7/d16/effectinfo__ctf_8inc.html#a402c648c54311178d0b7a802721d0077", null ],
+    [ "flag_touch", "d7/d16/effectinfo__ctf_8inc.html#a6d93f2c8d9abc0c40c571aa365bbffd9", null ],
+    [ "pass", "d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95", null ],
     [ "cap", "d7/d16/effectinfo__ctf_8inc.html#a6f2b376dbc94981ee65efb8dc2ea6706", null ],
     [ "cap", "d7/d16/effectinfo__ctf_8inc.html#a6fc5382131c33904a608bf4cf3ca8f5b", null ],
     [ "flag_touch", "d7/d16/effectinfo__ctf_8inc.html#aec7fa2cd8b4b21ca066ceba7d1144d1e", null ],

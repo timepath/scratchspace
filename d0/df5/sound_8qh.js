@@ -7,6 +7,10 @@ var sound_8qh =
     [ "Sound_fixpath", "d0/df5/sound_8qh.html#a2e54c7df70c48267e1b7e0568776ba0b", null ],
     [ "SOUND_H", "d0/df5/sound_8qh.html#abd9a4c21bcfb1e13af9948a03421c06c", null ],
     [ "tryext", "d0/df5/sound_8qh.html#a03b0aea621721da3d1c54e3dcc99e4c8", null ],
+    [ "_Sound_fixpath", "d0/df5/sound_8qh.html#ac9b429b7924cfc7d494968e1f72b2b4d", null ],
+    [ "if", "d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258", null ],
+    [ "LOG_TRACEF", "d0/df5/sound_8qh.html#a51b32ff0a76acf272667897ad1b3bfff", null ],
+    [ "precache_sound", "d0/df5/sound_8qh.html#a3394ed670f2b901a92fb5ce6c4fe0455", null ],
     [ "ATTEN_IDLE", "d0/df5/sound_8qh.html#adac39d0ed99391c139261058f3bf93b3", null ],
     [ "ATTEN_LARGE", "d0/df5/sound_8qh.html#afb6fcbf07aa2ed49e154e3921ebef32d", null ],
     [ "ATTEN_MAX", "d0/df5/sound_8qh.html#a7aa0e96b94c2f8101397eaebc4631258", null ],
@@ -30,6 +34,7 @@ var sound_8qh =
     [ "CH_WEAPON_A", "d0/df5/sound_8qh.html#a5a9982ffb7b93b1b060b87401d4ea8dd", null ],
     [ "CH_WEAPON_B", "d0/df5/sound_8qh.html#aed6d064a0c5803ef206ba1f682c01a94", null ],
     [ "CH_WEAPON_SINGLE", "d0/df5/sound_8qh.html#a2b56b5494699c971f6da30c2398781f3", null ],
+    [ "sound_str", "d0/df5/sound_8qh.html#a6695dabea02452ef89f1a180f8531aa8", null ],
     [ "VOL_BASE", "d0/df5/sound_8qh.html#a353d870104b3e8ae2a5fc5584279c735", null ],
     [ "VOL_BASEVOICE", "d0/df5/sound_8qh.html#a12d36c235c3a364016fcec97b9d83078", null ]
 ];

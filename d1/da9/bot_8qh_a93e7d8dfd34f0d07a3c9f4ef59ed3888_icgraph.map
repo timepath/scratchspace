@@ -1,27 +1,27 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$d1/da9/bot_8qh.html#aca1687b4e440adf8111b9438919a0b0a" title="bot_serverframe" alt="" coords="2089,193,2204,223"/>
-<area shape="rect" id="node7" href="$d1/d2a/waypoints_8qh.html#a4c3ec3b037bad6d5773033aa06bd0cb2" title="waypoint_think" alt="" coords="240,145,349,175"/>
-<area shape="rect" id="node5" href="$d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1" title="StartFrame" alt="" coords="2319,193,2404,223"/>
-<area shape="rect" id="node9" href="$d1/d2a/waypoints_8qh.html#a7b401ce3982d2ff32e2581b69ce746b5" title="waypoint_schedulerelink" alt="" coords="399,223,561,252"/>
-<area shape="rect" id="node11" href="$d1/d2a/waypoints_8qh.html#ae49f133401d45e5c5c92261fc85d5fa3" title="waypoint_remove" alt="" coords="661,93,784,123"/>
-<area shape="rect" id="node20" href="$d1/d2a/waypoints_8qh.html#a179e3b775f919c65b3b961ef5c2262b9" title="waypoint_schedulerelinkall" alt="" coords="635,249,811,279"/>
-<area shape="rect" id="node25" href="$d1/d2a/waypoints_8qh.html#ae4dcf64951331ac6bf5a0347af5b8911" title="waypoint_spawnpersonal" alt="" coords="639,303,807,332"/>
-<area shape="rect" id="node48" href="$d7/dc4/waypoints_8qc.html#a4d9c9c1429a9789d7528a57d491efb4f" title="botframe_autowaypoints_createwp" alt="" coords="611,196,835,225"/>
-<area shape="rect" id="node56" href="$d7/d44/cl__impulse_8qc.html#a7c542d1bf421e29048641b4c4d199b42" title="IMPULSE" alt="" coords="683,356,763,385"/>
-<area shape="rect" id="node13" href="$d7/dc4/waypoints_8qc.html#a4f04a7e429856a63db83b70e53d92a30" title="botframe_deleteuselesswaypoints" alt="" coords="1149,92,1368,121"/>
-<area shape="rect" id="node18" href="$d7/d44/cl__impulse_8qc.html#ac17effaa6c759dda3832f2b91fd1b99d" title="IMPULSE" alt="" coords="952,93,1032,123"/>
-<area shape="rect" id="node15" href="$d1/d2a/waypoints_8qh.html#aeffebe843059e44cb1df1bf5b6b7403c" title="botframe_autowaypoints" alt="" coords="1417,156,1580,185"/>
-<area shape="rect" id="node23" href="$d7/d44/cl__impulse_8qc.html#aa7f7d348b09f5544a8da288724253a27" title="IMPULSE" alt="" coords="952,301,1032,331"/>
-<area shape="rect" id="node27" href="$d8/d39/havocbot_8qh.html#a0906df9c2c0ae73a6d5ddf3f30feb666" title="havocbot_moveto" alt="" coords="929,355,1055,384"/>
-<area shape="rect" id="node29" href="$d8/d39/havocbot_8qh.html#a5ba0f97eb0d5ad68542d585381d00ae2" title="havocbot_setupbot" alt="" coords="1193,328,1324,357"/>
-<area shape="rect" id="node31" href="$d1/da9/bot_8qh.html#abd19370e4d61d3549dbbe44826531536" title="bot_clientconnect" alt="" coords="1437,315,1560,344"/>
-<area shape="rect" id="node33" href="$da/d53/cl__client_8qc.html#a085ea0b3ff57991ce31f51def68da821" title="============= ClientConnect" alt="" coords="1631,308,1735,337"/>
-<area shape="rect" id="node35" href="$d1/da9/bot_8qh.html#a5e30e64bee22a5e4abf3bca9ae06f8fc" title="bot_spawn" alt="" coords="1784,304,1869,333"/>
-<area shape="rect" id="node37" href="$d1/da9/bot_8qh.html#a2fee5495c041d9197ee7d76cccd1d889" title="bot_fixcount" alt="" coords="1917,303,2011,332"/>
-<area shape="rect" id="node40" href="$d3/df2/sv__cmd_8qc.html#a8ad5100252af97d4e86e67f233fd6578" title="GameCommand_bot_cmd" alt="" coords="2060,257,2233,287"/>
-<area shape="rect" id="node44" href="$d3/df2/sv__cmd_8qc.html#af60fdb24d415a53dadd63f3d2fe3d04c" title="GameCommand_setbots" alt="" coords="2064,311,2229,340"/>
-<area shape="rect" id="node42" href="$d3/df2/sv__cmd_8qc.html#a490f715d9315ed9afe87514d6e4aac02" title="SERVER_COMMAND" alt="" coords="2284,257,2439,287"/>
-<area shape="rect" id="node46" href="$d3/df2/sv__cmd_8qc.html#a53264788ea69deca9531d76139e51751" title="SERVER_COMMAND" alt="" coords="2284,311,2439,340"/>
-<area shape="rect" id="node50" href="$d7/dc4/waypoints_8qc.html#afe185aa6fad31214f669f13f08a37b2e" title="botframe_autowaypoints_fix_from" alt="" coords="883,197,1101,227"/>
-<area shape="rect" id="node52" href="$d7/dc4/waypoints_8qc.html#a01e8fff3ff689e909ba40e64f7a65053" title="botframe_autowaypoints_fix" alt="" coords="1167,156,1351,185"/>
+<map id="bot_calculate_stepheightvec" name="bot_calculate_stepheightvec">
+<area shape="rect" id="node2" href="$d1/da9/bot_8qh.html#aca1687b4e440adf8111b9438919a0b0a" title="bot_serverframe" alt="" coords="1990,216,2106,243"/>
+<area shape="rect" id="node4" href="$d1/d2a/waypoints_8qh.html#a4c3ec3b037bad6d5773033aa06bd0cb2" title="waypoint_think" alt="" coords="240,152,349,179"/>
+<area shape="rect" id="node3" href="$d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1" title="StartFrame" alt="" coords="2219,216,2306,243"/>
+<area shape="rect" id="node5" href="$d1/d2a/waypoints_8qh.html#a7b401ce3982d2ff32e2581b69ce746b5" title="waypoint_schedulerelink" alt="" coords="398,232,562,259"/>
+<area shape="rect" id="node6" href="$d1/d2a/waypoints_8qh.html#ae49f133401d45e5c5c92261fc85d5fa3" title="waypoint_remove" alt="" coords="638,93,762,120"/>
+<area shape="rect" id="node10" href="$d1/d2a/waypoints_8qh.html#a179e3b775f919c65b3b961ef5c2262b9" title="waypoint_schedulerelinkall" alt="" coords="611,261,789,288"/>
+<area shape="rect" id="node12" href="$d1/d2a/waypoints_8qh.html#ae4dcf64951331ac6bf5a0347af5b8911" title="waypoint_spawnpersonal" alt="" coords="616,312,784,339"/>
+<area shape="rect" id="node23" href="$d7/dc4/waypoints_8qc.html#a4d9c9c1429a9789d7528a57d491efb4f" title="botframe_autowaypoints\l_createwp" alt="" coords="618,195,782,237"/>
+<area shape="rect" id="node26" href="$d7/d44/cl__impulse_8qc.html#a7c542d1bf421e29048641b4c4d199b42" title="IMPULSE" alt="" coords="659,363,741,389"/>
+<area shape="rect" id="node7" href="$d7/dc4/waypoints_8qc.html#a4f04a7e429856a63db83b70e53d92a30" title="botframe_deleteuselesswaypoints" alt="" coords="1051,68,1269,95"/>
+<area shape="rect" id="node9" href="$d7/d44/cl__impulse_8qc.html#ac17effaa6c759dda3832f2b91fd1b99d" title="IMPULSE" alt="" coords="879,93,961,120"/>
+<area shape="rect" id="node8" href="$d1/d2a/waypoints_8qh.html#aeffebe843059e44cb1df1bf5b6b7403c" title="botframe_autowaypoints" alt="" coords="1318,173,1482,200"/>
+<area shape="rect" id="node11" href="$d7/d44/cl__impulse_8qc.html#aa7f7d348b09f5544a8da288724253a27" title="IMPULSE" alt="" coords="879,312,961,339"/>
+<area shape="rect" id="node13" href="$d8/d39/havocbot_8qh.html#a0906df9c2c0ae73a6d5ddf3f30feb666" title="havocbot_moveto" alt="" coords="857,363,983,389"/>
+<area shape="rect" id="node14" href="$d8/d39/havocbot_8qh.html#a5ba0f97eb0d5ad68542d585381d00ae2" title="havocbot_setupbot" alt="" coords="1094,356,1226,383"/>
+<area shape="rect" id="node15" href="$d1/da9/bot_8qh.html#abd19370e4d61d3549dbbe44826531536" title="bot_clientconnect" alt="" coords="1338,349,1462,376"/>
+<area shape="rect" id="node16" href="$da/d53/cl__client_8qc.html#a085ea0b3ff57991ce31f51def68da821" title=" ClientConnect " alt="" coords="1531,337,1637,364"/>
+<area shape="rect" id="node17" href="$d1/da9/bot_8qh.html#a5e30e64bee22a5e4abf3bca9ae06f8fc" title="bot_spawn" alt="" coords="1685,324,1771,351"/>
+<area shape="rect" id="node18" href="$d1/da9/bot_8qh.html#a2fee5495c041d9197ee7d76cccd1d889" title="bot_fixcount" alt="" coords="1819,319,1912,345"/>
+<area shape="rect" id="node19" href="$d3/df2/sv__cmd_8qc.html#a8ad5100252af97d4e86e67f233fd6578" title="GameCommand_bot_cmd" alt="" coords="1961,289,2135,316"/>
+<area shape="rect" id="node21" href="$d3/df2/sv__cmd_8qc.html#af60fdb24d415a53dadd63f3d2fe3d04c" title="GameCommand_setbots" alt="" coords="1965,340,2131,367"/>
+<area shape="rect" id="node20" href="$d3/df2/sv__cmd_8qc.html#a490f715d9315ed9afe87514d6e4aac02" title="SERVER_COMMAND" alt="" coords="2185,289,2341,316"/>
+<area shape="rect" id="node22" href="$d3/df2/sv__cmd_8qc.html#a53264788ea69deca9531d76139e51751" title="SERVER_COMMAND" alt="" coords="2185,340,2341,367"/>
+<area shape="rect" id="node24" href="$d7/dc4/waypoints_8qc.html#afe185aa6fad31214f669f13f08a37b2e" title="botframe_autowaypoints\l_fix_from" alt="" coords="838,195,1002,237"/>
+<area shape="rect" id="node25" href="$d7/dc4/waypoints_8qc.html#a01e8fff3ff689e909ba40e64f7a65053" title="botframe_autowaypoints_fix" alt="" coords="1067,173,1253,200"/>
 </map>

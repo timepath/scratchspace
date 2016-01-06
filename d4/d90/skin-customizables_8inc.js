@@ -1,6 +1,6 @@
-var skin-customizables_8inc =
+var skin_customizables_8inc =
 [
-    [ "SKINFLOAT", "d4/d90/skin-customizables_8inc.html#a3bba4d9d7328513fe27325e49a2a9e80", null ],
+    [ "SKINFLOAT", "d4/d90/skin-customizables_8inc.html#a143e3a0b0e24174a31e0bd71ea604f00", null ],
     [ "SKINFLOAT", "d4/d90/skin-customizables_8inc.html#aae53c6e877f0e9ebe5e4b2f5a3438821", null ],
     [ "SKINFLOAT", "d4/d90/skin-customizables_8inc.html#ac65235fc92c157b62d453021b491ca49", null ],
     [ "SKINFLOAT", "d4/d90/skin-customizables_8inc.html#a80671d05371ec4bbba5a6f4c024acbb2", null ],
@@ -175,8 +175,5 @@ var skin-customizables_8inc =
     [ "SKINVECTOR", "d4/d90/skin-customizables_8inc.html#a75230b4ee81423cdd269f087853a5e18", null ],
     [ "SKINVECTOR", "d4/d90/skin-customizables_8inc.html#a77e4423ea3332dc6af101b6b94ab0124", null ],
     [ "SKINVECTOR", "d4/d90/skin-customizables_8inc.html#aaf4dcbe2fe4525bca28a0fdcad2fd6ec", null ],
-    [ "SKINVECTOR", "d4/d90/skin-customizables_8inc.html#a90069a6ebb4d53ee15c692cad3164ed3", null ],
-    [ "while", "d4/d90/skin-customizables_8inc.html#a678da272f0e1fca17f765d88a9fc9aa7", null ],
-    [ "file", "d4/d90/skin-customizables_8inc.html#ac9772519917a359ca0a2eb6a2d019b40", null ],
-    [ "n", "d4/d90/skin-customizables_8inc.html#ab1b2829a7425bcec97d0ab4e6b3c77f2", null ]
+    [ "SKINVECTOR", "d4/d90/skin-customizables_8inc.html#a90069a6ebb4d53ee15c692cad3164ed3", null ]
 ];

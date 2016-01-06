@@ -1,18 +1,18 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$d6/d27/scripting_8qc.html#ad05ae85d1d6272a6b37b912336e396bd" title="bot_command_executed" alt="" coords="209,32,372,61"/>
-<area shape="rect" id="node33" href="$d6/d27/scripting_8qc.html#a8603187b8346b31e934b21a18f59901f" title="bot_setcurrentcommand" alt="" coords="209,85,372,115"/>
-<area shape="rect" id="node5" href="$d6/d27/scripting_8qc.html#a1a22b0aa6eec47f26c13171affa86257" title="bot_execute_commands_once" alt="" coords="423,59,620,88"/>
-<area shape="rect" id="node7" href="$d8/d14/scripting_8qh.html#a4329fc05705889f2cf7997d432b4eca5" title="bot_execute_commands" alt="" coords="671,59,833,88"/>
-<area shape="rect" id="node9" href="$d8/d39/havocbot_8qh.html#a2b3ecfff0cb23c75cc8cd773153e91f2" title="havocbot_ai" alt="" coords="884,59,975,88"/>
-<area shape="rect" id="node11" href="$d8/d39/havocbot_8qh.html#a5ba0f97eb0d5ad68542d585381d00ae2" title="havocbot_setupbot" alt="" coords="1025,59,1156,88"/>
-<area shape="rect" id="node13" href="$d1/da9/bot_8qh.html#abd19370e4d61d3549dbbe44826531536" title="bot_clientconnect" alt="" coords="1207,59,1329,88"/>
-<area shape="rect" id="node15" href="$da/d53/cl__client_8qc.html#a085ea0b3ff57991ce31f51def68da821" title="============= ClientConnect" alt="" coords="1380,59,1484,88"/>
-<area shape="rect" id="node17" href="$d1/da9/bot_8qh.html#a5e30e64bee22a5e4abf3bca9ae06f8fc" title="bot_spawn" alt="" coords="1533,59,1619,88"/>
-<area shape="rect" id="node19" href="$d1/da9/bot_8qh.html#a2fee5495c041d9197ee7d76cccd1d889" title="bot_fixcount" alt="" coords="1667,59,1760,88"/>
-<area shape="rect" id="node21" href="$d1/da9/bot_8qh.html#aca1687b4e440adf8111b9438919a0b0a" title="bot_serverframe" alt="" coords="1839,5,1953,35"/>
-<area shape="rect" id="node25" href="$d3/df2/sv__cmd_8qc.html#a8ad5100252af97d4e86e67f233fd6578" title="GameCommand_bot_cmd" alt="" coords="1809,59,1983,88"/>
-<area shape="rect" id="node29" href="$d3/df2/sv__cmd_8qc.html#af60fdb24d415a53dadd63f3d2fe3d04c" title="GameCommand_setbots" alt="" coords="1813,112,1979,141"/>
-<area shape="rect" id="node23" href="$d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1" title="StartFrame" alt="" coords="2068,5,2153,35"/>
-<area shape="rect" id="node27" href="$d3/df2/sv__cmd_8qc.html#a490f715d9315ed9afe87514d6e4aac02" title="SERVER_COMMAND" alt="" coords="2033,59,2188,88"/>
-<area shape="rect" id="node31" href="$d3/df2/sv__cmd_8qc.html#a53264788ea69deca9531d76139e51751" title="SERVER_COMMAND" alt="" coords="2033,112,2188,141"/>
+<map id="bot_dequeuecommand" name="bot_dequeuecommand">
+<area shape="rect" id="node2" href="$d6/d27/scripting_8qc.html#ad05ae85d1d6272a6b37b912336e396bd" title="bot_command_executed" alt="" coords="209,31,373,57"/>
+<area shape="rect" id="node17" href="$d6/d27/scripting_8qc.html#a8603187b8346b31e934b21a18f59901f" title="bot_setcurrentcommand" alt="" coords="209,81,372,108"/>
+<area shape="rect" id="node3" href="$d6/d27/scripting_8qc.html#a1a22b0aa6eec47f26c13171affa86257" title="bot_execute_commands_once" alt="" coords="422,56,621,83"/>
+<area shape="rect" id="node4" href="$d8/d14/scripting_8qh.html#a4329fc05705889f2cf7997d432b4eca5" title="bot_execute_commands" alt="" coords="670,56,834,83"/>
+<area shape="rect" id="node5" href="$d8/d39/havocbot_8qh.html#a2b3ecfff0cb23c75cc8cd773153e91f2" title="havocbot_ai" alt="" coords="883,56,975,83"/>
+<area shape="rect" id="node6" href="$d8/d39/havocbot_8qh.html#a5ba0f97eb0d5ad68542d585381d00ae2" title="havocbot_setupbot" alt="" coords="1025,56,1157,83"/>
+<area shape="rect" id="node7" href="$d1/da9/bot_8qh.html#abd19370e4d61d3549dbbe44826531536" title="bot_clientconnect" alt="" coords="1206,56,1330,83"/>
+<area shape="rect" id="node8" href="$da/d53/cl__client_8qc.html#a085ea0b3ff57991ce31f51def68da821" title=" ClientConnect " alt="" coords="1379,56,1485,83"/>
+<area shape="rect" id="node9" href="$d1/da9/bot_8qh.html#a5e30e64bee22a5e4abf3bca9ae06f8fc" title="bot_spawn" alt="" coords="1533,56,1619,83"/>
+<area shape="rect" id="node10" href="$d1/da9/bot_8qh.html#a2fee5495c041d9197ee7d76cccd1d889" title="bot_fixcount" alt="" coords="1667,56,1760,83"/>
+<area shape="rect" id="node11" href="$d1/da9/bot_8qh.html#aca1687b4e440adf8111b9438919a0b0a" title="bot_serverframe" alt="" coords="1838,5,1954,32"/>
+<area shape="rect" id="node13" href="$d3/df2/sv__cmd_8qc.html#a8ad5100252af97d4e86e67f233fd6578" title="GameCommand_bot_cmd" alt="" coords="1809,56,1983,83"/>
+<area shape="rect" id="node15" href="$d3/df2/sv__cmd_8qc.html#af60fdb24d415a53dadd63f3d2fe3d04c" title="GameCommand_setbots" alt="" coords="1813,107,1979,133"/>
+<area shape="rect" id="node12" href="$d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1" title="StartFrame" alt="" coords="2067,5,2154,32"/>
+<area shape="rect" id="node14" href="$d3/df2/sv__cmd_8qc.html#a490f715d9315ed9afe87514d6e4aac02" title="SERVER_COMMAND" alt="" coords="2033,56,2189,83"/>
+<area shape="rect" id="node16" href="$d3/df2/sv__cmd_8qc.html#a53264788ea69deca9531d76139e51751" title="SERVER_COMMAND" alt="" coords="2033,107,2189,133"/>
 </map>

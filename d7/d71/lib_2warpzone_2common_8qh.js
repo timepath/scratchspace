@@ -1,5 +1,11 @@
 var lib_2warpzone_2common_8qh =
 [
+    [ "BITCLR", "d7/d71/lib_2warpzone_2common_8qh.html#a98fd61e000412d1e33408f3c0b3145d3", null ],
+    [ "BITCLR_ASSIGN", "d7/d71/lib_2warpzone_2common_8qh.html#a69a1cd9231b0e5e94f20cc3022c2c8e2", null ],
+    [ "BITSET", "d7/d71/lib_2warpzone_2common_8qh.html#af6799ea240e508a976ba685194413700", null ],
+    [ "BITSET_ASSIGN", "d7/d71/lib_2warpzone_2common_8qh.html#a291fdc4bb7f7020fe81291cd0e43aec6", null ],
+    [ "BITXOR", "d7/d71/lib_2warpzone_2common_8qh.html#aeddccd5915d0704cb965477446707db5", null ],
+    [ "BITXOR_ASSIGN", "d7/d71/lib_2warpzone_2common_8qh.html#af237b225c4ce5816d3d14362818addab", null ],
     [ "EXACTTRIGGER_INIT", "d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0", null ],
     [ "EXACTTRIGGER_TOUCH", "d7/d71/lib_2warpzone_2common_8qh.html#aafa3ae74c44012515bfa1dc1c20b37df", null ],
     [ "LIB_WARPZONE_COMMON_H", "d7/d71/lib_2warpzone_2common_8qh.html#accccbdb4dd610515fee8656ef7fc0076", null ],

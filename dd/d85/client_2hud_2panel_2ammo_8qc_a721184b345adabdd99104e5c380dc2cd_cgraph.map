@@ -1,18 +1,20 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="417,294,473,324"/>
-<area shape="rect" id="node5" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="203,134,245,164"/>
-<area shape="rect" id="node7" href="$dd/d85/client_2hud_2panel_2ammo_8qc.html#a6af13b0895f71c1f00adf36611340085" title="DrawAmmoItem" alt="" coords="165,188,283,217"/>
-<area shape="rect" id="node26" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="615,28,673,57"/>
-<area shape="rect" id="node29" href="$dd/d85/client_2hud_2panel_2ammo_8qc.html#a7d3e5ccc6f5b90cd069a6d3aba3cfbd2" title="DrawAmmoNades" alt="" coords="160,292,288,321"/>
-<area shape="rect" id="node31" href="$d7/d15/hud_8qc.html#aa2a5280f52a32d302277253736cc04bb" title="HUD_GetRowCount" alt="" coords="153,346,295,376"/>
-<area shape="rect" id="node10" href="$dc/d98/client_2miscfunctions_8qc.html#a0ded0b9dc55f9f344b7b5f7fc9a487b8" title="drawstring_aspect" alt="" coords="381,241,509,270"/>
-<area shape="rect" id="node14" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="424,188,467,217"/>
-<area shape="rect" id="node16" href="$de/dfa/common_2weapons_2all_8qc.html#a908d57b826ca581e66255d228e1a7666" title="GetAmmoPicture" alt="" coords="384,30,507,60"/>
-<area shape="rect" id="node18" href="$d7/d15/hud_8qc.html#a41b7823d1cc3d0f46d9780fadf782eba" title="HUD_Panel_DrawProgressBar" alt="" coords="344,134,547,164"/>
-<area shape="rect" id="node12" href="$d8/de2/menudefs_8qc.html#ae8ecd1beaa4d05a475bf27bbf7e0868c" title="drawstring" alt="" coords="603,241,685,270"/>
-<area shape="rect" id="node20" href="$d4/d0c/csprogsdefs_8qc.html#a07c016e00e6f80d5012980202d770138" title="drawsubpic" alt="" coords="600,188,688,217"/>
-<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#a66ae6f59199ebf4780d2bf9681f2b0c7" title="precache_pic" alt="" coords="595,81,693,110"/>
-<area shape="rect" id="node24" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="617,134,671,164"/>
-<area shape="rect" id="node34" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="423,401,468,430"/>
-<area shape="rect" id="node36" href="$d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3" title="sqrt" alt="" coords="424,348,467,377"/>
+<map id="HUD_Ammo" name="HUD_Ammo">
+<area shape="rect" id="node2" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="417,285,474,312"/>
+<area shape="rect" id="node3" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="203,133,245,160"/>
+<area shape="rect" id="node4" href="$dd/d85/client_2hud_2panel_2ammo_8qc.html#a6af13b0895f71c1f00adf36611340085" title="DrawAmmoItem" alt="" coords="165,184,283,210"/>
+<area shape="rect" id="node14" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="615,6,673,33"/>
+<area shape="rect" id="node15" href="$dd/d85/client_2hud_2panel_2ammo_8qc.html#a7d3e5ccc6f5b90cd069a6d3aba3cfbd2" title="DrawAmmoNades" alt="" coords="159,285,289,312"/>
+<area shape="rect" id="node16" href="$d7/d15/hud_8qc.html#aa2a5280f52a32d302277253736cc04bb" title="HUD_GetRowCount" alt="" coords="153,336,295,362"/>
+<area shape="rect" id="node19" href="$db/d9f/state_8qh.html#a917978fc72821486ab248ab4253cf6e8" title="STAT" alt="" coords="196,386,252,413"/>
+<area shape="rect" id="node5" href="$dc/d98/client_2miscfunctions_8qc.html#a0ded0b9dc55f9f344b7b5f7fc9a487b8" title="drawstring_aspect" alt="" coords="381,234,509,261"/>
+<area shape="rect" id="node7" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="423,184,467,210"/>
+<area shape="rect" id="node8" href="$de/dfa/common_2weapons_2all_8qc.html#a908d57b826ca581e66255d228e1a7666" title="GetAmmoPicture" alt="" coords="384,32,507,58"/>
+<area shape="rect" id="node9" href="$d7/d15/hud_8qc.html#a41b7823d1cc3d0f46d9780fadf782eba" title="HUD_Panel_DrawProgressBar" alt="" coords="344,133,547,160"/>
+<area shape="rect" id="node6" href="$d8/de2/menudefs_8qc.html#ae8ecd1beaa4d05a475bf27bbf7e0868c" title="drawstring" alt="" coords="603,260,685,286"/>
+<area shape="rect" id="node10" href="$d4/d0c/csprogsdefs_8qc.html#a07c016e00e6f80d5012980202d770138" title="drawsubpic" alt="" coords="600,158,688,185"/>
+<area shape="rect" id="node11" href="$d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258" title="if" alt="" coords="625,209,663,236"/>
+<area shape="rect" id="node12" href="$d8/de2/menudefs_8qc.html#a66ae6f59199ebf4780d2bf9681f2b0c7" title="precache_pic" alt="" coords="595,57,693,84"/>
+<area shape="rect" id="node13" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="617,108,671,134"/>
+<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="422,386,469,413"/>
+<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3" title="sqrt" alt="" coords="423,336,467,362"/>
 </map>

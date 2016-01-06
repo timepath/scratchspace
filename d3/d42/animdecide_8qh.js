@@ -5,11 +5,13 @@ var animdecide_8qh =
     [ "ReadAnimation", "d3/d42/animdecide_8qh.html#a81cf40f2ec96a5416603dac69b49417a", null ],
     [ "REGISTER_ANIMATION", "d3/d42/animdecide_8qh.html#a7a2ccb2c125986dd4cbad525477c65e7", null ],
     [ "WriteAnimation", "d3/d42/animdecide_8qh.html#a55a56b72171661156906a8058ae2507e", null ],
+    [ "anim_vec", "d3/d42/animdecide_8qh.html#ad816e3692e22e86c2911ffc2f8270258", null ],
     [ "animdecide_load_if_needed", "d3/d42/animdecide_8qh.html#a8f38a0cd62ac216ff6478af869780fb3", null ],
     [ "animdecide_setaction", "d3/d42/animdecide_8qh.html#ada84f7ee6c4814b1cd8d979586eb61d1", null ],
     [ "animdecide_setframes", "d3/d42/animdecide_8qh.html#a520d594e9f5e9c04b312b56b6c3cfb4b", null ],
     [ "animdecide_setimplicitstate", "d3/d42/animdecide_8qh.html#a4685bb761c95f73d3d50a8e231b68e7b", null ],
     [ "animdecide_setstate", "d3/d42/animdecide_8qh.html#aac8cda37db89a45a301c788ad9ee8cc5", null ],
+    [ "REGISTER_ANIMATION", "d3/d42/animdecide_8qh.html#a471d0426f798701e3835a7aa15332c5b", null ],
     [ "REGISTER_ANIMATION", "d3/d42/animdecide_8qh.html#a268ac8bc7d55bb2ad90a4e0adf1caba3", null ],
     [ "REGISTER_ANIMATION", "d3/d42/animdecide_8qh.html#ada31e715a4a2cb3a2f09a7a3f313ff51", null ],
     [ "REGISTER_ANIMATION", "d3/d42/animdecide_8qh.html#af664e2b9a27919e542344e5dcb0913b0", null ],
@@ -70,5 +72,6 @@ var animdecide_8qh =
     [ "ANIMSTATE_DEAD2", "d3/d42/animdecide_8qh.html#abad9f656232e53a97101bec7b1d81438", null ],
     [ "ANIMSTATE_DUCK", "d3/d42/animdecide_8qh.html#accc3da46b3f22b420e26d18291de5c91", null ],
     [ "ANIMSTATE_FOLLOW", "d3/d42/animdecide_8qh.html#a8beba332a4a34eb514d5f4fe9bffce60", null ],
-    [ "ANIMSTATE_FROZEN", "d3/d42/animdecide_8qh.html#a071b6a93423a39766db46893c30f387b", null ]
+    [ "ANIMSTATE_FROZEN", "d3/d42/animdecide_8qh.html#a071b6a93423a39766db46893c30f387b", null ],
+    [ "return", "d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2", null ]
 ];

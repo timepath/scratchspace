@@ -1,23 +1,24 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a368f7c4b2bb0959e80033bce124f640d" title="WarpZone_TraceBox_ThroughZone" alt="" coords="233,336,460,366"/>
-<area shape="rect" id="node54" href="$d1/d6a/lib_2warpzone_2common_8qc.html#ad85c66d00f8e448f199e2300f2d0f881" title="WarpZone_TrailParticles_trace_callback" alt="" coords="219,390,475,419"/>
-<area shape="rect" id="node5" href="$d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f" title="entity" alt="" coords="1461,168,1515,198"/>
-<area shape="rect" id="node7" href="$d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd" title="LOG_TRACE" alt="" coords="1437,296,1539,326"/>
-<area shape="rect" id="node9" href="$d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4" title="normalize" alt="" coords="589,362,667,391"/>
-<area shape="rect" id="node11" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1716,464,1775,494"/>
-<area shape="rect" id="node13" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a191c61933b716c17f4aaac24e9049664" title="WarpZone_Find" alt="" coords="571,234,685,263"/>
-<area shape="rect" id="node24" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a709b87db314dc8aaf6df3d3adc456b1d" title="WarpZone_MakeAllOther" alt="" coords="544,168,712,198"/>
-<area shape="rect" id="node28" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a9d0c128ebb30061395684b1563d9ad4a" title="WarpZone_MakeAllSolid" alt="" coords="545,115,711,144"/>
-<area shape="rect" id="node32" href="$d1/d6a/lib_2warpzone_2common_8qc.html#ade15efbb2449932e8874907371c76a39" title="WarpZone_Trace_AddTransform" alt="" coords="523,466,733,495"/>
-<area shape="rect" id="node47" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a233e264af952b9d8e4a5ccfd7bce53c7" title="WarpZone_Trace_InitTransform" alt="" coords="525,570,731,599"/>
-<area shape="rect" id="node51" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a83f110aec024c6632cd713cf64cb136e" title="WarpZone_TransformOrigin" alt="" coords="1087,571,1268,600"/>
-<area shape="rect" id="node16" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="867,116,909,146"/>
-<area shape="rect" id="node18" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a1b87d3cc5d237220e1d7def92aca4632" title="WarpZoneLib_BoxTouchesBrush" alt="" coords="781,271,995,300"/>
-<area shape="rect" id="node20" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a4a0631162e93630a6ea1d1f7b7b33329" title="WarpZoneLib_BoxTouchesBrush_Recurse" alt="" coords="1043,271,1312,300"/>
-<area shape="rect" id="node34" href="$d1/d6a/lib_2warpzone_2common_8qc.html#af5e5f1b36ad17b8f9170a150aa5c8967" title="WarpZone_Accumulator_Add" alt="" coords="792,466,984,495"/>
-<area shape="rect" id="node36" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a2604ee52b90450a5de9a19d30aa8373f" title="WarpZone_Accumulator_AddTransform" alt="" coords="1052,491,1303,520"/>
-<area shape="rect" id="node38" href="$df/d13/anglestransform_8qc.html#ac06d70078794b4df23a48f86b7aabf21" title="AnglesTransform_Multiply" alt="" coords="1401,516,1575,546"/>
-<area shape="rect" id="node43" href="$df/d13/anglestransform_8qc.html#a0fdbb008cb55b09916473e7c05b0dfcc" title="AnglesTransform_Multiply_GetPostShift" alt="" coords="1361,570,1615,599"/>
-<area shape="rect" id="node40" href="$df/d13/anglestransform_8qc.html#a6eef2b5d1dcd28a89fa2ab3146011775" title="AnglesTransform_Apply" alt="" coords="1665,570,1825,599"/>
-<area shape="rect" id="node49" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a1ffbdf285707f8412653ec2a099b8a02" title="WarpZone_Accumulator_Clear" alt="" coords="788,570,988,599"/>
+<map id="WarpZone_TrailParticles" name="WarpZone_TrailParticles">
+<area shape="rect" id="node2" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a368f7c4b2bb0959e80033bce124f640d" title="WarpZone_TraceBox_ThroughZone" alt="" coords="219,331,447,357"/>
+<area shape="rect" id="node23" href="$d1/d6a/lib_2warpzone_2common_8qc.html#ad85c66d00f8e448f199e2300f2d0f881" title="WarpZone_TrailParticles\l_trace_callback" alt="" coords="251,382,416,423"/>
+<area shape="rect" id="node3" href="$d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f" title="entity" alt="" coords="1337,165,1391,192"/>
+<area shape="rect" id="node4" href="$d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd" title="LOG_TRACE" alt="" coords="1313,304,1415,331"/>
+<area shape="rect" id="node5" href="$d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4" title="normalize" alt="" coords="562,356,641,383"/>
+<area shape="rect" id="node6" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb" title="vector" alt="" coords="1335,407,1393,433"/>
+<area shape="rect" id="node7" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a191c61933b716c17f4aaac24e9049664" title="WarpZone_Find" alt="" coords="544,247,659,273"/>
+<area shape="rect" id="node11" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a709b87db314dc8aaf6df3d3adc456b1d" title="WarpZone_MakeAllOther" alt="" coords="517,165,685,192"/>
+<area shape="rect" id="node12" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a9d0c128ebb30061395684b1563d9ad4a" title="WarpZone_MakeAllSolid" alt="" coords="519,115,684,141"/>
+<area shape="rect" id="node13" href="$d1/d6a/lib_2warpzone_2common_8qc.html#ade15efbb2449932e8874907371c76a39" title="WarpZone_Trace_AddTransform" alt="" coords="496,457,707,484"/>
+<area shape="rect" id="node20" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a233e264af952b9d8e4a5ccfd7bce53c7" title="WarpZone_Trace_InitTransform" alt="" coords="498,563,705,589"/>
+<area shape="rect" id="node22" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a83f110aec024c6632cd713cf64cb136e" title="WarpZone_TransformOrigin" alt="" coords="1031,549,1214,576"/>
+<area shape="rect" id="node8" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="840,115,883,141"/>
+<area shape="rect" id="node9" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a1b87d3cc5d237220e1d7def92aca4632" title="WarpZoneLib_BoxTouchesBrush" alt="" coords="755,271,968,297"/>
+<area shape="rect" id="node10" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a4a0631162e93630a6ea1d1f7b7b33329" title="WarpZoneLib_BoxTouchesBrush\l_Recurse" alt="" coords="1016,267,1229,309"/>
+<area shape="rect" id="node14" href="$d1/d6a/lib_2warpzone_2common_8qc.html#af5e5f1b36ad17b8f9170a150aa5c8967" title="WarpZone_Accumulator_Add" alt="" coords="765,457,957,484"/>
+<area shape="rect" id="node15" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a2604ee52b90450a5de9a19d30aa8373f" title="WarpZone_Accumulator\l_AddTransform" alt="" coords="1041,458,1204,499"/>
+<area shape="rect" id="node16" href="$df/d13/anglestransform_8qc.html#ac06d70078794b4df23a48f86b7aabf21" title="AnglesTransform_Multiply" alt="" coords="1277,457,1451,484"/>
+<area shape="rect" id="node19" href="$df/d13/anglestransform_8qc.html#a0fdbb008cb55b09916473e7c05b0dfcc" title="AnglesTransform_Multiply\l_GetPostShift" alt="" coords="1277,509,1451,550"/>
+<area shape="rect" id="node17" href="$df/d13/anglestransform_8qc.html#a6eef2b5d1dcd28a89fa2ab3146011775" title="AnglesTransform_Apply" alt="" coords="1499,516,1661,543"/>
+<area shape="rect" id="node18" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1551,457,1609,484"/>
+<area shape="rect" id="node21" href="$d1/d6a/lib_2warpzone_2common_8qc.html#a1ffbdf285707f8412653ec2a099b8a02" title="WarpZone_Accumulator\l_Clear" alt="" coords="780,559,943,601"/>
 </map>
