@@ -1,0 +1,25 @@
+var anglestransform_8qh =
+[
+    [ "fixedmakevectors", "anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e", null ],
+    [ "fixedvectoangles", "anglestransform_8qh.html#ab16e50b7b9398057b0e28c85b20d6ca5", null ],
+    [ "fixedvectoangles2", "anglestransform_8qh.html#a7306b623ecb07a5c62ec3d5b3094e1b7", null ],
+    [ "LIB_WARPZONE_ANGLETRANSFORM_H", "anglestransform_8qh.html#a08ad53e0e6e6d6eb325e356041487557", null ],
+    [ "AnglesTransform_Apply", "anglestransform_8qh.html#a6eef2b5d1dcd28a89fa2ab3146011775", null ],
+    [ "AnglesTransform_ApplyToAngles", "anglestransform_8qh.html#ae62e4ce9337df904e78bc661778ba4e0", null ],
+    [ "AnglesTransform_ApplyToVAngles", "anglestransform_8qh.html#a0e8b572bfcc4dcbdcd63106b1ffbf277", null ],
+    [ "AnglesTransform_FromAngles", "anglestransform_8qh.html#ad8667144313dccb21ab055b7903a4125", null ],
+    [ "AnglesTransform_FromVAngles", "anglestransform_8qh.html#af64b5ad6d44b097e630186f854137e5d", null ],
+    [ "AnglesTransform_Invert", "anglestransform_8qh.html#a8383340e6af9aad3ed3a36610b98055d", null ],
+    [ "AnglesTransform_LeftDivide", "anglestransform_8qh.html#a3e15416efc8d5e17ebc24e871037fca3", null ],
+    [ "AnglesTransform_Multiply", "anglestransform_8qh.html#ac06d70078794b4df23a48f86b7aabf21", null ],
+    [ "AnglesTransform_Multiply_GetPostShift", "anglestransform_8qh.html#a2f9e8c363a97f75b165ce584697baaea", null ],
+    [ "AnglesTransform_Normalize", "anglestransform_8qh.html#a750aab23b894604054f58b46a0276c96", null ],
+    [ "AnglesTransform_PrePostShift_GetPostShift", "anglestransform_8qh.html#ab60788299d5604752e91c6e191a8af9f", null ],
+    [ "AnglesTransform_RightDivide", "anglestransform_8qh.html#a847652083025638d0721b27759d2ec92", null ],
+    [ "AnglesTransform_ToAngles", "anglestransform_8qh.html#a15af3793156583fd0299d2c7d2029f0c", null ],
+    [ "AnglesTransform_ToVAngles", "anglestransform_8qh.html#a84a5233ab143cd9654d618b094d4e1b4", null ],
+    [ "AnglesTransform_TurnDirectionFR", "anglestransform_8qh.html#a3e980438b803ac9b1cc81a157247959d", null ],
+    [ "AnglesTransform_TurnDirectionFU", "anglestransform_8qh.html#aa7b4d823e207f6300ea5503279fb9905", null ],
+    [ "_fixedvectoangles", "anglestransform_8qh.html#a087f14c7e52559b3cc53eddc323b77a0", null ],
+    [ "_fixedvectoangles2", "anglestransform_8qh.html#ab8052308fccf9186235840e7404d9f55", null ]
+];

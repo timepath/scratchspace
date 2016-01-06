@@ -1,0 +1,26 @@
+var globalsound_8qh =
+[
+    [ "GLOBALSOUND_H", "globalsound_8qh.html#a8ae2622788e04675b7cd21bb0583d679", null ],
+    [ "GlobalSounds_from", "globalsound_8qh.html#a5fb0865b819461b71d03295bc3e263c0", null ],
+    [ "PlayerSounds_from", "globalsound_8qh.html#a1f8a6acaa0307f5e57ea172ca84b785a", null ],
+    [ "REGISTER_GLOBALSOUND", "globalsound_8qh.html#a517599a91541c3857c18c659742f96af", null ],
+    [ "REGISTER_PLAYERSOUND", "globalsound_8qh.html#af82f9f032718fd74a2a63db1c527e921", null ],
+    [ "REGISTER_VOICEMSG", "globalsound_8qh.html#af71e173be2de0af430b59f2aae5c47b3", null ],
+    [ "PRECACHE", "globalsound_8qh.html#a8e39938ef99c4d1672b2aa03d96f023f", null ],
+    [ "PrecacheGlobalSound", "globalsound_8qh.html#a0115b049d32f08dfe7bb44d74939ac58", null ],
+    [ "PrecachePlayerSounds", "globalsound_8qh.html#afff52730d3053fc9102cec5246ee16d6", null ],
+    [ "STATIC_INIT", "globalsound_8qh.html#a6948c151db810f7a07799e6979cf78bf", null ],
+    [ "STATIC_INIT", "globalsound_8qh.html#a2b564a6d34ef92bf3abe7fc6c104ce0f", null ],
+    [ "GetPlayerSoundSampleField_notFound", "globalsound_8qh.html#a1ec2f2eda1ed7f5dca01dafdda4e56f9", null ],
+    [ "instanceOfVoiceMessage", "globalsound_8qh.html#aeedefbf23bafa7202fe2fac90c46b86c", null ],
+    [ "m_globalsoundstr", "globalsound_8qh.html#a1757a961937623c2b340288ad97fddbb", null ],
+    [ "m_playersoundfld", "globalsound_8qh.html#a361ab5f1d50af3c1fb9c5353781b262a", null ],
+    [ "m_playersoundstr", "globalsound_8qh.html#a78dd9b943c971af104535f3209dd8cfa", null ],
+    [ "m_playersoundvt", "globalsound_8qh.html#a4f3c9eb7857216603df8bac384a64a0f", null ],
+    [ "VOICETYPE_AUTOTAUNT", "globalsound_8qh.html#ade5a893a0df675ef05a5bd0c946b4419", null ],
+    [ "VOICETYPE_LASTATTACKER", "globalsound_8qh.html#a174e24bd7d11e99d648c9333e3fb4adb", null ],
+    [ "VOICETYPE_LASTATTACKER_ONLY", "globalsound_8qh.html#a253fb1c445160cfbaf8be5e7b7d4ecc8", null ],
+    [ "VOICETYPE_PLAYERSOUND", "globalsound_8qh.html#abd5f85c1bc6552749afa2cade8ef952e", null ],
+    [ "VOICETYPE_TAUNT", "globalsound_8qh.html#a9e6a490b693c3d3600516c74eb58daed", null ],
+    [ "VOICETYPE_TEAMRADIO", "globalsound_8qh.html#afc2182c6e48551ceaedd10c046d041ce", null ]
+];

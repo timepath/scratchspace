@@ -1,0 +1,13 @@
+var server_2cl__player_8qc =
+[
+    [ "calculate_player_respawn_time", "server_2cl__player_8qc.html#a9d529760b279c19bb3b1d15c4da335d1", null ],
+    [ "CopyBody", "server_2cl__player_8qc.html#af4b9c767fca197741365df60235502b2", null ],
+    [ "CopyBody_Think", "server_2cl__player_8qc.html#aff35b55ed62ca838593a42764c926d2a", null ],
+    [ "Drop_Special_Items", "server_2cl__player_8qc.html#a74a2991ad4b1aad6bfc27e899c563d29", null ],
+    [ "MoveToTeam", "server_2cl__player_8qc.html#a543e29ad6e413d453b48e6a62c38363a", null ],
+    [ "player_anim", "server_2cl__player_8qc.html#ac14e291c251b817df4bd7d2f5e6c1d55", null ],
+    [ "player_setupanimsformodel", "server_2cl__player_8qc.html#a9ee21a6aa1bc971b9b06427401524642", null ],
+    [ "PlayerCorpseDamage", "server_2cl__player_8qc.html#a1f636403184e26ea4190e989009ab0a1", null ],
+    [ "PlayerDamage", "server_2cl__player_8qc.html#a7b50d8e84036f411ff923c7d63f7d88f", null ],
+    [ "Say", "server_2cl__player_8qc.html#a507abea5d16c271494b59b0dc812c28f", null ]
+];
