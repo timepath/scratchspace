@@ -1,8 +1,0 @@
-var sv__controlpoint_8qh =
-[
-    [ "CONTROLPOINT_H", "sv__controlpoint_8qh.html#a009134aac697c70b463675f79d5b66ec", null ],
-    [ "CPICON_MAX", "sv__controlpoint_8qh.html#a43e7e64d7f45f7521e913d8b22ced2c1", null ],
-    [ "CPICON_MIN", "sv__controlpoint_8qh.html#a411f4a3f6dd95f6824e02beb5e4253e8", null ],
-    [ "CPSF_SETUP", "sv__controlpoint_8qh.html#a4e21ea690a77be8367e5608dfdebe26f", null ],
-    [ "CPSF_STATUS", "sv__controlpoint_8qh.html#a71fedd372003f8a38071cb6c5ee68e35", null ]
-];

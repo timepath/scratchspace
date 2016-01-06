@@ -1,0 +1,27 @@
+var effectinfo_8qc =
+[
+    [ "DEF", "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862", null ],
+    [ "EFFECTINFO", "dd/d87/effectinfo_8qc.html#ad425a0ea2148626349dd03800e90f7b6", null ],
+    [ "EFFECTINFO_PARSER", "dd/d87/effectinfo_8qc.html#abf96f615930f5438f58a99050ce6856f", null ],
+    [ "EffectInfos_from", "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840", null ],
+    [ "FIELDS", "dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b", null ],
+    [ "MY", "dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802", null ],
+    [ "MY", "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b", null ],
+    [ "MY", "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b", null ],
+    [ "MY", "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b", null ],
+    [ "p", "dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf", null ],
+    [ "p", "dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927", null ],
+    [ "p", "dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927", null ],
+    [ "str_bool", "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6", null ],
+    [ "str_float", "dd/d87/effectinfo_8qc.html#a35d7db2ed6df1ed819677965594dad63", null ],
+    [ "str_string", "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e", null ],
+    [ "str_vector", "dd/d87/effectinfo_8qc.html#a140b69e0765f293f2d0545beefa583c7", null ],
+    [ "SUB", "dd/d87/effectinfo_8qc.html#ab4d36372dc60e3acc49978f79e891995", null ],
+    [ "WRITE", "dd/d87/effectinfo_8qc.html#a196e029eb2adc9808b1e6928e3e1ce23", null ],
+    [ "CONSTRUCTOR", "dd/d87/effectinfo_8qc.html#a32099483f67e2e1d9720b22d3641a14f", null ],
+    [ "effectinfo_dump", "dd/d87/effectinfo_8qc.html#ab54004c150a871ffc834d13a84684e37", null ],
+    [ "effectinfo_read", "dd/d87/effectinfo_8qc.html#a331bcf6c0483f2f74b9ebc3f52b11560", null ],
+    [ "GENERIC_COMMAND", "dd/d87/effectinfo_8qc.html#ae328f1e3b2e9b1cfb1b78938f44f8173", null ],
+    [ "METHOD", "dd/d87/effectinfo_8qc.html#ab449080f70d40df8bf761ec51912e876", null ],
+    [ "METHOD", "dd/d87/effectinfo_8qc.html#ae19857034ea6251f6aba22b00eaacf7a", null ]
+];

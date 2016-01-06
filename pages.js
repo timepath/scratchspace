@@ -1,4 +1,4 @@
 var pages =
 [
-    [ "Deprecated List", "deprecated.html", null ]
+    [ "Deprecated List", "da/d58/deprecated.html", null ]
 ];

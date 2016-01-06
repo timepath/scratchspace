@@ -1,0 +1,25 @@
+var ttt_8qc =
+[
+    [ "REGISTER_MINIGAME", "da/d4b/ttt_8qc.html#a4afede0140af0f88d36f63a79c2d29f3", null ],
+    [ "ttt_find_piece", "da/d4b/ttt_8qc.html#aa02c41396ba53a705bbbe1bf6d07ebf7", null ],
+    [ "ttt_move", "da/d4b/ttt_8qc.html#a2497c595a152ce86acc72100fbf9ec2d", null ],
+    [ "ttt_next_match", "da/d4b/ttt_8qc.html#acbb767866f2bd0a09eae8b342a5ebc91", null ],
+    [ "ttt_valid_tile", "da/d4b/ttt_8qc.html#ac5d6549518553964ff101de6a893488a", null ],
+    [ "ttt_winning_piece", "da/d4b/ttt_8qc.html#a218a2f2645cc7299b82a6dbc538dbb29", null ],
+    [ "ttt_ai", "da/d4b/ttt_8qc.html#aa1025a90b5489cf52fba341629faad63", null ],
+    [ "TTT_LET_CNT", "da/d4b/ttt_8qc.html#a2aedef13328868ea2a6301b22b003ff3", null ],
+    [ "ttt_nexteam", "da/d4b/ttt_8qc.html#a578aec3d7cf07a5170e017f07ddc447f", null ],
+    [ "ttt_npieces", "da/d4b/ttt_8qc.html#a644a9d63b9358a756f0f5687b51ec0f1", null ],
+    [ "TTT_NUM_CNT", "da/d4b/ttt_8qc.html#a8aeb9194b62d23f6473466164639b50e", null ],
+    [ "TTT_SF_PLAYERSCORE", "da/d4b/ttt_8qc.html#a19ee8febd79b249d8475b1f225693f3d", null ],
+    [ "TTT_SF_SINGLEPLAYER", "da/d4b/ttt_8qc.html#a07c1692ff02e2bb14718e24005bdd849", null ],
+    [ "TTT_TILE_SIZE", "da/d4b/ttt_8qc.html#afe08058b4a5c482f117b1746ed241152", null ],
+    [ "TTT_TURN_DRAW", "da/d4b/ttt_8qc.html#a408c73821cc12651d3cb9dae965dae5e", null ],
+    [ "TTT_TURN_NEXT", "da/d4b/ttt_8qc.html#a8fc39bc1d659e2d675ee48c92f669e87", null ],
+    [ "TTT_TURN_PLACE", "da/d4b/ttt_8qc.html#a14ab5d0615cca57d018d6531c5eafc05", null ],
+    [ "TTT_TURN_TEAM", "da/d4b/ttt_8qc.html#a7a79cb6063536f70e4542f33f3b554cc", null ],
+    [ "TTT_TURN_TEAM1", "da/d4b/ttt_8qc.html#a1b1c634281c7cb386363347dbdfa57b8", null ],
+    [ "TTT_TURN_TEAM2", "da/d4b/ttt_8qc.html#a0379494e23b96882c249950a4f4e9829", null ],
+    [ "TTT_TURN_TYPE", "da/d4b/ttt_8qc.html#a0d227fccf64800fa0d9899c4f79e43c4", null ],
+    [ "TTT_TURN_WIN", "da/d4b/ttt_8qc.html#aebb60c3cf258ef9bb0eb9346b50b4d0d", null ]
+];

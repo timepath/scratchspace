@@ -1,9 +1,0 @@
-var csqcprojectile_8qh =
-[
-    [ "CSQCPROJECTILE_H", "csqcprojectile_8qh.html#a63be0bf68d871140ab1480322b45a3e1", null ],
-    [ "CSQCProjectile", "csqcprojectile_8qh.html#afe5dcc66a116aed908f1dc3e5d700d11", null ],
-    [ "CSQCProjectile_Check", "csqcprojectile_8qh.html#a70b20e50e8eacc4a4f59b799ad04b2ea", null ],
-    [ "UpdateCSQCProjectile", "csqcprojectile_8qh.html#a041b0a1ddf8b3bfd790cadc39e07dc7b", null ],
-    [ "UpdateCSQCProjectileAfterTeleport", "csqcprojectile_8qh.html#ae4d3ae90944ee0a34a21572d58c16df0", null ],
-    [ "csqcprojectile_clientanimate", "csqcprojectile_8qh.html#a648559f20af9210bf14eb62a892f0d04", null ]
-];

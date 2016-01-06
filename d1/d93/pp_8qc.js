@@ -1,0 +1,28 @@
+var pp_8qc =
+[
+    [ "pp_find_piece", "d1/d93/pp_8qc.html#a0a1a8d45913a02cf557237efcc93238d", null ],
+    [ "pp_move", "d1/d93/pp_8qc.html#a9b83fc3c40ac5a7f6ef2fee94cf2d9f3", null ],
+    [ "pp_next_match", "d1/d93/pp_8qc.html#a914ec6076e44ab446779049432f84405", null ],
+    [ "pp_setup_pieces", "d1/d93/pp_8qc.html#a631644c2cf099aed4fb43cd9bd27cd59", null ],
+    [ "pp_valid_move", "d1/d93/pp_8qc.html#a4baa71ae1ad68fe8d490d981865cf24b", null ],
+    [ "pp_valid_tile", "d1/d93/pp_8qc.html#aff8ac439155f2d933da35af297586052", null ],
+    [ "pp_winning_piece", "d1/d93/pp_8qc.html#aa2e5cc9e72be7cb7fdf08bd9dffdb135", null ],
+    [ "REGISTER_MINIGAME", "d1/d93/pp_8qc.html#a530776bf068f03e081e69fda776ecdc1", null ],
+    [ "cnt", "d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab", null ],
+    [ "PP_BLOCKED_TEAM", "d1/d93/pp_8qc.html#aad6125afc74315eaf34d2e2f5c5bd06a", null ],
+    [ "pp_curr_piece", "d1/d93/pp_8qc.html#a1d9679e3e49eb53394984cf2b30ff37d", null ],
+    [ "PP_LET_CNT", "d1/d93/pp_8qc.html#a5d846c72dffce3a7b65402c92bb1a353", null ],
+    [ "pp_nexteam", "d1/d93/pp_8qc.html#a8cd13dbbd9967615974406d6f95a0e54", null ],
+    [ "PP_NUM_CNT", "d1/d93/pp_8qc.html#a79d72e3c5387a8b58fa5d13a92590c04", null ],
+    [ "pp_team1_score", "d1/d93/pp_8qc.html#a2d5b1089629f7ee7f1e8ae2fbc5dcd4b", null ],
+    [ "pp_team2_score", "d1/d93/pp_8qc.html#a5b8dc27984bdaaa0dd3ce280523bbe00", null ],
+    [ "PP_TILE_SIZE", "d1/d93/pp_8qc.html#ad8d194a52001b2e63e1d2d6523b8fb77", null ],
+    [ "PP_TURN_DRAW", "d1/d93/pp_8qc.html#a42845a983c2c5293fc31232c9f7cc4d3", null ],
+    [ "PP_TURN_NEXT", "d1/d93/pp_8qc.html#aeb9d610baacf893ce9a24b13e541ca1c", null ],
+    [ "PP_TURN_PLACE", "d1/d93/pp_8qc.html#a1940904840f09664a3605a4c2958e552", null ],
+    [ "PP_TURN_TEAM", "d1/d93/pp_8qc.html#ae6ea8fe0826b6e3b90cce65954727b9e", null ],
+    [ "PP_TURN_TEAM1", "d1/d93/pp_8qc.html#a4fbecef08dd567da352f7d6fb1001c47", null ],
+    [ "PP_TURN_TEAM2", "d1/d93/pp_8qc.html#aec960f44a2fc86844ef977833775bfaa", null ],
+    [ "PP_TURN_TYPE", "d1/d93/pp_8qc.html#a0cce00b400a1aa107b88e0ec47d4b366", null ],
+    [ "PP_TURN_WIN", "d1/d93/pp_8qc.html#a4cdd9d5b387c9f39e46c5523eb9b2fa0", null ]
+];

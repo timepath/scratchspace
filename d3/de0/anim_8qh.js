@@ -1,0 +1,26 @@
+var anim_8qh =
+[
+    [ "ANIM_H", "d3/de0/anim_8qh.html#a79b00ef7741d79a3879389c29ad80657", null ],
+    [ "setanim", "d3/de0/anim_8qh.html#ad5a4f9a480359f7986bbcf7405c3a59d", null ],
+    [ "updateanim", "d3/de0/anim_8qh.html#a91371dfd91834ffb784d34ea01f5e261", null ],
+    [ "anim_set", "d3/de0/anim_8qh.html#a772713e6e892a6e8fe40076d9c0b68cd", null ],
+    [ "anim_update", "d3/de0/anim_8qh.html#a421df7f2fe541d4a113e626456fb3cae", null ],
+    [ "animstate_endtime", "d3/de0/anim_8qh.html#a28bec7f04d8170b63f3b18ce1bf1cfcb", null ],
+    [ "animstate_framerate", "d3/de0/anim_8qh.html#a32a5eb1cb47b50a39c9be5af92e58434", null ],
+    [ "animstate_looping", "d3/de0/anim_8qh.html#aa76722d780977753c0acbce23bdbdf52", null ],
+    [ "animstate_numframes", "d3/de0/anim_8qh.html#a78948e411b23a8572a83352f8d796bfc", null ],
+    [ "animstate_override", "d3/de0/anim_8qh.html#a2c68eb4b122c83323d3ecfbcb14deb96", null ],
+    [ "animstate_startframe", "d3/de0/anim_8qh.html#aa01f6f081bad8c20533fb3a597ffadf2", null ],
+    [ "animstate_starttime", "d3/de0/anim_8qh.html#aba1bf50fed6ac8d84ec3132b850c0f11", null ],
+    [ "frame", "d3/de0/anim_8qh.html#ad7dbdcadf9186d41f82055ffdd9f7534", null ],
+    [ "frame1time", "d3/de0/anim_8qh.html#a1be3853b80aca87ecf519b49dae181a1", null ],
+    [ "frame2", "d3/de0/anim_8qh.html#a3655ce19f8a959dcb84b2bc8242c8b5a", null ],
+    [ "frame2time", "d3/de0/anim_8qh.html#a341181399408e081772bb34806df08b8", null ],
+    [ "frame3", "d3/de0/anim_8qh.html#a5324f63b39a42014ebc26fd1f3c0828e", null ],
+    [ "frame3time", "d3/de0/anim_8qh.html#a0c5656521fea17f278f33113012eee09", null ],
+    [ "frame4", "d3/de0/anim_8qh.html#aa9188823f5be616ec7a2617ea8ea7657", null ],
+    [ "frame4time", "d3/de0/anim_8qh.html#a70db4daa190eb97492636bf734991ff3", null ],
+    [ "lerpfrac", "d3/de0/anim_8qh.html#a4dfb495f19f535f5aac08ff7084e8a7a", null ],
+    [ "lerpfrac3", "d3/de0/anim_8qh.html#a7d9c41a4e7d0e86ff832c5bb50b07696", null ],
+    [ "lerpfrac4", "d3/de0/anim_8qh.html#a5b9db4d5af89e94b79536c7ca10c3271", null ]
+];
