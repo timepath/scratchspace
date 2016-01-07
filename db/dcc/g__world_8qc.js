@@ -3,6 +3,7 @@ var g__world_8qc =
     [ "BADCVAR", "db/dcc/g__world_8qc.html#a1499559ec4eb80768644485c0ddd4fb8", null ],
     [ "BADPREFIX", "db/dcc/g__world_8qc.html#a8de1beddd651b67787ba2753ea71d5b2", null ],
     [ "BADPRESUFFIX", "db/dcc/g__world_8qc.html#ae923ed115dc19fb738ee4b85677546f2", null ],
+    [ "X", "db/dcc/g__world_8qc.html#afd2607023ed26fd5f9af908d15fa579b", null ],
     [ "__init_dedicated_server_shutdown", "db/dcc/g__world_8qc.html#a8f7565a7318ba27627a5f2d17d044172", null ],
     [ "AddWinners", "db/dcc/g__world_8qc.html#a665a3549db99a167e6d8e8e63e95e9d3", null ],
     [ "assault_new_round", "db/dcc/g__world_8qc.html#a8ea581687dc919cb5f11f210d6047732", null ],
