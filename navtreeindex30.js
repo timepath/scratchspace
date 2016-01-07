@@ -60,7 +60,7 @@ var NAVTREEINDEX30 =
 "d6/de9/cheats_8qc.html#addaa80f08a1814656fc04b113d1bdc3e":[1,0,5,13,28],
 "d6/de9/cheats_8qc.html#ae9d36814925a74febb4ea1d621c300a5":[1,0,5,13,37],
 "d6/de9/cheats_8qc.html#aecc34d4a00fe223b018b37bcd6f15b80":[1,0,5,13,18],
-"d6/de9/cheats_8qc.html#af4b9c767fca197741365df60235502b2":[1,0,5,13,12],
+"d6/de9/cheats_8qc.html#af2cf7e359cda23b596ac40cda3f9ba87":[1,0,5,13,12],
 "d6/de9/cheats_8qc.html#afe15f8fdd268a34f2e8300b31c65cd92":[1,0,5,13,9],
 "d6/de9/cheats_8qc.html#affd68caf8089e024ad13b9a58366272f":[1,0,5,13,38],
 "d6/de9/cheats_8qc_source.html":[1,0,5,13],

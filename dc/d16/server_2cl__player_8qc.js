@@ -1,7 +1,7 @@
 var server_2cl__player_8qc =
 [
     [ "calculate_player_respawn_time", "dc/d16/server_2cl__player_8qc.html#a9d529760b279c19bb3b1d15c4da335d1", null ],
-    [ "CopyBody", "dc/d16/server_2cl__player_8qc.html#af4b9c767fca197741365df60235502b2", null ],
+    [ "CopyBody", "dc/d16/server_2cl__player_8qc.html#af2cf7e359cda23b596ac40cda3f9ba87", null ],
     [ "CopyBody_Think", "dc/d16/server_2cl__player_8qc.html#aff35b55ed62ca838593a42764c926d2a", null ],
     [ "Drop_Special_Items", "dc/d16/server_2cl__player_8qc.html#a74a2991ad4b1aad6bfc27e899c563d29", null ],
     [ "MoveToTeam", "dc/d16/server_2cl__player_8qc.html#a543e29ad6e413d453b48e6a62c38363a", null ],

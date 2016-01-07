@@ -4,7 +4,7 @@ var server_2cl__player_8qh =
     [ "GAMETYPE_DEFAULTED_SETTING", "d7/d95/server_2cl__player_8qh.html#ab0ddbf3a176299c044cb3499225ee3d2", null ],
     [ "calculate_player_respawn_time", "d7/d95/server_2cl__player_8qh.html#a9d529760b279c19bb3b1d15c4da335d1", null ],
     [ "ClientKill_Now_TeamChange", "d7/d95/server_2cl__player_8qh.html#ad782a8ecd5d72aefee13e592a4906f84", null ],
-    [ "CopyBody", "d7/d95/server_2cl__player_8qh.html#af4b9c767fca197741365df60235502b2", null ],
+    [ "CopyBody", "d7/d95/server_2cl__player_8qh.html#af2cf7e359cda23b596ac40cda3f9ba87", null ],
     [ "CopyBody_Think", "d7/d95/server_2cl__player_8qh.html#aff35b55ed62ca838593a42764c926d2a", null ],
     [ "MoveToTeam", "d7/d95/server_2cl__player_8qh.html#a2fb495970d5532052a094294e8082238", null ],
     [ "player_anim", "d7/d95/server_2cl__player_8qh.html#ac14e291c251b817df4bd7d2f5e6c1d55", null ],
