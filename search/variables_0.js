@@ -11,6 +11,7 @@ var searchData=
   ['_5fdrawpic_5fpicpath',['_drawpic_picpath',['../d8/db6/client_2miscfunctions_8qh.html#ab35286e469a99d443ae2edeaceb8faf6',1,'miscfunctions.qh']]],
   ['_5fdrawpic_5fsz',['_drawpic_sz',['../d8/db6/client_2miscfunctions_8qh.html#a41b983c00a03ec37ff7d216eea4b38c9',1,'miscfunctions.qh']]],
   ['_5fdumptree_5fspace',['_dumptree_space',['../d7/d47/menu__cmd_8qc.html#a9dd152eb4fcca199f1775a62176d2778',1,'menu_cmd.qc']]],
+  ['_5fendswith_5fsuffix',['_endsWith_suffix',['../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add',1,'string.qh']]],
   ['_5ffixedvectoangles',['_fixedvectoangles',['../df/dee/anglestransform_8qh.html#a087f14c7e52559b3cc53eddc323b77a0',1,'anglestransform.qh']]],
   ['_5ffixedvectoangles2',['_fixedvectoangles2',['../df/dee/anglestransform_8qh.html#ab8052308fccf9186235840e7404d9f55',1,'anglestransform.qh']]],
   ['_5fforeach_5fentity_5fclass_5fmutex',['_FOREACH_ENTITY_CLASS_mutex',['../d4/d18/iter_8qh.html#a5b4018fca61add737a9b015802c44a54',1,'iter.qh']]],

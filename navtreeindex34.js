@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"d7/da7/server_2autocvars_8qh.html#ad4c54fe7c7268e8dde54369fd7b20cbc":[1,0,5,10,105],
+"d7/da7/server_2autocvars_8qh.html#ad50d717b75b829c49cf776aae7bdab0c":[1,0,5,10,37],
 "d7/da7/server_2autocvars_8qh.html#ad50db73faa69921eb567d8d7f997698a":[1,0,5,10,523],
 "d7/da7/server_2autocvars_8qh.html#ad598c59c3f1f1971d0fe11218dbff2e2":[1,0,5,10,71],
 "d7/da7/server_2autocvars_8qh.html#ad5b0d86f4a5e5223d4cbebdc8f336b7c":[1,0,5,10,95],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "d7/daf/notifications_8qh.html#af81684a0697aa252d703b4c598e9bc67":[1,0,1,35,64],
 "d7/daf/notifications_8qh.html#af84d758afdd67d95114810305bafd587":[1,0,1,35,61],
 "d7/daf/notifications_8qh.html#af97680ef9f953fbc8c2c3312a559553e":[1,0,1,35,81],
-"d7/daf/notifications_8qh.html#aff1c0bce3b503f7c350fd83ea7e750cf":[1,0,1,35,10],
-"d7/daf/notifications_8qh_source.html":[1,0,1,35],
-"d7/db2/dialog__singleplayer__winner_8qc.html":[1,0,4,4,78]
+"d7/daf/notifications_8qh.html#aff1c0bce3b503f7c350fd83ea7e750cf":[1,0,1,35,10]
 };

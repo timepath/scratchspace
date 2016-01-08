@@ -1,5 +1,7 @@
 var NAVTREEINDEX60 =
 {
+"de/d40/gamemode__keyhunt_8qc.html#a63927129b40fcc3e1664b7cf9fb7480d":[1,0,5,2,0,9,10],
+"de/d40/gamemode__keyhunt_8qc.html#a9c7fe8777db5311111214e415999eb42":[1,0,5,2,0,9,7],
 "de/d40/gamemode__keyhunt_8qc.html#aa5133eefef59c4cbe046575fa6ad9e05":[1,0,5,2,0,9,0],
 "de/d40/gamemode__keyhunt_8qc.html#aac9fba35b1682c6c203245cd8bb4b840":[1,0,5,2,0,9,1],
 "de/d40/gamemode__keyhunt_8qc.html#ab5aa34fabae7071003592233558cc9fc":[1,0,5,2,0,9,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX60 =
 "de/d5e/dpextensions_8qc.html#a59d5db34acf7ad30fcf6941e0e7e42b7":[1,0,2,0,1,259],
 "de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c":[1,0,2,0,1,281],
 "de/d5e/dpextensions_8qc.html#a5a2ee5c064f0af90170870fbe024a0d7":[1,0,2,0,1,56],
-"de/d5e/dpextensions_8qc.html#a5ad0f1b19b4f15304e35584c821ef092":[1,0,2,0,1,1],
-"de/d5e/dpextensions_8qc.html#a5b53b53bdf1c809ce664653c7624aa59":[1,0,2,0,1,251],
-"de/d5e/dpextensions_8qc.html#a5b9db4d5af89e94b79536c7ca10c3271":[1,0,2,0,1,254]
+"de/d5e/dpextensions_8qc.html#a5ad0f1b19b4f15304e35584c821ef092":[1,0,2,0,1,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX35 =
 {
+"d7/daf/notifications_8qh_source.html":[1,0,1,35],
+"d7/db2/dialog__singleplayer__winner_8qc.html":[1,0,4,4,78],
 "d7/db2/dialog__singleplayer__winner_8qc.html#a04b51f32602a7b6552379a61a24e2bad":[1,0,4,4,78,0],
 "d7/db2/dialog__singleplayer__winner_8qc.html#a80bf8f821b78f45233c422b5278edc6d":[1,0,4,4,78,1],
 "d7/db2/dialog__singleplayer__winner_8qc.html#ad978866fc9bbf6cfc36963498ffc530d":[1,0,4,4,78,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX35 =
 "d7/db4/client_2autocvars_8qh.html#a7931f8c4c9cd57add003899d4da60261":[1,0,0,7,329],
 "d7/db4/client_2autocvars_8qh.html#a7980aa634a257d98ee5bf74959df897e":[1,0,0,7,27],
 "d7/db4/client_2autocvars_8qh.html#a79d0b7effcdccb6975b29ae66f9a3c0e":[1,0,0,7,430],
-"d7/db4/client_2autocvars_8qh.html#a7b529925da4a8379c82874f9533966c6":[1,0,0,7,144],
-"d7/db4/client_2autocvars_8qh.html#a7bb542cfb2f90e1e0cec25ea307dbb89":[1,0,0,7,242],
-"d7/db4/client_2autocvars_8qh.html#a7c563e13645b528b8555fada154b05d2":[1,0,0,7,427]
+"d7/db4/client_2autocvars_8qh.html#a7b529925da4a8379c82874f9533966c6":[1,0,0,7,144]
 };

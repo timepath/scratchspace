@@ -1,5 +1,7 @@
 var NAVTREEINDEX18 =
 {
+"d4/d3c/radarmap_8qh.html#aca7797acf4b1b63c8974b7befbb458f4":[1,0,5,1,11,6],
+"d4/d3c/radarmap_8qh.html#acdd3a73b86c28ca1fea8a01766ea522c":[1,0,5,1,11,1],
 "d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c":[1,0,5,1,11,5],
 "d4/d3c/radarmap_8qh_source.html":[1,0,5,1,11],
 "d4/d3f/tracing_8qh.html":[1,0,5,4,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX18 =
 "d4/d90/skin-customizables_8inc.html#a93e653f70565260cb23adade25a85cd2":[1,0,4,15,76],
 "d4/d90/skin-customizables_8inc.html#a96baf14579bef43fc618dcd6ddae61d4":[1,0,4,15,26],
 "d4/d90/skin-customizables_8inc.html#a97652b282988172d11dbea8f3ba6d0af":[1,0,4,15,68],
-"d4/d90/skin-customizables_8inc.html#a9860b22728c24554d7c68feaea81c12d":[1,0,4,15,83],
-"d4/d90/skin-customizables_8inc.html#a9a3dffaabea7908b5f0752a0dd6cae7b":[1,0,4,15,77],
-"d4/d90/skin-customizables_8inc.html#a9a5c52c59f3689dd8ac09fc62c3c155c":[1,0,4,15,88]
+"d4/d90/skin-customizables_8inc.html#a9860b22728c24554d7c68feaea81c12d":[1,0,4,15,83]
 };

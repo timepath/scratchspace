@@ -1,5 +1,7 @@
 var NAVTREEINDEX17 =
 {
+"d4/d0d/client_2mapvoting_8qc.html#aa0ea6db360d44f69361202c0a6eea1c8":[1,0,0,15,12],
+"d4/d0d/client_2mapvoting_8qc.html#aa374405c519770744337d111aacc12e5":[1,0,0,15,33],
 "d4/d0d/client_2mapvoting_8qc.html#aa4c882a19fdbbb8e2e4ecc2ce501ded7":[1,0,0,15,0],
 "d4/d0d/client_2mapvoting_8qc.html#aa68ce2080397b2fd4f7485cc7abd00b8":[1,0,0,15,49],
 "d4/d0d/client_2mapvoting_8qc.html#aa78c91635c38ec29a12e3516087a72a2":[1,0,0,15,44],
@@ -247,7 +249,5 @@ var NAVTREEINDEX17 =
 "d4/d3c/radarmap_8qh.html#a08a76a7631ef0666e23573c5ca4cf1d5":[1,0,5,1,11,2],
 "d4/d3c/radarmap_8qh.html#a428839de844a7805ef144511064f93f0":[1,0,5,1,11,3],
 "d4/d3c/radarmap_8qh.html#a43dabf182b1d374a35a79ca28c97478f":[1,0,5,1,11,4],
-"d4/d3c/radarmap_8qh.html#a8149332b36b1971ee68249efb387525d":[1,0,5,1,11,0],
-"d4/d3c/radarmap_8qh.html#aca7797acf4b1b63c8974b7befbb458f4":[1,0,5,1,11,6],
-"d4/d3c/radarmap_8qh.html#acdd3a73b86c28ca1fea8a01766ea522c":[1,0,5,1,11,1]
+"d4/d3c/radarmap_8qh.html#a8149332b36b1971ee68249efb387525d":[1,0,5,1,11,0]
 };

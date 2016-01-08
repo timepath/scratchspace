@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"d9/d7f/gibs_8qc_source.html":[1,0,1,2,0,5],
+"d9/d86/server_2pathlib_2__all_8inc.html":[1,0,5,3,0],
 "d9/d86/server_2pathlib_2__all_8inc.html#ac484531f596092c0ab17f29b14dbeab4":[1,0,5,3,0,0],
 "d9/d86/server_2pathlib_2__all_8inc_source.html":[1,0,5,3,0],
 "d9/d88/sv__controlpoint_8qh.html":[1,0,1,3,0,1,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "d9/df0/weaponstats_8qh_source.html":[1,0,5,4,17],
 "d9/df7/mathlib_8qh.html":[1,0,3,1,7],
 "d9/df7/mathlib_8qh.html#a0468400adec281798a1be036b1bd4f00":[1,0,3,1,7,66],
-"d9/df7/mathlib_8qh.html#a052713cb4dd3553c149b5829a5f978af":[1,0,3,1,7,44],
-"d9/df7/mathlib_8qh.html#a07054354b767133e372ca8edf177ebd6":[1,0,3,1,7,63],
-"d9/df7/mathlib_8qh.html#a0752eeec8108324a4b1acfc7e9a3f789":[1,0,3,1,7,37]
+"d9/df7/mathlib_8qh.html#a052713cb4dd3553c149b5829a5f978af":[1,0,3,1,7,44]
 };

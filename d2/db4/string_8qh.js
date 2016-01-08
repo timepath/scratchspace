@@ -1,6 +1,7 @@
 var string_8qh =
 [
     [ "DEC_TO_HEXDIGIT", "d2/db4/string_8qh.html#ab9cc51225f98703626978ab0de95744b", null ],
+    [ "endsWith", "d2/db4/string_8qh.html#a17ef0c21cbd07ec53d7dee826fa3814d", null ],
     [ "HEXDIGIT_TO_DEC", "d2/db4/string_8qh.html#a70bd37e05eeb11fdb4e3cfff09c6187e", null ],
     [ "HEXDIGIT_TO_DEC_RAW", "d2/db4/string_8qh.html#ad8357713efe469506842ff9e841e90ce", null ],
     [ "startsWith", "d2/db4/string_8qh.html#a97b9c9eb2587047924a05f9f0df6903f", null ],
@@ -31,6 +32,7 @@ var string_8qh =
     [ "unescape", "d2/db4/string_8qh.html#a57cdb27a84b64821bbebb61db514b4fb", null ],
     [ "vercmp", "d2/db4/string_8qh.html#a7ae19107e234f5979441dd1a0572e957", null ],
     [ "vercmp_recursive", "d2/db4/string_8qh.html#aeab1387e679897381e7c490bbfbe005e", null ],
+    [ "_endsWith_suffix", "d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add", null ],
     [ "_shufflewords_str", "d2/db4/string_8qh.html#ab3e0957f7f441bf477eb9e5c9d9a17f1", null ],
     [ "autocvar_hud_colorset_background", "d2/db4/string_8qh.html#ab406e2409e166a3b43c1ed1550cade1f", null ],
     [ "autocvar_hud_colorset_foreground_1", "d2/db4/string_8qh.html#a2607a3f81d9167821839d49e6c212c4f", null ],
