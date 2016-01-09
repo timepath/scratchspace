@@ -512,7 +512,7 @@ $(document).ready(function(){initNavTree('dc/d3d/csqcmodel__hooks_8qc_source.htm
 <div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        <span class="comment">// recursive predraw call to fix issues with forcemodels and LOD if bone indexes mismatch</span></div>
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a6e7c18e752405b4131cb59328ca1102a">tag_entity</a>.classname == <span class="stringliteral">&quot;csqcmodel&quot;</span>)</div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        {</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;            <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a2624228f82a5ae03006d9a33fc1b707c">CSQCModel_Hook_PreDraw</a>(this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a6e7c18e752405b4131cb59328ca1102a">tag_entity</a>, (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a> &gt;= 1 &amp;&amp; this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a> &lt;= <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a>));</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;            <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a2624228f82a5ae03006d9a33fc1b707c">CSQCModel_Hook_PreDraw</a>(this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a6e7c18e752405b4131cb59328ca1102a">tag_entity</a>, (this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a6e7c18e752405b4131cb59328ca1102a">tag_entity</a>.entnum &gt;= 1 &amp;&amp; <span class="keyword">this</span>.tag_entity.entnum &lt;= <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a>));</div>
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        }</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;</div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a6e7c18e752405b4131cb59328ca1102a">tag_entity</a>.modelindex != <span class="keyword">this</span>.tag_entity_lastmodelindex)</div>
@@ -1055,7 +1055,7 @@ $(document).ready(function(){initNavTree('dc/d3d/csqcmodel__hooks_8qc_source.htm
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc.html">csqcmodel_hooks.qc</a></li>
-    <li class="footer">Generated on Sat Jan 9 2016 13:06:46 for Xonotic by
+    <li class="footer">Generated on Sat Jan 9 2016 15:25:21 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
