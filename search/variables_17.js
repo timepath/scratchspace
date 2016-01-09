@@ -131,7 +131,6 @@ var searchData=
   ['weaponcomplainindex',['weaponcomplainindex',['../d8/d6b/selection_8qh.html#a3daae79918286c9352ba30495957db79',1,'selection.qh']]],
   ['weaponentities',['weaponentities',['../dc/d1c/weapon_8qh.html#a6c083826b597734af72d573025ce48ad',1,'weapon.qh']]],
   ['weaponentity_5ffld',['weaponentity_fld',['../d5/de0/weaponsystem_8qc.html#ab77c36c89a03dbb675a9350144e5faec',1,'weaponsystem.qc']]],
-  ['weaponentity_5fglowmod',['weaponentity_glowmod',['../de/d81/common_2weapons_2all_8qh.html#aa012af7a5557579aa0c812755cf487ef',1,'all.qh']]],
   ['weaponframe',['weaponframe',['../d6/d11/progsdefs_8qc.html#a82fe32384e0536648608181f84fd5dbd',1,'progsdefs.qc']]],
   ['weaponmodel',['weaponmodel',['../d6/d11/progsdefs_8qc.html#ae00c05b4316649be261927ef4cb4705d',1,'progsdefs.qc']]],
   ['weaponname',['weaponname',['../de/d81/common_2weapons_2all_8qh.html#a86a312856b8aaf63d7a34acb638f678d',1,'all.qh']]],
