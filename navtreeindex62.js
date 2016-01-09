@@ -1,5 +1,6 @@
 var NAVTREEINDEX62 =
 {
+"de/d64/common_2impulses_2all_8qh.html#a4b6aa2db93f5ba60049bf370b44d0cbf":[1,0,1,4,1,36],
 "de/d64/common_2impulses_2all_8qh.html#a4bae49268f9fc95dcd24d42ad0f6a4d4":[1,0,1,4,1,8],
 "de/d64/common_2impulses_2all_8qh.html#a4f616fdaaf7b8e241afb137075b88cf7":[1,0,1,4,1,15],
 "de/d64/common_2impulses_2all_8qh.html#a4fc1f9cbafdafd22ea9d4e40d4d9033f":[1,0,1,4,1,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX62 =
 "de/dae/havocbot_2scripting_8qh_source.html":[1,0,5,0,0,5],
 "de/dbd/banning_8qh.html":[1,0,5,1,3],
 "de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b":[1,0,5,1,3,1],
-"de/dbd/banning_8qh.html#a1a7772963018e41992c65dfbe12b63fe":[1,0,5,1,3,6],
-"de/dbd/banning_8qh.html#a2e1590577ece2a8d0b64ca0b13da71aa":[1,0,5,1,3,7]
+"de/dbd/banning_8qh.html#a1a7772963018e41992c65dfbe12b63fe":[1,0,5,1,3,6]
 };

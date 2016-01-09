@@ -128,6 +128,8 @@ Macros</h2></td></tr>
 Functions</h2></td></tr>
 <tr class="memitem:a509bb0a47a7dc0fbac057261cf266b80"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc6/debug_8qh.html#a509bb0a47a7dc0fbac057261cf266b80">GENERIC_COMMAND</a> (bufstr_get,&quot;Examine a <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> buffer object&quot;)</td></tr>
 <tr class="separator:a509bb0a47a7dc0fbac057261cf266b80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a86d1498779450f2aa645d83d2dd457"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dc6/debug_8qh.html#a8a86d1498779450f2aa645d83d2dd457">GENERIC_COMMAND</a> (<a class="el" href="../../d5/d26/server_2defs_8qh.html#ab62c3e734e7e08da39abab83df1b3fd5">version</a>,&quot;Print the current <a class="el" href="../../d5/d26/server_2defs_8qh.html#ab62c3e734e7e08da39abab83df1b3fd5">version</a>&quot;)</td></tr>
+<tr class="separator:a8a86d1498779450f2aa645d83d2dd457"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -223,6 +225,67 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a8a86d1498779450f2aa645d83d2dd457"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GENERIC_COMMAND </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d26/server_2defs_8qh.html#ab62c3e734e7e08da39abab83df1b3fd5">version</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&quot;Print the current <a class="el" href="../../d5/d26/server_2defs_8qh.html#ab62c3e734e7e08da39abab83df1b3fd5">version</a>&quot;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../da/dc6/debug_8qh_source.html#l00188">188</a> of file <a class="el" href="../../da/dc6/debug_8qh_source.html">debug.qh</a>.</p>
+
+<p>References <a class="el" href="../../d9/d71/command_8qh_source.html#l00004">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/d71/command_8qh_source.html#l00005">CMD_REQUEST_USAGE</a>, <a class="el" href="../../df/da7/generic_8qc_source.html#l00031">GetProgramCommandPrefix()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00056">LOG_INFO</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;{</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(WATERMARK <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        }</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;\nUsage:^3 &quot;</span>, <a class="code" href="../../df/da7/generic_8qc.html#afc9451e4acb1a7c5bef3120f4e286fa7">GetProgramCommandPrefix</a>(), <span class="stringliteral">&quot; version&quot;</span>));</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        }</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}</div>
+<div class="ttc" id="command_8qh_html_a07f6d442e5d9ae5399caa2ee6d795f04"><div class="ttname"><a href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a></div><div class="ttdeci">const int CMD_REQUEST_COMMAND</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d71/command_8qh_source.html#l00004">command.qh:4</a></div></div>
+<div class="ttc" id="generic_8qc_html_afc9451e4acb1a7c5bef3120f4e286fa7"><div class="ttname"><a href="../../df/da7/generic_8qc.html#afc9451e4acb1a7c5bef3120f4e286fa7">GetProgramCommandPrefix</a></div><div class="ttdeci">string GetProgramCommandPrefix()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/da7/generic_8qc_source.html#l00031">generic.qc:31</a></div></div>
+<div class="ttc" id="command_8qh_html_ab9e24d8681128fd9913308f8dc3e026a"><div class="ttname"><a href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a></div><div class="ttdeci">const int CMD_REQUEST_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d71/command_8qh_source.html#l00005">command.qh:5</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
+<div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00056">log.qh:56</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/dc6/debug_8qh_a8a86d1498779450f2aa645d83d2dd457_cgraph.svg" width="408" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="adf57573d447a0ad86b53345f77359abd"></a>
 <div class="memitem">
@@ -272,7 +335,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../da/dc6/debug_8qh.html">debug.qh</a></li>
-    <li class="footer">Generated on Sat Jan 9 2016 05:34:59 for Xonotic by
+    <li class="footer">Generated on Sat Jan 9 2016 06:28:22 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
