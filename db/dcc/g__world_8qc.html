@@ -3696,7 +3696,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d5/d26/server_2defs_8qh.html#a95a3f7e88286501193d87271e950a6b1">server_is_dedicated</a>)</div>
 <div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        {</div>
 <div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;            <span class="comment">// force unloading of server pk3 files when starting a listen server</span></div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;            <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;\nfs_rescan\n&quot;</span>);</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;            <span class="comment">// localcmd(&quot;\nfs_rescan\n&quot;); // FIXME: does more harm than good, has unintended side effects. What we really want is to unload temporary pk3s only</span></div>
 <div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;            <span class="comment">// restore csqc_progname too</span></div>
 <div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;            <span class="keywordtype">string</span> expect = <span class="stringliteral">&quot;csprogs.dat&quot;</span>;</div>
 <div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;            wantrestart = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#aa3719dc578ac9c6f94b0faebb041c5d9">cvar_string_normal</a>(<span class="stringliteral">&quot;csqc_progname&quot;</span>) != expect;</div>
@@ -4872,7 +4872,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/dcc/g__world_8qc.html">g_world.qc</a></li>
-    <li class="footer">Generated on Mon Jan 11 2016 11:19:19 for Xonotic by
+    <li class="footer">Generated on Tue Jan 12 2016 01:56:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
