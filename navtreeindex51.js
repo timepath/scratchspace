@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"db/d7f/effectinfo_8inc.html#af1b4d3ac2045cc630aaba2c0799b3fb5":[1,0,1,2,5,222],
 "db/d7f/effectinfo_8inc.html#af21295da0ea13cf60c4d9ce0e84e0909":[1,0,1,2,5,154],
 "db/d7f/effectinfo_8inc.html#af2432d5bd20120132f2ca6d84fd7035f":[1,0,1,2,5,368],
 "db/d7f/effectinfo_8inc.html#af397d9c1269f79caaf2fad26a4849613":[1,0,1,2,5,266],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "db/dc8/cl__controlpoint_8qc.html#af89c4cb9409de9851068c36f8e27eae8":[1,0,1,3,0,1,0,2],
 "db/dc8/cl__controlpoint_8qc.html#affb5aa5736b5506a83143017f811ffcb":[1,0,1,3,0,1,0,9],
 "db/dc8/cl__controlpoint_8qc_source.html":[1,0,1,3,0,1,0],
-"db/dc9/xonotic_2listbox_8qc.html":[1,0,4,4,87],
-"db/dc9/xonotic_2listbox_8qc.html#a4701e0665ef16a479fb92e02ecf9f8b2":[1,0,4,4,87,3]
+"db/dc9/xonotic_2listbox_8qc.html":[1,0,4,4,87]
 };

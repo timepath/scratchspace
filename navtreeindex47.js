@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"da/d53/cl__client_8qc.html#ad782a8ecd5d72aefee13e592a4906f84":[1,0,5,15,18],
 "da/d53/cl__client_8qc.html#ad8da0a9fe659937bdc32cca6de631f76":[1,0,5,15,55],
 "da/d53/cl__client_8qc.html#ad9d369ba8098cf9cc8ded4f0b4974c76":[1,0,5,15,23],
 "da/d53/cl__client_8qc.html#adcfb83073eb66c355f220a7fc94a479d":[1,0,5,15,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "da/dd4/effectinfo__onslaught_8inc_source.html":[1,0,1,2,15],
 "da/dd5/enumclass_8qh.html":[1,0,3,14],
 "da/dd5/enumclass_8qh.html#a93090b9631c9cca1cb2e94328e2889ed":[1,0,3,14,2],
-"da/dd5/enumclass_8qh.html#ab9035c4cdfdbaa88cf7ec5cc33a5c6f8":[1,0,3,14,0],
-"da/dd5/enumclass_8qh.html#ac13d792e49df3610c3a5b5d37f98ba4b":[1,0,3,14,1]
+"da/dd5/enumclass_8qh.html#ab9035c4cdfdbaa88cf7ec5cc33a5c6f8":[1,0,3,14,0]
 };

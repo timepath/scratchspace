@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"d9/df0/weaponstats_8qh.html#af22a35d618b56e7fc7f2e71a5de60a3d":[1,0,5,4,17,0],
 "d9/df0/weaponstats_8qh_source.html":[1,0,5,4,17],
 "d9/df7/mathlib_8qh.html":[1,0,3,1,7],
 "d9/df7/mathlib_8qh.html#a0468400adec281798a1be036b1bd4f00":[1,0,3,1,7,66],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "da/d21/hudskinlist_8qc.html#afe1fdc8b599375c106980a41640794a6":[1,0,4,4,82,15],
 "da/d21/hudskinlist_8qc_source.html":[1,0,4,4,82],
 "da/d30/file_8qh.html":[1,0,3,15],
-"da/d30/file_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff":[1,0,3,15,0],
-"da/d30/file_8qh_source.html":[1,0,3,15]
+"da/d30/file_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff":[1,0,3,15,0]
 };

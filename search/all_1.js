@@ -887,6 +887,7 @@ var searchData=
   ['autocvar_5fg_5fbuffs_5finferno_5fdamagemultiplier',['autocvar_g_buffs_inferno_damagemultiplier',['../d4/d0f/buffs_8qc.html#a0d848f48b55f4b490dad82756d2b6bd1',1,'buffs.qc']]],
   ['autocvar_5fg_5fbuffs_5finvisible_5falpha',['autocvar_g_buffs_invisible_alpha',['../d4/d0f/buffs_8qc.html#a5d94bfd45a28170325dca3b01a1c480a',1,'buffs.qc']]],
   ['autocvar_5fg_5fbuffs_5fjump_5fheight',['autocvar_g_buffs_jump_height',['../d4/d0f/buffs_8qc.html#ab9c22f68c92d1de9e8aef09b134243db',1,'buffs.qc']]],
+  ['autocvar_5fg_5fbuffs_5fmagnet_5frange_5fbuff',['autocvar_g_buffs_magnet_range_buff',['../d4/d0f/buffs_8qc.html#aa72e5a5d1978e76508148f92c302a1b6',1,'buffs.qc']]],
   ['autocvar_5fg_5fbuffs_5fmagnet_5frange_5fitem',['autocvar_g_buffs_magnet_range_item',['../d4/d0f/buffs_8qc.html#a8ba821803143c0908230ddb415971b90',1,'buffs.qc']]],
   ['autocvar_5fg_5fbuffs_5fmedic_5fheal_5famount',['autocvar_g_buffs_medic_heal_amount',['../d4/d0f/buffs_8qc.html#add8d9d71cbac0ee18bc817ec184d1b9c',1,'buffs.qc']]],
   ['autocvar_5fg_5fbuffs_5fmedic_5fheal_5fdelay',['autocvar_g_buffs_medic_heal_delay',['../d4/d0f/buffs_8qc.html#a6cf6a2aef5bc96b0803cf5ec2e5687f0',1,'buffs.qc']]],
