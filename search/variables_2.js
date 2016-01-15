@@ -226,6 +226,7 @@ var searchData=
   ['buff_5fflight_5fprev_5fgravity',['buff_flight_prev_gravity',['../d4/d0f/buffs_8qc.html#a5b5ebba3a76bfd3880389afd674ca5c0',1,'buffs.qc']]],
   ['buff_5finvisible_5fprev_5falpha',['buff_invisible_prev_alpha',['../d4/d0f/buffs_8qc.html#a5bbf97ae7f512d171a5d738d82f793f4',1,'buffs.qc']]],
   ['buff_5fmax',['BUFF_MAX',['../d4/d0f/buffs_8qc.html#a03957de995522dc44980d0586c7743d1',1,'buffs.qc']]],
+  ['buff_5fmedic_5fhealtime',['buff_medic_healtime',['../d4/d0f/buffs_8qc.html#af5e6a1814015f1f8d2a3c648aa0c5912',1,'buffs.qc']]],
   ['buff_5fmin',['BUFF_MIN',['../d4/d0f/buffs_8qc.html#aae701057346d25da5248646e0898e5ff',1,'buffs.qc']]],
   ['buff_5fmodel',['buff_model',['../d4/d0f/buffs_8qc.html#a14f4e75f961cd8672b251062ae26870b',1,'buffs.qc']]],
   ['buff_5fplayer',['buff_player',['../d6/ddd/server_2mutators_2events_8qh.html#ae95b0e3f02b7371345a3ed01fb4f860a',1,'events.qh']]],
