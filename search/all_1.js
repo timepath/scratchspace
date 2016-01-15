@@ -431,7 +431,6 @@ var searchData=
   ['asinh',['asinh',['../df/d38/mathlib_8qc.html#aef571c82bdcb93921bb4ee524c2c4a2a',1,'asinh(float x):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#aef571c82bdcb93921bb4ee524c2c4a2a',1,'asinh(float x):&#160;mathlib.qc']]],
   ['assault_5fattacker_5fteam',['assault_attacker_team',['../d5/d26/server_2defs_8qh.html#afa0e73d2a3a3b9c2beee04b1b284b90a',1,'defs.qh']]],
   ['assault_5fdecreaser',['assault_decreaser',['../d9/d8e/gamemode__assault_8qc.html#a0494762bdff1811919ef03e61c894e3e',1,'gamemode_assault.qc']]],
-  ['assault_5fnew_5fround',['assault_new_round',['../db/dcc/g__world_8qc.html#a8ea581687dc919cb5f11f210d6047732',1,'g_world.qc']]],
   ['assault_5fscorerules',['assault_ScoreRules',['../d9/d8e/gamemode__assault_8qc.html#af9ce8a13c37efdd85ac68f7b16bd7ac9',1,'gamemode_assault.qc']]],
   ['assault_5fsprite',['assault_sprite',['../d9/d8e/gamemode__assault_8qc.html#aa8464a01888d74a2efa42f05a8946ba0',1,'gamemode_assault.qc']]],
   ['assault_5fvalue_5finactive',['ASSAULT_VALUE_INACTIVE',['../d9/de7/server_2constants_8qh.html#a60dc5332f25db6149f189046a8915af2',1,'constants.qh']]],
