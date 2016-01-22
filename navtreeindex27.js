@@ -1,7 +1,5 @@
 var NAVTREEINDEX27 =
 {
-"d6/d57/weaponstats_8qc.html#a658592c9d038c8940b9d17f4330cf72d":[1,0,5,4,16,0],
-"d6/d57/weaponstats_8qc.html#a8f2f79e647a2d2bc87cac66e6f5a7f62":[1,0,5,4,16,3],
 "d6/d57/weaponstats_8qc.html#a92da13209374adaf40062e250635050f":[1,0,5,4,16,1],
 "d6/d57/weaponstats_8qc.html#aa8f9d7c732fe1401e1ee110adfafa840":[1,0,5,4,16,5],
 "d6/d57/weaponstats_8qc.html#aaff19cec643aea889b24fc730133c07c":[1,0,5,4,16,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX27 =
 "d6/d99/effectinfo__buffs_8inc.html#ac29c8a80f083e865d7a423ee7537cb2d":[1,0,1,2,7,5],
 "d6/d99/effectinfo__buffs_8inc.html#ac5382b9b6d74c788a78334c1673d8398":[1,0,1,2,7,23],
 "d6/d99/effectinfo__buffs_8inc.html#ae42a837d33cfdf98860b272da9e133b0":[1,0,1,2,7,8],
-"d6/d99/effectinfo__buffs_8inc.html#af6321e79c85cf47dd20db3e7beacd4a3":[1,0,1,2,7,15]
+"d6/d99/effectinfo__buffs_8inc.html#af6321e79c85cf47dd20db3e7beacd4a3":[1,0,1,2,7,15],
+"d6/d99/effectinfo__buffs_8inc_source.html":[1,0,1,2,7],
+"d6/d9c/door_8qc.html":[1,0,1,12,0,5]
 };

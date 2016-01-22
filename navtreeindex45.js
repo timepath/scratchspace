@@ -1,7 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"d9/df0/weaponstats_8qh.html#aa8f9d7c732fe1401e1ee110adfafa840":[1,0,5,4,17,7],
-"d9/df0/weaponstats_8qh.html#aaff19cec643aea889b24fc730133c07c":[1,0,5,4,17,4],
 "d9/df0/weaponstats_8qh.html#af22a35d618b56e7fc7f2e71a5de60a3d":[1,0,5,4,17,0],
 "d9/df0/weaponstats_8qh_source.html":[1,0,5,4,17],
 "d9/df7/mathlib_8qh.html":[1,0,3,1,7],
@@ -95,16 +93,15 @@ var NAVTREEINDEX45 =
 "d9/dfb/radarmap_8qc_source.html":[1,0,5,1,10],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html":[1,0,1,9,0,2,0],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a2d2a096950143f69fe15206eefa4d0eb":[1,0,1,9,0,2,0,2],
-"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a2dd0f3f919c755f75d4b34e310c90256":[1,0,1,9,0,2,0,14],
+"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a2dd0f3f919c755f75d4b34e310c90256":[1,0,1,9,0,2,0,13],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a2e21b54419051837a5fcf6f7f1999a5c":[1,0,1,9,0,2,0,5],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a41b6701b1c6e96e3043c0019b527226c":[1,0,1,9,0,2,0,1],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a434f7ac5499cca8d6d40d3cefb516368":[1,0,1,9,0,2,0,3],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c":[1,0,1,9,0,2,0,0],
-"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a74d448d70d5e55e54c85493f4b37c0df":[1,0,1,9,0,2,0,11],
-"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a7511936b014064d695ad4438cd65eada":[1,0,1,9,0,2,0,12],
-"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#ab879a178631164ea00a4905ce8a3826c":[1,0,1,9,0,2,0,13],
-"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#ac4deda165917acf34f1961ca9f40a9ae":[1,0,1,9,0,2,0,9],
-"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#ad54a43f9c7262e4c0a8f0efe0a2dfb00":[1,0,1,9,0,2,0,10],
+"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a74d448d70d5e55e54c85493f4b37c0df":[1,0,1,9,0,2,0,10],
+"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a7511936b014064d695ad4438cd65eada":[1,0,1,9,0,2,0,11],
+"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#ab879a178631164ea00a4905ce8a3826c":[1,0,1,9,0,2,0,12],
+"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#ad54a43f9c7262e4c0a8f0efe0a2dfb00":[1,0,1,9,0,2,0,9],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#ae2182ffd4aece1ab035baa6a64e7c442":[1,0,1,9,0,2,0,6],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#aea320705273d3b0c79e1bd70c9af73f5":[1,0,1,9,0,2,0,7],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#afcff6c22eb8bc57e19bb78d6200318b1":[1,0,1,9,0,2,0,8],
@@ -249,5 +246,8 @@ var NAVTREEINDEX45 =
 "da/d21/hudskinlist_8qc.html#ae1856538743c7164682df63e0204175b":[1,0,4,4,82,9],
 "da/d21/hudskinlist_8qc.html#af6621274846460272cf8f5cdf082da5f":[1,0,4,4,82,3],
 "da/d21/hudskinlist_8qc.html#af698d1283463851fb9e67807d6d34f7a":[1,0,4,4,82,2],
-"da/d21/hudskinlist_8qc.html#afe1fdc8b599375c106980a41640794a6":[1,0,4,4,82,15]
+"da/d21/hudskinlist_8qc.html#afe1fdc8b599375c106980a41640794a6":[1,0,4,4,82,15],
+"da/d21/hudskinlist_8qc_source.html":[1,0,4,4,82],
+"da/d30/file_8qh.html":[1,0,3,15],
+"da/d30/file_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff":[1,0,3,15,0]
 };

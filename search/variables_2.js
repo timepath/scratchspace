@@ -223,7 +223,6 @@ var searchData=
   ['buff_5fdisability_5feffect_5ftime',['buff_disability_effect_time',['../d4/d0f/buffs_8qc.html#ab9a322cecb553e53835315a23354ad27',1,'buffs.qc']]],
   ['buff_5fdisability_5ftime',['buff_disability_time',['../d4/d0f/buffs_8qc.html#a4ebbb8c31b3e8787c4ebf7b51e722f76',1,'buffs.qc']]],
   ['buff_5feffect_5fdelay',['buff_effect_delay',['../d4/d0f/buffs_8qc.html#aa46fd8af184f1f03943dbd39cd42c026',1,'buffs.qc']]],
-  ['buff_5fflight_5fprev_5fgravity',['buff_flight_prev_gravity',['../d4/d0f/buffs_8qc.html#a5b5ebba3a76bfd3880389afd674ca5c0',1,'buffs.qc']]],
   ['buff_5finvisible_5fprev_5falpha',['buff_invisible_prev_alpha',['../d4/d0f/buffs_8qc.html#a5bbf97ae7f512d171a5d738d82f793f4',1,'buffs.qc']]],
   ['buff_5fmax',['BUFF_MAX',['../d4/d0f/buffs_8qc.html#a03957de995522dc44980d0586c7743d1',1,'buffs.qc']]],
   ['buff_5fmedic_5fhealtime',['buff_medic_healtime',['../d4/d0f/buffs_8qc.html#af5e6a1814015f1f8d2a3c648aa0c5912',1,'buffs.qc']]],

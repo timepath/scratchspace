@@ -1,7 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"d9/d72/rocketminsta_8qc_source.html":[1,0,1,9,0,23,1],
-"d9/d76/common_2__all_8inc.html":[1,0,1,16],
 "d9/d76/common_2__all_8inc_source.html":[1,0,1,16],
 "d9/d7e/include_8qh.html":[1,0,1,12,5],
 "d9/d7e/include_8qh.html#a1d01f9bd8c6fe74516639ee438330561":[1,0,1,12,5,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX44 =
 "d9/df0/weaponstats_8qh.html#a658592c9d038c8940b9d17f4330cf72d":[1,0,5,4,17,2],
 "d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829":[1,0,5,4,17,8],
 "d9/df0/weaponstats_8qh.html#a8f2f79e647a2d2bc87cac66e6f5a7f62":[1,0,5,4,17,5],
-"d9/df0/weaponstats_8qh.html#a92da13209374adaf40062e250635050f":[1,0,5,4,17,3]
+"d9/df0/weaponstats_8qh.html#a92da13209374adaf40062e250635050f":[1,0,5,4,17,3],
+"d9/df0/weaponstats_8qh.html#aa8f9d7c732fe1401e1ee110adfafa840":[1,0,5,4,17,7],
+"d9/df0/weaponstats_8qh.html#aaff19cec643aea889b24fc730133c07c":[1,0,5,4,17,4]
 };
