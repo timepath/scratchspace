@@ -1,5 +1,7 @@
 var NAVTREEINDEX28 =
 {
+"d6/d99/effectinfo__buffs_8inc_source.html":[1,0,1,2,7],
+"d6/d9c/door_8qc.html":[1,0,1,12,0,5],
 "d6/d9c/door_8qc.html#a043dcedfce52d0714cc2edfb8d53dd48":[1,0,1,12,0,5,5],
 "d6/d9c/door_8qc.html#a1d845b5aaadd465bf35c2851f9e7d00a":[1,0,1,12,0,5,9],
 "d6/d9c/door_8qc.html#a329423155bfc216e2fc9cc2e5560d60f":[1,0,1,12,0,5,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX28 =
 "d6/ddd/server_2mutators_2events_8qh.html#a0105146f13551bf05601d7c1db11618c":[1,0,5,2,4,152],
 "d6/ddd/server_2mutators_2events_8qh.html#a02e172a50facb369548e0af1891366ef":[1,0,5,2,4,179],
 "d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da16923782cb89db5bf0021537cca9d490":[1,0,5,2,4,93],
-"d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da6bdf812d9a913a38cdb3aaebad56c89a":[1,0,5,2,4,94],
-"d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da8168d5d80f0fe8ae36ce88761b83f3b9":[1,0,5,2,4,92],
-"d6/ddd/server_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12":[1,0,5,2,4,212]
+"d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da6bdf812d9a913a38cdb3aaebad56c89a":[1,0,5,2,4,94]
 };

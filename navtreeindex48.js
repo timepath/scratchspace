@@ -1,5 +1,8 @@
 var NAVTREEINDEX48 =
 {
+"da/dd5/enumclass_8qh.html":[1,0,3,14],
+"da/dd5/enumclass_8qh.html#a93090b9631c9cca1cb2e94328e2889ed":[1,0,3,14,2],
+"da/dd5/enumclass_8qh.html#ab9035c4cdfdbaa88cf7ec5cc33a5c6f8":[1,0,3,14,0],
 "da/dd5/enumclass_8qh.html#ac13d792e49df3610c3a5b5d37f98ba4b":[1,0,3,14,1],
 "da/dd5/enumclass_8qh_source.html":[1,0,3,14],
 "da/dda/common_2turrets_2all_8inc.html":[1,0,1,13,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX48 =
 "db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729":[1,0,1,12,9,25],
 "db/d2f/subs_8qh.html#ad0806fe42eadae7a1a7a48660cbbd755":[1,0,1,12,9,2],
 "db/d2f/subs_8qh.html#ad661941c9b74fdf7c70621dd454de4d6":[1,0,1,12,9,29],
-"db/d2f/subs_8qh.html#ad73b2c126ec080d6c9d12b8a98d8395a":[1,0,1,12,9,12],
-"db/d2f/subs_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683":[1,0,1,12,9,33],
-"db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c":[1,0,1,12,9,31],
-"db/d2f/subs_8qh.html#afaf503fe7190a8bf2d2f7e651f3e5d82":[1,0,1,12,9,18]
+"db/d2f/subs_8qh.html#ad73b2c126ec080d6c9d12b8a98d8395a":[1,0,1,12,9,12]
 };
