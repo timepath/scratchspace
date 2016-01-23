@@ -365,7 +365,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;}</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
 <div class="line"><a name="l00261"></a><span class="lineno"><a class="line" href="../../d5/dac/g__damage_8qc.html#a8f32afee7a8e742e18a6a8fae0844699">  261</a></span>&#160;.int <a class="code" href="../../d5/dac/g__damage_8qc.html#a8f32afee7a8e742e18a6a8fae0844699">buffs</a> = _STAT(BUFFS); <span class="comment">// TODO: remove</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <a class="code" href="../../d5/dac/g__damage_8qc.html#afd7d0f110617f66bd6efce062d5d16e7">buff_FirstFromFlags</a>(<span class="keywordtype">int</span> _buffs);</div>
 <div class="line"><a name="l00263"></a><span class="lineno"><a class="line" href="../../dd/de4/g__damage_8qh.html#ace0c7e0cb504cb88303a5481f5a900fd">  263</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/dac/g__damage_8qc.html#ace0c7e0cb504cb88303a5481f5a900fd">Obituary</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> attacker, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> inflictor, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> targ, <span class="keywordtype">int</span> deathtype)</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;{</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="comment">// Sanity check</span></div>
@@ -536,9 +536,9 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;                );</div>
 <div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;            }</div>
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;            <span class="keywordtype">float</span> f3 = 0;</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;            <span class="keywordtype">int</span> f3 = 0;</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;            <span class="keywordflow">if</span>(deathtype == DEATH_BUFF.m_id)</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;                f3 = attacker.buffs;</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;                f3 = <a class="code" href="../../d5/dac/g__damage_8qc.html#afd7d0f110617f66bd6efce062d5d16e7">buff_FirstFromFlags</a>(attacker.buffs).m_id;</div>
 <div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;</div>
 <div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="../../d5/dac/g__damage_8qc.html#a54e85ad9f5560a23de3bd54026021b06">Obituary_WeaponDeath</a>(targ, <span class="keyword">true</span>, deathtype, targ.netname, attacker.netname, deathlocation, targ.killcount, kill_count_to_attacker))</div>
 <div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;                <a class="code" href="../../d5/dac/g__damage_8qc.html#a30b6dcb0a5e148d3961cad10abdaf5af">Obituary_SpecialDeath</a>(targ, <span class="keyword">true</span>, deathtype, targ.netname, attacker.netname, deathlocation, targ.killcount, kill_count_to_attacker, f3);</div>
@@ -1573,6 +1573,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="ttc" id="server_2miscfunctions_8qh_html_ad0bd67642d9bbaab1a6e4ba3d34d747e"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#ad0bd67642d9bbaab1a6e4ba3d34d747e">g_weaponforcefactor</a></div><div class="ttdeci">float g_weaponforcefactor</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00213">miscfunctions.qh:213</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8f7213273f7de03df213240376ce9f4"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a></div><div class="ttdeci">vector normalize(vector v)</div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_ab53e3cd50e548344d00aa11041d4314d"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ab53e3cd50e548344d00aa11041d4314d">autocvar_g_frozen_revive_falldamage</a></div><div class="ttdeci">float autocvar_g_frozen_revive_falldamage</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00541">autocvars.qh:541</a></div></div>
+<div class="ttc" id="g__damage_8qc_html_afd7d0f110617f66bd6efce062d5d16e7"><div class="ttname"><a href="../../d5/dac/g__damage_8qc.html#afd7d0f110617f66bd6efce062d5d16e7">buff_FirstFromFlags</a></div><div class="ttdeci">entity buff_FirstFromFlags(int _buffs)</div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 <div class="ttc" id="common_2deathtypes_2all_8qh_html_ad5aa4530e732a8bb74be927221610971"><div class="ttname"><a href="../../db/dab/common_2deathtypes_2all_8qh.html#ad5aa4530e732a8bb74be927221610971">DEATH_WEAPONOF</a></div><div class="ttdeci">#define DEATH_WEAPONOF(t)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dab/common_2deathtypes_2all_8qh_source.html#l00044">all.qh:44</a></div></div>
 <div class="ttc" id="common_2deathtypes_2all_8qh_html_abfeb8ab3b6f6ad47eabcf0cb3d206b5a"><div class="ttname"><a href="../../db/dab/common_2deathtypes_2all_8qh.html#abfeb8ab3b6f6ad47eabcf0cb3d206b5a">HITTYPE_SPLASH</a></div><div class="ttdeci">const int HITTYPE_SPLASH</div><div class="ttdoc">automatically set by RadiusDamage </div><div class="ttdef"><b>Definition:</b> <a href="../../db/dab/common_2deathtypes_2all_8qh_source.html#l00029">all.qh:29</a></div></div>
@@ -1586,7 +1587,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/dac/g__damage_8qc.html">g_damage.qc</a></li>
-    <li class="footer">Generated on Fri Jan 22 2016 02:07:24 for Xonotic by
+    <li class="footer">Generated on Sat Jan 23 2016 09:15:51 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

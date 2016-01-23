@@ -2,6 +2,7 @@ var g__damage_8qc =
 [
     [ "SPREE_ITEM", "d5/dac/g__damage_8qc.html#a06a1edf2081934e5cb8188d0419f55e7", null ],
     [ "AppendItemcodes", "d5/dac/g__damage_8qc.html#ade2887aa1376d34775f751d2a81565b0", null ],
+    [ "buff_FirstFromFlags", "d5/dac/g__damage_8qc.html#afd7d0f110617f66bd6efce062d5d16e7", null ],
     [ "Damage", "d5/dac/g__damage_8qc.html#ad1d833615f56d11e3c3a9facc944aaf6", null ],
     [ "Fire_AddDamage", "d5/dac/g__damage_8qc.html#a6fa1a68d8d18ee269438276ad351c0e9", null ],
     [ "Fire_ApplyDamage", "d5/dac/g__damage_8qc.html#abd4b4c82626ed46a05b72420db7257a1", null ],
