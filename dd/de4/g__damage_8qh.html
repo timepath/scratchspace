@@ -1692,7 +1692,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/ddd/player_8qc_source.html#l01274">1274</a> of file <a class="el" href="../../dc/ddd/player_8qc_source.html">player.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00004">IS_ONGROUND</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00181">waterlevel</a>, and <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00224">WATERLEVEL_SWIMMING</a>.</p>
+<p>References <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00004">IS_ONGROUND</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00134">MOVE_NORMAL</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">origin</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00036">trace_fraction</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00181">waterlevel</a>, and <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00224">WATERLEVEL_SWIMMING</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00571">Damage()</a>, and <a class="el" href="../../dc/ddd/player_8qc_source.html#l01286">PM_Main()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01275"></a><span class="lineno"> 1275</span>&#160;{</div>
@@ -1700,14 +1700,17 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01277"></a><span class="lineno"> 1277</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l01278"></a><span class="lineno"> 1278</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a796f7384a7accc4479668f27b307f3f1">waterlevel</a> &gt;= <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1bda5514df56d211a94a6953fe0dab27">WATERLEVEL_SWIMMING</a>)</div>
 <div class="line"><a name="l01279"></a><span class="lineno"> 1279</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01280"></a><span class="lineno"> 1280</span>&#160;    <span class="comment">//traceline(this.origin, this.origin - &#39;0 0 48&#39;, MOVE_NORMAL, this);</span></div>
-<div class="line"><a name="l01281"></a><span class="lineno"> 1281</span>&#160;    <span class="comment">//if(trace_fraction &lt; 1)</span></div>
-<div class="line"><a name="l01282"></a><span class="lineno"> 1282</span>&#160;        <span class="comment">//return false;</span></div>
+<div class="line"><a name="l01280"></a><span class="lineno"> 1280</span>&#160;    traceline(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> - <span class="stringliteral">&#39;0 0 48&#39;</span>, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l01281"></a><span class="lineno"> 1281</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> &lt; 1)</div>
+<div class="line"><a name="l01282"></a><span class="lineno"> 1282</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l01283"></a><span class="lineno"> 1283</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l01284"></a><span class="lineno"> 1284</span>&#160;}</div>
 <div class="ttc" id="progsdefs_8qc_html_a796f7384a7accc4479668f27b307f3f1"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a796f7384a7accc4479668f27b307f3f1">waterlevel</a></div><div class="ttdeci">float waterlevel</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00181">progsdefs.qc:181</a></div></div>
 <div class="ttc" id="movetypes_8qh_html_afcd99b2a90a921a7e3e7f52f8ac86a27"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27">IS_ONGROUND</a></div><div class="ttdeci">#define IS_ONGROUND(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00004">movetypes.qh:4</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a1bda5514df56d211a94a6953fe0dab27"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a1bda5514df56d211a94a6953fe0dab27">WATERLEVEL_SWIMMING</a></div><div class="ttdeci">const int WATERLEVEL_SWIMMING</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00224">constants.qh:224</a></div></div>
+<div class="ttc" id="csqc__constants_8qh_html_a43d4911c37299de085f3a00735956514"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a></div><div class="ttdeci">const int MOVE_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00134">csqc_constants.qh:134</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_abe72a6bafb55848ec9cd7f81a6de3c29"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a></div><div class="ttdeci">vector origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">csprogsdefs.qc:101</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_aca94f7b0cad3ddee5f2a42a762e0eafa"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a></div><div class="ttdeci">float trace_fraction</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00036">csprogsdefs.qc:36</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -3460,7 +3463,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dd/de4/g__damage_8qh.html">g_damage.qh</a></li>
-    <li class="footer">Generated on Sat Jan 30 2016 00:04:31 for Xonotic by
+    <li class="footer">Generated on Sat Jan 30 2016 00:15:13 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

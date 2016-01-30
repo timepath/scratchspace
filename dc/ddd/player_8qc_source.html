@@ -1379,9 +1379,9 @@ $(document).ready(function(){initNavTree('dc/ddd/player_8qc_source.html','../../
 <div class="line"><a name="l01277"></a><span class="lineno"> 1277</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l01278"></a><span class="lineno"> 1278</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a796f7384a7accc4479668f27b307f3f1">waterlevel</a> &gt;= <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1bda5514df56d211a94a6953fe0dab27">WATERLEVEL_SWIMMING</a>)</div>
 <div class="line"><a name="l01279"></a><span class="lineno"> 1279</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01280"></a><span class="lineno"> 1280</span>&#160;    <span class="comment">//traceline(this.origin, this.origin - &#39;0 0 48&#39;, MOVE_NORMAL, this);</span></div>
-<div class="line"><a name="l01281"></a><span class="lineno"> 1281</span>&#160;    <span class="comment">//if(trace_fraction &lt; 1)</span></div>
-<div class="line"><a name="l01282"></a><span class="lineno"> 1282</span>&#160;        <span class="comment">//return false;</span></div>
+<div class="line"><a name="l01280"></a><span class="lineno"> 1280</span>&#160;    traceline(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> - <span class="stringliteral">&#39;0 0 48&#39;</span>, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l01281"></a><span class="lineno"> 1281</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> &lt; 1)</div>
+<div class="line"><a name="l01282"></a><span class="lineno"> 1282</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l01283"></a><span class="lineno"> 1283</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l01284"></a><span class="lineno"> 1284</span>&#160;}</div>
 <div class="line"><a name="l01285"></a><span class="lineno"> 1285</span>&#160;</div>
@@ -1892,7 +1892,7 @@ $(document).ready(function(){initNavTree('dc/ddd/player_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_33efe8922df16737d16f0d292d9896fe.html">physics</a></li><li class="navelem"><a class="el" href="../../dc/ddd/player_8qc.html">player.qc</a></li>
-    <li class="footer">Generated on Sat Jan 30 2016 00:04:22 for Xonotic by
+    <li class="footer">Generated on Sat Jan 30 2016 00:15:04 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
