@@ -158,6 +158,8 @@ Functions</h2></td></tr>
 <tr class="separator:acae6eac5dd85fe99004374e0f21a382d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3af1bb857e7f0803f57f1982580927ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2a/client_2main_8qh.html#a3af1bb857e7f0803f57f1982580927ff">centerprint_hud</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> strMessage)</td></tr>
 <tr class="separator:a3af1bb857e7f0803f57f1982580927ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2543f5a51779d068a7f5248f4f7c36a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2a/client_2main_8qh.html#a2543f5a51779d068a7f5248f4f7c36a2">centerprint_kill</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> id)</td></tr>
+<tr class="separator:a2543f5a51779d068a7f5248f4f7c36a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b0f2a3ff628c84741514ccd9c7b2334"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2a/client_2main_8qh.html#a1b0f2a3ff628c84741514ccd9c7b2334">centerprint_generic</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> new_id, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> strMessage, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> duration, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> countdown_num)</td></tr>
 <tr class="separator:a1b0f2a3ff628c84741514ccd9c7b2334"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -484,14 +486,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00090">90</a> of file <a class="el" href="../../d4/dbb/centerprint_8qc_source.html">centerprint.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00095">95</a> of file <a class="el" href="../../d4/dbb/centerprint_8qc_source.html">centerprint.qc</a>.</p>
 
 <p>References <a class="el" href="../../d7/db4/client_2autocvars_8qh_source.html#l00224">autocvar_hud_panel_centerprint_time</a>, and <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00014">centerprint_generic()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00843">CSQC_Parse_CenterPrint()</a>, <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00109">HUD_CenterPrint()</a>, and <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00346">LocalCommand_localprint()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;{</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <a class="code" href="../../d4/dbb/centerprint_8qc.html#a369d3074c3a2f6caa03166cdd9f7fa4b">centerprint_generic</a>(0, strMessage, <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ac4594e4d605f5b7424756b4d9a5b3b84">autocvar_hud_panel_centerprint_time</a>, 0);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00843">CSQC_Parse_CenterPrint()</a>, <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00114">HUD_CenterPrint()</a>, and <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00346">LocalCommand_localprint()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="../../d4/dbb/centerprint_8qc.html#a369d3074c3a2f6caa03166cdd9f7fa4b">centerprint_generic</a>(0, strMessage, <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ac4594e4d605f5b7424756b4d9a5b3b84">autocvar_hud_panel_centerprint_time</a>, 0);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
 <div class="ttc" id="centerprint_8qc_html_a369d3074c3a2f6caa03166cdd9f7fa4b"><div class="ttname"><a href="../../d4/dbb/centerprint_8qc.html#a369d3074c3a2f6caa03166cdd9f7fa4b">centerprint_generic</a></div><div class="ttdeci">void centerprint_generic(int new_id, string strMessage, float duration, int countdown_num)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbb/centerprint_8qc_source.html#l00014">centerprint.qc:14</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_ac4594e4d605f5b7424756b4d9a5b3b84"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#ac4594e4d605f5b7424756b4d9a5b3b84">autocvar_hud_panel_centerprint_time</a></div><div class="ttdeci">float autocvar_hud_panel_centerprint_time</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00224">autocvars.qh:224</a></div></div>
 </div><!-- fragment -->
@@ -511,6 +513,52 @@ Variables</h2></td></tr>
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d2a/client_2main_8qh_a3af1bb857e7f0803f57f1982580927ff_icgraph.svg" width="544" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a2543f5a51779d068a7f5248f4f7c36a2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> centerprint_kill </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00090">90</a> of file <a class="el" href="../../d4/dbb/centerprint_8qc_source.html">centerprint.qc</a>.</p>
+
+<p>References <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00014">centerprint_generic()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/df4/announcer_8qc_source.html#l00074">Announcer_Gamestart()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;{</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <a class="code" href="../../d4/dbb/centerprint_8qc.html#a369d3074c3a2f6caa03166cdd9f7fa4b">centerprint_generic</a>(<span class="keywordtype">id</span>, <span class="stringliteral">&quot;&quot;</span>, 0, 0);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div>
+<div class="ttc" id="centerprint_8qc_html_a369d3074c3a2f6caa03166cdd9f7fa4b"><div class="ttname"><a href="../../d4/dbb/centerprint_8qc.html#a369d3074c3a2f6caa03166cdd9f7fa4b">centerprint_generic</a></div><div class="ttdeci">void centerprint_generic(int new_id, string strMessage, float duration, int countdown_num)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbb/centerprint_8qc_source.html#l00014">centerprint.qc:14</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d2a/client_2main_8qh_a2543f5a51779d068a7f5248f4f7c36a2_cgraph.svg" width="427" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d2a/client_2main_8qh_a2543f5a51779d068a7f5248f4f7c36a2_icgraph.svg" width="638" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -546,11 +594,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="client_2main_8qc_html_ac6d66624aeafa1c2684b5931d82b2008"><div class="ttname"><a href="../../df/d30/client_2main_8qc.html#ac6d66624aeafa1c2684b5931d82b2008">forcefog</a></div><div class="ttdeci">string forcefog</div><div class="ttdoc">TODO somehow thwart prvm_globalset client ... </div><div class="ttdef"><b>Definition:</b> <a href="../../df/d30/client_2main_8qc_source.html#l00871">main.qc:871</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a07ab9c2f9928f658d9aa7057e0ea07a4"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a07ab9c2f9928f658d9aa7057e0ea07a4">autocvar_cl_orthoview</a></div><div class="ttdeci">bool autocvar_cl_orthoview</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00059">autocvars.qh:59</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d2a/client_2main_8qh_a0ea74b0011b3f41a4e0f744608765323_icgraph.svg" width="283" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -641,21 +689,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="common_2util_8qh_html_a670fd3f9a229fc1532145c01a4d2b15b"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a></div><div class="ttdeci">string db_get(int db, string key)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00084">map.qh:84</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_aae603d778f279b13310b1cec1d9fe1a4"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#aae603d778f279b13310b1cec1d9fe1a4">autocvar_hud_showbinds_limit</a></div><div class="ttdeci">bool autocvar_hud_showbinds_limit</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00350">autocvars.qh:350</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d2a/client_2main_8qh_acae6eac5dd85fe99004374e0f21a382d_cgraph.svg" width="291" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d2a/client_2main_8qh_acae6eac5dd85fe99004374e0f21a382d_icgraph.svg" width="662" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -698,21 +746,21 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;}</div>
 <div class="ttc" id="client_2main_8qc_html_a193573d11513d634d32542aff007a914"><div class="ttname"><a href="../../df/d30/client_2main_8qc.html#a193573d11513d634d32542aff007a914">PreDraw_self</a></div><div class="ttdeci">void PreDraw_self()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d30/client_2main_8qc_source.html#l00331">main.qc:331</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d2a/client_2main_8qh_af71e3fca224939f55eb4426f26f41e89_cgraph.svg" width="248" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d2a/client_2main_8qh_af71e3fca224939f55eb4426f26f41e89_icgraph.svg" width="259" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -763,7 +811,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00130">130</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00131">131</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00052">Ent_Wall_Draw()</a>, and <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00249">turret_gib_draw()</a>.</p>
 
@@ -779,7 +827,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00132">132</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00133">133</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00002">HUD_HealthArmor()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00903">NET_HANDLE()</a>.</p>
 
@@ -827,7 +875,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00135">135</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00136">136</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00035">CSQC_Init()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01374">CSQC_UpdateView()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00820">Gamemode_Init()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00132">Shutdown()</a>.</p>
 
@@ -1013,7 +1061,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00145">145</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00146">146</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01374">CSQC_UpdateView()</a>, and <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00608">CSQCModel_Hook_PreDraw()</a>.</p>
 
@@ -1029,7 +1077,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00141">141</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00142">142</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00903">NET_HANDLE()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00626">TrueAimCheck()</a>.</p>
 
@@ -1107,7 +1155,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00146">146</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00147">147</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00051">CopyBody()</a>, <a class="el" href="../../db/dc8/cl__controlpoint_8qc_source.html#l00021">cpicon_draw()</a>, <a class="el" href="../../de/d4d/sv__controlpoint_8qc_source.html#l00005">cpicon_send()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00275">door_damage()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00211">formatmessage()</a>, <a class="el" href="../../df/d07/cl__generator_8qc_source.html#l00045">generator_draw()</a>, <a class="el" href="../../d8/dce/sv__generator_8qc_source.html#l00003">generator_send()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00320">GrapplingHook_Damage()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00857">havocbot_chooseenemy()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00400">havocbot_movetogoal()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00002">HUD_HealthArmor()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00776">KillIndicator_Think()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00509">LinkDoors()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00381">Monster_Attack_Leap_Check()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01039">Monster_Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00985">Monster_Dead()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00966">Monster_Dead_Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00520">Monster_Dead_Fade()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00486">Monster_Miniboss_Check()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00697">Monster_Move()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00951">Monster_Reset()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01236">Monster_Spawn_Setup()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01215">Monster_Think()</a>, <a class="el" href="../../db/dc8/cl__controlpoint_8qc_source.html#l00157">NET_HANDLE()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01510">player_regen()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00159">PlayerCorpseDamage()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00297">PlayerDamage()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l02496">PlayerPostThink()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l02097">PlayerPreThink()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00431">Portal_Damage()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00403">PutClientInServer()</a>, <a class="el" href="../../d0/dda/swamp_8qc_source.html#l00039">swampslug_think()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00027">turret_draw()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00056">turret_draw2d()</a>, <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00117">Vehicles_drawHUD()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00199">vehicles_projectile_damage()</a>.</p>
 
@@ -1123,7 +1171,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00137">137</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00138">138</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01374">CSQC_UpdateView()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00132">Shutdown()</a>.</p>
 
@@ -1139,7 +1187,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00136">136</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00137">137</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01374">CSQC_UpdateView()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00820">Gamemode_Init()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00132">Shutdown()</a>.</p>
 
@@ -1155,7 +1203,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00143">143</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00144">144</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01374">CSQC_UpdateView()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00436">GetCurrentFov()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00091">HUD_Ammo()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00862">HUD_Crosshair()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00777">HUD_Crosshair_Vehicle()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00002">HUD_HealthArmor()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00413">HUD_Vehicle()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00019">HUD_Weapons()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00403">PutClientInServer()</a>, <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00056">turret_draw2d()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00747">WantEventchase()</a>.</p>
 
@@ -1331,7 +1379,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00139">139</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00140">140</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l01106">havocbot_aim()</a>, and <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00278">HUD_MinigameMenu_ClickInvite()</a>.</p>
 
@@ -1347,7 +1395,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00139">139</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00140">140</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 </div>
 </div>
@@ -1361,7 +1409,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00139">139</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00140">140</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 </div>
 </div>
@@ -1853,7 +1901,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00144">144</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00145">145</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01374">CSQC_UpdateView()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00022">CSQCPlayer_LOD_Apply()</a>, and <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00052">Ent_Wall_Draw()</a>.</p>
 
@@ -1951,7 +1999,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00105">105</a> of file <a class="el" href="../../d0/d2a/client_2main_8qh_source.html">main.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00108">accuracy_canbegooddamage()</a>, <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00091">accuracy_isgooddamage()</a>, <a class="el" href="../../da/df4/announcer_8qc_source.html#l00104">Announcer_Time()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01801">CheckRules_World()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00247">ClientCommand_ready()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00695">CommonCommand_timeout()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00031">GiveFrags()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01242">HUD_DrawScoreboard()</a>, <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00009">HUD_InfoMessages()</a>, <a class="el" href="../../d5/dfa/timer_8qc_source.html#l00001">HUD_Timer()</a>, <a class="el" href="../../dd/d55/notifications_8qc_source.html#l01423">Local_Notification()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00026">Nagger_SendEntity()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00504">NET_HANDLE()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00337">PlayerScore_Add()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00403">PutClientInServer()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00172">PutObserverInServer()</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00249">readlevelcvars()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00407">ReadyRestart_force()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00657">Say()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00156">StartFrame()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00745">VoteCommand_call()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00833">VoteCommand_master()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00200">VoteCount()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00108">accuracy_canbegooddamage()</a>, <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00091">accuracy_isgooddamage()</a>, <a class="el" href="../../da/df4/announcer_8qc_source.html#l00117">Announcer_Time()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01801">CheckRules_World()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00247">ClientCommand_ready()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00695">CommonCommand_timeout()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00031">GiveFrags()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01242">HUD_DrawScoreboard()</a>, <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00009">HUD_InfoMessages()</a>, <a class="el" href="../../d5/dfa/timer_8qc_source.html#l00001">HUD_Timer()</a>, <a class="el" href="../../dd/d55/notifications_8qc_source.html#l01423">Local_Notification()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00026">Nagger_SendEntity()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00504">NET_HANDLE()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00337">PlayerScore_Add()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00403">PutClientInServer()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00172">PutObserverInServer()</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00249">readlevelcvars()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00407">ReadyRestart_force()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00664">Say()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00156">StartFrame()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00745">VoteCommand_call()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00833">VoteCommand_master()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00200">VoteCount()</a>.</p>
 
 </div>
 </div>
@@ -1977,7 +2025,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d0/d2a/client_2main_8qh.html">main.qh</a></li>
-    <li class="footer">Generated on Sat Jan 30 2016 00:15:07 for Xonotic by
+    <li class="footer">Generated on Sat Jan 30 2016 12:37:21 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

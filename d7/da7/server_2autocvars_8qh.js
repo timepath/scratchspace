@@ -380,6 +380,7 @@ var server_2autocvars_8qh =
     [ "autocvar_g_spawn_furthest", "d7/da7/server_2autocvars_8qh.html#ab845e3a0b0cb183d19284e2f9eb7b1ef", null ],
     [ "autocvar_g_spawn_useallspawns", "d7/da7/server_2autocvars_8qh.html#a45cd7f59eed317239d722e0b4c86f6b4", null ],
     [ "autocvar_g_spawnpoints_auto_move_out_of_solid", "d7/da7/server_2autocvars_8qh.html#a4b662e77af745643d7d12a3208b4f4b7", null ],
+    [ "autocvar_g_spawnshield_blockdamage", "d7/da7/server_2autocvars_8qh.html#a7f6e48380857b2cf598a5094ed3e946d", null ],
     [ "autocvar_g_teamdamage_resetspeed", "d7/da7/server_2autocvars_8qh.html#a5993e01ba2f31cfa95e2becbacbee23e", null ],
     [ "autocvar_g_teamdamage_threshold", "d7/da7/server_2autocvars_8qh.html#aaa96092206d2a88b60eb47be1460a2ac", null ],
     [ "autocvar_g_telefrags", "d7/da7/server_2autocvars_8qh.html#ad9f04e9cd6fd43f4db93a4fcaa34e37b", null ],

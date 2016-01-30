@@ -9,6 +9,7 @@ var client_2main_8qh =
     [ "IS_INCREASING", "d0/d2a/client_2main_8qh.html#ae215b84a51e681283b184a26daf59073", null ],
     [ "centerprint_generic", "d0/d2a/client_2main_8qh.html#a1b0f2a3ff628c84741514ccd9c7b2334", null ],
     [ "centerprint_hud", "d0/d2a/client_2main_8qh.html#a3af1bb857e7f0803f57f1982580927ff", null ],
+    [ "centerprint_kill", "d0/d2a/client_2main_8qh.html#a2543f5a51779d068a7f5248f4f7c36a2", null ],
     [ "Fog_Force", "d0/d2a/client_2main_8qh.html#a0ea74b0011b3f41a4e0f744608765323", null ],
     [ "getcommandkey", "d0/d2a/client_2main_8qh.html#acae6eac5dd85fe99004374e0f21a382d", null ],
     [ "setpredraw", "d0/d2a/client_2main_8qh.html#af71e3fca224939f55eb4426f26f41e89", null ],

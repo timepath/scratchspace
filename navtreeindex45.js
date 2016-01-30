@@ -1,5 +1,8 @@
 var NAVTREEINDEX45 =
 {
+"d9/df0/weaponstats_8qh.html#a8f2f79e647a2d2bc87cac66e6f5a7f62":[1,0,5,4,17,5],
+"d9/df0/weaponstats_8qh.html#a92da13209374adaf40062e250635050f":[1,0,5,4,17,3],
+"d9/df0/weaponstats_8qh.html#aa8f9d7c732fe1401e1ee110adfafa840":[1,0,5,4,17,7],
 "d9/df0/weaponstats_8qh.html#aaff19cec643aea889b24fc730133c07c":[1,0,5,4,17,4],
 "d9/df0/weaponstats_8qh.html#af22a35d618b56e7fc7f2e71a5de60a3d":[1,0,5,4,17,0],
 "d9/df0/weaponstats_8qh_source.html":[1,0,5,4,17],
@@ -246,8 +249,5 @@ var NAVTREEINDEX45 =
 "da/d21/hudskinlist_8qc.html#ace619d9c62ff90a4e3bdd3e9bdd18210":[1,0,4,4,82,5],
 "da/d21/hudskinlist_8qc.html#ae1856538743c7164682df63e0204175b":[1,0,4,4,82,9],
 "da/d21/hudskinlist_8qc.html#af6621274846460272cf8f5cdf082da5f":[1,0,4,4,82,3],
-"da/d21/hudskinlist_8qc.html#af698d1283463851fb9e67807d6d34f7a":[1,0,4,4,82,2],
-"da/d21/hudskinlist_8qc.html#afe1fdc8b599375c106980a41640794a6":[1,0,4,4,82,15],
-"da/d21/hudskinlist_8qc_source.html":[1,0,4,4,82],
-"da/d30/file_8qh.html":[1,0,3,15]
+"da/d21/hudskinlist_8qc.html#af698d1283463851fb9e67807d6d34f7a":[1,0,4,4,82,2]
 };

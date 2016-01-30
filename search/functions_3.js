@@ -35,6 +35,7 @@ var searchData=
   ['centerprint',['centerprint',['../d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f',1,'menudefs.qc']]],
   ['centerprint_5fgeneric',['centerprint_generic',['../d4/dbb/centerprint_8qc.html#a369d3074c3a2f6caa03166cdd9f7fa4b',1,'centerprint_generic(int new_id, string strMessage, float duration, int countdown_num):&#160;centerprint.qc'],['../d0/d2a/client_2main_8qh.html#a1b0f2a3ff628c84741514ccd9c7b2334',1,'centerprint_generic(float new_id, string strMessage, float duration, float countdown_num):&#160;main.qh']]],
   ['centerprint_5fhud',['centerprint_hud',['../d4/dbb/centerprint_8qc.html#a3af1bb857e7f0803f57f1982580927ff',1,'centerprint_hud(string strMessage):&#160;centerprint.qc'],['../d0/d2a/client_2main_8qh.html#a3af1bb857e7f0803f57f1982580927ff',1,'centerprint_hud(string strMessage):&#160;centerprint.qc']]],
+  ['centerprint_5fkill',['centerprint_kill',['../d4/dbb/centerprint_8qc.html#a2543f5a51779d068a7f5248f4f7c36a2',1,'centerprint_kill(float id):&#160;centerprint.qc'],['../d0/d2a/client_2main_8qh.html#a2543f5a51779d068a7f5248f4f7c36a2',1,'centerprint_kill(float id):&#160;centerprint.qc']]],
   ['changelevel',['changelevel',['../d8/de2/menudefs_8qc.html#aa446c5d2879d6821df8d4c0482964ae4',1,'menudefs.qc']]],
   ['changematchtime',['changematchtime',['../d3/df2/sv__cmd_8qc.html#a51325a4fe71378c58c0db69412942152',1,'sv_cmd.qc']]],
   ['chatbubblethink',['ChatBubbleThink',['../da/d53/cl__client_8qc.html#a9c03a5d6f8057c95a87eb36aa9243b96',1,'cl_client.qc']]],
