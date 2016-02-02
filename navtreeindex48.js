@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"da/dd4/effectinfo__onslaught_8inc.html#abf46a52bffaae6a3a20903b4eada2125":[1,0,1,2,15,2],
+"da/dd4/effectinfo__onslaught_8inc.html#ae12c63fbc86ebf5a12bf42691b3b2337":[1,0,1,2,15,1],
 "da/dd4/effectinfo__onslaught_8inc_source.html":[1,0,1,2,15],
 "da/dd5/enumclass_8qh.html":[1,0,3,14],
 "da/dd5/enumclass_8qh.html#a93090b9631c9cca1cb2e94328e2889ed":[1,0,3,14,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "db/d2f/subs_8qh.html#abdc33cf25e725134a9b48e79c7031bcf":[1,0,1,12,9,6],
 "db/d2f/subs_8qh.html#acb98bc938048ba07095a2042c4d67a0a":[1,0,1,12,9,8],
 "db/d2f/subs_8qh.html#acce33f776714141af48e41e4839a1ff2":[1,0,1,12,9,26],
-"db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729":[1,0,1,12,9,25],
-"db/d2f/subs_8qh.html#ad0806fe42eadae7a1a7a48660cbbd755":[1,0,1,12,9,2],
-"db/d2f/subs_8qh.html#ad661941c9b74fdf7c70621dd454de4d6":[1,0,1,12,9,29]
+"db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729":[1,0,1,12,9,25]
 };

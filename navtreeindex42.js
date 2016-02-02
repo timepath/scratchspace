@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"d8/de2/menudefs_8qc.html#ae8ecd1beaa4d05a475bf27bbf7e0868c":[1,0,2,0,3,39],
+"d8/de2/menudefs_8qc.html#ae9c9c30a164bbec572a8731e49ee6059":[1,0,2,0,3,93],
 "d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271":[1,0,2,0,3,102],
 "d8/de2/menudefs_8qc.html#aec06b3150e573642059691357b205bd3":[1,0,2,0,3,200],
 "d8/de2/menudefs_8qc.html#aec8637371a0540f1dfac079f7b364305":[1,0,2,0,3,185],
@@ -247,7 +249,5 @@ var NAVTREEINDEX42 =
 "d9/d35/csqcprojectile_8qh.html#a648559f20af9210bf14eb62a892f0d04":[1,0,5,4,5,5],
 "d9/d35/csqcprojectile_8qh.html#a70b20e50e8eacc4a4f59b799ad04b2ea":[1,0,5,4,5,2],
 "d9/d35/csqcprojectile_8qh.html#ae4d3ae90944ee0a34a21572d58c16df0":[1,0,5,4,5,4],
-"d9/d35/csqcprojectile_8qh.html#afe5dcc66a116aed908f1dc3e5d700d11":[1,0,5,4,5,1],
-"d9/d35/csqcprojectile_8qh_source.html":[1,0,5,4,5],
-"d9/d39/wyvern_8qc.html":[1,0,1,8,0,3]
+"d9/d35/csqcprojectile_8qh.html#afe5dcc66a116aed908f1dc3e5d700d11":[1,0,5,4,5,1]
 };

@@ -893,6 +893,14 @@ Functions</h2></td></tr>
 <tr class="separator:a81b4bdd46cf27e88e7a10f29e67bf1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afce843d1c352008a880b1b6d0567f3f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7f/effectinfo_8inc.html#afce843d1c352008a880b1b6d0567f3f4">SUB</a> (arc_overheat_fire)</td></tr>
 <tr class="separator:afce843d1c352008a880b1b6d0567f3f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e0d322ca2ce3b1bfd47d22bf43cc431"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7f/effectinfo_8inc.html#a8e0d322ca2ce3b1bfd47d22bf43cc431">DEF</a> (arc_muzzleflash)</td></tr>
+<tr class="separator:a8e0d322ca2ce3b1bfd47d22bf43cc431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d4aed744d77c299066263e2917a254"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7f/effectinfo_8inc.html#a45d4aed744d77c299066263e2917a254">SUB</a> (arc_muzzleflash)</td></tr>
+<tr class="separator:a45d4aed744d77c299066263e2917a254"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ac81a166f1f164eb67166a24b6462cf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7f/effectinfo_8inc.html#a3ac81a166f1f164eb67166a24b6462cf">DEF</a> (arc_bolt_explode)</td></tr>
+<tr class="separator:a3ac81a166f1f164eb67166a24b6462cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6385040010daac6c42b9faf23014a082"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d7f/effectinfo_8inc.html#a6385040010daac6c42b9faf23014a082">SUB</a> (arc_bolt_explode)</td></tr>
+<tr class="separator:a6385040010daac6c42b9faf23014a082"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a2ae93913da7a9ba93a236bf67820d2f5"></a>
@@ -4022,6 +4030,38 @@ Functions</h2></td></tr>
           <td class="memname">DEF </td>
           <td>(</td>
           <td class="paramtype">arc_overheat_fire&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8e0d322ca2ce3b1bfd47d22bf43cc431"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DEF </td>
+          <td>(</td>
+          <td class="paramtype">arc_muzzleflash&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a3ac81a166f1f164eb67166a24b6462cf"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DEF </td>
+          <td>(</td>
+          <td class="paramtype">arc_bolt_explode&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -11781,13 +11821,94 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
+<a class="anchor" id="a45d4aed744d77c299066263e2917a254"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SUB </td>
+          <td>(</td>
+          <td class="paramtype">arc_muzzleflash&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d7f/effectinfo_8inc_source.html#l08736">8736</a> of file <a class="el" href="../../db/d7f/effectinfo_8inc_source.html">effectinfo.inc</a>.</p>
+
+<p>References <a class="el" href="../../d4/db7/wall_8qh_source.html#l00013">alpha_max</a>, <a class="el" href="../../d4/db7/wall_8qh_source.html#l00013">alpha_min</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00007">count</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00330">MY</a>, and <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00235">originjitter</a>.</p>
+<div class="fragment"><div class="line"><a name="l08736"></a><span class="lineno"> 8736</span>&#160;                     {</div>
+<div class="line"><a name="l08737"></a><span class="lineno"> 8737</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(<a class="code" href="../../d4/db7/wall_8qh.html#a3cb6ad35f034450613a4b46cc77ee338">alpha_min</a>) = 256;</div>
+<div class="line"><a name="l08738"></a><span class="lineno"> 8738</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(<a class="code" href="../../d4/db7/wall_8qh.html#a936bfd4e62382adb756bacf2abe126d3">alpha_max</a>) = 256;</div>
+<div class="line"><a name="l08739"></a><span class="lineno"> 8739</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(alpha_fade) = 512;</div>
+<div class="line"><a name="l08740"></a><span class="lineno"> 8740</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(color_min) = <span class="stringliteral">&quot;0x00ff00&quot;</span>;</div>
+<div class="line"><a name="l08741"></a><span class="lineno"> 8741</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(color_max) = <span class="stringliteral">&quot;0x8f4333&quot;</span>;</div>
+<div class="line"><a name="l08742"></a><span class="lineno"> 8742</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(<a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a>) = 2;</div>
+<div class="line"><a name="l08743"></a><span class="lineno"> 8743</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(lightcolor) = <span class="stringliteral">&#39;0.3 2.0 0.2&#39;</span>;</div>
+<div class="line"><a name="l08744"></a><span class="lineno"> 8744</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(lightradiusfade) = 2000;</div>
+<div class="line"><a name="l08745"></a><span class="lineno"> 8745</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(lightradius) = 200;</div>
+<div class="line"><a name="l08746"></a><span class="lineno"> 8746</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(<a class="code" href="../../d3/d4f/sv__main_8qc.html#a60d945d76188ced9be00d86394a4f6be">originjitter</a>) = <span class="stringliteral">&#39;1.5 1.5 1.5&#39;</span>;</div>
+<div class="line"><a name="l08747"></a><span class="lineno"> 8747</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(size_min) = 5;</div>
+<div class="line"><a name="l08748"></a><span class="lineno"> 8748</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(size_max) = 5;</div>
+<div class="line"><a name="l08749"></a><span class="lineno"> 8749</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(tex_max) = 8;</div>
+<div class="line"><a name="l08750"></a><span class="lineno"> 8750</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(type) = <span class="stringliteral">&quot;smoke&quot;</span>;</div>
+<div class="line"><a name="l08751"></a><span class="lineno"> 8751</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(velocityjitter) = <span class="stringliteral">&#39;6.0 6.0 6.0&#39;</span>;</div>
+<div class="line"><a name="l08752"></a><span class="lineno"> 8752</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(velocitymultiplier) = 0.010000;</div>
+<div class="line"><a name="l08753"></a><span class="lineno"> 8753</span>&#160;}</div>
+<div class="ttc" id="powerups_8qc_html_afea6e77db19a2f8c91419904fe665a3a"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a></div><div class="ttdeci">float count</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00007">powerups.qc:7</a></div></div>
+<div class="ttc" id="wall_8qh_html_a3cb6ad35f034450613a4b46cc77ee338"><div class="ttname"><a href="../../d4/db7/wall_8qh.html#a3cb6ad35f034450613a4b46cc77ee338">alpha_min</a></div><div class="ttdeci">float alpha_min</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/wall_8qh_source.html#l00013">wall.qh:13</a></div></div>
+<div class="ttc" id="wall_8qh_html_a936bfd4e62382adb756bacf2abe126d3"><div class="ttname"><a href="../../d4/db7/wall_8qh.html#a936bfd4e62382adb756bacf2abe126d3">alpha_max</a></div><div class="ttdeci">float alpha_max</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/wall_8qh_source.html#l00013">wall.qh:13</a></div></div>
+<div class="ttc" id="sv__main_8qc_html_a60d945d76188ced9be00d86394a4f6be"><div class="ttname"><a href="../../d3/d4f/sv__main_8qc.html#a60d945d76188ced9be00d86394a4f6be">originjitter</a></div><div class="ttdeci">vector originjitter</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d4f/sv__main_8qc_source.html#l00235">sv_main.qc:235</a></div></div>
+<div class="ttc" id="effectinfo_8qc_html_a6b8c5c4e402229375c8d89ebb4205802"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a></div><div class="ttdeci">#define MY(f, type, val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00330">effectinfo.qc:330</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a6385040010daac6c42b9faf23014a082"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SUB </td>
+          <td>(</td>
+          <td class="paramtype">arc_bolt_explode&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d7f/effectinfo_8inc_source.html#l08778">8778</a> of file <a class="el" href="../../db/d7f/effectinfo_8inc_source.html">effectinfo.inc</a>.</p>
+
+<p>References <a class="el" href="../../d4/db7/wall_8qh_source.html#l00013">alpha_max</a>, <a class="el" href="../../d4/db7/wall_8qh_source.html#l00013">alpha_min</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00330">MY</a>, and <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00235">originjitter</a>.</p>
+<div class="fragment"><div class="line"><a name="l08778"></a><span class="lineno"> 8778</span>&#160;                      {</div>
+<div class="line"><a name="l08779"></a><span class="lineno"> 8779</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(<a class="code" href="../../d4/db7/wall_8qh.html#a3cb6ad35f034450613a4b46cc77ee338">alpha_min</a>) = 256;</div>
+<div class="line"><a name="l08780"></a><span class="lineno"> 8780</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(<a class="code" href="../../d4/db7/wall_8qh.html#a936bfd4e62382adb756bacf2abe126d3">alpha_max</a>) = 256;</div>
+<div class="line"><a name="l08781"></a><span class="lineno"> 8781</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(countabsolute) = 1;</div>
+<div class="line"><a name="l08782"></a><span class="lineno"> 8782</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(lightcolor) = <span class="stringliteral">&#39;8.0 4.0 1.0&#39;</span>;</div>
+<div class="line"><a name="l08783"></a><span class="lineno"> 8783</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(lightradiusfade) = 400;</div>
+<div class="line"><a name="l08784"></a><span class="lineno"> 8784</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(lightradius) = 120;</div>
+<div class="line"><a name="l08785"></a><span class="lineno"> 8785</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(<a class="code" href="../../d3/d4f/sv__main_8qc.html#a60d945d76188ced9be00d86394a4f6be">originjitter</a>) = <span class="stringliteral">&#39;14.0 14.0 14.0&#39;</span>;</div>
+<div class="line"><a name="l08786"></a><span class="lineno"> 8786</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(size_min) = 28;</div>
+<div class="line"><a name="l08787"></a><span class="lineno"> 8787</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(size_max) = 38;</div>
+<div class="line"><a name="l08788"></a><span class="lineno"> 8788</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(tex_min) = 8;</div>
+<div class="line"><a name="l08789"></a><span class="lineno"> 8789</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(tex_max) = 16;</div>
+<div class="line"><a name="l08790"></a><span class="lineno"> 8790</span>&#160;    <a class="code" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(type) = <span class="stringliteral">&quot;decal&quot;</span>;</div>
+<div class="line"><a name="l08791"></a><span class="lineno"> 8791</span>&#160;}</div>
+<div class="ttc" id="wall_8qh_html_a3cb6ad35f034450613a4b46cc77ee338"><div class="ttname"><a href="../../d4/db7/wall_8qh.html#a3cb6ad35f034450613a4b46cc77ee338">alpha_min</a></div><div class="ttdeci">float alpha_min</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/wall_8qh_source.html#l00013">wall.qh:13</a></div></div>
+<div class="ttc" id="wall_8qh_html_a936bfd4e62382adb756bacf2abe126d3"><div class="ttname"><a href="../../d4/db7/wall_8qh.html#a936bfd4e62382adb756bacf2abe126d3">alpha_max</a></div><div class="ttdeci">float alpha_max</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/wall_8qh_source.html#l00013">wall.qh:13</a></div></div>
+<div class="ttc" id="sv__main_8qc_html_a60d945d76188ced9be00d86394a4f6be"><div class="ttname"><a href="../../d3/d4f/sv__main_8qc.html#a60d945d76188ced9be00d86394a4f6be">originjitter</a></div><div class="ttdeci">vector originjitter</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d4f/sv__main_8qc_source.html#l00235">sv_main.qc:235</a></div></div>
+<div class="ttc" id="effectinfo_8qc_html_a6b8c5c4e402229375c8d89ebb4205802"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a></div><div class="ttdeci">#define MY(f, type, val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00330">effectinfo.qc:330</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_f54d74b0e9ac4c004ab42fc4ec4fcb87.html">effects</a></li><li class="navelem"><a class="el" href="../../db/d7f/effectinfo_8inc.html">effectinfo.inc</a></li>
-    <li class="footer">Generated on Sat Jan 30 2016 12:37:22 for Xonotic by
+    <li class="footer">Generated on Tue Feb 2 2016 23:14:15 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

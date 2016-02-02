@@ -36,6 +36,7 @@ var common_2constants_8qh =
     [ "MAPVOTE_COUNT", "d0/d8b/common_2constants_8qh.html#a40774b797818eadce12069d64081f984", null ],
     [ "PL_MAX_CONST", "d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579", null ],
     [ "PL_MIN_CONST", "d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb", null ],
+    [ "PROJECTILE_ARC_BOLT", "d0/d8b/common_2constants_8qh.html#aefc68ec50cec3db8bb1362f3546fc5c6", null ],
     [ "PROJECTILE_BLASTER", "d0/d8b/common_2constants_8qh.html#a506203949a0e816ee955ac65c34694f0", null ],
     [ "PROJECTILE_BUMBLE_BEAM", "d0/d8b/common_2constants_8qh.html#a9bdd4135a43d1fe82726ce9f680314ea", null ],
     [ "PROJECTILE_BUMBLE_GUN", "d0/d8b/common_2constants_8qh.html#ae7b73a62a580eb11c699c290040aa916", null ],

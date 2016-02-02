@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a":[1,0,1,0,2,5],
+"d9/d71/command_8qh.html#ae16c5c4e63dcddcc450dca057eb107c9":[1,0,1,0,2,3],
 "d9/d71/command_8qh_source.html":[1,0,1,0,2],
 "d9/d72/rocketminsta_8qc.html":[1,0,1,9,0,23,1],
 "d9/d72/rocketminsta_8qc_source.html":[1,0,1,9,0,23,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "d9/de7/server_2constants_8qh_source.html":[1,0,5,21],
 "d9/df0/weaponstats_8qh.html":[1,0,5,4,17],
 "d9/df0/weaponstats_8qh.html#a456ded6f061320557b90765d8d34c0f3":[1,0,5,4,17,6],
-"d9/df0/weaponstats_8qh.html#a4c6242d4528c87ae56584c764ef006a0":[1,0,5,4,17,1],
-"d9/df0/weaponstats_8qh.html#a658592c9d038c8940b9d17f4330cf72d":[1,0,5,4,17,2],
-"d9/df0/weaponstats_8qh.html#a82a33a13a755fd09a36bd40621f53829":[1,0,5,4,17,8]
+"d9/df0/weaponstats_8qh.html#a4c6242d4528c87ae56584c764ef006a0":[1,0,5,4,17,1]
 };

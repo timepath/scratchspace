@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"da/d53/cl__client_8qc.html#abcb65a45d0fdc442693ce1ae87579b2a":[1,0,5,15,66],
+"da/d53/cl__client_8qc.html#ac41a298cc0293504a18d2b0065902121":[1,0,5,15,46],
 "da/d53/cl__client_8qc.html#ac45ffbdfca81ff2210af750292d31d1c":[1,0,5,15,54],
 "da/d53/cl__client_8qc.html#ac578ca44493fe34e6cb1b2093cf79341":[1,0,5,15,41],
 "da/d53/cl__client_8qc.html#acc4a57f5b8c7768ffd388ebb8a6b5237":[1,0,5,15,72],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "da/dcf/jetpack_8qc_source.html":[1,0,1,5,0,6],
 "da/dd4/effectinfo__onslaught_8inc.html":[1,0,1,2,15],
 "da/dd4/effectinfo__onslaught_8inc.html#a14b4a86f4eded9aa2eeeda854eb487aa":[1,0,1,2,15,0],
-"da/dd4/effectinfo__onslaught_8inc.html#a4e5a6caa9b19fed08ede67c0d60971e6":[1,0,1,2,15,3],
-"da/dd4/effectinfo__onslaught_8inc.html#abf46a52bffaae6a3a20903b4eada2125":[1,0,1,2,15,2],
-"da/dd4/effectinfo__onslaught_8inc.html#ae12c63fbc86ebf5a12bf42691b3b2337":[1,0,1,2,15,1]
+"da/dd4/effectinfo__onslaught_8inc.html#a4e5a6caa9b19fed08ede67c0d60971e6":[1,0,1,2,15,3]
 };

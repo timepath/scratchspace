@@ -1,5 +1,6 @@
 var NAVTREEINDEX8 =
 {
+"d2/d9e/mapinfo_8qh.html#a17c9461b0b1029f958291eebc7abfb28":[1,0,1,30,81],
 "d2/d9e/mapinfo_8qh.html#a17f35585e0c7d03f4e13f4d6ba3b1e42":[1,0,1,30,21],
 "d2/d9e/mapinfo_8qh.html#a1df2d8e83b0c2171826428116d84f96c":[1,0,1,30,42],
 "d2/d9e/mapinfo_8qh.html#a1ef7e3e065264552c45e89639e52c0f4":[1,0,1,30,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX8 =
 "d2/dcc/sv__cmd_8qh.html#af1a4581b0f369c6ec43e8efee459546c":[1,0,5,1,13,1],
 "d2/dcc/sv__cmd_8qh.html#af35cd3e1bbf19485a279b9820a49bd3d":[1,0,5,1,13,3],
 "d2/dcc/sv__cmd_8qh.html#af54c1dbbabd0352b69b0e8dbdadc4410":[1,0,5,1,13,7],
-"d2/dcc/sv__cmd_8qh_source.html":[1,0,5,1,13],
-"d2/dce/dialog__hudpanel__powerups_8qc.html":[1,0,4,4,31]
+"d2/dcc/sv__cmd_8qh_source.html":[1,0,5,1,13]
 };

@@ -187,6 +187,8 @@ var effectinfo_8inc =
     [ "DEF", "db/d7f/effectinfo_8inc.html#a2b3de5868558a27a4187e50cb0eb0263", null ],
     [ "DEF", "db/d7f/effectinfo_8inc.html#a8c7ae498a5780fb95f4c2b8f335e4f0b", null ],
     [ "DEF", "db/d7f/effectinfo_8inc.html#a81b4bdd46cf27e88e7a10f29e67bf1a1", null ],
+    [ "DEF", "db/d7f/effectinfo_8inc.html#a8e0d322ca2ce3b1bfd47d22bf43cc431", null ],
+    [ "DEF", "db/d7f/effectinfo_8inc.html#a3ac81a166f1f164eb67166a24b6462cf", null ],
     [ "flare", "db/d7f/effectinfo_8inc.html#aee412f2d2f389322fdd4e2d27b3a866b", null ],
     [ "ground_quake", "db/d7f/effectinfo_8inc.html#a5c1b4bc28344cfc365dcc9af9a5c651f", null ],
     [ "spawn_event", "db/d7f/effectinfo_8inc.html#aa528a1a4c78a3f66e8d8a3cb0e058b92", null ],
@@ -375,5 +377,7 @@ var effectinfo_8inc =
     [ "SUB", "db/d7f/effectinfo_8inc.html#a6892a2d53ceb1974830e1aa6b5ebb581", null ],
     [ "SUB", "db/d7f/effectinfo_8inc.html#a4eb21a1adda919ac91fc4f6880ed7b24", null ],
     [ "SUB", "db/d7f/effectinfo_8inc.html#a36318e42896da215271cd8877f862102", null ],
-    [ "SUB", "db/d7f/effectinfo_8inc.html#afce843d1c352008a880b1b6d0567f3f4", null ]
+    [ "SUB", "db/d7f/effectinfo_8inc.html#afce843d1c352008a880b1b6d0567f3f4", null ],
+    [ "SUB", "db/d7f/effectinfo_8inc.html#a45d4aed744d77c299066263e2917a254", null ],
+    [ "SUB", "db/d7f/effectinfo_8inc.html#a6385040010daac6c42b9faf23014a082", null ]
 ];

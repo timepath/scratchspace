@@ -1,5 +1,11 @@
 var NAVTREEINDEX66 =
 {
+"df/d9b/menu_2xonotic_2util_8qc.html#acec3f9953edac61d0ea8bb0c013539cc":[1,0,4,4,113,63],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad1f36d07e4a66476224966394f1e24e5":[1,0,4,4,113,44],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[1,0,4,4,113,1],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[1,0,4,4,113,0],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad481dfa3a9518c9669a0fcc1da77758f":[1,0,4,4,113,8],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556":[1,0,4,4,113,4],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad87ced1edd45c581dd684b4054fd8ea5":[1,0,4,4,113,73],
 "df/d9b/menu_2xonotic_2util_8qc.html#ada089929e2d22881f9aba7db23de0141":[1,0,4,4,113,39],
 "df/d9b/menu_2xonotic_2util_8qc.html#ada73b695059752dc4c9de93567017ca8":[1,0,4,4,113,17],
@@ -243,11 +249,5 @@ var NAVTREEINDEX66 =
 "df/dc2/menu_8qc.html#afa7ffdd1355d130cff49d2b0415d80e6":[1,0,4,12,16],
 "df/dc2/menu_8qc.html#affa952aabbcb8ec7c960d9bccbe07e62":[1,0,4,12,39],
 "df/dc2/menu_8qc_source.html":[1,0,4,12],
-"df/dc7/ewheel__weapon_8qc.html":[1,0,1,13,0,1],
-"df/dc7/ewheel__weapon_8qc.html#a24fb874c6af641087b5ca281034eba6e":[1,0,1,13,0,1,1],
-"df/dc7/ewheel__weapon_8qc.html#a8f7f7de057685462240e908d541ff873":[1,0,1,13,0,1,4],
-"df/dc7/ewheel__weapon_8qc.html#a913c402f2d4bbd69462c10ddf0369c30":[1,0,1,13,0,1,3],
-"df/dc7/ewheel__weapon_8qc.html#a9c42c33f8fdfc46a61bbe729f2a23b6d":[1,0,1,13,0,1,0],
-"df/dc7/ewheel__weapon_8qc.html#ab50ea5b8e869d0598e83df1017292225":[1,0,1,13,0,1,2],
-"df/dc7/ewheel__weapon_8qc.html#ad28d60b4479123d68ab7d2f37b300cb1":[1,0,1,13,0,1,5]
+"df/dc7/ewheel__weapon_8qc.html":[1,0,1,13,0,1]
 };
