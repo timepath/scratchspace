@@ -197,7 +197,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d3/d2d/accuracy_8qh_source.html#l00009">accuracy</a>, <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00009">accuracy_byte()</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00042">FOREACH_CLIENT</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00290">IS_INDEPENDENT_PLAYER</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00011">IS_SPEC</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00037">LAMBDA</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../de/d81/common_2weapons_2all_8qh_source.html#l00283">WEP_FIRST</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l01077">Fire_AddDamage()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00878">RadiusDamageForSource()</a>, and <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00022">W_SetupShot_Dir_ProjectileSize_Range()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l01080">Fire_AddDamage()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00881">RadiusDamageForSource()</a>, and <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00022">W_SetupShot_Dir_ProjectileSize_Range()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/d26/server_2defs_8qh.html#a8556a3ededb6cf803915e2c22f444aa0">IS_INDEPENDENT_PLAYER</a>(<span class="keyword">this</span>)) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> a = this.<a class="code" href="../../d3/d2d/accuracy_8qh.html#a6a4f618d19869d9cfa96646f51299e49">accuracy</a>;</div>
@@ -463,7 +463,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00014">IS_CLIENT</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00038">IS_DEAD</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00577">MUT_ACCADD_INVALID</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00576">MUT_ACCADD_VALID</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00138">MUTATOR_CALLHOOK</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00164">SAME_TEAM</a>, <a class="el" href="../../db/d9f/state_8qh.html#a917978fc72821486ab248ab4253cf6e8">STAT()</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00105">warmup_stage</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l01077">Fire_AddDamage()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00297">PlayerDamage()</a>, and <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00878">RadiusDamageForSource()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l01080">Fire_AddDamage()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00297">PlayerDamage()</a>, and <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00881">RadiusDamageForSource()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;{</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">int</span> mutator_check = <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(AccuracyTargetValid, attacker, targ);</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
@@ -652,7 +652,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../da/d68/accuracy_8qc.html">accuracy.qc</a></li>
-    <li class="footer">Generated on Thu Feb 4 2016 00:51:50 for Xonotic by
+    <li class="footer">Generated on Thu Feb 4 2016 07:46:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
