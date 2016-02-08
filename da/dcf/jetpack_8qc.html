@@ -139,8 +139,8 @@ Functions</h2></td></tr>
 <tr class="separator:a0e639917fc84d49a0b66eba3d809f58d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad61238ef20328cad6bbbb782df033969"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcf/jetpack_8qc.html#ad61238ef20328cad6bbbb782df033969">MODEL</a> (JetpackRegen_ITEM, <a class="el" href="../../d3/dc0/common_2items_2all_8qh.html#a718980a67d03a2d6feb39aa9b06307cd">Item_Model</a>(&quot;g_fuelregen.md3&quot;))</td></tr>
 <tr class="separator:ad61238ef20328cad6bbbb782df033969"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c075c30a4d8840c4117403fd2302bc8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcf/jetpack_8qc.html#a4c075c30a4d8840c4117403fd2302bc8">REGISTER_ITEM</a> (JetpackRegen, Pickup)</td></tr>
-<tr class="separator:a4c075c30a4d8840c4117403fd2302bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae772bbf9d0ec8bc010f959137a238ea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dcf/jetpack_8qc.html#aae772bbf9d0ec8bc010f959137a238ea">REGISTER_ITEM</a> (JetpackRegen, Powerup)</td></tr>
+<tr class="separator:aae772bbf9d0ec8bc010f959137a238ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a4bfbff9ebfc74ce094f315afd8e45a01"></a>
@@ -245,24 +245,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/dcf/jetpack_8qc_source.html#l00013">13</a> of file <a class="el" href="../../da/dcf/jetpack_8qc_source.html">jetpack.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dcf/jetpack_8qc_source.html#l00012">12</a> of file <a class="el" href="../../da/dcf/jetpack_8qc_source.html">jetpack.qc</a>.</p>
 
 <p>References <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00175">BOT_PICKUP_RATING_LOW</a>, <a class="el" href="../../db/d51/item_8qh_source.html#l00008">IT_JETPACK</a>, and <a class="el" href="../../d8/d93/powerup_8qc_source.html#l00004">m_itemid</a>.</p>
-<div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                                {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor"></span>    this.m_model                =   MDL_Jetpack_ITEM;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor"></span>    this.m_name                 =   <span class="stringliteral">&quot;Jet pack&quot;</span>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    this.m_icon                 =   <span class="stringliteral">&quot;jetpack&quot;</span>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    this.m_color                =   <span class="stringliteral">&#39;0.5 0.5 0.5&#39;</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    this.m_waypoint             =   _(<span class="stringliteral">&quot;Jet Pack&quot;</span>);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    this.m_waypointblink        =   2;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor"></span>    this.m_botvalue             =   <a class="code" href="../../dc/d1c/weapon_8qh.html#a87d0aa72ac92f39e8380f2f3d7cb4e68">BOT_PICKUP_RATING_LOW</a>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    this.<a class="code" href="../../d8/d93/powerup_8qc.html#a2c82e29d04f7365b5b7eb2210eeda604">m_itemid</a>               =   <a class="code" href="../../db/d51/item_8qh.html#a3f6f6a8713fbbbba4ade21d07fe704ff">IT_JETPACK</a>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    this.m_pickupevalfunc       =   commodity_pickupevalfunc;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                                {</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span>    this.m_model                =   MDL_Jetpack_ITEM;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span>    this.m_name                 =   <span class="stringliteral">&quot;Jet pack&quot;</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    this.m_icon                 =   <span class="stringliteral">&quot;jetpack&quot;</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    this.m_color                =   <span class="stringliteral">&#39;0.5 0.5 0.5&#39;</span>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    this.m_waypoint             =   _(<span class="stringliteral">&quot;Jet Pack&quot;</span>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    this.m_waypointblink        =   2;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span>    this.m_botvalue             =   <a class="code" href="../../dc/d1c/weapon_8qh.html#a87d0aa72ac92f39e8380f2f3d7cb4e68">BOT_PICKUP_RATING_LOW</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    this.<a class="code" href="../../d8/d93/powerup_8qc.html#a2c82e29d04f7365b5b7eb2210eeda604">m_itemid</a>               =   <a class="code" href="../../db/d51/item_8qh.html#a3f6f6a8713fbbbba4ade21d07fe704ff">IT_JETPACK</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    this.m_pickupevalfunc       =   commodity_pickupevalfunc;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="ttc" id="weapon_8qh_html_a87d0aa72ac92f39e8380f2f3d7cb4e68"><div class="ttname"><a href="../../dc/d1c/weapon_8qh.html#a87d0aa72ac92f39e8380f2f3d7cb4e68">BOT_PICKUP_RATING_LOW</a></div><div class="ttdeci">const int BOT_PICKUP_RATING_LOW</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00175">weapon.qh:175</a></div></div>
 <div class="ttc" id="item_8qh_html_a3f6f6a8713fbbbba4ade21d07fe704ff"><div class="ttname"><a href="../../db/d51/item_8qh.html#a3f6f6a8713fbbbba4ade21d07fe704ff">IT_JETPACK</a></div><div class="ttdeci">const int IT_JETPACK</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d51/item_8qh_source.html#l00008">item.qh:8</a></div></div>
 <div class="ttc" id="powerup_8qc_html_a2c82e29d04f7365b5b7eb2210eeda604"><div class="ttname"><a href="../../d8/d93/powerup_8qc.html#a2c82e29d04f7365b5b7eb2210eeda604">m_itemid</a></div><div class="ttdeci">int m_itemid</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d93/powerup_8qc_source.html#l00004">powerup.qc:4</a></div></div>
@@ -293,27 +293,27 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/dcf/jetpack_8qc_source.html#l00033">33</a> of file <a class="el" href="../../da/dcf/jetpack_8qc_source.html">jetpack.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dcf/jetpack_8qc_source.html#l00032">32</a> of file <a class="el" href="../../da/dcf/jetpack_8qc_source.html">jetpack.qc</a>.</p>
 
 <p>References <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00175">BOT_PICKUP_RATING_LOW</a>, <a class="el" href="../../db/d51/item_8qh_source.html#l00011">IT_FUEL</a>, and <a class="el" href="../../d8/d93/powerup_8qc_source.html#l00004">m_itemid</a>.</p>
-<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                 {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor"></span>    this.m_model    =   MDL_JetpackFuel_ITEM;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor"></span>    this.m_name     =   <span class="stringliteral">&quot;Fuel&quot;</span>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    this.m_icon     =   <span class="stringliteral">&quot;ammo_fuel&quot;</span>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor"></span>    this.m_botvalue =   <a class="code" href="../../dc/d1c/weapon_8qh.html#a87d0aa72ac92f39e8380f2f3d7cb4e68">BOT_PICKUP_RATING_LOW</a>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    this.<a class="code" href="../../d8/d93/powerup_8qc.html#a2c82e29d04f7365b5b7eb2210eeda604">m_itemid</a>   =   <a class="code" href="../../db/d51/item_8qh.html#a6fac748d32a744bc82febff652ac5faa">IT_FUEL</a>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="fragment"><div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                                 {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span>    this.m_model    =   MDL_JetpackFuel_ITEM;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span>    this.m_name     =   <span class="stringliteral">&quot;Fuel&quot;</span>;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    this.m_icon     =   <span class="stringliteral">&quot;ammo_fuel&quot;</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span>    this.m_botvalue =   <a class="code" href="../../dc/d1c/weapon_8qh.html#a87d0aa72ac92f39e8380f2f3d7cb4e68">BOT_PICKUP_RATING_LOW</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    this.<a class="code" href="../../d8/d93/powerup_8qc.html#a2c82e29d04f7365b5b7eb2210eeda604">m_itemid</a>   =   <a class="code" href="../../db/d51/item_8qh.html#a6fac748d32a744bc82febff652ac5faa">IT_FUEL</a>;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="ttc" id="item_8qh_html_a6fac748d32a744bc82febff652ac5faa"><div class="ttname"><a href="../../db/d51/item_8qh.html#a6fac748d32a744bc82febff652ac5faa">IT_FUEL</a></div><div class="ttdeci">const int IT_FUEL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d51/item_8qh_source.html#l00011">item.qh:11</a></div></div>
 <div class="ttc" id="weapon_8qh_html_a87d0aa72ac92f39e8380f2f3d7cb4e68"><div class="ttname"><a href="../../dc/d1c/weapon_8qh.html#a87d0aa72ac92f39e8380f2f3d7cb4e68">BOT_PICKUP_RATING_LOW</a></div><div class="ttdeci">const int BOT_PICKUP_RATING_LOW</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00175">weapon.qh:175</a></div></div>
 <div class="ttc" id="powerup_8qc_html_a2c82e29d04f7365b5b7eb2210eeda604"><div class="ttname"><a href="../../d8/d93/powerup_8qc.html#a2c82e29d04f7365b5b7eb2210eeda604">m_itemid</a></div><div class="ttdeci">int m_itemid</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d93/powerup_8qc_source.html#l00004">powerup.qc:4</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a4c075c30a4d8840c4117403fd2302bc8"></a>
+<a class="anchor" id="aae772bbf9d0ec8bc010f959137a238ea"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -326,7 +326,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Pickup&#160;</td>
+          <td class="paramtype">Powerup&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -337,31 +337,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/dcf/jetpack_8qc_source.html#l00049">49</a> of file <a class="el" href="../../da/dcf/jetpack_8qc_source.html">jetpack.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../da/dcf/jetpack_8qc_source.html#l00048">48</a> of file <a class="el" href="../../da/dcf/jetpack_8qc_source.html">jetpack.qc</a>.</p>
 
-<p>References <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00175">BOT_PICKUP_RATING_LOW</a>, <a class="el" href="../../d9/de7/server_2constants_8qh_source.html#l00005">FL_POWERUP</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">GET</a>, <a class="el" href="../../db/d51/item_8qh_source.html#l00009">IT_FUEL_REGEN</a>, and <a class="el" href="../../d8/d93/powerup_8qc_source.html#l00004">m_itemid</a>.</p>
-<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                                    {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor"></span>    this.m_model                =   MDL_JetpackRegen_ITEM;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span>    this.m_name                 =   <span class="stringliteral">&quot;Fuel regenerator&quot;</span>;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    this.m_icon                 =   <span class="stringliteral">&quot;fuelregen&quot;</span>;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    this.m_color                =   <span class="stringliteral">&#39;1 0.5 0&#39;</span>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    this.m_waypoint             =   _(<span class="stringliteral">&quot;Fuel regen&quot;</span>);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    this.m_waypointblink        =   2;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span>    this.m_botvalue             =   <a class="code" href="../../dc/d1c/weapon_8qh.html#a87d0aa72ac92f39e8380f2f3d7cb4e68">BOT_PICKUP_RATING_LOW</a>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    this.m_itemflags            =   <a class="code" href="../../d9/de7/server_2constants_8qh.html#a95a618e2261242b570b19cf5a54b84fd">FL_POWERUP</a>;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    this.<a class="code" href="../../d8/d93/powerup_8qc.html#a2c82e29d04f7365b5b7eb2210eeda604">m_itemid</a>               =   <a class="code" href="../../db/d51/item_8qh.html#a9c86424cc77eb54affbbe71ee715e043">IT_FUEL_REGEN</a>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    this.m_pickupevalfunc       =   commodity_pickupevalfunc;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    this.m_respawntime          =   <a class="code" href="../../d7/d61/misc_8qh.html#a375e5223a8dc2ba4ec82b97a10ad826d">GET</a>(g_pickup_respawntime_powerup);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    this.m_respawntimejitter    =   <a class="code" href="../../d7/d61/misc_8qh.html#a375e5223a8dc2ba4ec82b97a10ad826d">GET</a>(g_pickup_respawntimejitter_powerup);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor"></span>}</div>
+<p>References <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00175">BOT_PICKUP_RATING_LOW</a>, <a class="el" href="../../db/d51/item_8qh_source.html#l00009">IT_FUEL_REGEN</a>, and <a class="el" href="../../d8/d93/powerup_8qc_source.html#l00004">m_itemid</a>.</p>
+<div class="fragment"><div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;                                     {</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"></span>    this.m_model                =   MDL_JetpackRegen_ITEM;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span>    this.m_name                 =   <span class="stringliteral">&quot;Fuel regenerator&quot;</span>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    this.m_icon                 =   <span class="stringliteral">&quot;fuelregen&quot;</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    this.m_color                =   <span class="stringliteral">&#39;1 0.5 0&#39;</span>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    this.m_waypoint             =   _(<span class="stringliteral">&quot;Fuel regen&quot;</span>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    this.m_waypointblink        =   2;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span>    this.m_botvalue             =   <a class="code" href="../../dc/d1c/weapon_8qh.html#a87d0aa72ac92f39e8380f2f3d7cb4e68">BOT_PICKUP_RATING_LOW</a>;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    this.<a class="code" href="../../d8/d93/powerup_8qc.html#a2c82e29d04f7365b5b7eb2210eeda604">m_itemid</a>               =   <a class="code" href="../../db/d51/item_8qh.html#a9c86424cc77eb54affbbe71ee715e043">IT_FUEL_REGEN</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    this.m_pickupevalfunc       =   commodity_pickupevalfunc;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="ttc" id="weapon_8qh_html_a87d0aa72ac92f39e8380f2f3d7cb4e68"><div class="ttname"><a href="../../dc/d1c/weapon_8qh.html#a87d0aa72ac92f39e8380f2f3d7cb4e68">BOT_PICKUP_RATING_LOW</a></div><div class="ttdeci">const int BOT_PICKUP_RATING_LOW</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00175">weapon.qh:175</a></div></div>
-<div class="ttc" id="server_2constants_8qh_html_a95a618e2261242b570b19cf5a54b84fd"><div class="ttname"><a href="../../d9/de7/server_2constants_8qh.html#a95a618e2261242b570b19cf5a54b84fd">FL_POWERUP</a></div><div class="ttdeci">const int FL_POWERUP</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de7/server_2constants_8qh_source.html#l00005">constants.qh:5</a></div></div>
 <div class="ttc" id="powerup_8qc_html_a2c82e29d04f7365b5b7eb2210eeda604"><div class="ttname"><a href="../../d8/d93/powerup_8qc.html#a2c82e29d04f7365b5b7eb2210eeda604">m_itemid</a></div><div class="ttdeci">int m_itemid</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d93/powerup_8qc_source.html#l00004">powerup.qc:4</a></div></div>
-<div class="ttc" id="misc_8qh_html_a375e5223a8dc2ba4ec82b97a10ad826d"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#a375e5223a8dc2ba4ec82b97a10ad826d">GET</a></div><div class="ttdeci">#define GET(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="item_8qh_html_a9c86424cc77eb54affbbe71ee715e043"><div class="ttname"><a href="../../db/d51/item_8qh.html#a9c86424cc77eb54affbbe71ee715e043">IT_FUEL_REGEN</a></div><div class="ttdeci">const int IT_FUEL_REGEN</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d51/item_8qh_source.html#l00009">item.qh:9</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -372,7 +367,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_e220edc87b29ed8f83fd5a560ddf76b2.html">items</a></li><li class="navelem"><a class="el" href="../../dir_eb421a12fa3ad96b2d69a2d89197bc6b.html">item</a></li><li class="navelem"><a class="el" href="../../da/dcf/jetpack_8qc.html">jetpack.qc</a></li>
-    <li class="footer">Generated on Sun Feb 7 2016 23:27:08 for Xonotic by
+    <li class="footer">Generated on Mon Feb 8 2016 00:17:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
