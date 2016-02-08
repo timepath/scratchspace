@@ -1,5 +1,15 @@
 var NAVTREEINDEX43 =
 {
+"d9/d2d/dialog__settings__game__model_8qc.html#ae3352ff05cd68a276d35c458baa79048":[1,0,4,4,66,1],
+"d9/d2d/dialog__settings__game__model_8qc.html#ae45685e3ef9537557c35ef36a2633921":[1,0,4,4,66,3],
+"d9/d2d/dialog__settings__game__model_8qc_source.html":[1,0,4,4,66],
+"d9/d35/csqcprojectile_8qh.html":[1,0,5,4,5],
+"d9/d35/csqcprojectile_8qh.html#a041b0a1ddf8b3bfd790cadc39e07dc7b":[1,0,5,4,5,3],
+"d9/d35/csqcprojectile_8qh.html#a63be0bf68d871140ab1480322b45a3e1":[1,0,5,4,5,0],
+"d9/d35/csqcprojectile_8qh.html#a648559f20af9210bf14eb62a892f0d04":[1,0,5,4,5,5],
+"d9/d35/csqcprojectile_8qh.html#a70b20e50e8eacc4a4f59b799ad04b2ea":[1,0,5,4,5,2],
+"d9/d35/csqcprojectile_8qh.html#ae4d3ae90944ee0a34a21572d58c16df0":[1,0,5,4,5,4],
+"d9/d35/csqcprojectile_8qh.html#afe5dcc66a116aed908f1dc3e5d700d11":[1,0,5,4,5,1],
 "d9/d35/csqcprojectile_8qh_source.html":[1,0,5,4,5],
 "d9/d39/wyvern_8qc.html":[1,0,1,8,0,3],
 "d9/d39/wyvern_8qc.html#a008c8acc59d809efb5a33604711389e9":[1,0,1,8,0,3,11],
@@ -239,15 +249,5 @@ var NAVTREEINDEX43 =
 "d9/d67/turret_8qh.html#af6034e6ba258fc2255245173d6320da8":[1,0,1,13,11,36],
 "d9/d67/turret_8qh.html#af67fdff1fc2e588ac1e359883f35831c":[1,0,1,13,11,30],
 "d9/d67/turret_8qh.html#afbe230e5916bc2e6efeec6c8b2fa43f0":[1,0,1,13,11,40],
-"d9/d67/turret_8qh.html#afd01dc35b0e00c321043dac8675f8cd6":[1,0,1,13,11,85],
-"d9/d67/turret_8qh.html#affa742d4eca50b31c02ccd236a563b6b":[1,0,1,13,11,0],
-"d9/d67/turret_8qh.html#affd68b5faabf4edc23d913eba1d037c8":[1,0,1,13,11,50],
-"d9/d67/turret_8qh_source.html":[1,0,1,13,11],
-"d9/d6e/mutators_2mutator_2running__guns_2module_8inc.html":[1,0,1,9,0,24,0],
-"d9/d6e/mutators_2mutator_2running__guns_2module_8inc_source.html":[1,0,1,9,0,24,0],
-"d9/d71/command_8qh.html":[1,0,1,0,2],
-"d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04":[1,0,1,0,2,4],
-"d9/d71/command_8qh.html#a77bb9a2fe0f95b2cb787c65c8616f830":[1,0,1,0,2,0],
-"d9/d71/command_8qh.html#aa67845fb49a8b8befa9b102854e1e3a5":[1,0,1,0,2,2],
-"d9/d71/command_8qh.html#ab84c6d186592fc93ecd71c61658d7d01":[1,0,1,0,2,1]
+"d9/d67/turret_8qh.html#afd01dc35b0e00c321043dac8675f8cd6":[1,0,1,13,11,85]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX51 =
 {
+"db/d7f/effectinfo_8inc.html#ae5228a0a8e4fe80a5803b8fb3cd6d562":[1,0,1,2,5,140],
+"db/d7f/effectinfo_8inc.html#ae61c2c9bf448f97a2d46427d4ca23af0":[1,0,1,2,5,326],
+"db/d7f/effectinfo_8inc.html#ae6271dffe8d4e4593e7fa2702ebc2e3f":[1,0,1,2,5,152],
+"db/d7f/effectinfo_8inc.html#ae7a2a47a74cc07f03b147e441d1a94e5":[1,0,1,2,5,66],
+"db/d7f/effectinfo_8inc.html#ae7dda03e3b0965c1903b9a07c65eb12d":[1,0,1,2,5,200],
+"db/d7f/effectinfo_8inc.html#ae9638f01629f53033a4faaf74ac41a8f":[1,0,1,2,5,155],
+"db/d7f/effectinfo_8inc.html#ae9f81637898534432ddd29d3488eb034":[1,0,1,2,5,289],
+"db/d7f/effectinfo_8inc.html#aea0642b2bdcad506bb9db719fd41015a":[1,0,1,2,5,35],
+"db/d7f/effectinfo_8inc.html#aead049fcbd86ec570447e6941baef973":[1,0,1,2,5,44],
+"db/d7f/effectinfo_8inc.html#aeb027ab2a2f39bc0ada1fb5ba2bde4ec":[1,0,1,2,5,49],
 "db/d7f/effectinfo_8inc.html#aec13aa18c81eb476d299e1305a7cf019":[1,0,1,2,5,11],
 "db/d7f/effectinfo_8inc.html#aec42fa12649d21d661bd3730fd8045a4":[1,0,1,2,5,60],
 "db/d7f/effectinfo_8inc.html#aec89683f7294b9a91083d23485208d10":[1,0,1,2,5,201],
@@ -239,15 +249,5 @@ var NAVTREEINDEX51 =
 "db/dc4/movelib_8qh_source.html":[1,0,1,10,3],
 "db/dc5/waypointsprites_8qc.html":[1,0,1,9,0,31,3],
 "db/dc5/waypointsprites_8qc_source.html":[1,0,1,9,0,31,3],
-"db/dc8/cl__controlpoint_8qc.html":[1,0,1,3,0,1,0],
-"db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828":[1,0,1,3,0,1,0,15],
-"db/dc8/cl__controlpoint_8qc.html#a166d83216aec800e561b87dbdb863acc":[1,0,1,3,0,1,0,8],
-"db/dc8/cl__controlpoint_8qc.html#a3857616fe924e0ad2e724aa167950651":[1,0,1,3,0,1,0,17],
-"db/dc8/cl__controlpoint_8qc.html#a5d693a185ebf0d60bc29f5ad0cda526a":[1,0,1,3,0,1,0,16],
-"db/dc8/cl__controlpoint_8qc.html#a608237ac61b914079eaa29b74ba470ef":[1,0,1,3,0,1,0,3],
-"db/dc8/cl__controlpoint_8qc.html#a624e1c87dc3d056c489b4ac441de3631":[1,0,1,3,0,1,0,4],
-"db/dc8/cl__controlpoint_8qc.html#a89f3cd3806dbdfa37c7572e620839f68":[1,0,1,3,0,1,0,10],
-"db/dc8/cl__controlpoint_8qc.html#a9143da4321217dea8a47157a0657cf34":[1,0,1,3,0,1,0,13],
-"db/dc8/cl__controlpoint_8qc.html#a94b307abdb2a1263ab9ad038d5fa8ef1":[1,0,1,3,0,1,0,11],
-"db/dc8/cl__controlpoint_8qc.html#a9609e7148b8b0f74528c01c5393d176a":[1,0,1,3,0,1,0,1]
+"db/dc8/cl__controlpoint_8qc.html":[1,0,1,3,0,1,0]
 };

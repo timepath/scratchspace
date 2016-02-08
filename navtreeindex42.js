@@ -1,5 +1,15 @@
 var NAVTREEINDEX42 =
 {
+"d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78":[1,0,2,0,3,8],
+"d8/de2/menudefs_8qc.html#ae4649afa01702fa16073a6cb40713cf2":[1,0,2,0,3,4],
+"d8/de2/menudefs_8qc.html#ae4cf1ba5867cb0c1c0e74926ff8b0a5c":[1,0,2,0,3,55],
+"d8/de2/menudefs_8qc.html#ae5437bb8a9a673ecbdd989c3b562801e":[1,0,2,0,3,167],
+"d8/de2/menudefs_8qc.html#ae5be3ce0fe9f70c8b0822bf581e3434c":[1,0,2,0,3,239],
+"d8/de2/menudefs_8qc.html#ae63aca2d11a9ed1b0d45126f18bd5553":[1,0,2,0,3,58],
+"d8/de2/menudefs_8qc.html#ae6f15b851b48b01212c258e448eea205":[1,0,2,0,3,260],
+"d8/de2/menudefs_8qc.html#ae71a15e37955301e9d1a9f94e7631fb8":[1,0,2,0,3,207],
+"d8/de2/menudefs_8qc.html#ae77015f06980a1a476856976f1af9099":[1,0,2,0,3,251],
+"d8/de2/menudefs_8qc.html#ae7c5f4eb7a2bc9e0a4ed85f1d454fa12":[1,0,2,0,3,123],
 "d8/de2/menudefs_8qc.html#ae8ecd1beaa4d05a475bf27bbf7e0868c":[1,0,2,0,3,39],
 "d8/de2/menudefs_8qc.html#ae9c9c30a164bbec572a8731e49ee6059":[1,0,2,0,3,93],
 "d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271":[1,0,2,0,3,102],
@@ -239,15 +249,5 @@ var NAVTREEINDEX42 =
 "d9/d2d/dialog__settings__game__model_8qc.html":[1,0,4,4,66],
 "d9/d2d/dialog__settings__game__model_8qc.html#a1298b6f9b4a3f8596c92a41e8c4141b0":[1,0,4,4,66,4],
 "d9/d2d/dialog__settings__game__model_8qc.html#a68c463104b031928c3ce4e0f26a90ded":[1,0,4,4,66,2],
-"d9/d2d/dialog__settings__game__model_8qc.html#a74e156b9ba4b57c0ba50512bee8af255":[1,0,4,4,66,0],
-"d9/d2d/dialog__settings__game__model_8qc.html#ae3352ff05cd68a276d35c458baa79048":[1,0,4,4,66,1],
-"d9/d2d/dialog__settings__game__model_8qc.html#ae45685e3ef9537557c35ef36a2633921":[1,0,4,4,66,3],
-"d9/d2d/dialog__settings__game__model_8qc_source.html":[1,0,4,4,66],
-"d9/d35/csqcprojectile_8qh.html":[1,0,5,4,5],
-"d9/d35/csqcprojectile_8qh.html#a041b0a1ddf8b3bfd790cadc39e07dc7b":[1,0,5,4,5,3],
-"d9/d35/csqcprojectile_8qh.html#a63be0bf68d871140ab1480322b45a3e1":[1,0,5,4,5,0],
-"d9/d35/csqcprojectile_8qh.html#a648559f20af9210bf14eb62a892f0d04":[1,0,5,4,5,5],
-"d9/d35/csqcprojectile_8qh.html#a70b20e50e8eacc4a4f59b799ad04b2ea":[1,0,5,4,5,2],
-"d9/d35/csqcprojectile_8qh.html#ae4d3ae90944ee0a34a21572d58c16df0":[1,0,5,4,5,4],
-"d9/d35/csqcprojectile_8qh.html#afe5dcc66a116aed908f1dc3e5d700d11":[1,0,5,4,5,1]
+"d9/d2d/dialog__settings__game__model_8qc.html#a74e156b9ba4b57c0ba50512bee8af255":[1,0,4,4,66,0]
 };

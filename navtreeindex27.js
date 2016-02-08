@@ -1,5 +1,10 @@
 var NAVTREEINDEX27 =
 {
+"d6/d57/triggers_8qc.html#a081bf9b06f8d327232337fee6bd9c4ea":[1,0,1,12,12,4],
+"d6/d57/triggers_8qc.html#a1770adfe49a6c3dba50d00aa4795e748":[1,0,1,12,12,0],
+"d6/d57/triggers_8qc.html#a79ff647a4a9d3d18acc59c7260af8028":[1,0,1,12,12,2],
+"d6/d57/triggers_8qc.html#aafea2c949b2406c3118d7580efb0dfbd":[1,0,1,12,12,3],
+"d6/d57/triggers_8qc.html#ae3b2b9ab5e59b7825352e92ec024f767":[1,0,1,12,12,1],
 "d6/d57/triggers_8qc_source.html":[1,0,1,12,12],
 "d6/d57/weaponstats_8qc.html":[1,0,5,4,16],
 "d6/d57/weaponstats_8qc.html#a456ded6f061320557b90765d8d34c0f3":[1,0,5,4,16,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX27 =
 "d6/d99/effectinfo__buffs_8inc.html#a9a71f80d89480699e415b6950fd62995":[1,0,1,2,7,29],
 "d6/d99/effectinfo__buffs_8inc.html#aa7ff3b2b817f3a1386d3bb6f47d022dd":[1,0,1,2,7,17],
 "d6/d99/effectinfo__buffs_8inc.html#aa8808d7c94d9c624a39e6e80b9bd90cd":[1,0,1,2,7,0],
-"d6/d99/effectinfo__buffs_8inc.html#ab3e4a1d3a3300c2ac4464502473239c2":[1,0,1,2,7,27],
-"d6/d99/effectinfo__buffs_8inc.html#ab6430f8dfe7cca3fa4c01168d1cfd452":[1,0,1,2,7,12],
-"d6/d99/effectinfo__buffs_8inc.html#ab71e503a718dfb3ee3c0f099a56e438b":[1,0,1,2,7,22],
-"d6/d99/effectinfo__buffs_8inc.html#ab856eb619f69f7fc45308117b3d61842":[1,0,1,2,7,20],
-"d6/d99/effectinfo__buffs_8inc.html#abd407c15fc2e9d67e461e5065abd0bb2":[1,0,1,2,7,6],
-"d6/d99/effectinfo__buffs_8inc.html#ac29c8a80f083e865d7a423ee7537cb2d":[1,0,1,2,7,5]
+"d6/d99/effectinfo__buffs_8inc.html#ab3e4a1d3a3300c2ac4464502473239c2":[1,0,1,2,7,27]
 };

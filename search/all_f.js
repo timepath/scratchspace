@@ -6,6 +6,7 @@ var searchData=
   ['objerror',['objerror',['../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1',1,'objerror():&#160;sys-pre.qh'],['../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b',1,'objerror(string err,...):&#160;menudefs.qc'],['../dc/dc6/server_2miscfunctions_8qc.html#a2b4ffe44d232173ecf4ef251e7aa1c04',1,'objerror(string s):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a2b4ffe44d232173ecf4ef251e7aa1c04',1,'objerror(string s):&#160;miscfunctions.qc']]],
   ['observerthink',['ObserverThink',['../da/d53/cl__client_8qc.html#a804476ddd6bb726d04ee110b4a9a9248',1,'cl_client.qc']]],
   ['offhand_5fhook',['OFFHAND_HOOK',['../dd/df1/weapons_2weapon_2hook_8qc.html#a26c1ac788f42d8ea1729fee825f749fd',1,'hook.qc']]],
+  ['offset_5fcursor',['OFFSET_CURSOR',['../d0/d2a/client_2main_8qh.html#abe02bc8f982ce063f9878f9beae11f1b',1,'main.qh']]],
   ['old_5fbluralpha',['old_bluralpha',['../d6/dd3/view_8qc.html#a71182767c3a892f67ee44db04be80172',1,'view.qc']]],
   ['old_5fblurradius',['old_blurradius',['../d6/dd3/view_8qc.html#a5bf4e8b5377587eed4e3d50cc0d823b2',1,'view.qc']]],
   ['old_5fclip_5fload',['old_clip_load',['../d5/d26/server_2defs_8qh.html#a57deb012ad810a6a3f98eed91fb61a04',1,'defs.qh']]],
