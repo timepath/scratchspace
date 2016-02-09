@@ -25,6 +25,7 @@ var dir_97aefd0d527b934f1d99a682da8fe6a9 =
     [ "log.qh", "db/da0/log_8qh.html", "db/da0/log_8qh" ],
     [ "macro.qh", "d3/dc9/macro_8qh.html", "d3/dc9/macro_8qh" ],
     [ "map.qh", "d4/d54/map_8qh.html", "d4/d54/map_8qh" ],
+    [ "markdown.qh", "dd/dfd/markdown_8qh.html", "dd/dfd/markdown_8qh" ],
     [ "math.qh", "d0/d79/math_8qh.html", "d0/d79/math_8qh" ],
     [ "misc.qh", "d7/d61/misc_8qh.html", "d7/d61/misc_8qh" ],
     [ "net.qh", "dd/d69/net_8qh.html", "dd/d69/net_8qh" ],

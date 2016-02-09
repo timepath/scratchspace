@@ -78,15 +78,15 @@ var NAVTREEINDEX =
 "dd/d31/engineinfo_8qc.html#aa28d10af907276566641e95e7853122a",
 "dd/d70/pathlib_8qh.html#ad76ab6e032446af6b5b59a39a18338ba",
 "dd/de4/g__damage_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9",
-"de/d3d/cl__minigames_8qh.html#a668aa690502b071b56dfd97e425d8d3e",
-"de/d5e/dpextensions_8qc.html#a4f7b26d5c4fe063f9240aa140cd88449",
-"de/d64/animation_8qc.html#a50bc2e6b88049b7cf31549c5b524e555",
-"de/d9b/steerlib_8qc.html#a214ccd5833a11d86b31b43e1ae55bd6e",
-"df/d13/anglestransform_8qc.html#a0e8b572bfcc4dcbdcd63106b1ffbf277",
-"df/d4c/server_2pathlib_2main_8qc.html#a82021c86aa11a1ba2191eeed1b72bad9",
-"df/d9b/menu_2xonotic_2util_8qc.html#aa958d5d2b2d14b4705a46d5474d9843e",
-"df/dc2/menu_8qc.html#abc6126af1d45847bc59afa0aa3216b04ae6392cd1d24e0ad8e6838ad8d1a410c6",
-"globals_c.html"
+"de/d3d/cl__minigames_8qh.html#a494190b92b736511115345e0437821b6",
+"de/d5e/dpextensions_8qc.html#a4c43e2b8db2027e48251350d972a39c2",
+"de/d64/animation_8qc.html#a0c572f3318866068baa25657309db7e3",
+"de/d9a/item_8qc_source.html",
+"df/d07/cl__generator_8qc.html#ad43c3812e6d13e0518d9f8b8f463ffcf",
+"df/d4c/server_2pathlib_2main_8qc.html#a03b9aba43bfb042a5123b809a630a852",
+"df/d9b/menu_2xonotic_2util_8qc.html#a9067be9a9e9972655717d9552a0f2af9",
+"df/dc2/menu_8qc.html#aacf8d50c65c5bd72b4bfe16ebe41af76",
+"files.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
