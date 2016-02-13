@@ -1,8 +1,5 @@
 var NAVTREEINDEX37 =
 {
-"d7/dc4/waypoints_8qc.html#a3308ec468ba8117a01ce516de8a66814":[1,0,5,0,10,12],
-"d7/dc4/waypoints_8qc.html#a38265f752edbe2d8e696ad0c88fff34d":[1,0,5,0,10,9],
-"d7/dc4/waypoints_8qc.html#a3d10530c0b6042dd7c71084f84928da0":[1,0,5,0,10,10],
 "d7/dc4/waypoints_8qc.html#a4c3ec3b037bad6d5773033aa06bd0cb2":[1,0,5,0,10,28],
 "d7/dc4/waypoints_8qc.html#a4d9c9c1429a9789d7528a57d491efb4f":[1,0,5,0,10,1],
 "d7/dc4/waypoints_8qc.html#a4f04a7e429856a63db83b70e53d92a30":[1,0,5,0,10,5],
@@ -249,5 +246,8 @@ var NAVTREEINDEX37 =
 "d7/dd7/xonotic_2slider_8qc.html":[1,0,4,4,101],
 "d7/dd7/xonotic_2slider_8qc.html#a030a13461d1a06a74e3a4c3ae04ad66c":[1,0,4,4,101,5],
 "d7/dd7/xonotic_2slider_8qc.html#a10cde4b494c1caf5afa1b6e1ae3dcc7f":[1,0,4,4,101,3],
-"d7/dd7/xonotic_2slider_8qc.html#a6287f1c43102540feb25f930a24c7987":[1,0,4,4,101,7]
+"d7/dd7/xonotic_2slider_8qc.html#a6287f1c43102540feb25f930a24c7987":[1,0,4,4,101,7],
+"d7/dd7/xonotic_2slider_8qc.html#a6a857813bc40c838ddfe76aa072fa589":[1,0,4,4,101,4],
+"d7/dd7/xonotic_2slider_8qc.html#a9d1facd3287136dec2dc69728e6863ba":[1,0,4,4,101,2],
+"d7/dd7/xonotic_2slider_8qc.html#ac71c67adf9e96317cc134f5c76f9a727":[1,0,4,4,101,0]
 };
