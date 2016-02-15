@@ -320,6 +320,7 @@ var server_2autocvars_8qh =
     [ "autocvar_g_nades_napalm_fountain_radius", "d7/da7/server_2autocvars_8qh.html#a354615e037114d6089147ad324b69fe5", null ],
     [ "autocvar_g_nades_napalm_selfdamage", "d7/da7/server_2autocvars_8qh.html#a9018aa81e4c4deedf24898d6c3c268a8", null ],
     [ "autocvar_g_nades_override_dropweapon", "d7/da7/server_2autocvars_8qh.html#a690be16a91844e82129f42bcbb4ee8cb", null ],
+    [ "autocvar_g_nades_pickup", "d7/da7/server_2autocvars_8qh.html#aee91cd28a9d1b0540e276de9c8e33648", null ],
     [ "autocvar_g_nades_pokenade_monster_lifetime", "d7/da7/server_2autocvars_8qh.html#a23101296e36229fac7a37866e11c9232", null ],
     [ "autocvar_g_nades_pokenade_monster_type", "d7/da7/server_2autocvars_8qh.html#a8f4885e2945e7d06566116f1db4605ae", null ],
     [ "autocvar_g_nades_spawn", "d7/da7/server_2autocvars_8qh.html#a817f0f30110a5ff7da2142874a3b8795", null ],
