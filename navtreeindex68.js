@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"globals.html":[1,1,0,0],
 "globals.html":[1,1,0],
 "globals_a.html":[1,1,0,1],
 "globals_b.html":[1,1,0,2],

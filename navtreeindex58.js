@@ -1,5 +1,6 @@
 var NAVTREEINDEX58 =
 {
+"dd/d70/pathlib_8qh.html#ad7de5bcdc8408ab70bbdd24a06e56c57":[1,0,5,3,8,45],
 "dd/d70/pathlib_8qh.html#ad9fa3bd25096c5dd8b73c8a7a25ae89b":[1,0,5,3,8,20],
 "dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55":[1,0,5,3,8,50],
 "dd/d70/pathlib_8qh.html#adb4e24ac4fdb3d5b0491eb3bb09e47a9":[1,0,5,3,8,30],
@@ -49,8 +50,8 @@ var NAVTREEINDEX58 =
 "dd/d85/sortlist_8qc.html#a652c86b37dd42d03c9e82ee0d8e1cfd8":[1,0,3,43,0],
 "dd/d85/sortlist_8qc_source.html":[1,0,3,43],
 "dd/d87/effectinfo_8qc.html":[1,0,1,2,6],
-"dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[1,0,1,2,6,10],
 "dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[1,0,1,2,6,11],
+"dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[1,0,1,2,6,10],
 "dd/d87/effectinfo_8qc.html#a140b69e0765f293f2d0545beefa583c7":[1,0,1,2,6,15],
 "dd/d87/effectinfo_8qc.html#a196e029eb2adc9808b1e6928e3e1ce23":[1,0,1,2,6,17],
 "dd/d87/effectinfo_8qc.html#a32099483f67e2e1d9720b22d3641a14f":[1,0,1,2,6,18],
@@ -59,9 +60,9 @@ var NAVTREEINDEX58 =
 "dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802":[1,0,1,2,6,5],
 "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862":[1,0,1,2,6,0],
 "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840":[1,0,1,2,6,3],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[1,0,1,2,6,6],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[1,0,1,2,6,8],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[1,0,1,2,6,7],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[1,0,1,2,6,6],
 "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6":[1,0,1,2,6,12],
 "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e":[1,0,1,2,6,14],
 "dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b":[1,0,1,2,6,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX58 =
 "dd/de4/g__damage_8qh.html#a23d73461c891095705d9e88dcbf0b164":[1,0,5,24,48],
 "dd/de4/g__damage_8qh.html#a2d30d51fdeb3f05c8ade32e74ca54a7c":[1,0,5,24,10],
 "dd/de4/g__damage_8qh.html#a30b6dcb0a5e148d3961cad10abdaf5af":[1,0,5,24,16],
-"dd/de4/g__damage_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9":[1,0,5,24,41],
-"dd/de4/g__damage_8qh.html#a35bda3687a4ac3975ffa2bc088fc0cf1":[1,0,5,24,28]
+"dd/de4/g__damage_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9":[1,0,5,24,41]
 };
