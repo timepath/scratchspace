@@ -84,9 +84,9 @@ var NAVTREEINDEX =
 "de/d9b/steerlib_8qc.html",
 "df/d07/cl__generator_8qc.html#af238202f58cac7d9f856cab9edbd9dbe",
 "df/d4c/server_2pathlib_2main_8qc.html#a1967ff2f3a64bdc15af8370dac37c9c4",
-"df/d9b/menu_2xonotic_2util_8qc.html#a99bf8fc9169855784af2af3cb71c8998",
-"df/dc2/menu_8qc.html#abb122747ce3abb1b3feef039f875adbe",
-"globals.html"
+"df/d9b/menu_2xonotic_2util_8qc.html#a8b9db99b866e3e51444533334ab63eb3",
+"df/dc2/menu_8qc.html#a96321e4c0f85b2a1c6745a1a7da423d0",
+"dir_fa6bab312750b9471bc957ec38c4d399.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

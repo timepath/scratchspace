@@ -301,6 +301,7 @@ var searchData=
   ['classname',['classname',['../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec',1,'classname():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec',1,'classname():&#160;progsdefs.qc'],['../db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec',1,'classname():&#160;oo.qh']]],
   ['cleanname',['cleanname',['../d1/da9/bot_8qh.html#ad3f7bd315ecf5bb0f4037153d6b46441',1,'bot.qh']]],
   ['clearentity',['clearentity',['../db/d0a/oo_8qh.html#a4d8e141e1e8e506c1776f2082858e1c5',1,'oo.qh']]],
+  ['clearplayersounds',['ClearPlayerSounds',['../df/d6e/globalsound_8qh.html#acc226d4ed744cf98c0ee5ff8356757b8',1,'globalsound.qh']]],
   ['cleartooltip',['clearTooltip',['../de/d48/dialog__settings__game_8qc.html#ac1e479619f450e31119b7aa389eabfd4',1,'clearTooltip(this):&#160;dialog_settings_game.qc'],['../df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556',1,'clearTooltip(entity e):&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#ad765c653d11adeb645af29a3beb33556',1,'clearTooltip(entity e):&#160;util.qc']]],
   ['clearwinners',['ClearWinners',['../db/dcc/g__world_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820',1,'g_world.qc']]],
   ['client_2eqc',['client.qc',['../d3/d0e/client_8qc.html',1,'']]],
