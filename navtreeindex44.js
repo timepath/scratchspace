@@ -1,8 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"d9/d67/turret_8qh.html#affd68b5faabf4edc23d913eba1d037c8":[1,0,1,13,11,50],
-"d9/d67/turret_8qh_source.html":[1,0,1,13,11],
-"d9/d6e/mutators_2mutator_2running__guns_2module_8inc.html":[1,0,1,9,0,24,0],
 "d9/d6e/mutators_2mutator_2running__guns_2module_8inc_source.html":[1,0,1,9,0,24,0],
 "d9/d71/command_8qh.html":[1,0,1,0,2],
 "d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04":[1,0,1,0,2,4],
@@ -249,5 +246,8 @@ var NAVTREEINDEX44 =
 "d9/de7/server_2constants_8qh.html#a76f1f7a345c741279db7c117b86a7a99":[1,0,5,21,9],
 "d9/de7/server_2constants_8qh.html#a773c25ecc301f523df447371c3662ed8":[1,0,5,21,7],
 "d9/de7/server_2constants_8qh.html#a95a618e2261242b570b19cf5a54b84fd":[1,0,5,21,5],
-"d9/de7/server_2constants_8qh.html#aa31964dc3bcc2c24be6b0ddf511c41f9":[1,0,5,21,10]
+"d9/de7/server_2constants_8qh.html#aa31964dc3bcc2c24be6b0ddf511c41f9":[1,0,5,21,10],
+"d9/de7/server_2constants_8qh.html#abcaa28dc0348cdebac8dcc5d19f4ba11":[1,0,5,21,13],
+"d9/de7/server_2constants_8qh.html#ada13fe5056a6799820233daa42d28c4c":[1,0,5,21,8],
+"d9/de7/server_2constants_8qh.html#adc2f19f83bcdfab86a54abec5fa8a95f":[1,0,5,21,11]
 };

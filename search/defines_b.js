@@ -47,8 +47,6 @@ var searchData=
   ['log_5fwarningf',['LOG_WARNINGF',['../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce',1,'log.qh']]],
   ['lowpass',['lowpass',['../d6/dd3/view_8qc.html#a1a9e72b79f15b8b3a733a376b539c2af',1,'view.qc']]],
   ['lowpass2',['lowpass2',['../d6/dd3/view_8qc.html#a7f20fe73cefbad09ddfe7c7b5160b9d1',1,'view.qc']]],
-  ['lowpass2_5flimited',['lowpass2_limited',['../d6/dd3/view_8qc.html#ab43a94a244d39c429bab19339f85da8e',1,'view.qc']]],
   ['lowpass3',['lowpass3',['../d6/dd3/view_8qc.html#a778e7f5f4ca376d4da7597f72ea68bab',1,'view.qc']]],
-  ['lowpass3_5flimited',['lowpass3_limited',['../d6/dd3/view_8qc.html#a2a51b8d43d3881e66275965a62364298',1,'view.qc']]],
   ['lowpass_5flimited',['lowpass_limited',['../d6/dd3/view_8qc.html#a0d1d73c1645e4b1d589f544e73caa43f',1,'view.qc']]]
 ];

@@ -1,8 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"df/d4c/server_2pathlib_2main_8qc.html#a1967ff2f3a64bdc15af8370dac37c9c4":[1,0,5,3,4,11],
-"df/d4c/server_2pathlib_2main_8qc.html#a247f038e9726975a0d8ba91d55927e59":[1,0,5,3,4,15],
-"df/d4c/server_2pathlib_2main_8qc.html#a402be18908ff31765c1ff5ba030db5e9":[1,0,5,3,4,4],
 "df/d4c/server_2pathlib_2main_8qc.html#a57be331126514bebda5b12285f5f8022":[1,0,5,3,4,8],
 "df/d4c/server_2pathlib_2main_8qc.html#a82021c86aa11a1ba2191eeed1b72bad9":[1,0,5,3,4,3],
 "df/d4c/server_2pathlib_2main_8qc.html#a83274351e21299627f57002cc1c755a0":[1,0,5,3,4,12],
@@ -156,9 +153,9 @@ var NAVTREEINDEX65 =
 "df/d8c/cl__cmd_8qc.html#ac5543bf7e31847e43a0ae330fa53cbb1":[1,0,0,0,2,30],
 "df/d8c/cl__cmd_8qc.html#ac6ad4f76e1fab870cd7b34e038a0a6c0":[1,0,0,0,2,15],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[1,0,0,0,2,21],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[1,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[1,0,0,0,2,1],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[1,0,0,0,2,2],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[1,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[1,0,0,0,2,0],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[1,0,0,0,2,32],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[1,0,0,0,2,28],
@@ -249,5 +246,8 @@ var NAVTREEINDEX65 =
 "df/d9b/menu_2xonotic_2util_8qc.html#a801a64b2ebc811764cb4dccac3058542":[1,0,4,4,113,64],
 "df/d9b/menu_2xonotic_2util_8qc.html#a8023eceb6ea151f2fb45174f594a1f1b":[1,0,4,4,113,26],
 "df/d9b/menu_2xonotic_2util_8qc.html#a82447e0f7e130724a65ab538355408fc":[1,0,4,4,113,53],
-"df/d9b/menu_2xonotic_2util_8qc.html#a86cb046821701d82ae80ecd5c2c147b1":[1,0,4,4,113,30]
+"df/d9b/menu_2xonotic_2util_8qc.html#a86cb046821701d82ae80ecd5c2c147b1":[1,0,4,4,113,30],
+"df/d9b/menu_2xonotic_2util_8qc.html#a8b9db99b866e3e51444533334ab63eb3":[1,0,4,4,113,65],
+"df/d9b/menu_2xonotic_2util_8qc.html#a8eb356644d69441dba461bca0bb3ab9e":[1,0,4,4,113,11],
+"df/d9b/menu_2xonotic_2util_8qc.html#a8ec8f4772028effaca28ae7b1fd6fc90":[1,0,4,4,113,14]
 };

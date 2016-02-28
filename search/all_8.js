@@ -81,7 +81,6 @@ var searchData=
   ['highpass2',['highpass2',['../d6/dd3/view_8qc.html#a398d42095e9784afce66ee46bbf786ab',1,'view.qc']]],
   ['highpass2_5flimited',['highpass2_limited',['../d6/dd3/view_8qc.html#a11a611d82bbe2891e3c842f67f18e69e',1,'view.qc']]],
   ['highpass3',['highpass3',['../d6/dd3/view_8qc.html#aea56c34c099473cbf7a019841debd544',1,'view.qc']]],
-  ['highpass3_5flimited',['highpass3_limited',['../d6/dd3/view_8qc.html#a24a4d0e9a007c9bbdc8fc4ceb100a72e',1,'view.qc']]],
   ['highpass_5flimited',['highpass_limited',['../d6/dd3/view_8qc.html#a644ad57eea02be4f0fa8fda8204884bd',1,'view.qc']]],
   ['hit_5ftime',['hit_time',['../d5/d26/server_2defs_8qh.html#adedbb5b1c6f4e399a3b839f9270c0b74',1,'defs.qh']]],
   ['hitindication_5fcrosshair_5fsize',['hitindication_crosshair_size',['../d6/dd3/view_8qc.html#add6b8340e63823af3e2d024dabc0032d',1,'view.qc']]],
