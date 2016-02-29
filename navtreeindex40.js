@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"d8/d7e/common_2deathtypes_2all_8qc.html":[1,0,1,1,1],
 "d8/d7e/common_2deathtypes_2all_8qc.html#ab228bbc4e90e596f0f88f2556ee96c59":[1,0,1,1,1,0],
 "d8/d7e/common_2deathtypes_2all_8qc_source.html":[1,0,1,1,1],
 "d8/d88/keylock_8qc.html":[1,0,1,12,3,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "d8/dd7/shownames_8qh.html#abdb9252ec914d8d0f9b3b8d220f3f106":[1,0,0,27,1],
 "d8/dd7/shownames_8qh_source.html":[1,0,0,27],
 "d8/de2/menudefs_8qc.html":[1,0,2,0,3],
-"d8/de2/menudefs_8qc.html#a009dd477378fd87cd08bfe9d9363fae4":[1,0,2,0,3,250],
-"d8/de2/menudefs_8qc.html#a00ca08eb9cb6bc858323c7c2ed19b813":[1,0,2,0,3,110]
+"d8/de2/menudefs_8qc.html#a009dd477378fd87cd08bfe9d9363fae4":[1,0,2,0,3,250]
 };

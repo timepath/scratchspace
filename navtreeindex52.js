@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"db/dc8/cl__controlpoint_8qc.html#a5d693a185ebf0d60bc29f5ad0cda526a":[1,0,1,3,0,1,0,16],
 "db/dc8/cl__controlpoint_8qc.html#a608237ac61b914079eaa29b74ba470ef":[1,0,1,3,0,1,0,3],
 "db/dc8/cl__controlpoint_8qc.html#a624e1c87dc3d056c489b4ac441de3631":[1,0,1,3,0,1,0,4],
 "db/dc8/cl__controlpoint_8qc.html#a89f3cd3806dbdfa37c7572e620839f68":[1,0,1,3,0,1,0,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "dc/d03/keycodes_8qc.html#a92caf6975b7a248f393a5c2dbfe20cb7":[1,0,2,0,2,56],
 "dc/d03/keycodes_8qc.html#a9387c1d3181db6665a4ed4c200a9f5bd":[1,0,2,0,2,96],
 "dc/d03/keycodes_8qc.html#a9725d5a0831eef75431b645a98def3ad":[1,0,2,0,2,17],
-"dc/d03/keycodes_8qc.html#a9ae363a9c70d60b65d53e5d467c9ae2e":[1,0,2,0,2,89],
-"dc/d03/keycodes_8qc.html#a9da25338270a580a0c624e3a92618f28":[1,0,2,0,2,53]
+"dc/d03/keycodes_8qc.html#a9ae363a9c70d60b65d53e5d467c9ae2e":[1,0,2,0,2,89]
 };

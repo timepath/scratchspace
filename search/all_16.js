@@ -264,7 +264,7 @@ var searchData=
   ['votecommand_5fstatus',['VoteCommand_status',['../d1/dad/server_2command_2vote_8qc.html#a43586aa0ddfba02a08afc6f1e480cfd3',1,'vote.qc']]],
   ['votecommand_5fstop',['VoteCommand_stop',['../d1/dad/server_2command_2vote_8qc.html#a8d0cf9c8d0f4eb8f266513eabf8a64ed',1,'vote.qc']]],
   ['votecommand_5fyes',['VoteCommand_yes',['../d1/dad/server_2command_2vote_8qc.html#aaa71782429a29dc1281807e966deaf7a',1,'vote.qc']]],
-  ['votecount',['VoteCount',['../d1/dad/server_2command_2vote_8qc.html#a8646fbc325b5110f96dbc1a8b324fc5f',1,'vote.qc']]],
+  ['votecount',['VoteCount',['../d1/dad/server_2command_2vote_8qc.html#a8646fbc325b5110f96dbc1a8b324fc5f',1,'VoteCount(float first_count):&#160;vote.qc'],['../d8/d08/vote_8qh.html#a8646fbc325b5110f96dbc1a8b324fc5f',1,'VoteCount(float first_count):&#160;vote.qc']]],
   ['votereject',['VoteReject',['../d1/dad/server_2command_2vote_8qc.html#a201e32958bf8893bdfb027a7d62755b6',1,'vote.qc']]],
   ['votereset',['VoteReset',['../d1/dad/server_2command_2vote_8qc.html#a72ded287363c9dfdb4770d72cc3917a4',1,'VoteReset():&#160;vote.qc'],['../d8/d08/vote_8qh.html#a72ded287363c9dfdb4770d72cc3917a4',1,'VoteReset():&#160;vote.qc']]],
   ['votespam',['VoteSpam',['../d1/dad/server_2command_2vote_8qc.html#a905ea22315184d5281455f2e627dbcd4',1,'vote.qc']]],
