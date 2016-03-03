@@ -113,6 +113,8 @@ var client_2autocvars_8qh =
     [ "autocvar_cl_reticle_weapon_alpha", "d7/db4/client_2autocvars_8qh.html#a488de198c5428eaa24bf0dd7a6d2c9a1", null ],
     [ "autocvar_cl_spawn_event_particles", "d7/db4/client_2autocvars_8qh.html#aed2ffbbe27cc49f4c54cceaa1cc87745", null ],
     [ "autocvar_cl_spawn_event_sound", "d7/db4/client_2autocvars_8qh.html#a2261f0e8d45a32c73367a353af812873", null ],
+    [ "autocvar_cl_spawn_point_dist_max", "d7/db4/client_2autocvars_8qh.html#af9f860b05a41c06b09e335e830e555f0", null ],
+    [ "autocvar_cl_spawn_point_dist_min", "d7/db4/client_2autocvars_8qh.html#a3b320dc5a2efff5e4dc910ab95560835", null ],
     [ "autocvar_cl_spawn_point_particles", "d7/db4/client_2autocvars_8qh.html#a392909f9c6206bcf8229e86a2d648d81", null ],
     [ "autocvar_cl_spawnzoom", "d7/db4/client_2autocvars_8qh.html#adeb5d3c63e48c404f37a34764737ff83", null ],
     [ "autocvar_cl_spawnzoom_factor", "d7/db4/client_2autocvars_8qh.html#a6ba0fb9106db3713eaf501ef448a1e32", null ],

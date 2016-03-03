@@ -41,6 +41,7 @@ var client_2main_8qc =
     [ "SetTeam", "df/d30/client_2main_8qc.html#a927ab476c107855f4c9745da26bdd162", null ],
     [ "Shutdown", "df/d30/client_2main_8qc.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9", null ],
     [ "Spawn_Draw", "df/d30/client_2main_8qc.html#ad588feebc12ed1a2def99b4d4e70d92e", null ],
+    [ "Spawn_PreDraw", "df/d30/client_2main_8qc.html#ac642f51eabb19c565bfbe0072388e146", null ],
     [ "TrueAim_Init", "df/d30/client_2main_8qc.html#a468fbc523e176ec4adf829a18606b5f6", null ],
     [ "void", "df/d30/client_2main_8qc.html#ad4e271fe06daad7d581f3de88e7f9888", null ],
     [ "forcefog", "df/d30/client_2main_8qc.html#ac6d66624aeafa1c2684b5931d82b2008", null ],
