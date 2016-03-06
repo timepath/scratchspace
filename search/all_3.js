@@ -675,7 +675,6 @@ var searchData=
   ['csqc_5fparse_5fprint',['CSQC_Parse_Print',['../df/d30/client_2main_8qc.html#a9a0b42398a104ebdd5b99b02df23747d',1,'main.qc']]],
   ['csqc_5fparse_5fstuffcmd',['CSQC_Parse_StuffCmd',['../df/d30/client_2main_8qc.html#adf345a213a00d15b4ace5d029dfaaa2d',1,'main.qc']]],
   ['csqc_5fparse_5ftempentity',['CSQC_Parse_TempEntity',['../df/d30/client_2main_8qc.html#a940657caa97aee7f233ec2016198ebb6',1,'main.qc']]],
-  ['csqc_5frevision',['CSQC_REVISION',['../d0/d8b/common_2constants_8qh.html#a52510d83b8ddf117af18fa4238ded2d3',1,'constants.qh']]],
   ['csqc_5fupdateview',['CSQC_UpdateView',['../d6/dd3/view_8qc.html#a81988f477288f983a88861116f948d25',1,'view.qc']]],
   ['csqcmodel_5fautotagindex_5fapply',['CSQCModel_AutoTagIndex_Apply',['../dc/d3d/csqcmodel__hooks_8qc.html#a2b971c267f8e7807ea8b60a6070d3a2c',1,'csqcmodel_hooks.qc']]],
   ['csqcmodel_5fcheckupdate',['CSQCModel_CheckUpdate',['../dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4',1,'CSQCModel_CheckUpdate(entity e):&#160;sv_model.qc'],['../d3/d64/sv__model_8qh.html#a32aa4ddceceddfb68f9fc5fb066d9dd4',1,'CSQCModel_CheckUpdate(entity e):&#160;sv_model.qc']]],

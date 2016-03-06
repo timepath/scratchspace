@@ -1,7 +1,6 @@
 var common_2constants_8qh =
 [
     [ "CONSTANTS_H", "d0/d8b/common_2constants_8qh.html#ac7a36608ac7b2450d147e32c12ef6182", null ],
-    [ "CSQC_REVISION", "d0/d8b/common_2constants_8qh.html#a52510d83b8ddf117af18fa4238ded2d3", null ],
     [ "MAX_SCORE", "d0/d8b/common_2constants_8qh.html#aa27bf8c0d78735062b3cf41d2a618b30", null ],
     [ "MAX_TEAMSCORE", "d0/d8b/common_2constants_8qh.html#a0b31ff7434fe27ce6efac51215c64bf6", null ],
     [ "SFL_ZERO_IS_WORST", "d0/d8b/common_2constants_8qh.html#ae7780da786465996b85f5e92850ca081", null ],
