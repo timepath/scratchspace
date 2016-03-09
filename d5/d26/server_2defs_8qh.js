@@ -230,6 +230,7 @@ var server_2defs_8qh =
     [ "respawn_time_max", "d5/d26/server_2defs_8qh.html#a1816ae4a78e7d4f5895d3562e0e6a8c5", null ],
     [ "respawntime", "d5/d26/server_2defs_8qh.html#ae22854bf05bc48db53a0831de175441d", null ],
     [ "respawntimejitter", "d5/d26/server_2defs_8qh.html#a1dc28ea0257e1a53fd1f0b6418e58dce", null ],
+    [ "respawntimestart", "d5/d26/server_2defs_8qh.html#a13232c84e9036ab1532e274a0248e671", null ],
     [ "restriction", "d5/d26/server_2defs_8qh.html#a077a8c5ecb61207014e4ec35b41cec56", null ],
     [ "revival_time", "d5/d26/server_2defs_8qh.html#a5320d5d56b57e2f1ffa6e137f496d2ef", null ],
     [ "revive_progress", "d5/d26/server_2defs_8qh.html#acb06d05df56c51acf1d2c4373067669e", null ],

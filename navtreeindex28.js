@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"d6/d99/effectinfo__buffs_8inc.html#ab6430f8dfe7cca3fa4c01168d1cfd452":[1,0,1,2,7,12],
 "d6/d99/effectinfo__buffs_8inc.html#ab71e503a718dfb3ee3c0f099a56e438b":[1,0,1,2,7,22],
 "d6/d99/effectinfo__buffs_8inc.html#ab856eb619f69f7fc45308117b3d61842":[1,0,1,2,7,20],
 "d6/d99/effectinfo__buffs_8inc.html#abd407c15fc2e9d67e461e5065abd0bb2":[1,0,1,2,7,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d6/dd4/touchexplode_8qc_source.html":[1,0,1,9,0,28,1],
 "d6/ddd/server_2mutators_2events_8qh.html":[1,0,5,2,4],
 "d6/ddd/server_2mutators_2events_8qh.html#a0105146f13551bf05601d7c1db11618c":[1,0,5,2,4,153],
-"d6/ddd/server_2mutators_2events_8qh.html#a02e172a50facb369548e0af1891366ef":[1,0,5,2,4,180],
-"d6/ddd/server_2mutators_2events_8qh.html#a0411cd49bb5b71852cecd93bcbf0ca2da16923782cb89db5bf0021537cca9d490":[1,0,5,2,4,94]
+"d6/ddd/server_2mutators_2events_8qh.html#a02e172a50facb369548e0af1891366ef":[1,0,5,2,4,180]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"d6/d57/triggers_8qc.html#a081bf9b06f8d327232337fee6bd9c4ea":[1,0,1,12,12,4],
 "d6/d57/triggers_8qc.html#a1770adfe49a6c3dba50d00aa4795e748":[1,0,1,12,12,0],
 "d6/d57/triggers_8qc.html#a79ff647a4a9d3d18acc59c7260af8028":[1,0,1,12,12,2],
 "d6/d57/triggers_8qc.html#aafea2c949b2406c3118d7580efb0dfbd":[1,0,1,12,12,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "d6/d99/effectinfo__buffs_8inc.html#a9a71f80d89480699e415b6950fd62995":[1,0,1,2,7,29],
 "d6/d99/effectinfo__buffs_8inc.html#aa7ff3b2b817f3a1386d3bb6f47d022dd":[1,0,1,2,7,17],
 "d6/d99/effectinfo__buffs_8inc.html#aa8808d7c94d9c624a39e6e80b9bd90cd":[1,0,1,2,7,0],
-"d6/d99/effectinfo__buffs_8inc.html#ab3e4a1d3a3300c2ac4464502473239c2":[1,0,1,2,7,27],
-"d6/d99/effectinfo__buffs_8inc.html#ab6430f8dfe7cca3fa4c01168d1cfd452":[1,0,1,2,7,12]
+"d6/d99/effectinfo__buffs_8inc.html#ab3e4a1d3a3300c2ac4464502473239c2":[1,0,1,2,7,27]
 };
