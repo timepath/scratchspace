@@ -666,141 +666,141 @@ $(document).ready(function(){initNavTree('dd/de3/racer_8qc_source.html','../../'
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_impact, <span class="keywordtype">void</span>(Racer thisveh, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> instance))</div>
-<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;        {</div>
-<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;<span class="preprocessor">        #ifdef SVQC</span></div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;<span class="preprocessor"></span>            <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_bouncepain)</div>
-<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;                <a class="code" href="../../da/d10/sv__vehicles_8qc.html#a181735cdfadb50ca93a0dcefcb22c7cb">vehicles_impact</a>(autocvar_g_vehicle_racer_bouncepain_x, autocvar_g_vehicle_racer_bouncepain_y, autocvar_g_vehicle_racer_bouncepain_z);</div>
-<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;<span class="preprocessor">        #endif</span></div>
-<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;<span class="preprocessor"></span>        }</div>
+<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_impact, <span class="keywordtype">void</span>(Racer thisveh, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> instance))</div>
+<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;{</div>
+<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_bouncepain)</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;        <a class="code" href="../../da/d10/sv__vehicles_8qc.html#a181735cdfadb50ca93a0dcefcb22c7cb">vehicles_impact</a>(autocvar_g_vehicle_racer_bouncepain_x, autocvar_g_vehicle_racer_bouncepain_y, autocvar_g_vehicle_racer_bouncepain_z);</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;</div>
-<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_enter, <span class="keywordtype">void</span>(Racer thisveh, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> instance))</div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        {</div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;<span class="preprocessor">        #ifdef SVQC</span></div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;<span class="preprocessor"></span>            <span class="keyword">self</span>.movetype = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>;</div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;            <span class="keyword">self</span>.owner.vehicle_health = (<span class="keyword">self</span>.vehicle_health / autocvar_g_vehicle_racer_health)  * 100;</div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;            <span class="keyword">self</span>.owner.vehicle_shield = (<span class="keyword">self</span>.vehicle_shield / autocvar_g_vehicle_racer_shield)  * 100;</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_enter, <span class="keywordtype">void</span>(Racer thisveh, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> instance))</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;{</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;<span class="preprocessor"></span>    <span class="keyword">self</span>.movetype = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>;</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    <span class="keyword">self</span>.owner.vehicle_health = (<span class="keyword">self</span>.vehicle_health / autocvar_g_vehicle_racer_health)  * 100;</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    <span class="keyword">self</span>.owner.vehicle_shield = (<span class="keyword">self</span>.vehicle_shield / autocvar_g_vehicle_racer_shield)  * 100;</div>
 <div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;            <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.flagcarried)</div>
-<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;               setorigin(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.flagcarried, <span class="stringliteral">&#39;-190 0 96&#39;</span>);</div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;<span class="preprocessor">        #elif defined(CSQC)</span></div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.flagcarried)</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;       setorigin(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.flagcarried, <span class="stringliteral">&#39;-190 0 96&#39;</span>);</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;<span class="preprocessor">#elif defined(CSQC)</span></div>
 <div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;            <span class="keyword">self</span>.move_movetype = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>;</div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;<span class="preprocessor">        #endif</span></div>
-<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;<span class="preprocessor"></span>        }</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    <span class="keyword">self</span>.move_movetype = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>;</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;</div>
-<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_spawn, <span class="keywordtype">void</span>(Racer thisveh, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> instance))</div>
-<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;        {</div>
-<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;<span class="preprocessor">        #ifdef SVQC</span></div>
-<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;<span class="preprocessor"></span>            <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> != 0.5)</div>
-<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;            {</div>
-<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;                <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_hovertype != 0)</div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;                    racer_force_from_tag = <a class="code" href="../../da/d10/sv__vehicles_8qc.html#a959fbbba142d71875f6660116060fc61">vehicles_force_fromtag_maglev</a>;</div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;                    racer_force_from_tag = <a class="code" href="../../da/d10/sv__vehicles_8qc.html#a759888b66b4de44adeb83d2d5ec9b820">vehicles_force_fromtag_hover</a>;</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_spawn, <span class="keywordtype">void</span>(Racer thisveh, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> instance))</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;{</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> != 0.5)</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;    {</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;        <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_hovertype != 0)</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;            racer_force_from_tag = <a class="code" href="../../da/d10/sv__vehicles_8qc.html#a959fbbba142d71875f6660116060fc61">vehicles_force_fromtag_maglev</a>;</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;            racer_force_from_tag = <a class="code" href="../../da/d10/sv__vehicles_8qc.html#a759888b66b4de44adeb83d2d5ec9b820">vehicles_force_fromtag_hover</a>;</div>
 <div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;</div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;                <span class="comment">// FIXME: this be hakkz, fix the models insted (scale body, add tag_viewport to the hudmodel).</span></div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;                <span class="keyword">self</span>.scale = 0.5;</div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;                setattachment(<span class="keyword">self</span>.vehicle_hudmodel, <span class="keyword">self</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;                setattachment(<span class="keyword">self</span>.vehicle_viewport, <span class="keyword">self</span>, <span class="stringliteral">&quot;tag_viewport&quot;</span>);</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;        <span class="comment">// FIXME: this be hakkz, fix the models insted (scale body, add tag_viewport to the hudmodel).</span></div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        <span class="keyword">self</span>.scale = 0.5;</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        setattachment(<span class="keyword">self</span>.vehicle_hudmodel, <span class="keyword">self</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        setattachment(<span class="keyword">self</span>.vehicle_viewport, <span class="keyword">self</span>, <span class="stringliteral">&quot;tag_viewport&quot;</span>);</div>
 <div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;</div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;                <span class="keyword">self</span>.mass              = 900;</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;            }</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        <span class="keyword">self</span>.mass              = 900;</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    }</div>
 <div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;</div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;            <span class="keyword">self</span>.think        = racer_think;</div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;            <span class="keyword">self</span>.nextthink    = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;            <span class="keyword">self</span>.vehicle_health = autocvar_g_vehicle_racer_health;</div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;            <span class="keyword">self</span>.vehicle_shield = autocvar_g_vehicle_racer_shield;</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;    <span class="keyword">self</span>.think        = racer_think;</div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    <span class="keyword">self</span>.nextthink    = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    <span class="keyword">self</span>.vehicle_health = autocvar_g_vehicle_racer_health;</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    <span class="keyword">self</span>.vehicle_shield = autocvar_g_vehicle_racer_shield;</div>
 <div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;            <span class="keyword">self</span>.movetype     = <a class="code" href="../../d6/d11/progsdefs_8qc.html#ad57b224e8fae8cd012cd3a12cd4bb371">MOVETYPE_TOSS</a>;</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;            <span class="keyword">self</span>.solid        = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a484c1181c0ccb7b6488598a9f2ede6ef">SOLID_SLIDEBOX</a>;</div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;            <span class="keyword">self</span>.delay        = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;            <span class="keyword">self</span>.scale        = 0.5;</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;    <span class="keyword">self</span>.movetype     = <a class="code" href="../../d6/d11/progsdefs_8qc.html#ad57b224e8fae8cd012cd3a12cd4bb371">MOVETYPE_TOSS</a>;</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;    <span class="keyword">self</span>.solid        = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a484c1181c0ccb7b6488598a9f2ede6ef">SOLID_SLIDEBOX</a>;</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    <span class="keyword">self</span>.delay        = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    <span class="keyword">self</span>.scale        = 0.5;</div>
 <div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;</div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;            <span class="keyword">self</span>.PlayerPhysplug = racer_frame;</div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;    <span class="keyword">self</span>.PlayerPhysplug = racer_frame;</div>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;            <span class="keyword">self</span>.bouncefactor = autocvar_g_vehicle_racer_bouncefactor;</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;            <span class="keyword">self</span>.bouncestop = autocvar_g_vehicle_racer_bouncestop;</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;            <span class="keyword">self</span>.damageforcescale = 0.5;</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;            <span class="keyword">self</span>.vehicle_health = autocvar_g_vehicle_racer_health;</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;            <span class="keyword">self</span>.vehicle_shield = autocvar_g_vehicle_racer_shield;</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;<span class="preprocessor">        #endif</span></div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;<span class="preprocessor"></span>        }</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;    <span class="keyword">self</span>.bouncefactor = autocvar_g_vehicle_racer_bouncefactor;</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    <span class="keyword">self</span>.bouncestop = autocvar_g_vehicle_racer_bouncestop;</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    <span class="keyword">self</span>.damageforcescale = 0.5;</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    <span class="keyword">self</span>.vehicle_health = autocvar_g_vehicle_racer_health;</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    <span class="keyword">self</span>.vehicle_shield = autocvar_g_vehicle_racer_shield;</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_death, <span class="keywordtype">void</span>(Racer thisveh, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> instance))</div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;        {</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;<span class="preprocessor">        #ifdef SVQC</span></div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;<span class="preprocessor"></span>            instance.SendEntity     = <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>; <span class="comment">// stop networking this racer (for now)</span></div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;            instance.health         = 0;</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;            instance.event_damage   = <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>;</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;            instance.solid          = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af4e209015f7107d4c780cbd19eb94183">SOLID_CORPSE</a>;</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;            instance.takedamage     = <a class="code" href="../../d6/d11/progsdefs_8qc.html#ab48a6b5f493fae9734e3eaf646ec2999">DAMAGE_NO</a>;</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;            instance.deadflag       = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a146bab87de0e719cb3fb75232473068e">DEAD_DYING</a>;</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;            instance.movetype       = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>;</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;            instance.wait           = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;            instance.delay          = 2 + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 3;</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;            instance.cnt            = 1 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2;</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;            instance.touch          = racer_deadtouch;</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_death, <span class="keywordtype">void</span>(Racer thisveh, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> instance))</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;{</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;<span class="preprocessor"></span>    instance.SendEntity     = <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>; <span class="comment">// stop networking this racer (for now)</span></div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    instance.health         = 0;</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    instance.event_damage   = <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>;</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    instance.solid          = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#af4e209015f7107d4c780cbd19eb94183">SOLID_CORPSE</a>;</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;    instance.takedamage     = <a class="code" href="../../d6/d11/progsdefs_8qc.html#ab48a6b5f493fae9734e3eaf646ec2999">DAMAGE_NO</a>;</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    instance.deadflag       = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a146bab87de0e719cb3fb75232473068e">DEAD_DYING</a>;</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    instance.movetype       = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>;</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    instance.wait           = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    instance.delay          = 2 + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 3;</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    instance.cnt            = 1 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2;</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;    instance.touch          = racer_deadtouch;</div>
 <div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;            Send_Effect(EFFECT_EXPLOSION_MEDIUM, instance.origin, <span class="stringliteral">&#39;0 0 0&#39;</span>, 1);</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    Send_Effect(EFFECT_EXPLOSION_MEDIUM, instance.origin, <span class="stringliteral">&#39;0 0 0&#39;</span>, 1);</div>
 <div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.5)</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;                instance.avelocity_z = 32;</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;                instance.avelocity_z = -32;</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.5)</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;        instance.avelocity_z = 32;</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;        instance.avelocity_z = -32;</div>
 <div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;</div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;            instance.avelocity_x = -<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(instance.velocity) * 0.2;</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;            instance.velocity += <span class="stringliteral">&#39;0 0 700&#39;</span>;</div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;            instance.colormod = <span class="stringliteral">&#39;-0.5 -0.5 -0.5&#39;</span>;</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;    instance.avelocity_x = -<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(instance.velocity) * 0.2;</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;    instance.velocity += <span class="stringliteral">&#39;0 0 700&#39;</span>;</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;    instance.colormod = <span class="stringliteral">&#39;-0.5 -0.5 -0.5&#39;</span>;</div>
 <div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;</div>
-<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;            instance.think = racer_blowup_think;</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;            instance.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;<span class="preprocessor">        #endif</span></div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;<span class="preprocessor"></span>        }</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;    instance.think = racer_blowup_think;</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;    instance.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;</div>
 <div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_hud, <span class="keywordtype">void</span>(Racer thisveh))</div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;        {</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;            <a class="code" href="../../d0/dee/cl__vehicles_8qc.html#a4f2ec1d5fcb112720b7380b223f58f02">Vehicles_drawHUD</a>(VEH_RACER.m_icon, <span class="stringliteral">&quot;vehicle_racer_weapon1&quot;</span>, <span class="stringliteral">&quot;vehicle_racer_weapon2&quot;</span>,</div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;                             <span class="stringliteral">&quot;vehicle_icon_ammo1&quot;</span>, <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a745ce44ca2c05bdb05c0b47c800596c6">autocvar_hud_progressbar_vehicles_ammo1_color</a>,</div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;                             <span class="stringliteral">&quot;vehicle_icon_ammo2&quot;</span>, <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a12904d1363337be18b36dd273e642cf6">autocvar_hud_progressbar_vehicles_ammo2_color</a>);</div>
-<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;        }</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_crosshair, <span class="keywordtype">void</span>(Racer thisveh))</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;        {</div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;            <a class="code" href="../../d0/dee/cl__vehicles_8qc.html#a3b3760b999716ec6ff36466d82c48b2a">Vehicles_drawCrosshair</a>(<a class="code" href="../../d0/dee/cl__vehicles_8qc.html#a5f8c931c27ba2b14842768f4d5ec305c">vCROSS_GUIDE</a>);</div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;        }</div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;<span class="preprocessor"></span><a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_hud, <span class="keywordtype">void</span>(Racer thisveh))</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;{</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;    <a class="code" href="../../d0/dee/cl__vehicles_8qc.html#a4f2ec1d5fcb112720b7380b223f58f02">Vehicles_drawHUD</a>(VEH_RACER.m_icon, <span class="stringliteral">&quot;vehicle_racer_weapon1&quot;</span>, <span class="stringliteral">&quot;vehicle_racer_weapon2&quot;</span>,</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;                     <span class="stringliteral">&quot;vehicle_icon_ammo1&quot;</span>, <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a745ce44ca2c05bdb05c0b47c800596c6">autocvar_hud_progressbar_vehicles_ammo1_color</a>,</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;                     <span class="stringliteral">&quot;vehicle_icon_ammo2&quot;</span>, <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a12904d1363337be18b36dd273e642cf6">autocvar_hud_progressbar_vehicles_ammo2_color</a>);</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;}</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_crosshair, <span class="keywordtype">void</span>(Racer thisveh))</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;{</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;    <a class="code" href="../../d0/dee/cl__vehicles_8qc.html#a3b3760b999716ec6ff36466d82c48b2a">Vehicles_drawCrosshair</a>(<a class="code" href="../../d0/dee/cl__vehicles_8qc.html#a5f8c931c27ba2b14842768f4d5ec305c">vCROSS_GUIDE</a>);</div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;}</div>
 <div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_setup, <span class="keywordtype">void</span>(Racer thisveh, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> instance))</div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;        {</div>
-<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;<span class="preprocessor">        #ifdef SVQC</span></div>
-<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;<span class="preprocessor"></span>            <span class="keyword">self</span>.vehicle_exit = racer_exit;</div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;<span class="preprocessor">        #endif</span></div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;<span class="preprocessor"></span><a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Racer, vr_setup, <span class="keywordtype">void</span>(Racer thisveh, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> instance))</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;{</div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;<span class="preprocessor"></span>    <span class="keyword">self</span>.vehicle_exit = racer_exit;</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;<span class="preprocessor">        #ifdef SVQC</span></div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;<span class="preprocessor"></span>            <span class="comment">// we have no need to network energy</span></div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;            <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_energy)</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;            <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_energy_regen)</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;                <span class="keyword">self</span>.vehicle_flags |= <a class="code" href="../../d1/d4b/vehicle_8qh.html#ac21f128092b5c4c3e6a603fb36c21c51">VHF_ENERGYREGEN</a>;</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;<span class="preprocessor"></span>    <span class="comment">// we have no need to network energy</span></div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;    <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_energy)</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_energy_regen)</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;        <span class="keyword">self</span>.vehicle_flags |= <a class="code" href="../../d1/d4b/vehicle_8qh.html#ac21f128092b5c4c3e6a603fb36c21c51">VHF_ENERGYREGEN</a>;</div>
 <div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;            <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_shield)</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;                <span class="keyword">self</span>.vehicle_flags |= <a class="code" href="../../d1/d4b/vehicle_8qh.html#a10ef3a78c131f2649e4acf0cfa690c17">VHF_HASSHIELD</a>;</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;    <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_shield)</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;        <span class="keyword">self</span>.vehicle_flags |= <a class="code" href="../../d1/d4b/vehicle_8qh.html#a10ef3a78c131f2649e4acf0cfa690c17">VHF_HASSHIELD</a>;</div>
 <div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;</div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;            <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_shield_regen)</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;                <span class="keyword">self</span>.vehicle_flags |= <a class="code" href="../../d1/d4b/vehicle_8qh.html#ae63a69a6759d02cb86d7e8e5f4129bb5">VHF_SHIELDREGEN</a>;</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;    <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_shield_regen)</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;        <span class="keyword">self</span>.vehicle_flags |= <a class="code" href="../../d1/d4b/vehicle_8qh.html#ae63a69a6759d02cb86d7e8e5f4129bb5">VHF_SHIELDREGEN</a>;</div>
 <div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;            <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_health_regen)</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;                <span class="keyword">self</span>.vehicle_flags |= <a class="code" href="../../d1/d4b/vehicle_8qh.html#a9474b2eac525ab0517bbf9dfceae6a1c">VHF_HEALTHREGEN</a>;</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    <span class="keywordflow">if</span>(autocvar_g_vehicle_racer_health_regen)</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;        <span class="keyword">self</span>.vehicle_flags |= <a class="code" href="../../d1/d4b/vehicle_8qh.html#a9474b2eac525ab0517bbf9dfceae6a1c">VHF_HEALTHREGEN</a>;</div>
 <div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;            <span class="keyword">self</span>.respawntime = autocvar_g_vehicle_racer_respawntime;</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;            <span class="keyword">self</span>.vehicle_health = autocvar_g_vehicle_racer_health;</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;            <span class="keyword">self</span>.vehicle_shield = autocvar_g_vehicle_racer_shield;</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;            <span class="keyword">self</span>.max_health = <span class="keyword">self</span>.vehicle_health;</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;<span class="preprocessor">        #endif</span></div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;    <span class="keyword">self</span>.respawntime = autocvar_g_vehicle_racer_respawntime;</div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;    <span class="keyword">self</span>.vehicle_health = autocvar_g_vehicle_racer_health;</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;    <span class="keyword">self</span>.vehicle_shield = autocvar_g_vehicle_racer_shield;</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;    <span class="keyword">self</span>.max_health = <span class="keyword">self</span>.vehicle_health;</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;<span class="preprocessor">        #ifdef CSQC</span></div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;<span class="preprocessor"></span>            <a class="code" href="../../d0/dee/cl__vehicles_8qc.html#ae9fd495d98dfa5d432baf01b89d5f9f5">AuxiliaryXhair</a>[0].axh_image = <a class="code" href="../../d0/dee/cl__vehicles_8qc.html#a1687d35c7231b928890daaa2b062925f">vCROSS_LOCK</a>; <span class="comment">// Rocket</span></div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;<span class="preprocessor">        #endif</span></div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;<span class="preprocessor"></span>        }</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d0/dee/cl__vehicles_8qc.html#ae9fd495d98dfa5d432baf01b89d5f9f5">AuxiliaryXhair</a>[0].axh_image = <a class="code" href="../../d0/dee/cl__vehicles_8qc.html#a1687d35c7231b928890daaa2b062925f">vCROSS_LOCK</a>; <span class="comment">// Rocket</span></div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;</div>
 <div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="progsdefs_8qc_html_a146bab87de0e719cb3fb75232473068e"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a146bab87de0e719cb3fb75232473068e">DEAD_DYING</a></div><div class="ttdeci">float DEAD_DYING</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00275">progsdefs.qc:275</a></div></div>
@@ -922,7 +922,7 @@ $(document).ready(function(){initNavTree('dd/de3/racer_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_041ec6f984a6b19402431933346033dd.html">vehicles</a></li><li class="navelem"><a class="el" href="../../dir_2f36f6133f1168f9d06ade8b0e9af156.html">vehicle</a></li><li class="navelem"><a class="el" href="../../dd/de3/racer_8qc.html">racer.qc</a></li>
-    <li class="footer">Generated on Wed Mar 9 2016 10:02:11 for Xonotic by
+    <li class="footer">Generated on Wed Mar 9 2016 10:14:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

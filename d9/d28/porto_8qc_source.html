@@ -398,96 +398,96 @@ $(document).ready(function(){initNavTree('d9/d28/porto_8qc_source.html','../../'
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(EditProjectile, <span class="keyword">self</span>, gren);</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;}</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_aim, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        {</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            <a class="code" href="../../df/dae/player_8qh.html#ae70419df87245d159bf96515d7d3e0b1">PHYS_INPUT_BUTTON_ATCK</a>(<span class="keyword">self</span>) = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            <a class="code" href="../../df/dae/player_8qh.html#aef86542f9909f794e073794b9dab3af7">PHYS_INPUT_BUTTON_ATCK2</a>(<span class="keyword">self</span>) = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            <span class="keywordflow">if</span>(!<a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(porto, secondary))</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../df/dc9/aim_8qc.html#a27e88c694b8648e6ef4a34ce3b1acea4">bot_aim</a>(<a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(porto, <a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>), 0, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(porto, <a class="code" href="../../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a">lifetime</a>), <span class="keyword">false</span>))</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                    <a class="code" href="../../df/dae/player_8qh.html#ae70419df87245d159bf96515d7d3e0b1">PHYS_INPUT_BUTTON_ATCK</a>(<span class="keyword">self</span>) = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        }</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_think, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> actor, .<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> weaponentity, <span class="keywordtype">int</span> fire))</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        {</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(porto, secondary))</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            {</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                <span class="keywordflow">if</span>(fire &amp; 1)</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;                <span class="keywordflow">if</span>(!actor.porto_current)</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;                <span class="keywordflow">if</span>(!actor.porto_forbidden)</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">false</span>, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(porto, refire)))</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;                {</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;                    W_Porto_Attack(0);</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;                    <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(porto, animtime), <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;                }</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_aim, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;{</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <a class="code" href="../../df/dae/player_8qh.html#ae70419df87245d159bf96515d7d3e0b1">PHYS_INPUT_BUTTON_ATCK</a>(<span class="keyword">self</span>) = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <a class="code" href="../../df/dae/player_8qh.html#aef86542f9909f794e073794b9dab3af7">PHYS_INPUT_BUTTON_ATCK2</a>(<span class="keyword">self</span>) = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(porto, secondary))</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../df/dc9/aim_8qc.html#a27e88c694b8648e6ef4a34ce3b1acea4">bot_aim</a>(<a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(porto, <a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>), 0, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(porto, <a class="code" href="../../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a">lifetime</a>), <span class="keyword">false</span>))</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            <a class="code" href="../../df/dae/player_8qh.html#ae70419df87245d159bf96515d7d3e0b1">PHYS_INPUT_BUTTON_ATCK</a>(<span class="keyword">self</span>) = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;}</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_think, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> actor, .<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> weaponentity, <span class="keywordtype">int</span> fire))</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;{</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(porto, secondary))</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    {</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        <span class="keywordflow">if</span>(fire &amp; 1)</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <span class="keywordflow">if</span>(!actor.porto_current)</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <span class="keywordflow">if</span>(!actor.porto_forbidden)</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">false</span>, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(porto, refire)))</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        {</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;            W_Porto_Attack(0);</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;            <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(porto, animtime), <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        }</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;                <span class="keywordflow">if</span>(fire &amp; 2)</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                <span class="keywordflow">if</span>(!actor.porto_current)</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                <span class="keywordflow">if</span>(!actor.porto_forbidden)</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">true</span>, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a9d7b1e891b395cb0e963cd09c243cdc8">WEP_CVAR_SEC</a>(porto, refire)))</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                {</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                    W_Porto_Attack(1);</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;                    <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE2, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a9d7b1e891b395cb0e963cd09c243cdc8">WEP_CVAR_SEC</a>(porto, animtime), <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;                }</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            }</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;            {</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;                <span class="keywordflow">if</span>(actor.porto_v_angle_held)</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;                {</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;                    <span class="keywordflow">if</span>(!(fire &amp; 2))</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;                    {</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;                        actor.porto_v_angle_held = 0;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        <span class="keywordflow">if</span>(fire &amp; 2)</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        <span class="keywordflow">if</span>(!actor.porto_current)</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <span class="keywordflow">if</span>(!actor.porto_forbidden)</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">true</span>, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a9d7b1e891b395cb0e963cd09c243cdc8">WEP_CVAR_SEC</a>(porto, refire)))</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        {</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;            W_Porto_Attack(1);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE2, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a9d7b1e891b395cb0e963cd09c243cdc8">WEP_CVAR_SEC</a>(porto, animtime), <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        }</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    }</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    {</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        <span class="keywordflow">if</span>(actor.porto_v_angle_held)</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        {</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;            <span class="keywordflow">if</span>(!(fire &amp; 2))</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;            {</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;                actor.porto_v_angle_held = 0;</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                        <a class="code" href="../../da/d53/cl__client_8qc.html#adcfb83073eb66c355f220a7fc94a479d">ClientData_Touch</a>(actor);</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;                    }</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;                }</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;                {</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;                    <span class="keywordflow">if</span>(fire &amp; 2)</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;                    {</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                        actor.porto_v_angle = actor.v_angle;</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                        actor.porto_v_angle_held = 1;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;                <a class="code" href="../../da/d53/cl__client_8qc.html#adcfb83073eb66c355f220a7fc94a479d">ClientData_Touch</a>(actor);</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;            }</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        }</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        {</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;            <span class="keywordflow">if</span>(fire &amp; 2)</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;            {</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;                actor.porto_v_angle = actor.v_angle;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;                actor.porto_v_angle_held = 1;</div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                        <a class="code" href="../../da/d53/cl__client_8qc.html#adcfb83073eb66c355f220a7fc94a479d">ClientData_Touch</a>(actor);</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;                    }</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;                }</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;                <span class="keywordflow">if</span>(actor.porto_v_angle_held)</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;                    makevectors(actor.porto_v_angle); <span class="comment">// override the previously set angles</span></div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;                <a class="code" href="../../da/d53/cl__client_8qc.html#adcfb83073eb66c355f220a7fc94a479d">ClientData_Touch</a>(actor);</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;            }</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        }</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        <span class="keywordflow">if</span>(actor.porto_v_angle_held)</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;            makevectors(actor.porto_v_angle); <span class="comment">// override the previously set angles</span></div>
 <div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                <span class="keywordflow">if</span>(fire &amp; 1)</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                <span class="keywordflow">if</span>(!actor.porto_current)</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                <span class="keywordflow">if</span>(!actor.porto_forbidden)</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">false</span>, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(porto, refire)))</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                {</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;                    W_Porto_Attack(-1);</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;                    <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(porto, animtime), <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;                }</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;            }</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        }</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_checkammo1, <span class="keywordtype">bool</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>))</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        {</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;            <span class="comment">// always allow infinite ammo</span></div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        }</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_checkammo2, <span class="keywordtype">bool</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>))</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;        {</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;            <span class="comment">// always allow infinite ammo</span></div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        }</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_setup, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        {</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;            <span class="keyword">self</span>.ammo_field = <a class="code" href="../../dc/d1c/weapon_8qh.html#ae0a21a0484e5bf8b8fe8e359578f5ddc">ammo_none</a>;</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        }</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_resetplayer, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        {</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;            <span class="keyword">self</span>.porto_current = <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>;</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        }</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        <span class="keywordflow">if</span>(fire &amp; 1)</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        <span class="keywordflow">if</span>(!actor.porto_current)</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        <span class="keywordflow">if</span>(!actor.porto_forbidden)</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">false</span>, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(porto, refire)))</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        {</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;            W_Porto_Attack(-1);</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;            <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(porto, animtime), <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        }</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    }</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;}</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_checkammo1, <span class="keywordtype">bool</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>))</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;{</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="comment">// always allow infinite ammo</span></div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;}</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_checkammo2, <span class="keywordtype">bool</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>))</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;{</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="comment">// always allow infinite ammo</span></div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;}</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_setup, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;{</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <span class="keyword">self</span>.ammo_field = <a class="code" href="../../dc/d1c/weapon_8qh.html#ae0a21a0484e5bf8b8fe8e359578f5ddc">ammo_none</a>;</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;}</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_resetplayer, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;{</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    <span class="keyword">self</span>.porto_current = <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;}</div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef CSQC</span></div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_impacteffect, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>)) {</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#afef5ff03ea272d388345cf47148953d4">LOG_WARNING</a>(<span class="stringliteral">&quot;Since when does Porto send DamageInfo?\n&quot;</span>);</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        }</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="preprocessor"></span><a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PortoLaunch, wr_impacteffect, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>)) {</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#afef5ff03ea272d388345cf47148953d4">LOG_WARNING</a>(<span class="stringliteral">&quot;Since when does Porto send DamageInfo?\n&quot;</span>);</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;}</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00010">_all.qh:10</a></div></div>
@@ -607,7 +607,7 @@ $(document).ready(function(){initNavTree('d9/d28/porto_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_67782cf2b73ff31781b25ce4541674e7.html">weapons</a></li><li class="navelem"><a class="el" href="../../dir_ed9f126d3b57bae7ce3e2e9ba5d7e270.html">weapon</a></li><li class="navelem"><a class="el" href="../../d9/d28/porto_8qc.html">porto.qc</a></li>
-    <li class="footer">Generated on Wed Mar 9 2016 10:02:11 for Xonotic by
+    <li class="footer">Generated on Wed Mar 9 2016 10:14:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
