@@ -370,103 +370,89 @@ $(document).ready(function(){initNavTree('dd/d69/net_8qh_source.html','../../');
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            v += ReadByte();          <span class="comment">// note: this is unsigned</span></div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            <span class="keywordflow">return</span> v;</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        }</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ReadInt48_t()</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        {</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            v.x = ReadInt24_t();</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            v.y = ReadInt24_t();</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            v.z = 0;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            <span class="keywordflow">return</span> v;</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        }</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ReadInt72_t()</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        {</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            v.x = ReadInt24_t();</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            v.y = ReadInt24_t();</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            v.z = ReadInt24_t();</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            <span class="keywordflow">return</span> v;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        }</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keywordtype">int</span> _ReadSByte;</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor">        #define ReadSByte() (_ReadSByte = ReadByte(), (_ReadSByte &amp; BIT(7) ? -128 : 0) + (_ReadSByte &amp; BITS(7)))</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadFloat() ReadCoord()</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ReadVector() { <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v; v.x = ReadFloat(); v.y = ReadFloat(); v.z = ReadFloat(); <span class="keywordflow">return</span> v; }</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ReadVector2D() { <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v; v.x = ReadFloat(); v.y = ReadFloat(); v.z = 0; <span class="keywordflow">return</span> v; }</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        <span class="keywordtype">float</span> ReadApproxPastTime()</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        {</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            <span class="keywordtype">float</span> dt = ReadByte();</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            <span class="comment">// map from range...PPROXPASTTIME_MAX / 256</span></div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            dt = (<a class="code" href="../../dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632">APPROXPASTTIME_MAX</a> / 256) * (dt / (256 - dt));</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d9/d08/client_2defs_8qh.html#a2f53beae246d912f86721a4b9a0c0d0a">servertime</a> - dt;</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        }</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor">    #else</span></div>
-<div class="line"><a name="l00302"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">  302</a></span>&#160;<span class="preprocessor"></span>        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(<span class="keywordtype">float</span> dst, <span class="keywordtype">float</span> val)</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        {</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            <span class="keywordtype">float</span> v;</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(dst, (v = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(val &gt;&gt; 8)));</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(dst, val - (v &lt;&lt; 8));  <span class="comment">// 0..255</span></div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        }</div>
-<div class="line"><a name="l00308"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b">  308</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b">WriteInt48_t</a>(<span class="keywordtype">float</span> dst, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> val)</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        {</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.x);</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.y);</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        }</div>
-<div class="line"><a name="l00313"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7">  313</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7">WriteInt72_t</a>(<span class="keywordtype">float</span> dst, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> val)</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        {</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.x);</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.y);</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.z);</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        }</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div>
-<div class="line"><a name="l00320"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a088a1f8d9e6189b35736f96fa5f4e737">  320</a></span>&#160;<span class="preprocessor">        #define WriteFloat(to, f) WriteCoord(to, f)</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a9e7ef0c04f606b32fe96a40f1a0cc1dd">  321</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define WriteVector(to, v) MACRO_BEGIN { WriteFloat(to, v.x); WriteFloat(to, v.y); WriteFloat(to, v.z); } MACRO_END</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a9bb65db9c1a9e5d176ebcfe843c813fd">  322</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define WriteVector2D(to, v) MACRO_BEGIN { WriteFloat(to, v.x); WriteFloat(to, v.y); } MACRO_END</span></div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="comment">// this will use the value:</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <span class="comment">//   128</span></div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        <span class="comment">// accuracy near zero is APPROXPASTTIME_MAX/(256*255)</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        <span class="comment">// accuracy at x is 1/derivative, i.e.</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        <span class="comment">//   APPROXPASTTIME_MAX * (1 + 256 * (dt / APPROXPASTTIME_MAX))^2 / 65536</span></div>
-<div class="line"><a name="l00329"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a08e1c6c2065f50c6de9d130e73984ff5">  329</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#a08e1c6c2065f50c6de9d130e73984ff5">WriteApproxPastTime</a>(<span class="keywordtype">float</span> dst, <span class="keywordtype">float</span> t)</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        {</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;            <span class="keywordtype">float</span> dt = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - t;</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;            <span class="comment">// warning: this is approximate; do not resend when you don&#39;t have to!</span></div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;            <span class="comment">// be careful with sendflags here!</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;            <span class="comment">// we want: 0 -&gt; 0.05, 1 -&gt; 0.1, ..., 255 -&gt; 12.75</span></div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;            <span class="comment">// map to range...</span></div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;            dt = 256 * (dt / ((<a class="code" href="../../dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632">APPROXPASTTIME_MAX</a> / 256) + dt));</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;            <span class="comment">// round...</span></div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            dt = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, dt, 255));</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(dst, dt);</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        }</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <span class="comment">// allow writing to also pass through to spectators (like so spectators see the same centerprints as players for example)</span></div>
-<div class="line"><a name="l00347"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#adf10dabd55df74adc889851b68155201">  347</a></span>&#160;<span class="preprocessor">        #define WRITESPECTATABLE_MSG_ONE(to, statement) MACRO_BEGIN { \</span></div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;<span class="preprocessor">            entity prev = msg_entity; \</span></div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="preprocessor">            entity dst = to; \</span></div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;<span class="preprocessor">            FOREACH_CLIENT(IS_REAL_CLIENT(it), { \</span></div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;<span class="preprocessor">                if (it == dst || (it.classname == STR_SPECTATOR &amp;&amp; it.enemy == dst)) \</span></div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;<span class="preprocessor">                { \</span></div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;<span class="preprocessor">                    msg_entity = it; \</span></div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;<span class="preprocessor">                    LAMBDA(statement); \</span></div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;<span class="preprocessor">                } \</span></div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;<span class="preprocessor">            }); \</span></div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;<span class="preprocessor">            msg_entity = prev; \</span></div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor">        #define ReadInt48_t() vec3(ReadInt24_t(), ReadInt24_t(), 0)</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadInt72_t() vec3(ReadInt24_t(), ReadInt24_t(), ReadInt24_t())</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordtype">int</span> _ReadSByte;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor">        #define ReadSByte() (_ReadSByte = ReadByte(), (_ReadSByte &amp; BIT(7) ? -128 : 0) + (_ReadSByte &amp; BITS(7)))</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadFloat() ReadCoord()</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadVector() vec3(ReadFloat(), ReadFloat(), ReadFloat())</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadVector2D() vec3(ReadFloat(), ReadFloat(), 0)</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="keywordtype">float</span> ReadApproxPastTime()</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            <span class="keywordtype">float</span> dt = ReadByte();</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="comment">// map from range...PPROXPASTTIME_MAX / 256</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            dt = (<a class="code" href="../../dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632">APPROXPASTTIME_MAX</a> / 256) * (dt / (256 - dt));</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d9/d08/client_2defs_8qh.html#a2f53beae246d912f86721a4b9a0c0d0a">servertime</a> - dt;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        }</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">    #else</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">  288</a></span>&#160;<span class="preprocessor"></span>        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(<span class="keywordtype">float</span> dst, <span class="keywordtype">float</span> val)</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        {</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            <span class="keywordtype">float</span> v;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(dst, (v = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(val &gt;&gt; 8)));</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(dst, val - (v &lt;&lt; 8));  <span class="comment">// 0..255</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        }</div>
+<div class="line"><a name="l00294"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b">  294</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b">WriteInt48_t</a>(<span class="keywordtype">float</span> dst, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> val)</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        {</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.x);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.y);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        }</div>
+<div class="line"><a name="l00299"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7">  299</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7">WriteInt72_t</a>(<span class="keywordtype">float</span> dst, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> val)</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        {</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.x);</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.y);</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.z);</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        }</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div>
+<div class="line"><a name="l00306"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a088a1f8d9e6189b35736f96fa5f4e737">  306</a></span>&#160;<span class="preprocessor">        #define WriteFloat(to, f) WriteCoord(to, f)</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a9e7ef0c04f606b32fe96a40f1a0cc1dd">  307</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define WriteVector(to, v) MACRO_BEGIN { WriteFloat(to, v.x); WriteFloat(to, v.y); WriteFloat(to, v.z); } MACRO_END</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a9bb65db9c1a9e5d176ebcfe843c813fd">  308</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define WriteVector2D(to, v) MACRO_BEGIN { WriteFloat(to, v.x); WriteFloat(to, v.y); } MACRO_END</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <span class="comment">// this will use the value:</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <span class="comment">//   128</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        <span class="comment">// accuracy near zero is APPROXPASTTIME_MAX/(256*255)</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        <span class="comment">// accuracy at x is 1/derivative, i.e.</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        <span class="comment">//   APPROXPASTTIME_MAX * (1 + 256 * (dt / APPROXPASTTIME_MAX))^2 / 65536</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a08e1c6c2065f50c6de9d130e73984ff5">  315</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#a08e1c6c2065f50c6de9d130e73984ff5">WriteApproxPastTime</a>(<span class="keywordtype">float</span> dst, <span class="keywordtype">float</span> t)</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        {</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;            <span class="keywordtype">float</span> dt = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - t;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            <span class="comment">// warning: this is approximate; do not resend when you don&#39;t have to!</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;            <span class="comment">// be careful with sendflags here!</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            <span class="comment">// we want: 0 -&gt; 0.05, 1 -&gt; 0.1, ..., 255 -&gt; 12.75</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            <span class="comment">// map to range...</span></div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;            dt = 256 * (dt / ((<a class="code" href="../../dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632">APPROXPASTTIME_MAX</a> / 256) + dt));</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;            <span class="comment">// round...</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;            dt = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, dt, 255));</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(dst, dt);</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        }</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="comment">// allow writing to also pass through to spectators (like so spectators see the same centerprints as players for example)</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#adf10dabd55df74adc889851b68155201">  333</a></span>&#160;<span class="preprocessor">        #define WRITESPECTATABLE_MSG_ONE(to, statement) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="preprocessor">            entity prev = msg_entity; \</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="preprocessor">            entity dst = to; \</span></div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="preprocessor">            FOREACH_CLIENT(IS_REAL_CLIENT(it), { \</span></div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="preprocessor">                if (it == dst || (it.classname == STR_SPECTATOR &amp;&amp; it.enemy == dst)) \</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="preprocessor">                { \</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">                    msg_entity = it; \</span></div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="preprocessor">                    LAMBDA(statement); \</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="preprocessor">                } \</span></div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="preprocessor">            }); \</span></div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor">            msg_entity = prev; \</span></div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="log_8qh_html_a98b360dc9fac616757f41f728705e8e0"><div class="ttname"><a href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a></div><div class="ttdeci">#define assert(expr,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00003">log.qh:3</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="net_8qh_html_a6e4c8aabf20d96d568a3a13b9e492f7c"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a6e4c8aabf20d96d568a3a13b9e492f7c">C2S_Protocol_from</a></div><div class="ttdeci">#define C2S_Protocol_from(i)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00089">net.qh:89</a></div></div>
-<div class="ttc" id="net_8qh_html_a70963789f84710350992e3da0673298b"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b">WriteInt48_t</a></div><div class="ttdeci">void WriteInt48_t(float dst, vector val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00308">net.qh:308</a></div></div>
+<div class="ttc" id="net_8qh_html_a70963789f84710350992e3da0673298b"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b">WriteInt48_t</a></div><div class="ttdeci">void WriteInt48_t(float dst, vector val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00294">net.qh:294</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abd23315350cd01304b6bd77c4c5c07e6"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a></div><div class="ttdeci">void WriteByte(float data, float dest, float desto)</div></div>
 <div class="ttc" id="menudefs_8qh_html_a3d23a92a3bb3bcbb467f1fa2bdaa54b3"><div class="ttname"><a href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a></div><div class="ttdeci">#define localcmd</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d95/menudefs_8qh_source.html#l00022">menudefs.qh:22</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
@@ -495,10 +481,10 @@ $(document).ready(function(){initNavTree('dd/d69/net_8qh_source.html','../../');
 <div class="ttc" id="server_2miscfunctions_8qh_html_a1b623218c450ae444a515f54395dd218"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a1b623218c450ae444a515f54395dd218">SetCustomizer</a></div><div class="ttdeci">void SetCustomizer(entity e, float() customizer, void() uncustomizer)</div></div>
 <div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00230">oo.qh:230</a></div></div>
 <div class="ttc" id="net_8qh_html_ad1ff1afdb3319ece46c9efea3400f397"><div class="ttname"><a href="../../dd/d69/net_8qh.html#ad1ff1afdb3319ece46c9efea3400f397">APPROXPASTTIME_ACCURACY_REQUIREMENT</a></div><div class="ttdeci">const float APPROXPASTTIME_ACCURACY_REQUIREMENT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00251">net.qh:251</a></div></div>
-<div class="ttc" id="net_8qh_html_ae23b45c2b40b944fd5bc0b729395c6c7"><div class="ttname"><a href="../../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7">WriteInt72_t</a></div><div class="ttdeci">void WriteInt72_t(float dst, vector val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00313">net.qh:313</a></div></div>
+<div class="ttc" id="net_8qh_html_ae23b45c2b40b944fd5bc0b729395c6c7"><div class="ttname"><a href="../../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7">WriteInt72_t</a></div><div class="ttdeci">void WriteInt72_t(float dst, vector val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00299">net.qh:299</a></div></div>
 <div class="ttc" id="iter_8qh_html_a06e81ec5bd716fed71d2dd0850a1dcae"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a06e81ec5bd716fed71d2dd0850a1dcae">STRING_ITERATOR</a></div><div class="ttdeci">#define STRING_ITERATOR(this, s, i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00041">iter.qh:41</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
-<div class="ttc" id="net_8qh_html_ad88fc1bc2f5c7b3eaf3992947377f4c8"><div class="ttname"><a href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a></div><div class="ttdeci">void WriteInt24_t(float dst, float val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00302">net.qh:302</a></div></div>
+<div class="ttc" id="net_8qh_html_ad88fc1bc2f5c7b3eaf3992947377f4c8"><div class="ttname"><a href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a></div><div class="ttdeci">void WriteInt24_t(float dst, float val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00288">net.qh:288</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ae4cf1ba5867cb0c1c0e74926ff8b0a5c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae4cf1ba5867cb0c1c0e74926ff8b0a5c">findfloat</a></div><div class="ttdeci">entity findfloat(entity start,.float field, float match)</div></div>
 <div class="ttc" id="net_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../dd/d69/net_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00008">net.qh:8</a></div></div>
@@ -509,7 +495,7 @@ $(document).ready(function(){initNavTree('dd/d69/net_8qh_source.html','../../');
 <div class="ttc" id="iter_8qh_html_a5f5c833a61297415c9aeb463ca5c2f84"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a5f5c833a61297415c9aeb463ca5c2f84">STRING_ITERATOR_SET</a></div><div class="ttdeci">#define STRING_ITERATOR_SET(this, s, i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00045">iter.qh:45</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
-<div class="ttc" id="net_8qh_html_a08e1c6c2065f50c6de9d130e73984ff5"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a08e1c6c2065f50c6de9d130e73984ff5">WriteApproxPastTime</a></div><div class="ttdeci">void WriteApproxPastTime(float dst, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00329">net.qh:329</a></div></div>
+<div class="ttc" id="net_8qh_html_a08e1c6c2065f50c6de9d130e73984ff5"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a08e1c6c2065f50c6de9d130e73984ff5">WriteApproxPastTime</a></div><div class="ttdeci">void WriteApproxPastTime(float dst, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00315">net.qh:315</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a1147496d9185c4b54a3caa5424f088b8"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a1147496d9185c4b54a3caa5424f088b8">EF_NODEPTHTEST</a></div><div class="ttdeci">const int EF_NODEPTHTEST</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00070">csqc_constants.qh:70</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00014">iter.qh:14</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_abcb4010392e87a7a2a9cb79a5c300085"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a></div><div class="ttdeci">float entnum</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00094">csprogsdefs.qc:94</a></div></div>
@@ -523,7 +509,7 @@ $(document).ready(function(){initNavTree('dd/d69/net_8qh_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dd/d69/net_8qh.html">net.qh</a></li>
-    <li class="footer">Generated on Sun Mar 6 2016 13:40:21 for Xonotic by
+    <li class="footer">Generated on Wed Mar 9 2016 03:48:02 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
