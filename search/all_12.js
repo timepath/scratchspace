@@ -287,7 +287,7 @@ var searchData=
   ['registerteam',['RegisterTeam',['../dc/d98/client_2miscfunctions_8qc.html#a6caf2e0c66aa3cfa4a63689e650de692',1,'RegisterTeam(entity Team):&#160;miscfunctions.qc'],['../d8/db6/client_2miscfunctions_8qh.html#a6caf2e0c66aa3cfa4a63689e650de692',1,'RegisterTeam(entity Team):&#160;miscfunctions.qc']]],
   ['registry',['REGISTRY',['../d2/d5e/registry_8qh.html#ab210ffe7da897080a1f7f2e05f5a9cfa',1,'REGISTRY():&#160;registry.qh'],['../de/d81/common_2weapons_2all_8qh.html#a5ac40c7a1ac2d8bf44dfd73aaca2a3df',1,'REGISTRY(Weapons, 72) STATIC_INIT(WeaponPickup):&#160;all.qh']]],
   ['registry_2eqh',['registry.qh',['../d2/d5e/registry_8qh.html',1,'']]],
-  ['registry_5fcheck',['REGISTRY_CHECK',['../d2/d5e/registry_8qh.html#ac0e7d24ce2ae2a3c1fadcf32633792c1',1,'REGISTRY_CHECK():&#160;registry.qh'],['../d2/d5e/registry_8qh.html#a3e2b42e82e961b6cf12f9794dea5d7c2',1,'Registry_check(string r, string server):&#160;registry.qh']]],
+  ['registry_5fcheck',['Registry_check',['../d2/d5e/registry_8qh.html#a3e2b42e82e961b6cf12f9794dea5d7c2',1,'Registry_check(string r, string server):&#160;registry.qh'],['../d2/d5e/registry_8qh.html#ac0e7d24ce2ae2a3c1fadcf32633792c1',1,'REGISTRY_CHECK():&#160;registry.qh']]],
   ['registry_5fhash',['REGISTRY_HASH',['../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89',1,'registry.qh']]],
   ['registry_5fnet_2eqh',['registry_net.qh',['../dd/df1/registry__net_8qh.html',1,'']]],
   ['registry_5fnext',['REGISTRY_NEXT',['../d2/d5e/registry_8qh.html#a2159097a6331b05583f808f0316464b0',1,'REGISTRY_NEXT():&#160;registry.qh'],['../d2/d5e/registry_8qh.html#abdb2c4c4efccfa31f16e67f85b27b40a',1,'REGISTRY_NEXT():&#160;registry.qh']]],

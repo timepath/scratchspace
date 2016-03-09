@@ -35,18 +35,5 @@ var searchData=
   ['buffs_5ffrom',['Buffs_from',['../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a973bc70bb709b2a072ba5f1132c9c5e0',1,'all.qh']]],
   ['buffs_5fstat',['BUFFS_STAT',['../df/dae/player_8qh.html#a6f91fe72ae285d61537e8d41d600c127',1,'player.qh']]],
   ['bumblebee_5fh',['BUMBLEBEE_H',['../d0/d7f/bumblebee_8qh.html#a2a30908b7090502e80cc5103f2a16c1d',1,'bumblebee.qh']]],
-  ['button_5fatck',['BUTTON_ATCK',['../d5/d26/server_2defs_8qh.html#a583690ea476253b59ca0203cf91a16ed',1,'defs.qh']]],
-  ['button_5fatck2',['BUTTON_ATCK2',['../d5/d26/server_2defs_8qh.html#a40c67a7707545f1bf6f29a181fe286b4',1,'defs.qh']]],
-  ['button_5fchat',['BUTTON_CHAT',['../d5/d26/server_2defs_8qh.html#adabc8b355a49c42c02e1d0a211b70ffa',1,'defs.qh']]],
-  ['button_5fcrouch',['BUTTON_CROUCH',['../d5/d26/server_2defs_8qh.html#a1e7e32c94eb33eb204cb08c1408ab1d2',1,'defs.qh']]],
-  ['button_5fdrag',['BUTTON_DRAG',['../d5/d26/server_2defs_8qh.html#aee47662c4b6b018ba759111c320e7a26',1,'defs.qh']]],
-  ['button_5fh',['BUTTON_H',['../df/d28/menu_2xonotic_2button_8qc.html#ae2c42977e6e31dcbd1688b6cc65373d6',1,'button.qc']]],
-  ['button_5fhook',['BUTTON_HOOK',['../d5/d26/server_2defs_8qh.html#ac4703b96130daa75e432f085efe58755',1,'defs.qh']]],
-  ['button_5finfo',['BUTTON_INFO',['../d5/d26/server_2defs_8qh.html#ad44b6814dd75dcde24af3ab5f2e30d3d',1,'defs.qh']]],
-  ['button_5fjetpack',['BUTTON_JETPACK',['../d5/d26/server_2defs_8qh.html#ad1f8ba69ca3ed88d7a85e0f656f15f35',1,'defs.qh']]],
-  ['button_5fjump',['BUTTON_JUMP',['../d5/d26/server_2defs_8qh.html#af3f1eb347537703768140affc3806e1c',1,'defs.qh']]],
-  ['button_5fprydon',['BUTTON_PRYDON',['../d5/d26/server_2defs_8qh.html#ab4d893f156e7e0fd8817ec2305973373',1,'defs.qh']]],
-  ['button_5fuse',['BUTTON_USE',['../d5/d26/server_2defs_8qh.html#ad8f7dfd2fedba5775c4459b04931a44f',1,'defs.qh']]],
-  ['button_5fzoom',['BUTTON_ZOOM',['../d5/d26/server_2defs_8qh.html#abab3fdf3c09e0fb9d91d3169cfaf6a0b',1,'defs.qh']]],
-  ['button_5fzoomscript',['BUTTON_ZOOMSCRIPT',['../d5/d26/server_2defs_8qh.html#a6afcae5df168aa775c1dcfe6db19eba4',1,'defs.qh']]]
+  ['button_5fh',['BUTTON_H',['../df/d28/menu_2xonotic_2button_8qc.html#ae2c42977e6e31dcbd1688b6cc65373d6',1,'button.qc']]]
 ];

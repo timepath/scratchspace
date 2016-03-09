@@ -239,7 +239,7 @@ $(document).ready(function(){initNavTree('df/dc9/aim_8qc_source.html','../../');
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(e))</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">if</span> (e.BUTTON_CHAT)</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../df/dae/player_8qh.html#a507eb34316e1e6ce99a3dc40abe68474">PHYS_INPUT_BUTTON_CHAT</a>(e))</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordflow">if</span>(e.flags &amp; <a class="code" href="../../d6/d11/progsdefs_8qc.html#a9789908621957fddc82d162fa0b0d103">FL_NOTARGET</a>)</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -535,6 +535,7 @@ $(document).ready(function(){initNavTree('df/dc9/aim_8qc_source.html','../../');
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 <div class="ttc" id="notifications_8inc_html_aa3a4d79ed24e4270f2709c15572bcb55"><div class="ttname"><a href="../../da/dc3/notifications_8inc.html#aa3a4d79ed24e4270f2709c15572bcb55">f2</a></div><div class="ttdeci">spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2 f1 f1points f2</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dc3/notifications_8inc_source.html#l00332">notifications.inc:332</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
+<div class="ttc" id="player_8qh_html_a507eb34316e1e6ce99a3dc40abe68474"><div class="ttname"><a href="../../df/dae/player_8qh.html#a507eb34316e1e6ce99a3dc40abe68474">PHYS_INPUT_BUTTON_CHAT</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_CHAT(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dae/player_8qh_source.html#l00105">player.qh:105</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_affac4a8b791a5636b36817e639399054"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#affac4a8b791a5636b36817e639399054">autocvar_bot_ai_aimskill_firetolerance_distdegrees</a></div><div class="ttdeci">float autocvar_bot_ai_aimskill_firetolerance_distdegrees</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00010">autocvars.qh:10</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a2159f6bc562457d558effab8f13f1603"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a></div><div class="ttdeci">entity trace_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00040">csprogsdefs.qc:40</a></div></div>
 <div class="ttc" id="aim_8qh_html_a7fb6fcaf026357047fd33752a0f6e916"><div class="ttname"><a href="../../d3/d5a/aim_8qh.html#a7fb6fcaf026357047fd33752a0f6e916">lag3_vec3</a></div><div class="ttdeci">vector lag3_vec3</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d5a/aim_8qh_source.html#l00042">aim.qh:42</a></div></div>
@@ -628,7 +629,7 @@ $(document).ready(function(){initNavTree('df/dc9/aim_8qc_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../df/dc9/aim_8qc.html">aim.qc</a></li>
-    <li class="footer">Generated on Wed Mar 9 2016 08:09:07 for Xonotic by
+    <li class="footer">Generated on Wed Mar 9 2016 10:02:12 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -266,7 +266,7 @@ var searchData=
   ['button_5f9',['BUTTON_9',['../d4/d92/csqc__constants_8qh.html#abad99d3f40612896e26a7cf2e6ffd67a',1,'csqc_constants.qh']]],
   ['button_5fattack',['BUTTON_ATTACK',['../d4/d92/csqc__constants_8qh.html#a4fe8b340e7d8f0b1cd313a3deb04e356',1,'csqc_constants.qh']]],
   ['button_5fattack2',['button_attack2',['../d0/d2a/client_2main_8qh.html#a6676069095d228904691523d07db2df5',1,'main.qh']]],
-  ['button_5fchat',['BUTTON_CHAT',['../d4/d92/csqc__constants_8qh.html#aefd9e0a00d19a219c8b422a7f1cfc4e7',1,'BUTTON_CHAT():&#160;csqc_constants.qh'],['../da/d53/cl__client_8qc.html#a5d43843cd2c8011a375efe7fda512a1f',1,'BUTTON_CHAT():&#160;cl_client.qc']]],
+  ['button_5fchat',['BUTTON_CHAT',['../d4/d92/csqc__constants_8qh.html#aefd9e0a00d19a219c8b422a7f1cfc4e7',1,'csqc_constants.qh']]],
   ['button_5fjump',['BUTTON_JUMP',['../d4/d92/csqc__constants_8qh.html#a72e765c3e9d65c40924addb1e1e5ec54',1,'csqc_constants.qh']]],
   ['button_5fprydoncursor',['BUTTON_PRYDONCURSOR',['../d4/d92/csqc__constants_8qh.html#a3e200c93d2a01c4a122ad35e13ce8375',1,'csqc_constants.qh']]],
   ['button_5fuse',['BUTTON_USE',['../d4/d92/csqc__constants_8qh.html#a64c33b61a4620c6a3c54b791de28ec61',1,'csqc_constants.qh']]],

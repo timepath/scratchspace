@@ -743,7 +743,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00235">FL_INWATER</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00129">flags</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../d1/da9/bot_8qh_source.html#l00024">skill</a>, and <a class="el" href="../../d3/d70/menu_2progs_8inc_source.html#l00003">world</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00404">bot_clientconnect()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00403">bot_clientconnect()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a07834aee511d1ccd48492759bd5873e2">flags</a> &amp; <a class="code" href="../../d6/d11/progsdefs_8qc.html#a793325baa6fde8a68e7111906b18144c">FL_INWATER</a>)</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    {</div>
@@ -880,7 +880,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/dc9/aim_8qc_source.html#l00109">109</a> of file <a class="el" href="../../df/dc9/aim_8qc_source.html">aim.qc</a>.</p>
 
-<p>References <a class="el" href="../../d1/da9/bot_8qh_source.html#l00087">bot_ignore_bots</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00238">FL_NOTARGET</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00015">IS_BOT_CLIENT</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00038">IS_DEAD</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00138">MUTATOR_CALLHOOK</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../db/d9f/state_8qh.html#a917978fc72821486ab248ab4253cf6e8">STAT()</a>, and <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00031">teamplay</a>.</p>
+<p>References <a class="el" href="../../d1/da9/bot_8qh_source.html#l00087">bot_ignore_bots</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00238">FL_NOTARGET</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00015">IS_BOT_CLIENT</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00038">IS_DEAD</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00138">MUTATOR_CALLHOOK</a>, <a class="el" href="../../df/dae/player_8qh_source.html#l00105">PHYS_INPUT_BUTTON_CHAT</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../db/d9f/state_8qh.html#a917978fc72821486ab248ab4253cf6e8">STAT()</a>, and <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00031">teamplay</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/dc9/aim_8qc_source.html#l00321">bot_aim()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00857">havocbot_chooseenemy()</a>, and <a class="el" href="../../db/deb/roles_8qc_source.html#l00151">havocbot_goalrating_enemyplayers()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
@@ -909,7 +909,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(e))</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">if</span> (e.BUTTON_CHAT)</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../df/dae/player_8qh.html#a507eb34316e1e6ce99a3dc40abe68474">PHYS_INPUT_BUTTON_CHAT</a>(e))</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <span class="keywordflow">if</span>(e.flags &amp; <a class="code" href="../../d6/d11/progsdefs_8qc.html#a9789908621957fddc82d162fa0b0d103">FL_NOTARGET</a>)</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -920,6 +920,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;}</div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
+<div class="ttc" id="player_8qh_html_a507eb34316e1e6ce99a3dc40abe68474"><div class="ttname"><a href="../../df/dae/player_8qh.html#a507eb34316e1e6ce99a3dc40abe68474">PHYS_INPUT_BUTTON_CHAT</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_CHAT(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dae/player_8qh_source.html#l00105">player.qh:105</a></div></div>
 <div class="ttc" id="state_8qh_html_a917978fc72821486ab248ab4253cf6e8"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a917978fc72821486ab248ab4253cf6e8">STAT</a></div><div class="ttdeci">STAT(SWITCHINGWEAPON, cl)</div></div>
 <div class="ttc" id="progsdefs_8qc_html_acf8ea712d5467331fb750b33ab165013"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a></div><div class="ttdeci">float teamplay</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00031">progsdefs.qc:31</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_afff35aba15a6e110ae0fe9e4a8d1a0f6"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a></div><div class="ttdeci">#define IS_BOT_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00015">_all.qh:15</a></div></div>
@@ -2359,7 +2360,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../d3/d5a/aim_8qh.html">aim.qh</a></li>
-    <li class="footer">Generated on Wed Mar 9 2016 08:09:14 for Xonotic by
+    <li class="footer">Generated on Wed Mar 9 2016 10:02:19 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

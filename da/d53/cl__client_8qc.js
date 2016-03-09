@@ -59,7 +59,6 @@ var cl__client_8qc =
     [ "UpdateChatBubble", "da/d53/cl__client_8qc.html#a0951679ad39e70406fef5a926e2f26e2", null ],
     [ "vehicles_enter", "da/d53/cl__client_8qc.html#a018387a690e307f5cc7fb250212d7eb5", null ],
     [ "void", "da/d53/cl__client_8qc.html#a970661ffeb3805a8821a11ae4d765f15", null ],
-    [ "BUTTON_CHAT", "da/d53/cl__client_8qc.html#a5d43843cd2c8011a375efe7fda512a1f", null ],
     [ "chatbubbleentity", "da/d53/cl__client_8qc.html#a0ea52ed96e6d3b34c2c0eac9ec813fe7", null ],
     [ "clientkill_nexttime", "da/d53/cl__client_8qc.html#a1f7075729b16c7fb29ac863d1a4c1725", null ],
     [ "clientkilltime", "da/d53/cl__client_8qc.html#a482f54a20df32f498a4c3cca6f372fee", null ],
