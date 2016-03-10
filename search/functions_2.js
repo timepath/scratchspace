@@ -129,7 +129,7 @@ var searchData=
   ['buf_5fload',['buf_load',['../d5/df2/common_2util_8qh.html#a82bb7f7c333620a6912acd6445e8f4fe',1,'buf_load(string filename):&#160;string.qh'],['../d2/db4/string_8qh.html#ab6f49d0a5c29ebce996c888ac0719f99',1,'buf_load(string pFilename):&#160;string.qh']]],
   ['buf_5fsave',['buf_save',['../d5/df2/common_2util_8qh.html#a26991c68b0f5c46dc63ea3aa344364b1',1,'buf_save(int buf, string filename):&#160;util.qh'],['../d2/db4/string_8qh.html#a38be25a9861c0cbcabf5bb5bce2d3d4e',1,'buf_save(float buf, string pFilename):&#160;string.qh']]],
   ['buff_5ffirstfromflags',['buff_FirstFromFlags',['../d5/dac/g__damage_8qc.html#afd7d0f110617f66bd6efce062d5d16e7',1,'g_damage.qc']]],
-  ['buff_5fname',['BUFF_NAME',['../d7/daf/notifications_8qh.html#a7c73e9ee5f2498f85e04b5adaafef6b3',1,'notifications.qh']]],
+  ['buff_5fname',['BUFF_NAME',['../dc/de5/common_2notifications_2all_8qh.html#a7c73e9ee5f2498f85e04b5adaafef6b3',1,'all.qh']]],
   ['buildpath_5fnodefilter',['buildpath_nodefilter',['../dd/d70/pathlib_8qh.html#aa96406bb9db6a09e54828c46b76cacd2',1,'pathlib.qh']]],
   ['buildpath_5fnodefilter_5fdirectional',['buildpath_nodefilter_directional',['../df/d4c/server_2pathlib_2main_8qc.html#ae2056c633b1b4b1e30b3578f2969e493',1,'main.qc']]],
   ['buildpath_5fnodefilter_5fmoveskip',['buildpath_nodefilter_moveskip',['../df/d4c/server_2pathlib_2main_8qc.html#a839872548937b4648246baa64cd5da94',1,'main.qc']]],

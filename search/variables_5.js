@@ -56,6 +56,7 @@ var searchData=
   ['enemy_5fplayerid',['enemy_playerid',['../dc/d80/gamemode__domination_8qc.html#a51412bf2f106037d2831e7ed0bcc917a',1,'gamemode_domination.qc']]],
   ['entnum',['entnum',['../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085',1,'csprogsdefs.qc']]],
   ['enttype',['enttype',['../d9/d08/client_2defs_8qh.html#a01b9d63c00330be2acbedfa4d4694e58',1,'defs.qh']]],
+  ['enum_5fordinal',['enum_ordinal',['../da/dd5/enumclass_8qh.html#a10f4c592b56e8ae136d22fc7a9cd22f0',1,'enumclass.qh']]],
   ['erp',['erp',['../de/d5e/dpextensions_8qc.html#a4ae0554b6a6bfc1cc40c30d54b990624',1,'dpextensions.qc']]],
   ['err_5fbaddrawflag',['ERR_BADDRAWFLAG',['../d8/de2/menudefs_8qc.html#a906eeb01ddd29155db7d81bb61a3878b',1,'menudefs.qc']]],
   ['err_5fbadfilename',['ERR_BADFILENAME',['../d8/de2/menudefs_8qc.html#ab76006daa4bb870318d0aab51f0b6f45',1,'menudefs.qc']]],

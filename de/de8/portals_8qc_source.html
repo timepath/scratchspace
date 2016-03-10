@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;mutators/all.qh&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;../common/constants.qh&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;../common/deathtypes/all.qh&quot;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;../common/notifications.qh&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;../common/notifications/all.qh&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;../common/triggers/teleporters.qh&quot;</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;../common/triggers/subs.qh&quot;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;../common/util.qh&quot;</span></div>
@@ -292,7 +292,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    {</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="comment">// telefrag within 1 second of portal creation = amazing</span></div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; teleporter.teleport_time + 1)</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            Send_Notification(NOTIF_ONE, player, <a class="code" href="../../d7/daf/notifications_8qh.html#a7d3b42121e4f73ad047757fdd94a2e92">MSG_ANNCE</a>, ANNCE_ACHIEVEMENT_AMAZING);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            Send_Notification(NOTIF_ONE, player, MSG_ANNCE, ANNCE_ACHIEVEMENT_AMAZING);</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    }</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">if</span> (!teleporter.enemy)</div>
@@ -815,7 +815,6 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_af8cdb030bc0344c57967ab7de062e810"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">MOVE_NOMONSTERS</a></div><div class="ttdeci">const int MOVE_NOMONSTERS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00135">csqc_constants.qh:135</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_aa9ea10d4f0d0ed19674dae09c99d635b"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#aa9ea10d4f0d0ed19674dae09c99d635b">DAMAGE_AIM</a></div><div class="ttdeci">float DAMAGE_AIM</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00284">progsdefs.qc:284</a></div></div>
-<div class="ttc" id="notifications_8qh_html_a7d3b42121e4f73ad047757fdd94a2e92"><div class="ttname"><a href="../../d7/daf/notifications_8qh.html#a7d3b42121e4f73ad047757fdd94a2e92">MSG_ANNCE</a></div><div class="ttdeci">const int MSG_ANNCE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/daf/notifications_8qh_source.html#l00016">notifications.qh:16</a></div></div>
 <div class="ttc" id="portals_8qc_html_a99af19a7ad0e4c2171d74c2f4a31ccd6"><div class="ttname"><a href="../../de/de8/portals_8qc.html#a99af19a7ad0e4c2171d74c2f4a31ccd6">Portal_RemoveLater_Think</a></div><div class="ttdeci">void Portal_RemoveLater_Think()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de8/portals_8qc_source.html#l00577">portals.qc:577</a></div></div>
 <div class="ttc" id="portals_8qc_html_a7620840c6a2c2d6e4d5a0ceca8b7a840"><div class="ttname"><a href="../../de/de8/portals_8qc.html#a7620840c6a2c2d6e4d5a0ceca8b7a840">PlayerEdgeDistance</a></div><div class="ttdeci">float PlayerEdgeDistance(entity p, vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de8/portals_8qc_source.html#l00030">portals.qc:30</a></div></div>
 <div class="ttc" id="portals_8qc_html_a609b1151ce1ef7aedb50a1c7e1cba5cf"><div class="ttname"><a href="../../de/de8/portals_8qc.html#a609b1151ce1ef7aedb50a1c7e1cba5cf">Portal_Disconnect</a></div><div class="ttdeci">void Portal_Disconnect(entity teleporter, entity destination)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de8/portals_8qc_source.html#l00370">portals.qc:370</a></div></div>
@@ -919,7 +918,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../de/de8/portals_8qc.html">portals.qc</a></li>
-    <li class="footer">Generated on Thu Mar 10 2016 02:40:37 for Xonotic by
+    <li class="footer">Generated on Thu Mar 10 2016 06:59:56 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

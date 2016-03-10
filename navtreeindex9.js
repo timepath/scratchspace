@@ -1,5 +1,9 @@
 var NAVTREEINDEX9 =
 {
+"d2/dc3/menu_2item_2button_8qc_source.html":[1,0,4,2,1],
+"d2/dcc/sv__cmd_8qh.html":[1,0,5,1,13],
+"d2/dcc/sv__cmd_8qh.html#a06f422dc96371fb4538e80c5a59bc7a1":[1,0,5,1,13,6],
+"d2/dcc/sv__cmd_8qh.html#a0769ba4e12a3e3c336b04f1fef5d753a":[1,0,5,1,13,5],
 "d2/dcc/sv__cmd_8qh.html#a456cb75445f7a05a80d7a6f3d2e2f8ae":[1,0,5,1,13,2],
 "d2/dcc/sv__cmd_8qh.html#a874ac9b79b1a46e5ef38b08cc3056da1":[1,0,5,1,13,4],
 "d2/dcc/sv__cmd_8qh.html#ac7ea5296d5c46aee447f1781a8340dc9":[1,0,5,1,13,0],
@@ -37,10 +41,10 @@ var NAVTREEINDEX9 =
 "d2/de3/getreplies_8qh.html#acd14453c3d874fef97b4619c5987158e":[1,0,5,1,9,4],
 "d2/de3/getreplies_8qh.html#aeefde83866a57747398bd6dc29bb082b":[1,0,5,1,9,11],
 "d2/de3/getreplies_8qh_source.html":[1,0,5,1,9],
-"d2/de5/common_2turrets_2util_8qc.html":[1,0,1,13,12],
-"d2/de5/common_2turrets_2util_8qc.html#adeeb8bb7025f94f35b2e5ddb8e3ed3dc":[1,0,1,13,12,1],
-"d2/de5/common_2turrets_2util_8qc.html#afe3a3b48d8b997a49973689230cacd0f":[1,0,1,13,12,0],
-"d2/de5/common_2turrets_2util_8qc_source.html":[1,0,1,13,12],
+"d2/de5/common_2turrets_2util_8qc.html":[1,0,1,14,12],
+"d2/de5/common_2turrets_2util_8qc.html#adeeb8bb7025f94f35b2e5ddb8e3ed3dc":[1,0,1,14,12,1],
+"d2/de5/common_2turrets_2util_8qc.html#afe3a3b48d8b997a49973689230cacd0f":[1,0,1,14,12,0],
+"d2/de5/common_2turrets_2util_8qc_source.html":[1,0,1,14,12],
 "d2/de6/dialog__settings__effects_8qc.html":[1,0,4,4,60],
 "d2/de6/dialog__settings__effects_8qc.html#a3cfdd18235fd19c2f025b3ca3512225a":[1,0,4,4,60,0],
 "d2/de6/dialog__settings__effects_8qc.html#a75446a6854bbb96256fe13ddcf277e87":[1,0,4,4,60,1],
@@ -65,8 +69,8 @@ var NAVTREEINDEX9 =
 "d2/ded/client_2commands_2all_8qh.html":[1,0,0,0,1],
 "d2/ded/client_2commands_2all_8qh.html#a1068530345ad07dcfce894360682ff5a":[1,0,0,0,1,0],
 "d2/ded/client_2commands_2all_8qh_source.html":[1,0,0,0,1],
-"d2/df7/teleport__dest_8qc.html":[1,0,1,12,1,4],
-"d2/df7/teleport__dest_8qc_source.html":[1,0,1,12,1,4],
+"d2/df7/teleport__dest_8qc.html":[1,0,1,13,1,4],
+"d2/df7/teleport__dest_8qc_source.html":[1,0,1,13,1,4],
 "d3/d05/classes_8inc.html":[1,0,4,6],
 "d3/d05/classes_8inc_source.html":[1,0,4,6],
 "d3/d05/hud_8qh.html":[1,0,0,1,5],
@@ -245,9 +249,5 @@ var NAVTREEINDEX9 =
 "d3/d07/scoreboard_8qc.html#ac4bcaf74effc7861202155214904e07c":[1,0,0,24,38],
 "d3/d07/scoreboard_8qc.html#ac53d2ee840ea1d68645a5235a415ff31":[1,0,0,24,13],
 "d3/d07/scoreboard_8qc.html#ac8fc94135c28fbc46043a00b825bcd27":[1,0,0,24,40],
-"d3/d07/scoreboard_8qc.html#aca36a058ed04cb1e8324dd1acceb4481":[1,0,0,24,43],
-"d3/d07/scoreboard_8qc.html#acba8a7468e53f4ea09069c1ff1c98ccb":[1,0,0,24,21],
-"d3/d07/scoreboard_8qc.html#ad9d1a7e7bd97dad4512ac2df5e181f4f":[1,0,0,24,8],
-"d3/d07/scoreboard_8qc.html#ade7651a545a96d0eb09e678f9cc8fe92":[1,0,0,24,32],
-"d3/d07/scoreboard_8qc.html#adf3261562dc950f6a52cd551ce76a375":[1,0,0,24,29]
+"d3/d07/scoreboard_8qc.html#aca36a058ed04cb1e8324dd1acceb4481":[1,0,0,24,43]
 };

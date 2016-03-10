@@ -270,12 +270,7 @@ $(document).ready(function(){initNavTree('db/d07/teams_8qh_source.html','../../'
 <div class="line"><a name="l00164"></a><span class="lineno"><a class="line" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">  164</a></span>&#160;<span class="preprocessor">#define SAME_TEAM(a,b) (teamplay ? (a.team == b.team) : (a == b))</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno"><a class="line" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">  165</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define DIFF_TEAM(a,b) (teamplay ? (a.team != b.team) : (a != b))</span></div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment">// used for notification system multi-team identifiers</span></div>
-<div class="line"><a name="l00168"></a><span class="lineno"><a class="line" href="../../db/d07/teams_8qh.html#aaefda321e749a0cb6a8a975b2a386bd2">  168</a></span>&#160;<span class="preprocessor">#define APP_TEAM_NUM_2(num,prefix) ((num == NUM_TEAM_1) ? prefix##RED : prefix##BLUE)</span></div>
-<div class="line"><a name="l00169"></a><span class="lineno"><a class="line" href="../../db/d07/teams_8qh.html#a523a8311b838c324a24ad21e5216bc29">  169</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define APP_TEAM_NUM_4(num,prefix) ((num == NUM_TEAM_1) ? prefix##RED : ((num == NUM_TEAM_2) ? prefix##BLUE : ((num == NUM_TEAM_3) ? prefix##YELLOW : prefix##PINK)))</span></div>
-<div class="line"><a name="l00170"></a><span class="lineno"><a class="line" href="../../db/d07/teams_8qh.html#abbf335a952f703f9e9f1f3f1720ad266">  170</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define APP_TEAM_ENT_2(ent,prefix) ((ent.team == NUM_TEAM_1) ? prefix##RED : prefix##BLUE)</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno"><a class="line" href="../../db/d07/teams_8qh.html#a52d785970c9a35637f3951549b14e98e">  171</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define APP_TEAM_ENT_4(ent,prefix) ((ent.team == NUM_TEAM_1) ? prefix##RED : ((ent.team == NUM_TEAM_2) ? prefix##BLUE : ((ent.team == NUM_TEAM_3) ? prefix##YELLOW : prefix##PINK)))</span></div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="teams_8qh_html_a41d770fecb49af6ce941da2667000651"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a41d770fecb49af6ce941da2667000651">NUM_SPECTATOR</a></div><div class="ttdeci">const int NUM_SPECTATOR</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00022">teams.qh:22</a></div></div>
 <div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
 <div class="ttc" id="teams_8qh_html_a94d54dcd91f274b0cf14942028160419"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a94d54dcd91f274b0cf14942028160419">STATIC_NAME_TEAM_1</a></div><div class="ttdeci">const string STATIC_NAME_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00038">teams.qh:38</a></div></div>
@@ -310,7 +305,7 @@ $(document).ready(function(){initNavTree('db/d07/teams_8qh_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../db/d07/teams_8qh.html">teams.qh</a></li>
-    <li class="footer">Generated on Thu Mar 10 2016 02:40:34 for Xonotic by
+    <li class="footer">Generated on Thu Mar 10 2016 06:59:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

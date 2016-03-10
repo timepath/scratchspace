@@ -71,7 +71,7 @@ var searchData=
   ['announcer',['Announcer',['../da/df4/announcer_8qc.html#abb5b4637e37634b1b1ccc43540b8b369',1,'Announcer():&#160;announcer.qc'],['../df/d71/announcer_8qh.html#abb5b4637e37634b1b1ccc43540b8b369',1,'Announcer():&#160;announcer.qc']]],
   ['announcer_5fcountdown',['Announcer_Countdown',['../da/df4/announcer_8qc.html#a0e97f430de68d1ece828f58a7570a460',1,'announcer.qc']]],
   ['announcer_5fgamestart',['Announcer_Gamestart',['../da/df4/announcer_8qc.html#a6429db50567f691e555d27cb8a1bdb97',1,'announcer.qc']]],
-  ['announcer_5fpicknumber',['Announcer_PickNumber',['../da/d44/common_2util_8qc.html#a9990eff973efc50c0958217c105b7d39',1,'Announcer_PickNumber(float type, float num):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#a9990eff973efc50c0958217c105b7d39',1,'Announcer_PickNumber(float type, float num):&#160;util.qc']]],
+  ['announcer_5fpicknumber',['Announcer_PickNumber',['../da/d44/common_2util_8qc.html#a5062d9ea9287e1df2afdc9b10b629e26',1,'Announcer_PickNumber(int type, int num):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#aa2bdb327a17cf6393232fd6507e2e7ec',1,'Announcer_PickNumber(float type, float num):&#160;util.qh']]],
   ['announcer_5ftime',['Announcer_Time',['../da/df4/announcer_8qc.html#a208f21df98f913db80920e91f35c10b0',1,'announcer.qc']]],
   ['announceroption',['AnnouncerOption',['../da/df4/announcer_8qc.html#a74359ed785035246489934d025ae3278',1,'AnnouncerOption():&#160;announcer.qc'],['../df/d71/announcer_8qh.html#a74359ed785035246489934d025ae3278',1,'AnnouncerOption():&#160;announcer.qc']]],
   ['anticheat_5fdisplay',['anticheat_display',['../d6/d29/anticheat_8qc.html#aa3505a15bb64d8c6cbdc3ba61759e85a',1,'anticheat.qc']]],

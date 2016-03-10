@@ -14,7 +14,6 @@ var searchData=
   ['charmap_5fh',['CHARMAP_H',['../d0/dad/charmap_8qc.html#a8bb28cc282a8b2aa6a93179b480a5de1',1,'charmap.qc']]],
   ['cheats_5fh',['CHEATS_H',['../d3/dca/cheats_8qh.html#a68d80c56e90bbd71b222670a72143eb5',1,'cheats.qh']]],
   ['check_5fmax_5fcount',['CHECK_MAX_COUNT',['../de/d68/accumulate_8qh.html#a63caa863ede3c6510744c01983e44648',1,'accumulate.qh']]],
-  ['checkarg_5ftypename',['CHECKARG_TYPENAME',['../dd/d55/notifications_8qc.html#aa26c3e0e355defd48a551b263e69788a',1,'notifications.qc']]],
   ['checkbox_5fh',['CHECKBOX_H',['../d5/d6f/xonotic_2checkbox_8qc.html#ad7f91bcacf3404cca57443f19805cadd',1,'checkbox.qc']]],
   ['checkbox_5fslider_5finvalid_5fh',['CHECKBOX_SLIDER_INVALID_H',['../de/dc0/checkbox__slider__invalid_8qc.html#a1b3e6750633b514c1eaf679cfa87aff4',1,'checkbox_slider_invalid.qc']]],
   ['checkbox_5fstring_5fh',['CHECKBOX_STRING_H',['../d9/d60/checkbox__string_8qc.html#a7f64d03ba6180c2aab5d0b974a94a2d6',1,'checkbox_string.qc']]],

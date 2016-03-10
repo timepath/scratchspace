@@ -18,8 +18,5 @@ var searchData=
   ['nix_2eqc',['nix.qc',['../d8/dc5/nix_8qc.html',1,'']]],
   ['nmm_2eqc',['nmm.qc',['../db/d8b/nmm_8qc.html',1,'']]],
   ['noise_2eqh',['noise.qh',['../dd/dc6/noise_8qh.html',1,'']]],
-  ['notifications_2einc',['notifications.inc',['../da/dc3/notifications_8inc.html',1,'']]],
-  ['notifications_2eqc',['notifications.qc',['../dd/d55/notifications_8qc.html',1,'']]],
-  ['notifications_2eqh',['notifications.qh',['../d7/daf/notifications_8qh.html',1,'']]],
   ['notify_2eqc',['notify.qc',['../d4/d48/notify_8qc.html',1,'']]]
 ];

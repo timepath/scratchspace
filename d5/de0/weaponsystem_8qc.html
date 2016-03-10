@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('d5/de0/weaponsystem_8qc.html','../../'
 <code>#include &lt;<a class="el" href="../../d3/d42/animdecide_8qh_source.html">common/animdecide.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d0/d8b/common_2constants_8qh_source.html">common/constants.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d8/d9c/common_2monsters_2all_8qh_source.html">common/monsters/all.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d7/daf/notifications_8qh_source.html">common/notifications.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dc/de5/common_2notifications_2all_8qh_source.html">common/notifications/all.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d5/df2/common_2util_8qh_source.html">common/util.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../de/d81/common_2weapons_2all_8qh_source.html">common/weapons/all.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d3/d64/sv__model_8qh_source.html">lib/csqcmodel/sv_model.qh</a>&gt;</code><br/>
@@ -1879,7 +1879,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00211">211</a> of file <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html">weaponsystem.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00050">ammo</a>, <a class="el" href="../../d0/df5/sound_8qh_source.html#l00030">ATTEN_NORM</a>, <a class="el" href="../../d0/df5/sound_8qh_source.html#l00008">CH_WEAPON_A</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../db/d51/item_8qh_source.html#l00004">IT_UNLIMITED_WEAPON_AMMO</a>, <a class="el" href="../../d7/daf/notifications_8qh_source.html#l00020">MSG_MULTI</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00030">PS()</a>, <a class="el" href="../../d0/df5/sound_8qh_source.html#l00052">sound</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d0/df5/sound_8qh_source.html#l00036">VOL_BASE</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00235">W_SwitchToOtherWeapon()</a>, <a class="el" href="../../de/d81/common_2weapons_2all_8qh_source.html#l00278">WEP_CVAR</a>, and <a class="el" href="../../d7/d61/misc_8qh_source.html#l00040">WITH</a>.</p>
+<p>References <a class="el" href="../../df/d28/sv__turrets_8qh_source.html#l00050">ammo</a>, <a class="el" href="../../d0/df5/sound_8qh_source.html#l00030">ATTEN_NORM</a>, <a class="el" href="../../d0/df5/sound_8qh_source.html#l00008">CH_WEAPON_A</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../db/d51/item_8qh_source.html#l00004">IT_UNLIMITED_WEAPON_AMMO</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00030">PS()</a>, <a class="el" href="../../d0/df5/sound_8qh_source.html#l00052">sound</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d0/df5/sound_8qh_source.html#l00036">VOL_BASE</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00235">W_SwitchToOtherWeapon()</a>, <a class="el" href="../../de/d81/common_2weapons_2all_8qh_source.html#l00278">WEP_CVAR</a>, and <a class="el" href="../../d7/d61/misc_8qh_source.html#l00040">WITH</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00261">weapon_prepareattack_check()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;{</div>
@@ -1913,7 +1913,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            Send_Notification(</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                NOTIF_ONE,</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                actor,</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                <a class="code" href="../../d7/daf/notifications_8qh.html#a665cc796a9bcf5a5736db4ffb417b52a">MSG_MULTI</a>,</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                MSG_MULTI,</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                ITEM_WEAPON_PRIMORSEC,</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                thiswep.m_id,</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                secondary,</div>
@@ -1933,7 +1933,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="sv__turrets_8qh_html_aa710b24bb1d68d903bfc5f631e84446e"><div class="ttname"><a href="../../df/d28/sv__turrets_8qh.html#aa710b24bb1d68d903bfc5f631e84446e">ammo</a></div><div class="ttdeci">float ammo</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/sv__turrets_8qh_source.html#l00050">sv_turrets.qh:50</a></div></div>
 <div class="ttc" id="state_8qh_html_a02ebe47b47f40c32e29c0062de888b7f"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a02ebe47b47f40c32e29c0062de888b7f">PS</a></div><div class="ttdeci">PlayerState PS(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00030">state.qh:30</a></div></div>
 <div class="ttc" id="sound_8qh_html_a5a9982ffb7b93b1b060b87401d4ea8dd"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a5a9982ffb7b93b1b060b87401d4ea8dd">CH_WEAPON_A</a></div><div class="ttdeci">const int CH_WEAPON_A</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00008">sound.qh:8</a></div></div>
-<div class="ttc" id="notifications_8qh_html_a665cc796a9bcf5a5736db4ffb417b52a"><div class="ttname"><a href="../../d7/daf/notifications_8qh.html#a665cc796a9bcf5a5736db4ffb417b52a">MSG_MULTI</a></div><div class="ttdeci">const int MSG_MULTI</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/daf/notifications_8qh_source.html#l00020">notifications.qh:20</a></div></div>
 <div class="ttc" id="sound_8qh_html_a353d870104b3e8ae2a5fc5584279c735"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a353d870104b3e8ae2a5fc5584279c735">VOL_BASE</a></div><div class="ttdeci">const float VOL_BASE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00036">sound.qh:36</a></div></div>
 <div class="ttc" id="sound_8qh_html_ab7d311180e6c1130c970d08fe9b6c638"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#ab7d311180e6c1130c970d08fe9b6c638">ATTEN_NORM</a></div><div class="ttdeci">const float ATTEN_NORM</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00030">sound.qh:30</a></div></div>
 <div class="ttc" id="item_8qh_html_a986394a32b6f3c39af3455f7962fab9b"><div class="ttname"><a href="../../db/d51/item_8qh.html#a986394a32b6f3c39af3455f7962fab9b">IT_UNLIMITED_WEAPON_AMMO</a></div><div class="ttdeci">const int IT_UNLIMITED_WEAPON_AMMO</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d51/item_8qh_source.html#l00004">item.qh:4</a></div></div>
@@ -2486,7 +2485,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d5/de0/weaponsystem_8qc.html">weaponsystem.qc</a></li>
-    <li class="footer">Generated on Thu Mar 10 2016 02:40:45 for Xonotic by
+    <li class="footer">Generated on Thu Mar 10 2016 07:00:05 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,9 +1,5 @@
 var teams_8qh =
 [
-    [ "APP_TEAM_ENT_2", "db/d07/teams_8qh.html#abbf335a952f703f9e9f1f3f1720ad266", null ],
-    [ "APP_TEAM_ENT_4", "db/d07/teams_8qh.html#a52d785970c9a35637f3951549b14e98e", null ],
-    [ "APP_TEAM_NUM_2", "db/d07/teams_8qh.html#aaefda321e749a0cb6a8a975b2a386bd2", null ],
-    [ "APP_TEAM_NUM_4", "db/d07/teams_8qh.html#a523a8311b838c324a24ad21e5216bc29", null ],
     [ "ColorByTeam", "db/d07/teams_8qh.html#a00e243821d8a07b60c8bddb11aeffa2c", null ],
     [ "DIFF_TEAM", "db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b", null ],
     [ "NAME_NEUTRAL", "db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce", null ],

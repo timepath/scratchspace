@@ -1,8 +1,8 @@
 var searchData=
 [
   ['s',['s',['../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c',1,'s():&#160;oo.qh'],['../de/d48/dialog__settings__game_8qc.html#a2016384928a1b557c51ef62964decea5',1,'s():&#160;dialog_settings_game.qc']]],
-  ['s1',['s1',['../da/dc3/notifications_8inc.html#a1bb0888c57b9d23660f876afb696b64f',1,'notifications.inc']]],
-  ['s2',['s2',['../da/dc3/notifications_8inc.html#a0c3e091adeda4f2178165df11bc8225b',1,'notifications.inc']]],
+  ['s1',['s1',['../df/d00/common_2notifications_2all_8inc.html#a1bb0888c57b9d23660f876afb696b64f',1,'all.inc']]],
+  ['s2',['s2',['../df/d00/common_2notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b',1,'all.inc']]],
   ['s_5falt',['S_ALT',['../d3/d05/hud_8qh.html#a4688e688e3649a241a2b522bacda97af',1,'S_ALT():&#160;hud.qh'],['../d0/d41/menu_8qh.html#a4688e688e3649a241a2b522bacda97af',1,'S_ALT():&#160;menu.qh']]],
   ['s_5fctrl',['S_CTRL',['../d3/d05/hud_8qh.html#af05e65b7ed2971dbb3d251e98ea078a2',1,'S_CTRL():&#160;hud.qh'],['../d0/d41/menu_8qh.html#af05e65b7ed2971dbb3d251e98ea078a2',1,'S_CTRL():&#160;menu.qh']]],
   ['s_5fmouse1',['S_MOUSE1',['../dd/dcd/hud__config_8qh.html#a3c145dbe28a71c938406edbc71cd742b',1,'hud_config.qh']]],
@@ -255,8 +255,8 @@ var searchData=
   ['speedaward_5fspeed',['speedaward_speed',['../d4/d1b/race_8qh.html#a5556d6ab44fced2e2f2424cda680514c',1,'race.qh']]],
   ['speedaward_5fuid',['speedaward_uid',['../d4/d1b/race_8qh.html#ae12c1c9683fdacff4f1a7b6eea72f0f4',1,'race.qh']]],
   ['speedrunning',['speedrunning',['../d5/d26/server_2defs_8qh.html#a79500bb643262fa91172549d03b8e076',1,'defs.qh']]],
-  ['spree_5fend',['spree_end',['../da/dc3/notifications_8inc.html#a848f2e1a621427e0bb47e9a8c40771d2',1,'notifications.inc']]],
-  ['spree_5flost',['spree_lost',['../da/dc3/notifications_8inc.html#afde4d2085af58e069ac215eb4e5d5b61',1,'notifications.inc']]],
+  ['spree_5fend',['spree_end',['../df/d00/common_2notifications_2all_8inc.html#a848f2e1a621427e0bb47e9a8c40771d2',1,'all.inc']]],
+  ['spree_5flost',['spree_lost',['../df/d00/common_2notifications_2all_8inc.html#afde4d2085af58e069ac215eb4e5d5b61',1,'all.inc']]],
   ['sprite',['sprite',['../dc/d80/gamemode__domination_8qc.html#a44f2d02591475477365d7f7ec9d55f3c',1,'sprite():&#160;gamemode_domination.qc'],['../d6/d3b/race_8qc.html#a44f2d02591475477365d7f7ec9d55f3c',1,'sprite():&#160;race.qc']]],
   ['spriterule_5fspectator',['SPRITERULE_SPECTATOR',['../d0/d8b/common_2constants_8qh.html#a9fb1df18ea71e49ce5e98c2fc4232adf',1,'constants.qh']]],
   ['spriterule_5fteamplay',['SPRITERULE_TEAMPLAY',['../d0/d8b/common_2constants_8qh.html#af4b738cfb11ab91755d00f44be5b314b',1,'constants.qh']]],

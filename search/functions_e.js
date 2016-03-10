@@ -53,6 +53,5 @@ var searchData=
   ['noise_5fpink',['Noise_Pink',['../dd/dc6/noise_8qh.html#a510e90fc3c538af71b0c6aa91a04335e',1,'noise.qh']]],
   ['noise_5fwhite',['Noise_White',['../dd/dc6/noise_8qh.html#a19ca189f065c9002d1e0695808905ffc',1,'noise.qh']]],
   ['normalize',['normalize',['../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4',1,'menudefs.qc']]],
-  ['notif_5farg_5fspree_5finf',['notif_arg_spree_inf',['../d7/daf/notifications_8qh.html#aca86269ef3485ce384ae8480ce58fd6e',1,'notifications.qh']]],
-  ['notification_5fcheckargs_5ftypename',['Notification_CheckArgs_TypeName',['../dd/d55/notifications_8qc.html#a4a5e50e73506821fac973970c0c04301',1,'notifications.qc']]]
+  ['notif_5farg_5fspree_5finf',['notif_arg_spree_inf',['../dc/de5/common_2notifications_2all_8qh.html#aca86269ef3485ce384ae8480ce58fd6e',1,'all.qh']]]
 ];

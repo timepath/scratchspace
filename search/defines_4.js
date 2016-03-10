@@ -23,7 +23,6 @@ var searchData=
   ['demand',['demand',['../db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37',1,'log.qh']]],
   ['demolist_5fh',['DEMOLIST_H',['../db/d21/demolist_8qc.html#ac543b93eeab00c9c2314977b7fabb858',1,'demolist.qc']]],
   ['deprecate',['deprecate',['../d3/d46/mapinfo_8qc.html#a802a9dfeae2a8991ff7b3dbf754abb66',1,'mapinfo.qc']]],
-  ['destroy_5floop',['DESTROY_LOOP',['../dd/d55/notifications_8qc.html#ab4dead85ecd46774ef4578f9feb47081',1,'notifications.qc']]],
   ['devassert',['devassert',['../db/da0/log_8qh.html#a759f0b81b68be04a0b7b1741e39347d6',1,'log.qh']]],
   ['devassert_5fonce',['devassert_once',['../db/da0/log_8qh.html#ac0728eb9b46661ff2f6b488856396d5c',1,'log.qh']]],
   ['devdemand',['devdemand',['../db/da0/log_8qh.html#a4c4069e1c34df72dc1188667ecedd168',1,'log.qh']]],

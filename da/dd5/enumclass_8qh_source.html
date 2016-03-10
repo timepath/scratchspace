@@ -114,27 +114,33 @@ $(document).ready(function(){initNavTree('da/dd5/enumclass_8qh_source.html','../
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// zero overhead mode, use this for releases</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#define ENUMCLASS(id) typedef int id; enum {</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#define ENUMCLASS(id) typedef int id; enum { CASE(id, Null)</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CASE(class, id) class##_##id,</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ENUMCLASS_END(id) };</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ORDINAL(it) (it)</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ENUMCAST(T, it) (it)</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">// edict overhead mode, use this for type checking</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../da/dd5/enumclass_8qh.html#ac13d792e49df3610c3a5b5d37f98ba4b">   19</a></span>&#160;<span class="preprocessor">#define ENUMCLASS(id) CLASS(id, Object)</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../da/dd5/enumclass_8qh.html#ab9035c4cdfdbaa88cf7ec5cc33a5c6f8">   20</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CASE(class, id) class class##_##id; STATIC_INIT(class##_##id) { class##_##id = NEW(class); }</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../da/dd5/enumclass_8qh.html#a93090b9631c9cca1cb2e94328e2889ed">   21</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ENUMCLASS_END(id) ENDCLASS(id)</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">// edict overhead mode, use this for type checking</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../da/dd5/enumclass_8qh.html#a10f4c592b56e8ae136d22fc7a9cd22f0">   21</a></span>&#160;.int <a class="code" href="../../da/dd5/enumclass_8qh.html#a10f4c592b56e8ae136d22fc7a9cd22f0">enum_ordinal</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../da/dd5/enumclass_8qh.html#ac13d792e49df3610c3a5b5d37f98ba4b">   22</a></span>&#160;<span class="preprocessor">#define ENUMCLASS(id) CLASS(id, Object) int id##_count; const noref entity id##_Null = nil; CASE(id, Null__)</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../da/dd5/enumclass_8qh.html#ab9035c4cdfdbaa88cf7ec5cc33a5c6f8">   23</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CASE(class, id) class class##_##id; STATIC_INIT(class##_##id) { entity e = class##_##id = NEW(class); e.enum_ordinal = class##_count++; }</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../da/dd5/enumclass_8qh.html#a93090b9631c9cca1cb2e94328e2889ed">   24</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ENUMCLASS_END(id) ENDCLASS(id)</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../da/dd5/enumclass_8qh.html#a7339abefe19e4109853567ae9664cf04">   25</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ORDINAL(it) ((it).enum_ordinal)</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="../../da/dd5/enumclass_8qh.html#aff68acbe705eabfb48461c1875991505">   26</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ENUMCAST(T, it) ftoe(etof(T##_Null__) + (it))</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="oo_8qh_html"><div class="ttname"><a href="../../db/d0a/oo_8qh.html">oo.qh</a></div></div>
+<div class="ttc" id="enumclass_8qh_html_a10f4c592b56e8ae136d22fc7a9cd22f0"><div class="ttname"><a href="../../da/dd5/enumclass_8qh.html#a10f4c592b56e8ae136d22fc7a9cd22f0">enum_ordinal</a></div><div class="ttdeci">int enum_ordinal</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dd5/enumclass_8qh_source.html#l00021">enumclass.qh:21</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../da/dd5/enumclass_8qh.html">enumclass.qh</a></li>
-    <li class="footer">Generated on Thu Mar 10 2016 02:40:35 for Xonotic by
+    <li class="footer">Generated on Thu Mar 10 2016 06:59:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

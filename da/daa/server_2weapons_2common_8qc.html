@@ -110,7 +110,7 @@ $(document).ready(function(){initNavTree('da/daa/server_2weapons_2common_8qc.htm
 <code>#include &lt;<a class="el" href="../../de/d75/t__items_8qh_source.html">common/t_items.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d0/d8b/common_2constants_8qh_source.html">common/constants.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../db/dab/common_2deathtypes_2all_8qh_source.html">common/deathtypes/all.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d7/daf/notifications_8qh_source.html">common/notifications.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dc/de5/common_2notifications_2all_8qh_source.html">common/notifications/all.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d5/df2/common_2util_8qh_source.html">common/util.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../de/d81/common_2weapons_2all_8qh_source.html">common/weapons/all.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d0/d3f/common_2items_2all_8qc_source.html">common/items/all.qc</a>&gt;</code><br/>
@@ -266,7 +266,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/daa/server_2weapons_2common_8qc_source.html#l00011">11</a> of file <a class="el" href="../../da/daa/server_2weapons_2common_8qc_source.html">common.qc</a>.</p>
 
-<p>References <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00010">IS_PLAYER</a>, <a class="el" href="../../d7/daf/notifications_8qh_source.html#l00020">MSG_MULTI</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00014">other</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00010">setself</a>, <a class="el" href="../../de/d81/common_2weapons_2all_8qh.html#a1f0a48799ac85436679ce72c5a670052">Weapons_from</a>, and <a class="el" href="../../de/d81/common_2weapons_2all_8qh_source.html#l00040">WepSet_FromWeapon</a>.</p>
+<p>References <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00010">IS_PLAYER</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00014">other</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00010">setself</a>, <a class="el" href="../../de/d81/common_2weapons_2all_8qh.html#a1f0a48799ac85436679ce72c5a670052">Weapons_from</a>, and <a class="el" href="../../de/d81/common_2weapons_2all_8qh_source.html#l00040">WepSet_FromWeapon</a>.</p>
 <div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (!wep)</div>
@@ -277,7 +277,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(e);</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>))</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        { Send_Notification(NOTIF_ONE, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>, <a class="code" href="../../d7/daf/notifications_8qh.html#a665cc796a9bcf5a5736db4ffb417b52a">MSG_MULTI</a>, ITEM_WEAPON_GOT, wep); }</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        { Send_Notification(NOTIF_ONE, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>, MSG_MULTI, ITEM_WEAPON_GOT, wep); }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
@@ -286,7 +286,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
 <div class="ttc" id="self_8qh_html_a2b1765bb8990e0e47100da7778e225d8"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a></div><div class="ttdeci">#define setself(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00010">self.qh:10</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a264ee8f6a0019c50d2049ee7af5c9296"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a></div><div class="ttdeci">entity other</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00014">csprogsdefs.qc:14</a></div></div>
-<div class="ttc" id="notifications_8qh_html_a665cc796a9bcf5a5736db4ffb417b52a"><div class="ttname"><a href="../../d7/daf/notifications_8qh.html#a665cc796a9bcf5a5736db4ffb417b52a">MSG_MULTI</a></div><div class="ttdeci">const int MSG_MULTI</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/daf/notifications_8qh_source.html#l00020">notifications.qh:20</a></div></div>
 <div class="ttc" id="common_2weapons_2all_8qh_html_af64f4486ae6141a10160958a5e9a70b4"><div class="ttname"><a href="../../de/d81/common_2weapons_2all_8qh.html#af64f4486ae6141a10160958a5e9a70b4">WepSet_FromWeapon</a></div><div class="ttdeci">#define WepSet_FromWeapon(it)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d81/common_2weapons_2all_8qh_source.html#l00040">all.qh:40</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -410,7 +409,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../da/daa/server_2weapons_2common_8qc.html">common.qc</a></li>
-    <li class="footer">Generated on Thu Mar 10 2016 02:40:42 for Xonotic by
+    <li class="footer">Generated on Thu Mar 10 2016 07:00:02 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
