@@ -1,8 +1,6 @@
 var mapinfo_8qc =
 [
     [ "deprecate", "d3/d46/mapinfo_8qc.html#a802a9dfeae2a8991ff7b3dbf754abb66", null ],
-    [ "LOG_MAPWARN", "d3/d46/mapinfo_8qc.html#a8658440f8782a0d5aeca350a45c01f9c", null ],
-    [ "LOG_MAPWARNF", "d3/d46/mapinfo_8qc.html#a2318d55b9c518ececddfca61842cd5b8", null ],
     [ "_MapInfo_CheckMap", "d3/d46/mapinfo_8qc.html#a0fe3d66c4b5dfc5f558e735ec8217b84", null ],
     [ "_MapInfo_FilterList_cmp", "d3/d46/mapinfo_8qc.html#a99eaeaa292df03c1333d95546ca3eeb8", null ],
     [ "_MapInfo_FilterList_swap", "d3/d46/mapinfo_8qc.html#a437dc273ae3e0ccf8f7bdc671ed92eec", null ],
@@ -59,6 +57,5 @@ var mapinfo_8qc =
     [ "_MapInfo_globcount", "d3/d46/mapinfo_8qc.html#a2559fdcff9a74917098b62465a9fd3f6", null ],
     [ "_MapInfo_globhandle", "d3/d46/mapinfo_8qc.html#a53227eb055bce2f2d9197dbfd3541c78", null ],
     [ "_MapInfo_globopen", "d3/d46/mapinfo_8qc.html#a0b27177a0f6dc1d8a84867b3ad610a82", null ],
-    [ "_MapInfo_Map_worldspawn_music", "d3/d46/mapinfo_8qc.html#a9bddb69c4bc8833ed7bb18fc8429ec03", null ],
-    [ "autocvar_developer_mapper", "d3/d46/mapinfo_8qc.html#a6d7c823858c610098c2355c7c5e90725", null ]
+    [ "_MapInfo_Map_worldspawn_music", "d3/d46/mapinfo_8qc.html#a9bddb69c4bc8833ed7bb18fc8429ec03", null ]
 ];

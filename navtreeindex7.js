@@ -247,7 +247,7 @@ var NAVTREEINDEX7 =
 "d2/d9b/jumppads_8qc.html#a5f5bb305c622a7ae996e7f7d59139d22":[1,0,1,12,3,12,2],
 "d2/d9b/jumppads_8qc_source.html":[1,0,1,12,3,12],
 "d2/d9e/mapinfo_8qh.html":[1,0,1,30],
-"d2/d9e/mapinfo_8qh.html#a01232a9cbc5fc31c7684df8500eb664e":[1,0,1,30,63],
+"d2/d9e/mapinfo_8qh.html#a01232a9cbc5fc31c7684df8500eb664e":[1,0,1,30,66],
 "d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b":[1,0,1,30,3],
-"d2/d9e/mapinfo_8qh.html#a08443022ec3c3e2ca75a56c47c1e5e9f":[1,0,1,30,72]
+"d2/d9e/mapinfo_8qh.html#a08443022ec3c3e2ca75a56c47c1e5e9f":[1,0,1,30,75]
 };

@@ -24,6 +24,8 @@ var searchData=
   ['interpolateorigin_5fundo',['InterpolateOrigin_Undo',['../d7/d06/interpolate_8qc.html#a899389673f84dccfe9c1c8bc5fc1db25',1,'InterpolateOrigin_Undo(entity this):&#160;interpolate.qc'],['../d8/da6/interpolate_8qh.html#a899389673f84dccfe9c1c8bc5fc1db25',1,'InterpolateOrigin_Undo(entity this):&#160;interpolate.qc']]],
   ['interpretboolean',['InterpretBoolean',['../dd/d54/bool_8qh.html#a6418201b4a27aeb560c78a60191bc9fa',1,'bool.qh']]],
   ['invasion_5finitialize',['invasion_Initialize',['../d5/d1f/gamemode__invasion_8qc.html#a25529cc1c6aba9e850432cf8d26a5e93',1,'gamemode_invasion.qc']]],
+  ['inventory_5fdelete',['Inventory_delete',['../db/d9f/state_8qh.html#a694f7d5c484ae99b40c2163429b7ac21',1,'state.qh']]],
+  ['inventory_5fnew',['Inventory_new',['../db/d9f/state_8qh.html#aa1a946175f717b382d97902b506dd23b',1,'state.qh']]],
   ['invertlengthlog',['invertLengthLog',['../da/d44/common_2util_8qc.html#a0b0062f12f6d7a2cc80665922d81383b',1,'util.qc']]],
   ['invite_5fminigame',['invite_minigame',['../d7/d33/sv__minigames_8qc.html#ad8020a414daf2b7cd018d5e8bc4f5e6e',1,'invite_minigame(entity inviter, entity player):&#160;sv_minigames.qc'],['../d3/df9/sv__minigames_8qh.html#ad8020a414daf2b7cd018d5e8bc4f5e6e',1,'invite_minigame(entity inviter, entity player):&#160;sv_minigames.qc']]],
   ['iscachedpic',['iscachedpic',['../d8/de2/menudefs_8qc.html#ae9c9c30a164bbec572a8731e49ee6059',1,'menudefs.qc']]],

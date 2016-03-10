@@ -6,7 +6,6 @@ var cheats_8qh =
     [ "CheatImpulse", "d3/dca/cheats_8qh.html#aacea9518ce703b1172d78adb96a08f55", null ],
     [ "CheatInit", "d3/dca/cheats_8qh.html#a2a937c6b018ccfb5185e8d5af1415472", null ],
     [ "CheatShutdown", "d3/dca/cheats_8qh.html#a04ede6834b82bb3efbfcd4961fbc6f54", null ],
-    [ "CheatShutdownClient", "d3/dca/cheats_8qh.html#a8cfe751862d7198cd71f8ba11cf343cb", null ],
     [ "Drag_MoveDrag", "d3/dca/cheats_8qh.html#a36bf96c940a3b6132607309cb458fb50", null ],
     [ "cheatcount", "d3/dca/cheats_8qh.html#a185217a3fecaeb55c9f9f0dda572b4aa", null ],
     [ "cheatcount_total", "d3/dca/cheats_8qh.html#a0bb834c275268bdf1e60ea2ec84732a5", null ],

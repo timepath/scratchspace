@@ -1,6 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"d4/d2b/scoreboard_8qh.html#acba8a7468e53f4ea09069c1ff1c98ccb":[1,0,0,25,6],
 "d4/d2b/scoreboard_8qh.html#acee1a082369857c7ee64924a0d9bc706":[1,0,0,25,12],
 "d4/d2b/scoreboard_8qh.html#ad1a4e66a7b71199f94d1b200506f4168":[1,0,0,25,0],
 "d4/d2b/scoreboard_8qh.html#afa6a91cdc1d904ebfc156a4f73e131e8":[1,0,0,25,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX18 =
 "d4/d90/skin-customizables_8inc.html#a80d67914c2e76a3c99f5f47af84fbc33":[1,0,4,15,91],
 "d4/d90/skin-customizables_8inc.html#a81270a3f33043b0a0a7ee00cf374269d":[1,0,4,15,82],
 "d4/d90/skin-customizables_8inc.html#a83eedefc401fd7176bd8cd5ee3b0f9ad":[1,0,4,15,124],
-"d4/d90/skin-customizables_8inc.html#a875bfd0a0215ab0207c2fc38e92ea3ca":[1,0,4,15,148]
+"d4/d90/skin-customizables_8inc.html#a875bfd0a0215ab0207c2fc38e92ea3ca":[1,0,4,15,148],
+"d4/d90/skin-customizables_8inc.html#a88983afbcda29466acbc4fd7cfc945b7":[1,0,4,15,31]
 };

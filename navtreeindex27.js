@@ -1,7 +1,5 @@
 var NAVTREEINDEX27 =
 {
-"d6/d57/weaponstats_8qc_source.html":[1,0,5,4,16],
-"d6/d60/common_2turrets_2util_8qh.html":[1,0,1,13,13],
 "d6/d60/common_2turrets_2util_8qh.html#a1887814f18af2259bf4a563c9ce69565":[1,0,1,13,13,3],
 "d6/d60/common_2turrets_2util_8qh.html#a200ba178c52cc153c9efce4b81ebc62d":[1,0,1,13,13,5],
 "d6/d60/common_2turrets_2util_8qh.html#a520b5ef01deabe77ef3b0376e65875df":[1,0,1,13,13,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX27 =
 "d6/d9c/door_8qc.html":[1,0,1,12,0,5],
 "d6/d9c/door_8qc.html#a043dcedfce52d0714cc2edfb8d53dd48":[1,0,1,12,0,5,5],
 "d6/d9c/door_8qc.html#a1d845b5aaadd465bf35c2851f9e7d00a":[1,0,1,12,0,5,9],
-"d6/d9c/door_8qc.html#a329423155bfc216e2fc9cc2e5560d60f":[1,0,1,12,0,5,16]
+"d6/d9c/door_8qc.html#a329423155bfc216e2fc9cc2e5560d60f":[1,0,1,12,0,5,16],
+"d6/d9c/door_8qc.html#a33e21cc276ad3afb409db711cf137914":[1,0,1,12,0,5,15],
+"d6/d9c/door_8qc.html#a442c07929af7af860cd6e92fb41b1ed3":[1,0,1,12,0,5,1]
 };

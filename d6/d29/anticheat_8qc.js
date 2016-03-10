@@ -8,7 +8,6 @@ var anticheat_8qc =
     [ "anticheat_physics", "d6/d29/anticheat_8qc.html#ab77a6f0f9b4de4381e9c1c2e79226f07", null ],
     [ "anticheat_prethink", "d6/d29/anticheat_8qc.html#a37b3b519445fa25107257efa3e576118", null ],
     [ "anticheat_report", "d6/d29/anticheat_8qc.html#aa6f21c29d0880833830be8c6fda293e1", null ],
-    [ "anticheat_shutdown", "d6/d29/anticheat_8qc.html#aa9805195a3e457351be9390dbb27f6d8", null ],
     [ "anticheat_spectatecopy", "d6/d29/anticheat_8qc.html#a7a39373a865c73a51e4f1c0768c0f68c", null ],
     [ "anticheat_startframe", "d6/d29/anticheat_8qc.html#a9993370ad69e2211b3046e5d1261bae0", null ],
     [ "MEAN_DECLARE", "d6/d29/anticheat_8qc.html#a0646501aa307fe08a9e888164181c1c9", null ],
