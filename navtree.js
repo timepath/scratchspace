@@ -74,19 +74,19 @@ var NAVTREEINDEX =
 "dc/d03/keycodes_8qc.html#ac07158f67f8572f2587b53b43db6a79f",
 "dc/d3d/csqcmodel__hooks_8qc.html#ab473803a0773142ae861faea6bd995e3",
 "dc/d76/spiderbot_8qc.html#a4ed523c7dd3ce374cd0be420899e8f8f",
-"dc/dc6/server_2miscfunctions_8qc.html#a8a8585c86235a416016c668911294b89",
-"dd/d43/cl__turrets_8qc.html#ab45736fb36b0b5641315be92b9747beb",
-"dd/d70/pathlib_8qh_source.html",
-"dd/de4/g__damage_8qh.html#a8203a172d47f7017f4e4be49ed0cddb8",
-"de/d3d/cl__minigames_8qh.html#ac2cd35412f7acb8a32e8fdfb670b7558",
-"de/d5e/dpextensions_8qc.html#a57633f12796e2ea258a1d27ae355adac",
-"de/d64/common_2impulses_2all_8qh.html",
-"de/d9b/steerlib_8qc.html#abb0841ac5ef8710b7ad886b006a25107",
-"df/d13/anglestransform_8qc.html#ab60788299d5604752e91c6e191a8af9f",
-"df/d4c/server_2pathlib_2main_8qc_source.html",
-"df/d9b/menu_2xonotic_2util_8qc.html#ab299c36738ab44965d57a68db9ac255e",
-"df/dc2/menu_8qc.html#ad6f3a3210c1438bce1d44ad7723fda82",
-"globals_defs_c.html"
+"dc/dc6/server_2miscfunctions_8qc.html#a5ea7bf591f44cf22ed52a48b1aa4f012",
+"dd/d31/engineinfo_8qc.html#aa28d10af907276566641e95e7853122a",
+"dd/d70/pathlib_8qh.html#ad9fa3bd25096c5dd8b73c8a7a25ae89b",
+"dd/de4/g__damage_8qh.html#a377b547a7053468290f13dffb6342b89",
+"de/d3d/cl__minigames_8qh.html#a4b86f86d9415fc9059ee3b2c0b977172",
+"de/d5e/dpextensions_8qc.html#a4d36bbde6c78ea09441e7d499baa1022",
+"de/d64/animation_8qc.html#a22fc76365c03beef2ae9c4dc37d41f33",
+"de/d9b/steerlib_8qc.html#a0d43b60b0c297167b1277c8237474c07",
+"df/d07/cl__generator_8qc.html#afc31ff14aad2253b9fe8ce7091cab781",
+"df/d4c/server_2pathlib_2main_8qc.html#a1967ff2f3a64bdc15af8370dac37c9c4",
+"df/d9b/menu_2xonotic_2util_8qc.html#a8b9db99b866e3e51444533334ab63eb3",
+"df/dc2/menu_8qc.html#a96321e4c0f85b2a1c6745a1a7da423d0",
+"dir_fa6bab312750b9471bc957ec38c4d399.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
