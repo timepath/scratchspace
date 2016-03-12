@@ -22,6 +22,7 @@ var movetypes_8qc =
     [ "Movetype_Physics_MatchTicrate", "d2/db1/movetypes_8qc.html#a3a364c3e846cd4c30141d749061c8086", null ],
     [ "Movetype_Physics_NoMatchServer", "d2/db1/movetypes_8qc.html#abc94399163b20fbffafbcdaeda0f8db5", null ],
     [ "void", "d2/db1/movetypes_8qc.html#ab02f268b6773e429b35626cdb4ce0dff", null ],
+    [ "_Movetype_TestEntityPosition_ent", "d2/db1/movetypes_8qc.html#a09c05b5e60959b3da148eb20ca3bf3ba", null ],
     [ "ltime", "d2/db1/movetypes_8qc.html#af4e305a34cfe09004c87a91e2461330c", null ],
     [ "planes", "d2/db1/movetypes_8qc.html#a6044b8f4b841a8ebeeb91a2653290b70", null ]
 ];

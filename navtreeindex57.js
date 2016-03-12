@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"dd/d59/modicons_8qc.html#abbc271ee072031f5b5ca808991e63505":[1,0,0,1,0,7,29],
 "dd/d59/modicons_8qc.html#abee838c54bc89fc9d2324b5932f73b39":[1,0,0,1,0,7,37],
 "dd/d59/modicons_8qc.html#ac83b4a0f58175b55bde8c7417d978068":[1,0,0,1,0,7,1],
 "dd/d59/modicons_8qc.html#ace90a15fbade62e1be60b9ebca24648e":[1,0,0,1,0,7,11],
@@ -194,9 +195,9 @@ var NAVTREEINDEX57 =
 "dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802":[1,0,1,2,6,5],
 "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862":[1,0,1,2,6,0],
 "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840":[1,0,1,2,6,3],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[1,0,1,2,6,6],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[1,0,1,2,6,8],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[1,0,1,2,6,7],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[1,0,1,2,6,6],
 "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6":[1,0,1,2,6,12],
 "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e":[1,0,1,2,6,14],
 "dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b":[1,0,1,2,6,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "dd/d94/dialog__multiplayer__join_8qc_source.html":[1,0,4,4,46],
 "dd/d96/server_2progs_8inc.html":[1,0,5,45],
 "dd/d96/server_2progs_8inc_source.html":[1,0,5,45],
-"dd/da1/dialog__settings__game__hud_8qc.html":[1,0,4,4,63],
-"dd/da1/dialog__settings__game__hud_8qc.html#a1e7be07011c958d4a8c87a8770c26f8f":[1,0,4,4,63,3]
+"dd/da1/dialog__settings__game__hud_8qc.html":[1,0,4,4,63]
 };
