@@ -189,7 +189,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/d6b/selection_8qh_source.html#l00013">13</a> of file <a class="el" href="../../d8/d6b/selection_8qh_source.html">selection.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00411">GetCvars()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00031">GiveFrags()</a>, <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00201">IMPULSE()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00391">PutClientInServer()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00235">W_SwitchToOtherWeapon()</a>, <a class="el" href="../../df/d64/throwing_8qc_source.html#l00167">W_ThrowWeapon()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00416">W_WeaponFrame()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00411">GetCvars()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00031">GiveFrags()</a>, <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00237">IMPULSE()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00391">PutClientInServer()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00235">W_SwitchToOtherWeapon()</a>, <a class="el" href="../../df/d64/throwing_8qc_source.html#l00167">W_ThrowWeapon()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00416">W_WeaponFrame()</a>.</p>
 
 </div>
 </div>
@@ -690,7 +690,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d2/d62/selection_8qc_source.html#l00042">client_hasweapon()</a>, <a class="el" href="../../d1/d93/pp_8qc_source.html#l00020">cnt</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00235">W_SwitchToOtherWeapon()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00254">W_SwitchWeapon()</a>, and <a class="el" href="../../de/d81/common_2weapons_2all_8qh.html#a1f0a48799ac85436679ce72c5a670052">Weapons_from</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00194">IMPULSE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00230">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;{</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    Weapon wep = <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1f0a48799ac85436679ce72c5a670052">Weapons_from</a>(this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>);</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d2/d62/selection_8qc.html#a6094bcb757a9c56ae5a7b5508a880154">client_hasweapon</a>(<span class="keyword">this</span>, wep, <span class="keyword">true</span>, <span class="keyword">false</span>))</div>
@@ -744,7 +744,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00193">cvar_cl_weaponpriority</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00270">W_CycleWeapon()</a>, <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00192">weaponorder_byid</a>, and <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00113">weaponorder_byimpulse</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00166">IMPULSE()</a>, and <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00114">X()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00186">IMPULSE()</a>, and <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00122">X()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordflow">if</span>(list == 0)</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        <a class="code" href="../../d2/d62/selection_8qc.html#a35da9cb67ad9ec02ee74268ce3f97ae9">W_CycleWeapon</a>(<a class="code" href="../../dc/d1c/weapon_8qh.html#a33a5fa56c7d71ec499a00d0ed547de24">weaponorder_byid</a>, -1);</div>
@@ -841,7 +841,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00193">cvar_cl_weaponpriority</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00270">W_CycleWeapon()</a>, <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00192">weaponorder_byid</a>, and <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00113">weaponorder_byimpulse</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00159">IMPULSE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00175">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    <span class="keywordflow">if</span>(list == 0)</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        <a class="code" href="../../d2/d62/selection_8qc.html#a35da9cb67ad9ec02ee74268ce3f97ae9">W_CycleWeapon</a>(<a class="code" href="../../dc/d1c/weapon_8qh.html#a33a5fa56c7d71ec499a00d0ed547de24">weaponorder_byid</a>, +1);</div>
@@ -960,7 +960,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d2/d62/selection_8qc_source.html#l00042">client_hasweapon()</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00404">forbidWeaponUse()</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00030">PS()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00227">W_SwitchWeapon_Force()</a>, and <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00007">weaponentities</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00201">IMPULSE()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00270">W_CycleWeapon()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00309">W_LastWeapon()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00278">W_NextWeaponOnImpulse()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00416">W_WeaponFrame()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00237">IMPULSE()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00270">W_CycleWeapon()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00309">W_LastWeapon()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00278">W_NextWeaponOnImpulse()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00416">W_WeaponFrame()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d9f/state_8qh.html#a02ebe47b47f40c32e29c0062de888b7f">PS</a>(<span class="keyword">self</span>).m_switchweapon != w)</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    {</div>
@@ -1098,7 +1098,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d8/d6b/selection_8qh.html">selection.qh</a></li>
-    <li class="footer">Generated on Sat Mar 12 2016 00:50:38 for Xonotic by
+    <li class="footer">Generated on Sat Mar 12 2016 06:09:51 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
