@@ -13,7 +13,6 @@ var movetypes_8qh =
     [ "_Movetype_LinkEdict_TouchAreaGrid", "d4/dd7/movetypes_8qh.html#a9eab855e43664a019197c6c63e17698b", null ],
     [ "_Movetype_PushEntity", "d4/dd7/movetypes_8qh.html#a9052cba181c72b3b3e3d49edfd6356f3", null ],
     [ "_Movetype_PushEntityTrace", "d4/dd7/movetypes_8qh.html#a2ad725bc81de4f1ffff07adfb63a64c1", null ],
-    [ "_Movetype_TestEntityPosition", "d4/dd7/movetypes_8qh.html#a373f398bea2a7c07cc57c3ed1449c2fa", null ],
     [ "_Movetype_UnstickEntity", "d4/dd7/movetypes_8qh.html#a251727549d9304470e0bc547573eabcf", null ],
     [ "_Movetype_WallFriction", "d4/dd7/movetypes_8qh.html#ad797154b1325fa6f3b8aa5d2224d77b5", null ],
     [ "makevectors_matrix", "d4/dd7/movetypes_8qh.html#a74536ef04cdbfb276b0f4e5acb617e96", null ],

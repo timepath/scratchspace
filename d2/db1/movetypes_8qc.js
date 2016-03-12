@@ -1,5 +1,7 @@
 var movetypes_8qc =
 [
+    [ "X", "d2/db1/movetypes_8qc.html#a4d9aed2230dec24015d4998217dcaf3e", null ],
+    [ "X", "d2/db1/movetypes_8qc.html#a3c23c2da17712d95e32cd500f6e10216", null ],
     [ "_Movetype_CheckVelocity", "d2/db1/movetypes_8qc.html#a339edb79ca2ee708f1d39819496794bf", null ],
     [ "_Movetype_CheckWater", "d2/db1/movetypes_8qc.html#a14cb5c9b8cf5efc10f5e55f9ae63b556", null ],
     [ "_Movetype_CheckWaterTransition", "d2/db1/movetypes_8qc.html#aa9a451c248f6edd8b206c427c6c9eea5", null ],
@@ -12,8 +14,8 @@ var movetypes_8qc =
     [ "_Movetype_Physics_Frame", "d2/db1/movetypes_8qc.html#a8ce6e27c196235e413e903d20b2ac126", null ],
     [ "_Movetype_PushEntity", "d2/db1/movetypes_8qc.html#a87faffe8e9d50ad4b76370c75e8dc91b", null ],
     [ "_Movetype_PushEntityTrace", "d2/db1/movetypes_8qc.html#a2ad725bc81de4f1ffff07adfb63a64c1", null ],
-    [ "_Movetype_TestEntityPosition", "d2/db1/movetypes_8qc.html#aa0defbdd96e3d66c581ceaa88b542f3a", null ],
-    [ "_Movetype_UnstickEntity", "d2/db1/movetypes_8qc.html#a251727549d9304470e0bc547573eabcf", null ],
+    [ "_Movetype_TestEntityPosition", "d2/db1/movetypes_8qc.html#a3863efa2a85eff29702da92d456dcacb", null ],
+    [ "_Movetype_UnstickEntity", "d2/db1/movetypes_8qc.html#ab024873d80d2f0654e96629b7b47fd6a", null ],
     [ "_Movetype_WallFriction", "d2/db1/movetypes_8qc.html#ad797154b1325fa6f3b8aa5d2224d77b5", null ],
     [ "makevectors_matrix", "d2/db1/movetypes_8qc.html#a74536ef04cdbfb276b0f4e5acb617e96", null ],
     [ "Movetype_Physics_MatchServer", "d2/db1/movetypes_8qc.html#a0c3c32b8e67737d63dbf704612d6b22c", null ],

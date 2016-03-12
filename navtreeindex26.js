@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"d6/d19/item_2textslider_8qc.html#aea522063b59cfb7ba08ad0efe4019b01":[1,0,4,2,15,4],
 "d6/d19/item_2textslider_8qc.html#aeb1b2bae8b0f3243d245570068bb0dea":[1,0,4,2,15,6],
 "d6/d19/item_2textslider_8qc_source.html":[1,0,4,2,15],
 "d6/d1c/weapons_2config_8qc.html":[1,0,1,16,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "d6/d3b/race_8qc.html#ad90d8836aa743a1c7d24b4e5cfa67017":[1,0,5,46,27],
 "d6/d3b/race_8qc.html#adde3148534e8ffc72f956ef1031467ab":[1,0,5,46,22],
 "d6/d3b/race_8qc.html#adf4817ff0cc4409c96bb878e7e33fb3d":[1,0,5,46,50],
-"d6/d3b/race_8qc.html#ae05ef2b5b27ff3e99decabbc4410e718":[1,0,5,46,20],
-"d6/d3b/race_8qc.html#ae0c5dbe57d8a837df10255bee683ff10":[1,0,5,46,6]
+"d6/d3b/race_8qc.html#ae05ef2b5b27ff3e99decabbc4410e718":[1,0,5,46,20]
 };

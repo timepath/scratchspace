@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"dd/d59/modicons_8qc.html#abee838c54bc89fc9d2324b5932f73b39":[1,0,0,1,0,7,37],
 "dd/d59/modicons_8qc.html#ac83b4a0f58175b55bde8c7417d978068":[1,0,0,1,0,7,1],
 "dd/d59/modicons_8qc.html#ace90a15fbade62e1be60b9ebca24648e":[1,0,0,1,0,7,11],
 "dd/d59/modicons_8qc.html#ad1d000d7f62640740c47ca71ff44ba95":[1,0,0,1,0,7,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "dd/d96/server_2progs_8inc.html":[1,0,5,45],
 "dd/d96/server_2progs_8inc_source.html":[1,0,5,45],
 "dd/da1/dialog__settings__game__hud_8qc.html":[1,0,4,4,63],
-"dd/da1/dialog__settings__game__hud_8qc.html#a1e7be07011c958d4a8c87a8770c26f8f":[1,0,4,4,63,3],
-"dd/da1/dialog__settings__game__hud_8qc.html#a2b7967e17d4cfccff3c1f979de1d2515":[1,0,4,4,63,5]
+"dd/da1/dialog__settings__game__hud_8qc.html#a1e7be07011c958d4a8c87a8770c26f8f":[1,0,4,4,63,3]
 };
