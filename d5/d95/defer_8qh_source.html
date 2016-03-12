@@ -141,15 +141,14 @@ $(document).ready(function(){initNavTree('d5/d95/defer_8qh_source.html','../../'
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../d5/d95/defer_8qh.html#a497289349b3a92c7eae205704de5577c">   38</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d5/d95/defer_8qh.html#a497289349b3a92c7eae205704de5577c">defer</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>, <span class="keywordtype">float</span> fdelay, <span class="keywordtype">void</span>() func)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e    = <span class="keyword">new</span>(deferred);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a>(e);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        e.owner     = <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        e.use       = func;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        e.think     = <a class="code" href="../../d5/d95/defer_8qh.html#a839ea0b7dbc456a08b83b1186293f113">defer_think</a>;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        e.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + fdelay;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e    = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(deferred);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        e.owner     = <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        e.use       = func;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        e.think     = <a class="code" href="../../d5/d95/defer_8qh.html#a839ea0b7dbc456a08b83b1186293f113">defer_think</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        e.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + fdelay;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
 <div class="ttc" id="defer_8qh_html_a839ea0b7dbc456a08b83b1186293f113"><div class="ttname"><a href="../../d5/d95/defer_8qh.html#a839ea0b7dbc456a08b83b1186293f113">defer_think</a></div><div class="ttdeci">void defer_think()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d95/defer_8qh_source.html#l00026">defer.qh:26</a></div></div>
 <div class="ttc" id="defer_8qh_html_a497289349b3a92c7eae205704de5577c"><div class="ttname"><a href="../../d5/d95/defer_8qh.html#a497289349b3a92c7eae205704de5577c">defer</a></div><div class="ttdeci">void defer(entity this, float fdelay, void() func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d95/defer_8qh_source.html#l00038">defer.qh:38</a></div></div>
@@ -157,10 +156,10 @@ $(document).ready(function(){initNavTree('d5/d95/defer_8qh_source.html','../../'
 <div class="ttc" id="oo_8qh_html"><div class="ttname"><a href="../../db/d0a/oo_8qh.html">oo.qh</a></div></div>
 <div class="ttc" id="defer_8qh_html_af50fbe8de340daf35a3d631f7a5b1d03"><div class="ttname"><a href="../../d5/d95/defer_8qh.html#af50fbe8de340daf35a3d631f7a5b1d03">SUB_Remove_self</a></div><div class="ttdeci">void SUB_Remove_self()</div><div class="ttdoc">Remove self. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d95/defer_8qh_source.html#l00020">defer.qh:20</a></div></div>
 <div class="ttc" id="self_8qh_html"><div class="ttname"><a href="../../d3/dd0/self_8qh.html">self.qh</a></div></div>
-<div class="ttc" id="oo_8qh_html_a38b2e3be8bac16c7e501868868a5a2ff"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a></div><div class="ttdeci">#define make_pure(e)</div><div class="ttdoc">deprecated, use new_pure or NEW(class) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00016">oo.qh:16</a></div></div>
 <div class="ttc" id="defer_8qh_html_ac20778e47d8ed77ee9078abfb1ef0585"><div class="ttname"><a href="../../d5/d95/defer_8qh.html#ac20778e47d8ed77ee9078abfb1ef0585">entityclass</a></div><div class="ttdeci">entityclass(Defer)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9d4fb8ccfb13fa0bd762af0b2b50dcf6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a></div><div class="ttdeci">float nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">csprogsdefs.qc:121</a></div></div>
 <div class="ttc" id="misc_8qh_html_ae1f2076e3a804bc1a783b66b9621a3ee"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">WITH</a></div><div class="ttdeci">#define WITH(type, name, value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00040">misc.qh:40</a></div></div>
+<div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00077">oo.qh:77</a></div></div>
 <div class="ttc" id="defer_8qh_html_a82f1a723df145b0f0f7a8511a2a78a41"><div class="ttname"><a href="../../d5/d95/defer_8qh.html#a82f1a723df145b0f0f7a8511a2a78a41">SUB_Remove</a></div><div class="ttdeci">void SUB_Remove(entity this)</div><div class="ttdoc">Remove self. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d95/defer_8qh_source.html#l00014">defer.qh:14</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
@@ -170,7 +169,7 @@ $(document).ready(function(){initNavTree('d5/d95/defer_8qh_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d5/d95/defer_8qh.html">defer.qh</a></li>
-    <li class="footer">Generated on Sat Mar 12 2016 06:38:13 for Xonotic by
+    <li class="footer">Generated on Sat Mar 12 2016 10:51:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

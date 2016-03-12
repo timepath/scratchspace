@@ -112,7 +112,6 @@ var searchData=
   ['gamecommand_5fdelrec',['GameCommand_delrec',['../d3/df2/sv__cmd_8qc.html#a8ed499dcdffd10f26ded30362cab0886',1,'sv_cmd.qc']]],
   ['gamecommand_5feffectindexdump',['GameCommand_effectindexdump',['../d3/df2/sv__cmd_8qc.html#a380e02b3b1a9927c70bb401d960cb2c4',1,'sv_cmd.qc']]],
   ['gamecommand_5fextendmatchtime',['GameCommand_extendmatchtime',['../d3/df2/sv__cmd_8qc.html#ac67a2222572c5a11627958dc46b17a7c',1,'sv_cmd.qc']]],
-  ['gamecommand_5ffind',['GameCommand_find',['../d3/df2/sv__cmd_8qc.html#a6b330838af34ba4035b013238dc4269c',1,'sv_cmd.qc']]],
   ['gamecommand_5fgametype',['GameCommand_gametype',['../d3/df2/sv__cmd_8qc.html#ad4078d87842792033e4239a247ab8679',1,'sv_cmd.qc']]],
   ['gamecommand_5fgettaginfo',['GameCommand_gettaginfo',['../d3/df2/sv__cmd_8qc.html#adf77373f9e0feb095606354bed974bd3',1,'sv_cmd.qc']]],
   ['gamecommand_5fgotomap',['GameCommand_gotomap',['../d3/df2/sv__cmd_8qc.html#ad2ffdcee1efaf21c7bcb725df8f443c7',1,'sv_cmd.qc']]],

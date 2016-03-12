@@ -151,14 +151,13 @@ $(document).ready(function(){initNavTree('d3/df9/sv__minigames_8qh_source.html',
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">    REGISTER(Minigames, MINIGAME_##name, m_id, new_pure(minigame_descriptor)); \</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">    int name##_server_event(entity, string, ...); \</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">    REGISTER_INIT_POST(MINIGAME_##name) { \</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">        make_pure(this); \</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">        this.netname = strzone(strtolower(#name)); \</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">        this.message = nicename; \</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">        this.minigame_event = name##_server_event; \</span></div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">    } \</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">    REGISTER_INIT(MINIGAME_##name)</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">        this.netname = strzone(strtolower(#name)); \</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">        this.message = nicename; \</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">        this.minigame_event = name##_server_event; \</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">    } \</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">    REGISTER_INIT(MINIGAME_##name)</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="sv__minigames_8qh_html_ad084a4080880ef2c8ee32a69dfdf8ae2"><div class="ttname"><a href="../../d3/df9/sv__minigames_8qh.html#ad084a4080880ef2c8ee32a69dfdf8ae2">start_minigame</a></div><div class="ttdeci">entity start_minigame(entity player, string minigame)</div><div class="ttdoc">Create a new minigame session. </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d33/sv__minigames_8qc_source.html#l00163">sv_minigames.qc:163</a></div></div>
 <div class="ttc" id="sv__minigames_8qh_html_acb2406997daa091bb87820c1e2a84ecf"><div class="ttname"><a href="../../d3/df9/sv__minigames_8qh.html#acb2406997daa091bb87820c1e2a84ecf">ClientCommand_minigame</a></div><div class="ttdeci">void ClientCommand_minigame(int request, int argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d33/sv__minigames_8qc_source.html#l00306">sv_minigames.qc:306</a></div></div>
 <div class="ttc" id="sv__minigames_8qh_html_abacc26686b4b0b5402dc406a0830a890"><div class="ttname"><a href="../../d3/df9/sv__minigames_8qh.html#abacc26686b4b0b5402dc406a0830a890">part_minigame</a></div><div class="ttdeci">void part_minigame(entity player)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d33/sv__minigames_8qc_source.html#l00215">sv_minigames.qc:215</a></div></div>
@@ -184,7 +183,7 @@ $(document).ready(function(){initNavTree('d3/df9/sv__minigames_8qh_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../d3/df9/sv__minigames_8qh.html">sv_minigames.qh</a></li>
-    <li class="footer">Generated on Sat Mar 12 2016 06:38:11 for Xonotic by
+    <li class="footer">Generated on Sat Mar 12 2016 10:51:24 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

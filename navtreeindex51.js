@@ -1,7 +1,5 @@
 var NAVTREEINDEX51 =
 {
-"db/da0/log_8qh.html#a8349e582c541a544b3eb5cfab6235dba":[1,0,3,22,25],
-"db/da0/log_8qh.html#a89cecd05aeaafc715ebc091cf74d10fe":[1,0,3,22,21],
 "db/da0/log_8qh.html#a8d782ca78c0d8d5edc5f0f03086528f1":[1,0,3,22,34],
 "db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0":[1,0,3,22,9],
 "db/da0/log_8qh.html#ab4d8a0056ca3db0691ad1d55cbd76fe0":[1,0,3,22,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX51 =
 "dc/d01/mutators_2mutator_2bugrigs_2module_8inc_source.html":[1,0,1,9,0,3,1],
 "dc/d03/keycodes_8qc.html":[1,0,2,0,2],
 "dc/d03/keycodes_8qc.html#a027e9c0de731416e34884a49eca64234":[1,0,2,0,2,51],
-"dc/d03/keycodes_8qc.html#a0640503a8c2633aed62382144e25a5ca":[1,0,2,0,2,68]
+"dc/d03/keycodes_8qc.html#a0640503a8c2633aed62382144e25a5ca":[1,0,2,0,2,68],
+"dc/d03/keycodes_8qc.html#a0a5a009d435c5c45d1996726213e86ec":[1,0,2,0,2,92],
+"dc/d03/keycodes_8qc.html#a0d83bb6a5eb3be13b47f4bba5c30429c":[1,0,2,0,2,112]
 };

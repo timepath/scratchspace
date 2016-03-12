@@ -1783,98 +1783,97 @@ $(document).ready(function(){initNavTree('d4/df2/common_2notifications_2all_8qc_
 <div class="line"><a name="l01681"></a><span class="lineno"> 1681</span>&#160;    }</div>
 <div class="line"><a name="l01682"></a><span class="lineno"> 1682</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l01683"></a><span class="lineno"> 1683</span>&#160;    {</div>
-<div class="line"><a name="l01684"></a><span class="lineno"> 1684</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> net_notif = <span class="keyword">new</span>(net_notification);</div>
-<div class="line"><a name="l01685"></a><span class="lineno"> 1685</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a>(net_notif);</div>
-<div class="line"><a name="l01686"></a><span class="lineno"> 1686</span>&#160;        net_notif.owner = notif;</div>
-<div class="line"><a name="l01687"></a><span class="lineno"> 1687</span>&#160;        net_notif.nent_broadcast = broadcast;</div>
-<div class="line"><a name="l01688"></a><span class="lineno"> 1688</span>&#160;        net_notif.nent_client = client;</div>
-<div class="line"><a name="l01689"></a><span class="lineno"> 1689</span>&#160;        net_notif.nent_net_type = net_type;</div>
-<div class="line"><a name="l01690"></a><span class="lineno"> 1690</span>&#160;        net_notif.nent_net_name = notif.m_id;</div>
-<div class="line"><a name="l01691"></a><span class="lineno"> 1691</span>&#160;        net_notif.nent_stringcount = notif.nent_stringcount;</div>
-<div class="line"><a name="l01692"></a><span class="lineno"> 1692</span>&#160;        net_notif.nent_floatcount = notif.nent_floatcount;</div>
-<div class="line"><a name="l01693"></a><span class="lineno"> 1693</span>&#160;</div>
-<div class="line"><a name="l01694"></a><span class="lineno"> 1694</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; net_notif.nent_stringcount; ++i) {</div>
-<div class="line"><a name="l01695"></a><span class="lineno"> 1695</span>&#160;            net_notif.nent_strings[i] = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(...(i, <span class="keywordtype">string</span>));</div>
-<div class="line"><a name="l01696"></a><span class="lineno"> 1696</span>&#160;        }</div>
-<div class="line"><a name="l01697"></a><span class="lineno"> 1697</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; net_notif.nent_floatcount; ++i) {</div>
-<div class="line"><a name="l01698"></a><span class="lineno"> 1698</span>&#160;            net_notif.nent_floats[i] = ...((net_notif.nent_stringcount + i), <span class="keywordtype">float</span>);</div>
-<div class="line"><a name="l01699"></a><span class="lineno"> 1699</span>&#160;        }</div>
-<div class="line"><a name="l01700"></a><span class="lineno"> 1700</span>&#160;</div>
-<div class="line"><a name="l01701"></a><span class="lineno"> 1701</span>&#160;        net_notif.think = Net_Notification_Remove;</div>
-<div class="line"><a name="l01702"></a><span class="lineno"> 1702</span>&#160;        net_notif.nextthink = (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a58592f2dbd538b466b3a7f92fb7382ab">autocvar_notification_lifetime_mapload</a>)</div>
-<div class="line"><a name="l01703"></a><span class="lineno"> 1703</span>&#160;            ? (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a6a45ec6d35af6e73ba2429f9f46bb513">autocvar_notification_lifetime_runtime</a>)</div>
-<div class="line"><a name="l01704"></a><span class="lineno"> 1704</span>&#160;            : <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a58592f2dbd538b466b3a7f92fb7382ab">autocvar_notification_lifetime_mapload</a>;</div>
-<div class="line"><a name="l01705"></a><span class="lineno"> 1705</span>&#160;</div>
-<div class="line"><a name="l01706"></a><span class="lineno"> 1706</span>&#160;        Net_LinkEntity(net_notif, <span class="keyword">false</span>, 0, Net_Write_Notification);</div>
-<div class="line"><a name="l01707"></a><span class="lineno"> 1707</span>&#160;    }</div>
-<div class="line"><a name="l01708"></a><span class="lineno"> 1708</span>&#160;}</div>
-<div class="line"><a name="l01709"></a><span class="lineno"> 1709</span>&#160;</div>
-<div class="line"><a name="l01710"></a><span class="lineno"> 1710</span>&#160;<span class="comment">// WOVA = Without Variable Arguments</span></div>
-<div class="line"><a name="l01711"></a><span class="lineno"> 1711</span>&#160;<span class="keywordtype">void</span> Send_Notification_WOVA(</div>
-<div class="line"><a name="l01712"></a><span class="lineno"> 1712</span>&#160;    NOTIF broadcast, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> client,</div>
-<div class="line"><a name="l01713"></a><span class="lineno"> 1713</span>&#160;    MSG net_type, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#af43285df24e8b1871037f3588117e951">Notification</a> net_name,</div>
-<div class="line"><a name="l01714"></a><span class="lineno"> 1714</span>&#160;    <span class="keywordtype">float</span> stringcount, <span class="keywordtype">float</span> floatcount,</div>
-<div class="line"><a name="l01715"></a><span class="lineno"> 1715</span>&#160;    <span class="keywordtype">string</span> s1, <span class="keywordtype">string</span> s2, <span class="keywordtype">string</span> s3, <span class="keywordtype">string</span> s4,</div>
-<div class="line"><a name="l01716"></a><span class="lineno"> 1716</span>&#160;    <span class="keywordtype">float</span> f1, <span class="keywordtype">float</span> f2, <span class="keywordtype">float</span> f3, <span class="keywordtype">float</span> f4)</div>
-<div class="line"><a name="l01717"></a><span class="lineno"> 1717</span>&#160;{</div>
-<div class="line"><a name="l01718"></a><span class="lineno"> 1718</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
-<div class="line"><a name="l01719"></a><span class="lineno"> 1719</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> notif = net_name;</div>
-<div class="line"><a name="l01720"></a><span class="lineno"> 1720</span>&#160;    Debug_Notification(sprintf(</div>
-<div class="line"><a name="l01721"></a><span class="lineno"> 1721</span>&#160;        <span class="stringliteral">&quot;Send_Notification_WOVA(%s, %d, %d, %s, %s);\n&quot;</span>,</div>
-<div class="line"><a name="l01722"></a><span class="lineno"> 1722</span>&#160;        sprintf(</div>
-<div class="line"><a name="l01723"></a><span class="lineno"> 1723</span>&#160;            <span class="stringliteral">&quot;%s, &#39;%s&#39;, %s, %s&quot;</span>,</div>
-<div class="line"><a name="l01724"></a><span class="lineno"> 1724</span>&#160;            Get_Notif_BroadcastName(broadcast),</div>
-<div class="line"><a name="l01725"></a><span class="lineno"> 1725</span>&#160;            client.classname,</div>
-<div class="line"><a name="l01726"></a><span class="lineno"> 1726</span>&#160;            <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(net_type),</div>
-<div class="line"><a name="l01727"></a><span class="lineno"> 1727</span>&#160;            notif.nent_name</div>
-<div class="line"><a name="l01728"></a><span class="lineno"> 1728</span>&#160;        ),</div>
-<div class="line"><a name="l01729"></a><span class="lineno"> 1729</span>&#160;        stringcount,</div>
-<div class="line"><a name="l01730"></a><span class="lineno"> 1730</span>&#160;        floatcount,</div>
-<div class="line"><a name="l01731"></a><span class="lineno"> 1731</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ad61de8ccc8dc77d2cb822e7a7ff34a9d">MakeConsoleSafe</a>(sprintf(<span class="stringliteral">&quot;&#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;&quot;</span>, s1, s2, s3, s4)),</div>
-<div class="line"><a name="l01732"></a><span class="lineno"> 1732</span>&#160;        sprintf(<span class="stringliteral">&quot;%d, %d, %d, %d&quot;</span>, f1, f2, f3, f4)</div>
-<div class="line"><a name="l01733"></a><span class="lineno"> 1733</span>&#160;    ));</div>
-<div class="line"><a name="l01734"></a><span class="lineno"> 1734</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l01735"></a><span class="lineno"> 1735</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01736"></a><span class="lineno"> 1736</span>&#160;<span class="preprocessor">    #define VARITEM(stringc, floatc, args) \</span></div>
-<div class="line"><a name="l01737"></a><span class="lineno"> 1737</span>&#160;<span class="preprocessor">        if ((stringcount == stringc) &amp;&amp; (floatcount == floatc)) \</span></div>
-<div class="line"><a name="l01738"></a><span class="lineno"> 1738</span>&#160;<span class="preprocessor">        { Send_Notification(broadcast, client, net_type, net_name, args); return; }</span></div>
-<div class="line"><a name="l01739"></a><span class="lineno"> 1739</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a7d0f0d2bef7f5dea91eafc4181b9b045">EIGHT_VARS_TO_VARARGS_VARLIST</a></div>
-<div class="line"><a name="l01740"></a><span class="lineno"> 1740</span>&#160;<span class="preprocessor">    #undef VARITEM</span></div>
-<div class="line"><a name="l01741"></a><span class="lineno"> 1741</span>&#160;<span class="preprocessor"></span>    Send_Notification(broadcast, client, net_type, net_name); <span class="comment">// some notifications don&#39;t have any arguments at all</span></div>
-<div class="line"><a name="l01742"></a><span class="lineno"> 1742</span>&#160;}</div>
-<div class="line"><a name="l01743"></a><span class="lineno"> 1743</span>&#160;</div>
-<div class="line"><a name="l01744"></a><span class="lineno"> 1744</span>&#160;<span class="comment">// WOCOVA = Without Counts Or Variable Arguments</span></div>
-<div class="line"><a name="l01745"></a><span class="lineno"> 1745</span>&#160;<span class="keywordtype">void</span> Send_Notification_WOCOVA(</div>
-<div class="line"><a name="l01746"></a><span class="lineno"> 1746</span>&#160;    NOTIF broadcast, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> client,</div>
-<div class="line"><a name="l01747"></a><span class="lineno"> 1747</span>&#160;    MSG net_type, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#af43285df24e8b1871037f3588117e951">Notification</a> net_name,</div>
-<div class="line"><a name="l01748"></a><span class="lineno"> 1748</span>&#160;    <span class="keywordtype">string</span> s1, <span class="keywordtype">string</span> s2, <span class="keywordtype">string</span> s3, <span class="keywordtype">string</span> s4,</div>
-<div class="line"><a name="l01749"></a><span class="lineno"> 1749</span>&#160;    <span class="keywordtype">float</span> f1, <span class="keywordtype">float</span> f2, <span class="keywordtype">float</span> f3, <span class="keywordtype">float</span> f4)</div>
-<div class="line"><a name="l01750"></a><span class="lineno"> 1750</span>&#160;{</div>
-<div class="line"><a name="l01751"></a><span class="lineno"> 1751</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> notif = net_name;</div>
-<div class="line"><a name="l01752"></a><span class="lineno"> 1752</span>&#160;</div>
-<div class="line"><a name="l01753"></a><span class="lineno"> 1753</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
-<div class="line"><a name="l01754"></a><span class="lineno"> 1754</span>&#160;<span class="preprocessor"></span>    Debug_Notification(sprintf(</div>
-<div class="line"><a name="l01755"></a><span class="lineno"> 1755</span>&#160;        <span class="stringliteral">&quot;Send_Notification_WOCOVA(%s, %s, %s);\n&quot;</span>,</div>
-<div class="line"><a name="l01756"></a><span class="lineno"> 1756</span>&#160;        sprintf(</div>
-<div class="line"><a name="l01757"></a><span class="lineno"> 1757</span>&#160;            <span class="stringliteral">&quot;%s, &#39;%s&#39;, %s, %s&quot;</span>,</div>
-<div class="line"><a name="l01758"></a><span class="lineno"> 1758</span>&#160;            Get_Notif_BroadcastName(broadcast),</div>
-<div class="line"><a name="l01759"></a><span class="lineno"> 1759</span>&#160;            client.classname,</div>
-<div class="line"><a name="l01760"></a><span class="lineno"> 1760</span>&#160;            <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(net_type),</div>
-<div class="line"><a name="l01761"></a><span class="lineno"> 1761</span>&#160;            notif.nent_name</div>
-<div class="line"><a name="l01762"></a><span class="lineno"> 1762</span>&#160;        ),</div>
-<div class="line"><a name="l01763"></a><span class="lineno"> 1763</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ad61de8ccc8dc77d2cb822e7a7ff34a9d">MakeConsoleSafe</a>(sprintf(<span class="stringliteral">&quot;&#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;&quot;</span>, s1, s2, s3, s4)),</div>
-<div class="line"><a name="l01764"></a><span class="lineno"> 1764</span>&#160;        sprintf(<span class="stringliteral">&quot;%d, %d, %d, %d&quot;</span>, f1, f2, f3, f4)</div>
-<div class="line"><a name="l01765"></a><span class="lineno"> 1765</span>&#160;    ));</div>
-<div class="line"><a name="l01766"></a><span class="lineno"> 1766</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l01767"></a><span class="lineno"> 1767</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01768"></a><span class="lineno"> 1768</span>&#160;<span class="preprocessor">    #define VARITEM(stringc, floatc, args) \</span></div>
-<div class="line"><a name="l01769"></a><span class="lineno"> 1769</span>&#160;<span class="preprocessor">        if ((notif.nent_stringcount == stringc) &amp;&amp; (notif.nent_floatcount == floatc)) \</span></div>
-<div class="line"><a name="l01770"></a><span class="lineno"> 1770</span>&#160;<span class="preprocessor">        { Send_Notification(broadcast, client, net_type, net_name, args); return; }</span></div>
-<div class="line"><a name="l01771"></a><span class="lineno"> 1771</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a7d0f0d2bef7f5dea91eafc4181b9b045">EIGHT_VARS_TO_VARARGS_VARLIST</a></div>
-<div class="line"><a name="l01772"></a><span class="lineno"> 1772</span>&#160;<span class="preprocessor">    #undef VARITEM</span></div>
-<div class="line"><a name="l01773"></a><span class="lineno"> 1773</span>&#160;<span class="preprocessor"></span>    Send_Notification(broadcast, client, net_type, net_name); <span class="comment">// some notifications don&#39;t have any arguments at all</span></div>
-<div class="line"><a name="l01774"></a><span class="lineno"> 1774</span>&#160;}</div>
-<div class="line"><a name="l01775"></a><span class="lineno"> 1775</span>&#160;<span class="preprocessor">#endif // ifdef SVQC</span></div>
+<div class="line"><a name="l01684"></a><span class="lineno"> 1684</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> net_notif = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(net_notification);</div>
+<div class="line"><a name="l01685"></a><span class="lineno"> 1685</span>&#160;        net_notif.owner = notif;</div>
+<div class="line"><a name="l01686"></a><span class="lineno"> 1686</span>&#160;        net_notif.nent_broadcast = broadcast;</div>
+<div class="line"><a name="l01687"></a><span class="lineno"> 1687</span>&#160;        net_notif.nent_client = client;</div>
+<div class="line"><a name="l01688"></a><span class="lineno"> 1688</span>&#160;        net_notif.nent_net_type = net_type;</div>
+<div class="line"><a name="l01689"></a><span class="lineno"> 1689</span>&#160;        net_notif.nent_net_name = notif.m_id;</div>
+<div class="line"><a name="l01690"></a><span class="lineno"> 1690</span>&#160;        net_notif.nent_stringcount = notif.nent_stringcount;</div>
+<div class="line"><a name="l01691"></a><span class="lineno"> 1691</span>&#160;        net_notif.nent_floatcount = notif.nent_floatcount;</div>
+<div class="line"><a name="l01692"></a><span class="lineno"> 1692</span>&#160;</div>
+<div class="line"><a name="l01693"></a><span class="lineno"> 1693</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; net_notif.nent_stringcount; ++i) {</div>
+<div class="line"><a name="l01694"></a><span class="lineno"> 1694</span>&#160;            net_notif.nent_strings[i] = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(...(i, <span class="keywordtype">string</span>));</div>
+<div class="line"><a name="l01695"></a><span class="lineno"> 1695</span>&#160;        }</div>
+<div class="line"><a name="l01696"></a><span class="lineno"> 1696</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; net_notif.nent_floatcount; ++i) {</div>
+<div class="line"><a name="l01697"></a><span class="lineno"> 1697</span>&#160;            net_notif.nent_floats[i] = ...((net_notif.nent_stringcount + i), <span class="keywordtype">float</span>);</div>
+<div class="line"><a name="l01698"></a><span class="lineno"> 1698</span>&#160;        }</div>
+<div class="line"><a name="l01699"></a><span class="lineno"> 1699</span>&#160;</div>
+<div class="line"><a name="l01700"></a><span class="lineno"> 1700</span>&#160;        net_notif.think = Net_Notification_Remove;</div>
+<div class="line"><a name="l01701"></a><span class="lineno"> 1701</span>&#160;        net_notif.nextthink = (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a58592f2dbd538b466b3a7f92fb7382ab">autocvar_notification_lifetime_mapload</a>)</div>
+<div class="line"><a name="l01702"></a><span class="lineno"> 1702</span>&#160;            ? (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a6a45ec6d35af6e73ba2429f9f46bb513">autocvar_notification_lifetime_runtime</a>)</div>
+<div class="line"><a name="l01703"></a><span class="lineno"> 1703</span>&#160;            : <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a58592f2dbd538b466b3a7f92fb7382ab">autocvar_notification_lifetime_mapload</a>;</div>
+<div class="line"><a name="l01704"></a><span class="lineno"> 1704</span>&#160;</div>
+<div class="line"><a name="l01705"></a><span class="lineno"> 1705</span>&#160;        Net_LinkEntity(net_notif, <span class="keyword">false</span>, 0, Net_Write_Notification);</div>
+<div class="line"><a name="l01706"></a><span class="lineno"> 1706</span>&#160;    }</div>
+<div class="line"><a name="l01707"></a><span class="lineno"> 1707</span>&#160;}</div>
+<div class="line"><a name="l01708"></a><span class="lineno"> 1708</span>&#160;</div>
+<div class="line"><a name="l01709"></a><span class="lineno"> 1709</span>&#160;<span class="comment">// WOVA = Without Variable Arguments</span></div>
+<div class="line"><a name="l01710"></a><span class="lineno"> 1710</span>&#160;<span class="keywordtype">void</span> Send_Notification_WOVA(</div>
+<div class="line"><a name="l01711"></a><span class="lineno"> 1711</span>&#160;    NOTIF broadcast, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> client,</div>
+<div class="line"><a name="l01712"></a><span class="lineno"> 1712</span>&#160;    MSG net_type, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#af43285df24e8b1871037f3588117e951">Notification</a> net_name,</div>
+<div class="line"><a name="l01713"></a><span class="lineno"> 1713</span>&#160;    <span class="keywordtype">float</span> stringcount, <span class="keywordtype">float</span> floatcount,</div>
+<div class="line"><a name="l01714"></a><span class="lineno"> 1714</span>&#160;    <span class="keywordtype">string</span> s1, <span class="keywordtype">string</span> s2, <span class="keywordtype">string</span> s3, <span class="keywordtype">string</span> s4,</div>
+<div class="line"><a name="l01715"></a><span class="lineno"> 1715</span>&#160;    <span class="keywordtype">float</span> f1, <span class="keywordtype">float</span> f2, <span class="keywordtype">float</span> f3, <span class="keywordtype">float</span> f4)</div>
+<div class="line"><a name="l01716"></a><span class="lineno"> 1716</span>&#160;{</div>
+<div class="line"><a name="l01717"></a><span class="lineno"> 1717</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
+<div class="line"><a name="l01718"></a><span class="lineno"> 1718</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> notif = net_name;</div>
+<div class="line"><a name="l01719"></a><span class="lineno"> 1719</span>&#160;    Debug_Notification(sprintf(</div>
+<div class="line"><a name="l01720"></a><span class="lineno"> 1720</span>&#160;        <span class="stringliteral">&quot;Send_Notification_WOVA(%s, %d, %d, %s, %s);\n&quot;</span>,</div>
+<div class="line"><a name="l01721"></a><span class="lineno"> 1721</span>&#160;        sprintf(</div>
+<div class="line"><a name="l01722"></a><span class="lineno"> 1722</span>&#160;            <span class="stringliteral">&quot;%s, &#39;%s&#39;, %s, %s&quot;</span>,</div>
+<div class="line"><a name="l01723"></a><span class="lineno"> 1723</span>&#160;            Get_Notif_BroadcastName(broadcast),</div>
+<div class="line"><a name="l01724"></a><span class="lineno"> 1724</span>&#160;            client.classname,</div>
+<div class="line"><a name="l01725"></a><span class="lineno"> 1725</span>&#160;            <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(net_type),</div>
+<div class="line"><a name="l01726"></a><span class="lineno"> 1726</span>&#160;            notif.nent_name</div>
+<div class="line"><a name="l01727"></a><span class="lineno"> 1727</span>&#160;        ),</div>
+<div class="line"><a name="l01728"></a><span class="lineno"> 1728</span>&#160;        stringcount,</div>
+<div class="line"><a name="l01729"></a><span class="lineno"> 1729</span>&#160;        floatcount,</div>
+<div class="line"><a name="l01730"></a><span class="lineno"> 1730</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ad61de8ccc8dc77d2cb822e7a7ff34a9d">MakeConsoleSafe</a>(sprintf(<span class="stringliteral">&quot;&#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;&quot;</span>, s1, s2, s3, s4)),</div>
+<div class="line"><a name="l01731"></a><span class="lineno"> 1731</span>&#160;        sprintf(<span class="stringliteral">&quot;%d, %d, %d, %d&quot;</span>, f1, f2, f3, f4)</div>
+<div class="line"><a name="l01732"></a><span class="lineno"> 1732</span>&#160;    ));</div>
+<div class="line"><a name="l01733"></a><span class="lineno"> 1733</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l01734"></a><span class="lineno"> 1734</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01735"></a><span class="lineno"> 1735</span>&#160;<span class="preprocessor">    #define VARITEM(stringc, floatc, args) \</span></div>
+<div class="line"><a name="l01736"></a><span class="lineno"> 1736</span>&#160;<span class="preprocessor">        if ((stringcount == stringc) &amp;&amp; (floatcount == floatc)) \</span></div>
+<div class="line"><a name="l01737"></a><span class="lineno"> 1737</span>&#160;<span class="preprocessor">        { Send_Notification(broadcast, client, net_type, net_name, args); return; }</span></div>
+<div class="line"><a name="l01738"></a><span class="lineno"> 1738</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a7d0f0d2bef7f5dea91eafc4181b9b045">EIGHT_VARS_TO_VARARGS_VARLIST</a></div>
+<div class="line"><a name="l01739"></a><span class="lineno"> 1739</span>&#160;<span class="preprocessor">    #undef VARITEM</span></div>
+<div class="line"><a name="l01740"></a><span class="lineno"> 1740</span>&#160;<span class="preprocessor"></span>    Send_Notification(broadcast, client, net_type, net_name); <span class="comment">// some notifications don&#39;t have any arguments at all</span></div>
+<div class="line"><a name="l01741"></a><span class="lineno"> 1741</span>&#160;}</div>
+<div class="line"><a name="l01742"></a><span class="lineno"> 1742</span>&#160;</div>
+<div class="line"><a name="l01743"></a><span class="lineno"> 1743</span>&#160;<span class="comment">// WOCOVA = Without Counts Or Variable Arguments</span></div>
+<div class="line"><a name="l01744"></a><span class="lineno"> 1744</span>&#160;<span class="keywordtype">void</span> Send_Notification_WOCOVA(</div>
+<div class="line"><a name="l01745"></a><span class="lineno"> 1745</span>&#160;    NOTIF broadcast, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> client,</div>
+<div class="line"><a name="l01746"></a><span class="lineno"> 1746</span>&#160;    MSG net_type, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#af43285df24e8b1871037f3588117e951">Notification</a> net_name,</div>
+<div class="line"><a name="l01747"></a><span class="lineno"> 1747</span>&#160;    <span class="keywordtype">string</span> s1, <span class="keywordtype">string</span> s2, <span class="keywordtype">string</span> s3, <span class="keywordtype">string</span> s4,</div>
+<div class="line"><a name="l01748"></a><span class="lineno"> 1748</span>&#160;    <span class="keywordtype">float</span> f1, <span class="keywordtype">float</span> f2, <span class="keywordtype">float</span> f3, <span class="keywordtype">float</span> f4)</div>
+<div class="line"><a name="l01749"></a><span class="lineno"> 1749</span>&#160;{</div>
+<div class="line"><a name="l01750"></a><span class="lineno"> 1750</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> notif = net_name;</div>
+<div class="line"><a name="l01751"></a><span class="lineno"> 1751</span>&#160;</div>
+<div class="line"><a name="l01752"></a><span class="lineno"> 1752</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
+<div class="line"><a name="l01753"></a><span class="lineno"> 1753</span>&#160;<span class="preprocessor"></span>    Debug_Notification(sprintf(</div>
+<div class="line"><a name="l01754"></a><span class="lineno"> 1754</span>&#160;        <span class="stringliteral">&quot;Send_Notification_WOCOVA(%s, %s, %s);\n&quot;</span>,</div>
+<div class="line"><a name="l01755"></a><span class="lineno"> 1755</span>&#160;        sprintf(</div>
+<div class="line"><a name="l01756"></a><span class="lineno"> 1756</span>&#160;            <span class="stringliteral">&quot;%s, &#39;%s&#39;, %s, %s&quot;</span>,</div>
+<div class="line"><a name="l01757"></a><span class="lineno"> 1757</span>&#160;            Get_Notif_BroadcastName(broadcast),</div>
+<div class="line"><a name="l01758"></a><span class="lineno"> 1758</span>&#160;            client.classname,</div>
+<div class="line"><a name="l01759"></a><span class="lineno"> 1759</span>&#160;            <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(net_type),</div>
+<div class="line"><a name="l01760"></a><span class="lineno"> 1760</span>&#160;            notif.nent_name</div>
+<div class="line"><a name="l01761"></a><span class="lineno"> 1761</span>&#160;        ),</div>
+<div class="line"><a name="l01762"></a><span class="lineno"> 1762</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ad61de8ccc8dc77d2cb822e7a7ff34a9d">MakeConsoleSafe</a>(sprintf(<span class="stringliteral">&quot;&#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;&quot;</span>, s1, s2, s3, s4)),</div>
+<div class="line"><a name="l01763"></a><span class="lineno"> 1763</span>&#160;        sprintf(<span class="stringliteral">&quot;%d, %d, %d, %d&quot;</span>, f1, f2, f3, f4)</div>
+<div class="line"><a name="l01764"></a><span class="lineno"> 1764</span>&#160;    ));</div>
+<div class="line"><a name="l01765"></a><span class="lineno"> 1765</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l01766"></a><span class="lineno"> 1766</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01767"></a><span class="lineno"> 1767</span>&#160;<span class="preprocessor">    #define VARITEM(stringc, floatc, args) \</span></div>
+<div class="line"><a name="l01768"></a><span class="lineno"> 1768</span>&#160;<span class="preprocessor">        if ((notif.nent_stringcount == stringc) &amp;&amp; (notif.nent_floatcount == floatc)) \</span></div>
+<div class="line"><a name="l01769"></a><span class="lineno"> 1769</span>&#160;<span class="preprocessor">        { Send_Notification(broadcast, client, net_type, net_name, args); return; }</span></div>
+<div class="line"><a name="l01770"></a><span class="lineno"> 1770</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a7d0f0d2bef7f5dea91eafc4181b9b045">EIGHT_VARS_TO_VARARGS_VARLIST</a></div>
+<div class="line"><a name="l01771"></a><span class="lineno"> 1771</span>&#160;<span class="preprocessor">    #undef VARITEM</span></div>
+<div class="line"><a name="l01772"></a><span class="lineno"> 1772</span>&#160;<span class="preprocessor"></span>    Send_Notification(broadcast, client, net_type, net_name); <span class="comment">// some notifications don&#39;t have any arguments at all</span></div>
+<div class="line"><a name="l01773"></a><span class="lineno"> 1773</span>&#160;}</div>
+<div class="line"><a name="l01774"></a><span class="lineno"> 1774</span>&#160;<span class="preprocessor">#endif // ifdef SVQC</span></div>
 <div class="ttc" id="centerprint_8qc_html_a369d3074c3a2f6caa03166cdd9f7fa4b"><div class="ttname"><a href="../../d4/dbb/centerprint_8qc.html#a369d3074c3a2f6caa03166cdd9f7fa4b">centerprint_generic</a></div><div class="ttdeci">void centerprint_generic(int new_id, string strMessage, float duration, int countdown_num)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbb/centerprint_8qc_source.html#l00014">centerprint.qc:14</a></div></div>
 <div class="ttc" id="common_2notifications_2all_8qh_html_a87810e4b368131287592ae2bae89bcea"><div class="ttname"><a href="../../dc/de5/common_2notifications_2all_8qh.html#a87810e4b368131287592ae2bae89bcea">nent_strings</a></div><div class="ttdeci">string nent_strings[4]</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/common_2notifications_2all_8qh_source.html#l00658">all.qh:658</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
@@ -1947,7 +1946,7 @@ $(document).ready(function(){initNavTree('d4/df2/common_2notifications_2all_8qc_
 <div class="ttc" id="menudefs_8qc_html_a439a4e0c5d0e5923bf5aba17eaae0d09"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a439a4e0c5d0e5923bf5aba17eaae0d09">WriteLong</a></div><div class="ttdeci">void WriteLong(float data, float dest, float desto)</div></div>
 <div class="ttc" id="server_2__all_8qh_html_a267d55f1e2caab1f644733587acbc378"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a></div><div class="ttdeci">#define IS_SPEC(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00011">_all.qh:11</a></div></div>
 <div class="ttc" id="server_2mutators_2events_8qh_html_a2da559e70e6e6c7251e3121fc7550aa2"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2">get_cvars_f</a></div><div class="ttdeci">float get_cvars_f</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00206">events.qh:206</a></div></div>
-<div class="ttc" id="oo_8qh_html_a38b2e3be8bac16c7e501868868a5a2ff"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a></div><div class="ttdeci">#define make_pure(e)</div><div class="ttdoc">deprecated, use new_pure or NEW(class) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00016">oo.qh:16</a></div></div>
+<div class="ttc" id="oo_8qh_html_a38b2e3be8bac16c7e501868868a5a2ff"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a></div><div class="ttdeci">#define make_pure(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00016">oo.qh:16</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_acf8ea712d5467331fb750b33ab165013"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a></div><div class="ttdeci">float teamplay</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00031">progsdefs.qc:31</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
 <div class="ttc" id="common_2notifications_2all_8qh_html_abeb080df71201bb59f4631598579fbab"><div class="ttname"><a href="../../dc/de5/common_2notifications_2all_8qh.html#abeb080df71201bb59f4631598579fbab">notif_global_error</a></div><div class="ttdeci">bool notif_global_error</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/common_2notifications_2all_8qh_source.html#l00674">all.qh:674</a></div></div>
@@ -1966,7 +1965,7 @@ $(document).ready(function(){initNavTree('d4/df2/common_2notifications_2all_8qc_
 <div class="ttc" id="common_2notifications_2all_8qh_html_a1c5d21835b9aaa6f6e1ebad87931fe0b"><div class="ttname"><a href="../../dc/de5/common_2notifications_2all_8qh.html#a1c5d21835b9aaa6f6e1ebad87931fe0b">arg_slot</a></div><div class="ttdeci">string arg_slot[NOTIF_MAX_ARGS]</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/common_2notifications_2all_8qh_source.html#l00372">all.qh:372</a></div></div>
 <div class="ttc" id="common_2notifications_2all_8qh_html_aecc1451803519ab7ae643b6195658055"><div class="ttname"><a href="../../dc/de5/common_2notifications_2all_8qh.html#aecc1451803519ab7ae643b6195658055">nent_floats</a></div><div class="ttdeci">float nent_floats[4]</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/common_2notifications_2all_8qh_source.html#l00659">all.qh:659</a></div></div>
 <div class="ttc" id="announcer_8qc_html_a74359ed785035246489934d025ae3278"><div class="ttname"><a href="../../da/df4/announcer_8qc.html#a74359ed785035246489934d025ae3278">AnnouncerOption</a></div><div class="ttdeci">string AnnouncerOption()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/df4/announcer_8qc_source.html#l00010">announcer.qc:10</a></div></div>
-<div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00076">oo.qh:76</a></div></div>
+<div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00077">oo.qh:77</a></div></div>
 <div class="ttc" id="announcer_8qh_html"><div class="ttname"><a href="../../df/d71/announcer_8qh.html">announcer.qh</a></div></div>
 <div class="ttc" id="common_2notifications_2all_8qh_html_a58592f2dbd538b466b3a7f92fb7382ab"><div class="ttname"><a href="../../dc/de5/common_2notifications_2all_8qh.html#a58592f2dbd538b466b3a7f92fb7382ab">autocvar_notification_lifetime_mapload</a></div><div class="ttdeci">float autocvar_notification_lifetime_mapload</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/common_2notifications_2all_8qh_source.html#l00296">all.qh:296</a></div></div>
 <div class="ttc" id="hud_8qh_html_a3f24d1601ce9eaa70aa03b90c969a568"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a3f24d1601ce9eaa70aa03b90c969a568">HUD_Notify_Push</a></div><div class="ttdeci">void HUD_Notify_Push(string icon, string attacker, string victim)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d48/notify_8qc_source.html#l00003">notify.qc:3</a></div></div>
@@ -1992,7 +1991,7 @@ $(document).ready(function(){initNavTree('d4/df2/common_2notifications_2all_8qc_
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_cf234ab9b9033f681804c9de340d1a43.html">notifications</a></li><li class="navelem"><a class="el" href="../../d4/df2/common_2notifications_2all_8qc.html">all.qc</a></li>
-    <li class="footer">Generated on Sat Mar 12 2016 06:38:10 for Xonotic by
+    <li class="footer">Generated on Sat Mar 12 2016 10:51:23 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

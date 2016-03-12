@@ -193,19 +193,18 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d95/defer_8qh_source.html#l00038">38</a> of file <a class="el" href="../../d5/d95/defer_8qh_source.html">defer.qh</a>.</p>
 
-<p>References <a class="el" href="../../d5/d95/defer_8qh_source.html#l00026">defer_think()</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00016">make_pure</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../d5/d95/defer_8qh_source.html#l00026">defer_think()</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00077">new_pure</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d9b/jumppads_8qc_source.html#l00279">trigger_push_findtarget()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e    = <span class="keyword">new</span>(deferred);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a>(e);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        e.owner     = <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        e.use       = func;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        e.think     = <a class="code" href="../../d5/d95/defer_8qh.html#a839ea0b7dbc456a08b83b1186293f113">defer_think</a>;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        e.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + fdelay;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e    = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(deferred);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        e.owner     = <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        e.use       = func;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        e.think     = <a class="code" href="../../d5/d95/defer_8qh.html#a839ea0b7dbc456a08b83b1186293f113">defer_think</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        e.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + fdelay;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
 <div class="ttc" id="defer_8qh_html_a839ea0b7dbc456a08b83b1186293f113"><div class="ttname"><a href="../../d5/d95/defer_8qh.html#a839ea0b7dbc456a08b83b1186293f113">defer_think</a></div><div class="ttdeci">void defer_think()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d95/defer_8qh_source.html#l00026">defer.qh:26</a></div></div>
-<div class="ttc" id="oo_8qh_html_a38b2e3be8bac16c7e501868868a5a2ff"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a></div><div class="ttdeci">#define make_pure(e)</div><div class="ttdoc">deprecated, use new_pure or NEW(class) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00016">oo.qh:16</a></div></div>
+<div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00077">oo.qh:77</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment -->
@@ -380,7 +379,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d5/d95/defer_8qh.html">defer.qh</a></li>
-    <li class="footer">Generated on Sat Mar 12 2016 06:38:19 for Xonotic by
+    <li class="footer">Generated on Sat Mar 12 2016 10:51:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

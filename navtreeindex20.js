@@ -1,7 +1,5 @@
 var NAVTREEINDEX20 =
 {
-"d4/da4/pointparticles_8qc.html":[1,0,1,13,0,16],
-"d4/da4/pointparticles_8qc_source.html":[1,0,1,13,0,16],
 "d4/dac/counter_8qc.html":[1,0,1,13,3,0],
 "d4/dac/counter_8qc_source.html":[1,0,1,13,3,0],
 "d4/db4/rpn_8qh.html":[1,0,1,0,8],
@@ -249,5 +247,7 @@ var NAVTREEINDEX20 =
 "d4/def/weapons_8qc.html#ab7c3acfa47aaf4f25f4775921b6be5ae":[1,0,0,1,0,18,0],
 "d4/def/weapons_8qc.html#ad404b083c61c0b18b47d75dd1906b30e":[1,0,0,1,0,18,3],
 "d4/def/weapons_8qc_source.html":[1,0,0,1,0,18],
-"d4/df2/common_2notifications_2all_8qc.html":[1,0,1,10,1]
+"d4/df2/common_2notifications_2all_8qc.html":[1,0,1,10,1],
+"d4/df2/common_2notifications_2all_8qc.html#a0271f2897012f4c89692ef7cea9745da":[1,0,1,10,1,37],
+"d4/df2/common_2notifications_2all_8qc.html#a133e943a6fbd569e8fe1c2e579c43e47":[1,0,1,10,1,33]
 };

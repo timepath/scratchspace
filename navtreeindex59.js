@@ -1,7 +1,5 @@
 var NAVTREEINDEX59 =
 {
-"dd/df1/weapons_2weapon_2hook_8qc.html#ae1d38f709eb6f35efebd97dcb20a8cd7":[1,0,1,16,0,8,1],
-"dd/df1/weapons_2weapon_2hook_8qc.html#ae59ba15312dcd0098b11e589e950bd88":[1,0,1,16,0,8,8],
 "dd/df1/weapons_2weapon_2hook_8qc.html#af9af11c3b2338d6b7713beac9d92e832":[1,0,1,16,0,8,6],
 "dd/df1/weapons_2weapon_2hook_8qc_source.html":[1,0,1,16,0,8],
 "dd/dfd/markdown_8qh.html":[1,0,3,25],
@@ -249,5 +247,7 @@ var NAVTREEINDEX59 =
 "de/d4a/turrets_2config_8qc.html":[1,0,1,14,6],
 "de/d4a/turrets_2config_8qc.html#a1d1f02d10e59d74c6b74a716871ea545":[1,0,1,14,6,1],
 "de/d4a/turrets_2config_8qc.html#a4cec7b70063ba5f4b12fa02e610549ba":[1,0,1,14,6,2],
-"de/d4a/turrets_2config_8qc.html#a686bcea74a2d69e1ca5ee58acd7158a9":[1,0,1,14,6,0]
+"de/d4a/turrets_2config_8qc.html#a686bcea74a2d69e1ca5ee58acd7158a9":[1,0,1,14,6,0],
+"de/d4a/turrets_2config_8qc_source.html":[1,0,1,14,6],
+"de/d4d/sv__controlpoint_8qc.html":[1,0,1,3,0,1,6]
 };
