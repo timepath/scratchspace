@@ -9,7 +9,6 @@ var generic_8qh =
     [ "GenericCommand_macro_help", "d7/d88/generic_8qh.html#af21b5f0914d24ba07dcd52f606b8518e", null ],
     [ "GenericCommand_macro_usage", "d7/d88/generic_8qh.html#ad2ffe1c772f6454a87b6536bfdffe768", null ],
     [ "GenericCommand_macro_write_aliases", "d7/d88/generic_8qh.html#a4949cbdd574b98248ac7c6fe9e48a096", null ],
-    [ "GetProgramCommandPrefix", "d7/d88/generic_8qh.html#afc9451e4acb1a7c5bef3120f4e286fa7", null ],
     [ "curl_uri_get_cvar", "d7/d88/generic_8qh.html#a39d724775165a6eed9f5a054ef603dc4", null ],
     [ "curl_uri_get_exec", "d7/d88/generic_8qh.html#a5f8848943d5e2e9f5be637396b97fddd", null ],
     [ "curl_uri_get_pos", "d7/d88/generic_8qh.html#ab781771d2345a4946d8ec5c19b01ec3c", null ]

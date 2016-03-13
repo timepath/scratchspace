@@ -1,5 +1,6 @@
 var NAVTREEINDEX57 =
 {
+"dd/d59/modicons_8qc.html#abb4b022156f7d6a6605893e79d3de30a":[1,0,0,1,0,7,42],
 "dd/d59/modicons_8qc.html#abbc271ee072031f5b5ca808991e63505":[1,0,0,1,0,7,29],
 "dd/d59/modicons_8qc.html#abee838c54bc89fc9d2324b5932f73b39":[1,0,0,1,0,7,37],
 "dd/d59/modicons_8qc.html#ac83b4a0f58175b55bde8c7417d978068":[1,0,0,1,0,7,1],
@@ -185,8 +186,8 @@ var NAVTREEINDEX57 =
 "dd/d85/sortlist_8qc.html#a652c86b37dd42d03c9e82ee0d8e1cfd8":[1,0,3,43,0],
 "dd/d85/sortlist_8qc_source.html":[1,0,3,43],
 "dd/d87/effectinfo_8qc.html":[1,0,1,2,6],
-"dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[1,0,1,2,6,10],
 "dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[1,0,1,2,6,11],
+"dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[1,0,1,2,6,10],
 "dd/d87/effectinfo_8qc.html#a140b69e0765f293f2d0545beefa583c7":[1,0,1,2,6,15],
 "dd/d87/effectinfo_8qc.html#a196e029eb2adc9808b1e6928e3e1ce23":[1,0,1,2,6,17],
 "dd/d87/effectinfo_8qc.html#a32099483f67e2e1d9720b22d3641a14f":[1,0,1,2,6,18],
@@ -196,8 +197,8 @@ var NAVTREEINDEX57 =
 "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862":[1,0,1,2,6,0],
 "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840":[1,0,1,2,6,3],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[1,0,1,2,6,6],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[1,0,1,2,6,8],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[1,0,1,2,6,7],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[1,0,1,2,6,8],
 "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6":[1,0,1,2,6,12],
 "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e":[1,0,1,2,6,14],
 "dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b":[1,0,1,2,6,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX57 =
 "dd/d94/dialog__multiplayer__join_8qc.html#a97709a118996cd241f03e9271faf46d0":[1,0,4,4,46,2],
 "dd/d94/dialog__multiplayer__join_8qc_source.html":[1,0,4,4,46],
 "dd/d96/server_2progs_8inc.html":[1,0,5,45],
-"dd/d96/server_2progs_8inc_source.html":[1,0,5,45],
-"dd/da1/dialog__settings__game__hud_8qc.html":[1,0,4,4,63]
+"dd/d96/server_2progs_8inc_source.html":[1,0,5,45]
 };

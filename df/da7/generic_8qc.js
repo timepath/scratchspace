@@ -25,6 +25,5 @@ var generic_8qc =
     [ "GenericCommand_restartnotifs", "df/da7/generic_8qc.html#a993b35690b6546f96440aef5c506b7ce", null ],
     [ "GenericCommand_runtest", "df/da7/generic_8qc.html#a5d9d66c784aed227f66f771a274a1e38", null ],
     [ "GenericCommand_settemp", "df/da7/generic_8qc.html#a67835028ceca4999b1ce0dcab25a9179", null ],
-    [ "GenericCommand_settemp_restore", "df/da7/generic_8qc.html#a12dcbba3e6ff93ce72cf69f1c6c18014", null ],
-    [ "GetProgramCommandPrefix", "df/da7/generic_8qc.html#afc9451e4acb1a7c5bef3120f4e286fa7", null ]
+    [ "GenericCommand_settemp_restore", "df/da7/generic_8qc.html#a12dcbba3e6ff93ce72cf69f1c6c18014", null ]
 ];

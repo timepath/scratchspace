@@ -1,6 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"df/d9b/menu_2xonotic_2util_8qc.html#af2ff18ea62f392a697fa8272a47fc658":[1,0,4,4,113,62],
 "df/d9b/menu_2xonotic_2util_8qc.html#afa7ab3d4a8ca50b60f35a452705184d6":[1,0,4,4,113,35],
 "df/d9b/menu_2xonotic_2util_8qc.html#afe98f5a378a0f97c190687977beb0c1d":[1,0,4,4,113,43],
 "df/d9b/menu_2xonotic_2util_8qc_source.html":[1,0,4,4,113],
@@ -37,7 +36,6 @@ var NAVTREEINDEX66 =
 "df/da7/generic_8qc.html#af6a684057c789582d81aaa6c4ae26bc5":[1,0,1,0,3,4],
 "df/da7/generic_8qc.html#af96c68d767d38bddfc69ea2a50a41c10":[1,0,1,0,3,3],
 "df/da7/generic_8qc.html#afc2258d0a6214950261d6dc3d0e4ad06":[1,0,1,0,3,12],
-"df/da7/generic_8qc.html#afc9451e4acb1a7c5bef3120f4e286fa7":[1,0,1,0,3,26],
 "df/da7/generic_8qc.html#afcb860857cde6c4b6c2585fb2d2c5487":[1,0,1,0,3,8],
 "df/da7/generic_8qc_source.html":[1,0,1,0,3],
 "df/dae/player_8qh.html":[1,0,1,11,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX66 =
 "df/dc9/aim_8qc.html#a81b7a7ca23c314305e5ee193866daa21":[1,0,5,0,2,6],
 "df/dc9/aim_8qc.html#aa602bcd33a8abc9d07da72550ab3a103":[1,0,5,0,2,5],
 "df/dc9/aim_8qc.html#af1ef3f5744950dc2fdaef7a647a8bd8d":[1,0,5,0,2,4],
-"df/dc9/aim_8qc_source.html":[1,0,5,0,2]
+"df/dc9/aim_8qc_source.html":[1,0,5,0,2],
+"df/dd4/navigation_8qh.html":[1,0,5,0,7],
+"df/dd4/navigation_8qh.html#a01346f19dfbb847988ce4934e5c8f4c4":[1,0,5,0,7,20]
 };
