@@ -176,12 +176,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00345">345</a> of file <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html">main.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00347">347</a> of file <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html">main.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d73/path__waypoint_8qc_source.html#l00198">pathlib_waypointpath_step()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;{</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;{</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -231,38 +231,38 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00350">350</a> of file <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html">main.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00352">352</a> of file <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html">main.qc</a>.</p>
 
 <p>References <a class="el" href="../../dd/d70/pathlib_8qh.html#aa96406bb9db6a09e54828c46b76cacd2">buildpath_nodefilter()</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00080">next</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00379">pathlib_astar()</a>, and <a class="el" href="../../d7/d73/path__waypoint_8qc_source.html#l00198">pathlib_waypointpath_step()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;{</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> path;</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a> &amp;&amp; <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a>)</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../dd/d70/pathlib_8qh.html#aa96406bb9db6a09e54828c46b76cacd2">buildpath_nodefilter</a>)</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../dd/d70/pathlib_8qh.html#aa96406bb9db6a09e54828c46b76cacd2">buildpath_nodefilter</a>(<a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a>.origin,where,<a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a>.origin))</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a>;</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    path           = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    path.owner     = start;</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    path.path_next = <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a>;</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    setorigin(path,where);</div>
+<p>Referenced by <a class="el" href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00381">pathlib_astar()</a>, and <a class="el" href="../../d7/d73/path__waypoint_8qc_source.html#l00198">pathlib_waypointpath_step()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;{</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> path;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a> &amp;&amp; <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a>)</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../dd/d70/pathlib_8qh.html#aa96406bb9db6a09e54828c46b76cacd2">buildpath_nodefilter</a>)</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../dd/d70/pathlib_8qh.html#aa96406bb9db6a09e54828c46b76cacd2">buildpath_nodefilter</a>(<a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a>.origin,where,<a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a>.origin))</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a>;</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    path           = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    path.owner     = start;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    path.path_next = <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a>;</div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a>)</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        path.classname = <span class="stringliteral">&quot;path_end&quot;</span>;</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    {</div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a>)</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;            path.classname = <span class="stringliteral">&quot;path_start&quot;</span>;</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;            path.classname = <span class="stringliteral">&quot;path_node&quot;</span>;</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    }</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    <span class="keywordflow">return</span> path;</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;}</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    setorigin(path,where);</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a>)</div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        path.classname = <span class="stringliteral">&quot;path_end&quot;</span>;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    {</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a>)</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;            path.classname = <span class="stringliteral">&quot;path_start&quot;</span>;</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;            path.classname = <span class="stringliteral">&quot;path_node&quot;</span>;</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    }</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;</div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    <span class="keywordflow">return</span> path;</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a60338c2153150633178af678cf3ca57c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a></div><div class="ttdeci">entity spawn(void)</div></div>
 <div class="ttc" id="common_2impulses_2all_8qh_html_acde7555eca71d1f823fbaf6f6a1f4670"><div class="ttname"><a href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a></div><div class="ttdeci">next</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d64/common_2impulses_2all_8qh_source.html#l00080">all.qh:80</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
@@ -297,7 +297,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_038facabb326e47524555c6946dd7e55.html">pathlib</a></li><li class="navelem"><a class="el" href="../../d8/db4/server_2pathlib_2main_8qh.html">main.qh</a></li>
-    <li class="footer">Generated on Sun Mar 13 2016 08:38:59 for Xonotic by
+    <li class="footer">Generated on Sun Mar 13 2016 09:36:02 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

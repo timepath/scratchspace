@@ -34,7 +34,6 @@ var client_2main_8qc =
     [ "NET_HANDLE", "df/d30/client_2main_8qc.html#a1e55c54aad85b1c6f6c8ef2fc91b1c6d", null ],
     [ "NET_HANDLE", "df/d30/client_2main_8qc.html#a6df675d5ce651f8a28f9d6a958c42b37", null ],
     [ "Playerchecker_Think", "df/d30/client_2main_8qc.html#aed557c138e5ab803e29e1507cc32d6be", null ],
-    [ "Porto_Init", "df/d30/client_2main_8qc.html#a3f28c37bde774eb9b4fa61c5b1f48685", null ],
     [ "PostInit", "df/d30/client_2main_8qc.html#a46ab77a8e6731f82b57ed43c3fe5eeea", null ],
     [ "PreDraw_self", "df/d30/client_2main_8qc.html#a193573d11513d634d32542aff007a914", null ],
     [ "setpredraw", "df/d30/client_2main_8qc.html#af71e3fca224939f55eb4426f26f41e89", null ],

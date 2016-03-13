@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"de/d48/dialog__settings__game_8qc.html#a84711d9bde2e0aff4847519673224b96":[1,0,4,4,61,4],
 "de/d48/dialog__settings__game_8qc.html#a8a672df12bf358a22e14bc370f55d8f1":[1,0,4,4,61,25],
 "de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc":[1,0,4,4,61,27],
 "de/d48/dialog__settings__game_8qc.html#a8cf6fc2f06215fd952639fdc70ac9283":[1,0,4,4,61,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "de/d5e/dpextensions_8qc.html#a762dc4dcf4ceca2e12617c589e3e7b1d":[1,0,2,0,1,79],
 "de/d5e/dpextensions_8qc.html#a763150ef8c654423571fd2fee3023430":[1,0,2,0,1,316],
 "de/d5e/dpextensions_8qc.html#a76f1dbe7f80fe108efcb854a887987ed":[1,0,2,0,1,195],
-"de/d5e/dpextensions_8qc.html#a7701d01a399c9cf297ebcdcbe85c5803":[1,0,2,0,1,329],
-"de/d5e/dpextensions_8qc.html#a772a66d0471c0499fbd730f6e1b259ac":[1,0,2,0,1,217]
+"de/d5e/dpextensions_8qc.html#a7701d01a399c9cf297ebcdcbe85c5803":[1,0,2,0,1,329]
 };

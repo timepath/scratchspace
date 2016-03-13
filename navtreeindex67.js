@@ -1,5 +1,6 @@
 var NAVTREEINDEX67 =
 {
+"df/dc2/menu_8qc.html#affa952aabbcb8ec7c960d9bccbe07e62":[1,0,4,12,39],
 "df/dc2/menu_8qc_source.html":[1,0,4,12],
 "df/dc7/ewheel__weapon_8qc.html":[1,0,1,14,0,1],
 "df/dc7/ewheel__weapon_8qc.html#a24fb874c6af641087b5ca281034eba6e":[1,0,1,14,0,1,1],
@@ -242,12 +243,11 @@ var NAVTREEINDEX67 =
 "globals_b.html":[1,1,0,2],
 "globals_c.html":[1,1,0,3],
 "globals_d.html":[1,1,0,4],
-"globals_defs.html":[1,1,5],
 "globals_defs.html":[1,1,5,0],
+"globals_defs.html":[1,1,5],
 "globals_defs_a.html":[1,1,5,1],
 "globals_defs_b.html":[1,1,5,2],
 "globals_defs_c.html":[1,1,5,3],
 "globals_defs_d.html":[1,1,5,4],
-"globals_defs_e.html":[1,1,5,5],
-"globals_defs_f.html":[1,1,5,6]
+"globals_defs_e.html":[1,1,5,5]
 };

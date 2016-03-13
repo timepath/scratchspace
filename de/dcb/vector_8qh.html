@@ -138,8 +138,12 @@ Macros</h2></td></tr>
 <tr class="separator:a7f8a5f63bb6820dbb4290a5b08f938a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b71db6d5ad2e85b3bda473a75d395f7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a9b71db6d5ad2e85b3bda473a75d395f7">MAKEVECTORS</a>(f, <a class="el" href="../../d9/da8/angle_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>, forward, right, up)</td></tr>
 <tr class="separator:a9b71db6d5ad2e85b3bda473a75d395f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79eb493ec02a69e373246111c811f713"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a79eb493ec02a69e373246111c811f713">vec2</a>(v)&#160;&#160;&#160;(<a class="el" href="../../de/dcb/vector_8qh.html#a7a13bd9ecbb74025e977f77185a7449d">_vec2</a> = (v), _vec2.z = 0, <a class="el" href="../../de/dcb/vector_8qh.html#a7a13bd9ecbb74025e977f77185a7449d">_vec2</a>)</td></tr>
-<tr class="separator:a79eb493ec02a69e373246111c811f713"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0030538506d12cd8ee388d004234910"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910">vec2</a>(...)&#160;&#160;&#160;<a class="el" href="../../d7/d61/misc_8qh.html#aa0f8200acd4827bc9d2df09270b66c38">EVAL</a>(<a class="el" href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">OVERLOAD</a>(vec2, __VA_ARGS__))</td></tr>
+<tr class="separator:ae0030538506d12cd8ee388d004234910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5391f7d63483da6cb433aca2ebd8d8ec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a5391f7d63483da6cb433aca2ebd8d8ec">vec2_1</a>(v)&#160;&#160;&#160;(<a class="el" href="../../de/dcb/vector_8qh.html#a7a13bd9ecbb74025e977f77185a7449d">_vec2</a> = (v), _vec2.z = 0, <a class="el" href="../../de/dcb/vector_8qh.html#a7a13bd9ecbb74025e977f77185a7449d">_vec2</a>)</td></tr>
+<tr class="separator:a5391f7d63483da6cb433aca2ebd8d8ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a050d55163b23ec6432f867b0dbc3d12d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a050d55163b23ec6432f867b0dbc3d12d">vec2_2</a>(x, y)&#160;&#160;&#160;(_vec2_x = (x), _vec2_y = (y), <a class="el" href="../../de/dcb/vector_8qh.html#a7a13bd9ecbb74025e977f77185a7449d">_vec2</a>)</td></tr>
+<tr class="separator:a050d55163b23ec6432f867b0dbc3d12d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff5e2534cd0b37bd75c3f51baa19b12e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(_x, _y, _z)&#160;&#160;&#160;(_vec3.x = (_x), _vec3.y = (_y), _vec3.z = (_z), <a class="el" href="../../de/dcb/vector_8qh.html#abe5699c7c17a0a7fb6aacdae9e6b1ef1">_vec3</a>)</td></tr>
 <tr class="separator:aff5e2534cd0b37bd75c3f51baa19b12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96d9291d4b314f99be2ca91347a70577"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a96d9291d4b314f99be2ca91347a70577">yinvert</a>(v)&#160;&#160;&#160;(<a class="el" href="../../de/dcb/vector_8qh.html#abd8e65ab96a0f1779abeccc7054702f0">_yinvert</a> = (v), _yinvert.y = 1 - _yinvert.y, <a class="el" href="../../de/dcb/vector_8qh.html#abd8e65ab96a0f1779abeccc7054702f0">_yinvert</a>)</td></tr>
@@ -163,6 +167,8 @@ Functions</h2></td></tr>
 <tr class="separator:afc1de7548641f25cb9f3cde38c9ffba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af51ffe2b6a299102846ea3cb80677406"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#af51ffe2b6a299102846ea3cb80677406">rotate</a> (<a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> v, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a)</td></tr>
 <tr class="separator:af51ffe2b6a299102846ea3cb80677406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab167fa7c81f4d5f3092673b05f07c8a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#ab167fa7c81f4d5f3092673b05f07c8a3">reflect</a> (<a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> dir, <a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> norm)</td></tr>
+<tr class="separator:ab167fa7c81f4d5f3092673b05f07c8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a924138b089b9ec886046e355aaf46db1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a924138b089b9ec886046e355aaf46db1">get_corner_position</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> box, <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> corner)</td></tr>
 <tr class="separator:a924138b089b9ec886046e355aaf46db1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12c555ed0908eefc70c198614713c854"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a12c555ed0908eefc70c198614713c854">NearestPointOnBox</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> box, <a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> org)</td></tr>
@@ -380,16 +386,36 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00009">9</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/db1/movetypes_8qc_source.html#l00414">_Movetype_TestEntityPosition()</a>, <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00247">animdecide_setimplicitstate()</a>, <a class="el" href="../../df/dc9/aim_8qc_source.html#l00170">bot_aimdir()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l02224">CSQC_Demo_Camera()</a>, <a class="el" href="../../d1/d25/lib_2csqcmodel_2cl__player_8qc_source.html#l00063">CSQCPlayer_SetPredictionError()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00034">Draw_ShowNames()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00343">fireBullet_trace_callback()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00162">HUD_Radar()</a>, <a class="el" href="../../d7/d06/interpolate_8qc_source.html#l00037">InterpolateOrigin_Note()</a>, <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00236">LOD_customize()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00511">m_tooltip()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00425">Monster_Attack_Check()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00697">Monster_Move()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01123">Monster_Move_2D()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00555">Monster_Move_Target()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l00776">PM_Footsteps()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l01104">PM_walk()</a>, <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00176">Simple_TeleportPlayer()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00617">TrueAimCheck()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00912">vehicles_touch()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00022">W_SetupShot_Dir_ProjectileSize_Range()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00080">WarpZone_Camera_camera_transform()</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00042">WarpZone_camera_transform()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/db1/movetypes_8qc_source.html#l00414">_Movetype_TestEntityPosition()</a>, <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00247">animdecide_setimplicitstate()</a>, <a class="el" href="../../df/dc9/aim_8qc_source.html#l00170">bot_aimdir()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l02209">CSQC_Demo_Camera()</a>, <a class="el" href="../../d1/d25/lib_2csqcmodel_2cl__player_8qc_source.html#l00063">CSQCPlayer_SetPredictionError()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00034">Draw_ShowNames()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00343">fireBullet_trace_callback()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00162">HUD_Radar()</a>, <a class="el" href="../../d7/d06/interpolate_8qc_source.html#l00037">InterpolateOrigin_Note()</a>, <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00236">LOD_customize()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00511">m_tooltip()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00425">Monster_Attack_Check()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00697">Monster_Move()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01123">Monster_Move_2D()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00555">Monster_Move_Target()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l00776">PM_Footsteps()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l01104">PM_walk()</a>, <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00176">Simple_TeleportPlayer()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00602">TrueAimCheck()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00912">vehicles_touch()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00022">W_SetupShot_Dir_ProjectileSize_Range()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00080">WarpZone_Camera_camera_transform()</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00042">WarpZone_camera_transform()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a79eb493ec02a69e373246111c811f713"></a>
+<a class="anchor" id="ae0030538506d12cd8ee388d004234910"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">#define vec2</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d7/d61/misc_8qh.html#aa0f8200acd4827bc9d2df09270b66c38">EVAL</a>(<a class="el" href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">OVERLOAD</a>(vec2, __VA_ARGS__))</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00090">90</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d0/d83/radar_8qc_source.html#l00162">HUD_Radar()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l00325">PM_Accelerate()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l01194">PM_air()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l01104">PM_walk()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00112">viewmodel_animate()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5391f7d63483da6cb433aca2ebd8d8ec"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define vec2_1</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">v</td><td>)</td>
@@ -398,9 +424,35 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00090">90</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00091">91</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d83/radar_8qc_source.html#l00162">HUD_Radar()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l00325">PM_Accelerate()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l01194">PM_air()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l01104">PM_walk()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00112">viewmodel_animate()</a>.</p>
+</div>
+</div>
+<a class="anchor" id="a050d55163b23ec6432f867b0dbc3d12d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define vec2_2</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">y&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;(_vec2_x = (x), _vec2_y = (y), <a class="el" href="../../de/dcb/vector_8qh.html#a7a13bd9ecbb74025e977f77185a7449d">_vec2</a>)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00092">92</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
 </div>
 </div>
@@ -434,9 +486,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00093">93</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00095">95</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00152">animdecide_getloweranim()</a>, <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00106">animdecide_getupperanim()</a>, and <a class="el" href="../../de/dcb/vector_8qh_source.html#l00108">get_corner_position()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00152">animdecide_getloweranim()</a>, <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00106">animdecide_getupperanim()</a>, and <a class="el" href="../../de/dcb/vector_8qh_source.html#l00120">get_corner_position()</a>.</p>
 
 </div>
 </div>
@@ -494,7 +546,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00105">105</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00107">107</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/dc3/teamradar_8qc_source.html#l00061">draw_teamradar_background()</a>.</p>
 
@@ -681,24 +733,24 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00108">108</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00120">120</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
-<p>References <a class="el" href="../../de/dcb/vector_8qh_source.html#l00093">vec3</a>.</p>
-<div class="fragment"><div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    {</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">switch</span> (corner)</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        {</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            <span class="keywordflow">case</span> 1: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmin.y, box.absmin.z);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <span class="keywordflow">case</span> 2: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmin.y, box.absmin.z);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <span class="keywordflow">case</span> 3: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmax.y, box.absmin.z);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">case</span> 4: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmin.y, box.absmax.z);</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <span class="keywordflow">case</span> 5: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmax.y, box.absmin.z);</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <span class="keywordflow">case</span> 6: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmax.y, box.absmax.z);</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <span class="keywordflow">case</span> 7: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmin.y, box.absmax.z);</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="keywordflow">case</span> 8: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmax.y, box.absmax.z);</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            <span class="keywordflow">default</span>: <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        }</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
-<div class="ttc" id="vector_8qh_html_aff5e2534cd0b37bd75c3f51baa19b12e"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a></div><div class="ttdeci">#define vec3(_x, _y, _z)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00093">vector.qh:93</a></div></div>
+<p>References <a class="el" href="../../de/dcb/vector_8qh_source.html#l00095">vec3</a>.</p>
+<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    {</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">switch</span> (corner)</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        {</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="keywordflow">case</span> 1: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmin.y, box.absmin.z);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="keywordflow">case</span> 2: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmin.y, box.absmin.z);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            <span class="keywordflow">case</span> 3: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmax.y, box.absmin.z);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <span class="keywordflow">case</span> 4: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmin.y, box.absmax.z);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <span class="keywordflow">case</span> 5: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmax.y, box.absmin.z);</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            <span class="keywordflow">case</span> 6: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmax.y, box.absmax.z);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <span class="keywordflow">case</span> 7: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmin.y, box.absmax.z);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            <span class="keywordflow">case</span> 8: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmax.y, box.absmax.z);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            <span class="keywordflow">default</span>: <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        }</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
+<div class="ttc" id="vector_8qh_html_aff5e2534cd0b37bd75c3f51baa19b12e"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a></div><div class="ttdeci">#define vec3(_x, _y, _z)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00095">vector.qh:95</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -726,21 +778,21 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00124">124</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00136">136</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00052">Ent_Wall_Draw()</a>, and <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00236">LOD_customize()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    {</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> m1 = box.mins + box.origin;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> m2 = box.maxs + box.origin;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ret;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        ret.x = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(m1.x, org.x, m2.x);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        ret.y = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(m1.y, org.y, m2.y);</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        ret.z = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(m1.z, org.z, m2.z);</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> m1 = box.mins + box.origin;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> m2 = box.maxs + box.origin;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ret;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        ret.x = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(m1.x, org.x, m2.x);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        ret.y = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(m1.y, org.y, m2.y);</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        ret.z = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(m1.z, org.z, m2.z);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    }</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 </div><!-- fragment -->
@@ -828,6 +880,57 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab167fa7c81f4d5f3092673b05f07c8a3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> reflect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td>
+          <td class="paramname"><em>dir</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td>
+          <td class="paramname"><em>norm</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">dir</td><td>the directional vector </td></tr>
+    <tr><td class="paramname">norm</td><td>the normalized normal </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>dir reflected by norm </dd></dl>
+
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00114">114</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00353">Porto_Draw()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">return</span> dir - 2 * (dir * norm) * norm;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;}</div>
+</div><!-- fragment -->
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_ab167fa7c81f4d5f3092673b05f07c8a3_icgraph.svg" width="360" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="af51ffe2b6a299102846ea3cb80677406"></a>
 <div class="memitem">
 <div class="memproto">
@@ -852,37 +955,37 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00095">95</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00097">97</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/d83/radar_8qc_source.html#l00162">HUD_Radar()</a>, <a class="el" href="../../de/dc3/teamradar_8qc_source.html#l00034">teamradar_2dcoord_to_texcoord()</a>, and <a class="el" href="../../de/dc3/teamradar_8qc_source.html#l00018">teamradar_texcoord_to_2dcoord()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">float</span> a_sin = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(a), a_cos = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(a);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> r = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    r.x =      v.x * a_cos + v.y * a_sin;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    r.y = -1 * v.x * a_sin + v.y * a_cos;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">return</span> r;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;{</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">float</span> a_sin = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(a), a_cos = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(a);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> r = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    r.x =      v.x * a_cos + v.y * a_sin;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    r.y = -1 * v.x * a_sin + v.y * a_cos;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">return</span> r;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_a5b48ade84c6b8b9ccb89e94c5d95ae88"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a></div><div class="ttdeci">float cos(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_aaabd4c5f172530d93a3b9c30a9e21b88"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a></div><div class="ttdeci">float sin(float f)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_af51ffe2b6a299102846ea3cb80677406_cgraph.svg" width="174" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_af51ffe2b6a299102846ea3cb80677406_icgraph.svg" width="648" height="347"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -914,21 +1017,21 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a1b150f420429d9c4768f3c23e637fbe4_cgraph.svg" width="230" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a1b150f420429d9c4768f3c23e637fbe4_icgraph.svg" width="278" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -961,21 +1064,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a33d068763f2580642c8616327a6a567a_cgraph.svg" width="224" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dcb/vector_8qh_a33d068763f2580642c8616327a6a567a_icgraph.svg" width="272" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1022,7 +1125,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00092">92</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00094">94</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
 </div>
 </div>
@@ -1050,7 +1153,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00104">104</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00106">106</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
 </div>
 </div>
@@ -1066,7 +1169,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00037">37</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/db1/draw_8qc_source.html#l00169">draw_BorderPicture()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00097">draw_ButtonPicture()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00287">draw_CenterText()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00031">draw_cursor()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00288">draw_Picture_Aligned()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00009">draw_setMousePointer()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00034">Draw_ShowNames()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00132">draw_VertButtonPicture()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00015">DrawAmmoItem()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00005">DrawCAItem()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00625">DrawDomItem()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00003">DrawNadeProgressBar()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00321">DrawNumIcon_expanding()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00091">HUD_Ammo()</a>, <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00114">HUD_CenterPrint()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01208">HUD_Configure_DrawGrid()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00853">HUD_Crosshair()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01310">HUD_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01242">HUD_DrawScoreboard()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00075">HUD_GetTableSize_BestItemAR()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00002">HUD_HealthArmor()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00454">HUD_Main()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00464">HUD_MinigameMenu()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00419">HUD_MinigameMenu_MouseInput()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00058">HUD_Mod_CA()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00104">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00689">HUD_Mod_Dom()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00409">HUD_Mod_Keepaway()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00276">HUD_Mod_KH()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00449">HUD_Mod_NexBall()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00487">HUD_Mod_Race()</a>, <a class="el" href="../../d4/d48/notify_8qc_source.html#l00043">HUD_Notify()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00304">HUD_Panel_DrawHighlight()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00201">HUD_Panel_DrawProgressBar()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01010">HUD_Panel_Highlight()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01272">HUD_Panel_HlBorder()</a>, <a class="el" href="../../d3/d8a/physics_8qc_source.html#l00006">HUD_Physics()</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00057">HUD_Powerups()</a>, <a class="el" href="../../d9/d1d/pressedkeys_8qc_source.html#l00002">HUD_PressedKeys()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00575">HUD_QuickMenu()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00539">HUD_Quickmenu_DrawEntry()</a>, <a class="el" href="../../d4/d12/racetimer_8qc_source.html#l00002">HUD_RaceTimer()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00128">HUD_Score()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00004">HUD_Score_Rankings()</a>, <a class="el" href="../../df/d1f/client_2hud_2panel_2vote_8qc_source.html#l00002">HUD_Vote()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00019">HUD_Weapons()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00657">m_draw()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00143">m_init_delayed()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00315">MapVote_Draw()</a>, <a class="el" href="../../d3/dbf/minigames_8qc_source.html#l00027">minigame_tile_pos()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00551">preMenuDraw()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00503">preMenuInit()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00480">QuickMenu_Mouse()</a>, and <a class="el" href="../../df/dc2/menu_8qc_source.html#l00103">UpdateConWidthHeight()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/db1/draw_8qc_source.html#l00169">draw_BorderPicture()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00097">draw_ButtonPicture()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00287">draw_CenterText()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00031">draw_cursor()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00288">draw_Picture_Aligned()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00009">draw_setMousePointer()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00034">Draw_ShowNames()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00132">draw_VertButtonPicture()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00015">DrawAmmoItem()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00005">DrawCAItem()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00625">DrawDomItem()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00003">DrawNadeProgressBar()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00321">DrawNumIcon_expanding()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00091">HUD_Ammo()</a>, <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00114">HUD_CenterPrint()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01208">HUD_Configure_DrawGrid()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00838">HUD_Crosshair()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01295">HUD_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01242">HUD_DrawScoreboard()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00075">HUD_GetTableSize_BestItemAR()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00002">HUD_HealthArmor()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00454">HUD_Main()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00464">HUD_MinigameMenu()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00419">HUD_MinigameMenu_MouseInput()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00058">HUD_Mod_CA()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00104">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00689">HUD_Mod_Dom()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00409">HUD_Mod_Keepaway()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00276">HUD_Mod_KH()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00449">HUD_Mod_NexBall()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00487">HUD_Mod_Race()</a>, <a class="el" href="../../d4/d48/notify_8qc_source.html#l00043">HUD_Notify()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00304">HUD_Panel_DrawHighlight()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00201">HUD_Panel_DrawProgressBar()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01010">HUD_Panel_Highlight()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01272">HUD_Panel_HlBorder()</a>, <a class="el" href="../../d3/d8a/physics_8qc_source.html#l00006">HUD_Physics()</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00057">HUD_Powerups()</a>, <a class="el" href="../../d9/d1d/pressedkeys_8qc_source.html#l00002">HUD_PressedKeys()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00575">HUD_QuickMenu()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00539">HUD_Quickmenu_DrawEntry()</a>, <a class="el" href="../../d4/d12/racetimer_8qc_source.html#l00002">HUD_RaceTimer()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00128">HUD_Score()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00004">HUD_Score_Rankings()</a>, <a class="el" href="../../df/d1f/client_2hud_2panel_2vote_8qc_source.html#l00002">HUD_Vote()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00019">HUD_Weapons()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00657">m_draw()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00143">m_init_delayed()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00315">MapVote_Draw()</a>, <a class="el" href="../../d3/dbf/minigames_8qc_source.html#l00027">minigame_tile_pos()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00551">preMenuDraw()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00503">preMenuInit()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00480">QuickMenu_Mouse()</a>, and <a class="el" href="../../df/dc2/menu_8qc_source.html#l00103">UpdateConWidthHeight()</a>.</p>
 
 </div>
 </div>
@@ -1082,7 +1185,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00038">38</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/db1/draw_8qc_source.html#l00169">draw_BorderPicture()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00097">draw_ButtonPicture()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00031">draw_cursor()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00288">draw_Picture_Aligned()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00009">draw_setMousePointer()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00034">Draw_ShowNames()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00132">draw_VertButtonPicture()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00015">DrawAmmoItem()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00005">DrawCAItem()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00625">DrawDomItem()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00321">DrawNumIcon_expanding()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00091">HUD_Ammo()</a>, <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00114">HUD_CenterPrint()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01208">HUD_Configure_DrawGrid()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00853">HUD_Crosshair()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01310">HUD_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01242">HUD_DrawScoreboard()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00075">HUD_GetTableSize_BestItemAR()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00002">HUD_HealthArmor()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00454">HUD_Main()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00464">HUD_MinigameMenu()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00419">HUD_MinigameMenu_MouseInput()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00058">HUD_Mod_CA()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00104">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00689">HUD_Mod_Dom()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00409">HUD_Mod_Keepaway()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00276">HUD_Mod_KH()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00449">HUD_Mod_NexBall()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00487">HUD_Mod_Race()</a>, <a class="el" href="../../d4/d48/notify_8qc_source.html#l00043">HUD_Notify()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00304">HUD_Panel_DrawHighlight()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00201">HUD_Panel_DrawProgressBar()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01010">HUD_Panel_Highlight()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01272">HUD_Panel_HlBorder()</a>, <a class="el" href="../../d3/d8a/physics_8qc_source.html#l00006">HUD_Physics()</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00057">HUD_Powerups()</a>, <a class="el" href="../../d9/d1d/pressedkeys_8qc_source.html#l00002">HUD_PressedKeys()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00575">HUD_QuickMenu()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00539">HUD_Quickmenu_DrawEntry()</a>, <a class="el" href="../../d4/d12/racetimer_8qc_source.html#l00002">HUD_RaceTimer()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00128">HUD_Score()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00004">HUD_Score_Rankings()</a>, <a class="el" href="../../df/d1f/client_2hud_2panel_2vote_8qc_source.html#l00002">HUD_Vote()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00019">HUD_Weapons()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00657">m_draw()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00143">m_init_delayed()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00315">MapVote_Draw()</a>, <a class="el" href="../../d3/dbf/minigames_8qc_source.html#l00027">minigame_tile_pos()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00551">preMenuDraw()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00503">preMenuInit()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00480">QuickMenu_Mouse()</a>, and <a class="el" href="../../df/dc2/menu_8qc_source.html#l00103">UpdateConWidthHeight()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/db1/draw_8qc_source.html#l00169">draw_BorderPicture()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00097">draw_ButtonPicture()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00031">draw_cursor()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00288">draw_Picture_Aligned()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00009">draw_setMousePointer()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00034">Draw_ShowNames()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00132">draw_VertButtonPicture()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00015">DrawAmmoItem()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00005">DrawCAItem()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00625">DrawDomItem()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00321">DrawNumIcon_expanding()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00091">HUD_Ammo()</a>, <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00114">HUD_CenterPrint()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01208">HUD_Configure_DrawGrid()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00838">HUD_Crosshair()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01295">HUD_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01242">HUD_DrawScoreboard()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00075">HUD_GetTableSize_BestItemAR()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00002">HUD_HealthArmor()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00454">HUD_Main()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00464">HUD_MinigameMenu()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00419">HUD_MinigameMenu_MouseInput()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00058">HUD_Mod_CA()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00104">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00689">HUD_Mod_Dom()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00409">HUD_Mod_Keepaway()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00276">HUD_Mod_KH()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00449">HUD_Mod_NexBall()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00487">HUD_Mod_Race()</a>, <a class="el" href="../../d4/d48/notify_8qc_source.html#l00043">HUD_Notify()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00304">HUD_Panel_DrawHighlight()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00201">HUD_Panel_DrawProgressBar()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01010">HUD_Panel_Highlight()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01272">HUD_Panel_HlBorder()</a>, <a class="el" href="../../d3/d8a/physics_8qc_source.html#l00006">HUD_Physics()</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00057">HUD_Powerups()</a>, <a class="el" href="../../d9/d1d/pressedkeys_8qc_source.html#l00002">HUD_PressedKeys()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00575">HUD_QuickMenu()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00539">HUD_Quickmenu_DrawEntry()</a>, <a class="el" href="../../d4/d12/racetimer_8qc_source.html#l00002">HUD_RaceTimer()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00128">HUD_Score()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00004">HUD_Score_Rankings()</a>, <a class="el" href="../../df/d1f/client_2hud_2panel_2vote_8qc_source.html#l00002">HUD_Vote()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00019">HUD_Weapons()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00657">m_draw()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00143">m_init_delayed()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00315">MapVote_Draw()</a>, <a class="el" href="../../d3/dbf/minigames_8qc_source.html#l00027">minigame_tile_pos()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00551">preMenuDraw()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00503">preMenuInit()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00480">QuickMenu_Mouse()</a>, and <a class="el" href="../../df/dc2/menu_8qc_source.html#l00103">UpdateConWidthHeight()</a>.</p>
 
 </div>
 </div>
@@ -1098,7 +1201,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00039">39</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00034">Draw_ShowNames()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00853">HUD_Crosshair()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00617">TrueAimCheck()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00034">Draw_ShowNames()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00838">HUD_Crosshair()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00602">TrueAimCheck()</a>.</p>
 
 </div>
 </div>
@@ -1108,7 +1211,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../de/dcb/vector_8qh.html">vector.qh</a></li>
-    <li class="footer">Generated on Sun Mar 13 2016 08:39:03 for Xonotic by
+    <li class="footer">Generated on Sun Mar 13 2016 09:36:06 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

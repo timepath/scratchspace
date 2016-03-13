@@ -13,7 +13,5 @@ var server_2pathlib_2main_8qc =
     [ "pathlib_getbestopen", "df/d4c/server_2pathlib_2main_8qc.html#aaf14e8a6c9d0ac123bf0b6227b4fb61c", null ],
     [ "pathlib_makenode_adaptive", "df/d4c/server_2pathlib_2main_8qc.html#a1967ff2f3a64bdc15af8370dac37c9c4", null ],
     [ "pathlib_mknode", "df/d4c/server_2pathlib_2main_8qc.html#a83274351e21299627f57002cc1c755a0", null ],
-    [ "pathlib_showsquare", "df/d4c/server_2pathlib_2main_8qc.html#adc85103f78c9ba4288aff7bcf480950e", null ],
-    [ "pathlib_showsquare2", "df/d4c/server_2pathlib_2main_8qc.html#ac595c2f5b8bbfe90fb6d917c40497d8f", null ],
     [ "PATHLIB_NODEEXPIRE", "df/d4c/server_2pathlib_2main_8qc.html#a247f038e9726975a0d8ba91d55927e59", null ]
 ];
