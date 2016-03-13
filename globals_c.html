@@ -216,8 +216,20 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 <li>c4_winning_piece()
 : <a class="el" href="d5/d00/c4_8qc.html#a89e169c240b7f8842b6072e39a7e599f">c4.qc</a>
 </li>
-<li>ca_Initialize()
-: <a class="el" href="dc/da9/gamemode__ca_8qc.html#a6aac52d485648e82bb657199be65ca90">gamemode_ca.qc</a>
+<li>CA_CheckTeams()
+: <a class="el" href="dc/da9/gamemode__ca_8qc.html#a4eb56906efb5c8da7820d434817d4a0e">gamemode_ca.qc</a>
+</li>
+<li>CA_CheckWinner()
+: <a class="el" href="dc/da9/gamemode__ca_8qc.html#a5474d0511a224439e6329941c45f1bd2">gamemode_ca.qc</a>
+</li>
+<li>ca_isEliminated()
+: <a class="el" href="dc/da9/gamemode__ca_8qc.html#aacbcf72df7630d29c5323a6668918b8d">gamemode_ca.qc</a>
+</li>
+<li>CA_RoundStart()
+: <a class="el" href="dc/da9/gamemode__ca_8qc.html#a2d5316421d04d94cdcdf74c325085e0e">gamemode_ca.qc</a>
+</li>
+<li>ca_teams
+: <a class="el" href="dc/da9/gamemode__ca_8qc.html#a83007e99e8d51b00452624bbadaae22a">gamemode_ca.qc</a>
 </li>
 <li>cache_lastmutatormsg
 : <a class="el" href="d2/d76/teamplay_8qh.html#a8801bcd8219a784f96599328753a1d25">teamplay.qh</a>
@@ -311,8 +323,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 : <a class="el" href="db/d55/campaign__file_8qc.html#a5f7b644249dd0af2317f7a98abfd332d">campaign_file.qc</a>
 </li>
 <li>CAMPAIGN_H
-: <a class="el" href="d3/d69/menu_2xonotic_2campaign_8qc.html#adbe0d49fc907b222b9eaf4519f1dc120">campaign.qc</a>
-, <a class="el" href="db/d64/campaign_8qh.html#adbe0d49fc907b222b9eaf4519f1dc120">campaign.qh</a>
+: <a class="el" href="db/d64/campaign_8qh.html#adbe0d49fc907b222b9eaf4519f1dc120">campaign.qh</a>
+, <a class="el" href="d3/d69/menu_2xonotic_2campaign_8qc.html#adbe0d49fc907b222b9eaf4519f1dc120">campaign.qc</a>
 </li>
 <li>campaign_index_var
 : <a class="el" href="de/d75/server_2campaign_8qc.html#a4788e3c43353f0019a5f2acaee178c22">campaign.qc</a>
@@ -1372,8 +1384,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 , <a class="el" href="d2/d06/server_2command_2common_8qh.html#ae1000c8fd84aaa25b59021b596b1ff00">common.qh</a>
 </li>
 <li>CommonCommand_lsmaps()
-: <a class="el" href="de/d55/server_2command_2common_8qc.html#a48ac48c6171bee0727faca50365086b5">common.qc</a>
-, <a class="el" href="d2/d06/server_2command_2common_8qh.html#a48ac48c6171bee0727faca50365086b5">common.qh</a>
+: <a class="el" href="d2/d06/server_2command_2common_8qh.html#a48ac48c6171bee0727faca50365086b5">common.qh</a>
+, <a class="el" href="de/d55/server_2command_2common_8qc.html#a48ac48c6171bee0727faca50365086b5">common.qc</a>
 </li>
 <li>CommonCommand_macro_command()
 : <a class="el" href="d2/d06/server_2command_2common_8qh.html#a50d98a59def9baf2a4bee69ec4e2f00a">common.qh</a>
@@ -1400,8 +1412,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 , <a class="el" href="d2/d06/server_2command_2common_8qh.html#ab052bfa722783c70e8cc4b3bdbe8e74c">common.qh</a>
 </li>
 <li>CommonCommand_teamstatus()
-: <a class="el" href="de/d55/server_2command_2common_8qc.html#a34760a42d4b690e91496e794ee32273d">common.qc</a>
-, <a class="el" href="d2/d06/server_2command_2common_8qh.html#a34760a42d4b690e91496e794ee32273d">common.qh</a>
+: <a class="el" href="d2/d06/server_2command_2common_8qh.html#a34760a42d4b690e91496e794ee32273d">common.qh</a>
+, <a class="el" href="de/d55/server_2command_2common_8qc.html#a34760a42d4b690e91496e794ee32273d">common.qc</a>
 </li>
 <li>CommonCommand_time()
 : <a class="el" href="de/d55/server_2command_2common_8qc.html#ac81112feb32b9615c6d58d3edf8fb83f">common.qc</a>
@@ -1416,8 +1428,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 , <a class="el" href="d2/d06/server_2command_2common_8qh.html#a5bd0a78f0037b83dc55a9c9c7ecb9848">common.qh</a>
 </li>
 <li>CommonCommand_who()
-: <a class="el" href="d2/d06/server_2command_2common_8qh.html#ab24db245661757cdc7b669dd2146c3b4">common.qh</a>
-, <a class="el" href="de/d55/server_2command_2common_8qc.html#ab24db245661757cdc7b669dd2146c3b4">common.qc</a>
+: <a class="el" href="de/d55/server_2command_2common_8qc.html#ab24db245661757cdc7b669dd2146c3b4">common.qc</a>
+, <a class="el" href="d2/d06/server_2command_2common_8qh.html#ab24db245661757cdc7b669dd2146c3b4">common.qh</a>
 </li>
 <li>COMPARE_INCREASING
 : <a class="el" href="d5/df2/common_2util_8qh.html#ab7e650e1fb3902c09e41a10c30e0158e">util.qh</a>
@@ -1489,13 +1501,14 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 <li>CONSTRUCTOR
 : <a class="el" href="db/d0a/oo_8qh.html#aace0c7293aa8214ab7b12cc485520af7">oo.qh</a>
 , <a class="el" href="dd/d87/effectinfo_8qc.html#a32099483f67e2e1d9720b22d3641a14f">effectinfo.qc</a>
+, <a class="el" href="d2/d9e/mapinfo_8qh.html#a9b0c29ebaf7c7b2949c20147afec6388">mapinfo.qh</a>
 , <a class="el" href="db/d38/base_8qh.html#a1b8ff569b88120b4c723952631fc0b81">base.qh</a>
 , <a class="el" href="d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a033186c22bfee0ec00dd42177089faeb">all.qh</a>
 , <a class="el" href="db/d9f/state_8qh.html#af3f37eafcd212d11bd6568111847de7b">state.qh</a>
 , <a class="el" href="d4/d4e/datasource_8qc.html#a7bdf6ab210ec5d29219a858e33e70cde">datasource.qc</a>
 , <a class="el" href="de/d48/dialog__settings__game_8qc.html#ab8eefe27e065d3c5686147d92ca86eab">dialog_settings_game.qc</a>
-, <a class="el" href="d2/d9e/mapinfo_8qh.html#a9b0c29ebaf7c7b2949c20147afec6388">mapinfo.qh</a>
 , <a class="el" href="dc/d1c/weapon_8qh.html#a14a3c63a8a7200c4554d10c1630f5f81">weapon.qh</a>
+, <a class="el" href="db/d38/base_8qh.html#af41164f8e14d0307896fc8ac16541d1e">base.qh</a>
 </li>
 <li>Container_alpha
 : <a class="el" href="dc/d3d/container_8qc.html#a1b051b2ab8116af77c757eb6139bf646">container.qc</a>
@@ -1550,9 +1563,9 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 , <a class="el" href="d6/d11/progsdefs_8qc.html#ad2000af3df390b95839bd71323248379">progsdefs.qc</a>
 </li>
 <li>CONTENT_WATER
-: <a class="el" href="d4/d92/csqc__constants_8qh.html#a412e0449cfbae9626fca149614b8b574">csqc_constants.qh</a>
-, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a7737c03896e1ca10a9089b5507ac75db">csprogsdefs.qc</a>
+: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a7737c03896e1ca10a9089b5507ac75db">csprogsdefs.qc</a>
 , <a class="el" href="d6/d11/progsdefs_8qc.html#aa826b8cc2aaafa1b457b8945a269079a">progsdefs.qc</a>
+, <a class="el" href="d4/d92/csqc__constants_8qh.html#a412e0449cfbae9626fca149614b8b574">csqc_constants.qh</a>
 </li>
 <li>contentavgalpha
 : <a class="el" href="d6/dd3/view_8qc.html#a20220e212d734b1a050f5fec3a1c7f44">view.qc</a>
@@ -1658,8 +1671,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 </li>
 <li>coverage()
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a5ad0f1b19b4f15304e35584c821ef092">csprogsdefs.qc</a>
-, <a class="el" href="d8/de2/menudefs_8qc.html#a5ad0f1b19b4f15304e35584c821ef092">menudefs.qc</a>
 , <a class="el" href="de/d5e/dpextensions_8qc.html#a5ad0f1b19b4f15304e35584c821ef092">dpextensions.qc</a>
+, <a class="el" href="d8/de2/menudefs_8qc.html#a5ad0f1b19b4f15304e35584c821ef092">menudefs.qc</a>
 </li>
 <li>cp_bob_dmg
 : <a class="el" href="db/dc8/cl__controlpoint_8qc.html#a166d83216aec800e561b87dbdb863acc">cl_controlpoint.qc</a>
@@ -1743,8 +1756,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 , <a class="el" href="dc/de5/common_2notifications_2all_8qh.html#aebba04739a8cedbc68c1561271936be9">all.qh</a>
 </li>
 <li>Create_Notification_Entity_Choice()
-: <a class="el" href="d4/df2/common_2notifications_2all_8qc.html#a682b66e5aae4a02b19ba825760896610">all.qc</a>
-, <a class="el" href="dc/de5/common_2notifications_2all_8qh.html#a682b66e5aae4a02b19ba825760896610">all.qh</a>
+: <a class="el" href="dc/de5/common_2notifications_2all_8qh.html#a682b66e5aae4a02b19ba825760896610">all.qh</a>
+, <a class="el" href="d4/df2/common_2notifications_2all_8qc.html#a682b66e5aae4a02b19ba825760896610">all.qc</a>
 </li>
 <li>Create_Notification_Entity_InfoCenter()
 : <a class="el" href="d4/df2/common_2notifications_2all_8qc.html#a0271f2897012f4c89692ef7cea9745da">all.qc</a>
@@ -1913,8 +1926,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 : <a class="el" href="dc/d3d/csqcmodel__hooks_8qc.html#a2b971c267f8e7807ea8b60a6070d3a2c">csqcmodel_hooks.qc</a>
 </li>
 <li>CSQCModel_CheckUpdate()
-: <a class="el" href="d3/d64/sv__model_8qh.html#a32aa4ddceceddfb68f9fc5fb066d9dd4">sv_model.qh</a>
-, <a class="el" href="dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4">sv_model.qc</a>
+: <a class="el" href="dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4">sv_model.qc</a>
+, <a class="el" href="d3/d64/sv__model_8qh.html#a32aa4ddceceddfb68f9fc5fb066d9dd4">sv_model.qh</a>
 </li>
 <li>CSQCModel_Draw()
 : <a class="el" href="d5/dc9/cl__model_8qc.html#ae40ce01eb52f361833d2902006b37695">cl_model.qc</a>
@@ -1936,8 +1949,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 </li>
 <li>CSQCMODEL_ENDIF
 : <a class="el" href="df/d05/cl__model_8qh.html#a5c003f56d18287ff05be93642b051a43">cl_model.qh</a>
-, <a class="el" href="dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43">sv_model.qc</a>
 , <a class="el" href="d5/dc9/cl__model_8qc.html#a5c003f56d18287ff05be93642b051a43">cl_model.qc</a>
+, <a class="el" href="dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43">sv_model.qc</a>
 , <a class="el" href="d3/d64/sv__model_8qh.html#a5c003f56d18287ff05be93642b051a43">sv_model.qh</a>
 , <a class="el" href="dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43">sv_model.qc</a>
 </li>
@@ -1958,11 +1971,11 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 : <a class="el" href="dc/d3d/csqcmodel__hooks_8qc.html#afc0bcf52bfa73d3b24d4cd4d66752a68">csqcmodel_hooks.qc</a>
 </li>
 <li>CSQCMODEL_IF
-: <a class="el" href="dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322">sv_model.qc</a>
-, <a class="el" href="df/d05/cl__model_8qh.html#ad310536612eda29266d5b7fdb8312322">cl_model.qh</a>
-, <a class="el" href="dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322">sv_model.qc</a>
+: <a class="el" href="df/d05/cl__model_8qh.html#ad310536612eda29266d5b7fdb8312322">cl_model.qh</a>
 , <a class="el" href="d5/dc9/cl__model_8qc.html#ad310536612eda29266d5b7fdb8312322">cl_model.qc</a>
+, <a class="el" href="dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322">sv_model.qc</a>
 , <a class="el" href="d3/d64/sv__model_8qh.html#ad310536612eda29266d5b7fdb8312322">sv_model.qh</a>
+, <a class="el" href="dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322">sv_model.qc</a>
 </li>
 <li>CSQCModel_InterpolateAnimation_1To2_Do()
 : <a class="el" href="d5/dc9/cl__model_8qc.html#a124add9ea4ca8fc067c10ef6ab9e06e5">cl_model.qc</a>
@@ -1985,8 +1998,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 , <a class="el" href="df/d05/cl__model_8qh.html#af60c1d5a9c42d0889bfd60c6197556cd">cl_model.qh</a>
 </li>
 <li>CSQCModel_InterpolateAnimation_2To4_PreNote()
-: <a class="el" href="df/d05/cl__model_8qh.html#a28ff1bc9cf025068d63906b40d1cd5a3">cl_model.qh</a>
-, <a class="el" href="d5/dc9/cl__model_8qc.html#a28ff1bc9cf025068d63906b40d1cd5a3">cl_model.qc</a>
+: <a class="el" href="d5/dc9/cl__model_8qc.html#a28ff1bc9cf025068d63906b40d1cd5a3">cl_model.qc</a>
+, <a class="el" href="df/d05/cl__model_8qh.html#a28ff1bc9cf025068d63906b40d1cd5a3">cl_model.qh</a>
 </li>
 <li>CSQCModel_InterpolateAnimation_Do()
 : <a class="el" href="d5/dc9/cl__model_8qc.html#a9617440ed95f9bbb551bc8dfa7dcc060">cl_model.qc</a>
@@ -2016,8 +2029,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 : <a class="el" href="d5/df7/lib_2csqcmodel_2common_8qh.html#a1eb2ec3a843a861f8a25fb3ca665711f">common.qh</a>
 </li>
 <li>CSQCModel_LinkEntity()
-: <a class="el" href="d3/d64/sv__model_8qh.html#a23e2c08e9f37dbd197f013e43f8685e6">sv_model.qh</a>
-, <a class="el" href="dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6">sv_model.qc</a>
+: <a class="el" href="dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6">sv_model.qc</a>
+, <a class="el" href="d3/d64/sv__model_8qh.html#a23e2c08e9f37dbd197f013e43f8685e6">sv_model.qh</a>
 </li>
 <li>csqcmodel_modelflags
 : <a class="el" href="dc/d3d/csqcmodel__hooks_8qc.html#ac684f20e961177dbb0cfa738c5c5716c">csqcmodel_hooks.qc</a>
@@ -2031,8 +2044,9 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 <li>CSQCMODEL_PROPERTY
 : <a class="el" href="d5/dc9/cl__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe">cl_model.qc</a>
 , <a class="el" href="dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe">sv_model.qc</a>
-, <a class="el" href="d3/d64/sv__model_8qh.html#ae10d3816f0f294de515bdd9189d1c6fe">sv_model.qh</a>
 , <a class="el" href="df/d05/cl__model_8qh.html#ae10d3816f0f294de515bdd9189d1c6fe">cl_model.qh</a>
+, <a class="el" href="dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe">sv_model.qc</a>
+, <a class="el" href="d3/d64/sv__model_8qh.html#ae10d3816f0f294de515bdd9189d1c6fe">sv_model.qh</a>
 </li>
 <li>CSQCMODEL_PROPERTY_FRAME
 : <a class="el" href="d5/df7/lib_2csqcmodel_2common_8qh.html#a5e8501a4c9e9aab0e9b004b8fafea392">common.qh</a>
@@ -2053,10 +2067,10 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 : <a class="el" href="d5/df7/lib_2csqcmodel_2common_8qh.html#a07565d77c7dde1ffb307e05abdf63519">common.qh</a>
 </li>
 <li>CSQCMODEL_PROPERTY_SCALED
-: <a class="el" href="df/d05/cl__model_8qh.html#a075440bd5f3803f15b4507c99d0c2bf9">cl_model.qh</a>
-, <a class="el" href="dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9">sv_model.qc</a>
+: <a class="el" href="dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9">sv_model.qc</a>
 , <a class="el" href="d3/d64/sv__model_8qh.html#a075440bd5f3803f15b4507c99d0c2bf9">sv_model.qh</a>
 , <a class="el" href="d5/dc9/cl__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9">cl_model.qc</a>
+, <a class="el" href="df/d05/cl__model_8qh.html#a075440bd5f3803f15b4507c99d0c2bf9">cl_model.qh</a>
 , <a class="el" href="dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9">sv_model.qc</a>
 </li>
 <li>CSQCMODEL_PROPERTY_SIZE
@@ -2133,8 +2147,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 , <a class="el" href="d1/d20/csqcmodel__settings_8qh.html#a878299eeec068b73303c1906e6de74dd">csqcmodel_settings.qh</a>
 </li>
 <li>CSQCPlayer_IsLocalPlayer()
-: <a class="el" href="d1/d25/lib_2csqcmodel_2cl__player_8qc.html#acb76b9afbe82658317a61e6b723fff7b">cl_player.qc</a>
-, <a class="el" href="d5/d52/lib_2csqcmodel_2cl__player_8qh.html#abb92d212381ae01e0c68ab2aabfc5c32">cl_player.qh</a>
+: <a class="el" href="d5/d52/lib_2csqcmodel_2cl__player_8qh.html#abb92d212381ae01e0c68ab2aabfc5c32">cl_player.qh</a>
+, <a class="el" href="d1/d25/lib_2csqcmodel_2cl__player_8qc.html#acb76b9afbe82658317a61e6b723fff7b">cl_player.qc</a>
 </li>
 <li>CSQCPlayer_LOD_Apply()
 : <a class="el" href="dc/d3d/csqcmodel__hooks_8qc.html#a739966029ac9ca745964423a3965367e">csqcmodel_hooks.qc</a>
@@ -2225,8 +2239,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 , <a class="el" href="d9/d35/csqcprojectile_8qh.html#afe5dcc66a116aed908f1dc3e5d700d11">csqcprojectile.qh</a>
 </li>
 <li>CSQCProjectile_Check()
-: <a class="el" href="d9/d35/csqcprojectile_8qh.html#a70b20e50e8eacc4a4f59b799ad04b2ea">csqcprojectile.qh</a>
-, <a class="el" href="d0/dcd/csqcprojectile_8qc.html#a70b20e50e8eacc4a4f59b799ad04b2ea">csqcprojectile.qc</a>
+: <a class="el" href="d0/dcd/csqcprojectile_8qc.html#a70b20e50e8eacc4a4f59b799ad04b2ea">csqcprojectile.qc</a>
+, <a class="el" href="d9/d35/csqcprojectile_8qh.html#a70b20e50e8eacc4a4f59b799ad04b2ea">csqcprojectile.qh</a>
 </li>
 <li>csqcprojectile_clientanimate
 : <a class="el" href="d9/d35/csqcprojectile_8qh.html#a648559f20af9210bf14eb62a892f0d04">csqcprojectile.qh</a>
@@ -2309,19 +2323,19 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 <li>CTX()
 : <a class="el" href="d0/dfe/i18n_8qh.html#abcf7db15e6409570dd31f785c782cd0b">i18n.qh</a>
 </li>
-<li>CTX_cache
-: <a class="el" href="d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">i18n.qh</a>
-</li>
 <li>CTX_CACHE
 : <a class="el" href="d0/dfe/i18n_8qh.html#aa1f361d4b0c21e4e579c98dcd1754d8a">i18n.qh</a>
+</li>
+<li>CTX_cache
+: <a class="el" href="d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">i18n.qh</a>
 </li>
 <li>cubic_speedfunc()
 : <a class="el" href="d5/df2/common_2util_8qh.html#aedb361548011f34164a8cd39ff6268a8">util.qh</a>
 , <a class="el" href="d0/d79/math_8qh.html#aedb361548011f34164a8cd39ff6268a8">math.qh</a>
 </li>
 <li>cubic_speedfunc_is_sane()
-: <a class="el" href="d5/df2/common_2util_8qh.html#a3668c8a46d704b46991bd9d91f445770">util.qh</a>
-, <a class="el" href="d0/d79/math_8qh.html#a25833985b41f6fe0554f992bc1d4030e">math.qh</a>
+: <a class="el" href="d0/d79/math_8qh.html#a25833985b41f6fe0554f992bc1d4030e">math.qh</a>
+, <a class="el" href="d5/df2/common_2util_8qh.html#a3668c8a46d704b46991bd9d91f445770">util.qh</a>
 </li>
 <li>Curl_URI_Get_Callback()
 : <a class="el" href="d7/d88/generic_8qh.html#a802e2fce290ef7ee78e2c5272017a500">generic.qh</a>
@@ -2384,9 +2398,9 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 <li>curvetarget
 : <a class="el" href="db/d2f/subs_8qh.html#a6bd7359933bff3359b4e7e3c826e5259">subs.qh</a>
 </li>
-<li>cvar
-: <a class="el" href="dd/d8b/sys-pre_8qh.html#a8bec2d5b8558bb04f35ff39b753bd8bd">sys-pre.qh</a>
-, <a class="el" href="d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">menudefs.qc</a>
+<li>cvar()
+: <a class="el" href="d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">menudefs.qc</a>
+, <a class="el" href="dd/d8b/sys-pre_8qh.html#a8bec2d5b8558bb04f35ff39b753bd8bd">sys-pre.qh</a>
 </li>
 <li>cvar2_setDependent
 : <a class="el" href="df/d9b/menu_2xonotic_2util_8qc.html#af2ff18ea62f392a697fa8272a47fc658">util.qc</a>
@@ -2527,8 +2541,8 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 , <a class="el" href="d5/df2/common_2util_8qh.html#a46604cd5cf9e1e490beaf60bdcaaf08d">util.qh</a>
 </li>
 <li>cvar_settemp_restore()
-: <a class="el" href="d5/df2/common_2util_8qh.html#a7f2b14bfcc1079a34d35a8fb752b36e5">util.qh</a>
-, <a class="el" href="da/d44/common_2util_8qc.html#a6e565570901e86f89595330fe2e6f66f">util.qc</a>
+: <a class="el" href="da/d44/common_2util_8qc.html#a6e565570901e86f89595330fe2e6f66f">util.qc</a>
+, <a class="el" href="d5/df2/common_2util_8qh.html#a7f2b14bfcc1079a34d35a8fb752b36e5">util.qh</a>
 </li>
 <li>cvar_string
 : <a class="el" href="dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">sys-pre.qh</a>
@@ -2541,9 +2555,9 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 : <a class="el" href="dc/d73/server_2miscfunctions_8qh.html#aa3719dc578ac9c6f94b0faebb041c5d9">miscfunctions.qh</a>
 </li>
 <li>CVAR_TYPEFLAG_ENGINE
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a590cd9d33c3b445d202ffc9787ae767a">csprogsdefs.qc</a>
+: <a class="el" href="de/d5e/dpextensions_8qc.html#a590cd9d33c3b445d202ffc9787ae767a">dpextensions.qc</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a590cd9d33c3b445d202ffc9787ae767a">csprogsdefs.qc</a>
 , <a class="el" href="d8/de2/menudefs_8qc.html#a590cd9d33c3b445d202ffc9787ae767a">menudefs.qc</a>
-, <a class="el" href="de/d5e/dpextensions_8qc.html#a590cd9d33c3b445d202ffc9787ae767a">dpextensions.qc</a>
 </li>
 <li>CVAR_TYPEFLAG_EXISTS
 : <a class="el" href="de/d5e/dpextensions_8qc.html#a72c17a8585d13d6ca89c0dd883648a91">dpextensions.qc</a>
@@ -2551,28 +2565,28 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 , <a class="el" href="d8/de2/menudefs_8qc.html#a72c17a8585d13d6ca89c0dd883648a91">menudefs.qc</a>
 </li>
 <li>CVAR_TYPEFLAG_HASDESCRIPTION
-: <a class="el" href="de/d5e/dpextensions_8qc.html#a3f659424706d9f6b45c6d331bd625920">dpextensions.qc</a>
-, <a class="el" href="d8/de2/menudefs_8qc.html#a3f659424706d9f6b45c6d331bd625920">menudefs.qc</a>
+: <a class="el" href="d8/de2/menudefs_8qc.html#a3f659424706d9f6b45c6d331bd625920">menudefs.qc</a>
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a3f659424706d9f6b45c6d331bd625920">csprogsdefs.qc</a>
+, <a class="el" href="de/d5e/dpextensions_8qc.html#a3f659424706d9f6b45c6d331bd625920">dpextensions.qc</a>
 </li>
 <li>CVAR_TYPEFLAG_PRIVATE
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ade6c825a50b4db494eeff1014714c807">csprogsdefs.qc</a>
-, <a class="el" href="de/d5e/dpextensions_8qc.html#ade6c825a50b4db494eeff1014714c807">dpextensions.qc</a>
+: <a class="el" href="de/d5e/dpextensions_8qc.html#ade6c825a50b4db494eeff1014714c807">dpextensions.qc</a>
 , <a class="el" href="d8/de2/menudefs_8qc.html#ade6c825a50b4db494eeff1014714c807">menudefs.qc</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ade6c825a50b4db494eeff1014714c807">csprogsdefs.qc</a>
 </li>
 <li>CVAR_TYPEFLAG_READONLY
 : <a class="el" href="d8/de2/menudefs_8qc.html#a93c011ecb807a6b093e421de3b1407da">menudefs.qc</a>
-, <a class="el" href="de/d5e/dpextensions_8qc.html#a93c011ecb807a6b093e421de3b1407da">dpextensions.qc</a>
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a93c011ecb807a6b093e421de3b1407da">csprogsdefs.qc</a>
+, <a class="el" href="de/d5e/dpextensions_8qc.html#a93c011ecb807a6b093e421de3b1407da">dpextensions.qc</a>
 </li>
 <li>CVAR_TYPEFLAG_SAVED
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ac67c11851e6e23cad2b3fc162c613efd">csprogsdefs.qc</a>
-, <a class="el" href="de/d5e/dpextensions_8qc.html#ac67c11851e6e23cad2b3fc162c613efd">dpextensions.qc</a>
+: <a class="el" href="de/d5e/dpextensions_8qc.html#ac67c11851e6e23cad2b3fc162c613efd">dpextensions.qc</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ac67c11851e6e23cad2b3fc162c613efd">csprogsdefs.qc</a>
 , <a class="el" href="d8/de2/menudefs_8qc.html#ac67c11851e6e23cad2b3fc162c613efd">menudefs.qc</a>
 </li>
 <li>cvar_value_issafe()
-: <a class="el" href="d0/d4f/cvar_8qh.html#a85f6a69a6a08456325e9dcf3a957fed4">cvar.qh</a>
-, <a class="el" href="d5/df2/common_2util_8qh.html#a0304bd2b494c1405dc2a4971dcbc480c">util.qh</a>
+: <a class="el" href="d5/df2/common_2util_8qh.html#a0304bd2b494c1405dc2a4971dcbc480c">util.qh</a>
+, <a class="el" href="d0/d4f/cvar_8qh.html#a85f6a69a6a08456325e9dcf3a957fed4">cvar.qh</a>
 </li>
 <li>cvarfilter
 : <a class="el" href="d3/d4f/sv__main_8qc.html#af52ad31cde1568195e8358f65b9cb00e">sv_main.qc</a>
@@ -2616,7 +2630,7 @@ $(document).ready(function(){initNavTree('globals_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Mar 13 2016 00:35:14 for Xonotic by
+    <li class="footer">Generated on Sun Mar 13 2016 02:14:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

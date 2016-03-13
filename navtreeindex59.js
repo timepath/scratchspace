@@ -1,5 +1,15 @@
 var NAVTREEINDEX59 =
 {
+"dd/df1/weapons_2weapon_2hook_8qc.html#a0e5cdcc0c5632f187183bb1dabb1a24e":[1,0,1,16,0,8,4],
+"dd/df1/weapons_2weapon_2hook_8qc.html#a26c1ac788f42d8ea1729fee825f749fd":[1,0,1,16,0,8,13],
+"dd/df1/weapons_2weapon_2hook_8qc.html#a2a5ef222d7a72ec5d31c31d181bd5fc9":[1,0,1,16,0,8,5],
+"dd/df1/weapons_2weapon_2hook_8qc.html#a3736dca67d4dece311571a78b7922f63":[1,0,1,16,0,8,0],
+"dd/df1/weapons_2weapon_2hook_8qc.html#a46ee69c567a6cf923d65b0c8b9b44f97":[1,0,1,16,0,8,10],
+"dd/df1/weapons_2weapon_2hook_8qc.html#a4c1bc04e9edbaa7dc79707357e7f3bf3":[1,0,1,16,0,8,9],
+"dd/df1/weapons_2weapon_2hook_8qc.html#a4ee3df9300f0cff5dc385b65a1bd94d9":[1,0,1,16,0,8,7],
+"dd/df1/weapons_2weapon_2hook_8qc.html#a76ad2e9ba660dce2d6aacd6c16fc7a88":[1,0,1,16,0,8,12],
+"dd/df1/weapons_2weapon_2hook_8qc.html#aa2d340d5b4e955030c2095e410232cc4":[1,0,1,16,0,8,2],
+"dd/df1/weapons_2weapon_2hook_8qc.html#abb0d14f7acc41530def9063f376432bc":[1,0,1,16,0,8,3],
 "dd/df1/weapons_2weapon_2hook_8qc.html#ac05f10fa7d1e0b2393626a01b06c1954":[1,0,1,16,0,8,11],
 "dd/df1/weapons_2weapon_2hook_8qc.html#ae1d38f709eb6f35efebd97dcb20a8cd7":[1,0,1,16,0,8,1],
 "dd/df1/weapons_2weapon_2hook_8qc.html#ae59ba15312dcd0098b11e589e950bd88":[1,0,1,16,0,8,8],
@@ -239,15 +249,5 @@ var NAVTREEINDEX59 =
 "de/d48/dialog__settings__game_8qc.html#ab8eefe27e065d3c5686147d92ca86eab":[1,0,4,4,61,2],
 "de/d48/dialog__settings__game_8qc.html#ac1e479619f450e31119b7aa389eabfd4":[1,0,4,4,61,1],
 "de/d48/dialog__settings__game_8qc.html#ac377cf91654564091530173c740555d7":[1,0,4,4,61,35],
-"de/d48/dialog__settings__game_8qc.html#ac3fd7b051191504b974767cdc3d38b24":[1,0,4,4,61,6],
-"de/d48/dialog__settings__game_8qc.html#ac93d1a3769f0344a9553217588024fff":[1,0,4,4,61,29],
-"de/d48/dialog__settings__game_8qc.html#adc812ae0c5582c174427600ed118985c":[1,0,4,4,61,26],
-"de/d48/dialog__settings__game_8qc.html#af893eb364861e74d33eeb9576c189009":[1,0,4,4,61,0],
-"de/d48/dialog__settings__game_8qc.html#af8f056907fb9be1ea5929cb2b795f4a7":[1,0,4,4,61,5],
-"de/d48/dialog__settings__game_8qc.html#afcbb849a875092168b2c1b6d951adeab":[1,0,4,4,61,30],
-"de/d48/dialog__settings__game_8qc.html#afde2c4ac80a9e358cf77709596ac8e75":[1,0,4,4,61,15],
-"de/d48/dialog__settings__game_8qc_source.html":[1,0,4,4,61],
-"de/d4a/turrets_2config_8qc.html":[1,0,1,14,6],
-"de/d4a/turrets_2config_8qc.html#a1d1f02d10e59d74c6b74a716871ea545":[1,0,1,14,6,1],
-"de/d4a/turrets_2config_8qc.html#a4cec7b70063ba5f4b12fa02e610549ba":[1,0,1,14,6,2]
+"de/d48/dialog__settings__game_8qc.html#ac3fd7b051191504b974767cdc3d38b24":[1,0,4,4,61,6]
 };

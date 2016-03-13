@@ -74,19 +74,19 @@ var NAVTREEINDEX =
 "dc/d3d/container_8qc.html#a3ae127ec828e2f1fbcd8d178bfbb5818",
 "dc/d73/server_2miscfunctions_8qh.html#a89a8ee706f5ffbb92ccc84edb26717f4",
 "dc/d9d/inventory_8qh.html#a1e49bf083dce569fb8c41b6614c8c4f6",
-"dc/de5/common_2notifications_2all_8qh.html#a77f88494996f9426ad3c4fad41b9b52b",
-"dd/d59/modicons_8qc.html#abb4b022156f7d6a6605893e79d3de30a",
-"dd/da1/dialog__settings__game__hud_8qc.html",
-"dd/df1/weapons_2weapon_2hook_8qc.html#ac05f10fa7d1e0b2393626a01b06c1954",
-"de/d4a/turrets_2config_8qc.html#a686bcea74a2d69e1ca5ee58acd7158a9",
-"de/d5e/dpextensions_8qc.html#a877ab9885479279b43f8a47782f9785a",
-"de/d75/server_2campaign_8qc.html#ad13bdb6078e9ab062dd228765608aa7e",
-"de/dcb/vector_8qh.html#a1b150f420429d9c4768f3c23e637fbe4",
-"df/d28/menu_2xonotic_2button_8qc.html#a4a7f0aca07027d2127e991424c203cb0",
-"df/d64/throwing_8qc.html#a97f02d70ce7169f7c173a2b3cb3de2fc",
-"df/d9b/menu_2xonotic_2util_8qc.html#afa7ab3d4a8ca50b60f35a452705184d6",
-"df/dd4/navigation_8qh.html#a028a164cdba279849817955b43dc6879",
-"globals_f.html"
+"dc/de5/common_2notifications_2all_8qh.html#a564b7111516171ac760141a96e48dc15",
+"dd/d59/modicons_8qc.html#a90b00643b4f9e53be543cdb107e4d527",
+"dd/d8b/sys-pre_8qh.html#af049e5748138e84b5a3570816901699b",
+"dd/df1/weapons_2weapon_2hook_8qc.html#a0e5cdcc0c5632f187183bb1dabb1a24e",
+"de/d48/dialog__settings__game_8qc.html#ac93d1a3769f0344a9553217588024fff",
+"de/d5e/dpextensions_8qc.html#a803255bd100b7f3c7900e628785c08ff",
+"de/d75/server_2campaign_8qc.html",
+"de/dc3/teamradar_8qc.html#acc159f2fe7a18525736a2d686d7f974f",
+"df/d19/mutators_2mutator_2campcheck_2module_8inc.html",
+"df/d58/yenc_8qh.html#a01877237296c3e64e52b9674f5d326bf",
+"df/d9b/menu_2xonotic_2util_8qc.html#ada73b695059752dc4c9de93567017ca8",
+"df/dc9/aim_8qc.html#a2b77aecf8f23e393989098eff0585202",
+"globals_defs_s.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

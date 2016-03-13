@@ -1,5 +1,15 @@
 var NAVTREEINDEX60 =
 {
+"de/d48/dialog__settings__game_8qc.html#ac93d1a3769f0344a9553217588024fff":[1,0,4,4,61,29],
+"de/d48/dialog__settings__game_8qc.html#adc812ae0c5582c174427600ed118985c":[1,0,4,4,61,26],
+"de/d48/dialog__settings__game_8qc.html#af893eb364861e74d33eeb9576c189009":[1,0,4,4,61,0],
+"de/d48/dialog__settings__game_8qc.html#af8f056907fb9be1ea5929cb2b795f4a7":[1,0,4,4,61,5],
+"de/d48/dialog__settings__game_8qc.html#afcbb849a875092168b2c1b6d951adeab":[1,0,4,4,61,30],
+"de/d48/dialog__settings__game_8qc.html#afde2c4ac80a9e358cf77709596ac8e75":[1,0,4,4,61,15],
+"de/d48/dialog__settings__game_8qc_source.html":[1,0,4,4,61],
+"de/d4a/turrets_2config_8qc.html":[1,0,1,14,6],
+"de/d4a/turrets_2config_8qc.html#a1d1f02d10e59d74c6b74a716871ea545":[1,0,1,14,6,1],
+"de/d4a/turrets_2config_8qc.html#a4cec7b70063ba5f4b12fa02e610549ba":[1,0,1,14,6,2],
 "de/d4a/turrets_2config_8qc.html#a686bcea74a2d69e1ca5ee58acd7158a9":[1,0,1,14,6,0],
 "de/d4a/turrets_2config_8qc_source.html":[1,0,1,14,6],
 "de/d4d/sv__controlpoint_8qc.html":[1,0,1,3,0,1,6],
@@ -239,15 +249,5 @@ var NAVTREEINDEX60 =
 "de/d5e/dpextensions_8qc.html#a7e5b6bc70dfd618e48a10ed1d9cafaf7":[1,0,2,0,1,133],
 "de/d5e/dpextensions_8qc.html#a7ef46523bf1f305084e2ca69db4f24ee":[1,0,2,0,1,179],
 "de/d5e/dpextensions_8qc.html#a7f1ab56be47bd76da238771e4f9d20fe":[1,0,2,0,1,63],
-"de/d5e/dpextensions_8qc.html#a7ff47dfd72a1ac23c450d127bd29c24b":[1,0,2,0,1,332],
-"de/d5e/dpextensions_8qc.html#a803255bd100b7f3c7900e628785c08ff":[1,0,2,0,1,200],
-"de/d5e/dpextensions_8qc.html#a808cd5924a3c997566fac8d8d5f4e275":[1,0,2,0,1,124],
-"de/d5e/dpextensions_8qc.html#a816ed7b84601246e13deb65c1c469e86":[1,0,2,0,1,3],
-"de/d5e/dpextensions_8qc.html#a824bc77937acef6e86ae022e4ad44bbb":[1,0,2,0,1,241],
-"de/d5e/dpextensions_8qc.html#a83575a1216d6aa3723c78f094a89ed98":[1,0,2,0,1,246],
-"de/d5e/dpextensions_8qc.html#a8391594e8f422685018f046deded8aac":[1,0,2,0,1,229],
-"de/d5e/dpextensions_8qc.html#a84fe4861480999a1064c3be3a835742d":[1,0,2,0,1,81],
-"de/d5e/dpextensions_8qc.html#a8512dd442693f34bfe3adb4686722892":[1,0,2,0,1,322],
-"de/d5e/dpextensions_8qc.html#a8679bdebf999914f654c689280cdc803":[1,0,2,0,1,33],
-"de/d5e/dpextensions_8qc.html#a8702ab4a8acd103e32b11fcdb31d9e9b":[1,0,2,0,1,234]
+"de/d5e/dpextensions_8qc.html#a7ff47dfd72a1ac23c450d127bd29c24b":[1,0,2,0,1,332]
 };

@@ -266,6 +266,7 @@ var searchData=
   ['srecordtime_5fprev',['srecordtime_prev',['../dd/d59/modicons_8qc.html#a5563b810fe663b282f00d008ba482ca3',1,'modicons.qc']]],
   ['ssdirs',['ssdirs',['../d4/d0d/client_2mapvoting_8qc.html#a40012f98faf7c1e5b08e68eeecf9a991',1,'mapvoting.qc']]],
   ['st_5fassault_5fobjectives',['ST_ASSAULT_OBJECTIVES',['../d9/d8e/gamemode__assault_8qc.html#aa63969d6de82cd5d06f291e89e140ca4',1,'gamemode_assault.qc']]],
+  ['st_5fca_5frounds',['ST_CA_ROUNDS',['../dc/da9/gamemode__ca_8qc.html#a4f5d0f31a6f4f35eb767deb39752f117',1,'gamemode_ca.qc']]],
   ['st_5fcts_5flaps',['ST_CTS_LAPS',['../d5/d69/gamemode__cts_8qc.html#a66141889a6515673a3f81a45247024ff',1,'gamemode_cts.qc']]],
   ['st_5fdom_5fcaps',['ST_DOM_CAPS',['../dc/d80/gamemode__domination_8qc.html#a4775b5dabe0d519c13fa8aaa4ab574d7',1,'gamemode_domination.qc']]],
   ['st_5fdom_5fticks',['ST_DOM_TICKS',['../dc/d80/gamemode__domination_8qc.html#a886393b0dcd24628acbfab1e1ba79167',1,'gamemode_domination.qc']]],
