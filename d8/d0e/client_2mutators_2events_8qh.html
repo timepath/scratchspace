@@ -135,28 +135,28 @@ Macros</h2></td></tr>
 <tr class="memitem:a622e3f3fc74d161682435c58f1d2f046"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a622e3f3fc74d161682435c58f1d2f046">EV_CSQC_ConsoleCommand</a>(i, o)</td></tr>
 <tr class="memdesc:a622e3f3fc74d161682435c58f1d2f046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, CSQC_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }.  <a href="#a622e3f3fc74d161682435c58f1d2f046">More...</a><br/></td></tr>
 <tr class="separator:a622e3f3fc74d161682435c58f1d2f046"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad401df82de86be4f17b96f90e41f5171"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#ad401df82de86be4f17b96f90e41f5171">EV_Ent_Projectile</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:ad401df82de86be4f17b96f90e41f5171"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#ad401df82de86be4f17b96f90e41f5171">EV_Ent_Projectile</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
 <tr class="memdesc:ad401df82de86be4f17b96f90e41f5171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a projectile is linked with CSQC.  <a href="#ad401df82de86be4f17b96f90e41f5171">More...</a><br/></td></tr>
 <tr class="separator:ad401df82de86be4f17b96f90e41f5171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ad70187358414cbaf8f2a0968c0fdea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea">EV_EditProjectile</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:a1ad70187358414cbaf8f2a0968c0fdea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea">EV_EditProjectile</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
 <tr class="memdesc:a1ad70187358414cbaf8f2a0968c0fdea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a projectile's properties are being modified.  <a href="#a1ad70187358414cbaf8f2a0968c0fdea">More...</a><br/></td></tr>
 <tr class="separator:a1ad70187358414cbaf8f2a0968c0fdea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac565948f62c39b18ab0d5054823ec530"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#ac565948f62c39b18ab0d5054823ec530">EV_TagIndex_Update</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:ac565948f62c39b18ab0d5054823ec530"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#ac565948f62c39b18ab0d5054823ec530">EV_TagIndex_Update</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
 <tr class="memdesc:ac565948f62c39b18ab0d5054823ec530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when updating the attached tags index.  <a href="#ac565948f62c39b18ab0d5054823ec530">More...</a><br/></td></tr>
 <tr class="separator:ac565948f62c39b18ab0d5054823ec530"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ec170daca62fad6eb6d6dc1aadb349f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a7ec170daca62fad6eb6d6dc1aadb349f">EV_TagIndex_Apply</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:a7ec170daca62fad6eb6d6dc1aadb349f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a7ec170daca62fad6eb6d6dc1aadb349f">EV_TagIndex_Apply</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
 <tr class="memdesc:a7ec170daca62fad6eb6d6dc1aadb349f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when setting the attached tags.  <a href="#a7ec170daca62fad6eb6d6dc1aadb349f">More...</a><br/></td></tr>
 <tr class="separator:a7ec170daca62fad6eb6d6dc1aadb349f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e5156dd306c9a01e35a9e4d3c28f43e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a5e5156dd306c9a01e35a9e4d3c28f43e">EV_Skeleton_CheckBones</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:a5e5156dd306c9a01e35a9e4d3c28f43e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a5e5156dd306c9a01e35a9e4d3c28f43e">EV_Skeleton_CheckBones</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
 <tr class="memdesc:a5e5156dd306c9a01e35a9e4d3c28f43e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when setting up skeleton bones.  <a href="#a5e5156dd306c9a01e35a9e4d3c28f43e">More...</a><br/></td></tr>
 <tr class="separator:a5e5156dd306c9a01e35a9e4d3c28f43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05a15144a0c4454d3b267e709971ae65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a05a15144a0c4454d3b267e709971ae65">EV_Skeleton_CheckModel</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:a05a15144a0c4454d3b267e709971ae65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a05a15144a0c4454d3b267e709971ae65">EV_Skeleton_CheckModel</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
 <tr class="memdesc:a05a15144a0c4454d3b267e709971ae65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when setting up bones from the loaded model.  <a href="#a05a15144a0c4454d3b267e709971ae65">More...</a><br/></td></tr>
 <tr class="separator:a05a15144a0c4454d3b267e709971ae65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0df2684a8ff65547eca9cec2701e1eec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a0df2684a8ff65547eca9cec2701e1eec">EV_GetModelParams</a>(i, o)</td></tr>
 <tr class="memdesc:a0df2684a8ff65547eca9cec2701e1eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when getting the global parameters for a model.  <a href="#a0df2684a8ff65547eca9cec2701e1eec">More...</a><br/></td></tr>
 <tr class="separator:a0df2684a8ff65547eca9cec2701e1eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f415751211eff012cb012a3eac97df7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a5f415751211eff012cb012a3eac97df7">EV_WantEventchase</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:a5f415751211eff012cb012a3eac97df7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a5f415751211eff012cb012a3eac97df7">EV_WantEventchase</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
 <tr class="memdesc:a5f415751211eff012cb012a3eac97df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called checking if 3rd person mode should be forced on.  <a href="#a5f415751211eff012cb012a3eac97df7">More...</a><br/></td></tr>
 <tr class="separator:a5f415751211eff012cb012a3eac97df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a25bfd691414ad6357c67077eb7917f73"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a25bfd691414ad6357c67077eb7917f73">EV_AnnouncerOption</a>(i, o)</td></tr>
@@ -166,7 +166,7 @@ Macros</h2></td></tr>
 <tr class="memitem:a73b29441aa587047a111602661a4cdf6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a73b29441aa587047a111602661a4cdf6">EV_Particles_VortexBeam</a>(i, o)</td></tr>
 <tr class="memdesc:a73b29441aa587047a111602661a4cdf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true to not draw any vortex beam.  <a href="#a73b29441aa587047a111602661a4cdf6">More...</a><br/></td></tr>
 <tr class="separator:a73b29441aa587047a111602661a4cdf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f9b4ecc9ec153e591572f40a7e0c88c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a3f9b4ecc9ec153e591572f40a7e0c88c">EV_Weapon_ImpactEffect</a>(i, o)&#160;&#160;&#160;i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a91299c6f6f4446edb6111ddde3c66bcd">w_hitwep</a>) \</td></tr>
+<tr class="memitem:a3f9b4ecc9ec153e591572f40a7e0c88c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a3f9b4ecc9ec153e591572f40a7e0c88c">EV_Weapon_ImpactEffect</a>(i, o)&#160;&#160;&#160;i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a91299c6f6f4446edb6111ddde3c66bcd">w_hitwep</a>) \</td></tr>
 <tr class="memdesc:a3f9b4ecc9ec153e591572f40a7e0c88c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true to not draw any impact effect.  <a href="#a3f9b4ecc9ec153e591572f40a7e0c88c">More...</a><br/></td></tr>
 <tr class="separator:a3f9b4ecc9ec153e591572f40a7e0c88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6cb59ab1d2677d7ef5909b496b1e578d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a6cb59ab1d2677d7ef5909b496b1e578d">EV_HUD_Command</a>(i, o)&#160;&#160;&#160;/** also, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>() can be used */ i(<a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51">cmd_argc</a>) \</td></tr>
@@ -230,7 +230,7 @@ Variables</h2></td></tr>
 <tr class="separator:a266ba425717a53485af9d5b1ca824fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab75f6d2b850e7cf3bbc37a7b57e38f90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#ab75f6d2b850e7cf3bbc37a7b57e38f90">vbeam_endpos</a></td></tr>
 <tr class="separator:ab75f6d2b850e7cf3bbc37a7b57e38f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91299c6f6f4446edb6111ddde3c66bcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a91299c6f6f4446edb6111ddde3c66bcd">w_hitwep</a></td></tr>
+<tr class="memitem:a91299c6f6f4446edb6111ddde3c66bcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a91299c6f6f4446edb6111ddde3c66bcd">w_hitwep</a></td></tr>
 <tr class="separator:a91299c6f6f4446edb6111ddde3c66bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -332,7 +332,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -362,7 +362,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -519,7 +519,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -549,7 +549,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -579,7 +579,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -609,7 +609,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -639,7 +639,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -669,7 +669,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a91299c6f6f4446edb6111ddde3c66bcd">w_hitwep</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a91299c6f6f4446edb6111ddde3c66bcd">w_hitwep</a>) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1281,7 +1281,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> w_hitwep</td>
+          <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> w_hitwep</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1296,7 +1296,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_08b4cf75afed9a7734ab4c2d9f3e6fae.html">mutators</a></li><li class="navelem"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Sun Mar 13 2016 06:23:53 for Xonotic by
+    <li class="footer">Generated on Sun Mar 13 2016 08:38:59 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

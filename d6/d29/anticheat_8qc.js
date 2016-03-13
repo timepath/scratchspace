@@ -2,7 +2,7 @@ var anticheat_8qc =
 [
     [ "anticheat_display", "d6/d29/anticheat_8qc.html#aa3505a15bb64d8c6cbdc3ba61759e85a", null ],
     [ "anticheat_endframe", "d6/d29/anticheat_8qc.html#ad52af0e13ac752967839101b3b1a9458", null ],
-    [ "anticheat_fixangle", "d6/d29/anticheat_8qc.html#a94dfb476e667e7906d37981df13fe9d6", null ],
+    [ "anticheat_fixangle", "d6/d29/anticheat_8qc.html#a068a96ae9ccf8a1fd9cd99e95d5e1c7e", null ],
     [ "anticheat_getvalue", "d6/d29/anticheat_8qc.html#a6eb040b19e7c07d737a469f8416f43a2", null ],
     [ "anticheat_init", "d6/d29/anticheat_8qc.html#a620f7cf1b6c95a9c13fb4ee6c0476309", null ],
     [ "anticheat_physics", "d6/d29/anticheat_8qc.html#ab77a6f0f9b4de4381e9c1c2e79226f07", null ],

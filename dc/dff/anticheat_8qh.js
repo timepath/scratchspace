@@ -2,7 +2,7 @@ var anticheat_8qh =
 [
     [ "ANTICHEAT_H", "dc/dff/anticheat_8qh.html#a0014d65fe8b50bc9e51e4bd33f47aadf", null ],
     [ "anticheat_endframe", "dc/dff/anticheat_8qh.html#ad52af0e13ac752967839101b3b1a9458", null ],
-    [ "anticheat_fixangle", "dc/dff/anticheat_8qh.html#a94dfb476e667e7906d37981df13fe9d6", null ],
+    [ "anticheat_fixangle", "dc/dff/anticheat_8qh.html#a068a96ae9ccf8a1fd9cd99e95d5e1c7e", null ],
     [ "anticheat_getvalue", "dc/dff/anticheat_8qh.html#ac5778770853efd4451b1c2a8f53759f5", null ],
     [ "anticheat_init", "dc/dff/anticheat_8qh.html#a620f7cf1b6c95a9c13fb4ee6c0476309", null ],
     [ "anticheat_physics", "dc/dff/anticheat_8qh.html#ab77a6f0f9b4de4381e9c1c2e79226f07", null ],

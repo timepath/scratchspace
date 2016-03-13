@@ -1107,13 +1107,13 @@ $(document).ready(function(){initNavTree('d3/d07/scoreboard_8qc_source.html','..
 <div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;    <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#ada1bb14264d5feafb481dc451a540667">WepSet</a> weapons_inmap = WepSet_GetFromStat_InMap();</div>
 <div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;    <span class="keywordtype">float</span> initial_posx = pos.x;</div>
 <div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;    <span class="keywordtype">int</span> disownedcnt = 0;</div>
-<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, {</div>
 <div class="line"><a name="l01005"></a><span class="lineno"> 1005</span>&#160;        <span class="keywordtype">int</span> weapon_stats = <a class="code" href="../../d3/d05/hud_8qh.html#aa9be1b3968369f99fd49961627b9cd59">weapon_accuracy</a>[i - <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a90d55a6f4174a92f4c7740dba8e236df">WEP_FIRST</a>];</div>
 <div class="line"><a name="l01006"></a><span class="lineno"> 1006</span>&#160;</div>
 <div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;        <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#ada1bb14264d5feafb481dc451a540667">WepSet</a> set = it.m_wepset;</div>
 <div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160;        <span class="keywordflow">if</span> (weapon_stats &lt; 0 &amp;&amp; !(weapons_stat &amp; set || weapons_inmap &amp; set))</div>
 <div class="line"><a name="l01009"></a><span class="lineno"> 1009</span>&#160;            ++disownedcnt;</div>
-<div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;    ));</div>
+<div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;    });</div>
 <div class="line"><a name="l01011"></a><span class="lineno"> 1011</span>&#160;</div>
 <div class="line"><a name="l01012"></a><span class="lineno"> 1012</span>&#160;    <span class="keywordtype">int</span> weapon_cnt = (Weapons_COUNT - 1) - disownedcnt;</div>
 <div class="line"><a name="l01013"></a><span class="lineno"> 1013</span>&#160;    <span class="keywordflow">if</span> (weapon_cnt &lt;= 0) <span class="keywordflow">return</span> pos;</div>
@@ -1167,7 +1167,7 @@ $(document).ready(function(){initNavTree('d3/d07/scoreboard_8qc_source.html','..
 <div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> tmpos = pos;</div>
 <div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;</div>
 <div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;    <span class="keywordtype">int</span> column = 0;</div>
-<div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, {</div>
 <div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160;        <span class="keywordtype">int</span> weapon_stats = <a class="code" href="../../d3/d05/hud_8qh.html#aa9be1b3968369f99fd49961627b9cd59">weapon_accuracy</a>[i - <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a90d55a6f4174a92f4c7740dba8e236df">WEP_FIRST</a>];</div>
 <div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;</div>
 <div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;        <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#ada1bb14264d5feafb481dc451a540667">WepSet</a> set = it.m_wepset;</div>
@@ -1206,7 +1206,7 @@ $(document).ready(function(){initNavTree('d3/d07/scoreboard_8qc_source.html','..
 <div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;            pos.y += <a class="code" href="../../d9/de7/jumppads_8qh.html#a48083b65ac9a863566dc3e3fff09a5b4">height</a>;</div>
 <div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;        }</div>
 <div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;        ++column;</div>
-<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;    ));</div>
+<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;    });</div>
 <div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;</div>
 <div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;    <span class="keywordflow">if</span> (weapons_with_stats)</div>
 <div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;        <a class="code" href="../../d3/d07/scoreboard_8qc.html#aaa5eb41e22d77cd3026131224c82308b">average_accuracy</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((<a class="code" href="../../d3/d07/scoreboard_8qc.html#aaa5eb41e22d77cd3026131224c82308b">average_accuracy</a> * 100 / weapons_with_stats) + 0.5);</div>
@@ -1653,7 +1653,6 @@ $(document).ready(function(){initNavTree('d3/d07/scoreboard_8qc_source.html','..
 <div class="ttc" id="scoreboard_8qc_html_a087ba6bc55f25ad36364d0bf2a6f0af1"><div class="ttname"><a href="../../d3/d07/scoreboard_8qc.html#a087ba6bc55f25ad36364d0bf2a6f0af1">drawstringright</a></div><div class="ttdeci">void drawstringright(vector, string, vector, vector, float, float)</div></div>
 <div class="ttc" id="client_2defs_8qh_html_ae863614c1b490a13d1d72a792992b9b4"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ae863614c1b490a13d1d72a792992b9b4">scoreboard_showscores</a></div><div class="ttdeci">float scoreboard_showscores</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00006">defs.qh:6</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_ab8c53631472292565e872627d2414cc7"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ab8c53631472292565e872627d2414cc7">SP_SUICIDES</a></div><div class="ttdeci">const int SP_SUICIDES</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00135">constants.qh:135</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00037">misc.qh:37</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_a73cc543cc744ae536ed0ef34b8d481c4"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a73cc543cc744ae536ed0ef34b8d481c4">textShortenToWidth</a></div><div class="ttdeci">string textShortenToWidth(string theText, float maxWidth, vector theFontSize, textLengthUpToWidth_widthFunction_t tw)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00916">util.qc:916</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_aa04d283e43270bc32a129d684a204f6d"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#aa04d283e43270bc32a129d684a204f6d">autocvar_scoreboard_offset_left</a></div><div class="ttdeci">float autocvar_scoreboard_offset_left</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00397">autocvars.qh:397</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a369b28ec61fa01a71581bc1a599c9ee8"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a369b28ec61fa01a71581bc1a599c9ee8">autocvar_scoreboard_columns</a></div><div class="ttdeci">string autocvar_scoreboard_columns</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00391">autocvars.qh:391</a></div></div>
@@ -1823,7 +1822,7 @@ $(document).ready(function(){initNavTree('d3/d07/scoreboard_8qc_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d3/d07/scoreboard_8qc.html">scoreboard.qc</a></li>
-    <li class="footer">Generated on Sun Mar 13 2016 06:23:48 for Xonotic by
+    <li class="footer">Generated on Sun Mar 13 2016 08:38:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

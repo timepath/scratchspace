@@ -102,6 +102,7 @@ $(document).ready(function(){initNavTree('d4/d18/iter_8qh.html','../../');});
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">iter.qh File Reference</div>  </div>
@@ -144,6 +145,10 @@ Macros</h2></td></tr>
 <tr class="separator:a3e3f749f07daa9cb2df5070acc51f1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc49284d82b9a5e8c60a3c64b992e6c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#abc49284d82b9a5e8c60a3c64b992e6c6">FOREACH_ENTITY_UNORDERED</a>(cond, body)</td></tr>
 <tr class="separator:abc49284d82b9a5e8c60a3c64b992e6c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f7597474efce08cc8d5d72c065ef533"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a9f7597474efce08cc8d5d72c065ef533">FOREACH_ENTITY_RADIUS</a>(org, dist, cond, body)&#160;&#160;&#160;<a class="el" href="../../d4/d18/iter_8qh.html#a53044e6c73cf5f2c841834719714e452">FOREACH_ENTITY_RADIUS_UNORDERED</a>(org, dist, cond, body)</td></tr>
+<tr class="separator:a9f7597474efce08cc8d5d72c065ef533"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53044e6c73cf5f2c841834719714e452"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a53044e6c73cf5f2c841834719714e452">FOREACH_ENTITY_RADIUS_UNORDERED</a>(org, dist, cond, body)</td></tr>
+<tr class="separator:a53044e6c73cf5f2c841834719714e452"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f7a7d300e46d88cef3a4cee03d98c01"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a9f7a7d300e46d88cef3a4cee03d98c01">FOREACH_ENTITY_CLASS</a>(<a class="el" href="../../d2/d37/g__models_8qc.html#a60140a7d269e136822cf5ca494cc7d42">class</a>, cond, body)&#160;&#160;&#160;<a class="el" href="../../d4/d18/iter_8qh.html#a2785e03085908282b1a27dbcaac4a5ac">ORDERED</a>(FOREACH_ENTITY_CLASS)(<a class="el" href="../../d2/d37/g__models_8qc.html#a60140a7d269e136822cf5ca494cc7d42">class</a>, cond, body)</td></tr>
 <tr class="separator:a9f7a7d300e46d88cef3a4cee03d98c01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c49b7caa0ea780877ce66ee31fa0cd5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a9c49b7caa0ea780877ce66ee31fa0cd5">FOREACH_ENTITY_CLASS_ORDERED</a>(<a class="el" href="../../d2/d37/g__models_8qc.html#a60140a7d269e136822cf5ca494cc7d42">class</a>, cond, body)&#160;&#160;&#160;<a class="el" href="../../d4/d18/iter_8qh.html#a3e3f749f07daa9cb2df5070acc51f1b7">FOREACH_ENTITY_ORDERED</a>(<a class="el" href="../../db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec">it.classname</a> == <a class="el" href="../../d2/d37/g__models_8qc.html#a60140a7d269e136822cf5ca494cc7d42">class</a> &amp;&amp; (cond), body)</td></tr>
@@ -175,32 +180,41 @@ Macros</h2></td></tr>
 <tr class="memitem:ac51bff5be5de5d32f68756f40438b7c6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#ac51bff5be5de5d32f68756f40438b7c6">FOREACH_ENTITY_STRING_UNORDERED</a>(fld, match, body)</td></tr>
 <tr class="separator:ac51bff5be5de5d32f68756f40438b7c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a7c509ff3f9216709e7a6f30934c0f7ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> (<a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> org, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> rad,.entity tofield) _findradius_tofield</td></tr>
+<tr class="separator:a7c509ff3f9216709e7a6f30934c0f7ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a8f849ec37858b72ad03543fb4227c773"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a8f849ec37858b72ad03543fb4227c773">_FOREACH_ENTITY_fld</a></td></tr>
+<tr class="memitem:a8f849ec37858b72ad03543fb4227c773"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a8f849ec37858b72ad03543fb4227c773">_FOREACH_ENTITY_fld</a></td></tr>
 <tr class="memdesc:a8f849ec37858b72ad03543fb4227c773"><td class="mdescLeft">&#160;</td><td class="mdescRight">marker field, always NULL  <a href="#a8f849ec37858b72ad03543fb4227c773">More...</a><br/></td></tr>
 <tr class="separator:a8f849ec37858b72ad03543fb4227c773"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1a647ca8c7434b01c3ec0ba21325b3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#ad1a647ca8c7434b01c3ec0ba21325b3f">_FOREACH_ENTITY_next</a></td></tr>
+<tr class="memitem:ad1a647ca8c7434b01c3ec0ba21325b3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#ad1a647ca8c7434b01c3ec0ba21325b3f">_FOREACH_ENTITY_next</a></td></tr>
 <tr class="separator:ad1a647ca8c7434b01c3ec0ba21325b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adc197d0b39d99a7ede692429aed19df3"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#adc197d0b39d99a7ede692429aed19df3">_FOREACH_ENTITY_mutex</a></td></tr>
 <tr class="separator:adc197d0b39d99a7ede692429aed19df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0365798c0870d69e8b9e3b63cc0601d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a0365798c0870d69e8b9e3b63cc0601d1">_FOREACH_ENTITY_CLASS_next</a></td></tr>
+<tr class="memitem:ab52741e8153c868ee6b76ff4db16e1ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#ab52741e8153c868ee6b76ff4db16e1ad">_FOREACH_ENTITY_RADIUS_next</a></td></tr>
+<tr class="separator:ab52741e8153c868ee6b76ff4db16e1ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa93dfe543b9a5168047011bbc36ed22d"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#aa93dfe543b9a5168047011bbc36ed22d">_FOREACH_ENTITY_RADIUS_mutex</a></td></tr>
+<tr class="separator:aa93dfe543b9a5168047011bbc36ed22d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0365798c0870d69e8b9e3b63cc0601d1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a0365798c0870d69e8b9e3b63cc0601d1">_FOREACH_ENTITY_CLASS_next</a></td></tr>
 <tr class="separator:a0365798c0870d69e8b9e3b63cc0601d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b4018fca61add737a9b015802c44a54"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a5b4018fca61add737a9b015802c44a54">_FOREACH_ENTITY_CLASS_mutex</a></td></tr>
 <tr class="separator:a5b4018fca61add737a9b015802c44a54"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2acf45205af4b84d1c190ad075f97cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#aa2acf45205af4b84d1c190ad075f97cd">_FOREACH_ENTITY_FLOAT_next</a></td></tr>
+<tr class="memitem:aa2acf45205af4b84d1c190ad075f97cd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#aa2acf45205af4b84d1c190ad075f97cd">_FOREACH_ENTITY_FLOAT_next</a></td></tr>
 <tr class="separator:aa2acf45205af4b84d1c190ad075f97cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8b820afe18caf8c33e874a81e2e44aa9"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a8b820afe18caf8c33e874a81e2e44aa9">_FOREACH_ENTITY_FLOAT_mutex</a></td></tr>
 <tr class="separator:a8b820afe18caf8c33e874a81e2e44aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfd75a1ae3d9b7ae8f3586017d29d05a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#abfd75a1ae3d9b7ae8f3586017d29d05a">_FOREACH_ENTITY_FLAGS_next</a></td></tr>
+<tr class="memitem:abfd75a1ae3d9b7ae8f3586017d29d05a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#abfd75a1ae3d9b7ae8f3586017d29d05a">_FOREACH_ENTITY_FLAGS_next</a></td></tr>
 <tr class="separator:abfd75a1ae3d9b7ae8f3586017d29d05a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51d6a3391e0bb9770bcaee44a034ad20"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a51d6a3391e0bb9770bcaee44a034ad20">_FOREACH_ENTITY_FLAGS_mutex</a></td></tr>
 <tr class="separator:a51d6a3391e0bb9770bcaee44a034ad20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec62ef622fdc545313f18edca95d49e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#aec62ef622fdc545313f18edca95d49e9">_FOREACH_ENTITY_ENT_next</a></td></tr>
+<tr class="memitem:aec62ef622fdc545313f18edca95d49e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#aec62ef622fdc545313f18edca95d49e9">_FOREACH_ENTITY_ENT_next</a></td></tr>
 <tr class="separator:aec62ef622fdc545313f18edca95d49e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1018d0f1dd4da25f1b01e9c9032a5f43"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a1018d0f1dd4da25f1b01e9c9032a5f43">_FOREACH_ENTITY_ENT_mutex</a></td></tr>
 <tr class="separator:a1018d0f1dd4da25f1b01e9c9032a5f43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a583a26bfd4d11269ef4f388f4e5cee2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a583a26bfd4d11269ef4f388f4e5cee2e">_FOREACH_ENTITY_STRING_next</a></td></tr>
+<tr class="memitem:a583a26bfd4d11269ef4f388f4e5cee2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#a583a26bfd4d11269ef4f388f4e5cee2e">_FOREACH_ENTITY_STRING_next</a></td></tr>
 <tr class="separator:a583a26bfd4d11269ef4f388f4e5cee2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8586e4692f4cfe68045351bc6ba0cf9"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d18/iter_8qh.html#af8586e4692f4cfe68045351bc6ba0cf9">_FOREACH_ENTITY_STRING_mutex</a></td></tr>
 <tr class="separator:af8586e4692f4cfe68045351bc6ba0cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -288,14 +302,14 @@ Variables</h2></td></tr>
 <div class="line">        for (<span class="keywordtype">int</span> _i = start; _i &lt; end; ++_i) \</div>
 <div class="line">        { \</div>
 <div class="line">            const noref <span class="keywordtype">int</span> i = _i; \</div>
-<div class="line">            const noref <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> it = arr[i]; <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
+<div class="line">            const noref <a class="code" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> it = arr[i]; <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
 <div class="line"><a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">			if</a> (cond) { <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(body) } \</div>
 <div class="line">        } \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
 <div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00037">misc.qh:37</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
+<div class="ttc" id="iter_8qh_html_a7c509ff3f9216709e7a6f30934c0f7ab"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a></div><div class="ttdeci">entity(vector org, float rad,.entity tofield) _findradius_tofield</div></div>
 <div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00003">3</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
@@ -382,8 +396,6 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00084">84</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01361">CSQC_UpdateView()</a>.</p>
-
 </div>
 </div>
 <a class="anchor" id="a9f7a7d300e46d88cef3a4cee03d98c01"></a>
@@ -416,7 +428,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00111">111</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00126">126</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d62/selection_8qc_source.html#l00042">client_hasweapon()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01361">CSQC_UpdateView()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00584">cvar_settemp()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00623">cvar_settemp_restore()</a>, and <a class="el" href="../../d0/d83/radar_8qc_source.html#l00162">HUD_Radar()</a>.</p>
 
@@ -452,9 +464,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00112">112</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00127">127</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/dc6/debug_8qh_source.html#l00279">GENERIC_COMMAND()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/dc6/debug_8qh_source.html#l00277">GENERIC_COMMAND()</a>.</p>
 
 </div>
 </div>
@@ -490,24 +502,24 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
 <div class="line"><a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">		if</a> (<a class="code" href="../../d4/d18/iter_8qh.html#a5b4018fca61add737a9b015802c44a54">_FOREACH_ENTITY_CLASS_mutex</a>) <a class="code" href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a>(&quot;Loop mutex held by %<a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>&quot;, <a class="code" href="../../d4/d18/iter_8qh.html#a5b4018fca61add737a9b015802c44a54">_FOREACH_ENTITY_CLASS_mutex</a>); \</div>
 <div class="line">        _FOREACH_ENTITY_CLASS_mutex = __FUNC__; \</div>
-<div class="line">        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> _foundchain_first = _findchainstring_tofield(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <a class="code" href="../../db/d0a/oo_8qh.html#af5093977f1d460ae46f2d4c904d2bd64">class</a>, <a class="code" href="../../d4/d18/iter_8qh.html#a0365798c0870d69e8b9e3b63cc0601d1">_FOREACH_ENTITY_CLASS_next</a>); \</div>
+<div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _foundchain_first = _findchainstring_tofield(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <a class="code" href="../../db/d0a/oo_8qh.html#af5093977f1d460ae46f2d4c904d2bd64">class</a>, <a class="code" href="../../d4/d18/iter_8qh.html#a0365798c0870d69e8b9e3b63cc0601d1">_FOREACH_ENTITY_CLASS_next</a>); \</div>
 <div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a>(_foundchain, _FOREACH_ENTITY_CLASS_next, cond, body); \</div>
 <div class="line">        _FOREACH_ENTITY_CLASS_mutex = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
-<div class="ttc" id="iter_8qh_html_a0365798c0870d69e8b9e3b63cc0601d1"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a0365798c0870d69e8b9e3b63cc0601d1">_FOREACH_ENTITY_CLASS_next</a></div><div class="ttdeci">entity _FOREACH_ENTITY_CLASS_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00113">iter.qh:113</a></div></div>
+<div class="ttc" id="iter_8qh_html_a0365798c0870d69e8b9e3b63cc0601d1"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a0365798c0870d69e8b9e3b63cc0601d1">_FOREACH_ENTITY_CLASS_next</a></div><div class="ttdeci">entity _FOREACH_ENTITY_CLASS_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00128">iter.qh:128</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
 <div class="ttc" id="iter_8qh_html_a7dfdec4b9330f27c44cdd1462ce7cac2"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a></div><div class="ttdeci">#define FOREACH_LIST(list, next, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00016">iter.qh:16</a></div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="oo_8qh_html_af5093977f1d460ae46f2d4c904d2bd64"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#af5093977f1d460ae46f2d4c904d2bd64">class</a></div><div class="ttdeci">#define class(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00067">oo.qh:67</a></div></div>
-<div class="ttc" id="iter_8qh_html_a5b4018fca61add737a9b015802c44a54"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a5b4018fca61add737a9b015802c44a54">_FOREACH_ENTITY_CLASS_mutex</a></div><div class="ttdeci">noref string _FOREACH_ENTITY_CLASS_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00114">iter.qh:114</a></div></div>
+<div class="ttc" id="iter_8qh_html_a7c509ff3f9216709e7a6f30934c0f7ab"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a></div><div class="ttdeci">entity(vector org, float rad,.entity tofield) _findradius_tofield</div></div>
+<div class="ttc" id="iter_8qh_html_a5b4018fca61add737a9b015802c44a54"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a5b4018fca61add737a9b015802c44a54">_FOREACH_ENTITY_CLASS_mutex</a></div><div class="ttdeci">noref string _FOREACH_ENTITY_CLASS_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00129">iter.qh:129</a></div></div>
 <div class="ttc" id="log_8qh_html_a71b8a8e07b40d653781549b17a63409e"><div class="ttname"><a href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a></div><div class="ttdeci">#define LOG_SEVEREF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00049">log.qh:49</a></div></div>
 <div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00233">oo.qh:233</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 <div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00115">115</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00130">130</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -541,7 +553,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00156">156</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00171">171</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -575,7 +587,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00157">157</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00172">172</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -611,23 +623,23 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
 <div class="line"><a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">		if</a> (<a class="code" href="../../d4/d18/iter_8qh.html#a1018d0f1dd4da25f1b01e9c9032a5f43">_FOREACH_ENTITY_ENT_mutex</a>) <a class="code" href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a>(&quot;Loop mutex held by %<a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>&quot;, <a class="code" href="../../d4/d18/iter_8qh.html#a1018d0f1dd4da25f1b01e9c9032a5f43">_FOREACH_ENTITY_ENT_mutex</a>); \</div>
 <div class="line">        _FOREACH_ENTITY_ENT_mutex = __FUNC__; \</div>
-<div class="line">        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> _foundchain_first = _findchainentity_tofield(fld, match, <a class="code" href="../../d4/d18/iter_8qh.html#aec62ef622fdc545313f18edca95d49e9">_FOREACH_ENTITY_ENT_next</a>); \</div>
+<div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _foundchain_first = _findchainentity_tofield(fld, match, <a class="code" href="../../d4/d18/iter_8qh.html#aec62ef622fdc545313f18edca95d49e9">_FOREACH_ENTITY_ENT_next</a>); \</div>
 <div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a>(_foundchain, _FOREACH_ENTITY_ENT_next, <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a>, body); \</div>
 <div class="line">        _FOREACH_ENTITY_ENT_mutex = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
-<div class="ttc" id="iter_8qh_html_aec62ef622fdc545313f18edca95d49e9"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#aec62ef622fdc545313f18edca95d49e9">_FOREACH_ENTITY_ENT_next</a></div><div class="ttdeci">entity _FOREACH_ENTITY_ENT_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00158">iter.qh:158</a></div></div>
+<div class="ttc" id="iter_8qh_html_aec62ef622fdc545313f18edca95d49e9"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#aec62ef622fdc545313f18edca95d49e9">_FOREACH_ENTITY_ENT_next</a></div><div class="ttdeci">entity _FOREACH_ENTITY_ENT_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00173">iter.qh:173</a></div></div>
 <div class="ttc" id="iter_8qh_html_a7dfdec4b9330f27c44cdd1462ce7cac2"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a></div><div class="ttdeci">#define FOREACH_LIST(list, next, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00016">iter.qh:16</a></div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+<div class="ttc" id="iter_8qh_html_a7c509ff3f9216709e7a6f30934c0f7ab"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a></div><div class="ttdeci">entity(vector org, float rad,.entity tofield) _findradius_tofield</div></div>
 <div class="ttc" id="log_8qh_html_a71b8a8e07b40d653781549b17a63409e"><div class="ttname"><a href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a></div><div class="ttdeci">#define LOG_SEVEREF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00049">log.qh:49</a></div></div>
 <div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00233">oo.qh:233</a></div></div>
-<div class="ttc" id="iter_8qh_html_a1018d0f1dd4da25f1b01e9c9032a5f43"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a1018d0f1dd4da25f1b01e9c9032a5f43">_FOREACH_ENTITY_ENT_mutex</a></div><div class="ttdeci">noref string _FOREACH_ENTITY_ENT_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00159">iter.qh:159</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
+<div class="ttc" id="iter_8qh_html_a1018d0f1dd4da25f1b01e9c9032a5f43"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a1018d0f1dd4da25f1b01e9c9032a5f43">_FOREACH_ENTITY_ENT_mutex</a></div><div class="ttdeci">noref string _FOREACH_ENTITY_ENT_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00174">iter.qh:174</a></div></div>
 <div class="ttc" id="csprogsdefs_8qh_html_a41f9c5fb8b08eb5dc3edce4dcb37fee7"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a></div><div class="ttdeci">#define true</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dde/csprogsdefs_8qh_source.html#l00006">csprogsdefs.qh:6</a></div></div>
 <div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00160">160</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00175">175</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -661,7 +673,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00141">141</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00156">156</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00321">CommonCommand_editmob()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00162">HUD_Radar()</a>, and <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00036">tracebox_antilag_force_wz()</a>.</p>
 
@@ -697,7 +709,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00142">142</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00157">157</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -733,23 +745,23 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
 <div class="line"><a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">		if</a> (<a class="code" href="../../d4/d18/iter_8qh.html#a51d6a3391e0bb9770bcaee44a034ad20">_FOREACH_ENTITY_FLAGS_mutex</a>) <a class="code" href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a>(&quot;Loop mutex held by %<a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>&quot;, <a class="code" href="../../d4/d18/iter_8qh.html#a51d6a3391e0bb9770bcaee44a034ad20">_FOREACH_ENTITY_FLAGS_mutex</a>); \</div>
 <div class="line">        _FOREACH_ENTITY_FLAGS_mutex = __FUNC__; \</div>
-<div class="line">        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> _foundchain_first = _findchainflags_tofield(fld, match, <a class="code" href="../../d4/d18/iter_8qh.html#abfd75a1ae3d9b7ae8f3586017d29d05a">_FOREACH_ENTITY_FLAGS_next</a>); \</div>
+<div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _foundchain_first = _findchainflags_tofield(fld, match, <a class="code" href="../../d4/d18/iter_8qh.html#abfd75a1ae3d9b7ae8f3586017d29d05a">_FOREACH_ENTITY_FLAGS_next</a>); \</div>
 <div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a>(_foundchain, _FOREACH_ENTITY_FLAGS_next, <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a>, body); \</div>
 <div class="line">        _FOREACH_ENTITY_FLAGS_mutex = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
 <div class="ttc" id="iter_8qh_html_a7dfdec4b9330f27c44cdd1462ce7cac2"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a></div><div class="ttdeci">#define FOREACH_LIST(list, next, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00016">iter.qh:16</a></div></div>
-<div class="ttc" id="iter_8qh_html_abfd75a1ae3d9b7ae8f3586017d29d05a"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#abfd75a1ae3d9b7ae8f3586017d29d05a">_FOREACH_ENTITY_FLAGS_next</a></div><div class="ttdeci">entity _FOREACH_ENTITY_FLAGS_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00143">iter.qh:143</a></div></div>
+<div class="ttc" id="iter_8qh_html_abfd75a1ae3d9b7ae8f3586017d29d05a"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#abfd75a1ae3d9b7ae8f3586017d29d05a">_FOREACH_ENTITY_FLAGS_next</a></div><div class="ttdeci">entity _FOREACH_ENTITY_FLAGS_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00158">iter.qh:158</a></div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+<div class="ttc" id="iter_8qh_html_a7c509ff3f9216709e7a6f30934c0f7ab"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a></div><div class="ttdeci">entity(vector org, float rad,.entity tofield) _findradius_tofield</div></div>
 <div class="ttc" id="log_8qh_html_a71b8a8e07b40d653781549b17a63409e"><div class="ttname"><a href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a></div><div class="ttdeci">#define LOG_SEVEREF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00049">log.qh:49</a></div></div>
 <div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00233">oo.qh:233</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 <div class="ttc" id="csprogsdefs_8qh_html_a41f9c5fb8b08eb5dc3edce4dcb37fee7"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a></div><div class="ttdeci">#define true</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dde/csprogsdefs_8qh_source.html#l00006">csprogsdefs.qh:6</a></div></div>
-<div class="ttc" id="iter_8qh_html_a51d6a3391e0bb9770bcaee44a034ad20"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a51d6a3391e0bb9770bcaee44a034ad20">_FOREACH_ENTITY_FLAGS_mutex</a></div><div class="ttdeci">noref string _FOREACH_ENTITY_FLAGS_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00144">iter.qh:144</a></div></div>
+<div class="ttc" id="iter_8qh_html_a51d6a3391e0bb9770bcaee44a034ad20"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a51d6a3391e0bb9770bcaee44a034ad20">_FOREACH_ENTITY_FLAGS_mutex</a></div><div class="ttdeci">noref string _FOREACH_ENTITY_FLAGS_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00159">iter.qh:159</a></div></div>
 <div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00145">145</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00160">160</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -783,7 +795,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00126">126</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00141">141</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00973">ClientConnect()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00117">CreatureFrame_All()</a>, and <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00156">StartFrame()</a>.</p>
 
@@ -819,7 +831,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00127">127</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00142">142</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -855,23 +867,23 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
 <div class="line"><a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">		if</a> (<a class="code" href="../../d4/d18/iter_8qh.html#a8b820afe18caf8c33e874a81e2e44aa9">_FOREACH_ENTITY_FLOAT_mutex</a>) <a class="code" href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a>(&quot;Loop mutex held by %<a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>&quot;, <a class="code" href="../../d4/d18/iter_8qh.html#a8b820afe18caf8c33e874a81e2e44aa9">_FOREACH_ENTITY_FLOAT_mutex</a>); \</div>
 <div class="line">        _FOREACH_ENTITY_FLOAT_mutex = __FUNC__; \</div>
-<div class="line">        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> _foundchain_first = _findchainfloat_tofield(fld, match, <a class="code" href="../../d4/d18/iter_8qh.html#aa2acf45205af4b84d1c190ad075f97cd">_FOREACH_ENTITY_FLOAT_next</a>); \</div>
+<div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _foundchain_first = _findchainfloat_tofield(fld, match, <a class="code" href="../../d4/d18/iter_8qh.html#aa2acf45205af4b84d1c190ad075f97cd">_FOREACH_ENTITY_FLOAT_next</a>); \</div>
 <div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a>(_foundchain, _FOREACH_ENTITY_FLOAT_next, <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a>, body); \</div>
 <div class="line">        _FOREACH_ENTITY_FLOAT_mutex = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
-<div class="ttc" id="iter_8qh_html_a8b820afe18caf8c33e874a81e2e44aa9"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a8b820afe18caf8c33e874a81e2e44aa9">_FOREACH_ENTITY_FLOAT_mutex</a></div><div class="ttdeci">noref string _FOREACH_ENTITY_FLOAT_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00129">iter.qh:129</a></div></div>
+<div class="ttc" id="iter_8qh_html_a8b820afe18caf8c33e874a81e2e44aa9"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a8b820afe18caf8c33e874a81e2e44aa9">_FOREACH_ENTITY_FLOAT_mutex</a></div><div class="ttdeci">noref string _FOREACH_ENTITY_FLOAT_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00144">iter.qh:144</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
 <div class="ttc" id="iter_8qh_html_a7dfdec4b9330f27c44cdd1462ce7cac2"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a></div><div class="ttdeci">#define FOREACH_LIST(list, next, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00016">iter.qh:16</a></div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+<div class="ttc" id="iter_8qh_html_a7c509ff3f9216709e7a6f30934c0f7ab"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a></div><div class="ttdeci">entity(vector org, float rad,.entity tofield) _findradius_tofield</div></div>
 <div class="ttc" id="log_8qh_html_a71b8a8e07b40d653781549b17a63409e"><div class="ttname"><a href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a></div><div class="ttdeci">#define LOG_SEVEREF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00049">log.qh:49</a></div></div>
 <div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00233">oo.qh:233</a></div></div>
-<div class="ttc" id="iter_8qh_html_aa2acf45205af4b84d1c190ad075f97cd"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#aa2acf45205af4b84d1c190ad075f97cd">_FOREACH_ENTITY_FLOAT_next</a></div><div class="ttdeci">entity _FOREACH_ENTITY_FLOAT_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00128">iter.qh:128</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
+<div class="ttc" id="iter_8qh_html_aa2acf45205af4b84d1c190ad075f97cd"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#aa2acf45205af4b84d1c190ad075f97cd">_FOREACH_ENTITY_FLOAT_next</a></div><div class="ttdeci">entity _FOREACH_ENTITY_FLOAT_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00143">iter.qh:143</a></div></div>
 <div class="ttc" id="csprogsdefs_8qh_html_a41f9c5fb8b08eb5dc3edce4dcb37fee7"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a></div><div class="ttdeci">#define true</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dde/csprogsdefs_8qh_source.html#l00006">csprogsdefs.qh:6</a></div></div>
 <div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00130">130</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00145">145</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -900,10 +912,10 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">\</a></div>
 <div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">		int</a> _i = 0; \</div>
-<div class="line">        for (<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> _it = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (_it = <a class="code" href="../../d8/de2/menudefs_8qc.html#a33e75150e29fa01dc3c2fbe55610e1fd">nextent</a>(_it)); ++_i) \</div>
+<div class="line">        for (<a class="code" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _it = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (_it = <a class="code" href="../../d8/de2/menudefs_8qc.html#a33e75150e29fa01dc3c2fbe55610e1fd">nextent</a>(_it)); ++_i) \</div>
 <div class="line">        { \</div>
 <div class="line">            const noref <span class="keywordtype">int</span> i = _i; \</div>
-<div class="line">            const noref <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> it = _it; <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
+<div class="line">            const noref <a class="code" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> it = _it; <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
 <div class="line"><a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">			if</a> (cond) { <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(body) } \</div>
 <div class="line">        } \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
@@ -912,13 +924,112 @@ Variables</h2></td></tr>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
 <div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00037">misc.qh:37</a></div></div>
 <div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00010">oo.qh:10</a></div></div>
+<div class="ttc" id="iter_8qh_html_a7c509ff3f9216709e7a6f30934c0f7ab"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a></div><div class="ttdeci">entity(vector org, float rad,.entity tofield) _findradius_tofield</div></div>
 <div class="ttc" id="menudefs_8qc_html_a33e75150e29fa01dc3c2fbe55610e1fd"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a33e75150e29fa01dc3c2fbe55610e1fd">nextent</a></div><div class="ttdeci">entity nextent(entity e)</div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 <div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00085">85</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d47/menu__cmd_8qc_source.html#l00041">GameCommand()</a>, <a class="el" href="../../da/dc6/debug_8qh_source.html#l00302">GENERIC_COMMAND()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00335">reset_map()</a>, and <a class="el" href="../../df/dc2/menu_8qc_source.html#l00862">Shutdown()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d47/menu__cmd_8qc_source.html#l00041">GameCommand()</a>, <a class="el" href="../../da/dc6/debug_8qh_source.html#l00300">GENERIC_COMMAND()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00335">reset_map()</a>, and <a class="el" href="../../df/dc2/menu_8qc_source.html#l00862">Shutdown()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a9f7597474efce08cc8d5d72c065ef533"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FOREACH_ENTITY_RADIUS</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">org, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">dist, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">cond, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">body&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d4/d18/iter_8qh.html#a53044e6c73cf5f2c841834719714e452">FOREACH_ENTITY_RADIUS_UNORDERED</a>(org, dist, cond, body)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00112">112</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d2/db1/movetypes_8qc_source.html#l00339">_Movetype_LinkEdict_TouchAreaGrid()</a>, <a class="el" href="../../d0/d20/push_8qc_source.html#l00001">_Movetype_PushMove()</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00593">WarpZone_FindRadius_Recurse()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a53044e6c73cf5f2c841834719714e452"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FOREACH_ENTITY_RADIUS_UNORDERED</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">org, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">dist, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">cond, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">body&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
+<div class="line"><a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">		if</a> (<a class="code" href="../../d4/d18/iter_8qh.html#aa93dfe543b9a5168047011bbc36ed22d">_FOREACH_ENTITY_RADIUS_mutex</a>) <a class="code" href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a>(&quot;Loop mutex held by %<a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>&quot;, <a class="code" href="../../d4/d18/iter_8qh.html#aa93dfe543b9a5168047011bbc36ed22d">_FOREACH_ENTITY_RADIUS_mutex</a>); \</div>
+<div class="line">        _FOREACH_ENTITY_RADIUS_mutex = __FUNC__; \</div>
+<div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _foundchain_first = _findradius_tofield(org, dist, <a class="code" href="../../d4/d18/iter_8qh.html#ab52741e8153c868ee6b76ff4db16e1ad">_FOREACH_ENTITY_RADIUS_next</a>); \</div>
+<div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a>(_foundchain, _FOREACH_ENTITY_RADIUS_next, cond, body); \</div>
+<div class="line">        _FOREACH_ENTITY_RADIUS_mutex = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; \</div>
+<div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
+<div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
+<div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
+<div class="ttc" id="iter_8qh_html_aa93dfe543b9a5168047011bbc36ed22d"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#aa93dfe543b9a5168047011bbc36ed22d">_FOREACH_ENTITY_RADIUS_mutex</a></div><div class="ttdeci">noref string _FOREACH_ENTITY_RADIUS_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00114">iter.qh:114</a></div></div>
+<div class="ttc" id="iter_8qh_html_a7dfdec4b9330f27c44cdd1462ce7cac2"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a></div><div class="ttdeci">#define FOREACH_LIST(list, next, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00016">iter.qh:16</a></div></div>
+<div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+<div class="ttc" id="iter_8qh_html_ab52741e8153c868ee6b76ff4db16e1ad"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ab52741e8153c868ee6b76ff4db16e1ad">_FOREACH_ENTITY_RADIUS_next</a></div><div class="ttdeci">entity _FOREACH_ENTITY_RADIUS_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00113">iter.qh:113</a></div></div>
+<div class="ttc" id="iter_8qh_html_a7c509ff3f9216709e7a6f30934c0f7ab"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a></div><div class="ttdeci">entity(vector org, float rad,.entity tofield) _findradius_tofield</div></div>
+<div class="ttc" id="log_8qh_html_a71b8a8e07b40d653781549b17a63409e"><div class="ttname"><a href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a></div><div class="ttdeci">#define LOG_SEVEREF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00049">log.qh:49</a></div></div>
+<div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00233">oo.qh:233</a></div></div>
+<div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00115">115</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -952,7 +1063,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00171">171</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00186">186</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -986,7 +1097,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00172">172</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00187">187</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1022,23 +1133,23 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
 <div class="line"><a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">		if</a> (<a class="code" href="../../d4/d18/iter_8qh.html#af8586e4692f4cfe68045351bc6ba0cf9">_FOREACH_ENTITY_STRING_mutex</a>) <a class="code" href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a>(&quot;Loop mutex held by %<a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>&quot;, <a class="code" href="../../d4/d18/iter_8qh.html#af8586e4692f4cfe68045351bc6ba0cf9">_FOREACH_ENTITY_STRING_mutex</a>); \</div>
 <div class="line">        _FOREACH_ENTITY_STRING_mutex = __FUNC__; \</div>
-<div class="line">        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> _foundchain_first = _findchainstring_tofield(fld, match, <a class="code" href="../../d4/d18/iter_8qh.html#a583a26bfd4d11269ef4f388f4e5cee2e">_FOREACH_ENTITY_STRING_next</a>); \</div>
+<div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _foundchain_first = _findchainstring_tofield(fld, match, <a class="code" href="../../d4/d18/iter_8qh.html#a583a26bfd4d11269ef4f388f4e5cee2e">_FOREACH_ENTITY_STRING_next</a>); \</div>
 <div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a>(_foundchain, _FOREACH_ENTITY_STRING_next, <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a>, body); \</div>
 <div class="line">        _FOREACH_ENTITY_STRING_mutex = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
 <div class="ttc" id="iter_8qh_html_a7dfdec4b9330f27c44cdd1462ce7cac2"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a></div><div class="ttdeci">#define FOREACH_LIST(list, next, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00016">iter.qh:16</a></div></div>
-<div class="ttc" id="iter_8qh_html_a583a26bfd4d11269ef4f388f4e5cee2e"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a583a26bfd4d11269ef4f388f4e5cee2e">_FOREACH_ENTITY_STRING_next</a></div><div class="ttdeci">entity _FOREACH_ENTITY_STRING_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00173">iter.qh:173</a></div></div>
+<div class="ttc" id="iter_8qh_html_a583a26bfd4d11269ef4f388f4e5cee2e"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a583a26bfd4d11269ef4f388f4e5cee2e">_FOREACH_ENTITY_STRING_next</a></div><div class="ttdeci">entity _FOREACH_ENTITY_STRING_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00188">iter.qh:188</a></div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
-<div class="ttc" id="iter_8qh_html_af8586e4692f4cfe68045351bc6ba0cf9"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#af8586e4692f4cfe68045351bc6ba0cf9">_FOREACH_ENTITY_STRING_mutex</a></div><div class="ttdeci">noref string _FOREACH_ENTITY_STRING_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00174">iter.qh:174</a></div></div>
+<div class="ttc" id="iter_8qh_html_af8586e4692f4cfe68045351bc6ba0cf9"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#af8586e4692f4cfe68045351bc6ba0cf9">_FOREACH_ENTITY_STRING_mutex</a></div><div class="ttdeci">noref string _FOREACH_ENTITY_STRING_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00189">iter.qh:189</a></div></div>
+<div class="ttc" id="iter_8qh_html_a7c509ff3f9216709e7a6f30934c0f7ab"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a></div><div class="ttdeci">entity(vector org, float rad,.entity tofield) _findradius_tofield</div></div>
 <div class="ttc" id="log_8qh_html_a71b8a8e07b40d653781549b17a63409e"><div class="ttname"><a href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a></div><div class="ttdeci">#define LOG_SEVEREF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00049">log.qh:49</a></div></div>
 <div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00233">oo.qh:233</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 <div class="ttc" id="csprogsdefs_8qh_html_a41f9c5fb8b08eb5dc3edce4dcb37fee7"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">true</a></div><div class="ttdeci">#define true</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dde/csprogsdefs_8qh_source.html#l00006">csprogsdefs.qh:6</a></div></div>
 <div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00175">175</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00190">190</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1068,7 +1179,7 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
 <div class="line"><a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">		if</a> (<a class="code" href="../../d4/d18/iter_8qh.html#adc197d0b39d99a7ede692429aed19df3">_FOREACH_ENTITY_mutex</a>) <a class="code" href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a>(&quot;Loop mutex held by %<a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>&quot;, <a class="code" href="../../d4/d18/iter_8qh.html#adc197d0b39d99a7ede692429aed19df3">_FOREACH_ENTITY_mutex</a>); \</div>
 <div class="line">        _FOREACH_ENTITY_mutex = __FUNC__; \</div>
-<div class="line">        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> _foundchain_first = _findchainentity_tofield(<a class="code" href="../../d4/d18/iter_8qh.html#a8f849ec37858b72ad03543fb4227c773">_FOREACH_ENTITY_fld</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d4/d18/iter_8qh.html#ad1a647ca8c7434b01c3ec0ba21325b3f">_FOREACH_ENTITY_next</a>); \</div>
+<div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _foundchain_first = _findchainentity_tofield(<a class="code" href="../../d4/d18/iter_8qh.html#a8f849ec37858b72ad03543fb4227c773">_FOREACH_ENTITY_fld</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d4/d18/iter_8qh.html#ad1a647ca8c7434b01c3ec0ba21325b3f">_FOREACH_ENTITY_next</a>); \</div>
 <div class="line">        <a class="code" href="../../d4/d18/iter_8qh.html#a7dfdec4b9330f27c44cdd1462ce7cac2">FOREACH_LIST</a>(_foundchain, _FOREACH_ENTITY_next, cond, body); \</div>
 <div class="line">        _FOREACH_ENTITY_mutex = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
@@ -1079,10 +1190,10 @@ Variables</h2></td></tr>
 <div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00010">oo.qh:10</a></div></div>
 <div class="ttc" id="iter_8qh_html_adc197d0b39d99a7ede692429aed19df3"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#adc197d0b39d99a7ede692429aed19df3">_FOREACH_ENTITY_mutex</a></div><div class="ttdeci">noref string _FOREACH_ENTITY_mutex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00099">iter.qh:99</a></div></div>
 <div class="ttc" id="iter_8qh_html_a8f849ec37858b72ad03543fb4227c773"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a8f849ec37858b72ad03543fb4227c773">_FOREACH_ENTITY_fld</a></div><div class="ttdeci">entity _FOREACH_ENTITY_fld</div><div class="ttdoc">marker field, always NULL </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00096">iter.qh:96</a></div></div>
+<div class="ttc" id="iter_8qh_html_a7c509ff3f9216709e7a6f30934c0f7ab"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a></div><div class="ttdeci">entity(vector org, float rad,.entity tofield) _findradius_tofield</div></div>
 <div class="ttc" id="log_8qh_html_a71b8a8e07b40d653781549b17a63409e"><div class="ttname"><a href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a></div><div class="ttdeci">#define LOG_SEVEREF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00049">log.qh:49</a></div></div>
 <div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00233">oo.qh:233</a></div></div>
 <div class="ttc" id="iter_8qh_html_ad1a647ca8c7434b01c3ec0ba21325b3f"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ad1a647ca8c7434b01c3ec0ba21325b3f">_FOREACH_ENTITY_next</a></div><div class="ttdeci">entity _FOREACH_ENTITY_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00098">iter.qh:98</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 <div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00100">100</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
@@ -1127,10 +1238,10 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> \</div>
 <div class="line">    { <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">\</a></div>
 <div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">		int</a> _i = 0; \</div>
-<div class="line">        for (<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> _it = list##_first; _it; (_it = _it.next, ++_i)) \</div>
+<div class="line">        for (<a class="code" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _it = list##_first; _it; (_it = _it.next, ++_i)) \</div>
 <div class="line">        { \</div>
 <div class="line">            const noref <span class="keywordtype">int</span> i = _i; \</div>
-<div class="line">            const noref <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> it = _it; <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
+<div class="line">            const noref <a class="code" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> it = _it; <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
 <div class="line"><a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">			if</a> (cond) { <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(body) } \</div>
 <div class="line">        } \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
@@ -1138,10 +1249,12 @@ Variables</h2></td></tr>
 <div class="ttc" id="lib_2__all_8inc_html_ae88a82478e3818cade3f598c25437904"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">int</a></div><div class="ttdeci">#define int</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00008">_all.inc:8</a></div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
 <div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00037">misc.qh:37</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
+<div class="ttc" id="iter_8qh_html_a7c509ff3f9216709e7a6f30934c0f7ab"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a></div><div class="ttdeci">entity(vector org, float rad,.entity tofield) _findradius_tofield</div></div>
 <div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00016">16</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00659">WarpZone_FindRadius()</a>.</p>
 
 </div>
 </div>
@@ -1317,6 +1430,39 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a7c509ff3f9216709e7a6f30934c0f7ab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">entity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td>
+          <td class="paramname"><em>org</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
+          <td class="paramname"><em>rad</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">.entity&#160;</td>
+          <td class="paramname"><em>tofield</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a5b4018fca61add737a9b015802c44a54"></a>
 <div class="memitem">
@@ -1328,7 +1474,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00114">114</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00129">129</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1337,12 +1483,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> _FOREACH_ENTITY_CLASS_next</td>
+          <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _FOREACH_ENTITY_CLASS_next</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00113">113</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00128">128</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1356,7 +1502,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00159">159</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00174">174</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1365,12 +1511,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> _FOREACH_ENTITY_ENT_next</td>
+          <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _FOREACH_ENTITY_ENT_next</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00158">158</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00173">173</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1384,7 +1530,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00144">144</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00159">159</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1393,12 +1539,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> _FOREACH_ENTITY_FLAGS_next</td>
+          <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _FOREACH_ENTITY_FLAGS_next</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00143">143</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00158">158</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1407,7 +1553,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> _FOREACH_ENTITY_fld</td>
+          <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _FOREACH_ENTITY_fld</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1428,7 +1574,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00129">129</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00144">144</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1437,12 +1583,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> _FOREACH_ENTITY_FLOAT_next</td>
+          <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _FOREACH_ENTITY_FLOAT_next</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00128">128</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00143">143</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1465,12 +1611,40 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> _FOREACH_ENTITY_next</td>
+          <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _FOREACH_ENTITY_next</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00098">98</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa93dfe543b9a5168047011bbc36ed22d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">noref <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> _FOREACH_ENTITY_RADIUS_mutex</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00114">114</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ab52741e8153c868ee6b76ff4db16e1ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _FOREACH_ENTITY_RADIUS_next</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00113">113</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1484,7 +1658,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00174">174</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00189">189</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1493,12 +1667,12 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> _FOREACH_ENTITY_STRING_next</td>
+          <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> _FOREACH_ENTITY_STRING_next</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00173">173</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d18/iter_8qh_source.html#l00188">188</a> of file <a class="el" href="../../d4/d18/iter_8qh_source.html">iter.qh</a>.</p>
 
 </div>
 </div>
@@ -1508,7 +1682,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d4/d18/iter_8qh.html">iter.qh</a></li>
-    <li class="footer">Generated on Sun Mar 13 2016 06:23:56 for Xonotic by
+    <li class="footer">Generated on Sun Mar 13 2016 08:39:02 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

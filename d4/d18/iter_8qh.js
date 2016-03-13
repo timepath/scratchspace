@@ -17,6 +17,8 @@ var iter_8qh =
     [ "FOREACH_ENTITY_FLOAT_ORDERED", "d4/d18/iter_8qh.html#a72f0a9e3b8f27643ad9e4348853910ff", null ],
     [ "FOREACH_ENTITY_FLOAT_UNORDERED", "d4/d18/iter_8qh.html#ae8c1f428e93c43f04a0c8e795316c726", null ],
     [ "FOREACH_ENTITY_ORDERED", "d4/d18/iter_8qh.html#a3e3f749f07daa9cb2df5070acc51f1b7", null ],
+    [ "FOREACH_ENTITY_RADIUS", "d4/d18/iter_8qh.html#a9f7597474efce08cc8d5d72c065ef533", null ],
+    [ "FOREACH_ENTITY_RADIUS_UNORDERED", "d4/d18/iter_8qh.html#a53044e6c73cf5f2c841834719714e452", null ],
     [ "FOREACH_ENTITY_STRING", "d4/d18/iter_8qh.html#ad7fe88fd0110be973f33790914a7955c", null ],
     [ "FOREACH_ENTITY_STRING_ORDERED", "d4/d18/iter_8qh.html#a3f0d5659ffab5f4dbe63e2a25f402627", null ],
     [ "FOREACH_ENTITY_STRING_UNORDERED", "d4/d18/iter_8qh.html#ac51bff5be5de5d32f68756f40438b7c6", null ],
@@ -27,6 +29,7 @@ var iter_8qh =
     [ "STRING_ITERATOR", "d4/d18/iter_8qh.html#a06e81ec5bd716fed71d2dd0850a1dcae", null ],
     [ "STRING_ITERATOR_GET", "d4/d18/iter_8qh.html#a9e47641e909dc2b310bea63e84aaac93", null ],
     [ "STRING_ITERATOR_SET", "d4/d18/iter_8qh.html#a5f5c833a61297415c9aeb463ca5c2f84", null ],
+    [ "entity", "d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab", null ],
     [ "_FOREACH_ENTITY_CLASS_mutex", "d4/d18/iter_8qh.html#a5b4018fca61add737a9b015802c44a54", null ],
     [ "_FOREACH_ENTITY_CLASS_next", "d4/d18/iter_8qh.html#a0365798c0870d69e8b9e3b63cc0601d1", null ],
     [ "_FOREACH_ENTITY_ENT_mutex", "d4/d18/iter_8qh.html#a1018d0f1dd4da25f1b01e9c9032a5f43", null ],
@@ -38,6 +41,8 @@ var iter_8qh =
     [ "_FOREACH_ENTITY_FLOAT_next", "d4/d18/iter_8qh.html#aa2acf45205af4b84d1c190ad075f97cd", null ],
     [ "_FOREACH_ENTITY_mutex", "d4/d18/iter_8qh.html#adc197d0b39d99a7ede692429aed19df3", null ],
     [ "_FOREACH_ENTITY_next", "d4/d18/iter_8qh.html#ad1a647ca8c7434b01c3ec0ba21325b3f", null ],
+    [ "_FOREACH_ENTITY_RADIUS_mutex", "d4/d18/iter_8qh.html#aa93dfe543b9a5168047011bbc36ed22d", null ],
+    [ "_FOREACH_ENTITY_RADIUS_next", "d4/d18/iter_8qh.html#ab52741e8153c868ee6b76ff4db16e1ad", null ],
     [ "_FOREACH_ENTITY_STRING_mutex", "d4/d18/iter_8qh.html#af8586e4692f4cfe68045351bc6ba0cf9", null ],
     [ "_FOREACH_ENTITY_STRING_next", "d4/d18/iter_8qh.html#a583a26bfd4d11269ef4f388f4e5cee2e", null ]
 ];

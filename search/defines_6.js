@@ -37,6 +37,8 @@ var searchData=
   ['foreach_5fentity_5ffloat_5fordered',['FOREACH_ENTITY_FLOAT_ORDERED',['../d4/d18/iter_8qh.html#a72f0a9e3b8f27643ad9e4348853910ff',1,'iter.qh']]],
   ['foreach_5fentity_5ffloat_5funordered',['FOREACH_ENTITY_FLOAT_UNORDERED',['../d4/d18/iter_8qh.html#ae8c1f428e93c43f04a0c8e795316c726',1,'iter.qh']]],
   ['foreach_5fentity_5fordered',['FOREACH_ENTITY_ORDERED',['../d4/d18/iter_8qh.html#a3e3f749f07daa9cb2df5070acc51f1b7',1,'iter.qh']]],
+  ['foreach_5fentity_5fradius',['FOREACH_ENTITY_RADIUS',['../d4/d18/iter_8qh.html#a9f7597474efce08cc8d5d72c065ef533',1,'iter.qh']]],
+  ['foreach_5fentity_5fradius_5funordered',['FOREACH_ENTITY_RADIUS_UNORDERED',['../d4/d18/iter_8qh.html#a53044e6c73cf5f2c841834719714e452',1,'iter.qh']]],
   ['foreach_5fentity_5fstring',['FOREACH_ENTITY_STRING',['../d4/d18/iter_8qh.html#ad7fe88fd0110be973f33790914a7955c',1,'iter.qh']]],
   ['foreach_5fentity_5fstring_5fordered',['FOREACH_ENTITY_STRING_ORDERED',['../d4/d18/iter_8qh.html#a3f0d5659ffab5f4dbe63e2a25f402627',1,'iter.qh']]],
   ['foreach_5fentity_5fstring_5funordered',['FOREACH_ENTITY_STRING_UNORDERED',['../d4/d18/iter_8qh.html#ac51bff5be5de5d32f68756f40438b7c6',1,'iter.qh']]],

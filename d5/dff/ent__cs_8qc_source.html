@@ -215,10 +215,10 @@ $(document).ready(function(){initNavTree('d5/dff/ent__cs_8qc_source.html','../..
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        e.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        Net_LinkEntity(e, <span class="keyword">false</span>, 0, entcs_send);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(player)) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, {</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a>(it.entcs);</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            _entcs_send(it.entcs, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">msg_entity</a> = player, <a class="code" href="../../d5/d52/bits_8qh.html#a5967693540f086cfa357f68978bf0be7">BITS</a>(23), <a class="code" href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a>);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        ));</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        });</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    }</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d0/d3f/state_8qc.html#ac87f3b0e72460f99913d0a56abac6990">entcs_detach</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> player)</div>
@@ -330,7 +330,6 @@ $(document).ready(function(){initNavTree('d5/dff/ent__cs_8qc_source.html','../..
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
 <div class="ttc" id="ent__cs_8qh_html_a154ebd8673f5dbd02db9c5d6300fefc5"><div class="ttname"><a href="../../db/d18/ent__cs_8qh.html#a154ebd8673f5dbd02db9c5d6300fefc5">has_sv_origin</a></div><div class="ttdeci">bool has_sv_origin</div><div class="ttdoc">True when a recent server sent origin has been received. </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d18/ent__cs_8qh_source.html#l00012">ent_cs.qh:12</a></div></div>
 <div class="ttc" id="static_8qh_html_a8adce259cbe13be1381a0d1872b690c2"><div class="ttname"><a href="../../d4/d1a/static_8qh.html#a8adce259cbe13be1381a0d1872b690c2">STATIC_INIT</a></div><div class="ttdeci">#define STATIC_INIT(func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1a/static_8qh_source.html#l00017">static.qh:17</a></div></div>
-<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00037">misc.qh:37</a></div></div>
 <div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00010">oo.qh:10</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_ace84bb9485d6470a12441cca242fa3e0"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ace84bb9485d6470a12441cca242fa3e0">radar_showennemies</a></div><div class="ttdeci">bool radar_showennemies</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00349">defs.qh:349</a></div></div>
@@ -367,7 +366,7 @@ $(document).ready(function(){initNavTree('d5/dff/ent__cs_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../d5/dff/ent__cs_8qc.html">ent_cs.qc</a></li>
-    <li class="footer">Generated on Sun Mar 13 2016 06:23:48 for Xonotic by
+    <li class="footer">Generated on Sun Mar 13 2016 08:38:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

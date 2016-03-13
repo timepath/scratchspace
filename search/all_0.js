@@ -54,6 +54,8 @@ var searchData=
   ['_5fforeach_5fentity_5ffloat_5fnext',['_FOREACH_ENTITY_FLOAT_next',['../d4/d18/iter_8qh.html#aa2acf45205af4b84d1c190ad075f97cd',1,'iter.qh']]],
   ['_5fforeach_5fentity_5fmutex',['_FOREACH_ENTITY_mutex',['../d4/d18/iter_8qh.html#adc197d0b39d99a7ede692429aed19df3',1,'iter.qh']]],
   ['_5fforeach_5fentity_5fnext',['_FOREACH_ENTITY_next',['../d4/d18/iter_8qh.html#ad1a647ca8c7434b01c3ec0ba21325b3f',1,'iter.qh']]],
+  ['_5fforeach_5fentity_5fradius_5fmutex',['_FOREACH_ENTITY_RADIUS_mutex',['../d4/d18/iter_8qh.html#aa93dfe543b9a5168047011bbc36ed22d',1,'iter.qh']]],
+  ['_5fforeach_5fentity_5fradius_5fnext',['_FOREACH_ENTITY_RADIUS_next',['../d4/d18/iter_8qh.html#ab52741e8153c868ee6b76ff4db16e1ad',1,'iter.qh']]],
   ['_5fforeach_5fentity_5fstring_5fmutex',['_FOREACH_ENTITY_STRING_mutex',['../d4/d18/iter_8qh.html#af8586e4692f4cfe68045351bc6ba0cf9',1,'iter.qh']]],
   ['_5fforeach_5fentity_5fstring_5fnext',['_FOREACH_ENTITY_STRING_next',['../d4/d18/iter_8qh.html#a583a26bfd4d11269ef4f388f4e5cee2e',1,'iter.qh']]],
   ['_5fimpulse',['_IMPULSE',['../d7/d44/cl__impulse_8qc.html#a3b4445edf4d24ffe5d35ce13622a32dd',1,'cl_impulse.qc']]],

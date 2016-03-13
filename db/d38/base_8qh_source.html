@@ -277,7 +277,7 @@ $(document).ready(function(){initNavTree('db/d38/base_8qh_source.html','../../')
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;{</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a> = this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>;</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <a class="code" href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">WITH</a>(<span class="keywordtype">bool</span>, mutator_log, <span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Mutators, it.registered_id == s, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(<a class="code" href="../../db/d38/base_8qh.html#a11e9723189e645f9d7e5280d85a9b4bf">Mutator_Remove</a>(it)));</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Mutators, it.registered_id == s, <a class="code" href="../../db/d38/base_8qh.html#a11e9723189e645f9d7e5280d85a9b4bf">Mutator_Remove</a>(it));</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    ));</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;}</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<a class="code" href="../../dd/d69/net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a>(Mutator, <span class="keywordtype">bool</span> isNew)</div>
@@ -291,7 +291,7 @@ $(document).ready(function(){initNavTree('db/d38/base_8qh_source.html','../../')
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        this.entremove = NET_Mutator_Remove;</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        <span class="keywordtype">int</span> added = 0;</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <a class="code" href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">WITH</a>(<span class="keywordtype">bool</span>, mutator_log, <span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Mutators, it.registered_id == s, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(<a class="code" href="../../db/d38/base_8qh.html#ad0c8701a1d3e78230bdc90ea4b28f20c">Mutator_Add</a>(it); ++added));</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Mutators, it.registered_id == s, { <a class="code" href="../../db/d38/base_8qh.html#ad0c8701a1d3e78230bdc90ea4b28f20c">Mutator_Add</a>(it); ++added; });</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        ));</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordflow">if</span> (added &gt; 1) <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;Added more than one mutator for %s\n&quot;</span>, s);</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    }</div>
@@ -371,7 +371,7 @@ $(document).ready(function(){initNavTree('db/d38/base_8qh_source.html','../../')
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;}</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
 <div class="line"><a name="l00280"></a><span class="lineno"><a class="line" href="../../db/d38/base_8qh.html#a93f852725b614a9a4907fceddf57eff3">  280</a></span>&#160;<a class="code" href="../../db/d38/base_8qh.html#a93f852725b614a9a4907fceddf57eff3">STATIC_INIT_LATE</a>(Mutators) {</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Mutators, it.mutatorcheck(), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(<a class="code" href="../../db/d38/base_8qh.html#ad0c8701a1d3e78230bdc90ea4b28f20c">Mutator_Add</a>(it)));</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Mutators, it.mutatorcheck(), <a class="code" href="../../db/d38/base_8qh.html#ad0c8701a1d3e78230bdc90ea4b28f20c">Mutator_Add</a>(it));</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;}</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
 <div class="line"><a name="l00284"></a><span class="lineno"><a class="line" href="../../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992">  284</a></span>&#160;<span class="preprocessor">#define MUTATOR_ONADD                   if (mode == MUTATOR_ADDING)</span></div>
@@ -471,7 +471,7 @@ $(document).ready(function(){initNavTree('db/d38/base_8qh_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../db/d38/base_8qh.html">base.qh</a></li>
-    <li class="footer">Generated on Sun Mar 13 2016 06:23:49 for Xonotic by
+    <li class="footer">Generated on Sun Mar 13 2016 08:38:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
