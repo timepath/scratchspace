@@ -1,8 +1,8 @@
 var cl__generator_8qc =
 [
-    [ "generator_changeteam", "df/d07/cl__generator_8qc.html#a064e5978f950cd029b3e23042be23706", null ],
-    [ "generator_construct", "df/d07/cl__generator_8qc.html#a757eab005bf299deaf4365c4a26800f3", null ],
-    [ "generator_damage", "df/d07/cl__generator_8qc.html#a53ac0afae71956db0d2e88180ea52480", null ],
+    [ "generator_changeteam", "df/d07/cl__generator_8qc.html#aced13174db9e81330e2463cb1eef84ff", null ],
+    [ "generator_construct", "df/d07/cl__generator_8qc.html#aea3e5c54f8850f0e619b63d8a29e1685", null ],
+    [ "generator_damage", "df/d07/cl__generator_8qc.html#a17113ca9f8dc87e435cd5941bfcb71f2", null ],
     [ "generator_draw", "df/d07/cl__generator_8qc.html#a9d3002c4116ca5cdfd4f80ac929b88f2", null ],
     [ "NET_HANDLE", "df/d07/cl__generator_8qc.html#afc31ff14aad2253b9fe8ce7091cab781", null ],
     [ "ons_generator_ray_draw", "df/d07/cl__generator_8qc.html#af238202f58cac7d9f856cab9edbd9dbe", null ],

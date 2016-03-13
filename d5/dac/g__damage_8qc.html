@@ -2236,7 +2236,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00217">217</a> of file <a class="el" href="../../d5/dac/g__damage_8qc_source.html">g_damage.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/dab/common_2deathtypes_2all_8qh_source.html#l00044">DEATH_WEAPONOF</a>, <a class="el" href="../../d0/df5/sound_8qh.html#a51b32ff0a76acf272667897ad1b3bfff">LOG_TRACEF()</a>, and <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00107">w_deathtype</a>.</p>
+<p>References <a class="el" href="../../db/dab/common_2deathtypes_2all_8qh_source.html#l00044">DEATH_WEAPONOF</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00070">LOG_TRACEF</a>, and <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00107">w_deathtype</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00267">Obituary()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;{</div>
@@ -2269,7 +2269,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        }</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        {</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <a class="code" href="../../d0/df5/sound_8qh.html#a51b32ff0a76acf272667897ad1b3bfff">LOG_TRACEF</a>(</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a>(</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                <span class="stringliteral">&quot;Obituary_WeaponDeath(): ^1Deathtype ^7(%d)^1 has no notification for weapon %d!\n&quot;</span>,</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                deathtype,</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                death_weapon</div>
@@ -2283,27 +2283,17 @@ Variables</h2></td></tr>
 <div class="ttc" id="common_2notifications_2all_8inc_html_a0c3e091adeda4f2178165df11bc8225b"><div class="ttname"><a href="../../df/d00/common_2notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b">s2</a></div><div class="ttdeci">spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2 f1 f1points s2 minigame1_name s2</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d00/common_2notifications_2all_8inc_source.html#l00414">all.inc:414</a></div></div>
 <div class="ttc" id="common_2notifications_2all_8inc_html_a1bb0888c57b9d23660f876afb696b64f"><div class="ttname"><a href="../../df/d00/common_2notifications_2all_8inc.html#a1bb0888c57b9d23660f876afb696b64f">s1</a></div><div class="ttdeci">spree_inf s1 s2 s3loc s2 s1</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d00/common_2notifications_2all_8inc_source.html#l00260">all.inc:260</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_a2e1514f73e31549522f5f490d4cb27c7"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#a2e1514f73e31549522f5f490d4cb27c7">w_deathtype</a></div><div class="ttdeci">int w_deathtype</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00107">defs.qh:107</a></div></div>
-<div class="ttc" id="sound_8qh_html_a51b32ff0a76acf272667897ad1b3bfff"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a51b32ff0a76acf272667897ad1b3bfff">LOG_TRACEF</a></div><div class="ttdeci">LOG_TRACEF(&quot;precache_sound(\&quot;%s\&quot;)\n&quot;, s)</div></div>
+<div class="ttc" id="log_8qh_html_a2872337768358857f71a83488272df5b"><div class="ttname"><a href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a></div><div class="ttdeci">#define LOG_TRACEF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00070">log.qh:70</a></div></div>
 <div class="ttc" id="common_2notifications_2all_8inc_html_ac9f197ea0884bf8824b3c18c2c1c8185"><div class="ttname"><a href="../../df/d00/common_2notifications_2all_8inc.html#ac9f197ea0884bf8824b3c18c2c1c8185">f1</a></div><div class="ttdeci">spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2 f1 f1points s2 minigame1_name minigames s s1 s2 s1 s2 spree_cen spree_cen spree_cen s1 spree_cen s1 spree_cen spree_cen spree_cen s1 spree_cen s1 f1</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d00/common_2notifications_2all_8inc_source.html#l00617">all.inc:617</a></div></div>
 <div class="ttc" id="common_2deathtypes_2all_8qh_html_ad5aa4530e732a8bb74be927221610971"><div class="ttname"><a href="../../db/dab/common_2deathtypes_2all_8qh.html#ad5aa4530e732a8bb74be927221610971">DEATH_WEAPONOF</a></div><div class="ttdeci">#define DEATH_WEAPONOF(t)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dab/common_2deathtypes_2all_8qh_source.html#l00044">all.qh:44</a></div></div>
 <div class="ttc" id="common_2notifications_2all_8inc_html_aa3a4d79ed24e4270f2709c15572bcb55"><div class="ttname"><a href="../../df/d00/common_2notifications_2all_8inc.html#aa3a4d79ed24e4270f2709c15572bcb55">f2</a></div><div class="ttdeci">spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2 f1 f1points f2</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d00/common_2notifications_2all_8inc_source.html#l00343">all.inc:343</a></div></div>
 <div class="ttc" id="common_2notifications_2all_8qh_html_af43285df24e8b1871037f3588117e951"><div class="ttname"><a href="../../dc/de5/common_2notifications_2all_8qh.html#af43285df24e8b1871037f3588117e951">Notification</a></div><div class="ttdeci">entity Notification</div><div class="ttdoc">always last </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/common_2notifications_2all_8qh_source.html#l00075">all.qh:75</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-27-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/dac/g__damage_8qc_a54e85ad9f5560a23de3bd54026021b06_cgraph.svg" width="334" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/dac/g__damage_8qc_a54e85ad9f5560a23de3bd54026021b06_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2393,21 +2383,21 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;}</div>
 <div class="ttc" id="g__damage_8qc_html_ac0534ca58f7521ce132a0694ffeb629a"><div class="ttname"><a href="../../d5/dac/g__damage_8qc.html#ac0534ca58f7521ce132a0694ffeb629a">RadiusDamageForSource</a></div><div class="ttdeci">float RadiusDamageForSource(entity inflictor, vector inflictororigin, vector inflictorvelocity, entity attacker, float coredamage, float edgedamage, float rad, entity cantbe, entity mustbe, float inflictorselfdamage, float forceintensity, int deathtype, entity directhitentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00882">g_damage.qc:882</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/dac/g__damage_8qc_a377b547a7053468290f13dffb6342b89_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/dac/g__damage_8qc_a377b547a7053468290f13dffb6342b89_icgraph.svg" width="100%" height="412"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2743,21 +2733,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="common_2deathtypes_2all_8qh_html_abfeb8ab3b6f6ad47eabcf0cb3d206b5a"><div class="ttname"><a href="../../db/dab/common_2deathtypes_2all_8qh.html#abfeb8ab3b6f6ad47eabcf0cb3d206b5a">HITTYPE_SPLASH</a></div><div class="ttdeci">const int HITTYPE_SPLASH</div><div class="ttdoc">automatically set by RadiusDamage </div><div class="ttdef"><b>Definition:</b> <a href="../../db/dab/common_2deathtypes_2all_8qh_source.html#l00029">all.qh:29</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_ad6f9bcb81f67360246f21f05e454a088"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ad6f9bcb81f67360246f21f05e454a088">autocvar_g_throughfloor_max_steps_other</a></div><div class="ttdeci">float autocvar_g_throughfloor_max_steps_other</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00283">autocvars.qh:283</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/dac/g__damage_8qc_ac0534ca58f7521ce132a0694ffeb629a_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/dac/g__damage_8qc_ac0534ca58f7521ce132a0694ffeb629a_icgraph.svg" width="100%" height="412"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2814,21 +2804,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="g__hook_8qc_html_a5caabf7067e846f30e860f42354bbf10"><div class="ttname"><a href="../../d7/de2/g__hook_8qc.html#a5caabf7067e846f30e860f42354bbf10">RemoveGrapplingHook</a></div><div class="ttdeci">void RemoveGrapplingHook(entity pl)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de2/g__hook_8qc_source.html#l00071">g_hook.qc:71</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/dac/g__damage_8qc_a705ff21e2e789e10d1eeb3bd16f97c86_cgraph.svg" width="291" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/dac/g__damage_8qc_a705ff21e2e789e10d1eeb3bd16f97c86_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2870,11 +2860,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
 <div class="ttc" id="scores_8qh_html_a44db80abc726d6330522fa5382f1b6e3"><div class="ttname"><a href="../../d3/dcd/scores_8qh.html#a44db80abc726d6330522fa5382f1b6e3">PlayerTeamScore_AddScore</a></div><div class="ttdeci">#define PlayerTeamScore_AddScore(p, s)</div><div class="ttdoc">Adds to the generic score fields for both the player and the team. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/scores_8qh_source.html#l00066">scores.qh:66</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/dac/g__damage_8qc_a82dca72f39db8edb61a18ed8f3cef721_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2903,7 +2893,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/dac/g__damage_8qc.html">g_damage.qc</a></li>
-    <li class="footer">Generated on Sun Mar 13 2016 09:56:55 for Xonotic by
+    <li class="footer">Generated on Sun Mar 13 2016 21:19:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

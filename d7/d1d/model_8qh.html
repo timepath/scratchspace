@@ -214,19 +214,19 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/d1d/model_8qh_source.html#l00014">14</a> of file <a class="el" href="../../d7/d1d/model_8qh_source.html">model.qh</a>.</p>
 
-<p>References <a class="el" href="../../da/d30/file_8qh_source.html#l00003">fexists()</a>, <a class="el" href="../../d0/df5/sound_8qh.html#a51b32ff0a76acf272667897ad1b3bfff">LOG_TRACEF()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00055">LOG_WARNINGF</a>, <a class="el" href="../../d7/d1d/model_8qh_source.html#l00012">model_str</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00233">s</a>.</p>
+<p>References <a class="el" href="../../da/d30/file_8qh_source.html#l00003">fexists()</a>, <a class="el" href="../../d0/df5/sound_8qh.html#a7439f3302bda4cc93af83ca4939ebf8e">LOG_DEBUGF()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00055">LOG_WARNINGF</a>, <a class="el" href="../../d7/d1d/model_8qh_source.html#l00012">model_str</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00233">s</a>.</p>
 <div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                                                     {</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a> = this.<a class="code" href="../../d7/d1d/model_8qh.html#afc498695fee788bb1f820d60f5e6713a">model_str</a>();</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">if</span> (s != <span class="stringliteral">&quot;&quot;</span> &amp;&amp; s != <span class="stringliteral">&quot;null&quot;</span> &amp;&amp; !<a class="code" href="../../d5/df2/common_2util_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff">fexists</a>(s)) {</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;Missing model: \&quot;%s\&quot;\n&quot;</span>, s);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        }</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../d0/df5/sound_8qh.html#a51b32ff0a76acf272667897ad1b3bfff">LOG_TRACEF</a>(<span class="stringliteral">&quot;precache_model(\&quot;%s\&quot;)\n&quot;</span>, s);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../d0/df5/sound_8qh.html#a7439f3302bda4cc93af83ca4939ebf8e">LOG_DEBUGF</a>(<span class="stringliteral">&quot;precache_model(\&quot;%s\&quot;)\n&quot;</span>, s);</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        precache_model(s);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
+<div class="ttc" id="sound_8qh_html_a7439f3302bda4cc93af83ca4939ebf8e"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a7439f3302bda4cc93af83ca4939ebf8e">LOG_DEBUGF</a></div><div class="ttdeci">LOG_DEBUGF(&quot;precache_sound(\&quot;%s\&quot;)\n&quot;, s)</div></div>
 <div class="ttc" id="log_8qh_html_afb0f2cb26657c7c79f0509c1bddfa7ce"><div class="ttname"><a href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a></div><div class="ttdeci">#define LOG_WARNINGF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00055">log.qh:55</a></div></div>
 <div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00233">oo.qh:233</a></div></div>
-<div class="ttc" id="sound_8qh_html_a51b32ff0a76acf272667897ad1b3bfff"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a51b32ff0a76acf272667897ad1b3bfff">LOG_TRACEF</a></div><div class="ttdeci">LOG_TRACEF(&quot;precache_sound(\&quot;%s\&quot;)\n&quot;, s)</div></div>
 <div class="ttc" id="model_8qh_html_afc498695fee788bb1f820d60f5e6713a"><div class="ttname"><a href="../../d7/d1d/model_8qh.html#afc498695fee788bb1f820d60f5e6713a">model_str</a></div><div class="ttdeci">this model_str</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1d/model_8qh_source.html#l00012">model.qh:12</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a3dbce76248787cf57ad2ba8c8b4d1aff"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff">fexists</a></div><div class="ttdeci">bool fexists(string f)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d30/file_8qh_source.html#l00003">file.qh:3</a></div></div>
 </div><!-- fragment -->
@@ -265,7 +265,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_c83288011515150628ea6201a715f126.html">models</a></li><li class="navelem"><a class="el" href="../../d7/d1d/model_8qh.html">model.qh</a></li>
-    <li class="footer">Generated on Sun Mar 13 2016 09:56:51 for Xonotic by
+    <li class="footer">Generated on Sun Mar 13 2016 21:19:22 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

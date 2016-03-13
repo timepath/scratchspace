@@ -9,7 +9,7 @@ var sound_8qh =
     [ "tryext", "d0/df5/sound_8qh.html#a03b0aea621721da3d1c54e3dcc99e4c8", null ],
     [ "_Sound_fixpath", "d0/df5/sound_8qh.html#ac9b429b7924cfc7d494968e1f72b2b4d", null ],
     [ "if", "d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258", null ],
-    [ "LOG_TRACEF", "d0/df5/sound_8qh.html#a51b32ff0a76acf272667897ad1b3bfff", null ],
+    [ "LOG_DEBUGF", "d0/df5/sound_8qh.html#a7439f3302bda4cc93af83ca4939ebf8e", null ],
     [ "precache_sound", "d0/df5/sound_8qh.html#a3394ed670f2b901a92fb5ce6c4fe0455", null ],
     [ "ATTEN_IDLE", "d0/df5/sound_8qh.html#adac39d0ed99391c139261058f3bf93b3", null ],
     [ "ATTEN_LARGE", "d0/df5/sound_8qh.html#afb6fcbf07aa2ed49e154e3921ebef32d", null ],

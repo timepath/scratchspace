@@ -265,7 +265,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/da7/generic_8qc_source.html#l00032">32</a> of file <a class="el" href="../../df/da7/generic_8qc_source.html">generic.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/d88/generic_8qh_source.html#l00041">curl_uri_get_cvar</a>, <a class="el" href="../../d7/d88/generic_8qh_source.html#l00040">curl_uri_get_exec</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00022">localcmd</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00058">LOG_INFO</a>, <a class="el" href="../../d0/df5/sound_8qh.html#a51b32ff0a76acf272667897ad1b3bfff">LOG_TRACEF()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, and <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00007">URI_GET_CURL</a>.</p>
+<p>References <a class="el" href="../../d7/d88/generic_8qh_source.html#l00041">curl_uri_get_cvar</a>, <a class="el" href="../../d7/d88/generic_8qh_source.html#l00040">curl_uri_get_exec</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00022">localcmd</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00058">LOG_INFO</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00070">LOG_TRACEF</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, and <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00007">URI_GET_CURL</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00486">URI_Get_Callback()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
@@ -274,7 +274,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordtype">string</span> do_cvar = <a class="code" href="../../d7/d88/generic_8qh.html#a39d724775165a6eed9f5a054ef603dc4">curl_uri_get_cvar</a>[i];</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">if</span>(status != 0)</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../d0/df5/sound_8qh.html#a51b32ff0a76acf272667897ad1b3bfff">LOG_TRACEF</a>(<span class="stringliteral">&quot;error: status is %d\n&quot;</span>, status);</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a>(<span class="stringliteral">&quot;error: status is %d\n&quot;</span>, status);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">if</span>(do_cvar)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(do_cvar);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">return</span>;</div>
@@ -296,7 +296,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
 <div class="ttc" id="urllib_8qh_html_a3761f7fe7b992fa3a4cb0b007bbd9a72"><div class="ttname"><a href="../../dc/dbb/urllib_8qh.html#a3761f7fe7b992fa3a4cb0b007bbd9a72">URI_GET_CURL</a></div><div class="ttdeci">const int URI_GET_CURL</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbb/urllib_8qh_source.html#l00007">urllib.qh:7</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
-<div class="ttc" id="sound_8qh_html_a51b32ff0a76acf272667897ad1b3bfff"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a51b32ff0a76acf272667897ad1b3bfff">LOG_TRACEF</a></div><div class="ttdeci">LOG_TRACEF(&quot;precache_sound(\&quot;%s\&quot;)\n&quot;, s)</div></div>
+<div class="ttc" id="log_8qh_html_a2872337768358857f71a83488272df5b"><div class="ttname"><a href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a></div><div class="ttdeci">#define LOG_TRACEF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00070">log.qh:70</a></div></div>
 <div class="ttc" id="dialog__settings__game_8qc_html_a8a672df12bf358a22e14bc370f55d8f1"><div class="ttname"><a href="../../de/d48/dialog__settings__game_8qc.html#a8a672df12bf358a22e14bc370f55d8f1">data</a></div><div class="ttdeci">DataSource data</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d48/dialog__settings__game_8qc_source.html#l00130">dialog_settings_game.qc:130</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
 </div><!-- fragment -->
@@ -305,7 +305,7 @@ Variables</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d88/generic_8qh_a802e2fce290ef7ee78e2c5272017a500_cgraph.svg" width="334" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d88/generic_8qh_a802e2fce290ef7ee78e2c5272017a500_cgraph.svg" width="302" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -729,7 +729,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_a56f470e76ece29cc39dabf8fca9d882.html">command</a></li><li class="navelem"><a class="el" href="../../d7/d88/generic_8qh.html">generic.qh</a></li>
-    <li class="footer">Generated on Sun Mar 13 2016 09:56:50 for Xonotic by
+    <li class="footer">Generated on Sun Mar 13 2016 21:19:21 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
