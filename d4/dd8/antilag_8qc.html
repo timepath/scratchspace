@@ -167,29 +167,30 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00120">120</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00121">121</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00008">ANTILAG_MAX_ORIGINS</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00105">antilag_restore()</a>.</p>
+<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00009">ANTILAG_MAX_ORIGINS</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00106">antilag_restore()</a>, and <a class="el" href="../../db/d9f/state_8qh_source.html#l00056">CS()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00395">PutClientInServer()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00637">vehicles_damage()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00963">vehicles_enter()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;{</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#af0d1a41028a18a8a7f2f1f8cd619cf3b">antilag_restore</a>(e);</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a>; ++i)</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    {</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        e.(antilag_times[i]) = -2342;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        e.(antilag_origins[i]) = e.origin;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    }</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    e.antilag_index = ANTILAG_MAX_ORIGINS - 1; <span class="comment">// next one is 0</span></div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;}</div>
-<div class="ttc" id="antilag_8qc_html_af0d1a41028a18a8a7f2f1f8cd619cf3b"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#af0d1a41028a18a8a7f2f1f8cd619cf3b">antilag_restore</a></div><div class="ttdeci">void antilag_restore(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00105">antilag.qc:105</a></div></div>
-<div class="ttc" id="antilag_8qc_html_a0f391f0d4833626e2e1f106782db02d9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a></div><div class="ttdeci">const int ANTILAG_MAX_ORIGINS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00008">antilag.qc:8</a></div></div>
+<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;{</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <a class="code" href="../../d4/dd8/antilag_8qc.html#af0d1a41028a18a8a7f2f1f8cd619cf3b">antilag_restore</a>(e);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a>; ++i)</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    {</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).antilag_times[i] = -2342;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).antilag_origins[i] = e.origin;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    e.antilag_index = ANTILAG_MAX_ORIGINS - 1; <span class="comment">// next one is 0</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;}</div>
+<div class="ttc" id="antilag_8qc_html_af0d1a41028a18a8a7f2f1f8cd619cf3b"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#af0d1a41028a18a8a7f2f1f8cd619cf3b">antilag_restore</a></div><div class="ttdeci">void antilag_restore(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00106">antilag.qc:106</a></div></div>
+<div class="ttc" id="state_8qh_html_a3e4a4ded2c3cd2d4bd68e69e98da9b35"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a></div><div class="ttdeci">ClientState CS(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00056">state.qh:56</a></div></div>
+<div class="ttc" id="antilag_8qc_html_a0f391f0d4833626e2e1f106782db02d9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a></div><div class="ttdeci">const int ANTILAG_MAX_ORIGINS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00009">antilag.qc:9</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_ae6a5106e2f050f6e30b2958416edf53e_cgraph.svg" width="262" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_ae6a5106e2f050f6e30b2958416edf53e_cgraph.svg" width="262" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -230,36 +231,48 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00039">39</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00040">40</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00008">ANTILAG_MAX_ORIGINS</a>.</p>
+<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00009">ANTILAG_MAX_ORIGINS</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00011">antilag_times</a>, and <a class="el" href="../../db/d9f/state_8qh_source.html#l00056">CS()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00059">antilag_takebackorigin()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = e.antilag_index; i &gt; 0; --i)</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">if</span>(e.(antilag_times[i]) &gt;= t)</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordflow">if</span>(e.(antilag_times[i - 1]) &lt; t)</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                <span class="keywordflow">return</span> i - 1;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span>(e.(antilag_times[0]) &gt;= t)</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">if</span>(e.(antilag_times[<a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a> - 1]) &lt; t)</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a> - 1;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = <a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a> - 1; i &gt; e.antilag_index + 1; --i)</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span>(e.(antilag_times[i]) &gt;= t)</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            <span class="keywordflow">if</span>(e.(antilag_times[i - 1]) &lt; t)</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;                <span class="keywordflow">return</span> i - 1;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="comment">// if we get here, t is sandwiched nowhere, so let&#39;s assume it&#39;s in the present</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
-<div class="ttc" id="antilag_8qc_html_a0f391f0d4833626e2e1f106782db02d9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a></div><div class="ttdeci">const int ANTILAG_MAX_ORIGINS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00008">antilag.qc:8</a></div></div>
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag_takebackorigin()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = e.antilag_index; i &gt; 0; --i)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).<a class="code" href="../../d4/dd8/antilag_8qc.html#a3f058de4dea7aae5dc56028f290a9510">antilag_times</a>[i] &gt;= t)</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).<a class="code" href="../../d4/dd8/antilag_8qc.html#a3f058de4dea7aae5dc56028f290a9510">antilag_times</a>[i - 1] &lt; t)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <span class="keywordflow">return</span> i - 1;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).<a class="code" href="../../d4/dd8/antilag_8qc.html#a3f058de4dea7aae5dc56028f290a9510">antilag_times</a>[0] &gt;= t)</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).<a class="code" href="../../d4/dd8/antilag_8qc.html#a3f058de4dea7aae5dc56028f290a9510">antilag_times</a>[<a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a> - 1] &lt; t)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a> - 1;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = <a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a> - 1; i &gt; e.antilag_index + 1; --i)</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).<a class="code" href="../../d4/dd8/antilag_8qc.html#a3f058de4dea7aae5dc56028f290a9510">antilag_times</a>[i] &gt;= t)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).<a class="code" href="../../d4/dd8/antilag_8qc.html#a3f058de4dea7aae5dc56028f290a9510">antilag_times</a>[i - 1] &lt; t)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                <span class="keywordflow">return</span> i - 1;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="comment">// if we get here, t is sandwiched nowhere, so let&#39;s assume it&#39;s in the present</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;}</div>
+<div class="ttc" id="antilag_8qc_html_a3f058de4dea7aae5dc56028f290a9510"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a3f058de4dea7aae5dc56028f290a9510">antilag_times</a></div><div class="ttdeci">float antilag_times[ANTILAG_MAX_ORIGINS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00011">antilag.qc:11</a></div></div>
+<div class="ttc" id="state_8qh_html_a3e4a4ded2c3cd2d4bd68e69e98da9b35"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a></div><div class="ttdeci">ClientState CS(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00056">state.qh:56</a></div></div>
+<div class="ttc" id="antilag_8qc_html_a0f391f0d4833626e2e1f106782db02d9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a></div><div class="ttdeci">const int ANTILAG_MAX_ORIGINS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00009">antilag.qc:9</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a35b4afc12038a8ae0ac17f3d26f84bb5_cgraph.svg" width="190" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a35b4afc12038a8ae0ac17f3d26f84bb5_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -291,51 +304,53 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00017">17</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00018">18</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00008">ANTILAG_MAX_ORIGINS</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00017">antilag_record()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00059">antilag_takebackorigin()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00073">VHF_PLAYERSLOT</a>.</p>
+<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00009">ANTILAG_MAX_ORIGINS</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00018">antilag_record()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag_takebackorigin()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00011">antilag_times</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00056">CS()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00073">VHF_PLAYERSLOT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00017">antilag_record()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span> (e.vehicle &amp;&amp; e.vehicle.vehicle_flags == <a class="code" href="../../d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7">VHF_PLAYERSLOT</a>)</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span>(e.vehicle)</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="../../d4/dd8/antilag_8qc.html#a794a1a61a258fefe29d6dae7d2eabdda">antilag_record</a>(e.vehicle, t);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; e.(antilag_times[e.antilag_index]))</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    e.antilag_index = e.antilag_index + 1;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">if</span>(e.antilag_index &gt;= <a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a>)</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        e.antilag_index = 0;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    e.(antilag_times[e.antilag_index]) = t;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    e.(antilag_origins[e.antilag_index]) = e.origin;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span>(e.antilag_debug)</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        te_spark(<a class="code" href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a>(e, t - e.antilag_debug), <span class="stringliteral">&#39;0 0 0&#39;</span>, 32);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00018">antilag_record()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordflow">if</span> (e.vehicle &amp;&amp; e.vehicle.vehicle_flags == <a class="code" href="../../d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7">VHF_PLAYERSLOT</a>)</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">if</span>(e.vehicle)</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="../../d4/dd8/antilag_8qc.html#a794a1a61a258fefe29d6dae7d2eabdda">antilag_record</a>(e.vehicle, t);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; <a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).<a class="code" href="../../d4/dd8/antilag_8qc.html#a3f058de4dea7aae5dc56028f290a9510">antilag_times</a>[e.antilag_index])</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    e.antilag_index = e.antilag_index + 1;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">if</span>(e.antilag_index &gt;= <a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a>)</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        e.antilag_index = 0;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).antilag_times[e.antilag_index] = t;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).antilag_origins[e.antilag_index] = e.origin;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span>(e.antilag_debug)</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        te_spark(<a class="code" href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a>(e, t - e.antilag_debug), <span class="stringliteral">&#39;0 0 0&#39;</span>, 32);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="ttc" id="vehicle_8qh_html_a00f9309f159793dd43fa130974c7d4e7"><div class="ttname"><a href="../../d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7">VHF_PLAYERSLOT</a></div><div class="ttdeci">const int VHF_PLAYERSLOT</div><div class="ttdoc">Vehicle has multiple player slots. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4b/vehicle_8qh_source.html#l00073">vehicle.qh:73</a></div></div>
-<div class="ttc" id="antilag_8qc_html_a794a1a61a258fefe29d6dae7d2eabdda"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a794a1a61a258fefe29d6dae7d2eabdda">antilag_record</a></div><div class="ttdeci">void antilag_record(entity e, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00017">antilag.qc:17</a></div></div>
-<div class="ttc" id="antilag_8qc_html_a35f6a113079551ab09f27c14b886444c"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a></div><div class="ttdeci">vector antilag_takebackorigin(entity e, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00059">antilag.qc:59</a></div></div>
+<div class="ttc" id="antilag_8qc_html_a3f058de4dea7aae5dc56028f290a9510"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a3f058de4dea7aae5dc56028f290a9510">antilag_times</a></div><div class="ttdeci">float antilag_times[ANTILAG_MAX_ORIGINS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00011">antilag.qc:11</a></div></div>
+<div class="ttc" id="antilag_8qc_html_a794a1a61a258fefe29d6dae7d2eabdda"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a794a1a61a258fefe29d6dae7d2eabdda">antilag_record</a></div><div class="ttdeci">void antilag_record(entity e, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00018">antilag.qc:18</a></div></div>
+<div class="ttc" id="state_8qh_html_a3e4a4ded2c3cd2d4bd68e69e98da9b35"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a></div><div class="ttdeci">ClientState CS(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00056">state.qh:56</a></div></div>
+<div class="ttc" id="antilag_8qc_html_a35f6a113079551ab09f27c14b886444c"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a></div><div class="ttdeci">vector antilag_takebackorigin(entity e, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag.qc:60</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
-<div class="ttc" id="antilag_8qc_html_a0f391f0d4833626e2e1f106782db02d9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a></div><div class="ttdeci">const int ANTILAG_MAX_ORIGINS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00008">antilag.qc:8</a></div></div>
+<div class="ttc" id="antilag_8qc_html_a0f391f0d4833626e2e1f106782db02d9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a></div><div class="ttdeci">const int ANTILAG_MAX_ORIGINS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00009">antilag.qc:9</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a794a1a61a258fefe29d6dae7d2eabdda_cgraph.svg" width="451" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a794a1a61a258fefe29d6dae7d2eabdda_cgraph.svg" width="542" height="179"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a794a1a61a258fefe29d6dae7d2eabdda_icgraph.svg" width="267" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -357,42 +372,42 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00105">105</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00106">106</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00105">antilag_restore()</a>, and <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00073">VHF_PLAYERSLOT</a>.</p>
+<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00106">antilag_restore()</a>, and <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00073">VHF_PLAYERSLOT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00120">antilag_clear()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00105">antilag_restore()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00036">tracebox_antilag_force_wz()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00053">W_HitPlotAnalysis()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">if</span> (e.vehicle &amp;&amp; e.vehicle.vehicle_flags == <a class="code" href="../../d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7">VHF_PLAYERSLOT</a>)</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">if</span>(e.vehicle)</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <a class="code" href="../../d4/dd8/antilag_8qc.html#af0d1a41028a18a8a7f2f1f8cd619cf3b">antilag_restore</a>(e.vehicle);</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordflow">if</span>(!e.antilag_takenback)</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    setorigin(e, e.antilag_saved_origin);</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    e.antilag_takenback = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00121">antilag_clear()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00106">antilag_restore()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00036">tracebox_antilag_force_wz()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00053">W_HitPlotAnalysis()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;{</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">if</span> (e.vehicle &amp;&amp; e.vehicle.vehicle_flags == <a class="code" href="../../d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7">VHF_PLAYERSLOT</a>)</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">if</span>(e.vehicle)</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <a class="code" href="../../d4/dd8/antilag_8qc.html#af0d1a41028a18a8a7f2f1f8cd619cf3b">antilag_restore</a>(e.vehicle);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">if</span>(!e.antilag_takenback)</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    setorigin(e, e.antilag_saved_origin);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    e.antilag_takenback = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}</div>
 <div class="ttc" id="vehicle_8qh_html_a00f9309f159793dd43fa130974c7d4e7"><div class="ttname"><a href="../../d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7">VHF_PLAYERSLOT</a></div><div class="ttdeci">const int VHF_PLAYERSLOT</div><div class="ttdoc">Vehicle has multiple player slots. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4b/vehicle_8qh_source.html#l00073">vehicle.qh:73</a></div></div>
-<div class="ttc" id="antilag_8qc_html_af0d1a41028a18a8a7f2f1f8cd619cf3b"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#af0d1a41028a18a8a7f2f1f8cd619cf3b">antilag_restore</a></div><div class="ttdeci">void antilag_restore(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00105">antilag.qc:105</a></div></div>
+<div class="ttc" id="antilag_8qc_html_af0d1a41028a18a8a7f2f1f8cd619cf3b"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#af0d1a41028a18a8a7f2f1f8cd619cf3b">antilag_restore</a></div><div class="ttdeci">void antilag_restore(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00106">antilag.qc:106</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_af0d1a41028a18a8a7f2f1f8cd619cf3b_cgraph.svg" width="118" height="62"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_af0d1a41028a18a8a7f2f1f8cd619cf3b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -424,46 +439,46 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00088">88</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00089">89</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00088">antilag_takeback()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00059">antilag_takebackorigin()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00073">VHF_PLAYERSLOT</a>.</p>
+<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00089">antilag_takeback()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag_takebackorigin()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d1/d4b/vehicle_8qh_source.html#l00073">VHF_PLAYERSLOT</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00088">antilag_takeback()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00036">tracebox_antilag_force_wz()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00053">W_HitPlotAnalysis()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;{</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">if</span> (e.vehicle &amp;&amp; e.vehicle.vehicle_flags == <a class="code" href="../../d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7">VHF_PLAYERSLOT</a>)</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordflow">if</span>(e.vehicle)</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <a class="code" href="../../d4/dd8/antilag_8qc.html#a3b9bae59d51e03b6fe16da49e64f8dc9">antilag_takeback</a>(e.vehicle, t);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">if</span>(!e.antilag_takenback)</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        e.antilag_saved_origin = e.origin;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> org = <a class="code" href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a>(e, t);</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    setorigin(e, org);</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    e.antilag_takenback = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00089">antilag_takeback()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00351">fireBullet()</a>, <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00036">tracebox_antilag_force_wz()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00053">W_HitPlotAnalysis()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;{</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">if</span> (e.vehicle &amp;&amp; e.vehicle.vehicle_flags == <a class="code" href="../../d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7">VHF_PLAYERSLOT</a>)</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">if</span>(e.vehicle)</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="../../d4/dd8/antilag_8qc.html#a3b9bae59d51e03b6fe16da49e64f8dc9">antilag_takeback</a>(e.vehicle, t);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordflow">if</span>(!e.antilag_takenback)</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        e.antilag_saved_origin = e.origin;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> org = <a class="code" href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a>(e, t);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    setorigin(e, org);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    e.antilag_takenback = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
 <div class="ttc" id="vehicle_8qh_html_a00f9309f159793dd43fa130974c7d4e7"><div class="ttname"><a href="../../d1/d4b/vehicle_8qh.html#a00f9309f159793dd43fa130974c7d4e7">VHF_PLAYERSLOT</a></div><div class="ttdeci">const int VHF_PLAYERSLOT</div><div class="ttdoc">Vehicle has multiple player slots. </div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4b/vehicle_8qh_source.html#l00073">vehicle.qh:73</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-<div class="ttc" id="antilag_8qc_html_a3b9bae59d51e03b6fe16da49e64f8dc9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a3b9bae59d51e03b6fe16da49e64f8dc9">antilag_takeback</a></div><div class="ttdeci">void antilag_takeback(entity e, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00088">antilag.qc:88</a></div></div>
-<div class="ttc" id="antilag_8qc_html_a35f6a113079551ab09f27c14b886444c"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a></div><div class="ttdeci">vector antilag_takebackorigin(entity e, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00059">antilag.qc:59</a></div></div>
+<div class="ttc" id="antilag_8qc_html_a3b9bae59d51e03b6fe16da49e64f8dc9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a3b9bae59d51e03b6fe16da49e64f8dc9">antilag_takeback</a></div><div class="ttdeci">void antilag_takeback(entity e, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00089">antilag.qc:89</a></div></div>
+<div class="ttc" id="antilag_8qc_html_a35f6a113079551ab09f27c14b886444c"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a></div><div class="ttdeci">vector antilag_takebackorigin(entity e, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag.qc:60</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-8-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a3b9bae59d51e03b6fe16da49e64f8dc9_cgraph.svg" width="467" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a3b9bae59d51e03b6fe16da49e64f8dc9_cgraph.svg" width="558" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a3b9bae59d51e03b6fe16da49e64f8dc9_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -501,27 +516,27 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00077">77</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00078">78</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00059">antilag_takebackorigin()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;{</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> o0, o1;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    <span class="keywordflow">if</span>(t0 &gt;= t1)</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    o0 = <a class="code" href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a>(e, t0);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    o1 = <a class="code" href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a>(e, t1);</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">return</span> (o1 - o0) * (1 / (t1 - t0));</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;}</div>
+<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag_takebackorigin()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;{</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> o0, o1;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordflow">if</span>(t0 &gt;= t1)</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    o0 = <a class="code" href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a>(e, t0);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    o1 = <a class="code" href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a>(e, t1);</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">return</span> (o1 - o0) * (1 / (t1 - t0));</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-<div class="ttc" id="antilag_8qc_html_a35f6a113079551ab09f27c14b886444c"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a></div><div class="ttdeci">vector antilag_takebackorigin(entity e, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00059">antilag.qc:59</a></div></div>
+<div class="ttc" id="antilag_8qc_html_a35f6a113079551ab09f27c14b886444c"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a35f6a113079551ab09f27c14b886444c">antilag_takebackorigin</a></div><div class="ttdeci">vector antilag_takebackorigin(entity e, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag.qc:60</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_aee7442148e9ef1ffba1413fd1ab8d426_cgraph.svg" width="534" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_aee7442148e9ef1ffba1413fd1ab8d426_cgraph.svg" width="624" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -552,46 +567,49 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00059">59</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00060">60</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00039">antilag_find()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00008">ANTILAG_MAX_ORIGINS</a>, and <a class="el" href="../../d0/d79/math_8qh_source.html#l00067">lerpv()</a>.</p>
+<p>References <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00040">antilag_find()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00009">ANTILAG_MAX_ORIGINS</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00010">antilag_origins</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00011">antilag_times</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00056">CS()</a>, and <a class="el" href="../../d0/d79/math_8qh_source.html#l00067">lerpv()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00017">antilag_record()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00088">antilag_takeback()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00077">antilag_takebackavgvelocity()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00894">botframe_autowaypoints_fix_from()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordtype">int</span> i0 = <a class="code" href="../../d4/dd8/antilag_8qc.html#a35b4afc12038a8ae0ac17f3d26f84bb5">antilag_find</a>(e, t);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">if</span> (i0 &lt; 0)</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="comment">// IN THE PRESENT</span></div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">if</span>(e.antilag_takenback)</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <span class="keywordflow">return</span> e.antilag_saved_origin;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="keywordflow">return</span> e.origin;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">int</span> i1 = i0 + 1;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">if</span> (i1 &gt;= <a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a>)</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        i1 = 0;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d79/math_8qh.html#a26a88fb303232c6dfa1541e00a40c19c">lerpv</a>(e.(antilag_times[i0]), e.(antilag_origins[i0]), e.(antilag_times[i1]), e.(antilag_origins[i1]), t);</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
-<div class="ttc" id="antilag_8qc_html_a35b4afc12038a8ae0ac17f3d26f84bb5"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a35b4afc12038a8ae0ac17f3d26f84bb5">antilag_find</a></div><div class="ttdeci">float antilag_find(entity e, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00039">antilag.qc:39</a></div></div>
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00018">antilag_record()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00089">antilag_takeback()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00078">antilag_takebackavgvelocity()</a>, and <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00894">botframe_autowaypoints_fix_from()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;{</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordtype">int</span> i0 = <a class="code" href="../../d4/dd8/antilag_8qc.html#a35b4afc12038a8ae0ac17f3d26f84bb5">antilag_find</a>(e, t);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">if</span> (i0 &lt; 0)</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="comment">// IN THE PRESENT</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keywordflow">if</span>(e.antilag_takenback)</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">return</span> e.antilag_saved_origin;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">return</span> e.origin;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">int</span> i1 = i0 + 1;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <span class="keywordflow">if</span> (i1 &gt;= <a class="code" href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a>)</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        i1 = 0;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d79/math_8qh.html#a26a88fb303232c6dfa1541e00a40c19c">lerpv</a>(<a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).<a class="code" href="../../d4/dd8/antilag_8qc.html#a3f058de4dea7aae5dc56028f290a9510">antilag_times</a>[i0], <a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).<a class="code" href="../../d4/dd8/antilag_8qc.html#ae30cf4ae76023af50b34d6d42e5f1d1a">antilag_origins</a>[i0], <a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).<a class="code" href="../../d4/dd8/antilag_8qc.html#a3f058de4dea7aae5dc56028f290a9510">antilag_times</a>[i1], <a class="code" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a>(e).<a class="code" href="../../d4/dd8/antilag_8qc.html#ae30cf4ae76023af50b34d6d42e5f1d1a">antilag_origins</a>[i1], t);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
+<div class="ttc" id="antilag_8qc_html_a35b4afc12038a8ae0ac17f3d26f84bb5"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a35b4afc12038a8ae0ac17f3d26f84bb5">antilag_find</a></div><div class="ttdeci">float antilag_find(entity e, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00040">antilag.qc:40</a></div></div>
+<div class="ttc" id="antilag_8qc_html_ae30cf4ae76023af50b34d6d42e5f1d1a"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#ae30cf4ae76023af50b34d6d42e5f1d1a">antilag_origins</a></div><div class="ttdeci">vector antilag_origins[ANTILAG_MAX_ORIGINS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00010">antilag.qc:10</a></div></div>
+<div class="ttc" id="antilag_8qc_html_a3f058de4dea7aae5dc56028f290a9510"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a3f058de4dea7aae5dc56028f290a9510">antilag_times</a></div><div class="ttdeci">float antilag_times[ANTILAG_MAX_ORIGINS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00011">antilag.qc:11</a></div></div>
+<div class="ttc" id="state_8qh_html_a3e4a4ded2c3cd2d4bd68e69e98da9b35"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a></div><div class="ttdeci">ClientState CS(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00056">state.qh:56</a></div></div>
 <div class="ttc" id="math_8qh_html_a26a88fb303232c6dfa1541e00a40c19c"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a26a88fb303232c6dfa1541e00a40c19c">lerpv</a></div><div class="ttdeci">vector lerpv(float t0, vector v0, float t1, vector v1, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00067">math.qh:67</a></div></div>
-<div class="ttc" id="antilag_8qc_html_a0f391f0d4833626e2e1f106782db02d9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a></div><div class="ttdeci">const int ANTILAG_MAX_ORIGINS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00008">antilag.qc:8</a></div></div>
+<div class="ttc" id="antilag_8qc_html_a0f391f0d4833626e2e1f106782db02d9"><div class="ttname"><a href="../../d4/dd8/antilag_8qc.html#a0f391f0d4833626e2e1f106782db02d9">ANTILAG_MAX_ORIGINS</a></div><div class="ttdeci">const int ANTILAG_MAX_ORIGINS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd8/antilag_8qc_source.html#l00009">antilag.qc:9</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a35f6a113079551ab09f27c14b886444c_cgraph.svg" width="299" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a35f6a113079551ab09f27c14b886444c_cgraph.svg" width="390" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d4/dd8/antilag_8qc_a35f6a113079551ab09f27c14b886444c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -610,7 +628,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00015">15</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00016">16</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00199">FireRailgunBullet()</a>.</p>
 
@@ -626,7 +644,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00011">11</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00012">12</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
 </div>
 </div>
@@ -640,9 +658,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00008">8</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00009">9</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00120">antilag_clear()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00039">antilag_find()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00017">antilag_record()</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00059">antilag_takebackorigin()</a>.</p>
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00121">antilag_clear()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00040">antilag_find()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00018">antilag_record()</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag_takebackorigin()</a>.</p>
 
 </div>
 </div>
@@ -656,7 +674,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00009">9</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00010">10</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag_takebackorigin()</a>.</p>
 
 </div>
 </div>
@@ -670,7 +690,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00012">12</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00013">13</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
 </div>
 </div>
@@ -684,7 +704,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00013">13</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00014">14</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
 
 </div>
 </div>
@@ -698,7 +718,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00010">10</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00011">11</a> of file <a class="el" href="../../d4/dd8/antilag_8qc_source.html">antilag.qc</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00040">antilag_find()</a>, <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00018">antilag_record()</a>, and <a class="el" href="../../d4/dd8/antilag_8qc_source.html#l00060">antilag_takebackorigin()</a>.</p>
 
 </div>
 </div>
@@ -708,7 +730,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d4/dd8/antilag_8qc.html">antilag.qc</a></li>
-    <li class="footer">Generated on Sun Mar 13 2016 02:32:01 for Xonotic by
+    <li class="footer">Generated on Sun Mar 13 2016 04:21:09 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

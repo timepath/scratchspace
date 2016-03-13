@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"de/d5e/dpextensions_8qc.html#a7e40105260cec1d1e74180d2099a251c":[1,0,2,0,1,226],
+"de/d5e/dpextensions_8qc.html#a7e44d174f976d9341b559070a36be94c":[1,0,2,0,1,293],
+"de/d5e/dpextensions_8qc.html#a7e5b6bc70dfd618e48a10ed1d9cafaf7":[1,0,2,0,1,133],
+"de/d5e/dpextensions_8qc.html#a7ef46523bf1f305084e2ca69db4f24ee":[1,0,2,0,1,179],
+"de/d5e/dpextensions_8qc.html#a7f1ab56be47bd76da238771e4f9d20fe":[1,0,2,0,1,63],
+"de/d5e/dpextensions_8qc.html#a7ff47dfd72a1ac23c450d127bd29c24b":[1,0,2,0,1,332],
 "de/d5e/dpextensions_8qc.html#a803255bd100b7f3c7900e628785c08ff":[1,0,2,0,1,200],
 "de/d5e/dpextensions_8qc.html#a808cd5924a3c997566fac8d8d5f4e275":[1,0,2,0,1,124],
 "de/d5e/dpextensions_8qc.html#a816ed7b84601246e13deb65c1c469e86":[1,0,2,0,1,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "de/d68/accumulate_8qh.html#a402f916520763cc54bd64476d42b43ba":[1,0,3,3,4],
 "de/d68/accumulate_8qh.html#a63caa863ede3c6510744c01983e44648":[1,0,3,3,2],
 "de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be":[1,0,3,3,1],
-"de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5":[1,0,3,3,0],
-"de/d68/accumulate_8qh.html#ade70a07ed0ace4db1fdea0a7cf3bb2d0":[1,0,3,3,5],
-"de/d68/accumulate_8qh_source.html":[1,0,3,3],
-"de/d69/delay_8qc.html":[1,0,1,13,3,1],
-"de/d69/delay_8qc_source.html":[1,0,1,13,3,1],
-"de/d6e/playerstats_8qc.html":[1,0,1,34],
-"de/d6e/playerstats_8qc_source.html":[1,0,1,34]
+"de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5":[1,0,3,3,0]
 };
