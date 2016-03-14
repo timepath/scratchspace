@@ -104,378 +104,379 @@ $(document).ready(function(){initNavTree('dd/d31/banning_8qc_source.html','../..
 <div class="title">banning.qc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../dd/d31/banning_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/d71/command_8qh.html">common/command/command.qh</a>&gt;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/dbd/banning_8qh.html">banning.qh</a>&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d06/server_2command_2common_8qh.html">common.qh</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;../cl_player.qh&quot;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;../ipban.qh&quot;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d5/df2/common_2util_8qh.html">common/util.qh</a>&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">// =====================================================</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">//  Banning and kicking command code, written by Samual</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//  Last updated: December 29th, 2011</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">// =====================================================</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921">   16</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921">BanCommand_ban</a>(<span class="keywordtype">float</span> request, <span class="keywordtype">float</span> argc, <span class="keywordtype">string</span> command)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <span class="keywordflow">if</span> (argc &gt;= 2)</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordtype">string</span> ip = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="keywordtype">float</span> reason_arg, bantime;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordtype">string</span> reason;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                reason_arg = 2;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <a class="code" href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a>(bantime, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ad351a5b10dd698f9d4bc03bc2547328c">autocvar_g_ban_default_bantime</a>);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <a class="code" href="../../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe">GET_BAN_REASON</a>(reason, <span class="stringliteral">&quot;No reason provided&quot;</span>);</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                <a class="code" href="../../de/dbd/banning_8qh.html#a808faa01ebcd03108b55a09f87bcabe5">Ban_Insert</a>(ip, bantime, reason, 1);</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            }</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2ban^7\n&quot;</span>);</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        {</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd ban address [bantime] [reason]\n&quot;</span>);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;address&#39; is the IP address or range of the player to ban,\n&quot;</span>);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;bantime&#39; is the amount of time that the ban is active (default if not provided),\n&quot;</span>);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  and &#39;reason&#39; is the string to label the ban with as reason for banning.\n&quot;</span>);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2banlist, kickban, unban^7\n&quot;</span>);</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        }</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
-<div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324">   52</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324">BanCommand_banlist</a>(<span class="keywordtype">float</span> request)</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        {</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="../../de/dbd/banning_8qh.html#a1a7772963018e41992c65dfbe12b63fe">Ban_View</a>();</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        {</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd banlist\n&quot;</span>);</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2ban, kickban, unban^7\n&quot;</span>);</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        }</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;}</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1">   73</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1">BanCommand_kickban</a>(<span class="keywordtype">float</span> request, <span class="keywordtype">float</span> argc, <span class="keywordtype">string</span> command)</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    {</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;            <span class="keywordflow">if</span> (argc &gt;= 2)</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> client = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#a227052057c08e1288dd13a4e7bfc5508">GetIndexedEntity</a>(argc, 1);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <span class="keywordtype">float</span> accepted = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#aab19b445aac1c8d745c4c56c516db0d1">VerifyKickableEntity</a>(client);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                <span class="keywordtype">float</span> reason_arg, bantime, masksize;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <span class="keywordtype">string</span> reason;</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                <span class="keywordflow">if</span> (accepted &gt; 0)</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                {</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                    reason_arg = <a class="code" href="../../d2/d06/server_2command_2common_8qh.html#aedf91dab889fba563d3808503f2f9144">next_token</a>;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a>(bantime, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ad351a5b10dd698f9d4bc03bc2547328c">autocvar_g_ban_default_bantime</a>);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a>(masksize, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ade7c91d7a953c8eb6d8a172aee7fa66f">autocvar_g_ban_default_masksize</a>);</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe">GET_BAN_REASON</a>(reason, <span class="stringliteral">&quot;No reason provided&quot;</span>);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#ac89ccc1209193c2c02b5d3f992b8ec69">Ban_KickBanClient</a>(client, bantime, masksize, reason);</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                    <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                }</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                {</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;kickban: &quot;</span>, <a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74">GetClientErrorString</a>(accepted, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1)), <span class="stringliteral">&quot;.\n&quot;</span>);</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                }</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            }</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        }</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2kickban^7\n&quot;</span>);</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        {</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd kickban client [bantime] [masksize] [reason]\n&quot;</span>);</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;client&#39; is the entity number or name of the player to ban,\n&quot;</span>);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;bantime&#39; is the amount of time that the ban is active (default if not provided),\n&quot;</span>);</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;masksize&#39; is the range of the IP address (1-thru-4, default if not provided),\n&quot;</span>);</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  and &#39;reason&#39; is the string to label the ban with as reason for banning.\n&quot;</span>);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2ban, banlist, unban^7\n&quot;</span>);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        }</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    }</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;}</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#a4f2c82ea999542faf06d958d655e1c3d">  120</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#a4f2c82ea999542faf06d958d655e1c3d">BanCommand_mute</a>(<span class="keywordtype">float</span> request, <span class="keywordtype">float</span> argc, <span class="keywordtype">string</span> command)  <span class="comment">// TODO: Add a sort of mute-&quot;ban&quot; which allows players to be muted based on IP/cryptokey</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;{</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    {</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        {</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            <span class="keywordflow">if</span> (argc &gt;= 2)</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            {</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> client = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#afff16d75dc358b9f81513350d82d92f3">GetFilteredEntity</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1));</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                <span class="keywordtype">float</span> accepted = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#af89e91d25e1930737140b82c808de86f">VerifyClientEntity</a>(client, <span class="keyword">true</span>, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                <span class="keywordflow">if</span> (accepted &gt; 0)</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                {</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                    client.muted = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                    <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                }</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                {</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;mute: &quot;</span>, <a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74">GetClientErrorString</a>(accepted, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1)), <span class="stringliteral">&quot;.\n&quot;</span>);</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                }</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            }</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        }</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2mute^7\n&quot;</span>);</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        {</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd mute client\n&quot;</span>);</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;client&#39; is the entity number or name of the player to mute.\n&quot;</span>);</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2unmute^7\n&quot;</span>);</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        }</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    }</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;}</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div>
-<div class="line"><a name="l00155"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#a2bffd56af811b38784b496065b47a827">  155</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#a2bffd56af811b38784b496065b47a827">BanCommand_unban</a>(<span class="keywordtype">float</span> request, <span class="keywordtype">float</span> argc)</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;{</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    {</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        {</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1))</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            {</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                <span class="keywordtype">float</span> tmp_number = -1;</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                <span class="keywordtype">string</span> tmp_string;</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1), 0, 1) == <span class="stringliteral">&quot;#&quot;</span>)</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                {</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                    tmp_string = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1), 1, -1);</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                    <span class="keywordflow">if</span> (tmp_string != <span class="stringliteral">&quot;&quot;</span>) <span class="comment">// is it all one token? like #1</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                        tmp_number = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(tmp_string);</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (argc &gt; 2)    <span class="comment">// no, it&#39;s two tokens? # 1</span></div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                        tmp_number = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(2));</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                    <span class="keywordflow">else</span> tmp_number = -1;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                }</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                <span class="keywordflow">else</span>  <span class="comment">// maybe it&#39;s ONLY a number?</span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                {</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                    tmp_number = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1));</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;                    <span class="keywordflow">if</span> ((tmp_number == 0) &amp;&amp; (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1) != <span class="stringliteral">&quot;0&quot;</span>)) tmp_number = -1; }</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;                <span class="keywordflow">if</span> (tmp_number &gt;= 0)</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                {</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#ab915b826ebbe3fa641b6dcf17dbe4fc3">Ban_Delete</a>(tmp_number);</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                    <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                }</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            }</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        }</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        {</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd unban banid\n&quot;</span>);</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  Where &#39;banid&#39; is the ID of the ban of which to remove.\n&quot;</span>);</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2ban, banlist, kickban^7\n&quot;</span>);</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        }</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    }</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;}</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
-<div class="line"><a name="l00201"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#a4fab95294be6cc529f118797f2e72db1">  201</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#a4fab95294be6cc529f118797f2e72db1">BanCommand_unmute</a>(<span class="keywordtype">float</span> request, <span class="keywordtype">float</span> argc)</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;{</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    {</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        {</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            <span class="keywordflow">if</span> (argc &gt;= 2)</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            {</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> client = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#afff16d75dc358b9f81513350d82d92f3">GetFilteredEntity</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1));</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                <span class="keywordtype">float</span> accepted = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#af89e91d25e1930737140b82c808de86f">VerifyClientEntity</a>(client, <span class="keyword">true</span>, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                <span class="keywordflow">if</span> (accepted &gt; 0)</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                {</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                    client.muted = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                    <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                }</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                {</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;unmute: &quot;</span>, <a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74">GetClientErrorString</a>(accepted, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1)), <span class="stringliteral">&quot;.\n&quot;</span>);</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                }</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            }</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        }</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2mute^7\n&quot;</span>);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        {</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd unmute client\n&quot;</span>);</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;client&#39; is the entity number or name of the player to unmute.\n&quot;</span>);</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2mute^7\n&quot;</span>);</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        }</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    }</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;}</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="comment">/* use this when creating a new command, making sure to place it in alphabetical order... also,</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="comment">** ADD ALL NEW COMMANDS TO commands.cfg WITH PROPER ALIASES IN THE SAME FASHION!</span></div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="comment">void BanCommand_(float request)</span></div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="comment">{</span></div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="comment">    switch(request)</span></div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="comment">    {</span></div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="comment">        case CMD_REQUEST_COMMAND:</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="comment">        {</span></div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="comment">            return;</span></div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="comment">        }</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="comment">        default:</span></div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="comment">        case CMD_REQUEST_USAGE:</span></div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="comment">        {</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="comment">            print(&quot;\nUsage:^3 sv_cmd \n&quot;);</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="comment">            print(&quot;  No arguments required.\n&quot;);</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="comment">            return;</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="comment">        }</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="comment">    }</span></div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="comment">}</span></div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;</div>
+<a href="../../dd/d31/banning_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/dbd/banning_8qh.html">banning.qh</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/d71/command_8qh.html">common/command/command.qh</a>&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/dbd/banning_8qh.html">banning.qh</a>&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d06/server_2command_2common_8qh.html">common.qh</a>&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;../cl_player.qh&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;../ipban.qh&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d5/df2/common_2util_8qh.html">common/util.qh</a>&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">// =====================================================</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//  Banning and kicking command code, written by Samual</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">//  Last updated: December 29th, 2011</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">// =====================================================</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921">   17</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921">BanCommand_ban</a>(<span class="keywordtype">float</span> request, <span class="keywordtype">float</span> argc, <span class="keywordtype">string</span> command)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keywordflow">if</span> (argc &gt;= 2)</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="keywordtype">string</span> ip = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordtype">float</span> reason_arg, bantime;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                <span class="keywordtype">string</span> reason;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                reason_arg = 2;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <a class="code" href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a>(bantime, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ad351a5b10dd698f9d4bc03bc2547328c">autocvar_g_ban_default_bantime</a>);</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <a class="code" href="../../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe">GET_BAN_REASON</a>(reason, <span class="stringliteral">&quot;No reason provided&quot;</span>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                <a class="code" href="../../de/dbd/banning_8qh.html#a808faa01ebcd03108b55a09f87bcabe5">Ban_Insert</a>(ip, bantime, reason, 1);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            }</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        }</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2ban^7\n&quot;</span>);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd ban address [bantime] [reason]\n&quot;</span>);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;address&#39; is the IP address or range of the player to ban,\n&quot;</span>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;bantime&#39; is the amount of time that the ban is active (default if not provided),\n&quot;</span>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  and &#39;reason&#39; is the string to label the ban with as reason for banning.\n&quot;</span>);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2banlist, kickban, unban^7\n&quot;</span>);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        }</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324">   53</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324">BanCommand_banlist</a>(<span class="keywordtype">float</span> request)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    {</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <a class="code" href="../../de/dbd/banning_8qh.html#a1a7772963018e41992c65dfbe12b63fe">Ban_View</a>();</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        }</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        {</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd banlist\n&quot;</span>);</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2ban, kickban, unban^7\n&quot;</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        }</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    }</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1">   74</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1">BanCommand_kickban</a>(<span class="keywordtype">float</span> request, <span class="keywordtype">float</span> argc, <span class="keywordtype">string</span> command)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;{</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordflow">if</span> (argc &gt;= 2)</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> client = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#a227052057c08e1288dd13a4e7bfc5508">GetIndexedEntity</a>(argc, 1);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                <span class="keywordtype">float</span> accepted = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#aab19b445aac1c8d745c4c56c516db0d1">VerifyKickableEntity</a>(client);</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                <span class="keywordtype">float</span> reason_arg, bantime, masksize;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                <span class="keywordtype">string</span> reason;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                <span class="keywordflow">if</span> (accepted &gt; 0)</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                    reason_arg = <a class="code" href="../../d2/d06/server_2command_2common_8qh.html#aedf91dab889fba563d3808503f2f9144">next_token</a>;</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a>(bantime, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ad351a5b10dd698f9d4bc03bc2547328c">autocvar_g_ban_default_bantime</a>);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a>(masksize, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ade7c91d7a953c8eb6d8a172aee7fa66f">autocvar_g_ban_default_masksize</a>);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe">GET_BAN_REASON</a>(reason, <span class="stringliteral">&quot;No reason provided&quot;</span>);</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#ac89ccc1209193c2c02b5d3f992b8ec69">Ban_KickBanClient</a>(client, bantime, masksize, reason);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                }</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;kickban: &quot;</span>, <a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74">GetClientErrorString</a>(accepted, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1)), <span class="stringliteral">&quot;.\n&quot;</span>);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            }</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        }</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2kickban^7\n&quot;</span>);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd kickban client [bantime] [masksize] [reason]\n&quot;</span>);</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;client&#39; is the entity number or name of the player to ban,\n&quot;</span>);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;bantime&#39; is the amount of time that the ban is active (default if not provided),\n&quot;</span>);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;masksize&#39; is the range of the IP address (1-thru-4, default if not provided),\n&quot;</span>);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  and &#39;reason&#39; is the string to label the ban with as reason for banning.\n&quot;</span>);</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2ban, banlist, unban^7\n&quot;</span>);</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        }</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#a4f2c82ea999542faf06d958d655e1c3d">  121</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#a4f2c82ea999542faf06d958d655e1c3d">BanCommand_mute</a>(<span class="keywordtype">float</span> request, <span class="keywordtype">float</span> argc, <span class="keywordtype">string</span> command)  <span class="comment">// TODO: Add a sort of mute-&quot;ban&quot; which allows players to be muted based on IP/cryptokey</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;{</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <span class="keywordflow">if</span> (argc &gt;= 2)</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> client = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#afff16d75dc358b9f81513350d82d92f3">GetFilteredEntity</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1));</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                <span class="keywordtype">float</span> accepted = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#af89e91d25e1930737140b82c808de86f">VerifyClientEntity</a>(client, <span class="keyword">true</span>, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                <span class="keywordflow">if</span> (accepted &gt; 0)</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                {</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                    client.muted = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                }</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;                {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;mute: &quot;</span>, <a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74">GetClientErrorString</a>(accepted, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1)), <span class="stringliteral">&quot;.\n&quot;</span>);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;                }</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            }</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        }</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2mute^7\n&quot;</span>);</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd mute client\n&quot;</span>);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;client&#39; is the entity number or name of the player to mute.\n&quot;</span>);</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2unmute^7\n&quot;</span>);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        }</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    }</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;}</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
+<div class="line"><a name="l00156"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#a2bffd56af811b38784b496065b47a827">  156</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#a2bffd56af811b38784b496065b47a827">BanCommand_unban</a>(<span class="keywordtype">float</span> request, <span class="keywordtype">float</span> argc)</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;{</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        {</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1))</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                <span class="keywordtype">float</span> tmp_number = -1;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;                <span class="keywordtype">string</span> tmp_string;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1), 0, 1) == <span class="stringliteral">&quot;#&quot;</span>)</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                {</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                    tmp_string = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1), 1, -1);</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                    <span class="keywordflow">if</span> (tmp_string != <span class="stringliteral">&quot;&quot;</span>) <span class="comment">// is it all one token? like #1</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;                        tmp_number = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(tmp_string);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (argc &gt; 2)    <span class="comment">// no, it&#39;s two tokens? # 1</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                        tmp_number = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(2));</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                    <span class="keywordflow">else</span> tmp_number = -1;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                }</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                <span class="keywordflow">else</span>  <span class="comment">// maybe it&#39;s ONLY a number?</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                {</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;                    tmp_number = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1));</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;                    <span class="keywordflow">if</span> ((tmp_number == 0) &amp;&amp; (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1) != <span class="stringliteral">&quot;0&quot;</span>)) tmp_number = -1; }</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                <span class="keywordflow">if</span> (tmp_number &gt;= 0)</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                {</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                    <a class="code" href="../../de/dbd/banning_8qh.html#ab915b826ebbe3fa641b6dcf17dbe4fc3">Ban_Delete</a>(tmp_number);</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                }</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            }</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        }</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd unban banid\n&quot;</span>);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  Where &#39;banid&#39; is the ID of the ban of which to remove.\n&quot;</span>);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2ban, banlist, kickban^7\n&quot;</span>);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        }</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;}</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
+<div class="line"><a name="l00202"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#a4fab95294be6cc529f118797f2e72db1">  202</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#a4fab95294be6cc529f118797f2e72db1">BanCommand_unmute</a>(<span class="keywordtype">float</span> request, <span class="keywordtype">float</span> argc)</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;{</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    {</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            <span class="keywordflow">if</span> (argc &gt;= 2)</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            {</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> client = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#afff16d75dc358b9f81513350d82d92f3">GetFilteredEntity</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1));</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                <span class="keywordtype">float</span> accepted = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#af89e91d25e1930737140b82c808de86f">VerifyClientEntity</a>(client, <span class="keyword">true</span>, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;                <span class="keywordflow">if</span> (accepted &gt; 0)</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;                {</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                    client.muted = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                    <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                }</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;unmute: &quot;</span>, <a class="code" href="../../d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74">GetClientErrorString</a>(accepted, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1)), <span class="stringliteral">&quot;.\n&quot;</span>);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                }</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            }</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        }</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2mute^7\n&quot;</span>);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd unmute client\n&quot;</span>);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;client&#39; is the entity number or name of the player to unmute.\n&quot;</span>);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2mute^7\n&quot;</span>);</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        }</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;}</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="comment">/* use this when creating a new command, making sure to place it in alphabetical order... also,</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="comment">** ADD ALL NEW COMMANDS TO commands.cfg WITH PROPER ALIASES IN THE SAME FASHION!</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="comment">void BanCommand_(float request)</span></div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;<span class="comment">{</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="comment">    switch(request)</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="comment">    {</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="comment">        case CMD_REQUEST_COMMAND:</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="comment">        {</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="comment">            return;</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="comment">        }</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="comment">        default:</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="comment">        case CMD_REQUEST_USAGE:</span></div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;<span class="comment">        {</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="comment">            print(&quot;\nUsage:^3 sv_cmd \n&quot;);</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="comment">            print(&quot;  No arguments required.\n&quot;);</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="comment">            return;</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="comment">        }</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="comment">    }</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;<span class="comment">}</span></div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="comment">// ==================================</span></div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="comment">//  Macro system for server commands</span></div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="comment">// ==================================</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="comment">// Do not hard code aliases for these, instead create them in commands.cfg... also: keep in alphabetical order, please ;)</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">  265</a></span>&#160;<span class="preprocessor">#define BAN_COMMANDS(request, arguments, command) \</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor">    BAN_COMMAND(&quot;ban&quot;, BanCommand_ban(request, arguments, command), &quot;Ban an IP address or a range of addresses (like 1.2.3)&quot;) \</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor">    BAN_COMMAND(&quot;banlist&quot;, BanCommand_banlist(request), &quot;List all existing bans&quot;) \</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor">    BAN_COMMAND(&quot;kickban&quot;, BanCommand_kickban(request, arguments, command), &quot;Disconnect a client and ban it at the same time&quot;) \</span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor">    BAN_COMMAND(&quot;mute&quot;, BanCommand_mute(request, arguments, command), &quot;Disallow a client from talking by muting them&quot;) \</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">    BAN_COMMAND(&quot;unban&quot;, BanCommand_unban(request, arguments), &quot;Remove an existing ban&quot;) \</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">    BAN_COMMAND(&quot;unmute&quot;, BanCommand_unmute(request, arguments), &quot;Unmute a client&quot;) \</span></div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor">    </span><span class="comment">/* nothing */</span><span class="preprocessor"></span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00274"></a><span class="lineno"><a class="line" href="../../de/dbd/banning_8qh.html#a2e1590577ece2a8d0b64ca0b13da71aa">  274</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#a2e1590577ece2a8d0b64ca0b13da71aa">BanCommand_macro_help</a>()</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;{</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="preprocessor">    #define BAN_COMMAND(name, function, description) \</span></div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="preprocessor">        { if (strtolower(description) != &quot;&quot;) { LOG_INFO(&quot;  ^2&quot;, name, &quot;^7: &quot;, description, &quot;\n&quot;); } }</span></div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <a class="code" href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">BAN_COMMANDS</a>(0, 0, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="preprocessor">#undef BAN_COMMAND</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor"></span>}</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;</div>
-<div class="line"><a name="l00283"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114">  283</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114">BanCommand_macro_command</a>(<span class="keywordtype">float</span> argc, <span class="keywordtype">string</span> command)</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;{</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="preprocessor">    #define BAN_COMMAND(name, function, description) \</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor">        { if (name == strtolower(argv(0))) { function; return true; } }</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <a class="code" href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">BAN_COMMANDS</a>(<a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, argc, command);</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor">#undef BAN_COMMAND</span></div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;}</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
-<div class="line"><a name="l00294"></a><span class="lineno"><a class="line" href="../../de/dbd/banning_8qh.html#ad6f39c7b5f08dca03286f322a3d5ebc0">  294</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0">BanCommand_macro_usage</a>(<span class="keywordtype">float</span> argc)</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;{</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="preprocessor">    #define BAN_COMMAND(name, function, description) \</span></div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;<span class="preprocessor">        { if (name == strtolower(argv(1))) { function; return true; } }</span></div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <a class="code" href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">BAN_COMMANDS</a>(<a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>, argc, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="preprocessor">#undef BAN_COMMAND</span></div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;}</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;</div>
-<div class="line"><a name="l00305"></a><span class="lineno"><a class="line" href="../../de/dbd/banning_8qh.html#ae97a573397acb70dbe8fe34e943591ca">  305</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca">BanCommand_macro_write_aliases</a>(<span class="keywordtype">float</span> fh)</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;{</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="preprocessor">    #define BAN_COMMAND(name, function, description) \</span></div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="preprocessor">        { if (strtolower(description) != &quot;&quot;) { CMD_Write_Alias(&quot;qc_cmd_sv&quot;, name, description); } }</span></div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">BAN_COMMANDS</a>(0, 0, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="preprocessor">#undef BAN_COMMAND</span></div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="preprocessor"></span>}</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
-<div class="line"><a name="l00314"></a><span class="lineno"><a class="line" href="../../da/ddd/ipban_8qh.html#af092a83967ab9516490e44b5736a9fe3">  314</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../dd/d31/banning_8qc.html#af092a83967ab9516490e44b5736a9fe3">BanCommand</a>(<span class="keywordtype">string</span> command)</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;{</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    <span class="keywordtype">float</span> argc = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a>(command);</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="comment">// Guide for working with argc arguments by example:</span></div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <span class="comment">// argc:   1    - 2      - 3     - 4</span></div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="comment">// argv:   0    - 1      - 2     - 3</span></div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="comment">// cmd     vote - master - login - password</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114">BanCommand_macro_command</a>(argc, command)) <span class="comment">// continue as usual and scan for normal commands</span></div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;                             <span class="comment">// handled by one of the above GenericCommand_* functions</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;}</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="comment">// ==================================</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="comment">//  Macro system for server commands</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="comment">// ==================================</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="comment">// Do not hard code aliases for these, instead create them in commands.cfg... also: keep in alphabetical order, please ;)</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">  266</a></span>&#160;<span class="preprocessor">#define BAN_COMMANDS(request, arguments, command) \</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor">    BAN_COMMAND(&quot;ban&quot;, BanCommand_ban(request, arguments, command), &quot;Ban an IP address or a range of addresses (like 1.2.3)&quot;) \</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor">    BAN_COMMAND(&quot;banlist&quot;, BanCommand_banlist(request), &quot;List all existing bans&quot;) \</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor">    BAN_COMMAND(&quot;kickban&quot;, BanCommand_kickban(request, arguments, command), &quot;Disconnect a client and ban it at the same time&quot;) \</span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">    BAN_COMMAND(&quot;mute&quot;, BanCommand_mute(request, arguments, command), &quot;Disallow a client from talking by muting them&quot;) \</span></div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">    BAN_COMMAND(&quot;unban&quot;, BanCommand_unban(request, arguments), &quot;Remove an existing ban&quot;) \</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor">    BAN_COMMAND(&quot;unmute&quot;, BanCommand_unmute(request, arguments), &quot;Unmute a client&quot;) \</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor">    </span><span class="comment">/* nothing */</span><span class="preprocessor"></span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00275"></a><span class="lineno"><a class="line" href="../../de/dbd/banning_8qh.html#a2e1590577ece2a8d0b64ca0b13da71aa">  275</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#a2e1590577ece2a8d0b64ca0b13da71aa">BanCommand_macro_help</a>()</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;{</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="preprocessor">    #define BAN_COMMAND(name, function, description) \</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="preprocessor">        { if (strtolower(description) != &quot;&quot;) { LOG_INFO(&quot;  ^2&quot;, name, &quot;^7: &quot;, description, &quot;\n&quot;); } }</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <a class="code" href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">BAN_COMMANDS</a>(0, 0, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor">#undef BAN_COMMAND</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
+<div class="line"><a name="l00284"></a><span class="lineno"><a class="line" href="../../dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114">  284</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114">BanCommand_macro_command</a>(<span class="keywordtype">float</span> argc, <span class="keywordtype">string</span> command)</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;{</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor">    #define BAN_COMMAND(name, function, description) \</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">        { if (name == strtolower(argv(0))) { function; return true; } }</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <a class="code" href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">BAN_COMMANDS</a>(<a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, argc, command);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor">#undef BAN_COMMAND</span></div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;}</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;</div>
+<div class="line"><a name="l00295"></a><span class="lineno"><a class="line" href="../../de/dbd/banning_8qh.html#ad6f39c7b5f08dca03286f322a3d5ebc0">  295</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0">BanCommand_macro_usage</a>(<span class="keywordtype">float</span> argc)</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;{</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;<span class="preprocessor">    #define BAN_COMMAND(name, function, description) \</span></div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;<span class="preprocessor">        { if (name == strtolower(argv(1))) { function; return true; } }</span></div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    <a class="code" href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">BAN_COMMANDS</a>(<a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>, argc, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="preprocessor">#undef BAN_COMMAND</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;}</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div>
+<div class="line"><a name="l00306"></a><span class="lineno"><a class="line" href="../../de/dbd/banning_8qh.html#ae97a573397acb70dbe8fe34e943591ca">  306</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca">BanCommand_macro_write_aliases</a>(<span class="keywordtype">float</span> fh)</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;{</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="preprocessor">    #define BAN_COMMAND(name, function, description) \</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="preprocessor">        { if (strtolower(description) != &quot;&quot;) { CMD_Write_Alias(&quot;qc_cmd_sv&quot;, name, description); } }</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <a class="code" href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">BAN_COMMANDS</a>(0, 0, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="preprocessor">#undef BAN_COMMAND</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;</div>
+<div class="line"><a name="l00315"></a><span class="lineno"><a class="line" href="../../da/ddd/ipban_8qh.html#af092a83967ab9516490e44b5736a9fe3">  315</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../dd/d31/banning_8qc.html#af092a83967ab9516490e44b5736a9fe3">BanCommand</a>(<span class="keywordtype">string</span> command)</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;{</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keywordtype">float</span> argc = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a>(command);</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <span class="comment">// Guide for working with argc arguments by example:</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="comment">// argc:   1    - 2      - 3     - 4</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="comment">// argv:   0    - 1      - 2     - 3</span></div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="comment">// cmd     vote - master - login - password</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114">BanCommand_macro_command</a>(argc, command)) <span class="comment">// continue as usual and scan for normal commands</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;                             <span class="comment">// handled by one of the above GenericCommand_* functions</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;}</div>
 <div class="ttc" id="command_8qh_html_a07f6d442e5d9ae5399caa2ee6d795f04"><div class="ttname"><a href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a></div><div class="ttdeci">const int CMD_REQUEST_COMMAND</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d71/command_8qh_source.html#l00004">command.qh:4</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
-<div class="ttc" id="banning_8qc_html_aef90e766b88f13ff4894434a476e4114"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114">BanCommand_macro_command</a></div><div class="ttdeci">float BanCommand_macro_command(float argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00283">banning.qc:283</a></div></div>
+<div class="ttc" id="banning_8qc_html_aef90e766b88f13ff4894434a476e4114"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114">BanCommand_macro_command</a></div><div class="ttdeci">float BanCommand_macro_command(float argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00284">banning.qc:284</a></div></div>
 <div class="ttc" id="banning_8qh_html"><div class="ttname"><a href="../../de/dbd/banning_8qh.html">banning.qh</a></div></div>
-<div class="ttc" id="banning_8qh_html_a0e7455562aacf2de0c12a8445306ed5b"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a></div><div class="ttdeci">#define GET_BAN_ARG(v, d)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dbd/banning_8qh_source.html#l00009">banning.qh:9</a></div></div>
-<div class="ttc" id="banning_8qc_html_ad6f39c7b5f08dca03286f322a3d5ebc0"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0">BanCommand_macro_usage</a></div><div class="ttdeci">float BanCommand_macro_usage(float argc)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00294">banning.qc:294</a></div></div>
-<div class="ttc" id="banning_8qc_html_a9079672ef2f7fb45bb47710c5d0f0921"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921">BanCommand_ban</a></div><div class="ttdeci">void BanCommand_ban(float request, float argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00016">banning.qc:16</a></div></div>
-<div class="ttc" id="banning_8qc_html_ae97a573397acb70dbe8fe34e943591ca"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca">BanCommand_macro_write_aliases</a></div><div class="ttdeci">void BanCommand_macro_write_aliases(float fh)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00305">banning.qc:305</a></div></div>
+<div class="ttc" id="banning_8qh_html_a0e7455562aacf2de0c12a8445306ed5b"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a></div><div class="ttdeci">#define GET_BAN_ARG(v, d)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dbd/banning_8qh_source.html#l00008">banning.qh:8</a></div></div>
+<div class="ttc" id="banning_8qc_html_ad6f39c7b5f08dca03286f322a3d5ebc0"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0">BanCommand_macro_usage</a></div><div class="ttdeci">float BanCommand_macro_usage(float argc)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00295">banning.qc:295</a></div></div>
+<div class="ttc" id="banning_8qc_html_a9079672ef2f7fb45bb47710c5d0f0921"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921">BanCommand_ban</a></div><div class="ttdeci">void BanCommand_ban(float request, float argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00017">banning.qc:17</a></div></div>
+<div class="ttc" id="banning_8qc_html_ae97a573397acb70dbe8fe34e943591ca"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca">BanCommand_macro_write_aliases</a></div><div class="ttdeci">void BanCommand_macro_write_aliases(float fh)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00306">banning.qc:306</a></div></div>
 <div class="ttc" id="command_8qh_html_ab9e24d8681128fd9913308f8dc3e026a"><div class="ttname"><a href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a></div><div class="ttdeci">const int CMD_REQUEST_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d71/command_8qh_source.html#l00005">command.qh:5</a></div></div>
-<div class="ttc" id="server_2command_2common_8qc_html_af89e91d25e1930737140b82c808de86f"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#af89e91d25e1930737140b82c808de86f">VerifyClientEntity</a></div><div class="ttdeci">float VerifyClientEntity(entity client, float must_be_real, float must_be_bots)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00038">common.qc:38</a></div></div>
-<div class="ttc" id="server_2autocvars_8qh_html_ad351a5b10dd698f9d4bc03bc2547328c"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ad351a5b10dd698f9d4bc03bc2547328c">autocvar_g_ban_default_bantime</a></div><div class="ttdeci">float autocvar_g_ban_default_bantime</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00148">autocvars.qh:148</a></div></div>
-<div class="ttc" id="server_2command_2common_8qc_html_afff16d75dc358b9f81513350d82d92f3"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#afff16d75dc358b9f81513350d82d92f3">GetFilteredEntity</a></div><div class="ttdeci">entity GetFilteredEntity(string input)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00135">common.qc:135</a></div></div>
-<div class="ttc" id="banning_8qc_html_a4f2c82ea999542faf06d958d655e1c3d"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a4f2c82ea999542faf06d958d655e1c3d">BanCommand_mute</a></div><div class="ttdeci">void BanCommand_mute(float request, float argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00120">banning.qc:120</a></div></div>
-<div class="ttc" id="server_2command_2common_8qh_html_aedf91dab889fba563d3808503f2f9144"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html#aedf91dab889fba563d3808503f2f9144">next_token</a></div><div class="ttdeci">float next_token</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d06/server_2command_2common_8qh_source.html#l00065">common.qh:65</a></div></div>
-<div class="ttc" id="banning_8qc_html_ab06757f76f67988cdb9bc8b461249324"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324">BanCommand_banlist</a></div><div class="ttdeci">void BanCommand_banlist(float request)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00052">banning.qc:52</a></div></div>
+<div class="ttc" id="server_2command_2common_8qc_html_af89e91d25e1930737140b82c808de86f"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#af89e91d25e1930737140b82c808de86f">VerifyClientEntity</a></div><div class="ttdeci">float VerifyClientEntity(entity client, float must_be_real, float must_be_bots)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00039">common.qc:39</a></div></div>
+<div class="ttc" id="server_2autocvars_8qh_html_ad351a5b10dd698f9d4bc03bc2547328c"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ad351a5b10dd698f9d4bc03bc2547328c">autocvar_g_ban_default_bantime</a></div><div class="ttdeci">float autocvar_g_ban_default_bantime</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00147">autocvars.qh:147</a></div></div>
+<div class="ttc" id="server_2command_2common_8qc_html_afff16d75dc358b9f81513350d82d92f3"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#afff16d75dc358b9f81513350d82d92f3">GetFilteredEntity</a></div><div class="ttdeci">entity GetFilteredEntity(string input)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00136">common.qc:136</a></div></div>
+<div class="ttc" id="banning_8qc_html_a4f2c82ea999542faf06d958d655e1c3d"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a4f2c82ea999542faf06d958d655e1c3d">BanCommand_mute</a></div><div class="ttdeci">void BanCommand_mute(float request, float argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00121">banning.qc:121</a></div></div>
+<div class="ttc" id="server_2command_2common_8qh_html_aedf91dab889fba563d3808503f2f9144"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html#aedf91dab889fba563d3808503f2f9144">next_token</a></div><div class="ttdeci">float next_token</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d06/server_2command_2common_8qh_source.html#l00064">common.qh:64</a></div></div>
+<div class="ttc" id="banning_8qc_html_ab06757f76f67988cdb9bc8b461249324"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324">BanCommand_banlist</a></div><div class="ttdeci">void BanCommand_banlist(float request)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00053">banning.qc:53</a></div></div>
 <div class="ttc" id="common_2util_8qh_html"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html">util.qh</a></div></div>
-<div class="ttc" id="banning_8qc_html_a4fab95294be6cc529f118797f2e72db1"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a4fab95294be6cc529f118797f2e72db1">BanCommand_unmute</a></div><div class="ttdeci">void BanCommand_unmute(float request, float argc)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00201">banning.qc:201</a></div></div>
-<div class="ttc" id="banning_8qc_html_aba67cceb5fd8064ebdfc75158f7e9ac1"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1">BanCommand_kickban</a></div><div class="ttdeci">void BanCommand_kickban(float request, float argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00073">banning.qc:73</a></div></div>
+<div class="ttc" id="banning_8qc_html_a4fab95294be6cc529f118797f2e72db1"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a4fab95294be6cc529f118797f2e72db1">BanCommand_unmute</a></div><div class="ttdeci">void BanCommand_unmute(float request, float argc)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00202">banning.qc:202</a></div></div>
+<div class="ttc" id="banning_8qc_html_aba67cceb5fd8064ebdfc75158f7e9ac1"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1">BanCommand_kickban</a></div><div class="ttdeci">void BanCommand_kickban(float request, float argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00074">banning.qc:74</a></div></div>
 <div class="ttc" id="banning_8qh_html_a808faa01ebcd03108b55a09f87bcabe5"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#a808faa01ebcd03108b55a09f87bcabe5">Ban_Insert</a></div><div class="ttdeci">float Ban_Insert(string ip, float bantime, string reason, float dosync)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00496">ipban.qc:496</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
 <div class="ttc" id="command_8qh_html"><div class="ttname"><a href="../../d9/d71/command_8qh.html">command.qh</a></div></div>
-<div class="ttc" id="banning_8qc_html_af092a83967ab9516490e44b5736a9fe3"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#af092a83967ab9516490e44b5736a9fe3">BanCommand</a></div><div class="ttdeci">float BanCommand(string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00314">banning.qc:314</a></div></div>
+<div class="ttc" id="banning_8qc_html_af092a83967ab9516490e44b5736a9fe3"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#af092a83967ab9516490e44b5736a9fe3">BanCommand</a></div><div class="ttdeci">float BanCommand(string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00315">banning.qc:315</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
-<div class="ttc" id="server_2command_2common_8qh_html_a26c245e2f5023bf7fb274f14cde7ec74"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74">GetClientErrorString</a></div><div class="ttdeci">#define GetClientErrorString(clienterror, original_input)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d06/server_2command_2common_8qh_source.html#l00081">common.qh:81</a></div></div>
+<div class="ttc" id="server_2command_2common_8qh_html_a26c245e2f5023bf7fb274f14cde7ec74"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74">GetClientErrorString</a></div><div class="ttdeci">#define GetClientErrorString(clienterror, original_input)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d06/server_2command_2common_8qh_source.html#l00080">common.qh:80</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a43f26093a7cb03b412dedf6c6b36eed8"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a></div><div class="ttdeci">#define tokenize_console</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00025">dpextensions.qh:25</a></div></div>
-<div class="ttc" id="banning_8qc_html_a2bffd56af811b38784b496065b47a827"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a2bffd56af811b38784b496065b47a827">BanCommand_unban</a></div><div class="ttdeci">void BanCommand_unban(float request, float argc)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00155">banning.qc:155</a></div></div>
+<div class="ttc" id="banning_8qc_html_a2bffd56af811b38784b496065b47a827"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a2bffd56af811b38784b496065b47a827">BanCommand_unban</a></div><div class="ttdeci">void BanCommand_unban(float request, float argc)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00156">banning.qc:156</a></div></div>
 <div class="ttc" id="banning_8qh_html_a1a7772963018e41992c65dfbe12b63fe"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#a1a7772963018e41992c65dfbe12b63fe">Ban_View</a></div><div class="ttdeci">void Ban_View()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00326">ipban.qc:326</a></div></div>
-<div class="ttc" id="server_2autocvars_8qh_html_ade7c91d7a953c8eb6d8a172aee7fa66f"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ade7c91d7a953c8eb6d8a172aee7fa66f">autocvar_g_ban_default_masksize</a></div><div class="ttdeci">float autocvar_g_ban_default_masksize</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00149">autocvars.qh:149</a></div></div>
+<div class="ttc" id="server_2autocvars_8qh_html_ade7c91d7a953c8eb6d8a172aee7fa66f"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ade7c91d7a953c8eb6d8a172aee7fa66f">autocvar_g_ban_default_masksize</a></div><div class="ttdeci">float autocvar_g_ban_default_masksize</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00148">autocvars.qh:148</a></div></div>
 <div class="ttc" id="banning_8qh_html_ab915b826ebbe3fa641b6dcf17dbe4fc3"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#ab915b826ebbe3fa641b6dcf17dbe4fc3">Ban_Delete</a></div><div class="ttdeci">float Ban_Delete(float i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00284">ipban.qc:284</a></div></div>
-<div class="ttc" id="banning_8qc_html_a2e1590577ece2a8d0b64ca0b13da71aa"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a2e1590577ece2a8d0b64ca0b13da71aa">BanCommand_macro_help</a></div><div class="ttdeci">void BanCommand_macro_help()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00274">banning.qc:274</a></div></div>
-<div class="ttc" id="server_2command_2common_8qc_html_a227052057c08e1288dd13a4e7bfc5508"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#a227052057c08e1288dd13a4e7bfc5508">GetIndexedEntity</a></div><div class="ttdeci">entity GetIndexedEntity(float argc, float start_index)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00074">common.qc:74</a></div></div>
-<div class="ttc" id="banning_8qh_html_a756c765021c19ce2f9ac91dbc889bdfe"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe">GET_BAN_REASON</a></div><div class="ttdeci">#define GET_BAN_REASON(v, d)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dbd/banning_8qh_source.html#l00010">banning.qh:10</a></div></div>
-<div class="ttc" id="banning_8qc_html_a47c07708127e973f8176fb483b0734b8"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">BAN_COMMANDS</a></div><div class="ttdeci">#define BAN_COMMANDS(request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00265">banning.qc:265</a></div></div>
+<div class="ttc" id="banning_8qc_html_a2e1590577ece2a8d0b64ca0b13da71aa"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a2e1590577ece2a8d0b64ca0b13da71aa">BanCommand_macro_help</a></div><div class="ttdeci">void BanCommand_macro_help()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00275">banning.qc:275</a></div></div>
+<div class="ttc" id="server_2command_2common_8qc_html_a227052057c08e1288dd13a4e7bfc5508"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#a227052057c08e1288dd13a4e7bfc5508">GetIndexedEntity</a></div><div class="ttdeci">entity GetIndexedEntity(float argc, float start_index)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00075">common.qc:75</a></div></div>
+<div class="ttc" id="banning_8qh_html_a756c765021c19ce2f9ac91dbc889bdfe"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe">GET_BAN_REASON</a></div><div class="ttdeci">#define GET_BAN_REASON(v, d)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dbd/banning_8qh_source.html#l00009">banning.qh:9</a></div></div>
+<div class="ttc" id="banning_8qc_html_a47c07708127e973f8176fb483b0734b8"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8">BAN_COMMANDS</a></div><div class="ttdeci">#define BAN_COMMANDS(request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00266">banning.qc:266</a></div></div>
 <div class="ttc" id="server_2command_2common_8qh_html"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html">common.qh</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 <div class="ttc" id="banning_8qh_html_ac89ccc1209193c2c02b5d3f992b8ec69"><div class="ttname"><a href="../../de/dbd/banning_8qh.html#ac89ccc1209193c2c02b5d3f992b8ec69">Ban_KickBanClient</a></div><div class="ttdeci">void Ban_KickBanClient(entity client, float bantime, float masksize, string reason)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00573">ipban.qc:573</a></div></div>
-<div class="ttc" id="server_2command_2common_8qc_html_aab19b445aac1c8d745c4c56c516db0d1"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#aab19b445aac1c8d745c4c56c516db0d1">VerifyKickableEntity</a></div><div class="ttdeci">float VerifyKickableEntity(entity client)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00031">common.qc:31</a></div></div>
+<div class="ttc" id="server_2command_2common_8qc_html_aab19b445aac1c8d745c4c56c516db0d1"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#aab19b445aac1c8d745c4c56c516db0d1">VerifyKickableEntity</a></div><div class="ttdeci">float VerifyKickableEntity(entity client)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00032">common.qc:32</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../dd/d31/banning_8qc.html">banning.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 04:07:52 for Xonotic by
+    <li class="footer">Generated on Mon Mar 14 2016 07:47:07 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

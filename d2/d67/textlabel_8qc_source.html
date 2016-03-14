@@ -104,51 +104,53 @@ $(document).ready(function(){initNavTree('d2/d67/textlabel_8qc_source.html','../
 <div class="title">textlabel.qc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d2/d67/textlabel_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef TEXTLABEL_H</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="../../d2/d67/textlabel_8qc.html#a7d4fa104855ce8484b89dbca6568ca98">    2</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TEXTLABEL_H</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &quot;../item/label.qc&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a>(XonoticTextLabel, Label)</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d2/d67/textlabel_8qc.html#a3166b0b8bfaa2daa9d05d9a5126d8307">METHOD</a>(XonoticTextLabel, configureXonoticTextLabel, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>, <span class="keywordtype">float</span>, <span class="keywordtype">string</span>));</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d2/d67/textlabel_8qc.html#a3166b0b8bfaa2daa9d05d9a5126d8307">METHOD</a>(XonoticTextLabel, draw, <span class="keywordtype">void</span>(entity));</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticTextLabel, fontSize, <span class="keywordtype">float</span>, SKINFONTSIZE_NORMAL)</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticTextLabel, <a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a>, <span class="keywordtype">float</span>, SKINALPHA_TEXT)</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticTextLabel, disabledAlpha, <span class="keywordtype">float</span>, SKINALPHA_DISABLED)</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a>(XonoticTextLabel)</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;entity <a class="code" href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a>(<span class="keywordtype">float</span> theAlign, <span class="keywordtype">string</span> theText);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;entity <a class="code" href="../../d2/d67/textlabel_8qc.html#af0d71665f63e9a598b1cda030bf7fc33">makeXonoticHeaderLabel</a>(<span class="keywordtype">string</span> theText);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#ifdef IMPLEMENTATION</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span>entity <a class="code" href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a>(<span class="keywordtype">float</span> theAlign, <span class="keywordtype">string</span> theText)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    entity me;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    me = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(XonoticTextLabel);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    me.configureXonoticTextLabel(me, theAlign, theText);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">return</span> me;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;entity <a class="code" href="../../d2/d67/textlabel_8qc.html#af0d71665f63e9a598b1cda030bf7fc33">makeXonoticHeaderLabel</a>(<span class="keywordtype">string</span> theText)</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    entity me;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    me = <a class="code" href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a>(0.5, theText);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    me.colorL = SKINCOLOR_HEADER;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    me.alpha = SKINALPHA_HEADER;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    me.isBold = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">return</span> me;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="keywordtype">void</span> XonoticTextLabel_configureXonoticTextLabel(entity me, <span class="keywordtype">float</span> theAlign, <span class="keywordtype">string</span> theText)</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    me.configureLabel(me, theText, me.fontSize, theAlign);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="keywordtype">void</span> XonoticTextLabel_draw(entity me)</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;{</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../d4/d4e/datasource_8qc.html#a5e231c2d4088fbd6bc4c29add962230f">SUPER</a>(XonoticTextLabel).draw(me);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#endif</span></div>
+<a href="../../d2/d67/textlabel_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/de9/textlabel_8qh.html">textlabel.qh</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#ifndef TEXTLABEL_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d2/d67/textlabel_8qc.html#a7d4fa104855ce8484b89dbca6568ca98">    3</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TEXTLABEL_H</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &quot;../item/label.qc&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a>(XonoticTextLabel, Label)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d2/d67/textlabel_8qc.html#a3166b0b8bfaa2daa9d05d9a5126d8307">METHOD</a>(XonoticTextLabel, configureXonoticTextLabel, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>, <span class="keywordtype">float</span>, <span class="keywordtype">string</span>));</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d2/d67/textlabel_8qc.html#a3166b0b8bfaa2daa9d05d9a5126d8307">METHOD</a>(XonoticTextLabel, draw, <span class="keywordtype">void</span>(entity));</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticTextLabel, fontSize, <span class="keywordtype">float</span>, SKINFONTSIZE_NORMAL)</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticTextLabel, <a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a>, <span class="keywordtype">float</span>, SKINALPHA_TEXT)</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticTextLabel, disabledAlpha, <span class="keywordtype">float</span>, SKINALPHA_DISABLED)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a>(XonoticTextLabel)</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;entity <a class="code" href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a>(<span class="keywordtype">float</span> theAlign, <span class="keywordtype">string</span> theText);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;entity <a class="code" href="../../d2/d67/textlabel_8qc.html#af0d71665f63e9a598b1cda030bf7fc33">makeXonoticHeaderLabel</a>(<span class="keywordtype">string</span> theText);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifdef IMPLEMENTATION</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor"></span>entity <a class="code" href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a>(<span class="keywordtype">float</span> theAlign, <span class="keywordtype">string</span> theText)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    entity me;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    me = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(XonoticTextLabel);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    me.configureXonoticTextLabel(me, theAlign, theText);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">return</span> me;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;entity <a class="code" href="../../d2/d67/textlabel_8qc.html#af0d71665f63e9a598b1cda030bf7fc33">makeXonoticHeaderLabel</a>(<span class="keywordtype">string</span> theText)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    entity me;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    me = <a class="code" href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a>(0.5, theText);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    me.colorL = SKINCOLOR_HEADER;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    me.alpha = SKINALPHA_HEADER;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    me.isBold = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">return</span> me;</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="keywordtype">void</span> XonoticTextLabel_configureXonoticTextLabel(entity me, <span class="keywordtype">float</span> theAlign, <span class="keywordtype">string</span> theText)</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    me.configureLabel(me, theText, me.fontSize, theAlign);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="keywordtype">void</span> XonoticTextLabel_draw(entity me)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../d4/d4e/datasource_8qc.html#a5e231c2d4088fbd6bc4c29add962230f">SUPER</a>(XonoticTextLabel).draw(me);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="datasource_8qc_html_a5e231c2d4088fbd6bc4c29add962230f"><div class="ttname"><a href="../../d4/d4e/datasource_8qc.html#a5e231c2d4088fbd6bc4c29add962230f">SUPER</a></div><div class="ttdeci">return SUPER(CvarStringSource).reload(this</div></div>
 <div class="ttc" id="textlabel_8qc_html_a3166b0b8bfaa2daa9d05d9a5126d8307"><div class="ttname"><a href="../../d2/d67/textlabel_8qc.html#a3166b0b8bfaa2daa9d05d9a5126d8307">METHOD</a></div><div class="ttdeci">METHOD(XonoticTextLabel, configureXonoticTextLabel, void(entity, float, string))</div></div>
 <div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00108">oo.qh:108</a></div></div>
 <div class="ttc" id="textlabel_8qc_html_af0d71665f63e9a598b1cda030bf7fc33"><div class="ttname"><a href="../../d2/d67/textlabel_8qc.html#af0d71665f63e9a598b1cda030bf7fc33">makeXonoticHeaderLabel</a></div><div class="ttdeci">entity makeXonoticHeaderLabel(string theText)</div></div>
 <div class="ttc" id="textlabel_8qc_html_a68172c3fa4df12de97eddc774ab7425d"><div class="ttname"><a href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a></div><div class="ttdeci">entity makeXonoticTextLabel(float theAlign, string theText)</div></div>
+<div class="ttc" id="textlabel_8qh_html"><div class="ttname"><a href="../../d0/de9/textlabel_8qh.html">textlabel.qh</a></div></div>
 <div class="ttc" id="oo_8qh_html_a381644ce1564409db8c6a582aaf9316f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a></div><div class="ttdeci">#define ATTRIB(cname, name, type, val)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00190">oo.qh:190</a></div></div>
 <div class="ttc" id="oo_8qh_html_a71373c33560dcca984e1c21df4fa1d5f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a></div><div class="ttdeci">#define ENDCLASS(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00210">oo.qh:210</a></div></div>
 <div class="ttc" id="wall_8qc_html_ab1551d8043c2aa4410fb7dbb1fe3be7b"><div class="ttname"><a href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a></div><div class="ttdeci">float alpha</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8d/wall_8qc_source.html#l00008">wall.qc:8</a></div></div>
@@ -160,7 +162,7 @@ $(document).ready(function(){initNavTree('d2/d67/textlabel_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d2/d67/textlabel_8qc.html">textlabel.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 04:07:52 for Xonotic by
+    <li class="footer">Generated on Mon Mar 14 2016 07:47:07 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

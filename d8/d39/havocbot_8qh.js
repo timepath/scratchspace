@@ -1,6 +1,5 @@
 var havocbot_8qh =
 [
-    [ "HAVOCBOT_H", "d8/d39/havocbot_8qh.html#a309dd0a254c255150952366bd26b6371", null ],
     [ "havocbot_ai", "d8/d39/havocbot_8qh.html#a2b3ecfff0cb23c75cc8cd773153e91f2", null ],
     [ "havocbot_aim", "d8/d39/havocbot_8qh.html#a330a7f63e536da5d1646d9eb332e0311", null ],
     [ "havocbot_bunnyhop", "d8/d39/havocbot_8qh.html#ad59ef52102a76f210437898602edd381", null ],

@@ -1,6 +1,5 @@
 var client_2defs_8qh =
 [
-    [ "CLIENT_DEFS_H", "d9/d08/client_2defs_8qh.html#a2f41c9e2a9d900726a7d0bdc84a4de8b", null ],
     [ "player_currententnum", "d9/d08/client_2defs_8qh.html#a6b17a65dd7a85e465430a85ae6a3cdcf", null ],
     [ "void", "d9/d08/client_2defs_8qh.html#aebfa8c1e2ab774881f79f23e10b0621c", null ],
     [ "angles_held", "d9/d08/client_2defs_8qh.html#a4bfa967465f5b1fee34b8cdf7d5d72dc", null ],

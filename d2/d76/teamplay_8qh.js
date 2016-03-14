@@ -1,6 +1,5 @@
 var teamplay_8qh =
 [
-    [ "TEAMPLAY_H", "d2/d76/teamplay_8qh.html#a7bab0612a602a978069f2508464cf3dd", null ],
     [ "ActivateTeamplay", "d2/d76/teamplay_8qh.html#ae1c3e008f1694a4a8d288f0708893574", null ],
     [ "CheckAllowedTeams", "d2/d76/teamplay_8qh.html#a838b897a9ae86e8bf932e57c356ec987", null ],
     [ "default_delayedinit", "d2/d76/teamplay_8qh.html#a8ebbca079649157562ec8d6c551db1d1", null ],

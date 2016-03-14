@@ -1,6 +1,5 @@
 var race_8qh =
 [
-    [ "RACE_H", "d4/d1b/race_8qh.html#ad5805992f2d5cdf262d0e1b8e5dd80c4", null ],
     [ "race_AbandonRaceCheck", "d4/d1b/race_8qh.html#ae0c5dbe57d8a837df10255bee683ff10", null ],
     [ "race_ClearRecords", "d4/d1b/race_8qh.html#a30ba6f7a919548646ddd721463696855", null ],
     [ "race_GetFractionalLapCount", "d4/d1b/race_8qh.html#a9b5a49271ee43c7c9e7cb3787de977ee", null ],

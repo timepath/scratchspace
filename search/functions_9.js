@@ -49,7 +49,7 @@ var searchData=
   ['isserverinlist',['IsServerInList',['../d6/d74/serverlist_8qc.html#a340e0b77971ad02e447a45a555ce1283',1,'serverlist.qc']]],
   ['isunordered',['isunordered',['../df/d38/mathlib_8qc.html#aafedf621ec9d800da69e9a03dd859815',1,'isunordered(float x, float y):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#aafedf621ec9d800da69e9a03dd859815',1,'isunordered(float x, float y):&#160;mathlib.qc']]],
   ['item_5farmorinv',['item_armorInv',['../db/d91/t__quake_8qc.html#ac34a30ad13d14200916e28269a7f3dd9',1,'t_quake.qc']]],
-  ['item_5fhandle',['ITEM_HANDLE',['../db/d51/item_8qh.html#a381cb272c7187f5f9ea7303411268b14',1,'item.qh']]],
+  ['item_5fhandle',['ITEM_HANDLE',['../d7/d7c/common_2items_2item_8qh.html#a381cb272c7187f5f9ea7303411268b14',1,'item.qh']]],
   ['item_5fkey_5ftouch',['item_key_touch',['../d7/da4/item__key_8qc.html#a3649b0cde06ae9fe60d12e819790bb1c',1,'item_key.qc']]],
   ['item_5fkeys_5fkeylist',['item_keys_keylist',['../d7/da4/item__key_8qc.html#afdfd0f20ed686bb7ad013a01f5aded19',1,'item_key.qc']]],
   ['item_5fkeys_5fusekey',['item_keys_usekey',['../d7/da4/item__key_8qc.html#ad0d10fa31b8387b451d1fef3ce76e604',1,'item_key.qc']]],

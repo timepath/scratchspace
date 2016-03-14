@@ -1,6 +1,5 @@
 var client_2mutators_2events_8qh =
 [
-    [ "CLIENT_MUTATORS_EVENTS_H", "d8/d0e/client_2mutators_2events_8qh.html#af1a891bd49c8a92467c661d7d7c1b823", null ],
     [ "EV_AnnouncerOption", "d8/d0e/client_2mutators_2events_8qh.html#a25bfd691414ad6357c67077eb7917f73", null ],
     [ "EV_CSQC_ConsoleCommand", "d8/d0e/client_2mutators_2events_8qh.html#a622e3f3fc74d161682435c58f1d2f046", null ],
     [ "EV_EditProjectile", "d8/d0e/client_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea", null ],

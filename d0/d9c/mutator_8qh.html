@@ -100,32 +100,30 @@ $(document).ready(function(){initNavTree('d0/d9c/mutator_8qh.html','../../');});
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">mutator.qh File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;<a class="el" href="../../db/d38/base_8qh_source.html">common/mutators/base.qh</a>&gt;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/d30/cl__client_8qh_source.html">../cl_client.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d7/d95/server_2cl__player_8qh_source.html">../cl_player.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d4/dd3/cl__impulse_8qh_source.html">../cl_impulse.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d3/dca/cheats_8qh_source.html">../cheats.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../dd/de4/g__damage_8qh_source.html">../g_damage.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../db/d20/round__handler_8qh_source.html">../round_handler.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d3/dcd/scores_8qh_source.html">../scores.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d6/d4e/scores__rules_8qh_source.html">../scores_rules.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/da9/bot_8qh_source.html">../bot/bot.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../df/dd4/navigation_8qh_source.html">../bot/navigation.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/d2a/waypoints_8qh_source.html">../bot/waypoints.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d8/d39/havocbot_8qh_source.html">../bot/havocbot/havocbot.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d3/d92/roles_8qh_source.html">../bot/havocbot/roles.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d8/d08/vote_8qh_source.html">../command/vote.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html">../command/common.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/dba/server_2weapons_2common_8qh_source.html">../weapons/common.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d4/d3f/tracing_8qh_source.html">../weapons/tracing.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../de/d58/throwing_8qh_source.html">../weapons/throwing.qh</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../da/db7/weaponsystem_8qh_source.html">../weapons/weaponsystem.qh</a>&quot;</code><br/>
+<code>#include &lt;<a class="el" href="../../d1/d30/cl__client_8qh_source.html">server/cl_client.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d7/d95/server_2cl__player_8qh_source.html">server/cl_player.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d4/dd3/cl__impulse_8qh_source.html">server/cl_impulse.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d3/dca/cheats_8qh_source.html">server/cheats.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dd/de4/g__damage_8qh_source.html">server/g_damage.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../db/d20/round__handler_8qh_source.html">server/round_handler.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d3/dcd/scores_8qh_source.html">server/scores.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d6/d4e/scores__rules_8qh_source.html">server/scores_rules.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d1/da9/bot_8qh_source.html">server/bot/bot.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../df/dd4/navigation_8qh_source.html">server/bot/navigation.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d1/d2a/waypoints_8qh_source.html">server/bot/waypoints.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d8/d39/havocbot_8qh_source.html">server/bot/havocbot/havocbot.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d3/d92/roles_8qh_source.html">server/bot/havocbot/roles.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d7/d16/server_2command_2vote_8qh_source.html">server/command/vote.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html">server/command/common.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d1/dba/server_2weapons_2common_8qh_source.html">server/weapons/common.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d4/d3f/tracing_8qh_source.html">server/weapons/tracing.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../de/d58/throwing_8qh_source.html">server/weapons/throwing.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../da/db7/weaponsystem_8qh_source.html">server/weapons/weaponsystem.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../db/dab/common_2deathtypes_2all_8qh_source.html">common/deathtypes/all.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../dc/de5/common_2notifications_2all_8qh_source.html">common/notifications/all.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../dd/d2d/teleporters_8qh_source.html">common/triggers/teleporters.qh</a>&gt;</code><br/>
@@ -154,34 +152,13 @@ $(document).ready(function(){initNavTree('d0/d9c/mutator_8qh.html','../../');});
 </div>
 </div>
 <p><a href="../../d0/d9c/mutator_8qh_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a142785274d2430e13b4836deecfac48f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d9c/mutator_8qh.html#a142785274d2430e13b4836deecfac48f">MUTATOR_H</a></td></tr>
-<tr class="separator:a142785274d2430e13b4836deecfac48f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a142785274d2430e13b4836deecfac48f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MUTATOR_H</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d0/d9c/mutator_8qh_source.html#l00002">2</a> of file <a class="el" href="../../d0/d9c/mutator_8qh_source.html">mutator.qh</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d0/d9c/mutator_8qh.html">mutator.qh</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 04:07:59 for Xonotic by
+    <li class="footer">Generated on Mon Mar 14 2016 07:47:15 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

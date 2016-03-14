@@ -28,6 +28,5 @@ var sys_pre_8qh =
     [ "IT_SUPER_SHOTGUN", "dd/d8b/sys-pre_8qh.html#a6ba166b0f324250745d0897a482d08bb", null ],
     [ "IT_SUPERHEALTH", "dd/d8b/sys-pre_8qh.html#af049e5748138e84b5a3570816901699b", null ],
     [ "objerror", "dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1", null ],
-    [ "remove", "dd/d8b/sys-pre_8qh.html#a21c8e4427c0616d11bc8e6bb66141a73", null ],
-    [ "SERVER_SYS_PRE_H", "dd/d8b/sys-pre_8qh.html#a1f1892bb183eb1c284c08d2d2131af90", null ]
+    [ "remove", "dd/d8b/sys-pre_8qh.html#a21c8e4427c0616d11bc8e6bb66141a73", null ]
 ];

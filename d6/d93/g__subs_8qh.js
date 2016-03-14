@@ -1,6 +1,5 @@
 var g__subs_8qh =
 [
-    [ "G_SUBS_H", "d6/d93/g__subs_8qh.html#ada966684c5aeca8803886b706096e4ee", null ],
     [ "angc", "d6/d93/g__subs_8qh.html#a3beea75a8f5936cd10f1b7319347a884", null ],
     [ "ApplyMinMaxScaleAngles", "d6/d93/g__subs_8qh.html#a1a4bbd8167f5c8536222892f98565b04", null ],
     [ "findbetterlocation", "d6/d93/g__subs_8qh.html#ade6067d4eee255157e9f7eff9b226639", null ],

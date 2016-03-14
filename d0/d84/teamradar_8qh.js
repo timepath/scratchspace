@@ -1,6 +1,5 @@
 var teamradar_8qh =
 [
-    [ "CLIENT_TEAMRADAR_H", "d0/d84/teamradar_8qh.html#ac0227ace2a08d70cd3f08e38d46af049", null ],
     [ "class", "d0/d84/teamradar_8qh.html#a0dfdd664a8e3c0ae23c40985fd32ffc0", null ],
     [ "draw_teamradar_background", "d0/d84/teamradar_8qh.html#a3e6333f994ee3db028cd9cd6c20f5aad", null ],
     [ "draw_teamradar_icon", "d0/d84/teamradar_8qh.html#ad02297956a1dfca47d08bfe1512fc9ec", null ],

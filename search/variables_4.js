@@ -39,7 +39,7 @@ var searchData=
   ['death_5fweaponmask',['DEATH_WEAPONMASK',['../db/dab/common_2deathtypes_2all_8qh.html#a5d776d28500a9006a4a7dd9da293f557',1,'all.qh']]],
   ['deathmatch',['deathmatch',['../d6/d11/progsdefs_8qc.html#a45b6e6afbce5c3398b8037caf1fd0e07',1,'progsdefs.qc']]],
   ['deathmessage',['deathmessage',['../d5/d26/server_2defs_8qh.html#a3fd2d994c3cac42100d3818ec0dd1095',1,'defs.qh']]],
-  ['debug',['debug',['../da/dc6/debug_8qh.html#a398527b3e9e358c345c5047b16871957',1,'debug.qh']]],
+  ['debug',['debug',['../da/df5/common_2debug_8qh.html#a398527b3e9e358c345c5047b16871957',1,'debug.qh']]],
   ['debug_5fnode_5ffail',['DEBUG_NODE_FAIL',['../df/dd4/navigation_8qh.html#af211d7b3cf45d7e06d5579cec6b8238b',1,'navigation.qh']]],
   ['debug_5fnode_5fsuccess',['DEBUG_NODE_SUCCESS',['../df/dd4/navigation_8qh.html#a509e4108f91a57398a2fdcc494471d03',1,'navigation.qh']]],
   ['debug_5fnode_5fwarning',['DEBUG_NODE_WARNING',['../df/dd4/navigation_8qh.html#a63ca54bc29313a81066bf2518118f501',1,'navigation.qh']]],

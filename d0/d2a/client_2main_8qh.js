@@ -1,6 +1,5 @@
 var client_2main_8qh =
 [
-    [ "CLIENT_MAIN_H", "d0/d2a/client_2main_8qh.html#a6a4ae693d2fa7730dd3985d444937dae", null ],
     [ "DATABUF_CAPTURES", "d0/d2a/client_2main_8qh.html#acd74f6c04f2b33a5ecd88d0b0f5614e0", null ],
     [ "DATABUF_DEATHS", "d0/d2a/client_2main_8qh.html#a653501c223f416882b68e5dc8f012176", null ],
     [ "DATABUF_NEXT", "d0/d2a/client_2main_8qh.html#a3876b7f3b93b0ef9a15e6c95ee29c0ff", null ],

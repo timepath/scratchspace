@@ -1,6 +1,5 @@
 var selection_8qh =
 [
-    [ "SELECTION_H", "d8/d6b/selection_8qh.html#a27dd950a119cdfc5e7f05a6cbcf2d78d", null ],
     [ "w_getbestweapon", "d8/d6b/selection_8qh.html#a9939796cc50a72af43a8fa95e3aea85e", null ],
     [ "client_hasweapon", "d8/d6b/selection_8qh.html#a6094bcb757a9c56ae5a7b5508a880154", null ],
     [ "Send_WeaponComplain", "d8/d6b/selection_8qh.html#a6f9b75f17639bb910d8445a136d4a837", null ],

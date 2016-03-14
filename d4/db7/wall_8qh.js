@@ -1,6 +1,5 @@
 var wall_8qh =
 [
-    [ "CLIENT_WALL_H", "d4/db7/wall_8qh.html#a050b5b62733ada9462b9519a07ecc248", null ],
     [ "class", "d4/db7/wall_8qh.html#a2b915d5df2d623573a01a951a2ae259c", null ],
     [ "Ent_Wall_Draw", "d4/db7/wall_8qh.html#ac20990484cf12bfc4d141db226f8d379", null ],
     [ "Ent_Wall_Remove", "d4/db7/wall_8qh.html#aa47bdb5b6210ebe6a770fef5740bd09a", null ],

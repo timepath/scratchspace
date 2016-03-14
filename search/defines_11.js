@@ -1,9 +1,7 @@
 var searchData=
 [
-  ['race_5fh',['RACE_H',['../d4/d1b/race_8qh.html#ad5805992f2d5cdf262d0e1b8e5dd80c4',1,'race.qh']]],
   ['race_5frecord',['RACE_RECORD',['../d5/df2/common_2util_8qh.html#ae9037dc83bdcfd223a3560fe1da7d345',1,'util.qh']]],
   ['radaricons_5ffrom',['RadarIcons_from',['../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a40dcb143f36ec5266d8d271f3f43296c',1,'all.qh']]],
-  ['radarmap_5fh',['RADARMAP_H',['../d4/d3c/radarmap_8qh.html#a8149332b36b1971ee68249efb387525d',1,'radarmap.qh']]],
   ['radiobutton_5fh',['RADIOBUTTON_H',['../d9/dad/xonotic_2radiobutton_8qc.html#a46079ac83c74cb1091bd02865fb573bf',1,'radiobutton.qc']]],
   ['raptor_5fh',['RAPTOR_H',['../d4/da1/raptor_8qh.html#af08388847aed50c7f030589717ad4d67',1,'raptor.qh']]],
   ['read_5fbyte',['Read_byte',['../dd/d69/net_8qh.html#a47b6d4ca93431fbacadc241fa409ea8d',1,'net.qh']]],
@@ -80,13 +78,11 @@ var searchData=
   ['repr_5fcvar_5fstring',['repr_cvar_string',['../d0/d4f/cvar_8qh.html#a3f52ceeb6ee47dcb3a9cd5f5f36afaa0',1,'cvar.qh']]],
   ['repr_5fcvar_5fvector',['repr_cvar_vector',['../d0/d4f/cvar_8qh.html#ab3fbc66ef5b4cfa8145578224e8c7edd',1,'cvar.qh']]],
   ['rocketminsta_5flaser',['rocketminsta_laser',['../d1/d7c/effectinfo__instagib_8inc.html#af2d6617e4876c9898595d22db3856d27',1,'effectinfo_instagib.inc']]],
-  ['roles_5fh',['ROLES_H',['../d3/d92/roles_8qh.html#a17b32d6b60445f65ecc2ec2d2e0038c4',1,'roles.qh']]],
   ['roll',['ROLL',['../de/dcb/vector_8qh.html#a7f8a5f63bb6820dbb4290a5b08f938a8',1,'vector.qh']]],
   ['rootdialog_5fh',['ROOTDIALOG_H',['../d0/dca/rootdialog_8qc.html#a69617a2871afd716f0fe74a31f89cafe',1,'rootdialog.qc']]],
   ['round_5fhandler_5fawaitingnextround',['round_handler_AwaitingNextRound',['../db/d20/round__handler_8qh.html#a3387fe2472922fb6b655760d89d52952',1,'round_handler.qh']]],
   ['round_5fhandler_5fcountdownrunning',['round_handler_CountdownRunning',['../db/d20/round__handler_8qh.html#af448ee5d5b9bb1bb462abc0bc0ae3b79',1,'round_handler.qh']]],
   ['round_5fhandler_5fgetendtime',['round_handler_GetEndTime',['../db/d20/round__handler_8qh.html#a3333ca7666a86449c9cce2487a77bd4f',1,'round_handler.qh']]],
-  ['round_5fhandler_5fh',['ROUND_HANDLER_H',['../db/d20/round__handler_8qh.html#a8e6f7204fc0ab37cf9f87d5e52103ab0',1,'round_handler.qh']]],
   ['round_5fhandler_5fisactive',['round_handler_IsActive',['../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0',1,'round_handler.qh']]],
   ['round_5fhandler_5fisroundstarted',['round_handler_IsRoundStarted',['../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2',1,'round_handler.qh']]],
   ['rubble_5fh',['RUBBLE_H',['../d0/de2/rubble_8qh.html#a255905f1134e2bcb3813c9dd3ea46cce',1,'rubble.qh']]]

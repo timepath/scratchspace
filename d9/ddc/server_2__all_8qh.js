@@ -12,7 +12,6 @@ var server_2__all_8qh =
     [ "IS_SPEC", "d9/ddc/server_2__all_8qh.html#a267d55f1e2caab1f644733587acbc378", null ],
     [ "IS_TURRET", "d9/ddc/server_2__all_8qh.html#a47d8b1eef57b889198dafb1269499995", null ],
     [ "IS_VEHICLE", "d9/ddc/server_2__all_8qh.html#ada2e50d916105b5a32d7c97d39d226d5", null ],
-    [ "SERVER_ALL_H", "d9/ddc/server_2__all_8qh.html#a928abebfc3785295f6c7f940f466636e", null ],
     [ "maxclients", "d9/ddc/server_2__all_8qh.html#a897245da86d59176980f3c9901120524", null ],
     [ "STR_OBSERVER", "d9/ddc/server_2__all_8qh.html#a41d8294f77dc153830a7fb766d184826", null ],
     [ "STR_PLAYER", "d9/ddc/server_2__all_8qh.html#a6d7a69bf23135f01c35168a97594727b", null ],

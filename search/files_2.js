@@ -7,13 +7,16 @@ var searchData=
   ['bgmscript_2eqc',['bgmscript.qc',['../d0/d0f/bgmscript_8qc.html',1,'']]],
   ['bgmscript_2eqh',['bgmscript.qh',['../d3/d9d/bgmscript_8qh.html',1,'']]],
   ['bigbutton_2eqc',['bigbutton.qc',['../df/d4f/bigbutton_8qc.html',1,'']]],
+  ['bigbutton_2eqh',['bigbutton.qh',['../d4/db8/bigbutton_8qh.html',1,'']]],
   ['bigcommandbutton_2eqc',['bigcommandbutton.qc',['../d7/d0d/bigcommandbutton_8qc.html',1,'']]],
+  ['bigcommandbutton_2eqh',['bigcommandbutton.qh',['../d2/d88/bigcommandbutton_8qh.html',1,'']]],
   ['bits_2eqh',['bits.qh',['../d5/d52/bits_8qh.html',1,'']]],
   ['blaster_2eqc',['blaster.qc',['../d0/d3f/blaster_8qc.html',1,'']]],
   ['bloodloss_2eqc',['bloodloss.qc',['../d2/d3b/bloodloss_8qc.html',1,'']]],
   ['bobbing_2eqc',['bobbing.qc',['../d2/d1a/bobbing_8qc.html',1,'']]],
   ['bool_2eqh',['bool.qh',['../dd/d54/bool_8qh.html',1,'']]],
   ['borderimage_2eqc',['borderimage.qc',['../dd/d13/borderimage_8qc.html',1,'']]],
+  ['borderimage_2eqh',['borderimage.qh',['../dc/d72/borderimage_8qh.html',1,'']]],
   ['bot_2eqc',['bot.qc',['../d2/dc0/bot_8qc.html',1,'']]],
   ['bot_2eqh',['bot.qh',['../d1/da9/bot_8qh.html',1,'']]],
   ['breakable_2eqc',['breakable.qc',['../d5/df1/breakable_8qc.html',1,'']]],
@@ -24,7 +27,9 @@ var searchData=
   ['bumblebee_2eqc',['bumblebee.qc',['../d0/d99/bumblebee_8qc.html',1,'']]],
   ['bumblebee_2eqh',['bumblebee.qh',['../d0/d7f/bumblebee_8qh.html',1,'']]],
   ['bumblebee_5fweapons_2eqc',['bumblebee_weapons.qc',['../dc/de7/bumblebee__weapons_8qc.html',1,'']]],
-  ['button_2eqc',['button.qc',['../da/dfc/common_2triggers_2func_2button_8qc.html',1,'']]],
+  ['button_2eqc',['button.qc',['../d2/dc3/menu_2item_2button_8qc.html',1,'']]],
   ['button_2eqc',['button.qc',['../df/d28/menu_2xonotic_2button_8qc.html',1,'']]],
-  ['button_2eqc',['button.qc',['../d2/dc3/menu_2item_2button_8qc.html',1,'']]]
+  ['button_2eqc',['button.qc',['../da/dfc/common_2triggers_2func_2button_8qc.html',1,'']]],
+  ['button_2eqh',['button.qh',['../df/da7/item_2button_8qh.html',1,'']]],
+  ['button_2eqh',['button.qh',['../dc/df6/xonotic_2button_8qh.html',1,'']]]
 ];

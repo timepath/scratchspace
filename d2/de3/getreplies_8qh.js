@@ -1,6 +1,5 @@
 var getreplies_8qh =
 [
-    [ "GETREPLIES_H", "d2/de3/getreplies_8qh.html#abfdcc0d7bea8e5b0b4ce1eea1fab802c", null ],
     [ "LADDER_CNT", "d2/de3/getreplies_8qh.html#aa1f6a3afcfc0df8ab833bc5d93968774", null ],
     [ "getladder", "d2/de3/getreplies_8qh.html#a7e4a34fe079ee89797a6399b10e0d23e", null ],
     [ "getlsmaps", "d2/de3/getreplies_8qh.html#aa4fceeef60a806f478f69ab080bdb930", null ],

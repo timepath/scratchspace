@@ -15,5 +15,5 @@ var dir_8a87120786ccfc907eed32da78bf9505 =
     [ "sv_cmd.qc", "d3/df2/sv__cmd_8qc.html", "d3/df2/sv__cmd_8qc" ],
     [ "sv_cmd.qh", "d2/dcc/sv__cmd_8qh.html", "d2/dcc/sv__cmd_8qh" ],
     [ "vote.qc", "d1/dad/server_2command_2vote_8qc.html", "d1/dad/server_2command_2vote_8qc" ],
-    [ "vote.qh", "d8/d08/vote_8qh.html", "d8/d08/vote_8qh" ]
+    [ "vote.qh", "d7/d16/server_2command_2vote_8qh.html", "d7/d16/server_2command_2vote_8qh" ]
 ];

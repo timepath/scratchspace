@@ -1,6 +1,5 @@
 var csqc__constants_8qh =
 [
-    [ "CLIENT_CSQC_CONSTANTS", "d4/d92/csqc__constants_8qh.html#aaa3e9dd021d4b21b872ce321ccb8c17f", null ],
     [ "BUTTON7", "d4/d92/csqc__constants_8qh.html#a92ba66a4d697a883e25f43eac1547d2b", null ],
     [ "BUTTON8", "d4/d92/csqc__constants_8qh.html#af9fdd090863ffe4bfad56205808d191c", null ],
     [ "BUTTON_10", "d4/d92/csqc__constants_8qh.html#a9b83e55be6ba5f36f22f49ab303514a5", null ],

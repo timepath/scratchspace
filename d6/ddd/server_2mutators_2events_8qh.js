@@ -83,7 +83,6 @@ var server_2mutators_2events_8qh =
     [ "EV_WeaponRateFactor", "d6/ddd/server_2mutators_2events_8qh.html#ab29c8325bc36383e8391a2306255c3b5", null ],
     [ "EV_WeaponSound", "d6/ddd/server_2mutators_2events_8qh.html#a77829c1928216da311e0a94eb4ab0258", null ],
     [ "EV_WeaponSpeedFactor", "d6/ddd/server_2mutators_2events_8qh.html#ac169f1a08d376dea6f0329bd09fcbb26", null ],
-    [ "SERVER_MUTATORS_EVENTS_H", "d6/ddd/server_2mutators_2events_8qh.html#ae93a6c27108bde0e22a93a3d40e25416", null ],
     [ "MUT_ITEMTOUCH_CONTINUE", "d6/ddd/server_2mutators_2events_8qh.html#abc6126af1d45847bc59afa0aa3216b04afae122758cc06d2452f6817e998671dd", null ],
     [ "MUT_ITEMTOUCH_RETURN", "d6/ddd/server_2mutators_2events_8qh.html#abc6126af1d45847bc59afa0aa3216b04a9c5e9086f06ed095b2a2e86617459fb4", null ],
     [ "MUT_ITEMTOUCH_PICKUP", "d6/ddd/server_2mutators_2events_8qh.html#abc6126af1d45847bc59afa0aa3216b04a37783ea67506cbfd8e6905ee995061be", null ],

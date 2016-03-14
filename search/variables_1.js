@@ -504,7 +504,7 @@ var searchData=
   ['autocvar_5fcrosshair_5frpc_5fcolor',['autocvar_crosshair_rpc_color',['../d7/db4/client_2autocvars_8qh.html#a1a14549f115e47ea41953ce56bd5cfc4',1,'autocvars.qh']]],
   ['autocvar_5fcrosshair_5frpc_5fsize',['autocvar_crosshair_rpc_size',['../d7/db4/client_2autocvars_8qh.html#adadc17a62432fcafbc3e75d9a5fc9c4c',1,'autocvars.qh']]],
   ['autocvar_5fcrosshair_5fsize',['autocvar_crosshair_size',['../d7/db4/client_2autocvars_8qh.html#a2ed9376a0bd02afd3b12d471ac7afae6',1,'autocvars.qh']]],
-  ['autocvar_5fdebugdraw',['autocvar_debugdraw',['../da/dc6/debug_8qh.html#adf57573d447a0ad86b53345f77359abd',1,'debug.qh']]],
+  ['autocvar_5fdebugdraw',['autocvar_debugdraw',['../da/df5/common_2debug_8qh.html#adf57573d447a0ad86b53345f77359abd',1,'debug.qh']]],
   ['autocvar_5fdeveloper',['autocvar_developer',['../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8',1,'log.qh']]],
   ['autocvar_5fdeveloper_5fcsqcentities',['autocvar_developer_csqcentities',['../d7/db4/client_2autocvars_8qh.html#a1308ede3375f6db0058360f8133fa27e',1,'autocvars.qh']]],
   ['autocvar_5fdeveloper_5fmapper',['autocvar_developer_mapper',['../d2/d9e/mapinfo_8qh.html#a6d7c823858c610098c2355c7c5e90725',1,'mapinfo.qh']]],

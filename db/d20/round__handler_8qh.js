@@ -3,7 +3,6 @@ var round__handler_8qh =
     [ "round_handler_AwaitingNextRound", "db/d20/round__handler_8qh.html#a3387fe2472922fb6b655760d89d52952", null ],
     [ "round_handler_CountdownRunning", "db/d20/round__handler_8qh.html#af448ee5d5b9bb1bb462abc0bc0ae3b79", null ],
     [ "round_handler_GetEndTime", "db/d20/round__handler_8qh.html#a3333ca7666a86449c9cce2487a77bd4f", null ],
-    [ "ROUND_HANDLER_H", "db/d20/round__handler_8qh.html#a8e6f7204fc0ab37cf9f87d5e52103ab0", null ],
     [ "round_handler_IsActive", "db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0", null ],
     [ "round_handler_IsRoundStarted", "db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2", null ],
     [ "float", "db/d20/round__handler_8qh.html#a9e61937823e362c123139f7f794a71fd", null ],

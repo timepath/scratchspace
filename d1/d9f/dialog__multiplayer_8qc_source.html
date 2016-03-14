@@ -104,37 +104,38 @@ $(document).ready(function(){initNavTree('d1/d9f/dialog__multiplayer_8qc_source.
 <div class="title">dialog_multiplayer.qc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d1/d9f/dialog__multiplayer_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef DIALOG_MULTIPLAYER_H</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="../../d1/d9f/dialog__multiplayer_8qc.html#a3c6ede1bc4f76e39af42ab766120a667">    2</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define DIALOG_MULTIPLAYER_H</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/d55/xonotic_2dialog_8qc.html">dialog.qc</a>&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a>(XonoticMultiplayerDialog, XonoticDialog)</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d1/d9f/dialog__multiplayer_8qc.html#a2ccdbbadd7e1f11fd6e9061b7d7461c5">METHOD</a>(XonoticMultiplayerDialog, fill, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>));</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticMultiplayerDialog, title, <span class="keywordtype">string</span>, _(&quot;Multiplayer&quot;))</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticMultiplayerDialog, tooltip, <span class="keywordtype">string</span>, _(&quot;Play online, against your friends in LAN, view demos or change player settings&quot;))</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticMultiplayerDialog, <a class="code" href="../../de/d5e/dpextensions_8qc.html#a74486a486528a0aa8c3e94223a69e12d">color</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, SKINCOLOR_DIALOG_MULTIPLAYER)</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticMultiplayerDialog, intendedWidth, <span class="keywordtype">float</span>, 0.96)</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticMultiplayerDialog, rows, <span class="keywordtype">float</span>, 24)</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticMultiplayerDialog, columns, <span class="keywordtype">float</span>, 4)</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a>(XonoticMultiplayerDialog)</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#ifdef IMPLEMENTATION</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> XonoticMultiplayerDialog_fill(entity me)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    entity mc, e;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    mc = <a class="code" href="../../dc/dcf/tabcontroller_8qc.html#a36ea716821d3a819ddd97f6fa21570e6">makeXonoticTabController</a>(me.rows - 1);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    me.TR(me);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        me.TD(me, 1, 1, e = mc.makeTabButton_T(mc, _(<span class="stringliteral">&quot;Servers&quot;</span>), <a class="code" href="../../dd/d94/dialog__multiplayer__join_8qc.html#a23af548c6170f613544cf2ccd36bbdc4">makeXonoticServerListTab</a>(),</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            _(<span class="stringliteral">&quot;Find servers to play on&quot;</span>)));</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        me.TD(me, 1, 1, e = mc.makeTabButton_T(mc, _(<span class="stringliteral">&quot;Create&quot;</span>), makeXonoticServerCreateTab(),</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            _(<span class="stringliteral">&quot;Host your own game&quot;</span>)));</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        me.TD(me, 1, 1, e = mc.makeTabButton(mc, _(<span class="stringliteral">&quot;Media&quot;</span>), <a class="code" href="../../d1/d8e/dialog__multiplayer__media_8qc.html#a048e9d55578bbd55fa3acb96f76ad670">makeXonoticMediaTab</a>()));</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        me.TD(me, 1, 1, e = mc.makeTabButton(mc, _(<span class="stringliteral">&quot;Profile&quot;</span>), makeXonoticProfileTab()));</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    me.TR(me);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        me.TD(me, me.rows - 1, me.columns, mc);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
+<a href="../../d1/d9f/dialog__multiplayer_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../dd/d46/dialog__multiplayer_8qh.html">dialog_multiplayer.qh</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#ifndef DIALOG_MULTIPLAYER_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d1/d9f/dialog__multiplayer_8qc.html#a3c6ede1bc4f76e39af42ab766120a667">    3</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define DIALOG_MULTIPLAYER_H</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/d55/xonotic_2dialog_8qc.html">dialog.qc</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a>(XonoticMultiplayerDialog, XonoticDialog)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d1/d9f/dialog__multiplayer_8qc.html#a2ccdbbadd7e1f11fd6e9061b7d7461c5">METHOD</a>(XonoticMultiplayerDialog, fill, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>));</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticMultiplayerDialog, title, <span class="keywordtype">string</span>, _(&quot;Multiplayer&quot;))</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticMultiplayerDialog, tooltip, <span class="keywordtype">string</span>, _(&quot;Play online, against your friends in LAN, view demos or change player settings&quot;))</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticMultiplayerDialog, <a class="code" href="../../de/d5e/dpextensions_8qc.html#a74486a486528a0aa8c3e94223a69e12d">color</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, SKINCOLOR_DIALOG_MULTIPLAYER)</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticMultiplayerDialog, intendedWidth, <span class="keywordtype">float</span>, 0.96)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticMultiplayerDialog, rows, <span class="keywordtype">float</span>, 24)</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(XonoticMultiplayerDialog, columns, <span class="keywordtype">float</span>, 4)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a>(XonoticMultiplayerDialog)</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#ifdef IMPLEMENTATION</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> XonoticMultiplayerDialog_fill(entity me)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    entity mc, e;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    mc = <a class="code" href="../../dc/dcf/tabcontroller_8qc.html#a36ea716821d3a819ddd97f6fa21570e6">makeXonoticTabController</a>(me.rows - 1);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    me.TR(me);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        me.TD(me, 1, 1, e = mc.makeTabButton_T(mc, _(<span class="stringliteral">&quot;Servers&quot;</span>), <a class="code" href="../../dd/d94/dialog__multiplayer__join_8qc.html#a23af548c6170f613544cf2ccd36bbdc4">makeXonoticServerListTab</a>(),</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            _(<span class="stringliteral">&quot;Find servers to play on&quot;</span>)));</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        me.TD(me, 1, 1, e = mc.makeTabButton_T(mc, _(<span class="stringliteral">&quot;Create&quot;</span>), makeXonoticServerCreateTab(),</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            _(<span class="stringliteral">&quot;Host your own game&quot;</span>)));</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        me.TD(me, 1, 1, e = mc.makeTabButton(mc, _(<span class="stringliteral">&quot;Media&quot;</span>), <a class="code" href="../../d1/d8e/dialog__multiplayer__media_8qc.html#a048e9d55578bbd55fa3acb96f76ad670">makeXonoticMediaTab</a>()));</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        me.TD(me, 1, 1, e = mc.makeTabButton(mc, _(<span class="stringliteral">&quot;Profile&quot;</span>), makeXonoticProfileTab()));</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    me.TR(me);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        me.TD(me, me.rows - 1, me.columns, mc);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="dpextensions_8qc_html_a74486a486528a0aa8c3e94223a69e12d"><div class="ttname"><a href="../../de/d5e/dpextensions_8qc.html#a74486a486528a0aa8c3e94223a69e12d">color</a></div><div class="ttdeci">vector color</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/dpextensions_8qc_source.html#l02415">dpextensions.qc:2415</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="dialog__multiplayer__join_8qc_html_a23af548c6170f613544cf2ccd36bbdc4"><div class="ttname"><a href="../../dd/d94/dialog__multiplayer__join_8qc.html#a23af548c6170f613544cf2ccd36bbdc4">makeXonoticServerListTab</a></div><div class="ttdeci">entity makeXonoticServerListTab()</div></div>
@@ -143,6 +144,7 @@ $(document).ready(function(){initNavTree('d1/d9f/dialog__multiplayer_8qc_source.
 <div class="ttc" id="oo_8qh_html_a381644ce1564409db8c6a582aaf9316f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a></div><div class="ttdeci">#define ATTRIB(cname, name, type, val)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00190">oo.qh:190</a></div></div>
 <div class="ttc" id="oo_8qh_html_a71373c33560dcca984e1c21df4fa1d5f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a></div><div class="ttdeci">#define ENDCLASS(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00210">oo.qh:210</a></div></div>
 <div class="ttc" id="dialog__multiplayer__media_8qc_html_a048e9d55578bbd55fa3acb96f76ad670"><div class="ttname"><a href="../../d1/d8e/dialog__multiplayer__media_8qc.html#a048e9d55578bbd55fa3acb96f76ad670">makeXonoticMediaTab</a></div><div class="ttdeci">entity makeXonoticMediaTab()</div></div>
+<div class="ttc" id="dialog__multiplayer_8qh_html"><div class="ttname"><a href="../../dd/d46/dialog__multiplayer_8qh.html">dialog_multiplayer.qh</a></div></div>
 <div class="ttc" id="tabcontroller_8qc_html_a36ea716821d3a819ddd97f6fa21570e6"><div class="ttname"><a href="../../dc/dcf/tabcontroller_8qc.html#a36ea716821d3a819ddd97f6fa21570e6">makeXonoticTabController</a></div><div class="ttdeci">entity makeXonoticTabController(float theRows)</div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 <div class="ttc" id="oo_8qh_html_abeb668c90209cec33cbe7d1589befa60"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a></div><div class="ttdeci">CLASS(Object,)</div></div>
@@ -152,7 +154,7 @@ $(document).ready(function(){initNavTree('d1/d9f/dialog__multiplayer_8qc_source.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d1/d9f/dialog__multiplayer_8qc.html">dialog_multiplayer.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 04:07:51 for Xonotic by
+    <li class="footer">Generated on Mon Mar 14 2016 07:47:06 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

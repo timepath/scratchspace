@@ -1,6 +1,5 @@
 var client_2autocvars_8qh =
 [
-    [ "CLIENT_AUTOCVARS_H", "d7/db4/client_2autocvars_8qh.html#a1361dab243a26f6c1a71e691a7928956", null ],
     [ "autocvar__cl_color", "d7/db4/client_2autocvars_8qh.html#a0ef689771bfebdf39d2f4a0f27e245a6", null ],
     [ "autocvar__cl_playermodel", "d7/db4/client_2autocvars_8qh.html#ae7db9d53f7ab2929bd2b3729ac41993d", null ],
     [ "autocvar__cl_playerskin", "d7/db4/client_2autocvars_8qh.html#a58e0021b7723d4801d1fa2a44a00b105", null ],

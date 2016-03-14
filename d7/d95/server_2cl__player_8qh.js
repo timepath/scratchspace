@@ -1,6 +1,5 @@
 var server_2cl__player_8qh =
 [
-    [ "CL_PLAYER_H", "d7/d95/server_2cl__player_8qh.html#a128de60f64a281dc62c36e2e900dc249", null ],
     [ "GAMETYPE_DEFAULTED_SETTING", "d7/d95/server_2cl__player_8qh.html#ab0ddbf3a176299c044cb3499225ee3d2", null ],
     [ "calculate_player_respawn_time", "d7/d95/server_2cl__player_8qh.html#a9d529760b279c19bb3b1d15c4da335d1", null ],
     [ "ClientKill_Now_TeamChange", "d7/d95/server_2cl__player_8qh.html#ad782a8ecd5d72aefee13e592a4906f84", null ],

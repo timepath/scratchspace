@@ -1,6 +1,5 @@
 var banning_8qh =
 [
-    [ "BANNING_H", "de/dbd/banning_8qh.html#a91dd3efb1f3db490fcc89a0b09707e37", null ],
     [ "GET_BAN_ARG", "de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b", null ],
     [ "GET_BAN_REASON", "de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe", null ],
     [ "Ban_Delete", "de/dbd/banning_8qh.html#ab915b826ebbe3fa641b6dcf17dbe4fc3", null ],

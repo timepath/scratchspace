@@ -1,6 +1,5 @@
 var weaponsystem_8qh =
 [
-    [ "WEAPONSYSTEM_H", "da/db7/weaponsystem_8qh.html#afa97134a611ea54f28f77b38fce2e2bf", null ],
     [ "CL_SpawnWeaponentity", "da/db7/weaponsystem_8qh.html#aa6d337210081fd47ddca43564d7bf9c3", null ],
     [ "CL_Weapon_GetShotOrg", "da/db7/weaponsystem_8qh.html#ad315ff4e6ee9693a54edb0d18efc9245", null ],
     [ "forbidWeaponUse", "da/db7/weaponsystem_8qh.html#aa37b568e14f970efdb768a661eeea96e", null ],

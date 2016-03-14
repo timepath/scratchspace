@@ -1,7 +1,6 @@
 var server_2constants_8qh =
 [
     [ "EFMASK_CHEAP", "d9/de7/server_2constants_8qh.html#af31e2da8f9f15c1d3665c6b48f04a6e0", null ],
-    [ "SERVER_CONSTANTS_H", "d9/de7/server_2constants_8qh.html#af1f4d89458abe433aeb77c551b547b74", null ],
     [ "ASSAULT_VALUE_INACTIVE", "d9/de7/server_2constants_8qh.html#a60dc5332f25db6149f189046a8915af2", null ],
     [ "FL_NO_WEAPON_STAY", "d9/de7/server_2constants_8qh.html#a738e18d0d0d820e49e3a9a6afcf7ca71", null ],
     [ "FL_PICKUPITEMS", "d9/de7/server_2constants_8qh.html#a59e27fc4d5c80dc54ddad2ba4edb6a0c", null ],

@@ -25,7 +25,6 @@ var server_2autocvars_8qh =
     [ "autocvar_timelimit", "d7/da7/server_2autocvars_8qh.html#a73eade93530cef0c5566e5e29d0ddbff", null ],
     [ "autocvar_timelimit_override", "d7/da7/server_2autocvars_8qh.html#a044e0af0cd49790e1cfe2203ec6e5a8d", null ],
     [ "autocvar_utf8_enable", "d7/da7/server_2autocvars_8qh.html#a7859f4b6f103b49e5e1ddccfd429ca54", null ],
-    [ "SERVER_AUTOCVARS_H", "d7/da7/server_2autocvars_8qh.html#a8f97242c1ff34ef4248998b3f14fb324", null ],
     [ "autocvar__campaign_index", "d7/da7/server_2autocvars_8qh.html#a34376c5896411add33c4d4588e5a9479", null ],
     [ "autocvar__campaign_name", "d7/da7/server_2autocvars_8qh.html#a2f21ce2527dab71de445c44e32ec4e9c", null ],
     [ "autocvar__campaign_testrun", "d7/da7/server_2autocvars_8qh.html#a74bc4aab35ed6cec0a5868cca10070fd", null ],

@@ -1,7 +1,6 @@
 var weaponstats_8qh =
 [
     [ "WEAPONSTATS_GETINDEX", "d9/df0/weaponstats_8qh.html#af22a35d618b56e7fc7f2e71a5de60a3d", null ],
-    [ "WEAPONSTATS_H", "d9/df0/weaponstats_8qh.html#a4c6242d4528c87ae56584c764ef006a0", null ],
     [ "WeaponStats_Init", "d9/df0/weaponstats_8qh.html#a658592c9d038c8940b9d17f4330cf72d", null ],
     [ "WeaponStats_LogDamage", "d9/df0/weaponstats_8qh.html#a92da13209374adaf40062e250635050f", null ],
     [ "WeaponStats_LogItem", "d9/df0/weaponstats_8qh.html#aaff19cec643aea889b24fc730133c07c", null ],

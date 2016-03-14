@@ -1,6 +1,5 @@
 var g__world_8qh =
 [
-    [ "G_WORLD_H", "d7/d97/g__world_8qh.html#a7a42418876facbbc0be759cf016c10d9", null ],
     [ "CheckRules_Player", "d7/d97/g__world_8qh.html#a05f62f47723bebb94defc8b8d730b25f", null ],
     [ "CheckRules_World", "d7/d97/g__world_8qh.html#a233af455133bc7ba4e3e100115bf2885", null ],
     [ "DoNextMapOverride", "d7/d97/g__world_8qh.html#a9e369a2585eeee66299a21fc034e9cc1", null ],

@@ -1,6 +1,5 @@
 var server_2mapvoting_8qh =
 [
-    [ "MAPVOTING_H", "d3/d53/server_2mapvoting_8qh.html#a49199d671ea3e7351950793940bc7f7a", null ],
     [ "GameTypeVote_Finished", "d3/d53/server_2mapvoting_8qh.html#a3e88f2b64efebdb02a339e5494f1b0ac", null ],
     [ "GameTypeVote_MapInfo_FixName", "d3/d53/server_2mapvoting_8qh.html#a13d33aa977bdf38b8384785376590f49", null ],
     [ "GameTypeVote_Start", "d3/d53/server_2mapvoting_8qh.html#a9e23e88fcace6381b529ac8060f0ad26", null ],

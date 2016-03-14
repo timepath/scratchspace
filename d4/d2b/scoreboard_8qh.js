@@ -1,6 +1,5 @@
 var scoreboard_8qh =
 [
-    [ "CLIENT_SCOREBOARD_H", "d4/d2b/scoreboard_8qh.html#ad1a4e66a7b71199f94d1b200506f4168", null ],
     [ "Cmd_HUD_SetFields", "d4/d2b/scoreboard_8qh.html#ab1c4873eb74bb40144fda6867c9abcf8", null ],
     [ "HUD_DrawScoreboard", "d4/d2b/scoreboard_8qh.html#ab60ffe946c4c5bcfe944603871475f20", null ],
     [ "HUD_InitScores", "d4/d2b/scoreboard_8qh.html#aae3133344c21e8d0e1f4a8a5ee4ed147", null ],

@@ -1,6 +1,5 @@
 var projectile_8qh =
 [
-    [ "CLIENT_WEAPONS_PROJECTILE_H", "dc/dc7/projectile_8qh.html#a62d7fe39cf98cc88625fa8efdf511a14", null ],
     [ "class", "dc/dc7/projectile_8qh.html#a6ac54cd80224a0c91171e2c86bc45da5", null ],
     [ "Ent_RemoveProjectile", "dc/dc7/projectile_8qh.html#aa0569f1b060229bf8b6d0c13b4dff8f1", null ],
     [ "entityclass", "dc/dc7/projectile_8qh.html#aa5528b043b7938fa1b8f8cd1a43969a5", null ],

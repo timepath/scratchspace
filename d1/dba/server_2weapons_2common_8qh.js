@@ -1,6 +1,5 @@
 var server_2weapons_2common_8qh =
 [
-    [ "WEAPONS_COMMON_H", "d1/dba/server_2weapons_2common_8qh.html#a595c795ed15c397d747ba08775cf0bdd", null ],
     [ "W_CheckProjectileDamage", "d1/dba/server_2weapons_2common_8qh.html#a102ac938a46377356e95bb667b1f01e2", null ],
     [ "W_GiveWeapon", "d1/dba/server_2weapons_2common_8qh.html#ab5df352ada1ad850a3d504fdc704c49f", null ],
     [ "W_PlayStrengthSound", "d1/dba/server_2weapons_2common_8qh.html#a15163fb722de405cc2764efd498bc2ee", null ],

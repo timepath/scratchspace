@@ -1,6 +1,5 @@
 var g__damage_8qh =
 [
-    [ "G_DAMAGE_H", "dd/de4/g__damage_8qh.html#adeca42d281523b5c8ad8f1617582ce82", null ],
     [ "AppendItemcodes", "dd/de4/g__damage_8qh.html#ade2887aa1376d34775f751d2a81565b0", null ],
     [ "Damage", "dd/de4/g__damage_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6", null ],
     [ "Damage_DamageInfo", "dd/de4/g__damage_8qh.html#af1915ea9d450669a5a0672749148448f", null ],

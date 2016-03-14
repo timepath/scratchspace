@@ -1,6 +1,5 @@
 var radarmap_8qh =
 [
-    [ "RADARMAP_H", "d4/d3c/radarmap_8qh.html#a8149332b36b1971ee68249efb387525d", null ],
     [ "RadarMap_Make", "d4/d3c/radarmap_8qh.html#acdd3a73b86c28ca1fea8a01766ea522c", null ],
     [ "doublehex", "d4/d3c/radarmap_8qh.html#a08a76a7631ef0666e23573c5ca4cf1d5", null ],
     [ "RADAR_HEIGHT_MAX", "d4/d3c/radarmap_8qh.html#a428839de844a7805ef144511064f93f0", null ],

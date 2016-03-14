@@ -1,6 +1,5 @@
 var spawnpoints_8qh =
 [
-    [ "SPAWNPOINTS_H", "d4/dd1/spawnpoints_8qh.html#a00020d5af3834945293f5fb284ee53bd", null ],
     [ "SelectSpawnPoint", "d4/dd1/spawnpoints_8qh.html#aa1dd6d4a9634026e6512aed758731ce0", null ],
     [ "Spawn_FilterOutBadSpots", "d4/dd1/spawnpoints_8qh.html#a35eace88a190401f5b42d633745ff2e4", null ],
     [ "SpawnEvent_Send", "d4/dd1/spawnpoints_8qh.html#a65f632ea7c75b704550b257f227230cb", null ],

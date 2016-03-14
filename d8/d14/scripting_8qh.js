@@ -3,7 +3,6 @@ var scripting_8qh =
     [ "BOT_EXEC_STATUS_IDLE", "d8/d14/scripting_8qh.html#a506fa9981c1de20287892b18f89c8dad", null ],
     [ "BOT_EXEC_STATUS_PAUSED", "d8/d14/scripting_8qh.html#a4148837952b0979735faac7e4718e6ab", null ],
     [ "BOT_EXEC_STATUS_WAITING", "d8/d14/scripting_8qh.html#a664dce4cbf056154d9dc0fa73ff3632b", null ],
-    [ "BOT_SCRIPTING_H", "d8/d14/scripting_8qh.html#a9cae7a7f5a2e65867ad70e6c2aec69e8", null ],
     [ "CMD_STATUS_ERROR", "d8/d14/scripting_8qh.html#a71bfad281d18b766827ca0e083cdc45a", null ],
     [ "CMD_STATUS_EXECUTING", "d8/d14/scripting_8qh.html#a9603613dd32e5b227cfaff1e41ac2930", null ],
     [ "CMD_STATUS_FINISHED", "d8/d14/scripting_8qh.html#a7486b01a2f8bcdc795620492866d7480", null ],

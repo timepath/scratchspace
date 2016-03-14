@@ -104,38 +104,34 @@ $(document).ready(function(){initNavTree('d6/d80/server_2command_2all_8qh_source
 <div class="title">all.qh</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d6/d80/server_2command_2all_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef SERVER_COMMANDS_ALL_H</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="../../d6/d80/server_2command_2all_8qh.html#aa4e5bd4237ce44b68eabc50a538e29d9">    2</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define SERVER_COMMANDS_ALL_H</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/d71/command_8qh.html">common/command/command.qh</a>&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a5ac40c7a1ac2d8bf44dfd73aaca2a3df">REGISTRY</a>(SERVER_COMMANDS, <a class="code" href="../../d5/d52/bits_8qh.html#a5967693540f086cfa357f68978bf0be7">BITS</a>(7))</div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../d6/d80/server_2command_2all_8qh.html#a7fc477b2d7545cdc1d8f209f5b8fdbe6">    6</a></span>&#160;<span class="preprocessor">#define SERVER_COMMANDS_from(i) _SERVER_COMMANDS_from(i, NULL)</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d2/d5e/registry_8qh.html#a9a50560d358790fd046b58cc5fbfd467">REGISTER_REGISTRY</a>(SERVER_COMMANDS)</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a881d3b5fb09cb0f4f89769d25eb0b9cc">REGISTRY_SORT</a>(SERVER_COMMANDS)</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d6/d80/server_2command_2all_8qh.html#ab0a0e8f203b9c34d6af61caaa2e3e1b1">   10</a></span>&#160;<span class="preprocessor">#define SERVER_COMMAND(id, description) \</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">    CLASS(servercommand_##id, Command) \</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">        ATTRIB(servercommand_##id, m_name, string, #id); \</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">        ATTRIB(servercommand_##id, m_description, string, description); \</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">    ENDCLASS(servercommand_##id) \</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">    REGISTER(SERVER_COMMANDS, CMD_SV, id, m_id, NEW(servercommand_##id)); \</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">    METHOD(servercommand_##id, m_invokecmd, void(int request, entity caller, int arguments, string command))</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d6/d80/server_2command_2all_8qh.html#af970738ae6db6a24a8bca3de59ab35cc">   18</a></span>&#160;<a class="code" href="../../d9/d2a/common_2command_2all_8qh.html#abfbf846736f7f2d250dfcc4c654c9aa2">STATIC_INIT</a>(SERVER_COMMANDS_aliases) {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(SERVER_COMMANDS, <span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(<a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(sprintf(<span class="stringliteral">&quot;alias %1$s \&quot;%2$s %1$s ${* ?}\&quot;\n&quot;</span>, it.m_name, <span class="stringliteral">&quot;qc_cmd_sv&quot;</span>))));</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/dcc/sv__cmd_8qh.html">sv_cmd.qh</a>&quot;</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/dbd/banning_8qh.html">banning.qh</a>&quot;</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d4c/cmd_8qh.html">cmd.qh</a>&quot;</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d06/server_2command_2common_8qh.html">common.qh</a>&quot;</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/de3/getreplies_8qh.html">getreplies.qh</a>&quot;</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d3c/radarmap_8qh.html">radarmap.qh</a>&quot;</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d08/vote_8qh.html">vote.qh</a>&quot;</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="vote_8qh_html"><div class="ttname"><a href="../../d8/d08/vote_8qh.html">vote.qh</a></div></div>
+<a href="../../d6/d80/server_2command_2all_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/d71/command_8qh.html">common/command/command.qh</a>&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a5ac40c7a1ac2d8bf44dfd73aaca2a3df">REGISTRY</a>(SERVER_COMMANDS, <a class="code" href="../../d5/d52/bits_8qh.html#a5967693540f086cfa357f68978bf0be7">BITS</a>(7))</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../d6/d80/server_2command_2all_8qh.html#a7fc477b2d7545cdc1d8f209f5b8fdbe6">    5</a></span>&#160;<span class="preprocessor">#define SERVER_COMMANDS_from(i) _SERVER_COMMANDS_from(i, NULL)</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d2/d5e/registry_8qh.html#a9a50560d358790fd046b58cc5fbfd467">REGISTER_REGISTRY</a>(SERVER_COMMANDS)</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a881d3b5fb09cb0f4f89769d25eb0b9cc">REGISTRY_SORT</a>(SERVER_COMMANDS)</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d6/d80/server_2command_2all_8qh.html#ab0a0e8f203b9c34d6af61caaa2e3e1b1">    9</a></span>&#160;<span class="preprocessor">#define SERVER_COMMAND(id, description) \</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">    CLASS(servercommand_##id, Command) \</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">        ATTRIB(servercommand_##id, m_name, string, #id); \</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">        ATTRIB(servercommand_##id, m_description, string, description); \</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">    ENDCLASS(servercommand_##id) \</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">    REGISTER(SERVER_COMMANDS, CMD_SV, id, m_id, NEW(servercommand_##id)); \</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">    METHOD(servercommand_##id, m_invokecmd, void(int request, entity caller, int arguments, string command))</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d6/d80/server_2command_2all_8qh.html#af970738ae6db6a24a8bca3de59ab35cc">   17</a></span>&#160;<a class="code" href="../../d9/d2a/common_2command_2all_8qh.html#abfbf846736f7f2d250dfcc4c654c9aa2">STATIC_INIT</a>(SERVER_COMMANDS_aliases) {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(SERVER_COMMANDS, <span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(<a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(sprintf(<span class="stringliteral">&quot;alias %1$s \&quot;%2$s %1$s ${* ?}\&quot;\n&quot;</span>, it.m_name, <span class="stringliteral">&quot;qc_cmd_sv&quot;</span>))));</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/dcc/sv__cmd_8qh.html">sv_cmd.qh</a>&quot;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../de/dbd/banning_8qh.html">banning.qh</a>&quot;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d4c/cmd_8qh.html">cmd.qh</a>&quot;</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d06/server_2command_2common_8qh.html">common.qh</a>&quot;</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/de3/getreplies_8qh.html">getreplies.qh</a>&quot;</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d3c/radarmap_8qh.html">radarmap.qh</a>&quot;</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d16/server_2command_2vote_8qh.html">vote.qh</a>&quot;</span></div>
 <div class="ttc" id="banning_8qh_html"><div class="ttname"><a href="../../de/dbd/banning_8qh.html">banning.qh</a></div></div>
 <div class="ttc" id="common_2notifications_2all_8qh_html_a881d3b5fb09cb0f4f89769d25eb0b9cc"><div class="ttname"><a href="../../dc/de5/common_2notifications_2all_8qh.html#a881d3b5fb09cb0f4f89769d25eb0b9cc">REGISTRY_SORT</a></div><div class="ttdeci">REGISTRY_SORT(Notifications)</div></div>
 <div class="ttc" id="getreplies_8qh_html"><div class="ttname"><a href="../../d2/de3/getreplies_8qh.html">getreplies.qh</a></div></div>
@@ -148,6 +144,7 @@ $(document).ready(function(){initNavTree('d6/d80/server_2command_2all_8qh_source
 <div class="ttc" id="common_2command_2all_8qh_html_abfbf846736f7f2d250dfcc4c654c9aa2"><div class="ttname"><a href="../../d9/d2a/common_2command_2all_8qh.html#abfbf846736f7f2d250dfcc4c654c9aa2">STATIC_INIT</a></div><div class="ttdeci">STATIC_INIT(GENERIC_COMMANDS_aliases)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d2a/common_2command_2all_8qh_source.html#l00018">all.qh:18</a></div></div>
 <div class="ttc" id="sv__cmd_8qh_html"><div class="ttname"><a href="../../d2/dcc/sv__cmd_8qh.html">sv_cmd.qh</a></div></div>
 <div class="ttc" id="command_8qh_html"><div class="ttname"><a href="../../d9/d71/command_8qh.html">command.qh</a></div></div>
+<div class="ttc" id="server_2command_2vote_8qh_html"><div class="ttname"><a href="../../d7/d16/server_2command_2vote_8qh.html">vote.qh</a></div></div>
 <div class="ttc" id="server_2command_2common_8qh_html"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html">common.qh</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00014">iter.qh:14</a></div></div>
 <div class="ttc" id="bits_8qh_html_a5967693540f086cfa357f68978bf0be7"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a5967693540f086cfa357f68978bf0be7">BITS</a></div><div class="ttdeci">#define BITS(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00006">bits.qh:6</a></div></div>
@@ -157,7 +154,7 @@ $(document).ready(function(){initNavTree('d6/d80/server_2command_2all_8qh_source
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d6/d80/server_2command_2all_8qh.html">all.qh</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 04:07:49 for Xonotic by
+    <li class="footer">Generated on Mon Mar 14 2016 07:47:03 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -10,7 +10,6 @@ var server_2defs_8qh =
     [ "MISSILE_IS_GUIDED", "d5/d26/server_2defs_8qh.html#ae2d341f8a4445e7cab63b1e758864127", null ],
     [ "MISSILE_IS_TRACKING", "d5/d26/server_2defs_8qh.html#a098380b4b7c7eb9714a8eee767f42b78", null ],
     [ "PROJECTILE_MAKETRIGGER", "d5/d26/server_2defs_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628", null ],
-    [ "SERVER_DEFS_H", "d5/d26/server_2defs_8qh.html#a71152bd2ea1dd0a622c3f0ca0f03b8ff", null ],
     [ "weapons", "d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9", null ],
     [ "weaponsinmap", "d5/d26/server_2defs_8qh.html#a5cdb60ed0640e84bb5e43a18e65900b6", null ],
     [ "checkSpectatorBlock", "d5/d26/server_2defs_8qh.html#a9fa66539fb1075516176da08b207ad4d", null ],

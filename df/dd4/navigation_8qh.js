@@ -1,6 +1,5 @@
 var navigation_8qh =
 [
-    [ "NAVIGATION_H", "df/dd4/navigation_8qh.html#acb851fa3f154bc570deb5a530543e64a", null ],
     [ "botframe_updatedangerousobjects", "df/dd4/navigation_8qh.html#ae3a851859c6cdf22d73f55bd7c81e419", null ],
     [ "debuggoalstack", "df/dd4/navigation_8qh.html#a1ebf390ac40126d83cd03a6dc2a440c3", null ],
     [ "debugnode", "df/dd4/navigation_8qh.html#a0bf45026ff87072e0ec40f460996157e", null ],

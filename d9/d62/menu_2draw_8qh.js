@@ -3,7 +3,6 @@ var menu_2draw_8qh =
     [ "draw_beginBoldFont", "d9/d62/menu_2draw_8qh.html#a7f890d7494e947f551852879f6df17f6", null ],
     [ "draw_endBoldFont", "d9/d62/menu_2draw_8qh.html#ac2144fdd7c0ebd4bbcaaa8aaddd45561", null ],
     [ "draw_fontscale", "d9/d62/menu_2draw_8qh.html#ae2280b395846b9ad2463e931ed718be4", null ],
-    [ "DRAW_H", "d9/d62/menu_2draw_8qh.html#a28b2f9007e54f2a940e1518c896e48e8", null ],
     [ "boxToGlobal", "d9/d62/menu_2draw_8qh.html#a453c1305f36130ac71a44415feae70a1", null ],
     [ "boxToGlobalSize", "d9/d62/menu_2draw_8qh.html#a20a66f747ac869698db7c591064a606b", null ],
     [ "draw_BorderPicture", "d9/d62/menu_2draw_8qh.html#ae64aac37d55a26279dca938d8ca2e76e", null ],

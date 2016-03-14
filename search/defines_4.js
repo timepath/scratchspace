@@ -99,7 +99,6 @@ var searchData=
   ['draw_5fbeginboldfont',['draw_beginBoldFont',['../d8/db6/client_2miscfunctions_8qh.html#a7f890d7494e947f551852879f6df17f6',1,'draw_beginBoldFont():&#160;miscfunctions.qh'],['../d9/d62/menu_2draw_8qh.html#a7f890d7494e947f551852879f6df17f6',1,'draw_beginBoldFont():&#160;draw.qh']]],
   ['draw_5fendboldfont',['draw_endBoldFont',['../d8/db6/client_2miscfunctions_8qh.html#ac2144fdd7c0ebd4bbcaaa8aaddd45561',1,'draw_endBoldFont():&#160;miscfunctions.qh'],['../d9/d62/menu_2draw_8qh.html#ac2144fdd7c0ebd4bbcaaa8aaddd45561',1,'draw_endBoldFont():&#160;draw.qh']]],
   ['draw_5ffontscale',['draw_fontscale',['../d9/d62/menu_2draw_8qh.html#ae2280b395846b9ad2463e931ed718be4',1,'draw.qh']]],
-  ['draw_5fh',['DRAW_H',['../d9/d62/menu_2draw_8qh.html#a28b2f9007e54f2a940e1518c896e48e8',1,'draw.qh']]],
   ['drawinfomessage',['drawInfoMessage',['../df/d21/infomessages_8qc.html#a8273c847de74f796939acc0aeb6d2f3d',1,'infomessages.qc']]],
   ['drawpic_5faspect',['drawpic_aspect',['../d8/db6/client_2miscfunctions_8qh.html#a96e5cc3afdf03c23d8928b97017296f9',1,'miscfunctions.qh']]],
   ['drawpic_5faspect_5fskin',['drawpic_aspect_skin',['../d8/db6/client_2miscfunctions_8qh.html#a5f87d96201a18d416dd0271dccb8ef0f',1,'miscfunctions.qh']]],

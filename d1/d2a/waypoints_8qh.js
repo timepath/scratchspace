@@ -1,6 +1,5 @@
 var waypoints_8qh =
 [
-    [ "WAYPOINTS_H", "d1/d2a/waypoints_8qh.html#a7812a54dc719a243989d62bb027fdebb", null ],
     [ "botframe_autowaypoints", "d1/d2a/waypoints_8qh.html#aeffebe843059e44cb1df1bf5b6b7403c", null ],
     [ "botframe_showwaypointlinks", "d1/d2a/waypoints_8qh.html#adc1610e5d4a39012b64c05f12d9ccd82", null ],
     [ "spawnfunc", "d1/d2a/waypoints_8qh.html#ac764e32c571128b0b58a9a10cb3ef9d1", null ],

@@ -343,7 +343,7 @@ var searchData=
   ['superweapons_5ffinished',['superweapons_finished',['../d5/d26/server_2defs_8qh.html#a8689f2bf666f3c481d8a00a3253cd6df',1,'defs.qh']]],
   ['sv_5fautotaunt',['sv_autotaunt',['../dc/d73/server_2miscfunctions_8qh.html#a1203527db9e7396b56e86233d13e12e8',1,'miscfunctions.qh']]],
   ['sv_5fclones',['sv_clones',['../d5/d26/server_2defs_8qh.html#aa67674d07a79fc8a0d5f198664a2e69d',1,'defs.qh']]],
-  ['sv_5fentnum',['sv_entnum',['../d9/d08/client_2defs_8qh.html#a8036e7ff202b8dfa10a7e15e849bebe7',1,'sv_entnum():&#160;defs.qh'],['../da/dc6/debug_8qh.html#a8036e7ff202b8dfa10a7e15e849bebe7',1,'sv_entnum():&#160;debug.qh']]],
+  ['sv_5fentnum',['sv_entnum',['../d9/d08/client_2defs_8qh.html#a8036e7ff202b8dfa10a7e15e849bebe7',1,'sv_entnum():&#160;defs.qh'],['../da/df5/common_2debug_8qh.html#a8036e7ff202b8dfa10a7e15e849bebe7',1,'sv_entnum():&#160;debug.qh']]],
   ['sv_5ffoginterval',['sv_foginterval',['../d5/d26/server_2defs_8qh.html#add7081edbedfbaa312bac65f498b505d',1,'defs.qh']]],
   ['sv_5fmaxidle',['sv_maxidle',['../d5/d26/server_2defs_8qh.html#a4e22b61752e463874c9d52899496ce54',1,'defs.qh']]],
   ['sv_5fmaxidle_5fspectatorsareidle',['sv_maxidle_spectatorsareidle',['../d5/d26/server_2defs_8qh.html#a9e03aaab2a1cfc05664c6a5db7bbb4cd',1,'defs.qh']]],

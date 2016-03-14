@@ -1,6 +1,5 @@
 var hud__config_8qh =
 [
-    [ "CLIENT_HUD_CONFIG_H", "dd/dcd/hud__config_8qh.html#ad734ac43c6d9cf42386529ea425d2666", null ],
     [ "HUD_Configure_Frame", "dd/dcd/hud__config_8qh.html#aff11757a3172f4f26585a7edc21785f0", null ],
     [ "HUD_Configure_PostDraw", "dd/dcd/hud__config_8qh.html#a997bcd4a77add62b1ec1ed127a5bd1bb", null ],
     [ "HUD_Panel_ExportCfg", "dd/dcd/hud__config_8qh.html#a22efbfe26e334ef2923e0ee491323829", null ],

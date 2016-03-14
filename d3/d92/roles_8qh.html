@@ -101,7 +101,6 @@ $(document).ready(function(){initNavTree('d3/d92/roles_8qh.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">roles.qh File Reference</div>  </div>
@@ -118,31 +117,11 @@ $(document).ready(function(){initNavTree('d3/d92/roles_8qh.html','../../');});
 </div>
 <p><a href="../../d3/d92/roles_8qh_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a17b32d6b60445f65ecc2ec2d2e0038c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/roles_8qh.html#a17b32d6b60445f65ecc2ec2d2e0038c4">ROLES_H</a></td></tr>
-<tr class="separator:a17b32d6b60445f65ecc2ec2d2e0038c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:abc4b58297d8d6b6d307ee6d3e83ae0a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d92/roles_8qh.html#abc4b58297d8d6b6d307ee6d3e83ae0a4">havocbot_goalrating_controlpoints</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> ratingscale, <a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> org, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> sradius)</td></tr>
 <tr class="separator:abc4b58297d8d6b6d307ee6d3e83ae0a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a class="anchor" id="a17b32d6b60445f65ecc2ec2d2e0038c4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ROLES_H</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d3/d92/roles_8qh_source.html#l00002">2</a> of file <a class="el" href="../../d3/d92/roles_8qh_source.html">roles.qh</a>.</p>
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="abc4b58297d8d6b6d307ee6d3e83ae0a4"></a>
 <div class="memitem">
@@ -174,26 +153,26 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/deb/roles_8qc_source.html#l00132">132</a> of file <a class="el" href="../../db/deb/roles_8qc_source.html">roles.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/deb/roles_8qc_source.html#l00133">133</a> of file <a class="el" href="../../db/deb/roles_8qc_source.html">roles.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00675">navigation_routerating()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> head;</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    head = findchain(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;dom_controlpoint&quot;</span>);</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">while</span> (head)</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    {</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(( ( head.absmin + head.absmax ) * 0.5 ) - org) &lt; sradius)</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        {</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            <span class="keywordflow">if</span>(head.cnt &gt; -1) <span class="comment">// this is just being fought for</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;                <a class="code" href="../../d1/d9a/navigation_8qc.html#a83f7ae2bad5d776cdf07b490eb5e2b5c">navigation_routerating</a>(head, ratingscale, 5000);</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(head.goalentity.cnt == 0) <span class="comment">// unclaimed point</span></div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;                <a class="code" href="../../d1/d9a/navigation_8qc.html#a83f7ae2bad5d776cdf07b490eb5e2b5c">navigation_routerating</a>(head, ratingscale * 0.5, 5000);</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(head.goalentity.team != <span class="keyword">self</span>.team) <span class="comment">// other team&#39;s point</span></div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                <a class="code" href="../../d1/d9a/navigation_8qc.html#a83f7ae2bad5d776cdf07b490eb5e2b5c">navigation_routerating</a>(head, ratingscale * 0.2, 5000);</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        }</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        head = head.chain;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    }</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> head;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    head = findchain(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;dom_controlpoint&quot;</span>);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordflow">while</span> (head)</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    {</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(( ( head.absmin + head.absmax ) * 0.5 ) - org) &lt; sradius)</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        {</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            <span class="keywordflow">if</span>(head.cnt &gt; -1) <span class="comment">// this is just being fought for</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                <a class="code" href="../../d1/d9a/navigation_8qc.html#a83f7ae2bad5d776cdf07b490eb5e2b5c">navigation_routerating</a>(head, ratingscale, 5000);</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(head.goalentity.cnt == 0) <span class="comment">// unclaimed point</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                <a class="code" href="../../d1/d9a/navigation_8qc.html#a83f7ae2bad5d776cdf07b490eb5e2b5c">navigation_routerating</a>(head, ratingscale * 0.5, 5000);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(head.goalentity.team != <span class="keyword">self</span>.team) <span class="comment">// other team&#39;s point</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;                <a class="code" href="../../d1/d9a/navigation_8qc.html#a83f7ae2bad5d776cdf07b490eb5e2b5c">navigation_routerating</a>(head, ratingscale * 0.2, 5000);</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        }</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        head = head.chain;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;}</div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
@@ -218,7 +197,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_2237e285bffd6ead6b5088a82ff285a6.html">havocbot</a></li><li class="navelem"><a class="el" href="../../d3/d92/roles_8qh.html">roles.qh</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 04:07:58 for Xonotic by
+    <li class="footer">Generated on Mon Mar 14 2016 07:47:14 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

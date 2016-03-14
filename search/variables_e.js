@@ -6,7 +6,7 @@ var searchData=
   ['nade_5fprevframe',['nade_prevframe',['../dd/d85/client_2hud_2panel_2ammo_8qc.html#ade71175b9d1374101b78cb429e47d4cd',1,'ammo.qc']]],
   ['nade_5fprevstatus',['nade_prevstatus',['../dd/d85/client_2hud_2panel_2ammo_8qc.html#a338c4610b6b164c2ef92c3f576705822',1,'ammo.qc']]],
   ['nade_5fstatuschange_5ftime',['nade_statuschange_time',['../dd/d85/client_2hud_2panel_2ammo_8qc.html#aedeb646ca9dd01e2d6493da3000f9620',1,'ammo.qc']]],
-  ['nagger',['nagger',['../d8/d08/vote_8qh.html#a563ec6544164649c6a41190259018c1f',1,'vote.qh']]],
+  ['nagger',['nagger',['../d7/d16/server_2command_2vote_8qh.html#a563ec6544164649c6a41190259018c1f',1,'vote.qh']]],
   ['name',['name',['../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc',1,'name():&#160;menu.qh'],['../de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc',1,'name():&#160;dialog_settings_game.qc']]],
   ['namewidth',['NAMEWIDTH',['../d2/d79/scores_8qc.html#a0004abe8969a62fd1a723b21c6ddcdb9',1,'scores.qc']]],
   ['navigation_5fbestgoal',['navigation_bestgoal',['../df/dd4/navigation_8qh.html#a86427b9b2e49b63f8b3995cbfd52297c',1,'navigation.qh']]],

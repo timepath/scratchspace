@@ -104,47 +104,49 @@ $(document).ready(function(){initNavTree('db/d91/t__quake_8qc_source.html','../.
 <div class="title">t_quake.qc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../db/d91/t__quake_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;../common/weapons/all.qh&quot;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(weapon_electro);</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(weapon_hagar);</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(weapon_machinegun);</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_bullets);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_armor_large);</div>
+<a href="../../db/d91/t__quake_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d05/t__quake_8qh.html">t_quake.qh</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;../common/weapons/all.qh&quot;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(weapon_electro);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(weapon_hagar);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(weapon_machinegun);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_bullets);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_armor_large);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_health_mega);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_health_medium);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//***********************</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">//QUAKE 1 ENTITIES - So people can play quake1 maps with the xonotic weapons</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">//***********************</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a4e0ab3a310312732c19f5bbe224951d8">   16</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(weapon_nailgun) {spawnfunc_weapon_electro(<span class="keyword">this</span>);}</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a16568fe161d77fbcc3a4c5743c760f1f">   17</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(weapon_supernailgun) {spawnfunc_weapon_hagar(<span class="keyword">this</span>);}</div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a90fc672b8329f0eca9203c2f14337522">   18</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(weapon_supershotgun) {spawnfunc_weapon_machinegun(<span class="keyword">this</span>);}</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a7c9608634654f194a20b459405686a23">   20</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_spikes) {spawnfunc_item_bullets(<span class="keyword">this</span>);}</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="comment">//spawnfunc(item_armor1) {spawnfunc_item_armor_medium(this);}  // FIXME: in Quake this is green armor, in Xonotic maps it is an armor shard</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a7836790b7faa803f48bb975a4bab2f63">   22</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_armor2) {spawnfunc_item_armor_large(<span class="keyword">this</span>);}</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#ac34a30ad13d14200916e28269a7f3dd9">   23</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d91/t__quake_8qc.html#ac34a30ad13d14200916e28269a7f3dd9">item_armorInv</a>() {<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();spawnfunc_item_armor_large(<span class="keyword">self</span>);}</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a7d5ca5d096f63faeaaa5b974fd608b36">   24</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_health) {<span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 2) spawnfunc_item_health_mega(<span class="keyword">this</span>);<span class="keywordflow">else</span> spawnfunc_item_health_medium(<span class="keyword">this</span>);}</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">//spawnfunc_item_spikes</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">//spawnfunc_item_health</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_armor_large);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_health_mega);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_health_medium);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">//***********************</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">//QUAKE 1 ENTITIES - So people can play quake1 maps with the xonotic weapons</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">//***********************</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a4e0ab3a310312732c19f5bbe224951d8">   17</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(weapon_nailgun) {spawnfunc_weapon_electro(<span class="keyword">this</span>);}</div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a16568fe161d77fbcc3a4c5743c760f1f">   18</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(weapon_supernailgun) {spawnfunc_weapon_hagar(<span class="keyword">this</span>);}</div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a90fc672b8329f0eca9203c2f14337522">   19</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(weapon_supershotgun) {spawnfunc_weapon_machinegun(<span class="keyword">this</span>);}</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a7c9608634654f194a20b459405686a23">   21</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_spikes) {spawnfunc_item_bullets(<span class="keyword">this</span>);}</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">//spawnfunc(item_armor1) {spawnfunc_item_armor_medium(this);}  // FIXME: in Quake this is green armor, in Xonotic maps it is an armor shard</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a7836790b7faa803f48bb975a4bab2f63">   23</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_armor2) {spawnfunc_item_armor_large(<span class="keyword">this</span>);}</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#ac34a30ad13d14200916e28269a7f3dd9">   24</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d91/t__quake_8qc.html#ac34a30ad13d14200916e28269a7f3dd9">item_armorInv</a>() {<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();spawnfunc_item_armor_large(<span class="keyword">self</span>);}</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a7d5ca5d096f63faeaaa5b974fd608b36">   25</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_health) {<span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 2) spawnfunc_item_health_mega(<span class="keyword">this</span>);<span class="keywordflow">else</span> spawnfunc_item_health_medium(<span class="keyword">this</span>);}</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">//spawnfunc_item_spikes</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="comment">//spawnfunc_item_health</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
+<div class="ttc" id="t__quake_8qh_html"><div class="ttname"><a href="../../df/d05/t__quake_8qh.html">t_quake.qh</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_ad290212f87c2157a878ffc0947b60251"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a></div><div class="ttdeci">float spawnflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00191">progsdefs.qc:191</a></div></div>
 <div class="ttc" id="t__quake_8qc_html_a412a74ac84bc203944d5e566d8f49737"><div class="ttname"><a href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a></div><div class="ttdeci">spawnfunc(weapon_electro)</div></div>
-<div class="ttc" id="t__quake_8qc_html_ac34a30ad13d14200916e28269a7f3dd9"><div class="ttname"><a href="../../db/d91/t__quake_8qc.html#ac34a30ad13d14200916e28269a7f3dd9">item_armorInv</a></div><div class="ttdeci">void item_armorInv()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d91/t__quake_8qc_source.html#l00023">t_quake.qc:23</a></div></div>
+<div class="ttc" id="t__quake_8qc_html_ac34a30ad13d14200916e28269a7f3dd9"><div class="ttname"><a href="../../db/d91/t__quake_8qc.html#ac34a30ad13d14200916e28269a7f3dd9">item_armorInv</a></div><div class="ttdeci">void item_armorInv()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d91/t__quake_8qc_source.html#l00024">t_quake.qc:24</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/d91/t__quake_8qc.html">t_quake.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 04:07:52 for Xonotic by
+    <li class="footer">Generated on Mon Mar 14 2016 07:47:07 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

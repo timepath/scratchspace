@@ -1,6 +1,5 @@
 var hud_8qh =
 [
-    [ "CLIENT_HUD_H", "d3/d05/hud_8qh.html#a42cf08bbebe54ea73f427f6a5ce1a6f9", null ],
     [ "HUD_PANEL", "d3/d05/hud_8qh.html#a2bf8c8746e287dd49aa6097880e189ee", null ],
     [ "HUD_Panel_DrawBg", "d3/d05/hud_8qh.html#a4859e1cdd196ed8795676c79efe4bdfe", null ],
     [ "HUD_Panel_GetBg", "d3/d05/hud_8qh.html#a4d84882b2992c05c1009efe82b56c4da", null ],

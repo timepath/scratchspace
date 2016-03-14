@@ -27,7 +27,7 @@ var dir_bdd9a5d540de89e9fe90efdfc6973a4f =
     [ "campaign_setup.qc", "db/d73/campaign__setup_8qc.html", "db/d73/campaign__setup_8qc" ],
     [ "constants.qh", "d0/d8b/common_2constants_8qh.html", "d0/d8b/common_2constants_8qh" ],
     [ "csqcmodel_settings.qh", "d1/d20/csqcmodel__settings_8qh.html", "d1/d20/csqcmodel__settings_8qh" ],
-    [ "debug.qh", "da/dc6/debug_8qh.html", "da/dc6/debug_8qh" ],
+    [ "debug.qh", "da/df5/common_2debug_8qh.html", "da/df5/common_2debug_8qh" ],
     [ "ent_cs.qc", "d5/dff/ent__cs_8qc.html", "d5/dff/ent__cs_8qc" ],
     [ "ent_cs.qh", "db/d18/ent__cs_8qh.html", "db/d18/ent__cs_8qh" ],
     [ "mapinfo.qc", "d3/d46/mapinfo_8qc.html", "d3/d46/mapinfo_8qc" ],

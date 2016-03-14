@@ -14,9 +14,12 @@ var searchData=
   ['nexball_2eqh',['nexball.qh',['../de/d26/nexball_8qh.html',1,'']]],
   ['nexposee_2eqc',['nexposee.qc',['../d3/ddf/item_2nexposee_8qc.html',1,'']]],
   ['nexposee_2eqc',['nexposee.qc',['../d8/da8/xonotic_2nexposee_8qc.html',1,'']]],
+  ['nexposee_2eqh',['nexposee.qh',['../da/d46/xonotic_2nexposee_8qh.html',1,'']]],
+  ['nexposee_2eqh',['nexposee.qh',['../dd/d77/item_2nexposee_8qh.html',1,'']]],
   ['nil_2eqh',['nil.qh',['../d1/df7/nil_8qh.html',1,'']]],
   ['nix_2eqc',['nix.qc',['../d8/dc5/nix_8qc.html',1,'']]],
   ['nmm_2eqc',['nmm.qc',['../db/d8b/nmm_8qc.html',1,'']]],
   ['noise_2eqh',['noise.qh',['../dd/dc6/noise_8qh.html',1,'']]],
-  ['notify_2eqc',['notify.qc',['../d4/d48/notify_8qc.html',1,'']]]
+  ['notify_2eqc',['notify.qc',['../d4/d48/notify_8qc.html',1,'']]],
+  ['notify_2eqh',['notify.qh',['../d7/d2a/notify_8qh.html',1,'']]]
 ];

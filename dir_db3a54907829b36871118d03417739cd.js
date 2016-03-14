@@ -4,7 +4,7 @@ var dir_db3a54907829b36871118d03417739cd =
     [ "hud", "dir_ed4f60597e07802ebc30a81f2c583d1a.html", "dir_ed4f60597e07802ebc30a81f2c583d1a" ],
     [ "mutators", "dir_08b4cf75afed9a7734ab4c2d9f3e6fae.html", "dir_08b4cf75afed9a7734ab4c2d9f3e6fae" ],
     [ "weapons", "dir_495694096385bdd0c8e29295426af588.html", "dir_495694096385bdd0c8e29295426af588" ],
-    [ "_all.qh", "d5/d4d/client_2__all_8qh.html", "d5/d4d/client_2__all_8qh" ],
+    [ "_all.qh", "d5/d4d/client_2__all_8qh.html", null ],
     [ "announcer.qc", "da/df4/announcer_8qc.html", "da/df4/announcer_8qc" ],
     [ "announcer.qh", "df/d71/announcer_8qh.html", "df/d71/announcer_8qh" ],
     [ "autocvars.qh", "d7/db4/client_2autocvars_8qh.html", "d7/db4/client_2autocvars_8qh" ],
@@ -12,6 +12,7 @@ var dir_db3a54907829b36871118d03417739cd =
     [ "bgmscript.qh", "d3/d9d/bgmscript_8qh.html", "d3/d9d/bgmscript_8qh" ],
     [ "csqc_constants.qh", "d4/d92/csqc__constants_8qh.html", "d4/d92/csqc__constants_8qh" ],
     [ "csqcmodel_hooks.qc", "dc/d3d/csqcmodel__hooks_8qc.html", "dc/d3d/csqcmodel__hooks_8qc" ],
+    [ "csqcmodel_hooks.qh", "d3/dfc/csqcmodel__hooks_8qh.html", null ],
     [ "defs.qh", "d9/d08/client_2defs_8qh.html", "d9/d08/client_2defs_8qh" ],
     [ "main.qc", "df/d30/client_2main_8qc.html", "df/d30/client_2main_8qc" ],
     [ "main.qh", "d0/d2a/client_2main_8qh.html", "d0/d2a/client_2main_8qh" ],
@@ -31,6 +32,7 @@ var dir_db3a54907829b36871118d03417739cd =
     [ "teamradar.qc", "de/dc3/teamradar_8qc.html", "de/dc3/teamradar_8qc" ],
     [ "teamradar.qh", "d0/d84/teamradar_8qh.html", "d0/d84/teamradar_8qh" ],
     [ "view.qc", "d6/dd3/view_8qc.html", "d6/dd3/view_8qc" ],
+    [ "view.qh", "d5/d8c/view_8qh.html", null ],
     [ "wall.qc", "d1/d8d/wall_8qc.html", "d1/d8d/wall_8qc" ],
     [ "wall.qh", "d4/db7/wall_8qh.html", "d4/db7/wall_8qh" ]
 ];

@@ -1,6 +1,5 @@
 var cheats_8qh =
 [
-    [ "CHEATS_H", "d3/dca/cheats_8qh.html#a68d80c56e90bbd71b222670a72143eb5", null ],
     [ "CheatCommand", "d3/dca/cheats_8qh.html#ac53fffd966f05ef378732308046c04ee", null ],
     [ "CheatFrame", "d3/dca/cheats_8qh.html#a1bbaa847b251c4569c98328d90db330c", null ],
     [ "CheatImpulse", "d3/dca/cheats_8qh.html#aacea9518ce703b1172d78adb96a08f55", null ],

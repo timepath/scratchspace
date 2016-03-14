@@ -1,6 +1,5 @@
 var skin_8qh =
 [
-    [ "SKIN_H", "d4/dcc/skin_8qh.html#aaa515e171a4127b9b264f4c61bc2cfac", null ],
     [ "SKINBEGIN", "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77", null ],
     [ "SKINBEGIN", "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77", null ],
     [ "SKINEND", "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c", null ],

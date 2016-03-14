@@ -1,6 +1,5 @@
 var client_2miscfunctions_8qh =
 [
-    [ "CLIENT_MISCFUNCTIONS_H", "d8/db6/client_2miscfunctions_8qh.html#adc0fa058885a4dd6579fe234015581a9", null ],
     [ "draw_beginBoldFont", "d8/db6/client_2miscfunctions_8qh.html#a7f890d7494e947f551852879f6df17f6", null ],
     [ "draw_endBoldFont", "d8/db6/client_2miscfunctions_8qh.html#ac2144fdd7c0ebd4bbcaaa8aaddd45561", null ],
     [ "drawpic_aspect", "d8/db6/client_2miscfunctions_8qh.html#a96e5cc3afdf03c23d8928b97017296f9", null ],

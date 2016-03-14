@@ -2,7 +2,6 @@ var pathlib_8qh =
 [
     [ "inwater", "dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3", null ],
     [ "medium", "dd/d70/pathlib_8qh.html#af4bbdb99e9c2d65a85e2ac7da1b9ff0a", null ],
-    [ "PATHLIB_H", "dd/d70/pathlib_8qh.html#acdc1187ea731810ff83c1df9b431a2a3", null ],
     [ "buildpath_nodefilter", "dd/d70/pathlib_8qh.html#aa96406bb9db6a09e54828c46b76cacd2", null ],
     [ "pathlib_cost", "dd/d70/pathlib_8qh.html#a3abe1da285638119249062cdf82135c8", null ],
     [ "pathlib_expandnode", "dd/d70/pathlib_8qh.html#a8e8d72a5a60b9e68455411115b4942fe", null ],

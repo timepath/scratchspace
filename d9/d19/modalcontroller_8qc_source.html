@@ -104,310 +104,312 @@ $(document).ready(function(){initNavTree('d9/d19/modalcontroller_8qc_source.html
 <div class="title">modalcontroller.qc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d9/d19/modalcontroller_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef ITEM_MODALCONTROLLER_H</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="../../d9/d19/modalcontroller_8qc.html#a18e25fe5c54ace1b8f181b5d54fef4aa">    2</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define ITEM_MODALCONTROLLER_H</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #include &quot;<a class="code" href="../../dc/d3d/container_8qc.html">container.qc</a>&quot;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a>(ModalController, Container)</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, resizeNotify, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, vector, vector, vector));</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, draw, <span class="keywordtype">void</span>(entity));</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, showChild, <span class="keywordtype">void</span>(entity, entity, vector, vector, <span class="keywordtype">float</span>));</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, hideChild, <span class="keywordtype">void</span>(entity, entity, <span class="keywordtype">float</span>));</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, hideAll, <span class="keywordtype">void</span>(entity, <span class="keywordtype">float</span>));</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, addItem, <span class="keywordtype">void</span>(entity, entity, vector, vector, <span class="keywordtype">float</span>));</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, addTab, <span class="keywordtype">void</span>(entity, entity, entity));</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, initializeDialog, <span class="keywordtype">void</span>(entity, entity));</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, switchState, <span class="keywordtype">void</span>(entity, entity, <span class="keywordtype">float</span>, <span class="keywordtype">float</span>));</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(ModalController, <a class="code" href="../../d9/d19/modalcontroller_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>, vector, &#39;0 0 0&#39;)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(ModalController, <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a9771e20b5e6deab7a8bf4ba7e0c1ddc8">size</a>, vector, &#39;0 0 0&#39;)</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(ModalController, previousButton, entity, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(ModalController, fadedAlpha, <span class="keywordtype">float</span>, 0.3)</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a>(ModalController)</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d9/d19/modalcontroller_8qc.html#a1563097e21926b000ffb89ebf5307bd7">   22</a></span>&#160;    .entity <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a1563097e21926b000ffb89ebf5307bd7">tabSelectingButton</a>;</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d9/d19/modalcontroller_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">   23</a></span>&#160;    .vector origin;</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../d9/d19/modalcontroller_8qc.html#a9771e20b5e6deab7a8bf4ba7e0c1ddc8">   24</a></span>&#160;    .vector size;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a65aa79c5d1f911cb813af4a2c576ce76">TabButton_Click</a>(entity button, entity tab);         <span class="comment">// assumes a button has set the above fields to its own absolute origin, its size, and the tab to activate</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#aae3eecb385b2cae3ed04cc5e073ef327">DialogOpenButton_Click</a>(entity button, entity tab);  <span class="comment">// assumes a button has set the above fields to its own absolute origin, its size, and the tab to activate</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab299c36738ab44965d57a68db9ac255e">DialogOpenButton_Click_withCoords</a>(entity button, entity tab, vector theOrigin, vector theSize);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a60f2d4ad42f0bfe8bca80aff8ff31ce6">DialogCloseButton_Click</a>(entity button, entity tab); <span class="comment">// assumes a button has set the above fields to the tab to close</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#ifdef IMPLEMENTATION</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="comment">// modal dialog controller</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">// handles a stack of dialog elements</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">// each element can have one of the following states:</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">//   0: hidden (fading out)</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">//   1: visible (zooming in)</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">//   2: greyed out (inactive)</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">// While an animation is running, no item has focus. When an animation is done,</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">// the topmost item gets focus.</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// The items are assumed to be added in overlapping order, that is, the lowest</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">// window must get added first.</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">// Possible uses:</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">// - to control a modal dialog:</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">//   - show modal dialog: me.showChild(me, childItem, buttonAbsOrigin, buttonAbsSize, 0) // childItem also gets focus</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">//   - dismiss modal dialog: me.hideChild(me, childItem, 0) // childItem fades out and relinquishes focus</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">//   - show first screen in m_show: me.hideAll(me, 1); me.showChild(me, me.firstChild, &#39;0 0 0&#39;, &#39;0 0 0&#39;, 1);</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">// - to show a temporary dialog instead of the menu (teamselect): me.hideAll(me, 1); me.showChild(me, teamSelectDialog, &#39;0 0 0&#39;, &#39;0 0 0&#39;, 1);</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">// - as a tabbed dialog control:</span></div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">//   - to initialize: me.hideAll(me, 1); me.showChild(me, me.firstChild, &#39;0 0 0&#39;, &#39;0 0 0&#39;, 1);</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">//   - to show a tab: me.hideChild(me, currentTab, 0); me.showChild(me, newTab, buttonAbsOrigin, buttonAbsSize, 0);</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    .vector ModalController_initialSize;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    .vector ModalController_initialOrigin;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    .vector ModalController_initialFontScale;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    .float ModalController_initialAlpha;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    .vector ModalController_buttonSize;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    .vector ModalController_buttonOrigin;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    .float ModalController_state;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    .float ModalController_factor;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    .entity ModalController_controllingButton;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordtype">void</span> ModalController_initializeDialog(entity me, entity root)</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        me.hideAll(me, 1);</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        me.showChild(me, root, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;0 0 0&#39;</span>, 1);  <span class="comment">// someone else animates for us</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a65aa79c5d1f911cb813af4a2c576ce76">TabButton_Click</a>(entity button, entity tab)</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">if</span> (tab.ModalController_state == 1) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        tab.parent.hideAll(tab.parent, 0);</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        button.forcePressed = 1;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        tab.ModalController_controllingButton = button;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        tab.parent.showChild(tab.parent, tab, button.origin, button.size, 0);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#aae3eecb385b2cae3ed04cc5e073ef327">DialogOpenButton_Click</a>(entity button, entity tab)</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab299c36738ab44965d57a68db9ac255e">DialogOpenButton_Click_withCoords</a>(button, tab, button.origin, button.size);</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab299c36738ab44965d57a68db9ac255e">DialogOpenButton_Click_withCoords</a>(entity button, entity tab, vector theOrigin, vector theSize)</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">if</span> (tab.ModalController_state) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">if</span> (button) button.forcePressed = 1;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">if</span> (tab.parent.focusedChild) tab.parent.focusedChild.saveFocus(tab.parent.focusedChild);</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        tab.ModalController_controllingButton = button;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        tab.parent.showChild(tab.parent, tab, theOrigin, theSize, 0);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    }</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a60f2d4ad42f0bfe8bca80aff8ff31ce6">DialogCloseButton_Click</a>(entity button, entity tab)</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    {</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        tab.parent.hideChild(tab.parent, tab, 0);</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">void</span> ModalController_resizeNotify(entity me, vector relOrigin, vector relSize, vector absOrigin, vector absSize)</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    {</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        me.resizeNotifyLie(me, relOrigin, relSize, absOrigin, absSize, ModalController_initialOrigin, ModalController_initialSize, ModalController_initialFontScale);</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordtype">void</span> ModalController_switchState(entity me, entity <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>, <span class="keywordtype">float</span> <a class="code" href="../../db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729">state</a>, <span class="keywordtype">float</span> skipAnimation)</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keywordtype">float</span> previousState;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        previousState = other.ModalController_state;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">if</span> (state == previousState &amp;&amp; !skipAnimation) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        other.ModalController_state = <a class="code" href="../../db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729">state</a>;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <span class="keywordflow">switch</span> (state)</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        {</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            <span class="keywordflow">case</span> 0:</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;                other.ModalController_factor = 1 - other.Container_alpha / other.ModalController_initialAlpha;</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                <span class="comment">// fading out</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">case</span> 1:</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                other.ModalController_factor = other.Container_alpha / other.ModalController_initialAlpha;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                <span class="keywordflow">if</span> (previousState == 0 &amp;&amp; !skipAnimation)</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                    other.Container_origin = other.ModalController_buttonOrigin;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                    other.Container_size = other.ModalController_buttonSize;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                }</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                <span class="comment">// zooming in</span></div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="keywordflow">case</span> 2:</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;                other.ModalController_factor = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, (1 - other.Container_alpha / other.ModalController_initialAlpha) / me.fadedAlpha, 1);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                <span class="comment">// fading out halfway</span></div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        }</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="keywordflow">if</span> (skipAnimation) other.ModalController_factor = 1;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordtype">void</span> ModalController_draw(entity me)</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    {</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        entity e;</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        entity front;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordtype">float</span> animating;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordtype">float</span> f;  <span class="comment">// animation factor</span></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordtype">float</span> df; <span class="comment">// animation step size</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordtype">float</span> prevFactor, targetFactor;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        vector targetOrigin, targetSize;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <span class="keywordtype">float</span> targetAlpha;</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        vector fs;</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        animating = 0;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        front = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">for</span> (e = me.firstChild; e; e = e.nextSibling)</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            <span class="keywordflow">if</span> (e.ModalController_state)</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            {</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;                <span class="keywordflow">if</span> (front) me.switchState(me, front, 2, 0);</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                front = e;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            }</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <span class="keywordflow">if</span> (front) me.switchState(me, front, 1, 0);</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        df = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * 3;  <span class="comment">// animation speed</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordflow">for</span> (e = me.firstChild; e; e = e.nextSibling)</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        {</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;            <span class="keywordflow">if</span> (e.ModalController_state == 2)</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            {</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;                <span class="comment">// fading out partially</span></div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                targetOrigin = e.Container_origin; <span class="comment">// stay as is</span></div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                targetSize = e.Container_size;     <span class="comment">// stay as is</span></div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                targetAlpha = me.fadedAlpha * e.ModalController_initialAlpha;</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            }</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (e.ModalController_state == 1)</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            {</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;                <span class="comment">// zooming in</span></div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                targetOrigin = e.ModalController_initialOrigin;</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                targetSize = e.ModalController_initialSize;</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                targetAlpha = e.ModalController_initialAlpha;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            }</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            {</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;                <span class="comment">// fading out</span></div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                targetOrigin = e.Container_origin; <span class="comment">// stay as is</span></div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                targetSize = e.Container_size;     <span class="comment">// stay as is</span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                targetAlpha = 0;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            }</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            f = (e.ModalController_factor = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(1, e.ModalController_factor + df));</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            <span class="keywordflow">if</span> (f == 1)</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            {</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;                prevFactor = 0;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                targetFactor = 1;</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                e.Container_origin = targetOrigin;</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                e.Container_size = targetSize;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                me.setAlphaOf(me, e, targetAlpha);</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            }</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            {</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;                prevFactor = (1 - f) / (1 - f + df);</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                <span class="keywordflow">if</span> (!e.ModalController_state)  <span class="comment">// optimize code and avoid precision errors</span></div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                {</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                    me.setAlphaOf(me, e, e.Container_alpha  * prevFactor);</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                }</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                {</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                    animating = 1;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                    targetFactor = df / (1 - f + df);</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;                    <span class="keywordflow">if</span> (e.ModalController_state == 1)</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                    {</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                        e.Container_origin = e.Container_origin * prevFactor + targetOrigin * targetFactor;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                        e.Container_size   = e.Container_size   * prevFactor + targetSize   * targetFactor;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                    }</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                    me.setAlphaOf(me, e, e.Container_alpha  * prevFactor + targetAlpha  * targetFactor);</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                }</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            }</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            <span class="comment">// assume: o == to * f_prev + X * (1 - f_prev)</span></div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            <span class="comment">// make:   o&#39; = to * f  + X * (1 - f)</span></div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="comment">// --&gt;</span></div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <span class="comment">// X == (o - to * f_prev) / (1 - f_prev)</span></div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <span class="comment">// o&#39; = to * f + (o - to * f_prev) / (1 - f_prev) * (1 - f)</span></div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="comment">// --&gt; (maxima)</span></div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            <span class="comment">// o&#39; = (to * (f - f_prev) + o * (1 - f)) / (1 - f_prev)</span></div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            <span class="keywordflow">if</span> (e.ModalController_state == 1)</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            {</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                fs = <a class="code" href="../../d6/db1/draw_8qc.html#aae12e9efe4b2ff652987ec77bbb1e82e">globalToBoxSize</a>(e.Container_size, e.ModalController_initialSize);</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                e.Container_fontscale_x = fs.x * e.ModalController_initialFontScale.x;</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                e.Container_fontscale_y = fs.y * e.ModalController_initialFontScale.y;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            }</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        }</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">if</span> (animating || !me.focused) me.setFocus(me, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">else</span> me.setFocus(me, front);</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <a class="code" href="../../d4/d4e/datasource_8qc.html#a5e231c2d4088fbd6bc4c29add962230f">SUPER</a>(ModalController).draw(me);</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    }</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordtype">void</span> ModalController_addTab(entity me, entity other, entity tabButton)</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    {</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        me.addItem(me, other, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;1 1 1&#39;</span>, 1);</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        tabButton.onClick = <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a65aa79c5d1f911cb813af4a2c576ce76">TabButton_Click</a>;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        tabButton.onClickEntity = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        other.tabSelectingButton = tabButton;</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="keywordflow">if</span> (other == me.firstChild)</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        {</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            tabButton.forcePressed = 1;</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            other.ModalController_controllingButton = tabButton;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            me.showChild(me, other, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;0 0 0&#39;</span>, 1);</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        }</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    }</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keywordtype">void</span> ModalController_addItem(entity me, entity other, vector theOrigin, vector theSize, <span class="keywordtype">float</span> theAlpha)</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    {</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <a class="code" href="../../d4/d4e/datasource_8qc.html#a5e231c2d4088fbd6bc4c29add962230f">SUPER</a>(ModalController).addItem(me, other, theOrigin, theSize, (other == me.firstChild) ? theAlpha : 0);</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        other.ModalController_initialFontScale = other.Container_fontscale;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        other.ModalController_initialSize = other.Container_size;</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        other.ModalController_initialOrigin = other.Container_origin;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        other.ModalController_initialAlpha = theAlpha;  <span class="comment">// hope Container never modifies this</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordflow">if</span> (other.ModalController_initialFontScale == <span class="stringliteral">&#39;0 0 0&#39;</span>) other.ModalController_initialFontScale = <span class="stringliteral">&#39;1 1 0&#39;</span>;</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    }</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordtype">void</span> ModalController_showChild(entity me, entity other, vector theOrigin, vector theSize, <span class="keywordtype">float</span> skipAnimation)</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    {</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keywordflow">if</span> (other.ModalController_state == 0 || skipAnimation)</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        {</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            me.setFocus(me, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <span class="keywordflow">if</span> (!skipAnimation)</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            {</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                other.ModalController_buttonOrigin = <a class="code" href="../../d6/db1/draw_8qc.html#a0b581a0ff2b1fd85336d25a51a06e57d">globalToBox</a>(theOrigin, me.origin, me.size);</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                other.ModalController_buttonSize = <a class="code" href="../../d6/db1/draw_8qc.html#aae12e9efe4b2ff652987ec77bbb1e82e">globalToBoxSize</a>(theSize, me.size);</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            }</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            me.switchState(me, other, 1, skipAnimation);</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        }  <span class="comment">// zoom in from button (factor increases)</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    }</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordtype">void</span> ModalController_hideAll(entity me, <span class="keywordtype">float</span> skipAnimation)</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    {</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        entity e;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordflow">for</span> (e = me.firstChild; e; e = e.nextSibling)</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            me.hideChild(me, e, skipAnimation);</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    }</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <span class="keywordtype">void</span> ModalController_hideChild(entity me, entity other, <span class="keywordtype">float</span> skipAnimation)</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    {</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="keywordflow">if</span> (other.ModalController_state || skipAnimation)</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        {</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            me.setFocus(me, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            me.switchState(me, other, 0, skipAnimation);</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="keywordflow">if</span> (other.ModalController_controllingButton)</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            {</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                other.ModalController_controllingButton.forcePressed = 0;</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                other.ModalController_controllingButton = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;            }</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        }  <span class="comment">// just alpha fade out (factor increases and decreases alpha)</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    }</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">#endif</span></div>
+<a href="../../d9/d19/modalcontroller_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/de8/modalcontroller_8qh.html">modalcontroller.qh</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#ifndef ITEM_MODALCONTROLLER_H</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d9/d19/modalcontroller_8qc.html#a18e25fe5c54ace1b8f181b5d54fef4aa">    3</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define ITEM_MODALCONTROLLER_H</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #include &quot;<a class="code" href="../../dc/d3d/container_8qc.html">container.qc</a>&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a>(ModalController, Container)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, resizeNotify, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, vector, vector, vector));</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, draw, <span class="keywordtype">void</span>(entity));</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, showChild, <span class="keywordtype">void</span>(entity, entity, vector, vector, <span class="keywordtype">float</span>));</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, hideChild, <span class="keywordtype">void</span>(entity, entity, <span class="keywordtype">float</span>));</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, hideAll, <span class="keywordtype">void</span>(entity, <span class="keywordtype">float</span>));</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, addItem, <span class="keywordtype">void</span>(entity, entity, vector, vector, <span class="keywordtype">float</span>));</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, addTab, <span class="keywordtype">void</span>(entity, entity, entity));</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, initializeDialog, <span class="keywordtype">void</span>(entity, entity));</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a>(ModalController, switchState, <span class="keywordtype">void</span>(entity, entity, <span class="keywordtype">float</span>, <span class="keywordtype">float</span>));</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(ModalController, <a class="code" href="../../d9/d19/modalcontroller_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>, vector, &#39;0 0 0&#39;)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(ModalController, <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a9771e20b5e6deab7a8bf4ba7e0c1ddc8">size</a>, vector, &#39;0 0 0&#39;)</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(ModalController, previousButton, entity, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(ModalController, fadedAlpha, <span class="keywordtype">float</span>, 0.3)</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a>(ModalController)</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d9/d19/modalcontroller_8qc.html#a1563097e21926b000ffb89ebf5307bd7">   23</a></span>&#160;    .entity <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a1563097e21926b000ffb89ebf5307bd7">tabSelectingButton</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../d9/d19/modalcontroller_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">   24</a></span>&#160;    .vector origin;</div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../d9/d19/modalcontroller_8qc.html#a9771e20b5e6deab7a8bf4ba7e0c1ddc8">   25</a></span>&#160;    .vector size;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a65aa79c5d1f911cb813af4a2c576ce76">TabButton_Click</a>(entity button, entity tab);         <span class="comment">// assumes a button has set the above fields to its own absolute origin, its size, and the tab to activate</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#aae3eecb385b2cae3ed04cc5e073ef327">DialogOpenButton_Click</a>(entity button, entity tab);  <span class="comment">// assumes a button has set the above fields to its own absolute origin, its size, and the tab to activate</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab299c36738ab44965d57a68db9ac255e">DialogOpenButton_Click_withCoords</a>(entity button, entity tab, vector theOrigin, vector theSize);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a60f2d4ad42f0bfe8bca80aff8ff31ce6">DialogCloseButton_Click</a>(entity button, entity tab); <span class="comment">// assumes a button has set the above fields to the tab to close</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#ifdef IMPLEMENTATION</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">// modal dialog controller</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="comment">// handles a stack of dialog elements</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">// each element can have one of the following states:</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="comment">//   0: hidden (fading out)</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">//   1: visible (zooming in)</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="comment">//   2: greyed out (inactive)</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">// While an animation is running, no item has focus. When an animation is done,</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">// the topmost item gets focus.</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">// The items are assumed to be added in overlapping order, that is, the lowest</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">// window must get added first.</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="comment">// Possible uses:</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">// - to control a modal dialog:</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="comment">//   - show modal dialog: me.showChild(me, childItem, buttonAbsOrigin, buttonAbsSize, 0) // childItem also gets focus</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="comment">//   - dismiss modal dialog: me.hideChild(me, childItem, 0) // childItem fades out and relinquishes focus</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="comment">//   - show first screen in m_show: me.hideAll(me, 1); me.showChild(me, me.firstChild, &#39;0 0 0&#39;, &#39;0 0 0&#39;, 1);</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="comment">// - to show a temporary dialog instead of the menu (teamselect): me.hideAll(me, 1); me.showChild(me, teamSelectDialog, &#39;0 0 0&#39;, &#39;0 0 0&#39;, 1);</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="comment">// - as a tabbed dialog control:</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="comment">//   - to initialize: me.hideAll(me, 1); me.showChild(me, me.firstChild, &#39;0 0 0&#39;, &#39;0 0 0&#39;, 1);</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="comment">//   - to show a tab: me.hideChild(me, currentTab, 0); me.showChild(me, newTab, buttonAbsOrigin, buttonAbsSize, 0);</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    .vector ModalController_initialSize;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    .vector ModalController_initialOrigin;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    .vector ModalController_initialFontScale;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    .float ModalController_initialAlpha;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    .vector ModalController_buttonSize;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    .vector ModalController_buttonOrigin;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    .float ModalController_state;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    .float ModalController_factor;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    .entity ModalController_controllingButton;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordtype">void</span> ModalController_initializeDialog(entity me, entity root)</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        me.hideAll(me, 1);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        me.showChild(me, root, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;0 0 0&#39;</span>, 1);  <span class="comment">// someone else animates for us</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a65aa79c5d1f911cb813af4a2c576ce76">TabButton_Click</a>(entity button, entity tab)</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    {</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">if</span> (tab.ModalController_state == 1) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        tab.parent.hideAll(tab.parent, 0);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        button.forcePressed = 1;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        tab.ModalController_controllingButton = button;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        tab.parent.showChild(tab.parent, tab, button.origin, button.size, 0);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#aae3eecb385b2cae3ed04cc5e073ef327">DialogOpenButton_Click</a>(entity button, entity tab)</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    {</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab299c36738ab44965d57a68db9ac255e">DialogOpenButton_Click_withCoords</a>(button, tab, button.origin, button.size);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#ab299c36738ab44965d57a68db9ac255e">DialogOpenButton_Click_withCoords</a>(entity button, entity tab, vector theOrigin, vector theSize)</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">if</span> (tab.ModalController_state) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">if</span> (button) button.forcePressed = 1;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="keywordflow">if</span> (tab.parent.focusedChild) tab.parent.focusedChild.saveFocus(tab.parent.focusedChild);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        tab.ModalController_controllingButton = button;</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        tab.parent.showChild(tab.parent, tab, theOrigin, theSize, 0);</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a60f2d4ad42f0bfe8bca80aff8ff31ce6">DialogCloseButton_Click</a>(entity button, entity tab)</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        tab.parent.hideChild(tab.parent, tab, 0);</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">void</span> ModalController_resizeNotify(entity me, vector relOrigin, vector relSize, vector absOrigin, vector absSize)</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        me.resizeNotifyLie(me, relOrigin, relSize, absOrigin, absSize, ModalController_initialOrigin, ModalController_initialSize, ModalController_initialFontScale);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">void</span> ModalController_switchState(entity me, entity <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>, <span class="keywordtype">float</span> <a class="code" href="../../db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729">state</a>, <span class="keywordtype">float</span> skipAnimation)</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordtype">float</span> previousState;</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        previousState = other.ModalController_state;</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">if</span> (state == previousState &amp;&amp; !skipAnimation) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        other.ModalController_state = <a class="code" href="../../db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729">state</a>;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="keywordflow">switch</span> (state)</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        {</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            <span class="keywordflow">case</span> 0:</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                other.ModalController_factor = 1 - other.Container_alpha / other.ModalController_initialAlpha;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;                <span class="comment">// fading out</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <span class="keywordflow">case</span> 1:</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                other.ModalController_factor = other.Container_alpha / other.ModalController_initialAlpha;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                <span class="keywordflow">if</span> (previousState == 0 &amp;&amp; !skipAnimation)</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;                {</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                    other.Container_origin = other.ModalController_buttonOrigin;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                    other.Container_size = other.ModalController_buttonSize;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                }</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;                <span class="comment">// zooming in</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="keywordflow">case</span> 2:</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;                other.ModalController_factor = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, (1 - other.Container_alpha / other.ModalController_initialAlpha) / me.fadedAlpha, 1);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;                <span class="comment">// fading out halfway</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        }</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="keywordflow">if</span> (skipAnimation) other.ModalController_factor = 1;</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordtype">void</span> ModalController_draw(entity me)</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    {</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        entity e;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        entity front;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordtype">float</span> animating;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keywordtype">float</span> f;  <span class="comment">// animation factor</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keywordtype">float</span> df; <span class="comment">// animation step size</span></div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keywordtype">float</span> prevFactor, targetFactor;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        vector targetOrigin, targetSize;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        <span class="keywordtype">float</span> targetAlpha;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        vector fs;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        animating = 0;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        front = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <span class="keywordflow">for</span> (e = me.firstChild; e; e = e.nextSibling)</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;            <span class="keywordflow">if</span> (e.ModalController_state)</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            {</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;                <span class="keywordflow">if</span> (front) me.switchState(me, front, 2, 0);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;                front = e;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            }</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="keywordflow">if</span> (front) me.switchState(me, front, 1, 0);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        df = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * 3;  <span class="comment">// animation speed</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="keywordflow">for</span> (e = me.firstChild; e; e = e.nextSibling)</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        {</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;            <span class="keywordflow">if</span> (e.ModalController_state == 2)</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            {</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;                <span class="comment">// fading out partially</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;                targetOrigin = e.Container_origin; <span class="comment">// stay as is</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;                targetSize = e.Container_size;     <span class="comment">// stay as is</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;                targetAlpha = me.fadedAlpha * e.ModalController_initialAlpha;</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            }</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (e.ModalController_state == 1)</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            {</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;                <span class="comment">// zooming in</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;                targetOrigin = e.ModalController_initialOrigin;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;                targetSize = e.ModalController_initialSize;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;                targetAlpha = e.ModalController_initialAlpha;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            }</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;            {</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;                <span class="comment">// fading out</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;                targetOrigin = e.Container_origin; <span class="comment">// stay as is</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;                targetSize = e.Container_size;     <span class="comment">// stay as is</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;                targetAlpha = 0;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            }</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;            f = (e.ModalController_factor = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(1, e.ModalController_factor + df));</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            <span class="keywordflow">if</span> (f == 1)</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            {</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;                prevFactor = 0;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;                targetFactor = 1;</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;                e.Container_origin = targetOrigin;</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;                e.Container_size = targetSize;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;                me.setAlphaOf(me, e, targetAlpha);</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            }</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            {</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;                prevFactor = (1 - f) / (1 - f + df);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;                <span class="keywordflow">if</span> (!e.ModalController_state)  <span class="comment">// optimize code and avoid precision errors</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;                {</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;                    me.setAlphaOf(me, e, e.Container_alpha  * prevFactor);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;                }</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;                {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;                    animating = 1;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;                    targetFactor = df / (1 - f + df);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;                    <span class="keywordflow">if</span> (e.ModalController_state == 1)</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;                    {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                        e.Container_origin = e.Container_origin * prevFactor + targetOrigin * targetFactor;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                        e.Container_size   = e.Container_size   * prevFactor + targetSize   * targetFactor;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                    }</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                    me.setAlphaOf(me, e, e.Container_alpha  * prevFactor + targetAlpha  * targetFactor);</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;                }</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            }</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            <span class="comment">// assume: o == to * f_prev + X * (1 - f_prev)</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="comment">// make:   o&#39; = to * f  + X * (1 - f)</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <span class="comment">// --&gt;</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <span class="comment">// X == (o - to * f_prev) / (1 - f_prev)</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="comment">// o&#39; = to * f + (o - to * f_prev) / (1 - f_prev) * (1 - f)</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;            <span class="comment">// --&gt; (maxima)</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            <span class="comment">// o&#39; = (to * (f - f_prev) + o * (1 - f)) / (1 - f_prev)</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            <span class="keywordflow">if</span> (e.ModalController_state == 1)</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            {</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                fs = <a class="code" href="../../d6/db1/draw_8qc.html#aae12e9efe4b2ff652987ec77bbb1e82e">globalToBoxSize</a>(e.Container_size, e.ModalController_initialSize);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                e.Container_fontscale_x = fs.x * e.ModalController_initialFontScale.x;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                e.Container_fontscale_y = fs.y * e.ModalController_initialFontScale.y;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            }</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        }</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">if</span> (animating || !me.focused) me.setFocus(me, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">else</span> me.setFocus(me, front);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <a class="code" href="../../d4/d4e/datasource_8qc.html#a5e231c2d4088fbd6bc4c29add962230f">SUPER</a>(ModalController).draw(me);</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <span class="keywordtype">void</span> ModalController_addTab(entity me, entity other, entity tabButton)</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        me.addItem(me, other, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;1 1 1&#39;</span>, 1);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        tabButton.onClick = <a class="code" href="../../d9/d19/modalcontroller_8qc.html#a65aa79c5d1f911cb813af4a2c576ce76">TabButton_Click</a>;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        tabButton.onClickEntity = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        other.tabSelectingButton = tabButton;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <span class="keywordflow">if</span> (other == me.firstChild)</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        {</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            tabButton.forcePressed = 1;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            other.ModalController_controllingButton = tabButton;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            me.showChild(me, other, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;0 0 0&#39;</span>, 1);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        }</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    }</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordtype">void</span> ModalController_addItem(entity me, entity other, vector theOrigin, vector theSize, <span class="keywordtype">float</span> theAlpha)</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <a class="code" href="../../d4/d4e/datasource_8qc.html#a5e231c2d4088fbd6bc4c29add962230f">SUPER</a>(ModalController).addItem(me, other, theOrigin, theSize, (other == me.firstChild) ? theAlpha : 0);</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        other.ModalController_initialFontScale = other.Container_fontscale;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        other.ModalController_initialSize = other.Container_size;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        other.ModalController_initialOrigin = other.Container_origin;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        other.ModalController_initialAlpha = theAlpha;  <span class="comment">// hope Container never modifies this</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <span class="keywordflow">if</span> (other.ModalController_initialFontScale == <span class="stringliteral">&#39;0 0 0&#39;</span>) other.ModalController_initialFontScale = <span class="stringliteral">&#39;1 1 0&#39;</span>;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    }</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="keywordtype">void</span> ModalController_showChild(entity me, entity other, vector theOrigin, vector theSize, <span class="keywordtype">float</span> skipAnimation)</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    {</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <span class="keywordflow">if</span> (other.ModalController_state == 0 || skipAnimation)</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        {</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            me.setFocus(me, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            <span class="keywordflow">if</span> (!skipAnimation)</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                other.ModalController_buttonOrigin = <a class="code" href="../../d6/db1/draw_8qc.html#a0b581a0ff2b1fd85336d25a51a06e57d">globalToBox</a>(theOrigin, me.origin, me.size);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                other.ModalController_buttonSize = <a class="code" href="../../d6/db1/draw_8qc.html#aae12e9efe4b2ff652987ec77bbb1e82e">globalToBoxSize</a>(theSize, me.size);</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            }</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            me.switchState(me, other, 1, skipAnimation);</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        }  <span class="comment">// zoom in from button (factor increases)</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    }</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <span class="keywordtype">void</span> ModalController_hideAll(entity me, <span class="keywordtype">float</span> skipAnimation)</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    {</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        entity e;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <span class="keywordflow">for</span> (e = me.firstChild; e; e = e.nextSibling)</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            me.hideChild(me, e, skipAnimation);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <span class="keywordtype">void</span> ModalController_hideChild(entity me, entity other, <span class="keywordtype">float</span> skipAnimation)</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        <span class="keywordflow">if</span> (other.ModalController_state || skipAnimation)</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        {</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            me.setFocus(me, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            me.switchState(me, other, 0, skipAnimation);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            <span class="keywordflow">if</span> (other.ModalController_controllingButton)</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                other.ModalController_controllingButton.forcePressed = 0;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                other.ModalController_controllingButton = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            }</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        }  <span class="comment">// just alpha fade out (factor increases and decreases alpha)</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    }</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="subs_8qh_html_ace018e22065252376fce6931dfe4f729"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729">state</a></div><div class="ttdeci">float state</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00044">subs.qh:44</a></div></div>
 <div class="ttc" id="draw_8qc_html_a0b581a0ff2b1fd85336d25a51a06e57d"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#a0b581a0ff2b1fd85336d25a51a06e57d">globalToBox</a></div><div class="ttdeci">vector globalToBox(vector v, vector theOrigin, vector theScale)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00030">draw.qc:30</a></div></div>
 <div class="ttc" id="datasource_8qc_html_a5e231c2d4088fbd6bc4c29add962230f"><div class="ttname"><a href="../../d4/d4e/datasource_8qc.html#a5e231c2d4088fbd6bc4c29add962230f">SUPER</a></div><div class="ttdeci">return SUPER(CvarStringSource).reload(this</div></div>
 <div class="ttc" id="modalcontroller_8qc_html_ab352f341dcf37cbfaaeda4f3f8e4d754"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#ab352f341dcf37cbfaaeda4f3f8e4d754">METHOD</a></div><div class="ttdeci">METHOD(ModalController, resizeNotify, void(entity, vector, vector, vector, vector))</div></div>
 <div class="ttc" id="modalcontroller_8qc_html_aae3eecb385b2cae3ed04cc5e073ef327"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#aae3eecb385b2cae3ed04cc5e073ef327">DialogOpenButton_Click</a></div><div class="ttdeci">void DialogOpenButton_Click(entity button, entity tab)</div></div>
 <div class="ttc" id="draw_8qc_html_aae12e9efe4b2ff652987ec77bbb1e82e"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#aae12e9efe4b2ff652987ec77bbb1e82e">globalToBoxSize</a></div><div class="ttdeci">vector globalToBoxSize(vector v, vector theScale)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00038">draw.qc:38</a></div></div>
-<div class="ttc" id="modalcontroller_8qc_html_abe72a6bafb55848ec9cd7f81a6de3c29"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a></div><div class="ttdeci">vector origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d19/modalcontroller_8qc_source.html#l00023">modalcontroller.qc:23</a></div></div>
+<div class="ttc" id="modalcontroller_8qc_html_abe72a6bafb55848ec9cd7f81a6de3c29"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a></div><div class="ttdeci">vector origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d19/modalcontroller_8qc_source.html#l00024">modalcontroller.qc:24</a></div></div>
 <div class="ttc" id="modalcontroller_8qc_html_ab299c36738ab44965d57a68db9ac255e"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#ab299c36738ab44965d57a68db9ac255e">DialogOpenButton_Click_withCoords</a></div><div class="ttdeci">void DialogOpenButton_Click_withCoords(entity button, entity tab, vector theOrigin, vector theSize)</div></div>
-<div class="ttc" id="modalcontroller_8qc_html_a1563097e21926b000ffb89ebf5307bd7"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#a1563097e21926b000ffb89ebf5307bd7">tabSelectingButton</a></div><div class="ttdeci">entity tabSelectingButton</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d19/modalcontroller_8qc_source.html#l00022">modalcontroller.qc:22</a></div></div>
+<div class="ttc" id="modalcontroller_8qc_html_a1563097e21926b000ffb89ebf5307bd7"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#a1563097e21926b000ffb89ebf5307bd7">tabSelectingButton</a></div><div class="ttdeci">entity tabSelectingButton</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d19/modalcontroller_8qc_source.html#l00023">modalcontroller.qc:23</a></div></div>
 <div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00010">oo.qh:10</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a264ee8f6a0019c50d2049ee7af5c9296"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a></div><div class="ttdeci">entity other</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00014">csprogsdefs.qc:14</a></div></div>
 <div class="ttc" id="modalcontroller_8qc_html_a60f2d4ad42f0bfe8bca80aff8ff31ce6"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#a60f2d4ad42f0bfe8bca80aff8ff31ce6">DialogCloseButton_Click</a></div><div class="ttdeci">void DialogCloseButton_Click(entity button, entity tab)</div></div>
+<div class="ttc" id="modalcontroller_8qh_html"><div class="ttname"><a href="../../d7/de8/modalcontroller_8qh.html">modalcontroller.qh</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a491da4d42d2639395d76dcf8d9d1dff4"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a></div><div class="ttdeci">float frametime</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00017">csprogsdefs.qc:17</a></div></div>
-<div class="ttc" id="modalcontroller_8qc_html_a9771e20b5e6deab7a8bf4ba7e0c1ddc8"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#a9771e20b5e6deab7a8bf4ba7e0c1ddc8">size</a></div><div class="ttdeci">vector size</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d19/modalcontroller_8qc_source.html#l00024">modalcontroller.qc:24</a></div></div>
+<div class="ttc" id="modalcontroller_8qc_html_a9771e20b5e6deab7a8bf4ba7e0c1ddc8"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#a9771e20b5e6deab7a8bf4ba7e0c1ddc8">size</a></div><div class="ttdeci">vector size</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d19/modalcontroller_8qc_source.html#l00025">modalcontroller.qc:25</a></div></div>
 <div class="ttc" id="modalcontroller_8qc_html_a65aa79c5d1f911cb813af4a2c576ce76"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#a65aa79c5d1f911cb813af4a2c576ce76">TabButton_Click</a></div><div class="ttdeci">void TabButton_Click(entity button, entity tab)</div></div>
 <div class="ttc" id="oo_8qh_html_a381644ce1564409db8c6a582aaf9316f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a></div><div class="ttdeci">#define ATTRIB(cname, name, type, val)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00190">oo.qh:190</a></div></div>
 <div class="ttc" id="oo_8qh_html_a71373c33560dcca984e1c21df4fa1d5f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a></div><div class="ttdeci">#define ENDCLASS(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00210">oo.qh:210</a></div></div>
@@ -421,7 +423,7 @@ $(document).ready(function(){initNavTree('d9/d19/modalcontroller_8qc_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_35b13da68f3b87ebd8e5efaf5a26acd6.html">item</a></li><li class="navelem"><a class="el" href="../../d9/d19/modalcontroller_8qc.html">modalcontroller.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 04:07:51 for Xonotic by
+    <li class="footer">Generated on Mon Mar 14 2016 07:47:06 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

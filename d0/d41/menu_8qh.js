@@ -1,6 +1,5 @@
 var menu_8qh =
 [
-    [ "MENU_H", "d0/d41/menu_8qh.html#a9552ba249c0540ffe9a08a05d1b92504", null ],
     [ "draw_reset_cropped", "d0/d41/menu_8qh.html#a9fc19cb59a299c16ed665dc992bdaa1e", null ],
     [ "m_display", "d0/d41/menu_8qh.html#a23677d034dc6d8a97a8c46075e63a45d", null ],
     [ "m_goto", "d0/d41/menu_8qh.html#a7d15fd814eee097b957b5584b84183e8", null ],
