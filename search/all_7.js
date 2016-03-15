@@ -145,7 +145,6 @@ var searchData=
   ['gamemode_5fca_5fh',['GAMEMODE_CA_H',['../dc/da9/gamemode__ca_8qc.html#a6c12974109906a19ee2f4f25fcdcf331',1,'gamemode_ca.qc']]],
   ['gamemode_5fctf_2eqc',['gamemode_ctf.qc',['../d3/d73/gamemode__ctf_8qc.html',1,'']]],
   ['gamemode_5fctf_2eqh',['gamemode_ctf.qh',['../dd/dfa/gamemode__ctf_8qh.html',1,'']]],
-  ['gamemode_5fctf_5fh',['GAMEMODE_CTF_H',['../d3/d73/gamemode__ctf_8qc.html#a99eb7dacdbf2e88b5eee73a8e5717334',1,'gamemode_ctf.qc']]],
   ['gamemode_5fcts_2eqc',['gamemode_cts.qc',['../d5/d69/gamemode__cts_8qc.html',1,'']]],
   ['gamemode_5fcts_2eqh',['gamemode_cts.qh',['../d9/d22/gamemode__cts_8qh.html',1,'']]],
   ['gamemode_5fcts_5fh',['GAMEMODE_CTS_H',['../d5/d69/gamemode__cts_8qc.html#aa1e186ea137e0ea8ab77c73b177eeed6',1,'gamemode_cts.qc']]],

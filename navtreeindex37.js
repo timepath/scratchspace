@@ -1,5 +1,15 @@
 var NAVTREEINDEX37 =
 {
+"d7/da7/server_2autocvars_8qh_source.html":[1,0,5,10],
+"d7/dac/menu_2mutators_2events_8qh.html":[1,0,4,3,0],
+"d7/dac/menu_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12":[1,0,4,3,0,4],
+"d7/dac/menu_2mutators_2events_8qh.html#a18e2555b1288e09549e1a9666d2179b7":[1,0,4,3,0,1],
+"d7/dac/menu_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776":[1,0,4,3,0,3],
+"d7/dac/menu_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51":[1,0,4,3,0,2],
+"d7/dac/menu_2mutators_2events_8qh.html#af07547c358b616af655bf0c55ff812b4":[1,0,4,3,0,0],
+"d7/dac/menu_2mutators_2events_8qh_source.html":[1,0,4,3,0],
+"d7/dac/mutators_2mutator_2spawn__near__teammate_2module_8inc.html":[1,0,1,9,0,26,0],
+"d7/dac/mutators_2mutator_2spawn__near__teammate_2module_8inc_source.html":[1,0,1,9,0,26,0],
 "d7/db2/dialog__singleplayer__winner_8qc.html":[1,0,4,4,156],
 "d7/db2/dialog__singleplayer__winner_8qc.html#a3771f6f203b33af849a31b9d0a8a5cf5":[1,0,4,4,156,0],
 "d7/db2/dialog__singleplayer__winner_8qc.html#ab760c2bcafe6cd6d238f8e97779394c2":[1,0,4,4,156,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX37 =
 "d7/db4/client_2autocvars_8qh.html#a769abd3dde029fd8e62ae71c8a6ae258":[1,0,0,7,4],
 "d7/db4/client_2autocvars_8qh.html#a76ce73f0f4a4d58b500a6517f35a668d":[1,0,0,7,76],
 "d7/db4/client_2autocvars_8qh.html#a76ebeefadb32c8cc3d1c4237d7618bfe":[1,0,0,7,34],
-"d7/db4/client_2autocvars_8qh.html#a774313448b5a8b495ac78172f1d8be23":[1,0,0,7,14],
-"d7/db4/client_2autocvars_8qh.html#a775c877690000b65570e94578088cddd":[1,0,0,7,239],
-"d7/db4/client_2autocvars_8qh.html#a77ac8e774d203882d916e05e1f0e1875":[1,0,0,7,315],
-"d7/db4/client_2autocvars_8qh.html#a77b90ad4d5c22c858785e6a0d9ff1673":[1,0,0,7,322],
-"d7/db4/client_2autocvars_8qh.html#a7916736e10087b6fde73dc9a66892399":[1,0,0,7,124],
-"d7/db4/client_2autocvars_8qh.html#a7931f8c4c9cd57add003899d4da60261":[1,0,0,7,330],
-"d7/db4/client_2autocvars_8qh.html#a7980aa634a257d98ee5bf74959df897e":[1,0,0,7,26],
-"d7/db4/client_2autocvars_8qh.html#a79d0b7effcdccb6975b29ae66f9a3c0e":[1,0,0,7,431],
-"d7/db4/client_2autocvars_8qh.html#a7b529925da4a8379c82874f9533966c6":[1,0,0,7,145],
-"d7/db4/client_2autocvars_8qh.html#a7bb542cfb2f90e1e0cec25ea307dbb89":[1,0,0,7,243],
-"d7/db4/client_2autocvars_8qh.html#a7c563e13645b528b8555fada154b05d2":[1,0,0,7,428]
+"d7/db4/client_2autocvars_8qh.html#a774313448b5a8b495ac78172f1d8be23":[1,0,0,7,14]
 };

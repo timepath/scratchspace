@@ -13,7 +13,6 @@ var searchData=
   ['gameitem_5fh',['GAMEITEM_H',['../d7/d7c/common_2items_2item_8qh.html#ab529d7dce0a6c6047f598d45769b67ee',1,'item.qh']]],
   ['gamemode_5fassault_5fh',['GAMEMODE_ASSAULT_H',['../d9/d8e/gamemode__assault_8qc.html#a4817117027352cc4230203fd3d3eaeb4',1,'gamemode_assault.qc']]],
   ['gamemode_5fca_5fh',['GAMEMODE_CA_H',['../dc/da9/gamemode__ca_8qc.html#a6c12974109906a19ee2f4f25fcdcf331',1,'gamemode_ca.qc']]],
-  ['gamemode_5fctf_5fh',['GAMEMODE_CTF_H',['../d3/d73/gamemode__ctf_8qc.html#a99eb7dacdbf2e88b5eee73a8e5717334',1,'gamemode_ctf.qc']]],
   ['gamemode_5fcts_5fh',['GAMEMODE_CTS_H',['../d5/d69/gamemode__cts_8qc.html#aa1e186ea137e0ea8ab77c73b177eeed6',1,'gamemode_cts.qc']]],
   ['gamemode_5fdeathmatch_5fh',['GAMEMODE_DEATHMATCH_H',['../dd/d7b/gamemode__deathmatch_8qc.html#a7a0c1af364565e718c758dc9511ca085',1,'gamemode_deathmatch.qc']]],
   ['gamemode_5fdomination_5fh',['GAMEMODE_DOMINATION_H',['../dc/d80/gamemode__domination_8qc.html#a8d3f98172bd0150f29b19de878c1bcca',1,'gamemode_domination.qc']]],

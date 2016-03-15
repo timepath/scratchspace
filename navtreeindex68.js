@@ -1,5 +1,15 @@
 var NAVTREEINDEX68 =
 {
+"df/d28/sv__turrets_8qh.html#a15df8a6498e96a76f4a5e0213150f6a8":[1,0,1,14,9,2],
+"df/d28/sv__turrets_8qh.html#a168754a4c3acfcdb34318de74c36b4f9":[1,0,1,14,9,60],
+"df/d28/sv__turrets_8qh.html#a16df72fa969045d31c5140be979fc387":[1,0,1,14,9,39],
+"df/d28/sv__turrets_8qh.html#a1a72475c9a77225463fc38559463c578":[1,0,1,14,9,49],
+"df/d28/sv__turrets_8qh.html#a1d5d8b69dda4acca14207e5ffa084ca7":[1,0,1,14,9,65],
+"df/d28/sv__turrets_8qh.html#a1e97a5c836a558a1321721c59fb50de2":[1,0,1,14,9,44],
+"df/d28/sv__turrets_8qh.html#a2237d76659e456913df196d485d4efb4":[1,0,1,14,9,62],
+"df/d28/sv__turrets_8qh.html#a228b8db97032e558815f2ce98430dce5":[1,0,1,14,9,71],
+"df/d28/sv__turrets_8qh.html#a332de5647b4049b0c0578521988f16fb":[1,0,1,14,9,70],
+"df/d28/sv__turrets_8qh.html#a3617fc541b11649482813bbfff5aaa6c":[1,0,1,14,9,33],
 "df/d28/sv__turrets_8qh.html#a39f03a6f047d2a8189de6d3d1b4acd05":[1,0,1,14,9,32],
 "df/d28/sv__turrets_8qh.html#a3a2a467045f5ab370c4a405896ccece0":[1,0,1,14,9,4],
 "df/d28/sv__turrets_8qh.html#a3c09cbf1711d78b37aae8d9bc828a638":[1,0,1,14,9,5],
@@ -239,15 +249,5 @@ var NAVTREEINDEX68 =
 "df/d54/dialog__settings__game__hud_8qh.html#af81b029727019578b2f147a358bcdedf":[1,0,4,4,127,1],
 "df/d54/dialog__settings__game__hud_8qh_source.html":[1,0,4,4,127],
 "df/d58/yenc_8qh.html":[1,0,3,56],
-"df/d58/yenc_8qh.html#a01877237296c3e64e52b9674f5d326bf":[1,0,3,56,1],
-"df/d58/yenc_8qh.html#a99af444acc00b3c6c194d21b7150b1e7":[1,0,3,56,0],
-"df/d58/yenc_8qh.html#ab941e2d29f7b5a29b458738b7493d589":[1,0,3,56,2],
-"df/d58/yenc_8qh_source.html":[1,0,3,56],
-"df/d63/server_2mutators_2all_8qh.html":[1,0,5,2,3],
-"df/d63/server_2mutators_2all_8qh_source.html":[1,0,5,2,3],
-"df/d64/throwing_8qc.html":[1,0,5,4,12],
-"df/d64/throwing_8qc.html#a8339b673c9766c362b396b2cfac64f8a":[1,0,5,4,12,3],
-"df/d64/throwing_8qc.html#a8ccb142ceae54eb273a25f76531d0d40":[1,0,5,4,12,4],
-"df/d64/throwing_8qc.html#a97f02d70ce7169f7c173a2b3cb3de2fc":[1,0,5,4,12,0],
-"df/d64/throwing_8qc.html#a9f4fba481e98921f43d6dd1eb9acc25a":[1,0,5,4,12,1]
+"df/d58/yenc_8qh.html#a01877237296c3e64e52b9674f5d326bf":[1,0,3,56,1]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX39 =
 {
+"d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5":[1,0,5,0,10,19],
+"d7/dc4/waypoints_8qc.html#a8767ac6530ddf16a3a7e333a3ad20772":[1,0,5,0,10,11],
+"d7/dc4/waypoints_8qc.html#a8bcfafa22e1b3188f0b1f9c1399af552":[1,0,5,0,10,14],
+"d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb":[1,0,5,0,10,21],
+"d7/dc4/waypoints_8qc.html#ab425a543c58fb2e6f5ab441d30f5cd7c":[1,0,5,0,10,13],
+"d7/dc4/waypoints_8qc.html#ac217d7e6b34b0f6adddf1587c17016ec":[1,0,5,0,10,16],
+"d7/dc4/waypoints_8qc.html#ac66bb8eae7635c12297283fe2e4a6aa2":[1,0,5,0,10,24],
+"d7/dc4/waypoints_8qc.html#ac764e32c571128b0b58a9a10cb3ef9d1":[1,0,5,0,10,7],
+"d7/dc4/waypoints_8qc.html#ad27523bc57e3e597f8bfa75bf7ddd72e":[1,0,5,0,10,23],
+"d7/dc4/waypoints_8qc.html#ad5ffadcf9a495cd46837874dfbda3674":[1,0,5,0,10,29],
 "d7/dc4/waypoints_8qc.html#adc1610e5d4a39012b64c05f12d9ccd82":[1,0,5,0,10,6],
 "d7/dc4/waypoints_8qc.html#adcd50ec9ec6d70529e207908628cce71":[1,0,5,0,10,25],
 "d7/dc4/waypoints_8qc.html#ae49f133401d45e5c5c92261fc85d5fa3":[1,0,5,0,10,15],
@@ -239,15 +249,5 @@ var NAVTREEINDEX39 =
 "d7/dda/client_2hud_2all_8qc.html":[1,0,0,1,2],
 "d7/dda/client_2hud_2all_8qc_source.html":[1,0,0,1,2],
 "d7/ddc/gamemode__race_8qh.html":[1,0,5,2,0,23],
-"d7/ddc/gamemode__race_8qh_source.html":[1,0,5,2,0,23],
-"d7/de1/counting_8qh.html":[1,0,3,10],
-"d7/de1/counting_8qh.html#a1acc9be3460c51fd0fea127b60478f9d":[1,0,3,10,5],
-"d7/de1/counting_8qh.html#a3c64a781bdc8bb479a5526f17e0f004d":[1,0,3,10,14],
-"d7/de1/counting_8qh.html#a3fc61db00404d2736f6177aa09dee45a":[1,0,3,10,1],
-"d7/de1/counting_8qh.html#a47ac879aa7a934b20865b1c34b4cf541":[1,0,3,10,8],
-"d7/de1/counting_8qh.html#a523658f9ea031c3e7649a0a6f6049bfd":[1,0,3,10,2],
-"d7/de1/counting_8qh.html#a6a4dd5a397c929c2a947914782b84758":[1,0,3,10,11],
-"d7/de1/counting_8qh.html#a779b2923e596fa177779224f56d3abbe":[1,0,3,10,0],
-"d7/de1/counting_8qh.html#a847bf421ce1a7e1e70e2508d1b96d58f":[1,0,3,10,9],
-"d7/de1/counting_8qh.html#abdae2ca344cc9cd3a5f0e501518d9507":[1,0,3,10,7]
+"d7/ddc/gamemode__race_8qh_source.html":[1,0,5,2,0,23]
 };

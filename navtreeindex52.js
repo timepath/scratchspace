@@ -1,5 +1,15 @@
 var NAVTREEINDEX52 =
 {
+"db/d7f/effectinfo_8inc.html#a21b60ba1f65c28a5a3af70a02018b58f":[1,0,1,2,5,291],
+"db/d7f/effectinfo_8inc.html#a23befd80f039f679ad6f235725de60f6":[1,0,1,2,5,90],
+"db/d7f/effectinfo_8inc.html#a23def5880315e25a2e22007e679ad947":[1,0,1,2,5,238],
+"db/d7f/effectinfo_8inc.html#a23fae20bc91a64db27f9f73aad234b3c":[1,0,1,2,5,102],
+"db/d7f/effectinfo_8inc.html#a24841af0c7e36f8cab8cf4eb0445e8b5":[1,0,1,2,5,164],
+"db/d7f/effectinfo_8inc.html#a24ba3ddb2a839a2b73d22828344a0b1c":[1,0,1,2,5,108],
+"db/d7f/effectinfo_8inc.html#a2511a2160c91dc3c468e7910a08a315a":[1,0,1,2,5,77],
+"db/d7f/effectinfo_8inc.html#a264f56b40a04826f7ee4113e8e9fcc0b":[1,0,1,2,5,119],
+"db/d7f/effectinfo_8inc.html#a2670b57bc65da56db957b90d691aec11":[1,0,1,2,5,5],
+"db/d7f/effectinfo_8inc.html#a2676931fa858749234d540b348ec7111":[1,0,1,2,5,205],
 "db/d7f/effectinfo_8inc.html#a2742f04fbbdb9b3f6c7cd57c8b67074a":[1,0,1,2,5,81],
 "db/d7f/effectinfo_8inc.html#a2758ea7cd5131a7781e54910c316b820":[1,0,1,2,5,343],
 "db/d7f/effectinfo_8inc.html#a291fa2a0d4c5b87cdc47f27ee717ed28":[1,0,1,2,5,113],
@@ -239,15 +249,5 @@ var NAVTREEINDEX52 =
 "db/d7f/effectinfo_8inc.html#ac4e5464be9b435bed2159e3b2b93ee74":[1,0,1,2,5,129],
 "db/d7f/effectinfo_8inc.html#ac509f6a24d6f0670c7038c7db71fb526":[1,0,1,2,5,301],
 "db/d7f/effectinfo_8inc.html#ac604c7c30a4459db1856128ca650f03f":[1,0,1,2,5,30],
-"db/d7f/effectinfo_8inc.html#ac61635b92198b2ad5055fafc39684d0d":[1,0,1,2,5,272],
-"db/d7f/effectinfo_8inc.html#ac7c86f73a94943dee0c71ef96a1a7e6e":[1,0,1,2,5,39],
-"db/d7f/effectinfo_8inc.html#ac86351e28218236a4a9dfd91e05bc383":[1,0,1,2,5,138],
-"db/d7f/effectinfo_8inc.html#ac939d312aedb2ececd1cda8abe5c3a09":[1,0,1,2,5,183],
-"db/d7f/effectinfo_8inc.html#ac9d4a16956c2a0eebda51fac74b86797":[1,0,1,2,5,170],
-"db/d7f/effectinfo_8inc.html#acad0c16a962f053c9509a72f06a93829":[1,0,1,2,5,225],
-"db/d7f/effectinfo_8inc.html#acc2be3664d219ee4f4241b2b1da1c6ad":[1,0,1,2,5,136],
-"db/d7f/effectinfo_8inc.html#acc3a215b4ac07fcb9299286b44d3a0bc":[1,0,1,2,5,50],
-"db/d7f/effectinfo_8inc.html#acc428bf775c450d281c042afced73636":[1,0,1,2,5,130],
-"db/d7f/effectinfo_8inc.html#accae52a3bae99ab53b61ff68bba7163a":[1,0,1,2,5,294],
-"db/d7f/effectinfo_8inc.html#accb016a039a53ac3201ef4a7af4b7d25":[1,0,1,2,5,210]
+"db/d7f/effectinfo_8inc.html#ac61635b92198b2ad5055fafc39684d0d":[1,0,1,2,5,272]
 };

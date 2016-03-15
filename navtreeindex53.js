@@ -1,5 +1,15 @@
 var NAVTREEINDEX53 =
 {
+"db/d7f/effectinfo_8inc.html#ac7c86f73a94943dee0c71ef96a1a7e6e":[1,0,1,2,5,39],
+"db/d7f/effectinfo_8inc.html#ac86351e28218236a4a9dfd91e05bc383":[1,0,1,2,5,138],
+"db/d7f/effectinfo_8inc.html#ac939d312aedb2ececd1cda8abe5c3a09":[1,0,1,2,5,183],
+"db/d7f/effectinfo_8inc.html#ac9d4a16956c2a0eebda51fac74b86797":[1,0,1,2,5,170],
+"db/d7f/effectinfo_8inc.html#acad0c16a962f053c9509a72f06a93829":[1,0,1,2,5,225],
+"db/d7f/effectinfo_8inc.html#acc2be3664d219ee4f4241b2b1da1c6ad":[1,0,1,2,5,136],
+"db/d7f/effectinfo_8inc.html#acc3a215b4ac07fcb9299286b44d3a0bc":[1,0,1,2,5,50],
+"db/d7f/effectinfo_8inc.html#acc428bf775c450d281c042afced73636":[1,0,1,2,5,130],
+"db/d7f/effectinfo_8inc.html#accae52a3bae99ab53b61ff68bba7163a":[1,0,1,2,5,294],
+"db/d7f/effectinfo_8inc.html#accb016a039a53ac3201ef4a7af4b7d25":[1,0,1,2,5,210],
 "db/d7f/effectinfo_8inc.html#acd1be520c6f7997698f8512ea3281d5c":[1,0,1,2,5,280],
 "db/d7f/effectinfo_8inc.html#acdba90a603f64accd60e241ce4b73609":[1,0,1,2,5,47],
 "db/d7f/effectinfo_8inc.html#ace2f2eb8fa3abc018fb3084a17161d64":[1,0,1,2,5,243],
@@ -239,15 +249,5 @@ var NAVTREEINDEX53 =
 "db/dab/common_2deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8":[1,0,1,1,2,12],
 "db/dab/common_2deathtypes_2all_8qh_source.html":[1,0,1,1,2],
 "db/daf/playerstats_8qh.html":[1,0,1,35],
-"db/daf/playerstats_8qh.html#a312e47b0868340d91079335f62009acf":[1,0,1,35,0],
-"db/daf/playerstats_8qh_source.html":[1,0,1,35],
-"db/db4/dialog__settings__misc__cvars_8qh.html":[1,0,4,4,145],
-"db/db4/dialog__settings__misc__cvars_8qh.html#a6276f7b7dafc7d1004bda6bfe7e28eee":[1,0,4,4,145,0],
-"db/db4/dialog__settings__misc__cvars_8qh.html#acd919ed955176893c9068e5192f711fa":[1,0,4,4,145,1],
-"db/db4/dialog__settings__misc__cvars_8qh_source.html":[1,0,4,4,145],
-"db/db9/gamemodes_2gamemode_2onslaught_2module_8inc.html":[1,0,1,3,0,1,4],
-"db/db9/gamemodes_2gamemode_2onslaught_2module_8inc.html#ae006454982d4c99452757233cdaae365":[1,0,1,3,0,1,4,0],
-"db/db9/gamemodes_2gamemode_2onslaught_2module_8inc_source.html":[1,0,1,3,0,1,4],
-"db/dc3/rpc_8qc.html":[1,0,1,9,0,18,3],
-"db/dc3/rpc_8qc.html#a097ec5540c4ddc080af07ef5d2952cb6":[1,0,1,9,0,18,3,3]
+"db/daf/playerstats_8qh.html#a312e47b0868340d91079335f62009acf":[1,0,1,35,0]
 };

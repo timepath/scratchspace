@@ -7,5 +7,6 @@ var dir_ed4f60597e07802ebc30a81f2c583d1a =
     [ "hud.qc", "d7/d15/hud_8qc.html", "d7/d15/hud_8qc" ],
     [ "hud.qh", "d3/d05/hud_8qh.html", "d3/d05/hud_8qh" ],
     [ "hud_config.qc", "dc/d90/hud__config_8qc.html", "dc/d90/hud__config_8qc" ],
-    [ "hud_config.qh", "dd/dcd/hud__config_8qh.html", "dd/dcd/hud__config_8qh" ]
+    [ "hud_config.qh", "dd/dcd/hud__config_8qh.html", "dd/dcd/hud__config_8qh" ],
+    [ "panel.qh", "dd/df9/panel_8qh.html", null ]
 ];

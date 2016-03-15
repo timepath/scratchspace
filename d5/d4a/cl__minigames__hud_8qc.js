@@ -31,6 +31,7 @@ var cl__minigames__hud_8qc =
     [ "HUD_MinigameMenu_SpawnSubEntry", "d5/d4a/cl__minigames__hud_8qc.html#ac3ba12b349b846036472535a2f1467c9", null ],
     [ "HUD_MinigameStatus", "d5/d4a/cl__minigames__hud_8qc.html#a9361acbd02179cba8f8efb4ac637a7a2", null ],
     [ "HUD_mouse_over", "d5/d4a/cl__minigames__hud_8qc.html#a77f600677e1042ade16838e50cb31fde", null ],
+    [ "colormod", "d5/d4a/cl__minigames__hud_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af", null ],
     [ "HUD_MinigameMenu_activeitem", "d5/d4a/cl__minigames__hud_8qc.html#a593fbba2d2e5390e64ec2254f11d1962", null ],
     [ "HUD_MinigameMenu_entries", "d5/d4a/cl__minigames__hud_8qc.html#a030497aded1dcebacf1213c1242700dd", null ],
     [ "HUD_MinigameMenu_last_entry", "d5/d4a/cl__minigames__hud_8qc.html#a34717727bac59a62df9c33c21e0b190a", null ]

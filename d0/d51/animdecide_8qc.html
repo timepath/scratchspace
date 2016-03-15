@@ -476,7 +476,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d0/d51/animdecide_8qc.html#a2307498625d0c0a7fff207d033828015">ANIM_VEC</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l01465">animfixfps()</a>, <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00010">monsters_animoverride()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00051">CopyBody()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00609">CSQCModel_Hook_PreDraw()</a>, and <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00126">player_setupanimsformodel()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00051">CopyBody()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00589">CSQCModel_Hook_PreDraw()</a>, and <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00126">player_setupanimsformodel()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;{</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordtype">int</span> mdlidx = e.modelindex;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> (mdlidx == e.animdecide_modelindex) <span class="keywordflow">return</span>;</div>
@@ -671,9 +671,9 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00295">295</a> of file <a class="el" href="../../d0/d51/animdecide_8qc_source.html">animdecide.qc</a>.</p>
 
-<p>References <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00152">animdecide_getloweranim()</a>, <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00106">animdecide_getupperanim()</a>, <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00105">BITXOR_ASSIGN</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00470">EF_RESTARTANIM_BIT</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00152">animdecide_getloweranim()</a>, <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00106">animdecide_getupperanim()</a>, <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00105">BITXOR_ASSIGN</a>, <a class="el" href="../../d3/dfc/csqcmodel__hooks_8qh_source.html#l00010">EF_RESTARTANIM_BIT</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00051">CopyBody()</a>, and <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00609">CSQCModel_Hook_PreDraw()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00051">CopyBody()</a>, and <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00589">CSQCModel_Hook_PreDraw()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;{</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="comment">// _x: frame</span></div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="comment">// _y: start time</span></div>
@@ -688,7 +688,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(lower.z &amp;&amp; !upper.z)</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            upper = lower;</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <span class="keywordflow">if</span>(e.frame1time != upper.y || e.frame2time != lower.y)</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;            <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#af237b225c4ce5816d3d14362818addab">BITXOR_ASSIGN</a>(e.effects, <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#acd9d00d9aad1f54ff833ef7cfab8e3d4">EF_RESTARTANIM_BIT</a>);</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;            <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#af237b225c4ce5816d3d14362818addab">BITXOR_ASSIGN</a>(e.effects, <a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#acd9d00d9aad1f54ff833ef7cfab8e3d4">EF_RESTARTANIM_BIT</a>);</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        e.(fld_frame) = upper.x;</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        e.(fld_frame1time) = upper.y;</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        e.(fld_frame2) = lower.x;</div>
@@ -701,13 +701,13 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(lower.z &gt; upper.z)</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            upper = lower;</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        <span class="keywordflow">if</span>(e.frame1time != upper.y)</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#af237b225c4ce5816d3d14362818addab">BITXOR_ASSIGN</a>(e.effects, <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#acd9d00d9aad1f54ff833ef7cfab8e3d4">EF_RESTARTANIM_BIT</a>);</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#af237b225c4ce5816d3d14362818addab">BITXOR_ASSIGN</a>(e.effects, <a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#acd9d00d9aad1f54ff833ef7cfab8e3d4">EF_RESTARTANIM_BIT</a>);</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        e.(fld_frame) = upper.x;</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        e.(fld_frame1time) = upper.y;</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    }</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;}</div>
+<div class="ttc" id="csqcmodel__hooks_8qh_html_acd9d00d9aad1f54ff833ef7cfab8e3d4"><div class="ttname"><a href="../../d3/dfc/csqcmodel__hooks_8qh.html#acd9d00d9aad1f54ff833ef7cfab8e3d4">EF_RESTARTANIM_BIT</a></div><div class="ttdeci">const int EF_RESTARTANIM_BIT</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfc/csqcmodel__hooks_8qh_source.html#l00010">csqcmodel_hooks.qh:10</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-<div class="ttc" id="csqcmodel__hooks_8qc_html_acd9d00d9aad1f54ff833ef7cfab8e3d4"><div class="ttname"><a href="../../dc/d3d/csqcmodel__hooks_8qc.html#acd9d00d9aad1f54ff833ef7cfab8e3d4">EF_RESTARTANIM_BIT</a></div><div class="ttdeci">const int EF_RESTARTANIM_BIT</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00470">csqcmodel_hooks.qc:470</a></div></div>
 <div class="ttc" id="animdecide_8qc_html_ab79df131f3a5b990857d607040d5cc84"><div class="ttname"><a href="../../d0/d51/animdecide_8qc.html#ab79df131f3a5b990857d607040d5cc84">animdecide_getupperanim</a></div><div class="ttdeci">vector animdecide_getupperanim(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d51/animdecide_8qc_source.html#l00106">animdecide.qc:106</a></div></div>
 <div class="ttc" id="animdecide_8qc_html_a63715f9e60d81b2000caed07779d2e86"><div class="ttname"><a href="../../d0/d51/animdecide_8qc.html#a63715f9e60d81b2000caed07779d2e86">animdecide_getloweranim</a></div><div class="ttdeci">vector animdecide_getloweranim(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d51/animdecide_8qc_source.html#l00152">animdecide.qc:152</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qh_html_af237b225c4ce5816d3d14362818addab"><div class="ttname"><a href="../../d7/d71/lib_2warpzone_2common_8qh.html#af237b225c4ce5816d3d14362818addab">BITXOR_ASSIGN</a></div><div class="ttdeci">#define BITXOR_ASSIGN(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00105">common.qh:105</a></div></div>
@@ -762,7 +762,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d3/d42/animdecide_8qh_source.html#l00141">ANIMACTION_JUMP</a>, <a class="el" href="../../d3/d42/animdecide_8qh_source.html#l00134">ANIMIMPLICITSTATE_BACKWARDS</a>, <a class="el" href="../../d3/d42/animdecide_8qh_source.html#l00133">ANIMIMPLICITSTATE_FORWARD</a>, <a class="el" href="../../d3/d42/animdecide_8qh_source.html#l00132">ANIMIMPLICITSTATE_INAIR</a>, <a class="el" href="../../d3/d42/animdecide_8qh_source.html#l00135">ANIMIMPLICITSTATE_LEFT</a>, <a class="el" href="../../d3/d42/animdecide_8qh_source.html#l00136">ANIMIMPLICITSTATE_RIGHT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00233">s</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_forward</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_right</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00009">vdist</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00609">CSQCModel_Hook_PreDraw()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01178">Monster_Anim()</a>, and <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00133">player_anim()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00589">CSQCModel_Hook_PreDraw()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01178">Monster_Anim()</a>, and <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00133">player_anim()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;{</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a> = 0;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
@@ -880,7 +880,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00609">CSQCModel_Hook_PreDraw()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01178">Monster_Anim()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00133">player_anim()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00126">player_setupanimsformodel()</a>, and <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00297">PlayerDamage()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00589">CSQCModel_Hook_PreDraw()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01178">Monster_Anim()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00133">player_anim()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00126">player_setupanimsformodel()</a>, and <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00297">PlayerDamage()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;{</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <span class="keywordflow">if</span>(!restart)</div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        <span class="keywordflow">if</span>(newstate == e.anim_state)</div>
@@ -1041,7 +1041,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../d0/d51/animdecide_8qc.html">animdecide.qc</a></li>
-    <li class="footer">Generated on Tue Mar 15 2016 04:33:28 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 05:52:59 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
