@@ -28,7 +28,7 @@ var server_2miscfunctions_8qc =
     [ "gettaginfo_relative", "dc/dc6/server_2miscfunctions_8qc.html#a59a00571f7c6dad282ee583b3bd5b297", null ],
     [ "InitializeEntitiesRun", "dc/dc6/server_2miscfunctions_8qc.html#a504192d334de7d4502ffbaa71c6b8228", null ],
     [ "InitializeEntity", "dc/dc6/server_2miscfunctions_8qc.html#ac371c3e7a3dc274c96125bf020b44621", null ],
-    [ "isPushable", "dc/dc6/server_2miscfunctions_8qc.html#a7d03b76da08d84e3f626de4010290ab7", null ],
+    [ "isPushable", "dc/dc6/server_2miscfunctions_8qc.html#a5b86d62af04bbd33aa2bca5635a1e2fa", null ],
     [ "LostMovetypeFollow", "dc/dc6/server_2miscfunctions_8qc.html#adb60a180886d4dfa682f79bf827c5ce4", null ],
     [ "make_safe_for_remove", "dc/dc6/server_2miscfunctions_8qc.html#a512d742bedcc9a27b9fa5fe4b3d9ab86", null ],
     [ "MoveToRandomLocationWithinBounds", "dc/dc6/server_2miscfunctions_8qc.html#a980a6f943699026265182e645ad4d8ef", null ],
@@ -77,6 +77,7 @@ var server_2miscfunctions_8qc =
     [ "aiment_classname", "dc/dc6/server_2miscfunctions_8qc.html#a57c6890f25ac5cfdf263a9a467577480", null ],
     [ "aiment_deadflag", "dc/dc6/server_2miscfunctions_8qc.html#a624314975ec1563eb689b613d886d64d", null ],
     [ "gettaginfo_relative_ent", "dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc", null ],
+    [ "pushable", "dc/dc6/server_2miscfunctions_8qc.html#a62c381a8dd53927f035d3f51b303e108", null ],
     [ "remove_except_protected_forbidden", "dc/dc6/server_2miscfunctions_8qc.html#a389c6b4301cce5d979b54108aaf6462c", null ],
     [ "trace_hits_box_a0", "dc/dc6/server_2miscfunctions_8qc.html#a8a8585c86235a416016c668911294b89", null ],
     [ "trace_hits_box_a1", "dc/dc6/server_2miscfunctions_8qc.html#a3c8f4c7b30b977c36ad3a6648e10d0fd", null ]

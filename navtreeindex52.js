@@ -1,5 +1,12 @@
 var NAVTREEINDEX52 =
 {
+"db/d7f/effectinfo_8inc.html#a1b6ae1ed387c1fb759fb6653eb94bf86":[1,0,1,2,5,8],
+"db/d7f/effectinfo_8inc.html#a1b930adfcc86e35b1b211534c2a899da":[1,0,1,2,5,166],
+"db/d7f/effectinfo_8inc.html#a1c4cd8309cfc08e380d80314875f8117":[1,0,1,2,5,173],
+"db/d7f/effectinfo_8inc.html#a1d12fa72405f817de146fdfa79364738":[1,0,1,2,5,361],
+"db/d7f/effectinfo_8inc.html#a1df4703f6cb8fc648a3b37dea36f193c":[1,0,1,2,5,241],
+"db/d7f/effectinfo_8inc.html#a1eda1815a83ef6eb0b38e0b6b59c9bb3":[1,0,1,2,5,150],
+"db/d7f/effectinfo_8inc.html#a1ee324e860c3133ea18a16b72a43fdcf":[1,0,1,2,5,54],
 "db/d7f/effectinfo_8inc.html#a21b60ba1f65c28a5a3af70a02018b58f":[1,0,1,2,5,291],
 "db/d7f/effectinfo_8inc.html#a23befd80f039f679ad6f235725de60f6":[1,0,1,2,5,90],
 "db/d7f/effectinfo_8inc.html#a23def5880315e25a2e22007e679ad947":[1,0,1,2,5,238],
@@ -242,12 +249,5 @@ var NAVTREEINDEX52 =
 "db/d7f/effectinfo_8inc.html#ac188a69e4f989dd9aa0404e66f0e20f4":[1,0,1,2,5,270],
 "db/d7f/effectinfo_8inc.html#ac20b8f5245ead4599382f1015b682055":[1,0,1,2,5,313],
 "db/d7f/effectinfo_8inc.html#ac28693364383c750f85f7b2a4b9afb9e":[1,0,1,2,5,316],
-"db/d7f/effectinfo_8inc.html#ac2cb4e8e6ec6f3968fb459d983ebdc1c":[1,0,1,2,5,344],
-"db/d7f/effectinfo_8inc.html#ac2fe3dba345548b4bc9db6a6982c050a":[1,0,1,2,5,195],
-"db/d7f/effectinfo_8inc.html#ac352683aa4e78a8fcc21aded10effb3c":[1,0,1,2,5,124],
-"db/d7f/effectinfo_8inc.html#ac3d3a0b44ea1a2c6391a38b9cfda2b24":[1,0,1,2,5,58],
-"db/d7f/effectinfo_8inc.html#ac4e5464be9b435bed2159e3b2b93ee74":[1,0,1,2,5,129],
-"db/d7f/effectinfo_8inc.html#ac509f6a24d6f0670c7038c7db71fb526":[1,0,1,2,5,301],
-"db/d7f/effectinfo_8inc.html#ac604c7c30a4459db1856128ca650f03f":[1,0,1,2,5,30],
-"db/d7f/effectinfo_8inc.html#ac61635b92198b2ad5055fafc39684d0d":[1,0,1,2,5,272]
+"db/d7f/effectinfo_8inc.html#ac2cb4e8e6ec6f3968fb459d983ebdc1c":[1,0,1,2,5,344]
 };

@@ -6,6 +6,7 @@ var gamemode__ca_8qc =
     [ "ca_isEliminated", "dc/da9/gamemode__ca_8qc.html#aacbcf72df7630d29c5323a6668918b8d", null ],
     [ "CA_RoundStart", "dc/da9/gamemode__ca_8qc.html#a2d5316421d04d94cdcdf74c325085e0e", null ],
     [ "REGISTER_MUTATOR", "dc/da9/gamemode__ca_8qc.html#abc82708949d45746dfb807463502eeac", null ],
+    [ "SetLimits", "dc/da9/gamemode__ca_8qc.html#a246b8f5baa8038cddf08ecc9adf5b17c", null ],
     [ "allowed_to_spawn", "dc/da9/gamemode__ca_8qc.html#a37c746e1bfefa9fd71b65c4435f95ed7", null ],
     [ "autocvar_g_ca_point_leadlimit", "dc/da9/gamemode__ca_8qc.html#a99970939c2b6fdffb0cb6c3693fd94a5", null ],
     [ "autocvar_g_ca_point_limit", "dc/da9/gamemode__ca_8qc.html#a7e89ab97ff878f4d69aac275d25995e7", null ],

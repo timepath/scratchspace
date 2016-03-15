@@ -1,5 +1,11 @@
 var NAVTREEINDEX45 =
 {
+"d9/d12/dialog__hudpanel__modicons_8qc_source.html":[1,0,4,4,56],
+"d9/d18/screenshotlist_8qc.html":[1,0,4,4,194],
+"d9/d18/screenshotlist_8qc.html#a0e056ceef80262f10343195926ccd54a":[1,0,4,4,194,15],
+"d9/d18/screenshotlist_8qc.html#a0fce8428404e1a6e036c70e7b8bc9022":[1,0,4,4,194,3],
+"d9/d18/screenshotlist_8qc.html#a1852435b96100982b260ec2cbd3aa8c5":[1,0,4,4,194,0],
+"d9/d18/screenshotlist_8qc.html#a23ad36029414709f209e1e28806bd3d8":[1,0,4,4,194,16],
 "d9/d18/screenshotlist_8qc.html#a302a1c1f1f4755f523e78fa7c2b82b3c":[1,0,4,4,194,9],
 "d9/d18/screenshotlist_8qc.html#a3bf8f72894b6e34845a26b42885ef0b1":[1,0,4,4,194,20],
 "d9/d18/screenshotlist_8qc.html#a52e3c8c211d412b1d344cf311a2c2d01":[1,0,4,4,194,7],
@@ -107,8 +113,8 @@ var NAVTREEINDEX45 =
 "d9/d40/dialog__settings__audio_8qh.html#a23bae3b1ca3dcb9b7b74f6773469cb96":[1,0,4,4,119,1],
 "d9/d40/dialog__settings__audio_8qh.html#acb46f971fa58edf9c53e0ed76d72bd68":[1,0,4,4,119,0],
 "d9/d40/dialog__settings__audio_8qh_source.html":[1,0,4,4,119],
-"d9/d45/globalsound_8qc.html":[1,0,1,2,0,6],
-"d9/d45/globalsound_8qc_source.html":[1,0,1,2,0,6],
+"d9/d45/globalsound_8qc.html":[1,0,1,2,0,7],
+"d9/d45/globalsound_8qc_source.html":[1,0,1,2,0,7],
 "d9/d47/cvarlist_8qh.html":[1,0,4,4,31],
 "d9/d47/cvarlist_8qh.html#a1887a2da6825992ddb99acd7cbcc0388":[1,0,4,4,31,1],
 "d9/d47/cvarlist_8qh.html#a39f82a66971a7a85c801c09ca60e34f0":[1,0,4,4,31,3],
@@ -243,11 +249,5 @@ var NAVTREEINDEX45 =
 "d9/d67/turret_8qh.html#a0a9cdc73840412292168070aa88028c4":[1,0,1,14,11,101],
 "d9/d67/turret_8qh.html#a0d102afb12aa277b4ed0f115a3fea952":[1,0,1,14,11,42],
 "d9/d67/turret_8qh.html#a18df068610050c4bba9a48c21f2ece04":[1,0,1,14,11,29],
-"d9/d67/turret_8qh.html#a1b17700f4b482d033a42877d84068f1b":[1,0,1,14,11,81],
-"d9/d67/turret_8qh.html#a201fbb5802eea57dcfa8ae679796b077":[1,0,1,14,11,96],
-"d9/d67/turret_8qh.html#a203eb7283f1b6cd7715c93d450a9ceb5":[1,0,1,14,11,73],
-"d9/d67/turret_8qh.html#a204092caa868ede3a6412a0581a440ea":[1,0,1,14,11,65],
-"d9/d67/turret_8qh.html#a226eeb882d88627843929bd17604e01b":[1,0,1,14,11,88],
-"d9/d67/turret_8qh.html#a2447f66b407f4f0346f3dd087a44568f":[1,0,1,14,11,2],
-"d9/d67/turret_8qh.html#a25abb578b96ba7eb4d19f774ffface61":[1,0,1,14,11,39]
+"d9/d67/turret_8qh.html#a1b17700f4b482d033a42877d84068f1b":[1,0,1,14,11,81]
 };

@@ -160,33 +160,33 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00403">403</a> of file <a class="el" href="../../d7/de2/g__hook_8qc_source.html">g_hook.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00405">405</a> of file <a class="el" href="../../d7/de2/g__hook_8qc_source.html">g_hook.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00050">CL_Weapon_GetShotOrg()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00010">g_grappling_hook</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00081">hook_shotorigin</a>, and <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00301">shotorg_adjust_values()</a>.</p>
+<p>References <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00051">CL_Weapon_GetShotOrg()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00010">g_grappling_hook</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00081">hook_shotorigin</a>, and <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00301">shotorg_adjust_values()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00570">spawnfunc()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;{</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a20b8fd2c223a945ae85aa2105e9cc078">g_grappling_hook</a>)</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    {</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[0] = <span class="stringliteral">&#39;8 8 -12&#39;</span>;</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[1] = <span class="stringliteral">&#39;8 8 -12&#39;</span>;</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[2] = <span class="stringliteral">&#39;8 8 -12&#39;</span>;</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[3] = <span class="stringliteral">&#39;8 8 -12&#39;</span>;</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    }</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    {</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        Weapon w = WEP_HOOK;</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        w.wr_init(w);</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[0] = <a class="code" href="../../de/dfa/common_2weapons_2all_8qc.html#a55c1f203ec4d2bf0831cdeeeab21e736">shotorg_adjust_values</a>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0">CL_Weapon_GetShotOrg</a>(WEP_HOOK.m_id), <span class="keyword">false</span>, <span class="keyword">false</span>, 1);</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[1] = <a class="code" href="../../de/dfa/common_2weapons_2all_8qc.html#a55c1f203ec4d2bf0831cdeeeab21e736">shotorg_adjust_values</a>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0">CL_Weapon_GetShotOrg</a>(WEP_HOOK.m_id), <span class="keyword">false</span>, <span class="keyword">false</span>, 2);</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[2] = <a class="code" href="../../de/dfa/common_2weapons_2all_8qc.html#a55c1f203ec4d2bf0831cdeeeab21e736">shotorg_adjust_values</a>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0">CL_Weapon_GetShotOrg</a>(WEP_HOOK.m_id), <span class="keyword">false</span>, <span class="keyword">false</span>, 3);</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[3] = <a class="code" href="../../de/dfa/common_2weapons_2all_8qc.html#a55c1f203ec4d2bf0831cdeeeab21e736">shotorg_adjust_values</a>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0">CL_Weapon_GetShotOrg</a>(WEP_HOOK.m_id), <span class="keyword">false</span>, <span class="keyword">false</span>, 4);</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    }</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00571">spawnfunc()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;{</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a20b8fd2c223a945ae85aa2105e9cc078">g_grappling_hook</a>)</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    {</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[0] = <span class="stringliteral">&#39;8 8 -12&#39;</span>;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[1] = <span class="stringliteral">&#39;8 8 -12&#39;</span>;</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[2] = <span class="stringliteral">&#39;8 8 -12&#39;</span>;</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[3] = <span class="stringliteral">&#39;8 8 -12&#39;</span>;</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    }</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    {</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        Weapon w = WEP_HOOK;</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        w.wr_init(w);</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[0] = <a class="code" href="../../de/dfa/common_2weapons_2all_8qc.html#a55c1f203ec4d2bf0831cdeeeab21e736">shotorg_adjust_values</a>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0">CL_Weapon_GetShotOrg</a>(WEP_HOOK.m_id), <span class="keyword">false</span>, <span class="keyword">false</span>, 1);</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[1] = <a class="code" href="../../de/dfa/common_2weapons_2all_8qc.html#a55c1f203ec4d2bf0831cdeeeab21e736">shotorg_adjust_values</a>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0">CL_Weapon_GetShotOrg</a>(WEP_HOOK.m_id), <span class="keyword">false</span>, <span class="keyword">false</span>, 2);</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[2] = <a class="code" href="../../de/dfa/common_2weapons_2all_8qc.html#a55c1f203ec4d2bf0831cdeeeab21e736">shotorg_adjust_values</a>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0">CL_Weapon_GetShotOrg</a>(WEP_HOOK.m_id), <span class="keyword">false</span>, <span class="keyword">false</span>, 3);</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        <a class="code" href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a>[3] = <a class="code" href="../../de/dfa/common_2weapons_2all_8qc.html#a55c1f203ec4d2bf0831cdeeeab21e736">shotorg_adjust_values</a>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0">CL_Weapon_GetShotOrg</a>(WEP_HOOK.m_id), <span class="keyword">false</span>, <span class="keyword">false</span>, 4);</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    }</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;}</div>
 <div class="ttc" id="client_2defs_8qh_html_a8da6670c4c2fcb1867ab68b694886bf6"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6">hook_shotorigin</a></div><div class="ttdeci">vector hook_shotorigin[4]</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00081">defs.qh:81</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a20b8fd2c223a945ae85aa2105e9cc078"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a20b8fd2c223a945ae85aa2105e9cc078">g_grappling_hook</a></div><div class="ttdeci">float g_grappling_hook</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00010">defs.qh:10</a></div></div>
 <div class="ttc" id="common_2weapons_2all_8qc_html_a55c1f203ec4d2bf0831cdeeeab21e736"><div class="ttname"><a href="../../de/dfa/common_2weapons_2all_8qc.html#a55c1f203ec4d2bf0831cdeeeab21e736">shotorg_adjust_values</a></div><div class="ttdeci">vector shotorg_adjust_values(vector vecs, bool y_is_right, bool visual, int algn)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00301">all.qc:301</a></div></div>
-<div class="ttc" id="weaponsystem_8qc_html_a5ca7d3daca601e9736aaeb92905987f0"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0">CL_Weapon_GetShotOrg</a></div><div class="ttdeci">vector CL_Weapon_GetShotOrg(int wpn)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00050">weaponsystem.qc:50</a></div></div>
+<div class="ttc" id="weaponsystem_8qc_html_a5ca7d3daca601e9736aaeb92905987f0"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0">CL_Weapon_GetShotOrg</a></div><div class="ttdeci">vector CL_Weapon_GetShotOrg(int wpn)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00051">weaponsystem.qc:51</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -224,21 +224,21 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00071">71</a> of file <a class="el" href="../../d7/de2/g__hook_8qc_source.html">g_hook.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00073">73</a> of file <a class="el" href="../../d7/de2/g__hook_8qc_source.html">g_hook.qc</a>.</p>
 
 <p>References <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00251">MOVETYPE_FLY</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00249">MOVETYPE_WALK</a>, and <a class="el" href="../../d3/d70/menu_2progs_8inc_source.html#l00003">world</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01132">ClientDisconnect()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00575">Damage()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00512">Freeze()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00320">GrapplingHook_Damage()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00083">GrapplingHookReset()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00135">GrapplingHookThink()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00297">PlayerDamage()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00165">PutObserverInServer()</a>, <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00014">Teleport_Touch()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00552">Unfreeze()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00963">vehicles_enter()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01129">vehicles_spawn()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01087">WarpZone_Projectile_Touch_ImpactFilter_Callback()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;{</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">if</span>(pl.hook == <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>)</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keyword">remove</span>(pl.hook);</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    pl.hook = <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">if</span>(pl.movetype == <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0438992800fc2c9d52f6bafe99e50ebd">MOVETYPE_FLY</a>)</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        pl.movetype = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    <span class="comment">//pl.disableclientprediction = false;</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01134">ClientDisconnect()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00577">Damage()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00514">Freeze()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00322">GrapplingHook_Damage()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00085">GrapplingHookReset()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00137">GrapplingHookThink()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00300">PlayerDamage()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00167">PutObserverInServer()</a>, <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00014">Teleport_Touch()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00554">Unfreeze()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00963">vehicles_enter()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01129">vehicles_spawn()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01089">WarpZone_Projectile_Touch_ImpactFilter_Callback()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">if</span>(pl.hook == <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>)</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">remove</span>(pl.hook);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    pl.hook = <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">if</span>(pl.movetype == <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0438992800fc2c9d52f6bafe99e50ebd">MOVETYPE_FLY</a>)</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        pl.movetype = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="comment">//pl.disableclientprediction = false;</span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
 <div class="ttc" id="progsdefs_8qc_html_a31938f237dbe4b58beccf0af8ee3713f"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a></div><div class="ttdeci">float MOVETYPE_WALK</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00249">progsdefs.qc:249</a></div></div>
 <div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a0438992800fc2c9d52f6bafe99e50ebd"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a0438992800fc2c9d52f6bafe99e50ebd">MOVETYPE_FLY</a></div><div class="ttdeci">float MOVETYPE_FLY</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00251">progsdefs.qc:251</a></div></div>
@@ -268,7 +268,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/de1/g__hook_8qh_source.html#l00004">4</a> of file <a class="el" href="../../d7/de1/g__hook_8qh_source.html">g_hook.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00096">CreatureFrame_FallDamage()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l02020">PlayerPreThink()</a>, and <a class="el" href="../../dc/ddd/player_8qc_source.html#l00757">PM_check_hitground()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00096">CreatureFrame_FallDamage()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l02022">PlayerPreThink()</a>, and <a class="el" href="../../dc/ddd/player_8qc_source.html#l00757">PM_check_hitground()</a>.</p>
 
 </div>
 </div>
@@ -298,7 +298,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/de1/g__hook_8qh_source.html#l00011">11</a> of file <a class="el" href="../../d7/de1/g__hook_8qh_source.html">g_hook.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00135">GrapplingHookThink()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00137">GrapplingHookThink()</a>.</p>
 
 </div>
 </div>
@@ -314,7 +314,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/de1/g__hook_8qh_source.html#l00012">12</a> of file <a class="el" href="../../d7/de1/g__hook_8qh_source.html">g_hook.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00135">GrapplingHookThink()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00137">GrapplingHookThink()</a>.</p>
 
 </div>
 </div>
@@ -372,7 +372,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/de1/g__hook_8qh_source.html#l00007">7</a> of file <a class="el" href="../../d7/de1/g__hook_8qh_source.html">g_hook.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00165">PutObserverInServer()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00167">PutObserverInServer()</a>.</p>
 
 </div>
 </div>
@@ -396,7 +396,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d7/de1/g__hook_8qh.html">g_hook.qh</a></li>
-    <li class="footer">Generated on Tue Mar 15 2016 05:53:06 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 08:13:39 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

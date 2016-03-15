@@ -109,7 +109,7 @@ var searchData=
   ['neutralflag_5fprevframe',['neutralflag_prevframe',['../dd/d59/modicons_8qc.html#a512502e64291f7365a8e33b557465eab',1,'modicons.qc']]],
   ['neutralflag_5fprevstatus',['neutralflag_prevstatus',['../dd/d59/modicons_8qc.html#ae5fe73e0d266cd8941ebdc7252019849',1,'modicons.qc']]],
   ['neutralflag_5fstatuschange_5ftime',['neutralflag_statuschange_time',['../dd/d59/modicons_8qc.html#abbc271ee072031f5b5ca808991e63505',1,'modicons.qc']]],
-  ['new',['NEW',['../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48',1,'NEW():&#160;oo.qh'],['../db/d0a/oo_8qh.html#ab92f7aae1a80b93313256ec9a7389ed1',1,'new():&#160;oo.qh']]],
+  ['new',['new',['../db/d0a/oo_8qh.html#ab92f7aae1a80b93313256ec9a7389ed1',1,'new():&#160;oo.qh'],['../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48',1,'NEW():&#160;oo.qh']]],
   ['new_5fpure',['new_pure',['../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9',1,'oo.qh']]],
   ['new_5ftoys_2eqc',['new_toys.qc',['../d3/d7d/new__toys_8qc.html',1,'']]],
   ['nexball_2eqc',['nexball.qc',['../dc/d5a/nexball_8qc.html',1,'']]],

@@ -1,5 +1,16 @@
 var NAVTREEINDEX68 =
 {
+"df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html#af11023be7fcc00f81d6d91390e9e7127":[1,0,4,4,109,0],
+"df/d27/dialog__multiplayer__media__screenshot__viewer_8qh_source.html":[1,0,4,4,109],
+"df/d28/menu_2xonotic_2button_8qc.html":[1,0,4,4,4],
+"df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[1,0,4,4,4,2],
+"df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[1,0,4,4,4,1],
+"df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9":[1,0,4,4,4,0],
+"df/d28/menu_2xonotic_2button_8qc_source.html":[1,0,4,4,4],
+"df/d28/sv__turrets_8qh.html":[1,0,1,14,9],
+"df/d28/sv__turrets_8qh.html#a0577e32e3f20aa8ba4749eef48714d18":[1,0,1,14,9,19],
+"df/d28/sv__turrets_8qh.html#a07c4c1a4a7cb4c2974e3f73f6c395d5c":[1,0,1,14,9,20],
+"df/d28/sv__turrets_8qh.html#a1176ea059ff3eb5c59e89f87b7837179":[1,0,1,14,9,67],
 "df/d28/sv__turrets_8qh.html#a15df8a6498e96a76f4a5e0213150f6a8":[1,0,1,14,9,2],
 "df/d28/sv__turrets_8qh.html#a168754a4c3acfcdb34318de74c36b4f9":[1,0,1,14,9,60],
 "df/d28/sv__turrets_8qh.html#a16df72fa969045d31c5140be979fc387":[1,0,1,14,9,39],
@@ -238,16 +249,5 @@ var NAVTREEINDEX68 =
 "df/d4f/ladder_8qh.html":[1,0,1,13,0,13],
 "df/d4f/ladder_8qh.html#aa60a516fc0a4e7635ac3ac1a854b9266":[1,0,1,13,0,13,1],
 "df/d4f/ladder_8qh.html#ac7991a33f246233f749dbc74c6504b83":[1,0,1,13,0,13,0],
-"df/d4f/ladder_8qh_source.html":[1,0,1,13,0,13],
-"df/d50/mutators_2mutator_2breakablehook_2module_8inc.html":[1,0,1,9,0,1,1],
-"df/d50/mutators_2mutator_2breakablehook_2module_8inc_source.html":[1,0,1,9,0,1,1],
-"df/d54/dialog__settings__game__hud_8qh.html":[1,0,4,4,127],
-"df/d54/dialog__settings__game__hud_8qh.html#a1e7be07011c958d4a8c87a8770c26f8f":[1,0,4,4,127,2],
-"df/d54/dialog__settings__game__hud_8qh.html#a2b7967e17d4cfccff3c1f979de1d2515":[1,0,4,4,127,4],
-"df/d54/dialog__settings__game__hud_8qh.html#a8355ef57cfbd4b0b0a510b61df465435":[1,0,4,4,127,0],
-"df/d54/dialog__settings__game__hud_8qh.html#aac7d1505f409383c9b9199919d2f4fe1":[1,0,4,4,127,3],
-"df/d54/dialog__settings__game__hud_8qh.html#af81b029727019578b2f147a358bcdedf":[1,0,4,4,127,1],
-"df/d54/dialog__settings__game__hud_8qh_source.html":[1,0,4,4,127],
-"df/d58/yenc_8qh.html":[1,0,3,56],
-"df/d58/yenc_8qh.html#a01877237296c3e64e52b9674f5d326bf":[1,0,3,56,1]
+"df/d4f/ladder_8qh_source.html":[1,0,1,13,0,13]
 };

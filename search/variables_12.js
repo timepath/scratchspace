@@ -71,7 +71,7 @@ var searchData=
   ['race_5fstatus_5fname_5fprev',['race_status_name_prev',['../dd/d59/modicons_8qc.html#aedf090b4d6af53cb6caf6f18acf167b8',1,'modicons.qc']]],
   ['race_5fstatus_5fprev',['race_status_prev',['../dd/d59/modicons_8qc.html#afe731bb8cb56f6633f39686b54483020',1,'modicons.qc']]],
   ['race_5fstatus_5ftime',['race_status_time',['../dd/d59/modicons_8qc.html#a7412f24104da9c431ffb3da7466cb448',1,'modicons.qc']]],
-  ['race_5fteams',['race_teams',['../d5/dd7/gamemode__race_8qc.html#aaed97faad539bf13779a661c5366dc0b',1,'gamemode_race.qc']]],
+  ['race_5fteams',['race_teams',['../d4/d1b/race_8qh.html#aaed97faad539bf13779a661c5366dc0b',1,'race.qh']]],
   ['race_5ftime',['race_time',['../d9/d08/client_2defs_8qh.html#a9ca3664d438b8f1dac1a68ceee61d5a6',1,'defs.qh']]],
   ['race_5ftimed_5fcheckpoint',['race_timed_checkpoint',['../d6/d3b/race_8qc.html#a51f6661918cf5435d4c4ef00302e72c0',1,'race.qc']]],
   ['race_5ftimelimit',['race_timelimit',['../d4/d1b/race_8qh.html#a60995d4dad223a91a51a97437587c3e4',1,'race.qh']]],

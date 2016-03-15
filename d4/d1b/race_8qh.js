@@ -34,7 +34,11 @@ var race_8qh =
     [ "race_respawn_spotref", "d4/d1b/race_8qh.html#a5b99a8771f988422a60fce04ffa64b5e", null ],
     [ "race_spawns", "d4/d1b/race_8qh.html#a0cf3c746a02d8f934c12691dadca5d3e", null ],
     [ "race_started", "d4/d1b/race_8qh.html#aca2d06d933085c7495d4e22948f5d2db", null ],
+    [ "race_teams", "d4/d1b/race_8qh.html#aaed97faad539bf13779a661c5366dc0b", null ],
     [ "race_timelimit", "d4/d1b/race_8qh.html#a60995d4dad223a91a51a97437587c3e4", null ],
+    [ "SP_RACE_FASTEST", "d4/d1b/race_8qh.html#ae38367348f75f96ed5d3daf5c4e9ee87", null ],
+    [ "SP_RACE_LAPS", "d4/d1b/race_8qh.html#a3de8f18f3907ce9b99b58b38c58ce880", null ],
+    [ "SP_RACE_TIME", "d4/d1b/race_8qh.html#ae3ff617e8d6a6fec18b814656471521d", null ],
     [ "speedaward_alltimebest", "d4/d1b/race_8qh.html#a3754e830af883f4472a68ab49f213124", null ],
     [ "speedaward_alltimebest_holder", "d4/d1b/race_8qh.html#aeea8ac23a101c900b79ac67b637b7f70", null ],
     [ "speedaward_alltimebest_uid", "d4/d1b/race_8qh.html#ab7e2e5d303fb57efc7035a54cd72bf21", null ],
@@ -42,5 +46,6 @@ var race_8qh =
     [ "speedaward_lastsent", "d4/d1b/race_8qh.html#ae952a847e056ec6806ee293a26715447", null ],
     [ "speedaward_lastupdate", "d4/d1b/race_8qh.html#a7d873efbcde54abb5c6024328ed5b5bf", null ],
     [ "speedaward_speed", "d4/d1b/race_8qh.html#a5556d6ab44fced2e2f2424cda680514c", null ],
-    [ "speedaward_uid", "d4/d1b/race_8qh.html#ae12c1c9683fdacff4f1a7b6eea72f0f4", null ]
+    [ "speedaward_uid", "d4/d1b/race_8qh.html#ae12c1c9683fdacff4f1a7b6eea72f0f4", null ],
+    [ "ST_RACE_LAPS", "d4/d1b/race_8qh.html#a3af52531d4aea38c0d8a0b5594a80c4f", null ]
 ];

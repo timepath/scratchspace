@@ -1,5 +1,12 @@
 var NAVTREEINDEX55 =
 {
+"dc/d03/keycodes_8qc.html#a3095b99971b65ab2997d101b13aefd5f":[1,0,2,0,2,24],
+"dc/d03/keycodes_8qc.html#a315e227218f29accc4cd092b941cafaa":[1,0,2,0,2,37],
+"dc/d03/keycodes_8qc.html#a332782a7ce0f3e3a53b8e37ebfc785cc":[1,0,2,0,2,11],
+"dc/d03/keycodes_8qc.html#a34d34993fcc2251fa4a36c826efda9ed":[1,0,2,0,2,66],
+"dc/d03/keycodes_8qc.html#a3555627cb4a3ca93d324f36fd94cff87":[1,0,2,0,2,88],
+"dc/d03/keycodes_8qc.html#a3582f4fe79dbcda35883bc61435689ea":[1,0,2,0,2,104],
+"dc/d03/keycodes_8qc.html#a35cd67ca28118912e29b2323499b438b":[1,0,2,0,2,63],
 "dc/d03/keycodes_8qc.html#a3805968235867e39001857ed7f26ed06":[1,0,2,0,2,23],
 "dc/d03/keycodes_8qc.html#a3f79735353bd2d9a9b7e67847a9865b7":[1,0,2,0,2,35],
 "dc/d03/keycodes_8qc.html#a403b2744d5225398d9265452c17f2fc4":[1,0,2,0,2,110],
@@ -187,8 +194,8 @@ var NAVTREEINDEX55 =
 "dc/d1d/server_2pathlib_2debug_8qh_source.html":[1,0,5,3,4],
 "dc/d1f/melee__only_8qc.html":[1,0,1,9,0,12,0],
 "dc/d1f/melee__only_8qc_source.html":[1,0,1,9,0,12,0],
-"dc/d20/modeleffects_8qc.html":[1,0,1,2,0,9],
-"dc/d20/modeleffects_8qc_source.html":[1,0,1,2,0,9],
+"dc/d20/modeleffects_8qc.html":[1,0,1,2,0,11],
+"dc/d20/modeleffects_8qc_source.html":[1,0,1,2,0,11],
 "dc/d23/dialog__settings_8qh.html":[1,0,4,4,117],
 "dc/d23/dialog__settings_8qh.html#a5cc7e8ea5ce2ba66869a038c5b9d05d6":[1,0,4,4,117,0],
 "dc/d23/dialog__settings_8qh_source.html":[1,0,4,4,117],
@@ -205,6 +212,8 @@ var NAVTREEINDEX55 =
 "dc/d2b/chat_8qc.html":[1,0,0,1,0,4],
 "dc/d2b/chat_8qc.html#a008d4ee087388abdbf0ccb7377b13387":[1,0,0,1,0,4,0],
 "dc/d2b/chat_8qc_source.html":[1,0,0,1,0,4],
+"dc/d30/gibs_8qh.html":[1,0,1,2,0,6],
+"dc/d30/gibs_8qh_source.html":[1,0,1,2,0,6],
 "dc/d38/target_2include_8qh.html":[1,0,1,13,2,2],
 "dc/d38/target_2include_8qh.html#a5142f7e6f9dc1071427ced6fd2da0847":[1,0,1,13,2,2,0],
 "dc/d38/target_2include_8qh_source.html":[1,0,1,13,2,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX55 =
 "dc/d3d/csqcmodel__hooks_8qc.html#a0f179309458eca2fb0e79ee5a321e603":[1,0,0,11,53],
 "dc/d3d/csqcmodel__hooks_8qc.html#a0f670f407a9b5fc0eacd05397b50271d":[1,0,0,11,46],
 "dc/d3d/csqcmodel__hooks_8qc.html#a10c749ede6f047340b6fdb31bc63c728":[1,0,0,11,37],
-"dc/d3d/csqcmodel__hooks_8qc.html#a10da39b48aa5194f2a1bfb05ad5d8a7e":[1,0,0,11,23],
-"dc/d3d/csqcmodel__hooks_8qc.html#a17a6c58f046d5ba0a992704a55bee50e":[1,0,0,11,50],
-"dc/d3d/csqcmodel__hooks_8qc.html#a1bd92a536c5f5a353c528a891ba39b20":[1,0,0,11,42],
-"dc/d3d/csqcmodel__hooks_8qc.html#a1c17b346dec89b6434e65d185e8aa494":[1,0,0,11,52],
-"dc/d3d/csqcmodel__hooks_8qc.html#a1d84f1cb572be7335713c6d493aa7c78":[1,0,0,11,26],
-"dc/d3d/csqcmodel__hooks_8qc.html#a21deac1a37296b9fdf86eedd68f71b30":[1,0,0,11,36],
-"dc/d3d/csqcmodel__hooks_8qc.html#a24be64785c2d8231c9e3f39697365466":[1,0,0,11,21],
-"dc/d3d/csqcmodel__hooks_8qc.html#a2624228f82a5ae03006d9a33fc1b707c":[1,0,0,11,7],
-"dc/d3d/csqcmodel__hooks_8qc.html#a2b971c267f8e7807ea8b60a6070d3a2c":[1,0,0,11,2],
-"dc/d3d/csqcmodel__hooks_8qc.html#a2cff298ea0a3612eecc46e934a570df0":[1,0,0,11,47]
+"dc/d3d/csqcmodel__hooks_8qc.html#a10da39b48aa5194f2a1bfb05ad5d8a7e":[1,0,0,11,23]
 };
