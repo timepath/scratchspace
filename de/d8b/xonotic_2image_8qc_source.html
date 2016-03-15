@@ -105,43 +105,32 @@ $(document).ready(function(){initNavTree('de/d8b/xonotic_2image_8qc_source.html'
 </div><!--header-->
 <div class="contents">
 <a href="../../de/d8b/xonotic_2image_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d7/d7f/xonotic_2image_8qh.html">image.qh</a>&quot;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#ifndef IMAGE_H</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../de/d8b/xonotic_2image_8qc.html#a87f48249de46767c5c858498ea6cf9c5">    3</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define IMAGE_H</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &quot;../item/image.qc&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a>(XonoticImage, Image)</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d9/dd9/item_2image_8qc.html#ab149ffb7a27dfe5147a4a18ef0a5801d">METHOD</a>(XonoticImage, configureXonoticImage, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>, <span class="keywordtype">string</span>, <span class="keywordtype">float</span>));</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a>(XonoticImage)</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;entity <a class="code" href="../../de/d8b/xonotic_2image_8qc.html#a342332e21b2ee36298df0c2c0f3f11a1">makeXonoticImage</a>(<span class="keywordtype">string</span> theImage, <span class="keywordtype">float</span> theAspect);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#ifdef IMPLEMENTATION</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor"></span>entity <a class="code" href="../../de/d8b/xonotic_2image_8qc.html#a342332e21b2ee36298df0c2c0f3f11a1">makeXonoticImage</a>(<span class="keywordtype">string</span> theImage, <span class="keywordtype">float</span> theAspect)</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    entity me;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    me = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(XonoticImage);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    me.configureXonoticImage(me, theImage, theAspect);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">return</span> me;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="keywordtype">void</span> XonoticImage_configureXonoticImage(entity me, <span class="keywordtype">string</span> theImage, <span class="keywordtype">float</span> theAspect)</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;{</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    me.configureImage(me, theImage);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    me.forcedAspect = theAspect;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d7/d7f/xonotic_2image_8qh.html#a342332e21b2ee36298df0c2c0f3f11a1">    3</a></span>&#160;<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <a class="code" href="../../de/d8b/xonotic_2image_8qc.html#a342332e21b2ee36298df0c2c0f3f11a1">makeXonoticImage</a>(<span class="keywordtype">string</span> theImage, <span class="keywordtype">float</span> theAspect)</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <a class="code" href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    me = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(XonoticImage);</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    me.configureXonoticImage(me, theImage, theAspect);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;}</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../de/d8b/xonotic_2image_8qc.html#aec88164f7d8c789d9016b9f759dd96dc">   10</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../de/d8b/xonotic_2image_8qc.html#aec88164f7d8c789d9016b9f759dd96dc">XonoticImage_configureXonoticImage</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <a class="code" href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a>, <span class="keywordtype">string</span> theImage, <span class="keywordtype">float</span> theAspect)</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    me.configureImage(me, theImage);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    me.forcedAspect = theAspect;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
 <div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00108">oo.qh:108</a></div></div>
 <div class="ttc" id="xonotic_2image_8qh_html"><div class="ttname"><a href="../../d7/d7f/xonotic_2image_8qh.html">image.qh</a></div></div>
-<div class="ttc" id="item_2image_8qc_html_ab149ffb7a27dfe5147a4a18ef0a5801d"><div class="ttname"><a href="../../d9/dd9/item_2image_8qc.html#ab149ffb7a27dfe5147a4a18ef0a5801d">METHOD</a></div><div class="ttdeci">METHOD(Image, configureImage, void(entity, string))</div></div>
-<div class="ttc" id="oo_8qh_html_a71373c33560dcca984e1c21df4fa1d5f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a></div><div class="ttdeci">#define ENDCLASS(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00210">oo.qh:210</a></div></div>
-<div class="ttc" id="xonotic_2image_8qc_html_a342332e21b2ee36298df0c2c0f3f11a1"><div class="ttname"><a href="../../de/d8b/xonotic_2image_8qc.html#a342332e21b2ee36298df0c2c0f3f11a1">makeXonoticImage</a></div><div class="ttdeci">entity makeXonoticImage(string theImage, float theAspect)</div></div>
+<div class="ttc" id="xonotic_2image_8qc_html_aec88164f7d8c789d9016b9f759dd96dc"><div class="ttname"><a href="../../de/d8b/xonotic_2image_8qc.html#aec88164f7d8c789d9016b9f759dd96dc">XonoticImage_configureXonoticImage</a></div><div class="ttdeci">void XonoticImage_configureXonoticImage(entity me, string theImage, float theAspect)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d8b/xonotic_2image_8qc_source.html#l00010">image.qc:10</a></div></div>
+<div class="ttc" id="item_2dialog_8qh_html_a700a54058a31b6d69e1c4d8f544a6c48"><div class="ttname"><a href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a></div><div class="ttdeci">entity me</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d88/item_2dialog_8qh_source.html#l00072">dialog.qh:72</a></div></div>
+<div class="ttc" id="xonotic_2image_8qc_html_a342332e21b2ee36298df0c2c0f3f11a1"><div class="ttname"><a href="../../de/d8b/xonotic_2image_8qc.html#a342332e21b2ee36298df0c2c0f3f11a1">makeXonoticImage</a></div><div class="ttdeci">entity makeXonoticImage(string theImage, float theAspect)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d8b/xonotic_2image_8qc_source.html#l00003">image.qc:3</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
-<div class="ttc" id="oo_8qh_html_abeb668c90209cec33cbe7d1589befa60"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a></div><div class="ttdeci">CLASS(Object,)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../de/d8b/xonotic_2image_8qc.html">image.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:11 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

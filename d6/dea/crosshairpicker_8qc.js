@@ -1,9 +1,10 @@
 var crosshairpicker_8qc =
 [
-    [ "CROSSHAIRPICKER_H", "d6/dea/crosshairpicker_8qc.html#ad0de3c30a0deb86bed2462dc01cf78fc", null ],
+    [ "crosshairpicker_cellToCrosshair", "d6/dea/crosshairpicker_8qc.html#ac9f68b3a09a11b8d871fd5da29b4e68a", null ],
+    [ "crosshairpicker_crosshairToCell", "d6/dea/crosshairpicker_8qc.html#afdd6df90082971c240902a951d044c1d", null ],
     [ "makeXonoticCrosshairPicker", "d6/dea/crosshairpicker_8qc.html#a4c4327ccd7a6062460da870f8b6b33b7", null ],
-    [ "METHOD", "d6/dea/crosshairpicker_8qc.html#a3004d31cdd36cc63432e561079f9f603", null ],
-    [ "METHOD", "d6/dea/crosshairpicker_8qc.html#a1a01e8d8d8fde4aea249228e05b31607", null ],
-    [ "METHOD", "d6/dea/crosshairpicker_8qc.html#a3648fea0898ddf60b9ad556ee0af54d4", null ],
-    [ "METHOD", "d6/dea/crosshairpicker_8qc.html#a93d7c1e525950d64340ace902d361f19", null ]
+    [ "XonoticCrosshairPicker_cellDraw", "d6/dea/crosshairpicker_8qc.html#a5c221b96cde768a1ba2bb5c09a80ca01", null ],
+    [ "XonoticCrosshairPicker_cellIsValid", "d6/dea/crosshairpicker_8qc.html#a56c691ef6239647964068dc4850b9bf1", null ],
+    [ "XonoticCrosshairPicker_cellSelect", "d6/dea/crosshairpicker_8qc.html#adb4cd4289ac6b6cde6406bd64e9b456c", null ],
+    [ "XonoticCrosshairPicker_configureXonoticCrosshairPicker", "d6/dea/crosshairpicker_8qc.html#a7e1c51fffefece8ef83e7546df6d05e7", null ]
 ];

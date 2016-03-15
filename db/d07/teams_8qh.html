@@ -157,9 +157,9 @@ Macros</h2></td></tr>
 <tr class="separator:ae0e4a7d1b3b18f694a7498bc9019d637"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2310834f129c74b57322a7425856f9dd"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a2310834f129c74b57322a7425856f9dd">TCR</a>(input, teamcolor, teamtext)&#160;&#160;&#160;strreplace(&quot;^TC&quot;, teamcolor, strreplace(&quot;^TT&quot;, teamtext, input))</td></tr>
 <tr class="separator:a2310834f129c74b57322a7425856f9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20256da9a327868240f1e864e6051ad4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(a, b)&#160;&#160;&#160;(<a class="el" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> ? (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">a.team</a> == <a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">b.team</a>) : (a == b))</td></tr>
+<tr class="memitem:a20256da9a327868240f1e864e6051ad4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(<a class="el" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a>, b)&#160;&#160;&#160;(<a class="el" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> ? (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">a.team</a> == <a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">b.team</a>) : (<a class="el" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a> == b))</td></tr>
 <tr class="separator:a20256da9a327868240f1e864e6051ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3cad6bbbe99c12c662ec0c90e30095b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(a, b)&#160;&#160;&#160;(<a class="el" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> ? (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">a.team</a> != <a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">b.team</a>) : (a != b))</td></tr>
+<tr class="memitem:ab3cad6bbbe99c12c662ec0c90e30095b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(<a class="el" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a>, b)&#160;&#160;&#160;(<a class="el" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> ? (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">a.team</a> != <a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">b.team</a>) : (<a class="el" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a> != b))</td></tr>
 <tr class="separator:ab3cad6bbbe99c12c662ec0c90e30095b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -237,7 +237,7 @@ Variables</h2></td></tr>
           <td class="memname">#define DIFF_TEAM</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">a, </td>
+          <td class="paramname"><a class="el" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -248,7 +248,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> ? (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">a.team</a> != <a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">b.team</a>) : (a != b))</td>
+          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> ? (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">a.team</a> != <a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">b.team</a>) : (<a class="el" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a> != b))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -361,7 +361,7 @@ Variables</h2></td></tr>
           <td class="memname">#define SAME_TEAM</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">a, </td>
+          <td class="paramname"><a class="el" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -372,7 +372,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> ? (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">a.team</a> == <a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">b.team</a>) : (a == b))</td>
+          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a> ? (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">a.team</a> == <a class="el" href="../../d6/d11/progsdefs_8qc.html#a3d275e2549a965870a5065865a00092c">b.team</a>) : (<a class="el" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a> == b))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1146,7 +1146,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../db/d07/teams_8qh.html">teams.qh</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:16 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

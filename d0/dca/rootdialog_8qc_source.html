@@ -105,44 +105,24 @@ $(document).ready(function(){initNavTree('d0/dca/rootdialog_8qc_source.html','..
 </div><!--header-->
 <div class="contents">
 <a href="../../d0/dca/rootdialog_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d9/d85/rootdialog_8qh.html">rootdialog.qh</a>&quot;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#ifndef ROOTDIALOG_H</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d0/dca/rootdialog_8qc.html#a69617a2871afd716f0fe74a31f89cafe">    3</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ROOTDIALOG_H</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &quot;<a class="code" href="../../d9/d55/xonotic_2dialog_8qc.html">dialog.qc</a>&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a>(XonoticRootDialog, XonoticDialog)</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="comment">// still to be customized by user</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="comment">/*</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">    ATTRIB(XonoticDialog, closable, float, 1)</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">    ATTRIB(XonoticDialog, title, string, _(&quot;Form1&quot;)) // ;)</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">    ATTRIB(XonoticDialog, color, vector, &#39;1 0.5 1&#39;)</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">    ATTRIB(XonoticDialog, intendedWidth, float, 0)</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="comment">    ATTRIB(XonoticDialog, rows, float, 3)</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">    ATTRIB(XonoticDialog, columns, float, 2)</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    */</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="../../d0/dca/rootdialog_8qc.html#a680ef2e694a05ef15ad393982b2e7fba">METHOD</a>(XonoticRootDialog, close, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>));</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a>(XonoticRootDialog)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#ifdef IMPLEMENTATION</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> XonoticRootDialog_close(entity me)</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../df/dc2/menu_8qc.html#ad201720e5a62c41db5c650f6a6275161">m_goto</a>(<a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d0/dca/rootdialog_8qc.html#a92ab662c8231e8e4ecdbb97d6f03de6f">    3</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/dca/rootdialog_8qc.html#a92ab662c8231e8e4ecdbb97d6f03de6f">XonoticRootDialog_close</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <a class="code" href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a>)</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <a class="code" href="../../df/dc2/menu_8qc.html#ad201720e5a62c41db5c650f6a6275161">m_goto</a>(<a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="rootdialog_8qh_html"><div class="ttname"><a href="../../d9/d85/rootdialog_8qh.html">rootdialog.qh</a></div></div>
-<div class="ttc" id="rootdialog_8qc_html_a680ef2e694a05ef15ad393982b2e7fba"><div class="ttname"><a href="../../d0/dca/rootdialog_8qc.html#a680ef2e694a05ef15ad393982b2e7fba">METHOD</a></div><div class="ttdeci">METHOD(XonoticRootDialog, close, void(entity))</div></div>
-<div class="ttc" id="xonotic_2dialog_8qc_html"><div class="ttname"><a href="../../d9/d55/xonotic_2dialog_8qc.html">dialog.qc</a></div></div>
-<div class="ttc" id="menu_8qc_html_ad201720e5a62c41db5c650f6a6275161"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#ad201720e5a62c41db5c650f6a6275161">m_goto</a></div><div class="ttdeci">void m_goto(string itemname)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00918">menu.qc:918</a></div></div>
-<div class="ttc" id="oo_8qh_html_a71373c33560dcca984e1c21df4fa1d5f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a></div><div class="ttdeci">#define ENDCLASS(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00210">oo.qh:210</a></div></div>
+<div class="ttc" id="item_2dialog_8qh_html_a700a54058a31b6d69e1c4d8f544a6c48"><div class="ttname"><a href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a></div><div class="ttdeci">entity me</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d88/item_2dialog_8qh_source.html#l00072">dialog.qh:72</a></div></div>
+<div class="ttc" id="menu_8qc_html_ad201720e5a62c41db5c650f6a6275161"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#ad201720e5a62c41db5c650f6a6275161">m_goto</a></div><div class="ttdeci">void m_goto(string itemname)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00933">menu.qc:933</a></div></div>
+<div class="ttc" id="rootdialog_8qc_html_a92ab662c8231e8e4ecdbb97d6f03de6f"><div class="ttname"><a href="../../d0/dca/rootdialog_8qc.html#a92ab662c8231e8e4ecdbb97d6f03de6f">XonoticRootDialog_close</a></div><div class="ttdeci">void XonoticRootDialog_close(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dca/rootdialog_8qc_source.html#l00003">rootdialog.qc:3</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
-<div class="ttc" id="oo_8qh_html_abeb668c90209cec33cbe7d1589befa60"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a></div><div class="ttdeci">CLASS(Object,)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d0/dca/rootdialog_8qc.html">rootdialog.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:12 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

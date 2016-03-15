@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('d7/da4/item__key_8qc.html','../../');}
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad0d10fa31b8387b451d1fef3ce76e604"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da4/item__key_8qc.html#ad0d10fa31b8387b451d1fef3ce76e604">item_keys_usekey</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> l, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> <a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a>)</td></tr>
+<tr class="memitem:ad0d10fa31b8387b451d1fef3ce76e604"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da4/item__key_8qc.html#ad0d10fa31b8387b451d1fef3ce76e604">item_keys_usekey</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> <a class="el" href="../../d2/d58/keyframe_8qc.html#ae5e4aff23692c45099a835661ee4ea5b">l</a>, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> <a class="el" href="../../d6/d74/serverlist_8qc.html#a79dd38a181750a643db7182f2e33f46d">p</a>)</td></tr>
 <tr class="separator:ad0d10fa31b8387b451d1fef3ce76e604"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afdfd0f20ed686bb7ad013a01f5aded19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/da4/item__key_8qc.html#afdfd0f20ed686bb7ad013a01f5aded19">item_keys_keylist</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> keylist)</td></tr>
 <tr class="separator:afdfd0f20ed686bb7ad013a01f5aded19"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -238,7 +238,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00036">36</a> of file <a class="el" href="../../d7/da4/item__key_8qc_source.html">item_key.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/d52/bits_8qh_source.html#l00013">lowestbit()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
+<p>References <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00016">l</a>, <a class="el" href="../../d5/d52/bits_8qh_source.html#l00013">lowestbit()</a>, <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00032">n</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00157">door_check_keys()</a>, and <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00034">trigger_keylock_touch()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                                        {</div>
@@ -250,10 +250,10 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span> ((keylist &amp; (keylist-1)) == 0)</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;the &quot;</span>, item_keys_names[<a class="code" href="../../d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5">lowestbit</a>(keylist)]);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">string</span> n = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordtype">int</span> base = 0;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">while</span> (keylist) {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">int</span> l = <a class="code" href="../../d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5">lowestbit</a>(keylist);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#ae5e4aff23692c45099a835661ee4ea5b">l</a> = <a class="code" href="../../d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5">lowestbit</a>(keylist);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">if</span> (n)</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            n = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(n, <span class="stringliteral">&quot;, the &quot;</span>, item_keys_names[base + l]);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">else</span></div>
@@ -263,10 +263,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        base+= l + 1;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">return</span> n;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
 <div class="ttc" id="bits_8qh_html_a4e505c95c58bad3078989c9ce70999b5"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a4e505c95c58bad3078989c9ce70999b5">lowestbit</a></div><div class="ttdeci">int lowestbit(int f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00013">bits.qh:13</a></div></div>
+<div class="ttc" id="animhost_8qc_html_ae5e4aff23692c45099a835661ee4ea5b"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#ae5e4aff23692c45099a835661ee4ea5b">l</a></div><div class="ttdeci">entity l</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00016">animhost.qc:16</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
+<div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -318,21 +320,22 @@ Functions</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00034">trigger_keylock_touch()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;{</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">float</span> valid = l.itemkeys &amp; <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.itemkeys;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">float</span> valid = <a class="code" href="../../d7/d8a/animhost_8qc.html#ae5e4aff23692c45099a835661ee4ea5b">l</a>.itemkeys &amp; <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.itemkeys;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span> (!valid) {</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="comment">// other has none of the needed keys</span></div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (l.itemkeys == valid) {</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d7/d8a/animhost_8qc.html#ae5e4aff23692c45099a835661ee4ea5b">l</a>.itemkeys == valid) {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="comment">// ALL needed keys were given</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        l.itemkeys = 0;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../d7/d8a/animhost_8qc.html#ae5e4aff23692c45099a835661ee4ea5b">l</a>.itemkeys = 0;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="comment">// only some of the needed keys were given</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        l.itemkeys &amp;= ~valid;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="../../d7/d8a/animhost_8qc.html#ae5e4aff23692c45099a835661ee4ea5b">l</a>.itemkeys &amp;= ~valid;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
+<div class="ttc" id="animhost_8qc_html_ae5e4aff23692c45099a835661ee4ea5b"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#ae5e4aff23692c45099a835661ee4ea5b">l</a></div><div class="ttdeci">entity l</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00016">animhost.qc:16</a></div></div>
 <div class="ttc" id="effectinfo_8qc_html_af1209ce3d4344049c1084fab900909cf"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a></div><div class="ttdeci">#define p(f, type, default)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -637,7 +640,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d7/da4/item__key_8qc.html">item_key.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:21 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:35 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

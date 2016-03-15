@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['easinglinear',['easingLinear',['../d3/da9/easing_8qc.html#a56eca0d70f80853b61237989a85dcb77',1,'easing.qc']]],
-  ['easingquadin',['easingQuadIn',['../d3/da9/easing_8qc.html#ad55d1443467c597fd6f9a1dcb5fac862',1,'easing.qc']]],
-  ['easingquadinout',['easingQuadInOut',['../d3/da9/easing_8qc.html#ab54c0bedee1bf5c4fdebecf8aeb1968f',1,'easing.qc']]],
-  ['easingquadout',['easingQuadOut',['../d3/da9/easing_8qc.html#a285c6f8d89651804f751c07794d5c09c',1,'easing.qc']]],
+  ['easinglinear',['easingLinear',['../d3/da9/easing_8qc.html#a0e06f8e7c1083289bc14dccbe1688e85',1,'easingLinear(float tickTime, float animDuration, float animStart, float animDelta):&#160;easing.qc'],['../df/dfd/easing_8qh.html#a56eca0d70f80853b61237989a85dcb77',1,'easingLinear(float, float, float, float):&#160;easing.qc']]],
+  ['easingquadin',['easingQuadIn',['../d3/da9/easing_8qc.html#a01ea4953be61be7302f99e451b7b2d79',1,'easingQuadIn(float tickTime, float animDuration, float animStart, float animDelta):&#160;easing.qc'],['../df/dfd/easing_8qh.html#ad55d1443467c597fd6f9a1dcb5fac862',1,'easingQuadIn(float, float, float, float):&#160;easing.qc']]],
+  ['easingquadinout',['easingQuadInOut',['../d3/da9/easing_8qc.html#a3ea1bfe1739af1e4273b0817c2091a9a',1,'easingQuadInOut(float tickTime, float animDuration, float animStart, float animDelta):&#160;easing.qc'],['../df/dfd/easing_8qh.html#ab54c0bedee1bf5c4fdebecf8aeb1968f',1,'easingQuadInOut(float, float, float, float):&#160;easing.qc']]],
+  ['easingquadout',['easingQuadOut',['../d3/da9/easing_8qc.html#a91027b36dec9be4dda2fdd5193b5147f',1,'easingQuadOut(float tickTime, float animDuration, float animStart, float animDelta):&#160;easing.qc'],['../df/dfd/easing_8qh.html#a285c6f8d89651804f751c07794d5c09c',1,'easingQuadOut(float, float, float, float):&#160;easing.qc']]],
   ['effect_5fcap',['EFFECT_CAP',['../dd/d73/common_2effects_2all_8inc.html#a0bbe1f33a4e782c4b3afeabbc5c0c5d1',1,'all.inc']]],
   ['effect_5fflag_5ftouch',['EFFECT_FLAG_TOUCH',['../dd/d73/common_2effects_2all_8inc.html#ae5430fc43016d59081a9edc8ed86bc7b',1,'all.inc']]],
   ['effect_5fnade_5fexplode',['EFFECT_NADE_EXPLODE',['../dd/d0a/effects_8inc.html#a6beee43926068791a9fe91bae831303f',1,'effects.inc']]],
@@ -45,5 +45,5 @@ var searchData=
   ['explosion_5fcalcpush_5fgetmultiplier',['explosion_calcpush_getmultiplier',['../d8/d58/calculations_8qc.html#a468e15dca4d551cc26cf33a97de62650',1,'calculations.qc']]],
   ['expm1',['expm1',['../df/d38/mathlib_8qc.html#a2ec1b285fafa6bf8681c85f58be62129',1,'expm1(float x):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a2ec1b285fafa6bf8681c85f58be62129',1,'expm1(float x):&#160;mathlib.qc']]],
   ['exponentialfalloff',['ExponentialFalloff',['../d0/d79/math_8qh.html#a7f03c0168ed8d9fb9878df24c6093ab9',1,'math.qh']]],
-  ['exposeeclosebutton_5fclick',['ExposeeCloseButton_Click',['../d3/ddf/item_2nexposee_8qc.html#a0cfe8533c42f7b5a11c996f76413a84d',1,'nexposee.qc']]]
+  ['exposeeclosebutton_5fclick',['ExposeeCloseButton_Click',['../d3/ddf/item_2nexposee_8qc.html#a0cfe8533c42f7b5a11c996f76413a84d',1,'ExposeeCloseButton_Click(entity button, entity other):&#160;nexposee.qc'],['../dd/d77/item_2nexposee_8qh.html#a0cfe8533c42f7b5a11c996f76413a84d',1,'ExposeeCloseButton_Click(entity button, entity other):&#160;nexposee.qc']]]
 ];

@@ -150,7 +150,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7620840c6a2c2d6e4d5a0ceca8b7a840"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de8/portals_8qc.html#a7620840c6a2c2d6e4d5a0ceca8b7a840">PlayerEdgeDistance</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> <a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a>, <a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> v)</td></tr>
+<tr class="memitem:a7620840c6a2c2d6e4d5a0ceca8b7a840"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de8/portals_8qc.html#a7620840c6a2c2d6e4d5a0ceca8b7a840">PlayerEdgeDistance</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> <a class="el" href="../../d6/d74/serverlist_8qc.html#a79dd38a181750a643db7182f2e33f46d">p</a>, <a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> v)</td></tr>
 <tr class="separator:a7620840c6a2c2d6e4d5a0ceca8b7a840"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a088684099ef22cff92da827e28df7407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de8/portals_8qc.html#a088684099ef22cff92da827e28df7407">Portal_ApplyTransformToPlayerAngle</a> (<a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> transform, <a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> vangle)</td></tr>
 <tr class="separator:a088684099ef22cff92da827e28df7407"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2394,11 +2394,11 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/de8/portals_8qc_source.html#l00227">227</a> of file <a class="el" href="../../de/de8/portals_8qc_source.html">portals.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
+<p>References <a class="el" href="../../de/d64/animation_8qc_source.html#l00033">delta</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/de8/portals_8qc_source.html#l00443">Portal_Think_TryTeleportPlayer()</a>, and <a class="el" href="../../de/de8/portals_8qc_source.html#l00252">Portal_Touch()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;{</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordtype">float</span> dist, distpersec, delta;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordtype">float</span> dist, distpersec, <a class="code" href="../../de/d64/animation_8qc.html#a0a1e4314fcf5e551b7dc4e6a4c54f4ca">delta</a>;</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    dist = (eorg - porg) * pnorm;</div>
@@ -2420,6 +2420,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="ttc" id="animation_8qc_html_a0a1e4314fcf5e551b7dc4e6a4c54f4ca"><div class="ttname"><a href="../../de/d64/animation_8qc.html#a0a1e4314fcf5e551b7dc4e6a4c54f4ca">delta</a></div><div class="ttdeci">this delta</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d64/animation_8qc_source.html#l00033">animation.qc:33</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
@@ -2571,7 +2572,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../de/de8/portals_8qc.html">portals.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:21 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:35 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

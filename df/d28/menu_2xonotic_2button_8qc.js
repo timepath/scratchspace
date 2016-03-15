@@ -1,10 +1,6 @@
 var menu_2xonotic_2button_8qc =
 [
-    [ "BUTTON_H", "df/d28/menu_2xonotic_2button_8qc.html#ae2c42977e6e31dcbd1688b6cc65373d6", null ],
-    [ "ATTRIB", "df/d28/menu_2xonotic_2button_8qc.html#a95e96a6abd05784c818aa47b1eea7c86", null ],
     [ "makeXonoticButton", "df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9", null ],
-    [ "makeXonoticButton_T", "df/d28/menu_2xonotic_2button_8qc.html#a692765e01616c3fbf22789aff129089e", null ],
-    [ "METHOD", "df/d28/menu_2xonotic_2button_8qc.html#a4a7f0aca07027d2127e991424c203cb0", null ],
-    [ "float", "df/d28/menu_2xonotic_2button_8qc.html#a6a1bb6ed41f44b60e7bd83b0e9945aa7", null ],
-    [ "marginRight", "df/d28/menu_2xonotic_2button_8qc.html#a8c2417f96f4b118bd96bbbbbb30d1409", null ]
+    [ "makeXonoticButton_T", "df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb", null ],
+    [ "XonoticButton_configureXonoticButton", "df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5", null ]
 ];

@@ -32,6 +32,5 @@ var searchData=
   ['hud_5fpanels_5ffrom',['hud_panels_from',['../d3/d05/hud_8qh.html#a47aa25ea67c71e2e54623d062c2393d9',1,'hud.qh']]],
   ['hud_5fwrite',['HUD_Write',['../dc/d90/hud__config_8qc.html#af6a5e9b71fece7ba2124a8e01b0b73b0',1,'hud_config.qc']]],
   ['hud_5fwrite_5fcvar',['HUD_Write_Cvar',['../dc/d90/hud__config_8qc.html#a206f2a23966e7aef885b257c61886d26',1,'hud_config.qc']]],
-  ['hud_5fwrite_5fpanelcvar',['HUD_Write_PanelCvar',['../dc/d90/hud__config_8qc.html#a9692f06595934ac32eee091e80b35c33',1,'hud_config.qc']]],
-  ['hudskinlist_5fh',['HUDSKINLIST_H',['../da/d21/hudskinlist_8qc.html#a9423adbfebf66784852730026370bfec',1,'hudskinlist.qc']]]
+  ['hud_5fwrite_5fpanelcvar',['HUD_Write_PanelCvar',['../dc/d90/hud__config_8qc.html#a9692f06595934ac32eee091e80b35c33',1,'hud_config.qc']]]
 ];

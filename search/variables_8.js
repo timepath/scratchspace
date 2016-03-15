@@ -113,5 +113,10 @@ var searchData=
   ['hud_5fwoulddrawscoreboard_5fchange',['hud_woulddrawscoreboard_change',['../d3/d07/scoreboard_8qc.html#ac4bcaf74effc7861202155214904e07c',1,'scoreboard.qc']]],
   ['hud_5fwoulddrawscoreboard_5fprev',['hud_woulddrawscoreboard_prev',['../d3/d07/scoreboard_8qc.html#a078573a73a20e7eba8d46efe1b9ebe01',1,'scoreboard.qc']]],
   ['hudshiftstate',['hudShiftState',['../d3/d05/hud_8qh.html#a40b9032c98fcf8aa6864aa08b3ffb7de',1,'hud.qh']]],
-  ['hudskinlist',['hudskinlist',['../da/d21/hudskinlist_8qc.html#a6c944483c123c794135739c4adabbf1c',1,'hudskinlist.qc']]]
+  ['hudskinlist',['hudskinlist',['../dd/d6d/hudskinlist_8qh.html#a6c944483c123c794135739c4adabbf1c',1,'hudskinlist.qh']]],
+  ['hudskinparm_5fauthor',['HUDSKINPARM_AUTHOR',['../da/d21/hudskinlist_8qc.html#aa2a1d628311bf5ec46df70ff23e3e156',1,'hudskinlist.qc']]],
+  ['hudskinparm_5fcount',['HUDSKINPARM_COUNT',['../da/d21/hudskinlist_8qc.html#af0eb91f57f2676c2921dfbe15763735d',1,'hudskinlist.qc']]],
+  ['hudskinparm_5fname',['HUDSKINPARM_NAME',['../da/d21/hudskinlist_8qc.html#ab2bb334c8fba7bf37dc0ae68eb1f530d',1,'hudskinlist.qc']]],
+  ['hudskinparm_5fpath',['HUDSKINPARM_PATH',['../da/d21/hudskinlist_8qc.html#a6a8a49f456405209a95b08961913fcb4',1,'hudskinlist.qc']]],
+  ['hudskinparm_5ftitle',['HUDSKINPARM_TITLE',['../da/d21/hudskinlist_8qc.html#a42f53dead8afaff8ce99edf79c1ecbca',1,'hudskinlist.qc']]]
 ];

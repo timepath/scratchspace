@@ -1,5 +1,4 @@
 var dialog__hudsetup__exit_8qc =
 [
-    [ "DIALOG_HUDSETUP_EXIT_H", "dd/dac/dialog__hudsetup__exit_8qc.html#a6fbbcb500031cedee227cd3fabbceb29", null ],
-    [ "METHOD", "dd/dac/dialog__hudsetup__exit_8qc.html#af13ba46f865a73c0bd96242f8809db22", null ]
+    [ "XonoticHUDExitDialog_fill", "dd/dac/dialog__hudsetup__exit_8qc.html#a9402798b381818975e745a6b27052d0b", null ]
 ];

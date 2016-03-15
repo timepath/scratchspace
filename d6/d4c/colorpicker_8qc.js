@@ -1,12 +1,13 @@
 var colorpicker_8qc =
 [
-    [ "COLORPICKER_H", "d6/d4c/colorpicker_8qc.html#af922f2404d00e604da54527747f72ff9", null ],
+    [ "color_hslimage", "d6/d4c/colorpicker_8qc.html#ad991d24e2da3f4a463e3b4236b8e3b92", null ],
+    [ "hslimage_color", "d6/d4c/colorpicker_8qc.html#a38dab2da0f91e1289887fec32ad6412d", null ],
     [ "makeXonoticColorpicker", "d6/d4c/colorpicker_8qc.html#a434bb4c59cf46e5a4055073efbbc2c90", null ],
-    [ "METHOD", "d6/d4c/colorpicker_8qc.html#a3cac43896b8800f9ca0b6fbcd11b4cd6", null ],
-    [ "METHOD", "d6/d4c/colorpicker_8qc.html#a92cb46e27ae55513fd7f51cba39132ce", null ],
-    [ "METHOD", "d6/d4c/colorpicker_8qc.html#a6a08ca0d4e0fc2e6a5ebd5a66a15e589", null ],
-    [ "METHOD", "d6/d4c/colorpicker_8qc.html#a1d55db9ee4568060be4df01badcf3393", null ],
-    [ "METHOD", "d6/d4c/colorpicker_8qc.html#a0a31cb71d93f9ad5ce450d5022830be0", null ],
-    [ "METHOD", "d6/d4c/colorpicker_8qc.html#a80bf365af5e84fe5f97708396ca4ad3e", null ],
-    [ "METHOD", "d6/d4c/colorpicker_8qc.html#ae63ca2f080add59a1cadf162f1c4b4fb", null ]
+    [ "XonoticColorpicker_configureXonoticColorpicker", "d6/d4c/colorpicker_8qc.html#a1518d5500c337cb4fc28faca6dd63c55", null ],
+    [ "XonoticColorpicker_draw", "d6/d4c/colorpicker_8qc.html#a69b10575eeb09abcea1b16e228193823", null ],
+    [ "XonoticColorpicker_focusLeave", "d6/d4c/colorpicker_8qc.html#af5da62045b5266962f209f057f2905ba", null ],
+    [ "XonoticColorpicker_keyDown", "d6/d4c/colorpicker_8qc.html#aa7d5123ce7481594141faf014b3a30cf", null ],
+    [ "XonoticColorpicker_mouseDrag", "d6/d4c/colorpicker_8qc.html#a7d9c27a1773ed7b4079cffa5c3a98908", null ],
+    [ "XonoticColorpicker_mousePress", "d6/d4c/colorpicker_8qc.html#aa85bf584c761b8a088ac4ebdea30ed69", null ],
+    [ "XonoticColorpicker_mouseRelease", "d6/d4c/colorpicker_8qc.html#acb8936a6f5742488486a7d6e09c0f132", null ]
 ];

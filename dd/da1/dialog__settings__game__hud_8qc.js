@@ -1,9 +1,7 @@
 var dialog__settings__game__hud_8qc =
 [
-    [ "DIALOG_SETTINGS_GAME_HUD_H", "dd/da1/dialog__settings__game__hud_8qc.html#a549ec91370225f4830cd4b8b2cec9032", null ],
-    [ "HUDSetup_Start", "dd/da1/dialog__settings__game__hud_8qc.html#a8355ef57cfbd4b0b0a510b61df465435", null ],
+    [ "HUDSetup_Check_Gamestatus", "dd/da1/dialog__settings__game__hud_8qc.html#a57427e87f05e329a87ac5937269e8b60", null ],
     [ "makeXonoticGameHUDSettingsTab", "dd/da1/dialog__settings__game__hud_8qc.html#af81b029727019578b2f147a358bcdedf", null ],
-    [ "METHOD", "dd/da1/dialog__settings__game__hud_8qc.html#a1e7be07011c958d4a8c87a8770c26f8f", null ],
-    [ "METHOD", "dd/da1/dialog__settings__game__hud_8qc.html#aac7d1505f409383c9b9199919d2f4fe1", null ],
-    [ "REGISTER_SETTINGS", "dd/da1/dialog__settings__game__hud_8qc.html#a2b7967e17d4cfccff3c1f979de1d2515", null ]
+    [ "XonoticGameHUDSettingsTab_fill", "dd/da1/dialog__settings__game__hud_8qc.html#a339f2f6d3acd74f0a18c2db26f303fa1", null ],
+    [ "XonoticGameHUDSettingsTab_showNotify", "dd/da1/dialog__settings__game__hud_8qc.html#a057008f0eb43d4c862b6e4ff9db6da28", null ]
 ];

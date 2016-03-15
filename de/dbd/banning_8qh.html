@@ -120,9 +120,9 @@ $(document).ready(function(){initNavTree('de/dbd/banning_8qh.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a0e7455562aacf2de0c12a8445306ed5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a>(v, d)&#160;&#160;&#160;<a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (argc &gt; reason_arg) { <a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> ((v = <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(reason_arg))) != 0) ++reason_arg; else v = d; } else { v = d; }</td></tr>
+<tr class="memitem:a0e7455562aacf2de0c12a8445306ed5b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b">GET_BAN_ARG</a>(v, d)&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (argc &gt; reason_arg) { <a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> ((v = <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(reason_arg))) != 0) ++reason_arg; <a class="el" href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">else</a> v = d; } <a class="el" href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">else</a> { v = d; }</td></tr>
 <tr class="separator:a0e7455562aacf2de0c12a8445306ed5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a756c765021c19ce2f9ac91dbc889bdfe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe">GET_BAN_REASON</a>(v, d)&#160;&#160;&#160;<a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (argc &gt; reason_arg) v = <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(command, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(reason_arg), <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(command) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(reason_arg)); else v = d;</td></tr>
+<tr class="memitem:a756c765021c19ce2f9ac91dbc889bdfe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe">GET_BAN_REASON</a>(v, d)&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (argc &gt; reason_arg) v = <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(command, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(reason_arg), <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(command) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(reason_arg)); <a class="el" href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">else</a> v = d;</td></tr>
 <tr class="separator:a756c765021c19ce2f9ac91dbc889bdfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -162,7 +162,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (argc &gt; reason_arg) { <a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> ((v = <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(reason_arg))) != 0) ++reason_arg; else v = d; } else { v = d; }</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (argc &gt; reason_arg) { <a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> ((v = <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(reason_arg))) != 0) ++reason_arg; <a class="el" href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">else</a> v = d; } <a class="el" href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">else</a> { v = d; }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -192,7 +192,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (argc &gt; reason_arg) v = <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(command, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(reason_arg), <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(command) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(reason_arg)); else v = d;</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (argc &gt; reason_arg) v = <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(command, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(reason_arg), <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(command) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(reason_arg)); <a class="el" href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">else</a> v = d;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -252,7 +252,7 @@ Functions</h2></td></tr>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dbd/banning_8qh_ab915b826ebbe3fa641b6dcf17dbe4fc3_cgraph.svg" width="448" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/dbd/banning_8qh_ab915b826ebbe3fa641b6dcf17dbe4fc3_cgraph.svg" width="432" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -554,11 +554,11 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00326">326</a> of file <a class="el" href="../../d6/d95/ipban_8qc_source.html">ipban.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00253">ban_count</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00252">ban_expire</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00251">ban_ip</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00058">LOG_INFO</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00253">ban_count</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00252">ban_expire</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00251">ban_ip</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00058">LOG_INFO</a>, <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00032">n</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d31/banning_8qc_source.html#l00053">BanCommand_banlist()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;{</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    <span class="keywordtype">float</span> i, n;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    <span class="keywordtype">float</span> i, <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>;</div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <span class="keywordtype">string</span> msg;</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;^2Listing all existing active bans:\n&quot;</span>);</div>
@@ -569,7 +569,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../d6/d95/ipban_8qc.html#a10b8286167b369fed0b7618fd625ba9f">ban_expire</a>[i])</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;            <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        ++n; <span class="comment">// total number of existing bans</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        ++<a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>; <span class="comment">// total number of existing bans</span></div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        msg = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;#&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(i), <span class="stringliteral">&quot;: &quot;</span>);</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        msg = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(msg, <a class="code" href="../../d6/d95/ipban_8qc.html#a070df4ab303d353bd83f5bfa4c2e99df">ban_ip</a>[i], <span class="stringliteral">&quot; is still banned for &quot;</span>);</div>
@@ -585,6 +585,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="ipban_8qc_html_a10b8286167b369fed0b7618fd625ba9f"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#a10b8286167b369fed0b7618fd625ba9f">ban_expire</a></div><div class="ttdeci">float ban_expire[BAN_MAX]</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00252">ipban.qc:252</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
+<div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
 <div class="ttc" id="ipban_8qc_html_adb129794ee531ea662996f0475b4a686"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#adb129794ee531ea662996f0475b4a686">ban_count</a></div><div class="ttdeci">float ban_count</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00253">ipban.qc:253</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
@@ -738,7 +739,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../de/dbd/banning_8qh.html">banning.qh</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:20 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:34 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

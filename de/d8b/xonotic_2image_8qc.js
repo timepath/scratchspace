@@ -1,6 +1,5 @@
 var xonotic_2image_8qc =
 [
-    [ "IMAGE_H", "de/d8b/xonotic_2image_8qc.html#a87f48249de46767c5c858498ea6cf9c5", null ],
     [ "makeXonoticImage", "de/d8b/xonotic_2image_8qc.html#a342332e21b2ee36298df0c2c0f3f11a1", null ],
-    [ "METHOD", "de/d8b/xonotic_2image_8qc.html#a3256d2d5ea41ea77c25d464a0c49452a", null ]
+    [ "XonoticImage_configureXonoticImage", "de/d8b/xonotic_2image_8qc.html#aec88164f7d8c789d9016b9f759dd96dc", null ]
 ];

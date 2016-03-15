@@ -1,5 +1,5 @@
 var dialog__multiplayer__media__demo__timeconfirm_8qc =
 [
-    [ "DIALOG_MULTIPLAYER_MEDIA_DEMO_TIMECONFIRM_H", "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#aad329eef64e9bae6209bdc6c0a10269f", null ],
-    [ "METHOD", "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#a97b0f0880f8a2a514f5cbd91375cfc2a", null ]
+    [ "Handle_TimeDemo_Click", "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#ac0078baa760c9d4ecac11e76f36369a1", null ],
+    [ "XonoticDemoTimeConfirmDialog_fill", "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#a142e52b387628b2fec2e45519a47e2ab", null ]
 ];

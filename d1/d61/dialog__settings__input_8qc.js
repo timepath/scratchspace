@@ -1,6 +1,6 @@
 var dialog__settings__input_8qc =
 [
-    [ "DIALOG_SETTINGS_INPUT_H", "d1/d61/dialog__settings__input_8qc.html#acd043750b70784a245a56919dc02b65f", null ],
-    [ "ATTRIB", "d1/d61/dialog__settings__input_8qc.html#a1fe7f6682e98a067443aec865da3a405", null ],
-    [ "METHOD", "d1/d61/dialog__settings__input_8qc.html#a134b599f83dabede9f0310f765bedf69", null ]
+    [ "CheckBox_Click_Redisplay", "d1/d61/dialog__settings__input_8qc.html#a1f23bee2ae8169b44afceb091226cf7d", null ],
+    [ "makeXonoticInputSettingsTab", "d1/d61/dialog__settings__input_8qc.html#a822312f86da5bcf83a0a9c1534fca91a", null ],
+    [ "XonoticInputSettingsTab_fill", "d1/d61/dialog__settings__input_8qc.html#aeed00da76b00bcab14d093d5e1955885", null ]
 ];

@@ -1,8 +1,9 @@
 var dialog__multiplayer__create_8qc =
 [
-    [ "DIALOG_MULTIPLAYER_CREATE_H", "d7/de3/dialog__multiplayer__create_8qc.html#a86cc9c207b510d7226a8d50024eb5205", null ],
-    [ "ATTRIB", "d7/de3/dialog__multiplayer__create_8qc.html#a1aee0560de24fd94dadb4a054bc44175", null ],
-    [ "METHOD", "d7/de3/dialog__multiplayer__create_8qc.html#a71ff91302a051b25d44e3fd20b2acf73", null ],
-    [ "METHOD", "d7/de3/dialog__multiplayer__create_8qc.html#a9cb6789e5e950b63e2349460964280cd", null ],
-    [ "METHOD", "d7/de3/dialog__multiplayer__create_8qc.html#a914e780c15193861e9dcd6336bf8daf3", null ]
+    [ "ADDVALUE_MINUTES", "d7/de3/dialog__multiplayer__create_8qc.html#a0ce9ecfe6478cb8924f5b74b1e947193", null ],
+    [ "GameType_ConfigureSliders", "d7/de3/dialog__multiplayer__create_8qc.html#a0551d863eb32ced7a0f48f9834708dbe", null ],
+    [ "makeXonoticServerCreateTab", "d7/de3/dialog__multiplayer__create_8qc.html#a94bcd6120df81d66b7301391e876efe9", null ],
+    [ "XonoticServerCreateTab_fill", "d7/de3/dialog__multiplayer__create_8qc.html#a24e3f12ce458ad9114f67e09d8863862", null ],
+    [ "XonoticServerCreateTab_gameTypeChangeNotify", "d7/de3/dialog__multiplayer__create_8qc.html#a5f66fa55e370f95fefae9138471c0c9b", null ],
+    [ "XonoticServerCreateTab_gameTypeSelectNotify", "d7/de3/dialog__multiplayer__create_8qc.html#a6be7a915f07daaac18487ac5ae8c12bb", null ]
 ];

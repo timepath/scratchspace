@@ -41,8 +41,6 @@ var searchData=
   ['gamemode_5ftdm_2eqh',['gamemode_tdm.qh',['../d9/de0/gamemode__tdm_8qh.html',1,'']]],
   ['gamesettings_2eqh',['gamesettings.qh',['../dd/d5d/gamesettings_8qh.html',1,'']]],
   ['gamestart_2eqc',['gamestart.qc',['../db/d91/gamestart_8qc.html',1,'']]],
-  ['gametypebutton_2eqc',['gametypebutton.qc',['../d4/d6f/gametypebutton_8qc.html',1,'']]],
-  ['gametypebutton_2eqh',['gametypebutton.qh',['../d5/de7/gametypebutton_8qh.html',1,'']]],
   ['gametypelist_2eqc',['gametypelist.qc',['../d2/db8/gametypelist_8qc.html',1,'']]],
   ['gametypelist_2eqh',['gametypelist.qh',['../dd/d43/gametypelist_8qh.html',1,'']]],
   ['generic_2eqc',['generic.qc',['../df/da7/generic_8qc.html',1,'']]],

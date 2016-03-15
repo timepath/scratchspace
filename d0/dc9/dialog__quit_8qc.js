@@ -1,5 +1,4 @@
 var dialog__quit_8qc =
 [
-    [ "DIALOG_QUIT_H", "d0/dc9/dialog__quit_8qc.html#a616382fb91dd36df85abb703b3016f2b", null ],
-    [ "METHOD", "d0/dc9/dialog__quit_8qc.html#aff0a2404df1fc2b1f185a70073c47915", null ]
+    [ "XonoticQuitDialog_fill", "d0/dc9/dialog__quit_8qc.html#a5b9e1c5a0514e7d4b73cb3f5991f5a99", null ]
 ];

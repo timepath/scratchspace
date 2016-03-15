@@ -2,7 +2,6 @@ var searchData=
 [
   ['ladder_5fcnt',['LADDER_CNT',['../d2/de3/getreplies_8qh.html#aa1f6a3afcfc0df8ab833bc5d93968774',1,'getreplies.qh']]],
   ['lambda',['LAMBDA',['../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1',1,'misc.qh']]],
-  ['languagelist_5fh',['LANGUAGELIST_H',['../d3/d2e/languagelist_8qc.html#a0451a48bd0c5303d1dd154dac26a0ae5',1,'languagelist.qc']]],
   ['lazy',['LAZY',['../d8/d0e/lazy_8qh.html#a1d51651b802a95d07a7a0406f8922476',1,'lazy.qh']]],
   ['lazy_5fnew',['LAZY_NEW',['../d8/d0e/lazy_8qh.html#af1684a613a0e441d7b47b6cdc4dc878f',1,'lazy.qh']]],
   ['legacy_5fimpulse',['LEGACY_IMPULSE',['../de/d64/common_2impulses_2all_8qh.html#a9f83e65e9f79887eddc2b6b17740882c',1,'all.qh']]],
@@ -20,7 +19,6 @@ var searchData=
   ['lib_5fwarpzone_5fserver_5fh',['LIB_WARPZONE_SERVER_H',['../d7/dd4/server_8qh.html#aaf05c6cc12e444d9e77fb9267f5eaeea',1,'server.qh']]],
   ['lib_5fwarpzone_5futil_5fserver_5fh',['LIB_WARPZONE_UTIL_SERVER_H',['../d3/d9b/util__server_8qh.html#a46b1e664fae16cd944c4e96e74fe0d7c',1,'util_server.qh']]],
   ['linkedentities_5ffrom',['LinkedEntities_from',['../dd/d69/net_8qh.html#a0a8923ddbf5d6f46413189b2d9b126ee',1,'net.qh']]],
-  ['listbox_5fh',['LISTBOX_H',['../db/dc9/xonotic_2listbox_8qc.html#afb55ea46303c35b3989f25190973f02c',1,'listbox.qc']]],
   ['ll_5fclear',['LL_CLEAR',['../de/d09/linkedlist_8qh.html#a34653d18434b71c75519450a30851848',1,'linkedlist.qh']]],
   ['ll_5fclear_5f1',['LL_CLEAR_1',['../de/d09/linkedlist_8qh.html#ad7288ed22aca7a8878a40423e7ba62e1',1,'linkedlist.qh']]],
   ['ll_5fclear_5f2',['LL_CLEAR_2',['../de/d09/linkedlist_8qh.html#acd06e79f63713052c4524c26942ca23d',1,'linkedlist.qh']]],

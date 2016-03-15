@@ -7,8 +7,6 @@ var searchData=
   ['ban_5fcommand',['BAN_COMMAND',['../dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae',1,'BAN_COMMAND():&#160;banning.qc'],['../dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae',1,'BAN_COMMAND():&#160;banning.qc'],['../dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae',1,'BAN_COMMAND():&#160;banning.qc'],['../dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae',1,'BAN_COMMAND():&#160;banning.qc']]],
   ['ban_5fcommands',['BAN_COMMANDS',['../dd/d31/banning_8qc.html#a47c07708127e973f8176fb483b0734b8',1,'banning.qc']]],
   ['begin_5fcheat_5ffunction',['BEGIN_CHEAT_FUNCTION',['../d6/de9/cheats_8qc.html#a5e499f71859f2e744d2d40b443f3942f',1,'cheats.qc']]],
-  ['bigbutton_5fh',['BIGBUTTON_H',['../df/d4f/bigbutton_8qc.html#a033781f5270c3bd5c11f2ed818cf3f47',1,'bigbutton.qc']]],
-  ['bigcommandbutton_5fh',['BIGCOMMANDBUTTON_H',['../d7/d0d/bigcommandbutton_8qc.html#ab51f85e06a1aa7387979880d0ec8aac3',1,'bigcommandbutton.qc']]],
   ['bit',['BIT',['../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c',1,'bits.qh']]],
   ['bitclr',['BITCLR',['../d7/d71/lib_2warpzone_2common_8qh.html#a98fd61e000412d1e33408f3c0b3145d3',1,'common.qh']]],
   ['bitclr_5fassign',['BITCLR_ASSIGN',['../d7/d71/lib_2warpzone_2common_8qh.html#a69a1cd9231b0e5e94f20cc3022c2c8e2',1,'common.qh']]],
@@ -31,6 +29,5 @@ var searchData=
   ['buffs_5fall_5fh',['BUFFS_ALL_H',['../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a880b0fdd8b412a192b746d44bb00841d',1,'all.qh']]],
   ['buffs_5ffrom',['Buffs_from',['../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a973bc70bb709b2a072ba5f1132c9c5e0',1,'all.qh']]],
   ['buffs_5fstat',['BUFFS_STAT',['../df/dae/player_8qh.html#a6f91fe72ae285d61537e8d41d600c127',1,'player.qh']]],
-  ['bumblebee_5fh',['BUMBLEBEE_H',['../d0/d7f/bumblebee_8qh.html#a2a30908b7090502e80cc5103f2a16c1d',1,'bumblebee.qh']]],
-  ['button_5fh',['BUTTON_H',['../df/d28/menu_2xonotic_2button_8qc.html#ae2c42977e6e31dcbd1688b6cc65373d6',1,'button.qc']]]
+  ['bumblebee_5fh',['BUMBLEBEE_H',['../d0/d7f/bumblebee_8qh.html#a2a30908b7090502e80cc5103f2a16c1d',1,'bumblebee.qh']]]
 ];

@@ -1057,7 +1057,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;                finaldmg = coredamage * power + edgedamage * (1 - power);</div>
 <div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;                <span class="keywordflow">if</span> (finaldmg &gt; 0)</div>
 <div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;                {</div>
-<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;                    <span class="keywordtype">float</span> a;</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;                    <span class="keywordtype">float</span> <a class="code" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a>;</div>
 <div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;                    <span class="keywordtype">float</span> c;</div>
 <div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;                    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> hitloc;</div>
 <div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;                    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> myblastorigin;</div>
@@ -1131,9 +1131,9 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="line"><a name="l01025"></a><span class="lineno"> 1025</span>&#160;                        nearest = hitloc * (1 / <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(1, hits));</div>
 <div class="line"><a name="l01026"></a><span class="lineno"> 1026</span>&#160;                        hitratio = (hits / total);</div>
 <div class="line"><a name="l01027"></a><span class="lineno"> 1027</span>&#160;                        a = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, tfloordmg + (1-tfloordmg) * hitratio, 1);</div>
-<div class="line"><a name="l01028"></a><span class="lineno"> 1028</span>&#160;                        finaldmg = finaldmg * a;</div>
+<div class="line"><a name="l01028"></a><span class="lineno"> 1028</span>&#160;                        finaldmg = finaldmg * <a class="code" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a>;</div>
 <div class="line"><a name="l01029"></a><span class="lineno"> 1029</span>&#160;                        a = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, tfloorforce + (1-tfloorforce) * hitratio, 1);</div>
-<div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160;                        force = force * a;</div>
+<div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160;                        force = force * <a class="code" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a>;</div>
 <div class="line"><a name="l01031"></a><span class="lineno"> 1031</span>&#160;</div>
 <div class="line"><a name="l01032"></a><span class="lineno"> 1032</span>&#160;                        <span class="keywordflow">if</span>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a84fd792b8c0416700becd65cddc6edff">autocvar_g_throughfloor_debug</a>)</div>
 <div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;                            <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot; D=%f F=%f\n&quot;</span>, finaldmg, <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(force));</div>
@@ -1494,6 +1494,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="ttc" id="scores_8qh_html_a44db80abc726d6330522fa5382f1b6e3"><div class="ttname"><a href="../../d3/dcd/scores_8qh.html#a44db80abc726d6330522fa5382f1b6e3">PlayerTeamScore_AddScore</a></div><div class="ttdeci">#define PlayerTeamScore_AddScore(p, s)</div><div class="ttdoc">Adds to the generic score fields for both the player and the team. </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/scores_8qh_source.html#l00065">scores.qh:65</a></div></div>
 <div class="ttc" id="log_8qh_html_a2872337768358857f71a83488272df5b"><div class="ttname"><a href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a></div><div class="ttdeci">#define LOG_TRACEF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00070">log.qh:70</a></div></div>
 <div class="ttc" id="spawnpoints_8qh_html"><div class="ttname"><a href="../../d4/dd1/spawnpoints_8qh.html">spawnpoints.qh</a></div></div>
+<div class="ttc" id="item_8qc_html_a4aec1a5be9d9a4a394a2e49e9744286e"><div class="ttname"><a href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a></div><div class="ttdeci">float a</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9a/item_8qc_source.html#l00029">item.qc:29</a></div></div>
 <div class="ttc" id="g__damage_8qh_html_a80ddf6cef3a2ed8491add20f1be8ba10"><div class="ttname"><a href="../../dd/de4/g__damage_8qh.html#a80ddf6cef3a2ed8491add20f1be8ba10">W_SwitchWeapon_Force</a></div><div class="ttdeci">void W_SwitchWeapon_Force(entity e, Weapon w)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00227">selection.qc:227</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_ae0ab871c8cc78d5f023578c0969de0fe"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae0ab871c8cc78d5f023578c0969de0fe">FRAGS_SPECTATOR</a></div><div class="ttdeci">const int FRAGS_SPECTATOR</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00193">constants.qh:193</a></div></div>
 <div class="ttc" id="common_2deathtypes_2all_8qc_html_ab228bbc4e90e596f0f88f2556ee96c59"><div class="ttname"><a href="../../d8/d7e/common_2deathtypes_2all_8qc.html#ab228bbc4e90e596f0f88f2556ee96c59">Deathtype_Name</a></div><div class="ttdeci">string Deathtype_Name(int deathtype)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d7e/common_2deathtypes_2all_8qc_source.html#l00003">all.qc:3</a></div></div>
@@ -1584,7 +1585,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/dac/g__damage_8qc.html">g_damage.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:12 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

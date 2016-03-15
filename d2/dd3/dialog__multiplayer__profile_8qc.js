@@ -1,7 +1,9 @@
 var dialog__multiplayer__profile_8qc =
 [
-    [ "DIALOG_MULTIPLAYER_PROFILE_H", "d2/dd3/dialog__multiplayer__profile_8qc.html#a4ceb6c87b789502abd1b592b0e69caf0", null ],
-    [ "ATTRIB", "d2/dd3/dialog__multiplayer__profile_8qc.html#a9d341aa6026980d8d83866b0fd06229b", null ],
-    [ "METHOD", "d2/dd3/dialog__multiplayer__profile_8qc.html#aa305c0bbbce0a7ca4731a357737b3491", null ],
-    [ "METHOD", "d2/dd3/dialog__multiplayer__profile_8qc.html#af23e58ac6b73d0c04f7d868d3d0d836e", null ]
+    [ "GENDERWIDTH_ITEM", "d2/dd3/dialog__multiplayer__profile_8qc.html#a4c8a8d766ef0c58bffb1bf76c3026077", null ],
+    [ "GENDERWIDTH_LENGTH", "d2/dd3/dialog__multiplayer__profile_8qc.html#a73c3039e24d96382bd3e84cd6fc1ece6", null ],
+    [ "GENDERWIDTH_OFFSET", "d2/dd3/dialog__multiplayer__profile_8qc.html#a344d3ba5311c9ad516928f5c4edab962", null ],
+    [ "makeXonoticProfileTab", "d2/dd3/dialog__multiplayer__profile_8qc.html#a7e2e23bde25532ff986ec09897f32f0a", null ],
+    [ "XonoticProfileTab_draw", "d2/dd3/dialog__multiplayer__profile_8qc.html#a9529c8cf7d913b5fcef77ca7c08f3c7d", null ],
+    [ "XonoticProfileTab_fill", "d2/dd3/dialog__multiplayer__profile_8qc.html#aca3fd4f6521c9079cc9849e5bc4526f5", null ]
 ];

@@ -1,6 +1,6 @@
 var mainwindow_8qc =
 [
-    [ "MAINWINDOW_H", "da/d1d/mainwindow_8qc.html#a1017d02fcd3da5cdbcd8c1df49e08650", null ],
-    [ "METHOD", "da/d1d/mainwindow_8qc.html#a8b9b72f269e7700461f9e1fd4d524dc6", null ],
-    [ "METHOD", "da/d1d/mainwindow_8qc.html#a2b8f48abf8bcdaf3eecd628989b37f6b", null ]
+    [ "DemoButton_Click", "da/d1d/mainwindow_8qc.html#a1ead6224d662a11e80d74b913e8db41f", null ],
+    [ "MainWindow_configureMainWindow", "da/d1d/mainwindow_8qc.html#a906f272ebdf9a21d99b8d95e184866f3", null ],
+    [ "MainWindow_draw", "da/d1d/mainwindow_8qc.html#a0d7d1629f65a255e16e302d73b331bb5", null ]
 ];

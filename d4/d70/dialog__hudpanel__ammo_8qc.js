@@ -1,5 +1,4 @@
 var dialog__hudpanel__ammo_8qc =
 [
-    [ "DIALOG_HUDPANEL_AMMO_H", "d4/d70/dialog__hudpanel__ammo_8qc.html#a46daa9843f1df6ae2a5c795b34cb48bb", null ],
-    [ "METHOD", "d4/d70/dialog__hudpanel__ammo_8qc.html#a5c333881274301638a8346336179955c", null ]
+    [ "XonoticHUDAmmoDialog_fill", "d4/d70/dialog__hudpanel__ammo_8qc.html#a1a787d5077990f45582d4f5a4f89e696", null ]
 ];

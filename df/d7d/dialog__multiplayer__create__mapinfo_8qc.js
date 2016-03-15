@@ -1,6 +1,5 @@
 var dialog__multiplayer__create__mapinfo_8qc =
 [
-    [ "DIALOG_MULTIPLAYER_CREATE_MAPINFO_H", "df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#af8fe62ad64c85363520fd407d0028289", null ],
-    [ "METHOD", "df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#ad9581e765b337ac693a89e0b596e753d", null ],
-    [ "METHOD", "df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#a9d8b28c6d4dc927c468d5d5c4548ef48", null ]
+    [ "XonoticMapInfoDialog_fill", "df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#acce086669cf0b84947e048b16b4ead4a", null ],
+    [ "XonoticMapInfoDialog_loadMapInfo", "df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#a81b771e7581da0653ae9997c03b7d3bc", null ]
 ];

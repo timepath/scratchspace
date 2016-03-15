@@ -160,7 +160,7 @@ Functions</h2></td></tr>
 <tr class="separator:af4ac269f89c21103a9eea35b0310414a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a668aa690502b071b56dfd97e425d8d3e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/cl__minigames_8qh.html#a668aa690502b071b56dfd97e425d8d3e">minigame_texture</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> <a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>)</td></tr>
 <tr class="separator:a668aa690502b071b56dfd97e425d8d3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a884351dcbf24abbf82f01d394ed6cbf4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/cl__minigames_8qh.html#a884351dcbf24abbf82f01d394ed6cbf4">void</a> (<a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> pos, <a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> <a class="el" href="../../d9/d19/modalcontroller_8qc.html#a9771e20b5e6deab7a8bf4ba7e0c1ddc8">size</a>) minigame_hud_board</td></tr>
+<tr class="memitem:a884351dcbf24abbf82f01d394ed6cbf4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/cl__minigames_8qh.html#a884351dcbf24abbf82f01d394ed6cbf4">void</a> (<a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> pos, <a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> <a class="el" href="../../d7/de8/modalcontroller_8qh.html#a9771e20b5e6deab7a8bf4ba7e0c1ddc8">size</a>) minigame_hud_board</td></tr>
 <tr class="separator:a884351dcbf24abbf82f01d394ed6cbf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a494190b92b736511115345e0437821b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d3d/cl__minigames_8qh.html#a494190b92b736511115345e0437821b6">deactivate_minigame</a> ()</td></tr>
 <tr class="separator:a494190b92b736511115345e0437821b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,8 +274,8 @@ Variables</h2></td></tr>
 <div class="line">    { \</div>
 <div class="line">        pos##_x += (mySize##_x-mySize##_y)/2; \</div>
 <div class="line">        mySize##_x = mySize##_y; \</div>
-<div class="line">    } \</div>
-<div class="line">    else \</div>
+<div class="line">    } <a class="code" href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">\</a></div>
+<div class="line"><a class="code" href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">	else</a> \</div>
 <div class="line">    { \</div>
 <div class="line">        pos##_y += (mySize##_y-mySize##_x)/2; \</div>
 <div class="line">        mySize##_x = mySize##_x; \</div>
@@ -285,6 +285,7 @@ Variables</h2></td></tr>
 <div class="line">        pos += <span class="stringliteral">&#39;1 1 0&#39;</span> * <a class="code" href="../../d3/d05/hud_8qh.html#a4f2ef159603abfc9874669062e6ff51f">panel_bg_padding</a>; \</div>
 <div class="line">        mySize -= <span class="stringliteral">&#39;2 2 0&#39;</span> * <a class="code" href="../../d3/d05/hud_8qh.html#a4f2ef159603abfc9874669062e6ff51f">panel_bg_padding</a>; \</div>
 <div class="line">    }</div>
+<div class="ttc" id="keyframe_8qc_html_a0544c3fe466e421738dae463968b70ba"><div class="ttname"><a href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">else</a></div><div class="ttdeci">else</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d58/keyframe_8qc_source.html#l00067">keyframe.qc:67</a></div></div>
 <div class="ttc" id="hud_8qh_html_a4f2ef159603abfc9874669062e6ff51f"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a4f2ef159603abfc9874669062e6ff51f">panel_bg_padding</a></div><div class="ttdeci">float panel_bg_padding</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00136">hud.qh:136</a></div></div>
 <div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
 </div><!-- fragment -->
@@ -629,15 +630,15 @@ Variables</h2></td></tr>
 <p>References <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00300">HUD_MinigameMenu_ClickCustomEntry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00082">HUD_MinigameMenu_InsertEntry()</a>, and <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00155">HUD_MinigameMenu_SpawnSubEntry()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;{</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e = <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#ac3ba12b349b846036472535a2f1467c9">HUD_MinigameMenu_SpawnSubEntry</a>(</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        menumessage, <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#a38af8ff9fddc9af7f58c53703279f8a5">HUD_MinigameMenu_ClickCustomEntry</a>, <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#a51d0693fdc1dd0c84341d4220a0b33ca">parent</a> );</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        menumessage, <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#a38af8ff9fddc9af7f58c53703279f8a5">HUD_MinigameMenu_ClickCustomEntry</a>, <a class="code" href="../../d7/d8a/animhost_8qc.html#a39b77eea2e052405118c3754515539df">parent</a> );</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    e.netname = event_arg;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#aa3806155b8445caf2a4de3b1a3a3801a">HUD_MinigameMenu_InsertEntry</a>(e, <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#a51d0693fdc1dd0c84341d4220a0b33ca">parent</a>);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#aa3806155b8445caf2a4de3b1a3a3801a">HUD_MinigameMenu_InsertEntry</a>(e, <a class="code" href="../../d7/d8a/animhost_8qc.html#a39b77eea2e052405118c3754515539df">parent</a>);</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="comment">//dprint(&quot;CustomEntry &quot;,ftos(num_for_edict(parent)),&quot; &quot;,menumessage,&quot; &quot;,event_arg,&quot;\n&quot;);</span></div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;}</div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_aa3806155b8445caf2a4de3b1a3a3801a"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#aa3806155b8445caf2a4de3b1a3a3801a">HUD_MinigameMenu_InsertEntry</a></div><div class="ttdeci">void HUD_MinigameMenu_InsertEntry(entity newentry, entity prev)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00082">cl_minigames_hud.qc:82</a></div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a38af8ff9fddc9af7f58c53703279f8a5"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a38af8ff9fddc9af7f58c53703279f8a5">HUD_MinigameMenu_ClickCustomEntry</a></div><div class="ttdeci">void HUD_MinigameMenu_ClickCustomEntry()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00300">cl_minigames_hud.qc:300</a></div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_ac3ba12b349b846036472535a2f1467c9"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#ac3ba12b349b846036472535a2f1467c9">HUD_MinigameMenu_SpawnSubEntry</a></div><div class="ttdeci">entity HUD_MinigameMenu_SpawnSubEntry(string s, void() click, entity parent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00155">cl_minigames_hud.qc:155</a></div></div>
-<div class="ttc" id="menu_2xonotic_2util_8qc_html_a51d0693fdc1dd0c84341d4220a0b33ca"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#a51d0693fdc1dd0c84341d4220a0b33ca">parent</a></div><div class="ttdeci">entity parent</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00022">util.qc:22</a></div></div>
+<div class="ttc" id="animhost_8qc_html_a39b77eea2e052405118c3754515539df"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#a39b77eea2e052405118c3754515539df">parent</a></div><div class="ttdeci">entity parent</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00007">animhost.qc:7</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1602,7 +1603,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../de/d3d/cl__minigames_8qh.html">cl_minigames.qh</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:15 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

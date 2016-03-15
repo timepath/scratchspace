@@ -204,7 +204,7 @@ $(document).ready(function(){initNavTree('d2/dc2/subs_8qc_source.html','../../')
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">float</span> traveltime;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">float</span> phasepos;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">float</span> nexttick;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> delta;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d64/animation_8qc.html#a0a1e4314fcf5e551b7dc4e6a4c54f4ca">delta</a>;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> delta2;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> veloc;</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> angloc;</div>
@@ -352,7 +352,7 @@ $(document).ready(function(){initNavTree('d2/dc2/subs_8qc_source.html','../../')
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div>
 <div class="line"><a name="l00247"></a><span class="lineno"><a class="line" href="../../d6/d93/g__subs_8qh.html#ae14253ed4d6fe1ab6f941ce26db41d2b">  247</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/dc2/subs_8qc.html#ae14253ed4d6fe1ab6f941ce26db41d2b">SUB_CalcMove</a> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> tdest, <span class="keywordtype">float</span> tspeedtype, <span class="keywordtype">float</span> tspeed, <span class="keywordtype">void</span>() func)</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>  delta;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>  <a class="code" href="../../de/d64/animation_8qc.html#a0a1e4314fcf5e551b7dc4e6a4c54f4ca">delta</a>;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordtype">float</span>   traveltime;</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">if</span> (!tspeed)</div>
@@ -427,7 +427,7 @@ $(document).ready(function(){initNavTree('d2/dc2/subs_8qc_source.html','../../')
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;<span class="comment">// FIXME: I fixed this function only for rotation around the main axes</span></div>
 <div class="line"><a name="l00322"></a><span class="lineno"><a class="line" href="../../d6/d93/g__subs_8qh.html#ae91f617b99f261f7b7e9620af5dda954">  322</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d2/dc2/subs_8qc.html#ae91f617b99f261f7b7e9620af5dda954">SUB_CalcAngleMove</a> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> destangle, <span class="keywordtype">float</span> tspeedtype, <span class="keywordtype">float</span> tspeed, <span class="keywordtype">void</span>() func)</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>  delta;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>  <a class="code" href="../../de/d64/animation_8qc.html#a0a1e4314fcf5e551b7dc4e6a4c54f4ca">delta</a>;</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="keywordtype">float</span>   traveltime;</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    <span class="keywordflow">if</span> (!tspeed)</div>
@@ -485,6 +485,7 @@ $(document).ready(function(){initNavTree('d2/dc2/subs_8qc_source.html','../../')
 <div class="ttc" id="self_8qh_html_a2b1765bb8990e0e47100da7778e225d8"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a></div><div class="ttdeci">#define setself(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00010">self.qh:10</a></div></div>
 <div class="ttc" id="subs_8qc_html_a0266c131f6e1ab13c5763bd4f80ca487"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a0266c131f6e1ab13c5763bd4f80ca487">SUB_SetFade_Think</a></div><div class="ttdeci">void SUB_SetFade_Think()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00048">subs.qc:48</a></div></div>
 <div class="ttc" id="subs_8qc_html_a83271404eaa6f16d70f1ba21c704aa7c"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a></div><div class="ttdeci">float TSPEED_TIME</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00183">subs.qc:183</a></div></div>
+<div class="ttc" id="animation_8qc_html_a0a1e4314fcf5e551b7dc4e6a4c54f4ca"><div class="ttname"><a href="../../de/d64/animation_8qc.html#a0a1e4314fcf5e551b7dc4e6a4c54f4ca">delta</a></div><div class="ttdeci">this delta</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d64/animation_8qc_source.html#l00033">animation.qc:33</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00092">main.qh:92</a></div></div>
 <div class="ttc" id="subs_8qc_html_acfc05d721470c3c19835fe5d5bc5a3e9"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#acfc05d721470c3c19835fe5d5bc5a3e9">platmovetype_turn</a></div><div class="ttdeci">float platmovetype_turn</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00094">subs.qc:94</a></div></div>
@@ -519,7 +520,7 @@ $(document).ready(function(){initNavTree('d2/dc2/subs_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../d2/dc2/subs_8qc.html">subs.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:10 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:24 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,5 @@
 var dialog__multiplayer__media__demo__startconfirm_8qc =
 [
-    [ "DIALOG_MULTIPLAYER_MEDIA_DEMO_STARTCONFIRM_H", "d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc.html#a5218ac1b3781518514c5adfbbe247a8d", null ],
-    [ "METHOD", "d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc.html#a87a808b3c713196d24ded26e55123364", null ]
+    [ "Handle_StartDemo_Click", "d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc.html#a77ee16d94e3fbc983db0f218e1192b29", null ],
+    [ "XonoticDemoStartConfirmDialog_fill", "d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc.html#a6197d9880184a1d95737aa7d06cafddb", null ]
 ];

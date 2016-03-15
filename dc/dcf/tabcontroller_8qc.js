@@ -1,8 +1,7 @@
 var tabcontroller_8qc =
 [
-    [ "TABCONTROLLER_H", "dc/dcf/tabcontroller_8qc.html#a58b7101a1612be06897d3e73bb972a09", null ],
     [ "makeXonoticTabController", "dc/dcf/tabcontroller_8qc.html#a36ea716821d3a819ddd97f6fa21570e6", null ],
-    [ "METHOD", "dc/dcf/tabcontroller_8qc.html#a53b50753e0728b6888ea886177bd155a", null ],
-    [ "METHOD", "dc/dcf/tabcontroller_8qc.html#ab194c497d8f8bec590399a2aace471c6", null ],
-    [ "METHOD", "dc/dcf/tabcontroller_8qc.html#aad8fe49f0b557d387ea96198e358e733", null ]
+    [ "XonoticTabController_configureXonoticTabController", "dc/dcf/tabcontroller_8qc.html#a7870388047ff74874722f872abba13ff", null ],
+    [ "XonoticTabController_makeTabButton", "dc/dcf/tabcontroller_8qc.html#a43d150ed020590f23fe3a458e7c8afc6", null ],
+    [ "XonoticTabController_makeTabButton_T", "dc/dcf/tabcontroller_8qc.html#a548d8829f5cada91bec8a3c59f603103", null ]
 ];

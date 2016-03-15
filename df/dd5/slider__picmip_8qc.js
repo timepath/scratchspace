@@ -1,8 +1,8 @@
 var slider__picmip_8qc =
 [
-    [ "SLIDER_PICMIP_H", "df/dd5/slider__picmip_8qc.html#aa6c5e23b663cdf7cde43ef49d534d620", null ],
     [ "makeXonoticPicmipSlider", "df/dd5/slider__picmip_8qc.html#a571b3ac0d271873ef5f15d495e5eaf10", null ],
-    [ "METHOD", "df/dd5/slider__picmip_8qc.html#a365929c7275a1b1add3b175b8017f3fe", null ],
-    [ "METHOD", "df/dd5/slider__picmip_8qc.html#ae805feb10940d1243a38bfc56dc33424", null ],
-    [ "METHOD", "df/dd5/slider__picmip_8qc.html#ae1457649473736972fc6065e48b595be", null ]
+    [ "texmemsize", "df/dd5/slider__picmip_8qc.html#ac48274efc2dfb98a3be876d1d7202402", null ],
+    [ "XonoticPicmipSlider_autofix", "df/dd5/slider__picmip_8qc.html#aa3d45742637a931dcbb094bfe59ed92a", null ],
+    [ "XonoticPicmipSlider_configureXonoticPicmipSlider", "df/dd5/slider__picmip_8qc.html#af48d6c60c3a67c132cdb0ddb815a188e", null ],
+    [ "XonoticPicmipSlider_draw", "df/dd5/slider__picmip_8qc.html#ae7515a904b2c650feedc954758688f18", null ]
 ];

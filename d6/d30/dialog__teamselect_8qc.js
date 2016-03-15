@@ -1,6 +1,7 @@
 var dialog__teamselect_8qc =
 [
-    [ "DIALOG_TEAMSELECT_H", "d6/d30/dialog__teamselect_8qc.html#a8829ec085e24b2321f91845cae26f7b7", null ],
-    [ "METHOD", "d6/d30/dialog__teamselect_8qc.html#a0cd4aa8dec147211e90d4cfe28b4c41b", null ],
-    [ "METHOD", "d6/d30/dialog__teamselect_8qc.html#ac1f3611dae8f1856f64e0a84ebe17687", null ]
+    [ "makeTeamButton", "d6/d30/dialog__teamselect_8qc.html#af1c89445ad12552325475410a8cc2902", null ],
+    [ "makeTeamButton_T", "d6/d30/dialog__teamselect_8qc.html#a4131cee70165ea73d71de76b0f544a73", null ],
+    [ "XonoticTeamSelectDialog_fill", "d6/d30/dialog__teamselect_8qc.html#aef68d50cc290b76e2c8fc62888560c00", null ],
+    [ "XonoticTeamSelectDialog_showNotify", "d6/d30/dialog__teamselect_8qc.html#abc28b8cb59bb4b64932491e1b742f5e5", null ]
 ];

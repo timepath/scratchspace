@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('de/d11/color_8qh_source.html','../../'
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../de/d11/color_8qh.html#ad8ed2a7d3727edebd60c08c645e4ce9a">   38</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../de/d11/color_8qh.html#ad8ed2a7d3727edebd60c08c645e4ce9a">rgb_mi_ma_to_hue</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb, <span class="keywordtype">float</span> mi, <span class="keywordtype">float</span> ma)</div>
+<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../de/d11/color_8qh.html#ad8ed2a7d3727edebd60c08c645e4ce9a">   38</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../de/d11/color_8qh.html#ad8ed2a7d3727edebd60c08c645e4ce9a">rgb_mi_ma_to_hue</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d9a/item_8qc.html#afdcb4f815979aecb7828e04ea24bc64e">rgb</a>, <span class="keywordtype">float</span> mi, <span class="keywordtype">float</span> ma)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">if</span> (mi == ma)</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
@@ -164,7 +164,7 @@ $(document).ready(function(){initNavTree('de/d11/color_8qh_source.html','../../'
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 <div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="../../de/d11/color_8qh.html#aa7da04bfd952907e3b7af99840772265">   59</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d11/color_8qh.html#aa7da04bfd952907e3b7af99840772265">hue_mi_ma_to_rgb</a>(<span class="keywordtype">float</span> hue, <span class="keywordtype">float</span> mi, <span class="keywordtype">float</span> ma)</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d9a/item_8qc.html#afdcb4f815979aecb7828e04ea24bc64e">rgb</a>;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    hue -= 6 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(hue / 6);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
@@ -213,10 +213,10 @@ $(document).ready(function(){initNavTree('de/d11/color_8qh_source.html','../../'
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        rgb.z = (6 - hue) * (ma - mi) + mi;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    }</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">return</span> rgb;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/d9a/item_8qc.html#afdcb4f815979aecb7828e04ea24bc64e">rgb</a>;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;}</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;</div>
-<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="../../de/d11/color_8qh.html#aa639751108ba5328a66d521a5bbeef56">  113</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d11/color_8qh.html#aa639751108ba5328a66d521a5bbeef56">rgb_to_hsv</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb)</div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="../../de/d11/color_8qh.html#aa639751108ba5328a66d521a5bbeef56">  113</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d11/color_8qh.html#aa639751108ba5328a66d521a5bbeef56">rgb_to_hsv</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d9a/item_8qc.html#afdcb4f815979aecb7828e04ea24bc64e">rgb</a>)</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;{</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordtype">float</span> mi, ma;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> hsv;</div>
@@ -238,7 +238,7 @@ $(document).ready(function(){initNavTree('de/d11/color_8qh_source.html','../../'
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/d11/color_8qh.html#aa7da04bfd952907e3b7af99840772265">hue_mi_ma_to_rgb</a>(hsv.x, hsv.z * (1 - hsv.y), hsv.z);</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;}</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
-<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="../../de/d11/color_8qh.html#afbe93316a7316859b6ee247b40af265a">  135</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d11/color_8qh.html#afbe93316a7316859b6ee247b40af265a">rgb_to_hsl</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb)</div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="../../de/d11/color_8qh.html#afbe93316a7316859b6ee247b40af265a">  135</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d11/color_8qh.html#afbe93316a7316859b6ee247b40af265a">rgb_to_hsl</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d9a/item_8qc.html#afdcb4f815979aecb7828e04ea24bc64e">rgb</a>)</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;{</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <span class="keywordtype">float</span> mi, ma;</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> hsl;</div>
@@ -272,7 +272,7 @@ $(document).ready(function(){initNavTree('de/d11/color_8qh_source.html','../../'
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../de/d11/color_8qh.html#aa7da04bfd952907e3b7af99840772265">hue_mi_ma_to_rgb</a>(hsl.x, mi, ma);</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;</div>
-<div class="line"><a name="l00169"></a><span class="lineno"><a class="line" href="../../de/d11/color_8qh.html#aca8aaff26f911c335ec938226743b7ab">  169</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../de/d11/color_8qh.html#aca8aaff26f911c335ec938226743b7ab">rgb_to_hexcolor</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb)</div>
+<div class="line"><a name="l00169"></a><span class="lineno"><a class="line" href="../../de/d11/color_8qh.html#aca8aaff26f911c335ec938226743b7ab">  169</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../de/d11/color_8qh.html#aca8aaff26f911c335ec938226743b7ab">rgb_to_hexcolor</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d9a/item_8qc.html#afdcb4f815979aecb7828e04ea24bc64e">rgb</a>)</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="stringliteral">&quot;^x&quot;</span>,</div>
@@ -292,6 +292,7 @@ $(document).ready(function(){initNavTree('de/d11/color_8qh_source.html','../../'
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
 <div class="ttc" id="string_8qh_html"><div class="ttname"><a href="../../d2/db4/string_8qh.html">string.qh</a></div></div>
 <div class="ttc" id="color_8qh_html_ad850121426fefd7a791a9ece4b54bdb7"><div class="ttname"><a href="../../de/d11/color_8qh.html#ad850121426fefd7a791a9ece4b54bdb7">hsv_to_rgb</a></div><div class="ttdeci">vector hsv_to_rgb(vector hsv)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d11/color_8qh_source.html#l00130">color.qh:130</a></div></div>
+<div class="ttc" id="item_8qc_html_afdcb4f815979aecb7828e04ea24bc64e"><div class="ttname"><a href="../../de/d9a/item_8qc.html#afdcb4f815979aecb7828e04ea24bc64e">rgb</a></div><div class="ttdeci">vector rgb</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9a/item_8qc_source.html#l00028">item.qc:28</a></div></div>
 <div class="ttc" id="color_8qh_html_ad8ed2a7d3727edebd60c08c645e4ce9a"><div class="ttname"><a href="../../de/d11/color_8qh.html#ad8ed2a7d3727edebd60c08c645e4ce9a">rgb_mi_ma_to_hue</a></div><div class="ttdeci">float rgb_mi_ma_to_hue(vector rgb, float mi, float ma)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d11/color_8qh_source.html#l00038">color.qh:38</a></div></div>
 <div class="ttc" id="color_8qh_html_aca8aaff26f911c335ec938226743b7ab"><div class="ttname"><a href="../../de/d11/color_8qh.html#aca8aaff26f911c335ec938226743b7ab">rgb_to_hexcolor</a></div><div class="ttdeci">string rgb_to_hexcolor(vector rgb)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d11/color_8qh_source.html#l00169">color.qh:169</a></div></div>
 <div class="ttc" id="color_8qh_html_afbe93316a7316859b6ee247b40af265a"><div class="ttname"><a href="../../de/d11/color_8qh.html#afbe93316a7316859b6ee247b40af265a">rgb_to_hsl</a></div><div class="ttdeci">vector rgb_to_hsl(vector rgb)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d11/color_8qh_source.html#l00135">color.qh:135</a></div></div>
@@ -303,7 +304,7 @@ $(document).ready(function(){initNavTree('de/d11/color_8qh_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../de/d11/color_8qh.html">color.qh</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:11 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

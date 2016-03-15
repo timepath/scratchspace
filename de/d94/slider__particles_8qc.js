@@ -1,8 +1,7 @@
 var slider__particles_8qc =
 [
-    [ "SLIDER_PARTICLES_H", "de/d94/slider__particles_8qc.html#aa218e8187aeb249ee66e27fed0ef2e89", null ],
     [ "makeXonoticParticlesSlider", "de/d94/slider__particles_8qc.html#a9d9cd17f2b7f5805574e346fe8036d7f", null ],
-    [ "METHOD", "de/d94/slider__particles_8qc.html#a12471a15262f3da165ca45f97c2ebe93", null ],
-    [ "METHOD", "de/d94/slider__particles_8qc.html#a75b55f4a0ac99a5598216620a3c5a23a", null ],
-    [ "METHOD", "de/d94/slider__particles_8qc.html#ad0a96076d4a0eb336c4d733b9dc996e9", null ]
+    [ "XonoticParticlesSlider_configureXonoticParticlesSlider", "de/d94/slider__particles_8qc.html#a52c1188240797b6bcd7c9ea54f7a5ff5", null ],
+    [ "XonoticParticlesSlider_loadCvars", "de/d94/slider__particles_8qc.html#a0c5e45af793fc24c35553df95bde8911", null ],
+    [ "XonoticParticlesSlider_saveCvars", "de/d94/slider__particles_8qc.html#ac956ef1e5a5044a5bbf1c6a9b0f6a963", null ]
 ];

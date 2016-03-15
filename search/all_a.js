@@ -2,7 +2,7 @@ var searchData=
 [
   ['jetpack_2eqc',['jetpack.qc',['../da/dcf/jetpack_8qc.html',1,'']]],
   ['jetpack_5fstopped',['jetpack_stopped',['../dc/ddd/player_8qc.html#a2f3a3ba2412265530e7b03b6b29ab4ea',1,'player.qc']]],
-  ['join_5fclick',['Join_Click',['../dc/db5/dialog__multiplayer__join__serverinfo_8qc.html#a56ee037407a7ee76f8ba10b509d09177',1,'dialog_multiplayer_join_serverinfo.qc']]],
+  ['join_5fclick',['Join_Click',['../dc/db5/dialog__multiplayer__join__serverinfo_8qc.html#a56ee037407a7ee76f8ba10b509d09177',1,'Join_Click(entity btn, entity me):&#160;dialog_multiplayer_join_serverinfo.qc'],['../d1/d33/dialog__multiplayer__join__serverinfo_8qh.html#a56ee037407a7ee76f8ba10b509d09177',1,'Join_Click(entity btn, entity me):&#160;dialog_multiplayer_join_serverinfo.qc']]],
   ['join_5fminigame',['join_minigame',['../d7/d33/sv__minigames_8qc.html#a94a8da7936949035982110ab04a468d4',1,'join_minigame(entity player, string game_id):&#160;sv_minigames.qc'],['../d3/df9/sv__minigames_8qh.html#a94a8da7936949035982110ab04a468d4',1,'join_minigame(entity player, string game_id):&#160;sv_minigames.qc']]],
   ['joinbestteam',['JoinBestTeam',['../de/d4f/teamplay_8qc.html#a2679054458119c910459783c6ddb22fb',1,'JoinBestTeam(entity pl, float only_return_best, float forcebestteam):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a2679054458119c910459783c6ddb22fb',1,'JoinBestTeam(entity pl, float only_return_best, float forcebestteam):&#160;teamplay.qc']]],
   ['jointime',['jointime',['../d5/d26/server_2defs_8qh.html#a90ecbc11824e99dab4a925f22e38d0c5',1,'defs.qh']]],

@@ -1,6 +1,5 @@
 var dialog__settings__game_8qc =
 [
-    [ "DIALOG_SETTINGS_GAME_H", "de/d48/dialog__settings__game_8qc.html#af893eb364861e74d33eeb9576c189009", null ],
     [ "clearTooltip", "de/d48/dialog__settings__game_8qc.html#ac1e479619f450e31119b7aa389eabfd4", null ],
     [ "CONSTRUCTOR", "de/d48/dialog__settings__game_8qc.html#ab8eefe27e065d3c5686147d92ca86eab", null ],
     [ "draw_Text", "de/d48/dialog__settings__game_8qc.html#a4ee295821e656212f90e4ca3ee1add35", null ],
@@ -11,11 +10,9 @@ var dialog__settings__game_8qc =
     [ "if", "de/d48/dialog__settings__game_8qc.html#a7421271c787848380e442fadc89caa5d", null ],
     [ "if", "de/d48/dialog__settings__game_8qc.html#a36f99b5111d192d13b99fd8eef729051", null ],
     [ "if", "de/d48/dialog__settings__game_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462", null ],
-    [ "INIT", "de/d48/dialog__settings__game_8qc.html#a75f89278472bac3bf972561b3a3b7729", null ],
     [ "METHOD", "de/d48/dialog__settings__game_8qc.html#a961f797bee78f850f491892e3f0e028d", null ],
     [ "METHOD", "de/d48/dialog__settings__game_8qc.html#a4149fb346e83546ce9aac161dac09df1", null ],
     [ "METHOD", "de/d48/dialog__settings__game_8qc.html#aa9bccc736f8c5239253994ba3be13a78", null ],
-    [ "METHOD", "de/d48/dialog__settings__game_8qc.html#afde2c4ac80a9e358cf77709596ac8e75", null ],
     [ "onChange", "de/d48/dialog__settings__game_8qc.html#a6a51f8486fd98756088454b469a4cc2d", null ],
     [ "setFirstColumn", "de/d48/dialog__settings__game_8qc.html#a417ce1c18a4091f4fe1ba6328ccf8eea", null ],
     [ "TD", "de/d48/dialog__settings__game_8qc.html#a5ba154afc30d1e56ca710334aad9798b", null ],

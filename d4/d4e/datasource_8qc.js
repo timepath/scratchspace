@@ -1,18 +1,10 @@
 var datasource_8qc =
 [
-    [ "DATASOURCE_H", "d4/d4e/datasource_8qc.html#a5eaf550e90c9b3c1d161eb027f3ebabb", null ],
     [ "CONSTRUCTOR", "d4/d4e/datasource_8qc.html#a7bdf6ab210ec5d29219a858e33e70cde", null ],
     [ "CONSTRUCTOR", "d4/d4e/datasource_8qc.html#a01478775735f92965c1981fc2a8324f7", null ],
-    [ "INIT_STATIC", "d4/d4e/datasource_8qc.html#ab9ff6b0f0e532dcad551add09b61bfd8", null ],
-    [ "METHOD", "d4/d4e/datasource_8qc.html#a2b978abb817726b2b85885996c49a657", null ],
-    [ "METHOD", "d4/d4e/datasource_8qc.html#ad00f3b8b5e91a27dcbe2bc204bd4c1da", null ],
-    [ "METHOD", "d4/d4e/datasource_8qc.html#ada342bb99d3a908a4e60ad07de90c93b", null ],
-    [ "METHOD", "d4/d4e/datasource_8qc.html#a5e4320100a2414ea8fab256c6e641749", null ],
     [ "METHOD", "d4/d4e/datasource_8qc.html#ad3a99fb992b7d9d5306ca2965845a039", null ],
     [ "METHOD", "d4/d4e/datasource_8qc.html#a121a271b14535163a93bcf2babfcf5f6", null ],
     [ "SUPER", "d4/d4e/datasource_8qc.html#a5e231c2d4088fbd6bc4c29add962230f", null ],
-    [ "DataSource_false", "d4/d4e/datasource_8qc.html#af12a4b950e3a34b24dc873eccc2e6cc1", null ],
-    [ "DataSource_true", "d4/d4e/datasource_8qc.html#a716466cae05b89261b07443a1057e3c8", null ],
     [ "filter", "d4/d4e/datasource_8qc.html#a4ff685a310be621561c6644d48302fa4", null ],
     [ "StringSource_str", "d4/d4e/datasource_8qc.html#a46d406fe697e4743da54d1eead71c4c4", null ]
 ];

@@ -1,9 +1,8 @@
 var weaponarenacheckbox_8qc =
 [
-    [ "WEAPONARENACHECKBOX_H", "d1/df3/weaponarenacheckbox_8qc.html#a3ee19c228ec126f439019f19b660c860", null ],
-    [ "makeXonoticWeaponarenaCheckBox", "d1/df3/weaponarenacheckbox_8qc.html#adf56d4bc38e7c5065719b469089a3ba5", null ],
-    [ "METHOD", "d1/df3/weaponarenacheckbox_8qc.html#ad8aedc3e8fa26ebcd6518a70ffbd6cec", null ],
-    [ "METHOD", "d1/df3/weaponarenacheckbox_8qc.html#acecbb2f3a1ca8e5de0d415595300afd0", null ],
-    [ "METHOD", "d1/df3/weaponarenacheckbox_8qc.html#ab721972f0257e891eef2fb24ddc43518", null ],
-    [ "METHOD", "d1/df3/weaponarenacheckbox_8qc.html#ad6fb2df65845932f5560e3403bfbfa4b", null ]
+    [ "makeXonoticWeaponarenaCheckBox", "d1/df3/weaponarenacheckbox_8qc.html#add182d72741aa7b8b7ee6f187e24f990", null ],
+    [ "XonoticWeaponarenaCheckBox_configureXonoticWeaponarenaCheckBox", "d1/df3/weaponarenacheckbox_8qc.html#aa2fa38c72aeb87705fe3d7573b635b04", null ],
+    [ "XonoticWeaponarenaCheckBox_loadCvars", "d1/df3/weaponarenacheckbox_8qc.html#ad30a4e87dca3ac2440f613806ce02a73", null ],
+    [ "XonoticWeaponarenaCheckBox_saveCvars", "d1/df3/weaponarenacheckbox_8qc.html#af7d835c4fce526b25918f49a8c33853c", null ],
+    [ "XonoticWeaponarenaCheckBox_setChecked", "d1/df3/weaponarenacheckbox_8qc.html#a92c1e0f47c165f4e9e63990989a25c2d", null ]
 ];

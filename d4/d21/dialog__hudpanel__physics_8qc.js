@@ -1,5 +1,4 @@
 var dialog__hudpanel__physics_8qc =
 [
-    [ "DIALOG_HUDPANEL_PHYSICS_H", "d4/d21/dialog__hudpanel__physics_8qc.html#ab7a2ab68239a52dc462d56a05dd08f40", null ],
-    [ "METHOD", "d4/d21/dialog__hudpanel__physics_8qc.html#a2bfac65f1376774f816c187b678dfe41", null ]
+    [ "XonoticHUDPhysicsDialog_fill", "d4/d21/dialog__hudpanel__physics_8qc.html#a9b085af15534ec8ac17a204bfd5e9fc6", null ]
 ];

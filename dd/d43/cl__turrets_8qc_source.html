@@ -204,8 +204,8 @@ $(document).ready(function(){initNavTree('dd/d43/cl__turrets_8qc_source.html','.
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <span class="keywordtype">string</span> spriteimage = this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">float</span> a = this.<a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> * <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#af91d3ce5cd4c93b309d781565662e98d">autocvar_hud_panel_fg_alpha</a>;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb = spritelookupcolor(<span class="keyword">this</span>, spriteimage, this.teamradar_color);</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a> = this.<a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> * <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#af91d3ce5cd4c93b309d781565662e98d">autocvar_hud_panel_fg_alpha</a>;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d9a/item_8qc.html#afdcb4f815979aecb7828e04ea24bc64e">rgb</a> = spritelookupcolor(<span class="keyword">this</span>, spriteimage, this.teamradar_color);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">if</span>(this.maxdistance &gt; waypointsprite_normdistance)</div>
@@ -241,7 +241,7 @@ $(document).ready(function(){initNavTree('dd/d43/cl__turrets_8qc_source.html','.
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordflow">if</span>(a &gt; 1)</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    {</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        rgb *= a;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        rgb *= <a class="code" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a>;</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        a = 1;</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    }</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
@@ -596,8 +596,10 @@ $(document).ready(function(){initNavTree('dd/d43/cl__turrets_8qc_source.html','.
 <div class="ttc" id="log_8qh_html_ab709d1a9c4f30481019dd95e67a4f9f5"><div class="ttname"><a href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a></div><div class="ttdeci">#define LOG_INFOF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00059">log.qh:59</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0476dbfc79dac7770dfaa5c8d780a87d"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a></div><div class="ttdeci">float pow(float a, float b)</div></div>
 <div class="ttc" id="csprogsdefs_8qh_html_ac8847014472662de37600e592b86ec1f"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#ac8847014472662de37600e592b86ec1f">pointparticles</a></div><div class="ttdeci">#define pointparticles</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dde/csprogsdefs_8qh_source.html#l00014">csprogsdefs.qh:14</a></div></div>
+<div class="ttc" id="item_8qc_html_afdcb4f815979aecb7828e04ea24bc64e"><div class="ttname"><a href="../../de/d9a/item_8qc.html#afdcb4f815979aecb7828e04ea24bc64e">rgb</a></div><div class="ttdeci">vector rgb</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9a/item_8qc_source.html#l00028">item.qc:28</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a0b04e01c228e625bb2627bee15484910"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a></div><div class="ttdeci">const float DRAWFLAG_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00317">csprogsdefs.qc:317</a></div></div>
 <div class="ttc" id="sound_8qh_html_a353d870104b3e8ae2a5fc5584279c735"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a353d870104b3e8ae2a5fc5584279c735">VOL_BASE</a></div><div class="ttdeci">const float VOL_BASE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00036">sound.qh:36</a></div></div>
+<div class="ttc" id="item_8qc_html_a4aec1a5be9d9a4a394a2e49e9744286e"><div class="ttname"><a href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a></div><div class="ttdeci">float a</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9a/item_8qc_source.html#l00029">item.qc:29</a></div></div>
 <div class="ttc" id="turret_8qh_html_a8612f008373052b5f4248111451cd02c"><div class="ttname"><a href="../../d9/d67/turret_8qh.html#a8612f008373052b5f4248111451cd02c">TNSF_SETUP</a></div><div class="ttdeci">const int TNSF_SETUP</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d67/turret_8qh_source.html#l00171">turret.qh:171</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a8074555a9082a55060c9afcda4ecc644"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a8074555a9082a55060c9afcda4ecc644">autocvar_cl_nogibs</a></div><div class="ttdeci">bool autocvar_cl_nogibs</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00057">autocvars.qh:57</a></div></div>
 <div class="ttc" id="powerups_8qc_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00006">powerups.qc:6</a></div></div>
@@ -647,7 +649,7 @@ $(document).ready(function(){initNavTree('dd/d43/cl__turrets_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../dd/d43/cl__turrets_8qc.html">cl_turrets.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:10 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:24 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

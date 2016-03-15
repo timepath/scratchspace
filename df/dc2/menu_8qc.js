@@ -35,6 +35,7 @@ var menu_8qc =
     [ "UpdateConWidthHeight", "df/dc2/menu_8qc.html#aaa456b657e65102b534a4780cd7c2e8a", null ],
     [ "conheight_s", "df/dc2/menu_8qc.html#a1608b56b536a09ac713a62165c41dbac", null ],
     [ "conwidth_s", "df/dc2/menu_8qc.html#a15bb74840c3f962712831e1f6cbdcbc8", null ],
+    [ "cvarName", "df/dc2/menu_8qc.html#aa958d5d2b2d14b4705a46d5474d9843e", null ],
     [ "m_goto_buffer", "df/dc2/menu_8qc.html#af9270e4e0ed771516f7d09df122a9517", null ],
     [ "MENU_ASPECT", "df/dc2/menu_8qc.html#ad6f3a3210c1438bce1d44ad7723fda82", null ],
     [ "menu_tooltips", "df/dc2/menu_8qc.html#a03bba5d0633146f4a91fc7b3dc18a969", null ],

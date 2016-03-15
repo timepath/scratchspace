@@ -1,11 +1,10 @@
 var xonotic_2radiobutton_8qc =
 [
-    [ "RADIOBUTTON_H", "d9/dad/xonotic_2radiobutton_8qc.html#a46079ac83c74cb1091bd02865fb573bf", null ],
-    [ "makeXonoticRadioButton", "d9/dad/xonotic_2radiobutton_8qc.html#ac48ddaf493228fb16b2123568132265d", null ],
-    [ "makeXonoticRadioButton_T", "d9/dad/xonotic_2radiobutton_8qc.html#a923eeffb1f7b493924b67a5029de1ee0", null ],
-    [ "METHOD", "d9/dad/xonotic_2radiobutton_8qc.html#afac1c157aebd2f3636af17b15f4962a9", null ],
-    [ "METHOD", "d9/dad/xonotic_2radiobutton_8qc.html#a952a93a8e79947f5cd8c511cb767b138", null ],
-    [ "METHOD", "d9/dad/xonotic_2radiobutton_8qc.html#ad93610c8d0ae3da30ab4e9910c4ecf55", null ],
-    [ "METHOD", "d9/dad/xonotic_2radiobutton_8qc.html#aeba6210dde0d2292d96da05da2e738d7", null ],
-    [ "METHOD", "d9/dad/xonotic_2radiobutton_8qc.html#aa52f018335d6a987b09388fa39ee03aa", null ]
+    [ "makeXonoticRadioButton", "d9/dad/xonotic_2radiobutton_8qc.html#ab245ab8e3e2d665a4f6d467524269c58", null ],
+    [ "makeXonoticRadioButton_T", "d9/dad/xonotic_2radiobutton_8qc.html#ad6246d3b924142cee4128a6ab7d4bbd4", null ],
+    [ "XonoticRadioButton_configureXonoticRadioButton", "d9/dad/xonotic_2radiobutton_8qc.html#a0dfcbd84caa25aaa08982bbfc704eede", null ],
+    [ "XonoticRadioButton_draw", "d9/dad/xonotic_2radiobutton_8qc.html#acee66429490cc78401f74eda4d4c7155", null ],
+    [ "XonoticRadioButton_loadCvars", "d9/dad/xonotic_2radiobutton_8qc.html#a32a30d845be2abcd0c19f299e86bc524", null ],
+    [ "XonoticRadioButton_saveCvars", "d9/dad/xonotic_2radiobutton_8qc.html#a2ca6480e870cba291535f4c1a0e0b42e", null ],
+    [ "XonoticRadioButton_setChecked", "d9/dad/xonotic_2radiobutton_8qc.html#a68f33e724b7d01c3f3a6b29c06cc2240", null ]
 ];

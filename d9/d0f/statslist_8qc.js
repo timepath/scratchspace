@@ -1,14 +1,13 @@
 var statslist_8qc =
 [
-    [ "STATSLIST_H", "d9/d0f/statslist_8qc.html#acd186b74bd3eb81624228ed481830ba3", null ],
     [ "makeXonoticStatsList", "d9/d0f/statslist_8qc.html#a541bd08a242818503c5005025e25bdcd", null ],
-    [ "METHOD", "d9/d0f/statslist_8qc.html#a05c24802f1d5a34aa3c2f49929470c8f", null ],
-    [ "METHOD", "d9/d0f/statslist_8qc.html#ac0254b0e9ae55ad34f6b7d4bd7540d0b", null ],
-    [ "METHOD", "d9/d0f/statslist_8qc.html#a2716280c71c1a8307792b2a5956c4034", null ],
-    [ "METHOD", "d9/d0f/statslist_8qc.html#af00c623e413810e6b15b882090b18ef2", null ],
-    [ "METHOD", "d9/d0f/statslist_8qc.html#abc9edcde0c4cff206bdc8b0769a37911", null ],
-    [ "METHOD", "d9/d0f/statslist_8qc.html#ae9e723ee17163fe6baeb14e6bdaba966", null ],
-    [ "METHOD", "d9/d0f/statslist_8qc.html#a647ff005a24b75da18de8af4a3be91cf", null ],
-    [ "METHOD", "d9/d0f/statslist_8qc.html#a68c0724f373f2f906773cadbc80d9158", null ],
-    [ "statslist", "d9/d0f/statslist_8qc.html#a805ce8fff65b47ff491afbce6f9fbf0c", null ]
+    [ "XonoticStatsList_configureXonoticStatsList", "d9/d0f/statslist_8qc.html#a0b75bd265231a0fd729a4742fed2e697", null ],
+    [ "XonoticStatsList_convertDate", "d9/d0f/statslist_8qc.html#ab2c81bed70cd3beefee5b736dc5ef79c", null ],
+    [ "XonoticStatsList_destroy", "d9/d0f/statslist_8qc.html#ad3d4581fc2bf1a064f93e3e008b70109", null ],
+    [ "XonoticStatsList_doubleClickListBoxItem", "d9/d0f/statslist_8qc.html#aabebfe655863636cdbf162cd70c1b59b", null ],
+    [ "XonoticStatsList_drawListBoxItem", "d9/d0f/statslist_8qc.html#a1cb445cdee2529a0c79a3eb386c19262", null ],
+    [ "XonoticStatsList_getStats", "d9/d0f/statslist_8qc.html#a4d1b9e827735a6b3505287f9956feab8", null ],
+    [ "XonoticStatsList_keyDown", "d9/d0f/statslist_8qc.html#a0e6f823da74c1662ccbcb890681e0993", null ],
+    [ "XonoticStatsList_resizeNotify", "d9/d0f/statslist_8qc.html#a9d14cd32d81e1df92a956f1a5aab5c57", null ],
+    [ "XonoticStatsList_showNotify", "d9/d0f/statslist_8qc.html#a85f8399c082412ff76124358b2ef04ad", null ]
 ];

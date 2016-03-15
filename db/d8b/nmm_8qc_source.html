@@ -310,11 +310,11 @@ $(document).ready(function(){initNavTree('db/d8b/nmm_8qc_source.html','../../');
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;<span class="comment">// Count NMM pieces matching flags and team number</span></div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="keywordtype">int</span> nmm_count_pieces(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> minigame, <span class="keywordtype">int</span> teamn, <span class="keywordtype">int</span> pieceflags)</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;{</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordtype">int</span> n = 0;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a> = 0;</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e = <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>;</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordflow">while</span> (( e = nmm_find_piece(e,minigame, teamn, pieceflags) ))</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        n++;</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordflow">return</span> n;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;}</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="comment">// required function, handle server side events</span></div>
@@ -930,6 +930,7 @@ $(document).ready(function(){initNavTree('db/d8b/nmm_8qc_source.html','../../');
 <div class="ttc" id="cl__minigames_8qh_html_a82f7375b596eef1374f49d41e4b75ad0"><div class="ttname"><a href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a></div><div class="ttdeci">#define minigame_cmd(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3d/cl__minigames_8qh_source.html#l00095">cl_minigames.qh:95</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a189158f8c2db3797e9bb00cc53e80988"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a189158f8c2db3797e9bb00cc53e80988">drawfill</a></div><div class="ttdeci">float drawfill(vector position, vector size, vector rgb, float alpha, float flag)</div></div>
+<div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
 <div class="ttc" id="minigames_8qc_html_adbfd9d3db8c920f23ecda1e18d9a65ab"><div class="ttname"><a href="../../d3/dbf/minigames_8qc.html#adbfd9d3db8c920f23ecda1e18d9a65ab">minigame_tile_buildname</a></div><div class="ttdeci">string minigame_tile_buildname(int letter, int number)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dbf/minigames_8qc_source.html#l00034">minigames.qc:34</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
 <div class="ttc" id="nmm_8qc_html_a7cedb1af4af53d3e4b1b5ef7e0344e32"><div class="ttname"><a href="../../db/d8b/nmm_8qc.html#a7cedb1af4af53d3e4b1b5ef7e0344e32">nmm_tile_adjacent</a></div><div class="ttdeci">bool nmm_tile_adjacent(entity tile1, entity tile2)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d8b/nmm_8qc_source.html#l00147">nmm.qc:147</a></div></div>
@@ -966,7 +967,7 @@ $(document).ready(function(){initNavTree('db/d8b/nmm_8qc_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../dir_f3c5fe65fc7d6f300d22d67107da5495.html">minigame</a></li><li class="navelem"><a class="el" href="../../db/d8b/nmm_8qc.html">nmm.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:10 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:23 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

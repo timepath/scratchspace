@@ -153,7 +153,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="comment">// step 4: write queue</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        TUR_CONFIG_WRITETOFILE(sprintf(<span class="stringliteral">&quot;// {{{ #%d: %s\n&quot;</span>, i, it.turret_name))</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        for(x = 0; x &lt;= TUR_CONFIG_COUNT; ++x)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <a class="code" href="../../d6/d74/serverlist_8qc.html#a748bdd9b2b86f12da98d8d6f7911e470">for</a>(x = 0; x &lt;= TUR_CONFIG_COUNT; ++x)</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            { TUR_CONFIG_WRITETOFILE(tur_config_queue[x]) }</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        TUR_CONFIG_WRITETOFILE(<span class="stringliteral">&quot;// }}}\n&quot;</span>)</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
@@ -173,6 +173,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="turrets_2config_8qc_html_a1d1f02d10e59d74c6b74a716871ea545"><div class="ttname"><a href="../../de/d4a/turrets_2config_8qc.html#a1d1f02d10e59d74c6b74a716871ea545">T_Config_Queue_Compare</a></div><div class="ttdeci">float T_Config_Queue_Compare(float root, float child, entity pass)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4a/turrets_2config_8qc_source.html#l00012">config.qc:12</a></div></div>
 <div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
+<div class="ttc" id="serverlist_8qc_html_a748bdd9b2b86f12da98d8d6f7911e470"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a748bdd9b2b86f12da98d8d6f7911e470">for</a></div><div class="ttdeci">for(int i=0, n=tokenize_console(s);i&lt; n;++i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00230">serverlist.qc:230</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
 <div class="ttc" id="turrets_2config_8qc_html_a4cec7b70063ba5f4b12fa02e610549ba"><div class="ttname"><a href="../../de/d4a/turrets_2config_8qc.html#a4cec7b70063ba5f4b12fa02e610549ba">T_Config_Queue_Swap</a></div><div class="ttdeci">void T_Config_Queue_Swap(float root, float child, entity pass)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4a/turrets_2config_8qc_source.html#l00005">config.qc:5</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00014">iter.qh:14</a></div></div>
@@ -320,7 +321,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../de/d4a/turrets_2config_8qc.html">config.qc</a></li>
-    <li class="footer">Generated on Mon Mar 14 2016 12:44:16 for Xonotic by
+    <li class="footer">Generated on Tue Mar 15 2016 04:33:30 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

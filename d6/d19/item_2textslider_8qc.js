@@ -1,14 +1,13 @@
 var item_2textslider_8qc =
 [
-    [ "ITEM_TEXTSLIDER_H", "d6/d19/item_2textslider_8qc.html#a11c7ca5449575ae47037d16c7d74baf8", null ],
-    [ "METHOD", "d6/d19/item_2textslider_8qc.html#a128ac984df1dfcb67b0abbfbc45fdd4d", null ],
-    [ "METHOD", "d6/d19/item_2textslider_8qc.html#ae9c8f0d85f3d6bd075e019a4485681f9", null ],
-    [ "METHOD", "d6/d19/item_2textslider_8qc.html#a615505bb8a52ce9dfc3d5d0c385bebc5", null ],
-    [ "METHOD", "d6/d19/item_2textslider_8qc.html#aea522063b59cfb7ba08ad0efe4019b01", null ],
-    [ "METHOD", "d6/d19/item_2textslider_8qc.html#a505fb8c342f4aadc8351b1561f5a9e71", null ],
-    [ "METHOD", "d6/d19/item_2textslider_8qc.html#aeb1b2bae8b0f3243d245570068bb0dea", null ],
-    [ "METHOD", "d6/d19/item_2textslider_8qc.html#a01dacbccff0366043a9c86e724cf0945", null ],
-    [ "METHOD", "d6/d19/item_2textslider_8qc.html#a850482fc0c979c0e771447eb860ac05f", null ],
-    [ "METHOD", "d6/d19/item_2textslider_8qc.html#ac0d4265075a3ecbb5d01785d74518023", null ],
-    [ "METHOD", "d6/d19/item_2textslider_8qc.html#a044c7640d072f8eaf891f2149e6f9c98", null ]
+    [ "TextSlider_addValue", "d6/d19/item_2textslider_8qc.html#adfe01db335b98febb13f9f868af89017", null ],
+    [ "TextSlider_clearValues", "d6/d19/item_2textslider_8qc.html#a6fda399e72618bd9a2fd0859b1ac52ae", null ],
+    [ "TextSlider_configureTextSliderValues", "d6/d19/item_2textslider_8qc.html#aa16c0597db29e0e41b727cd5307496a3", null ],
+    [ "TextSlider_getIdentifier", "d6/d19/item_2textslider_8qc.html#a5e1ea9e6b3986e13b3599969bca8cfef", null ],
+    [ "TextSlider_insertValue", "d6/d19/item_2textslider_8qc.html#a14102f9196453857b40937f8bac072b2", null ],
+    [ "TextSlider_setValueFromIdentifier", "d6/d19/item_2textslider_8qc.html#af29fe111fc37e1ed19f6d0f376024f02", null ],
+    [ "TextSlider_setValueFromIdentifier_allowAnim", "d6/d19/item_2textslider_8qc.html#a5e6bda641277315482cf8c688c84f9bd", null ],
+    [ "TextSlider_setValueFromIdentifier_noAnim", "d6/d19/item_2textslider_8qc.html#a1a435e0c1d23c3473e05314920338bf3", null ],
+    [ "TextSlider_valueToIdentifier", "d6/d19/item_2textslider_8qc.html#a2b395ff38a5b2039dfed4a7ba717cec2", null ],
+    [ "TextSlider_valueToText", "d6/d19/item_2textslider_8qc.html#a66b13438483e2a8cc46450ee3ab4e7fb", null ]
 ];

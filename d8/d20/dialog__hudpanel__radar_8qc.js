@@ -1,5 +1,4 @@
 var dialog__hudpanel__radar_8qc =
 [
-    [ "DIALOG_HUDPANEL_RADAR_H", "d8/d20/dialog__hudpanel__radar_8qc.html#afc67726e8dcc48684cc250f2b1700655", null ],
-    [ "METHOD", "d8/d20/dialog__hudpanel__radar_8qc.html#a5ad0fb97949e52dcdfaac3d3844074e9", null ]
+    [ "XonoticHUDRadarDialog_fill", "d8/d20/dialog__hudpanel__radar_8qc.html#a32a1d4d223cdafdad821362b59ab6923", null ]
 ];

@@ -1,9 +1,32 @@
 <map id="draw_Text" name="draw_Text">
-<area shape="rect" id="node2" href="$d9/d62/menu_2draw_8qh.html#a347cc6fa1234ea432234300e426a7393" title="draw_CenterText" alt="" coords="136,69,259,96"/>
-<area shape="rect" id="node8" href="$df/dc2/menu_8qc.html#a43f8369c5856585967a58a0041298975" title="m_tooltip" alt="" coords="160,132,235,159"/>
-<area shape="rect" id="node3" href="$df/d9b/menu_2xonotic_2util_8qc.html#a7a28b2aedbcabdb5e69a23eaf843e669" title="this is run just after the menu is drawn (or not). " alt="" coords="459,5,570,32"/>
-<area shape="rect" id="node5" href="$df/d9b/menu_2xonotic_2util_8qc.html#a3d10a92a0b5efff2067efd3580ece642" title="this is run before the menu is drawn. " alt="" coords="307,56,410,83"/>
-<area shape="rect" id="node6" href="$df/d9b/menu_2xonotic_2util_8qc.html#a48ddbc4143946234b2a42d4cf1112dc4" title="you have to define this for pre&#45;menu initialization. " alt="" coords="313,107,404,133"/>
-<area shape="rect" id="node4" href="$df/dc2/menu_8qc.html#a844e5015c7d134d4dc7a682948215763" title="m_draw" alt="" coords="619,81,687,108"/>
-<area shape="rect" id="node7" href="$df/dc2/menu_8qc.html#a417e4db3d0fe2387b648a1ed3326341f" title="m_init_delayed" alt="" coords="460,107,569,133"/>
+<area shape="rect" id="node2" href="$d9/d62/menu_2draw_8qh.html#a347cc6fa1234ea432234300e426a7393" title="draw_CenterText" alt="" coords="184,305,307,332"/>
+<area shape="rect" id="node10" href="$df/d75/keybinder_8qc.html#ab7971f47e57806c3692c50905b0f99be" title="XonoticKeyBinder_drawList\lBoxItem" alt="" coords="422,357,605,398"/>
+<area shape="rect" id="node12" href="$d8/d29/playlist_8qc.html#a2d0491d1c41ff739f445c908d1be7d9c" title="XonoticPlayList_drawList\lBoxItem" alt="" coords="429,422,598,463"/>
+<area shape="rect" id="node13" href="$de/d39/screenshotimage_8qc.html#a57d982b404b71320708a4ddc5d1dbb82" title="XonoticScreenshotImage_draw" alt="" coords="412,488,615,515"/>
+<area shape="rect" id="node14" href="$d9/dc5/soundlist_8qc.html#a45ac7369d9c6c8d8a3cdf174f95a7fd2" title="XonoticSoundList_drawList\lBoxItem" alt="" coords="423,539,603,581"/>
+<area shape="rect" id="node15" href="$d3/dd8/item_2inputbox_8qc.html#a8c4345d0dd45bcb33c0802e73ef52857" title="InputBox_draw" alt="" coords="191,577,300,604"/>
+<area shape="rect" id="node16" href="$d4/d16/label_8qc.html#afd8334cae30cb0a7cee0f707c9024c9c" title="Label_draw" alt="" coords="201,628,289,655"/>
+<area shape="rect" id="node17" href="$db/d8e/item_2listbox_8qc.html#a3004b46212e88f5b9c4eb4f2ccb2b163" title="ListBox_drawListBoxItem" alt="" coords="160,679,331,705"/>
+<area shape="rect" id="node18" href="$df/dc2/menu_8qc.html#a43f8369c5856585967a58a0041298975" title="m_tooltip" alt="" coords="691,44,765,71"/>
+<area shape="rect" id="node19" href="$d3/d69/menu_2xonotic_2campaign_8qc.html#ac98698d95b8f7aa84664179566f957fb" title="XonoticCampaignList\l_drawListBoxItem" alt="" coords="172,730,319,771"/>
+<area shape="rect" id="node20" href="$dc/d56/cvarlist_8qc.html#a03af6344dc0fada817213f1c27aa4413" title="XonoticCvarList_drawList\lBoxItem" alt="" coords="160,795,331,837"/>
+<area shape="rect" id="node21" href="$db/d21/demolist_8qc.html#aa1062300c6607a557e9487800bc59d16" title="XonoticDemoList_drawList\lBoxItem" alt="" coords="156,861,335,902"/>
+<area shape="rect" id="node22" href="$d2/db8/gametypelist_8qc.html#a6e40fa703f86c8349adb82ee9ae53e68" title="XonoticGametypeList\l_drawListBoxItem" alt="" coords="172,926,319,967"/>
+<area shape="rect" id="node23" href="$da/d21/hudskinlist_8qc.html#a6aadd5add47a7cd0f4e1b95bb32efa76" title="XonoticHUDSkinList\l_drawListBoxItem" alt="" coords="174,991,317,1033"/>
+<area shape="rect" id="node24" href="$d3/d2e/languagelist_8qc.html#ae53e2ac0d6bd1a31c3dd204c35b1398d" title="XonoticLanguageList\l_drawListBoxItem" alt="" coords="174,1057,317,1098"/>
+<area shape="rect" id="node25" href="$d0/dc5/maplist_8qc.html#acd12df76ca97bd075fe87a115ea73905" title="XonoticMapList_drawListBoxItem" alt="" coords="137,1123,354,1149"/>
+<area shape="rect" id="node26" href="$de/d40/playerlist_8qc.html#accacdde514ed22e2039003fd284ba302" title="XonoticPlayerList_drawList\lBoxItem" alt="" coords="155,1174,335,1215"/>
+<area shape="rect" id="node27" href="$d9/d18/screenshotlist_8qc.html#af995fcf70036ff2733377c5d44a5ab21" title="XonoticScreenshotList\l_drawListBoxItem" alt="" coords="169,1239,322,1281"/>
+<area shape="rect" id="node28" href="$d6/d74/serverlist_8qc.html#a3d865254038d9e2657996a28421aa1cc" title="XonoticServerList_drawList\lBoxItem" alt="" coords="155,1305,336,1346"/>
+<area shape="rect" id="node29" href="$d9/da1/skinlist_8qc.html#a67ccb3287a5e0ae9d885f72360782877" title="XonoticSkinList_drawList\lBoxItem" alt="" coords="161,1370,330,1411"/>
+<area shape="rect" id="node30" href="$d9/d0f/statslist_8qc.html#a1cb445cdee2529a0c79a3eb386c19262" title="XonoticStatsList_drawList\lBoxItem" alt="" coords="158,1435,333,1477"/>
+<area shape="rect" id="node31" href="$d8/df3/weaponslist_8qc.html#acf6ebf9620c197250e0a11dd2894eed2" title="XonoticWeaponsList\l_drawListBoxItem" alt="" coords="174,1501,317,1542"/>
+<area shape="rect" id="node3" href="$df/d9b/menu_2xonotic_2util_8qc.html#a7a28b2aedbcabdb5e69a23eaf843e669" title="this is run just after the menu is drawn (or not). " alt="" coords="673,153,783,180"/>
+<area shape="rect" id="node5" href="$df/d9b/menu_2xonotic_2util_8qc.html#a3d10a92a0b5efff2067efd3580ece642" title="this is run before the menu is drawn. " alt="" coords="677,204,779,231"/>
+<area shape="rect" id="node6" href="$df/d9b/menu_2xonotic_2util_8qc.html#a48ddbc4143946234b2a42d4cf1112dc4" title="you have to define this for pre&#45;menu initialization. " alt="" coords="468,255,559,281"/>
+<area shape="rect" id="node8" href="$d0/dad/charmap_8qc.html#a728be8a0ffb10c29420651a2b635b119" title="XonoticCharmap_cellDraw" alt="" coords="425,36,602,63"/>
+<area shape="rect" id="node9" href="$d0/d80/credits_8qc.html#a631500022bd2176cac07191e0de863fc" title="XonoticCreditsList\l_drawListBoxItem" alt="" coords="449,87,578,129"/>
+<area shape="rect" id="node11" href="$de/dd6/playermodel_8qc.html#a8c043bef02f2b2f211a625339052d8fa" title="XonoticPlayerModelSelector_draw" alt="" coords="403,305,624,332"/>
+<area shape="rect" id="node4" href="$df/dc2/menu_8qc.html#a844e5015c7d134d4dc7a682948215763" title="m_draw" alt="" coords="833,179,901,205"/>
+<area shape="rect" id="node7" href="$df/dc2/menu_8qc.html#a417e4db3d0fe2387b648a1ed3326341f" title="m_init_delayed" alt="" coords="673,255,783,281"/>
 </map>

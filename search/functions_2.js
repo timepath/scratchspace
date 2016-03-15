@@ -54,6 +54,10 @@ var searchData=
   ['bgmscript_5finit',['BGMScript_Init',['../d0/d0f/bgmscript_8qc.html#af2c58a58457c6bc59bf55dcfe20d856d',1,'bgmscript.qc']]],
   ['bgmscript_5finitentity',['BGMScript_InitEntity',['../d0/d0f/bgmscript_8qc.html#a6810ff8ca37cbeb1102998c4e0f27dbf',1,'bgmscript.qc']]],
   ['bool',['bool',['../d4/ddc/monster_8qh.html#a34e0b86a39a5f12d53567ff4d47f32e2',1,'bool(int, entity actor, entity targ) monster_attackfunc:&#160;monster.qh'],['../db/d38/base_8qh.html#a48048d02bdc1dc1e682dc8fab4040e14',1,'bool(int) mutatorfunc_t:&#160;base.qh'],['../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e',1,'bool(entity this, entity sender, bool isNew) m_read:&#160;net.qh']]],
+  ['borderimage_5fconfigureborderimage',['BorderImage_configureBorderImage',['../dd/d13/borderimage_8qc.html#a16c0083a266b855baf996fb122a53e15',1,'borderimage.qc']]],
+  ['borderimage_5fdraw',['BorderImage_draw',['../dd/d13/borderimage_8qc.html#ab3492fa39c0e3496d2e5d2515ffd7ff6',1,'borderimage.qc']]],
+  ['borderimage_5frecalcpositionwithtext',['BorderImage_recalcPositionWithText',['../dd/d13/borderimage_8qc.html#a77b67c740e2ac71606c51918ee2b9017',1,'borderimage.qc']]],
+  ['borderimage_5fresizenotify',['BorderImage_resizeNotify',['../dd/d13/borderimage_8qc.html#a662c8926836339f7964c80c386d28417',1,'borderimage.qc']]],
   ['bot_5faim',['bot_aim',['../df/dc9/aim_8qc.html#a27e88c694b8648e6ef4a34ce3b1acea4',1,'bot_aim(float shotspeed, float shotspeedupward, float maxshottime, float applygravity):&#160;aim.qc'],['../d3/d5a/aim_8qh.html#a27e88c694b8648e6ef4a34ce3b1acea4',1,'bot_aim(float shotspeed, float shotspeedupward, float maxshottime, float applygravity):&#160;aim.qc']]],
   ['bot_5faimdir',['bot_aimdir',['../df/dc9/aim_8qc.html#a309be6a1c169ab86274909b68fe72ec1',1,'bot_aimdir(vector v, float maxfiredeviation):&#160;aim.qc'],['../d3/d5a/aim_8qh.html#a309be6a1c169ab86274909b68fe72ec1',1,'bot_aimdir(vector v, float maxfiredeviation):&#160;aim.qc']]],
   ['bot_5fcalculate_5fstepheightvec',['bot_calculate_stepheightvec',['../d2/dc0/bot_8qc.html#a93e7d8dfd34f0d07a3c9f4ef59ed3888',1,'bot_calculate_stepheightvec():&#160;bot.qc'],['../d1/da9/bot_8qh.html#a93e7d8dfd34f0d07a3c9f4ef59ed3888',1,'bot_calculate_stepheightvec():&#160;bot.qc']]],
@@ -133,5 +137,14 @@ var searchData=
   ['buildpath_5fnodefilter',['buildpath_nodefilter',['../dd/d70/pathlib_8qh.html#aa96406bb9db6a09e54828c46b76cacd2',1,'pathlib.qh']]],
   ['buildpath_5fnodefilter_5fdirectional',['buildpath_nodefilter_directional',['../df/d4c/server_2pathlib_2main_8qc.html#ae2056c633b1b4b1e30b3578f2969e493',1,'main.qc']]],
   ['buildpath_5fnodefilter_5fmoveskip',['buildpath_nodefilter_moveskip',['../df/d4c/server_2pathlib_2main_8qc.html#a839872548937b4648246baa64cd5da94',1,'main.qc']]],
-  ['buildpath_5fnodefilter_5fnone',['buildpath_nodefilter_none',['../df/d4c/server_2pathlib_2main_8qc.html#ab7f9b39e70a8f2218a8a341c2ebe58b6',1,'buildpath_nodefilter_none(vector n, vector c, vector p):&#160;main.qc'],['../d8/db4/server_2pathlib_2main_8qh.html#ab7f9b39e70a8f2218a8a341c2ebe58b6',1,'buildpath_nodefilter_none(vector n, vector c, vector p):&#160;main.qc']]]
+  ['buildpath_5fnodefilter_5fnone',['buildpath_nodefilter_none',['../df/d4c/server_2pathlib_2main_8qc.html#ab7f9b39e70a8f2218a8a341c2ebe58b6',1,'buildpath_nodefilter_none(vector n, vector c, vector p):&#160;main.qc'],['../d8/db4/server_2pathlib_2main_8qh.html#ab7f9b39e70a8f2218a8a341c2ebe58b6',1,'buildpath_nodefilter_none(vector n, vector c, vector p):&#160;main.qc']]],
+  ['button_5fconfigurebutton',['Button_configureButton',['../d2/dc3/menu_2item_2button_8qc.html#a9a18c0471558c93984932a6f3a3c8e23',1,'button.qc']]],
+  ['button_5fdraw',['Button_draw',['../d2/dc3/menu_2item_2button_8qc.html#a6a2818c7bb6b36d0b78d5541ed263812',1,'button.qc']]],
+  ['button_5fkeydown',['Button_keyDown',['../d2/dc3/menu_2item_2button_8qc.html#a3142605a598eb880bbcf463054fe71d7',1,'button.qc']]],
+  ['button_5fmousedrag',['Button_mouseDrag',['../d2/dc3/menu_2item_2button_8qc.html#a27cfbb4dac380601a305fd58da5d5903',1,'button.qc']]],
+  ['button_5fmousepress',['Button_mousePress',['../d2/dc3/menu_2item_2button_8qc.html#a02f93275fa48c7582063b2839d616d55',1,'button.qc']]],
+  ['button_5fmouserelease',['Button_mouseRelease',['../d2/dc3/menu_2item_2button_8qc.html#a01d906fb1a0376c960e475956df30ac4',1,'button.qc']]],
+  ['button_5fplayclicksound',['Button_playClickSound',['../d2/dc3/menu_2item_2button_8qc.html#aaa50089ebdde82645e100e69d438de8b',1,'button.qc']]],
+  ['button_5fresizenotify',['Button_resizeNotify',['../d2/dc3/menu_2item_2button_8qc.html#a88bc486206be56575705569d9e5250a1',1,'button.qc']]],
+  ['button_5fshownotify',['Button_showNotify',['../d2/dc3/menu_2item_2button_8qc.html#ad7dc81a3d5526c217fa59ecd05a3609e',1,'button.qc']]]
 ];

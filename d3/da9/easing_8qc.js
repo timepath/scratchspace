@@ -1,12 +1,10 @@
 var easing_8qc =
 [
-    [ "ANIM_EASING_H", "d3/da9/easing_8qc.html#a6f6000f143c5fae7c7c120433ec82550", null ],
-    [ "easingLinear", "d3/da9/easing_8qc.html#a56eca0d70f80853b61237989a85dcb77", null ],
-    [ "easingQuadIn", "d3/da9/easing_8qc.html#ad55d1443467c597fd6f9a1dcb5fac862", null ],
-    [ "easingQuadInOut", "d3/da9/easing_8qc.html#ab54c0bedee1bf5c4fdebecf8aeb1968f", null ],
-    [ "easingQuadOut", "d3/da9/easing_8qc.html#a285c6f8d89651804f751c07794d5c09c", null ],
-    [ "makeEasing", "d3/da9/easing_8qc.html#a3e7849ececbf47dc984feb4673ec0a8a", null ],
-    [ "makeHostedEasing", "d3/da9/easing_8qc.html#a627676a95db0144ff5f4b5c76ac20a0e", null ],
-    [ "METHOD", "d3/da9/easing_8qc.html#a744459976f0334df56bee8f28dee3c58", null ],
-    [ "METHOD", "d3/da9/easing_8qc.html#a4b82675a46302510c7fa4707e50de29e", null ]
+    [ "easingLinear", "d3/da9/easing_8qc.html#a0e06f8e7c1083289bc14dccbe1688e85", null ],
+    [ "easingQuadIn", "d3/da9/easing_8qc.html#a01ea4953be61be7302f99e451b7b2d79", null ],
+    [ "easingQuadInOut", "d3/da9/easing_8qc.html#a3ea1bfe1739af1e4273b0817c2091a9a", null ],
+    [ "easingQuadOut", "d3/da9/easing_8qc.html#a91027b36dec9be4dda2fdd5193b5147f", null ],
+    [ "makeEasing", "d3/da9/easing_8qc.html#a326a18c23ad059eb6df37f35f110bdfb", null ],
+    [ "makeHostedEasing", "d3/da9/easing_8qc.html#a534ca3b801e6ddae043a97a9eb6aaa04", null ],
+    [ "METHOD", "d3/da9/easing_8qc.html#a81e802d97c51e8a2ba3b22118db59026", null ]
 ];

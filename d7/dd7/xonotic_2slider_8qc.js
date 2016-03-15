@@ -1,11 +1,10 @@
 var xonotic_2slider_8qc =
 [
-    [ "SLIDER_H", "d7/dd7/xonotic_2slider_8qc.html#ac71c67adf9e96317cc134f5c76f9a727", null ],
-    [ "makeXonoticSlider", "d7/dd7/xonotic_2slider_8qc.html#af2d0303927f3a97e5d41c86db7f3256b", null ],
-    [ "makeXonoticSlider_T", "d7/dd7/xonotic_2slider_8qc.html#a9d1facd3287136dec2dc69728e6863ba", null ],
-    [ "METHOD", "d7/dd7/xonotic_2slider_8qc.html#a10cde4b494c1caf5afa1b6e1ae3dcc7f", null ],
-    [ "METHOD", "d7/dd7/xonotic_2slider_8qc.html#a6a857813bc40c838ddfe76aa072fa589", null ],
-    [ "METHOD", "d7/dd7/xonotic_2slider_8qc.html#a030a13461d1a06a74e3a4c3ae04ad66c", null ],
-    [ "METHOD", "d7/dd7/xonotic_2slider_8qc.html#ac9548036ba705603732e085c9f5c8271", null ],
-    [ "METHOD", "d7/dd7/xonotic_2slider_8qc.html#a6287f1c43102540feb25f930a24c7987", null ]
+    [ "makeXonoticSlider", "d7/dd7/xonotic_2slider_8qc.html#a72ea3ddcd9b42b7960214c7d378e0ae3", null ],
+    [ "makeXonoticSlider_T", "d7/dd7/xonotic_2slider_8qc.html#a634ca09e8b38783ce42d633f540d573f", null ],
+    [ "XonoticSlider_configureXonoticSlider", "d7/dd7/xonotic_2slider_8qc.html#a9929800f2c29cc656892a372fb98d8cd", null ],
+    [ "XonoticSlider_loadCvars", "d7/dd7/xonotic_2slider_8qc.html#af5e8dec4bee4c2f85ecf9c82542ad3d3", null ],
+    [ "XonoticSlider_saveCvars", "d7/dd7/xonotic_2slider_8qc.html#a4d8455cb841ad2070a13037e6051c620", null ],
+    [ "XonoticSlider_setValue", "d7/dd7/xonotic_2slider_8qc.html#a10f12bf115ba2f38d3170cba9771259d", null ],
+    [ "XonoticSlider_setValue_noAnim", "d7/dd7/xonotic_2slider_8qc.html#a5463b0f3850f7cd71b5f9f5e63e38d31", null ]
 ];
