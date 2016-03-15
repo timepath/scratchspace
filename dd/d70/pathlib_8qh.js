@@ -1,7 +1,6 @@
 var pathlib_8qh =
 [
     [ "inwater", "dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3", null ],
-    [ "medium", "dd/d70/pathlib_8qh.html#af4bbdb99e9c2d65a85e2ac7da1b9ff0a", null ],
     [ "buildpath_nodefilter", "dd/d70/pathlib_8qh.html#aa96406bb9db6a09e54828c46b76cacd2", null ],
     [ "pathlib_cost", "dd/d70/pathlib_8qh.html#a3abe1da285638119249062cdf82135c8", null ],
     [ "pathlib_expandnode", "dd/d70/pathlib_8qh.html#a8e8d72a5a60b9e68455411115b4942fe", null ],
@@ -35,6 +34,7 @@ var pathlib_8qh =
     [ "closedlist", "dd/d70/pathlib_8qh.html#aae54e100a6691b764778eafdd7dec48a", null ],
     [ "goal_node", "dd/d70/pathlib_8qh.html#a7a4bfc3e89444975d4a0c3226992e08f", null ],
     [ "is_path_node", "dd/d70/pathlib_8qh.html#a2d601960ef1aea5f4a637ac5a9dcce9f", null ],
+    [ "medium", "dd/d70/pathlib_8qh.html#a7c10be1ad1f7216a7d219076d9f56ece", null ],
     [ "movenode_boxmax", "dd/d70/pathlib_8qh.html#af8a5b93a257df77202ad0ece0336b25c", null ],
     [ "movenode_boxmin", "dd/d70/pathlib_8qh.html#ae528b3e11784e5c063865e475db8835c", null ],
     [ "movenode_boxup", "dd/d70/pathlib_8qh.html#a0ae0c5798445692348f11dd4826bc739", null ],

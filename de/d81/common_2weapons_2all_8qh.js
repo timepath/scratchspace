@@ -53,7 +53,7 @@ var common_2weapons_2all_8qh =
     [ "X", "de/d81/common_2weapons_2all_8qh.html#a402dcb4276567cfc2769369f7df89818", null ],
     [ "WepSet", "de/d81/common_2weapons_2all_8qh.html#ada1bb14264d5feafb481dc451a540667", null ],
     [ "_WepSet_FromWeapon", "de/d81/common_2weapons_2all_8qh.html#afa58eea7e5b202d3baf065ef2d96e0f0", null ],
-    [ "CL_WeaponEntity_SetModel", "de/d81/common_2weapons_2all_8qh.html#ab93cca8c59c0d1b4a0e600cfc4e21ca2", null ],
+    [ "CL_WeaponEntity_SetModel", "de/d81/common_2weapons_2all_8qh.html#a4f6a7bf5708e48f775f9142afd9d6dc1", null ],
     [ "GENERIC_COMMAND", "de/d81/common_2weapons_2all_8qh.html#aa57bf8a9c39eb97671c9cf68522ae139", null ],
     [ "REGISTER_WEAPON", "de/d81/common_2weapons_2all_8qh.html#a123925229da592cc21d3648a3f2d6563", null ],
     [ "REGISTRY", "de/d81/common_2weapons_2all_8qh.html#a5ac40c7a1ac2d8bf44dfd73aaca2a3df", null ],

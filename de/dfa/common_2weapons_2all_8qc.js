@@ -4,7 +4,7 @@ var common_2weapons_2all_8qc =
     [ "shotorg_adjust", "de/dfa/common_2weapons_2all_8qc.html#a1be9121816513bb7d3a07c54e7ec9c91", null ],
     [ "WEAPONS_ALL_C", "de/dfa/common_2weapons_2all_8qc.html#a5f8f672e8335b2e06ac57a8be36e2b66", null ],
     [ "_WepSet_FromWeapon", "de/dfa/common_2weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee", null ],
-    [ "CL_WeaponEntity_SetModel", "de/dfa/common_2weapons_2all_8qc.html#ab93cca8c59c0d1b4a0e600cfc4e21ca2", null ],
+    [ "CL_WeaponEntity_SetModel", "de/dfa/common_2weapons_2all_8qc.html#a4f6a7bf5708e48f775f9142afd9d6dc1", null ],
     [ "CLIENT_COMMAND", "de/dfa/common_2weapons_2all_8qc.html#a04f73d9d65c082f52a99065266ca7e01", null ],
     [ "GetAmmoPicture", "de/dfa/common_2weapons_2all_8qc.html#a908d57b826ca581e66255d228e1a7666", null ],
     [ "shotorg_adjust_values", "de/dfa/common_2weapons_2all_8qc.html#a55c1f203ec4d2bf0831cdeeeab21e736", null ],

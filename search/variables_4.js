@@ -20,7 +20,6 @@ var searchData=
   ['damageextraradius',['damageextraradius',['../d9/d08/client_2defs_8qh.html#a1b25d8e95136b5a09a597e62b3d1bc4c',1,'damageextraradius():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a1b25d8e95136b5a09a597e62b3d1bc4c',1,'damageextraradius():&#160;defs.qh']]],
   ['damageforcescale',['damageforcescale',['../d9/d08/client_2defs_8qh.html#a625a66e92b24850b15f246b42891aa55',1,'damageforcescale():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a625a66e92b24850b15f246b42891aa55',1,'damageforcescale():&#160;defs.qh']]],
   ['data',['data',['../de/d48/dialog__settings__game_8qc.html#a8a672df12bf358a22e14bc370f55d8f1',1,'dialog_settings_game.qc']]],
-  ['databuf_5fping',['DATABUF_PING',['../d0/d2a/client_2main_8qh.html#a4f9ea53dde67e23fc51cc7cd873a2df7',1,'main.qh']]],
   ['datasource_5ffalse',['DataSource_false',['../d7/d63/datasource_8qh.html#af12a4b950e3a34b24dc873eccc2e6cc1',1,'datasource.qh']]],
   ['datasource_5ftrue',['DataSource_true',['../d7/d63/datasource_8qh.html#a716466cae05b89261b07443a1057e3c8',1,'datasource.qh']]],
   ['db_5fbuckets',['DB_BUCKETS',['../d4/d54/map_8qh.html#a86b85b0f5f2ae1b4d98314c75f14e1de',1,'map.qh']]],

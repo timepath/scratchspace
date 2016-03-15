@@ -1,10 +1,5 @@
 var NAVTREEINDEX21 =
 {
-"d4/db7/cl__minigames_8qc.html#a71b9a14278d7d6948c3c368942227a40":[1,0,1,6,1,7],
-"d4/db7/cl__minigames_8qc.html#a74fcaa9da40aa62de287463ceb0a2908":[1,0,1,6,1,21],
-"d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed":[1,0,1,6,1,37],
-"d4/db7/cl__minigames_8qc.html#a775740889d351d8b6fb7caa3369b35b0":[1,0,1,6,1,18],
-"d4/db7/cl__minigames_8qc.html#a9ba4163f64eccb4bc6a3c4d86679558e":[1,0,1,6,1,23],
 "d4/db7/cl__minigames_8qc.html#a9fe5e1ecd85619f47457c738cb30229c":[1,0,1,6,1,17],
 "d4/db7/cl__minigames_8qc.html#aa5a6829423552f0f4452707e027ff734":[1,0,1,6,1,32],
 "d4/db7/cl__minigames_8qc.html#aa5e0439843364cfdf2701a9992dac50e":[1,0,1,6,1,27],
@@ -78,8 +73,8 @@ var NAVTREEINDEX21 =
 "d4/dcc/skin_8qh.html":[1,0,4,16],
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[1,0,4,16,4],
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[1,0,4,16,5],
-"d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[1,0,4,16,0],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[1,0,4,16,1],
+"d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[1,0,4,16,0],
 "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[1,0,4,16,3],
 "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[1,0,4,16,2],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[1,0,4,16,8],
@@ -249,5 +244,10 @@ var NAVTREEINDEX21 =
 "d4/df2/common_2notifications_2all_8qc.html#a3928a6ac0250db86d0e96cae9f44b7f4":[1,0,1,10,1,40],
 "d4/df2/common_2notifications_2all_8qc.html#a3ccd497f947ede2917e49908cf39a161":[1,0,1,10,1,29],
 "d4/df2/common_2notifications_2all_8qc.html#a4533800e729b98bacf130e45337d6e50":[1,0,1,10,1,42],
-"d4/df2/common_2notifications_2all_8qc.html#a48d522da6e6f6f53c7b2a9c658d81506":[1,0,1,10,1,34]
+"d4/df2/common_2notifications_2all_8qc.html#a48d522da6e6f6f53c7b2a9c658d81506":[1,0,1,10,1,34],
+"d4/df2/common_2notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[1,0,1,10,1,4],
+"d4/df2/common_2notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[1,0,1,10,1,5],
+"d4/df2/common_2notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[1,0,1,10,1,6],
+"d4/df2/common_2notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[1,0,1,10,1,7],
+"d4/df2/common_2notifications_2all_8qc.html#a682b66e5aae4a02b19ba825760896610":[1,0,1,10,1,36]
 };

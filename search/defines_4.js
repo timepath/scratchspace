@@ -1,10 +1,6 @@
 var searchData=
 [
   ['damageeffects_5fh',['DAMAGEEFFECTS_H',['../d9/ddd/damageeffects_8qc.html#a7dce8abea7a2270f81721f8e0f0823fa',1,'damageeffects.qc']]],
-  ['databuf_5fcaptures',['DATABUF_CAPTURES',['../d0/d2a/client_2main_8qh.html#acd74f6c04f2b33a5ecd88d0b0f5614e0',1,'main.qh']]],
-  ['databuf_5fdeaths',['DATABUF_DEATHS',['../d0/d2a/client_2main_8qh.html#a653501c223f416882b68e5dc8f012176',1,'main.qh']]],
-  ['databuf_5fnext',['DATABUF_NEXT',['../d0/d2a/client_2main_8qh.html#a3876b7f3b93b0ef9a15e6c95ee29c0ff',1,'main.qh']]],
-  ['databuf_5freturns',['DATABUF_RETURNS',['../d0/d2a/client_2main_8qh.html#a67f5be9902514898e80744a88f8688c8',1,'main.qh']]],
   ['db_5fremove',['db_remove',['../d4/d54/map_8qh.html#a0cbc5a946b47e9a20a1d9089688840ff',1,'map.qh']]],
   ['death_5fent',['DEATH_ENT',['../db/dab/common_2deathtypes_2all_8qh.html#a387734666d7aaca5f931efd84bbf6eee',1,'all.qh']]],
   ['death_5fis',['DEATH_IS',['../db/dab/common_2deathtypes_2all_8qh.html#aed2b0f7718db6f6b5bc9ebda3c8b4c41',1,'all.qh']]],

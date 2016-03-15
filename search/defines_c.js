@@ -37,7 +37,6 @@ var searchData=
   ['mean_5faccumulate',['MEAN_ACCUMULATE',['../d0/d79/math_8qh.html#ab174a7f4f00a6dbb7728a2261e39ea75',1,'math.qh']]],
   ['mean_5fdeclare',['MEAN_DECLARE',['../d0/d79/math_8qh.html#a2451f68a55948c105f085b057964046b',1,'math.qh']]],
   ['mean_5fevaluate',['MEAN_EVALUATE',['../d0/d79/math_8qh.html#a909baf136adbe1583e95ad9c3fcb3faa',1,'math.qh']]],
-  ['medium',['medium',['../dd/d70/pathlib_8qh.html#af4bbdb99e9c2d65a85e2ac7da1b9ff0a',1,'pathlib.qh']]],
   ['menudefs_5fh',['MENUDEFS_H',['../d0/d95/menudefs_8qh.html#ad6de0e0a47f016163aefcf1b8fe0ac0d',1,'menudefs.qh']]],
   ['method',['METHOD',['../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894',1,'oo.qh']]],
   ['method_5freference',['METHOD_REFERENCE',['../db/d0a/oo_8qh.html#af3216aa755aa9be11693577fbfdb22ba',1,'oo.qh']]],

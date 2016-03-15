@@ -1,10 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"de/dcb/vector_8qh.html#afc1de7548641f25cb9f3cde38c9ffba9":[1,0,3,55,14],
-"de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e":[1,0,3,55,9],
-"de/dcb/vector_8qh_source.html":[1,0,3,55],
-"de/dd6/playermodel_8qc.html":[1,0,4,4,184],
-"de/dd6/playermodel_8qc.html#a042a8f0aca4055c7bfa3357393d92378":[1,0,4,4,184,1],
 "de/dd6/playermodel_8qc.html#a062459ab15bb1cbcd9be093053130e7d":[1,0,4,4,184,2],
 "de/dd6/playermodel_8qc.html#a174b0b1ffef8d6b15c01a9ad65dd312c":[1,0,4,4,184,4],
 "de/dd6/playermodel_8qc.html#a25e9232cc853312b4b1c9766ad0aa69b":[1,0,4,4,184,14],
@@ -108,6 +103,7 @@ var NAVTREEINDEX67 =
 "de/dfa/common_2weapons_2all_8qc.html#a1be9121816513bb7d3a07c54e7ec9c91":[1,0,1,16,2,1],
 "de/dfa/common_2weapons_2all_8qc.html#a2553414f30d5ea519861ab49b8a8c47a":[1,0,1,16,2,10],
 "de/dfa/common_2weapons_2all_8qc.html#a259e403c09376539bec67dda6a1164bc":[1,0,1,16,2,15],
+"de/dfa/common_2weapons_2all_8qc.html#a4f6a7bf5708e48f775f9142afd9d6dc1":[1,0,1,16,2,4],
 "de/dfa/common_2weapons_2all_8qc.html#a55c1f203ec4d2bf0831cdeeeab21e736":[1,0,1,16,2,7],
 "de/dfa/common_2weapons_2all_8qc.html#a5ac8701317c43bb66826e117a101f71e":[1,0,1,16,2,13],
 "de/dfa/common_2weapons_2all_8qc.html#a5f8f672e8335b2e06ac57a8be36e2b66":[1,0,1,16,2,2],
@@ -122,7 +118,6 @@ var NAVTREEINDEX67 =
 "de/dfa/common_2weapons_2all_8qc.html#a908d57b826ca581e66255d228e1a7666":[1,0,1,16,2,6],
 "de/dfa/common_2weapons_2all_8qc.html#aa2f60df3d2c42afc5a315bca65cf4fe3":[1,0,1,16,2,17],
 "de/dfa/common_2weapons_2all_8qc.html#aafd24a334088de3d7fef309914d49101":[1,0,1,16,2,0],
-"de/dfa/common_2weapons_2all_8qc.html#ab93cca8c59c0d1b4a0e600cfc4e21ca2":[1,0,1,16,2,4],
 "de/dfa/common_2weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee":[1,0,1,16,2,3],
 "de/dfa/common_2weapons_2all_8qc.html#acb6d8a69c18135cd85a99ff515fe5bf6":[1,0,1,16,2,9],
 "de/dfa/common_2weapons_2all_8qc.html#ae30fe9ade465e4a7521545f11c61f6fc":[1,0,1,16,2,20],
@@ -249,5 +244,10 @@ var NAVTREEINDEX67 =
 "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html":[1,0,4,4,109],
 "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html#a26c1d0a9700900e2b16c615e4a9e282a":[1,0,4,4,109,2],
 "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html#a6a8c63105be039b8a393d57fd284c431":[1,0,4,4,109,1],
-"df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html#aec335d883878aa67c31a4113f5f7c916":[1,0,4,4,109,3]
+"df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html#aec335d883878aa67c31a4113f5f7c916":[1,0,4,4,109,3],
+"df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html#af11023be7fcc00f81d6d91390e9e7127":[1,0,4,4,109,0],
+"df/d27/dialog__multiplayer__media__screenshot__viewer_8qh_source.html":[1,0,4,4,109],
+"df/d28/menu_2xonotic_2button_8qc.html":[1,0,4,4,4],
+"df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[1,0,4,4,4,2],
+"df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[1,0,4,4,4,1]
 };

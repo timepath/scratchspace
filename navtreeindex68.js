@@ -1,10 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html#af11023be7fcc00f81d6d91390e9e7127":[1,0,4,4,109,0],
-"df/d27/dialog__multiplayer__media__screenshot__viewer_8qh_source.html":[1,0,4,4,109],
-"df/d28/menu_2xonotic_2button_8qc.html":[1,0,4,4,4],
-"df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[1,0,4,4,4,2],
-"df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[1,0,4,4,4,1],
 "df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9":[1,0,4,4,4,0],
 "df/d28/menu_2xonotic_2button_8qc_source.html":[1,0,4,4,4],
 "df/d28/sv__turrets_8qh.html":[1,0,1,14,9],
@@ -249,5 +244,10 @@ var NAVTREEINDEX68 =
 "df/d4f/ladder_8qh.html":[1,0,1,13,0,13],
 "df/d4f/ladder_8qh.html#aa60a516fc0a4e7635ac3ac1a854b9266":[1,0,1,13,0,13,1],
 "df/d4f/ladder_8qh.html#ac7991a33f246233f749dbc74c6504b83":[1,0,1,13,0,13,0],
-"df/d4f/ladder_8qh_source.html":[1,0,1,13,0,13]
+"df/d4f/ladder_8qh_source.html":[1,0,1,13,0,13],
+"df/d50/mutators_2mutator_2breakablehook_2module_8inc.html":[1,0,1,9,0,1,1],
+"df/d50/mutators_2mutator_2breakablehook_2module_8inc_source.html":[1,0,1,9,0,1,1],
+"df/d54/dialog__settings__game__hud_8qh.html":[1,0,4,4,127],
+"df/d54/dialog__settings__game__hud_8qh.html#a1e7be07011c958d4a8c87a8770c26f8f":[1,0,4,4,127,2],
+"df/d54/dialog__settings__game__hud_8qh.html#a2b7967e17d4cfccff3c1f979de1d2515":[1,0,4,4,127,4]
 };

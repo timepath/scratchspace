@@ -1,9 +1,5 @@
 var client_2main_8qh =
 [
-    [ "DATABUF_CAPTURES", "d0/d2a/client_2main_8qh.html#acd74f6c04f2b33a5ecd88d0b0f5614e0", null ],
-    [ "DATABUF_DEATHS", "d0/d2a/client_2main_8qh.html#a653501c223f416882b68e5dc8f012176", null ],
-    [ "DATABUF_NEXT", "d0/d2a/client_2main_8qh.html#a3876b7f3b93b0ef9a15e6c95ee29c0ff", null ],
-    [ "DATABUF_RETURNS", "d0/d2a/client_2main_8qh.html#a67f5be9902514898e80744a88f8688c8", null ],
     [ "IS_DECREASING", "d0/d2a/client_2main_8qh.html#a1310f6ab1eb47643385baab1b3227603", null ],
     [ "IS_INCREASING", "d0/d2a/client_2main_8qh.html#ae215b84a51e681283b184a26daf59073", null ],
     [ "centerprint_generic", "d0/d2a/client_2main_8qh.html#a1b0f2a3ff628c84741514ccd9c7b2334", null ],
@@ -29,7 +25,6 @@ var client_2main_8qh =
     [ "cs_project_is_b0rked", "d0/d2a/client_2main_8qh.html#a9bf998d3365e2fabc85dbfd15270f20f", null ],
     [ "current_viewzoom", "d0/d2a/client_2main_8qh.html#a1447fc57992a33af6be30d0f1be2e8e6", null ],
     [ "current_zoomfraction", "d0/d2a/client_2main_8qh.html#af4992bb89ec3b089ce9e46f990866e13", null ],
-    [ "DATABUF_PING", "d0/d2a/client_2main_8qh.html#a4f9ea53dde67e23fc51cc7cd873a2df7", null ],
     [ "drawframetime", "d0/d2a/client_2main_8qh.html#a82f168e1cc931d9ba75af4c2b070dc5d", null ],
     [ "eliminated", "d0/d2a/client_2main_8qh.html#af1c82693a993959407be1d9dd0612f5a", null ],
     [ "FONT_USER", "d0/d2a/client_2main_8qh.html#a0c77ed3b918feb8c93675293f630d63b", null ],
