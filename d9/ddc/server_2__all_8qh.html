@@ -228,8 +228,8 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { <a class="code" href="../../d6/d74/serverlist_8qc.html#a748bdd9b2b86f12da98d8d6f7911e470">\</a></div>
 <div class="line"><a class="code" href="../../d6/d74/serverlist_8qc.html#a748bdd9b2b86f12da98d8d6f7911e470">		for</a>(<span class="keywordtype">int</span> _i = 1; _i &lt;= <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a897245da86d59176980f3c9901120524">maxclients</a>; ++_i) \</div>
 <div class="line">        { \</div>
-<div class="line">            const noref <span class="keywordtype">int</span> i = _i; \</div>
-<div class="line">            const noref <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> it = <a class="code" href="../../d8/de2/menudefs_8qc.html#a9e45cc9ba7545348f653425857419a14">ftoe</a>(i); <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
+<div class="line">            const noref <span class="keywordtype">int</span> i = _i; <a class="code" href="../../d4/d18/iter_8qh.html#ac3313218a4003a4963a35392f24af4b5">\</a></div>
+<div class="line"><a class="code" href="../../d4/d18/iter_8qh.html#ac3313218a4003a4963a35392f24af4b5">			ITER_CONST</a> noref <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> it = <a class="code" href="../../d8/de2/menudefs_8qc.html#a9e45cc9ba7545348f653425857419a14">ftoe</a>(i); <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
 <div class="line"><a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">			if</a>(cond) { <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(body) } \</div>
 <div class="line">        } \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
@@ -238,6 +238,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00037">misc.qh:37</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_a897245da86d59176980f3c9901120524"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#a897245da86d59176980f3c9901120524">maxclients</a></div><div class="ttdeci">int maxclients</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00003">_all.qh:3</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_a748bdd9b2b86f12da98d8d6f7911e470"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a748bdd9b2b86f12da98d8d6f7911e470">for</a></div><div class="ttdeci">for(int i=0, n=tokenize_console(s);i&lt; n;++i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00230">serverlist.qc:230</a></div></div>
+<div class="ttc" id="iter_8qh_html_ac3313218a4003a4963a35392f24af4b5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac3313218a4003a4963a35392f24af4b5">ITER_CONST</a></div><div class="ttdeci">#define ITER_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00004">iter.qh:4</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a9e45cc9ba7545348f653425857419a14"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a9e45cc9ba7545348f653425857419a14">ftoe</a></div><div class="ttdeci">entity ftoe(float num)</div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 <div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
@@ -517,7 +518,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d9/ddc/server_2__all_8qh.html">_all.qh</a></li>
-    <li class="footer">Generated on Tue Mar 15 2016 11:29:01 for Xonotic by
+    <li class="footer">Generated on Thu Mar 17 2016 01:19:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

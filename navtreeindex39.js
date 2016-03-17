@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5":[1,0,5,0,10,19],
 "d7/dc4/waypoints_8qc.html#a8767ac6530ddf16a3a7e333a3ad20772":[1,0,5,0,10,11],
 "d7/dc4/waypoints_8qc.html#a8bcfafa22e1b3188f0b1f9c1399af552":[1,0,5,0,10,14],
 "d7/dc4/waypoints_8qc.html#ab34f7a15ca9eb4899a266cf5bead4efb":[1,0,5,0,10,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "d7/dda/client_2hud_2all_8qc.html":[1,0,0,1,2],
 "d7/dda/client_2hud_2all_8qc_source.html":[1,0,0,1,2],
 "d7/ddc/gamemode__race_8qh.html":[1,0,5,2,0,23],
-"d7/ddc/gamemode__race_8qh_source.html":[1,0,5,2,0,23],
-"d7/de1/counting_8qh.html":[1,0,3,10]
+"d7/ddc/gamemode__race_8qh_source.html":[1,0,5,2,0,23]
 };

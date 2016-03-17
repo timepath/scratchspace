@@ -268,7 +268,7 @@ Variables</h2></td></tr>
 <b>Value:</b><div class="fragment"><div class="line">Callback CALLBACK_##<a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>; <a class="code" href="../../db/d38/base_8qh.html#a48048d02bdc1dc1e682dc8fab4040e14">\</a></div>
 <div class="line"><a class="code" href="../../db/d38/base_8qh.html#a48048d02bdc1dc1e682dc8fab4040e14">    bool</a> func(); \</div>
 <div class="line">    [[accumulate]] <span class="keywordtype">void</span> <a class="code" href="../../db/d38/base_8qh.html#aebb728b933b5e98675d9571d64953795">RegisterCallbacks</a>() { CALLBACK_##<a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a> = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(Callback, func); }</div>
-<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00108">oo.qh:108</a></div></div>
+<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00115">oo.qh:115</a></div></div>
 <div class="ttc" id="base_8qh_html_aebb728b933b5e98675d9571d64953795"><div class="ttname"><a href="../../db/d38/base_8qh.html#aebb728b933b5e98675d9571d64953795">RegisterCallbacks</a></div><div class="ttdeci">void RegisterCallbacks()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00121">base.qh:121</a></div></div>
 <div class="ttc" id="base_8qh_html_a48048d02bdc1dc1e682dc8fab4040e14"><div class="ttname"><a href="../../db/d38/base_8qh.html#a48048d02bdc1dc1e682dc8fab4040e14">bool</a></div><div class="ttdeci">typedef bool(int) mutatorfunc_t</div></div>
 <div class="ttc" id="menu_8qh_html_a8ccf841cb59e451791bcb2e1ac4f1edc"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a></div><div class="ttdeci">string name</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00030">menu.qh:30</a></div></div>
@@ -654,7 +654,7 @@ Variables</h2></td></tr>
 <div class="line"><a class="code" href="../../d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2">        return</a> <a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a>; \</div>
 <div class="line">    } \</div>
 <div class="line">    [[accumulate]] <span class="keywordtype">void</span> <a class="code" href="../../db/d38/base_8qh.html#abc35fc162c1da758be8ceb95a757773a">RegisterHooks</a>() { HOOK_##<span class="keywordtype">id</span> = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(CallbackChain, #<span class="keywordtype">id</span>); }</div>
-<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00108">oo.qh:108</a></div></div>
+<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00115">oo.qh:115</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_a00e5655488971b2c521f2984639f5dae"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a></div><div class="ttdeci">string ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00229">serverlist.qc:229</a></div></div>
 <div class="ttc" id="base_8qh_html_a37a3893b2ac8cf9696c7dbbcbc5a417f"><div class="ttname"><a href="../../db/d38/base_8qh.html#a37a3893b2ac8cf9696c7dbbcbc5a417f">_MUTATOR_HOOKABLE</a></div><div class="ttdeci">#define _MUTATOR_HOOKABLE(id,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00123">base.qh:123</a></div></div>
 <div class="ttc" id="base_8qh_html_a4da287cdd4a8bdc98a8dd4fb300954f5"><div class="ttname"><a href="../../db/d38/base_8qh.html#a4da287cdd4a8bdc98a8dd4fb300954f5">CallbackChain_Call</a></div><div class="ttdeci">bool CallbackChain_Call(CallbackChain this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00101">base.qh:101</a></div></div>
@@ -907,7 +907,7 @@ Variables</h2></td></tr>
 <div class="line">    { this.mutatorcheck = MUTATOR_##<span class="keywordtype">id</span>##_check; } \</div>
 <div class="line">    [[accumulate]] <span class="keywordtype">bool</span> MUTATORFUNCTION_##id(<span class="keywordtype">int</span> mode)</div>
 <div class="ttc" id="registry_8qh_html_a212380bd462d6af1e068ef2e15844466"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a></div><div class="ttdeci">#define REGISTER(...)</div><div class="ttdoc">Register a new entity with a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00067">registry.qh:67</a></div></div>
-<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00108">oo.qh:108</a></div></div>
+<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00115">oo.qh:115</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_a00e5655488971b2c521f2984639f5dae"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a></div><div class="ttdeci">string ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00229">serverlist.qc:229</a></div></div>
 <div class="ttc" id="base_8qh_html_a48048d02bdc1dc1e682dc8fab4040e14"><div class="ttname"><a href="../../db/d38/base_8qh.html#a48048d02bdc1dc1e682dc8fab4040e14">bool</a></div><div class="ttdeci">typedef bool(int) mutatorfunc_t</div></div>
 <div class="ttc" id="effect_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de6/effect_8qh_source.html#l00020">effect.qh:20</a></div></div>
@@ -997,7 +997,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d38/base_8qh_source.html#l00052">52</a> of file <a class="el" href="../../db/d38/base_8qh_source.html">base.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d38/base_8qh_source.html#l00007">CBC_ORDER_ANY</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00004">CBC_ORDER_FIRST</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00005">CBC_ORDER_LAST</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00108">NEW</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">NULL</a>, and <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">prev</a>.</p>
+<p>References <a class="el" href="../../db/d38/base_8qh_source.html#l00007">CBC_ORDER_ANY</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00004">CBC_ORDER_FIRST</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00005">CBC_ORDER_LAST</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00115">NEW</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">NULL</a>, and <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">prev</a>.</p>
 <div class="fragment"><div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    {</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keywordflow">if</span> (order &amp; <a class="code" href="../../db/d38/base_8qh.html#a225e7365c1abfedcfce7f0c144972628">CBC_ORDER_FIRST</a>) {</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <span class="keywordflow">if</span> (order &amp; <a class="code" href="../../db/d38/base_8qh.html#a4aa0be358192aebe98876abc370873a6">CBC_ORDER_LAST</a>)</div>
@@ -1029,7 +1029,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        this.cbc_order |= (order | <a class="code" href="../../db/d38/base_8qh.html#a6240d103915232d3a15fac0f1baa9bdb">CBC_ORDER_ANY</a>);</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
-<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00108">oo.qh:108</a></div></div>
+<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00115">oo.qh:115</a></div></div>
 <div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00010">oo.qh:10</a></div></div>
 <div class="ttc" id="base_8qh_html_a4aa0be358192aebe98876abc370873a6"><div class="ttname"><a href="../../db/d38/base_8qh.html#a4aa0be358192aebe98876abc370873a6">CBC_ORDER_LAST</a></div><div class="ttdeci">const int CBC_ORDER_LAST</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00005">base.qh:5</a></div></div>
 <div class="ttc" id="base_8qh_html_a225e7365c1abfedcfce7f0c144972628"><div class="ttname"><a href="../../db/d38/base_8qh.html#a225e7365c1abfedcfce7f0c144972628">CBC_ORDER_FIRST</a></div><div class="ttdeci">const int CBC_ORDER_FIRST</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00004">base.qh:4</a></div></div>
@@ -1158,12 +1158,12 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d38/base_8qh_source.html#l00024">24</a> of file <a class="el" href="../../db/d38/base_8qh_source.html">base.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00111">CONSTRUCT</a>.</p>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00118">CONSTRUCT</a>.</p>
 <div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                                       {</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(Callback);</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        this.cbc_func = func;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
-<div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00111">oo.qh:111</a></div></div>
+<div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00118">oo.qh:118</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1201,13 +1201,13 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d38/base_8qh_source.html#l00038">38</a> of file <a class="el" href="../../db/d38/base_8qh_source.html">base.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00111">CONSTRUCT</a>.</p>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00118">CONSTRUCT</a>.</p>
 <div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                                                          {</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(CallbackNode);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            this.cbc = it;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            this.cbc_order = order;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div>
-<div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00111">oo.qh:111</a></div></div>
+<div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00118">oo.qh:118</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1237,12 +1237,12 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d38/base_8qh_source.html#l00047">47</a> of file <a class="el" href="../../db/d38/base_8qh_source.html">base.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00111">CONSTRUCT</a>, and <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>.</p>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00118">CONSTRUCT</a>, and <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>.</p>
 <div class="fragment"><div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                                             {</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(CallbackChain);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a> = _name;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
-<div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00111">oo.qh:111</a></div></div>
+<div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00118">oo.qh:118</a></div></div>
 <div class="ttc" id="powerups_8qc_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00009">powerups.qc:9</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -1279,13 +1279,13 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d38/base_8qh_source.html#l00154">154</a> of file <a class="el" href="../../db/d38/base_8qh_source.html">base.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00111">CONSTRUCT</a>.</p>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00118">CONSTRUCT</a>.</p>
 <div class="fragment"><div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                                                           {</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(Mutator);</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        this.m_name = _name;</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        this.mutatorfunc = func;</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    }</div>
-<div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00111">oo.qh:111</a></div></div>
+<div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00118">oo.qh:118</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1539,12 +1539,12 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d38/base_8qh_source.html#l00280">280</a> of file <a class="el" href="../../db/d38/base_8qh_source.html">base.qh</a>.</p>
 
-<p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00014">FOREACH</a>, and <a class="el" href="../../db/d38/base_8qh_source.html#l00210">Mutator_Add()</a>.</p>
+<p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, and <a class="el" href="../../db/d38/base_8qh_source.html#l00210">Mutator_Add()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                           {</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Mutators, it.mutatorcheck(), <a class="code" href="../../db/d38/base_8qh.html#ad0c8701a1d3e78230bdc90ea4b28f20c">Mutator_Add</a>(it));</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;}</div>
 <div class="ttc" id="base_8qh_html_ad0c8701a1d3e78230bdc90ea4b28f20c"><div class="ttname"><a href="../../db/d38/base_8qh.html#ad0c8701a1d3e78230bdc90ea4b28f20c">Mutator_Add</a></div><div class="ttdeci">bool Mutator_Add(Mutator mut)</div><div class="ttdoc">server mutators activate corresponding client mutators for all clients </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00210">base.qh:210</a></div></div>
-<div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00014">iter.qh:14</a></div></div>
+<div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1671,7 +1671,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../db/d38/base_8qh.html">base.qh</a></li>
-    <li class="footer">Generated on Tue Mar 15 2016 11:29:05 for Xonotic by
+    <li class="footer">Generated on Thu Mar 17 2016 01:19:51 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('db/d0a/oo_8qh.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>&#160;&#160;&#160;(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>)</td></tr>
+<tr class="memitem:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>&#160;&#160;&#160;(0, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>)</td></tr>
 <tr class="separator:a070d2ce7b6bb7e5c05602aa8c308d0c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38b2e3be8bac16c7e501868868a5a2ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a>(e)</td></tr>
 <tr class="separator:a38b2e3be8bac16c7e501868868a5a2ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -164,6 +164,8 @@ Macros</h2></td></tr>
 <tr class="separator:a877e0a39ad14492c2c20bcda5b20abe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a292ba0aa7779cf6b9841970f520a1308"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a292ba0aa7779cf6b9841970f520a1308">spawn</a>()&#160;&#160;&#160;<a class="el" href="../../db/d0a/oo_8qh.html#a186a598b3718eb17a3e2fadd94952be3">__spawn</a>(&quot;entity&quot;, __FILE__ &quot;:&quot; <a class="el" href="../../d3/dc9/macro_8qh.html#a7e6c97c88f776302c195e6728d6cb272">STR</a>(__LINE__), <a class="el" href="../../dd/d54/bool_8qh.html#a4bd6d4d04b1126eefee5484b1521c6f9">false</a>)</td></tr>
 <tr class="separator:a292ba0aa7779cf6b9841970f520a1308"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86ccfd529156b9cfc4dadf9b824e690f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f">delete</a>(this)</td></tr>
+<tr class="separator:a86ccfd529156b9cfc4dadf9b824e690f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a010cbf44b643792be835db056600fc48"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(cname,...)&#160;&#160;&#160;<a class="el" href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">OVERLOAD</a>(<a class="el" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>##cname, <a class="el" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(cname),##__VA_ARGS__)</td></tr>
 <tr class="separator:a010cbf44b643792be835db056600fc48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcdf0c6d046663533e611fbce35ebdde"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(cname,...)&#160;&#160;&#160;<a class="el" href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">OVERLOAD</a>(<a class="el" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>##cname, this,##__VA_ARGS__)</td></tr>
@@ -184,6 +186,8 @@ Macros</h2></td></tr>
 <tr class="separator:ad6bcb925c2ef93de661268fdc3f2db5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a926d5d6965300dccae308bb74a713894"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(cname, <a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, prototype)</td></tr>
 <tr class="separator:a926d5d6965300dccae308bb74a713894"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8259d5b8ddaa05cbf3128401fa8423c1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a8259d5b8ddaa05cbf3128401fa8423c1">DESTRUCTOR</a>(cname)</td></tr>
+<tr class="separator:a8259d5b8ddaa05cbf3128401fa8423c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a381644ce1564409db8c6a582aaf9316f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(cname, <a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, type, val)</td></tr>
 <tr class="separator:a381644ce1564409db8c6a582aaf9316f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acffd6df7afe44df47e0cf29a0d2d5899"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#acffd6df7afe44df47e0cf29a0d2d5899">ATTRIB_STRZONE</a>(cname, <a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, type, val)</td></tr>
@@ -200,6 +204,8 @@ Macros</h2></td></tr>
 <tr class="separator:a879a817c44e194f096563dd0fd3e7b5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3162e57f8d1c6e60e7e232d929012e7c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c">_vtbl</a>&#160;&#160;&#160;<a class="el" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></td></tr>
 <tr class="separator:a3162e57f8d1c6e60e7e232d929012e7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80db5eb01eb9265c29c36d8b364d30f5"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a80db5eb01eb9265c29c36d8b364d30f5">remove</a>(this)&#160;&#160;&#160;<a class="el" href="../../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f">delete</a>(this)</td></tr>
+<tr class="separator:a80db5eb01eb9265c29c36d8b364d30f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -217,10 +223,12 @@ Functions</h2></td></tr>
 <tr class="separator:ad4a35676db934db865f1a6798a3488f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abeb668c90209cec33cbe7d1589befa60"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a> (Object,)</td></tr>
 <tr class="separator:abeb668c90209cec33cbe7d1589befa60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0fbddbb2079d681693bb31835562f89"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#ae0fbddbb2079d681693bb31835562f89">DESTRUCTOR</a> (Object)</td></tr>
+<tr class="separator:ae0fbddbb2079d681693bb31835562f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e9a860854aac3ac70d66a18c6ec02fb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a2e9a860854aac3ac70d66a18c6ec02fb">if</a> (<a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(&quot;developer&quot;))</td></tr>
 <tr class="separator:a2e9a860854aac3ac70d66a18c6ec02fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cfeebbdb6476da219e9be81f30c87a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a6cfeebbdb6476da219e9be81f30c87a0">METHOD</a> (Object, display, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> <a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> icon) returns))</td></tr>
-<tr class="separator:a6cfeebbdb6476da219e9be81f30c87a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c84ead3a4fcf9c49dd81423b7494324"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d0a/oo_8qh.html#a3c84ead3a4fcf9c49dd81423b7494324">METHOD</a> (Object, display, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(Object this, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> <a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> icon) returns))</td></tr>
+<tr class="separator:a3c84ead3a4fcf9c49dd81423b7494324"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -281,7 +289,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00220">220</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00237">237</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -327,10 +335,10 @@ Variables</h2></td></tr>
 <div class="line">        this.name = val; \</div>
 <div class="line">    }</div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
-<div class="ttc" id="oo_8qh_html_a1a2db4d074abe3f683aecbb87bc0b825"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a1a2db4d074abe3f683aecbb87bc0b825">INIT</a></div><div class="ttdeci">#define INIT(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00146">oo.qh:146</a></div></div>
+<div class="ttc" id="oo_8qh_html_a1a2db4d074abe3f683aecbb87bc0b825"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a1a2db4d074abe3f683aecbb87bc0b825">INIT</a></div><div class="ttdeci">#define INIT(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00153">oo.qh:153</a></div></div>
 <div class="ttc" id="menu_8qh_html_a8ccf841cb59e451791bcb2e1ac4f1edc"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a></div><div class="ttdeci">string name</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00030">menu.qh:30</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00190">190</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00207">207</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -378,11 +386,11 @@ Variables</h2></td></tr>
 <div class="line">    }</div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
-<div class="ttc" id="oo_8qh_html_a1a2db4d074abe3f683aecbb87bc0b825"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a1a2db4d074abe3f683aecbb87bc0b825">INIT</a></div><div class="ttdeci">#define INIT(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00146">oo.qh:146</a></div></div>
-<div class="ttc" id="oo_8qh_html_a2e9a860854aac3ac70d66a18c6ec02fb"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a2e9a860854aac3ac70d66a18c6ec02fb">if</a></div><div class="ttdeci">if(cvar(&quot;developer&quot;))</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00225">oo.qh:225</a></div></div>
+<div class="ttc" id="oo_8qh_html_a1a2db4d074abe3f683aecbb87bc0b825"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a1a2db4d074abe3f683aecbb87bc0b825">INIT</a></div><div class="ttdeci">#define INIT(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00153">oo.qh:153</a></div></div>
+<div class="ttc" id="oo_8qh_html_a2e9a860854aac3ac70d66a18c6ec02fb"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a2e9a860854aac3ac70d66a18c6ec02fb">if</a></div><div class="ttdeci">if(cvar(&quot;developer&quot;))</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00244">oo.qh:244</a></div></div>
 <div class="ttc" id="menu_8qh_html_a8ccf841cb59e451791bcb2e1ac4f1edc"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a></div><div class="ttdeci">string name</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00030">menu.qh:30</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00198">198</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00215">215</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -422,7 +430,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00207">207</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00224">224</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -492,19 +500,19 @@ Variables</h2></td></tr>
 <div class="line">        }                                   <a class="code" href="../../db/d0a/oo_8qh.html#a292ba0aa7779cf6b9841970f520a1308">\</a></div>
 <div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#a292ba0aa7779cf6b9841970f520a1308">		spawn</a>##base##_1(<span class="keyword">this</span>);              \</div>
 <div class="line">    }</div>
-<div class="ttc" id="oo_8qh_html_a3162e57f8d1c6e60e7e232d929012e7c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c">_vtbl</a></div><div class="ttdeci">#define _vtbl</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00220">oo.qh:220</a></div></div>
+<div class="ttc" id="oo_8qh_html_a3162e57f8d1c6e60e7e232d929012e7c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c">_vtbl</a></div><div class="ttdeci">#define _vtbl</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00237">oo.qh:237</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a1196d544e0b4dbb479f05cc4c6cc5516"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity</a></div><div class="ttdeci">void copyentity(entity src, entity dst)</div></div>
 <div class="ttc" id="oo_8qh_html_af5093977f1d460ae46f2d4c904d2bd64"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#af5093977f1d460ae46f2d4c904d2bd64">class</a></div><div class="ttdeci">#define class(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00067">oo.qh:67</a></div></div>
-<div class="ttc" id="oo_8qh_html_a1a2db4d074abe3f683aecbb87bc0b825"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a1a2db4d074abe3f683aecbb87bc0b825">INIT</a></div><div class="ttdeci">#define INIT(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00146">oo.qh:146</a></div></div>
-<div class="ttc" id="oo_8qh_html_aa8d2b3bfddb00e4421e3eb7de24df9ca"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa8d2b3bfddb00e4421e3eb7de24df9ca">INIT_STATIC</a></div><div class="ttdeci">#define INIT_STATIC(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00145">oo.qh:145</a></div></div>
-<div class="ttc" id="oo_8qh_html_a2e9a860854aac3ac70d66a18c6ec02fb"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a2e9a860854aac3ac70d66a18c6ec02fb">if</a></div><div class="ttdeci">if(cvar(&quot;developer&quot;))</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00225">oo.qh:225</a></div></div>
+<div class="ttc" id="oo_8qh_html_a1a2db4d074abe3f683aecbb87bc0b825"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a1a2db4d074abe3f683aecbb87bc0b825">INIT</a></div><div class="ttdeci">#define INIT(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00153">oo.qh:153</a></div></div>
+<div class="ttc" id="oo_8qh_html_aa8d2b3bfddb00e4421e3eb7de24df9ca"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa8d2b3bfddb00e4421e3eb7de24df9ca">INIT_STATIC</a></div><div class="ttdeci">#define INIT_STATIC(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00152">oo.qh:152</a></div></div>
+<div class="ttc" id="oo_8qh_html_a2e9a860854aac3ac70d66a18c6ec02fb"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a2e9a860854aac3ac70d66a18c6ec02fb">if</a></div><div class="ttdeci">if(cvar(&quot;developer&quot;))</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00244">oo.qh:244</a></div></div>
 <div class="ttc" id="oo_8qh_html_a292ba0aa7779cf6b9841970f520a1308"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a292ba0aa7779cf6b9841970f520a1308">spawn</a></div><div class="ttdeci">#define spawn()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00078">oo.qh:78</a></div></div>
 <div class="ttc" id="animdecide_8qh_html_a9717e7bbecb906637e86cef6da3d83c2"><div class="ttname"><a href="../../d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2">return</a></div><div class="ttdeci">return</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d42/animdecide_8qh_source.html#l00014">animdecide.qh:14</a></div></div>
-<div class="ttc" id="oo_8qh_html_affebc3e5b45467922d5b040f93e132ce"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#affebc3e5b45467922d5b040f93e132ce">VTBL</a></div><div class="ttdeci">#define VTBL(cname, base)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00131">oo.qh:131</a></div></div>
+<div class="ttc" id="oo_8qh_html_affebc3e5b45467922d5b040f93e132ce"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#affebc3e5b45467922d5b040f93e132ce">VTBL</a></div><div class="ttdeci">#define VTBL(cname, base)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00138">oo.qh:138</a></div></div>
 <div class="ttc" id="oo_8qh_html_a052cccb98e880438ca55b8109ab4f22a"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a052cccb98e880438ca55b8109ab4f22a">entityclass</a></div><div class="ttdeci">#define entityclass(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00062">oo.qh:62</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00148">148</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00155">155</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -532,7 +540,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00111">111</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00118">118</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh_source.html#l00020">CONSTRUCTOR()</a>.</p>
 
@@ -570,7 +578,71 @@ Variables</h2></td></tr>
 <div class="ttc" id="animdecide_8qh_html_a9717e7bbecb906637e86cef6da3d83c2"><div class="ttname"><a href="../../d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2">return</a></div><div class="ttdeci">return</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d42/animdecide_8qh_source.html#l00014">animdecide.qh:14</a></div></div>
 <div class="ttc" id="misc_8qh_html_a55d453da74f5c28ab423eeda41fa4385"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">OVERLOAD</a></div><div class="ttdeci">#define OVERLOAD(F,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00021">misc.qh:21</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00115">115</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00122">122</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a86ccfd529156b9cfc4dadf9b824e690f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define delete</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">this</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">\</a></div>
+<div class="line"><a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">    entity</a> _this = (<span class="keyword">this</span>); <a class="code" href="../../d9/d08/client_2defs_8qh.html#aebfa8c1e2ab774881f79f23e10b0621c">\</a></div>
+<div class="line"><a class="code" href="../../d9/d08/client_2defs_8qh.html#aebfa8c1e2ab774881f79f23e10b0621c">    void</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>) _dtor = _this.dtor; \</div>
+<div class="line">    <a class="code" href="../../db/d0a/oo_8qh.html#a2e9a860854aac3ac70d66a18c6ec02fb">if</a> (_dtor) _dtor(_this); <a class="code" href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">else</a> <a class="code" href="../../db/d0a/oo_8qh.html#a80db5eb01eb9265c29c36d8b364d30f5">remove</a>(_this); \</div>
+<div class="line">    <span class="comment">/* this = NULL; */</span>  \</div>
+<div class="line">} <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
+<div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
+<div class="ttc" id="keyframe_8qc_html_a0544c3fe466e421738dae463968b70ba"><div class="ttname"><a href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">else</a></div><div class="ttdeci">else</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d58/keyframe_8qc_source.html#l00067">keyframe.qc:67</a></div></div>
+<div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+<div class="ttc" id="oo_8qh_html_a80db5eb01eb9265c29c36d8b364d30f5"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a80db5eb01eb9265c29c36d8b364d30f5">remove</a></div><div class="ttdeci">#define remove(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00240">oo.qh:240</a></div></div>
+<div class="ttc" id="oo_8qh_html_a2e9a860854aac3ac70d66a18c6ec02fb"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a2e9a860854aac3ac70d66a18c6ec02fb">if</a></div><div class="ttdeci">if(cvar(&quot;developer&quot;))</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00244">oo.qh:244</a></div></div>
+<div class="ttc" id="client_2defs_8qh_html_aebfa8c1e2ab774881f79f23e10b0621c"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aebfa8c1e2ab774881f79f23e10b0621c">void</a></div><div class="ttdeci">void(entity this, float thisdmg, int hittype, vector org, vector thisforce) event_damage</div></div>
+<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00080">80</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a8259d5b8ddaa05cbf3128401fa8423c1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define DESTRUCTOR</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">cname</td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#ad6bcb925c2ef93de661268fdc3f2db5c">STATIC_METHOD</a>(cname, dtorimpl, <span class="keywordtype">void</span>(cname <span class="keyword">this</span>)); <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">\</a></div>
+<div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">    METHOD</a>(cname, dtor, <span class="keywordtype">void</span>(cname <span class="keyword">this</span>)) \</div>
+<div class="line">    { <a class="code" href="../../db/d0a/oo_8qh.html#af3216aa755aa9be11693577fbfdb22ba">\</a></div>
+<div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#af3216aa755aa9be11693577fbfdb22ba">        METHOD_REFERENCE</a>(cname, dtorimpl)(<span class="keyword">this</span>); <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">\</a></div>
+<div class="line"><a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">        entity</a> super = <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(cname); <a class="code" href="../../db/d0a/oo_8qh.html#a2e9a860854aac3ac70d66a18c6ec02fb">\</a></div>
+<div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#a2e9a860854aac3ac70d66a18c6ec02fb">        if</a> (super != cname##<a class="code" href="../../db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c">_vtbl</a>) super.dtor(<span class="keyword">this</span>); \</div>
+<div class="line">    } <a class="code" href="../../db/d0a/oo_8qh.html#ad6bcb925c2ef93de661268fdc3f2db5c">\</a></div>
+<div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#ad6bcb925c2ef93de661268fdc3f2db5c">	STATIC_METHOD</a>(cname, dtorimpl, <span class="keywordtype">void</span>(cname <span class="keyword">this</span>))</div>
+<div class="ttc" id="oo_8qh_html_a3162e57f8d1c6e60e7e232d929012e7c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c">_vtbl</a></div><div class="ttdeci">#define _vtbl</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00237">oo.qh:237</a></div></div>
+<div class="ttc" id="oo_8qh_html_af3216aa755aa9be11693577fbfdb22ba"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#af3216aa755aa9be11693577fbfdb22ba">METHOD_REFERENCE</a></div><div class="ttdeci">#define METHOD_REFERENCE(cname, name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00182">oo.qh:182</a></div></div>
+<div class="ttc" id="oo_8qh_html_a926d5d6965300dccae308bb74a713894"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a></div><div class="ttdeci">#define METHOD(cname, name, prototype)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00188">oo.qh:188</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00233">oo.qh:233</a></div></div>
+<div class="ttc" id="oo_8qh_html_a2e9a860854aac3ac70d66a18c6ec02fb"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a2e9a860854aac3ac70d66a18c6ec02fb">if</a></div><div class="ttdeci">if(cvar(&quot;developer&quot;))</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00244">oo.qh:244</a></div></div>
+<div class="ttc" id="oo_8qh_html_ad6bcb925c2ef93de661268fdc3f2db5c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ad6bcb925c2ef93de661268fdc3f2db5c">STATIC_METHOD</a></div><div class="ttdeci">#define STATIC_METHOD(cname, name, prototype)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00185">oo.qh:185</a></div></div>
+<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00197">197</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -591,10 +663,10 @@ Variables</h2></td></tr>
 <div class="line">    { <a class="code" href="../../d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2">\</a></div>
 <div class="line"><a class="code" href="../../d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2">		return</a> <span class="keyword">this</span>; \</div>
 <div class="line">    }</div>
-<div class="ttc" id="oo_8qh_html_a1a2db4d074abe3f683aecbb87bc0b825"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a1a2db4d074abe3f683aecbb87bc0b825">INIT</a></div><div class="ttdeci">#define INIT(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00146">oo.qh:146</a></div></div>
+<div class="ttc" id="oo_8qh_html_a1a2db4d074abe3f683aecbb87bc0b825"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a1a2db4d074abe3f683aecbb87bc0b825">INIT</a></div><div class="ttdeci">#define INIT(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00153">oo.qh:153</a></div></div>
 <div class="ttc" id="animdecide_8qh_html_a9717e7bbecb906637e86cef6da3d83c2"><div class="ttname"><a href="../../d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2">return</a></div><div class="ttdeci">return</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d42/animdecide_8qh_source.html#l00014">animdecide.qh:14</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00210">210</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00227">227</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -694,7 +766,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00146">146</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00153">153</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -712,7 +784,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00145">145</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00152">152</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -732,7 +804,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00026">26</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d0a/oo_8qh_source.html#l00085">clearentity()</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00573">WarpZoneLib_BadEntity()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d0a/oo_8qh_source.html#l00092">clearentity()</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00573">WarpZoneLib_BadEntity()</a>.</p>
 
 </div>
 </div>
@@ -759,7 +831,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00021">21</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d0a/oo_8qh_source.html#l00085">clearentity()</a>, and <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00168">Draw_ShowNames_All()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d0a/oo_8qh_source.html#l00092">clearentity()</a>, and <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00168">Draw_ShowNames_All()</a>.</p>
 
 </div>
 </div>
@@ -827,13 +899,13 @@ Variables</h2></td></tr>
 <div class="line">        this.name = <a class="code" href="../../db/d0a/oo_8qh.html#af3216aa755aa9be11693577fbfdb22ba">METHOD_REFERENCE</a>(cname, <a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>); \</div>
 <div class="line">    } <a class="code" href="../../db/d0a/oo_8qh.html#ad6bcb925c2ef93de661268fdc3f2db5c">\</a></div>
 <div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#ad6bcb925c2ef93de661268fdc3f2db5c">	STATIC_METHOD</a>(cname, <a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, prototype)</div>
-<div class="ttc" id="oo_8qh_html_af3216aa755aa9be11693577fbfdb22ba"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#af3216aa755aa9be11693577fbfdb22ba">METHOD_REFERENCE</a></div><div class="ttdeci">#define METHOD_REFERENCE(cname, name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00175">oo.qh:175</a></div></div>
+<div class="ttc" id="oo_8qh_html_af3216aa755aa9be11693577fbfdb22ba"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#af3216aa755aa9be11693577fbfdb22ba">METHOD_REFERENCE</a></div><div class="ttdeci">#define METHOD_REFERENCE(cname, name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00182">oo.qh:182</a></div></div>
 <div class="ttc" id="oo_8qh_html_af5093977f1d460ae46f2d4c904d2bd64"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#af5093977f1d460ae46f2d4c904d2bd64">class</a></div><div class="ttdeci">#define class(name)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00067">oo.qh:67</a></div></div>
-<div class="ttc" id="oo_8qh_html_aa8d2b3bfddb00e4421e3eb7de24df9ca"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa8d2b3bfddb00e4421e3eb7de24df9ca">INIT_STATIC</a></div><div class="ttdeci">#define INIT_STATIC(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00145">oo.qh:145</a></div></div>
-<div class="ttc" id="oo_8qh_html_ad6bcb925c2ef93de661268fdc3f2db5c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ad6bcb925c2ef93de661268fdc3f2db5c">STATIC_METHOD</a></div><div class="ttdeci">#define STATIC_METHOD(cname, name, prototype)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00178">oo.qh:178</a></div></div>
+<div class="ttc" id="oo_8qh_html_aa8d2b3bfddb00e4421e3eb7de24df9ca"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa8d2b3bfddb00e4421e3eb7de24df9ca">INIT_STATIC</a></div><div class="ttdeci">#define INIT_STATIC(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00152">oo.qh:152</a></div></div>
+<div class="ttc" id="oo_8qh_html_ad6bcb925c2ef93de661268fdc3f2db5c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ad6bcb925c2ef93de661268fdc3f2db5c">STATIC_METHOD</a></div><div class="ttdeci">#define STATIC_METHOD(cname, name, prototype)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00185">oo.qh:185</a></div></div>
 <div class="ttc" id="menu_8qh_html_a8ccf841cb59e451791bcb2e1ac4f1edc"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a></div><div class="ttdeci">string name</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00030">menu.qh:30</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00181">181</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00188">188</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -861,7 +933,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00175">175</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00182">182</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -909,7 +981,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00108">108</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00115">115</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/d38/base_8qh_source.html#l00052">CallbackChain_Add()</a>, <a class="el" href="../../d0/d3f/state_8qc_source.html#l00034">ClientState_attach()</a>, <a class="el" href="../../d7/d4b/item_2dialog_8qc_source.html#l00061">Dialog_configureDialog()</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00230">effectinfo_read()</a>, <a class="el" href="../../d7/d63/datasource_8qh_source.html#l00006">INIT_STATIC()</a>, <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00021">LL_PUSH()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00158">m_init_delayed()</a>, <a class="el" href="../../da/d1d/mainwindow_8qc_source.html#l00067">MainWindow_configureMainWindow()</a>, <a class="el" href="../../d3/da9/easing_8qc_source.html#l00013">makeEasing()</a>, <a class="el" href="../../d2/d58/keyframe_8qc_source.html#l00017">makeKeyframe()</a>, <a class="el" href="../../d4/d87/dialog__settings__audio_8qc_source.html#l00010">makeXonoticAudioSettingsTab()</a>, <a class="el" href="../../df/d4f/bigbutton_8qc_source.html#l00003">makeXonoticBigButton()</a>, <a class="el" href="../../d7/d0d/bigcommandbutton_8qc_source.html#l00003">makeXonoticBigCommandButton_T()</a>, <a class="el" href="../../df/d28/menu_2xonotic_2button_8qc_source.html#l00003">makeXonoticButton_T()</a>, <a class="el" href="../../d3/d69/menu_2xonotic_2campaign_8qc_source.html#l00049">makeXonoticCampaignList()</a>, <a class="el" href="../../d0/dad/charmap_8qc_source.html#l00032">makeXonoticCharmap()</a>, <a class="el" href="../../d5/d6f/xonotic_2checkbox_8qc_source.html#l00033">makeXonoticCheckBoxEx_T()</a>, <a class="el" href="../../d9/d60/checkbox__string_8qc_source.html#l00003">makeXonoticCheckBoxString()</a>, <a class="el" href="../../d6/d77/colorbutton_8qc_source.html#l00003">makeXonoticColorButton()</a>, <a class="el" href="../../d6/d4c/colorpicker_8qc_source.html#l00005">makeXonoticColorpicker()</a>, <a class="el" href="../../db/df7/colorpicker__string_8qc_source.html#l00005">makeXonoticColorpickerString()</a>, <a class="el" href="../../d7/df4/commandbutton_8qc_source.html#l00003">makeXonoticCommandButton_T()</a>, <a class="el" href="../../d0/d80/credits_8qc_source.html#l00369">makeXonoticCreditsList()</a>, <a class="el" href="../../d6/dea/crosshairpicker_8qc_source.html#l00018">makeXonoticCrosshairPicker()</a>, <a class="el" href="../../dd/dcc/crosshairpreview_8qc_source.html#l00003">makeXonoticCrosshairPreview()</a>, <a class="el" href="../../dc/d56/cvarlist_8qc_source.html#l00006">makeXonoticCvarList()</a>, <a class="el" href="../../d8/db3/slider__decibels_8qc_source.html#l00031">makeXonoticDecibelsSlider_T()</a>, <a class="el" href="../../d4/d4c/dialog__multiplayer__media__demo_8qc_source.html#l00029">makeXonoticDemoBrowserTab()</a>, <a class="el" href="../../db/d21/demolist_8qc_source.html#l00005">makeXonoticDemoList()</a>, <a class="el" href="../../d2/de6/dialog__settings__effects_8qc_source.html#l00016">makeXonoticEffectsSettingsTab()</a>, <a class="el" href="../../df/dbd/dialog__settings__game__crosshair_8qc_source.html#l00016">makeXonoticGameCrosshairSettingsTab()</a>, <a class="el" href="../../dd/da1/dialog__settings__game__hud_8qc_source.html#l00026">makeXonoticGameHUDSettingsTab()</a>, <a class="el" href="../../d2/d64/dialog__settings__game__messages_8qc_source.html#l00011">makeXonoticGameMessageSettingsTab()</a>, <a class="el" href="../../d9/d2d/dialog__settings__game__model_8qc_source.html#l00012">makeXonoticGameModelSettingsTab()</a>, <a class="el" href="../../d2/db8/gametypelist_8qc_source.html#l00006">makeXonoticGametypeList()</a>, <a class="el" href="../../d0/d3f/dialog__settings__game__view_8qc_source.html#l00013">makeXonoticGameViewSettingsTab()</a>, <a class="el" href="../../d7/d0e/dialog__settings__game__weapons_8qc_source.html#l00014">makeXonoticGameWeaponsSettingsTab()</a>, <a class="el" href="../../da/d21/hudskinlist_8qc_source.html#l00005">makeXonoticHUDSkinList()</a>, <a class="el" href="../../de/d8b/xonotic_2image_8qc_source.html#l00003">makeXonoticImage()</a>, <a class="el" href="../../d1/dbf/xonotic_2inputbox_8qc_source.html#l00003">makeXonoticInputBox_T()</a>, <a class="el" href="../../d1/d61/dialog__settings__input_8qc_source.html#l00013">makeXonoticInputSettingsTab()</a>, <a class="el" href="../../df/d75/keybinder_8qc_source.html#l00115">makeXonoticKeyBinder()</a>, <a class="el" href="../../d3/d2e/languagelist_8qc_source.html#l00012">makeXonoticLanguageList()</a>, <a class="el" href="../../db/dc9/xonotic_2listbox_8qc_source.html#l00003">makeXonoticListBox()</a>, <a class="el" href="../../d0/dc5/maplist_8qc_source.html#l00015">makeXonoticMapList()</a>, <a class="el" href="../../d1/d8e/dialog__multiplayer__media_8qc_source.html#l00012">makeXonoticMediaTab()</a>, <a class="el" href="../../d9/d63/dialog__settings__misc_8qc_source.html#l00012">makeXonoticMiscSettingsTab()</a>, <a class="el" href="../../d6/d3e/dialog__multiplayer__media__musicplayer_8qc_source.html#l00011">makeXonoticMusicPlayerTab()</a>, <a class="el" href="../../d8/da8/xonotic_2nexposee_8qc_source.html#l00003">makeXonoticNexposee()</a>, <a class="el" href="../../de/d94/slider__particles_8qc_source.html#l00003">makeXonoticParticlesSlider()</a>, <a class="el" href="../../da/d46/picker_8qc_source.html#l00005">makeXonoticPicker()</a>, <a class="el" href="../../df/dd5/slider__picmip_8qc_source.html#l00003">makeXonoticPicmipSlider()</a>, <a class="el" href="../../de/d40/playerlist_8qc_source.html#l00011">makeXonoticPlayerList()</a>, <a class="el" href="../../de/dd6/playermodel_8qc_source.html#l00003">makeXonoticPlayerModelSelector()</a>, <a class="el" href="../../d8/d29/playlist_8qc_source.html#l00003">makeXonoticPlayList()</a>, <a class="el" href="../../d2/dd3/dialog__multiplayer__profile_8qc_source.html#l00015">makeXonoticProfileTab()</a>, <a class="el" href="../../d9/dad/xonotic_2radiobutton_8qc_source.html#l00003">makeXonoticRadioButton_T()</a>, <a class="el" href="../../d9/d52/slider__resolution_8qc_source.html#l00067">makeXonoticResolutionSlider()</a>, <a class="el" href="../../dc/d0f/slider__sbfadetime_8qc_source.html#l00003">makeXonoticScoreboardFadeTimeSlider()</a>, <a class="el" href="../../d8/d8a/dialog__multiplayer__media__screenshot_8qc_source.html#l00011">makeXonoticScreenshotBrowserTab()</a>, <a class="el" href="../../de/d39/screenshotimage_8qc_source.html#l00003">makeXonoticScreenshotImage()</a>, <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00008">makeXonoticScreenshotList()</a>, <a class="el" href="../../d7/de3/dialog__multiplayer__create_8qc_source.html#l00061">makeXonoticServerCreateTab()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00278">makeXonoticServerList()</a>, <a class="el" href="../../dd/d94/dialog__multiplayer__join_8qc_source.html#l00010">makeXonoticServerListTab()</a>, <a class="el" href="../../d9/da1/skinlist_8qc_source.html#l00009">makeXonoticSkinList()</a>, <a class="el" href="../../d7/dd7/xonotic_2slider_8qc_source.html#l00003">makeXonoticSlider_T()</a>, <a class="el" href="../../de/dc0/checkbox__slider__invalid_8qc_source.html#l00005">makeXonoticSliderCheckBox()</a>, <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00006">makeXonoticSoundList()</a>, <a class="el" href="../../d9/d0f/statslist_8qc_source.html#l00004">makeXonoticStatsList()</a>, <a class="el" href="../../dc/dcf/tabcontroller_8qc_source.html#l00005">makeXonoticTabController()</a>, <a class="el" href="../../d2/d67/textlabel_8qc_source.html#l00003">makeXonoticTextLabel()</a>, <a class="el" href="../../dc/d24/xonotic_2textslider_8qc_source.html#l00003">makeXonoticTextSlider_T()</a>, <a class="el" href="../../d8/d4c/dialog__settings__user_8qc_source.html#l00009">makeXonoticUserSettingsTab()</a>, <a class="el" href="../../d6/d07/dialog__settings__video_8qc_source.html#l00011">makeXonoticVideoSettingsTab()</a>, <a class="el" href="../../d1/df3/weaponarenacheckbox_8qc_source.html#l00003">makeXonoticWeaponarenaCheckBox()</a>, <a class="el" href="../../d8/df3/weaponslist_8qc_source.html#l00007">makeXonoticWeaponsList()</a>, <a class="el" href="../../d0/d3f/state_8qc_source.html#l00006">PlayerState_attach()</a>, <a class="el" href="../../de/d81/common_2weapons_2all_8qh_source.html#l00033">REGISTRY()</a>, <a class="el" href="../../dd/df1/weapons_2weapon_2hook_8qc_source.html#l00061">STATIC_INIT()</a>, and <a class="el" href="../../d0/d13/dialog__settings_8qc_source.html#l00013">XonoticSettingsDialog_fill()</a>.</p>
 
@@ -942,7 +1014,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define NULL&#160;&#160;&#160;(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>)</td>
+          <td class="memname">#define NULL&#160;&#160;&#160;(0, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -950,6 +1022,24 @@ Variables</h2></td></tr>
 <p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">10</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/df4/announcer_8qc_source.html#l00020">Announcer_Countdown()</a>, <a class="el" href="../../da/df4/announcer_8qc_source.html#l00074">Announcer_Gamestart()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l01491">Announcer_PickNumber()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00865">botframe_autowaypoints_fixdown()</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00052">CallbackChain_Add()</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00084">CallbackChain_Remove()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00289">CheatCommand()</a>, <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00390">CL_WeaponEntity_SetModel()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00975">ClientConnect()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00096">ClientData_Detach()</a>, <a class="el" href="../../d0/d3f/state_8qc_source.html#l00067">ClientState_detach()</a>, <a class="el" href="../../dc/d3d/container_8qc_source.html#l00234">Container_addItem()</a>, <a class="el" href="../../dc/d3d/container_8qc_source.html#l00132">Container_focusLeave()</a>, <a class="el" href="../../dc/d3d/container_8qc_source.html#l00097">Container_itemFromPoint()</a>, <a class="el" href="../../dc/d3d/container_8qc_source.html#l00359">Container_preferredFocusedGrandChild()</a>, <a class="el" href="../../dc/d3d/container_8qc_source.html#l00272">Container_removeItem()</a>, <a class="el" href="../../dc/d3d/container_8qc_source.html#l00291">Container_setFocus()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00794">CSQC_Ent_Update()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00920">CSQC_Parse_TempEntity()</a>, <a class="el" href="../../d5/dc9/cl__model_8qc_source.html#l00213">CSQCModel_remove()</a>, <a class="el" href="../../d5/dc9/cl__model_8qc_source.html#l00299">CSQCModel_server2csqc()</a>, <a class="el" href="../../d1/d25/lib_2csqcmodel_2cl__player_8qc_source.html#l00342">CSQCPlayer_Remove()</a>, <a class="el" href="../../d1/d25/lib_2csqcmodel_2cl__player_8qc_source.html#l00245">CSQCPlayer_SetCamera()</a>, <a class="el" href="../../d1/d25/lib_2csqcmodel_2cl__player_8qc_source.html#l00106">CSQCPlayer_SetMinsMaxs()</a>, <a class="el" href="../../d4/df2/common_2notifications_2all_8qc_source.html#l00159">Destroy_All_Notifications()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00478">detect_maptype()</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00259">effectinfo_dump()</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00230">effectinfo_read()</a>, <a class="el" href="../../d3/ddf/item_2nexposee_8qc_source.html#l00008">ExposeeCloseButton_Click()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01464">FixIntermissionClient()</a>, <a class="el" href="../../d7/d47/menu__cmd_8qc_source.html#l00041">GameCommand()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01780">GameCommand_macro_command()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01790">GameCommand_macro_usage()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01479">GameCommand_trace()</a>, <a class="el" href="../../df/da7/generic_8qc_source.html#l00543">GenericCommand_macro_command()</a>, <a class="el" href="../../df/da7/generic_8qc_source.html#l00553">GenericCommand_macro_usage()</a>, <a class="el" href="../../dc/de5/common_2notifications_2all_8qh_source.html#l00684">Get_Notif_Ent()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00402">havocbot_movetogoal()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00339">HUD_MinigameMenu_IsOpened()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00020">HUD_Weapons()</a>, <a class="el" href="../../de/d48/dialog__settings__game_8qc_source.html#l00102">if()</a>, <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00461">IMPULSE()</a>, <a class="el" href="../../d7/d63/datasource_8qh_source.html#l00006">INIT_STATIC()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00887">InitializeEntitiesRun()</a>, <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00085">InputContainer__changeFocusXY()</a>, <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00014">InputContainer_focusLeave()</a>, <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00020">InputContainer_keyDown()</a>, <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00110">InputContainer_mouseMove()</a>, <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00119">InputContainer_mousePress()</a>, <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00034">LL_POP()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00050">loadAllCvars()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00479">LocalCommand_macro_command()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00489">LocalCommand_macro_usage()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00892">m_activate_window()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00469">m_findtooltipitem()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00933">m_goto()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00248">m_keydown()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00526">m_tooltip()</a>, <a class="el" href="../../da/d1d/mainwindow_8qc_source.html#l00067">MainWindow_configureMainWindow()</a>, <a class="el" href="../../da/d1d/mainwindow_8qc_source.html#l00048">MainWindow_draw()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00686">MapInfo_Type()</a>, <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00096">METHOD()</a>, <a class="el" href="../../d3/dbf/minigames_8qc_source.html#l00005">minigame_get_descriptor()</a>, <a class="el" href="../../d9/d19/modalcontroller_8qc_source.html#l00083">ModalController_draw()</a>, <a class="el" href="../../d9/d19/modalcontroller_8qc_source.html#l00226">ModalController_hideChild()</a>, <a class="el" href="../../d9/d19/modalcontroller_8qc_source.html#l00205">ModalController_showChild()</a>, <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00010">monsters_animoverride()</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00241">Mutator_Remove()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00374">navigation_findnearestwaypoint_withdist_except()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00675">navigation_routerating()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00857">navigation_routetogoal()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01063">navigation_unstuck()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00349">navigation_waypoint_will_link()</a>, <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00076">NET_HANDLE()</a>, <a class="el" href="../../d3/ddf/item_2nexposee_8qc_source.html#l00222">Nexposee_keyDown()</a>, <a class="el" href="../../d3/ddf/item_2nexposee_8qc_source.html#l00157">Nexposee_mousePress()</a>, <a class="el" href="../../d0/d3f/state_8qc_source.html#l00013">PlayerState_detach()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l00121">PM_ClientMovement_UpdateStatus()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00207">Portal_FindSafeOrigin()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00551">preMenuDraw()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00395">PutClientInServer()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00167">PutObserverInServer()</a>, <a class="el" href="../../dc/d95/random_8qc_source.html#l00003">RandomSelection_Init()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00064">RetrieveCategoryEnt()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00046">saveAllCvars()</a>, <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00154">ScreenshotList_Filter_Change()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00171">shufflewords()</a>, <a class="el" href="../../d2/d14/item_2slider_8qc_source.html#l00234">Slider_draw()</a>, <a class="el" href="../../dd/d85/sortlist_8qc_source.html#l00003">Sort_Spawn()</a>, <a class="el" href="../../d6/d3b/race_8qc_source.html#l00925">spawnfunc()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01604">SpectateUpdate()</a>, <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00070">TeleportPlayer()</a>, <a class="el" href="../../d2/d9b/jumppads_8qc_source.html#l00279">trigger_push_findtarget()</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00200">url_fclose()</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00352">url_multi_fopen()</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00083">url_single_fopen()</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00025">url_URI_Get_Callback()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00963">vehicles_enter()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00813">vehicles_exit()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00765">vehicles_findgoodexit()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00483">vehicles_showwp()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00593">WarpZone_FindRadius_Recurse()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00715">waypoint_fixorigin()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00018">waypoint_spawn()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00165">waypoint_think()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00260">weapon_prepareattack_check()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00287">weapon_prepareattack_do()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00326">weapon_thinkf()</a>, <a class="el" href="../../d2/d62/selection_8qc_source.html#l00021">Weapon_whereis()</a>, <a class="el" href="../../de/d81/common_2weapons_2all_8qh_source.html#l00131">Weapons_fromstr()</a>, <a class="el" href="../../dc/d56/cvarlist_8qc_source.html#l00165">XonoticCvarList_keyDown()</a>, <a class="el" href="../../da/d21/hudskinlist_8qc_source.html#l00227">XonoticHUDSkinList_draw()</a>, <a class="el" href="../../df/d75/keybinder_8qc_source.html#l00325">XonoticKeyBinder_doubleClickListBoxItem()</a>, <a class="el" href="../../df/d7d/dialog__multiplayer__create__mapinfo_8qc_source.html#l00047">XonoticMapInfoDialog_fill()</a>, <a class="el" href="../../d0/dc5/maplist_8qc_source.html#l00115">XonoticMapList_doubleClickListBoxItem()</a>, <a class="el" href="../../d0/dc5/maplist_8qc_source.html#l00311">XonoticMapList_keyDown()</a>, <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00222">XonoticScreenshotList_startScreenshot()</a>, <a class="el" href="../../d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc_source.html#l00066">XonoticScreenshotViewerDialog_keyDown()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00812">XonoticServerList_doubleClickListBoxItem()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00413">XonoticServerList_draw()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l01123">XonoticServerList_keyDown()</a>, <a class="el" href="../../da/d41/dialog__singleplayer_8qc_source.html#l00104">XonoticSingleplayerDialog_fill()</a>, and <a class="el" href="../../d8/df3/weaponslist_8qc_source.html#l00108">XonoticWeaponsList_keyDown()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a80db5eb01eb9265c29c36d8b364d30f5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define remove</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">this</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f">delete</a>(this)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00240">240</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -985,7 +1075,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00219">219</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00236">236</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -1036,7 +1126,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00218">218</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00235">235</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -1070,7 +1160,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00178">178</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00185">185</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -1088,7 +1178,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00216">216</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00233">233</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -1127,16 +1217,16 @@ Variables</h2></td></tr>
 <div class="line">        cname##<a class="code" href="../../db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c">_vtbl</a> = e; \</div>
 <div class="line">    } <a class="code" href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">\</a></div>
 <div class="line"><a class="code" href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">	ACCUMULATE_FUNCTION</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a779314c109bce6e1bf0a26166c36c8f3">RegisterClasses</a>, cname##_vtbl_init)</div>
-<div class="ttc" id="oo_8qh_html_a3162e57f8d1c6e60e7e232d929012e7c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c">_vtbl</a></div><div class="ttdeci">#define _vtbl</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00220">oo.qh:220</a></div></div>
-<div class="ttc" id="oo_8qh_html_a779314c109bce6e1bf0a26166c36c8f3"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a779314c109bce6e1bf0a26166c36c8f3">RegisterClasses</a></div><div class="ttdeci">void RegisterClasses()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00125">oo.qh:125</a></div></div>
-<div class="ttc" id="oo_8qh_html_aa8d2b3bfddb00e4421e3eb7de24df9ca"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa8d2b3bfddb00e4421e3eb7de24df9ca">INIT_STATIC</a></div><div class="ttdeci">#define INIT_STATIC(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00145">oo.qh:145</a></div></div>
+<div class="ttc" id="oo_8qh_html_a3162e57f8d1c6e60e7e232d929012e7c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c">_vtbl</a></div><div class="ttdeci">#define _vtbl</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00237">oo.qh:237</a></div></div>
+<div class="ttc" id="oo_8qh_html_a779314c109bce6e1bf0a26166c36c8f3"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a779314c109bce6e1bf0a26166c36c8f3">RegisterClasses</a></div><div class="ttdeci">void RegisterClasses()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00132">oo.qh:132</a></div></div>
+<div class="ttc" id="oo_8qh_html_aa8d2b3bfddb00e4421e3eb7de24df9ca"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa8d2b3bfddb00e4421e3eb7de24df9ca">INIT_STATIC</a></div><div class="ttdeci">#define INIT_STATIC(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00152">oo.qh:152</a></div></div>
 <div class="ttc" id="oo_8qh_html_a292ba0aa7779cf6b9841970f520a1308"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a292ba0aa7779cf6b9841970f520a1308">spawn</a></div><div class="ttdeci">#define spawn()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00078">oo.qh:78</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_aebfa8c1e2ab774881f79f23e10b0621c"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aebfa8c1e2ab774881f79f23e10b0621c">void</a></div><div class="ttdeci">void(entity this, float thisdmg, int hittype, vector org, vector thisforce) event_damage</div></div>
 <div class="ttc" id="accumulate_8qh_html_ad2050ee846dff1123c50d269b32ed0d5"><div class="ttname"><a href="../../de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5">ACCUMULATE_FUNCTION</a></div><div class="ttdeci">#define ACCUMULATE_FUNCTION(func, otherfunc)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d68/accumulate_8qh_source.html#l00031">accumulate.qh:31</a></div></div>
 <div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00077">oo.qh:77</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00131">131</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00138">138</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -1265,24 +1355,24 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00085">85</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00092">92</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00080">_clearentity_ent</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00026">is_pure</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00021">make_impure</a>, and <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00032">n</a>.</p>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00087">_clearentity_ent</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00026">is_pure</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00021">make_impure</a>, and <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00032">n</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00794">CSQC_Ent_Update()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00081">STATIC_INIT()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;{</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor"></span>        <span class="keywordtype">int</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a> = e.entnum;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">bool</span> was_pure = <a class="code" href="../../db/d0a/oo_8qh.html#a07aa0cef4764b55dd4dc31ea09c870ba">is_pure</a>(e);</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity</a>(<a class="code" href="../../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996">_clearentity_ent</a>, e);</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    <span class="keywordflow">if</span> (!was_pure) <a class="code" href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a>(e);</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor"></span>        e.entnum = <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>;</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor"></span>}</div>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00794">CSQC_Ent_Update()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00088">STATIC_INIT()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;{</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor"></span>        <span class="keywordtype">int</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a> = e.entnum;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">bool</span> was_pure = <a class="code" href="../../db/d0a/oo_8qh.html#a07aa0cef4764b55dd4dc31ea09c870ba">is_pure</a>(e);</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity</a>(<a class="code" href="../../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996">_clearentity_ent</a>, e);</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordflow">if</span> (!was_pure) <a class="code" href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a>(e);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor"></span>        e.entnum = <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="ttc" id="menudefs_8qc_html_a1196d544e0b4dbb479f05cc4c6cc5516"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity</a></div><div class="ttdeci">void copyentity(entity src, entity dst)</div></div>
-<div class="ttc" id="oo_8qh_html_aa6129200bc08749d8ec263f44ca6b996"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996">_clearentity_ent</a></div><div class="ttdeci">entity _clearentity_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00080">oo.qh:80</a></div></div>
+<div class="ttc" id="oo_8qh_html_aa6129200bc08749d8ec263f44ca6b996"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996">_clearentity_ent</a></div><div class="ttdeci">entity _clearentity_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00087">oo.qh:87</a></div></div>
 <div class="ttc" id="oo_8qh_html_a2c6f379bca790f3aa11453fb312572a2"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2">make_impure</a></div><div class="ttdeci">#define make_impure(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00021">oo.qh:21</a></div></div>
 <div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
 <div class="ttc" id="oo_8qh_html_a07aa0cef4764b55dd4dc31ea09c870ba"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a07aa0cef4764b55dd4dc31ea09c870ba">is_pure</a></div><div class="ttdeci">#define is_pure(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00026">oo.qh:26</a></div></div>
@@ -1309,6 +1399,25 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ae0fbddbb2079d681693bb31835562f89"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DESTRUCTOR </td>
+          <td>(</td>
+          <td class="paramtype">Object&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00239">239</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;{ <span class="keyword">remove</span>(<span class="keyword">this</span>); }</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a class="anchor" id="a2e9a860854aac3ac70d66a18c6ec02fb"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1323,23 +1432,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00225">225</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00244">244</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 <p>References <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00032">n</a>, and <a class="el" href="../../de/d64/animation_8qc_source.html#l00053">value</a>.</p>
-<div class="fragment"><div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        {</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a> = numentityfields(); i &lt; <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>; ++i)</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            {</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                <span class="keywordtype">string</span> <a class="code" href="../../de/d64/animation_8qc.html#a316ed50c917206b8cfb924c6d576ed06">value</a> = getentityfieldstring(i, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                <span class="keywordflow">if</span> (value != <span class="stringliteral">&quot;&quot;</span>) <a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a> = sprintf(<span class="stringliteral">&quot;%s\n%s = %s&quot;</span>, <a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>, entityfieldname(i), value);</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            }</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        }</div>
+<div class="fragment"><div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        {</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a> = numentityfields(); i &lt; <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>; ++i)</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            {</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;                <span class="keywordtype">string</span> <a class="code" href="../../de/d64/animation_8qc.html#a316ed50c917206b8cfb924c6d576ed06">value</a> = getentityfieldstring(i, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;                <span class="keywordflow">if</span> (value != <span class="stringliteral">&quot;&quot;</span>) <a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a> = sprintf(<span class="stringliteral">&quot;%s\n%s = %s&quot;</span>, <a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>, entityfieldname(i), value);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            }</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        }</div>
 <div class="ttc" id="animation_8qc_html_a316ed50c917206b8cfb924c6d576ed06"><div class="ttname"><a href="../../de/d64/animation_8qc.html#a316ed50c917206b8cfb924c6d576ed06">value</a></div><div class="ttdeci">else this value</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d64/animation_8qc_source.html#l00053">animation.qc:53</a></div></div>
-<div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00233">oo.qh:233</a></div></div>
+<div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00252">oo.qh:252</a></div></div>
 <div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a6cfeebbdb6476da219e9be81f30c87a0"></a>
+<a class="anchor" id="a3c84ead3a4fcf9c49dd81423b7494324"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1358,7 +1467,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> <a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> icon) returns)&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(Object this, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> <a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> icon) returns)&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1369,10 +1478,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00235">235</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    {</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        returns(sprintf(<span class="stringliteral">&quot;entity %i&quot;</span>, <span class="keyword">this</span>), <span class="stringliteral">&quot;nopreview_map&quot;</span>);</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    }</div>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00254">254</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        returns(sprintf(<span class="stringliteral">&quot;entity %i&quot;</span>, <span class="keyword">this</span>), <span class="stringliteral">&quot;nopreview_map&quot;</span>);</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1389,10 +1498,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00125">125</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00132">132</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d0a/oo_8qh_source.html#l00126">STATIC_INIT()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;{}</div>
+<p>Referenced by <a class="el" href="../../db/d0a/oo_8qh_source.html#l00133">STATIC_INIT()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;{}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -1420,14 +1529,14 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00081">81</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00088">88</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00080">_clearentity_ent</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00085">clearentity()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00077">new_pure</a>.</p>
-<div class="fragment"><div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;{</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996">_clearentity_ent</a> = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a4d8e141e1e8e506c1776f2082858e1c5">clearentity</a>);</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
-<div class="ttc" id="oo_8qh_html_aa6129200bc08749d8ec263f44ca6b996"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996">_clearentity_ent</a></div><div class="ttdeci">entity _clearentity_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00080">oo.qh:80</a></div></div>
-<div class="ttc" id="oo_8qh_html_a4d8e141e1e8e506c1776f2082858e1c5"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a4d8e141e1e8e506c1776f2082858e1c5">clearentity</a></div><div class="ttdeci">void clearentity(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00085">oo.qh:85</a></div></div>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00087">_clearentity_ent</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00092">clearentity()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00077">new_pure</a>.</p>
+<div class="fragment"><div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;{</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996">_clearentity_ent</a> = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a4d8e141e1e8e506c1776f2082858e1c5">clearentity</a>);</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
+<div class="ttc" id="oo_8qh_html_aa6129200bc08749d8ec263f44ca6b996"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996">_clearentity_ent</a></div><div class="ttdeci">entity _clearentity_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00087">oo.qh:87</a></div></div>
+<div class="ttc" id="oo_8qh_html_a4d8e141e1e8e506c1776f2082858e1c5"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a4d8e141e1e8e506c1776f2082858e1c5">clearentity</a></div><div class="ttdeci">void clearentity(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00092">oo.qh:92</a></div></div>
 <div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00077">oo.qh:77</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1456,13 +1565,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00126">126</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00133">133</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00125">RegisterClasses()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;{</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a779314c109bce6e1bf0a26166c36c8f3">RegisterClasses</a>();</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;}</div>
-<div class="ttc" id="oo_8qh_html_a779314c109bce6e1bf0a26166c36c8f3"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a779314c109bce6e1bf0a26166c36c8f3">RegisterClasses</a></div><div class="ttdeci">void RegisterClasses()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00125">oo.qh:125</a></div></div>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00132">RegisterClasses()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;{</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a779314c109bce6e1bf0a26166c36c8f3">RegisterClasses</a>();</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;}</div>
+<div class="ttc" id="oo_8qh_html_a779314c109bce6e1bf0a26166c36c8f3"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a779314c109bce6e1bf0a26166c36c8f3">RegisterClasses</a></div><div class="ttdeci">void RegisterClasses()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00132">oo.qh:132</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1487,9 +1596,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00080">80</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00087">87</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d0a/oo_8qh_source.html#l00085">clearentity()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00081">STATIC_INIT()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d0a/oo_8qh_source.html#l00092">clearentity()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00088">STATIC_INIT()</a>.</p>
 
 </div>
 </div>
@@ -1547,7 +1656,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00233">233</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00252">252</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d47/menu__cmd_8qc_source.html#l00013">_dumptree_open()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00259">_MapInfo_Generate()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00101">_MapInfo_GlobItem()</a>, <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00247">animdecide_setimplicitstate()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00162">anticheat_display()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00116">AppendItemcodes()</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00469">Ban_Enforce()</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00351">Ban_GetClientIP()</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00409">Ban_IsClientBanned()</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00449">Ban_MaybeEnforceBan()</a>, <a class="el" href="../../d3/dd5/bd_8qc_source.html#l00462">bd_load_piece()</a>, <a class="el" href="../../d0/d0f/bgmscript_8qc_source.html#l00094">BGMScript_Init()</a>, <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00107">bot_getplace()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00131">bot_setnameandstuff()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00119">car()</a>, <a class="el" href="../../d0/dab/item_2checkbox_8qc_source.html#l00020">CheckBox_draw()</a>, <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00614">CLIENT_COMMAND()</a>, <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00456">ClientCommand_sentcvar()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00316">Cmd_HUD_SetFields()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00059">ColorTranslateRGB()</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00142">CONSTRUCTOR()</a>, <a class="el" href="../../dc/d3d/container_8qc_source.html#l00097">Container_itemFromPoint()</a>, <a class="el" href="../../dc/d3d/container_8qc_source.html#l00060">Container_resizeNotifyLie()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00641">CSQC_ConsoleCommand()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00023">CSQCPlayer_LOD_Apply()</a>, <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00172">cvar_or()</a>, <a class="el" href="../../de/d75/server_2campaign_8qc_source.html#l00048">cvar_set_campaignwrapper()</a>, <a class="el" href="../../d7/d4b/item_2dialog_8qc_source.html#l00015">Dialog_addItemSimple()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00324">draw_SetClipRect()</a>, <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00035">Draw_ShowNames()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01362">DumpStats()</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00259">effectinfo_dump()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01971">EndFrame()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00344">FireGrapplingHook()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00309">FixPlayermodel()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00110">fstrunzone()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00510">GameCommand()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00334">GameCommand_bot_cmd()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00604">GameCommand_effectindexdump()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l00739">GameCommand_gametype()</a>, <a class="el" href="../../da/df5/common_2debug_8qh_source.html#l00186">GENERIC_COMMAND()</a>, <a class="el" href="../../df/da7/generic_8qc_source.html#l00574">GenericCommand()</a>, <a class="el" href="../../dd/dee/markup_8qc_source.html#l00059">GenericCommand_markup()</a>, <a class="el" href="../../d7/d72/rpn_8qc_source.html#l00056">GenericCommand_rpn()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l01209">get_model_parameters()</a>, <a class="el" href="../../da/d21/hudskinlist_8qc_source.html#l00083">getAllHUDSkins()</a>, <a class="el" href="../../d0/d0f/bgmscript_8qc_source.html#l00016">GetAttackDecaySustainAmplitude()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00413">GetCvars()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00317">GetCvars_handleString_Fixup()</a>, <a class="el" href="../../db/d21/demolist_8qc_source.html#l00031">getDemos_for_ext()</a>, <a class="el" href="../../da/d21/hudskinlist_8qc_source.html#l00042">getHUDSkinFiles()</a>, <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00063">getladder()</a>, <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00038">getrankings()</a>, <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00025">getrecords()</a>, <a class="el" href="../../d0/d0f/bgmscript_8qc_source.html#l00069">GetReleaseTime()</a>, <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00034">getScreenshots_for_ext()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00502">gettooltip()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00117">getwelcomemessage()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00824">getWrappedLine()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00870">getWrappedLineLen()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00137">GrapplingHookThink()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00402">havocbot_movetogoal()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l01208">HUD_Configure_DrawGrid()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00998">HUD_DrawScoreboardAccuracyStats()</a>, <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00014">HUD_InfoMessages()</a>, <a class="el" href="../../d7/d15/hud_8qc_source.html#l00456">HUD_Main()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00149">HUD_MinigameMenu_SpawnEntry()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00493">HUD_Mod_Race()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00973">HUD_Panel_FirstInDrawQ()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00648">HUD_Panel_InputEvent()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00301">HUD_Panel_SetPos()</a>, <a class="el" href="../../dc/d90/hud__config_8qc_source.html#l00437">HUD_Panel_SetPosSize()</a>, <a class="el" href="../../d4/d12/racetimer_8qc_source.html#l00006">HUD_RaceTimer()</a>, <a class="el" href="../../d6/d8f/score_8qc_source.html#l00010">HUD_Score_Rankings()</a>, <a class="el" href="../../df/d1f/client_2hud_2panel_2vote_8qc_source.html#l00006">HUD_Vote()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00020">HUD_Weapons()</a>, <a class="el" href="../../da/d41/dialog__singleplayer_8qc_source.html#l00009">InstantAction_LoadMap()</a>, <a class="el" href="../../d0/dfe/i18n_8qh_source.html#l00013">language_filename()</a>, <a class="el" href="../../db/d8e/item_2listbox_8qc_source.html#l00336">ListBox_draw()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00042">LoadMenuSkinValues()</a>, <a class="el" href="../../d4/df2/common_2notifications_2all_8qc_source.html#l01201">Local_Notification()</a>, <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00399">LocalCommand_sendcvar()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00137">LogDeath()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00056">m_init()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00158">m_init_delayed()</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00526">m_tooltip()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00072">MapInfo_Cache_Retrieve()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00045">MapInfo_Cache_Store()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00860">MapInfo_Get_ByName_NoFallbacks()</a>, <a class="el" href="../../d0/dc5/maplist_8qc_source.html#l00255">MapList_Add_All()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00627">MapVote_Init()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l01162">matchacl()</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00200">METHOD()</a>, <a class="el" href="../../d4/db7/cl__minigames_8qc_source.html#l00248">minigame_getWrappedLine()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00039">mmsss()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00048">mmssss()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00248">Monster_Sound_Precache()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00306">Monster_Sounds_Load()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00634">NET_HANDLE()</a>, <a class="el" href="../../d6/d35/debug_8qc_source.html#l00074">pathlib_showsquare()</a>, <a class="el" href="../../d5/d53/movenode_8qc_source.html#l00085">pathlib_walknode()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00299">player_getspecies()</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00127">playerdemo_read_modelstring()</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00115">playerdemo_read_string()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00926">PlayerInIDList()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00334">PlayerScore_Add()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00910">PlayerScore_PlayerStats()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00105">Portal_TeleportPlayer()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00395">PutClientInServer()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00062">QuickMenu_Open()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00256">QuickMenu_Page_Load()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00210">QuickMenu_skip_submenu()</a>, <a class="el" href="../../d6/d3b/race_8qc_source.html#l00357">race_SendTime()</a>, <a class="el" href="../../dc/d95/random_8qc_source.html#l00012">RandomSelection_Add()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00508">readplayerstartcvars()</a>, <a class="el" href="../../d3/d69/menu_2xonotic_2campaign_8qc_source.html#l00008">rewrapCampaign()</a>, <a class="el" href="../../d7/d72/rpn_8qc_source.html#l00021">rpn_push()</a>, <a class="el" href="../../d7/d72/rpn_8qc_source.html#l00041">rpn_set()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00063">saveCvarsMulti()</a>, <a class="el" href="../../da/d21/hudskinlist_8qc_source.html#l00218">SaveHUDSkin_Click()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00829">Score_NicePrint_Player()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00793">Score_NicePrint_Team()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00127">setDependent_Check()</a>, <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00301">shotorg_adjust_values()</a>, <a class="el" href="../../d3/dab/player__skeleton_8qc_source.html#l00111">skeleton_from_frames()</a>, <a class="el" href="../../d3/dab/player__skeleton_8qc_source.html#l00065">skeleton_markbones()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00571">spawnfunc()</a>, <a class="el" href="../../d6/d03/server_2mutators_2all_8qc_source.html#l00076">STATIC_INIT_LATE()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00205">strwords()</a>, <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00187">SUB_UseTargets()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00242">SV_OnEntityPreSpawnFunction()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00423">swapInPriorityList()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00101">TeamScore_AddToTeam()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00756">TeamScore_GetCompareValue()</a>, <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00014">Teleport_Touch()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01144">uid2name()</a>, <a class="el" href="../../d2/db4/string_8qh_source.html#l00181">unescape()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00318">UpdateNotification_URI_Get_Callback()</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00279">url_fgets()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00117">viewmodel_animate()</a>, <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00105">W_NameWeaponOrder_MapFunc()</a>, <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00133">W_NumberWeaponOrder_MapFunc()</a>, <a class="el" href="../../df/d64/throwing_8qc_source.html#l00034">W_ThrowNewWeapon()</a>, <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00116">W_UndeprecateName()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00573">WarpZoneLib_BadEntity()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00136">WarpZoneLib_BoxTouchesBrush()</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00106">WarpZoneLib_BoxTouchesBrush_Recurse()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00373">waypoint_load_links()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00461">waypoint_load_links_hardwired()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00676">waypoint_loadall()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00590">waypoint_save_links()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00632">waypoint_saveall()</a>, <a class="el" href="../../dc/dab/spawning_8qc_source.html#l00025">weapon_defaultspawnfunc()</a>, <a class="el" href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc_source.html#l00020">WeaponArenaString()</a>, <a class="el" href="../../d6/d57/weaponstats_8qc_source.html#l00012">WeaponStats_ready()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00388">WinningConditionHelper()</a>, <a class="el" href="../../d4/d87/dialog__settings__audio_8qc_source.html#l00018">XonoticAudioSettingsTab_fill()</a>, <a class="el" href="../../d3/d69/menu_2xonotic_2campaign_8qc_source.html#l00102">XonoticCampaignList_campaignGo()</a>, <a class="el" href="../../d3/d69/menu_2xonotic_2campaign_8qc_source.html#l00198">XonoticCampaignList_drawListBoxItem()</a>, <a class="el" href="../../d0/d80/credits_8qc_source.html#l00403">XonoticCreditsList_drawListBoxItem()</a>, <a class="el" href="../../d6/dea/crosshairpicker_8qc_source.html#l00045">XonoticCrosshairPicker_cellDraw()</a>, <a class="el" href="../../dc/d56/cvarlist_8qc_source.html#l00123">XonoticCvarList_drawListBoxItem()</a>, <a class="el" href="../../dc/d56/cvarlist_8qc_source.html#l00072">XonoticCvarList_setSelected()</a>, <a class="el" href="../../db/d21/demolist_8qc_source.html#l00019">XonoticDemoList_demoName()</a>, <a class="el" href="../../db/d21/demolist_8qc_source.html#l00103">XonoticDemoList_drawListBoxItem()</a>, <a class="el" href="../../db/d21/demolist_8qc_source.html#l00148">XonoticDemoList_startDemo()</a>, <a class="el" href="../../db/d21/demolist_8qc_source.html#l00157">XonoticDemoList_timeDemo()</a>, <a class="el" href="../../d2/de6/dialog__settings__effects_8qc_source.html#l00035">XonoticEffectsSettingsTab_fill()</a>, <a class="el" href="../../da/d21/hudskinlist_8qc_source.html#l00157">XonoticHUDSkinList_drawListBoxItem()</a>, <a class="el" href="../../df/d75/keybinder_8qc_source.html#l00377">XonoticKeyBinder_drawListBoxItem()</a>, <a class="el" href="../../d3/d2e/languagelist_8qc_source.html#l00027">XonoticLanguageList_drawListBoxItem()</a>, <a class="el" href="../../d3/d2e/languagelist_8qc_source.html#l00138">XonoticLanguageList_getLanguages()</a>, <a class="el" href="../../d3/d2e/languagelist_8qc_source.html#l00079">XonoticLanguageList_loadCvars()</a>, <a class="el" href="../../d0/dc5/maplist_8qc_source.html#l00127">XonoticMapList_drawListBoxItem()</a>, <a class="el" href="../../d0/dc5/maplist_8qc_source.html#l00045">XonoticMapList_g_maplistCacheToggle()</a>, <a class="el" href="../../d0/dc5/maplist_8qc_source.html#l00171">XonoticMapList_refilter()</a>, <a class="el" href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc_source.html#l00153">XonoticMutatorsDialog_fill()</a>, <a class="el" href="../../d7/dfd/dialog__multiplayer__create__mutators_8qc_source.html#l00058">XonoticMutatorsDialog_toString()</a>, <a class="el" href="../../de/d40/playerlist_8qc_source.html#l00076">XonoticPlayerList_drawListBoxItem()</a>, <a class="el" href="../../de/d40/playerlist_8qc_source.html#l00019">XonoticPlayerList_setPlayerList()</a>, <a class="el" href="../../d8/d29/playlist_8qc_source.html#l00134">XonoticPlayList_drawListBoxItem()</a>, <a class="el" href="../../d8/d29/playlist_8qc_source.html#l00050">XonoticPlayList_removeSelectedFromPlayList()</a>, <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00126">XonoticScreenshotList_drawListBoxItem()</a>, <a class="el" href="../../d9/d18/screenshotlist_8qc_source.html#l00022">XonoticScreenshotList_screenshotName()</a>, <a class="el" href="../../dc/db5/dialog__multiplayer__join__serverinfo_8qc_source.html#l00010">XonoticServerInfoDialog_loadServerInfo()</a>, <a class="el" href="../../d9/da1/skinlist_8qc_source.html#l00125">XonoticSkinList_drawListBoxItem()</a>, <a class="el" href="../../d9/da1/skinlist_8qc_source.html#l00050">XonoticSkinList_getSkins()</a>, <a class="el" href="../../d9/da1/skinlist_8qc_source.html#l00024">XonoticSkinList_loadCvars()</a>, <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00069">XonoticSoundList_drawListBoxItem()</a>, <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00029">XonoticSoundList_getSounds()</a>, <a class="el" href="../../d9/dc5/soundlist_8qc_source.html#l00020">XonoticSoundList_soundName()</a>, <a class="el" href="../../d9/d0f/statslist_8qc_source.html#l00288">XonoticStatsList_drawListBoxItem()</a>, <a class="el" href="../../dc/d24/xonotic_2textslider_8qc_source.html#l00037">XonoticTextSlider_loadCvars()</a>, <a class="el" href="../../d8/df3/weaponslist_8qc_source.html#l00018">XonoticWeaponsList_draw()</a>, and <a class="el" href="../../d8/df3/weaponslist_8qc_source.html#l00070">XonoticWeaponsList_toString()</a>.</p>
 
@@ -1581,7 +1690,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00123">123</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00130">130</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -1595,7 +1704,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00122">122</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00129">129</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 </div>
 </div>
@@ -1605,7 +1714,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../db/d0a/oo_8qh.html">oo.qh</a></li>
-    <li class="footer">Generated on Tue Mar 15 2016 11:29:06 for Xonotic by
+    <li class="footer">Generated on Thu Mar 17 2016 01:19:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

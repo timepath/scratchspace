@@ -1,5 +1,10 @@
 var NAVTREEINDEX54 =
 {
+"db/dab/common_2deathtypes_2all_8qh.html#ad5aa4530e732a8bb74be927221610971":[1,0,1,1,2,7],
+"db/dab/common_2deathtypes_2all_8qh.html#ae97c6e4b865e8ba3172ec12006c87379":[1,0,1,1,2,21],
+"db/dab/common_2deathtypes_2all_8qh.html#aed2b0f7718db6f6b5bc9ebda3c8b4c41":[1,0,1,1,2,1],
+"db/dab/common_2deathtypes_2all_8qh.html#aef6fa079502aff69a43b0627c85d8efb":[1,0,1,1,2,22],
+"db/dab/common_2deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8":[1,0,1,1,2,12],
 "db/dab/common_2deathtypes_2all_8qh_source.html":[1,0,1,1,2],
 "db/daf/playerstats_8qh.html":[1,0,1,35],
 "db/daf/playerstats_8qh.html#a312e47b0868340d91079335f62009acf":[1,0,1,35,0],
@@ -244,10 +249,5 @@ var NAVTREEINDEX54 =
 "dc/d03/keycodes_8qc.html#a2687387f21f5cff3d43daba0aa35a289":[1,0,2,0,2,22],
 "dc/d03/keycodes_8qc.html#a28ca3726ef76b2376d39be530102d031":[1,0,2,0,2,62],
 "dc/d03/keycodes_8qc.html#a2948a705dfdc77bef50f41e00e18241c":[1,0,2,0,2,59],
-"dc/d03/keycodes_8qc.html#a2bfec1c51860411a22898320a4f59372":[1,0,2,0,2,9],
-"dc/d03/keycodes_8qc.html#a2e5b5db62422744f8abf7f43f3f861c4":[1,0,2,0,2,102],
-"dc/d03/keycodes_8qc.html#a3095b99971b65ab2997d101b13aefd5f":[1,0,2,0,2,24],
-"dc/d03/keycodes_8qc.html#a315e227218f29accc4cd092b941cafaa":[1,0,2,0,2,37],
-"dc/d03/keycodes_8qc.html#a332782a7ce0f3e3a53b8e37ebfc785cc":[1,0,2,0,2,11],
-"dc/d03/keycodes_8qc.html#a34d34993fcc2251fa4a36c826efda9ed":[1,0,2,0,2,66]
+"dc/d03/keycodes_8qc.html#a2bfec1c51860411a22898320a4f59372":[1,0,2,0,2,9]
 };
