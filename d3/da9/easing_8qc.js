@@ -5,6 +5,5 @@ var easing_8qc =
     [ "easingQuadInOut", "d3/da9/easing_8qc.html#a3ea1bfe1739af1e4273b0817c2091a9a", null ],
     [ "easingQuadOut", "d3/da9/easing_8qc.html#a91027b36dec9be4dda2fdd5193b5147f", null ],
     [ "makeEasing", "d3/da9/easing_8qc.html#a326a18c23ad059eb6df37f35f110bdfb", null ],
-    [ "makeHostedEasing", "d3/da9/easing_8qc.html#a534ca3b801e6ddae043a97a9eb6aaa04", null ],
-    [ "METHOD", "d3/da9/easing_8qc.html#a81e802d97c51e8a2ba3b22118db59026", null ]
+    [ "makeHostedEasing", "d3/da9/easing_8qc.html#a534ca3b801e6ddae043a97a9eb6aaa04", null ]
 ];

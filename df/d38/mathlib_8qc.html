@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('df/d38/mathlib_8qc.html','../../');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -128,44 +129,70 @@ $(document).ready(function(){initNavTree('df/d38/mathlib_8qc.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8223697ad3d8f097dc729d1e854c8e77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a8223697ad3d8f097dc729d1e854c8e77">fpclassify</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:a8223697ad3d8f097dc729d1e854c8e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f7da98673f75db0054d43f5ba8fbaaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a8f7da98673f75db0054d43f5ba8fbaaf">isfinite</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:a8f7da98673f75db0054d43f5ba8fbaaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14be10f7b7ec483cda599042fe3339c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a14be10f7b7ec483cda599042fe3339c5">isinf</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:a14be10f7b7ec483cda599042fe3339c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9dacdff98181957ccc6b853c4732a32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#af9dacdff98181957ccc6b853c4732a32">isnan</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:af9dacdff98181957ccc6b853c4732a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1cba2804a0355ed4a8d636d3ba7265f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#ae1cba2804a0355ed4a8d636d3ba7265f">isnormal</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:ae1cba2804a0355ed4a8d636d3ba7265f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a109431a6fae6439212e35b6bb2f39875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a109431a6fae6439212e35b6bb2f39875">signbit</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:a109431a6fae6439212e35b6bb2f39875"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aade379f07edc972d85b579897aa7c4dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#aade379f07edc972d85b579897aa7c4dd">acosh</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:aade379f07edc972d85b579897aa7c4dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef571c82bdcb93921bb4ee524c2c4a2a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#aef571c82bdcb93921bb4ee524c2c4a2a">asinh</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:aef571c82bdcb93921bb4ee524c2c4a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a264cc337c6d64272cf811db1f952e999"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a264cc337c6d64272cf811db1f952e999">atanh</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:a264cc337c6d64272cf811db1f952e999"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff6acc41085f312d8c5c8603cd7859c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#aff6acc41085f312d8c5c8603cd7859c5">cbrt</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:aff6acc41085f312d8c5c8603cd7859c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29f2602d95aa7b3950e2b77b3e268f7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a29f2602d95aa7b3950e2b77b3e268f7e">copysign</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:a29f2602d95aa7b3950e2b77b3e268f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ebcd12a3f554326958712eb4e298eec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a2ebcd12a3f554326958712eb4e298eec">cosh</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:a2ebcd12a3f554326958712eb4e298eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b779d5089ff8362eb9b3d362083de19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a2b779d5089ff8362eb9b3d362083de19">sinh</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:a2b779d5089ff8362eb9b3d362083de19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afde1d7d92227ce384c236b80161e11c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#afde1d7d92227ce384c236b80161e11c8">tanh</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:afde1d7d92227ce384c236b80161e11c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e1af78e18149340bcf4f1ebcf767998"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a5e1af78e18149340bcf4f1ebcf767998">erf</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:a5e1af78e18149340bcf4f1ebcf767998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e1e146a0a48b54f5d9adfbcd0311a3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a4e1e146a0a48b54f5d9adfbcd0311a3c">erfc</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:a4e1e146a0a48b54f5d9adfbcd0311a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b5b75b78eff58c7f376e3ce51e9fdfd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a9b5b75b78eff58c7f376e3ce51e9fdfd">exp</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:a9b5b75b78eff58c7f376e3ce51e9fdfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad3d26d2e9cffef45a500fd1f8d2bc516"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#ad3d26d2e9cffef45a500fd1f8d2bc516">exp2</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:ad3d26d2e9cffef45a500fd1f8d2bc516"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ec1b285fafa6bf8681c85f58be62129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a2ec1b285fafa6bf8681c85f58be62129">expm1</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:a2ec1b285fafa6bf8681c85f58be62129"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b66818c1ca439713053dd5cace18ce3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a4b66818c1ca439713053dd5cace18ce3">frexp</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="memitem:ae017238bc7506557084dfdd59d4d69e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#ae017238bc7506557084dfdd59d4d69e7">fdim</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:ae017238bc7506557084dfdd59d4d69e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73ba6663799ad869a4a831ee28d001ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a73ba6663799ad869a4a831ee28d001ee">fma</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> z)</td></tr>
+<tr class="separator:a73ba6663799ad869a4a831ee28d001ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60f2072d8a746e7fe05cd46dea0fefcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a60f2072d8a746e7fe05cd46dea0fefcc">fmax</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:a60f2072d8a746e7fe05cd46dea0fefcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fd9d57c6c992866bf5161be2cf4c447"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a1fd9d57c6c992866bf5161be2cf4c447">fmin</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:a1fd9d57c6c992866bf5161be2cf4c447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31d5e179730ae44e1dbc74c1535f392e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a31d5e179730ae44e1dbc74c1535f392e">fmod</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:a31d5e179730ae44e1dbc74c1535f392e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8223697ad3d8f097dc729d1e854c8e77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a8223697ad3d8f097dc729d1e854c8e77">fpclassify</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:a8223697ad3d8f097dc729d1e854c8e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b66818c1ca439713053dd5cace18ce3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a4b66818c1ca439713053dd5cace18ce3">frexp</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:a4b66818c1ca439713053dd5cace18ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c088dd908a4230be42abbb91a9c9e76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a2c088dd908a4230be42abbb91a9c9e76">ilogb</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="memitem:a147f38d6e41f45de9b5e7c6f3dcac010"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a147f38d6e41f45de9b5e7c6f3dcac010">hypot</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:a147f38d6e41f45de9b5e7c6f3dcac010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c088dd908a4230be42abbb91a9c9e76"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a2c088dd908a4230be42abbb91a9c9e76">ilogb</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:a2c088dd908a4230be42abbb91a9c9e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90381e2538fbcc8e6c1f75b1831c7846"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a90381e2538fbcc8e6c1f75b1831c7846">ldexp</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> e)</td></tr>
+<tr class="memitem:a8f7da98673f75db0054d43f5ba8fbaaf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a8f7da98673f75db0054d43f5ba8fbaaf">isfinite</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:a8f7da98673f75db0054d43f5ba8fbaaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe80938927bc9d761f79dd709830c145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#afe80938927bc9d761f79dd709830c145">isgreater</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:afe80938927bc9d761f79dd709830c145"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60ea3a9c55799e4330fbd318bbdc07d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a60ea3a9c55799e4330fbd318bbdc07d6">isgreaterequal</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:a60ea3a9c55799e4330fbd318bbdc07d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14be10f7b7ec483cda599042fe3339c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a14be10f7b7ec483cda599042fe3339c5">isinf</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:a14be10f7b7ec483cda599042fe3339c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a986be48a578abecbfccda765d44bb5b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a986be48a578abecbfccda765d44bb5b2">isless</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:a986be48a578abecbfccda765d44bb5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33cc346251c94cdf1e0f3cfdd1627124"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a33cc346251c94cdf1e0f3cfdd1627124">islessequal</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:a33cc346251c94cdf1e0f3cfdd1627124"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb6747f06b5400a365e60473ccbf032d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#abb6747f06b5400a365e60473ccbf032d">islessgreater</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:abb6747f06b5400a365e60473ccbf032d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9dacdff98181957ccc6b853c4732a32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#af9dacdff98181957ccc6b853c4732a32">isnan</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:af9dacdff98181957ccc6b853c4732a32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1cba2804a0355ed4a8d636d3ba7265f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#ae1cba2804a0355ed4a8d636d3ba7265f">isnormal</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:ae1cba2804a0355ed4a8d636d3ba7265f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafedf621ec9d800da69e9a03dd859815"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#aafedf621ec9d800da69e9a03dd859815">isunordered</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:aafedf621ec9d800da69e9a03dd859815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90381e2538fbcc8e6c1f75b1831c7846"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a90381e2538fbcc8e6c1f75b1831c7846">ldexp</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> e)</td></tr>
 <tr class="separator:a90381e2538fbcc8e6c1f75b1831c7846"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a834c6abed34f0fed15913ed3c86ba4f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a834c6abed34f0fed15913ed3c86ba4f2">logn</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> base)</td></tr>
-<tr class="separator:a834c6abed34f0fed15913ed3c86ba4f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5f8f76c703051fdfe437f14607ce4a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#ac5f8f76c703051fdfe437f14607ce4a3">lgamma</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:ac5f8f76c703051fdfe437f14607ce4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9072957ddf2d504ecc13b926c225ab59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a9072957ddf2d504ecc13b926c225ab59">log10</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:a9072957ddf2d504ecc13b926c225ab59"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27c03f2f90ab56db2e4d59559a3d2e9a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a27c03f2f90ab56db2e4d59559a3d2e9a">log1p</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
@@ -174,63 +201,37 @@ Functions</h2></td></tr>
 <tr class="separator:abd39f3b34616b46b0bab66270250f94d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0752eeec8108324a4b1acfc7e9a3f789"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a0752eeec8108324a4b1acfc7e9a3f789">logb</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:a0752eeec8108324a4b1acfc7e9a3f789"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5487db6adbf8e046a7dc5ea034ba501"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#ad5487db6adbf8e046a7dc5ea034ba501">modf</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> f)</td></tr>
+<tr class="memitem:a834c6abed34f0fed15913ed3c86ba4f2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a834c6abed34f0fed15913ed3c86ba4f2">logn</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> base)</td></tr>
+<tr class="separator:a834c6abed34f0fed15913ed3c86ba4f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5487db6adbf8e046a7dc5ea034ba501"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#ad5487db6adbf8e046a7dc5ea034ba501">modf</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> f)</td></tr>
 <tr class="separator:ad5487db6adbf8e046a7dc5ea034ba501"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a368fab4964efe1287d1cdc33ad339c6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a368fab4964efe1287d1cdc33ad339c6c">scalbn</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> <a class="el" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>)</td></tr>
-<tr class="separator:a368fab4964efe1287d1cdc33ad339c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff6acc41085f312d8c5c8603cd7859c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#aff6acc41085f312d8c5c8603cd7859c5">cbrt</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:aff6acc41085f312d8c5c8603cd7859c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a147f38d6e41f45de9b5e7c6f3dcac010"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a147f38d6e41f45de9b5e7c6f3dcac010">hypot</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:a147f38d6e41f45de9b5e7c6f3dcac010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e1af78e18149340bcf4f1ebcf767998"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a5e1af78e18149340bcf4f1ebcf767998">erf</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:a5e1af78e18149340bcf4f1ebcf767998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e1e146a0a48b54f5d9adfbcd0311a3c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a4e1e146a0a48b54f5d9adfbcd0311a3c">erfc</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:a4e1e146a0a48b54f5d9adfbcd0311a3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5f8f76c703051fdfe437f14607ce4a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#ac5f8f76c703051fdfe437f14607ce4a3">lgamma</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:ac5f8f76c703051fdfe437f14607ce4a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37105d1bf9bfe3d740f678512919e1b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a37105d1bf9bfe3d740f678512919e1b5">tgamma</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:a37105d1bf9bfe3d740f678512919e1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a052713cb4dd3553c149b5829a5f978af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a052713cb4dd3553c149b5829a5f978af">pymod</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="memdesc:a052713cb4dd3553c149b5829a5f978af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pythonic mod: TODO: %% operator?  <a href="#a052713cb4dd3553c149b5829a5f978af">More...</a><br/></td></tr>
-<tr class="separator:a052713cb4dd3553c149b5829a5f978af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e50a8b2a2fc25c87fb8e70f7388b0ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a5e50a8b2a2fc25c87fb8e70f7388b0ec">nearbyint</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:a5e50a8b2a2fc25c87fb8e70f7388b0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c3cd2b561d76c18ed4b10ebad0ac838"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a9c3cd2b561d76c18ed4b10ebad0ac838">trunc</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
-<tr class="separator:a9c3cd2b561d76c18ed4b10ebad0ac838"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31d5e179730ae44e1dbc74c1535f392e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a31d5e179730ae44e1dbc74c1535f392e">fmod</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:a31d5e179730ae44e1dbc74c1535f392e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5188ac0e3af95b0956c6abeafb74fda9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a5188ac0e3af95b0956c6abeafb74fda9">remainder</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:a5188ac0e3af95b0956c6abeafb74fda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6bf6fe0f7b009afa6d9940cbf5d982d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#af6bf6fe0f7b009afa6d9940cbf5d982d">remquo</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:af6bf6fe0f7b009afa6d9940cbf5d982d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29f2602d95aa7b3950e2b77b3e268f7e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a29f2602d95aa7b3950e2b77b3e268f7e">copysign</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:a29f2602d95aa7b3950e2b77b3e268f7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2af75f227c66609ef95f0bec5a99a536"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a2af75f227c66609ef95f0bec5a99a536">nan</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> tag)</td></tr>
 <tr class="separator:a2af75f227c66609ef95f0bec5a99a536"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e50a8b2a2fc25c87fb8e70f7388b0ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a5e50a8b2a2fc25c87fb8e70f7388b0ec">nearbyint</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:a5e50a8b2a2fc25c87fb8e70f7388b0ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adb11df05fb9985595af0a7bd882bdeac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#adb11df05fb9985595af0a7bd882bdeac">nextafter</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
 <tr class="separator:adb11df05fb9985595af0a7bd882bdeac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a44b0ea5e419670a7106eed20ff311cd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a44b0ea5e419670a7106eed20ff311cd1">nexttoward</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
 <tr class="separator:a44b0ea5e419670a7106eed20ff311cd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae017238bc7506557084dfdd59d4d69e7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#ae017238bc7506557084dfdd59d4d69e7">fdim</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:ae017238bc7506557084dfdd59d4d69e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60f2072d8a746e7fe05cd46dea0fefcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a60f2072d8a746e7fe05cd46dea0fefcc">fmax</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:a60f2072d8a746e7fe05cd46dea0fefcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1fd9d57c6c992866bf5161be2cf4c447"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a1fd9d57c6c992866bf5161be2cf4c447">fmin</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:a1fd9d57c6c992866bf5161be2cf4c447"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73ba6663799ad869a4a831ee28d001ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a73ba6663799ad869a4a831ee28d001ee">fma</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> z)</td></tr>
-<tr class="separator:a73ba6663799ad869a4a831ee28d001ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe80938927bc9d761f79dd709830c145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#afe80938927bc9d761f79dd709830c145">isgreater</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:afe80938927bc9d761f79dd709830c145"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60ea3a9c55799e4330fbd318bbdc07d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a60ea3a9c55799e4330fbd318bbdc07d6">isgreaterequal</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:a60ea3a9c55799e4330fbd318bbdc07d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a986be48a578abecbfccda765d44bb5b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a986be48a578abecbfccda765d44bb5b2">isless</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:a986be48a578abecbfccda765d44bb5b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33cc346251c94cdf1e0f3cfdd1627124"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a33cc346251c94cdf1e0f3cfdd1627124">islessequal</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:a33cc346251c94cdf1e0f3cfdd1627124"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb6747f06b5400a365e60473ccbf032d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#abb6747f06b5400a365e60473ccbf032d">islessgreater</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:abb6747f06b5400a365e60473ccbf032d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafedf621ec9d800da69e9a03dd859815"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#aafedf621ec9d800da69e9a03dd859815">isunordered</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
-<tr class="separator:aafedf621ec9d800da69e9a03dd859815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a052713cb4dd3553c149b5829a5f978af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a052713cb4dd3553c149b5829a5f978af">pymod</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="memdesc:a052713cb4dd3553c149b5829a5f978af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pythonic mod: TODO: %% operator?  <a href="#a052713cb4dd3553c149b5829a5f978af">More...</a><br/></td></tr>
+<tr class="separator:a052713cb4dd3553c149b5829a5f978af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5188ac0e3af95b0956c6abeafb74fda9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a5188ac0e3af95b0956c6abeafb74fda9">remainder</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:a5188ac0e3af95b0956c6abeafb74fda9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6bf6fe0f7b009afa6d9940cbf5d982d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#af6bf6fe0f7b009afa6d9940cbf5d982d">remquo</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> y)</td></tr>
+<tr class="separator:af6bf6fe0f7b009afa6d9940cbf5d982d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a368fab4964efe1287d1cdc33ad339c6c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a368fab4964efe1287d1cdc33ad339c6c">scalbn</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x, <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> n)</td></tr>
+<tr class="separator:a368fab4964efe1287d1cdc33ad339c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a109431a6fae6439212e35b6bb2f39875"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a109431a6fae6439212e35b6bb2f39875">signbit</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:a109431a6fae6439212e35b6bb2f39875"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b779d5089ff8362eb9b3d362083de19"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a2b779d5089ff8362eb9b3d362083de19">sinh</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:a2b779d5089ff8362eb9b3d362083de19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afde1d7d92227ce384c236b80161e11c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#afde1d7d92227ce384c236b80161e11c8">tanh</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:afde1d7d92227ce384c236b80161e11c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37105d1bf9bfe3d740f678512919e1b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a37105d1bf9bfe3d740f678512919e1b5">tgamma</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:a37105d1bf9bfe3d740f678512919e1b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c3cd2b561d76c18ed4b10ebad0ac838"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/mathlib_8qc.html#a9c3cd2b561d76c18ed4b10ebad0ac838">trunc</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
+<tr class="separator:a9c3cd2b561d76c18ed4b10ebad0ac838"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="aade379f07edc972d85b579897aa7c4dd"></a>
@@ -929,7 +930,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> fpclassify </td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> fpclassify </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
@@ -974,7 +975,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> frexp </td>
+          <td class="memname"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> frexp </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
@@ -1058,7 +1059,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> ilogb </td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> ilogb </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
@@ -1153,7 +1154,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> isgreater </td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> isgreater </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -1184,7 +1185,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> isgreaterequal </td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> isgreaterequal </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -1248,7 +1249,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> isless </td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> isless </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -1279,7 +1280,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> islessequal </td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> islessequal </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -1310,7 +1311,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> islessgreater </td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> islessgreater </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -1410,7 +1411,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> isunordered </td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> isunordered </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -1449,7 +1450,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
           <td class="paramname"><em>e</em>&#160;</td>
         </tr>
         <tr>
@@ -1485,7 +1486,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> lgamma </td>
+          <td class="memname"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> lgamma </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
@@ -1759,7 +1760,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> modf </td>
+          <td class="memname"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> modf </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>f</em></td><td>)</td>
@@ -1894,7 +1895,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00226">226</a> of file <a class="el" href="../../df/d38/mathlib_8qc_source.html">mathlib.qc</a>.</p>
 
-<p>References <a class="el" href="../../de/d9a/item_8qc_source.html#l00029">a</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00222">nan()</a>, and <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00226">nextafter()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00222">nan()</a>, and <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00226">nextafter()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00226">nextafter()</a>, and <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00247">nexttoward()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;{</div>
@@ -1905,13 +1906,13 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordflow">return</span> -<a class="code" href="../../df/d38/mathlib_8qc.html#adb11df05fb9985595af0a7bd882bdeac">nextafter</a>(-x, -y);</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="comment">// now we know that x &lt; y</span></div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="comment">// so we need the next number &gt; x</span></div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordtype">float</span> d, <a class="code" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a>, b;</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keywordtype">float</span> d, a, b;</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    d = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(x), 0.00000000000000000000001);</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    a = x + d;</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keywordflow">do</span></div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    {</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        d *= 0.5;</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        b = <a class="code" href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a>;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        b = a;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        a = x + d;</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    }</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keywordflow">while</span>(a != x);</div>
@@ -1919,7 +1920,6 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;}</div>
 <div class="ttc" id="mathlib_8qc_html_adb11df05fb9985595af0a7bd882bdeac"><div class="ttname"><a href="../../df/d38/mathlib_8qc.html#adb11df05fb9985595af0a7bd882bdeac">nextafter</a></div><div class="ttdeci">float nextafter(float x, float y)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00226">mathlib.qc:226</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
-<div class="ttc" id="item_8qc_html_a4aec1a5be9d9a4a394a2e49e9744286e"><div class="ttname"><a href="../../de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">a</a></div><div class="ttdeci">float a</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9a/item_8qc_source.html#l00029">item.qc:29</a></div></div>
 <div class="ttc" id="mathlib_8qc_html_a2af75f227c66609ef95f0bec5a99a536"><div class="ttname"><a href="../../df/d38/mathlib_8qc.html#a2af75f227c66609ef95f0bec5a99a536">nan</a></div><div class="ttdeci">float nan(string tag)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00222">mathlib.qc:222</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_accccfae161879454243b3a8695a9bf3b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a></div><div class="ttdeci">float fabs(float f)</div></div>
 </div><!-- fragment -->
@@ -2097,7 +2097,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> remquo </td>
+          <td class="memname"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> remquo </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>x</em>, </td>
@@ -2154,7 +2154,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
           <td class="paramname"><em>n</em>&#160;</td>
         </tr>
         <tr>
@@ -2169,10 +2169,9 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;{</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">return</span> x * <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(2, <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">return</span> x * <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(2, n);</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a0476dbfc79dac7770dfaa5c8d780a87d"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a></div><div class="ttdeci">float pow(float a, float b)</div></div>
-<div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-54" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-54-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -2379,7 +2378,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_58d953ef34ccfc4a49203206a34466c3.html">warpzone</a></li><li class="navelem"><a class="el" href="../../df/d38/mathlib_8qc.html">mathlib.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:39 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:35 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

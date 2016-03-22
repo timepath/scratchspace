@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('dd/d31/engineinfo_8qc.html','../../');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -134,11 +135,13 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a1a1446b0e02720796670e216ad41d264"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#a1a1446b0e02720796670e216ad41d264">prevfps</a></td></tr>
-<tr class="separator:a1a1446b0e02720796670e216ad41d264"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a2c3d482f3e9586fbd9172e6181b328"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#a7a2c3d482f3e9586fbd9172e6181b328">prevfps_time</a></td></tr>
-<tr class="separator:a7a2c3d482f3e9586fbd9172e6181b328"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adffe31726c5e15929e4e9574771d5d98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#adffe31726c5e15929e4e9574771d5d98">framecounter</a></td></tr>
+<tr class="memitem:a80d67311f4021e4bb6c13333f62f4d6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#a80d67311f4021e4bb6c13333f62f4d6e">autocvar_hud_panel_engineinfo_framecounter_exponentialmovingaverage</a></td></tr>
+<tr class="separator:a80d67311f4021e4bb6c13333f62f4d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9259f70f3bef2facbf03fb04bb85a063"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#a9259f70f3bef2facbf03fb04bb85a063">autocvar_hud_panel_engineinfo_framecounter_exponentialmovingaverage_instantupdate_change_threshold</a></td></tr>
+<tr class="separator:a9259f70f3bef2facbf03fb04bb85a063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19fede9702c226203c812326536f793b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#a19fede9702c226203c812326536f793b">autocvar_hud_panel_engineinfo_framecounter_exponentialmovingaverage_new_weight</a></td></tr>
+<tr class="separator:a19fede9702c226203c812326536f793b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adffe31726c5e15929e4e9574771d5d98"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#adffe31726c5e15929e4e9574771d5d98">framecounter</a></td></tr>
 <tr class="separator:adffe31726c5e15929e4e9574771d5d98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80a6eaac1d8d20f3dfe89586f09ed952"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#a80a6eaac1d8d20f3dfe89586f09ed952">frametimeavg</a></td></tr>
 <tr class="separator:a80a6eaac1d8d20f3dfe89586f09ed952"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,12 +149,10 @@ Variables</h2></td></tr>
 <tr class="separator:ad9120350a46853333c624c497c4d2dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa28d10af907276566641e95e7853122a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#aa28d10af907276566641e95e7853122a">frametimeavg2</a></td></tr>
 <tr class="separator:aa28d10af907276566641e95e7853122a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80d67311f4021e4bb6c13333f62f4d6e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#a80d67311f4021e4bb6c13333f62f4d6e">autocvar_hud_panel_engineinfo_framecounter_exponentialmovingaverage</a></td></tr>
-<tr class="separator:a80d67311f4021e4bb6c13333f62f4d6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19fede9702c226203c812326536f793b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#a19fede9702c226203c812326536f793b">autocvar_hud_panel_engineinfo_framecounter_exponentialmovingaverage_new_weight</a></td></tr>
-<tr class="separator:a19fede9702c226203c812326536f793b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9259f70f3bef2facbf03fb04bb85a063"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#a9259f70f3bef2facbf03fb04bb85a063">autocvar_hud_panel_engineinfo_framecounter_exponentialmovingaverage_instantupdate_change_threshold</a></td></tr>
-<tr class="separator:a9259f70f3bef2facbf03fb04bb85a063"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a1446b0e02720796670e216ad41d264"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#a1a1446b0e02720796670e216ad41d264">prevfps</a></td></tr>
+<tr class="separator:a1a1446b0e02720796670e216ad41d264"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2c3d482f3e9586fbd9172e6181b328"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d31/engineinfo_8qc.html#a7a2c3d482f3e9586fbd9172e6181b328">prevfps_time</a></td></tr>
+<tr class="separator:a7a2c3d482f3e9586fbd9172e6181b328"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="addd2220d49d11f3443e66dd9457a4a49"></a>
@@ -315,7 +316,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> framecounter</td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> framecounter</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -412,7 +413,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../dd/d31/engineinfo_8qc.html">engineinfo.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:34 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:30 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

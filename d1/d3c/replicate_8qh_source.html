@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d1/d3c/replicate_8qh_source.html','../
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -111,7 +112,7 @@ $(document).ready(function(){initNavTree('d1/d3c/replicate_8qh_source.html','../
 <div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#af6967d3010cf381a4e779760b57a960c">   12</a></span>&#160;<span class="preprocessor">    #define REPLICATE(...) EVAL_REPLICATE(OVERLOAD(REPLICATE, __VA_ARGS__))</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#a07c05cb7034d9bf23e5fd877ab8d20a4">   13</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define EVAL_REPLICATE(...) __VA_ARGS__</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#a2b1bdacc972d8a53bdbe820b3fabd706">   15</a></span>&#160;    [[accumulate]] <span class="keywordtype">void</span> <a class="code" href="../../d1/d3c/replicate_8qh.html#a2b1bdacc972d8a53bdbe820b3fabd706">ReplicateVars</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>, <span class="keywordtype">string</span> thisname, <span class="keywordtype">int</span> i) {}</div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#a2b1bdacc972d8a53bdbe820b3fabd706">   15</a></span>&#160;    [[accumulate]] <span class="keywordtype">void</span> <a class="code" href="../../d1/d3c/replicate_8qh.html#a2b1bdacc972d8a53bdbe820b3fabd706">ReplicateVars</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <span class="keywordtype">string</span> thisname, <span class="keywordtype">int</span> i) {}</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#a1cef10b732646019314765043d29fcd7">   17</a></span>&#160;<span class="preprocessor">    #define REPLICATE_3(fld, type, var) REPLICATE_4(fld, type, var, )</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#a5b37786d25d121fc3f2ced3a1a3c124d">   18</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REPLICATE_4(fld, type, var, func) REPLICATE_##type(fld, var, func)</span></div>
@@ -160,15 +161,15 @@ $(document).ready(function(){initNavTree('d1/d3c/replicate_8qh_source.html','../
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #endif</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="replicate_8qh_html_a2b1bdacc972d8a53bdbe820b3fabd706"><div class="ttname"><a href="../../d1/d3c/replicate_8qh.html#a2b1bdacc972d8a53bdbe820b3fabd706">ReplicateVars</a></div><div class="ttdeci">void ReplicateVars(entity this, string thisname, int i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d3c/replicate_8qh_source.html#l00015">replicate.qh:15</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d1/d3c/replicate_8qh.html">replicate.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:31 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

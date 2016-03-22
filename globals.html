@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('globals.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -558,9 +559,6 @@ $(document).ready(function(){initNavTree('globals.html','');});
 <li>_sound
 : <a class="el" href="d0/df5/sound_8qh.html#ab3244e946a9d251f139b92bca26b13a3">sound.qh</a>
 </li>
-<li>_Sound_fixpath()
-: <a class="el" href="d0/df5/sound_8qh.html#ac9b429b7924cfc7d494968e1f72b2b4d">sound.qh</a>
-</li>
 <li>_spawn()
 : <a class="el" href="db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4">oo.qh</a>
 </li>
@@ -646,8 +644,8 @@ $(document).ready(function(){initNavTree('globals.html','');});
 : <a class="el" href="de/d81/common_2weapons_2all_8qh.html#abaa11969734a8ae752a6a5be18746a49">all.qh</a>
 </li>
 <li>_WepSet_FromWeapon()
-: <a class="el" href="de/d81/common_2weapons_2all_8qh.html#afa58eea7e5b202d3baf065ef2d96e0f0">all.qh</a>
-, <a class="el" href="de/dfa/common_2weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee">all.qc</a>
+: <a class="el" href="de/dfa/common_2weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee">all.qc</a>
+, <a class="el" href="de/d81/common_2weapons_2all_8qh.html#afa58eea7e5b202d3baf065ef2d96e0f0">all.qh</a>
 </li>
 <li>_yinvert
 : <a class="el" href="de/dcb/vector_8qh.html#abd8e65ab96a0f1779abeccc7054702f0">vector.qh</a>
@@ -658,7 +656,7 @@ $(document).ready(function(){initNavTree('globals.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

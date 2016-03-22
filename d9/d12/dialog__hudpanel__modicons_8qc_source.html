@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d9/d12/dialog__hudpanel__modicons_8qc_
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -108,18 +109,17 @@ $(document).ready(function(){initNavTree('d9/d12/dialog__hudpanel__modicons_8qc_
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d76/xonotic_2checkbox_8qh.html">checkbox.qh</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../d9/d12/dialog__hudpanel__modicons_8qc.html#ac73511dfa791a5caeb005cdde13be83b">    5</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/d12/dialog__hudpanel__modicons_8qc.html#ac73511dfa791a5caeb005cdde13be83b">XonoticHUDModIconsDialog_fill</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <a class="code" href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a>)</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../d9/d12/dialog__hudpanel__modicons_8qc.html#ac73511dfa791a5caeb005cdde13be83b">    5</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/d12/dialog__hudpanel__modicons_8qc.html#ac73511dfa791a5caeb005cdde13be83b">XonoticHUDModIconsDialog_fill</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me)</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">string</span> panelname = <span class="stringliteral">&quot;modicons&quot;</span>;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../df/d97/menu_2xonotic_2util_8qh.html#a90265891986843c2c1863a5a6a4fdbf4">DIALOG_HUDPANEL_COMMON</a>();</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="menu_2xonotic_2util_8qh_html_a90265891986843c2c1863a5a6a4fdbf4"><div class="ttname"><a href="../../df/d97/menu_2xonotic_2util_8qh.html#a90265891986843c2c1863a5a6a4fdbf4">DIALOG_HUDPANEL_COMMON</a></div><div class="ttdeci">#define DIALOG_HUDPANEL_COMMON()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d97/menu_2xonotic_2util_8qh_source.html#l00041">util.qh:41</a></div></div>
-<div class="ttc" id="item_2dialog_8qh_html_a700a54058a31b6d69e1c4d8f544a6c48"><div class="ttname"><a href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a></div><div class="ttdeci">entity me</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d88/item_2dialog_8qh_source.html#l00072">dialog.qh:72</a></div></div>
 <div class="ttc" id="xonotic_2checkbox_8qh_html"><div class="ttname"><a href="../../d8/d76/xonotic_2checkbox_8qh.html">checkbox.qh</a></div></div>
 <div class="ttc" id="dialog__hudpanel__modicons_8qh_html"><div class="ttname"><a href="../../da/dc1/dialog__hudpanel__modicons_8qh.html">dialog_hudpanel_modicons.qh</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 <div class="ttc" id="dialog__hudpanel__modicons_8qc_html_ac73511dfa791a5caeb005cdde13be83b"><div class="ttname"><a href="../../d9/d12/dialog__hudpanel__modicons_8qc.html#ac73511dfa791a5caeb005cdde13be83b">XonoticHUDModIconsDialog_fill</a></div><div class="ttdeci">void XonoticHUDModIconsDialog_fill(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d12/dialog__hudpanel__modicons_8qc_source.html#l00005">dialog_hudpanel_modicons.qc:5</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -127,7 +127,7 @@ $(document).ready(function(){initNavTree('d9/d12/dialog__hudpanel__modicons_8qc_
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d9/d12/dialog__hudpanel__modicons_8qc.html">dialog_hudpanel_modicons.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:32 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

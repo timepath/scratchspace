@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d4/db7/wall_8qh_source.html','../../')
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -121,10 +122,11 @@ $(document).ready(function(){initNavTree('d4/db7/wall_8qh_source.html','../../')
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d4/db7/wall_8qh.html#a6d28ca44ad13f8e8c55c438404834b10">   15</a></span>&#160;.float <a class="code" href="../../d4/db7/wall_8qh.html#a01afd0d1a091e3feeaacacebb74b6433">fade_start</a>, <a class="code" href="../../d4/db7/wall_8qh.html#a0ae1b54e0a7968da8ad5a9cdb72038df">fade_end</a>, <a class="code" href="../../d4/db7/wall_8qh.html#a6d28ca44ad13f8e8c55c438404834b10">fade_vertical_offset</a>;</div>
 <div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d4/db7/wall_8qh.html#ac4d89b762985ac8971a24f67e82b7b4e">   16</a></span>&#160;.float <a class="code" href="../../d4/db7/wall_8qh.html#ac4d89b762985ac8971a24f67e82b7b4e">default_solid</a>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/db7/wall_8qh.html#ac20990484cf12bfc4d141db226f8d379">Ent_Wall_Draw</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/db7/wall_8qh.html#ac20990484cf12bfc4d141db226f8d379">Ent_Wall_Draw</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/db7/wall_8qh.html#aa47bdb5b6210ebe6a770fef5740bd09a">Ent_Wall_Remove</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/db7/wall_8qh.html#aa47bdb5b6210ebe6a770fef5740bd09a">Ent_Wall_Remove</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>);</div>
 <div class="ttc" id="wall_8qh_html_aaa45f34049b0b43e6c82696988a67716"><div class="ttname"><a href="../../d4/db7/wall_8qh.html#aaa45f34049b0b43e6c82696988a67716">entityclass</a></div><div class="ttdeci">entityclass(Wall)</div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="wall_8qh_html_a0ae1b54e0a7968da8ad5a9cdb72038df"><div class="ttname"><a href="../../d4/db7/wall_8qh.html#a0ae1b54e0a7968da8ad5a9cdb72038df">fade_end</a></div><div class="ttdeci">float fade_end</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/wall_8qh_source.html#l00015">wall.qh:15</a></div></div>
 <div class="ttc" id="wall_8qh_html_ac4d89b762985ac8971a24f67e82b7b4e"><div class="ttname"><a href="../../d4/db7/wall_8qh.html#ac4d89b762985ac8971a24f67e82b7b4e">default_solid</a></div><div class="ttdeci">float default_solid</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/wall_8qh_source.html#l00016">wall.qh:16</a></div></div>
 <div class="ttc" id="wall_8qh_html_ac6b9339527d76074ab576ec555ec5987"><div class="ttname"><a href="../../d4/db7/wall_8qh.html#ac6b9339527d76074ab576ec555ec5987">inactive</a></div><div class="ttdeci">float inactive</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/wall_8qh_source.html#l00011">wall.qh:11</a></div></div>
@@ -141,14 +143,13 @@ $(document).ready(function(){initNavTree('d4/db7/wall_8qh_source.html','../../')
 <div class="ttc" id="subs_8qh_html_a6d667edce7a9dc7b78542157f7f7dc46"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46">lip</a></div><div class="ttdeci">float lip</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00052">subs.qh:52</a></div></div>
 <div class="ttc" id="wall_8qh_html_a50b47fa246203e7583d36714ab09e864"><div class="ttname"><a href="../../d4/db7/wall_8qh.html#a50b47fa246203e7583d36714ab09e864">loddistance2</a></div><div class="ttdeci">loddistance2</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/wall_8qh_source.html#l00007">wall.qh:7</a></div></div>
 <div class="ttc" id="g__subs_8qh_html_a58bdeda147960aeb6cb98119889233f5"><div class="ttname"><a href="../../d6/d93/g__subs_8qh.html#a58bdeda147960aeb6cb98119889233f5">loddistance1</a></div><div class="ttdeci">float loddistance1</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d93/g__subs_8qh_source.html#l00139">g_subs.qh:139</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d4/db7/wall_8qh.html">wall.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:29 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

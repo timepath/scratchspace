@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('dd/dd5/sv__model_8qc.html','../../');}
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -102,7 +103,8 @@ $(document).ready(function(){initNavTree('dd/dd5/sv__model_8qc.html','../../');}
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">sv_model.qc File Reference</div>  </div>
 </div><!--header-->
@@ -135,33 +137,38 @@ $(document).ready(function(){initNavTree('dd/dd5/sv__model_8qc.html','../../');}
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ad310536612eda29266d5b7fdb8312322"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322">CSQCMODEL_IF</a>(cond)&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a>(cond) {</td></tr>
-<tr class="separator:ad310536612eda29266d5b7fdb8312322"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c003f56d18287ff05be93642b051a43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43">CSQCMODEL_ENDIF</a>&#160;&#160;&#160;}</td></tr>
 <tr class="separator:a5c003f56d18287ff05be93642b051a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c003f56d18287ff05be93642b051a43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43">CSQCMODEL_ENDIF</a>&#160;&#160;&#160;}</td></tr>
+<tr class="separator:a5c003f56d18287ff05be93642b051a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad310536612eda29266d5b7fdb8312322"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322">CSQCMODEL_IF</a>(cond)&#160;&#160;&#160;if(cond) {</td></tr>
+<tr class="separator:ad310536612eda29266d5b7fdb8312322"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad310536612eda29266d5b7fdb8312322"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322">CSQCMODEL_IF</a>(cond)&#160;&#160;&#160;if(cond) {</td></tr>
+<tr class="separator:ad310536612eda29266d5b7fdb8312322"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae10d3816f0f294de515bdd9189d1c6fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe">CSQCMODEL_PROPERTY</a>(flag, t, r, w, f)</td></tr>
 <tr class="separator:ae10d3816f0f294de515bdd9189d1c6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a075440bd5f3803f15b4507c99d0c2bf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9">CSQCMODEL_PROPERTY_SCALED</a>(flag, t, r, w, f, <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>, mi, ma)&#160;&#160;&#160;<a class="el" href="../../d3/d64/sv__model_8qh.html#ae10d3816f0f294de515bdd9189d1c6fe">CSQCMODEL_PROPERTY</a>(flag,t,r,w,f)</td></tr>
+<tr class="memitem:ae10d3816f0f294de515bdd9189d1c6fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe">CSQCMODEL_PROPERTY</a>(flag, t, r, w, f)</td></tr>
+<tr class="separator:ae10d3816f0f294de515bdd9189d1c6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a075440bd5f3803f15b4507c99d0c2bf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9">CSQCMODEL_PROPERTY_SCALED</a>(flag, t, r, w, f, s, mi, ma)&#160;&#160;&#160;<a class="el" href="../../d3/d64/sv__model_8qh.html#ae10d3816f0f294de515bdd9189d1c6fe">CSQCMODEL_PROPERTY</a>(flag,t,r,w,f)</td></tr>
 <tr class="separator:a075440bd5f3803f15b4507c99d0c2bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad310536612eda29266d5b7fdb8312322"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322">CSQCMODEL_IF</a>(cond)&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a>(cond) {</td></tr>
-<tr class="separator:ad310536612eda29266d5b7fdb8312322"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c003f56d18287ff05be93642b051a43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43">CSQCMODEL_ENDIF</a>&#160;&#160;&#160;}</td></tr>
-<tr class="separator:a5c003f56d18287ff05be93642b051a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae10d3816f0f294de515bdd9189d1c6fe"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe">CSQCMODEL_PROPERTY</a>(flag, t, r, w, f)</td></tr>
-<tr class="separator:ae10d3816f0f294de515bdd9189d1c6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a075440bd5f3803f15b4507c99d0c2bf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9">CSQCMODEL_PROPERTY_SCALED</a>(flag, t, r, w, f, <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>, mi, ma)</td></tr>
+<tr class="memitem:a075440bd5f3803f15b4507c99d0c2bf9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9">CSQCMODEL_PROPERTY_SCALED</a>(flag, t, r, w, f, s, mi, ma)</td></tr>
 <tr class="separator:a075440bd5f3803f15b4507c99d0c2bf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7d121b60a49265b031a787cd51c411b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a7d121b60a49265b031a787cd51c411b2">CSQCModel_Send</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> to, <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> sf)</td></tr>
-<tr class="separator:a7d121b60a49265b031a787cd51c411b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32aa4ddceceddfb68f9fc5fb066d9dd4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4">CSQCModel_CheckUpdate</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> e)</td></tr>
 <tr class="separator:a32aa4ddceceddfb68f9fc5fb066d9dd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a23e2c08e9f37dbd197f013e43f8685e6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6">CSQCModel_LinkEntity</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> e)</td></tr>
 <tr class="separator:a23e2c08e9f37dbd197f013e43f8685e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d121b60a49265b031a787cd51c411b2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a7d121b60a49265b031a787cd51c411b2">CSQCModel_Send</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> to, <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> sf)</td></tr>
+<tr class="separator:a7d121b60a49265b031a787cd51c411b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a575925a6844ef492ae305aeee6d670f4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4">CSQCModel_UnlinkEntity</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> e)</td></tr>
 <tr class="separator:a575925a6844ef492ae305aeee6d670f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a9a237dac2198b9d62f46812fe57d4352"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352">csqcmodel_nextforcedupdate</a></td></tr>
+<tr class="separator:a9a237dac2198b9d62f46812fe57d4352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a5c003f56d18287ff05be93642b051a43"></a>
@@ -197,7 +204,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">cond</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a>(cond) {</td>
+          <td>&#160;&#160;&#160;if(cond) {</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -213,7 +220,7 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">cond</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a>(cond) {</td>
+          <td>&#160;&#160;&#160;if(cond) {</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -310,14 +317,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{ \</div>
-<div class="line">        t tmp = e.f; <a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">\</a></div>
-<div class="line"><a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">		if</a>(tmp != e.csqcmodel_##f) \</div>
+<div class="line">        t tmp = e.f; \</div>
+<div class="line">        if(tmp != e.csqcmodel_##f) \</div>
 <div class="line">        { \</div>
 <div class="line">            e.csqcmodel_##f = tmp; \</div>
 <div class="line">            e.SendFlags |= flag; \</div>
 <div class="line">        } \</div>
 <div class="line">    }</div>
-<div class="ttc" id="model_8qh_html_a61af9d6854722dad5d5e433009d21a0a"><div class="ttname"><a href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">if</a></div><div class="ttdeci">if(s!=&quot;&quot;&amp;&amp;s!=&quot;null&quot;&amp;&amp;!fexists(s))</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1d/model_8qh_source.html#l00018">model.qh:18</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -359,7 +365,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>, </td>
+          <td class="paramname">s, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -421,7 +427,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>, </td>
+          <td class="paramname">s, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -443,15 +449,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">{ \</div>
-<div class="line">        t tmp = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(mi, <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a> * e.f, ma) - mi); <a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">\</a></div>
-<div class="line"><a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">		if</a>(tmp != e.csqcmodel_##f) \</div>
+<div class="line">        t tmp = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(mi, s * e.f, ma) - mi); \</div>
+<div class="line">        if(tmp != e.csqcmodel_##f) \</div>
 <div class="line">        { \</div>
 <div class="line">            e.csqcmodel_##f = tmp; \</div>
 <div class="line">            e.SendFlags |= flag; \</div>
 <div class="line">        } \</div>
 <div class="line">    }</div>
-<div class="ttc" id="model_8qh_html_a61af9d6854722dad5d5e433009d21a0a"><div class="ttname"><a href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">if</a></div><div class="ttdeci">if(s!=&quot;&quot;&amp;&amp;s!=&quot;null&quot;&amp;&amp;!fexists(s))</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1d/model_8qh_source.html#l00018">model.qh:18</a></div></div>
-<div class="ttc" id="effectinfo_8qc_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00203">effectinfo.qc:203</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8b85fda1f4e4157ff583a91373b2f71"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a></div><div class="ttdeci">float rint(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 </div><!-- fragment -->
@@ -618,7 +622,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
           <td class="paramname"><em>sf</em>&#160;</td>
         </tr>
         <tr>
@@ -738,13 +742,28 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a9a237dac2198b9d62f46812fe57d4352"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> csqcmodel_nextforcedupdate</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/dd5/sv__model_8qc_source.html#l00066">66</a> of file <a class="el" href="../../dd/dd5/sv__model_8qc_source.html">sv_model.qc</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_d5fd5ebb74d9aac6232b0b4eda80dfde.html">csqcmodel</a></li><li class="navelem"><a class="el" href="../../dd/dd5/sv__model_8qc.html">sv_model.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:39 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:34 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

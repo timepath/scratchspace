@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d7/d5c/common_2stats_8qh.html','../../
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -126,19 +127,19 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a27cfff2d2a108feef9eed7958c423a08"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08">REGISTER_STAT</a> (MOVEFLAGS, <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>, <a class="el" href="../../d4/dd7/movetypes_8qh.html#ac65a336dcba160b9781c2c52a57eb9bb">MOVEFLAG_VALID</a>|(<a class="el" href="../../d7/da7/server_2autocvars_8qh.html#ada63aac059fcbb281c2ab6589b055f79">autocvar_sv_gameplayfix_q2airaccelerate</a>?MOVEFLAG_Q2AIRACCELERATE:0)|(<a class="el" href="../../d7/d5c/common_2stats_8qh.html#af79aea212cd212293b11203367c6a5b3">autocvar_sv_gameplayfix_nogravityonground</a>?MOVEFLAG_NOGRAVITYONGROUND:0)|(<a class="el" href="../../d7/da7/server_2autocvars_8qh.html#a481ff3963fbfa794a0277f9dbad4f8cd">autocvar_sv_gameplayfix_gravityunaffectedbyticrate</a>?MOVEFLAG_GRAVITYUNAFFECTEDBYTICRATE:0)).<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> <a class="el" href="../../df/dae/player_8qh.html#a31924e6c9b17aad7f861e818b8be5d8f">gravity</a></td></tr>
+<tr class="memitem:a27cfff2d2a108feef9eed7958c423a08"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08">REGISTER_STAT</a> (MOVEFLAGS, <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>, <a class="el" href="../../d4/dd7/movetypes_8qh.html#ac65a336dcba160b9781c2c52a57eb9bb">MOVEFLAG_VALID</a>|(<a class="el" href="../../d7/da7/server_2autocvars_8qh.html#ada63aac059fcbb281c2ab6589b055f79">autocvar_sv_gameplayfix_q2airaccelerate</a>?MOVEFLAG_Q2AIRACCELERATE:0)|(<a class="el" href="../../d7/d5c/common_2stats_8qh.html#af79aea212cd212293b11203367c6a5b3">autocvar_sv_gameplayfix_nogravityonground</a>?MOVEFLAG_NOGRAVITYONGROUND:0)|(<a class="el" href="../../d7/da7/server_2autocvars_8qh.html#a481ff3963fbfa794a0277f9dbad4f8cd">autocvar_sv_gameplayfix_gravityunaffectedbyticrate</a>?MOVEFLAG_GRAVITYUNAFFECTEDBYTICRATE:0)).<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> <a class="el" href="../../df/dae/player_8qh.html#a31924e6c9b17aad7f861e818b8be5d8f">gravity</a></td></tr>
 <tr class="separator:a27cfff2d2a108feef9eed7958c423a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:addc676e25f2065875621b35f9daadb18"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5c/common_2stats_8qh.html#addc676e25f2065875621b35f9daadb18">MAX_CL_STATS</a> = 256</td></tr>
-<tr class="separator:addc676e25f2065875621b35f9daadb18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae813f754c6e1e144ad044d9c15ba1295"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5c/common_2stats_8qh.html#ae813f754c6e1e144ad044d9c15ba1295">multijump_count</a></td></tr>
-<tr class="memdesc:ae813f754c6e1e144ad044d9c15ba1295"><td class="mdescLeft">&#160;</td><td class="mdescRight">weapon requested to switch to; next WANTED weapon (for HUD)  <a href="#ae813f754c6e1e144ad044d9c15ba1295">More...</a><br/></td></tr>
-<tr class="separator:ae813f754c6e1e144ad044d9c15ba1295"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af79aea212cd212293b11203367c6a5b3"><td class="memItemLeft" align="right" valign="top">noref <a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5c/common_2stats_8qh.html#af79aea212cd212293b11203367c6a5b3">autocvar_sv_gameplayfix_nogravityonground</a></td></tr>
 <tr class="memdesc:af79aea212cd212293b11203367c6a5b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">cvar loopback  <a href="#af79aea212cd212293b11203367c6a5b3">More...</a><br/></td></tr>
 <tr class="separator:af79aea212cd212293b11203367c6a5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addc676e25f2065875621b35f9daadb18"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5c/common_2stats_8qh.html#addc676e25f2065875621b35f9daadb18">MAX_CL_STATS</a> = 256</td></tr>
+<tr class="separator:addc676e25f2065875621b35f9daadb18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae813f754c6e1e144ad044d9c15ba1295"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d5c/common_2stats_8qh.html#ae813f754c6e1e144ad044d9c15ba1295">multijump_count</a></td></tr>
+<tr class="memdesc:ae813f754c6e1e144ad044d9c15ba1295"><td class="mdescLeft">&#160;</td><td class="mdescRight">weapon requested to switch to; next WANTED weapon (for HUD)  <a href="#ae813f754c6e1e144ad044d9c15ba1295">More...</a><br/></td></tr>
+<tr class="separator:ae813f754c6e1e144ad044d9c15ba1295"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a61e845bc0532143e8d808a9dd0f81b08"></a>
@@ -169,7 +170,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -211,7 +212,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> MAX_CL_STATS = 256</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> MAX_CL_STATS = 256</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -225,7 +226,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> multijump_count</td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> multijump_count</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -243,7 +244,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../d7/d5c/common_2stats_8qh.html">stats.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:37 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

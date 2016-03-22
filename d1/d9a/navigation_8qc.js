@@ -19,7 +19,7 @@ var navigation_8qc =
     [ "navigation_pushroute", "d1/d9a/navigation_8qc.html#ac01256d836368157d941247266f21500", null ],
     [ "navigation_routerating", "d1/d9a/navigation_8qc.html#a83f7ae2bad5d776cdf07b490eb5e2b5c", null ],
     [ "navigation_routetogoal", "d1/d9a/navigation_8qc.html#a5aa6eb502121452578dc1d1f40b577c3", null ],
-    [ "navigation_unstuck", "d1/d9a/navigation_8qc.html#ac706998070e129e5ec81d8d9f9b31250", null ],
+    [ "navigation_unstuck", "d1/d9a/navigation_8qc.html#a5366a30eadfa71d3b37653e469a20904", null ],
     [ "navigation_waypoint_will_link", "d1/d9a/navigation_8qc.html#a01346f19dfbb847988ce4934e5c8f4c4", null ],
     [ "tracewalk", "d1/d9a/navigation_8qc.html#ac04a7b9ea11337a93febd08c22ea7db7", null ],
     [ "goalcounter", "d1/d9a/navigation_8qc.html#a31fe843e6e1518e0d392034d88c510e4", null ],

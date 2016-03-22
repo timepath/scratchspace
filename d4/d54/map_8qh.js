@@ -5,7 +5,7 @@ var map_8qh =
     [ "HM_gets", "d4/d54/map_8qh.html#ac4f258816f44ba60ecd630cf58e52974", null ],
     [ "HM_NEW", "d4/d54/map_8qh.html#a4552c3e9e142280d80a56d0d56ba009d", null ],
     [ "HM_sets", "d4/d54/map_8qh.html#a605b837e0b0cfbe3b7ef69564dba980e", null ],
-    [ "HashMap", "d4/d54/map_8qh.html#a97718ade46774474357a80dce0a691f9", null ],
+    [ "HashMap", "d4/d54/map_8qh.html#ae164808a517903e86f7142599e17eb73", null ],
     [ "db_close", "d4/d54/map_8qh.html#a1b6c6d653a3afa9ff06bf09160575c74", null ],
     [ "db_create", "d4/d54/map_8qh.html#afafcc8d75788a369ad96ca50f9e04959", null ],
     [ "db_dump", "d4/d54/map_8qh.html#a6f7bd142267d2579258f9abf5301d1bb", null ],

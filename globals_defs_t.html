@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -130,7 +131,7 @@ $(document).ready(function(){initNavTree('globals_defs_t.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -264,15 +265,15 @@ $(document).ready(function(){initNavTree('globals_defs_t.html','');});
 <li>TRIGGERS_TRIGGER_INCLUDE_H
 : <a class="el" href="d5/d5f/trigger_2include_8qh.html#aefd60bfc444a7d505cd1b4b41f793d9c">include.qh</a>
 </li>
-<li>true
-: <a class="el" href="d0/d95/menudefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">menudefs.qh</a>
-, <a class="el" href="da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">csprogsdefs.qh</a>
-, <a class="el" href="d8/dc0/progsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">progsdefs.qh</a>
-</li>
 <li>TRUE
-: <a class="el" href="da/dde/csprogsdefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d">csprogsdefs.qh</a>
-, <a class="el" href="d0/d95/menudefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d">menudefs.qh</a>
+: <a class="el" href="d0/d95/menudefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d">menudefs.qh</a>
+, <a class="el" href="da/dde/csprogsdefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d">csprogsdefs.qh</a>
 , <a class="el" href="d8/dc0/progsdefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d">progsdefs.qh</a>
+</li>
+<li>true
+: <a class="el" href="da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">csprogsdefs.qh</a>
+, <a class="el" href="d0/d95/menudefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">menudefs.qh</a>
+, <a class="el" href="d8/dc0/progsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7">progsdefs.qh</a>
 </li>
 <li>tryext
 : <a class="el" href="d0/df5/sound_8qh.html#a03b0aea621721da3d1c54e3dcc99e4c8">sound.qh</a>
@@ -367,7 +368,7 @@ $(document).ready(function(){initNavTree('globals_defs_t.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

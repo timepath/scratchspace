@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d4/d95/common_2mutators_2events_8qh.ht
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -123,39 +124,39 @@ $(document).ready(function(){initNavTree('d4/d95/common_2mutators_2events_8qh.ht
 Macros</h2></td></tr>
 <tr class="memitem:aa7420d300ce2890b9d869d9b460cac8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#aa7420d300ce2890b9d869d9b460cac8a">COMMON_MUTATORS_EVENTS_H</a></td></tr>
 <tr class="separator:aa7420d300ce2890b9d869d9b460cac8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0aaba201f9bc806bffbf6ecfcd32bdd6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6">EV_NO_ARGS</a>(i, o)</td></tr>
-<tr class="separator:a0aaba201f9bc806bffbf6ecfcd32bdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af66a8641f9b3587782fad7cc3fa7f220"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#af66a8641f9b3587782fad7cc3fa7f220">MUTATOR_TYPES</a>(_, x)</td></tr>
-<tr class="separator:af66a8641f9b3587782fad7cc3fa7f220"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fc6226713d2fa98dfe660ae2377d025"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a4fc6226713d2fa98dfe660ae2377d025">MUTATOR_ARGV</a>(x, type)&#160;&#160;&#160;MUTATOR_ARGV_##x##_##type</td></tr>
-<tr class="separator:a4fc6226713d2fa98dfe660ae2377d025"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a209ff0f8342d6028fe0b814eb6949bd7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a209ff0f8342d6028fe0b814eb6949bd7">MUTATOR_NEWGLOBAL</a>(x, type)&#160;&#160;&#160;type MUTATOR_ARGV_##x##_##type;</td></tr>
-<tr class="separator:a209ff0f8342d6028fe0b814eb6949bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c7ed0aa721d79ef23811db2156602f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a1c7ed0aa721d79ef23811db2156602f0">EV_BuildMutatorsString</a>(i, o)</td></tr>
-<tr class="memdesc:a1c7ed0aa721d79ef23811db2156602f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends ":mutatorname" to ret_string for logging  <a href="#a1c7ed0aa721d79ef23811db2156602f0">More...</a><br/></td></tr>
-<tr class="separator:a1c7ed0aa721d79ef23811db2156602f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac426e97a0684bb694284b6ed1beef922"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#ac426e97a0684bb694284b6ed1beef922">EV_BuildMutatorsPrettyString</a>(i, o)</td></tr>
-<tr class="memdesc:ac426e97a0684bb694284b6ed1beef922"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends ", Mutator name" to ret_string for display  <a href="#ac426e97a0684bb694284b6ed1beef922">More...</a><br/></td></tr>
-<tr class="separator:ac426e97a0684bb694284b6ed1beef922"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a080b225864283ee25d422f3adcaed6e9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a080b225864283ee25d422f3adcaed6e9">EV_BuildGameplayTipsString</a>(i, o)</td></tr>
 <tr class="memdesc:a080b225864283ee25d422f3adcaed6e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends mutator string for displaying extra gameplay tips  <a href="#a080b225864283ee25d422f3adcaed6e9">More...</a><br/></td></tr>
 <tr class="separator:a080b225864283ee25d422f3adcaed6e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac426e97a0684bb694284b6ed1beef922"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#ac426e97a0684bb694284b6ed1beef922">EV_BuildMutatorsPrettyString</a>(i, o)</td></tr>
+<tr class="memdesc:ac426e97a0684bb694284b6ed1beef922"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends ", Mutator name" to ret_string for display  <a href="#ac426e97a0684bb694284b6ed1beef922">More...</a><br/></td></tr>
+<tr class="separator:ac426e97a0684bb694284b6ed1beef922"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c7ed0aa721d79ef23811db2156602f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a1c7ed0aa721d79ef23811db2156602f0">EV_BuildMutatorsString</a>(i, o)</td></tr>
+<tr class="memdesc:a1c7ed0aa721d79ef23811db2156602f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends ":mutatorname" to ret_string for logging  <a href="#a1c7ed0aa721d79ef23811db2156602f0">More...</a><br/></td></tr>
+<tr class="separator:a1c7ed0aa721d79ef23811db2156602f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36a035a64a899169dd5dabab57c8ff02"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a36a035a64a899169dd5dabab57c8ff02">EV_IsFlying</a>(i, o)&#160;&#160;&#160;i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="separator:a36a035a64a899169dd5dabab57c8ff02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c797ab2b86db48e3e11c8802365cf5e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a5c797ab2b86db48e3e11c8802365cf5e">EV_WP_Format</a>(i, o)</td></tr>
-<tr class="separator:a5c797ab2b86db48e3e11c8802365cf5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6946f25e5a0f0f19747e7073e762b56f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a6946f25e5a0f0f19747e7073e762b56f">EV_PlayerPhysics</a>(i, o)&#160;&#160;&#160;i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
-<tr class="memdesc:a6946f25e5a0f0f19747e7073e762b56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before any player physics, may adjust variables for movement, is run AFTER bot code and idle checking on the server  <a href="#a6946f25e5a0f0f19747e7073e762b56f">More...</a><br/></td></tr>
-<tr class="separator:a6946f25e5a0f0f19747e7073e762b56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0aaba201f9bc806bffbf6ecfcd32bdd6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6">EV_NO_ARGS</a>(i, o)</td></tr>
+<tr class="separator:a0aaba201f9bc806bffbf6ecfcd32bdd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed928b5d4717ad38c6dfbd6c6d988d83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#aed928b5d4717ad38c6dfbd6c6d988d83">EV_PlayerJump</a>(i, o)</td></tr>
 <tr class="memdesc:aed928b5d4717ad38c6dfbd6c6d988d83"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a player presses the jump key  <a href="#aed928b5d4717ad38c6dfbd6c6d988d83">More...</a><br/></td></tr>
 <tr class="separator:aed928b5d4717ad38c6dfbd6c6d988d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6946f25e5a0f0f19747e7073e762b56f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a6946f25e5a0f0f19747e7073e762b56f">EV_PlayerPhysics</a>(i, o)&#160;&#160;&#160;i(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memdesc:a6946f25e5a0f0f19747e7073e762b56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before any player physics, may adjust variables for movement, is run AFTER bot code and idle checking on the server  <a href="#a6946f25e5a0f0f19747e7073e762b56f">More...</a><br/></td></tr>
+<tr class="separator:a6946f25e5a0f0f19747e7073e762b56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26df0038cd70de3a0c017c63d859ed35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a26df0038cd70de3a0c017c63d859ed35">EV_PM_Physics</a>(i, o)</td></tr>
 <tr class="memdesc:a26df0038cd70de3a0c017c63d859ed35"><td class="mdescLeft">&#160;</td><td class="mdescRight">called during player physics, allows adjusting the movement type used  <a href="#a26df0038cd70de3a0c017c63d859ed35">More...</a><br/></td></tr>
 <tr class="separator:a26df0038cd70de3a0c017c63d859ed35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa8ca520eddfe4545c119375a983f2cad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#aa8ca520eddfe4545c119375a983f2cad">EV_WeaponModel</a>(i, o)</td></tr>
 <tr class="memdesc:aa8ca520eddfe4545c119375a983f2cad"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a weapon model is about to be set, allows custom paths etc.  <a href="#aa8ca520eddfe4545c119375a983f2cad">More...</a><br/></td></tr>
 <tr class="separator:aa8ca520eddfe4545c119375a983f2cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c797ab2b86db48e3e11c8802365cf5e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a5c797ab2b86db48e3e11c8802365cf5e">EV_WP_Format</a>(i, o)</td></tr>
+<tr class="separator:a5c797ab2b86db48e3e11c8802365cf5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fc6226713d2fa98dfe660ae2377d025"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a4fc6226713d2fa98dfe660ae2377d025">MUTATOR_ARGV</a>(x, type)&#160;&#160;&#160;MUTATOR_ARGV_##x##_##type</td></tr>
+<tr class="separator:a4fc6226713d2fa98dfe660ae2377d025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a209ff0f8342d6028fe0b814eb6949bd7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a209ff0f8342d6028fe0b814eb6949bd7">MUTATOR_NEWGLOBAL</a>(x, type)&#160;&#160;&#160;type MUTATOR_ARGV_##x##_##type;</td></tr>
+<tr class="separator:a209ff0f8342d6028fe0b814eb6949bd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af66a8641f9b3587782fad7cc3fa7f220"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#af66a8641f9b3587782fad7cc3fa7f220">MUTATOR_TYPES</a>(_, x)</td></tr>
+<tr class="separator:af66a8641f9b3587782fad7cc3fa7f220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -180,14 +181,14 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a91b14ebc696209ca8fe1fbaedc9f09de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a></td></tr>
-<tr class="separator:a91b14ebc696209ca8fe1fbaedc9f09de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8c92b746a0f8b738a91d85b132420b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#ae8c92b746a0f8b738a91d85b132420b6">player_multijump</a></td></tr>
-<tr class="separator:ae8c92b746a0f8b738a91d85b132420b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a230f9c07ade5cf025a3c1b171f89e86c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a230f9c07ade5cf025a3c1b171f89e86c">player_jumpheight</a></td></tr>
 <tr class="separator:a230f9c07ade5cf025a3c1b171f89e86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c92b746a0f8b738a91d85b132420b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#ae8c92b746a0f8b738a91d85b132420b6">player_multijump</a></td></tr>
+<tr class="separator:ae8c92b746a0f8b738a91d85b132420b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adfa5118a30ae224cd89d60b48074c902"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#adfa5118a30ae224cd89d60b48074c902">pm_maxspeed_mod</a></td></tr>
 <tr class="separator:adfa5118a30ae224cd89d60b48074c902"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91b14ebc696209ca8fe1fbaedc9f09de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a></td></tr>
+<tr class="separator:a91b14ebc696209ca8fe1fbaedc9f09de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7d95987765fff146be26e9345264b89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#ad7d95987765fff146be26e9345264b89">weapon_model</a></td></tr>
 <tr class="separator:ad7d95987765fff146be26e9345264b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0b710a9933974511b97831e4ead11557"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0b710a9933974511b97831e4ead11557">weapon_model_output</a></td></tr>
@@ -386,15 +387,15 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">i(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>, <a class="code" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</div>
+<b>Value:</b><div class="fragment"><div class="line">i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, <a class="code" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</div>
 <div class="line">     i(<span class="keywordtype">float</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#ae8c92b746a0f8b738a91d85b132420b6">player_multijump</a>) \</div>
 <div class="line">     i(<span class="keywordtype">float</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a230f9c07ade5cf025a3c1b171f89e86c">player_jumpheight</a>) \</div>
 <div class="line">     o(<span class="keywordtype">float</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#ae8c92b746a0f8b738a91d85b132420b6">player_multijump</a>) \</div>
 <div class="line">     o(<span class="keywordtype">float</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a230f9c07ade5cf025a3c1b171f89e86c">player_jumpheight</a>) \</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="self_8qh_html_afbc5d1d66fe421c0d2eef50e8f8bf902"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a></div><div class="ttdeci">entity __self</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00005">self.qh:5</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a230f9c07ade5cf025a3c1b171f89e86c"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a230f9c07ade5cf025a3c1b171f89e86c">player_jumpheight</a></div><div class="ttdeci">float player_jumpheight</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00082">events.qh:82</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_ae8c92b746a0f8b738a91d85b132420b6"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#ae8c92b746a0f8b738a91d85b132420b6">player_multijump</a></div><div class="ttdeci">float player_multijump</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00081">events.qh:81</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment -->
 <p>called when a player presses the jump key </p>
 
@@ -455,11 +456,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">i(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>, <a class="code" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</div>
+<b>Value:</b><div class="fragment"><div class="line">i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, <a class="code" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</div>
 <div class="line">     i(<span class="keywordtype">float</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#adfa5118a30ae224cd89d60b48074c902">pm_maxspeed_mod</a>) \</div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_adfa5118a30ae224cd89d60b48074c902"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#adfa5118a30ae224cd89d60b48074c902">pm_maxspeed_mod</a></div><div class="ttdeci">float pm_maxspeed_mod</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00090">events.qh:90</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="self_8qh_html_afbc5d1d66fe421c0d2eef50e8f8bf902"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a></div><div class="ttdeci">entity __self</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00005">self.qh:5</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment -->
 <p>called during player physics, allows adjusting the movement type used </p>
 
@@ -525,12 +526,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">i(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>, MUTATOR_ARGV_0_entity) \</div>
+<b>Value:</b><div class="fragment"><div class="line">i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \</div>
 <div class="line">     i(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \</div>
 <div class="line">     o(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_0_vector) \</div>
 <div class="line">     o(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00056">56</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
@@ -619,12 +620,12 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">_(x, <span class="keywordtype">bool</span>) \</div>
 <div class="line">    _(x, <span class="keywordtype">int</span>) \</div>
-<div class="line">    _(x, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>) \</div>
+<div class="line">    _(x, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>) \</div>
 <div class="line">    _(x, <span class="keywordtype">float</span>) \</div>
 <div class="line">    _(x, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>) \</div>
 <div class="line">    _(x, <span class="keywordtype">string</span>) \</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00009">9</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
@@ -964,7 +965,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:35 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

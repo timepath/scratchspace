@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('globals_vars_o.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -217,12 +218,6 @@ $(document).ready(function(){initNavTree('globals_vars_o.html','');});
 <li>oldvelocity
 : <a class="el" href="d5/d26/server_2defs_8qh.html#a3e22c8ced0d427b277b14fc646a0d2e3">defs.qh</a>
 </li>
-<li>onChange
-: <a class="el" href="de/d48/dialog__settings__game_8qc.html#a70e3a04c53c1f708bd666ee877ff01cb">dialog_settings_game.qc</a>
-</li>
-<li>onChangeEntity
-: <a class="el" href="de/d48/dialog__settings__game_8qc.html#ac93d1a3769f0344a9553217588024fff">dialog_settings_game.qc</a>
-</li>
 <li>OnlineBanList_RequestWaiting
 : <a class="el" href="d6/d95/ipban_8qc.html#a0dc48623cdc782ca4db211ec8064a04c">ipban.qc</a>
 </li>
@@ -243,24 +238,24 @@ $(document).ready(function(){initNavTree('globals_vars_o.html','');});
 </li>
 <li>origin
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">csprogsdefs.qc</a>
-, <a class="el" href="d9/da8/angle_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">angle.qc</a>
-, <a class="el" href="db/d0a/oo_8qh.html#abe72a6bafb55848ec9cd7f81a6de3c29">oo.qh</a>
 , <a class="el" href="d6/d11/progsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">progsdefs.qc</a>
+, <a class="el" href="d9/da8/angle_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">angle.qc</a>
 , <a class="el" href="d7/de8/modalcontroller_8qh.html#abe72a6bafb55848ec9cd7f81a6de3c29">modalcontroller.qh</a>
+, <a class="el" href="db/d0a/oo_8qh.html#abe72a6bafb55848ec9cd7f81a6de3c29">oo.qh</a>
 </li>
 <li>originjitter
 : <a class="el" href="d3/d4f/sv__main_8qc.html#a60d945d76188ced9be00d86394a4f6be">sv_main.qc</a>
 </li>
 <li>other
-: <a class="el" href="d6/d11/progsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">progsdefs.qc</a>
-, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">csprogsdefs.qc</a>
+: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">csprogsdefs.qc</a>
+, <a class="el" href="d6/d11/progsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">progsdefs.qc</a>
 </li>
 <li>ov_enabled
 : <a class="el" href="d6/dd3/view_8qc.html#a918db5c4348f2c596d32e50e1d8f228a">view.qc</a>
 </li>
 <li>owner
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a4b5ad32527ff137c4517b10088cba1ef">csprogsdefs.qc</a>
-, <a class="el" href="d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">main.qh</a>
+: <a class="el" href="d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">main.qh</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a4b5ad32527ff137c4517b10088cba1ef">csprogsdefs.qc</a>
 , <a class="el" href="d6/d11/progsdefs_8qc.html#a4b5ad32527ff137c4517b10088cba1ef">progsdefs.qc</a>
 </li>
 </ul>
@@ -269,7 +264,7 @@ $(document).ready(function(){initNavTree('globals_vars_o.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

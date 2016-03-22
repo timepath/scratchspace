@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d1/d9f/dialog__multiplayer_8qc_source.
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -112,9 +113,9 @@ $(document).ready(function(){initNavTree('d1/d9f/dialog__multiplayer_8qc_source.
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/deb/dialog__multiplayer__media_8qh.html">dialog_multiplayer_media.qh</a>&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d8/d95/dialog__multiplayer__profile_8qh.html">dialog_multiplayer_profile.qh</a>&quot;</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d1/d9f/dialog__multiplayer_8qc.html#af83637108621204488c5ae95da509066">    9</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/d9f/dialog__multiplayer_8qc.html#af83637108621204488c5ae95da509066">XonoticMultiplayerDialog_fill</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <a class="code" href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a>)</div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="../../d1/d9f/dialog__multiplayer_8qc.html#af83637108621204488c5ae95da509066">    9</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/d9f/dialog__multiplayer_8qc.html#af83637108621204488c5ae95da509066">XonoticMultiplayerDialog_fill</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me)</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> mc, e;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> mc, e;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    mc = <a class="code" href="../../dc/dcf/tabcontroller_8qc.html#a36ea716821d3a819ddd97f6fa21570e6">makeXonoticTabController</a>(me.rows - 1);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    me.TR(me);</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        me.TD(me, 1, 1, e = mc.makeTabButton_T(mc, _(<span class="stringliteral">&quot;Servers&quot;</span>), <a class="code" href="../../dd/d94/dialog__multiplayer__join_8qc.html#a23af548c6170f613544cf2ccd36bbdc4">makeXonoticServerListTab</a>(),</div>
@@ -128,7 +129,7 @@ $(document).ready(function(){initNavTree('d1/d9f/dialog__multiplayer_8qc_source.
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        me.TD(me, me.rows - 1, me.columns, mc);</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;}</div>
 <div class="ttc" id="dialog__multiplayer__profile_8qc_html_a7e2e23bde25532ff986ec09897f32f0a"><div class="ttname"><a href="../../d2/dd3/dialog__multiplayer__profile_8qc.html#a7e2e23bde25532ff986ec09897f32f0a">makeXonoticProfileTab</a></div><div class="ttdeci">entity makeXonoticProfileTab()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dd3/dialog__multiplayer__profile_8qc_source.html#l00015">dialog_multiplayer_profile.qc:15</a></div></div>
-<div class="ttc" id="item_2dialog_8qh_html_a700a54058a31b6d69e1c4d8f544a6c48"><div class="ttname"><a href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a></div><div class="ttdeci">entity me</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d88/item_2dialog_8qh_source.html#l00072">dialog.qh:72</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="dialog__multiplayer__join_8qc_html_a23af548c6170f613544cf2ccd36bbdc4"><div class="ttname"><a href="../../dd/d94/dialog__multiplayer__join_8qc.html#a23af548c6170f613544cf2ccd36bbdc4">makeXonoticServerListTab</a></div><div class="ttdeci">entity makeXonoticServerListTab()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d94/dialog__multiplayer__join_8qc_source.html#l00010">dialog_multiplayer_join.qc:10</a></div></div>
 <div class="ttc" id="tabcontroller_8qh_html"><div class="ttname"><a href="../../d0/d81/tabcontroller_8qh.html">tabcontroller.qh</a></div></div>
 <div class="ttc" id="dialog__multiplayer__profile_8qh_html"><div class="ttname"><a href="../../d8/d95/dialog__multiplayer__profile_8qh.html">dialog_multiplayer_profile.qh</a></div></div>
@@ -140,14 +141,13 @@ $(document).ready(function(){initNavTree('d1/d9f/dialog__multiplayer_8qc_source.
 <div class="ttc" id="dialog__multiplayer__join_8qh_html"><div class="ttname"><a href="../../d7/d42/dialog__multiplayer__join_8qh.html">dialog_multiplayer_join.qh</a></div></div>
 <div class="ttc" id="dialog__multiplayer__create_8qh_html"><div class="ttname"><a href="../../db/d46/dialog__multiplayer__create_8qh.html">dialog_multiplayer_create.qh</a></div></div>
 <div class="ttc" id="tabcontroller_8qc_html_a36ea716821d3a819ddd97f6fa21570e6"><div class="ttname"><a href="../../dc/dcf/tabcontroller_8qc.html#a36ea716821d3a819ddd97f6fa21570e6">makeXonoticTabController</a></div><div class="ttdeci">entity makeXonoticTabController(float theRows)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dcf/tabcontroller_8qc_source.html#l00005">tabcontroller.qc:5</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d1/d9f/dialog__multiplayer_8qc.html">dialog_multiplayer.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:32 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

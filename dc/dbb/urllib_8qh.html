@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('dc/dbb/urllib_8qh.html','../../');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -102,6 +103,7 @@ $(document).ready(function(){initNavTree('dc/dbb/urllib_8qh.html','../../');});
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -126,49 +128,52 @@ Macros</h2></td></tr>
 <tr class="memitem:abf84ff552af3dfefffcddd52dd89a647"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#abf84ff552af3dfefffcddd52dd89a647">NUM_URL_ID</a>&#160;&#160;&#160;(<a class="el" href="../../dc/dbb/urllib_8qh.html#aae48597cfd867ac4b2ca9e59b6003d24">URI_GET_URLLIB_END</a> - <a class="el" href="../../dc/dbb/urllib_8qh.html#ac31a5a59fe3a1cceaf0dbc4c061ee4a6">URI_GET_URLLIB</a> + 1)</td></tr>
 <tr class="separator:abf84ff552af3dfefffcddd52dd89a647"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a190e84debe84ccb78597ca4caf0c22e5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a190e84debe84ccb78597ca4caf0c22e5">url_ready_func</a> = <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> handle, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> <a class="el" href="../../d7/d16/effectinfo__ctf_8inc.html#ad4a5e22b886d6feb257b3d59f68db574">pass</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> status)</td></tr>
+<tr class="separator:a190e84debe84ccb78597ca4caf0c22e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5ca43b5d2f1f195c33d4ed862c037dc1"><td class="memItemLeft" align="right" valign="top">typedef&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a5ca43b5d2f1f195c33d4ed862c037dc1">void</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> handle, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> <a class="el" href="../../d7/d16/effectinfo__ctf_8inc.html#ad4a5e22b886d6feb257b3d59f68db574">pass</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> status) url_ready_func</td></tr>
-<tr class="separator:a5ca43b5d2f1f195c33d4ed862c037dc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f054ef004dbb980e7df00fd0f54673e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a3f054ef004dbb980e7df00fd0f54673e">url_single_fopen</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> url, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> mode, url_ready_func rdy, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> <a class="el" href="../../d7/d16/effectinfo__ctf_8inc.html#ad4a5e22b886d6feb257b3d59f68db574">pass</a>)</td></tr>
-<tr class="separator:a3f054ef004dbb980e7df00fd0f54673e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab062e9d27a0765ef339e418fed302413"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#ab062e9d27a0765ef339e418fed302413">url_fclose</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> e)</td></tr>
 <tr class="separator:ab062e9d27a0765ef339e418fed302413"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6874e918daa5d41240e63aa77536483f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a6874e918daa5d41240e63aa77536483f">url_fgets</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> e)</td></tr>
 <tr class="separator:a6874e918daa5d41240e63aa77536483f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6419075e93159f94633814942bfb04be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a6419075e93159f94633814942bfb04be">url_fputs</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> e, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>)</td></tr>
+<tr class="memitem:a6419075e93159f94633814942bfb04be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a6419075e93159f94633814942bfb04be">url_fputs</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> e, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> s)</td></tr>
 <tr class="separator:a6419075e93159f94633814942bfb04be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14414a82016a6f9866c913f54c1ba7f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a14414a82016a6f9866c913f54c1ba7f8">url_URI_Get_Callback</a> (<a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> id, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> status, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> <a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a8a672df12bf358a22e14bc370f55d8f1">data</a>)</td></tr>
-<tr class="separator:a14414a82016a6f9866c913f54c1ba7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a277801519f26c00640b1eb7be7d91dfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a277801519f26c00640b1eb7be7d91dfc">url_multi_fopen</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> url, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> mode, url_ready_func rdy, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> <a class="el" href="../../d7/d16/effectinfo__ctf_8inc.html#ad4a5e22b886d6feb257b3d59f68db574">pass</a>)</td></tr>
+<tr class="memitem:a277801519f26c00640b1eb7be7d91dfc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a277801519f26c00640b1eb7be7d91dfc">url_multi_fopen</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> url, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> mode, <a class="el" href="../../dc/dbb/urllib_8qh.html#a190e84debe84ccb78597ca4caf0c22e5">url_ready_func</a> rdy, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> <a class="el" href="../../d7/d16/effectinfo__ctf_8inc.html#ad4a5e22b886d6feb257b3d59f68db574">pass</a>)</td></tr>
 <tr class="separator:a277801519f26c00640b1eb7be7d91dfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f054ef004dbb980e7df00fd0f54673e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a3f054ef004dbb980e7df00fd0f54673e">url_single_fopen</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> url, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> mode, <a class="el" href="../../dc/dbb/urllib_8qh.html#a190e84debe84ccb78597ca4caf0c22e5">url_ready_func</a> rdy, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> <a class="el" href="../../d7/d16/effectinfo__ctf_8inc.html#ad4a5e22b886d6feb257b3d59f68db574">pass</a>)</td></tr>
+<tr class="separator:a3f054ef004dbb980e7df00fd0f54673e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14414a82016a6f9866c913f54c1ba7f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a14414a82016a6f9866c913f54c1ba7f8">url_URI_Get_Callback</a> (<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> id, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> status, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> data)</td></tr>
+<tr class="separator:a14414a82016a6f9866c913f54c1ba7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a8e7e7802b603e5eaf63d8e549110b16b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a8e7e7802b603e5eaf63d8e549110b16b">URI_GET_DISCARD</a> = 0</td></tr>
-<tr class="separator:a8e7e7802b603e5eaf63d8e549110b16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2fe58031614b5df4f3d0f58a8c9768d7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a2fe58031614b5df4f3d0f58a8c9768d7">URI_GET_IPBAN</a> = 1</td></tr>
-<tr class="separator:a2fe58031614b5df4f3d0f58a8c9768d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a360902d644001b25f287fc63fb2c0146"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a360902d644001b25f287fc63fb2c0146">URI_GET_IPBAN_END</a> = 16</td></tr>
-<tr class="separator:a360902d644001b25f287fc63fb2c0146"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3761f7fe7b992fa3a4cb0b007bbd9a72"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a3761f7fe7b992fa3a4cb0b007bbd9a72">URI_GET_CURL</a> = 17</td></tr>
+<tr class="memitem:a3761f7fe7b992fa3a4cb0b007bbd9a72"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a3761f7fe7b992fa3a4cb0b007bbd9a72">URI_GET_CURL</a> = 17</td></tr>
 <tr class="separator:a3761f7fe7b992fa3a4cb0b007bbd9a72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3512aa8abd0d98e119654b5530cb429"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#ac3512aa8abd0d98e119654b5530cb429">URI_GET_CURL_END</a> = 32</td></tr>
+<tr class="memitem:ac3512aa8abd0d98e119654b5530cb429"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#ac3512aa8abd0d98e119654b5530cb429">URI_GET_CURL_END</a> = 32</td></tr>
 <tr class="separator:ac3512aa8abd0d98e119654b5530cb429"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0a5834d428a6a583250ae3a20174e63"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#ad0a5834d428a6a583250ae3a20174e63">URI_GET_UPDATENOTIFICATION</a> = 33</td></tr>
+<tr class="memitem:a8e7e7802b603e5eaf63d8e549110b16b"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a8e7e7802b603e5eaf63d8e549110b16b">URI_GET_DISCARD</a> = 0</td></tr>
+<tr class="separator:a8e7e7802b603e5eaf63d8e549110b16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe58031614b5df4f3d0f58a8c9768d7"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a2fe58031614b5df4f3d0f58a8c9768d7">URI_GET_IPBAN</a> = 1</td></tr>
+<tr class="separator:a2fe58031614b5df4f3d0f58a8c9768d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a360902d644001b25f287fc63fb2c0146"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a360902d644001b25f287fc63fb2c0146">URI_GET_IPBAN_END</a> = 16</td></tr>
+<tr class="separator:a360902d644001b25f287fc63fb2c0146"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0a5834d428a6a583250ae3a20174e63"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#ad0a5834d428a6a583250ae3a20174e63">URI_GET_UPDATENOTIFICATION</a> = 33</td></tr>
 <tr class="separator:ad0a5834d428a6a583250ae3a20174e63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac31a5a59fe3a1cceaf0dbc4c061ee4a6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#ac31a5a59fe3a1cceaf0dbc4c061ee4a6">URI_GET_URLLIB</a> = 128</td></tr>
+<tr class="memitem:ac31a5a59fe3a1cceaf0dbc4c061ee4a6"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#ac31a5a59fe3a1cceaf0dbc4c061ee4a6">URI_GET_URLLIB</a> = 128</td></tr>
 <tr class="separator:ac31a5a59fe3a1cceaf0dbc4c061ee4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae48597cfd867ac4b2ca9e59b6003d24"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#aae48597cfd867ac4b2ca9e59b6003d24">URI_GET_URLLIB_END</a> = 191</td></tr>
+<tr class="memitem:aae48597cfd867ac4b2ca9e59b6003d24"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#aae48597cfd867ac4b2ca9e59b6003d24">URI_GET_URLLIB_END</a> = 191</td></tr>
 <tr class="separator:aae48597cfd867ac4b2ca9e59b6003d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f840964a82fd8cdddec8a862401307c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a> = -1</td></tr>
-<tr class="separator:a3f840964a82fd8cdddec8a862401307c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e851246184b444cb1e51e321d78382c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a3e851246184b444cb1e51e321d78382c">URL_READY_CLOSED</a> = 0</td></tr>
-<tr class="separator:a3e851246184b444cb1e51e321d78382c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af602e253bfc56fa7bdb973e558c606e8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#af602e253bfc56fa7bdb973e558c606e8">URL_READY_CANWRITE</a> = 1</td></tr>
-<tr class="separator:af602e253bfc56fa7bdb973e558c606e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabc21837e2a1c5a86141a7ef4ec52599"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#aabc21837e2a1c5a86141a7ef4ec52599">URL_READY_CANREAD</a> = 2</td></tr>
 <tr class="separator:aabc21837e2a1c5a86141a7ef4ec52599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af602e253bfc56fa7bdb973e558c606e8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#af602e253bfc56fa7bdb973e558c606e8">URL_READY_CANWRITE</a> = 1</td></tr>
+<tr class="separator:af602e253bfc56fa7bdb973e558c606e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e851246184b444cb1e51e321d78382c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a3e851246184b444cb1e51e321d78382c">URL_READY_CLOSED</a> = 0</td></tr>
+<tr class="separator:a3e851246184b444cb1e51e321d78382c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f840964a82fd8cdddec8a862401307c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a> = -1</td></tr>
+<tr class="separator:a3f840964a82fd8cdddec8a862401307c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a9bcb43892d78bc065d0e237c9c2a27d6"></a>
@@ -203,6 +208,21 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a190e84debe84ccb78597ca4caf0c22e5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="../../dc/dbb/urllib_8qh.html#a190e84debe84ccb78597ca4caf0c22e5">url_ready_func</a> =  <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> handle, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> <a class="el" href="../../d7/d16/effectinfo__ctf_8inc.html#ad4a5e22b886d6feb257b3d59f68db574">pass</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> status)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00018">18</a> of file <a class="el" href="../../dc/dbb/urllib_8qh_source.html">urllib.qh</a>.</p>
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ab062e9d27a0765ef339e418fed302413"></a>
 <div class="memitem">
@@ -220,7 +240,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00200">200</a> of file <a class="el" href="../../d6/d38/urllib_8qc_source.html">urllib.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00023">autocvar__urllib_nextslot</a>, <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00006">cvar_set</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO()</a>, <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00027">MIN_URL_ID</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">NULL</a>, <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00028">NUM_URL_ID</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00005">URL_FH_CURL</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00006">URL_FH_STDOUT</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00022">url_fromid</a>, <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00014">URL_READY_CLOSED</a>, and <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00013">URL_READY_ERROR</a>.</p>
+<p>References <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00023">autocvar__urllib_nextslot</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00058">LOG_INFO</a>, <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00027">MIN_URL_ID</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">NULL</a>, <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00028">NUM_URL_ID</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00005">URL_FH_CURL</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00006">URL_FH_STDOUT</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00022">url_fromid</a>, <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00014">URL_READY_CLOSED</a>, and <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00013">URL_READY_ERROR</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d57/weaponstats_8qc_source.html#l00012">WeaponStats_ready()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;{</div>
@@ -246,7 +266,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d38/urllib_8qc.html#a544fc8795b3e208634bf28e78d47b94e">url_fromid</a>[i] == <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>) <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                <span class="keywordflow">if</span> (i &gt;= autocvar__urllib_nextslot)</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                {</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                    <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(<span class="stringliteral">&quot;url_fclose: too many concurrent requests\n&quot;</span>);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;url_fclose: too many concurrent requests\n&quot;</span>);</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                    e.url_ready(e, e.url_ready_pass, <a class="code" href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a>);</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                    buf_del(e.url_wbuf);</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                    <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(e.url_url);</div>
@@ -258,7 +278,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="comment">// POST the data</span></div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            <span class="keywordflow">if</span> (!crypto_uri_postbuf(e.url_url, i + <a class="code" href="../../dc/dbb/urllib_8qh.html#a9bcb43892d78bc065d0e237c9c2a27d6">MIN_URL_ID</a>, <span class="stringliteral">&quot;text/plain&quot;</span>, <span class="stringliteral">&quot;&quot;</span>, e.url_wbuf, 0))</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            {</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(<span class="stringliteral">&quot;url_fclose: failure in crypto_uri_postbuf\n&quot;</span>);</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;url_fclose: failure in crypto_uri_postbuf\n&quot;</span>);</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                e.url_ready(e, e.url_ready_pass, <a class="code" href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a>);</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                buf_del(e.url_wbuf);</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(e.url_url);</div>
@@ -275,7 +295,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            <a class="code" href="../../d6/d38/urllib_8qc.html#a544fc8795b3e208634bf28e78d47b94e">url_fromid</a>[i] = e;</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            <span class="comment">// make sure this slot won&#39;t be reused quickly even on map change</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <a class="code" href="../../dd/d8b/sys-pre_8qh.html#a459d9115670835f15ccafd805f8dba17">cvar_set</a>(<span class="stringliteral">&quot;_urllib_nextslot&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>((i + 1) % NUM_URL_ID));</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;_urllib_nextslot&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>((i + 1) % NUM_URL_ID));</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        }</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        {</div>
@@ -302,7 +322,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="urllib_8qh_html_a3e851246184b444cb1e51e321d78382c"><div class="ttname"><a href="../../dc/dbb/urllib_8qh.html#a3e851246184b444cb1e51e321d78382c">URL_READY_CLOSED</a></div><div class="ttdeci">const float URL_READY_CLOSED</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbb/urllib_8qh_source.html#l00014">urllib.qh:14</a></div></div>
 <div class="ttc" id="urllib_8qh_html_abf84ff552af3dfefffcddd52dd89a647"><div class="ttname"><a href="../../dc/dbb/urllib_8qh.html#abf84ff552af3dfefffcddd52dd89a647">NUM_URL_ID</a></div><div class="ttdeci">#define NUM_URL_ID</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbb/urllib_8qh_source.html#l00028">urllib.qh:28</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
-<div class="ttc" id="sys-pre_8qh_html_a459d9115670835f15ccafd805f8dba17"><div class="ttname"><a href="../../dd/d8b/sys-pre_8qh.html#a459d9115670835f15ccafd805f8dba17">cvar_set</a></div><div class="ttdeci">#define cvar_set</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/sys-pre_8qh_source.html#l00006">sys-pre.qh:6</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a56b53595c8aa15ca107c03896db91fd2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a></div><div class="ttdeci">void error(string err,...)</div></div>
 <div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00010">oo.qh:10</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
@@ -311,16 +330,17 @@ Variables</h2></td></tr>
 <div class="ttc" id="urllib_8qc_html_a544fc8795b3e208634bf28e78d47b94e"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#a544fc8795b3e208634bf28e78d47b94e">url_fromid</a></div><div class="ttdeci">entity url_fromid[NUM_URL_ID]</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00022">urllib.qc:22</a></div></div>
 <div class="ttc" id="urllib_8qc_html_a3374a360b77806008f1a00d0b9061d62"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#a3374a360b77806008f1a00d0b9061d62">autocvar__urllib_nextslot</a></div><div class="ttdeci">int autocvar__urllib_nextslot</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00023">urllib.qc:23</a></div></div>
 <div class="ttc" id="urllib_8qc_html_a37406403c1c7fcc32fe851a30dd25cf8"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#a37406403c1c7fcc32fe851a30dd25cf8">URL_FH_CURL</a></div><div class="ttdeci">const float URL_FH_CURL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00005">urllib.qc:5</a></div></div>
-<div class="ttc" id="common_2items_2item_8qh_html_ae302aa82565a3721ffb781350f49b7af"><div class="ttname"><a href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a></div><div class="ttdeci">LOG_INFO(&quot;A game item\n&quot;)</div></div>
+<div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
 <div class="ttc" id="urllib_8qh_html_a3f840964a82fd8cdddec8a862401307c"><div class="ttname"><a href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a></div><div class="ttdeci">const float URL_READY_ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbb/urllib_8qh_source.html#l00013">urllib.qh:13</a></div></div>
 <div class="ttc" id="urllib_8qc_html_a6faa24569c71d55d6e8a7c6ad70b1b65"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#a6faa24569c71d55d6e8a7c6ad70b1b65">URL_FH_STDOUT</a></div><div class="ttdeci">const float URL_FH_STDOUT</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00006">urllib.qc:6</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dbb/urllib_8qh_ab062e9d27a0765ef339e418fed302413_cgraph.svg" width="227" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dbb/urllib_8qh_ab062e9d27a0765ef339e418fed302413_cgraph.svg" width="219" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -353,7 +373,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00279">279</a> of file <a class="el" href="../../d6/d38/urllib_8qc_source.html">urllib.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets()</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00203">s</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00005">URL_FH_CURL</a>, and <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00006">URL_FH_STDOUT</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00005">URL_FH_CURL</a>, and <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00006">URL_FH_STDOUT</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d57/weaponstats_8qc_source.html#l00012">WeaponStats_ready()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;{</div>
@@ -361,10 +381,10 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    {</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="keywordflow">if</span> (e.url_rbuf == -1) <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;url_fgets: not readable in current state&quot;</span>);</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <span class="comment">// curl</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keywordtype">string</span> s;</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        s = bufstr_get(e.url_rbuf, e.url_rbufpos);</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        e.url_rbufpos += 1;</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="keywordflow">return</span> s;</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    }</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (e.url_fh == <a class="code" href="../../d6/d38/urllib_8qc.html#a6faa24569c71d55d6e8a7c6ad70b1b65">URL_FH_STDOUT</a>)</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    {</div>
@@ -379,7 +399,6 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;}</div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a56b53595c8aa15ca107c03896db91fd2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a></div><div class="ttdeci">void error(string err,...)</div></div>
-<div class="ttc" id="effectinfo_8qc_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00203">effectinfo.qc:203</a></div></div>
 <div class="ttc" id="urllib_8qc_html_a37406403c1c7fcc32fe851a30dd25cf8"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#a37406403c1c7fcc32fe851a30dd25cf8">URL_FH_CURL</a></div><div class="ttdeci">const float URL_FH_CURL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00005">urllib.qc:5</a></div></div>
 <div class="ttc" id="urllib_8qc_html_a6faa24569c71d55d6e8a7c6ad70b1b65"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#a6faa24569c71d55d6e8a7c6ad70b1b65">URL_FH_STDOUT</a></div><div class="ttdeci">const float URL_FH_STDOUT</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00006">urllib.qc:6</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0e7ecefd4e3af6c242077b24445e5f78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78">fgets</a></div><div class="ttdeci">string fgets(float fhandle)</div></div>
@@ -432,7 +451,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00303">303</a> of file <a class="el" href="../../d6/d38/urllib_8qc_source.html">urllib.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs()</a>, <a class="el" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO()</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00005">URL_FH_CURL</a>, and <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00006">URL_FH_STDOUT</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00058">LOG_INFO</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00005">URL_FH_CURL</a>, and <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00006">URL_FH_STDOUT</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d57/weaponstats_8qc_source.html#l00012">WeaponStats_ready()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;{</div>
@@ -440,25 +459,24 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    {</div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <span class="keywordflow">if</span> (e.url_wbuf == -1) <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;url_fputs: not writable in current state&quot;</span>);</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        <span class="comment">// curl</span></div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        bufstr_set(e.url_wbuf, e.url_wbufpos, <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>);</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        bufstr_set(e.url_wbuf, e.url_wbufpos, s);</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        e.url_wbufpos += 1;</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    }</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (e.url_fh == <a class="code" href="../../d6/d38/urllib_8qc.html#a6faa24569c71d55d6e8a7c6ad70b1b65">URL_FH_STDOUT</a>)</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    {</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        <span class="comment">// stdout</span></div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>);</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(s);</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    }</div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    {</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <span class="comment">// file</span></div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a>(e.url_fh, <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>);</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a>(e.url_fh, s);</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    }</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a56b53595c8aa15ca107c03896db91fd2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a></div><div class="ttdeci">void error(string err,...)</div></div>
-<div class="ttc" id="effectinfo_8qc_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00203">effectinfo.qc:203</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a33a318a59e2648521862f24200a821df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a></div><div class="ttdeci">void fputs(float fhandle, string s)</div></div>
 <div class="ttc" id="urllib_8qc_html_a37406403c1c7fcc32fe851a30dd25cf8"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#a37406403c1c7fcc32fe851a30dd25cf8">URL_FH_CURL</a></div><div class="ttdeci">const float URL_FH_CURL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00005">urllib.qc:5</a></div></div>
-<div class="ttc" id="common_2items_2item_8qh_html_ae302aa82565a3721ffb781350f49b7af"><div class="ttname"><a href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a></div><div class="ttdeci">LOG_INFO(&quot;A game item\n&quot;)</div></div>
+<div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
 <div class="ttc" id="urllib_8qc_html_a6faa24569c71d55d6e8a7c6ad70b1b65"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#a6faa24569c71d55d6e8a7c6ad70b1b65">URL_FH_STDOUT</a></div><div class="ttdeci">const float URL_FH_STDOUT</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00006">urllib.qc:6</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -466,7 +484,7 @@ Variables</h2></td></tr>
 <div id="dynsection-5-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dbb/urllib_8qh_a6419075e93159f94633814942bfb04be_cgraph.svg" width="219" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dbb/urllib_8qh_a6419075e93159f94633814942bfb04be_cgraph.svg" width="182" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -502,7 +520,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">url_ready_func&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dc/dbb/urllib_8qh.html#a190e84debe84ccb78597ca4caf0c22e5">url_ready_func</a>&#160;</td>
           <td class="paramname"><em>rdy</em>, </td>
         </tr>
         <tr>
@@ -540,7 +558,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">url_ready_func&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dc/dbb/urllib_8qh.html#a190e84debe84ccb78597ca4caf0c22e5">url_ready_func</a>&#160;</td>
           <td class="paramname"><em>rdy</em>, </td>
         </tr>
         <tr>
@@ -566,7 +584,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> url_URI_Get_Callback </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
           <td class="paramname"><em>id</em>, </td>
         </tr>
         <tr>
@@ -591,19 +609,19 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00025">25</a> of file <a class="el" href="../../d6/d38/urllib_8qc_source.html">urllib.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00064">buf_create</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO()</a>, <a class="el" href="../../de/dda/pickup_8qh.html#adb402f6267948b6e377ccd990d3f1a5d">LOG_INFOF()</a>, <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00027">MIN_URL_ID</a>, <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00032">n</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">NULL</a>, <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00028">NUM_URL_ID</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00022">tokenizebyseparator</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00005">URL_FH_CURL</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00022">url_fromid</a>, <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00016">URL_READY_CANREAD</a>, and <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00013">URL_READY_ERROR</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00064">buf_create</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00058">LOG_INFO</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00059">LOG_INFOF</a>, <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00027">MIN_URL_ID</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">NULL</a>, <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00028">NUM_URL_ID</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00022">tokenizebyseparator</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00005">URL_FH_CURL</a>, <a class="el" href="../../d6/d38/urllib_8qc_source.html#l00022">url_fromid</a>, <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00016">URL_READY_CANREAD</a>, and <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00013">URL_READY_ERROR</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00488">URI_Get_Callback()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">if</span> (<span class="keywordtype">id</span> &lt; <a class="code" href="../../dc/dbb/urllib_8qh.html#a9bcb43892d78bc065d0e237c9c2a27d6">MIN_URL_ID</a>) <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">id</span> -= <a class="code" href="../../dc/dbb/urllib_8qh.html#a9bcb43892d78bc065d0e237c9c2a27d6">MIN_URL_ID</a>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordflow">if</span> (<span class="keywordtype">id</span> &gt;= <a class="code" href="../../dc/dbb/urllib_8qh.html#abf84ff552af3dfefffcddd52dd89a647">NUM_URL_ID</a>) <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    e = <a class="code" href="../../d6/d38/urllib_8qc.html#a544fc8795b3e208634bf28e78d47b94e">url_fromid</a>[id];</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">if</span> (!e) <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">if</span> (e.url_rbuf &gt;= 0 || e.url_wbuf &gt;= 0)</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../de/dda/pickup_8qh.html#adb402f6267948b6e377ccd990d3f1a5d">LOG_INFOF</a>(<span class="stringliteral">&quot;WARNING: handle %d (%s) has already received data?!?\n&quot;</span>, <span class="keywordtype">id</span> + <a class="code" href="../../dc/dbb/urllib_8qh.html#abf84ff552af3dfefffcddd52dd89a647">NUM_URL_ID</a>, e.url_url);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;WARNING: handle %d (%s) has already received data?!?\n&quot;</span>, <span class="keywordtype">id</span> + <a class="code" href="../../dc/dbb/urllib_8qh.html#abf84ff552af3dfefffcddd52dd89a647">NUM_URL_ID</a>, e.url_url);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    }</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
@@ -616,12 +634,12 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">if</span> (status == 0)</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    {</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="comment">// WE GOT DATA!</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>, i;</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        n = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a758e7e078dd3038c82e255ff8927975c">tokenizebyseparator</a>(<a class="code" href="../../de/d48/dialog__settings__game_8qc.html#a8a672df12bf358a22e14bc370f55d8f1">data</a>, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keywordtype">float</span> n, i;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        n = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a758e7e078dd3038c82e255ff8927975c">tokenizebyseparator</a>(data, <span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        e.url_rbuf = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c">buf_create</a>();</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span> (e.url_rbuf &lt; 0)</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        {</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(<span class="stringliteral">&quot;url_URI_Get_Callback: out of memory in buf_create\n&quot;</span>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;url_URI_Get_Callback: out of memory in buf_create\n&quot;</span>);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            e.url_ready(e, e.url_ready_pass, <a class="code" href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a>);</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(e.url_url);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            <span class="keyword">remove</span>(e);</div>
@@ -630,13 +648,13 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        e.url_rbufpos = 0;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">if</span> (e.url_rbuf &lt; 0)</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(<span class="stringliteral">&quot;url_URI_Get_Callback: out of memory in buf_create\n&quot;</span>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;url_URI_Get_Callback: out of memory in buf_create\n&quot;</span>);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            e.url_ready(e, e.url_ready_pass, <a class="code" href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a>);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(e.url_url);</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;            <span class="keyword">remove</span>(e);</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        }</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">for</span> (i = 0; i &lt; <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>; ++i)</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="keywordflow">for</span> (i = 0; i &lt; n; ++i)</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            bufstr_set(e.url_rbuf, i, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(i));</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        e.url_ready(e, e.url_ready_pass, <a class="code" href="../../dc/dbb/urllib_8qh.html#aabc21837e2a1c5a86141a7ef4ec52599">URL_READY_CANREAD</a>);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="keywordflow">return</span> 1;</div>
@@ -652,29 +670,27 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
 <div class="ttc" id="urllib_8qh_html_aabc21837e2a1c5a86141a7ef4ec52599"><div class="ttname"><a href="../../dc/dbb/urllib_8qh.html#aabc21837e2a1c5a86141a7ef4ec52599">URL_READY_CANREAD</a></div><div class="ttdeci">const float URL_READY_CANREAD</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbb/urllib_8qh_source.html#l00016">urllib.qh:16</a></div></div>
 <div class="ttc" id="urllib_8qh_html_abf84ff552af3dfefffcddd52dd89a647"><div class="ttname"><a href="../../dc/dbb/urllib_8qh.html#abf84ff552af3dfefffcddd52dd89a647">NUM_URL_ID</a></div><div class="ttdeci">#define NUM_URL_ID</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbb/urllib_8qh_source.html#l00028">urllib.qh:28</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="menudefs_8qc_html_a56b53595c8aa15ca107c03896db91fd2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a></div><div class="ttdeci">void error(string err,...)</div></div>
 <div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00010">oo.qh:10</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
 <div class="ttc" id="urllib_8qh_html_a9bcb43892d78bc065d0e237c9c2a27d6"><div class="ttname"><a href="../../dc/dbb/urllib_8qh.html#a9bcb43892d78bc065d0e237c9c2a27d6">MIN_URL_ID</a></div><div class="ttdeci">#define MIN_URL_ID</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbb/urllib_8qh_source.html#l00027">urllib.qh:27</a></div></div>
 <div class="ttc" id="dpextensions_8qh_html_a9b88d1543a84de9785952d34dedb754c"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c">buf_create</a></div><div class="ttdeci">#define buf_create</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00064">dpextensions.qh:64</a></div></div>
 <div class="ttc" id="urllib_8qc_html_a544fc8795b3e208634bf28e78d47b94e"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#a544fc8795b3e208634bf28e78d47b94e">url_fromid</a></div><div class="ttdeci">entity url_fromid[NUM_URL_ID]</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00022">urllib.qc:22</a></div></div>
+<div class="ttc" id="log_8qh_html_ab709d1a9c4f30481019dd95e67a4f9f5"><div class="ttname"><a href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a></div><div class="ttdeci">#define LOG_INFOF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00059">log.qh:59</a></div></div>
 <div class="ttc" id="urllib_8qc_html_a37406403c1c7fcc32fe851a30dd25cf8"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#a37406403c1c7fcc32fe851a30dd25cf8">URL_FH_CURL</a></div><div class="ttdeci">const float URL_FH_CURL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00005">urllib.qc:5</a></div></div>
-<div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
+<div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
-<div class="ttc" id="common_2items_2item_8qh_html_ae302aa82565a3721ffb781350f49b7af"><div class="ttname"><a href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a></div><div class="ttdeci">LOG_INFO(&quot;A game item\n&quot;)</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a758e7e078dd3038c82e255ff8927975c"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a758e7e078dd3038c82e255ff8927975c">tokenizebyseparator</a></div><div class="ttdeci">#define tokenizebyseparator</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00022">dpextensions.qh:22</a></div></div>
 <div class="ttc" id="urllib_8qh_html_a3f840964a82fd8cdddec8a862401307c"><div class="ttname"><a href="../../dc/dbb/urllib_8qh.html#a3f840964a82fd8cdddec8a862401307c">URL_READY_ERROR</a></div><div class="ttdeci">const float URL_READY_ERROR</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbb/urllib_8qh_source.html#l00013">urllib.qh:13</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_accccfae161879454243b3a8695a9bf3b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a></div><div class="ttdeci">float fabs(float f)</div></div>
-<div class="ttc" id="pickup_8qh_html_adb402f6267948b6e377ccd990d3f1a5d"><div class="ttname"><a href="../../de/dda/pickup_8qh.html#adb402f6267948b6e377ccd990d3f1a5d">LOG_INFOF</a></div><div class="ttdeci">LOG_INFOF(&quot;%s: %s\n&quot;, etos(this), this.m_name)</div></div>
-<div class="ttc" id="dialog__settings__game_8qc_html_a8a672df12bf358a22e14bc370f55d8f1"><div class="ttname"><a href="../../de/d48/dialog__settings__game_8qc.html#a8a672df12bf358a22e14bc370f55d8f1">data</a></div><div class="ttdeci">DataSource data</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d48/dialog__settings__game_8qc_source.html#l00099">dialog_settings_game.qc:99</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-7-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dbb/urllib_8qh_a14414a82016a6f9866c913f54c1ba7f8_cgraph.svg" width="310" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/dbb/urllib_8qh_a14414a82016a6f9866c913f54c1ba7f8_cgraph.svg" width="294" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -691,45 +707,13 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5ca43b5d2f1f195c33d4ed862c037dc1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef void </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td>
-          <td class="paramname"><em>handle</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td>
-          <td class="paramname"><em>pass</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
-          <td class="paramname"><em>status</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a3761f7fe7b992fa3a4cb0b007bbd9a72"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> URI_GET_CURL = 17</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> URI_GET_CURL = 17</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -745,7 +729,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> URI_GET_CURL_END = 32</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> URI_GET_CURL_END = 32</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -761,7 +745,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> URI_GET_DISCARD = 0</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> URI_GET_DISCARD = 0</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -777,7 +761,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> URI_GET_IPBAN = 1</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> URI_GET_IPBAN = 1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -793,7 +777,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> URI_GET_IPBAN_END = 16</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> URI_GET_IPBAN_END = 16</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -809,7 +793,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> URI_GET_UPDATENOTIFICATION = 33</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> URI_GET_UPDATENOTIFICATION = 33</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -825,7 +809,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> URI_GET_URLLIB = 128</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> URI_GET_URLLIB = 128</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -839,7 +823,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> URI_GET_URLLIB_END = 191</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> URI_GET_URLLIB_END = 191</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -918,7 +902,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dc/dbb/urllib_8qh.html">urllib.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:39 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:35 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

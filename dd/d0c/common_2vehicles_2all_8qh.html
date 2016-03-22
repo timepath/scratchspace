@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('dd/d0c/common_2vehicles_2all_8qh.html'
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -131,24 +132,24 @@ $(document).ready(function(){initNavTree('dd/d0c/common_2vehicles_2all_8qh.html'
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a5ef00da087d222982ad759b7d833bf2a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0c/common_2vehicles_2all_8qh.html#a5ef00da087d222982ad759b7d833bf2a">REGISTER_VEHICLE</a>(id, inst)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(Vehicles, VEH, id, vehicleid, inst)</td></tr>
+<tr class="memdesc:a5ef00da087d222982ad759b7d833bf2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If you register a new vehicle, make sure to add it to all.inc.  <a href="#a5ef00da087d222982ad759b7d833bf2a">More...</a><br/></td></tr>
+<tr class="separator:a5ef00da087d222982ad759b7d833bf2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba69863fdadd40453198f72acc1ef4ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0c/common_2vehicles_2all_8qh.html#aba69863fdadd40453198f72acc1ef4ca">VEH_LAST</a>&#160;&#160;&#160;(Vehicles_COUNT - 1)</td></tr>
+<tr class="separator:aba69863fdadd40453198f72acc1ef4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97a8840fb367bc87d96aad765117bc38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0c/common_2vehicles_2all_8qh.html#a97a8840fb367bc87d96aad765117bc38">VEHICLES_ALL_H</a></td></tr>
 <tr class="separator:a97a8840fb367bc87d96aad765117bc38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f88c632289b79fbf9690fbdbbf780a4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0c/common_2vehicles_2all_8qh.html#a0f88c632289b79fbf9690fbdbbf780a4">Vehicles_from</a>(i)&#160;&#160;&#160;_Vehicles_from(i, VEH_Null)</td></tr>
 <tr class="separator:a0f88c632289b79fbf9690fbdbbf780a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba69863fdadd40453198f72acc1ef4ca"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0c/common_2vehicles_2all_8qh.html#aba69863fdadd40453198f72acc1ef4ca">VEH_LAST</a>&#160;&#160;&#160;(Vehicles_COUNT - 1)</td></tr>
-<tr class="separator:aba69863fdadd40453198f72acc1ef4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ef00da087d222982ad759b7d833bf2a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0c/common_2vehicles_2all_8qh.html#a5ef00da087d222982ad759b7d833bf2a">REGISTER_VEHICLE</a>(id, inst)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(Vehicles, VEH, id, vehicleid, inst)</td></tr>
-<tr class="memdesc:a5ef00da087d222982ad759b7d833bf2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If you register a new vehicle, make sure to add it to all.inc.  <a href="#a5ef00da087d222982ad759b7d833bf2a">More...</a><br/></td></tr>
-<tr class="separator:a5ef00da087d222982ad759b7d833bf2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad7b767b681081740ab1ad4b2e2cb613c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0c/common_2vehicles_2all_8qh.html#ad7b767b681081740ab1ad4b2e2cb613c">REGISTER_VEHICLE</a> (Null, <a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(Vehicle))</td></tr>
+<tr class="memitem:ad7b767b681081740ab1ad4b2e2cb613c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0c/common_2vehicles_2all_8qh.html#ad7b767b681081740ab1ad4b2e2cb613c">REGISTER_VEHICLE</a> (Null, <a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="el" href="../../dc/d23/classVehicle.html">Vehicle</a>))</td></tr>
 <tr class="separator:ad7b767b681081740ab1ad4b2e2cb613c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a843f91db6cb5c1a06a4229c8458972fd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0c/common_2vehicles_2all_8qh.html#a843f91db6cb5c1a06a4229c8458972fd">VEH_FIRST</a> = 1</td></tr>
+<tr class="memitem:a843f91db6cb5c1a06a4229c8458972fd"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d0c/common_2vehicles_2all_8qh.html#a843f91db6cb5c1a06a4229c8458972fd">VEH_FIRST</a> = 1</td></tr>
 <tr class="separator:a843f91db6cb5c1a06a4229c8458972fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -244,7 +245,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(Vehicle)&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="el" href="../../dc/d23/classVehicle.html">Vehicle</a>)&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -263,7 +264,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> VEH_FIRST = 1</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> VEH_FIRST = 1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -278,7 +279,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_041ec6f984a6b19402431933346033dd.html">vehicles</a></li><li class="navelem"><a class="el" href="../../dd/d0c/common_2vehicles_2all_8qh.html">all.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:34 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:30 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

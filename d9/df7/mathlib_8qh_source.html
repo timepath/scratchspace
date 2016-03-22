@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d9/df7/mathlib_8qh_source.html','../..
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -154,7 +155,7 @@ $(document).ready(function(){initNavTree('d9/df7/mathlib_8qh_source.html','../..
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d9/df7/mathlib_8qh.html#a0752eeec8108324a4b1acfc7e9a3f789">logb</a>(<span class="keywordtype">float</span> x);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d9/df7/mathlib_8qh.html#ad5487db6adbf8e046a7dc5ea034ba501">modf</a>(<span class="keywordtype">float</span> f); <span class="comment">// fraction as _x, integer as _y</span></div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d9/df7/mathlib_8qh.html#a368fab4964efe1287d1cdc33ad339c6c">scalbn</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">int</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>);</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d9/df7/mathlib_8qh.html#a368fab4964efe1287d1cdc33ad339c6c">scalbn</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">int</span> n);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d9/df7/mathlib_8qh.html#aff6acc41085f312d8c5c8603cd7859c5">cbrt</a>(<span class="keywordtype">float</span> x);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="comment">//float fabs(float x);</span></div>
@@ -260,7 +261,6 @@ $(document).ready(function(){initNavTree('d9/df7/mathlib_8qh_source.html','../..
 <div class="ttc" id="mathlib_8qh_html_a8223697ad3d8f097dc729d1e854c8e77"><div class="ttname"><a href="../../d9/df7/mathlib_8qh.html#a8223697ad3d8f097dc729d1e854c8e77">fpclassify</a></div><div class="ttdeci">int fpclassify(float x)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00007">mathlib.qc:7</a></div></div>
 <div class="ttc" id="mathlib_8qh_html_a14be10f7b7ec483cda599042fe3339c5"><div class="ttname"><a href="../../d9/df7/mathlib_8qh.html#a14be10f7b7ec483cda599042fe3339c5">isinf</a></div><div class="ttdeci">bool isinf(float x)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00021">mathlib.qc:21</a></div></div>
 <div class="ttc" id="mathlib_8qh_html_a60f2072d8a746e7fe05cd46dea0fefcc"><div class="ttname"><a href="../../d9/df7/mathlib_8qh.html#a60f2072d8a746e7fe05cd46dea0fefcc">fmax</a></div><div class="ttdeci">float fmax(float x, float y)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00256">mathlib.qc:256</a></div></div>
-<div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
 <div class="ttc" id="mathlib_8qh_html_aff6acc41085f312d8c5c8603cd7859c5"><div class="ttname"><a href="../../d9/df7/mathlib_8qh.html#aff6acc41085f312d8c5c8603cd7859c5">cbrt</a></div><div class="ttdeci">float cbrt(float x)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00124">mathlib.qc:124</a></div></div>
 <div class="ttc" id="mathlib_8qh_html_ae017238bc7506557084dfdd59d4d69e7"><div class="ttname"><a href="../../d9/df7/mathlib_8qh.html#ae017238bc7506557084dfdd59d4d69e7">fdim</a></div><div class="ttdeci">float fdim(float x, float y)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00252">mathlib.qc:252</a></div></div>
 <div class="ttc" id="mathlib_8qh_html_afde1d7d92227ce384c236b80161e11c8"><div class="ttname"><a href="../../d9/df7/mathlib_8qh.html#afde1d7d92227ce384c236b80161e11c8">tanh</a></div><div class="ttdeci">float tanh(float x)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00060">mathlib.qc:60</a></div></div>
@@ -289,7 +289,7 @@ $(document).ready(function(){initNavTree('d9/df7/mathlib_8qh_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_58d953ef34ccfc4a49203206a34466c3.html">warpzone</a></li><li class="navelem"><a class="el" href="../../d9/df7/mathlib_8qh.html">mathlib.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:32 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

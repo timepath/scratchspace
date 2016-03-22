@@ -18,7 +18,7 @@ var navigation_8qh =
     [ "navigation_pushroute", "df/dd4/navigation_8qh.html#ac01256d836368157d941247266f21500", null ],
     [ "navigation_routerating", "df/dd4/navigation_8qh.html#a83f7ae2bad5d776cdf07b490eb5e2b5c", null ],
     [ "navigation_routetogoal", "df/dd4/navigation_8qh.html#a1396c70ada2a084f953954ffcc2df93a", null ],
-    [ "navigation_unstuck", "df/dd4/navigation_8qh.html#ac706998070e129e5ec81d8d9f9b31250", null ],
+    [ "navigation_unstuck", "df/dd4/navigation_8qh.html#a5366a30eadfa71d3b37653e469a20904", null ],
     [ "navigation_waypoint_will_link", "df/dd4/navigation_8qh.html#a01346f19dfbb847988ce4934e5c8f4c4", null ],
     [ "tracewalk", "df/dd4/navigation_8qh.html#ac04a7b9ea11337a93febd08c22ea7db7", null ],
     [ "blacklisted", "df/dd4/navigation_8qh.html#abb6daa71f72c8c9f713e934539950256", null ],

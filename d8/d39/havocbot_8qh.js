@@ -12,7 +12,7 @@ var havocbot_8qh =
     [ "havocbot_moveto_refresh_route", "d8/d39/havocbot_8qh.html#adeb49cf8f2443d24afe7f12f5e05cd98", null ],
     [ "havocbot_movetogoal", "d8/d39/havocbot_8qh.html#a2ffe0266a701ab73cc9cf497b75012e8", null ],
     [ "havocbot_resetgoal", "d8/d39/havocbot_8qh.html#a0d0be8094adea24042b95c19b346a99b", null ],
-    [ "havocbot_setupbot", "d8/d39/havocbot_8qh.html#a5ba0f97eb0d5ad68542d585381d00ae2", null ],
+    [ "havocbot_setupbot", "d8/d39/havocbot_8qh.html#afb882bcf6c4a44e801e4fb9eafbbf1f4", null ],
     [ "void", "d8/d39/havocbot_8qh.html#a690f4f2ff98ae79002ace779613969e8", null ],
     [ "void", "d8/d39/havocbot_8qh.html#a79dc7afc9a68c13ad892896c1d884046", null ],
     [ "bot_canruntogoal", "d8/d39/havocbot_8qh.html#a4bd3dc6fa096edc94481c4d71ab12232", null ],

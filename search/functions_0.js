@@ -7,6 +7,7 @@ var searchData=
   ['_5f_5fstatic_5finit',['__static_init',['../d4/d1a/static_8qh.html#a4a74736bb3c8c0a01f67f3c43a4bcd0b',1,'static.qh']]],
   ['_5f_5fstatic_5finit_5flate',['__static_init_late',['../d4/d1a/static_8qh.html#ae192c8b023b5d68f7f49e709acdbedb0',1,'static.qh']]],
   ['_5f_5fstatic_5finit_5fprecache',['__static_init_precache',['../d4/d1a/static_8qh.html#af1cd3009e103f8d029138e2d418a33f7',1,'static.qh']]],
+  ['_5fchangefocusxy',['_changeFocusXY',['../d8/da4/classInputContainer.html#ac648acd4d716ba6cd676f4e43345b85b',1,'InputContainer']]],
   ['_5fdumptree_5fclose',['_dumptree_close',['../d7/d47/menu__cmd_8qc.html#a92116f3fa83de58a5c8d2a736b7ed11a',1,'menu_cmd.qc']]],
   ['_5fdumptree_5fopen',['_dumptree_open',['../d7/d47/menu__cmd_8qc.html#ac475b9372dac09416fe834d14d6231c6',1,'menu_cmd.qc']]],
   ['_5fmapinfo_5fcheckmap',['_MapInfo_CheckMap',['../d3/d46/mapinfo_8qc.html#a0fe3d66c4b5dfc5f558e735ec8217b84',1,'mapinfo.qc']]],
@@ -43,7 +44,7 @@ var searchData=
   ['_5fmovetype_5funstickentity',['_Movetype_UnstickEntity',['../d2/db1/movetypes_8qc.html#ab024873d80d2f0654e96629b7b47fd6a',1,'_Movetype_UnstickEntity(entity this):&#160;movetypes.qc'],['../d4/dd7/movetypes_8qh.html#a251727549d9304470e0bc547573eabcf',1,'_Movetype_UnstickEntity(entity this):&#160;movetypes.qc']]],
   ['_5fmovetype_5fwallfriction',['_Movetype_WallFriction',['../d2/db1/movetypes_8qc.html#ad797154b1325fa6f3b8aa5d2224d77b5',1,'_Movetype_WallFriction(entity this, vector stepnormal):&#160;movetypes.qc'],['../d4/dd7/movetypes_8qh.html#ad797154b1325fa6f3b8aa5d2224d77b5',1,'_Movetype_WallFriction(entity this, vector stepnormal):&#160;movetypes.qc']]],
   ['_5fshufflewords_5fswapfunc',['_shufflewords_swapfunc',['../d2/db4/string_8qh.html#ad2c5b5ff8e9f43181265688791c6312e',1,'string.qh']]],
-  ['_5fsound_5ffixpath',['_Sound_fixpath',['../d0/df5/sound_8qh.html#ac9b429b7924cfc7d494968e1f72b2b4d',1,'sound.qh']]],
+  ['_5fsound_5ffixpath',['_Sound_fixpath',['../df/d49/classSound.html#ab00e99633c0c7e997a4745557395263a',1,'Sound']]],
   ['_5fspawn',['_spawn',['../db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4',1,'oo.qh']]],
   ['_5fwepset_5ffromweapon',['_WepSet_FromWeapon',['../de/dfa/common_2weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee',1,'_WepSet_FromWeapon(int a):&#160;all.qc'],['../de/d81/common_2weapons_2all_8qh.html#afa58eea7e5b202d3baf065ef2d96e0f0',1,'_WepSet_FromWeapon(int i):&#160;all.qc']]]
 ];

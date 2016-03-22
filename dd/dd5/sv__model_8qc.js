@@ -11,5 +11,6 @@ var sv__model_8qc =
     [ "CSQCModel_CheckUpdate", "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4", null ],
     [ "CSQCModel_LinkEntity", "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6", null ],
     [ "CSQCModel_Send", "dd/dd5/sv__model_8qc.html#a7d121b60a49265b031a787cd51c411b2", null ],
-    [ "CSQCModel_UnlinkEntity", "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4", null ]
+    [ "CSQCModel_UnlinkEntity", "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4", null ],
+    [ "csqcmodel_nextforcedupdate", "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352", null ]
 ];

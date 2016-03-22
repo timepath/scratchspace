@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -372,11 +373,11 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 <li>mapvote_screenshot_dirs
 : <a class="el" href="d2/d76/server_2mapvoting_8qc.html#ad40e1bd245af44e5acd1370f316e1311">mapvoting.qc</a>
 </li>
-<li>mapvote_screenshot_dirs_count
-: <a class="el" href="d2/d76/server_2mapvoting_8qc.html#a239c475b9087ec0c54c40cc0edf03f66">mapvoting.qc</a>
-</li>
 <li>MAPVOTE_SCREENSHOT_DIRS_COUNT
 : <a class="el" href="d2/d76/server_2mapvoting_8qc.html#a1e3e137a90d128509affa729095796a0">mapvoting.qc</a>
+</li>
+<li>mapvote_screenshot_dirs_count
+: <a class="el" href="d2/d76/server_2mapvoting_8qc.html#a239c475b9087ec0c54c40cc0edf03f66">mapvoting.qc</a>
 </li>
 <li>mapvote_selections
 : <a class="el" href="d2/d76/server_2mapvoting_8qc.html#a5f530e5f3e38fe43bf3e2152db3ecbac">mapvoting.qc</a>
@@ -392,24 +393,6 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 </li>
 <li>mapvote_voters
 : <a class="el" href="d2/d76/server_2mapvoting_8qc.html#aec34e9ec6d87361af8c4d21088d5ff9e">mapvoting.qc</a>
-</li>
-<li>marginBottom
-: <a class="el" href="d5/d05/xonotic_2dialog_8qh.html#a1ea89986129954bfe8f7316731e8301b">dialog.qh</a>
-, <a class="el" href="d1/df1/xonotic_2tab_8qh.html#a1ea89986129954bfe8f7316731e8301b">tab.qh</a>
-</li>
-<li>marginLeft
-: <a class="el" href="d6/d88/item_2dialog_8qh.html#a93419fd6612cc240b10a55efcfa5271d">dialog.qh</a>
-, <a class="el" href="df/d4d/label_8qh.html#a93419fd6612cc240b10a55efcfa5271d">label.qh</a>
-, <a class="el" href="de/d23/item_2tab_8qh.html#a93419fd6612cc240b10a55efcfa5271d">tab.qh</a>
-</li>
-<li>marginRight
-: <a class="el" href="dc/df6/xonotic_2button_8qh.html#a8c2417f96f4b118bd96bbbbbb30d1409">button.qh</a>
-, <a class="el" href="d5/d05/xonotic_2dialog_8qh.html#ae6ec51fe5e3466f767a81869eb9fe933">dialog.qh</a>
-, <a class="el" href="d1/df1/xonotic_2tab_8qh.html#a8c2417f96f4b118bd96bbbbbb30d1409">tab.qh</a>
-</li>
-<li>marginTop
-: <a class="el" href="d6/d88/item_2dialog_8qh.html#af98e7df5c6a578cc5ca59d9c45d1a9b9">dialog.qh</a>
-, <a class="el" href="de/d23/item_2tab_8qh.html#af98e7df5c6a578cc5ca59d9c45d1a9b9">tab.qh</a>
 </li>
 <li>markup_from
 : <a class="el" href="d8/d96/markup_8qh.html#a571271bb0bb6f547acf4b83a1b587405">markup.qh</a>
@@ -493,9 +476,9 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 : <a class="el" href="d9/d08/client_2defs_8qh.html#a16e46f2a8ffe60be975420fded893146">defs.qh</a>
 </li>
 <li>max_health
-: <a class="el" href="d6/d11/progsdefs_8qc.html#a163e03ef7146952b01f9ecbf3f144828">progsdefs.qc</a>
-, <a class="el" href="db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">cl_controlpoint.qc</a>
+: <a class="el" href="db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">cl_controlpoint.qc</a>
 , <a class="el" href="df/d07/cl__generator_8qc.html#a163e03ef7146952b01f9ecbf3f144828">cl_generator.qc</a>
+, <a class="el" href="d6/d11/progsdefs_8qc.html#a163e03ef7146952b01f9ecbf3f144828">progsdefs.qc</a>
 </li>
 <li>MAX_HUD_FIELDS
 : <a class="el" href="d0/d2a/client_2main_8qh.html#a1fa988817d4ff001d9b71a41c78719f6">main.qh</a>
@@ -522,8 +505,8 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 : <a class="el" href="dc/d1c/weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b">weapon.qh</a>
 </li>
 <li>maxclients
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">csprogsdefs.qc</a>
-, <a class="el" href="d9/ddc/server_2__all_8qh.html#a897245da86d59176980f3c9901120524">_all.qh</a>
+: <a class="el" href="d9/ddc/server_2__all_8qh.html#a897245da86d59176980f3c9901120524">_all.qh</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">csprogsdefs.qc</a>
 </li>
 <li>maxcontacts
 : <a class="el" href="de/d5e/dpextensions_8qc.html#ab7edf668b911363b46923ddb43f527d4">dpextensions.qc</a>
@@ -540,9 +523,6 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 </li>
 <li>mdl_dead
 : <a class="el" href="d8/dc1/sv__monsters_8qh.html#a1d734f67571d6c89c8f175c941f2ae9a">sv_monsters.qh</a>
-</li>
-<li>me
-: <a class="el" href="d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">dialog.qh</a>
 </li>
 <li>medium
 : <a class="el" href="dd/d70/pathlib_8qh.html#a7c10be1ad1f7216a7d219076d9f56ece">pathlib.qh</a>
@@ -783,8 +763,8 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 : <a class="el" href="d0/d2a/client_2main_8qh.html#ac53aaf82ef2963a8445fa8f1f1fe4057">main.qh</a>
 </li>
 <li>mins
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">csprogsdefs.qc</a>
-, <a class="el" href="d6/d11/progsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">progsdefs.qc</a>
+: <a class="el" href="d6/d11/progsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">progsdefs.qc</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">csprogsdefs.qc</a>
 </li>
 <li>misc_bulletcounter
 : <a class="el" href="d5/d26/server_2defs_8qh.html#ad074b805790481ed3367d5308ad8ae38">defs.qh</a>
@@ -829,8 +809,8 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 : <a class="el" href="d9/d19/modalcontroller_8qc.html#aba3abc282e142a8a04d806f5cd8767fc">modalcontroller.qc</a>
 </li>
 <li>ModalController_state
-: <a class="el" href="d9/d19/modalcontroller_8qc.html#ae6d4b13463473ae70d990fd07d4d93f2">modalcontroller.qc</a>
-, <a class="el" href="d7/de8/modalcontroller_8qh.html#ae6d4b13463473ae70d990fd07d4d93f2">modalcontroller.qh</a>
+: <a class="el" href="d7/de8/modalcontroller_8qh.html#ae6d4b13463473ae70d990fd07d4d93f2">modalcontroller.qh</a>
+, <a class="el" href="d9/d19/modalcontroller_8qc.html#ae6d4b13463473ae70d990fd07d4d93f2">modalcontroller.qc</a>
 </li>
 <li>model
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">csprogsdefs.qc</a>
@@ -839,12 +819,9 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 <li>model_randomizer
 : <a class="el" href="da/d53/cl__client_8qc.html#a796e7f6d76eff169d587d849ed8c29f0">cl_client.qc</a>
 </li>
-<li>model_str
-: <a class="el" href="d7/d1d/model_8qh.html#afc498695fee788bb1f820d60f5e6713a">model.qh</a>
-</li>
 <li>modelflags
-: <a class="el" href="de/d5e/dpextensions_8qc.html#a9f8b1ba8043465231489991037febc63">dpextensions.qc</a>
-, <a class="el" href="dc/d3d/csqcmodel__hooks_8qc.html#a2d651a2465a2b55127d67c245e3af6db">csqcmodel_hooks.qc</a>
+: <a class="el" href="dc/d3d/csqcmodel__hooks_8qc.html#a2d651a2465a2b55127d67c245e3af6db">csqcmodel_hooks.qc</a>
+, <a class="el" href="de/d5e/dpextensions_8qc.html#a9f8b1ba8043465231489991037febc63">dpextensions.qc</a>
 </li>
 <li>modelindex
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a2f3957a8a9e7c1c19755835bb81af37c">csprogsdefs.qc</a>
@@ -1030,9 +1007,6 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 <li>mousepos
 : <a class="el" href="d3/d05/hud_8qh.html#ade4186b2dfcd53ebfcb07efb8122fc4e">hud.qh</a>
 </li>
-<li>mousePress
-: <a class="el" href="df/de5/screenshotimage_8qh.html#acda4c43daa0b9239c0cfc783fb3d33c5">screenshotimage.qh</a>
-</li>
 <li>move_aiment
 : <a class="el" href="d4/dd7/movetypes_8qh.html#a4d44cd8cd7ac84ca268a780bed73660e">movetypes.qh</a>
 </li>
@@ -1058,16 +1032,16 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 : <a class="el" href="d4/dd7/movetypes_8qh.html#a1e6aca9079172a4341c241e3ed007e43">movetypes.qh</a>
 </li>
 <li>MOVE_HITMODEL
-: <a class="el" href="d4/d92/csqc__constants_8qh.html#a58b4c866de61021c4b2204fd03f21874">csqc_constants.qh</a>
-, <a class="el" href="de/d5e/dpextensions_8qc.html#a920186d0d574b1359b03baccb5622492">dpextensions.qc</a>
+: <a class="el" href="de/d5e/dpextensions_8qc.html#a920186d0d574b1359b03baccb5622492">dpextensions.qc</a>
+, <a class="el" href="d4/d92/csqc__constants_8qh.html#a58b4c866de61021c4b2204fd03f21874">csqc_constants.qh</a>
 </li>
 <li>move_ltime
 : <a class="el" href="d4/dd7/movetypes_8qh.html#a83f22a5bf18e2278bdf70e89a32cfd95">movetypes.qh</a>
 </li>
 <li>MOVE_MISSILE
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ad82988a2fd69b2fd9e3ad9cfd0cca2b5">csprogsdefs.qc</a>
+: <a class="el" href="de/d5e/dpextensions_8qc.html#a697ac34ecfeca12f733860dfea7ac4ad">dpextensions.qc</a>
 , <a class="el" href="d4/d92/csqc__constants_8qh.html#a48c88432036ac2cbd181ed3b1a2f98dd">csqc_constants.qh</a>
-, <a class="el" href="de/d5e/dpextensions_8qc.html#a697ac34ecfeca12f733860dfea7ac4ad">dpextensions.qc</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ad82988a2fd69b2fd9e3ad9cfd0cca2b5">csprogsdefs.qc</a>
 </li>
 <li>move_movetype
 : <a class="el" href="d4/dd7/movetypes_8qh.html#abb1ac1b4eea6138162b84796904eb961">movetypes.qh</a>
@@ -1077,17 +1051,15 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 </li>
 <li>MOVE_NOMONSTERS
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a0bbbf5629f7fe1bee3fc388b92308413">csprogsdefs.qc</a>
+, <a class="el" href="de/d5e/dpextensions_8qc.html#afbc4bad63e30569204e14eaa27b3cbae">dpextensions.qc</a>
+, <a class="el" href="d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">csqc_constants.qh</a>
 </li>
 <li>move_nomonsters
 : <a class="el" href="d4/dd7/movetypes_8qh.html#a954b92d41d478b31b2b40ef7c1507ba9">movetypes.qh</a>
 </li>
-<li>MOVE_NOMONSTERS
-: <a class="el" href="d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">csqc_constants.qh</a>
-, <a class="el" href="de/d5e/dpextensions_8qc.html#afbc4bad63e30569204e14eaa27b3cbae">dpextensions.qc</a>
-</li>
 <li>MOVE_NORMAL
-: <a class="el" href="d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">csqc_constants.qh</a>
-, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a5b6597f779ad0ea9032d9c78d22c041d">csprogsdefs.qc</a>
+: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a5b6597f779ad0ea9032d9c78d22c041d">csprogsdefs.qc</a>
+, <a class="el" href="d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">csqc_constants.qh</a>
 , <a class="el" href="de/d5e/dpextensions_8qc.html#a729e95acb64a22544ca39c435324240c">dpextensions.qc</a>
 </li>
 <li>move_origin
@@ -1112,13 +1084,13 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 : <a class="el" href="d4/dd7/movetypes_8qh.html#a2746279a82995ee6e85074245924bfeb">movetypes.qh</a>
 </li>
 <li>MOVE_WORLDONLY
-: <a class="el" href="de/d5e/dpextensions_8qc.html#aa2858c7156c6f550f6069cd2a0ba19e7">dpextensions.qc</a>
+: <a class="el" href="d4/d92/csqc__constants_8qh.html#ae0d7c9ee7d3e6ed43d37c30912a68497">csqc_constants.qh</a>
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#aa2858c7156c6f550f6069cd2a0ba19e7">csprogsdefs.qc</a>
-, <a class="el" href="d4/d92/csqc__constants_8qh.html#ae0d7c9ee7d3e6ed43d37c30912a68497">csqc_constants.qh</a>
+, <a class="el" href="de/d5e/dpextensions_8qc.html#aa2858c7156c6f550f6069cd2a0ba19e7">dpextensions.qc</a>
 </li>
 <li>movedir
-: <a class="el" href="d6/d11/progsdefs_8qc.html#aa3bcc10a638812404eb05380a58db9fa">progsdefs.qc</a>
-, <a class="el" href="d1/d8d/wall_8qc.html#aa3bcc10a638812404eb05380a58db9fa">wall.qc</a>
+: <a class="el" href="d1/d8d/wall_8qc.html#aa3bcc10a638812404eb05380a58db9fa">wall.qc</a>
+, <a class="el" href="d6/d11/progsdefs_8qc.html#aa3bcc10a638812404eb05380a58db9fa">progsdefs.qc</a>
 </li>
 <li>MOVEFLAG_GRAVITYUNAFFECTEDBYTICRATE
 : <a class="el" href="d4/dd7/movetypes_8qh.html#aeb8e7a09c27afa0523d4f11d696f45ff">movetypes.qh</a>
@@ -1237,8 +1209,8 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 , <a class="el" href="d6/d11/progsdefs_8qc.html#ae5be3ce0fe9f70c8b0822bf581e3434c">progsdefs.qc</a>
 </li>
 <li>MSG_BROADCAST
-: <a class="el" href="d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">menudefs.qc</a>
-, <a class="el" href="d6/d11/progsdefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">progsdefs.qc</a>
+: <a class="el" href="d6/d11/progsdefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">progsdefs.qc</a>
+, <a class="el" href="d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">menudefs.qc</a>
 </li>
 <li>msg_choice_choices
 : <a class="el" href="dc/de5/common_2notifications_2all_8qh.html#a158e3250eb2ed64ee582eeee900f891e">all.qh</a>
@@ -1368,7 +1340,7 @@ $(document).ready(function(){initNavTree('globals_vars_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('globals_vars_i.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -456,8 +457,8 @@ $(document).ready(function(){initNavTree('globals_vars_i.html','');});
 : <a class="el" href="d7/d7c/common_2items_2item_8qh.html#a3f6f6a8713fbbbba4ade21d07fe704ff">item.qh</a>
 </li>
 <li>IT_KEY1
-: <a class="el" href="d6/d11/progsdefs_8qc.html#abe4e050924eff90ba0eb7a1ce50c9388">progsdefs.qc</a>
-, <a class="el" href="d7/d7c/common_2items_2item_8qh.html#af9ffa9dfbf5beea9b12071a9cefbde1c">item.qh</a>
+: <a class="el" href="d7/d7c/common_2items_2item_8qh.html#af9ffa9dfbf5beea9b12071a9cefbde1c">item.qh</a>
+, <a class="el" href="d6/d11/progsdefs_8qc.html#abe4e050924eff90ba0eb7a1ce50c9388">progsdefs.qc</a>
 </li>
 <li>IT_KEY2
 : <a class="el" href="d6/d11/progsdefs_8qc.html#aeb4b17d67222b6309189714e667b5cbe">progsdefs.qc</a>
@@ -550,9 +551,6 @@ $(document).ready(function(){initNavTree('globals_vars_i.html','');});
 <li>item_spawnshieldtime
 : <a class="el" href="d5/d26/server_2defs_8qh.html#abed5a4333a92b743908138f32d45b720">defs.qh</a>
 </li>
-<li>itemAbsSize
-: <a class="el" href="de/d48/dialog__settings__game_8qc.html#adc812ae0c5582c174427600ed118985c">dialog_settings_game.qc</a>
-</li>
 <li>itemkeys
 : <a class="el" href="db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">subs.qh</a>
 </li>
@@ -622,7 +620,7 @@ $(document).ready(function(){initNavTree('globals_vars_i.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

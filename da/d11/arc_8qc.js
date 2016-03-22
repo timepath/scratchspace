@@ -1,16 +1,7 @@
 var arc_8qc =
 [
+    [ "Arc", "db/d3c/classArc.html", "db/d3c/classArc" ],
     [ "X", "da/d11/arc_8qc.html#a3736dca67d4dece311571a78b7922f63", null ],
-    [ "ATTRIB", "da/d11/arc_8qc.html#a9e85a81f49bb1220992dda24ac569500", null ],
-    [ "ATTRIB", "da/d11/arc_8qc.html#af6a43e2299b7ba788518cc46f23404bc", null ],
-    [ "ATTRIB", "da/d11/arc_8qc.html#a41fd70c2043926fb621c0667c069ca0e", null ],
-    [ "ATTRIB", "da/d11/arc_8qc.html#ac327605aeb83f22dc8f4f58e0a949b84", null ],
-    [ "ATTRIB", "da/d11/arc_8qc.html#a7cf5714892c7924a9935efc2f9d3f0af", null ],
-    [ "ATTRIB", "da/d11/arc_8qc.html#ae45e2160fb0126edf9d6a6a4f5478866", null ],
-    [ "ATTRIB", "da/d11/arc_8qc.html#a7f5d36adf8cf0e08c54c7547b9d27537", null ],
-    [ "ATTRIB", "da/d11/arc_8qc.html#ad012c8147f30114402d78ad2a17f1e17", null ],
-    [ "ATTRIB", "da/d11/arc_8qc.html#a82a14d0a46f3fa164d28a6b221e8ecd1", null ],
-    [ "ATTRIB", "da/d11/arc_8qc.html#ae691b66f5920a7de050e11d8b004d428", null ],
     [ "REGISTER_WEAPON", "da/d11/arc_8qc.html#a9fb7260238a7e686b0bdeed933077ef7", null ],
     [ "ARC_BT_BURST_HEAL", "da/d11/arc_8qc.html#a857d9532b6c0b1495c548f673bed0b1d", null ],
     [ "ARC_BT_BURST_HIT", "da/d11/arc_8qc.html#adfe4581ad00a9f3b5d2010f6834c6471", null ],

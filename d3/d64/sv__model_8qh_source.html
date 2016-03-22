@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d3/d64/sv__model_8qh_source.html','../
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -132,9 +133,9 @@ $(document).ready(function(){initNavTree('d3/d64/sv__model_8qh_source.html','../
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">// generic CSQC model code</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d64/sv__model_8qh.html#a32aa4ddceceddfb68f9fc5fb066d9dd4">CSQCModel_CheckUpdate</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e);</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d64/sv__model_8qh.html#a23e2c08e9f37dbd197f013e43f8685e6">CSQCModel_LinkEntity</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d64/sv__model_8qh.html#a575925a6844ef492ae305aeee6d670f4">CSQCModel_UnlinkEntity</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d64/sv__model_8qh.html#a32aa4ddceceddfb68f9fc5fb066d9dd4">CSQCModel_CheckUpdate</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e);</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d64/sv__model_8qh.html#a23e2c08e9f37dbd197f013e43f8685e6">CSQCModel_LinkEntity</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e);</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d64/sv__model_8qh.html#a575925a6844ef492ae305aeee6d670f4">CSQCModel_UnlinkEntity</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;</div>
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../d3/d64/sv__model_8qh.html#ad310536612eda29266d5b7fdb8312322">   33</a></span>&#160;<span class="preprocessor">#define CSQCMODEL_IF(cond)</span></div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d3/d64/sv__model_8qh.html#a5c003f56d18287ff05be93642b051a43">   34</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CSQCMODEL_ENDIF</span></div>
@@ -150,17 +151,17 @@ $(document).ready(function(){initNavTree('d3/d64/sv__model_8qh_source.html','../
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="sv__model_8qh_html_a32aa4ddceceddfb68f9fc5fb066d9dd4"><div class="ttname"><a href="../../d3/d64/sv__model_8qh.html#a32aa4ddceceddfb68f9fc5fb066d9dd4">CSQCModel_CheckUpdate</a></div><div class="ttdeci">void CSQCModel_CheckUpdate(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd5/sv__model_8qc_source.html#l00068">sv_model.qc:68</a></div></div>
 <div class="ttc" id="sv__model_8qh_html_a23e2c08e9f37dbd197f013e43f8685e6"><div class="ttname"><a href="../../d3/d64/sv__model_8qh.html#a23e2c08e9f37dbd197f013e43f8685e6">CSQCModel_LinkEntity</a></div><div class="ttdeci">void CSQCModel_LinkEntity(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd5/sv__model_8qc_source.html#l00126">sv_model.qc:126</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="lib_2csqcmodel_2common_8qh_html_a8e9253310528fe25da0191bad79ec5d2"><div class="ttname"><a href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a8e9253310528fe25da0191bad79ec5d2">ALLPROPERTIES</a></div><div class="ttdeci">#define ALLPROPERTIES</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df7/lib_2csqcmodel_2common_8qh_source.html#l00095">common.qh:95</a></div></div>
 <div class="ttc" id="sv__model_8qh_html_a575925a6844ef492ae305aeee6d670f4"><div class="ttname"><a href="../../d3/d64/sv__model_8qh.html#a575925a6844ef492ae305aeee6d670f4">CSQCModel_UnlinkEntity</a></div><div class="ttdeci">void CSQCModel_UnlinkEntity(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd5/sv__model_8qc_source.html#l00133">sv_model.qc:133</a></div></div>
 <div class="ttc" id="lib_2csqcmodel_2common_8qh_html"><div class="ttname"><a href="../../d5/df7/lib_2csqcmodel_2common_8qh.html">common.qh</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_d5fd5ebb74d9aac6232b0b4eda80dfde.html">csqcmodel</a></li><li class="navelem"><a class="el" href="../../d3/d64/sv__model_8qh.html">sv_model.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:31 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

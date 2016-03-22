@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('df/d89/hurt_8qc_source.html','../../')
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -132,7 +133,7 @@ $(document).ready(function(){initNavTree('df/d89/hurt_8qc_source.html','../../')
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#aafa3ae74c44012515bfa1dc1c20b37df">EXACTTRIGGER_TOUCH</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>.triggerhurttime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 1;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> own;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> own;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            own = <span class="keyword">self</span>.enemy;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(own))</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            {</div>
@@ -161,8 +162,8 @@ $(document).ready(function(){initNavTree('df/d89/hurt_8qc_source.html','../../')
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="comment">defalt dmg = 5</span></div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;.entity trigger_hurt_next;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> trigger_hurt_last;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> trigger_hurt_first;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> trigger_hurt_last;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> trigger_hurt_first;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(trigger_hurt)</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;{</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0">EXACTTRIGGER_INIT</a>;</div>
@@ -187,7 +188,7 @@ $(document).ready(function(){initNavTree('df/d89/hurt_8qc_source.html','../../')
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d5/d26/server_2defs_8qh.html#a099ad087f6b1981b1c6333cf4a62334a">tracebox_hits_trigger_hurt</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> start, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> mi, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ma, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> end)</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> th;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> th;</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">for</span>(th = trigger_hurt_first; th; th = th.trigger_hurt_next)</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a2de10fb010f38dc7ef051696ee9a940a">tracebox_hits_box</a>(start, mi, ma, end, th.absmin, th.absmax))</div>
@@ -202,6 +203,7 @@ $(document).ready(function(){initNavTree('df/d89/hurt_8qc_source.html','../../')
 <div class="ttc" id="lib_2warpzone_2common_8qh_html_a1e0289363c17167532b3a975d9658ee0"><div class="ttname"><a href="../../d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0">EXACTTRIGGER_INIT</a></div><div class="ttdeci">#define EXACTTRIGGER_INIT</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00115">common.qh:115</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_ae1ed0d7a6f352c7ee3ad978429822c6f"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a></div><div class="ttdeci">string message</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00007">defs.qh:7</a></div></div>
 <div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="server_2defs_8qh_html_a099ad087f6b1981b1c6333cf4a62334a"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a099ad087f6b1981b1c6333cf4a62334a">tracebox_hits_trigger_hurt</a></div><div class="ttdeci">float tracebox_hits_trigger_hurt(vector start, vector mi, vector ma, vector end)</div></div>
 <div class="ttc" id="platforms_8qh_html_a4ce2ef217f7c0232dcec8323dccf928b"><div class="ttname"><a href="../../d0/d1a/platforms_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b">dmg</a></div><div class="ttdeci">float dmg</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d1a/platforms_8qh_source.html#l00014">platforms.qh:14</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a264ee8f6a0019c50d2049ee7af5c9296"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a></div><div class="ttdeci">entity other</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00014">csprogsdefs.qc:14</a></div></div>
@@ -216,14 +218,13 @@ $(document).ready(function(){initNavTree('df/d89/hurt_8qc_source.html','../../')
 <div class="ttc" id="lib_2warpzone_2common_8qh_html_aafa3ae74c44012515bfa1dc1c20b37df"><div class="ttname"><a href="../../d7/d71/lib_2warpzone_2common_8qh.html#aafa3ae74c44012515bfa1dc1c20b37df">EXACTTRIGGER_TOUCH</a></div><div class="ttdeci">#define EXACTTRIGGER_TOUCH</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00114">common.qh:114</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_abd9bbb26fc3db0656e3ea3e7a91d3ab1"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#abd9bbb26fc3db0656e3ea3e7a91d3ab1">ACTIVE_ACTIVE</a></div><div class="ttdeci">const float ACTIVE_ACTIVE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00390">defs.qh:390</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../dir_68c7af0e850d11bf6ba23fecbd658357.html">trigger</a></li><li class="navelem"><a class="el" href="../../df/d89/hurt_8qc.html">hurt.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:31 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:27 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -167,9 +168,6 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
 <li>v_up
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">csprogsdefs.qc</a>
 , <a class="el" href="d6/d11/progsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">progsdefs.qc</a>
-</li>
-<li>value
-: <a class="el" href="de/d64/animation_8qc.html#a316ed50c917206b8cfb924c6d576ed06">animation.qc</a>
 </li>
 <li>vbeam_endpos
 : <a class="el" href="d8/d0e/client_2mutators_2events_8qh.html#ab75f6d2b850e7cf3bbc37a7b57e38f90">events.qh</a>
@@ -222,9 +220,9 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
 : <a class="el" href="d6/d11/progsdefs_8qc.html#a8198cc56e0d5c089df0fe500436a533f">progsdefs.qc</a>
 </li>
 <li>VEC_HULL_MAX
-: <a class="el" href="d4/d92/csqc__constants_8qh.html#aa689452c5c16f85223faa80d29f01060">csqc_constants.qh</a>
-, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a350af5b459189bbe8cac915ba426874b">csprogsdefs.qc</a>
+: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a350af5b459189bbe8cac915ba426874b">csprogsdefs.qc</a>
 , <a class="el" href="d6/d11/progsdefs_8qc.html#a350af5b459189bbe8cac915ba426874b">progsdefs.qc</a>
+, <a class="el" href="d4/d92/csqc__constants_8qh.html#aa689452c5c16f85223faa80d29f01060">csqc_constants.qh</a>
 </li>
 <li>VEC_HULL_MIN
 : <a class="el" href="d4/d92/csqc__constants_8qh.html#a13bb669d9edcf92ecb053c4e52def090">csqc_constants.qh</a>
@@ -292,8 +290,8 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a7e0898fbc7a108a195b2c65a1a052b21">csprogsdefs.qc</a>
 </li>
 <li>VF_CL_VIEWANGLES_Z
-: <a class="el" href="d4/d92/csqc__constants_8qh.html#ad93c98449b3910d2f15c2ccdd4122940">csqc_constants.qh</a>
-, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ad62cbd9ca8f8c3d37fdff181832473f3">csprogsdefs.qc</a>
+: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ad62cbd9ca8f8c3d37fdff181832473f3">csprogsdefs.qc</a>
+, <a class="el" href="d4/d92/csqc__constants_8qh.html#ad93c98449b3910d2f15c2ccdd4122940">csqc_constants.qh</a>
 </li>
 <li>VF_DRAWCROSSHAIR
 : <a class="el" href="d4/d92/csqc__constants_8qh.html#a1ba408e21d06fec874a81a7dd690840b">csqc_constants.qh</a>
@@ -372,8 +370,8 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ab45acae0df590fd7bce5dcaaa2275cc0">csprogsdefs.qc</a>
 </li>
 <li>VF_VIEWPORT
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ac0701cf2ee3b5bece7b0383956b461f8">csprogsdefs.qc</a>
-, <a class="el" href="d4/d92/csqc__constants_8qh.html#af908df1589e505102876c09506e24476">csqc_constants.qh</a>
+: <a class="el" href="d4/d92/csqc__constants_8qh.html#af908df1589e505102876c09506e24476">csqc_constants.qh</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ac0701cf2ee3b5bece7b0383956b461f8">csprogsdefs.qc</a>
 </li>
 <li>vh_notice_time
 : <a class="el" href="d6/dd3/view_8qc.html#a904495a10047eef2e8424eb188fa0675">view.qc</a>
@@ -457,8 +455,8 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
 : <a class="el" href="d0/d2a/client_2main_8qh.html#ad1d04b5a1386d5d90a40d7442c0bd0d8">main.qh</a>
 </li>
 <li>view_ofs
-: <a class="el" href="d5/df7/lib_2csqcmodel_2common_8qh.html#a62c3b9f9bf0fae21452c48c7c87265f7">common.qh</a>
-, <a class="el" href="d6/d11/progsdefs_8qc.html#a62c3b9f9bf0fae21452c48c7c87265f7">progsdefs.qc</a>
+: <a class="el" href="d6/d11/progsdefs_8qc.html#a62c3b9f9bf0fae21452c48c7c87265f7">progsdefs.qc</a>
+, <a class="el" href="d5/df7/lib_2csqcmodel_2common_8qh.html#a62c3b9f9bf0fae21452c48c7c87265f7">common.qh</a>
 </li>
 <li>view_origin
 : <a class="el" href="d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">main.qh</a>
@@ -479,7 +477,7 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
 : <a class="el" href="d0/d2a/client_2main_8qh.html#a8883f35ba614036676cd2ac2cc4b3f3f">main.qh</a>
 </li>
 <li>viewloc
-: <a class="el" href="db/d53/viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb">viewloc.qh</a>
+: <a class="el" href="da/db7/triggers_2trigger_2viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb">viewloc.qh</a>
 </li>
 <li>viewmodel
 : <a class="el" href="d6/dd3/view_8qc.html#afda8907e87c7c5407c041b2ead609190">view.qc</a>
@@ -577,11 +575,11 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
 <li>vote_highlighted
 : <a class="el" href="d3/d05/hud_8qh.html#a045e1064e3dfa1f43fb8e3823dba5127">hud.qh</a>
 </li>
-<li>VOTE_MASTER
-: <a class="el" href="d7/d16/server_2command_2vote_8qh.html#a3cbee0d9f583f352e79853d7baca43d7">vote.qh</a>
-</li>
 <li>vote_master
 : <a class="el" href="d7/d16/server_2command_2vote_8qh.html#ab2a4a22b57e23eebd526313dc76d8b49">vote.qh</a>
+</li>
+<li>VOTE_MASTER
+: <a class="el" href="d7/d16/server_2command_2vote_8qh.html#a3cbee0d9f583f352e79853d7baca43d7">vote.qh</a>
 </li>
 <li>vote_needed
 : <a class="el" href="d3/d05/hud_8qh.html#a23b48b17db9ee176aaa27001d01006cd">hud.qh</a>
@@ -649,7 +647,7 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

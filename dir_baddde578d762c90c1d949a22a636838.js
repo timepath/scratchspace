@@ -11,7 +11,9 @@ var dir_baddde578d762c90c1d949a22a636838 =
     [ "draw.qh", "d9/d62/menu_2draw_8qh.html", "d9/d62/menu_2draw_8qh" ],
     [ "gamesettings.qh", "dd/d5d/gamesettings_8qh.html", null ],
     [ "item.qc", "de/d9a/item_8qc.html", "de/d9a/item_8qc" ],
-    [ "item.qh", "d8/d1e/menu_2item_8qh.html", "d8/d1e/menu_2item_8qh" ],
+    [ "item.qh", "d8/d1e/menu_2item_8qh.html", [
+      [ "Item", "d0/dae/classItem.html", "d0/dae/classItem" ]
+    ] ],
     [ "menu.qc", "df/dc2/menu_8qc.html", "df/dc2/menu_8qc" ],
     [ "menu.qh", "d0/d41/menu_8qh.html", "d0/d41/menu_8qh" ],
     [ "progs.inc", "d3/d70/menu_2progs_8inc.html", "d3/d70/menu_2progs_8inc" ],

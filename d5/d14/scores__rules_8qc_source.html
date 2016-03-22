@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d5/d14/scores__rules_8qc_source.html',
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -109,7 +110,7 @@ $(document).ready(function(){initNavTree('d5/d14/scores__rules_8qc_source.html',
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/d30/cl__client_8qh.html">cl_client.qh</a>&quot;</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d3/dcd/scores_8qh.html">scores.qh</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/d14/scores__rules_8qc.html#a838b897a9ae86e8bf932e57c356ec987">CheckAllowedTeams</a> (<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> for_whom);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/d14/scores__rules_8qc.html#a838b897a9ae86e8bf932e57c356ec987">CheckAllowedTeams</a> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> for_whom);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">// NOTE: SP_ constants may not be &gt;= MAX_SCORE; ST_constants may not be &gt;= MAX_TEAMSCORE</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// scores that should be in all modes:</span></div>
@@ -160,6 +161,7 @@ $(document).ready(function(){initNavTree('d5/d14/scores__rules_8qc_source.html',
 <div class="ttc" id="common_2constants_8qh_html_aeada6745e1a86301721bd800dc3b869a"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a></div><div class="ttdeci">const int SFL_SORT_PRIO_PRIMARY</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00123">constants.qh:123</a></div></div>
 <div class="ttc" id="scores__rules_8qc_html_a8834399775b54e52ae0297a80013a636"><div class="ttname"><a href="../../d5/d14/scores__rules_8qc.html#a8834399775b54e52ae0297a80013a636">ScoreRules_basics</a></div><div class="ttdeci">void ScoreRules_basics(float teams, float sprio, float stprio, float score_enabled)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d14/scores__rules_8qc_source.html#l00011">scores_rules.qc:11</a></div></div>
 <div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="common_2constants_8qh_html_a8282504222d03bb68483776381c31a5a"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a8282504222d03bb68483776381c31a5a">ST_SCORE</a></div><div class="ttdeci">const int ST_SCORE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00132">constants.qh:132</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_aae60b6f90eba2f5a0dc702b382500b0f"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a></div><div class="ttdeci">entity teams</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00004">miscfunctions.qh:4</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a1cf74e6cc89851839fb4b63f30f5beb8"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a1cf74e6cc89851839fb4b63f30f5beb8">SP_KILLS</a></div><div class="ttdeci">const int SP_KILLS</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00133">constants.qh:133</a></div></div>
@@ -184,14 +186,13 @@ $(document).ready(function(){initNavTree('d5/d14/scores__rules_8qc_source.html',
 <div class="ttc" id="common_2constants_8qh_html_a02c81f4319e871ec244c143fbbddcb27"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a02c81f4319e871ec244c143fbbddcb27">SP_DMGTAKEN</a></div><div class="ttdeci">const int SP_DMGTAKEN</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00138">constants.qh:138</a></div></div>
 <div class="ttc" id="scores__rules_8qc_html_a0255cc6cfdf923cd9c974c739f06fe2c"><div class="ttname"><a href="../../d5/d14/scores__rules_8qc.html#a0255cc6cfdf923cd9c974c739f06fe2c">ScoreRules_teams</a></div><div class="ttdeci">float ScoreRules_teams</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d14/scores__rules_8qc_source.html#l00010">scores_rules.qc:10</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a2557f33879d70e70cac33055180ce59e"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a2557f33879d70e70cac33055180ce59e">SP_DMG</a></div><div class="ttdeci">const int SP_DMG</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00137">constants.qh:137</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/d14/scores__rules_8qc.html">scores_rules.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:33 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

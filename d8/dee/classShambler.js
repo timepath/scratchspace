@@ -1,0 +1,18 @@
+var classShambler =
+[
+    [ "describe", "d8/dee/classShambler.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
+    [ "display", "d8/dee/classShambler.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
+    [ "mr_anim", "d8/dee/classShambler.html#a98fd6d803cf7376820bb26fcbca5adbd", null ],
+    [ "mr_death", "d8/dee/classShambler.html#a6dcca2c26e36342b5286873a74793cae", null ],
+    [ "mr_pain", "d8/dee/classShambler.html#abbd3a53ddd2019b6933a9e40910cfc58", null ],
+    [ "mr_precache", "d8/dee/classShambler.html#a24b4136b7b62e15cc5df0c04289434ca", null ],
+    [ "mr_setup", "d8/dee/classShambler.html#a84829255027bd85cf33ef0418ef5c975", null ],
+    [ "mr_think", "d8/dee/classShambler.html#adc5acc9cbff0fdce03b8253cfa102777", null ],
+    [ "m_model", "d8/dee/classShambler.html#a1fdd527ed51ad47bec36febd9ca8db0b", null ],
+    [ "maxs", "d8/dee/classShambler.html#a4e6a851ed388a1e0c36e488e71700e42", null ],
+    [ "mins", "d8/dee/classShambler.html#abe718357dafde994438cf9ad43e2501a", null ],
+    [ "monster_name", "d8/dee/classShambler.html#a4a2c59dabf3657267baf502b542a1976", null ],
+    [ "monsterid", "d8/dee/classShambler.html#a486a46d7eb31dc495eaf5347ba1cb5de", null ],
+    [ "netname", "d8/dee/classShambler.html#a4b07f525e1446b89fe15b226a919fafd", null ],
+    [ "spawnflags", "d8/dee/classShambler.html#a9fa544bcd092d73cf872ac669acfe188", null ]
+];

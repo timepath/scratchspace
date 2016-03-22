@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc.html','../../');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -125,32 +126,32 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a9f40b8a5c36064fb6b3b1602f3a9d1b2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a9f40b8a5c36064fb6b3b1602f3a9d1b2">PONG_STATUS_WAIT</a> = 0x0010</td></tr>
-<tr class="separator:a9f40b8a5c36064fb6b3b1602f3a9d1b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c40aa0764d18a05c7737013b86ff96f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a3c40aa0764d18a05c7737013b86ff96f">PONG_STATUS_PLAY</a> = 0x0020</td></tr>
-<tr class="separator:a3c40aa0764d18a05c7737013b86ff96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a236510888a4598c95e8f2be4d512a223"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a236510888a4598c95e8f2be4d512a223">PONG_SF_PLAYERSCORE</a> = <a class="el" href="../../d6/dbd/minigames_8qh.html#aa196279bf6a242db49a98749912b6dae">MINIG_SF_CUSTOM</a></td></tr>
-<tr class="separator:a236510888a4598c95e8f2be4d512a223"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a061e2e80b7d00037922865df3a1223b8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a061e2e80b7d00037922865df3a1223b8">PONG_SF_BALLTEAM</a> = <a class="el" href="../../d6/dbd/minigames_8qh.html#aa196279bf6a242db49a98749912b6dae">MINIG_SF_CUSTOM</a></td></tr>
-<tr class="separator:a061e2e80b7d00037922865df3a1223b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e201037dda61f41363f87518dd57f9c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a3e201037dda61f41363f87518dd57f9c">PONG_KEY_INCREASE</a> = 0x01</td></tr>
-<tr class="separator:a3e201037dda61f41363f87518dd57f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2a56ee364ec402a021031f4567d1d12"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#ae2a56ee364ec402a021031f4567d1d12">PONG_KEY_DECREASE</a> = 0x02</td></tr>
-<tr class="separator:ae2a56ee364ec402a021031f4567d1d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70b3d6bf0c2e4e383bb2f819527b9f2c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a70b3d6bf0c2e4e383bb2f819527b9f2c">PONG_KEY_BOTH</a> = 0x03</td></tr>
-<tr class="separator:a70b3d6bf0c2e4e383bb2f819527b9f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4406bbe08968c38c6d68c4554a2d5b5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#ab4406bbe08968c38c6d68c4554a2d5b5">PONG_MAX_PLAYERS</a> = 4</td></tr>
-<tr class="separator:ab4406bbe08968c38c6d68c4554a2d5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fbb7729e616f69c4389bfb921fee366"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a6fbb7729e616f69c4389bfb921fee366">pong_score</a></td></tr>
-<tr class="separator:a6fbb7729e616f69c4389bfb921fee366"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3aa84d8d8617354b2ebe47c33e68999f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a3aa84d8d8617354b2ebe47c33e68999f">pong_keys</a></td></tr>
-<tr class="separator:a3aa84d8d8617354b2ebe47c33e68999f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af56366bd37173508fb9e1a553fa92eff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#af56366bd37173508fb9e1a553fa92eff">pong_paddles</a> [<a class="el" href="../../d7/de3/pong_8qc.html#ab4406bbe08968c38c6d68c4554a2d5b5">PONG_MAX_PLAYERS</a>]</td></tr>
-<tr class="separator:af56366bd37173508fb9e1a553fa92eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeb4686b9b54e55ca1113cba18fda571"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a></td></tr>
-<tr class="separator:afeb4686b9b54e55ca1113cba18fda571"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52bb5f83b53bbbdf759739d26ce7f910"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a52bb5f83b53bbbdf759739d26ce7f910">pong_ai_paddle</a></td></tr>
 <tr class="separator:a52bb5f83b53bbbdf759739d26ce7f910"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70b3d6bf0c2e4e383bb2f819527b9f2c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a70b3d6bf0c2e4e383bb2f819527b9f2c">PONG_KEY_BOTH</a> = 0x03</td></tr>
+<tr class="separator:a70b3d6bf0c2e4e383bb2f819527b9f2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a56ee364ec402a021031f4567d1d12"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#ae2a56ee364ec402a021031f4567d1d12">PONG_KEY_DECREASE</a> = 0x02</td></tr>
+<tr class="separator:ae2a56ee364ec402a021031f4567d1d12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e201037dda61f41363f87518dd57f9c"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a3e201037dda61f41363f87518dd57f9c">PONG_KEY_INCREASE</a> = 0x01</td></tr>
+<tr class="separator:a3e201037dda61f41363f87518dd57f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aa84d8d8617354b2ebe47c33e68999f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a3aa84d8d8617354b2ebe47c33e68999f">pong_keys</a></td></tr>
+<tr class="separator:a3aa84d8d8617354b2ebe47c33e68999f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeb4686b9b54e55ca1113cba18fda571"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a></td></tr>
+<tr class="separator:afeb4686b9b54e55ca1113cba18fda571"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4406bbe08968c38c6d68c4554a2d5b5"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#ab4406bbe08968c38c6d68c4554a2d5b5">PONG_MAX_PLAYERS</a> = 4</td></tr>
+<tr class="separator:ab4406bbe08968c38c6d68c4554a2d5b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af56366bd37173508fb9e1a553fa92eff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#af56366bd37173508fb9e1a553fa92eff">pong_paddles</a> [<a class="el" href="../../d7/de3/pong_8qc.html#ab4406bbe08968c38c6d68c4554a2d5b5">PONG_MAX_PLAYERS</a>]</td></tr>
+<tr class="separator:af56366bd37173508fb9e1a553fa92eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fbb7729e616f69c4389bfb921fee366"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a6fbb7729e616f69c4389bfb921fee366">pong_score</a></td></tr>
+<tr class="separator:a6fbb7729e616f69c4389bfb921fee366"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a061e2e80b7d00037922865df3a1223b8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a061e2e80b7d00037922865df3a1223b8">PONG_SF_BALLTEAM</a> = <a class="el" href="../../d6/dbd/minigames_8qh.html#aa196279bf6a242db49a98749912b6dae">MINIG_SF_CUSTOM</a></td></tr>
+<tr class="separator:a061e2e80b7d00037922865df3a1223b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a236510888a4598c95e8f2be4d512a223"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a236510888a4598c95e8f2be4d512a223">PONG_SF_PLAYERSCORE</a> = <a class="el" href="../../d6/dbd/minigames_8qh.html#aa196279bf6a242db49a98749912b6dae">MINIG_SF_CUSTOM</a></td></tr>
+<tr class="separator:a236510888a4598c95e8f2be4d512a223"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c40aa0764d18a05c7737013b86ff96f"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a3c40aa0764d18a05c7737013b86ff96f">PONG_STATUS_PLAY</a> = 0x0020</td></tr>
+<tr class="separator:a3c40aa0764d18a05c7737013b86ff96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f40b8a5c36064fb6b3b1602f3a9d1b2"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/de3/pong_8qc.html#a9f40b8a5c36064fb6b3b1602f3a9d1b2">PONG_STATUS_WAIT</a> = 0x0010</td></tr>
+<tr class="separator:a9f40b8a5c36064fb6b3b1602f3a9d1b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="ad8dc4d71649a0ea16e3e7b09741bff4a"></a>
@@ -199,7 +200,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> PONG_KEY_BOTH = 0x03</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> PONG_KEY_BOTH = 0x03</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -213,7 +214,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> PONG_KEY_DECREASE = 0x02</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> PONG_KEY_DECREASE = 0x02</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -227,7 +228,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> PONG_KEY_INCREASE = 0x01</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> PONG_KEY_INCREASE = 0x01</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -241,7 +242,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> pong_keys</td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> pong_keys</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -269,7 +270,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> PONG_MAX_PLAYERS = 4</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> PONG_MAX_PLAYERS = 4</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -297,7 +298,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> pong_score</td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> pong_score</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -311,7 +312,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> PONG_SF_BALLTEAM = <a class="el" href="../../d6/dbd/minigames_8qh.html#aa196279bf6a242db49a98749912b6dae">MINIG_SF_CUSTOM</a></td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> PONG_SF_BALLTEAM = <a class="el" href="../../d6/dbd/minigames_8qh.html#aa196279bf6a242db49a98749912b6dae">MINIG_SF_CUSTOM</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -325,7 +326,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> PONG_SF_PLAYERSCORE = <a class="el" href="../../d6/dbd/minigames_8qh.html#aa196279bf6a242db49a98749912b6dae">MINIG_SF_CUSTOM</a></td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> PONG_SF_PLAYERSCORE = <a class="el" href="../../d6/dbd/minigames_8qh.html#aa196279bf6a242db49a98749912b6dae">MINIG_SF_CUSTOM</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -339,7 +340,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> PONG_STATUS_PLAY = 0x0020</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> PONG_STATUS_PLAY = 0x0020</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -353,7 +354,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> PONG_STATUS_WAIT = 0x0010</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> PONG_STATUS_WAIT = 0x0010</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -368,7 +369,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../dir_f3c5fe65fc7d6f300d22d67107da5495.html">minigame</a></li><li class="navelem"><a class="el" href="../../d7/de3/pong_8qc.html">pong.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:36 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -5,7 +5,7 @@ var state_8qc =
     [ "anticheat_init", "d0/d3f/state_8qc.html#a620f7cf1b6c95a9c13fb4ee6c0476309", null ],
     [ "anticheat_report", "d0/d3f/state_8qc.html#a663362ec10d27e4a23160defbb3e9d3e", null ],
     [ "bot_clientconnect", "d0/d3f/state_8qc.html#abd19370e4d61d3549dbbe44826531536", null ],
-    [ "bot_clientdisconnect", "d0/d3f/state_8qc.html#add9d20e3b674f7f42c553aebba6ce252", null ],
+    [ "bot_clientdisconnect", "d0/d3f/state_8qc.html#ab10bcd46b240e1fd8154de39ddd5c40e", null ],
     [ "ClientData_Attach", "d0/d3f/state_8qc.html#ae1ed9a146c5c791944277a4ff2c890c6", null ],
     [ "ClientData_Detach", "d0/d3f/state_8qc.html#a493d87cfdaad13d4de171211f5f7bc4d", null ],
     [ "ClientState_attach", "d0/d3f/state_8qc.html#afc32312bf25df126b18e078bedab7837", null ],

@@ -1,5 +1,7 @@
 var effectinfo_8qc =
 [
+    [ "EffectInfo", "de/d95/classEffectInfo.html", "de/d95/classEffectInfo" ],
+    [ "EffectInfoGroup", "d2/d52/classEffectInfoGroup.html", "d2/d52/classEffectInfoGroup" ],
     [ "DEF", "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862", null ],
     [ "EFFECTINFO", "dd/d87/effectinfo_8qc.html#ad425a0ea2148626349dd03800e90f7b6", null ],
     [ "EFFECTINFO_PARSER", "dd/d87/effectinfo_8qc.html#abf96f615930f5438f58a99050ce6856f", null ],
@@ -18,10 +20,7 @@ var effectinfo_8qc =
     [ "str_vector", "dd/d87/effectinfo_8qc.html#a140b69e0765f293f2d0545beefa583c7", null ],
     [ "SUB", "dd/d87/effectinfo_8qc.html#ab4d36372dc60e3acc49978f79e891995", null ],
     [ "WRITE", "dd/d87/effectinfo_8qc.html#a196e029eb2adc9808b1e6928e3e1ce23", null ],
-    [ "CONSTRUCTOR", "dd/d87/effectinfo_8qc.html#a32099483f67e2e1d9720b22d3641a14f", null ],
     [ "effectinfo_dump", "dd/d87/effectinfo_8qc.html#ab54004c150a871ffc834d13a84684e37", null ],
     [ "effectinfo_read", "dd/d87/effectinfo_8qc.html#a331bcf6c0483f2f74b9ebc3f52b11560", null ],
-    [ "GENERIC_COMMAND", "dd/d87/effectinfo_8qc.html#ae328f1e3b2e9b1cfb1b78938f44f8173", null ],
-    [ "strcat", "dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a", null ],
-    [ "s", "dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c", null ]
+    [ "GENERIC_COMMAND", "dd/d87/effectinfo_8qc.html#ae328f1e3b2e9b1cfb1b78938f44f8173", null ]
 ];

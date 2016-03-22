@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -377,6 +378,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 </li>
 <li>makeXonoticAudioSettingsTab()
 : <a class="el" href="d4/d87/dialog__settings__audio_8qc.html#a9897d4b9ae8916a24d87fccc5defa1fa">dialog_settings_audio.qc</a>
+, <a class="el" href="d9/d40/dialog__settings__audio_8qh.html#a9897d4b9ae8916a24d87fccc5defa1fa">dialog_settings_audio.qh</a>
 </li>
 <li>makeXonoticBigButton()
 : <a class="el" href="df/d4f/bigbutton_8qc.html#abdf3953c0db4a6184bf90e59974e0f6a">bigbutton.qc</a>
@@ -396,7 +398,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 </li>
 <li>makeXonoticButton_T()
 : <a class="el" href="df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb">button.qc</a>
-, <a class="el" href="dc/df6/xonotic_2button_8qh.html#a692765e01616c3fbf22789aff129089e">button.qh</a>
+, <a class="el" href="dc/df6/xonotic_2button_8qh.html#a72620f04a2403e2eb73a5f210a9c60eb">button.qh</a>
 </li>
 <li>makeXonoticCampaignList()
 : <a class="el" href="d3/d69/menu_2xonotic_2campaign_8qc.html#a9ec6d55fc46ebb4594ada64b3948016e">campaign.qc</a>
@@ -442,8 +444,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 , <a class="el" href="df/d9b/menu_2xonotic_2util_8qc.html#adddeddac6ab0dc7ec36befe111ba9602">util.qc</a>
 </li>
 <li>makeXonoticCommandButton()
-: <a class="el" href="d7/df4/commandbutton_8qc.html#a987af68cda200c33e872603717d21f36">commandbutton.qc</a>
-, <a class="el" href="d7/d27/commandbutton_8qh.html#a7a50d961e2fbf8455f8ac0a437354465">commandbutton.qh</a>
+: <a class="el" href="d7/d27/commandbutton_8qh.html#a7a50d961e2fbf8455f8ac0a437354465">commandbutton.qh</a>
+, <a class="el" href="d7/df4/commandbutton_8qc.html#a987af68cda200c33e872603717d21f36">commandbutton.qc</a>
 </li>
 <li>makeXonoticCommandButton_T()
 : <a class="el" href="d7/df4/commandbutton_8qc.html#a74c6e4c3710f10f7df16433d4b82ba03">commandbutton.qc</a>
@@ -483,6 +485,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 </li>
 <li>makeXonoticEffectsSettingsTab()
 : <a class="el" href="d2/de6/dialog__settings__effects_8qc.html#a8ace980a9aa0b9448962d11b51ad3f3e">dialog_settings_effects.qc</a>
+, <a class="el" href="de/dc5/dialog__settings__effects_8qh.html#a8ace980a9aa0b9448962d11b51ad3f3e">dialog_settings_effects.qh</a>
 </li>
 <li>makeXonoticGameCrosshairSettingsTab()
 : <a class="el" href="df/dbd/dialog__settings__game__crosshair_8qc.html#a4f706d7ce46862c87a014b6423a463f3">dialog_settings_game_crosshair.qc</a>
@@ -534,6 +537,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 </li>
 <li>makeXonoticInputSettingsTab()
 : <a class="el" href="d1/d61/dialog__settings__input_8qc.html#a822312f86da5bcf83a0a9c1534fca91a">dialog_settings_input.qc</a>
+, <a class="el" href="d0/d1b/dialog__settings__input_8qh.html#a822312f86da5bcf83a0a9c1534fca91a">dialog_settings_input.qh</a>
 </li>
 <li>makeXonoticKeyBinder()
 : <a class="el" href="df/d75/keybinder_8qc.html#ab0947edc01b04773d3a03c7e3dda2fb0">keybinder.qc</a>
@@ -541,6 +545,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 </li>
 <li>makeXonoticLanguageList()
 : <a class="el" href="d3/d2e/languagelist_8qc.html#a50f7c55bc396272158e53f3d65593e34">languagelist.qc</a>
+, <a class="el" href="d8/db4/languagelist_8qh.html#a50f7c55bc396272158e53f3d65593e34">languagelist.qh</a>
 </li>
 <li>makeXonoticListBox()
 : <a class="el" href="db/dc9/xonotic_2listbox_8qc.html#a6c6b5899d7e694efe5e2975e07d74ff9">listbox.qc</a>
@@ -592,6 +597,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 </li>
 <li>makeXonoticProfileTab()
 : <a class="el" href="d2/dd3/dialog__multiplayer__profile_8qc.html#a7e2e23bde25532ff986ec09897f32f0a">dialog_multiplayer_profile.qc</a>
+, <a class="el" href="d8/d95/dialog__multiplayer__profile_8qh.html#a7e2e23bde25532ff986ec09897f32f0a">dialog_multiplayer_profile.qh</a>
 </li>
 <li>makeXonoticRadioButton()
 : <a class="el" href="d9/dad/xonotic_2radiobutton_8qc.html#ab245ab8e3e2d665a4f6d467524269c58">radiobutton.qc</a>
@@ -623,6 +629,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 </li>
 <li>makeXonoticServerCreateTab()
 : <a class="el" href="d7/de3/dialog__multiplayer__create_8qc.html#a94bcd6120df81d66b7301391e876efe9">dialog_multiplayer_create.qc</a>
+, <a class="el" href="db/d46/dialog__multiplayer__create_8qh.html#a94bcd6120df81d66b7301391e876efe9">dialog_multiplayer_create.qh</a>
 </li>
 <li>makeXonoticServerList()
 : <a class="el" href="d6/d74/serverlist_8qc.html#a043a2e03fb459803be9fc416291ecf26">serverlist.qc</a>
@@ -680,6 +687,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 </li>
 <li>makeXonoticVideoSettingsTab()
 : <a class="el" href="d6/d07/dialog__settings__video_8qc.html#a614215adb02bc1f62559ee00ad9a5e16">dialog_settings_video.qc</a>
+, <a class="el" href="df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16">dialog_settings_video.qh</a>
 </li>
 <li>makeXonoticWeaponarenaCheckBox()
 : <a class="el" href="d1/df3/weaponarenacheckbox_8qc.html#add182d72741aa7b8b7ee6f187e24f990">weaponarenacheckbox.qc</a>
@@ -1169,11 +1177,11 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 <li>mapvote_screenshot_dirs
 : <a class="el" href="d2/d76/server_2mapvoting_8qc.html#ad40e1bd245af44e5acd1370f316e1311">mapvoting.qc</a>
 </li>
-<li>mapvote_screenshot_dirs_count
-: <a class="el" href="d2/d76/server_2mapvoting_8qc.html#a239c475b9087ec0c54c40cc0edf03f66">mapvoting.qc</a>
-</li>
 <li>MAPVOTE_SCREENSHOT_DIRS_COUNT
 : <a class="el" href="d2/d76/server_2mapvoting_8qc.html#a1e3e137a90d128509affa729095796a0">mapvoting.qc</a>
+</li>
+<li>mapvote_screenshot_dirs_count
+: <a class="el" href="d2/d76/server_2mapvoting_8qc.html#a239c475b9087ec0c54c40cc0edf03f66">mapvoting.qc</a>
 </li>
 <li>MapVote_Selection()
 : <a class="el" href="d4/d0d/client_2mapvoting_8qc.html#af980301f0a5f2a02ac8b0502d1a4951a">mapvoting.qc</a>
@@ -1242,24 +1250,6 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 </li>
 <li>MapVote_WriteMask()
 : <a class="el" href="d2/d76/server_2mapvoting_8qc.html#ae6e823eade2c2bad759e1d88c42f589f">mapvoting.qc</a>
-</li>
-<li>marginBottom
-: <a class="el" href="d5/d05/xonotic_2dialog_8qh.html#a1ea89986129954bfe8f7316731e8301b">dialog.qh</a>
-, <a class="el" href="d1/df1/xonotic_2tab_8qh.html#a1ea89986129954bfe8f7316731e8301b">tab.qh</a>
-</li>
-<li>marginLeft
-: <a class="el" href="d6/d88/item_2dialog_8qh.html#a93419fd6612cc240b10a55efcfa5271d">dialog.qh</a>
-, <a class="el" href="df/d4d/label_8qh.html#a93419fd6612cc240b10a55efcfa5271d">label.qh</a>
-, <a class="el" href="de/d23/item_2tab_8qh.html#a93419fd6612cc240b10a55efcfa5271d">tab.qh</a>
-</li>
-<li>marginRight
-: <a class="el" href="dc/df6/xonotic_2button_8qh.html#a8c2417f96f4b118bd96bbbbbb30d1409">button.qh</a>
-, <a class="el" href="d5/d05/xonotic_2dialog_8qh.html#ae6ec51fe5e3466f767a81869eb9fe933">dialog.qh</a>
-, <a class="el" href="d1/df1/xonotic_2tab_8qh.html#a8c2417f96f4b118bd96bbbbbb30d1409">tab.qh</a>
-</li>
-<li>marginTop
-: <a class="el" href="d6/d88/item_2dialog_8qh.html#af98e7df5c6a578cc5ca59d9c45d1a9b9">dialog.qh</a>
-, <a class="el" href="de/d23/item_2tab_8qh.html#af98e7df5c6a578cc5ca59d9c45d1a9b9">tab.qh</a>
 </li>
 <li>markdown()
 : <a class="el" href="dd/dfd/markdown_8qh.html#a77f267f37e2a269275b232a573a1ca50">markdown.qh</a>
@@ -1416,9 +1406,6 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 <li>MDL_NUM()
 : <a class="el" href="d3/d09/common_2models_2all_8inc.html#a4ec9ef476ddd9fd0dd833a75b5521d03">all.inc</a>
 </li>
-<li>me
-: <a class="el" href="d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">dialog.qh</a>
-</li>
 <li>MEAN_ACCUMULATE
 : <a class="el" href="d0/d79/math_8qh.html#ab174a7f4f00a6dbb7728a2261e39ea75">math.qh</a>
 </li>
@@ -1537,227 +1524,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 <li>message2
 : <a class="el" href="d5/d26/server_2defs_8qh.html#a067c6fc2c94c080c9e94a020c41f036e">defs.qh</a>
 </li>
-<li>METHOD()
-: <a class="el" href="d0/d1b/dialog__settings__input_8qh.html#a134b599f83dabede9f0310f765bedf69">dialog_settings_input.qh</a>
-, <a class="el" href="d9/da8/dialog__settings__input__userbind_8qh.html#a30367e6d7344ffcc7d5c6a62f44bc477">dialog_settings_input_userbind.qh</a>
-, <a class="el" href="d6/dbf/dialog__settings__misc_8qh.html#aaca218617d56d17f5f519705db44fb93">dialog_settings_misc.qh</a>
-, <a class="el" href="db/db4/dialog__settings__misc__cvars_8qh.html#a6276f7b7dafc7d1004bda6bfe7e28eee">dialog_settings_misc_cvars.qh</a>
-, <a class="el" href="db/dd3/dialog__settings__misc__reset_8qh.html#a41c7fa2c0b4d2eea84bf0c787e561046">dialog_settings_misc_reset.qh</a>
-, <a class="el" href="d7/d5a/dialog__settings__user_8qh.html#ac20e3a9c505f49d9ddb9b4dc95888508">dialog_settings_user.qh</a>
-, <a class="el" href="d0/d7c/dialog__settings__user__languagewarning_8qh.html#a0ea84b8f37cb8465cf79aa2df33eff40">dialog_settings_user_languagewarning.qh</a>
-, <a class="el" href="df/d44/dialog__settings__video_8qh.html#a980ef1d37d40834756619b95d2062780">dialog_settings_video.qh</a>
-, <a class="el" href="dc/d62/dialog__singleplayer_8qh.html#a987d6fca1d1fc95d5b3cd684956a1d4d">dialog_singleplayer.qh</a>
-, <a class="el" href="da/ddd/dialog__singleplayer__winner_8qh.html#a80bf8f821b78f45233c422b5278edc6d">dialog_singleplayer_winner.qh</a>
-, <a class="el" href="df/daf/dialog__teamselect_8qh.html#a0cd4aa8dec147211e90d4cfe28b4c41b">dialog_teamselect.qh</a>
-, <a class="el" href="dd/d43/gametypelist_8qh.html#ae5fb4b2bb015a4c4731941f645fa38c5">gametypelist.qh</a>
-, <a class="el" href="dd/d6d/hudskinlist_8qh.html#ace619d9c62ff90a4e3bdd3e9bdd18210">hudskinlist.qh</a>
-, <a class="el" href="d7/d7f/xonotic_2image_8qh.html#a3256d2d5ea41ea77c25d464a0c49452a">image.qh</a>
-, <a class="el" href="d4/d84/xonotic_2inputbox_8qh.html#a87dd4d301177d359d0499e8d6d8bbc0f">inputbox.qh</a>
-, <a class="el" href="d5/d45/keybinder_8qh.html#af3ca6177862643a9fbefe9d300c105c9">keybinder.qh</a>
-, <a class="el" href="d8/db4/languagelist_8qh.html#ae3d316e181f7d991556a8998d61f3a1d">languagelist.qh</a>
-, <a class="el" href="d2/dfa/xonotic_2listbox_8qh.html#afd731fb574f9947943810566f5b76b0d">listbox.qh</a>
-, <a class="el" href="d4/d20/mainwindow_8qh.html#a8b9b72f269e7700461f9e1fd4d524dc6">mainwindow.qh</a>
-, <a class="el" href="d6/dbf/maplist_8qh.html#a580fda1c322e7faaac0aa5ec815f6f2c">maplist.qh</a>
-, <a class="el" href="da/d46/xonotic_2nexposee_8qh.html#abe16daa1295f673505b8ae689ff93b68">nexposee.qh</a>
-, <a class="el" href="d8/d61/picker_8qh.html#a830ecd4213d16845e3082e3db22080d6">picker.qh</a>
-, <a class="el" href="d5/ddf/playerlist_8qh.html#ab9715fe01a737ebaf271bcc2f451c4f1">playerlist.qh</a>
-, <a class="el" href="d5/da4/playermodel_8qh.html#a33135df9047639ed5e01bbfe2fbba831">playermodel.qh</a>
-, <a class="el" href="db/d2f/playlist_8qh.html#a84f908758956cd10c69718973cd785e3">playlist.qh</a>
-, <a class="el" href="d1/da8/xonotic_2radiobutton_8qh.html#afac1c157aebd2f3636af17b15f4962a9">radiobutton.qh</a>
-, <a class="el" href="d9/d85/rootdialog_8qh.html#a680ef2e694a05ef15ad393982b2e7fba">rootdialog.qh</a>
-, <a class="el" href="df/de5/screenshotimage_8qh.html#ac4950d89b9ccd17fc1975d33a46386ed">screenshotimage.qh</a>
-, <a class="el" href="dc/df2/screenshotlist_8qh.html#a122912b79c1be7414ee9e9cf75b7a771">screenshotlist.qh</a>
-, <a class="el" href="dd/d7a/serverlist_8qh.html#a8c84ce19b219e31d91f925a99f016e65">serverlist.qh</a>
-, <a class="el" href="db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">oo.qh</a>
-, <a class="el" href="dd/d7a/serverlist_8qh.html#af4522c77fa917a688118495219c109f2">serverlist.qh</a>
-, <a class="el" href="d7/d7c/common_2items_2item_8qh.html#a536612558a329fc53c731afb8600e820">item.qh</a>
-, <a class="el" href="dd/d7a/serverlist_8qh.html#a6942cc3e5a779ed45ce44a11bfa58a67">serverlist.qh</a>
-, <a class="el" href="d2/d9e/mapinfo_8qh.html#a8fe3415235d174fa75c89f3ef21f5810">mapinfo.qh</a>
-, <a class="el" href="dd/d7a/serverlist_8qh.html#a54cfd447ab18e875190cad94050401d6">serverlist.qh</a>
-, <a class="el" href="d4/ddc/monster_8qh.html#a8585b1722857a3fef2bef6eb394bec36">monster.qh</a>
-, <a class="el" href="dd/d7a/serverlist_8qh.html#a0d24a70769213aa533db84eb8e819e27">serverlist.qh</a>
-, <a class="el" href="d4/ddc/monster_8qh.html#a97e8b0b614ad551f82cc3acd1941063a">monster.qh</a>
-, <a class="el" href="dd/d7a/serverlist_8qh.html#a29b0136c1a05b0fe0ea52ae10bfba341">serverlist.qh</a>
-, <a class="el" href="d4/ddc/monster_8qh.html#a40e0db3126b0dff135915efa94ca9eb4">monster.qh</a>
-, <a class="el" href="dd/d7a/serverlist_8qh.html#ac09a1e4c72bd8a0cc4c2cd5a301bd631">serverlist.qh</a>
-, <a class="el" href="de/d18/skinlist_8qh.html#a748d215afb0a6487726f7726e259bbcc">skinlist.qh</a>
-, <a class="el" href="d4/ddc/monster_8qh.html#affee5bb8d4a308bd0715ae04931160a5">monster.qh</a>
-, <a class="el" href="de/d18/skinlist_8qh.html#a638dae24310dcd808ab5e7e8db4c684e">skinlist.qh</a>
-, <a class="el" href="d4/ddc/monster_8qh.html#ac16a7f2cad126e66e7e1fcf2c3ed0477">monster.qh</a>
-, <a class="el" href="de/d18/skinlist_8qh.html#ac51ad822db844f32b67307bf051e9de4">skinlist.qh</a>
-, <a class="el" href="d4/ddc/monster_8qh.html#ab3026b83386e84a8e4695a97f0f040b1">monster.qh</a>
-, <a class="el" href="de/d18/skinlist_8qh.html#a2f66b49fd7b9af6d6f29165dc98dffdb">skinlist.qh</a>
-, <a class="el" href="d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a405f0a155b2aefbb22481b4625c103a5">all.qh</a>
-, <a class="el" href="de/d18/skinlist_8qh.html#a42cc64a53e101fb69259eda6d9351b37">skinlist.qh</a>
-, <a class="el" href="da/d3e/nades_8qh.html#a3997d036ed6f9515d3145c1c8dbda00a">nades.qh</a>
-, <a class="el" href="de/d18/skinlist_8qh.html#ac39339e948c0fa5f6091a1406d94d264">skinlist.qh</a>
-, <a class="el" href="d9/d67/turret_8qh.html#a2447f66b407f4f0346f3dd087a44568f">turret.qh</a>
-, <a class="el" href="d2/d59/xonotic_2slider_8qh.html#a10cde4b494c1caf5afa1b6e1ae3dcc7f">slider.qh</a>
-, <a class="el" href="d9/d67/turret_8qh.html#abd523a16dbeebeb0aaa49a2b3522bfe8">turret.qh</a>
-, <a class="el" href="d2/d59/xonotic_2slider_8qh.html#a030a13461d1a06a74e3a4c3ae04ad66c">slider.qh</a>
-, <a class="el" href="d9/d67/turret_8qh.html#abdceb372ae21138e86b4cc8312b15fc2">turret.qh</a>
-, <a class="el" href="d2/d59/xonotic_2slider_8qh.html#a6287f1c43102540feb25f930a24c7987">slider.qh</a>
-, <a class="el" href="d4/d78/slider__decibels_8qh.html#ac402301333cadb5254066c23748b107b">slider_decibels.qh</a>
-, <a class="el" href="d9/d67/turret_8qh.html#a398374991c8951e6d2da8247607f70f6">turret.qh</a>
-, <a class="el" href="d4/d78/slider__decibels_8qh.html#adc556256c3b278f167428a582c065146">slider_decibels.qh</a>
-, <a class="el" href="d9/d67/turret_8qh.html#a0316391571bb0f256b324f6c51668cb8">turret.qh</a>
-, <a class="el" href="d5/d3b/slider__particles_8qh.html#a12471a15262f3da165ca45f97c2ebe93">slider_particles.qh</a>
-, <a class="el" href="d9/d67/turret_8qh.html#ad4427b9f7b2094f2477256081445f92f">turret.qh</a>
-, <a class="el" href="d5/d3b/slider__particles_8qh.html#ad0a96076d4a0eb336c4d733b9dc996e9">slider_particles.qh</a>
-, <a class="el" href="de/d39/slider__picmip_8qh.html#a365929c7275a1b1add3b175b8017f3fe">slider_picmip.qh</a>
-, <a class="el" href="d1/d4b/vehicle_8qh.html#a7b3752474c1bd57eb77baa37987d180f">vehicle.qh</a>
-, <a class="el" href="de/d39/slider__picmip_8qh.html#ae805feb10940d1243a38bfc56dc33424">slider_picmip.qh</a>
-, <a class="el" href="d1/d4b/vehicle_8qh.html#a71e3a4469bd4a75702274f1478a7906b">vehicle.qh</a>
-, <a class="el" href="de/dde/slider__resolution_8qh.html#af7bd28604a9a742aaf17fb0b16d54f58">slider_resolution.qh</a>
-, <a class="el" href="d1/d4b/vehicle_8qh.html#a1d89ad7fc45e3811e980c3af01cbc6f8">vehicle.qh</a>
-, <a class="el" href="de/dde/slider__resolution_8qh.html#af560d2b5a7bb3229a51a6ac049c2a0e0">slider_resolution.qh</a>
-, <a class="el" href="d1/d4b/vehicle_8qh.html#aa5f49490cb204ee290df7357d45211e5">vehicle.qh</a>
-, <a class="el" href="de/dde/slider__resolution_8qh.html#af11b87e3798513178fb18aa45a342b48">slider_resolution.qh</a>
-, <a class="el" href="d1/d4b/vehicle_8qh.html#a2097ef5ff6a6d42101766d2c2c673022">vehicle.qh</a>
-, <a class="el" href="d8/d07/slider__sbfadetime_8qh.html#a1969a8b97cd5433f99a44005d386a24f">slider_sbfadetime.qh</a>
-, <a class="el" href="d1/d4b/vehicle_8qh.html#add9e95b7df9e8d23db317a82b9c734fa">vehicle.qh</a>
-, <a class="el" href="d8/d07/slider__sbfadetime_8qh.html#aee1a1468fe629ce740bf4c946926fe9f">slider_sbfadetime.qh</a>
-, <a class="el" href="d4/dda/soundlist_8qh.html#a926a8df8456e12db4c4990a1c6cac36d">soundlist.qh</a>
-, <a class="el" href="d1/d4b/vehicle_8qh.html#a3fd6ca1dbc5d36420931698f13e0a5ed">vehicle.qh</a>
-, <a class="el" href="d4/dda/soundlist_8qh.html#af0f94c676e4a73c17b2e736fb8fce174">soundlist.qh</a>
-, <a class="el" href="d1/d4b/vehicle_8qh.html#a7a549f7a3fbee5b2efd8feea6d379b21">vehicle.qh</a>
-, <a class="el" href="d4/dda/soundlist_8qh.html#a34d8f6640d6491482ea6f401b08846fe">soundlist.qh</a>
-, <a class="el" href="d1/d4b/vehicle_8qh.html#a779b27392fe54f666981f86d4ae8d245">vehicle.qh</a>
-, <a class="el" href="d4/dda/soundlist_8qh.html#a16ee23d17ded8f26b4e221a70ae7f67b">soundlist.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#ae29f98cc9476fa0fc6bd0d92211a619f">weapon.qh</a>
-, <a class="el" href="d4/dda/soundlist_8qh.html#a076e7e2c93f8ed704767704b1a832dc7">soundlist.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#ad22415755212ca38deae63389dda7535">weapon.qh</a>
-, <a class="el" href="d5/d73/statslist_8qh.html#a05c24802f1d5a34aa3c2f49929470c8f">statslist.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#a681f1c4a039d4ead128f146bbfc94a62">weapon.qh</a>
-, <a class="el" href="d5/d73/statslist_8qh.html#a2716280c71c1a8307792b2a5956c4034">statslist.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#ac728103fd1fafc70c64d121c6276184a">weapon.qh</a>
-, <a class="el" href="d5/d73/statslist_8qh.html#abc9edcde0c4cff206bdc8b0769a37911">statslist.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#acf7f749a36b48f3cacaa2767990854f0">weapon.qh</a>
-, <a class="el" href="d5/d73/statslist_8qh.html#a647ff005a24b75da18de8af4a3be91cf">statslist.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#a18efab78e108a7a2e5815f5c66018ec5">weapon.qh</a>
-, <a class="el" href="d1/df1/xonotic_2tab_8qh.html#a7ee99a71b71c2a85f2ba4b1975052240">tab.qh</a>
-, <a class="el" href="d0/d81/tabcontroller_8qh.html#a53b50753e0728b6888ea886177bd155a">tabcontroller.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#a9f33710f3425b3c6a82b44af4d62f1ac">weapon.qh</a>
-, <a class="el" href="d0/d81/tabcontroller_8qh.html#ab194c497d8f8bec590399a2aace471c6">tabcontroller.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#a0845137e4d8fb832cfd2ede54860716c">weapon.qh</a>
-, <a class="el" href="d0/de9/textlabel_8qh.html#a3166b0b8bfaa2daa9d05d9a5126d8307">textlabel.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#a0d956212f79adf668b6e262ae5c7bad9">weapon.qh</a>
-, <a class="el" href="dd/d23/xonotic_2textslider_8qh.html#ae5686ce0dd37325b7bc32714f0744281">textslider.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#aea5f94e12da0443056435709f401e314">weapon.qh</a>
-, <a class="el" href="dd/d23/xonotic_2textslider_8qh.html#a2cbd79cbab357d3c2e9f91f5234aab4a">textslider.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#ac5403405c8021f6d5277a38881175886">weapon.qh</a>
-, <a class="el" href="dd/d23/xonotic_2textslider_8qh.html#aea3fbaa05eca0af9eada086696030f45">textslider.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#a11a4bf1ae12f971eb149aeba1101f6e3">weapon.qh</a>
-, <a class="el" href="d5/d16/weaponarenacheckbox_8qh.html#ad8aedc3e8fa26ebcd6518a70ffbd6cec">weaponarenacheckbox.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#a6b7f96e8865c8118b2c31def8ca16d4c">weapon.qh</a>
-, <a class="el" href="d5/d16/weaponarenacheckbox_8qh.html#ab721972f0257e891eef2fb24ddc43518">weaponarenacheckbox.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#af640e943362d5f85e5c26fbb8ac4a918">weapon.qh</a>
-, <a class="el" href="d5/dc5/weaponslist_8qh.html#a64b50334b9d0118dd4086e207f27a58f">weaponslist.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#ad195feae38ced9ebfc612c01a890b614">weapon.qh</a>
-, <a class="el" href="d5/dc5/weaponslist_8qh.html#a935334c3c0059fa8eb7d17073d1ae771">weaponslist.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#af4b1ecf1dcdee8a030b82e9d00b290e5">weapon.qh</a>
-, <a class="el" href="d5/dc5/weaponslist_8qh.html#a5c3165b269b4dcd119df232963592157">weaponslist.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#a7ffb62774e6e2d3afb754ecc3de15ca3">weapon.qh</a>
-, <a class="el" href="d5/dc5/weaponslist_8qh.html#a27759fc7134dedd8325374acc188fed7">weaponslist.qh</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#ab40697f04a7654c98500371e08db9bd7">weapon.qh</a>
-, <a class="el" href="db/d0a/oo_8qh.html#a3c84ead3a4fcf9c49dd81423b7494324">oo.qh</a>
-, <a class="el" href="de/d64/animation_8qc.html#a6309bd3d05c5fd3969bb94d9ca404d79">animation.qc</a>
-, <a class="el" href="d8/dec/animation_8qh.html#a27404306101400a2f2f5d772cffcc431">animation.qh</a>
-, <a class="el" href="d6/d93/animhost_8qh.html#aeb233c6f7adaf4dfa1f9fed51f189c45">animhost.qh</a>
-, <a class="el" href="d3/da9/easing_8qc.html#a81e802d97c51e8a2ba3b22118db59026">easing.qc</a>
-, <a class="el" href="df/dfd/easing_8qh.html#a744459976f0334df56bee8f28dee3c58">easing.qh</a>
-, <a class="el" href="d2/d58/keyframe_8qc.html#a97f11f01f04c7dc462e8f2aeb0044bdc">keyframe.qc</a>
-, <a class="el" href="df/dac/keyframe_8qh.html#a5dd4c9c64afb99214e39d69ab3c96acc">keyframe.qh</a>
-, <a class="el" href="dc/d72/borderimage_8qh.html#a4c64f46642eb2513bbc225dd4001e3d6">borderimage.qh</a>
-, <a class="el" href="df/da7/item_2button_8qh.html#a300944152e8588df585ea0acd56a1291">button.qh</a>
-, <a class="el" href="d1/d5f/item_2checkbox_8qh.html#a3f9a17b0f3588ca014957e66515fc221">checkbox.qh</a>
-, <a class="el" href="d5/d8e/container_8qh.html#a81195f1337a448341f2c8cda05d5c141">container.qh</a>
-, <a class="el" href="d6/d88/item_2dialog_8qh.html#a6bc056cf51419d06741495fdf4632eac">dialog.qh</a>
-, <a class="el" href="de/d8c/item_2image_8qh.html#ab149ffb7a27dfe5147a4a18ef0a5801d">image.qh</a>
-, <a class="el" href="d7/d21/item_2inputbox_8qh.html#af5243407a082781012f3f1c23005dd6f">inputbox.qh</a>
-, <a class="el" href="d9/db7/inputcontainer_8qh.html#a096379bed54f8c16197e8404437f123a">inputcontainer.qh</a>
-, <a class="el" href="df/d4d/label_8qh.html#a127f58837e1bb79d92337a0594bf490d">label.qh</a>
-, <a class="el" href="d0/d96/item_2listbox_8qh.html#ad645b91cbba133595d10a3882df8358f">listbox.qh</a>
-, <a class="el" href="d7/de8/modalcontroller_8qh.html#ab352f341dcf37cbfaaeda4f3f8e4d754">modalcontroller.qh</a>
-, <a class="el" href="dd/d77/item_2nexposee_8qh.html#afe93f1196d357e4532ead69a1293ef1c">nexposee.qh</a>
-, <a class="el" href="db/d30/item_2radiobutton_8qh.html#a378befe827da3f1f3c52423acd923af6">radiobutton.qh</a>
-, <a class="el" href="d0/dd4/item_2slider_8qh.html#a8fa9c1b736f862253a7f0c7701e5d7eb">slider.qh</a>
-, <a class="el" href="d3/d93/item_2textslider_8qh.html#a128ac984df1dfcb67b0abbfbc45fdd4d">textslider.qh</a>
-, <a class="el" href="d8/d1e/menu_2item_8qh.html#a4b76978080ee6b42024991df820dd555">item.qh</a>
-, <a class="el" href="d4/db8/bigbutton_8qh.html#a40e4857b84e64ac8183cf61740295a97">bigbutton.qh</a>
-, <a class="el" href="d2/d88/bigcommandbutton_8qh.html#ac6c6b053f1a5032d431c20f6c4c59cfd">bigcommandbutton.qh</a>
-, <a class="el" href="dc/df6/xonotic_2button_8qh.html#a4a7f0aca07027d2127e991424c203cb0">button.qh</a>
-, <a class="el" href="d7/d01/menu_2xonotic_2campaign_8qh.html#ab4d0da8f8fcadb2c32eafd294dd3cd38">campaign.qh</a>
-, <a class="el" href="d5/d12/charmap_8qh.html#af481d84bf210a2e16cab6b81dc5e6c69">charmap.qh</a>
-, <a class="el" href="d8/d76/xonotic_2checkbox_8qh.html#a74e1f2ff8428619c7620118946800871">checkbox.qh</a>
-, <a class="el" href="df/de0/checkbox__slider__invalid_8qh.html#aad456f79a367f9e32451d309a23d4ba4">checkbox_slider_invalid.qh</a>
-, <a class="el" href="d5/d3a/checkbox__string_8qh.html#aa524ffaaba9a79601b7141b0b1c3258c">checkbox_string.qh</a>
-, <a class="el" href="d2/dd3/colorbutton_8qh.html#a47465c650d959812342b56541bada08f">colorbutton.qh</a>
-, <a class="el" href="d8/dcc/colorpicker_8qh.html#a3cac43896b8800f9ca0b6fbcd11b4cd6">colorpicker.qh</a>
-, <a class="el" href="d1/d6c/colorpicker__string_8qh.html#aad862ca251e333737ced9778d2e36b51">colorpicker_string.qh</a>
-, <a class="el" href="d7/d27/commandbutton_8qh.html#a1018dc817efc09f93e43f1d659694d50">commandbutton.qh</a>
-, <a class="el" href="dc/d48/credits_8qh.html#a030d4fea11856fcd895f34b2af5ffa7f">credits.qh</a>
-, <a class="el" href="d3/d06/crosshairpicker_8qh.html#a3004d31cdd36cc63432e561079f9f603">crosshairpicker.qh</a>
-, <a class="el" href="d9/dcf/crosshairpreview_8qh.html#adbc38c019c6f9d5f8657bf8f88740134">crosshairpreview.qh</a>
-, <a class="el" href="d9/d47/cvarlist_8qh.html#a57efa11f1887ac703b3bc1c4eb8b48aa">cvarlist.qh</a>
-, <a class="el" href="d4/d4e/datasource_8qc.html#ad3a99fb992b7d9d5306ca2965845a039">datasource.qc</a>
-, <a class="el" href="d7/d63/datasource_8qh.html#a2b978abb817726b2b85885996c49a657">datasource.qh</a>
-, <a class="el" href="d1/de6/demolist_8qh.html#ad4e677f56bc321c4814e798448d723cc">demolist.qh</a>
-, <a class="el" href="dd/d95/dialog__credits_8qh.html#ade51bd3c0e736936c257251515b0c58d">dialog_credits.qh</a>
-, <a class="el" href="d5/d92/dialog__firstrun_8qh.html#adb4a090e71df30dafc144497fad4fb73">dialog_firstrun.qh</a>
-, <a class="el" href="da/d79/dialog__hudpanel__ammo_8qh.html#a5c333881274301638a8346336179955c">dialog_hudpanel_ammo.qh</a>
-, <a class="el" href="de/d4a/dialog__hudpanel__centerprint_8qh.html#a67dadf416c1fd89f2a7c0eec31a832c0">dialog_hudpanel_centerprint.qh</a>
-, <a class="el" href="df/d4a/dialog__hudpanel__chat_8qh.html#afbc792f5a9a70c81af10d4146f82051a">dialog_hudpanel_chat.qh</a>
-, <a class="el" href="d7/dc0/dialog__hudpanel__engineinfo_8qh.html#a6e5029fb2d87ac58d59dabf3b19e6c9d">dialog_hudpanel_engineinfo.qh</a>
-, <a class="el" href="d6/dfa/dialog__hudpanel__healtharmor_8qh.html#a9ccfb2238b8f446cdb6152303af07f5c">dialog_hudpanel_healtharmor.qh</a>
-, <a class="el" href="d6/d82/dialog__hudpanel__infomessages_8qh.html#a4f3784c90471cfca323760395a2bc901">dialog_hudpanel_infomessages.qh</a>
-, <a class="el" href="d0/d6a/dialog__hudpanel__itemstime_8qh.html#a380fe16e140133f359994a51c68dec83">dialog_hudpanel_itemstime.qh</a>
-, <a class="el" href="da/dc1/dialog__hudpanel__modicons_8qh.html#a6b86eef5dc9505177a4eb42e118e325f">dialog_hudpanel_modicons.qh</a>
-, <a class="el" href="d9/de3/dialog__hudpanel__notification_8qh.html#a57386f372cc50a317cdebf8c0f6e07e7">dialog_hudpanel_notification.qh</a>
-, <a class="el" href="d6/d3f/dialog__hudpanel__physics_8qh.html#a2bfac65f1376774f816c187b678dfe41">dialog_hudpanel_physics.qh</a>
-, <a class="el" href="d9/d7a/dialog__hudpanel__powerups_8qh.html#ace2e0ab47f5c5db02e7ee41020ee0a46">dialog_hudpanel_powerups.qh</a>
-, <a class="el" href="da/d52/dialog__hudpanel__pressedkeys_8qh.html#ac702f967f65fa622015265be65fbfa60">dialog_hudpanel_pressedkeys.qh</a>
-, <a class="el" href="d9/d4a/dialog__hudpanel__quickmenu_8qh.html#a4540e5de6071a902870c9d36c6f80337">dialog_hudpanel_quickmenu.qh</a>
-, <a class="el" href="d4/dd8/dialog__hudpanel__racetimer_8qh.html#a4e24342ceae8effb0263ef19467236c9">dialog_hudpanel_racetimer.qh</a>
-, <a class="el" href="dc/d4f/dialog__hudpanel__radar_8qh.html#a5ad0fb97949e52dcdfaac3d3844074e9">dialog_hudpanel_radar.qh</a>
-, <a class="el" href="d2/d3c/dialog__hudpanel__score_8qh.html#a88ae1477b9b8df8863981ad0003b1c32">dialog_hudpanel_score.qh</a>
-, <a class="el" href="d7/de8/dialog__hudpanel__timer_8qh.html#a0d87e3a7fd73449d970014a0eb4b2672">dialog_hudpanel_timer.qh</a>
-, <a class="el" href="d8/d1e/dialog__hudpanel__vote_8qh.html#ad7ff540ea67310f0e02cc65aa2ca1a34">dialog_hudpanel_vote.qh</a>
-, <a class="el" href="db/d29/dialog__hudpanel__weapons_8qh.html#afef48cebb32ac0c2066f7aba96a090ca">dialog_hudpanel_weapons.qh</a>
-, <a class="el" href="d0/d13/dialog__hudsetup__exit_8qh.html#af13ba46f865a73c0bd96242f8809db22">dialog_hudsetup_exit.qh</a>
-, <a class="el" href="df/d7d/dialog__monstertools_8qh.html#a7ae318964b3220eb697e76512a44d0ab">dialog_monstertools.qh</a>
-, <a class="el" href="dd/d46/dialog__multiplayer_8qh.html#a2ccdbbadd7e1f11fd6e9061b7d7461c5">dialog_multiplayer.qh</a>
-, <a class="el" href="db/d46/dialog__multiplayer__create_8qh.html#a71ff91302a051b25d44e3fd20b2acf73">dialog_multiplayer_create.qh</a>
-, <a class="el" href="dc/d52/dialog__multiplayer__create__mapinfo_8qh.html#ad9581e765b337ac693a89e0b596e753d">dialog_multiplayer_create_mapinfo.qh</a>
-, <a class="el" href="d6/d7d/dialog__multiplayer__create__mutators_8qh.html#a938e473eba3900754a2be77bee2e95f9">dialog_multiplayer_create_mutators.qh</a>
-, <a class="el" href="d7/d42/dialog__multiplayer__join_8qh.html#a97709a118996cd241f03e9271faf46d0">dialog_multiplayer_join.qh</a>
-, <a class="el" href="d1/d33/dialog__multiplayer__join__serverinfo_8qh.html#a9a6067bc8f6b57c7b7fc105af3e4f616">dialog_multiplayer_join_serverinfo.qh</a>
-, <a class="el" href="d3/deb/dialog__multiplayer__media_8qh.html#a65a2b15630e3f101bbaf0d0fef596b2f">dialog_multiplayer_media.qh</a>
-, <a class="el" href="d6/de7/dialog__multiplayer__media__demo_8qh.html#a28f1e2213f192b8994caa10a9f781855">dialog_multiplayer_media_demo.qh</a>
-, <a class="el" href="d6/d5c/dialog__settings__game__weapons_8qh.html#acbb0747906f4b3f48cbf8827c5b94899">dialog_settings_game_weapons.qh</a>
-, <a class="el" href="da/d5c/dialog__multiplayer__media__demo__startconfirm_8qh.html#a87a808b3c713196d24ded26e55123364">dialog_multiplayer_media_demo_startconfirm.qh</a>
-, <a class="el" href="d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh.html#a97b0f0880f8a2a514f5cbd91375cfc2a">dialog_multiplayer_media_demo_timeconfirm.qh</a>
-, <a class="el" href="db/dd7/dialog__multiplayer__media__musicplayer_8qh.html#a5efc1aea310b2481963fb910e9c9fb57">dialog_multiplayer_media_musicplayer.qh</a>
-, <a class="el" href="d7/d76/dialog__settings__game__model_8qh.html#ae45685e3ef9537557c35ef36a2633921">dialog_settings_game_model.qh</a>
-, <a class="el" href="d3/dd4/dialog__multiplayer__media__screenshot_8qh.html#ac40ea7f49c699f19ee7c46ec9a0cf4e2">dialog_multiplayer_media_screenshot.qh</a>
-, <a class="el" href="df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html#af11023be7fcc00f81d6d91390e9e7127">dialog_multiplayer_media_screenshot_viewer.qh</a>
-, <a class="el" href="dd/d8a/dialog__settings__game__hudconfirm_8qh.html#a1353c415383e284460a94b0b53601c5b">dialog_settings_game_hudconfirm.qh</a>
-, <a class="el" href="df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html#a6a8c63105be039b8a393d57fd284c431">dialog_multiplayer_media_screenshot_viewer.qh</a>
-, <a class="el" href="d8/d95/dialog__multiplayer__profile_8qh.html#aa305c0bbbce0a7ca4731a357737b3491">dialog_multiplayer_profile.qh</a>
-, <a class="el" href="d7/d13/dialog__quit_8qh.html#aff0a2404df1fc2b1f185a70073c47915">dialog_quit.qh</a>
-, <a class="el" href="d9/d63/dialog__sandboxtools_8qh.html#a0a02054c3d361d94e8aba5685942f8df">dialog_sandboxtools.qh</a>
-, <a class="el" href="d5/dab/dialog__settings__game_8qh.html#a1edec40fc1bde6386414f9ca10725d15">dialog_settings_game.qh</a>
-, <a class="el" href="dc/d23/dialog__settings_8qh.html#a5cc7e8ea5ce2ba66869a038c5b9d05d6">dialog_settings.qh</a>
-, <a class="el" href="d9/d40/dialog__settings__audio_8qh.html#a23bae3b1ca3dcb9b7b74f6773469cb96">dialog_settings_audio.qh</a>
-, <a class="el" href="de/dc5/dialog__settings__effects_8qh.html#ab8b9da937e5966111e7f25eea3c0c0e6">dialog_settings_effects.qh</a>
-, <a class="el" href="de/d48/dialog__settings__game_8qc.html#a961f797bee78f850f491892e3f0e028d">dialog_settings_game.qc</a>
-, <a class="el" href="d5/dab/dialog__settings__game_8qh.html#a961f797bee78f850f491892e3f0e028d">dialog_settings_game.qh</a>
-, <a class="el" href="d3/d99/dialog__settings__game__crosshair_8qh.html#a8c1ceccb338f03961683168e1b0da1fa">dialog_settings_game_crosshair.qh</a>
-, <a class="el" href="df/d54/dialog__settings__game__hud_8qh.html#a1e7be07011c958d4a8c87a8770c26f8f">dialog_settings_game_hud.qh</a>
-, <a class="el" href="d5/d53/dialog__settings__game__messages_8qh.html#a3439ca764b2cd8b4fa99bf567de3019c">dialog_settings_game_messages.qh</a>
-, <a class="el" href="d7/d76/dialog__settings__game__model_8qh.html#a68c463104b031928c3ce4e0f26a90ded">dialog_settings_game_model.qh</a>
-, <a class="el" href="dc/dd8/dialog__settings__game__view_8qh.html#a18815a85954562da84510356412a0df9">dialog_settings_game_view.qh</a>
-, <a class="el" href="d6/d5c/dialog__settings__game__weapons_8qh.html#ac31e10a7258591dbd5ddd8f327f5977e">dialog_settings_game_weapons.qh</a>
+<li>METHOD
+: <a class="el" href="db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">oo.qh</a>
 </li>
 <li>METHOD_REFERENCE
 : <a class="el" href="db/d0a/oo_8qh.html#af3216aa755aa9be11693577fbfdb22ba">oo.qh</a>
@@ -1864,7 +1632,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">menudefs.qc</a>
 </li>
 <li>MIN_DAMAGEEXTRARADIUS
-: <a class="el" href="d5/d26/server_2defs_8qh.html#a7e750772aafa38fe4dada534e30b2ce6">defs.qh</a>
+: <a class="el" href="d9/d08/client_2defs_8qh.html#a7e750772aafa38fe4dada534e30b2ce6">defs.qh</a>
 </li>
 <li>MIN_URL_ID
 : <a class="el" href="dc/dbb/urllib_8qh.html#a9bcb43892d78bc065d0e237c9c2a27d6">urllib.qh</a>
@@ -1907,16 +1675,16 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">cl_minigames.qh</a>
 </li>
 <li>minigame_cmd_workaround()
-: <a class="el" href="de/d3d/cl__minigames_8qh.html#a3248db1aa7a2ca4c46e7cbe9e220b3f2">cl_minigames.qh</a>
-, <a class="el" href="d4/db7/cl__minigames_8qc.html#a3248db1aa7a2ca4c46e7cbe9e220b3f2">cl_minigames.qc</a>
+: <a class="el" href="d4/db7/cl__minigames_8qc.html#a3248db1aa7a2ca4c46e7cbe9e220b3f2">cl_minigames.qc</a>
+, <a class="el" href="de/d3d/cl__minigames_8qh.html#a3248db1aa7a2ca4c46e7cbe9e220b3f2">cl_minigames.qh</a>
 </li>
 <li>minigame_count_players()
 : <a class="el" href="d3/dbf/minigames_8qc.html#a50da88a37fb88826817f7d669b24c423">minigames.qc</a>
 , <a class="el" href="d6/dbd/minigames_8qh.html#a50da88a37fb88826817f7d669b24c423">minigames.qh</a>
 </li>
 <li>minigame_drawcolorcodedstring_trunc()
-: <a class="el" href="de/d3d/cl__minigames_8qh.html#a02caccc9afc8eec2f9c7ed6fc85eac95">cl_minigames.qh</a>
-, <a class="el" href="d4/db7/cl__minigames_8qc.html#a02caccc9afc8eec2f9c7ed6fc85eac95">cl_minigames.qc</a>
+: <a class="el" href="d4/db7/cl__minigames_8qc.html#a02caccc9afc8eec2f9c7ed6fc85eac95">cl_minigames.qc</a>
+, <a class="el" href="de/d3d/cl__minigames_8qh.html#a02caccc9afc8eec2f9c7ed6fc85eac95">cl_minigames.qh</a>
 </li>
 <li>minigame_drawcolorcodedstring_wrapped()
 : <a class="el" href="d4/db7/cl__minigames_8qc.html#a74fcaa9da40aa62de287463ceb0a2908">cl_minigames.qc</a>
@@ -1931,22 +1699,22 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 , <a class="el" href="de/d3d/cl__minigames_8qh.html#a9ba4163f64eccb4bc6a3c4d86679558e">cl_minigames.qh</a>
 </li>
 <li>minigame_drawstring_wrapped()
-: <a class="el" href="de/d3d/cl__minigames_8qh.html#a14e89872347ae0a8a8837044d3a4e843">cl_minigames.qh</a>
-, <a class="el" href="d4/db7/cl__minigames_8qc.html#a14e89872347ae0a8a8837044d3a4e843">cl_minigames.qc</a>
+: <a class="el" href="d4/db7/cl__minigames_8qc.html#a14e89872347ae0a8a8837044d3a4e843">cl_minigames.qc</a>
+, <a class="el" href="de/d3d/cl__minigames_8qh.html#a14e89872347ae0a8a8837044d3a4e843">cl_minigames.qh</a>
 </li>
 <li>minigame_entremove()
 : <a class="el" href="d4/db7/cl__minigames_8qc.html#ab11644e8eab7f5962853fd7b5f4fab1f">cl_minigames.qc</a>
 </li>
 <li>minigame_find_player()
-: <a class="el" href="d3/df9/sv__minigames_8qh.html#adc16d8941e92e46b2c981aa50248764b">sv_minigames.qh</a>
-, <a class="el" href="d7/d33/sv__minigames_8qc.html#adc16d8941e92e46b2c981aa50248764b">sv_minigames.qc</a>
+: <a class="el" href="d7/d33/sv__minigames_8qc.html#adc16d8941e92e46b2c981aa50248764b">sv_minigames.qc</a>
+, <a class="el" href="d3/df9/sv__minigames_8qh.html#adc16d8941e92e46b2c981aa50248764b">sv_minigames.qh</a>
 </li>
 <li>minigame_flags
 : <a class="el" href="d6/dbd/minigames_8qh.html#a444ee7c09c6b56ccba4e1ea20820e104">minigames.qh</a>
 </li>
 <li>minigame_get_descriptor()
-: <a class="el" href="d6/dbd/minigames_8qh.html#abb2f72c4f1307f3e774ad15b4235abb2">minigames.qh</a>
-, <a class="el" href="d3/dbf/minigames_8qc.html#abb2f72c4f1307f3e774ad15b4235abb2">minigames.qc</a>
+: <a class="el" href="d3/dbf/minigames_8qc.html#abb2f72c4f1307f3e774ad15b4235abb2">minigames.qc</a>
+, <a class="el" href="d6/dbd/minigames_8qh.html#abb2f72c4f1307f3e774ad15b4235abb2">minigames.qh</a>
 </li>
 <li>minigame_getWrappedLine()
 : <a class="el" href="d4/db7/cl__minigames_8qc.html#a5657b7bf68ae63b8b3c54c10a722f74b">cl_minigames.qc</a>
@@ -1956,8 +1724,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 , <a class="el" href="de/d3d/cl__minigames_8qh.html#aa5e0439843364cfdf2701a9992dac50e">cl_minigames.qh</a>
 </li>
 <li>minigame_hud_denormalize_size()
-: <a class="el" href="de/d3d/cl__minigames_8qh.html#a7106641b219836128248d423976191df">cl_minigames.qh</a>
-, <a class="el" href="d4/db7/cl__minigames_8qc.html#a7106641b219836128248d423976191df">cl_minigames.qc</a>
+: <a class="el" href="d4/db7/cl__minigames_8qc.html#a7106641b219836128248d423976191df">cl_minigames.qc</a>
+, <a class="el" href="de/d3d/cl__minigames_8qh.html#a7106641b219836128248d423976191df">cl_minigames.qh</a>
 </li>
 <li>minigame_hud_fitsqare
 : <a class="el" href="de/d3d/cl__minigames_8qh.html#a7276ca5834cd946d0c493571cdb279e4">cl_minigames.qh</a>
@@ -1974,15 +1742,15 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="de/d3d/cl__minigames_8qh.html#a53191af7f1fb35ca5639b52fae1b6481">cl_minigames.qh</a>
 </li>
 <li>minigame_hud_simpleboard()
-: <a class="el" href="de/d3d/cl__minigames_8qh.html#a3f50d48603ccc5c4949bf5d84b0daa78">cl_minigames.qh</a>
-, <a class="el" href="d4/db7/cl__minigames_8qc.html#a3f50d48603ccc5c4949bf5d84b0daa78">cl_minigames.qc</a>
+: <a class="el" href="d4/db7/cl__minigames_8qc.html#a3f50d48603ccc5c4949bf5d84b0daa78">cl_minigames.qc</a>
+, <a class="el" href="de/d3d/cl__minigames_8qh.html#a3f50d48603ccc5c4949bf5d84b0daa78">cl_minigames.qh</a>
 </li>
 <li>minigame_isactive()
 : <a class="el" href="de/d3d/cl__minigames_8qh.html#a912007d91ee78507abfb42657032380f">cl_minigames.qh</a>
 </li>
 <li>minigame_next_team()
-: <a class="el" href="d6/dbd/minigames_8qh.html#a861b76acd237a6c594cb831085a9af9a">minigames.qh</a>
-, <a class="el" href="d3/dbf/minigames_8qc.html#a861b76acd237a6c594cb831085a9af9a">minigames.qc</a>
+: <a class="el" href="d3/dbf/minigames_8qc.html#a861b76acd237a6c594cb831085a9af9a">minigames.qc</a>
+, <a class="el" href="d6/dbd/minigames_8qh.html#a861b76acd237a6c594cb831085a9af9a">minigames.qh</a>
 </li>
 <li>minigame_player_entremove()
 : <a class="el" href="d4/db7/cl__minigames_8qc.html#aa5a6829423552f0f4452707e027ff734">cl_minigames.qc</a>
@@ -1994,8 +1762,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="de/d3d/cl__minigames_8qh.html#ae6f3121e64bf13d1f759fdcea23cf6d3">cl_minigames.qh</a>
 </li>
 <li>minigame_prev_team()
-: <a class="el" href="d6/dbd/minigames_8qh.html#a5568c7bdd5bad578cdc98deb0789b79c">minigames.qh</a>
-, <a class="el" href="d3/dbf/minigames_8qc.html#a5568c7bdd5bad578cdc98deb0789b79c">minigames.qc</a>
+: <a class="el" href="d3/dbf/minigames_8qc.html#a5568c7bdd5bad578cdc98deb0789b79c">minigames.qc</a>
+, <a class="el" href="d6/dbd/minigames_8qh.html#a5568c7bdd5bad578cdc98deb0789b79c">minigames.qh</a>
 </li>
 <li>minigame_prompt()
 : <a class="el" href="d4/db7/cl__minigames_8qc.html#a0e95d808ea50b0343ffb6f1b6d5ae445">cl_minigames.qc</a>
@@ -2022,8 +1790,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 , <a class="el" href="d3/df9/sv__minigames_8qh.html#aab44cdcc6da2749f6c0184f5c35c9c73">sv_minigames.qh</a>
 </li>
 <li>minigame_server_sendflags()
-: <a class="el" href="d6/dbd/minigames_8qh.html#a4dc5c5f4dc66bb440b23ffbbffece3d6">minigames.qh</a>
-, <a class="el" href="d3/dbf/minigames_8qc.html#a4dc5c5f4dc66bb440b23ffbbffece3d6">minigames.qc</a>
+: <a class="el" href="d3/dbf/minigames_8qc.html#a4dc5c5f4dc66bb440b23ffbbffece3d6">minigames.qc</a>
+, <a class="el" href="d6/dbd/minigames_8qh.html#a4dc5c5f4dc66bb440b23ffbbffece3d6">minigames.qh</a>
 </li>
 <li>minigame_sessions
 : <a class="el" href="d3/df9/sv__minigames_8qh.html#a524d14ba3717c12b77821c1fd959d8a0">sv_minigames.qh</a>
@@ -2042,20 +1810,20 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="d4/db7/cl__minigames_8qc.html#a5f36281bd221f84e9e614d8976cd7dd1">cl_minigames.qc</a>
 </li>
 <li>minigame_tile_buildname()
-: <a class="el" href="d6/dbd/minigames_8qh.html#adbfd9d3db8c920f23ecda1e18d9a65ab">minigames.qh</a>
-, <a class="el" href="d3/dbf/minigames_8qc.html#adbfd9d3db8c920f23ecda1e18d9a65ab">minigames.qc</a>
+: <a class="el" href="d3/dbf/minigames_8qc.html#adbfd9d3db8c920f23ecda1e18d9a65ab">minigames.qc</a>
+, <a class="el" href="d6/dbd/minigames_8qh.html#adbfd9d3db8c920f23ecda1e18d9a65ab">minigames.qh</a>
 </li>
 <li>minigame_tile_letter()
-: <a class="el" href="d6/dbd/minigames_8qh.html#ab50b72cd401e642ccfaa7614ac58d414">minigames.qh</a>
-, <a class="el" href="d3/dbf/minigames_8qc.html#ab50b72cd401e642ccfaa7614ac58d414">minigames.qc</a>
+: <a class="el" href="d3/dbf/minigames_8qc.html#ab50b72cd401e642ccfaa7614ac58d414">minigames.qc</a>
+, <a class="el" href="d6/dbd/minigames_8qh.html#ab50b72cd401e642ccfaa7614ac58d414">minigames.qh</a>
 </li>
 <li>minigame_tile_name()
-: <a class="el" href="d6/dbd/minigames_8qh.html#ab81c669b54415bca697594d9fb7f70f4">minigames.qh</a>
-, <a class="el" href="d3/dbf/minigames_8qc.html#ab81c669b54415bca697594d9fb7f70f4">minigames.qc</a>
+: <a class="el" href="d3/dbf/minigames_8qc.html#ab81c669b54415bca697594d9fb7f70f4">minigames.qc</a>
+, <a class="el" href="d6/dbd/minigames_8qh.html#ab81c669b54415bca697594d9fb7f70f4">minigames.qh</a>
 </li>
 <li>minigame_tile_number()
-: <a class="el" href="d6/dbd/minigames_8qh.html#ae654db0c0ec8adbcddf96b15d435b5d4">minigames.qh</a>
-, <a class="el" href="d3/dbf/minigames_8qc.html#ae654db0c0ec8adbcddf96b15d435b5d4">minigames.qc</a>
+: <a class="el" href="d3/dbf/minigames_8qc.html#ae654db0c0ec8adbcddf96b15d435b5d4">minigames.qc</a>
+, <a class="el" href="d6/dbd/minigames_8qh.html#ae654db0c0ec8adbcddf96b15d435b5d4">minigames.qh</a>
 </li>
 <li>minigame_tile_pos()
 : <a class="el" href="d3/dbf/minigames_8qc.html#ac1282b42ad31f99e60e3b12c526c360d">minigames.qc</a>
@@ -2066,8 +1834,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 , <a class="el" href="d3/df9/sv__minigames_8qh.html#a4d095007340d2f63138e93c1705dc92c">sv_minigames.qh</a>
 </li>
 <li>Minigames_from
-: <a class="el" href="d3/df9/sv__minigames_8qh.html#a155215c6b736bc7e27879b9f0f4ca343">sv_minigames.qh</a>
-, <a class="el" href="de/d3d/cl__minigames_8qh.html#a155215c6b736bc7e27879b9f0f4ca343">cl_minigames.qh</a>
+: <a class="el" href="de/d3d/cl__minigames_8qh.html#a155215c6b736bc7e27879b9f0f4ca343">cl_minigames.qh</a>
+, <a class="el" href="d3/df9/sv__minigames_8qh.html#a155215c6b736bc7e27879b9f0f4ca343">sv_minigames.qh</a>
 </li>
 <li>MINIGAMES_H
 : <a class="el" href="d6/dbd/minigames_8qh.html#abaa8ee727aabba8b7108aa81abdef5c7">minigames.qh</a>
@@ -2076,8 +1844,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="d0/d2a/client_2main_8qh.html#ac53aaf82ef2963a8445fa8f1f1fe4057">main.qh</a>
 </li>
 <li>mins
-: <a class="el" href="d6/d11/progsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">progsdefs.qc</a>
-, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">csprogsdefs.qc</a>
+: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">csprogsdefs.qc</a>
+, <a class="el" href="d6/d11/progsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">progsdefs.qc</a>
 </li>
 <li>misc_bulletcounter
 : <a class="el" href="d5/d26/server_2defs_8qh.html#ad074b805790481ed3367d5308ad8ae38">defs.qh</a>
@@ -2118,12 +1886,12 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="dd/d59/modicons_8qc.html#aa2761d2fc316710b016af9c352e83ee5">modicons.qc</a>
 </li>
 <li>Mod_Q1BSP_NativeContentsFromSuperContents()
-: <a class="el" href="d5/df2/common_2util_8qh.html#a5a5b192b1222eacd1e23dfdeab66ab62">util.qh</a>
-, <a class="el" href="da/d44/common_2util_8qc.html#a5a5b192b1222eacd1e23dfdeab66ab62">util.qc</a>
+: <a class="el" href="da/d44/common_2util_8qc.html#a5a5b192b1222eacd1e23dfdeab66ab62">util.qc</a>
+, <a class="el" href="d5/df2/common_2util_8qh.html#a5a5b192b1222eacd1e23dfdeab66ab62">util.qh</a>
 </li>
 <li>Mod_Q1BSP_SuperContentsFromNativeContents()
-: <a class="el" href="d5/df2/common_2util_8qh.html#a235b8af89a030c6fb731267b0ef36e8e">util.qh</a>
-, <a class="el" href="da/d44/common_2util_8qc.html#a235b8af89a030c6fb731267b0ef36e8e">util.qc</a>
+: <a class="el" href="da/d44/common_2util_8qc.html#a235b8af89a030c6fb731267b0ef36e8e">util.qc</a>
+, <a class="el" href="d5/df2/common_2util_8qh.html#a235b8af89a030c6fb731267b0ef36e8e">util.qh</a>
 </li>
 <li>ModalController_addItem()
 : <a class="el" href="d9/d19/modalcontroller_8qc.html#a45c9a7f3af5cd89bb1b57e379d7936fe">modalcontroller.qc</a>
@@ -2174,65 +1942,51 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="d9/d19/modalcontroller_8qc.html#a79308430aec6cab3cf00c3dc9054d66c">modalcontroller.qc</a>
 </li>
 <li>ModalController_state
-: <a class="el" href="d7/de8/modalcontroller_8qh.html#ae6d4b13463473ae70d990fd07d4d93f2">modalcontroller.qh</a>
-, <a class="el" href="d9/d19/modalcontroller_8qc.html#ae6d4b13463473ae70d990fd07d4d93f2">modalcontroller.qc</a>
+: <a class="el" href="d9/d19/modalcontroller_8qc.html#ae6d4b13463473ae70d990fd07d4d93f2">modalcontroller.qc</a>
+, <a class="el" href="d7/de8/modalcontroller_8qh.html#ae6d4b13463473ae70d990fd07d4d93f2">modalcontroller.qh</a>
 </li>
 <li>ModalController_switchState()
 : <a class="el" href="d9/d19/modalcontroller_8qc.html#abced4ed78545525a96946c0723db6971">modalcontroller.qc</a>
 </li>
 <li>MODEL()
-: <a class="el" href="d3/d09/common_2models_2all_8inc.html#a4244ecb099d43561ebf790b8921cc033">all.inc</a>
-, <a class="el" href="d6/d35/debug_8qc.html#a2e17e1231733cc77477d3ba0e0c7cbfe">debug.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#adb319afe70867775731a4ba1b536f27d">all.inc</a>
-, <a class="el" href="d6/d35/debug_8qc.html#a5148610c0037353a292c09cf7c39e846">debug.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a4316d0ed3720efd1f0c245020da73768">all.inc</a>
-, <a class="el" href="d6/d35/debug_8qc.html#aba33b2c47cd8e47635ed7c71b253b72d">debug.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a1f97406646d40eb8338c5d934d4e7600">all.inc</a>
-, <a class="el" href="d0/d8b/spider_8qc.html#a1a23bb7ae983f9f027f6ae14ab5cef7d">spider.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#adfac78e88e744b5e6c96d5bd8ffcb21c">all.inc</a>
-, <a class="el" href="d2/dc1/items_8qc.html#a6bc7cfdbd7080a322f02a071d7c10f1d">items.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#ab7a12efbb6b2713cd316ab57fcfa863c">all.inc</a>
-, <a class="el" href="d9/d39/wyvern_8qc.html#a008c8acc59d809efb5a33604711389e9">wyvern.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a06501614ec7772712fbc34a0b5783c06">all.inc</a>
-, <a class="el" href="d2/dc1/items_8qc.html#a6db416f883b7456d32609a7340e45a0b">items.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a483e59d6554d784f6833a977fc29a31c">all.inc</a>
-, <a class="el" href="da/d70/zombie_8qc.html#a1450a845b1fce4f7eae24f5464a3bea2">zombie.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#aa4f118e705a467dc93d6034467f57d25">all.inc</a>
+: <a class="el" href="d3/d09/common_2models_2all_8inc.html#a0445830007be2bb6c9505fecbbfb0fd3">all.inc</a>
 , <a class="el" href="de/dbe/mage_8qc.html#ad33a157e3383678e42dab91c2cee1642">mage.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a60f7812e5198e3129942b12a890dca69">all.inc</a>
-, <a class="el" href="da/dcf/jetpack_8qc.html#a4bfbff9ebfc74ce094f315afd8e45a01">jetpack.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a73b423f33c924f77ba0dedcc8b24a370">all.inc</a>
-, <a class="el" href="da/dcf/jetpack_8qc.html#ad61238ef20328cad6bbbb782df033969">jetpack.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#af41377be2d01989b4a807cdfe2af0b24">all.inc</a>
-, <a class="el" href="d8/d93/powerup_8qc.html#a7668c1ab0fe178f955db0d9bcb6dd5d8">powerup.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a3ff4133c9572478d04f78fc553b73a64">all.inc</a>
-, <a class="el" href="d8/d93/powerup_8qc.html#a15c2429256cf06975a9436a90bbc793e">powerup.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a824f2762ddbb3a599f14b537bdffcc62">all.inc</a>
-, <a class="el" href="d0/d6a/health_8qc.html#a118e96b5fc03e2fec24c06e1ad0702e1">health.qc</a>
-, <a class="el" href="d0/da7/armor_8qc.html#a56aa76767af0b6e9c3815b9e34d59a7e">armor.qc</a>
-, <a class="el" href="d0/d6a/health_8qc.html#a59ec99e5c06ff0ca808e30d83eb1b644">health.qc</a>
-, <a class="el" href="d0/da7/armor_8qc.html#a42070d6a0b84b6c907a1436557bee940">armor.qc</a>
-, <a class="el" href="d7/d39/common_2models_2all_8qh.html#a684da11740152ec2a19925538503fb9a">all.qh</a>
-, <a class="el" href="d3/d9e/common_2items_2item_2ammo_8qc.html#abe63c00bb9d50d5170d150d28fe377ca">ammo.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a589ab992baae49b2358523b112d159fb">all.inc</a>
-, <a class="el" href="d3/d9e/common_2items_2item_2ammo_8qc.html#ac6479ade587e6a9323b39d9771047496">ammo.qc</a>
-, <a class="el" href="d0/da7/armor_8qc.html#aae30dd6f35f6298439f083f83890d7a8">armor.qc</a>
-, <a class="el" href="d0/d6a/health_8qc.html#ad210c020cc9325e762e113b19945fd28">health.qc</a>
-, <a class="el" href="da/dcf/jetpack_8qc.html#af79b26c14393db1c8d03d12c1f79e3ea">jetpack.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a65326580dc5146c75808ae7308ce65f5">all.inc</a>
-, <a class="el" href="d3/d9e/common_2items_2item_2ammo_8qc.html#a58c1929876ac74123b5e252a2886c45f">ammo.qc</a>
-, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a1e23b7d8ee567f46c42d374a86351f63">all.inc</a>
-, <a class="el" href="d7/d39/common_2models_2all_8qh.html#ad73fb3972574b68724835ad791198c1c">all.qh</a>
 , <a class="el" href="db/dd2/shambler_8qc.html#a415f4641b85513e5e561b47c0bbda331">shambler.qc</a>
+, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a812a734e9d7fcbe5beddc7c5656a310f">all.inc</a>
+, <a class="el" href="d0/d8b/spider_8qc.html#a1a23bb7ae983f9f027f6ae14ab5cef7d">spider.qc</a>
+, <a class="el" href="da/d70/zombie_8qc.html#a1450a845b1fce4f7eae24f5464a3bea2">zombie.qc</a>
 , <a class="el" href="d2/dc1/items_8qc.html#ab686a98b58b6ba2a597920f77e0cd134">items.qc</a>
+, <a class="el" href="d3/d09/common_2models_2all_8inc.html#ac92808f63f00f0b75b59f29e5cc1d895">all.inc</a>
+, <a class="el" href="d2/dc1/items_8qc.html#a6db416f883b7456d32609a7340e45a0b">items.qc</a>
 , <a class="el" href="d6/d35/debug_8qc.html#a442a44dd3f4c13eaeae17434cb02ab67">debug.qc</a>
 </li>
 <li>model
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">csprogsdefs.qc</a>
-, <a class="el" href="d6/d11/progsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">progsdefs.qc</a>
 </li>
 <li>MODEL()
-: <a class="el" href="d3/d09/common_2models_2all_8inc.html#afcb9943bcb2edf42e04da39534d937aa">all.inc</a>
+: <a class="el" href="d6/d35/debug_8qc.html#aba33b2c47cd8e47635ed7c71b253b72d">debug.qc</a>
+, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a82411fa92eaae3356e537e2b5b05e88e">all.inc</a>
+</li>
+<li>model
+: <a class="el" href="d6/d11/progsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">progsdefs.qc</a>
+</li>
+<li>MODEL()
+: <a class="el" href="d6/d35/debug_8qc.html#a5148610c0037353a292c09cf7c39e846">debug.qc</a>
+, <a class="el" href="d9/d39/wyvern_8qc.html#a008c8acc59d809efb5a33604711389e9">wyvern.qc</a>
+, <a class="el" href="d3/d09/common_2models_2all_8inc.html#ad15f69f7d5edef332050a77877b6084d">all.inc</a>
+, <a class="el" href="d7/d39/common_2models_2all_8qh.html#ad73fb3972574b68724835ad791198c1c">all.qh</a>
+, <a class="el" href="d3/d09/common_2models_2all_8inc.html#aafac11636a9afc6d486d66f4316b4970">all.inc</a>
+, <a class="el" href="d0/da7/armor_8qc.html#a1d49a1545eefb56388440b520c244cc8">armor.qc</a>
+, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a17eed53da3a0ddc8d7e5e9f589837cd0">all.inc</a>
+, <a class="el" href="d3/d9e/common_2items_2item_2ammo_8qc.html#a38fbece6042e21db7ea09b0e2327e67a">ammo.qc</a>
+, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a418282566ca669b649378aa2f010bd7f">all.inc</a>
+, <a class="el" href="d7/d39/common_2models_2all_8qh.html#a684da11740152ec2a19925538503fb9a">all.qh</a>
+, <a class="el" href="d3/d9e/common_2items_2item_2ammo_8qc.html#abe63c00bb9d50d5170d150d28fe377ca">ammo.qc</a>
+, <a class="el" href="d0/da7/armor_8qc.html#a56aa76767af0b6e9c3815b9e34d59a7e">armor.qc</a>
+, <a class="el" href="d0/d6a/health_8qc.html#a59ec99e5c06ff0ca808e30d83eb1b644">health.qc</a>
+, <a class="el" href="da/dcf/jetpack_8qc.html#a4bfbff9ebfc74ce094f315afd8e45a01">jetpack.qc</a>
+, <a class="el" href="d8/d93/powerup_8qc.html#a7668c1ab0fe178f955db0d9bcb6dd5d8">powerup.qc</a>
+, <a class="el" href="d3/d09/common_2models_2all_8inc.html#a65326580dc5146c75808ae7308ce65f5">all.inc</a>
 </li>
 <li>MODEL_H
 : <a class="el" href="d7/d1d/model_8qh.html#a574be60012993a9d45a01289faeccb49">model.qh</a>
@@ -2240,16 +1994,13 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 <li>model_randomizer
 : <a class="el" href="da/d53/cl__client_8qc.html#a796e7f6d76eff169d587d849ed8c29f0">cl_client.qc</a>
 </li>
-<li>model_str
-: <a class="el" href="d7/d1d/model_8qh.html#afc498695fee788bb1f820d60f5e6713a">model.qh</a>
-</li>
 <li>modelflags
-: <a class="el" href="de/d5e/dpextensions_8qc.html#a9f8b1ba8043465231489991037febc63">dpextensions.qc</a>
-, <a class="el" href="dc/d3d/csqcmodel__hooks_8qc.html#a2d651a2465a2b55127d67c245e3af6db">csqcmodel_hooks.qc</a>
+: <a class="el" href="dc/d3d/csqcmodel__hooks_8qc.html#a2d651a2465a2b55127d67c245e3af6db">csqcmodel_hooks.qc</a>
+, <a class="el" href="de/d5e/dpextensions_8qc.html#a9f8b1ba8043465231489991037febc63">dpextensions.qc</a>
 </li>
 <li>modelindex
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a2f3957a8a9e7c1c19755835bb81af37c">csprogsdefs.qc</a>
-, <a class="el" href="d6/d11/progsdefs_8qc.html#a2f3957a8a9e7c1c19755835bb81af37c">progsdefs.qc</a>
+: <a class="el" href="d6/d11/progsdefs_8qc.html#a2f3957a8a9e7c1c19755835bb81af37c">progsdefs.qc</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a2f3957a8a9e7c1c19755835bb81af37c">csprogsdefs.qc</a>
 </li>
 <li>modellight_ambient
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a84204e21629e4be71614df39c1f2ebe7">csprogsdefs.qc</a>
@@ -2319,12 +2070,14 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 <li>Monster_Attack_Leap_Check()
 : <a class="el" href="da/d4e/sv__monsters_8qc.html#a11264c2824e7a8f5b85b5197f8123d7b">sv_monsters.qc</a>
 </li>
+<li>Monster_Attack_Melee()
+: <a class="el" href="d8/dc1/sv__monsters_8qh.html#a4d3d85283bd5ddf40164418a5f43d27d">sv_monsters.qh</a>
+</li>
 <li>MONSTER_ATTACK_MELEE
 : <a class="el" href="d8/dc1/sv__monsters_8qh.html#aa0ce50a53f76eb41cf015c26e231b08c">sv_monsters.qh</a>
 </li>
 <li>Monster_Attack_Melee()
 : <a class="el" href="da/d4e/sv__monsters_8qc.html#ab2dc2f792fb34df5654f6fffe9f21a8d">sv_monsters.qc</a>
-, <a class="el" href="d8/dc1/sv__monsters_8qh.html#a4d3d85283bd5ddf40164418a5f43d27d">sv_monsters.qh</a>
 </li>
 <li>MONSTER_ATTACK_RANGED
 : <a class="el" href="d8/dc1/sv__monsters_8qh.html#ad44ce9c84852d383c13a73159ec63607">sv_monsters.qh</a>
@@ -2396,8 +2149,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="da/d4e/sv__monsters_8qc.html#a37f7dbf3b68666c1a9348403d38490b8">sv_monsters.qc</a>
 </li>
 <li>Monster_Move_2D()
-: <a class="el" href="da/d4e/sv__monsters_8qc.html#a39a97eb9d8ba1c98ff6ec63da08bf439">sv_monsters.qc</a>
-, <a class="el" href="d8/dc1/sv__monsters_8qh.html#aa02cfc71c843f38f5486c2c519c2e764">sv_monsters.qh</a>
+: <a class="el" href="d8/dc1/sv__monsters_8qh.html#aa02cfc71c843f38f5486c2c519c2e764">sv_monsters.qh</a>
+, <a class="el" href="da/d4e/sv__monsters_8qc.html#a39a97eb9d8ba1c98ff6ec63da08bf439">sv_monsters.qc</a>
 </li>
 <li>MONSTER_MOVE_ENEMY
 : <a class="el" href="d8/dc1/sv__monsters_8qh.html#a39265a291582ecec76146c1352a0f36d">sv_monsters.qh</a>
@@ -2427,8 +2180,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="d8/dc1/sv__monsters_8qh.html#a29d21890b47bfd20356f52c4f570dd1c">sv_monsters.qh</a>
 </li>
 <li>Monster_Remove()
-: <a class="el" href="d8/dc1/sv__monsters_8qh.html#a037cce37ed3ddce0d13829cabb6216ca">sv_monsters.qh</a>
-, <a class="el" href="da/d4e/sv__monsters_8qc.html#a037cce37ed3ddce0d13829cabb6216ca">sv_monsters.qc</a>
+: <a class="el" href="da/d4e/sv__monsters_8qc.html#a037cce37ed3ddce0d13829cabb6216ca">sv_monsters.qc</a>
+, <a class="el" href="d8/dc1/sv__monsters_8qh.html#a037cce37ed3ddce0d13829cabb6216ca">sv_monsters.qh</a>
 </li>
 <li>Monster_Reset()
 : <a class="el" href="da/d4e/sv__monsters_8qc.html#a5b8136f283fe1202d72b0d21f4d542d0">sv_monsters.qc</a>
@@ -2496,8 +2249,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="da/d4e/sv__monsters_8qc.html#a754a84678738128e92ef5ec2d7c7b4b8">sv_monsters.qc</a>
 </li>
 <li>Monster_Spawn()
-: <a class="el" href="da/d4e/sv__monsters_8qc.html#a473e551b6c76c0037bbcfe0c4742b4e9">sv_monsters.qc</a>
-, <a class="el" href="d8/dc1/sv__monsters_8qh.html#a473e551b6c76c0037bbcfe0c4742b4e9">sv_monsters.qh</a>
+: <a class="el" href="d8/dc1/sv__monsters_8qh.html#a473e551b6c76c0037bbcfe0c4742b4e9">sv_monsters.qh</a>
+, <a class="el" href="da/d4e/sv__monsters_8qc.html#a473e551b6c76c0037bbcfe0c4742b4e9">sv_monsters.qc</a>
 </li>
 <li>Monster_Spawn_Setup()
 : <a class="el" href="da/d4e/sv__monsters_8qc.html#ae8583f9bde31f60a7137868d603e2b58">sv_monsters.qc</a>
@@ -2515,8 +2268,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="da/d4e/sv__monsters_8qc.html#a8c66322a41d4de7d89953ee99fa3f753">sv_monsters.qc</a>
 </li>
 <li>Monster_Touch()
-: <a class="el" href="d8/dc1/sv__monsters_8qh.html#a0605878fa34a190981bca6860428e73e">sv_monsters.qh</a>
-, <a class="el" href="da/d4e/sv__monsters_8qc.html#a0605878fa34a190981bca6860428e73e">sv_monsters.qc</a>
+: <a class="el" href="da/d4e/sv__monsters_8qc.html#a0605878fa34a190981bca6860428e73e">sv_monsters.qc</a>
+, <a class="el" href="d8/dc1/sv__monsters_8qh.html#a0605878fa34a190981bca6860428e73e">sv_monsters.qh</a>
 </li>
 <li>MONSTER_TYPE_FLY
 : <a class="el" href="d4/ddc/monster_8qh.html#a6cd57dceeadd45826b77b7d56c18a4ab">monster.qh</a>
@@ -2573,8 +2326,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="d8/dc1/sv__monsters_8qh.html#a5f11f99d5abdea9dbbd364c9d803f0cf">sv_monsters.qh</a>
 </li>
 <li>monsters_setstatus()
-: <a class="el" href="d8/dc1/sv__monsters_8qh.html#aebb34e80bc4aafcc88ae983d13b34668">sv_monsters.qh</a>
-, <a class="el" href="da/d4e/sv__monsters_8qc.html#aebb34e80bc4aafcc88ae983d13b34668">sv_monsters.qc</a>
+: <a class="el" href="da/d4e/sv__monsters_8qc.html#aebb34e80bc4aafcc88ae983d13b34668">sv_monsters.qc</a>
+, <a class="el" href="d8/dc1/sv__monsters_8qh.html#aebb34e80bc4aafcc88ae983d13b34668">sv_monsters.qh</a>
 </li>
 <li>monsters_total
 : <a class="el" href="d8/dc1/sv__monsters_8qh.html#a732e2db60ef961561b1aedeed3ca9f42">sv_monsters.qh</a>
@@ -2605,9 +2358,6 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 </li>
 <li>mousepos
 : <a class="el" href="d3/d05/hud_8qh.html#ade4186b2dfcd53ebfcb07efb8122fc4e">hud.qh</a>
-</li>
-<li>mousePress
-: <a class="el" href="df/de5/screenshotimage_8qh.html#acda4c43daa0b9239c0cfc783fb3d33c5">screenshotimage.qh</a>
 </li>
 <li>move_aiment
 : <a class="el" href="d4/dd7/movetypes_8qh.html#a4d44cd8cd7ac84ca268a780bed73660e">movetypes.qh</a>
@@ -2641,9 +2391,9 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="d4/dd7/movetypes_8qh.html#a83f22a5bf18e2278bdf70e89a32cfd95">movetypes.qh</a>
 </li>
 <li>MOVE_MISSILE
-: <a class="el" href="de/d5e/dpextensions_8qc.html#a697ac34ecfeca12f733860dfea7ac4ad">dpextensions.qc</a>
+: <a class="el" href="d4/d92/csqc__constants_8qh.html#a48c88432036ac2cbd181ed3b1a2f98dd">csqc_constants.qh</a>
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ad82988a2fd69b2fd9e3ad9cfd0cca2b5">csprogsdefs.qc</a>
-, <a class="el" href="d4/d92/csqc__constants_8qh.html#a48c88432036ac2cbd181ed3b1a2f98dd">csqc_constants.qh</a>
+, <a class="el" href="de/d5e/dpextensions_8qc.html#a697ac34ecfeca12f733860dfea7ac4ad">dpextensions.qc</a>
 </li>
 <li>move_movetype
 : <a class="el" href="d4/dd7/movetypes_8qh.html#abb1ac1b4eea6138162b84796904eb961">movetypes.qh</a>
@@ -2651,20 +2401,18 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 <li>move_nextthink
 : <a class="el" href="d4/dd7/movetypes_8qh.html#aaa915fc04af8663d4224fba5feea24ab">movetypes.qh</a>
 </li>
-<li>MOVE_NOMONSTERS
-: <a class="el" href="de/d5e/dpextensions_8qc.html#afbc4bad63e30569204e14eaa27b3cbae">dpextensions.qc</a>
-</li>
 <li>move_nomonsters
 : <a class="el" href="d4/dd7/movetypes_8qh.html#a954b92d41d478b31b2b40ef7c1507ba9">movetypes.qh</a>
 </li>
 <li>MOVE_NOMONSTERS
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a0bbbf5629f7fe1bee3fc388b92308413">csprogsdefs.qc</a>
-, <a class="el" href="d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">csqc_constants.qh</a>
+: <a class="el" href="d4/d92/csqc__constants_8qh.html#af8cdb030bc0344c57967ab7de062e810">csqc_constants.qh</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a0bbbf5629f7fe1bee3fc388b92308413">csprogsdefs.qc</a>
+, <a class="el" href="de/d5e/dpextensions_8qc.html#afbc4bad63e30569204e14eaa27b3cbae">dpextensions.qc</a>
 </li>
 <li>MOVE_NORMAL
-: <a class="el" href="de/d5e/dpextensions_8qc.html#a729e95acb64a22544ca39c435324240c">dpextensions.qc</a>
+: <a class="el" href="d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">csqc_constants.qh</a>
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a5b6597f779ad0ea9032d9c78d22c041d">csprogsdefs.qc</a>
-, <a class="el" href="d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">csqc_constants.qh</a>
+, <a class="el" href="de/d5e/dpextensions_8qc.html#a729e95acb64a22544ca39c435324240c">dpextensions.qc</a>
 </li>
 <li>MOVE_NOTHING
 : <a class="el" href="d7/d71/lib_2warpzone_2common_8qh.html#a95651aade7f0b90307b17d55ba25c953">common.qh</a>
@@ -2757,12 +2505,12 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 , <a class="el" href="dc/dc6/server_2miscfunctions_8qc.html#a980a6f943699026265182e645ad4d8ef">miscfunctions.qc</a>
 </li>
 <li>MoveToRandomMapLocation()
-: <a class="el" href="dc/dc6/server_2miscfunctions_8qc.html#aa93bfe50de097cc229818a2822f45a45">miscfunctions.qc</a>
-, <a class="el" href="dc/d73/server_2miscfunctions_8qh.html#aa93bfe50de097cc229818a2822f45a45">miscfunctions.qh</a>
+: <a class="el" href="dc/d73/server_2miscfunctions_8qh.html#aa93bfe50de097cc229818a2822f45a45">miscfunctions.qh</a>
+, <a class="el" href="dc/dc6/server_2miscfunctions_8qc.html#aa93bfe50de097cc229818a2822f45a45">miscfunctions.qc</a>
 </li>
 <li>MoveToTeam()
-: <a class="el" href="dc/d16/server_2cl__player_8qc.html#a543e29ad6e413d453b48e6a62c38363a">cl_player.qc</a>
-, <a class="el" href="d7/d95/server_2cl__player_8qh.html#a2fb495970d5532052a094294e8082238">cl_player.qh</a>
+: <a class="el" href="d7/d95/server_2cl__player_8qh.html#a2fb495970d5532052a094294e8082238">cl_player.qh</a>
+, <a class="el" href="dc/d16/server_2cl__player_8qc.html#a543e29ad6e413d453b48e6a62c38363a">cl_player.qc</a>
 </li>
 <li>movetype
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a062ef866b0738c655c1e19ce6fce5548">csprogsdefs.qc</a>
@@ -2806,12 +2554,12 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 , <a class="el" href="d4/dd7/movetypes_8qh.html#a0c3c32b8e67737d63dbf704612d6b22c">movetypes.qh</a>
 </li>
 <li>Movetype_Physics_MatchTicrate()
-: <a class="el" href="d2/db1/movetypes_8qc.html#a3a364c3e846cd4c30141d749061c8086">movetypes.qc</a>
-, <a class="el" href="d4/dd7/movetypes_8qh.html#a3a364c3e846cd4c30141d749061c8086">movetypes.qh</a>
+: <a class="el" href="d4/dd7/movetypes_8qh.html#a3a364c3e846cd4c30141d749061c8086">movetypes.qh</a>
+, <a class="el" href="d2/db1/movetypes_8qc.html#a3a364c3e846cd4c30141d749061c8086">movetypes.qc</a>
 </li>
 <li>Movetype_Physics_NoMatchServer()
-: <a class="el" href="d2/db1/movetypes_8qc.html#abc94399163b20fbffafbcdaeda0f8db5">movetypes.qc</a>
-, <a class="el" href="d4/dd7/movetypes_8qh.html#abc94399163b20fbffafbcdaeda0f8db5">movetypes.qh</a>
+: <a class="el" href="d4/dd7/movetypes_8qh.html#abc94399163b20fbffafbcdaeda0f8db5">movetypes.qh</a>
+, <a class="el" href="d2/db1/movetypes_8qc.html#abc94399163b20fbffafbcdaeda0f8db5">movetypes.qc</a>
 </li>
 <li>Movetype_Physics_Spam()
 : <a class="el" href="d1/d25/lib_2csqcmodel_2cl__player_8qc.html#a27475b63d060db9a5458fff44df25a6b">cl_player.qc</a>
@@ -2862,8 +2610,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#af3db643403a39e9ee1378bd2adf183f6">csprogsdefs.qc</a>
 </li>
 <li>MSG_ALL
-: <a class="el" href="d6/d11/progsdefs_8qc.html#ae5be3ce0fe9f70c8b0822bf581e3434c">progsdefs.qc</a>
-, <a class="el" href="d8/de2/menudefs_8qc.html#ae5be3ce0fe9f70c8b0822bf581e3434c">menudefs.qc</a>
+: <a class="el" href="d8/de2/menudefs_8qc.html#ae5be3ce0fe9f70c8b0822bf581e3434c">menudefs.qc</a>
+, <a class="el" href="d6/d11/progsdefs_8qc.html#ae5be3ce0fe9f70c8b0822bf581e3434c">progsdefs.qc</a>
 </li>
 <li>MSG_ANNCE_NOTIF
 : <a class="el" href="dc/de5/common_2notifications_2all_8qh.html#a930165b43df7a91a0717c8cf7b69e0b9">all.qh</a>
@@ -2895,17 +2643,16 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 <li>msg_entity
 : <a class="el" href="d6/d11/progsdefs_8qc.html#a47fc8f1bf5a661bca4df28f5657c5aa5">progsdefs.qc</a>
 </li>
-<li>MSG_INFO_NOTIF()
-: <a class="el" href="df/d00/common_2notifications_2all_8inc.html#a816a5343f5275184d44dfe0699682827">all.inc</a>
-, <a class="el" href="dc/de5/common_2notifications_2all_8qh.html#a77f88494996f9426ad3c4fad41b9b52b">all.qh</a>
-, <a class="el" href="df/d00/common_2notifications_2all_8inc.html#a2760316b963711a8ce41c44c862f5471">all.inc</a>
+<li>MSG_INFO_NOTIF
+: <a class="el" href="dc/de5/common_2notifications_2all_8qh.html#a77f88494996f9426ad3c4fad41b9b52b">all.qh</a>
+, <a class="el" href="df/d00/common_2notifications_2all_8inc.html#a816a5343f5275184d44dfe0699682827">all.inc</a>
 </li>
 <li>MSG_INFO_NOTIF_
 : <a class="el" href="dc/de5/common_2notifications_2all_8qh.html#ab5db56def9e696750004b925c685ac26">all.qh</a>
 </li>
 <li>MSG_INIT
-: <a class="el" href="d8/de2/menudefs_8qc.html#acde1f829c4a246948bc5a9359b7148ae">menudefs.qc</a>
-, <a class="el" href="d6/d11/progsdefs_8qc.html#acde1f829c4a246948bc5a9359b7148ae">progsdefs.qc</a>
+: <a class="el" href="d6/d11/progsdefs_8qc.html#acde1f829c4a246948bc5a9359b7148ae">progsdefs.qc</a>
+, <a class="el" href="d8/de2/menudefs_8qc.html#acde1f829c4a246948bc5a9359b7148ae">menudefs.qc</a>
 </li>
 <li>MSG_MULTI_NOTIF
 : <a class="el" href="dc/de5/common_2notifications_2all_8qh.html#a151358767e41fd5883c506f7582977ed">all.qh</a>
@@ -2915,11 +2662,9 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 , <a class="el" href="d6/d11/progsdefs_8qc.html#a2938cf8334c141eda70b56b31409d120">progsdefs.qc</a>
 </li>
 <li>MSLE
-: <a class="el" href="d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef">minigames.qc</a>
+: <a class="el" href="d7/d33/sv__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef">sv_minigames.qc</a>
 , <a class="el" href="d4/db7/cl__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef">cl_minigames.qc</a>
 , <a class="el" href="d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef">minigames.qc</a>
-, <a class="el" href="d7/d33/sv__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef">sv_minigames.qc</a>
-, <a class="el" href="d4/db7/cl__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef">cl_minigames.qc</a>
 </li>
 <li>msle_base_id
 : <a class="el" href="d3/dbf/minigames_8qc.html#a00ae9932d6ad92e4bd43f0c75058a410">minigames.qc</a>
@@ -2963,8 +2708,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 , <a class="el" href="d3/dbf/minigames_8qc.html#a6a7ba74fcc2a57d2d4d7aa64ab15d4c6">minigames.qc</a>
 </li>
 <li>msle_spawn()
-: <a class="el" href="d6/dbd/minigames_8qh.html#a24e2eea380cf6fceca9ff570a7981200">minigames.qh</a>
-, <a class="el" href="d3/dbf/minigames_8qc.html#a24e2eea380cf6fceca9ff570a7981200">minigames.qc</a>
+: <a class="el" href="d3/dbf/minigames_8qc.html#a24e2eea380cf6fceca9ff570a7981200">minigames.qc</a>
+, <a class="el" href="d6/dbd/minigames_8qh.html#a24e2eea380cf6fceca9ff570a7981200">minigames.qh</a>
 </li>
 <li>msound_delay
 : <a class="el" href="d8/dc1/sv__monsters_8qh.html#af65188818bc9bf87f3058a3b9dd5ffad">sv_monsters.qh</a>
@@ -2976,8 +2721,8 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="d8/de2/menudefs_8qc.html#a8f3bc0ba99ae4ab59705d4ffd7be9677">menudefs.qc</a>
 </li>
 <li>MultiCampaign_Next()
-: <a class="el" href="d7/d01/menu_2xonotic_2campaign_8qh.html#a5656ccb784859a99e35de72266fb310f">campaign.qh</a>
-, <a class="el" href="d3/d69/menu_2xonotic_2campaign_8qc.html#a5656ccb784859a99e35de72266fb310f">campaign.qc</a>
+: <a class="el" href="d3/d69/menu_2xonotic_2campaign_8qc.html#a5656ccb784859a99e35de72266fb310f">campaign.qc</a>
+, <a class="el" href="d7/d01/menu_2xonotic_2campaign_8qh.html#a5656ccb784859a99e35de72266fb310f">campaign.qh</a>
 </li>
 <li>MultiCampaign_Prev()
 : <a class="el" href="d7/d01/menu_2xonotic_2campaign_8qh.html#a1e5782e41ac51960575f7ee5fa22747d">campaign.qh</a>
@@ -3116,9 +2861,9 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 : <a class="el" href="db/d38/base_8qh.html#a8fca73c53ad262fe3202fd62a4089fa1">base.qh</a>
 </li>
 <li>MUTATOR_HOOKABLE()
-: <a class="el" href="d6/ddd/server_2mutators_2events_8qh.html#a3e91679046d4b895f380d3d5fd05ad54">events.qh</a>
+: <a class="el" href="d8/d0e/client_2mutators_2events_8qh.html#ae44e84858c630fe96b01114c016d883b">events.qh</a>
 , <a class="el" href="db/d38/base_8qh.html#a12b5a39184a80239c7fa41bc20a25400">base.qh</a>
-, <a class="el" href="d8/d0e/client_2mutators_2events_8qh.html#a5714a7da6a0706fca795bd2208b63653">events.qh</a>
+, <a class="el" href="d8/d0e/client_2mutators_2events_8qh.html#a66b6a2593d56c2ec92c2b8d43c3cd824">events.qh</a>
 </li>
 <li>MUTATOR_HOOKFUNCTION()
 : <a class="el" href="d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">cl_minigames.qc</a>
@@ -3148,11 +2893,11 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 <li>MUTATOR_ONROLLBACK_OR_REMOVE
 : <a class="el" href="db/d38/base_8qh.html#a18b6800f2d1093efff7a7c8fcdae7f40">base.qh</a>
 </li>
-<li>MUTATOR_REMOVE
-: <a class="el" href="db/d38/base_8qh.html#a0c4d517c990aee134e074f3421ccb9ef">base.qh</a>
-</li>
 <li>Mutator_Remove()
 : <a class="el" href="db/d38/base_8qh.html#a11e9723189e645f9d7e5280d85a9b4bf">base.qh</a>
+</li>
+<li>MUTATOR_REMOVE
+: <a class="el" href="db/d38/base_8qh.html#a0c4d517c990aee134e074f3421ccb9ef">base.qh</a>
 </li>
 <li>MUTATOR_REMOVING
 : <a class="el" href="db/d38/base_8qh.html#a06fc87d81c62e9abb8790b6e5713c55ba5ef677e4616b7d438b64ce2712c881ba">base.qh</a>
@@ -3165,6 +2910,9 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 </li>
 <li>MUTATOR_TYPES
 : <a class="el" href="d4/d95/common_2mutators_2events_8qh.html#af66a8641f9b3587782fad7cc3fa7f220">events.qh</a>
+</li>
+<li>mutatorfunc_t
+: <a class="el" href="db/d38/base_8qh.html#a1b524db6116e5e0f886315e5f5057416">base.qh</a>
 </li>
 <li>MUTATORS_ALL_H
 : <a class="el" href="df/de3/common_2mutators_2all_8qh.html#a0ccd441a741751805e3ef46103096985">all.qh</a>
@@ -3271,7 +3019,7 @@ $(document).ready(function(){initNavTree('globals_m.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

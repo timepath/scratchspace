@@ -1,5 +1,6 @@
 var oo_8qh =
 [
+    [ "Object", "d8/d4b/classObject.html", "d8/d4b/classObject" ],
     [ "_new", "db/d0a/oo_8qh.html#abb1f528f2bd7f47d39b83eab72230797", null ],
     [ "_vtbl", "db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c", null ],
     [ "ATTRIB", "db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f", null ],
@@ -38,11 +39,7 @@ var oo_8qh =
     [ "VTBL", "db/d0a/oo_8qh.html#affebc3e5b45467922d5b040f93e132ce", null ],
     [ "__spawn", "db/d0a/oo_8qh.html#a186a598b3718eb17a3e2fadd94952be3", null ],
     [ "_spawn", "db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4", null ],
-    [ "CLASS", "db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60", null ],
     [ "clearentity", "db/d0a/oo_8qh.html#a4d8e141e1e8e506c1776f2082858e1c5", null ],
-    [ "DESTRUCTOR", "db/d0a/oo_8qh.html#ae0fbddbb2079d681693bb31835562f89", null ],
-    [ "if", "db/d0a/oo_8qh.html#a2e9a860854aac3ac70d66a18c6ec02fb", null ],
-    [ "METHOD", "db/d0a/oo_8qh.html#a3c84ead3a4fcf9c49dd81423b7494324", null ],
     [ "RegisterClasses", "db/d0a/oo_8qh.html#a779314c109bce6e1bf0a26166c36c8f3", null ],
     [ "STATIC_INIT", "db/d0a/oo_8qh.html#ad312499c578788933fd022f7249ab698", null ],
     [ "STATIC_INIT", "db/d0a/oo_8qh.html#ad4a35676db934db865f1a6798a3488f2", null ],
@@ -50,7 +47,6 @@ var oo_8qh =
     [ "classname", "db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec", null ],
     [ "origin", "db/d0a/oo_8qh.html#abe72a6bafb55848ec9cd7f81a6de3c29", null ],
     [ "pure_data", "db/d0a/oo_8qh.html#a8f4a491b5b5587b590375c003d42dbea", null ],
-    [ "s", "db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c", null ],
     [ "sourceLoc", "db/d0a/oo_8qh.html#aec2812211811d2d0824d32e4e9e543fa", null ],
     [ "vtblbase", "db/d0a/oo_8qh.html#ab7246f79454bf896b228c49914b8decb", null ],
     [ "vtblname", "db/d0a/oo_8qh.html#ad51fa825f9684ce664ad4ca0b3131f5b", null ]

@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('de/d68/accumulate_8qh.html','../../');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -124,12 +125,12 @@ Macros</h2></td></tr>
 <tr class="separator:ad2050ee846dff1123c50d269b32ed0d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab58a9266e7719dbfd827c95412eb67be"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be">CALL_ACCUMULATED_FUNCTION</a>(func)&#160;&#160;&#160;<a class="el" href="../../de/d68/accumulate_8qh.html#ade70a07ed0ace4db1fdea0a7cf3bb2d0">ACCUMULATE_call</a>( #func)</td></tr>
 <tr class="separator:ab58a9266e7719dbfd827c95412eb67be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a402f916520763cc54bd64476d42b43ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/accumulate_8qh.html#a402f916520763cc54bd64476d42b43ba">SET_FIRST_OR_LAST</a>(input, first, <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>)&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (!input) { input = (first + <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>); }</td></tr>
-<tr class="separator:a402f916520763cc54bd64476d42b43ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b97c92b7b9830a6f25d3aae9aaf7863"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/accumulate_8qh.html#a0b97c92b7b9830a6f25d3aae9aaf7863">SET_FIELD_COUNT</a>(field, first, <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>)&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (!field) { field = (first + <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>); ++<a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>; }</td></tr>
-<tr class="separator:a0b97c92b7b9830a6f25d3aae9aaf7863"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a63caa863ede3c6510744c01983e44648"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/accumulate_8qh.html#a63caa863ede3c6510744c01983e44648">CHECK_MAX_COUNT</a>(<a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>, <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>, type)&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (<a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a> &gt; <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>) { <a class="el" href="../../d1/d07/framework_8qc.html#af0b03969fc055dc81bb2454fca567998">error</a>(<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(&quot;Maximum &quot;, type, &quot; hit: &quot;, #name, &quot;: &quot;, <a class="el" href="../../d1/d07/framework_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>), &quot;.\n&quot;)); }</td></tr>
+<tr class="memitem:a63caa863ede3c6510744c01983e44648"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/accumulate_8qh.html#a63caa863ede3c6510744c01983e44648">CHECK_MAX_COUNT</a>(<a class="el" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>, <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>, type)&#160;&#160;&#160;if (<a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a> &gt; <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>) { <a class="el" href="../../d1/d07/framework_8qc.html#af0b03969fc055dc81bb2454fca567998">error</a>(<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(&quot;Maximum &quot;, type, &quot; hit: &quot;, #name, &quot;: &quot;, <a class="el" href="../../d1/d07/framework_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>), &quot;.\n&quot;)); }</td></tr>
 <tr class="separator:a63caa863ede3c6510744c01983e44648"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b97c92b7b9830a6f25d3aae9aaf7863"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/accumulate_8qh.html#a0b97c92b7b9830a6f25d3aae9aaf7863">SET_FIELD_COUNT</a>(field, first, <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>)&#160;&#160;&#160;if (!field) { field = (first + <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>); ++<a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>; }</td></tr>
+<tr class="separator:a0b97c92b7b9830a6f25d3aae9aaf7863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a402f916520763cc54bd64476d42b43ba"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d68/accumulate_8qh.html#a402f916520763cc54bd64476d42b43ba">SET_FIRST_OR_LAST</a>(input, first, <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>)&#160;&#160;&#160;if (!input) { input = (first + <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>); }</td></tr>
+<tr class="separator:a402f916520763cc54bd64476d42b43ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -191,7 +192,7 @@ Functions</h2></td></tr>
           <td class="memname">#define CHECK_MAX_COUNT</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, </td>
+          <td class="paramname"><a class="el" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -214,7 +215,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (<a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a> &gt; <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>) { <a class="el" href="../../d1/d07/framework_8qc.html#af0b03969fc055dc81bb2454fca567998">error</a>(<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(&quot;Maximum &quot;, type, &quot; hit: &quot;, #name, &quot;: &quot;, <a class="el" href="../../d1/d07/framework_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>), &quot;.\n&quot;)); }</td>
+          <td></td><td>&#160;&#160;&#160;if (<a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a> &gt; <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>) { <a class="el" href="../../d1/d07/framework_8qc.html#af0b03969fc055dc81bb2454fca567998">error</a>(<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(&quot;Maximum &quot;, type, &quot; hit: &quot;, #name, &quot;: &quot;, <a class="el" href="../../d1/d07/framework_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>), &quot;.\n&quot;)); }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -248,7 +249,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (!field) { field = (first + <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>); ++<a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>; }</td>
+          <td></td><td>&#160;&#160;&#160;if (!field) { field = (first + <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>); ++<a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>; }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -282,7 +283,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462">if</a> (!input) { input = (first + <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>); }</td>
+          <td></td><td>&#160;&#160;&#160;if (!input) { input = (first + <a class="el" href="../../db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">count</a>); }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -308,23 +309,22 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d68/accumulate_8qh_source.html#l00033">33</a> of file <a class="el" href="../../de/d68/accumulate_8qh_source.html">accumulate.qh</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a92cf13c716041b871b091541318400f7">callfunction()</a>, <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00032">n</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00030">name</a>, <a class="el" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a92cf13c716041b871b091541318400f7">callfunction()</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00030">name</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <span class="keywordtype">float</span> i;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keywordtype">float</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a> = numentityfields();</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordtype">string</span> funcprefix = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(<span class="stringliteral">&quot;_ACCUMULATE_&quot;</span>, func, <span class="stringliteral">&quot;__&quot;</span>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keywordtype">float</span> n = numentityfields();</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordtype">string</span> funcprefix = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;_ACCUMULATE_&quot;</span>, func, <span class="stringliteral">&quot;__&quot;</span>);</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordtype">float</span> funcprefixlen = <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(funcprefix);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">for</span> (i = 0; i &lt; <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>; ++i)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">for</span> (i = 0; i &lt; n; ++i)</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            {</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                <span class="keywordtype">string</span> <a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a> = entityfieldname(i);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(name, 0, funcprefixlen) == funcprefix) <a class="code" href="../../d8/de2/menudefs_8qc.html#a92cf13c716041b871b091541318400f7">callfunction</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(name, funcprefixlen, -1));</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            }</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        }</div>
+<div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a92cf13c716041b871b091541318400f7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a92cf13c716041b871b091541318400f7">callfunction</a></div><div class="ttdeci">void callfunction(...)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
-<div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
-<div class="ttc" id="effectinfo_8qc_html_a2ae584d3dad891f2ae754acead0f015a"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a></div><div class="ttdeci">return strcat(s,&quot;}\n&quot;)</div></div>
 <div class="ttc" id="menu_8qh_html_a8ccf841cb59e451791bcb2e1ac4f1edc"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a></div><div class="ttdeci">string name</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00030">menu.qh:30</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -345,7 +345,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../de/d68/accumulate_8qh.html">accumulate.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:38 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:34 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

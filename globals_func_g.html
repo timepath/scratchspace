@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -129,7 +130,7 @@ $(document).ready(function(){initNavTree('globals_func_g.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -565,8 +566,8 @@ $(document).ready(function(){initNavTree('globals_func_g.html','');});
 , <a class="el" href="d2/d06/server_2command_2common_8qh.html#afff16d75dc358b9f81513350d82d92f3">common.qh</a>
 </li>
 <li>GetFilteredNumber()
-: <a class="el" href="d2/d06/server_2command_2common_8qh.html#a3aec534374edb56c6d6cbf0902fb9756">common.qh</a>
-, <a class="el" href="de/d55/server_2command_2common_8qc.html#a3aec534374edb56c6d6cbf0902fb9756">common.qc</a>
+: <a class="el" href="de/d55/server_2command_2common_8qc.html#a3aec534374edb56c6d6cbf0902fb9756">common.qc</a>
+, <a class="el" href="d2/d06/server_2command_2common_8qh.html#a3aec534374edb56c6d6cbf0902fb9756">common.qh</a>
 </li>
 <li>GetGametype()
 : <a class="el" href="db/dcc/g__world_8qc.html#a7bd98f24d513342b45d7ec36af6564be">g_world.qc</a>
@@ -595,16 +596,16 @@ $(document).ready(function(){initNavTree('globals_func_g.html','');});
 : <a class="el" href="d8/de2/menudefs_8qc.html#aa62eb555ce7c46431a577a4ef764ff89">menudefs.qc</a>
 </li>
 <li>getladder()
-: <a class="el" href="d9/d89/getreplies_8qc.html#a7e4a34fe079ee89797a6399b10e0d23e">getreplies.qc</a>
-, <a class="el" href="d2/de3/getreplies_8qh.html#a7e4a34fe079ee89797a6399b10e0d23e">getreplies.qh</a>
+: <a class="el" href="d2/de3/getreplies_8qh.html#a7e4a34fe079ee89797a6399b10e0d23e">getreplies.qh</a>
+, <a class="el" href="d9/d89/getreplies_8qc.html#a7e4a34fe079ee89797a6399b10e0d23e">getreplies.qc</a>
 </li>
 <li>getlsmaps()
-: <a class="el" href="d2/de3/getreplies_8qh.html#aa4fceeef60a806f478f69ab080bdb930">getreplies.qh</a>
-, <a class="el" href="d9/d89/getreplies_8qc.html#aa4fceeef60a806f478f69ab080bdb930">getreplies.qc</a>
+: <a class="el" href="d9/d89/getreplies_8qc.html#aa4fceeef60a806f478f69ab080bdb930">getreplies.qc</a>
+, <a class="el" href="d2/de3/getreplies_8qh.html#aa4fceeef60a806f478f69ab080bdb930">getreplies.qh</a>
 </li>
 <li>getmaplist()
-: <a class="el" href="d9/d89/getreplies_8qc.html#acd14453c3d874fef97b4619c5987158e">getreplies.qc</a>
-, <a class="el" href="d2/de3/getreplies_8qh.html#acd14453c3d874fef97b4619c5987158e">getreplies.qh</a>
+: <a class="el" href="d2/de3/getreplies_8qh.html#acd14453c3d874fef97b4619c5987158e">getreplies.qh</a>
+, <a class="el" href="d9/d89/getreplies_8qc.html#acd14453c3d874fef97b4619c5987158e">getreplies.qc</a>
 </li>
 <li>GetMaplistPosition()
 : <a class="el" href="db/dcc/g__world_8qc.html#a161f861ac5f44c81d48ecc3c40c3e465">g_world.qc</a>
@@ -681,12 +682,12 @@ $(document).ready(function(){initNavTree('globals_func_g.html','');});
 : <a class="el" href="dc/dc6/server_2miscfunctions_8qc.html#a59a00571f7c6dad282ee583b3bd5b297">miscfunctions.qc</a>
 </li>
 <li>GetTeam()
-: <a class="el" href="d8/db6/client_2miscfunctions_8qh.html#ab1762d75cc18535fa62c519ff652e0c9">miscfunctions.qh</a>
-, <a class="el" href="dc/d98/client_2miscfunctions_8qc.html#ab1762d75cc18535fa62c519ff652e0c9">miscfunctions.qc</a>
+: <a class="el" href="dc/d98/client_2miscfunctions_8qc.html#ab1762d75cc18535fa62c519ff652e0c9">miscfunctions.qc</a>
+, <a class="el" href="d8/db6/client_2miscfunctions_8qh.html#ab1762d75cc18535fa62c519ff652e0c9">miscfunctions.qh</a>
 </li>
 <li>GetTeamCounts()
-: <a class="el" href="de/d4f/teamplay_8qc.html#a2942f2ae0d82c47009843cae3069508a">teamplay.qc</a>
-, <a class="el" href="d2/d76/teamplay_8qh.html#a2942f2ae0d82c47009843cae3069508a">teamplay.qh</a>
+: <a class="el" href="d2/d76/teamplay_8qh.html#a2942f2ae0d82c47009843cae3069508a">teamplay.qh</a>
+, <a class="el" href="de/d4f/teamplay_8qc.html#a2942f2ae0d82c47009843cae3069508a">teamplay.qc</a>
 </li>
 <li>GetTeamScoreString()
 : <a class="el" href="d2/d79/scores_8qc.html#a207c46a80dd896f8487773a62572d98c">scores.qc</a>
@@ -722,8 +723,8 @@ $(document).ready(function(){initNavTree('globals_func_g.html','');});
 , <a class="el" href="da/d44/common_2util_8qc.html#af7c603246e2964761664e6a53904ba61">util.qc</a>
 </li>
 <li>getWrappedLineLen()
-: <a class="el" href="da/d44/common_2util_8qc.html#a0c6829767aa2400e49284b242c194d95">util.qc</a>
-, <a class="el" href="d5/df2/common_2util_8qh.html#a0c6829767aa2400e49284b242c194d95">util.qh</a>
+: <a class="el" href="d5/df2/common_2util_8qh.html#a0c6829767aa2400e49284b242c194d95">util.qh</a>
+, <a class="el" href="da/d44/common_2util_8qc.html#a0c6829767aa2400e49284b242c194d95">util.qc</a>
 </li>
 <li>GiveBit()
 : <a class="el" href="d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde">bits.qh</a>
@@ -736,20 +737,20 @@ $(document).ready(function(){initNavTree('globals_func_g.html','');});
 : <a class="el" href="d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635">bits.qh</a>
 </li>
 <li>GL_CheckExtension()
-: <a class="el" href="df/d97/menu_2xonotic_2util_8qh.html#a6b30e54c431ef41c6bca8ad5930e6670">util.qh</a>
-, <a class="el" href="df/d9b/menu_2xonotic_2util_8qc.html#a6b30e54c431ef41c6bca8ad5930e6670">util.qc</a>
+: <a class="el" href="df/d9b/menu_2xonotic_2util_8qc.html#a6b30e54c431ef41c6bca8ad5930e6670">util.qc</a>
+, <a class="el" href="df/d97/menu_2xonotic_2util_8qh.html#a6b30e54c431ef41c6bca8ad5930e6670">util.qh</a>
 </li>
 <li>GL_Have_TextureCompression()
-: <a class="el" href="df/d97/menu_2xonotic_2util_8qh.html#ada73b695059752dc4c9de93567017ca8">util.qh</a>
-, <a class="el" href="df/d9b/menu_2xonotic_2util_8qc.html#ada73b695059752dc4c9de93567017ca8">util.qc</a>
+: <a class="el" href="df/d9b/menu_2xonotic_2util_8qc.html#ada73b695059752dc4c9de93567017ca8">util.qc</a>
+, <a class="el" href="df/d97/menu_2xonotic_2util_8qh.html#ada73b695059752dc4c9de93567017ca8">util.qh</a>
 </li>
 <li>globalToBox()
 : <a class="el" href="d6/db1/draw_8qc.html#a0b581a0ff2b1fd85336d25a51a06e57d">draw.qc</a>
 , <a class="el" href="d9/d62/menu_2draw_8qh.html#a3d7ac10697d969669149cae8735f83e9">draw.qh</a>
 </li>
 <li>globalToBoxSize()
-: <a class="el" href="d6/db1/draw_8qc.html#aae12e9efe4b2ff652987ec77bbb1e82e">draw.qc</a>
-, <a class="el" href="d9/d62/menu_2draw_8qh.html#a46895b8ce8c0b9928952c5386bc4054e">draw.qh</a>
+: <a class="el" href="d9/d62/menu_2draw_8qh.html#a46895b8ce8c0b9928952c5386bc4054e">draw.qh</a>
+, <a class="el" href="d6/db1/draw_8qc.html#aae12e9efe4b2ff652987ec77bbb1e82e">draw.qc</a>
 </li>
 <li>GotoFirstMap()
 : <a class="el" href="db/dcc/g__world_8qc.html#a0ed61c678e0012da2e2f6d4d0ecbffc1">g_world.qc</a>
@@ -760,9 +761,6 @@ $(document).ready(function(){initNavTree('globals_func_g.html','');});
 </li>
 <li>GotoNextMap()
 : <a class="el" href="d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64">g_world.qh</a>
-</li>
-<li>gotoRC()
-: <a class="el" href="de/d48/dialog__settings__game_8qc.html#a84711d9bde2e0aff4847519673224b96">dialog_settings_game.qc</a>
 </li>
 <li>GrappleHookInit()
 : <a class="el" href="d7/de1/g__hook_8qh.html#a38e80451284a344ffa9c9976e3fe3e2b">g_hook.qh</a>
@@ -790,8 +788,8 @@ $(document).ready(function(){initNavTree('globals_func_g.html','');});
 : <a class="el" href="db/d7f/effectinfo_8inc.html#a5c1b4bc28344cfc365dcc9af9a5c651f">effectinfo.inc</a>
 </li>
 <li>gsl_ran_gaussian()
-: <a class="el" href="d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">util.qh</a>
-, <a class="el" href="dc/d95/random_8qc.html#a4ff12e9437074f8ba09e275ff5084b7a">random.qc</a>
+: <a class="el" href="dc/d95/random_8qc.html#a4ff12e9437074f8ba09e275ff5084b7a">random.qc</a>
+, <a class="el" href="d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">util.qh</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -799,7 +797,7 @@ $(document).ready(function(){initNavTree('globals_func_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

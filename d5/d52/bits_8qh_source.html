@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d5/d52/bits_8qh_source.html','../../')
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -133,14 +134,14 @@ $(document).ready(function(){initNavTree('d5/d52/bits_8qh_source.html','../../')
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordtype">int</span> r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>();</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <span class="keywordtype">int</span> b = 0;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a> = 0;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordtype">int</span> n = 0;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> f = 1; f &lt;= bits; f *= 2)</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">if</span> (bits &amp; f)</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            ++<a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            r *= <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            ++n;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            r *= n;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="keywordflow">if</span> (r &lt;= 1) b = f;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">else</span> r = (r - 1) / (n - 1);</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div>
@@ -166,7 +167,7 @@ $(document).ready(function(){initNavTree('d5/d52/bits_8qh_source.html','../../')
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">while</span> (iter &gt; 0)</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d5/d52/bits_8qh.html#a21771da868be7cb43eca041914c3fbec">randombit</a>(bits)), <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d5/d52/bits_8qh.html#a21771da868be7cb43eca041914c3fbec">randombit</a>(bits)), <span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        --iter;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
@@ -179,7 +180,7 @@ $(document).ready(function(){initNavTree('d5/d52/bits_8qh_source.html','../../')
 <div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">   73</a></span>&#160;    <a class="code" href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">OP_MINUS</a></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;};</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde">   76</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde">GiveBit</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e, .<span class="keywordtype">int</span> fld, <span class="keywordtype">int</span> bit, <span class="keywordtype">int</span> op, <span class="keywordtype">int</span> val)</div>
+<div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde">   76</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde">GiveBit</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, .<span class="keywordtype">int</span> fld, <span class="keywordtype">int</span> bit, <span class="keywordtype">int</span> op, <span class="keywordtype">int</span> val)</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;{</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordtype">int</span> v0 = (e.(fld) &amp; bit);</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">switch</span> (op)</div>
@@ -203,7 +204,7 @@ $(document).ready(function(){initNavTree('d5/d52/bits_8qh_source.html','../../')
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">return</span> v0 != v1;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;}</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
-<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635">  100</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635">GiveValue</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e, .<span class="keywordtype">int</span> fld, <span class="keywordtype">int</span> op, <span class="keywordtype">int</span> val)</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="../../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635">  100</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635">GiveValue</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, .<span class="keywordtype">int</span> fld, <span class="keywordtype">int</span> op, <span class="keywordtype">int</span> val)</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;{</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordtype">int</span> v0 = e.(fld);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">switch</span> (op)</div>
@@ -231,6 +232,7 @@ $(document).ready(function(){initNavTree('d5/d52/bits_8qh_source.html','../../')
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7">OP_PLUS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00072">bits.qh:72</a></div></div>
 <div class="ttc" id="bits_8qh_html_a57e1dcfe9616b86bcfe6641c59b8ffde"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a57e1dcfe9616b86bcfe6641c59b8ffde">GiveBit</a></div><div class="ttdeci">bool GiveBit(entity e,.int fld, int bit, int op, int val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00076">bits.qh:76</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a">OP_MIN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00070">bits.qh:70</a></div></div>
 <div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9">OP_MAX</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00071">bits.qh:71</a></div></div>
 <div class="ttc" id="bits_8qh_html_aebd1a901c73156b86a90a9d02e5663be"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#aebd1a901c73156b86a90a9d02e5663be">randombit_test</a></div><div class="ttdeci">void randombit_test(int bits, int iter)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00059">bits.qh:59</a></div></div>
@@ -238,21 +240,19 @@ $(document).ready(function(){initNavTree('d5/d52/bits_8qh_source.html','../../')
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 <div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453">OP_SET</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00069">bits.qh:69</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
+<div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
 <div class="ttc" id="bits_8qh_html_adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1">OP_MINUS</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00073">bits.qh:73</a></div></div>
-<div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
 <div class="ttc" id="bits_8qh_html_a21771da868be7cb43eca041914c3fbec"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a21771da868be7cb43eca041914c3fbec">randombit</a></div><div class="ttdeci">int randombit(int bits)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00023">bits.qh:23</a></div></div>
-<div class="ttc" id="common_2items_2item_8qh_html_ae302aa82565a3721ffb781350f49b7af"><div class="ttname"><a href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a></div><div class="ttdeci">LOG_INFO(&quot;A game item\n&quot;)</div></div>
 <div class="ttc" id="bits_8qh_html_a14952d302edb3ee6edbf529dfb78c635"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635">GiveValue</a></div><div class="ttdeci">bool GiveValue(entity e,.int fld, int op, int val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00100">bits.qh:100</a></div></div>
 <div class="ttc" id="log_8qh_html"><div class="ttname"><a href="../../db/da0/log_8qh.html">log.qh</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a663ea6aa3c4923b3e065cf91cc319f1b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a></div><div class="ttdeci">float random(void)</div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d5/d52/bits_8qh.html">bits.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:31 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

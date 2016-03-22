@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d9/d8b/dialog__hudpanel__vote_8qc_sour
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -110,9 +111,9 @@ $(document).ready(function(){initNavTree('d9/d8b/dialog__hudpanel__vote_8qc_sour
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d0/de9/textlabel_8qh.html">textlabel.qh</a>&quot;</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d59/xonotic_2slider_8qh.html">slider.qh</a>&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d9/d8b/dialog__hudpanel__vote_8qc.html#a99db81b12f29535edee78548db09a83f">    7</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/d8b/dialog__hudpanel__vote_8qc.html#a99db81b12f29535edee78548db09a83f">XonoticHUDVoteDialog_fill</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <a class="code" href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a>)</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d9/d8b/dialog__hudpanel__vote_8qc.html#a99db81b12f29535edee78548db09a83f">    7</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/d8b/dialog__hudpanel__vote_8qc.html#a99db81b12f29535edee78548db09a83f">XonoticHUDVoteDialog_fill</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> me)</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">string</span> panelname = <span class="stringliteral">&quot;vote&quot;</span>;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../df/d97/menu_2xonotic_2util_8qh.html#a90265891986843c2c1863a5a6a4fdbf4">DIALOG_HUDPANEL_COMMON</a>();</div>
@@ -122,22 +123,21 @@ $(document).ready(function(){initNavTree('d9/d8b/dialog__hudpanel__vote_8qc_sour
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        me.TD(me, 1, 2.6, e = <a class="code" href="../../d7/dd7/xonotic_2slider_8qc.html#a72ea3ddcd9b42b7960214c7d378e0ae3">makeXonoticSlider</a>(0.1, 1, 0.1, <span class="stringliteral">&quot;hud_panel_vote_alreadyvoted_alpha&quot;</span>));</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
 <div class="ttc" id="dialog__hudpanel__vote_8qh_html"><div class="ttname"><a href="../../d8/d1e/dialog__hudpanel__vote_8qh.html">dialog_hudpanel_vote.qh</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="dialog__hudpanel__vote_8qc_html_a99db81b12f29535edee78548db09a83f"><div class="ttname"><a href="../../d9/d8b/dialog__hudpanel__vote_8qc.html#a99db81b12f29535edee78548db09a83f">XonoticHUDVoteDialog_fill</a></div><div class="ttdeci">void XonoticHUDVoteDialog_fill(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8b/dialog__hudpanel__vote_8qc_source.html#l00007">dialog_hudpanel_vote.qc:7</a></div></div>
 <div class="ttc" id="textlabel_8qc_html_a68172c3fa4df12de97eddc774ab7425d"><div class="ttname"><a href="../../d2/d67/textlabel_8qc.html#a68172c3fa4df12de97eddc774ab7425d">makeXonoticTextLabel</a></div><div class="ttdeci">entity makeXonoticTextLabel(float theAlign, string theText)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d67/textlabel_8qc_source.html#l00003">textlabel.qc:3</a></div></div>
 <div class="ttc" id="menu_2xonotic_2util_8qh_html_a90265891986843c2c1863a5a6a4fdbf4"><div class="ttname"><a href="../../df/d97/menu_2xonotic_2util_8qh.html#a90265891986843c2c1863a5a6a4fdbf4">DIALOG_HUDPANEL_COMMON</a></div><div class="ttdeci">#define DIALOG_HUDPANEL_COMMON()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d97/menu_2xonotic_2util_8qh_source.html#l00041">util.qh:41</a></div></div>
 <div class="ttc" id="xonotic_2slider_8qc_html_a72ea3ddcd9b42b7960214c7d378e0ae3"><div class="ttname"><a href="../../d7/dd7/xonotic_2slider_8qc.html#a72ea3ddcd9b42b7960214c7d378e0ae3">makeXonoticSlider</a></div><div class="ttdeci">entity makeXonoticSlider(float theValueMin, float theValueMax, float theValueStep, string theCvar)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/xonotic_2slider_8qc_source.html#l00010">slider.qc:10</a></div></div>
-<div class="ttc" id="item_2dialog_8qh_html_a700a54058a31b6d69e1c4d8f544a6c48"><div class="ttname"><a href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a></div><div class="ttdeci">entity me</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d88/item_2dialog_8qh_source.html#l00072">dialog.qh:72</a></div></div>
 <div class="ttc" id="xonotic_2checkbox_8qh_html"><div class="ttname"><a href="../../d8/d76/xonotic_2checkbox_8qh.html">checkbox.qh</a></div></div>
 <div class="ttc" id="xonotic_2slider_8qh_html"><div class="ttname"><a href="../../d2/d59/xonotic_2slider_8qh.html">slider.qh</a></div></div>
 <div class="ttc" id="textlabel_8qh_html"><div class="ttname"><a href="../../d0/de9/textlabel_8qh.html">textlabel.qh</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d9/d8b/dialog__hudpanel__vote_8qc.html">dialog_hudpanel_vote.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:32 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

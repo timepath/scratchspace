@@ -1,0 +1,22 @@
+var classTeslaCoil =
+[
+    [ "ATTRIB_STRZONE", "d5/da4/classTeslaCoil.html#a986c0786ea65af72d8e1a948ef013c5f", null ],
+    [ "ATTRIB_STRZONE", "d5/da4/classTeslaCoil.html#ab680a291fa849cb8efe22c388707a0f7", null ],
+    [ "describe", "d5/da4/classTeslaCoil.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
+    [ "display", "d5/da4/classTeslaCoil.html#a138adca099fbd117101fe56edb53d8aa", null ],
+    [ "tr_config", "d5/da4/classTeslaCoil.html#ab9ce986163a0f0e24e84166491f0fe7f", null ],
+    [ "tr_death", "d5/da4/classTeslaCoil.html#a56e07d5aa23850f9cc9cd5eaa68f0880", null ],
+    [ "tr_precache", "d5/da4/classTeslaCoil.html#ab51103697656de906079b6537d3800bc", null ],
+    [ "tr_setup", "d5/da4/classTeslaCoil.html#a9cbd0273110d224aa83170c43e29f691", null ],
+    [ "tr_think", "d5/da4/classTeslaCoil.html#ac0a380f4b08bad88d17a175d4f648795", null ],
+    [ "head_model", "d5/da4/classTeslaCoil.html#a46cac3f96dad7529a9d30206956b3553", null ],
+    [ "m_id", "d5/da4/classTeslaCoil.html#a3144102787442a58055180121b5e9536", null ],
+    [ "m_weapon", "d5/da4/classTeslaCoil.html#acdf988a8aff165cf926eed562f55a97f", null ],
+    [ "maxs", "d5/da4/classTeslaCoil.html#a021d563019c7abb5d891dc8ff1204556", null ],
+    [ "mdl", "d5/da4/classTeslaCoil.html#a5ab1f393deac6e30fccd6b0913d2ef01", null ],
+    [ "mins", "d5/da4/classTeslaCoil.html#a2df9f54d5abbbb4f6db2c442541675e6", null ],
+    [ "model", "d5/da4/classTeslaCoil.html#a2cb46857a76f132a66b1b063d0ea6eee", null ],
+    [ "netname", "d5/da4/classTeslaCoil.html#a03882384073c313a73ce02423f730bbf", null ],
+    [ "spawnflags", "d5/da4/classTeslaCoil.html#ae820e7b69d2a5fad893724a3828ca851", null ],
+    [ "turret_name", "d5/da4/classTeslaCoil.html#a4d5b80f49cd543b1ce7464b3eb46d53a", null ]
+];

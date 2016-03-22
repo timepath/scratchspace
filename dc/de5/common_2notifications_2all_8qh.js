@@ -22,7 +22,7 @@ var common_2notifications_2all_8qh =
     [ "NOTIF_HIT_UNKNOWN", "dc/de5/common_2notifications_2all_8qh.html#ab1f0c8ae8fa2d3675712f495bef6dbb8", null ],
     [ "NOTIFICATIONS_H", "dc/de5/common_2notifications_2all_8qh.html#aa6422f6ea3ade321d3b82957ae8d0f1d", null ],
     [ "SPREE_ITEM", "dc/de5/common_2notifications_2all_8qh.html#a06a1edf2081934e5cb8188d0419f55e7", null ],
-    [ "Notification", "dc/de5/common_2notifications_2all_8qh.html#af43285df24e8b1871037f3588117e951", null ],
+    [ "Notification", "dc/de5/common_2notifications_2all_8qh.html#aa46580df20165dd8315928c81936292e", null ],
     [ "BUFF_NAME", "dc/de5/common_2notifications_2all_8qh.html#a7c73e9ee5f2498f85e04b5adaafef6b3", null ],
     [ "Create_Notification_Entity", "dc/de5/common_2notifications_2all_8qh.html#a48d522da6e6f6f53c7b2a9c658d81506", null ],
     [ "Create_Notification_Entity_Annce", "dc/de5/common_2notifications_2all_8qh.html#aebba04739a8cedbc68c1561271936be9", null ],

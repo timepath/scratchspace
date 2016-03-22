@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('db/d9f/state_8qh.html','../../');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,6 +102,7 @@ $(document).ready(function(){initNavTree('db/d9f/state_8qh.html','../../');});
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -119,6 +121,15 @@ $(document).ready(function(){initNavTree('db/d9f/state_8qh.html','../../');});
 </div>
 <p><a href="../../db/d9f/state_8qh_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d92/classClientState.html">ClientState</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Purpose: common client state, usable on client and server Client: singleton representing the viewed player Server: instance per client.  <a href="../../d6/d92/classClientState.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d7e/classPlayerState.html">PlayerState</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Purpose: common player state, usable on client and server Client: singleton representing the viewed player Server: instance per client, clients decoupled from players.  <a href="../../d5/d7e/classPlayerState.html#details">More...</a><br/></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a6228dce6d2ac6b96b7ebe5d2b44be40c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(this)&#160;&#160;&#160;(<a class="el" href="../../db/d9f/state_8qh.html#ab9e7e782a947b52d9dfa1e3f8754ccde">this._ps</a>)</td></tr>
@@ -126,35 +137,23 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af3f37eafcd212d11bd6568111847de7b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#af3f37eafcd212d11bd6568111847de7b">CONSTRUCTOR</a> (PlayerState, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> client)</td></tr>
-<tr class="memdesc:af3f37eafcd212d11bd6568111847de7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Purpose: common player state, usable on client and server Client: singleton representing the viewed player Server: instance per client, clients decoupled from players.  <a href="#af3f37eafcd212d11bd6568111847de7b">More...</a><br/></td></tr>
-<tr class="separator:af3f37eafcd212d11bd6568111847de7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa3bade4bd987dbbe92066dd4c4bdd04c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#aa3bade4bd987dbbe92066dd4c4bdd04c">STAT</a> (ACTIVEWEAPON, cl)</td></tr>
-<tr class="separator:aa3bade4bd987dbbe92066dd4c4bdd04c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a917978fc72821486ab248ab4253cf6e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#a917978fc72821486ab248ab4253cf6e8">STAT</a> (SWITCHINGWEAPON, cl)</td></tr>
-<tr class="separator:a917978fc72821486ab248ab4253cf6e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a679a39c171485d416d2feba96846374d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#a679a39c171485d416d2feba96846374d">STAT</a> (SWITCHWEAPON, cl)</td></tr>
-<tr class="separator:a679a39c171485d416d2feba96846374d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53a16489327364aafc4ca8b946faab8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#a53a16489327364aafc4ca8b946faab8d">PlayerState_attach</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this)</td></tr>
-<tr class="separator:a53a16489327364aafc4ca8b946faab8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2b41267ede70802861f89a01bb03837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#ae2b41267ede70802861f89a01bb03837">PlayerState_detach</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this)</td></tr>
-<tr class="separator:ae2b41267ede70802861f89a01bb03837"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3224380f1088a3df37d5bada688e7722"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#a3224380f1088a3df37d5bada688e7722">CONSTRUCTOR</a> (ClientState, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> client)</td></tr>
-<tr class="memdesc:a3224380f1088a3df37d5bada688e7722"><td class="mdescLeft">&#160;</td><td class="mdescRight">Purpose: common client state, usable on client and server Client: singleton representing the viewed player Server: instance per client.  <a href="#a3224380f1088a3df37d5bada688e7722">More...</a><br/></td></tr>
-<tr class="separator:a3224380f1088a3df37d5bada688e7722"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e4a4ded2c3cd2d4bd68e69e98da9b35"><td class="memItemLeft" align="right" valign="top">ClientState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this)</td></tr>
-<tr class="separator:a3e4a4ded2c3cd2d4bd68e69e98da9b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc32312bf25df126b18e078bedab7837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#afc32312bf25df126b18e078bedab7837">ClientState_attach</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this)</td></tr>
 <tr class="separator:afc32312bf25df126b18e078bedab7837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae17cd2d1c2291942edc23455fc1db486"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#ae17cd2d1c2291942edc23455fc1db486">ClientState_detach</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this)</td></tr>
 <tr class="separator:ae17cd2d1c2291942edc23455fc1db486"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e4a4ded2c3cd2d4bd68e69e98da9b35"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d92/classClientState.html">ClientState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35">CS</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this)</td></tr>
+<tr class="separator:a3e4a4ded2c3cd2d4bd68e69e98da9b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53a16489327364aafc4ca8b946faab8d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#a53a16489327364aafc4ca8b946faab8d">PlayerState_attach</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this)</td></tr>
+<tr class="separator:a53a16489327364aafc4ca8b946faab8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2b41267ede70802861f89a01bb03837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#ae2b41267ede70802861f89a01bb03837">PlayerState_detach</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this)</td></tr>
+<tr class="separator:ae2b41267ede70802861f89a01bb03837"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:ab9e7e782a947b52d9dfa1e3f8754ccde"><td class="memItemLeft" align="right" valign="top">PlayerState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#ab9e7e782a947b52d9dfa1e3f8754ccde">_ps</a></td></tr>
-<tr class="separator:ab9e7e782a947b52d9dfa1e3f8754ccde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1960d1c0908e7286f74096a0a3618086"><td class="memItemLeft" align="right" valign="top">ClientState&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#a1960d1c0908e7286f74096a0a3618086">_cs</a></td></tr>
+<tr class="memitem:a1960d1c0908e7286f74096a0a3618086"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d92/classClientState.html">ClientState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#a1960d1c0908e7286f74096a0a3618086">_cs</a></td></tr>
 <tr class="separator:a1960d1c0908e7286f74096a0a3618086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9e7e782a947b52d9dfa1e3f8754ccde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d7e/classPlayerState.html">PlayerState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9f/state_8qh.html#ab9e7e782a947b52d9dfa1e3f8754ccde">_ps</a></td></tr>
+<tr class="separator:ab9e7e782a947b52d9dfa1e3f8754ccde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a6228dce6d2ac6b96b7ebe5d2b44be40c"></a>
@@ -194,11 +193,11 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d3f/state_8qc_source.html#l00034">34</a> of file <a class="el" href="../../d0/d3f/state_8qc_source.html">state.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00048">_cs</a>, <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00040">accuracy_init()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00238">anticheat_init()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00404">bot_clientconnect()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00089">ClientData_Attach()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00713">DecodeLevelParms()</a>, <a class="el" href="../../d0/d3f/state_8qc.html#ad3d6ec59a6310645b11d417739f69552">entcs_attach()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00413">GetCvars()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00016">IS_REAL_CLIENT</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00115">NEW</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00016">playerdemo_init()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00316">PlayerScore_Attach()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00082">W_HitPlotOpen()</a>.</p>
+<p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00048">_cs</a>, <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00040">accuracy_init()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00238">anticheat_init()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00402">bot_clientconnect()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00089">ClientData_Attach()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00713">DecodeLevelParms()</a>, <a class="el" href="../../d0/d3f/state_8qc.html#ad3d6ec59a6310645b11d417739f69552">entcs_attach()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00413">GetCvars()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00016">IS_REAL_CLIENT</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00110">NEW</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00016">playerdemo_init()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00316">PlayerScore_Attach()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00082">W_HitPlotOpen()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00986">ClientConnect()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    this.<a class="code" href="../../db/d9f/state_8qh.html#a1960d1c0908e7286f74096a0a3618086">_cs</a> = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(ClientState, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    this.<a class="code" href="../../db/d9f/state_8qh.html#a1960d1c0908e7286f74096a0a3618086">_cs</a> = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../d6/d92/classClientState.html">ClientState</a>, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../d0/d3f/state_8qc.html#a337bf36f10832c69e5e024dec997334c">GetCvars</a>(0);  <span class="comment">// get other cvars from player</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
@@ -219,18 +218,19 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <a class="code" href="../../d0/d3f/state_8qc.html#abd19370e4d61d3549dbbe44826531536">bot_clientconnect</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
-<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00115">oo.qh:115</a></div></div>
+<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00110">oo.qh:110</a></div></div>
 <div class="ttc" id="state_8qc_html_a1fa063f9cf66faacc25f038cba4fe736"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#a1fa063f9cf66faacc25f038cba4fe736">playerdemo_init</a></div><div class="ttdeci">void playerdemo_init(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00016">playerdemo.qc:16</a></div></div>
 <div class="ttc" id="state_8qc_html_ae55541fef89bf17be7eedf1e1b8d9c91"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#ae55541fef89bf17be7eedf1e1b8d9c91">DecodeLevelParms</a></div><div class="ttdeci">void DecodeLevelParms(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l00713">cl_client.qc:713</a></div></div>
 <div class="ttc" id="state_8qc_html_ad3d6ec59a6310645b11d417739f69552"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#ad3d6ec59a6310645b11d417739f69552">entcs_attach</a></div><div class="ttdeci">void entcs_attach(entity this)</div></div>
 <div class="ttc" id="state_8qc_html_a28f9af38c062e963a41ab42e2a60e12b"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#a28f9af38c062e963a41ab42e2a60e12b">accuracy_init</a></div><div class="ttdeci">void accuracy_init(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d68/accuracy_8qc_source.html#l00040">accuracy.qc:40</a></div></div>
 <div class="ttc" id="state_8qc_html_ae1ed9a146c5c791944277a4ff2c890c6"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#ae1ed9a146c5c791944277a4ff2c890c6">ClientData_Attach</a></div><div class="ttdeci">void ClientData_Attach(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l00089">cl_client.qc:89</a></div></div>
-<div class="ttc" id="state_8qc_html_abd19370e4d61d3549dbbe44826531536"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#abd19370e4d61d3549dbbe44826531536">bot_clientconnect</a></div><div class="ttdeci">void bot_clientconnect(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc0/bot_8qc_source.html#l00404">bot.qc:404</a></div></div>
+<div class="ttc" id="state_8qc_html_abd19370e4d61d3549dbbe44826531536"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#abd19370e4d61d3549dbbe44826531536">bot_clientconnect</a></div><div class="ttdeci">void bot_clientconnect(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc0/bot_8qc_source.html#l00402">bot.qc:402</a></div></div>
 <div class="ttc" id="state_8qc_html_a337bf36f10832c69e5e024dec997334c"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#a337bf36f10832c69e5e024dec997334c">GetCvars</a></div><div class="ttdeci">void GetCvars(int)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00413">miscfunctions.qc:413</a></div></div>
 <div class="ttc" id="state_8qc_html_a620f7cf1b6c95a9c13fb4ee6c0476309"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#a620f7cf1b6c95a9c13fb4ee6c0476309">anticheat_init</a></div><div class="ttdeci">void anticheat_init(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d29/anticheat_8qc_source.html#l00238">anticheat.qc:238</a></div></div>
 <div class="ttc" id="state_8qh_html_a1960d1c0908e7286f74096a0a3618086"><div class="ttname"><a href="../../db/d9f/state_8qh.html#a1960d1c0908e7286f74096a0a3618086">_cs</a></div><div class="ttdeci">ClientState _cs</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00048">state.qh:48</a></div></div>
 <div class="ttc" id="state_8qc_html_aa66ef3aa59e752ea23954561082a6ac6"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#aa66ef3aa59e752ea23954561082a6ac6">PlayerScore_Attach</a></div><div class="ttdeci">void PlayerScore_Attach(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00316">scores.qc:316</a></div></div>
 <div class="ttc" id="state_8qc_html_aecf787c37dd491650911b4afd9e342ba"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#aecf787c37dd491650911b4afd9e342ba">W_HitPlotOpen</a></div><div class="ttdeci">void W_HitPlotOpen(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d11/hitplot_8qc_source.html#l00082">hitplot.qc:82</a></div></div>
+<div class="ttc" id="classClientState_html"><div class="ttname"><a href="../../d6/d92/classClientState.html">ClientState</a></div><div class="ttdoc">Purpose: common client state, usable on client and server Client: singleton representing the viewed p...</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00039">state.qh:39</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_a8069d572672171c56fdffd290ed4979d"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a></div><div class="ttdeci">#define IS_REAL_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00016">_all.qh:16</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -271,7 +271,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d3f/state_8qc_source.html#l00067">67</a> of file <a class="el" href="../../d0/d3f/state_8qc_source.html">state.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00048">_cs</a>, <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00048">accuracy_free()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00172">anticheat_report()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00381">bot_clientdisconnect()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00096">ClientData_Detach()</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00053">CS()</a>, <a class="el" href="../../d0/d3f/state_8qc.html#ac87f3b0e72460f99913d0a56abac6990">entcs_detach()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00413">GetCvars()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">NULL</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00020">playerdemo_shutdown()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00326">PlayerScore_Detach()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00092">W_HitPlotClose()</a>.</p>
+<p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00048">_cs</a>, <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00048">accuracy_free()</a>, <a class="el" href="../../d6/d29/anticheat_8qc_source.html#l00172">anticheat_report()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00379">bot_clientdisconnect()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00096">ClientData_Detach()</a>, <a class="el" href="../../db/d9f/state_8qh_source.html#l00053">CS()</a>, <a class="el" href="../../d0/d3f/state_8qc.html#ac87f3b0e72460f99913d0a56abac6990">entcs_detach()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00413">GetCvars()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">NULL</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00020">playerdemo_shutdown()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00326">PlayerScore_Detach()</a>, and <a class="el" href="../../d1/d11/hitplot_8qc_source.html#l00092">W_HitPlotClose()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01145">ClientDisconnect()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;{</div>
@@ -280,7 +280,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="../../d0/d3f/state_8qc.html#a337bf36f10832c69e5e024dec997334c">GetCvars</a>(-1);  <span class="comment">// free cvars</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="../../d0/d3f/state_8qc.html#add9d20e3b674f7f42c553aebba6ce252">bot_clientdisconnect</a>();</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="../../d0/d3f/state_8qc.html#ab10bcd46b240e1fd8154de39ddd5c40e">bot_clientdisconnect</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <a class="code" href="../../d0/d3f/state_8qc.html#a8fe4ed7866766d38e6cf3bfd1c4b239e">W_HitPlotClose</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="../../d0/d3f/state_8qc.html#a663362ec10d27e4a23160defbb3e9d3e">anticheat_report</a>(<span class="keyword">this</span>);</div>
@@ -301,7 +301,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="state_8qc_html_a34f4025222e4edd5d1dcee5b90656bec"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#a34f4025222e4edd5d1dcee5b90656bec">accuracy_free</a></div><div class="ttdeci">void accuracy_free(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d68/accuracy_8qc_source.html#l00048">accuracy.qc:48</a></div></div>
 <div class="ttc" id="state_8qc_html_a29df4e9e890f474f475300be488e3bf5"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#a29df4e9e890f474f475300be488e3bf5">playerdemo_shutdown</a></div><div class="ttdeci">void playerdemo_shutdown()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00020">playerdemo.qc:20</a></div></div>
 <div class="ttc" id="state_8qc_html_a663362ec10d27e4a23160defbb3e9d3e"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#a663362ec10d27e4a23160defbb3e9d3e">anticheat_report</a></div><div class="ttdeci">void anticheat_report(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d29/anticheat_8qc_source.html#l00172">anticheat.qc:172</a></div></div>
-<div class="ttc" id="state_8qc_html_add9d20e3b674f7f42c553aebba6ce252"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#add9d20e3b674f7f42c553aebba6ce252">bot_clientdisconnect</a></div><div class="ttdeci">void bot_clientdisconnect()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc0/bot_8qc_source.html#l00381">bot.qc:381</a></div></div>
+<div class="ttc" id="state_8qc_html_ab10bcd46b240e1fd8154de39ddd5c40e"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#ab10bcd46b240e1fd8154de39ddd5c40e">bot_clientdisconnect</a></div><div class="ttdeci">void bot_clientdisconnect(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc0/bot_8qc_source.html#l00379">bot.qc:379</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -325,86 +325,12 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="af3f37eafcd212d11bd6568111847de7b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">CONSTRUCTOR </td>
-          <td>(</td>
-          <td class="paramtype">PlayerState&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td>
-          <td class="paramname"><em>client</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Purpose: common player state, usable on client and server Client: singleton representing the viewed player Server: instance per client, clients decoupled from players. </p>
-
-<p>Definition at line <a class="el" href="../../db/d9f/state_8qh_source.html#l00010">10</a> of file <a class="el" href="../../db/d9f/state_8qh_source.html">state.qh</a>.</p>
-
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00118">CONSTRUCT</a>.</p>
-<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(PlayerState);</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        this.m_client = client;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    }</div>
-<div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00118">oo.qh:118</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a class="anchor" id="a3224380f1088a3df37d5bada688e7722"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">CONSTRUCTOR </td>
-          <td>(</td>
-          <td class="paramtype">ClientState&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td>
-          <td class="paramname"><em>client</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Purpose: common client state, usable on client and server Client: singleton representing the viewed player Server: instance per client. </p>
-
-<p>Definition at line <a class="el" href="../../db/d9f/state_8qh_source.html#l00041">41</a> of file <a class="el" href="../../db/d9f/state_8qh_source.html">state.qh</a>.</p>
-
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00118">CONSTRUCT</a>.</p>
-<div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(ClientState);</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        this.m_client = client;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
-<div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00118">oo.qh:118</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a class="anchor" id="a3e4a4ded2c3cd2d4bd68e69e98da9b35"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ClientState CS </td>
+          <td class="memname"><a class="el" href="../../d6/d92/classClientState.html">ClientState</a> CS </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
@@ -451,16 +377,17 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d3f/state_8qc_source.html#l00006">6</a> of file <a class="el" href="../../d0/d3f/state_8qc_source.html">state.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00027">_ps</a>, <a class="el" href="../../d0/d3f/state_8qc.html#aa1a946175f717b382d97902b506dd23b">Inventory_new()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00115">NEW</a>.</p>
+<p>References <a class="el" href="../../db/d9f/state_8qh_source.html#l00027">_ps</a>, <a class="el" href="../../d0/d3f/state_8qc.html#aa1a946175f717b382d97902b506dd23b">Inventory_new()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00110">NEW</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00405">PutClientInServer()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    this.<a class="code" href="../../db/d9f/state_8qh.html#ab9e7e782a947b52d9dfa1e3f8754ccde">_ps</a> = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(PlayerState, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    this.<a class="code" href="../../db/d9f/state_8qh.html#ab9e7e782a947b52d9dfa1e3f8754ccde">_ps</a> = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../d5/d7e/classPlayerState.html">PlayerState</a>, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <a class="code" href="../../d0/d3f/state_8qc.html#aa1a946175f717b382d97902b506dd23b">Inventory_new</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00115">oo.qh:115</a></div></div>
+<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00110">oo.qh:110</a></div></div>
 <div class="ttc" id="state_8qh_html_ab9e7e782a947b52d9dfa1e3f8754ccde"><div class="ttname"><a href="../../db/d9f/state_8qh.html#ab9e7e782a947b52d9dfa1e3f8754ccde">_ps</a></div><div class="ttdeci">PlayerState _ps</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00027">state.qh:27</a></div></div>
+<div class="ttc" id="classPlayerState_html"><div class="ttname"><a href="../../d5/d7e/classPlayerState.html">PlayerState</a></div><div class="ttdoc">Purpose: common player state, usable on client and server Client: singleton representing the viewed p...</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d9f/state_8qh_source.html#l00008">state.qh:8</a></div></div>
 <div class="ttc" id="state_8qc_html_aa1a946175f717b382d97902b506dd23b"><div class="ttname"><a href="../../d0/d3f/state_8qc.html#aa1a946175f717b382d97902b506dd23b">Inventory_new</a></div><div class="ttdeci">void Inventory_new(entity this)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -540,103 +467,13 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="aa3bade4bd987dbbe92066dd4c4bdd04c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">STAT </td>
-          <td>(</td>
-          <td class="paramtype">ACTIVEWEAPON&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">cl&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="../../da/d68/accuracy_8qc_source.html#l00090">accuracy_isgooddamage()</a>, <a class="el" href="../../da/df4/announcer_8qc_source.html#l00020">Announcer_Countdown()</a>, <a class="el" href="../../da/df4/announcer_8qc_source.html#l00078">Announcer_Gamestart()</a>, <a class="el" href="../../da/df4/announcer_8qc_source.html#l00121">Announcer_Time()</a>, <a class="el" href="../../df/dc9/aim_8qc_source.html#l00112">bot_shouldattack()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00865">botframe_autowaypoints_fixdown()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00289">CheatCommand()</a>, <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00390">CL_WeaponEntity_SetModel()</a>, <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00614">CLIENT_COMMAND()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00916">ClientKill()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00322">CommonCommand_editmob()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00796">CSQC_Ent_Update()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01353">CSQC_UpdateView()</a>, <a class="el" href="../../d1/d25/lib_2csqcmodel_2cl__player_8qc_source.html#l00190">CSQCPlayer_PredictTo()</a>, <a class="el" href="../../d1/d25/lib_2csqcmodel_2cl__player_8qc_source.html#l00245">CSQCPlayer_SetCamera()</a>, <a class="el" href="../../d1/d25/lib_2csqcmodel_2cl__player_8qc_source.html#l00106">CSQCPlayer_SetMinsMaxs()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00578">Damage()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00478">detect_maptype()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00011">DrawCAItem()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00632">DrawDomItem()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l01203">Fire_ApplyDamage()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00405">forbidWeaponUse()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00514">Freeze()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01478">GameCommand_trace()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00137">GrapplingHookThink()</a>, <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00402">havocbot_movetogoal()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00796">HitSound()</a>, <a class="el" href="../../dd/d85/client_2hud_2panel_2ammo_8qc_source.html#l00096">HUD_Ammo()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00845">HUD_Crosshair()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01302">HUD_Draw()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01131">HUD_DrawMapStats()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01247">HUD_DrawScoreboard()</a>, <a class="el" href="../../de/d66/healtharmor_8qc_source.html#l00006">HUD_HealthArmor()</a>, <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00014">HUD_InfoMessages()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00111">HUD_Mod_CTF()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00416">HUD_Mod_Keepaway()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00283">HUD_Mod_KH()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00456">HUD_Mod_NexBall()</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00062">HUD_Powerups()</a>, <a class="el" href="../../d9/d1d/pressedkeys_8qc_source.html#l00003">HUD_PressedKeys()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00046">HUD_Radar_InputEvent()</a>, <a class="el" href="../../d5/dfa/timer_8qc_source.html#l00002">HUD_Timer()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00982">HUD_WouldDrawScoreboard()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00503">Ice_Think()</a>, <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00512">IMPULSE()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01179">Monster_Anim()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01040">Monster_Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00986">Monster_Dead()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00698">Monster_Move()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00556">Monster_Move_Target()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00078">Monster_ValidTarget()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00374">navigation_findnearestwaypoint_withdist_except()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00675">navigation_routerating()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00857">navigation_routetogoal()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01063">navigation_unstuck()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00349">navigation_waypoint_will_link()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00136">player_anim()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01449">player_regen()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l02036">PlayerPreThink()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01976">PlayerUseKey()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l00121">PM_ClientMovement_UpdateStatus()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l01292">PM_Main()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00207">Portal_FindSafeOrigin()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00360">Porto_Draw()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00405">PutClientInServer()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00169">PutObserverInServer()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00781">QuickMenu_Default()</a>, <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00177">Simple_TeleportPlayer()</a>, <a class="el" href="../../d6/d3b/race_8qc_source.html#l00925">spawnfunc()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01543">SpectateCopy()</a>, <a class="el" href="../../d2/d9b/jumppads_8qc_source.html#l00279">trigger_push_findtarget()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00609">TrueAimCheck()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00554">Unfreeze()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00772">UpdateDamage()</a>, <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00118">Vehicles_drawHUD()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00964">vehicles_enter()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00814">vehicles_exit()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00766">vehicles_findgoodexit()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00117">viewmodel_animate()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00273">viewmodel_draw()</a>, <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00145">W_GetGunAlignment()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00730">WantEventchase()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00715">waypoint_fixorigin()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00018">waypoint_spawn()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00165">waypoint_think()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00328">weapon_thinkf()</a>.</p>
-
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d9f/state_8qh_aa3bade4bd987dbbe92066dd4c4bdd04c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="a917978fc72821486ab248ab4253cf6e8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">STAT </td>
-          <td>(</td>
-          <td class="paramtype">SWITCHINGWEAPON&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">cl&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a679a39c171485d416d2feba96846374d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">STAT </td>
-          <td>(</td>
-          <td class="paramtype">SWITCHWEAPON&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">cl&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a1960d1c0908e7286f74096a0a3618086"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ClientState _cs</td>
+          <td class="memname"><a class="el" href="../../d6/d92/classClientState.html">ClientState</a> _cs</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -652,7 +489,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">PlayerState _ps</td>
+          <td class="memname"><a class="el" href="../../d5/d7e/classPlayerState.html">PlayerState</a> _ps</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -669,7 +506,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../db/d9f/state_8qh.html">state.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:37 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

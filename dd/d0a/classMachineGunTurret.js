@@ -1,0 +1,22 @@
+var classMachineGunTurret =
+[
+    [ "ATTRIB_STRZONE", "dd/d0a/classMachineGunTurret.html#a64883440593314a0bbf4211a5062540e", null ],
+    [ "ATTRIB_STRZONE", "dd/d0a/classMachineGunTurret.html#a48189f400226a3233984626c0b87f5f2", null ],
+    [ "describe", "dd/d0a/classMachineGunTurret.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
+    [ "display", "dd/d0a/classMachineGunTurret.html#a138adca099fbd117101fe56edb53d8aa", null ],
+    [ "tr_config", "dd/d0a/classMachineGunTurret.html#ab9ce986163a0f0e24e84166491f0fe7f", null ],
+    [ "tr_death", "dd/d0a/classMachineGunTurret.html#a56e07d5aa23850f9cc9cd5eaa68f0880", null ],
+    [ "tr_precache", "dd/d0a/classMachineGunTurret.html#ab51103697656de906079b6537d3800bc", null ],
+    [ "tr_setup", "dd/d0a/classMachineGunTurret.html#a9cbd0273110d224aa83170c43e29f691", null ],
+    [ "tr_think", "dd/d0a/classMachineGunTurret.html#ac0a380f4b08bad88d17a175d4f648795", null ],
+    [ "head_model", "dd/d0a/classMachineGunTurret.html#a46cac3f96dad7529a9d30206956b3553", null ],
+    [ "m_id", "dd/d0a/classMachineGunTurret.html#a3144102787442a58055180121b5e9536", null ],
+    [ "m_weapon", "dd/d0a/classMachineGunTurret.html#a6b7ea20bce905b65ee654a87ab41b9fb", null ],
+    [ "maxs", "dd/d0a/classMachineGunTurret.html#aa7d410f655a9ca2ef4395404cd8e0806", null ],
+    [ "mdl", "dd/d0a/classMachineGunTurret.html#a2982ed21729ec03d94d82f749fdb1e55", null ],
+    [ "mins", "dd/d0a/classMachineGunTurret.html#aad78a691a25b9133d889135200bcfc2b", null ],
+    [ "model", "dd/d0a/classMachineGunTurret.html#a2cb46857a76f132a66b1b063d0ea6eee", null ],
+    [ "netname", "dd/d0a/classMachineGunTurret.html#a6d399b09e4c9806affbf61fa141690d9", null ],
+    [ "spawnflags", "dd/d0a/classMachineGunTurret.html#a2daafacb55ed4d518d4189f435b7d95a", null ],
+    [ "turret_name", "dd/d0a/classMachineGunTurret.html#ade53c264d2eaeb4bbe18a978251a705e", null ]
+];

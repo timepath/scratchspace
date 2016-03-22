@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -129,7 +130,7 @@ $(document).ready(function(){initNavTree('globals_func_t.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -167,9 +168,6 @@ $(document).ready(function(){initNavTree('globals_func_t.html','');});
 </li>
 <li>TargetMusic_RestoreGame()
 : <a class="el" href="db/dcc/g__world_8qc.html#a9b864391c3d6475f9345ccff9c19b7a3">g_world.qc</a>
-</li>
-<li>TD()
-: <a class="el" href="de/d48/dialog__settings__game_8qc.html#a5ba154afc30d1e56ca710334aad9798b">dialog_settings_game.qc</a>
 </li>
 <li>tdm_DelayedInit()
 : <a class="el" href="d2/d0c/gamemode__tdm_8qc.html#abf743990abee3c1b528cabe67caf564c">gamemode_tdm.qc</a>
@@ -257,13 +255,13 @@ $(document).ready(function(){initNavTree('globals_func_t.html','');});
 : <a class="el" href="d0/d6b/teleporters_8qc.html#ab3fd6d0aedddaa968142b4ea0bb6c041">teleporters.qc</a>
 , <a class="el" href="dd/d2d/teleporters_8qh.html#ab3fd6d0aedddaa968142b4ea0bb6c041">teleporters.qh</a>
 </li>
-<li>test()
-: <a class="el" href="d1/d07/framework_8qc.html#a9f554df07273153fcd278b3b77b9f2d5">framework.qc</a>
-</li>
 <li>TEST()
 : <a class="el" href="dd/dfd/markdown_8qh.html#a009867d3feeddcbdadb413c7fb23bca8">markdown.qh</a>
 , <a class="el" href="df/d58/yenc_8qh.html#ab941e2d29f7b5a29b458738b7493d589">yenc.qh</a>
 , <a class="el" href="d8/db3/slider__decibels_8qc.html#a231f02af2977bc665b9ef7cc8d6dcf00">slider_decibels.qc</a>
+</li>
+<li>test()
+: <a class="el" href="d1/d07/framework_8qc.html#a9f554df07273153fcd278b3b77b9f2d5">framework.qc</a>
 </li>
 <li>TEST_Run()
 : <a class="el" href="da/dc7/test_8qc.html#a524e5106975e3e3811df0d2f5d16fef8">test.qc</a>
@@ -284,12 +282,12 @@ $(document).ready(function(){initNavTree('globals_func_t.html','');});
 , <a class="el" href="d5/df2/common_2util_8qh.html#a38ea2eebe599675eb18c1ff564c72db4">util.qh</a>
 </li>
 <li>textShortenToLength()
-: <a class="el" href="d5/df2/common_2util_8qh.html#a5f119916e6e7513d8e7375c84a2e5dcf">util.qh</a>
-, <a class="el" href="da/d44/common_2util_8qc.html#a5f119916e6e7513d8e7375c84a2e5dcf">util.qc</a>
+: <a class="el" href="da/d44/common_2util_8qc.html#a5f119916e6e7513d8e7375c84a2e5dcf">util.qc</a>
+, <a class="el" href="d5/df2/common_2util_8qh.html#a5f119916e6e7513d8e7375c84a2e5dcf">util.qh</a>
 </li>
 <li>textShortenToWidth()
-: <a class="el" href="da/d44/common_2util_8qc.html#a73cc543cc744ae536ed0ef34b8d481c4">util.qc</a>
-, <a class="el" href="d5/df2/common_2util_8qh.html#aa1c30c930feeac7a589f75ef6d984bcf">util.qh</a>
+: <a class="el" href="d5/df2/common_2util_8qh.html#aa1c30c930feeac7a589f75ef6d984bcf">util.qh</a>
+, <a class="el" href="da/d44/common_2util_8qc.html#a73cc543cc744ae536ed0ef34b8d481c4">util.qc</a>
 </li>
 <li>TextSlider_addValue()
 : <a class="el" href="d6/d19/item_2textslider_8qc.html#adfe01db335b98febb13f9f868af89017">textslider.qc</a>
@@ -345,16 +343,16 @@ $(document).ready(function(){initNavTree('globals_func_t.html','');});
 , <a class="el" href="dc/db9/utility_8qh.html#ad3c58519e4866809f49ab5150a162c7f">utility.qh</a>
 </li>
 <li>tile_check_star()
-: <a class="el" href="dd/d70/pathlib_8qh.html#ab2c09802fe7b0882588ee8916ead7233">pathlib.qh</a>
-, <a class="el" href="dd/d1e/utility_8qc.html#ab2c09802fe7b0882588ee8916ead7233">utility.qc</a>
+: <a class="el" href="dd/d1e/utility_8qc.html#ab2c09802fe7b0882588ee8916ead7233">utility.qc</a>
+, <a class="el" href="dd/d70/pathlib_8qh.html#ab2c09802fe7b0882588ee8916ead7233">pathlib.qh</a>
 </li>
 <li>timeout_handler_reset()
-: <a class="el" href="d2/d06/server_2command_2common_8qh.html#a437cf68b96853ed33862d5dc84f6c7b3">common.qh</a>
-, <a class="el" href="de/d55/server_2command_2common_8qc.html#a437cf68b96853ed33862d5dc84f6c7b3">common.qc</a>
+: <a class="el" href="de/d55/server_2command_2common_8qc.html#a437cf68b96853ed33862d5dc84f6c7b3">common.qc</a>
+, <a class="el" href="d2/d06/server_2command_2common_8qh.html#a437cf68b96853ed33862d5dc84f6c7b3">common.qh</a>
 </li>
 <li>timeout_handler_think()
-: <a class="el" href="de/d55/server_2command_2common_8qc.html#abdaf4a39415d0d3d7e32a6b6f227ab63">common.qc</a>
-, <a class="el" href="d2/d06/server_2command_2common_8qh.html#abdaf4a39415d0d3d7e32a6b6f227ab63">common.qh</a>
+: <a class="el" href="d2/d06/server_2command_2common_8qh.html#abdaf4a39415d0d3d7e32a6b6f227ab63">common.qh</a>
+, <a class="el" href="de/d55/server_2command_2common_8qc.html#abdaf4a39415d0d3d7e32a6b6f227ab63">common.qc</a>
 </li>
 <li>toDecibelOfSquare()
 : <a class="el" href="d8/db3/slider__decibels_8qc.html#afe940f11185b8582a4fe63a45121cafd">slider_decibels.qc</a>
@@ -364,9 +362,6 @@ $(document).ready(function(){initNavTree('globals_func_t.html','');});
 </li>
 <li>tokenize()
 : <a class="el" href="d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">menudefs.qc</a>
-</li>
-<li>topicChangeNotify()
-: <a class="el" href="de/d48/dialog__settings__game_8qc.html#a5f23574f6ea8a7cbd44dae6dbcd400c6">dialog_settings_game.qc</a>
 </li>
 <li>trace_hits_box()
 : <a class="el" href="dc/dc6/server_2miscfunctions_8qc.html#ac0fb8d3651371f4916d29974d721fa47">miscfunctions.qc</a>
@@ -379,8 +374,8 @@ $(document).ready(function(){initNavTree('globals_func_t.html','');});
 , <a class="el" href="d6/d93/g__subs_8qh.html#a098ba0cc6ccdbc147f0bf68b30238cc5">g_subs.qh</a>
 </li>
 <li>tracebox_antilag_force_wz()
-: <a class="el" href="d6/d93/g__subs_8qh.html#a16360420959782f6972ac30eec10327a">g_subs.qh</a>
-, <a class="el" href="d2/d11/g__subs_8qc.html#a16360420959782f6972ac30eec10327a">g_subs.qc</a>
+: <a class="el" href="d2/d11/g__subs_8qc.html#a16360420959782f6972ac30eec10327a">g_subs.qc</a>
+, <a class="el" href="d6/d93/g__subs_8qh.html#a16360420959782f6972ac30eec10327a">g_subs.qh</a>
 </li>
 <li>tracebox_hits_box()
 : <a class="el" href="dc/dc6/server_2miscfunctions_8qc.html#a2de10fb010f38dc7ef051696ee9a940a">miscfunctions.qc</a>
@@ -395,8 +390,8 @@ $(document).ready(function(){initNavTree('globals_func_t.html','');});
 </li>
 <li>traceline_antilag()
 : <a class="el" href="d2/d11/g__subs_8qc.html#a5edf83b72581bc3ed7f4b512f534fbfe">g_subs.qc</a>
-, <a class="el" href="d6/d93/g__subs_8qh.html#a5edf83b72581bc3ed7f4b512f534fbfe">g_subs.qh</a>
 , <a class="el" href="dc/d73/server_2miscfunctions_8qh.html#a5edf83b72581bc3ed7f4b512f534fbfe">miscfunctions.qh</a>
+, <a class="el" href="d6/d93/g__subs_8qh.html#a5edf83b72581bc3ed7f4b512f534fbfe">g_subs.qh</a>
 </li>
 <li>traceline_antilag_force()
 : <a class="el" href="d2/d11/g__subs_8qc.html#ae2572b5fa7a3e76a4ff54cd41a55cf04">g_subs.qc</a>
@@ -445,8 +440,8 @@ $(document).ready(function(){initNavTree('globals_func_t.html','');});
 : <a class="el" href="d8/d88/keylock_8qc.html#a95a12e76f1f829ae8492ff79ba0fa5b8">keylock.qc</a>
 </li>
 <li>trigger_push_calculatevelocity()
-: <a class="el" href="d2/d9b/jumppads_8qc.html#a314c2ab38cad8dd0cbe7622152bb918d">jumppads.qc</a>
-, <a class="el" href="d9/de7/jumppads_8qh.html#a314c2ab38cad8dd0cbe7622152bb918d">jumppads.qh</a>
+: <a class="el" href="d9/de7/jumppads_8qh.html#a314c2ab38cad8dd0cbe7622152bb918d">jumppads.qh</a>
+, <a class="el" href="d2/d9b/jumppads_8qc.html#a314c2ab38cad8dd0cbe7622152bb918d">jumppads.qc</a>
 </li>
 <li>trigger_push_findtarget()
 : <a class="el" href="d2/d9b/jumppads_8qc.html#a426e2c0aeb56c1aaac71a36298047182">jumppads.qc</a>
@@ -463,8 +458,8 @@ $(document).ready(function(){initNavTree('globals_func_t.html','');});
 : <a class="el" href="d6/d3b/race_8qc.html#ac5b18caa49ee50b8d00e3fad610cb1ef">race.qc</a>
 </li>
 <li>TrueAim_Init()
-: <a class="el" href="df/d30/client_2main_8qc.html#a468fbc523e176ec4adf829a18606b5f6">main.qc</a>
-, <a class="el" href="d6/dd3/view_8qc.html#a468fbc523e176ec4adf829a18606b5f6">view.qc</a>
+: <a class="el" href="d6/dd3/view_8qc.html#a468fbc523e176ec4adf829a18606b5f6">view.qc</a>
+, <a class="el" href="df/d30/client_2main_8qc.html#a468fbc523e176ec4adf829a18606b5f6">main.qc</a>
 </li>
 <li>TrueAimCheck()
 : <a class="el" href="d6/dd3/view_8qc.html#a83655180d646407237eedc1d08ccab3f">view.qc</a>
@@ -543,8 +538,8 @@ $(document).ready(function(){initNavTree('globals_func_t.html','');});
 : <a class="el" href="df/d28/sv__turrets_8qh.html#a65537857da6b4e32d142b1d9769e7fb4">sv_turrets.qh</a>
 </li>
 <li>turret_tag_fire_update()
-: <a class="el" href="d2/de5/common_2turrets_2util_8qc.html#adeeb8bb7025f94f35b2e5ddb8e3ed3dc">util.qc</a>
-, <a class="el" href="d6/d60/common_2turrets_2util_8qh.html#adeeb8bb7025f94f35b2e5ddb8e3ed3dc">util.qh</a>
+: <a class="el" href="d6/d60/common_2turrets_2util_8qh.html#adeeb8bb7025f94f35b2e5ddb8e3ed3dc">util.qh</a>
+, <a class="el" href="d2/de5/common_2turrets_2util_8qc.html#adeeb8bb7025f94f35b2e5ddb8e3ed3dc">util.qc</a>
 </li>
 <li>turret_targettrigger_touch()
 : <a class="el" href="d1/dae/targettrigger_8qc.html#a477779835f37be3b44967789a7ba1b21">targettrigger.qc</a>
@@ -561,7 +556,7 @@ $(document).ready(function(){initNavTree('globals_func_t.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

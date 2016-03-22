@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d4/d90/skin-customizables_8inc_source.
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -112,11 +113,11 @@ $(document).ready(function(){initNavTree('d4/d90/skin-customizables_8inc_source.
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordflow">while</span>(&lt;DATA&gt;)</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    chomp;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span>(/^\<a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>*(?:<a class="code" href="../../d4/d90/skin-customizables_8inc.html#a143e3a0b0e24174a31e0bd71ea604f00">SKINFLOAT</a>|<a class="code" href="../../d4/d90/skin-customizables_8inc.html#a3c6832b4fb58a1075ac93b25983d91db">SKINVECTOR</a>)\(([A-Z_]+), ([-<span class="stringliteral">&#39;0-9. ]+)\);$/) #&#39;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">if</span>(/^\s*(?:<a class="code" href="../../d4/d90/skin-customizables_8inc.html#a143e3a0b0e24174a31e0bd71ea604f00">SKINFLOAT</a>|<a class="code" href="../../d4/d90/skin-customizables_8inc.html#a3c6832b4fb58a1075ac93b25983d91db">SKINVECTOR</a>)\(([A-Z_]+), ([-<span class="stringliteral">&#39;0-9. ]+)\);$/) #&#39;</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    {</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        printf <span class="stringliteral">&quot;%-31s %s\n&quot;</span>, $1, $2;</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    elsif(/^\<a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>*<a class="code" href="../../d4/d90/skin-customizables_8inc.html#acae296be82d31996ae73bec0c5cb94d5">SKINSTRING</a>\(([A-Z_]+), <span class="stringliteral">&quot;(.*)&quot;</span>\);$/)</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    elsif(/^\s*<a class="code" href="../../d4/d90/skin-customizables_8inc.html#acae296be82d31996ae73bec0c5cb94d5">SKINSTRING</a>\(([A-Z_]+), <span class="stringliteral">&quot;(.*)&quot;</span>\);$/)</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">        # printf &quot;//   uses \&quot;$2\&quot; images\n&quot;;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span>        printf <span class="stringliteral">&quot;%-31s %s\n&quot;</span>, $1, $2;</div>
@@ -125,7 +126,7 @@ $(document).ready(function(){initNavTree('d4/d90/skin-customizables_8inc_source.
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a> <span class="stringliteral">&quot;\n&quot;</span>;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    elsif(/^\<a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>+\/\/ (.*)$/)</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    elsif(/^\s+\/\/ (.*)$/)</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a> <span class="stringliteral">&quot;// $1\n&quot;</span>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
@@ -385,7 +386,6 @@ $(document).ready(function(){initNavTree('d4/d90/skin-customizables_8inc_source.
 <div class="ttc" id="client_2main_8qh_html_abe02bc8f982ce063f9878f9beae11f1b"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#abe02bc8f982ce063f9878f9beae11f1b">OFFSET_CURSOR</a></div><div class="ttdeci">vector OFFSET_CURSOR</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00036">main.qh:36</a></div></div>
 <div class="ttc" id="skin_8qh_html_a474148ecc760c0fa67739c3f8f473e77"><div class="ttname"><a href="../../d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77">SKINBEGIN</a></div><div class="ttdeci">#define SKINBEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dcc/skin_8qh_source.html#l00016">skin.qh:16</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_acf9c719e766113bad854907e87812e98"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a></div><div class="ttdeci">void print(string text,...)</div></div>
-<div class="ttc" id="effectinfo_8qc_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00203">effectinfo.qc:203</a></div></div>
 <div class="ttc" id="skin-customizables_8inc_html_acae296be82d31996ae73bec0c5cb94d5"><div class="ttname"><a href="../../d4/d90/skin-customizables_8inc.html#acae296be82d31996ae73bec0c5cb94d5">SKINSTRING</a></div><div class="ttdeci">SKINSTRING(GFX_TOOLTIP,&quot;tooltip&quot;)</div></div>
 <div class="ttc" id="skin-customizables_8inc_html_a143e3a0b0e24174a31e0bd71ea604f00"><div class="ttname"><a href="../../d4/d90/skin-customizables_8inc.html#a143e3a0b0e24174a31e0bd71ea604f00">SKINFLOAT</a></div><div class="ttdeci">SKINBEGIN SKINFLOAT(FONTSIZE_NORMAL, 12)</div></div>
 <div class="ttc" id="client_2main_8qh_html_affb130add2c9ed5cab2cb229ad8f921d"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#affb130add2c9ed5cab2cb229ad8f921d">SIZE_CURSOR</a></div><div class="ttdeci">vector SIZE_CURSOR</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00037">main.qh:37</a></div></div>
@@ -397,7 +397,7 @@ $(document).ready(function(){initNavTree('d4/d90/skin-customizables_8inc_source.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../d4/d90/skin-customizables_8inc.html">skin-customizables.inc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:32 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -6,12 +6,8 @@ var serverlist_8qc =
     [ "SLIST_FIELD", "d6/d74/serverlist_8qc.html#a8a70c6eb19b1e00e40cd4abce963a8ef", null ],
     [ "CheckCategoryForEntry", "d6/d74/serverlist_8qc.html#ae85cc5fcfaf096dbc86d75ae3da708f3", null ],
     [ "CheckCategoryOverride", "d6/d74/serverlist_8qc.html#ae9345a36b2cb9eebb8c90fbf4270fd03", null ],
-    [ "cvar_set", "d6/d74/serverlist_8qc.html#adf816dd49cdca36e6d7b27ac15e9bd45", null ],
-    [ "for", "d6/d74/serverlist_8qc.html#a748bdd9b2b86f12da98d8d6f7911e470", null ],
-    [ "if", "d6/d74/serverlist_8qc.html#a16c4c763581c0e31ddef1ebd7ba92462", null ],
     [ "IsServerInList", "d6/d74/serverlist_8qc.html#a50a4352b03fb4631db004d5a549c95a2", null ],
     [ "makeXonoticServerList", "d6/d74/serverlist_8qc.html#a043a2e03fb459803be9fc416291ecf26", null ],
-    [ "refreshServerList", "d6/d74/serverlist_8qc.html#ac1c44c436be608f376b5b0520bc95fdb", null ],
     [ "RegisterSLCategories", "d6/d74/serverlist_8qc.html#a97346b4253a15de7c1b84be9e0e5b52f", null ],
     [ "RetrieveCategoryEnt", "d6/d74/serverlist_8qc.html#a4382ec8abd0b7afb51d9855b512f95f2", null ],
     [ "ServerList_Categories_Click", "d6/d74/serverlist_8qc.html#a0d3acf1ab469337eb7fd7bb520e3ace0", null ],
@@ -43,9 +39,5 @@ var serverlist_8qc =
     [ "XonoticServerList_refreshServerList", "d6/d74/serverlist_8qc.html#a733e556f63ad704ad143392b7ae0cc48", null ],
     [ "XonoticServerList_resizeNotify", "d6/d74/serverlist_8qc.html#a6a0b094454f1d89c5c2b0c878977934f", null ],
     [ "XonoticServerList_setSelected", "d6/d74/serverlist_8qc.html#a15ded02541ac3c3ed244143f4199adab", null ],
-    [ "XonoticServerList_setSortOrder", "d6/d74/serverlist_8qc.html#a86cacb78317f07efc652f66a4f3770fc", null ],
-    [ "p", "d6/d74/serverlist_8qc.html#a79dd38a181750a643db7182f2e33f46d", null ],
-    [ "ret", "d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae", null ],
-    [ "s", "d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5", null ],
-    [ "srv_resolved", "d6/d74/serverlist_8qc.html#a60c038b3577cd3d89622e98f3d3099c4", null ]
+    [ "XonoticServerList_setSortOrder", "d6/d74/serverlist_8qc.html#a86cacb78317f07efc652f66a4f3770fc", null ]
 ];

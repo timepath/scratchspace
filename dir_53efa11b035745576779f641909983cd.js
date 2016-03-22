@@ -32,66 +32,122 @@ var dir_53efa11b035745576779f641909983cd =
     [ "crosshairpreview.qh", "d9/dcf/crosshairpreview_8qh.html", "d9/dcf/crosshairpreview_8qh" ],
     [ "cvarlist.qc", "dc/d56/cvarlist_8qc.html", "dc/d56/cvarlist_8qc" ],
     [ "cvarlist.qh", "d9/d47/cvarlist_8qh.html", "d9/d47/cvarlist_8qh" ],
-    [ "datasource.qc", "d4/d4e/datasource_8qc.html", "d4/d4e/datasource_8qc" ],
-    [ "datasource.qh", "d7/d63/datasource_8qh.html", "d7/d63/datasource_8qh" ],
+    [ "datasource.qc", "d4/d4e/datasource_8qc.html", null ],
+    [ "datasource.qh", "d7/d63/datasource_8qh.html", [
+      [ "CvarStringSource", "d2/dbe/classCvarStringSource.html", "d2/dbe/classCvarStringSource" ],
+      [ "DataSource", "de/d82/classDataSource.html", "de/d82/classDataSource" ],
+      [ "StringSource", "d7/d66/classStringSource.html", "d7/d66/classStringSource" ]
+    ] ],
     [ "demolist.qc", "db/d21/demolist_8qc.html", "db/d21/demolist_8qc" ],
     [ "demolist.qh", "d1/de6/demolist_8qh.html", "d1/de6/demolist_8qh" ],
     [ "dialog.qc", "d9/d55/xonotic_2dialog_8qc.html", "d9/d55/xonotic_2dialog_8qc" ],
     [ "dialog.qh", "d5/d05/xonotic_2dialog_8qh.html", "d5/d05/xonotic_2dialog_8qh" ],
     [ "dialog_credits.qc", "d3/d71/dialog__credits_8qc.html", "d3/d71/dialog__credits_8qc" ],
-    [ "dialog_credits.qh", "dd/d95/dialog__credits_8qh.html", "dd/d95/dialog__credits_8qh" ],
+    [ "dialog_credits.qh", "dd/d95/dialog__credits_8qh.html", [
+      [ "XonoticCreditsDialog", "dd/da6/classXonoticCreditsDialog.html", "dd/da6/classXonoticCreditsDialog" ]
+    ] ],
     [ "dialog_firstrun.qc", "d3/dbd/dialog__firstrun_8qc.html", "d3/dbd/dialog__firstrun_8qc" ],
-    [ "dialog_firstrun.qh", "d5/d92/dialog__firstrun_8qh.html", "d5/d92/dialog__firstrun_8qh" ],
+    [ "dialog_firstrun.qh", "d5/d92/dialog__firstrun_8qh.html", [
+      [ "XonoticFirstRunDialog", "d4/d5f/classXonoticFirstRunDialog.html", "d4/d5f/classXonoticFirstRunDialog" ]
+    ] ],
     [ "dialog_hudpanel_ammo.qc", "d4/d70/dialog__hudpanel__ammo_8qc.html", "d4/d70/dialog__hudpanel__ammo_8qc" ],
-    [ "dialog_hudpanel_ammo.qh", "da/d79/dialog__hudpanel__ammo_8qh.html", "da/d79/dialog__hudpanel__ammo_8qh" ],
+    [ "dialog_hudpanel_ammo.qh", "da/d79/dialog__hudpanel__ammo_8qh.html", [
+      [ "XonoticHUDAmmoDialog", "d7/d13/classXonoticHUDAmmoDialog.html", "d7/d13/classXonoticHUDAmmoDialog" ]
+    ] ],
     [ "dialog_hudpanel_centerprint.qc", "d5/d8d/dialog__hudpanel__centerprint_8qc.html", "d5/d8d/dialog__hudpanel__centerprint_8qc" ],
-    [ "dialog_hudpanel_centerprint.qh", "de/d4a/dialog__hudpanel__centerprint_8qh.html", "de/d4a/dialog__hudpanel__centerprint_8qh" ],
+    [ "dialog_hudpanel_centerprint.qh", "de/d4a/dialog__hudpanel__centerprint_8qh.html", [
+      [ "XonoticHUDCenterprintDialog", "d6/dd1/classXonoticHUDCenterprintDialog.html", "d6/dd1/classXonoticHUDCenterprintDialog" ]
+    ] ],
     [ "dialog_hudpanel_chat.qc", "d5/da7/dialog__hudpanel__chat_8qc.html", "d5/da7/dialog__hudpanel__chat_8qc" ],
-    [ "dialog_hudpanel_chat.qh", "df/d4a/dialog__hudpanel__chat_8qh.html", "df/d4a/dialog__hudpanel__chat_8qh" ],
+    [ "dialog_hudpanel_chat.qh", "df/d4a/dialog__hudpanel__chat_8qh.html", [
+      [ "XonoticHUDChatDialog", "d8/d35/classXonoticHUDChatDialog.html", "d8/d35/classXonoticHUDChatDialog" ]
+    ] ],
     [ "dialog_hudpanel_engineinfo.qc", "d0/dce/dialog__hudpanel__engineinfo_8qc.html", "d0/dce/dialog__hudpanel__engineinfo_8qc" ],
-    [ "dialog_hudpanel_engineinfo.qh", "d7/dc0/dialog__hudpanel__engineinfo_8qh.html", "d7/dc0/dialog__hudpanel__engineinfo_8qh" ],
+    [ "dialog_hudpanel_engineinfo.qh", "d7/dc0/dialog__hudpanel__engineinfo_8qh.html", [
+      [ "XonoticHUDEngineInfoDialog", "d9/d85/classXonoticHUDEngineInfoDialog.html", "d9/d85/classXonoticHUDEngineInfoDialog" ]
+    ] ],
     [ "dialog_hudpanel_healtharmor.qc", "d3/d83/dialog__hudpanel__healtharmor_8qc.html", "d3/d83/dialog__hudpanel__healtharmor_8qc" ],
-    [ "dialog_hudpanel_healtharmor.qh", "d6/dfa/dialog__hudpanel__healtharmor_8qh.html", "d6/dfa/dialog__hudpanel__healtharmor_8qh" ],
+    [ "dialog_hudpanel_healtharmor.qh", "d6/dfa/dialog__hudpanel__healtharmor_8qh.html", [
+      [ "XonoticHUDHealthArmorDialog", "d3/d83/classXonoticHUDHealthArmorDialog.html", "d3/d83/classXonoticHUDHealthArmorDialog" ]
+    ] ],
     [ "dialog_hudpanel_infomessages.qc", "df/db7/dialog__hudpanel__infomessages_8qc.html", "df/db7/dialog__hudpanel__infomessages_8qc" ],
-    [ "dialog_hudpanel_infomessages.qh", "d6/d82/dialog__hudpanel__infomessages_8qh.html", "d6/d82/dialog__hudpanel__infomessages_8qh" ],
+    [ "dialog_hudpanel_infomessages.qh", "d6/d82/dialog__hudpanel__infomessages_8qh.html", [
+      [ "XonoticHUDInfoMessagesDialog", "de/d65/classXonoticHUDInfoMessagesDialog.html", "de/d65/classXonoticHUDInfoMessagesDialog" ]
+    ] ],
     [ "dialog_hudpanel_itemstime.qc", "de/d24/dialog__hudpanel__itemstime_8qc.html", "de/d24/dialog__hudpanel__itemstime_8qc" ],
-    [ "dialog_hudpanel_itemstime.qh", "d0/d6a/dialog__hudpanel__itemstime_8qh.html", "d0/d6a/dialog__hudpanel__itemstime_8qh" ],
+    [ "dialog_hudpanel_itemstime.qh", "d0/d6a/dialog__hudpanel__itemstime_8qh.html", [
+      [ "XonoticHUDItemsTimeDialog", "de/de7/classXonoticHUDItemsTimeDialog.html", "de/de7/classXonoticHUDItemsTimeDialog" ]
+    ] ],
     [ "dialog_hudpanel_modicons.qc", "d9/d12/dialog__hudpanel__modicons_8qc.html", "d9/d12/dialog__hudpanel__modicons_8qc" ],
-    [ "dialog_hudpanel_modicons.qh", "da/dc1/dialog__hudpanel__modicons_8qh.html", "da/dc1/dialog__hudpanel__modicons_8qh" ],
+    [ "dialog_hudpanel_modicons.qh", "da/dc1/dialog__hudpanel__modicons_8qh.html", [
+      [ "XonoticHUDModIconsDialog", "d1/d55/classXonoticHUDModIconsDialog.html", "d1/d55/classXonoticHUDModIconsDialog" ]
+    ] ],
     [ "dialog_hudpanel_notification.qc", "d5/db2/dialog__hudpanel__notification_8qc.html", "d5/db2/dialog__hudpanel__notification_8qc" ],
-    [ "dialog_hudpanel_notification.qh", "d9/de3/dialog__hudpanel__notification_8qh.html", "d9/de3/dialog__hudpanel__notification_8qh" ],
+    [ "dialog_hudpanel_notification.qh", "d9/de3/dialog__hudpanel__notification_8qh.html", [
+      [ "XonoticHUDNotificationDialog", "db/d76/classXonoticHUDNotificationDialog.html", "db/d76/classXonoticHUDNotificationDialog" ]
+    ] ],
     [ "dialog_hudpanel_physics.qc", "d4/d21/dialog__hudpanel__physics_8qc.html", "d4/d21/dialog__hudpanel__physics_8qc" ],
-    [ "dialog_hudpanel_physics.qh", "d6/d3f/dialog__hudpanel__physics_8qh.html", "d6/d3f/dialog__hudpanel__physics_8qh" ],
+    [ "dialog_hudpanel_physics.qh", "d6/d3f/dialog__hudpanel__physics_8qh.html", [
+      [ "XonoticHUDPhysicsDialog", "da/d8d/classXonoticHUDPhysicsDialog.html", "da/d8d/classXonoticHUDPhysicsDialog" ]
+    ] ],
     [ "dialog_hudpanel_powerups.qc", "d2/dce/dialog__hudpanel__powerups_8qc.html", "d2/dce/dialog__hudpanel__powerups_8qc" ],
-    [ "dialog_hudpanel_powerups.qh", "d9/d7a/dialog__hudpanel__powerups_8qh.html", "d9/d7a/dialog__hudpanel__powerups_8qh" ],
+    [ "dialog_hudpanel_powerups.qh", "d9/d7a/dialog__hudpanel__powerups_8qh.html", [
+      [ "XonoticHUDPowerupsDialog", "db/d5a/classXonoticHUDPowerupsDialog.html", "db/d5a/classXonoticHUDPowerupsDialog" ]
+    ] ],
     [ "dialog_hudpanel_pressedkeys.qc", "da/d21/dialog__hudpanel__pressedkeys_8qc.html", "da/d21/dialog__hudpanel__pressedkeys_8qc" ],
-    [ "dialog_hudpanel_pressedkeys.qh", "da/d52/dialog__hudpanel__pressedkeys_8qh.html", "da/d52/dialog__hudpanel__pressedkeys_8qh" ],
+    [ "dialog_hudpanel_pressedkeys.qh", "da/d52/dialog__hudpanel__pressedkeys_8qh.html", [
+      [ "XonoticHUDPressedKeysDialog", "db/dbd/classXonoticHUDPressedKeysDialog.html", "db/dbd/classXonoticHUDPressedKeysDialog" ]
+    ] ],
     [ "dialog_hudpanel_quickmenu.qc", "d8/dbf/dialog__hudpanel__quickmenu_8qc.html", "d8/dbf/dialog__hudpanel__quickmenu_8qc" ],
-    [ "dialog_hudpanel_quickmenu.qh", "d9/d4a/dialog__hudpanel__quickmenu_8qh.html", "d9/d4a/dialog__hudpanel__quickmenu_8qh" ],
+    [ "dialog_hudpanel_quickmenu.qh", "d9/d4a/dialog__hudpanel__quickmenu_8qh.html", [
+      [ "XonoticHUDQuickMenuDialog", "df/dc9/classXonoticHUDQuickMenuDialog.html", "df/dc9/classXonoticHUDQuickMenuDialog" ]
+    ] ],
     [ "dialog_hudpanel_racetimer.qc", "d6/d40/dialog__hudpanel__racetimer_8qc.html", "d6/d40/dialog__hudpanel__racetimer_8qc" ],
-    [ "dialog_hudpanel_racetimer.qh", "d4/dd8/dialog__hudpanel__racetimer_8qh.html", "d4/dd8/dialog__hudpanel__racetimer_8qh" ],
+    [ "dialog_hudpanel_racetimer.qh", "d4/dd8/dialog__hudpanel__racetimer_8qh.html", [
+      [ "XonoticHUDRaceTimerDialog", "db/db1/classXonoticHUDRaceTimerDialog.html", "db/db1/classXonoticHUDRaceTimerDialog" ]
+    ] ],
     [ "dialog_hudpanel_radar.qc", "d8/d20/dialog__hudpanel__radar_8qc.html", "d8/d20/dialog__hudpanel__radar_8qc" ],
-    [ "dialog_hudpanel_radar.qh", "dc/d4f/dialog__hudpanel__radar_8qh.html", "dc/d4f/dialog__hudpanel__radar_8qh" ],
+    [ "dialog_hudpanel_radar.qh", "dc/d4f/dialog__hudpanel__radar_8qh.html", [
+      [ "XonoticHUDRadarDialog", "d4/df8/classXonoticHUDRadarDialog.html", "d4/df8/classXonoticHUDRadarDialog" ]
+    ] ],
     [ "dialog_hudpanel_score.qc", "d0/ddb/dialog__hudpanel__score_8qc.html", "d0/ddb/dialog__hudpanel__score_8qc" ],
-    [ "dialog_hudpanel_score.qh", "d2/d3c/dialog__hudpanel__score_8qh.html", "d2/d3c/dialog__hudpanel__score_8qh" ],
+    [ "dialog_hudpanel_score.qh", "d2/d3c/dialog__hudpanel__score_8qh.html", [
+      [ "XonoticHUDScoreDialog", "de/d7a/classXonoticHUDScoreDialog.html", "de/d7a/classXonoticHUDScoreDialog" ]
+    ] ],
     [ "dialog_hudpanel_timer.qc", "d3/d0f/dialog__hudpanel__timer_8qc.html", "d3/d0f/dialog__hudpanel__timer_8qc" ],
-    [ "dialog_hudpanel_timer.qh", "d7/de8/dialog__hudpanel__timer_8qh.html", "d7/de8/dialog__hudpanel__timer_8qh" ],
+    [ "dialog_hudpanel_timer.qh", "d7/de8/dialog__hudpanel__timer_8qh.html", [
+      [ "XonoticHUDTimerDialog", "d9/deb/classXonoticHUDTimerDialog.html", "d9/deb/classXonoticHUDTimerDialog" ]
+    ] ],
     [ "dialog_hudpanel_vote.qc", "d9/d8b/dialog__hudpanel__vote_8qc.html", "d9/d8b/dialog__hudpanel__vote_8qc" ],
-    [ "dialog_hudpanel_vote.qh", "d8/d1e/dialog__hudpanel__vote_8qh.html", "d8/d1e/dialog__hudpanel__vote_8qh" ],
+    [ "dialog_hudpanel_vote.qh", "d8/d1e/dialog__hudpanel__vote_8qh.html", [
+      [ "XonoticHUDVoteDialog", "d4/d94/classXonoticHUDVoteDialog.html", "d4/d94/classXonoticHUDVoteDialog" ]
+    ] ],
     [ "dialog_hudpanel_weapons.qc", "d5/d23/dialog__hudpanel__weapons_8qc.html", "d5/d23/dialog__hudpanel__weapons_8qc" ],
-    [ "dialog_hudpanel_weapons.qh", "db/d29/dialog__hudpanel__weapons_8qh.html", "db/d29/dialog__hudpanel__weapons_8qh" ],
+    [ "dialog_hudpanel_weapons.qh", "db/d29/dialog__hudpanel__weapons_8qh.html", [
+      [ "XonoticHUDWeaponsDialog", "d6/d79/classXonoticHUDWeaponsDialog.html", "d6/d79/classXonoticHUDWeaponsDialog" ]
+    ] ],
     [ "dialog_hudsetup_exit.qc", "dd/dac/dialog__hudsetup__exit_8qc.html", "dd/dac/dialog__hudsetup__exit_8qc" ],
-    [ "dialog_hudsetup_exit.qh", "d0/d13/dialog__hudsetup__exit_8qh.html", "d0/d13/dialog__hudsetup__exit_8qh" ],
+    [ "dialog_hudsetup_exit.qh", "d0/d13/dialog__hudsetup__exit_8qh.html", [
+      [ "XonoticHUDExitDialog", "dc/d37/classXonoticHUDExitDialog.html", "dc/d37/classXonoticHUDExitDialog" ]
+    ] ],
     [ "dialog_monstertools.qc", "da/d92/dialog__monstertools_8qc.html", "da/d92/dialog__monstertools_8qc" ],
-    [ "dialog_monstertools.qh", "df/d7d/dialog__monstertools_8qh.html", "df/d7d/dialog__monstertools_8qh" ],
+    [ "dialog_monstertools.qh", "df/d7d/dialog__monstertools_8qh.html", [
+      [ "XonoticMonsterToolsDialog", "da/d9c/classXonoticMonsterToolsDialog.html", "da/d9c/classXonoticMonsterToolsDialog" ]
+    ] ],
     [ "dialog_multiplayer.qc", "d1/d9f/dialog__multiplayer_8qc.html", "d1/d9f/dialog__multiplayer_8qc" ],
-    [ "dialog_multiplayer.qh", "dd/d46/dialog__multiplayer_8qh.html", "dd/d46/dialog__multiplayer_8qh" ],
+    [ "dialog_multiplayer.qh", "dd/d46/dialog__multiplayer_8qh.html", [
+      [ "XonoticMultiplayerDialog", "d3/d01/classXonoticMultiplayerDialog.html", "d3/d01/classXonoticMultiplayerDialog" ]
+    ] ],
     [ "dialog_multiplayer_create.qc", "d7/de3/dialog__multiplayer__create_8qc.html", "d7/de3/dialog__multiplayer__create_8qc" ],
     [ "dialog_multiplayer_create.qh", "db/d46/dialog__multiplayer__create_8qh.html", "db/d46/dialog__multiplayer__create_8qh" ],
     [ "dialog_multiplayer_create_mapinfo.qc", "df/d7d/dialog__multiplayer__create__mapinfo_8qc.html", "df/d7d/dialog__multiplayer__create__mapinfo_8qc" ],
-    [ "dialog_multiplayer_create_mapinfo.qh", "dc/d52/dialog__multiplayer__create__mapinfo_8qh.html", "dc/d52/dialog__multiplayer__create__mapinfo_8qh" ],
+    [ "dialog_multiplayer_create_mapinfo.qh", "dc/d52/dialog__multiplayer__create__mapinfo_8qh.html", [
+      [ "XonoticMapInfoDialog", "dc/da0/classXonoticMapInfoDialog.html", "dc/da0/classXonoticMapInfoDialog" ]
+    ] ],
     [ "dialog_multiplayer_create_mutators.qc", "d7/dfd/dialog__multiplayer__create__mutators_8qc.html", "d7/dfd/dialog__multiplayer__create__mutators_8qc" ],
-    [ "dialog_multiplayer_create_mutators.qh", "d6/d7d/dialog__multiplayer__create__mutators_8qh.html", "d6/d7d/dialog__multiplayer__create__mutators_8qh" ],
+    [ "dialog_multiplayer_create_mutators.qh", "d6/d7d/dialog__multiplayer__create__mutators_8qh.html", [
+      [ "XonoticMutatorsDialog", "d7/dac/classXonoticMutatorsDialog.html", "d7/dac/classXonoticMutatorsDialog" ]
+    ] ],
     [ "dialog_multiplayer_join.qc", "dd/d94/dialog__multiplayer__join_8qc.html", "dd/d94/dialog__multiplayer__join_8qc" ],
     [ "dialog_multiplayer_join.qh", "d7/d42/dialog__multiplayer__join_8qh.html", "d7/d42/dialog__multiplayer__join_8qh" ],
     [ "dialog_multiplayer_join_serverinfo.qc", "dc/db5/dialog__multiplayer__join__serverinfo_8qc.html", "dc/db5/dialog__multiplayer__join__serverinfo_8qc" ],
@@ -101,35 +157,53 @@ var dir_53efa11b035745576779f641909983cd =
     [ "dialog_multiplayer_media_demo.qc", "d4/d4c/dialog__multiplayer__media__demo_8qc.html", "d4/d4c/dialog__multiplayer__media__demo_8qc" ],
     [ "dialog_multiplayer_media_demo.qh", "d6/de7/dialog__multiplayer__media__demo_8qh.html", "d6/de7/dialog__multiplayer__media__demo_8qh" ],
     [ "dialog_multiplayer_media_demo_startconfirm.qc", "d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc.html", "d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc" ],
-    [ "dialog_multiplayer_media_demo_startconfirm.qh", "da/d5c/dialog__multiplayer__media__demo__startconfirm_8qh.html", "da/d5c/dialog__multiplayer__media__demo__startconfirm_8qh" ],
+    [ "dialog_multiplayer_media_demo_startconfirm.qh", "da/d5c/dialog__multiplayer__media__demo__startconfirm_8qh.html", [
+      [ "XonoticDemoStartConfirmDialog", "d2/d25/classXonoticDemoStartConfirmDialog.html", "d2/d25/classXonoticDemoStartConfirmDialog" ]
+    ] ],
     [ "dialog_multiplayer_media_demo_timeconfirm.qc", "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html", "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc" ],
-    [ "dialog_multiplayer_media_demo_timeconfirm.qh", "d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh.html", "d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh" ],
+    [ "dialog_multiplayer_media_demo_timeconfirm.qh", "d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh.html", [
+      [ "XonoticDemoTimeConfirmDialog", "d1/db8/classXonoticDemoTimeConfirmDialog.html", "d1/db8/classXonoticDemoTimeConfirmDialog" ]
+    ] ],
     [ "dialog_multiplayer_media_musicplayer.qc", "d6/d3e/dialog__multiplayer__media__musicplayer_8qc.html", "d6/d3e/dialog__multiplayer__media__musicplayer_8qc" ],
     [ "dialog_multiplayer_media_musicplayer.qh", "db/dd7/dialog__multiplayer__media__musicplayer_8qh.html", "db/dd7/dialog__multiplayer__media__musicplayer_8qh" ],
     [ "dialog_multiplayer_media_screenshot.qc", "d8/d8a/dialog__multiplayer__media__screenshot_8qc.html", "d8/d8a/dialog__multiplayer__media__screenshot_8qc" ],
     [ "dialog_multiplayer_media_screenshot.qh", "d3/dd4/dialog__multiplayer__media__screenshot_8qh.html", "d3/dd4/dialog__multiplayer__media__screenshot_8qh" ],
     [ "dialog_multiplayer_media_screenshot_viewer.qc", "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html", "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc" ],
-    [ "dialog_multiplayer_media_screenshot_viewer.qh", "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html", "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh" ],
+    [ "dialog_multiplayer_media_screenshot_viewer.qh", "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html", [
+      [ "XonoticScreenshotViewerDialog", "db/de2/classXonoticScreenshotViewerDialog.html", "db/de2/classXonoticScreenshotViewerDialog" ]
+    ] ],
     [ "dialog_multiplayer_profile.qc", "d2/dd3/dialog__multiplayer__profile_8qc.html", "d2/dd3/dialog__multiplayer__profile_8qc" ],
     [ "dialog_multiplayer_profile.qh", "d8/d95/dialog__multiplayer__profile_8qh.html", "d8/d95/dialog__multiplayer__profile_8qh" ],
     [ "dialog_quit.qc", "d0/dc9/dialog__quit_8qc.html", "d0/dc9/dialog__quit_8qc" ],
-    [ "dialog_quit.qh", "d7/d13/dialog__quit_8qh.html", "d7/d13/dialog__quit_8qh" ],
+    [ "dialog_quit.qh", "d7/d13/dialog__quit_8qh.html", [
+      [ "XonoticQuitDialog", "dd/db3/classXonoticQuitDialog.html", "dd/db3/classXonoticQuitDialog" ]
+    ] ],
     [ "dialog_sandboxtools.qc", "d7/d21/dialog__sandboxtools_8qc.html", "d7/d21/dialog__sandboxtools_8qc" ],
-    [ "dialog_sandboxtools.qh", "d9/d63/dialog__sandboxtools_8qh.html", "d9/d63/dialog__sandboxtools_8qh" ],
+    [ "dialog_sandboxtools.qh", "d9/d63/dialog__sandboxtools_8qh.html", [
+      [ "XonoticSandboxToolsDialog", "dd/d9a/classXonoticSandboxToolsDialog.html", "dd/d9a/classXonoticSandboxToolsDialog" ]
+    ] ],
     [ "dialog_settings.qc", "d0/d13/dialog__settings_8qc.html", "d0/d13/dialog__settings_8qc" ],
-    [ "dialog_settings.qh", "dc/d23/dialog__settings_8qh.html", "dc/d23/dialog__settings_8qh" ],
+    [ "dialog_settings.qh", "dc/d23/dialog__settings_8qh.html", [
+      [ "XonoticSettingsDialog", "da/d94/classXonoticSettingsDialog.html", "da/d94/classXonoticSettingsDialog" ]
+    ] ],
     [ "dialog_settings_audio.qc", "d4/d87/dialog__settings__audio_8qc.html", "d4/d87/dialog__settings__audio_8qc" ],
     [ "dialog_settings_audio.qh", "d9/d40/dialog__settings__audio_8qh.html", "d9/d40/dialog__settings__audio_8qh" ],
     [ "dialog_settings_effects.qc", "d2/de6/dialog__settings__effects_8qc.html", "d2/de6/dialog__settings__effects_8qc" ],
     [ "dialog_settings_effects.qh", "de/dc5/dialog__settings__effects_8qh.html", "de/dc5/dialog__settings__effects_8qh" ],
     [ "dialog_settings_game.qc", "de/d48/dialog__settings__game_8qc.html", "de/d48/dialog__settings__game_8qc" ],
-    [ "dialog_settings_game.qh", "d5/dab/dialog__settings__game_8qh.html", "d5/dab/dialog__settings__game_8qh" ],
+    [ "dialog_settings_game.qh", "d5/dab/dialog__settings__game_8qh.html", [
+      [ "SettingSource", "d1/dd1/classSettingSource.html", "d1/dd1/classSettingSource" ],
+      [ "XonoticGameSettingsTab", "df/d26/classXonoticGameSettingsTab.html", "df/d26/classXonoticGameSettingsTab" ],
+      [ "XonoticRegisteredSettingsList", "db/d29/classXonoticRegisteredSettingsList.html", "db/d29/classXonoticRegisteredSettingsList" ]
+    ] ],
     [ "dialog_settings_game_crosshair.qc", "df/dbd/dialog__settings__game__crosshair_8qc.html", "df/dbd/dialog__settings__game__crosshair_8qc" ],
     [ "dialog_settings_game_crosshair.qh", "d3/d99/dialog__settings__game__crosshair_8qh.html", "d3/d99/dialog__settings__game__crosshair_8qh" ],
     [ "dialog_settings_game_hud.qc", "dd/da1/dialog__settings__game__hud_8qc.html", "dd/da1/dialog__settings__game__hud_8qc" ],
     [ "dialog_settings_game_hud.qh", "df/d54/dialog__settings__game__hud_8qh.html", "df/d54/dialog__settings__game__hud_8qh" ],
     [ "dialog_settings_game_hudconfirm.qc", "d2/d02/dialog__settings__game__hudconfirm_8qc.html", "d2/d02/dialog__settings__game__hudconfirm_8qc" ],
-    [ "dialog_settings_game_hudconfirm.qh", "dd/d8a/dialog__settings__game__hudconfirm_8qh.html", "dd/d8a/dialog__settings__game__hudconfirm_8qh" ],
+    [ "dialog_settings_game_hudconfirm.qh", "dd/d8a/dialog__settings__game__hudconfirm_8qh.html", [
+      [ "XonoticHUDConfirmDialog", "d0/d9d/classXonoticHUDConfirmDialog.html", "d0/d9d/classXonoticHUDConfirmDialog" ]
+    ] ],
     [ "dialog_settings_game_messages.qc", "d2/d64/dialog__settings__game__messages_8qc.html", "d2/d64/dialog__settings__game__messages_8qc" ],
     [ "dialog_settings_game_messages.qh", "d5/d53/dialog__settings__game__messages_8qh.html", "d5/d53/dialog__settings__game__messages_8qh" ],
     [ "dialog_settings_game_model.qc", "d9/d2d/dialog__settings__game__model_8qc.html", "d9/d2d/dialog__settings__game__model_8qc" ],
@@ -141,25 +215,39 @@ var dir_53efa11b035745576779f641909983cd =
     [ "dialog_settings_input.qc", "d1/d61/dialog__settings__input_8qc.html", "d1/d61/dialog__settings__input_8qc" ],
     [ "dialog_settings_input.qh", "d0/d1b/dialog__settings__input_8qh.html", "d0/d1b/dialog__settings__input_8qh" ],
     [ "dialog_settings_input_userbind.qc", "dd/def/dialog__settings__input__userbind_8qc.html", "dd/def/dialog__settings__input__userbind_8qc" ],
-    [ "dialog_settings_input_userbind.qh", "d9/da8/dialog__settings__input__userbind_8qh.html", "d9/da8/dialog__settings__input__userbind_8qh" ],
+    [ "dialog_settings_input_userbind.qh", "d9/da8/dialog__settings__input__userbind_8qh.html", [
+      [ "XonoticUserbindEditDialog", "d2/d42/classXonoticUserbindEditDialog.html", "d2/d42/classXonoticUserbindEditDialog" ]
+    ] ],
     [ "dialog_settings_misc.qc", "d9/d63/dialog__settings__misc_8qc.html", "d9/d63/dialog__settings__misc_8qc" ],
     [ "dialog_settings_misc.qh", "d6/dbf/dialog__settings__misc_8qh.html", "d6/dbf/dialog__settings__misc_8qh" ],
     [ "dialog_settings_misc_cvars.qc", "d3/d45/dialog__settings__misc__cvars_8qc.html", "d3/d45/dialog__settings__misc__cvars_8qc" ],
-    [ "dialog_settings_misc_cvars.qh", "db/db4/dialog__settings__misc__cvars_8qh.html", "db/db4/dialog__settings__misc__cvars_8qh" ],
+    [ "dialog_settings_misc_cvars.qh", "db/db4/dialog__settings__misc__cvars_8qh.html", [
+      [ "XonoticCvarsDialog", "dc/df7/classXonoticCvarsDialog.html", "dc/df7/classXonoticCvarsDialog" ]
+    ] ],
     [ "dialog_settings_misc_reset.qc", "d0/d8d/dialog__settings__misc__reset_8qc.html", "d0/d8d/dialog__settings__misc__reset_8qc" ],
-    [ "dialog_settings_misc_reset.qh", "db/dd3/dialog__settings__misc__reset_8qh.html", "db/dd3/dialog__settings__misc__reset_8qh" ],
+    [ "dialog_settings_misc_reset.qh", "db/dd3/dialog__settings__misc__reset_8qh.html", [
+      [ "XonoticResetDialog", "d3/d52/classXonoticResetDialog.html", "d3/d52/classXonoticResetDialog" ]
+    ] ],
     [ "dialog_settings_user.qc", "d8/d4c/dialog__settings__user_8qc.html", "d8/d4c/dialog__settings__user_8qc" ],
     [ "dialog_settings_user.qh", "d7/d5a/dialog__settings__user_8qh.html", "d7/d5a/dialog__settings__user_8qh" ],
     [ "dialog_settings_user_languagewarning.qc", "da/d16/dialog__settings__user__languagewarning_8qc.html", "da/d16/dialog__settings__user__languagewarning_8qc" ],
-    [ "dialog_settings_user_languagewarning.qh", "d0/d7c/dialog__settings__user__languagewarning_8qh.html", "d0/d7c/dialog__settings__user__languagewarning_8qh" ],
+    [ "dialog_settings_user_languagewarning.qh", "d0/d7c/dialog__settings__user__languagewarning_8qh.html", [
+      [ "XonoticLanguageWarningDialog", "d1/d84/classXonoticLanguageWarningDialog.html", "d1/d84/classXonoticLanguageWarningDialog" ]
+    ] ],
     [ "dialog_settings_video.qc", "d6/d07/dialog__settings__video_8qc.html", "d6/d07/dialog__settings__video_8qc" ],
     [ "dialog_settings_video.qh", "df/d44/dialog__settings__video_8qh.html", "df/d44/dialog__settings__video_8qh" ],
     [ "dialog_singleplayer.qc", "da/d41/dialog__singleplayer_8qc.html", "da/d41/dialog__singleplayer_8qc" ],
-    [ "dialog_singleplayer.qh", "dc/d62/dialog__singleplayer_8qh.html", "dc/d62/dialog__singleplayer_8qh" ],
+    [ "dialog_singleplayer.qh", "dc/d62/dialog__singleplayer_8qh.html", [
+      [ "XonoticSingleplayerDialog", "df/d6e/classXonoticSingleplayerDialog.html", "df/d6e/classXonoticSingleplayerDialog" ]
+    ] ],
     [ "dialog_singleplayer_winner.qc", "d7/db2/dialog__singleplayer__winner_8qc.html", "d7/db2/dialog__singleplayer__winner_8qc" ],
-    [ "dialog_singleplayer_winner.qh", "da/ddd/dialog__singleplayer__winner_8qh.html", "da/ddd/dialog__singleplayer__winner_8qh" ],
+    [ "dialog_singleplayer_winner.qh", "da/ddd/dialog__singleplayer__winner_8qh.html", [
+      [ "XonoticWinnerDialog", "df/d92/classXonoticWinnerDialog.html", "df/d92/classXonoticWinnerDialog" ]
+    ] ],
     [ "dialog_teamselect.qc", "d6/d30/dialog__teamselect_8qc.html", "d6/d30/dialog__teamselect_8qc" ],
-    [ "dialog_teamselect.qh", "df/daf/dialog__teamselect_8qh.html", "df/daf/dialog__teamselect_8qh" ],
+    [ "dialog_teamselect.qh", "df/daf/dialog__teamselect_8qh.html", [
+      [ "XonoticTeamSelectDialog", "d1/d39/classXonoticTeamSelectDialog.html", "d1/d39/classXonoticTeamSelectDialog" ]
+    ] ],
     [ "gametypelist.qc", "d2/db8/gametypelist_8qc.html", "d2/db8/gametypelist_8qc" ],
     [ "gametypelist.qh", "dd/d43/gametypelist_8qh.html", "dd/d43/gametypelist_8qh" ],
     [ "hudskinlist.qc", "da/d21/hudskinlist_8qc.html", "da/d21/hudskinlist_8qc" ],
@@ -175,7 +263,9 @@ var dir_53efa11b035745576779f641909983cd =
     [ "listbox.qc", "db/dc9/xonotic_2listbox_8qc.html", "db/dc9/xonotic_2listbox_8qc" ],
     [ "listbox.qh", "d2/dfa/xonotic_2listbox_8qh.html", "d2/dfa/xonotic_2listbox_8qh" ],
     [ "mainwindow.qc", "da/d1d/mainwindow_8qc.html", "da/d1d/mainwindow_8qc" ],
-    [ "mainwindow.qh", "d4/d20/mainwindow_8qh.html", "d4/d20/mainwindow_8qh" ],
+    [ "mainwindow.qh", "d4/d20/mainwindow_8qh.html", [
+      [ "MainWindow", "d6/d1a/classMainWindow.html", "d6/d1a/classMainWindow" ]
+    ] ],
     [ "maplist.qc", "d0/dc5/maplist_8qc.html", "d0/dc5/maplist_8qc" ],
     [ "maplist.qh", "d6/dbf/maplist_8qh.html", "d6/dbf/maplist_8qh" ],
     [ "nexposee.qc", "d8/da8/xonotic_2nexposee_8qc.html", "d8/da8/xonotic_2nexposee_8qc" ],
@@ -191,7 +281,9 @@ var dir_53efa11b035745576779f641909983cd =
     [ "radiobutton.qc", "d9/dad/xonotic_2radiobutton_8qc.html", "d9/dad/xonotic_2radiobutton_8qc" ],
     [ "radiobutton.qh", "d1/da8/xonotic_2radiobutton_8qh.html", "d1/da8/xonotic_2radiobutton_8qh" ],
     [ "rootdialog.qc", "d0/dca/rootdialog_8qc.html", "d0/dca/rootdialog_8qc" ],
-    [ "rootdialog.qh", "d9/d85/rootdialog_8qh.html", "d9/d85/rootdialog_8qh" ],
+    [ "rootdialog.qh", "d9/d85/rootdialog_8qh.html", [
+      [ "XonoticRootDialog", "dc/de9/classXonoticRootDialog.html", "dc/de9/classXonoticRootDialog" ]
+    ] ],
     [ "screenshotimage.qc", "de/d39/screenshotimage_8qc.html", "de/d39/screenshotimage_8qc" ],
     [ "screenshotimage.qh", "df/de5/screenshotimage_8qh.html", "df/de5/screenshotimage_8qh" ],
     [ "screenshotlist.qc", "d9/d18/screenshotlist_8qc.html", "d9/d18/screenshotlist_8qc" ],
@@ -217,7 +309,9 @@ var dir_53efa11b035745576779f641909983cd =
     [ "statslist.qc", "d9/d0f/statslist_8qc.html", "d9/d0f/statslist_8qc" ],
     [ "statslist.qh", "d5/d73/statslist_8qh.html", "d5/d73/statslist_8qh" ],
     [ "tab.qc", "d2/d94/xonotic_2tab_8qc.html", "d2/d94/xonotic_2tab_8qc" ],
-    [ "tab.qh", "d1/df1/xonotic_2tab_8qh.html", "d1/df1/xonotic_2tab_8qh" ],
+    [ "tab.qh", "d1/df1/xonotic_2tab_8qh.html", [
+      [ "XonoticTab", "d3/dce/classXonoticTab.html", "d3/dce/classXonoticTab" ]
+    ] ],
     [ "tabcontroller.qc", "dc/dcf/tabcontroller_8qc.html", "dc/dcf/tabcontroller_8qc" ],
     [ "tabcontroller.qh", "d0/d81/tabcontroller_8qh.html", "d0/d81/tabcontroller_8qh" ],
     [ "textlabel.qc", "d2/d67/textlabel_8qc.html", "d2/d67/textlabel_8qc" ],

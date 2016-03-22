@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d9/dc6/common_2mutators_2mutator_2wayp
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,6 +102,7 @@ $(document).ready(function(){initNavTree('d9/dc6/common_2mutators_2mutator_2wayp
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
@@ -129,28 +131,29 @@ $(document).ready(function(){initNavTree('d9/dc6/common_2mutators_2mutator_2wayp
 </div>
 <p><a href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d8c/classWaypoint.html">Waypoint</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a9d93e7d1156c77a9afa59ee79ef4ea3a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a9d93e7d1156c77a9afa59ee79ef4ea3a">WAYPOINTS_ALL_H</a></td></tr>
-<tr class="separator:a9d93e7d1156c77a9afa59ee79ef4ea3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b37b20d26109b8964674245d9481a68"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a8b37b20d26109b8964674245d9481a68">Waypoints_from</a>(i)&#160;&#160;&#160;_Waypoints_from(i, WP_Null)</td></tr>
-<tr class="separator:a8b37b20d26109b8964674245d9481a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e125b9b1c95a10f859b80c7a3456266"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a7e125b9b1c95a10f859b80c7a3456266">REGISTER_WAYPOINT_</a>(id, init)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(Waypoints, WP, id, <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, init)</td></tr>
-<tr class="memdesc:a7e125b9b1c95a10f859b80c7a3456266"><td class="mdescLeft">&#160;</td><td class="mdescRight">If you register a new waypoint, make sure to add it to all.inc.  <a href="#a7e125b9b1c95a10f859b80c7a3456266">More...</a><br/></td></tr>
-<tr class="separator:a7e125b9b1c95a10f859b80c7a3456266"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04e2d734ae55f5ddd843bcf3f1614e20"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a04e2d734ae55f5ddd843bcf3f1614e20">REGISTER_WAYPOINT</a>(id, text, <a class="el" href="../../dd/daa/g__lights_8qc.html#a74486a486528a0aa8c3e94223a69e12d">color</a>, blink)&#160;&#160;&#160;<a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a7e125b9b1c95a10f859b80c7a3456266">REGISTER_WAYPOINT_</a>(id, <a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(Waypoint, #id, text, <a class="el" href="../../dd/daa/g__lights_8qc.html#a74486a486528a0aa8c3e94223a69e12d">color</a>, blink))</td></tr>
-<tr class="separator:a04e2d734ae55f5ddd843bcf3f1614e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40dcb143f36ec5266d8d271f3f43296c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a40dcb143f36ec5266d8d271f3f43296c">RadarIcons_from</a>(i)&#160;&#160;&#160;_RadarIcons_from(i, RADARICON_NONE)</td></tr>
 <tr class="separator:a40dcb143f36ec5266d8d271f3f43296c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40e1a92b8a983047077e3af97f14cd05"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a40e1a92b8a983047077e3af97f14cd05">REGISTER_RADARICON</a>(id, num)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(RadarIcons, RADARICON, id, <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, <a class="el" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(RadarIcon)) { <a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a86be0f909473273bc66cdb66686ab6ff">this.m_radaricon</a> = num; <a class="el" href="../../dd/d69/net_8qh.html#a32c4a483932ac5a2b0fcad13b0abdefa">this.netname</a> = #id; }</td></tr>
 <tr class="separator:a40e1a92b8a983047077e3af97f14cd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04e2d734ae55f5ddd843bcf3f1614e20"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a04e2d734ae55f5ddd843bcf3f1614e20">REGISTER_WAYPOINT</a>(id, text, <a class="el" href="../../dd/daa/g__lights_8qc.html#a74486a486528a0aa8c3e94223a69e12d">color</a>, blink)&#160;&#160;&#160;<a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a7e125b9b1c95a10f859b80c7a3456266">REGISTER_WAYPOINT_</a>(id, <a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="el" href="../../d9/d8c/classWaypoint.html">Waypoint</a>, #id, text, <a class="el" href="../../dd/daa/g__lights_8qc.html#a74486a486528a0aa8c3e94223a69e12d">color</a>, blink))</td></tr>
+<tr class="separator:a04e2d734ae55f5ddd843bcf3f1614e20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e125b9b1c95a10f859b80c7a3456266"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a7e125b9b1c95a10f859b80c7a3456266">REGISTER_WAYPOINT_</a>(id, init)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(Waypoints, WP, id, <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, init)</td></tr>
+<tr class="memdesc:a7e125b9b1c95a10f859b80c7a3456266"><td class="mdescLeft">&#160;</td><td class="mdescRight">If you register a new waypoint, make sure to add it to all.inc.  <a href="#a7e125b9b1c95a10f859b80c7a3456266">More...</a><br/></td></tr>
+<tr class="separator:a7e125b9b1c95a10f859b80c7a3456266"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d93e7d1156c77a9afa59ee79ef4ea3a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a9d93e7d1156c77a9afa59ee79ef4ea3a">WAYPOINTS_ALL_H</a></td></tr>
+<tr class="separator:a9d93e7d1156c77a9afa59ee79ef4ea3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b37b20d26109b8964674245d9481a68"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a8b37b20d26109b8964674245d9481a68">Waypoints_from</a>(i)&#160;&#160;&#160;_Waypoints_from(i, WP_Null)</td></tr>
+<tr class="separator:a8b37b20d26109b8964674245d9481a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a033186c22bfee0ec00dd42177089faeb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a033186c22bfee0ec00dd42177089faeb">CONSTRUCTOR</a> (Waypoint, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> _netname, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> _name, <a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a> _color, <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> _blink)</td></tr>
-<tr class="separator:a033186c22bfee0ec00dd42177089faeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab08ce983cf278a9697c3dd3e5fb55186"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#ab08ce983cf278a9697c3dd3e5fb55186">REGISTER_WAYPOINT</a> (Null,&quot;&quot;, '0 0 0', 1)</td></tr>
-<tr class="separator:ab08ce983cf278a9697c3dd3e5fb55186"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7e8dbd05d5f51932cd2372101938bf1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#aa7e8dbd05d5f51932cd2372101938bf1">REGISTER_RADARICON</a> (NONE, 0)</td></tr>
 <tr class="separator:aa7e8dbd05d5f51932cd2372101938bf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a891fed42f39b5a92c6df9514bb28ca07"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a891fed42f39b5a92c6df9514bb28ca07">REGISTER_RADARICON</a> (FLAG, 1)</td></tr>
@@ -175,16 +178,18 @@ Functions</h2></td></tr>
 <tr class="separator:a6b9c59603b75a94246a8b0bae92396ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd4efdecaabcc967d352594cacfddd00"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#afd4efdecaabcc967d352594cacfddd00">REGISTER_RADARICON</a> (TAGGED, 1)</td></tr>
 <tr class="separator:afd4efdecaabcc967d352594cacfddd00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cd8b67897502db6ffb0af84565a9698"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a9cd8b67897502db6ffb0af84565a9698">REGISTER_RADARICON</a> (Item, 1)</td></tr>
+<tr class="memitem:a9cd8b67897502db6ffb0af84565a9698"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a9cd8b67897502db6ffb0af84565a9698">REGISTER_RADARICON</a> (<a class="el" href="../../d0/dae/classItem.html">Item</a>, 1)</td></tr>
 <tr class="separator:a9cd8b67897502db6ffb0af84565a9698"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a789454b5903d12bd224eda2e3a18f45c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a789454b5903d12bd224eda2e3a18f45c">REGISTER_RADARICON</a> (Vehicle, 1)</td></tr>
+<tr class="memitem:a789454b5903d12bd224eda2e3a18f45c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a789454b5903d12bd224eda2e3a18f45c">REGISTER_RADARICON</a> (<a class="el" href="../../dc/d23/classVehicle.html">Vehicle</a>, 1)</td></tr>
 <tr class="separator:a789454b5903d12bd224eda2e3a18f45c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd1023667128c7b2700ec9843069b95b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#acd1023667128c7b2700ec9843069b95b">REGISTER_RADARICON</a> (Weapon, 1)</td></tr>
+<tr class="memitem:acd1023667128c7b2700ec9843069b95b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#acd1023667128c7b2700ec9843069b95b">REGISTER_RADARICON</a> (<a class="el" href="../../dc/de5/classWeapon.html">Weapon</a>, 1)</td></tr>
 <tr class="separator:acd1023667128c7b2700ec9843069b95b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab08ce983cf278a9697c3dd3e5fb55186"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#ab08ce983cf278a9697c3dd3e5fb55186">REGISTER_WAYPOINT</a> (Null,&quot;&quot;, '0 0 0', 1)</td></tr>
+<tr class="separator:ab08ce983cf278a9697c3dd3e5fb55186"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a86be0f909473273bc66cdb66686ab6ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a86be0f909473273bc66cdb66686ab6ff">m_radaricon</a></td></tr>
+<tr class="memitem:a86be0f909473273bc66cdb66686ab6ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a86be0f909473273bc66cdb66686ab6ff">m_radaricon</a></td></tr>
 <tr class="separator:a86be0f909473273bc66cdb66686ab6ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -267,7 +272,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a7e125b9b1c95a10f859b80c7a3456266">REGISTER_WAYPOINT_</a>(id, <a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(Waypoint, #id, text, <a class="el" href="../../dd/daa/g__lights_8qc.html#a74486a486528a0aa8c3e94223a69e12d">color</a>, blink))</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a7e125b9b1c95a10f859b80c7a3456266">REGISTER_WAYPOINT_</a>(id, <a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="el" href="../../d9/d8c/classWaypoint.html">Waypoint</a>, #id, text, <a class="el" href="../../dd/daa/g__lights_8qc.html#a74486a486528a0aa8c3e94223a69e12d">color</a>, blink))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -339,63 +344,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a033186c22bfee0ec00dd42177089faeb"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">CONSTRUCTOR </td>
-          <td>(</td>
-          <td class="paramtype">Waypoint&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td>
-          <td class="paramname"><em>_netname</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td>
-          <td class="paramname"><em>_name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/d26/server_2defs_8qh.html#a6d3d610bf0afb6ced3367088738d3dd5">vector</a>&#160;</td>
-          <td class="paramname"><em>_color</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td>
-          <td class="paramname"><em>_blink</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh_source.html#l00020">20</a> of file <a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh_source.html">all.qh</a>.</p>
-
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00118">CONSTRUCT</a>.</p>
-<div class="fragment"><div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                                                                                    {</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(Waypoint);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a> = _netname;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        this.m_name = _name;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        this.m_color = _color;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        this.m_blink = _blink;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
-<div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00118">oo.qh:118</a></div></div>
-<div class="ttc" id="powerups_8qc_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00009">powerups.qc:9</a></div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a class="anchor" id="aa7e8dbd05d5f51932cd2372101938bf1"></a>
 <div class="memitem">
 <div class="memproto">
@@ -715,7 +663,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">REGISTER_RADARICON </td>
           <td>(</td>
-          <td class="paramtype">Item&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/dae/classItem.html">Item</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -741,7 +689,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">REGISTER_RADARICON </td>
           <td>(</td>
-          <td class="paramtype">Vehicle&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dc/d23/classVehicle.html">Vehicle</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -767,7 +715,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">REGISTER_RADARICON </td>
           <td>(</td>
-          <td class="paramtype">Weapon&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dc/de5/classWeapon.html">Weapon</a>&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -830,7 +778,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> m_radaricon</td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> m_radaricon</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -845,7 +793,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_4573854e5f122b3a76229eff451e1727.html">waypoints</a></li><li class="navelem"><a class="el" href="../../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html">all.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:34 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:30 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

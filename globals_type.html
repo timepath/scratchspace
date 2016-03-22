@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -100,7 +101,7 @@ $(document).ready(function(){initNavTree('globals_type.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -112,19 +113,52 @@ $(document).ready(function(){initNavTree('globals_type.html','');});
 <div class="contents">
 &#160;<ul>
 <li>ArrayList
-: <a class="el" href="d2/d74/arraylist_8qh.html#ac5583de22f98132f48e13dcc0d50de16">arraylist.qh</a>
+: <a class="el" href="d2/d74/arraylist_8qh.html#a0563ea0244996621762cddba70f9cb13">arraylist.qh</a>
+</li>
+<li>comparefunc_t
+: <a class="el" href="db/def/sort_8qh.html#acfadea3ab4515517029f36ef3dccb9a2">sort.qh</a>
+</li>
+<li>findNextEntityNearFunction_t
+: <a class="el" href="d5/df2/common_2util_8qh.html#a0ae7eb2c590ab7061aeb7631e45534ae">util.qh</a>
 </li>
 <li>HashMap
-: <a class="el" href="d4/d54/map_8qh.html#a97718ade46774474357a80dce0a691f9">map.qh</a>
+: <a class="el" href="d4/d54/map_8qh.html#ae164808a517903e86f7142599e17eb73">map.qh</a>
+</li>
+<li>isConnectedFunction_t
+: <a class="el" href="d5/df2/common_2util_8qh.html#a6035eddf0c50a91369cd5fe73afc1640">util.qh</a>
+</li>
+<li>kh_Think_t
+: <a class="el" href="de/d40/gamemode__keyhunt_8qc.html#a35ea76303f252b2625dbba87a3e6103a">gamemode_keyhunt.qc</a>
+</li>
+<li>mutatorfunc_t
+: <a class="el" href="db/d38/base_8qh.html#a1b524db6116e5e0f886315e5f5057416">base.qh</a>
 </li>
 <li>Notification
-: <a class="el" href="dc/de5/common_2notifications_2all_8qh.html#af43285df24e8b1871037f3588117e951">all.qh</a>
+: <a class="el" href="dc/de5/common_2notifications_2all_8qh.html#aa46580df20165dd8315928c81936292e">all.qh</a>
+</li>
+<li>spawn_evalfunc_t
+: <a class="el" href="d5/d26/server_2defs_8qh.html#a24f547d7ace2b96705cdf60bc4cf6a26">defs.qh</a>
+</li>
+<li>swapfunc_t
+: <a class="el" href="db/def/sort_8qh.html#ad8f0562632e6f98768f7b9201e0fe51e">sort.qh</a>
+</li>
+<li>textLengthUpToLength_lenFunction_t
+: <a class="el" href="d5/df2/common_2util_8qh.html#ad0749a19efcd793d906512a9ab0fb724">util.qh</a>
+</li>
+<li>textLengthUpToWidth_widthFunction_t
+: <a class="el" href="d5/df2/common_2util_8qh.html#ab6ce70197d8d30a9bf214de04e868e61">util.qh</a>
+</li>
+<li>url_ready_func
+: <a class="el" href="dc/dbb/urllib_8qh.html#a190e84debe84ccb78597ca4caf0c22e5">urllib.qh</a>
 </li>
 <li>vectori
-: <a class="el" href="d0/ddd/lib_2stats_8qh.html#ac6a1e9fecbf20f3360160e9a3d43778e">stats.qh</a>
+: <a class="el" href="d0/ddd/lib_2stats_8qh.html#a67e87caf6f2a3da59d6da5c817316e2d">stats.qh</a>
+</li>
+<li>WarpZone_trace_callback_t
+: <a class="el" href="d7/d71/lib_2warpzone_2common_8qh.html#a50229a0e711943ac139248bf1c0d3093">common.qh</a>
 </li>
 <li>WepSet
-: <a class="el" href="de/d81/common_2weapons_2all_8qh.html#ada1bb14264d5feafb481dc451a540667">all.qh</a>
+: <a class="el" href="de/d81/common_2weapons_2all_8qh.html#ade7b3795466e850b0acb38ad649ea87b">all.qh</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -132,7 +166,7 @@ $(document).ready(function(){initNavTree('globals_type.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

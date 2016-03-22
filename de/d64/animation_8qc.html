@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('de/d64/animation_8qc.html','../../');}
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -100,9 +101,6 @@ $(document).ready(function(){initNavTree('de/d64/animation_8qc.html','../../');}
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">animation.qc File Reference</div>  </div>
 </div><!--header-->
@@ -127,304 +125,13 @@ $(document).ready(function(){initNavTree('de/d64/animation_8qc.html','../../');}
 </div>
 </div>
 <p><a href="../../de/d64/animation_8qc_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a6309bd3d05c5fd3969bb94d9ca404d79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d64/animation_8qc.html#a6309bd3d05c5fd3969bb94d9ca404d79">METHOD</a> (Animation, configureAnimation, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> obj, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>) objSetter, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> animStartTime, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> animDuration, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> animStartValue, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> animEndValue))</td></tr>
-<tr class="separator:a6309bd3d05c5fd3969bb94d9ca404d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff613fefa4a38075ccce8666b0c96585"><td class="memItemLeft" align="right" valign="top">this&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d64/animation_8qc.html#aff613fefa4a38075ccce8666b0c96585">setValueStartEnd</a> (this, animStartValue, animEndValue)</td></tr>
-<tr class="separator:aff613fefa4a38075ccce8666b0c96585"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4685afbd4a4887dfc8c51791478f2ce"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d64/animation_8qc.html#ad4685afbd4a4887dfc8c51791478f2ce">METHOD</a> (Animation, setObjectSetter, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> o, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>) <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>))</td></tr>
-<tr class="separator:ad4685afbd4a4887dfc8c51791478f2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49ca430cafd68ae94151a893cf5aa56c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d64/animation_8qc.html#a49ca430cafd68ae94151a893cf5aa56c">if</a> (tickTime &gt;=(this.startTime+<a class="el" href="../../de/d64/animation_8qc.html#a10e1fff8315fb340e74455c09da2ce50">this.duration</a>)) this.finishAnim(this)</td></tr>
-<tr class="separator:a49ca430cafd68ae94151a893cf5aa56c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa23163f4a5eafa50eec58370bba417e1"><td class="memItemLeft" align="right" valign="top">this&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d64/animation_8qc.html#aa23163f4a5eafa50eec58370bba417e1">setter</a> (this.object, <a class="el" href="../../de/d64/animation_8qc.html#a316ed50c917206b8cfb924c6d576ed06">this.value</a>)</td></tr>
-<tr class="separator:aa23163f4a5eafa50eec58370bba417e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a10e1fff8315fb340e74455c09da2ce50"><td class="memItemLeft" align="right" valign="top">this&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d64/animation_8qc.html#a10e1fff8315fb340e74455c09da2ce50">duration</a> = e - <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a></td></tr>
-<tr class="separator:a10e1fff8315fb340e74455c09da2ce50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a1e4314fcf5e551b7dc4e6a4c54f4ca"><td class="memItemLeft" align="right" valign="top">this&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d64/animation_8qc.html#a0a1e4314fcf5e551b7dc4e6a4c54f4ca">delta</a> = e - <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a></td></tr>
-<tr class="separator:a0a1e4314fcf5e551b7dc4e6a4c54f4ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a316ed50c917206b8cfb924c6d576ed06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">else</a> this&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d64/animation_8qc.html#a316ed50c917206b8cfb924c6d576ed06">value</a> = this.calcValue(this, (tickTime - this.startTime), <a class="el" href="../../de/d64/animation_8qc.html#a10e1fff8315fb340e74455c09da2ce50">this.duration</a>, this.startValue, <a class="el" href="../../de/d64/animation_8qc.html#a0a1e4314fcf5e551b7dc4e6a4c54f4ca">this.delta</a>)</td></tr>
-<tr class="separator:a316ed50c917206b8cfb924c6d576ed06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a01b2a28333e80bc27959bb3d29d275ae"><td class="memItemLeft" align="right" valign="top">this&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d64/animation_8qc.html#a01b2a28333e80bc27959bb3d29d275ae">finished</a> = <a class="el" href="../../dd/d54/bool_8qh.html#a3ad98e54fafae1497bd42b491d9742cc">true</a></td></tr>
-<tr class="separator:a01b2a28333e80bc27959bb3d29d275ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a49ca430cafd68ae94151a893cf5aa56c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">if </td>
-          <td>(</td>
-          <td class="paramtype">tickTime &gt;=&#160;</td>
-          <td class="paramname">this.startTime+this.duration</td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a6309bd3d05c5fd3969bb94d9ca404d79"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">METHOD </td>
-          <td>(</td>
-          <td class="paramtype">Animation&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">configureAnimation&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> obj, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>) objSetter, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> animStartTime, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> animDuration, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> animStartValue, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> animEndValue)&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d64/animation_8qc_source.html#l00005">5</a> of file <a class="el" href="../../de/d64/animation_8qc_source.html">animation.qc</a>.</p>
-
-<p>References <a class="el" href="../../de/d64/animation_8qc.html#aff613fefa4a38075ccce8666b0c96585">setValueStartEnd()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    {</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        this.setObjectSetter(<span class="keyword">this</span>, obj, objSetter);</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        this.setTimeStartDuration(<span class="keyword">this</span>, animStartTime, animDuration);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        this.<a class="code" href="../../de/d64/animation_8qc.html#aff613fefa4a38075ccce8666b0c96585">setValueStartEnd</a>(<span class="keyword">this</span>, animStartValue, animEndValue);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    }</div>
-<div class="ttc" id="animation_8qc_html_aff613fefa4a38075ccce8666b0c96585"><div class="ttname"><a href="../../de/d64/animation_8qc.html#aff613fefa4a38075ccce8666b0c96585">setValueStartEnd</a></div><div class="ttdeci">this setValueStartEnd(this, animStartValue, animEndValue)</div></div>
-</div><!-- fragment -->
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d64/animation_8qc_a6309bd3d05c5fd3969bb94d9ca404d79_cgraph.svg" width="264" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="ad4685afbd4a4887dfc8c51791478f2ce"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">METHOD </td>
-          <td>(</td>
-          <td class="paramtype">Animation&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">setObjectSetter&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> o, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>) <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>)&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d64/animation_8qc_source.html#l00042">42</a> of file <a class="el" href="../../de/d64/animation_8qc_source.html">animation.qc</a>.</p>
-
-<p>References <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00203">s</a>, and <a class="el" href="../../de/d64/animation_8qc.html#aa23163f4a5eafa50eec58370bba417e1">setter()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        this.<span class="keywordtype">object</span> = o;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        this.<a class="code" href="../../de/d64/animation_8qc.html#aa23163f4a5eafa50eec58370bba417e1">setter</a> = <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
-<div class="ttc" id="animation_8qc_html_aa23163f4a5eafa50eec58370bba417e1"><div class="ttname"><a href="../../de/d64/animation_8qc.html#aa23163f4a5eafa50eec58370bba417e1">setter</a></div><div class="ttdeci">this setter(this.object, this.value)</div></div>
-<div class="ttc" id="effectinfo_8qc_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00203">effectinfo.qc:203</a></div></div>
-</div><!-- fragment -->
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d64/animation_8qc_ad4685afbd4a4887dfc8c51791478f2ce_cgraph.svg" width="195" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="aa23163f4a5eafa50eec58370bba417e1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">this setter </td>
-          <td>(</td>
-          <td class="paramtype">this.&#160;</td>
-          <td class="paramname"><em>object</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">this.&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="../../de/d64/animation_8qc_source.html#l00042">METHOD()</a>.</p>
-
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d64/animation_8qc_aa23163f4a5eafa50eec58370bba417e1_icgraph.svg" width="195" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<a class="anchor" id="aff613fefa4a38075ccce8666b0c96585"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">this setValueStartEnd </td>
-          <td>(</td>
-          <td class="paramtype">this&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">animStartValue&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">animEndValue&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Referenced by <a class="el" href="../../de/d64/animation_8qc_source.html#l00005">METHOD()</a>.</p>
-
-<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d64/animation_8qc_aff613fefa4a38075ccce8666b0c96585_icgraph.svg" width="264" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a0a1e4314fcf5e551b7dc4e6a4c54f4ca"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">this delta = e - <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d64/animation_8qc_source.html#l00033">33</a> of file <a class="el" href="../../de/d64/animation_8qc_source.html">animation.qc</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l02217">CSQC_Demo_Camera()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01478">GameCommand_trace()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01165">MoveToRandomLocationWithinBounds()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00044">PingPLReport_Think()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00227">Portal_WillHitPlane()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00322">SUB_CalcAngleMove()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00247">SUB_CalcMove()</a>, and <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00095">SUB_CalcMove_controller_think()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a10e1fff8315fb340e74455c09da2ce50"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">this duration = e - <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d64/animation_8qc_source.html#l00021">21</a> of file <a class="el" href="../../de/d64/animation_8qc_source.html">animation.qc</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00018">centerprint_generic()</a>, and <a class="el" href="../../d2/d58/keyframe_8qc_source.html#l00037">getNewChildDuration()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a01b2a28333e80bc27959bb3d29d275ae"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">this finished = <a class="el" href="../../dd/d54/bool_8qh.html#a3ad98e54fafae1497bd42b491d9742cc">true</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d64/animation_8qc_source.html#l00086">86</a> of file <a class="el" href="../../de/d64/animation_8qc_source.html">animation.qc</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a316ed50c917206b8cfb924c6d576ed06"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d58/keyframe_8qc.html#a0544c3fe466e421738dae463968b70ba">else</a> this value = this.calcValue(this, (tickTime - this.startTime), <a class="el" href="../../de/d64/animation_8qc.html#a10e1fff8315fb340e74455c09da2ce50">this.duration</a>, this.startValue, <a class="el" href="../../de/d64/animation_8qc.html#a0a1e4314fcf5e551b7dc4e6a4c54f4ca">this.delta</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../de/d64/animation_8qc_source.html#l00053">53</a> of file <a class="el" href="../../de/d64/animation_8qc_source.html">animation.qc</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00309">GetTeamCounts()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00583">HUD_QuickMenu()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00246">if()</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_08eb729653096ffb41c6f3b8eed4f2d5.html">anim</a></li><li class="navelem"><a class="el" href="../../de/d64/animation_8qc.html">animation.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:39 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:35 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

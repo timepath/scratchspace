@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d2/d65/unsafe_8qh.html','../../');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -121,33 +122,33 @@ $(document).ready(function(){initNavTree('d2/d65/unsafe_8qh.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:aae07bed82e2b12d1897fca7bf71634d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#aae07bed82e2b12d1897fca7bf71634d1">reinterpret_cast</a>(T, it)&#160;&#160;&#160;_unsafe_cast_##T(0, it)</td></tr>
-<tr class="separator:aae07bed82e2b12d1897fca7bf71634d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adca1c983a98dba734ec82a49766ac278"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#adca1c983a98dba734ec82a49766ac278">X</a>(T)&#160;&#160;&#160;T _unsafe_cast_##T(<a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> dummy, ...) { <a class="el" href="../../d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> ...(0, T); }</td></tr>
-<tr class="separator:adca1c983a98dba734ec82a49766ac278"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad14fdd4d14f64c10d6ae30d2c05b8aad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#ad14fdd4d14f64c10d6ae30d2c05b8aad">_strid</a>(<a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>)&#160;&#160;&#160;<a class="el" href="../../d2/d65/unsafe_8qh.html#ab3030b73b8c6eade13f71ab13546643b">ITOF</a>(<a class="el" href="../../d2/d65/unsafe_8qh.html#aae07bed82e2b12d1897fca7bf71634d1">reinterpret_cast</a>(<a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>, <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>))</td></tr>
+<tr class="memitem:ad14fdd4d14f64c10d6ae30d2c05b8aad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#ad14fdd4d14f64c10d6ae30d2c05b8aad">_strid</a>(s)&#160;&#160;&#160;<a class="el" href="../../d2/d65/unsafe_8qh.html#ab3030b73b8c6eade13f71ab13546643b">ITOF</a>(<a class="el" href="../../d2/d65/unsafe_8qh.html#aae07bed82e2b12d1897fca7bf71634d1">reinterpret_cast</a>(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>, s))</td></tr>
 <tr class="separator:ad14fdd4d14f64c10d6ae30d2c05b8aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0f09ad13f803b85f893afec1f6a0484"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#ab0f09ad13f803b85f893afec1f6a0484">strid</a>(<a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>)&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(sprintf(&quot;%i&quot;, s))</td></tr>
-<tr class="separator:ab0f09ad13f803b85f893afec1f6a0484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a28163937cdfc9d15144074ee0f1ef1c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#a28163937cdfc9d15144074ee0f1ef1c4">FTOI</a>(f)&#160;&#160;&#160;((f) * <a class="el" href="../../d2/d65/unsafe_8qh.html#af20da66dcba3c7abb25ce8cacd85da2e">INTEGER_ONE</a>)</td></tr>
 <tr class="separator:a28163937cdfc9d15144074ee0f1ef1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab3030b73b8c6eade13f71ab13546643b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#ab3030b73b8c6eade13f71ab13546643b">ITOF</a>(i)&#160;&#160;&#160;((i) / <a class="el" href="../../d2/d65/unsafe_8qh.html#af20da66dcba3c7abb25ce8cacd85da2e">INTEGER_ONE</a>)</td></tr>
 <tr class="separator:ab3030b73b8c6eade13f71ab13546643b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae07bed82e2b12d1897fca7bf71634d1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#aae07bed82e2b12d1897fca7bf71634d1">reinterpret_cast</a>(T, it)&#160;&#160;&#160;_unsafe_cast_##T(0, it)</td></tr>
+<tr class="separator:aae07bed82e2b12d1897fca7bf71634d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0f09ad13f803b85f893afec1f6a0484"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#ab0f09ad13f803b85f893afec1f6a0484">strid</a>(s)&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(sprintf(&quot;%i&quot;, s))</td></tr>
+<tr class="separator:ab0f09ad13f803b85f893afec1f6a0484"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adca1c983a98dba734ec82a49766ac278"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#adca1c983a98dba734ec82a49766ac278">X</a>(T)&#160;&#160;&#160;T _unsafe_cast_##T(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> dummy, ...) { return ...(0, T); }</td></tr>
+<tr class="separator:adca1c983a98dba734ec82a49766ac278"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae1a1314b9a1e5b171bdf09cd25ca6f74"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#ae1a1314b9a1e5b171bdf09cd25ca6f74">X</a> (<a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>) X(<a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>) X(<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>) X(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>) X(<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>) typedef <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>(...) rawfunc</td></tr>
-<tr class="separator:ae1a1314b9a1e5b171bdf09cd25ca6f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a285a3980556731a191c471a075ba604f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#a285a3980556731a191c471a075ba604f">X</a> (rawfunc).<a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> _unsafe_fld1</td></tr>
-<tr class="separator:a285a3980556731a191c471a075ba604f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21ad0519e983fb4eb43618ad42ca7a53"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#a21ad0519e983fb4eb43618ad42ca7a53">STATIC_INIT</a> (<a class="el" href="../../d2/d65/unsafe_8qh.html#af20da66dcba3c7abb25ce8cacd85da2e">INTEGER_ONE</a>)</td></tr>
 <tr class="separator:a21ad0519e983fb4eb43618ad42ca7a53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adebf6abe130da83a21dd028bbb0b2bc7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#adebf6abe130da83a21dd028bbb0b2bc7">X</a> (<a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>) X(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>) X(<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>) X(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>) X(<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>) using rawfunc</td></tr>
+<tr class="separator:adebf6abe130da83a21dd028bbb0b2bc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a285a3980556731a191c471a075ba604f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#a285a3980556731a191c471a075ba604f">X</a> (rawfunc).<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> _unsafe_fld1</td></tr>
+<tr class="separator:a285a3980556731a191c471a075ba604f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:aed54631dded82395af39f5531ba70ed8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#aed54631dded82395af39f5531ba70ed8">_unsafe_fld2</a></td></tr>
 <tr class="separator:aed54631dded82395af39f5531ba70ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af20da66dcba3c7abb25ce8cacd85da2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#af20da66dcba3c7abb25ce8cacd85da2e">INTEGER_ONE</a></td></tr>
+<tr class="memitem:af20da66dcba3c7abb25ce8cacd85da2e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d65/unsafe_8qh.html#af20da66dcba3c7abb25ce8cacd85da2e">INTEGER_ONE</a></td></tr>
 <tr class="separator:af20da66dcba3c7abb25ce8cacd85da2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -159,8 +160,8 @@ Variables</h2></td></tr>
           <td class="memname">#define _strid</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d2/d65/unsafe_8qh.html#ab3030b73b8c6eade13f71ab13546643b">ITOF</a>(<a class="el" href="../../d2/d65/unsafe_8qh.html#aae07bed82e2b12d1897fca7bf71634d1">reinterpret_cast</a>(<a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>, <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>))</td>
+          <td class="paramname">s</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d2/d65/unsafe_8qh.html#ab3030b73b8c6eade13f71ab13546643b">ITOF</a>(<a class="el" href="../../d2/d65/unsafe_8qh.html#aae07bed82e2b12d1897fca7bf71634d1">reinterpret_cast</a>(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>, s))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -241,7 +242,7 @@ Variables</h2></td></tr>
           <td class="memname">#define strid</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a></td><td>)</td>
+          <td class="paramname">s</td><td>)</td>
           <td>&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(sprintf(&quot;%i&quot;, s))</td>
         </tr>
       </table>
@@ -258,7 +259,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">T</td><td>)</td>
-          <td>&#160;&#160;&#160;T _unsafe_cast_##T(<a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> dummy, ...) { <a class="el" href="../../d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2">return</a> ...(0, T); }</td>
+          <td>&#160;&#160;&#160;T _unsafe_cast_##T(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> dummy, ...) { return ...(0, T); }</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -294,7 +295,7 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="ae1a1314b9a1e5b171bdf09cd25ca6f74"></a>
+<a class="anchor" id="adebf6abe130da83a21dd028bbb0b2bc7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -346,7 +347,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> INTEGER_ONE</td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> INTEGER_ONE</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -361,7 +362,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d2/d65/unsafe_8qh.html">unsafe.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:39 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:35 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

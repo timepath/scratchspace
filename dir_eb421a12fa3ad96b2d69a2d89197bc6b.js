@@ -10,5 +10,7 @@ var dir_eb421a12fa3ad96b2d69a2d89197bc6b =
     [ "pickup.qc", "d5/de0/pickup_8qc.html", null ],
     [ "pickup.qh", "de/dda/pickup_8qh.html", "de/dda/pickup_8qh" ],
     [ "powerup.qc", "d8/d93/powerup_8qc.html", "d8/d93/powerup_8qc" ],
-    [ "powerup.qh", "d6/d88/powerup_8qh.html", null ]
+    [ "powerup.qh", "d6/d88/powerup_8qh.html", [
+      [ "Powerup", "d5/d65/classPowerup.html", "d5/d65/classPowerup" ]
+    ] ]
 ];

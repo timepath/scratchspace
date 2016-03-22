@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('db/d5a/common_2turrets_2all_8qh.html',
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -133,27 +134,27 @@ $(document).ready(function(){initNavTree('db/d5a/common_2turrets_2all_8qh.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
+<tr class="memitem:a480cc7101d2edcf64993e80de5a8e4ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#a480cc7101d2edcf64993e80de5a8e4ac">get_turretinfo</a>(i)&#160;&#160;&#160;<a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#a61aab00c9961e20b482e7e8aa5e0fa31">Turrets_from</a>(i)</td></tr>
+<tr class="separator:a480cc7101d2edcf64993e80de5a8e4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2774c8f11c19aa8e015cff50732b4a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#aa2774c8f11c19aa8e015cff50732b4a6">REGISTER_TURRET</a>(id, inst)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(Turrets, TUR, id, <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, inst)</td></tr>
+<tr class="separator:aa2774c8f11c19aa8e015cff50732b4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3a4ffcd56d584a4de5f3156a6c666a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#af3a4ffcd56d584a4de5f3156a6c666a3">TUR_LAST</a>&#160;&#160;&#160;(Turrets_COUNT - 1)</td></tr>
+<tr class="separator:af3a4ffcd56d584a4de5f3156a6c666a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a402991068cbc1be098a581964865c243"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#a402991068cbc1be098a581964865c243">TURRETS_ALL_H</a></td></tr>
 <tr class="separator:a402991068cbc1be098a581964865c243"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a61aab00c9961e20b482e7e8aa5e0fa31"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#a61aab00c9961e20b482e7e8aa5e0fa31">Turrets_from</a>(i)&#160;&#160;&#160;_Turrets_from(i, TUR_Null)</td></tr>
 <tr class="separator:a61aab00c9961e20b482e7e8aa5e0fa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a480cc7101d2edcf64993e80de5a8e4ac"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#a480cc7101d2edcf64993e80de5a8e4ac">get_turretinfo</a>(i)&#160;&#160;&#160;<a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#a61aab00c9961e20b482e7e8aa5e0fa31">Turrets_from</a>(i)</td></tr>
-<tr class="separator:a480cc7101d2edcf64993e80de5a8e4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3a4ffcd56d584a4de5f3156a6c666a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#af3a4ffcd56d584a4de5f3156a6c666a3">TUR_LAST</a>&#160;&#160;&#160;(Turrets_COUNT - 1)</td></tr>
-<tr class="separator:af3a4ffcd56d584a4de5f3156a6c666a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa2774c8f11c19aa8e015cff50732b4a6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#aa2774c8f11c19aa8e015cff50732b4a6">REGISTER_TURRET</a>(id, inst)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(Turrets, TUR, id, <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, inst)</td></tr>
-<tr class="separator:aa2774c8f11c19aa8e015cff50732b4a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a488502594b5b3fe611ee6c6e5206dfb3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#a488502594b5b3fe611ee6c6e5206dfb3">GENERIC_COMMAND</a> (dumpturrets,&quot;Dump all turrets into turrets_dump.txt&quot;)</td></tr>
 <tr class="separator:a488502594b5b3fe611ee6c6e5206dfb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cb924afac08b198770ae9bd69a5f517"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#a6cb924afac08b198770ae9bd69a5f517">REGISTER_TURRET</a> (Null, <a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(Turret))</td></tr>
+<tr class="memitem:a6cb924afac08b198770ae9bd69a5f517"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#a6cb924afac08b198770ae9bd69a5f517">REGISTER_TURRET</a> (Null, <a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="el" href="../../d2/d3d/classTurret.html">Turret</a>))</td></tr>
 <tr class="separator:a6cb924afac08b198770ae9bd69a5f517"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:af8a1aa546131892f801ce1e4500a7bae"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#af8a1aa546131892f801ce1e4500a7bae">TUR_FIRST</a> = 1</td></tr>
+<tr class="memitem:af8a1aa546131892f801ce1e4500a7bae"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html#af8a1aa546131892f801ce1e4500a7bae">TUR_FIRST</a> = 1</td></tr>
 <tr class="separator:af8a1aa546131892f801ce1e4500a7bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -278,7 +279,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d5a/common_2turrets_2all_8qh_source.html#l00016">16</a> of file <a class="el" href="../../db/d5a/common_2turrets_2all_8qh_source.html">all.qh</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d9/d71/command_8qh_source.html#l00004">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/d71/command_8qh_source.html#l00005">CMD_REQUEST_USAGE</a>, <a class="el" href="../../de/d4a/turrets_2config_8qc_source.html#l00028">Dump_Turret_Settings()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00103">FILE_WRITE</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO()</a>, and <a class="el" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d9/d71/command_8qh_source.html#l00004">CMD_REQUEST_COMMAND</a>, <a class="el" href="../../d9/d71/command_8qh_source.html#l00005">CMD_REQUEST_USAGE</a>, <a class="el" href="../../de/d4a/turrets_2config_8qc_source.html#l00028">Dump_Turret_Settings()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00103">FILE_WRITE</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00058">LOG_INFO</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">switch</span>(request)</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
@@ -304,17 +305,17 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">if</span>(tur_config_file &gt;= 0)</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            {</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                <a class="code" href="../../de/d4a/turrets_2config_8qc.html#a686bcea74a2d69e1ca5ee58acd7158a9">Dump_Turret_Settings</a>();</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(sprintf(<span class="stringliteral">&quot;Dumping turrets... File located in ^2data/data/%s^7.\n&quot;</span>, filename));</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(sprintf(<span class="stringliteral">&quot;Dumping turrets... File located in ^2data/data/%s^7.\n&quot;</span>, filename));</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(tur_config_file);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                tur_config_file = -1;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                tur_config_alsoprint = -1;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            }</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            {</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(sprintf(<span class="stringliteral">&quot;^1Error: ^7Could not open file &#39;%s&#39;!\n&quot;</span>, filename));</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(sprintf(<span class="stringliteral">&quot;^1Error: ^7Could not open file &#39;%s&#39;!\n&quot;</span>, filename));</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            }</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">            #else</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span>            <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(_(<span class="stringliteral">&quot;Turrets dump command only works with sv_cmd.\n&quot;</span>));</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span>            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(_(<span class="stringliteral">&quot;Turrets dump command only works with sv_cmd.\n&quot;</span>));</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">            #endif</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span>            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        }</div>
@@ -322,10 +323,10 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(<span class="stringliteral">&quot;\nUsage:^3 &quot;</span>, GetProgramCommandPrefix(), <span class="stringliteral">&quot; dumpturrets [filename]&quot;</span>));</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(<span class="stringliteral">&quot;  Where &#39;filename&#39; is the file to write (default is turrets_dump.cfg),\n&quot;</span>);</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(<span class="stringliteral">&quot;  if supplied with &#39;-&#39; output to console as well as default,\n&quot;</span>);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(<span class="stringliteral">&quot;  if left blank, it will only write to default.\n&quot;</span>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;\nUsage:^3 &quot;</span>, GetProgramCommandPrefix(), <span class="stringliteral">&quot; dumpturrets [filename]&quot;</span>));</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  Where &#39;filename&#39; is the file to write (default is turrets_dump.cfg),\n&quot;</span>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  if supplied with &#39;-&#39; output to console as well as default,\n&quot;</span>);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  if left blank, it will only write to default.\n&quot;</span>);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        }</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    }</div>
@@ -336,16 +337,16 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_a5231f4ff2813f7de782b67d25a9e4cf9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a></div><div class="ttdeci">float fopen(string filename, float mode)</div></div>
 <div class="ttc" id="command_8qh_html_ab9e24d8681128fd9913308f8dc3e026a"><div class="ttname"><a href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a></div><div class="ttdeci">const int CMD_REQUEST_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d71/command_8qh_source.html#l00005">command.qh:5</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a1a78b46b9db5c0d6fcee5be7697afa09"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a></div><div class="ttdeci">void fclose(float fhandle)</div></div>
+<div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
+<div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
-<div class="ttc" id="common_2items_2item_8qh_html_ae302aa82565a3721ffb781350f49b7af"><div class="ttname"><a href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a></div><div class="ttdeci">LOG_INFO(&quot;A game item\n&quot;)</div></div>
-<div class="ttc" id="effectinfo_8qc_html_a2ae584d3dad891f2ae754acead0f015a"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a></div><div class="ttdeci">return strcat(s,&quot;}\n&quot;)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d5a/common_2turrets_2all_8qh_a488502594b5b3fe611ee6c6e5206dfb3_cgraph.svg" width="606" height="342"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d5a/common_2turrets_2all_8qh_a488502594b5b3fe611ee6c6e5206dfb3_cgraph.svg" width="606" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -365,7 +366,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(Turret)&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="el" href="../../d2/d3d/classTurret.html">Turret</a>)&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -384,7 +385,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a> TUR_FIRST = 1</td>
+          <td class="memname">const <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> TUR_FIRST = 1</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -399,7 +400,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../db/d5a/common_2turrets_2all_8qh.html">all.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:34 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:30 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

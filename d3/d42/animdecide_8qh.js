@@ -1,5 +1,6 @@
 var animdecide_8qh =
 [
+    [ "Animation", "d0/d5d/classAnimation.html", "d0/d5d/classAnimation" ],
     [ "Animations_from", "d3/d42/animdecide_8qh.html#a4a6cedced9be70c50161cc5359da08c6", null ],
     [ "ANIMDECIDE_H", "d3/d42/animdecide_8qh.html#a9d4165bd31df75e1fc1a45273785d386", null ],
     [ "ReadAnimation", "d3/d42/animdecide_8qh.html#a81cf40f2ec96a5416603dac69b49417a", null ],
@@ -72,6 +73,5 @@ var animdecide_8qh =
     [ "ANIMSTATE_DEAD2", "d3/d42/animdecide_8qh.html#abad9f656232e53a97101bec7b1d81438", null ],
     [ "ANIMSTATE_DUCK", "d3/d42/animdecide_8qh.html#accc3da46b3f22b420e26d18291de5c91", null ],
     [ "ANIMSTATE_FOLLOW", "d3/d42/animdecide_8qh.html#a8beba332a4a34eb514d5f4fe9bffce60", null ],
-    [ "ANIMSTATE_FROZEN", "d3/d42/animdecide_8qh.html#a071b6a93423a39766db46893c30f387b", null ],
-    [ "return", "d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2", null ]
+    [ "ANIMSTATE_FROZEN", "d3/d42/animdecide_8qh.html#a071b6a93423a39766db46893c30f387b", null ]
 ];

@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('globals_vars_c.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -657,9 +658,6 @@ $(document).ready(function(){initNavTree('globals_vars_c.html','');});
 <li>CNT_ROUNDSTART
 : <a class="el" href="d5/df2/common_2util_8qh.html#a077455e23989dac58badad9ff2da8c6d">util.qh</a>
 </li>
-<li>col
-: <a class="el" href="de/d48/dialog__settings__game_8qc.html#a80db10ba8808399dd69164a092cf2920">dialog_settings_game.qc</a>
-</li>
 <li>COL_TEAM_1
 : <a class="el" href="db/d07/teams_8qh.html#aa6ee472ee546c802674773aa4ccefa5e">teams.qh</a>
 </li>
@@ -696,10 +694,6 @@ $(document).ready(function(){initNavTree('globals_vars_c.html','');});
 <li>ColorTranslateMode
 : <a class="el" href="d2/db4/string_8qh.html#aac3cd57f894ce5c2be1d74aee3fe2f13">string.qh</a>
 </li>
-<li>columnSpacing
-: <a class="el" href="d6/d88/item_2dialog_8qh.html#a85839461f604248baebc89995a0975de">dialog.qh</a>
-, <a class="el" href="de/d23/item_2tab_8qh.html#a85839461f604248baebc89995a0975de">tab.qh</a>
-</li>
 <li>complain_weapon
 : <a class="el" href="d3/d05/hud_8qh.html#a9cdf68f686befe840b9930cebe9c66a9">hud.qh</a>
 </li>
@@ -708,9 +702,6 @@ $(document).ready(function(){initNavTree('globals_vars_c.html','');});
 </li>
 <li>complain_weapon_type
 : <a class="el" href="d3/d05/hud_8qh.html#a2bdb63339c09a4badd45dadf8e00ff07">hud.qh</a>
-</li>
-<li>configureDialog
-: <a class="el" href="d5/d05/xonotic_2dialog_8qh.html#aa14e1c6d6b59bce4864ea087933706f8">dialog.qh</a>
 </li>
 <li>conheight
 : <a class="el" href="d0/d41/menu_8qh.html#afe418d3958ee73c74bbc4c279e8b0609">menu.qh</a>
@@ -751,9 +742,9 @@ $(document).ready(function(){initNavTree('globals_vars_c.html','');});
 , <a class="el" href="d6/d11/progsdefs_8qc.html#af8b2b4bbae523599b961b9b1e9d95d20">progsdefs.qc</a>
 </li>
 <li>CONTENT_LAVA
-: <a class="el" href="d4/d92/csqc__constants_8qh.html#a9f0ff49de895bd9dc96abb8af825974d">csqc_constants.qh</a>
+: <a class="el" href="d6/d11/progsdefs_8qc.html#ab88e5c2ff85a1a4c77bca01ca84fd631">progsdefs.qc</a>
+, <a class="el" href="d4/d92/csqc__constants_8qh.html#a9f0ff49de895bd9dc96abb8af825974d">csqc_constants.qh</a>
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ad600613bc03c98e0a7759a716ae0c7ca">csprogsdefs.qc</a>
-, <a class="el" href="d6/d11/progsdefs_8qc.html#ab88e5c2ff85a1a4c77bca01ca84fd631">progsdefs.qc</a>
 </li>
 <li>CONTENT_SKY
 : <a class="el" href="d4/d92/csqc__constants_8qh.html#a034d026d90e5211ad008a59f58248f33">csqc_constants.qh</a>
@@ -794,8 +785,8 @@ $(document).ready(function(){initNavTree('globals_vars_c.html','');});
 : <a class="el" href="d7/d95/server_2cl__player_8qh.html#abd30a605660c74c4236227e1c594535f">cl_player.qh</a>
 </li>
 <li>count
-: <a class="el" href="db/dc8/cl__controlpoint_8qc.html#ad43c3812e6d13e0518d9f8b8f463ffcf">cl_controlpoint.qc</a>
-, <a class="el" href="df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">powerups.qc</a>
+: <a class="el" href="df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">powerups.qc</a>
+, <a class="el" href="db/dc8/cl__controlpoint_8qc.html#ad43c3812e6d13e0518d9f8b8f463ffcf">cl_controlpoint.qc</a>
 , <a class="el" href="df/d07/cl__generator_8qc.html#ad43c3812e6d13e0518d9f8b8f463ffcf">cl_generator.qc</a>
 , <a class="el" href="d5/d26/server_2defs_8qh.html#afea6e77db19a2f8c91419904fe665a3a">defs.qh</a>
 , <a class="el" href="db/d20/round__handler_8qh.html#afea6e77db19a2f8c91419904fe665a3a">round_handler.qh</a>
@@ -813,8 +804,8 @@ $(document).ready(function(){initNavTree('globals_vars_c.html','');});
 : <a class="el" href="db/dc8/cl__controlpoint_8qc.html#a94b307abdb2a1263ab9ad038d5fa8ef1">cl_controlpoint.qc</a>
 </li>
 <li>CPICON_MAX
-: <a class="el" href="d9/d88/sv__controlpoint_8qh.html#a43e7e64d7f45f7521e913d8b22ced2c1">sv_controlpoint.qh</a>
-, <a class="el" href="d4/d93/cl__controlpoint_8qh.html#a43e7e64d7f45f7521e913d8b22ced2c1">cl_controlpoint.qh</a>
+: <a class="el" href="d4/d93/cl__controlpoint_8qh.html#a43e7e64d7f45f7521e913d8b22ced2c1">cl_controlpoint.qh</a>
+, <a class="el" href="d9/d88/sv__controlpoint_8qh.html#a43e7e64d7f45f7521e913d8b22ced2c1">sv_controlpoint.qh</a>
 </li>
 <li>CPICON_MIN
 : <a class="el" href="d4/d93/cl__controlpoint_8qh.html#a411f4a3f6dd95f6824e02beb5e4253e8">cl_controlpoint.qh</a>
@@ -843,8 +834,8 @@ $(document).ready(function(){initNavTree('globals_vars_c.html','');});
 , <a class="el" href="d9/d88/sv__controlpoint_8qh.html#a4e21ea690a77be8367e5608dfdebe26f">sv_controlpoint.qh</a>
 </li>
 <li>CPSF_STATUS
-: <a class="el" href="d4/d93/cl__controlpoint_8qh.html#a71fedd372003f8a38071cb6c5ee68e35">cl_controlpoint.qh</a>
-, <a class="el" href="d9/d88/sv__controlpoint_8qh.html#a71fedd372003f8a38071cb6c5ee68e35">sv_controlpoint.qh</a>
+: <a class="el" href="d9/d88/sv__controlpoint_8qh.html#a71fedd372003f8a38071cb6c5ee68e35">sv_controlpoint.qh</a>
+, <a class="el" href="d4/d93/cl__controlpoint_8qh.html#a71fedd372003f8a38071cb6c5ee68e35">cl_controlpoint.qh</a>
 </li>
 <li>createdtime
 : <a class="el" href="d1/da9/bot_8qh.html#a14ef1c073a5d40b9c36f3dfbee406d6c">bot.qh</a>
@@ -926,6 +917,9 @@ $(document).ready(function(){initNavTree('globals_vars_c.html','');});
 </li>
 <li>csqcmodel_modelflags
 : <a class="el" href="d3/dfc/csqcmodel__hooks_8qh.html#ac684f20e961177dbb0cfa738c5c5716c">csqcmodel_hooks.qh</a>
+</li>
+<li>csqcmodel_nextforcedupdate
+: <a class="el" href="dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352">sv_model.qc</a>
 </li>
 <li>CSQCModel_players
 : <a class="el" href="d5/dc9/cl__model_8qc.html#abd20ed8038187b3c7feeada4aeef1d04">cl_model.qc</a>
@@ -1239,9 +1233,9 @@ $(document).ready(function(){initNavTree('globals_vars_c.html','');});
 , <a class="el" href="d8/de2/menudefs_8qc.html#a590cd9d33c3b445d202ffc9787ae767a">menudefs.qc</a>
 </li>
 <li>CVAR_TYPEFLAG_EXISTS
-: <a class="el" href="de/d5e/dpextensions_8qc.html#a72c17a8585d13d6ca89c0dd883648a91">dpextensions.qc</a>
-, <a class="el" href="d8/de2/menudefs_8qc.html#a72c17a8585d13d6ca89c0dd883648a91">menudefs.qc</a>
+: <a class="el" href="d8/de2/menudefs_8qc.html#a72c17a8585d13d6ca89c0dd883648a91">menudefs.qc</a>
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a72c17a8585d13d6ca89c0dd883648a91">csprogsdefs.qc</a>
+, <a class="el" href="de/d5e/dpextensions_8qc.html#a72c17a8585d13d6ca89c0dd883648a91">dpextensions.qc</a>
 </li>
 <li>CVAR_TYPEFLAG_HASDESCRIPTION
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a3f659424706d9f6b45c6d331bd625920">csprogsdefs.qc</a>
@@ -1255,13 +1249,13 @@ $(document).ready(function(){initNavTree('globals_vars_c.html','');});
 </li>
 <li>CVAR_TYPEFLAG_READONLY
 : <a class="el" href="de/d5e/dpextensions_8qc.html#a93c011ecb807a6b093e421de3b1407da">dpextensions.qc</a>
-, <a class="el" href="d8/de2/menudefs_8qc.html#a93c011ecb807a6b093e421de3b1407da">menudefs.qc</a>
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a93c011ecb807a6b093e421de3b1407da">csprogsdefs.qc</a>
+, <a class="el" href="d8/de2/menudefs_8qc.html#a93c011ecb807a6b093e421de3b1407da">menudefs.qc</a>
 </li>
 <li>CVAR_TYPEFLAG_SAVED
-: <a class="el" href="de/d5e/dpextensions_8qc.html#ac67c11851e6e23cad2b3fc162c613efd">dpextensions.qc</a>
-, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ac67c11851e6e23cad2b3fc162c613efd">csprogsdefs.qc</a>
+: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ac67c11851e6e23cad2b3fc162c613efd">csprogsdefs.qc</a>
 , <a class="el" href="d8/de2/menudefs_8qc.html#ac67c11851e6e23cad2b3fc162c613efd">menudefs.qc</a>
+, <a class="el" href="de/d5e/dpextensions_8qc.html#ac67c11851e6e23cad2b3fc162c613efd">dpextensions.qc</a>
 </li>
 <li>cvarfilter
 : <a class="el" href="d3/d4f/sv__main_8qc.html#af52ad31cde1568195e8358f65b9cb00e">sv_main.qc</a>
@@ -1291,7 +1285,7 @@ $(document).ready(function(){initNavTree('globals_vars_c.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

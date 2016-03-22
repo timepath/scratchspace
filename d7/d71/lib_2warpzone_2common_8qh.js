@@ -11,7 +11,7 @@ var lib_2warpzone_2common_8qh =
     [ "LIB_WARPZONE_COMMON_H", "d7/d71/lib_2warpzone_2common_8qh.html#accccbdb4dd610515fee8656ef7fc0076", null ],
     [ "MOVE_NOTHING", "d7/d71/lib_2warpzone_2common_8qh.html#a95651aade7f0b90307b17d55ba25c953", null ],
     [ "move_out_of_solid", "d7/d71/lib_2warpzone_2common_8qh.html#ad79e0cb00b3240d020116c16914e8bb7", null ],
-    [ "void", "d7/d71/lib_2warpzone_2common_8qh.html#a29d3dbb968e5a679bc4b163bc8275ef4", null ],
+    [ "WarpZone_trace_callback_t", "d7/d71/lib_2warpzone_2common_8qh.html#a50229a0e711943ac139248bf1c0d3093", null ],
     [ "WarpZone_Camera_SetUp", "d7/d71/lib_2warpzone_2common_8qh.html#a235658c82ff825c36ce08026b223f86d", null ],
     [ "WarpZone_Find", "d7/d71/lib_2warpzone_2common_8qh.html#a191c61933b716c17f4aaac24e9049664", null ],
     [ "WarpZone_FindRadius", "d7/d71/lib_2warpzone_2common_8qh.html#ab1b1fa2dede1302f7773c17a7de0c23d", null ],

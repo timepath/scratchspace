@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vectori',['vectori',['../d0/ddd/lib_2stats_8qh.html#ac6a1e9fecbf20f3360160e9a3d43778e',1,'stats.qh']]]
+  ['hashmap',['HashMap',['../d4/d54/map_8qh.html#ae164808a517903e86f7142599e17eb73',1,'map.qh']]]
 ];

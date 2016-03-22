@@ -1,0 +1,24 @@
+var classDualPlasmaTurret =
+[
+    [ "ATTRIB_STRZONE", "d3/df2/classDualPlasmaTurret.html#a46b8b1640256bc02632a8bd084047acd", null ],
+    [ "ATTRIB_STRZONE", "d3/df2/classDualPlasmaTurret.html#a519bfbb732564ee704f5f9dc74697e6d", null ],
+    [ "ATTRIB_STRZONE", "d3/df2/classDualPlasmaTurret.html#aca59ae4466a7f18849fab5967e5ed7c5", null ],
+    [ "ATTRIB_STRZONE", "d3/df2/classDualPlasmaTurret.html#a8ddd4c8d14ca4ee2faf10f4a8644ecc4", null ],
+    [ "describe", "d3/df2/classDualPlasmaTurret.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
+    [ "display", "d3/df2/classDualPlasmaTurret.html#a138adca099fbd117101fe56edb53d8aa", null ],
+    [ "tr_config", "d3/df2/classDualPlasmaTurret.html#ab9ce986163a0f0e24e84166491f0fe7f", null ],
+    [ "tr_death", "d3/df2/classDualPlasmaTurret.html#a56e07d5aa23850f9cc9cd5eaa68f0880", null ],
+    [ "tr_precache", "d3/df2/classDualPlasmaTurret.html#ab51103697656de906079b6537d3800bc", null ],
+    [ "tr_setup", "d3/df2/classDualPlasmaTurret.html#a9cbd0273110d224aa83170c43e29f691", null ],
+    [ "tr_think", "d3/df2/classDualPlasmaTurret.html#ac0a380f4b08bad88d17a175d4f648795", null ],
+    [ "head_model", "d3/df2/classDualPlasmaTurret.html#a46cac3f96dad7529a9d30206956b3553", null ],
+    [ "m_id", "d3/df2/classDualPlasmaTurret.html#a3144102787442a58055180121b5e9536", null ],
+    [ "m_weapon", "d3/df2/classDualPlasmaTurret.html#a8fdfb2c1d48fbb73e71c119fc329a1cb", null ],
+    [ "maxs", "d3/df2/classDualPlasmaTurret.html#ac798f747f2a51bfbeaf516436396a183", null ],
+    [ "mdl", "d3/df2/classDualPlasmaTurret.html#a7bf40f64dd91bb952d21d1d827e295c3", null ],
+    [ "mins", "d3/df2/classDualPlasmaTurret.html#ac67101a675bbe31ef318eeda847fcfa8", null ],
+    [ "model", "d3/df2/classDualPlasmaTurret.html#a2cb46857a76f132a66b1b063d0ea6eee", null ],
+    [ "netname", "d3/df2/classDualPlasmaTurret.html#a704dc4dc2fd4baf352e96c0e4b8753af", null ],
+    [ "spawnflags", "d3/df2/classDualPlasmaTurret.html#ab783d7bbccec292d9986a3c4ca08def1", null ],
+    [ "turret_name", "d3/df2/classDualPlasmaTurret.html#a6e7b572c678b2e71b897e49d6cb892ea", null ]
+];

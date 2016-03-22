@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d8/d0e/lazy_8qh.html','../../');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,8 +102,8 @@ $(document).ready(function(){initNavTree('d8/d0e/lazy_8qh.html','../../');});
 
 <div class="header">
   <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#define-members">Macros</a>  </div>
   <div class="headertitle">
 <div class="title">lazy.qh File Reference</div>  </div>
 </div><!--header-->
@@ -113,7 +114,7 @@ $(document).ready(function(){initNavTree('d8/d0e/lazy_8qh.html','../../');});
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d77/lazy_8qh__incl.svg" width="252" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d77/lazy_8qh__incl.svg" width="252" height="262"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -127,17 +128,17 @@ $(document).ready(function(){initNavTree('d8/d0e/lazy_8qh.html','../../');});
 </div>
 <p><a href="../../d8/d0e/lazy_8qh_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dde/classLazy.html">Lazy</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:a1d51651b802a95d07a7a0406f8922476"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/lazy_8qh.html#a1d51651b802a95d07a7a0406f8922476">LAZY</a>(id)&#160;&#160;&#160;__lazy_##id</td></tr>
 <tr class="separator:a1d51651b802a95d07a7a0406f8922476"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af1684a613a0e441d7b47b6cdc4dc878f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/lazy_8qh.html#af1684a613a0e441d7b47b6cdc4dc878f">LAZY_NEW</a>(id, compute)</td></tr>
 <tr class="separator:af1684a613a0e441d7b47b6cdc4dc878f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:acca45d11be938f887eb09c96bd25a817"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/lazy_8qh.html#acca45d11be938f887eb09c96bd25a817">ATTRIB</a> (Lazy, m_get, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>(), <a class="el" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>)</td></tr>
-<tr class="separator:acca45d11be938f887eb09c96bd25a817"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a1d51651b802a95d07a7a0406f8922476"></a>
@@ -181,57 +182,16 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <a class="code" href="../../d8/d0e/lazy_8qh.html#a1d51651b802a95d07a7a0406f8922476">LAZY</a>(<span class="keywordtype">id</span>)() { \</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d8/d0e/lazy_8qh.html#a1d51651b802a95d07a7a0406f8922476">LAZY</a>(<span class="keywordtype">id</span>)() { \</div>
 <div class="line">        static <span class="keywordtype">bool</span> done; \</div>
-<div class="line">        static <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> it; <a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">\</a></div>
-<div class="line"><a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">		if</a> (!done) { it = compute; done = <span class="keyword">true</span>; } <a class="code" href="../../d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2">\</a></div>
-<div class="line"><a class="code" href="../../d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2">		return</a> it; \</div>
+<div class="line">        static <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it; \</div>
+<div class="line">        if (!done) { it = compute; done = <span class="keyword">true</span>; } \</div>
+<div class="line">        return it; \</div>
 <div class="line">    }</div>
-<div class="ttc" id="model_8qh_html_a61af9d6854722dad5d5e433009d21a0a"><div class="ttname"><a href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">if</a></div><div class="ttdeci">if(s!=&quot;&quot;&amp;&amp;s!=&quot;null&quot;&amp;&amp;!fexists(s))</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1d/model_8qh_source.html#l00018">model.qh:18</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="lazy_8qh_html_a1d51651b802a95d07a7a0406f8922476"><div class="ttname"><a href="../../d8/d0e/lazy_8qh.html#a1d51651b802a95d07a7a0406f8922476">LAZY</a></div><div class="ttdeci">#define LAZY(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0e/lazy_8qh_source.html#l00013">lazy.qh:13</a></div></div>
-<div class="ttc" id="animdecide_8qh_html_a9717e7bbecb906637e86cef6da3d83c2"><div class="ttname"><a href="../../d3/d42/animdecide_8qh.html#a9717e7bbecb906637e86cef6da3d83c2">return</a></div><div class="ttdeci">return</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d42/animdecide_8qh_source.html#l00014">animdecide.qh:14</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../d8/d0e/lazy_8qh_source.html#l00014">14</a> of file <a class="el" href="../../d8/d0e/lazy_8qh_source.html">lazy.qh</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="acca45d11be938f887eb09c96bd25a817"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ATTRIB </td>
-          <td>(</td>
-          <td class="paramtype">Lazy&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">m_get&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>()&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -241,7 +201,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d8/d0e/lazy_8qh.html">lazy.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:39 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:34 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

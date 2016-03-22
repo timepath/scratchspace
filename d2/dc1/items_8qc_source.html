@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d2/dc1/items_8qc_source.html','../../'
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -120,7 +121,7 @@ $(document).ready(function(){initNavTree('d2/dc1/items_8qc_source.html','../../'
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<a class="code" href="../../d2/dc1/items_8qc.html#a44af1646c8b64397d8e3ab79c12c63b4">SOUND</a>(VaporizerCells, <span class="stringliteral">&quot;misc/itempickup&quot;</span>);</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d2/dc1/items_8qc.html#a73d97c29f5b146843a27caa62719d0c6">   17</a></span>&#160;<a class="code" href="../../d2/dc1/items_8qc.html#a73d97c29f5b146843a27caa62719d0c6">REGISTER_ITEM</a>(VaporizerCells, Ammo) {</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d2/dc1/items_8qc.html#a73d97c29f5b146843a27caa62719d0c6">   17</a></span>&#160;<a class="code" href="../../d2/dc1/items_8qc.html#a73d97c29f5b146843a27caa62719d0c6">REGISTER_ITEM</a>(VaporizerCells, <a class="code" href="../../dc/dda/classAmmo.html">Ammo</a>) {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span>    this.m_model                =   MDL_VaporizerCells_ITEM;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    this.m_sound                =   SND_VaporizerCells;</div>
@@ -140,7 +141,7 @@ $(document).ready(function(){initNavTree('d2/dc1/items_8qc_source.html','../../'
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<a class="code" href="../../d2/dc1/items_8qc.html#a44af1646c8b64397d8e3ab79c12c63b4">SOUND</a>(ExtraLife, <span class="stringliteral">&quot;misc/megahealth&quot;</span>);</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d2/dc1/items_8qc.html#a3f996cf5062cc42ee0fdeedfd5b0c4dc">   37</a></span>&#160;<a class="code" href="../../d2/dc1/items_8qc.html#a73d97c29f5b146843a27caa62719d0c6">REGISTER_ITEM</a>(ExtraLife, Powerup) {</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d2/dc1/items_8qc.html#a3f996cf5062cc42ee0fdeedfd5b0c4dc">   37</a></span>&#160;<a class="code" href="../../d2/dc1/items_8qc.html#a73d97c29f5b146843a27caa62719d0c6">REGISTER_ITEM</a>(ExtraLife, <a class="code" href="../../d5/d65/classPowerup.html">Powerup</a>) {</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span>    this.m_model                =   MDL_ExtraLife_ITEM;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    this.m_sound                =   SND_ExtraLife;</div>
@@ -158,7 +159,7 @@ $(document).ready(function(){initNavTree('d2/dc1/items_8qc_source.html','../../'
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<a class="code" href="../../d2/dc1/items_8qc.html#a44af1646c8b64397d8e3ab79c12c63b4">SOUND</a>(Invisibility, <span class="stringliteral">&quot;misc/powerup&quot;</span>);</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../d2/dc1/items_8qc.html#a4a5e76e1ed0d4fc64a4b242260e4e1f6">   55</a></span>&#160;<a class="code" href="../../d2/dc1/items_8qc.html#a73d97c29f5b146843a27caa62719d0c6">REGISTER_ITEM</a>(Invisibility, Powerup) {</div>
+<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../d2/dc1/items_8qc.html#a4a5e76e1ed0d4fc64a4b242260e4e1f6">   55</a></span>&#160;<a class="code" href="../../d2/dc1/items_8qc.html#a73d97c29f5b146843a27caa62719d0c6">REGISTER_ITEM</a>(Invisibility, <a class="code" href="../../d5/d65/classPowerup.html">Powerup</a>) {</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor"></span>    this.m_model            =   MDL_Invisibility_ITEM;</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    this.m_sound            =   SND_Invisibility;</div>
@@ -176,7 +177,7 @@ $(document).ready(function(){initNavTree('d2/dc1/items_8qc_source.html','../../'
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<a class="code" href="../../d2/dc1/items_8qc.html#a44af1646c8b64397d8e3ab79c12c63b4">SOUND</a>(Speed, <span class="stringliteral">&quot;misc/powerup_shield&quot;</span>);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="../../d2/dc1/items_8qc.html#aff215eb2f3a90dcf9c47c67a31df50d0">   73</a></span>&#160;<a class="code" href="../../d2/dc1/items_8qc.html#a73d97c29f5b146843a27caa62719d0c6">REGISTER_ITEM</a>(Speed, Powerup) {</div>
+<div class="line"><a name="l00073"></a><span class="lineno"><a class="line" href="../../d2/dc1/items_8qc.html#aff215eb2f3a90dcf9c47c67a31df50d0">   73</a></span>&#160;<a class="code" href="../../d2/dc1/items_8qc.html#a73d97c29f5b146843a27caa62719d0c6">REGISTER_ITEM</a>(Speed, <a class="code" href="../../d5/d65/classPowerup.html">Powerup</a>) {</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor"></span>    this.m_model            =   MDL_Speed_ITEM;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    this.m_sound            =   SND_Speed;</div>
@@ -189,10 +190,12 @@ $(document).ready(function(){initNavTree('d2/dc1/items_8qc_source.html','../../'
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    this.<a class="code" href="../../da/dcf/jetpack_8qc.html#a2c82e29d04f7365b5b7eb2210eeda604">m_itemid</a>           =   <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#a2b69c3e71b54c58b92f68569a449b6c7">IT_INVINCIBLE</a>;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
 <div class="ttc" id="common_2items_2item_2ammo_8qh_html"><div class="ttname"><a href="../../de/d43/common_2items_2item_2ammo_8qh.html">ammo.qh</a></div></div>
+<div class="ttc" id="classAmmo_html"><div class="ttname"><a href="../../dc/dda/classAmmo.html">Ammo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d43/common_2items_2item_2ammo_8qh_source.html#l00004">ammo.qh:4</a></div></div>
 <div class="ttc" id="misc_8qh_html_a4ae9a65f0155ec9a053e1e9fe41c9401"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#a4ae9a65f0155ec9a053e1e9fe41c9401">GETTER</a></div><div class="ttdeci">#define GETTER(type, name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00035">misc.qh:35</a></div></div>
 <div class="ttc" id="items_8qc_html_a73d97c29f5b146843a27caa62719d0c6"><div class="ttname"><a href="../../d2/dc1/items_8qc.html#a73d97c29f5b146843a27caa62719d0c6">REGISTER_ITEM</a></div><div class="ttdeci">REGISTER_ITEM(VaporizerCells, Ammo)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc1/items_8qc_source.html#l00017">items.qc:17</a></div></div>
 <div class="ttc" id="common_2items_2item_8qh_html_a2c80e68c8b9e464f9706d0917ed7af65"><div class="ttname"><a href="../../d7/d7c/common_2items_2item_8qh.html#a2c80e68c8b9e464f9706d0917ed7af65">IT_STRENGTH</a></div><div class="ttdeci">const int IT_STRENGTH</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7c/common_2items_2item_8qh_source.html#l00034">item.qh:34</a></div></div>
 <div class="ttc" id="common_2items_2item_8qh_html_a2b69c3e71b54c58b92f68569a449b6c7"><div class="ttname"><a href="../../d7/d7c/common_2items_2item_8qh.html#a2b69c3e71b54c58b92f68569a449b6c7">IT_INVINCIBLE</a></div><div class="ttdeci">const int IT_INVINCIBLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7c/common_2items_2item_8qh_source.html#l00032">item.qh:32</a></div></div>
+<div class="ttc" id="classPowerup_html"><div class="ttname"><a href="../../d5/d65/classPowerup.html">Powerup</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d88/powerup_8qh_source.html#l00009">powerup.qh:9</a></div></div>
 <div class="ttc" id="common_2items_2all_8qh_html"><div class="ttname"><a href="../../d3/dc0/common_2items_2all_8qh.html">all.qh</a></div></div>
 <div class="ttc" id="items_8qc_html_a44af1646c8b64397d8e3ab79c12c63b4"><div class="ttname"><a href="../../d2/dc1/items_8qc.html#a44af1646c8b64397d8e3ab79c12c63b4">SOUND</a></div><div class="ttdeci">SOUND(VaporizerCells,&quot;misc/itempickup&quot;)</div></div>
 <div class="ttc" id="items_8qc_html_a8b213c20a29f9d9e4342df15d3c91118"><div class="ttname"><a href="../../d2/dc1/items_8qc.html#a8b213c20a29f9d9e4342df15d3c91118">instagib_respawntime_ammo</a></div><div class="ttdeci">float instagib_respawntime_ammo</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc1/items_8qc_source.html#l00007">items.qc:7</a></div></div>
@@ -210,7 +213,7 @@ $(document).ready(function(){initNavTree('d2/dc1/items_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_37818b0dce32e02a5f5a4a96cf829288.html">instagib</a></li><li class="navelem"><a class="el" href="../../d2/dc1/items_8qc.html">items.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:30 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:27 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

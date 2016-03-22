@@ -1,13 +1,8 @@
 var monster_8qh =
 [
+    [ "Monster", "d1/d5c/classMonster.html", "d1/d5c/classMonster" ],
     [ "MONSTER_H", "d4/ddc/monster_8qh.html#a258d11d37dbd0fdbf97b67597a365a78", null ],
     [ "bool", "d4/ddc/monster_8qh.html#a34e0b86a39a5f12d53567ff4d47f32e2", null ],
-    [ "METHOD", "d4/ddc/monster_8qh.html#a8585b1722857a3fef2bef6eb394bec36", null ],
-    [ "METHOD", "d4/ddc/monster_8qh.html#a97e8b0b614ad551f82cc3acd1941063a", null ],
-    [ "METHOD", "d4/ddc/monster_8qh.html#a40e0db3126b0dff135915efa94ca9eb4", null ],
-    [ "METHOD", "d4/ddc/monster_8qh.html#affee5bb8d4a308bd0715ae04931160a5", null ],
-    [ "METHOD", "d4/ddc/monster_8qh.html#ac16a7f2cad126e66e7e1fcf2c3ed0477", null ],
-    [ "METHOD", "d4/ddc/monster_8qh.html#ab3026b83386e84a8e4695a97f0f040b1", null ],
     [ "anim_blockend", "d4/ddc/monster_8qh.html#a7afcb38a100fb8e77c1825d6cd699e68", null ],
     [ "anim_blockstart", "d4/ddc/monster_8qh.html#aa6213aab925aad32c42da8964c504d14", null ],
     [ "anim_melee1", "d4/ddc/monster_8qh.html#afd3e4dcd86111739567bc459727cf3ac", null ],

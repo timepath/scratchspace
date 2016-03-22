@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d5/d05/xonotic_2dialog_8qh.html','../.
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,7 +102,7 @@ $(document).ready(function(){initNavTree('d5/d05/xonotic_2dialog_8qh.html','../.
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">dialog.qh File Reference</div>  </div>
@@ -127,278 +128,17 @@ $(document).ready(function(){initNavTree('d5/d05/xonotic_2dialog_8qh.html','../.
 </div>
 <p><a href="../../d5/d05/xonotic_2dialog_8qh_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a3400f7cce46e8e9a83fb81bb3b0702e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#a3400f7cce46e8e9a83fb81bb3b0702e4">ATTRIB</a> (XonoticDialog, <a class="el" href="../../de/d23/item_2tab_8qh.html#af98e7df5c6a578cc5ca59d9c45d1a9b9">marginTop</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>, SKINMARGIN_TOP) ATTRIB(XonoticDialog</td></tr>
-<tr class="separator:a3400f7cce46e8e9a83fb81bb3b0702e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4853d0013c12ad3263cab04e282bf78c"><td class="memItemLeft" align="right" valign="top">SKINMARGIN_BOTTOM&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#a4853d0013c12ad3263cab04e282bf78c">ATTRIB</a> (XonoticDialog, <a class="el" href="../../de/d23/item_2tab_8qh.html#a93419fd6612cc240b10a55efcfa5271d">marginLeft</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>, SKINMARGIN_LEFT) ATTRIB(XonoticDialog</td></tr>
-<tr class="separator:a4853d0013c12ad3263cab04e282bf78c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a962ade24e094104840d0569f6c64bb68"><td class="memItemLeft" align="right" valign="top">SKINMARGIN_BOTTOM SKINMARGIN_RIGHT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#a962ade24e094104840d0569f6c64bb68">ATTRIB</a> (XonoticDialog, <a class="el" href="../../de/d23/item_2tab_8qh.html#a85839461f604248baebc89995a0975de">columnSpacing</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>, SKINMARGIN_COLUMNS) ATTRIB(XonoticDialog</td></tr>
-<tr class="separator:a962ade24e094104840d0569f6c64bb68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82455b5ba5373933e7d4886bf17b04e3"><td class="memItemLeft" align="right" valign="top">SKINMARGIN_BOTTOM <br class="typebreak"/>
-SKINMARGIN_RIGHT <br class="typebreak"/>
-SKINMARGIN_ROWS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#a82455b5ba5373933e7d4886bf17b04e3">ATTRIB</a> (XonoticDialog, <a class="el" href="../../de/d23/item_2tab_8qh.html#a4af54337576deb55a09c461c6872ceb5">rowHeight</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>, SKINFONTSIZE_NORMAL *SKINHEIGHT_NORMAL) ATTRIB(XonoticDialog</td></tr>
-<tr class="separator:a82455b5ba5373933e7d4886bf17b04e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f9b4b465b5e7d5e36bf6b8ac3e16d58"><td class="memItemLeft" align="right" valign="top">SKINMARGIN_BOTTOM <br class="typebreak"/>
-SKINMARGIN_RIGHT <br class="typebreak"/>
-SKINMARGIN_ROWS <br class="typebreak"/>
-SKINFONTSIZE_TITLE <br class="typebreak"/>
-*SKINHEIGHT_TITLE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#a0f9b4b465b5e7d5e36bf6b8ac3e16d58">ATTRIB</a> (XonoticDialog, <a class="el" href="../../d6/d88/item_2dialog_8qh.html#abfcf539447dfbc4e34b2876ddd8d93e0">titleFontSize</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>, SKINFONTSIZE_TITLE) <a class="el" href="../../d5/dc5/weaponslist_8qh.html#a27759fc7134dedd8325374acc188fed7">METHOD</a>(XonoticDialog</td></tr>
-<tr class="separator:a0f9b4b465b5e7d5e36bf6b8ac3e16d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bcbb00bf9f019b289c33e1db6b9093f"><td class="memItemLeft" align="right" valign="top">SKINMARGIN_BOTTOM <br class="typebreak"/>
-SKINMARGIN_RIGHT <br class="typebreak"/>
-SKINMARGIN_ROWS <br class="typebreak"/>
-SKINFONTSIZE_TITLE <br class="typebreak"/>
-*SKINHEIGHT_TITLE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#a5bcbb00bf9f019b289c33e1db6b9093f">void</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>))</td></tr>
-<tr class="separator:a5bcbb00bf9f019b289c33e1db6b9093f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d95/classXonoticDialog.html">XonoticDialog</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a1ea89986129954bfe8f7316731e8301b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#a1ea89986129954bfe8f7316731e8301b">marginBottom</a></td></tr>
-<tr class="separator:a1ea89986129954bfe8f7316731e8301b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72d102f2b3ee902480587fb43d8258c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#a72d102f2b3ee902480587fb43d8258c9">float</a></td></tr>
-<tr class="separator:a72d102f2b3ee902480587fb43d8258c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6ec51fe5e3466f767a81869eb9fe933"><td class="memItemLeft" align="right" valign="top">SKINMARGIN_BOTTOM&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#ae6ec51fe5e3466f767a81869eb9fe933">marginRight</a></td></tr>
-<tr class="separator:ae6ec51fe5e3466f767a81869eb9fe933"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6f1888f1fef99f2e458a6c79f0d4e94"><td class="memItemLeft" align="right" valign="top">SKINMARGIN_BOTTOM SKINMARGIN_RIGHT&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#af6f1888f1fef99f2e458a6c79f0d4e94">rowSpacing</a></td></tr>
-<tr class="separator:af6f1888f1fef99f2e458a6c79f0d4e94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f44cfbcc7c73c5bb6fa8c0c7e61fc10"><td class="memItemLeft" align="right" valign="top">SKINMARGIN_BOTTOM <br class="typebreak"/>
-SKINMARGIN_RIGHT <br class="typebreak"/>
-SKINMARGIN_ROWS&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#a5f44cfbcc7c73c5bb6fa8c0c7e61fc10">titleHeight</a></td></tr>
-<tr class="separator:a5f44cfbcc7c73c5bb6fa8c0c7e61fc10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa14e1c6d6b59bce4864ea087933706f8"><td class="memItemLeft" align="right" valign="top">SKINMARGIN_BOTTOM <br class="typebreak"/>
-SKINMARGIN_RIGHT <br class="typebreak"/>
-SKINMARGIN_ROWS <br class="typebreak"/>
-SKINFONTSIZE_TITLE <br class="typebreak"/>
-*SKINHEIGHT_TITLE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#aa14e1c6d6b59bce4864ea087933706f8">configureDialog</a></td></tr>
-<tr class="separator:aa14e1c6d6b59bce4864ea087933706f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f5c24df66604b59586902a5b11c2a6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html#a2f5c24df66604b59586902a5b11c2a6f">currentDialog</a></td></tr>
 <tr class="separator:a2f5c24df66604b59586902a5b11c2a6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="a3400f7cce46e8e9a83fb81bb3b0702e4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ATTRIB </td>
-          <td>(</td>
-          <td class="paramtype">XonoticDialog&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/d23/item_2tab_8qh.html#af98e7df5c6a578cc5ca59d9c45d1a9b9">marginTop</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">SKINMARGIN_TOP&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a4853d0013c12ad3263cab04e282bf78c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SKINMARGIN_BOTTOM ATTRIB </td>
-          <td>(</td>
-          <td class="paramtype">XonoticDialog&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/d23/item_2tab_8qh.html#a93419fd6612cc240b10a55efcfa5271d">marginLeft</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">SKINMARGIN_LEFT&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a962ade24e094104840d0569f6c64bb68"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SKINMARGIN_BOTTOM SKINMARGIN_RIGHT ATTRIB </td>
-          <td>(</td>
-          <td class="paramtype">XonoticDialog&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/d23/item_2tab_8qh.html#a85839461f604248baebc89995a0975de">columnSpacing</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">SKINMARGIN_COLUMNS&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a82455b5ba5373933e7d4886bf17b04e3"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SKINMARGIN_BOTTOM SKINMARGIN_RIGHT SKINMARGIN_ROWS ATTRIB </td>
-          <td>(</td>
-          <td class="paramtype">XonoticDialog&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../de/d23/item_2tab_8qh.html#a4af54337576deb55a09c461c6872ceb5">rowHeight</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">SKINFONTSIZE_NORMAL *&#160;</td>
-          <td class="paramname"><em>SKINHEIGHT_NORMAL</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a0f9b4b465b5e7d5e36bf6b8ac3e16d58"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SKINMARGIN_BOTTOM SKINMARGIN_RIGHT SKINMARGIN_ROWS SKINFONTSIZE_TITLE* SKINHEIGHT_TITLE ATTRIB </td>
-          <td>(</td>
-          <td class="paramtype">XonoticDialog&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/d88/item_2dialog_8qh.html#abfcf539447dfbc4e34b2876ddd8d93e0">titleFontSize</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">SKINFONTSIZE_TITLE&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a5bcbb00bf9f019b289c33e1db6b9093f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SKINMARGIN_BOTTOM SKINMARGIN_RIGHT SKINMARGIN_ROWS SKINFONTSIZE_TITLE* SKINHEIGHT_TITLE void </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="aa14e1c6d6b59bce4864ea087933706f8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SKINMARGIN_BOTTOM SKINMARGIN_RIGHT SKINMARGIN_ROWS SKINFONTSIZE_TITLE* SKINHEIGHT_TITLE configureDialog</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d05/xonotic_2dialog_8qh_source.html#l00032">32</a> of file <a class="el" href="../../d5/d05/xonotic_2dialog_8qh_source.html">dialog.qh</a>.</p>
-
-<p>Referenced by <a class="el" href="../../d5/dab/dialog__settings__game_8qh_source.html#l00045">INIT()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a2f5c24df66604b59586902a5b11c2a6f"></a>
 <div class="memitem">
 <div class="memproto">
@@ -415,83 +155,13 @@ SKINFONTSIZE_TITLE <br class="typebreak"/>
 
 </div>
 </div>
-<a class="anchor" id="a72d102f2b3ee902480587fb43d8258c9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SKINMARGIN_BOTTOM SKINMARGIN_RIGHT SKINMARGIN_ROWS float</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d05/xonotic_2dialog_8qh_source.html#l00015">15</a> of file <a class="el" href="../../d5/d05/xonotic_2dialog_8qh_source.html">dialog.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a1ea89986129954bfe8f7316731e8301b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">marginBottom</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d05/xonotic_2dialog_8qh_source.html#l00015">15</a> of file <a class="el" href="../../d5/d05/xonotic_2dialog_8qh_source.html">dialog.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae6ec51fe5e3466f767a81869eb9fe933"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SKINMARGIN_BOTTOM marginRight</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d05/xonotic_2dialog_8qh_source.html#l00017">17</a> of file <a class="el" href="../../d5/d05/xonotic_2dialog_8qh_source.html">dialog.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="af6f1888f1fef99f2e458a6c79f0d4e94"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SKINMARGIN_BOTTOM SKINMARGIN_RIGHT rowSpacing</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d05/xonotic_2dialog_8qh_source.html#l00019">19</a> of file <a class="el" href="../../d5/d05/xonotic_2dialog_8qh_source.html">dialog.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a5f44cfbcc7c73c5bb6fa8c0c7e61fc10"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SKINMARGIN_BOTTOM SKINMARGIN_RIGHT SKINMARGIN_ROWS titleHeight</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d5/d05/xonotic_2dialog_8qh_source.html#l00021">21</a> of file <a class="el" href="../../d5/d05/xonotic_2dialog_8qh_source.html">dialog.qh</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d5/d05/xonotic_2dialog_8qh.html">dialog.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:40 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:35 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

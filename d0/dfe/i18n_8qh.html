@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d0/dfe/i18n_8qh.html','../../');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -134,26 +135,26 @@ $(document).ready(function(){initNavTree('d0/dfe/i18n_8qh.html','../../');});
 Macros</h2></td></tr>
 <tr class="memitem:aa1f361d4b0c21e4e579c98dcd1754d8a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#aa1f361d4b0c21e4e579c98dcd1754d8a">CTX_CACHE</a>&#160;&#160;&#160;1</td></tr>
 <tr class="separator:aa1f361d4b0c21e4e579c98dcd1754d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe83f5e144bb4898da325814307c1f74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#abe83f5e144bb4898da325814307c1f74">ZCTX</a>(<a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>)&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="el" href="../../d0/dfe/i18n_8qh.html#abcf7db15e6409570dd31f785c782cd0b">CTX</a>(<a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>))</td></tr>
+<tr class="memitem:abe83f5e144bb4898da325814307c1f74"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#abe83f5e144bb4898da325814307c1f74">ZCTX</a>(s)&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="el" href="../../d0/dfe/i18n_8qh.html#abcf7db15e6409570dd31f785c782cd0b">CTX</a>(s))</td></tr>
 <tr class="separator:abe83f5e144bb4898da325814307c1f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:afc249e655b212b61d409a3400c7371fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#afc249e655b212b61d409a3400c7371fb">language_filename</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>)</td></tr>
+<tr class="memitem:abcf7db15e6409570dd31f785c782cd0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#abcf7db15e6409570dd31f785c782cd0b">CTX</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> s)</td></tr>
+<tr class="separator:abcf7db15e6409570dd31f785c782cd0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc249e655b212b61d409a3400c7371fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#afc249e655b212b61d409a3400c7371fb">language_filename</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> s)</td></tr>
 <tr class="separator:afc249e655b212b61d409a3400c7371fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a203ab6c34f40608a258afe982707fb0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#a203ab6c34f40608a258afe982707fb0f">STATIC_INIT</a> (<a class="el" href="../../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">CTX_cache</a>)</td></tr>
-<tr class="separator:a203ab6c34f40608a258afe982707fb0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ce715c0ac68a2151f737e528675493"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#a99ce715c0ac68a2151f737e528675493">SHUTDOWN</a> (<a class="el" href="../../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">CTX_cache</a>)</td></tr>
 <tr class="separator:a99ce715c0ac68a2151f737e528675493"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcf7db15e6409570dd31f785c782cd0b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#abcf7db15e6409570dd31f785c782cd0b">CTX</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> <a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>)</td></tr>
-<tr class="separator:abcf7db15e6409570dd31f785c782cd0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a203ab6c34f40608a258afe982707fb0f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#a203ab6c34f40608a258afe982707fb0f">STATIC_INIT</a> (<a class="el" href="../../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">CTX_cache</a>)</td></tr>
+<tr class="separator:a203ab6c34f40608a258afe982707fb0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a350eb9c99ebc5adc781acadabf4b1246"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d54/map_8qh.html#ae164808a517903e86f7142599e17eb73">HashMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">CTX_cache</a></td></tr>
+<tr class="separator:a350eb9c99ebc5adc781acadabf4b1246"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18805774614f6b76795f1e6615f6f59c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#a18805774614f6b76795f1e6615f6f59c">prvm_language</a></td></tr>
 <tr class="separator:a18805774614f6b76795f1e6615f6f59c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a350eb9c99ebc5adc781acadabf4b1246"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d54/map_8qh.html#a97718ade46774474357a80dce0a691f9">HashMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">CTX_cache</a></td></tr>
-<tr class="separator:a350eb9c99ebc5adc781acadabf4b1246"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="aa1f361d4b0c21e4e579c98dcd1754d8a"></a>
@@ -178,8 +179,8 @@ Variables</h2></td></tr>
           <td class="memname">#define ZCTX</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="el" href="../../d0/dfe/i18n_8qh.html#abcf7db15e6409570dd31f785c782cd0b">CTX</a>(<a class="el" href="../../d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">s</a>))</td>
+          <td class="paramname">s</td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="el" href="../../d0/dfe/i18n_8qh.html#abcf7db15e6409570dd31f785c782cd0b">CTX</a>(s))</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -207,27 +208,25 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/dfe/i18n_8qh_source.html#l00043">43</a> of file <a class="el" href="../../d0/dfe/i18n_8qh_source.html">i18n.qh</a>.</p>
 
-<p>References <a class="el" href="../../d0/dfe/i18n_8qh_source.html#l00032">CTX_cache</a>, <a class="el" href="../../d4/d54/map_8qh_source.html#l00089">HM_gets</a>, <a class="el" href="../../d4/d54/map_8qh_source.html#l00098">HM_sets</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00074">LOG_DEBUGF</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00219">p</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00229">ret</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00043">strstrofs</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
+<p>References <a class="el" href="../../d0/dfe/i18n_8qh_source.html#l00032">CTX_cache</a>, <a class="el" href="../../d4/d54/map_8qh_source.html#l00089">HM_gets</a>, <a class="el" href="../../d4/d54/map_8qh_source.html#l00098">HM_sets</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00074">LOG_DEBUGF</a>, <a class="el" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00043">strstrofs</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l01247">HUD_DrawScoreboard()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00781">QuickMenu_Default()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00027">TranslateScoresLabel()</a>, and <a class="el" href="../../d8/db3/slider__decibels_8qc_source.html#l00069">XonoticDecibelsSlider_valueToText()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#if CTX_CACHE</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"></span>        <span class="keywordtype">string</span> c = <a class="code" href="../../d4/d54/map_8qh.html#ac4f258816f44ba60ecd630cf58e52974">HM_gets</a>(<a class="code" href="../../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">CTX_cache</a>, <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"></span>        <span class="keywordtype">string</span> c = <a class="code" href="../../d4/d54/map_8qh.html#ac4f258816f44ba60ecd630cf58e52974">HM_gets</a>(<a class="code" href="../../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">CTX_cache</a>, s);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">if</span> (c != <span class="stringliteral">&quot;&quot;</span>) <span class="keywordflow">return</span> c;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">int</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a> = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>, <span class="stringliteral">&quot;^&quot;</span>, 0);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a> = (p &lt; 0) ? <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a> : <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>, p + 1, -1);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">int</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a> = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(s, <span class="stringliteral">&quot;^&quot;</span>, 0);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordtype">string</span> ret = (p &lt; 0) ? s : <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, p + 1, -1);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#if CTX_CACHE</span></div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../db/da0/log_8qh.html#ad2f8b948e71ddedcb93c360f01351de3">LOG_DEBUGF</a>(<span class="stringliteral">&quot;CTX(\&quot;%s\&quot;)\n&quot;</span>, <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>);</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="../../d4/d54/map_8qh.html#a605b837e0b0cfbe3b7ef69564dba980e">HM_sets</a>(<a class="code" href="../../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">CTX_cache</a>, <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>, ret);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../db/da0/log_8qh.html#ad2f8b948e71ddedcb93c360f01351de3">LOG_DEBUGF</a>(<span class="stringliteral">&quot;CTX(\&quot;%s\&quot;)\n&quot;</span>, s);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="../../d4/d54/map_8qh.html#a605b837e0b0cfbe3b7ef69564dba980e">HM_sets</a>(<a class="code" href="../../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">CTX_cache</a>, s, ret);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">return</span> <a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">return</span> ret;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
-<div class="ttc" id="serverlist_8qc_html_a00e5655488971b2c521f2984639f5dae"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a></div><div class="ttdeci">string ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00229">serverlist.qc:229</a></div></div>
 <div class="ttc" id="map_8qh_html_ac4f258816f44ba60ecd630cf58e52974"><div class="ttname"><a href="../../d4/d54/map_8qh.html#ac4f258816f44ba60ecd630cf58e52974">HM_gets</a></div><div class="ttdeci">#define HM_gets(this, k)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00089">map.qh:89</a></div></div>
 <div class="ttc" id="map_8qh_html_a605b837e0b0cfbe3b7ef69564dba980e"><div class="ttname"><a href="../../d4/d54/map_8qh.html#a605b837e0b0cfbe3b7ef69564dba980e">HM_sets</a></div><div class="ttdeci">#define HM_sets(this, key, val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00098">map.qh:98</a></div></div>
-<div class="ttc" id="effectinfo_8qc_html_af1209ce3d4344049c1084fab900909cf"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a></div><div class="ttdeci">#define p(f, type, default)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00219">effectinfo.qc:219</a></div></div>
-<div class="ttc" id="effectinfo_8qc_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00203">effectinfo.qc:203</a></div></div>
+<div class="ttc" id="effectinfo_8qc_html_af1209ce3d4344049c1084fab900909cf"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a></div><div class="ttdeci">#define p(f, type, default)</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a2ac3100017ecf2236493ea038c4d2083"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a></div><div class="ttdeci">#define strstrofs</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00043">dpextensions.qh:43</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
 <div class="ttc" id="i18n_8qh_html_a350eb9c99ebc5adc781acadabf4b1246"><div class="ttname"><a href="../../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">CTX_cache</a></div><div class="ttdeci">HashMap CTX_cache</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dfe/i18n_8qh_source.html#l00032">i18n.qh:32</a></div></div>
@@ -272,26 +271,25 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/dfe/i18n_8qh_source.html#l00013">13</a> of file <a class="el" href="../../d0/dfe/i18n_8qh_source.html">i18n.qh</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00101">FILE_READ</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../d0/dfe/i18n_8qh_source.html#l00008">prvm_language</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00203">s</a>, and <a class="el" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00101">FILE_READ</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen()</a>, <a class="el" href="../../d0/dfe/i18n_8qh_source.html#l00008">prvm_language</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/d55/campaign__file_8qc_source.html#l00012">CampaignFile_Load()</a>, and <a class="el" href="../../de/dd6/playermodel_8qc_source.html#l00025">XonoticPlayerModelSelector_loadModels()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">string</span> fn = <a class="code" href="../../d0/dfe/i18n_8qh.html#a18805774614f6b76795f1e6615f6f59c">prvm_language</a>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">if</span> (fn == <span class="stringliteral">&quot;&quot;</span> || fn == <span class="stringliteral">&quot;dump&quot;</span>) <span class="keywordflow">return</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    fn = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>, <span class="stringliteral">&quot;.&quot;</span>, fn);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">if</span> (fn == <span class="stringliteral">&quot;&quot;</span> || fn == <span class="stringliteral">&quot;dump&quot;</span>) <span class="keywordflow">return</span> s;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    fn = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot;.&quot;</span>, fn);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">int</span> fh = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(fn, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a>);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span> (fh &gt;= 0)</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(fh);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">return</span> fn;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">return</span> s;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a5231f4ff2813f7de782b67d25a9e4cf9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a></div><div class="ttdeci">float fopen(string filename, float mode)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a1a78b46b9db5c0d6fcee5be7697afa09"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a></div><div class="ttdeci">void fclose(float fhandle)</div></div>
-<div class="ttc" id="effectinfo_8qc_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00203">effectinfo.qc:203</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="i18n_8qh_html_a18805774614f6b76795f1e6615f6f59c"><div class="ttname"><a href="../../d0/dfe/i18n_8qh.html#a18805774614f6b76795f1e6615f6f59c">prvm_language</a></div><div class="ttdeci">string prvm_language</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dfe/i18n_8qh_source.html#l00008">i18n.qh:8</a></div></div>
-<div class="ttc" id="effectinfo_8qc_html_a2ae584d3dad891f2ae754acead0f015a"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a></div><div class="ttdeci">return strcat(s,&quot;}\n&quot;)</div></div>
 <div class="ttc" id="csqc__constants_8qh_html_ac71bfc8a179f9d612bf713943c8cb5e1"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a></div><div class="ttdeci">const int FILE_READ</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00101">csqc_constants.qh:101</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -372,7 +370,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d54/map_8qh.html#a97718ade46774474357a80dce0a691f9">HashMap</a> CTX_cache</td>
+          <td class="memname"><a class="el" href="../../d4/d54/map_8qh.html#ae164808a517903e86f7142599e17eb73">HashMap</a> CTX_cache</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -405,7 +403,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d0/dfe/i18n_8qh.html">i18n.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:39 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:34 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['backgroundimage',['backgroundImage',['../dc/d06/classDialog.html#a3c982e9f0a22c38f840b3310e324ebea',1,'Dialog::backgroundImage()'],['../de/d9c/classTab.html#ac3be5265f8fd20caa82eeb834c15f6be',1,'Tab::backgroundImage()'],['../d5/d95/classXonoticDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea',1,'XonoticDialog::backgroundImage()'],['../d3/dce/classXonoticTab.html#a1ac6ee1e1a7fc5bc8247348b269fd503',1,'XonoticTab::backgroundImage()']]],
   ['ballcarried',['ballcarried',['../d5/d26/server_2defs_8qh.html#a137a4251a46a5fea7db7d4f16b190dcb',1,'defs.qh']]],
   ['ballistics_5fdensity',['ballistics_density',['../d5/d26/server_2defs_8qh.html#a4fb2fb54df1e968eb7ecb8cc92f0f3ec',1,'defs.qh']]],
   ['ban_5fchecked',['ban_checked',['../d6/d95/ipban_8qc.html#a0cc14f1baeb0997f35d7d929b2836628',1,'ipban.qc']]],
@@ -64,6 +65,9 @@ var searchData=
   ['bonetype_5flower',['BONETYPE_LOWER',['../d3/dab/player__skeleton_8qc.html#ae30bcd640df03cd117eb6491db7bf50b',1,'player_skeleton.qc']]],
   ['bonetype_5fupper',['BONETYPE_UPPER',['../d3/dab/player__skeleton_8qc.html#a7c80ef0cb8dccd72a620b9804160551f',1,'player_skeleton.qc']]],
   ['border_5fmultiplier',['BORDER_MULTIPLIER',['../d3/d05/hud_8qh.html#ac4003d8cd0ee4833809a3aab197b6685',1,'hud.qh']]],
+  ['borderheight',['borderHeight',['../d7/d5d/classBorderImage.html#ae3a0d2430404bafd299039790f1f2e8d',1,'BorderImage']]],
+  ['borderlines',['borderLines',['../dc/d06/classDialog.html#a53de8355052b658819638577356cc8f3',1,'Dialog::borderLines()'],['../d5/d95/classXonoticDialog.html#a39891566153cd1bb1f9e8cee0f9becdc',1,'XonoticDialog::borderLines()']]],
+  ['bordervec',['borderVec',['../d7/d5d/classBorderImage.html#ae4803ed86e67529f033607c7c5f0de11',1,'BorderImage']]],
   ['bot_5f1st_5forder_5faimfilter',['bot_1st_order_aimfilter',['../d3/d5a/aim_8qh.html#a480d0ce4445c3ef02779e254c6e13a1b',1,'aim.qh']]],
   ['bot_5f2nd_5forder_5faimfilter',['bot_2nd_order_aimfilter',['../d3/d5a/aim_8qh.html#af42cfc02cbb36efb1e467d9714f4fc18',1,'aim.qh']]],
   ['bot_5f3th_5forder_5faimfilter',['bot_3th_order_aimfilter',['../d3/d5a/aim_8qh.html#a1d0fd5cbe5eff8d182de0b0c9041b4ea',1,'aim.qh']]],
@@ -179,7 +183,7 @@ var searchData=
   ['bot_5fpickup_5frating_5fhigh',['BOT_PICKUP_RATING_HIGH',['../dc/d1c/weapon_8qh.html#aa8e541635b75ef778306101592f58bad',1,'weapon.qh']]],
   ['bot_5fpickup_5frating_5flow',['BOT_PICKUP_RATING_LOW',['../dc/d1c/weapon_8qh.html#a87d0aa72ac92f39e8380f2f3d7cb4e68',1,'weapon.qh']]],
   ['bot_5fpickup_5frating_5fmid',['BOT_PICKUP_RATING_MID',['../dc/d1c/weapon_8qh.html#a570ba7d810a7e1fccaf88195270eec21',1,'weapon.qh']]],
-  ['bot_5fpickupbasevalue',['bot_pickupbasevalue',['../d1/da9/bot_8qh.html#a87c1f7ede0fd44092542afd7e9e2c3d7',1,'bot.qh']]],
+  ['bot_5fpickupbasevalue',['bot_pickupbasevalue',['../d9/dce/classHeavyMachineGun.html#a433cc0989f98469131d0a53483b804eb',1,'HeavyMachineGun::bot_pickupbasevalue()'],['../d1/d00/classRocketPropelledChainsaw.html#a0e17fba9d21c708010df3418d29ec17a',1,'RocketPropelledChainsaw::bot_pickupbasevalue()'],['../db/d3c/classArc.html#ae0a509098068a29d9ef781b063c35d0e',1,'Arc::bot_pickupbasevalue()'],['../d7/d32/classBlaster.html#a1c8437833108d8e5fee3535929d05f32',1,'Blaster::bot_pickupbasevalue()'],['../d8/db8/classCrylink.html#a60dd8166f44e3fc48dbae45e8a90f874',1,'Crylink::bot_pickupbasevalue()'],['../d4/d0b/classDevastator.html#a0857557df1839208d8571e233839ce44',1,'Devastator::bot_pickupbasevalue()'],['../dc/d6c/classElectro.html#ab23bedb49b0c3c08b34346e22100aced',1,'Electro::bot_pickupbasevalue()'],['../d1/dd1/classFireball.html#a6d2c84f0a32544542dfbb29f8a078ef6',1,'Fireball::bot_pickupbasevalue()'],['../d4/d87/classHagar.html#aa73cd57b3321d3f2fea34b4e62dbd7b6',1,'Hagar::bot_pickupbasevalue()'],['../d4/d41/classHLAC.html#a8d201e202dfd220a70d7f46ba13f8970',1,'HLAC::bot_pickupbasevalue()'],['../db/d4a/classHook.html#a4db172fd5de18e582c2aefcd7124087b',1,'Hook::bot_pickupbasevalue()'],['../dd/d73/classMachineGun.html#ad60581174addffcd546196db2e2e8c56',1,'MachineGun::bot_pickupbasevalue()'],['../d3/da9/classMineLayer.html#a81f22076374063c0ac3a8bdb2e35ca3b',1,'MineLayer::bot_pickupbasevalue()'],['../da/df9/classMortar.html#ae3ee5674f8d5232b46d606bff0062696',1,'Mortar::bot_pickupbasevalue()'],['../d2/dd3/classPortoLaunch.html#ae61a44ce6f969cd494a30ebe7e8dd44c',1,'PortoLaunch::bot_pickupbasevalue()'],['../d0/d81/classRifle.html#a62733317377efccb19770f9b187ae35c',1,'Rifle::bot_pickupbasevalue()'],['../da/ded/classSeeker.html#aa2346884e39312c506a4dc501439286a',1,'Seeker::bot_pickupbasevalue()'],['../da/d13/classShockwave.html#a2ae6f5266386213cc74fc9905aff71ba',1,'Shockwave::bot_pickupbasevalue()'],['../d8/dd3/classShotgun.html#a2a2c18e6c0451d1fe15a8bb2b4715b11',1,'Shotgun::bot_pickupbasevalue()'],['../d9/d6e/classTuba.html#ac6f60d2aeb3466eb5209d3dfec04dba1',1,'Tuba::bot_pickupbasevalue()'],['../d5/d99/classVaporizer.html#a1b01884770cf782e1003225a352033dd',1,'Vaporizer::bot_pickupbasevalue()'],['../d4/d17/classVortex.html#add8cf89912c6ce63565d432a3bb26726',1,'Vortex::bot_pickupbasevalue()'],['../dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84',1,'Weapon::bot_pickupbasevalue()'],['../d1/da9/bot_8qh.html#a87c1f7ede0fd44092542afd7e9e2c3d7',1,'bot_pickupbasevalue():&#160;bot.qh']]],
   ['bot_5fpingskill',['bot_pingskill',['../d1/da9/bot_8qh.html#a239d741d29158aa382893d3fbac7f00e',1,'bot.qh']]],
   ['bot_5fplacenames',['bot_placenames',['../d6/d27/scripting_8qc.html#a903a6b564e02ffad4dd1588ad3a90996',1,'scripting.qc']]],
   ['bot_5fplaces',['bot_places',['../d6/d27/scripting_8qc.html#a71f541668574955124e78dc6d717bc6f',1,'scripting.qc']]],
@@ -230,7 +234,9 @@ var searchData=
   ['buff_5fmodel',['buff_model',['../d4/d0f/buffs_8qc.html#a14f4e75f961cd8672b251062ae26870b',1,'buffs.qc']]],
   ['buff_5fplayer',['buff_player',['../d6/ddd/server_2mutators_2events_8qh.html#ae95b0e3f02b7371345a3ed01fb4f860a',1,'events.qh']]],
   ['buff_5fwaypoint',['buff_waypoint',['../d4/d0f/buffs_8qc.html#a39a49dfb13476e573dab25e06a90e563',1,'buffs.qc']]],
+  ['bufferindex',['bufferIndex',['../d4/d55/classXonoticCreditsList.html#aa826bb0f5ee16ec5345b791680e84aee',1,'XonoticCreditsList']]],
   ['buffs',['buffs',['../d5/dac/g__damage_8qc.html#a8f32afee7a8e742e18a6a8fae0844699',1,'g_damage.qc']]],
+  ['bufmodels',['bufModels',['../da/d6d/classXonoticPlayerModelSelector.html#acce3d31c96abedfae07be00fd07db27b',1,'XonoticPlayerModelSelector']]],
   ['bufmodels_5fcount',['BUFMODELS_COUNT',['../de/dd6/playermodel_8qc.html#a344643cdb85b090cd61bbd5a653df72c',1,'playermodel.qc']]],
   ['bufmodels_5fdesc',['BUFMODELS_DESC',['../de/dd6/playermodel_8qc.html#a25e9232cc853312b4b1c9766ad0aa69b',1,'playermodel.qc']]],
   ['bufmodels_5fimage',['BUFMODELS_IMAGE',['../de/dd6/playermodel_8qc.html#a4fd33f7afa63e292d284d614ea8e3659',1,'playermodel.qc']]],
@@ -278,6 +284,9 @@ var searchData=
   ['button_5fuse',['BUTTON_USE',['../d4/d92/csqc__constants_8qh.html#a64c33b61a4620c6a3c54b791de28ec61',1,'csqc_constants.qh']]],
   ['button_5fzoom',['button_zoom',['../d0/d2a/client_2main_8qh.html#a61a267473fc7421049cd4780baa4985b',1,'main.qh']]],
   ['buttonchat',['buttonchat',['../de/d5e/dpextensions_8qc.html#a8e56e01487186083a668c11a820f3c7b',1,'dpextensions.qc']]],
+  ['buttonleftoftext',['buttonLeftOfText',['../d1/d19/classButton.html#a4985255a6e0984252ab7ccedd6347d5b',1,'Button']]],
+  ['buttonnext',['buttonNext',['../d4/d91/classXonoticCampaignList.html#a81e8842788db29e40bdbe498a1494be8',1,'XonoticCampaignList']]],
+  ['buttonprev',['buttonPrev',['../d4/d91/classXonoticCampaignList.html#ab4d49833930a1611ffedbc74c6f261fe',1,'XonoticCampaignList']]],
   ['buttons_5fold',['buttons_old',['../df/dae/player_8qh.html#aeb860272089ca58c254feaccffc494c8',1,'player.qh']]],
   ['buttonuse',['buttonuse',['../de/d5e/dpextensions_8qc.html#a950504efbc7fcc04ca8c7d6965357f6d',1,'dpextensions.qc']]]
 ];

@@ -1,15 +1,7 @@
 var vehicle_8qh =
 [
+    [ "Vehicle", "dc/d23/classVehicle.html", "dc/d23/classVehicle" ],
     [ "VEHICLE_H", "d1/d4b/vehicle_8qh.html#a1f16716522bcf99b0e69ab234192ecbf", null ],
-    [ "METHOD", "d1/d4b/vehicle_8qh.html#a7b3752474c1bd57eb77baa37987d180f", null ],
-    [ "METHOD", "d1/d4b/vehicle_8qh.html#a71e3a4469bd4a75702274f1478a7906b", null ],
-    [ "METHOD", "d1/d4b/vehicle_8qh.html#a1d89ad7fc45e3811e980c3af01cbc6f8", null ],
-    [ "METHOD", "d1/d4b/vehicle_8qh.html#aa5f49490cb204ee290df7357d45211e5", null ],
-    [ "METHOD", "d1/d4b/vehicle_8qh.html#a2097ef5ff6a6d42101766d2c2c673022", null ],
-    [ "METHOD", "d1/d4b/vehicle_8qh.html#add9e95b7df9e8d23db317a82b9c734fa", null ],
-    [ "METHOD", "d1/d4b/vehicle_8qh.html#a3fd6ca1dbc5d36420931698f13e0a5ed", null ],
-    [ "METHOD", "d1/d4b/vehicle_8qh.html#a7a549f7a3fbee5b2efd8feea6d379b21", null ],
-    [ "METHOD", "d1/d4b/vehicle_8qh.html#a779b27392fe54f666981f86d4ae8d245", null ],
     [ "tur_head", "d1/d4b/vehicle_8qh.html#ac541faa688eeead026348ad699585d0c", null ],
     [ "VHF_DEATHEJECT", "d1/d4b/vehicle_8qh.html#af7a5fa4de96188e946ef3c2025735fc4", null ],
     [ "VHF_DMGHEADROLL", "d1/d4b/vehicle_8qh.html#aaf79b031fa1457c27aa9aeff5cd97ab2", null ],

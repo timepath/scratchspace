@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d5/dfa/timer_8qc_source.html','../../'
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -130,9 +131,9 @@ $(document).ready(function(){initNavTree('d5/dfa/timer_8qc_source.html','../../'
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">string</span> timer;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">float</span> timelimit, elapsedTime, timeleft, minutesLeft;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    timelimit = <a class="code" href="../../db/d9f/state_8qh.html#aa3bade4bd987dbbe92066dd4c4bdd04c">STAT</a>(TIMELIMIT);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    timelimit = STAT(TIMELIMIT);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    timeleft = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, timelimit * 60 + <a class="code" href="../../db/d9f/state_8qh.html#aa3bade4bd987dbbe92066dd4c4bdd04c">STAT</a>(GAMESTARTTIME) - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    timeleft = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, timelimit * 60 + STAT(GAMESTARTTIME) - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    timeleft = <a class="code" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a>(timeleft);</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    minutesLeft = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(timeleft / 60);</div>
@@ -146,11 +147,11 @@ $(document).ready(function(){initNavTree('d5/dfa/timer_8qc_source.html','../../'
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        timer_color = <span class="stringliteral">&#39;1 0 0&#39;</span>; <span class="comment">//red</span></div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ad69c8d2fd7db011b228d318fcdada61e">autocvar_hud_panel_timer_increment</a> || timelimit == 0 || <a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>) {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; <a class="code" href="../../db/d9f/state_8qh.html#aa3bade4bd987dbbe92066dd4c4bdd04c">STAT</a>(GAMESTARTTIME)) {</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; STAT(GAMESTARTTIME)) {</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="comment">//while restart is still active, show 00:00</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            timer = <a class="code" href="../../d2/db4/string_8qh.html#aea1003dba6c453eacab4ed6a550ebcaa">seconds_tostring</a>(0);</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        } <span class="keywordflow">else</span> {</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            elapsedTime = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - <a class="code" href="../../db/d9f/state_8qh.html#aa3bade4bd987dbbe92066dd4c4bdd04c">STAT</a>(GAMESTARTTIME)); <span class="comment">//127</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            elapsedTime = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - STAT(GAMESTARTTIME)); <span class="comment">//127</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            timer = <a class="code" href="../../d2/db4/string_8qh.html#aea1003dba6c453eacab4ed6a550ebcaa">seconds_tostring</a>(elapsedTime);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        }</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    } <span class="keywordflow">else</span> {</div>
@@ -163,7 +164,6 @@ $(document).ready(function(){initNavTree('d5/dfa/timer_8qc_source.html','../../'
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
 <div class="ttc" id="hud_8qh_html_a2671d9cf07f1ce849bb5d039d7f27b7e"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a></div><div class="ttdeci">float panel_fg_alpha</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00141">hud.qh:141</a></div></div>
 <div class="ttc" id="timer_8qc_html_a83d664db53940b5493a6233fbc021db3"><div class="ttname"><a href="../../d5/dfa/timer_8qc.html#a83d664db53940b5493a6233fbc021db3">HUD_Timer</a></div><div class="ttdeci">void HUD_Timer()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dfa/timer_8qc_source.html#l00002">timer.qc:2</a></div></div>
-<div class="ttc" id="state_8qh_html_aa3bade4bd987dbbe92066dd4c4bdd04c"><div class="ttname"><a href="../../db/d9f/state_8qh.html#aa3bade4bd987dbbe92066dd4c4bdd04c">STAT</a></div><div class="ttdeci">STAT(ACTIVEWEAPON, cl)</div></div>
 <div class="ttc" id="hud_8qh_html_a0fd201f7499f7a61e1dacbabf5327ea7"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a0fd201f7499f7a61e1dacbabf5327ea7">panel_size</a></div><div class="ttdeci">vector panel_size</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00135">hud.qh:135</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_ac2144fdd7c0ebd4bbcaaa8aaddd45561"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#ac2144fdd7c0ebd4bbcaaa8aaddd45561">draw_endBoldFont</a></div><div class="ttdeci">#define draw_endBoldFont()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00048">miscfunctions.qh:48</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
@@ -190,7 +190,7 @@ $(document).ready(function(){initNavTree('d5/dfa/timer_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d5/dfa/timer_8qc.html">timer.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:29 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

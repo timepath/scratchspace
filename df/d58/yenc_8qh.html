@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('df/d58/yenc_8qh.html','../../');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -129,10 +130,10 @@ $(document).ready(function(){initNavTree('df/d58/yenc_8qh.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a01877237296c3e64e52b9674f5d326bf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d58/yenc_8qh.html#a01877237296c3e64e52b9674f5d326bf">yenc_single</a>(c, <a class="el" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a>)</td></tr>
-<tr class="separator:a01877237296c3e64e52b9674f5d326bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99af444acc00b3c6c194d21b7150b1e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d58/yenc_8qh.html#a99af444acc00b3c6c194d21b7150b1e7">ydec_single</a>(stringiter, <a class="el" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a>)</td></tr>
+<tr class="memitem:a99af444acc00b3c6c194d21b7150b1e7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d58/yenc_8qh.html#a99af444acc00b3c6c194d21b7150b1e7">ydec_single</a>(stringiter, ret)</td></tr>
 <tr class="separator:a99af444acc00b3c6c194d21b7150b1e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01877237296c3e64e52b9674f5d326bf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d58/yenc_8qh.html#a01877237296c3e64e52b9674f5d326bf">yenc_single</a>(c, ret)</td></tr>
+<tr class="separator:a01877237296c3e64e52b9674f5d326bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -154,7 +155,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a>&#160;</td>
+          <td class="paramname">ret&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -164,26 +165,24 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">\</a></div>
-<div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">		int</a> conv = <a class="code" href="../../d4/d18/iter_8qh.html#a9e47641e909dc2b310bea63e84aaac93">STRING_ITERATOR_GET</a>(stringiter); <a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">\</a></div>
-<div class="line"><a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">		if</a> (conv &lt;= 0) { <a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">\</a></div>
-<div class="line"><a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">			ret</a> = -1; \</div>
+<div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">		int</a> conv = <a class="code" href="../../d4/d18/iter_8qh.html#a9e47641e909dc2b310bea63e84aaac93">STRING_ITERATOR_GET</a>(stringiter); \</div>
+<div class="line">        if (conv &lt;= 0) { \</div>
+<div class="line">            ret = -1; \</div>
 <div class="line">        } <span class="keywordflow">else</span> { <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#abb452686968e48b67397da5f97445f5b">\</a></div>
-<div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#abb452686968e48b67397da5f97445f5b">			bool</a> esc = <span class="keyword">false</span>; <a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">\</a></div>
-<div class="line"><a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">			if</a> (conv == <span class="charliteral">&#39;=&#39;</span>) { \</div>
+<div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#abb452686968e48b67397da5f97445f5b">			bool</a> esc = <span class="keyword">false</span>; \</div>
+<div class="line">            if (conv == <span class="charliteral">&#39;=&#39;</span>) { \</div>
 <div class="line">                esc = <span class="keyword">true</span>; \</div>
 <div class="line">                conv = <a class="code" href="../../d4/d18/iter_8qh.html#a9e47641e909dc2b310bea63e84aaac93">STRING_ITERATOR_GET</a>(stringiter); \</div>
 <div class="line">                conv -= 64; \</div>
-<div class="line">            } <a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">\</a></div>
-<div class="line"><a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">			if</a> (conv &lt; 42) conv += 256; \</div>
+<div class="line">            } \</div>
+<div class="line">            if (conv &lt; 42) conv += 256; \</div>
 <div class="line">            conv -= 42; \</div>
-<div class="line">            <a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a> = conv; \</div>
+<div class="line">            ret = conv; \</div>
 <div class="line">        } \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ae88a82478e3818cade3f598c25437904"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">int</a></div><div class="ttdeci">#define int</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00008">_all.inc:8</a></div></div>
-<div class="ttc" id="serverlist_8qc_html_a00e5655488971b2c521f2984639f5dae"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a></div><div class="ttdeci">string ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00229">serverlist.qc:229</a></div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
-<div class="ttc" id="model_8qh_html_a61af9d6854722dad5d5e433009d21a0a"><div class="ttname"><a href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">if</a></div><div class="ttdeci">if(s!=&quot;&quot;&amp;&amp;s!=&quot;null&quot;&amp;&amp;!fexists(s))</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1d/model_8qh_source.html#l00018">model.qh:18</a></div></div>
 <div class="ttc" id="iter_8qh_html_a9e47641e909dc2b310bea63e84aaac93"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a9e47641e909dc2b310bea63e84aaac93">STRING_ITERATOR_GET</a></div><div class="ttdeci">#define STRING_ITERATOR_GET(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00057">iter.qh:57</a></div></div>
 <div class="ttc" id="lib_2__all_8inc_html_abb452686968e48b67397da5f97445f5b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#abb452686968e48b67397da5f97445f5b">bool</a></div><div class="ttdeci">#define bool</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00012">_all.inc:12</a></div></div>
 </div><!-- fragment -->
@@ -207,7 +206,7 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a>&#160;</td>
+          <td class="paramname">ret&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -218,14 +217,14 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">\</a></div>
 <div class="line"><a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">		int</a> conv = c; \</div>
-<div class="line">        conv += 42; <a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">\</a></div>
-<div class="line"><a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">		if</a> (conv &gt;= 256) conv -= 256; \</div>
+<div class="line">        conv += 42; \</div>
+<div class="line">        if (conv &gt;= 256) conv -= 256; \</div>
 <div class="line">        switch (conv) \</div>
 <div class="line">        { \</div>
 <div class="line">            default: \</div>
-<div class="line">            { <a class="code" href="../../d0/d96/item_2listbox_8qh.html#a338951b7e7607b65262fb051e7804d91">\</a></div>
-<div class="line"><a class="code" href="../../d0/d96/item_2listbox_8qh.html#a338951b7e7607b65262fb051e7804d91">				string</a> yenc_it = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313">chr2str</a>(conv); <a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">\</a></div>
-<div class="line"><a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">				ret</a> = yenc_it; \</div>
+<div class="line">            { <a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">\</a></div>
+<div class="line"><a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">				string</a> yenc_it = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313">chr2str</a>(conv); \</div>
+<div class="line">                ret = yenc_it; \</div>
 <div class="line">                break; \</div>
 <div class="line">            } \</div>
 <div class="line">            case 0: \</div>
@@ -233,19 +232,17 @@ Functions</h2></td></tr>
 <div class="line">            case <span class="charliteral">&#39;\r&#39;</span>: \</div>
 <div class="line">            case <span class="charliteral">&#39;=&#39;</span>: \</div>
 <div class="line">            { \</div>
-<div class="line">                conv += 64; <a class="code" href="../../d0/d96/item_2listbox_8qh.html#a338951b7e7607b65262fb051e7804d91">\</a></div>
-<div class="line"><a class="code" href="../../d0/d96/item_2listbox_8qh.html#a338951b7e7607b65262fb051e7804d91">				string</a> yenc_it = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313">chr2str</a>(<span class="charliteral">&#39;=&#39;</span>, conv); <a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">\</a></div>
-<div class="line"><a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">				ret</a> = yenc_it; \</div>
+<div class="line">                conv += 64; <a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">\</a></div>
+<div class="line"><a class="code" href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">				string</a> yenc_it = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313">chr2str</a>(<span class="charliteral">&#39;=&#39;</span>, conv); \</div>
+<div class="line">                ret = yenc_it; \</div>
 <div class="line">                break; \</div>
 <div class="line">            } \</div>
 <div class="line">        } \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ae88a82478e3818cade3f598c25437904"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">int</a></div><div class="ttdeci">#define int</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00008">_all.inc:8</a></div></div>
-<div class="ttc" id="serverlist_8qc_html_a00e5655488971b2c521f2984639f5dae"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a></div><div class="ttdeci">string ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00229">serverlist.qc:229</a></div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
-<div class="ttc" id="model_8qh_html_a61af9d6854722dad5d5e433009d21a0a"><div class="ttname"><a href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">if</a></div><div class="ttdeci">if(s!=&quot;&quot;&amp;&amp;s!=&quot;null&quot;&amp;&amp;!fexists(s))</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1d/model_8qh_source.html#l00018">model.qh:18</a></div></div>
-<div class="ttc" id="item_2listbox_8qh_html_a338951b7e7607b65262fb051e7804d91"><div class="ttname"><a href="../../d0/d96/item_2listbox_8qh.html#a338951b7e7607b65262fb051e7804d91">string</a></div><div class="ttdeci">string</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d96/item_2listbox_8qh_source.html#l00039">listbox.qh:39</a></div></div>
+<div class="ttc" id="cl__minigames_8qc_html_aac4feb173f8e9d875991d38972a828c0"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#aac4feb173f8e9d875991d38972a828c0">string</a></div><div class="ttdeci">string() ReadString_Raw</div></div>
 <div class="ttc" id="dpextensions_8qh_html_ae2a42f6d1c36b2c22e0cd67f761f2313"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313">chr2str</a></div><div class="ttdeci">#define chr2str</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00049">dpextensions.qh:49</a></div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../df/d58/yenc_8qh_source.html#l00005">5</a> of file <a class="el" href="../../df/d58/yenc_8qh_source.html">yenc.qh</a>.</p>
@@ -313,7 +310,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../df/d58/yenc_8qh.html">yenc.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:39 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:35 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

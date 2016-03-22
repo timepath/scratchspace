@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('de/d09/linkedlist_8qh.html','../../');
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -101,6 +102,7 @@ $(document).ready(function(){initNavTree('de/d09/linkedlist_8qh.html','../../');
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
@@ -118,43 +120,46 @@ $(document).ready(function(){initNavTree('de/d09/linkedlist_8qh.html','../../');
 </div>
 <p><a href="../../de/d09/linkedlist_8qh_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dde/classLinkedList.html">LinkedList</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d6d/classLinkedListNode.html">LinkedListNode</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:a8ebf4a291e6a8614eb89e66383047bcf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#a8ebf4a291e6a8614eb89e66383047bcf">LL_NEW</a>()&#160;&#160;&#160;<a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(LinkedList)</td></tr>
-<tr class="separator:a8ebf4a291e6a8614eb89e66383047bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8044770794a35cab165d6f91dce02252"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#a8044770794a35cab165d6f91dce02252">LL_EMPTY</a>(ll)&#160;&#160;&#160;(ll.ll_head == <a class="el" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
-<tr class="separator:a8044770794a35cab165d6f91dce02252"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a34653d18434b71c75519450a30851848"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#a34653d18434b71c75519450a30851848">LL_CLEAR</a>(...)&#160;&#160;&#160;<a class="el" href="../../de/d09/linkedlist_8qh.html#a8f4040c98f091d7a52878687de9260d3">EVAL_LL_CLEAR</a>(<a class="el" href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">OVERLOAD</a>(LL_CLEAR, __VA_ARGS__))</td></tr>
-<tr class="separator:a34653d18434b71c75519450a30851848"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8f4040c98f091d7a52878687de9260d3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#a8f4040c98f091d7a52878687de9260d3">EVAL_LL_CLEAR</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
 <tr class="separator:a8f4040c98f091d7a52878687de9260d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba68dac02d2aa7fea2c34beda839b108"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#aba68dac02d2aa7fea2c34beda839b108">EVAL_LL_DELETE</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
+<tr class="separator:aba68dac02d2aa7fea2c34beda839b108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34653d18434b71c75519450a30851848"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#a34653d18434b71c75519450a30851848">LL_CLEAR</a>(...)&#160;&#160;&#160;<a class="el" href="../../de/d09/linkedlist_8qh.html#a8f4040c98f091d7a52878687de9260d3">EVAL_LL_CLEAR</a>(<a class="el" href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">OVERLOAD</a>(LL_CLEAR, __VA_ARGS__))</td></tr>
+<tr class="separator:a34653d18434b71c75519450a30851848"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7288ed22aca7a8878a40423e7ba62e1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#ad7288ed22aca7a8878a40423e7ba62e1">LL_CLEAR_1</a>(this)&#160;&#160;&#160;<a class="el" href="../../de/d09/linkedlist_8qh.html#acd06e79f63713052c4524c26942ca23d">LL_CLEAR_2</a>(this, <a class="el" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>())</td></tr>
 <tr class="separator:ad7288ed22aca7a8878a40423e7ba62e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd06e79f63713052c4524c26942ca23d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#acd06e79f63713052c4524c26942ca23d">LL_CLEAR_2</a>(this, dtor)</td></tr>
 <tr class="separator:acd06e79f63713052c4524c26942ca23d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08e4d23cbcd37a4f692e83dd58acf874"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#a08e4d23cbcd37a4f692e83dd58acf874">LL_DELETE</a>(...)&#160;&#160;&#160;<a class="el" href="../../de/d09/linkedlist_8qh.html#aba68dac02d2aa7fea2c34beda839b108">EVAL_LL_DELETE</a>(<a class="el" href="../../d7/d61/misc_8qh.html#a55d453da74f5c28ab423eeda41fa4385">OVERLOAD</a>(LL_DELETE, __VA_ARGS__))</td></tr>
 <tr class="separator:a08e4d23cbcd37a4f692e83dd58acf874"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba68dac02d2aa7fea2c34beda839b108"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#aba68dac02d2aa7fea2c34beda839b108">EVAL_LL_DELETE</a>(...)&#160;&#160;&#160;__VA_ARGS__</td></tr>
-<tr class="separator:aba68dac02d2aa7fea2c34beda839b108"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aabcd34bd83546d80452d9af104864f3e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#aabcd34bd83546d80452d9af104864f3e">LL_DELETE_1</a>(this)&#160;&#160;&#160;<a class="el" href="../../de/d09/linkedlist_8qh.html#a678dda6863e659830db0b5e6b5a0d69b">LL_DELETE_2</a>(this, <a class="el" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>())</td></tr>
 <tr class="separator:aabcd34bd83546d80452d9af104864f3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a678dda6863e659830db0b5e6b5a0d69b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#a678dda6863e659830db0b5e6b5a0d69b">LL_DELETE_2</a>(this, dtor)</td></tr>
 <tr class="separator:a678dda6863e659830db0b5e6b5a0d69b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:accc6c5d3ab06c26b8e5408db31cf0247"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#accc6c5d3ab06c26b8e5408db31cf0247">LL_EACH</a>(list, cond, body)</td></tr>
 <tr class="separator:accc6c5d3ab06c26b8e5408db31cf0247"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8044770794a35cab165d6f91dce02252"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#a8044770794a35cab165d6f91dce02252">LL_EMPTY</a>(ll)&#160;&#160;&#160;(ll.ll_head == <a class="el" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
+<tr class="separator:a8044770794a35cab165d6f91dce02252"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ebf4a291e6a8614eb89e66383047bcf"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#a8ebf4a291e6a8614eb89e66383047bcf">LL_NEW</a>()&#160;&#160;&#160;<a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="el" href="../../d7/dde/classLinkedList.html">LinkedList</a>)</td></tr>
+<tr class="separator:a8ebf4a291e6a8614eb89e66383047bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af8c0da38dc33ecd6468ac6f4260744a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#af8c0da38dc33ecd6468ac6f4260744a8">ATTRIB</a> (LinkedList, ll_head, LinkedListNode, <a class="el" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
-<tr class="separator:af8c0da38dc33ecd6468ac6f4260744a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb4a41166e66c0fda3d49f801bc14d58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#aeb4a41166e66c0fda3d49f801bc14d58">ATTRIB</a> (LinkedList, ll_tail, LinkedListNode, <a class="el" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
-<tr class="separator:aeb4a41166e66c0fda3d49f801bc14d58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae661d2fd5b18437505433ab79fae5ce0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#ae661d2fd5b18437505433ab79fae5ce0">LL_PUSH</a> (LinkedList this, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> e)</td></tr>
-<tr class="memdesc:ae661d2fd5b18437505433ab79fae5ce0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push to tail.  <a href="#ae661d2fd5b18437505433ab79fae5ce0">More...</a><br/></td></tr>
-<tr class="separator:ae661d2fd5b18437505433ab79fae5ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78187759e816c05bdc0b7b1c76462315"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#a78187759e816c05bdc0b7b1c76462315">LL_POP</a> (LinkedList this)</td></tr>
+<tr class="memitem:a78187759e816c05bdc0b7b1c76462315"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#a78187759e816c05bdc0b7b1c76462315">LL_POP</a> (<a class="el" href="../../d7/dde/classLinkedList.html">LinkedList</a> this)</td></tr>
 <tr class="memdesc:a78187759e816c05bdc0b7b1c76462315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pop from tail.  <a href="#a78187759e816c05bdc0b7b1c76462315">More...</a><br/></td></tr>
 <tr class="separator:a78187759e816c05bdc0b7b1c76462315"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae661d2fd5b18437505433ab79fae5ce0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d09/linkedlist_8qh.html#ae661d2fd5b18437505433ab79fae5ce0">LL_PUSH</a> (<a class="el" href="../../d7/dde/classLinkedList.html">LinkedList</a> this, <a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> e)</td></tr>
+<tr class="memdesc:ae661d2fd5b18437505433ab79fae5ce0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Push to tail.  <a href="#ae661d2fd5b18437505433ab79fae5ce0">More...</a><br/></td></tr>
+<tr class="separator:ae661d2fd5b18437505433ab79fae5ce0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a8f4040c98f091d7a52878687de9260d3"></a>
@@ -257,20 +262,19 @@ Functions</h2></td></tr>
 <div class="line">        LinkedList _ll = <span class="keyword">this</span>; <a class="code" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">\</a></div>
 <div class="line"><a class="code" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">		assert</a>(_ll); \</div>
 <div class="line">        while (_ll.ll_tail) \</div>
-<div class="line">        { <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">\</a></div>
-<div class="line"><a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">			entity</a> it = <a class="code" href="../../de/d09/linkedlist_8qh.html#a78187759e816c05bdc0b7b1c76462315">LL_POP</a>(_ll); <a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">\</a></div>
-<div class="line"><a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">			if</a> (!it) continue; \</div>
+<div class="line">        { <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">\</a></div>
+<div class="line"><a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">			entity</a> it = <a class="code" href="../../de/d09/linkedlist_8qh.html#a78187759e816c05bdc0b7b1c76462315">LL_POP</a>(_ll); \</div>
+<div class="line">            if (!it) continue; \</div>
 <div class="line">            dtor \</div>
 <div class="line">            <a class="code" href="../../db/d0a/oo_8qh.html#a80db5eb01eb9265c29c36d8b364d30f5">remove</a>(it); \</div>
 <div class="line">        } \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="log_8qh_html_a98b360dc9fac616757f41f728705e8e0"><div class="ttname"><a href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a></div><div class="ttdeci">#define assert(expr,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00005">log.qh:5</a></div></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
-<div class="ttc" id="model_8qh_html_a61af9d6854722dad5d5e433009d21a0a"><div class="ttname"><a href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">if</a></div><div class="ttdeci">if(s!=&quot;&quot;&amp;&amp;s!=&quot;null&quot;&amp;&amp;!fexists(s))</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1d/model_8qh_source.html#l00018">model.qh:18</a></div></div>
 <div class="ttc" id="linkedlist_8qh_html_a78187759e816c05bdc0b7b1c76462315"><div class="ttname"><a href="../../de/d09/linkedlist_8qh.html#a78187759e816c05bdc0b7b1c76462315">LL_POP</a></div><div class="ttdeci">entity LL_POP(LinkedList this)</div><div class="ttdoc">Pop from tail. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00034">linkedlist.qh:34</a></div></div>
 <div class="ttc" id="oo_8qh_html_a80db5eb01eb9265c29c36d8b364d30f5"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a80db5eb01eb9265c29c36d8b364d30f5">remove</a></div><div class="ttdeci">#define remove(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00241">oo.qh:241</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00050">50</a> of file <a class="el" href="../../de/d09/linkedlist_8qh_source.html">linkedlist.qh</a>.</p>
 
@@ -382,19 +386,17 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a>                                                         \</div>
 <div class="line">    {                                                                   \</div>
-<div class="line">        noref <span class="keywordtype">int</span> i = 0;                                                <a class="code" href="../../d6/d74/serverlist_8qc.html#a748bdd9b2b86f12da98d8d6f7911e470">\</a></div>
-<div class="line"><a class="code" href="../../d6/d74/serverlist_8qc.html#a748bdd9b2b86f12da98d8d6f7911e470">		for</a> (<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> _it = list.ll_head; _it; (_it = _it.ll_next, ++i))  \</div>
+<div class="line">        noref <span class="keywordtype">int</span> i = 0;                                                \</div>
+<div class="line">        for (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> _it = list.ll_head; _it; (_it = _it.ll_next, ++i))  \</div>
 <div class="line">        {                                                               <a class="code" href="../../d4/d18/iter_8qh.html#ac3313218a4003a4963a35392f24af4b5">\</a></div>
-<div class="line"><a class="code" href="../../d4/d18/iter_8qh.html#ac3313218a4003a4963a35392f24af4b5">			ITER_CONST</a> noref <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> it = _it.ll_data;                   <a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">\</a></div>
-<div class="line"><a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">			if</a> (cond) { body }                                          \</div>
+<div class="line"><a class="code" href="../../d4/d18/iter_8qh.html#ac3313218a4003a4963a35392f24af4b5">			ITER_CONST</a> noref <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it = _it.ll_data;                   \</div>
+<div class="line">            if (cond) { body }                                          \</div>
 <div class="line">        }                                                               \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
-<div class="ttc" id="model_8qh_html_a61af9d6854722dad5d5e433009d21a0a"><div class="ttname"><a href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">if</a></div><div class="ttdeci">if(s!=&quot;&quot;&amp;&amp;s!=&quot;null&quot;&amp;&amp;!fexists(s))</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1d/model_8qh_source.html#l00018">model.qh:18</a></div></div>
-<div class="ttc" id="serverlist_8qc_html_a748bdd9b2b86f12da98d8d6f7911e470"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a748bdd9b2b86f12da98d8d6f7911e470">for</a></div><div class="ttdeci">for(int i=0, n=tokenize_console(s);i&lt; n;++i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00230">serverlist.qc:230</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac3313218a4003a4963a35392f24af4b5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac3313218a4003a4963a35392f24af4b5">ITER_CONST</a></div><div class="ttdeci">#define ITER_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00004">iter.qh:4</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00075">75</a> of file <a class="el" href="../../de/d09/linkedlist_8qh_source.html">linkedlist.qh</a>.</p>
 
@@ -428,7 +430,7 @@ Functions</h2></td></tr>
           <td class="memname">#define LL_NEW</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(LinkedList)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="el" href="../../d7/dde/classLinkedList.html">LinkedList</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -440,82 +442,6 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="af8c0da38dc33ecd6468ac6f4260744a8"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ATTRIB </td>
-          <td>(</td>
-          <td class="paramtype">LinkedList&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ll_head&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">LinkedListNode&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aeb4a41166e66c0fda3d49f801bc14d58"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">ATTRIB </td>
-          <td>(</td>
-          <td class="paramtype">LinkedList&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ll_tail&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">LinkedListNode&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a class="anchor" id="a78187759e816c05bdc0b7b1c76462315"></a>
 <div class="memitem">
 <div class="memproto">
@@ -523,7 +449,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> LL_POP </td>
           <td>(</td>
-          <td class="paramtype">LinkedList&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/dde/classLinkedList.html">LinkedList</a>&#160;</td>
           <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
@@ -534,22 +460,24 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00034">34</a> of file <a class="el" href="../../de/d09/linkedlist_8qh_source.html">linkedlist.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00005">assert</a>, <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00032">n</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">NULL</a>, and <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">prev</a>.</p>
+<p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00005">assert</a>, <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00004">LinkedListNode::ll_data</a>, <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00005">LinkedListNode::ll_prev</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">NULL</a>, and <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">prev</a>.</p>
 <div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;{</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">if</span> (!this.ll_tail) <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    LinkedListNode <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a> = this.ll_tail;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e = n.ll_data;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    LinkedListNode <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a> = n.ll_prev;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <a class="code" href="../../de/d6d/classLinkedListNode.html">LinkedListNode</a> n = this.ll_tail;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = n.<a class="code" href="../../de/d6d/classLinkedListNode.html#afe74c3cb44780d928ff33194ccc0da1a">ll_data</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../de/d6d/classLinkedListNode.html">LinkedListNode</a> <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a> = n.<a class="code" href="../../de/d6d/classLinkedListNode.html#ae94d5c367767bac43f3adac8278cb1c4">ll_prev</a>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">if</span> (prev) (this.ll_tail = <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a>).ll_next = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">else</span> this.ll_head = this.ll_tail = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">remove</span>(<a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">remove</span>(n);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> e;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="ttc" id="log_8qh_html_a98b360dc9fac616757f41f728705e8e0"><div class="ttname"><a href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a></div><div class="ttdeci">#define assert(expr,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00005">log.qh:5</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00010">oo.qh:10</a></div></div>
-<div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
+<div class="ttc" id="classLinkedListNode_html"><div class="ttname"><a href="../../de/d6d/classLinkedListNode.html">LinkedListNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00003">linkedlist.qh:3</a></div></div>
+<div class="ttc" id="classLinkedListNode_html_afe74c3cb44780d928ff33194ccc0da1a"><div class="ttname"><a href="../../de/d6d/classLinkedListNode.html#afe74c3cb44780d928ff33194ccc0da1a">LinkedListNode::ll_data</a></div><div class="ttdeci">entity ll_data</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00004">linkedlist.qh:4</a></div></div>
+<div class="ttc" id="classLinkedListNode_html_ae94d5c367767bac43f3adac8278cb1c4"><div class="ttname"><a href="../../de/d6d/classLinkedListNode.html#ae94d5c367767bac43f3adac8278cb1c4">LinkedListNode::ll_prev</a></div><div class="ttdeci">LinkedListNode ll_prev</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00005">linkedlist.qh:5</a></div></div>
 <div class="ttc" id="common_2impulses_2all_8qh_html_a5ea3f8c3f8afcd9e2839d3c46973d866"><div class="ttname"><a href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a></div><div class="ttdeci">prev</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">all.qh:58</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -561,7 +489,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> LL_PUSH </td>
           <td>(</td>
-          <td class="paramtype">LinkedList&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/dde/classLinkedList.html">LinkedList</a>&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -582,20 +510,23 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00021">21</a> of file <a class="el" href="../../de/d09/linkedlist_8qh_source.html">linkedlist.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00005">assert</a>, <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00032">n</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00115">NEW</a>.</p>
+<p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00005">assert</a>, <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00004">LinkedListNode::ll_data</a>, <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00006">LinkedListNode::ll_next</a>, <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00005">LinkedListNode::ll_prev</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00110">NEW</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d39/shownames_8qc_source.html#l00022">STATIC_INIT()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    LinkedListNode <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a> = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(LinkedListNode);</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    n.ll_data = e;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    LinkedListNode tail = n.ll_prev = this.ll_tail;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    this.ll_tail = (tail) ? tail.ll_next = n : <span class="keyword">this</span>.ll_head = n;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../de/d6d/classLinkedListNode.html">LinkedListNode</a> n = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../de/d6d/classLinkedListNode.html">LinkedListNode</a>);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    n.<a class="code" href="../../de/d6d/classLinkedListNode.html#afe74c3cb44780d928ff33194ccc0da1a">ll_data</a> = e;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../de/d6d/classLinkedListNode.html">LinkedListNode</a> tail = n.<a class="code" href="../../de/d6d/classLinkedListNode.html#ae94d5c367767bac43f3adac8278cb1c4">ll_prev</a> = this.ll_tail;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    this.ll_tail = (tail) ? tail.<a class="code" href="../../de/d6d/classLinkedListNode.html#a2558b4befa7ab99331f2e64f98a2ad7d">ll_next</a> = n : <span class="keyword">this</span>.ll_head = n;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">return</span> e;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
 <div class="ttc" id="log_8qh_html_a98b360dc9fac616757f41f728705e8e0"><div class="ttname"><a href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a></div><div class="ttdeci">#define assert(expr,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00005">log.qh:5</a></div></div>
-<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00115">oo.qh:115</a></div></div>
-<div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
+<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00110">oo.qh:110</a></div></div>
+<div class="ttc" id="classLinkedListNode_html_a2558b4befa7ab99331f2e64f98a2ad7d"><div class="ttname"><a href="../../de/d6d/classLinkedListNode.html#a2558b4befa7ab99331f2e64f98a2ad7d">LinkedListNode::ll_next</a></div><div class="ttdeci">LinkedListNode ll_next</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00006">linkedlist.qh:6</a></div></div>
+<div class="ttc" id="classLinkedListNode_html"><div class="ttname"><a href="../../de/d6d/classLinkedListNode.html">LinkedListNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00003">linkedlist.qh:3</a></div></div>
+<div class="ttc" id="classLinkedListNode_html_afe74c3cb44780d928ff33194ccc0da1a"><div class="ttname"><a href="../../de/d6d/classLinkedListNode.html#afe74c3cb44780d928ff33194ccc0da1a">LinkedListNode::ll_data</a></div><div class="ttdeci">entity ll_data</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00004">linkedlist.qh:4</a></div></div>
+<div class="ttc" id="classLinkedListNode_html_ae94d5c367767bac43f3adac8278cb1c4"><div class="ttname"><a href="../../de/d6d/classLinkedListNode.html#ae94d5c367767bac43f3adac8278cb1c4">LinkedListNode::ll_prev</a></div><div class="ttdeci">LinkedListNode ll_prev</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00005">linkedlist.qh:5</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -615,7 +546,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../de/d09/linkedlist_8qh.html">linkedlist.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:39 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:34 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

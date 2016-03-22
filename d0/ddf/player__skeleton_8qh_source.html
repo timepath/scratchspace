@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d0/ddf/player__skeleton_8qh_source.htm
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -106,9 +107,9 @@ $(document).ready(function(){initNavTree('d0/ddf/player__skeleton_8qh_source.htm
 <div class="contents">
 <a href="../../d0/ddf/player__skeleton_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/ddf/player__skeleton_8qh.html#ae34e60c32bc60eebb73851ebe508b3ed">free_skeleton_from_frames</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e);</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/ddf/player__skeleton_8qh.html#a534e6d446262b5f6cedb96f0f1b5c295">skeleton_from_frames</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e, <span class="keywordtype">float</span> is_dead);</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/ddf/player__skeleton_8qh.html#a475bb5589ccf136fb7b89c04120c832b">skeleton_loadinfo</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e);</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/ddf/player__skeleton_8qh.html#ae34e60c32bc60eebb73851ebe508b3ed">free_skeleton_from_frames</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e);</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/ddf/player__skeleton_8qh.html#a534e6d446262b5f6cedb96f0f1b5c295">skeleton_from_frames</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, <span class="keywordtype">float</span> is_dead);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/ddf/player__skeleton_8qh.html#a475bb5589ccf136fb7b89c04120c832b">skeleton_loadinfo</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<a class="code" href="../../d0/ddf/player__skeleton_8qh.html#a535d9510a6042c3be3bfc1c896006f53">entityclass</a>(Skeleton);</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keyword">class</span>(Skeleton) .<span class="keywordtype">float</span> bone_upperbody;</div>
@@ -118,17 +119,17 @@ $(document).ready(function(){initNavTree('d0/ddf/player__skeleton_8qh_source.htm
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keyword">class</span>(Skeleton) .<span class="keywordtype">float</span> fixbone;</div>
 <div class="ttc" id="common_2util_8qh_html_a07522416f082b9750e89c4adfc7c290a"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a07522416f082b9750e89c4adfc7c290a">MAX_AIM_BONES</a></div><div class="ttdeci">const int MAX_AIM_BONES</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00187">util.qh:187</a></div></div>
 <div class="ttc" id="player__skeleton_8qh_html_a534e6d446262b5f6cedb96f0f1b5c295"><div class="ttname"><a href="../../d0/ddf/player__skeleton_8qh.html#a534e6d446262b5f6cedb96f0f1b5c295">skeleton_from_frames</a></div><div class="ttdeci">void skeleton_from_frames(entity e, float is_dead)</div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="player__skeleton_8qh_html_a475bb5589ccf136fb7b89c04120c832b"><div class="ttname"><a href="../../d0/ddf/player__skeleton_8qh.html#a475bb5589ccf136fb7b89c04120c832b">skeleton_loadinfo</a></div><div class="ttdeci">void skeleton_loadinfo(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dab/player__skeleton_8qc_source.html#l00017">player_skeleton.qc:17</a></div></div>
 <div class="ttc" id="player__skeleton_8qh_html_a535d9510a6042c3be3bfc1c896006f53"><div class="ttname"><a href="../../d0/ddf/player__skeleton_8qh.html#a535d9510a6042c3be3bfc1c896006f53">entityclass</a></div><div class="ttdeci">entityclass(Skeleton)</div></div>
 <div class="ttc" id="player__skeleton_8qh_html_ae34e60c32bc60eebb73851ebe508b3ed"><div class="ttname"><a href="../../d0/ddf/player__skeleton_8qh.html#ae34e60c32bc60eebb73851ebe508b3ed">free_skeleton_from_frames</a></div><div class="ttdeci">void free_skeleton_from_frames(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dab/player__skeleton_8qc_source.html#l00103">player_skeleton.qc:103</a></div></div>
-<div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d0/ddf/player__skeleton_8qh.html">player_skeleton.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:29 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

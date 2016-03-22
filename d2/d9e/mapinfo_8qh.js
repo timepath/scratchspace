@@ -1,5 +1,6 @@
 var mapinfo_8qh =
 [
+    [ "Gametype", "d1/d6b/classGametype.html", "d1/d6b/classGametype" ],
     [ "g_assault", "d2/d9e/mapinfo_8qh.html#ad0afc4f6c40de7c96797c604027eb1eb", null ],
     [ "g_ca", "d2/d9e/mapinfo_8qh.html#ade7f55927855e9f8823515cc29071cc3", null ],
     [ "g_ctf", "d2/d9e/mapinfo_8qh.html#aa77f02606c529a3b5c515e57014f3354", null ],
@@ -18,7 +19,6 @@ var mapinfo_8qh =
     [ "REGISTER_GAMETYPE", "d2/d9e/mapinfo_8qh.html#aee231bc77eb9672755179ff03fb5fe21", null ],
     [ "_MapInfo_GetDefaultEx", "d2/d9e/mapinfo_8qh.html#a70228e0dbbf11fdb038ceeaa97ef95d9", null ],
     [ "_MapInfo_GetTeamPlayBool", "d2/d9e/mapinfo_8qh.html#a260444e2cebd96633c2efaa263000d67", null ],
-    [ "CONSTRUCTOR", "d2/d9e/mapinfo_8qh.html#a9b0c29ebaf7c7b2949c20147afec6388", null ],
     [ "MapInfo_BSPName_ByID", "d2/d9e/mapinfo_8qh.html#a40688770d8068d3eff551e12e10d47f9", null ],
     [ "MapInfo_Cache_Create", "d2/d9e/mapinfo_8qh.html#a8376e1f3ab6210a25a34c278e6308070", null ],
     [ "MapInfo_Cache_Destroy", "d2/d9e/mapinfo_8qh.html#a7cbd9edfae5695f0f3e239701462b6d9", null ],
@@ -47,7 +47,6 @@ var mapinfo_8qh =
     [ "MapInfo_Type_FromString", "d2/d9e/mapinfo_8qh.html#a1df2d8e83b0c2171826428116d84f96c", null ],
     [ "MapInfo_Type_ToString", "d2/d9e/mapinfo_8qh.html#a2e14ca300b05c38e142969284e000b8f", null ],
     [ "MapInfo_Type_ToText", "d2/d9e/mapinfo_8qh.html#a4b820faaace1d4fe221d6db07af1f28d", null ],
-    [ "METHOD", "d2/d9e/mapinfo_8qh.html#a8fe3415235d174fa75c89f3ef21f5810", null ],
     [ "REGISTER_GAMETYPE", "d2/d9e/mapinfo_8qh.html#ae2df5b57b5b56196151abc1bf37605c2", null ],
     [ "REGISTER_GAMETYPE", "d2/d9e/mapinfo_8qh.html#a49e8c48cb158b28a6356a2400c0b6c01", null ],
     [ "REGISTER_GAMETYPE", "d2/d9e/mapinfo_8qh.html#af5adc595d934ba3aeca6f15fe79a0f21", null ],
@@ -64,7 +63,6 @@ var mapinfo_8qh =
     [ "REGISTER_GAMETYPE", "d2/d9e/mapinfo_8qh.html#aa33e90ebbd71af23edde40021542b86f", null ],
     [ "REGISTER_GAMETYPE", "d2/d9e/mapinfo_8qh.html#a6080bb366cb7966068067679a4c86193", null ],
     [ "autocvar_developer_mapper", "d2/d9e/mapinfo_8qh.html#a6d7c823858c610098c2355c7c5e90725", null ],
-    [ "gametype_description", "d2/d9e/mapinfo_8qh.html#ad25618bb2df073a8259276c47635e56d", null ],
     [ "MapInfo_count", "d2/d9e/mapinfo_8qh.html#a4feed7b8c797d8d06041dcdba6934c2c", null ],
     [ "MAPINFO_FEATURE_MONSTERS", "d2/d9e/mapinfo_8qh.html#a01232a9cbc5fc31c7684df8500eb664e", null ],
     [ "MAPINFO_FEATURE_TURRETS", "d2/d9e/mapinfo_8qh.html#ad2a58b0a7bcf7c7af46b3b06d0128990", null ],

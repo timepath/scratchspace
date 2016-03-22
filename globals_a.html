@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('globals_a.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -144,15 +145,12 @@ $(document).ready(function(){initNavTree('globals_a.html','');});
 <div class="textblock">Here is a list of all file members with links to the files they belong to:</div>
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
-<li>a
-: <a class="el" href="de/d9a/item_8qc.html#a4aec1a5be9d9a4a394a2e49e9744286e">item.qc</a>
-</li>
 <li>a_think()
 : <a class="el" href="d5/d53/movenode_8qc.html#a138fa1996a5a22d95a2afcc4dc9ffe1a">movenode.qc</a>
 </li>
 <li>absmax
-: <a class="el" href="d6/d11/progsdefs_8qc.html#aba5ae084f5790a34ce49a63cfc031b9f">progsdefs.qc</a>
-, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#aba5ae084f5790a34ce49a63cfc031b9f">csprogsdefs.qc</a>
+: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#aba5ae084f5790a34ce49a63cfc031b9f">csprogsdefs.qc</a>
+, <a class="el" href="d6/d11/progsdefs_8qc.html#aba5ae084f5790a34ce49a63cfc031b9f">progsdefs.qc</a>
 </li>
 <li>absmin
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ad134a1b884f5841ba3bcdee2539cc854">csprogsdefs.qc</a>
@@ -310,9 +308,6 @@ $(document).ready(function(){initNavTree('globals_a.html','');});
 </li>
 <li>ADD_TO_W_LIST
 : <a class="el" href="df/d75/keybinder_8qc.html#a8b88a14dde16d0dd2ca22cff1ba7a2b7">keybinder.qc</a>
-</li>
-<li>adding
-: <a class="el" href="de/d48/dialog__settings__game_8qc.html#a29f401cf7f040a068d1c43af2044be23">dialog_settings_game.qc</a>
 </li>
 <li>addPowerupItem()
 : <a class="el" href="df/db0/powerups_8qc.html#a0548d6d5f32ee93186047be9beff7348">powerups.qc</a>
@@ -479,11 +474,11 @@ $(document).ready(function(){initNavTree('globals_a.html','');});
 , <a class="el" href="d0/d79/math_8qh.html#a2b043480e166fa027fb2749365c66089">math.qh</a>
 </li>
 <li>alpha
-: <a class="el" href="d3/db6/projectile_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">projectile.qc</a>
-, <a class="el" href="db/dc8/cl__controlpoint_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">cl_controlpoint.qc</a>
-, <a class="el" href="df/d07/cl__generator_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">cl_generator.qc</a>
+: <a class="el" href="df/d07/cl__generator_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">cl_generator.qc</a>
 , <a class="el" href="de/d5e/dpextensions_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">dpextensions.qc</a>
 , <a class="el" href="d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">wall.qc</a>
+, <a class="el" href="d3/db6/projectile_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">projectile.qc</a>
+, <a class="el" href="db/dc8/cl__controlpoint_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">cl_controlpoint.qc</a>
 </li>
 <li>alpha_max
 : <a class="el" href="d4/db7/wall_8qh.html#a936bfd4e62382adb756bacf2abe126d3">wall.qh</a>
@@ -860,9 +855,6 @@ $(document).ready(function(){initNavTree('globals_a.html','');});
 <li>animdecide_setstate()
 : <a class="el" href="d0/d51/animdecide_8qc.html#aac8cda37db89a45a301c788ad9ee8cc5">animdecide.qc</a>
 , <a class="el" href="d3/d42/animdecide_8qh.html#aac8cda37db89a45a301c788ad9ee8cc5">animdecide.qh</a>
-</li>
-<li>animDelta
-: <a class="el" href="d2/d58/keyframe_8qc.html#ade5549719a03550391780037484088fb">keyframe.qc</a>
 </li>
 <li>animfixfps()
 : <a class="el" href="db/df4/common_2monsters_2all_8inc.html#afb8bc3000982cfa33e8babf4ee2209ce">all.inc</a>
@@ -1255,7 +1247,7 @@ $(document).ready(function(){initNavTree('globals_a.html','');});
 : <a class="el" href="d6/d11/progsdefs_8qc.html#a8f1fedffff0fe0b96c93d099a3aa02b9">progsdefs.qc</a>
 </li>
 <li>ArrayList
-: <a class="el" href="d2/d74/arraylist_8qh.html#ac5583de22f98132f48e13dcc0d50de16">arraylist.qh</a>
+: <a class="el" href="d2/d74/arraylist_8qh.html#a0563ea0244996621762cddba70f9cb13">arraylist.qh</a>
 </li>
 <li>asinh()
 : <a class="el" href="df/d38/mathlib_8qc.html#aef571c82bdcb93921bb4ee524c2c4a2a">mathlib.qc</a>
@@ -1375,121 +1367,11 @@ $(document).ready(function(){initNavTree('globals_a.html','');});
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ae81d980dfa0998a8d3006914488d73f6">csprogsdefs.qc</a>
 , <a class="el" href="d6/d11/progsdefs_8qc.html#a780a5c62e48b678123b97f8918e253eb">progsdefs.qc</a>
 </li>
-<li>ATTRIB()
-: <a class="el" href="de/dbe/mage_8qc.html#a55c653d87017692adf31b4a4f21fc11b">mage.qc</a>
-, <a class="el" href="db/dd2/shambler_8qc.html#aff015f7453282096abfb8fa624242c27">shambler.qc</a>
-, <a class="el" href="d0/d8b/spider_8qc.html#a6b1a2eb2f53df588183f2cf0076619f0">spider.qc</a>
-, <a class="el" href="d9/d39/wyvern_8qc.html#ae060964e608c150d4f808a556dadca28">wyvern.qc</a>
-, <a class="el" href="da/d70/zombie_8qc.html#ab77b1e4c544bbcb7a15ec2f861431605">zombie.qc</a>
-, <a class="el" href="d1/d31/hmg_8qc.html#adfc420e253be00ed800ebeb08791b6f5">hmg.qc</a>
-, <a class="el" href="db/dc3/rpc_8qc.html#a4d4b7017b74e0e3408642da904879907">rpc.qc</a>
-, <a class="el" href="d6/d6b/ewheel_8qc.html#a2426700ba80de22599d8b586357ff1ef">ewheel.qc</a>
-, <a class="el" href="df/dc7/ewheel__weapon_8qc.html#a24fb874c6af641087b5ca281034eba6e">ewheel_weapon.qc</a>
-, <a class="el" href="df/d77/flac_8qc.html#a6f4924db86ce89c559e62de29941fbce">flac.qc</a>
-, <a class="el" href="d3/d28/flac__weapon_8qc.html#a9e2d6632d2ad4450c0830659a3acfc29">flac_weapon.qc</a>
-, <a class="el" href="d7/dd6/fusionreactor_8qc.html#a85165e0db5ee6c126828443adfa7045f">fusionreactor.qc</a>
-, <a class="el" href="df/d2c/hellion_8qc.html#adf4c77c00c320ae800bf69f14c45964d">hellion.qc</a>
-, <a class="el" href="d3/db2/hellion__weapon_8qc.html#af85fde9f266fb242043c5ed20ea9114e">hellion_weapon.qc</a>
-, <a class="el" href="d4/d26/hk_8qc.html#adb48e458d8ce2cb86b78b498a8583bd9">hk.qc</a>
-, <a class="el" href="d7/df0/hk__weapon_8qc.html#a06b2a506f640b8694511e3d2e2c9b7c0">hk_weapon.qc</a>
-, <a class="el" href="d7/d7b/turrets_2turret_2machinegun_8qc.html#ab968131b5b7ff34f689ded5a72ce3fe9">machinegun.qc</a>
-, <a class="el" href="d1/d31/machinegun__weapon_8qc.html#ad2622029b3d22722a9b6d765787da370">machinegun_weapon.qc</a>
-, <a class="el" href="df/db3/mlrs_8qc.html#a07ca1dba4c9438ac18e71bd530dc1ad3">mlrs.qc</a>
-, <a class="el" href="d1/df8/mlrs__weapon_8qc.html#a74e709bff87d707160b4875bc715184c">mlrs_weapon.qc</a>
-, <a class="el" href="de/d8b/phaser_8qc.html#a9818f7cc516e4f98274b648bf3604981">phaser.qc</a>
-, <a class="el" href="da/d1e/phaser__weapon_8qc.html#a8c874407b59f1634202bcd5c4846b083">phaser_weapon.qc</a>
-, <a class="el" href="d5/d43/plasma_8qc.html#a12453e35247b5b85bb5fcf749b4c961b">plasma.qc</a>
-, <a class="el" href="d3/d9c/plasma__dual_8qc.html#acc6740e3390e5971a2005064c66b2054">plasma_dual.qc</a>
-, <a class="el" href="d9/dd4/plasma__weapon_8qc.html#a16fdc19327650c3214647d2ccb768863">plasma_weapon.qc</a>
-, <a class="el" href="db/df8/tesla_8qc.html#a29af59f76827bf05a67be9a38cba1456">tesla.qc</a>
-, <a class="el" href="da/d73/tesla__weapon_8qc.html#a15e76079f506ca88281cdd4c4d9e8cfc">tesla_weapon.qc</a>
-, <a class="el" href="db/d5c/walker_8qc.html#a70287f189716327a4ca25bef32e9f009">walker.qc</a>
-, <a class="el" href="df/d71/walker__weapon_8qc.html#a0f83e33d3348a2ec1d96a2c69aefe569">walker_weapon.qc</a>
-, <a class="el" href="d0/d99/bumblebee_8qc.html#ab0ad06369e295d990d316240f4f38a78">bumblebee.qc</a>
-, <a class="el" href="dd/de3/racer_8qc.html#ae33211d57adf810bad1b91f8745ad19d">racer.qc</a>
-, <a class="el" href="d5/da5/racer__weapon_8qc.html#ae19d899302ae89863e0242e50222a4d7">racer_weapon.qc</a>
-, <a class="el" href="d6/d02/raptor_8qc.html#a0596ddbf15cd93f4085ad2bced477909">raptor.qc</a>
-, <a class="el" href="de/df3/raptor__weapons_8qc.html#a8c304a049557e17a1fb76858180426ec">raptor_weapons.qc</a>
-, <a class="el" href="dc/d76/spiderbot_8qc.html#a9bb4de7e4c29347ab1fe1110d041d086">spiderbot.qc</a>
-, <a class="el" href="da/d11/arc_8qc.html#a9e85a81f49bb1220992dda24ac569500">arc.qc</a>
-, <a class="el" href="d0/d3f/blaster_8qc.html#a0525eba199fc10a239dba4a8d77dfc7b">blaster.qc</a>
-, <a class="el" href="de/dc0/crylink_8qc.html#a42907c9f1c2b24f4c0da3e658c26c051">crylink.qc</a>
-, <a class="el" href="d9/d5d/devastator_8qc.html#a4b0ed43d8fe4d7ba61688c1f6d8f88de">devastator.qc</a>
-, <a class="el" href="dc/d96/electro_8qc.html#ab3f97b82ccd76693e8d5d33ac0d9e689">electro.qc</a>
-, <a class="el" href="d8/d43/fireball_8qc.html#af3e3dad74f8c1453df70f9d78e36dab6">fireball.qc</a>
-, <a class="el" href="d9/d06/hagar_8qc.html#ac431ce6c01d11503c0a1a04b1fe27196">hagar.qc</a>
-, <a class="el" href="d1/dc9/hlac_8qc.html#a865530c1b0dfe8042d849e5782c4a362">hlac.qc</a>
-, <a class="el" href="dd/df1/weapons_2weapon_2hook_8qc.html#ae1d38f709eb6f35efebd97dcb20a8cd7">hook.qc</a>
-, <a class="el" href="da/d3b/weapons_2weapon_2machinegun_8qc.html#a5a38590a3c850156aec30f2dd0f3c400">machinegun.qc</a>
-, <a class="el" href="d4/dd6/minelayer_8qc.html#aab28c9ec8310cba9cabb7b153036cc64">minelayer.qc</a>
-, <a class="el" href="d0/da3/mortar_8qc.html#abc739a635359b22d318ae10baba59f86">mortar.qc</a>
-, <a class="el" href="d9/d28/porto_8qc.html#a51e8ad988f1974f7f2bc337fbb6afbc8">porto.qc</a>
-, <a class="el" href="da/d5e/rifle_8qc.html#a02fb30ce15d4a670d062ac4e8480a57a">rifle.qc</a>
-, <a class="el" href="dc/d7e/seeker_8qc.html#afadac47de094f0fea48c94e4e4ad88ff">seeker.qc</a>
-, <a class="el" href="d3/d3d/shockwave_8qc.html#aa6d79abcda7ef65547cd823481f14619">shockwave.qc</a>
-, <a class="el" href="d8/d12/shotgun_8qc.html#aa52f7160b38ef370f0195940d2bd0f55">shotgun.qc</a>
-, <a class="el" href="d1/df6/tuba_8qc.html#ad14d6ac8e3f71e003c4bcdcb5c625d7e">tuba.qc</a>
-, <a class="el" href="df/d42/vaporizer_8qc.html#afde7b6cd76e6e3e67fcce414a25d742a">vaporizer.qc</a>
-, <a class="el" href="dc/def/vortex_8qc.html#a973084bc574505d13f98a320442e62dc">vortex.qc</a>
-, <a class="el" href="dc/d1c/weapon_8qh.html#a6d5def717a413befb17dd61c3228d0e4">weapon.qh</a>
-, <a class="el" href="d8/d0e/lazy_8qh.html#acca45d11be938f887eb09c96bd25a817">lazy.qh</a>
-, <a class="el" href="de/d09/linkedlist_8qh.html#af8c0da38dc33ecd6468ac6f4260744a8">linkedlist.qh</a>
-, <a class="el" href="df/da7/item_2button_8qh.html#a8db066285c3bd2e3c8a28a720f40a8c7">button.qh</a>
-, <a class="el" href="d6/d88/item_2dialog_8qh.html#a164a69d93a170eae3437f62a5da34591">dialog.qh</a>
-, <a class="el" href="de/d8c/item_2image_8qh.html#ae12433b20a1f2ae66b2624962c5021ed">image.qh</a>
-, <a class="el" href="d7/d21/item_2inputbox_8qh.html#ab8a5e5c7892deee68719376248d27129">inputbox.qh</a>
-, <a class="el" href="df/d4d/label_8qh.html#a11d0ba0cc60f54820bcbebec9e27c3bf">label.qh</a>
-, <a class="el" href="d0/d96/item_2listbox_8qh.html#a5fb70f92deed9283282acdbe90a7c457">listbox.qh</a>
-, <a class="el" href="db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">oo.qh</a>
-, <a class="el" href="d0/d96/item_2listbox_8qh.html#a6544f57c13bea29e1df13655e04a274d">listbox.qh</a>
-, <a class="el" href="d9/d71/command_8qh.html#ab84c6d186592fc93ecd71c61658d7d01">command.qh</a>
-, <a class="el" href="d0/d96/item_2listbox_8qh.html#a5c0e6ad2504e38cdb3dcd6a746cf6c5d">listbox.qh</a>
-, <a class="el" href="d9/d71/command_8qh.html#aa67845fb49a8b8befa9b102854e1e3a5">command.qh</a>
-, <a class="el" href="de/d23/item_2tab_8qh.html#ae441217aa17de171cdb940f49ea03659">tab.qh</a>
-, <a class="el" href="dc/d69/weapon_8qc.html#a0a1a82f3c85287fc0eef6326c185d28f">weapon.qc</a>
-, <a class="el" href="de/d23/item_2tab_8qh.html#acc36fce50ccbef50a9897a380e2c2ee1">tab.qh</a>
-, <a class="el" href="dc/d69/weapon_8qc.html#ab610c0de5e2054175bc3d3afaf004c97">weapon.qc</a>
-, <a class="el" href="dc/df6/xonotic_2button_8qh.html#a95e96a6abd05784c818aa47b1eea7c86">button.qh</a>
-, <a class="el" href="d5/d05/xonotic_2dialog_8qh.html#a3400f7cce46e8e9a83fb81bb3b0702e4">dialog.qh</a>
-, <a class="el" href="dc/d69/weapon_8qc.html#a4ab972d479da04dc03f513459ed1d83d">weapon.qc</a>
-, <a class="el" href="d5/d05/xonotic_2dialog_8qh.html#a4853d0013c12ad3263cab04e282bf78c">dialog.qh</a>
-, <a class="el" href="dc/d69/weapon_8qc.html#a7613b65ec65e05fcbb201d0abcabfdaa">weapon.qc</a>
-, <a class="el" href="d5/d05/xonotic_2dialog_8qh.html#a82455b5ba5373933e7d4886bf17b04e3">dialog.qh</a>
-, <a class="el" href="de/dbe/mage_8qc.html#acd8b766b29c80479e00b1443f7d35824">mage.qc</a>
-, <a class="el" href="db/d46/dialog__multiplayer__create_8qh.html#a1aee0560de24fd94dadb4a054bc44175">dialog_multiplayer_create.qh</a>
-, <a class="el" href="d8/d95/dialog__multiplayer__profile_8qh.html#a9d341aa6026980d8d83866b0fd06229b">dialog_multiplayer_profile.qh</a>
-, <a class="el" href="de/dbe/mage_8qc.html#a03ee291895771b13bbb662b97bc0f20f">mage.qc</a>
-, <a class="el" href="d9/d40/dialog__settings__audio_8qh.html#acb46f971fa58edf9c53e0ed76d72bd68">dialog_settings_audio.qh</a>
-, <a class="el" href="de/dc5/dialog__settings__effects_8qh.html#a75446a6854bbb96256fe13ddcf277e87">dialog_settings_effects.qh</a>
-, <a class="el" href="de/dbe/mage_8qc.html#ad7290efec3458f0287ff6665ff4eed88">mage.qc</a>
-, <a class="el" href="d0/d1b/dialog__settings__input_8qh.html#a1fe7f6682e98a067443aec865da3a405">dialog_settings_input.qh</a>
-, <a class="el" href="df/d44/dialog__settings__video_8qh.html#abe0644e7f798e80e64177d2e961b4bf9">dialog_settings_video.qh</a>
-, <a class="el" href="de/dbe/mage_8qc.html#a7d4a25c2368c42bfdf216c88957f95c5">mage.qc</a>
-, <a class="el" href="d4/d84/xonotic_2inputbox_8qh.html#a52841bf49d13d34d1bc3fa160f1db6f2">inputbox.qh</a>
-, <a class="el" href="d8/db4/languagelist_8qh.html#a8736736fdd28bbd830c82958d29aab9a">languagelist.qh</a>
-, <a class="el" href="de/dbe/mage_8qc.html#a2a3fb0c01d84a6de34320b057cccd21e">mage.qc</a>
-, <a class="el" href="df/de5/screenshotimage_8qh.html#ae7601f88fd0d6cc62ac9bfcdb7b3f947">screenshotimage.qh</a>
-, <a class="el" href="dd/d7a/serverlist_8qh.html#a943657e61dddc84947ff673687ebe77c">serverlist.qh</a>
-, <a class="el" href="de/dbe/mage_8qc.html#aa33563037729b0992d9f416b7fdfae1c">mage.qc</a>
-, <a class="el" href="d1/df1/xonotic_2tab_8qh.html#a5446e800ce12c94c7f4f9398af7b9a78">tab.qh</a>
-, <a class="el" href="de/dbe/mage_8qc.html#a6d4fad4e2a4bff85381556c7d5e768f4">mage.qc</a>
-, <a class="el" href="d1/df1/xonotic_2tab_8qh.html#a9e9e41e5d93d7e1939f474275dd068f8">tab.qh</a>
-, <a class="el" href="de/dbe/mage_8qc.html#a71fe7077e9f53602810ff29df7c85afa">mage.qc</a>
+<li>ATTRIB
+: <a class="el" href="db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">oo.qh</a>
 </li>
-<li>ATTRIB_STRZONE()
-: <a class="el" href="df/d77/flac_8qc.html#a2800c9666532790d6039123a0b1e5778">flac.qc</a>
-, <a class="el" href="d7/dd6/fusionreactor_8qc.html#a1e1babac976559761821431cb78617d7">fusionreactor.qc</a>
-, <a class="el" href="df/d2c/hellion_8qc.html#a4c6d8a364960cd63c85062d70ae8299e">hellion.qc</a>
-, <a class="el" href="d4/d26/hk_8qc.html#abeefee934288b08660b261082d2a6e31">hk.qc</a>
-, <a class="el" href="d7/d7b/turrets_2turret_2machinegun_8qc.html#a7d0d832e8b6754642ef325f7cd668ba0">machinegun.qc</a>
-, <a class="el" href="df/db3/mlrs_8qc.html#acd6844920d925f3c5385a23e3671a344">mlrs.qc</a>
-, <a class="el" href="de/d8b/phaser_8qc.html#a5cea519483db24404febfd3b50a37310">phaser.qc</a>
-, <a class="el" href="d5/d43/plasma_8qc.html#a7aae09ca618007935cd6cf5eb522b3e4">plasma.qc</a>
-, <a class="el" href="d3/d9c/plasma__dual_8qc.html#a53745b6ef8ce3b60f1450533cbd731be">plasma_dual.qc</a>
-, <a class="el" href="db/df8/tesla_8qc.html#a92f0cbc5ffdd591314a5f114f3cc4105">tesla.qc</a>
-, <a class="el" href="db/d5c/walker_8qc.html#a5d5df6275d8b64a1ba9bf382c9065f7b">walker.qc</a>
-, <a class="el" href="db/d0a/oo_8qh.html#acffd6df7afe44df47e0cf29a0d2d5899">oo.qh</a>
-, <a class="el" href="d6/d6b/ewheel_8qc.html#a98cedd633189acbd4f746f16f9a55653">ewheel.qc</a>
+<li>ATTRIB_STRZONE
+: <a class="el" href="db/d0a/oo_8qh.html#acffd6df7afe44df47e0cf29a0d2d5899">oo.qh</a>
 </li>
 <li>ATTRIBARRAY
 : <a class="el" href="db/d0a/oo_8qh.html#a03d0921d898298e87795339eefa7ba6d">oo.qh</a>
@@ -4365,6 +4247,9 @@ $(document).ready(function(){initNavTree('globals_a.html','');});
 <li>autocvar_menu_reverted_nonsaved_cvars
 : <a class="el" href="dc/d56/cvarlist_8qc.html#a835d740822c3cebb0ab18e87ad5ad1c0">cvarlist.qc</a>
 </li>
+<li>autocvar_menu_showboxes
+: <a class="el" href="de/d9a/item_8qc.html#af10a456226e2bd11255baff142ec9bc1">item.qc</a>
+</li>
 <li>autocvar_menu_skin
 : <a class="el" href="d7/db4/client_2autocvars_8qh.html#ac75c75386f87a1a51d6628fe73d88e77">autocvars.qh</a>
 </li>
@@ -4979,8 +4864,8 @@ $(document).ready(function(){initNavTree('globals_a.html','');});
 : <a class="el" href="d0/dee/cl__vehicles_8qc.html#aff65f9e2df55e440c56815180b375ecd">cl_vehicles.qc</a>
 </li>
 <li>avelocity
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c">csprogsdefs.qc</a>
-, <a class="el" href="d6/d11/progsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c">progsdefs.qc</a>
+: <a class="el" href="d6/d11/progsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c">progsdefs.qc</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a479cafa75a492b263c2ef59c40e2fc3c">csprogsdefs.qc</a>
 </li>
 <li>average_accuracy
 : <a class="el" href="d3/d07/scoreboard_8qc.html#aaa5eb41e22d77cd3026131224c82308b">scoreboard.qc</a>
@@ -5006,7 +4891,7 @@ $(document).ready(function(){initNavTree('globals_a.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -131,7 +132,7 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -144,14 +145,6 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 &#160;
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
-<li>s
-: <a class="el" href="dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">effectinfo.qc</a>
-, <a class="el" href="d7/d1d/model_8qh.html#a2016384928a1b557c51ef62964decea5">model.qh</a>
-, <a class="el" href="db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">oo.qh</a>
-, <a class="el" href="de/d48/dialog__settings__game_8qc.html#a2016384928a1b557c51ef62964decea5">dialog_settings_game.qc</a>
-, <a class="el" href="d0/df5/sound_8qh.html#a2016384928a1b557c51ef62964decea5">sound.qh</a>
-, <a class="el" href="d6/d74/serverlist_8qc.html#a2016384928a1b557c51ef62964decea5">serverlist.qc</a>
-</li>
 <li>s1
 : <a class="el" href="df/d00/common_2notifications_2all_8inc.html#a1bb0888c57b9d23660f876afb696b64f">all.inc</a>
 </li>
@@ -159,8 +152,8 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 : <a class="el" href="df/d00/common_2notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b">all.inc</a>
 </li>
 <li>S_ALT
-: <a class="el" href="d3/d05/hud_8qh.html#a4688e688e3649a241a2b522bacda97af">hud.qh</a>
-, <a class="el" href="d0/d41/menu_8qh.html#a4688e688e3649a241a2b522bacda97af">menu.qh</a>
+: <a class="el" href="d0/d41/menu_8qh.html#a4688e688e3649a241a2b522bacda97af">menu.qh</a>
+, <a class="el" href="d3/d05/hud_8qh.html#a4688e688e3649a241a2b522bacda97af">hud.qh</a>
 </li>
 <li>S_CTRL
 : <a class="el" href="d3/d05/hud_8qh.html#af05e65b7ed2971dbb3d251e98ea078a2">hud.qh</a>
@@ -287,23 +280,13 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 <li>SCORESWIDTH
 : <a class="el" href="d2/d79/scores_8qc.html#a26c17e0b6e8c59731994438c1b572aa6">scores.qc</a>
 </li>
-<li>scrollbarWidth
-: <a class="el" href="d0/d96/item_2listbox_8qh.html#a87852544bd0c3c0aa6c285734f199c9c">listbox.qh</a>
-</li>
-<li>scrollPos
-: <a class="el" href="d7/d21/item_2inputbox_8qh.html#a05a83ce2e873be34da634217bdeb93b9">inputbox.qh</a>
-, <a class="el" href="d0/d96/item_2listbox_8qh.html#a05a83ce2e873be34da634217bdeb93b9">listbox.qh</a>
-</li>
-<li>selectedServer
-: <a class="el" href="dd/d7a/serverlist_8qh.html#acad3b8d21783a5bb344b37c3a9b0f4d0">serverlist.qh</a>
-</li>
 <li>selectweapon
 : <a class="el" href="d5/d26/server_2defs_8qh.html#a4f0f837be8dd43698e15bc64fefd823f">defs.qh</a>
 </li>
 <li>self
-: <a class="el" href="d8/de2/menudefs_8qc.html#a3195bf628df3841489df31af0fc09e26">menudefs.qc</a>
+: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a3195bf628df3841489df31af0fc09e26">csprogsdefs.qc</a>
+, <a class="el" href="d8/de2/menudefs_8qc.html#a3195bf628df3841489df31af0fc09e26">menudefs.qc</a>
 , <a class="el" href="d6/d11/progsdefs_8qc.html#a3195bf628df3841489df31af0fc09e26">progsdefs.qc</a>
-, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a3195bf628df3841489df31af0fc09e26">csprogsdefs.qc</a>
 </li>
 <li>sendCvars
 : <a class="el" href="df/d9b/menu_2xonotic_2util_8qc.html#a6f49f8031d110b45d49410895d3bbfb7">util.qc</a>
@@ -327,8 +310,8 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 : <a class="el" href="d0/d8b/common_2constants_8qh.html#a589686464c46a353960d0ba3696d15c0">constants.qh</a>
 </li>
 <li>serverflags
-: <a class="el" href="d9/d08/client_2defs_8qh.html#a880644b703b9461c04c0ae8af0866a65">defs.qh</a>
-, <a class="el" href="d6/d11/progsdefs_8qc.html#a2968075f78613a576239d8390eb477e9">progsdefs.qc</a>
+: <a class="el" href="d6/d11/progsdefs_8qc.html#a2968075f78613a576239d8390eb477e9">progsdefs.qc</a>
+, <a class="el" href="d9/d08/client_2defs_8qh.html#a880644b703b9461c04c0ae8af0866a65">defs.qh</a>
 </li>
 <li>serverframetime
 : <a class="el" href="d5/d26/server_2defs_8qh.html#a93123616e49dc6670ba3f6e818e89e6f">defs.qh</a>
@@ -699,9 +682,6 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 <li>sound2
 : <a class="el" href="d1/d08/platforms_8qc.html#af53e48db51b43664a2d6ae7143b4c21b">platforms.qc</a>
 </li>
-<li>sound_str
-: <a class="el" href="d0/df5/sound_8qh.html#a6695dabea02452ef89f1a180f8531aa8">sound.qh</a>
-</li>
 <li>SOUNDFLAG_RELIABLE
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ad244db16986bddfa50c69b8aacb309d6">csprogsdefs.qc</a>
 , <a class="el" href="de/d5e/dpextensions_8qc.html#ad244db16986bddfa50c69b8aacb309d6">dpextensions.qc</a>
@@ -921,7 +901,7 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 : <a class="el" href="d0/d8b/common_2constants_8qh.html#a18df8f3283e5d34055f11657c529e421">constants.qh</a>
 </li>
 <li>spectatee_status
-: <a class="el" href="d9/d08/client_2defs_8qh.html#ad19574d03b3580d4e1fcb06490f68f59">defs.qh</a>
+: <a class="el" href="d5/d26/server_2defs_8qh.html#ad19574d03b3580d4e1fcb06490f68f59">defs.qh</a>
 </li>
 <li>spectatorbutton_zoom
 : <a class="el" href="d0/d2a/client_2main_8qh.html#ae4ca437935cc9b8d346bfd086c7261b1">main.qh</a>
@@ -930,10 +910,10 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 : <a class="el" href="d5/d26/server_2defs_8qh.html#ad8cc5742c76a6d38a1205a2171ea5239">defs.qh</a>
 </li>
 <li>speed
-: <a class="el" href="db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">subs.qh</a>
+: <a class="el" href="d1/d9a/navigation_8qc.html#a7f7e4724cf57d59513b39c5ecc81adc8">navigation.qc</a>
+, <a class="el" href="db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">subs.qh</a>
 , <a class="el" href="dd/daa/g__lights_8qc.html#a7f7e4724cf57d59513b39c5ecc81adc8">g_lights.qc</a>
 , <a class="el" href="d2/de9/havocbot_8qc.html#a7f7e4724cf57d59513b39c5ecc81adc8">havocbot.qc</a>
-, <a class="el" href="d1/d9a/navigation_8qc.html#a7f7e4724cf57d59513b39c5ecc81adc8">navigation.qc</a>
 </li>
 <li>speed2
 : <a class="el" href="d8/dc1/sv__monsters_8qh.html#aabd1fb8d9461bf3cd6c460f238e24171">sv_monsters.qh</a>
@@ -972,8 +952,8 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 : <a class="el" href="df/d00/common_2notifications_2all_8inc.html#afde4d2085af58e069ac215eb4e5d5b61">all.inc</a>
 </li>
 <li>sprite
-: <a class="el" href="d6/d3b/race_8qc.html#a44f2d02591475477365d7f7ec9d55f3c">race.qc</a>
-, <a class="el" href="dc/d80/gamemode__domination_8qc.html#a44f2d02591475477365d7f7ec9d55f3c">gamemode_domination.qc</a>
+: <a class="el" href="dc/d80/gamemode__domination_8qc.html#a44f2d02591475477365d7f7ec9d55f3c">gamemode_domination.qc</a>
+, <a class="el" href="d6/d3b/race_8qc.html#a44f2d02591475477365d7f7ec9d55f3c">race.qc</a>
 </li>
 <li>SPRITERULE_SPECTATOR
 : <a class="el" href="d0/d8b/common_2constants_8qh.html#a9fb1df18ea71e49ce5e98c2fc4232adf">constants.qh</a>
@@ -981,20 +961,11 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 <li>SPRITERULE_TEAMPLAY
 : <a class="el" href="d0/d8b/common_2constants_8qh.html#af4b738cfb11ab91755d00f44be5b314b">constants.qh</a>
 </li>
-<li>src
-: <a class="el" href="d0/d96/item_2listbox_8qh.html#a0e9117de7e6a340559202f88a1dbd9c6">listbox.qh</a>
-</li>
-<li>srcMulti
-: <a class="el" href="df/da7/item_2button_8qh.html#a49cebdb25d8abfd6d25e81af2a673e60">button.qh</a>
-</li>
 <li>srecordtime_change_time
 : <a class="el" href="dd/d59/modicons_8qc.html#a0f1af36f04cd98c81be8103026295459">modicons.qc</a>
 </li>
 <li>srecordtime_prev
 : <a class="el" href="dd/d59/modicons_8qc.html#a5563b810fe663b282f00d008ba482ca3">modicons.qc</a>
-</li>
-<li>srv_resolved
-: <a class="el" href="d6/d74/serverlist_8qc.html#a60c038b3577cd3d89622e98f3d3099c4">serverlist.qc</a>
 </li>
 <li>ssdirs
 : <a class="el" href="d4/d0d/client_2mapvoting_8qc.html#a40012f98faf7c1e5b08e68eeecf9a991">mapvoting.qc</a>
@@ -1154,9 +1125,9 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 </li>
 <li>state
 : <a class="el" href="d7/de2/g__hook_8qc.html#a89f234133d3efe315836311cbf21c64b">g_hook.qc</a>
+, <a class="el" href="db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729">subs.qh</a>
 , <a class="el" href="d5/de0/weaponsystem_8qc.html#a89f234133d3efe315836311cbf21c64b">weaponsystem.qc</a>
 , <a class="el" href="d6/d27/scripting_8qc.html#a89f234133d3efe315836311cbf21c64b">scripting.qc</a>
-, <a class="el" href="db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729">subs.qh</a>
 , <a class="el" href="d3/d4f/sv__main_8qc.html#a89f234133d3efe315836311cbf21c64b">sv_main.qc</a>
 </li>
 <li>STATE_BOTTOM
@@ -1216,16 +1187,8 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 <li>strength_finished
 : <a class="el" href="d5/d26/server_2defs_8qh.html#a0ec5aa05174d4862f21277da2eeeea98">defs.qh</a>
 </li>
-<li>string
-: <a class="el" href="dd/d7a/serverlist_8qh.html#a338951b7e7607b65262fb051e7804d91">serverlist.qh</a>
-, <a class="el" href="d0/d96/item_2listbox_8qh.html#a338951b7e7607b65262fb051e7804d91">listbox.qh</a>
-</li>
 <li>string_null
 : <a class="el" href="d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">nil.qh</a>
-, <a class="el" href="de/d48/dialog__settings__game_8qc.html#ac377cf91654564091530173c740555d7">dialog_settings_game.qc</a>
-</li>
-<li>StringSource_str
-: <a class="el" href="d4/d4e/datasource_8qc.html#a46d406fe697e4743da54d1eead71c4c4">datasource.qc</a>
 </li>
 <li>style
 : <a class="el" href="de/d5e/dpextensions_8qc.html#a2ff8b7b8c248963bd9d58f6215f56a3d">dpextensions.qc</a>
@@ -1284,13 +1247,13 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 , <a class="el" href="da/d96/swamp_8qh.html#a8773a15cbc36038a74cc581f6aecf76e">swamp.qh</a>
 </li>
 <li>swamp_slowdown
-: <a class="el" href="d0/dda/swamp_8qc.html#a72409ccf4513611408270e2c17712b3d">swamp.qc</a>
-, <a class="el" href="da/d96/swamp_8qh.html#a72409ccf4513611408270e2c17712b3d">swamp.qh</a>
+: <a class="el" href="da/d96/swamp_8qh.html#a72409ccf4513611408270e2c17712b3d">swamp.qh</a>
 , <a class="el" href="df/dae/player_8qh.html#a72409ccf4513611408270e2c17712b3d">player.qh</a>
+, <a class="el" href="d0/dda/swamp_8qc.html#a72409ccf4513611408270e2c17712b3d">swamp.qc</a>
 </li>
 <li>swampslug
-: <a class="el" href="da/d96/swamp_8qh.html#a824536dd09d6161ba0f9df38979bd81c">swamp.qh</a>
-, <a class="el" href="d0/dda/swamp_8qc.html#a824536dd09d6161ba0f9df38979bd81c">swamp.qc</a>
+: <a class="el" href="d0/dda/swamp_8qc.html#a824536dd09d6161ba0f9df38979bd81c">swamp.qc</a>
+, <a class="el" href="da/d96/swamp_8qh.html#a824536dd09d6161ba0f9df38979bd81c">swamp.qh</a>
 </li>
 <li>switchingweapon
 : <a class="el" href="d0/d2a/client_2main_8qh.html#a47b63517fd00c34583a3d27972f59dac">main.qh</a>
@@ -1307,7 +1270,7 @@ $(document).ready(function(){initNavTree('globals_vars_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

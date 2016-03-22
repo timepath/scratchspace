@@ -10,8 +10,8 @@
 <title>vehicles_think</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="0.5,-38.5 0.5,-57.5 79.5,-57.5 79.5,-38.5 0.5,-38.5"/>
-<text text-anchor="middle" x="40" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">vehicles_think</text>
+<polygon fill="#bfbfbf" stroke="black" points="0.5,-19.5 0.5,-38.5 79.5,-38.5 79.5,-19.5 0.5,-19.5"/>
+<text text-anchor="middle" x="40" y="-26.5" font-family="Helvetica,sans-Serif" font-size="10.00">vehicles_think</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -23,8 +23,21 @@
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M79.5241,-48C87.9674,-48 97.0989,-48 106.156,-48"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="106.309,-51.5001 116.309,-48 106.309,-44.5001 106.309,-51.5001"/>
+<path fill="none" stroke="midnightblue" d="M79.5241,-34.8557C87.9674,-36.1391 97.0989,-37.527 106.156,-38.9037"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="105.897,-42.4044 116.309,-40.447 106.949,-35.4839 105.897,-42.4044"/>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="../../dc/d23/classVehicle.html#a96f9f5c3ac6195be77b33b68a49bed46" target="_top" xlink:title="(SERVER) logic to run every frame ">
+<polygon fill="none" stroke="black" points="122.5,-0.5 122.5,-19.5 211.5,-19.5 211.5,-0.5 122.5,-0.5"/>
+<text text-anchor="middle" x="167" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Vehicle::vr_think</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node1&#45;&gt;Node6</title>
+<path fill="none" stroke="midnightblue" d="M79.5241,-23.1443C89.8493,-21.5749 101.204,-19.8491 112.192,-18.1788"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="112.781,-21.6296 122.141,-16.6665 111.729,-14.7091 112.781,-21.6296"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>

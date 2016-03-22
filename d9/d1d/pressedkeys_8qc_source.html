@@ -45,6 +45,7 @@ var searchBox = new SearchBox("searchBox", "../../search",false,'Search');
     <ul class="tablist">
       <li><a href="../../index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="../../pages.html"><span>Related&#160;Pages</span></a></li>
+      <li><a href="../../annotated.html"><span>Classes</span></a></li>
       <li class="current"><a href="../../files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
@@ -90,7 +91,7 @@ $(document).ready(function(){initNavTree('d9/d1d/pressedkeys_8qc_source.html','.
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Pages</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Macros</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Pages</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -149,7 +150,7 @@ $(document).ready(function(){initNavTree('d9/d1d/pressedkeys_8qc_source.html','.
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> keysize;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    keysize = <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a> * mySize.x * (1/3.0) + <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> * mySize.y * (1/(3.0 - !<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a23ee9df8788d2f7c48d063a07bb39c29">autocvar_hud_panel_pressedkeys_attack</a>));</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/d26/server_2defs_8qh.html#a0640d49b2a9b773eb33f5162c069c431">pressedkeys</a> = <a class="code" href="../../db/d9f/state_8qh.html#aa3bade4bd987dbbe92066dd4c4bdd04c">STAT</a>(PRESSED_KEYS);</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d5/d26/server_2defs_8qh.html#a0640d49b2a9b773eb33f5162c069c431">pressedkeys</a> = STAT(PRESSED_KEYS);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a23ee9df8788d2f7c48d063a07bb39c29">autocvar_hud_panel_pressedkeys_attack</a>)</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
@@ -168,7 +169,6 @@ $(document).ready(function(){initNavTree('d9/d1d/pressedkeys_8qc_source.html','.
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;}</div>
 <div class="ttc" id="common_2constants_8qh_html_a7426efc65227dc2d90563513c8f0402c"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a7426efc65227dc2d90563513c8f0402c">KEY_BACKWARD</a></div><div class="ttdeci">const int KEY_BACKWARD</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00066">constants.qh:66</a></div></div>
 <div class="ttc" id="hud_8qh_html_a2671d9cf07f1ce849bb5d039d7f27b7e"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a></div><div class="ttdeci">float panel_fg_alpha</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00141">hud.qh:141</a></div></div>
-<div class="ttc" id="state_8qh_html_aa3bade4bd987dbbe92066dd4c4bdd04c"><div class="ttname"><a href="../../db/d9f/state_8qh.html#aa3bade4bd987dbbe92066dd4c4bdd04c">STAT</a></div><div class="ttdeci">STAT(ACTIVEWEAPON, cl)</div></div>
 <div class="ttc" id="vector_8qh_html_a13163379d56e777f08a20fca27f20c2a"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a></div><div class="ttdeci">const vector eY</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00038">vector.qh:38</a></div></div>
 <div class="ttc" id="pressedkeys_8qc_html_aeb4f632e893362d73c1d012a28477a70"><div class="ttname"><a href="../../d9/d1d/pressedkeys_8qc.html#aeb4f632e893362d73c1d012a28477a70">HUD_PressedKeys</a></div><div class="ttdeci">void HUD_PressedKeys()</div><div class="ttdoc">Draw pressed keys (#11) </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d1d/pressedkeys_8qc_source.html#l00003">pressedkeys.qc:3</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a19c195dfb4fe2515fff13c5bf1803257"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a19c195dfb4fe2515fff13c5bf1803257">KEY_JUMP</a></div><div class="ttdeci">const int KEY_JUMP</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00069">constants.qh:69</a></div></div>
@@ -200,7 +200,7 @@ $(document).ready(function(){initNavTree('d9/d1d/pressedkeys_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d9/d1d/pressedkeys_8qc.html">pressedkeys.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 10:11:29 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 10:47:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

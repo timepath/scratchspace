@@ -1,9 +1,9 @@
 var nades_8qh =
 [
+    [ "Nade", "d9/d61/classNade.html", "d9/d61/classNade" ],
     [ "NADES_ALL_H", "da/d3e/nades_8qh.html#adffde5b4344e2231a86841b921474ccc", null ],
     [ "Nades_from", "da/d3e/nades_8qh.html#a287e485b78921bfb12751b2ef06e0460", null ],
     [ "REGISTER_NADE", "da/d3e/nades_8qh.html#ab9b3d6c7ff080a646f95cb35fa2859ec", null ],
-    [ "METHOD", "da/d3e/nades_8qh.html#a3997d036ed6f9515d3145c1c8dbda00a", null ],
     [ "Nade_FromProjectile", "da/d3e/nades_8qh.html#a686132c927272e4033947a9294ac783b", null ],
     [ "REGISTER_NADE", "da/d3e/nades_8qh.html#aadcf48091046b4806ede2c9dccc3a0b4", null ],
     [ "healer_lifetime", "da/d3e/nades_8qh.html#a2ae6809217cd3962e0070a594bc5ad71", null ],

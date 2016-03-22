@@ -10,123 +10,136 @@
 <title>ShuffleMaplist</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="0.5,-57.5 0.5,-76.5 79.5,-76.5 79.5,-57.5 0.5,-57.5"/>
-<text text-anchor="middle" x="40" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">ShuffleMaplist</text>
+<polygon fill="#bfbfbf" stroke="black" points="0.5,-76.5 0.5,-95.5 79.5,-95.5 79.5,-76.5 0.5,-76.5"/>
+<text text-anchor="middle" x="40" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">ShuffleMaplist</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
-<g id="a_node2"><a xlink:href="../../d5/df2/common_2util_8qh.html#aedbfa3cb057748398c3bcf523af411d6" target="_top" xlink:title="shufflewords">
-<polygon fill="none" stroke="black" points="116,-57.5 116,-76.5 188,-76.5 188,-57.5 116,-57.5"/>
-<text text-anchor="middle" x="152" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">shufflewords</text>
+<g id="a_node2"><a xlink:href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" target="_top" xlink:title="cvar_set">
+<polygon fill="none" stroke="black" points="125,-95.5 125,-114.5 179,-114.5 179,-95.5 125,-95.5"/>
+<text text-anchor="middle" x="152" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">cvar_set</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M79.7819,-67C88.1371,-67 97.0407,-67 105.622,-67"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="105.87,-70.5001 115.87,-67 105.87,-63.5001 105.87,-70.5001"/>
+<path fill="none" stroke="midnightblue" d="M79.7819,-92.6987C91.2424,-94.6782 103.735,-96.836 115.011,-98.7838"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="114.511,-102.249 124.961,-100.502 115.703,-95.3513 114.511,-102.249"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
-<g id="a_node3"><a xlink:href="../../d2/db4/string_8qh.html#ad2c5b5ff8e9f43181265688791c6312e" target="_top" xlink:title="_shufflewords_swapfunc">
+<g id="a_node3"><a xlink:href="../../d5/df2/common_2util_8qh.html#aedbfa3cb057748398c3bcf523af411d6" target="_top" xlink:title="shufflewords">
+<polygon fill="none" stroke="black" points="116,-57.5 116,-76.5 188,-76.5 188,-57.5 116,-57.5"/>
+<text text-anchor="middle" x="152" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">shufflewords</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node3 -->
+<g id="edge2" class="edge"><title>Node1&#45;&gt;Node3</title>
+<path fill="none" stroke="midnightblue" d="M79.7819,-79.3013C88.2289,-77.8423 97.2365,-76.2864 105.905,-74.7892"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="106.612,-78.2189 115.87,-73.0678 105.421,-71.3211 106.612,-78.2189"/>
+</g>
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
+<g id="a_node4"><a xlink:href="../../d2/db4/string_8qh.html#ad2c5b5ff8e9f43181265688791c6312e" target="_top" xlink:title="_shufflewords_swapfunc">
 <polygon fill="none" stroke="black" points="224.5,-76.5 224.5,-95.5 349.5,-95.5 349.5,-76.5 224.5,-76.5"/>
 <text text-anchor="middle" x="287" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">_shufflewords_swapfunc</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node3 -->
-<g id="edge2" class="edge"><title>Node2&#45;&gt;Node3</title>
+<!-- Node3&#45;&gt;Node4 -->
+<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
 <path fill="none" stroke="midnightblue" d="M188.292,-72.0418C196.344,-73.192 205.185,-74.455 214.156,-75.7366"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="213.911,-79.2371 224.306,-77.1866 214.902,-72.3074 213.911,-79.2371"/>
 </g>
-<!-- Node8 -->
-<g id="node8" class="node"><title>Node8</title>
-<g id="a_node8"><a xlink:href="../../db/def/sort_8qh.html#aa873e233b5a6e7f7869a3a554b2e075f" target="_top" xlink:title="shuffle">
+<!-- Node9 -->
+<g id="node9" class="node"><title>Node9</title>
+<g id="a_node9"><a xlink:href="../../db/def/sort_8qh.html#aa873e233b5a6e7f7869a3a554b2e075f" target="_top" xlink:title="shuffle">
 <polygon fill="none" stroke="black" points="264,-38.5 264,-57.5 310,-57.5 310,-38.5 264,-38.5"/>
 <text text-anchor="middle" x="287" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">shuffle</text>
 </a>
 </g>
 </g>
-<!-- Node2&#45;&gt;Node8 -->
-<g id="edge7" class="edge"><title>Node2&#45;&gt;Node8</title>
+<!-- Node3&#45;&gt;Node9 -->
+<g id="edge8" class="edge"><title>Node3&#45;&gt;Node9</title>
 <path fill="none" stroke="midnightblue" d="M188.292,-61.9582C208.645,-59.0507 234.042,-55.4226 253.841,-52.5942"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="254.507,-56.0346 263.912,-51.1555 253.517,-49.1049 254.507,-56.0346"/>
 </g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="../../d2/db4/string_8qh.html#a34f555445d50e8aba9ca619e48216107" target="_top" xlink:title="swapwords">
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<g id="a_node5"><a xlink:href="../../d2/db4/string_8qh.html#a34f555445d50e8aba9ca619e48216107" target="_top" xlink:title="swapwords">
 <polygon fill="none" stroke="black" points="386,-76.5 386,-95.5 452,-95.5 452,-76.5 386,-76.5"/>
 <text text-anchor="middle" x="419" y="-83.5" font-family="Helvetica,sans-Serif" font-size="10.00">swapwords</text>
 </a>
 </g>
 </g>
-<!-- Node3&#45;&gt;Node4 -->
-<g id="edge3" class="edge"><title>Node3&#45;&gt;Node4</title>
+<!-- Node4&#45;&gt;Node5 -->
+<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
 <path fill="none" stroke="midnightblue" d="M349.574,-86C358.433,-86 367.378,-86 375.747,-86"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="375.99,-89.5001 385.99,-86 375.99,-82.5001 375.99,-89.5001"/>
 </g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<g id="a_node5"><a xlink:href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a" target="_top" xlink:title="strcat">
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<g id="a_node6"><a xlink:href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" target="_top" xlink:title="strcat">
 <polygon fill="none" stroke="black" points="510.5,-95.5 510.5,-114.5 551.5,-114.5 551.5,-95.5 510.5,-95.5"/>
 <text text-anchor="middle" x="531" y="-102.5" font-family="Helvetica,sans-Serif" font-size="10.00">strcat</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node5 -->
-<g id="edge4" class="edge"><title>Node4&#45;&gt;Node5</title>
+<!-- Node5&#45;&gt;Node6 -->
+<g id="edge5" class="edge"><title>Node5&#45;&gt;Node6</title>
 <path fill="none" stroke="midnightblue" d="M452.112,-91.5467C467.319,-94.1732 485.366,-97.2905 500.258,-99.8627"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="500.008,-103.371 510.458,-101.625 501.2,-96.4735 500.008,-103.371"/>
 </g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<g id="a_node6"><a xlink:href="../../d2/db4/string_8qh.html#a1ee62e98d3de2b7ad3c58dbbb99ee41b" target="_top" xlink:title="substring_range">
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<g id="a_node7"><a xlink:href="../../d2/db4/string_8qh.html#a1ee62e98d3de2b7ad3c58dbbb99ee41b" target="_top" xlink:title="substring_range">
 <polygon fill="none" stroke="black" points="488,-57.5 488,-76.5 574,-76.5 574,-57.5 488,-57.5"/>
 <text text-anchor="middle" x="531" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">substring_range</text>
 </a>
 </g>
 </g>
-<!-- Node4&#45;&gt;Node6 -->
-<g id="edge5" class="edge"><title>Node4&#45;&gt;Node6</title>
+<!-- Node5&#45;&gt;Node7 -->
+<g id="edge6" class="edge"><title>Node5&#45;&gt;Node7</title>
 <path fill="none" stroke="midnightblue" d="M452.112,-80.4533C460.221,-79.0527 469.138,-77.5125 477.954,-75.9898"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="478.557,-79.4375 487.815,-74.2865 477.365,-72.5397 478.557,-79.4375"/>
 </g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<g id="a_node7"><a xlink:href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" target="_top" xlink:title="substring">
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" target="_top" xlink:title="substring">
 <polygon fill="none" stroke="black" points="610,-57.5 610,-76.5 666,-76.5 666,-57.5 610,-57.5"/>
 <text text-anchor="middle" x="638" y="-64.5" font-family="Helvetica,sans-Serif" font-size="10.00">substring</text>
 </a>
 </g>
 </g>
-<!-- Node6&#45;&gt;Node7 -->
-<g id="edge6" class="edge"><title>Node6&#45;&gt;Node7</title>
+<!-- Node7&#45;&gt;Node8 -->
+<g id="edge7" class="edge"><title>Node7&#45;&gt;Node8</title>
 <path fill="none" stroke="midnightblue" d="M574.103,-67C582.607,-67 591.491,-67 599.812,-67"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="599.981,-70.5001 609.981,-67 599.981,-63.5001 599.981,-70.5001"/>
 </g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" target="_top" xlink:title="floor">
+<!-- Node10 -->
+<g id="node10" class="node"><title>Node10</title>
+<g id="a_node10"><a xlink:href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" target="_top" xlink:title="floor">
 <polygon fill="none" stroke="black" points="401.5,-38.5 401.5,-57.5 436.5,-57.5 436.5,-38.5 401.5,-38.5"/>
 <text text-anchor="middle" x="419" y="-45.5" font-family="Helvetica,sans-Serif" font-size="10.00">floor</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node9 -->
-<g id="edge8" class="edge"><title>Node8&#45;&gt;Node9</title>
+<!-- Node9&#45;&gt;Node10 -->
+<g id="edge9" class="edge"><title>Node9&#45;&gt;Node10</title>
 <path fill="none" stroke="midnightblue" d="M310.053,-48C332.416,-48 367.057,-48 391.039,-48"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="391.225,-51.5001 401.225,-48 391.225,-44.5001 391.225,-51.5001"/>
 </g>
-<!-- Node10 -->
-<g id="node10" class="node"><title>Node10</title>
-<g id="a_node10"><a xlink:href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" target="_top" xlink:title="random">
+<!-- Node11 -->
+<g id="node11" class="node"><title>Node11</title>
+<g id="a_node11"><a xlink:href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" target="_top" xlink:title="random">
 <polygon fill="none" stroke="black" points="394.5,-0.5 394.5,-19.5 443.5,-19.5 443.5,-0.5 394.5,-0.5"/>
 <text text-anchor="middle" x="419" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">random</text>
 </a>
 </g>
 </g>
-<!-- Node8&#45;&gt;Node10 -->
-<g id="edge9" class="edge"><title>Node8&#45;&gt;Node10</title>
+<!-- Node9&#45;&gt;Node11 -->
+<g id="edge10" class="edge"><title>Node9&#45;&gt;Node11</title>
 <path fill="none" stroke="midnightblue" d="M310.053,-41.5538C330.372,-35.6144 360.825,-26.7126 384.211,-19.8767"/>
 <polygon fill="midnightblue" stroke="midnightblue" points="385.457,-23.1592 394.073,-16.994 383.493,-16.4403 385.457,-23.1592"/>
 </g>

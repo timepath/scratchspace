@@ -1,12 +1,12 @@
 var common_2mutators_2mutator_2waypoints_2all_8qh =
 [
+    [ "Waypoint", "d9/d8c/classWaypoint.html", "d9/d8c/classWaypoint" ],
     [ "RadarIcons_from", "d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a40dcb143f36ec5266d8d271f3f43296c", null ],
     [ "REGISTER_RADARICON", "d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a40e1a92b8a983047077e3af97f14cd05", null ],
     [ "REGISTER_WAYPOINT", "d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a04e2d734ae55f5ddd843bcf3f1614e20", null ],
     [ "REGISTER_WAYPOINT_", "d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a7e125b9b1c95a10f859b80c7a3456266", null ],
     [ "WAYPOINTS_ALL_H", "d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a9d93e7d1156c77a9afa59ee79ef4ea3a", null ],
     [ "Waypoints_from", "d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a8b37b20d26109b8964674245d9481a68", null ],
-    [ "CONSTRUCTOR", "d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a033186c22bfee0ec00dd42177089faeb", null ],
     [ "REGISTER_RADARICON", "d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#aa7e8dbd05d5f51932cd2372101938bf1", null ],
     [ "REGISTER_RADARICON", "d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a891fed42f39b5a92c6df9514bb28ca07", null ],
     [ "REGISTER_RADARICON", "d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a566d2f1a873648592e66a68e6130a154", null ],
