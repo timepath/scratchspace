@@ -1,6 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"d9/dfb/radarmap_8qc.html#ad8cbf64f8351b52d8deec953619cb542":[2,0,5,1,10,7],
 "d9/dfb/radarmap_8qc.html#adc1efb9d2a0a9b5161c489b4e9b30f48":[2,0,5,1,10,4],
 "d9/dfb/radarmap_8qc.html#af86397b50cb66751dcb0b3051305b4bd":[2,0,5,1,10,11],
 "d9/dfb/radarmap_8qc_source.html":[2,0,5,1,10],
@@ -249,5 +248,6 @@ var NAVTREEINDEX77 =
 "da/d2a/classXonoticDecibelsSlider.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,136,5],
 "da/d2a/classXonoticDecibelsSlider.html#a365ded1aad15f8cac9448983a229cfe7":[1,0,136,87],
 "da/d2a/classXonoticDecibelsSlider.html#a3a653364d8a85a85c402a309fcb9e40c":[1,0,136,51],
-"da/d2a/classXonoticDecibelsSlider.html#a3cc9768ff4112311d3ab47e0f0d3abff":[1,0,136,30]
+"da/d2a/classXonoticDecibelsSlider.html#a3cc9768ff4112311d3ab47e0f0d3abff":[1,0,136,30],
+"da/d2a/classXonoticDecibelsSlider.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,136,53]
 };

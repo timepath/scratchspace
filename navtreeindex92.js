@@ -1,6 +1,5 @@
 var NAVTREEINDEX92 =
 {
-"db/de2/classXonoticScreenshotViewerDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,208,16],
 "db/de2/classXonoticScreenshotViewerDialog.html#af85a3b5ec342f091d7fac50105141c07":[1,0,208,19],
 "db/de2/classXonoticScreenshotViewerDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,208,29],
 "db/de2/classXonoticScreenshotViewerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,208,2],
@@ -16,15 +15,15 @@ var NAVTREEINDEX92 =
 "db/de8/effectinfo__gentle__particlegibs_8inc.html#ad182bfc5aec87ce49d43bb47d7426e79":[2,0,1,2,12,1],
 "db/de8/effectinfo__gentle__particlegibs_8inc_source.html":[2,0,1,2,12],
 "db/deb/roles_8qc.html":[2,0,5,0,0,3],
-"db/deb/roles_8qc.html#a31028110908ce47c5bd1f3e3f25f83c6":[2,0,5,0,0,3,6],
-"db/deb/roles_8qc.html#a37dfb0a0d28be3fe633b34b57b82f992":[2,0,5,0,0,3,1],
-"db/deb/roles_8qc.html#a3a88385fc6a33c27abe6f0898920281c":[2,0,5,0,0,3,5],
+"db/deb/roles_8qc.html#a3e9df5e35d2e1a1d92cb47e72b572d4a":[2,0,5,0,0,3,4],
 "db/deb/roles_8qc.html#a4c36d9fcd24202f73d536c95f9bc634e":[2,0,5,0,0,3,8],
-"db/deb/roles_8qc.html#a8108bf8494f466a7d21bbd992d3c8de3":[2,0,5,0,0,3,3],
-"db/deb/roles_8qc.html#aa1ee8b4dee1125e36d30aa6f6f7956ce":[2,0,5,0,0,3,0],
-"db/deb/roles_8qc.html#abc4b58297d8d6b6d307ee6d3e83ae0a4":[2,0,5,0,0,3,2],
+"db/deb/roles_8qc.html#a4f33c76c5937f4781a5315a14158fd3f":[2,0,5,0,0,3,5],
+"db/deb/roles_8qc.html#a5f878532d323f792b8b4c306d068cc0c":[2,0,5,0,0,3,0],
+"db/deb/roles_8qc.html#a6456f6b6523f83904a00a909d0a87236":[2,0,5,0,0,3,3],
+"db/deb/roles_8qc.html#a68192842a7b8fe572f40f71cc5ef40af":[2,0,5,0,0,3,2],
+"db/deb/roles_8qc.html#ab1af65619c621606e2636b8a2fbbd18d":[2,0,5,0,0,3,1],
 "db/deb/roles_8qc.html#abfcd73ce6fd8da8e5ae1e3086f0763c8":[2,0,5,0,0,3,7],
-"db/deb/roles_8qc.html#ae4f7c8f7b6c8fc5c1f61f1af757ac46a":[2,0,5,0,0,3,4],
+"db/deb/roles_8qc.html#acab64c2fe38b303fbe8907423b34fc04":[2,0,5,0,0,3,6],
 "db/deb/roles_8qc_source.html":[2,0,5,0,0,3],
 "db/def/sort_8qh.html":[2,0,3,42],
 "db/def/sort_8qh.html#a3ddcb3e4e37b9c578711255f911c582b":[2,0,3,42,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX92 =
 "dc/d06/classDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,21,45],
 "dc/d06/classDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,21,23],
 "dc/d06/classDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,21,31],
-"dc/d06/classDialog.html#a53de8355052b658819638577356cc8f3":[1,0,21,44]
+"dc/d06/classDialog.html#a53de8355052b658819638577356cc8f3":[1,0,21,44],
+"dc/d06/classDialog.html#a634646fdc3d14fa0d3fcdc8cc5eb5d97":[1,0,21,67]
 };

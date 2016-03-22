@@ -1,6 +1,5 @@
 var NAVTREEINDEX107 =
 {
-"de/d26/nexball_8qh.html#ad47fba46a06a96c87cf9d41185dbcce7":[2,0,1,3,0,0,2,0],
 "de/d26/nexball_8qh_source.html":[2,0,1,3,0,0,2],
 "de/d2e/train_8qc.html":[2,0,1,13,0,20],
 "de/d2e/train_8qc.html#a430911ebac04a400f968088c40c897b9":[2,0,1,13,0,20,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX107 =
 "de/d4f/teamplay_8qc.html#a373ac0ded9ef3174275a0d82d32d6def":[2,0,5,70,17],
 "de/d4f/teamplay_8qc.html#a3bdfe5e750a8a5e86992d4f95eca7585":[2,0,5,70,16],
 "de/d4f/teamplay_8qc.html#a50d3aefd0207c123d11252f5fdddcf0d":[2,0,5,70,14],
-"de/d4f/teamplay_8qc.html#a838b897a9ae86e8bf932e57c356ec987":[2,0,5,70,1]
+"de/d4f/teamplay_8qc.html#a838b897a9ae86e8bf932e57c356ec987":[2,0,5,70,1],
+"de/d4f/teamplay_8qc.html#a8ebbca079649157562ec8d6c551db1d1":[2,0,5,70,2]
 };

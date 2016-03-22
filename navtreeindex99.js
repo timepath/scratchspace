@@ -1,6 +1,5 @@
 var NAVTREEINDEX99 =
 {
-"dc/de5/classWeapon.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,114,12],
 "dc/de5/classWeapon.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,114,10],
 "dc/de5/classWeapon.html#aadf51e7fb4ada8bff51507cc383495e9":[1,0,114,33],
 "dc/de5/classWeapon.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,114,3],
@@ -249,5 +248,6 @@ var NAVTREEINDEX99 =
 "dc/df7/classXonoticCvarsDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,135,8],
 "dc/df7/classXonoticCvarsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,135,11],
 "dc/df7/classXonoticCvarsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,135,51],
-"dc/df7/classXonoticCvarsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,135,19]
+"dc/df7/classXonoticCvarsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,135,19],
+"dc/df7/classXonoticCvarsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,135,35]
 };
