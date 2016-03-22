@@ -9,7 +9,7 @@ var dir_97aefd0d527b934f1d99a682da8fe6a9 =
     [ "bits.qh", "d5/d52/bits_8qh.html", "d5/d52/bits_8qh" ],
     [ "bool.qh", "dd/d54/bool_8qh.html", "dd/d54/bool_8qh" ],
     [ "color.qh", "de/d11/color_8qh.html", "de/d11/color_8qh" ],
-    [ "compiler.qh", "d6/d63/compiler_8qh.html", null ],
+    [ "compiler.qh", "d6/d63/compiler_8qh.html", "d6/d63/compiler_8qh" ],
     [ "counting.qh", "d7/de1/counting_8qh.html", "d7/de1/counting_8qh" ],
     [ "cvar.qh", "d0/d4f/cvar_8qh.html", "d0/d4f/cvar_8qh" ],
     [ "defer.qh", "d5/d95/defer_8qh.html", "d5/d95/defer_8qh" ],

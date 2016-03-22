@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#affc47b0cc8d3babeb395799cb08dbd8a":[1,0,1,9,0,2,0,4],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc_source.html":[1,0,1,9,0,2,0],
 "da/d10/sv__vehicles_8qc.html":[1,0,1,15,6],
 "da/d10/sv__vehicles_8qc.html#a018387a690e307f5cc7fb250212d7eb5":[1,0,1,15,6,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "da/d44/common_2util_8qc.html#afe420388fd9f6c6070930c07addde6f2":[1,0,1,42,9],
 "da/d44/common_2util_8qc.html#affc8d3643262baf7a22651259f9598ac":[1,0,1,42,38],
 "da/d44/common_2util_8qc_source.html":[1,0,1,42],
-"da/d45/gamemode__ca_8qh.html":[1,0,5,2,0,3],
-"da/d45/gamemode__ca_8qh_source.html":[1,0,5,2,0,3]
+"da/d45/gamemode__ca_8qh.html":[1,0,5,2,0,3]
 };

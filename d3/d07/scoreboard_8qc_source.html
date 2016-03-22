@@ -516,7 +516,7 @@ $(document).ready(function(){initNavTree('d3/d07/scoreboard_8qc_source.html','..
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;                    <span class="keywordflow">if</span>(str == <a class="code" href="../../d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a">strtolower</a>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a7c2edc3a46e2c7b723761b5c1a4b1c51">scores_label</a>[j]))</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;                        <span class="keywordflow">goto</span> found; <span class="comment">// sorry, but otherwise fteqcc -O3 miscompiles this and warns about &quot;unreachable code&quot;</span></div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;:notfound</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;<a class="code" href="../../d6/d63/compiler_8qh.html#a608af1727395e4e27a72df6c6799c215">LABEL</a>(notfound)</div>
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;                <span class="keywordflow">if</span>(str == <span class="stringliteral">&quot;frags&quot;</span>)</div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;                    j = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a584cad046fa79024b6ebe125b31c6269">SP_FRAGS</a>;</div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;                <span class="keywordflow">else</span></div>
@@ -525,7 +525,7 @@ $(document).ready(function(){initNavTree('d3/d07/scoreboard_8qc_source.html','..
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;                        <a class="code" href="../../de/dda/pickup_8qh.html#adb402f6267948b6e377ccd990d3f1a5d">LOG_INFOF</a>(<span class="stringliteral">&quot;^1Error:^7 Unknown score field: &#39;%s&#39;\n&quot;</span>, str);</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;                    <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;                }</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;:found</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;<a class="code" href="../../d6/d63/compiler_8qh.html#a608af1727395e4e27a72df6c6799c215">LABEL</a>(found)</div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;                <a class="code" href="../../d0/d2a/client_2main_8qh.html#af59b3e3212e9e3fd3d68eddfbb4fa44b">hud_field</a>[<a class="code" href="../../d0/d2a/client_2main_8qh.html#aa1b81372c0bbe0206a99ac239cd99932">hud_num_fields</a>] = j;</div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;                <span class="keywordflow">if</span>(j == <a class="code" href="../../d3/d05/hud_8qh.html#a274e891e0ca8877a08e6a78683619592">ps_primary</a>)</div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;                    have_primary = 1;</div>
@@ -1782,6 +1782,7 @@ $(document).ready(function(){initNavTree('d3/d07/scoreboard_8qc_source.html','..
 <div class="ttc" id="client_2miscfunctions_8qc_html_a885df1dd2a0efd39301d3593b307b9be"><div class="ttname"><a href="../../dc/d98/client_2miscfunctions_8qc.html#a885df1dd2a0efd39301d3593b307b9be">HUD_GetFontsize</a></div><div class="ttdeci">vector HUD_GetFontsize(string cvarname)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00135">miscfunctions.qc:135</a></div></div>
 <div class="ttc" id="scoreboard_8qc_html_a95a7f9e58fa1b8d656428ebe5cdfa689"><div class="ttname"><a href="../../d3/d07/scoreboard_8qc.html#a95a7f9e58fa1b8d656428ebe5cdfa689">SetTeam</a></div><div class="ttdeci">float SetTeam(entity pl, float Team)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
+<div class="ttc" id="compiler_8qh_html_a608af1727395e4e27a72df6c6799c215"><div class="ttname"><a href="../../d6/d63/compiler_8qh.html#a608af1727395e4e27a72df6c6799c215">LABEL</a></div><div class="ttdeci">#define LABEL(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d63/compiler_8qh_source.html#l00018">compiler.qh:18</a></div></div>
 <div class="ttc" id="cl__minigames_8qh_html"><div class="ttname"><a href="../../de/d3d/cl__minigames_8qh.html">cl_minigames.qh</a></div></div>
 <div class="ttc" id="scoreboard_8qc_html_a7d0311aff51c8cc863a2780ad5252a7e"><div class="ttname"><a href="../../d3/d07/scoreboard_8qc.html#a7d0311aff51c8cc863a2780ad5252a7e">HUD_PrintScoreboardItem</a></div><div class="ttdeci">void HUD_PrintScoreboardItem(vector pos, vector item_size, entity pl, bool is_self, int pl_number)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d07/scoreboard_8qc_source.html#l00711">scoreboard.qc:711</a></div></div>
 <div class="ttc" id="scoreboard_8qc_html_a845179ee3dba861e8370c8c3a21d1d78"><div class="ttname"><a href="../../d3/d07/scoreboard_8qc.html#a845179ee3dba861e8370c8c3a21d1d78">HUD_CompareScore</a></div><div class="ttdeci">int HUD_CompareScore(int vl, int vr, int f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d07/scoreboard_8qc_source.html#l00131">scoreboard.qc:131</a></div></div>
@@ -1837,7 +1838,7 @@ $(document).ready(function(){initNavTree('d3/d07/scoreboard_8qc_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d3/d07/scoreboard_8qc.html">scoreboard.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 07:49:09 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 08:20:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

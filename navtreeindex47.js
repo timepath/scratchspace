@@ -1,5 +1,6 @@
 var NAVTREEINDEX47 =
 {
+"d9/dbd/turrets_2config_8qh.html#aecfde73c96bbaf3e37720b7029ec60c9":[1,0,1,14,7,0],
 "d9/dbd/turrets_2config_8qh_source.html":[1,0,1,14,7],
 "d9/dc5/campcheck_8qc.html":[1,0,1,9,0,4,0],
 "d9/dc5/campcheck_8qc_source.html":[1,0,1,9,0,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX47 =
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#ad54a43f9c7262e4c0a8f0efe0a2dfb00":[1,0,1,9,0,2,0,9],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#ae2182ffd4aece1ab035baa6a64e7c442":[1,0,1,9,0,2,0,6],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#aea320705273d3b0c79e1bd70c9af73f5":[1,0,1,9,0,2,0,7],
-"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#afcff6c22eb8bc57e19bb78d6200318b1":[1,0,1,9,0,2,0,8],
-"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#affc47b0cc8d3babeb395799cb08dbd8a":[1,0,1,9,0,2,0,4]
+"da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#afcff6c22eb8bc57e19bb78d6200318b1":[1,0,1,9,0,2,0,8]
 };

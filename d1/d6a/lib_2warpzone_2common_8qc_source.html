@@ -426,7 +426,7 @@ $(document).ready(function(){initNavTree('d1/d6a/lib_2warpzone_2common_8qc_sourc
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        org = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>;</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    }</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a709b87db314dc8aaf6df3d3adc456b1d">WarpZone_MakeAllOther</a>();</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;:fail</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;<a class="code" href="../../d6/d63/compiler_8qh.html#a608af1727395e4e27a72df6c6799c215">LABEL</a>(fail)</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="keywordflow">if</span>(contentshack)</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a69a1cd9231b0e5e94f20cc3022c2c8e2">BITCLR_ASSIGN</a>(<a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#af75e363f8bcf9a77b70da5dd1c1c1ea0">WarpZone_trace_forent</a>.dphitcontentsmask, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a34857d93b57ccb6265adbe8ad217b489">DPCONTENTS_SOLID</a>);</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a> = sol;</div>
@@ -544,7 +544,7 @@ $(document).ready(function(){initNavTree('d1/d6a/lib_2warpzone_2common_8qc_sourc
 <div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;        e.velocity = -e.velocity;</div>
 <div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    }</div>
 <div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a709b87db314dc8aaf6df3d3adc456b1d">WarpZone_MakeAllOther</a>();</div>
-<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;:fail</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;<a class="code" href="../../d6/d63/compiler_8qh.html#a608af1727395e4e27a72df6c6799c215">LABEL</a>(fail)</div>
 <div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a9141181634d9fcd93a7337b33a68d90e">WarpZone_tracetoss_velocity</a> = e.velocity;</div>
 <div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> = vf;</div>
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a> = vr;</div>
@@ -1070,6 +1070,7 @@ $(document).ready(function(){initNavTree('d1/d6a/lib_2warpzone_2common_8qc_sourc
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a90c562931d2bb1db31e200ee05fa11e1"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a90c562931d2bb1db31e200ee05fa11e1">WarpZone_camera_transform</a></div><div class="ttdeci">vector WarpZone_camera_transform(vector org, vector ang)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00042">common.qc:42</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a663a24692802c95fdde997a23b773146"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a663a24692802c95fdde997a23b773146">WarpZone_TrailParticles</a></div><div class="ttdeci">void WarpZone_TrailParticles(entity own, float eff, vector org, vector end)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00463">common.qc:463</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
+<div class="ttc" id="compiler_8qh_html_a608af1727395e4e27a72df6c6799c215"><div class="ttname"><a href="../../d6/d63/compiler_8qh.html#a608af1727395e4e27a72df6c6799c215">LABEL</a></div><div class="ttdeci">#define LABEL(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d63/compiler_8qh_source.html#l00018">compiler.qh:18</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a3a9da1c7eaf49a03b0fb365d32f5f406"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a3a9da1c7eaf49a03b0fb365d32f5f406">WarpZoneLib_ExactTrigger_Touch</a></div><div class="ttdeci">float WarpZoneLib_ExactTrigger_Touch()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00789">common.qc:789</a></div></div>
 <div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00077">oo.qh:77</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a08613252f53cbee3c097c6b8ed5d4f24"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a08613252f53cbee3c097c6b8ed5d4f24">WarpZone_UnTransformVelocity</a></div><div class="ttdeci">vector WarpZone_UnTransformVelocity(entity wz, vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00539">common.qc:539</a></div></div>
@@ -1100,7 +1101,7 @@ $(document).ready(function(){initNavTree('d1/d6a/lib_2warpzone_2common_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_58d953ef34ccfc4a49203206a34466c3.html">warpzone</a></li><li class="navelem"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html">common.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 07:49:12 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 08:20:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
