@@ -215,7 +215,6 @@ var searchData=
   ['projectile_5fdrawtrail',['Projectile_DrawTrail',['../d3/db6/projectile_8qc.html#a07d63755334d8ccb23787ee7001d16d1',1,'Projectile_DrawTrail(entity this, vector to):&#160;projectile.qc'],['../dc/dc7/projectile_8qh.html#a07d63755334d8ccb23787ee7001d16d1',1,'Projectile_DrawTrail(entity this, vector to):&#160;projectile.qc']]],
   ['projectile_5fisnade',['Projectile_isnade',['../d3/db6/projectile_8qc.html#aa12d111ca27797a792f8738195db5a76',1,'projectile.qc']]],
   ['projectile_5fresettrail',['Projectile_ResetTrail',['../d3/db6/projectile_8qc.html#afa735eeb763e03508cd4e27a1921b593',1,'Projectile_ResetTrail(entity this, vector to):&#160;projectile.qc'],['../dc/dc7/projectile_8qh.html#afa735eeb763e03508cd4e27a1921b593',1,'Projectile_ResetTrail(entity this, vector to):&#160;projectile.qc']]],
-  ['ps',['PS',['../db/d9f/state_8qh.html#a02ebe47b47f40c32e29c0062de888b7f',1,'state.qh']]],
   ['ps_5fdraw',['ps_draw',['../d8/d1b/ps_8qc.html#a7b54dc37178ef54688e5a423a8e97f9d',1,'ps.qc']]],
   ['ps_5ffind_5fpiece',['ps_find_piece',['../d8/d1b/ps_8qc.html#a824bdde2bf66a70354ef02ff54892acb',1,'ps.qc']]],
   ['ps_5fmove',['ps_move',['../d8/d1b/ps_8qc.html#a7f44334ec7b2bb3d87584d9b80f1cbae',1,'ps.qc']]],

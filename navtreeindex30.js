@@ -1,5 +1,8 @@
 var NAVTREEINDEX30 =
 {
+"d6/daa/quickmenu_8qh.html#a0bd4a6e2118246c42f7315210420b033":[1,0,0,24,0],
+"d6/daa/quickmenu_8qh.html#a1f4421c07ba36141f7788c052320dcaf":[1,0,0,24,2],
+"d6/daa/quickmenu_8qh.html#a83c6625cfcd8716e5e481969fa957f6f":[1,0,0,24,1],
 "d6/daa/quickmenu_8qh_source.html":[1,0,0,24],
 "d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc.html":[1,0,4,4,100],
 "d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc.html#a6197d9880184a1d95737aa7d06cafddb":[1,0,4,4,100,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX30 =
 "d6/ddd/server_2mutators_2events_8qh.html#a091cc6cc101921b144d499efbaa85d38":[1,0,5,2,4,174],
 "d6/ddd/server_2mutators_2events_8qh.html#a0bfb2b8d3b00fd4dda7b45678a35f750":[1,0,5,2,4,170],
 "d6/ddd/server_2mutators_2events_8qh.html#a0c05e020d2b92298af266de71e412235":[1,0,5,2,4,133],
-"d6/ddd/server_2mutators_2events_8qh.html#a0d465dd62fdda963d66658c979484dcf":[1,0,5,2,4,166],
-"d6/ddd/server_2mutators_2events_8qh.html#a0d53a212b77375f8567525c2b46cff3d":[1,0,5,2,4,190],
-"d6/ddd/server_2mutators_2events_8qh.html#a0df2684a8ff65547eca9cec2701e1eec":[1,0,5,2,4,22],
-"d6/ddd/server_2mutators_2events_8qh.html#a148802c5a66be5ec47b70bcb88426606":[1,0,5,2,4,155]
+"d6/ddd/server_2mutators_2events_8qh.html#a0d465dd62fdda963d66658c979484dcf":[1,0,5,2,4,166]
 };

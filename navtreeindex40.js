@@ -1,5 +1,8 @@
 var NAVTREEINDEX40 =
 {
+"d7/dda/client_2hud_2all_8qc_source.html":[1,0,0,1,2],
+"d7/ddc/gamemode__race_8qh.html":[1,0,5,2,0,23],
+"d7/ddc/gamemode__race_8qh_source.html":[1,0,5,2,0,23],
 "d7/de1/counting_8qh.html":[1,0,3,10],
 "d7/de1/counting_8qh.html#a1acc9be3460c51fd0fea127b60478f9d":[1,0,3,10,5],
 "d7/de1/counting_8qh.html#a3c64a781bdc8bb479a5526f17e0f004d":[1,0,3,10,14],
@@ -246,8 +249,5 @@ var NAVTREEINDEX40 =
 "d8/d14/scripting_8qh.html#acc8076bf722909625e01f92cf7d34856":[1,0,5,0,9,58],
 "d8/d14/scripting_8qh.html#ad09ff584c66b566518b5ccb47bbd3992":[1,0,5,0,9,55],
 "d8/d14/scripting_8qh.html#ad39f46470762e170a1d1d68d21a80270":[1,0,5,0,9,17],
-"d8/d14/scripting_8qh.html#adcdb78280beece89e99d0f3d8c0f37c3":[1,0,5,0,9,53],
-"d8/d14/scripting_8qh.html#adf8d402df20e331ac23d66d43a49fd1d":[1,0,5,0,9,43],
-"d8/d14/scripting_8qh.html#ae88c894809a251bab93146628a6615a7":[1,0,5,0,9,60],
-"d8/d14/scripting_8qh.html#ae9290b63ef9860f0e56b869b209f2c04":[1,0,5,0,9,22]
+"d8/d14/scripting_8qh.html#adcdb78280beece89e99d0f3d8c0f37c3":[1,0,5,0,9,53]
 };

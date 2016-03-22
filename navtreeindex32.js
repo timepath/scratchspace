@@ -1,5 +1,8 @@
 var NAVTREEINDEX32 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#ae635b9c37101c487d0d779be61c1f41c":[1,0,5,2,4,260],
+"d6/ddd/server_2mutators_2events_8qh.html#ae6c76edb2d2671943f0f0c67444302de":[1,0,5,2,4,33],
+"d6/ddd/server_2mutators_2events_8qh.html#ae81fe3a606d03be20b2a4bf6d135ad7d":[1,0,5,2,4,256],
 "d6/ddd/server_2mutators_2events_8qh.html#ae9007e3f07cfabdb29c726cd6027911e":[1,0,5,2,4,167],
 "d6/ddd/server_2mutators_2events_8qh.html#ae9065172360ce60a1dfdab51224097c0":[1,0,5,2,4,175],
 "d6/ddd/server_2mutators_2events_8qh.html#ae95b0e3f02b7371345a3ed01fb4f860a":[1,0,5,2,4,202],
@@ -246,8 +249,5 @@ var NAVTREEINDEX32 =
 "d7/d1d/model_8qh_source.html":[1,0,1,7,2],
 "d7/d21/dialog__sandboxtools_8qc.html":[1,0,4,4,114],
 "d7/d21/dialog__sandboxtools_8qc.html#ac25be4335e49b3f698c217f81dfdc42e":[1,0,4,4,114,0],
-"d7/d21/dialog__sandboxtools_8qc_source.html":[1,0,4,4,114],
-"d7/d21/item_2inputbox_8qh.html":[1,0,4,2,13],
-"d7/d21/item_2inputbox_8qh.html#a01ad34f5a6a8a932278457efa99d62de":[1,0,4,2,13,10],
-"d7/d21/item_2inputbox_8qh.html#a05a83ce2e873be34da634217bdeb93b9":[1,0,4,2,13,13]
+"d7/d21/dialog__sandboxtools_8qc_source.html":[1,0,4,4,114]
 };

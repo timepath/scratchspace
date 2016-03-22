@@ -58,6 +58,8 @@ var searchData=
   ['inventory_5fnew',['Inventory_new',['../d0/d3f/state_8qc.html#aa1a946175f717b382d97902b506dd23b',1,'state.qc']]],
   ['invertlengthlog',['invertLengthLog',['../da/d44/common_2util_8qc.html#a0b0062f12f6d7a2cc80665922d81383b',1,'util.qc']]],
   ['invite_5fminigame',['invite_minigame',['../d7/d33/sv__minigames_8qc.html#ad8020a414daf2b7cd018d5e8bc4f5e6e',1,'invite_minigame(entity inviter, entity player):&#160;sv_minigames.qc'],['../d3/df9/sv__minigames_8qh.html#ad8020a414daf2b7cd018d5e8bc4f5e6e',1,'invite_minigame(entity inviter, entity player):&#160;sv_minigames.qc']]],
+  ['is_5fbool',['is_bool',['../d4/dfb/lib_2__all_8inc.html#a9919a41d85b6a77a1f008dfe8d942dbb',1,'_all.inc']]],
+  ['is_5fint',['is_int',['../d4/dfb/lib_2__all_8inc.html#aa49f3e45ae8be011c8a6105de227c94a',1,'_all.inc']]],
   ['iscachedpic',['iscachedpic',['../d8/de2/menudefs_8qc.html#ae9c9c30a164bbec572a8731e49ee6059',1,'menudefs.qc']]],
   ['isdemo',['isdemo',['../d8/de2/menudefs_8qc.html#a15433f7569b9361acf17695cf9df7ecd',1,'menudefs.qc']]],
   ['isfinite',['isfinite',['../df/d38/mathlib_8qc.html#a8f7da98673f75db0054d43f5ba8fbaaf',1,'isfinite(float x):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a8f7da98673f75db0054d43f5ba8fbaaf',1,'isfinite(float x):&#160;mathlib.qc']]],
