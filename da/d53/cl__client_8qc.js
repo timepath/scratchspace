@@ -29,7 +29,7 @@ var cl__client_8qc =
     [ "LeaveSpectatorMode", "da/d53/cl__client_8qc.html#a1baf85b66ab9a7da210c7ff5ad17cf6e", null ],
     [ "nJoinAllowed", "da/d53/cl__client_8qc.html#aef16dc092f69453b716c91d06060d635", null ],
     [ "ObserverThink", "da/d53/cl__client_8qc.html#a804476ddd6bb726d04ee110b4a9a9248", null ],
-    [ "play_countdown", "da/d53/cl__client_8qc.html#a65a6656f1bf1811b922ff53f6c7b091b", null ],
+    [ "play_countdown", "da/d53/cl__client_8qc.html#af816c9a7a6e6046195f05527abf8e707", null ],
     [ "player_getspecies", "da/d53/cl__client_8qc.html#a04003ae2140daf692afaee96c6b305df", null ],
     [ "player_powerups", "da/d53/cl__client_8qc.html#ab0e87320a362d2a1a07b85486e9045de", null ],
     [ "player_regen", "da/d53/cl__client_8qc.html#a983dc6d34650aaa411f39156db2ee6f5", null ],

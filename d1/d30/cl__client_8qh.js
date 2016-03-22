@@ -3,7 +3,7 @@ var cl__client_8qh =
     [ "SPECTATE_COPY", "d1/d30/cl__client_8qh.html#aebf1adea3382d9b7117f54a7d338ad41", null ],
     [ "SPECTATE_COPYFIELD", "d1/d30/cl__client_8qh.html#a78d6b1a9d49f7d040f67eb1bac3805ce", null ],
     [ "CalcRotRegen", "d1/d30/cl__client_8qh.html#ae65b054c6752ac6d32c4212a3b9a4294", null ],
-    [ "play_countdown", "d1/d30/cl__client_8qh.html#a65a6656f1bf1811b922ff53f6c7b091b", null ],
+    [ "play_countdown", "d1/d30/cl__client_8qh.html#af816c9a7a6e6046195f05527abf8e707", null ],
     [ "Spectate", "d1/d30/cl__client_8qh.html#a54cf6a680fa2bb3fca1e906659e883a7", null ],
     [ "c1", "d1/d30/cl__client_8qh.html#a7fea4d2f6f3c31b60301494b136558af", null ],
     [ "c2", "d1/d30/cl__client_8qh.html#a0fe1885b4d10c978f52619ab968adadc", null ],

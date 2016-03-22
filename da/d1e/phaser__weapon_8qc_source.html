@@ -131,7 +131,7 @@ $(document).ready(function(){initNavTree('da/d1e/phaser__weapon_8qc_source.html'
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordflow">if</span> (!isPlayer || <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">false</span>, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78">WEP_CVAR_PRI</a>(electro, refire))) {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span> (isPlayer) {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            turret_initparams(actor);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="../../d4/d3f/tracing_8qh.html#a9371bb4e8aa8aa317f4c76ac144cf46c">W_SetupShot_Dir</a>(actor, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>, <span class="keyword">false</span>, 0, <a class="code" href="../../d4/df4/common_2sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a>(PhaserTurretAttack_FIRE), <a class="code" href="../../d0/df5/sound_8qh.html#aed6d064a0c5803ef206ba1f682c01a94">CH_WEAPON_B</a>, 0);</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="../../d4/d3f/tracing_8qh.html#a9371bb4e8aa8aa317f4c76ac144cf46c">W_SetupShot_Dir</a>(actor, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>, <span class="keyword">false</span>, 0, SND_PhaserTurretAttack_FIRE, <a class="code" href="../../d0/df5/sound_8qh.html#aed6d064a0c5803ef206ba1f682c01a94">CH_WEAPON_B</a>, 0);</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            actor.tur_shotdir_updated = <a class="code" href="../../d4/d3f/tracing_8qh.html#a41dc0e466407c3a9330a708dc56d5bb1">w_shotdir</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            actor.tur_shotorg = <a class="code" href="../../d4/d3f/tracing_8qh.html#aced556a90ea3cc9950877ff32ba08566">w_shotorg</a>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            actor.tur_head = actor;</div>
@@ -271,7 +271,7 @@ $(document).ready(function(){initNavTree('da/d1e/phaser__weapon_8qc_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../dir_fa2a09f1361e1aa682b62127b5a1aaea.html">turret</a></li><li class="navelem"><a class="el" href="../../da/d1e/phaser__weapon_8qc.html">phaser_weapon.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 05:27:45 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 07:36:13 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

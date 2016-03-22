@@ -6,7 +6,7 @@ var sv__turrets_8qh =
     [ "turret_do_updates", "df/d28/sv__turrets_8qh.html#aeecd9275b04ef56133834fe9ec106c3d", null ],
     [ "turret_firecheck", "df/d28/sv__turrets_8qh.html#a3a2a467045f5ab370c4a405896ccece0", null ],
     [ "turret_initialize", "df/d28/sv__turrets_8qh.html#a3c09cbf1711d78b37aae8d9bc828a638", null ],
-    [ "turret_projectile", "df/d28/sv__turrets_8qh.html#ad4db7cccf6819dc9c43ab81277ec4516", null ],
+    [ "turret_projectile", "df/d28/sv__turrets_8qh.html#add3e75f4e12a0dd12e8e02fe6b237be0", null ],
     [ "turret_projectile_explode", "df/d28/sv__turrets_8qh.html#adc336bbc5dd801130537678bef80e2ca", null ],
     [ "turret_select_target", "df/d28/sv__turrets_8qh.html#a65537857da6b4e32d142b1d9769e7fb4", null ],
     [ "turret_validate_target", "df/d28/sv__turrets_8qh.html#a53b1f94a93f57dc271b0377b8d314b5e", null ],
