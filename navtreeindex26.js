@@ -1,13 +1,5 @@
 var NAVTREEINDEX26 =
 {
-"d3/dbe/classSlider.html#af6491199d7c16232c6ec828661a64ecf":[1,0,96,1],
-"d3/dbe/classSlider.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,96,17],
-"d3/dbe/classSlider.html#af95bc647f125a32a3ca649f377c24021":[1,0,96,38],
-"d3/dbe/classSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,96,63],
-"d3/dbe/classSlider.html#afc9428d371ed63dd0316db5558e81d30":[1,0,96,64],
-"d3/dbf/minigames_8qc.html":[2,0,1,6,5],
-"d3/dbf/minigames_8qc.html#a00ae9932d6ad92e4bd43f0c75058a410":[2,0,1,6,5,16],
-"d3/dbf/minigames_8qc.html#a24e2eea380cf6fceca9ff570a7981200":[2,0,1,6,5,15],
 "d3/dbf/minigames_8qc.html#a470fe7b6bbd7d246af06920a80ebcadd":[2,0,1,6,5,6],
 "d3/dbf/minigames_8qc.html#a4dc5c5f4dc66bb440b23ffbbffece3d6":[2,0,1,6,5,7],
 "d3/dbf/minigames_8qc.html#a50da88a37fb88826817f7d669b24c423":[2,0,1,6,5,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX26 =
 "d3/dd8/item_2inputbox_8qc.html#a26693b829ccd5dc957992de275dcd0af":[2,0,4,2,12,0],
 "d3/dd8/item_2inputbox_8qc.html#a3b9b7eac7a90b461c02546a4dca4b081":[2,0,4,2,12,4],
 "d3/dd8/item_2inputbox_8qc.html#a43061ec5225224fc7b69fa5357d9307c":[2,0,4,2,12,9],
-"d3/dd8/item_2inputbox_8qc.html#a49bef98eed0d8adbdd2fb98fa91ee9dd":[2,0,4,2,12,2]
+"d3/dd8/item_2inputbox_8qc.html#a49bef98eed0d8adbdd2fb98fa91ee9dd":[2,0,4,2,12,2],
+"d3/dd8/item_2inputbox_8qc.html#a567d9eab0b2ab1696332207dd9c70d47":[2,0,4,2,12,11],
+"d3/dd8/item_2inputbox_8qc.html#a60436757c6d69cb56d6735e105abc26e":[2,0,4,2,12,10],
+"d3/dd8/item_2inputbox_8qc.html#a67a0a57aff853efae41fed820318fa4d":[2,0,4,2,12,12],
+"d3/dd8/item_2inputbox_8qc.html#a7fe3245dcc015464115feaf8f99f6cfd":[2,0,4,2,12,13],
+"d3/dd8/item_2inputbox_8qc.html#a8c4345d0dd45bcb33c0802e73ef52857":[2,0,4,2,12,1],
+"d3/dd8/item_2inputbox_8qc.html#aa342d33098b8e83a96a9a6381f5dbc43":[2,0,4,2,12,8],
+"d3/dd8/item_2inputbox_8qc.html#ac4eb9ac2edcdf4d04e1a5bfaa72d858f":[2,0,4,2,12,5],
+"d3/dd8/item_2inputbox_8qc.html#acf2084e093527c7c04c2e75dd3b0b7e4":[2,0,4,2,12,3]
 };

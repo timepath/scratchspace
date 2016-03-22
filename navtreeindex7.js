@@ -1,9 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"d1/d33/classXonoticColorButton.html#a5acde129549a09a7c5e99b8bc5555ebd":[1,0,126,20],
-"d1/d33/classXonoticColorButton.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,126,30],
-"d1/d33/classXonoticColorButton.html#a66dc7c080c86babb8a59f97e5a1e82fa":[1,0,126,0],
-"d1/d33/classXonoticColorButton.html#a6813d8f5f29ba927022b34737e3dc22a":[1,0,126,18],
 "d1/d33/classXonoticColorButton.html#a694b7bae9c3b1c4ac503e040aad68f07":[1,0,126,36],
 "d1/d33/classXonoticColorButton.html#a6c1cc42796dfc8787fb58ce0945fb6ea":[1,0,126,19],
 "d1/d33/classXonoticColorButton.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,126,6],
@@ -249,5 +245,9 @@ var NAVTREEINDEX7 =
 "d1/d55/classXonoticGameHUDSettingsTab.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,145,72],
 "d1/d55/classXonoticGameHUDSettingsTab.html#a9da0b948d1585b9c2fc35770026d25fe":[1,0,145,77],
 "d1/d55/classXonoticGameHUDSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,145,55],
-"d1/d55/classXonoticGameHUDSettingsTab.html#aa1abab97698c6f13909d1791611312cb":[1,0,145,58]
+"d1/d55/classXonoticGameHUDSettingsTab.html#aa1abab97698c6f13909d1791611312cb":[1,0,145,58],
+"d1/d55/classXonoticGameHUDSettingsTab.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,145,46],
+"d1/d55/classXonoticGameHUDSettingsTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,145,5],
+"d1/d55/classXonoticGameHUDSettingsTab.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,145,9],
+"d1/d55/classXonoticGameHUDSettingsTab.html#aaba311b07a1da9615b2d44e9b8c97149":[1,0,145,61]
 };

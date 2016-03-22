@@ -1,9 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"d1/dc3/classEWheelAttack.html#ab5d5615537f66e3ed31e15cb47cc5616":[1,0,28,31],
-"d1/dc3/classEWheelAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,28,8],
-"d1/dc3/classEWheelAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,28,34],
-"d1/dc3/classEWheelAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,28,5],
 "d1/dc3/classEWheelAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,28,35],
 "d1/dc3/classEWheelAttack.html#ad033f23932f202bddd926ed5b366336c":[1,0,28,27],
 "d1/dc3/classEWheelAttack.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,28,1],
@@ -65,15 +61,14 @@ var NAVTREEINDEX12 =
 "d1/dd1/classFireball.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,29,15],
 "d1/dd1/classFireball.html#af6941bfadd7f32ced9be9b65094f2925":[1,0,29,23],
 "d1/dd1/classSettingSource.html":[1,0,92],
-"d1/dd1/classSettingSource.html#a0f2f42b85e3313b5787fc818b750d69f":[1,0,92,9],
+"d1/dd1/classSettingSource.html#a6113433aefe29a4e9977321048a26e18":[1,0,92,7],
 "d1/dd1/classSettingSource.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,92,0],
-"d1/dd1/classSettingSource.html#a8ca406b9a509737dde8a2b2152006c42":[1,0,92,6],
-"d1/dd1/classSettingSource.html#a915a7069200d764cbf67e3c1ae438c84":[1,0,92,8],
 "d1/dd1/classSettingSource.html#a9b20cefca0e6f285f67d0222f3a45465":[1,0,92,5],
 "d1/dd1/classSettingSource.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,92,2],
 "d1/dd1/classSettingSource.html#aae2fc145ab13e296824d9e86dc23505c":[1,0,92,4],
 "d1/dd1/classSettingSource.html#aaf40f07cb25d36179e3c05c500e982f0":[1,0,92,1],
-"d1/dd1/classSettingSource.html#ac5519b8189d13dfc8c2baa6063877458":[1,0,92,7],
+"d1/dd1/classSettingSource.html#ac27a0b7fbb81f2a42cd209e5807edd72":[1,0,92,8],
+"d1/dd1/classSettingSource.html#ac5519b8189d13dfc8c2baa6063877458":[1,0,92,6],
 "d1/dd1/classSettingSource.html#af6c7bbbf77c27320823a9a96dcfa2124":[1,0,92,3],
 "d1/dd2/lib_2draw_8qh.html":[2,0,3,13],
 "d1/dd2/lib_2draw_8qh_source.html":[2,0,3,13],
@@ -249,5 +244,10 @@ var NAVTREEINDEX12 =
 "d1/dff/snake_8qc.html#ae86aced3acbb8cdf1381872554098740":[2,0,1,6,0,7,0],
 "d1/dff/snake_8qc.html#ae974b54f130b55219562cb045d0ec639":[2,0,1,6,0,7,19],
 "d1/dff/snake_8qc.html#aecb19acb70b3088269af38c33dfa7449":[2,0,1,6,0,7,37],
-"d1/dff/snake_8qc.html#af413eaa80b47f85d0464d6e216c28ef8":[2,0,1,6,0,7,21]
+"d1/dff/snake_8qc.html#af413eaa80b47f85d0464d6e216c28ef8":[2,0,1,6,0,7,21],
+"d1/dff/snake_8qc.html#af7c89701ee296f1659231350dd5e24e4":[2,0,1,6,0,7,20],
+"d1/dff/snake_8qc_source.html":[2,0,1,6,0,7],
+"d2/d02/dialog__settings__game__hudconfirm_8qc.html":[2,0,4,4,128],
+"d2/d02/dialog__settings__game__hudconfirm_8qc.html#a15ea414c0c2d870f61918376f7677f67":[2,0,4,4,128,1],
+"d2/d02/dialog__settings__game__hudconfirm_8qc.html#a8355ef57cfbd4b0b0a510b61df465435":[2,0,4,4,128,0]
 };

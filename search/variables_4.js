@@ -19,8 +19,6 @@ var searchData=
   ['damagedbytriggers',['damagedbytriggers',['../d5/d26/server_2defs_8qh.html#a564b23de0593448931b38b33db73634d',1,'defs.qh']]],
   ['damageextraradius',['damageextraradius',['../d9/d08/client_2defs_8qh.html#a1b25d8e95136b5a09a597e62b3d1bc4c',1,'damageextraradius():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a1b25d8e95136b5a09a597e62b3d1bc4c',1,'damageextraradius():&#160;defs.qh']]],
   ['damageforcescale',['damageforcescale',['../d9/d08/client_2defs_8qh.html#a625a66e92b24850b15f246b42891aa55',1,'damageforcescale():&#160;defs.qh'],['../d5/d26/server_2defs_8qh.html#a625a66e92b24850b15f246b42891aa55',1,'damageforcescale():&#160;defs.qh']]],
-  ['datasource_5ffalse',['DataSource_false',['../de/d82/classDataSource.html#a915a7069200d764cbf67e3c1ae438c84',1,'DataSource']]],
-  ['datasource_5ftrue',['DataSource_true',['../de/d82/classDataSource.html#a0f2f42b85e3313b5787fc818b750d69f',1,'DataSource']]],
   ['db_5fbuckets',['DB_BUCKETS',['../d4/d54/map_8qh.html#a86b85b0f5f2ae1b4d98314c75f14e1de',1,'map.qh']]],
   ['dead_5fdead',['DEAD_DEAD',['../d6/d11/progsdefs_8qc.html#aedce2a79ca34e5744b2dd2899dc54aae',1,'progsdefs.qc']]],
   ['dead_5fdying',['DEAD_DYING',['../d6/d11/progsdefs_8qc.html#a146bab87de0e719cb3fb75232473068e',1,'progsdefs.qc']]],

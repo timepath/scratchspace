@@ -10,7 +10,6 @@ var searchData=
   ['independent_5fattack_5ffinished',['INDEPENDENT_ATTACK_FINISHED',['../d5/d26/server_2defs_8qh.html#afb4dc63f33cdd3551eb4195391bbdd62',1,'defs.qh']]],
   ['independent_5fplayers',['INDEPENDENT_PLAYERS',['../d5/d26/server_2defs_8qh.html#a5569af9e685ed7b20b30d4eecc09653a',1,'defs.qh']]],
   ['init',['INIT',['../db/d0a/oo_8qh.html#a1a2db4d074abe3f683aecbb87bc0b825',1,'oo.qh']]],
-  ['init_5fstatic',['INIT_STATIC',['../db/d0a/oo_8qh.html#aa8d2b3bfddb00e4421e3eb7de24df9ca',1,'oo.qh']]],
   ['int',['int',['../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904',1,'_all.inc']]],
   ['inventory_5fh',['INVENTORY_H',['../dc/d9d/inventory_8qh.html#ab366397e4eea632b9d65f68f3e4c0b99',1,'inventory.qh']]],
   ['inwater',['inwater',['../dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3',1,'pathlib.qh']]],
