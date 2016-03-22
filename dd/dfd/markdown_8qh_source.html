@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('dd/dfd/markdown_8qh_source.html','../.
 <div class="contents">
 <a href="../../dd/dfd/markdown_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d4/d5b/test_8qh.html">test.qh</a>&quot;</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../dd/dfd/markdown_8qh.html#a77f267f37e2a269275b232a573a1ca50">    8</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../dd/dfd/markdown_8qh.html#a77f267f37e2a269275b232a573a1ca50">markdown</a>(<span class="keywordtype">string</span> <a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>)</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../dd/dfd/markdown_8qh.html#a77f267f37e2a269275b232a573a1ca50">    8</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../dd/dfd/markdown_8qh.html#a77f267f37e2a269275b232a573a1ca50">markdown</a>(<span class="keywordtype">string</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>)</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">string</span> buf = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordtype">int</span> lines = 0;</div>
@@ -115,9 +115,9 @@ $(document).ready(function(){initNavTree('dd/dfd/markdown_8qh_source.html','../.
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordflow">switch</span> (it) {</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                <span class="keywordflow">for</span> (; spaces &gt; 0; --spaces) {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                    buf = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(buf, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                    buf = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(buf, <span class="stringliteral">&quot; &quot;</span>);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                }</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                buf = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(buf, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313">chr2str</a>(it));</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                buf = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(buf, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313">chr2str</a>(it));</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keywordflow">case</span> <span class="charliteral">&#39; &#39;</span>:</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                spaces += 1;</div>
@@ -127,14 +127,14 @@ $(document).ready(function(){initNavTree('dd/dfd/markdown_8qh_source.html','../.
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordflow">if</span> (lines &gt; 1) {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                    lines = 0;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                    spaces = 0;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                    buf = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(buf, <span class="stringliteral">&quot;\n\n&quot;</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                    buf = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(buf, <span class="stringliteral">&quot;\n\n&quot;</span>);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                    <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;                <span class="keywordflow">if</span> (spaces &lt; 2) {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                    spaces = 1;</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;                } <span class="keywordflow">else</span> {</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;                    spaces = 0;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                    buf = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(buf, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                    buf = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(buf, <span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                }</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        }</div>
@@ -168,10 +168,10 @@ $(document).ready(function(){initNavTree('dd/dfd/markdown_8qh_source.html','../.
 <div class="ttc" id="markdown_8qh_html_a1b6611f21ed581b0671b233878aebbbb"><div class="ttname"><a href="../../dd/dfd/markdown_8qh.html#a1b6611f21ed581b0671b233878aebbbb">X</a></div><div class="ttdeci">#define X(expect, in)</div></div>
 <div class="ttc" id="markdown_8qh_html_a77f267f37e2a269275b232a573a1ca50"><div class="ttname"><a href="../../dd/dfd/markdown_8qh.html#a77f267f37e2a269275b232a573a1ca50">markdown</a></div><div class="ttdeci">string markdown(string s)</div><div class="ttdoc">handle string spacing as markdown: </div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfd/markdown_8qh_source.html#l00008">markdown.qh:8</a></div></div>
 <div class="ttc" id="test_8qh_html_a75adcdf89f69b0b615e395daafc315af"><div class="ttname"><a href="../../d4/d5b/test_8qh.html#a75adcdf89f69b0b615e395daafc315af">SUCCEED</a></div><div class="ttdeci">#define SUCCEED()</div><div class="ttdoc">Must be present at the end of a test. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d5b/test_8qh_source.html#l00015">test.qh:15</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
-<div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00253">oo.qh:253</a></div></div>
+<div class="ttc" id="effectinfo_8qc_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00203">effectinfo.qc:203</a></div></div>
 <div class="ttc" id="markdown_8qh_html_a009867d3feeddcbdadb413c7fb23bca8"><div class="ttname"><a href="../../dd/dfd/markdown_8qh.html#a009867d3feeddcbdadb413c7fb23bca8">TEST</a></div><div class="ttdeci">TEST(Markdown, LineWrap)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfd/markdown_8qh_source.html#l00044">markdown.qh:44</a></div></div>
 <div class="ttc" id="iter_8qh_html_aaf9f179b8ccf83655c57de4e4f63307a"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#aaf9f179b8ccf83655c57de4e4f63307a">FOREACH_CHAR</a></div><div class="ttdeci">#define FOREACH_CHAR(s, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00059">iter.qh:59</a></div></div>
+<div class="ttc" id="effectinfo_8qc_html_a2ae584d3dad891f2ae754acead0f015a"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a></div><div class="ttdeci">return strcat(s,&quot;}\n&quot;)</div></div>
 <div class="ttc" id="dpextensions_8qh_html_ae2a42f6d1c36b2c22e0cd67f761f2313"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313">chr2str</a></div><div class="ttdeci">#define chr2str</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00049">dpextensions.qh:49</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -179,7 +179,7 @@ $(document).ready(function(){initNavTree('dd/dfd/markdown_8qh_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dd/dfd/markdown_8qh.html">markdown.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 04:21:56 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 05:27:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

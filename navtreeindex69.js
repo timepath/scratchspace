@@ -1,5 +1,12 @@
 var NAVTREEINDEX69 =
 {
+"df/d4d/label_8qh.html#a83eb8bc3947b0be1a8c1e26dc631c0f1":[1,0,4,2,17,6],
+"df/d4d/label_8qh.html#a93419fd6612cc240b10a55efcfa5271d":[1,0,4,2,17,8],
+"df/d4d/label_8qh_source.html":[1,0,4,2,17],
+"df/d4f/bigbutton_8qc.html":[1,0,4,4,0],
+"df/d4f/bigbutton_8qc.html#aa0feb9e63dbc800be8f95216ea5d2c68":[1,0,4,4,0,1],
+"df/d4f/bigbutton_8qc.html#abdf3953c0db4a6184bf90e59974e0f6a":[1,0,4,4,0,0],
+"df/d4f/bigbutton_8qc_source.html":[1,0,4,4,0],
 "df/d4f/ladder_8qh.html":[1,0,1,13,0,13],
 "df/d4f/ladder_8qh.html#aa60a516fc0a4e7635ac3ac1a854b9266":[1,0,1,13,0,13,1],
 "df/d4f/ladder_8qh.html#ac7991a33f246233f749dbc74c6504b83":[1,0,1,13,0,13,0],
@@ -156,9 +163,9 @@ var NAVTREEINDEX69 =
 "df/d8c/cl__cmd_8qc.html#ac1a03af5c66e122f2e7ab5298a3df6f0":[1,0,0,0,2,33],
 "df/d8c/cl__cmd_8qc.html#ac6ad4f76e1fab870cd7b34e038a0a6c0":[1,0,0,0,2,14],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[1,0,0,0,2,20],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[1,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[1,0,0,0,2,0],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[1,0,0,0,2,1],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[1,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[1,0,0,0,2,2],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[1,0,0,0,2,30],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[1,0,0,0,2,27],
@@ -242,12 +249,5 @@ var NAVTREEINDEX69 =
 "df/d9b/menu_2xonotic_2util_8qc.html#a6f49f8031d110b45d49410895d3bbfb7":[1,0,4,4,224,81],
 "df/d9b/menu_2xonotic_2util_8qc.html#a725ecdf92e06cd25767619de5dca391d":[1,0,4,4,224,13],
 "df/d9b/menu_2xonotic_2util_8qc.html#a77ed10f968fe9aaa9581ed37184d3fd2":[1,0,4,4,224,50],
-"df/d9b/menu_2xonotic_2util_8qc.html#a7851f2ca9627c1234d96987723c7b627":[1,0,4,4,224,41],
-"df/d9b/menu_2xonotic_2util_8qc.html#a7a28b2aedbcabdb5e69a23eaf843e669":[1,0,4,4,224,27],
-"df/d9b/menu_2xonotic_2util_8qc.html#a801a64b2ebc811764cb4dccac3058542":[1,0,4,4,224,64],
-"df/d9b/menu_2xonotic_2util_8qc.html#a8023eceb6ea151f2fb45174f594a1f1b":[1,0,4,4,224,26],
-"df/d9b/menu_2xonotic_2util_8qc.html#a82447e0f7e130724a65ab538355408fc":[1,0,4,4,224,53],
-"df/d9b/menu_2xonotic_2util_8qc.html#a86cb046821701d82ae80ecd5c2c147b1":[1,0,4,4,224,30],
-"df/d9b/menu_2xonotic_2util_8qc.html#a8b9db99b866e3e51444533334ab63eb3":[1,0,4,4,224,65],
-"df/d9b/menu_2xonotic_2util_8qc.html#a8eb356644d69441dba461bca0bb3ab9e":[1,0,4,4,224,11]
+"df/d9b/menu_2xonotic_2util_8qc.html#a7851f2ca9627c1234d96987723c7b627":[1,0,4,4,224,41]
 };

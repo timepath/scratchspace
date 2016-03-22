@@ -382,7 +382,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/ddf/item_2nexposee_8qc_source.html#l00021">21</a> of file <a class="el" href="../../d3/ddf/item_2nexposee_8qc_source.html">nexposee.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if()</a>, and <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00009">scale</a>.</p>
+<p>References <a class="el" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity()</a>, <a class="el" href="../../d7/d1d/model_8qh_source.html#l00018">if()</a>, and <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00009">scale</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/ddf/item_2nexposee_8qc_source.html#l00035">Nexposee_calc()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
@@ -391,16 +391,16 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            e.Nexposee_smallOrigin = (e.Nexposee_initialOrigin - e.Nexposee_scaleCenter) * <a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> + e.Nexposee_scaleCenter;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            e.Nexposee_smallSize = e.Nexposee_initialSize * <a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a>;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a> (e.Nexposee_align.x &gt; 0) e.Nexposee_smallOrigin_x = 1 - e.Nexposee_align.x * <a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">if</a> (e.Nexposee_align.x &gt; 0) e.Nexposee_smallOrigin_x = 1 - e.Nexposee_align.x * <a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keywordflow">if</span> (e.Nexposee_align.x &lt; 0) e.Nexposee_smallOrigin_x = -e.Nexposee_smallSize.x + e.Nexposee_align.x * <a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="keywordflow">if</span> (e.Nexposee_align.y &gt; 0) e.Nexposee_smallOrigin_y = 1 - e.Nexposee_align.y * <a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="keywordflow">if</span> (e.Nexposee_align.y &lt; 0) e.Nexposee_smallOrigin_y = -e.Nexposee_smallSize.y + e.Nexposee_align.y * <a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a>;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
+<div class="ttc" id="model_8qh_html_a61af9d6854722dad5d5e433009d21a0a"><div class="ttname"><a href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">if</a></div><div class="ttdeci">if(s!=&quot;&quot;&amp;&amp;s!=&quot;null&quot;&amp;&amp;!fexists(s))</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1d/model_8qh_source.html#l00018">model.qh:18</a></div></div>
 <div class="ttc" id="item_2dialog_8qh_html_a700a54058a31b6d69e1c4d8f544a6c48"><div class="ttname"><a href="../../d6/d88/item_2dialog_8qh.html#a700a54058a31b6d69e1c4d8f544a6c48">me</a></div><div class="ttdeci">entity me</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d88/item_2dialog_8qh_source.html#l00072">dialog.qh:72</a></div></div>
 <div class="ttc" id="wall_8qc_html_a1d28dec57cce925ad92342891bd71e7c"><div class="ttname"><a href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a></div><div class="ttdeci">float scale</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8d/wall_8qc_source.html#l00009">wall.qc:9</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
-<div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1156,7 +1156,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_35b13da68f3b87ebd8e5efaf5a26acd6.html">item</a></li><li class="navelem"><a class="el" href="../../d3/ddf/item_2nexposee_8qc.html">nexposee.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 04:22:04 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 05:27:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

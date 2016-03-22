@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('d9/d2a/common_2command_2all_8qh_source
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">        ATTRIB(genericcommand_##id, m_description, string, description); \</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">    ENDCLASS(genericcommand_##id) \</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">    REGISTER(GENERIC_COMMANDS, CMD_G, id, m_id, NEW(genericcommand_##id)); \</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">    METHOD(genericcommand_##id, m_invokecmd, void(int request, entity caller, int arguments, string command))</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">    METHOD(genericcommand_##id, m_invokecmd, void(genericcommand_##id this, int request, entity caller, int arguments, string command))</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d9/d2a/common_2command_2all_8qh.html#abfbf846736f7f2d250dfcc4c654c9aa2">   18</a></span>&#160;<a class="code" href="../../d9/d2a/common_2command_2all_8qh.html#abfbf846736f7f2d250dfcc4c654c9aa2">STATIC_INIT</a>(GENERIC_COMMANDS_aliases) {</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(GENERIC_COMMANDS, <span class="keyword">true</span>, <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(sprintf(<span class="stringliteral">&quot;alias %1$s \&quot;%2$s %1$s ${* ?}\&quot;\n&quot;</span>, it.m_name, <span class="stringliteral">&quot;qc_cmd_svmenu&quot;</span>)));</div>
@@ -147,7 +147,7 @@ $(document).ready(function(){initNavTree('d9/d2a/common_2command_2all_8qh_source
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_a56f470e76ece29cc39dabf8fca9d882.html">command</a></li><li class="navelem"><a class="el" href="../../d9/d2a/common_2command_2all_8qh.html">all.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 04:21:54 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 05:27:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

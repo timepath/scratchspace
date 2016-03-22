@@ -34,6 +34,7 @@ var sound_8qh =
     [ "CH_WEAPON_A", "d0/df5/sound_8qh.html#a5a9982ffb7b93b1b060b87401d4ea8dd", null ],
     [ "CH_WEAPON_B", "d0/df5/sound_8qh.html#aed6d064a0c5803ef206ba1f682c01a94", null ],
     [ "CH_WEAPON_SINGLE", "d0/df5/sound_8qh.html#a2b56b5494699c971f6da30c2398781f3", null ],
+    [ "s", "d0/df5/sound_8qh.html#a2016384928a1b557c51ef62964decea5", null ],
     [ "sound_str", "d0/df5/sound_8qh.html#a6695dabea02452ef89f1a180f8531aa8", null ],
     [ "VOL_BASE", "d0/df5/sound_8qh.html#a353d870104b3e8ae2a5fc5584279c735", null ],
     [ "VOL_BASEVOICE", "d0/df5/sound_8qh.html#a12d36c235c3a364016fcec97b9d83078", null ]

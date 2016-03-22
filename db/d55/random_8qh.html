@@ -168,7 +168,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d55/random_8qh_source.html#l00024">24</a> of file <a class="el" href="../../db/d55/random_8qh_source.html">random.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00634">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00636">NET_HANDLE()</a>.</p>
 
 </div>
 </div>
@@ -202,12 +202,12 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d95/random_8qc_source.html#l00093">93</a> of file <a class="el" href="../../dc/d95/random_8qc_source.html">random.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00269">M_PI</a>, <a class="el" href="../../dc/d95/random_8qc_source.html#l00092">prandom_seed</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00269">M_PI</a>, <a class="el" href="../../dc/d95/random_8qc_source.html#l00092">prandom_seed</a>, and <a class="el" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d95/random_8qc_source.html#l00106">prandomvec()</a>, <a class="el" href="../../d7/dc5/common_2sounds_2all_8inc_source.html#l00262">SND_GIB_SPLAT_RANDOM()</a>, and <a class="el" href="../../dd/d43/cl__turrets_8qc_source.html#l00280">turret_gibtoss()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    {</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordtype">float</span> c;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        c = crc16(<span class="keyword">false</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../dc/d95/random_8qc.html#a30a4e541d94c71abb9c56c014476e6a5">prandom_seed</a>), <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../dc/d95/random_8qc.html#a30a4e541d94c71abb9c56c014476e6a5">prandom_seed</a> + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a>)));</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        c = crc16(<span class="keyword">false</span>, <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../dc/d95/random_8qc.html#a30a4e541d94c71abb9c56c014476e6a5">prandom_seed</a>), <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../dc/d95/random_8qc.html#a30a4e541d94c71abb9c56c014476e6a5">prandom_seed</a> + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a>)));</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <a class="code" href="../../dc/d95/random_8qc.html#a30a4e541d94c71abb9c56c014476e6a5">prandom_seed</a> = c;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">    #ifdef USE_PRANDOM_DEBUG</span></div>
@@ -218,9 +218,9 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    }</div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="random_8qc_html_a30a4e541d94c71abb9c56c014476e6a5"><div class="ttname"><a href="../../dc/d95/random_8qc.html#a30a4e541d94c71abb9c56c014476e6a5">prandom_seed</a></div><div class="ttdeci">float prandom_seed</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d95/random_8qc_source.html#l00092">random.qc:92</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="framework_8qc_html_aef346455b3c2def821423a45227b45dd"><div class="ttname"><a href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a></div><div class="ttdeci">void LOG_TRACE(string s,...)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9fb8a895035d83abe9846f2a33470060"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a></div><div class="ttdeci">const float M_PI</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00269">csprogsdefs.qc:269</a></div></div>
+<div class="ttc" id="effectinfo_8qc_html_a2ae584d3dad891f2ae754acead0f015a"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a></div><div class="ttdeci">return strcat(s,&quot;}\n&quot;)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -318,7 +318,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>, and <a class="el" href="../../dc/d95/random_8qc_source.html#l00092">prandom_seed</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00634">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00636">NET_HANDLE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    {</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        <a class="code" href="../../dc/d95/random_8qc.html#a30a4e541d94c71abb9c56c014476e6a5">prandom_seed</a> = seed;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor">    #ifdef USE_PRANDOM_DEBUG</span></div>
@@ -395,7 +395,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d95/random_8qc_source.html#l00012">12</a> of file <a class="el" href="../../dc/d95/random_8qc_source.html">random.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00004">RandomSelection_best_priority</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00005">RandomSelection_chosen_ent</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00006">RandomSelection_chosen_float</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00007">RandomSelection_chosen_string</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00003">RandomSelection_totalweight</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00253">s</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00004">RandomSelection_best_priority</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00005">RandomSelection_chosen_ent</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00006">RandomSelection_chosen_float</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00007">RandomSelection_chosen_string</a>, <a class="el" href="../../db/d55/random_8qh_source.html#l00003">RandomSelection_totalweight</a>, and <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00203">s</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00131">bot_setnameandstuff()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00289">CheatCommand()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00134">CheatImpulse()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00444">FindSmallestTeam()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01464">FixIntermissionClient()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00504">MapVote_CheckRules_2()</a>, <a class="el" href="../../d1/dff/snake_8qc_source.html#l00168">minigame_setup_snake()</a>, <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00176">Simple_TeleportPlayer()</a>, <a class="el" href="../../d1/dff/snake_8qc_source.html#l00088">snake_new_mouse()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00315">Spawn_WeightedPoint()</a>, <a class="el" href="../../d4/dcb/monsters_2spawn_8qc_source.html#l00011">spawnmonster()</a>, <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00187">SUB_UseTargets()</a>, <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00070">TeleportPlayer()</a>, <a class="el" href="../../d2/d9b/jumppads_8qc_source.html#l00132">trigger_push_touch()</a>, and <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00195">W_RandomWeapons()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
@@ -404,7 +404,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a218e10c5750eadf78eef5f816a554f12">RandomSelection_best_priority</a> = priority;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a> = e;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a32be35647dc9e998a1420a75ae306409">RandomSelection_chosen_float</a> = f;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36">RandomSelection_chosen_string</a> = <a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36">RandomSelection_chosen_string</a> = <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a552e08e5c3811a6e477b46d8419ecf3b">RandomSelection_totalweight</a> = weight;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (priority == <a class="code" href="../../db/d55/random_8qh.html#a218e10c5750eadf78eef5f816a554f12">RandomSelection_best_priority</a>)</div>
@@ -414,15 +414,15 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        {</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a> = e;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#a32be35647dc9e998a1420a75ae306409">RandomSelection_chosen_float</a> = f;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36">RandomSelection_chosen_string</a> = <a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36">RandomSelection_chosen_string</a> = <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        }</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;}</div>
 <div class="ttc" id="random_8qh_html_a552e08e5c3811a6e477b46d8419ecf3b"><div class="ttname"><a href="../../db/d55/random_8qh.html#a552e08e5c3811a6e477b46d8419ecf3b">RandomSelection_totalweight</a></div><div class="ttdeci">float RandomSelection_totalweight</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d55/random_8qh_source.html#l00003">random.qh:3</a></div></div>
 <div class="ttc" id="random_8qh_html_a51879a4a245c602a28721b5596846f36"><div class="ttname"><a href="../../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36">RandomSelection_chosen_string</a></div><div class="ttdeci">string RandomSelection_chosen_string</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d55/random_8qh_source.html#l00007">random.qh:7</a></div></div>
 <div class="ttc" id="random_8qh_html_a32be35647dc9e998a1420a75ae306409"><div class="ttname"><a href="../../db/d55/random_8qh.html#a32be35647dc9e998a1420a75ae306409">RandomSelection_chosen_float</a></div><div class="ttdeci">float RandomSelection_chosen_float</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d55/random_8qh_source.html#l00006">random.qh:6</a></div></div>
+<div class="ttc" id="effectinfo_8qc_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00203">effectinfo.qc:203</a></div></div>
 <div class="ttc" id="random_8qh_html_a86198c138394780d6c34d63ee910c243"><div class="ttname"><a href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a></div><div class="ttdeci">entity RandomSelection_chosen_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d55/random_8qh_source.html#l00005">random.qh:5</a></div></div>
-<div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00253">oo.qh:253</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a663ea6aa3c4923b3e065cf91cc319f1b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a></div><div class="ttdeci">float random(void)</div></div>
 <div class="ttc" id="random_8qh_html_a218e10c5750eadf78eef5f816a554f12"><div class="ttname"><a href="../../db/d55/random_8qh.html#a218e10c5750eadf78eef5f816a554f12">RandomSelection_best_priority</a></div><div class="ttdeci">float RandomSelection_best_priority</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d55/random_8qh_source.html#l00004">random.qh:4</a></div></div>
 </div><!-- fragment -->
@@ -580,7 +580,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../db/d55/random_8qh.html">random.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 04:22:03 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 05:27:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

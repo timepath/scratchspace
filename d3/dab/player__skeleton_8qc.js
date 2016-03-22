@@ -2,8 +2,8 @@ var player__skeleton_8qc =
 [
     [ "class", "d3/dab/player__skeleton_8qc.html#a431b38d84a957df7a962ad2fc61f1435", null ],
     [ "free_skeleton_from_frames", "d3/dab/player__skeleton_8qc.html#ae34e60c32bc60eebb73851ebe508b3ed", null ],
-    [ "skel_set_boneabs", "d3/dab/player__skeleton_8qc.html#af1b95a664c08bce8032c1015577c6e5c", null ],
-    [ "skeleton_from_frames", "d3/dab/player__skeleton_8qc.html#a534e6d446262b5f6cedb96f0f1b5c295", null ],
+    [ "skel_set_boneabs", "d3/dab/player__skeleton_8qc.html#a7fe1291d377b2605a93fc789d164c073", null ],
+    [ "skeleton_from_frames", "d3/dab/player__skeleton_8qc.html#a9bd774b8fe11972d76dc2036e9d4af1f", null ],
     [ "skeleton_loadinfo", "d3/dab/player__skeleton_8qc.html#a475bb5589ccf136fb7b89c04120c832b", null ],
     [ "skeleton_markbones", "d3/dab/player__skeleton_8qc.html#a0cdd10c9377413ff463d7ed749b362d0", null ],
     [ "BONETYPE_LOWER", "d3/dab/player__skeleton_8qc.html#ae30bcd640df03cd117eb6491db7bf50b", null ],

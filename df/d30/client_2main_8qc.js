@@ -5,7 +5,7 @@ var client_2main_8qc =
     [ "CSQC_Ent_Remove", "df/d30/client_2main_8qc.html#a2f9a2ac6dcac9c66386af75738fb9055", null ],
     [ "CSQC_Ent_Update", "df/d30/client_2main_8qc.html#a4662b6210aacc7fd0d5102f47033de99", null ],
     [ "CSQC_Init", "df/d30/client_2main_8qc.html#ae7a71c50fddc1b6cede7022e0304a3fe", null ],
-    [ "CSQC_InputEvent", "df/d30/client_2main_8qc.html#a8f7dc7f012147c57ab2988b2cdf243b9", null ],
+    [ "CSQC_InputEvent", "df/d30/client_2main_8qc.html#a374deadb3d19478a9370dff0c498c6e6", null ],
     [ "CSQC_Parse_CenterPrint", "df/d30/client_2main_8qc.html#a14c98f605ea44a820ec9c04575f50b59", null ],
     [ "CSQC_Parse_Print", "df/d30/client_2main_8qc.html#a9a0b42398a104ebdd5b99b02df23747d", null ],
     [ "CSQC_Parse_StuffCmd", "df/d30/client_2main_8qc.html#adf345a213a00d15b4ace5d029dfaaa2d", null ],

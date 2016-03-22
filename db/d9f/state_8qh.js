@@ -8,6 +8,7 @@ var state_8qh =
     [ "CS", "db/d9f/state_8qh.html#a3e4a4ded2c3cd2d4bd68e69e98da9b35", null ],
     [ "PlayerState_attach", "db/d9f/state_8qh.html#a53a16489327364aafc4ca8b946faab8d", null ],
     [ "PlayerState_detach", "db/d9f/state_8qh.html#ae2b41267ede70802861f89a01bb03837", null ],
+    [ "STAT", "db/d9f/state_8qh.html#aa3bade4bd987dbbe92066dd4c4bdd04c", null ],
     [ "STAT", "db/d9f/state_8qh.html#a917978fc72821486ab248ab4253cf6e8", null ],
     [ "STAT", "db/d9f/state_8qh.html#a679a39c171485d416d2feba96846374d", null ],
     [ "_cs", "db/d9f/state_8qh.html#a1960d1c0908e7286f74096a0a3618086", null ],

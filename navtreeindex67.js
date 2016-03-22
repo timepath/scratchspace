@@ -1,5 +1,12 @@
 var NAVTREEINDEX67 =
 {
+"de/dcb/vector_8qh.html#aa70255a5968cc612e91c1aec32e41344":[1,0,3,55,11],
+"de/dcb/vector_8qh.html#ab167fa7c81f4d5f3092673b05f07c8a3":[1,0,3,55,19],
+"de/dcb/vector_8qh.html#abd8e65ab96a0f1779abeccc7054702f0":[1,0,3,55,27],
+"de/dcb/vector_8qh.html#abe5699c7c17a0a7fb6aacdae9e6b1ef1":[1,0,3,55,25],
+"de/dcb/vector_8qh.html#aca67feefb841ea2808381b207ea4cc42":[1,0,3,55,26],
+"de/dcb/vector_8qh.html#ad0ae47bfef31e48d06125b2b2194ba50":[1,0,3,55,15],
+"de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27":[1,0,3,55,28],
 "de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910":[1,0,3,55,6],
 "de/dcb/vector_8qh.html#ae8d8b31974c50cca8b60d3734bc00dac":[1,0,3,55,1],
 "de/dcb/vector_8qh.html#af51ffe2b6a299102846ea3cb80677406":[1,0,3,55,20],
@@ -29,8 +36,8 @@ var NAVTREEINDEX67 =
 "de/dd6/playermodel_8qc.html#afc6aaa1d6378f5d13710d6f21a548bf9":[1,0,4,4,184,12],
 "de/dd6/playermodel_8qc_source.html":[1,0,4,4,184],
 "de/dda/pickup_8qh.html":[1,0,1,5,0,8],
-"de/dda/pickup_8qh.html#aac4b46572a76a6dc16c43923c6fc284d":[1,0,1,5,0,8,1],
 "de/dda/pickup_8qh.html#aac8fcdb0dd9f7cd4d74d67a1d8e6511b":[1,0,1,5,0,8,0],
+"de/dda/pickup_8qh.html#adb402f6267948b6e377ccd990d3f1a5d":[1,0,1,5,0,8,1],
 "de/dda/pickup_8qh_source.html":[1,0,1,5,0,8],
 "de/dde/gravity_8qc.html":[1,0,1,13,3,5],
 "de/dde/gravity_8qc_source.html":[1,0,1,13,3,5],
@@ -242,12 +249,5 @@ var NAVTREEINDEX67 =
 "df/d18/checkpoint_8qc.html#a9dc1f51d314787351f62b8143e93a547":[1,0,1,14,4,0],
 "df/d18/checkpoint_8qc_source.html":[1,0,1,14,4],
 "df/d19/mutators_2mutator_2campcheck_2module_8inc.html":[1,0,1,9,0,4,1],
-"df/d19/mutators_2mutator_2campcheck_2module_8inc_source.html":[1,0,1,9,0,4,1],
-"df/d1f/client_2hud_2panel_2vote_8qc.html":[1,0,0,1,0,34],
-"df/d1f/client_2hud_2panel_2vote_8qc.html#a297e9e4e75bcd558a43f78eb74dd2140":[1,0,0,1,0,34,0],
-"df/d1f/client_2hud_2panel_2vote_8qc_source.html":[1,0,0,1,0,34],
-"df/d21/infomessages_8qc.html":[1,0,0,1,0,10],
-"df/d21/infomessages_8qc.html#a34ab7f0b1f8fc8af94288e83c3f42798":[1,0,0,1,0,10,1],
-"df/d21/infomessages_8qc.html#a8273c847de74f796939acc0aeb6d2f3d":[1,0,0,1,0,10,0],
-"df/d21/infomessages_8qc_source.html":[1,0,0,1,0,10]
+"df/d19/mutators_2mutator_2campcheck_2module_8inc_source.html":[1,0,1,9,0,4,1]
 };

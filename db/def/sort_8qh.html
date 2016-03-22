@@ -196,19 +196,19 @@ Functions</h2></td></tr>
 <div class="line">        { <a class="code" href="../../d6/d74/serverlist_8qc.html#a748bdd9b2b86f12da98d8d6f7911e470">\</a></div>
 <div class="line"><a class="code" href="../../d6/d74/serverlist_8qc.html#a748bdd9b2b86f12da98d8d6f7911e470">			for</a> (<span class="keywordtype">int</span> root = (_start); root * 2 + 1 &lt;= (_end); ) \</div>
 <div class="line">            { <a class="code" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">\</a></div>
-<div class="line"><a class="code" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">				int</a> child = root * 2 + 1; <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">\</a></div>
-<div class="line"><a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">				if</a> (child &lt; (_end) &amp;&amp; cmp(child, child + 1, <a class="code" href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a>) &lt; 0) child += 1; \</div>
-<div class="line">                <a class="code" href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a> (cmp(root, child, <a class="code" href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a>) &gt;= 0) break; \</div>
+<div class="line"><a class="code" href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">				int</a> child = root * 2 + 1; <a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">\</a></div>
+<div class="line"><a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">				if</a> (child &lt; (_end) &amp;&amp; cmp(child, child + 1, <a class="code" href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a>) &lt; 0) child += 1; \</div>
+<div class="line">                <a class="code" href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">if</a> (cmp(root, child, <a class="code" href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a>) &gt;= 0) break; \</div>
 <div class="line">                swap(root, child, <a class="code" href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a>); \</div>
 <div class="line">                root = child; \</div>
 <div class="line">            } \</div>
 <div class="line">        } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+<div class="ttc" id="model_8qh_html_a61af9d6854722dad5d5e433009d21a0a"><div class="ttname"><a href="../../d7/d1d/model_8qh.html#a61af9d6854722dad5d5e433009d21a0a">if</a></div><div class="ttdeci">if(s!=&quot;&quot;&amp;&amp;s!=&quot;null&quot;&amp;&amp;!fexists(s))</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1d/model_8qh_source.html#l00018">model.qh:18</a></div></div>
 <div class="ttc" id="sort_8qh_html_adca752bcf1a38ba812dd291dc39bc5dc"><div class="ttname"><a href="../../db/def/sort_8qh.html#adca752bcf1a38ba812dd291dc39bc5dc">int</a></div><div class="ttdeci">typedef int(int i1, int i2, entity pass) comparefunc_t</div><div class="ttdoc">&lt;0 for &lt;, ==0 for ==, &gt;0 for &gt; (like strcmp) </div></div>
 <div class="ttc" id="serverlist_8qc_html_a748bdd9b2b86f12da98d8d6f7911e470"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a748bdd9b2b86f12da98d8d6f7911e470">for</a></div><div class="ttdeci">for(int i=0, n=tokenize_console(s);i&lt; n;++i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00230">serverlist.qc:230</a></div></div>
 <div class="ttc" id="effectinfo__ctf_8inc_html_a73709cb0008f2faa193bce8415f41a95"><div class="ttname"><a href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a></div><div class="ttdeci">#define pass(name, colormin, colormax)</div></div>
-<div class="ttc" id="sound_8qh_html_aa11ce4184d45ade66f0d4e4d1a2c3258"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aa11ce4184d45ade66f0d4e4d1a2c3258">if</a></div><div class="ttdeci">if(!s) return</div></div>
 </div><!-- fragment -->
 <p>Referenced by <a class="el" href="../../db/def/sort_8qh_source.html#l00008">heapsort()</a>.</p>
 
@@ -255,7 +255,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../db/def/sort_8qh.html#adbcf7bdce2adadeafd5773ee731de221">heapify</a>, and <a class="el" href="../../db/def/sort_8qh.html#a3ddcb3e4e37b9c578711255f911c582b">siftdown</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d4a/turrets_2config_8qc_source.html#l00028">Dump_Turret_Settings()</a>, <a class="el" href="../../d6/d1c/weapons_2config_8qc_source.html#l00025">Dump_Weapon_Settings()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00020">HUD_Weapons()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00153">MapInfo_FilterGametype()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00185">MapInfo_FilterString()</a>, and <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00169">W_FixWeaponOrder_BuildImpulseList()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d4a/turrets_2config_8qc_source.html#l00028">Dump_Turret_Settings()</a>, <a class="el" href="../../d6/d1c/weapons_2config_8qc_source.html#l00025">Dump_Weapon_Settings()</a>, <a class="el" href="../../d4/def/weapons_8qc_source.html#l00022">HUD_Weapons()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00153">MapInfo_FilterGametype()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00185">MapInfo_FilterString()</a>, and <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00169">W_FixWeaponOrder_BuildImpulseList()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">    #define heapify(_count) \</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">        MACRO_BEGIN \</span></div>
@@ -457,7 +457,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../db/def/sort_8qh.html">sort.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 04:22:03 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 05:27:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -30,5 +30,5 @@ var client_2miscfunctions_8qc =
     [ "RegisterTeam", "dc/d98/client_2miscfunctions_8qc.html#a6caf2e0c66aa3cfa4a63689e650de692", null ],
     [ "RemovePlayer", "dc/d98/client_2miscfunctions_8qc.html#a1ff2ab6f40ef91103b3fd8a9e083b4ca", null ],
     [ "RemoveTeam", "dc/d98/client_2miscfunctions_8qc.html#aecc11bf0c8cdf3c47928f7d68fb58af4", null ],
-    [ "URI_Get_Callback", "dc/d98/client_2miscfunctions_8qc.html#a9bd1d6b862b6326cdaf630fc3b7f1d11", null ]
+    [ "URI_Get_Callback", "dc/d98/client_2miscfunctions_8qc.html#adca84d1c7403379d372fc6e45bbf5130", null ]
 ];

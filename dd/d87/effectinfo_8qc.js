@@ -22,6 +22,6 @@ var effectinfo_8qc =
     [ "effectinfo_dump", "dd/d87/effectinfo_8qc.html#ab54004c150a871ffc834d13a84684e37", null ],
     [ "effectinfo_read", "dd/d87/effectinfo_8qc.html#a331bcf6c0483f2f74b9ebc3f52b11560", null ],
     [ "GENERIC_COMMAND", "dd/d87/effectinfo_8qc.html#ae328f1e3b2e9b1cfb1b78938f44f8173", null ],
-    [ "METHOD", "dd/d87/effectinfo_8qc.html#ab449080f70d40df8bf761ec51912e876", null ],
-    [ "METHOD", "dd/d87/effectinfo_8qc.html#ae19857034ea6251f6aba22b00eaacf7a", null ]
+    [ "strcat", "dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a", null ],
+    [ "s", "dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c", null ]
 ];

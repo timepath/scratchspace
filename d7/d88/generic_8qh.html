@@ -214,7 +214,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/d88/generic_8qh_source.html#l00035">35</a> of file <a class="el" href="../../d7/d88/generic_8qh_source.html">generic.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00184">CommonCommand_macro_write_aliases()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01800">GameCommand_macro_write_aliases()</a>, <a class="el" href="../../df/da7/generic_8qc_source.html#l00563">GenericCommand_macro_write_aliases()</a>, and <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00499">LocalCommand_macro_write_aliases()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html#l00184">CommonCommand_macro_write_aliases()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01800">GameCommand_macro_write_aliases()</a>, <a class="el" href="../../df/da7/generic_8qc_source.html#l00563">GenericCommand_macro_write_aliases()</a>, and <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00508">LocalCommand_macro_write_aliases()</a>.</p>
 
 </div>
 </div>
@@ -265,9 +265,9 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/da7/generic_8qc_source.html#l00032">32</a> of file <a class="el" href="../../df/da7/generic_8qc_source.html">generic.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/d88/generic_8qh_source.html#l00041">curl_uri_get_cvar</a>, <a class="el" href="../../d7/d88/generic_8qh_source.html#l00040">curl_uri_get_exec</a>, <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00006">cvar_set</a>, <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00022">localcmd</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00058">LOG_INFO</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00070">LOG_TRACEF</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, and <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00007">URI_GET_CURL</a>.</p>
+<p>References <a class="el" href="../../d7/d88/generic_8qh_source.html#l00041">curl_uri_get_cvar</a>, <a class="el" href="../../d7/d88/generic_8qh_source.html#l00040">curl_uri_get_exec</a>, <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00006">cvar_set</a>, <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00022">localcmd</a>, <a class="el" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00070">LOG_TRACEF</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, and <a class="el" href="../../dc/dbb/urllib_8qh_source.html#l00007">URI_GET_CURL</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00486">URI_Get_Callback()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00488">URI_Get_Callback()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordtype">int</span> i = <span class="keywordtype">id</span> - <a class="code" href="../../dc/dbb/urllib_8qh.html#a3761f7fe7b992fa3a4cb0b007bbd9a72">URI_GET_CURL</a>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordtype">float</span> do_exec = <a class="code" href="../../d7/d88/generic_8qh.html#a5f8848943d5e2e9f5be637396b97fddd">curl_uri_get_exec</a>[i];</div>
@@ -288,7 +288,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span>(!do_exec)</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">if</span> (!do_cvar)</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<a class="code" href="../../de/d48/dialog__settings__game_8qc.html#a8a672df12bf358a22e14bc370f55d8f1">data</a>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a>(<a class="code" href="../../de/d48/dialog__settings__game_8qc.html#a8a672df12bf358a22e14bc370f55d8f1">data</a>);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
 <div class="ttc" id="generic_8qh_html_a5f8848943d5e2e9f5be637396b97fddd"><div class="ttname"><a href="../../d7/d88/generic_8qh.html#a5f8848943d5e2e9f5be637396b97fddd">curl_uri_get_exec</a></div><div class="ttdeci">float curl_uri_get_exec[URI_GET_CURL_END-URI_GET_CURL+1]</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d88/generic_8qh_source.html#l00040">generic.qh:40</a></div></div>
 <div class="ttc" id="menudefs_8qh_html_a3d23a92a3bb3bcbb467f1fa2bdaa54b3"><div class="ttname"><a href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a></div><div class="ttdeci">#define localcmd</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d95/menudefs_8qh_source.html#l00022">menudefs.qh:22</a></div></div>
@@ -296,8 +296,8 @@ Variables</h2></td></tr>
 <div class="ttc" id="generic_8qh_html_a39d724775165a6eed9f5a054ef603dc4"><div class="ttname"><a href="../../d7/d88/generic_8qh.html#a39d724775165a6eed9f5a054ef603dc4">curl_uri_get_cvar</a></div><div class="ttdeci">string curl_uri_get_cvar[URI_GET_CURL_END-URI_GET_CURL+1]</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d88/generic_8qh_source.html#l00041">generic.qh:41</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
 <div class="ttc" id="urllib_8qh_html_a3761f7fe7b992fa3a4cb0b007bbd9a72"><div class="ttname"><a href="../../dc/dbb/urllib_8qh.html#a3761f7fe7b992fa3a4cb0b007bbd9a72">URI_GET_CURL</a></div><div class="ttdeci">const int URI_GET_CURL</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbb/urllib_8qh_source.html#l00007">urllib.qh:7</a></div></div>
-<div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00058">log.qh:58</a></div></div>
 <div class="ttc" id="log_8qh_html_a2872337768358857f71a83488272df5b"><div class="ttname"><a href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a></div><div class="ttdeci">#define LOG_TRACEF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00070">log.qh:70</a></div></div>
+<div class="ttc" id="common_2items_2item_8qh_html_ae302aa82565a3721ffb781350f49b7af"><div class="ttname"><a href="../../d7/d7c/common_2items_2item_8qh.html#ae302aa82565a3721ffb781350f49b7af">LOG_INFO</a></div><div class="ttdeci">LOG_INFO(&quot;A game item\n&quot;)</div></div>
 <div class="ttc" id="dialog__settings__game_8qc_html_a8a672df12bf358a22e14bc370f55d8f1"><div class="ttname"><a href="../../de/d48/dialog__settings__game_8qc.html#a8a672df12bf358a22e14bc370f55d8f1">data</a></div><div class="ttdeci">DataSource data</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d48/dialog__settings__game_8qc_source.html#l00099">dialog_settings_game.qc:99</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -305,7 +305,7 @@ Variables</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d88/generic_8qh_a802e2fce290ef7ee78e2c5272017a500_cgraph.svg" width="302" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d88/generic_8qh_a802e2fce290ef7ee78e2c5272017a500_cgraph.svg" width="310" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -338,13 +338,13 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/da7/generic_8qc_source.html#l00574">574</a> of file <a class="el" href="../../df/da7/generic_8qc_source.html">generic.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00031">argv_end_index</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00028">argv_start_index</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../df/da7/generic_8qc_source.html#l00543">GenericCommand_macro_command()</a>, <a class="el" href="../../dd/dee/markup_8qc_source.html#l00059">GenericCommand_markup()</a>, <a class="el" href="../../de/d11/color_8qh_source.html#l00154">hsl_to_rgb()</a>, <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00022">localcmd</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00032">n</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../de/d9a/item_8qc_source.html#l00028">rgb</a>, <a class="el" href="../../de/d11/color_8qh_source.html#l00169">rgb_to_hexcolor()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00253">s</a>, <a class="el" href="../../df/d00/common_2notifications_2all_8inc_source.html#l00414">s2</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00025">tokenize_console</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00031">argv_end_index</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00028">argv_start_index</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../df/da7/generic_8qc_source.html#l00543">GenericCommand_macro_command()</a>, <a class="el" href="../../dd/dee/markup_8qc_source.html#l00059">GenericCommand_markup()</a>, <a class="el" href="../../de/d11/color_8qh_source.html#l00154">hsl_to_rgb()</a>, <a class="el" href="../../d0/d95/menudefs_8qh_source.html#l00022">localcmd</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00032">n</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../de/d9a/item_8qc_source.html#l00028">rgb</a>, <a class="el" href="../../de/d11/color_8qh_source.html#l00169">rgb_to_hexcolor()</a>, <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00203">s</a>, <a class="el" href="../../df/d00/common_2notifications_2all_8inc_source.html#l00414">s2</a>, <a class="el" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00025">tokenize_console</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00510">GameCommand()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00519">GameCommand()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;{</div>
 <div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    <span class="keywordtype">float</span> argc = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a>(command);</div>
 <div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>, j, f, i;</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>, <a class="code" href="../../df/d00/common_2notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b">s2</a>, c;</div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a>, <a class="code" href="../../df/d00/common_2notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b">s2</a>, c;</div>
 <div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../de/d9a/item_8qc.html#afdcb4f815979aecb7828e04ea24bc64e">rgb</a>;</div>
 <div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;</div>
 <div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;    <span class="comment">// Guide for working with argc arguments by example:</span></div>
@@ -359,10 +359,10 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(argc &gt;= 3 &amp;&amp; <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0) == <span class="stringliteral">&quot;red&quot;</span>)</div>
 <div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;    {</div>
 <div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(command, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(2), <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a3596f9ca40a1cecf3e9eafa08267fb9a">argv_end_index</a>(-1) - <a class="code" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(2));</div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1), <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../dd/dee/markup_8qc.html#a088441ad2b78dddb6437e32f60ad4a01">GenericCommand_markup</a>(s)));</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1), <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../dd/dee/markup_8qc.html#a088441ad2b78dddb6437e32f60ad4a01">GenericCommand_markup</a>(s)));</div>
 <div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;    }</div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(argc &gt;= 3 &amp;&amp; crc16(0, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0)) == 38566 &amp;&amp; crc16(0, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0), <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0), <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0))) == 59830)</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(argc &gt;= 3 &amp;&amp; crc16(0, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0)) == 38566 &amp;&amp; crc16(0, <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0), <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0), <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0))) == 59830)</div>
 <div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    {</div>
 <div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        <span class="comment">// other test case</span></div>
 <div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        s = strconv(2, 0, 0, <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(command, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(2), <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a3596f9ca40a1cecf3e9eafa08267fb9a">argv_end_index</a>(-1) - <a class="code" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(2)));</div>
@@ -372,25 +372,25 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        s2 = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        <span class="keywordflow">for</span>(i = 0; i &lt; <a class="code" href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a>; ++i)</div>
 <div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;        {</div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;            s2 = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s2, <span class="stringliteral">&quot;AH&quot;</span>);</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;            s2 = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(s2, <span class="stringliteral">&quot;AH&quot;</span>);</div>
 <div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;        }</div>
 <div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;</div>
 <div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.1)</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;            s2 = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s2, 1, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(s2) - 1), <span class="stringliteral">&quot;A&quot;</span>);</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;            s2 = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s2, 1, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(s2) - 1), <span class="stringliteral">&quot;A&quot;</span>);</div>
 <div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;</div>
 <div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;        <span class="keywordflow">if</span>(s == <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;            s = <a class="code" href="../../df/d00/common_2notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b">s2</a>;</div>
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.8)</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;                s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot; &quot;</span>, s2);</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;                s = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(s, <span class="stringliteral">&quot; &quot;</span>, s2);</div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;                s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s2, <span class="stringliteral">&quot; &quot;</span>, s);</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;                s = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(s2, <span class="stringliteral">&quot; &quot;</span>, s);</div>
 <div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;</div>
 <div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;        s2 = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(s) - 2, 2);</div>
 <div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;        <span class="keywordflow">if</span>(s2 == <span class="stringliteral">&quot;AH&quot;</span> || s2 == <span class="stringliteral">&quot;AY&quot;</span>)</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;            s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot;))&quot;</span>);</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;            s = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(s, <span class="stringliteral">&quot;))&quot;</span>);</div>
 <div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;            s = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot; ))&quot;</span>);</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;            s = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(s, <span class="stringliteral">&quot; ))&quot;</span>);</div>
 <div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;</div>
 <div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.1)</div>
 <div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;            s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 0, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(s) - 1);</div>
@@ -398,11 +398,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.1)</div>
 <div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;            s = strconv(1, 0, 0, s);</div>
 <div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1), <span class="stringliteral">&quot; &quot;</span>, s));</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1), <span class="stringliteral">&quot; &quot;</span>, s));</div>
 <div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;</div>
 <div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    }</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(argc &gt;= 3 &amp;&amp; crc16(0, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0)) == 3826 &amp;&amp; crc16(0, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0), <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0), <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0))) == 55790)</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(argc &gt;= 3 &amp;&amp; crc16(0, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0)) == 3826 &amp;&amp; crc16(0, <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0), <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0), <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0))) == 55790)</div>
 <div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;    {</div>
 <div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;        <span class="comment">// test case for terencehill&#39;s color codes</span></div>
 <div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;        s = strdecolorize(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(command, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(2), <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a3596f9ca40a1cecf3e9eafa08267fb9a">argv_end_index</a>(-1) - <a class="code" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(2)));</div>
@@ -428,12 +428,12 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;            <span class="keywordflow">if</span>(c != <span class="stringliteral">&quot; &quot;</span>)</div>
 <div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;            {</div>
 <div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;                rgb = <a class="code" href="../../d5/df2/common_2util_8qh.html#a981aa7efb1dbc17c92ba11492dc10c57">hsl_to_rgb</a>(<span class="stringliteral">&#39;1 0 0&#39;</span> * (j * i + f) + <span class="stringliteral">&#39;0 1 .5&#39;</span>);</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;                c = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#aca8aaff26f911c335ec938226743b7ab">rgb_to_hexcolor</a>(rgb), c);</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;                c = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#aca8aaff26f911c335ec938226743b7ab">rgb_to_hexcolor</a>(rgb), c);</div>
 <div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;            }</div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;            s2 = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s2, c);</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;            s2 = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(s2, c);</div>
 <div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;        }</div>
 <div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;</div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;        <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1), <span class="stringliteral">&quot; &quot;</span>, s2));</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;        <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1), <span class="stringliteral">&quot; &quot;</span>, s2));</div>
 <div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;</div>
 <div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;    }</div>
@@ -444,12 +444,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="common_2notifications_2all_8inc_html_a0c3e091adeda4f2178165df11bc8225b"><div class="ttname"><a href="../../df/d00/common_2notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b">s2</a></div><div class="ttdeci">spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2 f1 f1points s2 minigame1_name s2</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d00/common_2notifications_2all_8inc_source.html#l00414">all.inc:414</a></div></div>
 <div class="ttc" id="menudefs_8qh_html_a3d23a92a3bb3bcbb467f1fa2bdaa54b3"><div class="ttname"><a href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a></div><div class="ttdeci">#define localcmd</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d95/menudefs_8qh_source.html#l00022">menudefs.qh:22</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
+<div class="ttc" id="effectinfo_8qc_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00203">effectinfo.qc:203</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a3596f9ca40a1cecf3e9eafa08267fb9a"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a3596f9ca40a1cecf3e9eafa08267fb9a">argv_end_index</a></div><div class="ttdeci">#define argv_end_index</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00031">dpextensions.qh:31</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="markup_8qc_html_a088441ad2b78dddb6437e32f60ad4a01"><div class="ttname"><a href="../../dd/dee/markup_8qc.html#a088441ad2b78dddb6437e32f60ad4a01">GenericCommand_markup</a></div><div class="ttdeci">string GenericCommand_markup(string s2)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dee/markup_8qc_source.html#l00059">markup.qc:59</a></div></div>
 <div class="ttc" id="dpextensions_8qh_html_adf1bc71dd76ed8f9578de181202015d2"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a></div><div class="ttdeci">#define argv_start_index</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00028">dpextensions.qh:28</a></div></div>
-<div class="ttc" id="oo_8qh_html_ab7123126e4885ef647dd9c6e3807a21c"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#ab7123126e4885ef647dd9c6e3807a21c">s</a></div><div class="ttdeci">return s</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00253">oo.qh:253</a></div></div>
 <div class="ttc" id="item_8qc_html_afdcb4f815979aecb7828e04ea24bc64e"><div class="ttname"><a href="../../de/d9a/item_8qc.html#afdcb4f815979aecb7828e04ea24bc64e">rgb</a></div><div class="ttdeci">vector rgb</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9a/item_8qc_source.html#l00028">item.qc:28</a></div></div>
 <div class="ttc" id="generic_8qc_html_a4f11464afe3db58f51d8198dd57a703f"><div class="ttname"><a href="../../df/da7/generic_8qc.html#a4f11464afe3db58f51d8198dd57a703f">GenericCommand_macro_command</a></div><div class="ttdeci">float GenericCommand_macro_command(float argc, string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/da7/generic_8qc_source.html#l00543">generic.qc:543</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
@@ -458,6 +457,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a43f26093a7cb03b412dedf6c6b36eed8"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a></div><div class="ttdeci">#define tokenize_console</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00025">dpextensions.qh:25</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a981aa7efb1dbc17c92ba11492dc10c57"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a981aa7efb1dbc17c92ba11492dc10c57">hsl_to_rgb</a></div><div class="ttdeci">vector hsl_to_rgb(vector hsl)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d11/color_8qh_source.html#l00154">color.qh:154</a></div></div>
+<div class="ttc" id="effectinfo_8qc_html_a2ae584d3dad891f2ae754acead0f015a"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a></div><div class="ttdeci">return strcat(s,&quot;}\n&quot;)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a663ea6aa3c4923b3e065cf91cc319f1b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a></div><div class="ttdeci">float random(void)</div></div>
 </div><!-- fragment -->
@@ -515,7 +515,7 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;{</div>
 <div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    <span class="keywordtype">string</span> c = <a class="code" href="../../d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a">strtolower</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0));</div>
 <div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(GENERIC_COMMANDS, it.m_name == c, {</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;        it.m_invokecmd(<a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, argc, command);</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;        it.m_invokecmd(it, <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, argc, command);</div>
 <div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    });</div>
 <div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -563,20 +563,30 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/da7/generic_8qc_source.html#l00538">538</a> of file <a class="el" href="../../df/da7/generic_8qc_source.html">generic.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, and <a class="el" href="../../db/da0/log_8qh_source.html#l00059">LOG_INFOF</a>.</p>
+<p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, and <a class="el" href="../../de/dda/pickup_8qh.html#adb402f6267948b6e377ccd990d3f1a5d">LOG_INFOF()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00510">GameCommand()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00519">GameCommand()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;{</div>
-<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(GENERIC_COMMANDS, <span class="keyword">true</span>, <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;  ^2%s^7: %s\n&quot;</span>, it.m_name, it.m_description));</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(GENERIC_COMMANDS, <span class="keyword">true</span>, <a class="code" href="../../de/dda/pickup_8qh.html#adb402f6267948b6e377ccd990d3f1a5d">LOG_INFOF</a>(<span class="stringliteral">&quot;  ^2%s^7: %s\n&quot;</span>, it.m_name, it.m_description));</div>
 <div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;}</div>
-<div class="ttc" id="log_8qh_html_ab709d1a9c4f30481019dd95e67a4f9f5"><div class="ttname"><a href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a></div><div class="ttdeci">#define LOG_INFOF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00059">log.qh:59</a></div></div>
+<div class="ttc" id="pickup_8qh_html_adb402f6267948b6e377ccd990d3f1a5d"><div class="ttname"><a href="../../de/dda/pickup_8qh.html#adb402f6267948b6e377ccd990d3f1a5d">LOG_INFOF</a></div><div class="ttdeci">LOG_INFOF(&quot;%s: %s\n&quot;, etos(this), this.m_name)</div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-8-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d88/generic_8qh_af21b5f0914d24ba07dcd52f606b8518e_cgraph.svg" width="358" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d88/generic_8qh_af21b5f0914d24ba07dcd52f606b8518e_icgraph.svg" width="379" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -602,11 +612,11 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d9/d71/command_8qh_source.html#l00005">CMD_REQUEST_USAGE</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">NULL</a>, and <a class="el" href="../../d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a">strtolower()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00510">GameCommand()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d8c/cl__cmd_8qc_source.html#l00519">GameCommand()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;{</div>
 <div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    <span class="keywordtype">string</span> c = <a class="code" href="../../d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a">strtolower</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1));</div>
 <div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(GENERIC_COMMANDS, it.m_name == c, {</div>
-<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        it.m_invokecmd(<a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, argc, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;        it.m_invokecmd(it, <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, argc, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;    });</div>
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -617,21 +627,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d88/generic_8qh_ad2ffe1c772f6454a87b6536bfdffe768_cgraph.svg" width="310" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d88/generic_8qh_ad2ffe1c772f6454a87b6536bfdffe768_icgraph.svg" width="347" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -664,11 +674,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="generic_8qh_html_a44c76290bfaf0ae7ebacd68341676cdd"><div class="ttname"><a href="../../d7/d88/generic_8qh.html#a44c76290bfaf0ae7ebacd68341676cdd">CMD_Write_Alias</a></div><div class="ttdeci">#define CMD_Write_Alias(execute, command, description)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d88/generic_8qh_source.html#l00035">generic.qh:35</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d88/generic_8qh_a4949cbdd574b98248ac7c6fe9e48a096_icgraph.svg" width="392" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -731,7 +741,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_a56f470e76ece29cc39dabf8fca9d882.html">command</a></li><li class="navelem"><a class="el" href="../../d7/d88/generic_8qh.html">generic.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 04:22:00 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 05:27:49 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

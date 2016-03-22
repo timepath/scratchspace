@@ -118,7 +118,7 @@ $(document).ready(function(){initNavTree('d2/d06/server_2command_2common_8qh_sou
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">        ATTRIB(commoncommand_##id, m_description, string, description); \</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">    ENDCLASS(commoncommand_##id) \</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">    REGISTER(COMMON_COMMANDS, CMD_SV, id, m_id, NEW(commoncommand_##id)); \</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">    METHOD(commoncommand_##id, m_invokecmd, void(int request, entity caller, int arguments, string command))</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">    METHOD(commoncommand_##id, m_invokecmd, void(commoncommand_##id this, int request, entity caller, int arguments, string command))</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d2/d06/server_2command_2common_8qh.html#ad4496cee4e1dbdf060fc6871b8212a7b">   17</a></span>&#160;<a class="code" href="../../d2/d06/server_2command_2common_8qh.html#ad4496cee4e1dbdf060fc6871b8212a7b">STATIC_INIT</a>(COMMON_COMMANDS_aliases) {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(COMMON_COMMANDS, <span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(<a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(sprintf(<span class="stringliteral">&quot;alias %1$s \&quot;%2$s %1$s ${* ?}\&quot;\n&quot;</span>, it.m_name, <span class="stringliteral">&quot;qc_cmd_svcmd&quot;</span>))));</div>
@@ -271,7 +271,7 @@ $(document).ready(function(){initNavTree('d2/d06/server_2command_2common_8qh_sou
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;{</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordtype">string</span> c = <a class="code" href="../../d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a">strtolower</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0));</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(COMMON_COMMANDS, it.m_name == c, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        it.m_invokecmd(<a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, caller, argc, command);</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        it.m_invokecmd(it, <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, caller, argc, command);</div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    ));</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -281,7 +281,7 @@ $(document).ready(function(){initNavTree('d2/d06/server_2command_2common_8qh_sou
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;{</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordtype">string</span> c = <a class="code" href="../../d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a">strtolower</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1));</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(COMMON_COMMANDS, it.m_name == c, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        it.m_invokecmd(<a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>, caller, argc, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        it.m_invokecmd(it, <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>, caller, argc, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    ));</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -369,7 +369,7 @@ $(document).ready(function(){initNavTree('d2/d06/server_2command_2common_8qh_sou
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d2/d06/server_2command_2common_8qh.html">common.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 04:21:56 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 05:27:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

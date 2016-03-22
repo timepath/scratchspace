@@ -1,6 +1,6 @@
 var client_2mapvoting_8qc =
 [
-    [ "Cmd_MapVote_MapDownload", "d4/d0d/client_2mapvoting_8qc.html#aa4c882a19fdbbb8e2e4ecc2ce501ded7", null ],
+    [ "Cmd_MapVote_MapDownload", "d4/d0d/client_2mapvoting_8qc.html#a08c0aab74864d494f4b7ef702a0703ca", null ],
     [ "GameTypeVote_DrawGameTypeItem", "d4/d0d/client_2mapvoting_8qc.html#ac0b940b69fe411f626169357481ff8b9", null ],
     [ "GameTypeVote_ReadOption", "d4/d0d/client_2mapvoting_8qc.html#a2d18123ee9cdfee569be86229f2cf9aa", null ],
     [ "HUD_GetTableSize_BestItemAR", "d4/d0d/client_2mapvoting_8qc.html#abed4aa2c37e69cf8b4fdeab69c7e0076", null ],
@@ -12,7 +12,7 @@ var client_2mapvoting_8qc =
     [ "MapVote_FormatMapItem", "d4/d0d/client_2mapvoting_8qc.html#ab2a03aab43806a5e9fc79dca1c1eaab4", null ],
     [ "MapVote_GridVec", "d4/d0d/client_2mapvoting_8qc.html#a4a9b67e443c57173feebfd39af030ee6", null ],
     [ "MapVote_Init", "d4/d0d/client_2mapvoting_8qc.html#a8c437df1e36d1d6bc2c656765173f4b1", null ],
-    [ "MapVote_InputEvent", "d4/d0d/client_2mapvoting_8qc.html#aa0ea6db360d44f69361202c0a6eea1c8", null ],
+    [ "MapVote_InputEvent", "d4/d0d/client_2mapvoting_8qc.html#a9d66cb2f3fbf1461a7e44678042af2fd", null ],
     [ "MapVote_MoveDown", "d4/d0d/client_2mapvoting_8qc.html#acf233104f088ec5d9af3443dd35f1eb6", null ],
     [ "MapVote_MoveLeft", "d4/d0d/client_2mapvoting_8qc.html#a9852822dbb8fff882c554355d54c2c27", null ],
     [ "MapVote_MoveRight", "d4/d0d/client_2mapvoting_8qc.html#a470d0e06ac436efbcb76ffb899ebaec4", null ],
@@ -21,7 +21,7 @@ var client_2mapvoting_8qc =
     [ "MapVote_ReadOption", "d4/d0d/client_2mapvoting_8qc.html#a6de24ba32dab2d5beaf1bd8414a4489c", null ],
     [ "MapVote_RGB", "d4/d0d/client_2mapvoting_8qc.html#ab80a012b6d9531a38dd52069edc63811", null ],
     [ "MapVote_Selection", "d4/d0d/client_2mapvoting_8qc.html#af980301f0a5f2a02ac8b0502d1a4951a", null ],
-    [ "MapVote_SendChoice", "d4/d0d/client_2mapvoting_8qc.html#a70f10347911578609c97acd6bc08af7b", null ],
+    [ "MapVote_SendChoice", "d4/d0d/client_2mapvoting_8qc.html#a7ec875daee7cdc2ca76d0aadbe791656", null ],
     [ "MapVote_UpdateMask", "d4/d0d/client_2mapvoting_8qc.html#a31bff6c863a19e61357526310c39f395", null ],
     [ "MapVote_UpdateVotes", "d4/d0d/client_2mapvoting_8qc.html#a85c066fc96bd085a84d5d60be4aafaed", null ],
     [ "NET_HANDLE", "d4/d0d/client_2mapvoting_8qc.html#aa02a7858026ab986e154231aae514df0", null ],

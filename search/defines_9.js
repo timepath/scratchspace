@@ -16,7 +16,7 @@ var searchData=
   ['inwater',['inwater',['../dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3',1,'pathlib.qh']]],
   ['is_5fbot_5fclient',['IS_BOT_CLIENT',['../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6',1,'_all.qh']]],
   ['is_5fcheat',['IS_CHEAT',['../d6/de9/cheats_8qc.html#ab206e315ccef4e0f3fa1ff9099b1c184',1,'cheats.qc']]],
-  ['is_5fclient',['is_client',['../d9/ddc/server_2__all_8qh.html#a9950825571b3224daaa84497327dfcfa',1,'is_client():&#160;_all.qh'],['../d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834',1,'IS_CLIENT():&#160;_all.qh']]],
+  ['is_5fclient',['IS_CLIENT',['../d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834',1,'IS_CLIENT():&#160;_all.qh'],['../d9/ddc/server_2__all_8qh.html#a5426b7fad71dcc3faa27252c9c752db9',1,'is_Client():&#160;_all.qh']]],
   ['is_5fdead',['IS_DEAD',['../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944',1,'IS_DEAD():&#160;miscfunctions.qh'],['../dc/d73/server_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944',1,'IS_DEAD():&#160;miscfunctions.qh']]],
   ['is_5fdead_5fframe',['IS_DEAD_FRAME',['../dc/d3d/csqcmodel__hooks_8qc.html#a03e325439a3c7e40dda1730cd4251a4c',1,'csqcmodel_hooks.qc']]],
   ['is_5fdecreasing',['IS_DECREASING',['../d0/d2a/client_2main_8qh.html#a1310f6ab1eb47643385baab1b3227603',1,'main.qh']]],
