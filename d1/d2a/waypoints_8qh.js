@@ -20,7 +20,7 @@ var waypoints_8qh =
     [ "waypoint_spawnforitem_force", "d1/d2a/waypoints_8qh.html#ad27523bc57e3e597f8bfa75bf7ddd72e", null ],
     [ "waypoint_spawnforteleporter", "d1/d2a/waypoints_8qh.html#ac66bb8eae7635c12297283fe2e4a6aa2", null ],
     [ "waypoint_spawnforteleporter_v", "d1/d2a/waypoints_8qh.html#ae4f869607f4c1be41a005c4e04c08381", null ],
-    [ "waypoint_spawnpersonal", "d1/d2a/waypoints_8qh.html#ae4dcf64951331ac6bf5a0347af5b8911", null ],
+    [ "waypoint_spawnpersonal", "d1/d2a/waypoints_8qh.html#aab164ee392b5c403e32390e58807707f", null ],
     [ "waypoint_think", "d1/d2a/waypoints_8qh.html#a4c3ec3b037bad6d5773033aa06bd0cb2", null ],
     [ "botframe_cachedwaypointlinks", "d1/d2a/waypoints_8qh.html#a3cdf59b59842bdac03ad7f6403c5364f", null ],
     [ "botframe_loadedforcedlinks", "d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7", null ],

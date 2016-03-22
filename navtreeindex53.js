@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"db/d7f/effectinfo_8inc.html#abf79907d5f2e87834f984f4e4aed023c":[1,0,1,2,5,287],
 "db/d7f/effectinfo_8inc.html#abf83e57dd2ecf50cfba4f917d74c2e4e":[1,0,1,2,5,74],
 "db/d7f/effectinfo_8inc.html#abf9b92ff1018385fa215ba5982968bf1":[1,0,1,2,5,321],
 "db/d7f/effectinfo_8inc.html#abfb2f34963c7af9409d986e9e1663599":[1,0,1,2,5,286],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "db/dab/common_2deathtypes_2all_8qh.html#a3d2a6e3591b346acd119e615627b5f5b":[1,0,1,1,2,6],
 "db/dab/common_2deathtypes_2all_8qh.html#a422a33d46ff07f65430b21152a187e7f":[1,0,1,1,2,14],
 "db/dab/common_2deathtypes_2all_8qh.html#a458ac134010513212126d1e65bc5f2e0":[1,0,1,1,2,8],
-"db/dab/common_2deathtypes_2all_8qh.html#a511a8cb366fb4918f14fab9d9ba50557":[1,0,1,1,2,10],
-"db/dab/common_2deathtypes_2all_8qh.html#a5323a267d4110e1c2a732dc9263af5c5":[1,0,1,1,2,15]
+"db/dab/common_2deathtypes_2all_8qh.html#a511a8cb366fb4918f14fab9d9ba50557":[1,0,1,1,2,10]
 };

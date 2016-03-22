@@ -1,5 +1,6 @@
 var NAVTREEINDEX50 =
 {
+"da/daa/server_2weapons_2common_8qc_source.html":[1,0,5,4,2],
 "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html":[1,0,4,4,102],
 "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#a142e52b387628b2fec2e45519a47e2ab":[1,0,4,4,102,1],
 "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#ac0078baa760c9d4ecac11e76f36369a1":[1,0,4,4,102,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX50 =
 "db/d20/round__handler_8qh.html#a9f9012d50d940fe62137392d78988b0f":[1,0,5,51,8],
 "db/d20/round__handler_8qh.html#abdc33cf25e725134a9b48e79c7031bcf":[1,0,5,51,13],
 "db/d20/round__handler_8qh.html#abfa4eafbc361865597bedf1979325249":[1,0,5,51,11],
-"db/d20/round__handler_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683":[1,0,5,51,17],
-"db/d20/round__handler_8qh.html#af448ee5d5b9bb1bb462abc0bc0ae3b79":[1,0,5,51,1]
+"db/d20/round__handler_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683":[1,0,5,51,17]
 };

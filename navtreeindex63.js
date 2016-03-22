@@ -1,5 +1,6 @@
 var NAVTREEINDEX63 =
 {
+"de/d03/effectinfo__vehicles_8inc_source.html":[1,0,1,2,16],
 "de/d09/linkedlist_8qh.html":[1,0,3,21],
 "de/d09/linkedlist_8qh.html#a08e4d23cbcd37a4f692e83dd58acf874":[1,0,3,21,5],
 "de/d09/linkedlist_8qh.html#a34653d18434b71c75519450a30851848":[1,0,3,21,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX63 =
 "de/d4d/sv__controlpoint_8qc.html#af26a64daadc7ab85790d544df9a220e3":[1,0,1,3,0,1,6,1],
 "de/d4d/sv__controlpoint_8qc_source.html":[1,0,1,3,0,1,6],
 "de/d4f/teamplay_8qc.html":[1,0,5,70],
-"de/d4f/teamplay_8qc.html#a03beeb550118f87341e3c16c53300a6d":[1,0,5,70,10],
-"de/d4f/teamplay_8qc.html#a113b95feba1c451c0a411ec54eb29eab":[1,0,5,70,12]
+"de/d4f/teamplay_8qc.html#a03beeb550118f87341e3c16c53300a6d":[1,0,5,70,10]
 };

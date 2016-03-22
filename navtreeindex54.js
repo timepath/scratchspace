@@ -1,5 +1,6 @@
 var NAVTREEINDEX54 =
 {
+"db/dab/common_2deathtypes_2all_8qh.html#a5323a267d4110e1c2a732dc9263af5c5":[1,0,1,1,2,15],
 "db/dab/common_2deathtypes_2all_8qh.html#a5d776d28500a9006a4a7dd9da293f557":[1,0,1,1,2,17],
 "db/dab/common_2deathtypes_2all_8qh.html#a5e0317d3d6616fc59446bd8400a011cd":[1,0,1,1,2,18],
 "db/dab/common_2deathtypes_2all_8qh.html#a6d96d3884ef3f4c17701172adc3f424e":[1,0,1,1,2,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX54 =
 "dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2":[1,0,2,0,2,115],
 "dc/d03/keycodes_8qc.html#a17046050badc8680b2ec0485bbf0940e":[1,0,2,0,2,10],
 "dc/d03/keycodes_8qc.html#a18d401e4e1ce2696f3a6f13e1b4779f4":[1,0,2,0,2,52],
-"dc/d03/keycodes_8qc.html#a18e8e351212a90df7b3945f19725b9ba":[1,0,2,0,2,4],
-"dc/d03/keycodes_8qc.html#a1a82defc3782e7b976db43068da6f8e5":[1,0,2,0,2,26]
+"dc/d03/keycodes_8qc.html#a18e8e351212a90df7b3945f19725b9ba":[1,0,2,0,2,4]
 };

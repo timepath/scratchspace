@@ -1,5 +1,6 @@
 var NAVTREEINDEX60 =
 {
+"dd/d43/gametypelist_8qh.html#a7b1d2dc60c1415b6adfca2090a3c889b":[1,0,4,4,161,6],
 "dd/d43/gametypelist_8qh.html#a8be2bb4890f5d450305a21753a43ecc7":[1,0,4,4,161,3],
 "dd/d43/gametypelist_8qh.html#a91dfe61e16453975acc8ea799ad97423":[1,0,4,4,161,2],
 "dd/d43/gametypelist_8qh.html#ae5fb4b2bb015a4c4731941f645fa38c5":[1,0,4,4,161,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX60 =
 "dd/d73/mutators_2mutator_2cloaked_2module_8inc.html":[1,0,1,9,0,5,1],
 "dd/d73/mutators_2mutator_2cloaked_2module_8inc_source.html":[1,0,1,9,0,5,1],
 "dd/d76/func_2include_8qc.html":[1,0,1,13,0,10],
-"dd/d76/func_2include_8qc_source.html":[1,0,1,13,0,10],
-"dd/d77/item_2nexposee_8qh.html":[1,0,4,2,23]
+"dd/d76/func_2include_8qc_source.html":[1,0,1,13,0,10]
 };

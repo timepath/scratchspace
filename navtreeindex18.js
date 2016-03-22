@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"d4/d0f/buffs_8qc.html#a80699073f866d3fde589469194a0e188":[1,0,1,9,0,2,3,40],
 "d4/d0f/buffs_8qc.html#a828910a7801d1c3d437b0d8d70fd951c":[1,0,1,9,0,2,3,26],
 "d4/d0f/buffs_8qc.html#a85316f768674e84a062ad7c473868382":[1,0,1,9,0,2,3,38],
 "d4/d0f/buffs_8qc.html#a8ba821803143c0908230ddb415971b90":[1,0,1,9,0,2,3,20],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "d4/d3f/tracing_8qh_source.html":[1,0,5,4,15],
 "d4/d48/notify_8qc.html":[1,0,0,1,0,16],
 "d4/d48/notify_8qc.html#a3f24d1601ce9eaa70aa03b90c969a568":[1,0,0,1,0,16,1],
-"d4/d48/notify_8qc.html#a5d98db16bef14acf08a94e5eaec24a26":[1,0,0,1,0,16,0],
-"d4/d48/notify_8qc_source.html":[1,0,0,1,0,16]
+"d4/d48/notify_8qc.html#a5d98db16bef14acf08a94e5eaec24a26":[1,0,0,1,0,16,0]
 };

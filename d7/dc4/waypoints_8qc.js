@@ -27,7 +27,7 @@ var waypoints_8qc =
     [ "waypoint_spawnforteleporter", "d7/dc4/waypoints_8qc.html#ac66bb8eae7635c12297283fe2e4a6aa2", null ],
     [ "waypoint_spawnforteleporter_boxes", "d7/dc4/waypoints_8qc.html#adcd50ec9ec6d70529e207908628cce71", null ],
     [ "waypoint_spawnforteleporter_v", "d7/dc4/waypoints_8qc.html#ae4f869607f4c1be41a005c4e04c08381", null ],
-    [ "waypoint_spawnpersonal", "d7/dc4/waypoints_8qc.html#ae4dcf64951331ac6bf5a0347af5b8911", null ],
+    [ "waypoint_spawnpersonal", "d7/dc4/waypoints_8qc.html#aab164ee392b5c403e32390e58807707f", null ],
     [ "waypoint_think", "d7/dc4/waypoints_8qc.html#a4c3ec3b037bad6d5773033aa06bd0cb2", null ],
     [ "botframe_autowaypoints_lastwp0", "d7/dc4/waypoints_8qc.html#ad5ffadcf9a495cd46837874dfbda3674", null ],
     [ "botframe_autowaypoints_lastwp1", "d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866", null ]
