@@ -2021,7 +2021,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l01923"></a><span class="lineno"> 1923</span>&#160;}</div>
 <div class="line"><a name="l01924"></a><span class="lineno"> 1924</span>&#160;</div>
 <div class="line"><a name="l01925"></a><span class="lineno"> 1925</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(ons, PlayerDies)</div>
-<div class="line"><a name="l01926"></a><span class="lineno"> 1926</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l01926"></a><span class="lineno"> 1926</span>&#160;{</div>
 <div class="line"><a name="l01927"></a><span class="lineno"> 1927</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>.ons_deathloc = <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad3d6bdb8aba8a491f5560d65265cf0ef">frag_target</a>.origin;</div>
 <div class="line"><a name="l01928"></a><span class="lineno"> 1928</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <a class="code" href="../../d7/d8a/animhost_8qc.html#ae5e4aff23692c45099a835661ee4ea5b">l</a>;</div>
 <div class="line"><a name="l01929"></a><span class="lineno"> 1929</span>&#160;    <span class="keywordflow">for</span>(l = ons_worldgeneratorlist; <a class="code" href="../../d7/d8a/animhost_8qc.html#ae5e4aff23692c45099a835661ee4ea5b">l</a>; l = l.ons_worldgeneratornext)</div>
@@ -2228,144 +2228,146 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l02130"></a><span class="lineno"> 2130</span>&#160;</div>
 <div class="line"><a name="l02131"></a><span class="lineno"> 2131</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(ons, SendWaypoint)</div>
 <div class="line"><a name="l02132"></a><span class="lineno"> 2132</span>&#160;{</div>
-<div class="line"><a name="l02133"></a><span class="lineno"> 2133</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a2455bcd9dea4a6c2b5eac4e422fc2f6a">wp_sendflags</a> &amp; 16)</div>
-<div class="line"><a name="l02134"></a><span class="lineno"> 2134</span>&#160;    {</div>
-<div class="line"><a name="l02135"></a><span class="lineno"> 2135</span>&#160;        <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.classname == <span class="stringliteral">&quot;onslaught_controlpoint&quot;</span>)</div>
-<div class="line"><a name="l02136"></a><span class="lineno"> 2136</span>&#160;        {</div>
-<div class="line"><a name="l02137"></a><span class="lineno"> 2137</span>&#160;            <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> wp_owner = <span class="keyword">self</span>.owner;</div>
-<div class="line"><a name="l02138"></a><span class="lineno"> 2138</span>&#160;            <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e = WaypointSprite_getviewentity(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a4baa0a274e11d84aa5e010d93c3b07d1">wp_sendto</a>);</div>
-<div class="line"><a name="l02139"></a><span class="lineno"> 2139</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(e, wp_owner) &amp;&amp; wp_owner.goalentity.health &gt;= wp_owner.goalentity.max_health) { <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a4c9ea82661fd159c1e07430e89e8c314">wp_flag</a> |= 2; }</div>
-<div class="line"><a name="l02140"></a><span class="lineno"> 2140</span>&#160;            <span class="keywordflow">if</span>(!ons_ControlPoint_Attackable(wp_owner, e.team)) { <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a4c9ea82661fd159c1e07430e89e8c314">wp_flag</a> |= 2; }</div>
-<div class="line"><a name="l02141"></a><span class="lineno"> 2141</span>&#160;        }</div>
-<div class="line"><a name="l02142"></a><span class="lineno"> 2142</span>&#160;        <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.classname == <span class="stringliteral">&quot;onslaught_generator&quot;</span>)</div>
-<div class="line"><a name="l02143"></a><span class="lineno"> 2143</span>&#160;        {</div>
-<div class="line"><a name="l02144"></a><span class="lineno"> 2144</span>&#160;            <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> wp_owner = <span class="keyword">self</span>.owner;</div>
-<div class="line"><a name="l02145"></a><span class="lineno"> 2145</span>&#160;            <span class="keywordflow">if</span>(wp_owner.isshielded &amp;&amp; wp_owner.health &gt;= wp_owner.max_health) { <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a4c9ea82661fd159c1e07430e89e8c314">wp_flag</a> |= 2; }</div>
-<div class="line"><a name="l02146"></a><span class="lineno"> 2146</span>&#160;            <span class="keywordflow">if</span>(wp_owner.health &lt;= 0) { <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a4c9ea82661fd159c1e07430e89e8c314">wp_flag</a> |= 2; }</div>
-<div class="line"><a name="l02147"></a><span class="lineno"> 2147</span>&#160;        }</div>
-<div class="line"><a name="l02148"></a><span class="lineno"> 2148</span>&#160;    }</div>
-<div class="line"><a name="l02149"></a><span class="lineno"> 2149</span>&#160;</div>
-<div class="line"><a name="l02150"></a><span class="lineno"> 2150</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l02151"></a><span class="lineno"> 2151</span>&#160;}</div>
-<div class="line"><a name="l02152"></a><span class="lineno"> 2152</span>&#160;</div>
-<div class="line"><a name="l02153"></a><span class="lineno"> 2153</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(ons, TurretValidateTarget)</div>
-<div class="line"><a name="l02154"></a><span class="lineno"> 2154</span>&#160;{</div>
-<div class="line"><a name="l02155"></a><span class="lineno"> 2155</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a33decc8cec910c52280fc3994a6d02a6">turret_target</a>.classname, 0, 10) == <span class="stringliteral">&quot;onslaught_&quot;</span>) <span class="comment">// don&#39;t attack onslaught targets, that&#39;s the player&#39;s job!</span></div>
-<div class="line"><a name="l02156"></a><span class="lineno"> 2156</span>&#160;    {</div>
-<div class="line"><a name="l02157"></a><span class="lineno"> 2157</span>&#160;        <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a3ddb515c24a9e55c3211bd4852326566">ret_float</a> = -3;</div>
-<div class="line"><a name="l02158"></a><span class="lineno"> 2158</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l02159"></a><span class="lineno"> 2159</span>&#160;    }</div>
-<div class="line"><a name="l02160"></a><span class="lineno"> 2160</span>&#160;</div>
-<div class="line"><a name="l02161"></a><span class="lineno"> 2161</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l02162"></a><span class="lineno"> 2162</span>&#160;}</div>
-<div class="line"><a name="l02163"></a><span class="lineno"> 2163</span>&#160;</div>
-<div class="line"><a name="l02164"></a><span class="lineno"> 2164</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(ons, TurretThink)</div>
-<div class="line"><a name="l02165"></a><span class="lineno"> 2165</span>&#160;{</div>
-<div class="line"><a name="l02166"></a><span class="lineno"> 2166</span>&#160;    <span class="comment">// ONS uses somewhat backwards linking.</span></div>
-<div class="line"><a name="l02167"></a><span class="lineno"> 2167</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>)</div>
-<div class="line"><a name="l02168"></a><span class="lineno"> 2168</span>&#160;    {</div>
-<div class="line"><a name="l02169"></a><span class="lineno"> 2169</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, <span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>);</div>
-<div class="line"><a name="l02170"></a><span class="lineno"> 2170</span>&#160;        <span class="keywordflow">if</span> (e != <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>)</div>
-<div class="line"><a name="l02171"></a><span class="lineno"> 2171</span>&#160;            <span class="keyword">self</span>.team = e.team;</div>
-<div class="line"><a name="l02172"></a><span class="lineno"> 2172</span>&#160;    }</div>
-<div class="line"><a name="l02173"></a><span class="lineno"> 2173</span>&#160;</div>
-<div class="line"><a name="l02174"></a><span class="lineno"> 2174</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> != <span class="keyword">self</span>.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.team)</div>
-<div class="line"><a name="l02175"></a><span class="lineno"> 2175</span>&#160;        turret_respawn();</div>
-<div class="line"><a name="l02176"></a><span class="lineno"> 2176</span>&#160;</div>
-<div class="line"><a name="l02177"></a><span class="lineno"> 2177</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l02178"></a><span class="lineno"> 2178</span>&#160;}</div>
-<div class="line"><a name="l02179"></a><span class="lineno"> 2179</span>&#160;</div>
-<div class="line"><a name="l02180"></a><span class="lineno"> 2180</span>&#160;</div>
-<div class="line"><a name="l02181"></a><span class="lineno"> 2181</span>&#160;<span class="comment">// ==========</span></div>
-<div class="line"><a name="l02182"></a><span class="lineno"> 2182</span>&#160;<span class="comment">// Spawnfuncs</span></div>
+<div class="line"><a name="l02133"></a><span class="lineno"> 2133</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l02134"></a><span class="lineno"> 2134</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a2455bcd9dea4a6c2b5eac4e422fc2f6a">wp_sendflags</a> &amp; 16)</div>
+<div class="line"><a name="l02135"></a><span class="lineno"> 2135</span>&#160;    {</div>
+<div class="line"><a name="l02136"></a><span class="lineno"> 2136</span>&#160;        <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.classname == <span class="stringliteral">&quot;onslaught_controlpoint&quot;</span>)</div>
+<div class="line"><a name="l02137"></a><span class="lineno"> 2137</span>&#160;        {</div>
+<div class="line"><a name="l02138"></a><span class="lineno"> 2138</span>&#160;            <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> wp_owner = <span class="keyword">self</span>.owner;</div>
+<div class="line"><a name="l02139"></a><span class="lineno"> 2139</span>&#160;            <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e = WaypointSprite_getviewentity(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a4baa0a274e11d84aa5e010d93c3b07d1">wp_sendto</a>);</div>
+<div class="line"><a name="l02140"></a><span class="lineno"> 2140</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(e, wp_owner) &amp;&amp; wp_owner.goalentity.health &gt;= wp_owner.goalentity.max_health) { <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a4c9ea82661fd159c1e07430e89e8c314">wp_flag</a> |= 2; }</div>
+<div class="line"><a name="l02141"></a><span class="lineno"> 2141</span>&#160;            <span class="keywordflow">if</span>(!ons_ControlPoint_Attackable(wp_owner, e.team)) { <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a4c9ea82661fd159c1e07430e89e8c314">wp_flag</a> |= 2; }</div>
+<div class="line"><a name="l02142"></a><span class="lineno"> 2142</span>&#160;        }</div>
+<div class="line"><a name="l02143"></a><span class="lineno"> 2143</span>&#160;        <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.classname == <span class="stringliteral">&quot;onslaught_generator&quot;</span>)</div>
+<div class="line"><a name="l02144"></a><span class="lineno"> 2144</span>&#160;        {</div>
+<div class="line"><a name="l02145"></a><span class="lineno"> 2145</span>&#160;            <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> wp_owner = <span class="keyword">self</span>.owner;</div>
+<div class="line"><a name="l02146"></a><span class="lineno"> 2146</span>&#160;            <span class="keywordflow">if</span>(wp_owner.isshielded &amp;&amp; wp_owner.health &gt;= wp_owner.max_health) { <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a4c9ea82661fd159c1e07430e89e8c314">wp_flag</a> |= 2; }</div>
+<div class="line"><a name="l02147"></a><span class="lineno"> 2147</span>&#160;            <span class="keywordflow">if</span>(wp_owner.health &lt;= 0) { <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a4c9ea82661fd159c1e07430e89e8c314">wp_flag</a> |= 2; }</div>
+<div class="line"><a name="l02148"></a><span class="lineno"> 2148</span>&#160;        }</div>
+<div class="line"><a name="l02149"></a><span class="lineno"> 2149</span>&#160;    }</div>
+<div class="line"><a name="l02150"></a><span class="lineno"> 2150</span>&#160;</div>
+<div class="line"><a name="l02151"></a><span class="lineno"> 2151</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l02152"></a><span class="lineno"> 2152</span>&#160;}</div>
+<div class="line"><a name="l02153"></a><span class="lineno"> 2153</span>&#160;</div>
+<div class="line"><a name="l02154"></a><span class="lineno"> 2154</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(ons, TurretValidateTarget)</div>
+<div class="line"><a name="l02155"></a><span class="lineno"> 2155</span>&#160;{</div>
+<div class="line"><a name="l02156"></a><span class="lineno"> 2156</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a33decc8cec910c52280fc3994a6d02a6">turret_target</a>.classname, 0, 10) == <span class="stringliteral">&quot;onslaught_&quot;</span>) <span class="comment">// don&#39;t attack onslaught targets, that&#39;s the player&#39;s job!</span></div>
+<div class="line"><a name="l02157"></a><span class="lineno"> 2157</span>&#160;    {</div>
+<div class="line"><a name="l02158"></a><span class="lineno"> 2158</span>&#160;        <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a3ddb515c24a9e55c3211bd4852326566">ret_float</a> = -3;</div>
+<div class="line"><a name="l02159"></a><span class="lineno"> 2159</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l02160"></a><span class="lineno"> 2160</span>&#160;    }</div>
+<div class="line"><a name="l02161"></a><span class="lineno"> 2161</span>&#160;</div>
+<div class="line"><a name="l02162"></a><span class="lineno"> 2162</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l02163"></a><span class="lineno"> 2163</span>&#160;}</div>
+<div class="line"><a name="l02164"></a><span class="lineno"> 2164</span>&#160;</div>
+<div class="line"><a name="l02165"></a><span class="lineno"> 2165</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(ons, TurretThink)</div>
+<div class="line"><a name="l02166"></a><span class="lineno"> 2166</span>&#160;{</div>
+<div class="line"><a name="l02167"></a><span class="lineno"> 2167</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l02168"></a><span class="lineno"> 2168</span>&#160;    <span class="comment">// ONS uses somewhat backwards linking.</span></div>
+<div class="line"><a name="l02169"></a><span class="lineno"> 2169</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>)</div>
+<div class="line"><a name="l02170"></a><span class="lineno"> 2170</span>&#160;    {</div>
+<div class="line"><a name="l02171"></a><span class="lineno"> 2171</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, <span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>);</div>
+<div class="line"><a name="l02172"></a><span class="lineno"> 2172</span>&#160;        <span class="keywordflow">if</span> (e != <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>)</div>
+<div class="line"><a name="l02173"></a><span class="lineno"> 2173</span>&#160;            <span class="keyword">self</span>.team = e.team;</div>
+<div class="line"><a name="l02174"></a><span class="lineno"> 2174</span>&#160;    }</div>
+<div class="line"><a name="l02175"></a><span class="lineno"> 2175</span>&#160;</div>
+<div class="line"><a name="l02176"></a><span class="lineno"> 2176</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> != <span class="keyword">self</span>.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.team)</div>
+<div class="line"><a name="l02177"></a><span class="lineno"> 2177</span>&#160;        turret_respawn();</div>
+<div class="line"><a name="l02178"></a><span class="lineno"> 2178</span>&#160;</div>
+<div class="line"><a name="l02179"></a><span class="lineno"> 2179</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l02180"></a><span class="lineno"> 2180</span>&#160;}</div>
+<div class="line"><a name="l02181"></a><span class="lineno"> 2181</span>&#160;</div>
+<div class="line"><a name="l02182"></a><span class="lineno"> 2182</span>&#160;</div>
 <div class="line"><a name="l02183"></a><span class="lineno"> 2183</span>&#160;<span class="comment">// ==========</span></div>
-<div class="line"><a name="l02184"></a><span class="lineno"> 2184</span>&#160;</div>
-<div class="line"><a name="l02185"></a><span class="lineno"> 2185</span>&#160;<span class="comment">/*QUAKED spawnfunc_onslaught_link (0 .5 .8) (-16 -16 -16) (16 16 16)</span></div>
-<div class="line"><a name="l02186"></a><span class="lineno"> 2186</span>&#160;<span class="comment">  Link between control points.</span></div>
-<div class="line"><a name="l02187"></a><span class="lineno"> 2187</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l02188"></a><span class="lineno"> 2188</span>&#160;<span class="comment">  This entity targets two different spawnfunc_onslaught_controlpoint or spawnfunc_onslaught_generator entities, and suppresses shielding on both if they are owned by different teams.</span></div>
+<div class="line"><a name="l02184"></a><span class="lineno"> 2184</span>&#160;<span class="comment">// Spawnfuncs</span></div>
+<div class="line"><a name="l02185"></a><span class="lineno"> 2185</span>&#160;<span class="comment">// ==========</span></div>
+<div class="line"><a name="l02186"></a><span class="lineno"> 2186</span>&#160;</div>
+<div class="line"><a name="l02187"></a><span class="lineno"> 2187</span>&#160;<span class="comment">/*QUAKED spawnfunc_onslaught_link (0 .5 .8) (-16 -16 -16) (16 16 16)</span></div>
+<div class="line"><a name="l02188"></a><span class="lineno"> 2188</span>&#160;<span class="comment">  Link between control points.</span></div>
 <div class="line"><a name="l02189"></a><span class="lineno"> 2189</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l02190"></a><span class="lineno"> 2190</span>&#160;<span class="comment">keys:</span></div>
-<div class="line"><a name="l02191"></a><span class="lineno"> 2191</span>&#160;<span class="comment">&quot;target&quot; - first control point.</span></div>
-<div class="line"><a name="l02192"></a><span class="lineno"> 2192</span>&#160;<span class="comment">&quot;target2&quot; - second control point.</span></div>
-<div class="line"><a name="l02193"></a><span class="lineno"> 2193</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l02194"></a><span class="lineno"> 2194</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(onslaught_link)</div>
-<div class="line"><a name="l02195"></a><span class="lineno"> 2195</span>&#160;{</div>
-<div class="line"><a name="l02196"></a><span class="lineno"> 2196</span>&#160;    <span class="keywordflow">if</span>(!g_onslaught) { <span class="keyword">remove</span>(<span class="keyword">self</span>); <span class="keywordflow">return</span>; }</div>
-<div class="line"><a name="l02197"></a><span class="lineno"> 2197</span>&#160;</div>
-<div class="line"><a name="l02198"></a><span class="lineno"> 2198</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> == <span class="stringliteral">&quot;&quot;</span> || <span class="keyword">self</span>.<a class="code" href="../../db/d2f/subs_8qh.html#a21f638b0048b6516d7e8b2773d3e8cb3">target2</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l02199"></a><span class="lineno"> 2199</span>&#160;        <a class="code" href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a>(<span class="stringliteral">&quot;target and target2 must be set\n&quot;</span>);</div>
-<div class="line"><a name="l02200"></a><span class="lineno"> 2200</span>&#160;</div>
-<div class="line"><a name="l02201"></a><span class="lineno"> 2201</span>&#160;    <span class="keyword">self</span>.ons_worldlinknext = ons_worldlinklist; <span class="comment">// link into ons_worldlinklist</span></div>
-<div class="line"><a name="l02202"></a><span class="lineno"> 2202</span>&#160;    ons_worldlinklist = <span class="keyword">self</span>;</div>
-<div class="line"><a name="l02203"></a><span class="lineno"> 2203</span>&#160;</div>
-<div class="line"><a name="l02204"></a><span class="lineno"> 2204</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ac371c3e7a3dc274c96125bf020b44621">InitializeEntity</a>(<span class="keyword">self</span>, ons_DelayedLinkSetup, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a>);</div>
-<div class="line"><a name="l02205"></a><span class="lineno"> 2205</span>&#160;    Net_LinkEntity(<span class="keyword">self</span>, <span class="keyword">false</span>, 0, ons_Link_Send);</div>
-<div class="line"><a name="l02206"></a><span class="lineno"> 2206</span>&#160;}</div>
-<div class="line"><a name="l02207"></a><span class="lineno"> 2207</span>&#160;</div>
-<div class="line"><a name="l02208"></a><span class="lineno"> 2208</span>&#160;<span class="comment">/*QUAKED spawnfunc_onslaught_controlpoint (0 .5 .8) (-32 -32 0) (32 32 128)</span></div>
-<div class="line"><a name="l02209"></a><span class="lineno"> 2209</span>&#160;<span class="comment">  Control point. Be sure to give this enough clearance so that the shootable part has room to exist</span></div>
-<div class="line"><a name="l02210"></a><span class="lineno"> 2210</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l02211"></a><span class="lineno"> 2211</span>&#160;<span class="comment">  This should link to an spawnfunc_onslaught_controlpoint entity or spawnfunc_onslaught_generator entity.</span></div>
+<div class="line"><a name="l02190"></a><span class="lineno"> 2190</span>&#160;<span class="comment">  This entity targets two different spawnfunc_onslaught_controlpoint or spawnfunc_onslaught_generator entities, and suppresses shielding on both if they are owned by different teams.</span></div>
+<div class="line"><a name="l02191"></a><span class="lineno"> 2191</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l02192"></a><span class="lineno"> 2192</span>&#160;<span class="comment">keys:</span></div>
+<div class="line"><a name="l02193"></a><span class="lineno"> 2193</span>&#160;<span class="comment">&quot;target&quot; - first control point.</span></div>
+<div class="line"><a name="l02194"></a><span class="lineno"> 2194</span>&#160;<span class="comment">&quot;target2&quot; - second control point.</span></div>
+<div class="line"><a name="l02195"></a><span class="lineno"> 2195</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l02196"></a><span class="lineno"> 2196</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(onslaught_link)</div>
+<div class="line"><a name="l02197"></a><span class="lineno"> 2197</span>&#160;{</div>
+<div class="line"><a name="l02198"></a><span class="lineno"> 2198</span>&#160;    <span class="keywordflow">if</span>(!g_onslaught) { <span class="keyword">remove</span>(<span class="keyword">self</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l02199"></a><span class="lineno"> 2199</span>&#160;</div>
+<div class="line"><a name="l02200"></a><span class="lineno"> 2200</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> == <span class="stringliteral">&quot;&quot;</span> || <span class="keyword">self</span>.<a class="code" href="../../db/d2f/subs_8qh.html#a21f638b0048b6516d7e8b2773d3e8cb3">target2</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l02201"></a><span class="lineno"> 2201</span>&#160;        <a class="code" href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a>(<span class="stringliteral">&quot;target and target2 must be set\n&quot;</span>);</div>
+<div class="line"><a name="l02202"></a><span class="lineno"> 2202</span>&#160;</div>
+<div class="line"><a name="l02203"></a><span class="lineno"> 2203</span>&#160;    <span class="keyword">self</span>.ons_worldlinknext = ons_worldlinklist; <span class="comment">// link into ons_worldlinklist</span></div>
+<div class="line"><a name="l02204"></a><span class="lineno"> 2204</span>&#160;    ons_worldlinklist = <span class="keyword">self</span>;</div>
+<div class="line"><a name="l02205"></a><span class="lineno"> 2205</span>&#160;</div>
+<div class="line"><a name="l02206"></a><span class="lineno"> 2206</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ac371c3e7a3dc274c96125bf020b44621">InitializeEntity</a>(<span class="keyword">self</span>, ons_DelayedLinkSetup, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a>);</div>
+<div class="line"><a name="l02207"></a><span class="lineno"> 2207</span>&#160;    Net_LinkEntity(<span class="keyword">self</span>, <span class="keyword">false</span>, 0, ons_Link_Send);</div>
+<div class="line"><a name="l02208"></a><span class="lineno"> 2208</span>&#160;}</div>
+<div class="line"><a name="l02209"></a><span class="lineno"> 2209</span>&#160;</div>
+<div class="line"><a name="l02210"></a><span class="lineno"> 2210</span>&#160;<span class="comment">/*QUAKED spawnfunc_onslaught_controlpoint (0 .5 .8) (-32 -32 0) (32 32 128)</span></div>
+<div class="line"><a name="l02211"></a><span class="lineno"> 2211</span>&#160;<span class="comment">  Control point. Be sure to give this enough clearance so that the shootable part has room to exist</span></div>
 <div class="line"><a name="l02212"></a><span class="lineno"> 2212</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l02213"></a><span class="lineno"> 2213</span>&#160;<span class="comment">keys:</span></div>
-<div class="line"><a name="l02214"></a><span class="lineno"> 2214</span>&#160;<span class="comment">&quot;targetname&quot; - name that spawnfunc_onslaught_link entities will use to target this.</span></div>
-<div class="line"><a name="l02215"></a><span class="lineno"> 2215</span>&#160;<span class="comment">&quot;target&quot; - target any entities that are tied to this control point, such as vehicles and buildable structure entities.</span></div>
-<div class="line"><a name="l02216"></a><span class="lineno"> 2216</span>&#160;<span class="comment">&quot;message&quot; - name of this control point (should reflect the location in the map, such as &quot;center bridge&quot;, &quot;north tower&quot;, etc)</span></div>
-<div class="line"><a name="l02217"></a><span class="lineno"> 2217</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l02218"></a><span class="lineno"> 2218</span>&#160;</div>
-<div class="line"><a name="l02219"></a><span class="lineno"> 2219</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(onslaught_controlpoint)</div>
-<div class="line"><a name="l02220"></a><span class="lineno"> 2220</span>&#160;{</div>
-<div class="line"><a name="l02221"></a><span class="lineno"> 2221</span>&#160;    <span class="keywordflow">if</span>(!g_onslaught) { <span class="keyword">remove</span>(<span class="keyword">self</span>); <span class="keywordflow">return</span>; }</div>
-<div class="line"><a name="l02222"></a><span class="lineno"> 2222</span>&#160;</div>
-<div class="line"><a name="l02223"></a><span class="lineno"> 2223</span>&#160;    ons_ControlPoint_Setup(<span class="keyword">self</span>);</div>
-<div class="line"><a name="l02224"></a><span class="lineno"> 2224</span>&#160;}</div>
-<div class="line"><a name="l02225"></a><span class="lineno"> 2225</span>&#160;</div>
-<div class="line"><a name="l02226"></a><span class="lineno"> 2226</span>&#160;<span class="comment">/*QUAKED spawnfunc_onslaught_generator (0 .5 .8) (-32 -32 -24) (32 32 64)</span></div>
-<div class="line"><a name="l02227"></a><span class="lineno"> 2227</span>&#160;<span class="comment">  Base generator.</span></div>
-<div class="line"><a name="l02228"></a><span class="lineno"> 2228</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l02229"></a><span class="lineno"> 2229</span>&#160;<span class="comment">  spawnfunc_onslaught_link entities can target this.</span></div>
+<div class="line"><a name="l02213"></a><span class="lineno"> 2213</span>&#160;<span class="comment">  This should link to an spawnfunc_onslaught_controlpoint entity or spawnfunc_onslaught_generator entity.</span></div>
+<div class="line"><a name="l02214"></a><span class="lineno"> 2214</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l02215"></a><span class="lineno"> 2215</span>&#160;<span class="comment">keys:</span></div>
+<div class="line"><a name="l02216"></a><span class="lineno"> 2216</span>&#160;<span class="comment">&quot;targetname&quot; - name that spawnfunc_onslaught_link entities will use to target this.</span></div>
+<div class="line"><a name="l02217"></a><span class="lineno"> 2217</span>&#160;<span class="comment">&quot;target&quot; - target any entities that are tied to this control point, such as vehicles and buildable structure entities.</span></div>
+<div class="line"><a name="l02218"></a><span class="lineno"> 2218</span>&#160;<span class="comment">&quot;message&quot; - name of this control point (should reflect the location in the map, such as &quot;center bridge&quot;, &quot;north tower&quot;, etc)</span></div>
+<div class="line"><a name="l02219"></a><span class="lineno"> 2219</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l02220"></a><span class="lineno"> 2220</span>&#160;</div>
+<div class="line"><a name="l02221"></a><span class="lineno"> 2221</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(onslaught_controlpoint)</div>
+<div class="line"><a name="l02222"></a><span class="lineno"> 2222</span>&#160;{</div>
+<div class="line"><a name="l02223"></a><span class="lineno"> 2223</span>&#160;    <span class="keywordflow">if</span>(!g_onslaught) { <span class="keyword">remove</span>(<span class="keyword">self</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l02224"></a><span class="lineno"> 2224</span>&#160;</div>
+<div class="line"><a name="l02225"></a><span class="lineno"> 2225</span>&#160;    ons_ControlPoint_Setup(<span class="keyword">self</span>);</div>
+<div class="line"><a name="l02226"></a><span class="lineno"> 2226</span>&#160;}</div>
+<div class="line"><a name="l02227"></a><span class="lineno"> 2227</span>&#160;</div>
+<div class="line"><a name="l02228"></a><span class="lineno"> 2228</span>&#160;<span class="comment">/*QUAKED spawnfunc_onslaught_generator (0 .5 .8) (-32 -32 -24) (32 32 64)</span></div>
+<div class="line"><a name="l02229"></a><span class="lineno"> 2229</span>&#160;<span class="comment">  Base generator.</span></div>
 <div class="line"><a name="l02230"></a><span class="lineno"> 2230</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l02231"></a><span class="lineno"> 2231</span>&#160;<span class="comment">keys:</span></div>
-<div class="line"><a name="l02232"></a><span class="lineno"> 2232</span>&#160;<span class="comment">&quot;team&quot; - team that owns this generator (5 = red, 14 = blue, etc), MUST BE SET.</span></div>
-<div class="line"><a name="l02233"></a><span class="lineno"> 2233</span>&#160;<span class="comment">&quot;targetname&quot; - name that spawnfunc_onslaught_link entities will use to target this.</span></div>
-<div class="line"><a name="l02234"></a><span class="lineno"> 2234</span>&#160;<span class="comment"> */</span></div>
-<div class="line"><a name="l02235"></a><span class="lineno"> 2235</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(onslaught_generator)</div>
-<div class="line"><a name="l02236"></a><span class="lineno"> 2236</span>&#160;{</div>
-<div class="line"><a name="l02237"></a><span class="lineno"> 2237</span>&#160;    <span class="keywordflow">if</span>(!g_onslaught) { <span class="keyword">remove</span>(<span class="keyword">self</span>); <span class="keywordflow">return</span>; }</div>
-<div class="line"><a name="l02238"></a><span class="lineno"> 2238</span>&#160;    <span class="keywordflow">if</span>(!<span class="keyword">self</span>.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>) { <a class="code" href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a>(<span class="stringliteral">&quot;team must be set&quot;</span>); }</div>
-<div class="line"><a name="l02239"></a><span class="lineno"> 2239</span>&#160;</div>
-<div class="line"><a name="l02240"></a><span class="lineno"> 2240</span>&#160;    ons_GeneratorSetup(<span class="keyword">self</span>);</div>
-<div class="line"><a name="l02241"></a><span class="lineno"> 2241</span>&#160;}</div>
-<div class="line"><a name="l02242"></a><span class="lineno"> 2242</span>&#160;</div>
-<div class="line"><a name="l02243"></a><span class="lineno"> 2243</span>&#160;<span class="comment">// scoreboard setup</span></div>
-<div class="line"><a name="l02244"></a><span class="lineno"> 2244</span>&#160;<span class="keywordtype">void</span> ons_ScoreRules()</div>
-<div class="line"><a name="l02245"></a><span class="lineno"> 2245</span>&#160;{</div>
-<div class="line"><a name="l02246"></a><span class="lineno"> 2246</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a838b897a9ae86e8bf932e57c356ec987">CheckAllowedTeams</a>(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>);</div>
-<div class="line"><a name="l02247"></a><span class="lineno"> 2247</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a8834399775b54e52ae0297a80013a636">ScoreRules_basics</a>(((<a class="code" href="../../d1/d30/cl__client_8qh.html#a374cc32da17a4d3fea4faa48066ea8bc">c4</a>&gt;=0) ? 4 : (<a class="code" href="../../d1/d30/cl__client_8qh.html#a1b932a1e2adf36a4506e7470f831da40">c3</a>&gt;=0) ? 3 : 2), <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>, 0, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l02248"></a><span class="lineno"> 2248</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882">ScoreInfo_SetLabel_TeamScore</a>  (ST_ONS_CAPS,     <span class="stringliteral">&quot;destroyed&quot;</span>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>);</div>
-<div class="line"><a name="l02249"></a><span class="lineno"> 2249</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d">ScoreInfo_SetLabel_PlayerScore</a>(SP_ONS_CAPS,     <span class="stringliteral">&quot;caps&quot;</span>,      <a class="code" href="../../d0/d8b/common_2constants_8qh.html#acf557e93b6854298dcf5b6602fb6ffed">SFL_SORT_PRIO_SECONDARY</a>);</div>
-<div class="line"><a name="l02250"></a><span class="lineno"> 2250</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d">ScoreInfo_SetLabel_PlayerScore</a>(SP_ONS_TAKES,    <span class="stringliteral">&quot;takes&quot;</span>,     0);</div>
-<div class="line"><a name="l02251"></a><span class="lineno"> 2251</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05">ScoreRules_basics_end</a>();</div>
-<div class="line"><a name="l02252"></a><span class="lineno"> 2252</span>&#160;}</div>
-<div class="line"><a name="l02253"></a><span class="lineno"> 2253</span>&#160;</div>
-<div class="line"><a name="l02254"></a><span class="lineno"> 2254</span>&#160;<span class="keywordtype">void</span> ons_DelayedInit() <span class="comment">// Do this check with a delay so we can wait for teams to be set up</span></div>
-<div class="line"><a name="l02255"></a><span class="lineno"> 2255</span>&#160;{</div>
-<div class="line"><a name="l02256"></a><span class="lineno"> 2256</span>&#160;    ons_ScoreRules();</div>
-<div class="line"><a name="l02257"></a><span class="lineno"> 2257</span>&#160;</div>
-<div class="line"><a name="l02258"></a><span class="lineno"> 2258</span>&#160;    <a class="code" href="../../db/dfc/round__handler_8qc.html#afa84ad6fb073b0cf1cbae7eb74f70e4c">round_handler_Spawn</a>(Onslaught_CheckPlayers, Onslaught_CheckWinner, Onslaught_RoundStart);</div>
-<div class="line"><a name="l02259"></a><span class="lineno"> 2259</span>&#160;    <a class="code" href="../../db/dfc/round__handler_8qc.html#a35bf06efb917c323c9e026476ca62978">round_handler_Init</a>(5, autocvar_g_onslaught_warmup, autocvar_g_onslaught_round_timelimit);</div>
-<div class="line"><a name="l02260"></a><span class="lineno"> 2260</span>&#160;}</div>
-<div class="line"><a name="l02261"></a><span class="lineno"> 2261</span>&#160;</div>
-<div class="line"><a name="l02262"></a><span class="lineno"> 2262</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/d13/onslaught_8qc.html#a9d2ee66e4d6dc89a52f994e45d589222">ons_Initialize</a>()</div>
-<div class="line"><a name="l02263"></a><span class="lineno"> 2263</span>&#160;{</div>
-<div class="line"><a name="l02264"></a><span class="lineno"> 2264</span>&#160;    g_onslaught = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l02265"></a><span class="lineno"> 2265</span>&#160;    ons_captureshield_force = autocvar_g_onslaught_shield_force;</div>
-<div class="line"><a name="l02266"></a><span class="lineno"> 2266</span>&#160;</div>
-<div class="line"><a name="l02267"></a><span class="lineno"> 2267</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ac371c3e7a3dc274c96125bf020b44621">InitializeEntity</a>(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>, ons_DelayedInit, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a2562d3f5a88de435b499fd5b3b67c175">INITPRIO_GAMETYPE</a>);</div>
-<div class="line"><a name="l02268"></a><span class="lineno"> 2268</span>&#160;}</div>
-<div class="line"><a name="l02269"></a><span class="lineno"> 2269</span>&#160;</div>
-<div class="line"><a name="l02270"></a><span class="lineno"> 2270</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l02231"></a><span class="lineno"> 2231</span>&#160;<span class="comment">  spawnfunc_onslaught_link entities can target this.</span></div>
+<div class="line"><a name="l02232"></a><span class="lineno"> 2232</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l02233"></a><span class="lineno"> 2233</span>&#160;<span class="comment">keys:</span></div>
+<div class="line"><a name="l02234"></a><span class="lineno"> 2234</span>&#160;<span class="comment">&quot;team&quot; - team that owns this generator (5 = red, 14 = blue, etc), MUST BE SET.</span></div>
+<div class="line"><a name="l02235"></a><span class="lineno"> 2235</span>&#160;<span class="comment">&quot;targetname&quot; - name that spawnfunc_onslaught_link entities will use to target this.</span></div>
+<div class="line"><a name="l02236"></a><span class="lineno"> 2236</span>&#160;<span class="comment"> */</span></div>
+<div class="line"><a name="l02237"></a><span class="lineno"> 2237</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(onslaught_generator)</div>
+<div class="line"><a name="l02238"></a><span class="lineno"> 2238</span>&#160;{</div>
+<div class="line"><a name="l02239"></a><span class="lineno"> 2239</span>&#160;    <span class="keywordflow">if</span>(!g_onslaught) { <span class="keyword">remove</span>(<span class="keyword">self</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l02240"></a><span class="lineno"> 2240</span>&#160;    <span class="keywordflow">if</span>(!<span class="keyword">self</span>.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>) { <a class="code" href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a>(<span class="stringliteral">&quot;team must be set&quot;</span>); }</div>
+<div class="line"><a name="l02241"></a><span class="lineno"> 2241</span>&#160;</div>
+<div class="line"><a name="l02242"></a><span class="lineno"> 2242</span>&#160;    ons_GeneratorSetup(<span class="keyword">self</span>);</div>
+<div class="line"><a name="l02243"></a><span class="lineno"> 2243</span>&#160;}</div>
+<div class="line"><a name="l02244"></a><span class="lineno"> 2244</span>&#160;</div>
+<div class="line"><a name="l02245"></a><span class="lineno"> 2245</span>&#160;<span class="comment">// scoreboard setup</span></div>
+<div class="line"><a name="l02246"></a><span class="lineno"> 2246</span>&#160;<span class="keywordtype">void</span> ons_ScoreRules()</div>
+<div class="line"><a name="l02247"></a><span class="lineno"> 2247</span>&#160;{</div>
+<div class="line"><a name="l02248"></a><span class="lineno"> 2248</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a838b897a9ae86e8bf932e57c356ec987">CheckAllowedTeams</a>(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>);</div>
+<div class="line"><a name="l02249"></a><span class="lineno"> 2249</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a8834399775b54e52ae0297a80013a636">ScoreRules_basics</a>(((<a class="code" href="../../d1/d30/cl__client_8qh.html#a374cc32da17a4d3fea4faa48066ea8bc">c4</a>&gt;=0) ? 4 : (<a class="code" href="../../d1/d30/cl__client_8qh.html#a1b932a1e2adf36a4506e7470f831da40">c3</a>&gt;=0) ? 3 : 2), <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>, 0, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l02250"></a><span class="lineno"> 2250</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882">ScoreInfo_SetLabel_TeamScore</a>  (ST_ONS_CAPS,     <span class="stringliteral">&quot;destroyed&quot;</span>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>);</div>
+<div class="line"><a name="l02251"></a><span class="lineno"> 2251</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d">ScoreInfo_SetLabel_PlayerScore</a>(SP_ONS_CAPS,     <span class="stringliteral">&quot;caps&quot;</span>,      <a class="code" href="../../d0/d8b/common_2constants_8qh.html#acf557e93b6854298dcf5b6602fb6ffed">SFL_SORT_PRIO_SECONDARY</a>);</div>
+<div class="line"><a name="l02252"></a><span class="lineno"> 2252</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d">ScoreInfo_SetLabel_PlayerScore</a>(SP_ONS_TAKES,    <span class="stringliteral">&quot;takes&quot;</span>,     0);</div>
+<div class="line"><a name="l02253"></a><span class="lineno"> 2253</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05">ScoreRules_basics_end</a>();</div>
+<div class="line"><a name="l02254"></a><span class="lineno"> 2254</span>&#160;}</div>
+<div class="line"><a name="l02255"></a><span class="lineno"> 2255</span>&#160;</div>
+<div class="line"><a name="l02256"></a><span class="lineno"> 2256</span>&#160;<span class="keywordtype">void</span> ons_DelayedInit() <span class="comment">// Do this check with a delay so we can wait for teams to be set up</span></div>
+<div class="line"><a name="l02257"></a><span class="lineno"> 2257</span>&#160;{</div>
+<div class="line"><a name="l02258"></a><span class="lineno"> 2258</span>&#160;    ons_ScoreRules();</div>
+<div class="line"><a name="l02259"></a><span class="lineno"> 2259</span>&#160;</div>
+<div class="line"><a name="l02260"></a><span class="lineno"> 2260</span>&#160;    <a class="code" href="../../db/dfc/round__handler_8qc.html#afa84ad6fb073b0cf1cbae7eb74f70e4c">round_handler_Spawn</a>(Onslaught_CheckPlayers, Onslaught_CheckWinner, Onslaught_RoundStart);</div>
+<div class="line"><a name="l02261"></a><span class="lineno"> 2261</span>&#160;    <a class="code" href="../../db/dfc/round__handler_8qc.html#a35bf06efb917c323c9e026476ca62978">round_handler_Init</a>(5, autocvar_g_onslaught_warmup, autocvar_g_onslaught_round_timelimit);</div>
+<div class="line"><a name="l02262"></a><span class="lineno"> 2262</span>&#160;}</div>
+<div class="line"><a name="l02263"></a><span class="lineno"> 2263</span>&#160;</div>
+<div class="line"><a name="l02264"></a><span class="lineno"> 2264</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d4/d13/onslaught_8qc.html#a9d2ee66e4d6dc89a52f994e45d589222">ons_Initialize</a>()</div>
+<div class="line"><a name="l02265"></a><span class="lineno"> 2265</span>&#160;{</div>
+<div class="line"><a name="l02266"></a><span class="lineno"> 2266</span>&#160;    g_onslaught = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l02267"></a><span class="lineno"> 2267</span>&#160;    ons_captureshield_force = autocvar_g_onslaught_shield_force;</div>
+<div class="line"><a name="l02268"></a><span class="lineno"> 2268</span>&#160;</div>
+<div class="line"><a name="l02269"></a><span class="lineno"> 2269</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ac371c3e7a3dc274c96125bf020b44621">InitializeEntity</a>(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>, ons_DelayedInit, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a2562d3f5a88de435b499fd5b3b67c175">INITPRIO_GAMETYPE</a>);</div>
+<div class="line"><a name="l02270"></a><span class="lineno"> 2270</span>&#160;}</div>
+<div class="line"><a name="l02271"></a><span class="lineno"> 2271</span>&#160;</div>
+<div class="line"><a name="l02272"></a><span class="lineno"> 2272</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a56b5235db5445a8e9c785759f2510bcf"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a56b5235db5445a8e9c785759f2510bcf">autocvar_timelimit_suddendeath</a></div><div class="ttdeci">float autocvar_timelimit_suddendeath</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00425">autocvars.qh:425</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
@@ -2383,7 +2385,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="ttc" id="common_2constants_8qh_html_aeada6745e1a86301721bd800dc3b869a"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a></div><div class="ttdeci">const int SFL_SORT_PRIO_PRIMARY</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00123">constants.qh:123</a></div></div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
 <div class="ttc" id="state_8qh_html_aa3bade4bd987dbbe92066dd4c4bdd04c"><div class="ttname"><a href="../../db/d9f/state_8qh.html#aa3bade4bd987dbbe92066dd4c4bdd04c">STAT</a></div><div class="ttdeci">STAT(ACTIVEWEAPON, cl)</div></div>
-<div class="ttc" id="server_2defs_8qh_html_ad1d833615f56d11e3c3a9facc944aaf6"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6">Damage</a></div><div class="ttdeci">void Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype, vector hitloc, vector force)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00577">g_damage.qc:577</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_ad1d833615f56d11e3c3a9facc944aaf6"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6">Damage</a></div><div class="ttdeci">void Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype, vector hitloc, vector force)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00578">g_damage.qc:578</a></div></div>
 <div class="ttc" id="cl__client_8qh_html_a0fe1885b4d10c978f52619ab968adadc"><div class="ttname"><a href="../../d1/d30/cl__client_8qh.html#a0fe1885b4d10c978f52619ab968adadc">c2</a></div><div class="ttdeci">float c2</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d30/cl__client_8qh_source.html#l00003">cl_client.qh:3</a></div></div>
 <div class="ttc" id="common_2effects_2all_8inc_html_ae5430fc43016d59081a9edc8ed86bc7b"><div class="ttname"><a href="../../dd/d73/common_2effects_2all_8inc.html#ae5430fc43016d59081a9edc8ed86bc7b">EFFECT_FLAG_TOUCH</a></div><div class="ttdeci">entity EFFECT_FLAG_TOUCH(int teamid)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d73/common_2effects_2all_8inc_source.html#l00164">all.inc:164</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
@@ -2503,7 +2505,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="ttc" id="sound_8qh_html_ab7d311180e6c1130c970d08fe9b6c638"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#ab7d311180e6c1130c970d08fe9b6c638">ATTEN_NORM</a></div><div class="ttdeci">const float ATTEN_NORM</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00030">sound.qh:30</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9d4fb8ccfb13fa0bd762af0b2b50dcf6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a></div><div class="ttdeci">float nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">csprogsdefs.qc:121</a></div></div>
 <div class="ttc" id="cl__controlpoint_8qh_html_a4e21ea690a77be8367e5608dfdebe26f"><div class="ttname"><a href="../../d4/d93/cl__controlpoint_8qh.html#a4e21ea690a77be8367e5608dfdebe26f">CPSF_SETUP</a></div><div class="ttdeci">const int CPSF_SETUP</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d93/cl__controlpoint_8qh_source.html#l00008">cl_controlpoint.qh:8</a></div></div>
-<div class="ttc" id="cl__client_8qc_html_aba4837a3272d5055dbaa26db3590852d"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#aba4837a3272d5055dbaa26db3590852d">ClientDisconnect</a></div><div class="ttdeci">void ClientDisconnect()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01144">cl_client.qc:1144</a></div></div>
+<div class="ttc" id="cl__client_8qc_html_aba4837a3272d5055dbaa26db3590852d"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#aba4837a3272d5055dbaa26db3590852d">ClientDisconnect</a></div><div class="ttdeci">void ClientDisconnect()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01145">cl_client.qc:1145</a></div></div>
 <div class="ttc" id="sys-pre_8qh_html_a1b69a3a134506189b3d054e6c6f2896c"><div class="ttname"><a href="../../dd/d8b/sys-pre_8qh.html#a1b69a3a134506189b3d054e6c6f2896c">droptofloor</a></div><div class="ttdeci">#define droptofloor</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/sys-pre_8qh_source.html#l00004">sys-pre.qh:4</a></div></div>
 <div class="ttc" id="animhost_8qc_html_adefbd921a4842d1508ad36753a2e7750"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#adefbd921a4842d1508ad36753a2e7750">n</a></div><div class="ttdeci">entity n</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00032">animhost.qc:32</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a383c15fa728b566e1b925092ec618b1d"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a383c15fa728b566e1b925092ec618b1d">findchainfloat</a></div><div class="ttdeci">entity findchainfloat(.float field, float match)</div></div>
@@ -2519,7 +2521,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="ttc" id="teams_8qh_html_a72db51a685e97d7d76a082746041fa56"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a></div><div class="ttdeci">const int NUM_TEAM_4</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00020">teams.qh:20</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9fb8a895035d83abe9846f2a33470060"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a></div><div class="ttdeci">const float M_PI</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00269">csprogsdefs.qc:269</a></div></div>
 <div class="ttc" id="scores_8qc_html_afc148f5f21c7b4c29db8ffeabfb26882"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882">ScoreInfo_SetLabel_TeamScore</a></div><div class="ttdeci">void ScoreInfo_SetLabel_TeamScore(float i, string label, float scoreflags)</div><div class="ttdoc">Set the label of a team score item, as well as the scoring flags. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00172">scores.qc:172</a></div></div>
-<div class="ttc" id="cl__client_8qc_html_a232193f46d80e3a51b3e1ed75a5f925e"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#a232193f46d80e3a51b3e1ed75a5f925e">PlayerUseKey</a></div><div class="ttdeci">void PlayerUseKey()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01975">cl_client.qc:1975</a></div></div>
+<div class="ttc" id="cl__client_8qc_html_a232193f46d80e3a51b3e1ed75a5f925e"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#a232193f46d80e3a51b3e1ed75a5f925e">PlayerUseKey</a></div><div class="ttdeci">void PlayerUseKey()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01976">cl_client.qc:1976</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a53c4a8e7afd17cad92bc00adba96bb78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a></div><div class="ttdeci">entity find(entity start,.string field, string match)</div></div>
 <div class="ttc" id="round__handler_8qc_html_afa84ad6fb073b0cf1cbae7eb74f70e4c"><div class="ttname"><a href="../../db/dfc/round__handler_8qc.html#afa84ad6fb073b0cf1cbae7eb74f70e4c">round_handler_Spawn</a></div><div class="ttdeci">void round_handler_Spawn(float() canRoundStart_func, float() canRoundEnd_func, void() roundStart_func)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dfc/round__handler_8qc_source.html#l00087">round_handler.qc:87</a></div></div>
 <div class="ttc" id="scores__rules_8qc_html_a838b897a9ae86e8bf932e57c356ec987"><div class="ttname"><a href="../../d5/d14/scores__rules_8qc.html#a838b897a9ae86e8bf932e57c356ec987">CheckAllowedTeams</a></div><div class="ttdeci">void CheckAllowedTeams(entity for_whom)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4f/teamplay_8qc_source.html#l00227">teamplay.qc:227</a></div></div>
@@ -2541,7 +2543,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="ttc" id="cl__client_8qh_html_a374cc32da17a4d3fea4faa48066ea8bc"><div class="ttname"><a href="../../d1/d30/cl__client_8qh.html#a374cc32da17a4d3fea4faa48066ea8bc">c4</a></div><div class="ttdeci">float c4</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d30/cl__client_8qh_source.html#l00003">cl_client.qh:3</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8b85fda1f4e4157ff583a91373b2f71"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a></div><div class="ttdeci">float rint(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a2938cf8334c141eda70b56b31409d120"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120">MSG_ONE</a></div><div class="ttdeci">float MSG_ONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/menudefs_8qc_source.html#l00056">menudefs.qc:56</a></div></div>
-<div class="ttc" id="cl__client_8qc_html_a1565df9f317d13a6dda4f158fe18478d"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#a1565df9f317d13a6dda4f158fe18478d">SpectateCopy</a></div><div class="ttdeci">void SpectateCopy(entity this, entity spectatee)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01542">cl_client.qc:1542</a></div></div>
+<div class="ttc" id="cl__client_8qc_html_a1565df9f317d13a6dda4f158fe18478d"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#a1565df9f317d13a6dda4f158fe18478d">SpectateCopy</a></div><div class="ttdeci">void SpectateCopy(entity this, entity spectatee)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01543">cl_client.qc:1543</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a1d54f461e8d603bbdb4bd49cbc4e6f2f"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a1d54f461e8d603bbdb4bd49cbc4e6f2f">bot_waypoints_for_items</a></div><div class="ttdeci">float bot_waypoints_for_items</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00221">defs.qh:221</a></div></div>
 <div class="ttc" id="effectinfo_8qc_html_a2ae584d3dad891f2ae754acead0f015a"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a></div><div class="ttdeci">return strcat(s,&quot;}\n&quot;)</div></div>
 <div class="ttc" id="cl__client_8qh_html_a1b932a1e2adf36a4506e7470f831da40"><div class="ttname"><a href="../../d1/d30/cl__client_8qh.html#a1b932a1e2adf36a4506e7470f831da40">c3</a></div><div class="ttdeci">float c3</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d30/cl__client_8qh_source.html#l00003">cl_client.qh:3</a></div></div>
@@ -2596,7 +2598,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_485953d51457a9f079ff3eef255d57d0.html">onslaught</a></li><li class="navelem"><a class="el" href="../../d4/d13/onslaught_8qc.html">onslaught.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 07:36:13 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 07:49:10 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

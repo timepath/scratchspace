@@ -779,195 +779,196 @@ $(document).ready(function(){initNavTree('d3/d3d/shockwave_8qc_source.html','../
 <div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;</div>
 <div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_aim, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
 <div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;{</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> - <span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>.origin) &lt;= <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(shockwave, melee_range))</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;        { <a class="code" href="../../df/dae/player_8qh.html#aef86542f9909f794e073794b9dab3af7">PHYS_INPUT_BUTTON_ATCK2</a>(<span class="keyword">self</span>) = <a class="code" href="../../df/dc9/aim_8qc.html#a27e88c694b8648e6ef4a34ce3b1acea4">bot_aim</a>(1000000, 0, 0.001, <span class="keyword">false</span>); }</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        { <a class="code" href="../../df/dae/player_8qh.html#ae70419df87245d159bf96515d7d3e0b1">PHYS_INPUT_BUTTON_ATCK</a>(<span class="keyword">self</span>) = <a class="code" href="../../df/dc9/aim_8qc.html#a27e88c694b8648e6ef4a34ce3b1acea4">bot_aim</a>(1000000, 0, 0.001, <span class="keyword">false</span>); }</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;}</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_think, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> actor, .<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> weaponentity, <span class="keywordtype">int</span> fire))</div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;{</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    <span class="keywordflow">if</span>(fire &amp; 1)</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;    {</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= actor.shockwave_blasttime) <span class="comment">// handle refire separately so the secondary can be fired straight after a primary</span></div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;        {</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">false</span>, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(shockwave, blast_animtime)))</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;            {</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;                W_Shockwave_Attack();</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;                actor.shockwave_blasttime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(shockwave, blast_refire) * <a class="code" href="../../d5/de0/weaponsystem_8qc.html#ada198b7d2c4a23e3476772e6e16828d7">W_WeaponRateFactor</a>();</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;                <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(shockwave, blast_animtime), <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;            }</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;        }</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;    }</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(fire &amp; 2)</div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;    {</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;        <span class="comment">//if(actor.clip_load &gt;= 0) // we are not currently reloading</span></div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;        <span class="keywordflow">if</span>(!actor.crouch) <span class="comment">// no crouchmelee please</span></div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">true</span>, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(shockwave, melee_refire)))</div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;        {</div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;            <span class="comment">// attempt forcing playback of the anim by switching to another anim (that we never play) here...</span></div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;            <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, 0, W_Shockwave_Melee);</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;        }</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;    }</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;}</div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_checkammo1, <span class="keywordtype">bool</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;{</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>; <span class="comment">// infinite ammo</span></div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;}</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_checkammo2, <span class="keywordtype">bool</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;{</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    <span class="comment">// shockwave has infinite ammo</span></div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;}</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_suicidemessage, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#af43285df24e8b1871037f3588117e951">Notification</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;{</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;    <span class="keywordflow">return</span> WEAPON_THINKING_WITH_PORTALS;</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;}</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_killmessage, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#af43285df24e8b1871037f3588117e951">Notification</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;{</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d9/d08/client_2defs_8qh.html#a2e1514f73e31549522f5f490d4cb27c7">w_deathtype</a> &amp; <a class="code" href="../../db/dab/common_2deathtypes_2all_8qh.html#aef6fa079502aff69a43b0627c85d8efb">HITTYPE_SECONDARY</a>)</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        <span class="keywordflow">return</span> WEAPON_SHOCKWAVE_MURDER_SLAP;</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;        <span class="keywordflow">return</span> WEAPON_SHOCKWAVE_MURDER;</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;}</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef CSQC</span></div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;<span class="preprocessor"></span><span class="comment">// WEAPONTODO: add client side settings for these</span></div>
-<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;<span class="keyword">const</span> <span class="keywordtype">float</span> SW_MAXALPHA = 0.5;</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;<span class="keyword">const</span> <span class="keywordtype">float</span> SW_FADETIME = 0.4;</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;<span class="keyword">const</span> <span class="keywordtype">float</span> SW_DISTTOMIN = 200;</div>
-<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;<span class="keywordtype">void</span> Draw_Shockwave(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;{</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;    <span class="comment">// fading/removal control</span></div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    <span class="keywordtype">float</span> a = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, (SW_MAXALPHA - ((<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.sw_time) / SW_FADETIME)), SW_MAXALPHA);</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    <span class="keywordflow">if</span>(a &lt; <a class="code" href="../../d0/d2a/client_2main_8qh.html#a615430decaa9e99ecead42215bc1405c">ALPHA_MIN_VISIBLE</a>) { <span class="keyword">remove</span>(<span class="keyword">this</span>); }</div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;    <span class="comment">// WEAPONTODO: save this only once when creating the entity</span></div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;    vector sw_color = entcs_GetColor(this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#a8036e7ff202b8dfa10a7e15e849bebe7">sv_entnum</a> - 1); <span class="comment">// GetTeamRGB(entcs_GetTeam(this.sv_entnum));</span></div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;    <span class="comment">// WEAPONTODO: trace to find what we actually hit</span></div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;    vector endpos = (this.sw_shotorg + (this.sw_shotdir * this.sw_distance));</div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;</div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;    vectorvectors(this.sw_shotdir);</div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;    vector right = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a>; <span class="comment">// save this for when we do makevectors later</span></div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    vector up = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a>; <span class="comment">// save this for when we do makevectors later</span></div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;</div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;    <span class="comment">// WEAPONTODO: combine and simplify these calculations</span></div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;    vector min_end = ((this.sw_shotorg + (this.sw_shotdir * SW_DISTTOMIN)) + (up * this.sw_spread_min));</div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;    vector max_end = (endpos + (up * this.sw_spread_max));</div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;    <span class="keywordtype">float</span> spread_to_min = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(min_end - this.sw_shotorg) - this.sw_shotdir);</div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;    <span class="keywordtype">float</span> spread_to_max = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(max_end - min_end) - this.sw_shotdir);</div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;</div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;    vector first_min_end = <span class="stringliteral">&#39;0 0 0&#39;</span>, prev_min_end = <span class="stringliteral">&#39;0 0 0&#39;</span>, new_min_end = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;    vector first_max_end = <span class="stringliteral">&#39;0 0 0&#39;</span>, prev_max_end = <span class="stringliteral">&#39;0 0 0&#39;</span>, new_max_end = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;    <span class="keywordtype">float</span> new_max_dist, new_min_dist;</div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;</div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;    vector deviation, angle = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;    <span class="keywordtype">float</span> counter, divisions = 20;</div>
-<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;    <span class="keywordflow">for</span>(counter = 0; counter &lt; divisions; ++counter)</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;    {</div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;        <span class="comment">// perfect circle effect lines</span></div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;        makevectors(<span class="stringliteral">&#39;0 360 0&#39;</span> * (0.75 + (counter - 0.5) / divisions));</div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;        angle.y = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>.x;</div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;        angle.z = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>.y;</div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;</div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;        <span class="comment">// first do the spread_to_min effect</span></div>
-<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;        deviation = angle * spread_to_min;</div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;        deviation = ((this.sw_shotdir + (right * deviation.y) + (up * deviation.z)));</div>
-<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;        new_min_dist = SW_DISTTOMIN;</div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;        new_min_end = (this.sw_shotorg + (deviation * new_min_dist));</div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;        <span class="comment">//te_lightning2(world, new_min_end, this.sw_shotorg);</span></div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;</div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;        <span class="comment">// then calculate spread_to_max effect</span></div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;        deviation = angle * spread_to_max;</div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;        deviation = ((this.sw_shotdir + (right * deviation.y) + (up * deviation.z)));</div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;        new_max_dist = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(new_min_end - endpos);</div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;        new_max_end = (new_min_end + (deviation * new_max_dist));</div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;        <span class="comment">//te_lightning2(world, new_end, prev_min_end);</span></div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> - <span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>.origin) &lt;= <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(shockwave, melee_range))</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;        { <a class="code" href="../../df/dae/player_8qh.html#aef86542f9909f794e073794b9dab3af7">PHYS_INPUT_BUTTON_ATCK2</a>(<span class="keyword">self</span>) = <a class="code" href="../../df/dc9/aim_8qc.html#a27e88c694b8648e6ef4a34ce3b1acea4">bot_aim</a>(1000000, 0, 0.001, <span class="keyword">false</span>); }</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;        { <a class="code" href="../../df/dae/player_8qh.html#ae70419df87245d159bf96515d7d3e0b1">PHYS_INPUT_BUTTON_ATCK</a>(<span class="keyword">self</span>) = <a class="code" href="../../df/dc9/aim_8qc.html#a27e88c694b8648e6ef4a34ce3b1acea4">bot_aim</a>(1000000, 0, 0.001, <span class="keyword">false</span>); }</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;}</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_think, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> actor, .<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> weaponentity, <span class="keywordtype">int</span> fire))</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;{</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;    <span class="keywordflow">if</span>(fire &amp; 1)</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    {</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= actor.shockwave_blasttime) <span class="comment">// handle refire separately so the secondary can be fired straight after a primary</span></div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;        {</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">false</span>, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(shockwave, blast_animtime)))</div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;            {</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;                W_Shockwave_Attack();</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;                actor.shockwave_blasttime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(shockwave, blast_refire) * <a class="code" href="../../d5/de0/weaponsystem_8qc.html#ada198b7d2c4a23e3476772e6e16828d7">W_WeaponRateFactor</a>();</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;                <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(shockwave, blast_animtime), <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;            }</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;        }</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;    }</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(fire &amp; 2)</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;    {</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;        <span class="comment">//if(actor.clip_load &gt;= 0) // we are not currently reloading</span></div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;        <span class="keywordflow">if</span>(!actor.crouch) <span class="comment">// no crouchmelee please</span></div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">true</span>, <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a>(shockwave, melee_refire)))</div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;        {</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;            <span class="comment">// attempt forcing playback of the anim by switching to another anim (that we never play) here...</span></div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;            <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, 0, W_Shockwave_Melee);</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;        }</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;    }</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;}</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_checkammo1, <span class="keywordtype">bool</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;{</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>; <span class="comment">// infinite ammo</span></div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;}</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_checkammo2, <span class="keywordtype">bool</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;{</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;    <span class="comment">// shockwave has infinite ammo</span></div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;}</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_suicidemessage, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#af43285df24e8b1871037f3588117e951">Notification</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;{</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;    <span class="keywordflow">return</span> WEAPON_THINKING_WITH_PORTALS;</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;}</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_killmessage, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#af43285df24e8b1871037f3588117e951">Notification</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;{</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d9/d08/client_2defs_8qh.html#a2e1514f73e31549522f5f490d4cb27c7">w_deathtype</a> &amp; <a class="code" href="../../db/dab/common_2deathtypes_2all_8qh.html#aef6fa079502aff69a43b0627c85d8efb">HITTYPE_SECONDARY</a>)</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;        <span class="keywordflow">return</span> WEAPON_SHOCKWAVE_MURDER_SLAP;</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;        <span class="keywordflow">return</span> WEAPON_SHOCKWAVE_MURDER;</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;}</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef CSQC</span></div>
+<div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;<span class="preprocessor"></span><span class="comment">// WEAPONTODO: add client side settings for these</span></div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;<span class="keyword">const</span> <span class="keywordtype">float</span> SW_MAXALPHA = 0.5;</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;<span class="keyword">const</span> <span class="keywordtype">float</span> SW_FADETIME = 0.4;</div>
+<div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;<span class="keyword">const</span> <span class="keywordtype">float</span> SW_DISTTOMIN = 200;</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;<span class="keywordtype">void</span> Draw_Shockwave(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;{</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;    <span class="comment">// fading/removal control</span></div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    <span class="keywordtype">float</span> a = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, (SW_MAXALPHA - ((<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.sw_time) / SW_FADETIME)), SW_MAXALPHA);</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;    <span class="keywordflow">if</span>(a &lt; <a class="code" href="../../d0/d2a/client_2main_8qh.html#a615430decaa9e99ecead42215bc1405c">ALPHA_MIN_VISIBLE</a>) { <span class="keyword">remove</span>(<span class="keyword">this</span>); }</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;    <span class="comment">// WEAPONTODO: save this only once when creating the entity</span></div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;    vector sw_color = entcs_GetColor(this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#a8036e7ff202b8dfa10a7e15e849bebe7">sv_entnum</a> - 1); <span class="comment">// GetTeamRGB(entcs_GetTeam(this.sv_entnum));</span></div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;    <span class="comment">// WEAPONTODO: trace to find what we actually hit</span></div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;    vector endpos = (this.sw_shotorg + (this.sw_shotdir * this.sw_distance));</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;    vectorvectors(this.sw_shotdir);</div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    vector right = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a>; <span class="comment">// save this for when we do makevectors later</span></div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;    vector up = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a>; <span class="comment">// save this for when we do makevectors later</span></div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;</div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;    <span class="comment">// WEAPONTODO: combine and simplify these calculations</span></div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;    vector min_end = ((this.sw_shotorg + (this.sw_shotdir * SW_DISTTOMIN)) + (up * this.sw_spread_min));</div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;    vector max_end = (endpos + (up * this.sw_spread_max));</div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;    <span class="keywordtype">float</span> spread_to_min = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(min_end - this.sw_shotorg) - this.sw_shotdir);</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;    <span class="keywordtype">float</span> spread_to_max = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(max_end - min_end) - this.sw_shotdir);</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;</div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;    vector first_min_end = <span class="stringliteral">&#39;0 0 0&#39;</span>, prev_min_end = <span class="stringliteral">&#39;0 0 0&#39;</span>, new_min_end = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;    vector first_max_end = <span class="stringliteral">&#39;0 0 0&#39;</span>, prev_max_end = <span class="stringliteral">&#39;0 0 0&#39;</span>, new_max_end = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;    <span class="keywordtype">float</span> new_max_dist, new_min_dist;</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;    vector deviation, angle = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;    <span class="keywordtype">float</span> counter, divisions = 20;</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;    <span class="keywordflow">for</span>(counter = 0; counter &lt; divisions; ++counter)</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;    {</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;        <span class="comment">// perfect circle effect lines</span></div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;        makevectors(<span class="stringliteral">&#39;0 360 0&#39;</span> * (0.75 + (counter - 0.5) / divisions));</div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;        angle.y = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>.x;</div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;        angle.z = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>.y;</div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;        <span class="comment">// first do the spread_to_min effect</span></div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;        deviation = angle * spread_to_min;</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;        deviation = ((this.sw_shotdir + (right * deviation.y) + (up * deviation.z)));</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;        new_min_dist = SW_DISTTOMIN;</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;        new_min_end = (this.sw_shotorg + (deviation * new_min_dist));</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;        <span class="comment">//te_lightning2(world, new_min_end, this.sw_shotorg);</span></div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;</div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;        <span class="comment">// then calculate spread_to_max effect</span></div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;        deviation = angle * spread_to_max;</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;        deviation = ((this.sw_shotdir + (right * deviation.y) + (up * deviation.z)));</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;        new_max_dist = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(new_min_end - endpos);</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;        new_max_end = (new_min_end + (deviation * new_max_dist));</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;        <span class="comment">//te_lightning2(world, new_end, prev_min_end);</span></div>
 <div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;</div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;        <span class="keywordflow">if</span>(counter == 0)</div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;        {</div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;            first_min_end = new_min_end;</div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;            first_max_end = new_max_end;</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;        }</div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;</div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;        <span class="keywordflow">if</span>(counter &gt;= 1)</div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;        {</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;            <span class="comment">// draw from shot origin to min spread radius</span></div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;            R_BeginPolygon(<span class="stringliteral">&quot;&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
-<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;            R_PolygonVertex(prev_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;            R_PolygonVertex(new_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;            R_PolygonVertex(this.sw_shotorg, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;            R_EndPolygon();</div>
-<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;</div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;            <span class="comment">// draw from min spread radius to max spread radius</span></div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;            R_BeginPolygon(<span class="stringliteral">&quot;&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
-<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;            R_PolygonVertex(new_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;            R_PolygonVertex(prev_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;            R_PolygonVertex(prev_max_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;            R_PolygonVertex(new_max_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;            R_EndPolygon();</div>
-<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;        }</div>
-<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;</div>
-<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;        prev_min_end = new_min_end;</div>
-<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;        prev_max_end = new_max_end;</div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;</div>
-<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;        <span class="comment">// last division only</span></div>
-<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;        <span class="keywordflow">if</span>((counter + 1) == divisions)</div>
-<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;        {</div>
-<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;            <span class="comment">// draw from shot origin to min spread radius</span></div>
-<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;            R_BeginPolygon(<span class="stringliteral">&quot;&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
-<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;            R_PolygonVertex(prev_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;            R_PolygonVertex(first_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;            R_PolygonVertex(this.sw_shotorg, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;            R_EndPolygon();</div>
-<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;</div>
-<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;            <span class="comment">// draw from min spread radius to max spread radius</span></div>
-<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;            R_BeginPolygon(<span class="stringliteral">&quot;&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;            R_PolygonVertex(first_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;            R_PolygonVertex(prev_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;            R_PolygonVertex(prev_max_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;            R_PolygonVertex(first_max_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
-<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;            R_EndPolygon();</div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;        }</div>
-<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;    }</div>
-<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;}</div>
-<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;</div>
-<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;<a class="code" href="../../dd/d69/net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a>(TE_CSQC_SHOCKWAVEPARTICLE, <span class="keywordtype">bool</span> isNew)</div>
-<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;{</div>
-<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;    Net_ReadShockwaveParticle();</div>
-<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;}</div>
-<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;</div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;<span class="keywordtype">void</span> Net_ReadShockwaveParticle()</div>
-<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;{</div>
-<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> shockwave;</div>
-<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;    shockwave = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
-<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;    shockwave.draw = Draw_Shockwave;</div>
-<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;</div>
-<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;    shockwave.sw_shotorg_x = ReadCoord(); shockwave.sw_shotorg_y = ReadCoord(); shockwave.sw_shotorg_z = ReadCoord();</div>
-<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;    shockwave.sw_shotdir_x = ReadCoord(); shockwave.sw_shotdir_y = ReadCoord(); shockwave.sw_shotdir_z = ReadCoord();</div>
-<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;</div>
-<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;    shockwave.sw_distance = ReadShort();</div>
-<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    shockwave.sw_spread_max = ReadByte();</div>
-<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;    shockwave.sw_spread_min = ReadByte();</div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;    shockwave.sv_entnum = ReadByte();</div>
-<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;</div>
-<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;    shockwave.sw_time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;}</div>
-<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;</div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_impacteffect, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;{</div>
-<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;    <span class="comment">// handled by Net_ReadShockwaveParticle</span></div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;    <span class="comment">//vector org2;</span></div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;    <span class="comment">//org2 = w_org + w_backoff * 2;</span></div>
-<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;    <span class="comment">//pointparticles(EFFECT_BLASTER_IMPACT, org2, w_backoff * 1000, 1);</span></div>
-<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;}</div>
-<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;</div>
-<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;        <span class="keywordflow">if</span>(counter == 0)</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;        {</div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;            first_min_end = new_min_end;</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;            first_max_end = new_max_end;</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;        }</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;        <span class="keywordflow">if</span>(counter &gt;= 1)</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;        {</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;            <span class="comment">// draw from shot origin to min spread radius</span></div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;            R_BeginPolygon(<span class="stringliteral">&quot;&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;            R_PolygonVertex(prev_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;            R_PolygonVertex(new_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;            R_PolygonVertex(this.sw_shotorg, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;            R_EndPolygon();</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;            <span class="comment">// draw from min spread radius to max spread radius</span></div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;            R_BeginPolygon(<span class="stringliteral">&quot;&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;            R_PolygonVertex(new_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;            R_PolygonVertex(prev_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;            R_PolygonVertex(prev_max_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;            R_PolygonVertex(new_max_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;            R_EndPolygon();</div>
+<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;        }</div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;</div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;        prev_min_end = new_min_end;</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;        prev_max_end = new_max_end;</div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;</div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;        <span class="comment">// last division only</span></div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;        <span class="keywordflow">if</span>((counter + 1) == divisions)</div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;        {</div>
+<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;            <span class="comment">// draw from shot origin to min spread radius</span></div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;            R_BeginPolygon(<span class="stringliteral">&quot;&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
+<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;            R_PolygonVertex(prev_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;            R_PolygonVertex(first_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;            R_PolygonVertex(this.sw_shotorg, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;            R_EndPolygon();</div>
+<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;</div>
+<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;            <span class="comment">// draw from min spread radius to max spread radius</span></div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;            R_BeginPolygon(<span class="stringliteral">&quot;&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;            R_PolygonVertex(first_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;            R_PolygonVertex(prev_min_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;            R_PolygonVertex(prev_max_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;            R_PolygonVertex(first_max_end, <span class="stringliteral">&#39;0 0 0&#39;</span>, sw_color, a);</div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;            R_EndPolygon();</div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;        }</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;    }</div>
+<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;}</div>
+<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;</div>
+<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;<a class="code" href="../../dd/d69/net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a>(TE_CSQC_SHOCKWAVEPARTICLE, <span class="keywordtype">bool</span> isNew)</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;{</div>
+<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;    Net_ReadShockwaveParticle();</div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;}</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;</div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;<span class="keywordtype">void</span> Net_ReadShockwaveParticle()</div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;{</div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> shockwave;</div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;    shockwave = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;    shockwave.draw = Draw_Shockwave;</div>
+<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;</div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;    shockwave.sw_shotorg_x = ReadCoord(); shockwave.sw_shotorg_y = ReadCoord(); shockwave.sw_shotorg_z = ReadCoord();</div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;    shockwave.sw_shotdir_x = ReadCoord(); shockwave.sw_shotdir_y = ReadCoord(); shockwave.sw_shotdir_z = ReadCoord();</div>
+<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    shockwave.sw_distance = ReadShort();</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;    shockwave.sw_spread_max = ReadByte();</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;    shockwave.sw_spread_min = ReadByte();</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;</div>
+<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;    shockwave.sv_entnum = ReadByte();</div>
+<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;</div>
+<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;    shockwave.sw_time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;}</div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(Shockwave, wr_impacteffect, <span class="keywordtype">void</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> thiswep))</div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;{</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;    <span class="comment">// handled by Net_ReadShockwaveParticle</span></div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;    <span class="comment">//vector org2;</span></div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;    <span class="comment">//org2 = w_org + w_backoff * 2;</span></div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;    <span class="comment">//pointparticles(EFFECT_BLASTER_IMPACT, org2, w_backoff * 1000, 1);</span></div>
+<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;}</div>
+<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;</div>
+<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a615430decaa9e99ecead42215bc1405c"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a615430decaa9e99ecead42215bc1405c">ALPHA_MIN_VISIBLE</a></div><div class="ttdeci">const float ALPHA_MIN_VISIBLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00130">main.qh:130</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a66ca3d9dc1f3bc5a039abad59d986d40"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a></div><div class="ttdeci">void w_ready(Weapon thiswep, entity actor,.entity weaponentity, int fire)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00202">weaponsystem.qc:202</a></div></div>
@@ -975,7 +976,7 @@ $(document).ready(function(){initNavTree('d3/d3d/shockwave_8qc_source.html','../
 <div class="ttc" id="menudefs_8qc_html_a60338c2153150633178af678cf3ca57c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a></div><div class="ttdeci">entity spawn(void)</div></div>
 <div class="ttc" id="tracing_8qh_html_aced556a90ea3cc9950877ff32ba08566"><div class="ttname"><a href="../../d4/d3f/tracing_8qh.html#aced556a90ea3cc9950877ff32ba08566">w_shotorg</a></div><div class="ttdeci">vector w_shotorg</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3f/tracing_8qh_source.html#l00003">tracing.qh:3</a></div></div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_ad1d833615f56d11e3c3a9facc944aaf6"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6">Damage</a></div><div class="ttdeci">void Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype, vector hitloc, vector force)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00577">g_damage.qc:577</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_ad1d833615f56d11e3c3a9facc944aaf6"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6">Damage</a></div><div class="ttdeci">void Damage(entity targ, entity inflictor, entity attacker, float damage, int deathtype, vector hitloc, vector force)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00578">g_damage.qc:578</a></div></div>
 <div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00115">oo.qh:115</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a888e1072d2f30bde6209cdd46dfa8482"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a888e1072d2f30bde6209cdd46dfa8482">WarpZoneLib_NearestPointOnBox</a></div><div class="ttdeci">vector WarpZoneLib_NearestPointOnBox(vector mi, vector ma, vector org)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00564">common.qc:564</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abd23315350cd01304b6bd77c4c5c07e6"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a></div><div class="ttdeci">void WriteByte(float data, float dest, float desto)</div></div>
@@ -1011,7 +1012,7 @@ $(document).ready(function(){initNavTree('d3/d3d/shockwave_8qc_source.html','../
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a016975064cec162b7970af4b7a35149b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a></div><div class="ttdeci">vector v_up</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">csprogsdefs.qc:31</a></div></div>
 <div class="ttc" id="tracing_8qh_html_ae13b93222497e91b9fd85ce0ffbe0e46"><div class="ttname"><a href="../../d4/d3f/tracing_8qh.html#ae13b93222497e91b9fd85ce0ffbe0e46">W_SetupShot_Range</a></div><div class="ttdeci">#define W_SetupShot_Range(ent, antilag, recoil, snd, chan, maxdamage, range)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3f/tracing_8qh_source.html#l00016">tracing.qh:16</a></div></div>
-<div class="ttc" id="weaponsystem_8qc_html_a3eef678d2a46dc639f684d226fae3906"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a></div><div class="ttdeci">bool weapon_prepareattack(Weapon thiswep, entity actor,.entity weaponentity, bool secondary, float attacktime)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00311">weaponsystem.qc:311</a></div></div>
+<div class="ttc" id="weaponsystem_8qc_html_a3eef678d2a46dc639f684d226fae3906"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a></div><div class="ttdeci">bool weapon_prepareattack(Weapon thiswep, entity actor,.entity weaponentity, bool secondary, float attacktime)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00312">weaponsystem.qc:312</a></div></div>
 <div class="ttc" id="tracing_8qh_html_abe27a35cb354b49164f6833ff337f48b"><div class="ttname"><a href="../../d4/d3f/tracing_8qh.html#abe27a35cb354b49164f6833ff337f48b">W_SetupShot</a></div><div class="ttdeci">#define W_SetupShot(ent, antilag, recoil, snd, chan, maxdamage)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3f/tracing_8qh_source.html#l00015">tracing.qh:15</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a0b04e01c228e625bb2627bee15484910"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a></div><div class="ttdeci">const float DRAWFLAG_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00317">csprogsdefs.qc:317</a></div></div>
 <div class="ttc" id="g__damage_8qh_html_af1915ea9d450669a5a0672749148448f"><div class="ttname"><a href="../../dd/de4/g__damage_8qh.html#af1915ea9d450669a5a0672749148448f">Damage_DamageInfo</a></div><div class="ttdeci">void Damage_DamageInfo(vector org, float coredamage, float edgedamage, float rad, vector force, int deathtype, float bloodtype, entity dmgowner)</div></div>
@@ -1037,7 +1038,7 @@ $(document).ready(function(){initNavTree('d3/d3d/shockwave_8qc_source.html','../
 <div class="ttc" id="g__subs_8qc_html_aa349f780b5d2d608e278935b6e4c60db"><div class="ttname"><a href="../../d2/d11/g__subs_8qc.html#aa349f780b5d2d608e278935b6e4c60db">WarpZone_traceline_antilag</a></div><div class="ttdeci">void WarpZone_traceline_antilag(entity source, vector v1, vector v2, float nomonst, entity forent, float lag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d11/g__subs_8qc_source.html#l00100">g_subs.qc:100</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a37f59b6a1a00560f47d41387a3666338"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a37f59b6a1a00560f47d41387a3666338">WarpZone_TraceLine</a></div><div class="ttdeci">void WarpZone_TraceLine(vector org, vector end, float nomonsters, entity forent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00337">common.qc:337</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a709d598e919683713db93154820f53b7"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a709d598e919683713db93154820f53b7">autocvar_sv_q3acompat_machineshotgunswap</a></div><div class="ttdeci">bool autocvar_sv_q3acompat_machineshotgunswap</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00370">autocvars.qh:370</a></div></div>
-<div class="ttc" id="weaponsystem_8qc_html_a2c942b58576428eb5b55f9d6ca107a49"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a></div><div class="ttdeci">void weapon_thinkf(entity actor,.entity weaponentity, WFRAME fr, float t, void(Weapon thiswep, entity actor,.entity weaponentity, int fire) func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00327">weaponsystem.qc:327</a></div></div>
+<div class="ttc" id="weaponsystem_8qc_html_a2c942b58576428eb5b55f9d6ca107a49"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a></div><div class="ttdeci">void weapon_thinkf(entity actor,.entity weaponentity, WFRAME fr, float t, void(Weapon thiswep, entity actor,.entity weaponentity, int fire) func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00328">weaponsystem.qc:328</a></div></div>
 <div class="ttc" id="oo_8qh_html_a71373c33560dcca984e1c21df4fa1d5f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a></div><div class="ttdeci">#define ENDCLASS(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00228">oo.qh:228</a></div></div>
 <div class="ttc" id="accuracy_8qc_html_a8ad5119b525659cbc971123f303fa416"><div class="ttname"><a href="../../da/d68/accuracy_8qc.html#a8ad5119b525659cbc971123f303fa416">accuracy_isgooddamage</a></div><div class="ttdeci">bool accuracy_isgooddamage(entity attacker, entity targ)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d68/accuracy_8qc_source.html#l00090">accuracy.qc:90</a></div></div>
 <div class="ttc" id="shockwave_8qc_html_a3736dca67d4dece311571a78b7922f63"><div class="ttname"><a href="../../d3/d3d/shockwave_8qc.html#a3736dca67d4dece311571a78b7922f63">X</a></div><div class="ttdeci">#define X(BEGIN, P, END, class, prefix)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d3d/shockwave_8qc_source.html#l00018">shockwave.qc:18</a></div></div>
@@ -1052,12 +1053,12 @@ $(document).ready(function(){initNavTree('d3/d3d/shockwave_8qc_source.html','../
 <div class="ttc" id="csprogsdefs_8qc_html_abe72a6bafb55848ec9cd7f81a6de3c29"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a></div><div class="ttdeci">vector origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">csprogsdefs.qc:101</a></div></div>
 <div class="ttc" id="sound_8qh_html_aed6d064a0c5803ef206ba1f682c01a94"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aed6d064a0c5803ef206ba1f682c01a94">CH_WEAPON_B</a></div><div class="ttdeci">const int CH_WEAPON_B</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00009">sound.qh:9</a></div></div>
 <div class="ttc" id="weapon_8qh_html_a9819105ec0356c90ff7591d2ae6276e2"><div class="ttname"><a href="../../dc/d1c/weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a></div><div class="ttdeci">const int WEP_FLAG_MUTATORBLOCKED</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00189">weapon.qh:189</a></div></div>
-<div class="ttc" id="common_2weapons_2all_8qh_html_af06dc0500e6eb6447e03b35bb1aa39e0"><div class="ttname"><a href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a></div><div class="ttdeci">#define WEP_CVAR(wepname, name)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d81/common_2weapons_2all_8qh_source.html#l00277">all.qh:277</a></div></div>
+<div class="ttc" id="common_2weapons_2all_8qh_html_af06dc0500e6eb6447e03b35bb1aa39e0"><div class="ttname"><a href="../../de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0">WEP_CVAR</a></div><div class="ttdeci">#define WEP_CVAR(wepname, name)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d81/common_2weapons_2all_8qh_source.html#l00278">all.qh:278</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aca94f7b0cad3ddee5f2a42a762e0eafa"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a></div><div class="ttdeci">float trace_fraction</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00036">csprogsdefs.qc:36</a></div></div>
 <div class="ttc" id="player_8qh_html_aef86542f9909f794e073794b9dab3af7"><div class="ttname"><a href="../../df/dae/player_8qh.html#aef86542f9909f794e073794b9dab3af7">PHYS_INPUT_BUTTON_ATCK2</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_ATCK2(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dae/player_8qh_source.html#l00098">player.qh:98</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8f7213273f7de03df213240376ce9f4"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a></div><div class="ttdeci">vector normalize(vector v)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ae20a6760c79f0f4780a9b6a7798b8d16"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae20a6760c79f0f4780a9b6a7798b8d16">MSG_BROADCAST</a></div><div class="ttdeci">float MSG_BROADCAST</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/menudefs_8qc_source.html#l00055">menudefs.qc:55</a></div></div>
-<div class="ttc" id="common_2weapons_2all_8qh_html_a8e565e26af9e4186eb5eb24de0292a94"><div class="ttname"><a href="../../de/d81/common_2weapons_2all_8qh.html#a8e565e26af9e4186eb5eb24de0292a94">W_PROPS</a></div><div class="ttdeci">#define W_PROPS(L, class, prefix)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d81/common_2weapons_2all_8qh_source.html#l00154">all.qh:154</a></div></div>
+<div class="ttc" id="common_2weapons_2all_8qh_html_a8e565e26af9e4186eb5eb24de0292a94"><div class="ttname"><a href="../../de/d81/common_2weapons_2all_8qh.html#a8e565e26af9e4186eb5eb24de0292a94">W_PROPS</a></div><div class="ttdeci">#define W_PROPS(L, class, prefix)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d81/common_2weapons_2all_8qh_source.html#l00155">all.qh:155</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5ad73cc4800e309d3b5a9147d1ce43f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a></div><div class="ttdeci">typedef entity(entity cur, entity near, entity pass) findNextEntityNearFunction_t</div></div>
 <div class="ttc" id="server_2defs_8qh_html_a60096e5c98b3b608470b6130fce0b405"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a60096e5c98b3b608470b6130fce0b405">weapon_defaultspawnfunc</a></div><div class="ttdeci">void weapon_defaultspawnfunc(entity this, Weapon e)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dab/spawning_8qc_source.html#l00025">spawning.qc:25</a></div></div>
 <div class="ttc" id="oo_8qh_html_abeb668c90209cec33cbe7d1589befa60"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#abeb668c90209cec33cbe7d1589befa60">CLASS</a></div><div class="ttdeci">CLASS(Object,)</div></div>
@@ -1070,7 +1071,7 @@ $(document).ready(function(){initNavTree('d3/d3d/shockwave_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_67782cf2b73ff31781b25ce4541674e7.html">weapons</a></li><li class="navelem"><a class="el" href="../../dir_ed9f126d3b57bae7ce3e2e9ba5d7e270.html">weapon</a></li><li class="navelem"><a class="el" href="../../d3/d3d/shockwave_8qc.html">shockwave.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 07:36:14 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 07:49:11 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

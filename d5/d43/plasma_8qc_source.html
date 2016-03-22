@@ -154,27 +154,29 @@ $(document).ready(function(){initNavTree('d5/d43/plasma_8qc_source.html','../../
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PlasmaTurret, tr_think, <span class="keywordtype">void</span>(PlasmaTurret thistur, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> it))</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;{</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.frame != 0)</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keyword">self</span>.tur_head.frame = <span class="keyword">self</span>.tur_head.frame + 1;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.frame &gt; 5)</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="keyword">self</span>.tur_head.frame = 0;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PlasmaTurret, tr_setup, <span class="keywordtype">void</span>(PlasmaTurret <span class="keyword">this</span>, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> it))</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;{</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    it.ammo_flags = <a class="code" href="../../d9/d67/turret_8qh.html#a86d1d46d1a751524ae629ad0a0ac0cad">TFL_AMMO_ENERGY</a> | <a class="code" href="../../d9/d67/turret_8qh.html#ab18f6716f65ae5a24655adf0403bfb30">TFL_AMMO_RECHARGE</a> | <a class="code" href="../../d9/d67/turret_8qh.html#ac534dca03d2448d6ce588aee578d5ad9">TFL_AMMO_RECIEVE</a>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    it.damage_flags |= <a class="code" href="../../d9/d67/turret_8qh.html#a18df068610050c4bba9a48c21f2ece04">TFL_DMG_HEADSHAKE</a>;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    it.firecheck_flags |= <a class="code" href="../../d9/d67/turret_8qh.html#af6034e6ba258fc2255245173d6320da8">TFL_FIRECHECK_AFF</a>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    it.aim_flags = <a class="code" href="../../d9/d67/turret_8qh.html#a316a9d1bb21b5e1bfb4ee23225cecc53">TFL_AIM_LEAD</a> | <a class="code" href="../../d9/d67/turret_8qh.html#a86269d6770572bf071e9c4fc8f367082">TFL_AIM_SHOTTIMECOMPENSATE</a> | <a class="code" href="../../d9/d67/turret_8qh.html#a42a854849e67ae27f0c5566048df5860">TFL_AIM_SPLASH</a>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <a class="code" href="../../df/d28/sv__turrets_8qh.html#aeecd9275b04ef56133834fe9ec106c3d">turret_do_updates</a>(it);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.frame != 0)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keyword">self</span>.tur_head.frame = <span class="keyword">self</span>.tur_head.frame + 1;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.frame &gt; 5)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keyword">self</span>.tur_head.frame = 0;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;}</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(PlasmaTurret, tr_setup, <span class="keywordtype">void</span>(PlasmaTurret <span class="keyword">this</span>, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> it))</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;{</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    it.ammo_flags = <a class="code" href="../../d9/d67/turret_8qh.html#a86d1d46d1a751524ae629ad0a0ac0cad">TFL_AMMO_ENERGY</a> | <a class="code" href="../../d9/d67/turret_8qh.html#ab18f6716f65ae5a24655adf0403bfb30">TFL_AMMO_RECHARGE</a> | <a class="code" href="../../d9/d67/turret_8qh.html#ac534dca03d2448d6ce588aee578d5ad9">TFL_AMMO_RECIEVE</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    it.damage_flags |= <a class="code" href="../../d9/d67/turret_8qh.html#a18df068610050c4bba9a48c21f2ece04">TFL_DMG_HEADSHAKE</a>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    it.firecheck_flags |= <a class="code" href="../../d9/d67/turret_8qh.html#af6034e6ba258fc2255245173d6320da8">TFL_FIRECHECK_AFF</a>;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    it.aim_flags = <a class="code" href="../../d9/d67/turret_8qh.html#a316a9d1bb21b5e1bfb4ee23225cecc53">TFL_AIM_LEAD</a> | <a class="code" href="../../d9/d67/turret_8qh.html#a86269d6770572bf071e9c4fc8f367082">TFL_AIM_SHOTTIMECOMPENSATE</a> | <a class="code" href="../../d9/d67/turret_8qh.html#a42a854849e67ae27f0c5566048df5860">TFL_AIM_SPLASH</a>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="../../df/d28/sv__turrets_8qh.html#aeecd9275b04ef56133834fe9ec106c3d">turret_do_updates</a>(it);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="datasource_8qc_html_a5e231c2d4088fbd6bc4c29add962230f"><div class="ttname"><a href="../../d4/d4e/datasource_8qc.html#a5e231c2d4088fbd6bc4c29add962230f">SUPER</a></div><div class="ttdeci">return SUPER(CvarStringSource).reload(this</div></div>
 <div class="ttc" id="sv__turrets_8qh_html_a5bb0d9e6f4a0edd9ebd6c763dd6da6d8"><div class="ttname"><a href="../../df/d28/sv__turrets_8qh.html#a5bb0d9e6f4a0edd9ebd6c763dd6da6d8">tur_shotorg</a></div><div class="ttdeci">vector tur_shotorg</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/sv__turrets_8qh_source.html#l00015">sv_turrets.qh:15</a></div></div>
 <div class="ttc" id="turret_8qh_html_a18df068610050c4bba9a48c21f2ece04"><div class="ttname"><a href="../../d9/d67/turret_8qh.html#a18df068610050c4bba9a48c21f2ece04">TFL_DMG_HEADSHAKE</a></div><div class="ttdeci">const int TFL_DMG_HEADSHAKE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d67/turret_8qh_source.html#l00157">turret.qh:157</a></div></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
 <div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00115">oo.qh:115</a></div></div>
 <div class="ttc" id="turret_8qh_html_ac8e921262e96b469ede3950a35b1ddd4"><div class="ttname"><a href="../../d9/d67/turret_8qh.html#ac8e921262e96b469ede3950a35b1ddd4">TUR_FLAG_SPLASH</a></div><div class="ttdeci">const int TUR_FLAG_SPLASH</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d67/turret_8qh_source.html#l00123">turret.qh:123</a></div></div>
 <div class="ttc" id="turret_8qh_html_af6034e6ba258fc2255245173d6320da8"><div class="ttname"><a href="../../d9/d67/turret_8qh.html#af6034e6ba258fc2255245173d6320da8">TFL_FIRECHECK_AFF</a></div><div class="ttdeci">const int TFL_FIRECHECK_AFF</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d67/turret_8qh_source.html#l00104">turret.qh:104</a></div></div>
@@ -224,7 +226,7 @@ $(document).ready(function(){initNavTree('d5/d43/plasma_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../dir_fa2a09f1361e1aa682b62127b5a1aaea.html">turret</a></li><li class="navelem"><a class="el" href="../../d5/d43/plasma_8qc.html">plasma.qc</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 07:36:13 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 07:49:11 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

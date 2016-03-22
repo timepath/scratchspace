@@ -206,7 +206,7 @@ $(document).ready(function(){initNavTree('dd/d69/net_8qh_source.html','../../');
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    .bool(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> to, <span class="keywordtype">int</span> sendflags) SendEntity;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    .bool(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> to, <span class="keywordtype">int</span> sendflags) SendEntity3;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">bool</span> SendEntity_self(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> to, <span class="keywordtype">int</span> sendflags) { <span class="keywordflow">return</span> <span class="keyword">self</span>.SendEntity3(<span class="keyword">self</span>, to, sendflags); }</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordtype">bool</span> SendEntity_self(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> to, <span class="keywordtype">int</span> sendflags) { <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>(); <span class="keywordflow">return</span> this.SendEntity3(<span class="keyword">this</span>, to, sendflags); }</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordtype">void</span> Net_LinkEntity(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> e, <span class="keywordtype">bool</span> docull, <span class="keywordtype">float</span> dt, <span class="keywordtype">bool</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> to, <span class="keywordtype">int</span> sendflags) sendfunc)</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    {</div>
@@ -250,209 +250,211 @@ $(document).ready(function(){initNavTree('dd/d69/net_8qh_source.html','../../');
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="keywordtype">void</span> UncustomizeEntitiesRun()</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    {</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#a268bcbda68d3c4d6caf3af6e5ac88f08">FOREACH_ENTITY_FLOAT</a>(uncustomizeentityforclient_set, <span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">WITH</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>, <span class="keyword">self</span>, it, it.uncustomizeentityforclient()));</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#a06e81ec5bd716fed71d2dd0850a1dcae">STRING_ITERATOR</a>(g_buf, <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>, 0);</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keywordtype">int</span> ReadByte();</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keywordtype">void</span> Net_ClientCommand(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> sender, <span class="keywordtype">string</span> command)</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    {</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        <span class="comment">// command matches `c2s &quot;(.+)&quot;`</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordtype">string</span> buf = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(command, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(1) + 1, -2);</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordflow">if</span> (buf == <span class="stringliteral">&quot;&quot;</span>) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#a5f5c833a61297415c9aeb463ca5c2f84">STRING_ITERATOR_SET</a>(g_buf, buf, 0);</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> C2S; (C2S = ReadByte()) &gt;= 0; )</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        {</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> reader = <a class="code" href="../../dd/d69/net_8qh.html#a6e4c8aabf20d96d568a3a13b9e492f7c">C2S_Protocol_from</a>(C2S);</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            <span class="keywordflow">if</span> (reader &amp;&amp; reader.m_read &amp;&amp; reader.m_read(<a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, sender, <span class="keyword">true</span>)) <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a>(<span class="stringliteral">&quot;Net_ClientCommand() with malformed C2S=%d\n&quot;</span>, C2S);</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        }</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        g_buf_i--;</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordtype">int</span> expected = <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(buf);</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keywordflow">if</span> (g_buf_i &gt; expected) <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;Underflow: %d&quot;</span>, g_buf_i - expected);</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">if</span> (g_buf_i &lt; expected) <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;Overrflow: %d&quot;</span>, expected - g_buf_i);</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor"></span>    <span class="keyword">const</span> <span class="keywordtype">int</span> MSG_C2S = 0;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="preprocessor">    #define Net_Accept(classname) \</span></div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="preprocessor">        MACRO_BEGIN { \</span></div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="preprocessor">            if (!this)    this = new(classname); \</span></div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define Net_Reject() \</span></div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="preprocessor">        MACRO_BEGIN { \</span></div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="preprocessor">            if (this)     remove(this); \</span></div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordtype">string</span> g_buf;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordtype">void</span> Net_Flush()</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    {</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">if</span> (g_buf == <span class="stringliteral">&quot;&quot;</span>) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;\ncmd c2s \&quot;&quot;</span>, strreplace(<span class="stringliteral">&quot;$&quot;</span>, <span class="stringliteral">&quot;$$&quot;</span>, g_buf), <span class="stringliteral">&quot;\&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(g_buf);</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        g_buf = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    }</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="preprocessor">#if defined(CSQC)</span></div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define WriteHeader(to, id) \</span></div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<span class="preprocessor">        MACRO_BEGIN { \</span></div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;<span class="preprocessor">            WriteByte(to, NET_##id.m_id); \</span></div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#elif defined(SVQC)</span></div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define WriteHeader(to, id) \</span></div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;<span class="preprocessor">        MACRO_BEGIN { \</span></div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="preprocessor">            if (NET_##id##_istemp) WriteByte(to, SVC_TEMPENTITY); \</span></div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="preprocessor">            WriteByte(to, NET_##id.m_id); \</span></div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00212"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a7ad21758d30d0f8a6d0da7da413f3e60">  212</a></span>&#160;<span class="preprocessor">#define ReadRegistered(r) r##_from(Read_byte())</span></div>
-<div class="line"><a name="l00213"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ad6164466023bdea2ceb4e0d4f156f228">  213</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define WriteRegistered(r, to, it) Write_byte(to, it.m_id)</span></div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00215"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a47b6d4ca93431fbacadc241fa409ea8d">  215</a></span>&#160;<span class="preprocessor">#define Read_byte() ReadByte()</span></div>
-<div class="line"><a name="l00216"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a84ebbcfeb398b04d80c378ca47b809c0">  216</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define Write_byte(to, f) WriteByte(to, f)</span></div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="preprocessor">#if defined(CSQC)</span></div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">int</span> ReadByte();</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(<span class="keywordtype">int</span> to, <span class="keywordtype">int</span> b)</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    {</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a>(to == MSG_C2S);</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a> = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <a class="code" href="../../df/d58/yenc_8qh.html#a01877237296c3e64e52b9674f5d326bf">yenc_single</a>(b, s);</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordtype">string</span> tmp = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(g_buf, s);</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">if</span> (g_buf) <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(g_buf);</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        g_buf = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(tmp);</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    }</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="preprocessor">#elif defined(SVQC)</span></div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">int</span> ReadByte()</div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    {</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a> = -1;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <a class="code" href="../../df/d58/yenc_8qh.html#a99af444acc00b3c6c194d21b7150b1e7">ydec_single</a>(g_buf, ret);</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a>;</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    }</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(<span class="keywordtype">int</span> to, <span class="keywordtype">int</span> b);</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00239"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ad661cd848d0c4cf8b93ab4f27f5bd329">  239</a></span>&#160;<span class="preprocessor">#define Read_int() ReadInt24_t()</span></div>
-<div class="line"><a name="l00240"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a869f17eca0934474ecd4e09a341e0aaa">  240</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define Write_int(to, f) WriteInt24_t(to, f)</span></div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00242"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a0864f785d699a546374eb69ec29e69fd">  242</a></span>&#160;<span class="preprocessor">#define Read_float() ReadFloat()</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a5bb63dcab5ee0b1d87a625531c81f0c5">  243</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define Write_float(to, f) WriteFloat(to, f)</span></div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00245"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#adbac038270773ce63aa6c69dd2b08e6e">  245</a></span>&#160;<span class="preprocessor">#define Read_string() ReadString()</span></div>
-<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a37194b6650c79e9e1aaebacc4be74910">  246</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define Write_string(to, f) WriteString(to, f)</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
-<div class="line"><a name="l00249"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ad1ff1afdb3319ece46c9efea3400f397">  249</a></span>&#160;<span class="preprocessor"></span>    <span class="keyword">const</span> <span class="keywordtype">float</span> <a class="code" href="../../dd/d69/net_8qh.html#ad1ff1afdb3319ece46c9efea3400f397">APPROXPASTTIME_ACCURACY_REQUIREMENT</a> = 0.05;</div>
-<div class="line"><a name="l00250"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632">  250</a></span>&#160;<span class="preprocessor">    #define APPROXPASTTIME_MAX (16384 * APPROXPASTTIME_ACCURACY_REQUIREMENT)</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#aa45abd2a52d14393e4e7893d374ea187">  251</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define APPROXPASTTIME_RANGE (64 * APPROXPASTTIME_ACCURACY_REQUIREMENT)</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor">    #ifdef CSQC</span></div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> ReadCSQCEntity()</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        {</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            <span class="keywordtype">int</span> f = ReadShort();</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            <span class="keywordflow">if</span> (f == 0) <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ae4cf1ba5867cb0c1c0e74926ff8b0a5c">findfloat</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a>, f);</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        }</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keywordtype">int</span> ReadInt24_t()</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        {</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            <span class="keywordtype">int</span> v = ReadShort() &lt;&lt; 8; <span class="comment">// note: this is signed</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            v += ReadByte();          <span class="comment">// note: this is unsigned</span></div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            <span class="keywordflow">return</span> v;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        }</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="preprocessor">        #define ReadInt48_t() vec3(ReadInt24_t(), ReadInt24_t(), 0)</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadInt72_t() vec3(ReadInt24_t(), ReadInt24_t(), ReadInt24_t())</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <span class="keywordtype">int</span> _ReadSByte;</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">        #define ReadSByte() (_ReadSByte = ReadByte(), (_ReadSByte &amp; BIT(7) ? -128 : 0) + (_ReadSByte &amp; BITS(7)))</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadFloat() ReadCoord()</span></div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadVector() vec3(ReadFloat(), ReadFloat(), ReadFloat())</span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadVector2D() vec3(ReadFloat(), ReadFloat(), 0)</span></div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <span class="keywordtype">float</span> ReadApproxPastTime()</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        {</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <span class="keywordtype">float</span> dt = ReadByte();</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            <span class="comment">// map from range...PPROXPASTTIME_MAX / 256</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            dt = (<a class="code" href="../../dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632">APPROXPASTTIME_MAX</a> / 256) * (dt / (256 - dt));</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d9/d08/client_2defs_8qh.html#a2f53beae246d912f86721a4b9a0c0d0a">servertime</a> - dt;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        }</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="preprocessor">    #else</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">  286</a></span>&#160;<span class="preprocessor"></span>        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(<span class="keywordtype">float</span> dst, <span class="keywordtype">float</span> val)</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        {</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            <span class="keywordtype">float</span> v;</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(dst, (v = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(val &gt;&gt; 8)));</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(dst, val - (v &lt;&lt; 8));  <span class="comment">// 0..255</span></div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        }</div>
-<div class="line"><a name="l00292"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b">  292</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b">WriteInt48_t</a>(<span class="keywordtype">float</span> dst, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> val)</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        {</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.x);</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.y);</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        }</div>
-<div class="line"><a name="l00297"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7">  297</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7">WriteInt72_t</a>(<span class="keywordtype">float</span> dst, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> val)</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        {</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.x);</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.y);</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.z);</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        }</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;</div>
-<div class="line"><a name="l00304"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a088a1f8d9e6189b35736f96fa5f4e737">  304</a></span>&#160;<span class="preprocessor">        #define WriteFloat(to, f) WriteCoord(to, f)</span></div>
-<div class="line"><a name="l00305"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a9e7ef0c04f606b32fe96a40f1a0cc1dd">  305</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define WriteVector(to, v) MACRO_BEGIN { WriteFloat(to, v.x); WriteFloat(to, v.y); WriteFloat(to, v.z); } MACRO_END</span></div>
-<div class="line"><a name="l00306"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a9bb65db9c1a9e5d176ebcfe843c813fd">  306</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define WriteVector2D(to, v) MACRO_BEGIN { WriteFloat(to, v.x); WriteFloat(to, v.y); } MACRO_END</span></div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        <span class="comment">// this will use the value:</span></div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <span class="comment">//   128</span></div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <span class="comment">// accuracy near zero is APPROXPASTTIME_MAX/(256*255)</span></div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <span class="comment">// accuracy at x is 1/derivative, i.e.</span></div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        <span class="comment">//   APPROXPASTTIME_MAX * (1 + 256 * (dt / APPROXPASTTIME_MAX))^2 / 65536</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a08e1c6c2065f50c6de9d130e73984ff5">  313</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#a08e1c6c2065f50c6de9d130e73984ff5">WriteApproxPastTime</a>(<span class="keywordtype">float</span> dst, <span class="keywordtype">float</span> t)</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        {</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;            <span class="keywordtype">float</span> dt = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - t;</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;            <span class="comment">// warning: this is approximate; do not resend when you don&#39;t have to!</span></div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;            <span class="comment">// be careful with sendflags here!</span></div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            <span class="comment">// we want: 0 -&gt; 0.05, 1 -&gt; 0.1, ..., 255 -&gt; 12.75</span></div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;            <span class="comment">// map to range...</span></div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;            dt = 256 * (dt / ((<a class="code" href="../../dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632">APPROXPASTTIME_MAX</a> / 256) + dt));</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;            <span class="comment">// round...</span></div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            dt = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, dt, 255));</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(dst, dt);</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        }</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        <span class="comment">// allow writing to also pass through to spectators (like so spectators see the same centerprints as players for example)</span></div>
-<div class="line"><a name="l00331"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#adf10dabd55df74adc889851b68155201">  331</a></span>&#160;<span class="preprocessor">        #define WRITESPECTATABLE_MSG_ONE(to, statement) MACRO_BEGIN { \</span></div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="preprocessor">            entity prev = msg_entity; \</span></div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="preprocessor">            entity dst = to; \</span></div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="preprocessor">            FOREACH_CLIENT(IS_REAL_CLIENT(it), { \</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="preprocessor">                if (it == dst || (it.classname == STR_SPECTATOR &amp;&amp; it.enemy == dst)) \</span></div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="preprocessor">                { \</span></div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="preprocessor">                    msg_entity = it; \</span></div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="preprocessor">                    LAMBDA(statement); \</span></div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">                } \</span></div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="preprocessor">            }); \</span></div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="preprocessor">            msg_entity = prev; \</span></div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#a268bcbda68d3c4d6caf3af6e5ac88f08">FOREACH_ENTITY_FLOAT</a>(uncustomizeentityforclient_set, <span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">WITH</a>(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a>, <span class="keyword">self</span>, it, it.uncustomizeentityforclient()));</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    }</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#a06e81ec5bd716fed71d2dd0850a1dcae">STRING_ITERATOR</a>(g_buf, <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>, 0);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordtype">int</span> ReadByte();</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordtype">void</span> Net_ClientCommand(<a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> sender, <span class="keywordtype">string</span> command)</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    {</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="comment">// command matches `c2s &quot;(.+)&quot;`</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordtype">string</span> buf = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(command, <a class="code" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a>(1) + 1, -2);</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">if</span> (buf == <span class="stringliteral">&quot;&quot;</span>) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#a5f5c833a61297415c9aeb463ca5c2f84">STRING_ITERATOR_SET</a>(g_buf, buf, 0);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> C2S; (C2S = ReadByte()) &gt;= 0; )</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        {</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> reader = <a class="code" href="../../dd/d69/net_8qh.html#a6e4c8aabf20d96d568a3a13b9e492f7c">C2S_Protocol_from</a>(C2S);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <span class="keywordflow">if</span> (reader &amp;&amp; reader.m_read &amp;&amp; reader.m_read(<a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, sender, <span class="keyword">true</span>)) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a>(<span class="stringliteral">&quot;Net_ClientCommand() with malformed C2S=%d\n&quot;</span>, C2S);</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;            <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        }</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        g_buf_i--;</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keywordtype">int</span> expected = <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(buf);</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <span class="keywordflow">if</span> (g_buf_i &gt; expected) <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;Underflow: %d&quot;</span>, g_buf_i - expected);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        <span class="keywordflow">if</span> (g_buf_i &lt; expected) <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;Overrflow: %d&quot;</span>, expected - g_buf_i);</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    }</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="preprocessor"></span>    <span class="keyword">const</span> <span class="keywordtype">int</span> MSG_C2S = 0;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="preprocessor">    #define Net_Accept(classname) \</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="preprocessor">        MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="preprocessor">            if (!this)    this = new(classname); \</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define Net_Reject() \</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="preprocessor">        MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="preprocessor">            if (this)     remove(this); \</span></div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="keywordtype">string</span> g_buf;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keywordtype">void</span> Net_Flush()</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    {</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">if</span> (g_buf == <span class="stringliteral">&quot;&quot;</span>) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;\ncmd c2s \&quot;&quot;</span>, strreplace(<span class="stringliteral">&quot;$&quot;</span>, <span class="stringliteral">&quot;$$&quot;</span>, g_buf), <span class="stringliteral">&quot;\&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(g_buf);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        g_buf = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;<span class="preprocessor">#if defined(CSQC)</span></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define WriteHeader(to, id) \</span></div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;<span class="preprocessor">        MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;<span class="preprocessor">            WriteByte(to, NET_##id.m_id); \</span></div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#elif defined(SVQC)</span></div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define WriteHeader(to, id) \</span></div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="preprocessor">        MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="preprocessor">            if (NET_##id##_istemp) WriteByte(to, SVC_TEMPENTITY); \</span></div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="preprocessor">            WriteByte(to, NET_##id.m_id); \</span></div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00213"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a7ad21758d30d0f8a6d0da7da413f3e60">  213</a></span>&#160;<span class="preprocessor">#define ReadRegistered(r) r##_from(Read_byte())</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ad6164466023bdea2ceb4e0d4f156f228">  214</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define WriteRegistered(r, to, it) Write_byte(to, it.m_id)</span></div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00216"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a47b6d4ca93431fbacadc241fa409ea8d">  216</a></span>&#160;<span class="preprocessor">#define Read_byte() ReadByte()</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a84ebbcfeb398b04d80c378ca47b809c0">  217</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define Write_byte(to, f) WriteByte(to, f)</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;<span class="preprocessor">#if defined(CSQC)</span></div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">int</span> ReadByte();</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(<span class="keywordtype">int</span> to, <span class="keywordtype">int</span> b)</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    {</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a>(to == MSG_C2S);</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#ab7123126e4885ef647dd9c6e3807a21c">s</a> = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <a class="code" href="../../df/d58/yenc_8qh.html#a01877237296c3e64e52b9674f5d326bf">yenc_single</a>(b, s);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordtype">string</span> tmp = <a class="code" href="../../dd/d87/effectinfo_8qc.html#a2ae584d3dad891f2ae754acead0f015a">strcat</a>(g_buf, s);</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">if</span> (g_buf) <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(g_buf);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        g_buf = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(tmp);</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    }</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="preprocessor">#elif defined(SVQC)</span></div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">int</span> ReadByte()</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    {</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <span class="keywordtype">int</span> <a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a> = -1;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        <a class="code" href="../../df/d58/yenc_8qh.html#a99af444acc00b3c6c194d21b7150b1e7">ydec_single</a>(g_buf, ret);</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a>;</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    }</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(<span class="keywordtype">int</span> to, <span class="keywordtype">int</span> b);</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00240"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ad661cd848d0c4cf8b93ab4f27f5bd329">  240</a></span>&#160;<span class="preprocessor">#define Read_int() ReadInt24_t()</span></div>
+<div class="line"><a name="l00241"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a869f17eca0934474ecd4e09a341e0aaa">  241</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define Write_int(to, f) WriteInt24_t(to, f)</span></div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00243"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a0864f785d699a546374eb69ec29e69fd">  243</a></span>&#160;<span class="preprocessor">#define Read_float() ReadFloat()</span></div>
+<div class="line"><a name="l00244"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a5bb63dcab5ee0b1d87a625531c81f0c5">  244</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define Write_float(to, f) WriteFloat(to, f)</span></div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00246"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#adbac038270773ce63aa6c69dd2b08e6e">  246</a></span>&#160;<span class="preprocessor">#define Read_string() ReadString()</span></div>
+<div class="line"><a name="l00247"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a37194b6650c79e9e1aaebacc4be74910">  247</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define Write_string(to, f) WriteString(to, f)</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
+<div class="line"><a name="l00250"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ad1ff1afdb3319ece46c9efea3400f397">  250</a></span>&#160;<span class="preprocessor"></span>    <span class="keyword">const</span> <span class="keywordtype">float</span> <a class="code" href="../../dd/d69/net_8qh.html#ad1ff1afdb3319ece46c9efea3400f397">APPROXPASTTIME_ACCURACY_REQUIREMENT</a> = 0.05;</div>
+<div class="line"><a name="l00251"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632">  251</a></span>&#160;<span class="preprocessor">    #define APPROXPASTTIME_MAX (16384 * APPROXPASTTIME_ACCURACY_REQUIREMENT)</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#aa45abd2a52d14393e4e7893d374ea187">  252</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define APPROXPASTTIME_RANGE (64 * APPROXPASTTIME_ACCURACY_REQUIREMENT)</span></div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="preprocessor">    #ifdef CSQC</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../d5/df2/common_2util_8qh.html#ac5ad73cc4800e309d3b5a9147d1ce43f">entity</a> ReadCSQCEntity()</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        {</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            <span class="keywordtype">int</span> f = ReadShort();</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <span class="keywordflow">if</span> (f == 0) <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ae4cf1ba5867cb0c1c0e74926ff8b0a5c">findfloat</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a>, f);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        }</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="keywordtype">int</span> ReadInt24_t()</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            <span class="keywordtype">int</span> v = ReadShort() &lt;&lt; 8; <span class="comment">// note: this is signed</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            v += ReadByte();          <span class="comment">// note: this is unsigned</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            <span class="keywordflow">return</span> v;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        }</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="preprocessor">        #define ReadInt48_t() vec3(ReadInt24_t(), ReadInt24_t(), 0)</span></div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadInt72_t() vec3(ReadInt24_t(), ReadInt24_t(), ReadInt24_t())</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <span class="keywordtype">int</span> _ReadSByte;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor">        #define ReadSByte() (_ReadSByte = ReadByte(), (_ReadSByte &amp; BIT(7) ? -128 : 0) + (_ReadSByte &amp; BITS(7)))</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadFloat() ReadCoord()</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadVector() vec3(ReadFloat(), ReadFloat(), ReadFloat())</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define ReadVector2D() vec3(ReadFloat(), ReadFloat(), 0)</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="keywordtype">float</span> ReadApproxPastTime()</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        {</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            <span class="keywordtype">float</span> dt = ReadByte();</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            <span class="comment">// map from range...PPROXPASTTIME_MAX / 256</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            dt = (<a class="code" href="../../dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632">APPROXPASTTIME_MAX</a> / 256) * (dt / (256 - dt));</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d9/d08/client_2defs_8qh.html#a2f53beae246d912f86721a4b9a0c0d0a">servertime</a> - dt;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        }</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="preprocessor">    #else</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">  287</a></span>&#160;<span class="preprocessor"></span>        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(<span class="keywordtype">float</span> dst, <span class="keywordtype">float</span> val)</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        {</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            <span class="keywordtype">float</span> v;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(dst, (v = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(val &gt;&gt; 8)));</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(dst, val - (v &lt;&lt; 8));  <span class="comment">// 0..255</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        }</div>
+<div class="line"><a name="l00293"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b">  293</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b">WriteInt48_t</a>(<span class="keywordtype">float</span> dst, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> val)</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        {</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.x);</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.y);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        }</div>
+<div class="line"><a name="l00298"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7">  298</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7">WriteInt72_t</a>(<span class="keywordtype">float</span> dst, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> val)</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        {</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.x);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.y);</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            <a class="code" href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a>(dst, val.z);</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        }</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;</div>
+<div class="line"><a name="l00305"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a088a1f8d9e6189b35736f96fa5f4e737">  305</a></span>&#160;<span class="preprocessor">        #define WriteFloat(to, f) WriteCoord(to, f)</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a9e7ef0c04f606b32fe96a40f1a0cc1dd">  306</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define WriteVector(to, v) MACRO_BEGIN { WriteFloat(to, v.x); WriteFloat(to, v.y); WriteFloat(to, v.z); } MACRO_END</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a9bb65db9c1a9e5d176ebcfe843c813fd">  307</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define WriteVector2D(to, v) MACRO_BEGIN { WriteFloat(to, v.x); WriteFloat(to, v.y); } MACRO_END</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <span class="comment">// this will use the value:</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        <span class="comment">//   128</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <span class="comment">// accuracy near zero is APPROXPASTTIME_MAX/(256*255)</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        <span class="comment">// accuracy at x is 1/derivative, i.e.</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        <span class="comment">//   APPROXPASTTIME_MAX * (1 + 256 * (dt / APPROXPASTTIME_MAX))^2 / 65536</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#a08e1c6c2065f50c6de9d130e73984ff5">  314</a></span>&#160;        <span class="keywordtype">void</span> <a class="code" href="../../dd/d69/net_8qh.html#a08e1c6c2065f50c6de9d130e73984ff5">WriteApproxPastTime</a>(<span class="keywordtype">float</span> dst, <span class="keywordtype">float</span> t)</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        {</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;            <span class="keywordtype">float</span> dt = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - t;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;            <span class="comment">// warning: this is approximate; do not resend when you don&#39;t have to!</span></div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;            <span class="comment">// be careful with sendflags here!</span></div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;            <span class="comment">// we want: 0 -&gt; 0.05, 1 -&gt; 0.1, ..., 255 -&gt; 12.75</span></div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;            <span class="comment">// map to range...</span></div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            dt = 256 * (dt / ((<a class="code" href="../../dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632">APPROXPASTTIME_MAX</a> / 256) + dt));</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            <span class="comment">// round...</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;            dt = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, dt, 255));</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(dst, dt);</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        }</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        <span class="comment">// allow writing to also pass through to spectators (like so spectators see the same centerprints as players for example)</span></div>
+<div class="line"><a name="l00332"></a><span class="lineno"><a class="line" href="../../dd/d69/net_8qh.html#adf10dabd55df74adc889851b68155201">  332</a></span>&#160;<span class="preprocessor">        #define WRITESPECTATABLE_MSG_ONE(to, statement) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="preprocessor">            entity prev = msg_entity; \</span></div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="preprocessor">            entity dst = to; \</span></div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;<span class="preprocessor">            FOREACH_CLIENT(IS_REAL_CLIENT(it), { \</span></div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<span class="preprocessor">                if (it == dst || (it.classname == STR_SPECTATOR &amp;&amp; it.enemy == dst)) \</span></div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;<span class="preprocessor">                { \</span></div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;<span class="preprocessor">                    msg_entity = it; \</span></div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;<span class="preprocessor">                    LAMBDA(statement); \</span></div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="preprocessor">                } \</span></div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="preprocessor">            }); \</span></div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="preprocessor">            msg_entity = prev; \</span></div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="log_8qh_html_a98b360dc9fac616757f41f728705e8e0"><div class="ttname"><a href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a></div><div class="ttdeci">#define assert(expr,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00005">log.qh:5</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
 <div class="ttc" id="net_8qh_html_a6e4c8aabf20d96d568a3a13b9e492f7c"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a6e4c8aabf20d96d568a3a13b9e492f7c">C2S_Protocol_from</a></div><div class="ttdeci">#define C2S_Protocol_from(i)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00089">net.qh:89</a></div></div>
 <div class="ttc" id="common_2notifications_2all_8qh_html_a881d3b5fb09cb0f4f89769d25eb0b9cc"><div class="ttname"><a href="../../dc/de5/common_2notifications_2all_8qh.html#a881d3b5fb09cb0f4f89769d25eb0b9cc">REGISTRY_SORT</a></div><div class="ttdeci">REGISTRY_SORT(Notifications)</div></div>
 <div class="ttc" id="serverlist_8qc_html_a00e5655488971b2c521f2984639f5dae"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a00e5655488971b2c521f2984639f5dae">ret</a></div><div class="ttdeci">string ret</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00229">serverlist.qc:229</a></div></div>
-<div class="ttc" id="net_8qh_html_a70963789f84710350992e3da0673298b"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b">WriteInt48_t</a></div><div class="ttdeci">void WriteInt48_t(float dst, vector val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00292">net.qh:292</a></div></div>
+<div class="ttc" id="net_8qh_html_a70963789f84710350992e3da0673298b"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b">WriteInt48_t</a></div><div class="ttdeci">void WriteInt48_t(float dst, vector val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00293">net.qh:293</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abd23315350cd01304b6bd77c4c5c07e6"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a></div><div class="ttdeci">void WriteByte(float data, float dest, float desto)</div></div>
 <div class="ttc" id="menudefs_8qh_html_a3d23a92a3bb3bcbb467f1fa2bdaa54b3"><div class="ttname"><a href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a></div><div class="ttdeci">#define localcmd</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d95/menudefs_8qh_source.html#l00022">menudefs.qh:22</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
@@ -473,15 +475,15 @@ $(document).ready(function(){initNavTree('dd/d69/net_8qh_source.html','../../');
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="log_8qh_html_a71b8a8e07b40d653781549b17a63409e"><div class="ttname"><a href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a></div><div class="ttdeci">#define LOG_SEVEREF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00051">log.qh:51</a></div></div>
 <div class="ttc" id="net_8qh_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00007">net.qh:7</a></div></div>
-<div class="ttc" id="net_8qh_html_a5fe694caf8c65460c0ba0b7821b9a632"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632">APPROXPASTTIME_MAX</a></div><div class="ttdeci">#define APPROXPASTTIME_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00250">net.qh:250</a></div></div>
+<div class="ttc" id="net_8qh_html_a5fe694caf8c65460c0ba0b7821b9a632"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632">APPROXPASTTIME_MAX</a></div><div class="ttdeci">#define APPROXPASTTIME_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00251">net.qh:251</a></div></div>
 <div class="ttc" id="dpextensions_8qh_html_adf1bc71dd76ed8f9578de181202015d2"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a></div><div class="ttdeci">#define argv_start_index</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00028">dpextensions.qh:28</a></div></div>
 <div class="ttc" id="defer_8qh_html_af50fbe8de340daf35a3d631f7a5b1d03"><div class="ttname"><a href="../../d5/d95/defer_8qh.html#af50fbe8de340daf35a3d631f7a5b1d03">SUB_Remove_self</a></div><div class="ttdeci">void SUB_Remove_self()</div><div class="ttdoc">Remove self. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d95/defer_8qh_source.html#l00020">defer.qh:20</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a1b623218c450ae444a515f54395dd218"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a1b623218c450ae444a515f54395dd218">SetCustomizer</a></div><div class="ttdeci">void SetCustomizer(entity e, float() customizer, void() uncustomizer)</div></div>
-<div class="ttc" id="net_8qh_html_ad1ff1afdb3319ece46c9efea3400f397"><div class="ttname"><a href="../../dd/d69/net_8qh.html#ad1ff1afdb3319ece46c9efea3400f397">APPROXPASTTIME_ACCURACY_REQUIREMENT</a></div><div class="ttdeci">const float APPROXPASTTIME_ACCURACY_REQUIREMENT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00249">net.qh:249</a></div></div>
-<div class="ttc" id="net_8qh_html_ae23b45c2b40b944fd5bc0b729395c6c7"><div class="ttname"><a href="../../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7">WriteInt72_t</a></div><div class="ttdeci">void WriteInt72_t(float dst, vector val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00297">net.qh:297</a></div></div>
+<div class="ttc" id="net_8qh_html_ad1ff1afdb3319ece46c9efea3400f397"><div class="ttname"><a href="../../dd/d69/net_8qh.html#ad1ff1afdb3319ece46c9efea3400f397">APPROXPASTTIME_ACCURACY_REQUIREMENT</a></div><div class="ttdeci">const float APPROXPASTTIME_ACCURACY_REQUIREMENT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00250">net.qh:250</a></div></div>
+<div class="ttc" id="net_8qh_html_ae23b45c2b40b944fd5bc0b729395c6c7"><div class="ttname"><a href="../../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7">WriteInt72_t</a></div><div class="ttdeci">void WriteInt72_t(float dst, vector val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00298">net.qh:298</a></div></div>
 <div class="ttc" id="iter_8qh_html_a06e81ec5bd716fed71d2dd0850a1dcae"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a06e81ec5bd716fed71d2dd0850a1dcae">STRING_ITERATOR</a></div><div class="ttdeci">#define STRING_ITERATOR(this, s, i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00047">iter.qh:47</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
-<div class="ttc" id="net_8qh_html_ad88fc1bc2f5c7b3eaf3992947377f4c8"><div class="ttname"><a href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a></div><div class="ttdeci">void WriteInt24_t(float dst, float val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00286">net.qh:286</a></div></div>
+<div class="ttc" id="net_8qh_html_ad88fc1bc2f5c7b3eaf3992947377f4c8"><div class="ttname"><a href="../../dd/d69/net_8qh.html#ad88fc1bc2f5c7b3eaf3992947377f4c8">WriteInt24_t</a></div><div class="ttdeci">void WriteInt24_t(float dst, float val)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00287">net.qh:287</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ae4cf1ba5867cb0c1c0e74926ff8b0a5c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae4cf1ba5867cb0c1c0e74926ff8b0a5c">findfloat</a></div><div class="ttdeci">entity findfloat(entity start,.float field, float match)</div></div>
 <div class="ttc" id="net_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../dd/d69/net_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00008">net.qh:8</a></div></div>
@@ -493,7 +495,7 @@ $(document).ready(function(){initNavTree('dd/d69/net_8qh_source.html','../../');
 <div class="ttc" id="iter_8qh_html_a5f5c833a61297415c9aeb463ca5c2f84"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a5f5c833a61297415c9aeb463ca5c2f84">STRING_ITERATOR_SET</a></div><div class="ttdeci">#define STRING_ITERATOR_SET(this, s, i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00051">iter.qh:51</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
-<div class="ttc" id="net_8qh_html_a08e1c6c2065f50c6de9d130e73984ff5"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a08e1c6c2065f50c6de9d130e73984ff5">WriteApproxPastTime</a></div><div class="ttdeci">void WriteApproxPastTime(float dst, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00313">net.qh:313</a></div></div>
+<div class="ttc" id="net_8qh_html_a08e1c6c2065f50c6de9d130e73984ff5"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a08e1c6c2065f50c6de9d130e73984ff5">WriteApproxPastTime</a></div><div class="ttdeci">void WriteApproxPastTime(float dst, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00314">net.qh:314</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a1147496d9185c4b54a3caa5424f088b8"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a1147496d9185c4b54a3caa5424f088b8">EF_NODEPTHTEST</a></div><div class="ttdeci">const int EF_NODEPTHTEST</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00069">csqc_constants.qh:69</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_abcb4010392e87a7a2a9cb79a5c300085"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a></div><div class="ttdeci">float entnum</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00094">csprogsdefs.qc:94</a></div></div>
@@ -507,7 +509,7 @@ $(document).ready(function(){initNavTree('dd/d69/net_8qh_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dd/d69/net_8qh.html">net.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 07:36:14 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 07:49:12 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
