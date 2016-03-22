@@ -9,5 +9,6 @@ var common_2mutators_2mutator_2buffs_2all_8qh =
     [ "METHOD", "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a405f0a155b2aefbb22481b4625c103a5", null ],
     [ "REGISTER_BUFF", "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a03c0b2cbc8a5193a423a14bff9fdbc26", null ],
     [ "REGISTER_RADARICON", "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a8190fe059652ad70566f7ca75badd794", null ],
-    [ "REGISTER_WAYPOINT", "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a657cfc8f3f11519664ca91e2d258bc88", null ]
+    [ "REGISTER_WAYPOINT", "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a657cfc8f3f11519664ca91e2d258bc88", null ],
+    [ "STATIC_INIT", "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a73b233ccac900843bd13f88a0141258e", null ]
 ];

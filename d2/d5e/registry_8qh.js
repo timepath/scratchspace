@@ -11,7 +11,6 @@ var registry_8qh =
     [ "REGISTER_4", "d2/d5e/registry_8qh.html#ade3fba5a0d1eade22f2692e182b9ef76", null ],
     [ "REGISTER_5", "d2/d5e/registry_8qh.html#ae6f0dc111350c68957c77f16dd9a3da7", null ],
     [ "REGISTER_INIT", "d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f", null ],
-    [ "REGISTER_INIT_POST", "d2/d5e/registry_8qh.html#a950dd1569fbc99b40e3dd31b7eb09d82", null ],
     [ "REGISTER_REGISTRY", "d2/d5e/registry_8qh.html#a9a50560d358790fd046b58cc5fbfd467", null ],
     [ "REGISTER_REGISTRY_1", "d2/d5e/registry_8qh.html#a22431b2b1aed12e24fddd95a45978e12", null ],
     [ "REGISTER_REGISTRY_2", "d2/d5e/registry_8qh.html#ac4c9c0b24cb29eddb2adbd8523852149", null ],

@@ -25,7 +25,7 @@ var NAVTREEINDEX =
 "d1/d2a/waypoints_8qh.html#a4c3ec3b037bad6d5773033aa06bd0cb2",
 "d1/d6c/colorpicker__string_8qh.html#a7a2b54e19b0b993bf8c73b8ccece5fb7",
 "d1/dad/server_2command_2vote_8qc.html#a8d1f0d6bff6c0f65f7f206d4445d0f56",
-"d2/d06/server_2command_2common_8qh.html#a956b5ba8554bf9d5ee67b984253edbb6",
+"d2/d06/server_2command_2common_8qh.html#a9350b79b76058b38dab06ffb71f1bf94",
 "d2/d74/arraylist_8qh.html#ae86e8c127c22a923fc84a576c6044cac",
 "d2/db1/movetypes_8qc.html#a14cb5c9b8cf5efc10f5e55f9ae63b556",
 "d3/d05/hud_8qh.html#a124664ad87248d1c6de62524aad3f83a",

@@ -144,134 +144,131 @@ $(document).ready(function(){initNavTree('d2/d5e/registry_8qh_source.html','../.
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a80bc0f55561b2fdbd9bf5768df172dcf">   47</a></span>&#160;.string <a class="code" href="../../d2/d5e/registry_8qh.html#a80bc0f55561b2fdbd9bf5768df172dcf">registered_id</a>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">   67</a></span>&#160;<span class="preprocessor">#define REGISTER(...) EVAL_REGISTER(OVERLOAD_(REGISTER, __VA_ARGS__))</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a53290db750ab5f89dae2f87a3c32fe9d">   68</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define EVAL_REGISTER(...) __VA_ARGS__</span></div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ae6f0dc111350c68957c77f16dd9a3da7">   69</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTER_5(registry, ns, id, fld, inst) REGISTER_4(registry, ns##_##id, fld, inst)</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ade3fba5a0d1eade22f2692e182b9ef76">   70</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTER_4(registry, id, fld, inst) \</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">    entity id; \</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">    REGISTER_INIT(id) {} \</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">    REGISTER_INIT_POST(id) {} \</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">    void Register_##id() \</span></div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">    { \</span></div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">        if (registry##_COUNT &gt;= registry##_MAX) LOG_FATALF(&quot;Registry capacity exceeded (%d)&quot;, registry##_MAX); \</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">        entity this = id = inst; \</span></div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">        this.registered_id = #id; \</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">        REGISTRY_PUSH(registry, fld, this); \</span></div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">        Register_##id##_init(this); \</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">        Register_##id##_init_post(this); \</span></div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">    } \</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor">    ACCUMULATE_FUNCTION(_Register##registry, Register_##id) \</span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">    REGISTER_INIT(id)</span></div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00086"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496">   86</a></span>&#160;<span class="preprocessor">#define REGISTRY_PUSH(registry, fld, it) MACRO_BEGIN { \</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">    it.fld = registry##_COUNT; \</span></div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">    _R_SET(_##registry, registry##_COUNT, it); \</span></div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">    ++registry##_COUNT; \</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">    if (!registry##_first) registry##_first = it; \</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">    if (registry##_last)   registry##_last.REGISTRY_NEXT = it; \</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">    registry##_last = it; \</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00095"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a130163c913e43d21eb7ffa3129847fb2">   95</a></span>&#160;<span class="preprocessor">#define REGISTRY_RESERVE(registry, fld, id, suffix) MACRO_BEGIN { \</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">    entity e = new_pure(registry_reserved); \</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">    e.registered_id = #id &quot;/&quot; #suffix; \</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">    REGISTRY_PUSH(registry, fld, e); \</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">  101</a></span>&#160;<span class="preprocessor">#define REGISTER_INIT(id) [[accumulate]] void Register_##id##_init(entity this)</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a950dd1569fbc99b40e3dd31b7eb09d82">  102</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTER_INIT_POST(id) [[accumulate]] void Register_##id##_init_post(entity this)</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a2159097a6331b05583f808f0316464b0">  105</a></span>&#160;<span class="preprocessor">#define REGISTRY_NEXT enemy</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#abdb2c4c4efccfa31f16e67f85b27b40a">  106</a></span>&#160;<span class="preprocessor"></span>.entity <a class="code" href="../../d2/d5e/registry_8qh.html#a2159097a6331b05583f808f0316464b0">REGISTRY_NEXT</a>;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
-<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a36b2225ea780a288a9b908c86d90e1e8">  108</a></span>&#160;<span class="preprocessor">#define REGISTRY_SORT(...) EVAL_REGISTRY_SORT(OVERLOAD(REGISTRY_SORT, __VA_ARGS__))</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ad419d03f23bac744c367193d6ca794cf">  109</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define EVAL_REGISTRY_SORT(...) __VA_ARGS__</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a58438a045f1340e22199492325c77407">  110</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTRY_SORT_1(id) REGISTRY_SORT_2(id, 0)</span></div>
-<div class="line"><a name="l00111"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a0dbc1352a0fc19b37f4704541eb78cef">  111</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTRY_SORT_2(id, skip) \</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">    void _REGISTRY_SWAP_##id(int i, int j, entity pass) \</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor">    { \</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">        i += skip; j += skip; \</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">   66</a></span>&#160;<span class="preprocessor">#define REGISTER(...) EVAL_REGISTER(OVERLOAD_(REGISTER, __VA_ARGS__))</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a53290db750ab5f89dae2f87a3c32fe9d">   67</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define EVAL_REGISTER(...) __VA_ARGS__</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ae6f0dc111350c68957c77f16dd9a3da7">   68</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTER_5(registry, ns, id, fld, inst) REGISTER_4(registry, ns##_##id, fld, inst)</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ade3fba5a0d1eade22f2692e182b9ef76">   69</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTER_4(registry, id, fld, inst) \</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">    entity id; \</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">    REGISTER_INIT(id) {} \</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">    void Register_##id() \</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">    { \</span></div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">        if (registry##_COUNT &gt;= registry##_MAX) LOG_FATALF(&quot;Registry capacity exceeded (%d)&quot;, registry##_MAX); \</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">        entity this = id = inst; \</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">        this.registered_id = #id; \</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor">        REGISTRY_PUSH(registry, fld, this); \</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;<span class="preprocessor">        Register_##id##_init(this); \</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;<span class="preprocessor">    } \</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;<span class="preprocessor">    ACCUMULATE_FUNCTION(_Register##registry, Register_##id) \</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">    REGISTER_INIT(id)</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ae3b0d4527e11d6be08ca6de588b10496">   83</a></span>&#160;<span class="preprocessor">#define REGISTRY_PUSH(registry, fld, it) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;<span class="preprocessor">    it.fld = registry##_COUNT; \</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<span class="preprocessor">    _R_SET(_##registry, registry##_COUNT, it); \</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<span class="preprocessor">    ++registry##_COUNT; \</span></div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;<span class="preprocessor">    if (!registry##_first) registry##_first = it; \</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="preprocessor">    if (registry##_last)   registry##_last.REGISTRY_NEXT = it; \</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<span class="preprocessor">    registry##_last = it; \</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a130163c913e43d21eb7ffa3129847fb2">   92</a></span>&#160;<span class="preprocessor">#define REGISTRY_RESERVE(registry, fld, id, suffix) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">    entity e = new_pure(registry_reserved); \</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">    e.registered_id = #id &quot;/&quot; #suffix; \</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">    REGISTRY_PUSH(registry, fld, e); \</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">} MACRO_END</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">   98</a></span>&#160;<span class="preprocessor">#define REGISTER_INIT(id) [[accumulate]] void Register_##id##_init(entity this)</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00101"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a2159097a6331b05583f808f0316464b0">  101</a></span>&#160;<span class="preprocessor">#define REGISTRY_NEXT enemy</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#abdb2c4c4efccfa31f16e67f85b27b40a">  102</a></span>&#160;<span class="preprocessor"></span>.entity <a class="code" href="../../d2/d5e/registry_8qh.html#a2159097a6331b05583f808f0316464b0">REGISTRY_NEXT</a>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a36b2225ea780a288a9b908c86d90e1e8">  104</a></span>&#160;<span class="preprocessor">#define REGISTRY_SORT(...) EVAL_REGISTRY_SORT(OVERLOAD(REGISTRY_SORT, __VA_ARGS__))</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ad419d03f23bac744c367193d6ca794cf">  105</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define EVAL_REGISTRY_SORT(...) __VA_ARGS__</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a58438a045f1340e22199492325c77407">  106</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTRY_SORT_1(id) REGISTRY_SORT_2(id, 0)</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a0dbc1352a0fc19b37f4704541eb78cef">  107</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTRY_SORT_2(id, skip) \</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">    void _REGISTRY_SWAP_##id(int i, int j, entity pass) \</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor">    { \</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor">        i += skip; j += skip; \</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">        \</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">        entity a = _R_GET(_##id, i), b = _R_GET(_##id, j); \</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor">        _R_SET(_##id, i, b); \</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">        _R_SET(_##id, j, a); \</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor">        \</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">        entity a = _R_GET(_##id, i), b = _R_GET(_##id, j); \</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">        _R_SET(_##id, i, b); \</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">        _R_SET(_##id, j, a); \</span></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">        entity a_next = a.REGISTRY_NEXT, b_next = b.REGISTRY_NEXT; \</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">        a.REGISTRY_NEXT = b_next; \</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">        b.REGISTRY_NEXT = a_next; \</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor">        \</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">        entity a_next = a.REGISTRY_NEXT, b_next = b.REGISTRY_NEXT; \</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">        a.REGISTRY_NEXT = b_next; \</span></div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor">        b.REGISTRY_NEXT = a_next; \</span></div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">        \</span></div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor">        if (i == 0) id##_first = b; \</span></div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor">        else _R_GET(_##id, i - 1).REGISTRY_NEXT = b; \</span></div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="preprocessor">        \</span></div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="preprocessor">        if (j == 0) id##_first = a; \</span></div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor">        else _R_GET(_##id, j - 1).REGISTRY_NEXT = a; \</span></div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor">    } \</span></div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor">    int _REGISTRY_CMP_##id(int i, int j, entity pass) \</span></div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="preprocessor">    { \</span></div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">        i += skip; j += skip; \</span></div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">        string a = _R_GET(_##id, i).registered_id; \</span></div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="preprocessor">        string b = _R_GET(_##id, j).registered_id; \</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="preprocessor">        return strcmp(a, b); \</span></div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="preprocessor">    } \</span></div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="preprocessor">    STATIC_INIT(Registry_sort_##id) \</span></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="preprocessor">    { \</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor">        heapsort(id##_COUNT - (skip), _REGISTRY_SWAP_##id, _REGISTRY_CMP_##id, NULL); \</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="preprocessor">    }</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00142"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">  142</a></span>&#160;<span class="preprocessor">#define REGISTRY_HASH(id) Registry_hash_##id</span></div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00144"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a3e2b42e82e961b6cf12f9794dea5d7c2">  144</a></span>&#160;[[accumulate]] <span class="keywordtype">void</span> <a class="code" href="../../d2/d5e/registry_8qh.html#a3e2b42e82e961b6cf12f9794dea5d7c2">Registry_check</a>(<span class="keywordtype">string</span> r, <span class="keywordtype">string</span> server) { }</div>
-<div class="line"><a name="l00145"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#af2550d07e4cc72d8984acaf78ba17b3e">  145</a></span>&#160;[[accumulate]] <span class="keywordtype">void</span> <a class="code" href="../../d2/d5e/registry_8qh.html#af2550d07e4cc72d8984acaf78ba17b3e">Registry_send_all</a>() { }</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> <a class="code" href="../../d2/d5e/registry_8qh.html#a5e0a93fc70ad04d22a28e47343ddda0b">Registry_send</a>(<span class="keywordtype">string</span> <span class="keywordtype">id</span>, <span class="keywordtype">string</span> hash);</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00150"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a5e0a93fc70ad04d22a28e47343ddda0b">  150</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define Registry_send(id, hash)</span></div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00153"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ac0e7d24ce2ae2a3c1fadcf32633792c1">  153</a></span>&#160;<span class="preprocessor">#define REGISTRY_CHECK(id) \</span></div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="preprocessor">    string REGISTRY_HASH(id); \</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="preprocessor">    STATIC_INIT(Registry_check_##id) \</span></div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="preprocessor">    { \</span></div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="preprocessor">        </span><span class="comment">/* Note: SHA256 isn&#39;t always available, use MD4 instead */</span><span class="preprocessor"> \</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="preprocessor">        string algo = &quot;MD4&quot;; \</span></div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="preprocessor">        string join = &quot;:&quot;; \</span></div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="preprocessor">        string s = &quot;&quot;; \</span></div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="preprocessor">        FOREACH(id, true, s = strcat(s, join, it.registered_id)); \</span></div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor">        s = substring(s, strlen(join), -1); \</span></div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor">        string h = REGISTRY_HASH(id) = strzone(digest_hex(algo, s)); \</span></div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor">        LOG_TRACEF(#id &quot;: %s\n[%s]\n&quot;, h, s); \</span></div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="preprocessor">    } \</span></div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="preprocessor">    void Registry_check(string r, string sv) \</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="preprocessor">    { \</span></div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="preprocessor">        if (r == #id) \</span></div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="preprocessor">        { \</span></div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="preprocessor">            string cl = REGISTRY_HASH(id); \</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="preprocessor">            if (cl != sv) \</span></div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor">            { \</span></div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="preprocessor">                LOG_FATALF(&quot;client/server mismatch (%s).\nCL: %s\nSV: %s\n&quot;, r, cl, sv); \</span></div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="preprocessor">            } \</span></div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="preprocessor">        } \</span></div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="preprocessor">    } \</span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="preprocessor">    void Registry_send_all() { Registry_send(#id, REGISTRY_HASH(id)); } \</span></div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00179"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a9a50560d358790fd046b58cc5fbfd467">  179</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTER_REGISTRY(...) EVAL_REGISTER_REGISTRY(OVERLOAD(REGISTER_REGISTRY, __VA_ARGS__))</span></div>
-<div class="line"><a name="l00180"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a1e3a236884489e106efaa4e6ec2ea6e8">  180</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define EVAL_REGISTER_REGISTRY(...) __VA_ARGS__</span></div>
-<div class="line"><a name="l00181"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a22431b2b1aed12e24fddd95a45978e12">  181</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTER_REGISTRY_1(id) REGISTER_REGISTRY_2(id, #id)</span></div>
-<div class="line"><a name="l00182"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ac4c9c0b24cb29eddb2adbd8523852149">  182</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTER_REGISTRY_2(id, str) \</span></div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="preprocessor">    ACCUMULATE_FUNCTION(__static_init, Register##id) \</span></div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="preprocessor">    CLASS(id##Registry, Object) \</span></div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="preprocessor">        ATTRIB(id##Registry, m_name, string, str) \</span></div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;<span class="preprocessor">        ATTRIB(id##Registry, REGISTRY_NEXT, entity, id##_first) \</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="preprocessor">    ENDCLASS(id##Registry) \</span></div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="preprocessor">    REGISTER(Registries, REGISTRY, id, m_id, NEW(id##Registry));</span></div>
-<div class="ttc" id="registry_8qh_html_a5e0a93fc70ad04d22a28e47343ddda0b"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a5e0a93fc70ad04d22a28e47343ddda0b">Registry_send</a></div><div class="ttdeci">#define Registry_send(id, hash)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00150">registry.qh:150</a></div></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor">        if (i == 0) id##_first = b; \</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">        else _R_GET(_##id, i - 1).REGISTRY_NEXT = b; \</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor">        \</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;<span class="preprocessor">        if (j == 0) id##_first = a; \</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor">        else _R_GET(_##id, j - 1).REGISTRY_NEXT = a; \</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;<span class="preprocessor">    } \</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="preprocessor">    int _REGISTRY_CMP_##id(int i, int j, entity pass) \</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="preprocessor">    { \</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor">        i += skip; j += skip; \</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="preprocessor">        string a = _R_GET(_##id, i).registered_id; \</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="preprocessor">        string b = _R_GET(_##id, j).registered_id; \</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="preprocessor">        return strcmp(a, b); \</span></div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">    } \</span></div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">    STATIC_INIT(Registry_sort_##id) \</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="preprocessor">    { \</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="preprocessor">        heapsort(id##_COUNT - (skip), _REGISTRY_SWAP_##id, _REGISTRY_CMP_##id, NULL); \</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="preprocessor">    }</span></div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ae1e44482946900c4f1b7526aab02df89">  138</a></span>&#160;<span class="preprocessor">#define REGISTRY_HASH(id) Registry_hash_##id</span></div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00140"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a3e2b42e82e961b6cf12f9794dea5d7c2">  140</a></span>&#160;[[accumulate]] <span class="keywordtype">void</span> <a class="code" href="../../d2/d5e/registry_8qh.html#a3e2b42e82e961b6cf12f9794dea5d7c2">Registry_check</a>(<span class="keywordtype">string</span> r, <span class="keywordtype">string</span> server) { }</div>
+<div class="line"><a name="l00141"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#af2550d07e4cc72d8984acaf78ba17b3e">  141</a></span>&#160;[[accumulate]] <span class="keywordtype">void</span> <a class="code" href="../../d2/d5e/registry_8qh.html#af2550d07e4cc72d8984acaf78ba17b3e">Registry_send_all</a>() { }</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> <a class="code" href="../../d2/d5e/registry_8qh.html#a5e0a93fc70ad04d22a28e47343ddda0b">Registry_send</a>(<span class="keywordtype">string</span> <span class="keywordtype">id</span>, <span class="keywordtype">string</span> hash);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00146"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a5e0a93fc70ad04d22a28e47343ddda0b">  146</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define Registry_send(id, hash)</span></div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ac0e7d24ce2ae2a3c1fadcf32633792c1">  149</a></span>&#160;<span class="preprocessor">#define REGISTRY_CHECK(id) \</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="preprocessor">    string REGISTRY_HASH(id); \</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="preprocessor">    STATIC_INIT(Registry_check_##id) \</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="preprocessor">    { \</span></div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="preprocessor">        </span><span class="comment">/* Note: SHA256 isn&#39;t always available, use MD4 instead */</span><span class="preprocessor"> \</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="preprocessor">        string algo = &quot;MD4&quot;; \</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="preprocessor">        string join = &quot;:&quot;; \</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="preprocessor">        string s = &quot;&quot;; \</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="preprocessor">        FOREACH(id, true, s = strcat(s, join, it.registered_id)); \</span></div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="preprocessor">        s = substring(s, strlen(join), -1); \</span></div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;<span class="preprocessor">        string h = REGISTRY_HASH(id) = strzone(digest_hex(algo, s)); \</span></div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="preprocessor">        LOG_TRACEF(#id &quot;: %s\n[%s]\n&quot;, h, s); \</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="preprocessor">    } \</span></div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor">    void Registry_check(string r, string sv) \</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor">    { \</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor">        if (r == #id) \</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="preprocessor">        { \</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="preprocessor">            string cl = REGISTRY_HASH(id); \</span></div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="preprocessor">            if (cl != sv) \</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="preprocessor">            { \</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="preprocessor">                LOG_FATALF(&quot;client/server mismatch (%s).\nCL: %s\nSV: %s\n&quot;, r, cl, sv); \</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="preprocessor">            } \</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="preprocessor">        } \</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor">    } \</span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="preprocessor">    void Registry_send_all() { Registry_send(#id, REGISTRY_HASH(id)); } \</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00175"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a9a50560d358790fd046b58cc5fbfd467">  175</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTER_REGISTRY(...) EVAL_REGISTER_REGISTRY(OVERLOAD(REGISTER_REGISTRY, __VA_ARGS__))</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a1e3a236884489e106efaa4e6ec2ea6e8">  176</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define EVAL_REGISTER_REGISTRY(...) __VA_ARGS__</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#a22431b2b1aed12e24fddd95a45978e12">  177</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTER_REGISTRY_1(id) REGISTER_REGISTRY_2(id, #id)</span></div>
+<div class="line"><a name="l00178"></a><span class="lineno"><a class="line" href="../../d2/d5e/registry_8qh.html#ac4c9c0b24cb29eddb2adbd8523852149">  178</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define REGISTER_REGISTRY_2(id, str) \</span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="preprocessor">    ACCUMULATE_FUNCTION(__static_init, Register##id) \</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="preprocessor">    CLASS(id##Registry, Object) \</span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="preprocessor">        ATTRIB(id##Registry, m_name, string, str) \</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="preprocessor">        ATTRIB(id##Registry, REGISTRY_NEXT, entity, id##_first) \</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="preprocessor">    ENDCLASS(id##Registry) \</span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="preprocessor">    REGISTER(Registries, REGISTRY, id, m_id, NEW(id##Registry));</span></div>
+<div class="ttc" id="registry_8qh_html_a5e0a93fc70ad04d22a28e47343ddda0b"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a5e0a93fc70ad04d22a28e47343ddda0b">Registry_send</a></div><div class="ttdeci">#define Registry_send(id, hash)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00146">registry.qh:146</a></div></div>
 <div class="ttc" id="registry_8qh_html_a80bc0f55561b2fdbd9bf5768df172dcf"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a80bc0f55561b2fdbd9bf5768df172dcf">registered_id</a></div><div class="ttdeci">string registered_id</div><div class="ttdoc">registered item identifier </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00047">registry.qh:47</a></div></div>
-<div class="ttc" id="registry_8qh_html_a2159097a6331b05583f808f0316464b0"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a2159097a6331b05583f808f0316464b0">REGISTRY_NEXT</a></div><div class="ttdeci">#define REGISTRY_NEXT</div><div class="ttdoc">internal next pointer </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00105">registry.qh:105</a></div></div>
+<div class="ttc" id="registry_8qh_html_a2159097a6331b05583f808f0316464b0"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a2159097a6331b05583f808f0316464b0">REGISTRY_NEXT</a></div><div class="ttdeci">#define REGISTRY_NEXT</div><div class="ttdoc">internal next pointer </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00101">registry.qh:101</a></div></div>
 <div class="ttc" id="oo_8qh_html"><div class="ttname"><a href="../../db/d0a/oo_8qh.html">oo.qh</a></div></div>
 <div class="ttc" id="registry_8qh_html_ab210ffe7da897080a1f7f2e05f5a9cfa"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#ab210ffe7da897080a1f7f2e05f5a9cfa">REGISTRY</a></div><div class="ttdeci">#define REGISTRY(id, max)</div><div class="ttdoc">Declare a new registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00023">registry.qh:23</a></div></div>
-<div class="ttc" id="registry_8qh_html_af2550d07e4cc72d8984acaf78ba17b3e"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#af2550d07e4cc72d8984acaf78ba17b3e">Registry_send_all</a></div><div class="ttdeci">void Registry_send_all()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00145">registry.qh:145</a></div></div>
-<div class="ttc" id="registry_8qh_html_a3e2b42e82e961b6cf12f9794dea5d7c2"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a3e2b42e82e961b6cf12f9794dea5d7c2">Registry_check</a></div><div class="ttdeci">void Registry_check(string r, string server)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00144">registry.qh:144</a></div></div>
+<div class="ttc" id="registry_8qh_html_af2550d07e4cc72d8984acaf78ba17b3e"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#af2550d07e4cc72d8984acaf78ba17b3e">Registry_send_all</a></div><div class="ttdeci">void Registry_send_all()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00141">registry.qh:141</a></div></div>
+<div class="ttc" id="registry_8qh_html_a3e2b42e82e961b6cf12f9794dea5d7c2"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a3e2b42e82e961b6cf12f9794dea5d7c2">Registry_check</a></div><div class="ttdeci">void Registry_check(string r, string server)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00140">registry.qh:140</a></div></div>
 <div class="ttc" id="bits_8qh_html_a5967693540f086cfa357f68978bf0be7"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a5967693540f086cfa357f68978bf0be7">BITS</a></div><div class="ttdeci">#define BITS(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00006">bits.qh:6</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -279,7 +276,7 @@ $(document).ready(function(){initNavTree('d2/d5e/registry_8qh_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d2/d5e/registry_8qh.html">registry.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 01:14:42 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 03:21:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

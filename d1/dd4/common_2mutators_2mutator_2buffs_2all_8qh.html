@@ -136,7 +136,7 @@ Macros</h2></td></tr>
 <tr class="separator:a880b0fdd8b412a192b746d44bb00841d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a973bc70bb709b2a072ba5f1132c9c5e0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a973bc70bb709b2a072ba5f1132c9c5e0">Buffs_from</a>(i)&#160;&#160;&#160;_Buffs_from(i, BUFF_Null)</td></tr>
 <tr class="separator:a973bc70bb709b2a072ba5f1132c9c5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ee2e76ff0775c133acd38e490bf692b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a9ee2e76ff0775c133acd38e490bf692b">REGISTER_BUFF</a>(id)</td></tr>
+<tr class="memitem:a9ee2e76ff0775c133acd38e490bf692b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a9ee2e76ff0775c133acd38e490bf692b">REGISTER_BUFF</a>(id)&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(Buffs, BUFF_##id, <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, <a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(Buff))</td></tr>
 <tr class="separator:a9ee2e76ff0775c133acd38e490bf692b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5fd3b877c71ac6bbfce55c1a8cc9ca9d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a5fd3b877c71ac6bbfce55c1a8cc9ca9d">BUFF_SPAWNFUNC</a>(e, b, t)</td></tr>
 <tr class="separator:a5fd3b877c71ac6bbfce55c1a8cc9ca9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -154,6 +154,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a405f0a155b2aefbb22481b4625c103a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a405f0a155b2aefbb22481b4625c103a5">METHOD</a> (Buff, display, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a7c509ff3f9216709e7a6f30934c0f7ab">entity</a> this, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> <a class="el" href="../../de/d48/dialog__settings__game_8qc.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> icon) returns))</td></tr>
 <tr class="memdesc:a405f0a155b2aefbb22481b4625c103a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">bit index  <a href="#a405f0a155b2aefbb22481b4625c103a5">More...</a><br/></td></tr>
 <tr class="separator:a405f0a155b2aefbb22481b4625c103a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73b233ccac900843bd13f88a0141258e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a73b233ccac900843bd13f88a0141258e">STATIC_INIT</a> (REGISTER_BUFFS)</td></tr>
+<tr class="separator:a73b233ccac900843bd13f88a0141258e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03c0b2cbc8a5193a423a14bff9fdbc26"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a03c0b2cbc8a5193a423a14bff9fdbc26">REGISTER_BUFF</a> (Null)</td></tr>
 <tr class="separator:a03c0b2cbc8a5193a423a14bff9fdbc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -188,7 +190,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html#l00059">59</a> of file <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html">all.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html#l00061">61</a> of file <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html">all.qh</a>.</p>
 
 </div>
 </div>
@@ -216,7 +218,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html#l00061">61</a> of file <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html">all.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html#l00063">63</a> of file <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html">all.qh</a>.</p>
 
 </div>
 </div>
@@ -244,7 +246,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html#l00060">60</a> of file <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html">all.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html#l00062">62</a> of file <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html">all.qh</a>.</p>
 
 </div>
 </div>
@@ -289,26 +291,11 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">id</td><td>)</td>
-          <td></td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(Buffs, BUFF_##id, <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, <a class="el" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(Buff))</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(Buffs, BUFF_##<span class="keywordtype">id</span>, <a class="code" href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(Buff)); <a class="code" href="../../d2/d5e/registry_8qh.html#a950dd1569fbc99b40e3dd31b7eb09d82">\</a></div>
-<div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a950dd1569fbc99b40e3dd31b7eb09d82">    REGISTER_INIT_POST</a>(BUFF_##<span class="keywordtype">id</span>) { \</div>
-<div class="line">        this.netname = this.m_name; \</div>
-<div class="line">        this.m_itemid = <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(this.<a class="code" href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a> - 1); \</div>
-<div class="line">        this.m_sprite = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;buff-&quot;</span>, this.m_name)); \</div>
-<div class="line">    } <a class="code" href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">\</a></div>
-<div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">    REGISTER_INIT</a>(BUFF_##<span class="keywordtype">id</span>)</div>
-<div class="ttc" id="registry_8qh_html_a212380bd462d6af1e068ef2e15844466"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a></div><div class="ttdeci">#define REGISTER(...)</div><div class="ttdoc">Register a new entity with a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00067">registry.qh:67</a></div></div>
-<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00115">oo.qh:115</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
-<div class="ttc" id="registry_8qh_html_a950dd1569fbc99b40e3dd31b7eb09d82"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a950dd1569fbc99b40e3dd31b7eb09d82">REGISTER_INIT_POST</a></div><div class="ttdeci">#define REGISTER_INIT_POST(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00102">registry.qh:102</a></div></div>
-<div class="ttc" id="registry_8qh_html_aadfdf30b43d2c417e6d692eb72f14a8f"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#aadfdf30b43d2c417e6d692eb72f14a8f">REGISTER_INIT</a></div><div class="ttdeci">#define REGISTER_INIT(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00101">registry.qh:101</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
-<div class="ttc" id="effect_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de6/effect_8qh_source.html#l00020">effect.qh:20</a></div></div>
-<div class="ttc" id="bits_8qh_html_a3a8ea58898cb58fc96013383d39f482c"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a></div><div class="ttdeci">#define BIT(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00005">bits.qh:5</a></div></div>
-</div><!-- fragment -->
+
 <p>Definition at line <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html#l00015">15</a> of file <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html">all.qh</a>.</p>
 
 </div>
@@ -346,12 +333,12 @@ Functions</h2></td></tr>
 
 <p>bit index </p>
 
-<p>Definition at line <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html#l00033">33</a> of file <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html">all.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html#l00027">27</a> of file <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html">all.qh</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;                                                                                     {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        returns(this.m_prettyName, sprintf(<span class="stringliteral">&quot;/gfx/hud/%s/buff_%s&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a>(<span class="stringliteral">&quot;menu_skin&quot;</span>), this.m_name));</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                                                                                     {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        returns(this.m_prettyName, sprintf(<span class="stringliteral">&quot;/gfx/hud/%s/buff_%s&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a>(<span class="stringliteral">&quot;menu_skin&quot;</span>), this.m_name));</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
 <div class="ttc" id="menudefs_8qc_html_a6f8c7ef6ee4a4d851aaa5fd1789eab9a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a></div><div class="ttdeci">const string cvar_string(string name)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -446,13 +433,54 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a73b233ccac900843bd13f88a0141258e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">STATIC_INIT </td>
+          <td>(</td>
+          <td class="paramtype">REGISTER_BUFFS&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html#l00036">36</a> of file <a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_source.html">all.qh</a>.</p>
+
+<p>References <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;                            {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Buffs, <span class="keyword">true</span>, {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        it.netname = it.m_name; \</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        it.m_itemid = <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(it.m_id - 1); \</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        it.m_sprite = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;buff-&quot;</span>, it.m_name)); \</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    });</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
+<div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
+<div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
+<div class="ttc" id="bits_8qh_html_a3a8ea58898cb58fc96013383d39f482c"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a></div><div class="ttdeci">#define BIT(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00005">bits.qh:5</a></div></div>
+<div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh_a73b233ccac900843bd13f88a0141258e_cgraph.svg" width="230" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_07eb8bb3d19ce8165a5aaf6eac26591d.html">buffs</a></li><li class="navelem"><a class="el" href="../../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html">all.qh</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 01:14:44 for Xonotic by
+    <li class="footer">Generated on Tue Mar 22 2016 03:21:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
