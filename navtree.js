@@ -43,7 +43,7 @@ var NAVTREEINDEX =
 "d1/dba/server_2weapons_2common_8qh.html#a15163fb722de405cc2764efd498bc2ee",
 "d1/dff/snake_8qc.html",
 "d2/d25/classXonoticDemoStartConfirmDialog.html#abc010fe38766fa00ef4860e680f92d18",
-"d2/d62/selection_8qc.html#a7523ada40895e95abb8996964f18c176",
+"d2/d62/selection_8qc.html#a6f9b75f17639bb910d8445a136d4a837",
 "d2/d9e/mapinfo_8qh.html#a9782e61ecad30b8b4613343527441878",
 "d2/dcb/classXonoticPicmipSlider.html",
 "d2/dd6/classXonoticInputSettingsTab.html#ad0ffab0c2a4089154bc04e434c67a148",

@@ -180,7 +180,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    it.items |= <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#aa08f773cdabdb2324207d3f5e5c2e720">IT_UNLIMITED_AMMO</a>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../dc/de5/classWeapon.html">Weapon</a> wep = WEP_VORTEX;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../da/daa/server_2weapons_2common_8qc.html#a709b64ec92444ebecac5ab8a73033c7f">W_GiveWeapon</a>(it, wep.<a class="code" href="../../dc/de5/classWeapon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd">m_id</a>);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../dd/de4/g__damage_8qh.html#a80ddf6cef3a2ed8491add20f1be8ba10">W_SwitchWeapon_Force</a>(it, wep);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../dd/de4/g__damage_8qh.html#a4a226b5967df0ab0c198fb5eebef802f">W_SwitchWeapon_Force</a>(it, wep);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    it = b;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../df/dae/player_8qh.html#a3fe11e0eaa42c3b7557cd166b338ba6f">PHYS_INPUT_BUTTON_JUMP</a>(it) = <span class="keyword">true</span>;</div>
@@ -198,7 +198,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="test_8qh_html_a75adcdf89f69b0b615e395daafc315af"><div class="ttname"><a href="../../d4/d5b/test_8qh.html#a75adcdf89f69b0b615e395daafc315af">SUCCEED</a></div><div class="ttdeci">#define SUCCEED()</div><div class="ttdoc">Must be present at the end of a test. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d5b/test_8qh_source.html#l00015">test.qh:15</a></div></div>
 <div class="ttc" id="common_2items_2item_8qh_html_aa08f773cdabdb2324207d3f5e5c2e720"><div class="ttname"><a href="../../d7/d7c/common_2items_2item_8qh.html#aa08f773cdabdb2324207d3f5e5c2e720">IT_UNLIMITED_AMMO</a></div><div class="ttdeci">const int IT_UNLIMITED_AMMO</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7c/common_2items_2item_8qh_source.html#l00038">item.qh:38</a></div></div>
 <div class="ttc" id="server_2weapons_2common_8qc_html_a709b64ec92444ebecac5ab8a73033c7f"><div class="ttname"><a href="../../da/daa/server_2weapons_2common_8qc.html#a709b64ec92444ebecac5ab8a73033c7f">W_GiveWeapon</a></div><div class="ttdeci">void W_GiveWeapon(entity e, int wep)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/daa/server_2weapons_2common_8qc_source.html#l00011">common.qc:11</a></div></div>
-<div class="ttc" id="g__damage_8qh_html_a80ddf6cef3a2ed8491add20f1be8ba10"><div class="ttname"><a href="../../dd/de4/g__damage_8qh.html#a80ddf6cef3a2ed8491add20f1be8ba10">W_SwitchWeapon_Force</a></div><div class="ttdeci">void W_SwitchWeapon_Force(entity e, Weapon w)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00229">selection.qc:229</a></div></div>
 <div class="ttc" id="classClient_html"><div class="ttname"><a href="../../d1/d37/classClient.html">Client</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d30/cl__client_8qh_source.html#l00005">cl_client.qh:5</a></div></div>
 <div class="ttc" id="player_8qh_html_ae70419df87245d159bf96515d7d3e0b1"><div class="ttname"><a href="../../df/dae/player_8qh.html#ae70419df87245d159bf96515d7d3e0b1">PHYS_INPUT_BUTTON_ATCK</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_ATCK(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dae/player_8qh_source.html#l00096">player.qh:96</a></div></div>
 <div class="ttc" id="tests_8qc_html_ac85fc290de35848a50c9ace71f3431bf"><div class="ttname"><a href="../../dd/dde/tests_8qc.html#ac85fc290de35848a50c9ace71f3431bf">test_weapons_hurt</a></div><div class="ttdeci">void test_weapons_hurt()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dde/tests_8qc_source.html#l00003">tests.qc:3</a></div></div>
@@ -207,6 +206,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="server_2autocvars_8qh_html_a9c75c33e6bcb86752d3c5c504b8de865"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a9c75c33e6bcb86752d3c5c504b8de865">autocvar_g_spawnshieldtime</a></div><div class="ttdeci">float autocvar_g_spawnshieldtime</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00266">autocvars.qh:266</a></div></div>
 <div class="ttc" id="classWeapon_html"><div class="ttname"><a href="../../dc/de5/classWeapon.html">Weapon</a></div><div class="ttdoc">fields which are explicitly/manually set are marked with &quot;M&quot;, fields set automatically are marked wit...</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00052">weapon.qh:52</a></div></div>
 <div class="ttc" id="classWeapon_html_a7bfa8cea7d4fcbb0c04dd7a540a7e4dd"><div class="ttname"><a href="../../dc/de5/classWeapon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd">Weapon::m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00053">weapon.qh:53</a></div></div>
+<div class="ttc" id="g__damage_8qh_html_a4a226b5967df0ab0c198fb5eebef802f"><div class="ttname"><a href="../../dd/de4/g__damage_8qh.html#a4a226b5967df0ab0c198fb5eebef802f">W_SwitchWeapon_Force</a></div><div class="ttdeci">void W_SwitchWeapon_Force(Player this, Weapon w)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00229">selection.qc:229</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -267,7 +267,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dd/dde/tests_8qc.html">tests.qc</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 20:37:11 for Xonotic by
+    <li class="footer">Generated on Wed Mar 23 2016 21:34:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

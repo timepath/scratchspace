@@ -13,7 +13,7 @@ var weaponsystem_8qc =
     [ "w_ready", "d5/de0/weaponsystem_8qc.html#a66ca3d9dc1f3bc5a039abad59d986d40", null ],
     [ "W_Reload", "d5/de0/weaponsystem_8qc.html#ad552f2285b74098aab5c07973ec7b577", null ],
     [ "W_ReloadedAndReady", "d5/de0/weaponsystem_8qc.html#aa46bfb19e29f3b2eae7d29f5ae04b723", null ],
-    [ "W_WeaponFrame", "d5/de0/weaponsystem_8qc.html#ab30371fc4eb86efcfbb9ee8a3863f932", null ],
+    [ "W_WeaponFrame", "d5/de0/weaponsystem_8qc.html#a017e108ea89181303373f78298a37b31", null ],
     [ "W_WeaponRateFactor", "d5/de0/weaponsystem_8qc.html#ada198b7d2c4a23e3476772e6e16828d7", null ],
     [ "W_WeaponSpeedFactor", "d5/de0/weaponsystem_8qc.html#a85ec52a7a8bed1e525e17cfb825e9deb", null ],
     [ "weapon_prepareattack", "d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906", null ],

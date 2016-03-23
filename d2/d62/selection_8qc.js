@@ -10,6 +10,6 @@ var selection_8qc =
     [ "W_PreviousWeapon", "d2/d62/selection_8qc.html#acf3c0eee23dcb6f5926e4a319e817637", null ],
     [ "W_SwitchToOtherWeapon", "d2/d62/selection_8qc.html#ac439f2f447cacc3d096a80b1cb97577b", null ],
     [ "W_SwitchWeapon", "d2/d62/selection_8qc.html#a5d057c3bcc2ce23b98404af3a691d4d1", null ],
-    [ "W_SwitchWeapon_Force", "d2/d62/selection_8qc.html#a8beecc8cbc5c9ee4e0dc90a2be1198e3", null ],
+    [ "W_SwitchWeapon_Force", "d2/d62/selection_8qc.html#a6e97a500c93d2f69145ddb449a5d28a1", null ],
     [ "Weapon_whereis", "d2/d62/selection_8qc.html#a8ebba9ca88508abccc39d23b9c40defd", null ]
 ];
