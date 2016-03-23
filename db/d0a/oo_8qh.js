@@ -38,6 +38,7 @@ var oo_8qh =
     [ "STATIC_ATTRIB_STRZONE", "db/d0a/oo_8qh.html#ae360181b08f993f27939c875dfaaa173", null ],
     [ "STATIC_METHOD", "db/d0a/oo_8qh.html#ad6bcb925c2ef93de661268fdc3f2db5c", null ],
     [ "SUPER", "db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f", null ],
+    [ "TRANSMUTE", "db/d0a/oo_8qh.html#a50e8509df7e88435c3d75fb41eba495c", null ],
     [ "VTBL", "db/d0a/oo_8qh.html#affebc3e5b45467922d5b040f93e132ce", null ],
     [ "__spawn", "db/d0a/oo_8qh.html#a186a598b3718eb17a3e2fadd94952be3", null ],
     [ "_spawn", "db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4", null ],
@@ -50,6 +51,7 @@ var oo_8qh =
     [ "origin", "db/d0a/oo_8qh.html#abe72a6bafb55848ec9cd7f81a6de3c29", null ],
     [ "pure_data", "db/d0a/oo_8qh.html#a8f4a491b5b5587b590375c003d42dbea", null ],
     [ "sourceLoc", "db/d0a/oo_8qh.html#aec2812211811d2d0824d32e4e9e543fa", null ],
+    [ "transmute", "db/d0a/oo_8qh.html#a269b1d539e6116de8dc93f6891abc9a2", null ],
     [ "vtblbase", "db/d0a/oo_8qh.html#ab7246f79454bf896b228c49914b8decb", null ],
     [ "vtblname", "db/d0a/oo_8qh.html#ad51fa825f9684ce664ad4ca0b3131f5b", null ]
 ];

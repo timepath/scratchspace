@@ -255,23 +255,23 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../de/d95/classEffectInfo.html#afd551afac097fdbeeabde98c8aa1bfc8">EffectInfo</a>, and <a class="el" href="../../d1/d6b/classGametype.html#ae6f43fb252cffabdcb79a863987a5683">Gametype</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00261">261</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00271">271</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">TC</a>.</p>
-<div class="fragment"><div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    {</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <span class="keywordtype">string</span> s = _(<span class="stringliteral">&quot;No description&quot;</span>);</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;developer&quot;</span>))</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        {</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, n = numentityfields(); i &lt; n; ++i)</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            {</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                <span class="keywordtype">string</span> value = getentityfieldstring(i, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                <span class="keywordflow">if</span> (value != <span class="stringliteral">&quot;&quot;</span>) s = sprintf(<span class="stringliteral">&quot;%s\n%s = %s&quot;</span>, s, entityfieldname(i), value);</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            }</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        }</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        <span class="keywordflow">return</span> s;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    }</div>
-<div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00258">oo.qh:258</a></div></div>
+<div class="fragment"><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="keywordtype">string</span> s = _(<span class="stringliteral">&quot;No description&quot;</span>);</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;developer&quot;</span>))</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, n = numentityfields(); i &lt; n; ++i)</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                <span class="keywordtype">string</span> value = getentityfieldstring(i, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                <span class="keywordflow">if</span> (value != <span class="stringliteral">&quot;&quot;</span>) s = sprintf(<span class="stringliteral">&quot;%s\n%s = %s&quot;</span>, s, entityfieldname(i), value);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            }</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        }</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="keywordflow">return</span> s;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    }</div>
+<div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">_all.inc:38</a></div></div>
 </div><!-- fragment -->
@@ -1290,7 +1290,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d6e/classTuba.html">Tuba</a></li>
-    <li class="footer">Generated on Tue Mar 22 2016 11:38:07 for Xonotic by
+    <li class="footer">Generated on Wed Mar 23 2016 00:00:56 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

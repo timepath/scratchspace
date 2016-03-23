@@ -1,5 +1,6 @@
 var cl__client_8qh =
 [
+    [ "Client", "d1/d37/classClient.html", "d1/d37/classClient" ],
     [ "SPECTATE_COPY", "d1/d30/cl__client_8qh.html#aebf1adea3382d9b7117f54a7d338ad41", null ],
     [ "SPECTATE_COPYFIELD", "d1/d30/cl__client_8qh.html#a78d6b1a9d49f7d040f67eb1bac3805ce", null ],
     [ "CalcRotRegen", "d1/d30/cl__client_8qh.html#ae65b054c6752ac6d32c4212a3b9a4294", null ],

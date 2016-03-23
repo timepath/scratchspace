@@ -14,6 +14,7 @@ var annotated =
     [ "Callback", "db/dd3/classCallback.html", "db/dd3/classCallback" ],
     [ "CallbackChain", "d1/d5c/classCallbackChain.html", "d1/d5c/classCallbackChain" ],
     [ "CheckBox", "dd/df9/classCheckBox.html", "dd/df9/classCheckBox" ],
+    [ "Client", "d1/d37/classClient.html", "d1/d37/classClient" ],
     [ "ClientState", "d6/d92/classClientState.html", "d6/d92/classClientState" ],
     [ "Command", "d9/d71/classCommand.html", "d9/d71/classCommand" ],
     [ "Container", "d0/d7b/classContainer.html", "d0/d7b/classContainer" ],

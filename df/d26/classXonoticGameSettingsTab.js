@@ -1,5 +1,6 @@
 var classXonoticGameSettingsTab =
 [
+    [ "XonoticGameSettingsTab", "df/d26/classXonoticGameSettingsTab.html#aada90c93b267ef284a27fcff6e944d71", null ],
     [ "_changeFocusXY", "df/d26/classXonoticGameSettingsTab.html#ac648acd4d716ba6cd676f4e43345b85b", null ],
     [ "addItem", "df/d26/classXonoticGameSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f", null ],
     [ "addItemCentered", "df/d26/classXonoticGameSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564", null ],
@@ -18,7 +19,6 @@ var classXonoticGameSettingsTab =
     [ "focusLeave", "df/d26/classXonoticGameSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174", null ],
     [ "gotoRC", "df/d26/classXonoticGameSettingsTab.html#af1f678188fd60bb44625149bb25c9af5", null ],
     [ "hideNotify", "df/d26/classXonoticGameSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7", null ],
-    [ "INIT", "df/d26/classXonoticGameSettingsTab.html#a3b1ed948da15e6c034c45246e92e6738", null ],
     [ "itemFromPoint", "df/d26/classXonoticGameSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7", null ],
     [ "keyDown", "df/d26/classXonoticGameSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c", null ],
     [ "keyUp", "df/d26/classXonoticGameSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a", null ],

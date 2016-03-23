@@ -16,7 +16,6 @@ var searchData=
   ['increasezoom_5fclick',['increaseZoom_Click',['../d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#aff0960818a9a72706ab6b675bd541a7d',1,'dialog_multiplayer_media_screenshot_viewer.qc']]],
   ['indexof',['indexOf',['../de/d82/classDataSource.html#a9b20cefca0e6f285f67d0222f3a45465',1,'DataSource']]],
   ['info_5fautoscreenshot_5ffindtarget',['info_autoscreenshot_findtarget',['../d6/de9/cheats_8qc.html#a449963dd1fdb19450ea4c38e28c7c7a2',1,'cheats.qc']]],
-  ['init',['INIT',['../df/d26/classXonoticGameSettingsTab.html#a3b1ed948da15e6c034c45246e92e6738',1,'XonoticGameSettingsTab']]],
   ['initgameplaymode',['InitGameplayMode',['../de/d4f/teamplay_8qc.html#a25599ad73603f2e4e2b78726400732c8',1,'InitGameplayMode():&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a25599ad73603f2e4e2b78726400732c8',1,'InitGameplayMode():&#160;teamplay.qc']]],
   ['initializedialog',['initializeDialog',['../d6/d1a/classModalController.html#ab822fa2e09910c1fe52cba5498a0d503',1,'ModalController']]],
   ['initializeentitiesrun',['InitializeEntitiesRun',['../dc/dc6/server_2miscfunctions_8qc.html#a504192d334de7d4502ffbaa71c6b8228',1,'InitializeEntitiesRun():&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a504192d334de7d4502ffbaa71c6b8228',1,'InitializeEntitiesRun():&#160;miscfunctions.qc']]],

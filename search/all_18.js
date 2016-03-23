@@ -147,7 +147,7 @@ var searchData=
   ['xonoticgamemodelsettingstab',['XonoticGameModelSettingsTab',['../d9/db3/classXonoticGameModelSettingsTab.html',1,'']]],
   ['xonoticgamemodelsettingstab_5ffill',['XonoticGameModelSettingsTab_fill',['../d9/d2d/dialog__settings__game__model_8qc.html#a3bc78e9a0f18de27f46e9111a30884a5',1,'dialog_settings_game_model.qc']]],
   ['xonoticgamemodelsettingstab_5fshownotify',['XonoticGameModelSettingsTab_showNotify',['../d9/d2d/dialog__settings__game__model_8qc.html#a74a9590aa3277b647d54c780cbfd3dbb',1,'dialog_settings_game_model.qc']]],
-  ['xonoticgamesettingstab',['XonoticGameSettingsTab',['../df/d26/classXonoticGameSettingsTab.html',1,'']]],
+  ['xonoticgamesettingstab',['XonoticGameSettingsTab',['../df/d26/classXonoticGameSettingsTab.html',1,'XonoticGameSettingsTab'],['../df/d26/classXonoticGameSettingsTab.html#aada90c93b267ef284a27fcff6e944d71',1,'XonoticGameSettingsTab::XonoticGameSettingsTab()']]],
   ['xonoticgametypelist',['XonoticGametypeList',['../d8/d39/classXonoticGametypeList.html',1,'']]],
   ['xonoticgametypelist_5fclicklistboxitem',['XonoticGametypeList_clickListBoxItem',['../d2/db8/gametypelist_8qc.html#a58b9cf8c5ccf5217bbd1a112963c2481',1,'gametypelist.qc']]],
   ['xonoticgametypelist_5fconfigurexonoticgametypelist',['XonoticGametypeList_configureXonoticGametypeList',['../d2/db8/gametypelist_8qc.html#a5268feb06cc5314e1f2a458147ae43ba',1,'gametypelist.qc']]],
