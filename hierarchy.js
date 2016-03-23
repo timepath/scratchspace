@@ -10,7 +10,11 @@ var hierarchy =
       [ "Callback", "db/dd3/classCallback.html", null ],
       [ "CallbackChain", "d1/d5c/classCallbackChain.html", null ],
       [ "CallbackChain::CallbackNode", "d7/d0f/classCallbackChain_1_1CallbackNode.html", null ],
-      [ "Client", "d1/d37/classClient.html", null ],
+      [ "Client", "d1/d37/classClient.html", [
+        [ "Observer", "de/dab/classObserver.html", null ],
+        [ "Player", "d2/d4b/classPlayer.html", null ],
+        [ "Spectator", "d1/d48/classSpectator.html", null ]
+      ] ],
       [ "ClientState", "d6/d92/classClientState.html", null ],
       [ "Command", "d9/d71/classCommand.html", null ],
       [ "DataSource", "de/d82/classDataSource.html", [

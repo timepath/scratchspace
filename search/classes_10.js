@@ -7,6 +7,7 @@ var searchData=
   ['shotgun',['Shotgun',['../d8/dd3/classShotgun.html',1,'']]],
   ['slider',['Slider',['../d3/dbe/classSlider.html',1,'']]],
   ['sound',['Sound',['../df/d49/classSound.html',1,'']]],
+  ['spectator',['Spectator',['../d1/d48/classSpectator.html',1,'']]],
   ['spider',['Spider',['../df/d56/classSpider.html',1,'']]],
   ['spiderattack',['SpiderAttack',['../da/da9/classSpiderAttack.html',1,'']]],
   ['spiderbot',['Spiderbot',['../df/d0f/classSpiderbot.html',1,'']]],

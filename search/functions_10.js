@@ -76,6 +76,7 @@ var searchData=
   ['play2team',['play2team',['../dc/d73/server_2miscfunctions_8qh.html#a410e46f892e7f134035c4afe149f8f27',1,'miscfunctions.qh']]],
   ['play_5fcountdown',['play_countdown',['../da/d53/cl__client_8qc.html#af816c9a7a6e6046195f05527abf8e707',1,'play_countdown(float finished, Sound samp):&#160;cl_client.qc'],['../d1/d30/cl__client_8qh.html#af816c9a7a6e6046195f05527abf8e707',1,'play_countdown(float finished, Sound samp):&#160;cl_client.qc']]],
   ['playclicksound',['playClickSound',['../d1/d19/classButton.html#a17586d0ed66d76f042dedade63f4addf',1,'Button::playClickSound()'],['../dd/df9/classCheckBox.html#a5acde129549a09a7c5e99b8bc5555ebd',1,'CheckBox::playClickSound()']]],
+  ['player',['Player',['../d2/d4b/classPlayer.html#affe0cc3cb714f6deb4e62f0c0d3f1fd8',1,'Player']]],
   ['player_5fanim',['player_anim',['../dc/d16/server_2cl__player_8qc.html#ac14e291c251b817df4bd7d2f5e6c1d55',1,'player_anim():&#160;cl_player.qc'],['../d7/d95/server_2cl__player_8qh.html#ac14e291c251b817df4bd7d2f5e6c1d55',1,'player_anim():&#160;cl_player.qc']]],
   ['player_5fclear_5fminigame',['player_clear_minigame',['../d7/d33/sv__minigames_8qc.html#a4d6b42df9791a27b66f0da64c6ace473',1,'sv_minigames.qc']]],
   ['player_5fgetspecies',['player_getspecies',['../da/d53/cl__client_8qc.html#a04003ae2140daf692afaee96c6b305df',1,'cl_client.qc']]],

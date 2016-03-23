@@ -197,7 +197,6 @@ var server_2defs_8qh =
     [ "player_count", "d5/d26/server_2defs_8qh.html#aa9133b1e9c4643806028438151bd2f6e", null ],
     [ "player_stats", "d5/d26/server_2defs_8qh.html#ae6b6530a24c2f05f7717a462bd144eae", null ],
     [ "playerid", "d5/d26/server_2defs_8qh.html#a31c2e523e63d0215e6075125fea821f3", null ],
-    [ "playerid_last", "d5/d26/server_2defs_8qh.html#a9c339c87c13a532095ae36c87d774347", null ],
     [ "playermodel", "d5/d26/server_2defs_8qh.html#ae11fb22495fdd7953c445d981f4735fe", null ],
     [ "playernick", "d5/d26/server_2defs_8qh.html#a8bb7dc47a88da7e6e1bd9a6b728c8781", null ],
     [ "playerskin", "d5/d26/server_2defs_8qh.html#a4d36bbde6c78ea09441e7d499baa1022", null ],

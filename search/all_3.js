@@ -381,7 +381,7 @@ var searchData=
   ['clientkilltime',['clientkilltime',['../da/d53/cl__client_8qc.html#a482f54a20df32f498a4c3cca6f372fee',1,'cl_client.qc']]],
   ['clientprogsdb',['ClientProgsDB',['../d9/d08/client_2defs_8qh.html#a053cb927ddf4f1e7626ddfb245f0ef07',1,'defs.qh']]],
   ['clientstate',['ClientState',['../d6/d92/classClientState.html',1,'ClientState'],['../d6/d92/classClientState.html#a0774a1243839c8151d2f16f63a500bb6',1,'ClientState::ClientState()'],['../d8/de2/menudefs_8qc.html#a5b8f00bc9ba0e5b11a953be87f34b476',1,'clientstate():&#160;menudefs.qc']]],
-  ['clientstate_5fattach',['ClientState_attach',['../d0/d3f/state_8qc.html#afc32312bf25df126b18e078bedab7837',1,'ClientState_attach(entity this):&#160;state.qc'],['../db/d9f/state_8qh.html#afc32312bf25df126b18e078bedab7837',1,'ClientState_attach(entity this):&#160;state.qc']]],
+  ['clientstate_5fattach',['ClientState_attach',['../d0/d3f/state_8qc.html#afc32312bf25df126b18e078bedab7837',1,'ClientState_attach(entity this):&#160;state.qc'],['../db/d9f/state_8qh.html#afc32312bf25df126b18e078bedab7837',1,'ClientState_attach(entity this):&#160;state.qc'],['../d1/d30/cl__client_8qh.html#afc32312bf25df126b18e078bedab7837',1,'ClientState_attach(entity this):&#160;state.qc']]],
   ['clientstate_5fdetach',['ClientState_detach',['../d0/d3f/state_8qc.html#ae17cd2d1c2291942edc23455fc1db486',1,'ClientState_detach(entity this):&#160;state.qc'],['../db/d9f/state_8qh.html#ae17cd2d1c2291942edc23455fc1db486',1,'ClientState_detach(entity this):&#160;state.qc']]],
   ['clientstatus',['clientstatus',['../de/d5e/dpextensions_8qc.html#a04a60c0b10e3320a3cf865d514c459e1',1,'dpextensions.qc']]],
   ['clientstuff',['clientstuff',['../d5/d26/server_2defs_8qh.html#a286703f809e7592d1737c49857aeb264',1,'defs.qh']]],

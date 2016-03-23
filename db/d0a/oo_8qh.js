@@ -3,6 +3,7 @@ var oo_8qh =
     [ "Object", "d8/d4b/classObject.html", "d8/d4b/classObject" ],
     [ "_INIT_STATIC", "db/d0a/oo_8qh.html#a0e87581411270502a5d4b28cae5dfeff", null ],
     [ "_new", "db/d0a/oo_8qh.html#abb1f528f2bd7f47d39b83eab72230797", null ],
+    [ "_TRANSMUTE", "db/d0a/oo_8qh.html#a717c6662449f28aaf932733afbd02ebe", null ],
     [ "_vtbl", "db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c", null ],
     [ "ATTRIB", "db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f", null ],
     [ "ATTRIB_STRZONE", "db/d0a/oo_8qh.html#acffd6df7afe44df47e0cf29a0d2d5899", null ],

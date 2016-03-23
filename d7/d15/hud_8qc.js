@@ -1,7 +1,7 @@
 var hud_8qc =
 [
     [ "CSQC_BUMBLE_GUN_HUD", "d7/d15/hud_8qc.html#aeb5a957125115e4514fce07b3ce1382e", null ],
-    [ "DrawNumIcon", "d7/d15/hud_8qc.html#a8c5e3345294677c8a5fe0737e0980a30", null ],
+    [ "DrawNumIcon", "d7/d15/hud_8qc.html#ab759ef9e1fd17c4db35cda4c2c81185e", null ],
     [ "DrawNumIcon_expanding", "d7/d15/hud_8qc.html#ab677a00ccd816b50bfc388b934d8210a", null ],
     [ "HUD_Get_Num_Color", "d7/d15/hud_8qc.html#ac83f5e664b74ba1269627528078a7dbf", null ],
     [ "HUD_GetRowCount", "d7/d15/hud_8qc.html#aa2a5280f52a32d302277253736cc04bb", null ],

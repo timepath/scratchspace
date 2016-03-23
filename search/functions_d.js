@@ -24,6 +24,7 @@ var searchData=
   ['m_5ftesttooltipbox',['m_testtooltipbox',['../df/dc2/menu_8qc.html#a1937eff3e0fd72adb367d6c7822e0b33',1,'menu.qc']]],
   ['m_5ftoggle',['m_toggle',['../df/dc2/menu_8qc.html#a4456a23d7ead3b0729cac4936b2c1422',1,'menu.qc']]],
   ['m_5ftooltip',['m_tooltip',['../df/dc2/menu_8qc.html#a43f8369c5856585967a58a0041298975',1,'menu.qc']]],
+  ['m_5funwind',['m_unwind',['../d1/d37/classClient.html#ae355958a385e61face4d5c090fd1b4ec',1,'Client']]],
   ['main',['main',['../d2/d11/g__subs_8qc.html#acdef7a1fd863a6d3770c1268cb06add3',1,'main():&#160;g_subs.qc'],['../d6/d93/g__subs_8qh.html#acdef7a1fd863a6d3770c1268cb06add3',1,'main():&#160;g_subs.qc']]],
   ['mainwindow_5fconfiguremainwindow',['MainWindow_configureMainWindow',['../da/d1d/mainwindow_8qc.html#a906f272ebdf9a21d99b8d95e184866f3',1,'mainwindow.qc']]],
   ['mainwindow_5fdraw',['MainWindow_draw',['../da/d1d/mainwindow_8qc.html#a0d7d1629f65a255e16e302d73b331bb5',1,'mainwindow.qc']]],
