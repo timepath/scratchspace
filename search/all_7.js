@@ -78,7 +78,6 @@ var searchData=
   ['g_5ftrueaim_5fminrange',['g_trueaim_minrange',['../d0/d2a/client_2main_8qh.html#a03cabea65bbb5dff4c8ffa4657e18a46',1,'main.qh']]],
   ['g_5fwarmup_5fallguns',['g_warmup_allguns',['../d5/d26/server_2defs_8qh.html#ac1c30ec6307b210f08d78ee929599d2a',1,'defs.qh']]],
   ['g_5fwarmup_5fallow_5ftimeout',['g_warmup_allow_timeout',['../d5/d26/server_2defs_8qh.html#a02bc0ed2dad26a552548fc97d9f5b1ec',1,'defs.qh']]],
-  ['g_5fwarmup_5flimit',['g_warmup_limit',['../d5/d26/server_2defs_8qh.html#addfcfab1e1e5b6a6320c96893aec34c3',1,'defs.qh']]],
   ['g_5fweapon_5fstay',['g_weapon_stay',['../dc/d73/server_2miscfunctions_8qh.html#aac8150070e53454c8779e74d0ba50983',1,'miscfunctions.qh']]],
   ['g_5fweaponarena',['g_weaponarena',['../dc/d73/server_2miscfunctions_8qh.html#a8fb81e5e74fcfefe13d3071a96ca9c66',1,'miscfunctions.qh']]],
   ['g_5fweaponarena_5flist',['g_weaponarena_list',['../dc/d73/server_2miscfunctions_8qh.html#ad6222665136ecc4551f6c488d10a22bb',1,'miscfunctions.qh']]],

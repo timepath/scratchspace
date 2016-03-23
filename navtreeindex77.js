@@ -1,6 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"d9/df7/mathlib_8qh.html#a8223697ad3d8f097dc729d1e854c8e77":[2,0,3,1,7,18],
 "d9/df7/mathlib_8qh.html#a834c6abed34f0fed15913ed3c86ba4f2":[2,0,3,1,7,38],
 "d9/df7/mathlib_8qh.html#a8f7da98673f75db0054d43f5ba8fbaaf":[2,0,3,1,7,22],
 "d9/df7/mathlib_8qh.html#a90381e2538fbcc8e6c1f75b1831c7846":[2,0,3,1,7,32],
@@ -249,5 +248,6 @@ var NAVTREEINDEX77 =
 "da/d21/hudskinlist_8qc.html#a65e553f8f5a840cbd84d47bbf2a71988":[2,0,4,4,162,21],
 "da/d21/hudskinlist_8qc.html#a6a8a49f456405209a95b08961913fcb4":[2,0,4,4,162,25],
 "da/d21/hudskinlist_8qc.html#a6aadd5add47a7cd0f4e1b95bb32efa76":[2,0,4,4,162,12],
-"da/d21/hudskinlist_8qc.html#a87f9e88ea6753eaaa99890460a01d770":[2,0,4,4,162,16]
+"da/d21/hudskinlist_8qc.html#a87f9e88ea6753eaaa99890460a01d770":[2,0,4,4,162,16],
+"da/d21/hudskinlist_8qc.html#a8a2aafcc22ead2f02c24f7bef29d3a28":[2,0,4,4,162,19]
 };
