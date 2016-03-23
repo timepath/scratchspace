@@ -1,5 +1,17 @@
 var NAVTREEINDEX82 =
 {
+"da/db7/classXonoticServerInfoDialog.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,214,93],
+"da/db7/classXonoticServerInfoDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,214,56],
+"da/db7/classXonoticServerInfoDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,214,111],
+"da/db7/classXonoticServerInfoDialog.html#adb1647a463bf21cfc542919613982c0e":[1,0,214,60],
+"da/db7/classXonoticServerInfoDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,214,20],
+"da/db7/classXonoticServerInfoDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,214,55],
+"da/db7/classXonoticServerInfoDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,214,45],
+"da/db7/classXonoticServerInfoDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,214,117],
+"da/db7/classXonoticServerInfoDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,214,79],
+"da/db7/classXonoticServerInfoDialog.html#aee4aa606ed65840e927409bd97d025e6":[1,0,214,67],
+"da/db7/classXonoticServerInfoDialog.html#af0bbe7a8f0483579b320fa388d057275":[1,0,214,97],
+"da/db7/classXonoticServerInfoDialog.html#af1aab403dc54575707fd57991312b201":[1,0,214,37],
 "da/db7/classXonoticServerInfoDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,214,16],
 "da/db7/classXonoticServerInfoDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,214,29],
 "da/db7/classXonoticServerInfoDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,214,2],
@@ -237,17 +249,5 @@ var NAVTREEINDEX82 =
 "da/df4/announcer_8qc.html#a6f021f4ddce203c89e465065082c8647":[2,0,0,5,5],
 "da/df4/announcer_8qc.html#a74359ed785035246489934d025ae3278":[2,0,0,5,4],
 "da/df4/announcer_8qc.html#abb5b4637e37634b1b1ccc43540b8b369":[2,0,0,5,0],
-"da/df4/announcer_8qc.html#add205a06b0bcf100c9346951fdabee42":[2,0,0,5,8],
-"da/df4/announcer_8qc.html#ae2ec52dab37e3c927a892b5eec19a8bc":[2,0,0,5,6],
-"da/df4/announcer_8qc_source.html":[2,0,0,5],
-"da/df5/common_2debug_8qh.html":[2,0,1,27],
-"da/df5/common_2debug_8qh.html#a398527b3e9e358c345c5047b16871957":[2,0,1,27,5],
-"da/df5/common_2debug_8qh.html#a509bb0a47a7dc0fbac057261cf266b80":[2,0,1,27,0],
-"da/df5/common_2debug_8qh.html#a5c6676622c4522fa2b6a310bb1e392c6":[2,0,1,27,2],
-"da/df5/common_2debug_8qh.html#a8036e7ff202b8dfa10a7e15e849bebe7":[2,0,1,27,6],
-"da/df5/common_2debug_8qh.html#a8a86d1498779450f2aa645d83d2dd457":[2,0,1,27,1],
-"da/df5/common_2debug_8qh.html#aceb0d59d9ccb0a485dd5be34e5a95361":[2,0,1,27,3],
-"da/df5/common_2debug_8qh.html#adf57573d447a0ad86b53345f77359abd":[2,0,1,27,4],
-"da/df5/common_2debug_8qh_source.html":[2,0,1,27],
-"da/df7/steerlib_8qh.html":[2,0,5,59]
+"da/df4/announcer_8qc.html#add205a06b0bcf100c9346951fdabee42":[2,0,0,5,8]
 };

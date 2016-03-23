@@ -355,7 +355,7 @@ $(document).ready(function(){initNavTree('da/df5/common_2debug_8qh_source.html',
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        STAT(TRACE_ENT, it) = i;</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <span class="keywordflow">if</span> (!e) <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        setorigin(e, e.origin + <span class="stringliteral">&#39;0 0 100&#39;</span>);</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        stuffcmd(it, sprintf(<span class="stringliteral">&quot;prvm_edict server %d\n&quot;</span>, i));</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <a class="code" href="../../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c">stuffcmd</a>(it, sprintf(<span class="stringliteral">&quot;prvm_edict server %d\n&quot;</span>, i));</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    });</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;}</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -462,6 +462,7 @@ $(document).ready(function(){initNavTree('da/df5/common_2debug_8qh_source.html',
 <div class="ttc" id="server_2command_2common_8qh_html_a8d53bacf36d6e27c1f3fb22db402136b"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html#a8d53bacf36d6e27c1f3fb22db402136b">COMMON_COMMAND</a></div><div class="ttdeci">#define COMMON_COMMAND(id, description)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d06/server_2command_2common_8qh_source.html#l00009">common.qh:9</a></div></div>
 <div class="ttc" id="oo_8qh_html_a38b2e3be8bac16c7e501868868a5a2ff"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a></div><div class="ttdeci">#define make_pure(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00016">oo.qh:16</a></div></div>
 <div class="ttc" id="common_2stats_8qh_html_a27cfff2d2a108feef9eed7958c423a08"><div class="ttname"><a href="../../d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08">REGISTER_STAT</a></div><div class="ttdeci">REGISTER_STAT(MOVEFLAGS, int, MOVEFLAG_VALID|(autocvar_sv_gameplayfix_q2airaccelerate?MOVEFLAG_Q2AIRACCELERATE:0)|(autocvar_sv_gameplayfix_nogravityonground?MOVEFLAG_NOGRAVITYONGROUND:0)|(autocvar_sv_gameplayfix_gravityunaffectedbyticrate?MOVEFLAG_GRAVITYUNAFFECTEDBYTICRATE:0)).float gravity</div></div>
+<div class="ttc" id="progsdefs_8qh_html_a0177ce011f923c213b22d01b2b8a103c"><div class="ttname"><a href="../../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c">stuffcmd</a></div><div class="ttdeci">#define stuffcmd(cl,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc0/progsdefs_8qh_source.html#l00024">progsdefs.qh:24</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aa8c03f058fec0c574e1bba13327f5a5b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a></div><div class="ttdeci">void WriteCoord(float data, float dest, float desto)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
 <div class="ttc" id="weapon_8qh_html_a9fa363812785dc498d10c39607bbbb9d"><div class="ttname"><a href="../../dc/d1c/weapon_8qh.html#a9fa363812785dc498d10c39607bbbb9d">MAX_SHOT_DISTANCE</a></div><div class="ttdeci">const int MAX_SHOT_DISTANCE</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00172">weapon.qh:172</a></div></div>
@@ -486,7 +487,7 @@ $(document).ready(function(){initNavTree('da/df5/common_2debug_8qh_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../da/df5/common_2debug_8qh.html">debug.qh</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 05:41:09 for Xonotic by
+    <li class="footer">Generated on Wed Mar 23 2016 11:34:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

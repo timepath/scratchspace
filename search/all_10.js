@@ -512,7 +512,7 @@ var searchData=
   ['pm_5ffootsteps',['PM_Footsteps',['../dc/ddd/player_8qc.html#af720710e7d9c6e243358bd74cac5e70e',1,'player.qc']]],
   ['pm_5fjetpack',['PM_jetpack',['../dc/ddd/player_8qc.html#a9bdf19200a792389ffb8bbff54e76bf4',1,'player.qc']]],
   ['pm_5fladder',['PM_ladder',['../dc/ddd/player_8qc.html#a483a5ebf784056276d68f70e98859f7f',1,'player.qc']]],
-  ['pm_5fmain',['PM_Main',['../dc/ddd/player_8qc.html#a672a0ccf602525346ee1acb1337367fe',1,'player.qc']]],
+  ['pm_5fmain',['PM_Main',['../dc/ddd/player_8qc.html#a672a0ccf602525346ee1acb1337367fe',1,'PM_Main(entity this):&#160;player.qc'],['../d3/d4f/sv__main_8qc.html#a74e5ff6bc326f8675b3ecef777e458bf',1,'PM_Main(Client this):&#160;sv_main.qc']]],
   ['pm_5fmaxspeed_5fmod',['pm_maxspeed_mod',['../d4/d95/common_2mutators_2events_8qh.html#adfa5118a30ae224cd89d60b48074c902',1,'events.qh']]],
   ['pm_5fswim',['PM_swim',['../dc/ddd/player_8qc.html#a77a705e651bbca482517fc8355e3e6ea',1,'player.qc']]],
   ['pm_5fwalk',['PM_walk',['../dc/ddd/player_8qc.html#af0f8cbd00d77560450b91d4c524bcdda',1,'player.qc']]],

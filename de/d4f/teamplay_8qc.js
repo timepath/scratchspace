@@ -8,7 +8,7 @@ var teamplay_8qc =
     [ "GetTeamCounts", "de/d4f/teamplay_8qc.html#a2942f2ae0d82c47009843cae3069508a", null ],
     [ "getwelcomemessage", "de/d4f/teamplay_8qc.html#a1b993ea641541190b474642e37d0615a", null ],
     [ "InitGameplayMode", "de/d4f/teamplay_8qc.html#a25599ad73603f2e4e2b78726400732c8", null ],
-    [ "JoinBestTeam", "de/d4f/teamplay_8qc.html#a2679054458119c910459783c6ddb22fb", null ],
+    [ "JoinBestTeam", "de/d4f/teamplay_8qc.html#a2bf80d8d4c0ef914da18c00f4ce3cc55", null ],
     [ "LogTeamchange", "de/d4f/teamplay_8qc.html#af954f9f806424a8cb8467d9372d8049e", null ],
     [ "PlayerValue", "de/d4f/teamplay_8qc.html#a03beeb550118f87341e3c16c53300a6d", null ],
     [ "SetLimits", "de/d4f/teamplay_8qc.html#a246b8f5baa8038cddf08ecc9adf5b17c", null ],

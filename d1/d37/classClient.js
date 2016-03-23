@@ -1,9 +1,13 @@
 var classClient =
 [
     [ "Client", "d1/d37/classClient.html#ae51af7aa6b8f591496a8f6a4a87a14bf", null ],
+    [ "~Client", "d1/d37/classClient.html#a840e519ca781888cbd54181572ebe3a7", null ],
+    [ "Client", "d1/d37/classClient.html#a62ec00483394e1de13111094b221921d", null ],
     [ "describe", "d1/d37/classClient.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d1/d37/classClient.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "m_unwind", "d1/d37/classClient.html#ae355958a385e61face4d5c090fd1b4ec", null ],
+    [ "STATIC_METHOD", "d1/d37/classClient.html#a348fa10d11efdf527c16c2c6e1a018f1", null ],
+    [ "STATIC_METHOD", "d1/d37/classClient.html#acae2b38889ee923ef5cab012e05aaac5", null ],
     [ "clientcolors", "d1/d37/classClient.html#a65f9df4b1ebe7629080c7fc3f7edf81d", null ],
     [ "colormap", "d1/d37/classClient.html#a5706b0334f1257f47411b95fd40e8a5f", null ],
     [ "crypto_encryptmethod", "d1/d37/classClient.html#a2dae84a754cf7b77999839bf5891ca42", null ],
@@ -12,7 +16,6 @@ var classClient =
     [ "crypto_keyfp", "d1/d37/classClient.html#a245f8bb48c3369a423dd2ea0888b3425", null ],
     [ "crypto_mykeyfp", "d1/d37/classClient.html#ac6c6f32b6e07367a5047f71c36b0dbec", null ],
     [ "crypto_signmethod", "d1/d37/classClient.html#acfba4844d0d0cb5ed2c07f876f2b9647", null ],
-    [ "flags", "d1/d37/classClient.html#a563bb967d2fb7ce778ee3bc9da6fab3c", null ],
     [ "netaddress", "d1/d37/classClient.html#ac7d2f552e4ce0768198744f31d7deb25", null ],
     [ "netname", "d1/d37/classClient.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012", null ],
     [ "playerid", "d1/d37/classClient.html#a132b9bf3e3c1bcf422f36fa89ddd8e9b", null ],

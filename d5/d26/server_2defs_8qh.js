@@ -147,7 +147,7 @@ var server_2defs_8qh =
     [ "item_pickupsound_ent", "d5/d26/server_2defs_8qh.html#a11bce15c86a53867b5bbce09363048b2", null ],
     [ "item_spawnshieldtime", "d5/d26/server_2defs_8qh.html#abed5a4333a92b743908138f32d45b720", null ],
     [ "jointime", "d5/d26/server_2defs_8qh.html#a90ecbc11824e99dab4a925f22e38d0c5", null ],
-    [ "just_joined", "d5/d26/server_2defs_8qh.html#ab27a477314bddef13f2eb0e883f08908", null ],
+    [ "just_joined", "d5/d26/server_2defs_8qh.html#a66417efa3cbc9bf4992fd06cfa8f5203", null ],
     [ "killcount", "d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003", null ],
     [ "killer_origin", "d5/d26/server_2defs_8qh.html#aaf6a1390ff1690e6bc1aa7d336fde3b9", null ],
     [ "killindicator", "d5/d26/server_2defs_8qh.html#a59f3bedf42216e820a4817519548bd90", null ],

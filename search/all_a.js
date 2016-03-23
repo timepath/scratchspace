@@ -4,7 +4,7 @@ var searchData=
   ['jetpack_5fstopped',['jetpack_stopped',['../dc/ddd/player_8qc.html#a2f3a3ba2412265530e7b03b6b29ab4ea',1,'player.qc']]],
   ['join_5fclick',['Join_Click',['../dc/db5/dialog__multiplayer__join__serverinfo_8qc.html#a56ee037407a7ee76f8ba10b509d09177',1,'Join_Click(entity btn, entity me):&#160;dialog_multiplayer_join_serverinfo.qc'],['../d1/d33/dialog__multiplayer__join__serverinfo_8qh.html#a56ee037407a7ee76f8ba10b509d09177',1,'Join_Click(entity btn, entity me):&#160;dialog_multiplayer_join_serverinfo.qc']]],
   ['join_5fminigame',['join_minigame',['../d7/d33/sv__minigames_8qc.html#a94a8da7936949035982110ab04a468d4',1,'join_minigame(entity player, string game_id):&#160;sv_minigames.qc'],['../d3/df9/sv__minigames_8qh.html#a94a8da7936949035982110ab04a468d4',1,'join_minigame(entity player, string game_id):&#160;sv_minigames.qc']]],
-  ['joinbestteam',['JoinBestTeam',['../de/d4f/teamplay_8qc.html#a2679054458119c910459783c6ddb22fb',1,'JoinBestTeam(entity pl, float only_return_best, float forcebestteam):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a2679054458119c910459783c6ddb22fb',1,'JoinBestTeam(entity pl, float only_return_best, float forcebestteam):&#160;teamplay.qc']]],
+  ['joinbestteam',['JoinBestTeam',['../de/d4f/teamplay_8qc.html#a2bf80d8d4c0ef914da18c00f4ce3cc55',1,'JoinBestTeam(entity pl, bool only_return_best, bool forcebestteam):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a2bf80d8d4c0ef914da18c00f4ce3cc55',1,'JoinBestTeam(entity pl, bool only_return_best, bool forcebestteam):&#160;teamplay.qc']]],
   ['jointime',['jointime',['../d5/d26/server_2defs_8qh.html#a90ecbc11824e99dab4a925f22e38d0c5',1,'defs.qh']]],
   ['jointtype',['jointtype',['../de/d5e/dpextensions_8qc.html#a8eac69eb249fc212140e892255053e89',1,'dpextensions.qc']]],
   ['jointtype_5ffixed',['JOINTTYPE_FIXED',['../de/d5e/dpextensions_8qc.html#a1703cc0064b99e080ee84893aca2fb1d',1,'dpextensions.qc']]],
@@ -19,5 +19,5 @@ var searchData=
   ['jumppads_2eqh',['jumppads.qh',['../d9/de7/jumppads_8qh.html',1,'']]],
   ['jumppadsused',['jumppadsused',['../d9/de7/jumppads_8qh.html#a670dbbce52ae308428b66fd8c8813714',1,'jumppads.qh']]],
   ['jumpstepheightvec',['jumpstepheightvec',['../df/dd4/navigation_8qh.html#a75221be7d8873635bc580f7f8bec5d40',1,'navigation.qh']]],
-  ['just_5fjoined',['just_joined',['../d5/d26/server_2defs_8qh.html#ab27a477314bddef13f2eb0e883f08908',1,'defs.qh']]]
+  ['just_5fjoined',['just_joined',['../d5/d26/server_2defs_8qh.html#a66417efa3cbc9bf4992fd06cfa8f5203',1,'defs.qh']]]
 ];

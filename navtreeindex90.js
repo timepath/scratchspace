@@ -1,5 +1,17 @@
 var NAVTREEINDEX90 =
 {
+"db/db4/classTextSlider.html#a410bd8073e04005466f95ec4936a3328":[1,0,109,87],
+"db/db4/classTextSlider.html#a4507944a16d2de8fd3aff6bf8767f1e4":[1,0,109,85],
+"db/db4/classTextSlider.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,109,18],
+"db/db4/classTextSlider.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,109,71],
+"db/db4/classTextSlider.html#a4e7cbd246f6764a75dc6408bae7bb571":[1,0,109,80],
+"db/db4/classTextSlider.html#a4f21f48b350dbede0ff84f7ecec1b17f":[1,0,109,81],
+"db/db4/classTextSlider.html#a5443afd02f77fd76625a075a627901ff":[1,0,109,39],
+"db/db4/classTextSlider.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,109,49],
+"db/db4/classTextSlider.html#a5e35bf30440b529b5cbe9752bf19bf95":[1,0,109,45],
+"db/db4/classTextSlider.html#a5eb816d08bd102111b268f794d42d695":[1,0,109,42],
+"db/db4/classTextSlider.html#a619c227dc197d4fb4aad3643adf264a4":[1,0,109,29],
+"db/db4/classTextSlider.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,109,36],
 "db/db4/classTextSlider.html#a694b7bae9c3b1c4ac503e040aad68f07":[1,0,109,41],
 "db/db4/classTextSlider.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,109,6],
 "db/db4/classTextSlider.html#a77664aa80ac34cfbe2a080f4eeb00fa5":[1,0,109,70],
@@ -237,17 +249,5 @@ var NAVTREEINDEX90 =
 "db/dc4/classXonoticRadioButton.html#aff20d1ead9e7a482eca46d913e6986a1":[1,0,202,87],
 "db/dc4/movelib_8qh.html":[2,0,1,11,3],
 "db/dc4/movelib_8qh.html#a23af27fa0deef78f490b6b0479ce2fbb":[2,0,1,11,3,1],
-"db/dc4/movelib_8qh.html#a3ed9e2ed355dfb1ad6c4aa5e9d608726":[2,0,1,11,3,0],
-"db/dc4/movelib_8qh_source.html":[2,0,1,11,3],
-"db/dc5/waypointsprites_8qc.html":[2,0,1,9,0,31,3],
-"db/dc5/waypointsprites_8qc_source.html":[2,0,1,9,0,31,3],
-"db/dc8/cl__controlpoint_8qc.html":[2,0,1,3,0,1,0],
-"db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828":[2,0,1,3,0,1,0,15],
-"db/dc8/cl__controlpoint_8qc.html#a166d83216aec800e561b87dbdb863acc":[2,0,1,3,0,1,0,8],
-"db/dc8/cl__controlpoint_8qc.html#a3857616fe924e0ad2e724aa167950651":[2,0,1,3,0,1,0,17],
-"db/dc8/cl__controlpoint_8qc.html#a5d693a185ebf0d60bc29f5ad0cda526a":[2,0,1,3,0,1,0,16],
-"db/dc8/cl__controlpoint_8qc.html#a608237ac61b914079eaa29b74ba470ef":[2,0,1,3,0,1,0,3],
-"db/dc8/cl__controlpoint_8qc.html#a624e1c87dc3d056c489b4ac441de3631":[2,0,1,3,0,1,0,4],
-"db/dc8/cl__controlpoint_8qc.html#a89f3cd3806dbdfa37c7572e620839f68":[2,0,1,3,0,1,0,10],
-"db/dc8/cl__controlpoint_8qc.html#a9143da4321217dea8a47157a0657cf34":[2,0,1,3,0,1,0,13]
+"db/dc4/movelib_8qh.html#a3ed9e2ed355dfb1ad6c4aa5e9d608726":[2,0,1,11,3,0]
 };

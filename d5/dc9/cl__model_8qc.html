@@ -1144,14 +1144,14 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keywordtype">int</span> sf = ReadInt24_t();</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="comment">// some nice flags for CSQCMODEL_IF and the hooks</span></div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keywordtype">bool</span> isplayer = (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a> &gt;= 1 &amp;&amp; this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a> &lt;= <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a>);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keywordtype">bool</span> isplayer = ReadByte() || (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a> &gt;= 1 &amp;&amp; this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a> &lt;= <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a>);</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">if</span> (isnew &amp;&amp; isplayer)</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    {</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <a class="code" href="../../d5/dc9/cl__model_8qc.html#abd20ed8038187b3c7feeada4aeef1d04">CSQCModel_players</a>[this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a> - 1] = <span class="keyword">this</span>;</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        this.entremove = <a class="code" href="../../d5/dc9/cl__model_8qc.html#aaa2952f350663b67b1a3037f092f0a49">CSQCModel_remove</a>;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    }</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordtype">bool</span> islocalplayer = (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a> == <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a58ed33525b1e1a9e60f989f03f488503">player_localnum</a> + 1);</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    noref <span class="keywordtype">bool</span> isnolocalplayer = (isplayer &amp;&amp; (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a> != <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a58ed33525b1e1a9e60f989f03f488503">player_localnum</a> + 1));</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    noref <span class="keywordtype">bool</span> isnolocalplayer = (isplayer &amp;&amp; !islocalplayer);</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;csqcmodel&quot;</span>;</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    this.<a class="code" href="../../d8/da6/interpolate_8qh.html#af7b5d3033d38549c00ab5e033e858911">iflags</a> |= <a class="code" href="../../d8/da6/interpolate_8qh.html#ae61d5041b2b2817da9b5fdb91777460d">IFLAG_ORIGIN</a>; <span class="comment">// interpolate origin too</span></div>
@@ -1386,7 +1386,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_d5fd5ebb74d9aac6232b0b4eda80dfde.html">csqcmodel</a></li><li class="navelem"><a class="el" href="../../d5/dc9/cl__model_8qc.html">cl_model.qc</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 05:41:16 for Xonotic by
+    <li class="footer">Generated on Wed Mar 23 2016 11:34:39 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

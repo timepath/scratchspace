@@ -128,9 +128,14 @@ $(document).ready(function(){initNavTree('d8/dc0/progsdefs_8qh_source.html','../
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#undef spawn</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#undef setmodel</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#pragma noref 0</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c">   24</a></span>&#160;<span class="preprocessor">#define stuffcmd(cl, ...) MACRO_BEGIN \</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">    entity _cl = (cl); \</span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">    if (IS_REAL_CLIENT(_cl)) stuffcmd(_cl, __VA_ARGS__); \</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">MACRO_END</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#pragma noref 0</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="progsdefs_8qc_html"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html">progsdefs.qc</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -138,7 +143,7 @@ $(document).ready(function(){initNavTree('d8/dc0/progsdefs_8qh_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_a77f89152a49fe1990f2349c1e5608af.html">dpdefs</a></li><li class="navelem"><a class="el" href="../../d8/dc0/progsdefs_8qh.html">progsdefs.qh</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 05:41:10 for Xonotic by
+    <li class="footer">Generated on Wed Mar 23 2016 11:34:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

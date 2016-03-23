@@ -1,5 +1,11 @@
 var NAVTREEINDEX43 =
 {
+"d5/d73/classXonoticEffectsSettingsTab.html#adc838af8e1b143a27fa29fac528eaac7":[1,0,146,77],
+"d5/d73/classXonoticEffectsSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,146,20],
+"d5/d73/classXonoticEffectsSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,146,51],
+"d5/d73/classXonoticEffectsSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,146,87],
+"d5/d73/classXonoticEffectsSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,146,59],
+"d5/d73/classXonoticEffectsSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,146,16],
 "d5/d73/classXonoticEffectsSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,146,48],
 "d5/d73/classXonoticEffectsSettingsTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,146,28],
 "d5/d73/classXonoticEffectsSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,146,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX43 =
 "d5/db0/teleport_8qc_source.html":[2,0,1,13,3,29],
 "d5/db2/dialog__hudpanel__notification_8qc.html":[2,0,4,4,58],
 "d5/db2/dialog__hudpanel__notification_8qc.html#ab31627f8b7c7a82a9d458011f2184631":[2,0,4,4,58,0],
-"d5/db2/dialog__hudpanel__notification_8qc_source.html":[2,0,4,4,58],
-"d5/dc3/t__halflife_8qc.html":[2,0,5,64],
-"d5/dc3/t__halflife_8qc.html#a0fc7890c64f67efed2d83078a65cc505":[2,0,5,64,9],
-"d5/dc3/t__halflife_8qc.html#a282e7d4378d4a18a805b8980295ac86c":[2,0,5,64,26],
-"d5/dc3/t__halflife_8qc.html#a2fe129f134846d666da47def0db84922":[2,0,5,64,29],
-"d5/dc3/t__halflife_8qc.html#a354b915c484ab7393323f83590e8545e":[2,0,5,64,31],
-"d5/dc3/t__halflife_8qc.html#a4327a2f350f8a86f83c7e350f98ad835":[2,0,5,64,18]
+"d5/db2/dialog__hudpanel__notification_8qc_source.html":[2,0,4,4,58]
 };

@@ -71,5 +71,7 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "t_quake3.qc", "d1/d91/t__quake3_8qc.html", "d1/d91/t__quake3_8qc" ],
     [ "t_quake3.qh", "d8/d94/t__quake3_8qh.html", null ],
     [ "teamplay.qc", "de/d4f/teamplay_8qc.html", "de/d4f/teamplay_8qc" ],
-    [ "teamplay.qh", "d2/d76/teamplay_8qh.html", "d2/d76/teamplay_8qh" ]
+    [ "teamplay.qh", "d2/d76/teamplay_8qh.html", "d2/d76/teamplay_8qh" ],
+    [ "tests.qc", "dd/dde/tests_8qc.html", "dd/dde/tests_8qc" ],
+    [ "tests.qh", "df/d7d/tests_8qh.html", null ]
 ];

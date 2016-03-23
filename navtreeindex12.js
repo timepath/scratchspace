@@ -1,5 +1,9 @@
 var NAVTREEINDEX12 =
 {
+"d1/dba/server_2weapons_2common_8qh.html#a15163fb722de405cc2764efd498bc2ee":[2,0,5,4,3,2],
+"d1/dba/server_2weapons_2common_8qh.html#a9abfcf8db294b32dc5a79c959e063f07":[2,0,5,4,3,3],
+"d1/dba/server_2weapons_2common_8qh.html#aa32ee577201a563600a7666b730104d8":[2,0,5,4,3,5],
+"d1/dba/server_2weapons_2common_8qh.html#ab5df352ada1ad850a3d504fdc704c49f":[2,0,5,4,3,1],
 "d1/dba/server_2weapons_2common_8qh.html#abdb95a527623dfa15b93ce4c4df829f5":[2,0,5,4,3,4],
 "d1/dba/server_2weapons_2common_8qh_source.html":[2,0,5,4,3],
 "d1/dbf/xonotic_2inputbox_8qc.html":[2,0,4,4,166],
@@ -245,9 +249,5 @@ var NAVTREEINDEX12 =
 "d1/df8/mlrs__weapon_8qc.html":[2,0,1,14,0,12],
 "d1/df8/mlrs__weapon_8qc.html#a9f57be2b329ae4ca70fa62f39d713f01":[2,0,1,14,0,12,1],
 "d1/df8/mlrs__weapon_8qc.html#af9b071956bbf39470526c535695f01e5":[2,0,1,14,0,12,2],
-"d1/df8/mlrs__weapon_8qc_source.html":[2,0,1,14,0,12],
-"d1/dff/snake_8qc.html":[2,0,1,6,0,7],
-"d1/dff/snake_8qc.html#a0562258e226f79ca307ba9236e464524":[2,0,1,6,0,7,39],
-"d1/dff/snake_8qc.html#a0b4e4bc9eecc32a8bf84e7cb95d38639":[2,0,1,6,0,7,36],
-"d1/dff/snake_8qc.html#a1521368f675e9c1978cad74b0b3d9f46":[2,0,1,6,0,7,6]
+"d1/df8/mlrs__weapon_8qc_source.html":[2,0,1,14,0,12]
 };

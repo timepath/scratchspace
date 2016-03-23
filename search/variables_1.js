@@ -892,6 +892,7 @@ var searchData=
   ['autocvar_5fg_5fspawn_5fuseallspawns',['autocvar_g_spawn_useallspawns',['../d7/da7/server_2autocvars_8qh.html#a45cd7f59eed317239d722e0b4c86f6b4',1,'autocvars.qh']]],
   ['autocvar_5fg_5fspawnpoints_5fauto_5fmove_5fout_5fof_5fsolid',['autocvar_g_spawnpoints_auto_move_out_of_solid',['../d7/da7/server_2autocvars_8qh.html#a4b662e77af745643d7d12a3208b4f4b7',1,'autocvars.qh']]],
   ['autocvar_5fg_5fspawnshield_5fblockdamage',['autocvar_g_spawnshield_blockdamage',['../d7/da7/server_2autocvars_8qh.html#a7f6e48380857b2cf598a5094ed3e946d',1,'autocvars.qh']]],
+  ['autocvar_5fg_5fspawnshieldtime',['autocvar_g_spawnshieldtime',['../d7/da7/server_2autocvars_8qh.html#a9c75c33e6bcb86752d3c5c504b8de865',1,'autocvars.qh']]],
   ['autocvar_5fg_5ftdm_5fpoint_5fleadlimit',['autocvar_g_tdm_point_leadlimit',['../d2/d0c/gamemode__tdm_8qc.html#a1bc3d79be87a962cf8e3f128f1d2d680',1,'gamemode_tdm.qc']]],
   ['autocvar_5fg_5ftdm_5fpoint_5flimit',['autocvar_g_tdm_point_limit',['../d2/d0c/gamemode__tdm_8qc.html#a11e21a31b2f69dd95efd4f0e941bd2a7',1,'gamemode_tdm.qc']]],
   ['autocvar_5fg_5ftdm_5fteam_5fspawns',['autocvar_g_tdm_team_spawns',['../d2/d0c/gamemode__tdm_8qc.html#ac875d6bba29f555a5022820600de6417',1,'gamemode_tdm.qc']]],

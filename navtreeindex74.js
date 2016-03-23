@@ -1,5 +1,12 @@
 var NAVTREEINDEX74 =
 {
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,160,29],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,160,3],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,160,79],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,160,77],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,160,37],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,160,15],
+"d9/d85/classXonoticHUDEngineInfoDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,160,6],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,160,67],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,160,58],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,160,63],
@@ -242,12 +249,5 @@ var NAVTREEINDEX74 =
 "d9/db3/classXonoticGameModelSettingsTab.html#ab21a58770827f957dad2264bbfe744eb":[1,0,151,77],
 "d9/db3/classXonoticGameModelSettingsTab.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,151,25],
 "d9/db3/classXonoticGameModelSettingsTab.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,151,71],
-"d9/db3/classXonoticGameModelSettingsTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,151,33],
-"d9/db3/classXonoticGameModelSettingsTab.html#ac585f4f082ba25f5afde74ec79f6d1ae":[1,0,151,79],
-"d9/db3/classXonoticGameModelSettingsTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,151,0],
-"d9/db3/classXonoticGameModelSettingsTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,151,22],
-"d9/db3/classXonoticGameModelSettingsTab.html#acd71a9e5c09c58cc5ee1be2a380d7991":[1,0,151,13],
-"d9/db3/classXonoticGameModelSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,151,27],
-"d9/db3/classXonoticGameModelSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,151,80],
-"d9/db3/classXonoticGameModelSettingsTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,151,40]
+"d9/db3/classXonoticGameModelSettingsTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,151,33]
 };
