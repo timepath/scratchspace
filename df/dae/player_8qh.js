@@ -73,7 +73,7 @@ var player_8qh =
     [ "UPWARD_VELOCITY_CLEARS_ONGROUND", "df/dae/player_8qh.html#a963bb51205295edf8b6f4adc0deecff9", null ],
     [ "WAS_ONGROUND", "df/dae/player_8qh.html#a5a11a9aa52f228414844fc60042af295", null ],
     [ "AdjustAirAccelQW", "df/dae/player_8qh.html#ab81c95b0e30aff82122c0e5688564397", null ],
-    [ "float", "df/dae/player_8qh.html#ac28a50e0a6f15240f2c60e10eb89ad4b", null ],
+    [ "float", "df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf", null ],
     [ "IsFlying", "df/dae/player_8qh.html#a40c67f235c369a3d7a4d77832bbd72e2", null ],
     [ "buttons_old", "df/dae/player_8qh.html#aeb860272089ca58c254feaccffc494c8", null ],
     [ "conveyor", "df/dae/player_8qh.html#aea182bf63f444cfd93df2b6a193525e7", null ],

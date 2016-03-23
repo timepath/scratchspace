@@ -200,8 +200,8 @@ $(document).ready(function(){initNavTree('d1/dae/sv__vehicles_8qh_source.html','
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="keywordtype">float</span> vehicles_exit_running;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="comment">// macros</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#define VEHICLE_UPDATE_PLAYER(ply,fld,vhname) \</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">    ply.vehicle_##fld = (self.vehicle_##fld / autocvar_g_vehicle_##vhname##_##fld) * 100</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#define VEHICLE_UPDATE_PLAYER(ply,vehi,fld,vhname) \</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">    ply.vehicle_##fld = (vehi.vehicle_##fld / autocvar_g_vehicle_##vhname##_##fld) * 100</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;.float vehicle_enter_delay; <span class="comment">// prevent players jumping to and from vehicles instantly</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
@@ -231,7 +231,7 @@ $(document).ready(function(){initNavTree('d1/dae/sv__vehicles_8qh_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_041ec6f984a6b19402431933346033dd.html">vehicles</a></li><li class="navelem"><a class="el" href="../../d1/dae/sv__vehicles_8qh.html">sv_vehicles.qh</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 11:34:33 for Xonotic by
+    <li class="footer">Generated on Wed Mar 23 2016 18:07:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

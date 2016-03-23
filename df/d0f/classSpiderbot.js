@@ -1,8 +1,8 @@
 var classSpiderbot =
 [
+    [ "bool", "df/d0f/classSpiderbot.html#a8b4907c9dabea91e3148878459bce9e5", null ],
     [ "describe", "df/d0f/classSpiderbot.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "df/d0f/classSpiderbot.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
-    [ "int", "df/d0f/classSpiderbot.html#a5451167dc2f7cfc86aa543396d1fc1c0", null ],
     [ "vr_crosshair", "df/d0f/classSpiderbot.html#a58f0c04e5979c92f1d5329627cbf1331", null ],
     [ "vr_death", "df/d0f/classSpiderbot.html#ad29884a3f395ad9d49c4eceab06a2957", null ],
     [ "vr_enter", "df/d0f/classSpiderbot.html#ab0033bb43b823ae364fcaa9f6d73c520", null ],
