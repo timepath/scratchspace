@@ -131,6 +131,8 @@ $(document).ready(function(){initNavTree('dd/dde/tests_8qc.html','../../');});
 Functions</h2></td></tr>
 <tr class="memitem:a01685869b6a0539a644769c801712d79"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dde/tests_8qc.html#a01685869b6a0539a644769c801712d79">TEST</a> (Weapons, Hurt)</td></tr>
 <tr class="separator:a01685869b6a0539a644769c801712d79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b2bc7608f2d6399131958faf762edd2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dde/tests_8qc.html#a5b2bc7608f2d6399131958faf762edd2">TEST</a> (Vehicles, Spawn)</td></tr>
+<tr class="separator:a5b2bc7608f2d6399131958faf762edd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac85fc290de35848a50c9ace71f3431bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dde/tests_8qc.html#ac85fc290de35848a50c9ace71f3431bf">test_weapons_hurt</a> ()</td></tr>
 <tr class="separator:ac85fc290de35848a50c9ace71f3431bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -165,12 +167,12 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <a class="code" href="../../d1/d37/classClient.html">Client</a> a = it = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../d1/d37/classClient.html">Client</a>, <span class="stringliteral">&quot;A&quot;</span>);</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    noref <a class="code" href="../../d1/d37/classClient.html">Client</a> a = it = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../d1/d37/classClient.html">Client</a>, <span class="stringliteral">&quot;A&quot;</span>);</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">WITH</a>(<span class="keywordtype">float</span>, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a9c75c33e6bcb86752d3c5c504b8de865">autocvar_g_spawnshieldtime</a>, 0, Client_Add(it, <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>));</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    it.origin = <span class="stringliteral">&#39;-100 0 0&#39;</span>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    it.angles = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d1/d37/classClient.html">Client</a> b = it = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../d1/d37/classClient.html">Client</a>, <span class="stringliteral">&quot;B&quot;</span>);</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    noref <a class="code" href="../../d1/d37/classClient.html">Client</a> b = it = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../d1/d37/classClient.html">Client</a>, <span class="stringliteral">&quot;B&quot;</span>);</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">WITH</a>(<span class="keywordtype">float</span>, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a9c75c33e6bcb86752d3c5c504b8de865">autocvar_g_spawnshieldtime</a>, 0, Client_Add(it, <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>));</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    it.origin = <span class="stringliteral">&#39;100 0 0&#39;</span>;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    it.angles = <span class="stringliteral">&#39;0 180 0&#39;</span>;</div>
@@ -220,6 +222,71 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5b2bc7608f2d6399131958faf762edd2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">TEST </td>
+          <td>(</td>
+          <td class="paramtype">Vehicles&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Spawn&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dd/dde/tests_8qc_source.html#l00040">40</a> of file <a class="el" href="../../dd/dde/tests_8qc_source.html">tests.qc</a>.</p>
+
+<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00388">ACTIVE_NOT</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00113">NEW</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00017">NUM_TEAM_1</a>, <a class="el" href="../../d4/d5b/test_8qh_source.html#l00015">SUCCEED</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00023">vehicle</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01178">vehicle_initialize()</a>, and <a class="el" href="../../d7/d61/misc_8qh_source.html#l00040">WITH</a>.</p>
+<div class="fragment"><div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    noref <a class="code" href="../../d1/d37/classClient.html">Client</a> bot = it = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../d1/d37/classClient.html">Client</a>, <span class="stringliteral">&quot;Rider&quot;</span>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    Client_Add(it, <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    it.origin = <span class="stringliteral">&#39;0 0 100&#39;</span>;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    noref <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> v = it = <span class="keyword">new</span>(<a class="code" href="../../d7/d44/cl__impulse_8qc.html#a766a58a103676d6a17b6ccfb904a6f24">vehicle</a>);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    <a class="code" href="../../dc/d23/classVehicle.html">Vehicle</a> veh = VEH_BUMBLEBEE;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    it.active = <a class="code" href="../../d5/d26/server_2defs_8qh.html#a1ade898cffde5153fae1c20cc3b43cdd">ACTIVE_NOT</a>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <a class="code" href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">WITH</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, <span class="keyword">self</span>, it, <a class="code" href="../../da/d10/sv__vehicles_8qc.html#a68f7b9a3ce212875093fabcae7b4113a">vehicle_initialize</a>(veh, <span class="keyword">false</span>); it.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>);</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../d4/d5b/test_8qh.html#a75adcdf89f69b0b615e395daafc315af">SUCCEED</a>();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;}</div>
+<div class="ttc" id="classVehicle_html"><div class="ttname"><a href="../../dc/d23/classVehicle.html">Vehicle</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d4b/vehicle_8qh_source.html#l00004">vehicle.qh:4</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_a1ade898cffde5153fae1c20cc3b43cdd"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a1ade898cffde5153fae1c20cc3b43cdd">ACTIVE_NOT</a></div><div class="ttdeci">const float ACTIVE_NOT</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00388">defs.qh:388</a></div></div>
+<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00113">oo.qh:113</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="sv__vehicles_8qc_html_a68f7b9a3ce212875093fabcae7b4113a"><div class="ttname"><a href="../../da/d10/sv__vehicles_8qc.html#a68f7b9a3ce212875093fabcae7b4113a">vehicle_initialize</a></div><div class="ttdeci">bool vehicle_initialize(entity veh, bool nodrop)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/sv__vehicles_8qc_source.html#l01178">sv_vehicles.qc:1178</a></div></div>
+<div class="ttc" id="test_8qh_html_a75adcdf89f69b0b615e395daafc315af"><div class="ttname"><a href="../../d4/d5b/test_8qh.html#a75adcdf89f69b0b615e395daafc315af">SUCCEED</a></div><div class="ttdeci">#define SUCCEED()</div><div class="ttdoc">Must be present at the end of a test. </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d5b/test_8qh_source.html#l00015">test.qh:15</a></div></div>
+<div class="ttc" id="classClient_html"><div class="ttname"><a href="../../d1/d37/classClient.html">Client</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d30/cl__client_8qh_source.html#l00005">cl_client.qh:5</a></div></div>
+<div class="ttc" id="misc_8qh_html_ae1f2076e3a804bc1a783b66b9621a3ee"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">WITH</a></div><div class="ttdeci">#define WITH(type, name, value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00040">misc.qh:40</a></div></div>
+<div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00017">teams.qh:17</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
+<div class="ttc" id="cl__impulse_8qc_html_a766a58a103676d6a17b6ccfb904a6f24"><div class="ttname"><a href="../../d7/d44/cl__impulse_8qc.html#a766a58a103676d6a17b6ccfb904a6f24">vehicle</a></div><div class="ttdeci">entity vehicle</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d44/cl__impulse_8qc_source.html#l00023">cl_impulse.qc:23</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dd/dde/tests_8qc_a5b2bc7608f2d6399131958faf762edd2_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="ac85fc290de35848a50c9ace71f3431bf"></a>
 <div class="memitem">
 <div class="memproto">
@@ -249,11 +316,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="test_8qh_html_a6ae7443947f25abc58bfcfcfc56b0d75"><div class="ttname"><a href="../../d4/d5b/test_8qh.html#a6ae7443947f25abc58bfcfcfc56b0d75">EXPECT_NE</a></div><div class="ttdeci">#define EXPECT_NE(val1, val2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d5b/test_8qh_source.html#l00049">test.qh:49</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9bdd141f634714eab30642bf42f63862"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a></div><div class="ttdeci">entity enemy</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00127">csprogsdefs.qc:127</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/dde/tests_8qc_ac85fc290de35848a50c9ace71f3431bf_icgraph.svg" width="248" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -267,7 +334,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dd/dde/tests_8qc.html">tests.qc</a></li>
-    <li class="footer">Generated on Thu Mar 24 2016 00:16:39 for Xonotic by
+    <li class="footer">Generated on Thu Mar 24 2016 01:09:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

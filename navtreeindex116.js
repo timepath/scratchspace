@@ -1,5 +1,6 @@
 var NAVTREEINDEX116 =
 {
+"df/d38/mathlib_8qc.html#a368fab4964efe1287d1cdc33ad339c6c":[2,0,3,1,7,45],
 "df/d38/mathlib_8qc.html#a37105d1bf9bfe3d740f678512919e1b5":[2,0,3,1,7,49],
 "df/d38/mathlib_8qc.html#a44b0ea5e419670a7106eed20ff311cd1":[2,0,3,1,7,41],
 "df/d38/mathlib_8qc.html#a4b66818c1ca439713053dd5cace18ce3":[2,0,3,1,7,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX116 =
 "df/d71/announcer_8qh_source.html":[2,0,0,7],
 "df/d71/walker__weapon_8qc.html":[2,0,1,14,0,31],
 "df/d71/walker__weapon_8qc_source.html":[2,0,1,14,0,31],
-"df/d75/keybinder_8qc.html":[2,0,4,4,169],
-"df/d75/keybinder_8qc.html#a07b1c813a45195e732bdbb97ef390c78":[2,0,4,4,169,5]
+"df/d75/keybinder_8qc.html":[2,0,4,4,169]
 };

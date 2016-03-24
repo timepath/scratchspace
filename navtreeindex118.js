@@ -1,5 +1,6 @@
 var NAVTREEINDEX118 =
 {
+"df/d9a/mutators_2mutator_2rocketflying_2module_8inc_source.html":[2,0,1,9,0,22,1],
 "df/d9b/menu_2xonotic_2util_8qc.html":[2,0,4,4,225],
 "df/d9b/menu_2xonotic_2util_8qc.html#a0330bf9cca143c45e0acdf50026babbf":[2,0,4,4,225,34],
 "df/d9b/menu_2xonotic_2util_8qc.html#a06840fb84f6c9ecdd5a8a28ec98f9bf7":[2,0,4,4,225,61],
@@ -248,6 +249,5 @@ var NAVTREEINDEX118 =
 "df/db9/client_2commands_2all_8qc_source.html":[2,0,0,0,1],
 "df/db9/multivibrator_8qc.html":[2,0,1,13,3,21],
 "df/db9/multivibrator_8qc_source.html":[2,0,1,13,3,21],
-"df/dbd/dialog__settings__game__crosshair_8qc.html":[2,0,4,4,125],
-"df/dbd/dialog__settings__game__crosshair_8qc.html#a4f706d7ce46862c87a014b6423a463f3":[2,0,4,4,125,0]
+"df/dbd/dialog__settings__game__crosshair_8qc.html":[2,0,4,4,125]
 };
