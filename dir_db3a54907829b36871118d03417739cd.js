@@ -31,7 +31,7 @@ var dir_db3a54907829b36871118d03417739cd =
     [ "teamradar.qc", "de/dc3/teamradar_8qc.html", "de/dc3/teamradar_8qc" ],
     [ "teamradar.qh", "d0/d84/teamradar_8qh.html", "d0/d84/teamradar_8qh" ],
     [ "view.qc", "d6/dd3/view_8qc.html", "d6/dd3/view_8qc" ],
-    [ "view.qh", "d5/d8c/view_8qh.html", null ],
+    [ "view.qh", "d5/d8c/view_8qh.html", "d5/d8c/view_8qh" ],
     [ "wall.qc", "d1/d8d/wall_8qc.html", "d1/d8d/wall_8qc" ],
     [ "wall.qh", "d4/db7/wall_8qh.html", "d4/db7/wall_8qh" ]
 ];

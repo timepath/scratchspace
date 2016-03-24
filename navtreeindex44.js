@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"d5/d99/classVaporizer.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,112,6],
 "d5/d99/classVaporizer.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,112,0],
 "d5/d99/classVaporizer.html#a7095462abbfa455e3adaed21dd639fa1":[1,0,112,25],
 "d5/d99/classVaporizer.html#a7acecf71fe5accb2cc9d3098c0db7d91":[1,0,112,35],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "d5/df2/common_2util_8qh.html#a02249ff9558ce1bd9dbeedb8ded9612f":[2,0,1,44,115],
 "d5/df2/common_2util_8qh.html#a0304bd2b494c1405dc2a4971dcbc480c":[2,0,1,44,38],
 "d5/df2/common_2util_8qh.html#a033f8b5786442ed20625b8ea3f27f8b6":[2,0,1,44,30],
-"d5/df2/common_2util_8qh.html#a041755b4c9197bc68894879f12a3b400":[2,0,1,44,61],
-"d5/df2/common_2util_8qh.html#a07522416f082b9750e89c4adfc7c290a":[2,0,1,44,135]
+"d5/df2/common_2util_8qh.html#a041755b4c9197bc68894879f12a3b400":[2,0,1,44,61]
 };

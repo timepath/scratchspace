@@ -124,6 +124,7 @@ var client_2autocvars_8qh =
     [ "autocvar_cl_unpress_zoom_on_spawn", "d7/db4/client_2autocvars_8qh.html#a75ba9907dc0eca567ce24540ae3d7071", null ],
     [ "autocvar_cl_unpress_zoom_on_weapon_switch", "d7/db4/client_2autocvars_8qh.html#a46351a2a4b79333c6292ee2caebc5ff5", null ],
     [ "autocvar_cl_vehicles_alarm", "d7/db4/client_2autocvars_8qh.html#a62b12e723cc01ee6ab16c1be69e77f94", null ],
+    [ "autocvar_cl_vehicles_crosshair_colorize", "d7/db4/client_2autocvars_8qh.html#a806bb251573970381befff03ff7b94ef", null ],
     [ "autocvar_cl_vehicles_crosshair_size", "d7/db4/client_2autocvars_8qh.html#a7916736e10087b6fde73dc9a66892399", null ],
     [ "autocvar_cl_vehicles_hud_tactical", "d7/db4/client_2autocvars_8qh.html#adb97afa8df46437007db80875cb70d1f", null ],
     [ "autocvar_cl_vehicles_hudscale", "d7/db4/client_2autocvars_8qh.html#a6d8cdddf26e69f26394b0f5cc486baeb", null ],

@@ -15,6 +15,7 @@ var view_8qc =
     [ "lowpass3", "d6/dd3/view_8qc.html#a778e7f5f4ca376d4da7597f72ea68bab", null ],
     [ "lowpass_limited", "d6/dd3/view_8qc.html#a0d1d73c1645e4b1d589f544e73caa43f", null ],
     [ "cl_notice_run", "d6/dd3/view_8qc.html#ad5f49ec90c9ceef32b83384adb22926a", null ],
+    [ "crosshair_getcolor", "d6/dd3/view_8qc.html#ae12e2fa9f814f4f88da1d5259fd4721f", null ],
     [ "CSQC_Demo_Camera", "d6/dd3/view_8qc.html#ac0eccd9b13288ed3d95f702c5021088b", null ],
     [ "CSQC_UpdateView", "d6/dd3/view_8qc.html#a81988f477288f983a88861116f948d25", null ],
     [ "EnemyHitCheck", "d6/dd3/view_8qc.html#a2267e78c3964ccff16a7c2135a595efd", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"d7/d13/campaign__common_8qh.html#ae2f904eeb0bb4119ac6be954bf3223d3":[2,0,1,23,2],
+"d7/d13/campaign__common_8qh.html#ae32299137236365469e693921fcbdee2":[2,0,1,23,0],
 "d7/d13/campaign__common_8qh.html#ae805e83ce3bdd9c430ccc1cca77b2981":[2,0,1,23,8],
 "d7/d13/campaign__common_8qh_source.html":[2,0,1,23],
 "d7/d13/classXonoticHUDAmmoDialog.html":[1,0,156],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "d7/d33/sv__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7":[2,0,1,6,8,0],
 "d7/d33/sv__minigames_8qc.html#a3d4ffc3f555b2288a77866c300ba7645":[2,0,1,6,8,7],
 "d7/d33/sv__minigames_8qc.html#a4d095007340d2f63138e93c1705dc92c":[2,0,1,6,8,13],
-"d7/d33/sv__minigames_8qc.html#a4d6b42df9791a27b66f0da64c6ace473":[2,0,1,6,8,15],
-"d7/d33/sv__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,8,1],
-"d7/d33/sv__minigames_8qc.html#a81b2bda65f3a13c794623d028e4cb0c9":[2,0,1,6,8,11]
+"d7/d33/sv__minigames_8qc.html#a4d6b42df9791a27b66f0da64c6ace473":[2,0,1,6,8,15]
 };

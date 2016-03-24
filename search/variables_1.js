@@ -443,6 +443,7 @@ var searchData=
   ['autocvar_5fcl_5funpress_5fzoom_5fon_5fspawn',['autocvar_cl_unpress_zoom_on_spawn',['../d7/db4/client_2autocvars_8qh.html#a75ba9907dc0eca567ce24540ae3d7071',1,'autocvars.qh']]],
   ['autocvar_5fcl_5funpress_5fzoom_5fon_5fweapon_5fswitch',['autocvar_cl_unpress_zoom_on_weapon_switch',['../d7/db4/client_2autocvars_8qh.html#a46351a2a4b79333c6292ee2caebc5ff5',1,'autocvars.qh']]],
   ['autocvar_5fcl_5fvehicles_5falarm',['autocvar_cl_vehicles_alarm',['../d7/db4/client_2autocvars_8qh.html#a62b12e723cc01ee6ab16c1be69e77f94',1,'autocvars.qh']]],
+  ['autocvar_5fcl_5fvehicles_5fcrosshair_5fcolorize',['autocvar_cl_vehicles_crosshair_colorize',['../d7/db4/client_2autocvars_8qh.html#a806bb251573970381befff03ff7b94ef',1,'autocvars.qh']]],
   ['autocvar_5fcl_5fvehicles_5fcrosshair_5fsize',['autocvar_cl_vehicles_crosshair_size',['../d7/db4/client_2autocvars_8qh.html#a7916736e10087b6fde73dc9a66892399',1,'autocvars.qh']]],
   ['autocvar_5fcl_5fvehicles_5fhud_5ftactical',['autocvar_cl_vehicles_hud_tactical',['../d7/db4/client_2autocvars_8qh.html#adb97afa8df46437007db80875cb70d1f',1,'autocvars.qh']]],
   ['autocvar_5fcl_5fvehicles_5fhudscale',['autocvar_cl_vehicles_hudscale',['../d7/db4/client_2autocvars_8qh.html#a6d8cdddf26e69f26394b0f5cc486baeb',1,'autocvars.qh']]],

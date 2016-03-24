@@ -1,5 +1,8 @@
 var NAVTREEINDEX71 =
 {
+"d8/def/classWeaponPickup.html#af91588fdbca7968c03db09f05134cba6":[1,0,119,8],
+"d8/df3/weaponslist_8qc.html":[2,0,4,4,229],
+"d8/df3/weaponslist_8qc.html#a0d08668d269dd800b281886c052f0ae2":[2,0,4,4,229,0],
 "d8/df3/weaponslist_8qc.html#a4295e1a543aa3694e2987c6731c226ad":[2,0,4,4,229,10],
 "d8/df3/weaponslist_8qc.html#a4ad7d5c282f5eae388b914542b58aff9":[2,0,4,4,229,1],
 "d8/df3/weaponslist_8qc.html#a5d74a734b86287eaac6249703bc1553d":[2,0,4,4,229,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX71 =
 "d9/d0b/invincibleproj_8qc.html":[2,0,1,9,0,11,1],
 "d9/d0b/invincibleproj_8qc_source.html":[2,0,1,9,0,11,1],
 "d9/d0d/centerprint_8qh.html":[2,0,0,1,0,4],
-"d9/d0d/centerprint_8qh_source.html":[2,0,0,1,0,4],
-"d9/d0d/common_2weapons_2all_8inc.html":[2,0,1,16,2],
-"d9/d0d/common_2weapons_2all_8inc_source.html":[2,0,1,16,2],
-"d9/d0f/statslist_8qc.html":[2,0,4,4,215]
+"d9/d0d/centerprint_8qh_source.html":[2,0,0,1,0,4]
 };

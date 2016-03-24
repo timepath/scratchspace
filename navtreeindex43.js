@@ -111,6 +111,7 @@ var NAVTREEINDEX43 =
 "d5/d7e/classPlayerState.html#ab4b866d030040b1b6b22598a94b0d9fa":[1,0,82,5],
 "d5/d7e/classPlayerState.html#af470ebdd29ce8a905fb6f4210330da0c":[1,0,82,6],
 "d5/d8c/view_8qh.html":[2,0,0,31],
+"d5/d8c/view_8qh.html#ae12e2fa9f814f4f88da1d5259fd4721f":[2,0,0,31,0],
 "d5/d8c/view_8qh_source.html":[2,0,0,31],
 "d5/d8d/dialog__hudpanel__centerprint_8qc.html":[2,0,4,4,45],
 "d5/d8d/dialog__hudpanel__centerprint_8qc.html#a317ec7741f97dd7c349a91202ee93756":[2,0,4,4,45,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "d5/d99/classVaporizer.html#a4337268c8cad6836bae8efd4a8835070":[1,0,112,19],
 "d5/d99/classVaporizer.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,112,13],
 "d5/d99/classVaporizer.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,112,7],
-"d5/d99/classVaporizer.html#a6cf9614b4d575c2d88dc55fb5b913c60":[1,0,112,21],
-"d5/d99/classVaporizer.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,112,6]
+"d5/d99/classVaporizer.html#a6cf9614b4d575c2d88dc55fb5b913c60":[1,0,112,21]
 };
