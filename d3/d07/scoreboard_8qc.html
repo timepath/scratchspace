@@ -1276,7 +1276,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01308"></a><span class="lineno"> 1308</span>&#160;    pos.y += sb_heading_fontsize.y + <a class="code" href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a>.y * 0.25;</div>
 <div class="line"><a name="l01309"></a><span class="lineno"> 1309</span>&#160;</div>
 <div class="line"><a name="l01310"></a><span class="lineno"> 1310</span>&#160;    <span class="comment">// Draw the scoreboard</span></div>
-<div class="line"><a name="l01311"></a><span class="lineno"> 1311</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> bg_size = draw_getimagesize(<span class="stringliteral">&quot;gfx/scoreboard/scoreboard_bg&quot;</span>) * <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a1f7932ecb0996835d51db4319bbb81aa">autocvar_scoreboard_bg_scale</a>;</div>
+<div class="line"><a name="l01311"></a><span class="lineno"> 1311</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> bg_size = draw_getimagesize(<span class="stringliteral">&quot;gfx/scoreboard/scoreboard_bg&quot;</span>) * ((<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a1f7932ecb0996835d51db4319bbb81aa">autocvar_scoreboard_bg_scale</a> &gt; 0) ? <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a1f7932ecb0996835d51db4319bbb81aa">autocvar_scoreboard_bg_scale</a> : 0.25);</div>
 <div class="line"><a name="l01312"></a><span class="lineno"> 1312</span>&#160;</div>
 <div class="line"><a name="l01313"></a><span class="lineno"> 1313</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
 <div class="line"><a name="l01314"></a><span class="lineno"> 1314</span>&#160;    {</div>
@@ -3571,7 +3571,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d3/d07/scoreboard_8qc.html">scoreboard.qc</a></li>
-    <li class="footer">Generated on Thu Mar 24 2016 17:03:44 for Xonotic by
+    <li class="footer">Generated on Thu Mar 24 2016 17:24:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
