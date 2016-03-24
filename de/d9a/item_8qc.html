@@ -102,6 +102,7 @@ $(document).ready(function(){initNavTree('de/d9a/item_8qc.html','../../');});
 
 <div class="header">
   <div class="summary">
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">item.qc File Reference</div>  </div>
@@ -123,17 +124,63 @@ $(document).ready(function(){initNavTree('de/d9a/item_8qc.html','../../');});
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/da7/item_8qc__dep__incl.svg" width="134" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/da7/item_8qc__dep__incl.svg" width="120" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
 <p><a href="../../de/d9a/item_8qc_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a2884065abdd89fe2349ff849e8f0d338"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9a/item_8qc.html#a2884065abdd89fe2349ff849e8f0d338">m_play_focus_sound</a> ()</td></tr>
+<tr class="separator:a2884065abdd89fe2349ff849e8f0d338"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:af10a456226e2bd11255baff142ec9bc1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d9a/item_8qc.html#af10a456226e2bd11255baff142ec9bc1">autocvar_menu_showboxes</a></td></tr>
 <tr class="separator:af10a456226e2bd11255baff142ec9bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a2884065abdd89fe2349ff849e8f0d338"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> m_play_focus_sound </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../df/dc2/menu_8qc_source.html#l00969">969</a> of file <a class="el" href="../../df/dc2/menu_8qc_source.html">menu.qc</a>.</p>
+
+<p>Referenced by <a class="el" href="../../de/d9a/item_8qc_source.html#l00094">Item::focusEnter()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;{</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> menuLastFocusSoundTime;</div>
+<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;menu_sounds&quot;</span>) &lt; 2) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - menuLastFocusSoundTime &lt;= 0.25) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#aa0df35bc4fc34d5184f9b16a252f1ec3">localsound</a>(<a class="code" href="../../d0/d41/menu_8qh.html#a352244e0d6f2bdbf4b7fb6c896188eaf">MENU_SOUND_FOCUS</a>);</div>
+<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;    menuLastFocusSoundTime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;}</div>
+<div class="ttc" id="menu_8qh_html_a352244e0d6f2bdbf4b7fb6c896188eaf"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a352244e0d6f2bdbf4b7fb6c896188eaf">MENU_SOUND_FOCUS</a></div><div class="ttdeci">const string MENU_SOUND_FOCUS</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00052">menu.qh:52</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
+<div class="ttc" id="menudefs_8qc_html_aa0df35bc4fc34d5184f9b16a252f1ec3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa0df35bc4fc34d5184f9b16a252f1ec3">localsound</a></div><div class="ttdeci">void localsound(string sample)</div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d9a/item_8qc_a2884065abdd89fe2349ff849e8f0d338_icgraph.svg" width="326" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="af10a456226e2bd11255baff142ec9bc1"></a>
 <div class="memitem">
@@ -155,7 +202,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../de/d9a/item_8qc.html">item.qc</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 21:34:20 for Xonotic by
+    <li class="footer">Generated on Thu Mar 24 2016 00:16:36 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

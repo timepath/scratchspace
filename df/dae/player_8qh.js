@@ -84,6 +84,7 @@ var player_8qh =
     [ "movement_old", "df/dae/player_8qh.html#a4c067ec635ba3281c982cfaaa51cf425", null ],
     [ "race_penalty", "df/dae/player_8qh.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca", null ],
     [ "swamp_slowdown", "df/dae/player_8qh.html#a72409ccf4513611408270e2c17712b3d", null ],
+    [ "teleport_time", "df/dae/player_8qh.html#a5b22fb02e46104adf892ccf37392f741", null ],
     [ "v_angle_old", "df/dae/player_8qh.html#a363f777d30bb51c67376300a5d7f49be", null ],
     [ "wasFlying", "df/dae/player_8qh.html#a57030d0513a6d9774b1aaccd1c792b6e", null ]
 ];

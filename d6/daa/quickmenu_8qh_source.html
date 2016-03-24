@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Xonotic: client/quickmenu.qh Source File</title>
+<title>Xonotic: client/hud/panel/quickmenu.qh Source File</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,20 +106,21 @@ $(document).ready(function(){initNavTree('d6/daa/quickmenu_8qh_source.html','../
 </div><!--header-->
 <div class="contents">
 <a href="../../d6/daa/quickmenu_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d6/daa/quickmenu_8qh.html#a0bd4a6e2118246c42f7315210420b033">QuickMenu_InputEvent</a>(<span class="keywordtype">float</span> bInputType, <span class="keywordtype">float</span> nPrimary, <span class="keywordtype">float</span> nSecondary);</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d6/daa/quickmenu_8qh.html#a83c6625cfcd8716e5e481969fa957f6f">QuickMenu_IsOpened</a>();</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/daa/quickmenu_8qh.html#a1f4421c07ba36141f7788c052320dcaf">QuickMenu_Mouse</a>();</div>
-<div class="ttc" id="quickmenu_8qh_html_a83c6625cfcd8716e5e481969fa957f6f"><div class="ttname"><a href="../../d6/daa/quickmenu_8qh.html#a83c6625cfcd8716e5e481969fa957f6f">QuickMenu_IsOpened</a></div><div class="ttdeci">bool QuickMenu_IsOpened()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d19/quickmenu_8qc_source.html#l00228">quickmenu.qc:228</a></div></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#include &quot;../panel.qh&quot;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d6/daa/quickmenu_8qh.html#a0bd4a6e2118246c42f7315210420b033">QuickMenu_InputEvent</a>(<span class="keywordtype">float</span> bInputType, <span class="keywordtype">float</span> nPrimary, <span class="keywordtype">float</span> nSecondary);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d6/daa/quickmenu_8qh.html#a83c6625cfcd8716e5e481969fa957f6f">QuickMenu_IsOpened</a>();</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/daa/quickmenu_8qh.html#a1f4421c07ba36141f7788c052320dcaf">QuickMenu_Mouse</a>();</div>
+<div class="ttc" id="quickmenu_8qh_html_a83c6625cfcd8716e5e481969fa957f6f"><div class="ttname"><a href="../../d6/daa/quickmenu_8qh.html#a83c6625cfcd8716e5e481969fa957f6f">QuickMenu_IsOpened</a></div><div class="ttdeci">bool QuickMenu_IsOpened()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d19/quickmenu_8qc_source.html#l00229">quickmenu.qc:229</a></div></div>
 <div class="ttc" id="quickmenu_8qh_html_a0bd4a6e2118246c42f7315210420b033"><div class="ttname"><a href="../../d6/daa/quickmenu_8qh.html#a0bd4a6e2118246c42f7315210420b033">QuickMenu_InputEvent</a></div><div class="ttdeci">bool QuickMenu_InputEvent(float bInputType, float nPrimary, float nSecondary)</div></div>
-<div class="ttc" id="quickmenu_8qh_html_a1f4421c07ba36141f7788c052320dcaf"><div class="ttname"><a href="../../d6/daa/quickmenu_8qh.html#a1f4421c07ba36141f7788c052320dcaf">QuickMenu_Mouse</a></div><div class="ttdeci">void QuickMenu_Mouse()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d19/quickmenu_8qc_source.html#l00488">quickmenu.qc:488</a></div></div>
+<div class="ttc" id="quickmenu_8qh_html_a1f4421c07ba36141f7788c052320dcaf"><div class="ttname"><a href="../../d6/daa/quickmenu_8qh.html#a1f4421c07ba36141f7788c052320dcaf">QuickMenu_Mouse</a></div><div class="ttdeci">void QuickMenu_Mouse()</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d19/quickmenu_8qc_source.html#l00489">quickmenu.qc:489</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d6/daa/quickmenu_8qh.html">quickmenu.qh</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 21:34:09 for Xonotic by
+    <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d6/daa/quickmenu_8qh.html">quickmenu.qh</a></li>
+    <li class="footer">Generated on Thu Mar 24 2016 00:16:27 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

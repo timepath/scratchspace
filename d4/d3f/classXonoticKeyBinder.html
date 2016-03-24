@@ -433,23 +433,23 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../de/d95/classEffectInfo.html#afd551afac097fdbeeabde98c8aa1bfc8">EffectInfo</a>, and <a class="el" href="../../d1/d6b/classGametype.html#ae6f43fb252cffabdcb79a863987a5683">Gametype</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00281">281</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00282">282</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">TC</a>.</p>
-<div class="fragment"><div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    {</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <span class="keywordtype">string</span> s = _(<span class="stringliteral">&quot;No description&quot;</span>);</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;developer&quot;</span>))</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        {</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, n = numentityfields(); i &lt; n; ++i)</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            {</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;                <span class="keywordtype">string</span> value = getentityfieldstring(i, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                <span class="keywordflow">if</span> (value != <span class="stringliteral">&quot;&quot;</span>) s = sprintf(<span class="stringliteral">&quot;%s\n%s = %s&quot;</span>, s, entityfieldname(i), value);</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            }</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        }</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <span class="keywordflow">return</span> s;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    }</div>
-<div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00278">oo.qh:278</a></div></div>
+<div class="fragment"><div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    {</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keywordtype">string</span> s = _(<span class="stringliteral">&quot;No description&quot;</span>);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;developer&quot;</span>))</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        {</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, n = numentityfields(); i &lt; n; ++i)</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            {</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;                <span class="keywordtype">string</span> value = getentityfieldstring(i, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;                <span class="keywordflow">if</span> (value != <span class="stringliteral">&quot;&quot;</span>) s = sprintf(<span class="stringliteral">&quot;%s\n%s = %s&quot;</span>, s, entityfieldname(i), value);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            }</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        }</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        <span class="keywordflow">return</span> s;</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    }</div>
+<div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00279">oo.qh:279</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">_all.inc:38</a></div></div>
 </div><!-- fragment -->
@@ -513,14 +513,14 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../dc/de5/classWeapon.html#ad155218ce1844b7f3ce8cf880721d08f">Weapon</a>, <a class="el" href="../../d0/d9a/classGameItem.html#a7357a3badf480bbfe18c110d15cbd2f8">GameItem</a>, <a class="el" href="../../d1/d6b/classGametype.html#a51550ad7b1e68706e89c9a555aa42b22">Gametype</a>, <a class="el" href="../../d9/d61/classNade.html#a1da4e2143f74e475c1dfa909f1aaf76c">Nade</a>, <a class="el" href="../../de/d3c/classBuff.html#acaa339ccb9cec6b5323ef674593d842f">Buff</a>, and <a class="el" href="../../d2/d3d/classTurret.html#a138adca099fbd117101fe56edb53d8aa">Turret</a>.</p>
 
-<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00295">295</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00296">296</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
 <p>References <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">TC</a>.</p>
-<div class="fragment"><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    {</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        returns(sprintf(<span class="stringliteral">&quot;entity %i&quot;</span>, <span class="keyword">this</span>), <span class="stringliteral">&quot;nopreview_map&quot;</span>);</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    }</div>
-<div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00278">oo.qh:278</a></div></div>
+<div class="fragment"><div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        returns(sprintf(<span class="stringliteral">&quot;entity %i&quot;</span>, <span class="keyword">this</span>), <span class="stringliteral">&quot;nopreview_map&quot;</span>);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    }</div>
+<div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00279">oo.qh:279</a></div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">_all.inc:38</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -673,21 +673,21 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d2/dec/classXonoticServerList.html#a278a2eaf4aba9c7a113d4a53092d6f28">XonoticServerList</a>, <a class="el" href="../../d8/d95/classNexposee.html#a5bb437f13d06fcc16b7deef2767bb999">Nexposee</a>, <a class="el" href="../../dd/da6/classXonoticCreditsDialog.html#aa6d1d269ef2765d34cf88e284c4dedff">XonoticCreditsDialog</a>, and <a class="el" href="../../df/d92/classXonoticWinnerDialog.html#a06f22f349baac36d094647744aa008ac">XonoticWinnerDialog</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d9a/item_8qc_source.html#l00092">92</a> of file <a class="el" href="../../de/d9a/item_8qc_source.html">item.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d9a/item_8qc_source.html#l00094">94</a> of file <a class="el" href="../../de/d9a/item_8qc_source.html">item.qc</a>.</p>
 
 <p>References <a class="el" href="../../df/dc2/menu_8qc_source.html#l00969">m_play_focus_sound()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    {</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../d0/dae/classItem.html#a67d95732d49da439095483530aca8804">allowFocusSound</a>) <a class="code" href="../../df/dc2/menu_8qc.html#a2884065abdd89fe2349ff849e8f0d338">m_play_focus_sound</a>();</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    {</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../d0/dae/classItem.html#a67d95732d49da439095483530aca8804">allowFocusSound</a>) <a class="code" href="../../de/d9a/item_8qc.html#a2884065abdd89fe2349ff849e8f0d338">m_play_focus_sound</a>();</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    }</div>
 <div class="ttc" id="classItem_html_a67d95732d49da439095483530aca8804"><div class="ttname"><a href="../../d0/dae/classItem.html#a67d95732d49da439095483530aca8804">Item::allowFocusSound</a></div><div class="ttdeci">float allowFocusSound</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1e/menu_2item_8qh_source.html#l00024">item.qh:24</a></div></div>
-<div class="ttc" id="menu_8qc_html_a2884065abdd89fe2349ff849e8f0d338"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a2884065abdd89fe2349ff849e8f0d338">m_play_focus_sound</a></div><div class="ttdeci">void m_play_focus_sound()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00969">menu.qc:969</a></div></div>
+<div class="ttc" id="item_8qc_html_a2884065abdd89fe2349ff849e8f0d338"><div class="ttname"><a href="../../de/d9a/item_8qc.html#a2884065abdd89fe2349ff849e8f0d338">m_play_focus_sound</a></div><div class="ttdeci">void m_play_focus_sound()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00969">menu.qc:969</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dae/classItem_a7bae0d38f79fe9ca14091c54f4cfa3e8_cgraph.svg" width="459" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/dae/classItem_a7bae0d38f79fe9ca14091c54f4cfa3e8_cgraph.svg" width="326" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1146,14 +1146,14 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d9a/item_8qc_source.html#l00011">11</a> of file <a class="el" href="../../de/d9a/item_8qc_source.html">item.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">NULL</a>, and <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00007">parent</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00011">NULL</a>, and <a class="el" href="../../d7/d8a/animhost_8qc_source.html#l00007">parent</a>.</p>
 <div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> par = this.<a class="code" href="../../d0/dae/classItem.html#a990854e3f6b366077f779d6d5f48aa72">parent</a>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordflow">if</span> (!par) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordflow">if</span> (par.instanceOfContainer) par.setFocus(par, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    }</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00010">oo.qh:10</a></div></div>
+<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
 <div class="ttc" id="classItem_html_a990854e3f6b366077f779d6d5f48aa72"><div class="ttname"><a href="../../d0/dae/classItem.html#a990854e3f6b366077f779d6d5f48aa72">Item::parent</a></div><div class="ttdeci">entity parent</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1e/menu_2item_8qh_source.html#l00025">item.qh:25</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1312,12 +1312,12 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented in <a class="el" href="../../d3/dbe/classSlider.html#ac40c387fa816abb4367ff86fe85c386e">Slider</a>, <a class="el" href="../../d3/d1b/classLabel.html#a7642beed5a82948e21add31abf4a4b0a">Label</a>, <a class="el" href="../../dd/df9/classCheckBox.html#aba5218808d64a676ca69b4f43d6f523b">CheckBox</a>, <a class="el" href="../../d8/d00/classImage.html#a60612f89a179b793db278c24ac5bd8c1">Image</a>, <a class="el" href="../../d6/d15/classXonoticWeaponsList.html#a0a7fb9508749d94ae646c0e6c7d749ae">XonoticWeaponsList</a>, and <a class="el" href="../../d7/dac/classXonoticMutatorsDialog.html#a72bf53c21ee1c9cdd883b23a9947cc4a">XonoticMutatorsDialog</a>.</p>
 
-<p>Definition at line <a class="el" href="../../de/d9a/item_8qc_source.html#l00100">100</a> of file <a class="el" href="../../de/d9a/item_8qc_source.html">item.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d9a/item_8qc_source.html#l00102">102</a> of file <a class="el" href="../../de/d9a/item_8qc_source.html">item.qc</a>.</p>
 
 <p>References <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>.</p>
-<div class="fragment"><div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    {</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -2373,7 +2373,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d4/d3f/classXonoticKeyBinder.html">XonoticKeyBinder</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 21:34:28 for Xonotic by
+    <li class="footer">Generated on Thu Mar 24 2016 00:16:42 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

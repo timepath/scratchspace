@@ -166,7 +166,7 @@ $(document).ready(function(){initNavTree('d1/df8/lightningarc_8qc_source.html','
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordtype">int</span> steps = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(16, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(length / seglength));</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="keywordflow">if</span> (steps &lt; 1)</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        {</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            te_lightning1(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>, from, to);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            te_lightning1(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, from, to);</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
@@ -180,18 +180,18 @@ $(document).ready(function(){initNavTree('d1/df8/lightningarc_8qc_source.html','
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                <span class="keywordtype">float</span> drift = drifts * (1 - (i / steps)) + drifte * (i / steps);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> dirnew = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(direction * (1 - drift) + <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * drift);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> pos = pos_l +  dirnew * steplength;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                te_lightning1(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>, pos_l, pos);</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                te_lightning1(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, pos_l, pos);</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <span class="comment">// WTF endless recursion if branchfactor is 1.0 (possibly due to adding branchfactor_add). FIXME</span></div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                <span class="comment">// if(random() &lt; branchfactor)</span></div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                <span class="comment">//     cl_effects_lightningarc(pos, pos + (dirnew * length * 0.25),seglength,drifts,drifte,min(branchfactor + branchfactor_add,1),branchfactor_add);</span></div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                pos_l = pos;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            te_lightning1(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>, pos_l, to);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;            te_lightning1(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, pos_l, to);</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        }</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        {</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            te_lightning1(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>, from, to);</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            te_lightning1(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, from, to);</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        }</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    }</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
@@ -209,7 +209,7 @@ $(document).ready(function(){initNavTree('d1/df8/lightningarc_8qc_source.html','
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#aa5008df3770265a934568963d32460ed">autocvar_cl_effects_lightningarc_simple</a>)</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            te_lightning1(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>, from, to);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            te_lightning1(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, from, to);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        }</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        {</div>
@@ -227,9 +227,9 @@ $(document).ready(function(){initNavTree('d1/df8/lightningarc_8qc_source.html','
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="net_8qh_html_a2c87ee9a4aa12245bb6e80f321975ded"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a></div><div class="ttdeci">#define NET_HANDLE(id, param)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00010">net.qh:10</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aa156cc8dd51c39572de799ab8a0dd8d0"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a></div><div class="ttdeci">vector randomvec(void)</div></div>
 <div class="ttc" id="lightningarc_8qh_html"><div class="ttname"><a href="../../d4/dba/lightningarc_8qh.html">lightningarc.qh</a></div></div>
-<div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a5285236c0fdd4d9340660c539b6ea0e9"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a5285236c0fdd4d9340660c539b6ea0e9">autocvar_cl_effects_lightningarc_segmentlength</a></div><div class="ttdeci">float autocvar_cl_effects_lightningarc_segmentlength</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00040">autocvars.qh:40</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a90adbf34df2721bdfc9f7ee36716b479"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a90adbf34df2721bdfc9f7ee36716b479">autocvar_cl_effects_lightningarc_drift_end</a></div><div class="ttdeci">float autocvar_cl_effects_lightningarc_drift_end</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00038">autocvars.qh:38</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a38875ac7a64816ab39d6cebd6220e5b5"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a38875ac7a64816ab39d6cebd6220e5b5">autocvar_cl_effects_lightningarc_drift_start</a></div><div class="ttdeci">float autocvar_cl_effects_lightningarc_drift_start</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00039">autocvars.qh:39</a></div></div>
@@ -250,7 +250,7 @@ $(document).ready(function(){initNavTree('d1/df8/lightningarc_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_f54d74b0e9ac4c004ab42fc4ec4fcb87.html">effects</a></li><li class="navelem"><a class="el" href="../../dir_1e905c8c0e92136a54b32c53d0aef8dd.html">qc</a></li><li class="navelem"><a class="el" href="../../d1/df8/lightningarc_8qc.html">lightningarc.qc</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 21:34:10 for Xonotic by
+    <li class="footer">Generated on Thu Mar 24 2016 00:16:27 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

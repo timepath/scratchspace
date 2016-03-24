@@ -28,6 +28,7 @@ var searchData=
   ['events_2eqh',['events.qh',['../d8/d0e/client_2mutators_2events_8qh.html',1,'']]],
   ['ewheel_2eqc',['ewheel.qc',['../d6/d6b/ewheel_8qc.html',1,'']]],
   ['ewheel_5fweapon_2eqc',['ewheel_weapon.qc',['../df/dc7/ewheel__weapon_8qc.html',1,'']]],
+  ['ewheel_5fweapon_2eqh',['ewheel_weapon.qh',['../d0/d58/ewheel__weapon_8qh.html',1,'']]],
   ['expandnode_2eqc',['expandnode.qc',['../d1/dc9/expandnode_8qc.html',1,'']]],
   ['expandnode_2eqh',['expandnode.qh',['../d4/d7e/expandnode_8qh.html',1,'']]]
 ];

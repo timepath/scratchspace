@@ -238,7 +238,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d3b/race_8qc_source.html#l01017">1017</a> of file <a class="el" href="../../d6/d3b/race_8qc_source.html">race.qc</a>.</p>
 
-<p>References <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00119">ClientData_Touch()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00274">MAKE_INDEPENDENT_PLAYER</a>, <a class="el" href="../../d4/d1b/race_8qh_source.html#l00026">race_completing</a>, and <a class="el" href="../../d3/d70/menu_2progs_8inc_source.html#l00003">world</a>.</p>
+<p>References <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00119">ClientData_Touch()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00274">MAKE_INDEPENDENT_PLAYER</a>, <a class="el" href="../../d4/d1b/race_8qh_source.html#l00026">race_completing</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d3b/race_8qc_source.html#l01028">race_StartCompleting()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01018"></a><span class="lineno"> 1018</span>&#160;{</div>
@@ -246,11 +246,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01020"></a><span class="lineno"> 1020</span>&#160;    {</div>
 <div class="line"><a name="l01021"></a><span class="lineno"> 1021</span>&#160;        <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.race_completed = 1;</div>
 <div class="line"><a name="l01022"></a><span class="lineno"> 1022</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#ab2f5ceae940caa9d4ef34c8a3cc6aefb">MAKE_INDEPENDENT_PLAYER</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>);</div>
-<div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>, MSG_INFO, INFO_RACE_ABANDONED, <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.netname);</div>
+<div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_INFO, INFO_RACE_ABANDONED, <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.netname);</div>
 <div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;        <a class="code" href="../../da/d53/cl__client_8qc.html#adcfb83073eb66c355f220a7fc94a479d">ClientData_Touch</a>(<a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>);</div>
 <div class="line"><a name="l01025"></a><span class="lineno"> 1025</span>&#160;    }</div>
 <div class="line"><a name="l01026"></a><span class="lineno"> 1026</span>&#160;}</div>
-<div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="effectinfo_8qc_html_af1209ce3d4344049c1084fab900909cf"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a></div><div class="ttdeci">#define p(f, type, default)</div></div>
 <div class="ttc" id="race_8qh_html_ae526a80b21c7a500f4e86b074552fd2e"><div class="ttname"><a href="../../d4/d1b/race_8qh.html#ae526a80b21c7a500f4e86b074552fd2e">race_completing</a></div><div class="ttdeci">float race_completing</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1b/race_8qh_source.html#l00026">race.qh:26</a></div></div>
 <div class="ttc" id="cl__client_8qc_html_adcfb83073eb66c355f220a7fc94a479d"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#adcfb83073eb66c355f220a7fc94a479d">ClientData_Touch</a></div><div class="ttdeci">void ClientData_Touch(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l00119">cl_client.qc:119</a></div></div>
@@ -352,7 +352,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d3b/race_8qc_source.html#l01147">1147</a> of file <a class="el" href="../../d6/d3b/race_8qc_source.html">race.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00334">PlayerScore_Add()</a>, <a class="el" href="../../d6/d3b/race_8qc_source.html#l00114">race_highest_checkpoint</a>, <a class="el" href="../../d6/d3b/race_8qc_source.html#l00115">race_timed_checkpoint</a>, <a class="el" href="../../d4/d1b/race_8qh_source.html#l00007">SP_RACE_LAPS</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>, and <a class="el" href="../../d3/d70/menu_2progs_8inc_source.html#l00003">world</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00334">PlayerScore_Add()</a>, <a class="el" href="../../d6/d3b/race_8qc_source.html#l00114">race_highest_checkpoint</a>, <a class="el" href="../../d6/d3b/race_8qc_source.html#l00115">race_timed_checkpoint</a>, <a class="el" href="../../d4/d1b/race_8qh_source.html#l00007">SP_RACE_LAPS</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 <div class="fragment"><div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;{</div>
 <div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;    <span class="comment">// interesting metrics (idea by KrimZon) to maybe sort players in the</span></div>
 <div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;    <span class="comment">// scoreboard, immediately updates when overtaking</span></div>
@@ -382,7 +382,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160;        <span class="keywordflow">return</span> l; <span class="comment">// finish</span></div>
 <div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160;</div>
 <div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;    bestfraction = 1;</div>
-<div class="line"><a name="l01177"></a><span class="lineno"> 1177</span>&#160;    <span class="keywordflow">for</span>(cp0 = <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>; (cp0 = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(cp0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;trigger_race_checkpoint&quot;</span>)); )</div>
+<div class="line"><a name="l01177"></a><span class="lineno"> 1177</span>&#160;    <span class="keywordflow">for</span>(cp0 = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>; (cp0 = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(cp0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;trigger_race_checkpoint&quot;</span>)); )</div>
 <div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;    {</div>
 <div class="line"><a name="l01179"></a><span class="lineno"> 1179</span>&#160;        <span class="keywordflow">if</span>(cp0.race_checkpoint != lastcpindex)</div>
 <div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;            <span class="keywordflow">continue</span>;</div>
@@ -390,7 +390,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01182"></a><span class="lineno"> 1182</span>&#160;            <span class="keywordflow">if</span>(cp0 != lastcp)</div>
 <div class="line"><a name="l01183"></a><span class="lineno"> 1183</span>&#160;                <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l01184"></a><span class="lineno"> 1184</span>&#160;        o0 = (cp0.absmin + cp0.absmax) * 0.5;</div>
-<div class="line"><a name="l01185"></a><span class="lineno"> 1185</span>&#160;        <span class="keywordflow">for</span>(cp1 = <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>; (cp1 = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(cp1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;trigger_race_checkpoint&quot;</span>)); )</div>
+<div class="line"><a name="l01185"></a><span class="lineno"> 1185</span>&#160;        <span class="keywordflow">for</span>(cp1 = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>; (cp1 = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(cp1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;trigger_race_checkpoint&quot;</span>)); )</div>
 <div class="line"><a name="l01186"></a><span class="lineno"> 1186</span>&#160;        {</div>
 <div class="line"><a name="l01187"></a><span class="lineno"> 1187</span>&#160;            <span class="keywordflow">if</span>(cp1.race_checkpoint != nextcpindex)</div>
 <div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;                <span class="keywordflow">continue</span>;</div>
@@ -412,8 +412,8 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01204"></a><span class="lineno"> 1204</span>&#160;</div>
 <div class="line"><a name="l01205"></a><span class="lineno"> 1205</span>&#160;    <span class="keywordflow">return</span> l + c / nc;</div>
 <div class="line"><a name="l01206"></a><span class="lineno"> 1206</span>&#160;}</div>
+<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="scores_8qc_html_a4e597c14f389b7db7703d04c6f987db2"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#a4e597c14f389b7db7703d04c6f987db2">PlayerScore_Add</a></div><div class="ttdeci">float PlayerScore_Add(entity player, float scorefield, float score)</div><div class="ttdoc">Adds a score to the player&#39;s scores. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00334">scores.qc:334</a></div></div>
-<div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="race_8qh_html_a3de8f18f3907ce9b99b58b38c58ce880"><div class="ttname"><a href="../../d4/d1b/race_8qh.html#a3de8f18f3907ce9b99b58b38c58ce880">SP_RACE_LAPS</a></div><div class="ttdeci">const float SP_RACE_LAPS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1b/race_8qh_source.html#l00007">race.qh:7</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
@@ -640,7 +640,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d3b/race_8qc_source.html#l01034">1034</a> of file <a class="el" href="../../d6/d3b/race_8qc_source.html">race.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/d3b/race_8qc_source.html#l00522">race_ClearTime()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, and <a class="el" href="../../d3/d70/menu_2progs_8inc_source.html#l00003">world</a>.</p>
+<p>References <a class="el" href="../../d6/d3b/race_8qc_source.html#l00522">race_ClearTime()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d3b/race_8qc_source.html#l01064">race_ClearRecords()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01035"></a><span class="lineno"> 1035</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
@@ -648,10 +648,10 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01037"></a><span class="lineno"> 1037</span>&#160;    <span class="keyword">self</span>.race_place = 0;</div>
 <div class="line"><a name="l01038"></a><span class="lineno"> 1038</span>&#160;    <span class="keyword">self</span>.race_started = 0;</div>
 <div class="line"><a name="l01039"></a><span class="lineno"> 1039</span>&#160;    <span class="keyword">self</span>.race_respawn_checkpoint = 0;</div>
-<div class="line"><a name="l01040"></a><span class="lineno"> 1040</span>&#160;    <span class="keyword">self</span>.race_respawn_spotref = <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>;</div>
+<div class="line"><a name="l01040"></a><span class="lineno"> 1040</span>&#160;    <span class="keyword">self</span>.race_respawn_spotref = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
 <div class="line"><a name="l01041"></a><span class="lineno"> 1041</span>&#160;}</div>
+<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
-<div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
 <div class="ttc" id="race_8qc_html_a6c1a701a84cb0c5b15f45173e3038d9b"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a6c1a701a84cb0c5b15f45173e3038d9b">race_ClearTime</a></div><div class="ttdeci">void race_ClearTime(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00522">race.qc:522</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1771,7 +1771,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d4/d1b/race_8qh.html">race.qh</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 21:34:24 for Xonotic by
+    <li class="footer">Generated on Thu Mar 24 2016 00:16:39 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

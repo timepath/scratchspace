@@ -345,7 +345,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&#39;-1 0 0&#39;</span>;</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    }</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    shortest = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>.maxs - <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>.mins);</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    shortest = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.maxs - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.mins);</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != <span class="keyword">self</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        thisdist = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(it.origin - spot.origin);</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        if (thisdist &lt; shortest)</div>
@@ -363,7 +363,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keywordtype">float</span> found;</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        found = 0;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <span class="keywordflow">for</span>(ent = <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>; (ent = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(ent, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, spot.target)); )</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <span class="keywordflow">for</span>(ent = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>; (ent = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(ent, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, spot.target)); )</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        {</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            ++found;</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            <span class="keywordflow">if</span>(ent.spawn_evalfunc)</div>
@@ -398,8 +398,8 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;{</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot, spotlist, spotlistend;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    spotlist = <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>;</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    spotlistend = <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    spotlist = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    spotlistend = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <a class="code" href="../../d0/d41/spawnpoints_8qc.html#a2170f4b704145b0177185ecb90b21103">Spawn_ScoreAll</a>(firstspot, mindist, teamcheck);</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
@@ -415,7 +415,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        }</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    }</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <span class="keywordflow">if</span>(spotlistend)</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        spotlistend.chain = <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        spotlistend.chain = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="keywordflow">return</span> spotlist;</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;}</div>
@@ -445,7 +445,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <span class="keywordtype">float</span> teamcheck;</div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot, firstspot;</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    spot = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a> (<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;testplayerstart&quot;</span>);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    spot = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;testplayerstart&quot;</span>);</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <span class="keywordflow">if</span> (spot)</div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordflow">return</span> spot;</div>
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;</div>
@@ -502,7 +502,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        {</div>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a547834c4ecd381167ed13dfac82a31ec">some_spawn_has_been_used</a>)</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>; <span class="comment">// team can&#39;t spawn any more, because of actions of other team</span></div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>; <span class="comment">// team can&#39;t spawn any more, because of actions of other team</span></div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;Cannot find a spawn point - please fix the map!&quot;</span>);</div>
 <div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        }</div>
@@ -514,6 +514,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="ttc" id="spawnpoints_8qc_html_a9727affe32942c99ab8788fbc834df9a"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a9727affe32942c99ab8788fbc834df9a">relocate_spawnpoint</a></div><div class="ttdeci">void relocate_spawnpoint()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00072">spawnpoints.qc:72</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="common_2constants_8qh_html_ae735c3b4d1ab1d9ef277732a76b77579"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a></div><div class="ttdeci">const vector PL_MAX_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00220">constants.qh:220</a></div></div>
@@ -522,7 +523,6 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="ttc" id="spawnpoints_8qc_html_a2170f4b704145b0177185ecb90b21103"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a2170f4b704145b0177185ecb90b21103">Spawn_ScoreAll</a></div><div class="ttdeci">void Spawn_ScoreAll(entity firstspot, float mindist, float teamcheck)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00283">spawnpoints.qc:283</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a201908345e88f04480bb1af26b522f00"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a201908345e88f04480bb1af26b522f00">SPAWN_PRIO_GOOD_DISTANCE</a></div><div class="ttdeci">const int SPAWN_PRIO_GOOD_DISTANCE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00227">constants.qh:227</a></div></div>
 <div class="ttc" id="spawnpoints_8qc_html_a1677a3b258ec3923749405581a961772"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a1677a3b258ec3923749405581a961772">spawnpoint_use</a></div><div class="ttdeci">void spawnpoint_use()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00061">spawnpoints.qc:61</a></div></div>
-<div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="sys-pre_8qh_html_a1a131a8f1813cd654a56e745f531fff1"><div class="ttname"><a href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a></div><div class="ttdeci">#define objerror</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/sys-pre_8qh_source.html#l00003">sys-pre.qh:3</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a56b53595c8aa15ca107c03896db91fd2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a></div><div class="ttdeci">void error(string err,...)</div></div>
@@ -595,7 +595,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d0/d41/spawnpoints_8qc.html">spawnpoints.qc</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 21:34:13 for Xonotic by
+    <li class="footer">Generated on Thu Mar 24 2016 00:16:30 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

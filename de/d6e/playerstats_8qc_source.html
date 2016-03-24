@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(e))</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        { s = sprintf(<span class="stringliteral">&quot;bot#%g#%s&quot;</span>, <a class="code" href="../../d1/da9/bot_8qh.html#a8467c850cba8957cd36040241ed1e68b">skill</a>, e.cleanname); }</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span>((s == <span class="stringliteral">&quot;&quot;</span>) || <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>, playerstats_id, s)) <span class="comment">// already have one of the ID - next one can&#39;t be tracked then!</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span>((s == <span class="stringliteral">&quot;&quot;</span>) || <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, playerstats_id, s)) <span class="comment">// already have one of the ID - next one can&#39;t be tracked then!</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(e))</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            { s = sprintf(<span class="stringliteral">&quot;bot#%d&quot;</span>, e.playerid); }</div>
@@ -305,7 +305,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            autocvar_g_playerstats_gamereport_uri,</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            <a class="code" href="../../d4/d92/csqc__constants_8qh.html#aa883d4d9f9f9cd3b797f857ce81a7c27">FILE_APPEND</a>,</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            PlayerStats_GameReport_Handler,</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        );</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordflow">else</span></div>
@@ -742,7 +742,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;            autocvar_g_playerstats_playerdetail_uri,</div>
 <div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;            <a class="code" href="../../d4/d92/csqc__constants_8qh.html#aa883d4d9f9f9cd3b797f857ce81a7c27">FILE_APPEND</a>,</div>
 <div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;            PlayerStats_PlayerDetail_Handler,</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div>
 <div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;        );</div>
 <div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;</div>
 <div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        PlayerStats_PlayerDetail_Status = PS_D_STATUS_WAITING;</div>
@@ -1154,6 +1154,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="accuracy_8qh_html_a12f4c0f276dc483c7bbbb70029f36f1f"><div class="ttname"><a href="../../d3/d2d/accuracy_8qh.html#a12f4c0f276dc483c7bbbb70029f36f1f">accuracy_fired</a></div><div class="ttdeci">float accuracy_fired[Weapons_MAX]</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d2d/accuracy_8qh_source.html#l00012">accuracy.qh:12</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_aa883d4d9f9f9cd3b797f857ce81a7c27"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#aa883d4d9f9f9cd3b797f857ce81a7c27">FILE_APPEND</a></div><div class="ttdeci">const int FILE_APPEND</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00102">csqc_constants.qh:102</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="common_2weapons_2all_8qh_html"><div class="ttname"><a href="../../de/d81/common_2weapons_2all_8qh.html">all.qh</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a6b01d68b86a91c9201ba7088b284f43f"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a6b01d68b86a91c9201ba7088b284f43f">gametype</a></div><div class="ttdeci">float gametype</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00024">main.qh:24</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
@@ -1165,7 +1166,6 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="ttc" id="common_2util_8qh_html_a1b6c6d653a3afa9ff06bf09160575c74"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a1b6c6d653a3afa9ff06bf09160575c74">db_close</a></div><div class="ttdeci">void db_close(int db)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00078">map.qh:78</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_afafcc8d75788a369ad96ca50f9e04959"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#afafcc8d75788a369ad96ca50f9e04959">db_create</a></div><div class="ttdeci">int db_create()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00023">map.qh:23</a></div></div>
 <div class="ttc" id="urllib_8qh_html_af602e253bfc56fa7bdb973e558c606e8"><div class="ttname"><a href="../../dc/dbb/urllib_8qh.html#af602e253bfc56fa7bdb973e558c606e8">URL_READY_CANWRITE</a></div><div class="ttdeci">const float URL_READY_CANWRITE</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbb/urllib_8qh_source.html#l00015">urllib.qh:15</a></div></div>
-<div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="scores_8qh_html_a0cf85aa93c9a2c5aa8f70c877d9d42dc"><div class="ttname"><a href="../../d3/dcd/scores_8qh.html#a0cf85aa93c9a2c5aa8f70c877d9d42dc">scoreboard_pos</a></div><div class="ttdeci">float scoreboard_pos</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/scores_8qh_source.html#l00008">scores.qh:8</a></div></div>
 <div class="ttc" id="statslist_8qh_html_a805ce8fff65b47ff491afbce6f9fbf0c"><div class="ttname"><a href="../../d5/d73/statslist_8qh.html#a805ce8fff65b47ff491afbce6f9fbf0c">statslist</a></div><div class="ttdeci">entity statslist</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d73/statslist_8qh_source.html#l00023">statslist.qh:23</a></div></div>
@@ -1220,7 +1220,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../de/d6e/playerstats_8qc.html">playerstats.qc</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 21:34:11 for Xonotic by
+    <li class="footer">Generated on Thu Mar 24 2016 00:16:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

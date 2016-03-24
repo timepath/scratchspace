@@ -1,5 +1,6 @@
 var dir_026fecbde05aca2ce3aaca1260d474bc =
 [
+    [ "_mod.inc", "d8/d93/client_2hud_2panel_2__mod_8inc.html", null ],
     [ "ammo.qc", "dd/d85/client_2hud_2panel_2ammo_8qc.html", "dd/d85/client_2hud_2panel_2ammo_8qc" ],
     [ "ammo.qh", "db/d2a/client_2hud_2panel_2ammo_8qh.html", null ],
     [ "centerprint.qc", "d4/dbb/centerprint_8qc.html", "d4/dbb/centerprint_8qc" ],
@@ -24,8 +25,8 @@ var dir_026fecbde05aca2ce3aaca1260d474bc =
     [ "powerups.qh", "df/d6c/powerups_8qh.html", null ],
     [ "pressedkeys.qc", "d9/d1d/pressedkeys_8qc.html", "d9/d1d/pressedkeys_8qc" ],
     [ "pressedkeys.qh", "da/db8/pressedkeys_8qh.html", null ],
-    [ "quickmenu.qc", "da/dc6/hud_2panel_2quickmenu_8qc.html", null ],
-    [ "quickmenu.qh", "d9/d47/hud_2panel_2quickmenu_8qh.html", null ],
+    [ "quickmenu.qc", "d8/d19/quickmenu_8qc.html", "d8/d19/quickmenu_8qc" ],
+    [ "quickmenu.qh", "d6/daa/quickmenu_8qh.html", "d6/daa/quickmenu_8qh" ],
     [ "racetimer.qc", "d4/d12/racetimer_8qc.html", "d4/d12/racetimer_8qc" ],
     [ "racetimer.qh", "d4/da9/racetimer_8qh.html", null ],
     [ "radar.qc", "d0/d83/radar_8qc.html", "d0/d83/radar_8qc" ],

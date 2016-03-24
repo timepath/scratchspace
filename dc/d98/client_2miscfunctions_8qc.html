@@ -125,7 +125,7 @@ $(document).ready(function(){initNavTree('dc/d98/client_2miscfunctions_8qc.html'
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dab/client_2miscfunctions_8qc__dep__incl.svg" width="166" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/dab/client_2miscfunctions_8qc__dep__incl.svg" width="166" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -1724,7 +1724,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00120">120</a> of file <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00077">new_pure</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00022">NUM_SPECTATOR</a>, <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00080">RegisterTeam()</a>, <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">TC</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00027">team</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00083">teamslots</a>, and <a class="el" href="../../d3/d70/menu_2progs_8inc_source.html#l00003">world</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00078">new_pure</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00022">NUM_SPECTATOR</a>, <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00080">RegisterTeam()</a>, <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">TC</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00027">team</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00083">teamslots</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00087">CSQC_Init()</a>, <a class="el" href="../../df/d21/infomessages_8qc_source.html#l00014">HUD_InfoMessages()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00471">NET_HANDLE()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00220">SetTeam()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;{</div>
@@ -1733,7 +1733,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a67e28b10e917f64f11b0ab7af58076a0">teamslots</a>[num])</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d0/d2a/client_2main_8qh.html#a67e28b10e917f64f11b0ab7af58076a0">teamslots</a>[num];</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">if</span> (!add)</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> tm = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>);</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    tm.team = Team;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <a class="code" href="../../d0/d2a/client_2main_8qh.html#a67e28b10e917f64f11b0ab7af58076a0">teamslots</a>[num] = tm;</div>
@@ -1742,12 +1742,12 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;}</div>
 <div class="ttc" id="teams_8qh_html_a41d770fecb49af6ce941da2667000651"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a41d770fecb49af6ce941da2667000651">NUM_SPECTATOR</a></div><div class="ttdeci">const int NUM_SPECTATOR</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00022">teams.qh:22</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qc_html_a6caf2e0c66aa3cfa4a63689e650de692"><div class="ttname"><a href="../../dc/d98/client_2miscfunctions_8qc.html#a6caf2e0c66aa3cfa4a63689e650de692">RegisterTeam</a></div><div class="ttdeci">float RegisterTeam(entity Team)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00080">miscfunctions.qc:80</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a67e28b10e917f64f11b0ab7af58076a0"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a67e28b10e917f64f11b0ab7af58076a0">teamslots</a></div><div class="ttdeci">entity teamslots[17]</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00083">main.qh:83</a></div></div>
-<div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">_all.inc:38</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
-<div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00077">oo.qh:77</a></div></div>
+<div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00078">oo.qh:78</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -2490,7 +2490,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dc/d98/client_2miscfunctions_8qc.html">miscfunctions.qc</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 21:34:15 for Xonotic by
+    <li class="footer">Generated on Thu Mar 24 2016 00:16:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

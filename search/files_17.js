@@ -3,6 +3,7 @@ var searchData=
   ['walk_2eqc',['walk.qc',['../de/d57/walk_8qc.html',1,'']]],
   ['walker_2eqc',['walker.qc',['../db/d5c/walker_8qc.html',1,'']]],
   ['walker_5fweapon_2eqc',['walker_weapon.qc',['../df/d71/walker__weapon_8qc.html',1,'']]],
+  ['walker_5fweapon_2eqh',['walker_weapon.qh',['../d3/dd9/walker__weapon_8qh.html',1,'']]],
   ['wall_2eqc',['wall.qc',['../d1/d8d/wall_8qc.html',1,'']]],
   ['wall_2eqh',['wall.qh',['../d4/db7/wall_8qh.html',1,'']]],
   ['waypoints_2eqc',['waypoints.qc',['../d7/dc4/waypoints_8qc.html',1,'']]],

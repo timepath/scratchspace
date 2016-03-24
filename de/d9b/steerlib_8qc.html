@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('de/d9b/steerlib_8qc.html','../../');})
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d7e/steerlib_8qc__dep__incl.svg" width="134" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d7e/steerlib_8qc__dep__incl.svg" width="134" height="187"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -259,7 +259,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00382">382</a> of file <a class="el" href="../../de/d9b/steerlib_8qc_source.html">steerlib.qc</a>.</p>
 
-<p>References <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00342">beamsweep_badpoint()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00133">MOVE_NORMAL</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">trace_endpos</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00036">trace_fraction</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d3/d70/menu_2progs_8inc_source.html#l00003">world</a>.</p>
+<p>References <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00342">beamsweep_badpoint()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00133">MOVE_NORMAL</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">trace_endpos</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00036">trace_fraction</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00422">steerlib_beamsteer()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
@@ -292,16 +292,16 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../de/d9b/steerlib_8qc.html#a214ccd5833a11d86b31b43e1ae55bd6e">beamsweep_badpoint</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>,0))</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;            <span class="keywordflow">return</span> i / length;</div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;<span class="preprocessor">#ifdef BEAMSTEER_VISUAL</span></div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;<span class="preprocessor"></span>        te_lightning1(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>,a+u,b+u);</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        te_lightning1(<a class="code" href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a>,b+u,b-d);</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;<span class="preprocessor"></span>        te_lightning1(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>,a+u,b+u);</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        te_lightning1(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>,b+u,b-d);</div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;<span class="preprocessor"></span>        a = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>;</div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    }</div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;</div>
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;}</div>
+<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
-<div class="ttc" id="menu_2progs_8inc_html_a498680348f3d9771aaa919a3a1b01e83"><div class="ttname"><a href="../../d3/d70/menu_2progs_8inc.html#a498680348f3d9771aaa919a3a1b01e83">world</a></div><div class="ttdeci">#define world</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d70/menu_2progs_8inc_source.html#l00003">progs.inc:3</a></div></div>
 <div class="ttc" id="steerlib_8qc_html_a214ccd5833a11d86b31b43e1ae55bd6e"><div class="ttname"><a href="../../de/d9b/steerlib_8qc.html#a214ccd5833a11d86b31b43e1ae55bd6e">beamsweep_badpoint</a></div><div class="ttdeci">float beamsweep_badpoint(vector point, float waterok)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9b/steerlib_8qc_source.html#l00342">steerlib.qc:342</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a43d4911c37299de085f3a00735956514"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a></div><div class="ttdeci">const int MOVE_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00133">csqc_constants.qh:133</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
@@ -1523,7 +1523,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../de/d9b/steerlib_8qc.html">steerlib.qc</a></li>
-    <li class="footer">Generated on Wed Mar 23 2016 21:34:24 for Xonotic by
+    <li class="footer">Generated on Thu Mar 24 2016 00:16:39 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
