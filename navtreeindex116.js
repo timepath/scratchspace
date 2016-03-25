@@ -1,5 +1,7 @@
 var NAVTREEINDEX116 =
 {
+"df/d38/mathlib_8qc.html#a109431a6fae6439212e35b6bb2f39875":[2,0,3,1,7,46],
+"df/d38/mathlib_8qc.html#a147f38d6e41f45de9b5e7c6f3dcac010":[2,0,3,1,7,18],
 "df/d38/mathlib_8qc.html#a14be10f7b7ec483cda599042fe3339c5":[2,0,3,1,7,23],
 "df/d38/mathlib_8qc.html#a1fd9d57c6c992866bf5161be2cf4c447":[2,0,3,1,7,14],
 "df/d38/mathlib_8qc.html#a264cc337c6d64272cf811db1f952e999":[2,0,3,1,7,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX116 =
 "df/d6e/globalsound_8qh.html#a9e6a490b693c3d3600516c74eb58daed":[2,0,1,2,0,9,29],
 "df/d6e/globalsound_8qh.html#aa8995e359d6a413aa46221e3bb3e9ba7":[2,0,1,2,0,9,10],
 "df/d6e/globalsound_8qh.html#abd5f85c1bc6552749afa2cade8ef952e":[2,0,1,2,0,9,28],
-"df/d6e/globalsound_8qh.html#acc226d4ed744cf98c0ee5ff8356757b8":[2,0,1,2,0,9,6],
-"df/d6e/globalsound_8qh.html#ade5a893a0df675ef05a5bd0c946b4419":[2,0,1,2,0,9,25],
-"df/d6e/globalsound_8qh.html#aeedefbf23bafa7202fe2fac90c46b86c":[2,0,1,2,0,9,20]
+"df/d6e/globalsound_8qh.html#acc226d4ed744cf98c0ee5ff8356757b8":[2,0,1,2,0,9,6]
 };

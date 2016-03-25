@@ -1,5 +1,7 @@
 var NAVTREEINDEX38 =
 {
+"d4/da5/classXonoticBigCommandButton.html":[1,0,125],
+"d4/da5/classXonoticBigCommandButton.html#a09558581cc0090d8cdcfd1ec9411f74c":[1,0,125,40],
 "d4/da5/classXonoticBigCommandButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,125,68],
 "d4/da5/classXonoticBigCommandButton.html#a10cf88734594fed24be93889407c0bda":[1,0,125,13],
 "d4/da5/classXonoticBigCommandButton.html#a10f084ce6991717bfb4153928818feba":[1,0,125,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX38 =
 "d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc.html":[2,0,1,9,0,22,0],
 "d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc_source.html":[2,0,1,9,0,22,0],
 "d4/dce/weapons_8qh.html":[2,0,0,1,0,38],
-"d4/dce/weapons_8qh_source.html":[2,0,0,1,0,38],
-"d4/dd1/spawnpoints_8qh.html":[2,0,5,58],
-"d4/dd1/spawnpoints_8qh.html#a1677a3b258ec3923749405581a961772":[2,0,5,58,4]
+"d4/dce/weapons_8qh_source.html":[2,0,0,1,0,38]
 };
