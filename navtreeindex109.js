@@ -1,5 +1,14 @@
 var NAVTREEINDEX109 =
 {
+"de/d42/classXonoticCheckBox.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,129,72],
+"de/d42/classXonoticCheckBox.html#aff20d1ead9e7a482eca46d913e6986a1":[1,0,129,83],
+"de/d43/common_2items_2item_2ammo_8qh.html":[2,0,1,5,0,2],
+"de/d43/common_2items_2item_2ammo_8qh.html#a489f87e4a1368e509452ff22373b5b9f":[2,0,1,5,0,2,1],
+"de/d43/common_2items_2item_2ammo_8qh_source.html":[2,0,1,5,0,2],
+"de/d43/common_2mutators_2mutator_2random__gravity_2__mod_8inc.html":[2,0,1,9,0,21,0],
+"de/d43/common_2mutators_2mutator_2random__gravity_2__mod_8inc_source.html":[2,0,1,9,0,21,0],
+"de/d48/dialog__settings__game_8qc.html":[2,0,4,4,123],
+"de/d48/dialog__settings__game_8qc.html#a612071b3e7e03563d6c3e60fcee98f10":[2,0,4,4,123,0],
 "de/d48/dialog__settings__game_8qc.html#a75338df9c4dd464cbbb72e57183fafe4":[2,0,4,4,123,1],
 "de/d48/dialog__settings__game_8qc.html#a90e61d8d148812eaa0a088e77a16138c":[2,0,4,4,123,3],
 "de/d48/dialog__settings__game_8qc.html#a9c3e124259ff12a2d0f534e614663046":[2,0,4,4,123,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX109 =
 "de/d5e/dpextensions_8qc.html#a7701d01a399c9cf297ebcdcbe85c5803":[2,0,2,0,1,329],
 "de/d5e/dpextensions_8qc.html#a772a66d0471c0499fbd730f6e1b259ac":[2,0,2,0,1,217],
 "de/d5e/dpextensions_8qc.html#a790f9b756adcb168150096db39c4dcf9":[2,0,2,0,1,237],
-"de/d5e/dpextensions_8qc.html#a7a57b349372d6133ce38600c1a35963d":[2,0,2,0,1,228],
-"de/d5e/dpextensions_8qc.html#a7b2fa2b4300edd7ec1c54209a6a20258":[2,0,2,0,1,256],
-"de/d5e/dpextensions_8qc.html#a7d9c41a4e7d0e86ff832c5bb50b07696":[2,0,2,0,1,253],
-"de/d5e/dpextensions_8qc.html#a7dfd8daadbdf53f2a7505a353c62889c":[2,0,2,0,1,243],
-"de/d5e/dpextensions_8qc.html#a7e40105260cec1d1e74180d2099a251c":[2,0,2,0,1,226],
-"de/d5e/dpextensions_8qc.html#a7e44d174f976d9341b559070a36be94c":[2,0,2,0,1,293],
-"de/d5e/dpextensions_8qc.html#a7e5b6bc70dfd618e48a10ed1d9cafaf7":[2,0,2,0,1,133],
-"de/d5e/dpextensions_8qc.html#a7ef46523bf1f305084e2ca69db4f24ee":[2,0,2,0,1,179],
-"de/d5e/dpextensions_8qc.html#a7f1ab56be47bd76da238771e4f9d20fe":[2,0,2,0,1,63],
-"de/d5e/dpextensions_8qc.html#a7ff47dfd72a1ac23c450d127bd29c24b":[2,0,2,0,1,332]
+"de/d5e/dpextensions_8qc.html#a7a57b349372d6133ce38600c1a35963d":[2,0,2,0,1,228]
 };

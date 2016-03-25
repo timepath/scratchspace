@@ -4,6 +4,7 @@ var server_2__all_8qh =
     [ "FOREACH_CLIENTSLOT", "d9/ddc/server_2__all_8qh.html#adf328897d1616cff8023e9639f6e68ec", null ],
     [ "IS_BOT_CLIENT", "d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6", null ],
     [ "IS_CLIENT", "d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834", null ],
+    [ "IS_FAKE_CLIENT", "d9/ddc/server_2__all_8qh.html#ade2cd0e40162e24f9205797020945ead", null ],
     [ "IS_MONSTER", "d9/ddc/server_2__all_8qh.html#a8d1a59561876620071f4bf87b78471ab", null ],
     [ "IS_NOT_A_CLIENT", "d9/ddc/server_2__all_8qh.html#a39b1d6b6d09aad4f80de90641365be82", null ],
     [ "IS_OBSERVER", "d9/ddc/server_2__all_8qh.html#a14e7b447f7917f8ac7e0198ee25b2bc2", null ],

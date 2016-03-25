@@ -249,5 +249,5 @@ var NAVTREEINDEX31 =
 "d4/d16/label_8qc.html#afb7185f15bb2b9ebf7c5d05ac7d7c553":[2,0,4,2,17,0],
 "d4/d16/label_8qc.html#afd8334cae30cb0a7cee0f707c9024c9c":[2,0,4,2,17,1],
 "d4/d16/label_8qc_source.html":[2,0,4,2,17],
-"d4/d17/classVortex.html":[1,0,114]
+"d4/d17/classVortex.html":[1,0,115]
 };

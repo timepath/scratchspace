@@ -75,7 +75,7 @@ var searchData=
   ['inv_5fnumspawned',['inv_numspawned',['../d5/d1f/gamemode__invasion_8qc.html#aee2b9768513ba6b7935a33986f7621f1',1,'gamemode_invasion.qc']]],
   ['inv_5froundcnt',['inv_roundcnt',['../d5/d1f/gamemode__invasion_8qc.html#abc643ffee29e9228118221dc0291f099',1,'gamemode_invasion.qc']]],
   ['invasion_5fteams',['invasion_teams',['../d5/d1f/gamemode__invasion_8qc.html#a6fc6f76a4d2ee54e9cd0d1ca72be7c49',1,'gamemode_invasion.qc']]],
-  ['inventory',['inventory',['../dc/d9d/inventory_8qh.html#a8a2622451e2981957c9e86fd0eb08476',1,'inventory.qh']]],
+  ['inventory',['inventory',['../dd/d7a/classInventory.html#ac124eebd5e643ec88c94cf8f7b5ebf34',1,'Inventory::inventory()'],['../dc/d9d/inventory_8qh.html#a8a2622451e2981957c9e86fd0eb08476',1,'inventory():&#160;inventory.qh']]],
   ['inverted',['inverted',['../db/d38/classXonoticSliderCheckBox.html#aa01a173776bd8cd643fbdf9fed30efba',1,'XonoticSliderCheckBox']]],
   ['invincible_5ffinished',['invincible_finished',['../d5/d26/server_2defs_8qh.html#ad72ac967fff2b7aa6853058d8d510023',1,'defs.qh']]],
   ['iorigin1',['iorigin1',['../d7/d06/interpolate_8qc.html#a755e5b096c1fbd561b614e6f860d612c',1,'interpolate.qc']]],

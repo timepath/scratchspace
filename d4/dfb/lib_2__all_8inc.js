@@ -3,12 +3,18 @@ var lib_2__all_8inc =
     [ "bool", "d4/dfb/lib_2__all_8inc.html#abb452686968e48b67397da5f97445f5b", null ],
     [ "COMPAT_NO_MOD_IS_XONOTIC", "d4/dfb/lib_2__all_8inc.html#ab58942eb88cb33653ba58614e59bff00", null ],
     [ "int", "d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904", null ],
+    [ "is_entity", "d4/dfb/lib_2__all_8inc.html#aea821d6e0d2d54c0ab8c11c6255f8f8c", null ],
+    [ "is_float", "d4/dfb/lib_2__all_8inc.html#a785503d00c1718a04f0957b406a55092", null ],
+    [ "is_string", "d4/dfb/lib_2__all_8inc.html#a046921b096faba016150b5e82bda924f", null ],
+    [ "is_vector", "d4/dfb/lib_2__all_8inc.html#a7c344f41d9c6c4fbadb18619dfd7be9b", null ],
+    [ "isnt_entity", "d4/dfb/lib_2__all_8inc.html#a0a90766cdd36285925006c2a954fc8c2", null ],
+    [ "isnt_float", "d4/dfb/lib_2__all_8inc.html#a59f9952f6e48bde37e09ad66e3c300ec", null ],
+    [ "isnt_string", "d4/dfb/lib_2__all_8inc.html#a9ec73664bbc6163a9a3cd6040ec17154", null ],
+    [ "isnt_vector", "d4/dfb/lib_2__all_8inc.html#abb51df5f207298185d644b9dec6e5e8e", null ],
     [ "TC", "d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b", null ],
     [ "USING", "d4/dfb/lib_2__all_8inc.html#abe8eb52fc5e52351ecda2a477108abed", null ],
     [ "is_bool", "d4/dfb/lib_2__all_8inc.html#aa2f1309e021da3dc804ea9f0529f3a57", null ],
-    [ "is_entity", "d4/dfb/lib_2__all_8inc.html#a391372e966ac9d72ad9cfd9dca21ff79", null ],
-    [ "is_float", "d4/dfb/lib_2__all_8inc.html#a286fae334cb0539c8f626ee287e95971", null ],
     [ "is_int", "d4/dfb/lib_2__all_8inc.html#a519d201f3a65bf5df77f1b0c03125b27", null ],
-    [ "is_string", "d4/dfb/lib_2__all_8inc.html#af3072b4b697761a0285ff80e56370cbd", null ],
-    [ "is_vector", "d4/dfb/lib_2__all_8inc.html#aeaa3f25d9899175529a8fc8f4bc7b928", null ]
+    [ "isnt_bool", "d4/dfb/lib_2__all_8inc.html#a0286756d17c84fdf4ea3cbfb02afcccd", null ],
+    [ "isnt_int", "d4/dfb/lib_2__all_8inc.html#a7623c081a110e425bd8508c969ef7008", null ]
 ];
