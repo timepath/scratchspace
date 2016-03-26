@@ -1,6 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"da/d10/sv__vehicles_8qc.html#af3487605a196c9df59ed3a8f0c8c6a04":[2,0,1,15,6,12],
 "da/d10/sv__vehicles_8qc.html#af85186f6c5cb958bec1b1da922480fb4":[2,0,1,15,6,31],
 "da/d10/sv__vehicles_8qc.html#af9f523c64fcdf74c361987a365a014a7":[2,0,1,15,6,4],
 "da/d10/sv__vehicles_8qc.html#afcba25c827d948daf47134038eb3b300":[2,0,1,15,6,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX78 =
 "da/d2a/classXonoticDecibelsSlider.html#ae36c978d138b97307b37a555afc4ae96":[1,0,141,84],
 "da/d2a/classXonoticDecibelsSlider.html#ae7a169abde25f6d0c42837b1b201f11a":[1,0,141,79],
 "da/d2a/classXonoticDecibelsSlider.html#ae7ad12c455973e01e6ffaaa65114ed32":[1,0,141,14],
-"da/d2a/classXonoticDecibelsSlider.html#aea5fb36788b7e80430382aa285d4f87e":[1,0,141,37]
+"da/d2a/classXonoticDecibelsSlider.html#aea5fb36788b7e80430382aa285d4f87e":[1,0,141,37],
+"da/d2a/classXonoticDecibelsSlider.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,141,23]
 };

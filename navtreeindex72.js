@@ -1,6 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"d9/d09/common_2mutators_2mutator_2waypoints_2__mod_8inc.html":[2,0,1,9,0,31,0],
 "d9/d09/common_2mutators_2mutator_2waypoints_2__mod_8inc_source.html":[2,0,1,9,0,31,0],
 "d9/d09/spawn__near__teammate_8qc.html":[2,0,1,9,0,26,2],
 "d9/d09/spawn__near__teammate_8qc_source.html":[2,0,1,9,0,26,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX72 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#af541a04576d13c43efa058b4bd3c01da":[1,0,210,54],
 "d9/d37/classXonoticScreenshotBrowserTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,210,49],
 "d9/d37/classXonoticScreenshotBrowserTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,210,29],
-"d9/d37/classXonoticScreenshotBrowserTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,210,2]
+"d9/d37/classXonoticScreenshotBrowserTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,210,2],
+"d9/d37/classXonoticScreenshotBrowserTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,210,27]
 };

@@ -232,6 +232,7 @@ var NAVTREEINDEX31 =
 "d4/d0f/buffs_8qc_source.html":[2,0,1,9,0,2,4],
 "d4/d12/racetimer_8qc.html":[2,0,0,1,0,27],
 "d4/d12/racetimer_8qc.html#ab9a7c1bca2d8d5e98402f03d1997b9ca":[2,0,0,1,0,27,0],
+"d4/d12/racetimer_8qc.html#acf3c4bd6bb979c6b7e14f32742cd71dd":[2,0,0,1,0,27,1],
 "d4/d12/racetimer_8qc_source.html":[2,0,0,1,0,27],
 "d4/d13/onslaught_8qc.html":[2,0,1,3,0,1,6],
 "d4/d13/onslaught_8qc.html#a081942b1cacb71c2b8c7f9001787a102":[2,0,1,3,0,1,6,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "d4/d16/label_8qc.html#aec39292cc952b6ce3d9f074916ef22c1":[2,0,4,2,17,2],
 "d4/d16/label_8qc.html#afb7185f15bb2b9ebf7c5d05ac7d7c553":[2,0,4,2,17,0],
 "d4/d16/label_8qc.html#afd8334cae30cb0a7cee0f707c9024c9c":[2,0,4,2,17,1],
-"d4/d16/label_8qc_source.html":[2,0,4,2,17],
-"d4/d17/classVortex.html":[1,0,115]
+"d4/d16/label_8qc_source.html":[2,0,4,2,17]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"d4/da4/pointparticles_8qc_source.html":[2,0,1,13,0,17],
 "d4/da5/classXonoticBigCommandButton.html":[1,0,125],
 "d4/da5/classXonoticBigCommandButton.html#a09558581cc0090d8cdcfd1ec9411f74c":[1,0,125,40],
 "d4/da5/classXonoticBigCommandButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,125,68],
@@ -144,8 +145,8 @@ var NAVTREEINDEX38 =
 "d4/db7/cl__minigames_8qc.html#a14e89872347ae0a8a8837044d3a4e843":[2,0,1,6,2,24],
 "d4/db7/cl__minigames_8qc.html#a1f6ef69cdb8e81bc1e15fabab69263ad":[2,0,1,6,2,12],
 "d4/db7/cl__minigames_8qc.html#a2bfa41f483dd2261456f0d4dfd480ca3":[2,0,1,6,2,13],
-"d4/db7/cl__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7":[2,0,1,6,2,1],
 "d4/db7/cl__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7":[2,0,1,6,2,0],
+"d4/db7/cl__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7":[2,0,1,6,2,1],
 "d4/db7/cl__minigames_8qc.html#a3248db1aa7a2ca4c46e7cbe9e220b3f2":[2,0,1,6,2,19],
 "d4/db7/cl__minigames_8qc.html#a37ea072c5a8a7cfd95436fae838b9c52":[2,0,1,6,2,6],
 "d4/db7/cl__minigames_8qc.html#a3b4976c5caa2806d8bf77936fb1173c1":[2,0,1,6,2,29],
@@ -157,8 +158,8 @@ var NAVTREEINDEX38 =
 "d4/db7/cl__minigames_8qc.html#a605390385ce9a045ef096e8d53b6d98b":[2,0,1,6,2,10],
 "d4/db7/cl__minigames_8qc.html#a668aa690502b071b56dfd97e425d8d3e":[2,0,1,6,2,35],
 "d4/db7/cl__minigames_8qc.html#a68129c07b3fb8f85a27d8d3239a21dae":[2,0,1,6,2,42],
-"d4/db7/cl__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,2,2],
 "d4/db7/cl__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,2,3],
+"d4/db7/cl__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,2,2],
 "d4/db7/cl__minigames_8qc.html#a7106641b219836128248d423976191df":[2,0,1,6,2,28],
 "d4/db7/cl__minigames_8qc.html#a71b9a14278d7d6948c3c368942227a40":[2,0,1,6,2,7],
 "d4/db7/cl__minigames_8qc.html#a74fcaa9da40aa62de287463ceb0a2908":[2,0,1,6,2,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "d4/dcc/skin_8qh_source.html":[2,0,4,17],
 "d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc.html":[2,0,1,9,0,22,0],
 "d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc_source.html":[2,0,1,9,0,22,0],
-"d4/dce/weapons_8qh.html":[2,0,0,1,0,38],
-"d4/dce/weapons_8qh_source.html":[2,0,0,1,0,38]
+"d4/dce/weapons_8qh.html":[2,0,0,1,0,38]
 };

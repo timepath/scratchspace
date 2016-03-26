@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"df/db0/powerups_8qc.html#af6eb40a51e45bc6e790aaee84dc7e486":[2,0,0,1,0,21,2],
 "df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a":[2,0,0,1,0,21,5],
 "df/db0/powerups_8qc_source.html":[2,0,0,1,0,21],
 "df/db3/mlrs_8qc.html":[2,0,1,14,0,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "df/dd4/navigation_8qh.html#acdb33c0ca48e8abd888a76b7ab7e71d6":[2,0,5,0,7,53],
 "df/dd4/navigation_8qh.html#ace7a78f6a84267a15d64745b9db6ec35":[2,0,5,0,7,46],
 "df/dd4/navigation_8qh.html#ad1ed9d9726a49a43a91cbd1615933d73":[2,0,5,0,7,42],
-"df/dd4/navigation_8qh.html#ad2bd8bd2a08366fd2c06e708460e59bd":[2,0,5,0,7,64],
-"df/dd4/navigation_8qh.html#ad6043e1c9ec3ebff0b976a4196ddc67d":[2,0,5,0,7,43]
+"df/dd4/navigation_8qh.html#ad2bd8bd2a08366fd2c06e708460e59bd":[2,0,5,0,7,64]
 };

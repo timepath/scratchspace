@@ -1,6 +1,5 @@
 var NAVTREEINDEX71 =
 {
-"d8/def/classWeaponPickup.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,120,1],
 "d8/def/classWeaponPickup.html#a7357a3badf480bbfe18c110d15cbd2f8":[1,0,120,2],
 "d8/def/classWeaponPickup.html#a7d7a1817ddfcece5aa3e23c939a0097e":[1,0,120,5],
 "d8/def/classWeaponPickup.html#a8afe36958e49e4e0bb141d2e7248b21c":[1,0,120,13],
@@ -249,5 +248,6 @@ var NAVTREEINDEX71 =
 "d9/d08/client_2defs_8qh.html#af18029dc3e4270b4bd78ce61838c36b6":[2,0,0,14,42],
 "d9/d08/client_2defs_8qh.html#af181b46d8560f88b6a4612ac35d57a46":[2,0,0,14,62],
 "d9/d08/client_2defs_8qh.html#af388c4e5001dfa76a890f8f07c52f8ab":[2,0,0,14,20],
-"d9/d08/client_2defs_8qh_source.html":[2,0,0,14]
+"d9/d08/client_2defs_8qh_source.html":[2,0,0,14],
+"d9/d09/common_2mutators_2mutator_2waypoints_2__mod_8inc.html":[2,0,1,9,0,31,0]
 };

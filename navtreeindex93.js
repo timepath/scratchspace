@@ -1,6 +1,5 @@
 var NAVTREEINDEX93 =
 {
-"db/deb/roles_8qc_source.html":[2,0,5,0,0,3],
 "db/def/sort_8qh.html":[2,0,3,43],
 "db/def/sort_8qh.html#a3ddcb3e4e37b9c578711255f911c582b":[2,0,3,43,1],
 "db/def/sort_8qh.html#a45075ab7a5511838f438adb5ede68752":[2,0,3,43,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX93 =
 "dc/d06/classDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,22,5],
 "dc/d06/classDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,22,9],
 "dc/d06/classDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,22,24],
-"dc/d06/classDialog.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,22,53]
+"dc/d06/classDialog.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,22,53],
+"dc/d06/classDialog.html#aade4a5316442e027933c0b7db0d7911f":[1,0,22,83]
 };
