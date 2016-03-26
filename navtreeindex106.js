@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"dd/db3/classXonoticQuitDialog.html#aa8da3f783d5bad11252adc81287204c1":[1,0,202,49],
+"dd/db3/classXonoticQuitDialog.html#aaba8e96087e0fa4e99af31feb3d8d1e1":[1,0,202,86],
 "dd/db3/classXonoticQuitDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,202,24],
 "dd/db3/classXonoticQuitDialog.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,202,54],
 "dd/db3/classXonoticQuitDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,202,25],
@@ -60,8 +62,8 @@ var NAVTREEINDEX106 =
 "dd/dcd/hud__config_8qh.html#aff11757a3172f4f26585a7edc21785f0":[2,0,0,1,7,0],
 "dd/dcd/hud__config_8qh_source.html":[2,0,0,1,7],
 "dd/dd5/sv__model_8qc.html":[2,0,3,0,9],
-"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,3,0,9,7],
 "dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,3,0,9,6],
+"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,3,0,9,7],
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,3,0,9,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,3,0,9,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,3,0,9,11],
@@ -69,10 +71,10 @@ var NAVTREEINDEX106 =
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,3,0,9,1],
 "dd/dd5/sv__model_8qc.html#a7d121b60a49265b031a787cd51c411b2":[2,0,3,0,9,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,3,0,9,12],
-"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,3,0,9,2],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,3,0,9,3],
-"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,3,0,9,5],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,3,0,9,2],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,3,0,9,4],
+"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,3,0,9,5],
 "dd/dd5/sv__model_8qc_source.html":[2,0,3,0,9],
 "dd/dd7/classRacer.html":[1,0,86],
 "dd/dd7/classRacer.html#a23b5d8a4e07000e6d08fe727bdf23471":[1,0,86,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "dd/dee/markup_8qc.html#a088441ad2b78dddb6437e32f60ad4a01":[2,0,1,0,6,0],
 "dd/dee/markup_8qc.html#a9c875bc4a887ef4f2209ade5560e3e0c":[2,0,1,0,6,1],
 "dd/dee/markup_8qc_source.html":[2,0,1,0,6],
-"dd/def/dialog__settings__input__userbind_8qc.html":[2,0,4,4,141],
-"dd/def/dialog__settings__input__userbind_8qc.html#a32c465ca5715f92a2335f8067b539aea":[2,0,4,4,141,1],
-"dd/def/dialog__settings__input__userbind_8qc.html#a737ab79b48f62178e515a7842873bbbe":[2,0,4,4,141,2]
+"dd/def/dialog__settings__input__userbind_8qc.html":[2,0,4,4,141]
 };

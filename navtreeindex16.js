@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"d2/d9b/jumppads_8qc.html#a426e2c0aeb56c1aaac71a36298047182":[2,0,1,13,3,13,1],
 "d2/d9b/jumppads_8qc.html#a5f5bb305c622a7ae996e7f7d59139d22":[2,0,1,13,3,13,2],
 "d2/d9b/jumppads_8qc_source.html":[2,0,1,13,3,13],
 "d2/d9e/mapinfo_8qh.html":[2,0,1,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "d2/dc0/bot_8qc.html#afaeae8b4cc57aae2b5db95dbc5440464":[2,0,5,0,4,10],
 "d2/dc0/bot_8qc.html#afea81f6c762e4dd1232aba6bb0e5144e":[2,0,5,0,4,8],
 "d2/dc0/bot_8qc_source.html":[2,0,5,0,4],
-"d2/dc1/items_8qc.html":[2,0,1,9,0,10,2],
-"d2/dc1/items_8qc.html#a045a8cceeaf1b86869edd27414d454bb":[2,0,1,9,0,10,2,13]
+"d2/dc1/items_8qc.html":[2,0,1,9,0,10,2]
 };

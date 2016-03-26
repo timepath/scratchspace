@@ -1,5 +1,6 @@
 var NAVTREEINDEX15 =
 {
+"d2/d58/keyframe_8qc.html#ad457f5897fca4ad705bfc772364f8d17":[2,0,4,0,7,0],
 "d2/d58/keyframe_8qc.html#ad8cd70bf82f02ed5fc9e4347bb0ab9da":[2,0,4,0,7,2],
 "d2/d58/keyframe_8qc_source.html":[2,0,4,0,7],
 "d2/d58/mutators_2mutator_2multijump_2module_8inc.html":[2,0,1,9,0,14,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc.html":[2,0,1,9,0,9,0],
 "d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc_source.html":[2,0,1,9,0,9,0],
 "d2/d9b/jumppads_8qc.html":[2,0,1,13,3,13],
-"d2/d9b/jumppads_8qc.html#a314c2ab38cad8dd0cbe7622152bb918d":[2,0,1,13,3,13,0],
-"d2/d9b/jumppads_8qc.html#a426e2c0aeb56c1aaac71a36298047182":[2,0,1,13,3,13,1]
+"d2/d9b/jumppads_8qc.html#a314c2ab38cad8dd0cbe7622152bb918d":[2,0,1,13,3,13,0]
 };

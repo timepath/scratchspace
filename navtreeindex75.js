@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"d9/d88/sv__controlpoint_8qh.html#a411f4a3f6dd95f6824e02beb5e4253e8":[2,0,1,3,0,1,8,2],
+"d9/d88/sv__controlpoint_8qh.html#a43e7e64d7f45f7521e913d8b22ced2c1":[2,0,1,3,0,1,8,1],
 "d9/d88/sv__controlpoint_8qh.html#a4e21ea690a77be8367e5608dfdebe26f":[2,0,1,3,0,1,8,3],
 "d9/d88/sv__controlpoint_8qh.html#a71fedd372003f8a38071cb6c5ee68e35":[2,0,1,3,0,1,8,4],
 "d9/d88/sv__controlpoint_8qh_source.html":[2,0,1,3,0,1,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX75 =
 "d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh_source.html":[2,0,1,9,0,31,2],
 "d9/dca/classXonoticCommandButton.html":[1,0,134],
 "d9/dca/classXonoticCommandButton.html#a09558581cc0090d8cdcfd1ec9411f74c":[1,0,134,39],
-"d9/dca/classXonoticCommandButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,134,67],
-"d9/dca/classXonoticCommandButton.html#a10cf88734594fed24be93889407c0bda":[1,0,134,12],
-"d9/dca/classXonoticCommandButton.html#a10f084ce6991717bfb4153928818feba":[1,0,134,9]
+"d9/dca/classXonoticCommandButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,134,67]
 };

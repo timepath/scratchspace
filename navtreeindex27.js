@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"d3/dce/classXonoticTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,225,7],
 "d3/dce/classXonoticTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,225,76],
 "d3/dce/classXonoticTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,225,56],
 "d3/dce/classXonoticTab.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,225,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "d3/df2/classDualPlasmaTurret.html#ab783d7bbccec292d9986a3c4ca08def1":[1,0,23,15],
 "d3/df2/classDualPlasmaTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,23,2],
 "d3/df2/classDualPlasmaTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,23,6],
-"d3/df2/classDualPlasmaTurret.html#ac67101a675bbe31ef318eeda847fcfa8":[1,0,23,12],
-"d3/df2/classDualPlasmaTurret.html#ac798f747f2a51bfbeaf516436396a183":[1,0,23,10]
+"d3/df2/classDualPlasmaTurret.html#ac67101a675bbe31ef318eeda847fcfa8":[1,0,23,12]
 };

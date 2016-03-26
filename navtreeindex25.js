@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"d3/d9d/bgmscript_8qh_source.html":[2,0,0,10],
 "d3/d9e/common_2items_2item_2ammo_8qc.html":[2,0,1,5,0,1],
 "d3/d9e/common_2items_2item_2ammo_8qc.html#a14f2dbe239b4f5cd3a2f3ed669ad2baf":[2,0,1,5,0,1,5],
 "d3/d9e/common_2items_2item_2ammo_8qc.html#a1f890b37917ffdf414f765be4f02d56c":[2,0,1,5,0,1,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "d3/dba/classXonoticLanguageList.html#a84f73f4ae366c1014b80bf210c6f0a13":[1,0,183,35],
 "d3/dba/classXonoticLanguageList.html#a85fb9f19525756f33afa6c060b44abab":[1,0,183,17],
 "d3/dba/classXonoticLanguageList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,183,44],
-"d3/dba/classXonoticLanguageList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,183,14],
-"d3/dba/classXonoticLanguageList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,183,46]
+"d3/dba/classXonoticLanguageList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,183,14]
 };

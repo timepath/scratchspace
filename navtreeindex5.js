@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"d0/ddb/dialog__hudpanel__score_8qc_source.html":[2,0,4,4,73],
 "d0/ddd/lib_2stats_8qh.html":[2,0,3,48],
 "d0/ddd/lib_2stats_8qh.html#a0b0131c4067d628042068387ab92aae0":[2,0,3,48,2],
 "d0/ddd/lib_2stats_8qh.html#a2c651e70f251947fd915c2b9617ea4dd":[2,0,3,48,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "d1/d1f/effectinfo__gentle_8inc.html#a2dd9c9ab1ae00126e4e01f9b9450dc94":[2,0,1,2,10,3],
 "d1/d1f/effectinfo__gentle_8inc.html#a6bdb2713ef4ca7971293fa45005db623":[2,0,1,2,10,2],
 "d1/d1f/effectinfo__gentle_8inc.html#aa8f7bc139555532f372bf7e5783c1f8c":[2,0,1,2,10,0],
-"d1/d1f/effectinfo__gentle_8inc_source.html":[2,0,1,2,10],
-"d1/d20/csqcmodel__settings_8qh.html":[2,0,1,27]
+"d1/d1f/effectinfo__gentle_8inc_source.html":[2,0,1,2,10]
 };

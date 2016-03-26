@@ -1,5 +1,6 @@
 var NAVTREEINDEX39 =
 {
+"d4/dce/weapons_8qh.html":[2,0,0,1,0,38],
 "d4/dce/weapons_8qh_source.html":[2,0,0,1,0,38],
 "d4/dd1/spawnpoints_8qh.html":[2,0,5,58],
 "d4/dd1/spawnpoints_8qh.html#a1677a3b258ec3923749405581a961772":[2,0,5,58,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX39 =
 "d4/df8/classXonoticHUDRadarDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,173,11],
 "d4/df8/classXonoticHUDRadarDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,173,51],
 "d4/df8/classXonoticHUDRadarDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,173,19],
-"d4/df8/classXonoticHUDRadarDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,173,35],
-"d4/df8/classXonoticHUDRadarDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,173,45]
+"d4/df8/classXonoticHUDRadarDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,173,35]
 };
