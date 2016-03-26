@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc.html":[2,0,1,9,0,22,0],
+"d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc_source.html":[2,0,1,9,0,22,0],
 "d4/dce/weapons_8qh.html":[2,0,0,1,0,38],
 "d4/dce/weapons_8qh_source.html":[2,0,0,1,0,38],
 "d4/dd1/spawnpoints_8qh.html":[2,0,5,58],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "d4/df8/classXonoticHUDRadarDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,173,18],
 "d4/df8/classXonoticHUDRadarDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,173,8],
 "d4/df8/classXonoticHUDRadarDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,173,11],
-"d4/df8/classXonoticHUDRadarDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,173,51],
-"d4/df8/classXonoticHUDRadarDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,173,19],
-"d4/df8/classXonoticHUDRadarDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,173,35]
+"d4/df8/classXonoticHUDRadarDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,173,51]
 };

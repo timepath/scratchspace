@@ -1,7 +1,5 @@
 var NAVTREEINDEX122 =
 {
-"globals_func_x.html":[2,1,1,24],
-"globals_g.html":[2,1,0,7],
 "globals_h.html":[2,1,0,8],
 "globals_i.html":[2,1,0,9],
 "globals_j.html":[2,1,0,10],
@@ -18,8 +16,8 @@ var NAVTREEINDEX122 =
 "globals_type.html":[2,1,3],
 "globals_u.html":[2,1,0,21],
 "globals_v.html":[2,1,0,22],
-"globals_vars.html":[2,1,2,0],
 "globals_vars.html":[2,1,2],
+"globals_vars.html":[2,1,2,0],
 "globals_vars_a.html":[2,1,2,1],
 "globals_vars_b.html":[2,1,2,2],
 "globals_vars_c.html":[2,1,2,3],

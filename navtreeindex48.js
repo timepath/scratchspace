@@ -1,8 +1,5 @@
 var NAVTREEINDEX48 =
 {
-"d6/d25/triggers_8qh.html#a48083b65ac9a863566dc3e3fff09a5b4":[2,0,1,13,14,7],
-"d6/d25/triggers_8qh.html#a5cae2d94b2259706085b22a13d2f6519":[2,0,1,13,14,15],
-"d6/d25/triggers_8qh.html#a62c381a8dd53927f035d3f51b303e108":[2,0,1,13,14,10],
 "d6/d25/triggers_8qh.html#a636484386e31b6bf4361c83fb77f1b65":[2,0,1,13,14,0],
 "d6/d25/triggers_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46":[2,0,1,13,14,8],
 "d6/d25/triggers_8qh.html#a89a8ee706f5ffbb92ccc84edb26717f4":[2,0,1,13,14,9],
@@ -249,5 +246,8 @@ var NAVTREEINDEX48 =
 "d6/d3e/dialog__multiplayer__media__musicplayer_8qc.html#ae9b7f89bd3642548beae29d55d467f5b":[2,0,4,4,105,1],
 "d6/d3e/dialog__multiplayer__media__musicplayer_8qc_source.html":[2,0,4,4,105],
 "d6/d3f/dialog__hudpanel__physics_8qh.html":[2,0,4,4,62],
-"d6/d3f/dialog__hudpanel__physics_8qh_source.html":[2,0,4,4,62]
+"d6/d3f/dialog__hudpanel__physics_8qh_source.html":[2,0,4,4,62],
+"d6/d3f/nades_8qc.html":[2,0,1,9,0,15,4],
+"d6/d3f/nades_8qc_source.html":[2,0,1,9,0,15,4],
+"d6/d40/dialog__hudpanel__racetimer_8qc.html":[2,0,4,4,69]
 };

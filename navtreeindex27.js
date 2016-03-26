@@ -52,10 +52,12 @@ var NAVTREEINDEX27 =
 "d3/dcf/relay__activators_8qc.html":[2,0,1,13,3,23],
 "d3/dcf/relay__activators_8qc_source.html":[2,0,1,13,3,23],
 "d3/dd0/self_8qh.html":[2,0,3,42],
+"d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87":[2,0,3,42,4],
 "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,3,42,0],
-"d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8":[2,0,3,42,2],
-"d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,3,42,1],
-"d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902":[2,0,3,42,3],
+"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,3,42,1],
+"d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8":[2,0,3,42,3],
+"d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,3,42,2],
+"d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902":[2,0,3,42,5],
 "d3/dd0/self_8qh_source.html":[2,0,3,42],
 "d3/dd3/common_2mutators_2mutator_2bugrigs_2__mod_8inc.html":[2,0,1,9,0,3,0],
 "d3/dd3/common_2mutators_2mutator_2bugrigs_2__mod_8inc_source.html":[2,0,1,9,0,3,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX27 =
 "d3/df2/classDualPlasmaTurret.html#a9cbd0273110d224aa83170c43e29f691":[1,0,23,5],
 "d3/df2/classDualPlasmaTurret.html#ab51103697656de906079b6537d3800bc":[1,0,23,4],
 "d3/df2/classDualPlasmaTurret.html#ab783d7bbccec292d9986a3c4ca08def1":[1,0,23,15],
-"d3/df2/classDualPlasmaTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,23,2],
-"d3/df2/classDualPlasmaTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,23,6],
-"d3/df2/classDualPlasmaTurret.html#ac67101a675bbe31ef318eeda847fcfa8":[1,0,23,12]
+"d3/df2/classDualPlasmaTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,23,2]
 };

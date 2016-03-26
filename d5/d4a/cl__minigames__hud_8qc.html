@@ -773,34 +773,23 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00114">114</a> of file <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html">cl_minigames_hud.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, and <a class="el" href="../../d7/d61/misc_8qh_source.html#l00040">WITH</a>.</p>
+<p>References <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00015">WITHSELF</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00566">HUD_Minigame_InputEvent()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00181">HUD_MinigameMenu_Click_ExpandCollapse()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00365">HUD_MinigameMenu_CurrentButton()</a>, and <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00124">HUD_MinigameMenu_EraseEntry()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">if</span> ( menuitem )</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    {</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">WITH</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, <span class="keyword">self</span>, menuitem, menuitem.use());</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(menuitem, menuitem.use());</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="misc_8qh_html_ae1f2076e3a804bc1a783b66b9621a3ee"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ae1f2076e3a804bc1a783b66b9621a3ee">WITH</a></div><div class="ttdeci">#define WITH(type, name, value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00040">misc.qh:40</a></div></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
+<div class="ttc" id="self_8qh_html_a0a6ed21815e6b8d3ff58b8559ec08c87"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a></div><div class="ttdeci">#define WITHSELF(value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00015">self.qh:15</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a36e72384f2fcae7156722f888cd6315b_cgraph.svg" width="299" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a36e72384f2fcae7156722f888cd6315b_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -823,7 +812,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00181">181</a> of file <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html">cl_minigames_hud.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00129">flags</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00111">HUD_MinigameMenu_activeitem</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00114">HUD_MinigameMenu_Click()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00085">HUD_MinigameMenu_entries</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00087">HUD_MinigameMenu_last_entry</a>, <a class="el" href="../../d6/dbd/minigames_8qh_source.html#l00007">list_next</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00129">flags</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00111">HUD_MinigameMenu_activeitem</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00114">HUD_MinigameMenu_Click()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00085">HUD_MinigameMenu_entries</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00087">HUD_MinigameMenu_last_entry</a>, <a class="el" href="../../d6/dbd/minigames_8qh_source.html#l00007">list_next</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00218">HUD_MinigameMenu_ClickCreate()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00325">HUD_MinigameMenu_ClickCurrentGame()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00284">HUD_MinigameMenu_ClickInvite()</a>, and <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00242">HUD_MinigameMenu_ClickJoin()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
@@ -861,7 +850,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="minigames_8qh_html_ae011c2511486cc58bc0e82ec8be494cf"><div class="ttname"><a href="../../d6/dbd/minigames_8qh.html#ae011c2511486cc58bc0e82ec8be494cf">list_next</a></div><div class="ttdeci">entity list_next</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dbd/minigames_8qh_source.html#l00007">minigames.qh:7</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a36e72384f2fcae7156722f888cd6315b"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a36e72384f2fcae7156722f888cd6315b">HUD_MinigameMenu_Click</a></div><div class="ttdeci">void HUD_MinigameMenu_Click(entity menuitem)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00114">cl_minigames_hud.qc:114</a></div></div>
@@ -870,21 +859,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a34717727bac59a62df9c33c21e0b190a"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a34717727bac59a62df9c33c21e0b190a">HUD_MinigameMenu_last_entry</a></div><div class="ttdeci">entity HUD_MinigameMenu_last_entry</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00087">cl_minigames_hud.qc:87</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a07834aee511d1ccd48492759bd5873e2"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a07834aee511d1ccd48492759bd5873e2">flags</a></div><div class="ttdeci">float flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00129">csprogsdefs.qc:129</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a16c396d8febfeffee09d1790a3662158_cgraph.svg" width="531" height="70"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a16c396d8febfeffee09d1790a3662158_cgraph.svg" width="427" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a16c396d8febfeffee09d1790a3662158_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -907,7 +896,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00218">218</a> of file <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html">cl_minigames_hud.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00181">HUD_MinigameMenu_Click_ExpandCollapse()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00174">HUD_MinigameMenu_ClickCreate_Entry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00090">HUD_MinigameMenu_InsertEntry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00163">HUD_MinigameMenu_SpawnSubEntry()</a>, <a class="el" href="../../d4/db7/cl__minigames_8qc_source.html#l00049">minigame_texture()</a>, <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">prev</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00181">HUD_MinigameMenu_Click_ExpandCollapse()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00174">HUD_MinigameMenu_ClickCreate_Entry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00090">HUD_MinigameMenu_InsertEntry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00163">HUD_MinigameMenu_SpawnSubEntry()</a>, <a class="el" href="../../d4/db7/cl__minigames_8qc_source.html#l00049">minigame_texture()</a>, <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">prev</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00409">HUD_MinigameMenu_Open()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
@@ -924,7 +913,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        });</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    }</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_aa3806155b8445caf2a4de3b1a3a3801a"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#aa3806155b8445caf2a4de3b1a3a3801a">HUD_MinigameMenu_InsertEntry</a></div><div class="ttdeci">void HUD_MinigameMenu_InsertEntry(entity newentry, entity prev)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00090">cl_minigames_hud.qc:90</a></div></div>
@@ -936,21 +925,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 <div class="ttc" id="common_2impulses_2all_8qh_html_a5ea3f8c3f8afcd9e2839d3c46973d866"><div class="ttname"><a href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a></div><div class="ttdeci">prev</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">all.qh:58</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a4e6f8da1909275b871546164a3a4a0b7_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a4e6f8da1909275b871546164a3a4a0b7_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -973,21 +962,21 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00174">174</a> of file <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html">cl_minigames_hud.qc</a>.</p>
 
-<p>References <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00095">minigame_cmd</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>.</p>
+<p>References <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00095">minigame_cmd</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00218">HUD_MinigameMenu_ClickCreate()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a>(<span class="stringliteral">&quot;create &quot;</span>,<span class="keyword">self</span>.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>);</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="powerups_8qc_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00009">powerups.qc:9</a></div></div>
 <div class="ttc" id="cl__minigames_8qh_html_a82f7375b596eef1374f49d41e4b75ad0"><div class="ttname"><a href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a></div><div class="ttdeci">#define minigame_cmd(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3d/cl__minigames_8qh_source.html#l00095">cl_minigames.qh:95</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a7f54f386281d0ed635db107a3adbdda3_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1010,7 +999,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00325">325</a> of file <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html">cl_minigames_hud.qc</a>.</p>
 
-<p>References <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00084">active_minigame</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00181">HUD_MinigameMenu_Click_ExpandCollapse()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00284">HUD_MinigameMenu_ClickInvite()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00271">HUD_MinigameMenu_ClickQuit()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00090">HUD_MinigameMenu_InsertEntry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00163">HUD_MinigameMenu_SpawnSubEntry()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>.</p>
+<p>References <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00084">active_minigame</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00181">HUD_MinigameMenu_Click_ExpandCollapse()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00284">HUD_MinigameMenu_ClickInvite()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00271">HUD_MinigameMenu_ClickQuit()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00090">HUD_MinigameMenu_InsertEntry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00163">HUD_MinigameMenu_SpawnSubEntry()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00365">HUD_MinigameMenu_CurrentButton()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
@@ -1025,7 +1014,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;            _(<span class="stringliteral">&quot;Invite&quot;</span>), <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#a7511a2afc15e07c3256d1309b6bce005">HUD_MinigameMenu_ClickInvite</a>, <span class="keyword">self</span>), <span class="keyword">self</span>);</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    }</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a7511a2afc15e07c3256d1309b6bce005"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a7511a2afc15e07c3256d1309b6bce005">HUD_MinigameMenu_ClickInvite</a></div><div class="ttdeci">void HUD_MinigameMenu_ClickInvite()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00284">cl_minigames_hud.qc:284</a></div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_aa3806155b8445caf2a4de3b1a3a3801a"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#aa3806155b8445caf2a4de3b1a3a3801a">HUD_MinigameMenu_InsertEntry</a></div><div class="ttdeci">void HUD_MinigameMenu_InsertEntry(entity newentry, entity prev)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00090">cl_minigames_hud.qc:90</a></div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a16c396d8febfeffee09d1790a3662158"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a16c396d8febfeffee09d1790a3662158">HUD_MinigameMenu_Click_ExpandCollapse</a></div><div class="ttdeci">bool HUD_MinigameMenu_Click_ExpandCollapse()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00181">cl_minigames_hud.qc:181</a></div></div>
@@ -1033,21 +1022,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="cl__minigames__hud_8qc_html_ac3ba12b349b846036472535a2f1467c9"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#ac3ba12b349b846036472535a2f1467c9">HUD_MinigameMenu_SpawnSubEntry</a></div><div class="ttdeci">entity HUD_MinigameMenu_SpawnSubEntry(string s, void() click, entity parent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00163">cl_minigames_hud.qc:163</a></div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_ac07a122d374bde0e983a68f96e80d6ff"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#ac07a122d374bde0e983a68f96e80d6ff">HUD_MinigameMenu_ClickQuit</a></div><div class="ttdeci">void HUD_MinigameMenu_ClickQuit()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00271">cl_minigames_hud.qc:271</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_ac5de381d30ad8bf095f1404690340066_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_ac5de381d30ad8bf095f1404690340066_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1070,22 +1059,22 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00308">308</a> of file <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html">cl_minigames_hud.qc</a>.</p>
 
-<p>References <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00084">active_minigame</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>.</p>
+<p>References <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00084">active_minigame</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00315">HUD_MinigameMenu_CustomEntry()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <span class="keywordflow">if</span> ( <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a> )</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>.minigame_event(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>,<span class="stringliteral">&quot;menu_click&quot;</span>,<span class="keyword">self</span>.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>);</div>
 <div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="cl__minigames_8qh_html_a4a6481e5c8235c4691bee88fac8beb82"><div class="ttname"><a href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a></div><div class="ttdeci">entity active_minigame</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3d/cl__minigames_8qh_source.html#l00084">cl_minigames.qh:84</a></div></div>
 <div class="ttc" id="powerups_8qc_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00009">powerups.qc:9</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a38af8ff9fddc9af7f58c53703279f8a5_icgraph.svg" width="523" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1108,7 +1097,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00284">284</a> of file <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html">cl_minigames_hud.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae4cf1ba5867cb0c1c0e74926ff8b0a5c">findfloat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00181">HUD_MinigameMenu_Click_ExpandCollapse()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00278">HUD_MinigameMenu_ClickInvite_Entry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00090">HUD_MinigameMenu_InsertEntry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00163">HUD_MinigameMenu_SpawnSubEntry()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00021">maxclients</a>, <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00078">minigame_playerslot</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00139">ping</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00020">player_localnum</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00082">playerslots</a>, <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">prev</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae4cf1ba5867cb0c1c0e74926ff8b0a5c">findfloat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00181">HUD_MinigameMenu_Click_ExpandCollapse()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00278">HUD_MinigameMenu_ClickInvite_Entry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00090">HUD_MinigameMenu_InsertEntry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00163">HUD_MinigameMenu_SpawnSubEntry()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00021">maxclients</a>, <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00078">minigame_playerslot</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00139">ping</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00020">player_localnum</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00082">playerslots</a>, <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">prev</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00325">HUD_MinigameMenu_ClickCurrentGame()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
@@ -1135,7 +1124,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;}</div>
 <div class="ttc" id="cl__minigames_8qh_html_ae6f3121e64bf13d1f759fdcea23cf6d3"><div class="ttname"><a href="../../de/d3d/cl__minigames_8qh.html#ae6f3121e64bf13d1f759fdcea23cf6d3">minigame_playerslot</a></div><div class="ttdeci">float minigame_playerslot</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3d/cl__minigames_8qh_source.html#l00078">cl_minigames.qh:78</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
@@ -1150,21 +1139,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a58ed33525b1e1a9e60f989f03f488503"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a58ed33525b1e1a9e60f989f03f488503">player_localnum</a></div><div class="ttdeci">float player_localnum</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00020">csprogsdefs.qc:20</a></div></div>
 <div class="ttc" id="common_2impulses_2all_8qh_html_a5ea3f8c3f8afcd9e2839d3c46973d866"><div class="ttname"><a href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a></div><div class="ttdeci">prev</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">all.qh:58</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a7511a2afc15e07c3256d1309b6bce005_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a7511a2afc15e07c3256d1309b6bce005_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1187,21 +1176,21 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00278">278</a> of file <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html">cl_minigames_hud.qc</a>.</p>
 
-<p>References <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00095">minigame_cmd</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>.</p>
+<p>References <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00095">minigame_cmd</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00284">HUD_MinigameMenu_ClickInvite()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a>(<span class="stringliteral">&quot;invite #&quot;</span>,<span class="keyword">self</span>.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>);</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="powerups_8qc_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00009">powerups.qc:9</a></div></div>
 <div class="ttc" id="cl__minigames_8qh_html_a82f7375b596eef1374f49d41e4b75ad0"><div class="ttname"><a href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a></div><div class="ttdeci">#define minigame_cmd(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3d/cl__minigames_8qh_source.html#l00095">cl_minigames.qh:95</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a2095c4414944b2bfa69968a9a2b14163_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1224,7 +1213,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00242">242</a> of file <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html">cl_minigames_hud.qc</a>.</p>
 
-<p>References <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00084">active_minigame</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00181">HUD_MinigameMenu_Click_ExpandCollapse()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00235">HUD_MinigameMenu_ClickJoin_Entry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00090">HUD_MinigameMenu_InsertEntry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00163">HUD_MinigameMenu_SpawnSubEntry()</a>, <a class="el" href="../../d4/db7/cl__minigames_8qc_source.html#l00049">minigame_texture()</a>, <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">prev</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
+<p>References <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00084">active_minigame</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00181">HUD_MinigameMenu_Click_ExpandCollapse()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00235">HUD_MinigameMenu_ClickJoin_Entry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00090">HUD_MinigameMenu_InsertEntry()</a>, <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00163">HUD_MinigameMenu_SpawnSubEntry()</a>, <a class="el" href="../../d4/db7/cl__minigames_8qc_source.html#l00049">minigame_texture()</a>, <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">prev</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00409">HUD_MinigameMenu_Open()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
@@ -1248,7 +1237,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    }</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
@@ -1262,21 +1251,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a92cb4960570f604f1f4a44d1c4a10396"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a92cb4960570f604f1f4a44d1c4a10396">HUD_MinigameMenu_ClickJoin_Entry</a></div><div class="ttdeci">void HUD_MinigameMenu_ClickJoin_Entry()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00235">cl_minigames_hud.qc:235</a></div></div>
 <div class="ttc" id="common_2impulses_2all_8qh_html_a5ea3f8c3f8afcd9e2839d3c46973d866"><div class="ttname"><a href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a></div><div class="ttdeci">prev</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">all.qh:58</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a9bde9d0bee5533ed0528b2a87a92cf87_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a9bde9d0bee5533ed0528b2a87a92cf87_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1299,33 +1288,33 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00235">235</a> of file <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html">cl_minigames_hud.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00124">HUD_MinigameMenu_EraseEntry()</a>, <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00095">minigame_cmd</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00009">SELFPARAM</a>.</p>
+<p>References <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00124">HUD_MinigameMenu_EraseEntry()</a>, <a class="el" href="../../de/d3d/cl__minigames_8qh_source.html#l00095">minigame_cmd</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00242">HUD_MinigameMenu_ClickJoin()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a>(<span class="stringliteral">&quot;join &quot;</span>,<span class="keyword">self</span>.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>);</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#a1ba10a9b36cce92f0d8c066599961241">HUD_MinigameMenu_EraseEntry</a>(<span class="keyword">self</span>);</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00009">self.qh:9</a></div></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="powerups_8qc_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00009">powerups.qc:9</a></div></div>
 <div class="ttc" id="cl__minigames_8qh_html_a82f7375b596eef1374f49d41e4b75ad0"><div class="ttname"><a href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a></div><div class="ttdeci">#define minigame_cmd(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3d/cl__minigames_8qh_source.html#l00095">cl_minigames.qh:95</a></div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a1ba10a9b36cce92f0d8c066599961241"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a1ba10a9b36cce92f0d8c066599961241">HUD_MinigameMenu_EraseEntry</a></div><div class="ttdeci">void HUD_MinigameMenu_EraseEntry(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00124">cl_minigames_hud.qc:124</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a92cb4960570f604f1f4a44d1c4a10396_cgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a92cb4960570f604f1f4a44d1c4a10396_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1358,21 +1347,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="cl__minigames_8qc_html_a494190b92b736511115345e0437821b6"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#a494190b92b736511115345e0437821b6">deactivate_minigame</a></div><div class="ttdeci">void deactivate_minigame()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/cl__minigames_8qc_source.html#l00083">cl_minigames.qc:83</a></div></div>
 <div class="ttc" id="cl__minigames_8qh_html_a82f7375b596eef1374f49d41e4b75ad0"><div class="ttname"><a href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a></div><div class="ttdeci">#define minigame_cmd(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3d/cl__minigames_8qh_source.html#l00095">cl_minigames.qh:95</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_ac07a122d374bde0e983a68f96e80d6ff_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_ac07a122d374bde0e983a68f96e80d6ff_icgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1425,21 +1414,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a34717727bac59a62df9c33c21e0b190a"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a34717727bac59a62df9c33c21e0b190a">HUD_MinigameMenu_last_entry</a></div><div class="ttdeci">entity HUD_MinigameMenu_last_entry</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00087">cl_minigames_hud.qc:87</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_aa3aaed8194be2a5a764a6c729e805599"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#aa3aaed8194be2a5a764a6c729e805599">autocvar_hud_cursormode</a></div><div class="ttdeci">bool autocvar_hud_cursormode</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00157">autocvars.qh:157</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a61504b558834e7fd0fadfbe84ea44208_cgraph.svg" width="459" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a61504b558834e7fd0fadfbe84ea44208_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1522,21 +1511,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a1ba10a9b36cce92f0d8c066599961241"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a1ba10a9b36cce92f0d8c066599961241">HUD_MinigameMenu_EraseEntry</a></div><div class="ttdeci">void HUD_MinigameMenu_EraseEntry(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00124">cl_minigames_hud.qc:124</a></div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_ac5de381d30ad8bf095f1404690340066"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#ac5de381d30ad8bf095f1404690340066">HUD_MinigameMenu_ClickCurrentGame</a></div><div class="ttdeci">void HUD_MinigameMenu_ClickCurrentGame()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00325">cl_minigames_hud.qc:325</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a9fe5e1ecd85619f47457c738cb30229c_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a9fe5e1ecd85619f47457c738cb30229c_icgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1590,11 +1579,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a38af8ff9fddc9af7f58c53703279f8a5"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a38af8ff9fddc9af7f58c53703279f8a5">HUD_MinigameMenu_ClickCustomEntry</a></div><div class="ttdeci">void HUD_MinigameMenu_ClickCustomEntry()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00308">cl_minigames_hud.qc:308</a></div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_ac3ba12b349b846036472535a2f1467c9"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#ac3ba12b349b846036472535a2f1467c9">HUD_MinigameMenu_SpawnSubEntry</a></div><div class="ttdeci">entity HUD_MinigameMenu_SpawnSubEntry(string s, void() click, entity parent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00163">cl_minigames_hud.qc:163</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a5ed0885dbacdb80553f2f4ac8b9e456d_cgraph.svg" width="100%" height="457"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1645,21 +1634,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a0b04e01c228e625bb2627bee15484910"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a></div><div class="ttdeci">const float DRAWFLAG_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00317">csprogsdefs.qc:317</a></div></div>
 <div class="ttc" id="cl__minigames_8qc_html_a02caccc9afc8eec2f9c7ed6fc85eac95"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#a02caccc9afc8eec2f9c7ed6fc85eac95">minigame_drawcolorcodedstring_trunc</a></div><div class="ttdeci">void minigame_drawcolorcodedstring_trunc(float maxwidth, vector pos, string text, vector fontsize, float theAlpha, int drawflags)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/cl__minigames_8qc_source.html#l00350">cl_minigames.qc:350</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a32170c7d7af7b3ca817db8ae4a1c73e0_cgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a32170c7d7af7b3ca817db8ae4a1c73e0_icgraph.svg" width="438" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1717,21 +1706,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a0b04e01c228e625bb2627bee15484910"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a></div><div class="ttdeci">const float DRAWFLAG_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00317">csprogsdefs.qc:317</a></div></div>
 <div class="ttc" id="cl__minigames_8qc_html_a9ba4163f64eccb4bc6a3c4d86679558e"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#a9ba4163f64eccb4bc6a3c4d86679558e">minigame_drawstring_trunc</a></div><div class="ttdeci">void minigame_drawstring_trunc(float maxwidth, vector pos, string text, vector fontsize, vector color, float theAlpha, int drawflags)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/cl__minigames_8qc_source.html#l00343">cl_minigames.qc:343</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-36-content" class="dyncontent" style="display:none;">
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_abbccfa011e7eb051f22a6f2a62c63da2_cgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_abbccfa011e7eb051f22a6f2a62c63da2_icgraph.svg" width="422" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1786,21 +1775,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a030497aded1dcebacf1213c1242700dd"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a030497aded1dcebacf1213c1242700dd">HUD_MinigameMenu_entries</a></div><div class="ttdeci">entity HUD_MinigameMenu_entries</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00085">cl_minigames_hud.qc:85</a></div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a34717727bac59a62df9c33c21e0b190a"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a34717727bac59a62df9c33c21e0b190a">HUD_MinigameMenu_last_entry</a></div><div class="ttdeci">entity HUD_MinigameMenu_last_entry</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00087">cl_minigames_hud.qc:87</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a1ba10a9b36cce92f0d8c066599961241_cgraph.svg" width="566" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a1ba10a9b36cce92f0d8c066599961241_cgraph.svg" width="462" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a1ba10a9b36cce92f0d8c066599961241_icgraph.svg" width="100%" height="536"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1858,11 +1847,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a34717727bac59a62df9c33c21e0b190a"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a34717727bac59a62df9c33c21e0b190a">HUD_MinigameMenu_last_entry</a></div><div class="ttdeci">entity HUD_MinigameMenu_last_entry</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00087">cl_minigames_hud.qc:87</a></div></div>
 <div class="ttc" id="common_2impulses_2all_8qh_html_a5ea3f8c3f8afcd9e2839d3c46973d866"><div class="ttname"><a href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a></div><div class="ttdeci">prev</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">all.qh:58</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-40-content" class="dyncontent" style="display:none;">
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_aa3806155b8445caf2a4de3b1a3a3801a_icgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1894,11 +1883,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
 <div class="ttc" id="cl__minigames__hud_8qc_html_a030497aded1dcebacf1213c1242700dd"><div class="ttname"><a href="../../d5/d4a/cl__minigames__hud_8qc.html#a030497aded1dcebacf1213c1242700dd">HUD_MinigameMenu_entries</a></div><div class="ttdeci">entity HUD_MinigameMenu_entries</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00085">cl_minigames_hud.qc:85</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-41-content" class="dyncontent" style="display:none;">
+<div id="dynsection-40-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_ab1c5f554f29bac879163c40cc284d949_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1967,21 +1956,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="hud_8qh_html_a2bf8c8746e287dd49aa6097880e189ee"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a2bf8c8746e287dd49aa6097880e189ee">HUD_PANEL</a></div><div class="ttdeci">#define HUD_PANEL(NAME)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00022">hud.qh:22</a></div></div>
 <div class="ttc" id="hud_8qh_html_a4f2ef159603abfc9874669062e6ff51f"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a4f2ef159603abfc9874669062e6ff51f">panel_bg_padding</a></div><div class="ttdeci">float panel_bg_padding</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00146">hud.qh:146</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-42-content" class="dyncontent" style="display:none;">
+<div id="dynsection-41-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a095bbde3ad57290772ebabf516e9881b_cgraph.svg" width="342" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-43-content" class="dyncontent" style="display:none;">
+<div id="dynsection-42-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a095bbde3ad57290772ebabf516e9881b_icgraph.svg" width="446" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2034,21 +2023,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="client_2autocvars_8qh_html_aa3aaed8194be2a5a764a6c729e805599"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#aa3aaed8194be2a5a764a6c729e805599">autocvar_hud_cursormode</a></div><div class="ttdeci">bool autocvar_hud_cursormode</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00157">autocvars.qh:157</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a48f386cb348d88d4ae961d010fe8b549"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a></div><div class="ttdeci">vector hud_fontsize</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00075">main.qh:75</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-44-content" class="dyncontent" style="display:none;">
+<div id="dynsection-43-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_ab99d36760ffb8dd4ffd00761540f9876_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-45-content" class="dyncontent" style="display:none;">
+<div id="dynsection-44-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_ab99d36760ffb8dd4ffd00761540f9876_icgraph.svg" width="611" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2118,21 +2107,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_a60338c2153150633178af678cf3ca57c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a></div><div class="ttdeci">entity spawn(void)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-46-content" class="dyncontent" style="display:none;">
+<div id="dynsection-45-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a8f42fe8f3a5c5479ba6d7baaa7b7fb70_cgraph.svg" width="347" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-47-content" class="dyncontent" style="display:none;">
+<div id="dynsection-46-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a8f42fe8f3a5c5479ba6d7baaa7b7fb70_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2189,21 +2178,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="client_2main_8qh_html_a48f386cb348d88d4ae961d010fe8b549"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a></div><div class="ttdeci">vector hud_fontsize</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00075">main.qh:75</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-48-content" class="dyncontent" style="display:none;">
+<div id="dynsection-47-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_ac3ba12b349b846036472535a2f1467c9_cgraph.svg" width="614" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-49-content" class="dyncontent" style="display:none;">
+<div id="dynsection-48-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_ac3ba12b349b846036472535a2f1467c9_icgraph.svg" width="100%" height="548"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2264,11 +2253,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="hud_8qh_html_a840afaa2a334ccee0e850c2240a2b993"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a840afaa2a334ccee0e850c2240a2b993">HUD_Panel_UpdateCvars</a></div><div class="ttdeci">#define HUD_Panel_UpdateCvars()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00350">hud.qh:350</a></div></div>
 <div class="ttc" id="hud_8qh_html_a4f2ef159603abfc9874669062e6ff51f"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a4f2ef159603abfc9874669062e6ff51f">panel_bg_padding</a></div><div class="ttdeci">float panel_bg_padding</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00146">hud.qh:146</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-50-content" class="dyncontent" style="display:none;">
+<div id="dynsection-49-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a9361acbd02179cba8f8efb4ac637a7a2_cgraph.svg" width="382" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2308,21 +2297,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_a65fcee980f5a018b481188a84ead405f"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a></div><div class="ttdeci">vector stov(string s)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a6f8c7ef6ee4a4d851aaa5fd1789eab9a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a></div><div class="ttdeci">const string cvar_string(string name)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-51-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-51-content" class="dyncontent" style="display:none;">
+<div id="dynsection-50-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a77f600677e1042ade16838e50cb31fde_cgraph.svg" width="278" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-52" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-52-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-52-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-51-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-52-content" class="dyncontent" style="display:none;">
+<div id="dynsection-51-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d4a/cl__minigames__hud_8qc_a77f600677e1042ade16838e50cb31fde_icgraph.svg" width="555" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2399,7 +2388,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../d5/d4a/cl__minigames__hud_8qc.html">cl_minigames_hud.qc</a></li>
-    <li class="footer">Generated on Sat Mar 26 2016 15:01:52 for Xonotic by
+    <li class="footer">Generated on Sat Mar 26 2016 15:25:09 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

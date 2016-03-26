@@ -1,8 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"d5/d6c/classXonoticHUDSkinList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,175,25],
-"d5/d6d/util__server_8qc.html":[2,0,3,1,11],
-"d5/d6d/util__server_8qc.html#a4f4d2cd9e94af827d850c8396ae983db":[2,0,3,1,11,0],
 "d5/d6d/util__server_8qc_source.html":[2,0,3,1,11],
 "d5/d6f/xonotic_2checkbox_8qc.html":[2,0,4,4,11],
 "d5/d6f/xonotic_2checkbox_8qc.html#a10aa8dc6f022dcc1df8ef8b5153ac9d0":[2,0,4,4,11,1],
@@ -249,5 +246,8 @@ var NAVTREEINDEX43 =
 "d5/d99/classVaporizer.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,113,17],
 "d5/d99/classVaporizer.html#a1b01884770cf782e1003225a352033dd":[1,0,113,22],
 "d5/d99/classVaporizer.html#a20cc8617856e3fbdcff8458e12ed24b3":[1,0,113,30],
-"d5/d99/classVaporizer.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,113,16]
+"d5/d99/classVaporizer.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,113,16],
+"d5/d99/classVaporizer.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,113,14],
+"d5/d99/classVaporizer.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,113,18],
+"d5/d99/classVaporizer.html#a3af421ab69c4ea7c789a44551fe77eb4":[1,0,113,29]
 };
