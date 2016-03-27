@@ -625,8 +625,8 @@ $(document).ready(function(){initNavTree('d7/d2b/server_8qc_source.html','../../
 <div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;</div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;<span class="keywordtype">void</span> WarpZone_InitStep_FindOriginTarget()</div>
-<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;<span class="keywordtype">void</span> WarpZone_InitStep_FindOriginTarget(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;{</div>
 <div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70">killtarget</a> != <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    {</div>
 <div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a9d8f05707745e18415d786a00cd398e8">aiment</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, this.<a class="code" href="../../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70">killtarget</a>);</div>
@@ -639,8 +639,8 @@ $(document).ready(function(){initNavTree('d7/d2b/server_8qc_source.html','../../
 <div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    }</div>
 <div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;}</div>
 <div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;</div>
-<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;<span class="keywordtype">void</span> WarpZonePosition_InitStep_FindTarget()</div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;<span class="keywordtype">void</span> WarpZonePosition_InitStep_FindTarget(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;{</div>
 <div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    {</div>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;Warp zone position with no target&quot;</span>);</div>
@@ -677,8 +677,8 @@ $(document).ready(function(){initNavTree('d7/d2b/server_8qc_source.html','../../
 <div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;}</div>
 <div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;</div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;<span class="keywordtype">void</span> WarpZoneCamera_InitStep_FindTarget()</div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;<span class="keywordtype">void</span> WarpZoneCamera_InitStep_FindTarget(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;{</div>
 <div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
 <div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    <span class="keywordtype">float</span> i;</div>
 <div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
@@ -707,8 +707,8 @@ $(document).ready(function(){initNavTree('d7/d2b/server_8qc_source.html','../../
 <div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = 0;</div>
 <div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;}</div>
 <div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;<span class="keywordtype">void</span> WarpZone_InitStep_UpdateTransform()</div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;<span class="keywordtype">void</span> WarpZone_InitStep_UpdateTransform(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;{</div>
 <div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> org, ang, norm, point;</div>
 <div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    <span class="keywordtype">float</span> area;</div>
 <div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> tri, a, b, c, n;</div>
@@ -788,16 +788,16 @@ $(document).ready(function(){initNavTree('d7/d2b/server_8qc_source.html','../../
 <div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;    this.<a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#ab93f220d94ffef04bb659bf289b95872">warpzone_angles</a> = ang;</div>
 <div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;}</div>
 <div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;<span class="keywordtype">void</span> WarpZone_InitStep_ClearTarget()</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;<span class="keywordtype">void</span> WarpZone_InitStep_ClearTarget(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;{</div>
 <div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>)</div>
 <div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>.enemy = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
 <div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
 <div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;}</div>
 <div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;</div>
 <div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> warpzone_first; .entity warpzone_next;</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;<span class="keywordtype">void</span> WarpZone_InitStep_FindTarget()</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;<span class="keywordtype">void</span> WarpZone_InitStep_FindTarget(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;{</div>
 <div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;    <span class="keywordtype">float</span> i;</div>
 <div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, e2;</div>
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;</div>
@@ -827,8 +827,8 @@ $(document).ready(function(){initNavTree('d7/d2b/server_8qc_source.html','../../
 <div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;}</div>
 <div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;</div>
 <div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;<span class="keywordtype">void</span> WarpZone_Think();</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;<span class="keywordtype">void</span> WarpZone_InitStep_FinalizeTransform()</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;<span class="keywordtype">void</span> WarpZone_InitStep_FinalizeTransform(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;{</div>
 <div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    <span class="keywordflow">if</span>(!this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a> || this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>.enemy != <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    {</div>
 <div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;Invalid warp zone detected. Killed.&quot;</span>);</div>
@@ -924,150 +924,141 @@ $(document).ready(function(){initNavTree('d7/d2b/server_8qc_source.html','../../
 <div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;    warpzone_camera_first = <span class="keyword">this</span>;</div>
 <div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;}</div>
 <div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;<span class="keywordtype">void</span> WarpZones_Reconnect()</div>
-<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;        WarpZone_InitStep_ClearTarget();</div>
-<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;        WarpZone_InitStep_FindTarget();</div>
-<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_camera_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;        WarpZoneCamera_InitStep_FindTarget();</div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;        WarpZone_InitStep_FinalizeTransform();</div>
-<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;}</div>
-<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;</div>
-<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;<span class="keywordtype">void</span> WarpZone_Think()</div>
-<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d7/d2b/server_8qc.html#a8124b96138d4ea43d3d713d522b368c3">warpzone_save_origin</a> != <span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a></div>
-<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;    || <span class="keyword">self</span>.<a class="code" href="../../d7/d2b/server_8qc.html#a96cd9e7a2b1b14b6f4221036f1558dea">warpzone_save_angles</a> != <span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a></div>
-<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;    || <span class="keyword">self</span>.<a class="code" href="../../d7/d2b/server_8qc.html#aa4f9b4a364019f7370d9d97df16e1a81">warpzone_save_eorigin</a> != <span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>.origin</div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;    || <span class="keyword">self</span>.warpzone_save_eangles != <span class="keyword">self</span>.enemy.angles)</div>
-<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;    {</div>
-<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;        WarpZone_InitStep_UpdateTransform();</div>
-<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>);</div>
-<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;        WarpZone_InitStep_UpdateTransform();</div>
-<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;        WarpZone_InitStep_FinalizeTransform();</div>
-<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>);</div>
-<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;        WarpZone_InitStep_FinalizeTransform();</div>
-<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;        <span class="keyword">self</span>.warpzone_save_origin = <span class="keyword">self</span>.origin;</div>
-<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;        <span class="keyword">self</span>.warpzone_save_angles = <span class="keyword">self</span>.angles;</div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;        <span class="keyword">self</span>.warpzone_save_eorigin = <span class="keyword">self</span>.enemy.origin;</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;        <span class="keyword">self</span>.warpzone_save_eangles = <span class="keyword">self</span>.enemy.angles;</div>
-<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;    }</div>
-<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;    <span class="keyword">self</span>.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;}</div>
-<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;</div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;<span class="keywordtype">void</span> WarpZone_StartFrame()</div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;{</div>
-<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;    <span class="keywordflow">if</span> (!warpzone_initialized)</div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;    {</div>
-<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        warpzone_initialized = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;            WarpZone_InitStep_FindOriginTarget();</div>
-<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_position_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;            WarpZonePosition_InitStep_FindTarget();</div>
-<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;        <span class="keywordflow">for</span> (<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;            WarpZone_InitStep_UpdateTransform();</div>
-<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;        WarpZones_Reconnect();</div>
-<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;        <a class="code" href="../../d3/d4f/sv__main_8qc.html#a4dc5316f2758ed54f716d22cf319ca8b">WarpZone_PostInitialize_Callback</a>();</div>
-<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;    }</div>
-<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;</div>
-<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> oldother = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
-<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;</div>
-<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac7be983f0d2a4092882641da68983fa7">FOREACH_ENTITY</a>(<span class="keyword">true</span>,</div>
-<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;    {</div>
-<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#ab91dff2d443f30ac71613a988a2c4de7">warpzone_warpzones_exist</a>)</div>
-<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;            WarpZone_StoreProjectileData(it);</div>
-<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;</div>
-<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a14e7b447f7917f8ac7e0198ee25b2bc2">IS_OBSERVER</a>(it) || it.solid == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>)</div>
-<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(it)) <span class="comment">// we don&#39;t care about it being a bot</span></div>
-<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;        {</div>
-<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a> = it; <span class="comment">// player</span></div>
-<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;</div>
-<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;            <span class="comment">// warpzones</span></div>
-<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#ab91dff2d443f30ac71613a988a2c4de7">warpzone_warpzones_exist</a>) {</div>
-<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;                <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a191c61933b716c17f4aaac24e9049664">WarpZone_Find</a>(it.origin + it.mins, it.origin + it.maxs));</div>
-<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;                <span class="keywordflow">if</span> (<span class="keyword">self</span>)</div>
-<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;                <span class="keywordflow">if</span> (!<a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a3a9da1c7eaf49a03b0fb365d32f5f406">WarpZoneLib_ExactTrigger_Touch</a>())</div>
-<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a2018735e46e92291e817760b35132007">WarpZone_PlaneDist</a>(<span class="keyword">self</span>, it.origin + it.view_ofs) &lt;= 0)</div>
-<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;                    <a class="code" href="../../d7/d2b/server_8qc.html#acc540ec5b1736673c16d2e7d5ca8b739">WarpZone_Teleport</a>(<span class="keyword">self</span>, it, -1, 0); <span class="comment">// NOT triggering targets by this!</span></div>
-<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;            }</div>
-<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;</div>
-<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;            <span class="comment">// teleporters</span></div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>.teleportable)</div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;            {</div>
-<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;                <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<a class="code" href="../../d0/d6b/teleporters_8qc.html#ae83899906c50cefd7cfacc428fa065fe">Teleport_Find</a>(it.origin + it.mins, it.origin + it.maxs));</div>
-<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;                <span class="keywordflow">if</span> (<span class="keyword">self</span>)</div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;                <span class="keywordflow">if</span> (!<a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a3a9da1c7eaf49a03b0fb365d32f5f406">WarpZoneLib_ExactTrigger_Touch</a>())</div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;                    <a class="code" href="../../d0/d6b/teleporters_8qc.html#a883996b20943d07115cb929039dd0956">Simple_TeleportPlayer</a>(<span class="keyword">self</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>); <span class="comment">// NOT triggering targets by this!</span></div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;            }</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;        }</div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;    });</div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a> = oldother;</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;}</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;</div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;.float warpzone_reconnecting;</div>
-<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;<span class="keywordtype">bool</span> visible_to_some_client(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> ent)</div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;{</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac7be983f0d2a4092882641da68983fa7">FOREACH_ENTITY</a>(!<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a39b1d6b6d09aad4f80de90641365be82">IS_NOT_A_CLIENT</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a94c5b969ccc333b040b402d69d3338a2">checkpvs</a>(it.origin + it.view_ofs, ent)) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;    ));</div>
-<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;}</div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;<span class="keywordtype">void</span> trigger_warpzone_reconnect_use()</div>
-<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
-<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;    e = <span class="keyword">self</span>;</div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;    <span class="comment">// NOTE: this matches for target, not targetname, but of course</span></div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;    <span class="comment">// targetname must be set too on the other entities</span></div>
-<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;        <span class="keyword">self</span>.warpzone_reconnecting = ((e.target == <span class="stringliteral">&quot;&quot;</span> || <span class="keyword">self</span>.target == e.target) &amp;&amp; !((e.spawnflags &amp; 1) &amp;&amp; (visible_to_some_client(<span class="keyword">self</span>) || visible_to_some_client(<span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>))));</div>
-<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_camera_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;        <span class="keyword">self</span>.warpzone_reconnecting = ((e.target == <span class="stringliteral">&quot;&quot;</span> || <span class="keyword">self</span>.target == e.target) &amp;&amp; !((e.spawnflags &amp; 1) &amp;&amp; visible_to_some_client(<span class="keyword">self</span>)));</div>
-<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;        <span class="keywordflow">if</span>(<span class="keyword">self</span>.warpzone_reconnecting)</div>
-<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;            WarpZone_InitStep_ClearTarget();</div>
-<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;        <span class="keywordflow">if</span>(<span class="keyword">self</span>.warpzone_reconnecting)</div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;            WarpZone_InitStep_FindTarget();</div>
-<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_camera_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;        <span class="keywordflow">if</span>(<span class="keyword">self</span>.warpzone_reconnecting)</div>
-<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;            WarpZoneCamera_InitStep_FindTarget();</div>
-<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(warpzone_first); <span class="keyword">self</span>; <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.warpzone_next))</div>
-<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;        <span class="keywordflow">if</span>(<span class="keyword">self</span>.warpzone_reconnecting || <span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>.warpzone_reconnecting)</div>
-<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;            WarpZone_InitStep_FinalizeTransform();</div>
-<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(e);</div>
-<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;}</div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;</div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(trigger_warpzone_reconnect)</div>
-<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;{</div>
-<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;    this.use = trigger_warpzone_reconnect_use;</div>
-<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;}</div>
-<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;</div>
-<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(target_warpzone_reconnect)</div>
-<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;{</div>
-<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;    spawnfunc_trigger_warpzone_reconnect(<span class="keyword">this</span>); <span class="comment">// both names make sense here :(</span></div>
-<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;}</div>
-<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;</div>
-<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;<span class="keywordtype">void</span> WarpZone_PlayerPhysics_FixVAngle(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;{</div>
-<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;<span class="preprocessor">#ifndef WARPZONE_DONT_FIX_VANGLE</span></div>
-<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(<span class="keyword">this</span>))</div>
-<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293">v_angle</a>.z &lt;= 360) <span class="comment">// if not already adjusted</span></div>
-<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a1ae34f64da3c4127ba84944c82cbe279">ping</a> * 0.001 &lt; this.<a class="code" href="../../d7/d2b/server_8qc.html#a87c8adbf5515f698384af759c6dfca66">warpzone_teleport_time</a>)</div>
-<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;    {</div>
-<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;        this.<a class="code" href="../../d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293">v_angle</a> = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a41cf8548d069adaa8207d7b8dd7cd976">WarpZone_TransformVAngles</a>(this.<a class="code" href="../../d7/d2b/server_8qc.html#a52e3f1684a22e4acd0ddef6103c6de64">warpzone_teleport_zone</a>, this.<a class="code" href="../../d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293">v_angle</a>);</div>
-<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;        this.v_angle_z += 720; <span class="comment">// mark as adjusted</span></div>
-<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;    }</div>
-<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;<span class="preprocessor"></span>}</div>
-<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;</div>
-<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;{</div>
+<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;        WarpZone_InitStep_ClearTarget(e);</div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;        WarpZone_InitStep_FindTarget(e);</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_camera_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;        WarpZoneCamera_InitStep_FindTarget(e);</div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;        WarpZone_InitStep_FinalizeTransform(e);</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;}</div>
+<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;</div>
+<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;<span class="keywordtype">void</span> WarpZone_Think()</div>
+<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d7/d2b/server_8qc.html#a8124b96138d4ea43d3d713d522b368c3">warpzone_save_origin</a> != this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a></div>
+<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;    || this.<a class="code" href="../../d7/d2b/server_8qc.html#a96cd9e7a2b1b14b6f4221036f1558dea">warpzone_save_angles</a> != this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a></div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;    || this.<a class="code" href="../../d7/d2b/server_8qc.html#aa4f9b4a364019f7370d9d97df16e1a81">warpzone_save_eorigin</a> != this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>.origin</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;    || <span class="keyword">this</span>.warpzone_save_eangles != <span class="keyword">this</span>.enemy.angles)</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;    {</div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;        WarpZone_InitStep_UpdateTransform(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;        WarpZone_InitStep_UpdateTransform(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>);</div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;        WarpZone_InitStep_FinalizeTransform(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;        WarpZone_InitStep_FinalizeTransform(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>);</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;        this.<a class="code" href="../../d7/d2b/server_8qc.html#a8124b96138d4ea43d3d713d522b368c3">warpzone_save_origin</a> = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>;</div>
+<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;        this.<a class="code" href="../../d7/d2b/server_8qc.html#a96cd9e7a2b1b14b6f4221036f1558dea">warpzone_save_angles</a> = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>;</div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;        this.<a class="code" href="../../d7/d2b/server_8qc.html#aa4f9b4a364019f7370d9d97df16e1a81">warpzone_save_eorigin</a> = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>.origin;</div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;        this.<a class="code" href="../../d7/d2b/server_8qc.html#a1f67dca059c7e94594e83ff771b0d8f6">warpzone_save_eangles</a> = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>.angles;</div>
+<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;    }</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;}</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;<span class="keywordtype">void</span> WarpZone_StartFrame()</div>
+<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;{</div>
+<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;    <span class="keywordflow">if</span> (!warpzone_initialized)</div>
+<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;    {</div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;        warpzone_initialized = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;        <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;            WarpZone_InitStep_FindOriginTarget(e);</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;        <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_position_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;            WarpZonePosition_InitStep_FindTarget(e);</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;            WarpZone_InitStep_UpdateTransform(e);</div>
+<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;        WarpZones_Reconnect();</div>
+<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;        <a class="code" href="../../d3/d4f/sv__main_8qc.html#a4dc5316f2758ed54f716d22cf319ca8b">WarpZone_PostInitialize_Callback</a>();</div>
+<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;    }</div>
+<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;</div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> oldother = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>;</div>
+<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;</div>
+<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac7be983f0d2a4092882641da68983fa7">FOREACH_ENTITY</a>(!<a class="code" href="../../db/d0a/oo_8qh.html#a07aa0cef4764b55dd4dc31ea09c870ba">is_pure</a>(it),</div>
+<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;    {</div>
+<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#ab91dff2d443f30ac71613a988a2c4de7">warpzone_warpzones_exist</a>)</div>
+<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;            WarpZone_StoreProjectileData(it);</div>
+<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;</div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a14e7b447f7917f8ac7e0198ee25b2bc2">IS_OBSERVER</a>(it) || it.solid == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>)</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(it)) <span class="comment">// we don&#39;t care about it being a bot</span></div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;        {</div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a> = it; <span class="comment">// player</span></div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;</div>
+<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;            <span class="comment">// warpzones</span></div>
+<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#ab91dff2d443f30ac71613a988a2c4de7">warpzone_warpzones_exist</a>) {</div>
+<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;                <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a191c61933b716c17f4aaac24e9049664">WarpZone_Find</a>(it.origin + it.mins, it.origin + it.maxs));</div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;                <span class="keywordflow">if</span> (<span class="keyword">self</span>)</div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;                <span class="keywordflow">if</span> (!<a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a3a9da1c7eaf49a03b0fb365d32f5f406">WarpZoneLib_ExactTrigger_Touch</a>())</div>
+<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a2018735e46e92291e817760b35132007">WarpZone_PlaneDist</a>(<span class="keyword">self</span>, it.origin + it.view_ofs) &lt;= 0)</div>
+<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;                    <a class="code" href="../../d7/d2b/server_8qc.html#acc540ec5b1736673c16d2e7d5ca8b739">WarpZone_Teleport</a>(<span class="keyword">self</span>, it, -1, 0); <span class="comment">// NOT triggering targets by this!</span></div>
+<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;            }</div>
+<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;</div>
+<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;            <span class="comment">// teleporters</span></div>
+<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>.teleportable)</div>
+<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;            {</div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;                <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<a class="code" href="../../d0/d6b/teleporters_8qc.html#ae83899906c50cefd7cfacc428fa065fe">Teleport_Find</a>(it.origin + it.mins, it.origin + it.maxs));</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;                <span class="keywordflow">if</span> (<span class="keyword">self</span>)</div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;                <span class="keywordflow">if</span> (!<a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a3a9da1c7eaf49a03b0fb365d32f5f406">WarpZoneLib_ExactTrigger_Touch</a>())</div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;                    <a class="code" href="../../d0/d6b/teleporters_8qc.html#a883996b20943d07115cb929039dd0956">Simple_TeleportPlayer</a>(<span class="keyword">self</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>); <span class="comment">// NOT triggering targets by this!</span></div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;            }</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;        }</div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;    });</div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a> = oldother;</div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;}</div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;</div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;.float warpzone_reconnecting;</div>
+<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;<span class="keywordtype">bool</span> visible_to_some_client(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> ent)</div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;{</div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac7be983f0d2a4092882641da68983fa7">FOREACH_ENTITY</a>(!<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a39b1d6b6d09aad4f80de90641365be82">IS_NOT_A_CLIENT</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a94c5b969ccc333b040b402d69d3338a2">checkpvs</a>(it.origin + it.view_ofs, ent)) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;    ));</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;}</div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;<span class="keywordtype">void</span> trigger_warpzone_reconnect_use()</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;    <span class="comment">// NOTE: this matches for target, not targetname, but of course</span></div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;    <span class="comment">// targetname must be set too on the other entities</span></div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;        e.warpzone_reconnecting = ((<span class="keyword">this</span>.target == <span class="stringliteral">&quot;&quot;</span> || e.target == <span class="keyword">this</span>.target) &amp;&amp; !((<span class="keyword">this</span>.spawnflags &amp; 1) &amp;&amp; (visible_to_some_client(e) || visible_to_some_client(e.enemy))));</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_camera_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;        e.warpzone_reconnecting = ((<span class="keyword">this</span>.target == <span class="stringliteral">&quot;&quot;</span> || e.target == <span class="keyword">this</span>.target) &amp;&amp; !((<span class="keyword">this</span>.spawnflags &amp; 1) &amp;&amp; visible_to_some_client(e)));</div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;        <span class="keywordflow">if</span>(e.warpzone_reconnecting)</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;            WarpZone_InitStep_ClearTarget(e);</div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;        <span class="keywordflow">if</span>(e.warpzone_reconnecting)</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;            WarpZone_InitStep_FindTarget(e);</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_camera_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;        <span class="keywordflow">if</span>(e.warpzone_reconnecting)</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;            WarpZoneCamera_InitStep_FindTarget(e);</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;    <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = warpzone_first; e; e = e.warpzone_next)</div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;        <span class="keywordflow">if</span>(e.warpzone_reconnecting || e.enemy.warpzone_reconnecting)</div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;            WarpZone_InitStep_FinalizeTransform(e);</div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;}</div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;</div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(trigger_warpzone_reconnect)</div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;{</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;    this.use = trigger_warpzone_reconnect_use;</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;}</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;</div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(target_warpzone_reconnect)</div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;{</div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;    spawnfunc_trigger_warpzone_reconnect(<span class="keyword">this</span>); <span class="comment">// both names make sense here :(</span></div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;}</div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;<span class="keywordtype">void</span> WarpZone_PlayerPhysics_FixVAngle(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;{</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;<span class="preprocessor">#ifndef WARPZONE_DONT_FIX_VANGLE</span></div>
+<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(<span class="keyword">this</span>))</div>
+<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293">v_angle</a>.z &lt;= 360) <span class="comment">// if not already adjusted</span></div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a1ae34f64da3c4127ba84944c82cbe279">ping</a> * 0.001 &lt; this.<a class="code" href="../../d7/d2b/server_8qc.html#a87c8adbf5515f698384af759c6dfca66">warpzone_teleport_time</a>)</div>
+<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;    {</div>
+<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;        this.<a class="code" href="../../d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293">v_angle</a> = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a41cf8548d069adaa8207d7b8dd7cd976">WarpZone_TransformVAngles</a>(this.<a class="code" href="../../d7/d2b/server_8qc.html#a52e3f1684a22e4acd0ddef6103c6de64">warpzone_teleport_zone</a>, this.<a class="code" href="../../d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293">v_angle</a>);</div>
+<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;        this.v_angle_z += 720; <span class="comment">// mark as adjusted</span></div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;    }</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a87a61c6894ded1456e2e4fee955bf7b1"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a></div><div class="ttdeci">float MOVETYPE_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00246">progsdefs.qc:246</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
@@ -1168,6 +1159,7 @@ $(document).ready(function(){initNavTree('d7/d2b/server_8qc_source.html','../../
 <div class="ttc" id="movetypes_8qh_html_a8f912d9d796bd82c9c5a4f50e83a7239"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a8f912d9d796bd82c9c5a4f50e83a7239">move_origin</a></div><div class="ttdeci">vector move_origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00015">movetypes.qh:15</a></div></div>
 <div class="ttc" id="subs_8qh_html_a21f638b0048b6516d7e8b2773d3e8cb3"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a21f638b0048b6516d7e8b2773d3e8cb3">target2</a></div><div class="ttdeci">string target2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00065">subs.qh:65</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ada2e50d916105b5a32d7c97d39d226d5"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ada2e50d916105b5a32d7c97d39d226d5">IS_VEHICLE</a></div><div class="ttdeci">#define IS_VEHICLE(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00022">_all.qh:22</a></div></div>
+<div class="ttc" id="oo_8qh_html_a07aa0cef4764b55dd4dc31ea09c870ba"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a07aa0cef4764b55dd4dc31ea09c870ba">is_pure</a></div><div class="ttdeci">#define is_pure(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00027">oo.qh:27</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a53c4a8e7afd17cad92bc00adba96bb78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a></div><div class="ttdeci">entity find(entity start,.string field, string match)</div></div>
 <div class="ttc" id="wall_8qc_html_a1d28dec57cce925ad92342891bd71e7c"><div class="ttname"><a href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a></div><div class="ttdeci">float scale</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8d/wall_8qc_source.html#l00009">wall.qc:9</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a80973079ff043c7890bc2db4af6896c4"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a80973079ff043c7890bc2db4af6896c4">SOLID_BSP</a></div><div class="ttdeci">const int SOLID_BSP</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00130">csqc_constants.qh:130</a></div></div>
@@ -1216,7 +1208,7 @@ $(document).ready(function(){initNavTree('d7/d2b/server_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_58d953ef34ccfc4a49203206a34466c3.html">warpzone</a></li><li class="navelem"><a class="el" href="../../d7/d2b/server_8qc.html">server.qc</a></li>
-    <li class="footer">Generated on Sat Mar 26 2016 19:40:07 for Xonotic by
+    <li class="footer">Generated on Sun Mar 27 2016 05:28:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
