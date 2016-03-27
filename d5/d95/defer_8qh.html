@@ -132,8 +132,9 @@ $(document).ready(function(){initNavTree('d5/d95/defer_8qh.html','../../');});
 Functions</h2></td></tr>
 <tr class="memitem:a7655f27a25477c21e747ebb2878b6558"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d95/defer_8qh.html#a7655f27a25477c21e747ebb2878b6558">class</a> (Defer).<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> <a class="el" href="../../d6/d11/progsdefs_8qc.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></td></tr>
 <tr class="separator:a7655f27a25477c21e747ebb2878b6558"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a497289349b3a92c7eae205704de5577c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d95/defer_8qh.html#a497289349b3a92c7eae205704de5577c">defer</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> this, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> fdelay, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>() func)</td></tr>
-<tr class="separator:a497289349b3a92c7eae205704de5577c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa43c4a819691d1d4f1d2f5e813319796"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d95/defer_8qh.html#aa43c4a819691d1d4f1d2f5e813319796">defer</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> this, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> fdelay, <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> this) func)</td></tr>
+<tr class="memdesc:aa43c4a819691d1d4f1d2f5e813319796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Execute func() after time + fdelay.  <a href="#aa43c4a819691d1d4f1d2f5e813319796">More...</a><br/></td></tr>
+<tr class="separator:aa43c4a819691d1d4f1d2f5e813319796"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a839ea0b7dbc456a08b83b1186293f113"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d95/defer_8qh.html#a839ea0b7dbc456a08b83b1186293f113">defer_think</a> ()</td></tr>
 <tr class="separator:a839ea0b7dbc456a08b83b1186293f113"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac20778e47d8ed77ee9078abfb1ef0585"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d95/defer_8qh.html#ac20778e47d8ed77ee9078abfb1ef0585">entityclass</a> (Defer)</td></tr>
@@ -162,7 +163,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a497289349b3a92c7eae205704de5577c"></a>
+<a class="anchor" id="aa43c4a819691d1d4f1d2f5e813319796"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -181,7 +182,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>()&#160;</td>
+          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> this)&#160;</td>
           <td class="paramname"><em>func</em>&#160;</td>
         </tr>
         <tr>
@@ -192,21 +193,25 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Execute func() after time + fdelay. </p>
+<p>self when func is executed = self when defer is called </p>
+
 <p>Definition at line <a class="el" href="../../d5/d95/defer_8qh_source.html#l00038">38</a> of file <a class="el" href="../../d5/d95/defer_8qh_source.html">defer.qh</a>.</p>
 
-<p>References <a class="el" href="../../d5/d95/defer_8qh_source.html#l00026">defer_think()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00078">new_pure</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../d5/d95/defer_8qh_source.html#l00026">defer_think()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00078">new_pure</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00046">setthink</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/dde/tests_8qc_source.html#l00010">TEST()</a>, and <a class="el" href="../../d2/d9b/jumppads_8qc_source.html#l00279">trigger_push_findtarget()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e    = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(deferred);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        e.owner     = <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        e.use       = func;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(e, func);</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        e.think     = <a class="code" href="../../d5/d95/defer_8qh.html#a839ea0b7dbc456a08b83b1186293f113">defer_think</a>;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        e.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + fdelay;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="defer_8qh_html_a839ea0b7dbc456a08b83b1186293f113"><div class="ttname"><a href="../../d5/d95/defer_8qh.html#a839ea0b7dbc456a08b83b1186293f113">defer_think</a></div><div class="ttdeci">void defer_think()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d95/defer_8qh_source.html#l00026">defer.qh:26</a></div></div>
 <div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00078">oo.qh:78</a></div></div>
+<div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00046">self.qh:46</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -214,7 +219,7 @@ Functions</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d95/defer_8qh_a497289349b3a92c7eae205704de5577c_cgraph.svg" width="382" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d95/defer_8qh_aa43c4a819691d1d4f1d2f5e813319796_cgraph.svg" width="382" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -224,7 +229,7 @@ Functions</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d95/defer_8qh_a497289349b3a92c7eae205704de5577c_icgraph.svg" width="264" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d95/defer_8qh_aa43c4a819691d1d4f1d2f5e813319796_icgraph.svg" width="264" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -253,7 +258,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        this.think     = <a class="code" href="../../d5/d95/defer_8qh.html#af50fbe8de340daf35a3d631f7a5b1d03">SUB_Remove_self</a>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>, this.use());</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>, this.selfthink(<span class="keyword">this</span>));</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00085">main.qh:85</a></div></div>
@@ -379,7 +384,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d5/d95/defer_8qh.html">defer.qh</a></li>
-    <li class="footer">Generated on Sun Mar 27 2016 05:28:47 for Xonotic by
+    <li class="footer">Generated on Sun Mar 27 2016 08:39:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -2,7 +2,7 @@ var searchData=
 [
   ['g_5fassault',['g_assault',['../d2/d9e/mapinfo_8qh.html#ad0afc4f6c40de7c96797c604027eb1eb',1,'mapinfo.qh']]],
   ['g_5fca',['g_ca',['../d2/d9e/mapinfo_8qh.html#ade7f55927855e9f8823515cc29071cc3',1,'mapinfo.qh']]],
-  ['g_5fclientmodel_5fdropbyspawnflags',['g_clientmodel_dropbyspawnflags',['../d2/d37/g__models_8qc.html#a2af260a63229769c4b0880322759b248',1,'g_models.qc']]],
+  ['g_5fclientmodel_5fdropbyspawnflags',['g_clientmodel_dropbyspawnflags',['../d2/d37/g__models_8qc.html#a8f6ff5dd95a4bace5171e558b07e4068',1,'g_models.qc']]],
   ['g_5fclientmodel_5fgenericsendentity',['g_clientmodel_genericsendentity',['../d2/d37/g__models_8qc.html#ac3f7f42414cccfe114ad8a582ee8a7bf',1,'g_models.qc']]],
   ['g_5fclientmodel_5finit',['G_CLIENTMODEL_INIT',['../d2/d37/g__models_8qc.html#abcc8cf8e43bfd991e4df4edd98c13554',1,'g_models.qc']]],
   ['g_5fclientmodel_5fsetcolormaptoactivator',['g_clientmodel_setcolormaptoactivator',['../d2/d37/g__models_8qc.html#aa55cef63dfa7903510758ca268b86729',1,'g_models.qc']]],
@@ -24,7 +24,7 @@ var searchData=
   ['g_5fmaplistcache',['g_maplistCache',['../d3/d86/classXonoticMapList.html#a8bea154a283e7cbcbb9401bdc563fb15',1,'XonoticMapList']]],
   ['g_5fmaplistcachequery',['g_maplistCacheQuery',['../d3/d86/classXonoticMapList.html#ad584f3952512509ae7debb505aad6dfe',1,'XonoticMapList']]],
   ['g_5fmaplistcachetoggle',['g_maplistCacheToggle',['../d3/d86/classXonoticMapList.html#a0913b5fd900c27fcf6b117e4a2064bbb',1,'XonoticMapList']]],
-  ['g_5fmodel_5fdropbyspawnflags',['g_model_dropbyspawnflags',['../d2/d37/g__models_8qc.html#ad788c9df403e060d10fa6b10b9a71f78',1,'g_models.qc']]],
+  ['g_5fmodel_5fdropbyspawnflags',['g_model_dropbyspawnflags',['../d2/d37/g__models_8qc.html#a0634fca36d8b4ee68144f003f63337e6',1,'g_models.qc']]],
   ['g_5fmodel_5finit',['G_MODEL_INIT',['../d2/d37/g__models_8qc.html#aebef0e6c1fb93b240ebbd2e10379374f',1,'g_models.qc']]],
   ['g_5fmodel_5fsetcolormaptoactivator',['g_model_setcolormaptoactivator',['../d2/d37/g__models_8qc.html#a1aa43e168a482a7d081fbb171ef351f8',1,'g_models.qc']]],
   ['g_5fmodels_2eqc',['g_models.qc',['../d2/d37/g__models_8qc.html',1,'']]],

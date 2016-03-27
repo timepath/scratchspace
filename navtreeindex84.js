@@ -1,5 +1,12 @@
 var NAVTREEINDEX84 =
 {
+"db/d07/teams_8qh.html#aca16bbbb9a21bac9cf7fbc0426f77cd7":[2,0,1,42,24],
+"db/d07/teams_8qh.html#acc9a6631e64c3dba27fec38ba6a960ce":[2,0,1,42,2],
+"db/d07/teams_8qh.html#ad58976dc8edb654a9245d69ee4f2b27f":[2,0,1,42,28],
+"db/d07/teams_8qh.html#ae0e4a7d1b3b18f694a7498bc9019d637":[2,0,1,42,16],
+"db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473":[2,0,1,42,32],
+"db/d07/teams_8qh_source.html":[2,0,1,42],
+"db/d0a/oo_8qh.html":[2,0,3,32],
 "db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48":[2,0,3,32,26],
 "db/d0a/oo_8qh.html#a03d0921d898298e87795339eefa7ba6d":[2,0,3,32,7],
 "db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec":[2,0,3,32,48],
@@ -242,12 +249,5 @@ var NAVTREEINDEX84 =
 "db/d29/classXonoticRegisteredSettingsList.html#afe0e72d227edf3a5403f7d90e685525e":[1,0,204,83],
 "db/d29/dialog__hudpanel__weapons_8qh.html":[2,0,4,4,80],
 "db/d29/dialog__hudpanel__weapons_8qh_source.html":[2,0,4,4,80],
-"db/d29/machinegun__weapon_8qh.html":[2,0,1,14,0,16],
-"db/d29/machinegun__weapon_8qh.html#a1d67f6931a2ea189e5f33ef332554c58":[2,0,1,14,0,16,1],
-"db/d29/machinegun__weapon_8qh_source.html":[2,0,1,14,0,16],
-"db/d2a/client_2hud_2panel_2ammo_8qh.html":[2,0,0,1,0,2],
-"db/d2a/client_2hud_2panel_2ammo_8qh_source.html":[2,0,0,1,0,2],
-"db/d2f/playlist_8qh.html":[2,0,4,4,188],
-"db/d2f/playlist_8qh.html#a1dbedfd230e5c37f9b67aa6903f2180b":[2,0,4,4,188,8],
-"db/d2f/playlist_8qh.html#a331bef2777893f465cb8785b3c1bc904":[2,0,4,4,188,2]
+"db/d29/machinegun__weapon_8qh.html":[2,0,1,14,0,16]
 };

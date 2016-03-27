@@ -1,5 +1,12 @@
 var NAVTREEINDEX34 =
 {
+"d4/d54/map_8qh.html#a94fbc154a15744971dd9c92599dcb009":[2,0,3,25,13],
+"d4/d54/map_8qh.html#ac4f258816f44ba60ecd630cf58e52974":[2,0,3,25,2],
+"d4/d54/map_8qh.html#ac9eefc4b70d421cb3e606c88900499d5":[2,0,3,25,10],
+"d4/d54/map_8qh.html#ae164808a517903e86f7142599e17eb73":[2,0,3,25,5],
+"d4/d54/map_8qh.html#ae5419c646d89ed2845be766723b0cb6f":[2,0,3,25,11],
+"d4/d54/map_8qh.html#ae56738e160950dacfe06255371d69391":[2,0,3,25,12],
+"d4/d54/map_8qh.html#afafcc8d75788a369ad96ca50f9e04959":[2,0,3,25,7],
 "d4/d54/map_8qh_source.html":[2,0,3,25],
 "d4/d55/classXonoticCreditsList.html":[1,0,136],
 "d4/d55/classXonoticCreditsList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,136,7],
@@ -242,12 +249,5 @@ var NAVTREEINDEX34 =
 "d4/d5f/classXonoticFirstRunDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,148,26],
 "d4/d5f/classXonoticFirstRunDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,148,30],
 "d4/d5f/classXonoticFirstRunDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,148,84],
-"d4/d64/minigame_8qh.html":[2,0,0,1,0,14],
-"d4/d64/minigame_8qh_source.html":[2,0,0,1,0,14],
-"d4/d67/classXonoticScreenshotImage.html":[1,0,211],
-"d4/d67/classXonoticScreenshotImage.html#a00e73292d4ce1cafcb4784f83be1b991":[1,0,211,32],
-"d4/d67/classXonoticScreenshotImage.html#a03b485ebe562956495b4ffec04a74b8b":[1,0,211,21],
-"d4/d67/classXonoticScreenshotImage.html#a068a1780eb0731d56ea37a4b4e50e1a3":[1,0,211,44],
-"d4/d67/classXonoticScreenshotImage.html#a0a44543db2c981ccbbfa48496f334de5":[1,0,211,6],
-"d4/d67/classXonoticScreenshotImage.html#a0e724b01c100461a8abc1af3132da8c3":[1,0,211,49]
+"d4/d64/minigame_8qh.html":[2,0,0,1,0,14]
 };

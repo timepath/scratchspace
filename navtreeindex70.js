@@ -1,5 +1,12 @@
 var NAVTREEINDEX70 =
 {
+"d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a":[2,0,2,0,3,136],
+"d8/de2/menudefs_8qc.html#a3195bf628df3841489df31af0fc09e26":[2,0,2,0,3,249],
+"d8/de2/menudefs_8qc.html#a31ab0d48da7dd42a50965d3564982d14":[2,0,2,0,3,228],
+"d8/de2/menudefs_8qc.html#a31d9e9e8cae37fd3326bd3500b490da4":[2,0,2,0,3,57],
+"d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df":[2,0,2,0,3,72],
+"d8/de2/menudefs_8qc.html#a33e75150e29fa01dc3c2fbe55610e1fd":[2,0,2,0,3,105],
+"d8/de2/menudefs_8qc.html#a357f918600aca4a28dab61f3803c7bbf":[2,0,2,0,3,59],
 "d8/de2/menudefs_8qc.html#a369396674b3efcb2f05383d374127907":[2,0,2,0,3,270],
 "d8/de2/menudefs_8qc.html#a36ec35c2aa4302297ef03b9928c473bf":[2,0,2,0,3,37],
 "d8/de2/menudefs_8qc.html#a372b0315bb2d36aab2f72affbd67121c":[2,0,2,0,3,211],
@@ -242,12 +249,5 @@ var NAVTREEINDEX70 =
 "d8/dee/classShambler.html#abbd3a53ddd2019b6933a9e40910cfc58":[1,0,97,4],
 "d8/dee/classShambler.html#abe718357dafde994438cf9ad43e2501a":[1,0,97,10],
 "d8/dee/classShambler.html#adc5acc9cbff0fdce03b8253cfa102777":[1,0,97,7],
-"d8/def/classWeaponPickup.html":[1,0,120],
-"d8/def/classWeaponPickup.html#a15409be64dbd76231e79fca148dca0da":[1,0,120,9],
-"d8/def/classWeaponPickup.html#a204e6d23b3f571c6ad1745b32fc64f7e":[1,0,120,6],
-"d8/def/classWeaponPickup.html#a3d193f30f9a2d30e3bb270e8578a872a":[1,0,120,0],
-"d8/def/classWeaponPickup.html#a48b78d497828537731feaa167c8af4f1":[1,0,120,12],
-"d8/def/classWeaponPickup.html#a6815e793548a5b534973a237a97dc189":[1,0,120,7],
-"d8/def/classWeaponPickup.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,120,1],
-"d8/def/classWeaponPickup.html#a7357a3badf480bbfe18c110d15cbd2f8":[1,0,120,2]
+"d8/def/classWeaponPickup.html":[1,0,120]
 };

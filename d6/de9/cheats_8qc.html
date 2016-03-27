@@ -200,8 +200,8 @@ Functions</h2></td></tr>
 <tr class="separator:a757000121f9c2ecf1cfaf8a0c2c02b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81a2a7bbeb405e26e7f1fcbc1bf8b191"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/cheats_8qc.html#a81a2a7bbeb405e26e7f1fcbc1bf8b191">DragBox_Think</a> ()</td></tr>
 <tr class="separator:a81a2a7bbeb405e26e7f1fcbc1bf8b191"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a449963dd1fdb19450ea4c38e28c7c7a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/cheats_8qc.html#a449963dd1fdb19450ea4c38e28c7c7a2">info_autoscreenshot_findtarget</a> ()</td></tr>
-<tr class="separator:a449963dd1fdb19450ea4c38e28c7c7a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62bc88be90a8739d8745f255f67a3784"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/cheats_8qc.html#a62bc88be90a8739d8745f255f67a3784">info_autoscreenshot_findtarget</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> this)</td></tr>
+<tr class="separator:a62bc88be90a8739d8745f255f67a3784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a580c3216a921599702196e2319b0369a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/de9/cheats_8qc.html#a580c3216a921599702196e2319b0369a">spawnfunc</a> (info_autoscreenshot)</td></tr>
 <tr class="separator:a580c3216a921599702196e2319b0369a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -794,7 +794,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">new</span>(cheattriggerteleport));</div>
 <div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;            setorigin(<span class="keyword">self</span>, <span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>);</div>
 <div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;            <span class="keyword">self</span>.target = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1);</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;            <a class="code" href="../../d0/d6b/teleporters_8qc.html#a569f215eb848ba45934a889bb3f65949">teleport_findtarget</a>();</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;            <a class="code" href="../../d0/d6b/teleporters_8qc.html#a81fd4ead0a476556c12fb89d6bd9d834">teleport_findtarget</a>(<span class="keyword">self</span>);</div>
 <div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;            <span class="keywordflow">if</span>(!wasfreed(<span class="keyword">self</span>))</div>
 <div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;            {</div>
 <div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;                <a class="code" href="../../d0/d6b/teleporters_8qc.html#a883996b20943d07115cb929039dd0956">Simple_TeleportPlayer</a>(<span class="keyword">self</span>, <span class="keyword">this</span>);</div>
@@ -817,6 +817,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="progsdefs_8qc_html_a62c3b9f9bf0fae21452c48c7c87265f7"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a62c3b9f9bf0fae21452c48c7c87265f7">view_ofs</a></div><div class="ttdeci">vector view_ofs</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00151">progsdefs.qc:151</a></div></div>
+<div class="ttc" id="teleporters_8qc_html_a81fd4ead0a476556c12fb89d6bd9d834"><div class="ttname"><a href="../../d0/d6b/teleporters_8qc.html#a81fd4ead0a476556c12fb89d6bd9d834">teleport_findtarget</a></div><div class="ttdeci">void teleport_findtarget(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d6b/teleporters_8qc_source.html#l00250">teleporters.qc:250</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aa3a866cdc0e6b0951832c310d0b9244c"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aa3a866cdc0e6b0951832c310d0b9244c">trace_dphitq3surfaceflags</a></div><div class="ttdeci">float trace_dphitq3surfaceflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01121">csprogsdefs.qc:1121</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a5231f4ff2813f7de782b67d25a9e4cf9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a></div><div class="ttdeci">float fopen(string filename, float mode)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
@@ -848,7 +849,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="sound_8qh_html_a5a9982ffb7b93b1b060b87401d4ea8dd"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a5a9982ffb7b93b1b060b87401d4ea8dd">CH_WEAPON_A</a></div><div class="ttdeci">const int CH_WEAPON_A</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00008">sound.qh:8</a></div></div>
 <div class="ttc" id="random_8qh_html_a86198c138394780d6c34d63ee910c243"><div class="ttname"><a href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a></div><div class="ttdeci">entity RandomSelection_chosen_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d55/random_8qh_source.html#l00005">random.qh:5</a></div></div>
 <div class="ttc" id="tracing_8qh_html_abe27a35cb354b49164f6833ff337f48b"><div class="ttname"><a href="../../d4/d3f/tracing_8qh.html#abe27a35cb354b49164f6833ff337f48b">W_SetupShot</a></div><div class="ttdeci">#define W_SetupShot(ent, antilag, recoil, snd, chan, maxdamage)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3f/tracing_8qh_source.html#l00015">tracing.qh:15</a></div></div>
-<div class="ttc" id="teleporters_8qc_html_a569f215eb848ba45934a889bb3f65949"><div class="ttname"><a href="../../d0/d6b/teleporters_8qc.html#a569f215eb848ba45934a889bb3f65949">teleport_findtarget</a></div><div class="ttdeci">void teleport_findtarget()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d6b/teleporters_8qc_source.html#l00250">teleporters.qc:250</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a93c78c5087546131c4eefb9b2d733adf"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a></div><div class="ttdeci">vector trace_endpos</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">csprogsdefs.qc:37</a></div></div>
 <div class="ttc" id="anglestransform_8qc_html_ae62e4ce9337df904e78bc661778ba4e0"><div class="ttname"><a href="../../df/d13/anglestransform_8qc.html#ae62e4ce9337df904e78bc661778ba4e0">AnglesTransform_ApplyToAngles</a></div><div class="ttdeci">vector AnglesTransform_ApplyToAngles(vector transform, vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d13/anglestransform_8qc_source.html#l00128">anglestransform.qc:128</a></div></div>
 <div class="ttc" id="self_8qh_html_a0a6ed21815e6b8d3ff58b8559ec08c87"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a></div><div class="ttdeci">#define WITHSELF(value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00015">self.qh:15</a></div></div>
@@ -2471,14 +2471,15 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a449963dd1fdb19450ea4c38e28c7c7a2"></a>
+<a class="anchor" id="a62bc88be90a8739d8745f255f67a3784"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> info_autoscreenshot_findtarget </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -2486,10 +2487,10 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00107">107</a> of file <a class="el" href="../../d6/de9/cheats_8qc_source.html">cheats.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00003">objerror</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00193">target</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00194">targetname</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00003">objerror</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00193">target</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00194">targetname</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00122">spawnfunc()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="fragment"><div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;{</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, <span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">if</span>(!e)</div>
@@ -2504,7 +2505,6 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="comment">// we leave Rick Roll alone</span></div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="sys-pre_8qh_html_a1a131a8f1813cd654a56e745f531fff1"><div class="ttname"><a href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a></div><div class="ttdeci">#define objerror</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/sys-pre_8qh_source.html#l00003">sys-pre.qh:3</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a822ea10e75a853993f2fa21149d76f4c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a></div><div class="ttdeci">vector vectoangles(vector v)</div></div>
@@ -2518,7 +2518,7 @@ Variables</h2></td></tr>
 <div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-34-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/de9/cheats_8qc_a449963dd1fdb19450ea4c38e28c7c7a2_cgraph.svg" width="291" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/de9/cheats_8qc_a62bc88be90a8739d8745f255f67a3784_cgraph.svg" width="291" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2528,7 +2528,7 @@ Variables</h2></td></tr>
 <div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-35-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/de9/cheats_8qc_a449963dd1fdb19450ea4c38e28c7c7a2_icgraph.svg" width="283" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/de9/cheats_8qc_a62bc88be90a8739d8745f255f67a3784_icgraph.svg" width="283" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2559,16 +2559,16 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ac371c3e7a3dc274c96125bf020b44621">InitializeEntity</a>(<span class="keyword">self</span>, <a class="code" href="../../d6/de9/cheats_8qc.html#a449963dd1fdb19450ea4c38e28c7c7a2">info_autoscreenshot_findtarget</a>, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a>);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(<span class="keyword">self</span>, <a class="code" href="../../d6/de9/cheats_8qc.html#a62bc88be90a8739d8745f255f67a3784">info_autoscreenshot_findtarget</a>, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a>);</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    <span class="comment">// this one just has to exist</span></div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;}</div>
-<div class="ttc" id="server_2miscfunctions_8qc_html_ac371c3e7a3dc274c96125bf020b44621"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#ac371c3e7a3dc274c96125bf020b44621">InitializeEntity</a></div><div class="ttdeci">void InitializeEntity(entity e, void() func, float order)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00854">miscfunctions.qc:854</a></div></div>
+<div class="ttc" id="server_2miscfunctions_8qc_html_a048269a249dd2d958fa3ebbccb21c877"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a></div><div class="ttdeci">void InitializeEntity(entity e, void(entity this) func, float order)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00854">miscfunctions.qc:854</a></div></div>
 <div class="ttc" id="sys-pre_8qh_html_a1a131a8f1813cd654a56e745f531fff1"><div class="ttname"><a href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a></div><div class="ttdeci">#define objerror</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/sys-pre_8qh_source.html#l00003">sys-pre.qh:3</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a74a1891d4df9081e084d5d1235aac69a"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a></div><div class="ttdeci">const int INITPRIO_FINDTARGET</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00010">miscfunctions.qh:10</a></div></div>
-<div class="ttc" id="cheats_8qc_html_a449963dd1fdb19450ea4c38e28c7c7a2"><div class="ttname"><a href="../../d6/de9/cheats_8qc.html#a449963dd1fdb19450ea4c38e28c7c7a2">info_autoscreenshot_findtarget</a></div><div class="ttdeci">void info_autoscreenshot_findtarget()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de9/cheats_8qc_source.html#l00107">cheats.qc:107</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_ab4a4eb60e07ace66df6a324bfd28852c"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ab4a4eb60e07ace66df6a324bfd28852c">autocvar_g_max_info_autoscreenshot</a></div><div class="ttdeci">int autocvar_g_max_info_autoscreenshot</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00432">autocvars.qh:432</a></div></div>
 <div class="ttc" id="cheats_8qc_html_ac8c324931fb0af19eddfa7d523f12321"><div class="ttname"><a href="../../d6/de9/cheats_8qc.html#ac8c324931fb0af19eddfa7d523f12321">num_autoscreenshot</a></div><div class="ttdeci">float num_autoscreenshot</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de9/cheats_8qc_source.html#l00106">cheats.qc:106</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_afa8adf762827679f2bfa706be7144fe2"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a></div><div class="ttdeci">string target</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00193">progsdefs.qc:193</a></div></div>
+<div class="ttc" id="cheats_8qc_html_a62bc88be90a8739d8745f255f67a3784"><div class="ttname"><a href="../../d6/de9/cheats_8qc.html#a62bc88be90a8739d8745f255f67a3784">info_autoscreenshot_findtarget</a></div><div class="ttdeci">void info_autoscreenshot_findtarget(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de9/cheats_8qc_source.html#l00107">cheats.qc:107</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -2765,7 +2765,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d6/de9/cheats_8qc.html">cheats.qc</a></li>
-    <li class="footer">Generated on Sun Mar 27 2016 05:28:49 for Xonotic by
+    <li class="footer">Generated on Sun Mar 27 2016 08:39:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
