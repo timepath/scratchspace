@@ -17,7 +17,7 @@ var hud_8qh =
     [ "REGISTER_HUD_PANEL", "d3/d05/hud_8qh.html#a782f39c38b62e44a924a17f0412e8e68", null ],
     [ "class", "d3/d05/hud_8qh.html#a2a855070c87ab93e01e37f9aa02dfaf6", null ],
     [ "DrawNumIcon", "d3/d05/hud_8qh.html#a8c5e3345294677c8a5fe0737e0980a30", null ],
-    [ "DrawNumIcon_expanding", "d3/d05/hud_8qh.html#ab677a00ccd816b50bfc388b934d8210a", null ],
+    [ "DrawNumIcon_expanding", "d3/d05/hud_8qh.html#a30a9e84c413165ede06e60d7198bbb58", null ],
     [ "entityclass", "d3/d05/hud_8qh.html#ab9da54f562553a185fe2c9db8d7d010f", null ],
     [ "HUD_Get_Num_Color", "d3/d05/hud_8qh.html#ac83f5e664b74ba1269627528078a7dbf", null ],
     [ "HUD_GetRowCount", "d3/d05/hud_8qh.html#aa2a5280f52a32d302277253736cc04bb", null ],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"d9/de9/classListBox.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,55,13],
 "d9/de9/classListBox.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,55,31],
 "d9/de9/classListBox.html#ad1b60bb771a67f7752ac1b69aa66de5c":[1,0,55,39],
 "d9/de9/classListBox.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,55,41],
@@ -249,5 +248,6 @@ var NAVTREEINDEX77 =
 "da/d10/sv__vehicles_8qc.html#a7a2ae1bbb066508dbcaeb617e1c6b887":[2,0,1,15,6,1],
 "da/d10/sv__vehicles_8qc.html#a7d80d2869765d0dd365fe02be553554a":[2,0,1,15,6,9],
 "da/d10/sv__vehicles_8qc.html#a92cdd7efbcdaa3cf61dc0991746a2b74":[2,0,1,15,6,23],
-"da/d10/sv__vehicles_8qc.html#a959fbbba142d71875f6660116060fc61":[2,0,1,15,6,17]
+"da/d10/sv__vehicles_8qc.html#a959fbbba142d71875f6660116060fc61":[2,0,1,15,6,17],
+"da/d10/sv__vehicles_8qc.html#a9c2cd7d7243400f5139194bea62aed42":[2,0,1,15,6,0]
 };

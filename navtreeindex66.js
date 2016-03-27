@@ -1,6 +1,5 @@
 var NAVTREEINDEX66 =
 {
-"d8/d1e/dialog__hudpanel__vote_8qh_source.html":[2,0,4,4,78],
 "d8/d1e/menu_2item_8qh.html":[2,0,4,12],
 "d8/d1e/menu_2item_8qh_source.html":[2,0,4,12],
 "d8/d20/dialog__hudpanel__radar_8qc.html":[2,0,4,4,71],
@@ -249,5 +248,6 @@ var NAVTREEINDEX66 =
 "d8/d39/havocbot_8qh.html#afb882bcf6c4a44e801e4fb9eafbbf1f4":[2,0,5,0,0,2,12],
 "d8/d39/havocbot_8qh_source.html":[2,0,5,0,0,2],
 "d8/d3e/mutators_2mutator_2invincibleproj_2module_8inc.html":[2,0,1,9,0,11,2],
-"d8/d3e/mutators_2mutator_2invincibleproj_2module_8inc_source.html":[2,0,1,9,0,11,2]
+"d8/d3e/mutators_2mutator_2invincibleproj_2module_8inc_source.html":[2,0,1,9,0,11,2],
+"d8/d43/fireball_8qc.html":[2,0,1,16,0,6]
 };

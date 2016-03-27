@@ -1,6 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"d7/de3/pong_8qc_source.html":[2,0,1,6,0,5],
 "d7/de4/common_2physics_2all_8inc.html":[2,0,1,11,2],
 "d7/de4/common_2physics_2all_8inc_source.html":[2,0,1,11,2],
 "d7/de6/classXonoticSkinList.html":[1,0,220],
@@ -249,5 +248,6 @@ var NAVTREEINDEX64 =
 "d8/d00/classImage.html#ad7b2477ab4a07abbf34cc0cd3461253c":[1,0,45,13],
 "d8/d00/classImage.html#ad885b93c0a103ee08204101722634fd6":[1,0,45,18],
 "d8/d00/classImage.html#ad996b1a100e82b7c67c5cbed7a92792d":[1,0,45,0],
-"d8/d00/classImage.html#adb78159fc487a2925c30050ed729339b":[1,0,45,24]
+"d8/d00/classImage.html#adb78159fc487a2925c30050ed729339b":[1,0,45,24],
+"d8/d00/classImage.html#adba055bca57bf312ebd7270010f720e4":[1,0,45,40]
 };

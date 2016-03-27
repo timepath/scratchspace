@@ -9,7 +9,6 @@ var searchData=
   ['have_5fs3tc',['have_s3tc',['../d2/dcb/classXonoticPicmipSlider.html#ab1d7fb62f7e6c638ebad21f79aad0178',1,'XonoticPicmipSlider']]],
   ['have_5fteam_5fspawns',['have_team_spawns',['../d5/d26/server_2defs_8qh.html#a82bd246c33cb412dec913e65a81b461c',1,'defs.qh']]],
   ['have_5fteam_5fspawns_5fforteam',['have_team_spawns_forteam',['../d5/d26/server_2defs_8qh.html#a11fbd8892ca8342fabdcbc37895675c5',1,'defs.qh']]],
-  ['have_5fverified',['have_verified',['../d6/d3b/race_8qc.html#ab6a29cdb7df8f3bee24498bdab7724c1',1,'race.qc']]],
   ['havocbot_5fast_5frole_5fdefense',['HAVOCBOT_AST_ROLE_DEFENSE',['../d9/d8e/gamemode__assault_8qc.html#a7c876617d922cd16d5dab82fe6fce4e3',1,'gamemode_assault.qc']]],
   ['havocbot_5fast_5frole_5fnone',['HAVOCBOT_AST_ROLE_NONE',['../d9/d8e/gamemode__assault_8qc.html#af8389fdc85e65f8ba4b3d508404af1b1',1,'gamemode_assault.qc']]],
   ['havocbot_5fast_5frole_5foffense',['HAVOCBOT_AST_ROLE_OFFENSE',['../d9/d8e/gamemode__assault_8qc.html#a6c1be8aa70a07ec6b91cfb1050ddcbc8',1,'gamemode_assault.qc']]],

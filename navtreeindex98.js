@@ -1,6 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"dc/d99/bumblebee__weapons_8qh_source.html":[2,0,1,15,0,4],
 "dc/d9c/infomessages_8qh.html":[2,0,0,1,0,12],
 "dc/d9c/infomessages_8qh_source.html":[2,0,0,1,0,12],
 "dc/d9d/inventory_8qh.html":[2,0,1,5,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX98 =
 "dc/dc6/server_2miscfunctions_8qc.html#a4f8083ae3346548341bdfba50df1cfbf":[2,0,5,42,24],
 "dc/dc6/server_2miscfunctions_8qc.html#a504192d334de7d4502ffbaa71c6b8228":[2,0,5,42,26],
 "dc/dc6/server_2miscfunctions_8qc.html#a512d742bedcc9a27b9fa5fe4b3d9ab86":[2,0,5,42,30],
-"dc/dc6/server_2miscfunctions_8qc.html#a57c6890f25ac5cfdf263a9a467577480":[2,0,5,42,74]
+"dc/dc6/server_2miscfunctions_8qc.html#a57c6890f25ac5cfdf263a9a467577480":[2,0,5,42,74],
+"dc/dc6/server_2miscfunctions_8qc.html#a58725b844cf250403708dcbb8b81ce07":[2,0,5,42,33]
 };

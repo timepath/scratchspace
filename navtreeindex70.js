@@ -1,6 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a":[2,0,2,0,3,136],
 "d8/de2/menudefs_8qc.html#a3195bf628df3841489df31af0fc09e26":[2,0,2,0,3,249],
 "d8/de2/menudefs_8qc.html#a31ab0d48da7dd42a50965d3564982d14":[2,0,2,0,3,228],
 "d8/de2/menudefs_8qc.html#a31d9e9e8cae37fd3326bd3500b490da4":[2,0,2,0,3,57],
@@ -249,5 +248,6 @@ var NAVTREEINDEX70 =
 "d8/dee/classShambler.html#abbd3a53ddd2019b6933a9e40910cfc58":[1,0,97,4],
 "d8/dee/classShambler.html#abe718357dafde994438cf9ad43e2501a":[1,0,97,10],
 "d8/dee/classShambler.html#adc5acc9cbff0fdce03b8253cfa102777":[1,0,97,7],
-"d8/def/classWeaponPickup.html":[1,0,120]
+"d8/def/classWeaponPickup.html":[1,0,120],
+"d8/def/classWeaponPickup.html#a15409be64dbd76231e79fca148dca0da":[1,0,120,9]
 };

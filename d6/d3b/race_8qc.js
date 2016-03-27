@@ -44,7 +44,6 @@ var race_8qc =
     [ "W_Porto_Fail", "d6/d3b/race_8qc.html#a05a62fd275c358c28855f96f21eeea76", null ],
     [ "defrag_ents", "d6/d3b/race_8qc.html#a70fbde94d1d32b56ca60fda6a5c34e83", null ],
     [ "defragcpexists", "d6/d3b/race_8qc.html#a5df20a0be3e9e2fe0fd82f4f1d18e372", null ],
-    [ "have_verified", "d6/d3b/race_8qc.html#ab6a29cdb7df8f3bee24498bdab7724c1", null ],
     [ "MAX_CHECKPOINTS", "d6/d3b/race_8qc.html#a512387999581af6659b438de4ae42cfd", null ],
     [ "race_checkpoint", "d6/d3b/race_8qc.html#a67234b7e3097a12ec7d56566276b1295", null ],
     [ "race_checkpoint_lastlaps", "d6/d3b/race_8qc.html#a4004232b766da5b2531fc5f6a2fdf709", null ],

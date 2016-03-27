@@ -1,6 +1,5 @@
 var NAVTREEINDEX86 =
 {
-"db/d3c/classArc.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,3,1],
 "db/d3c/classArc.html#ae0a509098068a29d9ef781b063c35d0e":[1,0,3,22],
 "db/d3c/classArc.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,3,20],
 "db/d3c/classArc.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,3,15],
@@ -249,5 +248,6 @@ var NAVTREEINDEX86 =
 "db/d5a/classXonoticHUDPowerupsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,169,26],
 "db/d5a/classXonoticHUDPowerupsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,169,30],
 "db/d5a/classXonoticHUDPowerupsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,169,82],
-"db/d5a/common_2turrets_2all_8qh.html":[2,0,1,14,3]
+"db/d5a/common_2turrets_2all_8qh.html":[2,0,1,14,3],
+"db/d5a/common_2turrets_2all_8qh.html#a402991068cbc1be098a581964865c243":[2,0,1,14,3,3]
 };

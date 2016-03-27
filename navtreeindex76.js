@@ -1,6 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh_source.html":[2,0,1,9,0,31,2],
 "d9/dca/classXonoticCommandButton.html":[1,0,134],
 "d9/dca/classXonoticCommandButton.html#a09558581cc0090d8cdcfd1ec9411f74c":[1,0,134,39],
 "d9/dca/classXonoticCommandButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,134,67],
@@ -249,5 +248,6 @@ var NAVTREEINDEX76 =
 "d9/de9/classListBox.html#ab3f469c0e787273cc3e91b5c7d49c0a3":[1,0,55,19],
 "d9/de9/classListBox.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,55,54],
 "d9/de9/classListBox.html#ac6094922668d013ada3893854eec6b0f":[1,0,55,17],
-"d9/de9/classListBox.html#ac7bb2899505cda435bebb004940f97a4":[1,0,55,51]
+"d9/de9/classListBox.html#ac7bb2899505cda435bebb004940f97a4":[1,0,55,51],
+"d9/de9/classListBox.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,55,13]
 };
