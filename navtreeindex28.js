@@ -1,6 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"d3/df2/classDualPlasmaTurret.html#a704dc4dc2fd4baf352e96c0e4b8753af":[1,0,23,14],
 "d3/df2/classDualPlasmaTurret.html#a7bf40f64dd91bb952d21d1d827e295c3":[1,0,23,11],
 "d3/df2/classDualPlasmaTurret.html#a8fdfb2c1d48fbb73e71c119fc329a1cb":[1,0,23,9],
 "d3/df2/classDualPlasmaTurret.html#a9cbd0273110d224aa83170c43e29f691":[1,0,23,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX28 =
 "d4/d0a/classXonoticMiscSettingsTab.html#a4bae048a657448c0cad5dcb10cde7c4a":[1,0,189,60],
 "d4/d0a/classXonoticMiscSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,189,17],
 "d4/d0a/classXonoticMiscSettingsTab.html#a4c0b6420e40edf1e6c5c7861bba20ef9":[1,0,189,13],
-"d4/d0a/classXonoticMiscSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,189,23]
+"d4/d0a/classXonoticMiscSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,189,23],
+"d4/d0a/classXonoticMiscSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,189,31]
 };

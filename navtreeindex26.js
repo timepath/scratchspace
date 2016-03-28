@@ -1,6 +1,5 @@
 var NAVTREEINDEX26 =
 {
-"d3/dba/classXonoticLanguageList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,183,46],
 "d3/dba/classXonoticLanguageList.html#a955acbbda432fb19399292cbac96e0af":[1,0,183,58],
 "d3/dba/classXonoticLanguageList.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,183,70],
 "d3/dba/classXonoticLanguageList.html#a9e1ae295fc71614ad344e79c5d25f643":[1,0,183,50],
@@ -156,15 +155,15 @@ var NAVTREEINDEX26 =
 "d3/dc0/common_2items_2all_8qh_source.html":[2,0,1,5,3],
 "d3/dc3/net_8qc.html":[2,0,1,9,0,15,6],
 "d3/dc3/net_8qc_source.html":[2,0,1,9,0,15,6],
-"d3/dc9/macro_8qh.html":[2,0,3,24],
-"d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201":[2,0,3,24,4],
-"d3/dc9/macro_8qh.html#a297603003dcface1d54fb00d44a36fa9":[2,0,3,24,6],
-"d3/dc9/macro_8qh.html#a49acb15fcfb6e6f65b49b947c8b3b4cc":[2,0,3,24,1],
-"d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73":[2,0,3,24,3],
-"d3/dc9/macro_8qh.html#a7e6c97c88f776302c195e6728d6cb272":[2,0,3,24,5],
-"d3/dc9/macro_8qh.html#a9404439ed46dc67d489a7d4ec2853e8f":[2,0,3,24,2],
-"d3/dc9/macro_8qh.html#af65fab440cca3f4f31b60a9955b79c14":[2,0,3,24,0],
-"d3/dc9/macro_8qh_source.html":[2,0,3,24],
+"d3/dc9/macro_8qh.html":[2,0,3,25],
+"d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201":[2,0,3,25,4],
+"d3/dc9/macro_8qh.html#a297603003dcface1d54fb00d44a36fa9":[2,0,3,25,6],
+"d3/dc9/macro_8qh.html#a49acb15fcfb6e6f65b49b947c8b3b4cc":[2,0,3,25,1],
+"d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73":[2,0,3,25,3],
+"d3/dc9/macro_8qh.html#a7e6c97c88f776302c195e6728d6cb272":[2,0,3,25,5],
+"d3/dc9/macro_8qh.html#a9404439ed46dc67d489a7d4ec2853e8f":[2,0,3,25,2],
+"d3/dc9/macro_8qh.html#af65fab440cca3f4f31b60a9955b79c14":[2,0,3,25,0],
+"d3/dc9/macro_8qh_source.html":[2,0,3,25],
 "d3/dca/cheats_8qh.html":[2,0,5,15],
 "d3/dca/cheats_8qh.html#a04ede6834b82bb3efbfcd4961fbc6f54":[2,0,5,15,4],
 "d3/dca/cheats_8qh.html#a0bb834c275268bdf1e60ea2ec84732a5":[2,0,5,15,7],
@@ -249,5 +248,6 @@ var NAVTREEINDEX26 =
 "d3/dce/classXonoticTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,225,36],
 "d3/dce/classXonoticTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,225,6],
 "d3/dce/classXonoticTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,225,54],
-"d3/dce/classXonoticTab.html#a67d95732d49da439095483530aca8804":[1,0,225,42]
+"d3/dce/classXonoticTab.html#a67d95732d49da439095483530aca8804":[1,0,225,42],
+"d3/dce/classXonoticTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,225,7]
 };

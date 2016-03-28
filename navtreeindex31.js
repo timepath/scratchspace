@@ -1,6 +1,5 @@
 var NAVTREEINDEX31 =
 {
-"d4/d0c/csprogsdefs_8qc.html#ac8ca27b9e55da07bd03517b3113fbd69":[2,0,2,0,0,264],
 "d4/d0c/csprogsdefs_8qc.html#ac8d0b7de582e766915deb58889afc5cf":[2,0,2,0,0,432],
 "d4/d0c/csprogsdefs_8qc.html#ac977922df4f300059e8751717b856f47":[2,0,2,0,0,380],
 "d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6":[2,0,2,0,0,290],
@@ -249,5 +248,6 @@ var NAVTREEINDEX31 =
 "d4/d13/onslaught_8qc.html#a7cfc86894dfd752288cc5ca2c507e714":[2,0,1,3,0,1,6,2],
 "d4/d13/onslaught_8qc.html#a80e54120b21e53f1308f2d4e0a6b3e0e":[2,0,1,3,0,1,6,3],
 "d4/d13/onslaught_8qc.html#a9d2ee66e4d6dc89a52f994e45d589222":[2,0,1,3,0,1,6,1],
-"d4/d13/onslaught_8qc_source.html":[2,0,1,3,0,1,6]
+"d4/d13/onslaught_8qc_source.html":[2,0,1,3,0,1,6],
+"d4/d14/heal_8qc.html":[2,0,1,13,3,7]
 };

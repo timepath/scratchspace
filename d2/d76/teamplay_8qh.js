@@ -11,7 +11,6 @@ var teamplay_8qh =
     [ "JoinBestTeam", "d2/d76/teamplay_8qh.html#a2bf80d8d4c0ef914da18c00f4ce3cc55", null ],
     [ "LogTeamchange", "d2/d76/teamplay_8qh.html#af954f9f806424a8cb8467d9372d8049e", null ],
     [ "PlayerValue", "d2/d76/teamplay_8qh.html#a03beeb550118f87341e3c16c53300a6d", null ],
-    [ "SetLimits", "d2/d76/teamplay_8qh.html#a246b8f5baa8038cddf08ecc9adf5b17c", null ],
     [ "SetPlayerColors", "d2/d76/teamplay_8qh.html#a113b95feba1c451c0a411ec54eb29eab", null ],
     [ "SetPlayerTeam", "d2/d76/teamplay_8qh.html#ac136f59a979d6dd099a07e254408aed3", null ],
     [ "ShufflePlayerOutOfTeam", "d2/d76/teamplay_8qh.html#a50d3aefd0207c123d11252f5fdddcf0d", null ],

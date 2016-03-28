@@ -1,6 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"d3/d51/classXonoticImage.html#ace6b33f60db102ae3b061eb3c0b93ec2":[1,0,179,17],
 "d3/d51/classXonoticImage.html#ad619e3913547690106cdb4f742e182d4":[1,0,179,7],
 "d3/d51/classXonoticImage.html#ad7b2477ab4a07abbf34cc0cd3461253c":[1,0,179,14],
 "d3/d51/classXonoticImage.html#ad885b93c0a103ee08204101722634fd6":[1,0,179,19],
@@ -249,5 +248,6 @@ var NAVTREEINDEX23 =
 "d3/d71/dialog__credits_8qc.html#a4ea4520463328028f51785ada19f0259":[2,0,4,4,39,0],
 "d3/d71/dialog__credits_8qc_source.html":[2,0,4,4,39],
 "d3/d73/gamemode__ctf_8qc.html":[2,0,5,2,0,5],
-"d3/d73/gamemode__ctf_8qc_source.html":[2,0,5,2,0,5]
+"d3/d73/gamemode__ctf_8qc_source.html":[2,0,5,2,0,5],
+"d3/d78/classAnimHost.html":[1,0,2]
 };
