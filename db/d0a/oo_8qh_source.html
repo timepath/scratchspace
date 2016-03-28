@@ -155,10 +155,10 @@ $(document).ready(function(){initNavTree('db/d0a/oo_8qh_source.html','../../');}
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">if</span> (pure) {</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">        #ifdef CSQC</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span>        setorigin(<span class="keyword">this</span>, <span class="stringliteral">&#39;0 0 10000&#39;</span>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span>        setorigin(<span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.mins + <span class="stringliteral">&#39;0 0 20&#39;</span>);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor">        #endif</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #ifdef SVQC</span></div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor"></span>        setorigin(<span class="keyword">this</span>, <span class="stringliteral">&#39;0 0 -10000&#39;</span>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor"></span>        setorigin(<span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.maxs - <span class="stringliteral">&#39;0 0 20&#39;</span>);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">        #endif</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor"></span>    }</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
@@ -411,6 +411,7 @@ $(document).ready(function(){initNavTree('db/d0a/oo_8qh_source.html','../../');}
 <div class="ttc" id="oo_8qh_html_a8259d5b8ddaa05cbf3128401fa8423c1"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a8259d5b8ddaa05cbf3128401fa8423c1">DESTRUCTOR</a></div><div class="ttdeci">#define DESTRUCTOR(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00219">oo.qh:219</a></div></div>
 <div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00280">oo.qh:280</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="oo_8qh_html_aa90aa6b6b33b29c4b5568c7631b432e4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4">_spawn</a></div><div class="ttdeci">entity _spawn()</div></div>
 <div class="ttc" id="oo_8qh_html_a5e938649bc2ae6899e63c87b35dc388a"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a5e938649bc2ae6899e63c87b35dc388a">CLASS</a></div><div class="ttdeci">#define CLASS(cname, base)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00174">oo.qh:174</a></div></div>
 <div class="ttc" id="oo_8qh_html_a779314c109bce6e1bf0a26166c36c8f3"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a779314c109bce6e1bf0a26166c36c8f3">RegisterClasses</a></div><div class="ttdeci">void RegisterClasses()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00151">oo.qh:151</a></div></div>
@@ -445,7 +446,7 @@ $(document).ready(function(){initNavTree('db/d0a/oo_8qh_source.html','../../');}
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../db/d0a/oo_8qh.html">oo.qh</a></li>
-    <li class="footer">Generated on Mon Mar 28 2016 11:14:46 for Xonotic by
+    <li class="footer">Generated on Mon Mar 28 2016 14:19:15 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
