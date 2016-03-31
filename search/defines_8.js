@@ -15,7 +15,6 @@ var searchData=
   ['hm_5fgets',['HM_gets',['../d4/d54/map_8qh.html#ac4f258816f44ba60ecd630cf58e52974',1,'map.qh']]],
   ['hm_5fnew',['HM_NEW',['../d4/d54/map_8qh.html#a4552c3e9e142280d80a56d0d56ba009d',1,'map.qh']]],
   ['hm_5fsets',['HM_sets',['../d4/d54/map_8qh.html#a605b837e0b0cfbe3b7ef69564dba980e',1,'map.qh']]],
-  ['hud_5fdefaultcolumnlayout',['HUD_DefaultColumnLayout',['../d3/d07/scoreboard_8qc.html#a571f822cd19f1038562db9772f923f0e',1,'scoreboard.qc']]],
   ['hud_5fpanel',['HUD_PANEL',['../d3/d05/hud_8qh.html#a2bf8c8746e287dd49aa6097880e189ee',1,'hud.qh']]],
   ['hud_5fpanel_5fdrawbg',['HUD_Panel_DrawBg',['../d3/d05/hud_8qh.html#a4859e1cdd196ed8795676c79efe4bdfe',1,'hud.qh']]],
   ['hud_5fpanel_5fgetbg',['HUD_Panel_GetBg',['../d3/d05/hud_8qh.html#a4d84882b2992c05c1009efe82b56c4da',1,'hud.qh']]],

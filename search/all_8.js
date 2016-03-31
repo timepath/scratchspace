@@ -161,7 +161,6 @@ var searchData=
   ['hud_5fconfigure_5frealgridsize',['hud_configure_realGridSize',['../d3/d05/hud_8qh.html#a5204a80cd5e9fe439aba0169b70e6cfe',1,'hud.qh']]],
   ['hud_5fcrosshair',['HUD_Crosshair',['../d6/dd3/view_8qc.html#aea8af18aca82d5e8330c5595fe96a97d',1,'view.qc']]],
   ['hud_5fcrosshair_5fvehicle',['HUD_Crosshair_Vehicle',['../d6/dd3/view_8qc.html#a487026c70d8882902db2b9d6bc4bbf76',1,'view.qc']]],
-  ['hud_5fdefaultcolumnlayout',['HUD_DefaultColumnLayout',['../d3/d07/scoreboard_8qc.html#a571f822cd19f1038562db9772f923f0e',1,'scoreboard.qc']]],
   ['hud_5fdraw',['HUD_Draw',['../d6/dd3/view_8qc.html#a901e5ab9a2f5d5afa7414b6a30b8c2dc',1,'view.qc']]],
   ['hud_5fdraw_5fmaximized',['hud_draw_maximized',['../d3/d05/hud_8qh.html#a5aa4c12564945756f55e7074a2a02cde',1,'hud.qh']]],
   ['hud_5fdrawkeyvalue',['HUD_DrawKeyValue',['../d3/d07/scoreboard_8qc.html#ad9d1a7e7bd97dad4512ac2df5e181f4f',1,'scoreboard.qc']]],

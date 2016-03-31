@@ -1,6 +1,7 @@
 var searchData=
 [
   ['same_5fteam',['SAME_TEAM',['../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4',1,'teams.qh']]],
+  ['scoreboard_5fdefault_5fcolumns',['SCOREBOARD_DEFAULT_COLUMNS',['../d3/d07/scoreboard_8qc.html#a8255b834728e7b21dbd03c51898cccc3',1,'scoreboard.qc']]],
   ['secret_5fh',['SECRET_H',['../d6/dc8/secret_8qh.html#a9a6e68332896a52151b69bf816e04775',1,'secret.qh']]],
   ['self',['self',['../d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d',1,'self():&#160;self.qh'],['../d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d',1,'self():&#160;self.qh']]],
   ['selfparam',['SELFPARAM',['../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c',1,'self.qh']]],
