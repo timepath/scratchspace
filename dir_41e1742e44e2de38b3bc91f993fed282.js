@@ -42,6 +42,8 @@ var dir_41e1742e44e2de38b3bc91f993fed282 =
     [ "item_key.qh", "d5/d8f/item__key_8qh.html", "d5/d8f/item__key_8qh" ],
     [ "mapvoting.qc", "d2/d76/server_2mapvoting_8qc.html", "d2/d76/server_2mapvoting_8qc" ],
     [ "mapvoting.qh", "d3/d53/server_2mapvoting_8qh.html", "d3/d53/server_2mapvoting_8qh" ],
+    [ "matrix.qc", "d7/d8c/server_2matrix_8qc.html", "d7/d8c/server_2matrix_8qc" ],
+    [ "matrix.qh", "d5/d37/server_2matrix_8qh.html", null ],
     [ "miscfunctions.qc", "dc/dc6/server_2miscfunctions_8qc.html", "dc/dc6/server_2miscfunctions_8qc" ],
     [ "miscfunctions.qh", "dc/d73/server_2miscfunctions_8qh.html", "dc/d73/server_2miscfunctions_8qh" ],
     [ "playerdemo.qc", "dc/d62/playerdemo_8qc.html", "dc/d62/playerdemo_8qc" ],

@@ -207,7 +207,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    {</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        {</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            <span class="keywordtype">float</span> accepted;</div>
@@ -262,7 +262,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2adminmsg^7\n&quot;</span>);</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        {</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd adminmsg clients \&quot;message\&quot; [infobartime]\n&quot;</span>);</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;clients&#39; is a list (separated by commas) of player entity ID&#39;s or nicknames\n&quot;</span>);</div>
@@ -279,14 +279,14 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;{</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    {</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        {</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            <a class="code" href="../../d1/dad/server_2command_2vote_8qc.html#a033dd1158883a78b40100e1dd268815c">ReadyRestart</a>();</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        }</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        {</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd allready\n&quot;</span>);</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
@@ -300,7 +300,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    {</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        {</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            <span class="keywordtype">string</span> reason = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1);</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            <span class="keywordtype">int</span> n = 0;</div>
@@ -315,7 +315,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        }</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        {</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd allspec [reason]\n&quot;</span>);</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  Where &#39;reason&#39; is an optional argument for explanation of allspec command.\n&quot;</span>);</div>
@@ -329,7 +329,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;{</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    {</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        {</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#a227052057c08e1288dd13a4e7bfc5508">GetIndexedEntity</a>(argc, 1);</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            <span class="keywordtype">float</span> accepted = <a class="code" href="../../de/d55/server_2command_2common_8qc.html#af89e91d25e1930737140b82c808de86f">VerifyClientEntity</a>(client, <span class="keyword">false</span>, <span class="keyword">false</span>);</div>
@@ -347,7 +347,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2anticheat^7\n&quot;</span>);</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        {</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd anticheat client\n&quot;</span>);</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;client&#39; is the entity number or name of the player.\n&quot;</span>);</div>
@@ -360,7 +360,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;{</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    {</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        {</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Original size: &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.absmin.x), <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.absmin.y), <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.absmin.z));</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.absmax.x), <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.absmax.y), <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.absmax.z), <span class="stringliteral">&quot;\n&quot;</span>);</div>
@@ -427,7 +427,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        }</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        {</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd bbox\n&quot;</span>);</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
@@ -441,7 +441,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;{</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    {</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        {</div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> bot;</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
@@ -535,7 +535,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;</div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2bot_cmd^7\n&quot;</span>);</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        {</div>
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd bot_cmd client command [argument]\n&quot;</span>);</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;client&#39; can be either the name or entity id of the bot\n&quot;</span>);</div>
@@ -551,7 +551,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;{</div>
 <div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    {</div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;        {</div>
 <div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;            <span class="keywordtype">string</span> result1 = (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(2) ? <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;^7&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1)) : <span class="stringliteral">&quot;^1HEADS&quot;</span>);</div>
 <div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;            <span class="keywordtype">string</span> result2 = (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(2) ? <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;^7&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(2)) : <span class="stringliteral">&quot;^4TAILS&quot;</span>);</div>
@@ -562,7 +562,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        }</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;        {</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd cointoss [result1 result2]\n&quot;</span>);</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  Where &#39;result1&#39; and &#39;result2&#39; are user created options.\n&quot;</span>);</div>
@@ -575,7 +575,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;{</div>
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;    {</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;        {</div>
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;            <span class="keywordflow">if</span> (argc == 3)</div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;            {</div>
@@ -603,7 +603,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;</div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2database^7\n&quot;</span>);</div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;        {</div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd database action filename\n&quot;</span>);</div>
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  Where &#39;action&#39; is the command to complete,\n&quot;</span>);</div>
@@ -618,7 +618,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;{</div>
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    {</div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;        {</div>
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client;</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;            <span class="keywordtype">float</span> accepted;</div>
@@ -641,7 +641,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;</div>
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2defer_clear^7\n&quot;</span>);</div>
-<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;        {</div>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd defer_clear client\n&quot;</span>);</div>
 <div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;client&#39; is the entity number or name of the player.\n&quot;</span>);</div>
@@ -655,14 +655,14 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;{</div>
 <div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;    {</div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;        {</div>
 <div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;            <span class="keywordtype">int</span> n = 0;</div>
 <div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;            <span class="keywordtype">float</span> argc;</div>
 <div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;</div>
 <div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;            <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
 <div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;                argc = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;defer_clear &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7">etof</a>(it))));</div>
-<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;                <a class="code" href="../../d3/df2/sv__cmd_8qc.html#a898c7938e088e2f0bb8520438442c276">GameCommand_defer_clear</a>(<a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, argc);</div>
+<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;                <a class="code" href="../../d3/df2/sv__cmd_8qc.html#a898c7938e088e2f0bb8520438442c276">GameCommand_defer_clear</a>(<a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, argc);</div>
 <div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;                ++n;</div>
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;            ));</div>
 <div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;            <span class="keywordflow">if</span> (n)   <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;Successfully stuffed defer clear to all clients (&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(n), <span class="stringliteral">&quot;)\n&quot;</span>));  <span class="comment">// should a message be added if no players were found?</span></div>
@@ -670,7 +670,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;        }</div>
 <div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;</div>
 <div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;        {</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd defer_clear_all\n&quot;</span>);</div>
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
@@ -684,7 +684,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;{</div>
 <div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;    {</div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;        {</div>
 <div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1))</div>
 <div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;            {</div>
@@ -696,7 +696,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;</div>
 <div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2delrec^7\n&quot;</span>);</div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;        {</div>
 <div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd delrec ranking [map]\n&quot;</span>);</div>
 <div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;ranking&#39; is which ranking level to clear up to, \n&quot;</span>);</div>
@@ -711,7 +711,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;{</div>
 <div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    {</div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;        {</div>
 <div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;            <span class="keywordtype">float</span> fh, d;</div>
 <div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;            <span class="keywordtype">string</span> s;</div>
@@ -812,7 +812,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;        }</div>
 <div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;</div>
 <div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;        {</div>
 <div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd effectindexdump\n&quot;</span>);</div>
 <div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
@@ -825,14 +825,14 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;{</div>
 <div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;    {</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        {</div>
 <div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;            <a class="code" href="../../d3/df2/sv__cmd_8qc.html#a51325a4fe71378c58c0db69412942152">changematchtime</a>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#af8ffafea124708dc6d17a18c6b4bdb4e">autocvar_timelimit_increment</a> * 60, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a550a2e01a993af1e341493e9ce3c5915">autocvar_timelimit_min</a> * 60, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a1e466e066472360309cd2cf2c107a633">autocvar_timelimit_max</a> * 60);</div>
 <div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;        }</div>
 <div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;</div>
 <div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;        {</div>
 <div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd extendmatchtime\n&quot;</span>);</div>
 <div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
@@ -846,7 +846,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;{</div>
 <div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;    {</div>
-<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;        {</div>
 <div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1) != <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;            {</div>
@@ -882,7 +882,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;</div>
 <div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2gametype^7\n&quot;</span>);</div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;        {</div>
 <div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd gametype mode\n&quot;</span>);</div>
 <div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  Where &#39;mode&#39; is the gametype mode to switch to.\n&quot;</span>);</div>
@@ -896,7 +896,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;{</div>
 <div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;    {</div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;        {</div>
 <div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> tmp_entity;</div>
 <div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;            <span class="keywordtype">float</span> i;</div>
@@ -946,7 +946,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;</div>
 <div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2gettaginfo^7\n&quot;</span>);</div>
-<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;        {</div>
 <div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd gettaginfo model frame index [command one] [command two]\n&quot;</span>);</div>
 <div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2bbox, trace^7\n&quot;</span>);</div>
@@ -959,7 +959,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;{</div>
 <div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;    {</div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;        {</div>
 <div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> tmp_entity;</div>
 <div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;</div>
@@ -1005,7 +1005,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;</div>
 <div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2gettaginfo^7\n&quot;</span>);</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;        {</div>
 <div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd gettaginfo model frame index [command one] [command two]\n&quot;</span>);</div>
 <div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;See also: ^2bbox, trace^7\n&quot;</span>);</div>
@@ -1018,7 +1018,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;{</div>
 <div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;    {</div>
-<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;        {</div>
 <div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1))</div>
 <div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;            {</div>
@@ -1029,7 +1029,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;</div>
 <div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2gotomap^7\n&quot;</span>);</div>
-<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;        {</div>
 <div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd gotomap map\n&quot;</span>);</div>
 <div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  Where &#39;map&#39; is the *.bsp file to change to.\n&quot;</span>);</div>
@@ -1043,7 +1043,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;{</div>
 <div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;    {</div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;        {</div>
 <div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
 <div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;            {</div>
@@ -1058,7 +1058,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;        }</div>
 <div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;</div>
 <div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;        {</div>
 <div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd lockteams\n&quot;</span>);</div>
 <div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
@@ -1072,7 +1072,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;{</div>
 <div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;    {</div>
-<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;        {</div>
 <div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> tmp_entity;</div>
 <div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;</div>
@@ -1084,7 +1084,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;        }</div>
 <div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;</div>
 <div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;        {</div>
 <div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd make_mapinfo\n&quot;</span>);</div>
 <div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
@@ -1099,7 +1099,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;    {</div>
-<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;        {</div>
 <div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160;            <span class="keywordtype">float</span> accepted;</div>
 <div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client;</div>
@@ -1217,7 +1217,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;</div>
 <div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2moveplayer^7\n&quot;</span>);</div>
-<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;        {</div>
 <div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd moveplayer clients destination\n&quot;</span>);</div>
 <div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;clients&#39; is a list (separated by commas) of player entity ID&#39;s or nicknames\n&quot;</span>);</div>
@@ -1235,7 +1235,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;{</div>
 <div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;    {</div>
-<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;        {</div>
 <div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;            <a class="code" href="../../d5/d26/server_2defs_8qh.html#a611426eabd1041c62519ae6d9391a9e4">blockSpectators</a> = 1;</div>
 <div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;            <span class="comment">// give every spectator &lt;g_maxplayers_spectator_blocktime&gt; seconds time to become a player</span></div>
@@ -1251,7 +1251,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;        }</div>
 <div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;</div>
 <div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;        {</div>
 <div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd nospectators\n&quot;</span>);</div>
 <div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
@@ -1265,7 +1265,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l01160"></a><span class="lineno"> 1160</span>&#160;    {</div>
-<div class="line"><a name="l01161"></a><span class="lineno"> 1161</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l01161"></a><span class="lineno"> 1161</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l01162"></a><span class="lineno"> 1162</span>&#160;        {</div>
 <div class="line"><a name="l01163"></a><span class="lineno"> 1163</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(2) &amp;&amp; <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(3))</div>
 <div class="line"><a name="l01164"></a><span class="lineno"> 1164</span>&#160;            {</div>
@@ -1332,7 +1332,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01225"></a><span class="lineno"> 1225</span>&#160;</div>
 <div class="line"><a name="l01226"></a><span class="lineno"> 1226</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l01227"></a><span class="lineno"> 1227</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2playerdemo^7\n&quot;</span>);</div>
-<div class="line"><a name="l01228"></a><span class="lineno"> 1228</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01228"></a><span class="lineno"> 1228</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l01229"></a><span class="lineno"> 1229</span>&#160;        {</div>
 <div class="line"><a name="l01230"></a><span class="lineno"> 1230</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd playerdemo command (entitynumber filename | entitynumber botnumber)\n&quot;</span>);</div>
 <div class="line"><a name="l01231"></a><span class="lineno"> 1231</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  Full list of commands here: \&quot;read, write, auto_read_and_write, auto_read.\&quot;\n&quot;</span>);</div>
@@ -1345,7 +1345,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01238"></a><span class="lineno"> 1238</span>&#160;{</div>
 <div class="line"><a name="l01239"></a><span class="lineno"> 1239</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l01240"></a><span class="lineno"> 1240</span>&#160;    {</div>
-<div class="line"><a name="l01241"></a><span class="lineno"> 1241</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l01241"></a><span class="lineno"> 1241</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l01242"></a><span class="lineno"> 1242</span>&#160;        {</div>
 <div class="line"><a name="l01243"></a><span class="lineno"> 1243</span>&#160;            <a class="code" href="../../db/dcc/g__world_8qc.html#a1207e599d7420b0af40007a89426efec">DumpStats</a>(<span class="keyword">false</span>);</div>
 <div class="line"><a name="l01244"></a><span class="lineno"> 1244</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;stats dumped.\n&quot;</span>);</div>
@@ -1353,7 +1353,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01246"></a><span class="lineno"> 1246</span>&#160;        }</div>
 <div class="line"><a name="l01247"></a><span class="lineno"> 1247</span>&#160;</div>
 <div class="line"><a name="l01248"></a><span class="lineno"> 1248</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l01249"></a><span class="lineno"> 1249</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01249"></a><span class="lineno"> 1249</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l01250"></a><span class="lineno"> 1250</span>&#160;        {</div>
 <div class="line"><a name="l01251"></a><span class="lineno"> 1251</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd printstats\n&quot;</span>);</div>
 <div class="line"><a name="l01252"></a><span class="lineno"> 1252</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
@@ -1366,14 +1366,14 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01259"></a><span class="lineno"> 1259</span>&#160;{</div>
 <div class="line"><a name="l01260"></a><span class="lineno"> 1260</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l01261"></a><span class="lineno"> 1261</span>&#160;    {</div>
-<div class="line"><a name="l01262"></a><span class="lineno"> 1262</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l01262"></a><span class="lineno"> 1262</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l01263"></a><span class="lineno"> 1263</span>&#160;        {</div>
 <div class="line"><a name="l01264"></a><span class="lineno"> 1264</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d9/dfb/radarmap_8qc.html#acdd3a73b86c28ca1fea8a01766ea522c">RadarMap_Make</a>(argc)) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l01265"></a><span class="lineno"> 1265</span>&#160;        }</div>
 <div class="line"><a name="l01266"></a><span class="lineno"> 1266</span>&#160;</div>
 <div class="line"><a name="l01267"></a><span class="lineno"> 1267</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l01268"></a><span class="lineno"> 1268</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2radarmap^7\n&quot;</span>);</div>
-<div class="line"><a name="l01269"></a><span class="lineno"> 1269</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01269"></a><span class="lineno"> 1269</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l01270"></a><span class="lineno"> 1270</span>&#160;        {</div>
 <div class="line"><a name="l01271"></a><span class="lineno"> 1271</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd radarmap [--force] [--loop] [--quit] [--block | --trace | --sample | --lineblock] [--sharpen N] [--res W H] [--qual Q]\n&quot;</span>);</div>
 <div class="line"><a name="l01272"></a><span class="lineno"> 1272</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  The quality factor Q is roughly proportional to the time taken.\n&quot;</span>);</div>
@@ -1388,14 +1388,14 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01281"></a><span class="lineno"> 1281</span>&#160;{</div>
 <div class="line"><a name="l01282"></a><span class="lineno"> 1282</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l01283"></a><span class="lineno"> 1283</span>&#160;    {</div>
-<div class="line"><a name="l01284"></a><span class="lineno"> 1284</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l01284"></a><span class="lineno"> 1284</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l01285"></a><span class="lineno"> 1285</span>&#160;        {</div>
 <div class="line"><a name="l01286"></a><span class="lineno"> 1286</span>&#160;            <a class="code" href="../../d3/df2/sv__cmd_8qc.html#a51325a4fe71378c58c0db69412942152">changematchtime</a>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a8651e4f8a34cbd902f1d085243bbafba">autocvar_timelimit_decrement</a> * -60, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a550a2e01a993af1e341493e9ce3c5915">autocvar_timelimit_min</a> * 60, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a1e466e066472360309cd2cf2c107a633">autocvar_timelimit_max</a> * 60);</div>
 <div class="line"><a name="l01287"></a><span class="lineno"> 1287</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l01288"></a><span class="lineno"> 1288</span>&#160;        }</div>
 <div class="line"><a name="l01289"></a><span class="lineno"> 1289</span>&#160;</div>
 <div class="line"><a name="l01290"></a><span class="lineno"> 1290</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l01291"></a><span class="lineno"> 1291</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01291"></a><span class="lineno"> 1291</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l01292"></a><span class="lineno"> 1292</span>&#160;        {</div>
 <div class="line"><a name="l01293"></a><span class="lineno"> 1293</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd reducematchtime\n&quot;</span>);</div>
 <div class="line"><a name="l01294"></a><span class="lineno"> 1294</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
@@ -1409,7 +1409,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01302"></a><span class="lineno"> 1302</span>&#160;{</div>
 <div class="line"><a name="l01303"></a><span class="lineno"> 1303</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l01304"></a><span class="lineno"> 1304</span>&#160;    {</div>
-<div class="line"><a name="l01305"></a><span class="lineno"> 1305</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l01305"></a><span class="lineno"> 1305</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l01306"></a><span class="lineno"> 1306</span>&#160;        {</div>
 <div class="line"><a name="l01307"></a><span class="lineno"> 1307</span>&#160;            <span class="keywordflow">if</span> (argc &gt;= 2)</div>
 <div class="line"><a name="l01308"></a><span class="lineno"> 1308</span>&#160;            {</div>
@@ -1422,7 +1422,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01315"></a><span class="lineno"> 1315</span>&#160;</div>
 <div class="line"><a name="l01316"></a><span class="lineno"> 1316</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l01317"></a><span class="lineno"> 1317</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2setbots^7\n&quot;</span>);</div>
-<div class="line"><a name="l01318"></a><span class="lineno"> 1318</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01318"></a><span class="lineno"> 1318</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l01319"></a><span class="lineno"> 1319</span>&#160;        {</div>
 <div class="line"><a name="l01320"></a><span class="lineno"> 1320</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd setbots botnumber\n&quot;</span>);</div>
 <div class="line"><a name="l01321"></a><span class="lineno"> 1321</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  Where &#39;botnumber&#39; is the amount of bots to set bot_number cvar to.\n&quot;</span>);</div>
@@ -1437,7 +1437,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01330"></a><span class="lineno"> 1330</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l01331"></a><span class="lineno"> 1331</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l01332"></a><span class="lineno"> 1332</span>&#160;    {</div>
-<div class="line"><a name="l01333"></a><span class="lineno"> 1333</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l01333"></a><span class="lineno"> 1333</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l01334"></a><span class="lineno"> 1334</span>&#160;        {</div>
 <div class="line"><a name="l01335"></a><span class="lineno"> 1335</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
 <div class="line"><a name="l01336"></a><span class="lineno"> 1336</span>&#160;            {</div>
@@ -1523,7 +1523,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01416"></a><span class="lineno"> 1416</span>&#160;        }</div>
 <div class="line"><a name="l01417"></a><span class="lineno"> 1417</span>&#160;</div>
 <div class="line"><a name="l01418"></a><span class="lineno"> 1418</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l01419"></a><span class="lineno"> 1419</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01419"></a><span class="lineno"> 1419</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l01420"></a><span class="lineno"> 1420</span>&#160;        {</div>
 <div class="line"><a name="l01421"></a><span class="lineno"> 1421</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd shuffleteams\n&quot;</span>);</div>
 <div class="line"><a name="l01422"></a><span class="lineno"> 1422</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
@@ -1542,7 +1542,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01435"></a><span class="lineno"> 1435</span>&#160;<span class="preprocessor">#ifdef STUFFTO_ENABLED</span></div>
 <div class="line"><a name="l01436"></a><span class="lineno"> 1436</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l01437"></a><span class="lineno"> 1437</span>&#160;        {</div>
-<div class="line"><a name="l01438"></a><span class="lineno"> 1438</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l01438"></a><span class="lineno"> 1438</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l01439"></a><span class="lineno"> 1439</span>&#160;            {</div>
 <div class="line"><a name="l01440"></a><span class="lineno"> 1440</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(2))</div>
 <div class="line"><a name="l01441"></a><span class="lineno"> 1441</span>&#160;                {</div>
@@ -1565,7 +1565,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01458"></a><span class="lineno"> 1458</span>&#160;</div>
 <div class="line"><a name="l01459"></a><span class="lineno"> 1459</span>&#160;            <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l01460"></a><span class="lineno"> 1460</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2stuffto^7\n&quot;</span>);</div>
-<div class="line"><a name="l01461"></a><span class="lineno"> 1461</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01461"></a><span class="lineno"> 1461</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l01462"></a><span class="lineno"> 1462</span>&#160;            {</div>
 <div class="line"><a name="l01463"></a><span class="lineno"> 1463</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd stuffto client \&quot;command\&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l01464"></a><span class="lineno"> 1464</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;client&#39; is the entity number or name of the player,\n&quot;</span>);</div>
@@ -1586,7 +1586,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01479"></a><span class="lineno"> 1479</span>&#160;{</div>
 <div class="line"><a name="l01480"></a><span class="lineno"> 1480</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;    {</div>
-<div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;        {</div>
 <div class="line"><a name="l01484"></a><span class="lineno"> 1484</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
 <div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> org, delta, start, end, <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>, q, q0, pos, vv, dv;</div>
@@ -1741,7 +1741,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01634"></a><span class="lineno"> 1634</span>&#160;</div>
 <div class="line"><a name="l01635"></a><span class="lineno"> 1635</span>&#160;        <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l01636"></a><span class="lineno"> 1636</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Incorrect parameters for ^2trace^7\n&quot;</span>);</div>
-<div class="line"><a name="l01637"></a><span class="lineno"> 1637</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01637"></a><span class="lineno"> 1637</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l01638"></a><span class="lineno"> 1638</span>&#160;        {</div>
 <div class="line"><a name="l01639"></a><span class="lineno"> 1639</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd trace command (startpos endpos)\n&quot;</span>);</div>
 <div class="line"><a name="l01640"></a><span class="lineno"> 1640</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  Full list of commands here: \&quot;debug, debug2, walk, showline.\&quot;\n&quot;</span>);</div>
@@ -1755,7 +1755,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01648"></a><span class="lineno"> 1648</span>&#160;{</div>
 <div class="line"><a name="l01649"></a><span class="lineno"> 1649</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l01650"></a><span class="lineno"> 1650</span>&#160;    {</div>
-<div class="line"><a name="l01651"></a><span class="lineno"> 1651</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l01651"></a><span class="lineno"> 1651</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l01652"></a><span class="lineno"> 1652</span>&#160;        {</div>
 <div class="line"><a name="l01653"></a><span class="lineno"> 1653</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
 <div class="line"><a name="l01654"></a><span class="lineno"> 1654</span>&#160;            {</div>
@@ -1770,7 +1770,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01663"></a><span class="lineno"> 1663</span>&#160;        }</div>
 <div class="line"><a name="l01664"></a><span class="lineno"> 1664</span>&#160;</div>
 <div class="line"><a name="l01665"></a><span class="lineno"> 1665</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l01666"></a><span class="lineno"> 1666</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01666"></a><span class="lineno"> 1666</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l01667"></a><span class="lineno"> 1667</span>&#160;        {</div>
 <div class="line"><a name="l01668"></a><span class="lineno"> 1668</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd unlockteams\n&quot;</span>);</div>
 <div class="line"><a name="l01669"></a><span class="lineno"> 1669</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  No arguments required.\n&quot;</span>);</div>
@@ -1784,7 +1784,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01677"></a><span class="lineno"> 1677</span>&#160;{</div>
 <div class="line"><a name="l01678"></a><span class="lineno"> 1678</span>&#160;    <span class="keywordflow">switch</span> (request)</div>
 <div class="line"><a name="l01679"></a><span class="lineno"> 1679</span>&#160;    {</div>
-<div class="line"><a name="l01680"></a><span class="lineno"> 1680</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
+<div class="line"><a name="l01680"></a><span class="lineno"> 1680</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>:</div>
 <div class="line"><a name="l01681"></a><span class="lineno"> 1681</span>&#160;        {</div>
 <div class="line"><a name="l01682"></a><span class="lineno"> 1682</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a9e49d744aa004a9ba871c7301dd92e7c">autocvar_g_campaign</a>)</div>
 <div class="line"><a name="l01683"></a><span class="lineno"> 1683</span>&#160;            {</div>
@@ -1807,7 +1807,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01700"></a><span class="lineno"> 1700</span>&#160;        }</div>
 <div class="line"><a name="l01701"></a><span class="lineno"> 1701</span>&#160;</div>
 <div class="line"><a name="l01702"></a><span class="lineno"> 1702</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l01703"></a><span class="lineno"> 1703</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
+<div class="line"><a name="l01703"></a><span class="lineno"> 1703</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>:</div>
 <div class="line"><a name="l01704"></a><span class="lineno"> 1704</span>&#160;        {</div>
 <div class="line"><a name="l01705"></a><span class="lineno"> 1705</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;\nUsage:^3 sv_cmd warp [level]\n&quot;</span>);</div>
 <div class="line"><a name="l01706"></a><span class="lineno"> 1706</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;  &#39;level&#39; is the level to change campaign mode to.\n&quot;</span>);</div>
@@ -1887,7 +1887,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01780"></a><span class="lineno"> 1780</span>&#160;{</div>
 <div class="line"><a name="l01781"></a><span class="lineno"> 1781</span>&#160;    <span class="keywordtype">string</span> c = <a class="code" href="../../d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a">strtolower</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(0));</div>
 <div class="line"><a name="l01782"></a><span class="lineno"> 1782</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(SERVER_COMMANDS, it.m_name == c, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l01783"></a><span class="lineno"> 1783</span>&#160;        it.m_invokecmd(it, <a class="code" href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, argc, command);</div>
+<div class="line"><a name="l01783"></a><span class="lineno"> 1783</span>&#160;        it.m_invokecmd(it, <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, argc, command);</div>
 <div class="line"><a name="l01784"></a><span class="lineno"> 1784</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l01785"></a><span class="lineno"> 1785</span>&#160;    ));</div>
 <div class="line"><a name="l01786"></a><span class="lineno"> 1786</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -1897,7 +1897,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01790"></a><span class="lineno"> 1790</span>&#160;{</div>
 <div class="line"><a name="l01791"></a><span class="lineno"> 1791</span>&#160;    <span class="keywordtype">string</span> c = <a class="code" href="../../d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a">strtolower</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1));</div>
 <div class="line"><a name="l01792"></a><span class="lineno"> 1792</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(SERVER_COMMANDS, it.m_name == c, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l01793"></a><span class="lineno"> 1793</span>&#160;        it.m_invokecmd(it, <a class="code" href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, argc, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l01793"></a><span class="lineno"> 1793</span>&#160;        it.m_invokecmd(it, <a class="code" href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, argc, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l01794"></a><span class="lineno"> 1794</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l01795"></a><span class="lineno"> 1795</span>&#160;    ));</div>
 <div class="line"><a name="l01796"></a><span class="lineno"> 1796</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -1988,7 +1988,6 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="ttc" id="common_2util_8qh_html_ac9eefc4b70d421cb3e606c88900499d5"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac9eefc4b70d421cb3e606c88900499d5">db_load</a></div><div class="ttdeci">int db_load(string filename)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00031">map.qh:31</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a2fe509c0b40f36507d0ca180e8aedd09"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a2fe509c0b40f36507d0ca180e8aedd09">gettaginfo_parent</a></div><div class="ttdeci">float gettaginfo_parent</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01461">csprogsdefs.qc:1461</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
-<div class="ttc" id="command_8qh_html_a07f6d442e5d9ae5399caa2ee6d795f04"><div class="ttname"><a href="../../d9/d71/command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a></div><div class="ttdeci">const int CMD_REQUEST_COMMAND</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d71/command_8qh_source.html#l00004">command.qh:4</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
 <div class="ttc" id="sv__cmd_8qc_html_af1a4581b0f369c6ec43e8efee459546c"><div class="ttname"><a href="../../d3/df2/sv__cmd_8qc.html#af1a4581b0f369c6ec43e8efee459546c">GameCommand_macro_write_aliases</a></div><div class="ttdeci">void GameCommand_macro_write_aliases(float fh)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/df2/sv__cmd_8qc_source.html#l01799">sv_cmd.qc:1799</a></div></div>
 <div class="ttc" id="mapinfo_8qc_html_a3891360f84aed0d6a78c32293c8e619a"><div class="ttname"><a href="../../d3/d46/mapinfo_8qc.html#a3891360f84aed0d6a78c32293c8e619a">MapInfo_RequiredFlags</a></div><div class="ttdeci">int MapInfo_RequiredFlags()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d46/mapinfo_8qc_source.html#l01404">mapinfo.qc:1404</a></div></div>
@@ -2022,6 +2021,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
 <div class="ttc" id="common_2util_8qc_html_ac77daa35318f74748eb10eda07e7dd49"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#ac77daa35318f74748eb10eda07e7dd49">cvar_settemp</a></div><div class="ttdeci">float cvar_settemp(string tmp_cvar, string tmp_value)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00584">util.qc:584</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acb9f339b13d7c297c737641f0d08cedb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acb9f339b13d7c297c737641f0d08cedb">gettaginfo_offset</a></div><div class="ttdeci">vector gettaginfo_offset</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01463">csprogsdefs.qc:1463</a></div></div>
+<div class="ttc" id="common_2command_2command_8qh_html_ab9e24d8681128fd9913308f8dc3e026a"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a></div><div class="ttdeci">const int CMD_REQUEST_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00005">command.qh:5</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_a14e7b447f7917f8ac7e0198ee25b2bc2"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#a14e7b447f7917f8ac7e0198ee25b2bc2">IS_OBSERVER</a></div><div class="ttdeci">#define IS_OBSERVER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00011">_all.qh:11</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a1b6c6d653a3afa9ff06bf09160575c74"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a1b6c6d653a3afa9ff06bf09160575c74">db_close</a></div><div class="ttdeci">void db_close(int db)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00078">map.qh:78</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_afafcc8d75788a369ad96ca50f9e04959"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#afafcc8d75788a369ad96ca50f9e04959">db_create</a></div><div class="ttdeci">int db_create()</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00023">map.qh:23</a></div></div>
@@ -2033,7 +2033,6 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="ttc" id="generic_8qc_html_afc2258d0a6214950261d6dc3d0e4ad06"><div class="ttname"><a href="../../df/da7/generic_8qc.html#afc2258d0a6214950261d6dc3d0e4ad06">GenericCommand</a></div><div class="ttdeci">float GenericCommand(string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/da7/generic_8qc_source.html#l00574">generic.qc:574</a></div></div>
 <div class="ttc" id="server_2command_2common_8qh_html_a0f6cca326c712137b206f943a0024623"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html#a0f6cca326c712137b206f943a0024623">CommonCommand_macro_help</a></div><div class="ttdeci">void CommonCommand_macro_help(entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d06/server_2command_2common_8qh_source.html#l00159">common.qh:159</a></div></div>
 <div class="ttc" id="sv__cmd_8qc_html_ace6e22b7f453fe00f6629955c25e4fdc"><div class="ttname"><a href="../../d3/df2/sv__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc">GameCommand</a></div><div class="ttdeci">void GameCommand(string command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/df2/sv__cmd_8qc_source.html#l01810">sv_cmd.qc:1810</a></div></div>
-<div class="ttc" id="command_8qh_html_ab9e24d8681128fd9913308f8dc3e026a"><div class="ttname"><a href="../../d9/d71/command_8qh.html#ab9e24d8681128fd9913308f8dc3e026a">CMD_REQUEST_USAGE</a></div><div class="ttdeci">const int CMD_REQUEST_USAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d71/command_8qh_source.html#l00005">command.qh:5</a></div></div>
 <div class="ttc" id="cl__client_8qh_html_a7fea4d2f6f3c31b60301494b136558af"><div class="ttname"><a href="../../d1/d30/cl__client_8qh.html#a7fea4d2f6f3c31b60301494b136558af">c1</a></div><div class="ttdeci">float c1</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d30/cl__client_8qh_source.html#l00100">cl_client.qh:100</a></div></div>
 <div class="ttc" id="server_2command_2common_8qc_html_af89e91d25e1930737140b82c808de86f"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#af89e91d25e1930737140b82c808de86f">VerifyClientEntity</a></div><div class="ttdeci">float VerifyClientEntity(entity client, float must_be_real, float must_be_bots)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00039">common.qc:39</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_af8ffafea124708dc6d17a18c6b4bdb4e"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#af8ffafea124708dc6d17a18c6b4bdb4e">autocvar_timelimit_increment</a></div><div class="ttdeci">float autocvar_timelimit_increment</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00419">autocvars.qh:419</a></div></div>
@@ -2114,6 +2113,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="ttc" id="bot_8qc_html_a2fee5495c041d9197ee7d76cccd1d889"><div class="ttname"><a href="../../d2/dc0/bot_8qc.html#a2fee5495c041d9197ee7d76cccd1d889">bot_fixcount</a></div><div class="ttdeci">float bot_fixcount()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc0/bot_8qc_source.html#l00555">bot.qc:555</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a9e49d744aa004a9ba871c7301dd92e7c"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a9e49d744aa004a9ba871c7301dd92e7c">autocvar_g_campaign</a></div><div class="ttdeci">bool autocvar_g_campaign</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00157">autocvars.qh:157</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html">constants.qh</a></div></div>
+<div class="ttc" id="common_2command_2command_8qh_html_a07f6d442e5d9ae5399caa2ee6d795f04"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html#a07f6d442e5d9ae5399caa2ee6d795f04">CMD_REQUEST_COMMAND</a></div><div class="ttdeci">const int CMD_REQUEST_COMMAND</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da1/common_2command_2command_8qh_source.html#l00004">command.qh:4</a></div></div>
 <div class="ttc" id="server_2command_2common_8qh_html_a54b86f9396c2cbcda360e9a4a094623d"><div class="ttname"><a href="../../d2/d06/server_2command_2common_8qh.html#a54b86f9396c2cbcda360e9a4a094623d">CommonCommand_macro_usage</a></div><div class="ttdeci">float CommonCommand_macro_usage(float argc, entity caller)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d06/server_2command_2common_8qh_source.html#l00174">common.qh:174</a></div></div>
 <div class="ttc" id="generic_8qh_html_a44c76290bfaf0ae7ebacd68341676cdd"><div class="ttname"><a href="../../d7/d88/generic_8qh.html#a44c76290bfaf0ae7ebacd68341676cdd">CMD_Write_Alias</a></div><div class="ttdeci">#define CMD_Write_Alias(execute, command, description)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d88/generic_8qh_source.html#l00035">generic.qh:35</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00060">log.qh:60</a></div></div>
@@ -2216,7 +2216,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d3/df2/sv__cmd_8qc.html">sv_cmd.qc</a></li>
-    <li class="footer">Generated on Tue Mar 29 2016 21:01:35 for Xonotic by
+    <li class="footer">Generated on Thu Mar 31 2016 04:13:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

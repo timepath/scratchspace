@@ -16,6 +16,7 @@ var json_8qc =
     [ "_json_parse_true", "d6/dce/json_8qc.html#a588d9c1020b14b421744c26e42a7827c", null ],
     [ "_json_parse_value", "d6/dce/json_8qc.html#a7c960e40b4a2c8bffcefd66d9f8db63b", null ],
     [ "json_del", "d6/dce/json_8qc.html#a8886d8f98e95f8f9fced0eb1b1da6b04", null ],
+    [ "json_dump", "d6/dce/json_8qc.html#ab02d7990ac4d64bc05810a1a8d8beb05", null ],
     [ "json_get", "d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8", null ],
     [ "json_parse", "d6/dce/json_8qc.html#a3c17476779d0f2bb36ec7601ac57ae13", null ],
     [ "STRING_ITERATOR", "d6/dce/json_8qc.html#ab90640dbf9eb64a373fd80094f03e400", null ],

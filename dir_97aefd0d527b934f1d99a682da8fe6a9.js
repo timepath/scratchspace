@@ -1,6 +1,7 @@
 var dir_97aefd0d527b934f1d99a682da8fe6a9 =
 [
     [ "csqcmodel", "dir_d5fd5ebb74d9aac6232b0b4eda80dfde.html", "dir_d5fd5ebb74d9aac6232b0b4eda80dfde" ],
+    [ "matrix", "dir_22012559f3b0dbbb75f685d16a591ed4.html", "dir_22012559f3b0dbbb75f685d16a591ed4" ],
     [ "warpzone", "dir_58d953ef34ccfc4a49203206a34466c3.html", "dir_58d953ef34ccfc4a49203206a34466c3" ],
     [ "_all.inc", "d4/dfb/lib_2__all_8inc.html", "d4/dfb/lib_2__all_8inc" ],
     [ "_mod.inc", "dd/d71/lib_2__mod_8inc.html", null ],
