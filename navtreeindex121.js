@@ -1,5 +1,6 @@
 var NAVTREEINDEX121 =
 {
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,209,79],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0b7c22b4ba0234561575e01ef7f17fc6":[1,0,209,60],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0c478135eb70f406c6a0b87529556e98":[1,0,209,24],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0cb9ce568f3ffd87c5388045540c4eb6":[1,0,209,63],
@@ -248,6 +249,5 @@ var NAVTREEINDEX121 =
 "functions_u.html":[1,3,0,19],
 "functions_v.html":[1,3,0,20],
 "functions_vars.html":[1,3,2,0],
-"functions_vars.html":[1,3,2],
-"functions_vars_b.html":[1,3,2,1]
+"functions_vars.html":[1,3,2]
 };
