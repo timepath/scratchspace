@@ -534,7 +534,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;                PS_B_IN_DB = <a class="code" href="../../d5/df2/common_2util_8qh.html#afafcc8d75788a369ad96ca50f9e04959">db_create</a>();</div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;</div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;            <span class="comment">// now request the information</span></div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;            uri = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(uri, <span class="stringliteral">&quot;/player/&quot;</span>, uri_escape(uri_escape(joiningplayer.crypto_idfp)), <span class="stringliteral">&quot;/elo.txt&quot;</span>);</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;            uri = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(uri, <span class="stringliteral">&quot;/player/&quot;</span>, uri_escape(uri_escape(uri_escape(joiningplayer.crypto_idfp))), <span class="stringliteral">&quot;/elo.txt&quot;</span>);</div>
 <div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Retrieving playerstats from URL: &quot;</span>, uri, <span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;            <a class="code" href="../../d6/d38/urllib_8qc.html#ab557f597fc98aa01dcca2b55a9d1fedb">url_single_fopen</a>(</div>
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;                uri,</div>
@@ -1220,7 +1220,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../de/d6e/playerstats_8qc.html">playerstats.qc</a></li>
-    <li class="footer">Generated on Sat Apr 2 2016 06:27:07 for Xonotic by
+    <li class="footer">Generated on Sun Apr 3 2016 03:00:42 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
