@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"d2/dd6/classXonoticInputSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,181,78],
 "d2/dd6/classXonoticInputSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,181,75],
 "d2/dd6/classXonoticInputSettingsTab.html#a1492368c29d49fb4fc0eeb1c1472cd21":[1,0,181,60],
 "d2/dd6/classXonoticInputSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,181,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "d2/dfa/xonotic_2listbox_8qh_source.html":[2,0,4,4,174],
 "d3/d01/classXonoticMultiplayerDialog.html":[1,0,191],
 "d3/d01/classXonoticMultiplayerDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,191,21],
-"d3/d01/classXonoticMultiplayerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,191,29],
-"d3/d01/classXonoticMultiplayerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,191,3]
+"d3/d01/classXonoticMultiplayerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,191,29]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"d7/db4/client_2autocvars_8qh.html#a71c58c6a870198ac770b155fa5ce3493":[2,0,0,8,93],
+"d7/db4/client_2autocvars_8qh.html#a71fec122a75ec8acaa33f37b5e09dadd":[2,0,0,8,300],
 "d7/db4/client_2autocvars_8qh.html#a727ead7d866a3a5bfc2e0a78bc1bb78f":[2,0,0,8,448],
 "d7/db4/client_2autocvars_8qh.html#a727f529298fda5425f9fc13fc21b8dd0":[2,0,0,8,181],
 "d7/db4/client_2autocvars_8qh.html#a7334ef3466bb6d60c25669d627e516d7":[2,0,0,8,351],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "d7/db9/mutators_2mutator_2vampirehook_2module_8inc.html":[2,0,1,9,0,30,1],
 "d7/db9/mutators_2mutator_2vampirehook_2module_8inc_source.html":[2,0,1,9,0,30,1],
 "d7/dc0/dialog__hudpanel__engineinfo_8qh.html":[2,0,4,4,50],
-"d7/dc0/dialog__hudpanel__engineinfo_8qh_source.html":[2,0,4,4,50],
-"d7/dc4/waypoints_8qc.html":[2,0,5,0,10],
-"d7/dc4/waypoints_8qc.html#a01e8fff3ff689e909ba40e64f7a65053":[2,0,5,0,10,2]
+"d7/dc0/dialog__hudpanel__engineinfo_8qh_source.html":[2,0,4,4,50]
 };

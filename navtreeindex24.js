@@ -1,5 +1,6 @@
 var NAVTREEINDEX24 =
 {
+"d3/d69/menu_2xonotic_2campaign_8qc.html#a8c09c75b952813551dbd791f4d6b82fc":[2,0,4,4,7,13],
 "d3/d69/menu_2xonotic_2campaign_8qc.html#a9ec6d55fc46ebb4594ada64b3948016e":[2,0,4,4,7,1],
 "d3/d69/menu_2xonotic_2campaign_8qc.html#abff88a8839fb46458ff3e67ac2c6d1d4":[2,0,4,4,7,11],
 "d3/d69/menu_2xonotic_2campaign_8qc.html#ac386a990d152060da3af162ca1e624c7":[2,0,4,4,7,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX24 =
 "d3/d93/spawning_8qh.html":[2,0,5,4,12],
 "d3/d93/spawning_8qh.html#a60096e5c98b3b608470b6130fce0b405":[2,0,5,4,12,1],
 "d3/d93/spawning_8qh.html#ac7b155ae9b6d6ccef4940bf9ef0b5dc9":[2,0,5,4,12,0],
-"d3/d93/spawning_8qh_source.html":[2,0,5,4,12],
-"d3/d99/dialog__settings__game__crosshair_8qh.html":[2,0,4,4,126]
+"d3/d93/spawning_8qh_source.html":[2,0,5,4,12]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"da/db7/classXonoticServerInfoDialog.html#af1aab403dc54575707fd57991312b201":[1,0,215,37],
+"da/db7/classXonoticServerInfoDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,215,16],
 "da/db7/classXonoticServerInfoDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,215,29],
 "da/db7/classXonoticServerInfoDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,215,2],
 "da/db7/classXonoticServerInfoDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,215,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "da/df5/common_2debug_8qh.html#aceb0d59d9ccb0a485dd5be34e5a95361":[2,0,1,28,3],
 "da/df5/common_2debug_8qh.html#adf57573d447a0ad86b53345f77359abd":[2,0,1,28,4],
 "da/df5/common_2debug_8qh_source.html":[2,0,1,28],
-"da/df7/steerlib_8qh.html":[2,0,5,62],
-"da/df7/steerlib_8qh.html#a25672ab6371ae66548f5e29fe993ff4e":[2,0,5,62,0],
-"da/df7/steerlib_8qh.html#a38b07fd8443f963bdf6737e00b39118c":[2,0,5,62,3]
+"da/df7/steerlib_8qh.html":[2,0,5,62]
 };

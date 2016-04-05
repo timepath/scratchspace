@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"d3/d3d/shockwave_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,16,1],
 "d3/d3d/shockwave_8qc.html#ae09e2d0740002cb9090be0e7de3954e9":[2,0,1,16,0,16,2],
 "d3/d3d/shockwave_8qc_source.html":[2,0,1,16,0,16],
 "d3/d42/animdecide_8qh.html":[2,0,1,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "d3/d51/classXonoticImage.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,179,15],
 "d3/d51/classXonoticImage.html#a603f8717f8a19f57c6441bafc59779a9":[1,0,179,23],
 "d3/d51/classXonoticImage.html#a60612f89a179b793db278c24ac5bd8c1":[1,0,179,22],
-"d3/d51/classXonoticImage.html#a67d95732d49da439095483530aca8804":[1,0,179,24],
-"d3/d51/classXonoticImage.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,179,2]
+"d3/d51/classXonoticImage.html#a67d95732d49da439095483530aca8804":[1,0,179,24]
 };

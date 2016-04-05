@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"d8/dfe/classPlasmaDualAttack.html#afba05a26a4843e2b4b22d4ad9c7ff03f":[1,0,80,23],
+"d8/dfe/vectormamamam_8qc.html":[2,0,1,13,0,23],
 "d8/dfe/vectormamamam_8qc_source.html":[2,0,1,13,0,23],
 "d9/d01/rotating_8qc.html":[2,0,1,13,0,19],
 "d9/d01/rotating_8qc_source.html":[2,0,1,13,0,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "d9/d35/csqcprojectile_8qh_source.html":[2,0,5,4,6],
 "d9/d37/classXonoticScreenshotBrowserTab.html":[1,0,210],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,210,21],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,210,30],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a086d32c9694472250922d42417bc8d66":[1,0,210,3],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,210,71]
+"d9/d37/classXonoticScreenshotBrowserTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,210,30]
 };
