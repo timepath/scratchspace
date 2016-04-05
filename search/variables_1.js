@@ -1311,6 +1311,7 @@ var searchData=
   ['autocvar_5fsv_5fcurl_5fserverpackages_5fauto',['autocvar_sv_curl_serverpackages_auto',['../d7/da7/server_2autocvars_8qh.html#a8ee96b6553f9ee9f1125c2bd1e52f20b',1,'autocvars.qh']]],
   ['autocvar_5fsv_5fdb_5fsaveasdump',['autocvar_sv_db_saveasdump',['../d7/da7/server_2autocvars_8qh.html#a2602d1876b0a96498cc52e12c4e4057f',1,'autocvars.qh']]],
   ['autocvar_5fsv_5fdefaultcharacter',['autocvar_sv_defaultcharacter',['../d7/da7/server_2autocvars_8qh.html#a7c88cf6d970f477aa0bffd69229f08ff',1,'autocvars.qh']]],
+  ['autocvar_5fsv_5fdefaultcharacterskin',['autocvar_sv_defaultcharacterskin',['../d7/da7/server_2autocvars_8qh.html#afec612db435e7ddded17eaf7b37a62c8',1,'autocvars.qh']]],
   ['autocvar_5fsv_5fdefaultplayercolors',['autocvar_sv_defaultplayercolors',['../d7/da7/server_2autocvars_8qh.html#a40f5b2d486fceae469930730c612b9ad',1,'autocvars.qh']]],
   ['autocvar_5fsv_5fdefaultplayermodel',['autocvar_sv_defaultplayermodel',['../d7/da7/server_2autocvars_8qh.html#ab8fbc258622126350b052fa30689fc53',1,'autocvars.qh']]],
   ['autocvar_5fsv_5fdefaultplayermodel_5fblue',['autocvar_sv_defaultplayermodel_blue',['../d7/da7/server_2autocvars_8qh.html#a1570c08ec33ffcded350d9ba1328a94c',1,'autocvars.qh']]],

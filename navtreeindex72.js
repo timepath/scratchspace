@@ -1,5 +1,6 @@
 var NAVTREEINDEX72 =
 {
+"d8/dfe/vectormamamam_8qc_source.html":[2,0,1,13,0,23],
 "d9/d01/rotating_8qc.html":[2,0,1,13,0,19],
 "d9/d01/rotating_8qc_source.html":[2,0,1,13,0,19],
 "d9/d06/hagar_8qc.html":[2,0,1,16,0,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX72 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,210,21],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,210,30],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a086d32c9694472250922d42417bc8d66":[1,0,210,3],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,210,71],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,210,81]
+"d9/d37/classXonoticScreenshotBrowserTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,210,71]
 };

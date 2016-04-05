@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"db/dc4/classXonoticRadioButton.html#af3a830d70442467db88dc9e6085943aa":[1,0,203,60],
 "db/dc4/classXonoticRadioButton.html#af5f55fdb86b01ea9b74fe755f9c7482b":[1,0,203,46],
 "db/dc4/classXonoticRadioButton.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,203,22],
 "db/dc4/classXonoticRadioButton.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,203,77],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "db/de2/classXonoticScreenshotViewerDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,213,18],
 "db/de2/classXonoticScreenshotViewerDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,213,8],
 "db/de2/classXonoticScreenshotViewerDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,213,11],
-"db/de2/classXonoticScreenshotViewerDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,213,52],
-"db/de2/classXonoticScreenshotViewerDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,213,36]
+"db/de2/classXonoticScreenshotViewerDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,213,52]
 };

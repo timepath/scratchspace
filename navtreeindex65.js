@@ -1,5 +1,6 @@
 var NAVTREEINDEX65 =
 {
+"d7/de8/dialog__hudpanel__timer_8qh.html":[2,0,4,4,76],
 "d7/de8/dialog__hudpanel__timer_8qh_source.html":[2,0,4,4,76],
 "d7/de8/modalcontroller_8qh.html":[2,0,4,2,22],
 "d7/de8/modalcontroller_8qh.html#a1563097e21926b000ffb89ebf5307bd7":[2,0,4,2,22,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX65 =
 "d8/d19/quickmenu_8qc.html#a43c4a63513a8a14e50baac51a458b175":[2,0,0,1,0,25,40],
 "d8/d19/quickmenu_8qc.html#a451d4b862bc25c31dc1fb6937962abab":[2,0,0,1,0,25,36],
 "d8/d19/quickmenu_8qc.html#a46816c6fc535c6a13921c56e85c3ac25":[2,0,0,1,0,25,23],
-"d8/d19/quickmenu_8qc.html#a480b24020f6e806b3ff388924ce59b3c":[2,0,0,1,0,25,30],
-"d8/d19/quickmenu_8qc.html#a4d9e61d6cf6645a6d311f996df3d4216":[2,0,0,1,0,25,24]
+"d8/d19/quickmenu_8qc.html#a480b24020f6e806b3ff388924ce59b3c":[2,0,0,1,0,25,30]
 };

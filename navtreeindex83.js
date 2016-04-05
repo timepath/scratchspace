@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"da/db7/classXonoticServerInfoDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,215,29],
 "da/db7/classXonoticServerInfoDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,215,2],
 "da/db7/classXonoticServerInfoDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,215,27],
 "da/db7/classXonoticServerInfoDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,215,31],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "da/df5/common_2debug_8qh_source.html":[2,0,1,28],
 "da/df7/steerlib_8qh.html":[2,0,5,62],
 "da/df7/steerlib_8qh.html#a25672ab6371ae66548f5e29fe993ff4e":[2,0,5,62,0],
-"da/df7/steerlib_8qh.html#a38b07fd8443f963bdf6737e00b39118c":[2,0,5,62,3],
-"da/df7/steerlib_8qh.html#a6cc8db893653d02041535e650679812e":[2,0,5,62,2]
+"da/df7/steerlib_8qh.html#a38b07fd8443f963bdf6737e00b39118c":[2,0,5,62,3]
 };
