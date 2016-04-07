@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"da/df7/steerlib_8qh.html":[2,0,5,62],
 "da/df7/steerlib_8qh.html#a25672ab6371ae66548f5e29fe993ff4e":[2,0,5,62,0],
 "da/df7/steerlib_8qh.html#a38b07fd8443f963bdf6737e00b39118c":[2,0,5,62,3],
 "da/df7/steerlib_8qh.html#a6cc8db893653d02041535e650679812e":[2,0,5,62,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "db/d29/classXonoticRegisteredSettingsList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,204,40],
 "db/d29/classXonoticRegisteredSettingsList.html#a0b3e0ee2d3e6fef269d1948bd03ae6a5":[1,0,204,39],
 "db/d29/classXonoticRegisteredSettingsList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,204,43],
-"db/d29/classXonoticRegisteredSettingsList.html#a10cf88734594fed24be93889407c0bda":[1,0,204,23],
-"db/d29/classXonoticRegisteredSettingsList.html#a113d1a91bed3f1f7bc3a24306c2c68e7":[1,0,204,19]
+"db/d29/classXonoticRegisteredSettingsList.html#a10cf88734594fed24be93889407c0bda":[1,0,204,23]
 };

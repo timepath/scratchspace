@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"dc/d6c/classElectro.html#a4337268c8cad6836bae8efd4a8835070":[1,0,27,19],
 "dc/d6c/classElectro.html#a4604acb234d9ecadf3d03804c09f82c3":[1,0,27,28],
 "dc/d6c/classElectro.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,27,13],
 "dc/d6c/classElectro.html#a542cefdc1731e512acff35af4117c5ae":[1,0,27,21],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "dc/d90/hud__config_8qc.html#a2b58f9e225aff3557baac36ae7b562b7":[2,0,0,1,6,20],
 "dc/d90/hud__config_8qc.html#a478cfa31403b85150ef9c9d80489a99f":[2,0,0,1,6,28],
 "dc/d90/hud__config_8qc.html#a4ca23e25abf9f4998736c75e33b01e6b":[2,0,0,1,6,31],
-"dc/d90/hud__config_8qc.html#a5f192ffd4f432cd17da4ee085a974ca8":[2,0,0,1,6,22],
-"dc/d90/hud__config_8qc.html#a665a55d00480841ad02d7ba5b3f72c69":[2,0,0,1,6,3]
+"dc/d90/hud__config_8qc.html#a5f192ffd4f432cd17da4ee085a974ca8":[2,0,0,1,6,22]
 };
