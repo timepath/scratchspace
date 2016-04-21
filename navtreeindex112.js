@@ -1,10 +1,5 @@
 var NAVTREEINDEX112 =
 {
-"de/d7a/classXonoticHUDScoreDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,174,19],
-"de/d7a/classXonoticHUDScoreDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,174,35],
-"de/d7a/classXonoticHUDScoreDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,174,45],
-"de/d7a/classXonoticHUDScoreDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,174,1],
-"de/d7a/classXonoticHUDScoreDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,174,68],
 "de/d7a/classXonoticHUDScoreDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,174,66],
 "de/d7a/classXonoticHUDScoreDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,174,12],
 "de/d7a/classXonoticHUDScoreDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,174,39],
@@ -249,5 +244,10 @@ var NAVTREEINDEX112 =
 "de/d9b/steerlib_8qc_source.html":[2,0,5,61],
 "de/d9c/classTab.html":[1,0,107],
 "de/d9c/classTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,107,21],
-"de/d9c/classTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,107,29]
+"de/d9c/classTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,107,29],
+"de/d9c/classTab.html#a086d32c9694472250922d42417bc8d66":[1,0,107,3],
+"de/d9c/classTab.html#a11574f926044e338cc7521ef87900777":[1,0,107,69],
+"de/d9c/classTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,107,75],
+"de/d9c/classTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,107,37],
+"de/d9c/classTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,107,15]
 };

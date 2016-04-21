@@ -165,7 +165,7 @@ $(document).ready(function(){initNavTree('d7/dd7/xonotic_2slider_8qc_source.html
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordflow">if</span> (!me.cvarName)</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(me.cvarName, <a class="code" href="../../d5/df2/common_2util_8qh.html#a3b43bbd055c0d649d355aba6a10d39be">ftos_mindecimals</a>(me.value));</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(me.cvarName, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(me.value));</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#ab1a12c6efcea09204c8c4461ca36efff">CheckSendCvars</a>(me, me.cvarName);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
@@ -174,6 +174,7 @@ $(document).ready(function(){initNavTree('d7/dd7/xonotic_2slider_8qc_source.html
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="xonotic_2slider_8qc_html_a4d8455cb841ad2070a13037e6051c620"><div class="ttname"><a href="../../d7/dd7/xonotic_2slider_8qc.html#a4d8455cb841ad2070a13037e6051c620">XonoticSlider_saveCvars</a></div><div class="ttdeci">void XonoticSlider_saveCvars(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/xonotic_2slider_8qc_source.html#l00056">slider.qc:56</a></div></div>
 <div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00113">oo.qh:113</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="xonotic_2slider_8qc_html_a9929800f2c29cc656892a372fb98d8cd"><div class="ttname"><a href="../../d7/dd7/xonotic_2slider_8qc.html#a9929800f2c29cc656892a372fb98d8cd">XonoticSlider_configureXonoticSlider</a></div><div class="ttdeci">void XonoticSlider_configureXonoticSlider(entity me, float theValueMin, float theValueMax, float theValueStep, string theCvar, string theTooltip)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/xonotic_2slider_8qc_source.html#l00014">slider.qc:14</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="xonotic_2slider_8qc_html_af5e8dec4bee4c2f85ecf9c82542ad3d3"><div class="ttname"><a href="../../d7/dd7/xonotic_2slider_8qc.html#af5e8dec4bee4c2f85ecf9c82542ad3d3">XonoticSlider_loadCvars</a></div><div class="ttdeci">void XonoticSlider_loadCvars(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/xonotic_2slider_8qc_source.html#l00049">slider.qc:49</a></div></div>
@@ -186,7 +187,6 @@ $(document).ready(function(){initNavTree('d7/dd7/xonotic_2slider_8qc_source.html
 <div class="ttc" id="xonotic_2slider_8qh_html"><div class="ttname"><a href="../../d2/d59/xonotic_2slider_8qh.html">slider.qh</a></div></div>
 <div class="ttc" id="xonotic_2slider_8qc_html_a5463b0f3850f7cd71b5f9f5e63e38d31"><div class="ttname"><a href="../../d7/dd7/xonotic_2slider_8qc.html#a5463b0f3850f7cd71b5f9f5e63e38d31">XonoticSlider_setValue_noAnim</a></div><div class="ttdeci">void XonoticSlider_setValue_noAnim(entity me, float val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd7/xonotic_2slider_8qc_source.html#l00041">slider.qc:41</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_accccfae161879454243b3a8695a9bf3b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a></div><div class="ttdeci">float fabs(float f)</div></div>
-<div class="ttc" id="common_2util_8qh_html_a3b43bbd055c0d649d355aba6a10d39be"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a3b43bbd055c0d649d355aba6a10d39be">ftos_mindecimals</a></div><div class="ttdeci">string ftos_mindecimals(float number)</div><div class="ttdoc">converts a number to a string with the minimum number of decimals </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00295">string.qh:295</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -194,7 +194,7 @@ $(document).ready(function(){initNavTree('d7/dd7/xonotic_2slider_8qc_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d7/dd7/xonotic_2slider_8qc.html">slider.qc</a></li>
-    <li class="footer">Generated on Thu Apr 21 2016 08:27:17 for Xonotic by
+    <li class="footer">Generated on Thu Apr 21 2016 11:27:42 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

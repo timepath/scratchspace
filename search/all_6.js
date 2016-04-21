@@ -310,7 +310,6 @@ var searchData=
   ['ftoi',['FTOI',['../d2/d65/unsafe_8qh.html#a28163937cdfc9d15144074ee0f1ef1c4',1,'unsafe.qh']]],
   ['ftos',['ftos',['../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76',1,'ftos(float f):&#160;menudefs.qc'],['../d1/d07/framework_8qc.html#abbb0d86741e0056b6c04f7280c185d76',1,'ftos(float f):&#160;framework.qc']]],
   ['ftos_5fdecimals',['ftos_decimals',['../d5/df2/common_2util_8qh.html#a8bc370cd891ba6f37167668cf84f9a67',1,'ftos_decimals(float number, float decimals):&#160;util.qh'],['../d2/db4/string_8qh.html#a7962fb1e083646b340987bce188a7017',1,'ftos_decimals(float number, int decimals):&#160;string.qh']]],
-  ['ftos_5fmindecimals',['ftos_mindecimals',['../d5/df2/common_2util_8qh.html#a3b43bbd055c0d649d355aba6a10d39be',1,'ftos_mindecimals(float number):&#160;string.qh'],['../d2/db4/string_8qh.html#a3b43bbd055c0d649d355aba6a10d39be',1,'ftos_mindecimals(float number):&#160;string.qh']]],
   ['fulltracefraction',['FullTraceFraction',['../d9/dfb/radarmap_8qc.html#ab7159b12cc72326cbbb30afb17f19d20',1,'radarmap.qc']]],
   ['func_5fladder_5ftouch',['func_ladder_touch',['../d5/da1/ladder_8qc.html#ab10017af0ca81cbf72fc3af1ef0a1ba5',1,'ladder.qc']]],
   ['func_5fnull',['func_null',['../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44',1,'nil.qh']]],

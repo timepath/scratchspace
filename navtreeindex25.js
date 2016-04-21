@@ -1,6 +1,5 @@
 var NAVTREEINDEX25 =
 {
-"d3/d99/dialog__settings__game__crosshair_8qh.html":[2,0,4,4,126],
 "d3/d99/dialog__settings__game__crosshair_8qh.html#a12ba5112be2814cdfc0d381545b430c6":[2,0,4,4,126,2],
 "d3/d99/dialog__settings__game__crosshair_8qh.html#a4f706d7ce46862c87a014b6423a463f3":[2,0,4,4,126,1],
 "d3/d99/dialog__settings__game__crosshair_8qh_source.html":[2,0,4,4,126],
@@ -249,5 +248,6 @@ var NAVTREEINDEX25 =
 "d3/dba/classXonoticLanguageList.html#a5d88666554075f63775ae96b0137e998":[1,0,183,9],
 "d3/dba/classXonoticLanguageList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,183,12],
 "d3/dba/classXonoticLanguageList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,183,26],
-"d3/dba/classXonoticLanguageList.html#a66fbfaefbaca13bd101eff3498d56a23":[1,0,183,66]
+"d3/dba/classXonoticLanguageList.html#a66fbfaefbaca13bd101eff3498d56a23":[1,0,183,66],
+"d3/dba/classXonoticLanguageList.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,183,4]
 };

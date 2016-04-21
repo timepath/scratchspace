@@ -277,7 +277,6 @@ var client_2autocvars_8qh =
     [ "autocvar_hud_panel_fg_alpha", "d7/db4/client_2autocvars_8qh.html#af91d3ce5cd4c93b309d781565662e98d", null ],
     [ "autocvar_hud_panel_healtharmor", "d7/db4/client_2autocvars_8qh.html#a187c3863024a478d7b2ead124666b41c", null ],
     [ "autocvar_hud_panel_healtharmor_baralign", "d7/db4/client_2autocvars_8qh.html#a1b5f97b183d222b39e0cf891dc48faa3", null ],
-    [ "autocvar_hud_panel_healtharmor_combined", "d7/db4/client_2autocvars_8qh.html#afebae62286efa29815e2009a88e5f188", null ],
     [ "autocvar_hud_panel_healtharmor_flip", "d7/db4/client_2autocvars_8qh.html#a7d935df199c3eeedf4b080f663d80b28", null ],
     [ "autocvar_hud_panel_healtharmor_iconalign", "d7/db4/client_2autocvars_8qh.html#a048a30a5010eeff2a9fbf4104f1a2cc2", null ],
     [ "autocvar_hud_panel_healtharmor_maxarmor", "d7/db4/client_2autocvars_8qh.html#af059c7cf3e5687b73f13c24fa769ff6f", null ],

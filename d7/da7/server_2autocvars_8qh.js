@@ -446,7 +446,6 @@ var server_2autocvars_8qh =
     [ "autocvar_sv_curl_serverpackages_auto", "d7/da7/server_2autocvars_8qh.html#a8ee96b6553f9ee9f1125c2bd1e52f20b", null ],
     [ "autocvar_sv_db_saveasdump", "d7/da7/server_2autocvars_8qh.html#a2602d1876b0a96498cc52e12c4e4057f", null ],
     [ "autocvar_sv_defaultcharacter", "d7/da7/server_2autocvars_8qh.html#a7c88cf6d970f477aa0bffd69229f08ff", null ],
-    [ "autocvar_sv_defaultcharacterskin", "d7/da7/server_2autocvars_8qh.html#afec612db435e7ddded17eaf7b37a62c8", null ],
     [ "autocvar_sv_defaultplayercolors", "d7/da7/server_2autocvars_8qh.html#a40f5b2d486fceae469930730c612b9ad", null ],
     [ "autocvar_sv_defaultplayermodel", "d7/da7/server_2autocvars_8qh.html#ab8fbc258622126350b052fa30689fc53", null ],
     [ "autocvar_sv_defaultplayermodel_blue", "d7/da7/server_2autocvars_8qh.html#a1570c08ec33ffcded350d9ba1328a94c", null ],

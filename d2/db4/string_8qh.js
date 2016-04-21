@@ -17,7 +17,6 @@ var string_8qh =
     [ "format_time", "d2/db4/string_8qh.html#a6ac92254e62028f6b9f2b7ffdee2eb09", null ],
     [ "fstrunzone", "d2/db4/string_8qh.html#ab0ab8efc1c679dc525fc3cdd57aad81a", null ],
     [ "ftos_decimals", "d2/db4/string_8qh.html#a7962fb1e083646b340987bce188a7017", null ],
-    [ "ftos_mindecimals", "d2/db4/string_8qh.html#a3b43bbd055c0d649d355aba6a10d39be", null ],
     [ "isInvisibleString", "d2/db4/string_8qh.html#ada2fdc40e7920ba9195d3e2742ba27d2", null ],
     [ "mmsss", "d2/db4/string_8qh.html#a34dc4ddbc43427e53fb1b57a59021632", null ],
     [ "mmssss", "d2/db4/string_8qh.html#afecb3758a55ce0d238c0359f80261587", null ],
