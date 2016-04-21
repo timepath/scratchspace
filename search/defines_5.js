@@ -117,7 +117,6 @@ var searchData=
   ['ev_5furi_5fgetcallback',['EV_URI_GetCallback',['../d6/ddd/server_2mutators_2events_8qh.html#a1670169f8619835af93a9bdedbbb9689',1,'events.qh']]],
   ['ev_5fvehicleenter',['EV_VehicleEnter',['../d6/ddd/server_2mutators_2events_8qh.html#ab8607a32f2fcdce8d759e6dc24e0bbf6',1,'events.qh']]],
   ['ev_5fvehicleexit',['EV_VehicleExit',['../d6/ddd/server_2mutators_2events_8qh.html#aa2ce07ff9ff52dd9c190634742cc504c',1,'events.qh']]],
-  ['ev_5fvehiclespawn',['EV_VehicleSpawn',['../d6/ddd/server_2mutators_2events_8qh.html#a5029f92fbab1060636ef8c5379021834',1,'events.qh']]],
   ['ev_5fvehicletouch',['EV_VehicleTouch',['../d6/ddd/server_2mutators_2events_8qh.html#acb987800997fcc9d6e5ff435d09acc32',1,'events.qh']]],
   ['ev_5fw_5fdecreaseammo',['EV_W_DecreaseAmmo',['../d6/ddd/server_2mutators_2events_8qh.html#a42be9e8fcc1d63954278ac53322e5690',1,'events.qh']]],
   ['ev_5fw_5freload',['EV_W_Reload',['../d6/ddd/server_2mutators_2events_8qh.html#a4e145ed7e7eb03b3bb6ad2fe5f53a493',1,'events.qh']]],

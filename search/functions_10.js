@@ -213,7 +213,7 @@ var searchData=
   ['prevsound_5fclick',['PrevSound_Click',['../d8/d29/playlist_8qc.html#af353173d64367e9d0882dc0a2a0da52a',1,'PrevSound_Click(entity btn, entity me):&#160;playlist.qc'],['../db/d2f/playlist_8qh.html#af353173d64367e9d0882dc0a2a0da52a',1,'PrevSound_Click(entity btn, entity me):&#160;playlist.qc']]],
   ['print',['print',['../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98',1,'menudefs.qc']]],
   ['print_5fto',['print_to',['../de/d55/server_2command_2common_8qc.html#a37f1c035bd3cc63c8ef7d58dd12958ee',1,'print_to(entity to, string input):&#160;common.qc'],['../d2/d06/server_2command_2common_8qh.html#a37f1c035bd3cc63c8ef7d58dd12958ee',1,'print_to(entity to, string input):&#160;common.qc']]],
-  ['printwelcomemessage',['PrintWelcomeMessage',['../da/d53/cl__client_8qc.html#a6762be978fd49a3727236251c8d4702a',1,'cl_client.qc']]],
+  ['printwelcomemessage',['PrintWelcomeMessage',['../da/d53/cl__client_8qc.html#a2f831e34d167087d124da460f1326f8b',1,'cl_client.qc']]],
   ['process_5fnotif_5fargs',['Process_Notif_Args',['../d4/df2/common_2notifications_2all_8qc.html#a9a202f02c680cd96b64832efe697ddb8',1,'all.qc']]],
   ['process_5fnotif_5fline',['Process_Notif_Line',['../d4/df2/common_2notifications_2all_8qc.html#a1c99ec50b1e6dcb76d27397757ca2cbb',1,'all.qc']]],
   ['process_5ftime',['process_time',['../d7/de1/counting_8qh.html#a3c64a781bdc8bb479a5526f17e0f004d',1,'counting.qh']]],

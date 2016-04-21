@@ -1,6 +1,5 @@
 var NAVTREEINDEX10 =
 {
-"d1/d7e/classXonoticServerListTab.html#a198d31b696946a3a688d2c943f509799":[1,0,217,62],
 "d1/d7e/classXonoticServerListTab.html#a1ac6ee1e1a7fc5bc8247348b269fd503":[1,0,217,43],
 "d1/d7e/classXonoticServerListTab.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,217,85],
 "d1/d7e/classXonoticServerListTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,217,63],
@@ -196,7 +195,6 @@ var NAVTREEINDEX10 =
 "d1/d91/t__quake3_8qc.html":[2,0,5,69],
 "d1/d91/t__quake3_8qc.html#a0003d89112d6b1cb3bd3de8a5ace7bcc":[2,0,5,69,29],
 "d1/d91/t__quake3_8qc.html#a1476ee0498a3900b1d622081d4d7e5db":[2,0,5,69,32],
-"d1/d91/t__quake3_8qc.html#a150f5bd0f1c8300bca00748f5222a9e6":[2,0,5,69,36],
 "d1/d91/t__quake3_8qc.html#a17d41eb366a08937fdfa2669df7837be":[2,0,5,69,24],
 "d1/d91/t__quake3_8qc.html#a1a8312b70d4902e29fc5614cd9ffe3e4":[2,0,5,69,5],
 "d1/d91/t__quake3_8qc.html#a1e3cbf1063d168b51fc7277e1fb68e98":[2,0,5,69,7],
@@ -216,8 +214,9 @@ var NAVTREEINDEX10 =
 "d1/d91/t__quake3_8qc.html#a4dd02ae75f61d8a4517454c8e6f82f1e":[2,0,5,69,34],
 "d1/d91/t__quake3_8qc.html#a53e6327a8202b7e6614002ba964adc41":[2,0,5,69,12],
 "d1/d91/t__quake3_8qc.html#a5466deca70d8e10d5fdeb7b694b2698f":[2,0,5,69,1],
-"d1/d91/t__quake3_8qc.html#a61742c0334dce4be11adeb7ba6664685":[2,0,5,69,37],
 "d1/d91/t__quake3_8qc.html#a77b2c8a25991e58c5400d82053fac79b":[2,0,5,69,6],
+"d1/d91/t__quake3_8qc.html#a7afa10c45b884357eed2cf7b1c9c5f87":[2,0,5,69,37],
+"d1/d91/t__quake3_8qc.html#a7b1f95cbf39f86a430bb22893ddee37d":[2,0,5,69,36],
 "d1/d91/t__quake3_8qc.html#a822ec2605e82db0fc56fb7798d1ce7d7":[2,0,5,69,3],
 "d1/d91/t__quake3_8qc.html#a8b9c7d9db7cc12b8917ce58529f3487a":[2,0,5,69,28],
 "d1/d91/t__quake3_8qc.html#a8ef5ddb9905e6f46d2dfee60b51bb47b":[2,0,5,69,27],
@@ -249,5 +248,6 @@ var NAVTREEINDEX10 =
 "d1/d93/classWyvern.html#a5bbd40c29997fde17944782afb35cbbb":[1,0,121,14],
 "d1/d93/classWyvern.html#a6dcca2c26e36342b5286873a74793cae":[1,0,121,3],
 "d1/d93/classWyvern.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,121,0],
-"d1/d93/classWyvern.html#a84829255027bd85cf33ef0418ef5c975":[1,0,121,6]
+"d1/d93/classWyvern.html#a84829255027bd85cf33ef0418ef5c975":[1,0,121,6],
+"d1/d93/classWyvern.html#a858e23ddf35d5b16ea9d6bac496d04c4":[1,0,121,13]
 };

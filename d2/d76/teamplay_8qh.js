@@ -2,7 +2,7 @@ var teamplay_8qh =
 [
     [ "ActivateTeamplay", "d2/d76/teamplay_8qh.html#ae1c3e008f1694a4a8d288f0708893574", null ],
     [ "CheckAllowedTeams", "d2/d76/teamplay_8qh.html#a838b897a9ae86e8bf932e57c356ec987", null ],
-    [ "default_delayedinit", "d2/d76/teamplay_8qh.html#a5f4692aa7896daea45fe2a5b380ca559", null ],
+    [ "default_delayedinit", "d2/d76/teamplay_8qh.html#a8ebbca079649157562ec8d6c551db1d1", null ],
     [ "FindSmallestTeam", "d2/d76/teamplay_8qh.html#abaa1224f550ef1ffcd58d9cfbd8a2d4f", null ],
     [ "GetClientVersionMessage", "d2/d76/teamplay_8qh.html#afc313824d206a3c347ffae743aa5a7dd", null ],
     [ "GetTeamCounts", "d2/d76/teamplay_8qh.html#a2942f2ae0d82c47009843cae3069508a", null ],

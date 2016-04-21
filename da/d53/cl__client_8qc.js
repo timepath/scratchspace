@@ -37,7 +37,7 @@ var cl__client_8qc =
     [ "PlayerPostThink", "da/d53/cl__client_8qc.html#afd069ce75171b7ad5b9a840f2fff8bb9", null ],
     [ "PlayerPreThink", "da/d53/cl__client_8qc.html#a29ca770d01fe7827ac339d6eeea2e733", null ],
     [ "PlayerUseKey", "da/d53/cl__client_8qc.html#a232193f46d80e3a51b3e1ed75a5f925e", null ],
-    [ "PrintWelcomeMessage", "da/d53/cl__client_8qc.html#a6762be978fd49a3727236251c8d4702a", null ],
+    [ "PrintWelcomeMessage", "da/d53/cl__client_8qc.html#a2f831e34d167087d124da460f1326f8b", null ],
     [ "PutClientInServer", "da/d53/cl__client_8qc.html#a05422dac599528e8baf4b2c9a680d46c", null ],
     [ "PutObserverInServer", "da/d53/cl__client_8qc.html#a2374d0f3def339499d06ff5efbf6d90d", null ],
     [ "ReadyCount", "da/d53/cl__client_8qc.html#a11f792d86f16e821bb9f127715f2234e", null ],
@@ -60,8 +60,8 @@ var cl__client_8qc =
     [ "UpdateChatBubble", "da/d53/cl__client_8qc.html#a0951679ad39e70406fef5a926e2f26e2", null ],
     [ "vehicles_enter", "da/d53/cl__client_8qc.html#a018387a690e307f5cc7fb250212d7eb5", null ],
     [ "void", "da/d53/cl__client_8qc.html#a970661ffeb3805a8821a11ae4d765f15", null ],
-    [ "WITHSELF", "da/d53/cl__client_8qc.html#a168e65ddd17624e11dca32e08ea8ef0c", null ],
-    [ "WITHSELF", "da/d53/cl__client_8qc.html#a6cd13382949f3663b0c0995c117d8f83", null ],
+    [ "WITH", "da/d53/cl__client_8qc.html#a82beae5b723c090875a621e0e35e7874", null ],
+    [ "WITH", "da/d53/cl__client_8qc.html#a4059d6909bc09098ebdcca29c38c6a50", null ],
     [ "chatbubbleentity", "da/d53/cl__client_8qc.html#a0ea52ed96e6d3b34c2c0eac9ec813fe7", null ],
     [ "clientkill_nexttime", "da/d53/cl__client_8qc.html#a1f7075729b16c7fb29ac863d1a4c1725", null ],
     [ "clientkilltime", "da/d53/cl__client_8qc.html#a482f54a20df32f498a4c3cca6f372fee", null ],
@@ -76,5 +76,5 @@ var cl__client_8qc =
     [ "netname_previous", "da/d53/cl__client_8qc.html#af2620e84061ce2c37df08531c1327cdc", null ],
     [ "team", "da/d53/cl__client_8qc.html#aa44b2778d23d1f4efed985b6cc12375a", null ],
     [ "usekeypressed", "da/d53/cl__client_8qc.html#a4a953fc8590535e314187086ee49e2b4", null ],
-    [ "zoomstate_set", "da/d53/cl__client_8qc.html#a5b6fdfd29020d840be5d04d7a4fe9cf6", null ]
+    [ "zoomstate_set", "da/d53/cl__client_8qc.html#acc4a57f5b8c7768ffd388ebb8a6b5237", null ]
 ];

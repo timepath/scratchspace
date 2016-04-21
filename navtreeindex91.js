@@ -1,12 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,170,6],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,170,67],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,170,58],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,170,63],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,170,62],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,170,86],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,170,64],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,170,4],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,170,32],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,170,10],
@@ -175,8 +168,8 @@ var NAVTREEINDEX91 =
 "db/dc4/classXonoticRadioButton.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,203,77],
 "db/dc4/classXonoticRadioButton.html#aff20d1ead9e7a482eca46d913e6986a1":[1,0,203,87],
 "db/dc4/movelib_8qh.html":[2,0,1,11,4],
+"db/dc4/movelib_8qh.html#a23af27fa0deef78f490b6b0479ce2fbb":[2,0,1,11,4,1],
 "db/dc4/movelib_8qh.html#a3ed9e2ed355dfb1ad6c4aa5e9d608726":[2,0,1,11,4,0],
-"db/dc4/movelib_8qh.html#aa514946bfa921bfcd0f67fb31fe9ac7a":[2,0,1,11,4,1],
 "db/dc4/movelib_8qh_source.html":[2,0,1,11,4],
 "db/dc5/waypointsprites_8qc.html":[2,0,1,9,0,31,4],
 "db/dc5/waypointsprites_8qc_source.html":[2,0,1,9,0,31,4],
@@ -249,5 +242,12 @@ var NAVTREEINDEX91 =
 "db/dcc/g__world_8qc.html#a96536d95b1e8120e296cc667b543bb0b":[2,0,5,34,54],
 "db/dcc/g__world_8qc.html#a979696d004a9ca8222f40058685320ad":[2,0,5,34,59],
 "db/dcc/g__world_8qc.html#a9b864391c3d6475f9345ccff9c19b7a3":[2,0,5,34,49],
-"db/dcc/g__world_8qc.html#aa6b50a885a57559948d95c846fa9a6b3":[2,0,5,34,24]
+"db/dcc/g__world_8qc.html#aa6b50a885a57559948d95c846fa9a6b3":[2,0,5,34,24],
+"db/dcc/g__world_8qc.html#aa8f9d7c732fe1401e1ee110adfafa840":[2,0,5,34,51],
+"db/dcc/g__world_8qc.html#aac7f083651dfcb99dbbd8afc5e339233":[2,0,5,34,47],
+"db/dcc/g__world_8qc.html#aaf92ec79f8aec9319c8a513bd5577e48":[2,0,5,34,11],
+"db/dcc/g__world_8qc.html#ab61dd957a2c44ebabe227060941cb391":[2,0,5,34,13],
+"db/dcc/g__world_8qc.html#ab6fe1d680f8a7a4c9b39c92861604ba8":[2,0,5,34,52],
+"db/dcc/g__world_8qc.html#abed18c6e10bb666ad939e95abcaabb5d":[2,0,5,34,19],
+"db/dcc/g__world_8qc.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9":[2,0,5,34,45]
 };

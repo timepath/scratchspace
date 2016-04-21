@@ -1,15 +1,5 @@
 var NAVTREEINDEX28 =
 {
-"d3/df2/classDualPlasmaTurret.html#a704dc4dc2fd4baf352e96c0e4b8753af":[1,0,23,14],
-"d3/df2/classDualPlasmaTurret.html#a7bf40f64dd91bb952d21d1d827e295c3":[1,0,23,11],
-"d3/df2/classDualPlasmaTurret.html#a8fdfb2c1d48fbb73e71c119fc329a1cb":[1,0,23,9],
-"d3/df2/classDualPlasmaTurret.html#a9cbd0273110d224aa83170c43e29f691":[1,0,23,5],
-"d3/df2/classDualPlasmaTurret.html#ab51103697656de906079b6537d3800bc":[1,0,23,4],
-"d3/df2/classDualPlasmaTurret.html#ab783d7bbccec292d9986a3c4ca08def1":[1,0,23,15],
-"d3/df2/classDualPlasmaTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,23,2],
-"d3/df2/classDualPlasmaTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,23,6],
-"d3/df2/classDualPlasmaTurret.html#ac67101a675bbe31ef318eeda847fcfa8":[1,0,23,12],
-"d3/df2/classDualPlasmaTurret.html#ac798f747f2a51bfbeaf516436396a183":[1,0,23,10],
 "d3/df2/classDualPlasmaTurret.html#aee8c2d678617a4698d53e738225284e3":[1,0,23,13],
 "d3/df2/sv__cmd_8qc.html":[2,0,5,1,13],
 "d3/df2/sv__cmd_8qc.html#a0b61299a1fd821eacb912a2ce095a7d1":[2,0,5,1,13,7],
@@ -249,5 +239,15 @@ var NAVTREEINDEX28 =
 "d4/d0a/classXonoticMiscSettingsTab.html#a4bae048a657448c0cad5dcb10cde7c4a":[1,0,189,60],
 "d4/d0a/classXonoticMiscSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,189,17],
 "d4/d0a/classXonoticMiscSettingsTab.html#a4c0b6420e40edf1e6c5c7861bba20ef9":[1,0,189,13],
-"d4/d0a/classXonoticMiscSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,189,23]
+"d4/d0a/classXonoticMiscSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,189,23],
+"d4/d0a/classXonoticMiscSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,189,31],
+"d4/d0a/classXonoticMiscSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,189,44],
+"d4/d0a/classXonoticMiscSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,189,83],
+"d4/d0a/classXonoticMiscSettingsTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,189,36],
+"d4/d0a/classXonoticMiscSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,189,6],
+"d4/d0a/classXonoticMiscSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,189,54],
+"d4/d0a/classXonoticMiscSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,189,42],
+"d4/d0a/classXonoticMiscSettingsTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,189,7],
+"d4/d0a/classXonoticMiscSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,189,76],
+"d4/d0a/classXonoticMiscSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,189,56]
 };
