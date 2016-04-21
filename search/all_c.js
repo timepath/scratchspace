@@ -133,7 +133,6 @@ var searchData=
   ['lightning_5fshotorigin',['lightning_shotorigin',['../d9/d08/client_2defs_8qh.html#a4949aba9582bad726867510c4275515d',1,'defs.qh']]],
   ['lightningarc_2eqc',['lightningarc.qc',['../d1/df8/lightningarc_8qc.html',1,'']]],
   ['lightningarc_2eqh',['lightningarc.qh',['../d4/dba/lightningarc_8qh.html',1,'']]],
-  ['limits_5fare_5fset',['limits_are_set',['../d7/d97/g__world_8qh.html#ad021137853d349294c0a488a484b8546',1,'g_world.qh']]],
   ['linkdoors',['LinkDoors',['../d6/d9c/door_8qc.html#a9b3dfef6f936841d5afaf00fe2875afa',1,'door.qc']]],
   ['linkdoors_5fisconnected',['LinkDoors_isconnected',['../d6/d9c/door_8qc.html#a5c3d7da13caad82f621f1605ee804d4b',1,'door.qc']]],
   ['linkdoors_5fnextent',['LinkDoors_nextent',['../d6/d9c/door_8qc.html#ad2038a961ab8ce526e889baf271b6104',1,'door.qc']]],

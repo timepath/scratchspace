@@ -9,7 +9,6 @@ var urllib_8qc =
     [ "url_URI_Get_Callback", "d6/d38/urllib_8qc.html#a14414a82016a6f9866c913f54c1ba7f8", null ],
     [ "autocvar__urllib_nextslot", "d6/d38/urllib_8qc.html#a3374a360b77806008f1a00d0b9061d62", null ],
     [ "url_attempt", "d6/d38/urllib_8qc.html#ab6428c697f2f9829bd6e061261d86408", null ],
-    [ "url_content_type", "d6/d38/urllib_8qc.html#a4dd590199511f4ffd19a549291f340b0", null ],
     [ "url_fh", "d6/d38/urllib_8qc.html#a88b903ef0fce125609759bb52e7f2540", null ],
     [ "URL_FH_CURL", "d6/d38/urllib_8qc.html#a37406403c1c7fcc32fe851a30dd25cf8", null ],
     [ "URL_FH_STDOUT", "d6/d38/urllib_8qc.html#a6faa24569c71d55d6e8a7c6ad70b1b65", null ],
@@ -21,7 +20,6 @@ var urllib_8qc =
     [ "url_ready", "d6/d38/urllib_8qc.html#a30fef33a69f4076c241b514604c071fe", null ],
     [ "url_ready_pass", "d6/d38/urllib_8qc.html#a922f5e8b48f71b6d0ce2d1fc567e43ba", null ],
     [ "url_url", "d6/d38/urllib_8qc.html#a13d7537265eadfc81572f905fb71df3e", null ],
-    [ "url_verb", "d6/d38/urllib_8qc.html#aede03c2c907aba6df600c6d0328109fe", null ],
     [ "url_wbuf", "d6/d38/urllib_8qc.html#a78673fcb736c083aa327582fd8548018", null ],
     [ "url_wbufpos", "d6/d38/urllib_8qc.html#ab036a2a5fbdea1feebad565380d92638", null ]
 ];

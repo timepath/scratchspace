@@ -1,6 +1,6 @@
 var scoreboard_8qc =
 [
-    [ "SCOREBOARD_DEFAULT_COLUMNS", "d3/d07/scoreboard_8qc.html#a8255b834728e7b21dbd03c51898cccc3", null ],
+    [ "HUD_DefaultColumnLayout", "d3/d07/scoreboard_8qc.html#a571f822cd19f1038562db9772f923f0e", null ],
     [ "Cmd_HUD_Help", "d3/d07/scoreboard_8qc.html#adf7f5eaa29853b5a1c54e102c7b7a61e", null ],
     [ "Cmd_HUD_SetFields", "d3/d07/scoreboard_8qc.html#a2e63a8ead76dbefb26f1d1139048f22b", null ],
     [ "drawstringcenter", "d3/d07/scoreboard_8qc.html#a361c30606aa485ea4467d43260e86b50", null ],
