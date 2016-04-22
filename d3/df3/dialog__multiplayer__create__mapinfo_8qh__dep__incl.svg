@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 550;
+var viewWidth = 685;
 var viewHeight = 240;
 var sectionId = 'dynsection-1';
 </script>
@@ -56,10 +56,10 @@ var sectionId = 'dynsection-1';
 <title>menu/xonotic/dialog_multiplayer_create_mapinfo.qh</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="204,-190.5 204,-231.5 308,-231.5 308,-190.5 204,-190.5"/>
-<text text-anchor="start" x="212" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">menu/xonotic/dialog</text>
-<text text-anchor="start" x="212" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">_multiplayer_create</text>
-<text text-anchor="middle" x="256" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">_mapinfo.qh</text>
+<polygon fill="#bfbfbf" stroke="black" points="276,-190.5 276,-231.5 380,-231.5 380,-190.5 276,-190.5"/>
+<text text-anchor="start" x="284" y="-219.5" font-family="Helvetica,sans-Serif" font-size="10.00">menu/xonotic/dialog</text>
+<text text-anchor="start" x="284" y="-208.5" font-family="Helvetica,sans-Serif" font-size="10.00">_multiplayer_create</text>
+<text text-anchor="middle" x="328" y="-197.5" font-family="Helvetica,sans-Serif" font-size="10.00">_mapinfo.qh</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
@@ -72,8 +72,8 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge"><title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M195.178,-186.771C162.12,-174.146 122.315,-158.945 93.9367,-148.106"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="194.162,-190.13 204.753,-190.428 196.659,-183.591 194.162,-190.13"/>
+<path fill="none" stroke="midnightblue" d="M266.195,-193.416C225.691,-182.454 171.621,-167.642 124,-154 117.348,-152.094 110.337,-150.046 103.456,-148.013"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="265.359,-196.816 275.926,-196.047 267.186,-190.058 265.359,-196.816"/>
 </g>
 <!-- Node5 -->
 <g id="node5" class="node"><title>Node5</title>
@@ -87,8 +87,8 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node1&#45;&gt;Node5 -->
 <g id="edge4" class="edge"><title>Node1&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M230.698,-182.916C221.624,-173.203 211.578,-162.45 203.222,-153.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="228.332,-185.51 237.716,-190.428 233.447,-180.731 228.332,-185.51"/>
+<path fill="none" stroke="midnightblue" d="M282.14,-185.627C262.599,-175.242 240.114,-163.292 221.701,-153.506"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="280.701,-188.826 291.174,-190.428 283.986,-182.644 280.701,-188.826"/>
 </g>
 <!-- Node6 -->
 <g id="node6" class="node"><title>Node6</title>
@@ -100,8 +100,8 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node1&#45;&gt;Node6 -->
 <g id="edge6" class="edge"><title>Node1&#45;&gt;Node6</title>
-<path fill="none" stroke="midnightblue" d="M281.737,-182.833C295.17,-168.654 310.682,-152.28 319.898,-142.552"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="278.878,-180.761 274.542,-190.428 283.96,-185.576 278.878,-180.761"/>
+<path fill="none" stroke="midnightblue" d="M328,-180.051C328,-166.56 328,-151.649 328,-142.552"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="324.5,-180.428 328,-190.428 331.5,-180.428 324.5,-180.428"/>
 </g>
 <!-- Node7 -->
 <g id="node7" class="node"><title>Node7</title>
@@ -113,8 +113,21 @@ var sectionId = 'dynsection-1';
 </g>
 <!-- Node1&#45;&gt;Node7 -->
 <g id="edge8" class="edge"><title>Node1&#45;&gt;Node7</title>
-<path fill="none" stroke="midnightblue" d="M317.66,-189.173C363.128,-173.815 422.626,-153.718 455.817,-142.506"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="316.539,-185.857 308.185,-192.373 318.779,-192.489 316.539,-185.857"/>
+<path fill="none" stroke="midnightblue" d="M376.428,-185.944C406.278,-171.117 442.749,-153 463.783,-142.552"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="374.8,-182.845 367.401,-190.428 377.914,-189.114 374.8,-182.845"/>
+</g>
+<!-- Node8 -->
+<g id="node8" class="node"><title>Node8</title>
+<g id="a_node8"><a xlink:href="../../d5/d14/menu_2xonotic_2__mod_8qh.html" target="_top" xlink:title="menu/xonotic/_mod.qh">
+<polygon fill="none" stroke="black" points="561,-123.5 561,-142.5 677,-142.5 677,-123.5 561,-123.5"/>
+<text text-anchor="middle" x="619" y="-130.5" font-family="Helvetica,sans-Serif" font-size="10.00">menu/xonotic/_mod.qh</text>
+</a>
+</g>
+</g>
+<!-- Node1&#45;&gt;Node8 -->
+<g id="edge10" class="edge"><title>Node1&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M390.287,-195.066C435.106,-184.147 496.934,-168.733 551,-154 564.179,-150.409 578.713,-146.172 590.95,-142.524"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="389.312,-191.701 380.421,-197.464 390.965,-198.503 389.312,-191.701"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>

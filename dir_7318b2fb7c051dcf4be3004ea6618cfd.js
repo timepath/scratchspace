@@ -2,6 +2,7 @@ var dir_7318b2fb7c051dcf4be3004ea6618cfd =
 [
     [ "havocbot", "dir_2237e285bffd6ead6b5088a82ff285a6.html", "dir_2237e285bffd6ead6b5088a82ff285a6" ],
     [ "_mod.inc", "dc/d13/server_2bot_2__mod_8inc.html", null ],
+    [ "_mod.qh", "d2/d82/server_2bot_2__mod_8qh.html", null ],
     [ "aim.qc", "df/dc9/aim_8qc.html", "df/dc9/aim_8qc" ],
     [ "aim.qh", "d3/d5a/aim_8qh.html", "d3/d5a/aim_8qh" ],
     [ "bot.qc", "d2/dc0/bot_8qc.html", "d2/dc0/bot_8qc" ],

@@ -2,6 +2,7 @@ var dir_7f837aa7f5b26719e62f8d5679eb0405 =
 [
     [ "minigame", "dir_f3c5fe65fc7d6f300d22d67107da5495.html", "dir_f3c5fe65fc7d6f300d22d67107da5495" ],
     [ "_mod.inc", "d4/dd3/common_2minigames_2__mod_8inc.html", null ],
+    [ "_mod.qh", "d5/dc0/common_2minigames_2__mod_8qh.html", null ],
     [ "cl_minigames.qc", "d4/db7/cl__minigames_8qc.html", "d4/db7/cl__minigames_8qc" ],
     [ "cl_minigames.qh", "de/d3d/cl__minigames_8qh.html", "de/d3d/cl__minigames_8qh" ],
     [ "cl_minigames_hud.qc", "d5/d4a/cl__minigames__hud_8qc.html", "d5/d4a/cl__minigames__hud_8qc" ],

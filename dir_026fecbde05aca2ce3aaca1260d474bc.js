@@ -1,6 +1,7 @@
 var dir_026fecbde05aca2ce3aaca1260d474bc =
 [
     [ "_mod.inc", "d8/d93/client_2hud_2panel_2__mod_8inc.html", null ],
+    [ "_mod.qh", "d1/d06/client_2hud_2panel_2__mod_8qh.html", null ],
     [ "ammo.qc", "dd/d85/client_2hud_2panel_2ammo_8qc.html", "dd/d85/client_2hud_2panel_2ammo_8qc" ],
     [ "ammo.qh", "db/d2a/client_2hud_2panel_2ammo_8qh.html", null ],
     [ "centerprint.qc", "d4/dbb/centerprint_8qc.html", "d4/dbb/centerprint_8qc" ],

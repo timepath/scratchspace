@@ -2,6 +2,7 @@ var dir_038facabb326e47524555c6946dd7e55 =
 [
     [ "_all.inc", "d9/d86/server_2pathlib_2__all_8inc.html", "d9/d86/server_2pathlib_2__all_8inc" ],
     [ "_mod.inc", "d8/d52/server_2pathlib_2__mod_8inc.html", null ],
+    [ "_mod.qh", "d2/dd7/server_2pathlib_2__mod_8qh.html", null ],
     [ "costs.qc", "dc/de0/costs_8qc.html", "dc/de0/costs_8qc" ],
     [ "costs.qh", "d4/d24/costs_8qh.html", null ],
     [ "debug.qc", "d6/d35/debug_8qc.html", "d6/d35/debug_8qc" ],

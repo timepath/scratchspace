@@ -6,6 +6,7 @@ var dir_db3a54907829b36871118d03417739cd =
     [ "weapons", "dir_495694096385bdd0c8e29295426af588.html", "dir_495694096385bdd0c8e29295426af588" ],
     [ "_all.qh", "d5/d4d/client_2__all_8qh.html", null ],
     [ "_mod.inc", "de/dbe/client_2__mod_8inc.html", null ],
+    [ "_mod.qh", "d2/dd5/client_2__mod_8qh.html", null ],
     [ "announcer.qc", "da/df4/announcer_8qc.html", "da/df4/announcer_8qc" ],
     [ "announcer.qh", "df/d71/announcer_8qh.html", "df/d71/announcer_8qh" ],
     [ "autocvars.qh", "d7/db4/client_2autocvars_8qh.html", "d7/db4/client_2autocvars_8qh" ],

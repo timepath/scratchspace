@@ -1,6 +1,7 @@
 var dir_2237e285bffd6ead6b5088a82ff285a6 =
 [
     [ "_mod.inc", "d8/d4f/server_2bot_2havocbot_2__mod_8inc.html", null ],
+    [ "_mod.qh", "dc/dba/server_2bot_2havocbot_2__mod_8qh.html", null ],
     [ "havocbot.qc", "d2/de9/havocbot_8qc.html", "d2/de9/havocbot_8qc" ],
     [ "havocbot.qh", "d8/d39/havocbot_8qh.html", "d8/d39/havocbot_8qh" ],
     [ "roles.qc", "db/deb/roles_8qc.html", "db/deb/roles_8qc" ],
