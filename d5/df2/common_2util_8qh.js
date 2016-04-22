@@ -59,6 +59,7 @@ var common_2util_8qh =
     [ "format_time", "d5/df2/common_2util_8qh.html#a6ac92254e62028f6b9f2b7ffdee2eb09", null ],
     [ "fstrunzone", "d5/df2/common_2util_8qh.html#ab0ab8efc1c679dc525fc3cdd57aad81a", null ],
     [ "ftos_decimals", "d5/df2/common_2util_8qh.html#a8bc370cd891ba6f37167668cf84f9a67", null ],
+    [ "ftos_mindecimals", "d5/df2/common_2util_8qh.html#a3b43bbd055c0d649d355aba6a10d39be", null ],
     [ "get_mi_min_max", "d5/df2/common_2util_8qh.html#a79f64925b9c8632f4f1da6c118caf88d", null ],
     [ "get_mi_min_max_texcoords", "d5/df2/common_2util_8qh.html#a19a8e6a937c165035b1c1a77f161e822", null ],
     [ "get_model_datafilename", "d5/df2/common_2util_8qh.html#a041755b4c9197bc68894879f12a3b400", null ],

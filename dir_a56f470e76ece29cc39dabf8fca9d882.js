@@ -3,7 +3,7 @@ var dir_a56f470e76ece29cc39dabf8fca9d882 =
     [ "_mod.inc", "d7/db1/common_2command_2__mod_8inc.html", null ],
     [ "all.qc", "d0/dd2/common_2command_2all_8qc.html", null ],
     [ "all.qh", "d9/d2a/common_2command_2all_8qh.html", "d9/d2a/common_2command_2all_8qh" ],
-    [ "command.qh", "d9/d71/command_8qh.html", "d9/d71/command_8qh" ],
+    [ "command.qh", "d9/da1/common_2command_2command_8qh.html", "d9/da1/common_2command_2command_8qh" ],
     [ "generic.qc", "df/da7/generic_8qc.html", "df/da7/generic_8qc" ],
     [ "generic.qh", "d7/d88/generic_8qh.html", "d7/d88/generic_8qh" ],
     [ "markup.qc", "dd/dee/markup_8qc.html", "dd/dee/markup_8qc" ],

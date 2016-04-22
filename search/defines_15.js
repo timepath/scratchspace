@@ -1,24 +1,12 @@
 var searchData=
 [
-  ['varitem',['VARITEM',['../d4/df2/common_2notifications_2all_8qc.html#a133e943a6fbd569e8fe1c2e579c43e47',1,'all.qc']]],
-  ['vdist',['vdist',['../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30',1,'vector.qh']]],
-  ['vec2',['vec2',['../de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910',1,'vector.qh']]],
-  ['vec2_5f1',['vec2_1',['../de/dcb/vector_8qh.html#a5391f7d63483da6cb433aca2ebd8d8ec',1,'vector.qh']]],
-  ['vec2_5f2',['vec2_2',['../de/dcb/vector_8qh.html#a050d55163b23ec6432f867b0dbc3d12d',1,'vector.qh']]],
-  ['vec3',['vec3',['../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e',1,'vector.qh']]],
-  ['veh_5flast',['VEH_LAST',['../dd/d0c/common_2vehicles_2all_8qh.html#aba69863fdadd40453198f72acc1ef4ca',1,'all.qh']]],
-  ['vehicle_5fbumblebee',['VEHICLE_BUMBLEBEE',['../d0/d99/bumblebee_8qc.html#a2cd31a568f16af0d40c60ba995b99c81',1,'bumblebee.qc']]],
-  ['vehicle_5fh',['VEHICLE_H',['../d1/d4b/vehicle_8qh.html#a1f16716522bcf99b0e69ab234192ecbf',1,'vehicle.qh']]],
-  ['vehicle_5fracer',['VEHICLE_RACER',['../dd/de3/racer_8qc.html#a6852bb85ceb4fb78354bea705958c8ce',1,'racer.qc']]],
-  ['vehicle_5fraptor',['VEHICLE_RAPTOR',['../d6/d02/raptor_8qc.html#abc979bb2397cae8d4e8da4c9a317fa79',1,'raptor.qc']]],
-  ['vehicle_5fspiderbot',['VEHICLE_SPIDERBOT',['../dc/d76/spiderbot_8qc.html#a492d2cde5a75e22d5843e5491bca63cc',1,'spiderbot.qc']]],
-  ['vehicles_5fall_5fc',['VEHICLES_ALL_C',['../d7/dc7/common_2vehicles_2all_8qc.html#a73c313baec888c8737146375c6453289',1,'all.qc']]],
-  ['vehicles_5fall_5fh',['VEHICLES_ALL_H',['../dd/d0c/common_2vehicles_2all_8qh.html#a97a8840fb367bc87d96aad765117bc38',1,'all.qh']]],
-  ['vehicles_5fdef_5fh',['VEHICLES_DEF_H',['../d1/dae/sv__vehicles_8qh.html#a6040947880c80a76f9226b784f7995d1',1,'sv_vehicles.qh']]],
-  ['vehicles_5ffrom',['Vehicles_from',['../dd/d0c/common_2vehicles_2all_8qh.html#a0f88c632289b79fbf9690fbdbbf780a4',1,'all.qh']]],
-  ['viewloc_5fh',['VIEWLOC_H',['../db/d53/viewloc_8qh.html#a6fc6e5985e4bc9448d7064705a1e5ad6',1,'viewloc.qh']]],
-  ['vlen2',['vlen2',['../de/dcb/vector_8qh.html#a10b5386494e6b2a6633409d330bdf639',1,'vector.qh']]],
-  ['vote_5fcommand',['VOTE_COMMAND',['../d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba',1,'VOTE_COMMAND():&#160;vote.qc'],['../d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba',1,'VOTE_COMMAND():&#160;vote.qc'],['../d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba',1,'VOTE_COMMAND():&#160;vote.qc']]],
-  ['vote_5fcommands',['VOTE_COMMANDS',['../d1/dad/server_2command_2vote_8qc.html#a69d086fdfae0ea101bc17ac356bdcf68',1,'vote.qc']]],
-  ['vtbl',['VTBL',['../db/d0a/oo_8qh.html#affebc3e5b45467922d5b040f93e132ce',1,'oo.qh']]]
+  ['unset_5fjump_5fheld',['UNSET_JUMP_HELD',['../df/dae/player_8qh.html#ac2d0dcf4a4840539e0901c7254d34ecc',1,'player.qh']]],
+  ['unset_5fonground',['UNSET_ONGROUND',['../d4/dd7/movetypes_8qh.html#abe20324d138f110c779274c157be381f',1,'movetypes.qh']]],
+  ['unstick_5foffsets',['unstick_offsets',['../dc/ddd/player_8qc.html#a0bae2396e15bfe72eabb4ba4d483ae5f',1,'player.qc']]],
+  ['unwind',['UNWIND',['../d1/d30/cl__client_8qh.html#af928e6eec681d5371be26fc5e7b329f9',1,'cl_client.qh']]],
+  ['unwords',['UNWORDS',['../dd/dee/functional_8qh.html#acaaf3c0e2d085489b0151ed380a476b7',1,'functional.qh']]],
+  ['updateanim',['updateanim',['../d3/de0/anim_8qh.html#a91371dfd91834ffb784d34ea01f5e261',1,'anim.qh']]],
+  ['upward_5fvelocity_5fclears_5fonground',['UPWARD_VELOCITY_CLEARS_ONGROUND',['../df/dae/player_8qh.html#a963bb51205295edf8b6f4adc0deecff9',1,'player.qh']]],
+  ['use_5fprandom',['USE_PRANDOM',['../db/d55/random_8qh.html#a5cb0f0f958b63b45824e7e2a0f783fc7',1,'random.qh']]],
+  ['using',['USING',['../d4/dfb/lib_2__all_8inc.html#abe8eb52fc5e52351ecda2a477108abed',1,'_all.inc']]]
 ];

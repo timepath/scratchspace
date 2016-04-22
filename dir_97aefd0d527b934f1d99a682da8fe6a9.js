@@ -1,6 +1,7 @@
 var dir_97aefd0d527b934f1d99a682da8fe6a9 =
 [
     [ "csqcmodel", "dir_d5fd5ebb74d9aac6232b0b4eda80dfde.html", "dir_d5fd5ebb74d9aac6232b0b4eda80dfde" ],
+    [ "matrix", "dir_22012559f3b0dbbb75f685d16a591ed4.html", "dir_22012559f3b0dbbb75f685d16a591ed4" ],
     [ "warpzone", "dir_58d953ef34ccfc4a49203206a34466c3.html", "dir_58d953ef34ccfc4a49203206a34466c3" ],
     [ "_all.inc", "d4/dfb/lib_2__all_8inc.html", "d4/dfb/lib_2__all_8inc" ],
     [ "_mod.inc", "dd/d71/lib_2__mod_8inc.html", null ],
@@ -21,6 +22,7 @@ var dir_97aefd0d527b934f1d99a682da8fe6a9 =
     [ "i18n.qh", "d0/dfe/i18n_8qh.html", "d0/dfe/i18n_8qh" ],
     [ "int.qh", "de/d0d/int_8qh.html", "de/d0d/int_8qh" ],
     [ "iter.qh", "d4/d18/iter_8qh.html", "d4/d18/iter_8qh" ],
+    [ "json.qc", "d6/dce/json_8qc.html", "d6/dce/json_8qc" ],
     [ "lazy.qh", "d8/d0e/lazy_8qh.html", "d8/d0e/lazy_8qh" ],
     [ "linkedlist.qh", "de/d09/linkedlist_8qh.html", "de/d09/linkedlist_8qh" ],
     [ "log.qh", "db/da0/log_8qh.html", "db/da0/log_8qh" ],

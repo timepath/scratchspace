@@ -15,6 +15,8 @@ var modicons_8qc =
     [ "HUD_Mod_Race", "dd/d59/modicons_8qc.html#a8424826bc6a1cf734a8effc14a85fc78", null ],
     [ "HUD_ModIcons", "dd/d59/modicons_8qc.html#a33b7412629e2994dd103e2a3a6275aa8", null ],
     [ "HUD_ModIcons_SetFunc", "dd/d59/modicons_8qc.html#a845124cf856029f19ca6551fe4993975", null ],
+    [ "race_CheckName", "dd/d59/modicons_8qc.html#a0160171124193a7ee2dd193882da4061", null ],
+    [ "race_showTime", "dd/d59/modicons_8qc.html#ac3feccee341c58ff935a2148dbed66b5", null ],
     [ "blueflag_prevframe", "dd/d59/modicons_8qc.html#a82d6dc4f545d9102ec6dfc4b048c4c4b", null ],
     [ "blueflag_prevstatus", "dd/d59/modicons_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922", null ],
     [ "blueflag_statuschange_time", "dd/d59/modicons_8qc.html#affcd2de913713ea56d0f03e0f0b2d610", null ],

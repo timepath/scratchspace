@@ -2,7 +2,7 @@ var teamplay_8qh =
 [
     [ "ActivateTeamplay", "d2/d76/teamplay_8qh.html#ae1c3e008f1694a4a8d288f0708893574", null ],
     [ "CheckAllowedTeams", "d2/d76/teamplay_8qh.html#a838b897a9ae86e8bf932e57c356ec987", null ],
-    [ "default_delayedinit", "d2/d76/teamplay_8qh.html#a8ebbca079649157562ec8d6c551db1d1", null ],
+    [ "default_delayedinit", "d2/d76/teamplay_8qh.html#a5f4692aa7896daea45fe2a5b380ca559", null ],
     [ "FindSmallestTeam", "d2/d76/teamplay_8qh.html#abaa1224f550ef1ffcd58d9cfbd8a2d4f", null ],
     [ "GetClientVersionMessage", "d2/d76/teamplay_8qh.html#afc313824d206a3c347ffae743aa5a7dd", null ],
     [ "GetTeamCounts", "d2/d76/teamplay_8qh.html#a2942f2ae0d82c47009843cae3069508a", null ],
@@ -11,7 +11,6 @@ var teamplay_8qh =
     [ "JoinBestTeam", "d2/d76/teamplay_8qh.html#a2bf80d8d4c0ef914da18c00f4ce3cc55", null ],
     [ "LogTeamchange", "d2/d76/teamplay_8qh.html#af954f9f806424a8cb8467d9372d8049e", null ],
     [ "PlayerValue", "d2/d76/teamplay_8qh.html#a03beeb550118f87341e3c16c53300a6d", null ],
-    [ "SetLimits", "d2/d76/teamplay_8qh.html#a246b8f5baa8038cddf08ecc9adf5b17c", null ],
     [ "SetPlayerColors", "d2/d76/teamplay_8qh.html#a113b95feba1c451c0a411ec54eb29eab", null ],
     [ "SetPlayerTeam", "d2/d76/teamplay_8qh.html#ac136f59a979d6dd099a07e254408aed3", null ],
     [ "ShufflePlayerOutOfTeam", "d2/d76/teamplay_8qh.html#a50d3aefd0207c123d11252f5fdddcf0d", null ],
