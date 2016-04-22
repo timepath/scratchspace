@@ -242,6 +242,7 @@ var server_2autocvars_8qh =
     [ "autocvar_g_maxplayers_spectator_blocktime", "d7/da7/server_2autocvars_8qh.html#a84691195131ae7471a52b6cc41916cc9", null ],
     [ "autocvar_g_maxpushtime", "d7/da7/server_2autocvars_8qh.html#ae253d926dc28a4ca0b1475d37f2d67a3", null ],
     [ "autocvar_g_maxspeed", "d7/da7/server_2autocvars_8qh.html#a3b5bf77fc80c22e5ca375ed17d26b92a", null ],
+    [ "autocvar_g_mirrordamage_onlyweapons", "d7/da7/server_2autocvars_8qh.html#a0f27e08c42a3cd8c7c513ee763f30515", null ],
     [ "autocvar_g_monsters", "d7/da7/server_2autocvars_8qh.html#a803e750a9028dff9cbc611cbb59a6164", null ],
     [ "autocvar_g_monsters_armor_blockpercent", "d7/da7/server_2autocvars_8qh.html#ae16036bda029cb1cd70a60f87eb5998c", null ],
     [ "autocvar_g_monsters_attack_range", "d7/da7/server_2autocvars_8qh.html#a0ddcc4bb3f6792b7150e390a54d1f567", null ],

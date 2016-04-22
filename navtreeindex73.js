@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"d9/d35/csqcprojectile_8qh_source.html":[2,0,5,4,6],
 "d9/d37/classXonoticScreenshotBrowserTab.html":[1,0,210],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,210,21],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,210,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "d9/d5b/struct_8qh.html#a32b88cd9195e3af603b935fd5d1314cf":[2,0,3,52,0],
 "d9/d5b/struct_8qh.html#a40dd2d644869e0946b673d0035a65823":[2,0,3,52,5],
 "d9/d5b/struct_8qh.html#a6b1e742b66728c25469b42a91ba6aaf2":[2,0,3,52,8],
-"d9/d5b/struct_8qh.html#a78a561d3b6074284aa947f7fbe5228fe":[2,0,3,52,9],
-"d9/d5b/struct_8qh.html#a824a1f6f02faf1d034bb1b02739e0c66":[2,0,3,52,3]
+"d9/d5b/struct_8qh.html#a78a561d3b6074284aa947f7fbe5228fe":[2,0,3,52,9]
 };

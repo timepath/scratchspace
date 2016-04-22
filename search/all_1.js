@@ -1032,6 +1032,7 @@ var searchData=
   ['autocvar_5fg_5fmaxpushtime',['autocvar_g_maxpushtime',['../d7/da7/server_2autocvars_8qh.html#ae253d926dc28a4ca0b1475d37f2d67a3',1,'autocvars.qh']]],
   ['autocvar_5fg_5fmaxspeed',['autocvar_g_maxspeed',['../d7/da7/server_2autocvars_8qh.html#a3b5bf77fc80c22e5ca375ed17d26b92a',1,'autocvars.qh']]],
   ['autocvar_5fg_5fmirrordamage',['autocvar_g_mirrordamage',['../d7/da7/server_2autocvars_8qh.html#aa9bb7e6add74bf568efce2e3b789e169',1,'autocvars.qh']]],
+  ['autocvar_5fg_5fmirrordamage_5fonlyweapons',['autocvar_g_mirrordamage_onlyweapons',['../d7/da7/server_2autocvars_8qh.html#a0f27e08c42a3cd8c7c513ee763f30515',1,'autocvars.qh']]],
   ['autocvar_5fg_5fmirrordamage_5fvirtual',['autocvar_g_mirrordamage_virtual',['../d7/da7/server_2autocvars_8qh.html#a4f3c41dbd7d4f2075dfde4bdaac1e432',1,'autocvars.qh']]],
   ['autocvar_5fg_5fmonsters',['autocvar_g_monsters',['../d7/da7/server_2autocvars_8qh.html#a803e750a9028dff9cbc611cbb59a6164',1,'autocvars.qh']]],
   ['autocvar_5fg_5fmonsters_5farmor_5fblockpercent',['autocvar_g_monsters_armor_blockpercent',['../d7/da7/server_2autocvars_8qh.html#ae16036bda029cb1cd70a60f87eb5998c',1,'autocvars.qh']]],

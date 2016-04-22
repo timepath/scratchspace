@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"dd/da6/classXonoticCreditsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,135,40],
 "dd/da6/classXonoticCreditsDialog.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,135,72],
 "dd/da6/classXonoticCreditsDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,135,54],
 "dd/da6/classXonoticCreditsDialog.html#ad2f89bcf0a735d02adb2feb043b33c78":[1,0,135,50],
@@ -156,8 +157,8 @@ var NAVTREEINDEX106 =
 "dd/dcd/hud__config_8qh.html#aff11757a3172f4f26585a7edc21785f0":[2,0,0,1,7,0],
 "dd/dcd/hud__config_8qh_source.html":[2,0,0,1,7],
 "dd/dd5/sv__model_8qc.html":[2,0,3,0,9],
-"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,3,0,9,7],
 "dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,3,0,9,6],
+"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,3,0,9,7],
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,3,0,9,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,3,0,9,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,3,0,9,11],
@@ -165,8 +166,8 @@ var NAVTREEINDEX106 =
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,3,0,9,1],
 "dd/dd5/sv__model_8qc.html#a7d121b60a49265b031a787cd51c411b2":[2,0,3,0,9,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,3,0,9,12],
-"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,3,0,9,3],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,3,0,9,2],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,3,0,9,3],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,3,0,9,4],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,3,0,9,5],
 "dd/dd5/sv__model_8qc_source.html":[2,0,3,0,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#abd3638562aad34568f78666d5dd15bad":[2,0,1,9,0,31,1,42],
 "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#acb5b24da508e656f30deb22e82a726b6":[2,0,1,9,0,31,1,2],
 "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#acc745e07fc86162290949a596a0bea56":[2,0,1,9,0,31,1,33],
-"dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#ad530efd7d055b386959cf669ddcba142":[2,0,1,9,0,31,1,32],
-"dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#add23e26545a8ca82371da09f0d785333":[2,0,1,9,0,31,1,29]
+"dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#ad530efd7d055b386959cf669ddcba142":[2,0,1,9,0,31,1,32]
 };
