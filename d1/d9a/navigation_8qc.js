@@ -21,7 +21,7 @@ var navigation_8qc =
     [ "navigation_routetogoal", "d1/d9a/navigation_8qc.html#a5aa6eb502121452578dc1d1f40b577c3", null ],
     [ "navigation_unstuck", "d1/d9a/navigation_8qc.html#a5366a30eadfa71d3b37653e469a20904", null ],
     [ "navigation_waypoint_will_link", "d1/d9a/navigation_8qc.html#a01346f19dfbb847988ce4934e5c8f4c4", null ],
-    [ "tracewalk", "d1/d9a/navigation_8qc.html#ac04a7b9ea11337a93febd08c22ea7db7", null ],
+    [ "tracewalk", "d1/d9a/navigation_8qc.html#a5774675c8d7c45691539c10cc13b4482", null ],
     [ "goalcounter", "d1/d9a/navigation_8qc.html#a31fe843e6e1518e0d392034d88c510e4", null ],
     [ "lastposition", "d1/d9a/navigation_8qc.html#a8d6a0f0ac45f6a0962897835e79bd533", null ],
     [ "speed", "d1/d9a/navigation_8qc.html#a7f7e4724cf57d59513b39c5ecc81adc8", null ]

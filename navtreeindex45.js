@@ -1,7 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"d5/de0/weaponsystem_8qc.html#aa0bce870282286c681f4e9988c2ba474":[2,0,5,4,19,8],
-"d5/de0/weaponsystem_8qc.html#aa46bfb19e29f3b2eae7d29f5ae04b723":[2,0,5,4,19,12],
 "d5/de0/weaponsystem_8qc.html#aaefe66855961a08c88a3d7a9cd8c030e":[2,0,5,4,19,28],
 "d5/de0/weaponsystem_8qc.html#ab0182526137001da7d750d97f9cba4e0":[2,0,5,4,19,1],
 "d5/de0/weaponsystem_8qc.html#ab1051ecc5d2a6cf50ed74473d4d5d7d5":[2,0,5,4,19,18],
@@ -249,5 +247,7 @@ var NAVTREEINDEX45 =
 "d6/d01/classRaptorCannon.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,91,13],
 "d6/d01/classRaptorCannon.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,91,7],
 "d6/d01/classRaptorCannon.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,91,21],
-"d6/d01/classRaptorCannon.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,91,6]
+"d6/d01/classRaptorCannon.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,91,6],
+"d6/d01/classRaptorCannon.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,91,0],
+"d6/d01/classRaptorCannon.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,91,33]
 };

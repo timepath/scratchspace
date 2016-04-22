@@ -1,7 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"dc/d03/keycodes_8qc.html#abaf0818691acd49dda874a9f7a781cfd":[2,0,2,0,2,38],
-"dc/d03/keycodes_8qc.html#abbeae898f5d1e09e90c0f25b5e95e23e":[2,0,2,0,2,6],
 "dc/d03/keycodes_8qc.html#abd7e1a63235cd35d70909535a89df717":[2,0,2,0,2,79],
 "dc/d03/keycodes_8qc.html#abeafadc10698271c7100ecbd3846341e":[2,0,2,0,2,81],
 "dc/d03/keycodes_8qc.html#ac07158f67f8572f2587b53b43db6a79f":[2,0,2,0,2,54],
@@ -249,5 +247,7 @@ var NAVTREEINDEX94 =
 "dc/d1c/gamemodes_2gamemode_2nexball_2module_8inc_source.html":[2,0,1,3,0,0,1],
 "dc/d1c/weapon_8qh.html":[2,0,1,16,9],
 "dc/d1c/weapon_8qh.html#a01fb8b4722cd9503ad28af6600e7e18c":[2,0,1,16,9,8],
-"dc/d1c/weapon_8qh.html#a110a94ff60352bf5502a014f3bc56209":[2,0,1,16,9,30]
+"dc/d1c/weapon_8qh.html#a110a94ff60352bf5502a014f3bc56209":[2,0,1,16,9,30],
+"dc/d1c/weapon_8qh.html#a115499de63e2c52e0566ebe714248166":[2,0,1,16,9,3],
+"dc/d1c/weapon_8qh.html#a1697c68bcf32142b7f3c86755b8a4623":[2,0,1,16,9,18]
 };

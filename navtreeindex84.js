@@ -1,7 +1,5 @@
 var NAVTREEINDEX84 =
 {
-"da/df5/common_2debug_8qh.html#aceb0d59d9ccb0a485dd5be34e5a95361":[2,0,1,28,3],
-"da/df5/common_2debug_8qh.html#adf57573d447a0ad86b53345f77359abd":[2,0,1,28,4],
 "da/df5/common_2debug_8qh_source.html":[2,0,1,28],
 "da/df7/steerlib_8qh.html":[2,0,5,62],
 "da/df7/steerlib_8qh.html#a25672ab6371ae66548f5e29fe993ff4e":[2,0,5,62,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX84 =
 "db/d26/gamemode__freezetag_8qc_source.html":[2,0,5,2,0,13],
 "db/d29/classXonoticRegisteredSettingsList.html":[1,0,204],
 "db/d29/classXonoticRegisteredSettingsList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,204,7],
-"db/d29/classXonoticRegisteredSettingsList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,204,40]
+"db/d29/classXonoticRegisteredSettingsList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,204,40],
+"db/d29/classXonoticRegisteredSettingsList.html#a0b3e0ee2d3e6fef269d1948bd03ae6a5":[1,0,204,39],
+"db/d29/classXonoticRegisteredSettingsList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,204,43]
 };

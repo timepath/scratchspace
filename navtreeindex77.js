@@ -1,7 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"d9/de0/gamemode__tdm_8qh_source.html":[2,0,5,2,0,26],
-"d9/de3/dialog__hudpanel__notification_8qh.html":[2,0,4,4,60],
 "d9/de3/dialog__hudpanel__notification_8qh_source.html":[2,0,4,4,60],
 "d9/de7/jumppads_8qh.html":[2,0,1,13,3,14],
 "d9/de7/jumppads_8qh.html#a042b51c942f1753959244f19bd53e54e":[2,0,1,13,3,14,10],
@@ -249,5 +247,7 @@ var NAVTREEINDEX77 =
 "d9/df7/mathlib_8qh.html#a834c6abed34f0fed15913ed3c86ba4f2":[2,0,3,2,8,38],
 "d9/df7/mathlib_8qh.html#a8f7da98673f75db0054d43f5ba8fbaaf":[2,0,3,2,8,22],
 "d9/df7/mathlib_8qh.html#a90381e2538fbcc8e6c1f75b1831c7846":[2,0,3,2,8,32],
-"d9/df7/mathlib_8qh.html#a9072957ddf2d504ecc13b926c225ab59":[2,0,3,2,8,34]
+"d9/df7/mathlib_8qh.html#a9072957ddf2d504ecc13b926c225ab59":[2,0,3,2,8,34],
+"d9/df7/mathlib_8qh.html#a9210adbf815652f2812bba9a6440dd93":[2,0,3,2,8,55],
+"d9/df7/mathlib_8qh.html#a9721b211d745587e14ffe8427dd1299e":[2,0,3,2,8,53]
 };

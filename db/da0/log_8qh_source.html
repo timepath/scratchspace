@@ -145,11 +145,11 @@ $(document).ready(function(){initNavTree('db/da0/log_8qh_source.html','../../');
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor"></span><a class="code" href="../../db/da0/log_8qh.html#a783e71e7dacc20b8e32f104ba5958162">string</a>(<span class="keywordtype">string</span>...) strcat0n = <span class="preprocessor">#115;</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="../../db/da0/log_8qh.html#a6aebf22c1f26cea3e620968d6e8a4022">   41</a></span>&#160;<span class="preprocessor">#define __SOURCELOC__ (sprintf(&quot;^9&quot;__FILE__&quot;^7&quot;  &quot;:&quot;  &quot;^9%s^7&quot;  &quot;:&quot;  &quot;^9&quot;STR(__LINE__)&quot;^7&quot;, __FUNC__))</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="../../db/da0/log_8qh.html#a6aebf22c1f26cea3e620968d6e8a4022">   41</a></span>&#160;<span class="preprocessor">#define __SOURCELOC__ (sprintf(&quot;^7%s^9&quot; &quot;(&quot; &quot;^9&quot;__FILE__&quot;^7&quot;  &quot;:&quot;  &quot;^9&quot;STR(__LINE__)&quot;^7&quot; &quot;)&quot;, __FUNC__))</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="../../db/da0/log_8qh.html#ab4d8a0056ca3db0691ad1d55cbd76fe0">   43</a></span>&#160;<span class="preprocessor">#define _LOG(f, level, s) \</span></div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">    MACRO_BEGIN { \</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">        f(sprintf(&quot;^9[::^7&quot; PROGNAME &quot;^9::&quot; level &quot;^9] [%s^9]\n^7%s\n&quot;, __SOURCELOC__, s)); \</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">        f(sprintf(&quot;^9[::&quot; &quot;^7&quot;PROGNAME&quot;^9&quot; &quot;::&quot; level&quot;^9&quot; &quot;] %s\n^7%s\n&quot;, __SOURCELOC__, s)); \</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="../../db/da0/log_8qh.html#a89cecd05aeaafc715ebc091cf74d10fe">   48</a></span>&#160;<span class="preprocessor">#define  LOG_FATAL(...) _LOG_FATAL(strcat0n(__VA_ARGS__))</span></div>
@@ -230,7 +230,7 @@ $(document).ready(function(){initNavTree('db/da0/log_8qh_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../db/da0/log_8qh.html">log.qh</a></li>
-    <li class="footer">Generated on Fri Apr 22 2016 01:01:57 for Xonotic by
+    <li class="footer">Generated on Fri Apr 22 2016 12:49:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

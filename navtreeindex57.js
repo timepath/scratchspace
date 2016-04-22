@@ -1,7 +1,5 @@
 var NAVTREEINDEX57 =
 {
-"d7/d71/lib_2warpzone_2common_8qh.html#a14c2a8bd301ac8d49c0064f68066a256":[2,0,3,2,6,24],
-"d7/d71/lib_2warpzone_2common_8qh.html#a14cf6d888d7b4d234b4ddf24f925ce2d":[2,0,3,2,6,30],
 "d7/d71/lib_2warpzone_2common_8qh.html#a17cfeb262bd72e8d8dbfed975860037c":[2,0,3,2,6,36],
 "d7/d71/lib_2warpzone_2common_8qh.html#a191c61933b716c17f4aaac24e9049664":[2,0,3,2,6,13],
 "d7/d71/lib_2warpzone_2common_8qh.html#a1b87d3cc5d237220e1d7def92aca4632":[2,0,3,2,6,47],
@@ -249,5 +247,7 @@ var NAVTREEINDEX57 =
 "d7/d97/g__world_8qh_source.html":[2,0,5,35],
 "d7/d9c/classMachineGunTurretAttack.html":[1,0,58],
 "d7/d9c/classMachineGunTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,58,32],
-"d7/d9c/classMachineGunTurretAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,58,17]
+"d7/d9c/classMachineGunTurretAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,58,17],
+"d7/d9c/classMachineGunTurretAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,58,16],
+"d7/d9c/classMachineGunTurretAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,58,29]
 };

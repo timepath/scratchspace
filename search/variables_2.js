@@ -76,8 +76,6 @@ var searchData=
   ['bot_5factiverealplayers',['bot_activerealplayers',['../d6/ddd/server_2mutators_2events_8qh.html#aeccd33291fc9c712487dfb735c54b3af',1,'events.qh']]],
   ['bot_5faggresskill',['bot_aggresskill',['../d1/da9/bot_8qh.html#a16e2c32d3da542f7b82a5e7aa79285b6',1,'bot.qh']]],
   ['bot_5faimlatency',['bot_aimlatency',['../d3/d5a/aim_8qh.html#a42f0a350fc2c5a6544522a76b3488cfa',1,'aim.qh']]],
-  ['bot_5faimselforigin',['bot_aimselforigin',['../d3/d5a/aim_8qh.html#a36d22592bd79c7e77f4258481714bdf8',1,'aim.qh']]],
-  ['bot_5faimselfvelocity',['bot_aimselfvelocity',['../d3/d5a/aim_8qh.html#a91e3ae963fa88c8e024ad85f74e33113',1,'aim.qh']]],
   ['bot_5faimskill',['bot_aimskill',['../d1/da9/bot_8qh.html#a7c3b450e486f54cec139b80493380d40',1,'bot.qh']]],
   ['bot_5faimtarg',['bot_aimtarg',['../d3/d5a/aim_8qh.html#a9f0625eca4b7bbaa4a74aa342cbf42c1',1,'aim.qh']]],
   ['bot_5faimtargorigin',['bot_aimtargorigin',['../d3/d5a/aim_8qh.html#a8003fde7b1f95f58b1429dc141aca92f',1,'aim.qh']]],

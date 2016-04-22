@@ -1,7 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"d7/db9/mutators_2mutator_2vampirehook_2module_8inc.html":[2,0,1,9,0,30,1],
-"d7/db9/mutators_2mutator_2vampirehook_2module_8inc_source.html":[2,0,1,9,0,30,1],
 "d7/dc0/dialog__hudpanel__engineinfo_8qh.html":[2,0,4,4,50],
 "d7/dc0/dialog__hudpanel__engineinfo_8qh_source.html":[2,0,4,4,50],
 "d7/dc4/waypoints_8qc.html":[2,0,5,0,10],
@@ -249,5 +247,7 @@ var NAVTREEINDEX63 =
 "d7/dd7/xonotic_2slider_8qc.html":[2,0,4,4,201],
 "d7/dd7/xonotic_2slider_8qc.html#a10f12bf115ba2f38d3170cba9771259d":[2,0,4,4,201,5],
 "d7/dd7/xonotic_2slider_8qc.html#a4d8455cb841ad2070a13037e6051c620":[2,0,4,4,201,4],
-"d7/dd7/xonotic_2slider_8qc.html#a5463b0f3850f7cd71b5f9f5e63e38d31":[2,0,4,4,201,6]
+"d7/dd7/xonotic_2slider_8qc.html#a5463b0f3850f7cd71b5f9f5e63e38d31":[2,0,4,4,201,6],
+"d7/dd7/xonotic_2slider_8qc.html#a634ca09e8b38783ce42d633f540d573f":[2,0,4,4,201,1],
+"d7/dd7/xonotic_2slider_8qc.html#a72ea3ddcd9b42b7960214c7d378e0ae3":[2,0,4,4,201,0]
 };

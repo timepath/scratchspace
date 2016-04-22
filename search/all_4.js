@@ -95,7 +95,7 @@ var searchData=
   ['default_5fstring',['default_string',['../d0/d4f/cvar_8qh.html#a1ef2516db2fb901c43e4310ed33f920e',1,'cvar.qh']]],
   ['default_5fvector',['default_vector',['../d0/d4f/cvar_8qh.html#a5c899521bd1d05b75d36f7a584445aed',1,'cvar.qh']]],
   ['default_5fweapon_5falpha',['default_weapon_alpha',['../d5/d26/server_2defs_8qh.html#a5789921c530581f963a977c7c9ae6a89',1,'defs.qh']]],
-  ['defer',['defer',['../d5/d95/defer_8qh.html#aa43c4a819691d1d4f1d2f5e813319796',1,'defer(entity this, float fdelay, void(entity this) func):&#160;defer.qh'],['../d7/d61/misc_8qh.html#a4985e8f93ec4d844193bad891e1ea0c2',1,'DEFER():&#160;misc.qh']]],
+  ['defer',['defer',['../d5/d95/defer_8qh.html#a30c108c0c78796d164feb5694cbd2066',1,'defer(entity this, float fdelay, void(entity) func):&#160;defer.qh'],['../d7/d61/misc_8qh.html#a4985e8f93ec4d844193bad891e1ea0c2',1,'DEFER():&#160;misc.qh']]],
   ['defer_2eqh',['defer.qh',['../d5/d95/defer_8qh.html',1,'']]],
   ['defer_5fthink',['defer_think',['../d5/d95/defer_8qh.html#a839ea0b7dbc456a08b83b1186293f113',1,'defer.qh']]],
   ['defrag_5fents',['defrag_ents',['../d6/d3b/race_8qc.html#a70fbde94d1d32b56ca60fda6a5c34e83',1,'race.qc']]],
