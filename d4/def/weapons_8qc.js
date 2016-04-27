@@ -1,5 +1,6 @@
 var weapons_8qc =
 [
+    [ "HUD_WEAPONS_GET_FULL_LAYOUT", "d4/def/weapons_8qc.html#a3e043e62296dd243ac34238acbe48b54", null ],
     [ "HUD_Weapons", "d4/def/weapons_8qc.html#ab7c3acfa47aaf4f25f4775921b6be5ae", null ],
     [ "weaponorder_cmp", "d4/def/weapons_8qc.html#a78ae21ff07fb9635d16068d921afd78e", null ],
     [ "weaponorder_swap", "d4/def/weapons_8qc.html#a9393a669fd50c72dd3d3c71c6ff1abcb", null ],

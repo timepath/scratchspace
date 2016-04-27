@@ -1,5 +1,8 @@
 var NAVTREEINDEX93 =
 {
+"db/dcc/g__world_8qc.html#ae75fd8d37f64427f20903a79db2c9c58":[2,0,5,35,67],
+"db/dcc/g__world_8qc.html#ae90b93bec2a0e6486266371cb04b86bb":[2,0,5,35,10],
+"db/dcc/g__world_8qc.html#ae923ed115dc19fb738ee4b85677546f2":[2,0,5,35,2],
 "db/dcc/g__world_8qc.html#aea3ddd39032ad2c1530fc705053048e2":[2,0,5,35,56],
 "db/dcc/g__world_8qc.html#aeaaf91b0741ea44184722f5f0ae2dfc1":[2,0,5,35,69],
 "db/dcc/g__world_8qc.html#af7053fbbaf3bf28ba21d75db78ce40c1":[2,0,5,35,57],
@@ -81,6 +84,7 @@ var NAVTREEINDEX93 =
 "db/ddb/classXonoticCvarList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,139,40],
 "db/ddb/classXonoticCvarList.html#a86a11cd3d337aaa2a5355e5e04c469cd":[1,0,139,44],
 "db/ddb/classXonoticCvarList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,139,14],
+"db/ddb/classXonoticCvarList.html#a8c539467e3831f5420d97206cf918cf8":[1,0,139,19],
 "db/ddb/classXonoticCvarList.html#a8daab5030dd38f60b40c180fb7a442b1":[1,0,139,58],
 "db/ddb/classXonoticCvarList.html#a905b47b262dc68eda970bc0afd24f243":[1,0,139,83],
 "db/ddb/classXonoticCvarList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,139,42],
@@ -100,7 +104,6 @@ var NAVTREEINDEX93 =
 "db/ddb/classXonoticCvarList.html#ac12318a9727a9d8ab8286f0dc7f78bd3":[1,0,139,32],
 "db/ddb/classXonoticCvarList.html#ac42d5a245958ce68a8757b7dbc8e8ee2":[1,0,139,82],
 "db/ddb/classXonoticCvarList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,139,74],
-"db/ddb/classXonoticCvarList.html#ac6094922668d013ada3893854eec6b0f":[1,0,139,19],
 "db/ddb/classXonoticCvarList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,139,71],
 "db/ddb/classXonoticCvarList.html#acaf75fb6772c09edc67f7ec5566ec861":[1,0,139,54],
 "db/ddb/classXonoticCvarList.html#acc92825f684699c8603d4f37ada4fdfa":[1,0,139,52],
@@ -246,8 +249,5 @@ var NAVTREEINDEX93 =
 "db/def/sort_8qh.html#ad8f0562632e6f98768f7b9201e0fe51e":[2,0,3,46,3],
 "db/def/sort_8qh.html#adbcf7bdce2adadeafd5773ee731de221":[2,0,3,46,0],
 "db/def/sort_8qh_source.html":[2,0,3,46],
-"db/df4/phaser__weapon_8qh.html":[2,0,1,14,0,23],
-"db/df4/phaser__weapon_8qh.html#af020ecb932e64d90bbc980013cb9d3a2":[2,0,1,14,0,23,1],
-"db/df4/phaser__weapon_8qh_source.html":[2,0,1,14,0,23],
-"db/df7/colorpicker__string_8qc.html":[2,0,4,4,22]
+"db/df4/phaser__weapon_8qh.html":[2,0,1,14,0,23]
 };

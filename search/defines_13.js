@@ -58,7 +58,7 @@ var searchData=
   ['spawn_5fevent',['spawn_event',['../db/d7f/effectinfo_8inc.html#a8c85a06fc8bae5f2a2a2d3ba6a6824ce',1,'effectinfo.inc']]],
   ['spawn_5fh',['SPAWN_H',['../d0/d37/spawn_8qh.html#a7767cb1824e0e47421178d3cb17b5cb5',1,'spawn.qh']]],
   ['spawn_5fpoint',['spawn_point',['../db/d7f/effectinfo_8inc.html#a719b57382041d2eab6a385441d520fd2',1,'effectinfo.inc']]],
-  ['spawn_5fpure',['SPAWN_PURE',['../db/d0a/oo_8qh.html#aa08dd8e94a38b6138c560dfa41facfb1',1,'SPAWN_PURE():&#160;oo.qh'],['../db/d0a/oo_8qh.html#a36118cf10a3e0ddef53ee10a2af4b519',1,'spawn_pure():&#160;oo.qh']]],
+  ['spawn_5fpure',['spawn_pure',['../db/d0a/oo_8qh.html#a36118cf10a3e0ddef53ee10a2af4b519',1,'spawn_pure():&#160;oo.qh'],['../db/d0a/oo_8qh.html#aa08dd8e94a38b6138c560dfa41facfb1',1,'SPAWN_PURE():&#160;oo.qh']]],
   ['spawn_5fstatic',['spawn_static',['../db/d0a/oo_8qh.html#afa8d0001717e5ae352d3893ce74ff3b8',1,'oo.qh']]],
   ['spawnfunc',['spawnfunc',['../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153',1,'spawnfunc.qh']]],
   ['spawnfunc_5f1',['spawnfunc_1',['../da/d20/spawnfunc_8qh.html#aba58f0f254a7470e43b0294be317a734',1,'spawnfunc.qh']]],

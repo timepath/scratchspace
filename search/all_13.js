@@ -586,7 +586,7 @@ var searchData=
   ['spawn_5fprio_5fnear_5fteammate_5ffound',['SPAWN_PRIO_NEAR_TEAMMATE_FOUND',['../d0/d8b/common_2constants_8qh.html#a147120fa263b120c8a20915dffa25c9b',1,'constants.qh']]],
   ['spawn_5fprio_5fnear_5fteammate_5fsameteam',['SPAWN_PRIO_NEAR_TEAMMATE_SAMETEAM',['../d0/d8b/common_2constants_8qh.html#afbaa6a2b464f54d5f9f6087f526bb199',1,'constants.qh']]],
   ['spawn_5fprio_5frace_5fprevious_5fspawn',['SPAWN_PRIO_RACE_PREVIOUS_SPAWN',['../d0/d8b/common_2constants_8qh.html#a5d88e76b04abc36016eda23afcc61ef1',1,'constants.qh']]],
-  ['spawn_5fpure',['SPAWN_PURE',['../db/d0a/oo_8qh.html#aa08dd8e94a38b6138c560dfa41facfb1',1,'SPAWN_PURE():&#160;oo.qh'],['../db/d0a/oo_8qh.html#a36118cf10a3e0ddef53ee10a2af4b519',1,'spawn_pure():&#160;oo.qh']]],
+  ['spawn_5fpure',['spawn_pure',['../db/d0a/oo_8qh.html#a36118cf10a3e0ddef53ee10a2af4b519',1,'spawn_pure():&#160;oo.qh'],['../db/d0a/oo_8qh.html#aa08dd8e94a38b6138c560dfa41facfb1',1,'SPAWN_PURE():&#160;oo.qh']]],
   ['spawn_5fscore',['Spawn_Score',['../d0/d41/spawnpoints_8qc.html#a2037d05b775540bd096a3c16d7eb2bdc',1,'Spawn_Score(entity spot, float mindist, float teamcheck):&#160;spawnpoints.qc'],['../d6/ddd/server_2mutators_2events_8qh.html#a8bd29df3756ee84540cb125fb86a12fb',1,'spawn_score():&#160;events.qh']]],
   ['spawn_5fscoreall',['Spawn_ScoreAll',['../d0/d41/spawnpoints_8qc.html#a2170f4b704145b0177185ecb90b21103',1,'spawnpoints.qc']]],
   ['spawn_5fspot',['spawn_spot',['../d6/ddd/server_2mutators_2events_8qh.html#a61beae343fe4c3867f4f16eb4ff0de57',1,'events.qh']]],

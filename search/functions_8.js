@@ -26,7 +26,7 @@ var searchData=
   ['heapsort',['heapsort',['../db/def/sort_8qh.html#a45075ab7a5511838f438adb5ede68752',1,'sort.qh']]],
   ['hideall',['hideAll',['../d6/d1a/classModalController.html#a918765695e02e3fd2b1fd9d6a97ce8b5',1,'ModalController']]],
   ['hidechild',['hideChild',['../d6/d1a/classModalController.html#a17de24af1814ab04ff410d3321622ddb',1,'ModalController']]],
-  ['hidenotify',['hideNotify',['../d0/d7b/classContainer.html#a4c0113eb24a54cdfcc6ced0f5a268ed7',1,'Container::hideNotify()'],['../d0/dae/classItem.html#ac6094922668d013ada3893854eec6b0f',1,'Item::hideNotify()']]],
+  ['hidenotify',['hideNotify',['../d0/d7b/classContainer.html#a4c0113eb24a54cdfcc6ced0f5a268ed7',1,'Container::hideNotify()'],['../d0/dae/classItem.html#ac6094922668d013ada3893854eec6b0f',1,'Item::hideNotify()'],['../db/ddb/classXonoticCvarList.html#a8c539467e3831f5420d97206cf918cf8',1,'XonoticCvarList::hideNotify()']]],
   ['hitsound',['HitSound',['../d6/dd3/view_8qc.html#a34d0140337320f3989dc15dc846c035d',1,'view.qc']]],
   ['hsl_5fto_5frgb',['hsl_to_rgb',['../d5/df2/common_2util_8qh.html#a981aa7efb1dbc17c92ba11492dc10c57',1,'hsl_to_rgb(vector hsl):&#160;color.qh'],['../de/d11/color_8qh.html#a981aa7efb1dbc17c92ba11492dc10c57',1,'hsl_to_rgb(vector hsl):&#160;color.qh']]],
   ['hslimage_5fcolor',['hslimage_color',['../d6/d4c/colorpicker_8qc.html#a38dab2da0f91e1289887fec32ad6412d',1,'hslimage_color(vector v, vector margin):&#160;colorpicker.qc'],['../d8/dcc/colorpicker_8qh.html#a38dab2da0f91e1289887fec32ad6412d',1,'hslimage_color(vector v, vector margin):&#160;colorpicker.qc']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"d8/d12/classRaptor.html#a8a293a8bf3a9e86098d45b48cca5cf6e":[1,0,89,27],
 "d8/d12/classRaptor.html#a8b4907c9dabea91e3148878459bce9e5":[1,0,89,0],
 "d8/d12/classRaptor.html#a91f922352c8e6ca7b9b56617c530b8b4":[1,0,89,8],
 "d8/d12/classRaptor.html#a962d81e9c45a8f2ad1349065e65d098f":[1,0,89,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "d8/d35/classXonoticHUDChatDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,159,68],
 "d8/d35/classXonoticHUDChatDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,159,66],
 "d8/d35/classXonoticHUDChatDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,159,12],
-"d8/d35/classXonoticHUDChatDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,159,39],
-"d8/d35/classXonoticHUDChatDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,159,17]
+"d8/d35/classXonoticHUDChatDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,159,39]
 };

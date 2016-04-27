@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"d9/d19/modalcontroller_8qc.html#a41ddafc5149fda765464ade1edc25080":[2,0,4,2,22,19],
 "d9/d19/modalcontroller_8qc.html#a45c9a7f3af5cd89bb1b57e379d7936fe":[2,0,4,2,22,3],
 "d9/d19/modalcontroller_8qc.html#a582829273900c212acef39918b9ea8ab":[2,0,4,2,22,8],
 "d9/d19/modalcontroller_8qc.html#a60f2d4ad42f0bfe8bca80aff8ff31ce6":[2,0,4,2,22,0],
@@ -221,10 +222,12 @@ var NAVTREEINDEX73 =
 "d9/d45/globalsound_8qc_source.html":[2,0,1,2,0,9],
 "d9/d47/cvarlist_8qh.html":[2,0,4,4,33],
 "d9/d47/cvarlist_8qh.html#a1887a2da6825992ddb99acd7cbcc0388":[2,0,4,4,33,2],
-"d9/d47/cvarlist_8qh.html#a39f82a66971a7a85c801c09ca60e34f0":[2,0,4,4,33,4],
+"d9/d47/cvarlist_8qh.html#a39f82a66971a7a85c801c09ca60e34f0":[2,0,4,4,33,5],
 "d9/d47/cvarlist_8qh.html#a3afb09be4df0236ad8b1247b9db22458":[2,0,4,4,33,1],
-"d9/d47/cvarlist_8qh.html#a5971da398283d35ee922ebc812fa0de7":[2,0,4,4,33,5],
-"d9/d47/cvarlist_8qh.html#ab4a51be7c5169ef3e25c573a84135360":[2,0,4,4,33,3],
+"d9/d47/cvarlist_8qh.html#a5971da398283d35ee922ebc812fa0de7":[2,0,4,4,33,6],
+"d9/d47/cvarlist_8qh.html#a59b8ea8092fc1d518741fcad07d4caf8":[2,0,4,4,33,7],
+"d9/d47/cvarlist_8qh.html#a90f6310a9c53f45daff834bad1b4846b":[2,0,4,4,33,3],
+"d9/d47/cvarlist_8qh.html#ab4a51be7c5169ef3e25c573a84135360":[2,0,4,4,33,4],
 "d9/d47/cvarlist_8qh_source.html":[2,0,4,4,33],
 "d9/d4a/dialog__hudpanel__quickmenu_8qh.html":[2,0,4,4,69],
 "d9/d4a/dialog__hudpanel__quickmenu_8qh_source.html":[2,0,4,4,69],
@@ -246,8 +249,5 @@ var NAVTREEINDEX73 =
 "d9/d52/slider__resolution_8qc_source.html":[2,0,4,4,210],
 "d9/d55/xonotic_2dialog_8qc.html":[2,0,4,4,38],
 "d9/d55/xonotic_2dialog_8qc.html#a84d719e408ce47b9ccc66a40bab296d7":[2,0,4,4,38,0],
-"d9/d55/xonotic_2dialog_8qc_source.html":[2,0,4,4,38],
-"d9/d58/classXonoticResolutionSlider.html":[1,0,206],
-"d9/d58/classXonoticResolutionSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,206,98],
-"d9/d58/classXonoticResolutionSlider.html#a03b39828cfca5042da326cc07cc8f7b4":[1,0,206,60]
+"d9/d55/xonotic_2dialog_8qc_source.html":[2,0,4,4,38]
 };

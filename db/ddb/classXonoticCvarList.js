@@ -19,7 +19,7 @@ var classXonoticCvarList =
     [ "getItemStart", "db/ddb/classXonoticCvarList.html#a44c242b1031fc5bf96f6f7d20fc185dc", null ],
     [ "getLastFullyVisibleItemAtScrollPos", "db/ddb/classXonoticCvarList.html#a565f8d33b46815606f1860162d71339a", null ],
     [ "getTotalHeight", "db/ddb/classXonoticCvarList.html#a113d1a91bed3f1f7bc3a24306c2c68e7", null ],
-    [ "hideNotify", "db/ddb/classXonoticCvarList.html#ac6094922668d013ada3893854eec6b0f", null ],
+    [ "hideNotify", "db/ddb/classXonoticCvarList.html#a8c539467e3831f5420d97206cf918cf8", null ],
     [ "isScrolling", "db/ddb/classXonoticCvarList.html#af9d941569d16ba17cec674b89df93ad0", null ],
     [ "keyDown", "db/ddb/classXonoticCvarList.html#a6655cecf0498a6f486b9e5ec31216462", null ],
     [ "keyUp", "db/ddb/classXonoticCvarList.html#a10cf88734594fed24be93889407c0bda", null ],

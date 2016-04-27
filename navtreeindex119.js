@@ -1,5 +1,11 @@
 var NAVTREEINDEX119 =
 {
+"df/d92/classXonoticWinnerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,235,2],
+"df/d92/classXonoticWinnerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,235,26],
+"df/d92/classXonoticWinnerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,235,30],
+"df/d92/classXonoticWinnerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,235,81],
+"df/d97/menu_2xonotic_2util_8qh.html":[2,0,4,4,227],
+"df/d97/menu_2xonotic_2util_8qh.html#a09b33bcb8fe677a37c8ec7566542c398":[2,0,4,4,227,1],
 "df/d97/menu_2xonotic_2util_8qh.html#a0ecc182d931f638095b163ce20b85b86":[2,0,4,4,227,18],
 "df/d97/menu_2xonotic_2util_8qh.html#a26806fad571ec451328ac79c060cd921":[2,0,4,4,227,29],
 "df/d97/menu_2xonotic_2util_8qh.html#a2683d47bdd4a902cb60ec09f5ba3e67f":[2,0,4,4,227,24],
@@ -102,8 +108,8 @@ var NAVTREEINDEX119 =
 "df/d9b/menu_2xonotic_2util_8qc.html#acd3accc18b1eb532a2ac7cdc24a3510a":[2,0,4,4,226,40],
 "df/d9b/menu_2xonotic_2util_8qc.html#acec3f9953edac61d0ea8bb0c013539cc":[2,0,4,4,226,63],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad1f36d07e4a66476224966394f1e24e5":[2,0,4,4,226,44],
-"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,4,4,226,1],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,4,4,226,0],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,4,4,226,1],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad481dfa3a9518c9669a0fcc1da77758f":[2,0,4,4,226,8],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556":[2,0,4,4,226,4],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad87ced1edd45c581dd684b4054fd8ea5":[2,0,4,4,226,73],
@@ -243,11 +249,5 @@ var NAVTREEINDEX119 =
 "df/dae/player_8qh.html#ae21534eb0b8aa3bacce3e0d1e76a986e":[2,0,1,11,7,43],
 "df/dae/player_8qh.html#ae267860546058b8f3dc7e95f3cf6e791":[2,0,1,11,7,1],
 "df/dae/player_8qh.html#ae354b8220687fcb9808a96dc1b185822":[2,0,1,11,7,67],
-"df/dae/player_8qh.html#ae70419df87245d159bf96515d7d3e0b1":[2,0,1,11,7,28],
-"df/dae/player_8qh.html#ae7929895af2724afbb55320e5f7318e3":[2,0,1,11,7,24],
-"df/dae/player_8qh.html#ae88c84b8d5e646ae3578cc249fc3498c":[2,0,1,11,7,44],
-"df/dae/player_8qh.html#aea182bf63f444cfd93df2b6a193525e7":[2,0,1,11,7,76],
-"df/dae/player_8qh.html#aeb860272089ca58c254feaccffc494c8":[2,0,1,11,7,75],
-"df/dae/player_8qh.html#aed0b6f31bf189a7857e2f751249fc7a3":[2,0,1,11,7,16],
-"df/dae/player_8qh.html#aef86542f9909f794e073794b9dab3af7":[2,0,1,11,7,29]
+"df/dae/player_8qh.html#ae70419df87245d159bf96515d7d3e0b1":[2,0,1,11,7,28]
 };

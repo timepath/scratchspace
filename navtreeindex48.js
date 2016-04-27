@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"d6/d1a/classMainWindow.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,61,52],
 "d6/d1a/classMainWindow.html#a4869983b8dc750584479ade5447c8413":[1,0,61,10],
 "d6/d1a/classMainWindow.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,61,15],
 "d6/d1a/classMainWindow.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,61,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "d6/d29/anticheat_8qc.html#afe42434a2bf9329e45ce2740e0d56d98":[2,0,5,8,37],
 "d6/d29/anticheat_8qc_source.html":[2,0,5,8],
 "d6/d2a/common_2mutators_2mutator_2weaponarena__random_2__mod_8inc.html":[2,0,1,9,0,32,0],
-"d6/d2a/common_2mutators_2mutator_2weaponarena__random_2__mod_8inc_source.html":[2,0,1,9,0,32,0],
-"d6/d2f/func_2include_8qh.html":[2,0,1,13,0,13]
+"d6/d2a/common_2mutators_2mutator_2weaponarena__random_2__mod_8inc_source.html":[2,0,1,9,0,32,0]
 };

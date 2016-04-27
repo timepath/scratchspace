@@ -1,5 +1,8 @@
 var NAVTREEINDEX91 =
 {
+"db/da0/log_8qh_source.html":[2,0,3,26],
+"db/da4/common_2mutators_2mutator_2hook_2__mod_8qh.html":[2,0,1,9,0,9,1],
+"db/da4/common_2mutators_2mutator_2hook_2__mod_8qh_source.html":[2,0,1,9,0,9,1],
 "db/da8/common_2gamemodes_2gamemode_2onslaught_2__mod_8inc.html":[2,0,1,3,0,1,0],
 "db/da8/common_2gamemodes_2gamemode_2onslaught_2__mod_8inc_source.html":[2,0,1,3,0,1,0],
 "db/dab/client_2hud_2__mod_8inc.html":[2,0,0,1,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX91 =
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a29fce91054e603d3a6fb075e2e56d4eb":[1,0,170,61],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,170,18],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a2c8b11601da6d37181c74174d9d36782":[1,0,170,83],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,170,8],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,170,11],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,170,51],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,170,19]
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,170,8]
 };

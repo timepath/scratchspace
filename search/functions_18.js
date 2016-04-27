@@ -72,6 +72,7 @@ var searchData=
   ['xonoticcvarlist_5fconfigurexonoticcvarlist',['XonoticCvarList_configureXonoticCvarList',['../dc/d56/cvarlist_8qc.html#a60d76081c4d98a35b10d52fe2b0251cd',1,'cvarlist.qc']]],
   ['xonoticcvarlist_5fdestroy',['XonoticCvarList_destroy',['../dc/d56/cvarlist_8qc.html#ad1e3f4ef6db904611e2e405f22040646',1,'cvarlist.qc']]],
   ['xonoticcvarlist_5fdrawlistboxitem',['XonoticCvarList_drawListBoxItem',['../dc/d56/cvarlist_8qc.html#a03af6344dc0fada817213f1c27aa4413',1,'cvarlist.qc']]],
+  ['xonoticcvarlist_5fhidenotify',['XonoticCvarList_hideNotify',['../dc/d56/cvarlist_8qc.html#ae49bf6a638d904a9be842d2af8f18c0f',1,'cvarlist.qc']]],
   ['xonoticcvarlist_5fkeydown',['XonoticCvarList_keyDown',['../dc/d56/cvarlist_8qc.html#abb7ffab6e659dcb1601669e75e2a15d3',1,'cvarlist.qc']]],
   ['xonoticcvarlist_5fmouserelease',['XonoticCvarList_mouseRelease',['../dc/d56/cvarlist_8qc.html#a2dc6da21a409c3894feef366fa460eb2',1,'cvarlist.qc']]],
   ['xonoticcvarlist_5fresizenotify',['XonoticCvarList_resizeNotify',['../dc/d56/cvarlist_8qc.html#adb640b53207e5cca8d01d176859fc151',1,'cvarlist.qc']]],

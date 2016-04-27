@@ -1,5 +1,6 @@
 var NAVTREEINDEX49 =
 {
+"d6/d2f/func_2include_8qh.html":[2,0,1,13,0,13],
 "d6/d2f/func_2include_8qh.html#a708af24f45ecc5500aec231c02d1dbf0":[2,0,1,13,0,13,0],
 "d6/d2f/func_2include_8qh_source.html":[2,0,1,13,0,13],
 "d6/d30/dialog__teamselect_8qc.html":[2,0,4,4,160],
@@ -248,6 +249,5 @@ var NAVTREEINDEX49 =
 "d6/d77/colorbutton_8qc.html#a44c5431ffbf4069165b70051f0dc38b9":[2,0,4,4,18,5],
 "d6/d77/colorbutton_8qc.html#aacaf8a34627af55c71fcfbc3534dbc10":[2,0,4,4,18,1],
 "d6/d77/colorbutton_8qc.html#ab7202b7221a20a9f9aef7d8ab00ee647":[2,0,4,4,18,2],
-"d6/d77/colorbutton_8qc.html#af5e884f627dc84410da32327332d7749":[2,0,4,4,18,3],
-"d6/d77/colorbutton_8qc.html#afbfe01b1f8f6bcfb70431bcdfb4c2992":[2,0,4,4,18,4]
+"d6/d77/colorbutton_8qc.html#af5e884f627dc84410da32327332d7749":[2,0,4,4,18,3]
 };
