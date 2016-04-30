@@ -1518,17 +1518,14 @@ $(document).ready(function(){initNavTree('dc/dc6/server_2miscfunctions_8qc_sourc
 <div class="line"><a name="l01415"></a><span class="lineno"> 1415</span>&#160;    {</div>
 <div class="line"><a name="l01416"></a><span class="lineno"> 1416</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;body&quot;</span>:</div>
 <div class="line"><a name="l01417"></a><span class="lineno"> 1417</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;droppedweapon&quot;</span>:</div>
-<div class="line"><a name="l01418"></a><span class="lineno"> 1418</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;keepawayball&quot;</span>:</div>
-<div class="line"><a name="l01419"></a><span class="lineno"> 1419</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;nexball_basketball&quot;</span>:</div>
-<div class="line"><a name="l01420"></a><span class="lineno"> 1420</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;nexball_football&quot;</span>:</div>
-<div class="line"><a name="l01421"></a><span class="lineno"> 1421</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01422"></a><span class="lineno"> 1422</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;bullet&quot;</span>: <span class="comment">// antilagged bullets can&#39;t hit this either</span></div>
-<div class="line"><a name="l01423"></a><span class="lineno"> 1423</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01424"></a><span class="lineno"> 1424</span>&#160;    }</div>
-<div class="line"><a name="l01425"></a><span class="lineno"> 1425</span>&#160;    <span class="keywordflow">if</span> (e.projectiledeathtype)</div>
-<div class="line"><a name="l01426"></a><span class="lineno"> 1426</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01427"></a><span class="lineno"> 1427</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01428"></a><span class="lineno"> 1428</span>&#160;}</div>
+<div class="line"><a name="l01418"></a><span class="lineno"> 1418</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01419"></a><span class="lineno"> 1419</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;bullet&quot;</span>: <span class="comment">// antilagged bullets can&#39;t hit this either</span></div>
+<div class="line"><a name="l01420"></a><span class="lineno"> 1420</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01421"></a><span class="lineno"> 1421</span>&#160;    }</div>
+<div class="line"><a name="l01422"></a><span class="lineno"> 1422</span>&#160;    <span class="keywordflow">if</span> (e.projectiledeathtype)</div>
+<div class="line"><a name="l01423"></a><span class="lineno"> 1423</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01424"></a><span class="lineno"> 1424</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01425"></a><span class="lineno"> 1425</span>&#160;}</div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_a6f15ae777c8a50be8876911f3462b901"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a6f15ae777c8a50be8876911f3462b901">EliminatedPlayers_SendEntity</a></div><div class="ttdeci">bool EliminatedPlayers_SendEntity(entity this, entity to, float sendflags)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00926">miscfunctions.qc:926</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a5c10211fe0abd23e1e51067696817e5d"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a5c10211fe0abd23e1e51067696817e5d">autocvar_sv_precacheplayermodels</a></div><div class="ttdeci">bool autocvar_sv_precacheplayermodels</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00372">autocvars.qh:372</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_a4f8083ae3346548341bdfba50df1cfbf"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a4f8083ae3346548341bdfba50df1cfbf">GetCvars_handleString_Fixup</a></div><div class="ttdeci">void GetCvars_handleString_Fixup(string thisname, float f,.string field, string name, string(string) func)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00317">miscfunctions.qc:317</a></div></div>
@@ -1860,7 +1857,7 @@ $(document).ready(function(){initNavTree('dc/dc6/server_2miscfunctions_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/dc6/server_2miscfunctions_8qc.html">miscfunctions.qc</a></li>
-    <li class="footer">Generated on Sat Apr 30 2016 10:09:46 for Xonotic by
+    <li class="footer">Generated on Sat Apr 30 2016 11:06:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

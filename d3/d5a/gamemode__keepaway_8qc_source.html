@@ -582,30 +582,31 @@ $(document).ready(function(){initNavTree('d3/d5a/gamemode__keepaway_8qc_source.h
 <div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    e.glow_color = autocvar_g_keepawayball_trail_color;</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;    e.glow_trail = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    e.flags = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a06604aa8501b047dd6e84f7f9d176089">FL_ITEM</a>;</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    e.reset = ka_Reset;</div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    e.touch = ka_TouchEvent;</div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;    e.owner = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
-<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;    <a class="code" href="../../d3/d5a/gamemode__keepaway_8qc.html#a0f1d6257e47a660392dd82dfbe915f3e">ka_ball</a> = e;</div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;</div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(e, ka_RespawnBall, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a1913b30a5207c8d416130a6ecdaf9058">INITPRIO_SETLOCATION</a>); <span class="comment">// is this the right priority? Neh, I have no idea.. Well-- it works! So.</span></div>
-<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;}</div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;</div>
-<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;<span class="keywordtype">void</span> ka_ScoreRules()</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;{</div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a8834399775b54e52ae0297a80013a636">ScoreRules_basics</a>(0, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>, 0, <span class="keyword">true</span>); <span class="comment">// SFL_SORT_PRIO_PRIMARY</span></div>
-<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d">ScoreInfo_SetLabel_PlayerScore</a>(<a class="code" href="../../d3/d5a/gamemode__keepaway_8qc.html#a6d0b12854de2dce60bd9abb48c7bd498">SP_KEEPAWAY_PICKUPS</a>,         <span class="stringliteral">&quot;pickups&quot;</span>,      0);</div>
-<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d">ScoreInfo_SetLabel_PlayerScore</a>(<a class="code" href="../../d3/d5a/gamemode__keepaway_8qc.html#a5eb05b33a66cfeab738464a8c75855f7">SP_KEEPAWAY_CARRIERKILLS</a>,    <span class="stringliteral">&quot;bckills&quot;</span>,      0);</div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d">ScoreInfo_SetLabel_PlayerScore</a>(<a class="code" href="../../d3/d5a/gamemode__keepaway_8qc.html#ab4a3e5e50cf9e07b1f48b72b95f263f3">SP_KEEPAWAY_BCTIME</a>,          <span class="stringliteral">&quot;bctime&quot;</span>,       <a class="code" href="../../d0/d8b/common_2constants_8qh.html#acf557e93b6854298dcf5b6602fb6ffed">SFL_SORT_PRIO_SECONDARY</a>);</div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05">ScoreRules_basics_end</a>();</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;}</div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;</div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d5a/gamemode__keepaway_8qc.html#ad066a4c24559d830eee8b0e63c5e5d0e">ka_Initialize</a>() <span class="comment">// run at the start of a match, initiates game mode</span></div>
-<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;{</div>
-<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;    ka_ScoreRules();</div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    ka_SpawnBall();</div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;}</div>
-<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    e.pushable = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;    e.reset = ka_Reset;</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;    e.touch = ka_TouchEvent;</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;    e.owner = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;    <a class="code" href="../../d3/d5a/gamemode__keepaway_8qc.html#a0f1d6257e47a660392dd82dfbe915f3e">ka_ball</a> = e;</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(e, ka_RespawnBall, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a1913b30a5207c8d416130a6ecdaf9058">INITPRIO_SETLOCATION</a>); <span class="comment">// is this the right priority? Neh, I have no idea.. Well-- it works! So.</span></div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;}</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;<span class="keywordtype">void</span> ka_ScoreRules()</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;{</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a8834399775b54e52ae0297a80013a636">ScoreRules_basics</a>(0, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>, 0, <span class="keyword">true</span>); <span class="comment">// SFL_SORT_PRIO_PRIMARY</span></div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d">ScoreInfo_SetLabel_PlayerScore</a>(<a class="code" href="../../d3/d5a/gamemode__keepaway_8qc.html#a6d0b12854de2dce60bd9abb48c7bd498">SP_KEEPAWAY_PICKUPS</a>,         <span class="stringliteral">&quot;pickups&quot;</span>,      0);</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d">ScoreInfo_SetLabel_PlayerScore</a>(<a class="code" href="../../d3/d5a/gamemode__keepaway_8qc.html#a5eb05b33a66cfeab738464a8c75855f7">SP_KEEPAWAY_CARRIERKILLS</a>,    <span class="stringliteral">&quot;bckills&quot;</span>,      0);</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d">ScoreInfo_SetLabel_PlayerScore</a>(<a class="code" href="../../d3/d5a/gamemode__keepaway_8qc.html#ab4a3e5e50cf9e07b1f48b72b95f263f3">SP_KEEPAWAY_BCTIME</a>,          <span class="stringliteral">&quot;bctime&quot;</span>,       <a class="code" href="../../d0/d8b/common_2constants_8qh.html#acf557e93b6854298dcf5b6602fb6ffed">SFL_SORT_PRIO_SECONDARY</a>);</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05">ScoreRules_basics_end</a>();</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;}</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d5a/gamemode__keepaway_8qc.html#ad066a4c24559d830eee8b0e63c5e5d0e">ka_Initialize</a>() <span class="comment">// run at the start of a match, initiates game mode</span></div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;{</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    ka_ScoreRules();</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    ka_SpawnBall();</div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;}</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_ad2b893560aa07db2329d6531c0966e79"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ad2b893560aa07db2329d6531c0966e79">EF_NODRAW</a></div><div class="ttdeci">const int EF_NODRAW</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00061">csqc_constants.qh:61</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a87a61c6894ded1456e2e4fee955bf7b1"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a></div><div class="ttdeci">float MOVETYPE_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00246">progsdefs.qc:246</a></div></div>
@@ -706,7 +707,7 @@ $(document).ready(function(){initNavTree('d3/d5a/gamemode__keepaway_8qc_source.h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../d3/d5a/gamemode__keepaway_8qc.html">gamemode_keepaway.qc</a></li>
-    <li class="footer">Generated on Sat Apr 30 2016 10:09:50 for Xonotic by
+    <li class="footer">Generated on Sat Apr 30 2016 11:06:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
