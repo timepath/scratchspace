@@ -1,5 +1,6 @@
 var NAVTREEINDEX17 =
 {
+"d2/db8/gametypelist_8qc.html#a6e40fa703f86c8349adb82ee9ae53e68":[2,0,4,4,162,3],
 "d2/db8/gametypelist_8qc.html#a8b891b21987cc1fa3f3f74d0176d8c0f":[2,0,4,4,162,7],
 "d2/db8/gametypelist_8qc.html#a8e583009e876f1bb367cfeda20a38c6c":[2,0,4,4,162,8],
 "d2/db8/gametypelist_8qc.html#a90062e2b5db68e82263113196f1b9486":[2,0,4,4,162,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX17 =
 "d2/dd3/classPortoLaunch.html#ad033f23932f202bddd926ed5b366336c":[1,0,84,27],
 "d2/dd3/classPortoLaunch.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,84,1],
 "d2/dd3/classPortoLaunch.html#adb73d82250fe15abe2523c75b51ed499":[1,0,84,31],
-"d2/dd3/classPortoLaunch.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,84,20],
-"d2/dd3/classPortoLaunch.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,84,22]
+"d2/dd3/classPortoLaunch.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,84,20]
 };

@@ -79,7 +79,7 @@ var searchData=
   ['checkplayermodel',['CheckPlayerModel',['../da/d53/cl__client_8qc.html#a81497331b22f9248fec442b8f1889f6c',1,'cl_client.qc']]],
   ['checkpoint_5fpassed',['checkpoint_passed',['../d6/d3b/race_8qc.html#a9fde3e6d09915a98f33d67aed4235692',1,'race.qc']]],
   ['checkpoint_5ftouch',['checkpoint_touch',['../d6/d3b/race_8qc.html#ac809ddb29c364ac0d3c649a2837d855f',1,'race.qc']]],
-  ['checkpoint_5fuse',['checkpoint_use',['../d6/d3b/race_8qc.html#abd5c3d65d6e5a1541b75db05744bf44a',1,'race.qc']]],
+  ['checkpoint_5fuse',['checkpoint_use',['../d6/d3b/race_8qc.html#a8b0b69d2df015a448c6049b2c9f21acd',1,'race.qc']]],
   ['checkpvs',['checkpvs',['../d4/d0c/csprogsdefs_8qc.html#a94c5b969ccc333b040b402d69d3338a2',1,'checkpvs(vector viewpos, entity viewee):&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#a94c5b969ccc333b040b402d69d3338a2',1,'checkpvs(vector viewpos, entity viewee):&#160;dpextensions.qc']]],
   ['checkrules_5fplayer',['CheckRules_Player',['../db/dcc/g__world_8qc.html#a05f62f47723bebb94defc8b8d730b25f',1,'CheckRules_Player():&#160;g_world.qc'],['../d7/d97/g__world_8qh.html#a05f62f47723bebb94defc8b8d730b25f',1,'CheckRules_Player():&#160;g_world.qc']]],
   ['checkrules_5fworld',['CheckRules_World',['../db/dcc/g__world_8qc.html#a233af455133bc7ba4e3e100115bf2885',1,'CheckRules_World():&#160;g_world.qc'],['../d7/d97/g__world_8qh.html#a233af455133bc7ba4e3e100115bf2885',1,'CheckRules_World():&#160;g_world.qc']]],

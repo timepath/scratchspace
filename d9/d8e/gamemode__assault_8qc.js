@@ -4,7 +4,7 @@ var gamemode__assault_8qc =
     [ "ActivateTeamplay", "d9/d8e/gamemode__assault_8qc.html#ae1c3e008f1694a4a8d288f0708893574", null ],
     [ "assault_ScoreRules", "d9/d8e/gamemode__assault_8qc.html#af9ce8a13c37efdd85ac68f7b16bd7ac9", null ],
     [ "REGISTER_MUTATOR", "d9/d8e/gamemode__assault_8qc.html#a5753f4b0d3f0961028891e42b2d2f2ee", null ],
-    [ "target_objective_decrease_activate", "d9/d8e/gamemode__assault_8qc.html#a1dbb846cf1264ed8481a76332eb41fba", null ],
+    [ "target_objective_decrease_activate", "d9/d8e/gamemode__assault_8qc.html#aae75592036bbad8155a2c2b1f82aa17c", null ],
     [ "void", "d9/d8e/gamemode__assault_8qc.html#aeec709ac24ea54914787f032f0bedc54", null ],
     [ "void", "d9/d8e/gamemode__assault_8qc.html#ae3a79e8bfe6edb7284009e4102637da4", null ],
     [ "assault_decreaser", "d9/d8e/gamemode__assault_8qc.html#a0494762bdff1811919ef03e61c894e3e", null ],

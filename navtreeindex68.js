@@ -1,6 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"d8/d76/xonotic_2checkbox_8qh_source.html":[2,0,4,4,13],
 "d8/d7e/common_2deathtypes_2all_8qc.html":[2,0,1,1,3],
 "d8/d7e/common_2deathtypes_2all_8qc.html#ab228bbc4e90e596f0f88f2556ee96c59":[2,0,1,1,3,0],
 "d8/d7e/common_2deathtypes_2all_8qc_source.html":[2,0,1,1,3],
@@ -8,8 +7,8 @@ var NAVTREEINDEX68 =
 "d8/d86/command_8qc.html#a8011943c633419e1e39634df6e77b6d0":[2,0,3,1,2,0],
 "d8/d86/command_8qc_source.html":[2,0,3,1,2],
 "d8/d88/keylock_8qc.html":[2,0,1,13,3,16],
+"d8/d88/keylock_8qc.html#a1f7801877acc75d67d14be456bf88ac8":[2,0,1,13,3,16,2],
 "d8/d88/keylock_8qc.html#a3fcf420b4f23b0f97ed24aea309d5d73":[2,0,1,13,3,16,1],
-"d8/d88/keylock_8qc.html#a95a12e76f1f829ae8492ff79ba0fa5b8":[2,0,1,13,3,16,2],
 "d8/d88/keylock_8qc.html#aedab72402ed81e3b45d4e61d16ceb2fe":[2,0,1,13,3,16,0],
 "d8/d88/keylock_8qc_source.html":[2,0,1,13,3,16],
 "d8/d89/gamemode__freezetag_8qh.html":[2,0,5,2,0,15],
@@ -249,5 +248,6 @@ var NAVTREEINDEX68 =
 "d8/da6/interpolate_8qh.html#a20faa367e0199c3321dae4b3a8a9e265":[2,0,3,0,8,10],
 "d8/da6/interpolate_8qh.html#a262c34c2f395aba2418eea212c645708":[2,0,3,0,8,0],
 "d8/da6/interpolate_8qh.html#a2853daa5f3757edf33a7f0498ae6c62a":[2,0,3,0,8,13],
-"d8/da6/interpolate_8qh.html#a3780573ed7bdd32ade50ed6f1636b0fe":[2,0,3,0,8,12]
+"d8/da6/interpolate_8qh.html#a3780573ed7bdd32ade50ed6f1636b0fe":[2,0,3,0,8,12],
+"d8/da6/interpolate_8qh.html#a5730a5d99021203efb546d3b48f7b293":[2,0,3,0,8,17]
 };

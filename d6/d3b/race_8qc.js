@@ -2,10 +2,10 @@ var race_8qc =
 [
     [ "checkpoint_passed", "d6/d3b/race_8qc.html#a9fde3e6d09915a98f33d67aed4235692", null ],
     [ "checkpoint_touch", "d6/d3b/race_8qc.html#ac809ddb29c364ac0d3c649a2837d855f", null ],
-    [ "checkpoint_use", "d6/d3b/race_8qc.html#abd5c3d65d6e5a1541b75db05744bf44a", null ],
+    [ "checkpoint_use", "d6/d3b/race_8qc.html#a8b0b69d2df015a448c6049b2c9f21acd", null ],
     [ "dumpsurface", "d6/d3b/race_8qc.html#a1a63a0ea8f06ab407823765692190a81", null ],
     [ "penalty_touch", "d6/d3b/race_8qc.html#a22b7ddd7b4bdd3729ed95325e28c500e", null ],
-    [ "penalty_use", "d6/d3b/race_8qc.html#a9b6b84dd4d64d2e7f73a34cde1ae4cdf", null ],
+    [ "penalty_use", "d6/d3b/race_8qc.html#ae0d09d4e517c88ca30552c90e3068557", null ],
     [ "race_AbandonRaceCheck", "d6/d3b/race_8qc.html#ae0c5dbe57d8a837df10255bee683ff10", null ],
     [ "race_CheckpointNetworkID", "d6/d3b/race_8qc.html#a07f5a365308af71c65a9e965564932f4", null ],
     [ "race_ClearRecords", "d6/d3b/race_8qc.html#a30ba6f7a919548646ddd721463696855", null ],

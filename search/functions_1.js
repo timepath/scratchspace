@@ -17,7 +17,7 @@ var searchData=
   ['activate_5fminigame',['activate_minigame',['../d4/db7/cl__minigames_8qc.html#ae5303360f75a64ebe22c3e175f26dc50',1,'cl_minigames.qc']]],
   ['activateteamplay',['ActivateTeamplay',['../d9/d8e/gamemode__assault_8qc.html#ae1c3e008f1694a4a8d288f0708893574',1,'ActivateTeamplay():&#160;teamplay.qc'],['../de/d4f/teamplay_8qc.html#ae1c3e008f1694a4a8d288f0708893574',1,'ActivateTeamplay():&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#ae1c3e008f1694a4a8d288f0708893574',1,'ActivateTeamplay():&#160;teamplay.qc']]],
   ['adaptor_5fthink2touch',['adaptor_think2touch',['../dc/dc6/server_2miscfunctions_8qc.html#ad2449ed79aedd33f647275e8fd234e47',1,'miscfunctions.qc']]],
-  ['adaptor_5fthink2use',['adaptor_think2use',['../dc/dc6/server_2miscfunctions_8qc.html#ad716ff091b01df5d9aa67eaa4919bdaa',1,'miscfunctions.qc']]],
+  ['adaptor_5fthink2use',['adaptor_think2use',['../dc/dc6/server_2miscfunctions_8qc.html#ad716ff091b01df5d9aa67eaa4919bdaa',1,'adaptor_think2use():&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#ad716ff091b01df5d9aa67eaa4919bdaa',1,'adaptor_think2use():&#160;miscfunctions.qc']]],
   ['adaptor_5fthink2use_5fhittype_5fsplash',['adaptor_think2use_hittype_splash',['../dc/dc6/server_2miscfunctions_8qc.html#a44292599c2a4ed17431195febceac264',1,'miscfunctions.qc']]],
   ['addanim',['addAnim',['../d3/d78/classAnimHost.html#a17baecdbb5c3793fd271a3b76dc02716',1,'AnimHost::addAnim()'],['../db/d38/classKeyframe.html#acdefa7983d3b67e1aee6c16bd588005e',1,'Keyframe::addAnim()']]],
   ['addeasing',['addEasing',['../db/d38/classKeyframe.html#a43f954bd5677db19a1f89358532ef25b',1,'Keyframe']]],

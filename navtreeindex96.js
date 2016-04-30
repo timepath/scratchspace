@@ -1,5 +1,8 @@
 var NAVTREEINDEX96 =
 {
+"dc/d2a/classPlasmaTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,81,6],
+"dc/d2a/classPlasmaTurret.html#ac60e41739d60d225213f6da8320f0954":[1,0,81,11],
+"dc/d2a/classPlasmaTurret.html#acae508140eb87cd8965be4f7d403ca9c":[1,0,81,16],
 "dc/d2a/classPlasmaTurret.html#adc057e0b6c7a4c6e32841a6f7df6c73b":[1,0,81,10],
 "dc/d2a/classPlasmaTurret.html#adee1af35949f436445983050dfa64fae":[1,0,81,13],
 "dc/d2a/classPlasmaTurret.html#ae2073a68a6508e17223d0106d572efac":[1,0,81,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX96 =
 "dc/d44/classXonoticScreenshotList.html#a2188ecd49040da1f5cb826f6dd52e8c3":[1,0,212,28],
 "dc/d44/classXonoticScreenshotList.html#a22d656fff2091e8240da8a48d9880ca4":[1,0,212,38],
 "dc/d44/classXonoticScreenshotList.html#a230ddb1a3db4e3db29b3c2e1590dd22e":[1,0,212,90],
-"dc/d44/classXonoticScreenshotList.html#a235355aace741c77462c66d35b2c5e2a":[1,0,212,0],
-"dc/d44/classXonoticScreenshotList.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,212,93],
-"dc/d44/classXonoticScreenshotList.html#a2542f335f4f03d5b51188c09327500a3":[1,0,212,55],
-"dc/d44/classXonoticScreenshotList.html#a2755f95765e88fabae05d2bf0b3bfb0b":[1,0,212,8]
+"dc/d44/classXonoticScreenshotList.html#a235355aace741c77462c66d35b2c5e2a":[1,0,212,0]
 };

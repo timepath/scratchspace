@@ -7,5 +7,7 @@ var progsdefs_8qh =
     [ "spawn", "d8/dc0/progsdefs_8qh.html#ac5decd6a5d0583f4fd91499fc239da65", null ],
     [ "stuffcmd", "d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c", null ],
     [ "true", "d8/dc0/progsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7", null ],
-    [ "TRUE", "d8/dc0/progsdefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d", null ]
+    [ "TRUE", "d8/dc0/progsdefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d", null ],
+    [ "use", "d8/dc0/progsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c", null ],
+    [ "void", "d8/dc0/progsdefs_8qh.html#ad02dc23b282606a7fe0a74a2f224d1ef", null ]
 ];

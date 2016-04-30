@@ -171,8 +171,8 @@ Functions</h2></td></tr>
 <tr class="separator:ae47757443ac52584f873fc96e53c756c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9653a886a67263d567fdfd0769189243"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d41/spawnpoints_8qc.html#a9653a886a67263d567fdfd0769189243">spawnpoint_think</a> ()</td></tr>
 <tr class="separator:a9653a886a67263d567fdfd0769189243"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1677a3b258ec3923749405581a961772"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d41/spawnpoints_8qc.html#a1677a3b258ec3923749405581a961772">spawnpoint_use</a> ()</td></tr>
-<tr class="separator:a1677a3b258ec3923749405581a961772"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a7af8ac3ec4cc48b002997881b2a491"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d41/spawnpoints_8qc.html#a2a7af8ac3ec4cc48b002997881b2a491">spawnpoint_use</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> this, <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> actor, <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> trigger)</td></tr>
+<tr class="separator:a2a7af8ac3ec4cc48b002997881b2a491"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -230,7 +230,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;        }</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    }</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keyword">self</span>.use = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#a1677a3b258ec3923749405581a961772">spawnpoint_use</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keyword">self</span>.use = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#a2a7af8ac3ec4cc48b002997881b2a491">spawnpoint_use</a>;</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keyword">self</span>.think = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#a9653a886a67263d567fdfd0769189243">spawnpoint_think</a>;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keyword">self</span>.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.5 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2; <span class="comment">// shouldn&#39;t need it for a little second</span></div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keyword">self</span>.team_saved = <span class="keyword">self</span>.team;</div>
@@ -285,12 +285,12 @@ Variables</h2></td></tr>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="common_2constants_8qh_html_ae735c3b4d1ab1d9ef277732a76b77579"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a></div><div class="ttdeci">const vector PL_MAX_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00220">constants.qh:220</a></div></div>
-<div class="ttc" id="spawnpoints_8qc_html_a1677a3b258ec3923749405581a961772"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a1677a3b258ec3923749405581a961772">spawnpoint_use</a></div><div class="ttdeci">void spawnpoint_use()</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00061">spawnpoints.qc:61</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="sys-pre_8qh_html_a1a131a8f1813cd654a56e745f531fff1"><div class="ttname"><a href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a></div><div class="ttdeci">#define objerror</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/sys-pre_8qh_source.html#l00003">sys-pre.qh:3</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a3973fdf525463133ef775c885b63b989"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a3973fdf525463133ef775c885b63b989">SOLID_TRIGGER</a></div><div class="ttdeci">const int SOLID_TRIGGER</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00127">csqc_constants.qh:127</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qh_html_ad79e0cb00b3240d020116c16914e8bb7"><div class="ttname"><a href="../../d7/d71/lib_2warpzone_2common_8qh.html#ad79e0cb00b3240d020116c16914e8bb7">move_out_of_solid</a></div><div class="ttdeci">#define move_out_of_solid(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00108">common.qh:108</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab0df318f2dece7f798ff4061cd67f9d2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a></div><div class="ttdeci">string vtos(vector v)</div></div>
+<div class="ttc" id="spawnpoints_8qc_html_a2a7af8ac3ec4cc48b002997881b2a491"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a2a7af8ac3ec4cc48b002997881b2a491">spawnpoint_use</a></div><div class="ttdeci">void spawnpoint_use(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00061">spawnpoints.qc:61</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_acee53e1c133799d16c8cc2975f415cbc"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#acee53e1c133799d16c8cc2975f415cbc">autocvar_r_showbboxes</a></div><div class="ttdeci">float autocvar_r_showbboxes</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00318">autocvars.qh:318</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00060">log.qh:60</a></div></div>
@@ -499,7 +499,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00281">Spawn_ScoreAll()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00334">SelectSpawnPoint()</a>, and <a class="el" href="../../d6/d3b/race_8qc_source.html#l00729">trigger_race_checkpoint_verify()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00334">SelectSpawnPoint()</a>, and <a class="el" href="../../d6/d3b/race_8qc_source.html#l00727">trigger_race_checkpoint_verify()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;{</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot, spotlist, spotlistend;</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;</div>
@@ -1223,45 +1223,61 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a1677a3b258ec3923749405581a961772"></a>
+<a class="anchor" id="a2a7af8ac3ec4cc48b002997881b2a491"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> spawnpoint_use </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td>
+          <td class="paramname"><em>actor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td>
+          <td class="paramname"><em>trigger</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00061">61</a> of file <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html">spawnpoints.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d2f/subs_8qh_source.html#l00058">activator</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00243">have_team_spawns</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00242">some_spawn_has_been_used</a>, and <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00031">teamplay</a>.</p>
+<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00243">have_team_spawns</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00242">some_spawn_has_been_used</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00027">team</a>, and <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00031">teamplay</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00072">relocate_spawnpoint()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;{</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a82bd246c33cb412dec913e65a81b461c">have_team_spawns</a> &gt; 0)</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    {</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <span class="keyword">self</span>.team = <a class="code" href="../../db/d2f/subs_8qh.html#a37bf0e76e343cc451be104ca1737759d">activator</a>.team;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> = actor.team;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#a547834c4ecd381167ed13dfac82a31ec">some_spawn_has_been_used</a> = 1;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    }</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="comment">//LOG_INFO(&quot;spawnpoint was used!\n&quot;);</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a547834c4ecd381167ed13dfac82a31ec"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a547834c4ecd381167ed13dfac82a31ec">some_spawn_has_been_used</a></div><div class="ttdeci">float some_spawn_has_been_used</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00242">defs.qh:242</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a82bd246c33cb412dec913e65a81b461c"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a82bd246c33cb412dec913e65a81b461c">have_team_spawns</a></div><div class="ttdeci">float have_team_spawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00243">defs.qh:243</a></div></div>
+<div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_acf8ea712d5467331fb750b33ab165013"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a></div><div class="ttdeci">float teamplay</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00031">progsdefs.qc:31</a></div></div>
-<div class="ttc" id="subs_8qh_html_a37bf0e76e343cc451be104ca1737759d"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a37bf0e76e343cc451be104ca1737759d">activator</a></div><div class="ttdeci">entity activator</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00058">subs.qh:58</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-20-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d41/spawnpoints_8qc_a1677a3b258ec3923749405581a961772_icgraph.svg" width="451" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d41/spawnpoints_8qc_a2a7af8ac3ec4cc48b002997881b2a491_icgraph.svg" width="451" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1291,7 +1307,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d0/d41/spawnpoints_8qc.html">spawnpoints.qc</a></li>
-    <li class="footer">Generated on Fri Apr 29 2016 07:06:36 for Xonotic by
+    <li class="footer">Generated on Sat Apr 30 2016 07:35:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

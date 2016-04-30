@@ -16,7 +16,6 @@ var searchData=
   ['accuracy_5ffired',['accuracy_fired',['../d3/d2d/accuracy_8qh.html#a12f4c0f276dc483c7bbbb70029f36f1f',1,'accuracy.qh']]],
   ['accuracy_5ffrags',['accuracy_frags',['../d3/d2d/accuracy_8qh.html#ad0d7ae100d4161d23d624d1f92a7df39',1,'accuracy.qh']]],
   ['accuracy_5fhit',['accuracy_hit',['../d3/d2d/accuracy_8qh.html#a10d839fea797730557e1c86b355c693b',1,'accuracy.qh']]],
-  ['activator',['activator',['../db/d2f/subs_8qh.html#a37bf0e76e343cc451be104ca1737759d',1,'subs.qh']]],
   ['active',['active',['../d5/d26/server_2defs_8qh.html#a460f6470e11584cd894c55c977224efb',1,'defs.qh']]],
   ['active_5factive',['ACTIVE_ACTIVE',['../d5/d26/server_2defs_8qh.html#abd9bbb26fc3db0656e3ea3e7a91d3ab1',1,'defs.qh']]],
   ['active_5fbusy',['ACTIVE_BUSY',['../d5/d26/server_2defs_8qh.html#a4ca004ec9f01992e067b0a07d5f72764',1,'defs.qh']]],

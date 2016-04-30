@@ -7,6 +7,7 @@ var searchData=
   ['unwords',['UNWORDS',['../dd/dee/functional_8qh.html#acaaf3c0e2d085489b0151ed380a476b7',1,'functional.qh']]],
   ['updateanim',['updateanim',['../d3/de0/anim_8qh.html#a91371dfd91834ffb784d34ea01f5e261',1,'anim.qh']]],
   ['upward_5fvelocity_5fclears_5fonground',['UPWARD_VELOCITY_CLEARS_ONGROUND',['../df/dae/player_8qh.html#a963bb51205295edf8b6f4adc0deecff9',1,'player.qh']]],
+  ['use',['use',['../da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c',1,'use():&#160;csprogsdefs.qh'],['../d8/dc0/progsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c',1,'use():&#160;progsdefs.qh']]],
   ['use_5fprandom',['USE_PRANDOM',['../db/d55/random_8qh.html#a5cb0f0f958b63b45824e7e2a0f783fc7',1,'random.qh']]],
   ['using',['USING',['../d4/dfb/lib_2__all_8inc.html#abe8eb52fc5e52351ecda2a477108abed',1,'_all.inc']]]
 ];

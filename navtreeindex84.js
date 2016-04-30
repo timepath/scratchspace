@@ -1,5 +1,7 @@
 var NAVTREEINDEX84 =
 {
+"da/dc1/classXonoticAudioSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,123,20],
+"da/dc1/classXonoticAudioSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,123,51],
 "da/dc1/classXonoticAudioSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,123,88],
 "da/dc1/classXonoticAudioSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,123,60],
 "da/dc1/classXonoticAudioSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,123,16],
@@ -75,8 +77,10 @@ var NAVTREEINDEX84 =
 "da/dde/csprogsdefs_8qh.html#ab531f8d426c12945172229a5f63f09b8":[2,0,2,1,0],
 "da/dde/csprogsdefs_8qh.html#ac5decd6a5d0583f4fd91499fc239da65":[2,0,2,1,6],
 "da/dde/csprogsdefs_8qh.html#ac8847014472662de37600e592b86ec1f":[2,0,2,1,4],
+"da/dde/csprogsdefs_8qh.html#ad02dc23b282606a7fe0a74a2f224d1ef":[2,0,2,1,16],
 "da/dde/csprogsdefs_8qh.html#ad1375a6b9575aee6d276789f76ed0074":[2,0,2,1,5],
 "da/dde/csprogsdefs_8qh.html#adaaef9f614f14b73503974ca9ecc4e4c":[2,0,2,1,11],
+"da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c":[2,0,2,1,15],
 "da/dde/csprogsdefs_8qh_source.html":[2,0,2,1],
 "da/ded/classSeeker.html":[1,0,95],
 "da/ded/classSeeker.html#a0b3794fed2b4d3aa28518570269fa99d":[1,0,95,28],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f":[2,0,3,35,5],
 "db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff":[2,0,3,35,22],
 "db/d0a/oo_8qh.html#a4d8e141e1e8e506c1776f2082858e1c5":[2,0,3,35,43],
-"db/d0a/oo_8qh.html#a50e8509df7e88435c3d75fb41eba495c":[2,0,3,35,39],
-"db/d0a/oo_8qh.html#a5e938649bc2ae6899e63c87b35dc388a":[2,0,3,35,9],
-"db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f":[2,0,3,35,14],
-"db/d0a/oo_8qh.html#a717c6662449f28aaf932733afbd02ebe":[2,0,3,35,3],
-"db/d0a/oo_8qh.html#a779314c109bce6e1bf0a26166c36c8f3":[2,0,3,35,44]
+"db/d0a/oo_8qh.html#a50e8509df7e88435c3d75fb41eba495c":[2,0,3,35,39]
 };

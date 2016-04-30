@@ -1,5 +1,9 @@
 var NAVTREEINDEX106 =
 {
+"dd/da3/classXonoticMusicPlayerTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,192,69],
+"dd/da3/classXonoticMusicPlayerTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,192,79],
+"dd/da3/classXonoticMusicPlayerTab.html#a0e07ac27f327cb1f6f39e619a3c46f8e":[1,0,192,49],
+"dd/da3/classXonoticMusicPlayerTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,192,76],
 "dd/da3/classXonoticMusicPlayerTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,192,37],
 "dd/da3/classXonoticMusicPlayerTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,192,15],
 "dd/da3/classXonoticMusicPlayerTab.html#a17bad9d112b85ece0d0689b233838245":[1,0,192,57],
@@ -180,7 +184,7 @@ var NAVTREEINDEX106 =
 "dd/daa/g__lights_8qc.html":[2,0,5,29],
 "dd/daa/g__lights_8qc.html#a18379ef749fb656f345ba3af58870510":[2,0,5,29,12],
 "dd/daa/g__lights_8qc.html#a3245de50f0e211ee9e80198aa50e100f":[2,0,5,29,8],
-"dd/daa/g__lights_8qc.html#a4085156d35588eef315bd1314d047876":[2,0,5,29,4],
+"dd/daa/g__lights_8qc.html#a44cc374a911b3a8c5583bd880a389e74":[2,0,5,29,4],
 "dd/daa/g__lights_8qc.html#a5e62ba16138c20eb7792585e72ff358c":[2,0,5,29,1],
 "dd/daa/g__lights_8qc.html#a6254fae2fc1404907cbca0885c096e89":[2,0,5,29,3],
 "dd/daa/g__lights_8qc.html#a74486a486528a0aa8c3e94223a69e12d":[2,0,5,29,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX106 =
 "dd/db3/classXonoticQuitDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,202,14],
 "dd/db3/classXonoticQuitDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,202,85],
 "dd/db3/classXonoticQuitDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,202,76],
-"dd/db3/classXonoticQuitDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,202,75],
-"dd/db3/classXonoticQuitDialog.html#a80127f430d0a900e43e8388449582075":[1,0,202,72],
-"dd/db3/classXonoticQuitDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,202,41],
-"dd/db3/classXonoticQuitDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,202,34],
-"dd/db3/classXonoticQuitDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,202,65]
+"dd/db3/classXonoticQuitDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,202,75]
 };

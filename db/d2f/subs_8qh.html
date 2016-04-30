@@ -136,8 +136,6 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a37bf0e76e343cc451be104ca1737759d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2f/subs_8qh.html#a37bf0e76e343cc451be104ca1737759d">activator</a></td></tr>
-<tr class="separator:a37bf0e76e343cc451be104ca1737759d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bd7359933bff3359b4e7e3c826e5259"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2f/subs_8qh.html#a6bd7359933bff3359b4e7e3c826e5259">curvetarget</a></td></tr>
 <tr class="separator:a6bd7359933bff3359b4e7e3c826e5259"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abdc33cf25e725134a9b48e79c7031bcf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d2f/subs_8qh.html#abdc33cf25e725134a9b48e79c7031bcf">delay</a></td></tr>
@@ -243,13 +241,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00068">68</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;{</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    ent.fade_rate = 1/fading_time;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    ent.SUB_THINK = <a class="code" href="../../d2/dc2/subs_8qc.html#a0266c131f6e1ab13c5763bd4f80ca487">SUB_SetFade_Think</a>;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    ent.SUB_NEXTTHINK = when;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;}</div>
-<div class="ttc" id="subs_8qc_html_a0266c131f6e1ab13c5763bd4f80ca487"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a0266c131f6e1ab13c5763bd4f80ca487">SUB_SetFade_Think</a></div><div class="ttdeci">void SUB_SetFade_Think()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00048">subs.qc:48</a></div></div>
+<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00067">67</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;{</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    ent.fade_rate = 1/fading_time;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    ent.SUB_THINK = <a class="code" href="../../d2/dc2/subs_8qc.html#a0266c131f6e1ab13c5763bd4f80ca487">SUB_SetFade_Think</a>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    ent.SUB_NEXTTHINK = when;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
+<div class="ttc" id="subs_8qc_html_a0266c131f6e1ab13c5763bd4f80ca487"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a0266c131f6e1ab13c5763bd4f80ca487">SUB_SetFade_Think</a></div><div class="ttdeci">void SUB_SetFade_Think()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00047">subs.qc:47</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -267,24 +265,24 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00029">29</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(ent))</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="comment">// vanish</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        ent.alpha = -1;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        ent.effects = 0;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor"></span>        ent.glow_size = 0;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        ent.pflags = 0;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor"></span>    }</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="comment">// remove</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keyword">remove</span> (ent);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00028">28</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(ent))</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="comment">// vanish</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        ent.alpha = -1;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        ent.effects = 0;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor"></span>        ent.glow_size = 0;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        ent.pflags = 0;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span>    }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="comment">// remove</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">remove</span> (ent);</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    }</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_a7c35bdb2911d33730cc474d14c383834"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a></div><div class="ttdeci">#define IS_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00013">_all.qh:13</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -305,22 +303,6 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a37bf0e76e343cc451be104ca1737759d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> activator</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00058">58</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
-
-<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00970">adaptor_think2use()</a>, <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00289">CheatCommand()</a>, <a class="el" href="../../d6/d3b/race_8qc_source.html#l00564">checkpoint_passed()</a>, <a class="el" href="../../d6/d3b/race_8qc_source.html#l00710">checkpoint_use()</a>, <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00005">DelayThink()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00431">door_trigger_touch()</a>, <a class="el" href="../../d2/d37/g__models_8qc_source.html#l00019">g_model_setcolormaptoactivator()</a>, <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00071">item_key_touch()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00934">Monster_Appear()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01043">Monster_Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00551">Monster_Use()</a>, <a class="el" href="../../d6/d3b/race_8qc_source.html#l01110">penalty_use()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00444">PutClientInServer()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00061">spawnpoint_use()</a>, <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00187">SUB_UseTargets()</a>, <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00014">Teleport_Touch()</a>, <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00034">trigger_keylock_touch()</a>, <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00004">trigger_keylock_trigger()</a>, <a class="el" href="../../d2/d9b/jumppads_8qc_source.html#l00132">trigger_push_touch()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00544">vehicle_use()</a>, and <a class="el" href="../../d7/d2b/server_8qc_source.html#l00193">WarpZone_Touch()</a>.</p>
-
-</div>
-</div>
 <a class="anchor" id="a6bd7359933bff3359b4e7e3c826e5259"></a>
 <div class="memitem">
 <div class="memproto">
@@ -331,7 +313,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00068">68</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00069">69</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 </div>
 </div>
@@ -345,9 +327,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00050">50</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00051">51</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00068">round_handler_Init()</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00006">round_handler_Think()</a>, <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00187">SUB_UseTargets()</a>, and <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00034">trigger_keylock_touch()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00068">round_handler_Init()</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00006">round_handler_Think()</a>, <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00186">SUB_UseTargets()</a>, and <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00021">trigger_keylock_touch()</a>.</p>
 
 </div>
 </div>
@@ -361,7 +343,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00078">78</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00079">79</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 </div>
 </div>
@@ -375,7 +357,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00078">78</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00079">79</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 </div>
 </div>
@@ -389,7 +371,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00047">47</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00048">48</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 </div>
 </div>
@@ -403,7 +385,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00048">48</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00049">49</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 </div>
 </div>
@@ -417,7 +399,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00042">42</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00043">43</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 </div>
 </div>
@@ -431,9 +413,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00042">42</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00043">43</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00083">SUB_CalcMoveDone()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00082">SUB_CalcMoveDone()</a>.</p>
 
 </div>
 </div>
@@ -447,9 +429,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00073">73</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00074">74</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00275">door_damage()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00444">PutClientInServer()</a>, <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00156">spawnfunc()</a>, and <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00034">trigger_keylock_touch()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00272">door_damage()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00444">PutClientInServer()</a>, <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00155">spawnfunc()</a>, and <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00021">trigger_keylock_touch()</a>.</p>
 
 </div>
 </div>
@@ -463,7 +445,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00076">76</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00077">77</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 </div>
 </div>
@@ -477,9 +459,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00060">60</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00061">61</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00187">SUB_UseTargets()</a>, and <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00034">trigger_keylock_touch()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00186">SUB_UseTargets()</a>, and <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00021">trigger_keylock_touch()</a>.</p>
 
 </div>
 </div>
@@ -493,9 +475,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00052">52</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00053">53</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00057">CheatsAllowed()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00858">ClientKill_TeamChange()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00054">CopyBody()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00209">door_fire()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00374">door_rotating_hit_bottom()</a>, <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00052">Ent_Wall_Draw()</a>, <a class="el" href="../../d2/d37/g__models_8qc_source.html#l00082">g_clientmodel_genericsendentity()</a>, and <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00117">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/de9/cheats_8qc_source.html#l00057">CheatsAllowed()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00856">ClientKill_TeamChange()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00054">CopyBody()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00209">door_fire()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00371">door_rotating_hit_bottom()</a>, <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00052">Ent_Wall_Draw()</a>, <a class="el" href="../../d2/d37/g__models_8qc_source.html#l00082">g_clientmodel_genericsendentity()</a>, and <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00117">NET_HANDLE()</a>.</p>
 
 </div>
 </div>
@@ -509,7 +491,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00063">63</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00064">64</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/de8/portals_8qc_source.html#l00455">Portal_Think()</a>, and <a class="el" href="../../de/de8/portals_8qc_source.html#l00252">Portal_Touch()</a>.</p>
 
@@ -525,7 +507,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00055">55</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00056">56</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 </div>
 </div>
@@ -539,9 +521,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00056">56</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00057">57</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00247">SUB_CalcMove()</a>, and <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00095">SUB_CalcMove_controller_think()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00246">SUB_CalcMove()</a>, and <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00094">SUB_CalcMove_controller_think()</a>.</p>
 
 </div>
 </div>
@@ -555,9 +537,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00056">56</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00057">57</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00247">SUB_CalcMove()</a>, and <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00095">SUB_CalcMove_controller_think()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00246">SUB_CalcMove()</a>, and <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00094">SUB_CalcMove_controller_think()</a>.</p>
 
 </div>
 </div>
@@ -571,9 +553,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00062">62</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00063">63</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00111">door_go_down()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00707">door_reset()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00386">door_rotating_go_down()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00521">Monster_Dead_Fade()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00556">Monster_Move_Target()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00955">Monster_Reset()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01301">Monster_Spawn()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00089">plat_go_up()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00189">plat_reset()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01160">vehicle_initialize()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01112">vehicles_spawn()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00111">door_go_down()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00701">door_reset()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00383">door_rotating_go_down()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00521">Monster_Dead_Fade()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00556">Monster_Move_Target()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00955">Monster_Reset()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01299">Monster_Spawn()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00089">plat_go_up()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00189">plat_reset()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01165">vehicle_initialize()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01117">vehicles_spawn()</a>.</p>
 
 </div>
 </div>
@@ -587,9 +569,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00062">62</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00063">63</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00125">door_go_up()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00696">door_init_startopen()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00400">door_rotating_go_up()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00521">Monster_Dead_Fade()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00955">Monster_Reset()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01301">Monster_Spawn()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00082">plat_go_down()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00189">plat_reset()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01160">vehicle_initialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00125">door_go_up()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00690">door_init_startopen()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00397">door_rotating_go_up()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00521">Monster_Dead_Fade()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00955">Monster_Reset()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01299">Monster_Spawn()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00082">plat_go_down()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00189">plat_reset()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01165">vehicle_initialize()</a>.</p>
 
 </div>
 </div>
@@ -603,7 +585,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00054">54</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00055">55</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 </div>
 </div>
@@ -617,9 +599,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00053">53</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00054">54</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l02226">CSQC_Demo_Camera()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00111">door_go_down()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00125">door_go_up()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00386">door_rotating_go_down()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00400">door_rotating_go_up()</a>, <a class="el" href="../../d3/d8a/physics_8qc_source.html#l00011">HUD_Physics()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01219">Monster_Think()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00082">plat_go_down()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00089">plat_go_up()</a>, and <a class="el" href="../../dc/ddd/player_8qc_source.html#l01302">PM_Main()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l02226">CSQC_Demo_Camera()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00111">door_go_down()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00125">door_go_up()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00383">door_rotating_go_down()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00397">door_rotating_go_up()</a>, <a class="el" href="../../d3/d8a/physics_8qc_source.html#l00011">HUD_Physics()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01217">Monster_Think()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00082">plat_go_down()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00089">plat_go_up()</a>, and <a class="el" href="../../dc/ddd/player_8qc_source.html#l01302">PM_Main()</a>.</p>
 
 </div>
 </div>
@@ -633,9 +615,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00044">44</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00045">45</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00028">door_blocked()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00209">door_fire()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00325">door_generic_plat_blocked()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00125">door_go_up()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00707">door_reset()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00400">door_rotating_go_up()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00283">HUD_Mod_KH()</a>, <a class="el" href="../../d9/d19/modalcontroller_8qc_source.html#l00054">ModalController_switchState()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00404">Monster_Attack_Leap()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00382">Monster_Attack_Leap_Check()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00361">Monster_Attack_Melee()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00989">Monster_Dead()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00698">Monster_Move()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00096">plat_center_touch()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00149">plat_crush()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00118">plat_outside_touch()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00189">plat_reset()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00179">plat_use()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00273">viewmodel_draw()</a>, and <a class="el" href="../../df/d64/throwing_8qc_source.html#l00168">W_ThrowWeapon()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00028">door_blocked()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00209">door_fire()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00322">door_generic_plat_blocked()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00125">door_go_up()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00701">door_reset()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00397">door_rotating_go_up()</a>, <a class="el" href="../../dd/d59/modicons_8qc_source.html#l00283">HUD_Mod_KH()</a>, <a class="el" href="../../d9/d19/modalcontroller_8qc_source.html#l00054">ModalController_switchState()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00404">Monster_Attack_Leap()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00382">Monster_Attack_Leap_Check()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00361">Monster_Attack_Melee()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00989">Monster_Dead()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00698">Monster_Move()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00096">plat_center_touch()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00149">plat_crush()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00118">plat_outside_touch()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00189">plat_reset()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00179">plat_use()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00273">viewmodel_draw()</a>, and <a class="el" href="../../df/d64/throwing_8qc_source.html#l00168">W_ThrowWeapon()</a>.</p>
 
 </div>
 </div>
@@ -649,7 +631,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00045">45</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00046">46</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 </div>
 </div>
@@ -663,7 +645,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00045">45</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00046">46</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 </div>
 </div>
@@ -677,9 +659,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00065">65</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00066">66</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01043">Monster_Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00698">Monster_Move()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01301">Monster_Spawn()</a>, <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00187">SUB_UseTargets()</a>, <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00034">trigger_keylock_touch()</a>, and <a class="el" href="../../d7/d2b/server_8qc_source.html#l00193">WarpZone_Touch()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01043">Monster_Damage()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00698">Monster_Move()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01299">Monster_Spawn()</a>, <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00186">SUB_UseTargets()</a>, <a class="el" href="../../d8/d88/keylock_8qc_source.html#l00021">trigger_keylock_touch()</a>, and <a class="el" href="../../d7/d2b/server_8qc_source.html#l00193">WarpZone_Touch()</a>.</p>
 
 </div>
 </div>
@@ -693,9 +675,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00066">66</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00067">67</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00187">SUB_UseTargets()</a>, and <a class="el" href="../../d7/d2b/server_8qc_source.html#l00193">WarpZone_Touch()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00186">SUB_UseTargets()</a>, and <a class="el" href="../../d7/d2b/server_8qc_source.html#l00193">WarpZone_Touch()</a>.</p>
 
 </div>
 </div>
@@ -709,9 +691,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00067">67</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00068">68</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00187">SUB_UseTargets()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00186">SUB_UseTargets()</a>.</p>
 
 </div>
 </div>
@@ -725,9 +707,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00069">69</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00070">70</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00187">SUB_UseTargets()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00186">SUB_UseTargets()</a>.</p>
 
 </div>
 </div>
@@ -741,7 +723,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00070">70</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00071">71</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
 </div>
 </div>
@@ -755,9 +737,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00051">51</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d2f/subs_8qh_source.html#l00052">52</a> of file <a class="el" href="../../db/d2f/subs_8qh_source.html">subs.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00028">door_blocked()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00325">door_generic_plat_blocked()</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00105">round_handler_Reset()</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00087">round_handler_Spawn()</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00006">round_handler_Think()</a>, <a class="el" href="../../de/d2e/train_8qc_source.html#l00064">train_next()</a>, and <a class="el" href="../../de/d2e/train_8qc_source.html#l00006">train_wait()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00028">door_blocked()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00322">door_generic_plat_blocked()</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00105">round_handler_Reset()</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00087">round_handler_Spawn()</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00006">round_handler_Think()</a>, <a class="el" href="../../de/d2e/train_8qc_source.html#l00064">train_next()</a>, and <a class="el" href="../../de/d2e/train_8qc_source.html#l00006">train_wait()</a>.</p>
 
 </div>
 </div>
@@ -767,7 +749,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../db/d2f/subs_8qh.html">subs.qh</a></li>
-    <li class="footer">Generated on Fri Apr 29 2016 07:06:29 for Xonotic by
+    <li class="footer">Generated on Sat Apr 30 2016 07:35:40 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

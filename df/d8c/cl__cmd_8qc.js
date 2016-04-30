@@ -21,7 +21,7 @@ var cl__cmd_8qc =
     [ "CSQC_ConsoleCommand", "df/d8c/cl__cmd_8qc.html#a8ee68a14511a9aca94752cff6863af16", null ],
     [ "DrawDebugModel", "df/d8c/cl__cmd_8qc.html#a54daafbdbda2cf0eb8d7d53fef76cc6b", null ],
     [ "GameCommand", "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc", null ],
-    [ "HUD_MinigameMenu_Close", "df/d8c/cl__cmd_8qc.html#a61504b558834e7fd0fadfbe84ea44208", null ],
+    [ "HUD_MinigameMenu_Close", "df/d8c/cl__cmd_8qc.html#a99e723ab8b6ed89a42df35b13fc1681a", null ],
     [ "HUD_MinigameMenu_IsOpened", "df/d8c/cl__cmd_8qc.html#ab1c5f554f29bac879163c40cc284d949", null ],
     [ "HUD_MinigameMenu_Open", "df/d8c/cl__cmd_8qc.html#ab99d36760ffb8dd4ffd00761540f9876", null ],
     [ "HUD_Radar_Show_Maximized", "df/d8c/cl__cmd_8qc.html#a24215331902b6304b11f3a12541f150d", null ],

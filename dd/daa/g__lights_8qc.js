@@ -4,7 +4,7 @@ var g__lights_8qc =
     [ "dynlight_find_path", "dd/daa/g__lights_8qc.html#a5e62ba16138c20eb7792585e72ff358c", null ],
     [ "dynlight_find_target", "dd/daa/g__lights_8qc.html#af2fa133f7e214360915d1ecac346c6ee", null ],
     [ "dynlight_think", "dd/daa/g__lights_8qc.html#a6254fae2fc1404907cbca0885c096e89", null ],
-    [ "dynlight_use", "dd/daa/g__lights_8qc.html#a4085156d35588eef315bd1314d047876", null ],
+    [ "dynlight_use", "dd/daa/g__lights_8qc.html#a44cc374a911b3a8c5583bd880a389e74", null ],
     [ "spawnfunc", "dd/daa/g__lights_8qc.html#af2026bf6a55612104f3b9c739d77125f", null ],
     [ "train_next", "dd/daa/g__lights_8qc.html#ab4f860c906be5416a261ee708fdc1cdb", null ],
     [ "color", "dd/daa/g__lights_8qc.html#a74486a486528a0aa8c3e94223a69e12d", null ],

@@ -14,5 +14,7 @@ var csprogsdefs_8qh =
     [ "STAT_TIMELIMIT", "da/dde/csprogsdefs_8qh.html#adaaef9f614f14b73503974ca9ecc4e4c", null ],
     [ "trailparticles", "da/dde/csprogsdefs_8qh.html#aae5b07ffeb72dbbe7675fda4e3a35a30", null ],
     [ "true", "da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7", null ],
-    [ "TRUE", "da/dde/csprogsdefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d", null ]
+    [ "TRUE", "da/dde/csprogsdefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d", null ],
+    [ "use", "da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c", null ],
+    [ "void", "da/dde/csprogsdefs_8qh.html#ad02dc23b282606a7fe0a74a2f224d1ef", null ]
 ];

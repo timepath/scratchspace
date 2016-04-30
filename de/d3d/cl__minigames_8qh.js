@@ -9,7 +9,7 @@ var cl__minigames_8qh =
     [ "REGISTER_MINIGAME", "de/d3d/cl__minigames_8qh.html#a1976bbbabc165580c5791d26bc54639b", null ],
     [ "deactivate_minigame", "de/d3d/cl__minigames_8qh.html#a494190b92b736511115345e0437821b6", null ],
     [ "HUD_Minigame_Showpanels", "de/d3d/cl__minigames_8qh.html#ab68014e596139ed2105ff110328d01cb", null ],
-    [ "HUD_MinigameMenu_Close", "de/d3d/cl__minigames_8qh.html#a61504b558834e7fd0fadfbe84ea44208", null ],
+    [ "HUD_MinigameMenu_Close", "de/d3d/cl__minigames_8qh.html#a99e723ab8b6ed89a42df35b13fc1681a", null ],
     [ "HUD_MinigameMenu_CustomEntry", "de/d3d/cl__minigames_8qh.html#a4b86f86d9415fc9059ee3b2c0b977172", null ],
     [ "HUD_MinigameMenu_IsOpened", "de/d3d/cl__minigames_8qh.html#aa7c51e568bb464476b384a5c725b048a", null ],
     [ "minigame_cmd_workaround", "de/d3d/cl__minigames_8qh.html#a3248db1aa7a2ca4c46e7cbe9e220b3f2", null ],

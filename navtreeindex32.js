@@ -1,6 +1,5 @@
 var NAVTREEINDEX32 =
 {
-"d4/d0f/buffs_8qc.html#a1e4bf2cb9680e3ea5123bea248c10bcc":[2,0,1,9,0,2,5,13],
 "d4/d0f/buffs_8qc.html#a2385557f2041704cd430f2c88d8e825c":[2,0,1,9,0,2,5,17],
 "d4/d0f/buffs_8qc.html#a28a469e184b148e580f41a6122017b8d":[2,0,1,9,0,2,5,31],
 "d4/d0f/buffs_8qc.html#a2a9b9cdf8543c98190a01b95c634d4c9":[2,0,1,9,0,2,5,11],
@@ -249,5 +248,6 @@ var NAVTREEINDEX32 =
 "d4/d24/classWalkerTurretAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,117,19],
 "d4/d24/classWalkerTurretAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,117,13],
 "d4/d24/classWalkerTurretAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,117,7],
-"d4/d24/classWalkerTurretAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,117,21]
+"d4/d24/classWalkerTurretAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,117,21],
+"d4/d24/classWalkerTurretAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,117,6]
 };

@@ -69,7 +69,7 @@ var searchData=
   ['door_5fblocked',['door_blocked',['../d6/d9c/door_8qc.html#a8c65fc2f0d6a9ea4e7bc6fb7222de0f5',1,'door.qc']]],
   ['door_5fcheck_5fkeys',['door_check_keys',['../d6/d9c/door_8qc.html#a442c07929af7af860cd6e92fb41b1ed3',1,'door.qc']]],
   ['door_5fdamage',['door_damage',['../d6/d9c/door_8qc.html#abfbb3703193bb9d42361a8ee1a3f735a',1,'door.qc']]],
-  ['door_5ffire',['door_fire',['../d6/d9c/door_8qc.html#a62f50dda3c4ddb32392c94dc1c1e7ec0',1,'door.qc']]],
+  ['door_5ffire',['door_fire',['../d6/d9c/door_8qc.html#ae87674ba0b9d41767ee95397dabe1029',1,'door.qc']]],
   ['door_5fgeneric_5fplat_5fblocked',['door_generic_plat_blocked',['../d6/d9c/door_8qc.html#a7fba2c8fded0c2c1a9f4ae90f613cbe5',1,'door.qc']]],
   ['door_5fgo_5fdown',['door_go_down',['../d6/d9c/door_8qc.html#a043dcedfce52d0714cc2edfb8d53dd48',1,'door.qc']]],
   ['door_5fgo_5fup',['door_go_up',['../d6/d9c/door_8qc.html#a9fa389fd800e5d916114896bcf586d3c',1,'door.qc']]],
@@ -84,7 +84,7 @@ var searchData=
   ['door_5fspawnfield',['door_spawnfield',['../d6/d9c/door_8qc.html#a33e21cc276ad3afb409db711cf137914',1,'door.qc']]],
   ['door_5ftouch',['door_touch',['../d6/d9c/door_8qc.html#a329423155bfc216e2fc9cc2e5560d60f',1,'door.qc']]],
   ['door_5ftrigger_5ftouch',['door_trigger_touch',['../d6/d9c/door_8qc.html#aeefa6e24b97e26a42aa537dc40293eff',1,'door.qc']]],
-  ['door_5fuse',['door_use',['../d6/d9c/door_8qc.html#a7a138b7e2c78a56fc41319dbf685705b',1,'door.qc']]],
+  ['door_5fuse',['door_use',['../d6/d9c/door_8qc.html#a337674d43d5772b78184bf240a40f104',1,'door.qc']]],
   ['doubleclicklistboxitem',['doubleClickListBoxItem',['../d9/de9/classListBox.html#a00b3d9b37ac094d901936a08da5804f1',1,'ListBox::doubleClickListBoxItem()'],['../d4/d91/classXonoticCampaignList.html#a2fb07026eb8baabb26a558a411861148',1,'XonoticCampaignList::doubleClickListBoxItem()'],['../d7/da4/classXonoticDemoList.html#a882f663dbdf821be90e1c4e8f9a99f97',1,'XonoticDemoList::doubleClickListBoxItem()'],['../d5/d6c/classXonoticHUDSkinList.html#aec47810df96c84e290d418373484cc90',1,'XonoticHUDSkinList::doubleClickListBoxItem()'],['../d4/d3f/classXonoticKeyBinder.html#af8edd18c9eaf526bb6637782aea9fc6a',1,'XonoticKeyBinder::doubleClickListBoxItem()'],['../d3/dba/classXonoticLanguageList.html#adc729cb212577420799522aa1a90ebec',1,'XonoticLanguageList::doubleClickListBoxItem()'],['../d3/d86/classXonoticMapList.html#ac24f4a151936abeae39e6386d0e29f27',1,'XonoticMapList::doubleClickListBoxItem()'],['../db/d59/classXonoticPlayList.html#a1108355afbed2e634fa056db3edb921b',1,'XonoticPlayList::doubleClickListBoxItem()'],['../dc/d44/classXonoticScreenshotList.html#a92374110d9f1c056efe5fbdef26e321a',1,'XonoticScreenshotList::doubleClickListBoxItem()'],['../d2/dec/classXonoticServerList.html#a1c0dae2f6938c9fea2a33d04c5906cdf',1,'XonoticServerList::doubleClickListBoxItem()'],['../d7/de6/classXonoticSkinList.html#a5514179af2f611e3f11ed8f190d15ff5',1,'XonoticSkinList::doubleClickListBoxItem()'],['../d1/d70/classXonoticSoundList.html#a50c0667e7d6980a7597aac1caa9f3754',1,'XonoticSoundList::doubleClickListBoxItem()'],['../d0/d25/classXonoticStatsList.html#a1f4edeae120e00c47b7fc9ee09c0060d',1,'XonoticStatsList::doubleClickListBoxItem()']]],
   ['dprint',['dprint',['../d8/de2/menudefs_8qc.html#a89d81304d13b572247ba6100b2a87f9e',1,'menudefs.qc']]],
   ['drag',['drag',['../d8/d00/classImage.html#a0a44543db2c981ccbbfa48496f334de5',1,'Image::drag()'],['../d6/de9/cheats_8qc.html#a940f207b5aa10d28fac7be04948950c5',1,'Drag():&#160;cheats.qc']]],
@@ -186,5 +186,5 @@ var searchData=
   ['dynlight_5ffind_5fpath',['dynlight_find_path',['../dd/daa/g__lights_8qc.html#a5e62ba16138c20eb7792585e72ff358c',1,'g_lights.qc']]],
   ['dynlight_5ffind_5ftarget',['dynlight_find_target',['../dd/daa/g__lights_8qc.html#af2fa133f7e214360915d1ecac346c6ee',1,'g_lights.qc']]],
   ['dynlight_5fthink',['dynlight_think',['../dd/daa/g__lights_8qc.html#a6254fae2fc1404907cbca0885c096e89',1,'g_lights.qc']]],
-  ['dynlight_5fuse',['dynlight_use',['../dd/daa/g__lights_8qc.html#a4085156d35588eef315bd1314d047876',1,'g_lights.qc']]]
+  ['dynlight_5fuse',['dynlight_use',['../dd/daa/g__lights_8qc.html#a44cc374a911b3a8c5583bd880a389e74',1,'g_lights.qc']]]
 ];

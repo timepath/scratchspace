@@ -16,6 +16,6 @@ var spawnpoints_8qc =
     [ "spawnfunc", "d0/d41/spawnpoints_8qc.html#a388574330fd49b1cd4e7584d2514f73c", null ],
     [ "SpawnPoint_Send", "d0/d41/spawnpoints_8qc.html#ae47757443ac52584f873fc96e53c756c", null ],
     [ "spawnpoint_think", "d0/d41/spawnpoints_8qc.html#a9653a886a67263d567fdfd0769189243", null ],
-    [ "spawnpoint_use", "d0/d41/spawnpoints_8qc.html#a1677a3b258ec3923749405581a961772", null ],
+    [ "spawnpoint_use", "d0/d41/spawnpoints_8qc.html#a2a7af8ac3ec4cc48b002997881b2a491", null ],
     [ "spawnpoint_prevorigin", "d0/d41/spawnpoints_8qc.html#acfbd90447ab6c8bb55634c7936e20ece", null ]
 ];
