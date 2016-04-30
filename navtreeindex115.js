@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"de/de7/classXonoticHUDItemsTimeDialog.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,165,47],
 "de/de7/classXonoticHUDItemsTimeDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,165,9],
 "de/de7/classXonoticHUDItemsTimeDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,165,24],
 "de/de7/classXonoticHUDItemsTimeDialog.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,165,54],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "df/d19/mutators_2mutator_2campcheck_2module_8inc_source.html":[2,0,1,9,0,4,3],
 "df/d1f/client_2hud_2panel_2vote_8qc.html":[2,0,0,1,0,36],
 "df/d1f/client_2hud_2panel_2vote_8qc.html#a297e9e4e75bcd558a43f78eb74dd2140":[2,0,0,1,0,36,0],
-"df/d1f/client_2hud_2panel_2vote_8qc_source.html":[2,0,0,1,0,36],
-"df/d21/infomessages_8qc.html":[2,0,0,1,0,12]
+"df/d1f/client_2hud_2panel_2vote_8qc_source.html":[2,0,0,1,0,36]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX105 =
 {
+"dd/d8b/sys-pre_8qh.html#a6ba166b0f324250745d0897a482d08bb":[2,0,5,67,25],
 "dd/d8b/sys-pre_8qh.html#a73fc96708dae2a67ab1d2487dd5fcd64":[2,0,5,67,16],
 "dd/d8b/sys-pre_8qh.html#a793b702c48d2708acddc7d6104ca795d":[2,0,5,67,11],
 "dd/d8b/sys-pre_8qh.html#a84c9ab8381deb6a38b55341281f0e6ce":[2,0,5,67,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX105 =
 "dd/da1/dialog__settings__game__hud_8qc_source.html":[2,0,4,4,128],
 "dd/da3/classXonoticMusicPlayerTab.html":[1,0,192],
 "dd/da3/classXonoticMusicPlayerTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,192,21],
-"dd/da3/classXonoticMusicPlayerTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,192,29],
-"dd/da3/classXonoticMusicPlayerTab.html#a086d32c9694472250922d42417bc8d66":[1,0,192,3]
+"dd/da3/classXonoticMusicPlayerTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,192,29]
 };
