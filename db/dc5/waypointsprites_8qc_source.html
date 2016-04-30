@@ -1206,7 +1206,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;{</div>
 <div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;    WaypointSprite_Kill(carrier.waypointsprite_attached); <span class="comment">// FC overrides attached</span></div>
 <div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = WaypointSprite_Spawn(spr, 0, 0, carrier, <span class="stringliteral">&#39;0 0 64&#39;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, carrier.team, carrier, waypointsprite_attachedforcarrier, <span class="keyword">false</span>, icon);</div>
-<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;    <span class="keywordflow">if</span> (e)</div>
+<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;    <span class="keywordflow">if</span> (carrier.health)</div>
 <div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;    {</div>
 <div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;        WaypointSprite_UpdateMaxHealth(e, <span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../da/d44/common_2util_8qc.html#a335f5527477608b6b79c2ee4120009e0">healtharmor_maxdamage</a>(<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c">start_health</a>, <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#abc0cbf2fbfbde8f4185ad29d8fb4bccc">start_armorvalue</a>, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a51109b73e59b86875d75290abf4f0428">autocvar_g_balance_armor_blockpercent</a>, DEATH_WEAPON.m_id) * 2);</div>
 <div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;        WaypointSprite_UpdateHealth(e, <span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../da/d44/common_2util_8qc.html#a335f5527477608b6b79c2ee4120009e0">healtharmor_maxdamage</a>(carrier.health, carrier.armorvalue, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a51109b73e59b86875d75290abf4f0428">autocvar_g_balance_armor_blockpercent</a>, DEATH_WEAPON.m_id));</div>
@@ -1371,7 +1371,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_4573854e5f122b3a76229eff451e1727.html">waypoints</a></li><li class="navelem"><a class="el" href="../../db/dc5/waypointsprites_8qc.html">waypointsprites.qc</a></li>
-    <li class="footer">Generated on Sat Apr 30 2016 08:18:41 for Xonotic by
+    <li class="footer">Generated on Sat Apr 30 2016 08:40:36 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
