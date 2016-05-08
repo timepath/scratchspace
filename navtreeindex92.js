@@ -1,5 +1,17 @@
 var NAVTREEINDEX92 =
 {
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,170,6],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,170,67],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,170,58],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,170,63],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,170,62],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,170,86],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,170,64],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,170,4],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,170,32],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,170,10],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,170,38],
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,170,43],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a29fce91054e603d3a6fb075e2e56d4eb":[1,0,170,61],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,170,18],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a2c8b11601da6d37181c74174d9d36782":[1,0,170,83],
@@ -237,17 +249,5 @@ var NAVTREEINDEX92 =
 "db/dcc/g__world_8qc.html#a95bbd6b9aa214a845cb50bbbb44cb939":[2,0,5,35,27],
 "db/dcc/g__world_8qc.html#a96536d95b1e8120e296cc667b543bb0b":[2,0,5,35,55],
 "db/dcc/g__world_8qc.html#a979696d004a9ca8222f40058685320ad":[2,0,5,35,60],
-"db/dcc/g__world_8qc.html#a9b864391c3d6475f9345ccff9c19b7a3":[2,0,5,35,50],
-"db/dcc/g__world_8qc.html#aa6b50a885a57559948d95c846fa9a6b3":[2,0,5,35,24],
-"db/dcc/g__world_8qc.html#aa8f9d7c732fe1401e1ee110adfafa840":[2,0,5,35,52],
-"db/dcc/g__world_8qc.html#aac7f083651dfcb99dbbd8afc5e339233":[2,0,5,35,48],
-"db/dcc/g__world_8qc.html#aaf92ec79f8aec9319c8a513bd5577e48":[2,0,5,35,11],
-"db/dcc/g__world_8qc.html#ab61dd957a2c44ebabe227060941cb391":[2,0,5,35,13],
-"db/dcc/g__world_8qc.html#ab6fe1d680f8a7a4c9b39c92861604ba8":[2,0,5,35,53],
-"db/dcc/g__world_8qc.html#abed18c6e10bb666ad939e95abcaabb5d":[2,0,5,35,19],
-"db/dcc/g__world_8qc.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9":[2,0,5,35,46],
-"db/dcc/g__world_8qc.html#ac71e33fd5e820084538af82e12275688":[2,0,5,35,62],
-"db/dcc/g__world_8qc.html#acc6df1e031164092cd42e041e294ad93":[2,0,5,35,23],
-"db/dcc/g__world_8qc.html#ad2d2ac4fdacfc3e3274e8caa25ddfe95":[2,0,5,35,59],
-"db/dcc/g__world_8qc.html#ad636587cf244331160ebe0893105bf45":[2,0,5,35,64]
+"db/dcc/g__world_8qc.html#a9b864391c3d6475f9345ccff9c19b7a3":[2,0,5,35,50]
 };

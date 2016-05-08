@@ -1,5 +1,17 @@
 var NAVTREEINDEX101 =
 {
+"dc/de5/classWeapon.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,119,13],
+"dc/de5/classWeapon.html#a4c93f155e978ff2356e110a617ab3c39":[1,0,119,32],
+"dc/de5/classWeapon.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,119,7],
+"dc/de5/classWeapon.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,119,6],
+"dc/de5/classWeapon.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,119,0],
+"dc/de5/classWeapon.html#a7125c4dfb606547a2f8d9ea97f72fbc9":[1,0,119,28],
+"dc/de5/classWeapon.html#a768d3992198c4b743dbab2cff9529e99":[1,0,119,21],
+"dc/de5/classWeapon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,119,24],
+"dc/de5/classWeapon.html#a80fa9a65e19370473a29baebc04d0626":[1,0,119,2],
+"dc/de5/classWeapon.html#a89d6c6ec494acffc4fa8fa1a8855f16d":[1,0,119,35],
+"dc/de5/classWeapon.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,119,4],
+"dc/de5/classWeapon.html#a94b9194f95513e0ad7c17da8a7fda0e0":[1,0,119,30],
 "dc/de5/classWeapon.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,119,11],
 "dc/de5/classWeapon.html#aaab6e67f316eebe5b5836499c84988cf":[1,0,119,31],
 "dc/de5/classWeapon.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,119,12],
@@ -237,17 +249,5 @@ var NAVTREEINDEX101 =
 "dc/df7/classXonoticCvarsDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,140,58],
 "dc/df7/classXonoticCvarsDialog.html#a1841271fe6dcad42f46baa3827c4c6ea":[1,0,140,49],
 "dc/df7/classXonoticCvarsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,140,63],
-"dc/df7/classXonoticCvarsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,140,62],
-"dc/df7/classXonoticCvarsDialog.html#a2258ecc2a72241c5d64850f7651a6958":[1,0,140,36],
-"dc/df7/classXonoticCvarsDialog.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,140,85],
-"dc/df7/classXonoticCvarsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,140,64],
-"dc/df7/classXonoticCvarsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,140,4],
-"dc/df7/classXonoticCvarsDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,140,32],
-"dc/df7/classXonoticCvarsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,140,10],
-"dc/df7/classXonoticCvarsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,140,38],
-"dc/df7/classXonoticCvarsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,140,43],
-"dc/df7/classXonoticCvarsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,140,18],
-"dc/df7/classXonoticCvarsDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,140,8],
-"dc/df7/classXonoticCvarsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,140,11],
-"dc/df7/classXonoticCvarsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,140,51]
+"dc/df7/classXonoticCvarsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,140,62]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX112 =
 {
+"de/d64/common_2impulses_2all_8qh.html#ac85616f0df5a4a1f4639d89ff85ddfe4":[2,0,1,4,3,44],
+"de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670":[2,0,1,4,3,46],
+"de/d64/common_2impulses_2all_8qh.html#ad3fe75815b92184bbeb06ef7ec1d6ccb":[2,0,1,4,3,21],
+"de/d64/common_2impulses_2all_8qh.html#adc032c03a51c465f88fbf310889d6d64":[2,0,1,4,3,29],
+"de/d64/common_2impulses_2all_8qh.html#add22bd8a9e6a8d51731d7e5f2cd0ad5a":[2,0,1,4,3,39],
+"de/d64/common_2impulses_2all_8qh.html#ae3bee115d3ea919496e5eeb2dd3408f0":[2,0,1,4,3,17],
+"de/d64/common_2impulses_2all_8qh.html#ae5540bfa89e6fbe2ba999f12e0713662":[2,0,1,4,3,31],
+"de/d64/common_2impulses_2all_8qh.html#ae71a6880126df1cc172f55eaba89ca59":[2,0,1,4,3,37],
+"de/d64/common_2impulses_2all_8qh.html#afb6b68281f9699a9cbbd21be87615ba2":[2,0,1,4,3,14],
+"de/d64/common_2impulses_2all_8qh.html#afbed77991fed8d2e7591bf29d25e4346":[2,0,1,4,3,6],
+"de/d64/common_2impulses_2all_8qh.html#afd231f63eb3804e5b7ee7d12d186d620":[2,0,1,4,3,3],
+"de/d64/common_2impulses_2all_8qh_source.html":[2,0,1,4,3],
 "de/d65/classXonoticHUDInfoMessagesDialog.html":[1,0,164],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,164,21],
 "de/d65/classXonoticHUDInfoMessagesDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,164,29],
@@ -237,17 +249,5 @@ var NAVTREEINDEX112 =
 "de/d7a/classXonoticHUDScoreDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,174,60],
 "de/d7a/classXonoticHUDScoreDialog.html#af1aab403dc54575707fd57991312b201":[1,0,174,36],
 "de/d7a/classXonoticHUDScoreDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,174,16],
-"de/d7a/classXonoticHUDScoreDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,174,28],
-"de/d7a/classXonoticHUDScoreDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,174,2],
-"de/d7a/classXonoticHUDScoreDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,174,26],
-"de/d7a/classXonoticHUDScoreDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,174,30],
-"de/d7a/classXonoticHUDScoreDialog.html#afc6684260830101c451372e3a2e0b7f5":[1,0,174,50],
-"de/d7a/classXonoticHUDScoreDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,174,82],
-"de/d81/common_2weapons_2all_8qh.html":[2,0,1,16,5],
-"de/d81/common_2weapons_2all_8qh.html#a0054af2e4d2f284ef1ed59222d1e9821":[2,0,1,16,5,5],
-"de/d81/common_2weapons_2all_8qh.html#a09946ed729c4b193f7772b2f5af25097":[2,0,1,16,5,24],
-"de/d81/common_2weapons_2all_8qh.html#a123925229da592cc21d3648a3f2d6563":[2,0,1,16,5,55],
-"de/d81/common_2weapons_2all_8qh.html#a13afbcfd41d220ec131a3040b7b81909":[2,0,1,16,5,73],
-"de/d81/common_2weapons_2all_8qh.html#a18bed673185c5362badd17d0aa872311":[2,0,1,16,5,58],
-"de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78":[2,0,1,16,5,42]
+"de/d7a/classXonoticHUDScoreDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,174,28]
 };

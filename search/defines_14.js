@@ -10,7 +10,7 @@ var searchData=
   ['tag_5fviewloc_5ftype',['TAG_VIEWLOC_TYPE',['../d1/d20/csqcmodel__settings_8qh.html#ac13e6a2feab5f8a21e4b96aaf1a9518a',1,'csqcmodel_settings.qh']]],
   ['target_5fmusic_5fh',['TARGET_MUSIC_H',['../d2/d21/music_8qh.html#a0a2d5ec37d758ca1c4137b16d3c92895',1,'music.qh']]],
   ['tc',['TC',['../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b',1,'_all.inc']]],
-  ['tcr',['TCR',['../db/d07/teams_8qh.html#a2310834f129c74b57322a7425856f9dd',1,'teams.qh']]],
+  ['tcr',['TCR',['../db/d07/teams_8qh.html#a0d96b2379c33b381d721c971e72c5637',1,'teams.qh']]],
   ['te_5ftei_5fg3',['TE_TEI_G3',['../db/d7f/effectinfo_8inc.html#addc3af2f6528de393f5367ea2ea4e38b',1,'effectinfo.inc']]],
   ['team_5fcoloredfullname',['Team_ColoredFullName',['../db/d07/teams_8qh.html#aa417cabfc2bf10d554c0dee7aa17a991',1,'teams.qh']]],
   ['team_5fcolorname_5flower',['Team_ColorName_Lower',['../db/d07/teams_8qh.html#a395c04d3db11362a1c25d2d4853fc180',1,'teams.qh']]],

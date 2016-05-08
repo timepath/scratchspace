@@ -1,5 +1,17 @@
 var NAVTREEINDEX88 =
 {
+"db/d5a/common_2turrets_2all_8qh.html#af8a1aa546131892f801ce1e4500a7bae":[2,0,1,14,4,7],
+"db/d5a/common_2turrets_2all_8qh_source.html":[2,0,1,14,4],
+"db/d5b/classXonoticGameMessageSettingsTab.html":[1,0,151],
+"db/d5b/classXonoticGameMessageSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,151,21],
+"db/d5b/classXonoticGameMessageSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,151,29],
+"db/d5b/classXonoticGameMessageSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,151,3],
+"db/d5b/classXonoticGameMessageSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,151,69],
+"db/d5b/classXonoticGameMessageSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,151,78],
+"db/d5b/classXonoticGameMessageSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,151,75],
+"db/d5b/classXonoticGameMessageSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,151,37],
+"db/d5b/classXonoticGameMessageSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,151,15],
+"db/d5b/classXonoticGameMessageSettingsTab.html#a17bad9d112b85ece0d0689b233838245":[1,0,151,57],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,151,62],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a1ac6ee1e1a7fc5bc8247348b269fd503":[1,0,151,43],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,151,85],
@@ -237,17 +249,5 @@ var NAVTREEINDEX88 =
 "db/d7f/effectinfo_8inc.html#a004bfb9d15c6566d8721383c79fafb52":[2,0,1,2,7,52],
 "db/d7f/effectinfo_8inc.html#a006ffb970f3878ab7ca59a21d92ac0fb":[2,0,1,2,7,193],
 "db/d7f/effectinfo_8inc.html#a008cf69987ebf11abead9d2cc848bf61":[2,0,1,2,7,63],
-"db/d7f/effectinfo_8inc.html#a00d7906a0b6ff5aa0a30d6f5402bc140":[2,0,1,2,7,293],
-"db/d7f/effectinfo_8inc.html#a0112d47d282c02ac3132c16dd264f936":[2,0,1,2,7,262],
-"db/d7f/effectinfo_8inc.html#a0137334c28b49a76822c9084f4306f5f":[2,0,1,2,7,111],
-"db/d7f/effectinfo_8inc.html#a01dc4e4e3469fcecb43d9863a6321695":[2,0,1,2,7,69],
-"db/d7f/effectinfo_8inc.html#a0220c5ede95ff115923e6411254e4631":[2,0,1,2,7,89],
-"db/d7f/effectinfo_8inc.html#a022aadadb9d354bac89c503e9e8cc5a5":[2,0,1,2,7,242],
-"db/d7f/effectinfo_8inc.html#a02bb83d8e1d844cea610aededc503efa":[2,0,1,2,7,110],
-"db/d7f/effectinfo_8inc.html#a03708ae94f322dc720480f9b47956466":[2,0,1,2,7,331],
-"db/d7f/effectinfo_8inc.html#a04407abe9f9cedd08c5f13537f3ca3fe":[2,0,1,2,7,264],
-"db/d7f/effectinfo_8inc.html#a04ef8b59c65704dd01485357ac69a651":[2,0,1,2,7,132],
-"db/d7f/effectinfo_8inc.html#a053ee53ffcff22d3b3fa2e09507824a3":[2,0,1,2,7,360],
-"db/d7f/effectinfo_8inc.html#a05c3ea96d1c5f6acf7c955dc684fcbe3":[2,0,1,2,7,43],
-"db/d7f/effectinfo_8inc.html#a06963637333125355687d4d870e85bb4":[2,0,1,2,7,139]
+"db/d7f/effectinfo_8inc.html#a00d7906a0b6ff5aa0a30d6f5402bc140":[2,0,1,2,7,293]
 };

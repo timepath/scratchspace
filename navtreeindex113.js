@@ -1,5 +1,17 @@
 var NAVTREEINDEX113 =
 {
+"de/d7a/classXonoticHUDScoreDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,174,2],
+"de/d7a/classXonoticHUDScoreDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,174,26],
+"de/d7a/classXonoticHUDScoreDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,174,30],
+"de/d7a/classXonoticHUDScoreDialog.html#afc6684260830101c451372e3a2e0b7f5":[1,0,174,50],
+"de/d7a/classXonoticHUDScoreDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,174,82],
+"de/d81/common_2weapons_2all_8qh.html":[2,0,1,16,5],
+"de/d81/common_2weapons_2all_8qh.html#a0054af2e4d2f284ef1ed59222d1e9821":[2,0,1,16,5,5],
+"de/d81/common_2weapons_2all_8qh.html#a09946ed729c4b193f7772b2f5af25097":[2,0,1,16,5,24],
+"de/d81/common_2weapons_2all_8qh.html#a123925229da592cc21d3648a3f2d6563":[2,0,1,16,5,55],
+"de/d81/common_2weapons_2all_8qh.html#a13afbcfd41d220ec131a3040b7b81909":[2,0,1,16,5,73],
+"de/d81/common_2weapons_2all_8qh.html#a18bed673185c5362badd17d0aa872311":[2,0,1,16,5,58],
+"de/d81/common_2weapons_2all_8qh.html#a1a8ec9d18cc617efc425e0aa17fcde78":[2,0,1,16,5,42],
 "de/d81/common_2weapons_2all_8qh.html#a1af9aa1f40a68bcd442b96df85fb3e70":[2,0,1,16,5,69],
 "de/d81/common_2weapons_2all_8qh.html#a1ccd6d10e1fe4fac84fe7b621ff53f35":[2,0,1,16,5,23],
 "de/d81/common_2weapons_2all_8qh.html#a1f0a48799ac85436679ce72c5a670052":[2,0,1,16,5,39],
@@ -237,17 +249,5 @@ var NAVTREEINDEX113 =
 "de/d9c/classTab.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,107,53],
 "de/d9c/classTab.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,107,25],
 "de/d9c/classTab.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,107,71],
-"de/d9c/classTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,107,33],
-"de/d9c/classTab.html#ac3be5265f8fd20caa82eeb834c15f6be":[1,0,107,43],
-"de/d9c/classTab.html#ac585f4f082ba25f5afde74ec79f6d1ae":[1,0,107,79],
-"de/d9c/classTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,107,0],
-"de/d9c/classTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,107,22],
-"de/d9c/classTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,107,27],
-"de/d9c/classTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,107,80],
-"de/d9c/classTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,107,40],
-"de/d9c/classTab.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,107,70],
-"de/d9c/classTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,107,45],
-"de/d9c/classTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,107,52],
-"de/d9c/classTab.html#ad325d6b1f6a25ab0b0d5e38bf7b9f34c":[1,0,107,60],
-"de/d9c/classTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,107,20]
+"de/d9c/classTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,107,33]
 };

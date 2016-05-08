@@ -1,5 +1,17 @@
 var NAVTREEINDEX96 =
 {
+"dc/d24/xonotic_2textslider_8qc_source.html":[2,0,4,4,224],
+"dc/d2a/classPlasmaTurret.html":[1,0,81],
+"dc/d2a/classPlasmaTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,81,1],
+"dc/d2a/classPlasmaTurret.html#a1ceb2f4372d786adcbf7dda9ddda2589":[1,0,81,15],
+"dc/d2a/classPlasmaTurret.html#a3144102787442a58055180121b5e9536":[1,0,81,8],
+"dc/d2a/classPlasmaTurret.html#a56e07d5aa23850f9cc9cd5eaa68f0880":[1,0,81,3],
+"dc/d2a/classPlasmaTurret.html#a6026ebfecf68a0be85a4d8e9b1ae51a5":[1,0,81,7],
+"dc/d2a/classPlasmaTurret.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,81,0],
+"dc/d2a/classPlasmaTurret.html#a70e34629ef8171dd77b744f33adf36cc":[1,0,81,14],
+"dc/d2a/classPlasmaTurret.html#a8c44908a4d8b6d3099bec38e936dfaba":[1,0,81,9],
+"dc/d2a/classPlasmaTurret.html#a9cbd0273110d224aa83170c43e29f691":[1,0,81,5],
+"dc/d2a/classPlasmaTurret.html#ab51103697656de906079b6537d3800bc":[1,0,81,4],
 "dc/d2a/classPlasmaTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,81,2],
 "dc/d2a/classPlasmaTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,81,6],
 "dc/d2a/classPlasmaTurret.html#ac60e41739d60d225213f6da8320f0954":[1,0,81,11],
@@ -237,17 +249,5 @@ var NAVTREEINDEX96 =
 "dc/d43/keycodes_8qh.html#a354c60c95a7587238f1b7fad4fd43643":[2,0,2,3,0],
 "dc/d43/keycodes_8qh_source.html":[2,0,2,3],
 "dc/d44/classXonoticScreenshotList.html":[1,0,212],
-"dc/d44/classXonoticScreenshotList.html#a00e343a5171c30a6825d23f73ac93c4b":[1,0,212,50],
-"dc/d44/classXonoticScreenshotList.html#a037f81884480b41f2f7e42a02c2e407b":[1,0,212,39],
-"dc/d44/classXonoticScreenshotList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,212,44],
-"dc/d44/classXonoticScreenshotList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,212,47],
-"dc/d44/classXonoticScreenshotList.html#a10cf88734594fed24be93889407c0bda":[1,0,212,24],
-"dc/d44/classXonoticScreenshotList.html#a113d1a91bed3f1f7bc3a24306c2c68e7":[1,0,212,19],
-"dc/d44/classXonoticScreenshotList.html#a125ef1a2c455da7f9f570cd6eada51fb":[1,0,212,23],
-"dc/d44/classXonoticScreenshotList.html#a151e0ec9dca93787cd82446a1b2e5ffa":[1,0,212,51],
-"dc/d44/classXonoticScreenshotList.html#a18456fc3d44b3528c7595c73f42a8acc":[1,0,212,65],
-"dc/d44/classXonoticScreenshotList.html#a20c94b3e1aaff4fcabd496e433709a85":[1,0,212,3],
-"dc/d44/classXonoticScreenshotList.html#a2188ecd49040da1f5cb826f6dd52e8c3":[1,0,212,28],
-"dc/d44/classXonoticScreenshotList.html#a22d656fff2091e8240da8a48d9880ca4":[1,0,212,38],
-"dc/d44/classXonoticScreenshotList.html#a230ddb1a3db4e3db29b3c2e1590dd22e":[1,0,212,90]
+"dc/d44/classXonoticScreenshotList.html#a00e343a5171c30a6825d23f73ac93c4b":[1,0,212,50]
 };

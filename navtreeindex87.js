@@ -1,5 +1,17 @@
 var NAVTREEINDEX87 =
 {
+"db/d4a/classHook.html":[1,0,42],
+"db/d4a/classHook.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,42,17],
+"db/d4a/classHook.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,42,16],
+"db/d4a/classHook.html#a273ba5500276b429f0a0ec569238dc78":[1,0,42,33],
+"db/d4a/classHook.html#a2c44b961a7555cb177d539f60d10d904":[1,0,42,26],
+"db/d4a/classHook.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,42,14],
+"db/d4a/classHook.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,42,18],
+"db/d4a/classHook.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,42,9],
+"db/d4a/classHook.html#a4337268c8cad6836bae8efd4a8835070":[1,0,42,19],
+"db/d4a/classHook.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,42,13],
+"db/d4a/classHook.html#a4db172fd5de18e582c2aefcd7124087b":[1,0,42,23],
+"db/d4a/classHook.html#a53a02647ecab059ed5b4af3a9826291e":[1,0,42,34],
 "db/d4a/classHook.html#a625ab8db0503d8040b76974f839008cc":[1,0,42,31],
 "db/d4a/classHook.html#a6536a2345daebee09f86d2d248b514c0":[1,0,42,32],
 "db/d4a/classHook.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,42,7],
@@ -237,17 +249,5 @@ var NAVTREEINDEX87 =
 "db/d5a/common_2turrets_2all_8qh.html#a61aab00c9961e20b482e7e8aa5e0fa31":[2,0,1,14,4,4],
 "db/d5a/common_2turrets_2all_8qh.html#a6cb924afac08b198770ae9bd69a5f517":[2,0,1,14,4,6],
 "db/d5a/common_2turrets_2all_8qh.html#aa2774c8f11c19aa8e015cff50732b4a6":[2,0,1,14,4,1],
-"db/d5a/common_2turrets_2all_8qh.html#af3a4ffcd56d584a4de5f3156a6c666a3":[2,0,1,14,4,2],
-"db/d5a/common_2turrets_2all_8qh.html#af8a1aa546131892f801ce1e4500a7bae":[2,0,1,14,4,7],
-"db/d5a/common_2turrets_2all_8qh_source.html":[2,0,1,14,4],
-"db/d5b/classXonoticGameMessageSettingsTab.html":[1,0,151],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,151,21],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,151,29],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,151,3],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,151,69],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,151,78],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,151,75],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,151,37],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,151,15],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a17bad9d112b85ece0d0689b233838245":[1,0,151,57]
+"db/d5a/common_2turrets_2all_8qh.html#af3a4ffcd56d584a4de5f3156a6c666a3":[2,0,1,14,4,2]
 };
