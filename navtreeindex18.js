@@ -1,5 +1,8 @@
 var NAVTREEINDEX18 =
 {
+"d2/dd3/classPortoLaunch.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,84,1],
+"d2/dd3/classPortoLaunch.html#adb73d82250fe15abe2523c75b51ed499":[1,0,84,31],
+"d2/dd3/classPortoLaunch.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,84,20],
 "d2/dd3/classPortoLaunch.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,84,22],
 "d2/dd3/classPortoLaunch.html#aee06d804b79a36342d785f6c4d445056":[1,0,84,26],
 "d2/dd3/classPortoLaunch.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,84,15],
@@ -35,13 +38,14 @@ var NAVTREEINDEX18 =
 "d2/dd6/classXonoticInputSettingsTab.html#a17bad9d112b85ece0d0689b233838245":[1,0,181,57],
 "d2/dd6/classXonoticInputSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,181,62],
 "d2/dd6/classXonoticInputSettingsTab.html#a1ac6ee1e1a7fc5bc8247348b269fd503":[1,0,181,43],
-"d2/dd6/classXonoticInputSettingsTab.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,181,85],
+"d2/dd6/classXonoticInputSettingsTab.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,181,86],
 "d2/dd6/classXonoticInputSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,181,63],
 "d2/dd6/classXonoticInputSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,181,4],
 "d2/dd6/classXonoticInputSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,181,32],
 "d2/dd6/classXonoticInputSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,181,10],
 "d2/dd6/classXonoticInputSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,181,38],
 "d2/dd6/classXonoticInputSettingsTab.html#a293d14d4f9707d314ed99e640f0ee0d6":[1,0,181,47],
+"d2/dd6/classXonoticInputSettingsTab.html#a2a52d6df006a674e33fb27415598a835":[1,0,181,85],
 "d2/dd6/classXonoticInputSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,181,18],
 "d2/dd6/classXonoticInputSettingsTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,181,8],
 "d2/dd6/classXonoticInputSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,181,11],
@@ -66,7 +70,7 @@ var NAVTREEINDEX18 =
 "d2/dd6/classXonoticInputSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,181,76],
 "d2/dd6/classXonoticInputSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,181,56],
 "d2/dd6/classXonoticInputSettingsTab.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,181,14],
-"d2/dd6/classXonoticInputSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,181,86],
+"d2/dd6/classXonoticInputSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,181,87],
 "d2/dd6/classXonoticInputSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,181,84],
 "d2/dd6/classXonoticInputSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,181,74],
 "d2/dd6/classXonoticInputSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,181,73],
@@ -102,7 +106,7 @@ var NAVTREEINDEX18 =
 "d2/dd6/classXonoticInputSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,181,68],
 "d2/dd6/classXonoticInputSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,181,20],
 "d2/dd6/classXonoticInputSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,181,51],
-"d2/dd6/classXonoticInputSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,181,87],
+"d2/dd6/classXonoticInputSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,181,88],
 "d2/dd6/classXonoticInputSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,181,59],
 "d2/dd6/classXonoticInputSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,181,16],
 "d2/dd6/classXonoticInputSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,181,48],
@@ -245,9 +249,5 @@ var NAVTREEINDEX18 =
 "d2/dec/classXonoticServerList.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,216,37],
 "d2/dec/classXonoticServerList.html#ad1af8b8eb1454bde0ec8cf5e464a9c92":[1,0,216,89],
 "d2/dec/classXonoticServerList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,216,43],
-"d2/dec/classXonoticServerList.html#ad4f8e0c53467fa24bcd51d05e3485d86":[1,0,216,64],
-"d2/dec/classXonoticServerList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,216,62],
-"d2/dec/classXonoticServerList.html#ad5fa8cd96f3abe03ef80859bbcbd275f":[1,0,216,106],
-"d2/dec/classXonoticServerList.html#ad6b71179dadd7549eb67625709ed86cd":[1,0,216,88],
-"d2/dec/classXonoticServerList.html#ad77e32004130154cab38df0030a152d8":[1,0,216,80]
+"d2/dec/classXonoticServerList.html#ad4f8e0c53467fa24bcd51d05e3485d86":[1,0,216,64]
 };

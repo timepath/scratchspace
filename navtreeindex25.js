@@ -1,5 +1,9 @@
 var NAVTREEINDEX25 =
 {
+"d3/d86/classXonoticMapList.html#adbc65a2089ef3278a098c80685b4b8a3":[1,0,187,57],
+"d3/d86/classXonoticMapList.html#adcc3f16a58c00a21f33f2ad2fbe1ccd4":[1,0,187,30],
+"d3/d86/classXonoticMapList.html#ade3f55317170e22675d35eeb76fd56c3":[1,0,187,31],
+"d3/d86/classXonoticMapList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,187,35],
 "d3/d86/classXonoticMapList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,187,88],
 "d3/d86/classXonoticMapList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,187,40],
 "d3/d86/classXonoticMapList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,187,15],
@@ -245,9 +249,5 @@ var NAVTREEINDEX25 =
 "d3/db2/hellion__weapon_8qc_source.html":[2,0,1,14,0,10],
 "d3/db6/projectile_8qc.html":[2,0,0,3,2],
 "d3/db6/projectile_8qc.html#a0425d4c4b6b30c19a7f206ec3b83406b":[2,0,0,3,2,5],
-"d3/db6/projectile_8qc.html#a07d63755334d8ccb23787ee7001d16d1":[2,0,0,3,2,6],
-"d3/db6/projectile_8qc.html#a1d28dec57cce925ad92342891bd71e7c":[2,0,0,3,2,13],
-"d3/db6/projectile_8qc.html#a3ca3553902e7242b1d6557434ef2634d":[2,0,0,3,2,2],
-"d3/db6/projectile_8qc.html#a4520a37f8a65df80d037b5933f06b02b":[2,0,0,3,2,10],
-"d3/db6/projectile_8qc.html#a80c34c3e86a9ef71dfcdff65bd795540":[2,0,0,3,2,3]
+"d3/db6/projectile_8qc.html#a07d63755334d8ccb23787ee7001d16d1":[2,0,0,3,2,6]
 };

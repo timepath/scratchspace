@@ -85,6 +85,7 @@ var classXonoticGameWeaponsSettingsTab =
     [ "title", "dd/d93/classXonoticGameWeaponsSettingsTab.html#ae6a2b73fc421073777efa8be72694b37", null ],
     [ "titleFontSize", "dd/d93/classXonoticGameWeaponsSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c", null ],
     [ "titleHeight", "dd/d93/classXonoticGameWeaponsSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302", null ],
+    [ "titleTooltip", "dd/d93/classXonoticGameWeaponsSettingsTab.html#a2a52d6df006a674e33fb27415598a835", null ],
     [ "tooltip", "dd/d93/classXonoticGameWeaponsSettingsTab.html#a253df954a75f54d7f8ff1edfdb3c2e13", null ],
     [ "weaponsList", "dd/d93/classXonoticGameWeaponsSettingsTab.html#ac88c715a5d319a683e861dbe37fd8be2", null ],
     [ "zoomedOutTitleBar", "dd/d93/classXonoticGameWeaponsSettingsTab.html#a7c7e80231d41f67692ab5f902d127416", null ],

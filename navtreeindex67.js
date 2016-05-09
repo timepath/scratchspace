@@ -1,5 +1,15 @@
 var NAVTREEINDEX67 =
 {
+"d8/d35/classXonoticHUDChatDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,159,11],
+"d8/d35/classXonoticHUDChatDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,159,51],
+"d8/d35/classXonoticHUDChatDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,159,19],
+"d8/d35/classXonoticHUDChatDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,159,35],
+"d8/d35/classXonoticHUDChatDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,159,45],
+"d8/d35/classXonoticHUDChatDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,159,1],
+"d8/d35/classXonoticHUDChatDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,159,68],
+"d8/d35/classXonoticHUDChatDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,159,66],
+"d8/d35/classXonoticHUDChatDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,159,12],
+"d8/d35/classXonoticHUDChatDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,159,39],
 "d8/d35/classXonoticHUDChatDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,159,17],
 "d8/d35/classXonoticHUDChatDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,159,46],
 "d8/d35/classXonoticHUDChatDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,159,23],
@@ -239,15 +249,5 @@ var NAVTREEINDEX67 =
 "d8/d6b/selection_8qh.html#a9939796cc50a72af43a8fa95e3aea85e":[2,0,5,4,11,0],
 "d8/d6b/selection_8qh.html#abc1d3bbd31c439412f8a3c412cdf7926":[2,0,5,4,11,4],
 "d8/d6b/selection_8qh.html#ac439f2f447cacc3d096a80b1cb97577b":[2,0,5,4,11,9],
-"d8/d6b/selection_8qh.html#acf3c0eee23dcb6f5926e4a319e817637":[2,0,5,4,11,8],
-"d8/d6b/selection_8qh.html#aeffb5f5c575c97f12381045f6f091403":[2,0,5,4,11,12],
-"d8/d6b/selection_8qh_source.html":[2,0,5,4,11],
-"d8/d6d/viewloc_8qc.html":[2,0,1,46],
-"d8/d6d/viewloc_8qc.html#ad4224551c2b606237629fa6bd79384d8":[2,0,1,46,0],
-"d8/d6d/viewloc_8qc_source.html":[2,0,1,46],
-"d8/d76/xonotic_2checkbox_8qh.html":[2,0,4,4,13],
-"d8/d76/xonotic_2checkbox_8qh.html#a7dc2985c3982e5fb466f48215abb8069":[2,0,4,4,13,2],
-"d8/d76/xonotic_2checkbox_8qh.html#ac556c363097bb2c326f8681f5b38e28a":[2,0,4,4,13,4],
-"d8/d76/xonotic_2checkbox_8qh.html#ae01b150bc158d5b5fb5ee649324b9706":[2,0,4,4,13,3],
-"d8/d76/xonotic_2checkbox_8qh.html#ae6725ad239c958cb43c1254ea3be7554":[2,0,4,4,13,1]
+"d8/d6b/selection_8qh.html#acf3c0eee23dcb6f5926e4a319e817637":[2,0,5,4,11,8]
 };

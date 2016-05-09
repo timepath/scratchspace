@@ -1,5 +1,13 @@
 var NAVTREEINDEX48 =
 {
+"d6/d1a/classMainWindow.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,61,6],
+"d6/d1a/classMainWindow.html#a2f2ef86226a27b17b0dffec63f17e5c3":[1,0,61,62],
+"d6/d1a/classMainWindow.html#a331c55a30b4bc22951a251062508326b":[1,0,61,9],
+"d6/d1a/classMainWindow.html#a3490871a29ca8b28fc5fd108ab6d502c":[1,0,61,29],
+"d6/d1a/classMainWindow.html#a362e89e4a7d913cf830c56fc477456be":[1,0,61,33],
+"d6/d1a/classMainWindow.html#a3a907336ccc83979c4034d6154fac0da":[1,0,61,21],
+"d6/d1a/classMainWindow.html#a3d780e11dc550e00d1c7c38f7b1833d4":[1,0,61,54],
+"d6/d1a/classMainWindow.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,61,52],
 "d6/d1a/classMainWindow.html#a4869983b8dc750584479ade5447c8413":[1,0,61,10],
 "d6/d1a/classMainWindow.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,61,15],
 "d6/d1a/classMainWindow.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,61,30],
@@ -241,13 +249,5 @@ var NAVTREEINDEX48 =
 "d6/d29/anticheat_8qc.html#ac496aa23572f0c9e435e2d9b1333e929":[2,0,5,8,18],
 "d6/d29/anticheat_8qc.html#ac65c3d43eac87f7fab001ec48f2cedfe":[2,0,5,8,6],
 "d6/d29/anticheat_8qc.html#acab06d3459f9c6079801c5d62bf7d725":[2,0,5,8,19],
-"d6/d29/anticheat_8qc.html#ad52af0e13ac752967839101b3b1a9458":[2,0,5,8,1],
-"d6/d29/anticheat_8qc.html#ad7c8b97b18665aeb9d647f72eac2bfe4":[2,0,5,8,39],
-"d6/d29/anticheat_8qc.html#ad9bf82cfd8a135172f369bbc0fada301":[2,0,5,8,26],
-"d6/d29/anticheat_8qc.html#ae83a5f627cf095e98d8f8977e0063f12":[2,0,5,8,40],
-"d6/d29/anticheat_8qc.html#afe42434a2bf9329e45ce2740e0d56d98":[2,0,5,8,37],
-"d6/d29/anticheat_8qc_source.html":[2,0,5,8],
-"d6/d2a/common_2mutators_2mutator_2weaponarena__random_2__mod_8inc.html":[2,0,1,9,0,32,0],
-"d6/d2a/common_2mutators_2mutator_2weaponarena__random_2__mod_8inc_source.html":[2,0,1,9,0,32,0],
-"d6/d2f/func_2include_8qh.html":[2,0,1,13,0,13]
+"d6/d29/anticheat_8qc.html#ad52af0e13ac752967839101b3b1a9458":[2,0,5,8,1]
 };

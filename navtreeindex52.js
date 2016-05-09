@@ -1,5 +1,14 @@
 var NAVTREEINDEX52 =
 {
+"d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8":[2,0,3,23,17],
+"d6/dce/json_8qc.html#ab02d7990ac4d64bc05810a1a8d8beb05":[2,0,3,23,16],
+"d6/dce/json_8qc.html#ab90640dbf9eb64a373fd80094f03e400":[2,0,3,23,19],
+"d6/dce/json_8qc.html#ac2e751b625bc6970fcc9cca30fdb01b9":[2,0,3,23,23],
+"d6/dce/json_8qc.html#ad734dbbb42baa4756440fde5cf210c20":[2,0,3,23,3],
+"d6/dce/json_8qc.html#ae115b3dcf5c9c885174ca374b6e87564":[2,0,3,23,4],
+"d6/dce/json_8qc.html#ae4eb525793e2b093c460906e84372244":[2,0,3,23,6],
+"d6/dce/json_8qc.html#aec1d29c73086d9f55dc07ac13be9f446":[2,0,3,23,12],
+"d6/dce/json_8qc.html#aedb1b306458e7b23ee8714da6b75b6d7":[2,0,3,23,7],
 "d6/dce/json_8qc.html#afeb977f05274b637aebdf46699f46bc2":[2,0,3,23,8],
 "d6/dce/json_8qc_source.html":[2,0,3,23],
 "d6/dd1/classXonoticHUDCenterprintDialog.html":[1,0,158],
@@ -240,14 +249,5 @@ var NAVTREEINDEX52 =
 "d6/ddd/server_2mutators_2events_8qh.html#a0531501682b18dfa4f59335d0d3b4799":[2,0,5,2,6,263],
 "d6/ddd/server_2mutators_2events_8qh.html#a077511489af573d51424b7adfa0541a5":[2,0,5,2,6,117],
 "d6/ddd/server_2mutators_2events_8qh.html#a091cc6cc101921b144d499efbaa85d38":[2,0,5,2,6,175],
-"d6/ddd/server_2mutators_2events_8qh.html#a0bfb2b8d3b00fd4dda7b45678a35f750":[2,0,5,2,6,171],
-"d6/ddd/server_2mutators_2events_8qh.html#a0c05e020d2b92298af266de71e412235":[2,0,5,2,6,134],
-"d6/ddd/server_2mutators_2events_8qh.html#a0d465dd62fdda963d66658c979484dcf":[2,0,5,2,6,167],
-"d6/ddd/server_2mutators_2events_8qh.html#a0d53a212b77375f8567525c2b46cff3d":[2,0,5,2,6,191],
-"d6/ddd/server_2mutators_2events_8qh.html#a0df2684a8ff65547eca9cec2701e1eec":[2,0,5,2,6,22],
-"d6/ddd/server_2mutators_2events_8qh.html#a13f250ae892ac02c4ba599afb5fae319":[2,0,5,2,6,155],
-"d6/ddd/server_2mutators_2events_8qh.html#a148802c5a66be5ec47b70bcb88426606":[2,0,5,2,6,156],
-"d6/ddd/server_2mutators_2events_8qh.html#a150b7b55f20a2fe071c1de3b882ec82b":[2,0,5,2,6,279],
-"d6/ddd/server_2mutators_2events_8qh.html#a15101ef344fe12e0e7a8b3a10bc1b031":[2,0,5,2,6,259],
-"d6/ddd/server_2mutators_2events_8qh.html#a155f6bd08f3102023bd6cf74df03be71":[2,0,5,2,6,184]
+"d6/ddd/server_2mutators_2events_8qh.html#a0bfb2b8d3b00fd4dda7b45678a35f750":[2,0,5,2,6,171]
 };

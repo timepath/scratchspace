@@ -33,6 +33,7 @@ var menu_8qc =
     [ "m_tooltip", "df/dc2/menu_8qc.html#a43f8369c5856585967a58a0041298975", null ],
     [ "Shutdown", "df/dc2/menu_8qc.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9", null ],
     [ "UpdateConWidthHeight", "df/dc2/menu_8qc.html#aaa456b657e65102b534a4780cd7c2e8a", null ],
+    [ "autocvar_menu_force_on_disconnection", "df/dc2/menu_8qc.html#a6aa3405cd81d3e8630abb79b15e3aacb", null ],
     [ "conheight_s", "df/dc2/menu_8qc.html#a1608b56b536a09ac713a62165c41dbac", null ],
     [ "conwidth_s", "df/dc2/menu_8qc.html#a15bb74840c3f962712831e1f6cbdcbc8", null ],
     [ "cvarName", "df/dc2/menu_8qc.html#aa958d5d2b2d14b4705a46d5474d9843e", null ],

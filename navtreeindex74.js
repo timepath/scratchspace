@@ -1,5 +1,17 @@
 var NAVTREEINDEX74 =
 {
+"d9/d52/slider__resolution_8qc.html#a0023b0b318a53615b27a6ccf82b9cadb":[2,0,4,4,210,5],
+"d9/d52/slider__resolution_8qc.html#a051beb778d4db0e0658893922f2bb82b":[2,0,4,4,210,7],
+"d9/d52/slider__resolution_8qc.html#a149905fe320ea86a270c6f41cd86f003":[2,0,4,4,210,1],
+"d9/d52/slider__resolution_8qc.html#a35e745e504c437f1bb0ee7558b6b3211":[2,0,4,4,210,9],
+"d9/d52/slider__resolution_8qc.html#a4117a9323add7535cf7a34c995b85018":[2,0,4,4,210,0],
+"d9/d52/slider__resolution_8qc.html#a54424097b50c302914d72b96b7b989ce":[2,0,4,4,210,4],
+"d9/d52/slider__resolution_8qc.html#a80f7abf2a4e89461d56d6796ca0e9270":[2,0,4,4,210,3],
+"d9/d52/slider__resolution_8qc.html#a816f13fdb701fffcf78fd51ecfad9b59":[2,0,4,4,210,2],
+"d9/d52/slider__resolution_8qc.html#a97444750f2615c95ab4e1b9bd0d0d7f6":[2,0,4,4,210,6],
+"d9/d52/slider__resolution_8qc.html#abbceec00ae26a7823355990f90fc6106":[2,0,4,4,210,8],
+"d9/d52/slider__resolution_8qc_source.html":[2,0,4,4,210],
+"d9/d55/xonotic_2dialog_8qc.html":[2,0,4,4,38],
 "d9/d55/xonotic_2dialog_8qc.html#a84d719e408ce47b9ccc66a40bab296d7":[2,0,4,4,38,0],
 "d9/d55/xonotic_2dialog_8qc_source.html":[2,0,4,4,38],
 "d9/d58/classXonoticResolutionSlider.html":[1,0,206],
@@ -237,17 +249,5 @@ var NAVTREEINDEX74 =
 "d9/d67/turret_8qh.html#a5c6d094ff56c38ff539675705c08317a":[2,0,1,14,12,43],
 "d9/d67/turret_8qh.html#a5d69d57875d1e8881ed07034c2daeb5f":[2,0,1,14,12,21],
 "d9/d67/turret_8qh.html#a5db4c7546bcddc7b46c04c94d915a8ab":[2,0,1,14,12,15],
-"d9/d67/turret_8qh.html#a5f33d720914f6502aef6dd946e0ef227":[2,0,1,14,12,75],
-"d9/d67/turret_8qh.html#a62f80bc2bbfd5274f2eebe5f873cb1eb":[2,0,1,14,12,33],
-"d9/d67/turret_8qh.html#a649c5558d3543d12cdc22318f25bc8b8":[2,0,1,14,12,64],
-"d9/d67/turret_8qh.html#a67e2c612a2dc80c4152b2b15f9b5edef":[2,0,1,14,12,94],
-"d9/d67/turret_8qh.html#a6c1845ffb59c25a09a39be3c7454a108":[2,0,1,14,12,7],
-"d9/d67/turret_8qh.html#a6caad5e282b3f4959d96f399b24b354c":[2,0,1,14,12,8],
-"d9/d67/turret_8qh.html#a6dfc1516d059ec53303c4b3b51b1ba0a":[2,0,1,14,12,22],
-"d9/d67/turret_8qh.html#a7377b3377fd6882c8c15cc5d0ed9e0b6":[2,0,1,14,12,54],
-"d9/d67/turret_8qh.html#a744804562ab03101561a3941f70dbb8c":[2,0,1,14,12,16],
-"d9/d67/turret_8qh.html#a7847760f5ddaabc4effb0c7f184809af":[2,0,1,14,12,4],
-"d9/d67/turret_8qh.html#a7879e216d6ad1d7e902adcaf638e90c4":[2,0,1,14,12,41],
-"d9/d67/turret_8qh.html#a7b7fe83152fe6d427243c489a9c11e4c":[2,0,1,14,12,55],
-"d9/d67/turret_8qh.html#a7f02a2afbfa2575351dfec0da468d0f0":[2,0,1,14,12,78]
+"d9/d67/turret_8qh.html#a5f33d720914f6502aef6dd946e0ef227":[2,0,1,14,12,75]
 };

@@ -1514,6 +1514,7 @@ var searchData=
   ['autocvar_5floddebug',['autocvar_loddebug',['../d7/da7/server_2autocvars_8qh.html#ac169d350e5ce92db51ef8db5c87b441c',1,'autocvars.qh']]],
   ['autocvar_5fmatrix_5fserver',['autocvar_matrix_server',['../d5/d95/lib_2matrix_2matrix_8qh.html#a80343ebf9441ed8a275470271a44b9c8',1,'matrix.qh']]],
   ['autocvar_5fmenu_5fcvarlist_5fonlymodified',['autocvar_menu_cvarlist_onlymodified',['../d9/d47/cvarlist_8qh.html#a59b8ea8092fc1d518741fcad07d4caf8',1,'cvarlist.qh']]],
+  ['autocvar_5fmenu_5fforce_5fon_5fdisconnection',['autocvar_menu_force_on_disconnection',['../df/dc2/menu_8qc.html#a6aa3405cd81d3e8630abb79b15e3aacb',1,'menu.qc']]],
   ['autocvar_5fmenu_5fforced_5fsaved_5fcvars',['autocvar_menu_forced_saved_cvars',['../dc/d56/cvarlist_8qc.html#a10ec4a764cb4b6a27f99d3f6bc699c89',1,'cvarlist.qc']]],
   ['autocvar_5fmenu_5fmouse_5fspeed',['autocvar_menu_mouse_speed',['../d7/db4/client_2autocvars_8qh.html#a9c98f8575624437f3c4e14709601e5dd',1,'autocvars.qh']]],
   ['autocvar_5fmenu_5freverted_5fnonsaved_5fcvars',['autocvar_menu_reverted_nonsaved_cvars',['../dc/d56/cvarlist_8qc.html#a835d740822c3cebb0ab18e87ad5ad1c0',1,'cvarlist.qc']]],

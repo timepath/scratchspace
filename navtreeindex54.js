@@ -1,5 +1,14 @@
 var NAVTREEINDEX54 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#ae3ea2e0d885e0ac8591afd492baedf2c":[2,0,5,2,6,179],
+"d6/ddd/server_2mutators_2events_8qh.html#ae4698e0d06213e9e4e05c9857a4b2b32":[2,0,5,2,6,260],
+"d6/ddd/server_2mutators_2events_8qh.html#ae63033f763780b400baf5d669e6b9629":[2,0,5,2,6,190],
+"d6/ddd/server_2mutators_2events_8qh.html#ae635b9c37101c487d0d779be61c1f41c":[2,0,5,2,6,261],
+"d6/ddd/server_2mutators_2events_8qh.html#ae6c76edb2d2671943f0f0c67444302de":[2,0,5,2,6,33],
+"d6/ddd/server_2mutators_2events_8qh.html#ae81fe3a606d03be20b2a4bf6d135ad7d":[2,0,5,2,6,257],
+"d6/ddd/server_2mutators_2events_8qh.html#ae9007e3f07cfabdb29c726cd6027911e":[2,0,5,2,6,168],
+"d6/ddd/server_2mutators_2events_8qh.html#ae9065172360ce60a1dfdab51224097c0":[2,0,5,2,6,176],
+"d6/ddd/server_2mutators_2events_8qh.html#ae95b0e3f02b7371345a3ed01fb4f860a":[2,0,5,2,6,203],
 "d6/ddd/server_2mutators_2events_8qh.html#aea1916db91b89ff8aae5364a617ae9f2":[2,0,5,2,6,233],
 "d6/ddd/server_2mutators_2events_8qh.html#aeccd33291fc9c712487dfb735c54b3af":[2,0,5,2,6,201],
 "d6/ddd/server_2mutators_2events_8qh.html#aedd426bcf06dde4f1a0b11b67973e112":[2,0,5,2,6,185],
@@ -240,14 +249,5 @@ var NAVTREEINDEX54 =
 "d7/d13/classXonoticHUDAmmoDialog.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,157,47],
 "d7/d13/classXonoticHUDAmmoDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,157,9],
 "d7/d13/classXonoticHUDAmmoDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,157,24],
-"d7/d13/classXonoticHUDAmmoDialog.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,157,54],
-"d7/d13/classXonoticHUDAmmoDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,157,25],
-"d7/d13/classXonoticHUDAmmoDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,157,87],
-"d7/d13/classXonoticHUDAmmoDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,157,73],
-"d7/d13/classXonoticHUDAmmoDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,157,33],
-"d7/d13/classXonoticHUDAmmoDialog.html#ac585f4f082ba25f5afde74ec79f6d1ae":[1,0,157,80],
-"d7/d13/classXonoticHUDAmmoDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,157,0],
-"d7/d13/classXonoticHUDAmmoDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,157,5],
-"d7/d13/classXonoticHUDAmmoDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,157,22],
-"d7/d13/classXonoticHUDAmmoDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,157,27]
+"d7/d13/classXonoticHUDAmmoDialog.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,157,54]
 };

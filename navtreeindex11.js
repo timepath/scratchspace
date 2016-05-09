@@ -1,5 +1,8 @@
 var NAVTREEINDEX11 =
 {
+"d1/d91/t__quake3_8qc.html#a77b2c8a25991e58c5400d82053fac79b":[2,0,5,72,6],
+"d1/d91/t__quake3_8qc.html#a822ec2605e82db0fc56fb7798d1ce7d7":[2,0,5,72,3],
+"d1/d91/t__quake3_8qc.html#a8b9c7d9db7cc12b8917ce58529f3487a":[2,0,5,72,28],
 "d1/d91/t__quake3_8qc.html#a8ef5ddb9905e6f46d2dfee60b51bb47b":[2,0,5,72,27],
 "d1/d91/t__quake3_8qc.html#a911cba90e2826c0cd4ddea1cfa40ced6":[2,0,5,72,42],
 "d1/d91/t__quake3_8qc.html#a9bd9c81741eaf38a13366648cfa9593b":[2,0,5,72,26],
@@ -213,8 +216,8 @@ var NAVTREEINDEX11 =
 "d1/dad/server_2command_2vote_8qc.html#aab1e8a5bcb59d84dc544b44f98bfd267":[2,0,5,1,16,29],
 "d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f":[2,0,5,1,16,14],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,5,1,16,1],
-"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,5,1,16,2],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,5,1,16,0],
+"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,5,1,16,2],
 "d1/dad/server_2command_2vote_8qc.html#aeb5a1f746f1d97c3cc25df64e6b0ef68":[2,0,5,1,16,6],
 "d1/dad/server_2command_2vote_8qc.html#afa3842ee6c4c5d4bf93d915d2a3bfe2b":[2,0,5,1,16,16],
 "d1/dad/server_2command_2vote_8qc.html#afc5d81170122263e3548af3ce2537e7f":[2,0,5,1,16,27],
@@ -246,8 +249,5 @@ var NAVTREEINDEX11 =
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,145,4],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,145,32],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,145,10],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,145,38],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,145,43],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,145,18],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,145,8]
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,145,38]
 };

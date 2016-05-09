@@ -1,5 +1,9 @@
 var NAVTREEINDEX26 =
 {
+"d3/db6/projectile_8qc.html#a1d28dec57cce925ad92342891bd71e7c":[2,0,0,3,2,13],
+"d3/db6/projectile_8qc.html#a3ca3553902e7242b1d6557434ef2634d":[2,0,0,3,2,2],
+"d3/db6/projectile_8qc.html#a4520a37f8a65df80d037b5933f06b02b":[2,0,0,3,2,10],
+"d3/db6/projectile_8qc.html#a80c34c3e86a9ef71dfcdff65bd795540":[2,0,0,3,2,3],
 "d3/db6/projectile_8qc.html#a8dd2ff6f7e91f29342b8cd2ba8887015":[2,0,0,3,2,9],
 "d3/db6/projectile_8qc.html#aa0569f1b060229bf8b6d0c13b4dff8f1":[2,0,0,3,2,1],
 "d3/db6/projectile_8qc.html#aa12d111ca27797a792f8738195db5a76":[2,0,0,3,2,7],
@@ -194,8 +198,8 @@ var NAVTREEINDEX26 =
 "d3/dbf/minigames_8qc.html#a50da88a37fb88826817f7d669b24c423":[2,0,1,6,7,2],
 "d3/dbf/minigames_8qc.html#a5568c7bdd5bad578cdc98deb0789b79c":[2,0,1,6,7,5],
 "d3/dbf/minigames_8qc.html#a6a7ba74fcc2a57d2d4d7aa64ab15d4c6":[2,0,1,6,7,14],
-"d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,7,0],
 "d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,7,1],
+"d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,7,0],
 "d3/dbf/minigames_8qc.html#a861b76acd237a6c594cb831085a9af9a":[2,0,1,6,7,4],
 "d3/dbf/minigames_8qc.html#ab50b72cd401e642ccfaa7614ac58d414":[2,0,1,6,7,9],
 "d3/dbf/minigames_8qc.html#ab62771fe024e72ee184cdef2774646f3":[2,0,1,6,7,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX26 =
 "d3/dcd/scores_8qh.html#a2f5738674b5f6bac88679dd31ac2de9e":[2,0,5,57,16],
 "d3/dcd/scores_8qh.html#a394bf84d67f07e376beeff4a5c6ed94c":[2,0,5,57,15],
 "d3/dcd/scores_8qh.html#a3b3f78fad3dbef3ebefbcbd1af28e8e2":[2,0,5,57,25],
-"d3/dcd/scores_8qh.html#a408a3ce2d8238dea7575fb00e5b0df63":[2,0,5,57,6],
-"d3/dcd/scores_8qh.html#a44db80abc726d6330522fa5382f1b6e3":[2,0,5,57,0],
-"d3/dcd/scores_8qh.html#a49ab4c157dab975433e94a16f05d9d17":[2,0,5,57,17],
-"d3/dcd/scores_8qh.html#a4d43b789941743d9edb8105089a187b5":[2,0,5,57,21],
-"d3/dcd/scores_8qh.html#a4e597c14f389b7db7703d04c6f987db2":[2,0,5,57,4]
+"d3/dcd/scores_8qh.html#a408a3ce2d8238dea7575fb00e5b0df63":[2,0,5,57,6]
 };

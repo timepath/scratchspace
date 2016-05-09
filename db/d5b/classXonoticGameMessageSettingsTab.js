@@ -85,6 +85,7 @@ var classXonoticGameMessageSettingsTab =
     [ "title", "db/d5b/classXonoticGameMessageSettingsTab.html#add1e33161a750f81fb5a9894cacd2299", null ],
     [ "titleFontSize", "db/d5b/classXonoticGameMessageSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c", null ],
     [ "titleHeight", "db/d5b/classXonoticGameMessageSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302", null ],
+    [ "titleTooltip", "db/d5b/classXonoticGameMessageSettingsTab.html#a2a52d6df006a674e33fb27415598a835", null ],
     [ "tooltip", "db/d5b/classXonoticGameMessageSettingsTab.html#a253df954a75f54d7f8ff1edfdb3c2e13", null ],
     [ "weaponsList", "db/d5b/classXonoticGameMessageSettingsTab.html#a6161db7c5757914f58e736ff69caa731", null ],
     [ "zoomedOutTitleBar", "db/d5b/classXonoticGameMessageSettingsTab.html#a7c7e80231d41f67692ab5f902d127416", null ],

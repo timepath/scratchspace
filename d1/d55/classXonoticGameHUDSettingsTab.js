@@ -85,6 +85,7 @@ var classXonoticGameHUDSettingsTab =
     [ "title", "d1/d55/classXonoticGameHUDSettingsTab.html#a278af96f5e57c0c9f499bec02b0bf58a", null ],
     [ "titleFontSize", "d1/d55/classXonoticGameHUDSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c", null ],
     [ "titleHeight", "d1/d55/classXonoticGameHUDSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302", null ],
+    [ "titleTooltip", "d1/d55/classXonoticGameHUDSettingsTab.html#a2a52d6df006a674e33fb27415598a835", null ],
     [ "tooltip", "d1/d55/classXonoticGameHUDSettingsTab.html#a253df954a75f54d7f8ff1edfdb3c2e13", null ],
     [ "zoomedOutTitleBar", "d1/d55/classXonoticGameHUDSettingsTab.html#a7c7e80231d41f67692ab5f902d127416", null ],
     [ "zoomedOutTitleBarPosition", "d1/d55/classXonoticGameHUDSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f", null ]

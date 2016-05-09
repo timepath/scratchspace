@@ -1,5 +1,15 @@
 var NAVTREEINDEX68 =
 {
+"d8/d6b/selection_8qh.html#aeffb5f5c575c97f12381045f6f091403":[2,0,5,4,11,12],
+"d8/d6b/selection_8qh_source.html":[2,0,5,4,11],
+"d8/d6d/viewloc_8qc.html":[2,0,1,46],
+"d8/d6d/viewloc_8qc.html#ad4224551c2b606237629fa6bd79384d8":[2,0,1,46,0],
+"d8/d6d/viewloc_8qc_source.html":[2,0,1,46],
+"d8/d76/xonotic_2checkbox_8qh.html":[2,0,4,4,13],
+"d8/d76/xonotic_2checkbox_8qh.html#a7dc2985c3982e5fb466f48215abb8069":[2,0,4,4,13,2],
+"d8/d76/xonotic_2checkbox_8qh.html#ac556c363097bb2c326f8681f5b38e28a":[2,0,4,4,13,4],
+"d8/d76/xonotic_2checkbox_8qh.html#ae01b150bc158d5b5fb5ee649324b9706":[2,0,4,4,13,3],
+"d8/d76/xonotic_2checkbox_8qh.html#ae6725ad239c958cb43c1254ea3be7554":[2,0,4,4,13,1],
 "d8/d76/xonotic_2checkbox_8qh_source.html":[2,0,4,4,13],
 "d8/d7e/common_2deathtypes_2all_8qc.html":[2,0,1,1,3],
 "d8/d7e/common_2deathtypes_2all_8qc.html#ab228bbc4e90e596f0f88f2556ee96c59":[2,0,1,1,3,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX68 =
 "d8/da4/classInputContainer.html#ad775d09b5fdfc77bb5da9428818c6b49":[1,0,47,14],
 "d8/da4/classInputContainer.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,47,15],
 "d8/da4/classInputContainer.html#af1aab403dc54575707fd57991312b201":[1,0,47,30],
-"d8/da4/classInputContainer.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,47,23],
-"d8/da4/classInputContainer.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,47,2],
-"d8/da4/classInputContainer.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,47,21],
-"d8/da4/classInputContainer.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,47,25],
-"d8/da4/classInputContainer.html#afc9428d371ed63dd0316db5558e81d30":[1,0,47,45],
-"d8/da6/interpolate_8qh.html":[2,0,3,0,8],
-"d8/da6/interpolate_8qh.html#a10cf074544b4da37db572f5a4b8d603a":[2,0,3,0,8,7],
-"d8/da6/interpolate_8qh.html#a20faa367e0199c3321dae4b3a8a9e265":[2,0,3,0,8,10],
-"d8/da6/interpolate_8qh.html#a262c34c2f395aba2418eea212c645708":[2,0,3,0,8,0],
-"d8/da6/interpolate_8qh.html#a2853daa5f3757edf33a7f0498ae6c62a":[2,0,3,0,8,13],
-"d8/da6/interpolate_8qh.html#a3780573ed7bdd32ade50ed6f1636b0fe":[2,0,3,0,8,12]
+"d8/da4/classInputContainer.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,47,23]
 };

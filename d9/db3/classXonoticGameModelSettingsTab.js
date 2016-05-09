@@ -85,7 +85,8 @@ var classXonoticGameModelSettingsTab =
     [ "title", "d9/db3/classXonoticGameModelSettingsTab.html#a61040128f2010ca07df3feea474545a6", null ],
     [ "titleFontSize", "d9/db3/classXonoticGameModelSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c", null ],
     [ "titleHeight", "d9/db3/classXonoticGameModelSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302", null ],
-    [ "tooltip", "d9/db3/classXonoticGameModelSettingsTab.html#a2122ef660fa5fdddcd889b68d83b09f0", null ],
+    [ "titleTooltip", "d9/db3/classXonoticGameModelSettingsTab.html#a4e8674c37078db5c00618a2715a1f9a8", null ],
+    [ "tooltip", "d9/db3/classXonoticGameModelSettingsTab.html#a253df954a75f54d7f8ff1edfdb3c2e13", null ],
     [ "zoomedOutTitleBar", "d9/db3/classXonoticGameModelSettingsTab.html#a7c7e80231d41f67692ab5f902d127416", null ],
     [ "zoomedOutTitleBarPosition", "d9/db3/classXonoticGameModelSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f", null ]
 ];

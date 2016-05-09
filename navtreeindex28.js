@@ -1,5 +1,10 @@
 var NAVTREEINDEX28 =
 {
+"d3/de0/anim_8qh.html#a4dfb495f19f535f5aac08ff7084e8a7a":[2,0,1,21,20],
+"d3/de0/anim_8qh.html#a5324f63b39a42014ebc26fd1f3c0828e":[2,0,1,21,16],
+"d3/de0/anim_8qh.html#a5b9db4d5af89e94b79536c7ca10c3271":[2,0,1,21,22],
+"d3/de0/anim_8qh.html#a70db4daa190eb97492636bf734991ff3":[2,0,1,21,19],
+"d3/de0/anim_8qh.html#a772713e6e892a6e8fe40076d9c0b68cd":[2,0,1,21,3],
 "d3/de0/anim_8qh.html#a78948e411b23a8572a83352f8d796bfc":[2,0,1,21,8],
 "d3/de0/anim_8qh.html#a79b00ef7741d79a3879389c29ad80657":[2,0,1,21,0],
 "d3/de0/anim_8qh.html#a7d9c41a4e7d0e86ff832c5bb50b07696":[2,0,1,21,21],
@@ -244,10 +249,5 @@ var NAVTREEINDEX28 =
 "d4/d09/classXonoticCheckBoxString.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,130,66],
 "d4/d09/classXonoticCheckBoxString.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,130,68],
 "d4/d09/classXonoticCheckBoxString.html#a886e4df91aff3f4b1bda33666f8174d6":[1,0,130,78],
-"d4/d09/classXonoticCheckBoxString.html#a8894e7ce2ef345979ef91af7035cc80b":[1,0,130,47],
-"d4/d09/classXonoticCheckBoxString.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,130,65],
-"d4/d09/classXonoticCheckBoxString.html#a8b3010fc463034904b21d7d6da17a127":[1,0,130,64],
-"d4/d09/classXonoticCheckBoxString.html#a8c568c803f49400fd0165b69f82d4161":[1,0,130,61],
-"d4/d09/classXonoticCheckBoxString.html#a928f38e3f890c641e0c91571b3fdc360":[1,0,130,75],
-"d4/d09/classXonoticCheckBoxString.html#a95e3e1c82a75a5ee33b08f1da84c05bd":[1,0,130,35]
+"d4/d09/classXonoticCheckBoxString.html#a8894e7ce2ef345979ef91af7035cc80b":[1,0,130,47]
 };

@@ -60,6 +60,7 @@ var classXonoticCheckBox =
     [ "isBold", "de/d42/classXonoticCheckBox.html#a3f01007bf18a2197c9214bc26a94ec74", null ],
     [ "keepspaceLeft", "de/d42/classXonoticCheckBox.html#a7ba277f3c886c7d391915d273fede63c", null ],
     [ "keepspaceRight", "de/d42/classXonoticCheckBox.html#ad762a94c4a36ceed8f86976dd8132ddc", null ],
+    [ "linkedCheckBox", "de/d42/classXonoticCheckBox.html#ade2680d8009fbb0316dee89e83357441", null ],
     [ "marginLeft", "de/d42/classXonoticCheckBox.html#a40134d685fe2f30e682c4fefed882e7e", null ],
     [ "marginRight", "de/d42/classXonoticCheckBox.html#a8c568c803f49400fd0165b69f82d4161", null ],
     [ "noValue", "de/d42/classXonoticCheckBox.html#a4dbc2c83662223b24dabae8a368608a3", null ],
