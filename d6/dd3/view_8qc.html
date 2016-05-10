@@ -1492,7 +1492,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01393"></a><span class="lineno"> 1393</span>&#160;        <a class="code" href="../../d0/d2a/client_2main_8qh.html#a5c99b875745a80396b4fbd1e7d54438c">view_quality</a> = 1;</div>
 <div class="line"><a name="l01394"></a><span class="lineno"> 1394</span>&#160;</div>
 <div class="line"><a name="l01395"></a><span class="lineno"> 1395</span>&#160;    <span class="comment">// this needs to be updated manually now due to the destruction of engine physics stats</span></div>
-<div class="line"><a name="l01396"></a><span class="lineno"> 1396</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a39eed31448b82c2d07c4d0be8a409853">autocvar_slowmo</a> != STAT(MOVEVARS_TIMESCALE))</div>
+<div class="line"><a name="l01396"></a><span class="lineno"> 1396</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d8/de2/menudefs_8qc.html#a15433f7569b9361acf17695cf9df7ecd">isdemo</a>() &amp;&amp; <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a39eed31448b82c2d07c4d0be8a409853">autocvar_slowmo</a> != STAT(MOVEVARS_TIMESCALE))</div>
 <div class="line"><a name="l01397"></a><span class="lineno"> 1397</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;slowmo&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(STAT(MOVEVARS_TIMESCALE)));</div>
 <div class="line"><a name="l01398"></a><span class="lineno"> 1398</span>&#160;</div>
 <div class="line"><a name="l01399"></a><span class="lineno"> 1399</span>&#160;    <a class="code" href="../../d0/d2a/client_2main_8qh.html#a6676069095d228904691523d07db2df5">button_attack2</a> = <a class="code" href="../../df/dae/player_8qh.html#aef86542f9909f794e073794b9dab3af7">PHYS_INPUT_BUTTON_ATCK2</a>(<span class="keyword">this</span>);</div>
@@ -6312,7 +6312,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d6/dd3/view_8qc.html">view.qc</a></li>
-    <li class="footer">Generated on Tue May 10 2016 20:10:53 for Xonotic by
+    <li class="footer">Generated on Tue May 10 2016 22:26:07 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
