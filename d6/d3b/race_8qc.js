@@ -1,6 +1,6 @@
 var race_8qc =
 [
-    [ "checkpoint_passed", "d6/d3b/race_8qc.html#a9fde3e6d09915a98f33d67aed4235692", null ],
+    [ "checkpoint_passed", "d6/d3b/race_8qc.html#a168c20261636613428331b1f27301d1a", null ],
     [ "checkpoint_touch", "d6/d3b/race_8qc.html#ac809ddb29c364ac0d3c649a2837d855f", null ],
     [ "checkpoint_use", "d6/d3b/race_8qc.html#a8b0b69d2df015a448c6049b2c9f21acd", null ],
     [ "dumpsurface", "d6/d3b/race_8qc.html#a1a63a0ea8f06ab407823765692190a81", null ],
@@ -15,13 +15,13 @@ var race_8qc =
     [ "race_ImposePenaltyTime", "d6/d3b/race_8qc.html#afa5e1361b7c998c73649e0ac53556901", null ],
     [ "race_InitSpectator", "d6/d3b/race_8qc.html#a8232d22b14b449f33a50b5af32792d38", null ],
     [ "race_NextCheckpoint", "d6/d3b/race_8qc.html#a8a2538ef381890c5e7f7fe836e1fedaa", null ],
-    [ "race_PreparePlayer", "d6/d3b/race_8qc.html#a513f2c7716f096b180b637ff5a6e05fd", null ],
+    [ "race_PreparePlayer", "d6/d3b/race_8qc.html#a2dc87fbca84cbbf8ac854670fa11871b", null ],
     [ "race_PreviousCheckpoint", "d6/d3b/race_8qc.html#a09c44ef9cf2c6bc5c767d08d250abf96", null ],
     [ "race_readName", "d6/d3b/race_8qc.html#a877adb9000854ec90f29ac4f39431939", null ],
     [ "race_readPos", "d6/d3b/race_8qc.html#a53685983af63f73a8f8479cb56d8bc6c", null ],
     [ "race_readTime", "d6/d3b/race_8qc.html#a09be8f93dea17575b988e542ee34da21", null ],
     [ "race_readUID", "d6/d3b/race_8qc.html#ae05ef2b5b27ff3e99decabbc4410e718", null ],
-    [ "race_RetractPlayer", "d6/d3b/race_8qc.html#ae2f26f742398b7aa4c374a8602ebd87b", null ],
+    [ "race_RetractPlayer", "d6/d3b/race_8qc.html#ab8d2b87ee2d54b1402a27901ebdae164", null ],
     [ "race_send_recordtime", "d6/d3b/race_8qc.html#adde3148534e8ffc72f956ef1031467ab", null ],
     [ "race_send_speedaward", "d6/d3b/race_8qc.html#ab495eed7037d0ad7adc9a102993fb226", null ],
     [ "race_send_speedaward_alltimebest", "d6/d3b/race_8qc.html#aa77a445ff7257d62eb6cfed505be32cc", null ],
