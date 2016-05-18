@@ -206,8 +206,8 @@ Functions</h2></td></tr>
 <tr class="separator:ab63b3f030b81cc07f9f02edfcf12d07f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98ec5468ec6281fade27fb92541c7174"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3b/race_8qc.html#a98ec5468ec6281fade27fb92541c7174">race_StartCompleting</a> ()</td></tr>
 <tr class="separator:a98ec5468ec6281fade27fb92541c7174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab629c033922c2037d43e9c7e09695805"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3b/race_8qc.html#ab629c033922c2037d43e9c7e09695805">race_waypointsprite_visible_for_player</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> e)</td></tr>
-<tr class="separator:ab629c033922c2037d43e9c7e09695805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8988550efefbbf06b299ca30e0abd002"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3b/race_8qc.html#a8988550efefbbf06b299ca30e0abd002">race_waypointsprite_visible_for_player</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> this, <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> player, <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> view)</td></tr>
+<tr class="separator:a8988550efefbbf06b299ca30e0abd002"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae61f2a2c6a18fa5904028f07c4b72d3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3b/race_8qc.html#ae61f2a2c6a18fa5904028f07c4b72d3a">race_writeTime</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> map, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> myuid)</td></tr>
 <tr class="separator:ae61f2a2c6a18fa5904028f07c4b72d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a696329dda631e76ee7c5542c9fabc8a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d3b/race_8qc.html#a696329dda631e76ee7c5542c9fabc8a5">spawnfunc</a> (target_checkpoint)</td></tr>
@@ -2641,41 +2641,54 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab629c033922c2037d43e9c7e09695805"></a>
+<a class="anchor" id="a8988550efefbbf06b299ca30e0abd002"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> race_waypointsprite_visible_for_player </td>
+          <td class="memname"><a class="el" href="../../dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a> race_waypointsprite_visible_for_player </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td>
-          <td class="paramname"><em>e</em></td><td>)</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td>
+          <td class="paramname"><em>view</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../d6/d3b/race_8qc_source.html#l00717">717</a> of file <a class="el" href="../../d6/d3b/race_8qc_source.html">race.qc</a>.</p>
 
-<p>References <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>.</p>
-
 <p>Referenced by <a class="el" href="../../d6/d3b/race_8qc_source.html#l00908">spawnfunc()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    <span class="keywordflow">if</span>(e.race_checkpoint == -1 || <span class="keyword">self</span>.owner.race_checkpoint == -2)</div>
+<div class="fragment"><div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;{</div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    <span class="keywordflow">if</span>(view.race_checkpoint == -1 || <span class="keyword">this</span>.owner.race_checkpoint == -2)</div>
 <div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(e.race_checkpoint == <span class="keyword">self</span>.owner.race_checkpoint)</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(view.race_checkpoint == <span class="keyword">this</span>.owner.race_checkpoint)</div>
 <div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-54" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-54-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-54-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-54-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3b/race_8qc_ab629c033922c2037d43e9c7e09695805_icgraph.svg" width="283" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d3b/race_8qc_a8988550efefbbf06b299ca30e0abd002_icgraph.svg" width="283" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2838,7 +2851,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160;        WaypointSprite_SpawnFixed(WP_RaceCheckpoint, o, <span class="keyword">self</span>, <a class="code" href="../../d6/d3b/race_8qc.html#a44f2d02591475477365d7f7ec9d55f3c">sprite</a>, RADARICON_NONE);</div>
 <div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160;</div>
-<div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;    <span class="keyword">self</span>.sprite.waypointsprite_visible_for_player = <a class="code" href="../../d6/d3b/race_8qc.html#ab629c033922c2037d43e9c7e09695805">race_waypointsprite_visible_for_player</a>;</div>
+<div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;    <span class="keyword">self</span>.sprite.waypointsprite_visible_for_player = <a class="code" href="../../d6/d3b/race_8qc.html#a8988550efefbbf06b299ca30e0abd002">race_waypointsprite_visible_for_player</a>;</div>
 <div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;</div>
 <div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(<span class="keyword">self</span>, <a class="code" href="../../d6/d3b/race_8qc.html#af38e736fe67a1f8702b94c9de9ae9f88">trigger_race_checkpoint_verify</a>, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a>);</div>
 <div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;}</div>
@@ -2850,7 +2863,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="race_8qc_html_a44f2d02591475477365d7f7ec9d55f3c"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a44f2d02591475477365d7f7ec9d55f3c">sprite</a></div><div class="ttdeci">entity sprite</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00106">race.qc:106</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a74a1891d4df9081e084d5d1235aac69a"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a></div><div class="ttdeci">const int INITPRIO_FINDTARGET</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00010">miscfunctions.qh:10</a></div></div>
 <div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
-<div class="ttc" id="race_8qc_html_ab629c033922c2037d43e9c7e09695805"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#ab629c033922c2037d43e9c7e09695805">race_waypointsprite_visible_for_player</a></div><div class="ttdeci">float race_waypointsprite_visible_for_player(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00717">race.qc:717</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="race_8qc_html_ac809ddb29c364ac0d3c649a2837d855f"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#ac809ddb29c364ac0d3c649a2837d855f">checkpoint_touch</a></div><div class="ttdeci">void checkpoint_touch()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00702">race.qc:702</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_ad290212f87c2157a878ffc0947b60251"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a></div><div class="ttdeci">float spawnflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00191">progsdefs.qc:191</a></div></div>
@@ -2862,6 +2874,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="race_8qc_html_a41dc66c634475983cdff75eec8649bf6"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a41dc66c634475983cdff75eec8649bf6">race_penalty_reason</a></div><div class="ttdeci">string race_penalty_reason</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00102">race.qc:102</a></div></div>
 <div class="ttc" id="race_8qc_html_a8b0b69d2df015a448c6049b2c9f21acd"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a8b0b69d2df015a448c6049b2c9f21acd">checkpoint_use</a></div><div class="ttdeci">void checkpoint_use(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00708">race.qc:708</a></div></div>
 <div class="ttc" id="waypoints_8qc_html_ad27523bc57e3e597f8bfa75bf7ddd72e"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ad27523bc57e3e597f8bfa75bf7ddd72e">waypoint_spawnforitem_force</a></div><div class="ttdeci">void waypoint_spawnforitem_force(entity e, vector org)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00726">waypoints.qc:726</a></div></div>
+<div class="ttc" id="race_8qc_html_a8988550efefbbf06b299ca30e0abd002"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a8988550efefbbf06b299ca30e0abd002">race_waypointsprite_visible_for_player</a></div><div class="ttdeci">bool race_waypointsprite_visible_for_player(entity this, entity player, entity view)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00717">race.qc:717</a></div></div>
 <div class="ttc" id="race_8qc_html_af38e736fe67a1f8702b94c9de9ae9f88"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#af38e736fe67a1f8702b94c9de9ae9f88">trigger_race_checkpoint_verify</a></div><div class="ttdeci">void trigger_race_checkpoint_verify(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00727">race.qc:727</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="race_8qc_html_a51f6661918cf5435d4c4ef00302e72c0"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a51f6661918cf5435d4c4ef00302e72c0">race_timed_checkpoint</a></div><div class="ttdeci">float race_timed_checkpoint</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00115">race.qc:115</a></div></div>
@@ -2937,7 +2950,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;            WaypointSprite_SpawnFixed(WP_RaceStartFinish, o, <span class="keyword">self</span>, <a class="code" href="../../d6/d3b/race_8qc.html#a44f2d02591475477365d7f7ec9d55f3c">sprite</a>, RADARICON_NONE);</div>
 <div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;    }</div>
 <div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;</div>
-<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;    <span class="keyword">self</span>.sprite.waypointsprite_visible_for_player = <a class="code" href="../../d6/d3b/race_8qc.html#ab629c033922c2037d43e9c7e09695805">race_waypointsprite_visible_for_player</a>;</div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;    <span class="keyword">self</span>.sprite.waypointsprite_visible_for_player = <a class="code" href="../../d6/d3b/race_8qc.html#a8988550efefbbf06b299ca30e0abd002">race_waypointsprite_visible_for_player</a>;</div>
 <div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;    <span class="keyword">self</span>.spawn_evalfunc = <a class="code" href="../../d6/d3b/race_8qc.html#a826975b9d9b687e6f73391d549700203">trigger_race_checkpoint_spawn_evalfunc</a>;</div>
 <div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;</div>
 <div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(<span class="keyword">self</span>, <a class="code" href="../../d6/d3b/race_8qc.html#af38e736fe67a1f8702b94c9de9ae9f88">trigger_race_checkpoint_verify</a>, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a>);</div>
@@ -2950,7 +2963,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="race_8qc_html_a44f2d02591475477365d7f7ec9d55f3c"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a44f2d02591475477365d7f7ec9d55f3c">sprite</a></div><div class="ttdeci">entity sprite</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00106">race.qc:106</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a74a1891d4df9081e084d5d1235aac69a"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a></div><div class="ttdeci">const int INITPRIO_FINDTARGET</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00010">miscfunctions.qh:10</a></div></div>
 <div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
-<div class="ttc" id="race_8qc_html_ab629c033922c2037d43e9c7e09695805"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#ab629c033922c2037d43e9c7e09695805">race_waypointsprite_visible_for_player</a></div><div class="ttdeci">float race_waypointsprite_visible_for_player(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00717">race.qc:717</a></div></div>
 <div class="ttc" id="race_8qc_html_ac809ddb29c364ac0d3c649a2837d855f"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#ac809ddb29c364ac0d3c649a2837d855f">checkpoint_touch</a></div><div class="ttdeci">void checkpoint_touch()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00702">race.qc:702</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_ad290212f87c2157a878ffc0947b60251"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a></div><div class="ttdeci">float spawnflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00191">progsdefs.qc:191</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a43d4911c37299de085f3a00735956514"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a></div><div class="ttdeci">const int MOVE_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00133">csqc_constants.qh:133</a></div></div>
@@ -2962,6 +2974,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="race_8qc_html_a41dc66c634475983cdff75eec8649bf6"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a41dc66c634475983cdff75eec8649bf6">race_penalty_reason</a></div><div class="ttdeci">string race_penalty_reason</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00102">race.qc:102</a></div></div>
 <div class="ttc" id="race_8qc_html_a8b0b69d2df015a448c6049b2c9f21acd"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a8b0b69d2df015a448c6049b2c9f21acd">checkpoint_use</a></div><div class="ttdeci">void checkpoint_use(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00708">race.qc:708</a></div></div>
 <div class="ttc" id="waypoints_8qc_html_ad27523bc57e3e597f8bfa75bf7ddd72e"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#ad27523bc57e3e597f8bfa75bf7ddd72e">waypoint_spawnforitem_force</a></div><div class="ttdeci">void waypoint_spawnforitem_force(entity e, vector org)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00726">waypoints.qc:726</a></div></div>
+<div class="ttc" id="race_8qc_html_a8988550efefbbf06b299ca30e0abd002"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a8988550efefbbf06b299ca30e0abd002">race_waypointsprite_visible_for_player</a></div><div class="ttdeci">bool race_waypointsprite_visible_for_player(entity this, entity player, entity view)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00717">race.qc:717</a></div></div>
 <div class="ttc" id="race_8qc_html_af38e736fe67a1f8702b94c9de9ae9f88"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#af38e736fe67a1f8702b94c9de9ae9f88">trigger_race_checkpoint_verify</a></div><div class="ttdeci">void trigger_race_checkpoint_verify(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00727">race.qc:727</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="race_8qc_html_a51f6661918cf5435d4c4ef00302e72c0"><div class="ttname"><a href="../../d6/d3b/race_8qc.html#a51f6661918cf5435d4c4ef00302e72c0">race_timed_checkpoint</a></div><div class="ttdeci">float race_timed_checkpoint</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d3b/race_8qc_source.html#l00115">race.qc:115</a></div></div>
@@ -3692,7 +3705,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d6/d3b/race_8qc.html">race.qc</a></li>
-    <li class="footer">Generated on Wed May 11 2016 15:20:51 for Xonotic by
+    <li class="footer">Generated on Wed May 18 2016 02:26:37 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

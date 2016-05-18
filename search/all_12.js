@@ -105,7 +105,7 @@ var searchData=
   ['race_5ftime',['race_time',['../d9/d08/client_2defs_8qh.html#a9ca3664d438b8f1dac1a68ceee61d5a6',1,'defs.qh']]],
   ['race_5ftimed_5fcheckpoint',['race_timed_checkpoint',['../d6/d3b/race_8qc.html#a51f6661918cf5435d4c4ef00302e72c0',1,'race.qc']]],
   ['race_5ftimelimit',['race_timelimit',['../d4/d1b/race_8qh.html#a60995d4dad223a91a51a97437587c3e4',1,'race.qh']]],
-  ['race_5fwaypointsprite_5fvisible_5ffor_5fplayer',['race_waypointsprite_visible_for_player',['../d6/d3b/race_8qc.html#ab629c033922c2037d43e9c7e09695805',1,'race.qc']]],
+  ['race_5fwaypointsprite_5fvisible_5ffor_5fplayer',['race_waypointsprite_visible_for_player',['../d6/d3b/race_8qc.html#a8988550efefbbf06b299ca30e0abd002',1,'race.qc']]],
   ['race_5fwritetime',['race_writeTime',['../d6/d3b/race_8qc.html#ae61f2a2c6a18fa5904028f07c4b72d3a',1,'race.qc']]],
   ['racecar_5fangle',['racecar_angle',['../dc/ddd/player_8qc.html#a7f20db878a70709abd841bf5873d578a',1,'player.qc']]],
   ['racer',['Racer',['../dd/dd7/classRacer.html',1,'']]],

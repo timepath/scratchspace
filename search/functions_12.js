@@ -28,7 +28,7 @@ var searchData=
   ['race_5fsettime',['race_setTime',['../d6/d3b/race_8qc.html#ab63b3f030b81cc07f9f02edfcf12d07f',1,'race.qc']]],
   ['race_5fshowtime',['race_showTime',['../dd/d59/modicons_8qc.html#ac3feccee341c58ff935a2148dbed66b5',1,'modicons.qc']]],
   ['race_5fstartcompleting',['race_StartCompleting',['../d6/d3b/race_8qc.html#a98ec5468ec6281fade27fb92541c7174',1,'race_StartCompleting():&#160;race.qc'],['../d4/d1b/race_8qh.html#a98ec5468ec6281fade27fb92541c7174',1,'race_StartCompleting():&#160;race.qc']]],
-  ['race_5fwaypointsprite_5fvisible_5ffor_5fplayer',['race_waypointsprite_visible_for_player',['../d6/d3b/race_8qc.html#ab629c033922c2037d43e9c7e09695805',1,'race.qc']]],
+  ['race_5fwaypointsprite_5fvisible_5ffor_5fplayer',['race_waypointsprite_visible_for_player',['../d6/d3b/race_8qc.html#a8988550efefbbf06b299ca30e0abd002',1,'race.qc']]],
   ['race_5fwritetime',['race_writeTime',['../d6/d3b/race_8qc.html#ae61f2a2c6a18fa5904028f07c4b72d3a',1,'race.qc']]],
   ['racecar_5fangle',['racecar_angle',['../dc/ddd/player_8qc.html#a7f20db878a70709abd841bf5873d578a',1,'player.qc']]],
   ['radarmap_5fmake',['RadarMap_Make',['../d9/dfb/radarmap_8qc.html#acdd3a73b86c28ca1fea8a01766ea522c',1,'RadarMap_Make(float argc):&#160;radarmap.qc'],['../d4/d3c/radarmap_8qh.html#acdd3a73b86c28ca1fea8a01766ea522c',1,'RadarMap_Make(float argc):&#160;radarmap.qc']]],
