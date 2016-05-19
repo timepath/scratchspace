@@ -322,7 +322,7 @@ var searchData=
   ['dnoshadow',['DNOSHADOW',['../dd/daa/g__lights_8qc.html#ac8ea0835fed584318b502c839ecbc271',1,'g_lights.qc']]],
   ['dobgmscript',['doBGMScript',['../d0/d0f/bgmscript_8qc.html#a9611e18743084ed30770887abca6d088',1,'bgmscript.qc']]],
   ['dodging_2eqc',['dodging.qc',['../d7/d06/dodging_8qc.html',1,'']]],
-  ['doesq3aremovethisentity',['DoesQ3ARemoveThisEntity',['../d3/d4f/sv__main_8qc.html#ac5d5c0833acab90c50f6abdd96b49b36',1,'DoesQ3ARemoveThisEntity():&#160;t_quake3.qc'],['../d1/d91/t__quake3_8qc.html#ac5d5c0833acab90c50f6abdd96b49b36',1,'DoesQ3ARemoveThisEntity():&#160;t_quake3.qc']]],
+  ['doesq3aremovethisentity',['DoesQ3ARemoveThisEntity',['../d3/d4f/sv__main_8qc.html#a589e1206acb6c0ac2f8ec3bba25222b3',1,'DoesQ3ARemoveThisEntity(entity this):&#160;t_quake3.qc'],['../d1/d91/t__quake3_8qc.html#a589e1206acb6c0ac2f8ec3bba25222b3',1,'DoesQ3ARemoveThisEntity(entity this):&#160;t_quake3.qc']]],
   ['dom_5finitialize',['dom_Initialize',['../dc/d80/gamemode__domination_8qc.html#a8cec3b44ab39bf059c106e3d145e5091',1,'gamemode_domination.qc']]],
   ['dom_5fpps_5fblue',['dom_pps_blue',['../dc/d80/gamemode__domination_8qc.html#a3988e04c4e73d49d73e52b904a5a6a30',1,'gamemode_domination.qc']]],
   ['dom_5fpps_5fpink',['dom_pps_pink',['../dc/d80/gamemode__domination_8qc.html#abdba518e42738c6bf1ddbd530fc80588',1,'gamemode_domination.qc']]],

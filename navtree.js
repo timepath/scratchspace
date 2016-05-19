@@ -39,7 +39,7 @@ var NAVTREEINDEX =
 "d1/d3c/replicate_8qh.html#af6967d3010cf381a4e779760b57a960c",
 "d1/d5b/classRadioButton.html#a36313fe90ee023b8bcae61c34aa204e5",
 "d1/d70/classXonoticSoundList.html#ad2b74f1dbd77d65495482e707a252e84",
-"d1/d91/t__quake3_8qc.html#a77b2c8a25991e58c5400d82053fac79b",
+"d1/d91/t__quake3_8qc.html#a61742c0334dce4be11adeb7ba6664685",
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9",
 "d1/dec/classInputBox.html#a7a8f70d37b46f9def6024c413eb67071",
 "d2/d21/music_8qh.html#a0a2d5ec37d758ca1c4137b16d3c92895",

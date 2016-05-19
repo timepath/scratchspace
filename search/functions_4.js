@@ -63,7 +63,7 @@ var searchData=
   ['distributeevenly_5fgetrandomized',['DistributeEvenly_GetRandomized',['../dc/d95/random_8qc.html#abf4d4cb1d8c0666426ef9023f2921db1',1,'random.qc']]],
   ['distributeevenly_5finit',['DistributeEvenly_Init',['../dc/d95/random_8qc.html#aef59b07d8db47f04e76ec7a7be4047f1',1,'random.qc']]],
   ['dobgmscript',['doBGMScript',['../d0/d0f/bgmscript_8qc.html#a9611e18743084ed30770887abca6d088',1,'bgmscript.qc']]],
-  ['doesq3aremovethisentity',['DoesQ3ARemoveThisEntity',['../d3/d4f/sv__main_8qc.html#ac5d5c0833acab90c50f6abdd96b49b36',1,'DoesQ3ARemoveThisEntity():&#160;t_quake3.qc'],['../d1/d91/t__quake3_8qc.html#ac5d5c0833acab90c50f6abdd96b49b36',1,'DoesQ3ARemoveThisEntity():&#160;t_quake3.qc']]],
+  ['doesq3aremovethisentity',['DoesQ3ARemoveThisEntity',['../d3/d4f/sv__main_8qc.html#a589e1206acb6c0ac2f8ec3bba25222b3',1,'DoesQ3ARemoveThisEntity(entity this):&#160;t_quake3.qc'],['../d1/d91/t__quake3_8qc.html#a589e1206acb6c0ac2f8ec3bba25222b3',1,'DoesQ3ARemoveThisEntity(entity this):&#160;t_quake3.qc']]],
   ['dom_5finitialize',['dom_Initialize',['../dc/d80/gamemode__domination_8qc.html#a8cec3b44ab39bf059c106e3d145e5091',1,'gamemode_domination.qc']]],
   ['donextmapoverride',['DoNextMapOverride',['../d7/d97/g__world_8qh.html#a9e369a2585eeee66299a21fc034e9cc1',1,'g_world.qh']]],
   ['door_5fblocked',['door_blocked',['../d6/d9c/door_8qc.html#a8c65fc2f0d6a9ea4e7bc6fb7222de0f5',1,'door.qc']]],
