@@ -340,7 +340,7 @@ var searchData=
   ['reload_5fcomplain',['reload_complain',['../d5/de0/weaponsystem_8qc.html#a0c671ffebc2571fa41ea0515dd40a302',1,'weaponsystem.qc']]],
   ['reload_5fsound',['reload_sound',['../d5/de0/weaponsystem_8qc.html#a706914aae8991d2facc8fdc279b6d03f',1,'weaponsystem.qc']]],
   ['reload_5ftime',['reload_time',['../d5/de0/weaponsystem_8qc.html#aba854498f89c2c066c049217f73085e8',1,'weaponsystem.qc']]],
-  ['relocate_5fspawnpoint',['relocate_spawnpoint',['../d0/d41/spawnpoints_8qc.html#a9727affe32942c99ab8788fbc834df9a',1,'spawnpoints.qc']]],
+  ['relocate_5fspawnpoint',['relocate_spawnpoint',['../d0/d41/spawnpoints_8qc.html#abb661914e057e88f5191457801e406ab',1,'spawnpoints.qc']]],
   ['rem_5fmon',['rem_mon',['../d6/ddd/server_2mutators_2events_8qh.html#ae4698e0d06213e9e4e05c9857a4b2b32',1,'events.qh']]],
   ['remainder',['remainder',['../df/d38/mathlib_8qc.html#a5188ac0e3af95b0956c6abeafb74fda9',1,'remainder(float x, float y):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a5188ac0e3af95b0956c6abeafb74fda9',1,'remainder(float x, float y):&#160;mathlib.qc']]],
   ['remove',['remove',['../db/d0a/oo_8qh.html#a80db5eb01eb9265c29c36d8b364d30f5',1,'remove():&#160;oo.qh'],['../dd/d8b/sys-pre_8qh.html#a21c8e4427c0616d11bc8e6bb66141a73',1,'remove():&#160;sys-pre.qh'],['../d8/de2/menudefs_8qc.html#af3888cc9887070d06c39681f9e6bf677',1,'remove(entity e):&#160;menudefs.qc'],['../db/da0/log_8qh.html#afa48e3b5cc34a689f0d6c1bea929bc63',1,'remove(entity):&#160;log.qh'],['../df/d9b/sys-post_8qh.html#aa8eda8185c4db06314160c120d5c0246',1,'remove(entity e):&#160;sys-post.qh']]],

@@ -11,7 +11,7 @@ var server_2defs_8qh =
     [ "MISSILE_IS_TRACKING", "d5/d26/server_2defs_8qh.html#a098380b4b7c7eb9714a8eee767f42b78", null ],
     [ "PROJECTILE_MAKETRIGGER", "d5/d26/server_2defs_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628", null ],
     [ "weapons", "d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9", null ],
-    [ "spawn_evalfunc_t", "d5/d26/server_2defs_8qh.html#a24f547d7ace2b96705cdf60bc4cf6a26", null ],
+    [ "spawn_evalfunc_t", "d5/d26/server_2defs_8qh.html#a5f15c96eff24340165e9e43c1e64a499", null ],
     [ "checkSpectatorBlock", "d5/d26/server_2defs_8qh.html#a9fa66539fb1075516176da08b207ad4d", null ],
     [ "client_hasweapon", "d5/d26/server_2defs_8qh.html#a6094bcb757a9c56ae5a7b5508a880154", null ],
     [ "ClientData_Touch", "d5/d26/server_2defs_8qh.html#adcfb83073eb66c355f220a7fc94a479d", null ],

@@ -39,7 +39,7 @@ var race_8qc =
     [ "spawnfunc", "d6/d3b/race_8qc.html#a191ce89ff0a7d6cab632342705a39217", null ],
     [ "spawnfunc", "d6/d3b/race_8qc.html#a444f99036a4815e64e2ffabf6552555a", null ],
     [ "spawnfunc", "d6/d3b/race_8qc.html#a5f76de28dab38d2ced30d6e962825d52", null ],
-    [ "trigger_race_checkpoint_spawn_evalfunc", "d6/d3b/race_8qc.html#a826975b9d9b687e6f73391d549700203", null ],
+    [ "trigger_race_checkpoint_spawn_evalfunc", "d6/d3b/race_8qc.html#a868d7c0472afd1cbb06a05f3e4b41a95", null ],
     [ "trigger_race_checkpoint_verify", "d6/d3b/race_8qc.html#af38e736fe67a1f8702b94c9de9ae9f88", null ],
     [ "W_Porto_Fail", "d6/d3b/race_8qc.html#a05a62fd275c358c28855f96f21eeea76", null ],
     [ "defrag_ents", "d6/d3b/race_8qc.html#a70fbde94d1d32b56ca60fda6a5c34e83", null ],

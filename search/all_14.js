@@ -423,7 +423,7 @@ var searchData=
   ['trigger_5fpush_5fcalculatevelocity_5fflighttime',['trigger_push_calculatevelocity_flighttime',['../d9/de7/jumppads_8qh.html#aa84d3aad660768afd9d456786e2d71fe',1,'jumppads.qh']]],
   ['trigger_5fpush_5ffindtarget',['trigger_push_findtarget',['../d2/d9b/jumppads_8qc.html#a66ad79d10244774bb2ebf5c354538d26',1,'trigger_push_findtarget(entity this):&#160;jumppads.qc'],['../d9/de7/jumppads_8qh.html#a66ad79d10244774bb2ebf5c354538d26',1,'trigger_push_findtarget(entity this):&#160;jumppads.qc']]],
   ['trigger_5fpush_5ftouch',['trigger_push_touch',['../d2/d9b/jumppads_8qc.html#a5f5bb305c622a7ae996e7f7d59139d22',1,'trigger_push_touch():&#160;jumppads.qc'],['../d9/de7/jumppads_8qh.html#a5f5bb305c622a7ae996e7f7d59139d22',1,'trigger_push_touch():&#160;jumppads.qc']]],
-  ['trigger_5frace_5fcheckpoint_5fspawn_5fevalfunc',['trigger_race_checkpoint_spawn_evalfunc',['../d6/d3b/race_8qc.html#a826975b9d9b687e6f73391d549700203',1,'race.qc']]],
+  ['trigger_5frace_5fcheckpoint_5fspawn_5fevalfunc',['trigger_race_checkpoint_spawn_evalfunc',['../d6/d3b/race_8qc.html#a868d7c0472afd1cbb06a05f3e4b41a95',1,'race.qc']]],
   ['trigger_5frace_5fcheckpoint_5fverify',['trigger_race_checkpoint_verify',['../d6/d3b/race_8qc.html#af38e736fe67a1f8702b94c9de9ae9f88',1,'race.qc']]],
   ['trigger_5freverse',['trigger_reverse',['../db/d2f/subs_8qh.html#a1011e9a424929d99bdbf9ffb117f4192',1,'subs.qh']]],
   ['trigger_5fswamp_5fh',['TRIGGER_SWAMP_H',['../da/d96/swamp_8qh.html#a07ca578a9e90873404fe20e8f92b846c',1,'swamp.qh']]],

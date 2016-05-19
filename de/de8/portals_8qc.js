@@ -27,7 +27,7 @@ var portals_8qc =
     [ "Portal_SpawnOutPortalAtTrace", "de/de8/portals_8qc.html#a701b865d8e05ebcc34d0e4bc2dbaf099", null ],
     [ "Portal_TeleportPlayer", "de/de8/portals_8qc.html#a919a724c4997049c1316cda5adb99d52", null ],
     [ "Portal_Think", "de/de8/portals_8qc.html#ad780f6ad3b5d53853e81e6224cf2e1b9", null ],
-    [ "Portal_Think_TryTeleportPlayer", "de/de8/portals_8qc.html#a4beb37fda501a020154b70c076fec6a5", null ],
+    [ "Portal_Think_TryTeleportPlayer", "de/de8/portals_8qc.html#a5ceb346f0a2fd166c47465cf73c6af78", null ],
     [ "Portal_Touch", "de/de8/portals_8qc.html#a5472e18803ceab4daf1e8316903cb4b4", null ],
     [ "Portal_WillHitPlane", "de/de8/portals_8qc.html#a0ca576360dad6d1ba5c16681b25f958a", null ],
     [ "portal_activatetime", "de/de8/portals_8qc.html#ac7916d8f0e00fb09a5bf9085f10d175f", null ],
