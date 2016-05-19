@@ -1,5 +1,7 @@
 var NAVTREEINDEX101 =
 {
+"dc/de2/classXonoticProfileTab.html#ae66bc5aa0883991a6c3a5ac7ca1b20f0":[1,0,201,49],
+"dc/de2/classXonoticProfileTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,201,59],
 "dc/de2/classXonoticProfileTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,201,16],
 "dc/de2/classXonoticProfileTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,201,48],
 "dc/de2/classXonoticProfileTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,201,28],
@@ -247,7 +249,5 @@ var NAVTREEINDEX101 =
 "dc/df2/screenshotlist_8qh.html#a558c0d207af827be8ddcbceab7c86ae4":[2,0,4,4,197,1],
 "dc/df2/screenshotlist_8qh.html#a7e2df3e1f1cc4666efe4a050d78acccf":[2,0,4,4,197,4],
 "dc/df2/screenshotlist_8qh.html#a8c5a1f49f3d9d935a59ac0deaf343157":[2,0,4,4,197,5],
-"dc/df2/screenshotlist_8qh.html#ad54e6f81c64a6a9462cd99ec72833c4e":[2,0,4,4,197,2],
-"dc/df2/screenshotlist_8qh_source.html":[2,0,4,4,197],
-"dc/df6/xonotic_2button_8qh.html":[2,0,4,4,7]
+"dc/df2/screenshotlist_8qh.html#ad54e6f81c64a6a9462cd99ec72833c4e":[2,0,4,4,197,2]
 };

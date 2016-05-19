@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"df/d28/sv__turrets_8qh.html#aeddb271dd28cd2f95bf2e21f7ef2521b":[2,0,1,14,10,11],
+"df/d28/sv__turrets_8qh.html#aeecd9275b04ef56133834fe9ec106c3d":[2,0,1,14,10,3],
 "df/d28/sv__turrets_8qh.html#af219a0945c34cf448131b951f499722d":[2,0,1,14,10,36],
 "df/d28/sv__turrets_8qh.html#af3742f1980248c578e62043e18aa1686":[2,0,1,14,10,52],
 "df/d28/sv__turrets_8qh.html#af76ebf5d71d74115b35cad1c90fcd08a":[2,0,1,14,10,28],
@@ -186,11 +188,11 @@ var NAVTREEINDEX117 =
 "df/d63/server_2mutators_2all_8qh.html":[2,0,5,2,5],
 "df/d63/server_2mutators_2all_8qh_source.html":[2,0,5,2,5],
 "df/d64/throwing_8qc.html":[2,0,5,4,14],
+"df/d64/throwing_8qc.html#a2196570aa70408de6136edaf1dd3066d":[2,0,5,4,14,4],
+"df/d64/throwing_8qc.html#a778182823de27a000b41c8d47963036d":[2,0,5,4,14,2],
 "df/d64/throwing_8qc.html#a8339b673c9766c362b396b2cfac64f8a":[2,0,5,4,14,3],
-"df/d64/throwing_8qc.html#a8ccb142ceae54eb273a25f76531d0d40":[2,0,5,4,14,4],
 "df/d64/throwing_8qc.html#a97f02d70ce7169f7c173a2b3cb3de2fc":[2,0,5,4,14,0],
 "df/d64/throwing_8qc.html#a9f4fba481e98921f43d6dd1eb9acc25a":[2,0,5,4,14,1],
-"df/d64/throwing_8qc.html#ac7c0e9380f6992386c2c22acecaaf5d2":[2,0,5,4,14,2],
 "df/d64/throwing_8qc_source.html":[2,0,5,4,14],
 "df/d6c/powerups_8qh.html":[2,0,0,1,0,23],
 "df/d6c/powerups_8qh_source.html":[2,0,0,1,0,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "df/d6e/classXonoticSingleplayerDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,219,34],
 "df/d6e/classXonoticSingleplayerDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,219,66],
 "df/d6e/classXonoticSingleplayerDialog.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,219,74],
-"df/d6e/classXonoticSingleplayerDialog.html#a9bc4d4381adae0d3c9d66f3e68fbff8a":[1,0,219,62],
-"df/d6e/classXonoticSingleplayerDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,219,71],
-"df/d6e/classXonoticSingleplayerDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,219,57]
+"df/d6e/classXonoticSingleplayerDialog.html#a9bc4d4381adae0d3c9d66f3e68fbff8a":[1,0,219,62]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"db/d29/dialog__hudpanel__weapons_8qh_source.html":[2,0,4,4,81],
+"db/d29/machinegun__weapon_8qh.html":[2,0,1,14,0,17],
 "db/d29/machinegun__weapon_8qh.html#a1d67f6931a2ea189e5f33ef332554c58":[2,0,1,14,0,17,1],
 "db/d29/machinegun__weapon_8qh_source.html":[2,0,1,14,0,17],
 "db/d2a/client_2hud_2panel_2ammo_8qh.html":[2,0,0,1,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "db/d3c/classArc.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,3,11],
 "db/d3c/classArc.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,3,12],
 "db/d3c/classArc.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,3,10],
-"db/d3c/classArc.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,3,3],
-"db/d3c/classArc.html#ab8aeb9c30f5600afc253dc5ba84ad31e":[1,0,3,28],
-"db/d3c/classArc.html#ab9d7b14784b0a00aecaf78277f7fcd01":[1,0,3,32]
+"db/d3c/classArc.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,3,3]
 };

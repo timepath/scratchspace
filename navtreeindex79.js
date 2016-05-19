@@ -1,5 +1,7 @@
 var NAVTREEINDEX79 =
 {
+"da/d11/arc_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,2,1],
+"da/d11/arc_8qc.html#a4cab4f6212185629097adc317474931d":[2,0,1,16,0,2,12],
 "da/d11/arc_8qc.html#a5e978dc38bcbfc8f747e9678ab1e8a85":[2,0,1,16,0,2,19],
 "da/d11/arc_8qc.html#a616affa7ee5fcbef9a3dbd83a450c6cf":[2,0,1,16,0,2,11],
 "da/d11/arc_8qc.html#a662304e940e2b0c3f887674498652eb4":[2,0,1,16,0,2,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "da/d34/common_2effects_2qc_2all_8qc.html":[2,0,1,2,0,3],
 "da/d34/common_2effects_2qc_2all_8qc.html#aafd24a334088de3d7fef309914d49101":[2,0,1,2,0,3,0],
 "da/d34/common_2effects_2qc_2all_8qc_source.html":[2,0,1,2,0,3],
-"da/d3b/weapons_2weapon_2machinegun_8qc.html":[2,0,1,16,0,11],
-"da/d3b/weapons_2weapon_2machinegun_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,11,1],
-"da/d3b/weapons_2weapon_2machinegun_8qc.html#af2b46b122575dc628900728779d60989":[2,0,1,16,0,11,2]
+"da/d3b/weapons_2weapon_2machinegun_8qc.html":[2,0,1,16,0,11]
 };

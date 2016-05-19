@@ -135,7 +135,7 @@ var searchData=
   ['clientdata_5ftouch',['ClientData_Touch',['../da/d53/cl__client_8qc.html#adcfb83073eb66c355f220a7fc94a479d',1,'ClientData_Touch(entity e):&#160;cl_client.qc'],['../d5/d26/server_2defs_8qh.html#adcfb83073eb66c355f220a7fc94a479d',1,'ClientData_Touch(entity e):&#160;cl_client.qc']]],
   ['clientdisconnect',['ClientDisconnect',['../da/d53/cl__client_8qc.html#aba4837a3272d5055dbaa26db3590852d',1,'cl_client.qc']]],
   ['clientinit_5fcheckupdate',['ClientInit_CheckUpdate',['../da/d53/cl__client_8qc.html#afe817a8ec3d653841834178b5f7a95bf',1,'cl_client.qc']]],
-  ['clientinit_5fmisc',['ClientInit_misc',['../da/d53/cl__client_8qc.html#a17795495bddb9b0b171922b9e003a417',1,'cl_client.qc']]],
+  ['clientinit_5fmisc',['ClientInit_misc',['../da/d53/cl__client_8qc.html#aec6cdba5f75bbb56090f5e085e9bcfeb',1,'cl_client.qc']]],
   ['clientinit_5fsendentity',['ClientInit_SendEntity',['../da/d53/cl__client_8qc.html#aa19dd7a06981d3a48d765fd7a0d08607',1,'cl_client.qc']]],
   ['clientinit_5fspawn',['ClientInit_Spawn',['../da/d53/cl__client_8qc.html#addbfa5c0ba866c7ffd66239839bc9942',1,'ClientInit_Spawn():&#160;cl_client.qc'],['../db/dcc/g__world_8qc.html#addbfa5c0ba866c7ffd66239839bc9942',1,'ClientInit_Spawn():&#160;cl_client.qc']]],
   ['clientkill',['ClientKill',['../da/d53/cl__client_8qc.html#addfe028046be91ad2b1f2b0afb65759a',1,'cl_client.qc']]],

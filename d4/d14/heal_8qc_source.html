@@ -134,17 +134,17 @@ $(document).ready(function(){initNavTree('d4/d14/heal_8qc_source.html','../../')
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(trigger_heal)</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <span class="keyword">self</span>.active = <a class="code" href="../../d5/d26/server_2defs_8qh.html#abd9bbb26fc3db0656e3ea3e7a91d3ab1">ACTIVE_ACTIVE</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a460f6470e11584cd894c55c977224efb">active</a> = <a class="code" href="../../d5/d26/server_2defs_8qh.html#abd9bbb26fc3db0656e3ea3e7a91d3ab1">ACTIVE_ACTIVE</a>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0">EXACTTRIGGER_INIT</a>;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keyword">self</span>.touch = trigger_heal_touch;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span> (!<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a>)</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keyword">self</span>.health = 10;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">if</span> (!<span class="keyword">self</span>.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a>)</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keyword">self</span>.max_health = 200; <span class="comment">//Max health topoff for field</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keyword">self</span>.noise = <span class="stringliteral">&quot;misc/mediumhealth.wav&quot;</span>;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a>(<span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    this.touch = trigger_heal_touch;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span> (!this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a>)</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> = 10;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">if</span> (!this.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a>)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        this.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a> = 200; <span class="comment">//Max health topoff for field</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a> = <span class="stringliteral">&quot;misc/mediumhealth.wav&quot;</span>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a>);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="client_2main_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00146">main.qh:146</a></div></div>
@@ -173,7 +173,7 @@ $(document).ready(function(){initNavTree('d4/d14/heal_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../dir_68c7af0e850d11bf6ba23fecbd658357.html">trigger</a></li><li class="navelem"><a class="el" href="../../d4/d14/heal_8qc.html">heal.qc</a></li>
-    <li class="footer">Generated on Thu May 19 2016 19:42:49 for Xonotic by
+    <li class="footer">Generated on Thu May 19 2016 20:35:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"d8/d0f/gamemode__assault_8qh.html":[2,0,5,2,0,3],
+"d8/d0f/gamemode__assault_8qh_source.html":[2,0,5,2,0,3],
 "d8/d12/classRaptor.html":[1,0,89],
 "d8/d12/classRaptor.html#a06439f934271f5c5223cbf583f539feb":[1,0,89,21],
 "d8/d12/classRaptor.html#a127bbb3521b618343bb4ca069e63090f":[1,0,89,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "d8/d35/classXonoticHUDChatDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,159,32],
 "d8/d35/classXonoticHUDChatDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,159,10],
 "d8/d35/classXonoticHUDChatDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,159,38],
-"d8/d35/classXonoticHUDChatDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,159,43],
-"d8/d35/classXonoticHUDChatDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,159,18],
-"d8/d35/classXonoticHUDChatDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,159,8]
+"d8/d35/classXonoticHUDChatDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,159,43]
 };

@@ -3,7 +3,7 @@ var g__subs_8qh =
     [ "angc", "d6/d93/g__subs_8qh.html#a3beea75a8f5936cd10f1b7319347a884", null ],
     [ "ApplyMinMaxScaleAngles", "d6/d93/g__subs_8qh.html#a1a4bbd8167f5c8536222892f98565b04", null ],
     [ "findbetterlocation", "d6/d93/g__subs_8qh.html#ade6067d4eee255157e9f7eff9b226639", null ],
-    [ "InitMovingBrushTrigger", "d6/d93/g__subs_8qh.html#ae12ae588c8293ae7e1bfda416e774ca9", null ],
+    [ "InitMovingBrushTrigger", "d6/d93/g__subs_8qh.html#a36cdf81a62f8df66eff065eb38de7241", null ],
     [ "InitSolidBSPTrigger", "d6/d93/g__subs_8qh.html#afdf465a92f1a71d309e4e76faa2f74cd", null ],
     [ "InitTrigger", "d6/d93/g__subs_8qh.html#ab5906481542f5dbc51e25b99750e2515", null ],
     [ "LOD_customize", "d6/d93/g__subs_8qh.html#a774bd2a6212488283b3dd506bba00f20", null ],

@@ -101,7 +101,7 @@ var NAVTREEINDEX43 =
 "d5/d6c/classXonoticHUDSkinList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,175,32],
 "d5/d6c/classXonoticHUDSkinList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,175,25],
 "d5/d6d/util__server_8qc.html":[2,0,3,2,12],
-"d5/d6d/util__server_8qc.html#a4f4d2cd9e94af827d850c8396ae983db":[2,0,3,2,12,0],
+"d5/d6d/util__server_8qc.html#a904a8bfe5319b5784c20a0470d103206":[2,0,3,2,12,0],
 "d5/d6d/util__server_8qc_source.html":[2,0,3,2,12],
 "d5/d6f/xonotic_2checkbox_8qc.html":[2,0,4,4,12],
 "d5/d6f/xonotic_2checkbox_8qc.html#a10aa8dc6f022dcc1df8ef8b5153ac9d0":[2,0,4,4,12,1],

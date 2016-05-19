@@ -145,13 +145,13 @@ $(document).ready(function(){initNavTree('d4/dac/counter_8qc_source.html','../..
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(trigger_counter)</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;{</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keyword">self</span>.wait = -1;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span> (!<span class="keyword">self</span>.<a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a>)</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">self</span>.count = 2;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keyword">self</span>.cnt = <span class="keyword">self</span>.count;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    this.<a class="code" href="../../db/d2f/subs_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683">wait</a> = -1;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">if</span> (!this.<a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a>)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        this.<a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a> = 2;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a> = this.<a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a>;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keyword">self</span>.use = counter_use;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keyword">self</span>.reset = counter_reset;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    this.<a class="code" href="../../da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c">use</a> = counter_use;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    this.reset = counter_reset;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
@@ -159,9 +159,11 @@ $(document).ready(function(){initNavTree('d4/dac/counter_8qc_source.html','../..
 <div class="ttc" id="progsdefs_8qc_html_ad290212f87c2157a878ffc0947b60251"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a></div><div class="ttdeci">float spawnflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00191">progsdefs.qc:191</a></div></div>
 <div class="ttc" id="triggers_8qh_html_a0486d0e503c446e5fe55fdaf7890a25f"><div class="ttname"><a href="../../d6/d25/triggers_8qh.html#a0486d0e503c446e5fe55fdaf7890a25f">SPAWNFLAG_NOMESSAGE</a></div><div class="ttdeci">const float SPAWNFLAG_NOMESSAGE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d25/triggers_8qh_source.html#l00008">triggers.qh:8</a></div></div>
 <div class="ttc" id="powerups_8qc_html_afea6e77db19a2f8c91419904fe665a3a"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a></div><div class="ttdeci">float count</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00011">powerups.qc:11</a></div></div>
+<div class="ttc" id="subs_8qh_html_ae6ce7348eeca30f09a3ea4aca0a44683"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683">wait</a></div><div class="ttdeci">float wait</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00052">subs.qh:52</a></div></div>
 <div class="ttc" id="self_8qh_html_a0a6ed21815e6b8d3ff58b8559ec08c87"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a></div><div class="ttdeci">#define WITHSELF(value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00015">self.qh:15</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9bdd141f634714eab30642bf42f63862"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a></div><div class="ttdeci">entity enemy</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00127">csprogsdefs.qc:127</a></div></div>
 <div class="ttc" id="spawnfunc_8qh_html_a9ad7f6cd69a76791c4b63b9c09126153"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a></div><div class="ttdeci">#define spawnfunc(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00194">spawnfunc.qh:194</a></div></div>
+<div class="ttc" id="csprogsdefs_8qh_html_aeda5446032a08fece73ec569b861a72c"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c">use</a></div><div class="ttdeci">#define use</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dde/csprogsdefs_8qh_source.html#l00044">csprogsdefs.qh:44</a></div></div>
 <div class="ttc" id="pp_8qc_html_a9cfbb269728dc4185236d28be58d9eab"><div class="ttname"><a href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a></div><div class="ttdeci">int cnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d93/pp_8qc_source.html#l00020">pp.qc:20</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -169,7 +171,7 @@ $(document).ready(function(){initNavTree('d4/dac/counter_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../dir_68c7af0e850d11bf6ba23fecbd658357.html">trigger</a></li><li class="navelem"><a class="el" href="../../d4/dac/counter_8qc.html">counter.qc</a></li>
-    <li class="footer">Generated on Thu May 19 2016 19:42:49 for Xonotic by
+    <li class="footer">Generated on Thu May 19 2016 20:35:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

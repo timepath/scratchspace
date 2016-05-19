@@ -13,7 +13,7 @@ var cl__client_8qc =
     [ "ClientData_Touch", "da/d53/cl__client_8qc.html#adcfb83073eb66c355f220a7fc94a479d", null ],
     [ "ClientDisconnect", "da/d53/cl__client_8qc.html#aba4837a3272d5055dbaa26db3590852d", null ],
     [ "ClientInit_CheckUpdate", "da/d53/cl__client_8qc.html#afe817a8ec3d653841834178b5f7a95bf", null ],
-    [ "ClientInit_misc", "da/d53/cl__client_8qc.html#a17795495bddb9b0b171922b9e003a417", null ],
+    [ "ClientInit_misc", "da/d53/cl__client_8qc.html#aec6cdba5f75bbb56090f5e085e9bcfeb", null ],
     [ "ClientInit_SendEntity", "da/d53/cl__client_8qc.html#aa19dd7a06981d3a48d765fd7a0d08607", null ],
     [ "ClientInit_Spawn", "da/d53/cl__client_8qc.html#addbfa5c0ba866c7ffd66239839bc9942", null ],
     [ "ClientKill", "da/d53/cl__client_8qc.html#addfe028046be91ad2b1f2b0afb65759a", null ],

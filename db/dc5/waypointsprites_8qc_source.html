@@ -121,29 +121,29 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    sendflags = sendflags &amp; 0x7F;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a> || (<span class="keyword">self</span>.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a5d693a185ebf0d60bc29f5ad0cda526a">pain_finished</a> &amp;&amp; (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; <span class="keyword">self</span>.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a5d693a185ebf0d60bc29f5ad0cda526a">pain_finished</a> + 0.25)))</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a> || (this.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a5d693a185ebf0d60bc29f5ad0cda526a">pain_finished</a> &amp;&amp; (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; this.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a5d693a185ebf0d60bc29f5ad0cda526a">pain_finished</a> + 0.25)))</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        sendflags |= 0x80;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keywordtype">int</span> f = 0;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf619da1cc42d77b912ad2ee40bfa8a0">currentammo</a>)</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf619da1cc42d77b912ad2ee40bfa8a0">currentammo</a>)</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        f |= 1; <span class="comment">// hideable</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../de/d5e/dpextensions_8qc.html#ac16842ea1e26ebf936c61382a2e6e0bd">exteriormodeltoclient</a> == to)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#ac16842ea1e26ebf936c61382a2e6e0bd">exteriormodeltoclient</a> == to)</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        f |= 2; <span class="comment">// my own</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(SendWaypoint, <span class="keyword">this</span>, to, sendflags, f);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, sendflags);</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <span class="keyword">self</span>.<a class="code" href="../../d8/d59/waypointsprites_8qh.html#a2a10f4f3932f9b83f847f3e3d7c325ab">wp_extra</a>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d8/d59/waypointsprites_8qh.html#a2a10f4f3932f9b83f847f3e3d7c325ab">wp_extra</a>);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span> (sendflags &amp; 0x80)</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a>)</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a>)</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        {</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, (<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> / <span class="keyword">self</span>.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a>) * 191.0);</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, (this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> / this.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828">max_health</a>) * 191.0);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        }</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        {</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordtype">float</span> dt = <span class="keyword">self</span>.pain_finished - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordtype">float</span> dt = this.<a class="code" href="../../db/dc8/cl__controlpoint_8qc.html#a5d693a185ebf0d60bc29f5ad0cda526a">pain_finished</a> - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            dt = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, dt * 32, 16383);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, (dt &amp; 0xFF00) / 256 + 192);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, (dt &amp; 0x00FF));</div>
@@ -152,44 +152,44 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="keywordflow">if</span> (sendflags &amp; 64)</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, <span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>.x);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, <span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>.y);</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, <span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>.z);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>.x);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>.y);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>.z);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="keywordflow">if</span> (sendflags &amp; 1)</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <span class="keyword">self</span>.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <span class="keyword">self</span>.rule);</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.rule);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">if</span> (sendflags &amp; 2)</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(MSG_ENTITY, <span class="keyword">self</span>.model1);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(MSG_ENTITY, this.model1);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <span class="keywordflow">if</span> (sendflags &amp; 4)</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(MSG_ENTITY, <span class="keyword">self</span>.model2);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(MSG_ENTITY, this.model2);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">if</span> (sendflags &amp; 8)</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(MSG_ENTITY, <span class="keyword">self</span>.model3);</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(MSG_ENTITY, this.model3);</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordflow">if</span> (sendflags &amp; 16)</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    {</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, <span class="keyword">self</span>.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952">fade_time</a>);</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, <span class="keyword">self</span>.<a class="code" href="../../df/dae/player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a>);</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(MSG_ENTITY, <span class="keyword">self</span>.<a class="code" href="../../dc/dc7/projectile_8qh.html#a66ebaab056a734dac49a78d19be21d71">fade_rate</a>); <span class="comment">// maxdist</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952">fade_time</a>);</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a>(MSG_ENTITY, this.<a class="code" href="../../df/dae/player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a>);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(MSG_ENTITY, this.<a class="code" href="../../dc/dc7/projectile_8qh.html#a66ebaab056a734dac49a78d19be21d71">fade_rate</a>); <span class="comment">// maxdist</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, f);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="keywordflow">if</span> (sendflags &amp; 32)</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <span class="keyword">self</span>.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>); <span class="comment">// icon on radar</span></div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <span class="keyword">self</span>.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>.x * 255.0);</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <span class="keyword">self</span>.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>.y * 255.0);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <span class="keyword">self</span>.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>.z * 255.0);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>); <span class="comment">// icon on radar</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>.x * 255.0);</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>.y * 255.0);</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>.z * 255.0);</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">if</span> (WaypointSprite_isteammate(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>, WaypointSprite_getviewentity(to)))</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="keywordflow">if</span> (WaypointSprite_isteammate(this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>, WaypointSprite_getviewentity(to)))</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keywordtype">float</span> dt = (<span class="keyword">self</span>.waypointsprite_helpmetime - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>) / 0.1;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;            <span class="keywordtype">float</span> dt = (this.waypointsprite_helpmetime - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>) / 0.1;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;            <span class="keywordflow">if</span> (dt &lt; 0)</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                dt = 0;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keywordflow">if</span> (dt &gt; 255)</div>
@@ -306,7 +306,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        this.teamradar_icon = f &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a5967693540f086cfa357f68978bf0be7">BITS</a>(7);</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordflow">if</span> (f &amp; <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(7))</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        {</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            this.(teamradar_times[this.teamradar_time_index]) = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            this.(teamradar_times[this.teamradar_time_index]) = time;</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            this.teamradar_time_index = (this.teamradar_time_index + 1) % <a class="code" href="../../d0/d84/teamradar_8qh.html#a1d39c142e0d9f64f317c11702a020571">MAX_TEAMRADAR_TIMES</a>;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        }</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        this.teamradar_color_x = ReadByte() / 255.0;</div>
@@ -559,7 +559,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;<span class="keywordtype">void</span> Draw_WaypointSprite(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;{</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a">lifetime</a>)</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        this.<a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, (this.fadetime - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>) / this.<a class="code" href="../../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a">lifetime</a>, 1), waypointsprite_timealphaexponent);</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        this.<a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, (this.fadetime - time) / this.<a class="code" href="../../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a">lifetime</a>, 1), waypointsprite_timealphaexponent);</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;        this.<a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> = 1;</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;</div>
@@ -637,9 +637,9 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;WARNING: sprite of name %s has no color, using pink so you notice it\n&quot;</span>, spriteimage);</div>
 <div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    }</div>
 <div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;</div>
-<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>) &gt; 0.5)</div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;    <span class="keywordflow">if</span> (time - <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(time) &gt; 0.5)</div>
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;    {</div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;        <span class="keywordflow">if</span> (this.helpme &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; this.helpme)</div>
+<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;        <span class="keywordflow">if</span> (this.helpme &amp;&amp; time &lt; this.helpme)</div>
 <div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;            a *= SPRITE_HELPME_BLINK;</div>
 <div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (!this.<a class="code" href="../../df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a">lifetime</a>) <span class="comment">// fading out waypoints don&#39;t blink</span></div>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;            a *= spritelookupblinkvalue(<span class="keyword">this</span>, spriteimage);</div>
@@ -737,12 +737,12 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;</div>
 <div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    <span class="keywordflow">if</span> (this.build_finished)</div>
 <div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    {</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; this.build_finished + 0.25)</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;        <span class="keywordflow">if</span> (time &lt; this.build_finished + 0.25)</div>
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        {</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; this.build_started)</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;            <span class="keywordflow">if</span> (time &lt; this.build_started)</div>
 <div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;                this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> = this.build_starthealth;</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; this.build_finished)</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;                this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> = (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.build_started) / (this.build_finished - this.build_started) * (1 - this.build_starthealth) + this.build_starthealth;</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (time &lt; this.build_finished)</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;                this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> = (time - this.build_started) / (this.build_finished - this.build_started) * (1 - this.build_starthealth) + this.build_starthealth;</div>
 <div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;                this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> = 1;</div>
 <div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;        }</div>
@@ -757,7 +757,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;        txt = _(<span class="stringliteral">&quot;Spam&quot;</span>);</div>
 <div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;        txt = spritelookuptext(<span class="keyword">this</span>, spriteimage);</div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;    <span class="keywordflow">if</span> (this.helpme &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; this.helpme)</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;    <span class="keywordflow">if</span> (this.helpme &amp;&amp; time &lt; this.helpme)</div>
 <div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;        txt = sprintf(_(<span class="stringliteral">&quot;%s needing help!&quot;</span>), txt);</div>
 <div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;    <span class="keywordflow">if</span> (autocvar_g_waypointsprite_uppercase)</div>
 <div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;        txt = strtoupper(txt);</div>
@@ -940,8 +940,8 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;<span class="keywordtype">void</span> WaypointSprite_Ping(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
 <div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;{</div>
 <div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;    <span class="comment">// anti spam</span></div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; e.waypointsprite_pingtime) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;    e.waypointsprite_pingtime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.3;</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;    <span class="keywordflow">if</span> (time &lt; e.waypointsprite_pingtime) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;    e.waypointsprite_pingtime = time + 0.3;</div>
 <div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;    <span class="comment">// ALWAYS sends (this causes a radar circle), thus no check</span></div>
 <div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;    e.cnt |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(7);</div>
 <div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;    e.SendFlags |= 32;</div>
@@ -950,7 +950,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;<span class="keywordtype">void</span> WaypointSprite_HelpMePing(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
 <div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;{</div>
 <div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;    WaypointSprite_Ping(e);</div>
-<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    e.waypointsprite_helpmetime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + waypointsprite_deployed_lifetime;</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    e.waypointsprite_helpmetime = time + waypointsprite_deployed_lifetime;</div>
 <div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;    e.SendFlags |= 32;</div>
 <div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;}</div>
 <div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;</div>
@@ -959,9 +959,9 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;    <span class="keywordflow">if</span> (!e.fade_time)</div>
 <div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;    {</div>
 <div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;        e.fade_time = t;</div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;        e.teleport_time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + t;</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;        e.teleport_time = time + t;</div>
 <div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;    }</div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (t &lt; (e.teleport_time - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>))</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (t &lt; (e.teleport_time - time))</div>
 <div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;    {</div>
 <div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        <span class="comment">// accelerate the waypoint&#39;s dying</span></div>
 <div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;        <span class="comment">// ensure:</span></div>
@@ -969,7 +969,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;        <span class="comment">//   e.teleport_time = time + fadetime</span></div>
 <div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;        <span class="keywordtype">float</span> current_fadetime;</div>
 <div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;        current_fadetime = e.teleport_time - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;        e.teleport_time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + t;</div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;        e.teleport_time = time + t;</div>
 <div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;        e.fade_time = e.fade_time * t / current_fadetime;</div>
 <div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;    }</div>
 <div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;</div>
@@ -1013,7 +1013,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;    <span class="keywordtype">bool</span> doremove = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952">fade_time</a> &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= <span class="keyword">self</span>.<a class="code" href="../../df/dae/player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a>)</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952">fade_time</a> &amp;&amp; time &gt;= <span class="keyword">self</span>.<a class="code" href="../../df/dae/player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a>)</div>
 <div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;    {</div>
 <div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;        doremove = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;    }</div>
@@ -1103,7 +1103,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160;)</div>
 <div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;{</div>
 <div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> wp = <span class="keyword">new</span>(sprite_waypoint);</div>
-<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;    wp.teleport_time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + _lifetime;</div>
+<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;    wp.teleport_time = time + _lifetime;</div>
 <div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;    wp.fade_time = _lifetime;</div>
 <div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;    wp.exteriormodeltoclient = ref;</div>
 <div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;    <span class="keywordflow">if</span> (ref)</div>
@@ -1371,7 +1371,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_4573854e5f122b3a76229eff451e1727.html">waypoints</a></li><li class="navelem"><a class="el" href="../../db/dc5/waypointsprites_8qc.html">waypointsprites.qc</a></li>
-    <li class="footer">Generated on Thu May 19 2016 19:42:48 for Xonotic by
+    <li class="footer">Generated on Thu May 19 2016 20:35:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
