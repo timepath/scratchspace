@@ -116,7 +116,7 @@ var searchData=
   ['ttt_5fnext_5fmatch',['ttt_next_match',['../da/d4b/ttt_8qc.html#acbb767866f2bd0a09eae8b342a5ebc91',1,'ttt.qc']]],
   ['ttt_5fvalid_5ftile',['ttt_valid_tile',['../da/d4b/ttt_8qc.html#ac5d6549518553964ff101de6a893488a',1,'ttt.qc']]],
   ['ttt_5fwinning_5fpiece',['ttt_winning_piece',['../da/d4b/ttt_8qc.html#a218a2f2645cc7299b82a6dbc538dbb29',1,'ttt.qc']]],
-  ['turret_5fchangeteam',['turret_changeteam',['../dd/d43/cl__turrets_8qc.html#a967ae4ada8ab579d81deb64302a8c027',1,'cl_turrets.qc']]],
+  ['turret_5fchangeteam',['turret_changeteam',['../dd/d43/cl__turrets_8qc.html#a181aadf6b8196e68aec17f8def47adda',1,'cl_turrets.qc']]],
   ['turret_5fcheckpoint_5finit',['turret_checkpoint_init',['../df/d18/checkpoint_8qc.html#a1018bdeabcf101e47d13447164b17d3f',1,'checkpoint.qc']]],
   ['turret_5fcheckpoint_5fuse',['turret_checkpoint_use',['../df/d18/checkpoint_8qc.html#a4a455a6158f7e74eb2d4a4e30e831818',1,'checkpoint.qc']]],
   ['turret_5fconstruct',['turret_construct',['../dd/d43/cl__turrets_8qc.html#af406a5e6f85973f53d0d4705475b770f',1,'cl_turrets.qc']]],

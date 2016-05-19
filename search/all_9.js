@@ -186,7 +186,7 @@ var searchData=
   ['is_5fbool',['is_bool',['../d4/dfb/lib_2__all_8inc.html#aa2f1309e021da3dc804ea9f0529f3a57',1,'_all.inc']]],
   ['is_5fbot_5fclient',['IS_BOT_CLIENT',['../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6',1,'_all.qh']]],
   ['is_5fbot_5fcmd',['is_bot_cmd',['../d8/d14/scripting_8qh.html#ae88c894809a251bab93146628a6615a7',1,'scripting.qh']]],
-  ['is_5fcheat',['IS_CHEAT',['../d6/de9/cheats_8qc.html#ab206e315ccef4e0f3fa1ff9099b1c184',1,'cheats.qc']]],
+  ['is_5fcheat',['IS_CHEAT',['../d6/de9/cheats_8qc.html#a37f479ec45150654c5d4d7db942024f2',1,'cheats.qc']]],
   ['is_5fclient',['IS_CLIENT',['../d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834',1,'_all.qh']]],
   ['is_5fdead',['IS_DEAD',['../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944',1,'IS_DEAD():&#160;miscfunctions.qh'],['../dc/d73/server_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944',1,'IS_DEAD():&#160;miscfunctions.qh']]],
   ['is_5fdead_5fframe',['IS_DEAD_FRAME',['../dc/d3d/csqcmodel__hooks_8qc.html#a03e325439a3c7e40dda1730cd4251a4c',1,'csqcmodel_hooks.qc']]],

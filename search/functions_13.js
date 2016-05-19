@@ -226,7 +226,7 @@ var searchData=
   ['spawnpoint_5fthink',['spawnpoint_think',['../d0/d41/spawnpoints_8qc.html#a9653a886a67263d567fdfd0769189243',1,'spawnpoints.qc']]],
   ['spawnpoint_5fuse',['spawnpoint_use',['../d0/d41/spawnpoints_8qc.html#a2a7af8ac3ec4cc48b002997881b2a491',1,'spawnpoint_use(entity this, entity actor, entity trigger):&#160;spawnpoints.qc'],['../d4/dd1/spawnpoints_8qh.html#a2a7af8ac3ec4cc48b002997881b2a491',1,'spawnpoint_use(entity this, entity actor, entity trigger):&#160;spawnpoints.qc']]],
   ['spawnthrownweapon',['SpawnThrownWeapon',['../df/d64/throwing_8qc.html#a97f02d70ce7169f7c173a2b3cb3de2fc',1,'SpawnThrownWeapon(entity this, vector org, float w):&#160;throwing.qc'],['../de/d58/throwing_8qh.html#a97f02d70ce7169f7c173a2b3cb3de2fc',1,'SpawnThrownWeapon(entity this, vector org, float w):&#160;throwing.qc']]],
-  ['specialcommand',['SpecialCommand',['../dc/ddd/player_8qc.html#ab1c6a2350d6e48de21a74b5906aadc59',1,'player.qc']]],
+  ['specialcommand',['SpecialCommand',['../dc/ddd/player_8qc.html#aba6bcdf9b4bf24fa41a76f0cca28fa9b',1,'player.qc']]],
   ['spectate',['Spectate',['../da/d53/cl__client_8qc.html#a5994e108ee84f11cd2295153ac529e2b',1,'Spectate(entity pl):&#160;cl_client.qc'],['../d1/d30/cl__client_8qh.html#a54cf6a680fa2bb3fca1e906659e883a7',1,'Spectate(entity pl):&#160;cl_client.qc']]],
   ['spectatecopy',['SpectateCopy',['../da/d53/cl__client_8qc.html#a1565df9f317d13a6dda4f158fe18478d',1,'cl_client.qc']]],
   ['spectatenext',['SpectateNext',['../da/d53/cl__client_8qc.html#adf2b6b12446bbdea9a0f4dfe90b2e6e5',1,'cl_client.qc']]],

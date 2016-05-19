@@ -909,7 +909,7 @@ $(document).ready(function(){initNavTree('d6/d9c/door_8qc_source.html','../../')
 <div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;</div>
 <div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;<a class="code" href="../../dd/d69/net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a>(ENT_CLIENT_DOOR, <span class="keywordtype">bool</span> isnew)</div>
 <div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;{</div>
-<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;    <span class="keywordtype">float</span> sf = ReadByte();</div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;    <span class="keywordtype">int</span> sf = ReadByte();</div>
 <div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;</div>
 <div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;    <span class="keywordflow">if</span>(sf &amp; SF_TRIGGER_INIT)</div>
 <div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;    {</div>
@@ -919,7 +919,7 @@ $(document).ready(function(){initNavTree('d6/d9c/door_8qc_source.html','../../')
 <div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a8b1ec103accfa735fef1463c0883ccde">mdl</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d4/db7/cl__minigames_8qc.html#ac03fadfb499a7d7775c099e7d03c2bb2">ReadString</a>());</div>
 <div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;        _setmodel(<span class="keyword">this</span>, this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a8b1ec103accfa735fef1463c0883ccde">mdl</a>);</div>
 <div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;</div>
-<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;        trigger_common_read(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;        trigger_common_read(<span class="keyword">this</span>, <span class="keyword">true</span>);</div>
 <div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;</div>
 <div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
 <div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;</div>
@@ -1133,7 +1133,7 @@ $(document).ready(function(){initNavTree('d6/d9c/door_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../dir_dac21ea200edd94d2597bdcb9e2f297b.html">func</a></li><li class="navelem"><a class="el" href="../../d6/d9c/door_8qc.html">door.qc</a></li>
-    <li class="footer">Generated on Thu May 19 2016 20:56:34 for Xonotic by
+    <li class="footer">Generated on Thu May 19 2016 21:23:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

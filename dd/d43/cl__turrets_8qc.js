@@ -1,7 +1,7 @@
 var cl__turrets_8qc =
 [
     [ "NET_HANDLE", "dd/d43/cl__turrets_8qc.html#a3ef76a50f8c6b47647e267278a9482a6", null ],
-    [ "turret_changeteam", "dd/d43/cl__turrets_8qc.html#a967ae4ada8ab579d81deb64302a8c027", null ],
+    [ "turret_changeteam", "dd/d43/cl__turrets_8qc.html#a181aadf6b8196e68aec17f8def47adda", null ],
     [ "turret_construct", "dd/d43/cl__turrets_8qc.html#af406a5e6f85973f53d0d4705475b770f", null ],
     [ "turret_die", "dd/d43/cl__turrets_8qc.html#a28771c2dcc4de3818f2ddd9e33306f07", null ],
     [ "turret_draw", "dd/d43/cl__turrets_8qc.html#a64d2520acfd864817d8e1ddc8c94089f", null ],

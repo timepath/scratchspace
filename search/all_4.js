@@ -386,7 +386,7 @@ var searchData=
   ['dphitcontentsmask',['dphitcontentsmask',['../d4/d0c/csprogsdefs_8qc.html#afa78924af8a2d7996779f1f92cf6afcb',1,'dphitcontentsmask():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#afa78924af8a2d7996779f1f92cf6afcb',1,'dphitcontentsmask():&#160;dpextensions.qc']]],
   ['dprint',['dprint',['../d8/de2/menudefs_8qc.html#a89d81304d13b572247ba6100b2a87f9e',1,'menudefs.qc']]],
   ['dprint2',['dprint2',['../db/da0/log_8qh.html#a14f8d12a0e12508f13be68fcb2cb5caa',1,'log.qh']]],
-  ['drag',['drag',['../d8/d00/classImage.html#a0a44543db2c981ccbbfa48496f334de5',1,'Image::drag()'],['../d6/de9/cheats_8qc.html#a940f207b5aa10d28fac7be04948950c5',1,'Drag():&#160;cheats.qc']]],
+  ['drag',['drag',['../d8/d00/classImage.html#a0a44543db2c981ccbbfa48496f334de5',1,'Image::drag()'],['../d6/de9/cheats_8qc.html#a5fc7c576740d16f6075adccdc64c84a1',1,'Drag():&#160;cheats.qc']]],
   ['drag_5fbegin',['Drag_Begin',['../d6/de9/cheats_8qc.html#a7ffe194900db20bff4bb3439d850c6ff',1,'cheats.qc']]],
   ['drag_5fcandrag',['Drag_CanDrag',['../d6/de9/cheats_8qc.html#a0f189147745b897a7928d2ad433047ce',1,'cheats.qc']]],
   ['drag_5ffinish',['Drag_Finish',['../d6/de9/cheats_8qc.html#a653cfcfb2be776eb0d3d6aaa7caa5d7f',1,'cheats.qc']]],
