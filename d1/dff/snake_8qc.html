@@ -890,24 +890,27 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/dff/snake_8qc_source.html#l00156">156</a> of file <a class="el" href="../../d1/dff/snake_8qc_source.html">snake.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d1/dff/snake_8qc_source.html#l00126">snake_check_winner()</a>, <a class="el" href="../../d1/dff/snake_8qc_source.html#l00301">snake_move_head()</a>, <a class="el" href="../../d1/dff/snake_8qc_source.html#l00003">SNAKE_TURN_MOVE</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">nextthink</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00085">owner</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d1/dff/snake_8qc_source.html#l00126">snake_check_winner()</a>, <a class="el" href="../../d1/dff/snake_8qc_source.html#l00027">snake_delay</a>, <a class="el" href="../../d1/dff/snake_8qc_source.html#l00301">snake_move_head()</a>, <a class="el" href="../../d1/dff/snake_8qc_source.html#l00003">SNAKE_TURN_MOVE</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/dff/snake_8qc_source.html#l00169">minigame_setup_snake()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;{</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> minigame = <span class="keyword">self</span>.owner;</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> minigame = this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>;</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordflow">if</span>(minigame.minigame_flags &amp; <a class="code" href="../../d1/dff/snake_8qc.html#a663840eb5422a6478cffdd91b66bf656">SNAKE_TURN_MOVE</a>)</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <a class="code" href="../../d1/dff/snake_8qc.html#ac8190572290db96a4985e533fdfa8cac">snake_move_head</a>(minigame, <span class="keyword">self</span>);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <a class="code" href="../../d1/dff/snake_8qc.html#ac8190572290db96a4985e533fdfa8cac">snake_move_head</a>(minigame, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <a class="code" href="../../d1/dff/snake_8qc.html#aa2957c316e77f241a7c3e7a3f8b8acc5">snake_check_winner</a>(minigame);</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keyword">self</span>.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <span class="keyword">self</span>.snake_delay;</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + this.<a class="code" href="../../d1/dff/snake_8qc.html#a601bbe1b4b2ea7a74ccd4ae8521e39fa">snake_delay</a>;</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="snake_8qc_html_a663840eb5422a6478cffdd91b66bf656"><div class="ttname"><a href="../../d1/dff/snake_8qc.html#a663840eb5422a6478cffdd91b66bf656">SNAKE_TURN_MOVE</a></div><div class="ttdeci">const float SNAKE_TURN_MOVE</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dff/snake_8qc_source.html#l00003">snake.qc:3</a></div></div>
+<div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00085">main.qh:85</a></div></div>
 <div class="ttc" id="snake_8qc_html_aa2957c316e77f241a7c3e7a3f8b8acc5"><div class="ttname"><a href="../../d1/dff/snake_8qc.html#aa2957c316e77f241a7c3e7a3f8b8acc5">snake_check_winner</a></div><div class="ttdeci">void snake_check_winner(entity minigame)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dff/snake_8qc_source.html#l00126">snake.qc:126</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a9d4fb8ccfb13fa0bd762af0b2b50dcf6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a></div><div class="ttdeci">float nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">csprogsdefs.qc:121</a></div></div>
+<div class="ttc" id="snake_8qc_html_a601bbe1b4b2ea7a74ccd4ae8521e39fa"><div class="ttname"><a href="../../d1/dff/snake_8qc.html#a601bbe1b4b2ea7a74ccd4ae8521e39fa">snake_delay</a></div><div class="ttdeci">float snake_delay</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dff/snake_8qc_source.html#l00027">snake.qc:27</a></div></div>
 <div class="ttc" id="snake_8qc_html_ac8190572290db96a4985e533fdfa8cac"><div class="ttname"><a href="../../d1/dff/snake_8qc.html#ac8190572290db96a4985e533fdfa8cac">snake_move_head</a></div><div class="ttdeci">void snake_move_head(entity minigame, entity head)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dff/snake_8qc_source.html#l00301">snake.qc:301</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
@@ -1587,6 +1590,8 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/dff/snake_8qc_source.html#l00027">27</a> of file <a class="el" href="../../d1/dff/snake_8qc_source.html">snake.qc</a>.</p>
 
+<p>Referenced by <a class="el" href="../../d1/dff/snake_8qc_source.html#l00156">snake_head_think()</a>.</p>
+
 </div>
 </div>
 <a class="anchor" id="a5a754e0a7bef2623a785d71f6965b07d"></a>
@@ -1861,7 +1866,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../dir_f3c5fe65fc7d6f300d22d67107da5495.html">minigame</a></li><li class="navelem"><a class="el" href="../../d1/dff/snake_8qc.html">snake.qc</a></li>
-    <li class="footer">Generated on Thu May 19 2016 21:23:53 for Xonotic by
+    <li class="footer">Generated on Thu May 19 2016 21:48:40 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -255,53 +255,53 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;<span class="keywordtype">void</span> pong_ball_think()</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordtype">float</span> think_speed = <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a1b0fa64c763c8d458a4a779906df56c1">autocvar_sys_ticrate</a>;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keyword">self</span>.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + think_speed;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + think_speed;</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    <span class="keyword">self</span>.origin_x += <span class="keyword">self</span>.velocity_x * think_speed;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keyword">self</span>.origin_y += <span class="keyword">self</span>.velocity_y * think_speed;</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="keyword">self</span>.SendFlags |= <a class="code" href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a>;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    this.origin_x += this.velocity_x * think_speed;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    this.origin_y += this.velocity_y * think_speed;</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    this.SendFlags |= <a class="code" href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a>;</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="keywordtype">int</span> i;</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">for</span> ( i = 1; i &lt;= <a class="code" href="../../d7/de3/pong_8qc.html#ab4406bbe08968c38c6d68c4554a2d5b5">PONG_MAX_PLAYERS</a>; i++ )</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordflow">if</span> ( pong_paddle_hit(<span class="keyword">self</span>, i) )</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordflow">if</span> ( pong_paddle_hit(<span class="keyword">this</span>, i) )</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        {</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            pong_paddle_bounce(<span class="keyword">self</span>,i);</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <span class="keyword">self</span>.team = i;</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            <span class="keyword">self</span>.SendFlags |= <a class="code" href="../../d7/de3/pong_8qc.html#a061e2e80b7d00037922865df3a1223b8">PONG_SF_BALLTEAM</a>;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            pong_paddle_bounce(<span class="keyword">this</span>,i);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> = i;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            this.SendFlags |= <a class="code" href="../../d7/de3/pong_8qc.html#a061e2e80b7d00037922865df3a1223b8">PONG_SF_BALLTEAM</a>;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        }</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordflow">if</span> ( <span class="keyword">self</span>.origin_y &lt;= <span class="keyword">self</span>.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a> )</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordflow">if</span> ( this.origin_y &lt;= this.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a> )</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    {</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">if</span> ( !pong_goal(<span class="keyword">self</span>,3) )</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <span class="keywordflow">if</span> ( !pong_goal(<span class="keyword">this</span>,3) )</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        {</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            <span class="keyword">self</span>.origin_y = <span class="keyword">self</span>.pong_length;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            <span class="keyword">self</span>.velocity_y *= -1;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            this.origin_y = this.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a>;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            this.velocity_y *= -1;</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        }</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    }</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( <span class="keyword">self</span>.origin_y &gt;= 1-<span class="keyword">self</span>.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a> )</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( this.origin_y &gt;= 1-this.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a> )</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    {</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keywordflow">if</span> ( !pong_goal(<span class="keyword">self</span>,4) )</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keywordflow">if</span> ( !pong_goal(<span class="keyword">this</span>,4) )</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        {</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            <span class="keyword">self</span>.origin_y = 1-<span class="keyword">self</span>.pong_length;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            <span class="keyword">self</span>.velocity_y *= -1;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            this.origin_y = 1-this.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a>;</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;            this.velocity_y *= -1;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        }</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    }</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;</div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">if</span> ( <span class="keyword">self</span>.origin_x &lt;= <span class="keyword">self</span>.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a> )</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    <span class="keywordflow">if</span> ( this.origin_x &lt;= this.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a> )</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    {</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">if</span> ( !pong_goal(<span class="keyword">self</span>,2) )</div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <span class="keywordflow">if</span> ( !pong_goal(<span class="keyword">this</span>,2) )</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        {</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;             <span class="keyword">self</span>.origin_x = <span class="keyword">self</span>.pong_length;</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;             <span class="keyword">self</span>.velocity_x *= -1;</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;             this.origin_x = this.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a>;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;             this.velocity_x *= -1;</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        }</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    }</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( <span class="keyword">self</span>.origin_x &gt;= 1-<span class="keyword">self</span>.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a> )</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( this.origin_x &gt;= 1-this.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a> )</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    {</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <span class="keywordflow">if</span> ( !pong_goal(<span class="keyword">self</span>,1) )</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <span class="keywordflow">if</span> ( !pong_goal(<span class="keyword">this</span>,1) )</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        {</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;             <span class="keyword">self</span>.origin_x = 1-<span class="keyword">self</span>.pong_length;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;             <span class="keyword">self</span>.velocity_x *= -1;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;             this.origin_x = 1-this.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;             this.velocity_x *= -1;</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        }</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    }</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;</div>
@@ -311,18 +311,18 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;<span class="keywordtype">void</span> pong_ai_think()</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordtype">float</span> think_speed = autocvar_sv_minigames_pong_ai_thinkspeed;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keyword">self</span>.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + think_speed;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + think_speed;</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordtype">float</span> distance;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keywordtype">float</span> next_distance;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <span class="keywordtype">float</span> min_distance = 1;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> ball = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> mayball = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">while</span> ( ( mayball = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2c3f32b0e9064cc939b864a94b372584">findentity</a>(mayball,<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>,<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>) ) )</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">while</span> ( ( mayball = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2c3f32b0e9064cc939b864a94b372584">findentity</a>(mayball,<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>,this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>) ) )</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keywordflow">if</span> ( mayball.classname == <span class="stringliteral">&quot;pong_ball&quot;</span> )</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        {</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            distance = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(mayball.origin-<span class="keyword">self</span>.pong_ai_paddle.origin);</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            next_distance = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(mayball.origin+mayball.velocity-<span class="keyword">self</span>.pong_ai_paddle.origin);</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            distance = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(mayball.origin-<span class="keyword">this</span>.pong_ai_paddle.origin);</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            next_distance = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(mayball.origin+mayball.velocity-<span class="keyword">this</span>.pong_ai_paddle.origin);</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            <span class="keywordflow">if</span> (  distance &lt; min_distance &amp;&amp; ( distance &lt; 0.5 || next_distance &lt; distance ) )</div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            {</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                min_distance = distance;</div>
@@ -331,31 +331,31 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        }</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> = 0.5;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordtype">float</span> self_pos;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordtype">float</span> my_pos;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordflow">if</span> ( <span class="keyword">self</span>.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> &lt;= 2 )</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <span class="keywordflow">if</span> ( this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> &lt;= 2 )</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    {</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        <span class="keywordflow">if</span> ( ball )</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            target = ball.origin_y + ball.velocity_y*think_speed;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        self_pos = <span class="keyword">self</span>.pong_ai_paddle.origin_y;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        my_pos = this.<a class="code" href="../../d7/de3/pong_8qc.html#a52bb5f83b53bbbdf759739d26ce7f910">pong_ai_paddle</a>.origin_y;</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    }</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    {</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        <span class="keywordflow">if</span> ( ball )</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            target = ball.origin_x + ball.velocity_x*think_speed;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        self_pos = <span class="keyword">self</span>.pong_ai_paddle.origin_x;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        my_pos = this.<a class="code" href="../../d7/de3/pong_8qc.html#a52bb5f83b53bbbdf759739d26ce7f910">pong_ai_paddle</a>.origin_x;</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    }</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    distance = <span class="keyword">self</span>.pong_length/2 * autocvar_sv_minigames_pong_ai_tolerance</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    distance = this.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a>/2 * autocvar_sv_minigames_pong_ai_tolerance</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        + autocvar_sv_minigames_pong_paddle_speed * think_speed;</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordflow">if</span> (target &lt; self_pos - distance)</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="keyword">self</span>.pong_keys = <a class="code" href="../../d7/de3/pong_8qc.html#ae2a56ee364ec402a021031f4567d1d12">PONG_KEY_DECREASE</a>;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (target &gt; self_pos + distance)</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keyword">self</span>.pong_keys = <a class="code" href="../../d7/de3/pong_8qc.html#a3e201037dda61f41363f87518dd57f9c">PONG_KEY_INCREASE</a>;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordflow">if</span> (target &lt; my_pos - distance)</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        this.<a class="code" href="../../d7/de3/pong_8qc.html#a3aa84d8d8617354b2ebe47c33e68999f">pong_keys</a> = <a class="code" href="../../d7/de3/pong_8qc.html#ae2a56ee364ec402a021031f4567d1d12">PONG_KEY_DECREASE</a>;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (target &gt; my_pos + distance)</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        this.<a class="code" href="../../d7/de3/pong_8qc.html#a3aa84d8d8617354b2ebe47c33e68999f">pong_keys</a> = <a class="code" href="../../d7/de3/pong_8qc.html#a3e201037dda61f41363f87518dd57f9c">PONG_KEY_INCREASE</a>;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keyword">self</span>.pong_keys = 0;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        this.<a class="code" href="../../d7/de3/pong_8qc.html#a3aa84d8d8617354b2ebe47c33e68999f">pong_keys</a> = 0;</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;}</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> pong_ai_spawn(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> paddle)</div>
@@ -376,23 +376,23 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="keywordtype">void</span> pong_paddle_think()</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <span class="keywordtype">float</span> think_speed = <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a1b0fa64c763c8d458a4a779906df56c1">autocvar_sys_ticrate</a>;</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keyword">self</span>.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + think_speed;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + think_speed;</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    <span class="keywordflow">if</span> ( <span class="keyword">self</span>.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a6ff047c33f58c5833c291c636078e712">realowner</a>.minigame_players.pong_keys == <a class="code" href="../../d7/de3/pong_8qc.html#a3e201037dda61f41363f87518dd57f9c">PONG_KEY_INCREASE</a> ||</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;         <span class="keyword">self</span>.realowner.minigame_players.pong_keys == <a class="code" href="../../d7/de3/pong_8qc.html#ae2a56ee364ec402a021031f4567d1d12">PONG_KEY_DECREASE</a> )</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    <span class="keywordflow">if</span> ( this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a6ff047c33f58c5833c291c636078e712">realowner</a>.minigame_players.pong_keys == <a class="code" href="../../d7/de3/pong_8qc.html#a3e201037dda61f41363f87518dd57f9c">PONG_KEY_INCREASE</a> ||</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;         <span class="keyword">this</span>.realowner.minigame_players.pong_keys == <a class="code" href="../../d7/de3/pong_8qc.html#ae2a56ee364ec402a021031f4567d1d12">PONG_KEY_DECREASE</a> )</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    {</div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="keywordtype">float</span> <a class="code" href="../../de/d5e/dpextensions_8qc.html#a23fc255128837ca7ca9aa8362cdb3a4a">movement</a> = autocvar_sv_minigames_pong_paddle_speed * think_speed;</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        <span class="keywordtype">float</span> halflen = <span class="keyword">self</span>.pong_length/2;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        <span class="keywordtype">float</span> halflen = this.<a class="code" href="../../d7/de3/pong_8qc.html#afeb4686b9b54e55ca1113cba18fda571">pong_length</a>/2;</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        <span class="keywordflow">if</span> ( <span class="keyword">self</span>.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a6ff047c33f58c5833c291c636078e712">realowner</a>.minigame_players.pong_keys == <a class="code" href="../../d7/de3/pong_8qc.html#ae2a56ee364ec402a021031f4567d1d12">PONG_KEY_DECREASE</a> )</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        <span class="keywordflow">if</span> ( this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a6ff047c33f58c5833c291c636078e712">realowner</a>.minigame_players.pong_keys == <a class="code" href="../../d7/de3/pong_8qc.html#ae2a56ee364ec402a021031f4567d1d12">PONG_KEY_DECREASE</a> )</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            movement *= -1;</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="keywordflow">if</span> ( <span class="keyword">self</span>.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> &gt; 2 )</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            <span class="keyword">self</span>.origin_x = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(halflen, <span class="keyword">self</span>.origin_x+movement, 1-halflen);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="keywordflow">if</span> ( this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> &gt; 2 )</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;            this.origin_x = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(halflen, this.origin_x+movement, 1-halflen);</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            <span class="keyword">self</span>.origin_y = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(halflen, <span class="keyword">self</span>.origin_y+movement, 1-halflen);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            this.origin_y = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(halflen, this.origin_y+movement, 1-halflen);</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="keyword">self</span>.SendFlags |= <a class="code" href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a>;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        this.SendFlags |= <a class="code" href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a>;</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    }</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;}</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;</div>
@@ -824,6 +824,7 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="ttc" id="cl__minigames_8qh_html_a82f7375b596eef1374f49d41e4b75ad0"><div class="ttname"><a href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a></div><div class="ttdeci">#define minigame_cmd(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3d/cl__minigames_8qh_source.html#l00095">cl_minigames.qh:95</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a189158f8c2db3797e9bb00cc53e80988"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a189158f8c2db3797e9bb00cc53e80988">drawfill</a></div><div class="ttdeci">float drawfill(vector position, vector size, vector rgb, float alpha, float flag)</div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a9d4fb8ccfb13fa0bd762af0b2b50dcf6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a></div><div class="ttdeci">float nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">csprogsdefs.qc:121</a></div></div>
 <div class="ttc" id="pong_8qc_html_a3e201037dda61f41363f87518dd57f9c"><div class="ttname"><a href="../../d7/de3/pong_8qc.html#a3e201037dda61f41363f87518dd57f9c">PONG_KEY_INCREASE</a></div><div class="ttdeci">const int PONG_KEY_INCREASE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de3/pong_8qc_source.html#l00014">pong.qc:14</a></div></div>
 <div class="ttc" id="dpextensions_8qc_html_a23fc255128837ca7ca9aa8362cdb3a4a"><div class="ttname"><a href="../../de/d5e/dpextensions_8qc.html#a23fc255128837ca7ca9aa8362cdb3a4a">movement</a></div><div class="ttdeci">vector movement</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/dpextensions_8qc_source.html#l01663">dpextensions.qc:1663</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
@@ -861,7 +862,7 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../dir_f3c5fe65fc7d6f300d22d67107da5495.html">minigame</a></li><li class="navelem"><a class="el" href="../../d7/de3/pong_8qc.html">pong.qc</a></li>
-    <li class="footer">Generated on Thu May 19 2016 21:23:46 for Xonotic by
+    <li class="footer">Generated on Thu May 19 2016 21:48:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
