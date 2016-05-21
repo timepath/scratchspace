@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"da/dc1/classXonoticAudioSettingsTab.html#aaba311b07a1da9615b2d44e9b8c97149":[1,0,123,62],
 "da/dc1/classXonoticAudioSettingsTab.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,123,24],
 "da/dc1/classXonoticAudioSettingsTab.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,123,53],
 "da/dc1/classXonoticAudioSettingsTab.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,123,25],
@@ -158,9 +159,9 @@ var NAVTREEINDEX84 =
 "da/df5/common_2debug_8qh.html#adf57573d447a0ad86b53345f77359abd":[2,0,1,29,4],
 "da/df5/common_2debug_8qh_source.html":[2,0,1,29],
 "da/df7/steerlib_8qh.html":[2,0,5,63],
-"da/df7/steerlib_8qh.html#a25672ab6371ae66548f5e29fe993ff4e":[2,0,5,63,0],
+"da/df7/steerlib_8qh.html#a0b43def7c545a6306fed7b03b85dfeda":[2,0,5,63,2],
 "da/df7/steerlib_8qh.html#a38b07fd8443f963bdf6737e00b39118c":[2,0,5,63,3],
-"da/df7/steerlib_8qh.html#a6cc8db893653d02041535e650679812e":[2,0,5,63,2],
+"da/df7/steerlib_8qh.html#a7d70f1fc6e595b1f4051af9d788d7791":[2,0,5,63,0],
 "da/df7/steerlib_8qh.html#aa285512e4bcd6a3b28eefa0a85558042":[2,0,5,63,1],
 "da/df7/steerlib_8qh_source.html":[2,0,5,63],
 "da/df9/classMortar.html":[1,0,68],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b":[2,0,1,43,1],
 "db/d07/teams_8qh.html#ab62a8f5d76670c9a0f07b2bf860f3ef9":[2,0,1,43,32],
 "db/d07/teams_8qh.html#ac06eba19ed02993f71f2d006859a442e":[2,0,1,43,11],
-"db/d07/teams_8qh.html#ac413002acb046e7e7c82f421f5927750":[2,0,1,43,30],
-"db/d07/teams_8qh.html#ac861db76d5f4acfd97ed29922f92eabc":[2,0,1,43,27]
+"db/d07/teams_8qh.html#ac413002acb046e7e7c82f421f5927750":[2,0,1,43,30]
 };

@@ -78,6 +78,7 @@ var searchData=
   ['ev_5fmonsterrespawn',['EV_MonsterRespawn',['../d6/ddd/server_2mutators_2events_8qh.html#ab9a6b94018b56f080fe915c277ec3745',1,'events.qh']]],
   ['ev_5fmonsterspawn',['EV_MonsterSpawn',['../d6/ddd/server_2mutators_2events_8qh.html#a9ee27eb8eedcc7b8195124d0cc9bfb5e',1,'events.qh']]],
   ['ev_5fno_5fargs',['EV_NO_ARGS',['../d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6',1,'events.qh']]],
+  ['ev_5fonentityprespawn',['EV_OnEntityPreSpawn',['../d6/ddd/server_2mutators_2events_8qh.html#aacd50c39b34d5ffdaa6630142c90cf26',1,'events.qh']]],
   ['ev_5fparticles_5fvortexbeam',['EV_Particles_VortexBeam',['../d8/d0e/client_2mutators_2events_8qh.html#a73b29441aa587047a111602661a4cdf6',1,'events.qh']]],
   ['ev_5fplayer_5fchangeteam',['EV_Player_ChangeTeam',['../d6/ddd/server_2mutators_2events_8qh.html#a1ef9f867f92d08e48569a19cdb961c0f',1,'events.qh']]],
   ['ev_5fplayerdamage_5fcalculate',['EV_PlayerDamage_Calculate',['../d6/ddd/server_2mutators_2events_8qh.html#a6f0dec13a4dc9336577dc70abd61b71f',1,'events.qh']]],

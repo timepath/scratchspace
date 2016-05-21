@@ -1,5 +1,6 @@
 var NAVTREEINDEX116 =
 {
+"df/d0f/classSpiderbot.html#af343549d2946320333bcba1ce7ff017a":[1,0,105,21],
 "df/d0f/classSpiderbot.html#af6f42dcff19b7fb5b76462a7d5848b97":[1,0,105,6],
 "df/d0f/classSpiderbot.html#af9b72141d86f1876f0b9a60543460ee0":[1,0,105,19],
 "df/d13/anglestransform_8qc.html":[2,0,3,2,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX116 =
 "df/d28/sv__turrets_8qh.html#ac9f33d3efe2605b684741296c7f49639":[2,0,1,14,10,43],
 "df/d28/sv__turrets_8qh.html#adc336bbc5dd801130537678bef80e2ca":[2,0,1,14,10,7],
 "df/d28/sv__turrets_8qh.html#adc9337924d4dea4b60215bbce55dc593":[2,0,1,14,10,48],
-"df/d28/sv__turrets_8qh.html#add3e75f4e12a0dd12e8e02fe6b237be0":[2,0,1,14,10,6],
-"df/d28/sv__turrets_8qh.html#ae0ed398c4652699163713c5905cf5f85":[2,0,1,14,10,45]
+"df/d28/sv__turrets_8qh.html#add3e75f4e12a0dd12e8e02fe6b237be0":[2,0,1,14,10,6]
 };

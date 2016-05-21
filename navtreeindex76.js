@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"d9/d8e/gamemode__assault_8qc.html#a6c1be8aa70a07ec6b91cfb1050ddcbc8":[2,0,5,2,0,2,11],
 "d9/d8e/gamemode__assault_8qc.html#a7c876617d922cd16d5dab82fe6fce4e3":[2,0,5,2,0,2,9],
 "d9/d8e/gamemode__assault_8qc.html#a8854e134a0d692c1377eb61d2e4b6c73":[2,0,5,2,0,2,12],
 "d9/d8e/gamemode__assault_8qc.html#a90b02641f0c7d1b01f7998fe398c95c1":[2,0,5,2,0,2,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "d9/dca/classXonoticCommandButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,134,72],
 "d9/dca/classXonoticCommandButton.html#a35096b8b6cb8fc4146d2ea014c29999a":[1,0,134,71],
 "d9/dca/classXonoticCommandButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,134,65],
-"d9/dca/classXonoticCommandButton.html#a3a740bc65a83689ad7304710ece43f5c":[1,0,134,51],
-"d9/dca/classXonoticCommandButton.html#a3a88ebd44b9abf22558ee9a6cfaf03dd":[1,0,134,73]
+"d9/dca/classXonoticCommandButton.html#a3a740bc65a83689ad7304710ece43f5c":[1,0,134,51]
 };
