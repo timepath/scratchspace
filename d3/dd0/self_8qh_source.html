@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('d3/dd0/self_8qh_source.html','../../')
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">// Step 1: auto oldself</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#if 1</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">    7</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define SELFPARAM() noref const entity this = self</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define SELFPARAM() noref const entity this = self</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">// Step 2: const self</span></div>
@@ -126,43 +126,45 @@ $(document).ready(function(){initNavTree('d3/dd0/self_8qh_source.html','../../')
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#if 1</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #undef self</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d">   21</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define self (this, self)</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="comment">// Step 4: kill unstructured setself</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#if 0</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #undef setself</span></div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="comment">// Step 5: this should work</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">#if 0</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define self (0, this)</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="comment">// Step 6: Remove SELFPARAM in favor of a parameter</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;.void(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>) selftouch;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#ab3a78bfa3abc69b3aadb27a1b4eb76dc">   37</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/dd0/self_8qh.html#ab3a78bfa3abc69b3aadb27a1b4eb76dc">touch_self</a>() { <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>(); this.selftouch(<span class="keyword">this</span>); }</div>
-<div class="line"><a name="l00038"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#acdb080d09ffac3f62f9bed677729d802">   38</a></span>&#160;<span class="preprocessor">#define settouch(e, f) (e.touch = touch_self, e.selftouch = f)</span></div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="comment">//.void(entity this) selfuse;</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="comment">//void use_self() { SELFPARAM(); this.selfuse(this); }</span></div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">//#define setuse(e, f) (e.use = use_self, e.selfuse = f)</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;.void(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>) selfthink;</div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#a4a3d6af7cf02f91cc13ce4057789c478">   45</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/dd0/self_8qh.html#a4a3d6af7cf02f91cc13ce4057789c478">think_self</a>() { <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>(); this.selfthink(<span class="keyword">this</span>); }</div>
-<div class="line"><a name="l00046"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">   46</a></span>&#160;<span class="preprocessor">#define setthink(e, f) (e.think = think_self, e.selfthink = f)</span></div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
-<div class="ttc" id="self_8qh_html_a4a3d6af7cf02f91cc13ce4057789c478"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a4a3d6af7cf02f91cc13ce4057789c478">think_self</a></div><div class="ttdeci">void think_self()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00045">self.qh:45</a></div></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #undef SELFPARAM</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">   23</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define SELFPARAM() const entity this = __self</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="comment">// Step 4: kill unstructured setself</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#if 0</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #undef setself</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="comment">// Step 5: this should work</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">#if 0</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define self (0, this)</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="comment">// Step 6: Remove SELFPARAM in favor of a parameter</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;.void(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>) selftouch;</div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#ab3a78bfa3abc69b3aadb27a1b4eb76dc">   39</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/dd0/self_8qh.html#ab3a78bfa3abc69b3aadb27a1b4eb76dc">touch_self</a>() { <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>(); this.selftouch(<span class="keyword">this</span>); }</div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#acdb080d09ffac3f62f9bed677729d802">   40</a></span>&#160;<span class="preprocessor">#define settouch(e, f) (e.touch = touch_self, e.selftouch = f)</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="comment">//.void(entity this) selfuse;</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="comment">//void use_self() { SELFPARAM(); this.selfuse(this); }</span></div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="comment">//#define setuse(e, f) (e.use = use_self, e.selfuse = f)</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;.void(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>) selfthink;</div>
+<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#a4a3d6af7cf02f91cc13ce4057789c478">   47</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/dd0/self_8qh.html#a4a3d6af7cf02f91cc13ce4057789c478">think_self</a>() { <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>(); this.selfthink(<span class="keyword">this</span>); }</div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">   48</a></span>&#160;<span class="preprocessor">#define setthink(e, f) (e.think = think_self, e.selfthink = f)</span></div>
+<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00023">self.qh:23</a></div></div>
+<div class="ttc" id="self_8qh_html_a4a3d6af7cf02f91cc13ce4057789c478"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a4a3d6af7cf02f91cc13ce4057789c478">think_self</a></div><div class="ttdeci">void think_self()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00047">self.qh:47</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="self_8qh_html_afbc5d1d66fe421c0d2eef50e8f8bf902"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a></div><div class="ttdeci">entity __self</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00013">self.qh:13</a></div></div>
-<div class="ttc" id="self_8qh_html_ab3a78bfa3abc69b3aadb27a1b4eb76dc"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ab3a78bfa3abc69b3aadb27a1b4eb76dc">touch_self</a></div><div class="ttdeci">void touch_self()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00037">self.qh:37</a></div></div>
+<div class="ttc" id="self_8qh_html_ab3a78bfa3abc69b3aadb27a1b4eb76dc"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ab3a78bfa3abc69b3aadb27a1b4eb76dc">touch_self</a></div><div class="ttdeci">void touch_self()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00039">self.qh:39</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d3/dd0/self_8qh.html">self.qh</a></li>
-    <li class="footer">Generated on Sun May 22 2016 03:00:53 for Xonotic by
+    <li class="footer">Generated on Sun May 22 2016 04:19:56 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

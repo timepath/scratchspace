@@ -135,7 +135,7 @@ var searchData=
   ['selectweapon',['selectweapon',['../d5/d26/server_2defs_8qh.html#a4f0f837be8dd43698e15bc64fefd823f',1,'defs.qh']]],
   ['self',['self',['../d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d',1,'self():&#160;self.qh'],['../d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d',1,'self():&#160;self.qh'],['../d4/d0c/csprogsdefs_8qc.html#a3195bf628df3841489df31af0fc09e26',1,'self():&#160;csprogsdefs.qc'],['../d8/de2/menudefs_8qc.html#a3195bf628df3841489df31af0fc09e26',1,'self():&#160;menudefs.qc'],['../d6/d11/progsdefs_8qc.html#a3195bf628df3841489df31af0fc09e26',1,'self():&#160;progsdefs.qc']]],
   ['self_2eqh',['self.qh',['../d3/dd0/self_8qh.html',1,'']]],
-  ['selfparam',['SELFPARAM',['../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c',1,'self.qh']]],
+  ['selfparam',['SELFPARAM',['../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c',1,'SELFPARAM():&#160;self.qh'],['../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c',1,'SELFPARAM():&#160;self.qh']]],
   ['send_5fcsqc_5fteamnagger',['send_CSQC_teamnagger',['../da/d53/cl__client_8qc.html#a62b8839530824d20596d155faefe0411',1,'cl_client.qc']]],
   ['send_5fweaponcomplain',['Send_WeaponComplain',['../d2/d62/selection_8qc.html#a6f9b75f17639bb910d8445a136d4a837',1,'Send_WeaponComplain(entity e, float wpn, float type):&#160;selection.qc'],['../d8/d6b/selection_8qh.html#a6f9b75f17639bb910d8445a136d4a837',1,'Send_WeaponComplain(entity e, float wpn, float type):&#160;selection.qc']]],
   ['sendauxiliaryxhair',['SendAuxiliaryXhair',['../da/d10/sv__vehicles_8qc.html#a7a2ae1bbb066508dbcaeb617e1c6b887',1,'sv_vehicles.qc']]],

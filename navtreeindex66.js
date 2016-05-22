@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"d8/d0e/lazy_8qh.html#af1684a613a0e441d7b47b6cdc4dc878f":[2,0,3,24,2],
 "d8/d0e/lazy_8qh_source.html":[2,0,3,24],
 "d8/d0f/gamemode__assault_8qh.html":[2,0,5,2,0,3],
 "d8/d0f/gamemode__assault_8qh_source.html":[2,0,5,2,0,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "d8/d35/classXonoticHUDChatDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,159,64],
 "d8/d35/classXonoticHUDChatDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,159,4],
 "d8/d35/classXonoticHUDChatDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,159,32],
-"d8/d35/classXonoticHUDChatDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,159,10],
-"d8/d35/classXonoticHUDChatDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,159,38]
+"d8/d35/classXonoticHUDChatDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,159,10]
 };

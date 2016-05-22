@@ -1,5 +1,6 @@
 var NAVTREEINDEX80 =
 {
+"da/d34/common_2effects_2qc_2all_8qc_source.html":[2,0,1,2,0,3],
 "da/d3b/weapons_2weapon_2machinegun_8qc.html":[2,0,1,16,0,11],
 "da/d3b/weapons_2weapon_2machinegun_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,11,1],
 "da/d3b/weapons_2weapon_2machinegun_8qc.html#af2b46b122575dc628900728779d60989":[2,0,1,16,0,11,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX80 =
 "da/d53/cl__client_8qc.html#a81497331b22f9248fec442b8f1889f6c":[2,0,5,17,4],
 "da/d53/cl__client_8qc.html#a8dd80f958cebe7a215c3ebfd7895e623":[2,0,5,17,71],
 "da/d53/cl__client_8qc.html#a970661ffeb3805a8821a11ae4d765f15":[2,0,5,17,59],
-"da/d53/cl__client_8qc.html#a983dc6d34650aaa411f39156db2ee6f5":[2,0,5,17,32],
-"da/d53/cl__client_8qc.html#a984bd0f75e9cdad7a43051d06438dc54":[2,0,5,17,17]
+"da/d53/cl__client_8qc.html#a983dc6d34650aaa411f39156db2ee6f5":[2,0,5,17,32]
 };

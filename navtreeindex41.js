@@ -1,5 +1,6 @@
 var NAVTREEINDEX41 =
 {
+"d5/d1f/gamemode__invasion_8qc.html#aa796ea7b6c0f35ad5a7b8ecba186b192":[2,0,5,2,0,16,0],
 "d5/d1f/gamemode__invasion_8qc.html#aade923d0effcb405bcdf30f467ac0a59":[2,0,5,2,0,16,13],
 "d5/d1f/gamemode__invasion_8qc.html#abc643ffee29e9228118221dc0291f099":[2,0,5,2,0,16,15],
 "d5/d1f/gamemode__invasion_8qc.html#ac42340c7906a32ccf91474fa3e33d826":[2,0,5,2,0,16,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX41 =
 "d5/d26/server_2defs_8qh.html#ad6277977c2f00ae7c2906c9d3d12caaf":[2,0,5,24,223],
 "d5/d26/server_2defs_8qh.html#ad72ac967fff2b7aa6853058d8d510023":[2,0,5,24,138],
 "d5/d26/server_2defs_8qh.html#ad896d889c6a5568ab728f7233e86e258":[2,0,5,24,50],
-"d5/d26/server_2defs_8qh.html#ad8cc5742c76a6d38a1205a2171ea5239":[2,0,5,24,231],
-"d5/d26/server_2defs_8qh.html#adb1d2599f475690b29b543df7353025d":[2,0,5,24,42]
+"d5/d26/server_2defs_8qh.html#ad8cc5742c76a6d38a1205a2171ea5239":[2,0,5,24,231]
 };

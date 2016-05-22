@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"d4/de8/classRacerAttack.html#af96bae3c7665f6c8e08cec21eeee93d5":[1,0,87,23],
 "d4/de8/classRacerAttack.html#aff35604b8ecf473f4c6f2c69cf544ece":[1,0,87,26],
 "d4/de8/classRacerAttack.html#aff8f0ac8fa48899d90a06ca28c922298":[1,0,87,30],
 "d4/def/weapons_8qc.html":[2,0,0,1,0,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "d5/d1f/gamemode__invasion_8qc.html#a8feb7f4ef377845e3185b586e825b5d2":[2,0,5,2,0,16,5],
 "d5/d1f/gamemode__invasion_8qc.html#a96c044fcc2d6cc6dec1cc92b3ff66067":[2,0,5,2,0,16,8],
 "d5/d1f/gamemode__invasion_8qc.html#a9a097d6ffb85569c18a7a736e2c70388":[2,0,5,2,0,16,4],
-"d5/d1f/gamemode__invasion_8qc.html#a9c44a784e6ab1d2fe799d0a826b576d8":[2,0,5,2,0,16,1],
-"d5/d1f/gamemode__invasion_8qc.html#aa796ea7b6c0f35ad5a7b8ecba186b192":[2,0,5,2,0,16,0]
+"d5/d1f/gamemode__invasion_8qc.html#a9c44a784e6ab1d2fe799d0a826b576d8":[2,0,5,2,0,16,1]
 };
