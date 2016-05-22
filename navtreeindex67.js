@@ -1,5 +1,14 @@
 var NAVTREEINDEX67 =
 {
+"d8/d35/classXonoticHUDChatDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,159,58],
+"d8/d35/classXonoticHUDChatDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,159,63],
+"d8/d35/classXonoticHUDChatDialog.html#a1e3ab8541b20e732388c7f862af0bd8a":[1,0,159,13],
+"d8/d35/classXonoticHUDChatDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,159,62],
+"d8/d35/classXonoticHUDChatDialog.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,159,86],
+"d8/d35/classXonoticHUDChatDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,159,64],
+"d8/d35/classXonoticHUDChatDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,159,4],
+"d8/d35/classXonoticHUDChatDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,159,32],
+"d8/d35/classXonoticHUDChatDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,159,10],
 "d8/d35/classXonoticHUDChatDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,159,38],
 "d8/d35/classXonoticHUDChatDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,159,43],
 "d8/d35/classXonoticHUDChatDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,159,18],
@@ -240,14 +249,5 @@ var NAVTREEINDEX67 =
 "d8/d61/picker_8qh.html":[2,0,4,4,183],
 "d8/d61/picker_8qh.html#a31daa00a20ea0b0228b3a664c8e90483":[2,0,4,4,183,1],
 "d8/d61/picker_8qh_source.html":[2,0,4,4,183],
-"d8/d6b/selection_8qh.html":[2,0,5,4,11],
-"d8/d6b/selection_8qh.html#a32307104f9168ee9caba49c8a59099e3":[2,0,5,4,11,9],
-"d8/d6b/selection_8qh.html#a3daae79918286c9352ba30495957db79":[2,0,5,4,11,13],
-"d8/d6b/selection_8qh.html#a4a226b5967df0ab0c198fb5eebef802f":[2,0,5,4,11,11],
-"d8/d6b/selection_8qh.html#a4dff3960294957a155e699d044fc4266":[2,0,5,4,11,10],
-"d8/d6b/selection_8qh.html#a5a8a02c987945a7a69eedc13bd083e6d":[2,0,5,4,11,5],
-"d8/d6b/selection_8qh.html#a6f9b75f17639bb910d8445a136d4a837":[2,0,5,4,11,2],
-"d8/d6b/selection_8qh.html#a6fedfde6c12ac781e002cc5685732e16":[2,0,5,4,11,3],
-"d8/d6b/selection_8qh.html#a803a77719fd2059fdc44048208121f14":[2,0,5,4,11,6],
-"d8/d6b/selection_8qh.html#a9939796cc50a72af43a8fa95e3aea85e":[2,0,5,4,11,0]
+"d8/d6b/selection_8qh.html":[2,0,5,4,11]
 };

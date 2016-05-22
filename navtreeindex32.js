@@ -1,5 +1,14 @@
 var NAVTREEINDEX32 =
 {
+"d4/d0d/client_2mapvoting_8qc.html#af980301f0a5f2a02ac8b0502d1a4951a":[2,0,0,18,20],
+"d4/d0d/client_2mapvoting_8qc.html#afad81141b0355a860158f3dc0ea66a59":[2,0,0,18,42],
+"d4/d0d/client_2mapvoting_8qc.html#afc42b7e84553443a0d327e4cad45f162":[2,0,0,18,40],
+"d4/d0d/client_2mapvoting_8qc.html#afde464ed97af30f0fd8726e31527710f":[2,0,0,18,48],
+"d4/d0d/client_2mapvoting_8qc_source.html":[2,0,0,18],
+"d4/d0f/buffs_8qc.html":[2,0,1,9,0,2,5],
+"d4/d0f/buffs_8qc.html#a020006eca41a51b198f5c83e80f14207":[2,0,1,9,0,2,5,3],
+"d4/d0f/buffs_8qc.html#a03957de995522dc44980d0586c7743d1":[2,0,1,9,0,2,5,54],
+"d4/d0f/buffs_8qc.html#a0935cf95ae9cbe54fe6f4df418bda734":[2,0,1,9,0,2,5,5],
 "d4/d0f/buffs_8qc.html#a0a86dfc1e5510608049adcd646ccc5e6":[2,0,1,9,0,2,5,46],
 "d4/d0f/buffs_8qc.html#a0c42457fa912aa549537a964930a7f68":[2,0,1,9,0,2,5,12],
 "d4/d0f/buffs_8qc.html#a0d848f48b55f4b490dad82756d2b6bd1":[2,0,1,9,0,2,5,14],
@@ -240,14 +249,5 @@ var NAVTREEINDEX32 =
 "d4/d1b/radar_8qh_source.html":[2,0,0,1,0,31],
 "d4/d20/mainwindow_8qh.html":[2,0,4,4,177],
 "d4/d20/mainwindow_8qh_source.html":[2,0,4,4,177],
-"d4/d21/dialog__hudpanel__physics_8qc.html":[2,0,4,4,62],
-"d4/d21/dialog__hudpanel__physics_8qc.html#a9b085af15534ec8ac17a204bfd5e9fc6":[2,0,4,4,62,0],
-"d4/d21/dialog__hudpanel__physics_8qc_source.html":[2,0,4,4,62],
-"d4/d24/classWalkerTurretAttack.html":[1,0,117],
-"d4/d24/classWalkerTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,117,32],
-"d4/d24/classWalkerTurretAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,117,17],
-"d4/d24/classWalkerTurretAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,117,16],
-"d4/d24/classWalkerTurretAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,117,29],
-"d4/d24/classWalkerTurretAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,117,14],
-"d4/d24/classWalkerTurretAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,117,18]
+"d4/d21/dialog__hudpanel__physics_8qc.html":[2,0,4,4,62]
 };

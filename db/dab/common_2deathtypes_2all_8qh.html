@@ -432,15 +432,16 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(Deathtypes, DEATH, <span class="keywordtype">id</span>, <a class="code" href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(deathtype)) { \</div>
-<div class="line">        this.m_id += <a class="code" href="../../db/dab/common_2deathtypes_2all_8qh.html#a5e0317d3d6616fc59446bd8400a011cd">DT_FIRST</a>; \</div>
-<div class="line">        this.nent_name = #id; \</div>
-<div class="line">        this.death_msgextra = extra; \</div>
-<div class="line">        this.death_msgself = msg_death; \</div>
-<div class="line">        this.death_msgmurder = msg_death_by; \</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a>(Deathtypes, DEATH, <span class="keywordtype">id</span>, <a class="code" href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(deathtype)) { <a class="code" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">\</a></div>
+<div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">        this</a>.m_id += <a class="code" href="../../db/dab/common_2deathtypes_2all_8qh.html#a5e0317d3d6616fc59446bd8400a011cd">DT_FIRST</a>; <a class="code" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">\</a></div>
+<div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">        this</a>.nent_name = #id; <a class="code" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">\</a></div>
+<div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">        this</a>.death_msgextra = extra; <a class="code" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">\</a></div>
+<div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">        this</a>.death_msgself = msg_death; <a class="code" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">\</a></div>
+<div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">        this</a>.death_msgmurder = msg_death_by; \</div>
 <div class="line">    }</div>
 <div class="ttc" id="registry_8qh_html_a212380bd462d6af1e068ef2e15844466"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a></div><div class="ttdeci">#define REGISTER(...)</div><div class="ttdoc">Register a new entity with a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00066">registry.qh:66</a></div></div>
 <div class="ttc" id="effect_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de6/effect_8qh_source.html#l00020">effect.qh:20</a></div></div>
+<div class="ttc" id="self_8qh_html_a6e6394280f1b36807cbbd132d2464d29"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a></div><div class="ttdeci">entity this</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00067">self.qh:67</a></div></div>
 <div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00078">oo.qh:78</a></div></div>
 <div class="ttc" id="common_2deathtypes_2all_8qh_html_a5e0317d3d6616fc59446bd8400a011cd"><div class="ttname"><a href="../../db/dab/common_2deathtypes_2all_8qh.html#a5e0317d3d6616fc59446bd8400a011cd">DT_FIRST</a></div><div class="ttdeci">const int DT_FIRST</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dab/common_2deathtypes_2all_8qh_source.html#l00036">all.qh:36</a></div></div>
 </div><!-- fragment -->
@@ -685,7 +686,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/dab/common_2deathtypes_2all_8qh_source.html#l00029">29</a> of file <a class="el" href="../../db/dab/common_2deathtypes_2all_8qh_source.html">all.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00976">adaptor_think2use_hittype_splash()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00261">door_damage()</a>, and <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00880">RadiusDamageForSource()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00963">adaptor_think2use_hittype_splash()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00261">door_damage()</a>, and <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00880">RadiusDamageForSource()</a>.</p>
 
 </div>
 </div>
@@ -695,7 +696,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_a57aba1fea723fff78db2a89d7e76854.html">deathtypes</a></li><li class="navelem"><a class="el" href="../../db/dab/common_2deathtypes_2all_8qh.html">all.qh</a></li>
-    <li class="footer">Generated on Sun May 22 2016 05:43:57 for Xonotic by
+    <li class="footer">Generated on Sun May 22 2016 10:53:42 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

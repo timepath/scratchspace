@@ -35,14 +35,11 @@ var client_2main_8qc =
     [ "NET_HANDLE", "df/d30/client_2main_8qc.html#a6df675d5ce651f8a28f9d6a958c42b37", null ],
     [ "Playerchecker_Think", "df/d30/client_2main_8qc.html#aed557c138e5ab803e29e1507cc32d6be", null ],
     [ "PostInit", "df/d30/client_2main_8qc.html#a46ab77a8e6731f82b57ed43c3fe5eeea", null ],
-    [ "PreDraw_self", "df/d30/client_2main_8qc.html#a193573d11513d634d32542aff007a914", null ],
-    [ "setpredraw", "df/d30/client_2main_8qc.html#af71e3fca224939f55eb4426f26f41e89", null ],
     [ "SetTeam", "df/d30/client_2main_8qc.html#a927ab476c107855f4c9745da26bdd162", null ],
     [ "Shutdown", "df/d30/client_2main_8qc.html#ac5f038c2b480cf9ef5e19e3eba8dbaf9", null ],
     [ "Spawn_Draw", "df/d30/client_2main_8qc.html#ad588feebc12ed1a2def99b4d4e70d92e", null ],
     [ "Spawn_PreDraw", "df/d30/client_2main_8qc.html#ac642f51eabb19c565bfbe0072388e146", null ],
     [ "TrueAim_Init", "df/d30/client_2main_8qc.html#a468fbc523e176ec4adf829a18606b5f6", null ],
-    [ "void", "df/d30/client_2main_8qc.html#ad4e271fe06daad7d581f3de88e7f9888", null ],
     [ "forcefog", "df/d30/client_2main_8qc.html#ac6d66624aeafa1c2684b5931d82b2008", null ],
     [ "has_team", "df/d30/client_2main_8qc.html#a33415c58794cf70af080dcfa3213a501", null ]
 ];

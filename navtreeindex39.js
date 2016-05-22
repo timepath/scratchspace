@@ -1,5 +1,14 @@
 var NAVTREEINDEX39 =
 {
+"d4/db7/cl__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7":[2,0,1,6,3,1],
+"d4/db7/cl__minigames_8qc.html#a3248db1aa7a2ca4c46e7cbe9e220b3f2":[2,0,1,6,3,19],
+"d4/db7/cl__minigames_8qc.html#a37ea072c5a8a7cfd95436fae838b9c52":[2,0,1,6,3,6],
+"d4/db7/cl__minigames_8qc.html#a3b4976c5caa2806d8bf77936fb1173c1":[2,0,1,6,3,29],
+"d4/db7/cl__minigames_8qc.html#a3f50d48603ccc5c4949bf5d84b0daa78":[2,0,1,6,3,31],
+"d4/db7/cl__minigames_8qc.html#a494190b92b736511115345e0437821b6":[2,0,1,6,3,16],
+"d4/db7/cl__minigames_8qc.html#a558c3b2f4f78605287292d2559a92d9a":[2,0,1,6,3,40],
+"d4/db7/cl__minigames_8qc.html#a5657b7bf68ae63b8b3c54c10a722f74b":[2,0,1,6,3,26],
+"d4/db7/cl__minigames_8qc.html#a5f36281bd221f84e9e614d8976cd7dd1":[2,0,1,6,3,36],
 "d4/db7/cl__minigames_8qc.html#a605390385ce9a045ef096e8d53b6d98b":[2,0,1,6,3,10],
 "d4/db7/cl__minigames_8qc.html#a668aa690502b071b56dfd97e425d8d3e":[2,0,1,6,3,35],
 "d4/db7/cl__minigames_8qc.html#a68129c07b3fb8f85a27d8d3239a21dae":[2,0,1,6,3,42],
@@ -85,8 +94,8 @@ var NAVTREEINDEX39 =
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,4,19,5],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,4,19,1],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,4,19,0],
-"d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,4,19,3],
 "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,4,19,2],
+"d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,4,19,3],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,4,19,8],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,4,19,9],
 "d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,4,19,7],
@@ -240,14 +249,5 @@ var NAVTREEINDEX39 =
 "d4/de8/classRacerAttack.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,87,11],
 "d4/de8/classRacerAttack.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,87,12],
 "d4/de8/classRacerAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,87,10],
-"d4/de8/classRacerAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,87,3],
-"d4/de8/classRacerAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,87,8],
-"d4/de8/classRacerAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,87,34],
-"d4/de8/classRacerAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,87,5],
-"d4/de8/classRacerAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,87,35],
-"d4/de8/classRacerAttack.html#ad033f23932f202bddd926ed5b366336c":[1,0,87,27],
-"d4/de8/classRacerAttack.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,87,1],
-"d4/de8/classRacerAttack.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,87,20],
-"d4/de8/classRacerAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,87,22],
-"d4/de8/classRacerAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,87,15]
+"d4/de8/classRacerAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,87,3]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX86 =
 {
+"db/d29/classXonoticRegisteredSettingsList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,204,58],
+"db/d29/classXonoticRegisteredSettingsList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,204,31],
+"db/d29/classXonoticRegisteredSettingsList.html#aed05f75651928be9263a2073856f33cd":[1,0,204,72],
+"db/d29/classXonoticRegisteredSettingsList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,204,2],
+"db/d29/classXonoticRegisteredSettingsList.html#af100d03bd7a853f2b0a8e0fa3755f094":[1,0,204,79],
+"db/d29/classXonoticRegisteredSettingsList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,204,29],
+"db/d29/classXonoticRegisteredSettingsList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,204,21],
+"db/d29/classXonoticRegisteredSettingsList.html#afd0d89a4240b5d670c0cdfa8c777824c":[1,0,204,69],
+"db/d29/classXonoticRegisteredSettingsList.html#afd4972c47bec7ede5c184b38af83c24f":[1,0,204,61],
 "db/d29/classXonoticRegisteredSettingsList.html#afe0e72d227edf3a5403f7d90e685525e":[1,0,204,83],
 "db/d29/dialog__hudpanel__weapons_8qh.html":[2,0,4,4,81],
 "db/d29/dialog__hudpanel__weapons_8qh_source.html":[2,0,4,4,81],
@@ -240,14 +249,5 @@ var NAVTREEINDEX86 =
 "db/d3c/classArc.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,3,13],
 "db/d3c/classArc.html#a4aedf849ba0c9526f1df8794c3f1b789":[1,0,3,29],
 "db/d3c/classArc.html#a5cce6d68e04263a7014a76f356ae2094":[1,0,3,30],
-"db/d3c/classArc.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,3,7],
-"db/d3c/classArc.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,3,6],
-"db/d3c/classArc.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,3,0],
-"db/d3c/classArc.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,3,24],
-"db/d3c/classArc.html#a80fa9a65e19370473a29baebc04d0626":[1,0,3,2],
-"db/d3c/classArc.html#a86c22d48b4bf520b46b6ac6941fa18f3":[1,0,3,35],
-"db/d3c/classArc.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,3,4],
-"db/d3c/classArc.html#a97df2fcca62083efe293f759373b2e98":[1,0,3,26],
-"db/d3c/classArc.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,3,11],
-"db/d3c/classArc.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,3,12]
+"db/d3c/classArc.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,3,7]
 };

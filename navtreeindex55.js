@@ -1,5 +1,14 @@
 var NAVTREEINDEX55 =
 {
+"d7/d13/classXonoticHUDAmmoDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,157,75],
+"d7/d13/classXonoticHUDAmmoDialog.html#a7f5e836fc378eef1caf0287465a877b2":[1,0,157,72],
+"d7/d13/classXonoticHUDAmmoDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,157,41],
+"d7/d13/classXonoticHUDAmmoDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,157,34],
+"d7/d13/classXonoticHUDAmmoDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,157,65],
+"d7/d13/classXonoticHUDAmmoDialog.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,157,74],
+"d7/d13/classXonoticHUDAmmoDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,157,70],
+"d7/d13/classXonoticHUDAmmoDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,157,56],
+"d7/d13/classXonoticHUDAmmoDialog.html#aa1abab97698c6f13909d1791611312cb":[1,0,157,59],
 "d7/d13/classXonoticHUDAmmoDialog.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,157,47],
 "d7/d13/classXonoticHUDAmmoDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,157,9],
 "d7/d13/classXonoticHUDAmmoDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,157,24],
@@ -240,14 +249,5 @@ var NAVTREEINDEX55 =
 "d7/d39/classXonoticVideoSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,232,23],
 "d7/d39/classXonoticVideoSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,232,31],
 "d7/d39/classXonoticVideoSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,232,44],
-"d7/d39/classXonoticVideoSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,232,84],
-"d7/d39/classXonoticVideoSettingsTab.html#a58fb684b9035dc506eb888f42bcc9641":[1,0,232,71],
-"d7/d39/classXonoticVideoSettingsTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,232,36],
-"d7/d39/classXonoticVideoSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,232,6],
-"d7/d39/classXonoticVideoSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,232,54],
-"d7/d39/classXonoticVideoSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,232,42],
-"d7/d39/classXonoticVideoSettingsTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,232,7],
-"d7/d39/classXonoticVideoSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,232,77],
-"d7/d39/classXonoticVideoSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,232,56],
-"d7/d39/classXonoticVideoSettingsTab.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,232,14]
+"d7/d39/classXonoticVideoSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,232,84]
 };

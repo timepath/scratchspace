@@ -1,5 +1,14 @@
 var NAVTREEINDEX98 =
 {
+"dc/d73/server_2miscfunctions_8qh.html#a1a1c887b029cca0568b046152aea10ff":[2,0,5,46,12],
+"dc/d73/server_2miscfunctions_8qh.html#a1abfae15913cf4aed2d840b2f387f379":[2,0,5,46,38],
+"dc/d73/server_2miscfunctions_8qh.html#a1b623218c450ae444a515f54395dd218":[2,0,5,46,45],
+"dc/d73/server_2miscfunctions_8qh.html#a1f1c89a455e88ef7b5b687554db7e56f":[2,0,5,46,112],
+"dc/d73/server_2miscfunctions_8qh.html#a264953b4fa0c2f30ce1fbe72f82cd6c1":[2,0,5,46,69],
+"dc/d73/server_2miscfunctions_8qh.html#a266095dd0a42668591b2765cabb0ba84":[2,0,5,46,141],
+"dc/d73/server_2miscfunctions_8qh.html#a276dc5b71788108563372331e9f6e31c":[2,0,5,46,127],
+"dc/d73/server_2miscfunctions_8qh.html#a277f5e186f80cd980204cb7d55042890":[2,0,5,46,4],
+"dc/d73/server_2miscfunctions_8qh.html#a27d3e227111766948413433b25bc6857":[2,0,5,46,119],
 "dc/d73/server_2miscfunctions_8qh.html#a281a1d8106f02c4e9aa8208da1747e1b":[2,0,5,46,146],
 "dc/d73/server_2miscfunctions_8qh.html#a29328c1f4dfc8e0c658d3bd6e28a740d":[2,0,5,46,117],
 "dc/d73/server_2miscfunctions_8qh.html#a29c235bed1ff0287066a442759cbfe3a":[2,0,5,46,6],
@@ -240,14 +249,5 @@ var NAVTREEINDEX98 =
 "dc/d98/client_2miscfunctions_8qc.html#a0ac6cc94ff118e494f0845fbe95ac58b":[2,0,0,20,17],
 "dc/d98/client_2miscfunctions_8qc.html#a0ded0b9dc55f9f344b7b5f7fc9a487b8":[2,0,0,20,13],
 "dc/d98/client_2miscfunctions_8qc.html#a1e9b742527be4ffff0e1ffabd3814ebb":[2,0,0,20,9],
-"dc/d98/client_2miscfunctions_8qc.html#a1ff2ab6f40ef91103b3fd8a9e083b4ca":[2,0,0,20,28],
-"dc/d98/client_2miscfunctions_8qc.html#a246d0a94a3d0249d9504aae592cf2f9d":[2,0,0,20,3],
-"dc/d98/client_2miscfunctions_8qc.html#a2b66a10b61389716958bcc54b41c27e2":[2,0,0,20,22],
-"dc/d98/client_2miscfunctions_8qc.html#a334d31e4ab614a29942c1170de7f50a2":[2,0,0,20,10],
-"dc/d98/client_2miscfunctions_8qc.html#a33af47a87fc160c47fdc3dd5cb1eb82e":[2,0,0,20,12],
-"dc/d98/client_2miscfunctions_8qc.html#a408850796980de97ad8313b0274343f1":[2,0,0,20,7],
-"dc/d98/client_2miscfunctions_8qc.html#a519d23437c6eea0244222bb41e476d1e":[2,0,0,20,25],
-"dc/d98/client_2miscfunctions_8qc.html#a62d201e545e3b4660cbc23e4587cabb8":[2,0,0,20,24],
-"dc/d98/client_2miscfunctions_8qc.html#a6caf2e0c66aa3cfa4a63689e650de692":[2,0,0,20,27],
-"dc/d98/client_2miscfunctions_8qc.html#a6d052d69b73c05b41ab3c1636778baa7":[2,0,0,20,5]
+"dc/d98/client_2miscfunctions_8qc.html#a1ff2ab6f40ef91103b3fd8a9e083b4ca":[2,0,0,20,28]
 };

@@ -1,5 +1,14 @@
 var NAVTREEINDEX41 =
 {
+"d5/d1f/gamemode__invasion_8qc.html#a4642768c1d09d22d4cbc0238fcc856e1":[2,0,5,2,0,16,12],
+"d5/d1f/gamemode__invasion_8qc.html#a67bdbdbda35d6b76102987c1042da7a6":[2,0,5,2,0,16,17],
+"d5/d1f/gamemode__invasion_8qc.html#a6879a53e956f0f1fd079b3015609a852":[2,0,5,2,0,16,3],
+"d5/d1f/gamemode__invasion_8qc.html#a6fc6f76a4d2ee54e9cd0d1ca72be7c49":[2,0,5,2,0,16,16],
+"d5/d1f/gamemode__invasion_8qc.html#a7cba69b159edf1270ece04ffef70fb5c":[2,0,5,2,0,16,10],
+"d5/d1f/gamemode__invasion_8qc.html#a8feb7f4ef377845e3185b586e825b5d2":[2,0,5,2,0,16,5],
+"d5/d1f/gamemode__invasion_8qc.html#a96c044fcc2d6cc6dec1cc92b3ff66067":[2,0,5,2,0,16,8],
+"d5/d1f/gamemode__invasion_8qc.html#a9a097d6ffb85569c18a7a736e2c70388":[2,0,5,2,0,16,4],
+"d5/d1f/gamemode__invasion_8qc.html#a9c44a784e6ab1d2fe799d0a826b576d8":[2,0,5,2,0,16,1],
 "d5/d1f/gamemode__invasion_8qc.html#aa796ea7b6c0f35ad5a7b8ecba186b192":[2,0,5,2,0,16,0],
 "d5/d1f/gamemode__invasion_8qc.html#aade923d0effcb405bcdf30f467ac0a59":[2,0,5,2,0,16,13],
 "d5/d1f/gamemode__invasion_8qc.html#abc643ffee29e9228118221dc0291f099":[2,0,5,2,0,16,15],
@@ -240,14 +249,5 @@ var NAVTREEINDEX41 =
 "d5/d26/server_2defs_8qh.html#ad074b805790481ed3367d5308ad8ae38":[2,0,5,24,169],
 "d5/d26/server_2defs_8qh.html#ad1052b7b58786c2d46f322ec50533d49":[2,0,5,24,185],
 "d5/d26/server_2defs_8qh.html#ad128ed1488aecc44cdd15c3308e5aa7c":[2,0,5,24,110],
-"d5/d26/server_2defs_8qh.html#ad12ecbe245547b11b23f35b2d7809ea5":[2,0,5,24,70],
-"d5/d26/server_2defs_8qh.html#ad19574d03b3580d4e1fcb06490f68f59":[2,0,5,24,230],
-"d5/d26/server_2defs_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6":[2,0,5,24,15],
-"d5/d26/server_2defs_8qh.html#ad277f45f5b374b2a3ec7d6c2259dc2b4":[2,0,5,24,81],
-"d5/d26/server_2defs_8qh.html#ad3b79720429f6c6b4cf42b4f470f1916":[2,0,5,24,205],
-"d5/d26/server_2defs_8qh.html#ad3c646b1a384158634a41a50d44fa5ee":[2,0,5,24,80],
-"d5/d26/server_2defs_8qh.html#ad6277977c2f00ae7c2906c9d3d12caaf":[2,0,5,24,223],
-"d5/d26/server_2defs_8qh.html#ad72ac967fff2b7aa6853058d8d510023":[2,0,5,24,138],
-"d5/d26/server_2defs_8qh.html#ad896d889c6a5568ab728f7233e86e258":[2,0,5,24,50],
-"d5/d26/server_2defs_8qh.html#ad8cc5742c76a6d38a1205a2171ea5239":[2,0,5,24,231]
+"d5/d26/server_2defs_8qh.html#ad12ecbe245547b11b23f35b2d7809ea5":[2,0,5,24,70]
 };

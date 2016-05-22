@@ -1,5 +1,14 @@
 var NAVTREEINDEX76 =
 {
+"d9/d8c/classWaypoint.html#a7fb0da7f48c80ed9ae8e124a319a2e94":[1,0,118,7],
+"d9/d8c/classWaypoint.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,118,2],
+"d9/d8c/classWaypoint.html#abe42e95092e4d122f39586a740325ce5":[1,0,118,5],
+"d9/d8c/classWaypoint.html#af3482425b308c3fb38fc4809dc1c103d":[1,0,118,3],
+"d9/d8e/gamemode__assault_8qc.html":[2,0,5,2,0,2],
+"d9/d8e/gamemode__assault_8qc.html#a0494762bdff1811919ef03e61c894e3e":[2,0,5,2,0,2,7],
+"d9/d8e/gamemode__assault_8qc.html#a0ac3d078a3d265b901ef367a940be615":[2,0,5,2,0,2,14],
+"d9/d8e/gamemode__assault_8qc.html#a3871efe40bc4d5734eb545ef4a5db769":[2,0,5,2,0,2,15],
+"d9/d8e/gamemode__assault_8qc.html#a4817117027352cc4230203fd3d3eaeb4":[2,0,5,2,0,2,0],
 "d9/d8e/gamemode__assault_8qc.html#a5753f4b0d3f0961028891e42b2d2f2ee":[2,0,5,2,0,2,3],
 "d9/d8e/gamemode__assault_8qc.html#a6c1be8aa70a07ec6b91cfb1050ddcbc8":[2,0,5,2,0,2,11],
 "d9/d8e/gamemode__assault_8qc.html#a7c876617d922cd16d5dab82fe6fce4e3":[2,0,5,2,0,2,9],
@@ -240,14 +249,5 @@ var NAVTREEINDEX76 =
 "d9/dca/classXonoticCommandButton.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,134,40],
 "d9/dca/classXonoticCommandButton.html#a219794f05db5fb4f09f9f9d747ef8d71":[1,0,134,58],
 "d9/dca/classXonoticCommandButton.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,134,77],
-"d9/dca/classXonoticCommandButton.html#a257f9c325381f4b29b5c7acbaa0ba5ae":[1,0,134,11],
-"d9/dca/classXonoticCommandButton.html#a25fb94f638529791b1b30962fac50912":[1,0,134,44],
-"d9/dca/classXonoticCommandButton.html#a27b635e0916726012b7e8c4dca05064e":[1,0,134,26],
-"d9/dca/classXonoticCommandButton.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,134,1],
-"d9/dca/classXonoticCommandButton.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,134,5],
-"d9/dca/classXonoticCommandButton.html#a2fe1bd907a9b4d8d9eccb95f54aa970d":[1,0,134,74],
-"d9/dca/classXonoticCommandButton.html#a326ef5bb1dd02a2667460d795c0a46df":[1,0,134,52],
-"d9/dca/classXonoticCommandButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,134,72],
-"d9/dca/classXonoticCommandButton.html#a35096b8b6cb8fc4146d2ea014c29999a":[1,0,134,71],
-"d9/dca/classXonoticCommandButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,134,65]
+"d9/dca/classXonoticCommandButton.html#a257f9c325381f4b29b5c7acbaa0ba5ae":[1,0,134,11]
 };

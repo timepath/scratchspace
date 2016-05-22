@@ -1,5 +1,14 @@
 var NAVTREEINDEX56 =
 {
+"d7/d39/classXonoticVideoSettingsTab.html#a58fb684b9035dc506eb888f42bcc9641":[1,0,232,71],
+"d7/d39/classXonoticVideoSettingsTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,232,36],
+"d7/d39/classXonoticVideoSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,232,6],
+"d7/d39/classXonoticVideoSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,232,54],
+"d7/d39/classXonoticVideoSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,232,42],
+"d7/d39/classXonoticVideoSettingsTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,232,7],
+"d7/d39/classXonoticVideoSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,232,77],
+"d7/d39/classXonoticVideoSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,232,56],
+"d7/d39/classXonoticVideoSettingsTab.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,232,14],
 "d7/d39/classXonoticVideoSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,232,88],
 "d7/d39/classXonoticVideoSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,232,85],
 "d7/d39/classXonoticVideoSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,232,75],
@@ -240,14 +249,5 @@ var NAVTREEINDEX56 =
 "d7/d5c/common_2stats_8qh.html#af79aea212cd212293b11203367c6a5b3":[2,0,1,40,2],
 "d7/d5c/common_2stats_8qh_source.html":[2,0,1,40],
 "d7/d5d/classBorderImage.html":[1,0,7],
-"d7/d5d/classBorderImage.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,7,52],
-"d7/d5d/classBorderImage.html#a0d5e751c0799c1235578d6a367005620":[1,0,7,40],
-"d7/d5d/classBorderImage.html#a0f59f20762372be1d8a05998ddf580b6":[1,0,7,51],
-"d7/d5d/classBorderImage.html#a10cf88734594fed24be93889407c0bda":[1,0,7,10],
-"d7/d5d/classBorderImage.html#a10f084ce6991717bfb4153928818feba":[1,0,7,7],
-"d7/d5d/classBorderImage.html#a1384d244201f945385ed59b53e4aee96":[1,0,7,25],
-"d7/d5d/classBorderImage.html#a17551f8ea91a998bfdeb18609c45d978":[1,0,7,60],
-"d7/d5d/classBorderImage.html#a1cada7f613ee05baf72eac545644d9d7":[1,0,7,59],
-"d7/d5d/classBorderImage.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,7,31],
-"d7/d5d/classBorderImage.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,7,61]
+"d7/d5d/classBorderImage.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,7,52]
 };

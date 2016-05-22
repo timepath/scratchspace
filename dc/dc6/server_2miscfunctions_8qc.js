@@ -1,8 +1,6 @@
 var server_2miscfunctions_8qc =
 [
     [ "SUB_OwnerCheck", "dc/dc6/server_2miscfunctions_8qc.html#abe029cd84e8c7d58302c366388bcbe0d", null ],
-    [ "adaptor_think2touch", "dc/dc6/server_2miscfunctions_8qc.html#ad2449ed79aedd33f647275e8fd234e47", null ],
-    [ "adaptor_think2use", "dc/dc6/server_2miscfunctions_8qc.html#ad716ff091b01df5d9aa67eaa4919bdaa", null ],
     [ "adaptor_think2use_hittype_splash", "dc/dc6/server_2miscfunctions_8qc.html#a44292599c2a4ed17431195febceac264", null ],
     [ "admin_name", "dc/dc6/server_2miscfunctions_8qc.html#a4e69debd65c39578e6ce4356e7354839", null ],
     [ "attach_sameorigin", "dc/dc6/server_2miscfunctions_8qc.html#ac300f1843627f4956ab0088d6bff8b7e", null ],

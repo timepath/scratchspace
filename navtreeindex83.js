@@ -1,5 +1,14 @@
 var NAVTREEINDEX83 =
 {
+"da/d9c/classXonoticMonsterToolsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,190,82],
+"da/d9c/mutators_2mutator_2vampire_2module_8inc.html":[2,0,1,9,0,29,2],
+"da/d9c/mutators_2mutator_2vampire_2module_8inc_source.html":[2,0,1,9,0,29,2],
+"da/da6/flipflop_8qc.html":[2,0,1,13,3,5],
+"da/da6/flipflop_8qc_source.html":[2,0,1,13,3,5],
+"da/da9/classSpiderAttack.html":[1,0,104],
+"da/da9/classSpiderAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,104,32],
+"da/da9/classSpiderAttack.html#a066947bb269fd604de64212bba222ef2":[1,0,104,26],
+"da/da9/classSpiderAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,104,17],
 "da/da9/classSpiderAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,104,16],
 "da/da9/classSpiderAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,104,29],
 "da/da9/classSpiderAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,104,14],
@@ -240,14 +249,5 @@ var NAVTREEINDEX83 =
 "da/dc1/classXonoticAudioSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,123,85],
 "da/dc1/classXonoticAudioSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,123,75],
 "da/dc1/classXonoticAudioSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,123,74],
-"da/dc1/classXonoticAudioSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,123,41],
-"da/dc1/classXonoticAudioSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,123,34],
-"da/dc1/classXonoticAudioSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,123,67],
-"da/dc1/classXonoticAudioSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,123,65],
-"da/dc1/classXonoticAudioSettingsTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,123,50],
-"da/dc1/classXonoticAudioSettingsTab.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,123,73],
-"da/dc1/classXonoticAudioSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,123,55],
-"da/dc1/classXonoticAudioSettingsTab.html#aa1abab97698c6f13909d1791611312cb":[1,0,123,58],
-"da/dc1/classXonoticAudioSettingsTab.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,123,46],
-"da/dc1/classXonoticAudioSettingsTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,123,5]
+"da/dc1/classXonoticAudioSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,123,41]
 };

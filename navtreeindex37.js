@@ -1,5 +1,14 @@
 var NAVTREEINDEX37 =
 {
+"d4/d92/csqc__constants_8qh.html#a1081582e9694858334600d5da4b8e38f":[2,0,0,12,57],
+"d4/d92/csqc__constants_8qh.html#a1147496d9185c4b54a3caa5424f088b8":[2,0,0,12,31],
+"d4/d92/csqc__constants_8qh.html#a1340efa0b00e76a5fbe8b06a4f0ac9da":[2,0,0,12,36],
+"d4/d92/csqc__constants_8qh.html#a13bb669d9edcf92ecb053c4e52def090":[2,0,0,12,84],
+"d4/d92/csqc__constants_8qh.html#a16c3ad4bad4fe935d46e98ab878ac702":[2,0,0,12,19],
+"d4/d92/csqc__constants_8qh.html#a17926978a4dfbd7d2040e034520f1369":[2,0,0,12,78],
+"d4/d92/csqc__constants_8qh.html#a19d7bbaa20c5d5d9ee2925eb570cfc55":[2,0,0,12,58],
+"d4/d92/csqc__constants_8qh.html#a1ba408e21d06fec874a81a7dd690840b":[2,0,0,12,94],
+"d4/d92/csqc__constants_8qh.html#a1d5b2aa0e02dae99a486b0ee316ca9fe":[2,0,0,12,102],
 "d4/d92/csqc__constants_8qh.html#a25eb6e20b25a7903dea4c3722bb8790d":[2,0,0,12,68],
 "d4/d92/csqc__constants_8qh.html#a284bbc8b11923e8e64d8bfe5bd4bce48":[2,0,0,12,91],
 "d4/d92/csqc__constants_8qh.html#a307961d9884aa2a01f737116f4ce2e95":[2,0,0,12,27],
@@ -240,14 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d95/common_2mutators_2events_8qh.html#ae3a91aca82079ec3bcc302a2345cdc76":[2,0,1,9,7,20],
 "d4/d95/common_2mutators_2events_8qh.html#ae3ce44f2947110cb267a6ba3aa7ad1f1":[2,0,1,9,7,17],
 "d4/d95/common_2mutators_2events_8qh.html#ae8c92b746a0f8b738a91d85b132420b6":[2,0,1,9,7,24],
-"d4/d95/common_2mutators_2events_8qh.html#aed928b5d4717ad38c6dfbd6c6d988d83":[2,0,1,9,7,6],
-"d4/d95/common_2mutators_2events_8qh.html#af66a8641f9b3587782fad7cc3fa7f220":[2,0,1,9,7,13],
-"d4/d95/common_2mutators_2events_8qh_source.html":[2,0,1,9,7],
-"d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh.html":[2,0,1,9,0,6,1],
-"d4/d98/common_2mutators_2mutator_2damagetext_2__mod_8qh_source.html":[2,0,1,9,0,6,1],
-"d4/da1/raptor_8qh.html":[2,0,1,15,0,10],
-"d4/da1/raptor_8qh.html#a3e645583d146a2b460e87bbf82cc7bc7":[2,0,1,15,0,10,1],
-"d4/da1/raptor_8qh.html#a67cfe678d0f7049b74c622c371cd0f64":[2,0,1,15,0,10,4],
-"d4/da1/raptor_8qh.html#a82122fd88ef67add95aeed6a2fb0b8e9":[2,0,1,15,0,10,2],
-"d4/da1/raptor_8qh.html#ada3eae228e0436bf15e221954eef4746":[2,0,1,15,0,10,3]
+"d4/d95/common_2mutators_2events_8qh.html#aed928b5d4717ad38c6dfbd6c6d988d83":[2,0,1,9,7,6]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"d2/d42/classXonoticUserbindEditDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,230,31],
 "d2/d42/classXonoticUserbindEditDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,230,86],
 "d2/d47/common_2mutators_2mutator_2__mod_8qh.html":[2,0,1,9,0,34],
 "d2/d47/common_2mutators_2mutator_2__mod_8qh_source.html":[2,0,1,9,0,34],
@@ -249,5 +248,6 @@ var NAVTREEINDEX15 =
 "d2/d79/scores_8qc.html#a92dc03c3e0dc4d9f8cd86b7c45c6e167":[2,0,5,56,8],
 "d2/d79/scores_8qc.html#a9657775baeb357bf9c34044f04305a20":[2,0,5,56,17],
 "d2/d79/scores_8qc.html#a9f329f6f3652ff8ba8788c1167c49b66":[2,0,5,56,37],
-"d2/d79/scores_8qc.html#aa5ca3a39735c2fd63ad4d8355b945ebd":[2,0,5,56,4]
+"d2/d79/scores_8qc.html#aa5ca3a39735c2fd63ad4d8355b945ebd":[2,0,5,56,4],
+"d2/d79/scores_8qc.html#aa70e08e25e069e368d303726e1c91dff":[2,0,5,56,15]
 };

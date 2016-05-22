@@ -10,7 +10,6 @@ var client_2main_8qh =
     [ "Fog_Force", "d0/d2a/client_2main_8qh.html#a0ea74b0011b3f41a4e0f744608765323", null ],
     [ "getcommandkey", "d0/d2a/client_2main_8qh.html#acae6eac5dd85fe99004374e0f21a382d", null ],
     [ "LoadMenuSkinValues", "d0/d2a/client_2main_8qh.html#a626fa4f891c177f48176172aac58dc39", null ],
-    [ "setpredraw", "d0/d2a/client_2main_8qh.html#af71e3fca224939f55eb4426f26f41e89", null ],
     [ "void", "d0/d2a/client_2main_8qh.html#a4d8754f6e0a5f44b483d7e15181d9503", null ],
     [ "activeweapon", "d0/d2a/client_2main_8qh.html#ae783da23fb4a6fdb51d1241a36f6ba94", null ],
     [ "ALPHA_MIN_VISIBLE", "d0/d2a/client_2main_8qh.html#a615430decaa9e99ecead42215bc1405c", null ],

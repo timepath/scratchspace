@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('d2/db4/string_8qh.html','../../');});
 Macros</h2></td></tr>
 <tr class="memitem:ab9cc51225f98703626978ab0de95744b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#ab9cc51225f98703626978ab0de95744b">DEC_TO_HEXDIGIT</a>(d)&#160;&#160;&#160;(<a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="el" href="../../d2/db4/string_8qh.html#abf1feb469f1b23e7c603927c8deba515">HEXDIGITS</a>, (d), 1))</td></tr>
 <tr class="separator:ab9cc51225f98703626978ab0de95744b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17ef0c21cbd07ec53d7dee826fa3814d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#a17ef0c21cbd07ec53d7dee826fa3814d">endsWith</a>(this, suffix)&#160;&#160;&#160;(<a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a> = suffix, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(this, -<a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(<a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a>), -1) == <a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a>)</td></tr>
+<tr class="memitem:a17ef0c21cbd07ec53d7dee826fa3814d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#a17ef0c21cbd07ec53d7dee826fa3814d">endsWith</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a>, suffix)&#160;&#160;&#160;(<a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a> = suffix, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a>, -<a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(<a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a>), -1) == <a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a>)</td></tr>
 <tr class="separator:a17ef0c21cbd07ec53d7dee826fa3814d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a70bd37e05eeb11fdb4e3cfff09c6187e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#a70bd37e05eeb11fdb4e3cfff09c6187e">HEXDIGIT_TO_DEC</a>(d)&#160;&#160;&#160;((<a class="el" href="../../d2/db4/string_8qh.html#ad8357713efe469506842ff9e841e90ce">HEXDIGIT_TO_DEC_RAW</a>(d) | 0x10) - 0x10)</td></tr>
 <tr class="separator:a70bd37e05eeb11fdb4e3cfff09c6187e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -265,7 +265,7 @@ Variables</h2></td></tr>
           <td class="memname">#define endsWith</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">this, </td>
+          <td class="paramname"><a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -276,7 +276,7 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a> = suffix, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(this, -<a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(<a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a>), -1) == <a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a>)</td>
+          <td></td><td>&#160;&#160;&#160;(<a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a> = suffix, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a>, -<a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(<a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a>), -1) == <a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -747,7 +747,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d2/db4/string_8qh_source.html#l00057">ColorTranslateMode</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00906">CSQC_Parse_Print()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00555">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00893">CSQC_Parse_Print()</a>, and <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00542">NET_HANDLE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;{</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d2/db4/string_8qh.html#aac3cd57f894ce5c2be1d74aee3fe2f13">ColorTranslateMode</a> &amp; 1) ? strdecolorize(s) : s;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
@@ -2041,7 +2041,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d2/db4/string_8qh.html">string.qh</a></li>
-    <li class="footer">Generated on Sun May 22 2016 05:44:03 for Xonotic by
+    <li class="footer">Generated on Sun May 22 2016 10:53:49 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

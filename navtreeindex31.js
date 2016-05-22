@@ -1,5 +1,14 @@
 var NAVTREEINDEX31 =
 {
+"d4/d0c/csprogsdefs_8qc.html#aa00607efead5c01715bc785ae2227d82":[2,0,2,0,0,61],
+"d4/d0c/csprogsdefs_8qc.html#aa09b64e4fa22d9a0c4875ef61c60c389":[2,0,2,0,0,404],
+"d4/d0c/csprogsdefs_8qc.html#aa0a023a0a2e6897fcdd65ecdd620ee17":[2,0,2,0,0,494],
+"d4/d0c/csprogsdefs_8qc.html#aa11bd9cbb39b306e5490ff7d53887e31":[2,0,2,0,0,303],
+"d4/d0c/csprogsdefs_8qc.html#aa166bc30f4723216b1460efee929b786":[2,0,2,0,0,478],
+"d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6":[2,0,2,0,0,135],
+"d4/d0c/csprogsdefs_8qc.html#aa2858c7156c6f550f6069cd2a0ba19e7":[2,0,2,0,0,298],
+"d4/d0c/csprogsdefs_8qc.html#aa3597e954efde6066405a6f48f584a92":[2,0,2,0,0,512],
+"d4/d0c/csprogsdefs_8qc.html#aa3a866cdc0e6b0951832c310d0b9244c":[2,0,2,0,0,472],
 "d4/d0c/csprogsdefs_8qc.html#aa3b6d698988bb35e2d7cf39f1d57834d":[2,0,2,0,0,89],
 "d4/d0c/csprogsdefs_8qc.html#aa4196c3cbe55c27eb6470d93a3bc1997":[2,0,2,0,0,145],
 "d4/d0c/csprogsdefs_8qc.html#aa41a371eb314a88b5151ee694dda9587":[2,0,2,0,0,406],
@@ -240,14 +249,5 @@ var NAVTREEINDEX31 =
 "d4/d0d/client_2mapvoting_8qc.html#adcb70d9b8548694d11380a2f6f2f54fc":[2,0,0,18,43],
 "d4/d0d/client_2mapvoting_8qc.html#ae7f67e048d198d67d53009526eb9fcb6":[2,0,0,18,45],
 "d4/d0d/client_2mapvoting_8qc.html#aefaf3b4cba9312a3efaedb2fde3b0b55":[2,0,0,18,17],
-"d4/d0d/client_2mapvoting_8qc.html#af7c6ecec79249608330dcc9872b1fdbd":[2,0,0,18,27],
-"d4/d0d/client_2mapvoting_8qc.html#af980301f0a5f2a02ac8b0502d1a4951a":[2,0,0,18,20],
-"d4/d0d/client_2mapvoting_8qc.html#afad81141b0355a860158f3dc0ea66a59":[2,0,0,18,42],
-"d4/d0d/client_2mapvoting_8qc.html#afc42b7e84553443a0d327e4cad45f162":[2,0,0,18,40],
-"d4/d0d/client_2mapvoting_8qc.html#afde464ed97af30f0fd8726e31527710f":[2,0,0,18,48],
-"d4/d0d/client_2mapvoting_8qc_source.html":[2,0,0,18],
-"d4/d0f/buffs_8qc.html":[2,0,1,9,0,2,5],
-"d4/d0f/buffs_8qc.html#a020006eca41a51b198f5c83e80f14207":[2,0,1,9,0,2,5,3],
-"d4/d0f/buffs_8qc.html#a03957de995522dc44980d0586c7743d1":[2,0,1,9,0,2,5,54],
-"d4/d0f/buffs_8qc.html#a0935cf95ae9cbe54fe6f4df418bda734":[2,0,1,9,0,2,5,5]
+"d4/d0d/client_2mapvoting_8qc.html#af7c6ecec79249608330dcc9872b1fdbd":[2,0,0,18,27]
 };

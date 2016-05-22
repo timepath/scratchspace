@@ -57,6 +57,7 @@ var searchData=
   ['getgamedirinfo_5fname',['GETGAMEDIRINFO_NAME',['../d8/de2/menudefs_8qc.html#a9982c0cc5bb6c6474ed590828dfa48b0',1,'menudefs.qc']]],
   ['gettagindex',['gettagindex',['../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8',1,'dpextensions.qh']]],
   ['getter',['GETTER',['../d7/d61/misc_8qh.html#a4ae9a65f0155ec9a053e1e9fe41c9401',1,'misc.qh']]],
+  ['gettouch',['gettouch',['../d3/dd0/self_8qh.html#a3d349fc3f585de2f6459e525150b0010',1,'self.qh']]],
   ['globalsound_5fh',['GLOBALSOUND_H',['../df/d6e/globalsound_8qh.html#a8ae2622788e04675b7cd21bb0583d679',1,'globalsound.qh']]],
   ['globalsounds_5ffrom',['GlobalSounds_from',['../df/d6e/globalsound_8qh.html#a5fb0865b819461b71d03295bc3e263c0',1,'globalsound.qh']]],
   ['ground_5fquake',['ground_quake',['../db/d7f/effectinfo_8inc.html#a0a6f121f11331af711fae07c3a2d9b69',1,'effectinfo.inc']]]

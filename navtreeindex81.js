@@ -1,5 +1,14 @@
 var NAVTREEINDEX81 =
 {
+"da/d53/cl__client_8qc.html#a6762be978fd49a3727236251c8d4702a":[2,0,5,17,37],
+"da/d53/cl__client_8qc.html#a6828e314f91bec7a1445f0be1b00d7c0":[2,0,5,17,68],
+"da/d53/cl__client_8qc.html#a6cd13382949f3663b0c0995c117d8f83":[2,0,5,17,61],
+"da/d53/cl__client_8qc.html#a796e7f6d76eff169d587d849ed8c29f0":[2,0,5,17,72],
+"da/d53/cl__client_8qc.html#a804476ddd6bb726d04ee110b4a9a9248":[2,0,5,17,28],
+"da/d53/cl__client_8qc.html#a81497331b22f9248fec442b8f1889f6c":[2,0,5,17,4],
+"da/d53/cl__client_8qc.html#a8dd80f958cebe7a215c3ebfd7895e623":[2,0,5,17,71],
+"da/d53/cl__client_8qc.html#a970661ffeb3805a8821a11ae4d765f15":[2,0,5,17,59],
+"da/d53/cl__client_8qc.html#a983dc6d34650aaa411f39156db2ee6f5":[2,0,5,17,32],
 "da/d53/cl__client_8qc.html#a984bd0f75e9cdad7a43051d06438dc54":[2,0,5,17,17],
 "da/d53/cl__client_8qc.html#a9c03a5d6f8057c95a87eb36aa9243b96":[2,0,5,17,3],
 "da/d53/cl__client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80":[2,0,5,17,56],
@@ -240,14 +249,5 @@ var NAVTREEINDEX81 =
 "da/d94/classXonoticSettingsDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,218,15],
 "da/d94/classXonoticSettingsDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,218,6],
 "da/d94/classXonoticSettingsDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,218,67],
-"da/d94/classXonoticSettingsDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,218,58],
-"da/d94/classXonoticSettingsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,218,63],
-"da/d94/classXonoticSettingsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,218,62],
-"da/d94/classXonoticSettingsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,218,64],
-"da/d94/classXonoticSettingsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,218,4],
-"da/d94/classXonoticSettingsDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,218,32],
-"da/d94/classXonoticSettingsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,218,10],
-"da/d94/classXonoticSettingsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,218,38],
-"da/d94/classXonoticSettingsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,218,43],
-"da/d94/classXonoticSettingsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,218,18]
+"da/d94/classXonoticSettingsDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,218,58]
 };

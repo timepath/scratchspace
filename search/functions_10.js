@@ -203,7 +203,6 @@ var searchData=
   ['precache_5fsound',['precache_sound',['../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2',1,'menudefs.qc']]],
   ['precacheglobalsound',['PrecacheGlobalSound',['../df/d6e/globalsound_8qh.html#a0115b049d32f08dfe7bb44d74939ac58',1,'globalsound.qh']]],
   ['precacheplayersounds',['PrecachePlayerSounds',['../df/d6e/globalsound_8qh.html#afff52730d3053fc9102cec5246ee16d6',1,'globalsound.qh']]],
-  ['predraw_5fself',['PreDraw_self',['../df/d30/client_2main_8qc.html#a193573d11513d634d32542aff007a914',1,'main.qc']]],
   ['preferredfocusedgrandchild',['preferredFocusedGrandChild',['../d0/d7b/classContainer.html#ace0cdd98be2a97d3b768f5d30a84395f',1,'Container']]],
   ['premenudraw',['preMenuDraw',['../d0/d41/menu_8qh.html#a3d10a92a0b5efff2067efd3580ece642',1,'preMenuDraw():&#160;util.qc'],['../df/d9b/menu_2xonotic_2util_8qc.html#a3d10a92a0b5efff2067efd3580ece642',1,'preMenuDraw():&#160;util.qc']]],
   ['premenuinit',['preMenuInit',['../d0/d41/menu_8qh.html#a48ddbc4143946234b2a42d4cf1112dc4',1,'preMenuInit():&#160;util.qc'],['../df/d9b/menu_2xonotic_2util_8qc.html#a48ddbc4143946234b2a42d4cf1112dc4',1,'preMenuInit():&#160;util.qc']]],
