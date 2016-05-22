@@ -1055,61 +1055,61 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00321">321</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00317">317</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00003">objerror</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00310">SUB_CalcAngleMoveDone()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00185">TSPEED_END</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00183">TSPEED_LINEAR</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00184">TSPEED_START</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00182">TSPEED_TIME</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00003">objerror</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00306">SUB_CalcAngleMoveDone()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00183">TSPEED_END</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00181">TSPEED_LINEAR</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00182">TSPEED_START</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00180">TSPEED_TIME</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00383">door_rotating_go_down()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00397">door_rotating_go_up()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00363">SUB_CalcAngleMoveEnt()</a>, and <a class="el" href="../../de/d2e/train_8qc_source.html#l00006">train_wait()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>  delta;</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="keywordtype">float</span>   traveltime;</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordflow">if</span> (!tspeed)</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        <a class="code" href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a> (<span class="stringliteral">&quot;No speed is defined!&quot;</span>);</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <span class="comment">// take the shortest distance for the angles</span></div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="keyword">self</span>.angles_x -= 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((<span class="keyword">self</span>.angles_x - destangle_x) / 360 + 0.5);</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <span class="keyword">self</span>.angles_y -= 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((<span class="keyword">self</span>.angles_y - destangle_y) / 360 + 0.5);</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    <span class="keyword">self</span>.angles_z -= 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((<span class="keyword">self</span>.angles_z - destangle_z) / 360 + 0.5);</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    delta = destangle - <span class="keyword">self</span>.angles;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <span class="keywordflow">switch</span>(tspeedtype)</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    {</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0">TSPEED_START</a>:</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0">TSPEED_END</a>:</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4">TSPEED_LINEAR</a>:</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            traveltime = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a> (delta) / tspeed;</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a>:</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            traveltime = tspeed;</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    }</div>
+<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00383">door_rotating_go_down()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00397">door_rotating_go_up()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00359">SUB_CalcAngleMoveEnt()</a>, and <a class="el" href="../../de/d2e/train_8qc_source.html#l00006">train_wait()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>  delta;</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="keywordtype">float</span>   traveltime;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="keywordflow">if</span> (!tspeed)</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        <a class="code" href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a> (<span class="stringliteral">&quot;No speed is defined!&quot;</span>);</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="comment">// take the shortest distance for the angles</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keyword">self</span>.angles_x -= 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((<span class="keyword">self</span>.angles_x - destangle_x) / 360 + 0.5);</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    <span class="keyword">self</span>.angles_y -= 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((<span class="keyword">self</span>.angles_y - destangle_y) / 360 + 0.5);</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    <span class="keyword">self</span>.angles_z -= 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((<span class="keyword">self</span>.angles_z - destangle_z) / 360 + 0.5);</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    delta = destangle - <span class="keyword">self</span>.angles;</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <span class="keywordflow">switch</span>(tspeedtype)</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;    {</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0">TSPEED_START</a>:</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0">TSPEED_END</a>:</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4">TSPEED_LINEAR</a>:</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;            traveltime = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a> (delta) / tspeed;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a>:</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;            traveltime = tspeed;</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    }</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keyword">self</span>.think1 = func;</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    <span class="keyword">self</span>.finalangle = destangle;</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;    <span class="keyword">self</span>.SUB_THINK = <a class="code" href="../../d2/dc2/subs_8qc.html#a7803acb61f624c0533f64043e3f9b81c">SUB_CalcAngleMoveDone</a>;</div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    <span class="keyword">self</span>.think1 = func;</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keyword">self</span>.finalangle = destangle;</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    <span class="keyword">self</span>.SUB_THINK = <a class="code" href="../../d2/dc2/subs_8qc.html#a7803acb61f624c0533f64043e3f9b81c">SUB_CalcAngleMoveDone</a>;</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    <span class="keywordflow">if</span> (traveltime &lt; 0.1)</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    {</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        <span class="keyword">self</span>.SUB_AVELOCITY = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="keyword">self</span>.SUB_NEXTTHINK = <span class="keyword">self</span>.SUB_LTIME + 0.1;</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    }</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keyword">self</span>.SUB_AVELOCITY = delta * (1 / traveltime);</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keyword">self</span>.SUB_NEXTTHINK = <span class="keyword">self</span>.SUB_LTIME + traveltime;</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;}</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    <span class="keywordflow">if</span> (traveltime &lt; 0.1)</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    {</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        <span class="keyword">self</span>.SUB_AVELOCITY = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        <span class="keyword">self</span>.SUB_NEXTTHINK = <span class="keyword">self</span>.SUB_LTIME + 0.1;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    }</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keyword">self</span>.SUB_AVELOCITY = delta * (1 / traveltime);</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keyword">self</span>.SUB_NEXTTHINK = <span class="keyword">self</span>.SUB_LTIME + traveltime;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;}</div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
-<div class="ttc" id="subs_8qc_html_a8399ac316368c70dfa32e778d2ea6fc0"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0">TSPEED_START</a></div><div class="ttdeci">float TSPEED_START</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00184">subs.qc:184</a></div></div>
+<div class="ttc" id="subs_8qc_html_a8399ac316368c70dfa32e778d2ea6fc0"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0">TSPEED_START</a></div><div class="ttdeci">float TSPEED_START</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00182">subs.qc:182</a></div></div>
 <div class="ttc" id="sys-pre_8qh_html_a1a131a8f1813cd654a56e745f531fff1"><div class="ttname"><a href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a></div><div class="ttdeci">#define objerror</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/sys-pre_8qh_source.html#l00003">sys-pre.qh:3</a></div></div>
-<div class="ttc" id="subs_8qc_html_a83271404eaa6f16d70f1ba21c704aa7c"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a></div><div class="ttdeci">float TSPEED_TIME</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00182">subs.qc:182</a></div></div>
+<div class="ttc" id="subs_8qc_html_a83271404eaa6f16d70f1ba21c704aa7c"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a></div><div class="ttdeci">float TSPEED_TIME</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00180">subs.qc:180</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-<div class="ttc" id="subs_8qc_html_af838cdbefc205e1e2d171fa44a54c6c0"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0">TSPEED_END</a></div><div class="ttdeci">float TSPEED_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00185">subs.qc:185</a></div></div>
-<div class="ttc" id="subs_8qc_html_a6b26ad129f379058165d1cd208b71de4"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4">TSPEED_LINEAR</a></div><div class="ttdeci">float TSPEED_LINEAR</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00183">subs.qc:183</a></div></div>
+<div class="ttc" id="subs_8qc_html_af838cdbefc205e1e2d171fa44a54c6c0"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0">TSPEED_END</a></div><div class="ttdeci">float TSPEED_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00183">subs.qc:183</a></div></div>
+<div class="ttc" id="subs_8qc_html_a6b26ad129f379058165d1cd208b71de4"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4">TSPEED_LINEAR</a></div><div class="ttdeci">float TSPEED_LINEAR</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00181">subs.qc:181</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
-<div class="ttc" id="subs_8qc_html_a7803acb61f624c0533f64043e3f9b81c"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a7803acb61f624c0533f64043e3f9b81c">SUB_CalcAngleMoveDone</a></div><div class="ttdeci">void SUB_CalcAngleMoveDone()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00310">subs.qc:310</a></div></div>
+<div class="ttc" id="subs_8qc_html_a7803acb61f624c0533f64043e3f9b81c"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a7803acb61f624c0533f64043e3f9b81c">SUB_CalcAngleMoveDone</a></div><div class="ttdeci">void SUB_CalcAngleMoveDone()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00306">subs.qc:306</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1146,19 +1146,19 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00310">310</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00306">306</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
 
 <p>References <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00321">SUB_CalcAngleMove()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="comment">// After rotating, set angle to exact final angle</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="keyword">self</span>.angles = <span class="keyword">self</span>.finalangle;</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="keyword">self</span>.SUB_AVELOCITY = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <span class="keyword">self</span>.SUB_NEXTTHINK = -1;</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.think1)</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        <span class="keyword">self</span>.think1 ();</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00317">SUB_CalcAngleMove()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <span class="comment">// After rotating, set angle to exact final angle</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keyword">self</span>.angles = <span class="keyword">self</span>.finalangle;</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <span class="keyword">self</span>.SUB_AVELOCITY = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <span class="keyword">self</span>.SUB_NEXTTHINK = -1;</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.think1)</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        <span class="keyword">self</span>.think1 ();</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;}</div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1215,15 +1215,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00363">363</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00359">359</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
 
-<p>References <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00321">SUB_CalcAngleMove()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00015">WITHSELF</a>.</p>
-<div class="fragment"><div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(ent, <a class="code" href="../../d2/dc2/subs_8qc.html#ae91f617b99f261f7b7e9620af5dda954">SUB_CalcAngleMove</a> (destangle, tspeedtype, tspeed, func));</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;}</div>
+<p>References <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00317">SUB_CalcAngleMove()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00015">WITHSELF</a>.</p>
+<div class="fragment"><div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(ent, <a class="code" href="../../d2/dc2/subs_8qc.html#ae91f617b99f261f7b7e9620af5dda954">SUB_CalcAngleMove</a> (destangle, tspeedtype, tspeed, func));</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;}</div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="self_8qh_html_a0a6ed21815e6b8d3ff58b8559ec08c87"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a></div><div class="ttdeci">#define WITHSELF(value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00015">self.qh:15</a></div></div>
-<div class="ttc" id="subs_8qc_html_ae91f617b99f261f7b7e9620af5dda954"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#ae91f617b99f261f7b7e9620af5dda954">SUB_CalcAngleMove</a></div><div class="ttdeci">void SUB_CalcAngleMove(vector destangle, float tspeedtype, float tspeed, void() func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00321">subs.qc:321</a></div></div>
+<div class="ttc" id="subs_8qc_html_ae91f617b99f261f7b7e9620af5dda954"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#ae91f617b99f261f7b7e9620af5dda954">SUB_CalcAngleMove</a></div><div class="ttdeci">void SUB_CalcAngleMove(vector destangle, float tspeedtype, float tspeed, void() func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00317">subs.qc:317</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1273,69 +1273,69 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00246">246</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00242">242</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
 
-<p>References <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00003">objerror</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00057">platmovetype_end</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00057">platmovetype_start</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00188">SUB_CalcMove_Bezier()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00082">SUB_CalcMoveDone()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00185">TSPEED_END</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00183">TSPEED_LINEAR</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00184">TSPEED_START</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00182">TSPEED_TIME</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
+<p>References <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00003">objerror</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00057">platmovetype_end</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00057">platmovetype_start</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00186">SUB_CalcMove_Bezier()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00082">SUB_CalcMoveDone()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00183">TSPEED_END</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00181">TSPEED_LINEAR</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00182">TSPEED_START</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00180">TSPEED_TIME</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00111">door_go_down()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00125">door_go_up()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00082">plat_go_down()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00089">plat_go_up()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00295">SUB_CalcMoveEnt()</a>, and <a class="el" href="../../de/d2e/train_8qc_source.html#l00064">train_next()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>  delta;</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordtype">float</span>   traveltime;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">if</span> (!tspeed)</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        <a class="code" href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a> (<span class="stringliteral">&quot;No speed is defined!&quot;</span>);</div>
+<p>Referenced by <a class="el" href="../../d6/d9c/door_8qc_source.html#l00111">door_go_down()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00125">door_go_up()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00082">plat_go_down()</a>, <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00089">plat_go_up()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00291">SUB_CalcMoveEnt()</a>, and <a class="el" href="../../de/d2e/train_8qc_source.html#l00064">train_next()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>  delta;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordtype">float</span>   traveltime;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keywordflow">if</span> (!tspeed)</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <a class="code" href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a> (<span class="stringliteral">&quot;No speed is defined!&quot;</span>);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keyword">self</span>.think1 = func;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keyword">self</span>.finaldest = tdest;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keyword">self</span>.SUB_THINK = <a class="code" href="../../d2/dc2/subs_8qc.html#a0828607377319480241b0537ed3b37ee">SUB_CalcMoveDone</a>;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keyword">self</span>.think1 = func;</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="keyword">self</span>.finaldest = tdest;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="keyword">self</span>.SUB_THINK = <a class="code" href="../../d2/dc2/subs_8qc.html#a0828607377319480241b0537ed3b37ee">SUB_CalcMoveDone</a>;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    <span class="keywordflow">if</span> (tdest == <span class="keyword">self</span>.SUB_ORIGIN)</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    {</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        <span class="keyword">self</span>.SUB_VELOCITY = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;        <span class="keyword">self</span>.SUB_NEXTTHINK = <span class="keyword">self</span>.SUB_LTIME + 0.1;</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    }</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    delta = tdest - <span class="keyword">self</span>.SUB_ORIGIN;</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <span class="keywordflow">switch</span>(tspeedtype)</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    {</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0">TSPEED_START</a>:</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0">TSPEED_END</a>:</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4">TSPEED_LINEAR</a>:</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            traveltime = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a> (delta) / tspeed;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a>:</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            traveltime = tspeed;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    }</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="comment">// Very short animations don&#39;t really show off the effect</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="comment">// of controlled animation, so let&#39;s just use linear movement.</span></div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <span class="comment">// Alternatively entities can choose to specify non-controlled movement.</span></div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="comment">// The only currently implemented alternative movement is linear (value 1)</span></div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="keywordflow">if</span> (traveltime &lt; 0.15 || (<span class="keyword">self</span>.<a class="code" href="../../db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36">platmovetype_start</a> == 1 &amp;&amp; <span class="keyword">self</span>.<a class="code" href="../../db/d2f/subs_8qh.html#a935f045292d52ce58d7c2fbbf9fd6f47">platmovetype_end</a> == 1)) <span class="comment">// is this correct?</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    {</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keyword">self</span>.SUB_VELOCITY = delta * (1/traveltime); <span class="comment">// QuakeC doesn&#39;t allow vector/float division</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        <span class="keyword">self</span>.SUB_NEXTTHINK = <span class="keyword">self</span>.SUB_LTIME + traveltime;</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    }</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <span class="comment">// now just run like a bezier curve...</span></div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <a class="code" href="../../d2/dc2/subs_8qc.html#ad9250cfa5a87e3c0f28167151a4395e5">SUB_CalcMove_Bezier</a>((<span class="keyword">self</span>.SUB_ORIGIN + tdest) * 0.5, tdest, tspeedtype, tspeed, func);</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;}</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordflow">if</span> (tdest == <span class="keyword">self</span>.SUB_ORIGIN)</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="keyword">self</span>.SUB_VELOCITY = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <span class="keyword">self</span>.SUB_NEXTTHINK = <span class="keyword">self</span>.SUB_LTIME + 0.1;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    }</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    delta = tdest - <span class="keyword">self</span>.SUB_ORIGIN;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">switch</span>(tspeedtype)</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    {</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0">TSPEED_START</a>:</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0">TSPEED_END</a>:</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4">TSPEED_LINEAR</a>:</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            traveltime = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a> (delta) / tspeed;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a>:</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            traveltime = tspeed;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <span class="comment">// Very short animations don&#39;t really show off the effect</span></div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="comment">// of controlled animation, so let&#39;s just use linear movement.</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="comment">// Alternatively entities can choose to specify non-controlled movement.</span></div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        <span class="comment">// The only currently implemented alternative movement is linear (value 1)</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <span class="keywordflow">if</span> (traveltime &lt; 0.15 || (<span class="keyword">self</span>.<a class="code" href="../../db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36">platmovetype_start</a> == 1 &amp;&amp; <span class="keyword">self</span>.<a class="code" href="../../db/d2f/subs_8qh.html#a935f045292d52ce58d7c2fbbf9fd6f47">platmovetype_end</a> == 1)) <span class="comment">// is this correct?</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    {</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        <span class="keyword">self</span>.SUB_VELOCITY = delta * (1/traveltime); <span class="comment">// QuakeC doesn&#39;t allow vector/float division</span></div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="keyword">self</span>.SUB_NEXTTHINK = <span class="keyword">self</span>.SUB_LTIME + traveltime;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    }</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="comment">// now just run like a bezier curve...</span></div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <a class="code" href="../../d2/dc2/subs_8qc.html#ad9250cfa5a87e3c0f28167151a4395e5">SUB_CalcMove_Bezier</a>((<span class="keyword">self</span>.SUB_ORIGIN + tdest) * 0.5, tdest, tspeedtype, tspeed, func);</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;}</div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="subs_8qh_html_a935f045292d52ce58d7c2fbbf9fd6f47"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a935f045292d52ce58d7c2fbbf9fd6f47">platmovetype_end</a></div><div class="ttdeci">float platmovetype_end</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00057">subs.qh:57</a></div></div>
-<div class="ttc" id="subs_8qc_html_a8399ac316368c70dfa32e778d2ea6fc0"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0">TSPEED_START</a></div><div class="ttdeci">float TSPEED_START</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00184">subs.qc:184</a></div></div>
+<div class="ttc" id="subs_8qc_html_a8399ac316368c70dfa32e778d2ea6fc0"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0">TSPEED_START</a></div><div class="ttdeci">float TSPEED_START</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00182">subs.qc:182</a></div></div>
 <div class="ttc" id="sys-pre_8qh_html_a1a131a8f1813cd654a56e745f531fff1"><div class="ttname"><a href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a></div><div class="ttdeci">#define objerror</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/sys-pre_8qh_source.html#l00003">sys-pre.qh:3</a></div></div>
-<div class="ttc" id="subs_8qc_html_a83271404eaa6f16d70f1ba21c704aa7c"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a></div><div class="ttdeci">float TSPEED_TIME</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00182">subs.qc:182</a></div></div>
+<div class="ttc" id="subs_8qc_html_a83271404eaa6f16d70f1ba21c704aa7c"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a></div><div class="ttdeci">float TSPEED_TIME</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00180">subs.qc:180</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-<div class="ttc" id="subs_8qc_html_af838cdbefc205e1e2d171fa44a54c6c0"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0">TSPEED_END</a></div><div class="ttdeci">float TSPEED_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00185">subs.qc:185</a></div></div>
+<div class="ttc" id="subs_8qc_html_af838cdbefc205e1e2d171fa44a54c6c0"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0">TSPEED_END</a></div><div class="ttdeci">float TSPEED_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00183">subs.qc:183</a></div></div>
 <div class="ttc" id="subs_8qh_html_a55a2aa61ac179c70d964948e8b4a5a36"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36">platmovetype_start</a></div><div class="ttdeci">float platmovetype_start</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00057">subs.qh:57</a></div></div>
-<div class="ttc" id="subs_8qc_html_a6b26ad129f379058165d1cd208b71de4"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4">TSPEED_LINEAR</a></div><div class="ttdeci">float TSPEED_LINEAR</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00183">subs.qc:183</a></div></div>
-<div class="ttc" id="subs_8qc_html_ad9250cfa5a87e3c0f28167151a4395e5"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#ad9250cfa5a87e3c0f28167151a4395e5">SUB_CalcMove_Bezier</a></div><div class="ttdeci">void SUB_CalcMove_Bezier(vector tcontrol, vector tdest, float tspeedtype, float tspeed, void() func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00188">subs.qc:188</a></div></div>
+<div class="ttc" id="subs_8qc_html_a6b26ad129f379058165d1cd208b71de4"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4">TSPEED_LINEAR</a></div><div class="ttdeci">float TSPEED_LINEAR</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00181">subs.qc:181</a></div></div>
+<div class="ttc" id="subs_8qc_html_ad9250cfa5a87e3c0f28167151a4395e5"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#ad9250cfa5a87e3c0f28167151a4395e5">SUB_CalcMove_Bezier</a></div><div class="ttdeci">void SUB_CalcMove_Bezier(vector tcontrol, vector tdest, float tspeedtype, float tspeed, void() func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00186">subs.qc:186</a></div></div>
 <div class="ttc" id="subs_8qc_html_a0828607377319480241b0537ed3b37ee"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a0828607377319480241b0537ed3b37ee">SUB_CalcMoveDone</a></div><div class="ttdeci">void SUB_CalcMoveDone()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00082">subs.qc:82</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1402,81 +1402,78 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00188">188</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00186">186</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00003">objerror</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00085">owner</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00014">setself</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00154">SUB_CalcMove_controller_setbezier()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00094">SUB_CalcMove_controller_think()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00082">SUB_CalcMoveDone()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00001">SUB_NullThink()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00185">TSPEED_END</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00183">TSPEED_LINEAR</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00184">TSPEED_START</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00182">TSPEED_TIME</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../dd/d8b/sys-pre_8qh_source.html#l00003">objerror</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00152">SUB_CalcMove_controller_setbezier()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00094">SUB_CalcMove_controller_think()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00082">SUB_CalcMoveDone()</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00001">SUB_NullThink()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00183">TSPEED_END</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00181">TSPEED_LINEAR</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00182">TSPEED_START</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00180">TSPEED_TIME</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00015">WITHSELF</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00246">SUB_CalcMove()</a>, and <a class="el" href="../../de/d2e/train_8qc_source.html#l00064">train_next()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordtype">float</span>   traveltime;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> controller;</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    <span class="keywordflow">if</span> (!tspeed)</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <a class="code" href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a> (<span class="stringliteral">&quot;No speed is defined!&quot;</span>);</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="keyword">self</span>.think1 = func;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    <span class="keyword">self</span>.finaldest = tdest;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keyword">self</span>.SUB_THINK = <a class="code" href="../../d2/dc2/subs_8qc.html#a0828607377319480241b0537ed3b37ee">SUB_CalcMoveDone</a>;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordflow">switch</span>(tspeedtype)</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    {</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0">TSPEED_START</a>:</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            traveltime = 2 * <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(tcontrol - <span class="keyword">self</span>.SUB_ORIGIN) / tspeed;</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0">TSPEED_END</a>:</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            traveltime = 2 * <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(tcontrol - tdest)       / tspeed;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4">TSPEED_LINEAR</a>:</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            traveltime = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(tdest - <span class="keyword">self</span>.SUB_ORIGIN)        / tspeed;</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a>:</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            traveltime = tspeed;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    }</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <span class="keywordflow">if</span> (traveltime &lt; 0.1) <span class="comment">// useless anim</span></div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    {</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keyword">self</span>.SUB_VELOCITY = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keyword">self</span>.SUB_NEXTTHINK = <span class="keyword">self</span>.SUB_LTIME + 0.1;</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    }</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    controller = <span class="keyword">new</span>(SUB_CalcMove_controller);</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    controller.owner = <span class="keyword">self</span>;</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    controller.platmovetype = <span class="keyword">self</span>.platmovetype;</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    controller.platmovetype_start = <span class="keyword">self</span>.platmovetype_start;</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    controller.platmovetype_end = <span class="keyword">self</span>.platmovetype_end;</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <a class="code" href="../../d2/dc2/subs_8qc.html#a3a60987a3ea76236af8eff0d6f65d6cb">SUB_CalcMove_controller_setbezier</a>(controller, <span class="keyword">self</span>.SUB_ORIGIN, tcontrol, tdest);</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    controller.finaldest = (tdest + <span class="stringliteral">&#39;0 0 0.125&#39;</span>); <span class="comment">// where do we want to end? Offset to overshoot a bit.</span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    controller.animstate_starttime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    controller.animstate_endtime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + traveltime;</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    controller.think = <a class="code" href="../../d2/dc2/subs_8qc.html#a08f64e9faeabd8212d4ebc64b8200e97">SUB_CalcMove_controller_think</a>;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    controller.think1 = <span class="keyword">self</span>.SUB_THINK;</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="comment">// the thinking is now done by the controller</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <span class="keyword">self</span>.SUB_THINK = <a class="code" href="../../d2/dc2/subs_8qc.html#a71f23084e73cadd35e2cde81fbcecb53">SUB_NullThink</a>; <span class="comment">// for PushMove</span></div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keyword">self</span>.SUB_NEXTTHINK = <span class="keyword">self</span>.SUB_LTIME + traveltime;</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="comment">// invoke controller</span></div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(controller);</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keyword">self</span>.think();</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00242">SUB_CalcMove()</a>, and <a class="el" href="../../de/d2e/train_8qc_source.html#l00064">train_next()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="keywordtype">float</span>   traveltime;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> controller;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="keywordflow">if</span> (!tspeed)</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <a class="code" href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a> (<span class="stringliteral">&quot;No speed is defined!&quot;</span>);</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="keyword">self</span>.think1 = func;</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keyword">self</span>.finaldest = tdest;</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="keyword">self</span>.SUB_THINK = <a class="code" href="../../d2/dc2/subs_8qc.html#a0828607377319480241b0537ed3b37ee">SUB_CalcMoveDone</a>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <span class="keywordflow">switch</span>(tspeedtype)</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    {</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0">TSPEED_START</a>:</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            traveltime = 2 * <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(tcontrol - <span class="keyword">self</span>.SUB_ORIGIN) / tspeed;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0">TSPEED_END</a>:</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            traveltime = 2 * <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(tcontrol - tdest)       / tspeed;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4">TSPEED_LINEAR</a>:</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            traveltime = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(tdest - <span class="keyword">self</span>.SUB_ORIGIN)        / tspeed;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a>:</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            traveltime = tspeed;</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    }</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="keywordflow">if</span> (traveltime &lt; 0.1) <span class="comment">// useless anim</span></div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    {</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <span class="keyword">self</span>.SUB_VELOCITY = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <span class="keyword">self</span>.SUB_NEXTTHINK = <span class="keyword">self</span>.SUB_LTIME + 0.1;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    }</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    controller = <span class="keyword">new</span>(SUB_CalcMove_controller);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    controller.owner = <span class="keyword">self</span>;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    controller.platmovetype = <span class="keyword">self</span>.platmovetype;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    controller.platmovetype_start = <span class="keyword">self</span>.platmovetype_start;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    controller.platmovetype_end = <span class="keyword">self</span>.platmovetype_end;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <a class="code" href="../../d2/dc2/subs_8qc.html#a3a60987a3ea76236af8eff0d6f65d6cb">SUB_CalcMove_controller_setbezier</a>(controller, <span class="keyword">self</span>.SUB_ORIGIN, tcontrol, tdest);</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    controller.finaldest = (tdest + <span class="stringliteral">&#39;0 0 0.125&#39;</span>); <span class="comment">// where do we want to end? Offset to overshoot a bit.</span></div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    controller.animstate_starttime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    controller.animstate_endtime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + traveltime;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    controller.think = <a class="code" href="../../d2/dc2/subs_8qc.html#a08f64e9faeabd8212d4ebc64b8200e97">SUB_CalcMove_controller_think</a>;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    controller.think1 = <span class="keyword">self</span>.SUB_THINK;</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    <span class="comment">// the thinking is now done by the controller</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;    <span class="keyword">self</span>.SUB_THINK = <a class="code" href="../../d2/dc2/subs_8qc.html#a71f23084e73cadd35e2cde81fbcecb53">SUB_NullThink</a>; <span class="comment">// for PushMove</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="keyword">self</span>.SUB_NEXTTHINK = <span class="keyword">self</span>.SUB_LTIME + traveltime;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="comment">// invoke controller</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(controller, controller.think());</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;}</div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
-<div class="ttc" id="subs_8qc_html_a8399ac316368c70dfa32e778d2ea6fc0"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0">TSPEED_START</a></div><div class="ttdeci">float TSPEED_START</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00184">subs.qc:184</a></div></div>
+<div class="ttc" id="subs_8qc_html_a8399ac316368c70dfa32e778d2ea6fc0"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a8399ac316368c70dfa32e778d2ea6fc0">TSPEED_START</a></div><div class="ttdeci">float TSPEED_START</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00182">subs.qc:182</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="sys-pre_8qh_html_a1a131a8f1813cd654a56e745f531fff1"><div class="ttname"><a href="../../dd/d8b/sys-pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1">objerror</a></div><div class="ttdeci">#define objerror</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d8b/sys-pre_8qh_source.html#l00003">sys-pre.qh:3</a></div></div>
 <div class="ttc" id="subs_8qc_html_a71f23084e73cadd35e2cde81fbcecb53"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a71f23084e73cadd35e2cde81fbcecb53">SUB_NullThink</a></div><div class="ttdeci">void SUB_NullThink()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00001">subs.qc:1</a></div></div>
-<div class="ttc" id="self_8qh_html_a2b1765bb8990e0e47100da7778e225d8"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a></div><div class="ttdeci">#define setself(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00014">self.qh:14</a></div></div>
-<div class="ttc" id="subs_8qc_html_a83271404eaa6f16d70f1ba21c704aa7c"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a></div><div class="ttdeci">float TSPEED_TIME</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00182">subs.qc:182</a></div></div>
+<div class="ttc" id="subs_8qc_html_a83271404eaa6f16d70f1ba21c704aa7c"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a83271404eaa6f16d70f1ba21c704aa7c">TSPEED_TIME</a></div><div class="ttdeci">float TSPEED_TIME</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00180">subs.qc:180</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
-<div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00085">main.qh:85</a></div></div>
 <div class="ttc" id="subs_8qc_html_a08f64e9faeabd8212d4ebc64b8200e97"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a08f64e9faeabd8212d4ebc64b8200e97">SUB_CalcMove_controller_think</a></div><div class="ttdeci">void SUB_CalcMove_controller_think()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00094">subs.qc:94</a></div></div>
-<div class="ttc" id="subs_8qc_html_af838cdbefc205e1e2d171fa44a54c6c0"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0">TSPEED_END</a></div><div class="ttdeci">float TSPEED_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00185">subs.qc:185</a></div></div>
-<div class="ttc" id="subs_8qc_html_a6b26ad129f379058165d1cd208b71de4"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4">TSPEED_LINEAR</a></div><div class="ttdeci">float TSPEED_LINEAR</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00183">subs.qc:183</a></div></div>
+<div class="ttc" id="subs_8qc_html_af838cdbefc205e1e2d171fa44a54c6c0"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#af838cdbefc205e1e2d171fa44a54c6c0">TSPEED_END</a></div><div class="ttdeci">float TSPEED_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00183">subs.qc:183</a></div></div>
+<div class="ttc" id="self_8qh_html_a0a6ed21815e6b8d3ff58b8559ec08c87"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a></div><div class="ttdeci">#define WITHSELF(value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00015">self.qh:15</a></div></div>
+<div class="ttc" id="subs_8qc_html_a6b26ad129f379058165d1cd208b71de4"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a6b26ad129f379058165d1cd208b71de4">TSPEED_LINEAR</a></div><div class="ttdeci">float TSPEED_LINEAR</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00181">subs.qc:181</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
-<div class="ttc" id="subs_8qc_html_a3a60987a3ea76236af8eff0d6f65d6cb"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a3a60987a3ea76236af8eff0d6f65d6cb">SUB_CalcMove_controller_setbezier</a></div><div class="ttdeci">void SUB_CalcMove_controller_setbezier(entity controller, vector org, vector control, vector destin)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00154">subs.qc:154</a></div></div>
+<div class="ttc" id="subs_8qc_html_a3a60987a3ea76236af8eff0d6f65d6cb"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a3a60987a3ea76236af8eff0d6f65d6cb">SUB_CalcMove_controller_setbezier</a></div><div class="ttdeci">void SUB_CalcMove_controller_setbezier(entity controller, vector org, vector control, vector destin)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00152">subs.qc:152</a></div></div>
 <div class="ttc" id="subs_8qc_html_a0828607377319480241b0537ed3b37ee"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#a0828607377319480241b0537ed3b37ee">SUB_CalcMoveDone</a></div><div class="ttdeci">void SUB_CalcMoveDone()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00082">subs.qc:82</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1537,22 +1534,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00154">154</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00152">152</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00188">SUB_CalcMove_Bezier()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;{</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="comment">// 0 * (1-t) * (1-t) + 2 * control * t * (1-t) + destin * t * t</span></div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="comment">// 2 * control * t - 2 * control * t * t + destin * t * t</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="comment">// 2 * control * t + (destin - 2 * control) * t * t</span></div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    setorigin(controller, org);</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    control -= org;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    destin -= org;</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    controller.destvec = 2 * control; <span class="comment">// control point</span></div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    controller.destvec2 = destin - 2 * control; <span class="comment">// quadratic part required to reach end point</span></div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="comment">// also: initial d/dphasepos origin = 2 * control, final speed = 2 * (destin - control)</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00186">SUB_CalcMove_Bezier()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;{</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="comment">// 0 * (1-t) * (1-t) + 2 * control * t * (1-t) + destin * t * t</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    <span class="comment">// 2 * control * t - 2 * control * t * t + destin * t * t</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="comment">// 2 * control * t + (destin - 2 * control) * t * t</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    setorigin(controller, org);</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    control -= org;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    destin -= org;</div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    controller.destvec = 2 * control; <span class="comment">// control point</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    controller.destvec2 = destin - 2 * control; <span class="comment">// quadratic part required to reach end point</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="comment">// also: initial d/dphasepos origin = 2 * control, final speed = 2 * (destin - control)</span></div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -1596,18 +1593,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00169">169</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="comment">// 0 * (1-t) * (1-t) + 2 * control * t * (1-t) + destin * t * t</span></div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <span class="comment">// 2 * control * t - 2 * control * t * t + destin * t * t</span></div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="comment">// 2 * control * t + (destin - 2 * control) * t * t</span></div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    setorigin(controller, org);</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    destin -= org;</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    controller.destvec = destin; <span class="comment">// end point</span></div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    controller.destvec2 = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00167">167</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;{</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    <span class="comment">// 0 * (1-t) * (1-t) + 2 * control * t * (1-t) + destin * t * t</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    <span class="comment">// 2 * control * t - 2 * control * t * t + destin * t * t</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="comment">// 2 * control * t + (destin - 2 * control) * t * t</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    setorigin(controller, org);</div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    destin -= org;</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    controller.destvec = destin; <span class="comment">// end point</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    controller.destvec2 = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1626,77 +1623,75 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00094">94</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
 
-<p>References <a class="el" href="../../d3/de0/anim_8qh_source.html#l00039">animstate_endtime</a>, <a class="el" href="../../d0/d79/math_8qh_source.html#l00085">cubic_speedfunc()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00085">owner</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00057">platmovetype_end</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00057">platmovetype_start</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00014">setself</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../d3/de0/anim_8qh_source.html#l00039">animstate_endtime</a>, <a class="el" href="../../d0/d79/math_8qh_source.html#l00085">cubic_speedfunc()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00085">owner</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00057">platmovetype_end</a>, <a class="el" href="../../db/d2f/subs_8qh_source.html#l00057">platmovetype_start</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00015">WITHSELF</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00188">SUB_CalcMove_Bezier()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00186">SUB_CalcMove_Bezier()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> oldself;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">float</span> traveltime;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">float</span> phasepos;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordtype">float</span> nexttick;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> delta;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> delta2;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> veloc;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> angloc;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> nextpos;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    delta = <span class="keyword">self</span>.destvec;</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    delta2 = <span class="keyword">self</span>.destvec2;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; <span class="keyword">self</span>.<a class="code" href="../../d3/de0/anim_8qh.html#a28bec7f04d8170b63f3b18ce1bf1cfcb">animstate_endtime</a>)</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    {</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        nexttick = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + PHYS_INPUT_FRAMETIME;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        traveltime = <span class="keyword">self</span>.animstate_endtime - <span class="keyword">self</span>.animstate_starttime;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        phasepos = (nexttick - <span class="keyword">self</span>.animstate_starttime) / traveltime; <span class="comment">// range: [0, 1]</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        phasepos = <a class="code" href="../../d5/df2/common_2util_8qh.html#aedb361548011f34164a8cd39ff6268a8">cubic_speedfunc</a>(<span class="keyword">self</span>.<a class="code" href="../../db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36">platmovetype_start</a>, <span class="keyword">self</span>.<a class="code" href="../../db/d2f/subs_8qh.html#a935f045292d52ce58d7c2fbbf9fd6f47">platmovetype_end</a>, phasepos);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        nextpos = <span class="keyword">self</span>.origin + (delta * phasepos) + (delta2 * phasepos * phasepos);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="comment">// derivative: delta + 2 * delta2 * phasepos (e.g. for angle positioning)</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.platmovetype_turn)</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        {</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> destangle;</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            destangle = delta + 2 * delta2 * phasepos;</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            destangle = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(destangle);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;            destangle_x = -destangle_x; <span class="comment">// flip up / down orientation</span></div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="comment">// take the shortest distance for the angles</span></div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v = SUB_ANGLES(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            v.x -= 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((v.x - destangle_x) / 360 + 0.5);</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            v.y -= 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((v.y - destangle_y) / 360 + 0.5);</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            v.z -= 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((v.z - destangle_z) / 360 + 0.5);</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            SUB_ANGLES(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>) = v;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            angloc = destangle - SUB_ANGLES(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            angloc = angloc * (1 / PHYS_INPUT_FRAMETIME); <span class="comment">// so it arrives for the next frame</span></div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            <span class="keyword">self</span>.owner.SUB_AVELOCITY = angloc;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        }</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordflow">if</span>(nexttick &lt; <span class="keyword">self</span>.<a class="code" href="../../d3/de0/anim_8qh.html#a28bec7f04d8170b63f3b18ce1bf1cfcb">animstate_endtime</a>)</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            veloc = nextpos - <span class="keyword">self</span>.owner.SUB_ORIGIN;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            veloc = <span class="keyword">self</span>.finaldest - <span class="keyword">self</span>.owner.SUB_ORIGIN;</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        veloc = veloc * (1 / PHYS_INPUT_FRAMETIME); <span class="comment">// so it arrives for the next frame</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keyword">self</span>.owner.SUB_VELOCITY = veloc;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <span class="keyword">self</span>.nextthink = nexttick;</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    {</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="comment">// derivative: delta + 2 * delta2 (e.g. for angle positioning)</span></div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        oldself = <span class="keyword">self</span>;</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <span class="keyword">self</span>.owner.SUB_THINK = <span class="keyword">self</span>.think1;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>);</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keyword">remove</span>(oldself);</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keyword">self</span>.SUB_THINK();</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;}</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">float</span> traveltime;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">float</span> phasepos;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <span class="keywordtype">float</span> nexttick;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> delta;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> delta2;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> veloc;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> angloc;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> nextpos;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    delta = <span class="keyword">self</span>.destvec;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    delta2 = <span class="keyword">self</span>.destvec2;</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; <span class="keyword">self</span>.<a class="code" href="../../d3/de0/anim_8qh.html#a28bec7f04d8170b63f3b18ce1bf1cfcb">animstate_endtime</a>)</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    {</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        nexttick = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + PHYS_INPUT_FRAMETIME;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        traveltime = <span class="keyword">self</span>.animstate_endtime - <span class="keyword">self</span>.animstate_starttime;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        phasepos = (nexttick - <span class="keyword">self</span>.animstate_starttime) / traveltime; <span class="comment">// range: [0, 1]</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        phasepos = <a class="code" href="../../d5/df2/common_2util_8qh.html#aedb361548011f34164a8cd39ff6268a8">cubic_speedfunc</a>(<span class="keyword">self</span>.<a class="code" href="../../db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36">platmovetype_start</a>, <span class="keyword">self</span>.<a class="code" href="../../db/d2f/subs_8qh.html#a935f045292d52ce58d7c2fbbf9fd6f47">platmovetype_end</a>, phasepos);</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        nextpos = <span class="keyword">self</span>.origin + (delta * phasepos) + (delta2 * phasepos * phasepos);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="comment">// derivative: delta + 2 * delta2 * phasepos (e.g. for angle positioning)</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.platmovetype_turn)</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        {</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> destangle;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            destangle = delta + 2 * delta2 * phasepos;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            destangle = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(destangle);</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;            destangle_x = -destangle_x; <span class="comment">// flip up / down orientation</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="comment">// take the shortest distance for the angles</span></div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v = SUB_ANGLES(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>);</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            v.x -= 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((v.x - destangle_x) / 360 + 0.5);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            v.y -= 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((v.y - destangle_y) / 360 + 0.5);</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            v.z -= 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>((v.z - destangle_z) / 360 + 0.5);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            SUB_ANGLES(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>) = v;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            angloc = destangle - SUB_ANGLES(<span class="keyword">self</span>.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            angloc = angloc * (1 / PHYS_INPUT_FRAMETIME); <span class="comment">// so it arrives for the next frame</span></div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            <span class="keyword">self</span>.owner.SUB_AVELOCITY = angloc;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        }</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">if</span>(nexttick &lt; <span class="keyword">self</span>.<a class="code" href="../../d3/de0/anim_8qh.html#a28bec7f04d8170b63f3b18ce1bf1cfcb">animstate_endtime</a>)</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            veloc = nextpos - <span class="keyword">self</span>.owner.SUB_ORIGIN;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            veloc = <span class="keyword">self</span>.finaldest - <span class="keyword">self</span>.owner.SUB_ORIGIN;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        veloc = veloc * (1 / PHYS_INPUT_FRAMETIME); <span class="comment">// so it arrives for the next frame</span></div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="keyword">self</span>.owner.SUB_VELOCITY = veloc;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keyword">self</span>.nextthink = nexttick;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    }</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="comment">// derivative: delta + 2 * delta2 (e.g. for angle positioning)</span></div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> own = <span class="keyword">self</span>.owner;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        own.SUB_THINK = <span class="keyword">self</span>.think1;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <span class="keyword">remove</span>(<span class="keyword">self</span>);</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(own, own.SUB_THINK());</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    }</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;}</div>
 <div class="ttc" id="common_2util_8qh_html_aedb361548011f34164a8cd39ff6268a8"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#aedb361548011f34164a8cd39ff6268a8">cubic_speedfunc</a></div><div class="ttdeci">float cubic_speedfunc(float startspeedfactor, float endspeedfactor, float x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00085">math.qh:85</a></div></div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="anim_8qh_html_a28bec7f04d8170b63f3b18ce1bf1cfcb"><div class="ttname"><a href="../../d3/de0/anim_8qh.html#a28bec7f04d8170b63f3b18ce1bf1cfcb">animstate_endtime</a></div><div class="ttdeci">float animstate_endtime</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de0/anim_8qh_source.html#l00039">anim.qh:39</a></div></div>
 <div class="ttc" id="subs_8qh_html_a935f045292d52ce58d7c2fbbf9fd6f47"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a935f045292d52ce58d7c2fbbf9fd6f47">platmovetype_end</a></div><div class="ttdeci">float platmovetype_end</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00057">subs.qh:57</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="self_8qh_html_a2b1765bb8990e0e47100da7778e225d8"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a></div><div class="ttdeci">#define setself(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00014">self.qh:14</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00085">main.qh:85</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a822ea10e75a853993f2fa21149d76f4c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a></div><div class="ttdeci">vector vectoangles(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="subs_8qh_html_a55a2aa61ac179c70d964948e8b4a5a36"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36">platmovetype_start</a></div><div class="ttdeci">float platmovetype_start</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00057">subs.qh:57</a></div></div>
+<div class="ttc" id="self_8qh_html_a0a6ed21815e6b8d3ff58b8559ec08c87"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a></div><div class="ttdeci">#define WITHSELF(value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00015">self.qh:15</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
@@ -1739,7 +1734,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../db/d2f/subs_8qh_source.html#l00043">finaldest</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00246">SUB_CalcMove()</a>, and <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00188">SUB_CalcMove_Bezier()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00242">SUB_CalcMove()</a>, and <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00186">SUB_CalcMove_Bezier()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="comment">// After moving, set origin to exact final destination</span></div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
@@ -1806,15 +1801,15 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00295">295</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00291">291</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
 
-<p>References <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00246">SUB_CalcMove()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00015">WITHSELF</a>.</p>
-<div class="fragment"><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(ent, <a class="code" href="../../d2/dc2/subs_8qc.html#ae14253ed4d6fe1ab6f941ce26db41d2b">SUB_CalcMove</a>(tdest, tspeedtype, tspeed, func));</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;}</div>
+<p>References <a class="el" href="../../d3/dd0/self_8qh_source.html#l00007">SELFPARAM</a>, <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00242">SUB_CalcMove()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00015">WITHSELF</a>.</p>
+<div class="fragment"><div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(ent, <a class="code" href="../../d2/dc2/subs_8qc.html#ae14253ed4d6fe1ab6f941ce26db41d2b">SUB_CalcMove</a>(tdest, tspeedtype, tspeed, func));</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;}</div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00007">self.qh:7</a></div></div>
 <div class="ttc" id="self_8qh_html_a0a6ed21815e6b8d3ff58b8559ec08c87"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a></div><div class="ttdeci">#define WITHSELF(value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00015">self.qh:15</a></div></div>
-<div class="ttc" id="subs_8qc_html_ae14253ed4d6fe1ab6f941ce26db41d2b"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#ae14253ed4d6fe1ab6f941ce26db41d2b">SUB_CalcMove</a></div><div class="ttdeci">void SUB_CalcMove(vector tdest, float tspeedtype, float tspeed, void() func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00246">subs.qc:246</a></div></div>
+<div class="ttc" id="subs_8qc_html_ae14253ed4d6fe1ab6f941ce26db41d2b"><div class="ttname"><a href="../../d2/dc2/subs_8qc.html#ae14253ed4d6fe1ab6f941ce26db41d2b">SUB_CalcMove</a></div><div class="ttdeci">void SUB_CalcMove(vector tdest, float tspeedtype, float tspeed, void() func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/dc2/subs_8qc_source.html#l00242">subs.qc:242</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1871,7 +1866,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00001">1</a> of file <a class="el" href="../../d2/dc2/subs_8qc_source.html">subs.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00188">SUB_CalcMove_Bezier()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/dc2/subs_8qc_source.html#l00186">SUB_CalcMove_Bezier()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;{ }</div>
 </div><!-- fragment -->
 <p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3106,7 +3101,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d6/d93/g__subs_8qh.html">g_subs.qh</a></li>
-    <li class="footer">Generated on Sun May 22 2016 01:46:13 for Xonotic by
+    <li class="footer">Generated on Sun May 22 2016 03:01:06 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
