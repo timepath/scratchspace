@@ -140,16 +140,16 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d1/dae/targettrigger_8qc_source.html#l00030">30</a> of file <a class="el" href="../../d1/dae/targettrigger_8qc_source.html">targettrigger.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d1/dae/targettrigger_8qc_source.html#l00017">17</a> of file <a class="el" href="../../d1/dae/targettrigger_8qc_source.html">targettrigger.qc</a>.</p>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00290">autocvar_g_turrets</a>, <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00413">InitTrigger()</a>, <a class="el" href="../../d1/dae/targettrigger_8qc_source.html#l00004">turret_targettrigger_touch()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00015">WITHSELF</a>.</p>
-<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a3ac26840e2bbca09157d0768a3de1c78">autocvar_g_turrets</a>) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(<span class="keyword">this</span>, <a class="code" href="../../d2/d11/g__subs_8qc.html#ab5906481542f5dbc51e25b99750e2515">InitTrigger</a>());</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    this.touch = <a class="code" href="../../d1/dae/targettrigger_8qc.html#a477779835f37be3b44967789a7ba1b21">turret_targettrigger_touch</a>;</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a3ac26840e2bbca09157d0768a3de1c78">autocvar_g_turrets</a>) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(<span class="keyword">this</span>, <a class="code" href="../../d2/d11/g__subs_8qc.html#ab5906481542f5dbc51e25b99750e2515">InitTrigger</a>());</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    this.touch = <a class="code" href="../../d1/dae/targettrigger_8qc.html#a477779835f37be3b44967789a7ba1b21">turret_targettrigger_touch</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
 <div class="ttc" id="g__subs_8qc_html_ab5906481542f5dbc51e25b99750e2515"><div class="ttname"><a href="../../d2/d11/g__subs_8qc.html#ab5906481542f5dbc51e25b99750e2515">InitTrigger</a></div><div class="ttdeci">void InitTrigger()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d11/g__subs_8qc_source.html#l00413">g_subs.qc:413</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a3ac26840e2bbca09157d0768a3de1c78"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a3ac26840e2bbca09157d0768a3de1c78">autocvar_g_turrets</a></div><div class="ttdeci">bool autocvar_g_turrets</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00290">autocvars.qh:290</a></div></div>
 <div class="ttc" id="targettrigger_8qc_html_a477779835f37be3b44967789a7ba1b21"><div class="ttname"><a href="../../d1/dae/targettrigger_8qc.html#a477779835f37be3b44967789a7ba1b21">turret_targettrigger_touch</a></div><div class="ttdeci">void turret_targettrigger_touch()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dae/targettrigger_8qc_source.html#l00004">targettrigger.qc:4</a></div></div>
@@ -182,37 +182,22 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/dae/targettrigger_8qc_source.html#l00004">4</a> of file <a class="el" href="../../d1/dae/targettrigger_8qc_source.html">targettrigger.qc</a>.</p>
 
-<p>References <a class="el" href="../../d1/d93/pp_8qc_source.html#l00020">cnt</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00014">other</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00023">SELFPARAM</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00014">setself</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00193">target</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00194">targetname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d9/d67/turret_8qh_source.html#l00134">TUR_FLAG_RECIEVETARGETS</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
+<p>References <a class="el" href="../../d1/d93/pp_8qc_source.html#l00020">cnt</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00173">FOREACH_ENTITY_STRING_ORDERED</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00014">other</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00023">SELFPARAM</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00193">target</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00194">targetname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d9/d67/turret_8qh_source.html#l00134">TUR_FLAG_RECIEVETARGETS</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00015">WITHSELF</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/dae/targettrigger_8qc_source.html#l00030">spawnfunc()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/dae/targettrigger_8qc_source.html#l00017">spawnfunc()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a> &gt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> oldself = <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, <span class="keyword">self</span>.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">while</span> (e)</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordflow">if</span> (e.turret_flags &amp; <a class="code" href="../../d9/d67/turret_8qh.html#a201fbb5802eea57dcfa8ae679796b077">TUR_FLAG_RECIEVETARGETS</a>)</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(e);</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <span class="keywordflow">if</span>(e.turret_addtarget)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                e.turret_addtarget(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>,oldself);</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(e, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, oldself.target);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    oldself.cnt = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.5;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
-<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a> &gt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#a3f0d5659ffab5f4dbe63e2a25f402627">FOREACH_ENTITY_STRING_ORDERED</a>(<a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>, {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">if</span> (!(it.turret_flags &amp; <a class="code" href="../../d9/d67/turret_8qh.html#a201fbb5802eea57dcfa8ae679796b077">TUR_FLAG_RECIEVETARGETS</a>)) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        if (!it.turret_addtarget) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(it, it.turret_addtarget(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>, <span class="keyword">this</span>));</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    });</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.5;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
 <div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00023">self.qh:23</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="self_8qh_html_a2b1765bb8990e0e47100da7778e225d8"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8">setself</a></div><div class="ttdeci">#define setself(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00014">self.qh:14</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a264ee8f6a0019c50d2049ee7af5c9296"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a></div><div class="ttdeci">entity other</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00014">csprogsdefs.qc:14</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a53c4a8e7afd17cad92bc00adba96bb78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a></div><div class="ttdeci">entity find(entity start,.string field, string match)</div></div>
+<div class="ttc" id="iter_8qh_html_a3f0d5659ffab5f4dbe63e2a25f402627"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#a3f0d5659ffab5f4dbe63e2a25f402627">FOREACH_ENTITY_STRING_ORDERED</a></div><div class="ttdeci">#define FOREACH_ENTITY_STRING_ORDERED(fld, match, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00173">iter.qh:173</a></div></div>
+<div class="ttc" id="self_8qh_html_a0a6ed21815e6b8d3ff58b8559ec08c87"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a></div><div class="ttdeci">#define WITHSELF(value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00015">self.qh:15</a></div></div>
 <div class="ttc" id="turret_8qh_html_a201fbb5802eea57dcfa8ae679796b077"><div class="ttname"><a href="../../d9/d67/turret_8qh.html#a201fbb5802eea57dcfa8ae679796b077">TUR_FLAG_RECIEVETARGETS</a></div><div class="ttdeci">const int TUR_FLAG_RECIEVETARGETS</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d67/turret_8qh_source.html#l00134">turret.qh:134</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a63bce1d11afa658ec5e4b4f98ccfa511"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a></div><div class="ttdeci">string targetname</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00194">progsdefs.qc:194</a></div></div>
 <div class="ttc" id="pp_8qc_html_a9cfbb269728dc4185236d28be58d9eab"><div class="ttname"><a href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a></div><div class="ttdeci">int cnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d93/pp_8qc_source.html#l00020">pp.qc:20</a></div></div>
@@ -220,20 +205,10 @@ Functions</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/dae/targettrigger_8qc_a477779835f37be3b44967789a7ba1b21_cgraph.svg" width="243" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/dae/targettrigger_8qc_a477779835f37be3b44967789a7ba1b21_icgraph.svg" width="272" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -247,7 +222,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../d1/dae/targettrigger_8qc.html">targettrigger.qc</a></li>
-    <li class="footer">Generated on Sun May 22 2016 04:35:39 for Xonotic by
+    <li class="footer">Generated on Sun May 22 2016 05:22:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
