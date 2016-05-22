@@ -49,7 +49,7 @@ var lib_2warpzone_2common_8qh =
     [ "WarpZone_UnTransformVelocity", "d7/d71/lib_2warpzone_2common_8qh.html#a08613252f53cbee3c097c6b8ed5d4f24", null ],
     [ "WarpZoneLib_BoxTouchesBrush", "d7/d71/lib_2warpzone_2common_8qh.html#a1b87d3cc5d237220e1d7def92aca4632", null ],
     [ "WarpZoneLib_ExactTrigger_Init", "d7/d71/lib_2warpzone_2common_8qh.html#a904a8bfe5319b5784c20a0470d103206", null ],
-    [ "WarpZoneLib_ExactTrigger_Touch", "d7/d71/lib_2warpzone_2common_8qh.html#a3a9da1c7eaf49a03b0fb365d32f5f406", null ],
+    [ "WarpZoneLib_ExactTrigger_Touch", "d7/d71/lib_2warpzone_2common_8qh.html#a577f8f315a1cda12c614b96a7b52c6ed", null ],
     [ "WarpZoneLib_MoveOutOfSolid", "d7/d71/lib_2warpzone_2common_8qh.html#ac221a6dceaae4b279cb0bcf10a95fef7", null ],
     [ "WarpZoneLib_NearestPointOnBox", "d7/d71/lib_2warpzone_2common_8qh.html#a888e1072d2f30bde6209cdd46dfa8482", null ],
     [ "warpzone_angles", "d7/d71/lib_2warpzone_2common_8qh.html#ab93f220d94ffef04bb659bf289b95872", null ],

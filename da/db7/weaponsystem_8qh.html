@@ -623,7 +623,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;                }</div>
 <div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;                <span class="comment">// switch away if the amount of ammo is not enough to keep using this weapon</span></div>
 <div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;                <a class="code" href="../../dc/de5/classWeapon.html">Weapon</a> w = <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(actor).m_weapon;</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;                <span class="keywordflow">if</span> (!(w.<a class="code" href="../../dc/de5/classWeapon.html#ab1963e9f2e85c7c11304531a7a8e4313">wr_checkammo1</a>(w) + w.<a class="code" href="../../dc/de5/classWeapon.html#a8adc0f68d514782dc8fe0a1d5af3b310">wr_checkammo2</a>(w)))</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;                <span class="keywordflow">if</span> (!(w.<a class="code" href="../../dc/de5/classWeapon.html#ab1963e9f2e85c7c11304531a7a8e4313">wr_checkammo1</a>(w, actor) + w.<a class="code" href="../../dc/de5/classWeapon.html#a8adc0f68d514782dc8fe0a1d5af3b310">wr_checkammo2</a>(w, actor)))</div>
 <div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;                {</div>
 <div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;                    actor.clip_load = -1;  <span class="comment">// reload later</span></div>
 <div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;                    <a class="code" href="../../d2/d62/selection_8qc.html#a32307104f9168ee9caba49c8a59099e3">W_SwitchToOtherWeapon</a>(actor);</div>
@@ -1446,7 +1446,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../da/db7/weaponsystem_8qh.html">weaponsystem.qh</a></li>
-    <li class="footer">Generated on Sun May 22 2016 00:48:14 for Xonotic by
+    <li class="footer">Generated on Sun May 22 2016 01:46:15 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

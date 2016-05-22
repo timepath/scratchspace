@@ -52,7 +52,7 @@ var lib_2warpzone_2common_8qc =
     [ "WarpZoneLib_BadEntity", "d1/d6a/lib_2warpzone_2common_8qc.html#a556da543683b9184701a9b7ab557e463", null ],
     [ "WarpZoneLib_BoxTouchesBrush", "d1/d6a/lib_2warpzone_2common_8qc.html#a1b87d3cc5d237220e1d7def92aca4632", null ],
     [ "WarpZoneLib_BoxTouchesBrush_Recurse", "d1/d6a/lib_2warpzone_2common_8qc.html#a4a0631162e93630a6ea1d1f7b7b33329", null ],
-    [ "WarpZoneLib_ExactTrigger_Touch", "d1/d6a/lib_2warpzone_2common_8qc.html#a3a9da1c7eaf49a03b0fb365d32f5f406", null ],
+    [ "WarpZoneLib_ExactTrigger_Touch", "d1/d6a/lib_2warpzone_2common_8qc.html#a577f8f315a1cda12c614b96a7b52c6ed", null ],
     [ "WarpZoneLib_MoveOutOfSolid", "d1/d6a/lib_2warpzone_2common_8qc.html#ac221a6dceaae4b279cb0bcf10a95fef7", null ],
     [ "WarpZoneLib_MoveOutOfSolid_Expand", "d1/d6a/lib_2warpzone_2common_8qc.html#ae6b718e225b6caa75a1aef6b82cfbcf0", null ],
     [ "WarpZoneLib_NearestPointOnBox", "d1/d6a/lib_2warpzone_2common_8qc.html#a888e1072d2f30bde6209cdd46dfa8482", null ],

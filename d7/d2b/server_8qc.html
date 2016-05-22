@@ -612,7 +612,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a3a9da1c7eaf49a03b0fb365d32f5f406">WarpZoneLib_ExactTrigger_Touch</a>())</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a577f8f315a1cda12c614b96a7b52c6ed">WarpZoneLib_ExactTrigger_Touch</a>(<span class="keyword">self</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>))</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
@@ -683,9 +683,9 @@ Variables</h2></td></tr>
 <div class="ttc" id="subs_8qh_html_a21f638b0048b6516d7e8b2773d3e8cb3"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a21f638b0048b6516d7e8b2773d3e8cb3">target2</a></div><div class="ttdeci">string target2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00066">subs.qh:66</a></div></div>
 <div class="ttc" id="dpextensions_8qc_html_a5a0f8717cd777d80ce32fe72439b199c"><div class="ttname"><a href="../../de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c">MOVETYPE_FOLLOW</a></div><div class="ttdeci">float MOVETYPE_FOLLOW</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/dpextensions_8qc_source.html#l00549">dpextensions.qc:549</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
-<div class="ttc" id="lib_2warpzone_2common_8qc_html_a3a9da1c7eaf49a03b0fb365d32f5f406"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a3a9da1c7eaf49a03b0fb365d32f5f406">WarpZoneLib_ExactTrigger_Touch</a></div><div class="ttdeci">float WarpZoneLib_ExactTrigger_Touch()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00789">common.qc:789</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_afa8adf762827679f2bfa706be7144fe2"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a></div><div class="ttdeci">string target</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00193">progsdefs.qc:193</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
+<div class="ttc" id="lib_2warpzone_2common_8qc_html_a577f8f315a1cda12c614b96a7b52c6ed"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a577f8f315a1cda12c614b96a7b52c6ed">WarpZoneLib_ExactTrigger_Touch</a></div><div class="ttdeci">float WarpZoneLib_ExactTrigger_Touch(entity this, entity toucher)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00789">common.qc:789</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -848,7 +848,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_58d953ef34ccfc4a49203206a34466c3.html">warpzone</a></li><li class="navelem"><a class="el" href="../../d7/d2b/server_8qc.html">server.qc</a></li>
-    <li class="footer">Generated on Sun May 22 2016 00:48:09 for Xonotic by
+    <li class="footer">Generated on Sun May 22 2016 01:46:09 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

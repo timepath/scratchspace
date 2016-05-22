@@ -178,7 +178,7 @@ $(document).ready(function(){initNavTree('d2/d62/selection_8qc_source.html','../
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;            }</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;            {</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(<span class="keyword">this</span>, f = wpn.<a class="code" href="../../dc/de5/classWeapon.html#ab1963e9f2e85c7c11304531a7a8e4313">wr_checkammo1</a>(wpn) + wpn.<a class="code" href="../../dc/de5/classWeapon.html#a8adc0f68d514782dc8fe0a1d5af3b310">wr_checkammo2</a>(wpn));</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                f = wpn.<a class="code" href="../../dc/de5/classWeapon.html#ab1963e9f2e85c7c11304531a7a8e4313">wr_checkammo1</a>(wpn, <span class="keyword">this</span>) + wpn.<a class="code" href="../../dc/de5/classWeapon.html#a8adc0f68d514782dc8fe0a1d5af3b310">wr_checkammo2</a>(wpn, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                <span class="comment">// always allow selecting the Mine Layer if we placed mines, so that we can detonate them</span></div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                <span class="keywordflow">if</span>(wpn == WEP_MINE_LAYER)</div>
@@ -471,7 +471,6 @@ $(document).ready(function(){initNavTree('d2/d62/selection_8qc_source.html','../
 <div class="ttc" id="common_2constants_8qh_html"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html">constants.qh</a></div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">_all.inc:38</a></div></div>
 <div class="ttc" id="selection_8qc_html_ae95331c3255f5341fd8851efbae687ca"><div class="ttname"><a href="../../d2/d62/selection_8qc.html#ae95331c3255f5341fd8851efbae687ca">client_hasweapon</a></div><div class="ttdeci">bool client_hasweapon(entity this, Weapon wpn, float andammo, bool complain)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d62/selection_8qc_source.html#l00043">selection.qc:43</a></div></div>
-<div class="ttc" id="self_8qh_html_a0a6ed21815e6b8d3ff58b8559ec08c87"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a></div><div class="ttdeci">#define WITHSELF(value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00015">self.qh:15</a></div></div>
 <div class="ttc" id="classWeapon_html_a8adc0f68d514782dc8fe0a1d5af3b310"><div class="ttname"><a href="../../dc/de5/classWeapon.html#a8adc0f68d514782dc8fe0a1d5af3b310">Weapon::wr_checkammo2</a></div><div class="ttdeci">virtual void wr_checkammo2()</div><div class="ttdoc">(SERVER) checks ammo for weapon second </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00094">weapon.qh:94</a></div></div>
 <div class="ttc" id="common_2items_2item_8qh_html"><div class="ttname"><a href="../../d7/d7c/common_2items_2item_8qh.html">item.qh</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9bdd141f634714eab30642bf42f63862"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a></div><div class="ttdeci">entity enemy</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00127">csprogsdefs.qc:127</a></div></div>
@@ -501,7 +500,7 @@ $(document).ready(function(){initNavTree('d2/d62/selection_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d2/d62/selection_8qc.html">selection.qc</a></li>
-    <li class="footer">Generated on Sun May 22 2016 00:48:02 for Xonotic by
+    <li class="footer">Generated on Sun May 22 2016 01:46:02 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
