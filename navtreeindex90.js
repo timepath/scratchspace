@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"db/d7f/effectinfo_8inc.html#a99181657fe7efbc9cd56bd984cd163db":[2,0,1,2,7,235],
 "db/d7f/effectinfo_8inc.html#a99b4514fab8ee10ccb66265db462d6f9":[2,0,1,2,7,292],
 "db/d7f/effectinfo_8inc.html#a99e514778f4e6d4316ac1ba3213a35a3":[2,0,1,2,7,208],
 "db/d7f/effectinfo_8inc.html#a9a126acc4e563ead0f13bcc4d9f0eb42":[2,0,1,2,7,71],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "db/d9d/common_2vehicles_2vehicle_2__mod_8qh_source.html":[2,0,1,15,0,1],
 "db/d9f/state_8qh.html":[2,0,1,39],
 "db/d9f/state_8qh.html#a1960d1c0908e7286f74096a0a3618086":[2,0,1,39,8],
-"db/d9f/state_8qh.html#a53a16489327364aafc4ca8b946faab8d":[2,0,1,39,6],
-"db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c":[2,0,1,39,2]
+"db/d9f/state_8qh.html#a53a16489327364aafc4ca8b946faab8d":[2,0,1,39,6]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"db/d07/teams_8qh.html#aa3d6cc5893db93228eebe2c913555b55":[2,0,1,43,26],
 "db/d07/teams_8qh.html#aa417cabfc2bf10d554c0dee7aa17a991":[2,0,1,43,24],
 "db/d07/teams_8qh.html#aa6ee472ee546c802674773aa4ccefa5e":[2,0,1,43,39],
 "db/d07/teams_8qh.html#aa74c7673bc954e453a8779de1b9f9884":[2,0,1,43,34],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "db/d29/classXonoticRegisteredSettingsList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,204,78],
 "db/d29/classXonoticRegisteredSettingsList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,204,38],
 "db/d29/classXonoticRegisteredSettingsList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,204,14],
-"db/d29/classXonoticRegisteredSettingsList.html#ae8f438486f0f50ec12428b9fa2cd9828":[1,0,204,62],
-"db/d29/classXonoticRegisteredSettingsList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,204,58]
+"db/d29/classXonoticRegisteredSettingsList.html#ae8f438486f0f50ec12428b9fa2cd9828":[1,0,204,62]
 };

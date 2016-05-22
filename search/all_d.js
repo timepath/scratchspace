@@ -344,7 +344,7 @@ var searchData=
   ['mapvote_5frgb',['MapVote_RGB',['../d4/d0d/client_2mapvoting_8qc.html#ab80a012b6d9531a38dd52069edc63811',1,'mapvoting.qc']]],
   ['mapvote_5frun',['mapvote_run',['../d2/d76/server_2mapvoting_8qc.html#ada5ec3ec4ce51c78c0d223341d530c45',1,'mapvoting.qc']]],
   ['mapvote_5fscreenshot_5fdirs',['mapvote_screenshot_dirs',['../d2/d76/server_2mapvoting_8qc.html#ad40e1bd245af44e5acd1370f316e1311',1,'mapvoting.qc']]],
-  ['mapvote_5fscreenshot_5fdirs_5fcount',['mapvote_screenshot_dirs_count',['../d2/d76/server_2mapvoting_8qc.html#a239c475b9087ec0c54c40cc0edf03f66',1,'mapvote_screenshot_dirs_count():&#160;mapvoting.qc'],['../d2/d76/server_2mapvoting_8qc.html#a1e3e137a90d128509affa729095796a0',1,'MAPVOTE_SCREENSHOT_DIRS_COUNT():&#160;mapvoting.qc']]],
+  ['mapvote_5fscreenshot_5fdirs_5fcount',['MAPVOTE_SCREENSHOT_DIRS_COUNT',['../d2/d76/server_2mapvoting_8qc.html#a1e3e137a90d128509affa729095796a0',1,'MAPVOTE_SCREENSHOT_DIRS_COUNT():&#160;mapvoting.qc'],['../d2/d76/server_2mapvoting_8qc.html#a239c475b9087ec0c54c40cc0edf03f66',1,'mapvote_screenshot_dirs_count():&#160;mapvoting.qc']]],
   ['mapvote_5fselection',['MapVote_Selection',['../d4/d0d/client_2mapvoting_8qc.html#af980301f0a5f2a02ac8b0502d1a4951a',1,'mapvoting.qc']]],
   ['mapvote_5fselections',['mapvote_selections',['../d2/d76/server_2mapvoting_8qc.html#a5f530e5f3e38fe43bf3e2152db3ecbac',1,'mapvoting.qc']]],
   ['mapvote_5fsendchoice',['MapVote_SendChoice',['../d4/d0d/client_2mapvoting_8qc.html#a7ec875daee7cdc2ca76d0aadbe791656',1,'mapvoting.qc']]],
