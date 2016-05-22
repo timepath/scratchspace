@@ -371,7 +371,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    r = <a class="code" href="../../dd/d70/pathlib_8qh.html#aad8ca0515e4e3ac2b6a0e88673eff495">PLIB_RIGHT</a>   * <a class="code" href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a>;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">if</span> (node.pathlib_node_edgeflags == <a class="code" href="../../dd/d70/pathlib_8qh.html#a995d8c8367709bbcee8cbb05b12ea857">pathlib_node_edgeflag_unknown</a>)</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        node.pathlib_node_edgeflags = <a class="code" href="../../dd/d1e/utility_8qc.html#ad3c58519e4866809f49ab5150a162c7f">tile_check_plus2</a>(node.origin);</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        node.pathlib_node_edgeflags = <a class="code" href="../../dd/d1e/utility_8qc.html#af9eb582898cab4e22bace1c7afba0f66">tile_check_plus2</a>(node, node.origin);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">if</span>(node.pathlib_node_edgeflags == <a class="code" href="../../dd/d70/pathlib_8qh.html#ab225807f1152a941f4befa2b67bb76eb">pathlib_node_edgeflag_none</a>)</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    {</div>
@@ -439,6 +439,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../dd/d70/pathlib_8qh.html#a8820fd2ba32c562994a337482dbedd68">pathlib_open_cnt</a>;</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;}</div>
+<div class="ttc" id="utility_8qc_html_af9eb582898cab4e22bace1c7afba0f66"><div class="ttname"><a href="../../dd/d1e/utility_8qc.html#af9eb582898cab4e22bace1c7afba0f66">tile_check_plus2</a></div><div class="ttdeci">float tile_check_plus2(entity this, vector where)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d1e/utility_8qc_source.html#l00144">utility.qc:144</a></div></div>
 <div class="ttc" id="pathlib_8qh_html_a3aac1a66bd4b1b085210081f4f5bb658"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a3aac1a66bd4b1b085210081f4f5bb658">pathlib_node_edgeflag_backright</a></div><div class="ttdeci">const float pathlib_node_edgeflag_backright</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00038">pathlib.qh:38</a></div></div>
 <div class="ttc" id="pathlib_8qh_html_ac360a3457c62cec062c5180eb5751509"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#ac360a3457c62cec062c5180eb5751509">pathlib_makenode</a></div><div class="ttdeci">var float pathlib_makenode(entity parent, vector start, vector to, vector goal, float cost)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab0df318f2dece7f798ff4061cd67f9d2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a></div><div class="ttdeci">string vtos(vector v)</div></div>
@@ -459,7 +460,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="pathlib_8qh_html_a88e69b1ec54a95c69cfa716fc6bfa8c9"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a88e69b1ec54a95c69cfa716fc6bfa8c9">pathlib_node_edgeflag_right</a></div><div class="ttdeci">const float pathlib_node_edgeflag_right</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00034">pathlib.qh:34</a></div></div>
 <div class="ttc" id="pathlib_8qh_html_a0576e617652793d2f11b3b32549170ca"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a0576e617652793d2f11b3b32549170ca">pathlib_node_edgeflag_forwardright</a></div><div class="ttdeci">const float pathlib_node_edgeflag_forwardright</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00040">pathlib.qh:40</a></div></div>
 <div class="ttc" id="pathlib_8qh_html_a995d8c8367709bbcee8cbb05b12ea857"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a995d8c8367709bbcee8cbb05b12ea857">pathlib_node_edgeflag_unknown</a></div><div class="ttdeci">const float pathlib_node_edgeflag_unknown</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00032">pathlib.qh:32</a></div></div>
-<div class="ttc" id="utility_8qc_html_ad3c58519e4866809f49ab5150a162c7f"><div class="ttname"><a href="../../dd/d1e/utility_8qc.html#ad3c58519e4866809f49ab5150a162c7f">tile_check_plus2</a></div><div class="ttdeci">float tile_check_plus2(vector where)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d1e/utility_8qc_source.html#l00144">utility.qc:144</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -682,7 +682,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_038facabb326e47524555c6946dd7e55.html">pathlib</a></li><li class="navelem"><a class="el" href="../../d1/dc9/expandnode_8qc.html">expandnode.qc</a></li>
-    <li class="footer">Generated on Sat May 21 2016 23:30:53 for Xonotic by
+    <li class="footer">Generated on Sat May 21 2016 23:59:42 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
