@@ -154,7 +154,7 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="keywordflow">while</span> ( <a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(angle)) &lt; 0.17 || <a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(angle)) &lt; 0.17 );</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    ball.velocity_x = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(angle)*autocvar_sv_minigames_pong_ball_speed;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    ball.velocity_y = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(angle)*autocvar_sv_minigames_pong_ball_speed;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    ball.think = pong_ball_think;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(ball, pong_ball_think);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    ball.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    ball.team = 0;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    ball.SendFlags |= <a class="code" href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a>|<a class="code" href="../../d7/de3/pong_8qc.html#a061e2e80b7d00037922865df3a1223b8">PONG_SF_BALLTEAM</a>;</div>
@@ -171,10 +171,10 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;{</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    ball.velocity = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    ball.origin = <span class="stringliteral">&#39;0.5 0.5 0&#39;</span>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    ball.think = <a class="code" href="../../d2/dc2/subs_8qc.html#a71f23084e73cadd35e2cde81fbcecb53">SUB_NullThink</a>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(ball, <a class="code" href="../../d2/dc2/subs_8qc.html#a71f23084e73cadd35e2cde81fbcecb53">SUB_NullThink</a>);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    ball.team = 0;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    ball.SendFlags |= <a class="code" href="../../d6/dbd/minigames_8qh.html#a4ae426c8d7855acc6a41cc24feb795e2">MINIG_SF_UPDATE</a>|<a class="code" href="../../d7/de3/pong_8qc.html#a061e2e80b7d00037922865df3a1223b8">PONG_SF_BALLTEAM</a>;</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    ball.think = pong_ball_throwthink;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(ball, pong_ball_throwthink);</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    ball.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + autocvar_sv_minigames_pong_ball_wait;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
@@ -363,7 +363,7 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> ai = <a class="code" href="../../d3/dbf/minigames_8qc.html#a24e2eea380cf6fceca9ff570a7981200">msle_spawn</a>(paddle.owner,<span class="stringliteral">&quot;pong_ai&quot;</span>);</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    ai.minigame_players = ai;</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    ai.team = paddle.team;</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    ai.think = pong_ai_think;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(ai, pong_ai_think);</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    ai.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    ai.pong_ai_paddle = paddle;</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
@@ -422,7 +422,7 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> paddle = <a class="code" href="../../d3/dbf/minigames_8qc.html#a24e2eea380cf6fceca9ff570a7981200">msle_spawn</a>(minigame,<span class="stringliteral">&quot;pong_paddle&quot;</span>);</div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    paddle.pong_length = autocvar_sv_minigames_pong_paddle_size;</div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    paddle.origin = pong_team_to_paddlepos(pl_team);</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    paddle.think = pong_paddle_think;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(paddle, pong_paddle_think);</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    paddle.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    paddle.team = pl_team;</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    paddle.mins = pong_team_to_box_halfsize(pl_team,-paddle.pong_length,-1/16);</div>
@@ -840,6 +840,7 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div class="ttc" id="pong_8qc_html_ae2a56ee364ec402a021031f4567d1d12"><div class="ttname"><a href="../../d7/de3/pong_8qc.html#ae2a56ee364ec402a021031f4567d1d12">PONG_KEY_DECREASE</a></div><div class="ttdeci">const int PONG_KEY_DECREASE</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de3/pong_8qc_source.html#l00015">pong.qc:15</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a48f386cb348d88d4ae961d010fe8b549"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a></div><div class="ttdeci">vector hud_fontsize</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00073">main.qh:73</a></div></div>
 <div class="ttc" id="pong_8qc_html_a52bb5f83b53bbbdf759739d26ce7f910"><div class="ttname"><a href="../../d7/de3/pong_8qc.html#a52bb5f83b53bbbdf759739d26ce7f910">pong_ai_paddle</a></div><div class="ttdeci">entity pong_ai_paddle</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de3/pong_8qc_source.html#l00024">pong.qc:24</a></div></div>
+<div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="cl__minigames_8qc_html_a3f50d48603ccc5c4949bf5d84b0daa78"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#a3f50d48603ccc5c4949bf5d84b0daa78">minigame_hud_simpleboard</a></div><div class="ttdeci">void minigame_hud_simpleboard(vector pos, vector mySize, string board_texture)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/cl__minigames_8qc_source.html#l00004">cl_minigames.qc:4</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_accccfae161879454243b3a8695a9bf3b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a></div><div class="ttdeci">float fabs(float f)</div></div>
 <div class="ttc" id="progsdefs_8qc_html_afa8adf762827679f2bfa706be7144fe2"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a></div><div class="ttdeci">string target</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00193">progsdefs.qc:193</a></div></div>
@@ -862,7 +863,7 @@ $(document).ready(function(){initNavTree('d7/de3/pong_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../dir_f3c5fe65fc7d6f300d22d67107da5495.html">minigame</a></li><li class="navelem"><a class="el" href="../../d7/de3/pong_8qc.html">pong.qc</a></li>
-    <li class="footer">Generated on Sun May 22 2016 12:33:28 for Xonotic by
+    <li class="footer">Generated on Mon May 23 2016 11:47:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

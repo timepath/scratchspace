@@ -209,7 +209,7 @@ $(document).ready(function(){initNavTree('d6/d02/raptor_8qc_source.html','../../
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">if</span>(hgt &lt; 16)</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    {</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keyword">self</span>.movetype = <a class="code" href="../../d6/d11/progsdefs_8qc.html#ad57b224e8fae8cd012cd3a12cd4bb371">MOVETYPE_TOSS</a>;</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <span class="keyword">self</span>.think  = <a class="code" href="../../da/d10/sv__vehicles_8qc.html#a128b43c0885178158e3386e6b14686a4">vehicles_think</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(<span class="keyword">self</span>, <a class="code" href="../../da/d10/sv__vehicles_8qc.html#a128b43c0885178158e3386e6b14686a4">vehicles_think</a>);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keyword">self</span>.frame  = 0;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
@@ -225,7 +225,7 @@ $(document).ready(function(){initNavTree('d6/d02/raptor_8qc_source.html','../../
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(<span class="keyword">self</span>))</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    {</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keyword">self</span>.think    = raptor_land;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(<span class="keyword">self</span>, raptor_land);</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keyword">self</span>.nextthink  = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    }</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
@@ -648,7 +648,7 @@ $(document).ready(function(){initNavTree('d6/d02/raptor_8qc_source.html','../../
 <div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;<span class="keywordtype">void</span> raptor_diethink()</div>
 <div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
 <div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= <span class="keyword">self</span>.<a class="code" href="../../db/d2f/subs_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683">wait</a>)</div>
-<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;        <span class="keyword">self</span>.think = raptor_blowup;</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(<span class="keyword">self</span>, raptor_blowup);</div>
 <div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;</div>
 <div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.05)</div>
 <div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;    {</div>
@@ -751,7 +751,7 @@ $(document).ready(function(){initNavTree('d6/d02/raptor_8qc_source.html','../../
 <div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;    instance.takedamage         = <a class="code" href="../../d6/d11/progsdefs_8qc.html#ab48a6b5f493fae9734e3eaf646ec2999">DAMAGE_NO</a>;</div>
 <div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;    instance.deadflag           = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a146bab87de0e719cb3fb75232473068e">DEAD_DYING</a>;</div>
 <div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;    instance.movetype           = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>;</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;    instance.think              = raptor_diethink;</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(instance, raptor_diethink);</div>
 <div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;    instance.nextthink          = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;    instance.wait               = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 5 + (<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 5);</div>
 <div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;</div>
@@ -831,7 +831,7 @@ $(document).ready(function(){initNavTree('d6/d02/raptor_8qc_source.html','../../
 <div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;        <span class="keyword">self</span>.bomb1.gun2 = spinner;</div>
 <div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;</div>
 <div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;        <span class="comment">// Sigh.</span></div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;        <span class="keyword">self</span>.bomb1.think = raptor_rotor_anglefix;</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(<span class="keyword">self</span>.bomb1, raptor_rotor_anglefix);</div>
 <div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;        <span class="keyword">self</span>.bomb1.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;</div>
 <div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;        <span class="keyword">self</span>.mass              = 1 ;</div>
@@ -1023,7 +1023,7 @@ $(document).ready(function(){initNavTree('d6/d02/raptor_8qc_source.html','../../
 <div class="ttc" id="client_2autocvars_8qh_html_a12904d1363337be18b36dd273e642cf6"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a12904d1363337be18b36dd273e642cf6">autocvar_hud_progressbar_vehicles_ammo2_color</a></div><div class="ttdeci">vector autocvar_hud_progressbar_vehicles_ammo2_color</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00350">autocvars.qh:350</a></div></div>
 <div class="ttc" id="sv__vehicles_8qc_html_a092be05e296a14ac0cb1e22b3e0786d8"><div class="ttname"><a href="../../da/d10/sv__vehicles_8qc.html#a092be05e296a14ac0cb1e22b3e0786d8">vehicles_impact</a></div><div class="ttdeci">void vehicles_impact(entity this, float _minspeed, float _speedfac, float _maxpain)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/sv__vehicles_8qc_source.html#l00735">sv_vehicles.qc:735</a></div></div>
 <div class="ttc" id="player__skeleton_8qc_html_a5730a5d99021203efb546d3b48f7b293"><div class="ttname"><a href="../../d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293">v_angle</a></div><div class="ttdeci">vector v_angle</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dab/player__skeleton_8qc_source.html#l00007">player_skeleton.qc:7</a></div></div>
-<div class="ttc" id="self_8qh_html_acdb080d09ffac3f62f9bed677729d802"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#acdb080d09ffac3f62f9bed677729d802">settouch</a></div><div class="ttdeci">#define settouch(e, f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00068">self.qh:68</a></div></div>
+<div class="ttc" id="self_8qh_html_acdb080d09ffac3f62f9bed677729d802"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#acdb080d09ffac3f62f9bed677729d802">settouch</a></div><div class="ttdeci">#define settouch(e, f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00069">self.qh:69</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a822ea10e75a853993f2fa21149d76f4c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a></div><div class="ttdeci">vector vectoangles(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a465bbb3367ce5d2f9b2a44b199cea7ce"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a465bbb3367ce5d2f9b2a44b199cea7ce">DRAWFLAG_ADDITIVE</a></div><div class="ttdeci">const float DRAWFLAG_ADDITIVE</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00318">csprogsdefs.qc:318</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
@@ -1083,6 +1083,7 @@ $(document).ready(function(){initNavTree('d6/d02/raptor_8qc_source.html','../../
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 <div class="ttc" id="subs_8qh_html_a9b33712b5a37138e7c60e621a1182713"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a9b33712b5a37138e7c60e621a1182713">pos1</a></div><div class="ttdeci">vector pos1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00063">subs.qh:63</a></div></div>
 <div class="ttc" id="sv__vehicles_8qc_html_a440e0c7e21dfd54cfe53432d3d887f0e"><div class="ttname"><a href="../../da/d10/sv__vehicles_8qc.html#a440e0c7e21dfd54cfe53432d3d887f0e">vehicles_findgoodexit</a></div><div class="ttdeci">vector vehicles_findgoodexit(vector prefer_spot)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/sv__vehicles_8qc_source.html#l00758">sv_vehicles.qc:758</a></div></div>
+<div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="sv__vehicles_8qc_html_a65279814c8a6144755ab92a4f3ba98ba"><div class="ttname"><a href="../../da/d10/sv__vehicles_8qc.html#a65279814c8a6144755ab92a4f3ba98ba">UpdateAuxiliaryXhair</a></div><div class="ttdeci">void UpdateAuxiliaryXhair(entity own, vector loc, vector clr, int axh_id)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/sv__vehicles_8qc_source.html#l00058">sv_vehicles.qc:58</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aa1f190a348c0675e2f35688de429bef6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a></div><div class="ttdeci">vector angles</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00104">csprogsdefs.qc:104</a></div></div>
 <div class="ttc" id="raptor__weapons_8qh_html_ad6ef8b0b1214e89ffbf3f5923a9406a8"><div class="ttname"><a href="../../d7/d75/raptor__weapons_8qh.html#ad6ef8b0b1214e89ffbf3f5923a9406a8">autocvar_g_vehicle_raptor_flare_range</a></div><div class="ttdeci">float autocvar_g_vehicle_raptor_flare_range</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d75/raptor__weapons_8qh_source.html#l00053">raptor_weapons.qh:53</a></div></div>
@@ -1117,7 +1118,7 @@ $(document).ready(function(){initNavTree('d6/d02/raptor_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_041ec6f984a6b19402431933346033dd.html">vehicles</a></li><li class="navelem"><a class="el" href="../../dir_2f36f6133f1168f9d06ade8b0e9af156.html">vehicle</a></li><li class="navelem"><a class="el" href="../../d6/d02/raptor_8qc.html">raptor.qc</a></li>
-    <li class="footer">Generated on Sun May 22 2016 12:33:29 for Xonotic by
+    <li class="footer">Generated on Mon May 23 2016 11:47:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

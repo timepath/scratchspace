@@ -784,7 +784,7 @@ $(document).ready(function(){initNavTree('d1/d6a/lib_2warpzone_2common_8qc_sourc
 <div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;    {</div>
 <div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;        me.WarpZone_refsys = <span class="keyword">new</span>(warpzone_refsys);</div>
 <div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;        me.WarpZone_refsys.owner = me;</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;        me.WarpZone_refsys.think = <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#aa66dac1d6b90a32b067d4f828f6e3307">WarpZone_RefSys_GC</a>;</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(me.WarpZone_refsys, <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#aa66dac1d6b90a32b067d4f828f6e3307">WarpZone_RefSys_GC</a>);</div>
 <div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;        me.WarpZone_refsys.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 1;</div>
 <div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;        <a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1ffbdf285707f8412653ec2a099b8a02">WarpZone_Accumulator_Clear</a>(me.WarpZone_refsys);</div>
 <div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    }</div>
@@ -1073,6 +1073,7 @@ $(document).ready(function(){initNavTree('d1/d6a/lib_2warpzone_2common_8qc_sourc
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 <div class="ttc" id="compiler_8qh_html_a608af1727395e4e27a72df6c6799c215"><div class="ttname"><a href="../../d6/d63/compiler_8qh.html#a608af1727395e4e27a72df6c6799c215">LABEL</a></div><div class="ttdeci">#define LABEL(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d63/compiler_8qh_source.html#l00018">compiler.qh:18</a></div></div>
 <div class="ttc" id="oo_8qh_html_a877e0a39ad14492c2c20bcda5b20abe9"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a></div><div class="ttdeci">#define new_pure(class)</div><div class="ttdoc">purely logical entities (.origin doesn&#39;t work) </div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00078">oo.qh:78</a></div></div>
+<div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a08613252f53cbee3c097c6b8ed5d4f24"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a08613252f53cbee3c097c6b8ed5d4f24">WarpZone_UnTransformVelocity</a></div><div class="ttdeci">vector WarpZone_UnTransformVelocity(entity wz, vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00539">common.qc:539</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9709fd6a18e9d6bafb5a0e9d8ba42c9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a></div><div class="ttdeci">float trace_startsolid</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00035">csprogsdefs.qc:35</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_ac221a6dceaae4b279cb0bcf10a95fef7"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#ac221a6dceaae4b279cb0bcf10a95fef7">WarpZoneLib_MoveOutOfSolid</a></div><div class="ttdeci">float WarpZoneLib_MoveOutOfSolid(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00809">common.qc:809</a></div></div>
@@ -1102,7 +1103,7 @@ $(document).ready(function(){initNavTree('d1/d6a/lib_2warpzone_2common_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_58d953ef34ccfc4a49203206a34466c3.html">warpzone</a></li><li class="navelem"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html">common.qc</a></li>
-    <li class="footer">Generated on Sun May 22 2016 12:33:29 for Xonotic by
+    <li class="footer">Generated on Mon May 23 2016 11:47:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

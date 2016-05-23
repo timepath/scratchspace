@@ -1,5 +1,6 @@
 var NAVTREEINDEX40 =
 {
+"d4/de8/classRacerAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,87,3],
 "d4/de8/classRacerAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,87,8],
 "d4/de8/classRacerAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,87,34],
 "d4/de8/classRacerAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,87,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX40 =
 "d5/d1b/modicons_8qh_source.html":[2,0,0,1,0,17],
 "d5/d1f/gamemode__invasion_8qc.html":[2,0,5,2,0,16],
 "d5/d1f/gamemode__invasion_8qc.html#a1696c31cdbb3e088d0e4cea7f69b0b5d":[2,0,5,2,0,16,11],
-"d5/d1f/gamemode__invasion_8qc.html#a1da95251eb07c840640be54b71e94ecb":[2,0,5,2,0,16,6],
-"d5/d1f/gamemode__invasion_8qc.html#a25529cc1c6aba9e850432cf8d26a5e93":[2,0,5,2,0,16,2]
+"d5/d1f/gamemode__invasion_8qc.html#a1da95251eb07c840640be54b71e94ecb":[2,0,5,2,0,16,6]
 };

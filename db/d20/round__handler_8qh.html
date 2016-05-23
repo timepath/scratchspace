@@ -470,7 +470,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00087">87</a> of file <a class="el" href="../../db/dfc/round__handler_8qc_source.html">round_handler.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00102">backtrace</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">nextthink</a>, <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00003">round_handler</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00079">round_handler_FirstThink()</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00068">round_handler_Init()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../db/d2f/subs_8qh_source.html#l00052">wait</a>.</p>
+<p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00102">backtrace</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">nextthink</a>, <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00003">round_handler</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00079">round_handler_FirstThink()</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00068">round_handler_Init()</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../db/d2f/subs_8qh_source.html#l00052">wait</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00026">REGISTER_MUTATOR()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;{</div>
@@ -481,7 +481,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span> = <a class="code" href="../../db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9">round_handler</a> = <span class="keyword">new</span>(<a class="code" href="../../db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9">round_handler</a>);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    this.think = <a class="code" href="../../db/dfc/round__handler_8qc.html#af0215dccb342577bd14dfd79751e34d4">round_handler_FirstThink</a>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(<span class="keyword">this</span>, <a class="code" href="../../db/dfc/round__handler_8qc.html#af0215dccb342577bd14dfd79751e34d4">round_handler_FirstThink</a>);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    this.canRoundStart = canRoundStart_func;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    this.canRoundEnd = canRoundEnd_func;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    this.roundStart = roundStart_func;</div>
@@ -495,6 +495,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="subs_8qh_html_ae6ce7348eeca30f09a3ea4aca0a44683"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683">wait</a></div><div class="ttdeci">float wait</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00052">subs.qh:52</a></div></div>
 <div class="ttc" id="log_8qh_html_a798c5f291cac3c0fbcdb2c78ba44b5ab"><div class="ttname"><a href="../../db/da0/log_8qh.html#a798c5f291cac3c0fbcdb2c78ba44b5ab">backtrace</a></div><div class="ttdeci">#define backtrace(msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00102">log.qh:102</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9d4fb8ccfb13fa0bd762af0b2b50dcf6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a></div><div class="ttdeci">float nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">csprogsdefs.qc:121</a></div></div>
+<div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="round__handler_8qc_html_a35bf06efb917c323c9e026476ca62978"><div class="ttname"><a href="../../db/dfc/round__handler_8qc.html#a35bf06efb917c323c9e026476ca62978">round_handler_Init</a></div><div class="ttdeci">void round_handler_Init(float the_delay, float the_count, float the_round_timelimit)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dfc/round__handler_8qc_source.html#l00068">round_handler.qc:68</a></div></div>
 </div><!-- fragment -->
@@ -646,7 +647,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/d20/round__handler_8qh.html">round_handler.qh</a></li>
-    <li class="footer">Generated on Sun May 22 2016 12:33:42 for Xonotic by
+    <li class="footer">Generated on Mon May 23 2016 11:48:00 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

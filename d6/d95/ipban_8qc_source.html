@@ -426,7 +426,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    }</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <span class="keyword">new</span>(bansyncer);</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    e.think = <a class="code" href="../../d6/d95/ipban_8qc.html#a715cb8c210761bb0440cf1b407412296">OnlineBanList_Think</a>;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(e, <a class="code" href="../../d6/d95/ipban_8qc.html#a715cb8c210761bb0440cf1b407412296">OnlineBanList_Think</a>);</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    e.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 1;</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;}</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
@@ -778,6 +778,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="ttc" id="ipban_8qc_html_a8e08ee132dee2a6db0915edfdbf0d9ff"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#a8e08ee132dee2a6db0915edfdbf0d9ff">MAX_IPBAN_URIS</a></div><div class="ttdeci">#define MAX_IPBAN_URIS</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00030">ipban.qc:30</a></div></div>
 <div class="ttc" id="ipban_8qc_html_affc9ae77186a86d812c98295cfbbd1da"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#affc9ae77186a86d812c98295cfbbd1da">BAN_MAX</a></div><div class="ttdeci">const float BAN_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00249">ipban.qc:249</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a036d5b4370d0fb8d5f34a23e2612ccce"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a036d5b4370d0fb8d5f34a23e2612ccce">autocvar_g_ban_sync_trusted_servers</a></div><div class="ttdeci">string autocvar_g_ban_sync_trusted_servers</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00151">autocvars.qh:151</a></div></div>
+<div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="ipban_8qc_html_a0cc14f1baeb0997f35d7d929b2836628"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#a0cc14f1baeb0997f35d7d929b2836628">ban_checked</a></div><div class="ttdeci">bool ban_checked</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00461">ipban.qc:461</a></div></div>
 <div class="ttc" id="ipban_8qc_html_a4f942705c5a8a0feb9883049b88df044"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#a4f942705c5a8a0feb9883049b88df044">ban_ip2</a></div><div class="ttdeci">string ban_ip2</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00256">ipban.qc:256</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html">autocvars.qh</a></div></div>
@@ -795,7 +796,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d6/d95/ipban_8qc.html">ipban.qc</a></li>
-    <li class="footer">Generated on Sun May 22 2016 12:33:30 for Xonotic by
+    <li class="footer">Generated on Mon May 23 2016 11:47:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

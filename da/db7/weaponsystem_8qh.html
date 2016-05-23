@@ -186,7 +186,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00163">163</a> of file <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html">weaponsystem.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00110">CL_ExteriorWeaponentity_Think()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00043">CL_Weaponentity_CustomizeEntityForClient()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00065">CL_Weaponentity_Think()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../de/d81/common_2weapons_2all_8qh_source.html#l00326">exteriorweaponentity</a>, <a class="el" href="../../d7/d1d/model_8qh_source.html#l00004">setmodel</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00126">SOLID_NOT</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00011">weaponentities</a>.</p>
+<p>References <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00110">CL_ExteriorWeaponentity_Think()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00043">CL_Weaponentity_CustomizeEntityForClient()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00065">CL_Weaponentity_Think()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../de/d81/common_2weapons_2all_8qh_source.html#l00326">exteriorweaponentity</a>, <a class="el" href="../../d7/d1d/model_8qh_source.html#l00004">setmodel</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00126">SOLID_NOT</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00011">weaponentities</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00444">PutClientInServer()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;{</div>
@@ -196,7 +196,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <a class="code" href="../../d7/d1d/model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(view, MDL_Null);  <span class="comment">// precision set when changed</span></div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    setorigin(view, <span class="stringliteral">&#39;0 0 0&#39;</span>);</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    view.weaponentity_fld = weaponentity;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    view.think = <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a551cc3e1b433769d803fe4d2f6607d3b">CL_Weaponentity_Think</a>;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(view, <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a551cc3e1b433769d803fe4d2f6607d3b">CL_Weaponentity_Think</a>);</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    view.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    view.viewmodelforclient = actor;</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    view.customizeentityforclient = <a class="code" href="../../d5/de0/weaponsystem_8qc.html#af4e867150b0bf7355395f15dafb6a70d">CL_Weaponentity_CustomizeEntityForClient</a>;</div>
@@ -207,7 +207,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        exterior.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>;</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        exterior.owner = actor;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        setorigin(exterior, <span class="stringliteral">&#39;0 0 0&#39;</span>);</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        exterior.think = <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a63ea98ab1e5f7fe7d28394e01365aedc">CL_ExteriorWeaponentity_Think</a>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(exterior, <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a63ea98ab1e5f7fe7d28394e01365aedc">CL_ExteriorWeaponentity_Think</a>);</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        exterior.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        CSQCMODEL_AUTOINIT(exterior);</div>
@@ -220,6 +220,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="weaponsystem_8qc_html_a63ea98ab1e5f7fe7d28394e01365aedc"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a63ea98ab1e5f7fe7d28394e01365aedc">CL_ExteriorWeaponentity_Think</a></div><div class="ttdeci">void CL_ExteriorWeaponentity_Think()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00110">weaponsystem.qc:110</a></div></div>
 <div class="ttc" id="common_2weapons_2all_8qh_html_ac967d1c85168c751a9a718d36ffb4a20"><div class="ttname"><a href="../../de/d81/common_2weapons_2all_8qh.html#ac967d1c85168c751a9a718d36ffb4a20">exteriorweaponentity</a></div><div class="ttdeci">entity exteriorweaponentity</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d81/common_2weapons_2all_8qh_source.html#l00326">all.qh:326</a></div></div>
 <div class="ttc" id="model_8qh_html_afcd7089918b04edc6747ce58850b51ae"><div class="ttname"><a href="../../d7/d1d/model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a></div><div class="ttdeci">#define setmodel(e, m)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d1d/model_8qh_source.html#l00004">model.qh:4</a></div></div>
+<div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="weaponsystem_8qc_html_af4e867150b0bf7355395f15dafb6a70d"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#af4e867150b0bf7355395f15dafb6a70d">CL_Weaponentity_CustomizeEntityForClient</a></div><div class="ttdeci">bool CL_Weaponentity_CustomizeEntityForClient()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00043">weaponsystem.qc:43</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
@@ -1446,7 +1447,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../da/db7/weaponsystem_8qh.html">weaponsystem.qh</a></li>
-    <li class="footer">Generated on Sun May 22 2016 12:33:43 for Xonotic by
+    <li class="footer">Generated on Mon May 23 2016 11:48:00 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

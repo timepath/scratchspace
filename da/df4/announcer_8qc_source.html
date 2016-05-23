@@ -202,7 +202,7 @@ $(document).ready(function(){initNavTree('da/df4/announcer_8qc_source.html','../
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            <span class="keywordflow">if</span> (!<a class="code" href="../../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a">announcer_countdown</a>)</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;            {</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                <a class="code" href="../../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a">announcer_countdown</a> = <span class="keyword">new</span>(<a class="code" href="../../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a">announcer_countdown</a>);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                <a class="code" href="../../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a">announcer_countdown</a>.think = <a class="code" href="../../da/df4/announcer_8qc.html#a0e97f430de68d1ece828f58a7570a460">Announcer_Countdown</a>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;                <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(<a class="code" href="../../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a">announcer_countdown</a>, <a class="code" href="../../da/df4/announcer_8qc.html#a0e97f430de68d1ece828f58a7570a460">Announcer_Countdown</a>);</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;            }</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 5.0 &lt; startTime) <span class="comment">// if connecting to server while restart was active don&#39;t always play prepareforbattle</span></div>
@@ -283,6 +283,7 @@ $(document).ready(function(){initNavTree('da/df4/announcer_8qc_source.html','../
 <div class="ttc" id="announcer_8qc_html_a74359ed785035246489934d025ae3278"><div class="ttname"><a href="../../da/df4/announcer_8qc.html#a74359ed785035246489934d025ae3278">AnnouncerOption</a></div><div class="ttdeci">string AnnouncerOption()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/df4/announcer_8qc_source.html#l00010">announcer.qc:10</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a91b14ebc696209ca8fe1fbaedc9f09de"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a></div><div class="ttdeci">string ret_string</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00007">events.qh:7</a></div></div>
 <div class="ttc" id="announcer_8qh_html"><div class="ttname"><a href="../../df/d71/announcer_8qh.html">announcer.qh</a></div></div>
+<div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="centerprint_8qc_html_abc0e0c0ccaa1f1bdffc809ea2f74e0f5"><div class="ttname"><a href="../../d4/dbb/centerprint_8qc.html#abc0e0c0ccaa1f1bdffc809ea2f74e0f5">centerprint_kill</a></div><div class="ttdeci">void centerprint_kill(int id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbb/centerprint_8qc_source.html#l00095">centerprint.qc:95</a></div></div>
@@ -293,7 +294,7 @@ $(document).ready(function(){initNavTree('da/df4/announcer_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../da/df4/announcer_8qc.html">announcer.qc</a></li>
-    <li class="footer">Generated on Sun May 22 2016 12:33:26 for Xonotic by
+    <li class="footer">Generated on Mon May 23 2016 11:47:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

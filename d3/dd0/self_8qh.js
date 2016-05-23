@@ -2,6 +2,7 @@ var self_8qh =
 [
     [ "_SELFWRAP_GET", "d3/dd0/self_8qh.html#a29c098c7bd67a60d2dd9d94db782aaa6", null ],
     [ "_SELFWRAP_SET", "d3/dd0/self_8qh.html#aeb65df370cf4a41121aec1c4105bf606", null ],
+    [ "getthink", "d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e", null ],
     [ "gettouch", "d3/dd0/self_8qh.html#a3d349fc3f585de2f6459e525150b0010", null ],
     [ "self", "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d", null ],
     [ "self", "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d", null ],

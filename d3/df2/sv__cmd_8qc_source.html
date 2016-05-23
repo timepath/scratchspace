@@ -157,7 +157,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    }</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    {</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="keyword">self</span>.think = <a class="code" href="../../d3/df2/sv__cmd_8qc.html#a17ace92462a5ddeddcc1a63a09f4082a">make_mapinfo_Think</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(<span class="keyword">self</span>, <a class="code" href="../../d3/df2/sv__cmd_8qc.html#a17ace92462a5ddeddcc1a63a09f4082a">make_mapinfo_Think</a>);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="keyword">self</span>.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    }</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
@@ -1076,7 +1076,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> tmp_entity;</div>
 <div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;</div>
 <div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;            tmp_entity = <span class="keyword">new</span>(make_mapinfo);</div>
-<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;            tmp_entity.think = <a class="code" href="../../d3/df2/sv__cmd_8qc.html#a17ace92462a5ddeddcc1a63a09f4082a">make_mapinfo_Think</a>;</div>
+<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(tmp_entity, <a class="code" href="../../d3/df2/sv__cmd_8qc.html#a17ace92462a5ddeddcc1a63a09f4082a">make_mapinfo_Think</a>);</div>
 <div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;            tmp_entity.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;            <a class="code" href="../../d3/d46/mapinfo_8qc.html#ad6343c7175493d21e11d2ce824dc700c">MapInfo_Enumerate</a>();</div>
 <div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;            <span class="keywordflow">return</span>;</div>
@@ -2165,6 +2165,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="ttc" id="banning_8qc_html_a2e1590577ece2a8d0b64ca0b13da71aa"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a2e1590577ece2a8d0b64ca0b13da71aa">BanCommand_macro_help</a></div><div class="ttdeci">void BanCommand_macro_help()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00275">banning.qc:275</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 <div class="ttc" id="server_2command_2common_8qc_html_a227052057c08e1288dd13a4e7bfc5508"><div class="ttname"><a href="../../de/d55/server_2command_2common_8qc.html#a227052057c08e1288dd13a4e7bfc5508">GetIndexedEntity</a></div><div class="ttdeci">entity GetIndexedEntity(float argc, float start_index)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d55/server_2command_2common_8qc_source.html#l00075">common.qc:75</a></div></div>
+<div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="scripting_8qc_html_a2f222797ee7dab68cca379d99ac983c8"><div class="ttname"><a href="../../d6/d27/scripting_8qc.html#a2f222797ee7dab68cca379d99ac983c8">find_bot_by_name</a></div><div class="ttdeci">entity find_bot_by_name(string name)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d27/scripting_8qc_source.html#l00229">scripting.qc:229</a></div></div>
 <div class="ttc" id="sv__cmd_8qc_html_a898c7938e088e2f0bb8520438442c276"><div class="ttname"><a href="../../d3/df2/sv__cmd_8qc.html#a898c7938e088e2f0bb8520438442c276">GameCommand_defer_clear</a></div><div class="ttdeci">void GameCommand_defer_clear(float request, float argc)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/df2/sv__cmd_8qc_source.html#l00509">sv_cmd.qc:509</a></div></div>
 <div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00017">teams.qh:17</a></div></div>
@@ -2214,7 +2215,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d3/df2/sv__cmd_8qc.html">sv_cmd.qc</a></li>
-    <li class="footer">Generated on Sun May 22 2016 12:33:30 for Xonotic by
+    <li class="footer">Generated on Mon May 23 2016 11:47:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

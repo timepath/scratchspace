@@ -286,7 +286,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/dfb/radarmap_8qc_source.html#l00370">370</a> of file <a class="el" href="../../d9/dfb/radarmap_8qc_source.html">radarmap.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00060">LOG_INFO</a>, <a class="el" href="../../d9/dfb/radarmap_8qc_source.html#l00213">RadarMap_Think()</a>, <a class="el" href="../../d4/d3c/radarmap_8qh_source.html#l00007">radarmapper</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00060">LOG_INFO</a>, <a class="el" href="../../d9/dfb/radarmap_8qc_source.html#l00213">RadarMap_Think()</a>, <a class="el" href="../../d4/d3c/radarmap_8qh_source.html#l00007">radarmapper</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01255">GameCommand_radarmap()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;{</div>
@@ -295,7 +295,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>)</div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    {</div>
 <div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        <a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a> = <span class="keyword">new</span>(<a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>);</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        <a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>.think = <a class="code" href="../../d9/dfb/radarmap_8qc.html#aba935ff5ae28f80ecf64fd7843a54326">RadarMap_Think</a>;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(<a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>, <a class="code" href="../../d9/dfb/radarmap_8qc.html#aba935ff5ae28f80ecf64fd7843a54326">RadarMap_Think</a>);</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        <a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>.count = 8;  <span class="comment">// default to the --trace method, as it is faster now</span></div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        <a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>.ltime = 1;</div>
@@ -381,6 +381,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="radarmap_8qh_html_af70656a1bf350ce9fac673773ba9126c"><div class="ttname"><a href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a></div><div class="ttdeci">entity radarmapper</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/radarmap_8qh_source.html#l00007">radarmap.qh:7</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00060">log.qh:60</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
+<div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="radarmap_8qc_html_aba935ff5ae28f80ecf64fd7843a54326"><div class="ttname"><a href="../../d9/dfb/radarmap_8qc.html#aba935ff5ae28f80ecf64fd7843a54326">RadarMap_Think</a></div><div class="ttdeci">void RadarMap_Think()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dfb/radarmap_8qc_source.html#l00213">radarmap.qc:213</a></div></div>
 </div><!-- fragment -->
@@ -1400,7 +1401,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d9/dfb/radarmap_8qc.html">radarmap.qc</a></li>
-    <li class="footer">Generated on Sun May 22 2016 12:33:41 for Xonotic by
+    <li class="footer">Generated on Mon May 23 2016 11:47:58 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

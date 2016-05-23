@@ -275,7 +275,7 @@ $(document).ready(function(){initNavTree('d5/de0/weaponsystem_8qc_source.html','
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    <a class="code" href="../../d7/d1d/model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(view, MDL_Null);  <span class="comment">// precision set when changed</span></div>
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;    setorigin(view, <span class="stringliteral">&#39;0 0 0&#39;</span>);</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;    view.weaponentity_fld = weaponentity;</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    view.think = <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a551cc3e1b433769d803fe4d2f6607d3b">CL_Weaponentity_Think</a>;</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(view, <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a551cc3e1b433769d803fe4d2f6607d3b">CL_Weaponentity_Think</a>);</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    view.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    view.viewmodelforclient = actor;</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    view.customizeentityforclient = <a class="code" href="../../d5/de0/weaponsystem_8qc.html#af4e867150b0bf7355395f15dafb6a70d">CL_Weaponentity_CustomizeEntityForClient</a>;</div>
@@ -286,7 +286,7 @@ $(document).ready(function(){initNavTree('d5/de0/weaponsystem_8qc_source.html','
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        exterior.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>;</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        exterior.owner = actor;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        setorigin(exterior, <span class="stringliteral">&#39;0 0 0&#39;</span>);</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        exterior.think = <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a63ea98ab1e5f7fe7d28394e01365aedc">CL_ExteriorWeaponentity_Think</a>;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(exterior, <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a63ea98ab1e5f7fe7d28394e01365aedc">CL_ExteriorWeaponentity_Think</a>);</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        exterior.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        CSQCMODEL_AUTOINIT(exterior);</div>
@@ -1015,6 +1015,7 @@ $(document).ready(function(){initNavTree('d5/de0/weaponsystem_8qc_source.html','
 <div class="ttc" id="anim_8qh_html_ad7dbdcadf9186d41f82055ffdd9f7534"><div class="ttname"><a href="../../d3/de0/anim_8qh.html#ad7dbdcadf9186d41f82055ffdd9f7534">frame</a></div><div class="ttdeci">float frame</div><div class="ttdoc">primary framegroup animation (strength = 1 - lerpfrac - lerpfrac3 - lerpfrac4) </div><div class="ttdef"><b>Definition:</b> <a href="../../d3/de0/anim_8qh_source.html#l00007">anim.qh:7</a></div></div>
 <div class="ttc" id="weaponsystem_8qc_html_a6e2db8091b94c8cb9fa32263996e15b8"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a6e2db8091b94c8cb9fa32263996e15b8">w_clear</a></div><div class="ttdeci">void w_clear(Weapon thiswep, entity actor,.entity weaponentity, int fire)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00190">weaponsystem.qc:190</a></div></div>
 <div class="ttc" id="classWeapon_html_a768d3992198c4b743dbab2cff9529e99"><div class="ttname"><a href="../../dc/de5/classWeapon.html#a768d3992198c4b743dbab2cff9529e99">Weapon::ammo_field</a></div><div class="ttdeci">int ammo_field</div><div class="ttdoc">M: ammotype : main ammo field. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00061">weapon.qh:61</a></div></div>
+<div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="common_2weapons_2all_8qh_html_acbf080b5d3af134c9a0175e8b5b77a6d"><div class="ttname"><a href="../../de/d81/common_2weapons_2all_8qh.html#acbf080b5d3af134c9a0175e8b5b77a6d">anim_fire1</a></div><div class="ttdeci">vector anim_fire1</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d81/common_2weapons_2all_8qh_source.html#l00340">all.qh:340</a></div></div>
 <div class="ttc" id="common_2weapons_2all_8qh_html_a2b8f84208d7a179c892ea8e249554f55"><div class="ttname"><a href="../../de/d81/common_2weapons_2all_8qh.html#a2b8f84208d7a179c892ea8e249554f55">weaponentity_glowmod</a></div><div class="ttdeci">vector weaponentity_glowmod(Weapon wep, int c)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d81/common_2weapons_2all_8qh_source.html#l00327">all.qh:327</a></div></div>
 <div class="ttc" id="csqcmodel__hooks_8qc_html_ad8f4702189f9e9e0bde8bfc1804dc17e"><div class="ttname"><a href="../../dc/d3d/csqcmodel__hooks_8qc.html#ad8f4702189f9e9e0bde8bfc1804dc17e">tag_index</a></div><div class="ttdeci">int tag_index</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00388">csqcmodel_hooks.qc:388</a></div></div>
@@ -1058,7 +1059,7 @@ $(document).ready(function(){initNavTree('d5/de0/weaponsystem_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d5/de0/weaponsystem_8qc.html">weaponsystem.qc</a></li>
-    <li class="footer">Generated on Sun May 22 2016 12:33:31 for Xonotic by
+    <li class="footer">Generated on Mon May 23 2016 11:47:49 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
