@@ -7,7 +7,6 @@ var server_2miscfunctions_8qh =
     [ "ITEM_TOUCH_NEEDKILL", "dc/d73/server_2miscfunctions_8qh.html#a277f5e186f80cd980204cb7d55042890", null ],
     [ "PROJECTILE_TOUCH", "dc/d73/server_2miscfunctions_8qh.html#a930758375dc25ae10f8ac0c2fef1bc2c", null ],
     [ "WARMUP_START_WEAPONS", "dc/d73/server_2miscfunctions_8qh.html#a29c235bed1ff0287066a442759cbfe3a", null ],
-    [ "adaptor_think2use", "dc/d73/server_2miscfunctions_8qh.html#ad716ff091b01df5d9aa67eaa4919bdaa", null ],
     [ "admin_name", "dc/d73/server_2miscfunctions_8qh.html#a4e69debd65c39578e6ce4356e7354839", null ],
     [ "attach_sameorigin", "dc/d73/server_2miscfunctions_8qh.html#ac300f1843627f4956ab0088d6bff8b7e", null ],
     [ "crosshair_trace", "dc/d73/server_2miscfunctions_8qh.html#a8292725ec840a49d42ef6453aaf838f6", null ],

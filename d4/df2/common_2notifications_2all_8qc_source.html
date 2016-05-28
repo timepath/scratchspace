@@ -1583,298 +1583,297 @@ $(document).ready(function(){initNavTree('d4/df2/common_2notifications_2all_8qc_
 <div class="line"><a name="l01478"></a><span class="lineno"> 1478</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l01479"></a><span class="lineno"> 1479</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l01480"></a><span class="lineno"> 1480</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> Net_Notification_Remove()</div>
+<div class="line"><a name="l01481"></a><span class="lineno"> 1481</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> Net_Notification_Remove(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
 <div class="line"><a name="l01482"></a><span class="lineno"> 1482</span>&#160;{</div>
-<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l01484"></a><span class="lineno"> 1484</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
-<div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;<span class="preprocessor"></span>    Debug_Notification(sprintf(</div>
-<div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;        <span class="stringliteral">&quot;Net_Notification_Remove() at %f: %s &#39;%s - %s&#39; notification\n&quot;</span>,</div>
-<div class="line"><a name="l01487"></a><span class="lineno"> 1487</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>,</div>
-<div class="line"><a name="l01488"></a><span class="lineno"> 1488</span>&#160;        ((this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a6ec21cd14e3274606e94ae690c0dda77">nent_net_name</a> == -1) ? <span class="stringliteral">&quot;Killed&quot;</span> : <span class="stringliteral">&quot;Removed&quot;</span>),</div>
-<div class="line"><a name="l01489"></a><span class="lineno"> 1489</span>&#160;        <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#abd0212ef9369005475d3d863cc912702">nent_net_type</a>),</div>
-<div class="line"><a name="l01490"></a><span class="lineno"> 1490</span>&#160;        this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.nent_name</div>
-<div class="line"><a name="l01491"></a><span class="lineno"> 1491</span>&#160;    ));</div>
-<div class="line"><a name="l01492"></a><span class="lineno"> 1492</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l01493"></a><span class="lineno"> 1493</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a2e9c3821a54540fceb7289bc8423a06d">nent_stringcount</a>; ++i) { <span class="keywordflow">if</span> (this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a87810e4b368131287592ae2bae89bcea">nent_strings</a>[i]) <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a87810e4b368131287592ae2bae89bcea">nent_strings</a>[i]); }</div>
-<div class="line"><a name="l01494"></a><span class="lineno"> 1494</span>&#160;    <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l01495"></a><span class="lineno"> 1495</span>&#160;}</div>
-<div class="line"><a name="l01496"></a><span class="lineno"> 1496</span>&#160;</div>
-<div class="line"><a name="l01497"></a><span class="lineno"> 1497</span>&#160;<span class="keywordtype">bool</span> Net_Write_Notification(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client, <span class="keywordtype">int</span> sf)</div>
-<div class="line"><a name="l01498"></a><span class="lineno"> 1498</span>&#160;{</div>
-<div class="line"><a name="l01499"></a><span class="lineno"> 1499</span>&#160;    <span class="keywordflow">if</span> (!Notification_ShouldSend(this.nent_broadcast, client, this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#ac64367f6a44d440ccc4949feea8f6415">nent_client</a>)) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01500"></a><span class="lineno"> 1500</span>&#160;    WriteHeader(MSG_ENTITY, ENT_CLIENT_NOTIFICATION);</div>
-<div class="line"><a name="l01501"></a><span class="lineno"> 1501</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <a class="code" href="../../da/dd5/enumclass_8qh.html#a7339abefe19e4109853567ae9664cf04">ORDINAL</a>(this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#abd0212ef9369005475d3d863cc912702">nent_net_type</a>));</div>
-<div class="line"><a name="l01502"></a><span class="lineno"> 1502</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(MSG_ENTITY, this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a6ec21cd14e3274606e94ae690c0dda77">nent_net_name</a>);</div>
-<div class="line"><a name="l01503"></a><span class="lineno"> 1503</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a2e9c3821a54540fceb7289bc8423a06d">nent_stringcount</a>; ++i) { <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(MSG_ENTITY, this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a87810e4b368131287592ae2bae89bcea">nent_strings</a>[i]); }</div>
-<div class="line"><a name="l01504"></a><span class="lineno"> 1504</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a1e72604628f59772c2b0ca3bb53f76ab">nent_floatcount</a>; ++i) { <a class="code" href="../../d8/de2/menudefs_8qc.html#a439a4e0c5d0e5923bf5aba17eaae0d09">WriteLong</a>(MSG_ENTITY, this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aecc1451803519ab7ae643b6195658055">nent_floats</a>[i]); }</div>
-<div class="line"><a name="l01505"></a><span class="lineno"> 1505</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01506"></a><span class="lineno"> 1506</span>&#160;}</div>
-<div class="line"><a name="l01507"></a><span class="lineno"> 1507</span>&#160;</div>
-<div class="line"><a name="l01508"></a><span class="lineno"> 1508</span>&#160;<span class="keywordtype">void</span> Kill_Notification(</div>
-<div class="line"><a name="l01509"></a><span class="lineno"> 1509</span>&#160;    NOTIF broadcast, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client,</div>
-<div class="line"><a name="l01511"></a><span class="lineno"> 1511</span>&#160;    MSG net_type,</div>
-<div class="line"><a name="l01513"></a><span class="lineno"> 1513</span>&#160;    CPID net_cpid)</div>
-<div class="line"><a name="l01514"></a><span class="lineno"> 1514</span>&#160;{</div>
-<div class="line"><a name="l01515"></a><span class="lineno"> 1515</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
-<div class="line"><a name="l01516"></a><span class="lineno"> 1516</span>&#160;<span class="preprocessor"></span>    Debug_Notification(sprintf(</div>
-<div class="line"><a name="l01517"></a><span class="lineno"> 1517</span>&#160;        <span class="stringliteral">&quot;Kill_Notification(%s, &#39;%s&#39;, %s, %d);\n&quot;</span>,</div>
-<div class="line"><a name="l01518"></a><span class="lineno"> 1518</span>&#160;        Get_Notif_BroadcastName(broadcast),</div>
-<div class="line"><a name="l01519"></a><span class="lineno"> 1519</span>&#160;        client.netname,</div>
-<div class="line"><a name="l01520"></a><span class="lineno"> 1520</span>&#160;        (net_type ? <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(net_type) : <span class="stringliteral">&quot;0&quot;</span>),</div>
-<div class="line"><a name="l01521"></a><span class="lineno"> 1521</span>&#160;        net_cpid</div>
-<div class="line"><a name="l01522"></a><span class="lineno"> 1522</span>&#160;    ));</div>
-<div class="line"><a name="l01523"></a><span class="lineno"> 1523</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l01524"></a><span class="lineno"> 1524</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01525"></a><span class="lineno"> 1525</span>&#160;    <span class="keywordtype">string</span> checkargs = Notification_CheckArgs(broadcast, client);</div>
-<div class="line"><a name="l01526"></a><span class="lineno"> 1526</span>&#160;    <span class="keywordflow">if</span> (checkargs != <span class="stringliteral">&quot;&quot;</span>) { <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;Incorrect usage of Kill_Notification: %s&quot;</span>, checkargs); <span class="keywordflow">return</span>; }</div>
-<div class="line"><a name="l01527"></a><span class="lineno"> 1527</span>&#160;</div>
-<div class="line"><a name="l01528"></a><span class="lineno"> 1528</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> net_notif = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(net_kill_notification);</div>
-<div class="line"><a name="l01529"></a><span class="lineno"> 1529</span>&#160;    net_notif.nent_broadcast = broadcast;</div>
-<div class="line"><a name="l01530"></a><span class="lineno"> 1530</span>&#160;    net_notif.nent_client = client;</div>
-<div class="line"><a name="l01531"></a><span class="lineno"> 1531</span>&#160;    net_notif.nent_net_type = MSG_CENTER_KILL;</div>
-<div class="line"><a name="l01532"></a><span class="lineno"> 1532</span>&#160;    net_notif.nent_net_name = <a class="code" href="../../da/dd5/enumclass_8qh.html#a7339abefe19e4109853567ae9664cf04">ORDINAL</a>(net_cpid);</div>
-<div class="line"><a name="l01533"></a><span class="lineno"> 1533</span>&#160;    Net_LinkEntity(net_notif, <span class="keyword">false</span>, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a6a45ec6d35af6e73ba2429f9f46bb513">autocvar_notification_lifetime_runtime</a>, Net_Write_Notification);</div>
-<div class="line"><a name="l01534"></a><span class="lineno"> 1534</span>&#160;</div>
-<div class="line"><a name="l01535"></a><span class="lineno"> 1535</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#a9f7a7d300e46d88cef3a4cee03d98c01">FOREACH_ENTITY_CLASS</a>(</div>
-<div class="line"><a name="l01536"></a><span class="lineno"> 1536</span>&#160;        <span class="stringliteral">&quot;net_notification&quot;</span>,</div>
-<div class="line"><a name="l01537"></a><span class="lineno"> 1537</span>&#160;        (it.owner.nent_type == net_type || net_type == MSG_Null) &amp;&amp; (it.owner.nent_cpid == net_cpid || net_cpid == <a class="code" href="../../df/d00/common_2notifications_2all_8inc.html#aab9c3a88fd3eb159f019aac642462055">CPID_Null</a>),</div>
-<div class="line"><a name="l01538"></a><span class="lineno"> 1538</span>&#160;        {</div>
-<div class="line"><a name="l01539"></a><span class="lineno"> 1539</span>&#160;            it.nent_net_name = -1;</div>
-<div class="line"><a name="l01540"></a><span class="lineno"> 1540</span>&#160;            it.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l01541"></a><span class="lineno"> 1541</span>&#160;        }</div>
-<div class="line"><a name="l01542"></a><span class="lineno"> 1542</span>&#160;    );</div>
-<div class="line"><a name="l01543"></a><span class="lineno"> 1543</span>&#160;}</div>
-<div class="line"><a name="l01544"></a><span class="lineno"> 1544</span>&#160;</div>
-<div class="line"><a name="l01545"></a><span class="lineno"> 1545</span>&#160;<span class="keywordtype">void</span> Send_Notification(</div>
-<div class="line"><a name="l01546"></a><span class="lineno"> 1546</span>&#160;    NOTIF broadcast, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client,</div>
-<div class="line"><a name="l01547"></a><span class="lineno"> 1547</span>&#160;    MSG net_type, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aa46580df20165dd8315928c81936292e">Notification</a> net_name,</div>
-<div class="line"><a name="l01548"></a><span class="lineno"> 1548</span>&#160;    ...<a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a>)</div>
-<div class="line"><a name="l01549"></a><span class="lineno"> 1549</span>&#160;{</div>
-<div class="line"><a name="l01550"></a><span class="lineno"> 1550</span>&#160;    <span class="keywordflow">if</span> (broadcast != NOTIF_ALL &amp;&amp; broadcast != NOTIF_ALL_EXCEPT &amp;&amp; !<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(client)) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01551"></a><span class="lineno"> 1551</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> notif = net_name;</div>
-<div class="line"><a name="l01552"></a><span class="lineno"> 1552</span>&#160;    <span class="keywordtype">string</span> parms = sprintf(<span class="stringliteral">&quot;%s, &#39;%s&#39;, %s, %s&quot;</span>,</div>
-<div class="line"><a name="l01553"></a><span class="lineno"> 1553</span>&#160;        Get_Notif_BroadcastName(broadcast),</div>
-<div class="line"><a name="l01554"></a><span class="lineno"> 1554</span>&#160;        client.classname,</div>
-<div class="line"><a name="l01555"></a><span class="lineno"> 1555</span>&#160;        <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(net_type),</div>
-<div class="line"><a name="l01556"></a><span class="lineno"> 1556</span>&#160;        net_name.registered_id</div>
-<div class="line"><a name="l01557"></a><span class="lineno"> 1557</span>&#160;    );</div>
-<div class="line"><a name="l01558"></a><span class="lineno"> 1558</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
-<div class="line"><a name="l01559"></a><span class="lineno"> 1559</span>&#160;<span class="preprocessor"></span>    Debug_Notification(sprintf(<span class="stringliteral">&quot;Send_Notification(%s, ...%d);\n&quot;</span>, parms, <a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a>));</div>
-<div class="line"><a name="l01560"></a><span class="lineno"> 1560</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l01561"></a><span class="lineno"> 1561</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01562"></a><span class="lineno"> 1562</span>&#160;    <span class="keywordflow">if</span> (!notif)</div>
-<div class="line"><a name="l01563"></a><span class="lineno"> 1563</span>&#160;    {</div>
-<div class="line"><a name="l01564"></a><span class="lineno"> 1564</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#afef5ff03ea272d388345cf47148953d4">LOG_WARNING</a>(<span class="stringliteral">&quot;Send_Notification: Could not find notification entity!&quot;</span>);</div>
-<div class="line"><a name="l01565"></a><span class="lineno"> 1565</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01566"></a><span class="lineno"> 1566</span>&#160;    }</div>
-<div class="line"><a name="l01567"></a><span class="lineno"> 1567</span>&#160;</div>
-<div class="line"><a name="l01568"></a><span class="lineno"> 1568</span>&#160;    <span class="comment">// check supplied broadcast, target, type, and name for errors</span></div>
-<div class="line"><a name="l01569"></a><span class="lineno"> 1569</span>&#160;    <span class="keywordtype">string</span> checkargs = Notification_CheckArgs(broadcast, client);</div>
-<div class="line"><a name="l01570"></a><span class="lineno"> 1570</span>&#160;    <span class="keywordflow">if</span> (!net_name) { checkargs = sprintf(<span class="stringliteral">&quot;No notification provided! %s&quot;</span>, checkargs); }</div>
-<div class="line"><a name="l01571"></a><span class="lineno"> 1571</span>&#160;    <span class="keywordflow">if</span> (checkargs != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l01572"></a><span class="lineno"> 1572</span>&#160;    {</div>
-<div class="line"><a name="l01573"></a><span class="lineno"> 1573</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;Incorrect usage of Send_Notification: %s&quot;</span>, checkargs);</div>
-<div class="line"><a name="l01574"></a><span class="lineno"> 1574</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01575"></a><span class="lineno"> 1575</span>&#160;    }</div>
-<div class="line"><a name="l01576"></a><span class="lineno"> 1576</span>&#160;</div>
-<div class="line"><a name="l01577"></a><span class="lineno"> 1577</span>&#160;    <span class="keywordtype">string</span> s1 = ((0 &lt; notif.nent_stringcount) ? ...(0, <span class="keywordtype">string</span>) : <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l01578"></a><span class="lineno"> 1578</span>&#160;    <span class="keywordtype">string</span> s2 = ((1 &lt; notif.nent_stringcount) ? ...(1, <span class="keywordtype">string</span>) : <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l01579"></a><span class="lineno"> 1579</span>&#160;    <span class="keywordtype">string</span> s3 = ((2 &lt; notif.nent_stringcount) ? ...(2, <span class="keywordtype">string</span>) : <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l01580"></a><span class="lineno"> 1580</span>&#160;    <span class="keywordtype">string</span> s4 = ((3 &lt; notif.nent_stringcount) ? ...(3, <span class="keywordtype">string</span>) : <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l01581"></a><span class="lineno"> 1581</span>&#160;    <span class="keywordtype">float</span> f1 = ((0 &lt; notif.nent_floatcount) ? ...((notif.nent_stringcount + 0), <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">float</a>) : 0);</div>
-<div class="line"><a name="l01582"></a><span class="lineno"> 1582</span>&#160;    <span class="keywordtype">float</span> f2 = ((1 &lt; notif.nent_floatcount) ? ...((notif.nent_stringcount + 1), <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">float</a>) : 0);</div>
-<div class="line"><a name="l01583"></a><span class="lineno"> 1583</span>&#160;    <span class="keywordtype">float</span> f3 = ((2 &lt; notif.nent_floatcount) ? ...((notif.nent_stringcount + 2), <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">float</a>) : 0);</div>
-<div class="line"><a name="l01584"></a><span class="lineno"> 1584</span>&#160;    <span class="keywordtype">float</span> f4 = ((3 &lt; notif.nent_floatcount) ? ...((notif.nent_stringcount + 3), <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">float</a>) : 0);</div>
-<div class="line"><a name="l01585"></a><span class="lineno"> 1585</span>&#160;</div>
-<div class="line"><a name="l01586"></a><span class="lineno"> 1586</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
-<div class="line"><a name="l01587"></a><span class="lineno"> 1587</span>&#160;<span class="preprocessor"></span>    Debug_Notification(sprintf(</div>
-<div class="line"><a name="l01588"></a><span class="lineno"> 1588</span>&#160;        <span class="stringliteral">&quot;Send_Notification(%s, %s, %s);\n&quot;</span>,</div>
-<div class="line"><a name="l01589"></a><span class="lineno"> 1589</span>&#160;        parms,</div>
-<div class="line"><a name="l01590"></a><span class="lineno"> 1590</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ad61de8ccc8dc77d2cb822e7a7ff34a9d">MakeConsoleSafe</a>(sprintf(<span class="stringliteral">&quot;&#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;&quot;</span>, s1, s2, s3, s4)),</div>
-<div class="line"><a name="l01591"></a><span class="lineno"> 1591</span>&#160;        sprintf(<span class="stringliteral">&quot;%d, %d, %d, %d&quot;</span>, f1, f2, f3, f4)</div>
-<div class="line"><a name="l01592"></a><span class="lineno"> 1592</span>&#160;    ));</div>
-<div class="line"><a name="l01593"></a><span class="lineno"> 1593</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l01594"></a><span class="lineno"> 1594</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01595"></a><span class="lineno"> 1595</span>&#160;    <span class="keywordflow">if</span> ((notif.nent_stringcount + notif.nent_floatcount) != <a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a>)</div>
-<div class="line"><a name="l01596"></a><span class="lineno"> 1596</span>&#160;    {</div>
-<div class="line"><a name="l01597"></a><span class="lineno"> 1597</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(</div>
-<div class="line"><a name="l01598"></a><span class="lineno"> 1598</span>&#160;            <span class="stringliteral">&quot;Argument mismatch for Send_Notification(%s, ...)! &quot;</span></div>
-<div class="line"><a name="l01599"></a><span class="lineno"> 1599</span>&#160;            <span class="stringliteral">&quot;stringcount(%d) + floatcount(%d) != count(%d)\n&quot;</span></div>
-<div class="line"><a name="l01600"></a><span class="lineno"> 1600</span>&#160;            <span class="stringliteral">&quot;Check the definition and function call for accuracy...?\n&quot;</span>,</div>
-<div class="line"><a name="l01601"></a><span class="lineno"> 1601</span>&#160;            parms,</div>
-<div class="line"><a name="l01602"></a><span class="lineno"> 1602</span>&#160;            notif.nent_stringcount,</div>
-<div class="line"><a name="l01603"></a><span class="lineno"> 1603</span>&#160;            notif.nent_floatcount,</div>
-<div class="line"><a name="l01604"></a><span class="lineno"> 1604</span>&#160;            <a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a></div>
-<div class="line"><a name="l01605"></a><span class="lineno"> 1605</span>&#160;        );</div>
-<div class="line"><a name="l01606"></a><span class="lineno"> 1606</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l01607"></a><span class="lineno"> 1607</span>&#160;    }</div>
-<div class="line"><a name="l01608"></a><span class="lineno"> 1608</span>&#160;</div>
-<div class="line"><a name="l01609"></a><span class="lineno"> 1609</span>&#160;    <span class="keywordflow">if</span> (</div>
-<div class="line"><a name="l01610"></a><span class="lineno"> 1610</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#a95a3f7e88286501193d87271e950a6b1">server_is_dedicated</a></div>
-<div class="line"><a name="l01611"></a><span class="lineno"> 1611</span>&#160;        &amp;&amp;</div>
-<div class="line"><a name="l01612"></a><span class="lineno"> 1612</span>&#160;        (</div>
-<div class="line"><a name="l01613"></a><span class="lineno"> 1613</span>&#160;            broadcast == NOTIF_ALL</div>
-<div class="line"><a name="l01614"></a><span class="lineno"> 1614</span>&#160;            ||</div>
-<div class="line"><a name="l01615"></a><span class="lineno"> 1615</span>&#160;            broadcast == NOTIF_ALL_EXCEPT</div>
-<div class="line"><a name="l01616"></a><span class="lineno"> 1616</span>&#160;        )</div>
-<div class="line"><a name="l01617"></a><span class="lineno"> 1617</span>&#160;        &amp;&amp;</div>
-<div class="line"><a name="l01618"></a><span class="lineno"> 1618</span>&#160;        !(</div>
-<div class="line"><a name="l01619"></a><span class="lineno"> 1619</span>&#160;            net_type == MSG_ANNCE</div>
-<div class="line"><a name="l01620"></a><span class="lineno"> 1620</span>&#160;            ||</div>
-<div class="line"><a name="l01621"></a><span class="lineno"> 1621</span>&#160;            net_type == MSG_CENTER</div>
-<div class="line"><a name="l01622"></a><span class="lineno"> 1622</span>&#160;        )</div>
-<div class="line"><a name="l01623"></a><span class="lineno"> 1623</span>&#160;    )</div>
-<div class="line"><a name="l01624"></a><span class="lineno"> 1624</span>&#160;    {</div>
-<div class="line"><a name="l01625"></a><span class="lineno"> 1625</span>&#160;        <a class="code" href="../../d4/df2/common_2notifications_2all_8qc.html#ab191ea2d6864d62cf12f82140b351f66">Local_Notification_WOVA</a>(</div>
-<div class="line"><a name="l01626"></a><span class="lineno"> 1626</span>&#160;            net_type, net_name,</div>
-<div class="line"><a name="l01627"></a><span class="lineno"> 1627</span>&#160;            notif.nent_stringcount,</div>
-<div class="line"><a name="l01628"></a><span class="lineno"> 1628</span>&#160;            notif.nent_floatcount,</div>
-<div class="line"><a name="l01629"></a><span class="lineno"> 1629</span>&#160;            s1, s2, s3, s4,</div>
-<div class="line"><a name="l01630"></a><span class="lineno"> 1630</span>&#160;            f1, f2, f3, f4);</div>
-<div class="line"><a name="l01631"></a><span class="lineno"> 1631</span>&#160;    }</div>
-<div class="line"><a name="l01632"></a><span class="lineno"> 1632</span>&#160;</div>
-<div class="line"><a name="l01633"></a><span class="lineno"> 1633</span>&#160;    <span class="keywordflow">if</span> (net_type == MSG_CHOICE)</div>
-<div class="line"><a name="l01634"></a><span class="lineno"> 1634</span>&#160;    {</div>
-<div class="line"><a name="l01635"></a><span class="lineno"> 1635</span>&#160;        <span class="comment">// THIS GETS TRICKY... now we have to cycle through each possible player (checking broadcast)</span></div>
-<div class="line"><a name="l01636"></a><span class="lineno"> 1636</span>&#160;        <span class="comment">// and then do an individual NOTIF_ONE_ONLY recursive call for each one depending on their option...</span></div>
-<div class="line"><a name="l01637"></a><span class="lineno"> 1637</span>&#160;        <span class="comment">// It&#39;s slow, but it&#39;s better than the alternatives:</span></div>
-<div class="line"><a name="l01638"></a><span class="lineno"> 1638</span>&#160;        <span class="comment">//   1. Constantly networking all info and letting client decide</span></div>
-<div class="line"><a name="l01639"></a><span class="lineno"> 1639</span>&#160;        <span class="comment">//   2. Manually handling each separate call on per-usage basis (See old CTF usage of verbose)</span></div>
-<div class="line"><a name="l01640"></a><span class="lineno"> 1640</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> found_choice;</div>
-<div class="line"><a name="l01641"></a><span class="lineno"> 1641</span>&#160;</div>
-<div class="line"><a name="l01642"></a><span class="lineno"> 1642</span>&#160;<span class="preprocessor">        #define RECURSE_FROM_CHOICE(ent,action) MACRO_BEGIN { \</span></div>
-<div class="line"><a name="l01643"></a><span class="lineno"> 1643</span>&#160;<span class="preprocessor">            if (notif.nent_challow_var &amp;&amp; (warmup_stage || (notif.nent_challow_var == 2))) { \</span></div>
-<div class="line"><a name="l01644"></a><span class="lineno"> 1644</span>&#160;<span class="preprocessor">                switch (ent.msg_choice_choices[net_name.nent_choice_idx]) \</span></div>
-<div class="line"><a name="l01645"></a><span class="lineno"> 1645</span>&#160;<span class="preprocessor">                { \</span></div>
-<div class="line"><a name="l01646"></a><span class="lineno"> 1646</span>&#160;<span class="preprocessor">                    case 1: found_choice = notif.nent_optiona; break; \</span></div>
-<div class="line"><a name="l01647"></a><span class="lineno"> 1647</span>&#160;<span class="preprocessor">                    case 2: found_choice = notif.nent_optionb; break; \</span></div>
-<div class="line"><a name="l01648"></a><span class="lineno"> 1648</span>&#160;<span class="preprocessor">                    default: action; \</span></div>
-<div class="line"><a name="l01649"></a><span class="lineno"> 1649</span>&#160;<span class="preprocessor">                } \</span></div>
-<div class="line"><a name="l01650"></a><span class="lineno"> 1650</span>&#160;<span class="preprocessor">            } else { \</span></div>
-<div class="line"><a name="l01651"></a><span class="lineno"> 1651</span>&#160;<span class="preprocessor">                found_choice = notif.nent_optiona; \</span></div>
-<div class="line"><a name="l01652"></a><span class="lineno"> 1652</span>&#160;<span class="preprocessor">            } \</span></div>
-<div class="line"><a name="l01653"></a><span class="lineno"> 1653</span>&#160;<span class="preprocessor">            Send_Notification_WOVA( \</span></div>
-<div class="line"><a name="l01654"></a><span class="lineno"> 1654</span>&#160;<span class="preprocessor">                NOTIF_ONE_ONLY, \</span></div>
-<div class="line"><a name="l01655"></a><span class="lineno"> 1655</span>&#160;<span class="preprocessor">                ent, \</span></div>
-<div class="line"><a name="l01656"></a><span class="lineno"> 1656</span>&#160;<span class="preprocessor">                found_choice.nent_type, \</span></div>
-<div class="line"><a name="l01657"></a><span class="lineno"> 1657</span>&#160;<span class="preprocessor">                found_choice, \</span></div>
-<div class="line"><a name="l01658"></a><span class="lineno"> 1658</span>&#160;<span class="preprocessor">                found_choice.nent_stringcount, \</span></div>
-<div class="line"><a name="l01659"></a><span class="lineno"> 1659</span>&#160;<span class="preprocessor">                found_choice.nent_floatcount, \</span></div>
-<div class="line"><a name="l01660"></a><span class="lineno"> 1660</span>&#160;<span class="preprocessor">                s1, s2, s3, s4, \</span></div>
-<div class="line"><a name="l01661"></a><span class="lineno"> 1661</span>&#160;<span class="preprocessor">                f1, f2, f3, f4); \</span></div>
-<div class="line"><a name="l01662"></a><span class="lineno"> 1662</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
-<div class="line"><a name="l01663"></a><span class="lineno"> 1663</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01664"></a><span class="lineno"> 1664</span>&#160;        <span class="keywordflow">switch</span> (broadcast)</div>
-<div class="line"><a name="l01665"></a><span class="lineno"> 1665</span>&#160;        {</div>
-<div class="line"><a name="l01666"></a><span class="lineno"> 1666</span>&#160;            <span class="keywordflow">case</span> NOTIF_ONE_ONLY: <span class="comment">// we can potentially save processing power with this broadcast method</span></div>
-<div class="line"><a name="l01667"></a><span class="lineno"> 1667</span>&#160;            {</div>
-<div class="line"><a name="l01668"></a><span class="lineno"> 1668</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(client)) {</div>
-<div class="line"><a name="l01669"></a><span class="lineno"> 1669</span>&#160;                    RECURSE_FROM_CHOICE(client, <span class="keywordflow">return</span>);</div>
-<div class="line"><a name="l01670"></a><span class="lineno"> 1670</span>&#160;                }</div>
-<div class="line"><a name="l01671"></a><span class="lineno"> 1671</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l01672"></a><span class="lineno"> 1672</span>&#160;            }</div>
-<div class="line"><a name="l01673"></a><span class="lineno"> 1673</span>&#160;            <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l01674"></a><span class="lineno"> 1674</span>&#160;            {</div>
-<div class="line"><a name="l01675"></a><span class="lineno"> 1675</span>&#160;                <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; Notification_ShouldSend(broadcast, it, client), {</div>
-<div class="line"><a name="l01676"></a><span class="lineno"> 1676</span>&#160;                    RECURSE_FROM_CHOICE(it, <span class="keywordflow">continue</span>);</div>
-<div class="line"><a name="l01677"></a><span class="lineno"> 1677</span>&#160;                });</div>
-<div class="line"><a name="l01678"></a><span class="lineno"> 1678</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l01679"></a><span class="lineno"> 1679</span>&#160;            }</div>
-<div class="line"><a name="l01680"></a><span class="lineno"> 1680</span>&#160;        }</div>
-<div class="line"><a name="l01681"></a><span class="lineno"> 1681</span>&#160;    }</div>
-<div class="line"><a name="l01682"></a><span class="lineno"> 1682</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01683"></a><span class="lineno"> 1683</span>&#160;    {</div>
-<div class="line"><a name="l01684"></a><span class="lineno"> 1684</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> net_notif = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(net_notification);</div>
-<div class="line"><a name="l01685"></a><span class="lineno"> 1685</span>&#160;        net_notif.owner = notif;</div>
-<div class="line"><a name="l01686"></a><span class="lineno"> 1686</span>&#160;        net_notif.nent_broadcast = broadcast;</div>
-<div class="line"><a name="l01687"></a><span class="lineno"> 1687</span>&#160;        net_notif.nent_client = client;</div>
-<div class="line"><a name="l01688"></a><span class="lineno"> 1688</span>&#160;        net_notif.nent_net_type = net_type;</div>
-<div class="line"><a name="l01689"></a><span class="lineno"> 1689</span>&#160;        net_notif.nent_net_name = notif.m_id;</div>
-<div class="line"><a name="l01690"></a><span class="lineno"> 1690</span>&#160;        net_notif.nent_stringcount = notif.nent_stringcount;</div>
-<div class="line"><a name="l01691"></a><span class="lineno"> 1691</span>&#160;        net_notif.nent_floatcount = notif.nent_floatcount;</div>
-<div class="line"><a name="l01692"></a><span class="lineno"> 1692</span>&#160;</div>
-<div class="line"><a name="l01693"></a><span class="lineno"> 1693</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; net_notif.nent_stringcount; ++i) {</div>
-<div class="line"><a name="l01694"></a><span class="lineno"> 1694</span>&#160;            net_notif.nent_strings[i] = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(...(i, <span class="keywordtype">string</span>));</div>
-<div class="line"><a name="l01695"></a><span class="lineno"> 1695</span>&#160;        }</div>
-<div class="line"><a name="l01696"></a><span class="lineno"> 1696</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; net_notif.nent_floatcount; ++i) {</div>
-<div class="line"><a name="l01697"></a><span class="lineno"> 1697</span>&#160;            net_notif.nent_floats[i] = ...((net_notif.nent_stringcount + i), <span class="keywordtype">float</span>);</div>
-<div class="line"><a name="l01698"></a><span class="lineno"> 1698</span>&#160;        }</div>
-<div class="line"><a name="l01699"></a><span class="lineno"> 1699</span>&#160;</div>
-<div class="line"><a name="l01700"></a><span class="lineno"> 1700</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(net_notif, Net_Notification_Remove);</div>
-<div class="line"><a name="l01701"></a><span class="lineno"> 1701</span>&#160;        net_notif.nextthink = (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a58592f2dbd538b466b3a7f92fb7382ab">autocvar_notification_lifetime_mapload</a>)</div>
-<div class="line"><a name="l01702"></a><span class="lineno"> 1702</span>&#160;            ? (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a6a45ec6d35af6e73ba2429f9f46bb513">autocvar_notification_lifetime_runtime</a>)</div>
-<div class="line"><a name="l01703"></a><span class="lineno"> 1703</span>&#160;            : <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a58592f2dbd538b466b3a7f92fb7382ab">autocvar_notification_lifetime_mapload</a>;</div>
-<div class="line"><a name="l01704"></a><span class="lineno"> 1704</span>&#160;</div>
-<div class="line"><a name="l01705"></a><span class="lineno"> 1705</span>&#160;        Net_LinkEntity(net_notif, <span class="keyword">false</span>, 0, Net_Write_Notification);</div>
-<div class="line"><a name="l01706"></a><span class="lineno"> 1706</span>&#160;    }</div>
-<div class="line"><a name="l01707"></a><span class="lineno"> 1707</span>&#160;}</div>
-<div class="line"><a name="l01708"></a><span class="lineno"> 1708</span>&#160;</div>
-<div class="line"><a name="l01709"></a><span class="lineno"> 1709</span>&#160;<span class="comment">// WOVA = Without Variable Arguments</span></div>
-<div class="line"><a name="l01710"></a><span class="lineno"> 1710</span>&#160;<span class="keywordtype">void</span> Send_Notification_WOVA(</div>
-<div class="line"><a name="l01711"></a><span class="lineno"> 1711</span>&#160;    NOTIF broadcast, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client,</div>
-<div class="line"><a name="l01712"></a><span class="lineno"> 1712</span>&#160;    MSG net_type, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aa46580df20165dd8315928c81936292e">Notification</a> net_name,</div>
-<div class="line"><a name="l01713"></a><span class="lineno"> 1713</span>&#160;    <span class="keywordtype">float</span> stringcount, <span class="keywordtype">float</span> floatcount,</div>
-<div class="line"><a name="l01714"></a><span class="lineno"> 1714</span>&#160;    <span class="keywordtype">string</span> s1, <span class="keywordtype">string</span> s2, <span class="keywordtype">string</span> s3, <span class="keywordtype">string</span> s4,</div>
-<div class="line"><a name="l01715"></a><span class="lineno"> 1715</span>&#160;    <span class="keywordtype">float</span> f1, <span class="keywordtype">float</span> f2, <span class="keywordtype">float</span> f3, <span class="keywordtype">float</span> f4)</div>
-<div class="line"><a name="l01716"></a><span class="lineno"> 1716</span>&#160;{</div>
-<div class="line"><a name="l01717"></a><span class="lineno"> 1717</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
-<div class="line"><a name="l01718"></a><span class="lineno"> 1718</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> notif = net_name;</div>
-<div class="line"><a name="l01719"></a><span class="lineno"> 1719</span>&#160;    Debug_Notification(sprintf(</div>
-<div class="line"><a name="l01720"></a><span class="lineno"> 1720</span>&#160;        <span class="stringliteral">&quot;Send_Notification_WOVA(%s, %d, %d, %s, %s);\n&quot;</span>,</div>
-<div class="line"><a name="l01721"></a><span class="lineno"> 1721</span>&#160;        sprintf(</div>
-<div class="line"><a name="l01722"></a><span class="lineno"> 1722</span>&#160;            <span class="stringliteral">&quot;%s, &#39;%s&#39;, %s, %s&quot;</span>,</div>
-<div class="line"><a name="l01723"></a><span class="lineno"> 1723</span>&#160;            Get_Notif_BroadcastName(broadcast),</div>
-<div class="line"><a name="l01724"></a><span class="lineno"> 1724</span>&#160;            client.classname,</div>
-<div class="line"><a name="l01725"></a><span class="lineno"> 1725</span>&#160;            <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(net_type),</div>
-<div class="line"><a name="l01726"></a><span class="lineno"> 1726</span>&#160;            notif.nent_name</div>
-<div class="line"><a name="l01727"></a><span class="lineno"> 1727</span>&#160;        ),</div>
-<div class="line"><a name="l01728"></a><span class="lineno"> 1728</span>&#160;        stringcount,</div>
-<div class="line"><a name="l01729"></a><span class="lineno"> 1729</span>&#160;        floatcount,</div>
-<div class="line"><a name="l01730"></a><span class="lineno"> 1730</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ad61de8ccc8dc77d2cb822e7a7ff34a9d">MakeConsoleSafe</a>(sprintf(<span class="stringliteral">&quot;&#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;&quot;</span>, s1, s2, s3, s4)),</div>
-<div class="line"><a name="l01731"></a><span class="lineno"> 1731</span>&#160;        sprintf(<span class="stringliteral">&quot;%d, %d, %d, %d&quot;</span>, f1, f2, f3, f4)</div>
-<div class="line"><a name="l01732"></a><span class="lineno"> 1732</span>&#160;    ));</div>
-<div class="line"><a name="l01733"></a><span class="lineno"> 1733</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l01734"></a><span class="lineno"> 1734</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01735"></a><span class="lineno"> 1735</span>&#160;<span class="preprocessor">    #define VARITEM(stringc, floatc, args) \</span></div>
-<div class="line"><a name="l01736"></a><span class="lineno"> 1736</span>&#160;<span class="preprocessor">        if ((stringcount == stringc) &amp;&amp; (floatcount == floatc)) \</span></div>
-<div class="line"><a name="l01737"></a><span class="lineno"> 1737</span>&#160;<span class="preprocessor">        { Send_Notification(broadcast, client, net_type, net_name, args); return; }</span></div>
-<div class="line"><a name="l01738"></a><span class="lineno"> 1738</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a7d0f0d2bef7f5dea91eafc4181b9b045">EIGHT_VARS_TO_VARARGS_VARLIST</a></div>
-<div class="line"><a name="l01739"></a><span class="lineno"> 1739</span>&#160;<span class="preprocessor">    #undef VARITEM</span></div>
-<div class="line"><a name="l01740"></a><span class="lineno"> 1740</span>&#160;<span class="preprocessor"></span>    Send_Notification(broadcast, client, net_type, net_name); <span class="comment">// some notifications don&#39;t have any arguments at all</span></div>
-<div class="line"><a name="l01741"></a><span class="lineno"> 1741</span>&#160;}</div>
-<div class="line"><a name="l01742"></a><span class="lineno"> 1742</span>&#160;</div>
-<div class="line"><a name="l01743"></a><span class="lineno"> 1743</span>&#160;<span class="comment">// WOCOVA = Without Counts Or Variable Arguments</span></div>
-<div class="line"><a name="l01744"></a><span class="lineno"> 1744</span>&#160;<span class="keywordtype">void</span> Send_Notification_WOCOVA(</div>
-<div class="line"><a name="l01745"></a><span class="lineno"> 1745</span>&#160;    NOTIF broadcast, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client,</div>
-<div class="line"><a name="l01746"></a><span class="lineno"> 1746</span>&#160;    MSG net_type, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aa46580df20165dd8315928c81936292e">Notification</a> net_name,</div>
-<div class="line"><a name="l01747"></a><span class="lineno"> 1747</span>&#160;    <span class="keywordtype">string</span> s1, <span class="keywordtype">string</span> s2, <span class="keywordtype">string</span> s3, <span class="keywordtype">string</span> s4,</div>
-<div class="line"><a name="l01748"></a><span class="lineno"> 1748</span>&#160;    <span class="keywordtype">float</span> f1, <span class="keywordtype">float</span> f2, <span class="keywordtype">float</span> f3, <span class="keywordtype">float</span> f4)</div>
-<div class="line"><a name="l01749"></a><span class="lineno"> 1749</span>&#160;{</div>
-<div class="line"><a name="l01750"></a><span class="lineno"> 1750</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> notif = net_name;</div>
-<div class="line"><a name="l01751"></a><span class="lineno"> 1751</span>&#160;</div>
-<div class="line"><a name="l01752"></a><span class="lineno"> 1752</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
-<div class="line"><a name="l01753"></a><span class="lineno"> 1753</span>&#160;<span class="preprocessor"></span>    Debug_Notification(sprintf(</div>
-<div class="line"><a name="l01754"></a><span class="lineno"> 1754</span>&#160;        <span class="stringliteral">&quot;Send_Notification_WOCOVA(%s, %s, %s);\n&quot;</span>,</div>
-<div class="line"><a name="l01755"></a><span class="lineno"> 1755</span>&#160;        sprintf(</div>
-<div class="line"><a name="l01756"></a><span class="lineno"> 1756</span>&#160;            <span class="stringliteral">&quot;%s, &#39;%s&#39;, %s, %s&quot;</span>,</div>
-<div class="line"><a name="l01757"></a><span class="lineno"> 1757</span>&#160;            Get_Notif_BroadcastName(broadcast),</div>
-<div class="line"><a name="l01758"></a><span class="lineno"> 1758</span>&#160;            client.classname,</div>
-<div class="line"><a name="l01759"></a><span class="lineno"> 1759</span>&#160;            <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(net_type),</div>
-<div class="line"><a name="l01760"></a><span class="lineno"> 1760</span>&#160;            notif.nent_name</div>
-<div class="line"><a name="l01761"></a><span class="lineno"> 1761</span>&#160;        ),</div>
-<div class="line"><a name="l01762"></a><span class="lineno"> 1762</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ad61de8ccc8dc77d2cb822e7a7ff34a9d">MakeConsoleSafe</a>(sprintf(<span class="stringliteral">&quot;&#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;&quot;</span>, s1, s2, s3, s4)),</div>
-<div class="line"><a name="l01763"></a><span class="lineno"> 1763</span>&#160;        sprintf(<span class="stringliteral">&quot;%d, %d, %d, %d&quot;</span>, f1, f2, f3, f4)</div>
-<div class="line"><a name="l01764"></a><span class="lineno"> 1764</span>&#160;    ));</div>
-<div class="line"><a name="l01765"></a><span class="lineno"> 1765</span>&#160;<span class="preprocessor">    #endif</span></div>
-<div class="line"><a name="l01766"></a><span class="lineno"> 1766</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l01767"></a><span class="lineno"> 1767</span>&#160;<span class="preprocessor">    #define VARITEM(stringc, floatc, args) \</span></div>
-<div class="line"><a name="l01768"></a><span class="lineno"> 1768</span>&#160;<span class="preprocessor">        if ((notif.nent_stringcount == stringc) &amp;&amp; (notif.nent_floatcount == floatc)) \</span></div>
-<div class="line"><a name="l01769"></a><span class="lineno"> 1769</span>&#160;<span class="preprocessor">        { Send_Notification(broadcast, client, net_type, net_name, args); return; }</span></div>
-<div class="line"><a name="l01770"></a><span class="lineno"> 1770</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a7d0f0d2bef7f5dea91eafc4181b9b045">EIGHT_VARS_TO_VARARGS_VARLIST</a></div>
-<div class="line"><a name="l01771"></a><span class="lineno"> 1771</span>&#160;<span class="preprocessor">    #undef VARITEM</span></div>
-<div class="line"><a name="l01772"></a><span class="lineno"> 1772</span>&#160;<span class="preprocessor"></span>    Send_Notification(broadcast, client, net_type, net_name); <span class="comment">// some notifications don&#39;t have any arguments at all</span></div>
-<div class="line"><a name="l01773"></a><span class="lineno"> 1773</span>&#160;}</div>
-<div class="line"><a name="l01774"></a><span class="lineno"> 1774</span>&#160;<span class="preprocessor">#endif // ifdef SVQC</span></div>
+<div class="line"><a name="l01483"></a><span class="lineno"> 1483</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
+<div class="line"><a name="l01484"></a><span class="lineno"> 1484</span>&#160;<span class="preprocessor"></span>    Debug_Notification(sprintf(</div>
+<div class="line"><a name="l01485"></a><span class="lineno"> 1485</span>&#160;        <span class="stringliteral">&quot;Net_Notification_Remove() at %f: %s &#39;%s - %s&#39; notification\n&quot;</span>,</div>
+<div class="line"><a name="l01486"></a><span class="lineno"> 1486</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>,</div>
+<div class="line"><a name="l01487"></a><span class="lineno"> 1487</span>&#160;        ((this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a6ec21cd14e3274606e94ae690c0dda77">nent_net_name</a> == -1) ? <span class="stringliteral">&quot;Killed&quot;</span> : <span class="stringliteral">&quot;Removed&quot;</span>),</div>
+<div class="line"><a name="l01488"></a><span class="lineno"> 1488</span>&#160;        <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#abd0212ef9369005475d3d863cc912702">nent_net_type</a>),</div>
+<div class="line"><a name="l01489"></a><span class="lineno"> 1489</span>&#160;        this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.nent_name</div>
+<div class="line"><a name="l01490"></a><span class="lineno"> 1490</span>&#160;    ));</div>
+<div class="line"><a name="l01491"></a><span class="lineno"> 1491</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l01492"></a><span class="lineno"> 1492</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a2e9c3821a54540fceb7289bc8423a06d">nent_stringcount</a>; ++i) { <span class="keywordflow">if</span> (this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a87810e4b368131287592ae2bae89bcea">nent_strings</a>[i]) <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a87810e4b368131287592ae2bae89bcea">nent_strings</a>[i]); }</div>
+<div class="line"><a name="l01493"></a><span class="lineno"> 1493</span>&#160;    <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l01494"></a><span class="lineno"> 1494</span>&#160;}</div>
+<div class="line"><a name="l01495"></a><span class="lineno"> 1495</span>&#160;</div>
+<div class="line"><a name="l01496"></a><span class="lineno"> 1496</span>&#160;<span class="keywordtype">bool</span> Net_Write_Notification(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client, <span class="keywordtype">int</span> sf)</div>
+<div class="line"><a name="l01497"></a><span class="lineno"> 1497</span>&#160;{</div>
+<div class="line"><a name="l01498"></a><span class="lineno"> 1498</span>&#160;    <span class="keywordflow">if</span> (!Notification_ShouldSend(this.nent_broadcast, client, this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#ac64367f6a44d440ccc4949feea8f6415">nent_client</a>)) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01499"></a><span class="lineno"> 1499</span>&#160;    WriteHeader(MSG_ENTITY, ENT_CLIENT_NOTIFICATION);</div>
+<div class="line"><a name="l01500"></a><span class="lineno"> 1500</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a>(MSG_ENTITY, <a class="code" href="../../da/dd5/enumclass_8qh.html#a7339abefe19e4109853567ae9664cf04">ORDINAL</a>(this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#abd0212ef9369005475d3d863cc912702">nent_net_type</a>));</div>
+<div class="line"><a name="l01501"></a><span class="lineno"> 1501</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a>(MSG_ENTITY, this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a6ec21cd14e3274606e94ae690c0dda77">nent_net_name</a>);</div>
+<div class="line"><a name="l01502"></a><span class="lineno"> 1502</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a2e9c3821a54540fceb7289bc8423a06d">nent_stringcount</a>; ++i) { <a class="code" href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a>(MSG_ENTITY, this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a87810e4b368131287592ae2bae89bcea">nent_strings</a>[i]); }</div>
+<div class="line"><a name="l01503"></a><span class="lineno"> 1503</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a1e72604628f59772c2b0ca3bb53f76ab">nent_floatcount</a>; ++i) { <a class="code" href="../../d8/de2/menudefs_8qc.html#a439a4e0c5d0e5923bf5aba17eaae0d09">WriteLong</a>(MSG_ENTITY, this.<a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aecc1451803519ab7ae643b6195658055">nent_floats</a>[i]); }</div>
+<div class="line"><a name="l01504"></a><span class="lineno"> 1504</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01505"></a><span class="lineno"> 1505</span>&#160;}</div>
+<div class="line"><a name="l01506"></a><span class="lineno"> 1506</span>&#160;</div>
+<div class="line"><a name="l01507"></a><span class="lineno"> 1507</span>&#160;<span class="keywordtype">void</span> Kill_Notification(</div>
+<div class="line"><a name="l01508"></a><span class="lineno"> 1508</span>&#160;    NOTIF broadcast, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client,</div>
+<div class="line"><a name="l01510"></a><span class="lineno"> 1510</span>&#160;    MSG net_type,</div>
+<div class="line"><a name="l01512"></a><span class="lineno"> 1512</span>&#160;    CPID net_cpid)</div>
+<div class="line"><a name="l01513"></a><span class="lineno"> 1513</span>&#160;{</div>
+<div class="line"><a name="l01514"></a><span class="lineno"> 1514</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
+<div class="line"><a name="l01515"></a><span class="lineno"> 1515</span>&#160;<span class="preprocessor"></span>    Debug_Notification(sprintf(</div>
+<div class="line"><a name="l01516"></a><span class="lineno"> 1516</span>&#160;        <span class="stringliteral">&quot;Kill_Notification(%s, &#39;%s&#39;, %s, %d);\n&quot;</span>,</div>
+<div class="line"><a name="l01517"></a><span class="lineno"> 1517</span>&#160;        Get_Notif_BroadcastName(broadcast),</div>
+<div class="line"><a name="l01518"></a><span class="lineno"> 1518</span>&#160;        client.netname,</div>
+<div class="line"><a name="l01519"></a><span class="lineno"> 1519</span>&#160;        (net_type ? <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(net_type) : <span class="stringliteral">&quot;0&quot;</span>),</div>
+<div class="line"><a name="l01520"></a><span class="lineno"> 1520</span>&#160;        net_cpid</div>
+<div class="line"><a name="l01521"></a><span class="lineno"> 1521</span>&#160;    ));</div>
+<div class="line"><a name="l01522"></a><span class="lineno"> 1522</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l01523"></a><span class="lineno"> 1523</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01524"></a><span class="lineno"> 1524</span>&#160;    <span class="keywordtype">string</span> checkargs = Notification_CheckArgs(broadcast, client);</div>
+<div class="line"><a name="l01525"></a><span class="lineno"> 1525</span>&#160;    <span class="keywordflow">if</span> (checkargs != <span class="stringliteral">&quot;&quot;</span>) { <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;Incorrect usage of Kill_Notification: %s&quot;</span>, checkargs); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l01526"></a><span class="lineno"> 1526</span>&#160;</div>
+<div class="line"><a name="l01527"></a><span class="lineno"> 1527</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> net_notif = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(net_kill_notification);</div>
+<div class="line"><a name="l01528"></a><span class="lineno"> 1528</span>&#160;    net_notif.nent_broadcast = broadcast;</div>
+<div class="line"><a name="l01529"></a><span class="lineno"> 1529</span>&#160;    net_notif.nent_client = client;</div>
+<div class="line"><a name="l01530"></a><span class="lineno"> 1530</span>&#160;    net_notif.nent_net_type = MSG_CENTER_KILL;</div>
+<div class="line"><a name="l01531"></a><span class="lineno"> 1531</span>&#160;    net_notif.nent_net_name = <a class="code" href="../../da/dd5/enumclass_8qh.html#a7339abefe19e4109853567ae9664cf04">ORDINAL</a>(net_cpid);</div>
+<div class="line"><a name="l01532"></a><span class="lineno"> 1532</span>&#160;    Net_LinkEntity(net_notif, <span class="keyword">false</span>, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a6a45ec6d35af6e73ba2429f9f46bb513">autocvar_notification_lifetime_runtime</a>, Net_Write_Notification);</div>
+<div class="line"><a name="l01533"></a><span class="lineno"> 1533</span>&#160;</div>
+<div class="line"><a name="l01534"></a><span class="lineno"> 1534</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#a9f7a7d300e46d88cef3a4cee03d98c01">FOREACH_ENTITY_CLASS</a>(</div>
+<div class="line"><a name="l01535"></a><span class="lineno"> 1535</span>&#160;        <span class="stringliteral">&quot;net_notification&quot;</span>,</div>
+<div class="line"><a name="l01536"></a><span class="lineno"> 1536</span>&#160;        (it.owner.nent_type == net_type || net_type == MSG_Null) &amp;&amp; (it.owner.nent_cpid == net_cpid || net_cpid == <a class="code" href="../../df/d00/common_2notifications_2all_8inc.html#aab9c3a88fd3eb159f019aac642462055">CPID_Null</a>),</div>
+<div class="line"><a name="l01537"></a><span class="lineno"> 1537</span>&#160;        {</div>
+<div class="line"><a name="l01538"></a><span class="lineno"> 1538</span>&#160;            it.nent_net_name = -1;</div>
+<div class="line"><a name="l01539"></a><span class="lineno"> 1539</span>&#160;            it.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l01540"></a><span class="lineno"> 1540</span>&#160;        }</div>
+<div class="line"><a name="l01541"></a><span class="lineno"> 1541</span>&#160;    );</div>
+<div class="line"><a name="l01542"></a><span class="lineno"> 1542</span>&#160;}</div>
+<div class="line"><a name="l01543"></a><span class="lineno"> 1543</span>&#160;</div>
+<div class="line"><a name="l01544"></a><span class="lineno"> 1544</span>&#160;<span class="keywordtype">void</span> Send_Notification(</div>
+<div class="line"><a name="l01545"></a><span class="lineno"> 1545</span>&#160;    NOTIF broadcast, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client,</div>
+<div class="line"><a name="l01546"></a><span class="lineno"> 1546</span>&#160;    MSG net_type, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aa46580df20165dd8315928c81936292e">Notification</a> net_name,</div>
+<div class="line"><a name="l01547"></a><span class="lineno"> 1547</span>&#160;    ...<a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a>)</div>
+<div class="line"><a name="l01548"></a><span class="lineno"> 1548</span>&#160;{</div>
+<div class="line"><a name="l01549"></a><span class="lineno"> 1549</span>&#160;    <span class="keywordflow">if</span> (broadcast != NOTIF_ALL &amp;&amp; broadcast != NOTIF_ALL_EXCEPT &amp;&amp; !<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(client)) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01550"></a><span class="lineno"> 1550</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> notif = net_name;</div>
+<div class="line"><a name="l01551"></a><span class="lineno"> 1551</span>&#160;    <span class="keywordtype">string</span> parms = sprintf(<span class="stringliteral">&quot;%s, &#39;%s&#39;, %s, %s&quot;</span>,</div>
+<div class="line"><a name="l01552"></a><span class="lineno"> 1552</span>&#160;        Get_Notif_BroadcastName(broadcast),</div>
+<div class="line"><a name="l01553"></a><span class="lineno"> 1553</span>&#160;        client.classname,</div>
+<div class="line"><a name="l01554"></a><span class="lineno"> 1554</span>&#160;        <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(net_type),</div>
+<div class="line"><a name="l01555"></a><span class="lineno"> 1555</span>&#160;        net_name.registered_id</div>
+<div class="line"><a name="l01556"></a><span class="lineno"> 1556</span>&#160;    );</div>
+<div class="line"><a name="l01557"></a><span class="lineno"> 1557</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
+<div class="line"><a name="l01558"></a><span class="lineno"> 1558</span>&#160;<span class="preprocessor"></span>    Debug_Notification(sprintf(<span class="stringliteral">&quot;Send_Notification(%s, ...%d);\n&quot;</span>, parms, <a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a>));</div>
+<div class="line"><a name="l01559"></a><span class="lineno"> 1559</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l01560"></a><span class="lineno"> 1560</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01561"></a><span class="lineno"> 1561</span>&#160;    <span class="keywordflow">if</span> (!notif)</div>
+<div class="line"><a name="l01562"></a><span class="lineno"> 1562</span>&#160;    {</div>
+<div class="line"><a name="l01563"></a><span class="lineno"> 1563</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#afef5ff03ea272d388345cf47148953d4">LOG_WARNING</a>(<span class="stringliteral">&quot;Send_Notification: Could not find notification entity!&quot;</span>);</div>
+<div class="line"><a name="l01564"></a><span class="lineno"> 1564</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01565"></a><span class="lineno"> 1565</span>&#160;    }</div>
+<div class="line"><a name="l01566"></a><span class="lineno"> 1566</span>&#160;</div>
+<div class="line"><a name="l01567"></a><span class="lineno"> 1567</span>&#160;    <span class="comment">// check supplied broadcast, target, type, and name for errors</span></div>
+<div class="line"><a name="l01568"></a><span class="lineno"> 1568</span>&#160;    <span class="keywordtype">string</span> checkargs = Notification_CheckArgs(broadcast, client);</div>
+<div class="line"><a name="l01569"></a><span class="lineno"> 1569</span>&#160;    <span class="keywordflow">if</span> (!net_name) { checkargs = sprintf(<span class="stringliteral">&quot;No notification provided! %s&quot;</span>, checkargs); }</div>
+<div class="line"><a name="l01570"></a><span class="lineno"> 1570</span>&#160;    <span class="keywordflow">if</span> (checkargs != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l01571"></a><span class="lineno"> 1571</span>&#160;    {</div>
+<div class="line"><a name="l01572"></a><span class="lineno"> 1572</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;Incorrect usage of Send_Notification: %s&quot;</span>, checkargs);</div>
+<div class="line"><a name="l01573"></a><span class="lineno"> 1573</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01574"></a><span class="lineno"> 1574</span>&#160;    }</div>
+<div class="line"><a name="l01575"></a><span class="lineno"> 1575</span>&#160;</div>
+<div class="line"><a name="l01576"></a><span class="lineno"> 1576</span>&#160;    <span class="keywordtype">string</span> s1 = ((0 &lt; notif.nent_stringcount) ? ...(0, <span class="keywordtype">string</span>) : <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l01577"></a><span class="lineno"> 1577</span>&#160;    <span class="keywordtype">string</span> s2 = ((1 &lt; notif.nent_stringcount) ? ...(1, <span class="keywordtype">string</span>) : <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l01578"></a><span class="lineno"> 1578</span>&#160;    <span class="keywordtype">string</span> s3 = ((2 &lt; notif.nent_stringcount) ? ...(2, <span class="keywordtype">string</span>) : <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l01579"></a><span class="lineno"> 1579</span>&#160;    <span class="keywordtype">string</span> s4 = ((3 &lt; notif.nent_stringcount) ? ...(3, <span class="keywordtype">string</span>) : <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l01580"></a><span class="lineno"> 1580</span>&#160;    <span class="keywordtype">float</span> f1 = ((0 &lt; notif.nent_floatcount) ? ...((notif.nent_stringcount + 0), <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">float</a>) : 0);</div>
+<div class="line"><a name="l01581"></a><span class="lineno"> 1581</span>&#160;    <span class="keywordtype">float</span> f2 = ((1 &lt; notif.nent_floatcount) ? ...((notif.nent_stringcount + 1), <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">float</a>) : 0);</div>
+<div class="line"><a name="l01582"></a><span class="lineno"> 1582</span>&#160;    <span class="keywordtype">float</span> f3 = ((2 &lt; notif.nent_floatcount) ? ...((notif.nent_stringcount + 2), <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">float</a>) : 0);</div>
+<div class="line"><a name="l01583"></a><span class="lineno"> 1583</span>&#160;    <span class="keywordtype">float</span> f4 = ((3 &lt; notif.nent_floatcount) ? ...((notif.nent_stringcount + 3), <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">float</a>) : 0);</div>
+<div class="line"><a name="l01584"></a><span class="lineno"> 1584</span>&#160;</div>
+<div class="line"><a name="l01585"></a><span class="lineno"> 1585</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
+<div class="line"><a name="l01586"></a><span class="lineno"> 1586</span>&#160;<span class="preprocessor"></span>    Debug_Notification(sprintf(</div>
+<div class="line"><a name="l01587"></a><span class="lineno"> 1587</span>&#160;        <span class="stringliteral">&quot;Send_Notification(%s, %s, %s);\n&quot;</span>,</div>
+<div class="line"><a name="l01588"></a><span class="lineno"> 1588</span>&#160;        parms,</div>
+<div class="line"><a name="l01589"></a><span class="lineno"> 1589</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ad61de8ccc8dc77d2cb822e7a7ff34a9d">MakeConsoleSafe</a>(sprintf(<span class="stringliteral">&quot;&#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;&quot;</span>, s1, s2, s3, s4)),</div>
+<div class="line"><a name="l01590"></a><span class="lineno"> 1590</span>&#160;        sprintf(<span class="stringliteral">&quot;%d, %d, %d, %d&quot;</span>, f1, f2, f3, f4)</div>
+<div class="line"><a name="l01591"></a><span class="lineno"> 1591</span>&#160;    ));</div>
+<div class="line"><a name="l01592"></a><span class="lineno"> 1592</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l01593"></a><span class="lineno"> 1593</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01594"></a><span class="lineno"> 1594</span>&#160;    <span class="keywordflow">if</span> ((notif.nent_stringcount + notif.nent_floatcount) != <a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a>)</div>
+<div class="line"><a name="l01595"></a><span class="lineno"> 1595</span>&#160;    {</div>
+<div class="line"><a name="l01596"></a><span class="lineno"> 1596</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(</div>
+<div class="line"><a name="l01597"></a><span class="lineno"> 1597</span>&#160;            <span class="stringliteral">&quot;Argument mismatch for Send_Notification(%s, ...)! &quot;</span></div>
+<div class="line"><a name="l01598"></a><span class="lineno"> 1598</span>&#160;            <span class="stringliteral">&quot;stringcount(%d) + floatcount(%d) != count(%d)\n&quot;</span></div>
+<div class="line"><a name="l01599"></a><span class="lineno"> 1599</span>&#160;            <span class="stringliteral">&quot;Check the definition and function call for accuracy...?\n&quot;</span>,</div>
+<div class="line"><a name="l01600"></a><span class="lineno"> 1600</span>&#160;            parms,</div>
+<div class="line"><a name="l01601"></a><span class="lineno"> 1601</span>&#160;            notif.nent_stringcount,</div>
+<div class="line"><a name="l01602"></a><span class="lineno"> 1602</span>&#160;            notif.nent_floatcount,</div>
+<div class="line"><a name="l01603"></a><span class="lineno"> 1603</span>&#160;            <a class="code" href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a></div>
+<div class="line"><a name="l01604"></a><span class="lineno"> 1604</span>&#160;        );</div>
+<div class="line"><a name="l01605"></a><span class="lineno"> 1605</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l01606"></a><span class="lineno"> 1606</span>&#160;    }</div>
+<div class="line"><a name="l01607"></a><span class="lineno"> 1607</span>&#160;</div>
+<div class="line"><a name="l01608"></a><span class="lineno"> 1608</span>&#160;    <span class="keywordflow">if</span> (</div>
+<div class="line"><a name="l01609"></a><span class="lineno"> 1609</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#a95a3f7e88286501193d87271e950a6b1">server_is_dedicated</a></div>
+<div class="line"><a name="l01610"></a><span class="lineno"> 1610</span>&#160;        &amp;&amp;</div>
+<div class="line"><a name="l01611"></a><span class="lineno"> 1611</span>&#160;        (</div>
+<div class="line"><a name="l01612"></a><span class="lineno"> 1612</span>&#160;            broadcast == NOTIF_ALL</div>
+<div class="line"><a name="l01613"></a><span class="lineno"> 1613</span>&#160;            ||</div>
+<div class="line"><a name="l01614"></a><span class="lineno"> 1614</span>&#160;            broadcast == NOTIF_ALL_EXCEPT</div>
+<div class="line"><a name="l01615"></a><span class="lineno"> 1615</span>&#160;        )</div>
+<div class="line"><a name="l01616"></a><span class="lineno"> 1616</span>&#160;        &amp;&amp;</div>
+<div class="line"><a name="l01617"></a><span class="lineno"> 1617</span>&#160;        !(</div>
+<div class="line"><a name="l01618"></a><span class="lineno"> 1618</span>&#160;            net_type == MSG_ANNCE</div>
+<div class="line"><a name="l01619"></a><span class="lineno"> 1619</span>&#160;            ||</div>
+<div class="line"><a name="l01620"></a><span class="lineno"> 1620</span>&#160;            net_type == MSG_CENTER</div>
+<div class="line"><a name="l01621"></a><span class="lineno"> 1621</span>&#160;        )</div>
+<div class="line"><a name="l01622"></a><span class="lineno"> 1622</span>&#160;    )</div>
+<div class="line"><a name="l01623"></a><span class="lineno"> 1623</span>&#160;    {</div>
+<div class="line"><a name="l01624"></a><span class="lineno"> 1624</span>&#160;        <a class="code" href="../../d4/df2/common_2notifications_2all_8qc.html#ab191ea2d6864d62cf12f82140b351f66">Local_Notification_WOVA</a>(</div>
+<div class="line"><a name="l01625"></a><span class="lineno"> 1625</span>&#160;            net_type, net_name,</div>
+<div class="line"><a name="l01626"></a><span class="lineno"> 1626</span>&#160;            notif.nent_stringcount,</div>
+<div class="line"><a name="l01627"></a><span class="lineno"> 1627</span>&#160;            notif.nent_floatcount,</div>
+<div class="line"><a name="l01628"></a><span class="lineno"> 1628</span>&#160;            s1, s2, s3, s4,</div>
+<div class="line"><a name="l01629"></a><span class="lineno"> 1629</span>&#160;            f1, f2, f3, f4);</div>
+<div class="line"><a name="l01630"></a><span class="lineno"> 1630</span>&#160;    }</div>
+<div class="line"><a name="l01631"></a><span class="lineno"> 1631</span>&#160;</div>
+<div class="line"><a name="l01632"></a><span class="lineno"> 1632</span>&#160;    <span class="keywordflow">if</span> (net_type == MSG_CHOICE)</div>
+<div class="line"><a name="l01633"></a><span class="lineno"> 1633</span>&#160;    {</div>
+<div class="line"><a name="l01634"></a><span class="lineno"> 1634</span>&#160;        <span class="comment">// THIS GETS TRICKY... now we have to cycle through each possible player (checking broadcast)</span></div>
+<div class="line"><a name="l01635"></a><span class="lineno"> 1635</span>&#160;        <span class="comment">// and then do an individual NOTIF_ONE_ONLY recursive call for each one depending on their option...</span></div>
+<div class="line"><a name="l01636"></a><span class="lineno"> 1636</span>&#160;        <span class="comment">// It&#39;s slow, but it&#39;s better than the alternatives:</span></div>
+<div class="line"><a name="l01637"></a><span class="lineno"> 1637</span>&#160;        <span class="comment">//   1. Constantly networking all info and letting client decide</span></div>
+<div class="line"><a name="l01638"></a><span class="lineno"> 1638</span>&#160;        <span class="comment">//   2. Manually handling each separate call on per-usage basis (See old CTF usage of verbose)</span></div>
+<div class="line"><a name="l01639"></a><span class="lineno"> 1639</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> found_choice;</div>
+<div class="line"><a name="l01640"></a><span class="lineno"> 1640</span>&#160;</div>
+<div class="line"><a name="l01641"></a><span class="lineno"> 1641</span>&#160;<span class="preprocessor">        #define RECURSE_FROM_CHOICE(ent,action) MACRO_BEGIN { \</span></div>
+<div class="line"><a name="l01642"></a><span class="lineno"> 1642</span>&#160;<span class="preprocessor">            if (notif.nent_challow_var &amp;&amp; (warmup_stage || (notif.nent_challow_var == 2))) { \</span></div>
+<div class="line"><a name="l01643"></a><span class="lineno"> 1643</span>&#160;<span class="preprocessor">                switch (ent.msg_choice_choices[net_name.nent_choice_idx]) \</span></div>
+<div class="line"><a name="l01644"></a><span class="lineno"> 1644</span>&#160;<span class="preprocessor">                { \</span></div>
+<div class="line"><a name="l01645"></a><span class="lineno"> 1645</span>&#160;<span class="preprocessor">                    case 1: found_choice = notif.nent_optiona; break; \</span></div>
+<div class="line"><a name="l01646"></a><span class="lineno"> 1646</span>&#160;<span class="preprocessor">                    case 2: found_choice = notif.nent_optionb; break; \</span></div>
+<div class="line"><a name="l01647"></a><span class="lineno"> 1647</span>&#160;<span class="preprocessor">                    default: action; \</span></div>
+<div class="line"><a name="l01648"></a><span class="lineno"> 1648</span>&#160;<span class="preprocessor">                } \</span></div>
+<div class="line"><a name="l01649"></a><span class="lineno"> 1649</span>&#160;<span class="preprocessor">            } else { \</span></div>
+<div class="line"><a name="l01650"></a><span class="lineno"> 1650</span>&#160;<span class="preprocessor">                found_choice = notif.nent_optiona; \</span></div>
+<div class="line"><a name="l01651"></a><span class="lineno"> 1651</span>&#160;<span class="preprocessor">            } \</span></div>
+<div class="line"><a name="l01652"></a><span class="lineno"> 1652</span>&#160;<span class="preprocessor">            Send_Notification_WOVA( \</span></div>
+<div class="line"><a name="l01653"></a><span class="lineno"> 1653</span>&#160;<span class="preprocessor">                NOTIF_ONE_ONLY, \</span></div>
+<div class="line"><a name="l01654"></a><span class="lineno"> 1654</span>&#160;<span class="preprocessor">                ent, \</span></div>
+<div class="line"><a name="l01655"></a><span class="lineno"> 1655</span>&#160;<span class="preprocessor">                found_choice.nent_type, \</span></div>
+<div class="line"><a name="l01656"></a><span class="lineno"> 1656</span>&#160;<span class="preprocessor">                found_choice, \</span></div>
+<div class="line"><a name="l01657"></a><span class="lineno"> 1657</span>&#160;<span class="preprocessor">                found_choice.nent_stringcount, \</span></div>
+<div class="line"><a name="l01658"></a><span class="lineno"> 1658</span>&#160;<span class="preprocessor">                found_choice.nent_floatcount, \</span></div>
+<div class="line"><a name="l01659"></a><span class="lineno"> 1659</span>&#160;<span class="preprocessor">                s1, s2, s3, s4, \</span></div>
+<div class="line"><a name="l01660"></a><span class="lineno"> 1660</span>&#160;<span class="preprocessor">                f1, f2, f3, f4); \</span></div>
+<div class="line"><a name="l01661"></a><span class="lineno"> 1661</span>&#160;<span class="preprocessor">        } MACRO_END</span></div>
+<div class="line"><a name="l01662"></a><span class="lineno"> 1662</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01663"></a><span class="lineno"> 1663</span>&#160;        <span class="keywordflow">switch</span> (broadcast)</div>
+<div class="line"><a name="l01664"></a><span class="lineno"> 1664</span>&#160;        {</div>
+<div class="line"><a name="l01665"></a><span class="lineno"> 1665</span>&#160;            <span class="keywordflow">case</span> NOTIF_ONE_ONLY: <span class="comment">// we can potentially save processing power with this broadcast method</span></div>
+<div class="line"><a name="l01666"></a><span class="lineno"> 1666</span>&#160;            {</div>
+<div class="line"><a name="l01667"></a><span class="lineno"> 1667</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(client)) {</div>
+<div class="line"><a name="l01668"></a><span class="lineno"> 1668</span>&#160;                    RECURSE_FROM_CHOICE(client, <span class="keywordflow">return</span>);</div>
+<div class="line"><a name="l01669"></a><span class="lineno"> 1669</span>&#160;                }</div>
+<div class="line"><a name="l01670"></a><span class="lineno"> 1670</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01671"></a><span class="lineno"> 1671</span>&#160;            }</div>
+<div class="line"><a name="l01672"></a><span class="lineno"> 1672</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l01673"></a><span class="lineno"> 1673</span>&#160;            {</div>
+<div class="line"><a name="l01674"></a><span class="lineno"> 1674</span>&#160;                <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) &amp;&amp; Notification_ShouldSend(broadcast, it, client), {</div>
+<div class="line"><a name="l01675"></a><span class="lineno"> 1675</span>&#160;                    RECURSE_FROM_CHOICE(it, <span class="keywordflow">continue</span>);</div>
+<div class="line"><a name="l01676"></a><span class="lineno"> 1676</span>&#160;                });</div>
+<div class="line"><a name="l01677"></a><span class="lineno"> 1677</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01678"></a><span class="lineno"> 1678</span>&#160;            }</div>
+<div class="line"><a name="l01679"></a><span class="lineno"> 1679</span>&#160;        }</div>
+<div class="line"><a name="l01680"></a><span class="lineno"> 1680</span>&#160;    }</div>
+<div class="line"><a name="l01681"></a><span class="lineno"> 1681</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01682"></a><span class="lineno"> 1682</span>&#160;    {</div>
+<div class="line"><a name="l01683"></a><span class="lineno"> 1683</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> net_notif = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(net_notification);</div>
+<div class="line"><a name="l01684"></a><span class="lineno"> 1684</span>&#160;        net_notif.owner = notif;</div>
+<div class="line"><a name="l01685"></a><span class="lineno"> 1685</span>&#160;        net_notif.nent_broadcast = broadcast;</div>
+<div class="line"><a name="l01686"></a><span class="lineno"> 1686</span>&#160;        net_notif.nent_client = client;</div>
+<div class="line"><a name="l01687"></a><span class="lineno"> 1687</span>&#160;        net_notif.nent_net_type = net_type;</div>
+<div class="line"><a name="l01688"></a><span class="lineno"> 1688</span>&#160;        net_notif.nent_net_name = notif.m_id;</div>
+<div class="line"><a name="l01689"></a><span class="lineno"> 1689</span>&#160;        net_notif.nent_stringcount = notif.nent_stringcount;</div>
+<div class="line"><a name="l01690"></a><span class="lineno"> 1690</span>&#160;        net_notif.nent_floatcount = notif.nent_floatcount;</div>
+<div class="line"><a name="l01691"></a><span class="lineno"> 1691</span>&#160;</div>
+<div class="line"><a name="l01692"></a><span class="lineno"> 1692</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; net_notif.nent_stringcount; ++i) {</div>
+<div class="line"><a name="l01693"></a><span class="lineno"> 1693</span>&#160;            net_notif.nent_strings[i] = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(...(i, <span class="keywordtype">string</span>));</div>
+<div class="line"><a name="l01694"></a><span class="lineno"> 1694</span>&#160;        }</div>
+<div class="line"><a name="l01695"></a><span class="lineno"> 1695</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; net_notif.nent_floatcount; ++i) {</div>
+<div class="line"><a name="l01696"></a><span class="lineno"> 1696</span>&#160;            net_notif.nent_floats[i] = ...((net_notif.nent_stringcount + i), <span class="keywordtype">float</span>);</div>
+<div class="line"><a name="l01697"></a><span class="lineno"> 1697</span>&#160;        }</div>
+<div class="line"><a name="l01698"></a><span class="lineno"> 1698</span>&#160;</div>
+<div class="line"><a name="l01699"></a><span class="lineno"> 1699</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(net_notif, Net_Notification_Remove);</div>
+<div class="line"><a name="l01700"></a><span class="lineno"> 1700</span>&#160;        net_notif.nextthink = (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a58592f2dbd538b466b3a7f92fb7382ab">autocvar_notification_lifetime_mapload</a>)</div>
+<div class="line"><a name="l01701"></a><span class="lineno"> 1701</span>&#160;            ? (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a6a45ec6d35af6e73ba2429f9f46bb513">autocvar_notification_lifetime_runtime</a>)</div>
+<div class="line"><a name="l01702"></a><span class="lineno"> 1702</span>&#160;            : <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a58592f2dbd538b466b3a7f92fb7382ab">autocvar_notification_lifetime_mapload</a>;</div>
+<div class="line"><a name="l01703"></a><span class="lineno"> 1703</span>&#160;</div>
+<div class="line"><a name="l01704"></a><span class="lineno"> 1704</span>&#160;        Net_LinkEntity(net_notif, <span class="keyword">false</span>, 0, Net_Write_Notification);</div>
+<div class="line"><a name="l01705"></a><span class="lineno"> 1705</span>&#160;    }</div>
+<div class="line"><a name="l01706"></a><span class="lineno"> 1706</span>&#160;}</div>
+<div class="line"><a name="l01707"></a><span class="lineno"> 1707</span>&#160;</div>
+<div class="line"><a name="l01708"></a><span class="lineno"> 1708</span>&#160;<span class="comment">// WOVA = Without Variable Arguments</span></div>
+<div class="line"><a name="l01709"></a><span class="lineno"> 1709</span>&#160;<span class="keywordtype">void</span> Send_Notification_WOVA(</div>
+<div class="line"><a name="l01710"></a><span class="lineno"> 1710</span>&#160;    NOTIF broadcast, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client,</div>
+<div class="line"><a name="l01711"></a><span class="lineno"> 1711</span>&#160;    MSG net_type, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aa46580df20165dd8315928c81936292e">Notification</a> net_name,</div>
+<div class="line"><a name="l01712"></a><span class="lineno"> 1712</span>&#160;    <span class="keywordtype">float</span> stringcount, <span class="keywordtype">float</span> floatcount,</div>
+<div class="line"><a name="l01713"></a><span class="lineno"> 1713</span>&#160;    <span class="keywordtype">string</span> s1, <span class="keywordtype">string</span> s2, <span class="keywordtype">string</span> s3, <span class="keywordtype">string</span> s4,</div>
+<div class="line"><a name="l01714"></a><span class="lineno"> 1714</span>&#160;    <span class="keywordtype">float</span> f1, <span class="keywordtype">float</span> f2, <span class="keywordtype">float</span> f3, <span class="keywordtype">float</span> f4)</div>
+<div class="line"><a name="l01715"></a><span class="lineno"> 1715</span>&#160;{</div>
+<div class="line"><a name="l01716"></a><span class="lineno"> 1716</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
+<div class="line"><a name="l01717"></a><span class="lineno"> 1717</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> notif = net_name;</div>
+<div class="line"><a name="l01718"></a><span class="lineno"> 1718</span>&#160;    Debug_Notification(sprintf(</div>
+<div class="line"><a name="l01719"></a><span class="lineno"> 1719</span>&#160;        <span class="stringliteral">&quot;Send_Notification_WOVA(%s, %d, %d, %s, %s);\n&quot;</span>,</div>
+<div class="line"><a name="l01720"></a><span class="lineno"> 1720</span>&#160;        sprintf(</div>
+<div class="line"><a name="l01721"></a><span class="lineno"> 1721</span>&#160;            <span class="stringliteral">&quot;%s, &#39;%s&#39;, %s, %s&quot;</span>,</div>
+<div class="line"><a name="l01722"></a><span class="lineno"> 1722</span>&#160;            Get_Notif_BroadcastName(broadcast),</div>
+<div class="line"><a name="l01723"></a><span class="lineno"> 1723</span>&#160;            client.classname,</div>
+<div class="line"><a name="l01724"></a><span class="lineno"> 1724</span>&#160;            <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(net_type),</div>
+<div class="line"><a name="l01725"></a><span class="lineno"> 1725</span>&#160;            notif.nent_name</div>
+<div class="line"><a name="l01726"></a><span class="lineno"> 1726</span>&#160;        ),</div>
+<div class="line"><a name="l01727"></a><span class="lineno"> 1727</span>&#160;        stringcount,</div>
+<div class="line"><a name="l01728"></a><span class="lineno"> 1728</span>&#160;        floatcount,</div>
+<div class="line"><a name="l01729"></a><span class="lineno"> 1729</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ad61de8ccc8dc77d2cb822e7a7ff34a9d">MakeConsoleSafe</a>(sprintf(<span class="stringliteral">&quot;&#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;&quot;</span>, s1, s2, s3, s4)),</div>
+<div class="line"><a name="l01730"></a><span class="lineno"> 1730</span>&#160;        sprintf(<span class="stringliteral">&quot;%d, %d, %d, %d&quot;</span>, f1, f2, f3, f4)</div>
+<div class="line"><a name="l01731"></a><span class="lineno"> 1731</span>&#160;    ));</div>
+<div class="line"><a name="l01732"></a><span class="lineno"> 1732</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l01733"></a><span class="lineno"> 1733</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01734"></a><span class="lineno"> 1734</span>&#160;<span class="preprocessor">    #define VARITEM(stringc, floatc, args) \</span></div>
+<div class="line"><a name="l01735"></a><span class="lineno"> 1735</span>&#160;<span class="preprocessor">        if ((stringcount == stringc) &amp;&amp; (floatcount == floatc)) \</span></div>
+<div class="line"><a name="l01736"></a><span class="lineno"> 1736</span>&#160;<span class="preprocessor">        { Send_Notification(broadcast, client, net_type, net_name, args); return; }</span></div>
+<div class="line"><a name="l01737"></a><span class="lineno"> 1737</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a7d0f0d2bef7f5dea91eafc4181b9b045">EIGHT_VARS_TO_VARARGS_VARLIST</a></div>
+<div class="line"><a name="l01738"></a><span class="lineno"> 1738</span>&#160;<span class="preprocessor">    #undef VARITEM</span></div>
+<div class="line"><a name="l01739"></a><span class="lineno"> 1739</span>&#160;<span class="preprocessor"></span>    Send_Notification(broadcast, client, net_type, net_name); <span class="comment">// some notifications don&#39;t have any arguments at all</span></div>
+<div class="line"><a name="l01740"></a><span class="lineno"> 1740</span>&#160;}</div>
+<div class="line"><a name="l01741"></a><span class="lineno"> 1741</span>&#160;</div>
+<div class="line"><a name="l01742"></a><span class="lineno"> 1742</span>&#160;<span class="comment">// WOCOVA = Without Counts Or Variable Arguments</span></div>
+<div class="line"><a name="l01743"></a><span class="lineno"> 1743</span>&#160;<span class="keywordtype">void</span> Send_Notification_WOCOVA(</div>
+<div class="line"><a name="l01744"></a><span class="lineno"> 1744</span>&#160;    NOTIF broadcast, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client,</div>
+<div class="line"><a name="l01745"></a><span class="lineno"> 1745</span>&#160;    MSG net_type, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aa46580df20165dd8315928c81936292e">Notification</a> net_name,</div>
+<div class="line"><a name="l01746"></a><span class="lineno"> 1746</span>&#160;    <span class="keywordtype">string</span> s1, <span class="keywordtype">string</span> s2, <span class="keywordtype">string</span> s3, <span class="keywordtype">string</span> s4,</div>
+<div class="line"><a name="l01747"></a><span class="lineno"> 1747</span>&#160;    <span class="keywordtype">float</span> f1, <span class="keywordtype">float</span> f2, <span class="keywordtype">float</span> f3, <span class="keywordtype">float</span> f4)</div>
+<div class="line"><a name="l01748"></a><span class="lineno"> 1748</span>&#160;{</div>
+<div class="line"><a name="l01749"></a><span class="lineno"> 1749</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> notif = net_name;</div>
+<div class="line"><a name="l01750"></a><span class="lineno"> 1750</span>&#160;</div>
+<div class="line"><a name="l01751"></a><span class="lineno"> 1751</span>&#160;<span class="preprocessor">    #ifdef NOTIFICATIONS_DEBUG</span></div>
+<div class="line"><a name="l01752"></a><span class="lineno"> 1752</span>&#160;<span class="preprocessor"></span>    Debug_Notification(sprintf(</div>
+<div class="line"><a name="l01753"></a><span class="lineno"> 1753</span>&#160;        <span class="stringliteral">&quot;Send_Notification_WOCOVA(%s, %s, %s);\n&quot;</span>,</div>
+<div class="line"><a name="l01754"></a><span class="lineno"> 1754</span>&#160;        sprintf(</div>
+<div class="line"><a name="l01755"></a><span class="lineno"> 1755</span>&#160;            <span class="stringliteral">&quot;%s, &#39;%s&#39;, %s, %s&quot;</span>,</div>
+<div class="line"><a name="l01756"></a><span class="lineno"> 1756</span>&#160;            Get_Notif_BroadcastName(broadcast),</div>
+<div class="line"><a name="l01757"></a><span class="lineno"> 1757</span>&#160;            client.classname,</div>
+<div class="line"><a name="l01758"></a><span class="lineno"> 1758</span>&#160;            <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb">Get_Notif_TypeName</a>(net_type),</div>
+<div class="line"><a name="l01759"></a><span class="lineno"> 1759</span>&#160;            notif.nent_name</div>
+<div class="line"><a name="l01760"></a><span class="lineno"> 1760</span>&#160;        ),</div>
+<div class="line"><a name="l01761"></a><span class="lineno"> 1761</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ad61de8ccc8dc77d2cb822e7a7ff34a9d">MakeConsoleSafe</a>(sprintf(<span class="stringliteral">&quot;&#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;, &#39;%s^7&#39;&quot;</span>, s1, s2, s3, s4)),</div>
+<div class="line"><a name="l01762"></a><span class="lineno"> 1762</span>&#160;        sprintf(<span class="stringliteral">&quot;%d, %d, %d, %d&quot;</span>, f1, f2, f3, f4)</div>
+<div class="line"><a name="l01763"></a><span class="lineno"> 1763</span>&#160;    ));</div>
+<div class="line"><a name="l01764"></a><span class="lineno"> 1764</span>&#160;<span class="preprocessor">    #endif</span></div>
+<div class="line"><a name="l01765"></a><span class="lineno"> 1765</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01766"></a><span class="lineno"> 1766</span>&#160;<span class="preprocessor">    #define VARITEM(stringc, floatc, args) \</span></div>
+<div class="line"><a name="l01767"></a><span class="lineno"> 1767</span>&#160;<span class="preprocessor">        if ((notif.nent_stringcount == stringc) &amp;&amp; (notif.nent_floatcount == floatc)) \</span></div>
+<div class="line"><a name="l01768"></a><span class="lineno"> 1768</span>&#160;<span class="preprocessor">        { Send_Notification(broadcast, client, net_type, net_name, args); return; }</span></div>
+<div class="line"><a name="l01769"></a><span class="lineno"> 1769</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a7d0f0d2bef7f5dea91eafc4181b9b045">EIGHT_VARS_TO_VARARGS_VARLIST</a></div>
+<div class="line"><a name="l01770"></a><span class="lineno"> 1770</span>&#160;<span class="preprocessor">    #undef VARITEM</span></div>
+<div class="line"><a name="l01771"></a><span class="lineno"> 1771</span>&#160;<span class="preprocessor"></span>    Send_Notification(broadcast, client, net_type, net_name); <span class="comment">// some notifications don&#39;t have any arguments at all</span></div>
+<div class="line"><a name="l01772"></a><span class="lineno"> 1772</span>&#160;}</div>
+<div class="line"><a name="l01773"></a><span class="lineno"> 1773</span>&#160;<span class="preprocessor">#endif // ifdef SVQC</span></div>
 <div class="ttc" id="centerprint_8qc_html_a369d3074c3a2f6caa03166cdd9f7fa4b"><div class="ttname"><a href="../../d4/dbb/centerprint_8qc.html#a369d3074c3a2f6caa03166cdd9f7fa4b">centerprint_generic</a></div><div class="ttdeci">void centerprint_generic(int new_id, string strMessage, float duration, int countdown_num)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbb/centerprint_8qc_source.html#l00018">centerprint.qc:18</a></div></div>
 <div class="ttc" id="common_2notifications_2all_8qh_html_a87810e4b368131287592ae2bae89bcea"><div class="ttname"><a href="../../dc/de5/common_2notifications_2all_8qh.html#a87810e4b368131287592ae2bae89bcea">nent_strings</a></div><div class="ttdeci">string nent_strings[4]</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/common_2notifications_2all_8qh_source.html#l00658">all.qh:658</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
@@ -1884,7 +1883,6 @@ $(document).ready(function(){initNavTree('d4/df2/common_2notifications_2all_8qc_
 <div class="ttc" id="common_2notifications_2all_8qh_html_a48e914e82f74bfdda00fd9f531896dc9"><div class="ttname"><a href="../../dc/de5/common_2notifications_2all_8qh.html#a48e914e82f74bfdda00fd9f531896dc9">notif_error</a></div><div class="ttdeci">bool notif_error</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/de5/common_2notifications_2all_8qh_source.html#l00673">all.qh:673</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ad8c10b147bc98b1e92606d254f8d45fd"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ad8c10b147bc98b1e92606d254f8d45fd">GENTLE</a></div><div class="ttdeci">#define GENTLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00268">util.qh:268</a></div></div>
 <div class="ttc" id="net_8qh_html_a2c87ee9a4aa12245bb6e80f321975ded"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a></div><div class="ttdeci">#define NET_HANDLE(id, param)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00010">net.qh:10</a></div></div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00023">self.qh:23</a></div></div>
 <div class="ttc" id="common_2notifications_2all_8inc_html_a0c3e091adeda4f2178165df11bc8225b"><div class="ttname"><a href="../../df/d00/common_2notifications_2all_8inc.html#a0c3e091adeda4f2178165df11bc8225b">s2</a></div><div class="ttdeci">spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 spree_inf s1 s2 s3loc s2 s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2loc s1 s2 f1 f1points s2 minigame1_name s2</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d00/common_2notifications_2all_8inc_source.html#l00414">all.inc:414</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="common_2notifications_2all_8qc_html_ab191ea2d6864d62cf12f82140b351f66"><div class="ttname"><a href="../../d4/df2/common_2notifications_2all_8qc.html#ab191ea2d6864d62cf12f82140b351f66">Local_Notification_WOVA</a></div><div class="ttdeci">void Local_Notification_WOVA(MSG net_type, Notification net_name, float stringcount, float floatcount, string s1, string s2, string s3, string s4, float f1, float f2, float f3, float f4)</div><div class="ttdoc">glue for networking, forwards to Local_Notification </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df2/common_2notifications_2all_8qc_source.html#l01388">all.qc:1388</a></div></div>
@@ -1992,7 +1990,7 @@ $(document).ready(function(){initNavTree('d4/df2/common_2notifications_2all_8qc_
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_cf234ab9b9033f681804c9de340d1a43.html">notifications</a></li><li class="navelem"><a class="el" href="../../d4/df2/common_2notifications_2all_8qc.html">all.qc</a></li>
-    <li class="footer">Generated on Mon May 23 2016 11:47:44 for Xonotic by
+    <li class="footer">Generated on Sat May 28 2016 00:26:59 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

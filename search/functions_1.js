@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a_5fthink',['a_think',['../d5/d53/movenode_8qc.html#a138fa1996a5a22d95a2afcc4dc9ffe1a',1,'movenode.qc']]],
+  ['a_5fthink',['a_think',['../d5/d53/movenode_8qc.html#a6fe9453a5267797164dcff57bb20a431',1,'movenode.qc']]],
   ['accumulate_5fcall',['ACCUMULATE_call',['../de/d68/accumulate_8qh.html#ade70a07ed0ace4db1fdea0a7cf3bb2d0',1,'accumulate.qh']]],
   ['accuracy_5fadd',['accuracy_add',['../da/d68/accuracy_8qc.html#a7a31db5f41f5e5ab6f93aa4021c80411',1,'accuracy_add(entity this, int w, int fired, int hit):&#160;accuracy.qc'],['../d3/d2d/accuracy_8qh.html#ab84e00d63d2ddaf481f24a890700199e',1,'accuracy_add(entity e, float w, float fired, float hit):&#160;accuracy.qh']]],
   ['accuracy_5fbyte',['accuracy_byte',['../da/d68/accuracy_8qc.html#addc590d48822d285d5025af942f6ef4e',1,'accuracy.qc']]],
@@ -16,8 +16,8 @@ var searchData=
   ['acosh',['acosh',['../df/d38/mathlib_8qc.html#aade379f07edc972d85b579897aa7c4dd',1,'acosh(float x):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#aade379f07edc972d85b579897aa7c4dd',1,'acosh(float x):&#160;mathlib.qc']]],
   ['activate_5fminigame',['activate_minigame',['../d4/db7/cl__minigames_8qc.html#ae5303360f75a64ebe22c3e175f26dc50',1,'cl_minigames.qc']]],
   ['activateteamplay',['ActivateTeamplay',['../d9/d8e/gamemode__assault_8qc.html#ae1c3e008f1694a4a8d288f0708893574',1,'ActivateTeamplay():&#160;teamplay.qc'],['../de/d4f/teamplay_8qc.html#ae1c3e008f1694a4a8d288f0708893574',1,'ActivateTeamplay():&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#ae1c3e008f1694a4a8d288f0708893574',1,'ActivateTeamplay():&#160;teamplay.qc']]],
-  ['adaptor_5fthink2use',['adaptor_think2use',['../d3/dd0/self_8qh.html#ad716ff091b01df5d9aa67eaa4919bdaa',1,'adaptor_think2use():&#160;self.qh'],['../dc/d73/server_2miscfunctions_8qh.html#ad716ff091b01df5d9aa67eaa4919bdaa',1,'adaptor_think2use():&#160;self.qh']]],
-  ['adaptor_5fthink2use_5fhittype_5fsplash',['adaptor_think2use_hittype_splash',['../dc/dc6/server_2miscfunctions_8qc.html#a44292599c2a4ed17431195febceac264',1,'miscfunctions.qc']]],
+  ['adaptor_5fthink2use',['adaptor_think2use',['../d3/dd0/self_8qh.html#a0701aa7e527660e2a38828beb26d02d4',1,'self.qh']]],
+  ['adaptor_5fthink2use_5fhittype_5fsplash',['adaptor_think2use_hittype_splash',['../dc/dc6/server_2miscfunctions_8qc.html#af695d661864cdf0f78273b0a8717a1e9',1,'miscfunctions.qc']]],
   ['addanim',['addAnim',['../d3/d78/classAnimHost.html#a17baecdbb5c3793fd271a3b76dc02716',1,'AnimHost::addAnim()'],['../db/d38/classKeyframe.html#acdefa7983d3b67e1aee6c16bd588005e',1,'Keyframe::addAnim()']]],
   ['addeasing',['addEasing',['../db/d38/classKeyframe.html#a43f954bd5677db19a1f89358532ef25b',1,'Keyframe']]],
   ['additem',['addItem',['../d0/d7b/classContainer.html#a3ae677ab4e4b63f5422c15aec371e29f',1,'Container::addItem()'],['../d6/d1a/classModalController.html#a664a226b5d87a63e5af7adede821a776',1,'ModalController::addItem()'],['../d8/d95/classNexposee.html#a34b6732e7f86a67b74af8c0ae6fe8d4a',1,'Nexposee::addItem()']]],
@@ -78,7 +78,7 @@ var searchData=
   ['animdecide_5fsetstate',['animdecide_setstate',['../d0/d51/animdecide_8qc.html#aac8cda37db89a45a301c788ad9ee8cc5',1,'animdecide_setstate(entity e, int newstate, float restart):&#160;animdecide.qc'],['../d3/d42/animdecide_8qh.html#aac8cda37db89a45a301c788ad9ee8cc5',1,'animdecide_setstate(entity e, int newstate, float restart):&#160;animdecide.qc']]],
   ['animfixfps',['animfixfps',['../d4/ddc/monster_8qh.html#afb8bc3000982cfa33e8babf4ee2209ce',1,'animfixfps(entity e, vector a, vector b):&#160;util.qc'],['../da/d44/common_2util_8qc.html#afb8bc3000982cfa33e8babf4ee2209ce',1,'animfixfps(entity e, vector a, vector b):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#afb8bc3000982cfa33e8babf4ee2209ce',1,'animfixfps(entity e, vector a, vector b):&#160;util.qc']]],
   ['announcer',['Announcer',['../da/df4/announcer_8qc.html#abb5b4637e37634b1b1ccc43540b8b369',1,'Announcer():&#160;announcer.qc'],['../df/d71/announcer_8qh.html#abb5b4637e37634b1b1ccc43540b8b369',1,'Announcer():&#160;announcer.qc']]],
-  ['announcer_5fcountdown',['Announcer_Countdown',['../da/df4/announcer_8qc.html#a0e97f430de68d1ece828f58a7570a460',1,'announcer.qc']]],
+  ['announcer_5fcountdown',['Announcer_Countdown',['../da/df4/announcer_8qc.html#a972b888aa4fd3cae1116a4007198882e',1,'announcer.qc']]],
   ['announcer_5fgamestart',['Announcer_Gamestart',['../da/df4/announcer_8qc.html#a6429db50567f691e555d27cb8a1bdb97',1,'announcer.qc']]],
   ['announcer_5fpicknumber',['Announcer_PickNumber',['../da/d44/common_2util_8qc.html#a5062d9ea9287e1df2afdc9b10b629e26',1,'Announcer_PickNumber(int type, int num):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#aa2bdb327a17cf6393232fd6507e2e7ec',1,'Announcer_PickNumber(float type, float num):&#160;util.qh']]],
   ['announcer_5ftime',['Announcer_Time',['../da/df4/announcer_8qc.html#a208f21df98f913db80920e91f35c10b0',1,'announcer.qc']]],

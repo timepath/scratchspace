@@ -150,8 +150,8 @@ Functions</h2></td></tr>
 <tr class="separator:ac66ab15cbd4ee506b1a4c915e3ddb0ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21bc50256b8cb037eea43c396892799a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d73/path__waypoint_8qc.html#a21bc50256b8cb037eea43c396892799a">pathlib_wpp_openncb</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> wp, <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> child, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> cost)</td></tr>
 <tr class="separator:a21bc50256b8cb037eea43c396892799a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c0febef3207631693115dcd6512e959"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d73/path__waypoint_8qc.html#a4c0febef3207631693115dcd6512e959">plas_think</a> ()</td></tr>
-<tr class="separator:a4c0febef3207631693115dcd6512e959"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0260159ff478d241312ac361f966e5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d73/path__waypoint_8qc.html#ae0260159ff478d241312ac361f966e5f">plas_think</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a>)</td></tr>
+<tr class="separator:ae0260159ff478d241312ac361f966e5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a084a58dced236274ffe0f020313c81ad"></a>
@@ -307,14 +307,14 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;{</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> n;</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    n = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(n, <a class="code" href="../../d7/d73/path__waypoint_8qc.html#a4c0febef3207631693115dcd6512e959">plas_think</a>);</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(n, <a class="code" href="../../d7/d73/path__waypoint_8qc.html#ae0260159ff478d241312ac361f966e5f">plas_think</a>);</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    n.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.1;</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a60338c2153150633178af678cf3ca57c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a></div><div class="ttdeci">entity spawn(void)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="path__waypoint_8qc_html_a4c0febef3207631693115dcd6512e959"><div class="ttname"><a href="../../d7/d73/path__waypoint_8qc.html#a4c0febef3207631693115dcd6512e959">plas_think</a></div><div class="ttdeci">void plas_think()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d73/path__waypoint_8qc_source.html#l00237">path_waypoint.qc:237</a></div></div>
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
+<div class="ttc" id="path__waypoint_8qc_html_ae0260159ff478d241312ac361f966e5f"><div class="ttname"><a href="../../d7/d73/path__waypoint_8qc.html#ae0260159ff478d241312ac361f966e5f">plas_think</a></div><div class="ttdeci">void plas_think(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d73/path__waypoint_8qc_source.html#l00237">path_waypoint.qc:237</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -842,14 +842,15 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4c0febef3207631693115dcd6512e959"></a>
+<a class="anchor" id="ae0260159ff478d241312ac361f966e5f"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> plas_think </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -857,16 +858,15 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/d73/path__waypoint_8qc_source.html#l00237">237</a> of file <a class="el" href="../../d7/d73/path__waypoint_8qc_source.html">path_waypoint.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">nextthink</a>, <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00056">pathlib_foundgoal</a>, <a class="el" href="../../d7/d73/path__waypoint_8qc_source.html#l00199">pathlib_waypointpath_step()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00023">SELFPARAM</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">nextthink</a>, <a class="el" href="../../dd/d70/pathlib_8qh_source.html#l00056">pathlib_foundgoal</a>, <a class="el" href="../../d7/d73/path__waypoint_8qc_source.html#l00199">pathlib_waypointpath_step()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d73/path__waypoint_8qc_source.html#l00245">pathlib_waypointpath_autostep()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="fragment"><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;{</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <a class="code" href="../../d7/d73/path__waypoint_8qc.html#a1ad4e75de7ae224493629648d8a567ee">pathlib_waypointpath_step</a>();</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../dd/d70/pathlib_8qh.html#a1933a3d65eaaa6c15d08509df0e1ed13">pathlib_foundgoal</a>)</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.1;</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00023">self.qh:23</a></div></div>
 <div class="ttc" id="pathlib_8qh_html_a1933a3d65eaaa6c15d08509df0e1ed13"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a1933a3d65eaaa6c15d08509df0e1ed13">pathlib_foundgoal</a></div><div class="ttdeci">float pathlib_foundgoal</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00056">pathlib.qh:56</a></div></div>
 <div class="ttc" id="path__waypoint_8qc_html_a1ad4e75de7ae224493629648d8a567ee"><div class="ttname"><a href="../../d7/d73/path__waypoint_8qc.html#a1ad4e75de7ae224493629648d8a567ee">pathlib_waypointpath_step</a></div><div class="ttdeci">entity pathlib_waypointpath_step()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d73/path__waypoint_8qc_source.html#l00199">path_waypoint.qc:199</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9d4fb8ccfb13fa0bd762af0b2b50dcf6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a></div><div class="ttdeci">float nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">csprogsdefs.qc:121</a></div></div>
@@ -877,7 +877,7 @@ Functions</h2></td></tr>
 <div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-16-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d73/path__waypoint_8qc_a4c0febef3207631693115dcd6512e959_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d7/d73/path__waypoint_8qc_ae0260159ff478d241312ac361f966e5f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -887,7 +887,7 @@ Functions</h2></td></tr>
 <div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-17-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d73/path__waypoint_8qc_a4c0febef3207631693115dcd6512e959_icgraph.svg" width="286" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d73/path__waypoint_8qc_ae0260159ff478d241312ac361f966e5f_icgraph.svg" width="286" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -900,7 +900,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_038facabb326e47524555c6946dd7e55.html">pathlib</a></li><li class="navelem"><a class="el" href="../../d7/d73/path__waypoint_8qc.html">path_waypoint.qc</a></li>
-    <li class="footer">Generated on Mon May 23 2016 11:47:59 for Xonotic by
+    <li class="footer">Generated on Sat May 28 2016 00:27:15 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

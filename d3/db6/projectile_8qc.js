@@ -10,7 +10,6 @@ var projectile_8qc =
     [ "Projectile_isnade", "d3/db6/projectile_8qc.html#aa12d111ca27797a792f8738195db5a76", null ],
     [ "Projectile_ResetTrail", "d3/db6/projectile_8qc.html#afa735eeb763e03508cd4e27a1921b593", null ],
     [ "SUB_Stop", "d3/db6/projectile_8qc.html#a8dd2ff6f7e91f29342b8cd2ba8887015", null ],
-    [ "SUB_Stop_self", "d3/db6/projectile_8qc.html#a4520a37f8a65df80d037b5933f06b02b", null ],
     [ "alpha", "d3/db6/projectile_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b", null ],
     [ "colormod", "d3/db6/projectile_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af", null ],
     [ "scale", "d3/db6/projectile_8qc.html#a1d28dec57cce925ad92342891bd71e7c", null ]

@@ -24,7 +24,7 @@ var lib_2warpzone_2common_8qc =
     [ "WarpZone_RefSys_CheckCreate", "d1/d6a/lib_2warpzone_2common_8qc.html#a50f2162534b375ca0b1f6eeffe89df2a", null ],
     [ "WarpZone_RefSys_Clear", "d1/d6a/lib_2warpzone_2common_8qc.html#a14c2a8bd301ac8d49c0064f68066a256", null ],
     [ "WarpZone_RefSys_Copy", "d1/d6a/lib_2warpzone_2common_8qc.html#ab524232ee28c466a0e836c2d23a26277", null ],
-    [ "WarpZone_RefSys_GC", "d1/d6a/lib_2warpzone_2common_8qc.html#aa66dac1d6b90a32b067d4f828f6e3307", null ],
+    [ "WarpZone_RefSys_GC", "d1/d6a/lib_2warpzone_2common_8qc.html#a477e969f6457aad447cae7dbaebfabc9", null ],
     [ "WarpZone_RefSys_SpawnSameRefSys", "d1/d6a/lib_2warpzone_2common_8qc.html#a877a58c0f81ed5b97fb56e49e53be8dc", null ],
     [ "WarpZone_RefSys_TransformAngles", "d1/d6a/lib_2warpzone_2common_8qc.html#af4260806daa09974d5f5c300ac5f5670", null ],
     [ "WarpZone_RefSys_TransformOrigin", "d1/d6a/lib_2warpzone_2common_8qc.html#ab06b262f29565d91c30b02f2c47f6649", null ],

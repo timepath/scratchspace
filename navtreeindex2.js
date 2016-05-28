@@ -1,5 +1,8 @@
 var NAVTREEINDEX2 =
 {
+"d0/d41/menu_8qh.html#a9fc19cb59a299c16ed665dc992bdaa1e":[2,0,4,16,0],
+"d0/d41/menu_8qh.html#aac7476ed4b7b54a9e8809d7082315069":[2,0,4,16,15],
+"d0/d41/menu_8qh.html#ab0b9556c1dc022e3830284c4c1725582":[2,0,4,16,18],
 "d0/d41/menu_8qh.html#ab3bea1bb438407cf4d0b3072cc534e97":[2,0,4,16,24],
 "d0/d41/menu_8qh.html#ac1df9e8a621336d516bd58807d92a013":[2,0,4,16,22],
 "d0/d41/menu_8qh.html#ad50eb18b35a97f59eaef032c0e1d3a3c":[2,0,4,16,29],
@@ -9,6 +12,7 @@ var NAVTREEINDEX2 =
 "d0/d41/spawnpoints_8qc.html":[2,0,5,60],
 "d0/d41/spawnpoints_8qc.html#a05516b4d7d5dd71f11c6dfc8ce8c4b9e":[2,0,5,60,7],
 "d0/d41/spawnpoints_8qc.html#a096b1f0cea2bbec0f0786ec43da82e1c":[2,0,5,60,8],
+"d0/d41/spawnpoints_8qc.html#a0accdd5b9d6078c8bba127799e0364e0":[2,0,5,60,15],
 "d0/d41/spawnpoints_8qc.html#a2a7af8ac3ec4cc48b002997881b2a491":[2,0,5,60,16],
 "d0/d41/spawnpoints_8qc.html#a2ef2d831aafeceb35613228baa03019c":[2,0,5,60,12],
 "d0/d41/spawnpoints_8qc.html#a388574330fd49b1cd4e7584d2514f73c":[2,0,5,60,13],
@@ -18,7 +22,6 @@ var NAVTREEINDEX2 =
 "d0/d41/spawnpoints_8qc.html#a73614c4d1cf94f6f38d40c927a797fb4":[2,0,5,60,10],
 "d0/d41/spawnpoints_8qc.html#a8347ef016b1d7298855b9447af157844":[2,0,5,60,11],
 "d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698":[2,0,5,60,4],
-"d0/d41/spawnpoints_8qc.html#a9653a886a67263d567fdfd0769189243":[2,0,5,60,15],
 "d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625":[2,0,5,60,5],
 "d0/d41/spawnpoints_8qc.html#abb661914e057e88f5191457801e406ab":[2,0,5,60,0],
 "d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901":[2,0,5,60,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX2 =
 "d0/d7f/bumblebee_8qh.html":[2,0,1,15,0,3],
 "d0/d7f/bumblebee_8qh.html#a2a30908b7090502e80cc5103f2a16c1d":[2,0,1,15,0,3,0],
 "d0/d7f/bumblebee_8qh_source.html":[2,0,1,15,0,3],
-"d0/d80/credits_8qc.html":[2,0,4,4,26],
-"d0/d80/credits_8qc.html#a0113c50ccba1bb75dca70b82f414c721":[2,0,4,4,26,8],
-"d0/d80/credits_8qc.html#a01541f5ea1f0a01f81e0d11971f9635a":[2,0,4,4,26,10],
-"d0/d80/credits_8qc.html#a279b7db9bc19d4f54e6be6c5b3bdca7a":[2,0,4,4,26,13]
+"d0/d80/credits_8qc.html":[2,0,4,4,26]
 };

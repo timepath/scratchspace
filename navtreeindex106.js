@@ -1,7 +1,5 @@
 var NAVTREEINDEX106 =
 {
-"dd/d9a/classXonoticSandboxToolsDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,208,9],
-"dd/d9a/classXonoticSandboxToolsDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,208,24],
 "dd/d9a/classXonoticSandboxToolsDialog.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,208,54],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ab0aeb8440abc4bd78c0023e48aaf0393":[1,0,208,76],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,208,25],
@@ -229,15 +227,15 @@ var NAVTREEINDEX106 =
 "dd/daa/g__lights_8qc.html":[2,0,5,29],
 "dd/daa/g__lights_8qc.html#a18379ef749fb656f345ba3af58870510":[2,0,5,29,12],
 "dd/daa/g__lights_8qc.html#a3245de50f0e211ee9e80198aa50e100f":[2,0,5,29,8],
+"dd/daa/g__lights_8qc.html#a401ab18baf23dce1497f19c2573dc9c9":[2,0,5,29,3],
 "dd/daa/g__lights_8qc.html#a44cc374a911b3a8c5583bd880a389e74":[2,0,5,29,4],
 "dd/daa/g__lights_8qc.html#a5e62ba16138c20eb7792585e72ff358c":[2,0,5,29,1],
-"dd/daa/g__lights_8qc.html#a6254fae2fc1404907cbca0885c096e89":[2,0,5,29,3],
 "dd/daa/g__lights_8qc.html#a74486a486528a0aa8c3e94223a69e12d":[2,0,5,29,7],
 "dd/daa/g__lights_8qc.html#a7f0dca1501ccdc6104ddb56d787a7847":[2,0,5,29,11],
 "dd/daa/g__lights_8qc.html#a7f7e4724cf57d59513b39c5ecc81adc8":[2,0,5,29,14],
+"dd/daa/g__lights_8qc.html#a887ad93d45858763031e3816a1a0923d":[2,0,5,29,6],
 "dd/daa/g__lights_8qc.html#a93022eb264e220dee4abefd35bce904a":[2,0,5,29,10],
 "dd/daa/g__lights_8qc.html#aad8fca7eca998e2d0d22a0aef8d4d8ba":[2,0,5,29,13],
-"dd/daa/g__lights_8qc.html#ab4f860c906be5416a261ee708fdc1cdb":[2,0,5,29,6],
 "dd/daa/g__lights_8qc.html#abcd95c9f614d026130fa87d14cd76a21":[2,0,5,29,0],
 "dd/daa/g__lights_8qc.html#ac8ea0835fed584318b502c839ecbc271":[2,0,5,29,9],
 "dd/daa/g__lights_8qc.html#af2026bf6a55612104f3b9c739d77125f":[2,0,5,29,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX106 =
 "dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh.html":[2,0,1,9,0,13,1],
 "dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh_source.html":[2,0,1,9,0,13,1],
 "dd/db3/classXonoticQuitDialog.html":[1,0,202],
-"dd/db3/classXonoticQuitDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,202,21]
+"dd/db3/classXonoticQuitDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,202,21],
+"dd/db3/classXonoticQuitDialog.html#a0397d77cd81441fb8d7dc58177838d7e":[1,0,202,83],
+"dd/db3/classXonoticQuitDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,202,29]
 };

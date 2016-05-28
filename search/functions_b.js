@@ -14,5 +14,5 @@ var searchData=
   ['kh_5finitialize',['kh_Initialize',['../de/d40/gamemode__keyhunt_8qc.html#ac072ac85d73eb7dc83d6faeca9757648',1,'gamemode_keyhunt.qc']]],
   ['kh_5fkey_5fallownedbywhichteam',['kh_Key_AllOwnedByWhichTeam',['../de/d40/gamemode__keyhunt_8qc.html#a23c6a4a8ae9da6a50ca2b533c38876f7',1,'gamemode_keyhunt.qc']]],
   ['kh_5fstartround',['kh_StartRound',['../de/d40/gamemode__keyhunt_8qc.html#ad10ed989b4f6a7ccbba89f62fc1705ac',1,'gamemode_keyhunt.qc']]],
-  ['killindicator_5fthink',['KillIndicator_Think',['../da/d53/cl__client_8qc.html#aa10f1bdcaad5ed832a8d4dd580c7c201',1,'cl_client.qc']]]
+  ['killindicator_5fthink',['KillIndicator_Think',['../da/d53/cl__client_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'cl_client.qc']]]
 ];

@@ -7,7 +7,7 @@ var teleporters_8qh =
     [ "Simple_TeleportPlayer", "dd/d2d/teleporters_8qh.html#a883996b20943d07115cb929039dd0956", null ],
     [ "Teleport_Find", "dd/d2d/teleporters_8qh.html#ae83899906c50cefd7cfacc428fa065fe", null ],
     [ "teleport_findtarget", "dd/d2d/teleporters_8qh.html#a81fd4ead0a476556c12fb89d6bd9d834", null ],
-    [ "Teleport_Touch", "dd/d2d/teleporters_8qh.html#ab05b41700eb314b3260de29b04e1976f", null ],
+    [ "Teleport_Touch", "dd/d2d/teleporters_8qh.html#a657e8485895ada49b780c703ba05668e", null ],
     [ "TeleportPlayer", "dd/d2d/teleporters_8qh.html#ab3fd6d0aedddaa968142b4ea0bb6c041", null ],
     [ "WarpZone_PostTeleportPlayer_Callback", "dd/d2d/teleporters_8qh.html#aa4ad657aa593e009d50c6e19a4647ba5", null ],
     [ "pusher", "dd/d2d/teleporters_8qh.html#a798f63d3b40c416811743d9bfc9b1d28", null ],

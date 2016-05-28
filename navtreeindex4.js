@@ -1,5 +1,8 @@
 var NAVTREEINDEX4 =
 {
+"d0/d95/menudefs_8qh.html#ac1a171b131a08f023baadff0c00b1aa8":[2,0,2,4,15],
+"d0/d95/menudefs_8qh.html#ac5decd6a5d0583f4fd91499fc239da65":[2,0,2,4,6],
+"d0/d95/menudefs_8qh.html#ac99ec3f1036620727a68aa8c25a8963c":[2,0,2,4,8],
 "d0/d95/menudefs_8qh.html#ad6de0e0a47f016163aefcf1b8fe0ac0d":[2,0,2,4,5],
 "d0/d95/menudefs_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313":[2,0,2,4,1],
 "d0/d95/menudefs_8qh_source.html":[2,0,2,4],
@@ -246,8 +249,5 @@ var NAVTREEINDEX4 =
 "d0/dcd/csqcprojectile_8qc.html#aed339d1f915b2eb8e2b1f176016b9897":[2,0,5,4,6,6],
 "d0/dcd/csqcprojectile_8qc_source.html":[2,0,5,4,6],
 "d0/dce/dialog__hudpanel__engineinfo_8qc.html":[2,0,4,4,50],
-"d0/dce/dialog__hudpanel__engineinfo_8qc.html#aa8257b75872a748b8bf8fd5efd29425a":[2,0,4,4,50,0],
-"d0/dce/dialog__hudpanel__engineinfo_8qc_source.html":[2,0,4,4,50],
-"d0/dd1/common_2triggers_2__mod_8qh.html":[2,0,1,13,5],
-"d0/dd1/common_2triggers_2__mod_8qh_source.html":[2,0,1,13,5]
+"d0/dce/dialog__hudpanel__engineinfo_8qc.html#aa8257b75872a748b8bf8fd5efd29425a":[2,0,4,4,50,0]
 };

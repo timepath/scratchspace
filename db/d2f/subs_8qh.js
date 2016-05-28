@@ -3,7 +3,7 @@ var subs_8qh =
     [ "SUBS_H", "db/d2f/subs_8qh.html#a45eb43f1dba1d0f2c0f2f6eb4a7bd5cc", null ],
     [ "SUB_SetFade", "db/d2f/subs_8qh.html#aaee12b410e85192641c50f8eeeef532f", null ],
     [ "SUB_VanishOrRemove", "db/d2f/subs_8qh.html#ad0806fe42eadae7a1a7a48660cbbd755", null ],
-    [ "void", "db/d2f/subs_8qh.html#a0100b2db5384ee40c52eae9650062701", null ],
+    [ "void", "db/d2f/subs_8qh.html#aea0b7edf80fc3a7aead17f2b38dc050c", null ],
     [ "curvetarget", "db/d2f/subs_8qh.html#a6bd7359933bff3359b4e7e3c826e5259", null ],
     [ "delay", "db/d2f/subs_8qh.html#abdc33cf25e725134a9b48e79c7031bcf", null ],
     [ "dest1", "db/d2f/subs_8qh.html#a9ded1730046944253a576b37332ca886", null ],

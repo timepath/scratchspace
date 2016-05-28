@@ -1,5 +1,8 @@
 var NAVTREEINDEX16 =
 {
+"d2/d79/scores_8qc.html#a9f329f6f3652ff8ba8788c1167c49b66":[2,0,5,56,37],
+"d2/d79/scores_8qc.html#aa5ca3a39735c2fd63ad4d8355b945ebd":[2,0,5,56,4],
+"d2/d79/scores_8qc.html#aa70e08e25e069e368d303726e1c91dff":[2,0,5,56,15],
 "d2/d79/scores_8qc.html#ab1cac4ea697e08d564ef09bf4cd1c822":[2,0,5,56,28],
 "d2/d79/scores_8qc.html#ab5bc7141fb8354e589cccc6fefb03432":[2,0,5,56,9],
 "d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83":[2,0,5,56,35],
@@ -41,7 +44,7 @@ var NAVTREEINDEX16 =
 "d2/d9b/common_2effects_2qc_2__mod_8qh_source.html":[2,0,1,2,0,1],
 "d2/d9b/jumppads_8qc.html":[2,0,1,13,3,14],
 "d2/d9b/jumppads_8qc.html#a314c2ab38cad8dd0cbe7622152bb918d":[2,0,1,13,3,14,0],
-"d2/d9b/jumppads_8qc.html#a5f5bb305c622a7ae996e7f7d59139d22":[2,0,1,13,3,14,2],
+"d2/d9b/jumppads_8qc.html#a532241cfe9964a527743477fb8530cd2":[2,0,1,13,3,14,2],
 "d2/d9b/jumppads_8qc.html#a66ad79d10244774bb2ebf5c354538d26":[2,0,1,13,3,14,1],
 "d2/d9b/jumppads_8qc_source.html":[2,0,1,13,3,14],
 "d2/d9b/server_2command_2__mod_8qh.html":[2,0,5,1,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX16 =
 "d2/db4/string_8qh.html#aedbfa3cb057748398c3bcf523af411d6":[2,0,3,52,22],
 "d2/db4/string_8qh.html#af74c7e53de726f384aa8ad37571c783a":[2,0,3,52,24],
 "d2/db4/string_8qh.html#afecb3758a55ce0d238c0359f80261587":[2,0,3,52,20],
-"d2/db4/string_8qh_source.html":[2,0,3,52],
-"d2/db8/gametypelist_8qc.html":[2,0,4,4,162],
-"d2/db8/gametypelist_8qc.html#a5268feb06cc5314e1f2a458147ae43ba":[2,0,4,4,162,2],
-"d2/db8/gametypelist_8qc.html#a58b9cf8c5ccf5217bbd1a112963c2481":[2,0,4,4,162,1]
+"d2/db4/string_8qh_source.html":[2,0,3,52]
 };

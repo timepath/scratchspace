@@ -10,7 +10,7 @@ var snake_8qc =
     [ "snake_find_head", "d1/dff/snake_8qc.html#a488c48e403cf1638d1f0f4204adf57bf", null ],
     [ "snake_find_piece", "d1/dff/snake_8qc.html#a17f4e125f173137d085df415ed38cd60", null ],
     [ "snake_get_player", "d1/dff/snake_8qc.html#a4929ba026248cf4c24b86879668034ac", null ],
-    [ "snake_head_think", "d1/dff/snake_8qc.html#a520cce2238e09ac65365cf37f8726309", null ],
+    [ "snake_head_think", "d1/dff/snake_8qc.html#a2b9146c87b695551cff3c1bf500c3a3a", null ],
     [ "snake_move", "d1/dff/snake_8qc.html#ae6a0bfcc50cf2e20cbf4e624b1489ce9", null ],
     [ "snake_move_body", "d1/dff/snake_8qc.html#a1855683a7f5e69da02f6b2ec0f06bbeb", null ],
     [ "snake_move_head", "d1/dff/snake_8qc.html#ac8190572290db96a4985e533fdfa8cac", null ],

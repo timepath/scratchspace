@@ -1,8 +1,5 @@
 var NAVTREEINDEX116 =
 {
-"df/d0f/classSpiderbot.html#a9aeffc4706a82a02f35fbfb5bfea8ba9":[1,0,105,24],
-"df/d0f/classSpiderbot.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,105,2],
-"df/d0f/classSpiderbot.html#aafe06578748348cb15569ed8f0a194bb":[1,0,105,20],
 "df/d0f/classSpiderbot.html#ab0033bb43b823ae364fcaa9f6d73c520":[1,0,105,5],
 "df/d0f/classSpiderbot.html#acb6e6888dcc2df03e6743d938b05bb25":[1,0,105,23],
 "df/d0f/classSpiderbot.html#acd61673a42237365d55777d092f5f5ad":[1,0,105,9],
@@ -34,11 +31,11 @@ var NAVTREEINDEX116 =
 "df/d16/common_2triggers_2trigger_2__mod_8qh.html":[2,0,1,13,3,1],
 "df/d16/common_2triggers_2trigger_2__mod_8qh_source.html":[2,0,1,13,3,1],
 "df/d18/checkpoint_8qc.html":[2,0,1,14,5],
-"df/d18/checkpoint_8qc.html#a1018bdeabcf101e47d13447164b17d3f":[2,0,1,14,5,2],
 "df/d18/checkpoint_8qc.html#a1ce0be545d433dbeb6b5a2437701bd83":[2,0,1,14,5,1],
 "df/d18/checkpoint_8qc.html#a4a455a6158f7e74eb2d4a4e30e831818":[2,0,1,14,5,3],
 "df/d18/checkpoint_8qc.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a":[2,0,1,14,5,4],
 "df/d18/checkpoint_8qc.html#a9dc1f51d314787351f62b8143e93a547":[2,0,1,14,5,0],
+"df/d18/checkpoint_8qc.html#aa879299cb4ab99983269eec00ffc6927":[2,0,1,14,5,2],
 "df/d18/checkpoint_8qc_source.html":[2,0,1,14,5],
 "df/d19/mutators_2mutator_2campcheck_2module_8inc.html":[2,0,1,9,0,4,3],
 "df/d19/mutators_2mutator_2campcheck_2module_8inc_source.html":[2,0,1,9,0,4,3],
@@ -203,6 +200,7 @@ var NAVTREEINDEX116 =
 "df/d28/sv__turrets_8qh.html#a15df8a6498e96a76f4a5e0213150f6a8":[2,0,1,14,10,2],
 "df/d28/sv__turrets_8qh.html#a168754a4c3acfcdb34318de74c36b4f9":[2,0,1,14,10,60],
 "df/d28/sv__turrets_8qh.html#a16df72fa969045d31c5140be979fc387":[2,0,1,14,10,39],
+"df/d28/sv__turrets_8qh.html#a1951be77af0884ccb2a5b2d32033cb95":[2,0,1,14,10,8],
 "df/d28/sv__turrets_8qh.html#a1a72475c9a77225463fc38559463c578":[2,0,1,14,10,49],
 "df/d28/sv__turrets_8qh.html#a1d5d8b69dda4acca14207e5ffa084ca7":[2,0,1,14,10,65],
 "df/d28/sv__turrets_8qh.html#a1e97a5c836a558a1321721c59fb50de2":[2,0,1,14,10,44],
@@ -217,8 +215,8 @@ var NAVTREEINDEX116 =
 "df/d28/sv__turrets_8qh.html#a41f912fe9bf578d8aae3f2119b4741ed":[2,0,1,14,10,18],
 "df/d28/sv__turrets_8qh.html#a47b7498f4cae3f28f51e021ae03511d7":[2,0,1,14,10,13],
 "df/d28/sv__turrets_8qh.html#a4cedf4740142f48c35b59cbaa9017f2b":[2,0,1,14,10,16],
-"df/d28/sv__turrets_8qh.html#a53b1f94a93f57dc271b0377b8d314b5e":[2,0,1,14,10,9],
-"df/d28/sv__turrets_8qh.html#a56a67165dbeff943fed25895af9c2f53":[2,0,1,14,10,10],
+"df/d28/sv__turrets_8qh.html#a53b1f94a93f57dc271b0377b8d314b5e":[2,0,1,14,10,10],
+"df/d28/sv__turrets_8qh.html#a56a67165dbeff943fed25895af9c2f53":[2,0,1,14,10,11],
 "df/d28/sv__turrets_8qh.html#a575d28aa35a21f48924ef5d76f39ee53":[2,0,1,14,10,54],
 "df/d28/sv__turrets_8qh.html#a583139dbba9b459ec395465cf8a4ffa7":[2,0,1,14,10,63],
 "df/d28/sv__turrets_8qh.html#a59d9759d746cb3f56f6cd8c909943065":[2,0,1,14,10,46],
@@ -226,7 +224,7 @@ var NAVTREEINDEX116 =
 "df/d28/sv__turrets_8qh.html#a5bb0d9e6f4a0edd9ebd6c763dd6da6d8":[2,0,1,14,10,57],
 "df/d28/sv__turrets_8qh.html#a5cba95f00cb97153494faf1f376e84de":[2,0,1,14,10,25],
 "df/d28/sv__turrets_8qh.html#a63fd2adda1d11b04fc23f6288358d1a2":[2,0,1,14,10,21],
-"df/d28/sv__turrets_8qh.html#a65537857da6b4e32d142b1d9769e7fb4":[2,0,1,14,10,8],
+"df/d28/sv__turrets_8qh.html#a65537857da6b4e32d142b1d9769e7fb4":[2,0,1,14,10,9],
 "df/d28/sv__turrets_8qh.html#a66568773b44f37ca82c672df0e189c27":[2,0,1,14,10,56],
 "df/d28/sv__turrets_8qh.html#a69ef3f8ae3c2c9c7035737af552440d2":[2,0,1,14,10,35],
 "df/d28/sv__turrets_8qh.html#a6ba82eb5f3e6a07eeb904cb11be619fd":[2,0,1,14,10,23],
@@ -249,5 +247,7 @@ var NAVTREEINDEX116 =
 "df/d28/sv__turrets_8qh.html#ab5c6d360467d0788291d4befb43ee111":[2,0,1,14,10,41],
 "df/d28/sv__turrets_8qh.html#ab6a27c2477120809f1faa28d43cafb9c":[2,0,1,14,10,42],
 "df/d28/sv__turrets_8qh.html#abadc93cac767f976b767546a1f1e3988":[2,0,1,14,10,59],
-"df/d28/sv__turrets_8qh.html#abc8b0c81e4818c6d06a8188f97783423":[2,0,1,14,10,38]
+"df/d28/sv__turrets_8qh.html#abc8b0c81e4818c6d06a8188f97783423":[2,0,1,14,10,38],
+"df/d28/sv__turrets_8qh.html#abdff73d9d6c1f73a10601dfed099bcb4":[2,0,1,14,10,22],
+"df/d28/sv__turrets_8qh.html#ac14a89f9f770acfe2c1072507f53b0af":[2,0,1,14,10,0]
 };

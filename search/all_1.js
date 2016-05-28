@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['a_5fthink',['a_think',['../d5/d53/movenode_8qc.html#a138fa1996a5a22d95a2afcc4dc9ffe1a',1,'movenode.qc']]],
+  ['a_5fthink',['a_think',['../d5/d53/movenode_8qc.html#a6fe9453a5267797164dcff57bb20a431',1,'movenode.qc']]],
   ['absmax',['absmax',['../d4/d0c/csprogsdefs_8qc.html#aba5ae084f5790a34ce49a63cfc031b9f',1,'absmax():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#aba5ae084f5790a34ce49a63cfc031b9f',1,'absmax():&#160;progsdefs.qc']]],
   ['absmin',['absmin',['../d4/d0c/csprogsdefs_8qc.html#ad134a1b884f5841ba3bcdee2539cc854',1,'absmin():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#ad134a1b884f5841ba3bcdee2539cc854',1,'absmin():&#160;progsdefs.qc']]],
   ['acc_5favg',['acc_avg',['../d3/d8a/physics_8qc.html#ae0435a5f81d23ab1784a65a067103807',1,'physics.qc']]],
@@ -45,8 +45,8 @@ var searchData=
   ['active_5ftoggle',['ACTIVE_TOGGLE',['../d5/d26/server_2defs_8qh.html#ae19e99f7f5da93defcab2e20ec7c437d',1,'defs.qh']]],
   ['activeweapon',['activeweapon',['../d0/d2a/client_2main_8qh.html#ae783da23fb4a6fdb51d1241a36f6ba94',1,'main.qh']]],
   ['acvnn',['ACVNN',['../dc/de5/common_2notifications_2all_8qh.html#aea5a1958d6dc953f8ae9485c5ad84b68',1,'all.qh']]],
-  ['adaptor_5fthink2use',['adaptor_think2use',['../d3/dd0/self_8qh.html#ad716ff091b01df5d9aa67eaa4919bdaa',1,'adaptor_think2use():&#160;self.qh'],['../dc/d73/server_2miscfunctions_8qh.html#ad716ff091b01df5d9aa67eaa4919bdaa',1,'adaptor_think2use():&#160;self.qh']]],
-  ['adaptor_5fthink2use_5fhittype_5fsplash',['adaptor_think2use_hittype_splash',['../dc/dc6/server_2miscfunctions_8qc.html#a44292599c2a4ed17431195febceac264',1,'miscfunctions.qc']]],
+  ['adaptor_5fthink2use',['adaptor_think2use',['../d3/dd0/self_8qh.html#a0701aa7e527660e2a38828beb26d02d4',1,'self.qh']]],
+  ['adaptor_5fthink2use_5fhittype_5fsplash',['adaptor_think2use_hittype_splash',['../dc/dc6/server_2miscfunctions_8qc.html#af695d661864cdf0f78273b0a8717a1e9',1,'miscfunctions.qc']]],
   ['add_5fcheats',['ADD_CHEATS',['../d6/de9/cheats_8qc.html#a8ff454445bb7c14281a20c18259c2352',1,'cheats.qc']]],
   ['add_5ffailure',['ADD_FAILURE',['../d4/d5b/test_8qh.html#a091e16c53287b9120c8aee844f56d938',1,'test.qh']]],
   ['add_5fto_5fw_5flist',['ADD_TO_W_LIST',['../df/d75/keybinder_8qc.html#a8b88a14dde16d0dd2ca22cff1ba7a2b7',1,'keybinder.qc']]],
@@ -343,7 +343,7 @@ var searchData=
   ['announcer_5f1min',['announcer_1min',['../da/df4/announcer_8qc.html#a6f021f4ddce203c89e465065082c8647',1,'announcer.qc']]],
   ['announcer_5f5min',['announcer_5min',['../da/df4/announcer_8qc.html#ae2ec52dab37e3c927a892b5eec19a8bc',1,'announcer.qc']]],
   ['announcer_5fcheckminute',['ANNOUNCER_CHECKMINUTE',['../da/df4/announcer_8qc.html#af849d803cb328d40fe38558b26cdb4bb',1,'announcer.qc']]],
-  ['announcer_5fcountdown',['announcer_countdown',['../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a',1,'announcer_countdown():&#160;announcer.qc'],['../da/df4/announcer_8qc.html#a0e97f430de68d1ece828f58a7570a460',1,'Announcer_Countdown():&#160;announcer.qc']]],
+  ['announcer_5fcountdown',['announcer_countdown',['../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a',1,'announcer_countdown():&#160;announcer.qc'],['../da/df4/announcer_8qc.html#a972b888aa4fd3cae1116a4007198882e',1,'Announcer_Countdown(entity this):&#160;announcer.qc']]],
   ['announcer_5fgamestart',['Announcer_Gamestart',['../da/df4/announcer_8qc.html#a6429db50567f691e555d27cb8a1bdb97',1,'announcer.qc']]],
   ['announcer_5fpicknumber',['Announcer_PickNumber',['../da/d44/common_2util_8qc.html#a5062d9ea9287e1df2afdc9b10b629e26',1,'Announcer_PickNumber(int type, int num):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#aa2bdb327a17cf6393232fd6507e2e7ec',1,'Announcer_PickNumber(float type, float num):&#160;util.qh']]],
   ['announcer_5ftime',['Announcer_Time',['../da/df4/announcer_8qc.html#a208f21df98f913db80920e91f35c10b0',1,'announcer.qc']]],

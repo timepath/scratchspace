@@ -180,6 +180,6 @@ var searchData=
   ['killer_5forigin',['killer_origin',['../d5/d26/server_2defs_8qh.html#aaf6a1390ff1690e6bc1aa7d336fde3b9',1,'defs.qh']]],
   ['killindicator',['killindicator',['../d5/d26/server_2defs_8qh.html#a59f3bedf42216e820a4817519548bd90',1,'defs.qh']]],
   ['killindicator_5fteamchange',['killindicator_teamchange',['../d5/d26/server_2defs_8qh.html#a8a0853bb3efdbe194336998d3d095d46',1,'defs.qh']]],
-  ['killindicator_5fthink',['KillIndicator_Think',['../da/d53/cl__client_8qc.html#aa10f1bdcaad5ed832a8d4dd580c7c201',1,'cl_client.qc']]],
+  ['killindicator_5fthink',['KillIndicator_Think',['../da/d53/cl__client_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'cl_client.qc']]],
   ['killtarget',['killtarget',['../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70',1,'subs.qh']]]
 ];

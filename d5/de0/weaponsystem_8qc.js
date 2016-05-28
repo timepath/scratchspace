@@ -1,10 +1,10 @@
 var weaponsystem_8qc =
 [
-    [ "CL_ExteriorWeaponentity_Think", "d5/de0/weaponsystem_8qc.html#a63ea98ab1e5f7fe7d28394e01365aedc", null ],
+    [ "CL_ExteriorWeaponentity_Think", "d5/de0/weaponsystem_8qc.html#adaf855bb86ef53119fa756a62e6127be", null ],
     [ "CL_SpawnWeaponentity", "d5/de0/weaponsystem_8qc.html#ab0182526137001da7d750d97f9cba4e0", null ],
     [ "CL_Weapon_GetShotOrg", "d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0", null ],
     [ "CL_Weaponentity_CustomizeEntityForClient", "d5/de0/weaponsystem_8qc.html#af4e867150b0bf7355395f15dafb6a70d", null ],
-    [ "CL_Weaponentity_Think", "d5/de0/weaponsystem_8qc.html#a551cc3e1b433769d803fe4d2f6607d3b", null ],
+    [ "CL_Weaponentity_Think", "d5/de0/weaponsystem_8qc.html#a3f9b3f390008e2bc8f0cfdcd8ca141db", null ],
     [ "forbidWeaponUse", "d5/de0/weaponsystem_8qc.html#a1798aef9c3263ffc0fb53a9741fc3ab9", null ],
     [ "W_AttachToShotorg", "d5/de0/weaponsystem_8qc.html#a61f36bcda0a00c923028d3455873d7df", null ],
     [ "w_clear", "d5/de0/weaponsystem_8qc.html#a6e2db8091b94c8cb9fa32263996e15b8", null ],

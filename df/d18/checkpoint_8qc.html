@@ -125,8 +125,8 @@ Functions</h2></td></tr>
 <tr class="separator:a9dc1f51d314787351f62b8143e93a547"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ce0be545d433dbeb6b5a2437701bd83"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d18/checkpoint_8qc.html#a1ce0be545d433dbeb6b5a2437701bd83">spawnfunc</a> (walker_checkpoint)</td></tr>
 <tr class="separator:a1ce0be545d433dbeb6b5a2437701bd83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1018bdeabcf101e47d13447164b17d3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d18/checkpoint_8qc.html#a1018bdeabcf101e47d13447164b17d3f">turret_checkpoint_init</a> ()</td></tr>
-<tr class="separator:a1018bdeabcf101e47d13447164b17d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa879299cb4ab99983269eec00ffc6927"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d18/checkpoint_8qc.html#aa879299cb4ab99983269eec00ffc6927">turret_checkpoint_init</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a>)</td></tr>
+<tr class="separator:aa879299cb4ab99983269eec00ffc6927"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a455a6158f7e74eb2d4a4e30e831818"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d18/checkpoint_8qc.html#a4a455a6158f7e74eb2d4a4e30e831818">turret_checkpoint_use</a> ()</td></tr>
 <tr class="separator:a4a455a6158f7e74eb2d4a4e30e831818"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -156,10 +156,10 @@ Variables</h2></td></tr>
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">nextthink</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">origin</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../df/d18/checkpoint_8qc_source.html#l00054">turret_checkpoint_init()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    setorigin(<span class="keyword">this</span>,this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(<span class="keyword">this</span>, <a class="code" href="../../df/d18/checkpoint_8qc.html#a1018bdeabcf101e47d13447164b17d3f">turret_checkpoint_init</a>);</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(<span class="keyword">this</span>, <a class="code" href="../../df/d18/checkpoint_8qc.html#aa879299cb4ab99983269eec00ffc6927">turret_checkpoint_init</a>);</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.2;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
-<div class="ttc" id="checkpoint_8qc_html_a1018bdeabcf101e47d13447164b17d3f"><div class="ttname"><a href="../../df/d18/checkpoint_8qc.html#a1018bdeabcf101e47d13447164b17d3f">turret_checkpoint_init</a></div><div class="ttdeci">void turret_checkpoint_init()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d18/checkpoint_8qc_source.html#l00054">checkpoint.qc:54</a></div></div>
+<div class="ttc" id="checkpoint_8qc_html_aa879299cb4ab99983269eec00ffc6927"><div class="ttname"><a href="../../df/d18/checkpoint_8qc.html#aa879299cb4ab99983269eec00ffc6927">turret_checkpoint_init</a></div><div class="ttdeci">void turret_checkpoint_init(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d18/checkpoint_8qc_source.html#l00054">checkpoint.qc:54</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9d4fb8ccfb13fa0bd762af0b2b50dcf6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a></div><div class="ttdeci">float nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">csprogsdefs.qc:121</a></div></div>
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
@@ -202,14 +202,15 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a1018bdeabcf101e47d13447164b17d3f"></a>
+<a class="anchor" id="aa879299cb4ab99983269eec00ffc6927"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> turret_checkpoint_init </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -217,10 +218,10 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d18/checkpoint_8qc_source.html#l00054">54</a> of file <a class="el" href="../../df/d18/checkpoint_8qc_source.html">checkpoint.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00127">enemy</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00137">MOVE_WORLDONLY</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">origin</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00023">SELFPARAM</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00193">target</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00194">targetname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">trace_endpos</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00127">enemy</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00137">MOVE_WORLDONLY</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">origin</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00193">target</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00194">targetname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">trace_endpos</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d18/checkpoint_8qc_source.html#l00070">spawnfunc()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    traceline(<span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + <span class="stringliteral">&#39;0 0 16&#39;</span>, <span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> - <span class="stringliteral">&#39;0 0 1024&#39;</span>, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ae0d7c9ee7d3e6ed43d37c30912a68497">MOVE_WORLDONLY</a>, <span class="keyword">self</span>);</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    setorigin(<span class="keyword">self</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> + <span class="stringliteral">&#39;0 0 32&#39;</span>);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
@@ -235,7 +236,6 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">//tc_acum += 0.25;</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00023">self.qh:23</a></div></div>
 <div class="ttc" id="framework_8qc_html_aef346455b3c2def821423a45227b45dd"><div class="ttname"><a href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a></div><div class="ttdeci">void LOG_TRACE(string s,...)</div></div>
 <div class="ttc" id="csqc__constants_8qh_html_ae0d7c9ee7d3e6ed43d37c30912a68497"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ae0d7c9ee7d3e6ed43d37c30912a68497">MOVE_WORLDONLY</a></div><div class="ttdeci">const int MOVE_WORLDONLY</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00137">csqc_constants.qh:137</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a93c78c5087546131c4eefb9b2d733adf"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a></div><div class="ttdeci">vector trace_endpos</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00037">csprogsdefs.qc:37</a></div></div>
@@ -250,7 +250,7 @@ Variables</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d18/checkpoint_8qc_a1018bdeabcf101e47d13447164b17d3f_cgraph.svg" width="310" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d18/checkpoint_8qc_aa879299cb4ab99983269eec00ffc6927_cgraph.svg" width="310" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -260,7 +260,7 @@ Variables</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d18/checkpoint_8qc_a1018bdeabcf101e47d13447164b17d3f_icgraph.svg" width="291" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../df/d18/checkpoint_8qc_aa879299cb4ab99983269eec00ffc6927_icgraph.svg" width="291" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -309,7 +309,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../df/d18/checkpoint_8qc.html">checkpoint.qc</a></li>
-    <li class="footer">Generated on Mon May 23 2016 11:47:53 for Xonotic by
+    <li class="footer">Generated on Sat May 28 2016 00:27:08 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

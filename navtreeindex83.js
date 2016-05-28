@@ -1,6 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"da/d9c/classXonoticMonsterToolsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,190,82],
 "da/d9c/mutators_2mutator_2vampire_2module_8inc.html":[2,0,1,9,0,29,2],
 "da/d9c/mutators_2mutator_2vampire_2module_8inc_source.html":[2,0,1,9,0,29,2],
 "da/da6/flipflop_8qc.html":[2,0,1,13,3,5],
@@ -45,8 +44,8 @@ var NAVTREEINDEX83 =
 "da/daa/server_2weapons_2common_8qc.html":[2,0,5,4,4],
 "da/daa/server_2weapons_2common_8qc.html#a102ac938a46377356e95bb667b1f01e2":[2,0,5,4,4,0],
 "da/daa/server_2weapons_2common_8qc.html#a15163fb722de405cc2764efd498bc2ee":[2,0,5,4,4,2],
+"da/daa/server_2weapons_2common_8qc.html#a3391149e74c975b1da289576a256819a":[2,0,5,4,4,3],
 "da/daa/server_2weapons_2common_8qc.html#a709b64ec92444ebecac5ab8a73033c7f":[2,0,5,4,4,1],
-"da/daa/server_2weapons_2common_8qc.html#a81bf9e5efea343c81a49d46aa87bc224":[2,0,5,4,4,3],
 "da/daa/server_2weapons_2common_8qc_source.html":[2,0,5,4,4],
 "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html":[2,0,4,4,104],
 "da/db3/dialog__multiplayer__media__demo__timeconfirm_8qc.html#a142e52b387628b2fec2e45519a47e2ab":[2,0,4,4,104,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX83 =
 "da/dc1/classXonoticAudioSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,123,85],
 "da/dc1/classXonoticAudioSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,123,75],
 "da/dc1/classXonoticAudioSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,123,74],
-"da/dc1/classXonoticAudioSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,123,41]
+"da/dc1/classXonoticAudioSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,123,41],
+"da/dc1/classXonoticAudioSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,123,34]
 };

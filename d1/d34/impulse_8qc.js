@@ -1,6 +1,6 @@
 var impulse_8qc =
 [
-    [ "trigger_impulse_touch1", "d1/d34/impulse_8qc.html#a5212ef1cfdd1904e5526c57eddae5375", null ],
-    [ "trigger_impulse_touch2", "d1/d34/impulse_8qc.html#a7720018a88e0a583570756ee30a9c641", null ],
-    [ "trigger_impulse_touch3", "d1/d34/impulse_8qc.html#a9c0ac3a67738cc573ee82bd5476ef2ca", null ]
+    [ "trigger_impulse_touch1", "d1/d34/impulse_8qc.html#a657f03e055546a9ce0c5f710b09d813e", null ],
+    [ "trigger_impulse_touch2", "d1/d34/impulse_8qc.html#a77df447283803074d0c8d1c9ab45d36f", null ],
+    [ "trigger_impulse_touch3", "d1/d34/impulse_8qc.html#acc797778dc17b9e82ec7c35221c3d1cf", null ]
 ];
