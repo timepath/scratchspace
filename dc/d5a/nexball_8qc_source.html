@@ -291,7 +291,7 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;    plyr.(weaponentity).m_switchweapon = <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(plyr).m_weapon;</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    plyr.weapons = <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(NEXBALL);</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <a class="code" href="../../dc/de5/classWeapon.html">Weapon</a> w = WEP_NEXBALL;</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(plyr, w.<a class="code" href="../../dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62">wr_resetplayer</a>(w));</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(plyr, w.<a class="code" href="../../dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62">wr_resetplayer</a>(w, plyr));</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(plyr).m_switchweapon = WEP_NEXBALL;</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(plyr, <a class="code" href="../../d2/d62/selection_8qc.html#a3d86139f61154a7d12857020f2dddcf0">W_SwitchWeapon</a>(plyr, WEP_NEXBALL));</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;}</div>
@@ -993,7 +993,7 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;    }</div>
 <div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;}</div>
 <div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;</div>
-<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, wr_setup, <span class="keywordtype">void</span>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a> <span class="keyword">this</span>))</div>
+<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, wr_setup, <span class="keywordtype">void</span>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor))</div>
 <div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;{</div>
 <div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;    <span class="comment">//weapon_setup(WEP_PORTO.m_id);</span></div>
@@ -1087,7 +1087,7 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;            {</div>
 <div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;                <span class="keyword">self</span>.weapons = <span class="keyword">self</span>.(weaponentity).weapons;</div>
 <div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;                <a class="code" href="../../dc/de5/classWeapon.html">Weapon</a> w = WEP_NEXBALL;</div>
-<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;                w.<a class="code" href="../../dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62">wr_resetplayer</a>(w);</div>
+<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;                w.<a class="code" href="../../dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62">wr_resetplayer</a>(w, <span class="keyword">self</span>);</div>
 <div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;                <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(<span class="keyword">self</span>).m_switchweapon = <span class="keyword">self</span>.(weaponentity).m_switchweapon;</div>
 <div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;                <a class="code" href="../../d2/d62/selection_8qc.html#a3d86139f61154a7d12857020f2dddcf0">W_SwitchWeapon</a>(<span class="keyword">self</span>, <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(<span class="keyword">self</span>).m_switchweapon);</div>
 <div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;</div>
@@ -1396,7 +1396,7 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_c814fee23757456cb4490b5d684bd5e6.html">nexball</a></li><li class="navelem"><a class="el" href="../../dc/d5a/nexball_8qc.html">nexball.qc</a></li>
-    <li class="footer">Generated on Sat May 28 2016 00:27:00 for Xonotic by
+    <li class="footer">Generated on Sun May 29 2016 01:18:20 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

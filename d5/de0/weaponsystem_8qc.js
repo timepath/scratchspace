@@ -9,7 +9,7 @@ var weaponsystem_8qc =
     [ "W_AttachToShotorg", "d5/de0/weaponsystem_8qc.html#a61f36bcda0a00c923028d3455873d7df", null ],
     [ "w_clear", "d5/de0/weaponsystem_8qc.html#a6e2db8091b94c8cb9fa32263996e15b8", null ],
     [ "W_DecreaseAmmo", "d5/de0/weaponsystem_8qc.html#aa0bce870282286c681f4e9988c2ba474", null ],
-    [ "W_DropEvent", "d5/de0/weaponsystem_8qc.html#a7d37705a040744e06d35fb60311fafa0", null ],
+    [ "W_DropEvent", "d5/de0/weaponsystem_8qc.html#a3033c57fa01b0d86245be740694ca2d6", null ],
     [ "w_ready", "d5/de0/weaponsystem_8qc.html#a66ca3d9dc1f3bc5a039abad59d986d40", null ],
     [ "W_Reload", "d5/de0/weaponsystem_8qc.html#ad552f2285b74098aab5c07973ec7b577", null ],
     [ "W_ReloadedAndReady", "d5/de0/weaponsystem_8qc.html#aa46bfb19e29f3b2eae7d29f5ae04b723", null ],

@@ -1320,7 +1320,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;        excess = <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac5f617531bd8a7198aa0debcbf79b432">frag_damage</a>;</div>
 <div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;</div>
 <div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;        <a class="code" href="../../dc/de5/classWeapon.html">Weapon</a> wep = <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(<span class="keyword">this</span>).m_weapon;</div>
-<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(<span class="keyword">this</span>, wep.<a class="code" href="../../dc/de5/classWeapon.html#a47d8efef719d62b54a5d0b1b66ab6286">wr_playerdeath</a>(wep));</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(<span class="keyword">this</span>, wep.<a class="code" href="../../dc/de5/classWeapon.html#a47d8efef719d62b54a5d0b1b66ab6286">wr_playerdeath</a>(wep, <span class="keyword">this</span>));</div>
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;</div>
 <div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;        <a class="code" href="../../d7/de2/g__hook_8qc.html#a5caabf7067e846f30e860f42354bbf10">RemoveGrapplingHook</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;</div>
@@ -1401,7 +1401,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;</div>
 <div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;        <span class="comment">// reset fields the weapons may use just in case</span></div>
 <div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Weapons, it != WEP_Null, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(<span class="keyword">this</span>, it.wr_resetplayer(it));</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(<span class="keyword">this</span>, it.wr_resetplayer(it, <span class="keyword">this</span>));</div>
 <div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;            <span class="keywordflow">for</span>(<span class="keywordtype">int</span> slot = 0; slot &lt; <a class="code" href="../../dc/d1c/weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b">MAX_WEAPONSLOTS</a>; ++slot)</div>
 <div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;            {</div>
 <div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;                <a class="code" href="../../d5/d26/server_2defs_8qh.html#af35b608e51a05386e4f74c57e77d9dcc">ATTACK_FINISHED_FOR</a>(<span class="keyword">this</span>, it.m_id, slot) = 0;</div>
@@ -1952,7 +1952,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/d16/server_2cl__player_8qc.html">cl_player.qc</a></li>
-    <li class="footer">Generated on Sat May 28 2016 00:27:10 for Xonotic by
+    <li class="footer">Generated on Sun May 29 2016 01:18:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

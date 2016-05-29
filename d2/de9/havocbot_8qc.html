@@ -282,7 +282,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9">weapons</a>)</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        {</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            <a class="code" href="../../dc/de5/classWeapon.html">Weapon</a> w = <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(<span class="keyword">this</span>).m_weapon;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            w.<a class="code" href="../../dc/de5/classWeapon.html#a80fa9a65e19370473a29baebc04d0626">wr_aim</a>(w);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;            w.<a class="code" href="../../dc/de5/classWeapon.html#a80fa9a65e19370473a29baebc04d0626">wr_aim</a>(w, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a923b2fd64c9fb1f576d86737d2fad27d">autocvar_bot_nofire</a> || <a class="code" href="../../d5/d26/server_2defs_8qh.html#a8556a3ededb6cf803915e2c22f444aa0">IS_INDEPENDENT_PLAYER</a>(<span class="keyword">this</span>))</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;            {</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;                <a class="code" href="../../df/dae/player_8qh.html#ae70419df87245d159bf96515d7d3e0b1">PHYS_INPUT_BUTTON_ATCK</a>(<span class="keyword">this</span>) = <span class="keyword">false</span>;</div>
@@ -2383,7 +2383,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_2237e285bffd6ead6b5088a82ff285a6.html">havocbot</a></li><li class="navelem"><a class="el" href="../../d2/de9/havocbot_8qc.html">havocbot.qc</a></li>
-    <li class="footer">Generated on Sat May 28 2016 00:27:13 for Xonotic by
+    <li class="footer">Generated on Sun May 29 2016 01:18:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

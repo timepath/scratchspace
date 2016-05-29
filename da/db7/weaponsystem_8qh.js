@@ -5,7 +5,7 @@ var weaponsystem_8qh =
     [ "forbidWeaponUse", "da/db7/weaponsystem_8qh.html#aa37b568e14f970efdb768a661eeea96e", null ],
     [ "W_AttachToShotorg", "da/db7/weaponsystem_8qh.html#a61f36bcda0a00c923028d3455873d7df", null ],
     [ "W_DecreaseAmmo", "da/db7/weaponsystem_8qh.html#aa0bce870282286c681f4e9988c2ba474", null ],
-    [ "W_DropEvent", "da/db7/weaponsystem_8qh.html#a7d37705a040744e06d35fb60311fafa0", null ],
+    [ "W_DropEvent", "da/db7/weaponsystem_8qh.html#a3033c57fa01b0d86245be740694ca2d6", null ],
     [ "W_Reload", "da/db7/weaponsystem_8qh.html#ad552f2285b74098aab5c07973ec7b577", null ],
     [ "W_WeaponFrame", "da/db7/weaponsystem_8qh.html#a017e108ea89181303373f78298a37b31", null ],
     [ "W_WeaponRateFactor", "da/db7/weaponsystem_8qh.html#ada198b7d2c4a23e3476772e6e16828d7", null ],

@@ -267,7 +267,7 @@ $(document).ready(function(){initNavTree('d8/dc5/nix_8qc_source.html','../../');
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            Send_Notification(NOTIF_ONE_ONLY, <span class="keyword">self</span>, MSG_CENTER, CENTER_NIX_NEWWEAPON, nix_weapon);</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        e.wr_resetplayer(e);</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        e.wr_resetplayer(e, <span class="keyword">self</span>);</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="comment">// all weapons must be fully loaded when we spawn</span></div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">if</span>(e.spawnflags &amp; <a class="code" href="../../dc/d1c/weapon_8qh.html#a300f8a85518c66b86f3ba3d208117241">WEP_FLAG_RELOADABLE</a>) <span class="comment">// prevent accessing undefined cvars</span></div>
@@ -456,7 +456,7 @@ $(document).ready(function(){initNavTree('d8/dc5/nix_8qc_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_d2cfd6a11dc922a7fa47e23507d8dce8.html">nix</a></li><li class="navelem"><a class="el" href="../../d8/dc5/nix_8qc.html">nix.qc</a></li>
-    <li class="footer">Generated on Sat May 28 2016 00:27:00 for Xonotic by
+    <li class="footer">Generated on Sun May 29 2016 01:18:21 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
