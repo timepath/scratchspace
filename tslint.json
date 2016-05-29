@@ -1,0 +1,70 @@
+{
+  "rules": {
+    "no-reference": true,
+    "no-var-requires": true,
+    "curly": true,
+    "forin": true,
+    "label-position": true,
+    "no-arg": true,
+    "no-bitwise": true,
+    "no-conditional-assignment": true,
+    "no-construct": true,
+    "no-debugger": true,
+    "no-empty": true,
+    "no-eval": true,
+    "no-invalid-this": true,
+    "no-null-keyword": true,
+    "no-shadowed-variable": true,
+    "no-unused-variable": [
+      true,
+      "react"
+    ],
+    "no-var-keyword": true,
+    "radix": true,
+    "triple-equals": true,
+    "use-isnan": true,
+    "eofline": true,
+    "indent": [
+      true,
+      "spaces"
+    ],
+    "no-trailing-whitespace": true,
+    "object-literal-sort-keys": true,
+    "class-name": true,
+    "comment-format": [
+      true,
+      "check-space",
+      "check-lowercase"
+    ],
+    "interface-name": [
+      true,
+      "always-prefix"
+    ],
+    "jsdoc-format": true,
+    "new-parens": true,
+    "no-angle-bracket-type-assertion": true,
+    "no-consecutive-blank-lines": true,
+    "one-variable-per-declaration": [
+      true,
+      "ignore-for-loop"
+    ],
+    "quotemark": [
+      true,
+      "double",
+      "avoid-escape"
+    ],
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-typecast"
+    ]
+  }
+}
