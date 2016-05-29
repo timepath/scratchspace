@@ -969,7 +969,7 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;{</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>.movetype == <a class="code" href="../../de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c">MOVETYPE_FOLLOW</a>)</div>
 <div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a930758375dc25ae10f8ac0c2fef1bc2c">PROJECTILE_TOUCH</a>;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#aab2d7fa281e81a5bae0329e8550d41a8">PROJECTILE_TOUCH</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="../../d7/de2/g__hook_8qc.html#aaa4fa08f992c57805b73cb82a193d0a6">GrapplingHook_Stop</a>();</div>
 <div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;</div>
@@ -984,12 +984,12 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;}</div>
 <div class="ttc" id="progsdefs_8qc_html_a87a61c6894ded1456e2e4fee955bf7b1"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a></div><div class="ttdeci">float MOVETYPE_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00246">progsdefs.qc:246</a></div></div>
 <div class="ttc" id="g__hook_8qc_html_aaa4fa08f992c57805b73cb82a193d0a6"><div class="ttname"><a href="../../d7/de2/g__hook_8qc.html#aaa4fa08f992c57805b73cb82a193d0a6">GrapplingHook_Stop</a></div><div class="ttdeci">void GrapplingHook_Stop()</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de2/g__hook_8qc_source.html#l00094">g_hook.qc:94</a></div></div>
-<div class="ttc" id="server_2miscfunctions_8qh_html_a930758375dc25ae10f8ac0c2fef1bc2c"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a930758375dc25ae10f8ac0c2fef1bc2c">PROJECTILE_TOUCH</a></div><div class="ttdeci">#define PROJECTILE_TOUCH</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00125">miscfunctions.qh:125</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_a0de4787aed1c8c80a23725b4708dfa75"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a0de4787aed1c8c80a23725b4708dfa75">SetMovetypeFollow</a></div><div class="ttdeci">void SetMovetypeFollow(entity ent, entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01357">miscfunctions.qc:1357</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a264ee8f6a0019c50d2049ee7af5c9296"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a></div><div class="ttdeci">entity other</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00014">csprogsdefs.qc:14</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a555fa907020eba7e1edd6c583d840636"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a555fa907020eba7e1edd6c583d840636">WarpZone_RefSys_BeginAddingIncrementally</a></div><div class="ttdeci">void WarpZone_RefSys_BeginAddingIncrementally(entity me, entity ref)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00733">common.qc:733</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a9d8f05707745e18415d786a00cd398e8"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a9d8f05707745e18415d786a00cd398e8">aiment</a></div><div class="ttdeci">entity aiment</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00187">progsdefs.qc:187</a></div></div>
 <div class="ttc" id="dpextensions_8qc_html_a5a0f8717cd777d80ce32fe72439b199c"><div class="ttname"><a href="../../de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c">MOVETYPE_FOLLOW</a></div><div class="ttdeci">float MOVETYPE_FOLLOW</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/dpextensions_8qc_source.html#l00549">dpextensions.qc:549</a></div></div>
+<div class="ttc" id="server_2miscfunctions_8qh_html_aab2d7fa281e81a5bae0329e8550d41a8"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#aab2d7fa281e81a5bae0329e8550d41a8">PROJECTILE_TOUCH</a></div><div class="ttdeci">#define PROJECTILE_TOUCH(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00125">miscfunctions.qh:125</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1145,7 +1145,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d7/de2/g__hook_8qc.html">g_hook.qc</a></li>
-    <li class="footer">Generated on Sun May 29 2016 01:18:34 for Xonotic by
+    <li class="footer">Generated on Sun May 29 2016 01:24:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

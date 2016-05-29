@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"df/d28/sv__turrets_8qh.html#ac14a89f9f770acfe2c1072507f53b0af":[2,0,1,14,10,0],
 "df/d28/sv__turrets_8qh.html#ac2b03c802f630aa56642892c8646d1dd":[2,0,1,14,10,12],
 "df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c":[2,0,1,14,10,53],
 "df/d28/sv__turrets_8qh.html#ac67f6b99387c99ea50d2077040744b70":[2,0,1,14,10,51],
@@ -140,6 +141,7 @@ var NAVTREEINDEX117 =
 "df/d4c/server_2pathlib_2main_8qc.html#a1967ff2f3a64bdc15af8370dac37c9c4":[2,0,5,3,9,11],
 "df/d4c/server_2pathlib_2main_8qc.html#a247f038e9726975a0d8ba91d55927e59":[2,0,5,3,9,13],
 "df/d4c/server_2pathlib_2main_8qc.html#a402be18908ff31765c1ff5ba030db5e9":[2,0,5,3,9,4],
+"df/d4c/server_2pathlib_2main_8qc.html#a50572e73e7e27b5eb8e52c539109a13e":[2,0,5,3,9,6],
 "df/d4c/server_2pathlib_2main_8qc.html#a57be331126514bebda5b12285f5f8022":[2,0,5,3,9,8],
 "df/d4c/server_2pathlib_2main_8qc.html#a82021c86aa11a1ba2191eeed1b72bad9":[2,0,5,3,9,3],
 "df/d4c/server_2pathlib_2main_8qc.html#a83274351e21299627f57002cc1c755a0":[2,0,5,3,9,12],
@@ -149,7 +151,6 @@ var NAVTREEINDEX117 =
 "df/d4c/server_2pathlib_2main_8qc.html#ad4452966a687ba92bf4d168352ba5ed5":[2,0,5,3,9,5],
 "df/d4c/server_2pathlib_2main_8qc.html#ad965157a2d6dee07f21b1b4b5aff9b6f":[2,0,5,3,9,1],
 "df/d4c/server_2pathlib_2main_8qc.html#ae2056c633b1b4b1e30b3578f2969e493":[2,0,5,3,9,0],
-"df/d4c/server_2pathlib_2main_8qc.html#af6de80757584168d17abe5cf9a3056d6":[2,0,5,3,9,6],
 "df/d4c/server_2pathlib_2main_8qc_source.html":[2,0,5,3,9],
 "df/d4d/label_8qh.html":[2,0,4,2,19],
 "df/d4d/label_8qh_source.html":[2,0,4,2,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "df/d6e/classXonoticSingleplayerDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,219,14],
 "df/d6e/classXonoticSingleplayerDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,219,85],
 "df/d6e/classXonoticSingleplayerDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,219,76],
-"df/d6e/classXonoticSingleplayerDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,219,75],
-"df/d6e/classXonoticSingleplayerDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,219,41]
+"df/d6e/classXonoticSingleplayerDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,219,75]
 };

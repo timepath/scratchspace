@@ -6,7 +6,7 @@ var havocbot_8qh =
     [ "havocbot_chooseenemy", "d8/d39/havocbot_8qh.html#a111ec0233d8b5c4d728312b1f98a8962", null ],
     [ "havocbot_chooserole", "d8/d39/havocbot_8qh.html#a5f878532d323f792b8b4c306d068cc0c", null ],
     [ "havocbot_chooseweapon", "d8/d39/havocbot_8qh.html#a272bc3411c4379be26087da9b54f818e", null ],
-    [ "havocbot_dodge", "d8/d39/havocbot_8qh.html#a32884cc52a06c5795bc303cf99b504b0", null ],
+    [ "havocbot_dodge", "d8/d39/havocbot_8qh.html#a8ed5fd4e5d6f286c17a895c7d269c607", null ],
     [ "havocbot_keyboard_movement", "d8/d39/havocbot_8qh.html#a6942c73e794b5ae39ea6211ae7f22d0f", null ],
     [ "havocbot_moveto", "d8/d39/havocbot_8qh.html#a220d6282b351b7a69e7ee1bfce73098f", null ],
     [ "havocbot_moveto_refresh_route", "d8/d39/havocbot_8qh.html#adeb49cf8f2443d24afe7f12f5e05cd98", null ],

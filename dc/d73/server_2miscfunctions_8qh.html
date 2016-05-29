@@ -145,8 +145,8 @@ Macros</h2></td></tr>
 <tr class="separator:a2f3f7e33fb5bc60212a8074ff9b80595"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a277f5e186f80cd980204cb7d55042890"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a277f5e186f80cd980204cb7d55042890">ITEM_TOUCH_NEEDKILL</a>()&#160;&#160;&#160;(((<a class="el" href="../../de/d5e/dpextensions_8qc.html#a6df2f94c258e986652c71c376fd05b1a">trace_dpstartcontents</a> | <a class="el" href="../../de/d5e/dpextensions_8qc.html#a0e1538c061ca0534f36eec9c31fe67ab">trace_dphitcontents</a>) &amp; <a class="el" href="../../de/d5e/dpextensions_8qc.html#a13e8a64072ad7e7269806ef37e134654">DPCONTENTS_NODROP</a>) || (<a class="el" href="../../de/d5e/dpextensions_8qc.html#aa3a866cdc0e6b0951832c310d0b9244c">trace_dphitq3surfaceflags</a> &amp; <a class="el" href="../../de/d5e/dpextensions_8qc.html#a0479e334f76d4fabe2c617373b2bd6f9">Q3SURFACEFLAG_SKY</a>))</td></tr>
 <tr class="separator:a277f5e186f80cd980204cb7d55042890"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a930758375dc25ae10f8ac0c2fef1bc2c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a930758375dc25ae10f8ac0c2fef1bc2c">PROJECTILE_TOUCH</a>&#160;&#160;&#160;if(<a class="el" href="../../d7/d2b/server_8qc.html#aba7d68c4a0c85d16778c9463b2153864">WarpZone_Projectile_Touch</a>()) return</td></tr>
-<tr class="separator:a930758375dc25ae10f8ac0c2fef1bc2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab2d7fa281e81a5bae0329e8550d41a8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#aab2d7fa281e81a5bae0329e8550d41a8">PROJECTILE_TOUCH</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a>)&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../d7/d2b/server_8qc.html#af128d7035dd22a64ea20a40193f039e4">WarpZone_Projectile_Touch</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a>)) return; <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td></tr>
+<tr class="separator:aab2d7fa281e81a5bae0329e8550d41a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29c235bed1ff0287066a442759cbfe3a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a29c235bed1ff0287066a442759cbfe3a">WARMUP_START_WEAPONS</a>&#160;&#160;&#160;((<a class="el" href="../../d5/d26/server_2defs_8qh.html#ac1c30ec6307b210f08d78ee929599d2a">g_warmup_allguns</a> == 1) ? (<a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#aca7c673e6d637dd16b6a9bbcc3f73a63">warmup_start_weapons</a> &amp; (<a class="el" href="../../d5/d26/server_2defs_8qh.html#ac604df0261061f3fb75d6ca46fa5bc53">weaponsInMap</a> | <a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a266095dd0a42668591b2765cabb0ba84">start_weapons</a>)) : <a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#aca7c673e6d637dd16b6a9bbcc3f73a63">warmup_start_weapons</a>)</td></tr>
 <tr class="separator:a29c235bed1ff0287066a442759cbfe3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -471,7 +471,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00127">127</a> of file <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html">miscfunctions.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00321">CommonCommand_editmob()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00122">Monster_FindTarget()</a>, and <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00880">RadiusDamageForSource()</a>.</p>
+<p>Referenced by <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00320">CommonCommand_editmob()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00122">Monster_FindTarget()</a>, and <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00880">RadiusDamageForSource()</a>.</p>
 
 </div>
 </div>
@@ -546,12 +546,16 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a930758375dc25ae10f8ac0c2fef1bc2c"></a>
+<a class="anchor" id="aab2d7fa281e81a5bae0329e8550d41a8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define PROJECTILE_TOUCH&#160;&#160;&#160;if(<a class="el" href="../../d7/d2b/server_8qc.html#aba7d68c4a0c85d16778c9463b2153864">WarpZone_Projectile_Touch</a>()) return</td>
+          <td class="memname">#define PROJECTILE_TOUCH</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a></td><td>)</td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> if (<a class="el" href="../../d7/d2b/server_8qc.html#af128d7035dd22a64ea20a40193f039e4">WarpZone_Projectile_Touch</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a>)) return; <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5689,7 +5693,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html">miscfunctions.qh</a></li>
-    <li class="footer">Generated on Sun May 29 2016 01:18:25 for Xonotic by
+    <li class="footer">Generated on Sun May 29 2016 01:24:40 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

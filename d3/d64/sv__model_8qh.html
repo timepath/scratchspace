@@ -324,67 +324,67 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dd5/sv__model_8qc_source.html#l00065">65</a> of file <a class="el" href="../../dd/dd5/sv__model_8qc_source.html">sv_model.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd5/sv__model_8qc_source.html#l00064">64</a> of file <a class="el" href="../../dd/dd5/sv__model_8qc_source.html">sv_model.qc</a>.</p>
 
 <p>References <a class="el" href="../../d5/df7/lib_2csqcmodel_2common_8qh_source.html#l00095">ALLPROPERTIES</a>, <a class="el" href="../../d5/df7/lib_2csqcmodel_2common_8qh_source.html#l00057">CSQCMODEL_PROPERTY_FRAME</a>, <a class="el" href="../../d5/df7/lib_2csqcmodel_2common_8qh_source.html#l00063">CSQCMODEL_PROPERTY_FRAME2</a>, <a class="el" href="../../d5/df7/lib_2csqcmodel_2common_8qh_source.html#l00060">CSQCMODEL_PROPERTY_ORIGIN</a>, <a class="el" href="../../d5/df7/lib_2csqcmodel_2common_8qh_source.html#l00058">CSQCMODEL_PROPERTY_TELEPORTED</a>, <a class="el" href="../../d1/d20/csqcmodel__settings_8qh_source.html#l00080">CSQCPLAYER_FORCE_UPDATES</a>, <a class="el" href="../../d3/dfc/csqcmodel__hooks_8qh_source.html#l00010">EF_RESTARTANIM_BIT</a>, <a class="el" href="../../d3/dfc/csqcmodel__hooks_8qh_source.html#l00011">EF_TELEPORT_BIT</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00013">IS_CLIENT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00237">unused_float</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dd/dd5/sv__model_8qc_source.html#l00123">CSQCModel_LinkEntity()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;{</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="comment">// some nice flags for CSQCMODEL_IF</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">float</span> isplayer = <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(e);</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">float</span> islocalplayer = isplayer; <span class="comment">// we set BOTH to 1 here as we need the sendflags</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordtype">float</span> isnolocalplayer = isplayer; <span class="comment">// we set BOTH to 1 here as we need the sendflags</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#a1958e486526856851d6fee198bca493c">unused_float</a> = isplayer;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#a1958e486526856851d6fee198bca493c">unused_float</a> = islocalplayer;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#a1958e486526856851d6fee198bca493c">unused_float</a> = isnolocalplayer;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor">#if CSQCPLAYER_FORCE_UPDATES</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(isplayer &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; e.csqcmodel_nextforcedupdate)</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        e.SendFlags |= <a class="code" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#adb5e968612189ba56fbed93a2c758717">CSQCMODEL_PROPERTY_ORIGIN</a>;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        e.csqcmodel_nextforcedupdate = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + (1 / (<a class="code" href="../../d1/d20/csqcmodel__settings_8qh.html#afa3788f017d2c00503a944c4176a3f65">CSQCPLAYER_FORCE_UPDATES</a>)) * (0.5 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>()); <span class="comment">// ensure about 4 origin sends per sec</span></div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">if</span>(e.effects &amp; <a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#acd9d00d9aad1f54ff833ef7cfab8e3d4">EF_RESTARTANIM_BIT</a>)</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        e.SendFlags |= <a class="code" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a5e8501a4c9e9aab0e9b004b8fafea392">CSQCMODEL_PROPERTY_FRAME</a> | <a class="code" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a1e46e723203572918b315d77bdb1c42a">CSQCMODEL_PROPERTY_FRAME2</a>; <span class="comment">// full anim resend please</span></div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        e.effects &amp;= ~<a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#acd9d00d9aad1f54ff833ef7cfab8e3d4">EF_RESTARTANIM_BIT</a>;</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    <span class="keywordflow">if</span>(e.effects &amp; <a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#a59b8c94bae8e8b41f417fab6789ffaf8">EF_TELEPORT_BIT</a>)</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    {</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        e.SendFlags |= <a class="code" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#ae61a79d4bf8dbb71ed546e14cde0bf29">CSQCMODEL_PROPERTY_TELEPORTED</a>; <span class="comment">// no interpolation please</span></div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        e.effects &amp;= ~<a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#a59b8c94bae8e8b41f417fab6789ffaf8">EF_TELEPORT_BIT</a>;</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    }</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">#define CSQCMODEL_IF(cond) if(cond) {</span></div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CSQCMODEL_ENDIF }</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CSQCMODEL_PROPERTY(flag,t,r,w,f) \</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">    { \</span></div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">        t tmp = e.f; \</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">        if(tmp != e.csqcmodel_##f) \</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">        { \</span></div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">            e.csqcmodel_##f = tmp; \</span></div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">            e.SendFlags |= flag; \</span></div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">        } \</span></div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor">    }</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CSQCMODEL_PROPERTY_SCALED(flag,t,r,w,f,s,mi,ma) \</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">    { \</span></div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor">        t tmp = rint(bound(mi, s * e.f, ma) - mi); \</span></div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor">        if(tmp != e.csqcmodel_##f) \</span></div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">        { \</span></div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">            e.csqcmodel_##f = tmp; \</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor">            e.SendFlags |= flag; \</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">        } \</span></div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor">    }</span></div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a8e9253310528fe25da0191bad79ec5d2">ALLPROPERTIES</a></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor">#undef CSQCMODEL_PROPERTY_SCALED</span></div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#undef CSQCMODEL_PROPERTY</span></div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#undef CSQCMODEL_ENDIF</span></div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#undef CSQCMODEL_IF</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor"></span>}</div>
+<p>Referenced by <a class="el" href="../../dd/dd5/sv__model_8qc_source.html#l00122">CSQCModel_LinkEntity()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">// some nice flags for CSQCMODEL_IF</span></div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <span class="keywordtype">float</span> isplayer = <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(e);</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    <span class="keywordtype">float</span> islocalplayer = isplayer; <span class="comment">// we set BOTH to 1 here as we need the sendflags</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    <span class="keywordtype">float</span> isnolocalplayer = isplayer; <span class="comment">// we set BOTH to 1 here as we need the sendflags</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#a1958e486526856851d6fee198bca493c">unused_float</a> = isplayer;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#a1958e486526856851d6fee198bca493c">unused_float</a> = islocalplayer;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <a class="code" href="../../d5/df2/common_2util_8qh.html#a1958e486526856851d6fee198bca493c">unused_float</a> = isnolocalplayer;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;<span class="preprocessor">#if CSQCPLAYER_FORCE_UPDATES</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(isplayer &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; e.csqcmodel_nextforcedupdate)</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    {</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        e.SendFlags |= <a class="code" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#adb5e968612189ba56fbed93a2c758717">CSQCMODEL_PROPERTY_ORIGIN</a>;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        e.csqcmodel_nextforcedupdate = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + (1 / (<a class="code" href="../../d1/d20/csqcmodel__settings_8qh.html#afa3788f017d2c00503a944c4176a3f65">CSQCPLAYER_FORCE_UPDATES</a>)) * (0.5 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>()); <span class="comment">// ensure about 4 origin sends per sec</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    }</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">if</span>(e.effects &amp; <a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#acd9d00d9aad1f54ff833ef7cfab8e3d4">EF_RESTARTANIM_BIT</a>)</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    {</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        e.SendFlags |= <a class="code" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a5e8501a4c9e9aab0e9b004b8fafea392">CSQCMODEL_PROPERTY_FRAME</a> | <a class="code" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a1e46e723203572918b315d77bdb1c42a">CSQCMODEL_PROPERTY_FRAME2</a>; <span class="comment">// full anim resend please</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        e.effects &amp;= ~<a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#acd9d00d9aad1f54ff833ef7cfab8e3d4">EF_RESTARTANIM_BIT</a>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">if</span>(e.effects &amp; <a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#a59b8c94bae8e8b41f417fab6789ffaf8">EF_TELEPORT_BIT</a>)</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    {</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        e.SendFlags |= <a class="code" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#ae61a79d4bf8dbb71ed546e14cde0bf29">CSQCMODEL_PROPERTY_TELEPORTED</a>; <span class="comment">// no interpolation please</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;        e.effects &amp;= ~<a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#a59b8c94bae8e8b41f417fab6789ffaf8">EF_TELEPORT_BIT</a>;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">#define CSQCMODEL_IF(cond) if(cond) {</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CSQCMODEL_ENDIF }</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CSQCMODEL_PROPERTY(flag,t,r,w,f) \</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">    { \</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;<span class="preprocessor">        t tmp = e.f; \</span></div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">        if(tmp != e.csqcmodel_##f) \</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor">        { \</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<span class="preprocessor">            e.csqcmodel_##f = tmp; \</span></div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="preprocessor">            e.SendFlags |= flag; \</span></div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="preprocessor">        } \</span></div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;<span class="preprocessor">    }</span></div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CSQCMODEL_PROPERTY_SCALED(flag,t,r,w,f,s,mi,ma) \</span></div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor">    { \</span></div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;<span class="preprocessor">        t tmp = rint(bound(mi, s * e.f, ma) - mi); \</span></div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;<span class="preprocessor">        if(tmp != e.csqcmodel_##f) \</span></div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<span class="preprocessor">        { \</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;<span class="preprocessor">            e.csqcmodel_##f = tmp; \</span></div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;<span class="preprocessor">            e.SendFlags |= flag; \</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;<span class="preprocessor">        } \</span></div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">    }</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#a8e9253310528fe25da0191bad79ec5d2">ALLPROPERTIES</a></div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor">#undef CSQCMODEL_PROPERTY_SCALED</span></div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#undef CSQCMODEL_PROPERTY</span></div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#undef CSQCMODEL_ENDIF</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#undef CSQCMODEL_IF</span></div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="ttc" id="csqcmodel__settings_8qh_html_afa3788f017d2c00503a944c4176a3f65"><div class="ttname"><a href="../../d1/d20/csqcmodel__settings_8qh.html#afa3788f017d2c00503a944c4176a3f65">CSQCPLAYER_FORCE_UPDATES</a></div><div class="ttdeci">#define CSQCPLAYER_FORCE_UPDATES</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d20/csqcmodel__settings_8qh_source.html#l00080">csqcmodel_settings.qh:80</a></div></div>
 <div class="ttc" id="csqcmodel__hooks_8qh_html_acd9d00d9aad1f54ff833ef7cfab8e3d4"><div class="ttname"><a href="../../d3/dfc/csqcmodel__hooks_8qh.html#acd9d00d9aad1f54ff833ef7cfab8e3d4">EF_RESTARTANIM_BIT</a></div><div class="ttdeci">const int EF_RESTARTANIM_BIT</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dfc/csqcmodel__hooks_8qh_source.html#l00010">csqcmodel_hooks.qh:10</a></div></div>
 <div class="ttc" id="lib_2csqcmodel_2common_8qh_html_adb5e968612189ba56fbed93a2c758717"><div class="ttname"><a href="../../d5/df7/lib_2csqcmodel_2common_8qh.html#adb5e968612189ba56fbed93a2c758717">CSQCMODEL_PROPERTY_ORIGIN</a></div><div class="ttdeci">const int CSQCMODEL_PROPERTY_ORIGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df7/lib_2csqcmodel_2common_8qh_source.html#l00060">common.qh:60</a></div></div>
@@ -434,16 +434,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dd/dd5/sv__model_8qc_source.html#l00123">123</a> of file <a class="el" href="../../dd/dd5/sv__model_8qc_source.html">sv_model.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dd/dd5/sv__model_8qc_source.html#l00122">122</a> of file <a class="el" href="../../dd/dd5/sv__model_8qc_source.html">sv_model.qc</a>.</p>
 
-<p>References <a class="el" href="../../dd/dd5/sv__model_8qc_source.html#l00065">CSQCModel_CheckUpdate()</a>, and <a class="el" href="../../dd/dd5/sv__model_8qc_source.html#l00033">CSQCModel_Send()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;{</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    e.SendEntity = <a class="code" href="../../dd/dd5/sv__model_8qc.html#a7d121b60a49265b031a787cd51c411b2">CSQCModel_Send</a>;</div>
+<p>References <a class="el" href="../../dd/dd5/sv__model_8qc_source.html#l00064">CSQCModel_CheckUpdate()</a>, and <a class="el" href="../../dd/dd5/sv__model_8qc_source.html#l00033">CSQCModel_Send()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;{</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    e.SendEntity = SendEntity_self;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    e.SendEntity3 = <a class="code" href="../../dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780">CSQCModel_Send</a>;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    e.SendFlags = 0xFFFFFF;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4">CSQCModel_CheckUpdate</a>(e);</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;}</div>
-<div class="ttc" id="sv__model_8qc_html_a7d121b60a49265b031a787cd51c411b2"><div class="ttname"><a href="../../dd/dd5/sv__model_8qc.html#a7d121b60a49265b031a787cd51c411b2">CSQCModel_Send</a></div><div class="ttdeci">bool CSQCModel_Send(entity to, int sf)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd5/sv__model_8qc_source.html#l00033">sv_model.qc:33</a></div></div>
-<div class="ttc" id="sv__model_8qc_html_a32aa4ddceceddfb68f9fc5fb066d9dd4"><div class="ttname"><a href="../../dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4">CSQCModel_CheckUpdate</a></div><div class="ttdeci">void CSQCModel_CheckUpdate(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd5/sv__model_8qc_source.html#l00065">sv_model.qc:65</a></div></div>
+<div class="ttc" id="sv__model_8qc_html_a83698e99b9dd18987d38067c56d56780"><div class="ttname"><a href="../../dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780">CSQCModel_Send</a></div><div class="ttdeci">bool CSQCModel_Send(entity this, entity to, int sf)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd5/sv__model_8qc_source.html#l00033">sv_model.qc:33</a></div></div>
+<div class="ttc" id="sv__model_8qc_html_a32aa4ddceceddfb68f9fc5fb066d9dd4"><div class="ttname"><a href="../../dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4">CSQCModel_CheckUpdate</a></div><div class="ttdeci">void CSQCModel_CheckUpdate(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dd5/sv__model_8qc_source.html#l00064">sv_model.qc:64</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -478,7 +479,8 @@ Functions</h2></td></tr>
 <p>Referenced by <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00982">Monster_Dead()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00955">vehicles_enter()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;{</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    e.SendEntity = <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;}</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    e.SendEntity3 = <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;}</div>
 <div class="ttc" id="nil_8qh_html_a48cdb42ec925da155dd105031cac3f44"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a></div><div class="ttdeci">var void func_null()</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -509,7 +511,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_d5fd5ebb74d9aac6232b0b4eda80dfde.html">csqcmodel</a></li><li class="navelem"><a class="el" href="../../d3/d64/sv__model_8qh.html">sv_model.qh</a></li>
-    <li class="footer">Generated on Sun May 29 2016 01:18:30 for Xonotic by
+    <li class="footer">Generated on Sun May 29 2016 01:24:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

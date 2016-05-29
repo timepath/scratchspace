@@ -6,7 +6,7 @@ var server_2pathlib_2main_8qc =
     [ "Cosine_Interpolate", "df/d4c/server_2pathlib_2main_8qc.html#a82021c86aa11a1ba2191eeed1b72bad9", null ],
     [ "dumpnode", "df/d4c/server_2pathlib_2main_8qc.html#a402be18908ff31765c1ff5ba030db5e9", null ],
     [ "path_build", "df/d4c/server_2pathlib_2main_8qc.html#ad4452966a687ba92bf4d168352ba5ed5", null ],
-    [ "pathlib_astar", "df/d4c/server_2pathlib_2main_8qc.html#af6de80757584168d17abe5cf9a3056d6", null ],
+    [ "pathlib_astar", "df/d4c/server_2pathlib_2main_8qc.html#a50572e73e7e27b5eb8e52c539109a13e", null ],
     [ "pathlib_cleanup", "df/d4c/server_2pathlib_2main_8qc.html#a928781de46c90ca77a40c7ece2a97535", null ],
     [ "pathlib_close_node", "df/d4c/server_2pathlib_2main_8qc.html#a57be331126514bebda5b12285f5f8022", null ],
     [ "pathlib_deletepath", "df/d4c/server_2pathlib_2main_8qc.html#a03b9aba43bfb042a5123b809a630a852", null ],

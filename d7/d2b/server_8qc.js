@@ -1,6 +1,6 @@
 var server_8qc =
 [
-    [ "WarpZone_Projectile_Touch", "d7/d2b/server_8qc.html#aba7d68c4a0c85d16778c9463b2153864", null ],
+    [ "WarpZone_Projectile_Touch", "d7/d2b/server_8qc.html#af128d7035dd22a64ea20a40193f039e4", null ],
     [ "WarpZone_Teleport", "d7/d2b/server_8qc.html#acc540ec5b1736673c16d2e7d5ca8b739", null ],
     [ "WarpZone_TeleportPlayer", "d7/d2b/server_8qc.html#a5abb5925461820a6c1f79553bb556e39", null ],
     [ "WarpZone_Touch", "d7/d2b/server_8qc.html#a15f0aaba4d6b4bc5d0a614df9a9149d9", null ],

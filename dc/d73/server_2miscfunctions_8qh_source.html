@@ -229,7 +229,7 @@ $(document).ready(function(){initNavTree('dc/d73/server_2miscfunctions_8qh_sourc
 <div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="../../dc/d73/server_2miscfunctions_8qh.html#a277f5e186f80cd980204cb7d55042890">  122</a></span>&#160;<span class="preprocessor">#define ITEM_TOUCH_NEEDKILL() (((trace_dpstartcontents | trace_dphitcontents) &amp; DPCONTENTS_NODROP) || (trace_dphitq3surfaceflags &amp; Q3SURFACEFLAG_SKY))</span></div>
 <div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="../../dc/d73/server_2miscfunctions_8qh.html#a2f3f7e33fb5bc60212a8074ff9b80595">  123</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define ITEM_DAMAGE_NEEDKILL(dt) (((dt) == DEATH_HURTTRIGGER.m_id) || ((dt) == DEATH_SLIME.m_id) || ((dt) == DEATH_LAVA.m_id) || ((dt) == DEATH_SWAMP.m_id))</span></div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="../../dc/d73/server_2miscfunctions_8qh.html#a930758375dc25ae10f8ac0c2fef1bc2c">  125</a></span>&#160;<span class="preprocessor">#define PROJECTILE_TOUCH if(WarpZone_Projectile_Touch()) return</span></div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="../../dc/d73/server_2miscfunctions_8qh.html#aab2d7fa281e81a5bae0329e8550d41a8">  125</a></span>&#160;<span class="preprocessor">#define PROJECTILE_TOUCH(this) MACRO_BEGIN if (WarpZone_Projectile_Touch(this)) return; MACRO_END</span></div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00127"></a><span class="lineno"><a class="line" href="../../dc/d73/server_2miscfunctions_8qh.html#afbe404306e2934634cd9f0d90fd177de">  127</a></span>&#160;<span class="preprocessor">#define CENTER_OR_VIEWOFS(ent) (ent.origin + (IS_PLAYER(ent) ? ent.view_ofs : ((ent.mins + ent.maxs) * 0.5)))</span></div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="preprocessor"></span></div>
@@ -662,7 +662,7 @@ $(document).ready(function(){initNavTree('dc/d73/server_2miscfunctions_8qh_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html">miscfunctions.qh</a></li>
-    <li class="footer">Generated on Sun May 29 2016 01:18:20 for Xonotic by
+    <li class="footer">Generated on Sun May 29 2016 01:24:34 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

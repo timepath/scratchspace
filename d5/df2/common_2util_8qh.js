@@ -108,7 +108,7 @@ var common_2util_8qh =
     [ "vercmp", "d5/df2/common_2util_8qh.html#ae5be9f0e164ad91a7b315c07a569eaa5", null ],
     [ "wordwrap", "d5/df2/common_2util_8qh.html#ad685ca07f0d3d06a0b8f109a25114ceb", null ],
     [ "wordwrap_cb", "d5/df2/common_2util_8qh.html#a1c708493a4e4d0c7a50fbfec0c256f9c", null ],
-    [ "wordwrap_sprint", "d5/df2/common_2util_8qh.html#acd1dd8b69413bf432b11adcf68d7bb9b", null ],
+    [ "wordwrap_sprint", "d5/df2/common_2util_8qh.html#afc986f575d8921c9890711314e23d0af", null ],
     [ "WriteInt24_t", "d5/df2/common_2util_8qh.html#aca40f9a86ce07f98e7a457c2cdffa8e0", null ],
     [ "WriteInt48_t", "d5/df2/common_2util_8qh.html#aae417d1a8022e56ce8fa329c3c48085c", null ],
     [ "WriteInt72_t", "d5/df2/common_2util_8qh.html#a9a2c07d888c3e827160ba146f85aa8e3", null ],

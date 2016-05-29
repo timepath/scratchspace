@@ -170,7 +170,7 @@ $(document).ready(function(){initNavTree('db/d5c/walker_8qc_source.html','../../
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;.float animflag;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;.float idletime;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#define WALKER_PATH(s,e) pathlib_astar(s,e)</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#define WALKER_PATH(this, s, e) pathlib_astar(this, s, e)</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="keywordtype">float</span> walker_firecheck()</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
@@ -424,7 +424,7 @@ $(document).ready(function(){initNavTree('db/d5c/walker_8qc_source.html','../../
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;                <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../df/d18/checkpoint_8qc.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.enemy)</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;                {</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                    <span class="keyword">self</span>.pathcurrent = WALKER_PATH(<span class="keyword">self</span>.<a class="code" href="../../df/d18/checkpoint_8qc.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.origin,<span class="keyword">self</span>.pathgoal.enemy.origin);</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;                    <span class="keyword">self</span>.pathcurrent = WALKER_PATH(<span class="keyword">self</span>, <span class="keyword">self</span>.<a class="code" href="../../df/d18/checkpoint_8qc.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a">pathgoal</a>.origin, <span class="keyword">self</span>.pathgoal.enemy.origin);</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;                    <span class="keyword">self</span>.pathgoal = <span class="keyword">self</span>.pathgoal.enemy;</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;                }</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;            }</div>
@@ -724,7 +724,7 @@ $(document).ready(function(){initNavTree('db/d5c/walker_8qc_source.html','../../
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        {</div>
 <div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;<span class="preprocessor">#ifdef WALKER_FANCYPATHING</span></div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;<span class="preprocessor"></span>            it.pathcurrent = WALKER_PATH(it.origin, e.origin);</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;<span class="preprocessor"></span>            it.pathcurrent = WALKER_PATH(it, it.origin, e.origin);</div>
 <div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;            it.pathgoal = e;</div>
 <div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;<span class="preprocessor"></span>            it.pathcurrent = e;</div>
@@ -898,7 +898,7 @@ $(document).ready(function(){initNavTree('db/d5c/walker_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../dir_fa2a09f1361e1aa682b62127b5a1aaea.html">turret</a></li><li class="navelem"><a class="el" href="../../db/d5c/walker_8qc.html">walker.qc</a></li>
-    <li class="footer">Generated on Sun May 29 2016 01:18:21 for Xonotic by
+    <li class="footer">Generated on Sun May 29 2016 01:24:36 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
