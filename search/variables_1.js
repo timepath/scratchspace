@@ -358,7 +358,6 @@ var searchData=
   ['autocvar_5fcl_5feventchase_5fgenerator_5fviewoffset',['autocvar_cl_eventchase_generator_viewoffset',['../d7/db4/client_2autocvars_8qh.html#a2fd39a14111d680312baca9e0a016f73',1,'autocvars.qh']]],
   ['autocvar_5fcl_5feventchase_5fmaxs',['autocvar_cl_eventchase_maxs',['../d7/db4/client_2autocvars_8qh.html#ad8968b416783abc8262468960dba598e',1,'autocvars.qh']]],
   ['autocvar_5fcl_5feventchase_5fmins',['autocvar_cl_eventchase_mins',['../d7/db4/client_2autocvars_8qh.html#a681bff6e624baf3af2f0334052bd2ca8',1,'autocvars.qh']]],
-  ['autocvar_5fcl_5feventchase_5fnexball',['autocvar_cl_eventchase_nexball',['../d7/db4/client_2autocvars_8qh.html#ad20f9fcb57d623751d2b99cbaf93c39a',1,'autocvars.qh']]],
   ['autocvar_5fcl_5feventchase_5fspeed',['autocvar_cl_eventchase_speed',['../d7/db4/client_2autocvars_8qh.html#a03a38164b52dbfea40d0d73ef61de13b',1,'autocvars.qh']]],
   ['autocvar_5fcl_5feventchase_5fvehicle',['autocvar_cl_eventchase_vehicle',['../d7/db4/client_2autocvars_8qh.html#a259aeeff3ccba332515970b0d5ea350c',1,'autocvars.qh']]],
   ['autocvar_5fcl_5feventchase_5fvehicle_5fdistance',['autocvar_cl_eventchase_vehicle_distance',['../d7/db4/client_2autocvars_8qh.html#a216921fa65219c3f4524f50ef8dd8002',1,'autocvars.qh']]],

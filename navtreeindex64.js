@@ -1,6 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"d7/dc5/common_2sounds_2all_8inc.html#a6a5dfc1f024c6685ad1d158d89cb3114":[2,0,1,12,2,170],
 "d7/dc5/common_2sounds_2all_8inc.html#a6c492e572274ddf58bc1a119636fd22f":[2,0,1,12,2,40],
 "d7/dc5/common_2sounds_2all_8inc.html#a6d7f811f5d266851761c842de4641be2":[2,0,1,12,2,166],
 "d7/dc5/common_2sounds_2all_8inc.html#a6fe8a7ccb40b30c3c5371a3d1f6540e3":[2,0,1,12,2,145],
@@ -249,5 +248,6 @@ var NAVTREEINDEX64 =
 "d7/de6/classXonoticSkinList.html#a731ef2d8cdb302ddcd41f3ed9e6a2be0":[1,0,220,36],
 "d7/de6/classXonoticSkinList.html#a75d3e1ec26750f242628aa236386c78f":[1,0,220,24],
 "d7/de6/classXonoticSkinList.html#a764e355b65af202e87289c596432c780":[1,0,220,59],
-"d7/de6/classXonoticSkinList.html#a79900e983c6d50ab32dd1a5021567593":[1,0,220,68]
+"d7/de6/classXonoticSkinList.html#a79900e983c6d50ab32dd1a5021567593":[1,0,220,68],
+"d7/de6/classXonoticSkinList.html#a79ba699230d914055ac0bc5d60f0e574":[1,0,220,48]
 };

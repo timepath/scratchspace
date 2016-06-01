@@ -1,6 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"da/d9c/mutators_2mutator_2vampire_2module_8inc.html":[2,0,1,9,0,29,2],
 "da/d9c/mutators_2mutator_2vampire_2module_8inc_source.html":[2,0,1,9,0,29,2],
 "da/da6/flipflop_8qc.html":[2,0,1,13,3,5],
 "da/da6/flipflop_8qc_source.html":[2,0,1,13,3,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX83 =
 "da/dc1/classXonoticAudioSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,123,75],
 "da/dc1/classXonoticAudioSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,123,74],
 "da/dc1/classXonoticAudioSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,123,41],
-"da/dc1/classXonoticAudioSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,123,34]
+"da/dc1/classXonoticAudioSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,123,34],
+"da/dc1/classXonoticAudioSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,123,67]
 };
