@@ -59,7 +59,6 @@ var cl__client_8qc =
     [ "TRANSMUTE", "da/d53/cl__client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80", null ],
     [ "UpdateChatBubble", "da/d53/cl__client_8qc.html#a0951679ad39e70406fef5a926e2f26e2", null ],
     [ "vehicles_enter", "da/d53/cl__client_8qc.html#a018387a690e307f5cc7fb250212d7eb5", null ],
-    [ "void", "da/d53/cl__client_8qc.html#a970661ffeb3805a8821a11ae4d765f15", null ],
     [ "WITHSELF", "da/d53/cl__client_8qc.html#a168e65ddd17624e11dca32e08ea8ef0c", null ],
     [ "WITHSELF", "da/d53/cl__client_8qc.html#a6cd13382949f3663b0c0995c117d8f83", null ],
     [ "chatbubbleentity", "da/d53/cl__client_8qc.html#a0ea52ed96e6d3b34c2c0eac9ec813fe7", null ],
