@@ -886,13 +886,13 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01016">1016</a> of file <a class="el" href="../../db/dcc/g__world_8qc_source.html">g_world.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00203">autocvar_g_maplist_mostrecent</a>, and <a class="el" href="../../d2/db4/string_8qh_source.html#l00214">strhasword</a>.</p>
+<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00203">autocvar_g_maplist_mostrecent</a>, and <a class="el" href="../../d2/db4/string_8qh_source.html#l00225">strhasword</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01021">Map_Check()</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00123">MapVote_Suggest()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00533">ValidateMap()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160;{</div>
 <div class="line"><a name="l01018"></a><span class="lineno"> 1018</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d2/db4/string_8qh.html#a836225e275d6595a6f0e1b644ea8ba30">strhasword</a>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#af213475110e566d0fd73df3a810d081e">autocvar_g_maplist_mostrecent</a>, m);</div>
 <div class="line"><a name="l01019"></a><span class="lineno"> 1019</span>&#160;}</div>
-<div class="ttc" id="string_8qh_html_a836225e275d6595a6f0e1b644ea8ba30"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a836225e275d6595a6f0e1b644ea8ba30">strhasword</a></div><div class="ttdeci">#define strhasword(s, w)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00214">string.qh:214</a></div></div>
+<div class="ttc" id="string_8qh_html_a836225e275d6595a6f0e1b644ea8ba30"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a836225e275d6595a6f0e1b644ea8ba30">strhasword</a></div><div class="ttdeci">#define strhasword(s, w)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00225">string.qh:225</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_af213475110e566d0fd73df3a810d081e"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#af213475110e566d0fd73df3a810d081e">autocvar_g_maplist_mostrecent</a></div><div class="ttdeci">string autocvar_g_maplist_mostrecent</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00203">autocvars.qh:203</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1083,13 +1083,13 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01674">1674</a> of file <a class="el" href="../../db/dcc/g__world_8qc_source.html">g_world.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00200">autocvar_g_maplist</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, and <a class="el" href="../../d2/db4/string_8qh_source.html#l00171">shufflewords()</a>.</p>
+<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00200">autocvar_g_maplist</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>, and <a class="el" href="../../d2/db4/string_8qh_source.html#l00182">shufflewords()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00698">GameTypeVote_SetGametype()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00107">GotoFirstMap()</a>, and <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00204">MapVote_Init()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01675"></a><span class="lineno"> 1675</span>&#160;{</div>
 <div class="line"><a name="l01676"></a><span class="lineno"> 1676</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;g_maplist&quot;</span>, <a class="code" href="../../d5/df2/common_2util_8qh.html#aedbfa3cb057748398c3bcf523af411d6">shufflewords</a>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ac1419392bb5eb137257f6de17c619439">autocvar_g_maplist</a>));</div>
 <div class="line"><a name="l01677"></a><span class="lineno"> 1677</span>&#160;}</div>
-<div class="ttc" id="common_2util_8qh_html_aedbfa3cb057748398c3bcf523af411d6"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#aedbfa3cb057748398c3bcf523af411d6">shufflewords</a></div><div class="ttdeci">string shufflewords(string str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00171">string.qh:171</a></div></div>
+<div class="ttc" id="common_2util_8qh_html_aedbfa3cb057748398c3bcf523af411d6"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#aedbfa3cb057748398c3bcf523af411d6">shufflewords</a></div><div class="ttdeci">string shufflewords(string str)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00182">string.qh:182</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_ac1419392bb5eb137257f6de17c619439"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ac1419392bb5eb137257f6de17c619439">autocvar_g_maplist</a></div><div class="ttdeci">#define autocvar_g_maplist</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00200">autocvars.qh:200</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
 </div><!-- fragment -->
@@ -1416,7 +1416,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d7/d97/g__world_8qh.html">g_world.qh</a></li>
-    <li class="footer">Generated on Wed Jun 8 2016 09:40:00 for Xonotic by
+    <li class="footer">Generated on Wed Jun 8 2016 10:32:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

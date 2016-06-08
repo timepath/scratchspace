@@ -20,6 +20,10 @@ var client_2miscfunctions_8qc =
     [ "expandingbox_sizefactor_from_fadelerp", "dc/d98/client_2miscfunctions_8qc.html#a0ac6cc94ff118e494f0845fbe95ac58b", null ],
     [ "GetTeam", "dc/d98/client_2miscfunctions_8qc.html#ab1762d75cc18535fa62c519ff652e0c9", null ],
     [ "HUD_GetFontsize", "dc/d98/client_2miscfunctions_8qc.html#a885df1dd2a0efd39301d3593b307b9be", null ],
+    [ "HUD_Scale", "dc/d98/client_2miscfunctions_8qc.html#ad1170f4358213040ad74b041ef75e2fe", null ],
+    [ "HUD_Scale_Disable", "dc/d98/client_2miscfunctions_8qc.html#af50992ec9f2e9611b555b1986b1d0c13", null ],
+    [ "HUD_Scale_Enable", "dc/d98/client_2miscfunctions_8qc.html#ac250b39a33004962fd9d0ce2a4521c0f", null ],
+    [ "HUD_Shift", "dc/d98/client_2miscfunctions_8qc.html#a4e66eb737719c91d2c0f0da2d896f6d0", null ],
     [ "MoveToLast", "dc/d98/client_2miscfunctions_8qc.html#ac4fa75c26c2e2307b7ab7286e9f6882e", null ],
     [ "playername", "dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe", null ],
     [ "PolyDrawModel", "dc/d98/client_2miscfunctions_8qc.html#a2b66a10b61389716958bcc54b41c27e2", null ],
@@ -30,5 +34,6 @@ var client_2miscfunctions_8qc =
     [ "RegisterTeam", "dc/d98/client_2miscfunctions_8qc.html#a6caf2e0c66aa3cfa4a63689e650de692", null ],
     [ "RemovePlayer", "dc/d98/client_2miscfunctions_8qc.html#a1ff2ab6f40ef91103b3fd8a9e083b4ca", null ],
     [ "RemoveTeam", "dc/d98/client_2miscfunctions_8qc.html#aecc11bf0c8cdf3c47928f7d68fb58af4", null ],
+    [ "stringwidth", "dc/d98/client_2miscfunctions_8qc.html#aac033ec101163a655b47a24ceb78bad5", null ],
     [ "URI_Get_Callback", "dc/d98/client_2miscfunctions_8qc.html#adca84d1c7403379d372fc6e45bbf5130", null ]
 ];

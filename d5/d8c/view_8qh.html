@@ -148,89 +148,89 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/dd3/view_8qc_source.html#l00843">843</a> of file <a class="el" href="../../d6/dd3/view_8qc_source.html">view.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/dd3/view_8qc_source.html#l00854">854</a> of file <a class="el" href="../../d6/dd3/view_8qc_source.html">view.qc</a>.</p>
 
 <p>References <a class="el" href="../../d7/db4/client_2autocvars_8qh_source.html#l00108">autocvar_crosshair_color</a>, <a class="el" href="../../d7/db4/client_2autocvars_8qh_source.html#l00109">autocvar_crosshair_color_special</a>, <a class="el" href="../../d7/db4/client_2autocvars_8qh_source.html#l00110">autocvar_crosshair_color_special_rainbow_brightness</a>, <a class="el" href="../../d7/db4/client_2autocvars_8qh_source.html#l00111">autocvar_crosshair_color_special_rainbow_delay</a>, <a class="el" href="../../d6/d63/compiler_8qh_source.html#l00018">LABEL</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00923">HUD_Crosshair()</a>, and <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00295">Vehicles_drawCrosshair()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;{</div>
-<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> rainbow_last_flicker;</div>
-<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rainbow_prev_color;</div>
-<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> wcross_color = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;    <span class="keywordflow">switch</span>(<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a48bad15c3f078a989c5090a6eea9216f">autocvar_crosshair_color_special</a>)</div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;    {</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;        <span class="keywordflow">case</span> 1: <span class="comment">// crosshair_color_per_weapon</span></div>
-<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;        {</div>
-<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;            <span class="keywordflow">if</span>(<span class="keyword">this</span>)</div>
-<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;            {</div>
-<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;                wcross_color = this.wpcolor;</div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;                <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;            }</div>
-<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;            <span class="keywordflow">else</span> { <span class="keywordflow">goto</span> normalcolor; }</div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;        }</div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;</div>
-<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        <span class="keywordflow">case</span> 2: <span class="comment">// crosshair_color_by_health</span></div>
-<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;        {</div>
-<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;            <span class="keywordtype">float</span> x = health_stat;</div>
-<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;</div>
-<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;            <span class="comment">//x = red</span></div>
-<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;            <span class="comment">//y = green</span></div>
-<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;            <span class="comment">//z = blue</span></div>
-<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;</div>
-<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;            wcross_color.z = 0;</div>
-<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;</div>
-<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;            <span class="keywordflow">if</span>(x &gt; 200)</div>
-<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;            {</div>
-<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;                wcross_color.x = 0;</div>
-<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;                wcross_color.y = 1;</div>
-<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;            }</div>
-<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(x &gt; 150)</div>
-<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;            {</div>
-<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;                wcross_color.x = 0.4 - (x-150)*0.02 * 0.4;</div>
-<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;                wcross_color.y = 0.9 + (x-150)*0.02 * 0.1;</div>
-<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;            }</div>
-<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(x &gt; 100)</div>
-<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;            {</div>
-<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;                wcross_color.x = 1 - (x-100)*0.02 * 0.6;</div>
-<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;                wcross_color.y = 1 - (x-100)*0.02 * 0.1;</div>
-<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;                wcross_color.z = 1 - (x-100)*0.02;</div>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00934">HUD_Crosshair()</a>, and <a class="el" href="../../d0/dee/cl__vehicles_8qc_source.html#l00295">Vehicles_drawCrosshair()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;{</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> rainbow_last_flicker;</div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rainbow_prev_color;</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> wcross_color = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;    <span class="keywordflow">switch</span>(<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a48bad15c3f078a989c5090a6eea9216f">autocvar_crosshair_color_special</a>)</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;    {</div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;        <span class="keywordflow">case</span> 1: <span class="comment">// crosshair_color_per_weapon</span></div>
+<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;        {</div>
+<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;            <span class="keywordflow">if</span>(<span class="keyword">this</span>)</div>
+<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;            {</div>
+<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;                wcross_color = this.wpcolor;</div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;            }</div>
+<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;            <span class="keywordflow">else</span> { <span class="keywordflow">goto</span> normalcolor; }</div>
+<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;        }</div>
+<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;</div>
+<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;        <span class="keywordflow">case</span> 2: <span class="comment">// crosshair_color_by_health</span></div>
+<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;        {</div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;            <span class="keywordtype">float</span> x = health_stat;</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;</div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;            <span class="comment">//x = red</span></div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;            <span class="comment">//y = green</span></div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;            <span class="comment">//z = blue</span></div>
+<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;</div>
+<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;            wcross_color.z = 0;</div>
+<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;</div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;            <span class="keywordflow">if</span>(x &gt; 200)</div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;            {</div>
+<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;                wcross_color.x = 0;</div>
+<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;                wcross_color.y = 1;</div>
 <div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;            }</div>
-<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(x &gt; 50)</div>
+<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(x &gt; 150)</div>
 <div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;            {</div>
-<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;                wcross_color.x = 1;</div>
-<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;                wcross_color.y = 1;</div>
-<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;                wcross_color.z = 0.2 + (x-50)*0.02 * 0.8;</div>
-<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;            }</div>
-<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(x &gt; 20)</div>
-<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;            {</div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;                wcross_color.x = 1;</div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;                wcross_color.y = (x-20)*90/27/100;</div>
-<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;                wcross_color.z = (x-20)*90/27/100 * 0.2;</div>
-<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;            }</div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;            {</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;                wcross_color.x = 1;</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;                wcross_color.y = 0;</div>
+<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;                wcross_color.x = 0.4 - (x-150)*0.02 * 0.4;</div>
+<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;                wcross_color.y = 0.9 + (x-150)*0.02 * 0.1;</div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;            }</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(x &gt; 100)</div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;            {</div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;                wcross_color.x = 1 - (x-100)*0.02 * 0.6;</div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;                wcross_color.y = 1 - (x-100)*0.02 * 0.1;</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;                wcross_color.z = 1 - (x-100)*0.02;</div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;            }</div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(x &gt; 50)</div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;            {</div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;                wcross_color.x = 1;</div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;                wcross_color.y = 1;</div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;                wcross_color.z = 0.2 + (x-50)*0.02 * 0.8;</div>
 <div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;            }</div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;        }</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;        <span class="keywordflow">case</span> 3: <span class="comment">// crosshair_color_rainbow</span></div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;        {</div>
-<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= rainbow_last_flicker)</div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;            {</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;                rainbow_prev_color = <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#aa71796101fe1356187b03f679ad99c19">autocvar_crosshair_color_special_rainbow_brightness</a>;</div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;                rainbow_last_flicker = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a74f0bda01610a88f379c9e16b6ef7511">autocvar_crosshair_color_special_rainbow_delay</a>;</div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;            }</div>
-<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;            wcross_color = rainbow_prev_color;</div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(x &gt; 20)</div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;            {</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;                wcross_color.x = 1;</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;                wcross_color.y = (x-20)*90/27/100;</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;                wcross_color.z = (x-20)*90/27/100 * 0.2;</div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;            }</div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;            {</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;                wcross_color.x = 1;</div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;                wcross_color.y = 0;</div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;            }</div>
 <div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;        }</div>
-<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;<a class="code" href="../../d6/d63/compiler_8qh.html#a608af1727395e4e27a72df6c6799c215">LABEL</a>(normalcolor)</div>
-<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;        default: { wcross_color = <a class="code" href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a>(<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a7b529925da4a8379c82874f9533966c6">autocvar_crosshair_color</a>); <span class="keywordflow">break</span>; }</div>
-<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;    }</div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;</div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;    <span class="keywordflow">return</span> wcross_color;</div>
-<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;}</div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;</div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;        <span class="keywordflow">case</span> 3: <span class="comment">// crosshair_color_rainbow</span></div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;        {</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= rainbow_last_flicker)</div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;            {</div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;                rainbow_prev_color = <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#aa71796101fe1356187b03f679ad99c19">autocvar_crosshair_color_special_rainbow_brightness</a>;</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;                rainbow_last_flicker = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a74f0bda01610a88f379c9e16b6ef7511">autocvar_crosshair_color_special_rainbow_delay</a>;</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;            }</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;            wcross_color = rainbow_prev_color;</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;        }</div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;<a class="code" href="../../d6/d63/compiler_8qh.html#a608af1727395e4e27a72df6c6799c215">LABEL</a>(normalcolor)</div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;        default: { wcross_color = <a class="code" href="../../d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f">stov</a>(<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a7b529925da4a8379c82874f9533966c6">autocvar_crosshair_color</a>); <span class="keywordflow">break</span>; }</div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;    }</div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;</div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;    <span class="keywordflow">return</span> wcross_color;</div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_aa156cc8dd51c39572de799ab8a0dd8d0"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a></div><div class="ttdeci">vector randomvec(void)</div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a48bad15c3f078a989c5090a6eea9216f"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a48bad15c3f078a989c5090a6eea9216f">autocvar_crosshair_color_special</a></div><div class="ttdeci">int autocvar_crosshair_color_special</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00109">autocvars.qh:109</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_aa71796101fe1356187b03f679ad99c19"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#aa71796101fe1356187b03f679ad99c19">autocvar_crosshair_color_special_rainbow_brightness</a></div><div class="ttdeci">float autocvar_crosshair_color_special_rainbow_brightness</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00110">autocvars.qh:110</a></div></div>
@@ -269,7 +269,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d5/d8c/view_8qh.html">view.qh</a></li>
-    <li class="footer">Generated on Wed Jun 8 2016 09:39:52 for Xonotic by
+    <li class="footer">Generated on Wed Jun 8 2016 10:32:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

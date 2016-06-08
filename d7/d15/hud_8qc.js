@@ -1,8 +1,10 @@
 var hud_8qc =
 [
+    [ "calc_followmodel_ofs", "d7/d15/hud_8qc.html#a431d7c5844117b08d49e16c53095b9ea", null ],
     [ "CSQC_BUMBLE_GUN_HUD", "d7/d15/hud_8qc.html#aeb5a957125115e4514fce07b3ce1382e", null ],
     [ "DrawNumIcon", "d7/d15/hud_8qc.html#ab759ef9e1fd17c4db35cda4c2c81185e", null ],
     [ "DrawNumIcon_expanding", "d7/d15/hud_8qc.html#a30a9e84c413165ede06e60d7198bbb58", null ],
+    [ "Hud_Dynamic_Frame", "d7/d15/hud_8qc.html#ad7ec85390e221721fcceeff66b7f663f", null ],
     [ "HUD_Get_Num_Color", "d7/d15/hud_8qc.html#ac83f5e664b74ba1269627528078a7dbf", null ],
     [ "HUD_GetRowCount", "d7/d15/hud_8qc.html#aa2a5280f52a32d302277253736cc04bb", null ],
     [ "HUD_GetTableSize_BestItemAR", "d7/d15/hud_8qc.html#abed4aa2c37e69cf8b4fdeab69c7e0076", null ],
@@ -12,5 +14,12 @@ var hud_8qc =
     [ "HUD_Panel_DrawHighlight", "d7/d15/hud_8qc.html#af418523148eadb307130a0533421e586", null ],
     [ "HUD_Panel_DrawProgressBar", "d7/d15/hud_8qc.html#a41b7823d1cc3d0f46d9780fadf782eba", null ],
     [ "HUD_Reset", "d7/d15/hud_8qc.html#a2cb9eb667b5191a841d4fb82824b7cca", null ],
-    [ "HUD_Vehicle", "d7/d15/hud_8qc.html#a769cb2e43233e88dc29540614e7a4e03", null ]
+    [ "Hud_Shake_Update", "d7/d15/hud_8qc.html#a346ca21750dc6c018430ab766d945da0", null ],
+    [ "HUD_Vehicle", "d7/d15/hud_8qc.html#a769cb2e43233e88dc29540614e7a4e03", null ],
+    [ "autocvar_hud_dynamic_shake", "d7/d15/hud_8qc.html#a059bf1ec85f2c301ebd508746966ffaa", null ],
+    [ "autocvar_hud_dynamic_shake_damage_max", "d7/d15/hud_8qc.html#a016a0fcf08900a461b8f001adcd8ae38", null ],
+    [ "autocvar_hud_dynamic_shake_damage_min", "d7/d15/hud_8qc.html#abf03db2bbdaaed29a0ddeaa24cd7d5a8", null ],
+    [ "autocvar_hud_dynamic_shake_scale", "d7/d15/hud_8qc.html#ab8141bf6b381ce178ba733fa4ce0fedf", null ],
+    [ "hud_dynamic_shake_x", "d7/d15/hud_8qc.html#a504034704c73c89304d3002be086be8d", null ],
+    [ "hud_dynamic_shake_y", "d7/d15/hud_8qc.html#aeba9dd91c496a5fe12a8a237525b0ae4", null ]
 ];

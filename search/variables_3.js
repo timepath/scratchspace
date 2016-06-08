@@ -145,6 +145,8 @@ var searchData=
   ['checkrules_5ftimelimit',['checkrules_timelimit',['../d6/ddd/server_2mutators_2events_8qh.html#aba26da60a8dda1079d9acfb766d94bd7',1,'events.qh']]],
   ['children_5fcount',['children_count',['../d2/d52/classEffectInfoGroup.html#a043e791cec10eac21aad429adc6edb40',1,'EffectInfoGroup']]],
   ['chrame_5fdrag',['CHRAME_DRAG',['../d3/dca/cheats_8qh.html#a69313ad528f972d123b822d0c7684351',1,'cheats.qh']]],
+  ['cl_5ffollowmodel_5fofs',['cl_followmodel_ofs',['../d3/d05/hud_8qh.html#ab2cb1e725575444f3ef84ce79d829e21',1,'hud.qh']]],
+  ['cl_5ffollowmodel_5ftime',['cl_followmodel_time',['../d3/d05/hud_8qh.html#aece57edbc5f9ecfed6ecd8b7daa99ea0',1,'hud.qh']]],
   ['classname',['classname',['../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec',1,'classname():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec',1,'classname():&#160;progsdefs.qc'],['../db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec',1,'classname():&#160;oo.qh']]],
   ['cleanname',['cleanname',['../d1/da9/bot_8qh.html#ad3f7bd315ecf5bb0f4037153d6b46441',1,'bot.qh']]],
   ['clearbutton',['clearButton',['../d1/dec/classInputBox.html#a45f759b623e14092aa0ccdaa6eb76be2',1,'InputBox::clearButton()'],['../d4/d3f/classXonoticKeyBinder.html#a4d770ff57d7f0b08e5048a59b2eaa459',1,'XonoticKeyBinder::clearButton()']]],

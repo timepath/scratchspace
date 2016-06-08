@@ -10,6 +10,7 @@ var searchData=
   ['ca_5fiseliminated',['ca_isEliminated',['../dc/da9/gamemode__ca_8qc.html#aacbcf72df7630d29c5323a6668918b8d',1,'gamemode_ca.qc']]],
   ['ca_5froundstart',['CA_RoundStart',['../dc/da9/gamemode__ca_8qc.html#a2d5316421d04d94cdcdf74c325085e0e',1,'gamemode_ca.qc']]],
   ['calc',['calc',['../d8/d95/classNexposee.html#ae7640db1f8d1af868e3154b10e2875b4',1,'Nexposee']]],
+  ['calc_5ffollowmodel_5fofs',['calc_followmodel_ofs',['../d7/d15/hud_8qc.html#a431d7c5844117b08d49e16c53095b9ea',1,'calc_followmodel_ofs(entity view):&#160;view.qc'],['../d6/dd3/view_8qc.html#a431d7c5844117b08d49e16c53095b9ea',1,'calc_followmodel_ofs(entity view):&#160;view.qc']]],
   ['calcregen',['CalcRegen',['../da/d53/cl__client_8qc.html#a268c4676a29a84d1109b7de04b22f785',1,'cl_client.qc']]],
   ['calcrot',['CalcRot',['../da/d53/cl__client_8qc.html#a9e59628b3f73816184b3bff22b8641b0',1,'cl_client.qc']]],
   ['calcrotregen',['CalcRotRegen',['../da/d53/cl__client_8qc.html#ae65b054c6752ac6d32c4212a3b9a4294',1,'CalcRotRegen(float current, float regenstable, float regenfactor, float regenlinear, float regenframetime, float rotstable, float rotfactor, float rotlinear, float rotframetime, float limit):&#160;cl_client.qc'],['../d1/d30/cl__client_8qh.html#ae65b054c6752ac6d32c4212a3b9a4294',1,'CalcRotRegen(float current, float regenstable, float regenfactor, float regenlinear, float regenframetime, float rotstable, float rotfactor, float rotlinear, float rotframetime, float limit):&#160;cl_client.qc']]],

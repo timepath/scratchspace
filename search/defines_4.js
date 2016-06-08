@@ -34,9 +34,16 @@ var searchData=
   ['draw_5fbeginboldfont',['draw_beginBoldFont',['../d8/db6/client_2miscfunctions_8qh.html#a7f890d7494e947f551852879f6df17f6',1,'draw_beginBoldFont():&#160;miscfunctions.qh'],['../d9/d62/menu_2draw_8qh.html#a7f890d7494e947f551852879f6df17f6',1,'draw_beginBoldFont():&#160;draw.qh']]],
   ['draw_5fendboldfont',['draw_endBoldFont',['../d8/db6/client_2miscfunctions_8qh.html#ac2144fdd7c0ebd4bbcaaa8aaddd45561',1,'draw_endBoldFont():&#160;miscfunctions.qh'],['../d9/d62/menu_2draw_8qh.html#ac2144fdd7c0ebd4bbcaaa8aaddd45561',1,'draw_endBoldFont():&#160;draw.qh']]],
   ['draw_5ffontscale',['draw_fontscale',['../d9/d62/menu_2draw_8qh.html#ae2280b395846b9ad2463e931ed718be4',1,'draw.qh']]],
+  ['drawcharacter',['drawcharacter',['../d8/db6/client_2miscfunctions_8qh.html#aaf2e33362571a2f830dfa937e9dfc42d',1,'miscfunctions.qh']]],
+  ['drawcolorcodedstring',['drawcolorcodedstring',['../d8/db6/client_2miscfunctions_8qh.html#a22125970e16e7facfa7c2cfb3230ec5b',1,'miscfunctions.qh']]],
+  ['drawcolorcodedstring2',['drawcolorcodedstring2',['../d8/db6/client_2miscfunctions_8qh.html#a2c079a439463fb66f8809164795726af',1,'miscfunctions.qh']]],
+  ['drawfill',['drawfill',['../d8/db6/client_2miscfunctions_8qh.html#ab3d2570ee654946bb294b86da626d8d8',1,'miscfunctions.qh']]],
   ['drawinfomessage',['drawInfoMessage',['../df/d21/infomessages_8qc.html#a8273c847de74f796939acc0aeb6d2f3d',1,'infomessages.qc']]],
+  ['drawpic',['drawpic',['../d8/db6/client_2miscfunctions_8qh.html#a638bfeb5be42726e1571f3434d2c20a9',1,'miscfunctions.qh']]],
   ['drawpic_5faspect',['drawpic_aspect',['../d8/db6/client_2miscfunctions_8qh.html#a96e5cc3afdf03c23d8928b97017296f9',1,'miscfunctions.qh']]],
   ['drawpic_5faspect_5fskin',['drawpic_aspect_skin',['../d8/db6/client_2miscfunctions_8qh.html#a5f87d96201a18d416dd0271dccb8ef0f',1,'miscfunctions.qh']]],
   ['drawpic_5fskin',['drawpic_skin',['../d8/db6/client_2miscfunctions_8qh.html#a72ead50803274d0deea72a58362633f7',1,'miscfunctions.qh']]],
+  ['drawsetcliparea',['drawsetcliparea',['../d8/db6/client_2miscfunctions_8qh.html#a185392e9b24cbbbea1aeb85a1c54df98',1,'miscfunctions.qh']]],
+  ['drawstring',['drawstring',['../d8/db6/client_2miscfunctions_8qh.html#a356d948043e8f53b9515c7e146255da4',1,'miscfunctions.qh']]],
   ['droptofloor',['droptofloor',['../dd/d8b/sys-pre_8qh.html#a1b69a3a134506189b3d054e6c6f2896c',1,'sys-pre.qh']]]
 ];

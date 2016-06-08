@@ -12,6 +12,7 @@ var searchData=
   ['languageparameter',['languageParameter',['../d3/dba/classXonoticLanguageList.html#a0fd436f57c4f662390be6b6baffebe5d',1,'XonoticLanguageList']]],
   ['lazy',['Lazy',['../d3/dde/classLazy.html#a8e68957fd15a62a0f197fda172dbb405',1,'Lazy']]],
   ['ldexp',['ldexp',['../df/d38/mathlib_8qc.html#a90381e2538fbcc8e6c1f75b1831c7846',1,'ldexp(float x, int e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a90381e2538fbcc8e6c1f75b1831c7846',1,'ldexp(float x, int e):&#160;mathlib.qc']]],
+  ['leanmodel_5fofs',['leanmodel_ofs',['../d6/dd3/view_8qc.html#ac864cc822088f051704ed70a2f89224a',1,'view.qc']]],
   ['leavespectatormode',['LeaveSpectatorMode',['../da/d53/cl__client_8qc.html#a1baf85b66ab9a7da210c7ff5ad17cf6e',1,'cl_client.qc']]],
   ['leavesubitem',['leaveSubitem',['../d0/d7b/classContainer.html#a01627abafc724fbbbb330e46f8331911',1,'Container']]],
   ['lerpv',['lerpv',['../d0/d79/math_8qh.html#a26a88fb303232c6dfa1541e00a40c19c',1,'math.qh']]],

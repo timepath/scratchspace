@@ -1,5 +1,16 @@
 var NAVTREEINDEX42 =
 {
+"d5/d26/server_2defs_8qh.html#ac7b155ae9b6d6ccef4940bf9ef0b5dc9":[2,0,5,24,30],
+"d5/d26/server_2defs_8qh.html#ac80a46b6d7ef8c1ef5a2bfdb5258059d":[2,0,5,24,75],
+"d5/d26/server_2defs_8qh.html#ac9a5c917d5f6eb50b1aa1b333de61a88":[2,0,5,24,151],
+"d5/d26/server_2defs_8qh.html#ac9ff22e9a1a43cbbfd44ebc6d0e87b07":[2,0,5,24,173],
+"d5/d26/server_2defs_8qh.html#acaa145c4a5dc025548bc2a36adc23395":[2,0,5,24,32],
+"d5/d26/server_2defs_8qh.html#acb06d05df56c51acf1d2c4373067669e":[2,0,5,24,216],
+"d5/d26/server_2defs_8qh.html#acbdfdfbef5d6cf5585bc1725bca0eac7":[2,0,5,24,6],
+"d5/d26/server_2defs_8qh.html#ace84bb9485d6470a12441cca242fa3e0":[2,0,5,24,201],
+"d5/d26/server_2defs_8qh.html#acfe971ca922ef3a2f28c08825227216b":[2,0,5,24,190],
+"d5/d26/server_2defs_8qh.html#ad03766bfca7a5e7fabc3ef7b5ce2d628":[2,0,5,24,9],
+"d5/d26/server_2defs_8qh.html#ad074b805790481ed3367d5308ad8ae38":[2,0,5,24,169],
 "d5/d26/server_2defs_8qh.html#ad1052b7b58786c2d46f322ec50533d49":[2,0,5,24,185],
 "d5/d26/server_2defs_8qh.html#ad128ed1488aecc44cdd15c3308e5aa7c":[2,0,5,24,110],
 "d5/d26/server_2defs_8qh.html#ad12ecbe245547b11b23f35b2d7809ea5":[2,0,5,24,70],
@@ -238,16 +249,5 @@ var NAVTREEINDEX42 =
 "d5/d65/classPowerup.html#a48b78d497828537731feaa167c8af4f1":[1,0,85,11],
 "d5/d65/classPowerup.html#a6815e793548a5b534973a237a97dc189":[1,0,85,6],
 "d5/d65/classPowerup.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,85,0],
-"d5/d65/classPowerup.html#a7357a3badf480bbfe18c110d15cbd2f8":[1,0,85,1],
-"d5/d65/classPowerup.html#a7d7a1817ddfcece5aa3e23c939a0097e":[1,0,85,4],
-"d5/d65/classPowerup.html#a95e7f0cf091386e07ce2add2ab653934":[1,0,85,2],
-"d5/d65/classPowerup.html#aaca9d5c571d73c2274a3356ef2fcdc53":[1,0,85,3],
-"d5/d65/classPowerup.html#aee17f9207e39955774d5f59f3dc331e9":[1,0,85,10],
-"d5/d65/classPowerup.html#af547c59d1be5db346c59b7f816a841d3":[1,0,85,9],
-"d5/d65/classPowerup.html#af91588fdbca7968c03db09f05134cba6":[1,0,85,7],
-"d5/d68/common_2weapons_2__mod_8inc.html":[2,0,1,16,1],
-"d5/d68/common_2weapons_2__mod_8inc_source.html":[2,0,1,16,1],
-"d5/d69/classFlac.html":[1,0,31],
-"d5/d69/classFlac.html#a073ba48993ebfb318001ed36eb5e2589":[1,0,31,13],
-"d5/d69/classFlac.html#a138adca099fbd117101fe56edb53d8aa":[1,0,31,1]
+"d5/d65/classPowerup.html#a7357a3badf480bbfe18c110d15cbd2f8":[1,0,85,1]
 };

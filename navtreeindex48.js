@@ -1,5 +1,16 @@
 var NAVTREEINDEX48 =
 {
+"d6/d19/item_2textslider_8qc.html#a5e6bda641277315482cf8c688c84f9bd":[2,0,4,2,32,6],
+"d6/d19/item_2textslider_8qc.html#a66b13438483e2a8cc46450ee3ab4e7fb":[2,0,4,2,32,9],
+"d6/d19/item_2textslider_8qc.html#a6fda399e72618bd9a2fd0859b1ac52ae":[2,0,4,2,32,1],
+"d6/d19/item_2textslider_8qc.html#aa16c0597db29e0e41b727cd5307496a3":[2,0,4,2,32,2],
+"d6/d19/item_2textslider_8qc.html#adfe01db335b98febb13f9f868af89017":[2,0,4,2,32,0],
+"d6/d19/item_2textslider_8qc.html#af29fe111fc37e1ed19f6d0f376024f02":[2,0,4,2,32,5],
+"d6/d19/item_2textslider_8qc_source.html":[2,0,4,2,32],
+"d6/d1a/classMainWindow.html":[1,0,61],
+"d6/d1a/classMainWindow.html#a01627abafc724fbbbb330e46f8331911":[1,0,61,20],
+"d6/d1a/classMainWindow.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,61,28],
+"d6/d1a/classMainWindow.html#a086d32c9694472250922d42417bc8d66":[1,0,61,2],
 "d6/d1a/classMainWindow.html#a0cbcf56a1b59030b0ae2177c1e3d1014":[1,0,61,67],
 "d6/d1a/classMainWindow.html#a17bad9d112b85ece0d0689b233838245":[1,0,61,49],
 "d6/d1a/classMainWindow.html#a17de24af1814ab04ff410d3321622ddb":[1,0,61,14],
@@ -238,16 +249,5 @@ var NAVTREEINDEX48 =
 "d6/d29/anticheat_8qc.html#a32cd644385c09f339412862eec0dd3ee":[2,0,5,8,31],
 "d6/d29/anticheat_8qc.html#a335752f7077bb4210825b4c48f77f452":[2,0,5,8,30],
 "d6/d29/anticheat_8qc.html#a37473a6b964d7b702746b3adee42b1d7":[2,0,5,8,16],
-"d6/d29/anticheat_8qc.html#a3e85f8830f95b5d7dd3efe020abc85e5":[2,0,5,8,25],
-"d6/d29/anticheat_8qc.html#a567f4e0dbff5622d4ae91d0cc1e377ca":[2,0,5,8,35],
-"d6/d29/anticheat_8qc.html#a59dc0eb842e602fe33e376558aca04ab":[2,0,5,8,36],
-"d6/d29/anticheat_8qc.html#a5c681fe9738d7b7f6bac780b71e57412":[2,0,5,8,23],
-"d6/d29/anticheat_8qc.html#a620f7cf1b6c95a9c13fb4ee6c0476309":[2,0,5,8,4],
-"d6/d29/anticheat_8qc.html#a65416a87229ecf4ceb1d23f49e81d222":[2,0,5,8,32],
-"d6/d29/anticheat_8qc.html#a663362ec10d27e4a23160defbb3e9d3e":[2,0,5,8,7],
-"d6/d29/anticheat_8qc.html#a7ee88f5df180be64a865c8299fca7bb3":[2,0,5,8,38],
-"d6/d29/anticheat_8qc.html#a83d5e9fea04998a5c5f6ac2758b1af75":[2,0,5,8,28],
-"d6/d29/anticheat_8qc.html#a8637d5f3a3ed106d36e9d7448931bd90":[2,0,5,8,8],
-"d6/d29/anticheat_8qc.html#a8cd702002fd00704ffa49978970d99f8":[2,0,5,8,12],
-"d6/d29/anticheat_8qc.html#a8eecfc0df3f6930fcb87691447f1f4e3":[2,0,5,8,21]
+"d6/d29/anticheat_8qc.html#a3e85f8830f95b5d7dd3efe020abc85e5":[2,0,5,8,25]
 };

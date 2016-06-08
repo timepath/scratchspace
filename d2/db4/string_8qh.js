@@ -24,8 +24,6 @@ var string_8qh =
     [ "seconds_tostring", "d2/db4/string_8qh.html#aea1003dba6c453eacab4ed6a550ebcaa", null ],
     [ "shufflewords", "d2/db4/string_8qh.html#aedbfa3cb057748398c3bcf523af411d6", null ],
     [ "startsWithNocase", "d2/db4/string_8qh.html#aa68e64adc9e42841a08ebe3139a98adb", null ],
-    [ "stringwidth_colors", "d2/db4/string_8qh.html#af74c7e53de726f384aa8ad37571c783a", null ],
-    [ "stringwidth_nocolors", "d2/db4/string_8qh.html#ae120100ae5b73d97f092b093d21b0f9c", null ],
     [ "strwords", "d2/db4/string_8qh.html#a68ef171425eb4eb0bf70cf1715613c68", null ],
     [ "substring_range", "d2/db4/string_8qh.html#a1ee62e98d3de2b7ad3c58dbbb99ee41b", null ],
     [ "swapwords", "d2/db4/string_8qh.html#a34f555445d50e8aba9ca619e48216107", null ],
