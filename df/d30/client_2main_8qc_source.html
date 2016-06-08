@@ -1294,39 +1294,44 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div class="line"><a name="l01187"></a><span class="lineno"> 1187</span>&#160;    keys = <a class="code" href="../../d5/df2/common_2util_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a>(<a class="code" href="../../d9/d08/client_2defs_8qh.html#a532ed2854fa3a567a32c62f7abfd7c55">binddb</a>, command);</div>
 <div class="line"><a name="l01188"></a><span class="lineno"> 1188</span>&#160;    <span class="keywordflow">if</span> (keys == <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l01189"></a><span class="lineno"> 1189</span>&#160;    {</div>
-<div class="line"><a name="l01190"></a><span class="lineno"> 1190</span>&#160;        n = <a class="code" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize</a>(findkeysforcommand(command, 0)); <span class="comment">// uses &#39;...&#39; strings</span></div>
-<div class="line"><a name="l01191"></a><span class="lineno"> 1191</span>&#160;        <span class="keywordflow">for</span>(j = 0; j &lt; n; ++j)</div>
-<div class="line"><a name="l01192"></a><span class="lineno"> 1192</span>&#160;        {</div>
-<div class="line"><a name="l01193"></a><span class="lineno"> 1193</span>&#160;            k = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(j));</div>
-<div class="line"><a name="l01194"></a><span class="lineno"> 1194</span>&#160;            <span class="keywordflow">if</span>(k != -1)</div>
-<div class="line"><a name="l01195"></a><span class="lineno"> 1195</span>&#160;            {</div>
-<div class="line"><a name="l01196"></a><span class="lineno"> 1196</span>&#160;                <span class="keywordflow">if</span> (<span class="stringliteral">&quot;&quot;</span> == keys)</div>
-<div class="line"><a name="l01197"></a><span class="lineno"> 1197</span>&#160;                    keys = <a class="code" href="../../d8/de2/menudefs_8qc.html#a6430688f24d17bc9b9c3eea2cc586bc3">keynumtostring</a>(k);</div>
-<div class="line"><a name="l01198"></a><span class="lineno"> 1198</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01199"></a><span class="lineno"> 1199</span>&#160;                    keys = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(keys, <span class="stringliteral">&quot;, &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a6430688f24d17bc9b9c3eea2cc586bc3">keynumtostring</a>(k));</div>
+<div class="line"><a name="l01190"></a><span class="lineno"> 1190</span>&#160;        <span class="keywordtype">bool</span> joy_detected = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;joy_detected&quot;</span>);</div>
+<div class="line"><a name="l01191"></a><span class="lineno"> 1191</span>&#160;        n = <a class="code" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize</a>(findkeysforcommand(command, 0)); <span class="comment">// uses &#39;...&#39; strings</span></div>
+<div class="line"><a name="l01192"></a><span class="lineno"> 1192</span>&#160;        <span class="keywordflow">for</span>(j = 0; j &lt; n; ++j)</div>
+<div class="line"><a name="l01193"></a><span class="lineno"> 1193</span>&#160;        {</div>
+<div class="line"><a name="l01194"></a><span class="lineno"> 1194</span>&#160;            k = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(j));</div>
+<div class="line"><a name="l01195"></a><span class="lineno"> 1195</span>&#160;            <span class="keywordflow">if</span>(k != -1)</div>
+<div class="line"><a name="l01196"></a><span class="lineno"> 1196</span>&#160;            {</div>
+<div class="line"><a name="l01197"></a><span class="lineno"> 1197</span>&#160;                <span class="keywordtype">string</span> key = <a class="code" href="../../d8/de2/menudefs_8qc.html#a6430688f24d17bc9b9c3eea2cc586bc3">keynumtostring</a>(k);</div>
+<div class="line"><a name="l01198"></a><span class="lineno"> 1198</span>&#160;                <span class="keywordflow">if</span>(!joy_detected &amp;&amp; <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(key, 0, 3) == <span class="stringliteral">&quot;JOY&quot;</span>)</div>
+<div class="line"><a name="l01199"></a><span class="lineno"> 1199</span>&#160;                    <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l01200"></a><span class="lineno"> 1200</span>&#160;</div>
-<div class="line"><a name="l01201"></a><span class="lineno"> 1201</span>&#160;                ++l;</div>
-<div class="line"><a name="l01202"></a><span class="lineno"> 1202</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#aae603d778f279b13310b1cec1d9fe1a4">autocvar_hud_showbinds_limit</a> &gt; 0 &amp;&amp; <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#aae603d778f279b13310b1cec1d9fe1a4">autocvar_hud_showbinds_limit</a> &lt;= l)</div>
-<div class="line"><a name="l01203"></a><span class="lineno"> 1203</span>&#160;                    <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l01204"></a><span class="lineno"> 1204</span>&#160;            }</div>
+<div class="line"><a name="l01201"></a><span class="lineno"> 1201</span>&#160;                <span class="keywordflow">if</span> (keys == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l01202"></a><span class="lineno"> 1202</span>&#160;                    keys = key;</div>
+<div class="line"><a name="l01203"></a><span class="lineno"> 1203</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01204"></a><span class="lineno"> 1204</span>&#160;                    keys = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(keys, <span class="stringliteral">&quot;, &quot;</span>, key);</div>
 <div class="line"><a name="l01205"></a><span class="lineno"> 1205</span>&#160;</div>
-<div class="line"><a name="l01206"></a><span class="lineno"> 1206</span>&#160;        }</div>
-<div class="line"><a name="l01207"></a><span class="lineno"> 1207</span>&#160;        <span class="keywordflow">if</span> (keys == <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l01208"></a><span class="lineno"> 1208</span>&#160;            keys = <span class="stringliteral">&quot;NO_KEY&quot;</span>;</div>
-<div class="line"><a name="l01209"></a><span class="lineno"> 1209</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ae5419c646d89ed2845be766723b0cb6f">db_put</a>(<a class="code" href="../../d9/d08/client_2defs_8qh.html#a532ed2854fa3a567a32c62f7abfd7c55">binddb</a>, command, keys);</div>
-<div class="line"><a name="l01210"></a><span class="lineno"> 1210</span>&#160;    }</div>
-<div class="line"><a name="l01211"></a><span class="lineno"> 1211</span>&#160;</div>
-<div class="line"><a name="l01212"></a><span class="lineno"> 1212</span>&#160;    <span class="keywordflow">if</span> (keys == <span class="stringliteral">&quot;NO_KEY&quot;</span>) {</div>
-<div class="line"><a name="l01213"></a><span class="lineno"> 1213</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a5beaa2c752e8d81e6e4425ee94913fe7">autocvar_hud_showbinds</a> &gt; 1)</div>
-<div class="line"><a name="l01214"></a><span class="lineno"> 1214</span>&#160;            <span class="keywordflow">return</span> sprintf(_(<span class="stringliteral">&quot;%s (not bound)&quot;</span>), text);</div>
-<div class="line"><a name="l01215"></a><span class="lineno"> 1215</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01216"></a><span class="lineno"> 1216</span>&#160;            <span class="keywordflow">return</span> text;</div>
-<div class="line"><a name="l01217"></a><span class="lineno"> 1217</span>&#160;    }</div>
-<div class="line"><a name="l01218"></a><span class="lineno"> 1218</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a5beaa2c752e8d81e6e4425ee94913fe7">autocvar_hud_showbinds</a> &gt; 1)</div>
-<div class="line"><a name="l01219"></a><span class="lineno"> 1219</span>&#160;        <span class="keywordflow">return</span> sprintf(<span class="stringliteral">&quot;%s (%s)&quot;</span>, text, keys);</div>
-<div class="line"><a name="l01220"></a><span class="lineno"> 1220</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01221"></a><span class="lineno"> 1221</span>&#160;        <span class="keywordflow">return</span> keys;</div>
-<div class="line"><a name="l01222"></a><span class="lineno"> 1222</span>&#160;}</div>
+<div class="line"><a name="l01206"></a><span class="lineno"> 1206</span>&#160;                ++l;</div>
+<div class="line"><a name="l01207"></a><span class="lineno"> 1207</span>&#160;                <span class="keywordflow">if</span> (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#aae603d778f279b13310b1cec1d9fe1a4">autocvar_hud_showbinds_limit</a> &gt; 0 &amp;&amp; <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#aae603d778f279b13310b1cec1d9fe1a4">autocvar_hud_showbinds_limit</a> &lt;= l)</div>
+<div class="line"><a name="l01208"></a><span class="lineno"> 1208</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l01209"></a><span class="lineno"> 1209</span>&#160;            }</div>
+<div class="line"><a name="l01210"></a><span class="lineno"> 1210</span>&#160;</div>
+<div class="line"><a name="l01211"></a><span class="lineno"> 1211</span>&#160;        }</div>
+<div class="line"><a name="l01212"></a><span class="lineno"> 1212</span>&#160;        <span class="keywordflow">if</span> (keys == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l01213"></a><span class="lineno"> 1213</span>&#160;            keys = <span class="stringliteral">&quot;NO_KEY&quot;</span>;</div>
+<div class="line"><a name="l01214"></a><span class="lineno"> 1214</span>&#160;        <a class="code" href="../../d5/df2/common_2util_8qh.html#ae5419c646d89ed2845be766723b0cb6f">db_put</a>(<a class="code" href="../../d9/d08/client_2defs_8qh.html#a532ed2854fa3a567a32c62f7abfd7c55">binddb</a>, command, keys);</div>
+<div class="line"><a name="l01215"></a><span class="lineno"> 1215</span>&#160;    }</div>
+<div class="line"><a name="l01216"></a><span class="lineno"> 1216</span>&#160;</div>
+<div class="line"><a name="l01217"></a><span class="lineno"> 1217</span>&#160;    <span class="keywordflow">if</span> (keys == <span class="stringliteral">&quot;NO_KEY&quot;</span>) {</div>
+<div class="line"><a name="l01218"></a><span class="lineno"> 1218</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a5beaa2c752e8d81e6e4425ee94913fe7">autocvar_hud_showbinds</a> &gt; 1)</div>
+<div class="line"><a name="l01219"></a><span class="lineno"> 1219</span>&#160;            <span class="keywordflow">return</span> sprintf(_(<span class="stringliteral">&quot;%s (not bound)&quot;</span>), text);</div>
+<div class="line"><a name="l01220"></a><span class="lineno"> 1220</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01221"></a><span class="lineno"> 1221</span>&#160;            <span class="keywordflow">return</span> text;</div>
+<div class="line"><a name="l01222"></a><span class="lineno"> 1222</span>&#160;    }</div>
+<div class="line"><a name="l01223"></a><span class="lineno"> 1223</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a5beaa2c752e8d81e6e4425ee94913fe7">autocvar_hud_showbinds</a> &gt; 1)</div>
+<div class="line"><a name="l01224"></a><span class="lineno"> 1224</span>&#160;        <span class="keywordflow">return</span> sprintf(<span class="stringliteral">&quot;%s (%s)&quot;</span>, text, keys);</div>
+<div class="line"><a name="l01225"></a><span class="lineno"> 1225</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01226"></a><span class="lineno"> 1226</span>&#160;        <span class="keywordflow">return</span> keys;</div>
+<div class="line"><a name="l01227"></a><span class="lineno"> 1227</span>&#160;}</div>
 <div class="ttc" id="scoreboard_8qc_html_a1afe47f60fd7ce12e41eb4de6fc46777"><div class="ttname"><a href="../../d3/d07/scoreboard_8qc.html#a1afe47f60fd7ce12e41eb4de6fc46777">HUD_UpdateTeamPos</a></div><div class="ttdeci">void HUD_UpdateTeamPos(entity Team)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d07/scoreboard_8qc_source.html#l00237">scoreboard.qc:237</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_ad146ad99fe532857ccae8af64c671420"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ad146ad99fe532857ccae8af64c671420">race_checkpointtime</a></div><div class="ttdeci">float race_checkpointtime</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00037">defs.qh:37</a></div></div>
 <div class="ttc" id="client_2main_8qc_html_ac642f51eabb19c565bfbe0072388e146"><div class="ttname"><a href="../../df/d30/client_2main_8qc.html#ac642f51eabb19c565bfbe0072388e146">Spawn_PreDraw</a></div><div class="ttdeci">void Spawn_PreDraw(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d30/client_2main_8qc_source.html#l00662">main.qc:662</a></div></div>
@@ -1336,6 +1341,7 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div class="ttc" id="client_2main_8qh_html_abe02bc8f982ce063f9878f9beae11f1b"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#abe02bc8f982ce063f9878f9beae11f1b">OFFSET_CURSOR</a></div><div class="ttdeci">vector OFFSET_CURSOR</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00034">main.qh:34</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
 <div class="ttc" id="common_2deathtypes_2all_8qh_html"><div class="ttname"><a href="../../db/dab/common_2deathtypes_2all_8qh.html">all.qh</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
 <div class="ttc" id="common_2weapons_2all_8qh_html_a90d55a6f4174a92f4c7740dba8e236df"><div class="ttname"><a href="../../de/d81/common_2weapons_2all_8qh.html#a90d55a6f4174a92f4c7740dba8e236df">WEP_FIRST</a></div><div class="ttdeci">const int WEP_FIRST</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d81/common_2weapons_2all_8qh_source.html#l00282">all.qh:282</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a5beaa2c752e8d81e6e4425ee94913fe7"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a5beaa2c752e8d81e6e4425ee94913fe7">autocvar_hud_showbinds</a></div><div class="ttdeci">bool autocvar_hud_showbinds</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00351">autocvars.qh:351</a></div></div>
 <div class="ttc" id="hud_8qh_html_a2bdb63339c09a4badd45dadf8e00ff07"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a2bdb63339c09a4badd45dadf8e00ff07">complain_weapon_type</a></div><div class="ttdeci">float complain_weapon_type</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00081">hud.qh:81</a></div></div>
@@ -1651,7 +1657,7 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../df/d30/client_2main_8qc.html">main.qc</a></li>
-    <li class="footer">Generated on Fri Jun 3 2016 09:07:31 for Xonotic by
+    <li class="footer">Generated on Wed Jun 8 2016 09:33:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
