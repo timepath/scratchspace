@@ -130,8 +130,8 @@ Functions</h2></td></tr>
 <tr class="separator:a3d6b65b19141e5215083447705deb88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17bfbc8583f15f6d9ae68585c97ee733"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd1/playerdemo_8qh.html#a17bfbc8583f15f6d9ae68585c97ee733">playerdemo_shutdown</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a>)</td></tr>
 <tr class="separator:a17bfbc8583f15f6d9ae68585c97ee733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a228215db28403a128c0f94e36880d9b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd1/playerdemo_8qh.html#a228215db28403a128c0f94e36880d9b0">playerdemo_write</a> ()</td></tr>
-<tr class="separator:a228215db28403a128c0f94e36880d9b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e65930a3cde44f6090c6b36092b760"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dd1/playerdemo_8qh.html#a02e65930a3cde44f6090c6b36092b760">playerdemo_write</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a>)</td></tr>
+<tr class="separator:a02e65930a3cde44f6090c6b36092b760"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a1fa063f9cf66faacc25f038cba4fe736"></a>
@@ -334,7 +334,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;    t = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">while</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= this.<a class="code" href="../../dc/d62/playerdemo_8qc.html#ab91e2f5441916bc5f972d6f6fea76da8">playerdemo_time</a>)</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    {</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <a class="code" href="../../dc/d62/playerdemo_8qc.html#ac281583597ff349186a47a41dd6aecd2">PLAYERDEMO_FIELDS</a>(playerdemo_read_)</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <a class="code" href="../../dc/d62/playerdemo_8qc.html#a5c59ec03035c8bce90095515b615b2e1">PLAYERDEMO_FIELDS</a>(<span class="keyword">this</span>, playerdemo_read_)</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        {</div>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> = this.<a class="code" href="../../dc/d62/playerdemo_8qc.html#ab91e2f5441916bc5f972d6f6fea76da8">playerdemo_time</a>;</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(<span class="keyword">this</span>, <a class="code" href="../../da/d53/cl__client_8qc.html#a29ca770d01fe7827ac339d6eeea2e733">PlayerPreThink</a>());</div>
@@ -361,7 +361,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="self_8qh_html_a0a6ed21815e6b8d3ff58b8559ec08c87"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a></div><div class="ttdeci">#define WITHSELF(value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00015">self.qh:15</a></div></div>
 <div class="ttc" id="playerdemo_8qc_html_ab91e2f5441916bc5f972d6f6fea76da8"><div class="ttname"><a href="../../dc/d62/playerdemo_8qc.html#ab91e2f5441916bc5f972d6f6fea76da8">playerdemo_time</a></div><div class="ttdeci">float playerdemo_time</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00012">playerdemo.qc:12</a></div></div>
 <div class="ttc" id="playerdemo_8qc_html_ab00563a977be6d0bc6478b445e0d673a"><div class="ttname"><a href="../../dc/d62/playerdemo_8qc.html#ab00563a977be6d0bc6478b445e0d673a">PLAYERDEMO_MODE_READING</a></div><div class="ttdeci">const float PLAYERDEMO_MODE_READING</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00014">playerdemo.qc:14</a></div></div>
-<div class="ttc" id="playerdemo_8qc_html_ac281583597ff349186a47a41dd6aecd2"><div class="ttname"><a href="../../dc/d62/playerdemo_8qc.html#ac281583597ff349186a47a41dd6aecd2">PLAYERDEMO_FIELDS</a></div><div class="ttdeci">#define PLAYERDEMO_FIELDS(func)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00050">playerdemo.qc:50</a></div></div>
+<div class="ttc" id="playerdemo_8qc_html_a5c59ec03035c8bce90095515b615b2e1"><div class="ttname"><a href="../../dc/d62/playerdemo_8qc.html#a5c59ec03035c8bce90095515b615b2e1">PLAYERDEMO_FIELDS</a></div><div class="ttdeci">#define PLAYERDEMO_FIELDS(ent, func)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00050">playerdemo.qc:50</a></div></div>
 <div class="ttc" id="cl__client_8qc_html_afd069ce75171b7ad5b9a840f2fff8bb9"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#afd069ce75171b7ad5b9a840f2fff8bb9">PlayerPostThink</a></div><div class="ttdeci">void PlayerPostThink()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l02418">cl_client.qc:2418</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a714da6649d97bc92a86a76f1be278180"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a></div><div class="ttdeci">vector velocity</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00103">csprogsdefs.qc:103</a></div></div>
@@ -445,14 +445,15 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a228215db28403a128c0f94e36880d9b0"></a>
+<a class="anchor" id="a02e65930a3cde44f6090c6b36092b760"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> playerdemo_write </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td>
+          <td class="paramname"><em>this</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -460,23 +461,22 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00095">95</a> of file <a class="el" href="../../dc/d62/playerdemo_8qc_source.html">playerdemo.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00009">playerdemo_fh</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00050">PLAYERDEMO_FIELDS</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00010">playerdemo_mode</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00015">PLAYERDEMO_MODE_WRITING</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00011">playerdemo_starttime</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00023">SELFPARAM</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00009">playerdemo_fh</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00050">PLAYERDEMO_FIELDS</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00010">playerdemo_mode</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00015">PLAYERDEMO_MODE_WRITING</a>, <a class="el" href="../../dc/d62/playerdemo_8qc_source.html#l00011">playerdemo_starttime</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l02418">PlayerPostThink()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="fragment"><div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../dc/d62/playerdemo_8qc.html#a5228c1c05d9ad7900fbd6cd39403bf75">playerdemo_mode</a> != <a class="code" href="../../dc/d62/playerdemo_8qc.html#a006c471fa6d50aa607fea92203cb5d4c">PLAYERDEMO_MODE_WRITING</a>)</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a>(this.<a class="code" href="../../dc/d62/playerdemo_8qc.html#ab79f1e469bd660631c650a072f7066ab">playerdemo_fh</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.<a class="code" href="../../dc/d62/playerdemo_8qc.html#a0299e0bddcc4c1ab594ecf9a1761db1e">playerdemo_starttime</a>), <span class="stringliteral">&quot;\n&quot;</span>));</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../dc/d62/playerdemo_8qc.html#ac281583597ff349186a47a41dd6aecd2">PLAYERDEMO_FIELDS</a>(playerdemo_write_)</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../dc/d62/playerdemo_8qc.html#a5c59ec03035c8bce90095515b615b2e1">PLAYERDEMO_FIELDS</a>(<span class="keyword">this</span>, playerdemo_write_)</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00023">self.qh:23</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="playerdemo_8qc_html_a5228c1c05d9ad7900fbd6cd39403bf75"><div class="ttname"><a href="../../dc/d62/playerdemo_8qc.html#a5228c1c05d9ad7900fbd6cd39403bf75">playerdemo_mode</a></div><div class="ttdeci">float playerdemo_mode</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00010">playerdemo.qc:10</a></div></div>
 <div class="ttc" id="playerdemo_8qc_html_a0299e0bddcc4c1ab594ecf9a1761db1e"><div class="ttname"><a href="../../dc/d62/playerdemo_8qc.html#a0299e0bddcc4c1ab594ecf9a1761db1e">playerdemo_starttime</a></div><div class="ttdeci">float playerdemo_starttime</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00011">playerdemo.qc:11</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="playerdemo_8qc_html_ab79f1e469bd660631c650a072f7066ab"><div class="ttname"><a href="../../dc/d62/playerdemo_8qc.html#ab79f1e469bd660631c650a072f7066ab">playerdemo_fh</a></div><div class="ttdeci">float playerdemo_fh</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00009">playerdemo.qc:9</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a33a318a59e2648521862f24200a821df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a></div><div class="ttdeci">void fputs(float fhandle, string s)</div></div>
-<div class="ttc" id="playerdemo_8qc_html_ac281583597ff349186a47a41dd6aecd2"><div class="ttname"><a href="../../dc/d62/playerdemo_8qc.html#ac281583597ff349186a47a41dd6aecd2">PLAYERDEMO_FIELDS</a></div><div class="ttdeci">#define PLAYERDEMO_FIELDS(func)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00050">playerdemo.qc:50</a></div></div>
+<div class="ttc" id="playerdemo_8qc_html_a5c59ec03035c8bce90095515b615b2e1"><div class="ttname"><a href="../../dc/d62/playerdemo_8qc.html#a5c59ec03035c8bce90095515b615b2e1">PLAYERDEMO_FIELDS</a></div><div class="ttdeci">#define PLAYERDEMO_FIELDS(ent, func)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00050">playerdemo.qc:50</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="playerdemo_8qc_html_a006c471fa6d50aa607fea92203cb5d4c"><div class="ttname"><a href="../../dc/d62/playerdemo_8qc.html#a006c471fa6d50aa607fea92203cb5d4c">PLAYERDEMO_MODE_WRITING</a></div><div class="ttdeci">const float PLAYERDEMO_MODE_WRITING</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00015">playerdemo.qc:15</a></div></div>
 </div><!-- fragment -->
@@ -485,7 +485,7 @@ Functions</h2></td></tr>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/dd1/playerdemo_8qh_a228215db28403a128c0f94e36880d9b0_cgraph.svg" width="240" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/dd1/playerdemo_8qh_a02e65930a3cde44f6090c6b36092b760_cgraph.svg" width="240" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -495,7 +495,7 @@ Functions</h2></td></tr>
 <div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-10-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/dd1/playerdemo_8qh_a228215db28403a128c0f94e36880d9b0_icgraph.svg" width="600" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/dd1/playerdemo_8qh_a02e65930a3cde44f6090c6b36092b760_icgraph.svg" width="600" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -508,7 +508,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/dd1/playerdemo_8qh.html">playerdemo.qh</a></li>
-    <li class="footer">Generated on Thu Jun 9 2016 11:04:20 for Xonotic by
+    <li class="footer">Generated on Thu Jun 9 2016 11:21:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

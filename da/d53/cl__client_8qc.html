@@ -3431,7 +3431,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l02470"></a><span class="lineno"> 2470</span>&#160;        WaypointSprite_UpdateHealth(this.waypointsprite_attachedforcarrier, <span class="stringliteral">&#39;1 0 0&#39;</span> * v);</div>
 <div class="line"><a name="l02471"></a><span class="lineno"> 2471</span>&#160;    }</div>
 <div class="line"><a name="l02472"></a><span class="lineno"> 2472</span>&#160;</div>
-<div class="line"><a name="l02473"></a><span class="lineno"> 2473</span>&#160;    <a class="code" href="../../dc/d62/playerdemo_8qc.html#a228215db28403a128c0f94e36880d9b0">playerdemo_write</a>();</div>
+<div class="line"><a name="l02473"></a><span class="lineno"> 2473</span>&#160;    <a class="code" href="../../dc/d62/playerdemo_8qc.html#a02e65930a3cde44f6090c6b36092b760">playerdemo_write</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l02474"></a><span class="lineno"> 2474</span>&#160;</div>
 <div class="line"><a name="l02475"></a><span class="lineno"> 2475</span>&#160;    CSQCMODEL_AUTOUPDATE(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l02476"></a><span class="lineno"> 2476</span>&#160;}</div>
@@ -3452,8 +3452,8 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a491da4d42d2639395d76dcf8d9d1dff4"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a></div><div class="ttdeci">float frametime</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00017">csprogsdefs.qc:17</a></div></div>
+<div class="ttc" id="playerdemo_8qc_html_a02e65930a3cde44f6090c6b36092b760"><div class="ttname"><a href="../../dc/d62/playerdemo_8qc.html#a02e65930a3cde44f6090c6b36092b760">playerdemo_write</a></div><div class="ttdeci">void playerdemo_write(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00095">playerdemo.qc:95</a></div></div>
 <div class="ttc" id="powerups_8qc_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00009">powerups.qc:9</a></div></div>
-<div class="ttc" id="playerdemo_8qc_html_a228215db28403a128c0f94e36880d9b0"><div class="ttname"><a href="../../dc/d62/playerdemo_8qc.html#a228215db28403a128c0f94e36880d9b0">playerdemo_write</a></div><div class="ttdeci">void playerdemo_write()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d62/playerdemo_8qc_source.html#l00095">playerdemo.qc:95</a></div></div>
 <div class="ttc" id="cl__client_8qc_html_a0951679ad39e70406fef5a926e2f26e2"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#a0951679ad39e70406fef5a926e2f26e2">UpdateChatBubble</a></div><div class="ttdeci">void UpdateChatBubble()</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01251">cl_client.qc:1251</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a32daf282881ad403593a4df8bec7b4e6"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a32daf282881ad403593a4df8bec7b4e6">CNT_IDLE</a></div><div class="ttdeci">const float CNT_IDLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00280">util.qh:280</a></div></div>
 <div class="ttc" id="g__world_8qc_html_a05f62f47723bebb94defc8b8d730b25f"><div class="ttname"><a href="../../db/dcc/g__world_8qc.html#a05f62f47723bebb94defc8b8d730b25f">CheckRules_Player</a></div><div class="ttdeci">void CheckRules_Player()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l01582">g_world.qc:1582</a></div></div>
@@ -6644,7 +6644,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../da/d53/cl__client_8qc.html">cl_client.qc</a></li>
-    <li class="footer">Generated on Thu Jun 9 2016 11:04:19 for Xonotic by
+    <li class="footer">Generated on Thu Jun 9 2016 11:21:24 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
