@@ -1,6 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"d9/d85/classXonoticHUDEngineInfoDialog.html#aa1abab97698c6f13909d1791611312cb":[1,0,161,59],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,161,47],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#aa5cefbdccf1879b6862b8d9a124fbed9":[1,0,161,78],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,161,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX76 =
 "d9/db7/inputcontainer_8qh_source.html":[2,0,4,2,17],
 "d9/dbd/turrets_2config_8qh.html":[2,0,1,14,8],
 "d9/dbd/turrets_2config_8qh.html#aecfde73c96bbaf3e37720b7029ec60c9":[2,0,1,14,8,0],
-"d9/dbd/turrets_2config_8qh_source.html":[2,0,1,14,8]
+"d9/dbd/turrets_2config_8qh_source.html":[2,0,1,14,8],
+"d9/dbf/common_2gamemodes_2gamemode_2nexball_2__mod_8qh.html":[2,0,1,3,0,0,1]
 };
