@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"d3/d29/item_2radiobutton_8qc.html":[2,0,4,2,26],
 "d3/d29/item_2radiobutton_8qc.html#ac063ee555bb47aef864c0ef02d8f8a48":[2,0,4,2,26,0],
 "d3/d29/item_2radiobutton_8qc.html#ac8d746347becb51e0dbdade2ce38a61b":[2,0,4,2,26,1],
 "d3/d29/item_2radiobutton_8qc_source.html":[2,0,4,2,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "d3/d47/classXonoticTabController.html#af23a0f24d62f74d965dd6d58a62510ff":[1,0,226,38],
 "d3/d47/classXonoticTabController.html#af2d77dcd05c40738a730aa8c33f6ec15":[1,0,226,26],
 "d3/d47/classXonoticTabController.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,226,29],
-"d3/d47/classXonoticTabController.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,226,1],
-"d3/d47/classXonoticTabController.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,226,27]
+"d3/d47/classXonoticTabController.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,226,1]
 };

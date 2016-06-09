@@ -78,7 +78,7 @@ var searchData=
   ['infomessages_2eqc',['infomessages.qc',['../df/d21/infomessages_8qc.html',1,'']]],
   ['infomessages_2eqh',['infomessages.qh',['../dc/d9c/infomessages_8qh.html',1,'']]],
   ['init',['INIT',['../db/d0a/oo_8qh.html#a1a2db4d074abe3f683aecbb87bc0b825',1,'oo.qh']]],
-  ['init_5ffor_5fplayer_5fneeded',['init_for_player_needed',['../d5/d26/server_2defs_8qh.html#a8511294c861408f493c069f057fb1b86',1,'defs.qh']]],
+  ['init_5ffor_5fplayer_5fneeded',['init_for_player_needed',['../d5/d26/server_2defs_8qh.html#a72e1e355ffeebdff7a9fb2f7aa958422',1,'defs.qh']]],
   ['initgameplaymode',['InitGameplayMode',['../de/d4f/teamplay_8qc.html#a25599ad73603f2e4e2b78726400732c8',1,'InitGameplayMode():&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a25599ad73603f2e4e2b78726400732c8',1,'InitGameplayMode():&#160;teamplay.qc']]],
   ['initialize_5fentity_5ffirst',['initialize_entity_first',['../dc/d73/server_2miscfunctions_8qh.html#a0cad781d981cf76e1f633a6ffddfd621',1,'miscfunctions.qh']]],
   ['initialize_5fentity_5fnext',['initialize_entity_next',['../dc/d73/server_2miscfunctions_8qh.html#ac433d8a77c8e0fd925838e06e2c68bb5',1,'miscfunctions.qh']]],

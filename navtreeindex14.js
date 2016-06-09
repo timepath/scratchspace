@@ -1,5 +1,6 @@
 var NAVTREEINDEX14 =
 {
+"d2/d1a/bobbing_8qc.html":[2,0,1,13,0,2],
 "d2/d1a/bobbing_8qc_source.html":[2,0,1,13,0,2],
 "d2/d21/music_8qh.html":[2,0,1,13,2,7],
 "d2/d21/music_8qh.html#a0a2d5ec37d758ca1c4137b16d3c92895":[2,0,1,13,2,7,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX14 =
 "d2/d42/classXonoticUserbindEditDialog.html#aecf1183987a5ee94c8415be41768de92":[1,0,230,76],
 "d2/d42/classXonoticUserbindEditDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,230,63],
 "d2/d42/classXonoticUserbindEditDialog.html#af1aab403dc54575707fd57991312b201":[1,0,230,37],
-"d2/d42/classXonoticUserbindEditDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,230,16],
-"d2/d42/classXonoticUserbindEditDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,230,29]
+"d2/d42/classXonoticUserbindEditDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,230,16]
 };

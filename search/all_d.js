@@ -561,7 +561,7 @@ var searchData=
   ['minigame_5fplayerslot',['minigame_playerslot',['../de/d3d/cl__minigames_8qh.html#ae6f3121e64bf13d1f759fdcea23cf6d3',1,'cl_minigames.qh']]],
   ['minigame_5fprev_5fteam',['minigame_prev_team',['../d3/dbf/minigames_8qc.html#a5568c7bdd5bad578cdc98deb0789b79c',1,'minigame_prev_team(int curr_team, int n_teams):&#160;minigames.qc'],['../d6/dbd/minigames_8qh.html#a5568c7bdd5bad578cdc98deb0789b79c',1,'minigame_prev_team(int curr_team, int n_teams):&#160;minigames.qc']]],
   ['minigame_5fprompt',['minigame_prompt',['../d4/db7/cl__minigames_8qc.html#a0e95d808ea50b0343ffb6f1b6d5ae445',1,'minigame_prompt():&#160;cl_minigames.qc'],['../de/d3d/cl__minigames_8qh.html#a0e95d808ea50b0343ffb6f1b6d5ae445',1,'minigame_prompt():&#160;cl_minigames.qc']]],
-  ['minigame_5fread_5fowner',['minigame_read_owner',['../d4/db7/cl__minigames_8qc.html#a03ef1dab42cbca89a6172c76b79ae8b4',1,'cl_minigames.qc']]],
+  ['minigame_5fread_5fowner',['minigame_read_owner',['../d4/db7/cl__minigames_8qc.html#ac5ff846c1c8264cb7d837e66e90a1645',1,'cl_minigames.qc']]],
   ['minigame_5frelative_5ftile',['minigame_relative_tile',['../d3/dbf/minigames_8qc.html#a470fe7b6bbd7d246af06920a80ebcadd',1,'minigame_relative_tile(string start_id, int dx, int dy, int rows, int columns):&#160;minigames.qc'],['../d6/dbd/minigames_8qh.html#a470fe7b6bbd7d246af06920a80ebcadd',1,'minigame_relative_tile(string start_id, int dx, int dy, int rows, int columns):&#160;minigames.qc']]],
   ['minigame_5fresend',['minigame_resend',['../d7/d33/sv__minigames_8qc.html#afb6583c98aeab02e85aea955226119fb',1,'sv_minigames.qc']]],
   ['minigame_5frmplayer',['minigame_rmplayer',['../d7/d33/sv__minigames_8qc.html#a81b2bda65f3a13c794623d028e4cb0c9',1,'sv_minigames.qc']]],

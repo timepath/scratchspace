@@ -34,7 +34,7 @@ var cl__minigames_8qc =
     [ "minigame_hud_simpleboard", "d4/db7/cl__minigames_8qc.html#a3f50d48603ccc5c4949bf5d84b0daa78", null ],
     [ "minigame_player_entremove", "d4/db7/cl__minigames_8qc.html#aa5a6829423552f0f4452707e027ff734", null ],
     [ "minigame_prompt", "d4/db7/cl__minigames_8qc.html#a0e95d808ea50b0343ffb6f1b6d5ae445", null ],
-    [ "minigame_read_owner", "d4/db7/cl__minigames_8qc.html#a03ef1dab42cbca89a6172c76b79ae8b4", null ],
+    [ "minigame_read_owner", "d4/db7/cl__minigames_8qc.html#ac5ff846c1c8264cb7d837e66e90a1645", null ],
     [ "minigame_texture", "d4/db7/cl__minigames_8qc.html#a668aa690502b071b56dfd97e425d8d3e", null ],
     [ "minigame_texture_skin", "d4/db7/cl__minigames_8qc.html#a5f36281bd221f84e9e614d8976cd7dd1", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed", null ],

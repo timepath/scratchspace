@@ -1,5 +1,6 @@
 var NAVTREEINDEX27 =
 {
+"d3/dca/cheats_8qh.html#a73c94da2bf38acf3536154e899458024":[2,0,5,16,2],
 "d3/dca/cheats_8qh_source.html":[2,0,5,16],
 "d3/dcd/scores_8qh.html":[2,0,5,57],
 "d3/dcd/scores_8qh.html#a0bc1ee30316696f4db9daf10b6712117":[2,0,5,57,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX27 =
 "d3/dde/classLazy.html#a8e68957fd15a62a0f197fda172dbb405":[1,0,52,0],
 "d3/dde/classLazy.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,52,2],
 "d3/dde/classLazy.html#afd2b642e41cba5cd3af03f4b2c30cc9e":[1,0,52,3],
-"d3/dde/common_2deathtypes_2__mod_8qh.html":[2,0,1,1,1],
-"d3/dde/common_2deathtypes_2__mod_8qh_source.html":[2,0,1,1,1]
+"d3/dde/common_2deathtypes_2__mod_8qh.html":[2,0,1,1,1]
 };

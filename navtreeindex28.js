@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"d3/dde/common_2deathtypes_2__mod_8qh_source.html":[2,0,1,1,1],
 "d3/ddf/item_2nexposee_8qc.html":[2,0,4,2,24],
 "d3/ddf/item_2nexposee_8qc.html#a0afdd6878194b81a4e85c04c81434fdb":[2,0,4,2,24,5],
 "d3/ddf/item_2nexposee_8qc.html#a0cfe8533c42f7b5a11c996f76413a84d":[2,0,4,2,24,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d4/d09/classXonoticCheckBoxString.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,130,69],
 "d4/d09/classXonoticCheckBoxString.html#a3d554e8e73c92583ea2d431aadbb7e47":[1,0,130,42],
 "d4/d09/classXonoticCheckBoxString.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,130,57],
-"d4/d09/classXonoticCheckBoxString.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,130,60],
-"d4/d09/classXonoticCheckBoxString.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,130,16]
+"d4/d09/classXonoticCheckBoxString.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,130,60]
 };

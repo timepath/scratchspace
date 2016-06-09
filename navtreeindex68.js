@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"d8/d3e/mutators_2mutator_2invincibleproj_2module_8inc.html":[2,0,1,9,0,11,3],
 "d8/d3e/mutators_2mutator_2invincibleproj_2module_8inc_source.html":[2,0,1,9,0,11,3],
 "d8/d43/fireball_8qc.html":[2,0,1,16,0,7],
 "d8/d43/fireball_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,7,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "d8/d96/markup_8qh.html":[2,0,1,0,8],
 "d8/d96/markup_8qh.html#a088441ad2b78dddb6437e32f60ad4a01":[2,0,1,0,8,1],
 "d8/d96/markup_8qh.html#a50935ffcf920afcf2b48e968cc12bb38":[2,0,1,0,8,5],
-"d8/d96/markup_8qh.html#a571271bb0bb6f547acf4b83a1b587405":[2,0,1,0,8,2],
-"d8/d96/markup_8qh.html#a7138f625b87ad7664a4a640992881c59":[2,0,1,0,8,4]
+"d8/d96/markup_8qh.html#a571271bb0bb6f547acf4b83a1b587405":[2,0,1,0,8,2]
 };

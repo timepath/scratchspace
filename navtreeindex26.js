@@ -1,5 +1,6 @@
 var NAVTREEINDEX26 =
 {
+"d3/db2/classXonoticListBox.html#aece3f50bf763d9500bdbdebae62810af":[1,0,185,28],
 "d3/db2/classXonoticListBox.html#aed05f75651928be9263a2073856f33cd":[1,0,185,65],
 "d3/db2/classXonoticListBox.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,185,1],
 "d3/db2/classXonoticListBox.html#af1e0e218008e7de48b49016a5f755ec7":[1,0,185,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX26 =
 "d3/dca/cheats_8qh.html#a1bbaa847b251c4569c98328d90db330c":[2,0,5,16,1],
 "d3/dca/cheats_8qh.html#a2a937c6b018ccfb5185e8d5af1415472":[2,0,5,16,3],
 "d3/dca/cheats_8qh.html#a36bf96c940a3b6132607309cb458fb50":[2,0,5,16,5],
-"d3/dca/cheats_8qh.html#a69313ad528f972d123b822d0c7684351":[2,0,5,16,8],
-"d3/dca/cheats_8qh.html#a73c94da2bf38acf3536154e899458024":[2,0,5,16,2]
+"d3/dca/cheats_8qh.html#a69313ad528f972d123b822d0c7684351":[2,0,5,16,8]
 };
