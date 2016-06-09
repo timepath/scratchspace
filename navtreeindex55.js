@@ -1,5 +1,8 @@
 var NAVTREEINDEX55 =
 {
+"d7/d13/classXonoticHUDAmmoDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,157,68],
+"d7/d13/classXonoticHUDAmmoDialog.html#a45ee93768f4f9d69250e880fe5ce6454":[1,0,157,83],
+"d7/d13/classXonoticHUDAmmoDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,157,66],
 "d7/d13/classXonoticHUDAmmoDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,157,12],
 "d7/d13/classXonoticHUDAmmoDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,157,39],
 "d7/d13/classXonoticHUDAmmoDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,157,17],
@@ -222,9 +225,9 @@ var NAVTREEINDEX55 =
 "d7/d33/sv__minigames_8qc.html#a4d6b42df9791a27b66f0da64c6ace473":[2,0,1,6,9,15],
 "d7/d33/sv__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,9,1],
 "d7/d33/sv__minigames_8qc.html#a81b2bda65f3a13c794623d028e4cb0c9":[2,0,1,6,9,11],
+"d7/d33/sv__minigames_8qc.html#a8a86e86ccb0e2401af02d0e620c5de81":[2,0,1,6,9,8],
 "d7/d33/sv__minigames_8qc.html#a94a8da7936949035982110ab04a468d4":[2,0,1,6,9,6],
 "d7/d33/sv__minigames_8qc.html#a9f07dda7618fa1c23b18601f1058c147":[2,0,1,6,9,4],
-"d7/d33/sv__minigames_8qc.html#aa8534e5009bc34f3cdddda7d4524b2ee":[2,0,1,6,9,8],
 "d7/d33/sv__minigames_8qc.html#aab44cdcc6da2749f6c0184f5c35c9c73":[2,0,1,6,9,12],
 "d7/d33/sv__minigames_8qc.html#abacc26686b4b0b5402dc406a0830a890":[2,0,1,6,9,14],
 "d7/d33/sv__minigames_8qc.html#ac11b22942e0b63b0172462375b0c2ca8":[2,0,1,6,9,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX55 =
 "d7/d39/classXonoticVideoSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,232,37],
 "d7/d39/classXonoticVideoSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,232,15],
 "d7/d39/classXonoticVideoSettingsTab.html#a17bad9d112b85ece0d0689b233838245":[1,0,232,57],
-"d7/d39/classXonoticVideoSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,232,62],
-"d7/d39/classXonoticVideoSettingsTab.html#a1ac6ee1e1a7fc5bc8247348b269fd503":[1,0,232,43],
-"d7/d39/classXonoticVideoSettingsTab.html#a1c631c58439f15206728c79bb173b7b3":[1,0,232,78],
-"d7/d39/classXonoticVideoSettingsTab.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,232,87]
+"d7/d39/classXonoticVideoSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,232,62]
 };

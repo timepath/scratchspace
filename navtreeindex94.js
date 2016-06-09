@@ -1,5 +1,8 @@
 var NAVTREEINDEX94 =
 {
+"db/de2/classXonoticScreenshotViewerDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,213,4],
+"db/de2/classXonoticScreenshotViewerDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,213,33],
+"db/de2/classXonoticScreenshotViewerDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,213,10],
 "db/de2/classXonoticScreenshotViewerDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,213,39],
 "db/de2/classXonoticScreenshotViewerDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,213,44],
 "db/de2/classXonoticScreenshotViewerDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,213,18],
@@ -246,8 +249,5 @@ var NAVTREEINDEX94 =
 "dc/d03/keycodes_8qc.html#aa04df78691df3fcf68940d8adf768857":[2,0,2,0,2,93],
 "dc/d03/keycodes_8qc.html#aa1fd0c391206e58e0ae2b4ccf52f2c47":[2,0,2,0,2,16],
 "dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28":[2,0,2,0,2,73],
-"dc/d03/keycodes_8qc.html#aa88e8b6d5f07e99f3c189c303365ddc9":[2,0,2,0,2,25],
-"dc/d03/keycodes_8qc.html#aad363d772676b5c06073fb2c7bf01e1f":[2,0,2,0,2,111],
-"dc/d03/keycodes_8qc.html#ab02429aad7200b254e0d566a7bef4a74":[2,0,2,0,2,90],
-"dc/d03/keycodes_8qc.html#ab4e9903c0d4afb5400f0fc7421db135c":[2,0,2,0,2,48]
+"dc/d03/keycodes_8qc.html#aa88e8b6d5f07e99f3c189c303365ddc9":[2,0,2,0,2,25]
 };

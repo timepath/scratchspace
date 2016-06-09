@@ -2,6 +2,7 @@ var self_8qh =
 [
     [ "_SELFWRAP_GET", "d3/dd0/self_8qh.html#a29c098c7bd67a60d2dd9d94db782aaa6", null ],
     [ "_SELFWRAP_SET", "d3/dd0/self_8qh.html#aeb65df370cf4a41121aec1c4105bf606", null ],
+    [ "getcefc", "d3/dd0/self_8qh.html#a8cf690d1eb06e607e0380d5006d8e623", null ],
     [ "getthink", "d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e", null ],
     [ "gettouch", "d3/dd0/self_8qh.html#a3d349fc3f585de2f6459e525150b0010", null ],
     [ "self", "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d", null ],
@@ -11,16 +12,19 @@ var self_8qh =
     [ "SELFWRAP", "d3/dd0/self_8qh.html#a2a6ca3d042f75a4aa7a9e6d35dd1a3dd", null ],
     [ "SELFWRAP_GET", "d3/dd0/self_8qh.html#ae08b42db946dd6ce413ebdc4c2acda1c", null ],
     [ "SELFWRAP_SET", "d3/dd0/self_8qh.html#a5b726c602f5078cbae10e102ec7cccbc", null ],
+    [ "setcefc", "d3/dd0/self_8qh.html#a8f449f6d685c66917146e83e94085a4b", null ],
     [ "setpredraw", "d3/dd0/self_8qh.html#aba1f01394a0aa649fde132cb094e7111", null ],
     [ "setself", "d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8", null ],
     [ "setthink", "d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000", null ],
     [ "settouch", "d3/dd0/self_8qh.html#acdb080d09ffac3f62f9bed677729d802", null ],
     [ "WITHSELF", "d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87", null ],
+    [ "adaptor_think2touch", "d3/dd0/self_8qh.html#a52460eee338d17436b2c49c0231f7b3e", null ],
     [ "adaptor_think2use", "d3/dd0/self_8qh.html#a0701aa7e527660e2a38828beb26d02d4", null ],
     [ "SELFWRAP", "d3/dd0/self_8qh.html#a417e102becacc79faf45ec8b70ac413c", null ],
-    [ "SELFWRAP", "d3/dd0/self_8qh.html#a00eec9b70af261c61375dd9d05a7513e", null ],
+    [ "SELFWRAP", "d3/dd0/self_8qh.html#a7a0b561538f34abcab5432a736930290", null ],
     [ "__self", "d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902", null ],
     [ "_selftemp", "d3/dd0/self_8qh.html#ace5065346de94dacc037daf771ec60ea", null ],
+    [ "bool", "d3/dd0/self_8qh.html#af6a258d8f3ee5206d682d799316314b1", null ],
     [ "this", "d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29", null ],
     [ "void", "d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686", null ]
 ];

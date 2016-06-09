@@ -9,7 +9,7 @@ var portals_8qc =
     [ "Portal_ClearAllLater_PortalsOnly", "de/de8/portals_8qc.html#af672b26eaa74d314001e3470575cee97", null ],
     [ "Portal_ClearWithID", "de/de8/portals_8qc.html#a9fc26b0745f3d64c350be8b74ec0e183", null ],
     [ "Portal_Connect", "de/de8/portals_8qc.html#ad1de5302922d69e593be1d8eb74bd8d6", null ],
-    [ "Portal_Customize", "de/de8/portals_8qc.html#ab8752ef5dba5054c205a911a6daa4212", null ],
+    [ "Portal_Customize", "de/de8/portals_8qc.html#aa20def0a60c08b04d79d6f82b7aa0f3a", null ],
     [ "Portal_Damage", "de/de8/portals_8qc.html#a26d6a93407148508470bee4806bc5c2e", null ],
     [ "Portal_Disconnect", "de/de8/portals_8qc.html#a609b1151ce1ef7aedb50a1c7e1cba5cf", null ],
     [ "Portal_FindSafeOrigin", "de/de8/portals_8qc.html#a70d3c5762b853cf70d6cdba04a545d1b", null ],

@@ -1069,8 +1069,8 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;    <span class="keywordflow">return</span> e2 == e;</div>
 <div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;}</div>
 <div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;</div>
-<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;<span class="keywordtype">float</span> WaypointSprite_Customize()</div>
-<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;<span class="keywordtype">float</span> WaypointSprite_Customize(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;{</div>
 <div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;    <span class="comment">// this is not in SendEntity because it shall run every frame, not just every update</span></div>
 <div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;</div>
 <div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;    <span class="comment">// make spectators see what the player would see</span></div>
@@ -1128,7 +1128,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l01022"></a><span class="lineno"> 1022</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(wp, WaypointSprite_Think);</div>
 <div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;    wp.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;    wp.model1 = spr.netname;</div>
-<div class="line"><a name="l01025"></a><span class="lineno"> 1025</span>&#160;    wp.customizeentityforclient = WaypointSprite_Customize;</div>
+<div class="line"><a name="l01025"></a><span class="lineno"> 1025</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a8f449f6d685c66917146e83e94085a4b">setcefc</a>(wp, WaypointSprite_Customize);</div>
 <div class="line"><a name="l01026"></a><span class="lineno"> 1026</span>&#160;    wp.waypointsprite_visible_for_player = WaypointSprite_visible_for_player;</div>
 <div class="line"><a name="l01027"></a><span class="lineno"> 1027</span>&#160;    wp.reset2 = WaypointSprite_Reset;</div>
 <div class="line"><a name="l01028"></a><span class="lineno"> 1028</span>&#160;    wp.cnt = icon.m_id;</div>
@@ -1352,6 +1352,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="ttc" id="pp_8qc_html_a9cfbb269728dc4185236d28be58d9eab"><div class="ttname"><a href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a></div><div class="ttdeci">int cnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d93/pp_8qc_source.html#l00020">pp.qc:20</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a44e0d1ac6d9e4b633d85ad82f408f516"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516">WriteString</a></div><div class="ttdeci">void WriteString(string data, float dest, float desto)</div></div>
+<div class="ttc" id="self_8qh_html_a8f449f6d685c66917146e83e94085a4b"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a8f449f6d685c66917146e83e94085a4b">setcefc</a></div><div class="ttdeci">#define setcefc(e, f)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00076">self.qh:76</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_af51ffe2b6a299102846ea3cb80677406"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#af51ffe2b6a299102846ea3cb80677406">rotate</a></div><div class="ttdeci">vector rotate(vector v, float a)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00097">vector.qh:97</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_abe72a6bafb55848ec9cd7f81a6de3c29"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a></div><div class="ttdeci">vector origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">csprogsdefs.qc:101</a></div></div>
@@ -1372,7 +1373,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_4573854e5f122b3a76229eff451e1727.html">waypoints</a></li><li class="navelem"><a class="el" href="../../db/dc5/waypointsprites_8qc.html">waypointsprites.qc</a></li>
-    <li class="footer">Generated on Wed Jun 8 2016 10:32:14 for Xonotic by
+    <li class="footer">Generated on Thu Jun 9 2016 11:04:07 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

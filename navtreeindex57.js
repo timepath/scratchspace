@@ -1,5 +1,8 @@
 var NAVTREEINDEX57 =
 {
+"d7/d50/classXonoticPlayerList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,198,30],
+"d7/d50/classXonoticPlayerList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,198,79],
+"d7/d50/classXonoticPlayerList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,198,12],
 "d7/d50/classXonoticPlayerList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,198,60],
 "d7/d50/classXonoticPlayerList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,198,29],
 "d7/d50/classXonoticPlayerList.html#aed05f75651928be9263a2073856f33cd":[1,0,198,74],
@@ -246,8 +249,5 @@ var NAVTREEINDEX57 =
 "d7/d75/raptor__weapons_8qh.html#a31912fd686b91bbc1c2f1e9e7007bb9c":[2,0,1,15,0,12,8],
 "d7/d75/raptor__weapons_8qh.html#a3c99bfae2653a52d0d06cc1ad37a5aa9":[2,0,1,15,0,12,11],
 "d7/d75/raptor__weapons_8qh.html#a414e0249b9aa75c0e139e42d0a73a5f3":[2,0,1,15,0,12,10],
-"d7/d75/raptor__weapons_8qh.html#a4284e7de9d079907bf8bf7de46fd7c92":[2,0,1,15,0,12,14],
-"d7/d75/raptor__weapons_8qh.html#a42efd269cf75f0f6e079e6e42de8e038":[2,0,1,15,0,12,21],
-"d7/d75/raptor__weapons_8qh.html#a44f7bff30838481ecd8df42ab3425573":[2,0,1,15,0,12,20],
-"d7/d75/raptor__weapons_8qh.html#a4cff44f5ec9265b0fa4b9e5cdc2a1f73":[2,0,1,15,0,12,15]
+"d7/d75/raptor__weapons_8qh.html#a4284e7de9d079907bf8bf7de46fd7c92":[2,0,1,15,0,12,14]
 };

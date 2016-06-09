@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,171,64],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,171,4],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,171,32],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,171,10],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,171,38],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "df/df6/classXonoticSlider.html#a5abdf5d7baca995f1d94ccf79b2538bb":[1,0,221,77],
 "df/df6/classXonoticSlider.html#a5eb816d08bd102111b268f794d42d695":[1,0,221,36],
 "df/df6/classXonoticSlider.html#a6cb020ef9e5705c39d3737e27ef31efe":[1,0,221,86],
-"df/df6/classXonoticSlider.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,221,4],
-"df/df6/classXonoticSlider.html#a77664aa80ac34cfbe2a080f4eeb00fa5":[1,0,221,65],
-"df/df6/classXonoticSlider.html#a7b13cdc101cd55528465440586a004f6":[1,0,221,50]
+"df/df6/classXonoticSlider.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,221,4]
 };

@@ -44,7 +44,6 @@ var server_2miscfunctions_8qh =
     [ "readplayerstartcvars", "dc/d73/server_2miscfunctions_8qh.html#adac48834b44f2430043098916e291251", null ],
     [ "remove_safely", "dc/d73/server_2miscfunctions_8qh.html#a0214f10fac80584471e106daa9bbd656", null ],
     [ "remove_unsafely", "dc/d73/server_2miscfunctions_8qh.html#a4e74ce1d2075c282aed288a570b9bd0f", null ],
-    [ "SetCustomizer", "dc/d73/server_2miscfunctions_8qh.html#a1b623218c450ae444a515f54395dd218", null ],
     [ "SetMovetypeFollow", "dc/d73/server_2miscfunctions_8qh.html#a0de4787aed1c8c80a23725b4708dfa75", null ],
     [ "sound_allowed", "dc/d73/server_2miscfunctions_8qh.html#ab1a77c4be3a9f33d84f6b35d5663474c", null ],
     [ "soundat", "dc/d73/server_2miscfunctions_8qh.html#a8434e8cd341bff81eab82c06d2ac0cfa", null ],

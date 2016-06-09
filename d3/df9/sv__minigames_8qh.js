@@ -8,7 +8,7 @@ var sv__minigames_8qh =
     [ "end_minigames", "d3/df9/sv__minigames_8qh.html#a9f07dda7618fa1c23b18601f1058c147", null ],
     [ "invite_minigame", "d3/df9/sv__minigames_8qh.html#ad8020a414daf2b7cd018d5e8bc4f5e6e", null ],
     [ "join_minigame", "d3/df9/sv__minigames_8qh.html#a94a8da7936949035982110ab04a468d4", null ],
-    [ "minigame_CheckSend", "d3/df9/sv__minigames_8qh.html#aa8534e5009bc34f3cdddda7d4524b2ee", null ],
+    [ "minigame_CheckSend", "d3/df9/sv__minigames_8qh.html#a8a86e86ccb0e2401af02d0e620c5de81", null ],
     [ "minigame_find_player", "d3/df9/sv__minigames_8qh.html#adc16d8941e92e46b2c981aa50248764b", null ],
     [ "minigame_SendEntity", "d3/df9/sv__minigames_8qh.html#aab44cdcc6da2749f6c0184f5c35c9c73", null ],
     [ "MinigameImpulse", "d3/df9/sv__minigames_8qh.html#a4d095007340d2f63138e93c1705dc92c", null ],
