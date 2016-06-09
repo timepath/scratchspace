@@ -252,7 +252,7 @@ var searchData=
   ['format_5fmessage',['format_message',['../d6/ddd/server_2mutators_2events_8qh.html#a787ac48065fb9801e84e121a5ba13884',1,'events.qh']]],
   ['format_5freplacement',['format_replacement',['../d6/ddd/server_2mutators_2events_8qh.html#a917ad127f03de6372eff87b54975c096',1,'events.qh']]],
   ['format_5ftime',['format_time',['../d5/df2/common_2util_8qh.html#a6ac92254e62028f6b9f2b7ffdee2eb09',1,'format_time(float seconds):&#160;string.qh'],['../d2/db4/string_8qh.html#a6ac92254e62028f6b9f2b7ffdee2eb09',1,'format_time(float seconds):&#160;string.qh']]],
-  ['formatmessage',['formatmessage',['../dc/dc6/server_2miscfunctions_8qc.html#af10a7bcaa555099bf319eded38cc2767',1,'formatmessage(string msg):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#af10a7bcaa555099bf319eded38cc2767',1,'formatmessage(string msg):&#160;miscfunctions.qc']]],
+  ['formatmessage',['formatmessage',['../dc/dc6/server_2miscfunctions_8qc.html#aa2ad35c3e1dd50ef39b80d690512357a',1,'formatmessage(entity this, string msg):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#aa2ad35c3e1dd50ef39b80d690512357a',1,'formatmessage(entity this, string msg):&#160;miscfunctions.qc']]],
   ['found_5fsecrets',['found_secrets',['../d6/d11/progsdefs_8qc.html#af076e349a90c7a9b71bbf367bdbb0414',1,'progsdefs.qc']]],
   ['fourier_2eqc',['fourier.qc',['../df/dec/fourier_8qc.html',1,'']]],
   ['fp_5finfinite',['FP_INFINITE',['../d9/df7/mathlib_8qh.html#a9721b211d745587e14ffe8427dd1299e',1,'mathlib.qh']]],

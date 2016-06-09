@@ -118,7 +118,7 @@ var searchData=
   ['struct_5fstore',['STRUCT_STORE',['../d9/d5b/struct_8qh.html#aae61c44e2c43f3afd1bfc12fd8e5d9dc',1,'struct.qh']]],
   ['stuffcmd',['stuffcmd',['../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c',1,'progsdefs.qh']]],
   ['sub',['SUB',['../dd/d87/effectinfo_8qc.html#ab4d36372dc60e3acc49978f79e891995',1,'effectinfo.qc']]],
-  ['sub_5fownercheck',['SUB_OwnerCheck',['../dc/dc6/server_2miscfunctions_8qc.html#abe029cd84e8c7d58302c366388bcbe0d',1,'miscfunctions.qc']]],
+  ['sub_5fownercheck',['SUB_OwnerCheck',['../dc/dc6/server_2miscfunctions_8qc.html#ae79a7e9cd4d8835118ccb584fe645e6f',1,'miscfunctions.qc']]],
   ['subs_5fh',['SUBS_H',['../db/d2f/subs_8qh.html#a45eb43f1dba1d0f2c0f2f6eb4a7bd5cc',1,'subs.qh']]],
   ['succeed',['SUCCEED',['../d4/d5b/test_8qh.html#a75adcdf89f69b0b615e395daafc315af',1,'test.qh']]],
   ['super',['SUPER',['../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f',1,'oo.qh']]],
