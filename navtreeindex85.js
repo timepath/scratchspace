@@ -1,15 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"da/df9/classMortar.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,68,6],
-"da/df9/classMortar.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,68,0],
-"da/df9/classMortar.html#a7aae7b7b226fd7ff7f8a0fb60d68a29f":[1,0,68,28],
-"da/df9/classMortar.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,68,24],
-"da/df9/classMortar.html#a80c04684a109d339a5bcc467a46b5740":[1,0,68,25],
-"da/df9/classMortar.html#a80fa9a65e19370473a29baebc04d0626":[1,0,68,2],
-"da/df9/classMortar.html#a87121a1185d52cf6a47fc9a2deabbaca":[1,0,68,26],
-"da/df9/classMortar.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,68,4],
-"da/df9/classMortar.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,68,11],
-"da/df9/classMortar.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,68,12],
 "da/df9/classMortar.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,68,10],
 "da/df9/classMortar.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,68,3],
 "da/df9/classMortar.html#ab924a735e0fa3f4c070bf23f8f45bcbc":[1,0,68,31],
@@ -249,5 +239,15 @@ var NAVTREEINDEX85 =
 "db/d29/classXonoticRegisteredSettingsList.html#a2188ecd49040da1f5cb826f6dd52e8c3":[1,0,204,27],
 "db/d29/classXonoticRegisteredSettingsList.html#a230ddb1a3db4e3db29b3c2e1590dd22e":[1,0,204,76],
 "db/d29/classXonoticRegisteredSettingsList.html#a235355aace741c77462c66d35b2c5e2a":[1,0,204,1],
-"db/d29/classXonoticRegisteredSettingsList.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,204,82]
+"db/d29/classXonoticRegisteredSettingsList.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,204,82],
+"db/d29/classXonoticRegisteredSettingsList.html#a2aed9b007db3378480b691b9a52f3a7e":[1,0,204,81],
+"db/d29/classXonoticRegisteredSettingsList.html#a2e6f974bf54d715cb3c77ebbe7477f5b":[1,0,204,37],
+"db/d29/classXonoticRegisteredSettingsList.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,204,5],
+"db/d29/classXonoticRegisteredSettingsList.html#a346d3fd09bc071dc7877bd8506aa103c":[1,0,204,26],
+"db/d29/classXonoticRegisteredSettingsList.html#a39faad4c275af7a96e30379428646997":[1,0,204,8],
+"db/d29/classXonoticRegisteredSettingsList.html#a405b285a76ac127664593c89281a5b63":[1,0,204,47],
+"db/d29/classXonoticRegisteredSettingsList.html#a44b994054c04cad8740c7c2cdfd59683":[1,0,204,10],
+"db/d29/classXonoticRegisteredSettingsList.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,204,17],
+"db/d29/classXonoticRegisteredSettingsList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,204,74],
+"db/d29/classXonoticRegisteredSettingsList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,204,55]
 };

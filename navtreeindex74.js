@@ -1,15 +1,5 @@
 var NAVTREEINDEX74 =
 {
-"d9/d37/classXonoticScreenshotBrowserTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,210,35],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,210,68],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,210,66],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,210,51],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,210,75],
-"d9/d37/classXonoticScreenshotBrowserTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,210,57],
-"d9/d37/classXonoticScreenshotBrowserTab.html#aa1abab97698c6f13909d1791611312cb":[1,0,210,60],
-"d9/d37/classXonoticScreenshotBrowserTab.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,210,47],
-"d9/d37/classXonoticScreenshotBrowserTab.html#aa3d1164228c89c68bb3e7e7200f7554d":[1,0,210,83],
-"d9/d37/classXonoticScreenshotBrowserTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,210,5],
 "d9/d37/classXonoticScreenshotBrowserTab.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,210,9],
 "d9/d37/classXonoticScreenshotBrowserTab.html#aaba311b07a1da9615b2d44e9b8c97149":[1,0,210,63],
 "d9/d37/classXonoticScreenshotBrowserTab.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,210,25],
@@ -249,5 +239,15 @@ var NAVTREEINDEX74 =
 "d9/d62/menu_2draw_8qh.html#a453c1305f36130ac71a44415feae70a1":[2,0,4,10,3],
 "d9/d62/menu_2draw_8qh.html#a46895b8ce8c0b9928952c5386bc4054e":[2,0,4,10,28],
 "d9/d62/menu_2draw_8qh.html#a4c6812ff1fb70ee9f5df8f3b597b0ab5":[2,0,4,10,30],
-"d9/d62/menu_2draw_8qh.html#a4ddd0e6f16e5a1628cef2d15a5512438":[2,0,4,10,23]
+"d9/d62/menu_2draw_8qh.html#a4ddd0e6f16e5a1628cef2d15a5512438":[2,0,4,10,23],
+"d9/d62/menu_2draw_8qh.html#a691f7e44410cda1aafcee97868a0d52f":[2,0,4,10,9],
+"d9/d62/menu_2draw_8qh.html#a6b36d8b88c6820b58377f00906a5fd7a":[2,0,4,10,22],
+"d9/d62/menu_2draw_8qh.html#a6bdb251dc2c79bd0467dd1aa498f96d6":[2,0,4,10,21],
+"d9/d62/menu_2draw_8qh.html#a7ac520c41682e2cf64d61115522ddaba":[2,0,4,10,26],
+"d9/d62/menu_2draw_8qh.html#a7f890d7494e947f551852879f6df17f6":[2,0,4,10,0],
+"d9/d62/menu_2draw_8qh.html#a9b24797c76296d5321ba125e4ee92f8e":[2,0,4,10,19],
+"d9/d62/menu_2draw_8qh.html#a9b98cfffc443113a6eedb91f922160e0":[2,0,4,10,13],
+"d9/d62/menu_2draw_8qh.html#a9ba27c4846a5864397cba265d25cb35c":[2,0,4,10,24],
+"d9/d62/menu_2draw_8qh.html#aa2262cc2efebbd6abf3141ff86bd6afd":[2,0,4,10,17],
+"d9/d62/menu_2draw_8qh.html#aab8b9ebf8f70fb2aba148b1d1167350a":[2,0,4,10,6]
 };

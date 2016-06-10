@@ -6,7 +6,6 @@ var searchData=
   ['w_5fdeathtype',['w_deathtype',['../d9/d08/client_2defs_8qh.html#a2e1514f73e31549522f5f490d4cb27c7',1,'w_deathtype():&#160;defs.qh'],['../dd/de4/g__damage_8qh.html#a23d73461c891095705d9e88dcbf0b164',1,'w_deathtype():&#160;g_damage.qh']]],
   ['w_5ffixweaponorder_5fbuildimpulselist_5fbuf',['W_FixWeaponOrder_BuildImpulseList_buf',['../de/dfa/common_2weapons_2all_8qc.html#a7e417e677b59a2ee9a37169a615c5e42',1,'all.qc']]],
   ['w_5ffixweaponorder_5fbuildimpulselist_5forder',['W_FixWeaponOrder_BuildImpulseList_order',['../de/dfa/common_2weapons_2all_8qc.html#ae81c8fe2b3e2692445a310dc6e221c3c',1,'all.qc']]],
-  ['w_5fhitwep',['w_hitwep',['../d8/d0e/client_2mutators_2events_8qh.html#a91299c6f6f4446edb6111ddde3c66bcd',1,'events.qh']]],
   ['w_5fissilent',['w_issilent',['../d9/d08/client_2defs_8qh.html#ae9c0c332ef21ebb1268a39c96b4cf087',1,'defs.qh']]],
   ['w_5forg',['w_org',['../d9/d08/client_2defs_8qh.html#a02ef20f4a77ad7b4fe4f5bb97c2e30a6',1,'defs.qh']]],
   ['w_5frandom',['w_random',['../d9/d08/client_2defs_8qh.html#a9894fbba7243bcbf2535d172b703fb95',1,'defs.qh']]],

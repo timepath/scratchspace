@@ -24,8 +24,6 @@ var searchData=
   ['vaporizer',['Vaporizer',['../d5/d99/classVaporizer.html',1,'']]],
   ['vaporizer_2eqc',['vaporizer.qc',['../df/d42/vaporizer_8qc.html',1,'']]],
   ['varitem',['VARITEM',['../d4/df2/common_2notifications_2all_8qc.html#a133e943a6fbd569e8fe1c2e579c43e47',1,'all.qc']]],
-  ['vbeam_5fendpos',['vbeam_endpos',['../d8/d0e/client_2mutators_2events_8qh.html#ab75f6d2b850e7cf3bbc37a7b57e38f90',1,'events.qh']]],
-  ['vbeam_5fshotorg',['vbeam_shotorg',['../d8/d0e/client_2mutators_2events_8qh.html#a266ba425717a53485af9d5b1ca824fef',1,'events.qh']]],
   ['vc_5fasgnmnt_5fboth',['VC_ASGNMNT_BOTH',['../d7/d16/server_2command_2vote_8qh.html#a38b310bf15a1076641ed7c992268e590',1,'vote.qh']]],
   ['vc_5fasgnmnt_5fclientonly',['VC_ASGNMNT_CLIENTONLY',['../d7/d16/server_2command_2vote_8qh.html#a6f14c24bd38bfd200a27c86a56d148e1',1,'vote.qh']]],
   ['vc_5fasgnmnt_5fserveronly',['VC_ASGNMNT_SERVERONLY',['../d7/d16/server_2command_2vote_8qh.html#ad8e37105bfaa53d59ce36facfd85f2e6',1,'vote.qh']]],

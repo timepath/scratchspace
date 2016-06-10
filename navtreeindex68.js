@@ -1,15 +1,5 @@
 var NAVTREEINDEX68 =
 {
-"d8/d3e/mutators_2mutator_2invincibleproj_2module_8inc.html":[2,0,1,9,0,11,3],
-"d8/d3e/mutators_2mutator_2invincibleproj_2module_8inc_source.html":[2,0,1,9,0,11,3],
-"d8/d43/fireball_8qc.html":[2,0,1,16,0,7],
-"d8/d43/fireball_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,7,1],
-"d8/d43/fireball_8qc.html#a7a97622f6c5d74f4a1d1892af5bf0f40":[2,0,1,16,0,7,2],
-"d8/d43/fireball_8qc_source.html":[2,0,1,16,0,7],
-"d8/d4b/classObject.html":[1,0,72],
-"d8/d4b/classObject.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,72,1],
-"d8/d4b/classObject.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,72,2],
-"d8/d4b/classObject.html#ae8f5483f459e46687bd01e6f9977afd3":[1,0,72,0],
 "d8/d4c/cmd_8qh.html":[2,0,5,1,7],
 "d8/d4c/cmd_8qh.html#a028eeda6f56d8c254e5cba68275432e8":[2,0,5,1,7,1],
 "d8/d4c/cmd_8qh.html#a2564526d6ec7a840922dd168dcc1b92e":[2,0,5,1,7,2],
@@ -249,5 +239,15 @@ var NAVTREEINDEX68 =
 "d8/d96/markup_8qh.html":[2,0,1,0,8],
 "d8/d96/markup_8qh.html#a088441ad2b78dddb6437e32f60ad4a01":[2,0,1,0,8,1],
 "d8/d96/markup_8qh.html#a50935ffcf920afcf2b48e968cc12bb38":[2,0,1,0,8,5],
-"d8/d96/markup_8qh.html#a571271bb0bb6f547acf4b83a1b587405":[2,0,1,0,8,2]
+"d8/d96/markup_8qh.html#a571271bb0bb6f547acf4b83a1b587405":[2,0,1,0,8,2],
+"d8/d96/markup_8qh.html#a7138f625b87ad7664a4a640992881c59":[2,0,1,0,8,4],
+"d8/d96/markup_8qh.html#aa439f654f9f32c0f92103a284d06b5e6":[2,0,1,0,8,0],
+"d8/d96/markup_8qh.html#ab0b2b056da3fa4bedce0f79748eca675":[2,0,1,0,8,3],
+"d8/d96/markup_8qh_source.html":[2,0,1,0,8],
+"d8/d9c/common_2monsters_2all_8qh.html":[2,0,1,8,4],
+"d8/d9c/common_2monsters_2all_8qh.html#a0b2f787d93c2afd7ece3a0d0d080e94d":[2,0,1,8,4,7],
+"d8/d9c/common_2monsters_2all_8qh.html#a5373a51061b51af3f39ce02be634a73e":[2,0,1,8,4,2],
+"d8/d9c/common_2monsters_2all_8qh.html#a6a0c526b996e1b4a6984f21514434fad":[2,0,1,8,4,3],
+"d8/d9c/common_2monsters_2all_8qh.html#a7d311198c146ff1e3743667c4a347303":[2,0,1,8,4,0],
+"d8/d9c/common_2monsters_2all_8qh.html#a8882b9336b23aa500a3caa606f773923":[2,0,1,8,4,4]
 };

@@ -32,13 +32,5 @@ var client_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a54b9c43e9af72855c1572d9fef679675", null ],
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a66b6a2593d56c2ec92c2b8d43c3cd824", null ],
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a5714a7da6a0706fca795bd2208b63653", null ],
-    [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a4b3e217572eef353524233cd256cfe53", null ],
-    [ "checkmodel_command", "d8/d0e/client_2mutators_2events_8qh.html#a6ca3ddfd9a823436ce87bc79a07f0b52", null ],
-    [ "checkmodel_input", "d8/d0e/client_2mutators_2events_8qh.html#a20e6b872fa942b22361811824c1980ca", null ],
-    [ "cmd_argc", "d8/d0e/client_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51", null ],
-    [ "cmd_name", "d8/d0e/client_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776", null ],
-    [ "cmd_string", "d8/d0e/client_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12", null ],
-    [ "vbeam_endpos", "d8/d0e/client_2mutators_2events_8qh.html#ab75f6d2b850e7cf3bbc37a7b57e38f90", null ],
-    [ "vbeam_shotorg", "d8/d0e/client_2mutators_2events_8qh.html#a266ba425717a53485af9d5b1ca824fef", null ],
-    [ "w_hitwep", "d8/d0e/client_2mutators_2events_8qh.html#a91299c6f6f4446edb6111ddde3c66bcd", null ]
+    [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a4b3e217572eef353524233cd256cfe53", null ]
 ];

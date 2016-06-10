@@ -1,15 +1,5 @@
 var NAVTREEINDEX73 =
 {
-"d9/d08/client_2defs_8qh.html#a8711461fe85ace2b79bf88148494d20a":[2,0,0,15,3],
-"d9/d08/client_2defs_8qh.html#a880644b703b9461c04c0ae8af0866a65":[2,0,0,15,54],
-"d9/d08/client_2defs_8qh.html#a8da6670c4c2fcb1867ab68b694886bf6":[2,0,0,15,12],
-"d9/d08/client_2defs_8qh.html#a975b1c325510de22e8029cb4a50841b8":[2,0,0,15,57],
-"d9/d08/client_2defs_8qh.html#a9894fbba7243bcbf2535d172b703fb95":[2,0,0,15,73],
-"d9/d08/client_2defs_8qh.html#a9ca3664d438b8f1dac1a68ceee61d5a6":[2,0,0,15,48],
-"d9/d08/client_2defs_8qh.html#a9d81e69d2b3bb852e2f53be70ec47d60":[2,0,0,15,69],
-"d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2":[2,0,0,15,61],
-"d9/d08/client_2defs_8qh.html#aa119e56267dd97e8c2300ab4113c3e1d":[2,0,0,15,38],
-"d9/d08/client_2defs_8qh.html#aa441026faba5592177971b58216ae646":[2,0,0,15,46],
 "d9/d08/client_2defs_8qh.html#aa772d09df7232c2d366923420928b7d7":[2,0,0,15,68],
 "d9/d08/client_2defs_8qh.html#ac2a88716bca7ffcfe0242ed562ce52a5":[2,0,0,15,53],
 "d9/d08/client_2defs_8qh.html#ac9f33d3efe2605b684741296c7f49639":[2,0,0,15,64],
@@ -249,5 +239,15 @@ var NAVTREEINDEX73 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,210,88],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,210,77],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,210,76],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,210,42]
+"d9/d37/classXonoticScreenshotBrowserTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,210,42],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,210,35],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,210,68],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,210,66],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,210,51],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,210,75],
+"d9/d37/classXonoticScreenshotBrowserTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,210,57],
+"d9/d37/classXonoticScreenshotBrowserTab.html#aa1abab97698c6f13909d1791611312cb":[1,0,210,60],
+"d9/d37/classXonoticScreenshotBrowserTab.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,210,47],
+"d9/d37/classXonoticScreenshotBrowserTab.html#aa3d1164228c89c68bb3e7e7200f7554d":[1,0,210,83],
+"d9/d37/classXonoticScreenshotBrowserTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,210,5]
 };

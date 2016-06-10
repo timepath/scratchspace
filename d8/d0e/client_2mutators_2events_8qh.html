@@ -103,8 +103,7 @@ $(document).ready(function(){initNavTree('d8/d0e/client_2mutators_2events_8qh.ht
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">events.qh File Reference</div>  </div>
 </div><!--header-->
@@ -134,40 +133,40 @@ Macros</h2></td></tr>
 <tr class="memitem:a25bfd691414ad6357c67077eb7917f73"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a25bfd691414ad6357c67077eb7917f73">EV_AnnouncerOption</a>(i, o)</td></tr>
 <tr class="separator:a25bfd691414ad6357c67077eb7917f73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a622e3f3fc74d161682435c58f1d2f046"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a622e3f3fc74d161682435c58f1d2f046">EV_CSQC_ConsoleCommand</a>(i, o)</td></tr>
-<tr class="memdesc:a622e3f3fc74d161682435c58f1d2f046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, CSQC_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }.  <a href="#a622e3f3fc74d161682435c58f1d2f046">More...</a><br/></td></tr>
+<tr class="memdesc:a622e3f3fc74d161682435c58f1d2f046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, CSQC_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled string cmd_name = <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV(0, string)</a>; int cmd_argc = <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV(1, int)</a>; if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }.  <a href="#a622e3f3fc74d161682435c58f1d2f046">More...</a><br/></td></tr>
 <tr class="separator:a622e3f3fc74d161682435c58f1d2f046"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ad70187358414cbaf8f2a0968c0fdea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea">EV_EditProjectile</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:a1ad70187358414cbaf8f2a0968c0fdea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea">EV_EditProjectile</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:a1ad70187358414cbaf8f2a0968c0fdea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a projectile's properties are being modified.  <a href="#a1ad70187358414cbaf8f2a0968c0fdea">More...</a><br/></td></tr>
 <tr class="separator:a1ad70187358414cbaf8f2a0968c0fdea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad401df82de86be4f17b96f90e41f5171"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#ad401df82de86be4f17b96f90e41f5171">EV_Ent_Projectile</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:ad401df82de86be4f17b96f90e41f5171"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#ad401df82de86be4f17b96f90e41f5171">EV_Ent_Projectile</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:ad401df82de86be4f17b96f90e41f5171"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a projectile is linked with CSQC.  <a href="#ad401df82de86be4f17b96f90e41f5171">More...</a><br/></td></tr>
 <tr class="separator:ad401df82de86be4f17b96f90e41f5171"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0df2684a8ff65547eca9cec2701e1eec"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a0df2684a8ff65547eca9cec2701e1eec">EV_GetModelParams</a>(i, o)</td></tr>
 <tr class="memdesc:a0df2684a8ff65547eca9cec2701e1eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when getting the global parameters for a model.  <a href="#a0df2684a8ff65547eca9cec2701e1eec">More...</a><br/></td></tr>
 <tr class="separator:a0df2684a8ff65547eca9cec2701e1eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cb59ab1d2677d7ef5909b496b1e578d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a6cb59ab1d2677d7ef5909b496b1e578d">EV_HUD_Command</a>(i, o)&#160;&#160;&#160;/** also, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>() can be used */ i(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51">cmd_argc</a>) \</td></tr>
+<tr class="memitem:a6cb59ab1d2677d7ef5909b496b1e578d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a6cb59ab1d2677d7ef5909b496b1e578d">EV_HUD_Command</a>(i, o)&#160;&#160;&#160;/** argc (also, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>() can be used) */ i(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>, MUTATOR_ARGV_0_int) \</td></tr>
 <tr class="separator:a6cb59ab1d2677d7ef5909b496b1e578d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa527a4f40097637a836e9fccc71642b6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#aa527a4f40097637a836e9fccc71642b6">EV_HUD_Draw_overlay</a>(i, o)</td></tr>
 <tr class="separator:aa527a4f40097637a836e9fccc71642b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73b29441aa587047a111602661a4cdf6"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a73b29441aa587047a111602661a4cdf6">EV_Particles_VortexBeam</a>(i, o)</td></tr>
 <tr class="memdesc:a73b29441aa587047a111602661a4cdf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true to not draw any vortex beam.  <a href="#a73b29441aa587047a111602661a4cdf6">More...</a><br/></td></tr>
 <tr class="separator:a73b29441aa587047a111602661a4cdf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e5156dd306c9a01e35a9e4d3c28f43e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a5e5156dd306c9a01e35a9e4d3c28f43e">EV_Skeleton_CheckBones</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:a5e5156dd306c9a01e35a9e4d3c28f43e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a5e5156dd306c9a01e35a9e4d3c28f43e">EV_Skeleton_CheckBones</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:a5e5156dd306c9a01e35a9e4d3c28f43e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when setting up skeleton bones.  <a href="#a5e5156dd306c9a01e35a9e4d3c28f43e">More...</a><br/></td></tr>
 <tr class="separator:a5e5156dd306c9a01e35a9e4d3c28f43e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05a15144a0c4454d3b267e709971ae65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a05a15144a0c4454d3b267e709971ae65">EV_Skeleton_CheckModel</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:a05a15144a0c4454d3b267e709971ae65"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a05a15144a0c4454d3b267e709971ae65">EV_Skeleton_CheckModel</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:a05a15144a0c4454d3b267e709971ae65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when setting up bones from the loaded model.  <a href="#a05a15144a0c4454d3b267e709971ae65">More...</a><br/></td></tr>
 <tr class="separator:a05a15144a0c4454d3b267e709971ae65"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7ec170daca62fad6eb6d6dc1aadb349f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a7ec170daca62fad6eb6d6dc1aadb349f">EV_TagIndex_Apply</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:a7ec170daca62fad6eb6d6dc1aadb349f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a7ec170daca62fad6eb6d6dc1aadb349f">EV_TagIndex_Apply</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:a7ec170daca62fad6eb6d6dc1aadb349f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when setting the attached tags.  <a href="#a7ec170daca62fad6eb6d6dc1aadb349f">More...</a><br/></td></tr>
 <tr class="separator:a7ec170daca62fad6eb6d6dc1aadb349f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac565948f62c39b18ab0d5054823ec530"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#ac565948f62c39b18ab0d5054823ec530">EV_TagIndex_Update</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:ac565948f62c39b18ab0d5054823ec530"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#ac565948f62c39b18ab0d5054823ec530">EV_TagIndex_Update</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:ac565948f62c39b18ab0d5054823ec530"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when updating the attached tags index.  <a href="#ac565948f62c39b18ab0d5054823ec530">More...</a><br/></td></tr>
 <tr class="separator:ac565948f62c39b18ab0d5054823ec530"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f415751211eff012cb012a3eac97df7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a5f415751211eff012cb012a3eac97df7">EV_WantEventchase</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:a5f415751211eff012cb012a3eac97df7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a5f415751211eff012cb012a3eac97df7">EV_WantEventchase</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:a5f415751211eff012cb012a3eac97df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called checking if 3rd person mode should be forced on.  <a href="#a5f415751211eff012cb012a3eac97df7">More...</a><br/></td></tr>
 <tr class="separator:a5f415751211eff012cb012a3eac97df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f9b4ecc9ec153e591572f40a7e0c88c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a3f9b4ecc9ec153e591572f40a7e0c88c">EV_Weapon_ImpactEffect</a>(i, o)&#160;&#160;&#160;i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a91299c6f6f4446edb6111ddde3c66bcd">w_hitwep</a>) \</td></tr>
+<tr class="memitem:a3f9b4ecc9ec153e591572f40a7e0c88c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a3f9b4ecc9ec153e591572f40a7e0c88c">EV_Weapon_ImpactEffect</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:a3f9b4ecc9ec153e591572f40a7e0c88c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true to not draw any impact effect.  <a href="#a3f9b4ecc9ec153e591572f40a7e0c88c">More...</a><br/></td></tr>
 <tr class="separator:a3f9b4ecc9ec153e591572f40a7e0c88c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -212,25 +211,6 @@ Functions</h2></td></tr>
 <tr class="separator:a5714a7da6a0706fca795bd2208b63653"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b3e217572eef353524233cd256cfe53"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a4b3e217572eef353524233cd256cfe53">MUTATOR_HOOKABLE</a> (HUD_Command, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a6cb59ab1d2677d7ef5909b496b1e578d">EV_HUD_Command</a>)</td></tr>
 <tr class="separator:a4b3e217572eef353524233cd256cfe53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a6ca3ddfd9a823436ce87bc79a07f0b52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a6ca3ddfd9a823436ce87bc79a07f0b52">checkmodel_command</a></td></tr>
-<tr class="separator:a6ca3ddfd9a823436ce87bc79a07f0b52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20e6b872fa942b22361811824c1980ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a20e6b872fa942b22361811824c1980ca">checkmodel_input</a></td></tr>
-<tr class="separator:a20e6b872fa942b22361811824c1980ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a899dc4fde1f5c9e9b44832cd3f263c51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51">cmd_argc</a></td></tr>
-<tr class="separator:a899dc4fde1f5c9e9b44832cd3f263c51"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a625c9b1bdc13469449c1fe6118a71776"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776">cmd_name</a></td></tr>
-<tr class="separator:a625c9b1bdc13469449c1fe6118a71776"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a041e3be1db40295659f495926cf77a12"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12">cmd_string</a></td></tr>
-<tr class="separator:a041e3be1db40295659f495926cf77a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab75f6d2b850e7cf3bbc37a7b57e38f90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#ab75f6d2b850e7cf3bbc37a7b57e38f90">vbeam_endpos</a></td></tr>
-<tr class="separator:ab75f6d2b850e7cf3bbc37a7b57e38f90"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a266ba425717a53485af9d5b1ca824fef"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a266ba425717a53485af9d5b1ca824fef">vbeam_shotorg</a></td></tr>
-<tr class="separator:a266ba425717a53485af9d5b1ca824fef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91299c6f6f4446edb6111ddde3c66bcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a91299c6f6f4446edb6111ddde3c66bcd">w_hitwep</a></td></tr>
-<tr class="separator:a91299c6f6f4446edb6111ddde3c66bcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a25bfd691414ad6357c67077eb7917f73"></a>
@@ -256,11 +236,9 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">i(<span class="keywordtype">string</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a>) \</div>
-<div class="line">     o(<span class="keywordtype">string</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a>) \</div>
-<div class="ttc" id="common_2mutators_2events_8qh_html_a91b14ebc696209ca8fe1fbaedc9f09de"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a></div><div class="ttdeci">string ret_string</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00007">events.qh:7</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">  i(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \ o(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \</div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00096">96</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00091">91</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -287,14 +265,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"> i(<span class="keywordtype">string</span>, <a class="code" href="../../d8/d0e/client_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776">cmd_name</a>) \ i(<span class="keywordtype">int</span>, <a class="code" href="../../d8/d0e/client_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51">cmd_argc</a>) \ i(<span class="keywordtype">string</span>, <a class="code" href="../../d8/d0e/client_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12">cmd_string</a>) \</div>
-<div class="ttc" id="client_2mutators_2events_8qh_html_a899dc4fde1f5c9e9b44832cd3f263c51"><div class="ttname"><a href="../../d8/d0e/client_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51">cmd_argc</a></div><div class="ttdeci">int cmd_argc</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00008">events.qh:8</a></div></div>
-<div class="ttc" id="client_2mutators_2events_8qh_html_a625c9b1bdc13469449c1fe6118a71776"><div class="ttname"><a href="../../d8/d0e/client_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776">cmd_name</a></div><div class="ttdeci">string cmd_name</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00007">events.qh:7</a></div></div>
-<div class="ttc" id="client_2mutators_2events_8qh_html_a041e3be1db40295659f495926cf77a12"><div class="ttname"><a href="../../d8/d0e/client_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12">cmd_string</a></div><div class="ttdeci">string cmd_string</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00009">events.qh:9</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"> i(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \ i(<span class="keywordtype">int</span>, MUTATOR_ARGV_1_int) \ i(<span class="keywordtype">string</span>, MUTATOR_ARGV_2_string) \</div>
 </div><!-- fragment -->
-<p>Called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, CSQC_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }. </p>
+<p>Called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, CSQC_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled string cmd_name = <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV(0, string)</a>; int cmd_argc = <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV(1, int)</a>; if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00030">30</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00026">26</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -317,14 +292,14 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Called when a projectile's properties are being modified. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00047">47</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00043">43</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -347,14 +322,14 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Called when a projectile is linked with CSQC. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00041">41</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00037">37</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -381,13 +356,11 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"> i(<span class="keywordtype">string</span>, <a class="code" href="../../d8/d0e/client_2mutators_2events_8qh.html#a20e6b872fa942b22361811824c1980ca">checkmodel_input</a>) \ i(<span class="keywordtype">string</span>, <a class="code" href="../../d8/d0e/client_2mutators_2events_8qh.html#a6ca3ddfd9a823436ce87bc79a07f0b52">checkmodel_command</a>) \</div>
-<div class="ttc" id="client_2mutators_2events_8qh_html_a6ca3ddfd9a823436ce87bc79a07f0b52"><div class="ttname"><a href="../../d8/d0e/client_2mutators_2events_8qh.html#a6ca3ddfd9a823436ce87bc79a07f0b52">checkmodel_command</a></div><div class="ttdeci">string checkmodel_command</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00087">events.qh:87</a></div></div>
-<div class="ttc" id="client_2mutators_2events_8qh_html_a20e6b872fa942b22361811824c1980ca"><div class="ttname"><a href="../../d8/d0e/client_2mutators_2events_8qh.html#a20e6b872fa942b22361811824c1980ca">checkmodel_input</a></div><div class="ttdeci">string checkmodel_input</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00087">events.qh:87</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">  i(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \  i(<span class="keywordtype">string</span>, MUTATOR_ARGV_1_string) \</div>
 </div><!-- fragment -->
 <p>Called when getting the global parameters for a model. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00083">83</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00079">79</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -410,12 +383,12 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** also, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>() can be used */ i(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51">cmd_argc</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** argc (also, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>() can be used) */ i(<a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>, MUTATOR_ARGV_0_int) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00130">130</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00122">122</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -443,10 +416,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">o(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_0_vector) \</div>
-<div class="line">     o(<span class="keywordtype">float</span>, MUTATOR_ARGV_0_float) \</div>
+<div class="line">     o(<span class="keywordtype">float</span>, MUTATOR_ARGV_1_float) \</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00104">104</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00099">99</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -473,15 +446,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, <a class="code" href="../../d8/d0e/client_2mutators_2events_8qh.html#a266ba425717a53485af9d5b1ca824fef">vbeam_shotorg</a>) \</div>
-<div class="line">     i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, <a class="code" href="../../d8/d0e/client_2mutators_2events_8qh.html#ab75f6d2b850e7cf3bbc37a7b57e38f90">vbeam_endpos</a>) \</div>
-<div class="ttc" id="client_2mutators_2events_8qh_html_a266ba425717a53485af9d5b1ca824fef"><div class="ttname"><a href="../../d8/d0e/client_2mutators_2events_8qh.html#a266ba425717a53485af9d5b1ca824fef">vbeam_shotorg</a></div><div class="ttdeci">vector vbeam_shotorg</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00117">events.qh:117</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">  i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_0_vector) \ i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_1_vector) \</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-<div class="ttc" id="client_2mutators_2events_8qh_html_ab75f6d2b850e7cf3bbc37a7b57e38f90"><div class="ttname"><a href="../../d8/d0e/client_2mutators_2events_8qh.html#ab75f6d2b850e7cf3bbc37a7b57e38f90">vbeam_endpos</a></div><div class="ttdeci">vector vbeam_endpos</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00118">events.qh:118</a></div></div>
 </div><!-- fragment -->
 <p>Return true to not draw any vortex beam. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00113">113</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00108">108</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -504,14 +474,14 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Called when setting up skeleton bones. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00068">68</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00064">64</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -534,14 +504,14 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Called when setting up bones from the loaded model. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00074">74</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00070">70</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -564,14 +534,14 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Called when setting the attached tags. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00062">62</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00058">58</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -594,14 +564,14 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Called when updating the attached tags index. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00056">56</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00052">52</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -624,14 +594,14 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Called checking if 3rd person mode should be forced on. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00091">91</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00086">86</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -654,14 +624,14 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a91299c6f6f4446edb6111ddde3c66bcd">w_hitwep</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Return true to not draw any impact effect. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00122">122</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00115">115</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -1162,126 +1132,13 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a6ca3ddfd9a823436ce87bc79a07f0b52"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> checkmodel_command</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00087">87</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a20e6b872fa942b22361811824c1980ca"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> checkmodel_input</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00087">87</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a899dc4fde1f5c9e9b44832cd3f263c51"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> cmd_argc</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00008">8</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a625c9b1bdc13469449c1fe6118a71776"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> cmd_name</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00007">7</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a041e3be1db40295659f495926cf77a12"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> cmd_string</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00009">9</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ab75f6d2b850e7cf3bbc37a7b57e38f90"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> vbeam_endpos</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00118">118</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a266ba425717a53485af9d5b1ca824fef"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> vbeam_shotorg</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00117">117</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a91299c6f6f4446edb6111ddde3c66bcd"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> w_hitwep</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00125">125</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_08b4cf75afed9a7734ab4c2d9f3e6fae.html">mutators</a></li><li class="navelem"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Thu Jun 9 2016 12:39:05 for Xonotic by
+    <li class="footer">Generated on Fri Jun 10 2016 02:34:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

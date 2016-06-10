@@ -1,15 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"dd/d7a/serverlist_8qh.html#a378f23675e68ccb61d7761021e559132":[2,0,4,4,199,49],
-"dd/d7a/serverlist_8qh.html#a402f52693619967039b11ca0de10ed0e":[2,0,4,4,199,30],
-"dd/d7a/serverlist_8qh.html#a4b91ac5a07f8e4a372686e28423f1d21":[2,0,4,4,199,46],
-"dd/d7a/serverlist_8qh.html#a4c2619f15b606e7381a0d67501ae9198":[2,0,4,4,199,20],
-"dd/d7a/serverlist_8qh.html#a4f405c2f7cc538d4b45a6ef81a23c700":[2,0,4,4,199,15],
-"dd/d7a/serverlist_8qh.html#a5b7aa7f60ea28cb916cf014a65f06caa":[2,0,4,4,199,31],
-"dd/d7a/serverlist_8qh.html#a65a2a62c2b889d9214c6426de9315f1f":[2,0,4,4,199,12],
-"dd/d7a/serverlist_8qh.html#a66674bec022085770debb729f889e964":[2,0,4,4,199,35],
-"dd/d7a/serverlist_8qh.html#a684de7d771e8759c28b3d09b2b667b78":[2,0,4,4,199,22],
-"dd/d7a/serverlist_8qh.html#a6870c63af1e86c6fa49aa497e999e532":[2,0,4,4,199,2],
 "dd/d7a/serverlist_8qh.html#a6cb1b3d889abecf25d07885422d3d9dc":[2,0,4,4,199,37],
 "dd/d7a/serverlist_8qh.html#a7002d493308d3ce8ed22559afd23b258":[2,0,4,4,199,1],
 "dd/d7a/serverlist_8qh.html#a76edb7685731179ca3d6e9c222b92eb2":[2,0,4,4,199,43],
@@ -74,8 +64,8 @@ var NAVTREEINDEX105 =
 "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862":[2,0,1,2,8,2],
 "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840":[2,0,1,2,8,5],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,10],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,9],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
 "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6":[2,0,1,2,8,14],
 "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e":[2,0,1,2,8,16],
 "dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b":[2,0,1,2,8,6],
@@ -249,5 +239,15 @@ var NAVTREEINDEX105 =
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,156,26],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,156,30],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,156,81],
-"dd/d94/dialog__multiplayer__join_8qc.html":[2,0,4,4,94]
+"dd/d94/dialog__multiplayer__join_8qc.html":[2,0,4,4,94],
+"dd/d94/dialog__multiplayer__join_8qc.html#a23af548c6170f613544cf2ccd36bbdc4":[2,0,4,4,94,0],
+"dd/d94/dialog__multiplayer__join_8qc.html#aedce3aeaa9449e5837b1fd8627adc4ac":[2,0,4,4,94,1],
+"dd/d94/dialog__multiplayer__join_8qc_source.html":[2,0,4,4,94],
+"dd/d95/dialog__credits_8qh.html":[2,0,4,4,41],
+"dd/d95/dialog__credits_8qh_source.html":[2,0,4,4,41],
+"dd/d96/server_2progs_8inc.html":[2,0,5,51],
+"dd/d96/server_2progs_8inc.html#ac484531f596092c0ab17f29b14dbeab4":[2,0,5,51,0],
+"dd/d96/server_2progs_8inc_source.html":[2,0,5,51],
+"dd/d9a/classXonoticSandboxToolsDialog.html":[1,0,208],
+"dd/d9a/classXonoticSandboxToolsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,208,21]
 };

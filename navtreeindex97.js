@@ -1,15 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"dc/d3d/container_8qc.html#a19196e3a2d2856fa97954ec9ba463a22":[2,0,4,2,8,14],
-"dc/d3d/container_8qc.html#a221001d478b918e17895b7577966fd62":[2,0,4,2,8,23],
-"dc/d3d/container_8qc.html#a26226293758b472d4b37e5d43aad93d6":[2,0,4,2,8,3],
-"dc/d3d/container_8qc.html#a32c059dd472dee2f2bf63cc64a302e0b":[2,0,4,2,8,2],
-"dc/d3d/container_8qc.html#a34f30d998d9a9ad880d6b60ec6df9b89":[2,0,4,2,8,7],
-"dc/d3d/container_8qc.html#a369e322b4641da9db9f2a635ee0fe362":[2,0,4,2,8,18],
-"dc/d3d/container_8qc.html#a5ca4f8816ff1d879fd289441bf869e34":[2,0,4,2,8,0],
-"dc/d3d/container_8qc.html#a62e8d9a7af6d06f729661fd72980c58e":[2,0,4,2,8,11],
-"dc/d3d/container_8qc.html#a70d145db96ea0411ab319a6fc87704e4":[2,0,4,2,8,22],
-"dc/d3d/container_8qc.html#a7884efc84d976c7ab34ed3183d662452":[2,0,4,2,8,10],
 "dc/d3d/container_8qc.html#a8e147a9bcce891111f1fdcdb4103b0cd":[2,0,4,2,8,12],
 "dc/d3d/container_8qc.html#ac6b74ce0402e4a72e5b5292f1f256abd":[2,0,4,2,8,8],
 "dc/d3d/container_8qc.html#adb7d6b268475a9b0d9cbd2e7823e7fbc":[2,0,4,2,8,5],
@@ -249,5 +239,15 @@ var NAVTREEINDEX97 =
 "dc/d62/playerdemo_8qc.html#abd8d315c11ad22d001cbb9b5d3d2bf83":[2,0,5,47,17],
 "dc/d62/playerdemo_8qc.html#ac870df37ef4f23e3b7aaf053318ec803":[2,0,5,47,7],
 "dc/d62/playerdemo_8qc.html#afb0d1f5e5d9d7cb7bf08e5407382caa2":[2,0,5,47,3],
-"dc/d62/playerdemo_8qc_source.html":[2,0,5,47]
+"dc/d62/playerdemo_8qc_source.html":[2,0,5,47],
+"dc/d69/weapon_8qc.html":[2,0,1,3,0,0,5],
+"dc/d69/weapon_8qc.html#a3db352ed2525ccc9b4fec62af48fd1ff":[2,0,1,3,0,0,5,2],
+"dc/d69/weapon_8qc.html#a6e915e4e5477a7bdde023e0a82e8a6ca":[2,0,1,3,0,0,5,1],
+"dc/d69/weapon_8qc_source.html":[2,0,1,3,0,0,5],
+"dc/d6c/classElectro.html":[1,0,27],
+"dc/d6c/classElectro.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,27,17],
+"dc/d6c/classElectro.html#a214db91c3bc64f24e17c4c4bfb99999b":[1,0,27,31],
+"dc/d6c/classElectro.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,27,16],
+"dc/d6c/classElectro.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,27,14],
+"dc/d6c/classElectro.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,27,18]
 };

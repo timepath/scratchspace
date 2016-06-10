@@ -1,15 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"da/d9c/classXonoticMonsterToolsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,190,1],
-"da/d9c/classXonoticMonsterToolsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,190,68],
-"da/d9c/classXonoticMonsterToolsDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,190,66],
-"da/d9c/classXonoticMonsterToolsDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,190,12],
-"da/d9c/classXonoticMonsterToolsDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,190,39],
-"da/d9c/classXonoticMonsterToolsDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,190,17],
-"da/d9c/classXonoticMonsterToolsDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,190,46],
-"da/d9c/classXonoticMonsterToolsDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,190,23],
-"da/d9c/classXonoticMonsterToolsDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,190,31],
-"da/d9c/classXonoticMonsterToolsDialog.html#a592adf4c0335f6260bb6e3b6459dcc0a":[1,0,190,83],
 "da/d9c/classXonoticMonsterToolsDialog.html#a607bad2b93e0a5b5a918d4c7cfc671cd":[1,0,190,50],
 "da/d9c/classXonoticMonsterToolsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,190,55],
 "da/d9c/classXonoticMonsterToolsDialog.html#a67d95732d49da439095483530aca8804":[1,0,190,42],
@@ -249,5 +239,15 @@ var NAVTREEINDEX83 =
 "da/db7/weaponsystem_8qh.html#a85ec52a7a8bed1e525e17cfb825e9deb":[2,0,5,4,21,9],
 "da/db7/weaponsystem_8qh.html#aa0bce870282286c681f4e9988c2ba474":[2,0,5,4,21,4],
 "da/db7/weaponsystem_8qh.html#aa37b568e14f970efdb768a661eeea96e":[2,0,5,4,21,2],
-"da/db7/weaponsystem_8qh.html#aa6d337210081fd47ddca43564d7bf9c3":[2,0,5,4,21,0]
+"da/db7/weaponsystem_8qh.html#aa6d337210081fd47ddca43564d7bf9c3":[2,0,5,4,21,0],
+"da/db7/weaponsystem_8qh.html#aaf88c2158300a1bec1d14a44351fe55e":[2,0,5,4,21,11],
+"da/db7/weaponsystem_8qh.html#ad315ff4e6ee9693a54edb0d18efc9245":[2,0,5,4,21,1],
+"da/db7/weaponsystem_8qh.html#ad552f2285b74098aab5c07973ec7b577":[2,0,5,4,21,6],
+"da/db7/weaponsystem_8qh.html#ada198b7d2c4a23e3476772e6e16828d7":[2,0,5,4,21,8],
+"da/db7/weaponsystem_8qh_source.html":[2,0,5,4,21],
+"da/db8/pressedkeys_8qh.html":[2,0,0,1,0,25],
+"da/db8/pressedkeys_8qh_source.html":[2,0,0,1,0,25],
+"da/db9/common_2minigames_2minigame_2__mod_8qh.html":[2,0,1,6,0,1],
+"da/db9/common_2minigames_2minigame_2__mod_8qh_source.html":[2,0,1,6,0,1],
+"da/dc1/classXonoticAudioSettingsTab.html":[1,0,123]
 };

@@ -1,15 +1,5 @@
 var NAVTREEINDEX89 =
 {
-"db/d76/classXonoticHUDNotificationDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,167,37],
-"db/d76/classXonoticHUDNotificationDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,167,15],
-"db/d76/classXonoticHUDNotificationDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,167,6],
-"db/d76/classXonoticHUDNotificationDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,167,67],
-"db/d76/classXonoticHUDNotificationDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,167,58],
-"db/d76/classXonoticHUDNotificationDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,167,63],
-"db/d76/classXonoticHUDNotificationDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,167,62],
-"db/d76/classXonoticHUDNotificationDialog.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,167,86],
-"db/d76/classXonoticHUDNotificationDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,167,64],
-"db/d76/classXonoticHUDNotificationDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,167,4],
 "db/d76/classXonoticHUDNotificationDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,167,32],
 "db/d76/classXonoticHUDNotificationDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,167,10],
 "db/d76/classXonoticHUDNotificationDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,167,38],
@@ -249,5 +239,15 @@ var NAVTREEINDEX89 =
 "db/d7f/effectinfo_8inc.html#a6f1a555884b25d01e22f073085403bef":[2,0,1,2,7,103],
 "db/d7f/effectinfo_8inc.html#a6f2350116f8fce935028f67597e31eda":[2,0,1,2,7,120],
 "db/d7f/effectinfo_8inc.html#a6f45dfa267621e22f75ead6b11e390fb":[2,0,1,2,7,283],
-"db/d7f/effectinfo_8inc.html#a6f9fe6e274f606c9489c3ea6cab131e4":[2,0,1,2,7,42]
+"db/d7f/effectinfo_8inc.html#a6f9fe6e274f606c9489c3ea6cab131e4":[2,0,1,2,7,42],
+"db/d7f/effectinfo_8inc.html#a7098b79823819e96f8dac2dcc0488d07":[2,0,1,2,7,92],
+"db/d7f/effectinfo_8inc.html#a71214a43d271de97ed6ec6a114becdc3":[2,0,1,2,7,125],
+"db/d7f/effectinfo_8inc.html#a719b57382041d2eab6a385441d520fd2":[2,0,1,2,7,3],
+"db/d7f/effectinfo_8inc.html#a7227344daf0d8664811d717ff61247e2":[2,0,1,2,7,171],
+"db/d7f/effectinfo_8inc.html#a72592507f9ac84ca42fd1558f55b38c5":[2,0,1,2,7,305],
+"db/d7f/effectinfo_8inc.html#a72905ff5428cf33bb4a74bacb163daa0":[2,0,1,2,7,232],
+"db/d7f/effectinfo_8inc.html#a737c8b11e3d3822aa555851217e59db0":[2,0,1,2,7,68],
+"db/d7f/effectinfo_8inc.html#a74530a9a866b9d11129d2631ce6327e0":[2,0,1,2,7,13],
+"db/d7f/effectinfo_8inc.html#a7482fb44365d798e2131990d155f91bc":[2,0,1,2,7,231],
+"db/d7f/effectinfo_8inc.html#a74902ce6ce7d32a1ba0162e9dc150381":[2,0,1,2,7,142]
 };
