@@ -624,7 +624,7 @@ var searchData=
   ['speaker_2eqc',['speaker.qc',['../d5/d06/speaker_8qc.html',1,'']]],
   ['spec_5ffirst',['spec_first',['../d6/ddd/server_2mutators_2events_8qh.html#a85af9448bebb0a0deea9a31f9c3d6a9f',1,'events.qh']]],
   ['spec_5fplayer',['spec_player',['../d6/ddd/server_2mutators_2events_8qh.html#aa5321ce73c82c3793ac90ddfda9a7ab8',1,'events.qh']]],
-  ['specialcommand',['SpecialCommand',['../dc/ddd/player_8qc.html#aba6bcdf9b4bf24fa41a76f0cca28fa9b',1,'SpecialCommand(entity this):&#160;player.qc'],['../dc/ddd/player_8qc.html#ac97058ca049cfc4d464ba0c4a3f4ef74',1,'specialcommand():&#160;player.qc']]],
+  ['specialcommand',['specialcommand',['../dc/ddd/player_8qc.html#ac97058ca049cfc4d464ba0c4a3f4ef74',1,'specialcommand():&#160;player.qc'],['../dc/ddd/player_8qc.html#aba6bcdf9b4bf24fa41a76f0cca28fa9b',1,'SpecialCommand(entity this):&#160;player.qc']]],
   ['specialcommand_5fpos',['specialcommand_pos',['../dc/ddd/player_8qc.html#a50fad2175f67c8ff6e31509e5b97114c',1,'player.qc']]],
   ['species',['species',['../d5/d26/server_2defs_8qh.html#a3c3af8f5c6837dd97fdbd346a993f5b1',1,'defs.qh']]],
   ['species_5falien',['SPECIES_ALIEN',['../d0/d8b/common_2constants_8qh.html#ac9873a09c7ef06c4c0f6743f3971e9c2',1,'constants.qh']]],

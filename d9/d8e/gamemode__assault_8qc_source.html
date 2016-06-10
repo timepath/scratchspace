@@ -717,86 +717,88 @@ $(document).ready(function(){initNavTree('d9/d8e/gamemode__assault_8qc_source.ht
 <div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;</div>
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;<span class="comment">// mutator hooks</span></div>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, PlayerSpawn)</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">self</span>.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> == <a class="code" href="../../d5/d26/server_2defs_8qh.html#afa0e73d2a3a3b9c2beee04b1b284b90a">assault_attacker_team</a>)</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        Send_Notification(NOTIF_ONE, <span class="keyword">self</span>, MSG_CENTER, CENTER_ASSAULT_ATTACKING);</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;        Send_Notification(NOTIF_ONE, <span class="keyword">self</span>, MSG_CENTER, CENTER_ASSAULT_DEFENDING);</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;}</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;</div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, TurretSpawn)</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    <span class="keywordflow">if</span>(!<span class="keyword">self</span>.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> || <span class="keyword">self</span>.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> == <a class="code" href="../../dc/d1c/weapon_8qh.html#a9fa363812785dc498d10c39607bbbb9d">MAX_SHOT_DISTANCE</a>)</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;        <span class="keyword">self</span>.team = 5; <span class="comment">// this gets reversed when match starts?</span></div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;}</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, VehicleSpawn)</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    <span class="keyword">self</span>.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.5;</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;}</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, HavocBot_ChooseRole)</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;    havocbot_ast_reset_role(<span class="keyword">self</span>);</div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;}</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;</div>
-<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, PlayHitsound)</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;{</div>
-<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad0dc75b464f2598bf5c0e40b967517e7">frag_victim</a>.classname == <span class="stringliteral">&quot;func_assault_destructible&quot;</span>);</div>
-<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;}</div>
-<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, GetTeamCount)</div>
-<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;{</div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;    <span class="comment">// assault always has 2 teams</span></div>
-<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;    <a class="code" href="../../d1/d30/cl__client_8qh.html#a7fea4d2f6f3c31b60301494b136558af">c1</a> = <a class="code" href="../../d1/d30/cl__client_8qh.html#a0fe1885b4d10c978f52619ab968adadc">c2</a> = 0;</div>
-<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;}</div>
-<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, <a class="code" href="../../db/dcc/g__world_8qc.html#a233af455133bc7ba4e3e100115bf2885">CheckRules_World</a>)</div>
-<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;{</div>
-<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a3ddb515c24a9e55c3211bd4852326566">ret_float</a> = WinningCondition_Assault();</div>
-<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;}</div>
-<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;</div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, ReadLevelCvars)</div>
-<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;{</div>
-<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;    <span class="comment">// no assault warmups</span></div>
-<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;    <a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a> = 0;</div>
-<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;}</div>
-<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;</div>
-<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, OnEntityPreSpawn)</div>
-<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;{</div>
-<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;    <span class="keywordflow">switch</span>(<span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>)</div>
-<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;    {</div>
-<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;info_player_team1&quot;</span>:</div>
-<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;info_player_team2&quot;</span>:</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;info_player_team3&quot;</span>:</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;info_player_team4&quot;</span>:</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;    }</div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;}</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;<span class="comment">// scoreboard setup</span></div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/d8e/gamemode__assault_8qc.html#af9ce8a13c37efdd85ac68f7b16bd7ac9">assault_ScoreRules</a>()</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;{</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a8834399775b54e52ae0297a80013a636">ScoreRules_basics</a>(2, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#acf557e93b6854298dcf5b6602fb6ffed">SFL_SORT_PRIO_SECONDARY</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#acf557e93b6854298dcf5b6602fb6ffed">SFL_SORT_PRIO_SECONDARY</a>, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882">ScoreInfo_SetLabel_TeamScore</a>(  ST_ASSAULT_OBJECTIVES,    <span class="stringliteral">&quot;objectives&quot;</span>,      <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>);</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d">ScoreInfo_SetLabel_PlayerScore</a>(SP_ASSAULT_OBJECTIVES,    <span class="stringliteral">&quot;objectives&quot;</span>,      <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>);</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05">ScoreRules_basics_end</a>();</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;}</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;{</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    <span class="keywordflow">if</span>(player.team == <a class="code" href="../../d5/d26/server_2defs_8qh.html#afa0e73d2a3a3b9c2beee04b1b284b90a">assault_attacker_team</a>)</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;        Send_Notification(NOTIF_ONE, player, MSG_CENTER, CENTER_ASSAULT_ATTACKING);</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;        Send_Notification(NOTIF_ONE, player, MSG_CENTER, CENTER_ASSAULT_DEFENDING);</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;}</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, TurretSpawn)</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    <span class="keywordflow">if</span>(!<span class="keyword">self</span>.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> || <span class="keyword">self</span>.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> == <a class="code" href="../../dc/d1c/weapon_8qh.html#a9fa363812785dc498d10c39607bbbb9d">MAX_SHOT_DISTANCE</a>)</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;        <span class="keyword">self</span>.team = 5; <span class="comment">// this gets reversed when match starts?</span></div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;}</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, VehicleSpawn)</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;    <span class="keyword">self</span>.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.5;</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;}</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, HavocBot_ChooseRole)</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;    havocbot_ast_reset_role(<span class="keyword">self</span>);</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;}</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;</div>
+<div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, PlayHitsound)</div>
+<div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;{</div>
+<div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;    <span class="keywordflow">return</span> (<a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad0dc75b464f2598bf5c0e40b967517e7">frag_victim</a>.classname == <span class="stringliteral">&quot;func_assault_destructible&quot;</span>);</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;}</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, GetTeamCount)</div>
+<div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;{</div>
+<div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;    <span class="comment">// assault always has 2 teams</span></div>
+<div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;    <a class="code" href="../../d1/d30/cl__client_8qh.html#a7fea4d2f6f3c31b60301494b136558af">c1</a> = <a class="code" href="../../d1/d30/cl__client_8qh.html#a0fe1885b4d10c978f52619ab968adadc">c2</a> = 0;</div>
+<div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;}</div>
+<div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;</div>
+<div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, <a class="code" href="../../db/dcc/g__world_8qc.html#a233af455133bc7ba4e3e100115bf2885">CheckRules_World</a>)</div>
+<div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;{</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;    <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a3ddb515c24a9e55c3211bd4852326566">ret_float</a> = WinningCondition_Assault();</div>
+<div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;}</div>
+<div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;</div>
+<div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, ReadLevelCvars)</div>
+<div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;{</div>
+<div class="line"><a name="l00668"></a><span class="lineno">  668</span>&#160;    <span class="comment">// no assault warmups</span></div>
+<div class="line"><a name="l00669"></a><span class="lineno">  669</span>&#160;    <a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a> = 0;</div>
+<div class="line"><a name="l00670"></a><span class="lineno">  670</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00671"></a><span class="lineno">  671</span>&#160;}</div>
+<div class="line"><a name="l00672"></a><span class="lineno">  672</span>&#160;</div>
+<div class="line"><a name="l00673"></a><span class="lineno">  673</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(as, OnEntityPreSpawn)</div>
+<div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;{</div>
+<div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;    <span class="keywordflow">switch</span>(<span class="keyword">self</span>.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>)</div>
+<div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;    {</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;info_player_team1&quot;</span>:</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;info_player_team2&quot;</span>:</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;info_player_team3&quot;</span>:</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;info_player_team4&quot;</span>:</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    }</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;}</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;<span class="comment">// scoreboard setup</span></div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d9/d8e/gamemode__assault_8qc.html#af9ce8a13c37efdd85ac68f7b16bd7ac9">assault_ScoreRules</a>()</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;{</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a8834399775b54e52ae0297a80013a636">ScoreRules_basics</a>(2, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#acf557e93b6854298dcf5b6602fb6ffed">SFL_SORT_PRIO_SECONDARY</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#acf557e93b6854298dcf5b6602fb6ffed">SFL_SORT_PRIO_SECONDARY</a>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882">ScoreInfo_SetLabel_TeamScore</a>(  ST_ASSAULT_OBJECTIVES,    <span class="stringliteral">&quot;objectives&quot;</span>,      <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>);</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d">ScoreInfo_SetLabel_PlayerScore</a>(SP_ASSAULT_OBJECTIVES,    <span class="stringliteral">&quot;objectives&quot;</span>,      <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>);</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05">ScoreRules_basics_end</a>();</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;}</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="gamemode__assault_8qc_html_a7c876617d922cd16d5dab82fe6fce4e3"><div class="ttname"><a href="../../d9/d8e/gamemode__assault_8qc.html#a7c876617d922cd16d5dab82fe6fce4e3">HAVOCBOT_AST_ROLE_DEFENSE</a></div><div class="ttdeci">const int HAVOCBOT_AST_ROLE_DEFENSE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8e/gamemode__assault_8qc_source.html#l00042">gamemode_assault.qc:42</a></div></div>
 <div class="ttc" id="gamemode__assault_8qc_html_a8854e134a0d692c1377eb61d2e4b6c73"><div class="ttname"><a href="../../d9/d8e/gamemode__assault_8qc.html#a8854e134a0d692c1377eb61d2e4b6c73">havocbot_ast_target</a></div><div class="ttdeci">entity havocbot_ast_target</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8e/gamemode__assault_8qc_source.html#l00053">gamemode_assault.qc:53</a></div></div>
@@ -885,6 +887,7 @@ $(document).ready(function(){initNavTree('d9/d8e/gamemode__assault_8qc_source.ht
 <div class="ttc" id="scores_8qc_html_ac2bab05d680b38ed52bd52ded09e04dd"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#ac2bab05d680b38ed52bd52ded09e04dd">PlayerTeamScore_Add</a></div><div class="ttdeci">float PlayerTeamScore_Add(entity player, float pscorefield, float tscorefield, float score)</div><div class="ttdoc">Adds a score to both the player and the team. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00360">scores.qc:360</a></div></div>
 <div class="ttc" id="gamemode__assault_8qc_html_aeec709ac24ea54914787f032f0bedc54"><div class="ttname"><a href="../../d9/d8e/gamemode__assault_8qc.html#aeec709ac24ea54914787f032f0bedc54">void</a></div><div class="ttdeci">void(entity this) havocbot_role</div></div>
 <div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
+<div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00019">events.qh:19</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9d4fb8ccfb13fa0bd762af0b2b50dcf6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a></div><div class="ttdeci">float nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">csprogsdefs.qc:121</a></div></div>
 <div class="ttc" id="gamemode__assault_8qc_html_aa8464a01888d74a2efa42f05a8946ba0"><div class="ttname"><a href="../../d9/d8e/gamemode__assault_8qc.html#aa8464a01888d74a2efa42f05a8946ba0">assault_sprite</a></div><div class="ttdeci">entity assault_sprite</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d8e/gamemode__assault_8qc_source.html#l00038">gamemode_assault.qc:38</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9bdd141f634714eab30642bf42f63862"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a></div><div class="ttdeci">entity enemy</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00127">csprogsdefs.qc:127</a></div></div>
@@ -925,7 +928,7 @@ $(document).ready(function(){initNavTree('d9/d8e/gamemode__assault_8qc_source.ht
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../d9/d8e/gamemode__assault_8qc.html">gamemode_assault.qc</a></li>
-    <li class="footer">Generated on Fri Jun 10 2016 02:52:17 for Xonotic by
+    <li class="footer">Generated on Fri Jun 10 2016 04:14:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

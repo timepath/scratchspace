@@ -429,7 +429,7 @@ var searchData=
   ['wep_5ftype_5fother',['WEP_TYPE_OTHER',['../dc/d1c/weapon_8qh.html#ae2980e4d3ccb9564827dd96026b7b1b1',1,'weapon.qh']]],
   ['wep_5ftype_5fsplash',['WEP_TYPE_SPLASH',['../dc/d1c/weapon_8qh.html#a67d15873f7aa52ab9ed55706830a4f17',1,'weapon.qh']]],
   ['wep_5ftypemask',['WEP_TYPEMASK',['../dc/d1c/weapon_8qh.html#a3274285ca5d1ecd3a3ffb1d1683a9664',1,'weapon.qh']]],
-  ['wepset',['WepSet',['../de/d81/common_2weapons_2all_8qh.html#ade7b3795466e850b0acb38ad649ea87b',1,'WepSet():&#160;all.qh'],['../de/d81/common_2weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658',1,'WEPSET():&#160;all.qh']]],
+  ['wepset',['WEPSET',['../de/d81/common_2weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658',1,'WEPSET():&#160;all.qh'],['../de/d81/common_2weapons_2all_8qh.html#ade7b3795466e850b0acb38ad649ea87b',1,'WepSet():&#160;all.qh']]],
   ['wepset_5fall',['WEPSET_ALL',['../de/d81/common_2weapons_2all_8qh.html#aca4a85c57352de414c4102c55d4b66b4',1,'all.qh']]],
   ['wepset_5ffromweapon',['WepSet_FromWeapon',['../de/d81/common_2weapons_2all_8qh.html#af64f4486ae6141a10160958a5e9a70b4',1,'all.qh']]],
   ['wepset_5fsuperweapons',['WEPSET_SUPERWEAPONS',['../de/d81/common_2weapons_2all_8qh.html#ae071d2505d0cf2cec38f15f05709b500',1,'all.qh']]],
