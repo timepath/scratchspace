@@ -3,7 +3,7 @@ var bd_8qc =
     [ "bd_activate_editor", "d3/dd5/bd_8qc.html#a329dc445ea0a0979553bed8e539bcf0f", null ],
     [ "bd_canfill", "d3/dd5/bd_8qc.html#a55200b553f47a278e6eb5440333b2bab", null ],
     [ "bd_check_winner", "d3/dd5/bd_8qc.html#ac5ad5fad1ee0038dff7f43b0c6863ecc", null ],
-    [ "bd_close_editor", "d3/dd5/bd_8qc.html#a065d2a3be1329008e3f9c0414c049911", null ],
+    [ "bd_close_editor", "d3/dd5/bd_8qc.html#a273e11f9cb9528a5b2c2f83c333932ca", null ],
     [ "bd_do_fill", "d3/dd5/bd_8qc.html#ab0ec3ac9a6ed11632ff234588cc6a8dd", null ],
     [ "bd_do_move", "d3/dd5/bd_8qc.html#af705b37887012620d8ad7688a8570fb1", null ],
     [ "bd_do_next_match", "d3/dd5/bd_8qc.html#a1d9824d3da695fcca16de33dd5c3126d", null ],

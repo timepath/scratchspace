@@ -6,7 +6,7 @@ var cheats_8qc =
     [ "END_CHEAT_FUNCTION", "d6/de9/cheats_8qc.html#a0855c2033688949050b4c7ae6b26f7e1", null ],
     [ "IS_CHEAT", "d6/de9/cheats_8qc.html#a37f479ec45150654c5d4d7db942024f2", null ],
     [ "CheatCommand", "d6/de9/cheats_8qc.html#a1549477544784a0c7e5134dbd72b3a28", null ],
-    [ "CheatFrame", "d6/de9/cheats_8qc.html#a1bbaa847b251c4569c98328d90db330c", null ],
+    [ "CheatFrame", "d6/de9/cheats_8qc.html#ab12ab680ff52099e78d6e3a7968815dc", null ],
     [ "CheatImpulse", "d6/de9/cheats_8qc.html#a73c94da2bf38acf3536154e899458024", null ],
     [ "CheatInit", "d6/de9/cheats_8qc.html#a2a937c6b018ccfb5185e8d5af1415472", null ],
     [ "CheatsAllowed", "d6/de9/cheats_8qc.html#a45a998ce5f3256bd5c9671595ca8a9c8", null ],

@@ -10,7 +10,7 @@ var searchData=
   ['update',['update',['../d0/d5d/classAnimation.html#a4318baf0b0735e7da87b2c6d3d3a2705',1,'Animation']]],
   ['updateaspect',['updateAspect',['../d8/d00/classImage.html#a603f8717f8a19f57c6441bafc59779a9',1,'Image']]],
   ['updateauxiliaryxhair',['UpdateAuxiliaryXhair',['../da/d10/sv__vehicles_8qc.html#a65279814c8a6144755ab92a4f3ba98ba',1,'sv_vehicles.qc']]],
-  ['updatechatbubble',['UpdateChatBubble',['../da/d53/cl__client_8qc.html#a0951679ad39e70406fef5a926e2f26e2',1,'cl_client.qc']]],
+  ['updatechatbubble',['UpdateChatBubble',['../da/d53/cl__client_8qc.html#a616f8875b0e8641acc7d4a19a0824be2',1,'cl_client.qc']]],
   ['updatecheck',['updateCheck',['../df/d9b/menu_2xonotic_2util_8qc.html#a8ef15205d6127cbc8982e7ba27203db1',1,'util.qc']]],
   ['updatecompression',['updateCompression',['../df/d9b/menu_2xonotic_2util_8qc.html#ac790805b922c5603f4d88f0b3ad83c02',1,'updateCompression():&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#ac790805b922c5603f4d88f0b3ad83c02',1,'updateCompression():&#160;util.qc']]],
   ['updatecontroltopbottom',['updateControlTopBottom',['../d9/de9/classListBox.html#aa3a7b0f57548daae5b460ea630d4a18c',1,'ListBox']]],

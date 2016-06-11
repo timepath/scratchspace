@@ -1187,7 +1187,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="keywordflow">if</span> ( <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#a1875c5c56cb1e26b51eb64ae1c602ff8">HUD_MinigameMenu_Click_ExpandCollapse</a>(<span class="keyword">this</span>) )</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    {</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a> = <span class="keyword">self</span>;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a> = <span class="keyword">this</span>;</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a>; ++i)</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        {</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            <span class="keywordflow">if</span> ( <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a58ed33525b1e1a9e60f989f03f488503">player_localnum</a> != i &amp;&amp; <a class="code" href="../../d0/d2a/client_2main_8qh.html#a02482608b1eca1bf0591f7589db11994">playerslots</a>[i] &amp;&amp; entcs_GetName(i) != <span class="stringliteral">&quot;&quot;</span> &amp;&amp;</div>
@@ -1195,7 +1195,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            {</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;                e = <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#aadfdd927ff9cdfb93e7594562399c8e4">HUD_MinigameMenu_SpawnSubEntry</a>(</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;                    <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(entcs_GetName(i)), <a class="code" href="../../d5/d4a/cl__minigames__hud_8qc.html#a708f9f80831a6dd7ed3cd40944c9b6d8">HUD_MinigameMenu_ClickInvite_Entry</a>,</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                    <span class="keyword">self</span> );</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;                    <span class="keyword">this</span> );</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                e.flags |= 1;</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;                e.netname = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(i+1));</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                e.origin_x *= 2;</div>
@@ -2554,7 +2554,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../d5/d4a/cl__minigames__hud_8qc.html">cl_minigames_hud.qc</a></li>
-    <li class="footer">Generated on Fri Jun 10 2016 04:14:36 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 13:56:05 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

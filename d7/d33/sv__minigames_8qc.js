@@ -2,7 +2,7 @@ var sv__minigames_8qc =
 [
     [ "FIELD", "d7/d33/sv__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7", null ],
     [ "MSLE", "d7/d33/sv__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef", null ],
-    [ "ClientCommand_minigame", "d7/d33/sv__minigames_8qc.html#acb2406997daa091bb87820c1e2a84ecf", null ],
+    [ "ClientCommand_minigame", "d7/d33/sv__minigames_8qc.html#ae8b31c763b3c1ee1b4ee61fdbd657671", null ],
     [ "end_minigame", "d7/d33/sv__minigames_8qc.html#ac11b22942e0b63b0172462375b0c2ca8", null ],
     [ "end_minigames", "d7/d33/sv__minigames_8qc.html#a9f07dda7618fa1c23b18601f1058c147", null ],
     [ "invite_minigame", "d7/d33/sv__minigames_8qc.html#ad8020a414daf2b7cd018d5e8bc4f5e6e", null ],

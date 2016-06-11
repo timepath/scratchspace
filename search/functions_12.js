@@ -134,7 +134,7 @@ var searchData=
   ['resizenotifylie',['resizeNotifyLie',['../d0/d7b/classContainer.html#a521275ee1c52f6503906d1e871cceb4c',1,'Container']]],
   ['resolvemod',['resolvemod',['../df/d9b/menu_2xonotic_2util_8qc.html#a86cb046821701d82ae80ecd5c2c147b1',1,'resolvemod(string m):&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#a86cb046821701d82ae80ecd5c2c147b1',1,'resolvemod(string m):&#160;util.qc']]],
   ['resorthostcache',['resorthostcache',['../d8/de2/menudefs_8qc.html#acc7196964388ef1b600113e3e30cff31',1,'menudefs.qc']]],
-  ['respawn',['respawn',['../da/d53/cl__client_8qc.html#ac578ca44493fe34e6cb1b2093cf79341',1,'cl_client.qc']]],
+  ['respawn',['respawn',['../da/d53/cl__client_8qc.html#a9892fecc7414ccaabfbcd27e4cd56692',1,'cl_client.qc']]],
   ['restoregame',['RestoreGame',['../db/dcc/g__world_8qc.html#af8f462400b6e203393394085ab5bc7d1',1,'g_world.qc']]],
   ['resumeallanim',['resumeAllAnim',['../d3/d78/classAnimHost.html#aefa2d4cb60e5c1b6d4c593dbcf6cb111',1,'AnimHost']]],
   ['resumeanim',['resumeAnim',['../d0/d5d/classAnimation.html#af44315fcdb5187461a08ef44a82676fd',1,'Animation']]],

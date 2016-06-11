@@ -22,11 +22,5 @@ var common_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#a5a76b0c74033bdef19968820a43149b9", null ],
     [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#ae3a91aca82079ec3bcc302a2345cdc76", null ],
     [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#aa022e322821d9c960bcdee463363291f", null ],
-    [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#a5e051773a4f4852360170506cb27e9c1", null ],
-    [ "player_jumpheight", "d4/d95/common_2mutators_2events_8qh.html#a230f9c07ade5cf025a3c1b171f89e86c", null ],
-    [ "player_multijump", "d4/d95/common_2mutators_2events_8qh.html#ae8c92b746a0f8b738a91d85b132420b6", null ],
-    [ "pm_maxspeed_mod", "d4/d95/common_2mutators_2events_8qh.html#adfa5118a30ae224cd89d60b48074c902", null ],
-    [ "ret_string", "d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de", null ],
-    [ "weapon_model", "d4/d95/common_2mutators_2events_8qh.html#ad7d95987765fff146be26e9345264b89", null ],
-    [ "weapon_model_output", "d4/d95/common_2mutators_2events_8qh.html#a0b710a9933974511b97831e4ead11557", null ]
+    [ "MUTATOR_HOOKABLE", "d4/d95/common_2mutators_2events_8qh.html#a5e051773a4f4852360170506cb27e9c1", null ]
 ];

@@ -123,8 +123,8 @@ $(document).ready(function(){initNavTree('d8/d4c/cmd_8qh.html','../../');});
 Functions</h2></td></tr>
 <tr class="memitem:a473913b05fc1c15986328dacd24697ba"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4c/cmd_8qh.html#a473913b05fc1c15986328dacd24697ba">ClientCommand_macro_write_aliases</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> fh)</td></tr>
 <tr class="separator:a473913b05fc1c15986328dacd24697ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a028eeda6f56d8c254e5cba68275432e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4c/cmd_8qh.html#a028eeda6f56d8c254e5cba68275432e8">MapVote_Suggest</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> m)</td></tr>
-<tr class="separator:a028eeda6f56d8c254e5cba68275432e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ca26f5af17027e2bcfc48fdd70a9678"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4c/cmd_8qh.html#a0ca26f5af17027e2bcfc48fdd70a9678">MapVote_Suggest</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#a6e6394280f1b36807cbbd132d2464d29">this</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> m)</td></tr>
+<tr class="separator:a0ca26f5af17027e2bcfc48fdd70a9678"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -150,19 +150,20 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00710">710</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00693">693</a> of file <a class="el" href="../../d8/d1d/cmd_8qc_source.html">cmd.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00659">CLIENT_COMMANDS</a>.</p>
+<p>References <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00643">CLIENT_COMMANDS</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00011">NULL</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/da7/generic_8qc_source.html#l00174">GENERIC_COMMAND()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;{</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;<span class="preprocessor">    #define CLIENT_COMMAND(name, function, description) \</span></div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;<span class="preprocessor">        { CMD_Write_Alias(&quot;qc_cmd_cmd&quot;, name, description); }</span></div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;    <a class="code" href="../../d8/d1d/cmd_8qc.html#a293974797b8a3118f42c38fc0aab9257">CLIENT_COMMANDS</a>(0, 0, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;<span class="preprocessor">#undef CLIENT_COMMAND</span></div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;<span class="preprocessor"></span>}</div>
-<div class="ttc" id="cmd_8qc_html_a293974797b8a3118f42c38fc0aab9257"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#a293974797b8a3118f42c38fc0aab9257">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00659">cmd.qc:659</a></div></div>
+<div class="fragment"><div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;{</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;<span class="preprocessor">    #define CLIENT_COMMAND(name, function, description) \</span></div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;<span class="preprocessor">        { CMD_Write_Alias(&quot;qc_cmd_cmd&quot;, name, description); }</span></div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;    <a class="code" href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 0, 0, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;<span class="preprocessor">#undef CLIENT_COMMAND</span></div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="ttc" id="cmd_8qc_html_acbe27657d5467c88e2eaa924e51d7a20"><div class="ttname"><a href="../../d8/d1d/cmd_8qc.html#acbe27657d5467c88e2eaa924e51d7a20">CLIENT_COMMANDS</a></div><div class="ttdeci">#define CLIENT_COMMANDS(ent, request, arguments, command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d1d/cmd_8qc_source.html#l00643">cmd.qc:643</a></div></div>
+<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -176,26 +177,36 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a028eeda6f56d8c254e5cba68275432e8"></a>
+<a class="anchor" id="a0ca26f5af17027e2bcfc48fdd70a9678"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> MapVote_Suggest </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td>
-          <td class="paramname"><em>m</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td>
+          <td class="paramname"><em>m</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Definition at line <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00123">123</a> of file <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html">mapvoting.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00212">autocvar_g_maplist_votable_suggestions</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00213">autocvar_g_maplist_votable_suggestions_override_mostrecent</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00346">autocvar_sv_eventlog</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00394">autocvar_sv_vote_gametype</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00066">GameLogEcho()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00033">gametypevote</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00090">GameTypeVote_MapInfo_FixName()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01016">Map_IsRecent()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l01255">MapInfo_CheckMap()</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00089">MAPVOTE_COUNT</a>, <a class="el" href="../../d3/d53/server_2mapvoting_8qh_source.html#l00014">mapvote_initialized</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00029">mapvote_suggestion_ptr</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00028">mapvote_suggestions</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00173">playerid</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00023">SELFPARAM</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
+<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00212">autocvar_g_maplist_votable_suggestions</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00213">autocvar_g_maplist_votable_suggestions_override_mostrecent</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00346">autocvar_sv_eventlog</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00394">autocvar_sv_vote_gametype</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00066">GameLogEcho()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00033">gametypevote</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00090">GameTypeVote_MapInfo_FixName()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01016">Map_IsRecent()</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l01255">MapInfo_CheckMap()</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00089">MAPVOTE_COUNT</a>, <a class="el" href="../../d3/d53/server_2mapvoting_8qh_source.html#l00014">mapvote_initialized</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00029">mapvote_suggestion_ptr</a>, <a class="el" href="../../d2/d76/server_2mapvoting_8qc_source.html#l00028">mapvote_suggestions</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00173">playerid</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00519">ClientCommand_suggestmap()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00506">ClientCommand_suggestmap()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;{</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="keywordtype">float</span> i;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordflow">if</span>(m == <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;That&#39;s not how to use this command.&quot;</span>;</div>
@@ -230,10 +241,9 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(<a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a6722532cdd11c4b8abd148fa9fd6d310">mapvote_suggestions</a>[i]);</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a6722532cdd11c4b8abd148fa9fd6d310">mapvote_suggestions</a>[i] = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(m);</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#af141085479aafa94cfa6b3fa30a9eaf6">autocvar_sv_eventlog</a>)</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:vote:suggested:&quot;</span>, m, <span class="stringliteral">&quot;:&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<span class="keyword">self</span>.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a31c2e523e63d0215e6075125fea821f3">playerid</a>)));</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:vote:suggested:&quot;</span>, m, <span class="stringliteral">&quot;:&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a31c2e523e63d0215e6075125fea821f3">playerid</a>)));</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;Suggestion of &quot;</span>, m, <span class="stringliteral">&quot; accepted.&quot;</span>);</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00023">self.qh:23</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="server_2mapvoting_8qc_html_a6722532cdd11c4b8abd148fa9fd6d310"><div class="ttname"><a href="../../d2/d76/server_2mapvoting_8qc.html#a6722532cdd11c4b8abd148fa9fd6d310">mapvote_suggestions</a></div><div class="ttdeci">string mapvote_suggestions[MAPVOTE_COUNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d76/server_2mapvoting_8qc_source.html#l00028">mapvoting.qc:28</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
@@ -260,7 +270,7 @@ Variables</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d4c/cmd_8qh_a028eeda6f56d8c254e5cba68275432e8_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d4c/cmd_8qh_a0ca26f5af17027e2bcfc48fdd70a9678_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -270,7 +280,7 @@ Variables</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d4c/cmd_8qh_a028eeda6f56d8c254e5cba68275432e8_icgraph.svg" width="384" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d4c/cmd_8qh_a0ca26f5af17027e2bcfc48fdd70a9678_icgraph.svg" width="384" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -288,7 +298,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d4c/cmd_8qh_source.html#l00009">9</a> of file <a class="el" href="../../d8/d4c/cmd_8qh_source.html">cmd.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d4c/cmd_8qh_source.html#l00004">4</a> of file <a class="el" href="../../d8/d4c/cmd_8qh_source.html">cmd.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00046">SV_ParseClientCommand_floodcheck()</a>.</p>
 
@@ -304,7 +314,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d4c/cmd_8qh_source.html#l00008">8</a> of file <a class="el" href="../../d8/d4c/cmd_8qh_source.html">cmd.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d4c/cmd_8qh_source.html#l00003">3</a> of file <a class="el" href="../../d8/d4c/cmd_8qh_source.html">cmd.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d8/d1d/cmd_8qc_source.html#l00046">SV_ParseClientCommand_floodcheck()</a>.</p>
 
@@ -320,7 +330,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d4c/cmd_8qh_source.html#l00010">10</a> of file <a class="el" href="../../d8/d4c/cmd_8qh_source.html">cmd.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d4c/cmd_8qh_source.html#l00005">5</a> of file <a class="el" href="../../d8/d4c/cmd_8qh_source.html">cmd.qh</a>.</p>
 
 </div>
 </div>
@@ -330,7 +340,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d8/d4c/cmd_8qh.html">cmd.qh</a></li>
-    <li class="footer">Generated on Fri Jun 10 2016 04:14:43 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 13:56:12 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

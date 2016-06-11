@@ -42,7 +42,7 @@ var searchData=
   ['hud_5fconfigure_5fframe',['HUD_Configure_Frame',['../dc/d90/hud__config_8qc.html#aff11757a3172f4f26585a7edc21785f0',1,'HUD_Configure_Frame():&#160;hud_config.qc'],['../dd/dcd/hud__config_8qh.html#aff11757a3172f4f26585a7edc21785f0',1,'HUD_Configure_Frame():&#160;hud_config.qc']]],
   ['hud_5fconfigure_5fpostdraw',['HUD_Configure_PostDraw',['../dc/d90/hud__config_8qc.html#a997bcd4a77add62b1ec1ed127a5bd1bb',1,'HUD_Configure_PostDraw():&#160;hud_config.qc'],['../dd/dcd/hud__config_8qh.html#a997bcd4a77add62b1ec1ed127a5bd1bb',1,'HUD_Configure_PostDraw():&#160;hud_config.qc']]],
   ['hud_5fcrosshair',['HUD_Crosshair',['../d6/dd3/view_8qc.html#a802dfb52366f7223086a1a95a4f08eeb',1,'view.qc']]],
-  ['hud_5fcrosshair_5fvehicle',['HUD_Crosshair_Vehicle',['../d6/dd3/view_8qc.html#a487026c70d8882902db2b9d6bc4bbf76',1,'view.qc']]],
+  ['hud_5fcrosshair_5fvehicle',['HUD_Crosshair_Vehicle',['../d6/dd3/view_8qc.html#a44674039da1ad171f3a48979bbbd35f4',1,'view.qc']]],
   ['hud_5fdraw',['HUD_Draw',['../d6/dd3/view_8qc.html#a018a6576512f5f15b72f6a1a732d2af0',1,'view.qc']]],
   ['hud_5fdrawkeyvalue',['HUD_DrawKeyValue',['../d3/d07/scoreboard_8qc.html#ad9d1a7e7bd97dad4512ac2df5e181f4f',1,'scoreboard.qc']]],
   ['hud_5fdrawmapstats',['HUD_DrawMapStats',['../d3/d07/scoreboard_8qc.html#a6be711d00f08125d91efa0f8a92b8b72',1,'scoreboard.qc']]],

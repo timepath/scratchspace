@@ -19,7 +19,7 @@ var sv__monsters_8qc =
     [ "Monster_Dead_Think", "da/d4e/sv__monsters_8qc.html#a304ebddf2011e967eb6e3d0da5b4a760", null ],
     [ "Monster_Delay", "da/d4e/sv__monsters_8qc.html#a02694937ddf3dc6935c9ac7db73a7668", null ],
     [ "Monster_Delay_Action", "da/d4e/sv__monsters_8qc.html#a6992e7a5de16a5cdc7d1c1840c8be1c3", null ],
-    [ "monster_dropitem", "da/d4e/sv__monsters_8qc.html#a6f922d344c4bb5416da573b6c6854d84", null ],
+    [ "monster_dropitem", "da/d4e/sv__monsters_8qc.html#a2e641ff4602288f98301b9f6a4957b25", null ],
     [ "Monster_FindTarget", "da/d4e/sv__monsters_8qc.html#ae7877974bce7d4fcf7f7ad68ae85f5c1", null ],
     [ "monster_makevectors", "da/d4e/sv__monsters_8qc.html#aa7607c99a4f26065ec3a769e79adc696", null ],
     [ "Monster_Miniboss_Check", "da/d4e/sv__monsters_8qc.html#a5d5092804b9a6377cc7092ac9b967c52", null ],

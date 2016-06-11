@@ -889,7 +889,7 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;<span class="comment">// The only parameter reflects if the entity is &quot;new&quot; to the client, meaning it just came into the client&#39;s PVS.</span></div>
 <div class="line"><a name="l00783"></a><span class="lineno"><a class="line" href="../../df/d30/client_2main_8qc.html#a4662b6210aacc7fd0d5102f47033de99">  783</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../df/d30/client_2main_8qc.html#a4662b6210aacc7fd0d5102f47033de99">CSQC_Ent_Update</a>(<span class="keywordtype">bool</span> isnew)</div>
 <div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;{</div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>(); <span class="comment">// needed for engine functions</span></div>
 <div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;    this.<a class="code" href="../../db/d0a/oo_8qh.html#aec2812211811d2d0824d32e4e9e543fa">sourceLoc</a> = __FILE__ <span class="stringliteral">&quot;:&quot;</span> <a class="code" href="../../d3/dc9/macro_8qh.html#a7e6c97c88f776302c195e6728d6cb272">STR</a>(__LINE__);</div>
 <div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;    <span class="keywordtype">int</span> t = ReadByte();</div>
 <div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;</div>
@@ -970,7 +970,7 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;<span class="comment">// CSQC_Ent_Remove : Called when the server requests a SSQC / CSQC entity to be removed.  Essentially call remove(this) as well.</span></div>
 <div class="line"><a name="l00864"></a><span class="lineno"><a class="line" href="../../df/d30/client_2main_8qc.html#a2f9a2ac6dcac9c66386af75738fb9055">  864</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../df/d30/client_2main_8qc.html#a2f9a2ac6dcac9c66386af75738fb9055">CSQC_Ent_Remove</a>()</div>
 <div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;{</div>
-<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>(); <span class="comment">// needed for engine functions</span></div>
 <div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a1308ede3375f6db0058360f8133fa27e">autocvar_developer_csqcentities</a>) <a class="code" href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a>(<span class="stringliteral">&quot;CSQC_Ent_Remove() with this=%i {.entnum=%d, .enttype=%d}\n&quot;</span>, <span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a>, this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#a01b9d63c00330be2acbedfa4d4694e58">enttype</a>);</div>
 <div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;    <span class="keywordflow">if</span> (wasfreed(<span class="keyword">this</span>))</div>
 <div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;    {</div>
@@ -1659,7 +1659,7 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../df/d30/client_2main_8qc.html">main.qc</a></li>
-    <li class="footer">Generated on Fri Jun 10 2016 04:14:28 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 13:55:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

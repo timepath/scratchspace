@@ -143,7 +143,7 @@ var NAVTREEINDEX15 =
 "d2/d74/arraylist_8qh.html#afdc0b9c7b05e6853508921a41975aa56":[2,0,3,8,6],
 "d2/d74/arraylist_8qh_source.html":[2,0,3,8],
 "d2/d76/server_2mapvoting_8qc.html":[2,0,5,41],
-"d2/d76/server_2mapvoting_8qc.html#a028eeda6f56d8c254e5cba68275432e8":[2,0,5,41,20],
+"d2/d76/server_2mapvoting_8qc.html#a0ca26f5af17027e2bcfc48fdd70a9678":[2,0,5,41,20],
 "d2/d76/server_2mapvoting_8qc.html#a0f2006c616ac648f64cdd9ab1e22d330":[2,0,5,41,36],
 "d2/d76/server_2mapvoting_8qc.html#a12f9d37a33df7b775438a4c6b59bcbbe":[2,0,5,41,32],
 "d2/d76/server_2mapvoting_8qc.html#a13d33aa977bdf38b8384785376590f49":[2,0,5,41,4],
@@ -167,7 +167,7 @@ var NAVTREEINDEX15 =
 "d2/d76/server_2mapvoting_8qc.html#a6562a6899e444bf1b6105f2a78d8ab7d":[2,0,5,41,30],
 "d2/d76/server_2mapvoting_8qc.html#a67064a4fbab3c9264bb5e1bb4f5b9674":[2,0,5,41,49],
 "d2/d76/server_2mapvoting_8qc.html#a6722532cdd11c4b8abd148fa9fd6d310":[2,0,5,41,48],
-"d2/d76/server_2mapvoting_8qc.html#a7218c5228866fbc1e1df994a55d05968":[2,0,5,41,17],
+"d2/d76/server_2mapvoting_8qc.html#a741a189eca158afb5e218ae054e34424":[2,0,5,41,17],
 "d2/d76/server_2mapvoting_8qc.html#a76e4720691beeecd37b230f0157c4527":[2,0,5,41,11],
 "d2/d76/server_2mapvoting_8qc.html#a858074923c6e66b2b4c8a559306a359d":[2,0,5,41,18],
 "d2/d76/server_2mapvoting_8qc.html#a86d416582e14464ae9e7c5d64792f885":[2,0,5,41,25],
@@ -237,6 +237,7 @@ var NAVTREEINDEX15 =
 "d2/d79/scores_8qc.html#a4269aa8682826ed20f07afefd72daf79":[2,0,5,56,21],
 "d2/d79/scores_8qc.html#a44b8f99db06745b381ae739bd57ddf6e":[2,0,5,56,46],
 "d2/d79/scores_8qc.html#a49ab4c157dab975433e94a16f05d9d17":[2,0,5,56,29],
+"d2/d79/scores_8qc.html#a4b24b2ecfa2e6d4914ed47ce8d16472f":[2,0,5,56,32],
 "d2/d79/scores_8qc.html#a4e597c14f389b7db7703d04c6f987db2":[2,0,5,56,3],
 "d2/d79/scores_8qc.html#a536688c8d54d72f0f2325e8e8a57a0a6":[2,0,5,56,1],
 "d2/d79/scores_8qc.html#a5441e464e74d40fc0584e956f68c2c12":[2,0,5,56,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX15 =
 "d2/d79/scores_8qc.html#a7c2edc3a46e2c7b723761b5c1a4b1c51":[2,0,5,56,38],
 "d2/d79/scores_8qc.html#a8c6b063e75b353a29689e319b10d0aa2":[2,0,5,56,43],
 "d2/d79/scores_8qc.html#a8e807c4df57178861998ce12ab265fe7":[2,0,5,56,34],
-"d2/d79/scores_8qc.html#a8fe097dffad5360aea8e78c7fe249d32":[2,0,5,56,23],
-"d2/d79/scores_8qc.html#a92dc03c3e0dc4d9f8cd86b7c45c6e167":[2,0,5,56,8]
+"d2/d79/scores_8qc.html#a8fe097dffad5360aea8e78c7fe249d32":[2,0,5,56,23]
 };

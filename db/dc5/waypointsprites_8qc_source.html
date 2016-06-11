@@ -1013,18 +1013,18 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;{</div>
 <div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;    <span class="keywordtype">bool</span> doremove = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952">fade_time</a> &amp;&amp; time &gt;= <span class="keyword">self</span>.<a class="code" href="../../df/dae/player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a>)</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952">fade_time</a> &amp;&amp; time &gt;= this.<a class="code" href="../../df/dae/player_8qh.html#a5b22fb02e46104adf892ccf37392f741">teleport_time</a>)</div>
 <div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;    {</div>
 <div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;        doremove = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;    }</div>
 <div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;</div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../de/d5e/dpextensions_8qc.html#ac16842ea1e26ebf936c61382a2e6e0bd">exteriormodeltoclient</a>)</div>
-<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;        WaypointSprite_UpdateOrigin(<span class="keyword">self</span>, <span class="keyword">self</span>.<a class="code" href="../../de/d5e/dpextensions_8qc.html#ac16842ea1e26ebf936c61382a2e6e0bd">exteriormodeltoclient</a>.origin + <span class="keyword">self</span>.view_ofs);</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#ac16842ea1e26ebf936c61382a2e6e0bd">exteriormodeltoclient</a>)</div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;        WaypointSprite_UpdateOrigin(<span class="keyword">this</span>, this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#ac16842ea1e26ebf936c61382a2e6e0bd">exteriormodeltoclient</a>.origin + <span class="keyword">this</span>.view_ofs);</div>
 <div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;</div>
 <div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;    <span class="keywordflow">if</span> (doremove)</div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;        WaypointSprite_Kill(<span class="keyword">self</span>);</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;        WaypointSprite_Kill(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;        <span class="keyword">self</span>.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>; <span class="comment">// WHY?!?</span></div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>; <span class="comment">// WHY?!?</span></div>
 <div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;}</div>
 <div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;</div>
 <div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;<span class="keywordtype">bool</span> WaypointSprite_visible_for_player(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> view)</div>
@@ -1076,20 +1076,20 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;    <span class="comment">// make spectators see what the player would see</span></div>
 <div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = WaypointSprite_getviewentity(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>);</div>
 <div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;</div>
-<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(CustomizeWaypoint, <span class="keyword">self</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>))</div>
+<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(CustomizeWaypoint, <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>))</div>
 <div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;</div>
-<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">self</span>.waypointsprite_visible_for_player(<span class="keyword">self</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>, e);</div>
+<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;    <span class="keywordflow">return</span> this.waypointsprite_visible_for_player(<span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a264ee8f6a0019c50d2049ee7af5c9296">other</a>, e);</div>
 <div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;}</div>
 <div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;</div>
 <div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;<span class="keywordtype">bool</span> WaypointSprite_SendEntity(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> to, <span class="keywordtype">float</span> sendflags);</div>
 <div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;</div>
-<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;<span class="keywordtype">void</span> WaypointSprite_Reset()</div>
-<div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;<span class="keywordtype">void</span> WaypointSprite_Reset(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;{</div>
 <div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;    <span class="comment">// if a WP wants to time out, let it time out immediately; other WPs ought to be reset/killed by their owners</span></div>
 <div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;</div>
-<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952">fade_time</a>)</div>
-<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;        WaypointSprite_Kill(<span class="keyword">self</span>);</div>
+<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a59214cfc9d36ddbc2ca9c6a7e2ec5952">fade_time</a>)</div>
+<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;        WaypointSprite_Kill(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;}</div>
 <div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160;</div>
 <div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> WaypointSprite_Spawn(</div>
@@ -1151,101 +1151,104 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l01045"></a><span class="lineno"> 1045</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> WaypointSprite_DeployFixed(</div>
 <div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spr,</div>
 <div class="line"><a name="l01047"></a><span class="lineno"> 1047</span>&#160;    <span class="keywordtype">float</span> limited_range,</div>
-<div class="line"><a name="l01048"></a><span class="lineno"> 1048</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ofs,</div>
-<div class="line"><a name="l01049"></a><span class="lineno"> 1049</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> icon <span class="comment">// initial icon</span></div>
-<div class="line"><a name="l01050"></a><span class="lineno"> 1050</span>&#160;)</div>
-<div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l01052"></a><span class="lineno"> 1052</span>&#160;    <span class="keywordtype">float</span> t;</div>
-<div class="line"><a name="l01053"></a><span class="lineno"> 1053</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
-<div class="line"><a name="l01054"></a><span class="lineno"> 1054</span>&#160;        t = <span class="keyword">self</span>.team;</div>
-<div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;        t = 0;</div>
-<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;    <span class="keywordtype">float</span> maxdistance;</div>
-<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;    <span class="keywordflow">if</span> (limited_range)</div>
-<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;        maxdistance = waypointsprite_limitedrange;</div>
-<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;        maxdistance = 0;</div>
-<div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;    <span class="keywordflow">return</span> WaypointSprite_Spawn(spr, waypointsprite_deployed_lifetime, maxdistance, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, ofs, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, t, <span class="keyword">self</span>, waypointsprite_deployed_fixed, <span class="keyword">false</span>, icon);</div>
-<div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;}</div>
-<div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;</div>
-<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> WaypointSprite_DeployPersonal(</div>
-<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spr,</div>
-<div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ofs,</div>
-<div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> icon <span class="comment">// initial icon</span></div>
-<div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;)</div>
-<div class="line"><a name="l01070"></a><span class="lineno"> 1070</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l01071"></a><span class="lineno"> 1071</span>&#160;    <span class="keywordflow">return</span> WaypointSprite_Spawn(spr, 0, 0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, ofs, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, 0, <span class="keyword">self</span>, waypointsprite_deployed_personal, <span class="keyword">false</span>, icon);</div>
-<div class="line"><a name="l01072"></a><span class="lineno"> 1072</span>&#160;}</div>
-<div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;</div>
-<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> WaypointSprite_Attach(</div>
-<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spr,</div>
-<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;    <span class="keywordtype">float</span> limited_range,</div>
-<div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> icon <span class="comment">// initial icon</span></div>
-<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;)</div>
-<div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160;    <span class="keywordtype">float</span> t;</div>
-<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">self</span>.waypointsprite_attachedforcarrier)</div>
-<div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>; <span class="comment">// can&#39;t attach to FC</span></div>
-<div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
-<div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;        t = <span class="keyword">self</span>.team;</div>
-<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;        t = 0;</div>
-<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;    <span class="keywordtype">float</span> maxdistance;</div>
-<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;    <span class="keywordflow">if</span> (limited_range)</div>
-<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;        maxdistance = waypointsprite_limitedrange;</div>
-<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;        maxdistance = 0;</div>
-<div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;    <span class="keywordflow">return</span> WaypointSprite_Spawn(spr, waypointsprite_deployed_lifetime, maxdistance, <span class="keyword">self</span>, <span class="stringliteral">&#39;0 0 64&#39;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, t, <span class="keyword">self</span>, waypointsprite_attached, <span class="keyword">false</span>, icon);</div>
-<div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;}</div>
-<div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;</div>
-<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> WaypointSprite_AttachCarrier(</div>
-<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spr,</div>
-<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> carrier,</div>
-<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> icon <span class="comment">// initial icon and color</span></div>
-<div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;)</div>
-<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;{</div>
-<div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;    WaypointSprite_Kill(carrier.waypointsprite_attached); <span class="comment">// FC overrides attached</span></div>
-<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = WaypointSprite_Spawn(spr, 0, 0, carrier, <span class="stringliteral">&#39;0 0 64&#39;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, carrier.team, carrier, waypointsprite_attachedforcarrier, <span class="keyword">false</span>, icon);</div>
-<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;    <span class="keywordflow">if</span> (carrier.health)</div>
-<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;    {</div>
-<div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;        WaypointSprite_UpdateMaxHealth(e, <span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../da/d44/common_2util_8qc.html#a335f5527477608b6b79c2ee4120009e0">healtharmor_maxdamage</a>(<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c">start_health</a>, <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#abc0cbf2fbfbde8f4185ad29d8fb4bccc">start_armorvalue</a>, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a51109b73e59b86875d75290abf4f0428">autocvar_g_balance_armor_blockpercent</a>, DEATH_WEAPON.m_id) * 2);</div>
-<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;        WaypointSprite_UpdateHealth(e, <span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../da/d44/common_2util_8qc.html#a335f5527477608b6b79c2ee4120009e0">healtharmor_maxdamage</a>(carrier.health, carrier.armorvalue, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a51109b73e59b86875d75290abf4f0428">autocvar_g_balance_armor_blockpercent</a>, DEATH_WEAPON.m_id));</div>
-<div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;    }</div>
-<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;    <span class="keywordflow">return</span> e;</div>
-<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;}</div>
-<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;</div>
-<div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;<span class="keywordtype">void</span> WaypointSprite_DetachCarrier(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> carrier)</div>
-<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;{</div>
-<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;    WaypointSprite_Disown(carrier.waypointsprite_attachedforcarrier, waypointsprite_deadlifetime);</div>
-<div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;}</div>
-<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;</div>
-<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;<span class="keywordtype">void</span> WaypointSprite_ClearPersonal()</div>
-<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;    WaypointSprite_Kill(<span class="keyword">self</span>.waypointsprite_deployed_personal);</div>
-<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;}</div>
-<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;</div>
-<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;<span class="keywordtype">void</span> WaypointSprite_ClearOwned()</div>
-<div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;    WaypointSprite_Kill(<span class="keyword">self</span>.waypointsprite_deployed_fixed);</div>
-<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;    WaypointSprite_Kill(<span class="keyword">self</span>.waypointsprite_deployed_personal);</div>
-<div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;    WaypointSprite_Kill(<span class="keyword">self</span>.waypointsprite_attached);</div>
-<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;}</div>
-<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;</div>
-<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;<span class="keywordtype">void</span> WaypointSprite_PlayerDead(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
-<div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;{</div>
-<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;    WaypointSprite_Disown(this.waypointsprite_attached, waypointsprite_deadlifetime);</div>
-<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;    WaypointSprite_DetachCarrier(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;}</div>
-<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;</div>
-<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;<span class="keywordtype">void</span> WaypointSprite_PlayerGone()</div>
-<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
-<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;    WaypointSprite_Disown(<span class="keyword">self</span>.waypointsprite_deployed_fixed, waypointsprite_deadlifetime);</div>
-<div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;    WaypointSprite_Kill(<span class="keyword">self</span>.waypointsprite_deployed_personal);</div>
-<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;    WaypointSprite_Disown(<span class="keyword">self</span>.waypointsprite_attached, waypointsprite_deadlifetime);</div>
-<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;    WaypointSprite_DetachCarrier(<span class="keyword">self</span>);</div>
-<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;}</div>
-<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01048"></a><span class="lineno"> 1048</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player,</div>
+<div class="line"><a name="l01049"></a><span class="lineno"> 1049</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ofs,</div>
+<div class="line"><a name="l01050"></a><span class="lineno"> 1050</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> icon <span class="comment">// initial icon</span></div>
+<div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;)</div>
+<div class="line"><a name="l01052"></a><span class="lineno"> 1052</span>&#160;{</div>
+<div class="line"><a name="l01053"></a><span class="lineno"> 1053</span>&#160;    <span class="keywordtype">float</span> t;</div>
+<div class="line"><a name="l01054"></a><span class="lineno"> 1054</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
+<div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;        t = player.team;</div>
+<div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;        t = 0;</div>
+<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;    <span class="keywordtype">float</span> maxdistance;</div>
+<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;    <span class="keywordflow">if</span> (limited_range)</div>
+<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;        maxdistance = waypointsprite_limitedrange;</div>
+<div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;        maxdistance = 0;</div>
+<div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;    <span class="keywordflow">return</span> WaypointSprite_Spawn(spr, waypointsprite_deployed_lifetime, maxdistance, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, ofs, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, t, player, waypointsprite_deployed_fixed, <span class="keyword">false</span>, icon);</div>
+<div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;}</div>
+<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160;</div>
+<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> WaypointSprite_DeployPersonal(</div>
+<div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spr,</div>
+<div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player,</div>
+<div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ofs,</div>
+<div class="line"><a name="l01070"></a><span class="lineno"> 1070</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> icon <span class="comment">// initial icon</span></div>
+<div class="line"><a name="l01071"></a><span class="lineno"> 1071</span>&#160;)</div>
+<div class="line"><a name="l01072"></a><span class="lineno"> 1072</span>&#160;{</div>
+<div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;    <span class="keywordflow">return</span> WaypointSprite_Spawn(spr, 0, 0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, ofs, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, 0, player, waypointsprite_deployed_personal, <span class="keyword">false</span>, icon);</div>
+<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;}</div>
+<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;</div>
+<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> WaypointSprite_Attach(</div>
+<div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spr,</div>
+<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player,</div>
+<div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;    <span class="keywordtype">float</span> limited_range,</div>
+<div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> icon <span class="comment">// initial icon</span></div>
+<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;)</div>
+<div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160;{</div>
+<div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;    <span class="keywordtype">float</span> t;</div>
+<div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;    <span class="keywordflow">if</span> (player.waypointsprite_attachedforcarrier)</div>
+<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>; <span class="comment">// can&#39;t attach to FC</span></div>
+<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
+<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;        t = player.team;</div>
+<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;        t = 0;</div>
+<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;    <span class="keywordtype">float</span> maxdistance;</div>
+<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;    <span class="keywordflow">if</span> (limited_range)</div>
+<div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;        maxdistance = waypointsprite_limitedrange;</div>
+<div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;        maxdistance = 0;</div>
+<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;    <span class="keywordflow">return</span> WaypointSprite_Spawn(spr, waypointsprite_deployed_lifetime, maxdistance, player, <span class="stringliteral">&#39;0 0 64&#39;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, t, player, waypointsprite_attached, <span class="keyword">false</span>, icon);</div>
+<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;}</div>
+<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;</div>
+<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> WaypointSprite_AttachCarrier(</div>
+<div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spr,</div>
+<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> carrier,</div>
+<div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> icon <span class="comment">// initial icon and color</span></div>
+<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;)</div>
+<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;{</div>
+<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;    WaypointSprite_Kill(carrier.waypointsprite_attached); <span class="comment">// FC overrides attached</span></div>
+<div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = WaypointSprite_Spawn(spr, 0, 0, carrier, <span class="stringliteral">&#39;0 0 64&#39;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, carrier.team, carrier, waypointsprite_attachedforcarrier, <span class="keyword">false</span>, icon);</div>
+<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;    <span class="keywordflow">if</span> (carrier.health)</div>
+<div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;    {</div>
+<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;        WaypointSprite_UpdateMaxHealth(e, <span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../da/d44/common_2util_8qc.html#a335f5527477608b6b79c2ee4120009e0">healtharmor_maxdamage</a>(<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c">start_health</a>, <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#abc0cbf2fbfbde8f4185ad29d8fb4bccc">start_armorvalue</a>, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a51109b73e59b86875d75290abf4f0428">autocvar_g_balance_armor_blockpercent</a>, DEATH_WEAPON.m_id) * 2);</div>
+<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;        WaypointSprite_UpdateHealth(e, <span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../da/d44/common_2util_8qc.html#a335f5527477608b6b79c2ee4120009e0">healtharmor_maxdamage</a>(carrier.health, carrier.armorvalue, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a51109b73e59b86875d75290abf4f0428">autocvar_g_balance_armor_blockpercent</a>, DEATH_WEAPON.m_id));</div>
+<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;    }</div>
+<div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;    <span class="keywordflow">return</span> e;</div>
+<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;}</div>
+<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;</div>
+<div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;<span class="keywordtype">void</span> WaypointSprite_DetachCarrier(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> carrier)</div>
+<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;{</div>
+<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;    WaypointSprite_Disown(carrier.waypointsprite_attachedforcarrier, waypointsprite_deadlifetime);</div>
+<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;}</div>
+<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;</div>
+<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;<span class="keywordtype">void</span> WaypointSprite_ClearPersonal(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;{</div>
+<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;    WaypointSprite_Kill(this.waypointsprite_deployed_personal);</div>
+<div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;}</div>
+<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;</div>
+<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;<span class="keywordtype">void</span> WaypointSprite_ClearOwned(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;{</div>
+<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;    WaypointSprite_Kill(this.waypointsprite_deployed_fixed);</div>
+<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;    WaypointSprite_Kill(this.waypointsprite_deployed_personal);</div>
+<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;    WaypointSprite_Kill(this.waypointsprite_attached);</div>
+<div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;}</div>
+<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;</div>
+<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;<span class="keywordtype">void</span> WaypointSprite_PlayerDead(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;{</div>
+<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;    WaypointSprite_Disown(this.waypointsprite_attached, waypointsprite_deadlifetime);</div>
+<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;    WaypointSprite_DetachCarrier(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;}</div>
+<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;</div>
+<div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;<span class="keywordtype">void</span> WaypointSprite_PlayerGone(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;{</div>
+<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;    WaypointSprite_Disown(this.waypointsprite_deployed_fixed, waypointsprite_deadlifetime);</div>
+<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;    WaypointSprite_Kill(this.waypointsprite_deployed_personal);</div>
+<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;    WaypointSprite_Disown(this.waypointsprite_attached, waypointsprite_deadlifetime);</div>
+<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;    WaypointSprite_DetachCarrier(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;}</div>
+<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="client_2defs_8qh_html_ad146ad99fe532857ccae8af64c671420"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ad146ad99fe532857ccae8af64c671420">race_checkpointtime</a></div><div class="ttdeci">float race_checkpointtime</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00037">defs.qh:37</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="teamradar_8qh_html_a1d39c142e0d9f64f317c11702a020571"><div class="ttname"><a href="../../d0/d84/teamradar_8qh.html#a1d39c142e0d9f64f317c11702a020571">MAX_TEAMRADAR_TIMES</a></div><div class="ttdeci">const int MAX_TEAMRADAR_TIMES</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d84/teamradar_8qh_source.html#l00003">teamradar.qh:3</a></div></div>
@@ -1261,7 +1264,6 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="ttc" id="client_2defs_8qh_html_a82645f320a8fba7eaad8f57fa5cd66cd"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#a82645f320a8fba7eaad8f57fa5cd66cd">tempdb</a></div><div class="ttdeci">int tempdb</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00079">defs.qh:79</a></div></div>
 <div class="ttc" id="interpolate_8qh_html_af7b5d3033d38549c00ab5e033e858911"><div class="ttname"><a href="../../d8/da6/interpolate_8qh.html#af7b5d3033d38549c00ab5e033e858911">iflags</a></div><div class="ttdeci">int iflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/da6/interpolate_8qh_source.html#l00025">interpolate.qh:25</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00023">self.qh:23</a></div></div>
 <div class="ttc" id="vector_8qh_html_a13163379d56e777f08a20fca27f20c2a"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a></div><div class="ttdeci">const vector eY</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00038">vector.qh:38</a></div></div>
 <div class="ttc" id="interpolate_8qc_html_a899389673f84dccfe9c1c8bc5fc1db25"><div class="ttname"><a href="../../d7/d06/interpolate_8qc.html#a899389673f84dccfe9c1c8bc5fc1db25">InterpolateOrigin_Undo</a></div><div class="ttdeci">void InterpolateOrigin_Undo(entity this)</div><div class="ttdoc">snap origin to iorigin2 (actual origin) </div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d06/interpolate_8qc_source.html#l00157">interpolate.qc:157</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
@@ -1330,7 +1332,8 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="ttc" id="powerups_8qc_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00009">powerups.qc:9</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_acf8ea712d5467331fb750b33ab165013"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a></div><div class="ttdeci">float teamplay</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00031">progsdefs.qc:31</a></div></div>
-<div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00019">events.qh:19</a></div></div>
+<div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00018">events.qh:18</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a9d4fb8ccfb13fa0bd762af0b2b50dcf6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a></div><div class="ttdeci">float nextthink</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00121">csprogsdefs.qc:121</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
 <div class="ttc" id="common_2util_8qh_html_ae5419c646d89ed2845be766723b0cb6f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ae5419c646d89ed2845be766723b0cb6f">db_put</a></div><div class="ttdeci">void db_put(int db, string key, string value)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00093">map.qh:93</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9bdd141f634714eab30642bf42f63862"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a></div><div class="ttdeci">entity enemy</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00127">csprogsdefs.qc:127</a></div></div>
@@ -1373,7 +1376,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_4573854e5f122b3a76229eff451e1727.html">waypoints</a></li><li class="navelem"><a class="el" href="../../db/dc5/waypointsprites_8qc.html">waypointsprites.qc</a></li>
-    <li class="footer">Generated on Fri Jun 10 2016 04:14:29 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 13:55:59 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

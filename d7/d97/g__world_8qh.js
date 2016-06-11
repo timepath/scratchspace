@@ -1,12 +1,12 @@
 var g__world_8qh =
 [
-    [ "CheckRules_Player", "d7/d97/g__world_8qh.html#a05f62f47723bebb94defc8b8d730b25f", null ],
+    [ "CheckRules_Player", "d7/d97/g__world_8qh.html#a200258da0bc9688a881cc00bc82dd9eb", null ],
     [ "CheckRules_World", "d7/d97/g__world_8qh.html#a233af455133bc7ba4e3e100115bf2885", null ],
     [ "DoNextMapOverride", "d7/d97/g__world_8qh.html#a9e369a2585eeee66299a21fc034e9cc1", null ],
     [ "DumpStats", "d7/d97/g__world_8qh.html#a1207e599d7420b0af40007a89426efec", null ],
     [ "GetNextMap", "d7/d97/g__world_8qh.html#a558290ac2f061ad16a1fb895ab32f6d6", null ],
     [ "GotoNextMap", "d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64", null ],
-    [ "IntermissionThink", "d7/d97/g__world_8qh.html#aa6b50a885a57559948d95c846fa9a6b3", null ],
+    [ "IntermissionThink", "d7/d97/g__world_8qh.html#a178d61b734362fd8c466adb1234e0f53", null ],
     [ "Map_Goto", "d7/d97/g__world_8qh.html#a95bbd6b9aa214a845cb50bbbb44cb939", null ],
     [ "Map_Goto_SetStr", "d7/d97/g__world_8qh.html#a299f6568839ff6aaf17c0a2a71cae48f", null ],
     [ "Map_IsRecent", "d7/d97/g__world_8qh.html#a2d7b36b62919e17ff99c13cad66436bf", null ],

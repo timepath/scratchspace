@@ -26,7 +26,7 @@ var view_8qc =
     [ "GetViewLocationFOV", "d6/dd3/view_8qc.html#a9ee8fa588f94515b9f0357bdbf2d300b", null ],
     [ "HitSound", "d6/dd3/view_8qc.html#a34d0140337320f3989dc15dc846c035d", null ],
     [ "HUD_Crosshair", "d6/dd3/view_8qc.html#a802dfb52366f7223086a1a95a4f08eeb", null ],
-    [ "HUD_Crosshair_Vehicle", "d6/dd3/view_8qc.html#a487026c70d8882902db2b9d6bc4bbf76", null ],
+    [ "HUD_Crosshair_Vehicle", "d6/dd3/view_8qc.html#a44674039da1ad171f3a48979bbbd35f4", null ],
     [ "HUD_Draw", "d6/dd3/view_8qc.html#a018a6576512f5f15b72f6a1a732d2af0", null ],
     [ "HUD_WouldDrawScoreboard", "d6/dd3/view_8qc.html#acba8a7468e53f4ea09069c1ff1c98ccb", null ],
     [ "leanmodel_ofs", "d6/dd3/view_8qc.html#ac864cc822088f051704ed70a2f89224a", null ],

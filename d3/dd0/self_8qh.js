@@ -7,6 +7,7 @@ var self_8qh =
     [ "gettouch", "d3/dd0/self_8qh.html#a3d349fc3f585de2f6459e525150b0010", null ],
     [ "self", "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d", null ],
     [ "self", "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d", null ],
+    [ "self", "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d", null ],
     [ "SELFPARAM", "d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c", null ],
     [ "SELFPARAM", "d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c", null ],
     [ "SELFWRAP", "d3/dd0/self_8qh.html#a2a6ca3d042f75a4aa7a9e6d35dd1a3dd", null ],

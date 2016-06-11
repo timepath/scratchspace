@@ -14,7 +14,6 @@ var searchData=
   ['old_5fp_5fhealthtime',['old_p_healthtime',['../d3/d05/hud_8qh.html#af8c4e83a27676e204d57b994ec223eef',1,'hud.qh']]],
   ['old_5fsharpen_5fintensity',['old_sharpen_intensity',['../d6/dd3/view_8qc.html#af38d63db44943b3ee3753d908168df89',1,'view.qc']]],
   ['oldbuffs',['oldbuffs',['../d4/d0f/buffs_8qc.html#aa2020d7221cd6658db0d83786f8a9e7d',1,'buffs.qc']]],
-  ['olditems',['olditems',['../d6/ddd/server_2mutators_2events_8qh.html#a65d536980a1f240dd26f43ef3d0f22c1',1,'events.qh']]],
   ['oldmovement',['oldmovement',['../dc/ddd/player_8qc.html#a69a11ccb74f088dd8f22b6745b33b944',1,'player.qc']]],
   ['oldorigin',['oldorigin',['../d4/d0c/csprogsdefs_8qc.html#ace9e73d5b3013fd2c328d6cc5d1e34d2',1,'oldorigin():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#ace9e73d5b3013fd2c328d6cc5d1e34d2',1,'oldorigin():&#160;progsdefs.qc']]],
   ['oldr_5ffarclip_5fbase',['oldr_farclip_base',['../d6/dd3/view_8qc.html#a7fc50f19c2eda2d975291f49ea3b9d4d',1,'view.qc']]],

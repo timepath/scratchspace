@@ -128,7 +128,7 @@ $(document).ready(function(){initNavTree('db/d91/t__quake_8qc_source.html','../.
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a7c9608634654f194a20b459405686a23">   21</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_spikes) {spawnfunc_item_bullets(<span class="keyword">this</span>);}</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="comment">//spawnfunc(item_armor1) {spawnfunc_item_armor_medium(this);}  // FIXME: in Quake this is green armor, in Xonotic maps it is an armor shard</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a7836790b7faa803f48bb975a4bab2f63">   23</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_armor2) {spawnfunc_item_armor_large(<span class="keyword">this</span>);}</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#ac34a30ad13d14200916e28269a7f3dd9">   24</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d91/t__quake_8qc.html#ac34a30ad13d14200916e28269a7f3dd9">item_armorInv</a>() {<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();spawnfunc_item_armor_large(<span class="keyword">this</span>);} <span class="comment">// FIXME: we require spawnfunc_ prefix for functions to be map entities</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#aa5870bcc0a982fb5b8663f7fd1a7f2d4">   24</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_armorInv) {spawnfunc_item_armor_large(<span class="keyword">this</span>);} <span class="comment">// TODO: make sure we actually want this</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="../../db/d91/t__quake_8qc.html#a7d5ca5d096f63faeaaa5b974fd608b36">   25</a></span>&#160;<a class="code" href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a>(item_health) {<span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 2) spawnfunc_item_health_mega(<span class="keyword">this</span>);<span class="keywordflow">else</span> spawnfunc_item_health_medium(<span class="keyword">this</span>);}</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="comment">//spawnfunc_item_spikes</span></div>
@@ -136,18 +136,16 @@ $(document).ready(function(){initNavTree('db/d91/t__quake_8qc_source.html','../.
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;</div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00023">self.qh:23</a></div></div>
 <div class="ttc" id="t__quake_8qh_html"><div class="ttname"><a href="../../df/d05/t__quake_8qh.html">t_quake.qh</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_ad290212f87c2157a878ffc0947b60251"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a></div><div class="ttdeci">float spawnflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00191">progsdefs.qc:191</a></div></div>
 <div class="ttc" id="t__quake_8qc_html_a412a74ac84bc203944d5e566d8f49737"><div class="ttname"><a href="../../db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737">spawnfunc</a></div><div class="ttdeci">spawnfunc(weapon_electro)</div></div>
-<div class="ttc" id="t__quake_8qc_html_ac34a30ad13d14200916e28269a7f3dd9"><div class="ttname"><a href="../../db/d91/t__quake_8qc.html#ac34a30ad13d14200916e28269a7f3dd9">item_armorInv</a></div><div class="ttdeci">void item_armorInv()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d91/t__quake_8qc_source.html#l00024">t_quake.qc:24</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/d91/t__quake_8qc.html">t_quake.qc</a></li>
-    <li class="footer">Generated on Fri Jun 10 2016 04:14:32 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 13:56:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

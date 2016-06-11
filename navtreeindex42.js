@@ -1,11 +1,5 @@
 var NAVTREEINDEX42 =
 {
-"d5/d26/server_2defs_8qh.html#ac4d89b762985ac8971a24f67e82b7b4e":[2,0,5,24,97],
-"d5/d26/server_2defs_8qh.html#ac604df0261061f3fb75d6ca46fa5bc53":[2,0,5,24,269],
-"d5/d26/server_2defs_8qh.html#ac6417073598ae2a533bf142589e66833":[2,0,5,24,260],
-"d5/d26/server_2defs_8qh.html#ac6b9339527d76074ab576ec555ec5987":[2,0,5,24,133],
-"d5/d26/server_2defs_8qh.html#ac6de0e82388dab2d51aafcd02f005121":[2,0,5,24,188],
-"d5/d26/server_2defs_8qh.html#ac7b155ae9b6d6ccef4940bf9ef0b5dc9":[2,0,5,24,30],
 "d5/d26/server_2defs_8qh.html#ac80a46b6d7ef8c1ef5a2bfdb5258059d":[2,0,5,24,75],
 "d5/d26/server_2defs_8qh.html#ac9a5c917d5f6eb50b1aa1b333de61a88":[2,0,5,24,151],
 "d5/d26/server_2defs_8qh.html#ac9ff22e9a1a43cbbfd44ebc6d0e87b07":[2,0,5,24,173],
@@ -48,6 +42,7 @@ var NAVTREEINDEX42 =
 "d5/d26/server_2defs_8qh.html#aea33df8e623d8dfe27f407c675159fa2":[2,0,5,24,199],
 "d5/d26/server_2defs_8qh.html#aef16dc092f69453b716c91d06060d635":[2,0,5,24,18],
 "d5/d26/server_2defs_8qh.html#aef6ca1a08affcc61b9244da90f564da1":[2,0,5,24,172],
+"d5/d26/server_2defs_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1":[2,0,5,24,19],
 "d5/d26/server_2defs_8qh.html#af06d714597d37607f8df872819639d04":[2,0,5,24,71],
 "d5/d26/server_2defs_8qh.html#af0d4e2ff0c7ad3a7de2a055ef6bc787d":[2,0,5,24,162],
 "d5/d26/server_2defs_8qh.html#af13e104103fd80a7bd54e524fe8fc5e6":[2,0,5,24,59],
@@ -249,5 +244,10 @@ var NAVTREEINDEX42 =
 "d5/d64/classHealth.html#af547c59d1be5db346c59b7f816a841d3":[1,0,37,9],
 "d5/d64/classHealth.html#af91588fdbca7968c03db09f05134cba6":[1,0,37,7],
 "d5/d65/classPowerup.html":[1,0,85],
-"d5/d65/classPowerup.html#a204e6d23b3f571c6ad1745b32fc64f7e":[1,0,85,5]
+"d5/d65/classPowerup.html#a204e6d23b3f571c6ad1745b32fc64f7e":[1,0,85,5],
+"d5/d65/classPowerup.html#a28d08649191891c537923e1441fa5ed0":[1,0,85,8],
+"d5/d65/classPowerup.html#a48b78d497828537731feaa167c8af4f1":[1,0,85,11],
+"d5/d65/classPowerup.html#a6815e793548a5b534973a237a97dc189":[1,0,85,6],
+"d5/d65/classPowerup.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,85,0],
+"d5/d65/classPowerup.html#a7357a3badf480bbfe18c110d15cbd2f8":[1,0,85,1]
 };

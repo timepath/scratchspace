@@ -556,8 +556,8 @@ $(document).ready(function(){initNavTree('de/d9b/steerlib_8qc_source.html','../.
 <div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;}</div>
 <div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;</div>
 <div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;</div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;<span class="keywordtype">void</span> flocker_think()</div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;<span class="keywordtype">void</span> flocker_think(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;{</div>
 <div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> dodgemove,swarmmove;</div>
 <div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> reprellmove,wandermove,newmove;</div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;</div>
@@ -619,8 +619,8 @@ $(document).ready(function(){initNavTree('de/d9b/steerlib_8qc_source.html','../.
 <div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;}</div>
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;</div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;<span class="keywordtype">void</span> flockerspawn_think()</div>
-<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;<span class="keywordtype">void</span> flockerspawn_think(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;{</div>
 <div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a> &gt; 0)</div>
 <div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;        spawn_flocker(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;</div>
@@ -628,8 +628,8 @@ $(document).ready(function(){initNavTree('de/d9b/steerlib_8qc_source.html','../.
 <div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;</div>
 <div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;}</div>
 <div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;</div>
-<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;<span class="keywordtype">void</span> flocker_hunter_think()</div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;{<a class="code" href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a>();</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;<span class="keywordtype">void</span> flocker_hunter_think(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;{</div>
 <div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> dodgemove,attractmove,newmove;</div>
 <div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e,ee;</div>
 <div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;    <span class="keywordtype">float</span> d,bd;</div>
@@ -715,7 +715,6 @@ $(document).ready(function(){initNavTree('de/d9b/steerlib_8qc_source.html','../.
 <div class="ttc" id="client_2main_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00144">main.qh:144</a></div></div>
 <div class="ttc" id="steerlib_8qc_html_ad53432e8bb5cca74d3b4d782bba722ff"><div class="ttname"><a href="../../de/d9b/steerlib_8qc.html#ad53432e8bb5cca74d3b4d782bba722ff">steerlib_wander</a></div><div class="ttdeci">vector steerlib_wander(entity this, float range, float tresh, vector oldpoint)</div><div class="ttdoc">A random heading in a forward halfcicrle. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9b/steerlib_8qc_source.html#l00141">steerlib.qc:141</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
-<div class="ttc" id="self_8qh_html_a809e5b0d69b8d3056599a3fb6f878d2c"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c">SELFPARAM</a></div><div class="ttdeci">#define SELFPARAM()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00023">self.qh:23</a></div></div>
 <div class="ttc" id="steerlib_8qc_html_a0d43b60b0c297167b1277c8237474c07"><div class="ttname"><a href="../../de/d9b/steerlib_8qc.html#a0d43b60b0c297167b1277c8237474c07">flock_id</a></div><div class="ttdeci">float flock_id</div><div class="ttdoc">flocking by .flock_id Group will move towards the unified direction while keeping close to eachother...</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9b/steerlib_8qc_source.html#l00175">steerlib.qc:175</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aa156cc8dd51c39572de799ab8a0dd8d0"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a></div><div class="ttdeci">vector randomvec(void)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aa3a866cdc0e6b0951832c310d0b9244c"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aa3a866cdc0e6b0951832c310d0b9244c">trace_dphitq3surfaceflags</a></div><div class="ttdeci">float trace_dphitq3surfaceflags</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01121">csprogsdefs.qc:1121</a></div></div>
@@ -762,7 +761,7 @@ $(document).ready(function(){initNavTree('de/d9b/steerlib_8qc_source.html','../.
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="steerlib_8qc_html_aa0d777f59881416d77f3ae198fd62ead"><div class="ttname"><a href="../../de/d9b/steerlib_8qc.html#aa0d777f59881416d77f3ae198fd62ead">steerlib_standoff</a></div><div class="ttdeci">vector steerlib_standoff(entity this, vector point, float ideal_distance)</div><div class="ttdoc">Try to keep at ideal_distance away from point. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9b/steerlib_8qc_source.html#l00114">steerlib.qc:114</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aa1f190a348c0675e2f35688de429bef6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a></div><div class="ttdeci">vector angles</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00104">csprogsdefs.qc:104</a></div></div>
-<div class="ttc" id="defer_8qh_html_a82f1a723df145b0f0f7a8511a2a78a41"><div class="ttname"><a href="../../d5/d95/defer_8qh.html#a82f1a723df145b0f0f7a8511a2a78a41">SUB_Remove</a></div><div class="ttdeci">void SUB_Remove(entity this)</div><div class="ttdoc">Remove self. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d95/defer_8qh_source.html#l00013">defer.qh:13</a></div></div>
+<div class="ttc" id="defer_8qh_html_a82f1a723df145b0f0f7a8511a2a78a41"><div class="ttname"><a href="../../d5/d95/defer_8qh.html#a82f1a723df145b0f0f7a8511a2a78a41">SUB_Remove</a></div><div class="ttdeci">void SUB_Remove(entity this)</div><div class="ttdoc">Remove entity. </div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d95/defer_8qh_source.html#l00013">defer.qh:13</a></div></div>
 <div class="ttc" id="steerlib_8qc_html_a202933833eafdba803e5bb95b59049eb"><div class="ttname"><a href="../../de/d9b/steerlib_8qc.html#a202933833eafdba803e5bb95b59049eb">steerlib_traceavoid_flat</a></div><div class="ttdeci">vector steerlib_traceavoid_flat(entity this, float pitch, float length, vector vofs)</div><div class="ttdoc">Steer towards the direction least obstructed. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d9b/steerlib_8qc_source.html#l00310">steerlib.qc:310</a></div></div>
 <div class="ttc" id="pp_8qc_html_a9cfbb269728dc4185236d28be58d9eab"><div class="ttname"><a href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a></div><div class="ttdeci">int cnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d93/pp_8qc_source.html#l00020">pp.qc:20</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a92cfd5b0d710d150ec4bb7e43f3f408b"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a92cfd5b0d710d150ec4bb7e43f3f408b">CONTENT_SLIME</a></div><div class="ttdeci">const int CONTENT_SLIME</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00048">csqc_constants.qh:48</a></div></div>
@@ -787,7 +786,7 @@ $(document).ready(function(){initNavTree('de/d9b/steerlib_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../de/d9b/steerlib_8qc.html">steerlib.qc</a></li>
-    <li class="footer">Generated on Fri Jun 10 2016 04:14:32 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 13:56:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

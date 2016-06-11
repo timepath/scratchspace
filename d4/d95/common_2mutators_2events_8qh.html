@@ -103,8 +103,7 @@ $(document).ready(function(){initNavTree('d4/d95/common_2mutators_2events_8qh.ht
 <div class="header">
   <div class="summary">
 <a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">events.qh File Reference</div>  </div>
 </div><!--header-->
@@ -131,7 +130,7 @@ Macros</h2></td></tr>
 <tr class="memdesc:ac426e97a0684bb694284b6ed1beef922"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends ", Mutator name" to ret_string for display  <a href="#ac426e97a0684bb694284b6ed1beef922">More...</a><br/></td></tr>
 <tr class="separator:ac426e97a0684bb694284b6ed1beef922"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c7ed0aa721d79ef23811db2156602f0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a1c7ed0aa721d79ef23811db2156602f0">EV_BuildMutatorsString</a>(i, o)</td></tr>
-<tr class="memdesc:a1c7ed0aa721d79ef23811db2156602f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends ":mutatorname" to ret_string for logging  <a href="#a1c7ed0aa721d79ef23811db2156602f0">More...</a><br/></td></tr>
+<tr class="memdesc:a1c7ed0aa721d79ef23811db2156602f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">appends ":mutatorname" to argument for logging  <a href="#a1c7ed0aa721d79ef23811db2156602f0">More...</a><br/></td></tr>
 <tr class="separator:a1c7ed0aa721d79ef23811db2156602f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36a035a64a899169dd5dabab57c8ff02"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a36a035a64a899169dd5dabab57c8ff02">EV_IsFlying</a>(i, o)&#160;&#160;&#160;i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="separator:a36a035a64a899169dd5dabab57c8ff02"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,7 +139,7 @@ Macros</h2></td></tr>
 <tr class="memitem:aed928b5d4717ad38c6dfbd6c6d988d83"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#aed928b5d4717ad38c6dfbd6c6d988d83">EV_PlayerJump</a>(i, o)</td></tr>
 <tr class="memdesc:aed928b5d4717ad38c6dfbd6c6d988d83"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a player presses the jump key  <a href="#aed928b5d4717ad38c6dfbd6c6d988d83">More...</a><br/></td></tr>
 <tr class="separator:aed928b5d4717ad38c6dfbd6c6d988d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6946f25e5a0f0f19747e7073e762b56f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a6946f25e5a0f0f19747e7073e762b56f">EV_PlayerPhysics</a>(i, o)&#160;&#160;&#160;i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td></tr>
+<tr class="memitem:a6946f25e5a0f0f19747e7073e762b56f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a6946f25e5a0f0f19747e7073e762b56f">EV_PlayerPhysics</a>(i, o)&#160;&#160;&#160;/** player */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:a6946f25e5a0f0f19747e7073e762b56f"><td class="mdescLeft">&#160;</td><td class="mdescRight">called before any player physics, may adjust variables for movement, is run AFTER bot code and idle checking on the server  <a href="#a6946f25e5a0f0f19747e7073e762b56f">More...</a><br/></td></tr>
 <tr class="separator:a6946f25e5a0f0f19747e7073e762b56f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a26df0038cd70de3a0c017c63d859ed35"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a26df0038cd70de3a0c017c63d859ed35">EV_PM_Physics</a>(i, o)</td></tr>
@@ -178,21 +177,6 @@ Functions</h2></td></tr>
 <tr class="separator:aa022e322821d9c960bcdee463363291f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5e051773a4f4852360170506cb27e9c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a5e051773a4f4852360170506cb27e9c1">MUTATOR_HOOKABLE</a> (WeaponModel, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#aa8ca520eddfe4545c119375a983f2cad">EV_WeaponModel</a>)</td></tr>
 <tr class="separator:a5e051773a4f4852360170506cb27e9c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a230f9c07ade5cf025a3c1b171f89e86c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a230f9c07ade5cf025a3c1b171f89e86c">player_jumpheight</a></td></tr>
-<tr class="separator:a230f9c07ade5cf025a3c1b171f89e86c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8c92b746a0f8b738a91d85b132420b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#ae8c92b746a0f8b738a91d85b132420b6">player_multijump</a></td></tr>
-<tr class="separator:ae8c92b746a0f8b738a91d85b132420b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfa5118a30ae224cd89d60b48074c902"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#adfa5118a30ae224cd89d60b48074c902">pm_maxspeed_mod</a></td></tr>
-<tr class="separator:adfa5118a30ae224cd89d60b48074c902"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91b14ebc696209ca8fe1fbaedc9f09de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a></td></tr>
-<tr class="separator:a91b14ebc696209ca8fe1fbaedc9f09de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7d95987765fff146be26e9345264b89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#ad7d95987765fff146be26e9345264b89">weapon_model</a></td></tr>
-<tr class="separator:ad7d95987765fff146be26e9345264b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b710a9933974511b97831e4ead11557"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0b710a9933974511b97831e4ead11557">weapon_model_output</a></td></tr>
-<tr class="separator:a0b710a9933974511b97831e4ead11557"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="aa7420d300ce2890b9d869d9b460cac8a"></a>
@@ -232,13 +216,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">i(<span class="keywordtype">string</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a>) \</div>
-<div class="line">     o(<span class="keywordtype">string</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a>) \</div>
-<div class="ttc" id="common_2mutators_2events_8qh_html_a91b14ebc696209ca8fe1fbaedc9f09de"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a></div><div class="ttdeci">string ret_string</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00007">events.qh:7</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">    i(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \</div>
+<div class="line">                      o(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \</div>
 </div><!-- fragment -->
 <p>appends mutator string for displaying extra gameplay tips </p>
 
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00052">52</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00053">53</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -265,13 +248,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">i(<span class="keywordtype">string</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a>) \</div>
-<div class="line">     o(<span class="keywordtype">string</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a>) \</div>
-<div class="ttc" id="common_2mutators_2events_8qh_html_a91b14ebc696209ca8fe1fbaedc9f09de"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a></div><div class="ttdeci">string ret_string</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00007">events.qh:7</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"> i(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \</div>
+<div class="line">                      o(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \</div>
 </div><!-- fragment -->
 <p>appends ", Mutator name" to ret_string for display </p>
 
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00045">45</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00046">46</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -298,13 +280,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">i(<span class="keywordtype">string</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a>) \</div>
-<div class="line">     o(<span class="keywordtype">string</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a>) \</div>
-<div class="ttc" id="common_2mutators_2events_8qh_html_a91b14ebc696209ca8fe1fbaedc9f09de"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a91b14ebc696209ca8fe1fbaedc9f09de">ret_string</a></div><div class="ttdeci">string ret_string</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00007">events.qh:7</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line"> i(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \</div>
+<div class="line">                      o(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \</div>
 </div><!-- fragment -->
-<p>appends ":mutatorname" to ret_string for logging </p>
+<p>appends ":mutatorname" to argument for logging </p>
 
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00038">38</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00039">39</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -332,7 +313,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00058">58</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00059">59</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -387,19 +368,14 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, <a class="code" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</div>
-<div class="line">     i(<span class="keywordtype">float</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#ae8c92b746a0f8b738a91d85b132420b6">player_multijump</a>) \</div>
-<div class="line">     i(<span class="keywordtype">float</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a230f9c07ade5cf025a3c1b171f89e86c">player_jumpheight</a>) \</div>
-<div class="line">     o(<span class="keywordtype">float</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#ae8c92b746a0f8b738a91d85b132420b6">player_multijump</a>) \</div>
-<div class="line">     o(<span class="keywordtype">float</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a230f9c07ade5cf025a3c1b171f89e86c">player_jumpheight</a>) \</div>
+<b>Value:</b><div class="fragment"><div class="line">      i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \ i(<span class="keywordtype">float</span>, MUTATOR_ARGV_1_float) \</div>
+<div class="line">                   o(<span class="keywordtype">float</span>, MUTATOR_ARGV_1_float) \   i(<span class="keywordtype">bool</span>, MUTATOR_ARGV_2_bool) \</div>
+<div class="line">                   o(<span class="keywordtype">bool</span>, MUTATOR_ARGV_2_bool) \</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="self_8qh_html_afbc5d1d66fe421c0d2eef50e8f8bf902"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a></div><div class="ttdeci">entity __self</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00013">self.qh:13</a></div></div>
-<div class="ttc" id="common_2mutators_2events_8qh_html_a230f9c07ade5cf025a3c1b171f89e86c"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a230f9c07ade5cf025a3c1b171f89e86c">player_jumpheight</a></div><div class="ttdeci">float player_jumpheight</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00089">events.qh:89</a></div></div>
-<div class="ttc" id="common_2mutators_2events_8qh_html_ae8c92b746a0f8b738a91d85b132420b6"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#ae8c92b746a0f8b738a91d85b132420b6">player_multijump</a></div><div class="ttdeci">float player_multijump</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00088">events.qh:88</a></div></div>
 </div><!-- fragment -->
 <p>called when a player presses the jump key </p>
 
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00081">81</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00082">82</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -422,14 +398,14 @@ Variables</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, <a class="el" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</td>
+          <td></td><td>&#160;&#160;&#160;/** player */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>called before any player physics, may adjust variables for movement, is run AFTER bot code and idle checking on the server </p>
 
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00075">75</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00076">76</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -456,15 +432,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, <a class="code" href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a>) \</div>
-<div class="line">     i(<span class="keywordtype">float</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#adfa5118a30ae224cd89d60b48074c902">pm_maxspeed_mod</a>) \</div>
-<div class="ttc" id="common_2mutators_2events_8qh_html_adfa5118a30ae224cd89d60b48074c902"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#adfa5118a30ae224cd89d60b48074c902">pm_maxspeed_mod</a></div><div class="ttdeci">float pm_maxspeed_mod</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00097">events.qh:97</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">       i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \ i(<span class="keywordtype">float</span>, MUTATOR_ARGV_1_float) \</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="self_8qh_html_afbc5d1d66fe421c0d2eef50e8f8bf902"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902">__self</a></div><div class="ttdeci">entity __self</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00013">self.qh:13</a></div></div>
 </div><!-- fragment -->
 <p>called during player physics, allows adjusting the movement type used </p>
 
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00093">93</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00092">92</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -491,15 +464,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">i(<span class="keywordtype">string</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#ad7d95987765fff146be26e9345264b89">weapon_model</a>) \</div>
-<div class="line">     i(<span class="keywordtype">string</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0b710a9933974511b97831e4ead11557">weapon_model_output</a>) \</div>
-<div class="line">     o(<span class="keywordtype">string</span>, <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0b710a9933974511b97831e4ead11557">weapon_model_output</a>) \</div>
-<div class="ttc" id="common_2mutators_2events_8qh_html_a0b710a9933974511b97831e4ead11557"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0b710a9933974511b97831e4ead11557">weapon_model_output</a></div><div class="ttdeci">string weapon_model_output</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00107">events.qh:107</a></div></div>
-<div class="ttc" id="common_2mutators_2events_8qh_html_ad7d95987765fff146be26e9345264b89"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#ad7d95987765fff146be26e9345264b89">weapon_model</a></div><div class="ttdeci">string weapon_model</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00106">events.qh:106</a></div></div>
+<b>Value:</b><div class="fragment"><div class="line">  i(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \ i(<span class="keywordtype">string</span>, MUTATOR_ARGV_1_string) \</div>
+<div class="line">              o(<span class="keywordtype">string</span>, MUTATOR_ARGV_1_string) \</div>
 </div><!-- fragment -->
 <p>called when a weapon model is about to be set, allows custom paths etc. </p>
 
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00101">101</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00099">99</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -533,7 +503,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00063">63</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00064">64</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -561,9 +531,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00019">19</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00018">18</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/df4/announcer_8qc_source.html#l00010">AnnouncerOption()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00579">Damage()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l01319">HUD_Draw()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/df4/announcer_8qc_source.html#l00010">AnnouncerOption()</a>, <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00555">bot_fixcount()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00207">CheckAllowedTeams()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l00587">CheckPlayerJump()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01824">CheckRules_World()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00320">CommonCommand_editmob()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00576">Damage()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00352">fireBullet()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00334">FixPlayermodel()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00213">formatmessage()</a>, <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00025">getrecords()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00098">getwelcomemessage()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00033">GiveFrags()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00137">GrapplingHookThink()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l01319">HUD_Draw()</a>, <a class="el" href="../../d0/d3f/common_2items_2all_8qc_source.html#l00012">Item_Model()</a>, <a class="el" href="../../d1/dec/common_2monsters_2all_8qc_source.html#l00004">M_Model()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00034">monster_dropitem()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00691">Monster_Move()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01482">player_regen()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00300">PlayerDamage()</a>, <a class="el" href="../../dc/ddd/player_8qc_source.html#l00442">PlayerJump()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00334">PlayerScore_Add()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00507">readplayerstartcvars()</a>, <a class="el" href="../../d0/d41/spawnpoints_8qc_source.html#l00213">Spawn_Score()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00584">spawnfunc()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01700">Spectate()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01710">SpectateNext()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01724">SpectatePrev()</a>, <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00271">W_Model()</a>, <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00260">W_Sound()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00022">W_WeaponRateFactor()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00032">W_WeaponSpeedFactor()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00464">want_weapon()</a>, and <a class="el" href="../../dc/dab/spawning_8qc_source.html#l00025">weapon_defaultspawnfunc()</a>.</p>
 
 </div>
 </div>
@@ -591,7 +561,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00020">20</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00019">19</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -627,7 +597,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00009">9</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00008">8</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -866,106 +836,13 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a230f9c07ade5cf025a3c1b171f89e86c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> player_jumpheight</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00089">89</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-<p>Referenced by <a class="el" href="../../dc/ddd/player_8qc_source.html#l00442">PlayerJump()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ae8c92b746a0f8b738a91d85b132420b6"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> player_multijump</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00088">88</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-<p>Referenced by <a class="el" href="../../dc/ddd/player_8qc_source.html#l00587">CheckPlayerJump()</a>, and <a class="el" href="../../dc/ddd/player_8qc_source.html#l00442">PlayerJump()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="adfa5118a30ae224cd89d60b48074c902"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> pm_maxspeed_mod</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00097">97</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a91b14ebc696209ca8fe1fbaedc9f09de"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> ret_string</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00007">7</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00207">CheckAllowedTeams()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00320">CommonCommand_editmob()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00335">FixPlayermodel()</a>, <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00025">getrecords()</a>, <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00098">getwelcomemessage()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00508">readplayerstartcvars()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00584">spawnfunc()</a>, <a class="el" href="../../dc/dab/spawning_8qc_source.html#l00025">weapon_defaultspawnfunc()</a>, and <a class="el" href="../../d2/d79/scores_8qc_source.html#l00388">WinningConditionHelper()</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="ad7d95987765fff146be26e9345264b89"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> weapon_model</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00106">106</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a0b710a9933974511b97831e4ead11557"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> weapon_model_output</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00107">107</a> of file <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-<p>Referenced by <a class="el" href="../../de/dfa/common_2weapons_2all_8qc_source.html#l00271">W_Model()</a>.</p>
-
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Fri Jun 10 2016 04:14:34 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 13:56:03 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

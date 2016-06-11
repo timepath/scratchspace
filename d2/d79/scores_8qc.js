@@ -32,7 +32,7 @@ var scores_8qc =
     [ "TeamScore_GetCompareValue", "d2/d79/scores_8qc.html#a49ab4c157dab975433e94a16f05d9d17", null ],
     [ "TeamScore_SendEntity", "d2/d79/scores_8qc.html#afada77c7b9046dc439737459f196231a", null ],
     [ "TeamScore_Spawn", "d2/d79/scores_8qc.html#a5db481005e2c63c868c58b15537638a0", null ],
-    [ "WinningConditionHelper", "d2/d79/scores_8qc.html#adb8e69129e0def95c9d9f5d601f9056a", null ],
+    [ "WinningConditionHelper", "d2/d79/scores_8qc.html#a4b24b2ecfa2e6d4914ed47ce8d16472f", null ],
     [ "NAMEWIDTH", "d2/d79/scores_8qc.html#a0004abe8969a62fd1a723b21c6ddcdb9", null ],
     [ "score_dummyfield", "d2/d79/scores_8qc.html#a8e807c4df57178861998ce12ab265fe7", null ],
     [ "scorekeeper", "d2/d79/scores_8qc.html#abf5a89c175cdfacb1d37988f053ded83", null ],

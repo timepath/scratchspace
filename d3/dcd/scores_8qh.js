@@ -18,7 +18,7 @@ var scores_8qh =
     [ "TeamScore_Add", "d3/dcd/scores_8qh.html#a394bf84d67f07e376beeff4a5c6ed94c", null ],
     [ "TeamScore_AddToTeam", "d3/dcd/scores_8qh.html#a2f5738674b5f6bac88679dd31ac2de9e", null ],
     [ "TeamScore_GetCompareValue", "d3/dcd/scores_8qh.html#a49ab4c157dab975433e94a16f05d9d17", null ],
-    [ "WinningConditionHelper", "d3/dcd/scores_8qh.html#adb8e69129e0def95c9d9f5d601f9056a", null ],
+    [ "WinningConditionHelper", "d3/dcd/scores_8qh.html#a4b24b2ecfa2e6d4914ed47ce8d16472f", null ],
     [ "scoreboard_pos", "d3/dcd/scores_8qh.html#a0cf85aa93c9a2c5aa8f70c877d9d42dc", null ],
     [ "scores", "d3/dcd/scores_8qh.html#adef491d3b0187b62da58857dabf19960", null ],
     [ "scores_initialized", "d3/dcd/scores_8qh.html#a4d43b789941743d9edb8105089a187b5", null ],
