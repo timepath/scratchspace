@@ -20,7 +20,6 @@ var movetypes_8qh =
     [ "Movetype_Physics_MatchTicrate", "d4/dd7/movetypes_8qh.html#a3a364c3e846cd4c30141d749061c8086", null ],
     [ "Movetype_Physics_NoMatchServer", "d4/dd7/movetypes_8qh.html#abc94399163b20fbffafbcdaeda0f8db5", null ],
     [ "void", "d4/dd7/movetypes_8qh.html#afb527d202cd46f38f520cfba1b0069b5", null ],
-    [ "void", "d4/dd7/movetypes_8qh.html#a180faba122f1777b29ae918a99869eeb", null ],
     [ "void", "d4/dd7/movetypes_8qh.html#a591e49a1a9ef818948667335d5e6c76a", null ],
     [ "autocvar_cl_gameplayfix_fixedcheckwatertransition", "d4/dd7/movetypes_8qh.html#a5ac573b9da7628d7e9b4f30d2433991a", null ],
     [ "MAX_CLIP_PLANES", "d4/dd7/movetypes_8qh.html#a46c1d9c12616edadd00cc17892aa9006", null ],

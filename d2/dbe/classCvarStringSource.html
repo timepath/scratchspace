@@ -235,10 +235,10 @@ Static Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00283">283</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">TC</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00095">s</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00042">TC</a>.</p>
 <div class="fragment"><div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    {</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordtype">string</span> s = _(<span class="stringliteral">&quot;No description&quot;</span>);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a> = _(<span class="stringliteral">&quot;No description&quot;</span>);</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;developer&quot;</span>))</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        {</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, n = numentityfields(); i &lt; n; ++i)</div>
@@ -247,11 +247,12 @@ Static Public Attributes</h2></td></tr>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;                <span class="keywordflow">if</span> (value != <span class="stringliteral">&quot;&quot;</span>) s = sprintf(<span class="stringliteral">&quot;%s\n%s = %s&quot;</span>, s, entityfieldname(i), value);</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            }</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        }</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <span class="keywordflow">return</span> s;</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    }</div>
 <div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00280">oo.qh:280</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
-<div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">_all.inc:38</a></div></div>
+<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
+<div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00042">_all.inc:42</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -319,13 +320,13 @@ Static Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00297">297</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
-<p>References <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">TC</a>.</p>
+<p>References <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00042">TC</a>.</p>
 <div class="fragment"><div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    {</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d8/d4b/classObject.html">Object</a>, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        returns(sprintf(<span class="stringliteral">&quot;entity %i&quot;</span>, <span class="keyword">this</span>), <span class="stringliteral">&quot;nopreview_map&quot;</span>);</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;    }</div>
 <div class="ttc" id="classObject_html"><div class="ttname"><a href="../../d8/d4b/classObject.html">Object</a></div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00280">oo.qh:280</a></div></div>
-<div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00038">_all.inc:38</a></div></div>
+<div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00042">_all.inc:42</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -356,15 +357,16 @@ Static Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/d4e/datasource_8qc_source.html#l00028">28</a> of file <a class="el" href="../../d4/d4e/datasource_8qc_source.html">datasource.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00095">s</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">string</span> s = this.<a class="code" href="../../d2/dbe/classCvarStringSource.html#a146a895dafb7e651ca337e92a6314595">CvarStringSource_cvar</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a> = this.<a class="code" href="../../d2/dbe/classCvarStringSource.html#a146a895dafb7e651ca337e92a6314595">CvarStringSource_cvar</a>;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        this.<a class="code" href="../../d7/d66/classStringSource.html#ad57c065b90798364d307d1289760bf10">StringSource_str</a> = s ? <a class="code" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a>(s) : <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d2/dbe/classCvarStringSource.html">CvarStringSource</a>).getEntry(<span class="keyword">this</span>, i, returns);</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
 <div class="ttc" id="classCvarStringSource_html_a146a895dafb7e651ca337e92a6314595"><div class="ttname"><a href="../../d2/dbe/classCvarStringSource.html#a146a895dafb7e651ca337e92a6314595">CvarStringSource::CvarStringSource_cvar</a></div><div class="ttdeci">string CvarStringSource_cvar</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/datasource_8qh_source.html#l00030">datasource.qh:30</a></div></div>
 <div class="ttc" id="classCvarStringSource_html"><div class="ttname"><a href="../../d2/dbe/classCvarStringSource.html">CvarStringSource</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/datasource_8qh_source.html#l00029">datasource.qh:29</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
+<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
 <div class="ttc" id="classStringSource_html_ad57c065b90798364d307d1289760bf10"><div class="ttname"><a href="../../d7/d66/classStringSource.html#ad57c065b90798364d307d1289760bf10">StringSource::StringSource_str</a></div><div class="ttdeci">string StringSource_str</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/datasource_8qh_source.html#l00022">datasource.qh:22</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a6f8c7ef6ee4a4d851aaa5fd1789eab9a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a></div><div class="ttdeci">const string cvar_string(string name)</div></div>
@@ -437,15 +439,16 @@ Static Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/d4e/datasource_8qc_source.html#l00034">34</a> of file <a class="el" href="../../d4/d4e/datasource_8qc_source.html">datasource.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00095">s</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    {</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">string</span> s = this.<a class="code" href="../../d2/dbe/classCvarStringSource.html#a146a895dafb7e651ca337e92a6314595">CvarStringSource_cvar</a>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a> = this.<a class="code" href="../../d2/dbe/classCvarStringSource.html#a146a895dafb7e651ca337e92a6314595">CvarStringSource_cvar</a>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        this.<a class="code" href="../../d7/d66/classStringSource.html#ad57c065b90798364d307d1289760bf10">StringSource_str</a> = s ? <a class="code" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a>(s) : <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d2/dbe/classCvarStringSource.html">CvarStringSource</a>).reload(<span class="keyword">this</span>, filter);</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
 <div class="ttc" id="classCvarStringSource_html_a146a895dafb7e651ca337e92a6314595"><div class="ttname"><a href="../../d2/dbe/classCvarStringSource.html#a146a895dafb7e651ca337e92a6314595">CvarStringSource::CvarStringSource_cvar</a></div><div class="ttdeci">string CvarStringSource_cvar</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/datasource_8qh_source.html#l00030">datasource.qh:30</a></div></div>
 <div class="ttc" id="classCvarStringSource_html"><div class="ttname"><a href="../../d2/dbe/classCvarStringSource.html">CvarStringSource</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/datasource_8qh_source.html#l00029">datasource.qh:29</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
+<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
 <div class="ttc" id="classStringSource_html_ad57c065b90798364d307d1289760bf10"><div class="ttname"><a href="../../d7/d66/classStringSource.html#ad57c065b90798364d307d1289760bf10">StringSource::StringSource_str</a></div><div class="ttdeci">string StringSource_str</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d63/datasource_8qh_source.html#l00022">datasource.qh:22</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a6f8c7ef6ee4a4d851aaa5fd1789eab9a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a></div><div class="ttdeci">const string cvar_string(string name)</div></div>
@@ -575,7 +578,7 @@ Static Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/dbe/classCvarStringSource.html">CvarStringSource</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 14:28:59 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 14:35:13 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

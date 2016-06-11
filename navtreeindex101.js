@@ -1,5 +1,16 @@
 var NAVTREEINDEX101 =
 {
+"dc/de2/classXonoticProfileTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,201,26],
+"dc/de2/classXonoticProfileTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,201,30],
+"dc/de2/classXonoticProfileTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,201,83],
+"dc/de5/classWeapon.html":[1,0,119],
+"dc/de5/classWeapon.html#a07bb940405dd6a1cc59526ddca74c1b7":[1,0,119,23],
+"dc/de5/classWeapon.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,119,17],
+"dc/de5/classWeapon.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,119,16],
+"dc/de5/classWeapon.html#a2b82d1cf8787609f92b074e19775af58":[1,0,119,25],
+"dc/de5/classWeapon.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,119,14],
+"dc/de5/classWeapon.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,119,18],
+"dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206":[1,0,119,26],
 "dc/de5/classWeapon.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,119,9],
 "dc/de5/classWeapon.html#a4337268c8cad6836bae8efd4a8835070":[1,0,119,19],
 "dc/de5/classWeapon.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,119,13],
@@ -238,16 +249,5 @@ var NAVTREEINDEX101 =
 "dc/df6/xonotic_2button_8qh.html#a72620f04a2403e2eb73a5f210a9c60eb":[2,0,4,4,7,2],
 "dc/df6/xonotic_2button_8qh.html#afa967f603e7a2d29dbd5badcc42997f9":[2,0,4,4,7,1],
 "dc/df6/xonotic_2button_8qh_source.html":[2,0,4,4,7],
-"dc/df7/classXonoticCvarsDialog.html":[1,0,140],
-"dc/df7/classXonoticCvarsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,140,21],
-"dc/df7/classXonoticCvarsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,140,29],
-"dc/df7/classXonoticCvarsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,140,3],
-"dc/df7/classXonoticCvarsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,140,78],
-"dc/df7/classXonoticCvarsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,140,76],
-"dc/df7/classXonoticCvarsDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,140,37],
-"dc/df7/classXonoticCvarsDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,140,15],
-"dc/df7/classXonoticCvarsDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,140,6],
-"dc/df7/classXonoticCvarsDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,140,67],
-"dc/df7/classXonoticCvarsDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,140,58],
-"dc/df7/classXonoticCvarsDialog.html#a1841271fe6dcad42f46baa3827c4c6ea":[1,0,140,49]
+"dc/df7/classXonoticCvarsDialog.html":[1,0,140]
 };

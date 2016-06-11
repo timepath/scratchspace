@@ -82,6 +82,7 @@ var searchData=
   ['ammo_5frecharge',['ammo_recharge',['../df/d28/sv__turrets_8qh.html#a0577e32e3f20aa8ba4749eef48714d18',1,'sv_turrets.qh']]],
   ['ammo_5frockets',['ammo_rockets',['../dc/d1c/weapon_8qh.html#acc258bdef877e65e97005690d5d4377b',1,'ammo_rockets():&#160;weapon.qh'],['../d6/d11/progsdefs_8qc.html#a1cac6a5b41968089abb3444bf32338df',1,'ammo_rockets():&#160;progsdefs.qc']]],
   ['ammo_5fshells',['ammo_shells',['../dc/d1c/weapon_8qh.html#a7f0f6109cd99633e526e2a2226501332',1,'ammo_shells():&#160;weapon.qh'],['../d6/d11/progsdefs_8qc.html#a3c374075b33fcaa32f5ee299e94867a0',1,'ammo_shells():&#160;progsdefs.qc']]],
+  ['ang',['ang',['../d3/dd0/self_8qh.html#acbd0a0d5d29bb6850278ebb75b4349ca',1,'self.qh']]],
   ['anglejitter',['anglejitter',['../d3/d4f/sv__main_8qc.html#a11a7125cdd8248d341e7a0c14ab5f2e8',1,'sv_main.qc']]],
   ['angles',['angles',['../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6',1,'angles():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#aa1f190a348c0675e2f35688de429bef6',1,'angles():&#160;dpextensions.qc'],['../d6/d11/progsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6',1,'angles():&#160;progsdefs.qc'],['../d9/da8/angle_8qc.html#aa1f190a348c0675e2f35688de429bef6',1,'angles():&#160;angle.qc']]],
   ['angles_5fheld',['angles_held',['../d9/d08/client_2defs_8qh.html#a4bfa967465f5b1fee34b8cdf7d5d72dc',1,'defs.qh']]],

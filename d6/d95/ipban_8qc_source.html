@@ -459,7 +459,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;{</div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="comment">// we can&#39;t use tokenizing here, as this is called during ban list parsing</span></div>
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <span class="keywordtype">float</span> i1, i2, i3, i4;</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordtype">string</span> s;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;</div>
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordflow">if</span>(client.crypto_idfp_signed)</div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        <a class="code" href="../../d6/d95/ipban_8qc.html#aeb7c8522041f6354afc641f907b1e3f2">ban_idfp</a> = client.crypto_idfp;</div>
@@ -533,7 +533,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    ipbanned = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;    <span class="keywordflow">for</span>(i = b; i &lt; e; ++i)</div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;    {</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        <span class="keywordtype">string</span> s;</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; <a class="code" href="../../d6/d95/ipban_8qc.html#a10b8286167b369fed0b7618fd625ba9f">ban_expire</a>[i])</div>
 <div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;            <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;        s = <a class="code" href="../../d6/d95/ipban_8qc.html#a070df4ab303d353bd83f5bfa4c2e99df">ban_ip</a>[i];</div>
@@ -557,7 +557,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;{</div>
 <div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d95/ipban_8qc.html#a05777902da0fd5ebdff5d4b6703a0a17">Ban_IsClientBanned</a>(client, -1))</div>
 <div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    {</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        <span class="keywordtype">string</span> s = sprintf(<span class="stringliteral">&quot;^1NOTE:^7 banned client %s just tried to enter\n&quot;</span>, client.netaddress);</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a> = sprintf(<span class="stringliteral">&quot;^1NOTE:^7 banned client %s just tried to enter\n&quot;</span>, client.netaddress);</div>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        dropclient(client);</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38">bprint</a>(s);</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
@@ -575,7 +575,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;</div>
 <div class="line"><a name="l00469"></a><span class="lineno"><a class="line" href="../../d6/d95/ipban_8qc.html#ac399245a35ad503e1c565510518bfeda">  469</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../d6/d95/ipban_8qc.html#ac399245a35ad503e1c565510518bfeda">Ban_Enforce</a>(<span class="keywordtype">float</span> j, <span class="keywordtype">string</span> reason)</div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;{</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;    <span class="keywordtype">string</span> s;</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
 <div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;</div>
 <div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;    <span class="comment">// Enforce our new ban</span></div>
 <div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    s = <span class="stringliteral">&quot;&quot;</span>;</div>
@@ -732,6 +732,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div class="ttc" id="ipban_8qc_html_a070df4ab303d353bd83f5bfa4c2e99df"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#a070df4ab303d353bd83f5bfa4c2e99df">ban_ip</a></div><div class="ttdeci">string ban_ip[BAN_MAX]</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00251">ipban.qc:251</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_ab17c1ef5c1c0d8005df685d3aa685dfd"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#ab17c1ef5c1c0d8005df685d3aa685dfd">autocvar_g_banned_list_idmode</a></div><div class="ttdeci">bool autocvar_g_banned_list_idmode</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00155">autocvars.qh:155</a></div></div>
 <div class="ttc" id="ipban_8qc_html_af5400e642692dd6c542af18b03d9946f"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#af5400e642692dd6c542af18b03d9946f">Ban_LoadBans</a></div><div class="ttdeci">void Ban_LoadBans()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00303">ipban.qc:303</a></div></div>
+<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 <div class="ttc" id="ipban_8qc_html_adea1b3142068ed7d96870a33fcec4eb8"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#adea1b3142068ed7d96870a33fcec4eb8">ban_ip3</a></div><div class="ttdeci">string ban_ip3</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00257">ipban.qc:257</a></div></div>
 <div class="ttc" id="ipban_8qh_html"><div class="ttname"><a href="../../da/ddd/ipban_8qh.html">ipban.qh</a></div></div>
@@ -796,7 +797,7 @@ $(document).ready(function(){initNavTree('d6/d95/ipban_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d6/d95/ipban_8qc.html">ipban.qc</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 14:28:47 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 14:35:00 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

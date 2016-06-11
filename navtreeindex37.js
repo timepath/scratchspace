@@ -1,5 +1,17 @@
 var NAVTREEINDEX37 =
 {
+"d4/d91/classXonoticCampaignList.html#ac028b30e293c97056979e2fa0bb88ff6":[1,0,127,76],
+"d4/d91/classXonoticCampaignList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,127,75],
+"d4/d91/classXonoticCampaignList.html#ac6094922668d013ada3893854eec6b0f":[1,0,127,20],
+"d4/d91/classXonoticCampaignList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,127,72],
+"d4/d91/classXonoticCampaignList.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,127,16],
+"d4/d91/classXonoticCampaignList.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,127,36],
+"d4/d91/classXonoticCampaignList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,127,47],
+"d4/d91/classXonoticCampaignList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,127,58],
+"d4/d91/classXonoticCampaignList.html#ad6d307d305a037bdfc4e62a681655a59":[1,0,127,55],
+"d4/d91/classXonoticCampaignList.html#ad88520089935e9bf48f2cd6a12104a9b":[1,0,127,60],
+"d4/d91/classXonoticCampaignList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,127,88],
+"d4/d91/classXonoticCampaignList.html#adb1e49a9e5641e9f77b74efb79f0d85d":[1,0,127,51],
 "d4/d91/classXonoticCampaignList.html#adbc65a2089ef3278a098c80685b4b8a3":[1,0,127,63],
 "d4/d91/classXonoticCampaignList.html#ade0001d698e673a9b35e09d894c68d73":[1,0,127,22],
 "d4/d91/classXonoticCampaignList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,127,33],
@@ -237,17 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d94/classXonoticHUDVoteDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,177,30],
 "d4/d94/classXonoticHUDVoteDialog.html#afc6d7b0716f498ed88b9f41f4b6ba0aa":[1,0,177,50],
 "d4/d94/classXonoticHUDVoteDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,177,82],
-"d4/d94/classXonoticHUDVoteDialog.html#afda19931a2008666c294c187d32f4a48":[1,0,177,72],
-"d4/d94/common_2mutators_2mutator_2nix_2__mod_8inc.html":[2,0,1,9,0,17,0],
-"d4/d94/common_2mutators_2mutator_2nix_2__mod_8inc_source.html":[2,0,1,9,0,17,0],
-"d4/d95/common_2mutators_2events_8qh.html":[2,0,1,9,7],
-"d4/d95/common_2mutators_2events_8qh.html#a013dae67632ef61cfca2eb071b4ba66b":[2,0,1,9,7,16],
-"d4/d95/common_2mutators_2events_8qh.html#a080b225864283ee25d422f3adcaed6e9":[2,0,1,9,7,1],
-"d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6":[2,0,1,9,7,5],
-"d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f":[2,0,1,9,7,11],
-"d4/d95/common_2mutators_2events_8qh.html#a1c7ed0aa721d79ef23811db2156602f0":[2,0,1,9,7,3],
-"d4/d95/common_2mutators_2events_8qh.html#a209ff0f8342d6028fe0b814eb6949bd7":[2,0,1,9,7,12],
-"d4/d95/common_2mutators_2events_8qh.html#a26df0038cd70de3a0c017c63d859ed35":[2,0,1,9,7,8],
-"d4/d95/common_2mutators_2events_8qh.html#a36a035a64a899169dd5dabab57c8ff02":[2,0,1,9,7,4],
-"d4/d95/common_2mutators_2events_8qh.html#a5a76b0c74033bdef19968820a43149b9":[2,0,1,9,7,19]
+"d4/d94/classXonoticHUDVoteDialog.html#afda19931a2008666c294c187d32f4a48":[1,0,177,72]
 };

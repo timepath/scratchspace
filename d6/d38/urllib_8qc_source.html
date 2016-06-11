@@ -393,10 +393,10 @@ $(document).ready(function(){initNavTree('d6/d38/urllib_8qc_source.html','../../
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    {</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        <span class="keywordflow">if</span> (e.url_rbuf == -1) <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;url_fgets: not readable in current state&quot;</span>);</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;        <span class="comment">// curl</span></div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="keywordtype">string</span> s;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        s = bufstr_get(e.url_rbuf, e.url_rbufpos);</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        e.url_rbufpos += 1;</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        <span class="keywordflow">return</span> s;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    }</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (e.url_fh == <a class="code" href="../../d6/d38/urllib_8qc.html#a6faa24569c71d55d6e8a7c6ad70b1b65">URL_FH_STDOUT</a>)</div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    {</div>
@@ -411,7 +411,7 @@ $(document).ready(function(){initNavTree('d6/d38/urllib_8qc_source.html','../../
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;}</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="comment">// without \n (blame FRIK_FILE)</span></div>
-<div class="line"><a name="l00307"></a><span class="lineno"><a class="line" href="../../dc/dbb/urllib_8qh.html#a6419075e93159f94633814942bfb04be">  307</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d38/urllib_8qc.html#a6419075e93159f94633814942bfb04be">url_fputs</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, <span class="keywordtype">string</span> s)</div>
+<div class="line"><a name="l00307"></a><span class="lineno"><a class="line" href="../../dc/dbb/urllib_8qh.html#a6419075e93159f94633814942bfb04be">  307</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d38/urllib_8qc.html#a6419075e93159f94633814942bfb04be">url_fputs</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>)</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;{</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="keywordflow">if</span> (e.url_fh == <a class="code" href="../../d6/d38/urllib_8qc.html#a37406403c1c7fcc32fe851a30dd25cf8">URL_FH_CURL</a>)</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    {</div>
@@ -497,6 +497,7 @@ $(document).ready(function(){initNavTree('d6/d38/urllib_8qc_source.html','../../
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="urllib_8qc_html_a88b903ef0fce125609759bb52e7f2540"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#a88b903ef0fce125609759bb52e7f2540">url_fh</a></div><div class="ttdeci">float url_fh</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00004">urllib.qc:4</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a56b53595c8aa15ca107c03896db91fd2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a></div><div class="ttdeci">void error(string err,...)</div></div>
+<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
 <div class="ttc" id="urllib_8qc_html_a6874e918daa5d41240e63aa77536483f"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#a6874e918daa5d41240e63aa77536483f">url_fgets</a></div><div class="ttdeci">string url_fgets(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00283">urllib.qc:283</a></div></div>
 <div class="ttc" id="urllib_8qc_html_aede03c2c907aba6df600c6d0328109fe"><div class="ttname"><a href="../../d6/d38/urllib_8qc.html#aede03c2c907aba6df600c6d0328109fe">url_verb</a></div><div class="ttdeci">string url_verb</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d38/urllib_8qc_source.html#l00011">urllib.qc:11</a></div></div>
@@ -542,7 +543,7 @@ $(document).ready(function(){initNavTree('d6/d38/urllib_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d6/d38/urllib_8qc.html">urllib.qc</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 14:28:46 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 14:34:59 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

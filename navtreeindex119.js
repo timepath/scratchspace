@@ -1,5 +1,15 @@
 var NAVTREEINDEX119 =
 {
+"df/d92/classXonoticWinnerDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,235,56],
+"df/d92/classXonoticWinnerDialog.html#aa1abab97698c6f13909d1791611312cb":[1,0,235,59],
+"df/d92/classXonoticWinnerDialog.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,235,47],
+"df/d92/classXonoticWinnerDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,235,5],
+"df/d92/classXonoticWinnerDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,235,9],
+"df/d92/classXonoticWinnerDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,235,24],
+"df/d92/classXonoticWinnerDialog.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,235,54],
+"df/d92/classXonoticWinnerDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,235,25],
+"df/d92/classXonoticWinnerDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,235,86],
+"df/d92/classXonoticWinnerDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,235,72],
 "df/d92/classXonoticWinnerDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,235,33],
 "df/d92/classXonoticWinnerDialog.html#ac585f4f082ba25f5afde74ec79f6d1ae":[1,0,235,79],
 "df/d92/classXonoticWinnerDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,235,0],
@@ -239,15 +249,5 @@ var NAVTREEINDEX119 =
 "df/dae/player_8qh.html#a7ea304a1bf4f9e551543916c8dbf8871":[2,0,1,11,7,8],
 "df/dae/player_8qh.html#a7f6e3922636517a6e48b3ee87259e0ce":[2,0,1,11,7,55],
 "df/dae/player_8qh.html#a83dcf8aeeed6afc1fb9a965244fdc0c8":[2,0,1,11,7,10],
-"df/dae/player_8qh.html#a83f03fc15d23f7862fc5ac119d997b1f":[2,0,1,11,7,17],
-"df/dae/player_8qh.html#a86866b9ab036632e4b60c4dc204e1347":[2,0,1,11,7,3],
-"df/dae/player_8qh.html#a87540168103cd2b723eed0a5717f3554":[2,0,1,11,7,62],
-"df/dae/player_8qh.html#a8830bb7f2d9118982d208a8227bbe577":[2,0,1,11,7,20],
-"df/dae/player_8qh.html#a885b83cd97fa91673fc61310f4bb48cf":[2,0,1,11,7,42],
-"df/dae/player_8qh.html#a8c51ec77f107629d432827f6fafcc533":[2,0,1,11,7,53],
-"df/dae/player_8qh.html#a963bb51205295edf8b6f4adc0deecff9":[2,0,1,11,7,70],
-"df/dae/player_8qh.html#a96f00ccdfa58e1403668d04b023824a5":[2,0,1,11,7,30],
-"df/dae/player_8qh.html#a982c4b1086e8011ac24a31ff67e34bab":[2,0,1,11,7,7],
-"df/dae/player_8qh.html#a990efde6b185c6b204ae4c406bbe2460":[2,0,1,11,7,45],
-"df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf":[2,0,1,11,7,73]
+"df/dae/player_8qh.html#a83f03fc15d23f7862fc5ac119d997b1f":[2,0,1,11,7,17]
 };

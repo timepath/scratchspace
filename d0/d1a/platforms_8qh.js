@@ -2,7 +2,7 @@ var platforms_8qh =
 [
     [ "PLATFORMS_H", "d0/d1a/platforms_8qh.html#adce17feff57f2dedeb6186c9aa0a4562", null ],
     [ "plat_center_touch", "d0/d1a/platforms_8qh.html#a042cac3a807e8dd0d4989f62f500b55b", null ],
-    [ "plat_crush", "d0/d1a/platforms_8qh.html#a4389533e3c6cc189fd5e04f3e54b6db7", null ],
+    [ "plat_crush", "d0/d1a/platforms_8qh.html#a3f5fdcdea5d4dc3df4e8f6125b0096ab", null ],
     [ "plat_go_down", "d0/d1a/platforms_8qh.html#a9574d891d234463bb42d94f88607b988", null ],
     [ "plat_go_up", "d0/d1a/platforms_8qh.html#a6693325a5179add8d074ce9869972142", null ],
     [ "plat_outside_touch", "d0/d1a/platforms_8qh.html#a77f5083fe2e8003247f07a267ba52e93", null ],

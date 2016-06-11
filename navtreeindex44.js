@@ -1,5 +1,16 @@
 var NAVTREEINDEX44 =
 {
+"d5/d7e/classPlayerState.html#a7c55d40979f3a646353828305e4dff36":[1,0,83,4],
+"d5/d7e/classPlayerState.html#aa149ed9767193b1a0373820feaf12b88":[1,0,83,7],
+"d5/d7e/classPlayerState.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,83,2],
+"d5/d7e/classPlayerState.html#ab4b866d030040b1b6b22598a94b0d9fa":[1,0,83,5],
+"d5/d7e/classPlayerState.html#af470ebdd29ce8a905fb6f4210330da0c":[1,0,83,6],
+"d5/d8c/view_8qh.html":[2,0,0,32],
+"d5/d8c/view_8qh.html#ae12e2fa9f814f4f88da1d5259fd4721f":[2,0,0,32,0],
+"d5/d8c/view_8qh_source.html":[2,0,0,32],
+"d5/d8d/dialog__hudpanel__centerprint_8qc.html":[2,0,4,4,46],
+"d5/d8d/dialog__hudpanel__centerprint_8qc.html#a317ec7741f97dd7c349a91202ee93756":[2,0,4,4,46,0],
+"d5/d8d/dialog__hudpanel__centerprint_8qc_source.html":[2,0,4,4,46],
 "d5/d8e/container_8qh.html":[2,0,4,2,9],
 "d5/d8e/container_8qh.html#a1b051b2ab8116af77c757eb6139bf646":[2,0,4,2,9,1],
 "d5/d8e/container_8qh.html#a1d72ffa0887b6d488078d724449d0126":[2,0,4,2,9,11],
@@ -238,16 +249,5 @@ var NAVTREEINDEX44 =
 "d5/dc3/t__halflife_8qc.html":[2,0,5,68],
 "d5/dc3/t__halflife_8qc.html#a0fc7890c64f67efed2d83078a65cc505":[2,0,5,68,9],
 "d5/dc3/t__halflife_8qc.html#a282e7d4378d4a18a805b8980295ac86c":[2,0,5,68,26],
-"d5/dc3/t__halflife_8qc.html#a2fe129f134846d666da47def0db84922":[2,0,5,68,29],
-"d5/dc3/t__halflife_8qc.html#a354b915c484ab7393323f83590e8545e":[2,0,5,68,31],
-"d5/dc3/t__halflife_8qc.html#a4327a2f350f8a86f83c7e350f98ad835":[2,0,5,68,18],
-"d5/dc3/t__halflife_8qc.html#a45570361a4acae64cb45ff99b35275bf":[2,0,5,68,12],
-"d5/dc3/t__halflife_8qc.html#a482830a404c26924b8f1a630d0f8963a":[2,0,5,68,30],
-"d5/dc3/t__halflife_8qc.html#a48f74fb11e8596b2e2a1143aebc74a6c":[2,0,5,68,21],
-"d5/dc3/t__halflife_8qc.html#a49146c6c688956a1c2284d51e12ca21a":[2,0,5,68,17],
-"d5/dc3/t__halflife_8qc.html#a5050a760c11da521cd4aee6336f6529f":[2,0,5,68,27],
-"d5/dc3/t__halflife_8qc.html#a558ba5227d58e9323f8cc5e3472ff021":[2,0,5,68,5],
-"d5/dc3/t__halflife_8qc.html#a5661932b8f10df10144ad288695f18b8":[2,0,5,68,2],
-"d5/dc3/t__halflife_8qc.html#a74517fdf2789fd487211473b4d2fd4e2":[2,0,5,68,6],
-"d5/dc3/t__halflife_8qc.html#a83047a2827586ffa2690c6431bcb609b":[2,0,5,68,15]
+"d5/dc3/t__halflife_8qc.html#a2fe129f134846d666da47def0db84922":[2,0,5,68,29]
 };

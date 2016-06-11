@@ -1,5 +1,16 @@
 var NAVTREEINDEX41 =
 {
+"d5/d0a/sv__generator_8qh.html#ad7bf5b356dfdbc5ea9e6510ad568636b":[2,0,1,3,0,1,11,5],
+"d5/d0a/sv__generator_8qh_source.html":[2,0,1,3,0,1,11],
+"d5/d11/minigame_8qc.html":[2,0,0,1,0,14],
+"d5/d11/minigame_8qc_source.html":[2,0,0,1,0,14],
+"d5/d12/charmap_8qh.html":[2,0,4,4,11],
+"d5/d12/charmap_8qh.html#a40c50cddbc7f473484dd9789f16a6864":[2,0,4,4,11,1],
+"d5/d12/charmap_8qh_source.html":[2,0,4,4,11],
+"d5/d14/menu_2xonotic_2__mod_8qh.html":[2,0,4,4,1],
+"d5/d14/menu_2xonotic_2__mod_8qh_source.html":[2,0,4,4,1],
+"d5/d14/scores__rules_8qc.html":[2,0,5,58],
+"d5/d14/scores__rules_8qc.html#a0255cc6cfdf923cd9c974c739f06fe2c":[2,0,5,58,4],
 "d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05":[2,0,5,58,2],
 "d5/d14/scores__rules_8qc.html#a838b897a9ae86e8bf932e57c356ec987":[2,0,5,58,0],
 "d5/d14/scores__rules_8qc.html#a8834399775b54e52ae0297a80013a636":[2,0,5,58,1],
@@ -238,16 +249,5 @@ var NAVTREEINDEX41 =
 "d5/d26/server_2defs_8qh.html#abd9bbb26fc3db0656e3ea3e7a91d3ab1":[2,0,5,24,36],
 "d5/d26/server_2defs_8qh.html#abdc99ad43dd04e9cbb553b29c187b1e3":[2,0,5,24,137],
 "d5/d26/server_2defs_8qh.html#abde03c92927933bb6bc0d7cc14ba7bdd":[2,0,5,24,265],
-"d5/d26/server_2defs_8qh.html#abed5a4333a92b743908138f32d45b720":[2,0,5,24,143],
-"d5/d26/server_2defs_8qh.html#abfa4eafbc361865597bedf1979325249":[2,0,5,24,63],
-"d5/d26/server_2defs_8qh.html#ac1c30ec6307b210f08d78ee929599d2a":[2,0,5,24,121],
-"d5/d26/server_2defs_8qh.html#ac23b2cb7f13b7d1d2aa27fd6027237b0":[2,0,5,24,217],
-"d5/d26/server_2defs_8qh.html#ac3abcfcfe52fe9dd6076f88d4930d6da":[2,0,5,24,266],
-"d5/d26/server_2defs_8qh.html#ac44e458f6333ec49d11eb8a19b107b4d":[2,0,5,24,141],
-"d5/d26/server_2defs_8qh.html#ac4d89b762985ac8971a24f67e82b7b4e":[2,0,5,24,97],
-"d5/d26/server_2defs_8qh.html#ac604df0261061f3fb75d6ca46fa5bc53":[2,0,5,24,269],
-"d5/d26/server_2defs_8qh.html#ac6417073598ae2a533bf142589e66833":[2,0,5,24,260],
-"d5/d26/server_2defs_8qh.html#ac6b9339527d76074ab576ec555ec5987":[2,0,5,24,133],
-"d5/d26/server_2defs_8qh.html#ac6de0e82388dab2d51aafcd02f005121":[2,0,5,24,188],
-"d5/d26/server_2defs_8qh.html#ac7b155ae9b6d6ccef4940bf9ef0b5dc9":[2,0,5,24,30]
+"d5/d26/server_2defs_8qh.html#abed5a4333a92b743908138f32d45b720":[2,0,5,24,143]
 };

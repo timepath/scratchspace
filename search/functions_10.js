@@ -61,7 +61,7 @@ var searchData=
   ['pingplreport_5fthink',['PingPLReport_Think',['../db/dcc/g__world_8qc.html#a8be822947584a768a2dc80a2e5129043',1,'g_world.qc']]],
   ['plas_5fthink',['plas_think',['../d7/d73/path__waypoint_8qc.html#ae0260159ff478d241312ac361f966e5f',1,'path_waypoint.qc']]],
   ['plat_5fcenter_5ftouch',['plat_center_touch',['../d1/d08/platforms_8qc.html#a042cac3a807e8dd0d4989f62f500b55b',1,'plat_center_touch(entity this):&#160;platforms.qc'],['../d0/d1a/platforms_8qh.html#a042cac3a807e8dd0d4989f62f500b55b',1,'plat_center_touch(entity this):&#160;platforms.qc']]],
-  ['plat_5fcrush',['plat_crush',['../d1/d08/platforms_8qc.html#a4389533e3c6cc189fd5e04f3e54b6db7',1,'plat_crush():&#160;platforms.qc'],['../d0/d1a/platforms_8qh.html#a4389533e3c6cc189fd5e04f3e54b6db7',1,'plat_crush():&#160;platforms.qc']]],
+  ['plat_5fcrush',['plat_crush',['../d1/d08/platforms_8qc.html#a3f5fdcdea5d4dc3df4e8f6125b0096ab',1,'plat_crush(entity this):&#160;platforms.qc'],['../d0/d1a/platforms_8qh.html#a3f5fdcdea5d4dc3df4e8f6125b0096ab',1,'plat_crush(entity this):&#160;platforms.qc']]],
   ['plat_5fgo_5fdown',['plat_go_down',['../d1/d08/platforms_8qc.html#a9574d891d234463bb42d94f88607b988',1,'plat_go_down(entity this):&#160;platforms.qc'],['../d0/d1a/platforms_8qh.html#a9574d891d234463bb42d94f88607b988',1,'plat_go_down(entity this):&#160;platforms.qc']]],
   ['plat_5fgo_5fup',['plat_go_up',['../d1/d08/platforms_8qc.html#a6693325a5179add8d074ce9869972142',1,'plat_go_up(entity this):&#160;platforms.qc'],['../d0/d1a/platforms_8qh.html#a6693325a5179add8d074ce9869972142',1,'plat_go_up(entity this):&#160;platforms.qc']]],
   ['plat_5fhit_5fbottom',['plat_hit_bottom',['../d1/d08/platforms_8qc.html#af1a9f78bf35db47348e63dc8c1622c49',1,'platforms.qc']]],

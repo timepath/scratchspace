@@ -33,7 +33,6 @@ var server_2miscfunctions_8qh =
     [ "MoveToRandomLocationWithinBounds", "dc/d73/server_2miscfunctions_8qh.html#a980a6f943699026265182e645ad4d8ef", null ],
     [ "MoveToRandomMapLocation", "dc/d73/server_2miscfunctions_8qh.html#aa93bfe50de097cc229818a2822f45a45", null ],
     [ "NearestLocation", "dc/d73/server_2miscfunctions_8qh.html#a58725b844cf250403708dcbb8b81ce07", null ],
-    [ "objerror", "dc/d73/server_2miscfunctions_8qh.html#a2b4ffe44d232173ecf4ef251e7aa1c04", null ],
     [ "play2", "dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896", null ],
     [ "play2all", "dc/d73/server_2miscfunctions_8qh.html#aa5a5ed1fd369382ba21cb76e5803fdf3", null ],
     [ "play2team", "dc/d73/server_2miscfunctions_8qh.html#a410e46f892e7f134035c4afe149f8f27", null ],

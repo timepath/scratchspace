@@ -32,7 +32,6 @@ var server_2miscfunctions_8qc =
     [ "MoveToRandomLocationWithinBounds", "dc/dc6/server_2miscfunctions_8qc.html#a980a6f943699026265182e645ad4d8ef", null ],
     [ "MoveToRandomMapLocation", "dc/dc6/server_2miscfunctions_8qc.html#aa93bfe50de097cc229818a2822f45a45", null ],
     [ "NearestLocation", "dc/dc6/server_2miscfunctions_8qc.html#a58725b844cf250403708dcbb8b81ce07", null ],
-    [ "objerror", "dc/dc6/server_2miscfunctions_8qc.html#a2b4ffe44d232173ecf4ef251e7aa1c04", null ],
     [ "playername", "dc/dc6/server_2miscfunctions_8qc.html#a1abfae15913cf4aed2d840b2f387f379", null ],
     [ "precache", "dc/dc6/server_2miscfunctions_8qc.html#a98a446c0272a8ef358d2113f9694a14a", null ],
     [ "precache_all_playermodels", "dc/dc6/server_2miscfunctions_8qc.html#a5ea7bf591f44cf22ed52a48b1aa4f012", null ],

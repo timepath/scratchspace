@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('d0/d0f/bgmscript_8qc_source.html','../
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="keyword">class</span>(BGMScript) .<span class="keywordtype">float</span> bgmscriptstate;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="keyword">class</span>(BGMScript) .<span class="keywordtype">float</span> bgmscriptstatetime;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d0/d0f/bgmscript_8qc.html#a18d6831ff735432088a81ddc4034596e">   16</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d0/d0f/bgmscript_8qc.html#a18d6831ff735432088a81ddc4034596e">GetAttackDecaySustainAmplitude</a>(<span class="keywordtype">float</span> a, <span class="keywordtype">float</span> d, <span class="keywordtype">float</span> s, <span class="keywordtype">float</span> t)</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d0/d0f/bgmscript_8qc.html#a18d6831ff735432088a81ddc4034596e">   16</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d0/d0f/bgmscript_8qc.html#a18d6831ff735432088a81ddc4034596e">GetAttackDecaySustainAmplitude</a>(<span class="keywordtype">float</span> a, <span class="keywordtype">float</span> d, <span class="keywordtype">float</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, <span class="keywordtype">float</span> t)</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="comment">// phase:</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="comment">//   attack: from 0 to 1, in time a for a full length</span></div>
@@ -138,10 +138,10 @@ $(document).ready(function(){initNavTree('d0/d0f/bgmscript_8qc_source.html','../
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">if</span>(t &lt;= a + d)</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordflow">return</span> ((t - a) / d) * (s - 1) + 1;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">return</span> s;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;}</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
-<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d0/d0f/bgmscript_8qc.html#a798d4dff855bfeeafe84fe83c2faf13a">   37</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d0/d0f/bgmscript_8qc.html#a798d4dff855bfeeafe84fe83c2faf13a">GetReleaseAmplitude</a>(<span class="keywordtype">float</span> d, <span class="keywordtype">float</span> s, <span class="keywordtype">float</span> r, <span class="keywordtype">float</span> t)</div>
+<div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../d0/d0f/bgmscript_8qc.html#a798d4dff855bfeeafe84fe83c2faf13a">   37</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d0/d0f/bgmscript_8qc.html#a798d4dff855bfeeafe84fe83c2faf13a">GetReleaseAmplitude</a>(<span class="keywordtype">float</span> d, <span class="keywordtype">float</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, <span class="keywordtype">float</span> r, <span class="keywordtype">float</span> t)</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordtype">float</span> decayval, releaseval;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
@@ -173,7 +173,7 @@ $(document).ready(function(){initNavTree('d0/d0f/bgmscript_8qc_source.html','../
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">return</span> amp * a;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="../../d0/d0f/bgmscript_8qc.html#a3d14027fa71da1e41ada1a21777a91d9">   69</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d0/d0f/bgmscript_8qc.html#a3d14027fa71da1e41ada1a21777a91d9">GetReleaseTime</a>(<span class="keywordtype">float</span> d, <span class="keywordtype">float</span> s, <span class="keywordtype">float</span> r, <span class="keywordtype">float</span> amp)</div>
+<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="../../d0/d0f/bgmscript_8qc.html#a3d14027fa71da1e41ada1a21777a91d9">   69</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d0/d0f/bgmscript_8qc.html#a3d14027fa71da1e41ada1a21777a91d9">GetReleaseTime</a>(<span class="keywordtype">float</span> d, <span class="keywordtype">float</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, <span class="keywordtype">float</span> r, <span class="keywordtype">float</span> amp)</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;{</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordtype">float</span> decaytime, releasetime;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
@@ -181,7 +181,7 @@ $(document).ready(function(){initNavTree('d0/d0f/bgmscript_8qc_source.html','../
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    <span class="comment">// if amp &gt; s, we may be in the attack or in the prolonged decay curve</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    releasetime = (1 - amp / s) * r;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    releasetime = (1 - amp / <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>) * r;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">if</span>(amp &gt; s)</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    {</div>
@@ -200,7 +200,7 @@ $(document).ready(function(){initNavTree('d0/d0f/bgmscript_8qc_source.html','../
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
 <div class="line"><a name="l00094"></a><span class="lineno"><a class="line" href="../../d0/d0f/bgmscript_8qc.html#af2c58a58457c6bc59bf55dcfe20d856d">   94</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/d0f/bgmscript_8qc.html#af2c58a58457c6bc59bf55dcfe20d856d">BGMScript_Init</a>()</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;{</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">string</span> s;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">float</span> fh;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="../../d0/d0f/bgmscript_8qc.html#a1f3f52dcdf3afc88e7727efd69e5aaeb">bgmscriptbuf</a> = <a class="code" href="../../d0/d0f/bgmscript_8qc.html#a048618fb2be86924c09b53738169870a">bgmscriptbufsize</a> = 0;</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../d0/d0f/bgmscript_8qc.html#a61a633e6e31f690ef1dac5255090ffa8">bgmscriptbufloaded</a> = 1;</div>
@@ -341,6 +341,7 @@ $(document).ready(function(){initNavTree('d0/d0f/bgmscript_8qc_source.html','../
 <div class="ttc" id="bgmscript_8qh_html"><div class="ttname"><a href="../../d3/d9d/bgmscript_8qh.html">bgmscript.qh</a></div></div>
 <div class="ttc" id="bgmscript_8qc_html_a6810ff8ca37cbeb1102998c4e0f27dbf"><div class="ttname"><a href="../../d0/d0f/bgmscript_8qc.html#a6810ff8ca37cbeb1102998c4e0f27dbf">BGMScript_InitEntity</a></div><div class="ttdeci">void BGMScript_InitEntity(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d0f/bgmscript_8qc_source.html#l00113">bgmscript.qc:113</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 <div class="ttc" id="client_2defs_8qh_html_a6a685bb087beb5881b139f7ea6497e67"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#a6a685bb087beb5881b139f7ea6497e67">bgmtime</a></div><div class="ttdeci">float bgmtime</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00110">defs.qh:110</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_aa50d64c7aecadbb2590ccdb7bc636098"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#aa50d64c7aecadbb2590ccdb7bc636098">autocvar_bgmvolume</a></div><div class="ttdeci">float autocvar_bgmvolume</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00008">autocvars.qh:8</a></div></div>
@@ -373,7 +374,7 @@ $(document).ready(function(){initNavTree('d0/d0f/bgmscript_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d0/d0f/bgmscript_8qc.html">bgmscript.qc</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 14:28:43 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 14:34:56 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

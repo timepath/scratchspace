@@ -120,9 +120,9 @@ $(document).ready(function(){initNavTree('d9/dfb/radarmap_8qc_source.html','../.
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">//  Generates radar map images for use in the HUD</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">// ===============================================</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
-<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d9/dfb/radarmap_8qc.html#ab7159b12cc72326cbbb30afb17f19d20">   16</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d9/dfb/radarmap_8qc.html#ab7159b12cc72326cbbb30afb17f19d20">FullTraceFraction</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> a, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> mi, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ma, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> b)</div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="../../d9/dfb/radarmap_8qc.html#ab7159b12cc72326cbbb30afb17f19d20">   16</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d9/dfb/radarmap_8qc.html#ab7159b12cc72326cbbb30afb17f19d20">FullTraceFraction</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> a, <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> mi, <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> ma, <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> b)</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> c;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> c;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordtype">float</span> white, black;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    white = 0.001;</div>
@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('d9/dfb/radarmap_8qc_source.html','../.
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
 <div class="line"><a name="l00052"></a><span class="lineno"><a class="line" href="../../d9/dfb/radarmap_8qc.html#ad8cbf64f8351b52d8deec953619cb542">   52</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d9/dfb/radarmap_8qc.html#ad8cbf64f8351b52d8deec953619cb542">RadarMapAtPoint_Trace</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y, <span class="keywordtype">float</span> w, <span class="keywordtype">float</span> h, <span class="keywordtype">float</span> zmin, <span class="keywordtype">float</span> zsize, <span class="keywordtype">float</span> q)</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;{</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> a, b, mi, ma;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> a, b, mi, ma;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    mi = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    ma = <span class="stringliteral">&#39;1 0 0&#39;</span> * w + <span class="stringliteral">&#39;0 1 0&#39;</span> * h;</div>
@@ -169,9 +169,9 @@ $(document).ready(function(){initNavTree('d9/dfb/radarmap_8qc_source.html','../.
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;}</div>
 <div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="../../d9/dfb/radarmap_8qc.html#a41dda117c57c1c6d1a7ba3ae0d8d2227">   63</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d9/dfb/radarmap_8qc.html#a41dda117c57c1c6d1a7ba3ae0d8d2227">RadarMapAtPoint_LineBlock</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y, <span class="keywordtype">float</span> w, <span class="keywordtype">float</span> h, <span class="keywordtype">float</span> zmin, <span class="keywordtype">float</span> zsize, <span class="keywordtype">float</span> q)</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;{</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> o, mi, ma;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> o, mi, ma;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordtype">float</span> i, r;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> dz;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> dz;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    q = 256 * q - 1;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="comment">// 256q-1 is the ideal sample count to map equal amount of sample values to one pixel value</span></div>
@@ -189,7 +189,7 @@ $(document).ready(function(){initNavTree('d9/dfb/radarmap_8qc_source.html','../.
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    r = 0;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; q; ++i)</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v1, v2;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> v1, v2;</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        v1 = v2 = o + dz * i + mi;</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        v1_x += <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * (ma.x - mi.x);</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        v1_y += <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * (ma.y - mi.y);</div>
@@ -204,9 +204,9 @@ $(document).ready(function(){initNavTree('d9/dfb/radarmap_8qc_source.html','../.
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
 <div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="../../d9/dfb/radarmap_8qc.html#adc1efb9d2a0a9b5161c489b4e9b30f48">   98</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d9/dfb/radarmap_8qc.html#adc1efb9d2a0a9b5161c489b4e9b30f48">RadarMapAtPoint_Block</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y, <span class="keywordtype">float</span> w, <span class="keywordtype">float</span> h, <span class="keywordtype">float</span> zmin, <span class="keywordtype">float</span> zsize, <span class="keywordtype">float</span> q)</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;{</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> o, mi, ma;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> o, mi, ma;</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordtype">float</span> i, r;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> dz;</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> dz;</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    q = 256 * q - 1;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="comment">// 256q-1 is the ideal sample count to map equal amount of sample values to one pixel value</span></div>
@@ -231,7 +231,7 @@ $(document).ready(function(){initNavTree('d9/dfb/radarmap_8qc_source.html','../.
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;}</div>
 <div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="../../d9/dfb/radarmap_8qc.html#abbf1b8e554488100af58e7c9145efbc0">  125</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d9/dfb/radarmap_8qc.html#abbf1b8e554488100af58e7c9145efbc0">RadarMapAtPoint_Sample</a>(<span class="keywordtype">float</span> x, <span class="keywordtype">float</span> y, <span class="keywordtype">float</span> w, <span class="keywordtype">float</span> h, <span class="keywordtype">float</span> zmin, <span class="keywordtype">float</span> zsize, <span class="keywordtype">float</span> q)</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;{</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> a, b, mi, ma;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> a, b, mi, ma;</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    q *= 4;  <span class="comment">// choose q so it matches the regular algorithm in speed</span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
@@ -248,7 +248,7 @@ $(document).ready(function(){initNavTree('d9/dfb/radarmap_8qc_source.html','../.
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordflow">for</span> (i = 0; i &lt; q; ++i)</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    {</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> v;</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        v.x = a.x + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * b.x;</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        v.y = a.y + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * b.y;</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        v.z = a.z + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * b.z;</div>
@@ -570,6 +570,7 @@ $(document).ready(function(){initNavTree('d9/dfb/radarmap_8qc_source.html','../.
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="radarmap_8qh_html_aca7797acf4b1b63c8974b7befbb458f4"><div class="ttname"><a href="../../d4/d3c/radarmap_8qh.html#aca7797acf4b1b63c8974b7befbb458f4">sharpen_buffer</a></div><div class="ttdeci">float sharpen_buffer[RADAR_WIDTH_MAX *3]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/radarmap_8qh_source.html#l00011">radarmap.qh:11</a></div></div>
 <div class="ttc" id="radarmap_8qc_html_a2fc989a907cd9cf70d337b8d71b46815"><div class="ttname"><a href="../../d9/dfb/radarmap_8qc.html#a2fc989a907cd9cf70d337b8d71b46815">RadarMap_Next</a></div><div class="ttdeci">void RadarMap_Next()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dfb/radarmap_8qc_source.html#l00199">radarmap.qc:199</a></div></div>
+<div class="ttc" id="self_8qh_html_a7ea82552101f041fad7635b3ed036a84"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a></div><div class="ttdeci">vector</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00084">self.qh:84</a></div></div>
 <div class="ttc" id="radarmap_8qh_html_a43dabf182b1d374a35a79ca28c97478f"><div class="ttname"><a href="../../d4/d3c/radarmap_8qh.html#a43dabf182b1d374a35a79ca28c97478f">RADAR_WIDTH_MAX</a></div><div class="ttdeci">const int RADAR_WIDTH_MAX</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3c/radarmap_8qh_source.html#l00009">radarmap.qh:9</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_acc0d9a840a3b5913e8d6976e526e3357"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#acc0d9a840a3b5913e8d6976e526e3357">mi_picmax</a></div><div class="ttdeci">vector mi_picmax</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00095">util.qh:95</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ac5a560f4ef8c963d1e03e0f014fc715d"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ac5a560f4ef8c963d1e03e0f014fc715d">mi_max</a></div><div class="ttdeci">vector mi_max</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00091">util.qh:91</a></div></div>
@@ -591,7 +592,6 @@ $(document).ready(function(){initNavTree('d9/dfb/radarmap_8qc_source.html','../.
 <div class="ttc" id="powerups_8qc_html_afea6e77db19a2f8c91419904fe665a3a"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#afea6e77db19a2f8c91419904fe665a3a">count</a></div><div class="ttdeci">float count</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00011">powerups.qc:11</a></div></div>
 <div class="ttc" id="common_2command_2command_8qh_html"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html">command.qh</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a1a78b46b9db5c0d6fcee5be7697afa09"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a></div><div class="ttdeci">void fclose(float fhandle)</div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="radarmap_8qc_html_ad8cbf64f8351b52d8deec953619cb542"><div class="ttname"><a href="../../d9/dfb/radarmap_8qc.html#ad8cbf64f8351b52d8deec953619cb542">RadarMapAtPoint_Trace</a></div><div class="ttdeci">float RadarMapAtPoint_Trace(float x, float y, float w, float h, float zmin, float zsize, float q)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/dfb/radarmap_8qc_source.html#l00052">radarmap.qc:52</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a607694908d0ef2719bf5bbf4203ce987"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">mins</a></div><div class="ttdeci">vector mins</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00113">csprogsdefs.qc:113</a></div></div>
@@ -632,7 +632,7 @@ $(document).ready(function(){initNavTree('d9/dfb/radarmap_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d9/dfb/radarmap_8qc.html">radarmap.qc</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 14:28:47 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 14:35:00 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

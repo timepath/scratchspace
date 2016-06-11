@@ -1,8 +1,8 @@
 var platforms_8qc =
 [
-    [ "generic_plat_blocked", "d1/d08/platforms_8qc.html#ac52ffa50bda2849062eb4b1483434e6a", null ],
+    [ "generic_plat_blocked", "d1/d08/platforms_8qc.html#ab2b9dcd3ce47e139e9290425812242c8", null ],
     [ "plat_center_touch", "d1/d08/platforms_8qc.html#a042cac3a807e8dd0d4989f62f500b55b", null ],
-    [ "plat_crush", "d1/d08/platforms_8qc.html#a4389533e3c6cc189fd5e04f3e54b6db7", null ],
+    [ "plat_crush", "d1/d08/platforms_8qc.html#a3f5fdcdea5d4dc3df4e8f6125b0096ab", null ],
     [ "plat_go_down", "d1/d08/platforms_8qc.html#a9574d891d234463bb42d94f88607b988", null ],
     [ "plat_go_up", "d1/d08/platforms_8qc.html#a6693325a5179add8d074ce9869972142", null ],
     [ "plat_hit_bottom", "d1/d08/platforms_8qc.html#af1a9f78bf35db47348e63dc8c1622c49", null ],

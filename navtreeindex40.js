@@ -1,5 +1,16 @@
 var NAVTREEINDEX40 =
 {
+"d4/de8/classRacerAttack.html":[1,0,87],
+"d4/de8/classRacerAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,87,32],
+"d4/de8/classRacerAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,87,17],
+"d4/de8/classRacerAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,87,16],
+"d4/de8/classRacerAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,87,29],
+"d4/de8/classRacerAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,87,14],
+"d4/de8/classRacerAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,87,18],
+"d4/de8/classRacerAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,87,9],
+"d4/de8/classRacerAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,87,19],
+"d4/de8/classRacerAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,87,13],
+"d4/de8/classRacerAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,87,7],
 "d4/de8/classRacerAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,87,21],
 "d4/de8/classRacerAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,87,6],
 "d4/de8/classRacerAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,87,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX40 =
 "d5/d0a/sv__generator_8qh.html#a30a6eafcda0de600eba335d8fd3945ff":[2,0,1,3,0,1,11,2],
 "d5/d0a/sv__generator_8qh.html#a645690cfb9a3a9d36e5b8ead2953583b":[2,0,1,3,0,1,11,0],
 "d5/d0a/sv__generator_8qh.html#a8cc2a1b0e51e60f0e3609fbb9f14303e":[2,0,1,3,0,1,11,1],
-"d5/d0a/sv__generator_8qh.html#a9f0669b531fe7c64a7219a76b2a87f4b":[2,0,1,3,0,1,11,4],
-"d5/d0a/sv__generator_8qh.html#ad7bf5b356dfdbc5ea9e6510ad568636b":[2,0,1,3,0,1,11,5],
-"d5/d0a/sv__generator_8qh_source.html":[2,0,1,3,0,1,11],
-"d5/d11/minigame_8qc.html":[2,0,0,1,0,14],
-"d5/d11/minigame_8qc_source.html":[2,0,0,1,0,14],
-"d5/d12/charmap_8qh.html":[2,0,4,4,11],
-"d5/d12/charmap_8qh.html#a40c50cddbc7f473484dd9789f16a6864":[2,0,4,4,11,1],
-"d5/d12/charmap_8qh_source.html":[2,0,4,4,11],
-"d5/d14/menu_2xonotic_2__mod_8qh.html":[2,0,4,4,1],
-"d5/d14/menu_2xonotic_2__mod_8qh_source.html":[2,0,4,4,1],
-"d5/d14/scores__rules_8qc.html":[2,0,5,58],
-"d5/d14/scores__rules_8qc.html#a0255cc6cfdf923cd9c974c739f06fe2c":[2,0,5,58,4]
+"d5/d0a/sv__generator_8qh.html#a9f0669b531fe7c64a7219a76b2a87f4b":[2,0,1,3,0,1,11,4]
 };

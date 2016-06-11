@@ -124,11 +124,11 @@ Macros</h2></td></tr>
 <tr class="memitem:acc83e028b03f560add30623f3ab1dd0e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#acc83e028b03f560add30623f3ab1dd0e">crandom</a>()&#160;&#160;&#160;(2 * (<a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() - 0.5))</td></tr>
 <tr class="memdesc:acc83e028b03f560add30623f3ab1dd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random number between -1.0 and 1.0.  <a href="#acc83e028b03f560add30623f3ab1dd0e">More...</a><br/></td></tr>
 <tr class="separator:acc83e028b03f560add30623f3ab1dd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab174a7f4f00a6dbb7728a2261e39ea75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ab174a7f4f00a6dbb7728a2261e39ea75">MEAN_ACCUMULATE</a>(s, prefix, v, w)&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17">mean_accumulate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean, v, w)</td></tr>
+<tr class="memitem:ab174a7f4f00a6dbb7728a2261e39ea75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ab174a7f4f00a6dbb7728a2261e39ea75">MEAN_ACCUMULATE</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, prefix, v, w)&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17">mean_accumulate</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, prefix##_accumulator, prefix##_count, prefix##_mean, v, w)</td></tr>
 <tr class="separator:ab174a7f4f00a6dbb7728a2261e39ea75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2451f68a55948c105f085b057964046b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a2451f68a55948c105f085b057964046b">MEAN_DECLARE</a>(prefix, m)&#160;&#160;&#160;<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> prefix##_mean = m; .<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> prefix##_count, prefix##_accumulator</td></tr>
 <tr class="separator:a2451f68a55948c105f085b057964046b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a909baf136adbe1583e95ad9c3fcb3faa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a909baf136adbe1583e95ad9c3fcb3faa">MEAN_EVALUATE</a>(s, prefix)&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35">mean_evaluate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean)</td></tr>
+<tr class="memitem:a909baf136adbe1583e95ad9c3fcb3faa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a909baf136adbe1583e95ad9c3fcb3faa">MEAN_EVALUATE</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, prefix)&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35">mean_evaluate</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, prefix##_accumulator, prefix##_count, prefix##_mean)</td></tr>
 <tr class="separator:a909baf136adbe1583e95ad9c3fcb3faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -139,9 +139,9 @@ Functions</h2></td></tr>
 <tr class="separator:a2b043480e166fa027fb2749365c66089"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3beea75a8f5936cd10f1b7319347a884"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a3beea75a8f5936cd10f1b7319347a884">angc</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a1, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a2)</td></tr>
 <tr class="separator:a3beea75a8f5936cd10f1b7319347a884"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b467740a92a31e38f97070aba962007"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a9b467740a92a31e38f97070aba962007">bezier_quadratic_getderivative</a> (<a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> a, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> b, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> c, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t)</td></tr>
+<tr class="memitem:a9b467740a92a31e38f97070aba962007"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a9b467740a92a31e38f97070aba962007">bezier_quadratic_getderivative</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> a, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> b, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> c, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t)</td></tr>
 <tr class="separator:a9b467740a92a31e38f97070aba962007"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fb832920bde74b332c2f20d1a99a4c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a6fb832920bde74b332c2f20d1a99a4c5">bezier_quadratic_getpoint</a> (<a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> a, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> b, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> c, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t)</td></tr>
+<tr class="memitem:a6fb832920bde74b332c2f20d1a99a4c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a6fb832920bde74b332c2f20d1a99a4c5">bezier_quadratic_getpoint</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> a, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> b, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> c, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t)</td></tr>
 <tr class="separator:a6fb832920bde74b332c2f20d1a99a4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedb361548011f34164a8cd39ff6268a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#aedb361548011f34164a8cd39ff6268a8">cubic_speedfunc</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> startspeedfactor, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> endspeedfactor, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:aedb361548011f34164a8cd39ff6268a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,7 +157,7 @@ Functions</h2></td></tr>
 <tr class="separator:a6c0db9937299e351f97c7ce3135d1055"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a87ab6b8926bb5587a28d323202f59791"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a87ab6b8926bb5587a28d323202f59791">fsnap</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> val, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> fsize)</td></tr>
 <tr class="separator:a87ab6b8926bb5587a28d323202f59791"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26a88fb303232c6dfa1541e00a40c19c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a26a88fb303232c6dfa1541e00a40c19c">lerpv</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t0, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> v0, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t1, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> v1, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t)</td></tr>
+<tr class="memitem:a26a88fb303232c6dfa1541e00a40c19c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a26a88fb303232c6dfa1541e00a40c19c">lerpv</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t0, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> v0, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t1, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> v1, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t)</td></tr>
 <tr class="separator:a26a88fb303232c6dfa1541e00a40c19c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95b0ada6450300a0342f5b901cb5e4e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a95b0ada6450300a0342f5b901cb5e4e1">log2of</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> x)</td></tr>
 <tr class="separator:a95b0ada6450300a0342f5b901cb5e4e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,10 +169,10 @@ Functions</h2></td></tr>
 <tr class="separator:a80b0a2e1271dba6f90376de1931afb7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f2164765c65fa68a46aee7be236157a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a7f2164765c65fa68a46aee7be236157a">power2of</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> e)</td></tr>
 <tr class="separator:a7f2164765c65fa68a46aee7be236157a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8861d172bf3f5895e7d852a3c30174e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#aa8861d172bf3f5895e7d852a3c30174e">solve_quadratic</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> b, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> c)</td></tr>
+<tr class="memitem:aa8861d172bf3f5895e7d852a3c30174e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#aa8861d172bf3f5895e7d852a3c30174e">solve_quadratic</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> b, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> c)</td></tr>
 <tr class="memdesc:aa8861d172bf3f5895e7d852a3c30174e"><td class="mdescLeft">&#160;</td><td class="mdescRight">ax^2 + bx + c = 0  <a href="#aa8861d172bf3f5895e7d852a3c30174e">More...</a><br/></td></tr>
 <tr class="separator:aa8861d172bf3f5895e7d852a3c30174e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac60c376ef13d24ccf30e74b54bf373fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ac60c376ef13d24ccf30e74b54bf373fd">vsnap</a> (<a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> point, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> fsize)</td></tr>
+<tr class="memitem:ac60c376ef13d24ccf30e74b54bf373fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ac60c376ef13d24ccf30e74b54bf373fd">vsnap</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> point, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> fsize)</td></tr>
 <tr class="separator:ac60c376ef13d24ccf30e74b54bf373fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
@@ -203,7 +203,7 @@ Functions</h2></td></tr>
           <td class="memname">#define MEAN_ACCUMULATE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">s, </td>
+          <td class="paramname"><a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -226,7 +226,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17">mean_accumulate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean, v, w)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17">mean_accumulate</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, prefix##_accumulator, prefix##_count, prefix##_mean, v, w)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -273,7 +273,7 @@ Functions</h2></td></tr>
           <td class="memname">#define MEAN_EVALUATE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname">s, </td>
+          <td class="paramname"><a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -284,7 +284,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35">mean_evaluate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35">mean_evaluate</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, prefix##_accumulator, prefix##_count, prefix##_mean)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -467,21 +467,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> bezier_quadratic_getderivative </td>
+          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> bezier_quadratic_getderivative </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>b</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -511,21 +511,21 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> bezier_quadratic_getpoint </td>
+          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> bezier_quadratic_getpoint </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>b</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>c</em>, </td>
         </tr>
         <tr>
@@ -629,7 +629,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d79/math_8qh_source.html#l00093">93</a> of file <a class="el" href="../../d0/d79/math_8qh_source.html">math.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00204">set_platmovetype()</a>.</p>
+<p>Referenced by <a class="el" href="../../d1/d08/platforms_8qc_source.html#l00203">set_platmovetype()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;{</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordflow">if</span> (startspeedfactor &lt; 0 || endspeedfactor &lt; 0) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;</div>
@@ -908,7 +908,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> lerpv </td>
+          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> lerpv </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>t0</em>, </td>
@@ -916,7 +916,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>v0</em>, </td>
         </tr>
         <tr>
@@ -928,7 +928,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>v1</em>, </td>
         </tr>
         <tr>
@@ -1273,7 +1273,7 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> solve_quadratic </td>
+          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> solve_quadratic </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -1302,11 +1302,11 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d79/math_8qh_source.html#l00250">250</a> of file <a class="el" href="../../d0/d79/math_8qh_source.html">math.qh</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00084">vector</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/d44/common_2util_8qc_source.html#l01044">get_shotvelocity()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00981">solve_shotdirection()</a>, <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00158">StartFrame()</a>, and <a class="el" href="../../d2/d9b/jumppads_8qc_source.html#l00033">trigger_push_calculatevelocity()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;{</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> v;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordtype">float</span> D;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    v = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="keywordflow">if</span> (a == 0)</div>
@@ -1355,7 +1355,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    }</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <span class="keywordflow">return</span> v;</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;}</div>
-<div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
+<div class="ttc" id="self_8qh_html_a7ea82552101f041fad7635b3ed036a84"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a></div><div class="ttdeci">vector</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00084">self.qh:84</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a83f4d3f317a80e82e6b16ea61ea5efc3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a></div><div class="ttdeci">float sqrt(float f)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1363,7 +1363,7 @@ Functions</h2></td></tr>
 <div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-20-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_aa8861d172bf3f5895e7d852a3c30174e_cgraph.svg" width="232" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_aa8861d172bf3f5895e7d852a3c30174e_cgraph.svg" width="219" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1385,9 +1385,9 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a> vsnap </td>
+          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vsnap </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1322039b1ef6915cbff81278a6965ccb">vector</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
           <td class="paramname"><em>point</em>, </td>
         </tr>
         <tr>
@@ -1406,9 +1406,9 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/d79/math_8qh_source.html#l00056">56</a> of file <a class="el" href="../../d0/d79/math_8qh_source.html">math.qh</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00084">vector</a>.</p>
 <div class="fragment"><div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;{</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> vret;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> vret;</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    vret.x = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(point.x / fsize) * fsize;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    vret.y = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(point.y / fsize) * fsize;</div>
@@ -1416,8 +1416,8 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    <span class="keywordflow">return</span> vret;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;}</div>
+<div class="ttc" id="self_8qh_html_a7ea82552101f041fad7635b3ed036a84"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a></div><div class="ttdeci">vector</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00084">self.qh:84</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a22f100d9039928edd4e410c7d68858e7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a></div><div class="ttdeci">float ceil(float f)</div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8b85fda1f4e4157ff583a91373b2f71"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a></div><div class="ttdeci">float rint(float f)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1425,7 +1425,7 @@ Functions</h2></td></tr>
 <div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-22-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_ac60c376ef13d24ccf30e74b54bf373fd_cgraph.svg" width="176" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d0/d79/math_8qh_ac60c376ef13d24ccf30e74b54bf373fd_cgraph.svg" width="160" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1438,7 +1438,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d0/d79/math_8qh.html">math.qh</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 14:28:53 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 14:35:07 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

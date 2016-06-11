@@ -447,7 +447,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#a3e3f749f07daa9cb2df5070acc51f1b7">FOREACH_ENTITY_ORDERED</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a39b1d6b6d09aad4f80de90641365be82">IS_NOT_A_CLIENT</a>(it), {</div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        <span class="keywordflow">if</span> (it.reset)</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        {</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(it, it.reset(it));</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(it, it.reset(it)); <span class="comment">// needs WITHSELF, as some spawnfuncs are set to .reset</span></div>
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        }</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <span class="keywordflow">if</span> (it.team_saved) it.team = it.team_saved;</div>
@@ -1446,7 +1446,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d1/dad/server_2command_2vote_8qc.html">vote.qc</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 14:28:43 for Xonotic by
+    <li class="footer">Generated on Sat Jun 11 2016 14:34:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

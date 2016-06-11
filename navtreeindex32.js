@@ -1,5 +1,17 @@
 var NAVTREEINDEX32 =
 {
+"d4/d0d/client_2mapvoting_8qc.html#a6e49a64904e746b1fc8f6ab15c0a5ed0":[2,0,0,18,7],
+"d4/d0d/client_2mapvoting_8qc.html#a748c2c7f43e2077f5f044eb3c6fd19be":[2,0,0,18,38],
+"d4/d0d/client_2mapvoting_8qc.html#a7ec875daee7cdc2ca76d0aadbe791656":[2,0,0,18,21],
+"d4/d0d/client_2mapvoting_8qc.html#a85c066fc96bd085a84d5d60be4aafaed":[2,0,0,18,23],
+"d4/d0d/client_2mapvoting_8qc.html#a8c030e0460a4b7e98aef96c1b26bdcbe":[2,0,0,18,51],
+"d4/d0d/client_2mapvoting_8qc.html#a8c437df1e36d1d6bc2c656765173f4b1":[2,0,0,18,11],
+"d4/d0d/client_2mapvoting_8qc.html#a8c7face99361ed1475b5818879d137c4":[2,0,0,18,34],
+"d4/d0d/client_2mapvoting_8qc.html#a9371fedb04eb1cf116a3dfc87248a8d8":[2,0,0,18,26],
+"d4/d0d/client_2mapvoting_8qc.html#a9852822dbb8fff882c554355d54c2c27":[2,0,0,18,14],
+"d4/d0d/client_2mapvoting_8qc.html#a9d43150cf07f300714982c5f9caf7a3b":[2,0,0,18,31],
+"d4/d0d/client_2mapvoting_8qc.html#a9d66cb2f3fbf1461a7e44678042af2fd":[2,0,0,18,12],
+"d4/d0d/client_2mapvoting_8qc.html#a9e185dd08b2c3b9bc966efd8246d7b45":[2,0,0,18,41],
 "d4/d0d/client_2mapvoting_8qc.html#a9e1da0c2cbd20d81f47fe945a307dd9c":[2,0,0,18,25],
 "d4/d0d/client_2mapvoting_8qc.html#aa02a7858026ab986e154231aae514df0":[2,0,0,18,24],
 "d4/d0d/client_2mapvoting_8qc.html#aa374405c519770744337d111aacc12e5":[2,0,0,18,33],
@@ -237,17 +249,5 @@ var NAVTREEINDEX32 =
 "d4/d1b/race_8qh.html#a87e4c6677ce315673371fb7976fae21d":[2,0,5,53,21],
 "d4/d1b/race_8qh.html#a8a2538ef381890c5e7f7fe836e1fedaa":[2,0,5,53,5],
 "d4/d1b/race_8qh.html#a95d7647425d253442341ea846a00aeec":[2,0,5,53,26],
-"d4/d1b/race_8qh.html#a968e963b26fc123cad80700bd70a9cfa":[2,0,5,53,28],
-"d4/d1b/race_8qh.html#a98ec5468ec6281fade27fb92541c7174":[2,0,5,53,17],
-"d4/d1b/race_8qh.html#a9a3c75ab2cb3bdfaa0595de4a23c0c5e":[2,0,5,53,24],
-"d4/d1b/race_8qh.html#a9a5dc4467ed404414f75c9cdb1ca9231":[2,0,5,53,27],
-"d4/d1b/race_8qh.html#a9ab87b0b67abd6d031db9ff6d00d34dc":[2,0,5,53,30],
-"d4/d1b/race_8qh.html#a9b5a49271ee43c7c9e7cb3787de977ee":[2,0,5,53,2],
-"d4/d1b/race_8qh.html#aa77a445ff7257d62eb6cfed505be32cc":[2,0,5,53,14],
-"d4/d1b/race_8qh.html#aaed97faad539bf13779a661c5366dc0b":[2,0,5,53,34],
-"d4/d1b/race_8qh.html#ab495eed7037d0ad7adc9a102993fb226":[2,0,5,53,13],
-"d4/d1b/race_8qh.html#ab7e2e5d303fb57efc7035a54cd72bf21":[2,0,5,53,41],
-"d4/d1b/race_8qh.html#ab8d2b87ee2d54b1402a27901ebdae164":[2,0,5,53,11],
-"d4/d1b/race_8qh.html#ac471ffbfcc90765b39eb04e2595e5a8b":[2,0,5,53,22],
-"d4/d1b/race_8qh.html#aca2d06d933085c7495d4e22948f5d2db":[2,0,5,53,33]
+"d4/d1b/race_8qh.html#a968e963b26fc123cad80700bd70a9cfa":[2,0,5,53,28]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX115 =
 {
+"de/de7/classXonoticHUDItemsTimeDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,165,1],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,165,68],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,165,66],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,165,12],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,165,39],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,165,17],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,165,46],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,165,23],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,165,31],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,165,55],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a67d95732d49da439095483530aca8804":[1,0,165,42],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,165,69],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a6d69a3e3970de44dc69a1eff709d535c":[1,0,165,72],
@@ -239,15 +249,5 @@ var NAVTREEINDEX115 =
 "df/d13/anglestransform_8qc.html#a0fdbb008cb55b09916473e7c05b0dfcc":[2,0,3,2,2,9],
 "df/d13/anglestransform_8qc.html#a15af3793156583fd0299d2c7d2029f0c":[2,0,3,2,2,13],
 "df/d13/anglestransform_8qc.html#a1d3de79454474872e74e66eb678263a0":[2,0,3,2,2,3],
-"df/d13/anglestransform_8qc.html#a3e15416efc8d5e17ebc24e871037fca3":[2,0,3,2,2,7],
-"df/d13/anglestransform_8qc.html#a3e980438b803ac9b1cc81a157247959d":[2,0,3,2,2,15],
-"df/d13/anglestransform_8qc.html#a6eef2b5d1dcd28a89fa2ab3146011775":[2,0,3,2,2,0],
-"df/d13/anglestransform_8qc.html#a750aab23b894604054f58b46a0276c96":[2,0,3,2,2,10],
-"df/d13/anglestransform_8qc.html#a8383340e6af9aad3ed3a36610b98055d":[2,0,3,2,2,6],
-"df/d13/anglestransform_8qc.html#a847652083025638d0721b27759d2ec92":[2,0,3,2,2,12],
-"df/d13/anglestransform_8qc.html#a84a5233ab143cd9654d618b094d4e1b4":[2,0,3,2,2,14],
-"df/d13/anglestransform_8qc.html#aa7b4d823e207f6300ea5503279fb9905":[2,0,3,2,2,16],
-"df/d13/anglestransform_8qc.html#ab60788299d5604752e91c6e191a8af9f":[2,0,3,2,2,11],
-"df/d13/anglestransform_8qc.html#ac06d70078794b4df23a48f86b7aabf21":[2,0,3,2,2,8],
-"df/d13/anglestransform_8qc.html#ad8667144313dccb21ab055b7903a4125":[2,0,3,2,2,4]
+"df/d13/anglestransform_8qc.html#a3e15416efc8d5e17ebc24e871037fca3":[2,0,3,2,2,7]
 };
