@@ -205,13 +205,13 @@ $(document).ready(function(){initNavTree('d0/dcd/csqcprojectile_8qc_source.html'
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
 <div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="../../d9/d35/csqcprojectile_8qh.html#a041b0a1ddf8b3bfd790cadc39e07dc7b">   99</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b">UpdateCSQCProjectile</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span>(e.SendEntity3 == <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e">CSQCProjectile_SendEntity</a>)</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a>(e) == <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e">CSQCProjectile_SendEntity</a>)</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    {</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        <span class="comment">// send new origin data</span></div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        e.SendFlags |= 0x01;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<span class="comment">// FIXME HACK</span></div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(e.SendEntity3 == ItemSend)</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a>(e) == ItemSend)</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    {</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        ItemUpdate(e);</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    }</div>
@@ -220,7 +220,7 @@ $(document).ready(function(){initNavTree('d0/dcd/csqcprojectile_8qc_source.html'
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
 <div class="line"><a name="l00114"></a><span class="lineno"><a class="line" href="../../d9/d35/csqcprojectile_8qh.html#ae4d3ae90944ee0a34a21572d58c16df0">  114</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#ae4d3ae90944ee0a34a21572d58c16df0">UpdateCSQCProjectileAfterTeleport</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e)</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;{</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">if</span>(e.SendEntity3 == <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e">CSQCProjectile_SendEntity</a>)</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a>(e) == <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e">CSQCProjectile_SendEntity</a>)</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    {</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="comment">// send new origin data</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        e.SendFlags |= 0x01;</div>
@@ -247,6 +247,7 @@ $(document).ready(function(){initNavTree('d0/dcd/csqcprojectile_8qc_source.html'
 <div class="ttc" id="menudefs_8qc_html_aa8c03f058fec0c574e1bba13327f5a5b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a></div><div class="ttdeci">void WriteCoord(float data, float dest, float desto)</div></div>
 <div class="ttc" id="server_2defs_8qh_html_a6ff047c33f58c5833c291c636078e712"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a6ff047c33f58c5833c291c636078e712">realowner</a></div><div class="ttdeci">entity realowner</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00387">defs.qh:387</a></div></div>
 <div class="ttc" id="player_8qh_html_a31924e6c9b17aad7f861e818b8be5d8f"><div class="ttname"><a href="../../df/dae/player_8qh.html#a31924e6c9b17aad7f861e818b8be5d8f">gravity</a></div><div class="ttdeci">float gravity</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dae/player_8qh_source.html#l00010">player.qh:10</a></div></div>
+<div class="ttc" id="self_8qh_html_a05adda68b16fcfe48382fedfd2f2c56f"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a></div><div class="ttdeci">#define getSendEntity(e)</div></div>
 <div class="ttc" id="t__items_8qh_html"><div class="ttname"><a href="../../de/d75/t__items_8qh.html">t_items.qh</a></div></div>
 <div class="ttc" id="csqcprojectile_8qc_html_ae4d3ae90944ee0a34a21572d58c16df0"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#ae4d3ae90944ee0a34a21572d58c16df0">UpdateCSQCProjectileAfterTeleport</a></div><div class="ttdeci">void UpdateCSQCProjectileAfterTeleport(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00114">csqcprojectile.qc:114</a></div></div>
 <div class="ttc" id="csqcprojectile_8qc_html_aed339d1f915b2eb8e2b1f176016b9897"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#aed339d1f915b2eb8e2b1f176016b9897">csqcprojectile_type</a></div><div class="ttdeci">float csqcprojectile_type</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00010">csqcprojectile.qc:10</a></div></div>
@@ -262,7 +263,7 @@ $(document).ready(function(){initNavTree('d0/dcd/csqcprojectile_8qc_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d0/dcd/csqcprojectile_8qc.html">csqcprojectile.qc</a></li>
-    <li class="footer">Generated on Sun Jun 12 2016 03:49:45 for Xonotic by
+    <li class="footer">Generated on Sun Jun 12 2016 04:19:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"db/d29/classXonoticRegisteredSettingsList.html#af100d03bd7a853f2b0a8e0fa3755f094":[1,0,204,79],
 "db/d29/classXonoticRegisteredSettingsList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,204,29],
 "db/d29/classXonoticRegisteredSettingsList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,204,21],
 "db/d29/classXonoticRegisteredSettingsList.html#afd0d89a4240b5d670c0cdfa8c777824c":[1,0,204,69],
@@ -248,6 +249,5 @@ var NAVTREEINDEX86 =
 "db/d3c/classArc.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,3,6],
 "db/d3c/classArc.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,3,0],
 "db/d3c/classArc.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,3,24],
-"db/d3c/classArc.html#a80fa9a65e19370473a29baebc04d0626":[1,0,3,2],
-"db/d3c/classArc.html#a86c22d48b4bf520b46b6ac6941fa18f3":[1,0,3,35]
+"db/d3c/classArc.html#a80fa9a65e19370473a29baebc04d0626":[1,0,3,2]
 };

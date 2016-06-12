@@ -395,6 +395,7 @@ var searchData=
   ['getscoreloglabel',['GetScoreLogLabel',['../d2/d79/scores_8qc.html#a536688c8d54d72f0f2325e8e8a57a0a6',1,'scores.qc']]],
   ['getscreenshots',['getScreenshots',['../dc/d44/classXonoticScreenshotList.html#ac20f0361000aaece30c97dc2cd5d7bcd',1,'XonoticScreenshotList']]],
   ['getscreenshots_5ffor_5fext',['getScreenshots_for_ext',['../d9/d18/screenshotlist_8qc.html#a1852435b96100982b260ec2cbd3aa8c5',1,'screenshotlist.qc']]],
+  ['getsendentity',['getSendEntity',['../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f',1,'self.qh']]],
   ['getskins',['getSkins',['../d7/de6/classXonoticSkinList.html#a6d827958af2597b0d05a3009745c67d5',1,'XonoticSkinList']]],
   ['getsounds',['getSounds',['../d1/d70/classXonoticSoundList.html#a2e708644616f29e33ac117899d49d700',1,'XonoticSoundList']]],
   ['getstats',['getStats',['../d0/d25/classXonoticStatsList.html#a0f330e33068490aa3a9e090a4246c141',1,'XonoticStatsList']]],

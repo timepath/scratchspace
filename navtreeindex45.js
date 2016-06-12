@@ -1,5 +1,6 @@
 var NAVTREEINDEX45 =
 {
+"d5/db2/dialog__hudpanel__notification_8qc.html":[2,0,4,4,60],
 "d5/db2/dialog__hudpanel__notification_8qc.html#ab31627f8b7c7a82a9d458011f2184631":[2,0,4,4,60,0],
 "d5/db2/dialog__hudpanel__notification_8qc_source.html":[2,0,4,4,60],
 "d5/dbc/common_2mutators_2mutator_2vampire_2__mod_8qh.html":[2,0,1,9,0,29,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX45 =
 "d5/df2/common_2util_8qh.html#a77d276d801f4e93f46fefac297900ea7":[2,0,1,45,33],
 "d5/df2/common_2util_8qh.html#a79567dfdd2816ba51fbf8a1250618d3b":[2,0,1,45,130],
 "d5/df2/common_2util_8qh.html#a79f64925b9c8632f4f1da6c118caf88d":[2,0,1,45,60],
-"d5/df2/common_2util_8qh.html#a7a1f2da448d59847e8c0633453024463":[2,0,1,45,131],
-"d5/df2/common_2util_8qh.html#a7bba22581c48edeef1bc42f981cc0913":[2,0,1,45,150]
+"d5/df2/common_2util_8qh.html#a7a1f2da448d59847e8c0633453024463":[2,0,1,45,131]
 };

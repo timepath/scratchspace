@@ -1,5 +1,6 @@
 var NAVTREEINDEX51 =
 {
+"d6/d7d/classEWheel.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,28,6],
 "d6/d7d/classEWheel.html#addc09fdd380e364c86becb7d178b5f50":[1,0,28,7],
 "d6/d7d/classEWheel.html#af262437347438c0a8b4216dce8c30f3a":[1,0,28,11],
 "d6/d7d/dialog__multiplayer__create__mutators_8qh.html":[2,0,4,4,93],
@@ -248,6 +249,5 @@ var NAVTREEINDEX51 =
 "d6/dbd/minigames_8qh.html#aa196279bf6a242db49a98749912b6dae":[2,0,1,6,8,21],
 "d6/dbd/minigames_8qh.html#ab3b59a3d24f070e1a5d682f36e45dff6":[2,0,1,6,8,1],
 "d6/dbd/minigames_8qh.html#ab50b72cd401e642ccfaa7614ac58d414":[2,0,1,6,8,9],
-"d6/dbd/minigames_8qh.html#ab62771fe024e72ee184cdef2774646f3":[2,0,1,6,8,13],
-"d6/dbd/minigames_8qh.html#ab81c669b54415bca697594d9fb7f70f4":[2,0,1,6,8,10]
+"d6/dbd/minigames_8qh.html#ab62771fe024e72ee184cdef2774646f3":[2,0,1,6,8,13]
 };

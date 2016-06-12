@@ -56,6 +56,7 @@ var searchData=
   ['getclienterrorstring',['GetClientErrorString',['../d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74',1,'common.qh']]],
   ['getgamedirinfo_5fdescription',['GETGAMEDIRINFO_DESCRIPTION',['../d8/de2/menudefs_8qc.html#ab295dce18e8cb1468dff7ef3efcd54c2',1,'menudefs.qc']]],
   ['getgamedirinfo_5fname',['GETGAMEDIRINFO_NAME',['../d8/de2/menudefs_8qc.html#a9982c0cc5bb6c6474ed590828dfa48b0',1,'menudefs.qc']]],
+  ['getsendentity',['getSendEntity',['../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f',1,'self.qh']]],
   ['gettagindex',['gettagindex',['../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8',1,'dpextensions.qh']]],
   ['getter',['GETTER',['../d7/d61/misc_8qh.html#a4ae9a65f0155ec9a053e1e9fe41c9401',1,'misc.qh']]],
   ['getthink',['getthink',['../d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e',1,'self.qh']]],

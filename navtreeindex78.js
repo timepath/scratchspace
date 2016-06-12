@@ -1,5 +1,6 @@
 var NAVTREEINDEX78 =
 {
+"d9/deb/classXonoticHUDTimerDialog.html":[1,0,176],
 "d9/deb/classXonoticHUDTimerDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,176,21],
 "d9/deb/classXonoticHUDTimerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,176,29],
 "d9/deb/classXonoticHUDTimerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,176,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX78 =
 "da/d10/sv__vehicles_8qc.html#afd879692d8ef40010a2dddb2080a722f":[2,0,1,15,7,22],
 "da/d10/sv__vehicles_8qc_source.html":[2,0,1,15,7],
 "da/d11/arc_8qc.html":[2,0,1,16,0,2],
-"da/d11/arc_8qc.html#a06407765d83bb6f589ad86eb7ac15afb":[2,0,1,16,0,2,20],
-"da/d11/arc_8qc.html#a092be77d864c2356cb5f3e62a7093e26":[2,0,1,16,0,2,15]
+"da/d11/arc_8qc.html#a06407765d83bb6f589ad86eb7ac15afb":[2,0,1,16,0,2,20]
 };

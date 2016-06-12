@@ -428,7 +428,7 @@ $(document).ready(function(){initNavTree('d2/d11/g__subs_8qc_source.html','../..
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    }</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a1c17b346dec89b6434e65d185e8aa494">lodmodelindex1</a>)</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="keywordflow">if</span> (!this.SendEntity)</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a>(<span class="keyword">this</span>))</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;            SetCustomizer(<span class="keyword">this</span>, <a class="code" href="../../d2/d11/g__subs_8qc.html#abab15a59608a749c5d7875a153a2862a">LOD_customize</a>, <a class="code" href="../../d2/d11/g__subs_8qc.html#aa3e8d68ec770fa910013f8186680b28e">LOD_uncustomize</a>);</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;}</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;</div>
@@ -613,6 +613,7 @@ $(document).ready(function(){initNavTree('d2/d11/g__subs_8qc_source.html','../..
 <div class="ttc" id="csprogsdefs_8qc_html_a07834aee511d1ccd48492759bd5873e2"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a07834aee511d1ccd48492759bd5873e2">flags</a></div><div class="ttdeci">float flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00129">csprogsdefs.qc:129</a></div></div>
 <div class="ttc" id="vector_8qh_html_a1c6e194f67b0befe85d6613c75d44d30"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a></div><div class="ttdeci">#define vdist(v, cmp, f)</div><div class="ttdoc">Vector distance comparison, avoids sqrt() </div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00009">vector.qh:9</a></div></div>
 <div class="ttc" id="g__subs_8qc_html_aa349f780b5d2d608e278935b6e4c60db"><div class="ttname"><a href="../../d2/d11/g__subs_8qc.html#aa349f780b5d2d608e278935b6e4c60db">WarpZone_traceline_antilag</a></div><div class="ttdeci">void WarpZone_traceline_antilag(entity source, vector v1, vector v2, float nomonst, entity forent, float lag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d11/g__subs_8qc_source.html#l00100">g_subs.qc:100</a></div></div>
+<div class="ttc" id="self_8qh_html_a05adda68b16fcfe48382fedfd2f2c56f"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f">getSendEntity</a></div><div class="ttdeci">#define getSendEntity(e)</div></div>
 <div class="ttc" id="g__subs_8qc_html_a0fffd02c032443a0189a5bb8d6f47b69"><div class="ttname"><a href="../../d2/d11/g__subs_8qc.html#a0fffd02c032443a0189a5bb8d6f47b69">SetMovedir</a></div><div class="ttdeci">void SetMovedir(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d11/g__subs_8qc_source.html#l00400">g_subs.qc:400</a></div></div>
 <div class="ttc" id="iter_8qh_html_af074f38b967b7ff501a4eefc91164556"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#af074f38b967b7ff501a4eefc91164556">FOREACH_ENTITY_FLAGS</a></div><div class="ttdeci">#define FOREACH_ENTITY_FLAGS(fld, match, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00150">iter.qh:150</a></div></div>
 <div class="ttc" id="g__subs_8qh_html_a6f6baed6003ba8c7f8af3305899f08a5"><div class="ttname"><a href="../../d6/d93/g__subs_8qh.html#a6f6baed6003ba8c7f8af3305899f08a5">lodtarget2</a></div><div class="ttdeci">string lodtarget2</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d93/g__subs_8qh_source.html#l00132">g_subs.qh:132</a></div></div>
@@ -647,7 +648,7 @@ $(document).ready(function(){initNavTree('d2/d11/g__subs_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d2/d11/g__subs_8qc.html">g_subs.qc</a></li>
-    <li class="footer">Generated on Sun Jun 12 2016 03:49:45 for Xonotic by
+    <li class="footer">Generated on Sun Jun 12 2016 04:19:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

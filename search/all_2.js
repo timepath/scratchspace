@@ -254,7 +254,7 @@ var searchData=
   ['bot_5fcmd_5ftype',['bot_cmd_type',['../d8/d14/scripting_8qh.html#aec2a8cdff476b27767c063416a079f2a',1,'scripting.qh']]],
   ['bot_5fcmd_5fwait',['bot_cmd_wait',['../d6/d27/scripting_8qc.html#a368907ed8226cfb9e137d19099734a4f',1,'bot_cmd_wait(entity this):&#160;scripting.qc'],['../d8/d14/scripting_8qh.html#ad09ff584c66b566518b5ccb47bbd3992',1,'BOT_CMD_WAIT():&#160;scripting.qh']]],
   ['bot_5fcmd_5fwait_5ftime',['bot_cmd_wait_time',['../d6/d27/scripting_8qc.html#af9f73d37d16d0fa7815d9bce888af483',1,'scripting.qc']]],
-  ['bot_5fcmd_5fwait_5funtil',['BOT_CMD_WAIT_UNTIL',['../d8/d14/scripting_8qh.html#a47b13db3838cb8a439476396a8cb9eba',1,'BOT_CMD_WAIT_UNTIL():&#160;scripting.qh'],['../d6/d27/scripting_8qc.html#a7da71f499b44051bac47a00be79b2e36',1,'bot_cmd_wait_until(entity this):&#160;scripting.qc']]],
+  ['bot_5fcmd_5fwait_5funtil',['bot_cmd_wait_until',['../d6/d27/scripting_8qc.html#a7da71f499b44051bac47a00be79b2e36',1,'bot_cmd_wait_until(entity this):&#160;scripting.qc'],['../d8/d14/scripting_8qh.html#a47b13db3838cb8a439476396a8cb9eba',1,'BOT_CMD_WAIT_UNTIL():&#160;scripting.qh']]],
   ['bot_5fcmd_5fwend',['BOT_CMD_WEND',['../d8/d14/scripting_8qh.html#a75f85e8ba4be53cda6c91ef1028e7b01',1,'scripting.qh']]],
   ['bot_5fcmd_5fwhile',['BOT_CMD_WHILE',['../d8/d14/scripting_8qh.html#acc8076bf722909625e01f92cf7d34856',1,'scripting.qh']]],
   ['bot_5fcmdhelp',['bot_cmdhelp',['../d6/d27/scripting_8qc.html#a5a2e538e769fa41a909133b1f3ae44c1',1,'bot_cmdhelp(string scmd):&#160;scripting.qc'],['../d8/d14/scripting_8qh.html#a5a2e538e769fa41a909133b1f3ae44c1',1,'bot_cmdhelp(string scmd):&#160;scripting.qc']]],

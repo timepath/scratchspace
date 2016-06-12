@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"d9/d47/cvarlist_8qh.html#ab4a51be7c5169ef3e25c573a84135360":[2,0,4,4,33,4],
 "d9/d47/cvarlist_8qh_source.html":[2,0,4,4,33],
 "d9/d4a/dialog__hudpanel__quickmenu_8qh.html":[2,0,4,4,69],
 "d9/d4a/dialog__hudpanel__quickmenu_8qh_source.html":[2,0,4,4,69],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "d9/d67/turret_8qh.html#a481a91e444f204aff1dc3d29d45173a7":[2,0,1,14,12,74],
 "d9/d67/turret_8qh.html#a4b0d75716fd9d4fd2f6bd50ac4047bb9":[2,0,1,14,12,90],
 "d9/d67/turret_8qh.html#a4bf5edee08e445d9582c90680ce0cfb9":[2,0,1,14,12,98],
-"d9/d67/turret_8qh.html#a4f5f658a7ed97b32695758ac98fd720c":[2,0,1,14,12,32],
-"d9/d67/turret_8qh.html#a512c95889bca056324e21f6222c1d3e1":[2,0,1,14,12,29]
+"d9/d67/turret_8qh.html#a4f5f658a7ed97b32695758ac98fd720c":[2,0,1,14,12,32]
 };

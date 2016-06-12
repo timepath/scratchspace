@@ -1,5 +1,6 @@
 var NAVTREEINDEX68 =
 {
+"d8/d76/xonotic_2checkbox_8qh.html#a7dc2985c3982e5fb466f48215abb8069":[2,0,4,4,13,2],
 "d8/d76/xonotic_2checkbox_8qh.html#ac556c363097bb2c326f8681f5b38e28a":[2,0,4,4,13,4],
 "d8/d76/xonotic_2checkbox_8qh.html#ae01b150bc158d5b5fb5ee649324b9706":[2,0,4,4,13,3],
 "d8/d76/xonotic_2checkbox_8qh.html#ae6725ad239c958cb43c1254ea3be7554":[2,0,4,4,13,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX68 =
 "d8/da4/classInputContainer.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,47,25],
 "d8/da4/classInputContainer.html#afc9428d371ed63dd0316db5558e81d30":[1,0,47,45],
 "d8/da6/interpolate_8qh.html":[2,0,3,0,8],
-"d8/da6/interpolate_8qh.html#a10cf074544b4da37db572f5a4b8d603a":[2,0,3,0,8,7],
-"d8/da6/interpolate_8qh.html#a20faa367e0199c3321dae4b3a8a9e265":[2,0,3,0,8,10]
+"d8/da6/interpolate_8qh.html#a10cf074544b4da37db572f5a4b8d603a":[2,0,3,0,8,7]
 };

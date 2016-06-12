@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"d5/d5f/trigger_2include_8qh.html#aefd60bfc444a7d505cd1b4b41f793d9c":[2,0,1,13,3,13,0],
 "d5/d5f/trigger_2include_8qh_source.html":[2,0,1,13,3,13],
 "d5/d64/classHealth.html":[1,0,37],
 "d5/d64/classHealth.html#a204e6d23b3f571c6ad1745b32fc64f7e":[1,0,37,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "d5/d73/classXonoticEffectsSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,147,2],
 "d5/d73/classXonoticEffectsSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,147,26],
 "d5/d73/classXonoticEffectsSettingsTab.html#afc52860717e88454d9c1eb3479b510f3":[1,0,147,60],
-"d5/d73/classXonoticEffectsSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,147,30],
-"d5/d73/classXonoticEffectsSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,147,81]
+"d5/d73/classXonoticEffectsSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,147,30]
 };

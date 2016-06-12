@@ -9,6 +9,7 @@ var self_8qh =
     [ "ENGINE_EVENT", "d3/dd0/self_8qh.html#ab666435fc4955cc75aebf3360ee86861", null ],
     [ "error", "d3/dd0/self_8qh.html#a259aac00ed43fd7ac58196b770963525", null ],
     [ "getcefc", "d3/dd0/self_8qh.html#a8cf690d1eb06e607e0380d5006d8e623", null ],
+    [ "getSendEntity", "d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f", null ],
     [ "getthink", "d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e", null ],
     [ "gettouch", "d3/dd0/self_8qh.html#a3d349fc3f585de2f6459e525150b0010", null ],
     [ "movetogoal", "d3/dd0/self_8qh.html#a4b12d67d7e3f4892efe2bb25dbfb1060", null ],

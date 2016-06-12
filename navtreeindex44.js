@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"d5/d73/classXonoticEffectsSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,147,81],
 "d5/d73/statslist_8qh.html":[2,0,4,4,217],
 "d5/d73/statslist_8qh.html#a541bd08a242818503c5005025e25bdcd":[2,0,4,4,217,1],
 "d5/d73/statslist_8qh.html#a805ce8fff65b47ff491afbce6f9fbf0c":[2,0,4,4,217,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "d5/dac/g__damage_8qc_source.html":[2,0,5,25],
 "d5/db0/teleport_8qc.html":[2,0,1,13,3,31],
 "d5/db0/teleport_8qc.html#a657e8485895ada49b780c703ba05668e":[2,0,1,13,3,31,0],
-"d5/db0/teleport_8qc_source.html":[2,0,1,13,3,31],
-"d5/db2/dialog__hudpanel__notification_8qc.html":[2,0,4,4,60]
+"d5/db0/teleport_8qc_source.html":[2,0,1,13,3,31]
 };
