@@ -1010,7 +1010,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../db/dab/common_2deathtypes_2all_8qh.html#ad5aa4530e732a8bb74be927221610971">DEATH_WEAPONOF</a>(deathtype) != WEP_TUBA) <span class="comment">// do not send tuba damage (bandwidth hog)</span></div>
 <div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;        {</div>
 <div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;            force = inflictorvelocity;</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(force) == 0)</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;            <span class="keywordflow">if</span>(force == <span class="stringliteral">&#39;0 0 0&#39;</span>)</div>
 <div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;                force = <span class="stringliteral">&#39;0 0 -1&#39;</span>;</div>
 <div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;                force = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(force);</div>
@@ -1572,7 +1572,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/dac/g__damage_8qc.html">g_damage.qc</a></li>
-    <li class="footer">Generated on Sun Jun 12 2016 05:30:54 for Xonotic by
+    <li class="footer">Generated on Sun Jun 12 2016 11:26:29 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
