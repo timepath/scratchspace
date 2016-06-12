@@ -167,7 +167,7 @@ $(document).ready(function(){initNavTree('d6/d35/debug_8qc_source.html','../../'
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    node.solid     = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    <a class="code" href="../../d7/d1d/model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(node, MDL_SQUARE);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    setorigin(node,node.origin);</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    setorigin(node, node.origin);</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    node.colormod = ncolor;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">if</span>(align)</div>
@@ -200,7 +200,7 @@ $(document).ready(function(){initNavTree('d6/d35/debug_8qc_source.html','../../'
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    s.angles = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#af57e9ae316e98938da93ca401931db54">trace_plane_normal</a>);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    s.angles_x -= 90;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    setorigin(s,where);</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    setorigin(s, where);</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
 <div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="../../d6/d35/debug_8qc.html#a4adea20782981e3d60d1429a88f461f7">   99</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d35/debug_8qc.html#a4adea20782981e3d60d1429a88f461f7">pathlib_showedge</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> where,<span class="keywordtype">float</span> _lifetime,<span class="keywordtype">float</span> rot)</div>
@@ -218,7 +218,7 @@ $(document).ready(function(){initNavTree('d6/d35/debug_8qc_source.html','../../'
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    e.nextthink = _lifetime;</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    e.scale     = <a class="code" href="../../dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55">pathlib_gridsize</a> / 512;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    e.solid     = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    setorigin(e,where);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    setorigin(e, where);</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="../../d7/d1d/model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(e, MDL_EDGE);</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="comment">//traceline(where + &#39;0 0 32&#39;,where - &#39;0 0 128&#39;,MOVE_WORLDONLY,e);</span></div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <span class="comment">//e.angles = vectoangles(trace_plane_normal);</span></div>
@@ -259,7 +259,7 @@ $(document).ready(function(){initNavTree('d6/d35/debug_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_038facabb326e47524555c6946dd7e55.html">pathlib</a></li><li class="navelem"><a class="el" href="../../d6/d35/debug_8qc.html">debug.qc</a></li>
-    <li class="footer">Generated on Sun Jun 12 2016 11:26:29 for Xonotic by
+    <li class="footer">Generated on Sun Jun 12 2016 13:15:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
