@@ -124,11 +124,11 @@ Macros</h2></td></tr>
 <tr class="memitem:acc83e028b03f560add30623f3ab1dd0e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#acc83e028b03f560add30623f3ab1dd0e">crandom</a>()&#160;&#160;&#160;(2 * (<a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() - 0.5))</td></tr>
 <tr class="memdesc:acc83e028b03f560add30623f3ab1dd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a random number between -1.0 and 1.0.  <a href="#acc83e028b03f560add30623f3ab1dd0e">More...</a><br/></td></tr>
 <tr class="separator:acc83e028b03f560add30623f3ab1dd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab174a7f4f00a6dbb7728a2261e39ea75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ab174a7f4f00a6dbb7728a2261e39ea75">MEAN_ACCUMULATE</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, prefix, v, w)&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17">mean_accumulate</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, prefix##_accumulator, prefix##_count, prefix##_mean, v, w)</td></tr>
+<tr class="memitem:ab174a7f4f00a6dbb7728a2261e39ea75"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#ab174a7f4f00a6dbb7728a2261e39ea75">MEAN_ACCUMULATE</a>(s, prefix, v, w)&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17">mean_accumulate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean, v, w)</td></tr>
 <tr class="separator:ab174a7f4f00a6dbb7728a2261e39ea75"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2451f68a55948c105f085b057964046b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a2451f68a55948c105f085b057964046b">MEAN_DECLARE</a>(prefix, m)&#160;&#160;&#160;<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> prefix##_mean = m; .<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> prefix##_count, prefix##_accumulator</td></tr>
 <tr class="separator:a2451f68a55948c105f085b057964046b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a909baf136adbe1583e95ad9c3fcb3faa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a909baf136adbe1583e95ad9c3fcb3faa">MEAN_EVALUATE</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, prefix)&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35">mean_evaluate</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, prefix##_accumulator, prefix##_count, prefix##_mean)</td></tr>
+<tr class="memitem:a909baf136adbe1583e95ad9c3fcb3faa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d79/math_8qh.html#a909baf136adbe1583e95ad9c3fcb3faa">MEAN_EVALUATE</a>(s, prefix)&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35">mean_evaluate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean)</td></tr>
 <tr class="separator:a909baf136adbe1583e95ad9c3fcb3faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -203,7 +203,7 @@ Functions</h2></td></tr>
           <td class="memname">#define MEAN_ACCUMULATE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, </td>
+          <td class="paramname">s, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -226,7 +226,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17">mean_accumulate</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, prefix##_accumulator, prefix##_count, prefix##_mean, v, w)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17">mean_accumulate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean, v, w)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -273,7 +273,7 @@ Functions</h2></td></tr>
           <td class="memname">#define MEAN_EVALUATE</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, </td>
+          <td class="paramname">s, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -284,7 +284,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35">mean_evaluate</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, prefix##_accumulator, prefix##_count, prefix##_mean)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35">mean_evaluate</a>(s, prefix##_accumulator, prefix##_count, prefix##_mean)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1438,7 +1438,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d0/d79/math_8qh.html">math.qh</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 17:46:55 for Xonotic by
+    <li class="footer">Generated on Sun Jun 12 2016 03:49:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

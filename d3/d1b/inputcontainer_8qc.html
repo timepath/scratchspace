@@ -173,10 +173,10 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00085">85</a> of file <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html">inputcontainer.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00030">globalToBox()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00011">NULL</a>, and <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">prev</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00030">globalToBox()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00015">NULL</a>, and <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">prev</a>.</p>
 <div class="fragment"><div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    {</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = this.itemFromPoint(<span class="keyword">this</span>, pos);</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">if</span> (e &amp;&amp; !e.focusable) e = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="keywordflow">if</span> (e &amp;&amp; !e.focusable) e = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a> = this.mouseFocusedChild;</div>
 <div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        this.mouseFocusedChild = e;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="keywordflow">if</span> (!e) <span class="keywordflow">return</span> <span class="keyword">false</span>;  <span class="comment">// keep focus when hovering over non-focusable elements</span></div>
@@ -185,7 +185,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            this.setFocus(<span class="keyword">this</span>, e);</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;            <span class="keywordflow">if</span> (e.instanceOfInputContainer)</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                e.focusedChild = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                e.focusedChild = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                e._changeFocusXY(e, <a class="code" href="../../d6/db1/draw_8qc.html#a0b581a0ff2b1fd85336d25a51a06e57d">globalToBox</a>(pos, e.Container_origin, e.Container_size));</div>
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;            }</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div>
@@ -193,7 +193,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    }</div>
 <div class="ttc" id="draw_8qc_html_a0b581a0ff2b1fd85336d25a51a06e57d"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#a0b581a0ff2b1fd85336d25a51a06e57d">globalToBox</a></div><div class="ttdeci">vector globalToBox(vector v, vector theOrigin, vector theScale)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00030">draw.qc:30</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 <div class="ttc" id="common_2impulses_2all_8qh_html_a5ea3f8c3f8afcd9e2839d3c46973d866"><div class="ttname"><a href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a></div><div class="ttdeci">prev</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d64/common_2impulses_2all_8qh_source.html#l00058">all.qh:58</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -224,14 +224,14 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00014">14</a> of file <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html">inputcontainer.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00011">NULL</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../d6/da0/post_8qh_source.html#l00015">NULL</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d8/da4/classInputContainer.html">InputContainer</a>).focusLeave(me);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        me.mouseFocusedChild = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        me.mouseFocusedChild = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div>
 <div class="ttc" id="classInputContainer_html"><div class="ttname"><a href="../../d8/da4/classInputContainer.html">InputContainer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db7/inputcontainer_8qh_source.html#l00004">inputcontainer.qh:4</a></div></div>
-<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -273,7 +273,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00020">20</a> of file <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html">inputcontainer.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00009">K_ESCAPE</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00007">K_TAB</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00011">NULL</a>, <a class="el" href="../../d3/d05/hud_8qh_source.html#l00107">S_SHIFT</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00009">K_ESCAPE</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00007">K_TAB</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00015">NULL</a>, <a class="el" href="../../d3/d05/hud_8qh_source.html#l00107">S_SHIFT</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> f, ff;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d8/da4/classInputContainer.html">InputContainer</a>).keyDown(me, scan, ascii, shift)) <span class="keywordflow">return</span> 1;</div>
@@ -282,7 +282,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;            f = me.focusedChild;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keywordflow">if</span> (f)</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                me.setFocus(me, <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;                me.setFocus(me, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;                <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            }</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="keywordflow">return</span> 0;</div>
@@ -342,8 +342,8 @@ Functions</h2></td></tr>
 <div class="ttc" id="hud_8qh_html_a3fad09197ebe3127bdf711d1ff5ae831"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a3fad09197ebe3127bdf711d1ff5ae831">S_SHIFT</a></div><div class="ttdeci">const int S_SHIFT</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00107">hud.qh:107</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="keycodes_8qc_html_ad7d79957a6802b0ebfeac6d1834f2792"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#ad7d79957a6802b0ebfeac6d1834f2792">K_TAB</a></div><div class="ttdeci">float K_TAB</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00007">keycodes.qc:7</a></div></div>
-<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -383,14 +383,14 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00104">104</a> of file <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html">inputcontainer.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    {</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d8/da4/classInputContainer.html">InputContainer</a>).mouseDrag(me, pos)) <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        <span class="keywordflow">if</span> (pos.x &gt;= 0 &amp;&amp; pos.y &gt;= 0 &amp;&amp; pos.x &lt; 1 &amp;&amp; pos.y &lt; 1) <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
 <div class="ttc" id="classInputContainer_html"><div class="ttname"><a href="../../d8/da4/classInputContainer.html">InputContainer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db7/inputcontainer_8qh_source.html#l00004">inputcontainer.qh:4</a></div></div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -420,18 +420,18 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00110">110</a> of file <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html">inputcontainer.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00011">NULL</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../d6/da0/post_8qh_source.html#l00015">NULL</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    {</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">if</span> (me.mouseFocusedChild != me.focusedChild) <span class="comment">// if the keyboard moved the focus away</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            me.mouseFocusedChild = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;             <span class="comment">// force focusing</span></div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            me.mouseFocusedChild = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;             <span class="comment">// force focusing</span></div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <span class="keywordflow">if</span> (me._changeFocusXY(me, pos))</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d8/da4/classInputContainer.html">InputContainer</a>).mouseMove(me, pos)) <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">if</span> (pos.x &gt;= 0 &amp;&amp; pos.y &gt;= 0 &amp;&amp; pos.x &lt; 1 &amp;&amp; pos.y &lt; 1) <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
 <div class="ttc" id="classInputContainer_html"><div class="ttname"><a href="../../d8/da4/classInputContainer.html">InputContainer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db7/inputcontainer_8qh_source.html#l00004">inputcontainer.qh:4</a></div></div>
-<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -461,17 +461,17 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00119">119</a> of file <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html">inputcontainer.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00011">NULL</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../d6/da0/post_8qh_source.html#l00015">NULL</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    {</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        me.mouseFocusedChild = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;  <span class="comment">// force focusing</span></div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        me.mouseFocusedChild = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;  <span class="comment">// force focusing</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">if</span> (me._changeFocusXY(me, pos))</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d8/da4/classInputContainer.html">InputContainer</a>).mousePress(me, pos)) <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">if</span> (pos.x &gt;= 0 &amp;&amp; pos.y &gt;= 0 &amp;&amp; pos.x &lt; 1 &amp;&amp; pos.y &lt; 1) <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    }</div>
 <div class="ttc" id="classInputContainer_html"><div class="ttname"><a href="../../d8/da4/classInputContainer.html">InputContainer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db7/inputcontainer_8qh_source.html#l00004">inputcontainer.qh:4</a></div></div>
-<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -501,7 +501,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00127">127</a> of file <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html">inputcontainer.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    {</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d8/da4/classInputContainer.html">InputContainer</a>).mouseRelease(me, pos); <span class="comment">// return value?</span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="keywordflow">if</span> (me.focused)                              <span class="comment">// am I still eligible for this? (UGLY HACK, but a mouse event could have changed focus away)</span></div>
@@ -510,7 +510,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
 <div class="ttc" id="classInputContainer_html"><div class="ttname"><a href="../../d8/da4/classInputContainer.html">InputContainer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db7/inputcontainer_8qh_source.html#l00004">inputcontainer.qh:4</a></div></div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -558,7 +558,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html#l00003">3</a> of file <a class="el" href="../../d3/d1b/inputcontainer_8qc_source.html">inputcontainer.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    {</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d8/da4/classInputContainer.html">InputContainer</a>).resizeNotify(me, relOrigin, relSize, absOrigin, absSize);</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        <span class="comment">/*</span></div>
@@ -569,7 +569,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="comment">        */</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div>
 <div class="ttc" id="classInputContainer_html"><div class="ttname"><a href="../../d8/da4/classInputContainer.html">InputContainer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d9/db7/inputcontainer_8qh_source.html#l00004">inputcontainer.qh:4</a></div></div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -579,7 +579,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_35b13da68f3b87ebd8e5efaf5a26acd6.html">item</a></li><li class="navelem"><a class="el" href="../../d3/d1b/inputcontainer_8qc.html">inputcontainer.qc</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 17:46:56 for Xonotic by
+    <li class="footer">Generated on Sun Jun 12 2016 03:49:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,15 @@
 var NAVTREEINDEX45 =
 {
+"d5/db2/dialog__hudpanel__notification_8qc.html#ab31627f8b7c7a82a9d458011f2184631":[2,0,4,4,60,0],
+"d5/db2/dialog__hudpanel__notification_8qc_source.html":[2,0,4,4,60],
+"d5/dbc/common_2mutators_2mutator_2vampire_2__mod_8qh.html":[2,0,1,9,0,29,1],
+"d5/dbc/common_2mutators_2mutator_2vampire_2__mod_8qh_source.html":[2,0,1,9,0,29,1],
+"d5/dc0/common_2minigames_2__mod_8qh.html":[2,0,1,6,2],
+"d5/dc0/common_2minigames_2__mod_8qh_source.html":[2,0,1,6,2],
+"d5/dc3/t__halflife_8qc.html":[2,0,5,68],
+"d5/dc3/t__halflife_8qc.html#a0fc7890c64f67efed2d83078a65cc505":[2,0,5,68,9],
+"d5/dc3/t__halflife_8qc.html#a282e7d4378d4a18a805b8980295ac86c":[2,0,5,68,26],
+"d5/dc3/t__halflife_8qc.html#a2fe129f134846d666da47def0db84922":[2,0,5,68,29],
 "d5/dc3/t__halflife_8qc.html#a354b915c484ab7393323f83590e8545e":[2,0,5,68,31],
 "d5/dc3/t__halflife_8qc.html#a4327a2f350f8a86f83c7e350f98ad835":[2,0,5,68,18],
 "d5/dc3/t__halflife_8qc.html#a45570361a4acae64cb45ff99b35275bf":[2,0,5,68,12],
@@ -239,15 +249,5 @@ var NAVTREEINDEX45 =
 "d5/df2/common_2util_8qh.html#a79567dfdd2816ba51fbf8a1250618d3b":[2,0,1,45,130],
 "d5/df2/common_2util_8qh.html#a79f64925b9c8632f4f1da6c118caf88d":[2,0,1,45,60],
 "d5/df2/common_2util_8qh.html#a7a1f2da448d59847e8c0633453024463":[2,0,1,45,131],
-"d5/df2/common_2util_8qh.html#a7bba22581c48edeef1bc42f981cc0913":[2,0,1,45,150],
-"d5/df2/common_2util_8qh.html#a7f2164765c65fa68a46aee7be236157a":[2,0,1,45,84],
-"d5/df2/common_2util_8qh.html#a7f2b14bfcc1079a34d35a8fb752b36e5":[2,0,1,45,37],
-"d5/df2/common_2util_8qh.html#a7fd3d494837d6da1d959ebbbd25a5b30":[2,0,1,45,14],
-"d5/df2/common_2util_8qh.html#a806ae111fdd93364b686ff2feb42bd17":[2,0,1,45,125],
-"d5/df2/common_2util_8qh.html#a80b0a2e1271dba6f90376de1931afb7f":[2,0,1,45,78],
-"d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a":[2,0,1,45,96],
-"d5/df2/common_2util_8qh.html#a82bb7f7c333620a6912acd6445e8f4fe":[2,0,1,45,27],
-"d5/df2/common_2util_8qh.html#a849ceb26308e585e9d62a28736160ded":[2,0,1,45,144],
-"d5/df2/common_2util_8qh.html#a85b118cef70b528d691c0fb46968e9d2":[2,0,1,45,86],
-"d5/df2/common_2util_8qh.html#a8bc370cd891ba6f37167668cf84f9a67":[2,0,1,45,58]
+"d5/df2/common_2util_8qh.html#a7bba22581c48edeef1bc42f981cc0913":[2,0,1,45,150]
 };

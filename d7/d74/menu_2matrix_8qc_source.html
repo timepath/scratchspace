@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d7/d74/menu_2matrix_8qc_source.html','
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;m.typing&quot;</span>: {</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;            <span class="keywordtype">string</span> arr = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(ancestor, <span class="stringliteral">&quot;.content.user_ids&quot;</span>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, n = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, sprintf(<span class="stringliteral">&quot;%s.length&quot;</span>, arr))); i &lt; n; ++i) {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;                <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a> = <a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, sprintf(<span class="stringliteral">&quot;%s.%d&quot;</span>, arr, i));</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;                <span class="keywordtype">string</span> s = <a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, sprintf(<span class="stringliteral">&quot;%s.%d&quot;</span>, arr, i));</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a>(<span class="stringliteral">&quot;\{1}&quot;</span>, s, <span class="stringliteral">&quot; is typing...\n&quot;</span>);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;            }</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;            <span class="keywordflow">break</span>;</div>
@@ -132,7 +132,6 @@ $(document).ready(function(){initNavTree('d7/d74/menu_2matrix_8qc_source.html','
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
-<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_acf9c719e766113bad854907e87812e98"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a></div><div class="ttdeci">void print(string text,...)</div></div>
 <div class="ttc" id="menu_2matrix_8qc_html_af5102d8297bde7ad33c004e9f81e6e3b"><div class="ttname"><a href="../../d7/d74/menu_2matrix_8qc.html#af5102d8297bde7ad33c004e9f81e6e3b">MX_Handle</a></div><div class="ttdeci">var void MX_Handle(int buf, string ancestor)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d74/menu_2matrix_8qc_source.html#l00001">matrix.qc:1</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
@@ -143,7 +142,7 @@ $(document).ready(function(){initNavTree('d7/d74/menu_2matrix_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../d7/d74/menu_2matrix_8qc.html">matrix.qc</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 17:46:47 for Xonotic by
+    <li class="footer">Generated on Sun Jun 12 2016 03:49:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

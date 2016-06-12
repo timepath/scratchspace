@@ -1,5 +1,16 @@
 var NAVTREEINDEX86 =
 {
+"db/d29/classXonoticRegisteredSettingsList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,204,29],
+"db/d29/classXonoticRegisteredSettingsList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,204,21],
+"db/d29/classXonoticRegisteredSettingsList.html#afd0d89a4240b5d670c0cdfa8c777824c":[1,0,204,69],
+"db/d29/classXonoticRegisteredSettingsList.html#afd4972c47bec7ede5c184b38af83c24f":[1,0,204,61],
+"db/d29/classXonoticRegisteredSettingsList.html#afe0e72d227edf3a5403f7d90e685525e":[1,0,204,83],
+"db/d29/dialog__hudpanel__weapons_8qh.html":[2,0,4,4,81],
+"db/d29/dialog__hudpanel__weapons_8qh_source.html":[2,0,4,4,81],
+"db/d29/machinegun__weapon_8qh.html":[2,0,1,14,0,17],
+"db/d29/machinegun__weapon_8qh.html#a1d67f6931a2ea189e5f33ef332554c58":[2,0,1,14,0,17,1],
+"db/d29/machinegun__weapon_8qh_source.html":[2,0,1,14,0,17],
+"db/d2a/client_2hud_2panel_2ammo_8qh.html":[2,0,0,1,0,3],
 "db/d2a/client_2hud_2panel_2ammo_8qh_source.html":[2,0,0,1,0,3],
 "db/d2f/common_2turrets_2__mod_8qh.html":[2,0,1,14,2],
 "db/d2f/common_2turrets_2__mod_8qh_source.html":[2,0,1,14,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX86 =
 "db/d3c/classArc.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,3,0],
 "db/d3c/classArc.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,3,24],
 "db/d3c/classArc.html#a80fa9a65e19370473a29baebc04d0626":[1,0,3,2],
-"db/d3c/classArc.html#a86c22d48b4bf520b46b6ac6941fa18f3":[1,0,3,35],
-"db/d3c/classArc.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,3,4],
-"db/d3c/classArc.html#a97df2fcca62083efe293f759373b2e98":[1,0,3,26],
-"db/d3c/classArc.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,3,11],
-"db/d3c/classArc.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,3,12],
-"db/d3c/classArc.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,3,10],
-"db/d3c/classArc.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,3,3],
-"db/d3c/classArc.html#ab8aeb9c30f5600afc253dc5ba84ad31e":[1,0,3,28],
-"db/d3c/classArc.html#ab9d7b14784b0a00aecaf78277f7fcd01":[1,0,3,32],
-"db/d3c/classArc.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,3,8],
-"db/d3c/classArc.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,3,34],
-"db/d3c/classArc.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,3,5]
+"db/d3c/classArc.html#a86c22d48b4bf520b46b6ac6941fa18f3":[1,0,3,35]
 };

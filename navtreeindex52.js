@@ -1,5 +1,16 @@
 var NAVTREEINDEX52 =
 {
+"d6/dbd/minigames_8qh.html#abaa8ee727aabba8b7108aa81abdef5c7":[2,0,1,6,8,0],
+"d6/dbd/minigames_8qh.html#abb2f72c4f1307f3e774ad15b4235abb2":[2,0,1,6,8,3],
+"d6/dbd/minigames_8qh.html#ac1282b42ad31f99e60e3b12c526c360d":[2,0,1,6,8,12],
+"d6/dbd/minigames_8qh.html#ac4a43a55db4827c2a47a075462e401c0":[2,0,1,6,8,20],
+"d6/dbd/minigames_8qh.html#adbfd9d3db8c920f23ecda1e18d9a65ab":[2,0,1,6,8,8],
+"d6/dbd/minigames_8qh.html#ae011c2511486cc58bc0e82ec8be494cf":[2,0,1,6,8,17],
+"d6/dbd/minigames_8qh.html#ae1211c15a8a3c4fb201c07380b1367bd":[2,0,1,6,8,18],
+"d6/dbd/minigames_8qh.html#ae654db0c0ec8adbcddf96b15d435b5d4":[2,0,1,6,8,11],
+"d6/dbd/minigames_8qh.html#af9bd9e8c66a24ce94dce85d3224987eb":[2,0,1,6,8,16],
+"d6/dbd/minigames_8qh_source.html":[2,0,1,6,8],
+"d6/dbf/dialog__settings__misc_8qh.html":[2,0,4,4,145],
 "d6/dbf/dialog__settings__misc_8qh.html#a5786cd08c685fc121f4bb2b2a0941e75":[2,0,4,4,145,1],
 "d6/dbf/dialog__settings__misc_8qh_source.html":[2,0,4,4,145],
 "d6/dbf/maplist_8qh.html":[2,0,4,4,179],
@@ -238,16 +249,5 @@ var NAVTREEINDEX52 =
 "d6/dd3/view_8qc.html#ab377c516472273002d0e0eb4f5081acb":[2,0,0,31,94],
 "d6/dd3/view_8qc.html#ab8d843b88de066b53e04e63deccb6fe4":[2,0,0,31,42],
 "d6/dd3/view_8qc.html#aba02b9d95dcdb5ede530a4bd20e6a634":[2,0,0,31,59],
-"d6/dd3/view_8qc.html#abdb33e348dca6361b37104eb33cee849":[2,0,0,31,97],
-"d6/dd3/view_8qc.html#ac0abe074472e3c080ad742e31c3c395b":[2,0,0,31,5],
-"d6/dd3/view_8qc.html#ac0eccd9b13288ed3d95f702c5021088b":[2,0,0,31,18],
-"d6/dd3/view_8qc.html#ac393da9659f9d96ef1e25885cd495e2f":[2,0,0,31,38],
-"d6/dd3/view_8qc.html#ac8370abf167573393fd54b690eab0e99":[2,0,0,31,127],
-"d6/dd3/view_8qc.html#ac864cc822088f051704ed70a2f89224a":[2,0,0,31,29],
-"d6/dd3/view_8qc.html#acba8a7468e53f4ea09069c1ff1c98ccb":[2,0,0,31,28],
-"d6/dd3/view_8qc.html#acbcdf2dbd095719c18701f7483e11535":[2,0,0,31,125],
-"d6/dd3/view_8qc.html#ace032fe34dac088829a239dcea5d9a28":[2,0,0,31,21],
-"d6/dd3/view_8qc.html#acf17fe1577abc1aa82494a0b875cc7b8":[2,0,0,31,0],
-"d6/dd3/view_8qc.html#ad2bd4504a9ea1745f9182d7eb9f36795":[2,0,0,31,134],
-"d6/dd3/view_8qc.html#ad5f49ec90c9ceef32b83384adb22926a":[2,0,0,31,16]
+"d6/dd3/view_8qc.html#abdb33e348dca6361b37104eb33cee849":[2,0,0,31,97]
 };

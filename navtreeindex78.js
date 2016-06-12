@@ -1,5 +1,16 @@
 var NAVTREEINDEX78 =
 {
+"d9/deb/classXonoticHUDTimerDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,176,21],
+"d9/deb/classXonoticHUDTimerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,176,29],
+"d9/deb/classXonoticHUDTimerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,176,3],
+"d9/deb/classXonoticHUDTimerDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,176,79],
+"d9/deb/classXonoticHUDTimerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,176,77],
+"d9/deb/classXonoticHUDTimerDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,176,37],
+"d9/deb/classXonoticHUDTimerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,176,15],
+"d9/deb/classXonoticHUDTimerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,176,6],
+"d9/deb/classXonoticHUDTimerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,176,67],
+"d9/deb/classXonoticHUDTimerDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,176,58],
+"d9/deb/classXonoticHUDTimerDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,176,63],
 "d9/deb/classXonoticHUDTimerDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,176,62],
 "d9/deb/classXonoticHUDTimerDialog.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,176,86],
 "d9/deb/classXonoticHUDTimerDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,176,64],
@@ -238,16 +249,5 @@ var NAVTREEINDEX78 =
 "da/d10/sv__vehicles_8qc_source.html":[2,0,1,15,7],
 "da/d11/arc_8qc.html":[2,0,1,16,0,2],
 "da/d11/arc_8qc.html#a06407765d83bb6f589ad86eb7ac15afb":[2,0,1,16,0,2,20],
-"da/d11/arc_8qc.html#a092be77d864c2356cb5f3e62a7093e26":[2,0,1,16,0,2,15],
-"da/d11/arc_8qc.html#a0cf969d1d467b545bfc44c649af05a10":[2,0,1,16,0,2,8],
-"da/d11/arc_8qc.html#a1dcb06ff4e5566639d7ca000d9429928":[2,0,1,16,0,2,9],
-"da/d11/arc_8qc.html#a23c29954636de13b3c3873f81dcd5b44":[2,0,1,16,0,2,18],
-"da/d11/arc_8qc.html#a2d5148d7d8703c7ef1a28e6ac7a89779":[2,0,1,16,0,2,13],
-"da/d11/arc_8qc.html#a316f86636ff070ffbd433b22f23dc8d9":[2,0,1,16,0,2,22],
-"da/d11/arc_8qc.html#a342fcaf8e11a844b1aff8d8204910f06":[2,0,1,16,0,2,16],
-"da/d11/arc_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,2,1],
-"da/d11/arc_8qc.html#a4cab4f6212185629097adc317474931d":[2,0,1,16,0,2,12],
-"da/d11/arc_8qc.html#a5e978dc38bcbfc8f747e9678ab1e8a85":[2,0,1,16,0,2,19],
-"da/d11/arc_8qc.html#a616affa7ee5fcbef9a3dbd83a450c6cf":[2,0,1,16,0,2,11],
-"da/d11/arc_8qc.html#a662304e940e2b0c3f887674498652eb4":[2,0,1,16,0,2,14]
+"da/d11/arc_8qc.html#a092be77d864c2356cb5f3e62a7093e26":[2,0,1,16,0,2,15]
 };

@@ -1,5 +1,15 @@
 var NAVTREEINDEX28 =
 {
+"d3/dd8/item_2inputbox_8qc.html#a8c4345d0dd45bcb33c0802e73ef52857":[2,0,4,2,14,1],
+"d3/dd8/item_2inputbox_8qc.html#aa342d33098b8e83a96a9a6381f5dbc43":[2,0,4,2,14,8],
+"d3/dd8/item_2inputbox_8qc.html#ac4eb9ac2edcdf4d04e1a5bfaa72d858f":[2,0,4,2,14,5],
+"d3/dd8/item_2inputbox_8qc.html#acf2084e093527c7c04c2e75dd3b0b7e4":[2,0,4,2,14,3],
+"d3/dd8/item_2inputbox_8qc.html#ada2a07459eaec68afe52d5ee11565061":[2,0,4,2,14,6],
+"d3/dd8/item_2inputbox_8qc.html#aea3fb8a134ec68a0cbd26a2fb766e5f7":[2,0,4,2,14,7],
+"d3/dd8/item_2inputbox_8qc_source.html":[2,0,4,2,14],
+"d3/dd9/walker__weapon_8qh.html":[2,0,1,14,0,33],
+"d3/dd9/walker__weapon_8qh.html#aba4a1abba8de458250f977065ee98b98":[2,0,1,14,0,33,1],
+"d3/dd9/walker__weapon_8qh_source.html":[2,0,1,14,0,33],
 "d3/ddc/impulse_8qh.html":[2,0,1,13,3,11],
 "d3/ddc/impulse_8qh.html#a0b05e0e722229a0828a4fdbd482fae7d":[2,0,1,13,3,11,0],
 "d3/ddc/impulse_8qh.html#a2c1c8f9331368f38bfc3eaee260b59a6":[2,0,1,13,3,11,4],
@@ -239,15 +249,5 @@ var NAVTREEINDEX28 =
 "d4/d09/classXonoticCheckBoxString.html":[1,0,130],
 "d4/d09/classXonoticCheckBoxString.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,130,71],
 "d4/d09/classXonoticCheckBoxString.html#a10cf88734594fed24be93889407c0bda":[1,0,130,13],
-"d4/d09/classXonoticCheckBoxString.html#a10f084ce6991717bfb4153928818feba":[1,0,130,10],
-"d4/d09/classXonoticCheckBoxString.html#a1384d244201f945385ed59b53e4aee96":[1,0,130,33],
-"d4/d09/classXonoticCheckBoxString.html#a17551f8ea91a998bfdeb18609c45d978":[1,0,130,81],
-"d4/d09/classXonoticCheckBoxString.html#a1a55e3b961b4986ce5dda62bd05b8ec5":[1,0,130,39],
-"d4/d09/classXonoticCheckBoxString.html#a1cada7f613ee05baf72eac545644d9d7":[1,0,130,80],
-"d4/d09/classXonoticCheckBoxString.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,130,20],
-"d4/d09/classXonoticCheckBoxString.html#a1f71e31fd265ca4fba4bccee3a807b09":[1,0,130,26],
-"d4/d09/classXonoticCheckBoxString.html#a2006e1a249286b2e3e6f0b0c18ee91a7":[1,0,130,8],
-"d4/d09/classXonoticCheckBoxString.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,130,45],
-"d4/d09/classXonoticCheckBoxString.html#a20d313eebc9de399ef26b192015ac462":[1,0,130,56],
-"d4/d09/classXonoticCheckBoxString.html#a22ef5ac27f9f844bb1cb269ccb417594":[1,0,130,28]
+"d4/d09/classXonoticCheckBoxString.html#a10f084ce6991717bfb4153928818feba":[1,0,130,10]
 };

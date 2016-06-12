@@ -114,10 +114,10 @@ $(document).ready(function(){initNavTree('d0/dfe/i18n_8qh_source.html','../../')
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">// translation helpers</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../d0/dfe/i18n_8qh.html#a18805774614f6b76795f1e6615f6f59c">    8</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../d0/dfe/i18n_8qh.html#a18805774614f6b76795f1e6615f6f59c">prvm_language</a>;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d0/dfe/i18n_8qh.html#afc249e655b212b61d409a3400c7371fb">   13</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../d0/dfe/i18n_8qh.html#afc249e655b212b61d409a3400c7371fb">language_filename</a>(<span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>)</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d0/dfe/i18n_8qh.html#afc249e655b212b61d409a3400c7371fb">   13</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../d0/dfe/i18n_8qh.html#afc249e655b212b61d409a3400c7371fb">language_filename</a>(<span class="keywordtype">string</span> s)</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordtype">string</span> fn = <a class="code" href="../../d0/dfe/i18n_8qh.html#a18805774614f6b76795f1e6615f6f59c">prvm_language</a>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">if</span> (fn == <span class="stringliteral">&quot;&quot;</span> || fn == <span class="stringliteral">&quot;dump&quot;</span>) <span class="keywordflow">return</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">if</span> (fn == <span class="stringliteral">&quot;&quot;</span> || fn == <span class="stringliteral">&quot;dump&quot;</span>) <span class="keywordflow">return</span> s;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    fn = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot;.&quot;</span>, fn);</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">int</span> fh = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(fn, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac71bfc8a179f9d612bf713943c8cb5e1">FILE_READ</a>);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span> (fh &gt;= 0)</div>
@@ -125,7 +125,7 @@ $(document).ready(function(){initNavTree('d0/dfe/i18n_8qh_source.html','../../')
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a>(fh);</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">return</span> fn;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">return</span> s;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;}</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#ifndef CTX_CACHE</span></div>
@@ -144,7 +144,7 @@ $(document).ready(function(){initNavTree('d0/dfe/i18n_8qh_source.html','../../')
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="../../d0/dfe/i18n_8qh.html#abcf7db15e6409570dd31f785c782cd0b">   43</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../d0/dfe/i18n_8qh.html#abcf7db15e6409570dd31f785c782cd0b">CTX</a>(<span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>)</div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="../../d0/dfe/i18n_8qh.html#abcf7db15e6409570dd31f785c782cd0b">   43</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../d0/dfe/i18n_8qh.html#abcf7db15e6409570dd31f785c782cd0b">CTX</a>(<span class="keywordtype">string</span> s)</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;{</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#if CTX_CACHE</span></div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"></span>        <span class="keywordtype">string</span> c = <a class="code" href="../../d4/d54/map_8qh.html#ac4f258816f44ba60ecd630cf58e52974">HM_gets</a>(<a class="code" href="../../d0/dfe/i18n_8qh.html#a350eb9c99ebc5adc781acadabf4b1246">CTX_cache</a>, s);</div>
@@ -163,7 +163,6 @@ $(document).ready(function(){initNavTree('d0/dfe/i18n_8qh_source.html','../../')
 <div class="ttc" id="map_8qh_html_a4552c3e9e142280d80a56d0d56ba009d"><div class="ttname"><a href="../../d4/d54/map_8qh.html#a4552c3e9e142280d80a56d0d56ba009d">HM_NEW</a></div><div class="ttdeci">#define HM_NEW(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00027">map.qh:27</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a5231f4ff2813f7de782b67d25a9e4cf9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a></div><div class="ttdeci">float fopen(string filename, float mode)</div></div>
 <div class="ttc" id="map_8qh_html_ac4f258816f44ba60ecd630cf58e52974"><div class="ttname"><a href="../../d4/d54/map_8qh.html#ac4f258816f44ba60ecd630cf58e52974">HM_gets</a></div><div class="ttdeci">#define HM_gets(this, k)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00089">map.qh:89</a></div></div>
-<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="map_8qh_html_a605b837e0b0cfbe3b7ef69564dba980e"><div class="ttname"><a href="../../d4/d54/map_8qh.html#a605b837e0b0cfbe3b7ef69564dba980e">HM_sets</a></div><div class="ttdeci">#define HM_sets(this, key, val)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00098">map.qh:98</a></div></div>
 <div class="ttc" id="effectinfo_8qc_html_af1209ce3d4344049c1084fab900909cf"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a></div><div class="ttdeci">#define p(f, type, default)</div></div>
 <div class="ttc" id="i18n_8qh_html_a99ce715c0ac68a2151f737e528675493"><div class="ttname"><a href="../../d0/dfe/i18n_8qh.html#a99ce715c0ac68a2151f737e528675493">SHUTDOWN</a></div><div class="ttdeci">SHUTDOWN(CTX_cache)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dfe/i18n_8qh_source.html#l00037">i18n.qh:37</a></div></div>
@@ -189,7 +188,7 @@ $(document).ready(function(){initNavTree('d0/dfe/i18n_8qh_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d0/dfe/i18n_8qh.html">i18n.qh</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 17:46:47 for Xonotic by
+    <li class="footer">Generated on Sun Jun 12 2016 03:49:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

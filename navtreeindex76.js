@@ -1,5 +1,16 @@
 var NAVTREEINDEX76 =
 {
+"d9/d8e/gamemode__assault_8qc.html#a0494762bdff1811919ef03e61c894e3e":[2,0,5,2,0,2,7],
+"d9/d8e/gamemode__assault_8qc.html#a0ac3d078a3d265b901ef367a940be615":[2,0,5,2,0,2,14],
+"d9/d8e/gamemode__assault_8qc.html#a3871efe40bc4d5734eb545ef4a5db769":[2,0,5,2,0,2,15],
+"d9/d8e/gamemode__assault_8qc.html#a4817117027352cc4230203fd3d3eaeb4":[2,0,5,2,0,2,0],
+"d9/d8e/gamemode__assault_8qc.html#a5753f4b0d3f0961028891e42b2d2f2ee":[2,0,5,2,0,2,3],
+"d9/d8e/gamemode__assault_8qc.html#a6c1be8aa70a07ec6b91cfb1050ddcbc8":[2,0,5,2,0,2,11],
+"d9/d8e/gamemode__assault_8qc.html#a7c876617d922cd16d5dab82fe6fce4e3":[2,0,5,2,0,2,9],
+"d9/d8e/gamemode__assault_8qc.html#a8854e134a0d692c1377eb61d2e4b6c73":[2,0,5,2,0,2,12],
+"d9/d8e/gamemode__assault_8qc.html#a90b02641f0c7d1b01f7998fe398c95c1":[2,0,5,2,0,2,13],
+"d9/d8e/gamemode__assault_8qc.html#aa63969d6de82cd5d06f291e89e140ca4":[2,0,5,2,0,2,16],
+"d9/d8e/gamemode__assault_8qc.html#aa8464a01888d74a2efa42f05a8946ba0":[2,0,5,2,0,2,8],
 "d9/d8e/gamemode__assault_8qc.html#aae75592036bbad8155a2c2b1f82aa17c":[2,0,5,2,0,2,4],
 "d9/d8e/gamemode__assault_8qc.html#ae1c3e008f1694a4a8d288f0708893574":[2,0,5,2,0,2,1],
 "d9/d8e/gamemode__assault_8qc.html#ae3a79e8bfe6edb7284009e4102637da4":[2,0,5,2,0,2,6],
@@ -238,16 +249,5 @@ var NAVTREEINDEX76 =
 "d9/dca/classXonoticCommandButton.html#a27b635e0916726012b7e8c4dca05064e":[1,0,134,26],
 "d9/dca/classXonoticCommandButton.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,134,1],
 "d9/dca/classXonoticCommandButton.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,134,5],
-"d9/dca/classXonoticCommandButton.html#a2fe1bd907a9b4d8d9eccb95f54aa970d":[1,0,134,74],
-"d9/dca/classXonoticCommandButton.html#a326ef5bb1dd02a2667460d795c0a46df":[1,0,134,52],
-"d9/dca/classXonoticCommandButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,134,72],
-"d9/dca/classXonoticCommandButton.html#a35096b8b6cb8fc4146d2ea014c29999a":[1,0,134,71],
-"d9/dca/classXonoticCommandButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,134,65],
-"d9/dca/classXonoticCommandButton.html#a3a740bc65a83689ad7304710ece43f5c":[1,0,134,51],
-"d9/dca/classXonoticCommandButton.html#a3a88ebd44b9abf22558ee9a6cfaf03dd":[1,0,134,73],
-"d9/dca/classXonoticCommandButton.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,134,53],
-"d9/dca/classXonoticCommandButton.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,134,14],
-"d9/dca/classXonoticCommandButton.html#a476349ed1a0d044310253e867c496c16":[1,0,134,35],
-"d9/dca/classXonoticCommandButton.html#a47ec54ba5a75b70927a3e25a09e6d5ea":[1,0,134,7],
-"d9/dca/classXonoticCommandButton.html#a4985255a6e0984252ab7ccedd6347d5b":[1,0,134,33]
+"d9/dca/classXonoticCommandButton.html#a2fe1bd907a9b4d8d9eccb95f54aa970d":[1,0,134,74]
 };

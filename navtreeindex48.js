@@ -1,5 +1,15 @@
 var NAVTREEINDEX48 =
 {
+"d6/d15/classXonoticWeaponsList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,234,13],
+"d6/d15/classXonoticWeaponsList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,234,56],
+"d6/d15/classXonoticWeaponsList.html#aec898bd435ad9b49d25c605c7cd4df17":[1,0,234,65],
+"d6/d15/classXonoticWeaponsList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,234,29],
+"d6/d15/classXonoticWeaponsList.html#aed05f75651928be9263a2073856f33cd":[1,0,234,69],
+"d6/d15/classXonoticWeaponsList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,234,1],
+"d6/d15/classXonoticWeaponsList.html#af06292d63525aff5cb5f9e6e9657bc8f":[1,0,234,3],
+"d6/d15/classXonoticWeaponsList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,234,27],
+"d6/d15/classXonoticWeaponsList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,234,20],
+"d6/d18/classModel.html":[1,0,66],
 "d6/d18/classModel.html#a260c0b9728610e714b32c9e55c02f841":[1,0,66,0],
 "d6/d18/classModel.html#a47d47c22327728a8302c8844738ca9e8":[1,0,66,5],
 "d6/d18/classModel.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,66,1],
@@ -239,15 +249,5 @@ var NAVTREEINDEX48 =
 "d6/d27/scripting_8qc.html#aef344820f4549eeb8122180a25f2e74c":[2,0,5,0,9,28],
 "d6/d27/scripting_8qc.html#af4528d56583ab7ed80b49fa574872c4f":[2,0,5,0,9,26],
 "d6/d27/scripting_8qc.html#af57e30e85a1a07cbe4af216fb0a07c20":[2,0,5,0,9,46],
-"d6/d27/scripting_8qc.html#af5ebd28bbd770d319c4264138e3f3f8c":[2,0,5,0,9,11],
-"d6/d27/scripting_8qc.html#af773d4b868ba7a2ddbcb0a60aa8f7076":[2,0,5,0,9,44],
-"d6/d27/scripting_8qc.html#af9f73d37d16d0fa7815d9bce888af483":[2,0,5,0,9,61],
-"d6/d27/scripting_8qc.html#afce44d266501b8e5f980a8c89b1e35e7":[2,0,5,0,9,29],
-"d6/d27/scripting_8qc.html#afd2c66dcbc6acd06c70014204f880b16":[2,0,5,0,9,63],
-"d6/d27/scripting_8qc_source.html":[2,0,5,0,9],
-"d6/d29/anticheat_8qc.html":[2,0,5,8],
-"d6/d29/anticheat_8qc.html#a061e1f4db8a4e99ba4c89b4ee24b5ea8":[2,0,5,8,13],
-"d6/d29/anticheat_8qc.html#a0646501aa307fe08a9e888164181c1c9":[2,0,5,8,10],
-"d6/d29/anticheat_8qc.html#a068a96ae9ccf8a1fd9cd99e95d5e1c7e":[2,0,5,8,2],
-"d6/d29/anticheat_8qc.html#a07ef2e7702b8dff4bc5f5fbaa92a2bbd":[2,0,5,8,3]
+"d6/d27/scripting_8qc.html#af5ebd28bbd770d319c4264138e3f3f8c":[2,0,5,0,9,11]
 };

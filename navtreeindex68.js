@@ -1,5 +1,16 @@
 var NAVTREEINDEX68 =
 {
+"d8/d76/xonotic_2checkbox_8qh.html#ac556c363097bb2c326f8681f5b38e28a":[2,0,4,4,13,4],
+"d8/d76/xonotic_2checkbox_8qh.html#ae01b150bc158d5b5fb5ee649324b9706":[2,0,4,4,13,3],
+"d8/d76/xonotic_2checkbox_8qh.html#ae6725ad239c958cb43c1254ea3be7554":[2,0,4,4,13,1],
+"d8/d76/xonotic_2checkbox_8qh_source.html":[2,0,4,4,13],
+"d8/d7e/common_2deathtypes_2all_8qc.html":[2,0,1,1,3],
+"d8/d7e/common_2deathtypes_2all_8qc.html#ab228bbc4e90e596f0f88f2556ee96c59":[2,0,1,1,3,0],
+"d8/d7e/common_2deathtypes_2all_8qc_source.html":[2,0,1,1,3],
+"d8/d86/command_8qc.html":[2,0,3,1,2],
+"d8/d86/command_8qc.html#a8011943c633419e1e39634df6e77b6d0":[2,0,3,1,2,0],
+"d8/d86/command_8qc_source.html":[2,0,3,1,2],
+"d8/d88/keylock_8qc.html":[2,0,1,13,3,16],
 "d8/d88/keylock_8qc.html#a1f7801877acc75d67d14be456bf88ac8":[2,0,1,13,3,16,2],
 "d8/d88/keylock_8qc.html#ada34f9fca40e8ccc3bd745d6da3b4a00":[2,0,1,13,3,16,1],
 "d8/d88/keylock_8qc.html#aedab72402ed81e3b45d4e61d16ceb2fe":[2,0,1,13,3,16,0],
@@ -238,16 +249,5 @@ var NAVTREEINDEX68 =
 "d8/da4/classInputContainer.html#afc9428d371ed63dd0316db5558e81d30":[1,0,47,45],
 "d8/da6/interpolate_8qh.html":[2,0,3,0,8],
 "d8/da6/interpolate_8qh.html#a10cf074544b4da37db572f5a4b8d603a":[2,0,3,0,8,7],
-"d8/da6/interpolate_8qh.html#a20faa367e0199c3321dae4b3a8a9e265":[2,0,3,0,8,10],
-"d8/da6/interpolate_8qh.html#a262c34c2f395aba2418eea212c645708":[2,0,3,0,8,0],
-"d8/da6/interpolate_8qh.html#a2853daa5f3757edf33a7f0498ae6c62a":[2,0,3,0,8,13],
-"d8/da6/interpolate_8qh.html#a3780573ed7bdd32ade50ed6f1636b0fe":[2,0,3,0,8,12],
-"d8/da6/interpolate_8qh.html#a5730a5d99021203efb546d3b48f7b293":[2,0,3,0,8,17],
-"d8/da6/interpolate_8qh.html#a7c4006704a54ac12614479ae53124f32":[2,0,3,0,8,15],
-"d8/da6/interpolate_8qh.html#a899389673f84dccfe9c1c8bc5fc1db25":[2,0,3,0,8,4],
-"d8/da6/interpolate_8qh.html#aa05bdfb86df6d00a1349cd5888921fbc":[2,0,3,0,8,14],
-"d8/da6/interpolate_8qh.html#aa7e2677ea5abc936dbc1db51b1a1fa0a":[2,0,3,0,8,6],
-"d8/da6/interpolate_8qh.html#aade1f9c09c5bfb8f6a54b58faf0ad114":[2,0,3,0,8,3],
-"d8/da6/interpolate_8qh.html#ab1498da7c18f6f12dd26e231e73c0213":[2,0,3,0,8,8],
-"d8/da6/interpolate_8qh.html#aba40025d8d50d62ac2687367f14df4c0":[2,0,3,0,8,2]
+"d8/da6/interpolate_8qh.html#a20faa367e0199c3321dae4b3a8a9e265":[2,0,3,0,8,10]
 };

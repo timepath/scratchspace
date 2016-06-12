@@ -45,5 +45,5 @@ var searchData=
   ['drawpic_5fskin',['drawpic_skin',['../d8/db6/client_2miscfunctions_8qh.html#a72ead50803274d0deea72a58362633f7',1,'miscfunctions.qh']]],
   ['drawsetcliparea',['drawsetcliparea',['../d8/db6/client_2miscfunctions_8qh.html#a185392e9b24cbbbea1aeb85a1c54df98',1,'miscfunctions.qh']]],
   ['drawstring',['drawstring',['../d8/db6/client_2miscfunctions_8qh.html#a356d948043e8f53b9515c7e146255da4',1,'miscfunctions.qh']]],
-  ['droptofloor',['droptofloor',['../dd/d8b/sys-pre_8qh.html#a1b69a3a134506189b3d054e6c6f2896c',1,'sys-pre.qh']]]
+  ['droptofloor',['droptofloor',['../d2/d77/pre_8qh.html#a1b69a3a134506189b3d054e6c6f2896c',1,'droptofloor():&#160;pre.qh'],['../d3/dd0/self_8qh.html#a15aa1aefc40b6101fd278636531103d1',1,'droptofloor():&#160;self.qh'],['../dd/d8b/sys-pre_8qh.html#a1b69a3a134506189b3d054e6c6f2896c',1,'droptofloor():&#160;sys-pre.qh']]]
 ];

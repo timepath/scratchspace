@@ -45,8 +45,6 @@ var searchData=
   ['active_5ftoggle',['ACTIVE_TOGGLE',['../d5/d26/server_2defs_8qh.html#ae19e99f7f5da93defcab2e20ec7c437d',1,'defs.qh']]],
   ['activeweapon',['activeweapon',['../d0/d2a/client_2main_8qh.html#ae783da23fb4a6fdb51d1241a36f6ba94',1,'main.qh']]],
   ['acvnn',['ACVNN',['../dc/de5/common_2notifications_2all_8qh.html#aea5a1958d6dc953f8ae9485c5ad84b68',1,'all.qh']]],
-  ['adaptor_5fthink2touch',['adaptor_think2touch',['../d3/dd0/self_8qh.html#a52460eee338d17436b2c49c0231f7b3e',1,'self.qh']]],
-  ['adaptor_5fthink2use',['adaptor_think2use',['../d3/dd0/self_8qh.html#a0701aa7e527660e2a38828beb26d02d4',1,'self.qh']]],
   ['adaptor_5fthink2use_5fhittype_5fsplash',['adaptor_think2use_hittype_splash',['../dc/dc6/server_2miscfunctions_8qc.html#af695d661864cdf0f78273b0a8717a1e9',1,'miscfunctions.qc']]],
   ['add_5fcheats',['ADD_CHEATS',['../d6/de9/cheats_8qc.html#a8ff454445bb7c14281a20c18259c2352',1,'cheats.qc']]],
   ['add_5ffailure',['ADD_FAILURE',['../d4/d5b/test_8qh.html#a091e16c53287b9120c8aee844f56d938',1,'test.qh']]],

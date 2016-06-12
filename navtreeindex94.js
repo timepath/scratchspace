@@ -1,5 +1,16 @@
 var NAVTREEINDEX94 =
 {
+"db/de2/classXonoticScreenshotViewerDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,213,45],
+"db/de2/classXonoticScreenshotViewerDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,213,93],
+"db/de2/classXonoticScreenshotViewerDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,213,62],
+"db/de2/classXonoticScreenshotViewerDialog.html#af1aab403dc54575707fd57991312b201":[1,0,213,37],
+"db/de2/classXonoticScreenshotViewerDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,213,16],
+"db/de2/classXonoticScreenshotViewerDialog.html#af85a3b5ec342f091d7fac50105141c07":[1,0,213,19],
+"db/de2/classXonoticScreenshotViewerDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,213,29],
+"db/de2/classXonoticScreenshotViewerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,213,2],
+"db/de2/classXonoticScreenshotViewerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,213,27],
+"db/de2/classXonoticScreenshotViewerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,213,31],
+"db/de2/classXonoticScreenshotViewerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,213,86],
 "db/de3/mutators_2mutator_2sandbox_2module_8inc.html":[2,0,1,9,0,25,2],
 "db/de3/mutators_2mutator_2sandbox_2module_8inc_source.html":[2,0,1,9,0,25,2],
 "db/de8/effectinfo__gentle__particlegibs_8inc.html":[2,0,1,2,14],
@@ -238,16 +249,5 @@ var NAVTREEINDEX94 =
 "dc/d06/classDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,22,1],
 "dc/d06/classDialog.html#a3c982e9f0a22c38f840b3310e324ebea":[1,0,22,43],
 "dc/d06/classDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,22,65],
-"dc/d06/classDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,22,12],
-"dc/d06/classDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,22,39],
-"dc/d06/classDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,22,17],
-"dc/d06/classDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,22,45],
-"dc/d06/classDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,22,23],
-"dc/d06/classDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,22,31],
-"dc/d06/classDialog.html#a53de8355052b658819638577356cc8f3":[1,0,22,44],
-"dc/d06/classDialog.html#a634646fdc3d14fa0d3fcdc8cc5eb5d97":[1,0,22,67],
-"dc/d06/classDialog.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,22,6],
-"dc/d06/classDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,22,54],
-"dc/d06/classDialog.html#a67d95732d49da439095483530aca8804":[1,0,22,42],
-"dc/d06/classDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,22,7]
+"dc/d06/classDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,22,12]
 };

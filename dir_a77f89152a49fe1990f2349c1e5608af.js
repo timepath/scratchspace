@@ -5,7 +5,7 @@ var dir_a77f89152a49fe1990f2349c1e5608af =
     [ "dpextensions.qh", "d3/d9e/dpextensions_8qh.html", "d3/d9e/dpextensions_8qh" ],
     [ "keycodes.qh", "dc/d43/keycodes_8qh.html", "dc/d43/keycodes_8qh" ],
     [ "menudefs.qh", "d0/d95/menudefs_8qh.html", "d0/d95/menudefs_8qh" ],
-    [ "post.qh", "d6/da0/post_8qh.html", null ],
+    [ "post.qh", "d6/da0/post_8qh.html", "d6/da0/post_8qh" ],
     [ "pre.qh", "d2/d77/pre_8qh.html", "d2/d77/pre_8qh" ],
     [ "progsdefs.qh", "d8/dc0/progsdefs_8qh.html", "d8/dc0/progsdefs_8qh" ]
 ];

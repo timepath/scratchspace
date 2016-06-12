@@ -381,9 +381,9 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00121">121</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00109">autocvar_menu_slist_modimpurity</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00108">autocvar_menu_slist_purethreshold</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00110">autocvar_menu_slist_recommendations</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00111">autocvar_menu_slist_recommendations_maxping</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00112">autocvar_menu_slist_recommendations_minfreeslots</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00113">autocvar_menu_slist_recommendations_minhumans</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00114">autocvar_menu_slist_recommendations_purethreshold</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f">gethostcachenumber()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73">gethostcachestring()</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00124">IsPromoted</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00125">IsRecommended</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00072">LOG_TRACEF</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00095">s</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof()</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a">strtolower()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, and <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00022">tokenizebyseparator</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00109">autocvar_menu_slist_modimpurity</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00108">autocvar_menu_slist_purethreshold</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00110">autocvar_menu_slist_recommendations</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00111">autocvar_menu_slist_recommendations_maxping</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00112">autocvar_menu_slist_recommendations_minfreeslots</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00113">autocvar_menu_slist_recommendations_minhumans</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00114">autocvar_menu_slist_recommendations_purethreshold</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f">gethostcachenumber()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73">gethostcachestring()</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00124">IsPromoted</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00125">IsRecommended</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00072">LOG_TRACEF</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof()</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a">strtolower()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, and <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00022">tokenizebyseparator</a>.</p>
 <div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;{</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, k, v, modtype = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordtype">string</span> s, k, v, modtype = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordtype">int</span> j, m, impure = 0, freeslots = 0, sflags = 0;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73">gethostcachestring</a>(SLIST_FIELD_QCSTATUS, entry);</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    m = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a758e7e078dd3038c82e255ff8927975c">tokenizebyseparator</a>(s, <span class="stringliteral">&quot;:&quot;</span>);</div>
@@ -486,7 +486,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="serverlist_8qh_html_a6870c63af1e86c6fa49aa497e999e532"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#a6870c63af1e86c6fa49aa497e999e532">IsPromoted</a></div><div class="ttdeci">#define IsPromoted(srv)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00124">serverlist.qh:124</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a7169906e993d5505645b555d9454826f"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f">gethostcachenumber</a></div><div class="ttdeci">float gethostcachenumber(float fld, float hostnr)</div></div>
 <div class="ttc" id="serverlist_8qh_html_a402f52693619967039b11ca0de10ed0e"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#a402f52693619967039b11ca0de10ed0e">autocvar_menu_slist_recommendations_minfreeslots</a></div><div class="ttdeci">float autocvar_menu_slist_recommendations_minfreeslots</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00112">serverlist.qh:112</a></div></div>
-<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_aff3a1aea4c0a4fe78de55ea9c7389722"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#aff3a1aea4c0a4fe78de55ea9c7389722">IsRecommended</a></div><div class="ttdeci">#define IsRecommended(srv)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00125">serverlist.qh:125</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_a8c9729e7e11aa6366afb478979cea7c9"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#a8c9729e7e11aa6366afb478979cea7c9">autocvar_menu_slist_modimpurity</a></div><div class="ttdeci">float autocvar_menu_slist_modimpurity</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00109">serverlist.qh:109</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_a9db0cd56872525fbe2adbd0a400464d8"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#a9db0cd56872525fbe2adbd0a400464d8">autocvar_menu_slist_purethreshold</a></div><div class="ttdeci">float autocvar_menu_slist_purethreshold</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00108">serverlist.qh:108</a></div></div>
@@ -528,7 +527,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00105">105</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00106">autocvar_menu_slist_categories</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>, and <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00064">RetrieveCategoryEnt()</a>.</p>
+<p>References <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00106">autocvar_menu_slist_categories</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d2/d77/pre_8qh_source.html#l00006">error</a>, and <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00064">RetrieveCategoryEnt()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> catent = <a class="code" href="../../d6/d74/serverlist_8qc.html#a4382ec8abd0b7afb51d9855b512f95f2">RetrieveCategoryEnt</a>(cat);</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    <span class="keywordflow">if</span>(catent)</div>
@@ -539,21 +538,21 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    {</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(sprintf(<span class="stringliteral">&quot;CheckCategoryOverride(%d): Improper category number!\n&quot;</span>, cat));</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(sprintf(<span class="stringliteral">&quot;CheckCategoryOverride(%d): Improper category number!\n&quot;</span>, cat));</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">return</span> cat;</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    }</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="serverlist_8qc_html_a4382ec8abd0b7afb51d9855b512f95f2"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a4382ec8abd0b7afb51d9855b512f95f2">RetrieveCategoryEnt</a></div><div class="ttdeci">entity RetrieveCategoryEnt(int catnum)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00064">serverlist.qc:64</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_ae823cde2518605dbf5e749613f8b4208"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#ae823cde2518605dbf5e749613f8b4208">autocvar_menu_slist_categories</a></div><div class="ttdeci">SLIST_FIELDS float autocvar_menu_slist_categories</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00106">serverlist.qh:106</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a56b53595c8aa15ca107c03896db91fd2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a></div><div class="ttdeci">void error(string err,...)</div></div>
+<div class="ttc" id="pre_8qh_html_a0c5e59a7caaa02f887d077eaa467f209"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a></div><div class="ttdeci">#define error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00006">pre.qh:6</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_ae9345a36b2cb9eebb8c90fbf4270fd03_cgraph.svg" width="462" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_ae9345a36b2cb9eebb8c90fbf4270fd03_cgraph.svg" width="366" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -647,7 +646,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00278">278</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00113">NEW</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00106">NEW</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d94/dialog__multiplayer__join_8qc_source.html#l00017">XonoticServerListTab_fill()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;{</div>
@@ -656,7 +655,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    me.configureXonoticServerList(me);</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <span class="keywordflow">return</span> me;</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;}</div>
-<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00113">oo.qh:113</a></div></div>
+<div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00106">oo.qh:106</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="classXonoticServerList_html"><div class="ttname"><a href="../../d2/dec/classXonoticServerList.html">XonoticServerList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00004">serverlist.qh:4</a></div></div>
 </div><!-- fragment -->
@@ -697,7 +696,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00009">9</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00143">cat_dioverride</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00141">cat_dioverride_string</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00142">cat_enoverride</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00140">cat_enoverride_string</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d6/d74/serverlist_8qc.html#a23e51a6850c6a0b940b2c5c12557e66d">PROCESS_OVERRIDE</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00095">s</a>, and <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00150">SLIST_CATEGORIES</a>.</p>
+<p>References <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00143">cat_dioverride</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00141">cat_dioverride_string</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00142">cat_enoverride</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00140">cat_enoverride_string</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d6/d74/serverlist_8qc.html#a23e51a6850c6a0b940b2c5c12557e66d">PROCESS_OVERRIDE</a>, and <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00150">SLIST_CATEGORIES</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/dc2/menu_8qc_source.html#l00056">m_init()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
@@ -714,7 +713,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">    #undef SLIST_CATEGORY</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordtype">int</span> i, x, catnum;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">string</span> s;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<span class="preprocessor">    #define PROCESS_OVERRIDE(override_string,override_field) \</span></div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">        for(i = 0; i &lt; category_ent_count; ++i) \</span></div>
@@ -754,7 +753,6 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="ttc" id="serverlist_8qh_html_aaceb069f36460b6e5fc89f528210e9fc"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#aaceb069f36460b6e5fc89f528210e9fc">SLIST_CATEGORIES</a></div><div class="ttdeci">#define SLIST_CATEGORIES</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00150">serverlist.qh:150</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_aad45c379560ebf9d5398588151a5f4ea"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#aad45c379560ebf9d5398588151a5f4ea">cat_enoverride_string</a></div><div class="ttdeci">string cat_enoverride_string</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00140">serverlist.qh:140</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_a23e51a6850c6a0b940b2c5c12557e66d"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a23e51a6850c6a0b940b2c5c12557e66d">PROCESS_OVERRIDE</a></div><div class="ttdeci">#define PROCESS_OVERRIDE(override_string, override_field)</div></div>
 <div class="ttc" id="serverlist_8qh_html_ab2b8d1e36271519261d458ffe748f398"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#ab2b8d1e36271519261d458ffe748f398">cat_dioverride_string</a></div><div class="ttdeci">string cat_dioverride_string</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00141">serverlist.qh:141</a></div></div>
@@ -799,7 +797,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00064">64</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00136">categories</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00137">category_ent_count</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00011">NULL</a>.</p>
+<p>References <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00136">categories</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00137">category_ent_count</a>, <a class="el" href="../../d2/d77/pre_8qh_source.html#l00006">error</a>, and <a class="el" href="../../d6/da0/post_8qh_source.html#l00015">NULL</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00105">CheckCategoryOverride()</a>, and <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00816">XonoticServerList_drawListBoxItem()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;{</div>
@@ -809,30 +807,20 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(sprintf(<span class="stringliteral">&quot;RetrieveCategoryEnt(%d): Improper category number!\n&quot;</span>, catnum));</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(sprintf(<span class="stringliteral">&quot;RetrieveCategoryEnt(%d): Improper category number!\n&quot;</span>, catnum));</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
 <div class="ttc" id="serverlist_8qh_html_a90279a7c644f8d54f71ef656745e9e22"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#a90279a7c644f8d54f71ef656745e9e22">category_ent_count</a></div><div class="ttdeci">int category_ent_count</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00137">serverlist.qh:137</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a56b53595c8aa15ca107c03896db91fd2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a></div><div class="ttdeci">void error(string err,...)</div></div>
-<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
+<div class="ttc" id="pre_8qh_html_a0c5e59a7caaa02f887d077eaa467f209"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a></div><div class="ttdeci">#define error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00006">pre.qh:6</a></div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_addba0d8a8d087dff40e53092b26210f5"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#addba0d8a8d087dff40e53092b26210f5">categories</a></div><div class="ttdeci">entity categories[MAX_CATEGORIES]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00136">serverlist.qh:136</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-9-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a4382ec8abd0b7afb51d9855b512f95f2_cgraph.svg" width="251" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a4382ec8abd0b7afb51d9855b512f95f2_icgraph.svg" width="384" height="103"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -880,11 +868,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="serverlist_8qh_html_ae823cde2518605dbf5e749613f8b4208"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#ae823cde2518605dbf5e749613f8b4208">autocvar_menu_slist_categories</a></div><div class="ttdeci">SLIST_FIELDS float autocvar_menu_slist_categories</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00106">serverlist.qh:106</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_a378f23675e68ccb61d7761021e559132"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#a378f23675e68ccb61d7761021e559132">REFRESHSERVERLIST_RESORT</a></div><div class="ttdeci">const float REFRESHSERVERLIST_RESORT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00116">serverlist.qh:116</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-11-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a0d3acf1ab469337eb7fd7bb520e3ace0_icgraph.svg" width="379" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -930,11 +918,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qh_html_a3d23a92a3bb3bcbb467f1fa2bdaa54b3"><div class="ttname"><a href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a></div><div class="ttdeci">#define localcmd</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d95/menudefs_8qh_source.html#l00022">menudefs.qh:22</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-11-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-12-content" class="dyncontent" style="display:none;">
+<div id="dynsection-11-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_aa2ff59e556502ac72000ba9410cb567f_icgraph.svg" width="384" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -982,21 +970,21 @@ Functions</h2></td></tr>
 <div class="ttc" id="menu_8qh_html_a6821d71fd3bce5f85dd799c16c74c009"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a6821d71fd3bce5f85dd799c16c74c009">MENU_SOUND_SELECT</a></div><div class="ttdeci">const string MENU_SOUND_SELECT</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00054">menu.qh:54</a></div></div>
 <div class="ttc" id="menu_8qc_html_a0839df76702206b09937c44849bbe9f9"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9">m_play_click_sound</a></div><div class="ttdeci">void m_play_click_sound(string soundfile)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00995">menu.qc:995</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-12-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-13-content" class="dyncontent" style="display:none;">
+<div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a08ef82588b9ceab8afb7c3a5ad878fec_cgraph.svg" width="470" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-13" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-13-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-13-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a08ef82588b9ceab8afb7c3a5ad878fec_icgraph.svg" width="363" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1051,21 +1039,21 @@ Functions</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
 <div class="ttc" id="serverlist_8qh_html_ac95397475efbbc5120143c5b9138fc1b"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#ac95397475efbbc5120143c5b9138fc1b">REFRESHSERVERLIST_REFILTER</a></div><div class="ttdeci">const float REFRESHSERVERLIST_REFILTER</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00117">serverlist.qh:117</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-15-content" class="dyncontent" style="display:none;">
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_ac25113395e23fb033caa4ed0b9e5c261_cgraph.svg" width="310" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-16-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_ac25113395e23fb033caa4ed0b9e5c261_icgraph.svg" width="398" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1119,21 +1107,21 @@ Functions</h2></td></tr>
 <div class="ttc" id="self_8qh_html_a9cd821b89f6b3d683d8f7a1537d77795"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795">org</a></div><div class="ttdeci">vector org</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00084">self.qh:84</a></div></div>
 <div class="ttc" id="vector_8qh_html_adce3aade2f97ac6fb4688fe0a7005d27"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a></div><div class="ttdeci">const vector eX</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00037">vector.qh:37</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-16" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-16-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-16-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a4c2619f15b606e7381a0d67501ae9198_cgraph.svg" width="371" height="154"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a4c2619f15b606e7381a0d67501ae9198_icgraph.svg" width="374" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1172,11 +1160,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    me.setSortOrder(me, SLIST_FIELD_MAP, -1); <span class="comment">// why?</span></div>
 <div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;}</div>
 </div><!-- fragment -->
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_aa0e0784a97109433c6a862b63e0d739e_icgraph.svg" width="366" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1215,11 +1203,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    me.setSortOrder(me, SLIST_FIELD_NAME, -1); <span class="comment">// why?</span></div>
 <div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;}</div>
 </div><!-- fragment -->
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a248261d8803e9d1338b4cbddf722130e_icgraph.svg" width="374" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1258,11 +1246,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    me.setSortOrder(me, SLIST_FIELD_PING, +1);</div>
 <div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;}</div>
 </div><!-- fragment -->
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a16a54fe3779bc625ce84508d8c575cbc_icgraph.svg" width="366" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1301,11 +1289,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    me.setSortOrder(me, SLIST_FIELD_NUMHUMANS, -1);</div>
 <div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;}</div>
 </div><!-- fragment -->
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a81e9dffb8d7e8916a40b6a5e683c1103_icgraph.svg" width="376" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1352,11 +1340,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;}</div>
 <div class="ttc" id="serverlist_8qh_html_ac95397475efbbc5120143c5b9138fc1b"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#ac95397475efbbc5120143c5b9138fc1b">REFRESHSERVERLIST_REFILTER</a></div><div class="ttdeci">const float REFRESHSERVERLIST_REFILTER</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00117">serverlist.qh:117</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a12bfb26ccfcef8ad977818e85cee01d5_icgraph.svg" width="387" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1403,11 +1391,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;}</div>
 <div class="ttc" id="serverlist_8qh_html_ac95397475efbbc5120143c5b9138fc1b"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#ac95397475efbbc5120143c5b9138fc1b">REFRESHSERVERLIST_REFILTER</a></div><div class="ttdeci">const float REFRESHSERVERLIST_REFILTER</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00117">serverlist.qh:117</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a684de7d771e8759c28b3d09b2b667b78_icgraph.svg" width="371" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1441,11 +1429,11 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00631">631</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00042">K_END</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00719">MapInfo_Type_ToString()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00095">s</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00043">strstrofs</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
+<p>References <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00042">K_END</a>, <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00719">MapInfo_Type_ToString()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00043">strstrofs</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00752">XonoticServerList_resizeNotify()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;{</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, t;</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    <span class="keywordtype">string</span> s, t;</div>
 <div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    <span class="keywordtype">float</span> i, m;</div>
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    s = me.filterString;</div>
 <div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    m = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(s, <span class="stringliteral">&quot;:&quot;</span>, 0);</div>
@@ -1489,7 +1477,6 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00674"></a><span class="lineno">  674</span>&#160;    me.controlledTextbox.keyUp(me.controlledTextbox, <a class="code" href="../../dc/d03/keycodes_8qc.html#abaf0818691acd49dda874a9f7a781cfd">K_END</a>, 0, 0);</div>
 <div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;    <span class="comment">//ServerList_Filter_Change(me.controlledTextbox, me);</span></div>
 <div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a2ac3100017ecf2236493ea038c4d2083"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a></div><div class="ttdeci">#define strstrofs</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00043">dpextensions.qh:43</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_abaf0818691acd49dda874a9f7a781cfd"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#abaf0818691acd49dda874a9f7a781cfd">K_END</a></div><div class="ttdeci">float K_END</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00042">keycodes.qc:42</a></div></div>
@@ -1497,21 +1484,21 @@ Functions</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_a40f6c65c8bbcfa51df783f2809a2502b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a></div><div class="ttdeci">string substring(string s, float start, float length)</div></div>
 <div class="ttc" id="mapinfo_8qc_html_a2e14ca300b05c38e142969284e000b8f"><div class="ttname"><a href="../../d3/d46/mapinfo_8qc.html#a2e14ca300b05c38e142969284e000b8f">MapInfo_Type_ToString</a></div><div class="ttdeci">string MapInfo_Type_ToString(float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d46/mapinfo_8qc_source.html#l00719">mapinfo.qc:719</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a587213c0e3ae8ab5fa77efb6b74ab13e_cgraph.svg" width="363" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a587213c0e3ae8ab5fa77efb6b74ab13e_icgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1567,21 +1554,21 @@ Functions</h2></td></tr>
 <div class="ttc" id="menu_2xonotic_2util_8qc_html_afe98f5a378a0f97c190687977beb0c1d"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#afe98f5a378a0f97c190687977beb0c1d">setZonedTooltip</a></div><div class="ttdeci">void setZonedTooltip(entity e, string theTooltip, string theCvar)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00253">util.qc:253</a></div></div>
 <div class="ttc" id="menu_2xonotic_2util_8qc_html_ad765c653d11adeb645af29a3beb33556"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556">clearTooltip</a></div><div class="ttdeci">void clearTooltip(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00274">util.qc:274</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_abbb15d670a9ff9ee5f9c6263474960b7_cgraph.svg" width="622" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_abbb15d670a9ff9ee5f9c6263474960b7_icgraph.svg" width="408" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1653,18 +1640,18 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00812">812</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00011">NULL</a>, and <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00786">ServerList_Connect_Click()</a>.</p>
+<p>References <a class="el" href="../../d6/da0/post_8qh_source.html#l00015">NULL</a>, and <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00786">ServerList_Connect_Click()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;{</div>
-<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;    <a class="code" href="../../d6/d74/serverlist_8qc.html#aa2ff59e556502ac72000ba9410cb567f">ServerList_Connect_Click</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, me);</div>
+<div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;    <a class="code" href="../../d6/d74/serverlist_8qc.html#aa2ff59e556502ac72000ba9410cb567f">ServerList_Connect_Click</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, me);</div>
 <div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;}</div>
-<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_aa2ff59e556502ac72000ba9410cb567f"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#aa2ff59e556502ac72000ba9410cb567f">ServerList_Connect_Click</a></div><div class="ttdeci">void ServerList_Connect_Click(entity btn, entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00786">serverlist.qc:786</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_ab3179684275c8e6f9efef464f9b05456_cgraph.svg" width="368" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1688,7 +1675,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00413">413</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/d97/menu_2xonotic_2util_8qh_source.html#l00049">_Nex_ExtResponseSystem_BannedServersNeedsRefresh</a>, <a class="el" href="../../df/d97/menu_2xonotic_2util_8qh_source.html#l00051">_Nex_ExtResponseSystem_PromotedServersNeedsRefresh</a>, <a class="el" href="../../df/d97/menu_2xonotic_2util_8qh_source.html#l00053">_Nex_ExtResponseSystem_RecommendedServersNeedsRefresh</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00106">autocvar_menu_slist_categories</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00107">autocvar_menu_slist_categories_onlyifmultiple</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00148">category_draw_count</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00137">category_ent_count</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00147">category_item</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00146">category_name</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f">gethostcachenumber()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73">gethostcachestring()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aa97859f65cf8759c19a944a8c7ec4464">gethostcachevalue()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00011">NULL</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00117">REFRESHSERVERLIST_REFILTER</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00119">REFRESHSERVERLIST_RESET</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00116">REFRESHSERVERLIST_RESORT</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00263">ServerList_Update_favoriteButton()</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00104">SLIST_HOSTCACHEVIEWCOUNT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../df/d97/menu_2xonotic_2util_8qh_source.html#l00049">_Nex_ExtResponseSystem_BannedServersNeedsRefresh</a>, <a class="el" href="../../df/d97/menu_2xonotic_2util_8qh_source.html#l00051">_Nex_ExtResponseSystem_PromotedServersNeedsRefresh</a>, <a class="el" href="../../df/d97/menu_2xonotic_2util_8qh_source.html#l00053">_Nex_ExtResponseSystem_RecommendedServersNeedsRefresh</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00106">autocvar_menu_slist_categories</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00107">autocvar_menu_slist_categories_onlyifmultiple</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00148">category_draw_count</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00137">category_ent_count</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00147">category_item</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00146">category_name</a>, <a class="el" href="../../d2/d77/pre_8qh_source.html#l00006">error</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f">gethostcachenumber()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73">gethostcachestring()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aa97859f65cf8759c19a944a8c7ec4464">gethostcachevalue()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00015">NULL</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00117">REFRESHSERVERLIST_REFILTER</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00119">REFRESHSERVERLIST_RESET</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00116">REFRESHSERVERLIST_RESORT</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00263">ServerList_Update_favoriteButton()</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00104">SLIST_HOSTCACHEVIEWCOUNT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;{</div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    <span class="keywordtype">int</span> i;</div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    <span class="keywordtype">bool</span> found = <span class="keyword">false</span>, owned;</div>
@@ -1774,10 +1761,10 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;                <span class="comment">// invariant in the binary search and thus has</span></div>
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;                <span class="comment">// to be handled separately.</span></div>
 <div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f">gethostcachenumber</a>(SLIST_FIELD_CATEGORY, first) != x)</div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;                    <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;Category mismatch I&quot;</span>);</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;                    <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;Category mismatch I&quot;</span>);</div>
 <div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;                <span class="keywordflow">if</span>(first &gt; 0)</div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;                    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f">gethostcachenumber</a>(SLIST_FIELD_CATEGORY, first - 1) == x)</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;                        <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;Category mismatch II&quot;</span>);</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;                        <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;Category mismatch II&quot;</span>);</div>
 <div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;                <a class="code" href="../../dd/d7a/serverlist_8qh.html#aa30f357ba44e678abc2f51c91f962229">category_name</a>[<a class="code" href="../../dd/d7a/serverlist_8qh.html#ad42754c8709bbba44ec357a3c1b2da7c">category_draw_count</a>] = x;</div>
 <div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;                <a class="code" href="../../dd/d7a/serverlist_8qh.html#a76edb7685731179ca3d6e9c222b92eb2">category_item</a>[<a class="code" href="../../dd/d7a/serverlist_8qh.html#ad42754c8709bbba44ec357a3c1b2da7c">category_draw_count</a>] = first;</div>
 <div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;                ++<a class="code" href="../../dd/d7a/serverlist_8qh.html#ad42754c8709bbba44ec357a3c1b2da7c">category_draw_count</a>;</div>
@@ -1805,10 +1792,10 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;                }</div>
 <div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;                <span class="keywordflow">if</span> (catl == x) {</div>
 <div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;                    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f">gethostcachenumber</a>(SLIST_FIELD_CATEGORY, last) != x)</div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;                        <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;Category mismatch III&quot;</span>);</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;                        <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;Category mismatch III&quot;</span>);</div>
 <div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;                    <span class="keywordflow">if</span>(last &gt; 0)</div>
 <div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;                        <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f">gethostcachenumber</a>(SLIST_FIELD_CATEGORY, last - 1) == x)</div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;                            <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;Category mismatch IV&quot;</span>);</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;                            <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;Category mismatch IV&quot;</span>);</div>
 <div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;                    <a class="code" href="../../dd/d7a/serverlist_8qh.html#aa30f357ba44e678abc2f51c91f962229">category_name</a>[<a class="code" href="../../dd/d7a/serverlist_8qh.html#ad42754c8709bbba44ec357a3c1b2da7c">category_draw_count</a>] = x;</div>
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;                    <a class="code" href="../../dd/d7a/serverlist_8qh.html#a76edb7685731179ca3d6e9c222b92eb2">category_item</a>[<a class="code" href="../../dd/d7a/serverlist_8qh.html#ad42754c8709bbba44ec357a3c1b2da7c">category_draw_count</a>] = last;</div>
 <div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;                    ++<a class="code" href="../../dd/d7a/serverlist_8qh.html#ad42754c8709bbba44ec357a3c1b2da7c">category_draw_count</a>;</div>
@@ -1884,7 +1871,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;    <span class="keywordflow">if</span>(me.ipAddressBoxFocused != me.ipAddressBox.focused)</div>
 <div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    {</div>
 <div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;        <span class="keywordflow">if</span>(me.ipAddressBox.focused || me.ipAddressBoxFocused &lt; 0)</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;            <a class="code" href="../../d6/d74/serverlist_8qc.html#abbb15d670a9ff9ee5f9c6263474960b7">ServerList_Update_favoriteButton</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, me);</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;            <a class="code" href="../../d6/d74/serverlist_8qc.html#abbb15d670a9ff9ee5f9c6263474960b7">ServerList_Update_favoriteButton</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, me);</div>
 <div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;        me.ipAddressBoxFocused = me.ipAddressBox.focused;</div>
 <div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;    }</div>
 <div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;</div>
@@ -1900,27 +1887,27 @@ Functions</h2></td></tr>
 <div class="ttc" id="serverlist_8qh_html_a76edb7685731179ca3d6e9c222b92eb2"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#a76edb7685731179ca3d6e9c222b92eb2">category_item</a></div><div class="ttdeci">int category_item[MAX_CATEGORIES]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00147">serverlist.qh:147</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_aa65e17b926d93109ee1b0ec291184bf6"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#aa65e17b926d93109ee1b0ec291184bf6">REFRESHSERVERLIST_RESET</a></div><div class="ttdeci">const float REFRESHSERVERLIST_RESET</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00119">serverlist.qh:119</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_ae823cde2518605dbf5e749613f8b4208"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#ae823cde2518605dbf5e749613f8b4208">autocvar_menu_slist_categories</a></div><div class="ttdeci">SLIST_FIELDS float autocvar_menu_slist_categories</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00106">serverlist.qh:106</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a56b53595c8aa15ca107c03896db91fd2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a></div><div class="ttdeci">void error(string err,...)</div></div>
-<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_a378f23675e68ccb61d7761021e559132"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#a378f23675e68ccb61d7761021e559132">REFRESHSERVERLIST_RESORT</a></div><div class="ttdeci">const float REFRESHSERVERLIST_RESORT</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00116">serverlist.qh:116</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_ad43091e64f232595fc865559323b83ea"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#ad43091e64f232595fc865559323b83ea">autocvar_menu_slist_categories_onlyifmultiple</a></div><div class="ttdeci">float autocvar_menu_slist_categories_onlyifmultiple</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00107">serverlist.qh:107</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae77015f06980a1a476856976f1af9099"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae77015f06980a1a476856976f1af9099">SLIST_HOSTCACHEVIEWCOUNT</a></div><div class="ttdeci">float SLIST_HOSTCACHEVIEWCOUNT</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/menudefs_8qc_source.html#l00104">menudefs.qc:104</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_ac95397475efbbc5120143c5b9138fc1b"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#ac95397475efbbc5120143c5b9138fc1b">REFRESHSERVERLIST_REFILTER</a></div><div class="ttdeci">const float REFRESHSERVERLIST_REFILTER</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00117">serverlist.qh:117</a></div></div>
+<div class="ttc" id="pre_8qh_html_a0c5e59a7caaa02f887d077eaa467f209"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a></div><div class="ttdeci">#define error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00006">pre.qh:6</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aa97859f65cf8759c19a944a8c7ec4464"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa97859f65cf8759c19a944a8c7ec4464">gethostcachevalue</a></div><div class="ttdeci">float gethostcachevalue(float type)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a5c6f925625583541ffb0df18500c1f73"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73">gethostcachestring</a></div><div class="ttdeci">string gethostcachestring(float type, float hostnr)</div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
 <div class="ttc" id="menu_2xonotic_2util_8qh_html_a26806fad571ec451328ac79c060cd921"><div class="ttname"><a href="../../df/d97/menu_2xonotic_2util_8qh.html#a26806fad571ec451328ac79c060cd921">_Nex_ExtResponseSystem_BannedServersNeedsRefresh</a></div><div class="ttdeci">float _Nex_ExtResponseSystem_BannedServersNeedsRefresh</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d97/menu_2xonotic_2util_8qh_source.html#l00049">util.qh:49</a></div></div>
 <div class="ttc" id="classXonoticServerList_html"><div class="ttname"><a href="../../d2/dec/classXonoticServerList.html">XonoticServerList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00004">serverlist.qh:4</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
 <div class="ttc" id="serverlist_8qh_html_aa30f357ba44e678abc2f51c91f962229"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#aa30f357ba44e678abc2f51c91f962229">category_name</a></div><div class="ttdeci">int category_name[MAX_CATEGORIES]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00146">serverlist.qh:146</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a0299a902125f81a656db3405d4cfca2d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1972,7 +1959,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00816">816</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00148">category_draw_count</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00147">category_item</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00146">category_name</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00086">draw_Fill()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00072">draw_Picture()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00080">draw_PictureSize()</a>, <a class="el" href="../../d9/d62/menu_2draw_8qh_source.html#l00008">draw_scale</a>, <a class="el" href="../../d9/d62/menu_2draw_8qh_source.html#l00007">draw_shift</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00271">draw_Text()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00343">draw_TextShortenToWidth()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00293">draw_TextWidth()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00037">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00038">eY</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00802">getFadedAlpha()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f">gethostcachenumber()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73">gethostcachestring()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00413">modname</a>, <a class="el" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00064">RetrieveCategoryEnt()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00095">s</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00207">SERVERFLAG_PLAYERSTATS</a>, <a class="el" href="../../d6/d74/serverlist_8qc.html#a41281346890a95d43f53bbeebe9b1c81">SET_YRANGE</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00253">setZonedTooltip()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof()</a>, <a class="el" href="../../de/d0d/int_8qh_source.html#l00004">stoi</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00043">strstrofs</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a">strtolower()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00022">tokenizebyseparator</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00084">vector</a>, and <a class="el" href="../../d0/dfe/i18n_8qh_source.html#l00058">ZCTX</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00148">category_draw_count</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00147">category_item</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00146">category_name</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00086">draw_Fill()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00072">draw_Picture()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00080">draw_PictureSize()</a>, <a class="el" href="../../d9/d62/menu_2draw_8qh_source.html#l00008">draw_scale</a>, <a class="el" href="../../d9/d62/menu_2draw_8qh_source.html#l00007">draw_shift</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00271">draw_Text()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00343">draw_TextShortenToWidth()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00293">draw_TextWidth()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00037">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00038">eY</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00802">getFadedAlpha()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a7169906e993d5505645b555d9454826f">gethostcachenumber()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73">gethostcachestring()</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00413">modname</a>, <a class="el" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00064">RetrieveCategoryEnt()</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00207">SERVERFLAG_PLAYERSTATS</a>, <a class="el" href="../../d6/d74/serverlist_8qc.html#a41281346890a95d43f53bbeebe9b1c81">SET_YRANGE</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00253">setZonedTooltip()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof()</a>, <a class="el" href="../../de/d0d/int_8qh_source.html#l00004">stoi</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00043">strstrofs</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#a80c7379e4891614cbb9013c11eeb5d5a">strtolower()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00022">tokenizebyseparator</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00084">vector</a>, and <a class="el" href="../../d0/dfe/i18n_8qh_source.html#l00058">ZCTX</a>.</p>
 <div class="fragment"><div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;{</div>
 <div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;    <span class="comment">// layout: Ping, Server name, Map name, NP, TP, MP</span></div>
 <div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
@@ -1982,7 +1969,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;    <span class="keywordtype">float</span> theAlpha;</div>
 <div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;    <span class="keywordtype">bool</span> pure = <span class="keyword">false</span>, pure_available = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;    <span class="keywordtype">int</span> freeslots = -1, sflags = -1, j, m;</div>
-<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, typestr, versionstr, k, v, <a class="code" href="../../d5/d26/server_2defs_8qh.html#af289ce9e49626ec727198c2d334299bd">modname</a>;</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;    <span class="keywordtype">string</span> s, typestr, versionstr, k, v, <a class="code" href="../../d5/d26/server_2defs_8qh.html#af289ce9e49626ec727198c2d334299bd">modname</a>;</div>
 <div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;</div>
 <div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;    <span class="comment">//printf(&quot;time: %f, i: %d, item: %d, nitems: %d\n&quot;, time, i, item, me.nItems);</span></div>
 <div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;</div>
@@ -2273,7 +2260,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="serverlist_8qh_html_a76edb7685731179ca3d6e9c222b92eb2"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#a76edb7685731179ca3d6e9c222b92eb2">category_item</a></div><div class="ttdeci">int category_item[MAX_CATEGORIES]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00147">serverlist.qh:147</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_a4382ec8abd0b7afb51d9855b512f95f2"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a4382ec8abd0b7afb51d9855b512f95f2">RetrieveCategoryEnt</a></div><div class="ttdeci">entity RetrieveCategoryEnt(int catnum)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00064">serverlist.qc:64</a></div></div>
 <div class="ttc" id="draw_8qc_html_ae1fc75c93136d527f4c296ce527311da"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#ae1fc75c93136d527f4c296ce527311da">draw_Fill</a></div><div class="ttdeci">void draw_Fill(vector theOrigin, vector theSize, vector theColor, float theAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00086">draw.qc:86</a></div></div>
-<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_af289ce9e49626ec727198c2d334299bd"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#af289ce9e49626ec727198c2d334299bd">modname</a></div><div class="ttdeci">string modname</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00413">defs.qh:413</a></div></div>
 <div class="ttc" id="draw_8qc_html_a5fbe1f25dc4a998ac4e41ba6802253f3"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#a5fbe1f25dc4a998ac4e41ba6802253f3">draw_Picture</a></div><div class="ttdeci">void draw_Picture(vector theOrigin, string pic, vector theSize, vector theColor, float theAlpha)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00072">draw.qc:72</a></div></div>
 <div class="ttc" id="menu_2xonotic_2util_8qc_html_afe98f5a378a0f97c190687977beb0c1d"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#afe98f5a378a0f97c190687977beb0c1d">setZonedTooltip</a></div><div class="ttdeci">void setZonedTooltip(entity e, string theTooltip, string theCvar)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00253">util.qc:253</a></div></div>
@@ -2296,11 +2282,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="common_2constants_8qh_html_a40128d49216e2a2f57a563ecf9be33be"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a40128d49216e2a2f57a563ecf9be33be">SERVERFLAG_PLAYERSTATS</a></div><div class="ttdeci">const int SERVERFLAG_PLAYERSTATS</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00207">constants.qh:207</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_aa30f357ba44e678abc2f51c91f962229"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#aa30f357ba44e678abc2f51c91f962229">category_name</a></div><div class="ttdeci">int category_name[MAX_CATEGORIES]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00146">serverlist.qh:146</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a3d865254038d9e2657996a28421aa1cc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2330,11 +2316,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;}</div>
 <div class="ttc" id="menu_2xonotic_2util_8qc_html_ad765c653d11adeb645af29a3beb33556"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556">clearTooltip</a></div><div class="ttdeci">void clearTooltip(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00274">util.qc:274</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_ab298f49df97241c5d4f9fae91ee09edd_cgraph.svg" width="619" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2358,7 +2344,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00401">401</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00118">REFRESHSERVERLIST_ASK</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00118">REFRESHSERVERLIST_ASK</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 <div class="fragment"><div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;{</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d2/dec/classXonoticServerList.html">XonoticServerList</a>).focusEnter(me);</div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; me.nextRefreshTime)</div>
@@ -2369,7 +2355,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    me.nextRefreshTime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 10;</div>
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    me.refreshServerList(me, <a class="code" href="../../dd/d7a/serverlist_8qh.html#a4b91ac5a07f8e4a372686e28423f1d21">REFRESHSERVERLIST_ASK</a>);</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;}</div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_a4b91ac5a07f8e4a372686e28423f1d21"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#a4b91ac5a07f8e4a372686e28423f1d21">REFRESHSERVERLIST_ASK</a></div><div class="ttdeci">const float REFRESHSERVERLIST_ASK</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00118">serverlist.qh:118</a></div></div>
 <div class="ttc" id="classXonoticServerList_html"><div class="ttname"><a href="../../d2/dec/classXonoticServerList.html">XonoticServerList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00004">serverlist.qh:4</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
@@ -2421,11 +2407,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="serverlist_8qh_html_a76edb7685731179ca3d6e9c222b92eb2"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#a76edb7685731179ca3d6e9c222b92eb2">category_item</a></div><div class="ttdeci">int category_item[MAX_CATEGORIES]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00147">serverlist.qh:147</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-33-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a799c01174ef48b12478bb43edec2e39b_cgraph.svg" width="283" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2583,7 +2569,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l01123">1123</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/db1/draw_8qc_source.html#l00045">boxToGlobal()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00053">boxToGlobalSize()</a>, <a class="el" href="../../d9/d19/modalcontroller_8qc_source.html#l00035">DialogOpenButton_Click_withCoords()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00037">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00038">eY</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00008">K_ENTER</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00037">K_INS</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00074">K_KP_ENTER</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00049">K_KP_INS</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00130">K_MOUSE2</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00131">K_MOUSE3</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00010">K_SPACE</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00995">m_play_click_sound()</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00026">main</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00053">MENU_SOUND_OPEN</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00011">NULL</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00084">org</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00786">ServerList_Connect_Click()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00084">vector</a>.</p>
+<p>References <a class="el" href="../../d6/db1/draw_8qc_source.html#l00045">boxToGlobal()</a>, <a class="el" href="../../d6/db1/draw_8qc_source.html#l00053">boxToGlobalSize()</a>, <a class="el" href="../../d9/d19/modalcontroller_8qc_source.html#l00035">DialogOpenButton_Click_withCoords()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00037">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00038">eY</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00008">K_ENTER</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00037">K_INS</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00074">K_KP_ENTER</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00049">K_KP_INS</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00130">K_MOUSE2</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00131">K_MOUSE3</a>, <a class="el" href="../../dc/d03/keycodes_8qc_source.html#l00010">K_SPACE</a>, <a class="el" href="../../df/dc2/menu_8qc_source.html#l00995">m_play_click_sound()</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00026">main</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00053">MENU_SOUND_OPEN</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00015">NULL</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00084">org</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00786">ServerList_Connect_Click()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00084">vector</a>.</p>
 <div class="fragment"><div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;{</div>
 <div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> <a class="code" href="../../d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795">org</a>, sz;</div>
 <div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;</div>
@@ -2592,7 +2578,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;</div>
 <div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;    <span class="keywordflow">if</span>(scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a773609a6bdeb929d39dad442cd5f9e66">K_ENTER</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a>)</div>
 <div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;    {</div>
-<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;        <a class="code" href="../../d6/d74/serverlist_8qc.html#aa2ff59e556502ac72000ba9410cb567f">ServerList_Connect_Click</a>(<a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, me);</div>
+<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;        <a class="code" href="../../d6/d74/serverlist_8qc.html#aa2ff59e556502ac72000ba9410cb567f">ServerList_Connect_Click</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, me);</div>
 <div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;    }</div>
 <div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a9387c1d3181db6665a4ed4c200a9f5bd">K_MOUSE2</a> || scan == <a class="code" href="../../dc/d03/keycodes_8qc.html#a73fbabbe0208abd0c8e74dd03b8ec69a">K_SPACE</a>)</div>
@@ -2629,13 +2615,13 @@ Functions</h2></td></tr>
 <div class="ttc" id="self_8qh_html_a7ea82552101f041fad7635b3ed036a84"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a></div><div class="ttdeci">vector</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00084">self.qh:84</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_a6ad276dc30b5ed0bc053a75c82740bd5"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a6ad276dc30b5ed0bc053a75c82740bd5">K_MOUSE3</a></div><div class="ttdeci">float K_MOUSE3</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00131">keycodes.qc:131</a></div></div>
 <div class="ttc" id="modalcontroller_8qc_html_ab299c36738ab44965d57a68db9ac255e"><div class="ttname"><a href="../../d9/d19/modalcontroller_8qc.html#ab299c36738ab44965d57a68db9ac255e">DialogOpenButton_Click_withCoords</a></div><div class="ttdeci">void DialogOpenButton_Click_withCoords(entity button, entity tab, vector theOrigin, vector theSize)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d19/modalcontroller_8qc_source.html#l00035">modalcontroller.qc:35</a></div></div>
-<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_a73fbabbe0208abd0c8e74dd03b8ec69a"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a73fbabbe0208abd0c8e74dd03b8ec69a">K_SPACE</a></div><div class="ttdeci">float K_SPACE</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00010">keycodes.qc:10</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_aa4d21cae4374f406578b21e06ee55c28"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#aa4d21cae4374f406578b21e06ee55c28">K_KP_ENTER</a></div><div class="ttdeci">float K_KP_ENTER</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00074">keycodes.qc:74</a></div></div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
 <div class="ttc" id="menu_8qh_html_a4bd11f06d96b45bdf353de5f9acb0be1"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a4bd11f06d96b45bdf353de5f9acb0be1">main</a></div><div class="ttdeci">entity main</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00026">menu.qh:26</a></div></div>
 <div class="ttc" id="draw_8qc_html_ab8f2b0e7558bdad2ae9d4eadbb278257"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#ab8f2b0e7558bdad2ae9d4eadbb278257">boxToGlobalSize</a></div><div class="ttdeci">vector boxToGlobalSize(vector v, vector theScale)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00053">draw.qc:53</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_a9387c1d3181db6665a4ed4c200a9f5bd"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a9387c1d3181db6665a4ed4c200a9f5bd">K_MOUSE2</a></div><div class="ttdeci">float K_MOUSE2</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00130">keycodes.qc:130</a></div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 <div class="ttc" id="menu_8qc_html_a0839df76702206b09937c44849bbe9f9"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9">m_play_click_sound</a></div><div class="ttdeci">void m_play_click_sound(string soundfile)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00995">menu.qc:995</a></div></div>
 <div class="ttc" id="menu_8qh_html_a3e374a67c6a18648e6d176792cb2cd3e"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a3e374a67c6a18648e6d176792cb2cd3e">MENU_SOUND_OPEN</a></div><div class="ttdeci">const string MENU_SOUND_OPEN</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00053">menu.qh:53</a></div></div>
 <div class="ttc" id="self_8qh_html_a9cd821b89f6b3d683d8f7a1537d77795"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795">org</a></div><div class="ttdeci">vector org</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00084">self.qh:84</a></div></div>
@@ -2645,11 +2631,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="keycodes_8qc_html_ac07158f67f8572f2587b53b43db6a79f"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#ac07158f67f8572f2587b53b43db6a79f">K_INS</a></div><div class="ttdeci">float K_INS</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00037">keycodes.qc:37</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_aa2ff59e556502ac72000ba9410cb567f"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#aa2ff59e556502ac72000ba9410cb567f">ServerList_Connect_Click</a></div><div class="ttdeci">void ServerList_Connect_Click(entity btn, entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00786">serverlist.qc:786</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-34-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a8ae91652392862295449c573b1f229fd_cgraph.svg" width="544" height="271"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2683,7 +2669,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l01108">1108</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00274">clearTooltip()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00274">clearTooltip()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;{</div>
 <div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d2/dec/classXonoticServerList.html">XonoticServerList</a>).mouseMove(me, pos))</div>
 <div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;    {</div>
@@ -2697,15 +2683,15 @@ Functions</h2></td></tr>
 <div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;        <a class="code" href="../../df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556">clearTooltip</a>(me);</div>
 <div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;    <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;}</div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
 <div class="ttc" id="menu_2xonotic_2util_8qc_html_ad765c653d11adeb645af29a3beb33556"><div class="ttname"><a href="../../df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556">clearTooltip</a></div><div class="ttdeci">void clearTooltip(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00274">util.qc:274</a></div></div>
 <div class="ttc" id="classXonoticServerList_html"><div class="ttname"><a href="../../d2/dec/classXonoticServerList.html">XonoticServerList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00004">serverlist.qh:4</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-34-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-35-content" class="dyncontent" style="display:none;">
+<div id="dynsection-34-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a62aa9f3d9ee5465384acc07cb1a50fb9_cgraph.svg" width="643" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2786,11 +2772,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="draw_8qc_html_ab8f2b0e7558bdad2ae9d4eadbb278257"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#ab8f2b0e7558bdad2ae9d4eadbb278257">boxToGlobalSize</a></div><div class="ttdeci">vector boxToGlobalSize(vector v, vector theScale)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00053">draw.qc:53</a></div></div>
 <div class="ttc" id="vector_8qh_html_adce3aade2f97ac6fb4688fe0a7005d27"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a></div><div class="ttdeci">const vector eX</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00037">vector.qh:37</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-35" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-35-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-35-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-36-content" class="dyncontent" style="display:none;">
+<div id="dynsection-35-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a79d8d96764a1e14e27bbd77d06e30fe2_cgraph.svg" width="360" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2824,7 +2810,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00319">319</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/d97/menu_2xonotic_2util_8qh_source.html#l00048">_Nex_ExtResponseSystem_BannedServers</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab5f568d4e706e97c49d2e274cbee3f0e">refreshhostcache()</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00118">REFRESHSERVERLIST_ASK</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00117">REFRESHSERVERLIST_REFILTER</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00119">REFRESHSERVERLIST_RESET</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aa1965d12c0cb9eafa1509320426aaafc">resethostcachemasks()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00606">resolvemod()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#acc7196964388ef1b600113e3e30cff31">resorthostcache()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00095">s</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#adb7944b0657e264cd639e01234ddd36b">sethostcachemasknumber()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a93a7b1cefa36b09ec644e4bad0872881">sethostcachemaskstring()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a4711c0a9f9c390acfbee13edfc6e87f5">sethostcachesort()</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00124">SLIST_MASK_AND</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00125">SLIST_MASK_OR</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00114">SLIST_TEST_CONTAINS</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00118">SLIST_TEST_EQUAL</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00120">SLIST_TEST_GREATEREQUAL</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00115">SLIST_TEST_NOTCONTAIN</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00121">SLIST_TEST_NOTEQUAL</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00123">SLIST_TEST_NOTSTARTSWITH</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00122">SLIST_TEST_STARTSWITH</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00575">SLSF_CATEGORIES</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00573">SLSF_DESCENDING</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00043">strstrofs</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, and <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00022">tokenizebyseparator</a>.</p>
+<p>References <a class="el" href="../../df/d97/menu_2xonotic_2util_8qh_source.html#l00048">_Nex_ExtResponseSystem_BannedServers</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab5f568d4e706e97c49d2e274cbee3f0e">refreshhostcache()</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00118">REFRESHSERVERLIST_ASK</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00117">REFRESHSERVERLIST_REFILTER</a>, <a class="el" href="../../dd/d7a/serverlist_8qh_source.html#l00119">REFRESHSERVERLIST_RESET</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aa1965d12c0cb9eafa1509320426aaafc">resethostcachemasks()</a>, <a class="el" href="../../df/d9b/menu_2xonotic_2util_8qc_source.html#l00606">resolvemod()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#acc7196964388ef1b600113e3e30cff31">resorthostcache()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#adb7944b0657e264cd639e01234ddd36b">sethostcachemasknumber()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a93a7b1cefa36b09ec644e4bad0872881">sethostcachemaskstring()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a4711c0a9f9c390acfbee13edfc6e87f5">sethostcachesort()</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00124">SLIST_MASK_AND</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00125">SLIST_MASK_OR</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00114">SLIST_TEST_CONTAINS</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00118">SLIST_TEST_EQUAL</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00120">SLIST_TEST_GREATEREQUAL</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00115">SLIST_TEST_NOTCONTAIN</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00121">SLIST_TEST_NOTEQUAL</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00123">SLIST_TEST_NOTSTARTSWITH</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00122">SLIST_TEST_STARTSWITH</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00575">SLSF_CATEGORIES</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00573">SLSF_DESCENDING</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00043">strstrofs</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, and <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00022">tokenizebyseparator</a>.</p>
 <div class="fragment"><div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;{</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="comment">//print(&quot;refresh of type &quot;, ftos(mode), &quot;\n&quot;);</span></div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
@@ -2833,7 +2819,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        <span class="keywordtype">float</span> m;</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        <span class="keywordtype">int</span> i, n;</div>
 <div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        <span class="keywordtype">int</span> listflags = 0;</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, typestr, modstr;</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        <span class="keywordtype">string</span> s, typestr, modstr;</div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        s = me.filterString;</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
@@ -2911,7 +2897,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="serverlist_8qh_html_aa65e17b926d93109ee1b0ec291184bf6"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#aa65e17b926d93109ee1b0ec291184bf6">REFRESHSERVERLIST_RESET</a></div><div class="ttdeci">const float REFRESHSERVERLIST_RESET</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00119">serverlist.qh:119</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a93a7b1cefa36b09ec644e4bad0872881"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a93a7b1cefa36b09ec644e4bad0872881">sethostcachemaskstring</a></div><div class="ttdeci">void sethostcachemaskstring(float mask, float fld, string str, float op)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab2feabb265b607ecd5f6a2cdaaef7ac8"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2feabb265b607ecd5f6a2cdaaef7ac8">SLIST_TEST_STARTSWITH</a></div><div class="ttdeci">float SLIST_TEST_STARTSWITH</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/menudefs_8qc_source.html#l00122">menudefs.qc:122</a></div></div>
-<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a67b0317a458ffc50437b7d3a09a4f0a9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a67b0317a458ffc50437b7d3a09a4f0a9">SLIST_TEST_NOTEQUAL</a></div><div class="ttdeci">float SLIST_TEST_NOTEQUAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/menudefs_8qc_source.html#l00121">menudefs.qc:121</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_acc7196964388ef1b600113e3e30cff31"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#acc7196964388ef1b600113e3e30cff31">resorthostcache</a></div><div class="ttdeci">void resorthostcache(void)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ad0237c5a090c06316d963e9ec9220630"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad0237c5a090c06316d963e9ec9220630">SLIST_TEST_EQUAL</a></div><div class="ttdeci">float SLIST_TEST_EQUAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/menudefs_8qc_source.html#l00118">menudefs.qc:118</a></div></div>
@@ -2937,11 +2922,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_af1347920710ac1800c21a951b23629e4"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#af1347920710ac1800c21a951b23629e4">SLIST_MASK_AND</a></div><div class="ttdeci">float SLIST_MASK_AND</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/menudefs_8qc_source.html#l00124">menudefs.qc:124</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a6f8c7ef6ee4a4d851aaa5fd1789eab9a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a></div><div class="ttdeci">const string cvar_string(string name)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-36" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-36-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-36-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-37-content" class="dyncontent" style="display:none;">
+<div id="dynsection-36-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a733e556f63ad704ad143392b7ae0cc48_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2993,7 +2978,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00752">752</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00623">ServerList_MapSort_Click()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00619">ServerList_NameSort_Click()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00615">ServerList_PingSort_Click()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00627">ServerList_PlayerSort_Click()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00631">ServerList_TypeSort_Click()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00623">ServerList_MapSort_Click()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00619">ServerList_NameSort_Click()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00615">ServerList_PingSort_Click()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00627">ServerList_PlayerSort_Click()</a>, <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00631">ServerList_TypeSort_Click()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;{</div>
 <div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;    <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d2/dec/classXonoticServerList.html">XonoticServerList</a>).resizeNotify(me, relOrigin, relSize, absOrigin, absSize);</div>
 <div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;</div>
@@ -3030,16 +3015,16 @@ Functions</h2></td></tr>
 <div class="ttc" id="serverlist_8qc_html_a248261d8803e9d1338b4cbddf722130e"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a248261d8803e9d1338b4cbddf722130e">ServerList_NameSort_Click</a></div><div class="ttdeci">void ServerList_NameSort_Click(entity btn, entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00619">serverlist.qc:619</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_a587213c0e3ae8ab5fa77efb6b74ab13e"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a587213c0e3ae8ab5fa77efb6b74ab13e">ServerList_TypeSort_Click</a></div><div class="ttdeci">void ServerList_TypeSort_Click(entity btn, entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00631">serverlist.qc:631</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_aa0e0784a97109433c6a862b63e0d739e"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#aa0e0784a97109433c6a862b63e0d739e">ServerList_MapSort_Click</a></div><div class="ttdeci">void ServerList_MapSort_Click(entity btn, entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00623">serverlist.qc:623</a></div></div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_a81e9dffb8d7e8916a40b6a5e683c1103"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a81e9dffb8d7e8916a40b6a5e683c1103">ServerList_PlayerSort_Click</a></div><div class="ttdeci">void ServerList_PlayerSort_Click(entity btn, entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00627">serverlist.qc:627</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_a16a54fe3779bc625ce84508d8c575cbc"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a16a54fe3779bc625ce84508d8c575cbc">ServerList_PingSort_Click</a></div><div class="ttdeci">void ServerList_PingSort_Click(entity btn, entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00615">serverlist.qc:615</a></div></div>
 <div class="ttc" id="classXonoticServerList_html"><div class="ttname"><a href="../../d2/dec/classXonoticServerList.html">XonoticServerList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00004">serverlist.qh:4</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
+<div id="dynsection-37-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a6a0b094454f1d89c5c2b0c878977934f_cgraph.svg" width="587" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -3073,7 +3058,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00297">297</a> of file <a class="el" href="../../d6/d74/serverlist_8qc_source.html">serverlist.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73">gethostcachestring()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aa97859f65cf8759c19a944a8c7ec4464">gethostcachevalue()</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00104">SLIST_HOSTCACHEVIEWCOUNT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00275">SUPER</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73">gethostcachestring()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aa97859f65cf8759c19a944a8c7ec4464">gethostcachevalue()</a>, <a class="el" href="../../d8/de2/menudefs_8qc_source.html#l00104">SLIST_HOSTCACHEVIEWCOUNT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, and <a class="el" href="../../db/d0a/oo_8qh_source.html#l00268">SUPER</a>.</p>
 <div class="fragment"><div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;{</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    me.lockedSelectedItem = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    <span class="comment">//int save = me.selectedItem;</span></div>
@@ -3097,18 +3082,18 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
-<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00275">oo.qh:275</a></div></div>
+<div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00268">oo.qh:268</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae77015f06980a1a476856976f1af9099"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae77015f06980a1a476856976f1af9099">SLIST_HOSTCACHEVIEWCOUNT</a></div><div class="ttdeci">float SLIST_HOSTCACHEVIEWCOUNT</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/menudefs_8qc_source.html#l00104">menudefs.qc:104</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aa97859f65cf8759c19a944a8c7ec4464"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa97859f65cf8759c19a944a8c7ec4464">gethostcachevalue</a></div><div class="ttdeci">float gethostcachevalue(float type)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a5c6f925625583541ffb0df18500c1f73"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73">gethostcachestring</a></div><div class="ttdeci">string gethostcachestring(float type, float hostnr)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
 <div class="ttc" id="classXonoticServerList_html"><div class="ttname"><a href="../../d2/dec/classXonoticServerList.html">XonoticServerList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00004">serverlist.qh:4</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a15ded02541ac3c3ed244143f4199adab_cgraph.svg" width="395" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -3169,11 +3154,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
 <div class="ttc" id="serverlist_8qh_html_ac95397475efbbc5120143c5b9138fc1b"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#ac95397475efbbc5120143c5b9138fc1b">REFRESHSERVERLIST_REFILTER</a></div><div class="ttdeci">const float REFRESHSERVERLIST_REFILTER</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00117">serverlist.qh:117</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-40-content" class="dyncontent" style="display:none;">
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d6/d74/serverlist_8qc_a86cacb78317f07efc652f66a4f3770fc_cgraph.svg" width="315" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -3187,7 +3172,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d6/d74/serverlist_8qc.html">serverlist.qc</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 17:46:57 for Xonotic by
+    <li class="footer">Generated on Sun Jun 12 2016 03:49:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

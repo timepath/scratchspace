@@ -1,5 +1,16 @@
 var NAVTREEINDEX67 =
 {
+"d8/d35/classXonoticHUDChatDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,159,66],
+"d8/d35/classXonoticHUDChatDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,159,12],
+"d8/d35/classXonoticHUDChatDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,159,39],
+"d8/d35/classXonoticHUDChatDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,159,17],
+"d8/d35/classXonoticHUDChatDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,159,46],
+"d8/d35/classXonoticHUDChatDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,159,23],
+"d8/d35/classXonoticHUDChatDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,159,31],
+"d8/d35/classXonoticHUDChatDialog.html#a54e38d6145b42b9d72d2deb494602ae4":[1,0,159,61],
+"d8/d35/classXonoticHUDChatDialog.html#a588c2bad65ee0a1e6478f7d9fda23d06":[1,0,159,50],
+"d8/d35/classXonoticHUDChatDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,159,55],
+"d8/d35/classXonoticHUDChatDialog.html#a67d95732d49da439095483530aca8804":[1,0,159,42],
 "d8/d35/classXonoticHUDChatDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,159,69],
 "d8/d35/classXonoticHUDChatDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,159,7],
 "d8/d35/classXonoticHUDChatDialog.html#a727c1efac58ec243364c8c2b923fcca4":[1,0,159,49],
@@ -238,16 +249,5 @@ var NAVTREEINDEX67 =
 "d8/d6d/viewloc_8qc.html#ad4224551c2b606237629fa6bd79384d8":[2,0,1,46,0],
 "d8/d6d/viewloc_8qc_source.html":[2,0,1,46],
 "d8/d76/xonotic_2checkbox_8qh.html":[2,0,4,4,13],
-"d8/d76/xonotic_2checkbox_8qh.html#a7dc2985c3982e5fb466f48215abb8069":[2,0,4,4,13,2],
-"d8/d76/xonotic_2checkbox_8qh.html#ac556c363097bb2c326f8681f5b38e28a":[2,0,4,4,13,4],
-"d8/d76/xonotic_2checkbox_8qh.html#ae01b150bc158d5b5fb5ee649324b9706":[2,0,4,4,13,3],
-"d8/d76/xonotic_2checkbox_8qh.html#ae6725ad239c958cb43c1254ea3be7554":[2,0,4,4,13,1],
-"d8/d76/xonotic_2checkbox_8qh_source.html":[2,0,4,4,13],
-"d8/d7e/common_2deathtypes_2all_8qc.html":[2,0,1,1,3],
-"d8/d7e/common_2deathtypes_2all_8qc.html#ab228bbc4e90e596f0f88f2556ee96c59":[2,0,1,1,3,0],
-"d8/d7e/common_2deathtypes_2all_8qc_source.html":[2,0,1,1,3],
-"d8/d86/command_8qc.html":[2,0,3,1,2],
-"d8/d86/command_8qc.html#a8011943c633419e1e39634df6e77b6d0":[2,0,3,1,2,0],
-"d8/d86/command_8qc_source.html":[2,0,3,1,2],
-"d8/d88/keylock_8qc.html":[2,0,1,13,3,16]
+"d8/d76/xonotic_2checkbox_8qh.html#a7dc2985c3982e5fb466f48215abb8069":[2,0,4,4,13,2]
 };

@@ -1,5 +1,16 @@
 var NAVTREEINDEX115 =
 {
+"de/de7/classXonoticHUDItemsTimeDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,165,32],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,165,10],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,165,38],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,165,43],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,165,18],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,165,8],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,165,11],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,165,51],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,165,19],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,165,35],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,165,45],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,165,1],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,165,68],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,165,66],
@@ -238,16 +249,5 @@ var NAVTREEINDEX115 =
 "df/d0f/classSpiderbot.html#ab0033bb43b823ae364fcaa9f6d73c520":[1,0,105,5],
 "df/d0f/classSpiderbot.html#acb6e6888dcc2df03e6743d938b05bb25":[1,0,105,23],
 "df/d0f/classSpiderbot.html#acd61673a42237365d55777d092f5f5ad":[1,0,105,9],
-"df/d0f/classSpiderbot.html#ad29884a3f395ad9d49c4eceab06a2957":[1,0,105,4],
-"df/d0f/classSpiderbot.html#ad5b38bc7eba82602dd0beb6a4f63f08f":[1,0,105,13],
-"df/d0f/classSpiderbot.html#af1e7a9d937de540345fea6c3f4058b0f":[1,0,105,26],
-"df/d0f/classSpiderbot.html#af343549d2946320333bcba1ce7ff017a":[1,0,105,21],
-"df/d0f/classSpiderbot.html#af6f42dcff19b7fb5b76462a7d5848b97":[1,0,105,6],
-"df/d0f/classSpiderbot.html#af9b72141d86f1876f0b9a60543460ee0":[1,0,105,19],
-"df/d13/anglestransform_8qc.html":[2,0,3,2,2],
-"df/d13/anglestransform_8qc.html#a0e8b572bfcc4dcbdcd63106b1ffbf277":[2,0,3,2,2,2],
-"df/d13/anglestransform_8qc.html#a0fdbb008cb55b09916473e7c05b0dfcc":[2,0,3,2,2,9],
-"df/d13/anglestransform_8qc.html#a15af3793156583fd0299d2c7d2029f0c":[2,0,3,2,2,13],
-"df/d13/anglestransform_8qc.html#a1d3de79454474872e74e66eb678263a0":[2,0,3,2,2,3],
-"df/d13/anglestransform_8qc.html#a3e15416efc8d5e17ebc24e871037fca3":[2,0,3,2,2,7]
+"df/d0f/classSpiderbot.html#ad29884a3f395ad9d49c4eceab06a2957":[1,0,105,4]
 };

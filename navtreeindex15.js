@@ -224,7 +224,13 @@ var NAVTREEINDEX15 =
 "d2/d76/teamplay_8qh.html#afb83b1d6cc1d1144d6db6342f3d0f4cc":[2,0,5,75,19],
 "d2/d76/teamplay_8qh_source.html":[2,0,5,75],
 "d2/d77/pre_8qh.html":[2,0,2,6],
-"d2/d77/pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1":[2,0,2,6,0],
+"d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209":[2,0,2,6,3],
+"d2/d77/pre_8qh.html#a1679ad392df727b7e742394acce4ca8e":[2,0,2,6,4],
+"d2/d77/pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1":[2,0,2,6,5],
+"d2/d77/pre_8qh.html#a1b69a3a134506189b3d054e6c6f2896c":[2,0,2,6,2],
+"d2/d77/pre_8qh.html#a3f343622b2740c82c96dc62b3028fa9f":[2,0,2,6,1],
+"d2/d77/pre_8qh.html#acfc02c0fbdcbeabc16e0464a468b680f":[2,0,2,6,0],
+"d2/d77/pre_8qh.html#ad4c7d5cf3db03e818d037012f8be2d23":[2,0,2,6,6],
 "d2/d77/pre_8qh_source.html":[2,0,2,6],
 "d2/d79/scores_8qc.html":[2,0,5,56],
 "d2/d79/scores_8qc.html#a0004abe8969a62fd1a723b21c6ddcdb9":[2,0,5,56,33],
@@ -243,11 +249,5 @@ var NAVTREEINDEX15 =
 "d2/d79/scores_8qc.html#a4e597c14f389b7db7703d04c6f987db2":[2,0,5,56,3],
 "d2/d79/scores_8qc.html#a536688c8d54d72f0f2325e8e8a57a0a6":[2,0,5,56,1],
 "d2/d79/scores_8qc.html#a5441e464e74d40fc0584e956f68c2c12":[2,0,5,56,6],
-"d2/d79/scores_8qc.html#a584dd2db99794927527b7a4cec056bf1":[2,0,5,56,14],
-"d2/d79/scores_8qc.html#a5db481005e2c63c868c58b15537638a0":[2,0,5,56,31],
-"d2/d79/scores_8qc.html#a607055622db81d23f43d6da7c864c517":[2,0,5,56,36],
-"d2/d79/scores_8qc.html#a6e50936027a40f1b3323c85916c5aea8":[2,0,5,56,44],
-"d2/d79/scores_8qc.html#a70e333bb8df9db9b1aa1244d608ce4d3":[2,0,5,56,18],
-"d2/d79/scores_8qc.html#a7c2edc3a46e2c7b723761b5c1a4b1c51":[2,0,5,56,38],
-"d2/d79/scores_8qc.html#a8c6b063e75b353a29689e319b10d0aa2":[2,0,5,56,43]
+"d2/d79/scores_8qc.html#a584dd2db99794927527b7a4cec056bf1":[2,0,5,56,14]
 };

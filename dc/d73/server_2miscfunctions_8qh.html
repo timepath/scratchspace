@@ -139,7 +139,7 @@ Macros</h2></td></tr>
 <tr class="separator:afbe404306e2934634cd9f0d90fd177de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73f087b1bdf191d3f1f869b8da083962"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a73f087b1bdf191d3f1f869b8da083962">cvar_set_normal</a>&#160;&#160;&#160;builtin_cvar_set</td></tr>
 <tr class="separator:a73f087b1bdf191d3f1f869b8da083962"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30122e95b404a119ce026ed3b92d0944"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>)&#160;&#160;&#160;((<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>).<a class="el" href="../../d6/d11/progsdefs_8qc.html#abfe9a5ddfb6e7e96f7c61d70a0dc3c24">deadflag</a> != <a class="el" href="../../d6/d11/progsdefs_8qc.html#a76cbf2692b28fb941eb2cf4b1a9bc3c5">DEAD_NO</a>)</td></tr>
+<tr class="memitem:a30122e95b404a119ce026ed3b92d0944"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(s)&#160;&#160;&#160;((s).<a class="el" href="../../d6/d11/progsdefs_8qc.html#abfe9a5ddfb6e7e96f7c61d70a0dc3c24">deadflag</a> != <a class="el" href="../../d6/d11/progsdefs_8qc.html#a76cbf2692b28fb941eb2cf4b1a9bc3c5">DEAD_NO</a>)</td></tr>
 <tr class="separator:a30122e95b404a119ce026ed3b92d0944"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2f3f7e33fb5bc60212a8074ff9b80595"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a2f3f7e33fb5bc60212a8074ff9b80595">ITEM_DAMAGE_NEEDKILL</a>(dt)&#160;&#160;&#160;(((dt) == <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">DEATH_HURTTRIGGER.m_id</a>) || ((dt) == <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">DEATH_SLIME.m_id</a>) || ((dt) == <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">DEATH_LAVA.m_id</a>) || ((dt) == <a class="el" href="../../d0/ddd/lib_2stats_8qh.html#aad966617e7e050bedbead762727808a5">DEATH_SWAMP.m_id</a>))</td></tr>
 <tr class="separator:a2f3f7e33fb5bc60212a8074ff9b80595"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,7 +176,7 @@ Functions</h2></td></tr>
 <tr class="separator:aa2ad35c3e1dd50ef39b80d690512357a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c4e61b3a739e6d55bb82ad1ded9c1c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a6c4e61b3a739e6d55bb82ad1ded9c1c5">GameLogClose</a> ()</td></tr>
 <tr class="separator:a6c4e61b3a739e6d55bb82ad1ded9c1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8252ef534185c1cbbde32e65a01a5b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> <a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>)</td></tr>
+<tr class="memitem:ad8252ef534185c1cbbde32e65a01a5b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> s)</td></tr>
 <tr class="separator:ad8252ef534185c1cbbde32e65a01a5b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08ac986acea412a0a46814dc880058c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a08ac986acea412a0a46814dc880058c7">GameLogInit</a> ()</td></tr>
 <tr class="separator:a08ac986acea412a0a46814dc880058c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -240,7 +240,7 @@ Functions</h2></td></tr>
 <tr class="separator:abe64c8eea42324c9c7c40d08fc56ad19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e3017f7a01d0a9455f9ebc445a604ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a6e3017f7a01d0a9455f9ebc445a604ee">stopsoundto</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> _dest, <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> e, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> chan)</td></tr>
 <tr class="separator:a6e3017f7a01d0a9455f9ebc445a604ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9974b20c57efacc64d84960329620554"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a9974b20c57efacc64d84960329620554">strcat1</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> <a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>)</td></tr>
+<tr class="memitem:a9974b20c57efacc64d84960329620554"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a9974b20c57efacc64d84960329620554">strcat1</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> s)</td></tr>
 <tr class="separator:a9974b20c57efacc64d84960329620554"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2de10fb010f38dc7ef051696ee9a940a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html#a2de10fb010f38dc7ef051696ee9a940a">tracebox_hits_box</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> start, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> mi, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> ma, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> end, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> thmi, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> thma)</td></tr>
 <tr class="separator:a2de10fb010f38dc7ef051696ee9a940a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -495,8 +495,8 @@ Variables</h2></td></tr>
           <td class="memname">#define IS_DEAD</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></td><td>)</td>
-          <td>&#160;&#160;&#160;((<a class="el" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>).<a class="el" href="../../d6/d11/progsdefs_8qc.html#abfe9a5ddfb6e7e96f7c61d70a0dc3c24">deadflag</a> != <a class="el" href="../../d6/d11/progsdefs_8qc.html#a76cbf2692b28fb941eb2cf4b1a9bc3c5">DEAD_NO</a>)</td>
+          <td class="paramname">s</td><td>)</td>
+          <td>&#160;&#160;&#160;((s).<a class="el" href="../../d6/d11/progsdefs_8qc.html#abfe9a5ddfb6e7e96f7c61d70a0dc3c24">deadflag</a> != <a class="el" href="../../d6/d11/progsdefs_8qc.html#a76cbf2692b28fb941eb2cf4b1a9bc3c5">DEAD_NO</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1366,14 +1366,14 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#af5cc49ccba37ced79bc2d69b05f694a1">logfile</a> &gt;= 0)</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        {</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a7e7365f5b2964b4007e80fb831d4fcbf">autocvar_sv_eventlog_files_timestamps</a>)</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a>(<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#af5cc49ccba37ced79bc2d69b05f694a1">logfile</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:time:&quot;</span>, strftime(<span class="keyword">true</span>, <span class="stringliteral">&quot;%Y-%m-%d %H:%M:%S&quot;</span>, <span class="stringliteral">&quot;\n&quot;</span>, <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, <span class="stringliteral">&quot;\n&quot;</span>)));</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a>(<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#af5cc49ccba37ced79bc2d69b05f694a1">logfile</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:time:&quot;</span>, strftime(<span class="keyword">true</span>, <span class="stringliteral">&quot;%Y-%m-%d %H:%M:%S&quot;</span>, <span class="stringliteral">&quot;\n&quot;</span>, s, <span class="stringliteral">&quot;\n&quot;</span>)));</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a>(<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#af5cc49ccba37ced79bc2d69b05f694a1">logfile</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, <span class="stringliteral">&quot;\n&quot;</span>));</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a>(<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#af5cc49ccba37ced79bc2d69b05f694a1">logfile</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(s, <span class="stringliteral">&quot;\n&quot;</span>));</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        }</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    }</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#aab597cecfb65556579256ad951a7298a">autocvar_sv_eventlog_console</a>)</div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    {</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(s, <span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;}</div>
 <div class="ttc" id="csqc__constants_8qh_html_aa883d4d9f9f9cd3b797f857ce81a7c27"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#aa883d4d9f9f9cd3b797f857ce81a7c27">FILE_APPEND</a></div><div class="ttdeci">const int FILE_APPEND</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00102">csqc_constants.qh:102</a></div></div>
@@ -1383,7 +1383,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2autocvars_8qh_html_a90adaa9c125ae16e81fff1fe4506255a"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a90adaa9c125ae16e81fff1fe4506255a">autocvar_sv_eventlog_files_counter</a></div><div class="ttdeci">int autocvar_sv_eventlog_files_counter</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00349">autocvars.qh:349</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_af5cc49ccba37ced79bc2d69b05f694a1"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#af5cc49ccba37ced79bc2d69b05f694a1">logfile</a></div><div class="ttdeci">float logfile</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00132">miscfunctions.qh:132</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a51ee71f1cb7929085d013c53c38189ae"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a51ee71f1cb7929085d013c53c38189ae">autocvar_sv_eventlog_files</a></div><div class="ttdeci">bool autocvar_sv_eventlog_files</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00348">autocvars.qh:348</a></div></div>
-<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="int_8qh_html_ad77a5a11dca20b65e1953044f7652057"><div class="ttname"><a href="../../de/d0d/int_8qh.html#ad77a5a11dca20b65e1953044f7652057">itos</a></div><div class="ttdeci">#define itos(i)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d0d/int_8qh_source.html#l00006">int.qh:6</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a33a318a59e2648521862f24200a821df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a></div><div class="ttdeci">void fputs(float fhandle, string s)</div></div>
@@ -1759,12 +1758,12 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00880">880</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00102">backtrace</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15">eprint()</a>, <a class="el" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null()</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00360">initialize_entity_first</a>, <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00080">next</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00011">NULL</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00827">remove_except_protected()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00834">remove_unsafely()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00069">void</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00015">WITHSELF</a>.</p>
+<p>References <a class="el" href="../../db/da0/log_8qh_source.html#l00102">backtrace</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15">eprint()</a>, <a class="el" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null()</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00360">initialize_entity_first</a>, <a class="el" href="../../de/d64/common_2impulses_2all_8qh_source.html#l00080">next</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00015">NULL</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00827">remove_except_protected()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00834">remove_unsafely()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00069">void</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00158">StartFrame()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;{</div>
 <div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> startoflist = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a0cad781d981cf76e1f633a6ffddfd621">initialize_entity_first</a>;</div>
-<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a0cad781d981cf76e1f633a6ffddfd621">initialize_entity_first</a> = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a0cad781d981cf76e1f633a6ffddfd621">initialize_entity_first</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;    <span class="keyword">remove</span> = <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#aa16293e20d9c95cd2706a83a9e1fe8fb">remove_except_protected</a>;</div>
 <div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;    <span class="keywordflow">for</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = startoflist; e; e = e.initialize_entity_next)</div>
 <div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;    {</div>
@@ -1775,7 +1774,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;        e.remove_except_protected_forbidden = 0;</div>
 <div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;        e.initialize_entity_order = 0;</div>
 <div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a> = e.initialize_entity_next;</div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;        e.initialize_entity_next = <a class="code" href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;        e.initialize_entity_next = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;        var <a class="code" href="../../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686">void</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>) func = e.initialize_entity;</div>
 <div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;        e.initialize_entity = <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>;</div>
 <div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;        if (e.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> == &quot;initialize_entity&quot;)</div>
@@ -1787,7 +1786,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;        <span class="comment">//dprint(&quot;Delayed initialization: &quot;, e.classname, &quot;\n&quot;);</span></div>
 <div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;        <span class="keywordflow">if</span> (func)</div>
 <div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;        {</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a>(e, func(e));</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;            func(e);</div>
 <div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;        }</div>
 <div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;        {</div>
@@ -1799,12 +1798,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;    <span class="keyword">remove</span> = <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a4e74ce1d2075c282aed288a570b9bd0f">remove_unsafely</a>;</div>
 <div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="oo_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00011">oo.qh:11</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a0cad781d981cf76e1f633a6ffddfd621"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a0cad781d981cf76e1f633a6ffddfd621">initialize_entity_first</a></div><div class="ttdeci">entity initialize_entity_first</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00360">miscfunctions.qh:360</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 <div class="ttc" id="log_8qh_html_a798c5f291cac3c0fbcdb2c78ba44b5ab"><div class="ttname"><a href="../../db/da0/log_8qh.html#a798c5f291cac3c0fbcdb2c78ba44b5ab">backtrace</a></div><div class="ttdeci">#define backtrace(msg)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00102">log.qh:102</a></div></div>
-<div class="ttc" id="self_8qh_html_a0a6ed21815e6b8d3ff58b8559ec08c87"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87">WITHSELF</a></div><div class="ttdeci">#define WITHSELF(value, block)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00015">self.qh:15</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abc4199f59419099fba0efc7f78663e15"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15">eprint</a></div><div class="ttdeci">void eprint(entity e)</div></div>
 <div class="ttc" id="common_2impulses_2all_8qh_html_acde7555eca71d1f823fbaf6f6a1f4670"><div class="ttname"><a href="../../de/d64/common_2impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a></div><div class="ttdeci">next</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d64/common_2impulses_2all_8qh_source.html#l00080">all.qh:80</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_aa16293e20d9c95cd2706a83a9e1fe8fb"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#aa16293e20d9c95cd2706a83a9e1fe8fb">remove_except_protected</a></div><div class="ttdeci">void remove_except_protected(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00827">miscfunctions.qc:827</a></div></div>
@@ -1817,7 +1815,7 @@ Variables</h2></td></tr>
 <div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-31-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a504192d334de7d4502ffbaa71c6b8228_cgraph.svg" width="467" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a504192d334de7d4502ffbaa71c6b8228_cgraph.svg" width="371" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -2647,14 +2645,13 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;    <span class="keywordtype">int</span> n = <a class="code" href="../../d8/de2/menudefs_8qc.html#a7063b4b3c8a13f50d7398f55439e8fa9">search_getsize</a>(globhandle);</div>
 <div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; n; ++i)</div>
 <div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;    {</div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a54aa414f52db799b3fa129e30f7219db">search_getfilename</a>(globhandle, i);</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;        <span class="keywordtype">string</span> s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a54aa414f52db799b3fa129e30f7219db">search_getfilename</a>(globhandle, i);</div>
 <div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#aca8c7fffaf94bfb8d4b962bc6b1dd9fe">precache_playermodel</a>(s);</div>
 <div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;    }</div>
 <div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#ae7c5f4eb7a2bc9e0a4ed85f1d454fa12">search_end</a>(globhandle);</div>
 <div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ae7c5f4eb7a2bc9e0a4ed85f1d454fa12"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae7c5f4eb7a2bc9e0a4ed85f1d454fa12">search_end</a></div><div class="ttdeci">void search_end(float handle)</div></div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_aca8c7fffaf94bfb8d4b962bc6b1dd9fe"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#aca8c7fffaf94bfb8d4b962bc6b1dd9fe">precache_playermodel</a></div><div class="ttdeci">void precache_playermodel(string m)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00708">miscfunctions.qc:708</a></div></div>
-<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a54aa414f52db799b3fa129e30f7219db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a54aa414f52db799b3fa129e30f7219db">search_getfilename</a></div><div class="ttdeci">string search_getfilename(float handle, float num)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a7063b4b3c8a13f50d7398f55439e8fa9"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a7063b4b3c8a13f50d7398f55439e8fa9">search_getsize</a></div><div class="ttdeci">float search_getsize(float handle)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a89eb4e533f817547b81dd04c7dc602a0"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a89eb4e533f817547b81dd04c7dc602a0">search_begin</a></div><div class="ttdeci">float search_begin(string pattern, float caseinsensitive, float quiet)</div></div>
@@ -2904,12 +2901,12 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00507">507</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00202">g_weaponarena</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00206">g_weaponarena_list</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00203">g_weaponarena_weapons</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00037">LAMBDA</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00018">M_ARGV</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00136">MUTATOR_CALLHOOK</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00095">s</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00220">start_ammo_cells</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00218">start_ammo_nails</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00221">start_ammo_plasma</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00219">start_ammo_rockets</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00217">start_ammo_shells</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00224">start_armorvalue</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00223">start_health</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00216">start_items</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00213">start_weapons</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00214">start_weapons_default</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00215">start_weapons_defaultmask</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00025">tokenize_console</a>, <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00193">WEP_FLAG_MUTATORBLOCKED</a>, and <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00189">WEP_FLAG_NORMAL</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00202">g_weaponarena</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00206">g_weaponarena_list</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00203">g_weaponarena_weapons</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00037">LAMBDA</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00018">M_ARGV</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00136">MUTATOR_CALLHOOK</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00220">start_ammo_cells</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00218">start_ammo_nails</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00221">start_ammo_plasma</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00219">start_ammo_rockets</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00217">start_ammo_shells</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00224">start_armorvalue</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00223">start_health</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00216">start_items</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00213">start_weapons</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00214">start_weapons_default</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00215">start_weapons_defaultmask</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00025">tokenize_console</a>, <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00193">WEP_FLAG_MUTATORBLOCKED</a>, and <a class="el" href="../../dc/d1c/weapon_8qh_source.html#l00189">WEP_FLAG_NORMAL</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00246">readlevelcvars()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;{</div>
 <div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    <span class="keywordtype">float</span> i, t;</div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    <span class="keywordtype">string</span> s;</div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;</div>
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <span class="comment">// initialize starting values for players</span></div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a266095dd0a42668591b2765cabb0ba84">start_weapons</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
@@ -3118,7 +3115,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2miscfunctions_8qh_html_aad7d23f1f5e223a2965f3b5e72011c83"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#aad7d23f1f5e223a2965f3b5e72011c83">warmup_start_weapons_default</a></div><div class="ttdeci">WepSet warmup_start_weapons_default</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00226">miscfunctions.qh:226</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_ac1c30ec6307b210f08d78ee929599d2a"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#ac1c30ec6307b210f08d78ee929599d2a">g_warmup_allguns</a></div><div class="ttdeci">float g_warmup_allguns</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00012">defs.qh:12</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a3f595687f904e846427f62493b2604a7"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a3f595687f904e846427f62493b2604a7">start_items</a></div><div class="ttdeci">int start_items</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00216">miscfunctions.qh:216</a></div></div>
-<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_ad191ebfe2ae9f209e0284fdf4c5e520f"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#ad191ebfe2ae9f209e0284fdf4c5e520f">warmup_start_ammo_fuel</a></div><div class="ttdeci">float warmup_start_ammo_fuel</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00234">miscfunctions.qh:234</a></div></div>
 <div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00037">misc.qh:37</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html_ade7f55927855e9f8823515cc29071cc3"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#ade7f55927855e9f8823515cc29071cc3">g_ca</a></div><div class="ttdeci">#define g_ca</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00127">mapinfo.qh:127</a></div></div>
@@ -3246,31 +3242,21 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00834">834</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error()</a>.</p>
+<p>References <a class="el" href="../../d2/d77/pre_8qh_source.html#l00006">error</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00880">InitializeEntitiesRun()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00534">spawnfunc()</a>, and <a class="el" href="../../d3/d4f/sv__main_8qc_source.html#l00158">StartFrame()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;{</div>
 <div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;    <span class="keywordflow">if</span>(e.classname == <span class="stringliteral">&quot;spike&quot;</span>)</div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a>(<span class="stringliteral">&quot;Removing spikes is forbidden (crylink bug), please report&quot;</span>);</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;        <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;Removing spikes is forbidden (crylink bug), please report&quot;</span>);</div>
 <div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;    builtin_remove(e);</div>
 <div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;}</div>
-<div class="ttc" id="menudefs_8qc_html_a56b53595c8aa15ca107c03896db91fd2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a56b53595c8aa15ca107c03896db91fd2">error</a></div><div class="ttdeci">void error(string err,...)</div></div>
+<div class="ttc" id="pre_8qh_html_a0c5e59a7caaa02f887d077eaa467f209"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a></div><div class="ttdeci">#define error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00006">pre.qh:6</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-55-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-55-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-55-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-55-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a4e74ce1d2075c282aed288a570b9bd0f_cgraph.svg" width="230" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-56" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-56-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-56-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-56-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a4e74ce1d2075c282aed288a570b9bd0f_icgraph.svg" width="456" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -3322,21 +3308,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="csqc__constants_8qh_html_a80f88020d757084daf5da0a022f59e05"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a></div><div class="ttdeci">const int SOLID_NOT</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00126">csqc_constants.qh:126</a></div></div>
 <div class="ttc" id="dpextensions_8qc_html_a5a0f8717cd777d80ce32fe72439b199c"><div class="ttname"><a href="../../de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c">MOVETYPE_FOLLOW</a></div><div class="ttdeci">float MOVETYPE_FOLLOW</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/dpextensions_8qc_source.html#l00549">dpextensions.qc:549</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-57-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-57-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-56" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-56-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-56-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-57-content" class="dyncontent" style="display:none;">
+<div id="dynsection-56-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a0de4787aed1c8c80a23725b4708dfa75_cgraph.svg" width="264" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-58" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-58-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-58-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-57-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-57-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-58-content" class="dyncontent" style="display:none;">
+<div id="dynsection-57-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a0de4787aed1c8c80a23725b4708dfa75_icgraph.svg" width="520" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -3370,11 +3356,11 @@ Variables</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/dcd/csqcprojectile_8qc_source.html#l00080">CSQCProjectile()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00109">GrapplingHookSend()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01036">Monster_Damage()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00162">PlayerCorpseDamage()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00300">PlayerDamage()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00630">vehicles_damage()</a>.</p>
 
-<p><div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-59-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-59-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-58" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-58-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-58-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-59-content" class="dyncontent" style="display:none;">
+<div id="dynsection-58-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_ab1a77c4be3a9f33d84f6b35d5663474c_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3538,11 +3524,11 @@ Variables</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00200">FireRailgunBullet()</a>.</p>
 
-<p><div id="dynsection-60" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-60-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-60-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-59-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-59-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-60-content" class="dyncontent" style="display:none;">
+<div id="dynsection-59-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a03ae2b364190aaf5a91fd684522d66ff_icgraph.svg" width="262" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -3594,11 +3580,11 @@ Variables</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01036">Monster_Damage()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00630">vehicles_damage()</a>.</p>
 
-<p><div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-61-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-61-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-60" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-60-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-60-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-61-content" class="dyncontent" style="display:none;">
+<div id="dynsection-60-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a8ae2905191403b6570b5ba622914b2c8_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3632,11 +3618,11 @@ Variables</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00443">PutClientInServer()</a>.</p>
 
-<p><div id="dynsection-62" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-62-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-62-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-61-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-61-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-62-content" class="dyncontent" style="display:none;">
+<div id="dynsection-61-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_abe64c8eea42324c9c7c40d08fc56ad19_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3676,11 +3662,11 @@ Variables</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../de/d2e/train_8qc_source.html#l00006">train_wait()</a>.</p>
 
-<p><div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-63-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-63-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-62" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-62-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-62-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-63-content" class="dyncontent" style="display:none;">
+<div id="dynsection-62-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a6e3017f7a01d0a9455f9ebc445a604ee_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3704,11 +3690,11 @@ Variables</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00351">Ban_GetClientIP()</a>, <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00573">Ban_KickBanClient()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00412">GetCvars()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00316">GetCvars_handleString_Fixup()</a>, and <a class="el" href="../../d6/d3b/race_8qc_source.html#l00357">race_SendTime()</a>.</p>
 
-<p><div id="dynsection-64" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-64-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-64-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-63-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-63-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-64-content" class="dyncontent" style="display:none;">
+<div id="dynsection-63-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a9974b20c57efacc64d84960329620554_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3772,11 +3758,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;}</div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_ac0fb8d3651371f4916d29974d721fa47"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#ac0fb8d3651371f4916d29974d721fa47">trace_hits_box</a></div><div class="ttdeci">float trace_hits_box(vector start, vector end, vector thmi, vector thma)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01001">miscfunctions.qc:1001</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-65" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-65-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-65-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-64" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-64-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-64-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-65-content" class="dyncontent" style="display:none;">
+<div id="dynsection-64-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a2de10fb010f38dc7ef051696ee9a940a_cgraph.svg" width="566" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -3845,21 +3831,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2autocvars_8qh_html_aeffee9458d2c270024cec552c5a66190"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a></div><div class="ttdeci">int autocvar_g_antilag</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00069">autocvars.qh:69</a></div></div>
 <div class="ttc" id="g__subs_8qc_html_ae2572b5fa7a3e76a4ff54cd41a55cf04"><div class="ttname"><a href="../../d2/d11/g__subs_8qc.html#ae2572b5fa7a3e76a4ff54cd41a55cf04">traceline_antilag_force</a></div><div class="ttdeci">void traceline_antilag_force(entity source, vector v1, vector v2, float nomonst, entity forent, float lag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d11/g__subs_8qc_source.html#l00080">g_subs.qc:80</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-66" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-66-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-66-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-65" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-65-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-65-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-66-content" class="dyncontent" style="display:none;">
+<div id="dynsection-65-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a5edf83b72581bc3ed7f4b512f534fbfe_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-67" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-67-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-67-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-66" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-66-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-66-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-67-content" class="dyncontent" style="display:none;">
+<div id="dynsection-66-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a5edf83b72581bc3ed7f4b512f534fbfe_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3883,11 +3869,11 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01118">1118</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d54/map_8qh_source.html#l00084">db_get()</a>, <a class="el" href="../../d4/d54/map_8qh_source.html#l00093">db_put()</a>, <a class="el" href="../../d4/d54/map_8qh_source.html#l00091">db_remove</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00095">s</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00236">ServerProgsDB</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
+<p>References <a class="el" href="../../d4/d54/map_8qh_source.html#l00084">db_get()</a>, <a class="el" href="../../d4/d54/map_8qh_source.html#l00093">db_put()</a>, <a class="el" href="../../d4/d54/map_8qh_source.html#l00091">db_remove</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00236">ServerProgsDB</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00063">getladder()</a>, and <a class="el" href="../../d6/d3b/race_8qc_source.html#l00088">race_readName()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;                              {</div>
-<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;    <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
+<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;    <span class="keywordtype">string</span> s;</div>
 <div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;    s = <a class="code" href="../../d5/df2/common_2util_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#afa49ea11bc4dd382cd2f042e7c94dcce">ServerProgsDB</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;/uid2name/&quot;</span>, myuid));</div>
 <div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;</div>
 <div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;    <span class="comment">// FIXME remove this later after 0.6 release</span></div>
@@ -3904,30 +3890,29 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;</div>
 <div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;    <span class="keywordflow">if</span>(s == <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;        s = <span class="stringliteral">&quot;^1Unregistered Player&quot;</span>;</div>
-<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a>;</div>
+<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;    <span class="keywordflow">return</span> s;</div>
 <div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="server_2defs_8qh_html_afa49ea11bc4dd382cd2f042e7c94dcce"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#afa49ea11bc4dd382cd2f042e7c94dcce">ServerProgsDB</a></div><div class="ttdeci">float ServerProgsDB</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00236">defs.qh:236</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ae5419c646d89ed2845be766723b0cb6f"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ae5419c646d89ed2845be766723b0cb6f">db_put</a></div><div class="ttdeci">void db_put(int db, string key, string value)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00093">map.qh:93</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a670fd3f9a229fc1532145c01a4d2b15b"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b">db_get</a></div><div class="ttdeci">string db_get(int db, string key)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00084">map.qh:84</a></div></div>
 <div class="ttc" id="map_8qh_html_a0cbc5a946b47e9a20a1d9089688840ff"><div class="ttname"><a href="../../d4/d54/map_8qh.html#a0cbc5a946b47e9a20a1d9089688840ff">db_remove</a></div><div class="ttdeci">#define db_remove(db, key)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00091">map.qh:91</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-68" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-68-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-68-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-67" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-67-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-67-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-68-content" class="dyncontent" style="display:none;">
+<div id="dynsection-67-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a943d9da424f168efb8d407b4de9833a2_cgraph.svg" width="200" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-69" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-69-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-69-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-68" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-68-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-68-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-69-content" class="dyncontent" style="display:none;">
+<div id="dynsection-68-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a943d9da424f168efb8d407b4de9833a2_icgraph.svg" width="100%" height="423"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -4054,21 +4039,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="antilag_8qh_html_ab20ae59dea3092635c126d7036ae331e"><div class="ttname"><a href="../../d0/dd2/antilag_8qh.html#ab20ae59dea3092635c126d7036ae331e">ANTILAG_LATENCY</a></div><div class="ttdeci">#define ANTILAG_LATENCY(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dd2/antilag_8qh_source.html#l00011">antilag.qh:11</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8f7213273f7de03df213240376ce9f4"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a></div><div class="ttdeci">vector normalize(vector v)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-70" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-70-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-70-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-69" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-69-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-69-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-70-content" class="dyncontent" style="display:none;">
+<div id="dynsection-69-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_ae60e63a20482389086630191d5d8d336_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-71" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-71-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-71-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-70" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-70-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-70-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-71-content" class="dyncontent" style="display:none;">
+<div id="dynsection-70-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_ae60e63a20482389086630191d5d8d336_icgraph.svg" width="638" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -4137,21 +4122,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2autocvars_8qh_html_aeffee9458d2c270024cec552c5a66190"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#aeffee9458d2c270024cec552c5a66190">autocvar_g_antilag</a></div><div class="ttdeci">int autocvar_g_antilag</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00069">autocvars.qh:69</a></div></div>
 <div class="ttc" id="g__subs_8qc_html_ad351eda3d83e3ac892325b85272f5f1b"><div class="ttname"><a href="../../d2/d11/g__subs_8qc.html#ad351eda3d83e3ac892325b85272f5f1b">WarpZone_traceline_antilag_force</a></div><div class="ttdeci">void WarpZone_traceline_antilag_force(entity source, vector v1, vector v2, float nomonst, entity forent, float lag)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d11/g__subs_8qc_source.html#l00096">g_subs.qc:96</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-72" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-72-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-72-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-71" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-71-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-71-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-72-content" class="dyncontent" style="display:none;">
+<div id="dynsection-71-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_aa349f780b5d2d608e278935b6e4c60db_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-73" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-73-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-73-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-72" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-72-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-72-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-73-content" class="dyncontent" style="display:none;">
+<div id="dynsection-72-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_aa349f780b5d2d608e278935b6e4c60db_icgraph.svg" width="100%" height="459"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -4211,21 +4196,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="progsdefs_8qh_html_a0177ce011f923c213b22d01b2b8a103c"><div class="ttname"><a href="../../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c">stuffcmd</a></div><div class="ttdeci">#define stuffcmd(cl,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/dc0/progsdefs_8qh_source.html#l00024">progsdefs.qh:24</a></div></div>
 <div class="ttc" id="g__world_8qc_html_a7bd98f24d513342b45d7ec36af6564be"><div class="ttname"><a href="../../db/dcc/g__world_8qc.html#a7bd98f24d513342b45d7ec36af6564be">GetGametype</a></div><div class="ttdeci">string GetGametype()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l00929">g_world.qc:929</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-74" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-74-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-74-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-73" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-73-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-73-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-74-content" class="dyncontent" style="display:none;">
+<div id="dynsection-73-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a450084bb9c01e6e3fe55aa6027d4580f_cgraph.svg" width="512" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-75" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-75-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-75-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-74" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-74-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-74-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-75-content" class="dyncontent" style="display:none;">
+<div id="dynsection-74-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/d73/server_2miscfunctions_8qh_a450084bb9c01e6e3fe55aa6027d4580f_icgraph.svg" width="100%" height="366"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -5634,7 +5619,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/d73/server_2miscfunctions_8qh.html">miscfunctions.qh</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 17:46:50 for Xonotic by
+    <li class="footer">Generated on Sun Jun 12 2016 03:49:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

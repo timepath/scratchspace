@@ -226,20 +226,19 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00449">449</a> of file <a class="el" href="../../d6/d95/ipban_8qc_source.html">ipban.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00409">Ban_IsClientBanned()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38">bprint()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00095">s</a>.</p>
+<p>References <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00409">Ban_IsClientBanned()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38">bprint()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d6/d95/ipban_8qc_source.html#l00462">Ban_MaybeEnforceBanOnce()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;{</div>
 <div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d95/ipban_8qc.html#a05777902da0fd5ebdff5d4b6703a0a17">Ban_IsClientBanned</a>(client, -1))</div>
 <div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    {</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        <span class="keywordtype">string</span> <a class="code" href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a> = sprintf(<span class="stringliteral">&quot;^1NOTE:^7 banned client %s just tried to enter\n&quot;</span>, client.netaddress);</div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        <span class="keywordtype">string</span> s = sprintf(<span class="stringliteral">&quot;^1NOTE:^7 banned client %s just tried to enter\n&quot;</span>, client.netaddress);</div>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;        dropclient(client);</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38">bprint</a>(s);</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    }</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a2016384928a1b557c51ef62964decea5"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a2016384928a1b557c51ef62964decea5">s</a></div><div class="ttdeci">string s</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00095">self.qh:95</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a687c7bf27ba894ccc52063de9fa79a38"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38">bprint</a></div><div class="ttdeci">void bprint(string text,...)</div></div>
 <div class="ttc" id="ipban_8qc_html_a05777902da0fd5ebdff5d4b6703a0a17"><div class="ttname"><a href="../../d6/d95/ipban_8qc.html#a05777902da0fd5ebdff5d4b6703a0a17">Ban_IsClientBanned</a></div><div class="ttdeci">float Ban_IsClientBanned(entity client, float idx)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d95/ipban_8qc_source.html#l00409">ipban.qc:409</a></div></div>
 </div><!-- fragment -->
@@ -646,7 +645,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../da/ddd/ipban_8qh.html">ipban.qh</a></li>
-    <li class="footer">Generated on Sat Jun 11 2016 17:46:59 for Xonotic by
+    <li class="footer">Generated on Sun Jun 12 2016 03:49:56 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

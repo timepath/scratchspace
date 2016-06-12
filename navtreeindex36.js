@@ -1,5 +1,15 @@
 var NAVTREEINDEX36 =
 {
+"d4/d87/classHagar.html#adcde8fd0f6fa50ab508ca98e0fa9bab5":[1,0,36,35],
+"d4/d87/classHagar.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,36,20],
+"d4/d87/classHagar.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,36,15],
+"d4/d87/classHagar.html#aff52b16f5e232f9aaec1b24ae8cf43b8":[1,0,36,28],
+"d4/d87/dialog__settings__audio_8qc.html":[2,0,4,4,120],
+"d4/d87/dialog__settings__audio_8qc.html#a9897d4b9ae8916a24d87fccc5defa1fa":[2,0,4,4,120,0],
+"d4/d87/dialog__settings__audio_8qc.html#adcafbc93d8765f378e35d8e650160da6":[2,0,4,4,120,1],
+"d4/d87/dialog__settings__audio_8qc_source.html":[2,0,4,4,120],
+"d4/d87/mutators_2mutator_2pinata_2module_8inc.html":[2,0,1,9,0,20,2],
+"d4/d87/mutators_2mutator_2pinata_2module_8inc_source.html":[2,0,1,9,0,20,2],
 "d4/d90/itemstime_8qc.html":[2,0,1,9,0,35],
 "d4/d90/itemstime_8qc_source.html":[2,0,1,9,0,35],
 "d4/d90/skin-customizables_8inc.html":[2,0,4,18],
@@ -239,15 +249,5 @@ var NAVTREEINDEX36 =
 "d4/d91/classXonoticCampaignList.html#a913c6db26d030bd0675e029b5c8f624e":[1,0,127,68],
 "d4/d91/classXonoticCampaignList.html#a955acbbda432fb19399292cbac96e0af":[1,0,127,66],
 "d4/d91/classXonoticCampaignList.html#a95a118f5875639816c61136b54a8fa5e":[1,0,127,52],
-"d4/d91/classXonoticCampaignList.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,127,77],
-"d4/d91/classXonoticCampaignList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,127,65],
-"d4/d91/classXonoticCampaignList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,127,37],
-"d4/d91/classXonoticCampaignList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,127,7],
-"d4/d91/classXonoticCampaignList.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,127,79],
-"d4/d91/classXonoticCampaignList.html#ab007c60fe27dacbf8640450a131be8a3":[1,0,127,54],
-"d4/d91/classXonoticCampaignList.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,127,81],
-"d4/d91/classXonoticCampaignList.html#ab4d49833930a1611ffedbc74c6f261fe":[1,0,127,41],
-"d4/d91/classXonoticCampaignList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,127,86],
-"d4/d91/classXonoticCampaignList.html#ab83650c3ac8c2ed4bfb9f24f0bb356fc":[1,0,127,31],
-"d4/d91/classXonoticCampaignList.html#abc058df5dc060f78ca248ed9723f4a92":[1,0,127,24]
+"d4/d91/classXonoticCampaignList.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,127,77]
 };

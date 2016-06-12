@@ -1,5 +1,17 @@
 var NAVTREEINDEX82 =
 {
+"da/d94/classXonoticSettingsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,218,10],
+"da/d94/classXonoticSettingsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,218,38],
+"da/d94/classXonoticSettingsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,218,43],
+"da/d94/classXonoticSettingsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,218,18],
+"da/d94/classXonoticSettingsDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,218,8],
+"da/d94/classXonoticSettingsDialog.html#a31049ac23a9b136a14bcbdac80d3f0eb":[1,0,218,61],
+"da/d94/classXonoticSettingsDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,218,11],
+"da/d94/classXonoticSettingsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,218,51],
+"da/d94/classXonoticSettingsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,218,19],
+"da/d94/classXonoticSettingsDialog.html#a35febc4699b486ec00bb66071ba3892c":[1,0,218,82],
+"da/d94/classXonoticSettingsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,218,35],
+"da/d94/classXonoticSettingsDialog.html#a3914bbbebeb4c734cae33a31b8c71455":[1,0,218,13],
 "da/d94/classXonoticSettingsDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,218,45],
 "da/d94/classXonoticSettingsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,218,1],
 "da/d94/classXonoticSettingsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,218,68],
@@ -237,17 +249,5 @@ var NAVTREEINDEX82 =
 "da/d9c/mutators_2mutator_2vampire_2module_8inc.html":[2,0,1,9,0,29,2],
 "da/d9c/mutators_2mutator_2vampire_2module_8inc_source.html":[2,0,1,9,0,29,2],
 "da/da6/flipflop_8qc.html":[2,0,1,13,3,5],
-"da/da6/flipflop_8qc_source.html":[2,0,1,13,3,5],
-"da/da9/classSpiderAttack.html":[1,0,104],
-"da/da9/classSpiderAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,104,32],
-"da/da9/classSpiderAttack.html#a066947bb269fd604de64212bba222ef2":[1,0,104,26],
-"da/da9/classSpiderAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,104,17],
-"da/da9/classSpiderAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,104,16],
-"da/da9/classSpiderAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,104,29],
-"da/da9/classSpiderAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,104,14],
-"da/da9/classSpiderAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,104,18],
-"da/da9/classSpiderAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,104,9],
-"da/da9/classSpiderAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,104,19],
-"da/da9/classSpiderAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,104,13],
-"da/da9/classSpiderAttack.html#a550032156ab5368291da64a1fb7ec3f1":[1,0,104,31]
+"da/da6/flipflop_8qc_source.html":[2,0,1,13,3,5]
 };

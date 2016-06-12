@@ -28,7 +28,6 @@ var oo_8qh =
     [ "new", "db/d0a/oo_8qh.html#ab92f7aae1a80b93313256ec9a7389ed1", null ],
     [ "NEW", "db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48", null ],
     [ "new_pure", "db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9", null ],
-    [ "NULL", "db/d0a/oo_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4", null ],
     [ "remove", "db/d0a/oo_8qh.html#a80db5eb01eb9265c29c36d8b364d30f5", null ],
     [ "spawn", "db/d0a/oo_8qh.html#a292ba0aa7779cf6b9841970f520a1308", null ],
     [ "spawn_1", "db/d0a/oo_8qh.html#a879a817c44e194f096563dd0fd3e7b5c", null ],

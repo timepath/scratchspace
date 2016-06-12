@@ -1,5 +1,15 @@
 var NAVTREEINDEX38 =
 {
+"d4/d94/classXonoticHUDVoteDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,177,60],
+"d4/d94/classXonoticHUDVoteDialog.html#af1aab403dc54575707fd57991312b201":[1,0,177,36],
+"d4/d94/classXonoticHUDVoteDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,177,16],
+"d4/d94/classXonoticHUDVoteDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,177,28],
+"d4/d94/classXonoticHUDVoteDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,177,2],
+"d4/d94/classXonoticHUDVoteDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,177,26],
+"d4/d94/classXonoticHUDVoteDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,177,30],
+"d4/d94/classXonoticHUDVoteDialog.html#afc6d7b0716f498ed88b9f41f4b6ba0aa":[1,0,177,50],
+"d4/d94/classXonoticHUDVoteDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,177,82],
+"d4/d94/classXonoticHUDVoteDialog.html#afda19931a2008666c294c187d32f4a48":[1,0,177,72],
 "d4/d94/common_2mutators_2mutator_2nix_2__mod_8inc.html":[2,0,1,9,0,17,0],
 "d4/d94/common_2mutators_2mutator_2nix_2__mod_8inc_source.html":[2,0,1,9,0,17,0],
 "d4/d95/common_2mutators_2events_8qh.html":[2,0,1,9,7],
@@ -239,15 +249,5 @@ var NAVTREEINDEX38 =
 "d4/da9/classRaptorBomb.html#ac18cdfd90d2ace31935d28130c75e814":[1,0,90,30],
 "d4/da9/classRaptorBomb.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,90,8],
 "d4/da9/classRaptorBomb.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,90,34],
-"d4/da9/classRaptorBomb.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,90,5],
-"d4/da9/classRaptorBomb.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,90,35],
-"d4/da9/classRaptorBomb.html#ad033f23932f202bddd926ed5b366336c":[1,0,90,27],
-"d4/da9/classRaptorBomb.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,90,1],
-"d4/da9/classRaptorBomb.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,90,20],
-"d4/da9/classRaptorBomb.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,90,22],
-"d4/da9/classRaptorBomb.html#ae99fad3a1cbbfab6c5829f2abe011f50":[1,0,90,23],
-"d4/da9/classRaptorBomb.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,90,15],
-"d4/da9/racetimer_8qh.html":[2,0,0,1,0,29],
-"d4/da9/racetimer_8qh_source.html":[2,0,0,1,0,29],
-"d4/dac/counter_8qc.html":[2,0,1,13,3,2]
+"d4/da9/classRaptorBomb.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,90,5]
 };
