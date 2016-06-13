@@ -236,7 +236,7 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    ctf_oneflag = (stat_items &amp; <a class="code" href="../../dd/dfa/gamemode__ctf_8qh.html#a6defd2424b3649131a0eb04d34fb3bb9">CTF_FLAG_NEUTRAL</a>);</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="code" href="../../dd/d59/modicons_8qc.html#a90b00643b4f9e53be543cdb107e4d527">mod_active</a> = (redflag || blueflag || yellowflag || pinkflag || neutralflag);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="code" href="../../dd/d59/modicons_8qc.html#a90b00643b4f9e53be543cdb107e4d527">mod_active</a> = (redflag || blueflag || yellowflag || pinkflag || neutralflag || (stat_items &amp; <a class="code" href="../../dd/dfa/gamemode__ctf_8qh.html#a050ce5ba8cbe30e4693583e945902731">CTF_SHIELDED</a>));</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a769abd3dde029fd8e62ae71c8a6ae258">autocvar__hud_configure</a>) {</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        redflag = 1;</div>
@@ -936,6 +936,7 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div class="ttc" id="modicons_8qc_html_a0f1af36f04cd98c81be8103026295459"><div class="ttname"><a href="../../dd/d59/modicons_8qc.html#a0f1af36f04cd98c81be8103026295459">srecordtime_change_time</a></div><div class="ttdeci">float srecordtime_change_time</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d59/modicons_8qc_source.html#l00489">modicons.qc:489</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ae9037dc83bdcfd223a3560fe1da7d345"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ae9037dc83bdcfd223a3560fe1da7d345">RACE_RECORD</a></div><div class="ttdeci">#define RACE_RECORD</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00060">util.qh:60</a></div></div>
 <div class="ttc" id="common_2util_8qc_html_a73cc543cc744ae536ed0ef34b8d481c4"><div class="ttname"><a href="../../da/d44/common_2util_8qc.html#a73cc543cc744ae536ed0ef34b8d481c4">textShortenToWidth</a></div><div class="ttdeci">string textShortenToWidth(string theText, float maxWidth, vector theFontSize, textLengthUpToWidth_widthFunction_t tw)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d44/common_2util_8qc_source.html#l00919">util.qc:919</a></div></div>
+<div class="ttc" id="gamemode__ctf_8qh_html_a050ce5ba8cbe30e4693583e945902731"><div class="ttname"><a href="../../dd/dfa/gamemode__ctf_8qh.html#a050ce5ba8cbe30e4693583e945902731">CTF_SHIELDED</a></div><div class="ttdeci">const int CTF_SHIELDED</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/dfa/gamemode__ctf_8qh_source.html#l00173">gamemode_ctf.qh:173</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
 <div class="ttc" id="modicons_8qc_html_aac6f0acb8b301e02ced8c4d2486e1922"><div class="ttname"><a href="../../dd/d59/modicons_8qc.html#aac6f0acb8b301e02ced8c4d2486e1922">blueflag_prevstatus</a></div><div class="ttdeci">int blueflag_prevstatus</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d59/modicons_8qc_source.html#l00101">modicons.qc:101</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a02482608b1eca1bf0591f7589db11994"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a02482608b1eca1bf0591f7589db11994">playerslots</a></div><div class="ttdeci">entity playerslots[255]</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00080">main.qh:80</a></div></div>
@@ -1043,7 +1044,7 @@ $(document).ready(function(){initNavTree('dd/d59/modicons_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../dd/d59/modicons_8qc.html">modicons.qc</a></li>
-    <li class="footer">Generated on Mon Jun 13 2016 04:01:09 for Xonotic by
+    <li class="footer">Generated on Mon Jun 13 2016 06:14:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

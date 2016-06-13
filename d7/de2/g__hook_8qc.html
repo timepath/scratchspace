@@ -1031,21 +1031,21 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00073">73</a> of file <a class="el" href="../../d7/de2/g__hook_8qc_source.html">g_hook.qc</a>.</p>
 
-<p>References <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00251">MOVETYPE_FLY</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00249">MOVETYPE_WALK</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
+<p>References <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00251">MOVETYPE_FLY</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00249">MOVETYPE_WALK</a>, and <a class="el" href="../../d6/da0/post_8qh_source.html#l00015">NULL</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01176">ClientDisconnect()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00576">Damage()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00513">Freeze()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00322">GrapplingHook_Damage()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00085">GrapplingHookReset()</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00137">GrapplingHookThink()</a>, <a class="el" href="../../dc/d16/server_2cl__player_8qc_source.html#l00300">PlayerDamage()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00187">PutObserverInServer()</a>, <a class="el" href="../../d5/db0/teleport_8qc_source.html#l00014">Teleport_Touch()</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00553">Unfreeze()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00945">vehicles_enter()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01098">vehicles_spawn()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01063">WarpZone_Projectile_Touch_ImpactFilter_Callback()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;{</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">if</span>(pl.hook == <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>)</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">if</span>(pl.hook == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keyword">remove</span>(pl.hook);</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    pl.hook = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    pl.hook = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <span class="keywordflow">if</span>(pl.movetype == <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0438992800fc2c9d52f6bafe99e50ebd">MOVETYPE_FLY</a>)</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        pl.movetype = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="comment">//pl.disableclientprediction = false;</span></div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
 <div class="ttc" id="progsdefs_8qc_html_a31938f237dbe4b58beccf0af8ee3713f"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a></div><div class="ttdeci">float MOVETYPE_WALK</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00249">progsdefs.qc:249</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a0438992800fc2c9d52f6bafe99e50ebd"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a0438992800fc2c9d52f6bafe99e50ebd">MOVETYPE_FLY</a></div><div class="ttdeci">float MOVETYPE_FLY</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00251">progsdefs.qc:251</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1147,7 +1147,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d7/de2/g__hook_8qc.html">g_hook.qc</a></li>
-    <li class="footer">Generated on Mon Jun 13 2016 04:01:24 for Xonotic by
+    <li class="footer">Generated on Mon Jun 13 2016 06:15:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

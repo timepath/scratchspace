@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('dd/d85/sortlist_8qc_source.html','../.
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">    entity sort;</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="comment">    sort = spawn();</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="comment">    sort.sort_cmp = cmp;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">    sort.sort_next = world;</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="comment">    sort.sort_next = NULL;</span></div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="comment">    sort.chain = sort;</span></div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="comment">    return sort;</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">}</span></div>
@@ -163,7 +163,7 @@ $(document).ready(function(){initNavTree('dd/d85/sortlist_8qc_source.html','../.
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="comment">float Sort_HasNext(entity sort)</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="comment">{</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">    return (sort.chain.sort_next != world);</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="comment">    return (sort.chain.sort_next != NULL);</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="comment">}</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="comment">entity Sort_Next(entity sort)</span></div>
@@ -174,7 +174,7 @@ $(document).ready(function(){initNavTree('dd/d85/sortlist_8qc_source.html','../.
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="comment">        next = spawn();</span></div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="comment">        sort.chain.sort_next = next;</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="comment">        next.sort_prev = sort.chain;</span></div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">        next.sort_next = world;</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="comment">        next.sort_next = NULL;</span></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="comment">    }</span></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">    sort.chain = next;</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">    return next;</span></div>
@@ -236,7 +236,7 @@ $(document).ready(function(){initNavTree('dd/d85/sortlist_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dd/d85/sortlist_8qc.html">sortlist.qc</a></li>
-    <li class="footer">Generated on Mon Jun 13 2016 04:01:12 for Xonotic by
+    <li class="footer">Generated on Mon Jun 13 2016 06:14:49 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -307,7 +307,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">if</span>(key.owner)</div>
 <div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            key.owner.kh_state |= <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(32, key.count) * 31;</div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    }</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="comment">//print(ftos((nextent(world)).kh_state), &quot;\n&quot;);</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="comment">//print(ftos((nextent(NULL)).kh_state), &quot;\n&quot;);</span></div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;}</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
@@ -443,12 +443,12 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        setorigin(first, first.origin + 0.5 * KH_PLAYER_ATTACHMENT_DIST);</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    }</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <span class="comment">// in any case:</span></div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    setattachment(key, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    setattachment(key, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    setorigin(key, key.owner.origin + <span class="stringliteral">&#39;0 0 1&#39;</span> * (STAT(PL_MIN, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>).z - KH_KEY_MIN_z));</div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    key.angles = key.owner.angles;</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;<span class="preprocessor"></span>    setorigin(key, key.owner.origin + key.origin.z * <span class="stringliteral">&#39;0 0 1&#39;</span>);</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    setattachment(key, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, <span class="stringliteral">&quot;&quot;</span>);</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    setattachment(key, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    key.angles_y += key.owner.angles.y;</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;<span class="preprocessor"></span>    key.flags = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a06604aa8501b047dd6e84f7f9d176089">FL_ITEM</a>;</div>
@@ -480,10 +480,10 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        <span class="keywordflow">if</span>(key.kh_next)</div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;            key.kh_next.kh_prev = key.kh_prev;</div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        key.kh_prev.kh_next = key.kh_next;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        key.kh_next = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        key.kh_prev = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;        key.kh_next = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        key.kh_prev = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <span class="keywordflow">if</span>(key.owner.kh_next == <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>)</div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <span class="keywordflow">if</span>(key.owner.kh_next == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        {</div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;            <span class="comment">// No longer a key carrier</span></div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;            <span class="keywordflow">if</span>(!kh_no_radar_circles)</div>
@@ -517,7 +517,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        kh_Key_Attach(key);</div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        <span class="keywordflow">if</span>(key.kh_next == <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>)</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        <span class="keywordflow">if</span>(key.kh_next == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        {</div>
 <div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;            <span class="comment">// player is now a key carrier</span></div>
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> wp = WaypointSprite_AttachCarrier(WP_Null, player, RADARICON_FLAGCARRIER);</div>
@@ -540,7 +540,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    <span class="comment">// moved that here, also update if there&#39;s no player</span></div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    kh_update_state();</div>
 <div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    key.pusher = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    key.pusher = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;</div>
 <div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;    ownerteam = <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a23c6a4a8ae9da6a50ca2b533c38876f7">kh_Key_AllOwnedByWhichTeam</a>();</div>
 <div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    <span class="keywordflow">if</span>(ownerteam != ownerteam0)</div>
@@ -607,7 +607,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;        <a class="code" href="../../d2/d79/scores_8qc.html#a4e597c14f389b7db7703d04c6f987db2">PlayerScore_Add</a>(player, SP_KH_PICKUPS, 1);</div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    }</div>
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    key.kh_dropperteam = 0;</div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;    Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_INFO, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a909aad1d6d192e45bd062bee468c7672">APP_TEAM_ENT</a>(key, INFO_KEYHUNT_PICKUP), player.netname);</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;    Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a909aad1d6d192e45bd062bee468c7672">APP_TEAM_ENT</a>(key, INFO_KEYHUNT_PICKUP), player.netname);</div>
 <div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;</div>
 <div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;    kh_Key_AssignTo(key, player); <span class="comment">// this also updates .kh_state</span></div>
 <div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;}</div>
@@ -642,7 +642,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;{</div>
 <div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> o;</div>
 <div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    o = key.owner;</div>
-<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    kh_Key_AssignTo(key, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>);</div>
+<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    kh_Key_AssignTo(key, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    <span class="keywordflow">if</span>(o) <span class="comment">// it was attached</span></div>
 <div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;        WaypointSprite_Kill(key.waypointsprite_attachedforcarrier);</div>
 <div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;    <span class="keywordflow">else</span> <span class="comment">// it was dropped</span></div>
@@ -681,7 +681,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;        kh_Key_Remove(key);</div>
 <div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    kh_no_radar_circles = <a class="code" href="../../da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727">false</a>;</div>
 <div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;</div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_CENTER, CENTER_KEYHUNT_ROUNDSTART, autocvar_g_balance_keyhunt_delay_round);</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_CENTER, CENTER_KEYHUNT_ROUNDSTART, autocvar_g_balance_keyhunt_delay_round);</div>
 <div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a531e55e732864eae875e27be2261f406">kh_Controller_SetThink</a>(autocvar_g_balance_keyhunt_delay_round, <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#ad10ed989b4f6a7ccbba89f62fc1705ac">kh_StartRound</a>);</div>
 <div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;}</div>
 <div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;</div>
@@ -716,7 +716,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;            first = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;        }</div>
 <div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;</div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    Send_Notification(NOTIF_ALL, world, MSG_INFO, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#ac486a7d1f513b54ae53f7fd9c21c0f3f">APP_TEAM_NUM</a>(teem, INFO_KEYHUNT_CAPTURE), keyowner);</div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;    Send_Notification(NOTIF_ALL, NULL, MSG_INFO, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#ac486a7d1f513b54ae53f7fd9c21c0f3f">APP_TEAM_NUM</a>(teem, INFO_KEYHUNT_CAPTURE), keyowner);</div>
 <div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;</div>
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;    first = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;    midpoint = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
@@ -731,7 +731,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;        midpoint += thisorigin;</div>
 <div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;</div>
 <div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;        <span class="keywordflow">if</span>(!first)</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;            te_lightning2(world, lastorigin, thisorigin);</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;            te_lightning2(NULL, lastorigin, thisorigin);</div>
 <div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;        lastorigin = thisorigin;</div>
 <div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;        <span class="keywordflow">if</span>(first)</div>
 <div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;            firstorigin = thisorigin;</div>
@@ -739,7 +739,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    }</div>
 <div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    <span class="keywordflow">if</span>(kh_teams &gt; 2)</div>
 <div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    {</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        te_lightning2(world, lastorigin, firstorigin);</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        te_lightning2(NULL, lastorigin, firstorigin);</div>
 <div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    }</div>
 <div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;    midpoint = midpoint * (1 / kh_teams);</div>
 <div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;    te_customflash(midpoint, 1000, 1, <a class="code" href="../../db/d07/teams_8qh.html#a40887618c0a56497f855f5631aa428d9">Team_ColorRGB</a>(teem) * 0.5 + <span class="stringliteral">&#39;0.5 0.5 0.5&#39;</span>);  <span class="comment">// make the color &gt;=0.5 in each component</span></div>
@@ -755,7 +755,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;    <span class="keywordtype">float</span> keys;</div>
 <div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;    <span class="keywordtype">float</span> f;</div>
 <div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;</div>
-<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;    attacker = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;    attacker = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;    <span class="keywordflow">if</span>(lostkey.pusher)</div>
 <div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;        <span class="keywordflow">if</span>(lostkey.pusher.team != teem)</div>
 <div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(lostkey.pusher))</div>
@@ -766,9 +766,9 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;    <span class="keywordflow">if</span>(attacker)</div>
 <div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;    {</div>
 <div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;        <span class="keywordflow">if</span>(lostkey.kh_previous_owner)</div>
-<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;            kh_Scores_Event(lostkey.kh_previous_owner, world, <span class="stringliteral">&quot;pushed&quot;</span>, 0, -autocvar_g_balance_keyhunt_score_push);</div>
+<div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;            kh_Scores_Event(lostkey.kh_previous_owner, NULL, <span class="stringliteral">&quot;pushed&quot;</span>, 0, -autocvar_g_balance_keyhunt_score_push);</div>
 <div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;            <span class="comment">// don&#39;t actually GIVE him the -nn points, just log</span></div>
-<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;        kh_Scores_Event(attacker, world, <span class="stringliteral">&quot;push&quot;</span>, autocvar_g_balance_keyhunt_score_push, 0);</div>
+<div class="line"><a name="l00664"></a><span class="lineno">  664</span>&#160;        kh_Scores_Event(attacker, NULL, <span class="stringliteral">&quot;push&quot;</span>, autocvar_g_balance_keyhunt_score_push, 0);</div>
 <div class="line"><a name="l00665"></a><span class="lineno">  665</span>&#160;        <a class="code" href="../../d2/d79/scores_8qc.html#a4e597c14f389b7db7703d04c6f987db2">PlayerScore_Add</a>(attacker, SP_KH_PUSHES, 1);</div>
 <div class="line"><a name="l00666"></a><span class="lineno">  666</span>&#160;        <span class="comment">//centerprint(attacker, &quot;Your push is the best!&quot;); // does this really need to exist?</span></div>
 <div class="line"><a name="l00667"></a><span class="lineno">  667</span>&#160;    }</div>
@@ -784,7 +784,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;                ++keys;</div>
 <div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;</div>
 <div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        if(lostkey.kh_previous_owner)</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;            kh_Scores_Event(lostkey.kh_previous_owner, world, &quot;destroyed&quot;, 0, -autocvar_g_balance_keyhunt_score_destroyed);</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;            kh_Scores_Event(lostkey.kh_previous_owner, NULL, &quot;destroyed&quot;, 0, -autocvar_g_balance_keyhunt_score_destroyed);</div>
 <div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;            <span class="comment">// don&#39;t actually GIVE him the -nn points, just log</span></div>
 <div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;</div>
 <div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;        if(lostkey.kh_previous_owner.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a31c2e523e63d0215e6075125fea821f3">playerid</a> == lostkey.kh_previous_owner_playerid)</div>
@@ -796,7 +796,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;            if(key.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a> &amp;&amp; key.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> != teem)</div>
 <div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;            {</div>
 <div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;                f = <a class="code" href="../../dc/d95/random_8qc.html#a7e1cd659f19903a270d90839587d91ee">DistributeEvenly_Get</a>(of);</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;                kh_Scores_Event(key.owner, world, <span class="stringliteral">&quot;destroyed_holdingkey&quot;</span>, f, 0);</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;                kh_Scores_Event(key.owner, NULL, <span class="stringliteral">&quot;destroyed_holdingkey&quot;</span>, f, 0);</div>
 <div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;            }</div>
 <div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;</div>
 <div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;        fragsleft = <a class="code" href="../../dc/d95/random_8qc.html#a7e1cd659f19903a270d90839587d91ee">DistributeEvenly_Get</a>(players);</div>
@@ -818,14 +818,14 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;</div>
 <div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;            <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it.team == thisteam, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
 <div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;                f = <a class="code" href="../../dc/d95/random_8qc.html#a7e1cd659f19903a270d90839587d91ee">DistributeEvenly_Get</a>(1);</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;                kh_Scores_Event(it, world, <span class="stringliteral">&quot;destroyed&quot;</span>, f, 0);</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;                kh_Scores_Event(it, NULL, <span class="stringliteral">&quot;destroyed&quot;</span>, f, 0);</div>
 <div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;            ));</div>
 <div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;</div>
 <div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;            --j;</div>
 <div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        }</div>
 <div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;    }</div>
 <div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    Send_Notification(NOTIF_ALL, world, MSG_INFO, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a909aad1d6d192e45bd062bee468c7672">APP_TEAM_ENT</a>(lostkey, INFO_KEYHUNT_LOST), lostkey.kh_previous_owner.netname);</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    Send_Notification(NOTIF_ALL, NULL, MSG_INFO, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a909aad1d6d192e45bd062bee468c7672">APP_TEAM_ENT</a>(lostkey, INFO_KEYHUNT_LOST), lostkey.kh_previous_owner.netname);</div>
 <div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;</div>
 <div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#aa5a5ed1fd369382ba21cb76e5803fdf3">play2all</a>(<a class="code" href="../../d4/df4/common_2sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a>(KH_DESTROY));</div>
 <div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    te_tarexplosion(lostkey.origin);</div>
@@ -889,7 +889,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;</div>
 <div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;<span class="keywordtype">void</span> key_reset(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;{</div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;    kh_Key_AssignTo(<span class="keyword">this</span>, world);</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;    kh_Key_AssignTo(<span class="keyword">this</span>, NULL);</div>
 <div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;    kh_Key_Remove(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;}</div>
 <div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;</div>
@@ -940,7 +940,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;</div>
 <div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;    Send_Notification(NOTIF_ONE, initial_owner, MSG_CENTER, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#ac486a7d1f513b54ae53f7fd9c21c0f3f">APP_TEAM_NUM</a>(initial_owner.team, CENTER_KEYHUNT_START));</div>
 <div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;</div>
-<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;    WaypointSprite_Spawn(WP_KeyDropped, 0, 0, key, <span class="stringliteral">&#39;0 0 1&#39;</span> * KH_KEY_WP_ZSHIFT, world, key.team, key, waypointsprite_attachedforcarrier, <span class="keyword">false</span>, RADARICON_FLAG);</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;    WaypointSprite_Spawn(WP_KeyDropped, 0, 0, key, <span class="stringliteral">&#39;0 0 1&#39;</span> * KH_KEY_WP_ZSHIFT, NULL, key.team, key, waypointsprite_attachedforcarrier, <span class="keyword">false</span>, RADARICON_FLAG);</div>
 <div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;    key.waypointsprite_attachedforcarrier.waypointsprite_visible_for_player = kh_Key_waypointsprite_visible_for_player;</div>
 <div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;</div>
 <div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;    kh_Key_AssignTo(key, initial_owner);</div>
@@ -981,12 +981,12 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;</div>
 <div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;    kh_Scores_Event(player, key, <span class="stringliteral">&quot;dropkey&quot;</span>, 0, 0);</div>
 <div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#a4e597c14f389b7db7703d04c6f987db2">PlayerScore_Add</a>(player, SP_KH_LOSSES, 1);</div>
-<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;    Send_Notification(NOTIF_ALL, world, MSG_INFO, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a909aad1d6d192e45bd062bee468c7672">APP_TEAM_ENT</a>(key, INFO_KEYHUNT_DROP), player.netname);</div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;    Send_Notification(NOTIF_ALL, NULL, MSG_INFO, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a909aad1d6d192e45bd062bee468c7672">APP_TEAM_ENT</a>(key, INFO_KEYHUNT_DROP), player.netname);</div>
 <div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;</div>
-<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;    kh_Key_AssignTo(key, world);</div>
+<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;    kh_Key_AssignTo(key, NULL);</div>
 <div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;    makevectors(player.v_angle);</div>
 <div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;    key.velocity = <a class="code" href="../../d7/d31/tracing_8qc.html#a01fdafeeb02668e5b55cce3baccf9d01">W_CalculateProjectileVelocity</a>(player, player.velocity, autocvar_g_balance_keyhunt_throwvelocity * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;    key.pusher = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;    key.pusher = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;    key.pushltime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + autocvar_g_balance_keyhunt_protecttime;</div>
 <div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;    key.kh_dropperteam = key.team;</div>
 <div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;</div>
@@ -999,7 +999,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> mypusher;</div>
 <div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;    <span class="keywordflow">if</span>(player.kh_next)</div>
 <div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;    {</div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;        mypusher = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;        mypusher = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;        <span class="keywordflow">if</span>(player.pusher)</div>
 <div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; player.pushltime)</div>
 <div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;                mypusher = player.pusher;</div>
@@ -1007,8 +1007,8 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;        {</div>
 <div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;            kh_Scores_Event(player, key, <span class="stringliteral">&quot;losekey&quot;</span>, 0, 0);</div>
 <div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;            <a class="code" href="../../d2/d79/scores_8qc.html#a4e597c14f389b7db7703d04c6f987db2">PlayerScore_Add</a>(player, SP_KH_LOSSES, 1);</div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;            Send_Notification(NOTIF_ALL, world, MSG_INFO, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a909aad1d6d192e45bd062bee468c7672">APP_TEAM_ENT</a>(key, INFO_KEYHUNT_LOST), player.netname);</div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;            kh_Key_AssignTo(key, world);</div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;            Send_Notification(NOTIF_ALL, NULL, MSG_INFO, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#a909aad1d6d192e45bd062bee468c7672">APP_TEAM_ENT</a>(key, INFO_KEYHUNT_LOST), player.netname);</div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;            kh_Key_AssignTo(key, NULL);</div>
 <div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;            makevectors(<span class="stringliteral">&#39;-1 0 0&#39;</span> * (45 + 45 * <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>()) + <span class="stringliteral">&#39;0 360 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>());</div>
 <div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;            key.velocity = <a class="code" href="../../d7/d31/tracing_8qc.html#a01fdafeeb02668e5b55cce3baccf9d01">W_CalculateProjectileVelocity</a>(player, player.velocity, autocvar_g_balance_keyhunt_dropvelocity * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a>, <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;            key.pusher = mypusher;</div>
@@ -1051,9 +1051,9 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;    <span class="keywordflow">if</span>(KH_READY_TEAMS_OK())</div>
 <div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;    {</div>
 <div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;        <span class="keywordflow">if</span>(prev_missing_teams_mask &gt; 0)</div>
-<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;            Kill_Notification(NOTIF_ALL, world, MSG_CENTER, CPID_MISSING_TEAMS);</div>
+<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;            Kill_Notification(NOTIF_ALL, NULL, MSG_CENTER, CPID_MISSING_TEAMS);</div>
 <div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;        prev_missing_teams_mask = -1;</div>
-<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;        Send_Notification(NOTIF_ALL, world, MSG_CENTER, CENTER_KEYHUNT_ROUNDSTART, autocvar_g_balance_keyhunt_delay_round);</div>
+<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;        Send_Notification(NOTIF_ALL, NULL, MSG_CENTER, CENTER_KEYHUNT_ROUNDSTART, autocvar_g_balance_keyhunt_delay_round);</div>
 <div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;        <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a531e55e732864eae875e27be2261f406">kh_Controller_SetThink</a>(autocvar_g_balance_keyhunt_delay_round, kh_StartRound);</div>
 <div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;    }</div>
 <div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;    <span class="keywordflow">else</span></div>
@@ -1061,7 +1061,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aa9133b1e9c4643806028438151bd2f6e">player_count</a> == 0)</div>
 <div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;        {</div>
 <div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;            <span class="keywordflow">if</span>(prev_missing_teams_mask &gt; 0)</div>
-<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;                Kill_Notification(NOTIF_ALL, world, MSG_CENTER, CPID_MISSING_TEAMS);</div>
+<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;                Kill_Notification(NOTIF_ALL, NULL, MSG_CENTER, CPID_MISSING_TEAMS);</div>
 <div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;            prev_missing_teams_mask = -1;</div>
 <div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;        }</div>
 <div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;        <span class="keywordflow">else</span></div>
@@ -1071,7 +1071,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;            <span class="keywordflow">if</span>(kh_teams &gt;= 4) missing_teams_mask += <a class="code" href="../../dd/d54/bool_8qh.html#a8b6d61ae40e2024b8c201bf4f433986c">boolean</a>(p4) * 8;</div>
 <div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;            <span class="keywordflow">if</span>(prev_missing_teams_mask != missing_teams_mask)</div>
 <div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;            {</div>
-<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;                Send_Notification(NOTIF_ALL, world, MSG_CENTER, CENTER_MISSING_TEAMS, missing_teams_mask);</div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;                Send_Notification(NOTIF_ALL, NULL, MSG_CENTER, CENTER_MISSING_TEAMS, missing_teams_mask);</div>
 <div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;                prev_missing_teams_mask = missing_teams_mask;</div>
 <div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;            }</div>
 <div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;        }</div>
@@ -1081,8 +1081,8 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;</div>
 <div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;<span class="keywordtype">void</span> kh_EnableTrackingDevice()  <span class="comment">// runs after each round</span></div>
 <div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;{</div>
-<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;    Kill_Notification(NOTIF_ALL, world, MSG_CENTER, CPID_KEYHUNT);</div>
-<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;    Kill_Notification(NOTIF_ALL, world, MSG_CENTER, CPID_KEYHUNT_OTHER);</div>
+<div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;    Kill_Notification(NOTIF_ALL, NULL, MSG_CENTER, CPID_KEYHUNT);</div>
+<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;    Kill_Notification(NOTIF_ALL, NULL, MSG_CENTER, CPID_KEYHUNT_OTHER);</div>
 <div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;</div>
 <div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a2bbdc8edf10660c2d7d2308b82b39a26">kh_tracking_enabled</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;}</div>
@@ -1104,14 +1104,14 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;    }</div>
 <div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;</div>
-<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;    Kill_Notification(NOTIF_ALL, world, MSG_CENTER, CPID_KEYHUNT);</div>
-<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;    Kill_Notification(NOTIF_ALL, world, MSG_CENTER, CPID_KEYHUNT_OTHER);</div>
+<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;    Kill_Notification(NOTIF_ALL, NULL, MSG_CENTER, CPID_KEYHUNT);</div>
+<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;    Kill_Notification(NOTIF_ALL, NULL, MSG_CENTER, CPID_KEYHUNT_OTHER);</div>
 <div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;</div>
 <div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt; kh_teams; ++i)</div>
 <div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;    {</div>
 <div class="line"><a name="l01005"></a><span class="lineno"> 1005</span>&#160;        teem = kh_Team_ByID(i);</div>
 <div class="line"><a name="l01006"></a><span class="lineno"> 1006</span>&#160;        players = 0;</div>
-<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> my_player = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> my_player = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
 <div class="line"><a name="l01009"></a><span class="lineno"> 1009</span>&#160;            <span class="keywordflow">if</span>(!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(it) &amp;&amp; !<a class="code" href="../../df/dae/player_8qh.html#a507eb34316e1e6ce99a3dc40abe68474">PHYS_INPUT_BUTTON_CHAT</a>(it) &amp;&amp; it.team == teem)</div>
 <div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;            {</div>
@@ -1124,7 +1124,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160;    }</div>
 <div class="line"><a name="l01018"></a><span class="lineno"> 1018</span>&#160;</div>
 <div class="line"><a name="l01019"></a><span class="lineno"> 1019</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a2bbdc8edf10660c2d7d2308b82b39a26">kh_tracking_enabled</a> = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01020"></a><span class="lineno"> 1020</span>&#160;    Send_Notification(NOTIF_ALL, world, MSG_CENTER, CENTER_KEYHUNT_SCAN, autocvar_g_balance_keyhunt_delay_tracking);</div>
+<div class="line"><a name="l01020"></a><span class="lineno"> 1020</span>&#160;    Send_Notification(NOTIF_ALL, NULL, MSG_CENTER, CENTER_KEYHUNT_SCAN, autocvar_g_balance_keyhunt_delay_tracking);</div>
 <div class="line"><a name="l01021"></a><span class="lineno"> 1021</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a531e55e732864eae875e27be2261f406">kh_Controller_SetThink</a>(autocvar_g_balance_keyhunt_delay_tracking, kh_EnableTrackingDevice);</div>
 <div class="line"><a name="l01022"></a><span class="lineno"> 1022</span>&#160;}</div>
 <div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;</div>
@@ -1140,7 +1140,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> k;</div>
 <div class="line"><a name="l01034"></a><span class="lineno"> 1034</span>&#160;            <span class="keywordtype">float</span> nk;</div>
 <div class="line"><a name="l01035"></a><span class="lineno"> 1035</span>&#160;            nk = 0;</div>
-<div class="line"><a name="l01036"></a><span class="lineno"> 1036</span>&#160;            <span class="keywordflow">for</span>(k = targ.kh_next; k != world; k = k.kh_next)</div>
+<div class="line"><a name="l01036"></a><span class="lineno"> 1036</span>&#160;            <span class="keywordflow">for</span>(k = targ.kh_next; k != NULL; k = k.kh_next)</div>
 <div class="line"><a name="l01037"></a><span class="lineno"> 1037</span>&#160;                ++nk;</div>
 <div class="line"><a name="l01038"></a><span class="lineno"> 1038</span>&#160;            kh_Scores_Event(attacker, targ.kh_next, <span class="stringliteral">&quot;carrierfrag&quot;</span>, -nk * autocvar_g_balance_keyhunt_score_collect, 0);</div>
 <div class="line"><a name="l01039"></a><span class="lineno"> 1039</span>&#160;        }</div>
@@ -1193,7 +1193,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;    <span class="comment">// to be called before intermission</span></div>
 <div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;    kh_FinishRound();</div>
 <div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;    <span class="keyword">remove</span>(kh_controller);</div>
-<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;    kh_controller = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;    kh_controller = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;}</div>
 <div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;</div>
 <div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;<span class="comment">// legacy bot role</span></div>
@@ -1504,7 +1504,6 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="ttc" id="common_2sounds_2all_8qh_html_a95b575d77a4c36658bf10f40dd84893d"><div class="ttname"><a href="../../d4/df4/common_2sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a></div><div class="ttdeci">#define SND(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00015">all.qh:15</a></div></div>
 <div class="ttc" id="base_8qh_html_a67c251f527a84b1ce3718ba6283e7bb4"><div class="ttname"><a href="../../db/d38/base_8qh.html#a67c251f527a84b1ce3718ba6283e7bb4">CBC_ORDER_EXCLUSIVE</a></div><div class="ttdeci">const int CBC_ORDER_EXCLUSIVE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00006">base.qh:6</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a60338c2153150633178af678cf3ca57c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a></div><div class="ttdeci">entity spawn(void)</div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_aeada6745e1a86301721bd800dc3b869a"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a></div><div class="ttdeci">const int SFL_SORT_PRIO_PRIMARY</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00123">constants.qh:123</a></div></div>
 <div class="ttc" id="navigation_8qc_html_ab6d01fa32a875613a62f92c12a06bddd"><div class="ttname"><a href="../../d1/d9a/navigation_8qc.html#ab6d01fa32a875613a62f92c12a06bddd">navigation_goalrating_end</a></div><div class="ttdeci">void navigation_goalrating_end(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/navigation_8qc_source.html#l01003">navigation.qc:1003</a></div></div>
 <div class="ttc" id="navigation_8qc_html_a956bb41e292b7dcbfaa013f178202584"><div class="ttname"><a href="../../d1/d9a/navigation_8qc.html#a956bb41e292b7dcbfaa013f178202584">navigation_routerating</a></div><div class="ttdeci">void navigation_routerating(entity this, entity e, float f, float rangebias)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/navigation_8qc_source.html#l00675">navigation.qc:675</a></div></div>
@@ -1642,7 +1641,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../de/d40/gamemode__keyhunt_8qc.html">gamemode_keyhunt.qc</a></li>
-    <li class="footer">Generated on Mon Jun 13 2016 04:01:13 for Xonotic by
+    <li class="footer">Generated on Mon Jun 13 2016 06:14:51 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

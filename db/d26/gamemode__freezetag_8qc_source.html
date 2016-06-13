@@ -206,14 +206,14 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <span class="keywordflow">if</span>(FREEZETAG_ALIVE_TEAMS_OK())</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    {</div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">if</span>(prev_missing_teams_mask &gt; 0)</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            Kill_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_CENTER, CPID_MISSING_TEAMS);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            Kill_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_CENTER, CPID_MISSING_TEAMS);</div>
 <div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;        prev_missing_teams_mask = -1;</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d3/d62/gamemode_8qh.html#af39c434e324c1dab87f08a2368e414ce">total_players</a> == 0)</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    {</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        <span class="keywordflow">if</span>(prev_missing_teams_mask &gt; 0)</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            Kill_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_CENTER, CPID_MISSING_TEAMS);</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;            Kill_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_CENTER, CPID_MISSING_TEAMS);</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        prev_missing_teams_mask = -1;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    }</div>
@@ -222,7 +222,7 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> &gt;= 4) missing_teams_mask += (!<a class="code" href="../../d3/d62/gamemode_8qh.html#a94f7dfb485a988da25947983ebe8cd59">pinkalive</a>) * 8;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <span class="keywordflow">if</span>(prev_missing_teams_mask != missing_teams_mask)</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    {</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_CENTER, CENTER_MISSING_TEAMS, missing_teams_mask);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_CENTER, CENTER_MISSING_TEAMS, missing_teams_mask);</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        prev_missing_teams_mask = missing_teams_mask;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    <span class="keywordflow">return</span> 0;</div>
@@ -257,8 +257,8 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;{</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d20/round__handler_8qh.html#a3333ca7666a86449c9cce2487a77bd4f">round_handler_GetEndTime</a>() &gt; 0 &amp;&amp; <a class="code" href="../../db/d20/round__handler_8qh.html#a3333ca7666a86449c9cce2487a77bd4f">round_handler_GetEndTime</a>() - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt;= 0)</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    {</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_CENTER, CENTER_ROUND_OVER);</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_INFO, INFO_ROUND_OVER);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_CENTER, CENTER_ROUND_OVER);</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_ROUND_OVER);</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;            it.freezetag_frozen_timeout = 0;</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;            nades_Clear(it);</div>
@@ -273,14 +273,14 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordtype">int</span> winner_team = freezetag_getWinnerTeam();</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    <span class="keywordflow">if</span>(winner_team &gt; 0)</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;    {</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_CENTER, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#ac486a7d1f513b54ae53f7fd9c21c0f3f">APP_TEAM_NUM</a>(winner_team, CENTER_ROUND_TEAM_WIN));</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_INFO, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#ac486a7d1f513b54ae53f7fd9c21c0f3f">APP_TEAM_NUM</a>(winner_team, INFO_ROUND_TEAM_WIN));</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_CENTER, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#ac486a7d1f513b54ae53f7fd9c21c0f3f">APP_TEAM_NUM</a>(winner_team, CENTER_ROUND_TEAM_WIN));</div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, <a class="code" href="../../dc/de5/common_2notifications_2all_8qh.html#ac486a7d1f513b54ae53f7fd9c21c0f3f">APP_TEAM_NUM</a>(winner_team, INFO_ROUND_TEAM_WIN));</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <a class="code" href="../../d2/d79/scores_8qc.html#a2f5738674b5f6bac88679dd31ac2de9e">TeamScore_AddToTeam</a>(winner_team, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a8282504222d03bb68483776381c31a5a">ST_SCORE</a>, +1);</div>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(winner_team == -1)</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    {</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_CENTER, CENTER_ROUND_TIED);</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_INFO, INFO_ROUND_TIED);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_CENTER, CENTER_ROUND_TIED);</div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_ROUND_TIED);</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    }</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
@@ -293,7 +293,7 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> freezetag_LastPlayerForTeam(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;{</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> last_pl = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> last_pl = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != <span class="keyword">this</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <span class="keywordflow">if</span>(it.health &gt;= 1)</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="keywordflow">if</span>(!STAT(FROZEN, it))</div>
@@ -301,7 +301,7 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <span class="keywordflow">if</span>(!last_pl)</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            last_pl = it;</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    ));</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keywordflow">return</span> last_pl;</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;}</div>
@@ -523,11 +523,11 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    freezetag_Freeze(frag_target, frag_attacker);</div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    freezetag_LastPlayerForTeam_Notify(frag_target);</div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <span class="keywordflow">if</span>(frag_attacker == frag_target || frag_attacker == <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>)</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    <span class="keywordflow">if</span>(frag_attacker == frag_target || frag_attacker == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    {</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(frag_target))</div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;            Send_Notification(NOTIF_ONE, frag_target, MSG_CENTER, CENTER_FREEZETAG_SELF);</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_INFO, INFO_FREEZETAG_SELF, frag_target.netname);</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_FREEZETAG_SELF, frag_target.netname);</div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    }</div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    {</div>
@@ -535,7 +535,7 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;            Send_Notification(NOTIF_ONE, frag_target, MSG_CENTER, CENTER_FREEZETAG_FROZEN, frag_attacker.netname);</div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(frag_attacker))</div>
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;            Send_Notification(NOTIF_ONE, frag_attacker, MSG_CENTER, CENTER_FREEZETAG_FREEZE, frag_target.netname);</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_INFO, INFO_FREEZETAG_FREEZE, frag_target.netname, frag_attacker.netname);</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_FREEZETAG_FREEZE, frag_target.netname, frag_attacker.netname);</div>
 <div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    }</div>
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
@@ -550,7 +550,7 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;</div>
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <span class="keywordflow">if</span>(player.freezetag_frozen_timeout == -2) <span class="comment">// player was dead</span></div>
 <div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    {</div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        freezetag_Freeze(player, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>);</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;        freezetag_Freeze(player, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;    }</div>
 <div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;</div>
@@ -560,7 +560,7 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2">round_handler_IsRoundStarted</a>())</div>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    {</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;        Send_Notification(NOTIF_ONE, player, MSG_CENTER, CENTER_FREEZETAG_SPAWN_LATE);</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        freezetag_Freeze(player, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>);</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        freezetag_Freeze(player, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    }</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
@@ -604,7 +604,7 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;    <span class="keywordtype">int</span> n;</div>
 <div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;</div>
 <div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> o;</div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    o = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    o = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    <span class="comment">//if(STAT(FROZEN, player))</span></div>
 <div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;    <span class="comment">//if(player.freezetag_frozen_timeout &gt; 0 &amp;&amp; time &lt; player.freezetag_frozen_timeout)</span></div>
 <div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;        <span class="comment">//player.iceblock.alpha = ICE_MIN_ALPHA + (ICE_MAX_ALPHA - ICE_MIN_ALPHA) * (player.freezetag_frozen_timeout - time) / (player.freezetag_frozen_timeout - player.freezetag_frozen_time);</span></div>
@@ -644,7 +644,7 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;            <span class="keywordflow">if</span>(n == -1)</div>
 <div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;            {</div>
 <div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;                Send_Notification(NOTIF_ONE, player, MSG_CENTER, CENTER_FREEZETAG_AUTO_REVIVED, autocvar_g_freezetag_frozen_maxtime);</div>
-<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;                Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_INFO, INFO_FREEZETAG_AUTO_REVIVED, player.netname, autocvar_g_freezetag_frozen_maxtime);</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;                Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_FREEZETAG_AUTO_REVIVED, player.netname, autocvar_g_freezetag_frozen_maxtime);</div>
 <div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;            }</div>
 <div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;</div>
@@ -657,7 +657,7 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;</div>
 <div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;            Send_Notification(NOTIF_ONE, player, MSG_CENTER, CENTER_FREEZETAG_REVIVED, o.netname);</div>
 <div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;            Send_Notification(NOTIF_ONE, o, MSG_CENTER, CENTER_FREEZETAG_REVIVE, player.netname);</div>
-<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;            Send_Notification(NOTIF_ALL, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, MSG_INFO, INFO_FREEZETAG_REVIVED, player.netname, o.netname);</div>
+<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;            Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_FREEZETAG_REVIVED, player.netname, o.netname);</div>
 <div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;        }</div>
 <div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;</div>
 <div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it.reviving, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
@@ -742,7 +742,6 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="ttc" id="server_2miscfunctions_8qh_html_a963375e0503f2f80f21fa12935491751"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a963375e0503f2f80f21fa12935491751">warmup_start_health</a></div><div class="ttdeci">float warmup_start_health</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00235">miscfunctions.qh:235</a></div></div>
 <div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
 <div class="ttc" id="base_8qh_html_a67c251f527a84b1ce3718ba6283e7bb4"><div class="ttname"><a href="../../db/d38/base_8qh.html#a67c251f527a84b1ce3718ba6283e7bb4">CBC_ORDER_EXCLUSIVE</a></div><div class="ttdeci">const int CBC_ORDER_EXCLUSIVE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00006">base.qh:6</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_aeada6745e1a86301721bd800dc3b869a"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a></div><div class="ttdeci">const int SFL_SORT_PRIO_PRIMARY</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00123">constants.qh:123</a></div></div>
 <div class="ttc" id="navigation_8qc_html_ab6d01fa32a875613a62f92c12a06bddd"><div class="ttname"><a href="../../d1/d9a/navigation_8qc.html#ab6d01fa32a875613a62f92c12a06bddd">navigation_goalrating_end</a></div><div class="ttdeci">void navigation_goalrating_end(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/navigation_8qc_source.html#l01003">navigation.qc:1003</a></div></div>
 <div class="ttc" id="navigation_8qc_html_a956bb41e292b7dcbfaa013f178202584"><div class="ttname"><a href="../../d1/d9a/navigation_8qc.html#a956bb41e292b7dcbfaa013f178202584">navigation_routerating</a></div><div class="ttdeci">void navigation_routerating(entity this, entity e, float f, float rangebias)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/navigation_8qc_source.html#l00675">navigation.qc:675</a></div></div>
@@ -795,6 +794,7 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div class="ttc" id="client_2main_8qh_html_af6088979e4328d96a754cc483d1672d9"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a></div><div class="ttdeci">float warmup_stage</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00102">main.qh:102</a></div></div>
 <div class="ttc" id="havocbot_8qh_html_abfcd73ce6fd8da8e5ae1e3086f0763c8"><div class="ttname"><a href="../../d8/d39/havocbot_8qh.html#abfcd73ce6fd8da8e5ae1e3086f0763c8">havocbot_role_timeout</a></div><div class="ttdeci">float havocbot_role_timeout</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d39/havocbot_8qh_source.html#l00024">havocbot.qh:24</a></div></div>
 <div class="ttc" id="base_8qh_html_a225e7365c1abfedcfce7f0c144972628"><div class="ttname"><a href="../../db/d38/base_8qh.html#a225e7365c1abfedcfce7f0c144972628">CBC_ORDER_FIRST</a></div><div class="ttdeci">const int CBC_ORDER_FIRST</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00004">base.qh:4</a></div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a491da4d42d2639395d76dcf8d9d1dff4"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a></div><div class="ttdeci">float frametime</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00017">csprogsdefs.qc:17</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00060">log.qh:60</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_afa5b6b9b11e103384aea86a33686e3b5"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#afa5b6b9b11e103384aea86a33686e3b5">start_ammo_nails</a></div><div class="ttdeci">float start_ammo_nails</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00218">miscfunctions.qh:218</a></div></div>
@@ -854,7 +854,7 @@ $(document).ready(function(){initNavTree('db/d26/gamemode__freezetag_8qc_source.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../db/d26/gamemode__freezetag_8qc.html">gamemode_freezetag.qc</a></li>
-    <li class="footer">Generated on Mon Jun 13 2016 04:01:13 for Xonotic by
+    <li class="footer">Generated on Mon Jun 13 2016 06:14:51 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

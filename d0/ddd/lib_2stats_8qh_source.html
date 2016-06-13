@@ -199,7 +199,7 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="preprocessor">    #define REGISTER_STAT_3(id, T, expr) \</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">        REGISTER_STAT_2(id, T); \</span></div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">        [[accumulate]] void GlobalStats_update(entity this) { STAT(id, this) = (expr); } \</span></div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">        STATIC_INIT(worldstat_##id) { entity this = world; STAT(id, this) = (expr); }</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;<span class="preprocessor">        STATIC_INIT(worldstat_##id) { entity this = NULL; STAT(id, this) = (expr); }</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00098"></a><span class="lineno"><a class="line" href="../../d0/ddd/lib_2stats_8qh.html#a0b0131c4067d628042068387ab92aae0">   98</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REGISTER_STAT_2(id, type)</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="../../d0/ddd/lib_2stats_8qh.html#a64a221f623435bb5fce96cf78954e0f3">   99</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REGISTER_STAT_3(id, T, expr)</span></div>
@@ -238,7 +238,7 @@ $(document).ready(function(){initNavTree('d0/ddd/lib_2stats_8qh_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d0/ddd/lib_2stats_8qh.html">stats.qh</a></li>
-    <li class="footer">Generated on Mon Jun 13 2016 04:01:11 for Xonotic by
+    <li class="footer">Generated on Mon Jun 13 2016 06:14:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

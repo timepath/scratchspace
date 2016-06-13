@@ -239,7 +239,7 @@ $(document).ready(function(){initNavTree('df/d6e/globalsound_8qh_source.html','.
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor">            entity VM = def; \</span></div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">            int voicetype = VM.m_playersoundvt; \</span></div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="preprocessor">            bool ownteam = (voicetype == VOICETYPE_TEAMRADIO); \</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="preprocessor">            int flood = Say(this, ownteam, world, msg, true); \</span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="preprocessor">            int flood = Say(this, ownteam, NULL, msg, true); \</span></div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;<span class="preprocessor">            bool fake; \</span></div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;<span class="preprocessor">            if (IS_SPEC(this) || IS_OBSERVER(this) || flood &lt; 0) fake = true; \</span></div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<span class="preprocessor">            else if (flood &gt; 0) fake = false; \</span></div>
@@ -301,7 +301,7 @@ $(document).ready(function(){initNavTree('df/d6e/globalsound_8qh_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_f54d74b0e9ac4c004ab42fc4ec4fcb87.html">effects</a></li><li class="navelem"><a class="el" href="../../dir_1e905c8c0e92136a54b32c53d0aef8dd.html">qc</a></li><li class="navelem"><a class="el" href="../../df/d6e/globalsound_8qh.html">globalsound.qh</a></li>
-    <li class="footer">Generated on Mon Jun 13 2016 04:01:10 for Xonotic by
+    <li class="footer">Generated on Mon Jun 13 2016 06:14:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

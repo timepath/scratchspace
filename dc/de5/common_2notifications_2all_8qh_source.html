@@ -515,8 +515,8 @@ $(document).ready(function(){initNavTree('dc/de5/common_2notifications_2all_8qh_
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;<span class="preprocessor">    ARG_CASE(ARG_DC,        &quot;item_centime&quot;,  ftos(autocvar_notification_item_centerprinttime)) \</span></div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;<span class="preprocessor">    ARG_CASE(ARG_SV,        &quot;death_team&quot;,    Team_ColoredFullName(f1)) \</span></div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;<span class="preprocessor">    ARG_CASE(ARG_CS,        &quot;death_team&quot;,    Team_ColoredFullName(f1 - 1)) \</span></div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;<span class="preprocessor">    ARG_CASE(ARG_CS_SV_HA,  &quot;minigame1_name&quot;,find(world,netname,s1).descriptor.message) \</span></div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;<span class="preprocessor">    ARG_CASE(ARG_CS_SV_HA,  &quot;minigame1_d&quot;,   find(world,netname,s1).descriptor.netname)</span></div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;<span class="preprocessor">    ARG_CASE(ARG_CS_SV_HA,  &quot;minigame1_name&quot;,find(NULL,netname,s1).descriptor.message) \</span></div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;<span class="preprocessor">    ARG_CASE(ARG_CS_SV_HA,  &quot;minigame1_d&quot;,   find(NULL,netname,s1).descriptor.netname)</span></div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00429"></a><span class="lineno"><a class="line" href="../../dc/de5/common_2notifications_2all_8qh.html#aba2a9e3d451edebbfc657d9859796e03">  429</a></span>&#160;<span class="preprocessor">#define NOTIF_HIT_MAX(count,funcname) MACRO_BEGIN { \</span></div>
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;<span class="preprocessor">    if(sel_num == count) { backtrace(sprintf(&quot;%s: Hit maximum arguments!\n&quot;, funcname)); break; } \</span></div>
@@ -1025,7 +1025,7 @@ $(document).ready(function(){initNavTree('dc/de5/common_2notifications_2all_8qh_
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_cf234ab9b9033f681804c9de340d1a43.html">notifications</a></li><li class="navelem"><a class="el" href="../../dc/de5/common_2notifications_2all_8qh.html">all.qh</a></li>
-    <li class="footer">Generated on Mon Jun 13 2016 04:01:08 for Xonotic by
+    <li class="footer">Generated on Mon Jun 13 2016 06:14:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

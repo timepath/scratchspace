@@ -128,7 +128,7 @@ Macros</h2></td></tr>
 <tr class="separator:af448ee5d5b9bb1bb462abc0bc0ae3b79"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3333ca7666a86449c9cce2487a77bd4f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/round__handler_8qh.html#a3333ca7666a86449c9cce2487a77bd4f">round_handler_GetEndTime</a>()&#160;&#160;&#160;(<a class="el" href="../../db/d20/round__handler_8qh.html#af83ddd8c629ced0f8036d173746bf5d9">round_handler.round_endtime</a>)</td></tr>
 <tr class="separator:a3333ca7666a86449c9cce2487a77bd4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a329096694bbb90b286bf875e4f7ee0b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a>()&#160;&#160;&#160;(<a class="el" href="../../db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9">round_handler</a> != <a class="el" href="../../d6/d11/progsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>)</td></tr>
+<tr class="memitem:a329096694bbb90b286bf875e4f7ee0b0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a>()&#160;&#160;&#160;(<a class="el" href="../../db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9">round_handler</a> != <a class="el" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td></tr>
 <tr class="separator:a329096694bbb90b286bf875e4f7ee0b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94a1d9264bb698d7c097277562e2dfe2"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2">round_handler_IsRoundStarted</a>()&#160;&#160;&#160;(!<a class="el" href="../../d1/d91/t__quake3_8qc.html#ae6ce7348eeca30f09a3ea4aca0a44683">round_handler.wait</a> &amp;&amp; !<a class="el" href="../../db/d20/round__handler_8qh.html#abfa4eafbc361865597bedf1979325249">round_handler.cnt</a>)</td></tr>
 <tr class="separator:a94a1d9264bb698d7c097277562e2dfe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,7 +225,7 @@ Variables</h2></td></tr>
           <td class="memname">#define round_handler_IsActive</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="../../db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9">round_handler</a> != <a class="el" href="../../d6/d11/progsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>)</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="../../db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9">round_handler</a> != <a class="el" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -359,15 +359,15 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00112">112</a> of file <a class="el" href="../../db/dfc/round__handler_8qc_source.html">round_handler.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00003">round_handler</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
+<p>References <a class="el" href="../../d6/da0/post_8qh_source.html#l00015">NULL</a>, and <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00003">round_handler</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00006">round_handler_Think()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;{</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="keyword">remove</span>(<a class="code" href="../../db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9">round_handler</a>);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="../../db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9">round_handler</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <a class="code" href="../../db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9">round_handler</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
-<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="round__handler_8qh_html_a93f5351605cf126e17ef8b0c965834f9"><div class="ttname"><a href="../../db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9">round_handler</a></div><div class="ttdeci">entity round_handler</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d20/round__handler_8qh_source.html#l00003">round_handler.qh:3</a></div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -647,7 +647,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/d20/round__handler_8qh.html">round_handler.qh</a></li>
-    <li class="footer">Generated on Mon Jun 13 2016 04:01:25 for Xonotic by
+    <li class="footer">Generated on Mon Jun 13 2016 06:15:02 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

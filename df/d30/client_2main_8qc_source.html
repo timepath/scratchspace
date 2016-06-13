@@ -340,7 +340,7 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>:</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#ab1762d75cc18535fa62c519ff652e0c9">GetTeam</a>(Team, <span class="keyword">false</span>) == <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>)</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#ab1762d75cc18535fa62c519ff652e0c9">GetTeam</a>(Team, <span class="keyword">false</span>) == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;                {</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a>(<span class="stringliteral">&quot;trying to switch to unsupported team %d\n&quot;</span>, Team);</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                    Team = <a class="code" href="../../db/d07/teams_8qh.html#a41d770fecb49af6ce941da2667000651">NUM_SPECTATOR</a>;</div>
@@ -356,7 +356,7 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            <span class="keywordflow">case</span> 0:</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;                <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#ab1762d75cc18535fa62c519ff652e0c9">GetTeam</a>(Team, <span class="keyword">false</span>) == <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>)</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#ab1762d75cc18535fa62c519ff652e0c9">GetTeam</a>(Team, <span class="keyword">false</span>) == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;                {</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a2872337768358857f71a83488272df5b">LOG_TRACEF</a>(<span class="stringliteral">&quot;trying to switch to unsupported team %d\n&quot;</span>, Team);</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;                    Team = <a class="code" href="../../db/d07/teams_8qh.html#a41d770fecb49af6ce941da2667000651">NUM_SPECTATOR</a>;</div>
@@ -411,7 +411,7 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                <span class="comment">// player disconnected</span></div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;                <a class="code" href="../../df/d30/client_2main_8qc.html#a927ab476c107855f4c9745da26bdd162">SetTeam</a>(e, -1);</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;                <a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#a1ff2ab6f40ef91103b3fd8a9e083b4ca">RemovePlayer</a>(e);</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                e.sort_prev = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;                e.sort_prev = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;                <span class="comment">//e.gotscores = 0;</span></div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;            }</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        }</div>
@@ -1356,7 +1356,6 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div class="ttc" id="client_2main_8qc_html_a354256327d864c9cb61a6a33dcc7e9f3"><div class="ttname"><a href="../../df/d30/client_2main_8qc.html#a354256327d864c9cb61a6a33dcc7e9f3">NET_HANDLE</a></div><div class="ttdeci">NET_HANDLE(ENT_CLIENT_SCORES, bool isnew)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d30/client_2main_8qc_source.html#l00394">main.qc:394</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_a82645f320a8fba7eaad8f57fa5cd66cd"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#a82645f320a8fba7eaad8f57fa5cd66cd">tempdb</a></div><div class="ttdeci">int tempdb</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00079">defs.qh:79</a></div></div>
 <div class="ttc" id="hud_8qh_html_a6ac0c6fb532223be80deb52a47b76011"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a6ac0c6fb532223be80deb52a47b76011">vote_yescount</a></div><div class="ttdeci">int vote_yescount</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00064">hud.qh:64</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="client_2main_8qc_html_a17432988ef7a28b058fec9318b29fea3"><div class="ttname"><a href="../../df/d30/client_2main_8qc.html#a17432988ef7a28b058fec9318b29fea3">draw_cursor_normal</a></div><div class="ttdeci">void draw_cursor_normal(vector pos, vector col, float a)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d30/client_2main_8qc_source.html#l00037">main.qc:37</a></div></div>
 <div class="ttc" id="client_2main_8qc_html_a626fa4f891c177f48176172aac58dc39"><div class="ttname"><a href="../../df/d30/client_2main_8qc.html#a626fa4f891c177f48176172aac58dc39">LoadMenuSkinValues</a></div><div class="ttdeci">void LoadMenuSkinValues()</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d30/client_2main_8qc_source.html#l00042">main.qc:42</a></div></div>
 <div class="ttc" id="hud_8qh_html_a1e7678d561cb466a1452074e19beff54"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a1e7678d561cb466a1452074e19beff54">HUD_Radar_InputEvent</a></div><div class="ttdeci">float HUD_Radar_InputEvent(float bInputType, float nPrimary, float nSecondary)</div></div>
@@ -1658,7 +1657,7 @@ $(document).ready(function(){initNavTree('df/d30/client_2main_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../df/d30/client_2main_8qc.html">main.qc</a></li>
-    <li class="footer">Generated on Mon Jun 13 2016 04:01:09 for Xonotic by
+    <li class="footer">Generated on Mon Jun 13 2016 06:14:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

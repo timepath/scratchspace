@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(e))</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        { s = sprintf(<span class="stringliteral">&quot;bot#%g#%s&quot;</span>, <a class="code" href="../../d1/da9/bot_8qh.html#a8467c850cba8957cd36040241ed1e68b">skill</a>, e.cleanname); }</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span>((s == <span class="stringliteral">&quot;&quot;</span>) || <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>, playerstats_id, s)) <span class="comment">// already have one of the ID - next one can&#39;t be tracked then!</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span>((s == <span class="stringliteral">&quot;&quot;</span>) || <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, playerstats_id, s)) <span class="comment">// already have one of the ID - next one can&#39;t be tracked then!</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(e))</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            { s = sprintf(<span class="stringliteral">&quot;bot#%d&quot;</span>, e.playerid); }</div>
@@ -305,7 +305,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            autocvar_g_playerstats_gamereport_uri,</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            <a class="code" href="../../d4/d92/csqc__constants_8qh.html#aa883d4d9f9f9cd3b797f857ce81a7c27">FILE_APPEND</a>,</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            PlayerStats_GameReport_Handler,</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        );</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    }</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <span class="keywordflow">else</span></div>
@@ -742,7 +742,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;            autocvar_g_playerstats_playerdetail_uri,</div>
 <div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;            <a class="code" href="../../d4/d92/csqc__constants_8qh.html#aa883d4d9f9f9cd3b797f857ce81a7c27">FILE_APPEND</a>,</div>
 <div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;            PlayerStats_PlayerDetail_Handler,</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div>
 <div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;        );</div>
 <div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;</div>
 <div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        PlayerStats_PlayerDetail_Status = PS_D_STATUS_WAITING;</div>
@@ -1120,7 +1120,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l01013"></a><span class="lineno"> 1013</span>&#160;<span class="comment">        //uri = strcat(uri, &quot;/player/&quot;, uri_escape(crypto_getmyidfp(0)));</span></div>
 <div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160;<span class="comment">                uri = strcat(uri, &quot;/player/me&quot;);</span></div>
 <div class="line"><a name="l01015"></a><span class="lineno"> 1015</span>&#160;<span class="comment">        print(&quot;Retrieving playerstats from URL: &quot;, uri, &quot;\n&quot;);</span></div>
-<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;<span class="comment">        url_single_fopen(uri, FILE_APPEND, PlayerInfo_ready, world);</span></div>
+<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;<span class="comment">        url_single_fopen(uri, FILE_APPEND, PlayerInfo_ready, NULL);</span></div>
 <div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160;<span class="comment">    }</span></div>
 <div class="line"><a name="l01018"></a><span class="lineno"> 1018</span>&#160;<span class="comment">}</span></div>
 <div class="line"><a name="l01019"></a><span class="lineno"> 1019</span>&#160;<span class="comment">#endif</span></div>
@@ -1154,7 +1154,6 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="accuracy_8qh_html_a12f4c0f276dc483c7bbbb70029f36f1f"><div class="ttname"><a href="../../d3/d2d/accuracy_8qh.html#a12f4c0f276dc483c7bbbb70029f36f1f">accuracy_fired</a></div><div class="ttdeci">float accuracy_fired[Weapons_MAX]</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d2d/accuracy_8qh_source.html#l00012">accuracy.qh:12</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_aa883d4d9f9f9cd3b797f857ce81a7c27"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#aa883d4d9f9f9cd3b797f857ce81a7c27">FILE_APPEND</a></div><div class="ttdeci">const int FILE_APPEND</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00102">csqc_constants.qh:102</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
 <div class="ttc" id="common_2weapons_2all_8qh_html"><div class="ttname"><a href="../../de/d81/common_2weapons_2all_8qh.html">all.qh</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a6b01d68b86a91c9201ba7088b284f43f"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a6b01d68b86a91c9201ba7088b284f43f">gametype</a></div><div class="ttdeci">float gametype</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00022">main.qh:22</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
@@ -1185,6 +1184,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="ttc" id="log_8qh_html_ab709d1a9c4f30481019dd95e67a4f9f5"><div class="ttname"><a href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a></div><div class="ttdeci">#define LOG_INFOF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00061">log.qh:61</a></div></div>
 <div class="ttc" id="dpextensions_8qh_html_adf1bc71dd76ed8f9578de181202015d2"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a></div><div class="ttdeci">#define argv_start_index</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00028">dpextensions.qh:28</a></div></div>
 <div class="ttc" id="framework_8qc_html_aef346455b3c2def821423a45227b45dd"><div class="ttname"><a href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a></div><div class="ttdeci">void LOG_TRACE(string s,...)</div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00015">post.qh:15</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00060">log.qh:60</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_acf8ea712d5467331fb750b33ab165013"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a></div><div class="ttdeci">float teamplay</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00031">progsdefs.qc:31</a></div></div>
 <div class="ttc" id="accuracy_8qh_html_a0963fdd1b29d83e4c690ad94c95f1e06"><div class="ttname"><a href="../../d3/d2d/accuracy_8qh.html#a0963fdd1b29d83e4c690ad94c95f1e06">accuracy_cnt_hit</a></div><div class="ttdeci">float accuracy_cnt_hit[Weapons_MAX]</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d2d/accuracy_8qh_source.html#l00013">accuracy.qh:13</a></div></div>
@@ -1220,7 +1220,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../de/d6e/playerstats_8qc.html">playerstats.qc</a></li>
-    <li class="footer">Generated on Mon Jun 13 2016 04:01:11 for Xonotic by
+    <li class="footer">Generated on Mon Jun 13 2016 06:14:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
