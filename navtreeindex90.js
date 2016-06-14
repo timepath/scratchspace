@@ -1,5 +1,12 @@
 var NAVTREEINDEX90 =
 {
+"db/d7f/effectinfo_8inc.html#a95aa7487302abdff73ce1cefa1db87f5":[2,0,1,2,7,176],
+"db/d7f/effectinfo_8inc.html#a97c09bed87e53cdd47a65a2a0a65058d":[2,0,1,2,7,96],
+"db/d7f/effectinfo_8inc.html#a986bc3ff52e4a0c4aeccab2ec429f31f":[2,0,1,2,7,246],
+"db/d7f/effectinfo_8inc.html#a99181657fe7efbc9cd56bd984cd163db":[2,0,1,2,7,235],
+"db/d7f/effectinfo_8inc.html#a99b4514fab8ee10ccb66265db462d6f9":[2,0,1,2,7,292],
+"db/d7f/effectinfo_8inc.html#a99e514778f4e6d4316ac1ba3213a35a3":[2,0,1,2,7,208],
+"db/d7f/effectinfo_8inc.html#a9a126acc4e563ead0f13bcc4d9f0eb42":[2,0,1,2,7,71],
 "db/d7f/effectinfo_8inc.html#a9ae1edb14bd4b8d6407d1dacec258571":[2,0,1,2,7,61],
 "db/d7f/effectinfo_8inc.html#a9ae5887a934fb9214aee7959eb1cf969":[2,0,1,2,7,24],
 "db/d7f/effectinfo_8inc.html#a9b85ed8334d1dc3093925a3de2e185cc":[2,0,1,2,7,319],
@@ -242,12 +249,5 @@ var NAVTREEINDEX90 =
 "db/d93/cl__minigames__hud_8qh.html#ac4b5b084e2ab882cddcd934fa216f94b":[2,0,1,6,6,1],
 "db/d93/cl__minigames__hud_8qh_source.html":[2,0,1,6,6],
 "db/d9d/common_2vehicles_2vehicle_2__mod_8qh.html":[2,0,1,15,0,1],
-"db/d9d/common_2vehicles_2vehicle_2__mod_8qh_source.html":[2,0,1,15,0,1],
-"db/d9f/state_8qh.html":[2,0,1,39],
-"db/d9f/state_8qh.html#a1960d1c0908e7286f74096a0a3618086":[2,0,1,39,8],
-"db/d9f/state_8qh.html#a53a16489327364aafc4ca8b946faab8d":[2,0,1,39,6],
-"db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c":[2,0,1,39,2],
-"db/d9f/state_8qh.html#ab9e7e782a947b52d9dfa1e3f8754ccde":[2,0,1,39,9],
-"db/d9f/state_8qh.html#ae17cd2d1c2291942edc23455fc1db486":[2,0,1,39,4],
-"db/d9f/state_8qh.html#ae2b41267ede70802861f89a01bb03837":[2,0,1,39,7]
+"db/d9d/common_2vehicles_2vehicle_2__mod_8qh_source.html":[2,0,1,15,0,1]
 };

@@ -1,5 +1,12 @@
 var NAVTREEINDEX106 =
 {
+"dd/d9a/classXonoticSandboxToolsDialog.html#aa1abab97698c6f13909d1791611312cb":[1,0,208,59],
+"dd/d9a/classXonoticSandboxToolsDialog.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,208,47],
+"dd/d9a/classXonoticSandboxToolsDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,208,9],
+"dd/d9a/classXonoticSandboxToolsDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,208,24],
+"dd/d9a/classXonoticSandboxToolsDialog.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,208,54],
+"dd/d9a/classXonoticSandboxToolsDialog.html#ab0aeb8440abc4bd78c0023e48aaf0393":[1,0,208,76],
+"dd/d9a/classXonoticSandboxToolsDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,208,25],
 "dd/d9a/classXonoticSandboxToolsDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,208,87],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,208,73],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,208,33],
@@ -242,12 +249,5 @@ var NAVTREEINDEX106 =
 "dd/dac/dialog__hudsetup__exit_8qc.html#a9402798b381818975e745a6b27052d0b":[2,0,4,4,82,0],
 "dd/dac/dialog__hudsetup__exit_8qc_source.html":[2,0,4,4,82],
 "dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh.html":[2,0,1,9,0,13,1],
-"dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh_source.html":[2,0,1,9,0,13,1],
-"dd/db3/classXonoticQuitDialog.html":[1,0,202],
-"dd/db3/classXonoticQuitDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,202,21],
-"dd/db3/classXonoticQuitDialog.html#a0397d77cd81441fb8d7dc58177838d7e":[1,0,202,83],
-"dd/db3/classXonoticQuitDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,202,29],
-"dd/db3/classXonoticQuitDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,202,3],
-"dd/db3/classXonoticQuitDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,202,79],
-"dd/db3/classXonoticQuitDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,202,77]
+"dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh_source.html":[2,0,1,9,0,13,1]
 };

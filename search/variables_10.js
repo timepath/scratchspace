@@ -321,6 +321,8 @@ var searchData=
   ['projectile_5fmine',['PROJECTILE_MINE',['../d0/d8b/common_2constants_8qh.html#aa1a10886760e0a686f2e8d9ea01609b4',1,'constants.qh']]],
   ['projectile_5fnade',['PROJECTILE_NADE',['../da/d3e/nades_8qh.html#acef7f0dc7a75c486ad74a2180616ce17',1,'nades.qh']]],
   ['projectile_5fnade_5fburn',['PROJECTILE_NADE_BURN',['../da/d3e/nades_8qh.html#ac49e3326516a90ac74d5427157519ca7',1,'nades.qh']]],
+  ['projectile_5fnade_5fentrap',['PROJECTILE_NADE_ENTRAP',['../da/d3e/nades_8qh.html#ae0472f7a64014205d39edeedd99944b0',1,'nades.qh']]],
+  ['projectile_5fnade_5fentrap_5fburn',['PROJECTILE_NADE_ENTRAP_BURN',['../da/d3e/nades_8qh.html#aeacb41548c87fd5752e09719e2f00817',1,'nades.qh']]],
   ['projectile_5fnade_5fheal',['PROJECTILE_NADE_HEAL',['../da/d3e/nades_8qh.html#ad64b512a5dc7faba0dca0d341f6cbaee',1,'nades.qh']]],
   ['projectile_5fnade_5fheal_5fburn',['PROJECTILE_NADE_HEAL_BURN',['../da/d3e/nades_8qh.html#a0d4feb055b436b5aedbcfc76bcbe2107',1,'nades.qh']]],
   ['projectile_5fnade_5fice',['PROJECTILE_NADE_ICE',['../da/d3e/nades_8qh.html#aeda42b695452b903e810990493c5761e',1,'nades.qh']]],

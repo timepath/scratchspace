@@ -1,5 +1,12 @@
 var NAVTREEINDEX98 =
 {
+"dc/d73/server_2miscfunctions_8qh.html#a0f3b425ff06d8afbb5071a1626f5c0a3":[2,0,5,46,69],
+"dc/d73/server_2miscfunctions_8qh.html#a11d594b32f31a1c10458b18981d3b612":[2,0,5,46,56],
+"dc/d73/server_2miscfunctions_8qh.html#a1203527db9e7396b56e86233d13e12e8":[2,0,5,46,141],
+"dc/d73/server_2miscfunctions_8qh.html#a1330c9208470a4800fb84c8810728bcb":[2,0,5,46,25],
+"dc/d73/server_2miscfunctions_8qh.html#a1a1c887b029cca0568b046152aea10ff":[2,0,5,46,11],
+"dc/d73/server_2miscfunctions_8qh.html#a1abfae15913cf4aed2d840b2f387f379":[2,0,5,46,36],
+"dc/d73/server_2miscfunctions_8qh.html#a1f1c89a455e88ef7b5b687554db7e56f":[2,0,5,46,109],
 "dc/d73/server_2miscfunctions_8qh.html#a264953b4fa0c2f30ce1fbe72f82cd6c1":[2,0,5,46,66],
 "dc/d73/server_2miscfunctions_8qh.html#a266095dd0a42668591b2765cabb0ba84":[2,0,5,46,138],
 "dc/d73/server_2miscfunctions_8qh.html#a276dc5b71788108563372331e9f6e31c":[2,0,5,46,124],
@@ -242,12 +249,5 @@ var NAVTREEINDEX98 =
 "dc/d98/client_2miscfunctions_8qc.html#a0ac6cc94ff118e494f0845fbe95ac58b":[2,0,0,20,17],
 "dc/d98/client_2miscfunctions_8qc.html#a0ded0b9dc55f9f344b7b5f7fc9a487b8":[2,0,0,20,13],
 "dc/d98/client_2miscfunctions_8qc.html#a1e9b742527be4ffff0e1ffabd3814ebb":[2,0,0,20,9],
-"dc/d98/client_2miscfunctions_8qc.html#a1ff2ab6f40ef91103b3fd8a9e083b4ca":[2,0,0,20,32],
-"dc/d98/client_2miscfunctions_8qc.html#a246d0a94a3d0249d9504aae592cf2f9d":[2,0,0,20,3],
-"dc/d98/client_2miscfunctions_8qc.html#a2b66a10b61389716958bcc54b41c27e2":[2,0,0,20,26],
-"dc/d98/client_2miscfunctions_8qc.html#a334d31e4ab614a29942c1170de7f50a2":[2,0,0,20,10],
-"dc/d98/client_2miscfunctions_8qc.html#a33af47a87fc160c47fdc3dd5cb1eb82e":[2,0,0,20,12],
-"dc/d98/client_2miscfunctions_8qc.html#a408850796980de97ad8313b0274343f1":[2,0,0,20,7],
-"dc/d98/client_2miscfunctions_8qc.html#a4e66eb737719c91d2c0f0da2d896f6d0":[2,0,0,20,23],
-"dc/d98/client_2miscfunctions_8qc.html#a519d23437c6eea0244222bb41e476d1e":[2,0,0,20,29]
+"dc/d98/client_2miscfunctions_8qc.html#a1ff2ab6f40ef91103b3fd8a9e083b4ca":[2,0,0,20,32]
 };

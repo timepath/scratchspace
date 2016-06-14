@@ -59,6 +59,8 @@ var searchData=
   ['op_5fset',['OP_SET',['../d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453',1,'bits.qh']]],
   ['op_5fsetdependent',['op_setDependent',['../df/d9b/menu_2xonotic_2util_8qc.html#ab1d23a2913794ecc740cc6bdbe6ebfc9',1,'util.qc']]],
   ['openlist',['openlist',['../dd/d70/pathlib_8qh.html#a100221a5bce094152cfaf278eb45c2c3',1,'pathlib.qh']]],
+  ['orb_5flifetime',['orb_lifetime',['../da/d3e/nades_8qh.html#a5c0cddfd61f66b0b740989920318e542',1,'nades.qh']]],
+  ['orb_5fradius',['orb_radius',['../da/d3e/nades_8qh.html#a21649cf9858df4e2f195e438407284b3',1,'nades.qh']]],
   ['ordered',['ORDERED',['../d4/d18/iter_8qh.html#a2785e03085908282b1a27dbcaac4a5ac',1,'iter.qh']]],
   ['ordinal',['ORDINAL',['../da/dd5/enumclass_8qh.html#a7339abefe19e4109853567ae9664cf04',1,'enumclass.qh']]],
   ['org',['org',['../d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795',1,'self.qh']]],

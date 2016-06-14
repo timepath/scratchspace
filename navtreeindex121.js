@@ -1,5 +1,12 @@
 var NAVTREEINDEX121 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,171,53],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,171,84],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,171,20],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,171,52],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,171,44],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,171,88],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,171,60],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#af1aab403dc54575707fd57991312b201":[1,0,171,36],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,171,16],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,171,28],
@@ -242,12 +249,5 @@ var NAVTREEINDEX121 =
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0c478135eb70f406c6a0b87529556e98":[1,0,209,24],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0cb9ce568f3ffd87c5388045540c4eb6":[1,0,209,63],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0cdefa43305a32e38b127bde32dbce26":[1,0,209,32],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a10f084ce6991717bfb4153928818feba":[1,0,209,14],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a12cae2879a01520f0d08f21a673a4d3f":[1,0,209,1],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a1384d244201f945385ed59b53e4aee96":[1,0,209,45],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a14b2c1b630609675816d233dd0ef3c7f":[1,0,209,36],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a17551f8ea91a998bfdeb18609c45d978":[1,0,209,87],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a1c228ffb13fb785a4d69c1fc3cba8290":[1,0,209,4],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a1cada7f613ee05baf72eac545644d9d7":[1,0,209,86],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a1d02ac64cd2c844a3a1328e155243fef":[1,0,209,37]
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a10f084ce6991717bfb4153928818feba":[1,0,209,14]
 };
