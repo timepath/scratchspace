@@ -457,7 +457,7 @@ var client_2autocvars_8qh =
     [ "autocvar_scoreboard_color_bg_r", "d7/db4/client_2autocvars_8qh.html#a45283cb7d61ff7501973927a4c96e36c", null ],
     [ "autocvar_scoreboard_color_bg_team", "d7/db4/client_2autocvars_8qh.html#ad33fb612886872bc380422ab2b3252f7", null ],
     [ "autocvar_scoreboard_columns", "d7/db4/client_2autocvars_8qh.html#a369b28ec61fa01a71581bc1a599c9ee8", null ],
-    [ "autocvar_scoreboard_dynamichud", "d7/db4/client_2autocvars_8qh.html#ac97bca9a40d48e6f3a7a9739309e7616", null ],
+    [ "autocvar_scoreboard_dynamichud", "d7/db4/client_2autocvars_8qh.html#abf94b5b4de62e49796769060c80accf0", null ],
     [ "autocvar_scoreboard_fadeinspeed", "d7/db4/client_2autocvars_8qh.html#a17f39e8c67cd3e2919a6811280a4b149", null ],
     [ "autocvar_scoreboard_fadeoutspeed", "d7/db4/client_2autocvars_8qh.html#ab1afc11600df3d1a490d8ee8a2a9ffd7", null ],
     [ "autocvar_scoreboard_highlight", "d7/db4/client_2autocvars_8qh.html#a055660cfc09f4df3b7f2e20f2865af5a", null ],

@@ -2668,9 +2668,9 @@ $(document).ready(function(){initNavTree('d3/d73/gamemode__ctf_8qc_source.html',
 <div class="line"><a name="l02561"></a><span class="lineno"> 2561</span>&#160;{</div>
 <div class="line"><a name="l02562"></a><span class="lineno"> 2562</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span> = <a class="code" href="../../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9">new_pure</a>(ctf_team);</div>
 <div class="line"><a name="l02563"></a><span class="lineno"> 2563</span>&#160;    this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a> = teamname;</div>
-<div class="line"><a name="l02564"></a><span class="lineno"> 2564</span>&#160;    this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a> = teamcolor;</div>
+<div class="line"><a name="l02564"></a><span class="lineno"> 2564</span>&#160;    this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a> = teamcolor - 1;</div>
 <div class="line"><a name="l02565"></a><span class="lineno"> 2565</span>&#160;    this.<a class="code" href="../../da/d20/spawnfunc_8qh.html#acf818192a10457d834cc057718d25ad3">spawnfunc_checked</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l02566"></a><span class="lineno"> 2566</span>&#160;    spawnfunc_ctf_team(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l02566"></a><span class="lineno"> 2566</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> = teamcolor;</div>
 <div class="line"><a name="l02567"></a><span class="lineno"> 2567</span>&#160;}</div>
 <div class="line"><a name="l02568"></a><span class="lineno"> 2568</span>&#160;</div>
 <div class="line"><a name="l02569"></a><span class="lineno"> 2569</span>&#160;<span class="keywordtype">void</span> ctf_DelayedInit(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>) <span class="comment">// Do this check with a delay so we can wait for teams to be set up.</span></div>
@@ -2691,12 +2691,12 @@ $(document).ready(function(){initNavTree('d3/d73/gamemode__ctf_8qc_source.html',
 <div class="line"><a name="l02584"></a><span class="lineno"> 2584</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;ctf_team&quot;</span>) == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l02585"></a><span class="lineno"> 2585</span>&#160;    {</div>
 <div class="line"><a name="l02586"></a><span class="lineno"> 2586</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;No \&quot;ctf_team\&quot; entities found on this map, creating them anyway.\n&quot;</span>);</div>
-<div class="line"><a name="l02587"></a><span class="lineno"> 2587</span>&#160;        ctf_SpawnTeam(<span class="stringliteral">&quot;Red&quot;</span>, <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a> - 1);</div>
-<div class="line"><a name="l02588"></a><span class="lineno"> 2588</span>&#160;        ctf_SpawnTeam(<span class="stringliteral">&quot;Blue&quot;</span>, <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a> - 1);</div>
+<div class="line"><a name="l02587"></a><span class="lineno"> 2587</span>&#160;        ctf_SpawnTeam(<span class="stringliteral">&quot;Red&quot;</span>, <a class="code" href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a>);</div>
+<div class="line"><a name="l02588"></a><span class="lineno"> 2588</span>&#160;        ctf_SpawnTeam(<span class="stringliteral">&quot;Blue&quot;</span>, <a class="code" href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a>);</div>
 <div class="line"><a name="l02589"></a><span class="lineno"> 2589</span>&#160;        <span class="keywordflow">if</span>(ctf_teams &gt;= 3)</div>
-<div class="line"><a name="l02590"></a><span class="lineno"> 2590</span>&#160;            ctf_SpawnTeam(<span class="stringliteral">&quot;Yellow&quot;</span>, <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a> - 1);</div>
+<div class="line"><a name="l02590"></a><span class="lineno"> 2590</span>&#160;            ctf_SpawnTeam(<span class="stringliteral">&quot;Yellow&quot;</span>, <a class="code" href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a>);</div>
 <div class="line"><a name="l02591"></a><span class="lineno"> 2591</span>&#160;        <span class="keywordflow">if</span>(ctf_teams &gt;= 4)</div>
-<div class="line"><a name="l02592"></a><span class="lineno"> 2592</span>&#160;            ctf_SpawnTeam(<span class="stringliteral">&quot;Pink&quot;</span>, <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a> - 1);</div>
+<div class="line"><a name="l02592"></a><span class="lineno"> 2592</span>&#160;            ctf_SpawnTeam(<span class="stringliteral">&quot;Pink&quot;</span>, <a class="code" href="../../db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56">NUM_TEAM_4</a>);</div>
 <div class="line"><a name="l02593"></a><span class="lineno"> 2593</span>&#160;    }</div>
 <div class="line"><a name="l02594"></a><span class="lineno"> 2594</span>&#160;</div>
 <div class="line"><a name="l02595"></a><span class="lineno"> 2595</span>&#160;    ctf_ScoreRules(ctf_teams);</div>
@@ -2955,7 +2955,7 @@ $(document).ready(function(){initNavTree('d3/d73/gamemode__ctf_8qc_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../d3/d73/gamemode__ctf_8qc.html">gamemode_ctf.qc</a></li>
-    <li class="footer">Generated on Thu Jun 16 2016 06:18:18 for Xonotic by
+    <li class="footer">Generated on Thu Jun 16 2016 17:52:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
