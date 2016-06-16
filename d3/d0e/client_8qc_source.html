@@ -365,34 +365,52 @@ $(document).ready(function(){initNavTree('d3/d0e/client_8qc_source.html','../../
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;<span class="preprocessor">#ifndef KEEP_ROLL</span></div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;<span class="preprocessor"></span>    <span class="keywordtype">float</span> rick;</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <span class="keywordtype">float</span> f;</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d3/d0e/client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>)</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        f = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, (1 - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../d3/d0e/client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>));</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> rollkill;</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordflow">if</span> (STAT(HEALTH) &gt; 0 || STAT(HEALTH) == -666 || STAT(HEALTH) == -2342)</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    {</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        f = 0;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    rick = getproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad93c98449b3910d2f15c2ccdd4122940">VF_CL_VIEWANGLES_Z</a>);</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    rick *= f;</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad93c98449b3910d2f15c2ccdd4122940">VF_CL_VIEWANGLES_Z</a>, rick);</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    ang.z *= f;</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac6a171b14a5d68395a67b22c77ecfd15">VF_ORIGIN</a>, org);</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#a4b905ecd0e878e5d661430acefa6d2e0">VF_ANGLES</a>, ang);</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    nearclip = <span class="stringliteral">&#39;0 0 1&#39;</span> * (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;r_nearclip&quot;</span>) * 1.125);</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    corner0 = cs_unproject(<span class="stringliteral">&#39;0 0 0&#39;</span> + nearclip);</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    corner1 = cs_unproject(<span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conwidth&quot;</span>) + nearclip);</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    corner2 = cs_unproject(<span class="stringliteral">&#39;0 1 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conheight&quot;</span>) + nearclip);</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    corner3 = cs_unproject(<span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conwidth&quot;</span>) + <span class="stringliteral">&#39;0 1 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conheight&quot;</span>) + nearclip);</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    o = <a class="code" href="../../d3/d0e/client_8qc.html#ab338251c1135e3e781742710d3b5689c">WarpZone_FixNearClip</a>(org, corner0, corner1, corner2, corner3);</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordflow">if</span>(o != <span class="stringliteral">&#39;0 0 0&#39;</span>)</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac6a171b14a5d68395a67b22c77ecfd15">VF_ORIGIN</a>, org + o);</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;}</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;</div>
-<div class="line"><a name="l00285"></a><span class="lineno"><a class="line" href="../../dc/dff/client_8qh.html#ae5f8c1940ba6ccc011c2d4e99f733874">  285</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d0e/client_8qc.html#ae5f8c1940ba6ccc011c2d4e99f733874">WarpZone_Shutdown</a>()</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;{</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <a class="code" href="../../d3/d0e/client_8qc.html#a18508bf93d97584800184066cf8e520a">WarpZone_View_Outside</a>();</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;}</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="comment">// reset roll when passing through a warpzone that change player&#39;s roll angle</span></div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d3/d0e/client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>)</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            f = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, (1 - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../d3/d0e/client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>));</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="keywordflow">if</span>(rollkill)</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            rollkill = 0;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    }</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        f = 1;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;        <span class="comment">// roll the view when killed (v_deathtilt)</span></div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d3/d0e/client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>)</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            rollkill += <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../d3/d0e/client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da">autocvar_cl_rollkillspeed</a>;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            f = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(1, rollkill);</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;        }</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(rollkill)</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            rollkill = 0;</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    }</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    rick = getproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad93c98449b3910d2f15c2ccdd4122940">VF_CL_VIEWANGLES_Z</a>);</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    rick *= f;</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ad93c98449b3910d2f15c2ccdd4122940">VF_CL_VIEWANGLES_Z</a>, rick);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    ang.z *= f;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac6a171b14a5d68395a67b22c77ecfd15">VF_ORIGIN</a>, org);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#a4b905ecd0e878e5d661430acefa6d2e0">VF_ANGLES</a>, ang);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    nearclip = <span class="stringliteral">&#39;0 0 1&#39;</span> * (<a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;r_nearclip&quot;</span>) * 1.125);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    corner0 = cs_unproject(<span class="stringliteral">&#39;0 0 0&#39;</span> + nearclip);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    corner1 = cs_unproject(<span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conwidth&quot;</span>) + nearclip);</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    corner2 = cs_unproject(<span class="stringliteral">&#39;0 1 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conheight&quot;</span>) + nearclip);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    corner3 = cs_unproject(<span class="stringliteral">&#39;1 0 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conwidth&quot;</span>) + <span class="stringliteral">&#39;0 1 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;vid_conheight&quot;</span>) + nearclip);</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    o = <a class="code" href="../../d3/d0e/client_8qc.html#ab338251c1135e3e781742710d3b5689c">WarpZone_FixNearClip</a>(org, corner0, corner1, corner2, corner3);</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <span class="keywordflow">if</span>(o != <span class="stringliteral">&#39;0 0 0&#39;</span>)</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        setproperty(<a class="code" href="../../d4/d92/csqc__constants_8qh.html#ac6a171b14a5d68395a67b22c77ecfd15">VF_ORIGIN</a>, org + o);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;}</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
+<div class="line"><a name="l00303"></a><span class="lineno"><a class="line" href="../../dc/dff/client_8qh.html#ae5f8c1940ba6ccc011c2d4e99f733874">  303</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d0e/client_8qc.html#ae5f8c1940ba6ccc011c2d4e99f733874">WarpZone_Shutdown</a>()</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;{</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <a class="code" href="../../d3/d0e/client_8qc.html#a18508bf93d97584800184066cf8e520a">WarpZone_View_Outside</a>();</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a595351befc950d820a541f1aee66803f"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a595351befc950d820a541f1aee66803f">pmove_org</a></div><div class="ttdeci">vector pmove_org</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00054">csprogsdefs.qc:54</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
 <div class="ttc" id="cl__client_8qh_html_a0fe1885b4d10c978f52619ab968adadc"><div class="ttname"><a href="../../d1/d30/cl__client_8qh.html#a0fe1885b4d10c978f52619ab968adadc">c2</a></div><div class="ttdeci">float c2</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d30/cl__client_8qh_source.html#l00100">cl_client.qh:100</a></div></div>
@@ -444,7 +462,7 @@ $(document).ready(function(){initNavTree('d3/d0e/client_8qc_source.html','../../
 <div class="ttc" id="csqc__constants_8qh_html_ad93c98449b3910d2f15c2ccdd4122940"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ad93c98449b3910d2f15c2ccdd4122940">VF_CL_VIEWANGLES_Z</a></div><div class="ttdeci">const int VF_CL_VIEWANGLES_Z</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00042">csqc_constants.qh:42</a></div></div>
 <div class="ttc" id="client_8qc_html_a3ffef105e69ca5cd4e07ffeae58d80e8"><div class="ttname"><a href="../../d3/d0e/client_8qc.html#a3ffef105e69ca5cd4e07ffeae58d80e8">WarpZone_Fade_PreDraw</a></div><div class="ttdeci">void WarpZone_Fade_PreDraw(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d0e/client_8qc_source.html#l00011">client.qc:11</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9bdd141f634714eab30642bf42f63862"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a></div><div class="ttdeci">entity enemy</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00127">csprogsdefs.qc:127</a></div></div>
-<div class="ttc" id="client_8qc_html_ae5f8c1940ba6ccc011c2d4e99f733874"><div class="ttname"><a href="../../d3/d0e/client_8qc.html#ae5f8c1940ba6ccc011c2d4e99f733874">WarpZone_Shutdown</a></div><div class="ttdeci">void WarpZone_Shutdown()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d0e/client_8qc_source.html#l00285">client.qc:285</a></div></div>
+<div class="ttc" id="client_8qc_html_ae5f8c1940ba6ccc011c2d4e99f733874"><div class="ttname"><a href="../../d3/d0e/client_8qc.html#ae5f8c1940ba6ccc011c2d4e99f733874">WarpZone_Shutdown</a></div><div class="ttdeci">void WarpZone_Shutdown()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d0e/client_8qc_source.html#l00303">client.qc:303</a></div></div>
 <div class="ttc" id="wall_8qc_html_a1d28dec57cce925ad92342891bd71e7c"><div class="ttname"><a href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a></div><div class="ttdeci">float scale</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d8d/wall_8qc_source.html#l00009">wall.qc:9</a></div></div>
 <div class="ttc" id="self_8qh_html_a9cd821b89f6b3d683d8f7a1537d77795"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795">org</a></div><div class="ttdeci">vector org</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00084">self.qh:84</a></div></div>
 <div class="ttc" id="client_8qc_html_a15f0aaba4d6b4bc5d0a614df9a9149d9"><div class="ttname"><a href="../../d3/d0e/client_8qc.html#a15f0aaba4d6b4bc5d0a614df9a9149d9">WarpZone_Touch</a></div><div class="ttdeci">void WarpZone_Touch(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d2b/server_8qc_source.html#l00192">server.qc:192</a></div></div>
@@ -467,7 +485,7 @@ $(document).ready(function(){initNavTree('d3/d0e/client_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_58d953ef34ccfc4a49203206a34466c3.html">warpzone</a></li><li class="navelem"><a class="el" href="../../d3/d0e/client_8qc.html">client.qc</a></li>
-    <li class="footer">Generated on Tue Jun 14 2016 14:14:50 for Xonotic by
+    <li class="footer">Generated on Thu Jun 16 2016 06:01:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
