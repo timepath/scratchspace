@@ -2283,7 +2283,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01021">1021</a> of file <a class="el" href="../../db/dcc/g__world_8qc_source.html">g_world.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01006">Map_Filename()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01016">Map_IsRecent()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00964">MapHasRightSize()</a>, and <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l01255">MapInfo_CheckMap()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00075">LOG_DEBUG</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01006">Map_Filename()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l01016">Map_IsRecent()</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00964">MapHasRightSize()</a>, and <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l01255">MapInfo_CheckMap()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01022"></a><span class="lineno"> 1022</span>&#160;{</div>
 <div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;    <span class="keywordtype">string</span> filename;</div>
 <div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;    <span class="keywordtype">string</span> map_next;</div>
@@ -2303,17 +2303,17 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01038"></a><span class="lineno"> 1038</span>&#160;        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l01039"></a><span class="lineno"> 1039</span>&#160;    }</div>
 <div class="line"><a name="l01040"></a><span class="lineno"> 1040</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01041"></a><span class="lineno"> 1041</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>( <span class="stringliteral">&quot;Couldn&#39;t select &#39;&quot;</span>, filename, <span class="stringliteral">&quot;&#39;..\n&quot;</span> );</div>
+<div class="line"><a name="l01041"></a><span class="lineno"> 1041</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>( <span class="stringliteral">&quot;Couldn&#39;t select &#39;&quot;</span>, filename, <span class="stringliteral">&quot;&#39;...\n&quot;</span> );</div>
 <div class="line"><a name="l01042"></a><span class="lineno"> 1042</span>&#160;</div>
 <div class="line"><a name="l01043"></a><span class="lineno"> 1043</span>&#160;    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l01044"></a><span class="lineno"> 1044</span>&#160;}</div>
 <div class="ttc" id="g__world_8qc_html_a053645925fa84581349c18e807384287"><div class="ttname"><a href="../../db/dcc/g__world_8qc.html#a053645925fa84581349c18e807384287">MapHasRightSize</a></div><div class="ttdeci">float MapHasRightSize(string map)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l00964">g_world.qc:964</a></div></div>
-<div class="ttc" id="framework_8qc_html_aef346455b3c2def821423a45227b45dd"><div class="ttname"><a href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a></div><div class="ttdeci">void LOG_TRACE(string s,...)</div></div>
 <div class="ttc" id="g__world_8qc_html_a2d7b36b62919e17ff99c13cad66436bf"><div class="ttname"><a href="../../db/dcc/g__world_8qc.html#a2d7b36b62919e17ff99c13cad66436bf">Map_IsRecent</a></div><div class="ttdeci">float Map_IsRecent(string m)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l01016">g_world.qc:1016</a></div></div>
 <div class="ttc" id="g__world_8qc_html_af92bf03c5ee7754be730c2eaae2385a7"><div class="ttname"><a href="../../db/dcc/g__world_8qc.html#af92bf03c5ee7754be730c2eaae2385a7">Map_Filename</a></div><div class="ttdeci">string Map_Filename(float position)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l01006">g_world.qc:1006</a></div></div>
 <div class="ttc" id="mapinfo_8qc_html_a17f35585e0c7d03f4e13f4d6ba3b1e42"><div class="ttname"><a href="../../d3/d46/mapinfo_8qc.html#a17f35585e0c7d03f4e13f4d6ba3b1e42">MapInfo_CheckMap</a></div><div class="ttdeci">float MapInfo_CheckMap(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d46/mapinfo_8qc_source.html#l01255">mapinfo.qc:1255</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae3e9d36eda7886f5fe58e5201291dd78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a></div><div class="ttdeci">string argv(float n)</div></div>
 <div class="ttc" id="effectinfo__ctf_8inc_html_a73709cb0008f2faa193bce8415f41a95"><div class="ttname"><a href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a></div><div class="ttdeci">#define pass(name, colormin, colormax)</div></div>
+<div class="ttc" id="log_8qh_html_a754b3d074e0af4ad3c7b918dd77ecb2d"><div class="ttname"><a href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00075">log.qh:75</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-34" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-34-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -4846,7 +4846,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/dcc/g__world_8qc.html">g_world.qc</a></li>
-    <li class="footer">Generated on Thu Jun 16 2016 17:53:08 for Xonotic by
+    <li class="footer">Generated on Fri Jun 17 2016 11:19:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
