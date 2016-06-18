@@ -11,7 +11,7 @@ var sv__vehicles_8qc =
     [ "vehicle_tossgib", "da/d10/sv__vehicles_8qc.html#afa4811f20052d3c43e4b1ef5463d88f8", null ],
     [ "vehicle_use", "da/d10/sv__vehicles_8qc.html#a452c33c882494e0ba872809229f9f769", null ],
     [ "vehicles_clearreturn", "da/d10/sv__vehicles_8qc.html#acb307a79d42b2864e9d2a2781dccf1f0", null ],
-    [ "vehicles_crushable", "da/d10/sv__vehicles_8qc.html#a6ebb79dca8127d161f4ffb581b41e8c1", null ],
+    [ "vehicles_crushable", "da/d10/sv__vehicles_8qc.html#ab61375dcd840955138307e48e8bcc1f4", null ],
     [ "vehicles_damage", "da/d10/sv__vehicles_8qc.html#af3487605a196c9df59ed3a8f0c8c6a04", null ],
     [ "vehicles_enter", "da/d10/sv__vehicles_8qc.html#a018387a690e307f5cc7fb250212d7eb5", null ],
     [ "vehicles_exit", "da/d10/sv__vehicles_8qc.html#a42aece77fb15332fccf65dc5e1c1f8b1", null ],

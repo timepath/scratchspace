@@ -81,7 +81,7 @@ var searchData=
   ['vehicles_5fall_5fc',['VEHICLES_ALL_C',['../d7/dc7/common_2vehicles_2all_8qc.html#a73c313baec888c8737146375c6453289',1,'all.qc']]],
   ['vehicles_5fall_5fh',['VEHICLES_ALL_H',['../dd/d0c/common_2vehicles_2all_8qh.html#a97a8840fb367bc87d96aad765117bc38',1,'all.qh']]],
   ['vehicles_5fclearreturn',['vehicles_clearreturn',['../da/d10/sv__vehicles_8qc.html#acb307a79d42b2864e9d2a2781dccf1f0',1,'sv_vehicles.qc']]],
-  ['vehicles_5fcrushable',['vehicles_crushable',['../da/d10/sv__vehicles_8qc.html#a6ebb79dca8127d161f4ffb581b41e8c1',1,'sv_vehicles.qc']]],
+  ['vehicles_5fcrushable',['vehicles_crushable',['../da/d10/sv__vehicles_8qc.html#ab61375dcd840955138307e48e8bcc1f4',1,'sv_vehicles.qc']]],
   ['vehicles_5fdamage',['vehicles_damage',['../da/d10/sv__vehicles_8qc.html#af3487605a196c9df59ed3a8f0c8c6a04',1,'sv_vehicles.qc']]],
   ['vehicles_5fdef_5fh',['VEHICLES_DEF_H',['../d1/dae/sv__vehicles_8qh.html#a6040947880c80a76f9226b784f7995d1',1,'sv_vehicles.qh']]],
   ['vehicles_5fdrawcrosshair',['Vehicles_drawCrosshair',['../d0/dee/cl__vehicles_8qc.html#a3b3760b999716ec6ff36466d82c48b2a',1,'cl_vehicles.qc']]],
