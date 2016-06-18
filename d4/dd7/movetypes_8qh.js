@@ -21,9 +21,9 @@ var movetypes_8qh =
     [ "Movetype_Physics_NoMatchServer", "d4/dd7/movetypes_8qh.html#abc94399163b20fbffafbcdaeda0f8db5", null ],
     [ "void", "d4/dd7/movetypes_8qh.html#afb527d202cd46f38f520cfba1b0069b5", null ],
     [ "void", "d4/dd7/movetypes_8qh.html#a591e49a1a9ef818948667335d5e6c76a", null ],
+    [ "aiment", "d4/dd7/movetypes_8qh.html#a9d8f05707745e18415d786a00cd398e8", null ],
     [ "autocvar_cl_gameplayfix_fixedcheckwatertransition", "d4/dd7/movetypes_8qh.html#a5ac573b9da7628d7e9b4f30d2433991a", null ],
     [ "MAX_CLIP_PLANES", "d4/dd7/movetypes_8qh.html#a46c1d9c12616edadd00cc17892aa9006", null ],
-    [ "move_aiment", "d4/dd7/movetypes_8qh.html#a4d44cd8cd7ac84ca268a780bed73660e", null ],
     [ "move_angles", "d4/dd7/movetypes_8qh.html#abdfd01402ff385d394858f6dae337441", null ],
     [ "move_avelocity", "d4/dd7/movetypes_8qh.html#a5cb5848fec37d2cb267a3c67a7e3abe3", null ],
     [ "move_bounce_factor", "d4/dd7/movetypes_8qh.html#aa08ed20c89ce52074572c0cc6fb73d61", null ],
@@ -36,7 +36,6 @@ var movetypes_8qh =
     [ "move_nextthink", "d4/dd7/movetypes_8qh.html#aaa915fc04af8663d4224fba5feea24ab", null ],
     [ "move_nomonsters", "d4/dd7/movetypes_8qh.html#a954b92d41d478b31b2b40ef7c1507ba9", null ],
     [ "move_origin", "d4/dd7/movetypes_8qh.html#a8f912d9d796bd82c9c5a4f50e83a7239", null ],
-    [ "move_punchangle", "d4/dd7/movetypes_8qh.html#a6fffa5c840ee6784304ebbd28f640720", null ],
     [ "move_suspendedinair", "d4/dd7/movetypes_8qh.html#ad2b149369ace500f453a8cec6aac0218", null ],
     [ "move_time", "d4/dd7/movetypes_8qh.html#aaa2abfa04cefcf14baf80ba2ec1eb96c", null ],
     [ "move_velocity", "d4/dd7/movetypes_8qh.html#aee14d02d53ee1888da7ba4a57964ea6c", null ],
@@ -46,5 +45,6 @@ var movetypes_8qh =
     [ "MOVEFLAG_NOGRAVITYONGROUND", "d4/dd7/movetypes_8qh.html#a3a39f4ea93de6e717f1951fc27cbd436", null ],
     [ "MOVEFLAG_Q2AIRACCELERATE", "d4/dd7/movetypes_8qh.html#a4c106bfe0f4bb8f7d6d22b2a65296874", null ],
     [ "MOVEFLAG_VALID", "d4/dd7/movetypes_8qh.html#ac65a336dcba160b9781c2c52a57eb9bb", null ],
-    [ "MOVETYPE_FAKEPUSH", "d4/dd7/movetypes_8qh.html#a4b49219e3364fc976d1ce0f24871044d", null ]
+    [ "MOVETYPE_FAKEPUSH", "d4/dd7/movetypes_8qh.html#a4b49219e3364fc976d1ce0f24871044d", null ],
+    [ "punchangle", "d4/dd7/movetypes_8qh.html#a3857616fe924e0ad2e724aa167950651", null ]
 ];

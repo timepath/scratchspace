@@ -107,53 +107,50 @@ $(document).ready(function(){initNavTree('d3/d45/physics_2movetypes_2follow_8qc_
 <div class="contents">
 <a href="../../d3/d45/physics_2movetypes_2follow_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="../../d3/d45/physics_2movetypes_2follow_8qc.html#a205b11844120bb8f225d7479e7e38023">    1</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d3/d45/physics_2movetypes_2follow_8qc.html#a205b11844120bb8f225d7479e7e38023">_Movetype_Physics_Follow</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>) <span class="comment">// SV_Physics_Follow</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;{</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#a4d44cd8cd7ac84ca268a780bed73660e">move_aiment</a>; <span class="comment">// TODO: networking?</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#a9d8f05707745e18415d786a00cd398e8">aiment</a>;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="comment">// LordHavoc: implemented rotation on MOVETYPE_FOLLOW objects</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#abdfd01402ff385d394858f6dae337441">move_angles</a> == this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#a6fffa5c840ee6784304ebbd28f640720">move_punchangle</a>)</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#a8f912d9d796bd82c9c5a4f50e83a7239">move_origin</a> = e.move_origin + this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a62c3b9f9bf0fae21452c48c7c87265f7">view_ofs</a>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    }</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> <a class="code" href="../../d3/dd0/self_8qh.html#acbd0a0d5d29bb6850278ebb75b4349ca">ang</a>, v;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        ang_x = -this.move_punchangle_x;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        ang_y = this.move_punchangle_y;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        ang_z = this.move_punchangle_z;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        makevectors(ang);</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        v_x = this.view_ofs_x * v_forward_x + this.view_ofs_y * v_right_x + this.view_ofs_z * v_up_x;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        v_y = this.view_ofs_x * v_forward_y + this.view_ofs_y * v_right_y + this.view_ofs_z * v_up_y;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        v_z = this.view_ofs_x * v_forward_z + this.view_ofs_y * v_right_z + this.view_ofs_z * v_up_z;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        ang_x = -e.move_angles_x;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        ang_y = e.move_angles_y;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        ang_z = e.move_angles_z;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        makevectors(ang);</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        this.move_origin_x = v_x * v_forward_x + v_y * v_forward_y + v_z * v_forward_z + e.move_origin_x;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        this.move_origin_x = v_x * v_right_x + v_y * v_right_y + v_z * v_right_z + e.move_origin_y;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        this.move_origin_x = v_x * v_up_x + v_y * v_up_y + v_z * v_up_z + e.move_origin_z;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#abdfd01402ff385d394858f6dae337441">move_angles</a> = e.move_angles + this.<a class="code" href="../../d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293">v_angle</a>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    <a class="code" href="../../d2/db1/movetypes_8qc.html#a1c681fcc84c5196534b06c2430e184ee">_Movetype_LinkEdict</a>(<span class="keyword">this</span>, <span class="keyword">false</span>);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;}</div>
-<div class="ttc" id="movetypes_8qh_html_a4d44cd8cd7ac84ca268a780bed73660e"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a4d44cd8cd7ac84ca268a780bed73660e">move_aiment</a></div><div class="ttdeci">entity move_aiment</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00027">movetypes.qh:27</a></div></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordflow">if</span>(e.angles == <span class="keyword">this</span>.punchangle)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#a8f912d9d796bd82c9c5a4f50e83a7239">move_origin</a> = e.origin + this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a62c3b9f9bf0fae21452c48c7c87265f7">view_ofs</a>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    }</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    {</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> <a class="code" href="../../d3/dd0/self_8qh.html#acbd0a0d5d29bb6850278ebb75b4349ca">ang</a>, v;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        ang_x = -this.punchangle_x;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        ang_y = this.punchangle_y;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        ang_z = this.punchangle_z;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        makevectors(ang);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        v_x = this.view_ofs_x * v_forward_x + this.view_ofs_y * v_right_x + this.view_ofs_z * v_up_x;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        v_y = this.view_ofs_x * v_forward_y + this.view_ofs_y * v_right_y + this.view_ofs_z * v_up_y;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        v_z = this.view_ofs_x * v_forward_z + this.view_ofs_y * v_right_z + this.view_ofs_z * v_up_z;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        ang = e.angles;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        ang_x = -e.angles_x;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        makevectors(ang);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        this.move_origin_x = v_x * v_forward_x + v_y * v_forward_y + v_z * v_forward_z + e.origin_x;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        this.move_origin_x = v_x * v_right_x + v_y * v_right_y + v_z * v_right_z + e.origin_y;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        this.move_origin_x = v_x * v_up_x + v_y * v_up_y + v_z * v_up_z + e.origin_z;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#abdfd01402ff385d394858f6dae337441">move_angles</a> = e.angles + this.<a class="code" href="../../d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293">v_angle</a>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../d2/db1/movetypes_8qc.html#a1c681fcc84c5196534b06c2430e184ee">_Movetype_LinkEdict</a>(<span class="keyword">this</span>, <span class="keyword">false</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
 <div class="ttc" id="progsdefs_8qc_html_a62c3b9f9bf0fae21452c48c7c87265f7"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a62c3b9f9bf0fae21452c48c7c87265f7">view_ofs</a></div><div class="ttdeci">vector view_ofs</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00151">progsdefs.qc:151</a></div></div>
 <div class="ttc" id="self_8qh_html_a7ea82552101f041fad7635b3ed036a84"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a></div><div class="ttdeci">vector</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00084">self.qh:84</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="movetypes_8qh_html_abdfd01402ff385d394858f6dae337441"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#abdfd01402ff385d394858f6dae337441">move_angles</a></div><div class="ttdeci">vector move_angles</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00016">movetypes.qh:16</a></div></div>
 <div class="ttc" id="player__skeleton_8qc_html_a5730a5d99021203efb546d3b48f7b293"><div class="ttname"><a href="../../d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293">v_angle</a></div><div class="ttdeci">vector v_angle</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dab/player__skeleton_8qc_source.html#l00007">player_skeleton.qc:7</a></div></div>
 <div class="ttc" id="physics_2movetypes_2follow_8qc_html_a205b11844120bb8f225d7479e7e38023"><div class="ttname"><a href="../../d3/d45/physics_2movetypes_2follow_8qc.html#a205b11844120bb8f225d7479e7e38023">_Movetype_Physics_Follow</a></div><div class="ttdeci">void _Movetype_Physics_Follow(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d45/physics_2movetypes_2follow_8qc_source.html#l00001">follow.qc:1</a></div></div>
-<div class="ttc" id="movetypes_8qh_html_a6fffa5c840ee6784304ebbd28f640720"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a6fffa5c840ee6784304ebbd28f640720">move_punchangle</a></div><div class="ttdeci">vector move_punchangle</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00028">movetypes.qh:28</a></div></div>
 <div class="ttc" id="movetypes_8qc_html_a1c681fcc84c5196534b06c2430e184ee"><div class="ttname"><a href="../../d2/db1/movetypes_8qc.html#a1c681fcc84c5196534b06c2430e184ee">_Movetype_LinkEdict</a></div><div class="ttdeci">void _Movetype_LinkEdict(entity this, bool touch_triggers)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db1/movetypes_8qc_source.html#l00370">movetypes.qc:370</a></div></div>
 <div class="ttc" id="self_8qh_html_acbd0a0d5d29bb6850278ebb75b4349ca"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#acbd0a0d5d29bb6850278ebb75b4349ca">ang</a></div><div class="ttdeci">vector vector ang</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00084">self.qh:84</a></div></div>
 <div class="ttc" id="movetypes_8qh_html_a8f912d9d796bd82c9c5a4f50e83a7239"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a8f912d9d796bd82c9c5a4f50e83a7239">move_origin</a></div><div class="ttdeci">vector move_origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00015">movetypes.qh:15</a></div></div>
+<div class="ttc" id="movetypes_8qh_html_a9d8f05707745e18415d786a00cd398e8"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a9d8f05707745e18415d786a00cd398e8">aiment</a></div><div class="ttdeci">entity aiment</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00027">movetypes.qh:27</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_33efe8922df16737d16f0d292d9896fe.html">physics</a></li><li class="navelem"><a class="el" href="../../dir_4bb9a521ec3281dd9e5de96d834ae0ab.html">movetypes</a></li><li class="navelem"><a class="el" href="../../d3/d45/physics_2movetypes_2follow_8qc.html">follow.qc</a></li>
-    <li class="footer">Generated on Fri Jun 17 2016 17:57:08 for Xonotic by
+    <li class="footer">Generated on Sat Jun 18 2016 12:47:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -43,7 +43,7 @@ var searchData=
   ['aim_5fmaxpitch',['aim_maxpitch',['../df/d28/sv__turrets_8qh.html#a87838cf5845f0422b419e6d57f068bca',1,'sv_turrets.qh']]],
   ['aim_5fmaxrotate',['aim_maxrotate',['../df/d28/sv__turrets_8qh.html#a5a7e22048c6b86cb0269a4ccac9b1271',1,'sv_turrets.qh']]],
   ['aim_5fspeed',['aim_speed',['../df/d28/sv__turrets_8qh.html#a4cedf4740142f48c35b59cbaa9017f2b',1,'sv_turrets.qh']]],
-  ['aiment',['aiment',['../d6/d11/progsdefs_8qc.html#a9d8f05707745e18415d786a00cd398e8',1,'progsdefs.qc']]],
+  ['aiment',['aiment',['../d4/dd7/movetypes_8qh.html#a9d8f05707745e18415d786a00cd398e8',1,'aiment():&#160;movetypes.qh'],['../d6/d11/progsdefs_8qc.html#a9d8f05707745e18415d786a00cd398e8',1,'aiment():&#160;progsdefs.qc']]],
   ['aiment_5fclassname',['aiment_classname',['../dc/dc6/server_2miscfunctions_8qc.html#a57c6890f25ac5cfdf263a9a467577480',1,'miscfunctions.qc']]],
   ['aiment_5fdeadflag',['aiment_deadflag',['../dc/dc6/server_2miscfunctions_8qc.html#a624314975ec1563eb689b613d886d64d',1,'miscfunctions.qc']]],
   ['air_5ffinished',['air_finished',['../d5/d26/server_2defs_8qh.html#a3ee81056f68c7ed9f2ec49687c4303b8',1,'defs.qh']]],
