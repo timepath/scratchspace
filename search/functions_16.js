@@ -15,6 +15,7 @@ var searchData=
   ['vehicle_5faddplayerslot',['vehicle_addplayerslot',['../da/d10/sv__vehicles_8qc.html#a9aa8057daa73c290bd01303f9ad93e87',1,'sv_vehicles.qc']]],
   ['vehicle_5faimturret',['vehicle_aimturret',['../da/d10/sv__vehicles_8qc.html#afcba25c827d948daf47134038eb3b300',1,'sv_vehicles.qc']]],
   ['vehicle_5falarm',['vehicle_alarm',['../d0/dee/cl__vehicles_8qc.html#a4867639d58dd5b39ba82270fdde79449',1,'cl_vehicles.qc']]],
+  ['vehicle_5faltitude',['vehicle_altitude',['../da/d10/sv__vehicles_8qc.html#a7603bc6f68126501fdc865782f0dda98',1,'sv_vehicles.qc']]],
   ['vehicle_5fimpulse',['vehicle_impulse',['../da/d10/sv__vehicles_8qc.html#a6c29d6869bf163f03ba023875281f720',1,'sv_vehicles.qc']]],
   ['vehicle_5finitialize',['vehicle_initialize',['../da/d10/sv__vehicles_8qc.html#a1b6558ed1f840d28168b0f15c0266b68',1,'sv_vehicles.qc']]],
   ['vehicle_5ftossgib',['vehicle_tossgib',['../da/d10/sv__vehicles_8qc.html#afa4811f20052d3c43e4b1ef5463d88f8',1,'sv_vehicles.qc']]],

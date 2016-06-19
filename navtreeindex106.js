@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"dd/d9a/classXonoticSandboxToolsDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,208,56],
 "dd/d9a/classXonoticSandboxToolsDialog.html#aa1abab97698c6f13909d1791611312cb":[1,0,208,59],
 "dd/d9a/classXonoticSandboxToolsDialog.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,208,47],
 "dd/d9a/classXonoticSandboxToolsDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,208,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "dd/dac/dialog__hudsetup__exit_8qc.html":[2,0,4,4,82],
 "dd/dac/dialog__hudsetup__exit_8qc.html#a9402798b381818975e745a6b27052d0b":[2,0,4,4,82,0],
 "dd/dac/dialog__hudsetup__exit_8qc_source.html":[2,0,4,4,82],
-"dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh.html":[2,0,1,9,0,13,1],
-"dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh_source.html":[2,0,1,9,0,13,1]
+"dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh.html":[2,0,1,9,0,13,1]
 };

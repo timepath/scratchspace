@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"db/db4/classTextSlider.html#ac6094922668d013ada3893854eec6b0f":[1,0,110,13],
 "db/db4/classTextSlider.html#acd339ed42a2f51ac07364931d53de5a1":[1,0,110,76],
 "db/db4/classTextSlider.html#ad5a208844a1703bc3c21caa3514e2b86":[1,0,110,75],
 "db/db4/classTextSlider.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,110,59],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "db/dcc/g__world_8qc.html#a161f861ac5f44c81d48ecc3c40c3e465":[2,0,5,35,17],
 "db/dcc/g__world_8qc.html#a178d61b734362fd8c466adb1234e0f53":[2,0,5,35,24],
 "db/dcc/g__world_8qc.html#a1a54385aa9929a708f4b06be4b86ffa0":[2,0,5,35,42],
-"db/dcc/g__world_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820":[2,0,5,35,8],
-"db/dcc/g__world_8qc.html#a200258da0bc9688a881cc00bc82dd9eb":[2,0,5,35,6]
+"db/dcc/g__world_8qc.html#a1e656abc1ff1500960d4cc2f55bcd820":[2,0,5,35,8]
 };
