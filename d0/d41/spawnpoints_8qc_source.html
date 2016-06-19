@@ -356,159 +356,157 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> spawn_score = prio * <span class="stringliteral">&#39;1 0 0&#39;</span> + shortest * <span class="stringliteral">&#39;0 1 0&#39;</span>;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="comment">// filter out spots for assault</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">if</span>(spot.target != <span class="stringliteral">&quot;&quot;</span>) {</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> ent;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordtype">float</span> found;</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        found = 0;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        <span class="keywordflow">for</span>(ent = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (ent = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(ent, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, spot.target)); )</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        {</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            ++found;</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            <span class="keywordflow">if</span>(ent.spawn_evalfunc)</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            {</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                spawn_score = ent.spawn_evalfunc(ent, <span class="keyword">this</span>, spot, spawn_score);</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                <span class="keywordflow">if</span>(spawn_score.x &lt; 0)</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                    <span class="keywordflow">return</span> spawn_score;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            }</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        }</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="keywordflow">if</span>(!found)</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        {</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;WARNING: spawnpoint at &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(spot.origin), <span class="stringliteral">&quot; could not find its target &quot;</span>, spot.target, <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&#39;-1 0 0&#39;</span>;</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        }</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    }</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(<a class="code" href="../../d0/d41/spawnpoints_8qc.html#adb306ba6ed0866d22bb8f9318d8c4488">Spawn_Score</a>, <span class="keyword">this</span>, spot, spawn_score);</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    spawn_score = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a>);</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="keywordflow">return</span> spawn_score;</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;}</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;</div>
-<div class="line"><a name="l00280"></a><span class="lineno"><a class="line" href="../../d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698">  280</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698">Spawn_ScoreAll</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> firstspot, <span class="keywordtype">float</span> mindist, <span class="keywordtype">float</span> teamcheck)</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;{</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <span class="keywordflow">for</span>(spot = firstspot; spot; spot = spot.chain)</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        spot.spawnpoint_score = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#adb306ba6ed0866d22bb8f9318d8c4488">Spawn_Score</a>(<span class="keyword">this</span>, spot, mindist, teamcheck);</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;}</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;</div>
-<div class="line"><a name="l00287"></a><span class="lineno"><a class="line" href="../../d4/dd1/spawnpoints_8qh.html#ac6bf8417de66cc27e1aad493335d2901">  287</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901">Spawn_FilterOutBadSpots</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> firstspot, <span class="keywordtype">float</span> mindist, <span class="keywordtype">float</span> teamcheck)</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;{</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot, spotlist, spotlistend;</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    spotlist = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    spotlistend = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">if</span>(spot.target != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    {</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordtype">int</span> found = 0;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ad7fe88fd0110be973f33790914a7955c">FOREACH_ENTITY_STRING</a>(<a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, spot.target,</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        {</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            ++found;</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <span class="keywordflow">if</span>(it.spawn_evalfunc)</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                spawn_score = it.spawn_evalfunc(it, <span class="keyword">this</span>, spot, spawn_score);</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                <span class="keywordflow">if</span>(spawn_score.x &lt; 0)</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                    <span class="keywordflow">return</span> spawn_score;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            }</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        });</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keywordflow">if</span>(!found)</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        {</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;WARNING: spawnpoint at &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(spot.origin), <span class="stringliteral">&quot; could not find its target &quot;</span>, spot.target, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;            <span class="keywordflow">return</span> <span class="stringliteral">&#39;-1 0 0&#39;</span>;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        }</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    }</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(<a class="code" href="../../d0/d41/spawnpoints_8qc.html#adb306ba6ed0866d22bb8f9318d8c4488">Spawn_Score</a>, <span class="keyword">this</span>, spot, spawn_score);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    spawn_score = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a>);</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <span class="keywordflow">return</span> spawn_score;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;}</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
+<div class="line"><a name="l00278"></a><span class="lineno"><a class="line" href="../../d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698">  278</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698">Spawn_ScoreAll</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> firstspot, <span class="keywordtype">float</span> mindist, <span class="keywordtype">float</span> teamcheck)</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;{</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordflow">for</span>(spot = firstspot; spot; spot = spot.chain)</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        spot.spawnpoint_score = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#adb306ba6ed0866d22bb8f9318d8c4488">Spawn_Score</a>(<span class="keyword">this</span>, spot, mindist, teamcheck);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;}</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;</div>
+<div class="line"><a name="l00285"></a><span class="lineno"><a class="line" href="../../d4/dd1/spawnpoints_8qh.html#ac6bf8417de66cc27e1aad493335d2901">  285</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901">Spawn_FilterOutBadSpots</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> firstspot, <span class="keywordtype">float</span> mindist, <span class="keywordtype">float</span> teamcheck)</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;{</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot, spotlist, spotlistend;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    spotlist = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    spotlistend = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <a class="code" href="../../d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698">Spawn_ScoreAll</a>(<span class="keyword">this</span>, firstspot, mindist, teamcheck);</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <a class="code" href="../../d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698">Spawn_ScoreAll</a>(<span class="keyword">this</span>, firstspot, mindist, teamcheck);</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    <span class="keywordflow">for</span>(spot = firstspot; spot; spot = spot.chain)</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    {</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        <span class="keywordflow">if</span>(spot.spawnpoint_score.x &gt;= 0) <span class="comment">// spawning allowed here</span></div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        {</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            <span class="keywordflow">if</span>(spotlistend)</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;                spotlistend.chain = spot;</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;            spotlistend = spot;</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;            <span class="keywordflow">if</span>(!spotlist)</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                spotlist = spot;</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        }</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    }</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="keywordflow">if</span>(spotlistend)</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        spotlistend.chain = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <span class="keywordflow">return</span> spotlist;</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;}</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;</div>
-<div class="line"><a name="l00313"></a><span class="lineno"><a class="line" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">  313</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> firstspot, <span class="keywordtype">float</span> lower, <span class="keywordtype">float</span> upper, <span class="keywordtype">float</span> exponent)</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;{</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <span class="comment">// weight of a point: bound(lower, mindisttoplayer, upper)^exponent</span></div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    <span class="comment">// multiplied by spot.cnt (useful if you distribute many spawnpoints in a small area)</span></div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot;</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <a class="code" href="../../dc/d95/random_8qc.html#a2d70d358bbf6aa8252f2aebc596d67c1">RandomSelection_Init</a>();</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="keywordflow">for</span>(spot = firstspot; spot; spot = spot.chain)</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        <a class="code" href="../../dc/d95/random_8qc.html#a95527c538e7d69ffdd2779998fdabb42">RandomSelection_Add</a>(spot, 0, <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(lower, spot.spawnpoint_score.y, upper), exponent) * spot.cnt, (spot.spawnpoint_score.y &gt;= lower) * 0.5 + spot.spawnpoint_score.x);</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>;</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;}</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="comment">=============</span></div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="comment">SelectSpawnPoint</span></div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="comment">Finds a point to respawn</span></div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;<span class="comment">=============</span></div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00333"></a><span class="lineno"><a class="line" href="../../d4/dd1/spawnpoints_8qh.html#a71804b6dc31803f43afa105a34e35d04">  333</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d0/d41/spawnpoints_8qc.html#a71804b6dc31803f43afa105a34e35d04">SelectSpawnPoint</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <span class="keywordtype">bool</span> anypoint)</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;{</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <span class="keywordtype">float</span> teamcheck;</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot, firstspot;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    spot = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a> (<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;testplayerstart&quot;</span>);</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="keywordflow">if</span> (spot)</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        <span class="keywordflow">return</span> spot;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <span class="keywordflow">if</span>(anypoint || <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a45cd7f59eed317239d722e0b4c86f6b4">autocvar_g_spawn_useallspawns</a>)</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        teamcheck = -1;</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a82bd246c33cb412dec913e65a81b461c">have_team_spawns</a> &gt; 0)</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    {</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a11fbd8892ca8342fabdcbc37895675c5">have_team_spawns_forteam</a>[this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>] == 0)</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        {</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;            <span class="comment">// we request a spawn for a team, and we have team</span></div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;            <span class="comment">// spawns, but that team has no spawns?</span></div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a11fbd8892ca8342fabdcbc37895675c5">have_team_spawns_forteam</a>[0])</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;                <span class="comment">// try noteam spawns</span></div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                teamcheck = 0;</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;                <span class="comment">// if not, any spawn has to do</span></div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;                teamcheck = -1;</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        }</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;            teamcheck = this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>; <span class="comment">// MUST be team</span></div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    }</div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a82bd246c33cb412dec913e65a81b461c">have_team_spawns</a> == 0 &amp;&amp; <a class="code" href="../../d5/d26/server_2defs_8qh.html#a11fbd8892ca8342fabdcbc37895675c5">have_team_spawns_forteam</a>[0])</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        teamcheck = 0; <span class="comment">// MUST be noteam</span></div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        teamcheck = -1;</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        <span class="comment">// if we get here, we either require team spawns but have none, or we require non-team spawns and have none; use any spawn then</span></div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="comment">// get the entire list of spots</span></div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    firstspot = findchain(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;info_player_deathmatch&quot;</span>);</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <span class="comment">// filter out the bad ones</span></div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    <span class="comment">// (note this returns the original list if none survived)</span></div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <span class="keywordflow">if</span>(anypoint)</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    {</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        spot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(firstspot, 1, 1, 1);</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    }</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    {</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        firstspot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901">Spawn_FilterOutBadSpots</a>(<span class="keyword">this</span>, firstspot, 100, teamcheck);</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <span class="comment">// there is 50/50 chance of choosing a random spot or the furthest spot</span></div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        <span class="comment">// (this means that roughly every other spawn will be furthest, so you</span></div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        <span class="comment">// usually won&#39;t get fragged at spawn twice in a row)</span></div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &gt; <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ab845e3a0b0cb183d19284e2f9eb7b1ef">autocvar_g_spawn_furthest</a>)</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;            spot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(firstspot, 1, 1, 1);</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;            spot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(firstspot, 1, 5000, 5); <span class="comment">// chooses a far far away spawnpoint</span></div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    }</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    <span class="keywordflow">if</span> (!spot)</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    {</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#aaadbf19a682702f958447c77e582bf9c">autocvar_spawn_debug</a>)</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;            <a class="code" href="../../d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64">GotoNextMap</a>(0);</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        {</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a547834c4ecd381167ed13dfac82a31ec">some_spawn_has_been_used</a>)</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// team can&#39;t spawn any more, because of actions of other team</span></div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;                <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;Cannot find a spawn point - please fix the map!&quot;</span>);</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        }</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    }</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;    <span class="keywordflow">return</span> spot;</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;}</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keywordflow">for</span>(spot = firstspot; spot; spot = spot.chain)</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    {</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        <span class="keywordflow">if</span>(spot.spawnpoint_score.x &gt;= 0) <span class="comment">// spawning allowed here</span></div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        {</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            <span class="keywordflow">if</span>(spotlistend)</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;                spotlistend.chain = spot;</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;            spotlistend = spot;</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;            <span class="keywordflow">if</span>(!spotlist)</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;                spotlist = spot;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        }</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    }</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <span class="keywordflow">if</span>(spotlistend)</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        spotlistend.chain = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <span class="keywordflow">return</span> spotlist;</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;}</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;</div>
+<div class="line"><a name="l00311"></a><span class="lineno"><a class="line" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">  311</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> firstspot, <span class="keywordtype">float</span> lower, <span class="keywordtype">float</span> upper, <span class="keywordtype">float</span> exponent)</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;{</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <span class="comment">// weight of a point: bound(lower, mindisttoplayer, upper)^exponent</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <span class="comment">// multiplied by spot.cnt (useful if you distribute many spawnpoints in a small area)</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot;</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <a class="code" href="../../dc/d95/random_8qc.html#a2d70d358bbf6aa8252f2aebc596d67c1">RandomSelection_Init</a>();</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keywordflow">for</span>(spot = firstspot; spot; spot = spot.chain)</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        <a class="code" href="../../dc/d95/random_8qc.html#a95527c538e7d69ffdd2779998fdabb42">RandomSelection_Add</a>(spot, 0, <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(lower, spot.spawnpoint_score.y, upper), exponent) * spot.cnt, (spot.spawnpoint_score.y &gt;= lower) * 0.5 + spot.spawnpoint_score.x);</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;}</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="comment">=============</span></div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="comment">SelectSpawnPoint</span></div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<span class="comment">Finds a point to respawn</span></div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;<span class="comment">=============</span></div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00331"></a><span class="lineno"><a class="line" href="../../d4/dd1/spawnpoints_8qh.html#a71804b6dc31803f43afa105a34e35d04">  331</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d0/d41/spawnpoints_8qc.html#a71804b6dc31803f43afa105a34e35d04">SelectSpawnPoint</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <span class="keywordtype">bool</span> anypoint)</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;{</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;    <span class="keywordtype">float</span> teamcheck;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spot, firstspot;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    spot = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a> (<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;testplayerstart&quot;</span>);</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keywordflow">if</span> (spot)</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        <span class="keywordflow">return</span> spot;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    <span class="keywordflow">if</span>(anypoint || <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a45cd7f59eed317239d722e0b4c86f6b4">autocvar_g_spawn_useallspawns</a>)</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        teamcheck = -1;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a82bd246c33cb412dec913e65a81b461c">have_team_spawns</a> &gt; 0)</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    {</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a11fbd8892ca8342fabdcbc37895675c5">have_team_spawns_forteam</a>[this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>] == 0)</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        {</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;            <span class="comment">// we request a spawn for a team, and we have team</span></div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;            <span class="comment">// spawns, but that team has no spawns?</span></div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a11fbd8892ca8342fabdcbc37895675c5">have_team_spawns_forteam</a>[0])</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;                <span class="comment">// try noteam spawns</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;                teamcheck = 0;</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;                <span class="comment">// if not, any spawn has to do</span></div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;                teamcheck = -1;</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        }</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;            teamcheck = this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>; <span class="comment">// MUST be team</span></div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    }</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a82bd246c33cb412dec913e65a81b461c">have_team_spawns</a> == 0 &amp;&amp; <a class="code" href="../../d5/d26/server_2defs_8qh.html#a11fbd8892ca8342fabdcbc37895675c5">have_team_spawns_forteam</a>[0])</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        teamcheck = 0; <span class="comment">// MUST be noteam</span></div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        teamcheck = -1;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;        <span class="comment">// if we get here, we either require team spawns but have none, or we require non-team spawns and have none; use any spawn then</span></div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    <span class="comment">// get the entire list of spots</span></div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    firstspot = findchain(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;info_player_deathmatch&quot;</span>);</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="comment">// filter out the bad ones</span></div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="comment">// (note this returns the original list if none survived)</span></div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <span class="keywordflow">if</span>(anypoint)</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    {</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;        spot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(firstspot, 1, 1, 1);</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    }</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    {</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        firstspot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901">Spawn_FilterOutBadSpots</a>(<span class="keyword">this</span>, firstspot, 100, teamcheck);</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        <span class="comment">// there is 50/50 chance of choosing a random spot or the furthest spot</span></div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        <span class="comment">// (this means that roughly every other spawn will be furthest, so you</span></div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <span class="comment">// usually won&#39;t get fragged at spawn twice in a row)</span></div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &gt; <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ab845e3a0b0cb183d19284e2f9eb7b1ef">autocvar_g_spawn_furthest</a>)</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;            spot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(firstspot, 1, 1, 1);</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;            spot = <a class="code" href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a>(firstspot, 1, 5000, 5); <span class="comment">// chooses a far far away spawnpoint</span></div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    }</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    <span class="keywordflow">if</span> (!spot)</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;    {</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#aaadbf19a682702f958447c77e582bf9c">autocvar_spawn_debug</a>)</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;            <a class="code" href="../../d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64">GotoNextMap</a>(0);</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        {</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a547834c4ecd381167ed13dfac82a31ec">some_spawn_has_been_used</a>)</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; <span class="comment">// team can&#39;t spawn any more, because of actions of other team</span></div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;                <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;Cannot find a spawn point - please fix the map!&quot;</span>);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        }</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    }</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <span class="keywordflow">return</span> spot;</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
-<div class="ttc" id="spawnpoints_8qc_html_a71804b6dc31803f43afa105a34e35d04"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a71804b6dc31803f43afa105a34e35d04">SelectSpawnPoint</a></div><div class="ttdeci">entity SelectSpawnPoint(entity this, bool anypoint)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00333">spawnpoints.qc:333</a></div></div>
+<div class="ttc" id="spawnpoints_8qc_html_a71804b6dc31803f43afa105a34e35d04"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a71804b6dc31803f43afa105a34e35d04">SelectSpawnPoint</a></div><div class="ttdeci">entity SelectSpawnPoint(entity this, bool anypoint)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00331">spawnpoints.qc:331</a></div></div>
 <div class="ttc" id="spawnpoints_8qc_html_a0accdd5b9d6078c8bba127799e0364e0"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a0accdd5b9d6078c8bba127799e0364e0">spawnpoint_think</a></div><div class="ttdeci">void spawnpoint_think(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00050">spawnpoints.qc:50</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="teams_8qh_html_a40336e02d08573c7903caa457ebc180f"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f">NUM_TEAM_2</a></div><div class="ttdeci">const int NUM_TEAM_2</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
@@ -535,10 +533,11 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00083">main.qh:83</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab0df318f2dece7f798ff4061cd67f9d2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a></div><div class="ttdeci">string vtos(vector v)</div></div>
 <div class="ttc" id="spawnpoints_8qc_html_a2a7af8ac3ec4cc48b002997881b2a491"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a2a7af8ac3ec4cc48b002997881b2a491">spawnpoint_use</a></div><div class="ttdeci">void spawnpoint_use(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00060">spawnpoints.qc:60</a></div></div>
+<div class="ttc" id="iter_8qh_html_ad7fe88fd0110be973f33790914a7955c"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ad7fe88fd0110be973f33790914a7955c">FOREACH_ENTITY_STRING</a></div><div class="ttdeci">#define FOREACH_ENTITY_STRING(fld, match, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00172">iter.qh:172</a></div></div>
 <div class="ttc" id="spawnpoints_8qc_html_a65f632ea7c75b704550b257f227230cb"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a65f632ea7c75b704550b257f227230cb">SpawnEvent_Send</a></div><div class="ttdeci">bool SpawnEvent_Send(entity this, entity to, int sf)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00025">spawnpoints.qc:25</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a547834c4ecd381167ed13dfac82a31ec"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a547834c4ecd381167ed13dfac82a31ec">some_spawn_has_been_used</a></div><div class="ttdeci">float some_spawn_has_been_used</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00241">defs.qh:241</a></div></div>
-<div class="ttc" id="spawnpoints_8qc_html_aaac98f481535c16238cdfcb66cbbf625"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a></div><div class="ttdeci">entity Spawn_WeightedPoint(entity firstspot, float lower, float upper, float exponent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00313">spawnpoints.qc:313</a></div></div>
-<div class="ttc" id="spawnpoints_8qc_html_ac6bf8417de66cc27e1aad493335d2901"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901">Spawn_FilterOutBadSpots</a></div><div class="ttdeci">entity Spawn_FilterOutBadSpots(entity this, entity firstspot, float mindist, float teamcheck)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00287">spawnpoints.qc:287</a></div></div>
+<div class="ttc" id="spawnpoints_8qc_html_aaac98f481535c16238cdfcb66cbbf625"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a></div><div class="ttdeci">entity Spawn_WeightedPoint(entity firstspot, float lower, float upper, float exponent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00311">spawnpoints.qc:311</a></div></div>
+<div class="ttc" id="spawnpoints_8qc_html_ac6bf8417de66cc27e1aad493335d2901"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#ac6bf8417de66cc27e1aad493335d2901">Spawn_FilterOutBadSpots</a></div><div class="ttdeci">entity Spawn_FilterOutBadSpots(entity this, entity firstspot, float mindist, float teamcheck)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00285">spawnpoints.qc:285</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a607694908d0ef2719bf5bbf4203ce987"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">mins</a></div><div class="ttdeci">vector mins</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00113">csprogsdefs.qc:113</a></div></div>
 <div class="ttc" id="pre_8qh_html_a0c5e59a7caaa02f887d077eaa467f209"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a></div><div class="ttdeci">#define error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00006">pre.qh:6</a></div></div>
 <div class="ttc" id="race_8qh_html_a0cf3c746a02d8f934c12691dadca5d3e"><div class="ttname"><a href="../../d4/d1b/race_8qh.html#a0cf3c746a02d8f934c12691dadca5d3e">race_spawns</a></div><div class="ttdeci">float race_spawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1b/race_8qh_source.html#l00016">race.qh:16</a></div></div>
@@ -570,7 +569,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aa1f190a348c0675e2f35688de429bef6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a></div><div class="ttdeci">vector angles</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00104">csprogsdefs.qc:104</a></div></div>
-<div class="ttc" id="spawnpoints_8qc_html_a84d4f6b3e07681dab4898e5c42966698"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698">Spawn_ScoreAll</a></div><div class="ttdeci">void Spawn_ScoreAll(entity this, entity firstspot, float mindist, float teamcheck)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00280">spawnpoints.qc:280</a></div></div>
+<div class="ttc" id="spawnpoints_8qc_html_a84d4f6b3e07681dab4898e5c42966698"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a84d4f6b3e07681dab4898e5c42966698">Spawn_ScoreAll</a></div><div class="ttdeci">void Spawn_ScoreAll(entity this, entity firstspot, float mindist, float teamcheck)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00278">spawnpoints.qc:278</a></div></div>
 <div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00017">teams.qh:17</a></div></div>
 <div class="ttc" id="csprogsdefs_8qh_html_aeda5446032a08fece73ec569b861a72c"><div class="ttname"><a href="../../da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c">use</a></div><div class="ttdeci">#define use</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dde/csprogsdefs_8qh_source.html#l00044">csprogsdefs.qh:44</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9709fd6a18e9d6bafb5a0e9d8ba42c9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a></div><div class="ttdeci">float trace_startsolid</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00035">csprogsdefs.qc:35</a></div></div>
@@ -595,7 +594,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d0/d41/spawnpoints_8qc.html">spawnpoints.qc</a></li>
-    <li class="footer">Generated on Sat Jun 18 2016 23:40:28 for Xonotic by
+    <li class="footer">Generated on Sun Jun 19 2016 00:14:42 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
