@@ -170,6 +170,9 @@ Functions</h2></td></tr>
 <tr class="separator:ab167fa7c81f4d5f3092673b05f07c8a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af51ffe2b6a299102846ea3cb80677406"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#af51ffe2b6a299102846ea3cb80677406">rotate</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> v, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> a)</td></tr>
 <tr class="separator:af51ffe2b6a299102846ea3cb80677406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae07842a43fda046e42c04c0709a05774"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#ae07842a43fda046e42c04c0709a05774">vec_reflect</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vel, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> norm, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> bounce)</td></tr>
+<tr class="memdesc:ae07842a43fda046e42c04c0709a05774"><td class="mdescLeft">&#160;</td><td class="mdescRight">clip vel along the plane defined by norm (assuming 0 distance away), bounciness determined by bounce 0..1  <a href="#ae07842a43fda046e42c04c0709a05774">More...</a><br/></td></tr>
+<tr class="separator:ae07842a43fda046e42c04c0709a05774"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b150f420429d9c4768f3c23e637fbe4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a1b150f420429d9c4768f3c23e637fbe4">vlen_maxnorm2d</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> v)</td></tr>
 <tr class="separator:a1b150f420429d9c4768f3c23e637fbe4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33d068763f2580642c8616327a6a567a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dcb/vector_8qh.html#a33d068763f2580642c8616327a6a567a">vlen_minnorm2d</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> v)</td></tr>
@@ -489,7 +492,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00095">95</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00152">animdecide_getloweranim()</a>, <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00106">animdecide_getupperanim()</a>, and <a class="el" href="../../de/dcb/vector_8qh_source.html#l00120">get_corner_position()</a>.</p>
+<p>Referenced by <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00152">animdecide_getloweranim()</a>, <a class="el" href="../../d0/d51/animdecide_8qc_source.html#l00106">animdecide_getupperanim()</a>, and <a class="el" href="../../de/dcb/vector_8qh_source.html#l00128">get_corner_position()</a>.</p>
 
 </div>
 </div>
@@ -734,23 +737,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00120">120</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00128">128</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
 <p>References <a class="el" href="../../de/dcb/vector_8qh_source.html#l00095">vec3</a>.</p>
-<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    {</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">switch</span> (corner)</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        {</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;            <span class="keywordflow">case</span> 1: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmin.y, box.absmin.z);</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;            <span class="keywordflow">case</span> 2: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmin.y, box.absmin.z);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;            <span class="keywordflow">case</span> 3: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmax.y, box.absmin.z);</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <span class="keywordflow">case</span> 4: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmin.y, box.absmax.z);</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            <span class="keywordflow">case</span> 5: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmax.y, box.absmin.z);</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            <span class="keywordflow">case</span> 6: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmax.y, box.absmax.z);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            <span class="keywordflow">case</span> 7: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmin.y, box.absmax.z);</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            <span class="keywordflow">case</span> 8: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmax.y, box.absmax.z);</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            <span class="keywordflow">default</span>: <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        }</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    {</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="keywordflow">switch</span> (corner)</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        {</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            <span class="keywordflow">case</span> 1: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmin.y, box.absmin.z);</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            <span class="keywordflow">case</span> 2: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmin.y, box.absmin.z);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;            <span class="keywordflow">case</span> 3: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmax.y, box.absmin.z);</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            <span class="keywordflow">case</span> 4: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmin.y, box.absmax.z);</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;            <span class="keywordflow">case</span> 5: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmax.y, box.absmin.z);</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            <span class="keywordflow">case</span> 6: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmin.x, box.absmax.y, box.absmax.z);</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            <span class="keywordflow">case</span> 7: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmin.y, box.absmax.z);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            <span class="keywordflow">case</span> 8: <span class="keywordflow">return</span> <a class="code" href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a>(box.absmax.x, box.absmax.y, box.absmax.z);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            <span class="keywordflow">default</span>: <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        }</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
 <div class="ttc" id="vector_8qh_html_aff5e2534cd0b37bd75c3f51baa19b12e"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e">vec3</a></div><div class="ttdeci">#define vec3(_x, _y, _z)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00095">vector.qh:95</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -779,21 +782,21 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00136">136</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00144">144</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00084">vector</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d1/d8d/wall_8qc_source.html#l00052">Ent_Wall_Draw()</a>, and <a class="el" href="../../d2/d11/g__subs_8qc_source.html#l00237">LOD_customize()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    {</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> m1 = box.mins + box.origin;</div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> m2 = box.maxs + box.origin;</div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> ret;</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        ret.x = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(m1.x, <a class="code" href="../../d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795">org</a>.x, m2.x);</div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        ret.y = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(m1.y, <a class="code" href="../../d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795">org</a>.y, m2.y);</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        ret.z = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(m1.z, <a class="code" href="../../d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795">org</a>.z, m2.z);</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keywordflow">return</span> ret;</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    {</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> m1 = box.mins + box.origin;</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> m2 = box.maxs + box.origin;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> ret;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        ret.x = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(m1.x, <a class="code" href="../../d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795">org</a>.x, m2.x);</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        ret.y = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(m1.y, <a class="code" href="../../d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795">org</a>.y, m2.y);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        ret.z = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(m1.z, <a class="code" href="../../d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795">org</a>.z, m2.z);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="keywordflow">return</span> ret;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    }</div>
 <div class="ttc" id="self_8qh_html_a7ea82552101f041fad7635b3ed036a84"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a></div><div class="ttdeci">vector</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00084">self.qh:84</a></div></div>
 <div class="ttc" id="self_8qh_html_a9cd821b89f6b3d683d8f7a1537d77795"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795">org</a></div><div class="ttdeci">vector org</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00084">self.qh:84</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
@@ -993,6 +996,45 @@ Variables</h2></td></tr>
 </div>
 </p>
 
+</div>
+</div>
+<a class="anchor" id="ae07842a43fda046e42c04c0709a05774"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vec_reflect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
+          <td class="paramname"><em>vel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td>
+          <td class="paramname"><em>norm</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
+          <td class="paramname"><em>bounce</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>clip vel along the plane defined by norm (assuming 0 distance away), bounciness determined by bounce 0..1 </p>
+
+<p>Definition at line <a class="el" href="../../de/dcb/vector_8qh_source.html#l00122">122</a> of file <a class="el" href="../../de/dcb/vector_8qh_source.html">vector.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;{</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">return</span> vel - (1 + bounce) * (vel * norm) * norm;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a1b150f420429d9c4768f3c23e637fbe4"></a>
@@ -1213,7 +1255,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../de/dcb/vector_8qh.html">vector.qh</a></li>
-    <li class="footer">Generated on Sun Jun 19 2016 08:18:28 for Xonotic by
+    <li class="footer">Generated on Sun Jun 19 2016 09:20:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

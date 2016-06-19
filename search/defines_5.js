@@ -10,7 +10,7 @@ var searchData=
   ['effects_5fqc',['EFFECTS_QC',['../d5/d42/common_2effects_2qc_2all_8qh.html#aaf902535b5ebd39beaef8f4111917ac9',1,'all.qh']]],
   ['efmask_5fcheap',['EFMASK_CHEAP',['../d6/dd3/view_8qc.html#af31e2da8f9f15c1d3665c6b48f04a6e0',1,'EFMASK_CHEAP():&#160;view.qc'],['../d9/de7/server_2constants_8qh.html#af31e2da8f9f15c1d3665c6b48f04a6e0',1,'EFMASK_CHEAP():&#160;constants.qh']]],
   ['eight_5fvars_5fto_5fvarargs_5fvarlist',['EIGHT_VARS_TO_VARARGS_VARLIST',['../dc/de5/common_2notifications_2all_8qh.html#a7d0f0d2bef7f5dea91eafc4181b9b045',1,'all.qh']]],
-  ['empty',['EMPTY',['../d7/d61/misc_8qh.html#a4ddebc5712d39b71767e3dceb9bfb74b',1,'misc.qh']]],
+  ['empty',['EMPTY',['../d3/dc9/macro_8qh.html#a4ddebc5712d39b71767e3dceb9bfb74b',1,'macro.qh']]],
   ['end_5fcheat_5ffunction',['END_CHEAT_FUNCTION',['../d6/de9/cheats_8qc.html#a0855c2033688949050b4c7ae6b26f7e1',1,'cheats.qc']]],
   ['endclass',['ENDCLASS',['../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f',1,'oo.qh']]],
   ['endswith',['endsWith',['../d2/db4/string_8qh.html#a17ef0c21cbd07ec53d7dee826fa3814d',1,'string.qh']]],

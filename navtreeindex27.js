@@ -1,5 +1,8 @@
 var NAVTREEINDEX27 =
 {
+"d3/dc9/macro_8qh.html#af65fab440cca3f4f31b60a9955b79c14":[2,0,3,27,0],
+"d3/dc9/macro_8qh_source.html":[2,0,3,27],
+"d3/dca/cheats_8qh.html":[2,0,5,16],
 "d3/dca/cheats_8qh.html#a04ede6834b82bb3efbfcd4961fbc6f54":[2,0,5,16,4],
 "d3/dca/cheats_8qh.html#a0bb834c275268bdf1e60ea2ec84732a5":[2,0,5,16,7],
 "d3/dca/cheats_8qh.html#a1549477544784a0c7e5134dbd72b3a28":[2,0,5,16,0],
@@ -143,8 +146,8 @@ var NAVTREEINDEX27 =
 "d3/dd0/self_8qh.html#a15aa1aefc40b6101fd278636531103d1":[2,0,3,45,5],
 "d3/dd0/self_8qh.html#a203e953e46ef05b0373f8bccaeb5378c":[2,0,3,45,19],
 "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,3,45,14],
-"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,3,45,16],
 "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,3,45,15],
+"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,3,45,16],
 "d3/dd0/self_8qh.html#a259aac00ed43fd7ac58196b770963525":[2,0,3,45,7],
 "d3/dd0/self_8qh.html#a29c098c7bd67a60d2dd9d94db782aaa6":[2,0,3,45,0],
 "d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8":[2,0,3,45,26],
@@ -159,8 +162,8 @@ var NAVTREEINDEX27 =
 "d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e":[2,0,3,45,10],
 "d3/dd0/self_8qh.html#a67d774342afa7b21a0a7e1f56aff0b39":[2,0,3,45,32],
 "d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84":[2,0,3,45,41],
-"d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,3,45,18],
 "d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,3,45,17],
+"d3/dd0/self_8qh.html#a809e5b0d69b8d3056599a3fb6f878d2c":[2,0,3,45,18],
 "d3/dd0/self_8qh.html#a8484d4f5e006ca0f417b35001c23b862":[2,0,3,45,40],
 "d3/dd0/self_8qh.html#a8cf690d1eb06e607e0380d5006d8e623":[2,0,3,45,8],
 "d3/dd0/self_8qh.html#a8f449f6d685c66917146e83e94085a4b":[2,0,3,45,24],
@@ -246,8 +249,5 @@ var NAVTREEINDEX27 =
 "d3/dd8/item_2inputbox_8qc.html#a26693b829ccd5dc957992de275dcd0af":[2,0,4,2,14,0],
 "d3/dd8/item_2inputbox_8qc.html#a3b9b7eac7a90b461c02546a4dca4b081":[2,0,4,2,14,4],
 "d3/dd8/item_2inputbox_8qc.html#a43061ec5225224fc7b69fa5357d9307c":[2,0,4,2,14,9],
-"d3/dd8/item_2inputbox_8qc.html#a49bef98eed0d8adbdd2fb98fa91ee9dd":[2,0,4,2,14,2],
-"d3/dd8/item_2inputbox_8qc.html#a567d9eab0b2ab1696332207dd9c70d47":[2,0,4,2,14,11],
-"d3/dd8/item_2inputbox_8qc.html#a60436757c6d69cb56d6735e105abc26e":[2,0,4,2,14,10],
-"d3/dd8/item_2inputbox_8qc.html#a67a0a57aff853efae41fed820318fa4d":[2,0,4,2,14,12]
+"d3/dd8/item_2inputbox_8qc.html#a49bef98eed0d8adbdd2fb98fa91ee9dd":[2,0,4,2,14,2]
 };

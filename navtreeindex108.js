@@ -1,5 +1,7 @@
 var NAVTREEINDEX108 =
 {
+"dd/de4/g__damage_8qh.html#a6534f0acc37233f3a5df239b34433641":[2,0,5,26,46],
+"dd/de4/g__damage_8qh.html#a6fa1a68d8d18ee269438276ad351c0e9":[2,0,5,26,4],
 "dd/de4/g__damage_8qh.html#a705ff21e2e789e10d1eeb3bd16f97c86":[2,0,5,26,19],
 "dd/de4/g__damage_8qh.html#a71cbd3b7045074352ef5de0d1711f3d6":[2,0,5,26,42],
 "dd/de4/g__damage_8qh.html#a74daa10bad1c56e1437c1e00c20f98df":[2,0,5,26,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX108 =
 "de/d16/breakablehook_8qc.html":[2,0,1,9,0,1,2],
 "de/d16/breakablehook_8qc_source.html":[2,0,1,9,0,1,2],
 "de/d18/skinlist_8qh.html":[2,0,4,4,201],
-"de/d18/skinlist_8qh.html#a16b63352a9c176ab5927ba98c258ff13":[2,0,4,4,201,2],
-"de/d18/skinlist_8qh.html#a50af8ad199b479f08528e1cd4281bcca":[2,0,4,4,201,1],
-"de/d18/skinlist_8qh_source.html":[2,0,4,4,201]
+"de/d18/skinlist_8qh.html#a16b63352a9c176ab5927ba98c258ff13":[2,0,4,4,201,2]
 };

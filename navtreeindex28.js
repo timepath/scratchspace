@@ -1,5 +1,8 @@
 var NAVTREEINDEX28 =
 {
+"d3/dd8/item_2inputbox_8qc.html#a567d9eab0b2ab1696332207dd9c70d47":[2,0,4,2,14,11],
+"d3/dd8/item_2inputbox_8qc.html#a60436757c6d69cb56d6735e105abc26e":[2,0,4,2,14,10],
+"d3/dd8/item_2inputbox_8qc.html#a67a0a57aff853efae41fed820318fa4d":[2,0,4,2,14,12],
 "d3/dd8/item_2inputbox_8qc.html#a7fe3245dcc015464115feaf8f99f6cfd":[2,0,4,2,14,13],
 "d3/dd8/item_2inputbox_8qc.html#a8c4345d0dd45bcb33c0802e73ef52857":[2,0,4,2,14,1],
 "d3/dd8/item_2inputbox_8qc.html#aa342d33098b8e83a96a9a6381f5dbc43":[2,0,4,2,14,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX28 =
 "d3/dfc/csqcmodel__hooks_8qh.html#af5d9150d839fcdb63c8f337949ee149c":[2,0,0,14,8],
 "d3/dfc/csqcmodel__hooks_8qh_source.html":[2,0,0,14],
 "d4/d08/mutators_2mutator_2touchexplode_2module_8inc.html":[2,0,1,9,0,28,2],
-"d4/d08/mutators_2mutator_2touchexplode_2module_8inc_source.html":[2,0,1,9,0,28,2],
-"d4/d09/classXonoticCheckBoxString.html":[1,0,130],
-"d4/d09/classXonoticCheckBoxString.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,130,71],
-"d4/d09/classXonoticCheckBoxString.html#a10cf88734594fed24be93889407c0bda":[1,0,130,13]
+"d4/d08/mutators_2mutator_2touchexplode_2module_8inc_source.html":[2,0,1,9,0,28,2]
 };

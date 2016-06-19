@@ -1,5 +1,7 @@
 var NAVTREEINDEX102 =
 {
+"dc/de9/classXonoticRootDialog.html#af88a81fd25020e249716d851c0c127bf":[1,0,207,49],
+"dc/de9/classXonoticRootDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,207,28],
 "dc/de9/classXonoticRootDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,207,2],
 "dc/de9/classXonoticRootDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,207,26],
 "dc/de9/classXonoticRootDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,207,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX102 =
 "dd/d2d/teleporters_8qh.html#a8191bdd7dbc71b40f3a90cfa4b41dee8":[2,0,1,13,13,3],
 "dd/d2d/teleporters_8qh.html#a81fd4ead0a476556c12fb89d6bd9d834":[2,0,1,13,13,6],
 "dd/d2d/teleporters_8qh.html#a883996b20943d07115cb929039dd0956":[2,0,1,13,13,4],
-"dd/d2d/teleporters_8qh.html#a8fdd5e6e5b177edb086c3c0e182c8ebd":[2,0,1,13,13,18],
-"dd/d2d/teleporters_8qh.html#a967ae5431f5c5d9e24e40d9ed5247a58":[2,0,1,13,13,13],
-"dd/d2d/teleporters_8qh.html#a9696bb78a5df12ebbbcc6302d17f30f1":[2,0,1,13,13,0]
+"dd/d2d/teleporters_8qh.html#a8fdd5e6e5b177edb086c3c0e182c8ebd":[2,0,1,13,13,18]
 };

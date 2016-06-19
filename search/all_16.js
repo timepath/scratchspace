@@ -50,6 +50,7 @@ var searchData=
   ['vec_5fhull_5fmin',['VEC_HULL_MIN',['../d4/d92/csqc__constants_8qh.html#a13bb669d9edcf92ecb053c4e52def090',1,'VEC_HULL_MIN():&#160;csqc_constants.qh'],['../d4/d0c/csprogsdefs_8qc.html#a6061df53a00838e733076cdafe6be501',1,'VEC_HULL_MIN():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a6061df53a00838e733076cdafe6be501',1,'VEC_HULL_MIN():&#160;progsdefs.qc']]],
   ['vec_5fm1',['VEC_M1',['../d4/d92/csqc__constants_8qh.html#aa0a023a0a2e6897fcdd65ecdd620ee17',1,'VEC_M1():&#160;csqc_constants.qh'],['../d4/d0c/csprogsdefs_8qc.html#aa0a023a0a2e6897fcdd65ecdd620ee17',1,'VEC_M1():&#160;csprogsdefs.qc']]],
   ['vec_5forigin',['VEC_ORIGIN',['../d6/d11/progsdefs_8qc.html#ab44a9145b91ebd7373ec4794a20b3c62',1,'progsdefs.qc']]],
+  ['vec_5freflect',['vec_reflect',['../de/dcb/vector_8qh.html#ae07842a43fda046e42c04c0709a05774',1,'vector.qh']]],
   ['vec_5fto_5fmax',['vec_to_max',['../d6/df6/p2mathlib_8qc.html#a875d7a7b329786023ebc459d17bd8a65',1,'vec_to_max(vector a, vector b):&#160;p2mathlib.qc'],['../d1/d84/p2mathlib_8qh.html#a875d7a7b329786023ebc459d17bd8a65',1,'vec_to_max(vector a, vector b):&#160;p2mathlib.qc']]],
   ['vec_5fto_5fmin',['vec_to_min',['../d6/df6/p2mathlib_8qc.html#a6e59da4f99ce576ea9e82655549b1e77',1,'vec_to_min(vector a, vector b):&#160;p2mathlib.qc'],['../d1/d84/p2mathlib_8qh.html#a6e59da4f99ce576ea9e82655549b1e77',1,'vec_to_min(vector a, vector b):&#160;p2mathlib.qc']]],
   ['vectoangles',['vectoangles',['../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c',1,'menudefs.qc']]],

@@ -15,7 +15,7 @@ var searchData=
   ['debugpathing',['DEBUGPATHING',['../d9/d86/server_2pathlib_2__all_8inc.html#ac484531f596092c0ab17f29b14dbeab4',1,'DEBUGPATHING():&#160;_all.inc'],['../dd/d96/server_2progs_8inc.html#ac484531f596092c0ab17f29b14dbeab4',1,'DEBUGPATHING():&#160;progs.inc']]],
   ['dec_5fto_5fhexdigit',['DEC_TO_HEXDIGIT',['../d2/db4/string_8qh.html#ab9cc51225f98703626978ab0de95744b',1,'string.qh']]],
   ['def',['DEF',['../dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862',1,'effectinfo.qc']]],
-  ['defer',['DEFER',['../d7/d61/misc_8qh.html#a4985e8f93ec4d844193bad891e1ea0c2',1,'misc.qh']]],
+  ['defer',['DEFER',['../d3/dc9/macro_8qh.html#a4985e8f93ec4d844193bad891e1ea0c2',1,'macro.qh']]],
   ['delete',['delete',['../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f',1,'oo.qh']]],
   ['demand',['demand',['../db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37',1,'log.qh']]],
   ['deprecate',['deprecate',['../d3/d46/mapinfo_8qc.html#a802a9dfeae2a8991ff7b3dbf754abb66',1,'mapinfo.qc']]],

@@ -100,7 +100,7 @@ var searchData=
   ['eliminatedplayers_5finit',['EliminatedPlayers_Init',['../dc/dc6/server_2miscfunctions_8qc.html#aa721e0361c092a5999388d9ce9c707ce',1,'EliminatedPlayers_Init(float(entity) isEliminated_func):&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#aa721e0361c092a5999388d9ce9c707ce',1,'EliminatedPlayers_Init(float(entity) isEliminated_func):&#160;miscfunctions.qc']]],
   ['eliminatedplayers_5fsendentity',['EliminatedPlayers_SendEntity',['../dc/dc6/server_2miscfunctions_8qc.html#a6f15ae777c8a50be8876911f3462b901',1,'miscfunctions.qc']]],
   ['elos',['elos',['../d5/d26/server_2defs_8qh.html#a65753b65c65ad0b16e617a146b280ab2',1,'defs.qh']]],
-  ['empty',['EMPTY',['../d7/d61/misc_8qh.html#a4ddebc5712d39b71767e3dceb9bfb74b',1,'misc.qh']]],
+  ['empty',['EMPTY',['../d3/dc9/macro_8qh.html#a4ddebc5712d39b71767e3dceb9bfb74b',1,'macro.qh']]],
   ['emptylineheight',['emptyLineHeight',['../d4/d91/classXonoticCampaignList.html#a2b2f90f331d59f5f3f24a6e2c2774306',1,'XonoticCampaignList']]],
   ['enableclearbutton',['enableClearButton',['../d1/dec/classInputBox.html#aa5740db50a312bf11ac7cae59ba7587d',1,'InputBox']]],
   ['encryptlabel',['encryptLabel',['../da/db7/classXonoticServerInfoDialog.html#a71ca4efb4da0f175eca113d836f1bd68',1,'XonoticServerInfoDialog']]],

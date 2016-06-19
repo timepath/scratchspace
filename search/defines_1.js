@@ -43,6 +43,7 @@ var searchData=
   ['argv_5fend_5findex',['argv_end_index',['../d3/d9e/dpextensions_8qh.html#a3596f9ca40a1cecf3e9eafa08267fb9a',1,'dpextensions.qh']]],
   ['argv_5fstart_5findex',['argv_start_index',['../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2',1,'dpextensions.qh']]],
   ['armor_5fh',['ARMOR_H',['../d7/d60/armor_8qh.html#a8daf875934439dcfc11de0d810ec643f',1,'armor.qh']]],
+  ['array_5findex',['ARRAY_INDEX',['../d2/d65/unsafe_8qh.html#a367f4ecbbd2ed63286f3cc88d044c9c6',1,'unsafe.qh']]],
   ['assert',['assert',['../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0',1,'log.qh']]],
   ['assert_5feq',['ASSERT_EQ',['../d4/d5b/test_8qh.html#ad806a5e5813ea769dc2edbb5f6e3949d',1,'test.qh']]],
   ['assert_5ffalse',['ASSERT_FALSE',['../d4/d5b/test_8qh.html#a8197fa52f3538588d20d8af4834c9003',1,'test.qh']]],

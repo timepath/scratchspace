@@ -21,6 +21,7 @@ var vector_8qh =
     [ "randompos", "de/dcb/vector_8qh.html#afa1e5c0be263a77e0c71292ab0a4dd74", null ],
     [ "reflect", "de/dcb/vector_8qh.html#ab167fa7c81f4d5f3092673b05f07c8a3", null ],
     [ "rotate", "de/dcb/vector_8qh.html#af51ffe2b6a299102846ea3cb80677406", null ],
+    [ "vec_reflect", "de/dcb/vector_8qh.html#ae07842a43fda046e42c04c0709a05774", null ],
     [ "vlen_maxnorm2d", "de/dcb/vector_8qh.html#a1b150f420429d9c4768f3c23e637fbe4", null ],
     [ "vlen_minnorm2d", "de/dcb/vector_8qh.html#a33d068763f2580642c8616327a6a567a", null ],
     [ "_vdist_f", "de/dcb/vector_8qh.html#a91a59967a63be9474049e3767741975b", null ],
