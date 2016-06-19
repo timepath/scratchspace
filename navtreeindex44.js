@@ -1,6 +1,5 @@
 var NAVTREEINDEX44 =
 {
-"d5/d73/classXonoticEffectsSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,147,26],
 "d5/d73/classXonoticEffectsSettingsTab.html#afc52860717e88454d9c1eb3479b510f3":[1,0,147,60],
 "d5/d73/classXonoticEffectsSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,147,30],
 "d5/d73/classXonoticEffectsSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,147,81],
@@ -249,5 +248,6 @@ var NAVTREEINDEX44 =
 "d5/dac/g__damage_8qc.html#afc5e9270d0757dc47de743b6bd4e33dc":[2,0,5,25,6],
 "d5/dac/g__damage_8qc.html#afd7d0f110617f66bd6efce062d5d16e7":[2,0,5,25,2],
 "d5/dac/g__damage_8qc.html#aff28c78124853cc6ad4f9f330588e1d3":[2,0,5,25,12],
-"d5/dac/g__damage_8qc_source.html":[2,0,5,25]
+"d5/dac/g__damage_8qc_source.html":[2,0,5,25],
+"d5/db0/teleport_8qc.html":[2,0,1,13,3,31]
 };

@@ -9,7 +9,7 @@ var sv__main_8qc =
     [ "PM_Main", "d3/d4f/sv__main_8qc.html#a74e5ff6bc326f8675b3ecef777e458bf", null ],
     [ "RedirectionThink", "d3/d4f/sv__main_8qc.html#a562ca164f7d8783b2be2864ba5fdc6f5", null ],
     [ "StartFrame", "d3/d4f/sv__main_8qc.html#a554af7e2ac58045168dad9eca30bc8b1", null ],
-    [ "SV_OnEntityPreSpawnFunction", "d3/d4f/sv__main_8qc.html#a42773c8b99307feab90a9613c838cfd3", null ],
+    [ "SV_OnEntityPreSpawnFunction", "d3/d4f/sv__main_8qc.html#aaeee7cc678766015fe1abcdf876ee80e", null ],
     [ "SV_PausedTic", "d3/d4f/sv__main_8qc.html#aa4933ac98289b020b6a16d889f8c4e04", null ],
     [ "WarpZone_PostInitialize_Callback", "d3/d4f/sv__main_8qc.html#a4dc5316f2758ed54f716d22cf319ca8b", null ],
     [ "anglejitter", "d3/d4f/sv__main_8qc.html#a11a7125cdd8248d341e7a0c14ab5f2e8", null ],

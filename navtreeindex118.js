@@ -1,7 +1,5 @@
 var NAVTREEINDEX118 =
 {
-"df/d6e/classXonoticSingleplayerDialog.html#a67d95732d49da439095483530aca8804":[1,0,219,42],
-"df/d6e/classXonoticSingleplayerDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,219,70],
 "df/d6e/classXonoticSingleplayerDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,219,7],
 "df/d6e/classXonoticSingleplayerDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,219,58],
 "df/d6e/classXonoticSingleplayerDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,219,14],
@@ -207,10 +205,10 @@ var NAVTREEINDEX118 =
 "df/d8c/cl__cmd_8qc.html#ac1a03af5c66e122f2e7ab5298a3df6f0":[2,0,0,0,4,33],
 "df/d8c/cl__cmd_8qc.html#ac6ad4f76e1fab870cd7b34e038a0a6c0":[2,0,0,0,4,14],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,4,20],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,4,1],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,4,3],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,4,0],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,4,2],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,4,0],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,4,1],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,4,30],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,4,27],
 "df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7":[2,0,0,0,4,4],
@@ -249,5 +247,7 @@ var NAVTREEINDEX118 =
 "df/d92/classXonoticWinnerDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,235,19],
 "df/d92/classXonoticWinnerDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,235,35],
 "df/d92/classXonoticWinnerDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,235,45],
-"df/d92/classXonoticWinnerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,235,1]
+"df/d92/classXonoticWinnerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,235,1],
+"df/d92/classXonoticWinnerDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,235,68],
+"df/d92/classXonoticWinnerDialog.html#a455e7d027ecf57c638002faff2b30786":[1,0,235,77]
 };

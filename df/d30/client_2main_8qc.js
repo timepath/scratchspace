@@ -2,8 +2,8 @@ var client_2main_8qc =
 [
     [ "DP_CSQC_ENTITY_REMOVE_IS_B0RKED", "df/d30/client_2main_8qc.html#a829c94418af5c1e25d9beef673e25f94", null ],
     [ "ConsoleCommand_macro_init", "df/d30/client_2main_8qc.html#ab2acfe6a73bd0d158e3e9a62b9185725", null ],
-    [ "CSQC_Ent_Remove", "df/d30/client_2main_8qc.html#a2f9a2ac6dcac9c66386af75738fb9055", null ],
-    [ "CSQC_Ent_Update", "df/d30/client_2main_8qc.html#a4662b6210aacc7fd0d5102f47033de99", null ],
+    [ "CSQC_Ent_Remove", "df/d30/client_2main_8qc.html#a9b635841c31e627a3854f61176533152", null ],
+    [ "CSQC_Ent_Update", "df/d30/client_2main_8qc.html#a46d8c3e096c855bf3690956e9ba1e862", null ],
     [ "CSQC_Init", "df/d30/client_2main_8qc.html#ae7a71c50fddc1b6cede7022e0304a3fe", null ],
     [ "CSQC_InputEvent", "df/d30/client_2main_8qc.html#a374deadb3d19478a9370dff0c498c6e6", null ],
     [ "CSQC_Parse_CenterPrint", "df/d30/client_2main_8qc.html#a14c98f605ea44a820ec9c04575f50b59", null ],

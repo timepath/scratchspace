@@ -1,7 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"d9/d8c/classWaypoint.html#a7a687a0ab5a9f2299f6a4b93862834fc":[1,0,118,4],
-"d9/d8c/classWaypoint.html#a7fb0da7f48c80ed9ae8e124a319a2e94":[1,0,118,7],
 "d9/d8c/classWaypoint.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,118,2],
 "d9/d8c/classWaypoint.html#abe42e95092e4d122f39586a740325ce5":[1,0,118,5],
 "d9/d8c/classWaypoint.html#af3482425b308c3fb38fc4809dc1c103d":[1,0,118,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX76 =
 "d9/dca/classXonoticCommandButton.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,134,18],
 "d9/dca/classXonoticCommandButton.html#a1f71e31fd265ca4fba4bccee3a807b09":[1,0,134,22],
 "d9/dca/classXonoticCommandButton.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,134,40],
-"d9/dca/classXonoticCommandButton.html#a219794f05db5fb4f09f9f9d747ef8d71":[1,0,134,58]
+"d9/dca/classXonoticCommandButton.html#a219794f05db5fb4f09f9f9d747ef8d71":[1,0,134,58],
+"d9/dca/classXonoticCommandButton.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,134,77],
+"d9/dca/classXonoticCommandButton.html#a257f9c325381f4b29b5c7acbaa0ba5ae":[1,0,134,11]
 };

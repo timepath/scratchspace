@@ -1,7 +1,5 @@
 var NAVTREEINDEX107 =
 {
-"dd/dac/dialog__hudsetup__exit_8qc_source.html":[2,0,4,4,82],
-"dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh.html":[2,0,1,9,0,13,1],
 "dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh_source.html":[2,0,1,9,0,13,1],
 "dd/db3/classXonoticQuitDialog.html":[1,0,202],
 "dd/db3/classXonoticQuitDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,202,21],
@@ -130,12 +128,12 @@ var NAVTREEINDEX107 =
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,3,0,10,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,3,0,10,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,3,0,10,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,3,0,10,1],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,3,0,10,0],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,3,0,10,1],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,3,0,10,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,3,0,10,12],
-"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,3,0,10,3],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,3,0,10,2],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,3,0,10,3],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,3,0,10,5],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,3,0,10,4],
 "dd/dd5/sv__model_8qc_source.html":[2,0,3,0,10],
@@ -249,5 +247,7 @@ var NAVTREEINDEX107 =
 "dd/de4/g__damage_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b":[2,0,5,26,28],
 "dd/de4/g__damage_8qh.html#a51f04829b917db9ab7e7d7cac5fddfdb":[2,0,5,26,3],
 "dd/de4/g__damage_8qh.html#a54e85ad9f5560a23de3bd54026021b06":[2,0,5,26,16],
-"dd/de4/g__damage_8qh.html#a64738b481406cc272dd606819dae9523":[2,0,5,26,35]
+"dd/de4/g__damage_8qh.html#a64738b481406cc272dd606819dae9523":[2,0,5,26,35],
+"dd/de4/g__damage_8qh.html#a6534f0acc37233f3a5df239b34433641":[2,0,5,26,46],
+"dd/de4/g__damage_8qh.html#a6fa1a68d8d18ee269438276ad351c0e9":[2,0,5,26,4]
 };

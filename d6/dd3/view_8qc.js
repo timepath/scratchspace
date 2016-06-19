@@ -19,7 +19,7 @@ var view_8qc =
     [ "cl_notice_run", "d6/dd3/view_8qc.html#ad5f49ec90c9ceef32b83384adb22926a", null ],
     [ "crosshair_getcolor", "d6/dd3/view_8qc.html#ae12e2fa9f814f4f88da1d5259fd4721f", null ],
     [ "CSQC_Demo_Camera", "d6/dd3/view_8qc.html#ac0eccd9b13288ed3d95f702c5021088b", null ],
-    [ "CSQC_UpdateView", "d6/dd3/view_8qc.html#a81988f477288f983a88861116f948d25", null ],
+    [ "CSQC_UpdateView", "d6/dd3/view_8qc.html#a7b9e2c12c6a461c93afb197bd1a93c8f", null ],
     [ "EnemyHitCheck", "d6/dd3/view_8qc.html#a2267e78c3964ccff16a7c2135a595efd", null ],
     [ "GetCurrentFov", "d6/dd3/view_8qc.html#ace032fe34dac088829a239dcea5d9a28", null ],
     [ "GetOrthoviewFOV", "d6/dd3/view_8qc.html#a3ea9f138fb2b9c31233274c9aaa01574", null ],

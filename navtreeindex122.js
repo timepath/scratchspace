@@ -1,7 +1,5 @@
 var NAVTREEINDEX122 =
 {
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0c478135eb70f406c6a0b87529556e98":[1,0,209,24],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0cb9ce568f3ffd87c5388045540c4eb6":[1,0,209,63],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a0cdefa43305a32e38b127bde32dbce26":[1,0,209,32],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a10f084ce6991717bfb4153928818feba":[1,0,209,14],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a12cae2879a01520f0d08f21a673a4d3f":[1,0,209,1],
@@ -200,8 +198,8 @@ var NAVTREEINDEX122 =
 "dir_fe472327f69aa9464440251988e1566b.html":[2,0,1,8],
 "dir_ff27e448fac324d88c702b7803ed56f3.html":[2,0,1,9,0,28],
 "files.html":[2,0],
-"functions.html":[1,3,0],
 "functions.html":[1,3,0,0],
+"functions.html":[1,3,0],
 "functions_a.html":[1,3,0,1],
 "functions_b.html":[1,3,0,2],
 "functions_c.html":[1,3,0,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX122 =
 "functions_vars.html":[1,3,2],
 "functions_vars.html":[1,3,2,0],
 "functions_vars_b.html":[1,3,2,1],
-"functions_vars_c.html":[1,3,2,2]
+"functions_vars_c.html":[1,3,2,2],
+"functions_vars_d.html":[1,3,2,3],
+"functions_vars_e.html":[1,3,2,4]
 };

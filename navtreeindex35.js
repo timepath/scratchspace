@@ -1,6 +1,5 @@
 var NAVTREEINDEX35 =
 {
-"d4/d56/classHunterKillerAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,44,5],
 "d4/d56/classHunterKillerAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,44,35],
 "d4/d56/classHunterKillerAttack.html#acb2c8b283e96f05859e34cfd49480d08":[1,0,44,26],
 "d4/d56/classHunterKillerAttack.html#ad033f23932f202bddd926ed5b366336c":[1,0,44,27],
@@ -249,5 +248,6 @@ var NAVTREEINDEX35 =
 "d4/d87/classHagar.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,36,12],
 "d4/d87/classHagar.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,36,10],
 "d4/d87/classHagar.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,36,3],
-"d4/d87/classHagar.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,36,8]
+"d4/d87/classHagar.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,36,8],
+"d4/d87/classHagar.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,36,34]
 };

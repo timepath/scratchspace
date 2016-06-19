@@ -1,7 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"db/d7f/effectinfo_8inc.html#a946838042d395f93734ef336d5217c4e":[2,0,1,2,7,207],
-"db/d7f/effectinfo_8inc.html#a95126a57424b9dd6988ced6eb1022e8d":[2,0,1,2,7,16],
 "db/d7f/effectinfo_8inc.html#a9553d398e5f520241d4421fb754618d5":[2,0,1,2,7,204],
 "db/d7f/effectinfo_8inc.html#a95aa7487302abdff73ce1cefa1db87f5":[2,0,1,2,7,176],
 "db/d7f/effectinfo_8inc.html#a97c09bed87e53cdd47a65a2a0a65058d":[2,0,1,2,7,96],
@@ -249,5 +247,7 @@ var NAVTREEINDEX90 =
 "db/d93/cl__minigames__hud_8qh.html":[2,0,1,6,6],
 "db/d93/cl__minigames__hud_8qh.html#a37471c48a64ef28cb37a09cf9ab0c3d0":[2,0,1,6,6,2],
 "db/d93/cl__minigames__hud_8qh.html#a9b32b9dd292b391dd29f6f8bdcf5b8e2":[2,0,1,6,6,0],
-"db/d93/cl__minigames__hud_8qh.html#ac4b5b084e2ab882cddcd934fa216f94b":[2,0,1,6,6,1]
+"db/d93/cl__minigames__hud_8qh.html#ac4b5b084e2ab882cddcd934fa216f94b":[2,0,1,6,6,1],
+"db/d93/cl__minigames__hud_8qh_source.html":[2,0,1,6,6],
+"db/d9d/common_2vehicles_2vehicle_2__mod_8qh.html":[2,0,1,15,0,1]
 };

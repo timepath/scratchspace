@@ -14,7 +14,6 @@ var teamplay_8qh =
     [ "SetPlayerColors", "d2/d76/teamplay_8qh.html#a113b95feba1c451c0a411ec54eb29eab", null ],
     [ "SetPlayerTeam", "d2/d76/teamplay_8qh.html#ac136f59a979d6dd099a07e254408aed3", null ],
     [ "ShufflePlayerOutOfTeam", "d2/d76/teamplay_8qh.html#a50d3aefd0207c123d11252f5fdddcf0d", null ],
-    [ "SV_ChangeTeam", "d2/d76/teamplay_8qh.html#ab97b3ede5a63f9c1bea93890ad20fa37", null ],
     [ "TeamchangeFrags", "d2/d76/teamplay_8qh.html#a3bdfe5e750a8a5e86992d4f95eca7585", null ],
     [ "TeamSmallerEqThanTeam", "d2/d76/teamplay_8qh.html#a373ac0ded9ef3174275a0d82d32d6def", null ],
     [ "blueowned", "d2/d76/teamplay_8qh.html#a00a259cdb2e894c98ce9a0d027fbee31", null ],

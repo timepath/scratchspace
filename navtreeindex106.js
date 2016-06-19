@@ -1,7 +1,5 @@
 var NAVTREEINDEX106 =
 {
-"dd/d9a/classXonoticSandboxToolsDialog.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,208,74],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,208,70],
 "dd/d9a/classXonoticSandboxToolsDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,208,56],
 "dd/d9a/classXonoticSandboxToolsDialog.html#aa1abab97698c6f13909d1791611312cb":[1,0,208,59],
 "dd/d9a/classXonoticSandboxToolsDialog.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,208,47],
@@ -249,5 +247,7 @@ var NAVTREEINDEX106 =
 "dd/daa/g__lights_8qc.html#af2fa133f7e214360915d1ecac346c6ee":[2,0,5,29,2],
 "dd/daa/g__lights_8qc_source.html":[2,0,5,29],
 "dd/dac/dialog__hudsetup__exit_8qc.html":[2,0,4,4,82],
-"dd/dac/dialog__hudsetup__exit_8qc.html#a9402798b381818975e745a6b27052d0b":[2,0,4,4,82,0]
+"dd/dac/dialog__hudsetup__exit_8qc.html#a9402798b381818975e745a6b27052d0b":[2,0,4,4,82,0],
+"dd/dac/dialog__hudsetup__exit_8qc_source.html":[2,0,4,4,82],
+"dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh.html":[2,0,1,9,0,13,1]
 };

@@ -1,7 +1,5 @@
 var NAVTREEINDEX65 =
 {
-"d7/de6/classXonoticSkinList.html#a82217d761797df8a2e65054eab910734":[1,0,220,10],
-"d7/de6/classXonoticSkinList.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,220,66],
 "d7/de6/classXonoticSkinList.html#a83868d33860b10fc35033a3f584b16bf":[1,0,220,49],
 "d7/de6/classXonoticSkinList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,220,44],
 "d7/de6/classXonoticSkinList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,220,14],
@@ -249,5 +247,7 @@ var NAVTREEINDEX65 =
 "d8/d0e/lazy_8qh_source.html":[2,0,3,24],
 "d8/d0f/gamemode__assault_8qh.html":[2,0,5,2,0,3],
 "d8/d0f/gamemode__assault_8qh_source.html":[2,0,5,2,0,3],
-"d8/d12/classRaptor.html":[1,0,89]
+"d8/d12/classRaptor.html":[1,0,89],
+"d8/d12/classRaptor.html#a06439f934271f5c5223cbf583f539feb":[1,0,89,21],
+"d8/d12/classRaptor.html#a127bbb3521b618343bb4ca069e63090f":[1,0,89,15]
 };

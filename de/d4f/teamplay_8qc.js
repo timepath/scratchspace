@@ -14,7 +14,7 @@ var teamplay_8qc =
     [ "SetPlayerColors", "de/d4f/teamplay_8qc.html#a113b95feba1c451c0a411ec54eb29eab", null ],
     [ "SetPlayerTeam", "de/d4f/teamplay_8qc.html#ac136f59a979d6dd099a07e254408aed3", null ],
     [ "ShufflePlayerOutOfTeam", "de/d4f/teamplay_8qc.html#a50d3aefd0207c123d11252f5fdddcf0d", null ],
-    [ "SV_ChangeTeam", "de/d4f/teamplay_8qc.html#ab97b3ede5a63f9c1bea93890ad20fa37", null ],
+    [ "SV_ChangeTeam", "de/d4f/teamplay_8qc.html#a521eb2e16efc843dcba746b6964d3515", null ],
     [ "TeamchangeFrags", "de/d4f/teamplay_8qc.html#a3bdfe5e750a8a5e86992d4f95eca7585", null ],
     [ "TeamSmallerEqThanTeam", "de/d4f/teamplay_8qc.html#a373ac0ded9ef3174275a0d82d32d6def", null ]
 ];
