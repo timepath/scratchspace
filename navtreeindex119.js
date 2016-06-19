@@ -1,5 +1,8 @@
 var NAVTREEINDEX119 =
 {
+"df/d92/classXonoticWinnerDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,235,1],
+"df/d92/classXonoticWinnerDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,235,68],
+"df/d92/classXonoticWinnerDialog.html#a455e7d027ecf57c638002faff2b30786":[1,0,235,77],
 "df/d92/classXonoticWinnerDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,235,66],
 "df/d92/classXonoticWinnerDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,235,12],
 "df/d92/classXonoticWinnerDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,235,39],
@@ -160,8 +163,8 @@ var NAVTREEINDEX119 =
 "df/d9b/menu_2xonotic_2util_8qc.html#acd3accc18b1eb532a2ac7cdc24a3510a":[2,0,4,4,226,40],
 "df/d9b/menu_2xonotic_2util_8qc.html#acec3f9953edac61d0ea8bb0c013539cc":[2,0,4,4,226,63],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad1f36d07e4a66476224966394f1e24e5":[2,0,4,4,226,44],
-"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,4,4,226,0],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,4,4,226,1],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,4,4,226,0],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad481dfa3a9518c9669a0fcc1da77758f":[2,0,4,4,226,8],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556":[2,0,4,4,226,4],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad87ced1edd45c581dd684b4054fd8ea5":[2,0,4,4,226,73],
@@ -246,8 +249,5 @@ var NAVTREEINDEX119 =
 "df/dae/player_8qh.html#a3823e7faa5111ca7142b61cc6dfce354":[2,0,1,11,7,6],
 "df/dae/player_8qh.html#a3aaa42a2b4ab57536e12c907d2f99629":[2,0,1,11,7,66],
 "df/dae/player_8qh.html#a3fe11e0eaa42c3b7557cd166b338ba6f":[2,0,1,11,7,38],
-"df/dae/player_8qh.html#a400e8df3b3286c389b6fa2b8a140aa9e":[2,0,1,11,7,64],
-"df/dae/player_8qh.html#a40c44391c0f82f2337714a3bb8babd1e":[2,0,1,11,7,15],
-"df/dae/player_8qh.html#a40c67f235c369a3d7a4d77832bbd72e2":[2,0,1,11,7,74],
-"df/dae/player_8qh.html#a474aef55d6cec710626f9d4d7139117f":[2,0,1,11,7,35]
+"df/dae/player_8qh.html#a400e8df3b3286c389b6fa2b8a140aa9e":[2,0,1,11,7,64]
 };

@@ -1,5 +1,8 @@
 var NAVTREEINDEX115 =
 {
+"de/de7/classXonoticHUDItemsTimeDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,165,77],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a12af1ac54f710966679ab6b40cc3005d":[1,0,165,49],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,165,37],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,165,15],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,165,6],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,165,67],
@@ -246,8 +249,5 @@ var NAVTREEINDEX115 =
 "df/d0f/classSpiderbot.html#a58f0c04e5979c92f1d5329627cbf1331":[1,0,105,3],
 "df/d0f/classSpiderbot.html#a65029f9f9de70ed0d698c691eca5d3bb":[1,0,105,14],
 "df/d0f/classSpiderbot.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,105,1],
-"df/d0f/classSpiderbot.html#a796a48c5130ff90921f7d0481cbad311":[1,0,105,17],
-"df/d0f/classSpiderbot.html#a7be8577cc39bd77fb2f7d7b8ce689856":[1,0,105,22],
-"df/d0f/classSpiderbot.html#a8b4907c9dabea91e3148878459bce9e5":[1,0,105,0],
-"df/d0f/classSpiderbot.html#a91f922352c8e6ca7b9b56617c530b8b4":[1,0,105,8]
+"df/d0f/classSpiderbot.html#a796a48c5130ff90921f7d0481cbad311":[1,0,105,17]
 };
