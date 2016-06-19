@@ -146,7 +146,7 @@ var searchData=
   ['pflags_5ffulldynamic',['PFLAGS_FULLDYNAMIC',['../d4/d0c/csprogsdefs_8qc.html#afe832d82b00bba67d5ec400a0d10642d',1,'PFLAGS_FULLDYNAMIC():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#a575bdffa4e3ca33b35c5336d4f1048c8',1,'PFLAGS_FULLDYNAMIC():&#160;dpextensions.qc']]],
   ['pflags_5fnoshadow',['PFLAGS_NOSHADOW',['../d4/d0c/csprogsdefs_8qc.html#a42d45f2345e55961ef7019d005e47378',1,'PFLAGS_NOSHADOW():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#a32f85d5c5515f42f18ce813dd069cbc0',1,'PFLAGS_NOSHADOW():&#160;dpextensions.qc']]],
   ['phase',['phase',['../d5/d26/server_2defs_8qh.html#a275dd6dafe5d4455e599ffd15feb06f8',1,'defs.qh']]],
-  ['physics_5fupdate_5ftime',['physics_update_time',['../d3/d8a/physics_8qc.html#aa1e6fa55ef2dc2744dc9438b1c8cc6d1',1,'physics.qc']]],
+  ['physics_5fupdate_5ftime',['physics_update_time',['../d5/d83/client_2hud_2panel_2physics_8qc.html#aa1e6fa55ef2dc2744dc9438b1c8cc6d1',1,'physics.qc']]],
   ['pi',['PI',['../d4/d0c/csprogsdefs_8qc.html#a4c43e2b8db2027e48251350d972a39c2',1,'PI():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#a4c43e2b8db2027e48251350d972a39c2',1,'PI():&#160;dpextensions.qc']]],
   ['pickup_5fcrosshair_5fsize',['pickup_crosshair_size',['../d6/dd3/view_8qc.html#a1afd02b330a8504e37c4bcf9cb8aa019',1,'view.qc']]],
   ['pickup_5fcrosshair_5ftime',['pickup_crosshair_time',['../d6/dd3/view_8qc.html#a4139dcc8a682c3e71ccc20d5771da397',1,'view.qc']]],

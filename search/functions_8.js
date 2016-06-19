@@ -123,7 +123,7 @@ var searchData=
   ['hud_5fpanel_5fmouse',['HUD_Panel_Mouse',['../dc/d90/hud__config_8qc.html#a272f972366e65bdb7303c3d43e397c31',1,'HUD_Panel_Mouse():&#160;hud_config.qc'],['../dd/dcd/hud__config_8qh.html#a272f972366e65bdb7303c3d43e397c31',1,'HUD_Panel_Mouse():&#160;hud_config.qc']]],
   ['hud_5fpanel_5fsetpos',['HUD_Panel_SetPos',['../dc/d90/hud__config_8qc.html#abbf6988934c32970ae4faf465defcc5b',1,'hud_config.qc']]],
   ['hud_5fpanel_5fsetpossize',['HUD_Panel_SetPosSize',['../dc/d90/hud__config_8qc.html#a8139f676a2c372ad00642651cf828e98',1,'hud_config.qc']]],
-  ['hud_5fphysics',['HUD_Physics',['../d3/d8a/physics_8qc.html#ac8cc1c5ddb1bf262f00de667ba2124db',1,'physics.qc']]],
+  ['hud_5fphysics',['HUD_Physics',['../d5/d83/client_2hud_2panel_2physics_8qc.html#ac8cc1c5ddb1bf262f00de667ba2124db',1,'physics.qc']]],
   ['hud_5fpowerups',['HUD_Powerups',['../df/db0/powerups_8qc.html#af6eb40a51e45bc6e790aaee84dc7e486',1,'powerups.qc']]],
   ['hud_5fpressedkeys',['HUD_PressedKeys',['../d9/d1d/pressedkeys_8qc.html#aeb4f632e893362d73c1d012a28477a70',1,'pressedkeys.qc']]],
   ['hud_5fprintscoreboarditem',['HUD_PrintScoreboardItem',['../d3/d07/scoreboard_8qc.html#a7d0311aff51c8cc863a2780ad5252a7e',1,'scoreboard.qc']]],
