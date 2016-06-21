@@ -991,7 +991,7 @@ $(document).ready(function(){initNavTree('da/d10/sv__vehicles_8qc_source.html','
 <div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;</div>
 <div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;    <span class="keywordflow">if</span>(autocvar_g_vehicles_enter) <span class="comment">// vehicle&#39;s touch function should handle this if entering via use key is disabled (TODO)</span></div>
 <div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;    <span class="keywordflow">if</span>(veh.vehicle_flags &amp; <a class="code" href="../../d1/d4b/vehicle_8qh.html#a4d3bab724336dd66fb7fe41afa3b7b93">VHF_MULTISLOT</a>)</div>
-<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;    <span class="keywordflow">if</span>(veh.owner)</div>
+<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;    <span class="keywordflow">if</span>(veh.owner &amp;&amp; <a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(pl, veh))</div>
 <div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;    {</div>
 <div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;        <span class="keywordflow">if</span>(!veh.gunner1)</div>
 <div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= veh.gun1.phase)</div>
@@ -1548,7 +1548,7 @@ $(document).ready(function(){initNavTree('da/d10/sv__vehicles_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_041ec6f984a6b19402431933346033dd.html">vehicles</a></li><li class="navelem"><a class="el" href="../../da/d10/sv__vehicles_8qc.html">sv_vehicles.qc</a></li>
-    <li class="footer">Generated on Sun Jun 19 2016 19:27:18 for Xonotic by
+    <li class="footer">Generated on Tue Jun 21 2016 19:47:12 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
