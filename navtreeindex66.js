@@ -1,5 +1,7 @@
 var NAVTREEINDEX66 =
 {
+"d8/d0e/client_2mutators_2events_8qh.html#ad401df82de86be4f17b96f90e41f5171":[2,0,0,2,2,3],
+"d8/d0e/client_2mutators_2events_8qh.html#ae22c9ea63dc5a27519e320d6c35f98a7":[2,0,0,2,2,28],
 "d8/d0e/client_2mutators_2events_8qh.html#ae44e84858c630fe96b01114c016d883b":[2,0,0,2,2,22],
 "d8/d0e/client_2mutators_2events_8qh.html#ae63edee0bd54b8951776c743a63d1c2d":[2,0,0,2,2,21],
 "d8/d0e/client_2mutators_2events_8qh.html#aea3a2f390fc291608806c3dfe18f489a":[2,0,0,2,2,19],
@@ -173,10 +175,10 @@ var NAVTREEINDEX66 =
 "d8/d1b/ps_8qc.html#af9ac2e9c7f028072120baef71c275473":[2,0,1,6,0,8,9],
 "d8/d1b/ps_8qc_source.html":[2,0,1,6,0,8],
 "d8/d1d/cmd_8qc.html":[2,0,6,1,6],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,6,1],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,6,0],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,6,2],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,6,3],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,6,0],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,6,1],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,6,2],
 "d8/d1d/cmd_8qc.html#a0702129e58317d01f1e8a8f6d9d75ed9":[2,0,6,1,6,17],
 "d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665":[2,0,6,1,6,26],
 "d8/d1d/cmd_8qc.html#a0f2b9dadcca7d1430005c2ac984b79f4":[2,0,6,1,6,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "d8/d35/classXonoticHUDChatDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,159,15],
 "d8/d35/classXonoticHUDChatDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,159,6],
 "d8/d35/classXonoticHUDChatDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,159,67],
-"d8/d35/classXonoticHUDChatDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,159,58],
-"d8/d35/classXonoticHUDChatDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,159,63],
-"d8/d35/classXonoticHUDChatDialog.html#a1e3ab8541b20e732388c7f862af0bd8a":[1,0,159,13]
+"d8/d35/classXonoticHUDChatDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,159,58]
 };

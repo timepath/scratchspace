@@ -1,5 +1,11 @@
 var NAVTREEINDEX120 =
 {
+"df/da0/server_2mutators_2__mod_8inc.html":[2,0,6,2,1],
+"df/da0/server_2mutators_2__mod_8inc_source.html":[2,0,6,2,1],
+"df/da5/hk__weapon_8qh.html":[2,0,1,14,0,14],
+"df/da5/hk__weapon_8qh.html#a27198ad0c1cad8c8119ecefa9f52db07":[2,0,1,14,0,14,1],
+"df/da5/hk__weapon_8qh_source.html":[2,0,1,14,0,14],
+"df/da7/generic_8qc.html":[2,0,1,0,5],
 "df/da7/generic_8qc.html#a0215a2e3be5a266d25a830d2fff4f654":[2,0,1,0,5,1],
 "df/da7/generic_8qc.html#a12dcbba3e6ff93ce72cf69f1c6c18014":[2,0,1,0,5,25],
 "df/da7/generic_8qc.html#a22a6ea705477db6193737bb87b34fd28":[2,0,1,0,5,13],
@@ -243,11 +249,5 @@ var NAVTREEINDEX120 =
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,171,21],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,171,29],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,171,3],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,171,79],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,171,77],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,171,37],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,171,15],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,171,6],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,171,67],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,171,58]
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,171,79]
 };

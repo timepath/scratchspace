@@ -17,6 +17,8 @@ var client_2main_8qc =
     [ "Fog_Force", "df/d30/client_2main_8qc.html#a0ea74b0011b3f41a4e0f744608765323", null ],
     [ "Gamemode_Init", "df/d30/client_2main_8qc.html#a1074345dcdd4fb944413bf5ac575fd0b", null ],
     [ "getcommandkey", "df/d30/client_2main_8qc.html#acae6eac5dd85fe99004374e0f21a382d", null ],
+    [ "GetSpeedUnit", "df/d30/client_2main_8qc.html#a3a4d75b1666fc0c35a999aae66cf6fd2", null ],
+    [ "GetSpeedUnitFactor", "df/d30/client_2main_8qc.html#affd4aa7fbce73d395d146b6e164eb8e6", null ],
     [ "LoadMenuSkinValues", "df/d30/client_2main_8qc.html#a626fa4f891c177f48176172aac58dc39", null ],
     [ "NET_HANDLE", "df/d30/client_2main_8qc.html#a354256327d864c9cb61a6a33dcc7e9f3", null ],
     [ "NET_HANDLE", "df/d30/client_2main_8qc.html#a62cc679b39b73d92f0d09114fb2c20e2", null ],

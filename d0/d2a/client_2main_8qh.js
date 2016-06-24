@@ -9,6 +9,8 @@ var client_2main_8qh =
     [ "draw_cursor_normal", "d0/d2a/client_2main_8qh.html#a17432988ef7a28b058fec9318b29fea3", null ],
     [ "Fog_Force", "d0/d2a/client_2main_8qh.html#a0ea74b0011b3f41a4e0f744608765323", null ],
     [ "getcommandkey", "d0/d2a/client_2main_8qh.html#acae6eac5dd85fe99004374e0f21a382d", null ],
+    [ "GetSpeedUnit", "d0/d2a/client_2main_8qh.html#a3a4d75b1666fc0c35a999aae66cf6fd2", null ],
+    [ "GetSpeedUnitFactor", "d0/d2a/client_2main_8qh.html#affd4aa7fbce73d395d146b6e164eb8e6", null ],
     [ "LoadMenuSkinValues", "d0/d2a/client_2main_8qh.html#a626fa4f891c177f48176172aac58dc39", null ],
     [ "void", "d0/d2a/client_2main_8qh.html#a4d8754f6e0a5f44b483d7e15181d9503", null ],
     [ "activeweapon", "d0/d2a/client_2main_8qh.html#ae783da23fb4a6fdb51d1241a36f6ba94", null ],

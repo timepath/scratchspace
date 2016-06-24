@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"d0/d95/menudefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d":[2,0,2,4,14],
+"d0/d95/menudefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1":[2,0,2,4,3],
 "d0/d95/menudefs_8qh.html#aba00036f71bb67f8600b239a39cf5ec9":[2,0,2,4,10],
 "d0/d95/menudefs_8qh.html#ac1a171b131a08f023baadff0c00b1aa8":[2,0,2,4,15],
 "d0/d95/menudefs_8qh.html#ac5decd6a5d0583f4fd91499fc239da65":[2,0,2,4,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "d0/dcd/csqcprojectile_8qc.html#a7dd362a209016b884056e3a9846dc736":[2,0,6,4,6,5],
 "d0/dcd/csqcprojectile_8qc.html#a930c053bef0a4c6cddca21bd46cc40a0":[2,0,6,4,6,0],
 "d0/dcd/csqcprojectile_8qc.html#ae4d3ae90944ee0a34a21572d58c16df0":[2,0,6,4,6,4],
-"d0/dcd/csqcprojectile_8qc.html#aed339d1f915b2eb8e2b1f176016b9897":[2,0,6,4,6,6],
-"d0/dcd/csqcprojectile_8qc_source.html":[2,0,6,4,6],
-"d0/dce/dialog__hudpanel__engineinfo_8qc.html":[2,0,5,4,50]
+"d0/dcd/csqcprojectile_8qc.html#aed339d1f915b2eb8e2b1f176016b9897":[2,0,6,4,6,6]
 };

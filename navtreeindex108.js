@@ -1,5 +1,9 @@
 var NAVTREEINDEX108 =
 {
+"dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a65853f17e6b51ad5178ef33f1455339c":[2,0,1,9,0,31,2,13],
+"dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a668d88f31451b6465fa7163ffd4e5ca7":[2,0,1,9,0,31,2,25],
+"dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a6b8cdb17ed05f57015eeb89234f68eea":[2,0,1,9,0,31,2,0],
+"dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a6cafa6731a708001f789e055db45778c":[2,0,1,9,0,31,2,34],
 "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a702f02af08cfdcfd5b4e39bba4203102":[2,0,1,9,0,31,2,19],
 "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a72317a18842a448d73e8d66ce63175cb":[2,0,1,9,0,31,2,39],
 "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a75e1865f5d09586c7904c93186266aa0":[2,0,1,9,0,31,2,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX108 =
 "de/d03/effectinfo__vehicles_8inc.html#a6e8b5d06619e2732ccf93aa32a615fdd":[2,0,1,2,18,3],
 "de/d03/effectinfo__vehicles_8inc.html#a70c5f07e326b55aa60ad246ac640286f":[2,0,1,2,18,30],
 "de/d03/effectinfo__vehicles_8inc.html#a8045a1f84655dcb9d0a181d7c0425e95":[2,0,1,2,18,15],
-"de/d03/effectinfo__vehicles_8inc.html#a825f9d431c10a4167312612db025feb8":[2,0,1,2,18,22],
-"de/d03/effectinfo__vehicles_8inc.html#a85c16acf0e7c1349abc2bb45fb2f6b9e":[2,0,1,2,18,20],
-"de/d03/effectinfo__vehicles_8inc.html#a8a0bbf01005d983ee6a7d41871e43090":[2,0,1,2,18,19],
-"de/d03/effectinfo__vehicles_8inc.html#a90ad128c3e76dec7bb685eec376d0361":[2,0,1,2,18,11],
-"de/d03/effectinfo__vehicles_8inc.html#a933d6a505156b101e604416c70dd0cdc":[2,0,1,2,18,6]
+"de/d03/effectinfo__vehicles_8inc.html#a825f9d431c10a4167312612db025feb8":[2,0,1,2,18,22]
 };

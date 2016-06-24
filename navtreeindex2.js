@@ -1,5 +1,7 @@
 var NAVTREEINDEX2 =
 {
+"d0/d41/menu_8qh.html#a8b8dfe2335a5bf90695960dc6a1c5d3b":[2,0,5,16,34],
+"d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc":[2,0,5,16,30],
 "d0/d41/menu_8qh.html#a96321e4c0f85b2a1c6745a1a7da423d0":[2,0,5,16,6],
 "d0/d41/menu_8qh.html#a9fc19cb59a299c16ed665dc992bdaa1e":[2,0,5,16,0],
 "d0/d41/menu_8qh.html#aac7476ed4b7b54a9e8809d7082315069":[2,0,5,16,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX2 =
 "d0/d7b/classContainer.html#afc9428d371ed63dd0316db5558e81d30":[1,0,17,42],
 "d0/d7c/dialog__settings__user__languagewarning_8qh.html":[2,0,5,4,153],
 "d0/d7c/dialog__settings__user__languagewarning_8qh_source.html":[2,0,5,4,153],
-"d0/d7f/bumblebee_8qh.html":[2,0,1,15,0,3],
-"d0/d7f/bumblebee_8qh.html#a2a30908b7090502e80cc5103f2a16c1d":[2,0,1,15,0,3,0],
-"d0/d7f/bumblebee_8qh_source.html":[2,0,1,15,0,3]
+"d0/d7f/bumblebee_8qh.html":[2,0,1,15,0,3]
 };

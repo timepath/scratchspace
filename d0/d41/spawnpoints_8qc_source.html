@@ -359,16 +359,16 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">if</span>(spot.target != <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    {</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordtype">int</span> found = 0;</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <a class="code" href="../../d4/d18/iter_8qh.html#ad7fe88fd0110be973f33790914a7955c">FOREACH_ENTITY_STRING</a>(<a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, spot.target,</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = findchain(<a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, spot.target); targ; targ = targ.chain)</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        {</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            ++found;</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <span class="keywordflow">if</span>(it.spawn_evalfunc)</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <span class="keywordflow">if</span>(targ.spawn_evalfunc)</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            {</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                spawn_score = it.spawn_evalfunc(it, <span class="keyword">this</span>, spot, spawn_score);</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                spawn_score = targ.spawn_evalfunc(targ, <span class="keyword">this</span>, spot, spawn_score);</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                <span class="keywordflow">if</span>(spawn_score.x &lt; 0)</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                    <span class="keywordflow">return</span> spawn_score;</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            }</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        });</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        }</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keywordflow">if</span>(!found)</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        {</div>
@@ -533,7 +533,6 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00083">main.qh:83</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab0df318f2dece7f798ff4061cd67f9d2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a></div><div class="ttdeci">string vtos(vector v)</div></div>
 <div class="ttc" id="spawnpoints_8qc_html_a2a7af8ac3ec4cc48b002997881b2a491"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a2a7af8ac3ec4cc48b002997881b2a491">spawnpoint_use</a></div><div class="ttdeci">void spawnpoint_use(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00060">spawnpoints.qc:60</a></div></div>
-<div class="ttc" id="iter_8qh_html_ad7fe88fd0110be973f33790914a7955c"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ad7fe88fd0110be973f33790914a7955c">FOREACH_ENTITY_STRING</a></div><div class="ttdeci">#define FOREACH_ENTITY_STRING(fld, match, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00172">iter.qh:172</a></div></div>
 <div class="ttc" id="spawnpoints_8qc_html_a65f632ea7c75b704550b257f227230cb"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#a65f632ea7c75b704550b257f227230cb">SpawnEvent_Send</a></div><div class="ttdeci">bool SpawnEvent_Send(entity this, entity to, int sf)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00025">spawnpoints.qc:25</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a547834c4ecd381167ed13dfac82a31ec"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a547834c4ecd381167ed13dfac82a31ec">some_spawn_has_been_used</a></div><div class="ttdeci">float some_spawn_has_been_used</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00241">defs.qh:241</a></div></div>
 <div class="ttc" id="spawnpoints_8qc_html_aaac98f481535c16238cdfcb66cbbf625"><div class="ttname"><a href="../../d0/d41/spawnpoints_8qc.html#aaac98f481535c16238cdfcb66cbbf625">Spawn_WeightedPoint</a></div><div class="ttdeci">entity Spawn_WeightedPoint(entity firstspot, float lower, float upper, float exponent)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/spawnpoints_8qc_source.html#l00311">spawnpoints.qc:311</a></div></div>
@@ -594,7 +593,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d0/d41/spawnpoints_8qc.html">spawnpoints.qc</a></li>
-    <li class="footer">Generated on Wed Jun 22 2016 11:23:29 for Xonotic by
+    <li class="footer">Generated on Fri Jun 24 2016 09:58:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

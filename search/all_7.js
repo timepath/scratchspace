@@ -398,6 +398,8 @@ var searchData=
   ['getsendentity',['getSendEntity',['../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f',1,'self.qh']]],
   ['getskins',['getSkins',['../d7/de6/classXonoticSkinList.html#a6d827958af2597b0d05a3009745c67d5',1,'XonoticSkinList']]],
   ['getsounds',['getSounds',['../d1/d70/classXonoticSoundList.html#a2e708644616f29e33ac117899d49d700',1,'XonoticSoundList']]],
+  ['getspeedunit',['GetSpeedUnit',['../df/d30/client_2main_8qc.html#a3a4d75b1666fc0c35a999aae66cf6fd2',1,'GetSpeedUnit(int speed_unit):&#160;main.qc'],['../d0/d2a/client_2main_8qh.html#a3a4d75b1666fc0c35a999aae66cf6fd2',1,'GetSpeedUnit(int speed_unit):&#160;main.qc']]],
+  ['getspeedunitfactor',['GetSpeedUnitFactor',['../df/d30/client_2main_8qc.html#affd4aa7fbce73d395d146b6e164eb8e6',1,'GetSpeedUnitFactor(int speed_unit):&#160;main.qc'],['../d0/d2a/client_2main_8qh.html#affd4aa7fbce73d395d146b6e164eb8e6',1,'GetSpeedUnitFactor(int speed_unit):&#160;main.qc']]],
   ['getstats',['getStats',['../d0/d25/classXonoticStatsList.html#a0f330e33068490aa3a9e090a4246c141',1,'XonoticStatsList']]],
   ['gettagindex',['gettagindex',['../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8',1,'dpextensions.qh']]],
   ['gettaginfo_5fforward',['gettaginfo_forward',['../d4/d0c/csprogsdefs_8qc.html#a7a57b349372d6133ce38600c1a35963d',1,'gettaginfo_forward():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#a7a57b349372d6133ce38600c1a35963d',1,'gettaginfo_forward():&#160;dpextensions.qc']]],

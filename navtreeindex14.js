@@ -1,5 +1,7 @@
 var NAVTREEINDEX14 =
 {
+"d2/d14/item_2slider_8qc.html#abea68a03aad5e0ddf0276009e78e938a":[2,0,5,2,28,1],
+"d2/d14/item_2slider_8qc.html#add8b2b2a765f0134e8cbdb630755b265":[2,0,5,2,28,2],
 "d2/d14/item_2slider_8qc_source.html":[2,0,5,2,28],
 "d2/d1a/bobbing_8qc.html":[2,0,1,13,0,2],
 "d2/d1a/bobbing_8qc_source.html":[2,0,1,13,0,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX14 =
 "d2/d42/classXonoticUserbindEditDialog.html#ae3e12bc0a99ba27300c59b262f2b1114":[1,0,230,22],
 "d2/d42/classXonoticUserbindEditDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,230,92],
 "d2/d42/classXonoticUserbindEditDialog.html#ae676cafc90aafafacde63ac5c260bffa":[1,0,230,54],
-"d2/d42/classXonoticUserbindEditDialog.html#aecf1183987a5ee94c8415be41768de92":[1,0,230,76],
-"d2/d42/classXonoticUserbindEditDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,230,63],
-"d2/d42/classXonoticUserbindEditDialog.html#af1aab403dc54575707fd57991312b201":[1,0,230,37]
+"d2/d42/classXonoticUserbindEditDialog.html#aecf1183987a5ee94c8415be41768de92":[1,0,230,76]
 };

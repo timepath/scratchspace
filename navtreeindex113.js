@@ -1,5 +1,9 @@
 var NAVTREEINDEX113 =
 {
+"de/d75/t__items_8qh.html#af21163508864ba5bd996fca1eac2ff99":[2,0,1,42,9],
+"de/d75/t__items_8qh.html#af5715a489b6913f66c9e2ca0724e30c2":[2,0,1,42,7],
+"de/d75/t__items_8qh.html#af873b578ad2a156e2270bc93fa0fb417":[2,0,1,42,6],
+"de/d75/t__items_8qh.html#afd04d39459d8be708b46e92d07ae7f8e":[2,0,1,42,0],
 "de/d75/t__items_8qh_source.html":[2,0,1,42],
 "de/d76/common_2mutators_2mutator_2doublejump_2__mod_8qh.html":[2,0,1,9,0,8,1],
 "de/d76/common_2mutators_2mutator_2doublejump_2__mod_8qh_source.html":[2,0,1,9,0,8,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX113 =
 "de/d95/classEffectInfo.html":[1,0,25],
 "de/d95/classEffectInfo.html#a37d2c021ca1abd3145fbd147505e92fe":[1,0,25,3],
 "de/d95/classEffectInfo.html#a5852b610d1a9def4c34eb4ec749834f6":[1,0,25,4],
-"de/d95/classEffectInfo.html#a8242ac14f0f12e7dfe151951333faf82":[1,0,25,0],
-"de/d95/classEffectInfo.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,25,2],
-"de/d95/classEffectInfo.html#afd551afac097fdbeeabde98c8aa1bfc8":[1,0,25,1],
-"de/d99/common_2minigames_2minigame_2all_8qh.html":[2,0,1,6,0,2],
-"de/d99/common_2minigames_2minigame_2all_8qh.html#aa0ff481414c04850bd6f6b1a205d81cd":[2,0,1,6,0,2,0]
+"de/d95/classEffectInfo.html#a8242ac14f0f12e7dfe151951333faf82":[1,0,25,0]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX96 =
 {
+"dc/d1c/weapon_8qh.html#a823fa59ed5af69da8b4af13e01ee203c":[2,0,1,16,10,43],
+"dc/d1c/weapon_8qh.html#a8291d5f4c89b48b838806f5f916d137e":[2,0,1,16,10,35],
+"dc/d1c/weapon_8qh.html#a87d0aa72ac92f39e8380f2f3d7cb4e68":[2,0,1,16,10,24],
+"dc/d1c/weapon_8qh.html#a8cb060a205a71010c7ccc6bc72ba5331":[2,0,1,16,10,42],
 "dc/d1c/weapon_8qh.html#a908d57b826ca581e66255d228e1a7666":[2,0,1,16,10,4],
 "dc/d1c/weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2":[2,0,1,16,10,32],
 "dc/d1c/weapon_8qh.html#a9fa363812785dc498d10c39607bbbb9d":[2,0,1,16,10,26],
@@ -245,9 +249,5 @@ var NAVTREEINDEX96 =
 "dc/d3d/csqcmodel__hooks_8qc.html":[2,0,0,13],
 "dc/d3d/csqcmodel__hooks_8qc.html#a03e325439a3c7e40dda1730cd4251a4c":[2,0,0,13,1],
 "dc/d3d/csqcmodel__hooks_8qc.html#a0f179309458eca2fb0e79ee5a321e603":[2,0,0,13,53],
-"dc/d3d/csqcmodel__hooks_8qc.html#a0f670f407a9b5fc0eacd05397b50271d":[2,0,0,13,46],
-"dc/d3d/csqcmodel__hooks_8qc.html#a10c749ede6f047340b6fdb31bc63c728":[2,0,0,13,37],
-"dc/d3d/csqcmodel__hooks_8qc.html#a10da39b48aa5194f2a1bfb05ad5d8a7e":[2,0,0,13,23],
-"dc/d3d/csqcmodel__hooks_8qc.html#a17a6c58f046d5ba0a992704a55bee50e":[2,0,0,13,50],
-"dc/d3d/csqcmodel__hooks_8qc.html#a1bd92a536c5f5a353c528a891ba39b20":[2,0,0,13,42]
+"dc/d3d/csqcmodel__hooks_8qc.html#a0f670f407a9b5fc0eacd05397b50271d":[2,0,0,13,46]
 };

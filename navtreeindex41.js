@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"d5/d00/c4_8qc_source.html":[2,0,1,6,0,4],
+"d5/d05/xonotic_2dialog_8qh.html":[2,0,5,4,39],
 "d5/d05/xonotic_2dialog_8qh.html#a2f5c24df66604b59586902a5b11c2a6f":[2,0,5,4,39,1],
 "d5/d05/xonotic_2dialog_8qh_source.html":[2,0,5,4,39],
 "d5/d06/speaker_8qc.html":[2,0,1,13,2,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "d5/d26/server_2defs_8qh.html#aaf6a1390ff1690e6bc1aa7d336fde3b9":[2,0,6,24,147],
 "d5/d26/server_2defs_8qh.html#aaf6a15488255d175853227438f389670":[2,0,6,24,184],
 "d5/d26/server_2defs_8qh.html#ab2f5ceae940caa9d4ef34c8a3cc6aefb":[2,0,6,24,5],
-"d5/d26/server_2defs_8qh.html#ab449c96dec12874833ce78d1027bbbe2":[2,0,6,24,187],
-"d5/d26/server_2defs_8qh.html#ab4e063f23a289dbd487ac3a04d5be465":[2,0,6,24,263],
-"d5/d26/server_2defs_8qh.html#ab5b2a2a960bb6836122eaf53b7e85610":[2,0,6,24,38]
+"d5/d26/server_2defs_8qh.html#ab449c96dec12874833ce78d1027bbbe2":[2,0,6,24,187]
 };
