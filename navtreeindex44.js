@@ -1,5 +1,9 @@
 var NAVTREEINDEX44 =
 {
+"d5/d73/classXonoticEffectsSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,147,59],
+"d5/d73/classXonoticEffectsSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,147,16],
+"d5/d73/classXonoticEffectsSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,147,48],
+"d5/d73/classXonoticEffectsSettingsTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,147,28],
 "d5/d73/classXonoticEffectsSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,147,2],
 "d5/d73/classXonoticEffectsSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,147,26],
 "d5/d73/classXonoticEffectsSettingsTab.html#afc52860717e88454d9c1eb3479b510f3":[1,0,147,60],
@@ -207,7 +211,7 @@ var NAVTREEINDEX44 =
 "d5/d99/classVaporizer.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,113,20],
 "d5/d99/classVaporizer.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,113,15],
 "d5/da1/ladder_8qc.html":[2,0,1,13,0,14],
-"d5/da1/ladder_8qc.html#a9f463a025973b3109be94d51de974941":[2,0,1,13,0,14,0],
+"d5/da1/ladder_8qc.html#aa26991a4996c0369c2f5c5d19eaf26f2":[2,0,1,13,0,14,0],
 "d5/da1/ladder_8qc_source.html":[2,0,1,13,0,14],
 "d5/da4/classTeslaCoil.html":[1,0,108],
 "d5/da4/classTeslaCoil.html#a021d563019c7abb5d891dc8ff1204556":[1,0,108,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX44 =
 "d5/dac/g__damage_8qc.html#a2d30d51fdeb3f05c8ade32e74ca54a7c":[2,0,6,25,9],
 "d5/dac/g__damage_8qc.html#a30b6dcb0a5e148d3961cad10abdaf5af":[2,0,6,25,14],
 "d5/dac/g__damage_8qc.html#a377b547a7053468290f13dffb6342b89":[2,0,6,25,16],
-"d5/dac/g__damage_8qc.html#a54e85ad9f5560a23de3bd54026021b06":[2,0,6,25,15],
-"d5/dac/g__damage_8qc.html#a6fa1a68d8d18ee269438276ad351c0e9":[2,0,6,25,4],
-"d5/dac/g__damage_8qc.html#a705ff21e2e789e10d1eeb3bd16f97c86":[2,0,6,25,18],
-"d5/dac/g__damage_8qc.html#a8203a172d47f7017f4e4be49ed0cddb8":[2,0,6,25,7],
-"d5/dac/g__damage_8qc.html#a82dca72f39db8edb61a18ed8f3cef721":[2,0,6,25,19]
+"d5/dac/g__damage_8qc.html#a54e85ad9f5560a23de3bd54026021b06":[2,0,6,25,15]
 };

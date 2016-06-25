@@ -388,6 +388,8 @@ var searchData=
   ['sv_5fentnum',['sv_entnum',['../d9/d08/client_2defs_8qh.html#a8036e7ff202b8dfa10a7e15e849bebe7',1,'sv_entnum():&#160;defs.qh'],['../da/df5/common_2debug_8qh.html#a8036e7ff202b8dfa10a7e15e849bebe7',1,'sv_entnum():&#160;debug.qh']]],
   ['sv_5ffoginterval',['sv_foginterval',['../d5/d26/server_2defs_8qh.html#add7081edbedfbaa312bac65f498b505d',1,'defs.qh']]],
   ['sv_5fmaxidle',['sv_maxidle',['../d5/d26/server_2defs_8qh.html#a4e22b61752e463874c9d52899496ce54',1,'defs.qh']]],
+  ['sv_5fmaxidle_5fslots',['sv_maxidle_slots',['../d5/d26/server_2defs_8qh.html#a149e3869acd1111237a465d9d4a5edb2',1,'defs.qh']]],
+  ['sv_5fmaxidle_5fslots_5fcountbots',['sv_maxidle_slots_countbots',['../d5/d26/server_2defs_8qh.html#a6e0ff495c3850f44c069191c51b4fb25',1,'defs.qh']]],
   ['sv_5fmaxidle_5fspectatorsareidle',['sv_maxidle_spectatorsareidle',['../d5/d26/server_2defs_8qh.html#a9e03aaab2a1cfc05664c6a5db7bbb4cd',1,'defs.qh']]],
   ['sv_5ftaunt',['sv_taunt',['../dc/d73/server_2miscfunctions_8qh.html#a661fb52ae1f9a87572eb3820462ca1eb',1,'miscfunctions.qh']]],
   ['svc_5fcdtrack',['SVC_CDTRACK',['../d6/d11/progsdefs_8qc.html#a4b1877a2e000116c2f88ef2aac42a540',1,'progsdefs.qc']]],

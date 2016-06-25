@@ -9,7 +9,7 @@ var client_8qc =
     [ "WarpZone_FixPMove", "d3/d0e/client_8qc.html#a441061149623ecc221416e51bb17c337", null ],
     [ "WarpZone_FixView", "d3/d0e/client_8qc.html#ae0b24f16471241165896f8ef99213be5", null ],
     [ "WarpZone_Shutdown", "d3/d0e/client_8qc.html#ae5f8c1940ba6ccc011c2d4e99f733874", null ],
-    [ "WarpZone_Touch", "d3/d0e/client_8qc.html#a15f0aaba4d6b4bc5d0a614df9a9149d9", null ],
+    [ "WarpZone_Touch", "d3/d0e/client_8qc.html#aed3158abfa5d076da43023711521d169", null ],
     [ "WarpZone_View_Inside", "d3/d0e/client_8qc.html#abeb07031623afbfcb1e815119e202613", null ],
     [ "WarpZone_View_Outside", "d3/d0e/client_8qc.html#a18508bf93d97584800184066cf8e520a", null ],
     [ "autocvar_cl_rollkillspeed", "d3/d0e/client_8qc.html#ab3f2a27bbe165bde5440cb0ab617a0da", null ],

@@ -1,5 +1,9 @@
 var NAVTREEINDEX73 =
 {
+"d9/d0d/centerprint_8qh.html":[2,0,0,1,0,5],
+"d9/d0d/centerprint_8qh_source.html":[2,0,0,1,0,5],
+"d9/d0d/common_2weapons_2all_8inc.html":[2,0,1,16,3],
+"d9/d0d/common_2weapons_2all_8inc_source.html":[2,0,1,16,3],
 "d9/d0f/statslist_8qc.html":[2,0,5,4,216],
 "d9/d0f/statslist_8qc.html#a0b75bd265231a0fd729a4742fed2e697":[2,0,5,4,216,1],
 "d9/d0f/statslist_8qc.html#a0e6f823da74c1662ccbcb890681e0993":[2,0,5,4,216,7],
@@ -245,9 +249,5 @@ var NAVTREEINDEX73 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,210,2],
 "d9/d37/classXonoticScreenshotBrowserTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,210,27],
 "d9/d37/classXonoticScreenshotBrowserTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,210,31],
-"d9/d37/classXonoticScreenshotBrowserTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,210,85],
-"d9/d39/wyvern_8qc.html":[2,0,1,8,0,5],
-"d9/d39/wyvern_8qc.html#a008c8acc59d809efb5a33604711389e9":[2,0,1,8,0,5,3],
-"d9/d39/wyvern_8qc.html#a403dc2825d9834bb6749c4e013cc2da5":[2,0,1,8,0,5,5],
-"d9/d39/wyvern_8qc.html#a49b48f682d3855c94caf3ab2d5bf1765":[2,0,1,8,0,5,2]
+"d9/d37/classXonoticScreenshotBrowserTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,210,85]
 };

@@ -22,12 +22,14 @@ var sv__vehicles_8qc =
     [ "vehicles_frame", "da/d10/sv__vehicles_8qc.html#adcd2f4aae690f6a2f0f947ec75b03fe0", null ],
     [ "vehicles_gib_explode", "da/d10/sv__vehicles_8qc.html#a97a9fd22e536b33a55e88bb56fdb5ee1", null ],
     [ "vehicles_gib_think", "da/d10/sv__vehicles_8qc.html#ae4ad6ead0893944940ce66bd17ca9375", null ],
+    [ "vehicles_gib_touch", "da/d10/sv__vehicles_8qc.html#ac5f4b60f4f1bce9de8e73d862f42beff", null ],
     [ "vehicles_impact", "da/d10/sv__vehicles_8qc.html#a092be05e296a14ac0cb1e22b3e0786d8", null ],
     [ "vehicles_locktarget", "da/d10/sv__vehicles_8qc.html#afd879692d8ef40010a2dddb2080a722f", null ],
     [ "vehicles_painframe", "da/d10/sv__vehicles_8qc.html#a92cdd7efbcdaa3cf61dc0991746a2b74", null ],
     [ "vehicles_projectile", "da/d10/sv__vehicles_8qc.html#a6e5c573964dc1f64a84660225655a8db", null ],
     [ "vehicles_projectile_damage", "da/d10/sv__vehicles_8qc.html#a273647a01e01dd4856fb4c6d2eec0c49", null ],
-    [ "vehicles_projectile_explode", "da/d10/sv__vehicles_8qc.html#a49866c50c6ad916515cc5cd47d745fd8", null ],
+    [ "vehicles_projectile_explode", "da/d10/sv__vehicles_8qc.html#a72196919d56a565921774b27b5788785", null ],
+    [ "vehicles_projectile_explode_think", "da/d10/sv__vehicles_8qc.html#ab6d5900a2dde193aa46c678c04258373", null ],
     [ "vehicles_projectile_explode_use", "da/d10/sv__vehicles_8qc.html#ad8fab4bff1fd3bd8871f5141c39085ad", null ],
     [ "vehicles_regen", "da/d10/sv__vehicles_8qc.html#a4bd38526315a441269cae0d44943d01d", null ],
     [ "vehicles_reset_colors", "da/d10/sv__vehicles_8qc.html#a5c938575dbcb274a8ec0ac03ebd61fa0", null ],
@@ -37,5 +39,5 @@ var sv__vehicles_8qc =
     [ "vehicles_showwp_goaway", "da/d10/sv__vehicles_8qc.html#a0c8f69e9962a7863d7d9a19fdd3bcb37", null ],
     [ "vehicles_spawn", "da/d10/sv__vehicles_8qc.html#a9be836b28cd841ff63b259fe3291693e", null ],
     [ "vehicles_think", "da/d10/sv__vehicles_8qc.html#a849a38f311767a9e206e878bec7932ed", null ],
-    [ "vehicles_touch", "da/d10/sv__vehicles_8qc.html#adf61a258006c1263b132563ef3788b29", null ]
+    [ "vehicles_touch", "da/d10/sv__vehicles_8qc.html#a2bce3d35334f0f1d42dcfb694b1df6af", null ]
 ];

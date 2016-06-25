@@ -1,10 +1,10 @@
 var race_8qc =
 [
     [ "checkpoint_passed", "d6/d3b/race_8qc.html#a168c20261636613428331b1f27301d1a", null ],
-    [ "checkpoint_touch", "d6/d3b/race_8qc.html#a29295d82f97f287865a5d996f792aab7", null ],
+    [ "checkpoint_touch", "d6/d3b/race_8qc.html#ad0f21c42c7cf67ac5eb85b091e0c8e29", null ],
     [ "checkpoint_use", "d6/d3b/race_8qc.html#a8b0b69d2df015a448c6049b2c9f21acd", null ],
     [ "dumpsurface", "d6/d3b/race_8qc.html#a1a63a0ea8f06ab407823765692190a81", null ],
-    [ "penalty_touch", "d6/d3b/race_8qc.html#a389fa2476df1f3cb395eb9c3df25175e", null ],
+    [ "penalty_touch", "d6/d3b/race_8qc.html#afaee8bdf5a2621ea0c05289b99d7c8d4", null ],
     [ "penalty_use", "d6/d3b/race_8qc.html#ae0d09d4e517c88ca30552c90e3068557", null ],
     [ "race_AbandonRaceCheck", "d6/d3b/race_8qc.html#ae0c5dbe57d8a837df10255bee683ff10", null ],
     [ "race_CheckpointNetworkID", "d6/d3b/race_8qc.html#a07f5a365308af71c65a9e965564932f4", null ],

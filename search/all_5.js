@@ -309,7 +309,7 @@ var searchData=
   ['ewheelattack',['EWheelAttack',['../d1/dc3/classEWheelAttack.html',1,'']]],
   ['ex',['eX',['../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27',1,'vector.qh']]],
   ['exacttrigger_5finit',['EXACTTRIGGER_INIT',['../d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0',1,'common.qh']]],
-  ['exacttrigger_5ftouch',['EXACTTRIGGER_TOUCH',['../d7/d71/lib_2warpzone_2common_8qh.html#aafa3ae74c44012515bfa1dc1c20b37df',1,'common.qh']]],
+  ['exacttrigger_5ftouch',['EXACTTRIGGER_TOUCH',['../d7/d71/lib_2warpzone_2common_8qh.html#a14f4fc2c65ce6e5be0cc8b508e29139f',1,'common.qh']]],
   ['execute_5fnext_5fframe',['execute_next_frame',['../da/d44/common_2util_8qc.html#a1947b4b6a690f32caa5364746c7526c6',1,'execute_next_frame():&#160;util.qc'],['../d5/df2/common_2util_8qh.html#a1947b4b6a690f32caa5364746c7526c6',1,'execute_next_frame():&#160;util.qc']]],
   ['exp',['exp',['../df/d38/mathlib_8qc.html#a9b5b75b78eff58c7f376e3ce51e9fdfd',1,'exp(float x):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a9b5b75b78eff58c7f376e3ce51e9fdfd',1,'exp(float x):&#160;mathlib.qc']]],
   ['exp2',['exp2',['../df/d38/mathlib_8qc.html#ad3d26d2e9cffef45a500fd1f8d2bc516',1,'exp2(float x):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#ad3d26d2e9cffef45a500fd1f8d2bc516',1,'exp2(float x):&#160;mathlib.qc']]],

@@ -242,6 +242,8 @@ var server_2defs_8qh =
     [ "sv_clones", "d5/d26/server_2defs_8qh.html#aa67674d07a79fc8a0d5f198664a2e69d", null ],
     [ "sv_foginterval", "d5/d26/server_2defs_8qh.html#add7081edbedfbaa312bac65f498b505d", null ],
     [ "sv_maxidle", "d5/d26/server_2defs_8qh.html#a4e22b61752e463874c9d52899496ce54", null ],
+    [ "sv_maxidle_slots", "d5/d26/server_2defs_8qh.html#a149e3869acd1111237a465d9d4a5edb2", null ],
+    [ "sv_maxidle_slots_countbots", "d5/d26/server_2defs_8qh.html#a6e0ff495c3850f44c069191c51b4fb25", null ],
     [ "sv_maxidle_spectatorsareidle", "d5/d26/server_2defs_8qh.html#a9e03aaab2a1cfc05664c6a5db7bbb4cd", null ],
     [ "team1_score", "d5/d26/server_2defs_8qh.html#a61dca3692d72d0907a6d1fbcf8eceffe", null ],
     [ "team2_score", "d5/d26/server_2defs_8qh.html#a7842f55f287798e9c9e22677cbb65de6", null ],

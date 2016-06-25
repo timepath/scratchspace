@@ -33,14 +33,15 @@ var self_8qh =
     [ "walkmove", "d3/dd0/self_8qh.html#a624c0216024b958a39da9130aaf8c959", null ],
     [ "WITHSELF", "d3/dd0/self_8qh.html#a0a6ed21815e6b8d3ff58b8559ec08c87", null ],
     [ "SELFWRAP", "d3/dd0/self_8qh.html#a67d774342afa7b21a0a7e1f56aff0b39", null ],
-    [ "SELFWRAP", "d3/dd0/self_8qh.html#af2aafe08ab50049173f03ab7bd903382", null ],
-    [ "SELFWRAP", "d3/dd0/self_8qh.html#ae54832f2ab3f75feeee87d610625bf26", null ],
+    [ "SELFWRAP", "d3/dd0/self_8qh.html#a90b5e633a3a3f7c7b00e0eb875f296ee", null ],
+    [ "SELFWRAP", "d3/dd0/self_8qh.html#a490147f51456054cf1a4774eb0da19f5", null ],
     [ "SELFWRAP", "d3/dd0/self_8qh.html#add5e4b09fb5166b1d4bd33d5435c40aa", null ],
     [ "__self", "d3/dd0/self_8qh.html#afbc5d1d66fe421c0d2eef50e8f8bf902", null ],
     [ "_selftemp", "d3/dd0/self_8qh.html#ace5065346de94dacc037daf771ec60ea", null ],
     [ "ang", "d3/dd0/self_8qh.html#acbd0a0d5d29bb6850278ebb75b4349ca", null ],
     [ "org", "d3/dd0/self_8qh.html#a9cd821b89f6b3d683d8f7a1537d77795", null ],
     [ "this", "d3/dd0/self_8qh.html#a8484d4f5e006ca0f417b35001c23b862", null ],
+    [ "toucher", "d3/dd0/self_8qh.html#ab00c8adb7cf42f84d6d530532c46fa57", null ],
     [ "vector", "d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84", null ],
     [ "void", "d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686", null ]
 ];

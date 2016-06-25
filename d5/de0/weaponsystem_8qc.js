@@ -3,7 +3,7 @@ var weaponsystem_8qc =
     [ "CL_ExteriorWeaponentity_Think", "d5/de0/weaponsystem_8qc.html#adaf855bb86ef53119fa756a62e6127be", null ],
     [ "CL_SpawnWeaponentity", "d5/de0/weaponsystem_8qc.html#ab0182526137001da7d750d97f9cba4e0", null ],
     [ "CL_Weapon_GetShotOrg", "d5/de0/weaponsystem_8qc.html#a5ca7d3daca601e9736aaeb92905987f0", null ],
-    [ "CL_Weaponentity_CustomizeEntityForClient", "d5/de0/weaponsystem_8qc.html#ad1c977b6347f80df95a2c1336e9079fb", null ],
+    [ "CL_Weaponentity_CustomizeEntityForClient", "d5/de0/weaponsystem_8qc.html#aec5e2aede6ee988407e695b747aa1577", null ],
     [ "CL_Weaponentity_Think", "d5/de0/weaponsystem_8qc.html#a3f9b3f390008e2bc8f0cfdcd8ca141db", null ],
     [ "forbidWeaponUse", "d5/de0/weaponsystem_8qc.html#a1798aef9c3263ffc0fb53a9741fc3ab9", null ],
     [ "W_AttachToShotorg", "d5/de0/weaponsystem_8qc.html#a61f36bcda0a00c923028d3455873d7df", null ],

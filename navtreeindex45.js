@@ -1,5 +1,9 @@
 var NAVTREEINDEX45 =
 {
+"d5/dac/g__damage_8qc.html#a6fa1a68d8d18ee269438276ad351c0e9":[2,0,6,25,4],
+"d5/dac/g__damage_8qc.html#a705ff21e2e789e10d1eeb3bd16f97c86":[2,0,6,25,18],
+"d5/dac/g__damage_8qc.html#a8203a172d47f7017f4e4be49ed0cddb8":[2,0,6,25,7],
+"d5/dac/g__damage_8qc.html#a82dca72f39db8edb61a18ed8f3cef721":[2,0,6,25,19],
 "d5/dac/g__damage_8qc.html#a8b8e7316613eee6bbf528c646d82128f":[2,0,6,25,10],
 "d5/dac/g__damage_8qc.html#a8f32afee7a8e742e18a6a8fae0844699":[2,0,6,25,20],
 "d5/dac/g__damage_8qc.html#abd4b4c82626ed46a05b72420db7257a1":[2,0,6,25,5],
@@ -13,7 +17,7 @@ var NAVTREEINDEX45 =
 "d5/dac/g__damage_8qc.html#aff28c78124853cc6ad4f9f330588e1d3":[2,0,6,25,12],
 "d5/dac/g__damage_8qc_source.html":[2,0,6,25],
 "d5/db0/teleport_8qc.html":[2,0,1,13,3,31],
-"d5/db0/teleport_8qc.html#a657e8485895ada49b780c703ba05668e":[2,0,1,13,3,31,0],
+"d5/db0/teleport_8qc.html#a92ff553068677feebff8a10a9acef5f2":[2,0,1,13,3,31,0],
 "d5/db0/teleport_8qc_source.html":[2,0,1,13,3,31],
 "d5/db2/dialog__hudpanel__notification_8qc.html":[2,0,5,4,60],
 "d5/db2/dialog__hudpanel__notification_8qc.html#ab31627f8b7c7a82a9d458011f2184631":[2,0,5,4,60,0],
@@ -148,9 +152,9 @@ var NAVTREEINDEX45 =
 "d5/de0/weaponsystem_8qc.html#aba854498f89c2c066c049217f73085e8":[2,0,6,4,20,31],
 "d5/de0/weaponsystem_8qc.html#ac3dc9d68570cfcacf32d6f0e7fcf2ed8":[2,0,6,4,20,23],
 "d5/de0/weaponsystem_8qc.html#ad121c05ab5bd334ef01604c5db34c005":[2,0,6,4,20,21],
-"d5/de0/weaponsystem_8qc.html#ad1c977b6347f80df95a2c1336e9079fb":[2,0,6,4,20,3],
 "d5/de0/weaponsystem_8qc.html#ad552f2285b74098aab5c07973ec7b577":[2,0,6,4,20,11],
 "d5/de0/weaponsystem_8qc.html#adaf855bb86ef53119fa756a62e6127be":[2,0,6,4,20,0],
+"d5/de0/weaponsystem_8qc.html#aec5e2aede6ee988407e695b747aa1577":[2,0,6,4,20,3],
 "d5/de0/weaponsystem_8qc.html#af1db5c42a721484bc8d112cf227abbd6":[2,0,6,4,20,22],
 "d5/de0/weaponsystem_8qc_source.html":[2,0,6,4,20],
 "d5/de6/effect_8qh.html":[2,0,1,2,6],
@@ -245,9 +249,5 @@ var NAVTREEINDEX45 =
 "d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a":[2,0,1,45,68],
 "d5/df2/common_2util_8qh.html#a5423e65094ab9e50fb26c72d21a41aab":[2,0,1,45,53],
 "d5/df2/common_2util_8qh.html#a54e21b66f9e46eb48ef6962079a42196":[2,0,1,45,0],
-"d5/df2/common_2util_8qh.html#a5a5b192b1222eacd1e23dfdeab66ab62":[2,0,1,45,81],
-"d5/df2/common_2util_8qh.html#a5d54989c9c7a0b47c7feb68587953554":[2,0,1,45,114],
-"d5/df2/common_2util_8qh.html#a5f119916e6e7513d8e7375c84a2e5dcf":[2,0,1,45,102],
-"d5/df2/common_2util_8qh.html#a5f4732a3d07850ca4c4dcd2bca80c188":[2,0,1,45,135],
-"d5/df2/common_2util_8qh.html#a6035eddf0c50a91369cd5fe73afc1640":[2,0,1,45,16]
+"d5/df2/common_2util_8qh.html#a5a5b192b1222eacd1e23dfdeab66ab62":[2,0,1,45,81]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX105 =
 {
+"dd/d7a/serverlist_8qh.html#a378f23675e68ccb61d7761021e559132":[2,0,5,4,199,49],
+"dd/d7a/serverlist_8qh.html#a402f52693619967039b11ca0de10ed0e":[2,0,5,4,199,30],
+"dd/d7a/serverlist_8qh.html#a4b91ac5a07f8e4a372686e28423f1d21":[2,0,5,4,199,46],
+"dd/d7a/serverlist_8qh.html#a4c2619f15b606e7381a0d67501ae9198":[2,0,5,4,199,20],
+"dd/d7a/serverlist_8qh.html#a4f405c2f7cc538d4b45a6ef81a23c700":[2,0,5,4,199,15],
+"dd/d7a/serverlist_8qh.html#a5b7aa7f60ea28cb916cf014a65f06caa":[2,0,5,4,199,31],
 "dd/d7a/serverlist_8qh.html#a65a2a62c2b889d9214c6426de9315f1f":[2,0,5,4,199,12],
 "dd/d7a/serverlist_8qh.html#a66674bec022085770debb729f889e964":[2,0,5,4,199,35],
 "dd/d7a/serverlist_8qh.html#a684de7d771e8759c28b3d09b2b667b78":[2,0,5,4,199,22],
@@ -58,8 +64,8 @@ var NAVTREEINDEX105 =
 "dd/d85/sortlist_8qc.html#a652c86b37dd42d03c9e82ee0d8e1cfd8":[2,0,4,47,0],
 "dd/d85/sortlist_8qc_source.html":[2,0,4,47],
 "dd/d87/effectinfo_8qc.html":[2,0,1,2,8],
-"dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[2,0,1,2,8,12],
 "dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[2,0,1,2,8,13],
+"dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[2,0,1,2,8,12],
 "dd/d87/effectinfo_8qc.html#a140b69e0765f293f2d0545beefa583c7":[2,0,1,2,8,17],
 "dd/d87/effectinfo_8qc.html#a196e029eb2adc9808b1e6928e3e1ce23":[2,0,1,2,8,19],
 "dd/d87/effectinfo_8qc.html#a331bcf6c0483f2f74b9ebc3f52b11560":[2,0,1,2,8,21],
@@ -243,11 +249,5 @@ var NAVTREEINDEX105 =
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,156,30],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,156,81],
 "dd/d94/dialog__multiplayer__join_8qc.html":[2,0,5,4,94],
-"dd/d94/dialog__multiplayer__join_8qc.html#a23af548c6170f613544cf2ccd36bbdc4":[2,0,5,4,94,0],
-"dd/d94/dialog__multiplayer__join_8qc.html#aedce3aeaa9449e5837b1fd8627adc4ac":[2,0,5,4,94,1],
-"dd/d94/dialog__multiplayer__join_8qc_source.html":[2,0,5,4,94],
-"dd/d95/dialog__credits_8qh.html":[2,0,5,4,41],
-"dd/d95/dialog__credits_8qh_source.html":[2,0,5,4,41],
-"dd/d96/server_2progs_8inc.html":[2,0,6,51],
-"dd/d96/server_2progs_8inc.html#ac484531f596092c0ab17f29b14dbeab4":[2,0,6,51,0]
+"dd/d94/dialog__multiplayer__join_8qc.html#a23af548c6170f613544cf2ccd36bbdc4":[2,0,5,4,94,0]
 };

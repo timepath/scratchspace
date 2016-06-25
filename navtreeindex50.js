@@ -1,5 +1,9 @@
 var NAVTREEINDEX50 =
 {
+"d6/d66/classPhaserTurret.html#a1c83f77ade664f040060daa42f787cab":[1,0,76,16],
+"d6/d66/classPhaserTurret.html#a1d39a1a866a9076d9cd20787489c9143":[1,0,76,12],
+"d6/d66/classPhaserTurret.html#a3144102787442a58055180121b5e9536":[1,0,76,8],
+"d6/d66/classPhaserTurret.html#a31fce60cefad2357a4fc6ea68ac74762":[1,0,76,13],
 "d6/d66/classPhaserTurret.html#a56e07d5aa23850f9cc9cd5eaa68f0880":[1,0,76,3],
 "d6/d66/classPhaserTurret.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,76,0],
 "d6/d66/classPhaserTurret.html#a793b7662915778fd217e98d59e1887dd":[1,0,76,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX50 =
 "d6/d79/classXonoticHUDWeaponsDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,178,28],
 "d6/d79/classXonoticHUDWeaponsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,178,2],
 "d6/d79/classXonoticHUDWeaponsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,178,26],
-"d6/d79/classXonoticHUDWeaponsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,178,30],
-"d6/d79/classXonoticHUDWeaponsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,178,82],
-"d6/d7a/common_2mutators_2mutator_2waypoints_2__mod_8qh.html":[2,0,1,9,0,31,1],
-"d6/d7a/common_2mutators_2mutator_2waypoints_2__mod_8qh_source.html":[2,0,1,9,0,31,1],
-"d6/d7d/classEWheel.html":[1,0,28]
+"d6/d79/classXonoticHUDWeaponsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,178,30]
 };

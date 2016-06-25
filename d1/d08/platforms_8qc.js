@@ -1,13 +1,13 @@
 var platforms_8qc =
 [
-    [ "generic_plat_blocked", "d1/d08/platforms_8qc.html#ab2b9dcd3ce47e139e9290425812242c8", null ],
-    [ "plat_center_touch", "d1/d08/platforms_8qc.html#a042cac3a807e8dd0d4989f62f500b55b", null ],
-    [ "plat_crush", "d1/d08/platforms_8qc.html#a3f5fdcdea5d4dc3df4e8f6125b0096ab", null ],
+    [ "generic_plat_blocked", "d1/d08/platforms_8qc.html#a2e6fb73fa2429185a78a769de38b77e2", null ],
+    [ "plat_center_touch", "d1/d08/platforms_8qc.html#af1745ccc6ccfebfccc05a1bc9839b1f4", null ],
+    [ "plat_crush", "d1/d08/platforms_8qc.html#a6c6317fd5daed89f2a4fd761565a5714", null ],
     [ "plat_go_down", "d1/d08/platforms_8qc.html#a9574d891d234463bb42d94f88607b988", null ],
     [ "plat_go_up", "d1/d08/platforms_8qc.html#a6693325a5179add8d074ce9869972142", null ],
     [ "plat_hit_bottom", "d1/d08/platforms_8qc.html#af1a9f78bf35db47348e63dc8c1622c49", null ],
     [ "plat_hit_top", "d1/d08/platforms_8qc.html#acb0f1d2255974b76895ebafac4d8bd16", null ],
-    [ "plat_outside_touch", "d1/d08/platforms_8qc.html#a77f5083fe2e8003247f07a267ba52e93", null ],
+    [ "plat_outside_touch", "d1/d08/platforms_8qc.html#a83d9da1182ae8db2d73dbf2ea1aef766", null ],
     [ "plat_reset", "d1/d08/platforms_8qc.html#ad31395eeb93f5d3f550e8ecfeaf90ce5", null ],
     [ "plat_spawn_inside_trigger", "d1/d08/platforms_8qc.html#a461a9546d5500a4f4bb4ee350099a500", null ],
     [ "plat_trigger_use", "d1/d08/platforms_8qc.html#a9ea0c4bf592308ee089a459c0bc0c3d2", null ],

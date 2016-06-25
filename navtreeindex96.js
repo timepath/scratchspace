@@ -1,5 +1,11 @@
 var NAVTREEINDEX96 =
 {
+"dc/d1c/weapon_8qh.html#a6c083826b597734af72d573025ce48ad":[2,0,1,16,10,28],
+"dc/d1c/weapon_8qh.html#a6c2b41636e883c42725c457730c8701c":[2,0,1,16,10,40],
+"dc/d1c/weapon_8qh.html#a71ed1489c649f0e0d3e068e7e32aed35":[2,0,1,16,10,13],
+"dc/d1c/weapon_8qh.html#a7444bff240ad3f518a5cc595e9bc8d15":[2,0,1,16,10,10],
+"dc/d1c/weapon_8qh.html#a79fb53e58c432f7bb94bc2e881f4c2b6":[2,0,1,16,10,14],
+"dc/d1c/weapon_8qh.html#a7f0f6109cd99633e526e2a2226501332":[2,0,1,16,10,22],
 "dc/d1c/weapon_8qh.html#a823fa59ed5af69da8b4af13e01ee203c":[2,0,1,16,10,43],
 "dc/d1c/weapon_8qh.html#a8291d5f4c89b48b838806f5f916d137e":[2,0,1,16,10,35],
 "dc/d1c/weapon_8qh.html#a87d0aa72ac92f39e8380f2f3d7cb4e68":[2,0,1,16,10,24],
@@ -243,11 +249,5 @@ var NAVTREEINDEX96 =
 "dc/d3d/container_8qc.html#aec3d6e5d4cb9289404db07b6b7906150":[2,0,5,2,8,1],
 "dc/d3d/container_8qc.html#af2aaaca08e442db9b25784326a7e5730":[2,0,5,2,8,17],
 "dc/d3d/container_8qc.html#af42326fa28ec79fa56057d2fdbd0985e":[2,0,5,2,8,4],
-"dc/d3d/container_8qc.html#afb93c24343e73a71eed73fcdf4de2a3f":[2,0,5,2,8,13],
-"dc/d3d/container_8qc.html#afe20d7dbb55ca5539e40e3f850d81f15":[2,0,5,2,8,6],
-"dc/d3d/container_8qc_source.html":[2,0,5,2,8],
-"dc/d3d/csqcmodel__hooks_8qc.html":[2,0,0,13],
-"dc/d3d/csqcmodel__hooks_8qc.html#a03e325439a3c7e40dda1730cd4251a4c":[2,0,0,13,1],
-"dc/d3d/csqcmodel__hooks_8qc.html#a0f179309458eca2fb0e79ee5a321e603":[2,0,0,13,53],
-"dc/d3d/csqcmodel__hooks_8qc.html#a0f670f407a9b5fc0eacd05397b50271d":[2,0,0,13,46]
+"dc/d3d/container_8qc.html#afb93c24343e73a71eed73fcdf4de2a3f":[2,0,5,2,8,13]
 };

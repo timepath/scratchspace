@@ -126,7 +126,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a577f8f315a1cda12c614b96a7b52c6ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9b/util__server_8qh.html#a577f8f315a1cda12c614b96a7b52c6ed">WarpZoneLib_ExactTrigger_Touch</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#a8484d4f5e006ca0f417b35001c23b862">this</a>, <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> toucher)</td></tr>
+<tr class="memitem:a577f8f315a1cda12c614b96a7b52c6ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9b/util__server_8qh.html#a577f8f315a1cda12c614b96a7b52c6ed">WarpZoneLib_ExactTrigger_Touch</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#a8484d4f5e006ca0f417b35001c23b862">this</a>, <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ab00c8adb7cf42f84d6d530532c46fa57">toucher</a>)</td></tr>
 <tr class="separator:a577f8f315a1cda12c614b96a7b52c6ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac221a6dceaae4b279cb0bcf10a95fef7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d9b/util__server_8qh.html#ac221a6dceaae4b279cb0bcf10a95fef7">WarpZoneLib_MoveOutOfSolid</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> e)</td></tr>
 <tr class="separator:ac221a6dceaae4b279cb0bcf10a95fef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -177,9 +177,10 @@ Functions</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d7/d2b/server_8qc_source.html#l00192">WarpZone_Touch()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;{</div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;    <span class="keywordflow">return</span> !<a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1b87d3cc5d237220e1d7def92aca4632">WarpZoneLib_BoxTouchesBrush</a>(toucher.absmin, toucher.absmax, <span class="keyword">this</span>, toucher);</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;    <span class="keywordflow">return</span> !<a class="code" href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1b87d3cc5d237220e1d7def92aca4632">WarpZoneLib_BoxTouchesBrush</a>(<a class="code" href="../../d3/dd0/self_8qh.html#ab00c8adb7cf42f84d6d530532c46fa57">toucher</a>.absmin, <a class="code" href="../../d3/dd0/self_8qh.html#ab00c8adb7cf42f84d6d530532c46fa57">toucher</a>.absmax, <span class="keyword">this</span>, <a class="code" href="../../d3/dd0/self_8qh.html#ab00c8adb7cf42f84d6d530532c46fa57">toucher</a>);</div>
 <div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;}</div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_a1b87d3cc5d237220e1d7def92aca4632"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#a1b87d3cc5d237220e1d7def92aca4632">WarpZoneLib_BoxTouchesBrush</a></div><div class="ttdeci">float WarpZoneLib_BoxTouchesBrush(vector mi, vector ma, entity e, entity ig)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00135">common.qc:135</a></div></div>
+<div class="ttc" id="self_8qh_html_ab00c8adb7cf42f84d6d530532c46fa57"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#ab00c8adb7cf42f84d6d530532c46fa57">toucher</a></div><div class="ttdeci">entity entity toucher</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00070">self.qh:70</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -219,7 +220,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00808">808</a> of file <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html">common.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00137">MOVE_WORLDONLY</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00035">trace_startsolid</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00084">vector</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00794">WarpZoneLib_MoveOutOfSolid_Expand()</a>.</p>
+<p>References <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00137">MOVE_WORLDONLY</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00035">trace_startsolid</a>, <a class="el" href="../../d3/dd0/self_8qh_source.html#l00090">vector</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00794">WarpZoneLib_MoveOutOfSolid_Expand()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d2b/server_8qc_source.html#l00084">WarpZone_Teleport()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;{</div>
@@ -261,7 +262,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;</div>
 <div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;}</div>
-<div class="ttc" id="self_8qh_html_a7ea82552101f041fad7635b3ed036a84"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a></div><div class="ttdeci">vector</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00084">self.qh:84</a></div></div>
+<div class="ttc" id="self_8qh_html_a7ea82552101f041fad7635b3ed036a84"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a></div><div class="ttdeci">vector</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00090">self.qh:90</a></div></div>
 <div class="ttc" id="csqc__constants_8qh_html_ae0d7c9ee7d3e6ed43d37c30912a68497"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#ae0d7c9ee7d3e6ed43d37c30912a68497">MOVE_WORLDONLY</a></div><div class="ttdeci">const int MOVE_WORLDONLY</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00137">csqc_constants.qh:137</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qc_html_ae6b718e225b6caa75a1aef6b82cfbcf0"><div class="ttname"><a href="../../d1/d6a/lib_2warpzone_2common_8qc.html#ae6b718e225b6caa75a1aef6b82cfbcf0">WarpZoneLib_MoveOutOfSolid_Expand</a></div><div class="ttdeci">void WarpZoneLib_MoveOutOfSolid_Expand(entity e, vector by)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00794">common.qc:794</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9709fd6a18e9d6bafb5a0e9d8ba42c9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a></div><div class="ttdeci">float trace_startsolid</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00035">csprogsdefs.qc:35</a></div></div>
@@ -294,7 +295,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_58d953ef34ccfc4a49203206a34466c3.html">warpzone</a></li><li class="navelem"><a class="el" href="../../d3/d9b/util__server_8qh.html">util_server.qh</a></li>
-    <li class="footer">Generated on Fri Jun 24 2016 10:04:34 for Xonotic by
+    <li class="footer">Generated on Sat Jun 25 2016 00:38:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
