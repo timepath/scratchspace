@@ -4,6 +4,6 @@ const app = express.Router()
 module.exports = app
 
 app.get("/whoami", function (req, res) {
-    const s = "world dfg"
+    const s = "c"
     res.send(s)
 })

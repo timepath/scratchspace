@@ -1,8 +1,8 @@
 # Boilerplate
 
-env: Node + BrowserSync + Webpack + HMR 
-server: 
-js: Babel + JSX + Typescript + React
+env: Node + Webpack + HMR + BrowserSync 
+server: express
+js: Babel + Typescript + JSX + React
 
 PureCSS
 postcss?
