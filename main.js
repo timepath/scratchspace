@@ -54,7 +54,7 @@ const common = {
         new webpack.NoErrorsPlugin(),
         new webpack.HotModuleReplacementPlugin()
     ],
-    resolve: {extensions: [".js", "", ".tsx", ".ts", ".jsx", ".css"]},
+    resolve: {extensions: ["", ".tsx", ".ts", ".jsx", ".js"]},
     module: {
         preLoaders: [
             {test: /\.tsx?$/, loader: "tslint", exclude: /node_modules/}
@@ -89,7 +89,7 @@ if (OPTIMIZE) {
 
     common.plugins.push(new webpack.optimize.AggressiveMergingPlugin())
     common.plugins.push(new webpack.optimize.DedupePlugin())
-    common.plugins.push(new webpack.optimize.OccurrenceOrderPlugin())
+    common.plugins.push(new webpack.optimize.OccurrenceOrderPlugin(true))
     common.plugins.push(new webpack.optimize.UglifyJsPlugin({compress: {warnings: false}, mangle: true}))
 }
 
