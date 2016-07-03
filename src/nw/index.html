@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Boilerplate</title>
+</head>
+
+<body>
+<div id="app"></div>
+<script src="nw.js"></script>
+<script>
+    // npm i
+    // nwjc nw.js nw.bin
+    // nw .
+    require("nw.gui").Window.get().evalNWBin(null, "nw.bin")
+</script>
+</body>
+</html>

@@ -5,4 +5,5 @@ import routes from "./routes"
 
 import "./App.css"
 
-export default <ReactRouter.Router history={history}>{routes}</ReactRouter.Router>
+export default (h = history) =>
+    <ReactRouter.Router history={h}>{routes}</ReactRouter.Router>
