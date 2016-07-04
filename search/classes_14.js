@@ -107,6 +107,7 @@ var searchData=
   ['xonoticteamselectdialog',['XonoticTeamSelectDialog',['../d1/d39/classXonoticTeamSelectDialog.html',1,'']]],
   ['xonotictextlabel',['XonoticTextLabel',['../dc/db1/classXonoticTextLabel.html',1,'']]],
   ['xonotictextslider',['XonoticTextSlider',['../d0/d15/classXonoticTextSlider.html',1,'']]],
+  ['xonoticuid2namedialog',['XonoticUid2NameDialog',['../d4/d85/classXonoticUid2NameDialog.html',1,'']]],
   ['xonoticuserbindeditdialog',['XonoticUserbindEditDialog',['../d2/d42/classXonoticUserbindEditDialog.html',1,'']]],
   ['xonoticusersettingstab',['XonoticUserSettingsTab',['../d0/d2d/classXonoticUserSettingsTab.html',1,'']]],
   ['xonoticvideosettingstab',['XonoticVideoSettingsTab',['../d7/d39/classXonoticVideoSettingsTab.html',1,'']]],

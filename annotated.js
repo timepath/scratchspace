@@ -230,6 +230,7 @@ var annotated =
     [ "XonoticTeamSelectDialog", "d1/d39/classXonoticTeamSelectDialog.html", "d1/d39/classXonoticTeamSelectDialog" ],
     [ "XonoticTextLabel", "dc/db1/classXonoticTextLabel.html", "dc/db1/classXonoticTextLabel" ],
     [ "XonoticTextSlider", "d0/d15/classXonoticTextSlider.html", "d0/d15/classXonoticTextSlider" ],
+    [ "XonoticUid2NameDialog", "d4/d85/classXonoticUid2NameDialog.html", "d4/d85/classXonoticUid2NameDialog" ],
     [ "XonoticUserbindEditDialog", "d2/d42/classXonoticUserbindEditDialog.html", "d2/d42/classXonoticUserbindEditDialog" ],
     [ "XonoticUserSettingsTab", "d0/d2d/classXonoticUserSettingsTab.html", "d0/d2d/classXonoticUserSettingsTab" ],
     [ "XonoticVideoSettingsTab", "d7/d39/classXonoticVideoSettingsTab.html", "d7/d39/classXonoticVideoSettingsTab" ],

@@ -389,6 +389,7 @@ var searchData=
   ['xonotictextslider_5fsavecvars',['XonoticTextSlider_saveCvars',['../dc/d24/xonotic_2textslider_8qc.html#ae35a49284380ba6299f1eeb945cd9f6d',1,'textslider.qc']]],
   ['xonotictextslider_5fsetvalue',['XonoticTextSlider_setValue',['../dc/d24/xonotic_2textslider_8qc.html#a30b579b95312577da21a10ac3a35667c',1,'textslider.qc']]],
   ['xonotictextslider_5fsetvalue_5fnoanim',['XonoticTextSlider_setValue_noAnim',['../dc/d24/xonotic_2textslider_8qc.html#a6cf1a751fa709e3346859aa34e1a3c3f',1,'textslider.qc']]],
+  ['xonoticuid2namedialog_5ffill',['XonoticUid2NameDialog_fill',['../d6/d55/dialog__uid2name_8qc.html#a3350d7ff5d9873c5e447fed772934494',1,'dialog_uid2name.qc']]],
   ['xonoticuserbindeditdialog_5ffill',['XonoticUserbindEditDialog_fill',['../dd/def/dialog__settings__input__userbind_8qc.html#aa82632934f25109e4d110818af4b509c',1,'dialog_settings_input_userbind.qc']]],
   ['xonoticuserbindeditdialog_5floaduserbind',['XonoticUserbindEditDialog_loadUserBind',['../dd/def/dialog__settings__input__userbind_8qc.html#a32c465ca5715f92a2335f8067b539aea',1,'dialog_settings_input_userbind.qc']]],
   ['xonoticuserbindeditdialog_5fsave',['XonoticUserbindEditDialog_Save',['../dd/def/dialog__settings__input__userbind_8qc.html#a737ab79b48f62178e515a7842873bbbe',1,'dialog_settings_input_userbind.qc']]],

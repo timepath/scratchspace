@@ -140,6 +140,8 @@ var searchData=
   ['dialog_5fsingleplayer_5fwinner_2eqh',['dialog_singleplayer_winner.qh',['../da/ddd/dialog__singleplayer__winner_8qh.html',1,'']]],
   ['dialog_5fteamselect_2eqc',['dialog_teamselect.qc',['../d6/d30/dialog__teamselect_8qc.html',1,'']]],
   ['dialog_5fteamselect_2eqh',['dialog_teamselect.qh',['../df/daf/dialog__teamselect_8qh.html',1,'']]],
+  ['dialog_5fuid2name_2eqc',['dialog_uid2name.qc',['../d6/d55/dialog__uid2name_8qc.html',1,'']]],
+  ['dialog_5fuid2name_2eqh',['dialog_uid2name.qh',['../d3/dab/dialog__uid2name_8qh.html',1,'']]],
   ['disablerelay_2eqc',['disablerelay.qc',['../d4/d73/disablerelay_8qc.html',1,'']]],
   ['dodging_2eqc',['dodging.qc',['../d7/d06/dodging_8qc.html',1,'']]],
   ['door_2eqc',['door.qc',['../d6/d9c/door_8qc.html',1,'']]],

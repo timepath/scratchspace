@@ -225,8 +225,11 @@ $(document).ready(function(){initNavTree('d7/d4b/item_2dialog_8qc_source.html','
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            }</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        }</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../dc/d06/classDialog.html">Dialog</a>).keyDown(me, key, ascii, shift);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    }</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="keywordtype">float</span> r = <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../dc/d06/classDialog.html">Dialog</a>).keyDown(me, key, ascii, shift);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">if</span> (!me.closable &amp;&amp; key == <a class="code" href="../../dc/d03/keycodes_8qc.html#afcadc8fd04cce282601151cbdf038a5f">K_ESCAPE</a>)</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">return</span> r;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    }</div>
 <div class="ttc" id="item_2dialog_8qc_html_ac403abaed5c4df8ba6c8c0eccf388d65"><div class="ttname"><a href="../../d7/d4b/item_2dialog_8qc.html#ac403abaed5c4df8ba6c8c0eccf388d65">Dialog_gotoRC</a></div><div class="ttdeci">void Dialog_gotoRC(entity me, float row, float col)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4b/item_2dialog_8qc_source.html#l00027">dialog.qc:27</a></div></div>
 <div class="ttc" id="classDialog_html"><div class="ttname"><a href="../../dc/d06/classDialog.html">Dialog</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d88/item_2dialog_8qh_source.html#l00019">dialog.qh:19</a></div></div>
 <div class="ttc" id="borderimage_8qh_html"><div class="ttname"><a href="../../dc/d72/borderimage_8qh.html">borderimage.qh</a></div></div>
@@ -247,7 +250,7 @@ $(document).ready(function(){initNavTree('d7/d4b/item_2dialog_8qc_source.html','
 <div class="ttc" id="item_2dialog_8qc_html_a18475bbab9059d6c611f0c6db5744eb3"><div class="ttname"><a href="../../d7/d4b/item_2dialog_8qc.html#a18475bbab9059d6c611f0c6db5744eb3">Dialog_TDempty</a></div><div class="ttdeci">void Dialog_TDempty(entity me, float colspan)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4b/item_2dialog_8qc_source.html#l00056">dialog.qc:56</a></div></div>
 <div class="ttc" id="classBorderImage_html"><div class="ttname"><a href="../../d7/d5d/classBorderImage.html">BorderImage</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d72/borderimage_8qh_source.html#l00004">borderimage.qh:4</a></div></div>
 <div class="ttc" id="item_2dialog_8qc_html_a1a1f1bf322d1488c3128f89bed9a46a4"><div class="ttname"><a href="../../d7/d4b/item_2dialog_8qc.html#a1a1f1bf322d1488c3128f89bed9a46a4">Dialog_close</a></div><div class="ttdeci">void Dialog_close(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4b/item_2dialog_8qc_source.html#l00104">dialog.qc:104</a></div></div>
-<div class="ttc" id="menu_8qc_html_a0839df76702206b09937c44849bbe9f9"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9">m_play_click_sound</a></div><div class="ttdeci">void m_play_click_sound(string soundfile)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00995">menu.qc:995</a></div></div>
+<div class="ttc" id="menu_8qc_html_a0839df76702206b09937c44849bbe9f9"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a0839df76702206b09937c44849bbe9f9">m_play_click_sound</a></div><div class="ttdeci">void m_play_click_sound(string soundfile)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00996">menu.qc:996</a></div></div>
 <div class="ttc" id="item_2dialog_8qc_html_aad8a5f6e981257d1408bd0dab913f701"><div class="ttname"><a href="../../d7/d4b/item_2dialog_8qc.html#aad8a5f6e981257d1408bd0dab913f701">Dialog_Close</a></div><div class="ttdeci">void Dialog_Close(entity button, entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4b/item_2dialog_8qc_source.html#l00007">dialog.qc:7</a></div></div>
 <div class="ttc" id="item_2dialog_8qc_html_a7d19e4b0d07376ee8ac373905d48318b"><div class="ttname"><a href="../../d7/d4b/item_2dialog_8qc.html#a7d19e4b0d07376ee8ac373905d48318b">Dialog_setFirstColumn</a></div><div class="ttdeci">void Dialog_setFirstColumn(entity me, float col)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d4b/item_2dialog_8qc_source.html#l00051">dialog.qc:51</a></div></div>
 <div class="ttc" id="item_2nexposee_8qh_html"><div class="ttname"><a href="../../dd/d77/item_2nexposee_8qh.html">nexposee.qh</a></div></div>
@@ -265,7 +268,7 @@ $(document).ready(function(){initNavTree('d7/d4b/item_2dialog_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_35b13da68f3b87ebd8e5efaf5a26acd6.html">item</a></li><li class="navelem"><a class="el" href="../../d7/d4b/item_2dialog_8qc.html">dialog.qc</a></li>
-    <li class="footer">Generated on Sun Jul 3 2016 16:03:09 for Xonotic by
+    <li class="footer">Generated on Mon Jul 4 2016 01:19:06 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

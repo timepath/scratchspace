@@ -101,7 +101,8 @@ var hierarchy =
                   [ "XonoticHUDWeaponsDialog", "d6/d79/classXonoticHUDWeaponsDialog.html", null ],
                   [ "XonoticMonsterToolsDialog", "da/d9c/classXonoticMonsterToolsDialog.html", null ],
                   [ "XonoticSandboxToolsDialog", "dd/d9a/classXonoticSandboxToolsDialog.html", null ],
-                  [ "XonoticTeamSelectDialog", "d1/d39/classXonoticTeamSelectDialog.html", null ]
+                  [ "XonoticTeamSelectDialog", "d1/d39/classXonoticTeamSelectDialog.html", null ],
+                  [ "XonoticUid2NameDialog", "d4/d85/classXonoticUid2NameDialog.html", null ]
                 ] ],
                 [ "XonoticScreenshotViewerDialog", "db/de2/classXonoticScreenshotViewerDialog.html", null ],
                 [ "XonoticServerInfoDialog", "da/db7/classXonoticServerInfoDialog.html", null ],

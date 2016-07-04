@@ -250,6 +250,10 @@ var dir_53efa11b035745576779f641909983cd =
     [ "dialog_teamselect.qh", "df/daf/dialog__teamselect_8qh.html", [
       [ "XonoticTeamSelectDialog", "d1/d39/classXonoticTeamSelectDialog.html", "d1/d39/classXonoticTeamSelectDialog" ]
     ] ],
+    [ "dialog_uid2name.qc", "d6/d55/dialog__uid2name_8qc.html", "d6/d55/dialog__uid2name_8qc" ],
+    [ "dialog_uid2name.qh", "d3/dab/dialog__uid2name_8qh.html", [
+      [ "XonoticUid2NameDialog", "d4/d85/classXonoticUid2NameDialog.html", "d4/d85/classXonoticUid2NameDialog" ]
+    ] ],
     [ "gametypelist.qc", "d2/db8/gametypelist_8qc.html", "d2/db8/gametypelist_8qc" ],
     [ "gametypelist.qh", "dd/d43/gametypelist_8qh.html", "dd/d43/gametypelist_8qh" ],
     [ "hudskinlist.qc", "da/d21/hudskinlist_8qc.html", "da/d21/hudskinlist_8qc" ],
