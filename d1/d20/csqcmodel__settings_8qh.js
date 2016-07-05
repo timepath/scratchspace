@@ -5,6 +5,7 @@ var csqcmodel__settings_8qh =
     [ "CSQCMODEL_SETTINGS_H", "d1/d20/csqcmodel__settings_8qh.html#a310a895e7d03b89b56afbaa293fe83bd", null ],
     [ "CSQCPLAYER_FORCE_UPDATES", "d1/d20/csqcmodel__settings_8qh.html#afa3788f017d2c00503a944c4176a3f65", null ],
     [ "CSQCPLAYER_HOOK_POSTCAMERASETUP", "d1/d20/csqcmodel__settings_8qh.html#a878299eeec068b73303c1906e6de74dd", null ],
+    [ "GAMEOVER", "d1/d20/csqcmodel__settings_8qh.html#aa71f1218eb9aadc17420151c26ac8f9c", null ],
     [ "MOVETYPE_NAME", "d1/d20/csqcmodel__settings_8qh.html#a7f181109548f85fcc4bc0d9299b608e0", null ],
     [ "TAG_ENTITY_NAME", "d1/d20/csqcmodel__settings_8qh.html#acaa67ea99e4b709b02ab19b856cf746f", null ],
     [ "TAG_ENTITY_TYPE", "d1/d20/csqcmodel__settings_8qh.html#aa6adc23e92022084589b260c2bd3108d", null ],

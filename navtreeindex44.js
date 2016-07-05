@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"d5/d6d/util__server_8qc_source.html":[2,0,4,2,12],
+"d5/d6f/xonotic_2checkbox_8qc.html":[2,0,5,4,12],
 "d5/d6f/xonotic_2checkbox_8qc.html#a10aa8dc6f022dcc1df8ef8b5153ac9d0":[2,0,5,4,12,1],
 "d5/d6f/xonotic_2checkbox_8qc.html#a794154951852d8c93891f3567ca8783b":[2,0,5,4,12,7],
 "d5/d6f/xonotic_2checkbox_8qc.html#ab0962d6e3ca24d502f661a5c4c1eb770":[2,0,5,4,12,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "d5/d95/defer_8qh.html#a82f1a723df145b0f0f7a8511a2a78a41":[2,0,4,15,4],
 "d5/d95/defer_8qh.html#a9dccabaf07f5881511520a70535300bb":[2,0,4,15,2],
 "d5/d95/defer_8qh.html#ac20778e47d8ed77ee9078abfb1ef0585":[2,0,4,15,3],
-"d5/d95/defer_8qh_source.html":[2,0,4,15],
-"d5/d95/lib_2matrix_2matrix_8qh.html":[2,0,4,1,5],
-"d5/d95/lib_2matrix_2matrix_8qh.html#a0c24e49fdad79752430af7e5213b8474":[2,0,4,1,5,4]
+"d5/d95/defer_8qh_source.html":[2,0,4,15]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"d8/de2/menudefs_8qc.html#acb693031fd387043042ba41d785ab049":[2,0,2,0,3,73],
+"d8/de2/menudefs_8qc.html#acc7196964388ef1b600113e3e30cff31":[2,0,2,0,3,120],
 "d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b":[2,0,2,0,3,45],
 "d8/de2/menudefs_8qc.html#accddb9b5fa1b051b0551dd27982faec7":[2,0,2,0,3,248],
 "d8/de2/menudefs_8qc.html#acde1f829c4a246948bc5a9359b7148ae":[2,0,2,0,3,241],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "d8/dfe/classPlasmaDualAttack.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,80,20],
 "d8/dfe/classPlasmaDualAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,80,22],
 "d8/dfe/classPlasmaDualAttack.html#aef0b48ef9e2bfaa3a1db1d0e1b4fdec8":[1,0,80,26],
-"d8/dfe/classPlasmaDualAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,80,15],
-"d8/dfe/classPlasmaDualAttack.html#afba05a26a4843e2b4b22d4ad9c7ff03f":[1,0,80,23],
-"d8/dfe/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8qh.html":[2,0,1,9,0,26,1]
+"d8/dfe/classPlasmaDualAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,80,15]
 };
