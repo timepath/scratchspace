@@ -1,6 +1,5 @@
 var NAVTREEINDEX114 =
 {
-"de/d81/common_2weapons_2all_8qh.html#a9d7b1e891b395cb0e963cd09c243cdc8":[2,0,1,16,5,43],
 "de/d81/common_2weapons_2all_8qh.html#aa15982b2005f9c62b162d611b51a6544":[2,0,1,16,5,6],
 "de/d81/common_2weapons_2all_8qh.html#aa2f1d4c1acc9739ee00422480ef20190":[2,0,1,16,5,15],
 "de/d81/common_2weapons_2all_8qh.html#aa55cc67a3555b2637131622a013320bf":[2,0,1,16,5,33],
@@ -249,5 +248,6 @@ var NAVTREEINDEX114 =
 "de/dae/havocbot_2scripting_8qh.html#a6893523d5caad3e47941ebb88916a721":[2,0,6,0,0,6,0],
 "de/dae/havocbot_2scripting_8qh_source.html":[2,0,6,0,0,6],
 "de/daf/common_2mutators_2mutator_2multijump_2__mod_8qh.html":[2,0,1,9,0,14,1],
-"de/daf/common_2mutators_2mutator_2multijump_2__mod_8qh_source.html":[2,0,1,9,0,14,1]
+"de/daf/common_2mutators_2mutator_2multijump_2__mod_8qh_source.html":[2,0,1,9,0,14,1],
+"de/db0/common_2mutators_2mutator_2new__toys_2__mod_8inc.html":[2,0,1,9,0,16,0]
 };

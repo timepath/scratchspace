@@ -1,6 +1,5 @@
 var NAVTREEINDEX93 =
 {
-"db/dc4/classXonoticRadioButton.html":[1,0,203],
 "db/dc4/classXonoticRadioButton.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,203,76],
 "db/dc4/classXonoticRadioButton.html#a0dc9110cbe226f31f0d7f442534c6965":[1,0,203,61],
 "db/dc4/classXonoticRadioButton.html#a10cf88734594fed24be93889407c0bda":[1,0,203,14],
@@ -249,5 +248,6 @@ var NAVTREEINDEX93 =
 "db/ddb/classXonoticCvarList.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,139,4],
 "db/ddb/classXonoticCvarList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,139,61],
 "db/ddb/classXonoticCvarList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,139,24],
-"db/ddb/classXonoticCvarList.html#a72f738e906b5381665d969cc97642324":[1,0,139,51]
+"db/ddb/classXonoticCvarList.html#a72f738e906b5381665d969cc97642324":[1,0,139,51],
+"db/ddb/classXonoticCvarList.html#a73fc2f6190b3004092ed63ea6cd252a1":[1,0,139,67]
 };

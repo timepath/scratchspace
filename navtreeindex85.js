@@ -1,6 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"da/ded/classSeeker.html#a4fe779db2506a015632fa30924db6531":[1,0,95,21],
 "da/ded/classSeeker.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,95,7],
 "da/ded/classSeeker.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,95,6],
 "da/ded/classSeeker.html#a6ef51387db20a968542626c5e2843b14":[1,0,95,32],
@@ -249,5 +248,6 @@ var NAVTREEINDEX85 =
 "db/d20/round__handler_8qh.html#a3387fe2472922fb6b655760d89d52952":[2,0,6,55,0],
 "db/d20/round__handler_8qh.html#a35bf06efb917c323c9e026476ca62978":[2,0,6,55,6],
 "db/d20/round__handler_8qh.html#a515cacf33539a9c94c6545fb9b468602":[2,0,6,55,7],
-"db/d20/round__handler_8qh.html#a5d09b4d9aa95f1a7381e5c901a21587e":[2,0,6,55,16]
+"db/d20/round__handler_8qh.html#a5d09b4d9aa95f1a7381e5c901a21587e":[2,0,6,55,16],
+"db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9":[2,0,6,55,15]
 };

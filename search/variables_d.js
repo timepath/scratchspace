@@ -82,7 +82,7 @@ var searchData=
   ['mapvote',['mapvote',['../d2/d76/server_2mapvoting_8qc.html#a88f2c32a9270ffb4462abc0b230219a8',1,'mapvoting.qc']]],
   ['mapvote_5fabstain',['mapvote_abstain',['../d2/d76/server_2mapvoting_8qc.html#ad8e7318090c69b42daeafcac79871f41',1,'mapvoting.qc']]],
   ['mapvote_5fchosenmap',['mapvote_chosenmap',['../d4/d0d/client_2mapvoting_8qc.html#a11b793fb97ee637d4e8ac5c95e1dc9f8',1,'mapvoting.qc']]],
-  ['mapvote_5fcount',['mapvote_count',['../d2/d76/server_2mapvoting_8qc.html#a6562a6899e444bf1b6105f2a78d8ab7d',1,'mapvote_count():&#160;mapvoting.qc'],['../d0/d8b/common_2constants_8qh.html#a40774b797818eadce12069d64081f984',1,'MAPVOTE_COUNT():&#160;constants.qh']]],
+  ['mapvote_5fcount',['MAPVOTE_COUNT',['../d0/d8b/common_2constants_8qh.html#a40774b797818eadce12069d64081f984',1,'MAPVOTE_COUNT():&#160;constants.qh'],['../d2/d76/server_2mapvoting_8qc.html#a6562a6899e444bf1b6105f2a78d8ab7d',1,'mapvote_count():&#160;mapvoting.qc']]],
   ['mapvote_5fcount_5freal',['mapvote_count_real',['../d2/d76/server_2mapvoting_8qc.html#ad56a094ac4d4d77d0d99ff7b60536f9e',1,'mapvoting.qc']]],
   ['mapvote_5fdetail',['mapvote_detail',['../d2/d76/server_2mapvoting_8qc.html#a12f9d37a33df7b775438a4c6b59bcbbe',1,'mapvoting.qc']]],
   ['mapvote_5fent',['mapvote_ent',['../d2/d76/server_2mapvoting_8qc.html#ada6ce51a0ca57de830c4d42c8b639c51',1,'mapvoting.qc']]],

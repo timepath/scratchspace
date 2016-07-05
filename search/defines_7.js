@@ -27,7 +27,6 @@ var searchData=
   ['gamemode_5frace_5fh',['GAMEMODE_RACE_H',['../d5/dd7/gamemode__race_8qc.html#a408710ed3bd250b9d6566530a91d9684',1,'gamemode_race.qc']]],
   ['gamemode_5ftdm_5fh',['GAMEMODE_TDM_H',['../d2/d0c/gamemode__tdm_8qc.html#a70d44798fc6568965f3bc5796fefcbec',1,'gamemode_tdm.qc']]],
   ['gamemodes_5fall_5fh',['GAMEMODES_ALL_H',['../d1/d37/common_2gamemodes_2all_8qh.html#a5ff05673e1d1b6cec9f33e33f2141831',1,'all.qh']]],
-  ['gameover',['GAMEOVER',['../d1/d20/csqcmodel__settings_8qh.html#aa71f1218eb9aadc17420151c26ac8f9c',1,'csqcmodel_settings.qh']]],
   ['gameplayfix_5fdowntraceonground',['GAMEPLAYFIX_DOWNTRACEONGROUND',['../df/dae/player_8qh.html#a355ad000887bfbb3fa387376ce9116ef',1,'player.qh']]],
   ['gameplayfix_5feasierwaterjump',['GAMEPLAYFIX_EASIERWATERJUMP',['../df/dae/player_8qh.html#a86866b9ab036632e4b60c4dc204e1347',1,'player.qh']]],
   ['gameplayfix_5fstepdown',['GAMEPLAYFIX_STEPDOWN',['../df/dae/player_8qh.html#a29a88512a529238f210bd12531cf3859',1,'player.qh']]],
