@@ -521,19 +521,19 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01695">1695</a> of file <a class="el" href="../../da/d53/cl__client_8qc_source.html">cl_client.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01697">1697</a> of file <a class="el" href="../../da/d53/cl__client_8qc_source.html">cl_client.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00018">M_ARGV</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00137">MUTATOR_CALLHOOK</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01683">SetSpectatee()</a>, and <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01666">SpectateSet()</a>.</p>
-<div class="fragment"><div class="line"><a name="l01696"></a><span class="lineno"> 1696</span>&#160;{</div>
-<div class="line"><a name="l01697"></a><span class="lineno"> 1697</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(<a class="code" href="../../da/d53/cl__client_8qc.html#a0626fbb86c705b3c7be4d0195a73627e">SpectateSet</a>, <span class="keyword">this</span>, pl))</div>
-<div class="line"><a name="l01698"></a><span class="lineno"> 1698</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01699"></a><span class="lineno"> 1699</span>&#160;    pl = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l01700"></a><span class="lineno"> 1700</span>&#160;</div>
-<div class="line"><a name="l01701"></a><span class="lineno"> 1701</span>&#160;    <a class="code" href="../../da/d53/cl__client_8qc.html#ac41a298cc0293504a18d2b0065902121">SetSpectatee</a>(<span class="keyword">this</span>, pl);</div>
-<div class="line"><a name="l01702"></a><span class="lineno"> 1702</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d53/cl__client_8qc.html#a0626fbb86c705b3c7be4d0195a73627e">SpectateSet</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l01703"></a><span class="lineno"> 1703</span>&#160;}</div>
-<div class="ttc" id="cl__client_8qc_html_a0626fbb86c705b3c7be4d0195a73627e"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#a0626fbb86c705b3c7be4d0195a73627e">SpectateSet</a></div><div class="ttdeci">bool SpectateSet(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01666">cl_client.qc:1666</a></div></div>
-<div class="ttc" id="cl__client_8qc_html_ac41a298cc0293504a18d2b0065902121"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#ac41a298cc0293504a18d2b0065902121">SetSpectatee</a></div><div class="ttdeci">void SetSpectatee(entity player, entity spectatee)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01683">cl_client.qc:1683</a></div></div>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00018">M_ARGV</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00137">MUTATOR_CALLHOOK</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01685">SetSpectatee()</a>, and <a class="el" href="../../da/d53/cl__client_8qc_source.html#l01668">SpectateSet()</a>.</p>
+<div class="fragment"><div class="line"><a name="l01698"></a><span class="lineno"> 1698</span>&#160;{</div>
+<div class="line"><a name="l01699"></a><span class="lineno"> 1699</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(<a class="code" href="../../da/d53/cl__client_8qc.html#a0626fbb86c705b3c7be4d0195a73627e">SpectateSet</a>, <span class="keyword">this</span>, pl))</div>
+<div class="line"><a name="l01700"></a><span class="lineno"> 1700</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01701"></a><span class="lineno"> 1701</span>&#160;    pl = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l01702"></a><span class="lineno"> 1702</span>&#160;</div>
+<div class="line"><a name="l01703"></a><span class="lineno"> 1703</span>&#160;    <a class="code" href="../../da/d53/cl__client_8qc.html#ac41a298cc0293504a18d2b0065902121">SetSpectatee</a>(<span class="keyword">this</span>, pl);</div>
+<div class="line"><a name="l01704"></a><span class="lineno"> 1704</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../da/d53/cl__client_8qc.html#a0626fbb86c705b3c7be4d0195a73627e">SpectateSet</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l01705"></a><span class="lineno"> 1705</span>&#160;}</div>
+<div class="ttc" id="cl__client_8qc_html_a0626fbb86c705b3c7be4d0195a73627e"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#a0626fbb86c705b3c7be4d0195a73627e">SpectateSet</a></div><div class="ttdeci">bool SpectateSet(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01668">cl_client.qc:1668</a></div></div>
+<div class="ttc" id="cl__client_8qc_html_ac41a298cc0293504a18d2b0065902121"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#ac41a298cc0293504a18d2b0065902121">SetSpectatee</a></div><div class="ttdeci">void SetSpectatee(entity player, entity spectatee)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01685">cl_client.qc:1685</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00018">events.qh:18</a></div></div>
 <div class="ttc" id="base_8qh_html_a293be81bad1a89950f06a4a593a8cb75"><div class="ttname"><a href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a></div><div class="ttdeci">#define MUTATOR_CALLHOOK(id,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00137">base.qh:137</a></div></div>
@@ -621,7 +621,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d1/d30/cl__client_8qh.html">cl_client.qh</a></li>
-    <li class="footer">Generated on Tue Jul 5 2016 09:36:08 for Xonotic by
+    <li class="footer">Generated on Wed Jul 6 2016 04:30:30 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

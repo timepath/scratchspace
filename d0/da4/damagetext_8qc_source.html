@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('d0/da4/damagetext_8qc_source.html','..
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#if defined(CSQC) || defined(MENUQC)</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span><span class="comment">// no translatable cvar description please</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<a class="code" href="../../d0/d4f/cvar_8qh.html#a0d279b70ce03fb2dd0ef2b2228f65fdf">AUTOCVAR_SAVE</a>(cl_damagetext,                    <span class="keywordtype">bool</span>,   <span class="keyword">false</span>,      <span class="stringliteral">&quot;Draw damage dealt where you hit the enemy&quot;</span>);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<a class="code" href="../../d0/d4f/cvar_8qh.html#a0d279b70ce03fb2dd0ef2b2228f65fdf">AUTOCVAR_SAVE</a>(cl_damagetext,                    <span class="keywordtype">bool</span>,   <span class="keyword">true</span>,      <span class="stringliteral">&quot;Draw damage dealt where you hit the enemy&quot;</span>);</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<a class="code" href="../../d0/d4f/cvar_8qh.html#a0d279b70ce03fb2dd0ef2b2228f65fdf">AUTOCVAR_SAVE</a>(cl_damagetext_format,             <span class="keywordtype">string</span>, <span class="stringliteral">&quot;-{total}&quot;</span>, <span class="stringliteral">&quot;How to format the damage text. {health}, {armor}, {total}&quot;</span>);</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<a class="code" href="../../d4/d1a/static_8qh.html#a8adce259cbe13be1381a0d1872b690c2">STATIC_INIT</a>(DamageText_LegacyFormat) {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(autocvar_cl_damagetext_format, <span class="stringliteral">&quot;{&quot;</span>, 0) &lt; 0) autocvar_cl_damagetext_format = <span class="stringliteral">&quot;-{total}&quot;</span>;</div>
@@ -377,7 +377,7 @@ $(document).ready(function(){initNavTree('d0/da4/damagetext_8qc_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_fac6fab545f3e20d7e34223e8b0e96a7.html">damagetext</a></li><li class="navelem"><a class="el" href="../../d0/da4/damagetext_8qc.html">damagetext.qc</a></li>
-    <li class="footer">Generated on Tue Jul 5 2016 09:35:56 for Xonotic by
+    <li class="footer">Generated on Wed Jul 6 2016 04:30:17 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
