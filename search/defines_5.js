@@ -45,6 +45,7 @@ var searchData=
   ['ev_5fclientkill',['EV_ClientKill',['../d6/ddd/server_2mutators_2events_8qh.html#a45ffe38f673bd70d5c3d7ffcfbc65c33',1,'events.qh']]],
   ['ev_5fcsqc_5fconsolecommand',['EV_CSQC_ConsoleCommand',['../d8/d0e/client_2mutators_2events_8qh.html#a622e3f3fc74d161682435c58f1d2f046',1,'events.qh']]],
   ['ev_5fcustomizewaypoint',['EV_CustomizeWaypoint',['../d6/ddd/server_2mutators_2events_8qh.html#ad46350e6bb8eca159cda8bf73639f40e',1,'events.qh']]],
+  ['ev_5fdrawgrapplinghook',['EV_DrawGrapplingHook',['../d8/d0e/client_2mutators_2events_8qh.html#a190dc70f275de005ee3ce2dc186cbce8',1,'events.qh']]],
   ['ev_5fdropspecialitems',['EV_DropSpecialItems',['../d6/ddd/server_2mutators_2events_8qh.html#a9cb0474e6bc45820d78b5d55f9f7b512',1,'events.qh']]],
   ['ev_5feditprojectile',['EV_EditProjectile',['../d8/d0e/client_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea',1,'EV_EditProjectile():&#160;events.qh'],['../d6/ddd/server_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea',1,'EV_EditProjectile():&#160;events.qh']]],
   ['ev_5fent_5fprojectile',['EV_Ent_Projectile',['../d8/d0e/client_2mutators_2events_8qh.html#ad401df82de86be4f17b96f90e41f5171',1,'events.qh']]],

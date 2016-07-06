@@ -1,5 +1,7 @@
 var NAVTREEINDEX107 =
 {
+"dd/da3/classXonoticMusicPlayerTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,192,85],
+"dd/da3/classXonoticMusicPlayerTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,192,75],
 "dd/da3/classXonoticMusicPlayerTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,192,74],
 "dd/da3/classXonoticMusicPlayerTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,192,41],
 "dd/da3/classXonoticMusicPlayerTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,192,34],
@@ -247,7 +249,5 @@ var NAVTREEINDEX107 =
 "dd/db3/classXonoticQuitDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,202,26],
 "dd/db3/classXonoticQuitDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,202,30],
 "dd/db3/classXonoticQuitDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,202,82],
-"dd/db3/common_2mutators_2mutator_2running__guns_2__mod_8qh.html":[2,0,1,9,0,24,1],
-"dd/db3/common_2mutators_2mutator_2running__guns_2__mod_8qh_source.html":[2,0,1,9,0,24,1],
-"dd/dc5/client_2weapons_2__mod_8inc.html":[2,0,0,3,0]
+"dd/db3/common_2mutators_2mutator_2running__guns_2__mod_8qh.html":[2,0,1,9,0,24,1]
 };

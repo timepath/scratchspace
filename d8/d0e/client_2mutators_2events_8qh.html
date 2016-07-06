@@ -135,6 +135,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a622e3f3fc74d161682435c58f1d2f046"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a622e3f3fc74d161682435c58f1d2f046">EV_CSQC_ConsoleCommand</a>(i, o)</td></tr>
 <tr class="memdesc:a622e3f3fc74d161682435c58f1d2f046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, CSQC_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled string cmd_name = <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV(0, string)</a>; int cmd_argc = <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV(1, int)</a>; if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }.  <a href="#a622e3f3fc74d161682435c58f1d2f046">More...</a><br/></td></tr>
 <tr class="separator:a622e3f3fc74d161682435c58f1d2f046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a190dc70f275de005ee3ce2dc186cbce8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a190dc70f275de005ee3ce2dc186cbce8">EV_DrawGrapplingHook</a>(i, o)</td></tr>
+<tr class="memdesc:a190dc70f275de005ee3ce2dc186cbce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the grapple hook, allows changing hook texture and colour.  <a href="#a190dc70f275de005ee3ce2dc186cbce8">More...</a><br/></td></tr>
+<tr class="separator:a190dc70f275de005ee3ce2dc186cbce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ad70187358414cbaf8f2a0968c0fdea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea">EV_EditProjectile</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> id */ i(<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:a1ad70187358414cbaf8f2a0968c0fdea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a projectile's properties are being modified.  <a href="#a1ad70187358414cbaf8f2a0968c0fdea">More...</a><br/></td></tr>
 <tr class="separator:a1ad70187358414cbaf8f2a0968c0fdea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,6 +214,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5714a7da6a0706fca795bd2208b63653"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b3e217572eef353524233cd256cfe53"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a4b3e217572eef353524233cd256cfe53">MUTATOR_HOOKABLE</a> (HUD_Command, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a6cb59ab1d2677d7ef5909b496b1e578d">EV_HUD_Command</a>)</td></tr>
 <tr class="separator:a4b3e217572eef353524233cd256cfe53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a096b01ba01fafbef7c8796d63e06a1b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a096b01ba01fafbef7c8796d63e06a1b1">MUTATOR_HOOKABLE</a> (DrawGrapplingHook, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a190dc70f275de005ee3ce2dc186cbce8">EV_DrawGrapplingHook</a>)</td></tr>
+<tr class="separator:a096b01ba01fafbef7c8796d63e06a1b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a25bfd691414ad6357c67077eb7917f73"></a>
@@ -270,6 +275,41 @@ Functions</h2></td></tr>
 <p>Called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, CSQC_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled string cmd_name = <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV(0, string)</a>; int cmd_argc = <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV(1, int)</a>; if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }. </p>
 
 <p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00026">26</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a190dc70f275de005ee3ce2dc186cbce8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_DrawGrapplingHook</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">            i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \          i(<span class="keywordtype">string</span>, MUTATOR_ARGV_1_string) \</div>
+<div class="line">    <span class="comment">/***/</span>                   o(<span class="keywordtype">string</span>, MUTATOR_ARGV_1_string) \          i(<a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a>, MUTATOR_ARGV_2_vector) \</div>
+<div class="line">    <span class="comment">/***/</span>                   o(<a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a>, MUTATOR_ARGV_2_vector) \          i(<span class="keywordtype">float</span>, MUTATOR_ARGV_3_float) \</div>
+<div class="ttc" id="self_8qh_html_a7ea82552101f041fad7635b3ed036a84"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a></div><div class="ttdeci">vector</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00090">self.qh:90</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+</div><!-- fragment -->
+<p>Draw the grapple hook, allows changing hook texture and colour. </p>
+
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00129">129</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -1134,13 +1174,39 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a096b01ba01fafbef7c8796d63e06a1b1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype">DrawGrapplingHook&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a190dc70f275de005ee3ce2dc186cbce8">EV_DrawGrapplingHook</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_08b4cf75afed9a7734ab4c2d9f3e6fae.html">mutators</a></li><li class="navelem"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Wed Jul 6 2016 04:30:22 for Xonotic by
+    <li class="footer">Generated on Wed Jul 6 2016 05:42:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

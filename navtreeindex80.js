@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"da/d20/spawnfunc_8qh.html#ab4eb66deff727f2822c9d56d85d71d61":[2,0,4,49,15],
+"da/d20/spawnfunc_8qh.html#ab76cf6e2005f73caa6f26550a642fdb0":[2,0,4,49,5],
 "da/d20/spawnfunc_8qh.html#aba58f0f254a7470e43b0294be317a734":[2,0,4,49,10],
 "da/d20/spawnfunc_8qh.html#ac237ac49370487f5d91312a3bdd04abc":[2,0,4,49,11],
 "da/d20/spawnfunc_8qh.html#acf818192a10457d834cc057718d25ad3":[2,0,4,49,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "da/d46/classMLRSTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,63,2],
 "da/d46/classMLRSTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,63,6],
 "da/d46/classMLRSTurret.html#ac5a105413373a3666c31690e4405da91":[1,0,63,12],
-"da/d46/picker_8qc.html":[2,0,5,4,184],
-"da/d46/picker_8qc.html#a132ba96da5ba28448b61e42c019312a9":[2,0,5,4,184,12],
-"da/d46/picker_8qc.html#a31daa00a20ea0b0228b3a664c8e90483":[2,0,5,4,184,0]
+"da/d46/picker_8qc.html":[2,0,5,4,184]
 };
