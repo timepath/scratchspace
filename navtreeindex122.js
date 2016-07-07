@@ -1,5 +1,10 @@
 var NAVTREEINDEX122 =
 {
+"df/dd4/navigation_8qh.html#ac04a7b9ea11337a93febd08c22ea7db7":[2,0,6,0,8,20],
+"df/dd4/navigation_8qh.html#ac4f53fe093adbbcbedc119132f5c28ea":[2,0,6,0,8,25],
+"df/dd4/navigation_8qh.html#ac9ef7022a35372b32e22129e5368ebde":[2,0,6,0,8,47],
+"df/dd4/navigation_8qh.html#acb97094f5c75ec8e9ea997107515207a":[2,0,6,0,8,51],
+"df/dd4/navigation_8qh.html#acdb33c0ca48e8abd888a76b7ab7e71d6":[2,0,6,0,8,53],
 "df/dd4/navigation_8qh.html#ace7a78f6a84267a15d64745b9db6ec35":[2,0,6,0,8,46],
 "df/dd4/navigation_8qh.html#ad1ed9d9726a49a43a91cbd1615933d73":[2,0,6,0,8,42],
 "df/dd4/navigation_8qh.html#ad2bd8bd2a08366fd2c06e708460e59bd":[2,0,6,0,8,64],
@@ -244,10 +249,5 @@ var NAVTREEINDEX122 =
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac3273fd148e2e163689e948d600fb187":[1,0,209,8],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac40c387fa816abb4367ff86fe85c386e":[1,0,209,38],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#ac6094922668d013ada3893854eec6b0f":[1,0,209,16],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#acd339ed42a2f51ac07364931d53de5a1":[1,0,209,84],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ad4aa27a0cf7fb7e282c728b12ec95472":[1,0,209,31],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ad5a208844a1703bc3c21caa3514e2b86":[1,0,209,83],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,209,66],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#adaa5758d892388fae91c0d1d5e7333d1":[1,0,209,85],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#adebd46165082ac743d9d0f1fc3d450cb":[1,0,209,89]
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#acd339ed42a2f51ac07364931d53de5a1":[1,0,209,84]
 };

@@ -6,6 +6,7 @@ var classRacer =
     [ "vr_crosshair", "dd/dd7/classRacer.html#a58f0c04e5979c92f1d5329627cbf1331", null ],
     [ "vr_death", "dd/dd7/classRacer.html#ad29884a3f395ad9d49c4eceab06a2957", null ],
     [ "vr_enter", "dd/dd7/classRacer.html#ab0033bb43b823ae364fcaa9f6d73c520", null ],
+    [ "vr_gunner_enter", "dd/dd7/classRacer.html#a0143fe165e9d96006d3e1c71cba469b0", null ],
     [ "vr_hud", "dd/dd7/classRacer.html#af6f42dcff19b7fb5b76462a7d5848b97", null ],
     [ "vr_impact", "dd/dd7/classRacer.html#a962d81e9c45a8f2ad1349065e65d098f", null ],
     [ "vr_precache", "dd/dd7/classRacer.html#a91f922352c8e6ca7b9b56617c530b8b4", null ],

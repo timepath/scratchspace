@@ -92,6 +92,7 @@ var searchData=
   ['vr_5fcrosshair',['vr_crosshair',['../dc/d23/classVehicle.html#a58f0c04e5979c92f1d5329627cbf1331',1,'Vehicle']]],
   ['vr_5fdeath',['vr_death',['../dc/d23/classVehicle.html#ad29884a3f395ad9d49c4eceab06a2957',1,'Vehicle']]],
   ['vr_5fenter',['vr_enter',['../dc/d23/classVehicle.html#ab0033bb43b823ae364fcaa9f6d73c520',1,'Vehicle']]],
+  ['vr_5fgunner_5fenter',['vr_gunner_enter',['../dc/d23/classVehicle.html#a0143fe165e9d96006d3e1c71cba469b0',1,'Vehicle']]],
   ['vr_5fhud',['vr_hud',['../dc/d23/classVehicle.html#af6f42dcff19b7fb5b76462a7d5848b97',1,'Vehicle']]],
   ['vr_5fimpact',['vr_impact',['../dc/d23/classVehicle.html#a962d81e9c45a8f2ad1349065e65d098f',1,'Vehicle']]],
   ['vr_5fprecache',['vr_precache',['../dc/d23/classVehicle.html#a91f922352c8e6ca7b9b56617c530b8b4',1,'Vehicle']]],

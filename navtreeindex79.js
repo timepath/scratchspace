@@ -1,5 +1,6 @@
 var NAVTREEINDEX79 =
 {
+"d9/df7/mathlib_8qh.html#a368fab4964efe1287d1cdc33ad339c6c":[2,0,4,2,9,47],
 "d9/df7/mathlib_8qh.html#a37105d1bf9bfe3d740f678512919e1b5":[2,0,4,2,9,51],
 "d9/df7/mathlib_8qh.html#a3f2452dce1214eabb9f499048c9703cd":[2,0,4,2,9,64],
 "d9/df7/mathlib_8qh.html#a44b0ea5e419670a7106eed20ff311cd1":[2,0,4,2,9,43],
@@ -248,6 +249,5 @@ var NAVTREEINDEX79 =
 "da/d20/spawnfunc_8qh.html#a82f4dd939d49e3dbc4926a5823ffb0c8":[2,0,4,49,4],
 "da/d20/spawnfunc_8qh.html#a88ddff5232ca6a3ebf1e0c263da3576b":[2,0,4,49,6],
 "da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153":[2,0,4,49,9],
-"da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd":[2,0,4,49,12],
-"da/d20/spawnfunc_8qh.html#aa84e4fe4fa33b1c501a7b73363c7cc2f":[2,0,4,49,7]
+"da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd":[2,0,4,49,12]
 };

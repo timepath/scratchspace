@@ -1,5 +1,7 @@
 var NAVTREEINDEX89 =
 {
+"db/d5b/classXonoticGameMessageSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,151,81],
+"db/d5c/walker_8qc.html":[2,0,1,14,0,31],
 "db/d5c/walker_8qc.html#a5e55184911b154a13b47c08e02f73446":[2,0,1,14,0,31,1],
 "db/d5c/walker_8qc.html#ab38fa2db96349127fa767e499d74500f":[2,0,1,14,0,31,2],
 "db/d5c/walker_8qc_source.html":[2,0,1,14,0,31],
@@ -247,7 +249,5 @@ var NAVTREEINDEX89 =
 "db/d7f/effectinfo_8inc.html#a3bf4c8e49c5444e7c1ea9a70f1743d1a":[2,0,1,2,7,86],
 "db/d7f/effectinfo_8inc.html#a3cb895b009b9d198fbc015acccb4768e":[2,0,1,2,7,147],
 "db/d7f/effectinfo_8inc.html#a3e368b093aa57c516bee2bb5fbe45425":[2,0,1,2,7,133],
-"db/d7f/effectinfo_8inc.html#a3e5003e47ad54ce83504e12307569aba":[2,0,1,2,7,203],
-"db/d7f/effectinfo_8inc.html#a3e7845d81ec98e70a6e3e53becaae2f5":[2,0,1,2,7,259],
-"db/d7f/effectinfo_8inc.html#a3fd261078b3848a9e6e539c6794dd249":[2,0,1,2,7,267]
+"db/d7f/effectinfo_8inc.html#a3e5003e47ad54ce83504e12307569aba":[2,0,1,2,7,203]
 };

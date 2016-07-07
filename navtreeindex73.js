@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"d8/dfe/classPlasmaDualAttack.html#aef0b48ef9e2bfaa3a1db1d0e1b4fdec8":[1,0,80,26],
 "d8/dfe/classPlasmaDualAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,80,15],
 "d8/dfe/classPlasmaDualAttack.html#afba05a26a4843e2b4b22d4ad9c7ff03f":[1,0,80,23],
 "d8/dfe/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8qh.html":[2,0,1,9,0,26,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "d9/d35/common_2mutators_2mutator_2bugrigs_2__mod_8qh.html":[2,0,1,9,0,3,1],
 "d9/d35/common_2mutators_2mutator_2bugrigs_2__mod_8qh_source.html":[2,0,1,9,0,3,1],
 "d9/d35/csqcprojectile_8qh.html":[2,0,6,4,7],
-"d9/d35/csqcprojectile_8qh.html#a041b0a1ddf8b3bfd790cadc39e07dc7b":[2,0,6,4,7,2],
-"d9/d35/csqcprojectile_8qh.html#a648559f20af9210bf14eb62a892f0d04":[2,0,6,4,7,4]
+"d9/d35/csqcprojectile_8qh.html#a041b0a1ddf8b3bfd790cadc39e07dc7b":[2,0,6,4,7,2]
 };
