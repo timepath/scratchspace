@@ -277,10 +277,10 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        }</div>
 <div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;</div>
 <div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        <span class="comment">// allow some binds</span></div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        <span class="keywordtype">string</span> con_keys;</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;        con_keys = findkeysforcommand(<span class="stringliteral">&quot;toggleconsole&quot;</span>, 0);</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        <span class="keywordtype">int</span> keys = <a class="code" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize</a>(con_keys); <span class="comment">// findkeysforcommand returns data for this</span></div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; keys; ++i)</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;        <span class="keywordtype">string</span> con_keys = findkeysforcommand(<span class="stringliteral">&quot;toggleconsole&quot;</span>, 0);</div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;        <span class="keywordtype">int</span> keys = <a class="code" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize</a>(con_keys); <span class="comment">// findkeysforcommand returns data for this</span></div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;        <span class="keywordtype">int</span> i;</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        <span class="keywordflow">for</span> (i = 0; i &lt; keys; ++i)</div>
 <div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;        {</div>
 <div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;            <span class="keywordflow">if</span>(nPrimary == <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(i)))</div>
 <div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -2554,7 +2554,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../d5/d4a/cl__minigames__hud_8qc.html">cl_minigames_hud.qc</a></li>
-    <li class="footer">Generated on Sun Jul 10 2016 07:56:05 for Xonotic by
+    <li class="footer">Generated on Mon Jul 11 2016 12:34:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

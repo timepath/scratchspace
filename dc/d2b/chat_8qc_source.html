@@ -153,7 +153,7 @@ $(document).ready(function(){initNavTree('dc/d2b/chat_8qc_source.html','../../')
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            <a class="code" href="../../d3/d05/hud_8qh.html#ae6e445f0691f7ddc27fadc6b560afe49">panel</a>.current_panel_bg = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(panel_bg);</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <a class="code" href="../../d3/d05/hud_8qh.html#af1ea65cc101371fce0ad1aca1ddf7301">chat_panel_modified</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        }</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="../../d3/d05/hud_8qh.html#ace57c988c7b84a7a07d836f1a3668ad3">panel_bg_alpha</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0.75, <a class="code" href="../../d3/d05/hud_8qh.html#ace57c988c7b84a7a07d836f1a3668ad3">panel_bg_alpha</a>); <span class="comment">// force an theAlpha of at least 0.75</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <a class="code" href="../../d3/d05/hud_8qh.html#ace57c988c7b84a7a07d836f1a3668ad3">panel_bg_alpha</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0.75, <a class="code" href="../../d3/d05/hud_8qh.html#ace57c988c7b84a7a07d836f1a3668ad3">panel_bg_alpha</a>);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    }</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> pos, mySize;</div>
@@ -183,7 +183,7 @@ $(document).ready(function(){initNavTree('dc/d2b/chat_8qc_source.html','../../')
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    {</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> chatsize;</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        chatsize = <span class="stringliteral">&#39;1 1 0&#39;</span> * <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#afc661ce939d4fe61e03ab31c0c093a5b">autocvar_con_chatsize</a>;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;con_chatrect_x&quot;</span>, <span class="stringliteral">&quot;9001&quot;</span>); <span class="comment">// over 9000, we&#39;ll fake it instead for more control over theAlpha and such</span></div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;con_chatrect_x&quot;</span>, <span class="stringliteral">&quot;9001&quot;</span>); <span class="comment">// over 9000, we&#39;ll fake it instead for more control over alpha and such</span></div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="keywordtype">float</span> i, a;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        <span class="keywordflow">for</span>(i = 0; i &lt; <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a2133679236cf3264da767bae41ab9b35">autocvar_con_chat</a>; ++i)</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        {</div>
@@ -244,7 +244,7 @@ $(document).ready(function(){initNavTree('dc/d2b/chat_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../dc/d2b/chat_8qc.html">chat.qc</a></li>
-    <li class="footer">Generated on Sun Jul 10 2016 07:55:58 for Xonotic by
+    <li class="footer">Generated on Mon Jul 11 2016 12:34:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
