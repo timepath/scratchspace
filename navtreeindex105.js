@@ -1,5 +1,6 @@
 var NAVTREEINDEX105 =
 {
+"dd/d70/pathlib_8qh.html#acefcadef05f7952696fcc994b7b9c71c":[2,0,6,3,15,16],
 "dd/d70/pathlib_8qh.html#ad30cdc6424338f42e43135eee8816ea2":[2,0,6,3,15,24],
 "dd/d70/pathlib_8qh.html#ad76ab6e032446af6b5b59a39a18338ba":[2,0,6,3,15,13],
 "dd/d70/pathlib_8qh.html#ad7de5bcdc8408ab70bbdd24a06e56c57":[2,0,6,3,15,44],
@@ -248,6 +249,5 @@ var NAVTREEINDEX105 =
 "dd/d90/classRaptorFlare.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,92,12],
 "dd/d90/classRaptorFlare.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,92,10],
 "dd/d90/classRaptorFlare.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,92,3],
-"dd/d90/classRaptorFlare.html#ab85fabb72654d058fc379853e1decee4":[1,0,92,30],
-"dd/d90/classRaptorFlare.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,92,8]
+"dd/d90/classRaptorFlare.html#ab85fabb72654d058fc379853e1decee4":[1,0,92,30]
 };

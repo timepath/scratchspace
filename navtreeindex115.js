@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"de/dab/classObserver.html#af04000dc778c4b1b0ec980ea3541b0f8":[1,0,73,19],
 "de/dae/havocbot_2scripting_8qh.html":[2,0,6,0,0,6],
 "de/dae/havocbot_2scripting_8qh.html#a6893523d5caad3e47941ebb88916a721":[2,0,6,0,0,6,0],
 "de/dae/havocbot_2scripting_8qh_source.html":[2,0,6,0,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,165,82],
 "de/de8/portals_8qc.html":[2,0,6,49],
 "de/de8/portals_8qc.html#a048473a7db5811b50ee173c77ad557fd":[2,0,6,49,31],
-"de/de8/portals_8qc.html#a088684099ef22cff92da827e28df7407":[2,0,6,49,2],
-"de/de8/portals_8qc.html#a094624b4f82802e6d53a8b12f370727f":[2,0,6,49,26]
+"de/de8/portals_8qc.html#a088684099ef22cff92da827e28df7407":[2,0,6,49,2]
 };
