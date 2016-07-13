@@ -1,5 +1,6 @@
 var NAVTREEINDEX74 =
 {
+"d9/d35/common_2mutators_2mutator_2bugrigs_2__mod_8qh_source.html":[2,0,1,9,0,3,1],
 "d9/d35/csqcprojectile_8qh.html":[2,0,6,4,7],
 "d9/d35/csqcprojectile_8qh.html#a041b0a1ddf8b3bfd790cadc39e07dc7b":[2,0,6,4,7,2],
 "d9/d35/csqcprojectile_8qh.html#a648559f20af9210bf14eb62a892f0d04":[2,0,6,4,7,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX74 =
 "d9/d58/classXonoticResolutionSlider.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,206,32],
 "d9/d58/classXonoticResolutionSlider.html#aeeea196cce280d4e95730a8f06b80518":[1,0,206,20],
 "d9/d58/classXonoticResolutionSlider.html#af20048d510e0b3718ccadbc849fa6843":[1,0,206,72],
-"d9/d58/classXonoticResolutionSlider.html#af6491199d7c16232c6ec828661a64ecf":[1,0,206,4],
-"d9/d58/classXonoticResolutionSlider.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,206,28]
+"d9/d58/classXonoticResolutionSlider.html#af6491199d7c16232c6ec828661a64ecf":[1,0,206,4]
 };

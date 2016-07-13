@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"df/d97/menu_2xonotic_2util_8qh.html#a8eb356644d69441dba461bca0bb3ab9e":[2,0,5,4,229,7],
 "df/d97/menu_2xonotic_2util_8qh.html#a8ec8f4772028effaca28ae7b1fd6fc90":[2,0,5,4,229,10],
 "df/d97/menu_2xonotic_2util_8qh.html#a90265891986843c2c1863a5a6a4fdbf4":[2,0,5,4,229,0],
 "df/d97/menu_2xonotic_2util_8qh.html#a9067be9a9e9972655717d9552a0f2af9":[2,0,5,4,229,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "df/db0/powerups_8qc.html":[2,0,0,1,0,22],
 "df/db0/powerups_8qc.html#a0548d6d5f32ee93186047be9beff7348":[2,0,0,1,0,22,0],
 "df/db0/powerups_8qc.html#a1f1fca7e9f1d6a7ac9bf7bf9f89b169f":[2,0,0,1,0,22,9],
-"df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa":[2,0,0,1,0,22,8],
-"df/db0/powerups_8qc.html#a5d9cc36a06664262be19fae94fd8e00a":[2,0,0,1,0,22,6]
+"df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa":[2,0,0,1,0,22,8]
 };

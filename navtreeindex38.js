@@ -1,5 +1,6 @@
 var NAVTREEINDEX38 =
 {
+"d4/d93/cl__controlpoint_8qh.html#ade23c66eff0b39351543eaab7c6426da":[2,0,1,3,0,1,3,0],
 "d4/d93/cl__controlpoint_8qh_source.html":[2,0,1,3,0,1,3],
 "d4/d93/classPickup.html":[1,0,78],
 "d4/d93/classPickup.html#a204e6d23b3f571c6ad1745b32fc64f7e":[1,0,78,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX38 =
 "d4/da5/classXonoticBigCommandButton.html#a1f71e31fd265ca4fba4bccee3a807b09":[1,0,125,23],
 "d4/da5/classXonoticBigCommandButton.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,125,41],
 "d4/da5/classXonoticBigCommandButton.html#a219794f05db5fb4f09f9f9d747ef8d71":[1,0,125,59],
-"d4/da5/classXonoticBigCommandButton.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,125,78],
-"d4/da5/classXonoticBigCommandButton.html#a257f9c325381f4b29b5c7acbaa0ba5ae":[1,0,125,12]
+"d4/da5/classXonoticBigCommandButton.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,125,78]
 };

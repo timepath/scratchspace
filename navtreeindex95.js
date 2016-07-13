@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"dc/d01/mutators_2mutator_2bugrigs_2module_8inc.html":[2,0,1,9,0,3,3],
 "dc/d01/mutators_2mutator_2bugrigs_2module_8inc_source.html":[2,0,1,9,0,3,3],
 "dc/d03/keycodes_8qc.html":[2,0,2,0,2],
 "dc/d03/keycodes_8qc.html#a027e9c0de731416e34884a49eca64234":[2,0,2,0,2,51],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "dc/d16/classXonoticMediaTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,188,18],
 "dc/d16/classXonoticMediaTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,188,8],
 "dc/d16/classXonoticMediaTab.html#a331c55a30b4bc22951a251062508326b":[1,0,188,11],
-"dc/d16/classXonoticMediaTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,188,19],
-"dc/d16/classXonoticMediaTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,188,35]
+"dc/d16/classXonoticMediaTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,188,19]
 };

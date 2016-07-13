@@ -123,6 +123,7 @@ var searchData=
   ['void',['void',['../d3/dd0/self_8qh.html#ac9c84fa68bbad002983e35ce3663c686',1,'self.qh']]],
   ['vol_5fbase',['VOL_BASE',['../d0/df5/sound_8qh.html#a353d870104b3e8ae2a5fc5584279c735',1,'sound.qh']]],
   ['vol_5fbasevoice',['VOL_BASEVOICE',['../d0/df5/sound_8qh.html#a12d36c235c3a364016fcec97b9d83078',1,'sound.qh']]],
+  ['vol_5fmuffled',['VOL_MUFFLED',['../d0/df5/sound_8qh.html#ab436e85498fabfdf98c65ddb81208ffd',1,'sound.qh']]],
   ['volly_5fcounter',['volly_counter',['../df/d28/sv__turrets_8qh.html#a228b8db97032e558815f2ce98430dce5',1,'sv_turrets.qh']]],
   ['volume',['volume',['../d6/d25/triggers_8qh.html#a016abda2855c77dcc1630f9d2f9f8d18',1,'triggers.qh']]],
   ['vortex_5fcharge',['vortex_charge',['../d5/d26/server_2defs_8qh.html#a007e97f904a08307b01bb1e9d9bb4441',1,'defs.qh']]],
