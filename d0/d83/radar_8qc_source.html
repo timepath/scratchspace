@@ -462,7 +462,7 @@ $(document).ready(function(){initNavTree('d0/d83/radar_8qc_source.html','../../'
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;</div>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#af074f38b967b7ff501a4eefc91164556">FOREACH_ENTITY_FLAGS</a>(teamradar_icon, 0xFFFFFF, {</div>
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        <span class="keywordflow">if</span> ( <a class="code" href="../../d3/d05/hud_8qh.html#a1ea4e4a57b532d29d86133f49f6138ff">hud_panel_radar_mouse</a> )</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        <span class="keywordflow">if</span> ( it.health &gt; 0 || !it.health )</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;        <span class="keywordflow">if</span> ( it.health &gt;= 0 )</div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        if ( it.team == myteam+1 || <a class="code" href="../../d0/d2a/client_2main_8qh.html#a6b01d68b86a91c9201ba7088b284f43f">gametype</a> == MAPINFO_TYPE_RACE || !(<a class="code" href="../../d9/d08/client_2defs_8qh.html#a880644b703b9461c04c0ae8af0866a65">serverflags</a> &amp; <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a589686464c46a353960d0ba3696d15c0">SERVERFLAG_TEAMPLAY</a>) )</div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;        {</div>
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> coord = <a class="code" href="../../de/dc3/teamradar_8qc.html#acc159f2fe7a18525736a2d686d7f974f">teamradar_texcoord_to_2dcoord</a>(<a class="code" href="../../de/dc3/teamradar_8qc.html#ab67c3387547f7b4aee8bea85e926244d">teamradar_3dcoord_to_texcoord</a>(it.origin));</div>
@@ -635,7 +635,7 @@ $(document).ready(function(){initNavTree('d0/d83/radar_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d0/d83/radar_8qc.html">radar.qc</a></li>
-    <li class="footer">Generated on Wed Jul 13 2016 11:49:29 for Xonotic by
+    <li class="footer">Generated on Wed Jul 13 2016 22:16:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
