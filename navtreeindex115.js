@@ -1,5 +1,7 @@
 var NAVTREEINDEX115 =
 {
+"de/dab/classObserver.html#acfba4844d0d0cb5ed2c07f876f2b9647":[1,0,73,14],
+"de/dab/classObserver.html#ae355958a385e61face4d5c090fd1b4ec":[1,0,73,4],
 "de/dab/classObserver.html#af04000dc778c4b1b0ec980ea3541b0f8":[1,0,73,19],
 "de/dae/havocbot_2scripting_8qh.html":[2,0,6,0,0,6],
 "de/dae/havocbot_2scripting_8qh.html#a6893523d5caad3e47941ebb88916a721":[2,0,6,0,0,6,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX115 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,165,26],
 "de/de7/classXonoticHUDItemsTimeDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,165,30],
 "de/de7/classXonoticHUDItemsTimeDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,165,82],
-"de/de8/portals_8qc.html":[2,0,6,49],
-"de/de8/portals_8qc.html#a048473a7db5811b50ee173c77ad557fd":[2,0,6,49,31],
-"de/de8/portals_8qc.html#a088684099ef22cff92da827e28df7407":[2,0,6,49,2]
+"de/de8/portals_8qc.html":[2,0,6,49]
 };

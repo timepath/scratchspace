@@ -1,5 +1,7 @@
 var NAVTREEINDEX94 =
 {
+"db/ddb/classXonoticCvarList.html#a65253f3ac21bfcd270aaeefce4d9ac0d":[1,0,139,31],
+"db/ddb/classXonoticCvarList.html#a6655cecf0498a6f486b9e5ec31216462":[1,0,139,21],
 "db/ddb/classXonoticCvarList.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,139,4],
 "db/ddb/classXonoticCvarList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,139,61],
 "db/ddb/classXonoticCvarList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,139,24],
@@ -247,7 +249,5 @@ var NAVTREEINDEX94 =
 "db/dfc/round__handler_8qc.html#addd3a61b04d2110fa066146acfbbf75b":[2,0,6,54,0],
 "db/dfc/round__handler_8qc.html#afa84ad6fb073b0cf1cbae7eb74f70e4c":[2,0,6,54,4],
 "db/dfc/round__handler_8qc_source.html":[2,0,6,54],
-"dc/d01/mutators_2mutator_2bugrigs_2module_8inc.html":[2,0,1,9,0,3,3],
-"dc/d01/mutators_2mutator_2bugrigs_2module_8inc_source.html":[2,0,1,9,0,3,3],
-"dc/d03/keycodes_8qc.html":[2,0,2,0,2]
+"dc/d01/mutators_2mutator_2bugrigs_2module_8inc.html":[2,0,1,9,0,3,3]
 };

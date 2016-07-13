@@ -1,5 +1,7 @@
 var NAVTREEINDEX73 =
 {
+"d8/dfe/classPlasmaDualAttack.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,80,20],
+"d8/dfe/classPlasmaDualAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,80,22],
 "d8/dfe/classPlasmaDualAttack.html#aef0b48ef9e2bfaa3a1db1d0e1b4fdec8":[1,0,80,26],
 "d8/dfe/classPlasmaDualAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,80,15],
 "d8/dfe/classPlasmaDualAttack.html#afba05a26a4843e2b4b22d4ad9c7ff03f":[1,0,80,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX73 =
 "d9/d2f/classXonoticNexposee.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,194,23],
 "d9/d2f/classXonoticNexposee.html#afc9428d371ed63dd0316db5558e81d30":[1,0,194,52],
 "d9/d35/common_2mutators_2mutator_2bugrigs_2__mod_8qh.html":[2,0,1,9,0,3,1],
-"d9/d35/common_2mutators_2mutator_2bugrigs_2__mod_8qh_source.html":[2,0,1,9,0,3,1],
-"d9/d35/csqcprojectile_8qh.html":[2,0,6,4,7],
-"d9/d35/csqcprojectile_8qh.html#a041b0a1ddf8b3bfd790cadc39e07dc7b":[2,0,6,4,7,2]
+"d9/d35/common_2mutators_2mutator_2bugrigs_2__mod_8qh_source.html":[2,0,1,9,0,3,1]
 };

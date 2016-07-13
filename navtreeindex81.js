@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"da/d46/classMLRSTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,63,2],
+"da/d46/classMLRSTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,63,6],
 "da/d46/classMLRSTurret.html#ac5a105413373a3666c31690e4405da91":[1,0,63,12],
 "da/d46/picker_8qc.html":[2,0,5,4,184],
 "da/d46/picker_8qc.html#a132ba96da5ba28448b61e42c019312a9":[2,0,5,4,184,12],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "da/d6d/classXonoticPlayerModelSelector.html#ad0c14cc715393acf0ebe65182437e5f9":[1,0,199,34],
 "da/d6d/classXonoticPlayerModelSelector.html#ad51b529ce0c95f4a5b0ed9820d600054":[1,0,199,48],
 "da/d6d/classXonoticPlayerModelSelector.html#ad7b2477ab4a07abbf34cc0cd3461253c":[1,0,199,18],
-"da/d6d/classXonoticPlayerModelSelector.html#ad996b1a100e82b7c67c5cbed7a92792d":[1,0,199,0],
-"da/d6d/classXonoticPlayerModelSelector.html#adb78159fc487a2925c30050ed729339b":[1,0,199,31],
-"da/d6d/classXonoticPlayerModelSelector.html#adba055bca57bf312ebd7270010f720e4":[1,0,199,57]
+"da/d6d/classXonoticPlayerModelSelector.html#ad996b1a100e82b7c67c5cbed7a92792d":[1,0,199,0]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX103 =
 {
+"dc/df7/classXonoticCvarsDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,140,60],
+"dc/df7/classXonoticCvarsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,140,16],
 "dc/df7/classXonoticCvarsDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,140,28],
 "dc/df7/classXonoticCvarsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,140,2],
 "dc/df7/classXonoticCvarsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,140,26],
@@ -163,10 +165,10 @@ var NAVTREEINDEX103 =
 "dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921":[2,0,6,1,4,6],
 "dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324":[2,0,6,1,4,7],
 "dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1":[2,0,6,1,4,8],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,4,0],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,4,2],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,4,3],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,4,1],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,4,2],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,4,0],
 "dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0":[2,0,6,1,4,11],
 "dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca":[2,0,6,1,4,12],
 "dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114":[2,0,6,1,4,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX103 =
 "dd/d36/classXonoticGameViewSettingsTab.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,155,24],
 "dd/d36/classXonoticGameViewSettingsTab.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,155,53],
 "dd/d36/classXonoticGameViewSettingsTab.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,155,25],
-"dd/d36/classXonoticGameViewSettingsTab.html#abe2c850fde36d76cc9d8904943203ed2":[1,0,155,82],
-"dd/d36/classXonoticGameViewSettingsTab.html#abfb6794849d49c78c50807275e5c3056":[1,0,155,36],
-"dd/d36/classXonoticGameViewSettingsTab.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,155,71]
+"dd/d36/classXonoticGameViewSettingsTab.html#abe2c850fde36d76cc9d8904943203ed2":[1,0,155,82]
 };

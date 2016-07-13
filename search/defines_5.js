@@ -49,6 +49,7 @@ var searchData=
   ['ev_5fdropspecialitems',['EV_DropSpecialItems',['../d6/ddd/server_2mutators_2events_8qh.html#a9cb0474e6bc45820d78b5d55f9f7b512',1,'events.qh']]],
   ['ev_5feditprojectile',['EV_EditProjectile',['../d8/d0e/client_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea',1,'EV_EditProjectile():&#160;events.qh'],['../d6/ddd/server_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea',1,'EV_EditProjectile():&#160;events.qh']]],
   ['ev_5fent_5fprojectile',['EV_Ent_Projectile',['../d8/d0e/client_2mutators_2events_8qh.html#ad401df82de86be4f17b96f90e41f5171',1,'events.qh']]],
+  ['ev_5fent_5fupdate',['EV_Ent_Update',['../d8/d0e/client_2mutators_2events_8qh.html#a7ebaf4073e32f775a794eb58ee87a31d',1,'events.qh']]],
   ['ev_5ffilteritem',['EV_FilterItem',['../d6/ddd/server_2mutators_2events_8qh.html#adb8b394b985708c346fcd515100cabe7',1,'events.qh']]],
   ['ev_5ffirebullet_5fhit',['EV_FireBullet_Hit',['../d6/ddd/server_2mutators_2events_8qh.html#aa77694324d1ed3e52390a39856a0cfe3',1,'events.qh']]],
   ['ev_5ffixclientcvars',['EV_FixClientCvars',['../d6/ddd/server_2mutators_2events_8qh.html#aa8cd6e88c1ecf99e367b344bff6beae7',1,'events.qh']]],
