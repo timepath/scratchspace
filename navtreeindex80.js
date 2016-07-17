@@ -1,5 +1,8 @@
 var NAVTREEINDEX80 =
 {
+"da/d20/spawnfunc_8qh.html#a4de816e6692271520f0bd3d32a2760cc":[2,0,4,49,1],
+"da/d20/spawnfunc_8qh.html#a6cb61ff4c2475d5c45d023b3d550a99a":[2,0,4,49,13],
+"da/d20/spawnfunc_8qh.html#a6db22713f1e01f024520460c92911ade":[2,0,4,49,8],
 "da/d20/spawnfunc_8qh.html#a82f4dd939d49e3dbc4926a5823ffb0c8":[2,0,4,49,4],
 "da/d20/spawnfunc_8qh.html#a88ddff5232ca6a3ebf1e0c263da3576b":[2,0,4,49,6],
 "da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153":[2,0,4,49,9],
@@ -246,8 +249,5 @@ var NAVTREEINDEX80 =
 "da/d46/classMLRSTurret.html#a56e07d5aa23850f9cc9cd5eaa68f0880":[1,0,63,3],
 "da/d46/classMLRSTurret.html#a5b530f68578bcfcd53c0fd19cac6f737":[1,0,63,11],
 "da/d46/classMLRSTurret.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,63,0],
-"da/d46/classMLRSTurret.html#a71748ee7490f869a1ef40df4e23342a2":[1,0,63,10],
-"da/d46/classMLRSTurret.html#a8256a3c636aa9bb0b605192c7aa0abb9":[1,0,63,9],
-"da/d46/classMLRSTurret.html#a8880f997d0d5579a4c07412b8343d4f3":[1,0,63,7],
-"da/d46/classMLRSTurret.html#a9cbd0273110d224aa83170c43e29f691":[1,0,63,5]
+"da/d46/classMLRSTurret.html#a71748ee7490f869a1ef40df4e23342a2":[1,0,63,10]
 };

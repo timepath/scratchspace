@@ -1,5 +1,8 @@
 var NAVTREEINDEX40 =
 {
+"d4/dd3/common_2minigames_2__mod_8inc.html":[2,0,1,6,1],
+"d4/dd3/common_2minigames_2__mod_8inc_source.html":[2,0,1,6,1],
+"d4/dd6/minelayer_8qc.html":[2,0,1,16,0,12],
 "d4/dd6/minelayer_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,12,1],
 "d4/dd6/minelayer_8qc.html#a4ea001ea7bc3c5f29f7c98be8b5b2bde":[2,0,1,16,0,12,2],
 "d4/dd6/minelayer_8qc_source.html":[2,0,1,16,0,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX40 =
 "d4/df8/classXonoticHUDRadarDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,173,68],
 "d4/df8/classXonoticHUDRadarDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,173,66],
 "d4/df8/classXonoticHUDRadarDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,173,12],
-"d4/df8/classXonoticHUDRadarDialog.html#a495d1cedc1e7fd0d3eb8ba564a003bac":[1,0,173,76],
-"d4/df8/classXonoticHUDRadarDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,173,39],
-"d4/df8/classXonoticHUDRadarDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,173,17],
-"d4/df8/classXonoticHUDRadarDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,173,46]
+"d4/df8/classXonoticHUDRadarDialog.html#a495d1cedc1e7fd0d3eb8ba564a003bac":[1,0,173,76]
 };

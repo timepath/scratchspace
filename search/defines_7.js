@@ -60,6 +60,7 @@ var searchData=
   ['gettagindex',['gettagindex',['../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8',1,'dpextensions.qh']]],
   ['getter',['GETTER',['../d7/d61/misc_8qh.html#a4ae9a65f0155ec9a053e1e9fe41c9401',1,'misc.qh']]],
   ['getthink',['getthink',['../d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e',1,'self.qh']]],
+  ['gettime_5frealtime',['GETTIME_REALTIME',['../d4/d1a/static_8qh.html#a8c0b177bfb707d205b7161331701a31f',1,'static.qh']]],
   ['gettouch',['gettouch',['../d3/dd0/self_8qh.html#a3d349fc3f585de2f6459e525150b0010',1,'self.qh']]],
   ['globalsound_5fh',['GLOBALSOUND_H',['../df/d6e/globalsound_8qh.html#a8ae2622788e04675b7cd21bb0583d679',1,'globalsound.qh']]],
   ['globalsounds_5ffrom',['GlobalSounds_from',['../df/d6e/globalsound_8qh.html#a5fb0865b819461b71d03295bc3e263c0',1,'globalsound.qh']]],

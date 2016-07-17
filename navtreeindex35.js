@@ -1,5 +1,8 @@
 var NAVTREEINDEX35 =
 {
+"d4/d56/classHunterKillerAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,44,3],
+"d4/d56/classHunterKillerAttack.html#ab4955221d05fd113af557db164fdefb5":[1,0,44,31],
+"d4/d56/classHunterKillerAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,44,8],
 "d4/d56/classHunterKillerAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,44,34],
 "d4/d56/classHunterKillerAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,44,5],
 "d4/d56/classHunterKillerAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,44,35],
@@ -246,8 +249,5 @@ var NAVTREEINDEX35 =
 "d4/d85/classXonoticUid2NameDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,230,10],
 "d4/d85/classXonoticUid2NameDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,230,38],
 "d4/d85/classXonoticUid2NameDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,230,43],
-"d4/d85/classXonoticUid2NameDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,230,18],
-"d4/d85/classXonoticUid2NameDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,230,8],
-"d4/d85/classXonoticUid2NameDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,230,11],
-"d4/d85/classXonoticUid2NameDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,230,51]
+"d4/d85/classXonoticUid2NameDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,230,18]
 };
