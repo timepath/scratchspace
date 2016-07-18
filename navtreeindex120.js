@@ -1,5 +1,6 @@
 var NAVTREEINDEX120 =
 {
+"df/d97/menu_2xonotic_2util_8qh.html#a7851f2ca9627c1234d96987723c7b627":[2,0,5,4,229,23],
 "df/d97/menu_2xonotic_2util_8qh.html#a83c60685c744483c0e12bba8bfa18d79":[2,0,5,4,229,15],
 "df/d97/menu_2xonotic_2util_8qh.html#a86cb046821701d82ae80ecd5c2c147b1":[2,0,5,4,229,17],
 "df/d97/menu_2xonotic_2util_8qh.html#a8aab628b518b68c2f185f69266694652":[2,0,5,4,229,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX120 =
 "df/dae/player_8qh.html#afdb3ea974d7ff62041a501e5be522410":[2,0,1,11,7,33],
 "df/dae/player_8qh_source.html":[2,0,1,11,7],
 "df/daf/dialog__teamselect_8qh.html":[2,0,5,4,161],
-"df/daf/dialog__teamselect_8qh_source.html":[2,0,5,4,161],
-"df/db0/powerups_8qc.html":[2,0,0,1,0,22]
+"df/daf/dialog__teamselect_8qh_source.html":[2,0,5,4,161]
 };
