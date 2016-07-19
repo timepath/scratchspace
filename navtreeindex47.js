@@ -1,6 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"d6/d01/classRaptorCannon.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,91,8],
 "d6/d01/classRaptorCannon.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,91,34],
 "d6/d01/classRaptorCannon.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,91,5],
 "d6/d01/classRaptorCannon.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,91,35],
@@ -249,5 +248,6 @@ var NAVTREEINDEX47 =
 "d6/d11/progsdefs_8qc.html#ad679f6482ceec6fcc8d28b780c0f4c07":[2,0,2,0,4,63],
 "d6/d11/progsdefs_8qc.html#ad708396b9f52cbd259295eb739abd6bf":[2,0,2,0,4,134],
 "d6/d11/progsdefs_8qc.html#ad7671eb124fd9702392c8891c6f99a58":[2,0,2,0,4,50],
-"d6/d11/progsdefs_8qc.html#ad7dbdcadf9186d41f82055ffdd9f7534":[2,0,2,0,4,107]
+"d6/d11/progsdefs_8qc.html#ad7dbdcadf9186d41f82055ffdd9f7534":[2,0,2,0,4,107],
+"d6/d11/progsdefs_8qc.html#ad82b5331367ad172c129a75b405f1ca7":[2,0,2,0,4,37]
 };

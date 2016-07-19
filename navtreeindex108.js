@@ -1,6 +1,5 @@
 var NAVTREEINDEX108 =
 {
-"dd/db3/classXonoticQuitDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,202,60],
 "dd/db3/classXonoticQuitDialog.html#aeff76ecca42175bf48a2312421add4bd":[1,0,202,50],
 "dd/db3/classXonoticQuitDialog.html#af1aab403dc54575707fd57991312b201":[1,0,202,36],
 "dd/db3/classXonoticQuitDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,202,16],
@@ -41,19 +40,19 @@ var NAVTREEINDEX108 =
 "dd/dcd/hud__config_8qh.html#aff11757a3172f4f26585a7edc21785f0":[2,0,0,1,8,0],
 "dd/dcd/hud__config_8qh_source.html":[2,0,0,1,8],
 "dd/dd5/sv__model_8qc.html":[2,0,4,0,10],
-"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,10,7],
 "dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,10,6],
+"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,10,7],
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,10,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,10,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,10,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,10,0],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,10,1],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,10,0],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,10,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,10,12],
-"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,10,3],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,10,2],
-"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,10,5],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,10,3],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,10,4],
+"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,10,5],
 "dd/dd5/sv__model_8qc_source.html":[2,0,4,0,10],
 "dd/dd7/classRacer.html":[1,0,86],
 "dd/dd7/classRacer.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,86,6],
@@ -249,5 +248,6 @@ var NAVTREEINDEX108 =
 "dd/df9/classCheckBox.html#a135823dae84ab1fea43d05fbbd8e7cbf":[1,0,13,40],
 "dd/df9/classCheckBox.html#a1384d244201f945385ed59b53e4aee96":[1,0,13,30],
 "dd/df9/classCheckBox.html#a17551f8ea91a998bfdeb18609c45d978":[1,0,13,74],
-"dd/df9/classCheckBox.html#a1a55e3b961b4986ce5dda62bd05b8ec5":[1,0,13,36]
+"dd/df9/classCheckBox.html#a1a55e3b961b4986ce5dda62bd05b8ec5":[1,0,13,36],
+"dd/df9/classCheckBox.html#a1cada7f613ee05baf72eac545644d9d7":[1,0,13,73]
 };

@@ -294,7 +294,6 @@ var searchData=
   ['frexp',['frexp',['../df/d38/mathlib_8qc.html#a4b66818c1ca439713053dd5cace18ce3',1,'frexp(float x):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a4b66818c1ca439713053dd5cace18ce3',1,'frexp(float x):&#160;mathlib.qc']]],
   ['friction',['friction',['../d2/dc2/subs_8qc.html#a585bd15db005143bac988d78710e4e93',1,'friction():&#160;subs.qc'],['../de/d5e/dpextensions_8qc.html#a585bd15db005143bac988d78710e4e93',1,'friction():&#160;dpextensions.qc'],['../d6/d93/g__subs_8qh.html#a585bd15db005143bac988d78710e4e93',1,'friction():&#160;g_subs.qh']]],
   ['fromdecibelofsquare',['fromDecibelOfSquare',['../d8/db3/slider__decibels_8qc.html#a8069769b4af3b799387654e5dc25302e',1,'slider_decibels.qc']]],
-  ['frozen',['frozen',['../d5/d26/server_2defs_8qh.html#abbaf61dc87ee098c26d39eb8d004616a',1,'defs.qh']]],
   ['frozen_5fby',['frozen_by',['../d5/d26/server_2defs_8qh.html#a1ea484fa87cffd946006018b73cb05dc',1,'defs.qh']]],
   ['fsnap',['fsnap',['../d0/d79/math_8qh.html#a87ab6b8926bb5587a28d323202f59791',1,'fsnap(float val, float fsize):&#160;math.qh'],['../dc/db9/utility_8qh.html#a87ab6b8926bb5587a28d323202f59791',1,'fsnap(float val, float fsize):&#160;math.qh']]],
   ['fstrunzone',['fstrunzone',['../d5/df2/common_2util_8qh.html#ab0ab8efc1c679dc525fc3cdd57aad81a',1,'fstrunzone(string s):&#160;string.qh'],['../d2/db4/string_8qh.html#ab0ab8efc1c679dc525fc3cdd57aad81a',1,'fstrunzone(string s):&#160;string.qh']]],

@@ -160,6 +160,5 @@ var searchData=
   ['freezetag_5ffrozen_5ftimeout',['freezetag_frozen_timeout',['../db/d26/gamemode__freezetag_8qc.html#a5c7d231b29848dbe9e992548d57958bb',1,'gamemode_freezetag.qc']]],
   ['freezetag_5fteams',['freezetag_teams',['../db/d26/gamemode__freezetag_8qc.html#ad2d0b51189e597d9660333ef7650f86e',1,'gamemode_freezetag.qc']]],
   ['friction',['friction',['../d2/dc2/subs_8qc.html#a585bd15db005143bac988d78710e4e93',1,'friction():&#160;subs.qc'],['../de/d5e/dpextensions_8qc.html#a585bd15db005143bac988d78710e4e93',1,'friction():&#160;dpextensions.qc'],['../d6/d93/g__subs_8qh.html#a585bd15db005143bac988d78710e4e93',1,'friction():&#160;g_subs.qh']]],
-  ['frozen',['frozen',['../d5/d26/server_2defs_8qh.html#abbaf61dc87ee098c26d39eb8d004616a',1,'defs.qh']]],
   ['frozen_5fby',['frozen_by',['../d5/d26/server_2defs_8qh.html#a1ea484fa87cffd946006018b73cb05dc',1,'defs.qh']]]
 ];

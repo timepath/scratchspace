@@ -1,6 +1,5 @@
 var NAVTREEINDEX110 =
 {
-"de/d26/nexball_8qh.html":[2,0,1,3,0,0,4],
 "de/d26/nexball_8qh.html#ad47fba46a06a96c87cf9d41185dbcce7":[2,0,1,3,0,0,4,0],
 "de/d26/nexball_8qh_source.html":[2,0,1,3,0,0,4],
 "de/d2a/spiderbot__weapons_8qh.html":[2,0,1,15,0,15],
@@ -249,5 +248,6 @@ var NAVTREEINDEX110 =
 "de/d43/common_2mutators_2mutator_2random__gravity_2__mod_8inc.html":[2,0,1,9,0,21,0],
 "de/d43/common_2mutators_2mutator_2random__gravity_2__mod_8inc_source.html":[2,0,1,9,0,21,0],
 "de/d48/dialog__settings__game_8qc.html":[2,0,5,4,124],
-"de/d48/dialog__settings__game_8qc.html#a612071b3e7e03563d6c3e60fcee98f10":[2,0,5,4,124,0]
+"de/d48/dialog__settings__game_8qc.html#a612071b3e7e03563d6c3e60fcee98f10":[2,0,5,4,124,0],
+"de/d48/dialog__settings__game_8qc.html#a75338df9c4dd464cbbb72e57183fafe4":[2,0,5,4,124,1]
 };

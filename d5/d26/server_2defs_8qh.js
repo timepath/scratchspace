@@ -114,7 +114,6 @@ var server_2defs_8qh =
     [ "floodcontrol_voice", "d5/d26/server_2defs_8qh.html#a097b1a8933f813c9421c034269f3bf81", null ],
     [ "floodcontrol_voiceteam", "d5/d26/server_2defs_8qh.html#ab999648480050a63fcddf038d561d7af", null ],
     [ "fog", "d5/d26/server_2defs_8qh.html#ab993c6c2a33d6c7c7c02b37d69369e95", null ],
-    [ "frozen", "d5/d26/server_2defs_8qh.html#abbaf61dc87ee098c26d39eb8d004616a", null ],
     [ "frozen_by", "d5/d26/server_2defs_8qh.html#a1ea484fa87cffd946006018b73cb05dc", null ],
     [ "g_footsteps", "d5/d26/server_2defs_8qh.html#a31e05dca1562dcacdfd5a7d126f64758", null ],
     [ "g_grappling_hook", "d5/d26/server_2defs_8qh.html#a20b8fd2c223a945ae85aa2105e9cc078", null ],

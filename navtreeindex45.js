@@ -1,6 +1,5 @@
 var NAVTREEINDEX45 =
 {
-"d5/d95/defer_8qh.html#a9dccabaf07f5881511520a70535300bb":[2,0,4,15,2],
 "d5/d95/defer_8qh.html#ac20778e47d8ed77ee9078abfb1ef0585":[2,0,4,15,3],
 "d5/d95/defer_8qh_source.html":[2,0,4,15],
 "d5/d95/lib_2matrix_2matrix_8qh.html":[2,0,4,1,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX45 =
 "d5/de0/weaponsystem_8qc.html#aba854498f89c2c066c049217f73085e8":[2,0,6,4,20,31],
 "d5/de0/weaponsystem_8qc.html#ac3dc9d68570cfcacf32d6f0e7fcf2ed8":[2,0,6,4,20,23],
 "d5/de0/weaponsystem_8qc.html#ad121c05ab5bd334ef01604c5db34c005":[2,0,6,4,20,21],
-"d5/de0/weaponsystem_8qc.html#ad552f2285b74098aab5c07973ec7b577":[2,0,6,4,20,11]
+"d5/de0/weaponsystem_8qc.html#ad552f2285b74098aab5c07973ec7b577":[2,0,6,4,20,11],
+"d5/de0/weaponsystem_8qc.html#adaf855bb86ef53119fa756a62e6127be":[2,0,6,4,20,0]
 };
