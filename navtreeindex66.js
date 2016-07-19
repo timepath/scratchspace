@@ -1,5 +1,6 @@
 var NAVTREEINDEX66 =
 {
+"d7/de8/modalcontroller_8qh_source.html":[2,0,5,2,23],
 "d7/df0/hk__weapon_8qc.html":[2,0,1,14,0,13],
 "d7/df0/hk__weapon_8qc_source.html":[2,0,1,14,0,13],
 "d7/df4/commandbutton_8qc.html":[2,0,5,4,24],
@@ -248,6 +249,5 @@ var NAVTREEINDEX66 =
 "d8/d19/quickmenu_8qc.html#a72ae9d97edf7b6fda39c874800c0d74a":[2,0,0,1,0,26,12],
 "d8/d19/quickmenu_8qc.html#a756582f2c12b4ba7d52b6947637d449d":[2,0,0,1,0,26,7],
 "d8/d19/quickmenu_8qc.html#a769c8216135812ab340851b5b064775d":[2,0,0,1,0,26,15],
-"d8/d19/quickmenu_8qc.html#a821dac3bfe5535e16dd2a4f1f40f099f":[2,0,0,1,0,26,18],
-"d8/d19/quickmenu_8qc.html#a83c6625cfcd8716e5e481969fa957f6f":[2,0,0,1,0,26,19]
+"d8/d19/quickmenu_8qc.html#a821dac3bfe5535e16dd2a4f1f40f099f":[2,0,0,1,0,26,18]
 };

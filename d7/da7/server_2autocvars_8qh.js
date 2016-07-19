@@ -223,6 +223,7 @@ var server_2autocvars_8qh =
     [ "autocvar_g_jetpack_fuel", "d7/da7/server_2autocvars_8qh.html#a618df36a3a0a981350d0dad05e99045e", null ],
     [ "autocvar_g_jetpack_maxspeed_side", "d7/da7/server_2autocvars_8qh.html#ac11544777ff7ea26fb06a15ed41bcec8", null ],
     [ "autocvar_g_jetpack_maxspeed_up", "d7/da7/server_2autocvars_8qh.html#a7efdf781871ecc09071d310c75d3f2b0", null ],
+    [ "autocvar_g_jetpack_reverse_thrust", "d7/da7/server_2autocvars_8qh.html#aef5ce3f2c5447e10390b275a155ab0da", null ],
     [ "autocvar_g_jump_grunt", "d7/da7/server_2autocvars_8qh.html#a1e42ae5f07a0c59a9b07580ffbf9c2ef", null ],
     [ "autocvar_g_maplist_check_waypoints", "d7/da7/server_2autocvars_8qh.html#a166a8e01f650221d9160e68b58b09354", null ],
     [ "autocvar_g_maplist_index", "d7/da7/server_2autocvars_8qh.html#a4075eb687bd39753f08c9a60cf7cf111", null ],

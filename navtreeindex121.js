@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"df/daf/dialog__teamselect_8qh.html":[2,0,5,4,161],
+"df/daf/dialog__teamselect_8qh_source.html":[2,0,5,4,161],
 "df/db0/powerups_8qc.html":[2,0,0,1,0,22],
 "df/db0/powerups_8qc.html#a0548d6d5f32ee93186047be9beff7348":[2,0,0,1,0,22,0],
 "df/db0/powerups_8qc.html#a1f1fca7e9f1d6a7ac9bf7bf9f89b169f":[2,0,0,1,0,22,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "df/dd4/navigation_8qh.html#a9268c834f5ccf503691a30537f3bfc63":[2,0,6,0,8,44],
 "df/dd4/navigation_8qh.html#a956bb41e292b7dcbfaa013f178202584":[2,0,6,0,8,16],
 "df/dd4/navigation_8qh.html#a99cf839a93c401169d4f0dca52f1d76e":[2,0,6,0,8,63],
-"df/dd4/navigation_8qh.html#a9bae5b93c6af5f9bfe12ddb7d952ab03":[2,0,6,0,8,62],
-"df/dd4/navigation_8qh.html#aa0276b58352f5e3c65809ce4aafbff2b":[2,0,6,0,8,57],
-"df/dd4/navigation_8qh.html#aa51b44c16bb8770ff694c1a9f30cd28e":[2,0,6,0,8,5]
+"df/dd4/navigation_8qh.html#a9bae5b93c6af5f9bfe12ddb7d952ab03":[2,0,6,0,8,62]
 };

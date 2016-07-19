@@ -85,6 +85,7 @@ var searchData=
   ['phys_5fjetpack_5ffuel',['PHYS_JETPACK_FUEL',['../df/dae/player_8qh.html#a1465200abf88b22609d4cb4badf408a8',1,'player.qh']]],
   ['phys_5fjetpack_5fmaxspeed_5fside',['PHYS_JETPACK_MAXSPEED_SIDE',['../df/dae/player_8qh.html#afd336382f59e51574203587af8e55a39',1,'player.qh']]],
   ['phys_5fjetpack_5fmaxspeed_5fup',['PHYS_JETPACK_MAXSPEED_UP',['../df/dae/player_8qh.html#a26ce65f7fed0ba9dc20b3918af6ddda5',1,'player.qh']]],
+  ['phys_5fjetpack_5freverse_5fthrust',['PHYS_JETPACK_REVERSE_THRUST',['../df/dae/player_8qh.html#a334a13efc1a8ae727150d20abfd26150',1,'player.qh']]],
   ['phys_5fjumpspeedcap_5fdisable_5fonramps',['PHYS_JUMPSPEEDCAP_DISABLE_ONRAMPS',['../df/dae/player_8qh.html#af5b2db0f6f75824d35dd6c5c0cadebc1',1,'player.qh']]],
   ['phys_5fjumpstep',['PHYS_JUMPSTEP',['../df/dae/player_8qh.html#a8c51ec77f107629d432827f6fafcc533',1,'player.qh']]],
   ['phys_5fjumpvelocity',['PHYS_JUMPVELOCITY',['../df/dae/player_8qh.html#a52f0344cdc4f5d196d67d6a41491d859',1,'player.qh']]],

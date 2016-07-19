@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"d8/dae/music_8qc.html":[2,0,1,13,2,6],
 "d8/dae/music_8qc_source.html":[2,0,1,13,2,6],
 "d8/db3/slider__decibels_8qc.html":[2,0,5,4,206],
 "d8/db3/slider__decibels_8qc.html#a13f465b048489a8a935abc23b76f43cd":[2,0,5,4,206,9],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "d8/dd3/classShotgun.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,99,16],
 "d8/dd3/classShotgun.html#a2a2c18e6c0451d1fe15a8bb2b4715b11":[1,0,99,22],
 "d8/dd3/classShotgun.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,99,14],
-"d8/dd3/classShotgun.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,99,18],
-"d8/dd3/classShotgun.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,99,9]
+"d8/dd3/classShotgun.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,99,18]
 };
