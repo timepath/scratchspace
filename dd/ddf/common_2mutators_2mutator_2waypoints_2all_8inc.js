@@ -22,6 +22,7 @@ var common_2mutators_2mutator_2waypoints_2all_8inc =
     [ "REGISTER_WAYPOINT", "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a702f02af08cfdcfd5b4e39bba4203102", null ],
     [ "REGISTER_WAYPOINT", "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a534fc41fdeffa44989b9f089d3c59163", null ],
     [ "REGISTER_WAYPOINT", "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a62182e55491d1b82e99103fad26761c3", null ],
+    [ "REGISTER_WAYPOINT", "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a80ca1d2c37620be9745e8c48e6442945", null ],
     [ "REGISTER_WAYPOINT", "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#afea97319c316b56a609b66255564f6aa", null ],
     [ "REGISTER_WAYPOINT", "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a9dcdb5350b6a0752dd8516f3a191f018", null ],
     [ "REGISTER_WAYPOINT", "dd/ddf/common_2mutators_2mutator_2waypoints_2all_8inc.html#a4d1ada9542446ba84a3bc4f1688fd0c3", null ],
