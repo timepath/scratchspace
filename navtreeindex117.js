@@ -1,5 +1,16 @@
 var NAVTREEINDEX117 =
 {
+"df/d18/checkpoint_8qc_source.html":[2,0,1,14,5],
+"df/d19/mutators_2mutator_2campcheck_2module_8inc.html":[2,0,1,9,0,4,3],
+"df/d19/mutators_2mutator_2campcheck_2module_8inc_source.html":[2,0,1,9,0,4,3],
+"df/d1f/client_2hud_2panel_2vote_8qc.html":[2,0,0,1,0,36],
+"df/d1f/client_2hud_2panel_2vote_8qc.html#a297e9e4e75bcd558a43f78eb74dd2140":[2,0,0,1,0,36,0],
+"df/d1f/client_2hud_2panel_2vote_8qc_source.html":[2,0,0,1,0,36],
+"df/d21/infomessages_8qc.html":[2,0,0,1,0,12],
+"df/d21/infomessages_8qc.html#a34ab7f0b1f8fc8af94288e83c3f42798":[2,0,0,1,0,12,1],
+"df/d21/infomessages_8qc.html#a8273c847de74f796939acc0aeb6d2f3d":[2,0,0,1,0,12,0],
+"df/d21/infomessages_8qc_source.html":[2,0,0,1,0,12],
+"df/d26/classXonoticGameSettingsTab.html":[1,0,153],
 "df/d26/classXonoticGameSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,153,22],
 "df/d26/classXonoticGameSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,153,30],
 "df/d26/classXonoticGameSettingsTab.html#a04b784f800393e25c7be5e89c6f9c04d":[1,0,153,41],
@@ -238,16 +249,5 @@ var NAVTREEINDEX117 =
 "df/d30/client_2main_8qc.html#a374deadb3d19478a9370dff0c498c6e6":[2,0,0,16,5],
 "df/d30/client_2main_8qc.html#a39ffefc27ab1926e8e31d7c136a4035d":[2,0,0,16,22],
 "df/d30/client_2main_8qc.html#a3a4d75b1666fc0c35a999aae66cf6fd2":[2,0,0,16,17],
-"df/d30/client_2main_8qc.html#a457fb0914a984ccdfa934d4b5376b495":[2,0,0,16,30],
-"df/d30/client_2main_8qc.html#a468fbc523e176ec4adf829a18606b5f6":[2,0,0,16,41],
-"df/d30/client_2main_8qc.html#a46ab77a8e6731f82b57ed43c3fe5eeea":[2,0,0,16,36],
-"df/d30/client_2main_8qc.html#a46d8c3e096c855bf3690956e9ba1e862":[2,0,0,16,3],
-"df/d30/client_2main_8qc.html#a55741734b1484ff2d8f3d76de5e7dc2f":[2,0,0,16,13],
-"df/d30/client_2main_8qc.html#a5ea5788d48177f45ca8b60fcaf5561f7":[2,0,0,16,25],
-"df/d30/client_2main_8qc.html#a626fa4f891c177f48176172aac58dc39":[2,0,0,16,19],
-"df/d30/client_2main_8qc.html#a62cc679b39b73d92f0d09114fb2c20e2":[2,0,0,16,21],
-"df/d30/client_2main_8qc.html#a65d6b464164464ee7f99ceb0e0c16813":[2,0,0,16,10],
-"df/d30/client_2main_8qc.html#a6cc7ac30fca9d7a196e43fec209f89df":[2,0,0,16,27],
-"df/d30/client_2main_8qc.html#a6ddef9eaa62e0cae6a23e432d4875df1":[2,0,0,16,29],
-"df/d30/client_2main_8qc.html#a6df675d5ce651f8a28f9d6a958c42b37":[2,0,0,16,34]
+"df/d30/client_2main_8qc.html#a457fb0914a984ccdfa934d4b5376b495":[2,0,0,16,30]
 };

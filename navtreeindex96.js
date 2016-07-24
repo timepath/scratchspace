@@ -1,5 +1,16 @@
 var NAVTREEINDEX96 =
 {
+"dc/d0f/slider__sbfadetime_8qc.html":[2,0,5,4,214],
+"dc/d0f/slider__sbfadetime_8qc.html#a0fd1cbd25929848decdc46aa8e267e85":[2,0,5,4,214,2],
+"dc/d0f/slider__sbfadetime_8qc.html#a4a3a74503672557a57a83031f9118296":[2,0,5,4,214,1],
+"dc/d0f/slider__sbfadetime_8qc.html#aa4769237b65fce6ab120bc63ce3e6d63":[2,0,5,4,214,0],
+"dc/d0f/slider__sbfadetime_8qc.html#aa77d8489c64304c9d769d561eba3207e":[2,0,5,4,214,3],
+"dc/d0f/slider__sbfadetime_8qc_source.html":[2,0,5,4,214],
+"dc/d12/common_2turrets_2turret_2__mod_8inc.html":[2,0,1,14,0,0],
+"dc/d12/common_2turrets_2turret_2__mod_8inc_source.html":[2,0,1,14,0,0],
+"dc/d12/multi_8qh.html":[2,0,1,13,3,21],
+"dc/d12/multi_8qh_source.html":[2,0,1,13,3,21],
+"dc/d13/server_2bot_2__mod_8inc.html":[2,0,6,0,1],
 "dc/d13/server_2bot_2__mod_8inc_source.html":[2,0,6,0,1],
 "dc/d16/classXonoticMediaTab.html":[1,0,188],
 "dc/d16/classXonoticMediaTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,188,21],
@@ -238,16 +249,5 @@ var NAVTREEINDEX96 =
 "dc/d30/classBallStealer.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,5,21],
 "dc/d30/classBallStealer.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,5,6],
 "dc/d30/classBallStealer.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,5,0],
-"dc/d30/classBallStealer.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,5,33],
-"dc/d30/classBallStealer.html#a7bf13b7929125975c829f24488628560":[1,0,5,30],
-"dc/d30/classBallStealer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,5,24],
-"dc/d30/classBallStealer.html#a80fa9a65e19370473a29baebc04d0626":[1,0,5,2],
-"dc/d30/classBallStealer.html#a8acb91e35e239c72604a1067304cc3b5":[1,0,5,25],
-"dc/d30/classBallStealer.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,5,4],
-"dc/d30/classBallStealer.html#aa0a5f1de6ba7228907295012902a136a":[1,0,5,28],
-"dc/d30/classBallStealer.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,5,11],
-"dc/d30/classBallStealer.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,5,12],
-"dc/d30/classBallStealer.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,5,10],
-"dc/d30/classBallStealer.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,5,3],
-"dc/d30/classBallStealer.html#abbfb3f4a8fc35838a546bdf4d7ee7799":[1,0,5,31]
+"dc/d30/classBallStealer.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,5,33]
 };

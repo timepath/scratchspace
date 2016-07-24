@@ -2,6 +2,7 @@ var movetypes_8qc =
 [
     [ "X", "d2/db1/movetypes_8qc.html#a4d9aed2230dec24015d4998217dcaf3e", null ],
     [ "X", "d2/db1/movetypes_8qc.html#a3c23c2da17712d95e32cd500f6e10216", null ],
+    [ "X", "d2/db1/movetypes_8qc.html#a8dcd542ddaaeda0037a8839d90497b1a", null ],
     [ "_Movetype_CheckVelocity", "d2/db1/movetypes_8qc.html#a339edb79ca2ee708f1d39819496794bf", null ],
     [ "_Movetype_CheckWater", "d2/db1/movetypes_8qc.html#a14cb5c9b8cf5efc10f5e55f9ae63b556", null ],
     [ "_Movetype_CheckWaterTransition", "d2/db1/movetypes_8qc.html#aa9a451c248f6edd8b206c427c6c9eea5", null ],
@@ -21,8 +22,19 @@ var movetypes_8qc =
     [ "Movetype_Physics_MatchServer", "d2/db1/movetypes_8qc.html#a0c3c32b8e67737d63dbf704612d6b22c", null ],
     [ "Movetype_Physics_MatchTicrate", "d2/db1/movetypes_8qc.html#a3a364c3e846cd4c30141d749061c8086", null ],
     [ "Movetype_Physics_NoMatchServer", "d2/db1/movetypes_8qc.html#abc94399163b20fbffafbcdaeda0f8db5", null ],
+    [ "Movetype_Physics_NoMatchTicrate", "d2/db1/movetypes_8qc.html#a9dc4beb8296f404512228731929339d3", null ],
     [ "void", "d2/db1/movetypes_8qc.html#ab02f268b6773e429b35626cdb4ce0dff", null ],
     [ "_Movetype_TestEntityPosition_ent", "d2/db1/movetypes_8qc.html#a09c05b5e60959b3da148eb20ca3bf3ba", null ],
     [ "ltime", "d2/db1/movetypes_8qc.html#af4e305a34cfe09004c87a91e2461330c", null ],
-    [ "planes", "d2/db1/movetypes_8qc.html#a6044b8f4b841a8ebeeb91a2653290b70", null ]
+    [ "planes", "d2/db1/movetypes_8qc.html#a6044b8f4b841a8ebeeb91a2653290b70", null ],
+    [ "tic_angles", "d2/db1/movetypes_8qc.html#a2facb9e1aeca6834f7b82e321442ed93", null ],
+    [ "tic_avelocity", "d2/db1/movetypes_8qc.html#a5d8752cb083834295aec3d6409b06775", null ],
+    [ "tic_flags", "d2/db1/movetypes_8qc.html#a34d63ca8f0b71539bfe1577a36c86b53", null ],
+    [ "tic_origin", "d2/db1/movetypes_8qc.html#a6009d9f3f5a7a64dfc68eead773bcca0", null ],
+    [ "tic_saved_angles", "d2/db1/movetypes_8qc.html#a404eb7082eca010c791fd562af86dc95", null ],
+    [ "tic_saved_avelocity", "d2/db1/movetypes_8qc.html#a70d0fde2d60909cbdd724db97245a13b", null ],
+    [ "tic_saved_flags", "d2/db1/movetypes_8qc.html#ad44fedd3ce1abb0e9b70a3e71b623674", null ],
+    [ "tic_saved_origin", "d2/db1/movetypes_8qc.html#a607707c46584914fecdf4c5aca4e7f14", null ],
+    [ "tic_saved_velocity", "d2/db1/movetypes_8qc.html#afa4cf35feb7ab8ba2af8f8e123ad7d56", null ],
+    [ "tic_velocity", "d2/db1/movetypes_8qc.html#ab5d02d1d7a51316be25cc82291fc5787", null ]
 ];

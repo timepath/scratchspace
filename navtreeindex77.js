@@ -1,7 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"d9/db3/classXonoticGameModelSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,152,39],
-"d9/db3/classXonoticGameModelSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,152,17],
 "d9/db3/classXonoticGameModelSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,152,23],
 "d9/db3/classXonoticGameModelSettingsTab.html#a4e8674c37078db5c00618a2715a1f9a8":[1,0,152,85],
 "d9/db3/classXonoticGameModelSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,152,31],
@@ -249,5 +247,7 @@ var NAVTREEINDEX77 =
 "d9/dce/classHeavyMachineGun.html#af7a8449346f3b6d1f5b3bcd3c8b52745":[1,0,38,29],
 "d9/dcf/crosshairpreview_8qh.html":[2,0,5,4,31],
 "d9/dcf/crosshairpreview_8qh.html#a47a8b4b3f2b3dbf9165afb177b3afc6b":[2,0,5,4,31,1],
-"d9/dcf/crosshairpreview_8qh_source.html":[2,0,5,4,31]
+"d9/dcf/crosshairpreview_8qh_source.html":[2,0,5,4,31],
+"d9/dd0/effectinfo__gentle__morphed_8inc.html":[2,0,1,2,13],
+"d9/dd0/effectinfo__gentle__morphed_8inc.html#a06cde1e52b5c014815fe0740b0b727eb":[2,0,1,2,13,3]
 };

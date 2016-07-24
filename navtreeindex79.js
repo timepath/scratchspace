@@ -1,7 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"d9/df0/weaponstats_8qh_source.html":[2,0,6,4,19],
-"d9/df2/common_2command_2__mod_8qh.html":[2,0,1,0,1],
 "d9/df2/common_2command_2__mod_8qh_source.html":[2,0,1,0,1],
 "d9/df7/mathlib_8qh.html":[2,0,4,2,9],
 "d9/df7/mathlib_8qh.html#a0468400adec281798a1be036b1bd4f00":[2,0,4,2,9,66],
@@ -249,5 +247,7 @@ var NAVTREEINDEX79 =
 "da/d1d/classMLRSTurretAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,64,3],
 "da/d1d/classMLRSTurretAttack.html#aba777682d48840cc1c8f6a1b33290cc7":[1,0,64,31],
 "da/d1d/classMLRSTurretAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,64,8],
-"da/d1d/classMLRSTurretAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,64,34]
+"da/d1d/classMLRSTurretAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,64,34],
+"da/d1d/classMLRSTurretAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,64,5],
+"da/d1d/classMLRSTurretAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,64,35]
 };

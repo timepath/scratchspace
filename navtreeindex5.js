@@ -1,9 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"d0/dcd/csqcprojectile_8qc_source.html":[2,0,6,4,6],
-"d0/dce/dialog__hudpanel__engineinfo_8qc.html":[2,0,5,4,50],
-"d0/dce/dialog__hudpanel__engineinfo_8qc.html#aa8257b75872a748b8bf8fd5efd29425a":[2,0,5,4,50,0],
-"d0/dce/dialog__hudpanel__engineinfo_8qc_source.html":[2,0,5,4,50],
 "d0/dd1/common_2triggers_2__mod_8qh.html":[2,0,1,13,5],
 "d0/dd1/common_2triggers_2__mod_8qh_source.html":[2,0,1,13,5],
 "d0/dd2/antilag_8qh.html":[2,0,6,11],
@@ -249,5 +245,9 @@ var NAVTREEINDEX5 =
 "d1/d19/classButton.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,10,56],
 "d1/d19/classButton.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,10,58],
 "d1/d19/classButton.html#a8324a7ba04b2ccc4938803dd15528b4a":[1,0,10,22],
-"d1/d19/classButton.html#a8894e7ce2ef345979ef91af7035cc80b":[1,0,10,40]
+"d1/d19/classButton.html#a8894e7ce2ef345979ef91af7035cc80b":[1,0,10,40],
+"d1/d19/classButton.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,10,55],
+"d1/d19/classButton.html#a8b3010fc463034904b21d7d6da17a127":[1,0,10,54],
+"d1/d19/classButton.html#a8c568c803f49400fd0165b69f82d4161":[1,0,10,52],
+"d1/d19/classButton.html#a928f38e3f890c641e0c91571b3fdc360":[1,0,10,64]
 };

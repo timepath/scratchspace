@@ -210,6 +210,7 @@ var searchData=
   ['warpzone_5fsetup',['WarpZone_SetUp',['../d1/d6a/lib_2warpzone_2common_8qc.html#a09e6b343662e29bf1286a7b109d5ecd1',1,'WarpZone_SetUp(entity e, vector my_org, vector my_ang, vector other_org, vector other_ang):&#160;common.qc'],['../d7/d71/lib_2warpzone_2common_8qh.html#a09e6b343662e29bf1286a7b109d5ecd1',1,'WarpZone_SetUp(entity e, vector my_org, vector my_ang, vector other_org, vector other_ang):&#160;common.qc']]],
   ['warpzone_5fshift',['warpzone_shift',['../d7/d71/lib_2warpzone_2common_8qh.html#a21073e4513ce6a67621ba2024f9a8d4e',1,'common.qh']]],
   ['warpzone_5fshutdown',['WarpZone_Shutdown',['../d3/d0e/client_8qc.html#ae5f8c1940ba6ccc011c2d4e99f733874',1,'WarpZone_Shutdown():&#160;client.qc'],['../dc/dff/client_8qh.html#ae5f8c1940ba6ccc011c2d4e99f733874',1,'WarpZone_Shutdown():&#160;client.qc']]],
+  ['warpzone_5fstoreprojectiledata',['WarpZone_StoreProjectileData',['../d7/d2b/server_8qc.html#abd1c85d3c17d614bcf25162ca98e49bb',1,'server.qc']]],
   ['warpzone_5ftargetangles',['warpzone_targetangles',['../d7/d71/lib_2warpzone_2common_8qh.html#aa45414613e0f0ac4716f74fdd53d512a',1,'common.qh']]],
   ['warpzone_5ftargetforward',['warpzone_targetforward',['../d7/d71/lib_2warpzone_2common_8qh.html#a1c0865b97e3a51b15b381233b61bea5b',1,'common.qh']]],
   ['warpzone_5ftargetorigin',['warpzone_targetorigin',['../d7/d71/lib_2warpzone_2common_8qh.html#a466647160f7aa7aaecfa29afe350063b',1,'common.qh']]],

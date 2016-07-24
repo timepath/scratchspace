@@ -1,5 +1,13 @@
 var NAVTREEINDEX18 =
 {
+"d2/dd3/classPortoLaunch.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,84,13],
+"d2/dd3/classPortoLaunch.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,84,7],
+"d2/dd3/classPortoLaunch.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,84,21],
+"d2/dd3/classPortoLaunch.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,84,6],
+"d2/dd3/classPortoLaunch.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,84,0],
+"d2/dd3/classPortoLaunch.html#a72c52c99bf51ebd4f752c41306ada77e":[1,0,84,23],
+"d2/dd3/classPortoLaunch.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,84,33],
+"d2/dd3/classPortoLaunch.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,84,24],
 "d2/dd3/classPortoLaunch.html#a80fa9a65e19370473a29baebc04d0626":[1,0,84,2],
 "d2/dd3/classPortoLaunch.html#a8acb91e35e239c72604a1067304cc3b5":[1,0,84,25],
 "d2/dd3/classPortoLaunch.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,84,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX18 =
 "d2/dec/classXonoticServerList.html#aa3b5d982dc148165f30478c5acde941d":[1,0,216,33],
 "d2/dec/classXonoticServerList.html#aa5154d0abad5e11c72e62ed91157d35e":[1,0,216,50],
 "d2/dec/classXonoticServerList.html#aa7a364e06a3c93ee0e3df3aaae6b1071":[1,0,216,24],
-"d2/dec/classXonoticServerList.html#aa803c836546cf60675af550118f1bc5b":[1,0,216,111],
-"d2/dec/classXonoticServerList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,216,6],
-"d2/dec/classXonoticServerList.html#aaa945a8ceec92ab6c93575634d740b74":[1,0,216,99],
-"d2/dec/classXonoticServerList.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,216,94],
-"d2/dec/classXonoticServerList.html#aae500ed76a905278515793ee02773f1c":[1,0,216,78],
-"d2/dec/classXonoticServerList.html#ab0956f0634bf15f93266a9f3abf9eac5":[1,0,216,61],
-"d2/dec/classXonoticServerList.html#ab25fe59a0e66d1ea9108672f1a95a378":[1,0,216,58],
-"d2/dec/classXonoticServerList.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,216,96],
-"d2/dec/classXonoticServerList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,216,100]
+"d2/dec/classXonoticServerList.html#aa803c836546cf60675af550118f1bc5b":[1,0,216,111]
 };

@@ -46,6 +46,7 @@ var searchData=
   ['w_5fupdate_5fsec',['W_UPDATE_SEC',['../de/d81/common_2weapons_2all_8qh.html#a3a83fb171190023db3979c62de8f0c4a',1,'all.qh']]],
   ['walkmove',['walkmove',['../d2/d77/pre_8qh.html#ad4c7d5cf3db03e818d037012f8be2d23',1,'walkmove():&#160;pre.qh'],['../d3/dd0/self_8qh.html#a624c0216024b958a39da9130aaf8c959',1,'walkmove():&#160;self.qh']]],
   ['warmup_5fstart_5fweapons',['WARMUP_START_WEAPONS',['../dc/d73/server_2miscfunctions_8qh.html#a29c235bed1ff0287066a442759cbfe3a',1,'miscfunctions.qh']]],
+  ['warpzone_5fstoreprojectiledata',['WarpZone_StoreProjectileData',['../d7/d2b/server_8qc.html#abd1c85d3c17d614bcf25162ca98e49bb',1,'server.qc']]],
   ['was_5fonground',['WAS_ONGROUND',['../df/dae/player_8qh.html#a5a11a9aa52f228414844fc60042af295',1,'player.qh']]],
   ['waypoints_5fall_5fh',['WAYPOINTS_ALL_H',['../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a9d93e7d1156c77a9afa59ee79ef4ea3a',1,'all.qh']]],
   ['waypoints_5ffrom',['Waypoints_from',['../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a8b37b20d26109b8964674245d9481a68',1,'all.qh']]],

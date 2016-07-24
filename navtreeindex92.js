@@ -1,5 +1,13 @@
 var NAVTREEINDEX92 =
 {
+"db/dab/common_2deathtypes_2all_8qh.html#aed2b0f7718db6f6b5bc9ebda3c8b4c41":[2,0,1,1,4,1],
+"db/dab/common_2deathtypes_2all_8qh.html#aef6fa079502aff69a43b0627c85d8efb":[2,0,1,1,4,22],
+"db/dab/common_2deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8":[2,0,1,1,4,12],
+"db/dab/common_2deathtypes_2all_8qh_source.html":[2,0,1,1,4],
+"db/daf/playerstats_8qh.html":[2,0,1,37],
+"db/daf/playerstats_8qh.html#a312e47b0868340d91079335f62009acf":[2,0,1,37,0],
+"db/daf/playerstats_8qh_source.html":[2,0,1,37],
+"db/db1/classXonoticHUDRaceTimerDialog.html":[1,0,172],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,172,21],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,172,29],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,172,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX92 =
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,170,75],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,170,41],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,170,34],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,170,65],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,170,74],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,170,70],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,170,56],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#aa1abab97698c6f13909d1791611312cb":[1,0,170,59],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,170,47],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,170,9],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,170,24],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,170,54]
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,170,65]
 };

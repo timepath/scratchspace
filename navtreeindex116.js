@@ -1,5 +1,16 @@
 var NAVTREEINDEX116 =
 {
+"de/de7/classXonoticHUDItemsTimeDialog.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,165,74],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,165,70],
+"de/de7/classXonoticHUDItemsTimeDialog.html#a9f718a75f860a4ba336858d1b93c906b":[1,0,165,78],
+"de/de7/classXonoticHUDItemsTimeDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,165,56],
+"de/de7/classXonoticHUDItemsTimeDialog.html#aa1abab97698c6f13909d1791611312cb":[1,0,165,59],
+"de/de7/classXonoticHUDItemsTimeDialog.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,165,47],
+"de/de7/classXonoticHUDItemsTimeDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,165,9],
+"de/de7/classXonoticHUDItemsTimeDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,165,24],
+"de/de7/classXonoticHUDItemsTimeDialog.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,165,54],
+"de/de7/classXonoticHUDItemsTimeDialog.html#ab5deae16ba086b394323a816b68ec495":[1,0,165,50],
+"de/de7/classXonoticHUDItemsTimeDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,165,25],
 "de/de7/classXonoticHUDItemsTimeDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,165,87],
 "de/de7/classXonoticHUDItemsTimeDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,165,73],
 "de/de7/classXonoticHUDItemsTimeDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,165,33],
@@ -238,16 +249,5 @@ var NAVTREEINDEX116 =
 "df/d18/checkpoint_8qc.html#a4a455a6158f7e74eb2d4a4e30e831818":[2,0,1,14,5,3],
 "df/d18/checkpoint_8qc.html#a7d1fc3b45329d9e17d6a23c60c6a0a2a":[2,0,1,14,5,4],
 "df/d18/checkpoint_8qc.html#a9dc1f51d314787351f62b8143e93a547":[2,0,1,14,5,0],
-"df/d18/checkpoint_8qc.html#aa879299cb4ab99983269eec00ffc6927":[2,0,1,14,5,2],
-"df/d18/checkpoint_8qc_source.html":[2,0,1,14,5],
-"df/d19/mutators_2mutator_2campcheck_2module_8inc.html":[2,0,1,9,0,4,3],
-"df/d19/mutators_2mutator_2campcheck_2module_8inc_source.html":[2,0,1,9,0,4,3],
-"df/d1f/client_2hud_2panel_2vote_8qc.html":[2,0,0,1,0,36],
-"df/d1f/client_2hud_2panel_2vote_8qc.html#a297e9e4e75bcd558a43f78eb74dd2140":[2,0,0,1,0,36,0],
-"df/d1f/client_2hud_2panel_2vote_8qc_source.html":[2,0,0,1,0,36],
-"df/d21/infomessages_8qc.html":[2,0,0,1,0,12],
-"df/d21/infomessages_8qc.html#a34ab7f0b1f8fc8af94288e83c3f42798":[2,0,0,1,0,12,1],
-"df/d21/infomessages_8qc.html#a8273c847de74f796939acc0aeb6d2f3d":[2,0,0,1,0,12,0],
-"df/d21/infomessages_8qc_source.html":[2,0,0,1,0,12],
-"df/d26/classXonoticGameSettingsTab.html":[1,0,153]
+"df/d18/checkpoint_8qc.html#aa879299cb4ab99983269eec00ffc6927":[2,0,1,14,5,2]
 };

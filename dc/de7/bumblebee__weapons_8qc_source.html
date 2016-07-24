@@ -157,87 +157,89 @@ $(document).ready(function(){initNavTree('dc/de7/bumblebee__weapons_8qc_source.h
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="keywordtype">void</span> bumble_raygun_draw(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<a class="code" href="../../dd/d69/net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a>(ENT_CLIENT_BUMBLE_RAYGUN, <span class="keywordtype">bool</span> isnew)</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">int</span> sf = ReadByte();</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordflow">if</span>(sf &amp; BRG_SETUP)</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>  = ReadByte();</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> = ReadByte();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;.vector bumble_origin;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<a class="code" href="../../dd/d69/net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a>(ENT_CLIENT_BUMBLE_RAYGUN, <span class="keywordtype">bool</span> isnew)</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;{</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">int</span> sf = ReadByte();</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="keywordflow">if</span>(sf &amp; BRG_SETUP)</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    {</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>  = ReadByte();</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>)</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;            this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a> = <span class="stringliteral">&#39;1 0 0&#39;</span>;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a> = <span class="stringliteral">&#39;0 1 0&#39;</span>;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        this.traileffect = EFFECT_BUMBLEBEE_HEAL_MUZZLEFLASH.m_id;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46">lip</a> = <a class="code" href="../../d5/de6/effect_8qh.html#ad034cd35facd32141085cb646c5e064e">particleeffectnum</a>(EFFECT_BUMBLEBEE_HEAL_IMPACT);</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        this.draw = bumble_raygun_draw;</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    }</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">if</span>(sf &amp; BRG_START)</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    {</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        this.origin_x = ReadCoord();</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        this.origin_y = ReadCoord();</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        this.origin_z = ReadCoord();</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        setorigin(<span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    }</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">if</span>(sf &amp; BRG_END)</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    {</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        this.move_origin_x = ReadCoord();</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        this.move_origin_y = ReadCoord();</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        this.move_origin_z = ReadCoord();</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;    }</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;}</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;.float bumble_raygun_nextdraw;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;<span class="keywordtype">void</span> bumble_raygun_draw(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;{</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    <span class="keywordtype">float</span> _len;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> _dir;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> _vtmp1, _vtmp2;</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    _len = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> - this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#a8f912d9d796bd82c9c5a4f50e83a7239">move_origin</a>);</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    _dir = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#a8f912d9d796bd82c9c5a4f50e83a7239">move_origin</a> - this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>);</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    <span class="keywordflow">if</span>(this.bumble_raygun_nextdraw &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    {</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        boxparticles(<a class="code" href="../../d5/de6/effect_8qh.html#ad034cd35facd32141085cb646c5e064e">particleeffectnum</a>(<a class="code" href="../../d0/d92/common_2effects_2all_8qh.html#a3e7c6a8308e9db54726d8979be2aa9eb">Effects_from</a>(this.traileffect)), <span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + _dir * -64, _dir * -_len , _dir * -_len, 1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac4841c97872f695b8cab7e5975d81dde">PARTICLES_USEALPHA</a>);</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;        boxparticles(this.<a class="code" href="../../db/d2f/subs_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46">lip</a>, <span class="keyword">this</span>, this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#a8f912d9d796bd82c9c5a4f50e83a7239">move_origin</a>, this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#a8f912d9d796bd82c9c5a4f50e83a7239">move_origin</a> + _dir * -64, _dir * -200 , _dir * -200, 1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac4841c97872f695b8cab7e5975d81dde">PARTICLES_USEALPHA</a>);</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        this.bumble_raygun_nextdraw = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.1;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    }</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordtype">float</span> i, df, sz, al;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <span class="keywordflow">for</span>(i = -0.1; i &lt; 0.2; i += 0.1)</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    {</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        df = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>; <span class="comment">//((random() &lt; 0.5) ? DRAWFLAG_ADDITIVE : DRAWFLAG_SCREEN);</span></div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        sz = 5 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 5;</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        al = 0.25 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 0.5;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        _vtmp1 = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + _dir * _len * (0.25 + i);</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        _vtmp1 += (<a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * (_len * 0.2) * (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * 2));       <span class="comment">//this.raygun_l1;</span></div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        Draw_CylindricLine(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>, _vtmp1, sz, <span class="stringliteral">&quot;gfx/colors/white.tga&quot;</span>, 1, 1, this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>, al, df, <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>);</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        _vtmp2 = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + _dir * _len * (0.5 + i);</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        _vtmp2 += (<a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * (_len * 0.2) * (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * 5));       <span class="comment">//this.raygun_l2;</span></div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        Draw_CylindricLine(_vtmp1, _vtmp2, sz, <span class="stringliteral">&quot;gfx/colors/white.tga&quot;</span>, 1, 1, this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>, al, df, <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        _vtmp1 = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + _dir * _len * (0.75 + i);</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        _vtmp1 += <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * (_len * 0.2) * (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * 10);     <span class="comment">//this.raygun_l3;</span></div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        Draw_CylindricLine(_vtmp2, _vtmp1, sz, <span class="stringliteral">&quot;gfx/colors/white.tga&quot;</span>, 1, 1, this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>, al, df, <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>);</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        Draw_CylindricLine(_vtmp1, this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#a8f912d9d796bd82c9c5a4f50e83a7239">move_origin</a> +  <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * 32, sz, <span class="stringliteral">&quot;gfx/colors/white.tga&quot;</span>, 1, 1, this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>, al, df, <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>);</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;}</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;</div>
-<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> = ReadByte();</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>  = ReadByte();</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a>)</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a> = <span class="stringliteral">&#39;1 0 0&#39;</span>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a> = <span class="stringliteral">&#39;0 1 0&#39;</span>;</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;        this.traileffect = EFFECT_BUMBLEBEE_HEAL_MUZZLEFLASH.m_id;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46">lip</a> = <a class="code" href="../../d5/de6/effect_8qh.html#ad034cd35facd32141085cb646c5e064e">particleeffectnum</a>(EFFECT_BUMBLEBEE_HEAL_IMPACT);</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        this.draw = bumble_raygun_draw;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">if</span>(sf &amp; BRG_START)</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        this.origin_x = ReadCoord();</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        this.origin_y = ReadCoord();</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        this.origin_z = ReadCoord();</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        setorigin(<span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>);</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    }</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    <span class="keywordflow">if</span>(sf &amp; BRG_END)</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    {</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        this.bumble_origin_x = ReadCoord();</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        this.bumble_origin_y = ReadCoord();</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        this.bumble_origin_z = ReadCoord();</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;}</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;.float bumble_raygun_nextdraw;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="keywordtype">void</span> bumble_raygun_draw(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;{</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    <span class="keywordtype">float</span> _len;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> _dir;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> _vtmp1, _vtmp2;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    _len = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> - this.bumble_origin);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    _dir = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(this.bumble_origin - this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    <span class="keywordflow">if</span>(this.bumble_raygun_nextdraw &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    {</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        boxparticles(<a class="code" href="../../d5/de6/effect_8qh.html#ad034cd35facd32141085cb646c5e064e">particleeffectnum</a>(<a class="code" href="../../d0/d92/common_2effects_2all_8qh.html#a3e7c6a8308e9db54726d8979be2aa9eb">Effects_from</a>(this.traileffect)), <span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + _dir * -64, _dir * -_len , _dir * -_len, 1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac4841c97872f695b8cab7e5975d81dde">PARTICLES_USEALPHA</a>);</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;        boxparticles(this.<a class="code" href="../../db/d2f/subs_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46">lip</a>, <span class="keyword">this</span>, this.bumble_origin, this.bumble_origin + _dir * -64, _dir * -200 , _dir * -200, 1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac4841c97872f695b8cab7e5975d81dde">PARTICLES_USEALPHA</a>);</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;        this.bumble_raygun_nextdraw = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.1;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    }</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordtype">float</span> i, df, sz, al;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <span class="keywordflow">for</span>(i = -0.1; i &lt; 0.2; i += 0.1)</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    {</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        df = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>; <span class="comment">//((random() &lt; 0.5) ? DRAWFLAG_ADDITIVE : DRAWFLAG_SCREEN);</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        sz = 5 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 5;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        al = 0.25 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 0.5;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        _vtmp1 = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + _dir * _len * (0.25 + i);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        _vtmp1 += (<a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * (_len * 0.2) * (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * 2));       <span class="comment">//this.raygun_l1;</span></div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        Draw_CylindricLine(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>, _vtmp1, sz, <span class="stringliteral">&quot;gfx/colors/white.tga&quot;</span>, 1, 1, this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>, al, df, <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        _vtmp2 = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + _dir * _len * (0.5 + i);</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        _vtmp2 += (<a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * (_len * 0.2) * (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * 5));       <span class="comment">//this.raygun_l2;</span></div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;        Draw_CylindricLine(_vtmp1, _vtmp2, sz, <span class="stringliteral">&quot;gfx/colors/white.tga&quot;</span>, 1, 1, this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>, al, df, <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>);</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        _vtmp1 = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + _dir * _len * (0.75 + i);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        _vtmp1 += <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * (_len * 0.2) * (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * 10);     <span class="comment">//this.raygun_l3;</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        Draw_CylindricLine(_vtmp2, _vtmp1, sz, <span class="stringliteral">&quot;gfx/colors/white.tga&quot;</span>, 1, 1, this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>, al, df, <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        Draw_CylindricLine(_vtmp1, this.bumble_origin +  <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * 32, sz, <span class="stringliteral">&quot;gfx/colors/white.tga&quot;</span>, 1, 1, this.<a class="code" href="../../df/db0/powerups_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af">colormod</a>, al, df, <a class="code" href="../../d0/d2a/client_2main_8qh.html#a3cd8d1dcc4aad557dd5b3266f8f8c7c7">view_origin</a>);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;}</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="net_8qh_html_a2c87ee9a4aa12245bb6e80f321975ded"><div class="ttname"><a href="../../dd/d69/net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a></div><div class="ttdeci">#define NET_HANDLE(id, param)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d69/net_8qh_source.html#l00010">net.qh:10</a></div></div>
 <div class="ttc" id="common_2effects_2all_8qh_html_a3e7c6a8308e9db54726d8979be2aa9eb"><div class="ttname"><a href="../../d0/d92/common_2effects_2all_8qh.html#a3e7c6a8308e9db54726d8979be2aa9eb">Effects_from</a></div><div class="ttdeci">#define Effects_from(i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d92/common_2effects_2all_8qh_source.html#l00012">all.qh:12</a></div></div>
 <div class="ttc" id="sv__vehicles_8qc_html_a6e5c573964dc1f64a84660225655a8db"><div class="ttname"><a href="../../da/d10/sv__vehicles_8qc.html#a6e5c573964dc1f64a84660225655a8db">vehicles_projectile</a></div><div class="ttdeci">entity vehicles_projectile(entity this, string _mzlfx, Sound _mzlsound, vector _org, vector _vel, float _dmg, float _radi, float _force, float _size, int _deahtype, float _projtype, float _health, bool _cull, bool _clianim, entity _owner)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/sv__vehicles_8qc_source.html#l00211">sv_vehicles.qc:211</a></div></div>
@@ -260,9 +262,8 @@ $(document).ready(function(){initNavTree('dc/de7/bumblebee__weapons_8qc_source.h
 <div class="ttc" id="csprogsdefs_8qc_html_a0b04e01c228e625bb2627bee15484910"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a></div><div class="ttdeci">const float DRAWFLAG_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00317">csprogsdefs.qc:317</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aa8c03f058fec0c574e1bba13327f5a5b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b">WriteCoord</a></div><div class="ttdeci">void WriteCoord(float data, float dest, float desto)</div></div>
-<div class="ttc" id="movetypes_8qh_html_a8f912d9d796bd82c9c5a4f50e83a7239"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a8f912d9d796bd82c9c5a4f50e83a7239">move_origin</a></div><div class="ttdeci">vector move_origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00015">movetypes.qh:15</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a6ff047c33f58c5833c291c636078e712"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a6ff047c33f58c5833c291c636078e712">realowner</a></div><div class="ttdeci">entity realowner</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00389">defs.qh:389</a></div></div>
-<div class="ttc" id="subs_8qh_html_a6d667edce7a9dc7b78542157f7f7dc46"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46">lip</a></div><div class="ttdeci">float lip</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00055">subs.qh:55</a></div></div>
+<div class="ttc" id="subs_8qh_html_a6d667edce7a9dc7b78542157f7f7dc46"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46">lip</a></div><div class="ttdeci">float lip</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00028">subs.qh:28</a></div></div>
 <div class="ttc" id="bumblebee__weapons_8qh_html"><div class="ttname"><a href="../../dc/d99/bumblebee__weapons_8qh.html">bumblebee_weapons.qh</a></div></div>
 <div class="ttc" id="bumblebee__weapons_8qh_html_a2cae9e1b986831b1927ad69ed6fd1761"><div class="ttname"><a href="../../dc/d99/bumblebee__weapons_8qh.html#a2cae9e1b986831b1927ad69ed6fd1761">autocvar_g_vehicle_bumblebee_cannon_damage</a></div><div class="ttdeci">float autocvar_g_vehicle_bumblebee_cannon_damage</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d99/bumblebee__weapons_8qh_source.html#l00006">bumblebee_weapons.qh:6</a></div></div>
 <div class="ttc" id="pp_8qc_html_a9cfbb269728dc4185236d28be58d9eab"><div class="ttname"><a href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a></div><div class="ttdeci">int cnt</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d93/pp_8qc_source.html#l00020">pp.qc:20</a></div></div>
@@ -279,7 +280,7 @@ $(document).ready(function(){initNavTree('dc/de7/bumblebee__weapons_8qc_source.h
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_041ec6f984a6b19402431933346033dd.html">vehicles</a></li><li class="navelem"><a class="el" href="../../dir_2f36f6133f1168f9d06ade8b0e9af156.html">vehicle</a></li><li class="navelem"><a class="el" href="../../dc/de7/bumblebee__weapons_8qc.html">bumblebee_weapons.qc</a></li>
-    <li class="footer">Generated on Sun Jul 24 2016 06:18:53 for Xonotic by
+    <li class="footer">Generated on Sun Jul 24 2016 06:54:34 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

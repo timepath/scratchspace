@@ -1,5 +1,16 @@
 var NAVTREEINDEX94 =
 {
+"db/dd3/doublejump_8qc.html":[2,0,1,9,0,8,2],
+"db/dd3/doublejump_8qc_source.html":[2,0,1,9,0,8,2],
+"db/dd7/dialog__multiplayer__media__musicplayer_8qh.html":[2,0,5,4,107],
+"db/dd7/dialog__multiplayer__media__musicplayer_8qh.html#ae82044ad6b56c5d7803a8922b42ac371":[2,0,5,4,107,1],
+"db/dd7/dialog__multiplayer__media__musicplayer_8qh_source.html":[2,0,5,4,107],
+"db/ddb/classXonoticCvarList.html":[1,0,139],
+"db/ddb/classXonoticCvarList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,139,7],
+"db/ddb/classXonoticCvarList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,139,38],
+"db/ddb/classXonoticCvarList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,139,41],
+"db/ddb/classXonoticCvarList.html#a10cf88734594fed24be93889407c0bda":[1,0,139,22],
+"db/ddb/classXonoticCvarList.html#a113d1a91bed3f1f7bc3a24306c2c68e7":[1,0,139,18],
 "db/ddb/classXonoticCvarList.html#a1170beb5bb8bebb69d187b8b0396164f":[1,0,139,60],
 "db/ddb/classXonoticCvarList.html#a11a8209afcff1a9a74262609d1b92646":[1,0,139,75],
 "db/ddb/classXonoticCvarList.html#a123373845cabe366ec0e042724c10845":[1,0,139,5],
@@ -238,16 +249,5 @@ var NAVTREEINDEX94 =
 "db/dfa/classPlasmaAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,79,14],
 "db/dfa/classPlasmaAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,79,18],
 "db/dfa/classPlasmaAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,79,9],
-"db/dfa/classPlasmaAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,79,19],
-"db/dfa/classPlasmaAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,79,13],
-"db/dfa/classPlasmaAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,79,7],
-"db/dfa/classPlasmaAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,79,21],
-"db/dfa/classPlasmaAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,79,6],
-"db/dfa/classPlasmaAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,79,0],
-"db/dfa/classPlasmaAttack.html#a7743c52f3dec3ee134a204bdedb78e21":[1,0,79,30],
-"db/dfa/classPlasmaAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,79,33],
-"db/dfa/classPlasmaAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,79,24],
-"db/dfa/classPlasmaAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,79,2],
-"db/dfa/classPlasmaAttack.html#a853b558fa5b7811a959533e7eb513d0b":[1,0,79,26],
-"db/dfa/classPlasmaAttack.html#a8acb91e35e239c72604a1067304cc3b5":[1,0,79,25]
+"db/dfa/classPlasmaAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,79,19]
 };

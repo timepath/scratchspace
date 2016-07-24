@@ -32,6 +32,7 @@ var cl__client_8qc =
     [ "ObserverThink", "da/d53/cl__client_8qc.html#a0624045451f22564103dbb3878f77fd6", null ],
     [ "play_countdown", "da/d53/cl__client_8qc.html#a06fa68229b5a8bf0f5931e23bc3612b6", null ],
     [ "player_getspecies", "da/d53/cl__client_8qc.html#a04003ae2140daf692afaee96c6b305df", null ],
+    [ "Player_Physics", "da/d53/cl__client_8qc.html#a8ded53c3174328a5bb11200508201865", null ],
     [ "player_powerups", "da/d53/cl__client_8qc.html#a4b793ead3ecba4010f267f2a20373890", null ],
     [ "player_regen", "da/d53/cl__client_8qc.html#a86d11ca9bae40e7268a22973fe720d53", null ],
     [ "PlayerInIDList", "da/d53/cl__client_8qc.html#a22e18255e1c9c4b4a7c8c8d8e5d0e6bf", null ],

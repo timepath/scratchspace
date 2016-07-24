@@ -1,5 +1,13 @@
 var NAVTREEINDEX91 =
 {
+"db/d7f/effectinfo_8inc.html#ac61635b92198b2ad5055fafc39684d0d":[2,0,1,2,7,272],
+"db/d7f/effectinfo_8inc.html#ac7c86f73a94943dee0c71ef96a1a7e6e":[2,0,1,2,7,39],
+"db/d7f/effectinfo_8inc.html#ac86351e28218236a4a9dfd91e05bc383":[2,0,1,2,7,138],
+"db/d7f/effectinfo_8inc.html#ac939d312aedb2ececd1cda8abe5c3a09":[2,0,1,2,7,183],
+"db/d7f/effectinfo_8inc.html#ac9d4a16956c2a0eebda51fac74b86797":[2,0,1,2,7,170],
+"db/d7f/effectinfo_8inc.html#acad0c16a962f053c9509a72f06a93829":[2,0,1,2,7,225],
+"db/d7f/effectinfo_8inc.html#acc2be3664d219ee4f4241b2b1da1c6ad":[2,0,1,2,7,136],
+"db/d7f/effectinfo_8inc.html#acc3a215b4ac07fcb9299286b44d3a0bc":[2,0,1,2,7,50],
 "db/d7f/effectinfo_8inc.html#acc428bf775c450d281c042afced73636":[2,0,1,2,7,130],
 "db/d7f/effectinfo_8inc.html#accae52a3bae99ab53b61ff68bba7163a":[2,0,1,2,7,294],
 "db/d7f/effectinfo_8inc.html#accb016a039a53ac3201ef4a7af4b7d25":[2,0,1,2,7,210],
@@ -241,13 +249,5 @@ var NAVTREEINDEX91 =
 "db/dab/common_2deathtypes_2all_8qh.html#abc6dc7c95f02a98653fda249b1450b6c":[2,0,1,1,4,2],
 "db/dab/common_2deathtypes_2all_8qh.html#abfeb8ab3b6f6ad47eabcf0cb3d206b5a":[2,0,1,1,4,23],
 "db/dab/common_2deathtypes_2all_8qh.html#ad5aa4530e732a8bb74be927221610971":[2,0,1,1,4,7],
-"db/dab/common_2deathtypes_2all_8qh.html#ae97c6e4b865e8ba3172ec12006c87379":[2,0,1,1,4,21],
-"db/dab/common_2deathtypes_2all_8qh.html#aed2b0f7718db6f6b5bc9ebda3c8b4c41":[2,0,1,1,4,1],
-"db/dab/common_2deathtypes_2all_8qh.html#aef6fa079502aff69a43b0627c85d8efb":[2,0,1,1,4,22],
-"db/dab/common_2deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8":[2,0,1,1,4,12],
-"db/dab/common_2deathtypes_2all_8qh_source.html":[2,0,1,1,4],
-"db/daf/playerstats_8qh.html":[2,0,1,37],
-"db/daf/playerstats_8qh.html#a312e47b0868340d91079335f62009acf":[2,0,1,37,0],
-"db/daf/playerstats_8qh_source.html":[2,0,1,37],
-"db/db1/classXonoticHUDRaceTimerDialog.html":[1,0,172]
+"db/dab/common_2deathtypes_2all_8qh.html#ae97c6e4b865e8ba3172ec12006c87379":[2,0,1,1,4,21]
 };

@@ -83,6 +83,7 @@ var player_8qh =
     [ "lastflags", "df/dae/player_8qh.html#a1334a71146999f9285f3d037c7f9a404", null ],
     [ "lastground", "df/dae/player_8qh.html#ab803f80764072efe357d4f09fa570bd9", null ],
     [ "movement_old", "df/dae/player_8qh.html#a4c067ec635ba3281c982cfaaa51cf425", null ],
+    [ "pm_frametime", "df/dae/player_8qh.html#af8ed3c1722d1f14e9c429f59fc91ab39", null ],
     [ "race_penalty", "df/dae/player_8qh.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca", null ],
     [ "swamp_slowdown", "df/dae/player_8qh.html#a72409ccf4513611408270e2c17712b3d", null ],
     [ "teleport_time", "df/dae/player_8qh.html#a5b22fb02e46104adf892ccf37392f741", null ],

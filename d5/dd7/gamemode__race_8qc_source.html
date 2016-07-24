@@ -266,7 +266,7 @@ $(document).ready(function(){initNavTree('d5/dd7/gamemode__race_8qc_source.html'
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="keywordflow">if</span>(player.race_penalty)</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        {</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            player.velocity = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            player.movetype = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>;</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;            <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(player, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>);</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;            player.disableclientprediction = 2;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        }</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div>
@@ -721,6 +721,7 @@ $(document).ready(function(){initNavTree('d5/dd7/gamemode__race_8qc_source.html'
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="scores_8qc_html_ae62eb8bcfc2596312a8b44c3aabdef19"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#ae62eb8bcfc2596312a8b44c3aabdef19">PlayerScore_Sort</a></div><div class="ttdeci">entity PlayerScore_Sort(.float field, float teams, float strict, float nospectators)</div><div class="ttdoc">Sorts the players and stores their place in the given field, starting with. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00693">scores.qc:693</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_a8069d572672171c56fdffd290ed4979d"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a></div><div class="ttdeci">#define IS_REAL_CLIENT(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00017">_all.qh:17</a></div></div>
+<div class="ttc" id="movetypes_8qh_html_a8bf89be84cb481d218ff41140eacff78"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a></div><div class="ttdeci">void set_movetype(entity this, int mt)</div></div>
 <div class="ttc" id="client_2defs_8qh_html_a67234b7e3097a12ec7d56566276b1295"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#a67234b7e3097a12ec7d56566276b1295">race_checkpoint</a></div><div class="ttdeci">float race_checkpoint</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00034">defs.qh:34</a></div></div>
 <div class="ttc" id="gamemode__race_8qc_html_a5edf7aacc2c70ddbf9189864268228e5"><div class="ttname"><a href="../../d5/dd7/gamemode__race_8qc.html#a5edf7aacc2c70ddbf9189864268228e5">REGISTER_MUTATOR</a></div><div class="ttdeci">REGISTER_MUTATOR(rc, false)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dd7/gamemode__race_8qc_source.html#l00009">gamemode_race.qc:9</a></div></div>
 <div class="ttc" id="race_8qh_html_a3af52531d4aea38c0d8a0b5594a80c4f"><div class="ttname"><a href="../../d4/d1b/race_8qh.html#a3af52531d4aea38c0d8a0b5594a80c4f">ST_RACE_LAPS</a></div><div class="ttdeci">const float ST_RACE_LAPS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1b/race_8qh_source.html#l00006">race.qh:6</a></div></div>
@@ -734,7 +735,7 @@ $(document).ready(function(){initNavTree('d5/dd7/gamemode__race_8qc_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../d5/dd7/gamemode__race_8qc.html">gamemode_race.qc</a></li>
-    <li class="footer">Generated on Sun Jul 24 2016 06:18:55 for Xonotic by
+    <li class="footer">Generated on Sun Jul 24 2016 06:54:36 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
