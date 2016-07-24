@@ -1,5 +1,6 @@
 var NAVTREEINDEX91 =
 {
+"db/d7f/effectinfo_8inc.html#acc428bf775c450d281c042afced73636":[2,0,1,2,7,130],
 "db/d7f/effectinfo_8inc.html#accae52a3bae99ab53b61ff68bba7163a":[2,0,1,2,7,294],
 "db/d7f/effectinfo_8inc.html#accb016a039a53ac3201ef4a7af4b7d25":[2,0,1,2,7,210],
 "db/d7f/effectinfo_8inc.html#acd1be520c6f7997698f8512ea3281d5c":[2,0,1,2,7,280],
@@ -248,6 +249,5 @@ var NAVTREEINDEX91 =
 "db/daf/playerstats_8qh.html":[2,0,1,37],
 "db/daf/playerstats_8qh.html#a312e47b0868340d91079335f62009acf":[2,0,1,37,0],
 "db/daf/playerstats_8qh_source.html":[2,0,1,37],
-"db/db1/classXonoticHUDRaceTimerDialog.html":[1,0,172],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,172,21]
+"db/db1/classXonoticHUDRaceTimerDialog.html":[1,0,172]
 };

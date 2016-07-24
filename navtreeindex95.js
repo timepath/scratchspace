@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"db/dfa/classPlasmaAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,79,4],
 "db/dfa/classPlasmaAttack.html#aa0a5f1de6ba7228907295012902a136a":[1,0,79,28],
 "db/dfa/classPlasmaAttack.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,79,11],
 "db/dfa/classPlasmaAttack.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,79,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "dc/d12/common_2turrets_2turret_2__mod_8inc_source.html":[2,0,1,14,0,0],
 "dc/d12/multi_8qh.html":[2,0,1,13,3,21],
 "dc/d12/multi_8qh_source.html":[2,0,1,13,3,21],
-"dc/d13/server_2bot_2__mod_8inc.html":[2,0,6,0,1],
-"dc/d13/server_2bot_2__mod_8inc_source.html":[2,0,6,0,1]
+"dc/d13/server_2bot_2__mod_8inc.html":[2,0,6,0,1]
 };

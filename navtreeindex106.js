@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"dd/d90/classRaptorFlare.html":[1,0,92],
 "dd/d90/classRaptorFlare.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,92,32],
 "dd/d90/classRaptorFlare.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,92,17],
 "dd/d90/classRaptorFlare.html#a1571e947669fddff894ceabfe3cdab9b":[1,0,92,26],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "dd/da3/classXonoticMusicPlayerTab.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,192,87],
 "dd/da3/classXonoticMusicPlayerTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,192,63],
 "dd/da3/classXonoticMusicPlayerTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,192,4],
-"dd/da3/classXonoticMusicPlayerTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,192,32],
-"dd/da3/classXonoticMusicPlayerTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,192,10]
+"dd/da3/classXonoticMusicPlayerTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,192,32]
 };
