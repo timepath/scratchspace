@@ -7,6 +7,7 @@ var player_8qh =
     [ "GAMEPLAYFIX_STEPDOWN", "df/dae/player_8qh.html#a29a88512a529238f210bd12531cf3859", null ],
     [ "GAMEPLAYFIX_STEPMULTIPLETIMES", "df/dae/player_8qh.html#ad06c0c0ae6b69f294b4bb1c2fd898caf", null ],
     [ "GAMEPLAYFIX_UNSTICKPLAYERS", "df/dae/player_8qh.html#a3823e7faa5111ca7142b61cc6dfce354", null ],
+    [ "GAMEPLAYFIX_WATERTRANSITION", "df/dae/player_8qh.html#a6b498138118d9d34aa3267caa5415fde", null ],
     [ "IS_JUMP_HELD", "df/dae/player_8qh.html#a982c4b1086e8011ac24a31ff67e34bab", null ],
     [ "ITEMS_STAT", "df/dae/player_8qh.html#a7ea304a1bf4f9e551543916c8dbf8871", null ],
     [ "PHYS_ACCELERATE", "df/dae/player_8qh.html#a9da068493e25e7f3bbeeed2faad2718c", null ],

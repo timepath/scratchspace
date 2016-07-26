@@ -1,8 +1,5 @@
 var NAVTREEINDEX52 =
 {
-"d6/d99/effectinfo__buffs_8inc.html#a61b7a42774a0e3771a8ca440ede84e6e":[2,0,1,2,9,2],
-"d6/d99/effectinfo__buffs_8inc.html#a658b660e63f555599c86f56b3c65ed2f":[2,0,1,2,9,16],
-"d6/d99/effectinfo__buffs_8inc.html#a658c13db518ffe512feed9968222d7bf":[2,0,1,2,9,19],
 "d6/d99/effectinfo__buffs_8inc.html#a750fb493ea8d4acc5cad790fd45bd39c":[2,0,1,2,9,31],
 "d6/d99/effectinfo__buffs_8inc.html#a885af86e11d2f5b62338a878e66be8c8":[2,0,1,2,9,18],
 "d6/d99/effectinfo__buffs_8inc.html#a8d28e1bf077d7ab455d0cb092bca218e":[2,0,1,2,9,4],
@@ -249,5 +246,8 @@ var NAVTREEINDEX52 =
 "d6/dd1/classXonoticHUDCenterprintDialog.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,158,71],
 "d6/dd1/classXonoticHUDCenterprintDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,158,53],
 "d6/dd1/classXonoticHUDCenterprintDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,158,84],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,158,20]
+"d6/dd1/classXonoticHUDCenterprintDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,158,20],
+"d6/dd1/classXonoticHUDCenterprintDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,158,52],
+"d6/dd1/classXonoticHUDCenterprintDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,158,44],
+"d6/dd1/classXonoticHUDCenterprintDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,158,88]
 };

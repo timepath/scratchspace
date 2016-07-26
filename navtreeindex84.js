@@ -1,8 +1,5 @@
 var NAVTREEINDEX84 =
 {
-"da/db7/classXonoticServerInfoDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,215,40],
-"da/db7/classXonoticServerInfoDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,215,17],
-"da/db7/classXonoticServerInfoDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,215,48],
 "da/db7/classXonoticServerInfoDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,215,24],
 "da/db7/classXonoticServerInfoDialog.html#a4dbd215b6bf13c52b9acf1169e06e054":[1,0,215,63],
 "da/db7/classXonoticServerInfoDialog.html#a4e3defad3323470cd012eb8055d8722c":[1,0,215,69],
@@ -249,5 +246,8 @@ var NAVTREEINDEX84 =
 "da/dde/classOffhandHook.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,74,1],
 "da/dde/csprogsdefs_8qh.html":[2,0,2,1],
 "da/dde/csprogsdefs_8qh.html#a2975aa3861dc843a19aa644cbca0990c":[2,0,2,1,3],
-"da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7":[2,0,2,1,14]
+"da/dde/csprogsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7":[2,0,2,1,14],
+"da/dde/csprogsdefs_8qh.html#a5d1bb17af4691ba1a8c043b63c37b391":[2,0,2,1,10],
+"da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727":[2,0,2,1,1],
+"da/dde/csprogsdefs_8qh.html#a748f553ee0da4a5b0c677a310e821255":[2,0,2,1,8]
 };

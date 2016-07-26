@@ -1,8 +1,5 @@
 var NAVTREEINDEX47 =
 {
-"d6/d01/classRaptorCannon.html#ad033f23932f202bddd926ed5b366336c":[1,0,91,27],
-"d6/d01/classRaptorCannon.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,91,1],
-"d6/d01/classRaptorCannon.html#ad63819a304c4917338124a089d9c5861":[1,0,91,31],
 "d6/d01/classRaptorCannon.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,91,20],
 "d6/d01/classRaptorCannon.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,91,22],
 "d6/d01/classRaptorCannon.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,91,15],
@@ -249,5 +246,8 @@ var NAVTREEINDEX47 =
 "d6/d11/progsdefs_8qc.html#ad82b5331367ad172c129a75b405f1ca7":[2,0,2,0,4,37],
 "d6/d11/progsdefs_8qc.html#ad9078a956f0ea2007a26bb238b0da601":[2,0,2,0,4,153],
 "d6/d11/progsdefs_8qc.html#ad93726ab00c1c9e7027e72be5aa1d453":[2,0,2,0,4,75],
-"d6/d11/progsdefs_8qc.html#ad95dda5ebd3c96e166987d53719aa415":[2,0,2,0,4,213]
+"d6/d11/progsdefs_8qc.html#ad95dda5ebd3c96e166987d53719aa415":[2,0,2,0,4,213],
+"d6/d11/progsdefs_8qc.html#ad9fecf5376d02db89a2429425da0daaa":[2,0,2,0,4,240],
+"d6/d11/progsdefs_8qc.html#adb3e8aa050da1ccb6735e125da7d436a":[2,0,2,0,4,97],
+"d6/d11/progsdefs_8qc.html#ade4fcf7e364ab687e5fff6d00e4dca3c":[2,0,2,0,4,184]
 };

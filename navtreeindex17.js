@@ -1,8 +1,5 @@
 var NAVTREEINDEX17 =
 {
-"d2/db4/string_8qh.html#a97b9c9eb2587047924a05f9f0df6903f":[2,0,4,52,4],
-"d2/db4/string_8qh.html#aa07a5510e35b6d6cb275df95a6b3fdda":[2,0,4,52,37],
-"d2/db4/string_8qh.html#aa68e64adc9e42841a08ebe3139a98adb":[2,0,4,52,23],
 "d2/db4/string_8qh.html#aac3cd57f894ce5c2be1d74aee3fe2f13":[2,0,4,52,41],
 "d2/db4/string_8qh.html#ab0ab8efc1c679dc525fc3cdd57aad81a":[2,0,4,52,15],
 "d2/db4/string_8qh.html#ab3e0957f7f441bf477eb9e5c9d9a17f1":[2,0,4,52,32],
@@ -24,14 +21,15 @@ var NAVTREEINDEX17 =
 "d2/db8/gametypelist_8qc.html":[2,0,5,4,164],
 "d2/db8/gametypelist_8qc.html#a5268feb06cc5314e1f2a458147ae43ba":[2,0,5,4,164,2],
 "d2/db8/gametypelist_8qc.html#a58b9cf8c5ccf5217bbd1a112963c2481":[2,0,5,4,164,1],
-"d2/db8/gametypelist_8qc.html#a5b143b6a6bae54c76268f583225cfcba":[2,0,5,4,164,9],
+"d2/db8/gametypelist_8qc.html#a5b143b6a6bae54c76268f583225cfcba":[2,0,5,4,164,10],
 "d2/db8/gametypelist_8qc.html#a6dec0dd03e2658b2ff6cb6a7a7ae0a88":[2,0,5,4,164,0],
-"d2/db8/gametypelist_8qc.html#a6e40fa703f86c8349adb82ee9ae53e68":[2,0,5,4,164,3],
-"d2/db8/gametypelist_8qc.html#a8b891b21987cc1fa3f3f74d0176d8c0f":[2,0,5,4,164,7],
-"d2/db8/gametypelist_8qc.html#a8e583009e876f1bb367cfeda20a38c6c":[2,0,5,4,164,8],
-"d2/db8/gametypelist_8qc.html#a90062e2b5db68e82263113196f1b9486":[2,0,5,4,164,5],
-"d2/db8/gametypelist_8qc.html#a976e536c5ffb069d577e904223088efc":[2,0,5,4,164,6],
-"d2/db8/gametypelist_8qc.html#a9f8776239bf151378989aca163d9323c":[2,0,5,4,164,4],
+"d2/db8/gametypelist_8qc.html#a6e40fa703f86c8349adb82ee9ae53e68":[2,0,5,4,164,4],
+"d2/db8/gametypelist_8qc.html#a8b891b21987cc1fa3f3f74d0176d8c0f":[2,0,5,4,164,8],
+"d2/db8/gametypelist_8qc.html#a8e583009e876f1bb367cfeda20a38c6c":[2,0,5,4,164,9],
+"d2/db8/gametypelist_8qc.html#a90062e2b5db68e82263113196f1b9486":[2,0,5,4,164,6],
+"d2/db8/gametypelist_8qc.html#a976e536c5ffb069d577e904223088efc":[2,0,5,4,164,7],
+"d2/db8/gametypelist_8qc.html#a9f8776239bf151378989aca163d9323c":[2,0,5,4,164,5],
+"d2/db8/gametypelist_8qc.html#ae230e056a6dc39bac1a02b29a22dbbeb":[2,0,5,4,164,3],
 "d2/db8/gametypelist_8qc_source.html":[2,0,5,4,164],
 "d2/db8/spiderbot__weapons_8qc.html":[2,0,1,15,0,14],
 "d2/db8/spiderbot__weapons_8qc_source.html":[2,0,1,15,0,14],
@@ -249,5 +247,7 @@ var NAVTREEINDEX17 =
 "d2/dd3/classPortoLaunch.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,84,14],
 "d2/dd3/classPortoLaunch.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,84,18],
 "d2/dd3/classPortoLaunch.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,84,9],
-"d2/dd3/classPortoLaunch.html#a4337268c8cad6836bae8efd4a8835070":[1,0,84,19]
+"d2/dd3/classPortoLaunch.html#a4337268c8cad6836bae8efd4a8835070":[1,0,84,19],
+"d2/dd3/classPortoLaunch.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,84,13],
+"d2/dd3/classPortoLaunch.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,84,7]
 };

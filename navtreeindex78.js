@@ -1,8 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"d9/dd0/effectinfo__gentle__morphed_8inc.html#a4905e74e3caa1afc3e4b3591074ba709":[2,0,1,2,13,2],
-"d9/dd0/effectinfo__gentle__morphed_8inc.html#a5d5b2ca84c850820f57b44d44624a73c":[2,0,1,2,13,0],
-"d9/dd0/effectinfo__gentle__morphed_8inc.html#ad82077a2a0d938c18a58ef322bfd0a16":[2,0,1,2,13,1],
 "d9/dd0/effectinfo__gentle__morphed_8inc_source.html":[2,0,1,2,13],
 "d9/dd1/common_2items_2item_2__mod_8qh.html":[2,0,1,5,0,1],
 "d9/dd1/common_2items_2item_2__mod_8qh_source.html":[2,0,1,5,0,1],
@@ -249,5 +246,8 @@ var NAVTREEINDEX78 =
 "d9/df0/weaponstats_8qh.html#aaff19cec643aea889b24fc730133c07c":[2,0,6,4,19,3],
 "d9/df0/weaponstats_8qh.html#af22a35d618b56e7fc7f2e71a5de60a3d":[2,0,6,4,19,0],
 "d9/df0/weaponstats_8qh_source.html":[2,0,6,4,19],
-"d9/df2/common_2command_2__mod_8qh.html":[2,0,1,0,1]
+"d9/df2/common_2command_2__mod_8qh.html":[2,0,1,0,1],
+"d9/df2/common_2command_2__mod_8qh_source.html":[2,0,1,0,1],
+"d9/df7/mathlib_8qh.html":[2,0,4,2,9],
+"d9/df7/mathlib_8qh.html#a0468400adec281798a1be036b1bd4f00":[2,0,4,2,9,66]
 };

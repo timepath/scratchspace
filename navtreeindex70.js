@@ -1,8 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"d8/da8/classXonoticServerCreateTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,214,53],
-"d8/da8/classXonoticServerCreateTab.html#ae1258b206abbfcf1723abdc01411f4b7":[1,0,214,51],
-"d8/da8/classXonoticServerCreateTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,214,96],
 "d8/da8/classXonoticServerCreateTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,214,61],
 "d8/da8/classXonoticServerCreateTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,214,18],
 "d8/da8/classXonoticServerCreateTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,214,50],
@@ -249,5 +246,8 @@ var NAVTREEINDEX70 =
 "d8/dc1/sv__monsters_8qh_source.html":[2,0,1,8,9],
 "d8/dc5/nix_8qc.html":[2,0,1,9,0,17,3],
 "d8/dc5/nix_8qc_source.html":[2,0,1,9,0,17,3],
-"d8/dcc/colorpicker_8qh.html":[2,0,5,4,21]
+"d8/dcc/colorpicker_8qh.html":[2,0,5,4,21],
+"d8/dcc/colorpicker_8qh.html#a38dab2da0f91e1289887fec32ad6412d":[2,0,5,4,21,2],
+"d8/dcc/colorpicker_8qh.html#a434bb4c59cf46e5a4055073efbbc2c90":[2,0,5,4,21,3],
+"d8/dcc/colorpicker_8qh.html#ad991d24e2da3f4a463e3b4236b8e3b92":[2,0,5,4,21,1]
 };

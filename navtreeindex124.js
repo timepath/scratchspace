@@ -1,11 +1,8 @@
 var NAVTREEINDEX124 =
 {
-"globals_a.html":[2,1,0,1],
-"globals_b.html":[2,1,0,2],
-"globals_c.html":[2,1,0,3],
 "globals_d.html":[2,1,0,4],
-"globals_defs.html":[2,1,5,0],
 "globals_defs.html":[2,1,5],
+"globals_defs.html":[2,1,5,0],
 "globals_defs_a.html":[2,1,5,1],
 "globals_defs_b.html":[2,1,5,2],
 "globals_defs_c.html":[2,1,5,3],

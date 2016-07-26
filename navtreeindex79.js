@@ -1,8 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"d9/df2/common_2command_2__mod_8qh_source.html":[2,0,1,0,1],
-"d9/df7/mathlib_8qh.html":[2,0,4,2,9],
-"d9/df7/mathlib_8qh.html#a0468400adec281798a1be036b1bd4f00":[2,0,4,2,9,66],
 "d9/df7/mathlib_8qh.html#a052713cb4dd3553c149b5829a5f978af":[2,0,4,2,9,44],
 "d9/df7/mathlib_8qh.html#a07054354b767133e372ca8edf177ebd6":[2,0,4,2,9,63],
 "d9/df7/mathlib_8qh.html#a0752eeec8108324a4b1acfc7e9a3f789":[2,0,4,2,9,37],
@@ -249,5 +246,8 @@ var NAVTREEINDEX79 =
 "da/d1d/classMLRSTurretAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,64,8],
 "da/d1d/classMLRSTurretAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,64,34],
 "da/d1d/classMLRSTurretAttack.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,64,5],
-"da/d1d/classMLRSTurretAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,64,35]
+"da/d1d/classMLRSTurretAttack.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,64,35],
+"da/d1d/classMLRSTurretAttack.html#ad033f23932f202bddd926ed5b366336c":[1,0,64,27],
+"da/d1d/classMLRSTurretAttack.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,64,1],
+"da/d1d/classMLRSTurretAttack.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,64,20]
 };

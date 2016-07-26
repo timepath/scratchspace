@@ -1,8 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"dc/d30/classBallStealer.html#a7bf13b7929125975c829f24488628560":[1,0,5,30],
-"dc/d30/classBallStealer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,5,24],
-"dc/d30/classBallStealer.html#a80fa9a65e19370473a29baebc04d0626":[1,0,5,2],
 "dc/d30/classBallStealer.html#a8acb91e35e239c72604a1067304cc3b5":[1,0,5,25],
 "dc/d30/classBallStealer.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,5,4],
 "dc/d30/classBallStealer.html#aa0a5f1de6ba7228907295012902a136a":[1,0,5,28],
@@ -249,5 +246,8 @@ var NAVTREEINDEX97 =
 "dc/d44/classXonoticScreenshotList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,212,26],
 "dc/d44/classXonoticScreenshotList.html#a764e355b65af202e87289c596432c780":[1,0,212,62],
 "dc/d44/classXonoticScreenshotList.html#a7b13cdc101cd55528465440586a004f6":[1,0,212,59],
-"dc/d44/classXonoticScreenshotList.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,212,11]
+"dc/d44/classXonoticScreenshotList.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,212,11],
+"dc/d44/classXonoticScreenshotList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,212,77],
+"dc/d44/classXonoticScreenshotList.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,212,89],
+"dc/d44/classXonoticScreenshotList.html#a7eb2534b534e82af8f9ac1c99646465a":[1,0,212,49]
 };

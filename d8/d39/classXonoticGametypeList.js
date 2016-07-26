@@ -8,7 +8,7 @@ var classXonoticGametypeList =
     [ "destroy", "d8/d39/classXonoticGametypeList.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e", null ],
     [ "display", "d8/d39/classXonoticGametypeList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "doubleClickListBoxItem", "d8/d39/classXonoticGametypeList.html#a00b3d9b37ac094d901936a08da5804f1", null ],
-    [ "draw", "d8/d39/classXonoticGametypeList.html#a39faad4c275af7a96e30379428646997", null ],
+    [ "draw", "d8/d39/classXonoticGametypeList.html#a918b5c55914ceeb250a1e399882aca9c", null ],
     [ "drawListBoxItem", "d8/d39/classXonoticGametypeList.html#a25fccb8aa166a4b5550e2cfc2919b1b4", null ],
     [ "focusedItemChangeNotify", "d8/d39/classXonoticGametypeList.html#aaba5592f13e449c935bf6ff1c6a72119", null ],
     [ "focusEnter", "d8/d39/classXonoticGametypeList.html#a7bae0d38f79fe9ca14091c54f4cfa3e8", null ],

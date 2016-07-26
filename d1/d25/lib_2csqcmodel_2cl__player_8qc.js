@@ -1,8 +1,6 @@
 var lib_2csqcmodel_2cl__player_8qc =
 [
-    [ "_Movetype_Physics_ClientFrame", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#a49dc89e672be0a131f3c6d719bd4661e", null ],
     [ "CSQC_ClientMovement_PlayerMove_Frame", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#ae8571989265a08324908238d6859e4f3", null ],
-    [ "CSQCPlayer_CheckWater", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#a2b84cc3b55c5de189cfe7774c3ad10fc", null ],
     [ "CSQCPlayer_GetPredictionErrorO", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#a22375b90f268008d67bfeabd8d3833ea", null ],
     [ "CSQCPlayer_GetPredictionErrorV", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#ae6c6adf3117fa51e69a8693b38227b52", null ],
     [ "CSQCPlayer_IsLocalPlayer", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#acb76b9afbe82658317a61e6b723fff7b", null ],
@@ -17,7 +15,6 @@ var lib_2csqcmodel_2cl__player_8qc =
     [ "CSQCPlayer_SetPredictionError", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#a40c48ddf2c0cb079a8b728996d9665f2", null ],
     [ "CSQCPlayer_SetViewLocation", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#af4f80104939058f43ea71aabbc1d008f", null ],
     [ "CSQCPlayer_Unpredict", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#aa0d9624853912644329129207b693e30", null ],
-    [ "Movetype_Physics_Spam", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#a27475b63d060db9a5458fff44df25a6b", null ],
     [ "autocvar_cl_movement_errorcompensation", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#a16bb75c6d1f75b0a9aca295d6e5a4baa", null ],
     [ "autocvar_cl_movement_intermissionrunning", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#a5aa936af4f74ead738591f3e83d60f0f", null ],
     [ "csqcplayer_moveframe", "d1/d25/lib_2csqcmodel_2cl__player_8qc.html#a89c3f07110446c9d8b355bc9f25648db", null ],
