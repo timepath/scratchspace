@@ -1,7 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a585b442561bc7848266fdcd29b55916a":[2,0,4,9,4],
-"d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5a7e60a084df9c5e6530038757b412e7":[2,0,4,9,6],
 "d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7a5c270cf3e25cfa83f27b787be93b99f9":[2,0,4,9,5],
 "d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aa45073594ce33b58d075d65d032ee453":[2,0,4,9,3],
 "d5/d52/bits_8qh.html#adf764cbdea00d65edcd07bb9953ad2b7aeee6c9348a242fbf6f968e4eae84d7a1":[2,0,4,9,7],
@@ -249,5 +247,7 @@ var NAVTREEINDEX43 =
 "d5/d6d/util__server_8qc_source.html":[2,0,4,2,12],
 "d5/d6f/xonotic_2checkbox_8qc.html":[2,0,5,4,12],
 "d5/d6f/xonotic_2checkbox_8qc.html#a10aa8dc6f022dcc1df8ef8b5153ac9d0":[2,0,5,4,12,1],
-"d5/d6f/xonotic_2checkbox_8qc.html#a794154951852d8c93891f3567ca8783b":[2,0,5,4,12,7]
+"d5/d6f/xonotic_2checkbox_8qc.html#a794154951852d8c93891f3567ca8783b":[2,0,5,4,12,7],
+"d5/d6f/xonotic_2checkbox_8qc.html#ab0962d6e3ca24d502f661a5c4c1eb770":[2,0,5,4,12,3],
+"d5/d6f/xonotic_2checkbox_8qc.html#abd68b3cdbcebff2b5d6fc9da7b430b76":[2,0,5,4,12,0]
 };

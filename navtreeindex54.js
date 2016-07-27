@@ -1,7 +1,5 @@
 var NAVTREEINDEX54 =
 {
-"d6/ddd/server_2mutators_2events_8qh.html#a7dd6d46cd9dfc2d44a92b52badb3aa3b":[2,0,6,2,6,131],
-"d6/ddd/server_2mutators_2events_8qh.html#a7f49e7f9ba82fc5b45a4f89a44b7fd95":[2,0,6,2,6,145],
 "d6/ddd/server_2mutators_2events_8qh.html#a7f798d2c24bc1812407fee6329783713":[2,0,6,2,6,166],
 "d6/ddd/server_2mutators_2events_8qh.html#a81fd9b86698cd59c3265ec9888804e0b":[2,0,6,2,6,32],
 "d6/ddd/server_2mutators_2events_8qh.html#a82af11bb2e9232f2bdc31eac54b5ef0f":[2,0,6,2,6,116],
@@ -249,5 +247,7 @@ var NAVTREEINDEX54 =
 "d7/d0e/dialog__settings__game__weapons_8qc.html#acf4cc204368768bf74b724575fb387ab":[2,0,5,4,138,2],
 "d7/d0e/dialog__settings__game__weapons_8qc.html#ae437727300e145636490fbb37f0a84fe":[2,0,5,4,138,1],
 "d7/d0e/dialog__settings__game__weapons_8qc_source.html":[2,0,5,4,138],
-"d7/d0f/classCallbackChain_1_1CallbackNode.html":[1,0,12,0]
+"d7/d0f/classCallbackChain_1_1CallbackNode.html":[1,0,12,0],
+"d7/d0f/classCallbackChain_1_1CallbackNode.html#a160c42c17db7863cfcf0527de7980440":[1,0,12,0,4],
+"d7/d0f/classCallbackChain_1_1CallbackNode.html#a415ac521cfeeaeb9de3fd09c2c192d9b":[1,0,12,0,0]
 };

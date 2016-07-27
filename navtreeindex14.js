@@ -1,7 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"d2/d21/music_8qh.html":[2,0,1,13,2,7],
-"d2/d21/music_8qh.html#a0a2d5ec37d758ca1c4137b16d3c92895":[2,0,1,13,2,7,0],
 "d2/d21/music_8qh.html#a5d9cc36a06664262be19fae94fd8e00a":[2,0,1,13,2,7,1],
 "d2/d21/music_8qh_source.html":[2,0,1,13,2,7],
 "d2/d21/portals_8qh.html":[2,0,6,50],
@@ -249,5 +247,7 @@ var NAVTREEINDEX14 =
 "d2/d42/classXonoticUserbindEditDialog.html#af1aab403dc54575707fd57991312b201":[1,0,231,37],
 "d2/d42/classXonoticUserbindEditDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,231,16],
 "d2/d42/classXonoticUserbindEditDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,231,29],
-"d2/d42/classXonoticUserbindEditDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,231,2]
+"d2/d42/classXonoticUserbindEditDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,231,2],
+"d2/d42/classXonoticUserbindEditDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,231,27],
+"d2/d42/classXonoticUserbindEditDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,231,31]
 };

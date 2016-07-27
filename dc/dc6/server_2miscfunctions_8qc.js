@@ -73,6 +73,7 @@ var server_2miscfunctions_8qc =
     [ "write_recordmarker", "dc/dc6/server_2miscfunctions_8qc.html#a450084bb9c01e6e3fe55aa6027d4580f", null ],
     [ "aiment_classname", "dc/dc6/server_2miscfunctions_8qc.html#a57c6890f25ac5cfdf263a9a467577480", null ],
     [ "aiment_deadflag", "dc/dc6/server_2miscfunctions_8qc.html#a624314975ec1563eb689b613d886d64d", null ],
+    [ "ctrace_solidchanged", "dc/dc6/server_2miscfunctions_8qc.html#a2a237330af08d4be68ada5a5b23bb7d0", null ],
     [ "gettaginfo_relative_ent", "dc/dc6/server_2miscfunctions_8qc.html#a99cca462af33b48c9ab3f217cc3ed8dc", null ],
     [ "pushable", "dc/dc6/server_2miscfunctions_8qc.html#a62c381a8dd53927f035d3f51b303e108", null ],
     [ "remove_except_protected_forbidden", "dc/dc6/server_2miscfunctions_8qc.html#a389c6b4301cce5d979b54108aaf6462c", null ],

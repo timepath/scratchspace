@@ -1,7 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"db/d7f/effectinfo_8inc.html#ac939d312aedb2ececd1cda8abe5c3a09":[2,0,1,2,7,183],
-"db/d7f/effectinfo_8inc.html#ac9d4a16956c2a0eebda51fac74b86797":[2,0,1,2,7,170],
 "db/d7f/effectinfo_8inc.html#acad0c16a962f053c9509a72f06a93829":[2,0,1,2,7,225],
 "db/d7f/effectinfo_8inc.html#acc2be3664d219ee4f4241b2b1da1c6ad":[2,0,1,2,7,136],
 "db/d7f/effectinfo_8inc.html#acc3a215b4ac07fcb9299286b44d3a0bc":[2,0,1,2,7,50],
@@ -249,5 +247,7 @@ var NAVTREEINDEX91 =
 "db/dab/common_2deathtypes_2all_8qh.html#ae97c6e4b865e8ba3172ec12006c87379":[2,0,1,1,4,21],
 "db/dab/common_2deathtypes_2all_8qh.html#aed2b0f7718db6f6b5bc9ebda3c8b4c41":[2,0,1,1,4,1],
 "db/dab/common_2deathtypes_2all_8qh.html#aef6fa079502aff69a43b0627c85d8efb":[2,0,1,1,4,22],
-"db/dab/common_2deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8":[2,0,1,1,4,12]
+"db/dab/common_2deathtypes_2all_8qh.html#afb713a679aa9c67e32d8689bdb6495e8":[2,0,1,1,4,12],
+"db/dab/common_2deathtypes_2all_8qh_source.html":[2,0,1,1,4],
+"db/daf/playerstats_8qh.html":[2,0,1,37]
 };

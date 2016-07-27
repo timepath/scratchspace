@@ -1,7 +1,5 @@
 var NAVTREEINDEX77 =
 {
-"d9/db3/classXonoticGameModelSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,152,44],
-"d9/db3/classXonoticGameModelSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,152,83],
 "d9/db3/classXonoticGameModelSettingsTab.html#a61040128f2010ca07df3feea474545a6":[1,0,152,82],
 "d9/db3/classXonoticGameModelSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,152,6],
 "d9/db3/classXonoticGameModelSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,152,54],
@@ -249,5 +247,7 @@ var NAVTREEINDEX77 =
 "d9/dd0/effectinfo__gentle__morphed_8inc.html#a06cde1e52b5c014815fe0740b0b727eb":[2,0,1,2,13,3],
 "d9/dd0/effectinfo__gentle__morphed_8inc.html#a4905e74e3caa1afc3e4b3591074ba709":[2,0,1,2,13,2],
 "d9/dd0/effectinfo__gentle__morphed_8inc.html#a5d5b2ca84c850820f57b44d44624a73c":[2,0,1,2,13,0],
-"d9/dd0/effectinfo__gentle__morphed_8inc.html#ad82077a2a0d938c18a58ef322bfd0a16":[2,0,1,2,13,1]
+"d9/dd0/effectinfo__gentle__morphed_8inc.html#ad82077a2a0d938c18a58ef322bfd0a16":[2,0,1,2,13,1],
+"d9/dd0/effectinfo__gentle__morphed_8inc_source.html":[2,0,1,2,13],
+"d9/dd1/common_2items_2item_2__mod_8qh.html":[2,0,1,5,0,1]
 };

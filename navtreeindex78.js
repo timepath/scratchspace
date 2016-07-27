@@ -1,7 +1,5 @@
 var NAVTREEINDEX78 =
 {
-"d9/dd0/effectinfo__gentle__morphed_8inc_source.html":[2,0,1,2,13],
-"d9/dd1/common_2items_2item_2__mod_8qh.html":[2,0,1,5,0,1],
 "d9/dd1/common_2items_2item_2__mod_8qh_source.html":[2,0,1,5,0,1],
 "d9/dd4/plasma__weapon_8qc.html":[2,0,1,14,0,26],
 "d9/dd4/plasma__weapon_8qc_source.html":[2,0,1,14,0,26],
@@ -249,5 +247,7 @@ var NAVTREEINDEX78 =
 "d9/df2/common_2command_2__mod_8qh.html":[2,0,1,0,1],
 "d9/df2/common_2command_2__mod_8qh_source.html":[2,0,1,0,1],
 "d9/df7/mathlib_8qh.html":[2,0,4,2,9],
-"d9/df7/mathlib_8qh.html#a0468400adec281798a1be036b1bd4f00":[2,0,4,2,9,66]
+"d9/df7/mathlib_8qh.html#a0468400adec281798a1be036b1bd4f00":[2,0,4,2,9,66],
+"d9/df7/mathlib_8qh.html#a052713cb4dd3553c149b5829a5f978af":[2,0,4,2,9,44],
+"d9/df7/mathlib_8qh.html#a07054354b767133e372ca8edf177ebd6":[2,0,4,2,9,63]
 };

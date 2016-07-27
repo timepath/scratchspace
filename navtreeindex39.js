@@ -1,7 +1,5 @@
 var NAVTREEINDEX39 =
 {
-"d4/da5/classXonoticBigCommandButton.html#a17551f8ea91a998bfdeb18609c45d978":[1,0,125,77],
-"d4/da5/classXonoticBigCommandButton.html#a17586d0ed66d76f042dedade63f4addf":[1,0,125,18],
 "d4/da5/classXonoticBigCommandButton.html#a1a55e3b961b4986ce5dda62bd05b8ec5":[1,0,125,35],
 "d4/da5/classXonoticBigCommandButton.html#a1cada7f613ee05baf72eac545644d9d7":[1,0,125,76],
 "d4/da5/classXonoticBigCommandButton.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,125,19],
@@ -231,10 +229,10 @@ var NAVTREEINDEX39 =
 "d4/dcc/skin_8qh.html":[2,0,5,19],
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,5,19,4],
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,5,19,5],
-"d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,19,1],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,19,0],
-"d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,19,2],
+"d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,19,1],
 "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,19,3],
+"d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,19,2],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,19,8],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,19,9],
 "d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,19,7],
@@ -249,5 +247,7 @@ var NAVTREEINDEX39 =
 "d4/dd1/spawnpoints_8qh.html#a572fb1292ba23838d08e19ed54227679":[2,0,6,61,3],
 "d4/dd1/spawnpoints_8qh.html#a65f632ea7c75b704550b257f227230cb":[2,0,6,61,2],
 "d4/dd1/spawnpoints_8qh.html#a693d893f5755f55200d6c320c814c6a4":[2,0,6,61,6],
-"d4/dd1/spawnpoints_8qh.html#a71804b6dc31803f43afa105a34e35d04":[2,0,6,61,0]
+"d4/dd1/spawnpoints_8qh.html#a71804b6dc31803f43afa105a34e35d04":[2,0,6,61,0],
+"d4/dd1/spawnpoints_8qh.html#ab4967b5a52be505fdfbe23d0d61b2aa1":[2,0,6,61,5],
+"d4/dd1/spawnpoints_8qh.html#ac6bf8417de66cc27e1aad493335d2901":[2,0,6,61,1]
 };

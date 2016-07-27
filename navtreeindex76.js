@@ -1,7 +1,5 @@
 var NAVTREEINDEX76 =
 {
-"d9/d6e/classTuba.html#af765598ed8e13079da67cd5058d93e37":[1,0,111,32],
-"d9/d6e/mutators_2mutator_2running__guns_2module_8inc.html":[2,0,1,9,0,24,2],
 "d9/d6e/mutators_2mutator_2running__guns_2module_8inc_source.html":[2,0,1,9,0,24,2],
 "d9/d71/classCommand.html":[1,0,16],
 "d9/d71/classCommand.html#a118761aa1fbdd44adbf8db13101eeefc":[1,0,16,3],
@@ -249,5 +247,7 @@ var NAVTREEINDEX76 =
 "d9/db3/classXonoticGameModelSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,152,17],
 "d9/db3/classXonoticGameModelSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,152,23],
 "d9/db3/classXonoticGameModelSettingsTab.html#a4e8674c37078db5c00618a2715a1f9a8":[1,0,152,85],
-"d9/db3/classXonoticGameModelSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,152,31]
+"d9/db3/classXonoticGameModelSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,152,31],
+"d9/db3/classXonoticGameModelSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,152,44],
+"d9/db3/classXonoticGameModelSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,152,83]
 };

@@ -28,7 +28,6 @@ var navigation_8qh =
     [ "bot_waypoint_queue_goal", "df/dd4/navigation_8qh.html#ac4f53fe093adbbcbedc119132f5c28ea", null ],
     [ "bot_waypoint_queue_nextgoal", "df/dd4/navigation_8qh.html#a8fc8a4214d8d9e1506f56db1dd0b4380", null ],
     [ "bot_waypoint_queue_owner", "df/dd4/navigation_8qh.html#a6637ad046082c2b173faa0cf51e286a4", null ],
-    [ "botframe_dangerwaypoint", "df/dd4/navigation_8qh.html#a1de80b05b28440098ebcadd94f770222", null ],
     [ "DEBUG_NODE_FAIL", "df/dd4/navigation_8qh.html#af211d7b3cf45d7e06d5579cec6b8238b", null ],
     [ "DEBUG_NODE_SUCCESS", "df/dd4/navigation_8qh.html#a509e4108f91a57398a2fdcc494471d03", null ],
     [ "DEBUG_NODE_WARNING", "df/dd4/navigation_8qh.html#a63ca54bc29313a81066bf2518118f501", null ],

@@ -206,7 +206,6 @@ var searchData=
   ['botframe_5fautowaypoints_5flastwp0',['botframe_autowaypoints_lastwp0',['../d7/dc4/waypoints_8qc.html#ad5ffadcf9a495cd46837874dfbda3674',1,'waypoints.qc']]],
   ['botframe_5fautowaypoints_5flastwp1',['botframe_autowaypoints_lastwp1',['../d7/dc4/waypoints_8qc.html#a5315bf22974e39f68c425217cc1cf866',1,'waypoints.qc']]],
   ['botframe_5fcachedwaypointlinks',['botframe_cachedwaypointlinks',['../d1/d2a/waypoints_8qh.html#a3cdf59b59842bdac03ad7f6403c5364f',1,'waypoints.qh']]],
-  ['botframe_5fdangerwaypoint',['botframe_dangerwaypoint',['../df/dd4/navigation_8qh.html#a1de80b05b28440098ebcadd94f770222',1,'navigation.qh']]],
   ['botframe_5floadedforcedlinks',['botframe_loadedforcedlinks',['../d1/d2a/waypoints_8qh.html#a407660e1fc9e38776762c676542cfbb7',1,'waypoints.qh']]],
   ['botframe_5fnextdangertime',['botframe_nextdangertime',['../d1/da9/bot_8qh.html#aa655e08bba8a4ae326d3ad7f287a3859',1,'bot.qh']]],
   ['botframe_5fnextthink',['botframe_nextthink',['../d1/da9/bot_8qh.html#a5bac57dfedbda837115854494eba1157',1,'bot.qh']]],

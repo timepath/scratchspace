@@ -71,8 +71,6 @@ var bot_8qh =
     [ "isbot", "d1/da9/bot_8qh.html#acf6e5642e2a48bb69f631e9166056c87", null ],
     [ "netname_freeme", "d1/da9/bot_8qh.html#a08187c673c7b07026a86fe4da827833f", null ],
     [ "nextbot", "d1/da9/bot_8qh.html#a0760ea09ba9263d4068ae99c1df1f1da", null ],
-    [ "nextplayer", "d1/da9/bot_8qh.html#a8582744c67953e768dd2cc3e6bcfd28e", null ],
-    [ "player_list", "d1/da9/bot_8qh.html#ae64cec74513d67bae361baca7038b043", null ],
     [ "playermodel_freeme", "d1/da9/bot_8qh.html#a3f7afc27089f83892326dc9f6cc968ab", null ],
     [ "playerskin_freeme", "d1/da9/bot_8qh.html#aabcec630a918fbcf2229c6446fb8a199", null ],
     [ "skill", "d1/da9/bot_8qh.html#a8467c850cba8957cd36040241ed1e68b", null ],

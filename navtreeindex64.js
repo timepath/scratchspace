@@ -1,7 +1,5 @@
 var NAVTREEINDEX64 =
 {
-"d7/db9/mutators_2mutator_2vampirehook_2module_8inc_source.html":[2,0,1,9,0,30,2],
-"d7/dc0/dialog__hudpanel__engineinfo_8qh.html":[2,0,5,4,51],
 "d7/dc0/dialog__hudpanel__engineinfo_8qh_source.html":[2,0,5,4,51],
 "d7/dc4/waypoints_8qc.html":[2,0,6,0,11],
 "d7/dc4/waypoints_8qc.html#a01e8fff3ff689e909ba40e64f7a65053":[2,0,6,0,11,2],
@@ -249,5 +247,7 @@ var NAVTREEINDEX64 =
 "d7/dd7/xonotic_2slider_8qc.html#a10f12bf115ba2f38d3170cba9771259d":[2,0,5,4,204,5],
 "d7/dd7/xonotic_2slider_8qc.html#a4d8455cb841ad2070a13037e6051c620":[2,0,5,4,204,4],
 "d7/dd7/xonotic_2slider_8qc.html#a5463b0f3850f7cd71b5f9f5e63e38d31":[2,0,5,4,204,6],
-"d7/dd7/xonotic_2slider_8qc.html#a634ca09e8b38783ce42d633f540d573f":[2,0,5,4,204,1]
+"d7/dd7/xonotic_2slider_8qc.html#a634ca09e8b38783ce42d633f540d573f":[2,0,5,4,204,1],
+"d7/dd7/xonotic_2slider_8qc.html#a72ea3ddcd9b42b7960214c7d378e0ae3":[2,0,5,4,204,0],
+"d7/dd7/xonotic_2slider_8qc.html#a9929800f2c29cc656892a372fb98d8cd":[2,0,5,4,204,2]
 };

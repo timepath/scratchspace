@@ -1,7 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"da/d1d/classMLRSTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,64,22],
-"da/d1d/classMLRSTurretAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,64,15],
 "da/d1d/mainwindow_8qc.html":[2,0,5,4,178],
 "da/d1d/mainwindow_8qc.html#a0d7d1629f65a255e16e302d73b331bb5":[2,0,5,4,178,2],
 "da/d1d/mainwindow_8qc.html#a1ead6224d662a11e80d74b913e8db41f":[2,0,5,4,178,0],
@@ -249,5 +247,7 @@ var NAVTREEINDEX80 =
 "da/d44/common_2util_8qc.html#af7c603246e2964761664e6a53904ba61":[2,0,1,44,22],
 "da/d44/common_2util_8qc.html#af932988c567892faff4fd700c7019958":[2,0,1,44,55],
 "da/d44/common_2util_8qc.html#afb8bc3000982cfa33e8babf4ee2209ce":[2,0,1,44,0],
-"da/d44/common_2util_8qc.html#afc986f575d8921c9890711314e23d0af":[2,0,1,44,46]
+"da/d44/common_2util_8qc.html#afc986f575d8921c9890711314e23d0af":[2,0,1,44,46],
+"da/d44/common_2util_8qc.html#afe420388fd9f6c6070930c07addde6f2":[2,0,1,44,9],
+"da/d44/common_2util_8qc.html#affc8d3643262baf7a22651259f9598ac":[2,0,1,44,38]
 };

@@ -37,6 +37,8 @@ var weapon_8qh =
     [ "WEP_FLAG_RELOADABLE", "dc/d1c/weapon_8qh.html#a300f8a85518c66b86f3ba3d208117241", null ],
     [ "WEP_FLAG_SUPERWEAPON", "dc/d1c/weapon_8qh.html#a8291d5f4c89b48b838806f5f916d137e", null ],
     [ "WEP_TYPE_HITSCAN", "dc/d1c/weapon_8qh.html#a4df1be4c93f242cc9f7db93970b46f56", null ],
+    [ "WEP_TYPE_MELEE_PRI", "dc/d1c/weapon_8qh.html#a614c672f17110736e8ce160d3f78e174", null ],
+    [ "WEP_TYPE_MELEE_SEC", "dc/d1c/weapon_8qh.html#aba8f543af5c7b69830b87e35a3c7d2b8", null ],
     [ "WEP_TYPE_OTHER", "dc/d1c/weapon_8qh.html#ae2980e4d3ccb9564827dd96026b7b1b1", null ],
     [ "WEP_TYPE_SPLASH", "dc/d1c/weapon_8qh.html#a67d15873f7aa52ab9ed55706830a4f17", null ],
     [ "WEP_TYPEMASK", "dc/d1c/weapon_8qh.html#a3274285ca5d1ecd3a3ffb1d1683a9664", null ],

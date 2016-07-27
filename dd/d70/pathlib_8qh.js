@@ -46,7 +46,7 @@ var pathlib_8qh =
     [ "path_prev", "dd/d70/pathlib_8qh.html#aa0da3d0f66f70ff12e2b69560240133e", null ],
     [ "pathlib_bestcash_hits", "dd/d70/pathlib_8qh.html#ad7de5bcdc8408ab70bbdd24a06e56c57", null ],
     [ "pathlib_bestcash_saved", "dd/d70/pathlib_8qh.html#abd404805759df04e300096c5061c3fe3", null ],
-    [ "pathlib_bestopen_seached", "dd/d70/pathlib_8qh.html#a0497a51606100d7f7d88407857032b95", null ],
+    [ "pathlib_bestopen_searched", "dd/d70/pathlib_8qh.html#ad34261a344ce17cb55cc95e63814ef82", null ],
     [ "pathlib_closed_cnt", "dd/d70/pathlib_8qh.html#afb459e5b1cb840dd02a19aa1124032dc", null ],
     [ "pathlib_foundgoal", "dd/d70/pathlib_8qh.html#a1933a3d65eaaa6c15d08509df0e1ed13", null ],
     [ "pathlib_gridsize", "dd/d70/pathlib_8qh.html#ada7c213b6d8fe67b52a785998106ed55", null ],

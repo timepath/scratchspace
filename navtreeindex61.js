@@ -1,7 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"d7/da7/server_2autocvars_8qh.html#ac169d350e5ce92db51ef8db5c87b441c":[2,0,6,12,430],
-"d7/da7/server_2autocvars_8qh.html#ac209ab823741ebf4c695dce15a9d0c90":[2,0,6,12,98],
 "d7/da7/server_2autocvars_8qh.html#ac3b4caad04bb2e8a7b90976844afee31":[2,0,6,12,442],
 "d7/da7/server_2autocvars_8qh.html#ac3b8c75b3f071f5a3cf85aaad3d79624":[2,0,6,12,546],
 "d7/da7/server_2autocvars_8qh.html#ac43f2df8475d467e42693cff37d1033c":[2,0,6,12,125],
@@ -249,5 +247,7 @@ var NAVTREEINDEX61 =
 "d7/dac/menu_2mutators_2events_8qh.html#a18e2555b1288e09549e1a9666d2179b7":[2,0,5,3,2,1],
 "d7/dac/menu_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776":[2,0,5,3,2,3],
 "d7/dac/menu_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51":[2,0,5,3,2,2],
-"d7/dac/menu_2mutators_2events_8qh.html#af07547c358b616af655bf0c55ff812b4":[2,0,5,3,2,0]
+"d7/dac/menu_2mutators_2events_8qh.html#af07547c358b616af655bf0c55ff812b4":[2,0,5,3,2,0],
+"d7/dac/menu_2mutators_2events_8qh_source.html":[2,0,5,3,2],
+"d7/dac/mutators_2mutator_2spawn__near__teammate_2module_8inc.html":[2,0,1,9,0,26,2]
 };

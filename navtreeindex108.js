@@ -1,5 +1,6 @@
 var NAVTREEINDEX108 =
 {
+"dd/db3/classXonoticQuitDialog.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,202,74],
 "dd/db3/classXonoticQuitDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,202,70],
 "dd/db3/classXonoticQuitDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,202,56],
 "dd/db3/classXonoticQuitDialog.html#aa1abab97698c6f13909d1791611312cb":[1,0,202,59],
@@ -70,19 +71,19 @@ var NAVTREEINDEX108 =
 "dd/dcd/hud__config_8qh.html#aff11757a3172f4f26585a7edc21785f0":[2,0,0,1,8,0],
 "dd/dcd/hud__config_8qh_source.html":[2,0,0,1,8],
 "dd/dd5/sv__model_8qc.html":[2,0,4,0,10],
-"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,10,6],
 "dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,10,7],
+"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,10,6],
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,10,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,10,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,10,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,10,1],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,10,0],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,10,1],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,10,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,10,12],
-"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,10,3],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,10,2],
-"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,10,5],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,10,3],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,10,4],
+"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,10,5],
 "dd/dd5/sv__model_8qc_source.html":[2,0,4,0,10],
 "dd/dd7/classRacer.html":[1,0,86],
 "dd/dd7/classRacer.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,86,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX108 =
 "dd/dee/functional_8qh.html#ab737f5c10b510e43a4b84ffa421c409a":[2,0,4,19,4],
 "dd/dee/functional_8qh.html#acaaf3c0e2d085489b0151ed380a476b7":[2,0,4,19,25],
 "dd/dee/functional_8qh.html#ad4eb9421b5ac8ed95dc2e8de3a5ac00a":[2,0,4,19,18],
-"dd/dee/functional_8qh.html#af104abfdba050160d20b47bb183a1cb7":[2,0,4,19,1],
-"dd/dee/functional_8qh.html#af194d3bfd67083f66de7bf4d9a426393":[2,0,4,19,19]
+"dd/dee/functional_8qh.html#af104abfdba050160d20b47bb183a1cb7":[2,0,4,19,1]
 };

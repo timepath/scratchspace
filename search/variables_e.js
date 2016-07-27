@@ -81,7 +81,6 @@ var searchData=
   ['nextaim',['nextaim',['../d8/d39/havocbot_8qh.html#a1c3778c269ac926414e63f7e55251c2a',1,'havocbot.qh']]],
   ['nextbot',['nextbot',['../d1/da9/bot_8qh.html#a0760ea09ba9263d4068ae99c1df1f1da',1,'bot.qh']]],
   ['nextframecommand',['NextFrameCommand',['../d6/dd3/view_8qc.html#a9db6e1840b583a43fa9d7ee6c934c031',1,'view.qc']]],
-  ['nextplayer',['nextplayer',['../d1/da9/bot_8qh.html#a8582744c67953e768dd2cc3e6bcfd28e',1,'bot.qh']]],
   ['nextrefreshtime',['nextRefreshTime',['../d2/dec/classXonoticServerList.html#ad1af8b8eb1454bde0ec8cf5e464a9c92',1,'XonoticServerList']]],
   ['nextsibling',['nextSibling',['../d7/d47/menu__cmd_8qc.html#a333510eb3e695bd259d836d9b3879bf3',1,'nextSibling():&#160;menu_cmd.qc'],['../d5/d8e/container_8qh.html#a333510eb3e695bd259d836d9b3879bf3',1,'nextSibling():&#160;container.qh'],['../df/d9b/menu_2xonotic_2util_8qc.html#a333510eb3e695bd259d836d9b3879bf3',1,'nextSibling():&#160;util.qc']]],
   ['nextstep',['nextstep',['../d5/d26/server_2defs_8qh.html#a86d4e5c510b3a22124dd14dcdac8d6fd',1,'defs.qh']]],

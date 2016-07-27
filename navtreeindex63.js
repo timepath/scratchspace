@@ -1,7 +1,5 @@
 var NAVTREEINDEX63 =
 {
-"d7/db4/client_2autocvars_8qh.html#a75ba9907dc0eca567ce24540ae3d7071":[2,0,0,9,120],
-"d7/db4/client_2autocvars_8qh.html#a769abd3dde029fd8e62ae71c8a6ae258":[2,0,0,9,4],
 "d7/db4/client_2autocvars_8qh.html#a76ce73f0f4a4d58b500a6517f35a668d":[2,0,0,9,75],
 "d7/db4/client_2autocvars_8qh.html#a76ebeefadb32c8cc3d1c4237d7618bfe":[2,0,0,9,34],
 "d7/db4/client_2autocvars_8qh.html#a774313448b5a8b495ac78172f1d8be23":[2,0,0,9,14],
@@ -249,5 +247,7 @@ var NAVTREEINDEX63 =
 "d7/db4/client_2autocvars_8qh.html#afc9e4837d2a4b5454f28ba71f3fb980a":[2,0,0,9,175],
 "d7/db4/client_2autocvars_8qh.html#afebae62286efa29815e2009a88e5f188":[2,0,0,9,279],
 "d7/db4/client_2autocvars_8qh_source.html":[2,0,0,9],
-"d7/db9/mutators_2mutator_2vampirehook_2module_8inc.html":[2,0,1,9,0,30,2]
+"d7/db9/mutators_2mutator_2vampirehook_2module_8inc.html":[2,0,1,9,0,30,2],
+"d7/db9/mutators_2mutator_2vampirehook_2module_8inc_source.html":[2,0,1,9,0,30,2],
+"d7/dc0/dialog__hudpanel__engineinfo_8qh.html":[2,0,5,4,51]
 };

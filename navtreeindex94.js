@@ -1,7 +1,5 @@
 var NAVTREEINDEX94 =
 {
-"db/dd7/dialog__multiplayer__media__musicplayer_8qh.html#ae82044ad6b56c5d7803a8922b42ac371":[2,0,5,4,107,1],
-"db/dd7/dialog__multiplayer__media__musicplayer_8qh_source.html":[2,0,5,4,107],
 "db/ddb/classXonoticCvarList.html":[1,0,139],
 "db/ddb/classXonoticCvarList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,139,7],
 "db/ddb/classXonoticCvarList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,139,38],
@@ -249,5 +247,7 @@ var NAVTREEINDEX94 =
 "db/dfa/classPlasmaAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,79,19],
 "db/dfa/classPlasmaAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,79,13],
 "db/dfa/classPlasmaAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,79,7],
-"db/dfa/classPlasmaAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,79,21]
+"db/dfa/classPlasmaAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,79,21],
+"db/dfa/classPlasmaAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,79,6],
+"db/dfa/classPlasmaAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,79,0]
 };

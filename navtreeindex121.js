@@ -1,5 +1,6 @@
 var NAVTREEINDEX121 =
 {
+"df/dae/player_8qh.html#ab7e54603a14d4e950a6ea7b08b1eb114":[2,0,1,11,7,13],
 "df/dae/player_8qh.html#ab803f80764072efe357d4f09fa570bd9":[2,0,1,11,7,82],
 "df/dae/player_8qh.html#ab81c95b0e30aff82122c0e5688564397":[2,0,1,11,7,74],
 "df/dae/player_8qh.html#abe43f55a3448df66837e71764e9b413d":[2,0,1,11,7,49],
@@ -236,18 +237,17 @@ var NAVTREEINDEX121 =
 "df/dc9/classXonoticHUDQuickMenuDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,171,82],
 "df/dd4/navigation_8qh.html":[2,0,6,0,8],
 "df/dd4/navigation_8qh.html#a01346f19dfbb847988ce4934e5c8f4c4":[2,0,6,0,8,19],
-"df/dd4/navigation_8qh.html#a028a164cdba279849817955b43dc6879":[2,0,6,0,8,39],
+"df/dd4/navigation_8qh.html#a028a164cdba279849817955b43dc6879":[2,0,6,0,8,38],
 "df/dd4/navigation_8qh.html#a0a9dee1d25d36cbd28fbb1f454b9f8d6":[2,0,6,0,8,23],
-"df/dd4/navigation_8qh.html#a0af107dd6034d4faa0e28237cbab708e":[2,0,6,0,8,48],
+"df/dd4/navigation_8qh.html#a0af107dd6034d4faa0e28237cbab708e":[2,0,6,0,8,47],
 "df/dd4/navigation_8qh.html#a1008dfeec8545242207e62e31e2614d6":[2,0,6,0,8,3],
 "df/dd4/navigation_8qh.html#a1396c70ada2a084f953954ffcc2df93a":[2,0,6,0,8,17],
 "df/dd4/navigation_8qh.html#a155931bbc92f9542e723d423ffad5985":[2,0,6,0,8,12],
 "df/dd4/navigation_8qh.html#a165f472aa8f2332847961c9f8aedaf70":[2,0,6,0,8,22],
-"df/dd4/navigation_8qh.html#a16dc472819651cd3d5e101713020fb92":[2,0,6,0,8,50],
-"df/dd4/navigation_8qh.html#a1de80b05b28440098ebcadd94f770222":[2,0,6,0,8,28],
+"df/dd4/navigation_8qh.html#a16dc472819651cd3d5e101713020fb92":[2,0,6,0,8,49],
 "df/dd4/navigation_8qh.html#a1e85d59acc7aee165d5cb268454a594c":[2,0,6,0,8,6],
-"df/dd4/navigation_8qh.html#a1fb87f53634bca7605c0ff2d865ec7b0":[2,0,6,0,8,69],
+"df/dd4/navigation_8qh.html#a1fb87f53634bca7605c0ff2d865ec7b0":[2,0,6,0,8,68],
 "df/dd4/navigation_8qh.html#a217f82a742f1066839797ec23d483547":[2,0,6,0,8,8],
-"df/dd4/navigation_8qh.html#a23f3b5acdc184dfba5e4bae385dca5e0":[2,0,6,0,8,66],
-"df/dd4/navigation_8qh.html#a24a370ed44545a4fdc8a2ca88bdc2495":[2,0,6,0,8,36]
+"df/dd4/navigation_8qh.html#a23f3b5acdc184dfba5e4bae385dca5e0":[2,0,6,0,8,65],
+"df/dd4/navigation_8qh.html#a24a370ed44545a4fdc8a2ca88bdc2495":[2,0,6,0,8,35]
 };
