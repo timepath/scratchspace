@@ -1,5 +1,9 @@
 var NAVTREEINDEX117 =
 {
+"df/d0f/classSpiderbot.html#a132ecdb26776feea9e2348bce5da460b":[1,0,106,13],
+"df/d0f/classSpiderbot.html#a2379df983e5dc1eb79ef4927d607f7c8":[1,0,106,16],
+"df/d0f/classSpiderbot.html#a23b5d8a4e07000e6d08fe727bdf23471":[1,0,106,11],
+"df/d0f/classSpiderbot.html#a3b4cc624824bdd32bab95b6e2de1e776":[1,0,106,17],
 "df/d0f/classSpiderbot.html#a58f0c04e5979c92f1d5329627cbf1331":[1,0,106,3],
 "df/d0f/classSpiderbot.html#a65029f9f9de70ed0d698c691eca5d3bb":[1,0,106,15],
 "df/d0f/classSpiderbot.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,106,1],
@@ -245,9 +249,5 @@ var NAVTREEINDEX117 =
 "df/d28/sv__turrets_8qh.html#a708c17bef2ecf4d4856a9044821052d4":[2,0,1,14,10,38],
 "df/d28/sv__turrets_8qh.html#a74fa1d579600d49af13764cf92f21b64":[2,0,1,14,10,32],
 "df/d28/sv__turrets_8qh.html#a7da351a830557a1fb4b0908c9daf45f1":[2,0,1,14,10,70],
-"df/d28/sv__turrets_8qh.html#a87838cf5845f0422b419e6d57f068bca":[2,0,1,14,10,15],
-"df/d28/sv__turrets_8qh.html#a89e99560228fd7c358fb92c87144bfb0":[2,0,1,14,10,27],
-"df/d28/sv__turrets_8qh.html#a90b555cdf003b86e477a59efac8b4a14":[2,0,1,14,10,69],
-"df/d28/sv__turrets_8qh.html#a9f1d1676c145bad73c450ff06420b23e":[2,0,1,14,10,25],
-"df/d28/sv__turrets_8qh.html#a9f6013b83e74b00dafa8eb92c3ea7398":[2,0,1,14,10,48]
+"df/d28/sv__turrets_8qh.html#a87838cf5845f0422b419e6d57f068bca":[2,0,1,14,10,15]
 };

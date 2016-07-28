@@ -150,7 +150,7 @@ $(document).ready(function(){initNavTree('d9/ddc/server_2__all_8qh_source.html',
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">   44</a></span>&#160;<span class="preprocessor">#define FOREACH_CLIENT(cond, body) FOREACH_CLIENTSLOT(IS_CLIENT(it) &amp;&amp; (cond), body)</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">// NOTE: FOR_EACH_MONSTER deprecated! Use the following instead: FOREACH_ENTITY_FLAGS(flags, FL_MONSTER, { code; });</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="comment">// NOTE: FOR_EACH_MONSTER deprecated! Use the following instead: IL_EACH(g_monsters, true, { code; });</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/d92/common_2effects_2all_8qh.html">common/effects/all.qh</a>&gt;</span></div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/d39/common_2models_2all_8qh.html">common/models/all.qh</a>&gt;</span></div>
@@ -177,7 +177,7 @@ $(document).ready(function(){initNavTree('d9/ddc/server_2__all_8qh_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d9/ddc/server_2__all_8qh.html">_all.qh</a></li>
-    <li class="footer">Generated on Thu Jul 28 2016 10:19:40 for Xonotic by
+    <li class="footer">Generated on Thu Jul 28 2016 12:58:13 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

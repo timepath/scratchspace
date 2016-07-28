@@ -1,5 +1,9 @@
 var NAVTREEINDEX80 =
 {
+"da/d13/classShockwave.html#a80fa9a65e19370473a29baebc04d0626":[1,0,99,2],
+"da/d13/classShockwave.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,99,4],
+"da/d13/classShockwave.html#a8f3e2d89ff1bfae1334a5bf43011bbf7":[1,0,99,33],
+"da/d13/classShockwave.html#a9e3d41334eb7d60e9d458393bf5f35f1":[1,0,99,28],
 "da/d13/classShockwave.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,99,11],
 "da/d13/classShockwave.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,99,12],
 "da/d13/classShockwave.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,99,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX80 =
 "da/d41/dialog__singleplayer_8qc_source.html":[2,0,5,4,156],
 "da/d44/common_2util_8qc.html":[2,0,1,44],
 "da/d44/common_2util_8qc.html#a033f8b5786442ed20625b8ea3f27f8b6":[2,0,1,44,2],
-"da/d44/common_2util_8qc.html#a0b0062f12f6d7a2cc80665922d81383b":[2,0,1,44,26],
-"da/d44/common_2util_8qc.html#a0c6829767aa2400e49284b242c194d95":[2,0,1,44,23],
-"da/d44/common_2util_8qc.html#a1371630f3443945a1ff175145d2012f3":[2,0,1,44,14],
-"da/d44/common_2util_8qc.html#a154ba8224ee5f36a7e74adc8e625df72":[2,0,1,44,32],
-"da/d44/common_2util_8qc.html#a18192ef8986311737efd890375b7a2aa":[2,0,1,44,52]
+"da/d44/common_2util_8qc.html#a0b0062f12f6d7a2cc80665922d81383b":[2,0,1,44,26]
 };

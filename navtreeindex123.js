@@ -1,5 +1,9 @@
 var NAVTREEINDEX123 =
 {
+"df/df6/classXonoticSlider.html#ae36c978d138b97307b37a555afc4ae96":[1,0,222,84],
+"df/df6/classXonoticSlider.html#ae7a169abde25f6d0c42837b1b201f11a":[1,0,222,79],
+"df/df6/classXonoticSlider.html#ae7ad12c455973e01e6ffaaa65114ed32":[1,0,222,14],
+"df/df6/classXonoticSlider.html#aea5fb36788b7e80430382aa285d4f87e":[1,0,222,37],
 "df/df6/classXonoticSlider.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,222,23],
 "df/df6/classXonoticSlider.html#aeeea196cce280d4e95730a8f06b80518":[1,0,222,12],
 "df/df6/classXonoticSlider.html#af0410c9b50b8855affc9eb02beb19128":[1,0,222,40],
@@ -245,9 +249,5 @@ var NAVTREEINDEX123 =
 "functions_func_l.html":[1,3,1,11],
 "functions_func_m.html":[1,3,1,12],
 "functions_func_o.html":[1,3,1,13],
-"functions_func_p.html":[1,3,1,14],
-"functions_func_r.html":[1,3,1,15],
-"functions_func_s.html":[1,3,1,16],
-"functions_func_t.html":[1,3,1,17],
-"functions_func_u.html":[1,3,1,18]
+"functions_func_p.html":[1,3,1,14]
 };

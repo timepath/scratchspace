@@ -1,5 +1,9 @@
 var NAVTREEINDEX72 =
 {
+"d8/de2/menudefs_8qc.html#aa14298f2bff3ec851400f3198f572807":[2,0,2,0,3,18],
+"d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0":[2,0,2,0,3,115],
+"d8/de2/menudefs_8qc.html#aa1965d12c0cb9eafa1509320426aaafc":[2,0,2,0,3,119],
+"d8/de2/menudefs_8qc.html#aa3ad1e014c0deb35398ec4f64a84304d":[2,0,2,0,3,38],
 "d8/de2/menudefs_8qc.html#aa446c5d2879d6821df8d4c0482964ae4":[2,0,2,0,3,14],
 "d8/de2/menudefs_8qc.html#aa453d4810e73928e0245646d76cb6625":[2,0,2,0,3,226],
 "d8/de2/menudefs_8qc.html#aa466300ee80f2134cac8e75a7364ca31":[2,0,2,0,3,36],
@@ -245,9 +249,5 @@ var NAVTREEINDEX72 =
 "d8/df7/classXonoticParticlesSlider.html#ae7a169abde25f6d0c42837b1b201f11a":[1,0,196,91],
 "d8/df7/classXonoticParticlesSlider.html#ae7ad12c455973e01e6ffaaa65114ed32":[1,0,196,21],
 "d8/df7/classXonoticParticlesSlider.html#ae8ee3415d580757cf4b8434973484ead":[1,0,196,52],
-"d8/df7/classXonoticParticlesSlider.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,196,30],
-"d8/df7/classXonoticParticlesSlider.html#aeeea196cce280d4e95730a8f06b80518":[1,0,196,19],
-"d8/df7/classXonoticParticlesSlider.html#af6491199d7c16232c6ec828661a64ecf":[1,0,196,3],
-"d8/df7/classXonoticParticlesSlider.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,196,26],
-"d8/df7/classXonoticParticlesSlider.html#af9fddf9420dfbf92a4fb716acfaa260c":[1,0,196,49]
+"d8/df7/classXonoticParticlesSlider.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,196,30]
 };

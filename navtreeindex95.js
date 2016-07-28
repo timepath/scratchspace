@@ -1,5 +1,9 @@
 var NAVTREEINDEX95 =
 {
+"db/de8/effectinfo__gentle__particlegibs_8inc.html":[2,0,1,2,14],
+"db/de8/effectinfo__gentle__particlegibs_8inc.html#a5753e509cf8cab9e0d669008e7beacf9":[2,0,1,2,14,0],
+"db/de8/effectinfo__gentle__particlegibs_8inc.html#a791c8254cff0ba6137a154c9f713b7b5":[2,0,1,2,14,3],
+"db/de8/effectinfo__gentle__particlegibs_8inc.html#abae54c99829691b761e2cc31786b0f7a":[2,0,1,2,14,2],
 "db/de8/effectinfo__gentle__particlegibs_8inc.html#ad182bfc5aec87ce49d43bb47d7426e79":[2,0,1,2,14,1],
 "db/de8/effectinfo__gentle__particlegibs_8inc_source.html":[2,0,1,2,14],
 "db/deb/roles_8qc.html":[2,0,6,0,0,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX95 =
 "dc/d06/classDialog.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,22,6],
 "dc/d06/classDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,22,54],
 "dc/d06/classDialog.html#a67d95732d49da439095483530aca8804":[1,0,22,42],
-"dc/d06/classDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,22,7],
-"dc/d06/classDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,22,56],
-"dc/d06/classDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,22,14],
-"dc/d06/classDialog.html#a7c7e80231d41f67692ab5f902d127416":[1,0,22,85],
-"dc/d06/classDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,22,74]
+"dc/d06/classDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,22,7]
 };

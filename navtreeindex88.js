@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"db/d4a/classHook.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,42,16],
+"db/d4a/classHook.html#a273ba5500276b429f0a0ec569238dc78":[1,0,42,33],
+"db/d4a/classHook.html#a2c44b961a7555cb177d539f60d10d904":[1,0,42,26],
+"db/d4a/classHook.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,42,14],
 "db/d4a/classHook.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,42,18],
 "db/d4a/classHook.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,42,9],
 "db/d4a/classHook.html#a4337268c8cad6836bae8efd4a8835070":[1,0,42,19],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "db/d5a/common_2turrets_2all_8qh.html#aa2774c8f11c19aa8e015cff50732b4a6":[2,0,1,14,4,1],
 "db/d5a/common_2turrets_2all_8qh.html#af3a4ffcd56d584a4de5f3156a6c666a3":[2,0,1,14,4,2],
 "db/d5a/common_2turrets_2all_8qh.html#af8a1aa546131892f801ce1e4500a7bae":[2,0,1,14,4,7],
-"db/d5a/common_2turrets_2all_8qh_source.html":[2,0,1,14,4],
-"db/d5b/classXonoticGameMessageSettingsTab.html":[1,0,152],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,152,21],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,152,29],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,152,3]
+"db/d5a/common_2turrets_2all_8qh_source.html":[2,0,1,14,4]
 };

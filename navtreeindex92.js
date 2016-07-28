@@ -1,5 +1,9 @@
 var NAVTREEINDEX92 =
 {
+"db/da0/log_8qh.html#a5fd496d0ac3b596309d4b9f3428c2622":[2,0,4,27,4],
+"db/da0/log_8qh.html#a6036708e95585a17b5728ccf076fecdd":[2,0,4,27,9],
+"db/da0/log_8qh.html#a6a22381a4dadac3410d2caae6765d47e":[2,0,4,27,5],
+"db/da0/log_8qh.html#a6aebf22c1f26cea3e620968d6e8a4022":[2,0,4,27,0],
 "db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e":[2,0,4,27,27],
 "db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d":[2,0,4,27,20],
 "db/da0/log_8qh.html#a759f0b81b68be04a0b7b1741e39347d6":[2,0,4,27,16],
@@ -245,9 +249,5 @@ var NAVTREEINDEX92 =
 "db/db9/gamemodes_2gamemode_2onslaught_2module_8inc.html#ae006454982d4c99452757233cdaae365":[2,0,1,3,0,1,6,0],
 "db/db9/gamemodes_2gamemode_2onslaught_2module_8inc_source.html":[2,0,1,3,0,1,6],
 "db/dbd/classXonoticHUDPressedKeysDialog.html":[1,0,171],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,171,21],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,171,29],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,171,3],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,171,79],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,171,77]
+"db/dbd/classXonoticHUDPressedKeysDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,171,21]
 };

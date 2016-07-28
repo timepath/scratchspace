@@ -13,7 +13,7 @@ var navigation_8qc =
     [ "navigation_markroutes", "d1/d9a/navigation_8qc.html#a7f490c136a567f38dcdcb155c0c34cb9", null ],
     [ "navigation_markroutes_checkwaypoint", "d1/d9a/navigation_8qc.html#a5c979518951523771125edb512d3f78d", null ],
     [ "navigation_markroutes_inverted", "d1/d9a/navigation_8qc.html#a376ae543437e85413013fbf01dcc2cf4", null ],
-    [ "navigation_markroutes_nearestwaypoints", "d1/d9a/navigation_8qc.html#a155931bbc92f9542e723d423ffad5985", null ],
+    [ "navigation_markroutes_nearestwaypoints", "d1/d9a/navigation_8qc.html#a6fdb5b75987a63f242081922770d2145", null ],
     [ "navigation_poproute", "d1/d9a/navigation_8qc.html#a857667e3adb2f0521d53fd1e85cc2a80", null ],
     [ "navigation_poptouchedgoals", "d1/d9a/navigation_8qc.html#a585c731b49bcdaf74d8ee145d96054a4", null ],
     [ "navigation_pushroute", "d1/d9a/navigation_8qc.html#ac01256d836368157d941247266f21500", null ],
