@@ -1,5 +1,10 @@
 var NAVTREEINDEX105 =
 {
+"dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632":[2,0,4,33,0],
+"dd/d69/net_8qh.html#a6e4c8aabf20d96d568a3a13b9e492f7c":[2,0,4,33,2],
+"dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b":[2,0,4,33,33],
+"dd/d69/net_8qh.html#a7ad21758d30d0f8a6d0da7da413f3e60":[2,0,4,33,9],
+"dd/d69/net_8qh.html#a84ebbcfeb398b04d80c378ca47b809c0":[2,0,4,33,17],
 "dd/d69/net_8qh.html#a869f17eca0934474ecd4e09a341e0aaa":[2,0,4,33,19],
 "dd/d69/net_8qh.html#a9bb65db9c1a9e5d176ebcfe843c813fd":[2,0,4,33,25],
 "dd/d69/net_8qh.html#a9e7ef0c04f606b32fe96a40f1a0cc1dd":[2,0,4,33,24],
@@ -244,10 +249,5 @@ var NAVTREEINDEX105 =
 "dd/d7b/gamemode__deathmatch_8qc_source.html":[2,0,6,2,0,10],
 "dd/d7f/triggers_2target_2spawn_8qc.html":[2,0,1,13,2,8],
 "dd/d7f/triggers_2target_2spawn_8qc_source.html":[2,0,1,13,2,8],
-"dd/d82/magicear_8qc.html":[2,0,1,13,3,18],
-"dd/d82/magicear_8qc_source.html":[2,0,1,13,3,18],
-"dd/d85/client_2hud_2panel_2ammo_8qc.html":[2,0,0,1,0,2],
-"dd/d85/client_2hud_2panel_2ammo_8qc.html#a338c4610b6b164c2ef92c3f576705822":[2,0,0,1,0,2,5],
-"dd/d85/client_2hud_2panel_2ammo_8qc.html#a6af13b0895f71c1f00adf36611340085":[2,0,0,1,0,2,0],
-"dd/d85/client_2hud_2panel_2ammo_8qc.html#a721184b345adabdd99104e5c380dc2cd":[2,0,0,1,0,2,3]
+"dd/d82/magicear_8qc.html":[2,0,1,13,3,18]
 };

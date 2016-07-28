@@ -1,5 +1,9 @@
 var NAVTREEINDEX84 =
 {
+"da/da9/classSpiderAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,105,15],
+"da/da9/ecs_2__mod_8inc.html":[2,0,3,4],
+"da/da9/ecs_2__mod_8inc_source.html":[2,0,3,4],
+"da/daa/server_2weapons_2common_8qc.html":[2,0,6,4,4],
 "da/daa/server_2weapons_2common_8qc.html#a102ac938a46377356e95bb667b1f01e2":[2,0,6,4,4,0],
 "da/daa/server_2weapons_2common_8qc.html#a15163fb722de405cc2764efd498bc2ee":[2,0,6,4,4,2],
 "da/daa/server_2weapons_2common_8qc.html#a3391149e74c975b1da289576a256819a":[2,0,6,4,4,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX84 =
 "da/dc1/classXonoticAudioSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,124,2],
 "da/dc1/classXonoticAudioSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,124,26],
 "da/dc1/classXonoticAudioSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,124,30],
-"da/dc1/classXonoticAudioSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,124,82],
-"da/dc1/dialog__hudpanel__modicons_8qh.html":[2,0,5,4,59],
-"da/dc1/dialog__hudpanel__modicons_8qh_source.html":[2,0,5,4,59],
-"da/dc5/voicescript_8qc.html":[2,0,1,13,2,10],
-"da/dc5/voicescript_8qc_source.html":[2,0,1,13,2,10]
+"da/dc1/classXonoticAudioSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,124,82]
 };

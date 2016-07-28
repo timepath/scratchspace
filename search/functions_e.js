@@ -69,5 +69,6 @@ var searchData=
   ['noise_5fpink',['Noise_Pink',['../dd/dc6/noise_8qh.html#a510e90fc3c538af71b0c6aa91a04335e',1,'noise.qh']]],
   ['noise_5fwhite',['Noise_White',['../dd/dc6/noise_8qh.html#a19ca189f065c9002d1e0695808905ffc',1,'noise.qh']]],
   ['normalize',['normalize',['../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4',1,'menudefs.qc']]],
-  ['notif_5farg_5fspree_5finf',['notif_arg_spree_inf',['../dc/de5/common_2notifications_2all_8qh.html#aca86269ef3485ce384ae8480ce58fd6e',1,'all.qh']]]
+  ['notif_5farg_5fspree_5finf',['notif_arg_spree_inf',['../dc/de5/common_2notifications_2all_8qh.html#aca86269ef3485ce384ae8480ce58fd6e',1,'all.qh']]],
+  ['numteams',['NumTeams',['../d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f',1,'NumTeams(int teams):&#160;scores_rules.qc'],['../d6/d4e/scores__rules_8qh.html#ae01e878023ee1a5ecc45cc3d62c3895f',1,'NumTeams(int teams):&#160;scores_rules.qc']]]
 ];

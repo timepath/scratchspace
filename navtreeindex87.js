@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"db/d2f/subs_8qh.html#a45eb43f1dba1d0f2c0f2f6eb4a7bd5cc":[2,0,1,13,11,9],
+"db/d2f/subs_8qh.html#a4d8f1dc81695f45393a0ce3187009187":[2,0,1,13,11,6],
+"db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36":[2,0,1,13,11,28],
+"db/d2f/subs_8qh.html#a5e3c857e323d0afe657b7a8f63380149":[2,0,1,13,11,30],
 "db/d2f/subs_8qh.html#a69b97ec45f7d1f6cf75089eea61c38cd":[2,0,1,13,11,25],
 "db/d2f/subs_8qh.html#a6bd7359933bff3359b4e7e3c826e5259":[2,0,1,13,11,13],
 "db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d":[2,0,1,13,11,21],
@@ -245,9 +249,5 @@ var NAVTREEINDEX87 =
 "db/d3c/classArc.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,3,15],
 "db/d40/common_2mutators_2mutator_2nades_2__mod_8inc.html":[2,0,1,9,0,15,0],
 "db/d40/common_2mutators_2mutator_2nades_2__mod_8inc_source.html":[2,0,1,9,0,15,0],
-"db/d46/dialog__multiplayer__create_8qh.html":[2,0,5,4,89],
-"db/d46/dialog__multiplayer__create_8qh.html#a94bcd6120df81d66b7301391e876efe9":[2,0,5,4,89,1],
-"db/d46/dialog__multiplayer__create_8qh_source.html":[2,0,5,4,89],
-"db/d4a/classHook.html":[1,0,42],
-"db/d4a/classHook.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,42,17]
+"db/d46/dialog__multiplayer__create_8qh.html":[2,0,5,4,89]
 };

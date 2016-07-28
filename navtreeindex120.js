@@ -1,5 +1,10 @@
 var NAVTREEINDEX120 =
 {
+"df/d92/classXonoticWinnerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,237,15],
+"df/d92/classXonoticWinnerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,237,6],
+"df/d92/classXonoticWinnerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,237,67],
+"df/d92/classXonoticWinnerDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,237,58],
+"df/d92/classXonoticWinnerDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,237,63],
 "df/d92/classXonoticWinnerDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,237,62],
 "df/d92/classXonoticWinnerDialog.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,237,85],
 "df/d92/classXonoticWinnerDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,237,64],
@@ -179,8 +184,8 @@ var NAVTREEINDEX120 =
 "df/d9b/menu_2xonotic_2util_8qc.html#acd3accc18b1eb532a2ac7cdc24a3510a":[2,0,5,4,228,40],
 "df/d9b/menu_2xonotic_2util_8qc.html#acec3f9953edac61d0ea8bb0c013539cc":[2,0,5,4,228,63],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad1f36d07e4a66476224966394f1e24e5":[2,0,5,4,228,44],
-"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,228,0],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,228,1],
+"df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a":[2,0,5,4,228,0],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad481dfa3a9518c9669a0fcc1da77758f":[2,0,5,4,228,8],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556":[2,0,5,4,228,4],
 "df/d9b/menu_2xonotic_2util_8qc.html#ad87ced1edd45c581dd684b4054fd8ea5":[2,0,5,4,228,73],
@@ -244,10 +249,5 @@ var NAVTREEINDEX120 =
 "df/dac/keyframe_8qh.html#a41f31bcbf06aded9e6972d11b9c62bc5":[2,0,5,0,9,4],
 "df/dac/keyframe_8qh.html#a678b39a744755166ecb8e8f6287e5bcf":[2,0,5,0,9,2],
 "df/dac/keyframe_8qh.html#a7eb1fbc5b14bdaeb1a18ae7b741828b5":[2,0,5,0,9,1],
-"df/dac/keyframe_8qh.html#abef6c8e69f77c44568ebce4e17439064":[2,0,5,0,9,3],
-"df/dac/keyframe_8qh_source.html":[2,0,5,0,9],
-"df/dae/player_8qh.html":[2,0,1,11,7],
-"df/dae/player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9":[2,0,1,11,7,33],
-"df/dae/player_8qh.html#a100cd2ee90ef7069bdb2aaaa6e2b7812":[2,0,1,11,7,40],
-"df/dae/player_8qh.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca":[2,0,1,11,7,85]
+"df/dac/keyframe_8qh.html#abef6c8e69f77c44568ebce4e17439064":[2,0,5,0,9,3]
 };

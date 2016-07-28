@@ -275,5 +275,6 @@ var searchData=
   ['numfreeslotslabel',['numFreeSlotsLabel',['../da/db7/classXonoticServerInfoDialog.html#a5bdbb325b94f5c35d2cadb79f3bc46a3',1,'XonoticServerInfoDialog']]],
   ['nummodels',['numModels',['../da/d6d/classXonoticPlayerModelSelector.html#a4ba44159ca25c30a542d1d28ced0d394',1,'XonoticPlayerModelSelector']]],
   ['numplayerslabel',['numPlayersLabel',['../da/db7/classXonoticServerInfoDialog.html#af0bbe7a8f0483579b320fa388d057275',1,'XonoticServerInfoDialog']]],
+  ['numteams',['NumTeams',['../d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f',1,'NumTeams(int teams):&#160;scores_rules.qc'],['../d6/d4e/scores__rules_8qh.html#ae01e878023ee1a5ecc45cc3d62c3895f',1,'NumTeams(int teams):&#160;scores_rules.qc']]],
   ['nvalues',['nValues',['../db/db4/classTextSlider.html#aa85ac553a7c9b2131fb49fe64205bc00',1,'TextSlider']]]
 ];

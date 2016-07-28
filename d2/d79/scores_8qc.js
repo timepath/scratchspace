@@ -22,7 +22,7 @@ var scores_8qc =
     [ "Score_NicePrint_Spectators", "d2/d79/scores_8qc.html#ac325eeedb7c50f08a44fc2b93063c5bf", null ],
     [ "Score_NicePrint_Team", "d2/d79/scores_8qc.html#a05074af080e1c47e05f847d4db9e66fc", null ],
     [ "ScoreField_Compare", "d2/d79/scores_8qc.html#a4269aa8682826ed20f07afefd72daf79", null ],
-    [ "ScoreInfo_Init", "d2/d79/scores_8qc.html#ad00aa8f918636d852f0802ab8bf16c84", null ],
+    [ "ScoreInfo_Init", "d2/d79/scores_8qc.html#a51f0d41043a05b6682f5322b3f338abd", null ],
     [ "ScoreInfo_SendEntity", "d2/d79/scores_8qc.html#a8fe097dffad5360aea8e78c7fe249d32", null ],
     [ "ScoreInfo_SetLabel_PlayerScore", "d2/d79/scores_8qc.html#ae0771842134bad6fb8b6b621b01baa8d", null ],
     [ "ScoreInfo_SetLabel_TeamScore", "d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882", null ],

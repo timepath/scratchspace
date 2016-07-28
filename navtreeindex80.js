@@ -1,5 +1,9 @@
 var NAVTREEINDEX80 =
 {
+"da/d13/classShockwave.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,99,0],
+"da/d13/classShockwave.html#a7495a799cf73beef58b25f94e4052af3":[1,0,99,30],
+"da/d13/classShockwave.html#a768d3992198c4b743dbab2cff9529e99":[1,0,99,21],
+"da/d13/classShockwave.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,99,24],
 "da/d13/classShockwave.html#a80fa9a65e19370473a29baebc04d0626":[1,0,99,2],
 "da/d13/classShockwave.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,99,4],
 "da/d13/classShockwave.html#a8f3e2d89ff1bfae1334a5bf43011bbf7":[1,0,99,33],
@@ -245,9 +249,5 @@ var NAVTREEINDEX80 =
 "da/d40/common_2mutators_2mutator_2weaponarena__random_2__mod_8qh_source.html":[2,0,1,9,0,32,1],
 "da/d41/dialog__singleplayer_8qc.html":[2,0,5,4,156],
 "da/d41/dialog__singleplayer_8qc.html#a688fce87e81db4573d97935bb9e2cd8c":[2,0,5,4,156,0],
-"da/d41/dialog__singleplayer_8qc.html#a845e97e974f104e8b4edcb06a3e8aa73":[2,0,5,4,156,1],
-"da/d41/dialog__singleplayer_8qc_source.html":[2,0,5,4,156],
-"da/d44/common_2util_8qc.html":[2,0,1,44],
-"da/d44/common_2util_8qc.html#a033f8b5786442ed20625b8ea3f27f8b6":[2,0,1,44,2],
-"da/d44/common_2util_8qc.html#a0b0062f12f6d7a2cc80665922d81383b":[2,0,1,44,26]
+"da/d41/dialog__singleplayer_8qc.html#a845e97e974f104e8b4edcb06a3e8aa73":[2,0,5,4,156,1]
 };
