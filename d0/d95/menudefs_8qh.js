@@ -15,6 +15,7 @@ var menudefs_8qh =
     [ "strstrofs", "d0/d95/menudefs_8qh.html#a2ac3100017ecf2236493ea038c4d2083", null ],
     [ "true", "d0/d95/menudefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7", null ],
     [ "TRUE", "d0/d95/menudefs_8qh.html#aa8cecfc5c5c054d2875c03e77b7be15d", null ],
+    [ "bool", "d0/d95/menudefs_8qh.html#a86a9c1d0cd6519b9a452c01b2574d0e4", null ],
     [ "int", "d0/d95/menudefs_8qh.html#ac1a171b131a08f023baadff0c00b1aa8", null ],
     [ "int", "d0/d95/menudefs_8qh.html#a94d75aff95b06ea63d48d65883035df1", null ],
     [ "int", "d0/d95/menudefs_8qh.html#a877cc20fbb3e2a65f2a97bfedc2cd723", null ],

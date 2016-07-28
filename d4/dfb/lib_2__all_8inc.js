@@ -11,6 +11,8 @@ var lib_2__all_8inc =
     [ "isnt_float", "d4/dfb/lib_2__all_8inc.html#a59f9952f6e48bde37e09ad66e3c300ec", null ],
     [ "isnt_string", "d4/dfb/lib_2__all_8inc.html#a9ec73664bbc6163a9a3cd6040ec17154", null ],
     [ "isnt_vector", "d4/dfb/lib_2__all_8inc.html#abb51df5f207298185d644b9dec6e5e8e", null ],
+    [ "objerror", "d4/dfb/lib_2__all_8inc.html#aa355d14312871eb0e1d9c34d952224ef", null ],
+    [ "objerror_safe", "d4/dfb/lib_2__all_8inc.html#ae32529f2cf1b849ec0ac1fadb12c898c", null ],
     [ "TC", "d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b", null ],
     [ "USING", "d4/dfb/lib_2__all_8inc.html#abe8eb52fc5e52351ecda2a477108abed", null ],
     [ "is_bool", "d4/dfb/lib_2__all_8inc.html#aa2f1309e021da3dc804ea9f0529f3a57", null ],

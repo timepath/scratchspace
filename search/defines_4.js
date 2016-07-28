@@ -17,6 +17,7 @@ var searchData=
   ['def',['DEF',['../dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862',1,'effectinfo.qc']]],
   ['defer',['DEFER',['../d3/dc9/macro_8qh.html#a4985e8f93ec4d844193bad891e1ea0c2',1,'macro.qh']]],
   ['delete',['delete',['../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f',1,'oo.qh']]],
+  ['delete_5ffn',['delete_fn',['../db/d0a/oo_8qh.html#a0986caaf6941d347f68b37c3a8803538',1,'oo.qh']]],
   ['demand',['demand',['../db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37',1,'log.qh']]],
   ['deprecate',['deprecate',['../d3/d46/mapinfo_8qc.html#a802a9dfeae2a8991ff7b3dbf754abb66',1,'mapinfo.qc']]],
   ['destructor',['DESTRUCTOR',['../db/d0a/oo_8qh.html#a8259d5b8ddaa05cbf3128401fa8423c1',1,'oo.qh']]],

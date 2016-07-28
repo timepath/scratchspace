@@ -36,6 +36,7 @@ var hierarchy =
         ] ]
       ] ],
       [ "Gametype", "d1/d6b/classGametype.html", null ],
+      [ "IntrusiveList", "d1/d74/classIntrusiveList.html", null ],
       [ "Inventory", "dd/d7a/classInventory.html", null ],
       [ "Item", "d0/dae/classItem.html", [
         [ "Container", "d0/d7b/classContainer.html", [

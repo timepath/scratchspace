@@ -26,6 +26,5 @@ var sys_pre_8qh =
     [ "IT_SUIT", "dd/d8b/sys-pre_8qh.html#a173c801a82c3c297d24e3b7630fbad3b", null ],
     [ "IT_SUPER_NAILGUN", "dd/d8b/sys-pre_8qh.html#a93d41bf1a89a98cda58348c77f373420", null ],
     [ "IT_SUPER_SHOTGUN", "dd/d8b/sys-pre_8qh.html#a6ba166b0f324250745d0897a482d08bb", null ],
-    [ "IT_SUPERHEALTH", "dd/d8b/sys-pre_8qh.html#af049e5748138e84b5a3570816901699b", null ],
-    [ "remove", "dd/d8b/sys-pre_8qh.html#a21c8e4427c0616d11bc8e6bb66141a73", null ]
+    [ "IT_SUPERHEALTH", "dd/d8b/sys-pre_8qh.html#af049e5748138e84b5a3570816901699b", null ]
 ];

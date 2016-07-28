@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['g_5fdrawables',['g_drawables',['../d0/d2a/client_2main_8qh.html#a316bdc2bc1d8268a59af7a495015b438',1,'main.qh']]],
+  ['g_5fdrawables_5f2d',['g_drawables_2d',['../d0/d2a/client_2main_8qh.html#af7bdc370fb0d0ac3b8cd642fb275b608',1,'main.qh']]],
   ['g_5ffootsteps',['g_footsteps',['../d5/d26/server_2defs_8qh.html#a31e05dca1562dcacdfd5a7d126f64758',1,'defs.qh']]],
   ['g_5fgrappling_5fhook',['g_grappling_hook',['../d5/d26/server_2defs_8qh.html#a20b8fd2c223a945ae85aa2105e9cc078',1,'defs.qh']]],
   ['g_5finstagib',['g_instagib',['../d5/d26/server_2defs_8qh.html#a2bd71e8090c09dc399620eacd69b6e73',1,'defs.qh']]],
@@ -47,6 +49,8 @@ var searchData=
   ['g_5fpickup_5fshells_5fmax',['g_pickup_shells_max',['../dc/d73/server_2miscfunctions_8qh.html#a7c0b5437bd9ea2c12fb0e79b57699267',1,'miscfunctions.qh']]],
   ['g_5fpickup_5fweapons_5fanyway',['g_pickup_weapons_anyway',['../dc/d73/server_2miscfunctions_8qh.html#a356100fb9799e6f8e2754365f6994cb8',1,'miscfunctions.qh']]],
   ['g_5frace_5fqualifying',['g_race_qualifying',['../d4/d1b/race_8qh.html#a7e260fe5773769b74b068a6483ddb83d',1,'race.qh']]],
+  ['g_5fradaricons',['g_radaricons',['../d0/d2a/client_2main_8qh.html#a8fc29337858d2211c4eb14675f08994f',1,'main.qh']]],
+  ['g_5fradarlinks',['g_radarlinks',['../d0/d2a/client_2main_8qh.html#a8f9b7f72557a124c4bdacb09cadec22b',1,'main.qh']]],
   ['g_5ftrueaim_5fminrange',['g_trueaim_minrange',['../d0/d2a/client_2main_8qh.html#a03cabea65bbb5dff4c8ffa4657e18a46',1,'main.qh']]],
   ['g_5fwarmup_5fallguns',['g_warmup_allguns',['../d5/d26/server_2defs_8qh.html#ac1c30ec6307b210f08d78ee929599d2a',1,'defs.qh']]],
   ['g_5fwarmup_5fallow_5ftimeout',['g_warmup_allow_timeout',['../d5/d26/server_2defs_8qh.html#a02bc0ed2dad26a552548fc97d9f5b1ec',1,'defs.qh']]],

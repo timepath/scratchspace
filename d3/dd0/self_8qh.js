@@ -13,7 +13,6 @@ var self_8qh =
     [ "getthink", "d3/dd0/self_8qh.html#a67534e9d3c6f49933b2c164afe15211e", null ],
     [ "gettouch", "d3/dd0/self_8qh.html#a3d349fc3f585de2f6459e525150b0010", null ],
     [ "movetogoal", "d3/dd0/self_8qh.html#a4b12d67d7e3f4892efe2bb25dbfb1060", null ],
-    [ "objerror", "d3/dd0/self_8qh.html#abab9acaac886723e9e0df9c345939052", null ],
     [ "self", "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d", null ],
     [ "self", "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d", null ],
     [ "self", "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d", null ],

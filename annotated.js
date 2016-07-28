@@ -48,6 +48,7 @@ var annotated =
     [ "Image", "d8/d00/classImage.html", "d8/d00/classImage" ],
     [ "InputBox", "d1/dec/classInputBox.html", "d1/dec/classInputBox" ],
     [ "InputContainer", "d8/da4/classInputContainer.html", "d8/da4/classInputContainer" ],
+    [ "IntrusiveList", "d1/d74/classIntrusiveList.html", "d1/d74/classIntrusiveList" ],
     [ "Inventory", "dd/d7a/classInventory.html", "dd/d7a/classInventory" ],
     [ "Item", "d0/dae/classItem.html", "d0/dae/classItem" ],
     [ "Keyframe", "db/d38/classKeyframe.html", "db/d38/classKeyframe" ],
