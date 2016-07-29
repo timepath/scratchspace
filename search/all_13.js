@@ -625,7 +625,7 @@ var searchData=
   ['spawnshieldtime',['spawnshieldtime',['../d5/d26/server_2defs_8qh.html#a818a3a01a056d7a1bd0318928eabb76e',1,'defs.qh']]],
   ['spawnthrownweapon',['SpawnThrownWeapon',['../df/d64/throwing_8qc.html#a97f02d70ce7169f7c173a2b3cb3de2fc',1,'SpawnThrownWeapon(entity this, vector org, float w):&#160;throwing.qc'],['../de/d58/throwing_8qh.html#a97f02d70ce7169f7c173a2b3cb3de2fc',1,'SpawnThrownWeapon(entity this, vector org, float w):&#160;throwing.qc']]],
   ['speaker_2eqc',['speaker.qc',['../d5/d06/speaker_8qc.html',1,'']]],
-  ['specialcommand',['SpecialCommand',['../dc/ddd/player_8qc.html#aba6bcdf9b4bf24fa41a76f0cca28fa9b',1,'SpecialCommand(entity this):&#160;player.qc'],['../dc/ddd/player_8qc.html#ac97058ca049cfc4d464ba0c4a3f4ef74',1,'specialcommand():&#160;player.qc']]],
+  ['specialcommand',['specialcommand',['../dc/ddd/player_8qc.html#ac97058ca049cfc4d464ba0c4a3f4ef74',1,'specialcommand():&#160;player.qc'],['../dc/ddd/player_8qc.html#aba6bcdf9b4bf24fa41a76f0cca28fa9b',1,'SpecialCommand(entity this):&#160;player.qc']]],
   ['specialcommand_5fpos',['specialcommand_pos',['../dc/ddd/player_8qc.html#a50fad2175f67c8ff6e31509e5b97114c',1,'player.qc']]],
   ['species',['species',['../d5/d26/server_2defs_8qh.html#a3c3af8f5c6837dd97fdbd346a993f5b1',1,'defs.qh']]],
   ['species_5falien',['SPECIES_ALIEN',['../d0/d8b/common_2constants_8qh.html#ac9873a09c7ef06c4c0f6743f3971e9c2',1,'constants.qh']]],
