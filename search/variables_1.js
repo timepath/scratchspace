@@ -1497,5 +1497,7 @@ var searchData=
   ['avgspeed',['avgspeed',['../d6/dd3/view_8qc.html#aba02b9d95dcdb5ede530a4bd20e6a634',1,'view.qc']]],
   ['axh_5fdrawflag',['axh_drawflag',['../d0/dee/cl__vehicles_8qc.html#a35dd90ab1bb8c5a5e168df26aa60d43f',1,'cl_vehicles.qc']]],
   ['axh_5ffadetime',['axh_fadetime',['../d0/dee/cl__vehicles_8qc.html#a84709ac96fab44efa0d1a034ba47c4f6',1,'cl_vehicles.qc']]],
-  ['axh_5fimage',['axh_image',['../d0/dee/cl__vehicles_8qc.html#a4db301599f6f1f9c94066140886339d8',1,'cl_vehicles.qc']]]
+  ['axh_5fimage',['axh_image',['../d0/dee/cl__vehicles_8qc.html#a4db301599f6f1f9c94066140886339d8',1,'cl_vehicles.qc']]],
+  ['axh_5fprevcolors',['axh_prevcolors',['../da/d10/sv__vehicles_8qc.html#af017ca12b4899519b7181466443f37b0',1,'sv_vehicles.qc']]],
+  ['axh_5fprevorigin',['axh_prevorigin',['../da/d10/sv__vehicles_8qc.html#a59fc9c57ccdb2ff45e767dadd8aa8aa9',1,'sv_vehicles.qc']]]
 ];

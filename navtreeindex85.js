@@ -1,5 +1,7 @@
 var NAVTREEINDEX85 =
 {
+"da/dc1/classXonoticAudioSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,124,30],
+"da/dc1/classXonoticAudioSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,124,82],
 "da/dc1/dialog__hudpanel__modicons_8qh.html":[2,0,5,4,59],
 "da/dc1/dialog__hudpanel__modicons_8qh_source.html":[2,0,5,4,59],
 "da/dc5/voicescript_8qc.html":[2,0,1,13,2,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX85 =
 "db/d0a/oo_8qh.html#a269b1d539e6116de8dc93f6891abc9a2":[2,0,4,36,53],
 "db/d0a/oo_8qh.html#a292ba0aa7779cf6b9841970f520a1308":[2,0,4,36,30],
 "db/d0a/oo_8qh.html#a2c6f379bca790f3aa11453fb312572a2":[2,0,4,36,22],
-"db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c":[2,0,4,36,4],
-"db/d0a/oo_8qh.html#a36118cf10a3e0ddef53ee10a2af4b519":[2,0,4,36,33],
-"db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f":[2,0,4,36,5]
+"db/d0a/oo_8qh.html#a3162e57f8d1c6e60e7e232d929012e7c":[2,0,4,36,4]
 };

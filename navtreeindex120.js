@@ -1,5 +1,7 @@
 var NAVTREEINDEX120 =
 {
+"df/d92/classXonoticWinnerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,237,76],
+"df/d92/classXonoticWinnerDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,237,37],
 "df/d92/classXonoticWinnerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,237,15],
 "df/d92/classXonoticWinnerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,237,6],
 "df/d92/classXonoticWinnerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,237,67],
@@ -247,7 +249,5 @@ var NAVTREEINDEX120 =
 "df/dac/keyframe_8qh.html":[2,0,5,0,9],
 "df/dac/keyframe_8qh.html#a2191a561ff6b8718cda97e1ca457e998":[2,0,5,0,9,5],
 "df/dac/keyframe_8qh.html#a41f31bcbf06aded9e6972d11b9c62bc5":[2,0,5,0,9,4],
-"df/dac/keyframe_8qh.html#a678b39a744755166ecb8e8f6287e5bcf":[2,0,5,0,9,2],
-"df/dac/keyframe_8qh.html#a7eb1fbc5b14bdaeb1a18ae7b741828b5":[2,0,5,0,9,1],
-"df/dac/keyframe_8qh.html#abef6c8e69f77c44568ebce4e17439064":[2,0,5,0,9,3]
+"df/dac/keyframe_8qh.html#a678b39a744755166ecb8e8f6287e5bcf":[2,0,5,0,9,2]
 };

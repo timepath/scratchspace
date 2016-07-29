@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"da/d41/dialog__singleplayer_8qc.html#a688fce87e81db4573d97935bb9e2cd8c":[2,0,5,4,156,0],
+"da/d41/dialog__singleplayer_8qc.html#a845e97e974f104e8b4edcb06a3e8aa73":[2,0,5,4,156,1],
 "da/d41/dialog__singleplayer_8qc_source.html":[2,0,5,4,156],
 "da/d44/common_2util_8qc.html":[2,0,1,44],
 "da/d44/common_2util_8qc.html#a033f8b5786442ed20625b8ea3f27f8b6":[2,0,1,44,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "da/d53/cl__client_8qc.html#ae55541fef89bf17be7eedf1e1b8d9c91":[2,0,6,17,21],
 "da/d53/cl__client_8qc.html#ae65b054c6752ac6d32c4212a3b9a4294":[2,0,6,17,2],
 "da/d53/cl__client_8qc.html#aec6cdba5f75bbb56090f5e085e9bcfeb":[2,0,6,17,14],
-"da/d53/cl__client_8qc.html#aed95c4f937b43adeae79015825661efd":[2,0,6,17,27],
-"da/d53/cl__client_8qc.html#aef16dc092f69453b716c91d06060d635":[2,0,6,17,28],
-"da/d53/cl__client_8qc.html#af2620e84061ce2c37df08531c1327cdc":[2,0,6,17,73]
+"da/d53/cl__client_8qc.html#aed95c4f937b43adeae79015825661efd":[2,0,6,17,27]
 };

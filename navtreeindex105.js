@@ -1,5 +1,7 @@
 var NAVTREEINDEX105 =
 {
+"dd/d69/net_8qh.html#a57f79e19435bd395df28fcca5f9a248e":[2,0,4,33,27],
+"dd/d69/net_8qh.html#a5bb63dcab5ee0b1d87a625531c81f0c5":[2,0,4,33,18],
 "dd/d69/net_8qh.html#a5fe694caf8c65460c0ba0b7821b9a632":[2,0,4,33,0],
 "dd/d69/net_8qh.html#a6e4c8aabf20d96d568a3a13b9e492f7c":[2,0,4,33,2],
 "dd/d69/net_8qh.html#a70963789f84710350992e3da0673298b":[2,0,4,33,33],
@@ -247,7 +249,5 @@ var NAVTREEINDEX105 =
 "dd/d7b/gamemode__deathmatch_8qc.html#a26b37d54f61938acc3c95c460522cb62":[2,0,6,2,0,10,1],
 "dd/d7b/gamemode__deathmatch_8qc.html#a7a0c1af364565e718c758dc9511ca085":[2,0,6,2,0,10,0],
 "dd/d7b/gamemode__deathmatch_8qc_source.html":[2,0,6,2,0,10],
-"dd/d7f/triggers_2target_2spawn_8qc.html":[2,0,1,13,2,8],
-"dd/d7f/triggers_2target_2spawn_8qc_source.html":[2,0,1,13,2,8],
-"dd/d82/magicear_8qc.html":[2,0,1,13,3,18]
+"dd/d7f/triggers_2target_2spawn_8qc.html":[2,0,1,13,2,8]
 };

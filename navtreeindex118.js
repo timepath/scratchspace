@@ -1,5 +1,7 @@
 var NAVTREEINDEX118 =
 {
+"df/d28/sv__turrets_8qh.html#a6ba82eb5f3e6a07eeb904cb11be619fd":[2,0,1,14,10,24],
+"df/d28/sv__turrets_8qh.html#a6d5727ff997f1e44551edf46d001d097":[2,0,1,14,10,30],
 "df/d28/sv__turrets_8qh.html#a7051ced5d65fa0da3346e81017064894":[2,0,1,14,10,51],
 "df/d28/sv__turrets_8qh.html#a708c17bef2ecf4d4856a9044821052d4":[2,0,1,14,10,38],
 "df/d28/sv__turrets_8qh.html#a74fa1d579600d49af13764cf92f21b64":[2,0,1,14,10,32],
@@ -247,7 +249,5 @@ var NAVTREEINDEX118 =
 "df/d6e/classXonoticSingleplayerDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,220,63],
 "df/d6e/classXonoticSingleplayerDialog.html#a24879e25ea7f45ca62b039c3c0559185":[1,0,220,78],
 "df/d6e/classXonoticSingleplayerDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,220,65],
-"df/d6e/classXonoticSingleplayerDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,220,4],
-"df/d6e/classXonoticSingleplayerDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,220,32],
-"df/d6e/classXonoticSingleplayerDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,220,10]
+"df/d6e/classXonoticSingleplayerDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,220,4]
 };

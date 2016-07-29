@@ -178,6 +178,7 @@ var NAVTREEINDEX79 =
 "da/d10/sv__vehicles_8qc.html#a4bd38526315a441269cae0d44943d01d":[2,0,1,15,7,31],
 "da/d10/sv__vehicles_8qc.html#a4dafdad030ed16fd1dfd22d4e854fcda":[2,0,1,15,7,32],
 "da/d10/sv__vehicles_8qc.html#a591286be998a76b02e9182e2d7a9f746":[2,0,1,15,7,2],
+"da/d10/sv__vehicles_8qc.html#a59fc9c57ccdb2ff45e767dadd8aa8aa9":[2,0,1,15,7,42],
 "da/d10/sv__vehicles_8qc.html#a5c938575dbcb274a8ec0ac03ebd61fa0":[2,0,1,15,7,33],
 "da/d10/sv__vehicles_8qc.html#a65279814c8a6144755ab92a4f3ba98ba":[2,0,1,15,7,3],
 "da/d10/sv__vehicles_8qc.html#a6c29d6869bf163f03ba023875281f720":[2,0,1,15,7,7],
@@ -203,6 +204,7 @@ var NAVTREEINDEX79 =
 "da/d10/sv__vehicles_8qc.html#ad8fab4bff1fd3bd8871f5141c39085ad":[2,0,1,15,7,30],
 "da/d10/sv__vehicles_8qc.html#adcd2f4aae690f6a2f0f947ec75b03fe0":[2,0,1,15,7,19],
 "da/d10/sv__vehicles_8qc.html#ae4ad6ead0893944940ce66bd17ca9375":[2,0,1,15,7,21],
+"da/d10/sv__vehicles_8qc.html#af017ca12b4899519b7181466443f37b0":[2,0,1,15,7,41],
 "da/d10/sv__vehicles_8qc.html#af3487605a196c9df59ed3a8f0c8c6a04":[2,0,1,15,7,13],
 "da/d10/sv__vehicles_8qc.html#afa4811f20052d3c43e4b1ef5463d88f8":[2,0,1,15,7,9],
 "da/d10/sv__vehicles_8qc.html#afcba25c827d948daf47134038eb3b300":[2,0,1,15,7,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX79 =
 "da/d13/classShockwave.html#a46b8fbb0e0cdbe99f5d0af2fcd862af6":[1,0,99,31],
 "da/d13/classShockwave.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,99,13],
 "da/d13/classShockwave.html#a63c4ff29db394bde747d09312ed69684":[1,0,99,35],
-"da/d13/classShockwave.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,99,7],
-"da/d13/classShockwave.html#a6a2ecbec331fdeefcb8ed171bab217b8":[1,0,99,23],
-"da/d13/classShockwave.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,99,6]
+"da/d13/classShockwave.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,99,7]
 };

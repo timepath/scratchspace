@@ -40,5 +40,7 @@ var sv__vehicles_8qc =
     [ "vehicles_showwp_goaway", "da/d10/sv__vehicles_8qc.html#a0c8f69e9962a7863d7d9a19fdd3bcb37", null ],
     [ "vehicles_spawn", "da/d10/sv__vehicles_8qc.html#a9be836b28cd841ff63b259fe3291693e", null ],
     [ "vehicles_think", "da/d10/sv__vehicles_8qc.html#a849a38f311767a9e206e878bec7932ed", null ],
-    [ "vehicles_touch", "da/d10/sv__vehicles_8qc.html#a2bce3d35334f0f1d42dcfb694b1df6af", null ]
+    [ "vehicles_touch", "da/d10/sv__vehicles_8qc.html#a2bce3d35334f0f1d42dcfb694b1df6af", null ],
+    [ "axh_prevcolors", "da/d10/sv__vehicles_8qc.html#af017ca12b4899519b7181466443f37b0", null ],
+    [ "axh_prevorigin", "da/d10/sv__vehicles_8qc.html#a59fc9c57ccdb2ff45e767dadd8aa8aa9", null ]
 ];

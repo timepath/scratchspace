@@ -1776,8 +1776,8 @@ var searchData=
   ['autocvar_5fviewsize',['autocvar_viewsize',['../d7/db4/client_2autocvars_8qh.html#a87fb102a04abaade2707258f1e61f4e7',1,'autocvars.qh']]],
   ['autocvar_5fwaypoint_5fbenchmark',['autocvar_waypoint_benchmark',['../d7/da7/server_2autocvars_8qh.html#a90aa0acc89ef4fc4249d2398880c928c',1,'autocvars.qh']]],
   ['autocvar_5fxon_5fcom_5fphys_5finterpolate',['autocvar_xon_com_phys_interpolate',['../dc/dcd/ecs_2components_2physics_8qc.html#a3f4efebbab6822db8c3c7906e20af928',1,'physics.qc']]],
-  ['autocvars_2eqh',['autocvars.qh',['../d7/da7/server_2autocvars_8qh.html',1,'']]],
   ['autocvars_2eqh',['autocvars.qh',['../d7/db4/client_2autocvars_8qh.html',1,'']]],
+  ['autocvars_2eqh',['autocvars.qh',['../d7/da7/server_2autocvars_8qh.html',1,'']]],
   ['autofix',['autofix',['../d2/dcb/classXonoticPicmipSlider.html#ab15384c465d65d21f725861fafea3374',1,'XonoticPicmipSlider']]],
   ['autoskill',['autoskill',['../d2/dc0/bot_8qc.html#a62777f93cd332cdb248328fd072e3547',1,'autoskill(float factor):&#160;bot.qc'],['../d1/da9/bot_8qh.html#a62777f93cd332cdb248328fd072e3547',1,'autoskill(float factor):&#160;bot.qc']]],
   ['autoskill_5fnextthink',['autoskill_nextthink',['../d1/da9/bot_8qh.html#a2f15d8c4524b3af2a07108ff7e62305c',1,'bot.qh']]],
@@ -1791,5 +1791,7 @@ var searchData=
   ['avgspeed',['avgspeed',['../d6/dd3/view_8qc.html#aba02b9d95dcdb5ede530a4bd20e6a634',1,'view.qc']]],
   ['axh_5fdrawflag',['axh_drawflag',['../d0/dee/cl__vehicles_8qc.html#a35dd90ab1bb8c5a5e168df26aa60d43f',1,'cl_vehicles.qc']]],
   ['axh_5ffadetime',['axh_fadetime',['../d0/dee/cl__vehicles_8qc.html#a84709ac96fab44efa0d1a034ba47c4f6',1,'cl_vehicles.qc']]],
-  ['axh_5fimage',['axh_image',['../d0/dee/cl__vehicles_8qc.html#a4db301599f6f1f9c94066140886339d8',1,'cl_vehicles.qc']]]
+  ['axh_5fimage',['axh_image',['../d0/dee/cl__vehicles_8qc.html#a4db301599f6f1f9c94066140886339d8',1,'cl_vehicles.qc']]],
+  ['axh_5fprevcolors',['axh_prevcolors',['../da/d10/sv__vehicles_8qc.html#af017ca12b4899519b7181466443f37b0',1,'sv_vehicles.qc']]],
+  ['axh_5fprevorigin',['axh_prevorigin',['../da/d10/sv__vehicles_8qc.html#a59fc9c57ccdb2ff45e767dadd8aa8aa9',1,'sv_vehicles.qc']]]
 ];

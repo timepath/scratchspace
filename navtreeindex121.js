@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"df/dac/keyframe_8qh.html#a7eb1fbc5b14bdaeb1a18ae7b741828b5":[2,0,5,0,9,1],
+"df/dac/keyframe_8qh.html#abef6c8e69f77c44568ebce4e17439064":[2,0,5,0,9,3],
 "df/dac/keyframe_8qh_source.html":[2,0,5,0,9],
 "df/dae/player_8qh.html":[2,0,1,11,7],
 "df/dae/player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9":[2,0,1,11,7,33],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a67d95732d49da439095483530aca8804":[1,0,172,42],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,172,69],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a6d12cf280d6ac32da20a85bb911970dd":[1,0,172,50],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,172,7],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a703177e2d0fb94bda2501afa685076cf":[1,0,172,61],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a7870c2467d71f42ddc904c2ad3690ae1":[1,0,172,13]
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,172,7]
 };
