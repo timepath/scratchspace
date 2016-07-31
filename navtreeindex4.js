@@ -1,5 +1,8 @@
 var NAVTREEINDEX4 =
 {
+"d0/d95/menudefs_8qh.html#a65e9886d74aaee76545e83dd09011727":[2,0,2,4,2],
+"d0/d95/menudefs_8qh.html#a6b5d9a1031ac2602e31df1ba551bfafe":[2,0,2,4,9],
+"d0/d95/menudefs_8qh.html#a7463baf5fb1b8c9bc859d5352d97313a":[2,0,2,4,11],
 "d0/d95/menudefs_8qh.html#a86a9c1d0cd6519b9a452c01b2574d0e4":[2,0,2,4,15],
 "d0/d95/menudefs_8qh.html#a877cc20fbb3e2a65f2a97bfedc2cd723":[2,0,2,4,18],
 "d0/d95/menudefs_8qh.html#a8b4993380ac4865a1180ed7cf868adef":[2,0,2,4,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX4 =
 "d0/dc9/dialog__quit_8qc_source.html":[2,0,5,4,114],
 "d0/dca/rootdialog_8qc.html":[2,0,5,4,194],
 "d0/dca/rootdialog_8qc.html#a92ab662c8231e8e4ecdbb97d6f03de6f":[2,0,5,4,194,0],
-"d0/dca/rootdialog_8qc_source.html":[2,0,5,4,194],
-"d0/dcd/csqcprojectile_8qc.html":[2,0,6,4,6],
-"d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b":[2,0,6,4,6,3],
-"d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e":[2,0,6,4,6,2]
+"d0/dca/rootdialog_8qc_source.html":[2,0,5,4,194]
 };

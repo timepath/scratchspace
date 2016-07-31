@@ -80,6 +80,7 @@ var searchData=
   ['warpzonelib_5fboxtouchesbrush_5fmins',['WarpZoneLib_BoxTouchesBrush_mins',['../d1/d6a/lib_2warpzone_2common_8qc.html#ab772b1ecf922066516c8257124ee06cb',1,'common.qc']]],
   ['wasflying',['wasFlying',['../df/dae/player_8qh.html#a57030d0513a6d9774b1aaccd1c792b6e',1,'player.qh']]],
   ['wasplayer',['wasplayer',['../d5/d26/server_2defs_8qh.html#ab4e063f23a289dbd487ac3a04d5be465',1,'defs.qh']]],
+  ['waterjump_5ftime',['waterjump_time',['../df/dae/player_8qh.html#a6123d4f4ec07cdad146eb4e01d0c4d3a',1,'player.qh']]],
   ['waterlevel',['waterlevel',['../d6/d11/progsdefs_8qc.html#a796f7384a7accc4479668f27b307f3f1',1,'progsdefs.qc']]],
   ['waterlevel_5fnone',['WATERLEVEL_NONE',['../d0/d8b/common_2constants_8qh.html#a4bec948f47848ed35986ca695c61f431',1,'constants.qh']]],
   ['waterlevel_5fsubmerged',['WATERLEVEL_SUBMERGED',['../d0/d8b/common_2constants_8qh.html#a34ca566662a26587b84114499a69e6d4',1,'constants.qh']]],

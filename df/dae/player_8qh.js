@@ -63,6 +63,7 @@ var player_8qh =
     [ "PHYS_NOSTEP", "df/dae/player_8qh.html#add4ab8569af46a0f63ceb53e803b11f3", null ],
     [ "PHYS_STEPHEIGHT", "df/dae/player_8qh.html#a49b008c776cd6ae54fdac684a6f49211", null ],
     [ "PHYS_STOPSPEED", "df/dae/player_8qh.html#a5d875da0044539da8a87d3f15e5266c5", null ],
+    [ "PHYS_TELEPORT_TIME", "df/dae/player_8qh.html#a4fb98c405f4df107b990223d015aea08", null ],
     [ "PHYS_TRACK_CANJUMP", "df/dae/player_8qh.html#a7ae09eefc465db502d0a0a5a1285b719", null ],
     [ "PHYS_WALLFRICTION", "df/dae/player_8qh.html#a87540168103cd2b723eed0a5717f3554", null ],
     [ "PHYS_WARSOWBUNNY_ACCEL", "df/dae/player_8qh.html#a1b0a438d266d9ef604392b0c167dae00", null ],
@@ -70,6 +71,7 @@ var player_8qh =
     [ "PHYS_WARSOWBUNNY_BACKTOSIDERATIO", "df/dae/player_8qh.html#a536bf75591f680faaf98ad32262752b1", null ],
     [ "PHYS_WARSOWBUNNY_TOPSPEED", "df/dae/player_8qh.html#a3aaa42a2b4ab57536e12c907d2f99629", null ],
     [ "PHYS_WARSOWBUNNY_TURNACCEL", "df/dae/player_8qh.html#ae354b8220687fcb9808a96dc1b185822", null ],
+    [ "PHYS_WATERJUMP_TIME", "df/dae/player_8qh.html#a458adbf71d98283d6f38e5dbd6d0ebe7", null ],
     [ "SET_JUMP_HELD", "df/dae/player_8qh.html#aef8b1c32c3402cb23008eb08e0e8cffb", null ],
     [ "UNSET_JUMP_HELD", "df/dae/player_8qh.html#ac2d0dcf4a4840539e0901c7254d34ecc", null ],
     [ "UPWARD_VELOCITY_CLEARS_ONGROUND", "df/dae/player_8qh.html#a963bb51205295edf8b6f4adc0deecff9", null ],
@@ -89,5 +91,6 @@ var player_8qh =
     [ "swamp_slowdown", "df/dae/player_8qh.html#a72409ccf4513611408270e2c17712b3d", null ],
     [ "teleport_time", "df/dae/player_8qh.html#a5b22fb02e46104adf892ccf37392f741", null ],
     [ "v_angle_old", "df/dae/player_8qh.html#a363f777d30bb51c67376300a5d7f49be", null ],
-    [ "wasFlying", "df/dae/player_8qh.html#a57030d0513a6d9774b1aaccd1c792b6e", null ]
+    [ "wasFlying", "df/dae/player_8qh.html#a57030d0513a6d9774b1aaccd1c792b6e", null ],
+    [ "waterjump_time", "df/dae/player_8qh.html#a6123d4f4ec07cdad146eb4e01d0c4d3a", null ]
 ];

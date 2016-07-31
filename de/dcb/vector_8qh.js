@@ -1,5 +1,6 @@
 var vector_8qh =
 [
+    [ "ClipVelocity", "de/dcb/vector_8qh.html#a74ddac6721cec9faf03039915787e47b", null ],
     [ "cross", "de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5", null ],
     [ "dotproduct", "de/dcb/vector_8qh.html#ae8d8b31974c50cca8b60d3734bc00dac", null ],
     [ "MAKEVECTORS", "de/dcb/vector_8qh.html#a9b71db6d5ad2e85b3bda473a75d395f7", null ],
@@ -11,6 +12,7 @@ var vector_8qh =
     [ "vec2_2", "de/dcb/vector_8qh.html#a050d55163b23ec6432f867b0dbc3d12d", null ],
     [ "vec3", "de/dcb/vector_8qh.html#aff5e2534cd0b37bd75c3f51baa19b12e", null ],
     [ "vlen2", "de/dcb/vector_8qh.html#a10b5386494e6b2a6633409d330bdf639", null ],
+    [ "vmul", "de/dcb/vector_8qh.html#a610f42e24d4a5d98977791c30d96a2f8", null ],
     [ "YAW", "de/dcb/vector_8qh.html#aa70255a5968cc612e91c1aec32e41344", null ],
     [ "yinvert", "de/dcb/vector_8qh.html#a96d9291d4b314f99be2ca91347a70577", null ],
     [ "boxesoverlap", "de/dcb/vector_8qh.html#a3385b15af8ffd7f5c33d2fbb3a9eb237", null ],
@@ -21,6 +23,7 @@ var vector_8qh =
     [ "randompos", "de/dcb/vector_8qh.html#afa1e5c0be263a77e0c71292ab0a4dd74", null ],
     [ "reflect", "de/dcb/vector_8qh.html#ab167fa7c81f4d5f3092673b05f07c8a3", null ],
     [ "rotate", "de/dcb/vector_8qh.html#af51ffe2b6a299102846ea3cb80677406", null ],
+    [ "vec_epsilon", "de/dcb/vector_8qh.html#a49cc7ebcfeb37c05dbf47aed82b8c0a5", null ],
     [ "vec_reflect", "de/dcb/vector_8qh.html#ae07842a43fda046e42c04c0709a05774", null ],
     [ "vlen_maxnorm2d", "de/dcb/vector_8qh.html#a1b150f420429d9c4768f3c23e637fbe4", null ],
     [ "vlen_minnorm2d", "de/dcb/vector_8qh.html#a33d068763f2580642c8616327a6a567a", null ],
@@ -28,6 +31,8 @@ var vector_8qh =
     [ "_vec2", "de/dcb/vector_8qh.html#a7a13bd9ecbb74025e977f77185a7449d", null ],
     [ "_vec3", "de/dcb/vector_8qh.html#abe5699c7c17a0a7fb6aacdae9e6b1ef1", null ],
     [ "_vlen2", "de/dcb/vector_8qh.html#aca67feefb841ea2808381b207ea4cc42", null ],
+    [ "_vmul_a", "de/dcb/vector_8qh.html#a272232a6508520d459ceb2120b5de8b7", null ],
+    [ "_vmul_b", "de/dcb/vector_8qh.html#a2f4380ebbd5cf4a0f5e1e577aaa72909", null ],
     [ "_yinvert", "de/dcb/vector_8qh.html#abd8e65ab96a0f1779abeccc7054702f0", null ],
     [ "eX", "de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27", null ],
     [ "eY", "de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a", null ],
