@@ -592,7 +592,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a9fb1df18ea71e49ce5e98c2fc4232adf">SPRITERULE_SPECTATOR</a>:</div>
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;            <span class="keywordflow">if</span> (!(</div>
 <div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;                (autocvar_g_waypointsprite_itemstime == 1 &amp;&amp; t == <a class="code" href="../../db/d07/teams_8qh.html#a41d770fecb49af6ce941da2667000651">NUM_SPECTATOR</a> + 1)</div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;            ||  (autocvar_g_waypointsprite_itemstime == 2 &amp;&amp; (t == <a class="code" href="../../db/d07/teams_8qh.html#a41d770fecb49af6ce941da2667000651">NUM_SPECTATOR</a> + 1 || <a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>))</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;            ||  (autocvar_g_waypointsprite_itemstime == 2 &amp;&amp; (t == <a class="code" href="../../db/d07/teams_8qh.html#a41d770fecb49af6ce941da2667000651">NUM_SPECTATOR</a> + 1 || <a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a> || STAT(ITEMSTIME) == 2))</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;                ))</div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;            spriteimage = this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>;</div>
@@ -1387,7 +1387,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_4573854e5f122b3a76229eff451e1727.html">waypoints</a></li><li class="navelem"><a class="el" href="../../db/dc5/waypointsprites_8qc.html">waypointsprites.qc</a></li>
-    <li class="footer">Generated on Fri Jul 29 2016 23:29:44 for Xonotic by
+    <li class="footer">Generated on Sun Jul 31 2016 06:53:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
