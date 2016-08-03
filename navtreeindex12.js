@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"d1/dae/targettrigger_8qc_source.html":[2,0,1,14,11],
+"d1/daf/common_2impulses_2__mod_8inc.html":[2,0,1,4,0],
 "d1/daf/common_2impulses_2__mod_8inc_source.html":[2,0,1,4,0],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html":[1,0,146],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,146,21],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "d1/dec/classInputBox.html#a1cada7f613ee05baf72eac545644d9d7":[1,0,46,71],
 "d1/dec/classInputBox.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,46,16],
 "d1/dec/classInputBox.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,46,38],
-"d1/dec/classInputBox.html#a227c4f175e50a2979fb6a55aa2114a1b":[1,0,46,36],
-"d1/dec/classInputBox.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,46,73],
-"d1/dec/classInputBox.html#a26ec06a9191e41af49b584f7547d1145":[1,0,46,55]
+"d1/dec/classInputBox.html#a227c4f175e50a2979fb6a55aa2114a1b":[1,0,46,36]
 };

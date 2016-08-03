@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"da/d11/arc_8qc.html#a23c29954636de13b3c3873f81dcd5b44":[2,0,1,16,0,2,18],
+"da/d11/arc_8qc.html#a2d5148d7d8703c7ef1a28e6ac7a89779":[2,0,1,16,0,2,13],
 "da/d11/arc_8qc.html#a316f86636ff070ffbd433b22f23dc8d9":[2,0,1,16,0,2,22],
 "da/d11/arc_8qc.html#a342fcaf8e11a844b1aff8d8204910f06":[2,0,1,16,0,2,16],
 "da/d11/arc_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "da/d2d/common_2monsters_2__mod_8qh.html":[2,0,1,8,2],
 "da/d2d/common_2monsters_2__mod_8qh_source.html":[2,0,1,8,2],
 "da/d30/file_8qh.html":[2,0,4,18],
-"da/d30/file_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff":[2,0,4,18,0],
-"da/d30/file_8qh_source.html":[2,0,4,18],
-"da/d34/common_2effects_2qc_2all_8qc.html":[2,0,1,2,0,3]
+"da/d30/file_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff":[2,0,4,18,0]
 };

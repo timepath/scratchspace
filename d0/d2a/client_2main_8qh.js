@@ -1,14 +1,16 @@
 var client_2main_8qh =
 [
+    [ "getcommandkey", "d0/d2a/client_2main_8qh.html#a537681a91350ee056f096009250154e1", null ],
+    [ "getcommandkey_forcename", "d0/d2a/client_2main_8qh.html#a2995001977225984118cc464fb5b9b6e", null ],
     [ "IS_DECREASING", "d0/d2a/client_2main_8qh.html#a1310f6ab1eb47643385baab1b3227603", null ],
     [ "IS_INCREASING", "d0/d2a/client_2main_8qh.html#ae215b84a51e681283b184a26daf59073", null ],
+    [ "_getcommandkey", "d0/d2a/client_2main_8qh.html#af30af57d5ec5027ab9eda0adf24fa567", null ],
     [ "centerprint_generic", "d0/d2a/client_2main_8qh.html#a1b0f2a3ff628c84741514ccd9c7b2334", null ],
     [ "centerprint_hud", "d0/d2a/client_2main_8qh.html#a3af1bb857e7f0803f57f1982580927ff", null ],
     [ "centerprint_kill", "d0/d2a/client_2main_8qh.html#a2543f5a51779d068a7f5248f4f7c36a2", null ],
     [ "draw_cursor", "d0/d2a/client_2main_8qh.html#a65d6b464164464ee7f99ceb0e0c16813", null ],
     [ "draw_cursor_normal", "d0/d2a/client_2main_8qh.html#a17432988ef7a28b058fec9318b29fea3", null ],
     [ "Fog_Force", "d0/d2a/client_2main_8qh.html#a0ea74b0011b3f41a4e0f744608765323", null ],
-    [ "getcommandkey", "d0/d2a/client_2main_8qh.html#acae6eac5dd85fe99004374e0f21a382d", null ],
     [ "GetSpeedUnit", "d0/d2a/client_2main_8qh.html#a3a4d75b1666fc0c35a999aae66cf6fd2", null ],
     [ "GetSpeedUnitFactor", "d0/d2a/client_2main_8qh.html#affd4aa7fbce73d395d146b6e164eb8e6", null ],
     [ "LoadMenuSkinValues", "d0/d2a/client_2main_8qh.html#a626fa4f891c177f48176172aac58dc39", null ],

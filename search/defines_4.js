@@ -39,7 +39,6 @@ var searchData=
   ['drawcolorcodedstring',['drawcolorcodedstring',['../d8/db6/client_2miscfunctions_8qh.html#a22125970e16e7facfa7c2cfb3230ec5b',1,'miscfunctions.qh']]],
   ['drawcolorcodedstring2',['drawcolorcodedstring2',['../d8/db6/client_2miscfunctions_8qh.html#a2c079a439463fb66f8809164795726af',1,'miscfunctions.qh']]],
   ['drawfill',['drawfill',['../d8/db6/client_2miscfunctions_8qh.html#ab3d2570ee654946bb294b86da626d8d8',1,'miscfunctions.qh']]],
-  ['drawinfomessage',['drawInfoMessage',['../df/d21/infomessages_8qc.html#a8273c847de74f796939acc0aeb6d2f3d',1,'infomessages.qc']]],
   ['drawpic',['drawpic',['../d8/db6/client_2miscfunctions_8qh.html#a638bfeb5be42726e1571f3434d2c20a9',1,'miscfunctions.qh']]],
   ['drawpic_5faspect',['drawpic_aspect',['../d8/db6/client_2miscfunctions_8qh.html#a96e5cc3afdf03c23d8928b97017296f9',1,'miscfunctions.qh']]],
   ['drawpic_5faspect_5fskin',['drawpic_aspect_skin',['../d8/db6/client_2miscfunctions_8qh.html#a5f87d96201a18d416dd0271dccb8ef0f',1,'miscfunctions.qh']]],

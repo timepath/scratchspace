@@ -1,5 +1,7 @@
 var NAVTREEINDEX91 =
 {
+"db/d7f/effectinfo_8inc.html#a88d76b4bdf7dd9f64cfe406933663e3c":[2,0,1,2,7,19],
+"db/d7f/effectinfo_8inc.html#a88ee9904a4096bf50e543feda63e8d3a":[2,0,1,2,7,263],
 "db/d7f/effectinfo_8inc.html#a898331feeba88a85df5eb5de56063447":[2,0,1,2,7,254],
 "db/d7f/effectinfo_8inc.html#a89ab84a91dbe083681ed4091e36b1551":[2,0,1,2,7,26],
 "db/d7f/effectinfo_8inc.html#a8a2f7812deb6dc7398896e6338b526ef":[2,0,1,2,7,371],
@@ -247,7 +249,5 @@ var NAVTREEINDEX91 =
 "db/d91/gamestart_8qc_source.html":[2,0,1,13,3,6],
 "db/d91/t__quake_8qc.html":[2,0,6,70],
 "db/d91/t__quake_8qc.html#a16568fe161d77fbcc3a4c5743c760f1f":[2,0,6,70,8],
-"db/d91/t__quake_8qc.html#a1e3cbf1063d168b51fc7277e1fb68e98":[2,0,6,70,3],
-"db/d91/t__quake_8qc.html#a2cc0ce2e51e20d352549f96ce7c98dad":[2,0,6,70,4],
-"db/d91/t__quake_8qc.html#a412a74ac84bc203944d5e566d8f49737":[2,0,6,70,0]
+"db/d91/t__quake_8qc.html#a1e3cbf1063d168b51fc7277e1fb68e98":[2,0,6,70,3]
 };

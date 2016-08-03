@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"d1/d70/classXonoticSoundList.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,224,70],
+"d1/d70/classXonoticSoundList.html#aaaeedf953b133eda5657f8cb5feab2c7":[1,0,224,74],
 "d1/d70/classXonoticSoundList.html#aaf7eda70074417cfc7a32b8e34b5f1ad":[1,0,224,46],
 "d1/d70/classXonoticSoundList.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,224,72],
 "d1/d70/classXonoticSoundList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,224,76],
@@ -247,7 +249,5 @@ var NAVTREEINDEX10 =
 "d1/d8e/dialog__multiplayer__media_8qc.html":[2,0,5,4,98],
 "d1/d8e/dialog__multiplayer__media_8qc.html#a048e9d55578bbd55fa3acb96f76ad670":[2,0,5,4,98,0],
 "d1/d8e/dialog__multiplayer__media_8qc.html#a9b6759dd6c363a3e76d2c6914d4e0fd5":[2,0,5,4,98,1],
-"d1/d8e/dialog__multiplayer__media_8qc_source.html":[2,0,5,4,98],
-"d1/d91/t__quake3_8qc.html":[2,0,6,72],
-"d1/d91/t__quake3_8qc.html#a0003d89112d6b1cb3bd3de8a5ace7bcc":[2,0,6,72,29]
+"d1/d8e/dialog__multiplayer__media_8qc_source.html":[2,0,5,4,98]
 };

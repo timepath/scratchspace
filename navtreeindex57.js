@@ -1,5 +1,7 @@
 var NAVTREEINDEX57 =
 {
+"d7/d44/cl__impulse_8qc.html#aa271b70e28da4ad4faf985f395950067":[2,0,6,19,45],
+"d7/d44/cl__impulse_8qc.html#aa49d1689e7a0abe0dd80fb31d1018e98":[2,0,6,19,12],
 "d7/d44/cl__impulse_8qc.html#aa6231648b1003ba58a41bf5f49ba31fa":[2,0,6,19,42],
 "d7/d44/cl__impulse_8qc.html#aa7f7d348b09f5544a8da288724253a27":[2,0,6,19,30],
 "d7/d44/cl__impulse_8qc.html#aa8f2c94f2ab3d46744b66b0c0e2c159d":[2,0,6,19,14],
@@ -247,7 +249,5 @@ var NAVTREEINDEX57 =
 "d7/d6a/common_2physics_2__mod_8inc_source.html":[2,0,1,11,1],
 "d7/d6e/mutators_2mutator_2midair_2module_8inc.html":[2,0,1,9,0,13,3],
 "d7/d6e/mutators_2mutator_2midair_2module_8inc_source.html":[2,0,1,9,0,13,3],
-"d7/d71/common_2effects_2qc_2all_8inc.html":[2,0,1,2,0,2],
-"d7/d71/common_2effects_2qc_2all_8inc_source.html":[2,0,1,2,0,2],
-"d7/d71/lib_2warpzone_2common_8qh.html":[2,0,4,2,7]
+"d7/d71/common_2effects_2qc_2all_8inc.html":[2,0,1,2,0,2]
 };

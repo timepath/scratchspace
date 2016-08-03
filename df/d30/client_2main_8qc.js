@@ -1,6 +1,7 @@
 var client_2main_8qc =
 [
     [ "DP_CSQC_ENTITY_REMOVE_IS_B0RKED", "df/d30/client_2main_8qc.html#a829c94418af5c1e25d9beef673e25f94", null ],
+    [ "_getcommandkey", "df/d30/client_2main_8qc.html#a0698c589ddb7333f4485bee9dae8bd16", null ],
     [ "ConsoleCommand_macro_init", "df/d30/client_2main_8qc.html#ab2acfe6a73bd0d158e3e9a62b9185725", null ],
     [ "CSQC_Ent_Remove", "df/d30/client_2main_8qc.html#a9b635841c31e627a3854f61176533152", null ],
     [ "CSQC_Ent_Update", "df/d30/client_2main_8qc.html#a46d8c3e096c855bf3690956e9ba1e862", null ],
@@ -16,7 +17,6 @@ var client_2main_8qc =
     [ "Ent_RemovePlayerScore", "df/d30/client_2main_8qc.html#a55741734b1484ff2d8f3d76de5e7dc2f", null ],
     [ "Fog_Force", "df/d30/client_2main_8qc.html#a0ea74b0011b3f41a4e0f744608765323", null ],
     [ "Gamemode_Init", "df/d30/client_2main_8qc.html#a1074345dcdd4fb944413bf5ac575fd0b", null ],
-    [ "getcommandkey", "df/d30/client_2main_8qc.html#acae6eac5dd85fe99004374e0f21a382d", null ],
     [ "GetSpeedUnit", "df/d30/client_2main_8qc.html#a3a4d75b1666fc0c35a999aae66cf6fd2", null ],
     [ "GetSpeedUnitFactor", "df/d30/client_2main_8qc.html#affd4aa7fbce73d395d146b6e164eb8e6", null ],
     [ "LoadMenuSkinValues", "df/d30/client_2main_8qc.html#a626fa4f891c177f48176172aac58dc39", null ],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX83 =
 {
+"da/d94/classXonoticSettingsDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,219,32],
+"da/d94/classXonoticSettingsDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,219,10],
 "da/d94/classXonoticSettingsDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,219,38],
 "da/d94/classXonoticSettingsDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,219,43],
 "da/d94/classXonoticSettingsDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,219,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX83 =
 "da/d9c/classXonoticMonsterToolsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,191,82],
 "da/d9c/mutators_2mutator_2vampire_2module_8inc.html":[2,0,1,9,0,29,2],
 "da/d9c/mutators_2mutator_2vampire_2module_8inc_source.html":[2,0,1,9,0,29,2],
-"da/da6/flipflop_8qc.html":[2,0,1,13,3,5],
-"da/da6/flipflop_8qc_source.html":[2,0,1,13,3,5],
-"da/da9/classSpiderAttack.html":[1,0,105]
+"da/da6/flipflop_8qc.html":[2,0,1,13,3,5]
 };

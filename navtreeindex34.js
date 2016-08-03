@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"d4/d3f/classXonoticKeyBinder.html#a0d15443b7835903a119198ec83874330":[1,0,183,62],
+"d4/d3f/classXonoticKeyBinder.html#a1047817968d82f54687b5e2440af0eb8":[1,0,183,44],
 "d4/d3f/classXonoticKeyBinder.html#a10cf88734594fed24be93889407c0bda":[1,0,183,24],
 "d4/d3f/classXonoticKeyBinder.html#a113d1a91bed3f1f7bc3a24306c2c68e7":[1,0,183,19],
 "d4/d3f/classXonoticKeyBinder.html#a11a8209afcff1a9a74262609d1b92646":[1,0,183,68],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "d4/d55/classXonoticCreditsList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,137,6],
 "d4/d55/classXonoticCreditsList.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,137,62],
 "d4/d55/classXonoticCreditsList.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,137,64],
-"d4/d55/classXonoticCreditsList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,137,68],
-"d4/d55/classXonoticCreditsList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,137,58],
-"d4/d55/classXonoticCreditsList.html#ac6094922668d013ada3893854eec6b0f":[1,0,137,19]
+"d4/d55/classXonoticCreditsList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,137,68]
 };

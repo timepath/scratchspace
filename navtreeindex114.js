@@ -1,5 +1,7 @@
 var NAVTREEINDEX114 =
 {
+"de/d6e/playerstats_8qc_source.html":[2,0,1,36],
+"de/d73/common_2mutators_2mutator_2vampirehook_2__mod_8inc.html":[2,0,1,9,0,30,0],
 "de/d73/common_2mutators_2mutator_2vampirehook_2__mod_8inc_source.html":[2,0,1,9,0,30,0],
 "de/d75/server_2campaign_8qc.html":[2,0,6,13],
 "de/d75/server_2campaign_8qc.html#a0e12d1cd99d88cb61980ae77f1010fa6":[2,0,6,13,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX114 =
 "de/d8c/classWyvernAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,123,6],
 "de/d8c/classWyvernAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,123,0],
 "de/d8c/classWyvernAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,123,33],
-"de/d8c/classWyvernAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,123,24],
-"de/d8c/classWyvernAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,123,2],
-"de/d8c/classWyvernAttack.html#a8acb91e35e239c72604a1067304cc3b5":[1,0,123,25]
+"de/d8c/classWyvernAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,123,24]
 };

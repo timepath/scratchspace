@@ -1,5 +1,7 @@
 var NAVTREEINDEX113 =
 {
+"de/d5e/dpextensions_8qc.html#abfec60bf20550283738fb8d3885ddf40":[2,0,2,0,1,41],
+"de/d5e/dpextensions_8qc.html#ac07a07b070cf692f39460e8a120ead09":[2,0,2,0,1,232],
 "de/d5e/dpextensions_8qc.html#ac081d1d684cda2f5d9ce97a3cbad2683":[2,0,2,0,1,221],
 "de/d5e/dpextensions_8qc.html#ac0c53a14104082996d60e04e72d440c0":[2,0,2,0,1,117],
 "de/d5e/dpextensions_8qc.html#ac106beea5f3bc1394a9e4b53707745e8":[2,0,2,0,1,19],
@@ -247,7 +249,5 @@ var NAVTREEINDEX113 =
 "de/d6d/classLinkedListNode.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,55,1],
 "de/d6d/classLinkedListNode.html#ae94d5c367767bac43f3adac8278cb1c4":[1,0,55,4],
 "de/d6d/classLinkedListNode.html#afe74c3cb44780d928ff33194ccc0da1a":[1,0,55,2],
-"de/d6e/playerstats_8qc.html":[2,0,1,36],
-"de/d6e/playerstats_8qc_source.html":[2,0,1,36],
-"de/d73/common_2mutators_2mutator_2vampirehook_2__mod_8inc.html":[2,0,1,9,0,30,0]
+"de/d6e/playerstats_8qc.html":[2,0,1,36]
 };

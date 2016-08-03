@@ -55,6 +55,8 @@ var searchData=
   ['get_5fturretinfo',['get_turretinfo',['../db/d5a/common_2turrets_2all_8qh.html#a480cc7101d2edcf64993e80de5a8e4ac',1,'all.qh']]],
   ['getcefc',['getcefc',['../d3/dd0/self_8qh.html#a8cf690d1eb06e607e0380d5006d8e623',1,'self.qh']]],
   ['getclienterrorstring',['GetClientErrorString',['../d2/d06/server_2command_2common_8qh.html#a26c245e2f5023bf7fb274f14cde7ec74',1,'common.qh']]],
+  ['getcommandkey',['getcommandkey',['../d0/d2a/client_2main_8qh.html#a537681a91350ee056f096009250154e1',1,'main.qh']]],
+  ['getcommandkey_5fforcename',['getcommandkey_forcename',['../d0/d2a/client_2main_8qh.html#a2995001977225984118cc464fb5b9b6e',1,'main.qh']]],
   ['getgamedirinfo_5fdescription',['GETGAMEDIRINFO_DESCRIPTION',['../d8/de2/menudefs_8qc.html#ab295dce18e8cb1468dff7ef3efcd54c2',1,'menudefs.qc']]],
   ['getgamedirinfo_5fname',['GETGAMEDIRINFO_NAME',['../d8/de2/menudefs_8qc.html#a9982c0cc5bb6c6474ed590828dfa48b0',1,'menudefs.qc']]],
   ['getsendentity',['getSendEntity',['../d3/dd0/self_8qh.html#a05adda68b16fcfe48382fedfd2f2c56f',1,'self.qh']]],

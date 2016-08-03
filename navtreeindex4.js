@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"d0/d95/menudefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7":[2,0,2,4,13],
+"d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46":[2,0,2,4,19],
 "d0/d95/menudefs_8qh.html#a65e9886d74aaee76545e83dd09011727":[2,0,2,4,2],
 "d0/d95/menudefs_8qh.html#a6b5d9a1031ac2602e31df1ba551bfafe":[2,0,2,4,9],
 "d0/d95/menudefs_8qh.html#a7463baf5fb1b8c9bc859d5352d97313a":[2,0,2,4,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "d0/dc9/dialog__quit_8qc.html":[2,0,5,4,114],
 "d0/dc9/dialog__quit_8qc.html#a5b9e1c5a0514e7d4b73cb3f5991f5a99":[2,0,5,4,114,0],
 "d0/dc9/dialog__quit_8qc_source.html":[2,0,5,4,114],
-"d0/dca/rootdialog_8qc.html":[2,0,5,4,194],
-"d0/dca/rootdialog_8qc.html#a92ab662c8231e8e4ecdbb97d6f03de6f":[2,0,5,4,194,0],
-"d0/dca/rootdialog_8qc_source.html":[2,0,5,4,194]
+"d0/dca/rootdialog_8qc.html":[2,0,5,4,194]
 };

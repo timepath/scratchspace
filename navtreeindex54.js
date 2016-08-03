@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#a3cfc2871f14ae102b7b83eca463c8f7a":[2,0,6,2,6,42],
+"d6/ddd/server_2mutators_2events_8qh.html#a3df6d95c530e55136fdc89785b9b27fc":[2,0,6,2,6,39],
 "d6/ddd/server_2mutators_2events_8qh.html#a3e0687b69fd05a4e44a14e17f718fe9f":[2,0,6,2,6,56],
 "d6/ddd/server_2mutators_2events_8qh.html#a3e91679046d4b895f380d3d5fd05ad54":[2,0,6,2,6,149],
 "d6/ddd/server_2mutators_2events_8qh.html#a40415cfac1cdc020d1401084433c70e0":[2,0,6,2,6,124],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "d6/dea/crosshairpicker_8qc_source.html":[2,0,5,4,28],
 "d6/dee/train_8qh.html":[2,0,1,13,0,23],
 "d6/dee/train_8qh_source.html":[2,0,1,13,0,23],
-"d6/df6/p2mathlib_8qc.html":[2,0,4,37],
-"d6/df6/p2mathlib_8qc.html#a0c3e47f87f19ea29e5322d70c8470d2f":[2,0,4,37,5],
-"d6/df6/p2mathlib_8qc.html#a0cb59434f9c9da300b7612a00dbac6bd":[2,0,4,37,0]
+"d6/df6/p2mathlib_8qc.html":[2,0,4,37]
 };

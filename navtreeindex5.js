@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"d0/dca/rootdialog_8qc.html#a92ab662c8231e8e4ecdbb97d6f03de6f":[2,0,5,4,194,0],
+"d0/dca/rootdialog_8qc_source.html":[2,0,5,4,194],
 "d0/dcd/csqcprojectile_8qc.html":[2,0,6,4,6],
 "d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b":[2,0,6,4,6,3],
 "d0/dcd/csqcprojectile_8qc.html#a05912564a54c4a7e671157117742557e":[2,0,6,4,6,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX5 =
 "d1/d19/classButton.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,10,23],
 "d1/d19/classButton.html#a6813d8f5f29ba927022b34737e3dc22a":[1,0,10,13],
 "d1/d19/classButton.html#a694b7bae9c3b1c4ac503e040aad68f07":[1,0,10,28],
-"d1/d19/classButton.html#a6c1cc42796dfc8787fb58ce0945fb6ea":[1,0,10,14],
-"d1/d19/classButton.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,10,2],
-"d1/d19/classButton.html#a7642beed5a82948e21add31abf4a4b0a":[1,0,10,21]
+"d1/d19/classButton.html#a6c1cc42796dfc8787fb58ce0945fb6ea":[1,0,10,14]
 };
