@@ -494,28 +494,39 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d47/sv__physics_8qc_source.html#l00037">37</a> of file <a class="el" href="../../db/d47/sv__physics_8qc_source.html">sv_physics.qc</a>.</p>
 
-<p>References <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l01732">disableclientprediction</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00286">game_starttime</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00098">movetype</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00246">MOVETYPE_NONE</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00249">MOVETYPE_WALK</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00103">velocity</a>.</p>
+<p>References <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l01732">disableclientprediction</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00286">game_starttime</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d4/dd7/movetypes_8qh_source.html#l00015">move_movetype</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00246">MOVETYPE_NONE</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00249">MOVETYPE_WALK</a>, <a class="el" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00103">velocity</a>.</p>
 <div class="fragment"><div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(<span class="keyword">this</span>)) { <span class="keywordflow">return</span>; }</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">bool</span> allowed_to_move = (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= <a class="code" href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a>);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">if</span> (!allowed_to_move) {</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a062ef866b0738c655c1e19ce6fce5548">movetype</a> = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#a098f32c9fbbe2bb3189ae64d6879d3e1">disableclientprediction</a> = 2;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#a098f32c9fbbe2bb3189ae64d6879d3e1">disableclientprediction</a> == 2) {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a062ef866b0738c655c1e19ce6fce5548">movetype</a> == <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>) { this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a062ef866b0738c655c1e19ce6fce5548">movetype</a> = <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>; }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#abb1ac1b4eea6138162b84796904eb961">move_movetype</a> == <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>) { <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>); }</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#a098f32c9fbbe2bb3189ae64d6879d3e1">disableclientprediction</a> = 0;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    }</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a87a61c6894ded1456e2e4fee955bf7b1"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a></div><div class="ttdeci">float MOVETYPE_NONE</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00246">progsdefs.qc:246</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a31938f237dbe4b58beccf0af8ee3713f"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a></div><div class="ttdeci">float MOVETYPE_WALK</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00249">progsdefs.qc:249</a></div></div>
+<div class="ttc" id="movetypes_8qh_html_abb1ac1b4eea6138162b84796904eb961"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#abb1ac1b4eea6138162b84796904eb961">move_movetype</a></div><div class="ttdeci">float move_movetype</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dd7/movetypes_8qh_source.html#l00015">movetypes.qh:15</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_aa33d72fb2a85a0541437b8cc6cc5b8e8"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a></div><div class="ttdeci">float game_starttime</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00286">defs.qh:286</a></div></div>
 <div class="ttc" id="dpextensions_8qc_html_a098f32c9fbbe2bb3189ae64d6879d3e1"><div class="ttname"><a href="../../de/d5e/dpextensions_8qc.html#a098f32c9fbbe2bb3189ae64d6879d3e1">disableclientprediction</a></div><div class="ttdeci">float disableclientprediction</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/dpextensions_8qc_source.html#l01732">dpextensions.qc:1732</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a062ef866b0738c655c1e19ce6fce5548"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a062ef866b0738c655c1e19ce6fce5548">movetype</a></div><div class="ttdeci">float movetype</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00098">csprogsdefs.qc:98</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a714da6649d97bc92a86a76f1be278180"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a></div><div class="ttdeci">vector velocity</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00103">csprogsdefs.qc:103</a></div></div>
+<div class="ttc" id="movetypes_8qh_html_a8bf89be84cb481d218ff41140eacff78"><div class="ttname"><a href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a></div><div class="ttdeci">void set_movetype(entity this, int mt)</div></div>
 </div><!-- fragment -->
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d47/sv__physics_8qc_aa4d68982e5ca4141554c3510a02fa0b2_cgraph.svg" width="331" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a6fedf9253d02f5b700db55425ff16368"></a>
@@ -568,11 +579,11 @@ Functions</h2></td></tr>
 <div class="ttc" id="progsdefs_8qc_html_ac7155760e2c3ffcfabfb37cd74809825"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#ac7155760e2c3ffcfabfb37cd74809825">impulse</a></div><div class="ttdeci">float impulse</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00158">progsdefs.qc:158</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d47/sv__physics_8qc_a6fedf9253d02f5b700db55425ff16368_cgraph.svg" width="256" height="51"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -586,7 +597,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_eafb92770fbc727220bdaa0b1292f771.html">ecs</a></li><li class="navelem"><a class="el" href="../../dir_a0827c396b757bc3d0a72db5249edcce.html">systems</a></li><li class="navelem"><a class="el" href="../../db/d47/sv__physics_8qc.html">sv_physics.qc</a></li>
-    <li class="footer">Generated on Wed Aug 3 2016 00:48:54 for Xonotic by
+    <li class="footer">Generated on Wed Aug 3 2016 01:52:02 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
