@@ -1,5 +1,6 @@
 var NAVTREEINDEX116 =
 {
+"de/dcb/classMageSpike.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,61,7],
 "de/dcb/classMageSpike.html#a6cf7fae6c0116c7d59414a7b1ab474e5":[1,0,61,23],
 "de/dcb/classMageSpike.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,61,21],
 "de/dcb/classMageSpike.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,61,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX116 =
 "de/dfa/common_2weapons_2all_8qc.html#a6a9b42410f2d888f52a11253a2165203":[2,0,1,16,4,11],
 "de/dfa/common_2weapons_2all_8qc.html#a6e455edb328362e8ea7fc75757394379":[2,0,1,16,4,19],
 "de/dfa/common_2weapons_2all_8qc.html#a71ed1489c649f0e0d3e068e7e32aed35":[2,0,1,16,4,21],
-"de/dfa/common_2weapons_2all_8qc.html#a7444bff240ad3f518a5cc595e9bc8d15":[2,0,1,16,4,16],
-"de/dfa/common_2weapons_2all_8qc.html#a79fb53e58c432f7bb94bc2e881f4c2b6":[2,0,1,16,4,22]
+"de/dfa/common_2weapons_2all_8qc.html#a7444bff240ad3f518a5cc595e9bc8d15":[2,0,1,16,4,16]
 };

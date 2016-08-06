@@ -337,6 +337,7 @@ var searchData=
   ['xonoticserverlist_5fsetselected',['XonoticServerList_setSelected',['../d6/d74/serverlist_8qc.html#a15ded02541ac3c3ed244143f4199adab',1,'serverlist.qc']]],
   ['xonoticserverlist_5fsetsortorder',['XonoticServerList_setSortOrder',['../d6/d74/serverlist_8qc.html#a86cacb78317f07efc652f66a4f3770fc',1,'serverlist.qc']]],
   ['xonoticserverlisttab_5ffill',['XonoticServerListTab_fill',['../dd/d94/dialog__multiplayer__join_8qc.html#aedce3aeaa9449e5837b1fd8627adc4ac',1,'dialog_multiplayer_join.qc']]],
+  ['xonoticserverlisttab_5frefresh',['XonoticServerListTab_refresh',['../dd/d94/dialog__multiplayer__join_8qc.html#a9269aa2db575bac66efdb6bc6241b23b',1,'dialog_multiplayer_join.qc']]],
   ['xonoticsettingsdialog_5ffill',['XonoticSettingsDialog_fill',['../d0/d13/dialog__settings_8qc.html#af0628c346d0c1deec001982264668e1f',1,'dialog_settings.qc']]],
   ['xonoticsingleplayerdialog_5ffill',['XonoticSingleplayerDialog_fill',['../da/d41/dialog__singleplayer_8qc.html#a845e97e974f104e8b4edcb06a3e8aa73',1,'dialog_singleplayer.qc']]],
   ['xonoticskinlist_5fconfigurexonoticskinlist',['XonoticSkinList_configureXonoticSkinList',['../d9/da1/skinlist_8qc.html#a7134d4c095a929ad1b00b6a01c329fff',1,'skinlist.qc']]],

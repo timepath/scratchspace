@@ -35,6 +35,7 @@ var NAVTREEINDEX107 =
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,157,81],
 "dd/d94/dialog__multiplayer__join_8qc.html":[2,0,5,4,94],
 "dd/d94/dialog__multiplayer__join_8qc.html#a23af548c6170f613544cf2ccd36bbdc4":[2,0,5,4,94,0],
+"dd/d94/dialog__multiplayer__join_8qc.html#a9269aa2db575bac66efdb6bc6241b23b":[2,0,5,4,94,2],
 "dd/d94/dialog__multiplayer__join_8qc.html#aedce3aeaa9449e5837b1fd8627adc4ac":[2,0,5,4,94,1],
 "dd/d94/dialog__multiplayer__join_8qc_source.html":[2,0,5,4,94],
 "dd/d95/dialog__credits_8qh.html":[2,0,5,4,41],
@@ -248,6 +249,5 @@ var NAVTREEINDEX107 =
 "dd/da6/classXonoticCreditsDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,136,59],
 "dd/da6/classXonoticCreditsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,136,64],
 "dd/da6/classXonoticCreditsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,136,63],
-"dd/da6/classXonoticCreditsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,136,65],
-"dd/da6/classXonoticCreditsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,136,4]
+"dd/da6/classXonoticCreditsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,136,65]
 };

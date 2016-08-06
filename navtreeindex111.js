@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"de/d3a/classXonoticCrosshairPreview.html#ae5db69900d796c8efde60c027387eee8":[1,0,139,4],
 "de/d3a/classXonoticCrosshairPreview.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,139,14],
 "de/d3a/classXonoticCrosshairPreview.html#afc9428d371ed63dd0316db5558e81d30":[1,0,139,26],
 "de/d3a/classXonoticCrosshairPreview.html#afdb0a90685f527da57604563129b3803":[1,0,139,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "de/d57/walk_8qc_source.html":[2,0,1,11,0,8],
 "de/d58/throwing_8qh.html":[2,0,6,4,15],
 "de/d58/throwing_8qh.html#a2196570aa70408de6136edaf1dd3066d":[2,0,6,4,15,4],
-"de/d58/throwing_8qh.html#a41af2888d1c8d83398fc0b007b8f2b25":[2,0,6,4,15,5],
-"de/d58/throwing_8qh.html#a4f3e2059bf4df2dedf5cce1c3e2350fa":[2,0,6,4,15,1]
+"de/d58/throwing_8qh.html#a41af2888d1c8d83398fc0b007b8f2b25":[2,0,6,4,15,5]
 };

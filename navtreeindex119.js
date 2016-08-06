@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"df/d44/dialog__settings__video_8qh_source.html":[2,0,5,4,155],
 "df/d49/classSound.html":[1,0,102],
 "df/d49/classSound.html#a3ed2cad33866839887c319ee5c10dd67":[1,0,102,0],
 "df/d49/classSound.html#a62a0dfe148f6ebd2ecf59f872dfec298":[1,0,102,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "df/d78/classPhaserTurretAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,78,16],
 "df/d78/classPhaserTurretAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,78,29],
 "df/d78/classPhaserTurretAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,78,14],
-"df/d78/classPhaserTurretAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,78,18],
-"df/d78/classPhaserTurretAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,78,9]
+"df/d78/classPhaserTurretAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,78,18]
 };

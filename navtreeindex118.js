@@ -1,5 +1,6 @@
 var NAVTREEINDEX118 =
 {
+"df/d26/classXonoticGameSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,154,47],
 "df/d26/classXonoticGameSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,154,56],
 "df/d26/classXonoticGameSettingsTab.html#ad2bbf58768380843ac337880b629bb17":[1,0,154,86],
 "df/d26/classXonoticGameSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,154,72],
@@ -248,6 +249,5 @@ var NAVTREEINDEX118 =
 "df/d42/vaporizer_8qc.html#ade59b6be72d74beb2c7a1b563156e396":[2,0,1,16,0,20,2],
 "df/d42/vaporizer_8qc_source.html":[2,0,1,16,0,20],
 "df/d44/dialog__settings__video_8qh.html":[2,0,5,4,155],
-"df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,155,1],
-"df/d44/dialog__settings__video_8qh_source.html":[2,0,5,4,155]
+"df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,155,1]
 };

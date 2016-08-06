@@ -1,5 +1,6 @@
 var NAVTREEINDEX117 =
 {
+"de/dfa/common_2weapons_2all_8qc.html#a79fb53e58c432f7bb94bc2e881f4c2b6":[2,0,1,16,4,22],
 "de/dfa/common_2weapons_2all_8qc.html#a7e417e677b59a2ee9a37169a615c5e42":[2,0,1,16,4,24],
 "de/dfa/common_2weapons_2all_8qc.html#a908d57b826ca581e66255d228e1a7666":[2,0,1,16,4,6],
 "de/dfa/common_2weapons_2all_8qc.html#aa2f60df3d2c42afc5a315bca65cf4fe3":[2,0,1,16,4,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX117 =
 "df/d26/classXonoticGameSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,154,28],
 "df/d26/classXonoticGameSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,154,84],
 "df/d26/classXonoticGameSettingsTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,154,42],
-"df/d26/classXonoticGameSettingsTab.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,154,74],
-"df/d26/classXonoticGameSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,154,47]
+"df/d26/classXonoticGameSettingsTab.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,154,74]
 };
