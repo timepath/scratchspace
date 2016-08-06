@@ -361,7 +361,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;</div>
 <div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;                <span class="keywordflow">default</span>:</div>
 <div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;                    i = argc;</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;                    <span class="keyword">remove</span>(<a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>);</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;                    <span class="keyword">delete</span>(<a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>);</div>
 <div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;                    <a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;                    <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;            }</div>
@@ -435,7 +435,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;defer 1 \&quot;sv_cmd radarmap --flags &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>.count), <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot; --res &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>.size.x), <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>.size.y), <span class="stringliteral">&quot; --sharpen &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>.ltime), <span class="stringliteral">&quot; --qual &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>.size.z)), <span class="stringliteral">&quot;\&quot;\n&quot;</span>));</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <a class="code" href="../../d7/d97/g__world_8qh.html#af10c6acabd38f4b2b5eb6298e32a9b64">GotoNextMap</a>(0);</div>
 <div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    }</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keyword">remove</span>(<a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keyword">delete</span>(<a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a>);</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
@@ -528,7 +528,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a> &lt; 0)</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        {</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Error writing &quot;</span>, this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>, <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            <a class="code" href="../../d4/d3c/radarmap_8qh.html#af70656a1bf350ce9fac673773ba9126c">radarmapper</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        }</div>
@@ -1393,7 +1393,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d9/dfb/radarmap_8qc.html">radarmap.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:07:00 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:19 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

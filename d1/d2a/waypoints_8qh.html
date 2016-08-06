@@ -1161,7 +1161,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5">waypoint_schedulerelink</a>(e.wp30);</div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5">waypoint_schedulerelink</a>(e.wp31);</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    <span class="comment">// and now remove the spawnfunc_waypoint</span></div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;}</div>
 <div class="ttc" id="waypoints_8qc_html_a7b401ce3982d2ff32e2581b69ce746b5"><div class="ttname"><a href="../../d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5">waypoint_schedulerelink</a></div><div class="ttdeci">void waypoint_schedulerelink(entity wp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dc4/waypoints_8qc_source.html#l00260">waypoints.qc:260</a></div></div>
 </div><!-- fragment -->
@@ -1206,7 +1206,7 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;{</div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <span class="keyword">true</span>,</div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    {</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        <span class="keyword">remove</span>(it);</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        <span class="keyword">delete</span>(it);</div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    });</div>
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;}</div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00157">intrusivelist.qh:157</a></div></div>
@@ -1591,7 +1591,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordflow">if</span>(!(f &amp; <a class="code" href="../../d1/d2a/waypoints_8qh.html#aa1fb4917cec6ee1ff962de8af430f46d">WAYPOINTFLAG_GENERATED</a>))</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            {</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Killed a waypoint that was stuck in solid at &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(w.origin), <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <span class="keyword">remove</span>(w);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                <span class="keyword">delete</span>(w);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            }</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;            <span class="keywordflow">else</span></div>
@@ -2413,7 +2413,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d2a/waypoints_8qh_source.html#l00022">22</a> of file <a class="el" href="../../d1/d2a/waypoints_8qh_source.html">waypoints.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00432">vehicles_clearreturn()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00283">vehicles_gib_explode()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00450">vehicles_return()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00471">vehicles_showwp()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00433">vehicles_clearreturn()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00284">vehicles_gib_explode()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00451">vehicles_return()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00472">vehicles_showwp()</a>.</p>
 
 </div>
 </div>
@@ -3419,7 +3419,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../d1/d2a/waypoints_8qh.html">waypoints.qh</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:07:00 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:19 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

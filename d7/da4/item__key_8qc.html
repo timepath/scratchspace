@@ -476,7 +476,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <span class="comment">// reject this entity if more than one key was set!</span></div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>&gt;0 &amp;&amp; (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a> &amp; (this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>-1)) != 0) {</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;item_key.itemkeys must contain only 1 bit set specifying the key it represents!&quot;</span>);</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    }</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
@@ -518,7 +518,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;</div>
 <div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a> == <span class="stringliteral">&quot;&quot;</span>) {</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;item_key doesn&#39;t have a default name for this key and a custom one was not specified!&quot;</span>);</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;            <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;        }</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordflow">break</span>;</div>
@@ -533,7 +533,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        _model = <span class="stringliteral">&quot;models/keys/key.md3&quot;</span>; <span class="comment">// FIXME: replace it by a keycard model!</span></div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    } <span class="keywordflow">else</span> <span class="keywordflow">if</span> (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> == <span class="stringliteral">&quot;&quot;</span>) {</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;item_key doesn&#39;t have a default model for this key and a custom one was not specified!&quot;</span>);</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    }</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;</div>
@@ -653,7 +653,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d7/da4/item__key_8qc.html">item_key.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:07:01 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:20 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

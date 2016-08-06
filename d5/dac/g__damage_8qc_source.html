@@ -610,7 +610,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;{</div>
 <div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;    <span class="keywordflow">if</span>(!STAT(FROZEN, this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>) || this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.iceblock != <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;    {</div>
-<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;        <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;    }</div>
 <div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    setorigin(<span class="keyword">this</span>, this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.origin - <span class="stringliteral">&#39;0 0 16&#39;</span>);</div>
@@ -676,7 +676,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;</div>
 <div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;    <span class="comment">// remove the ice block</span></div>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;    <span class="keywordflow">if</span>(targ.iceblock)</div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        <span class="keyword">remove</span>(targ.iceblock);</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        <span class="keyword">delete</span>(targ.iceblock);</div>
 <div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    targ.iceblock = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;}</div>
 <div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;</div>
@@ -1358,14 +1358,14 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="line"><a name="l01251"></a><span class="lineno"> 1251</span>&#160;    <span class="comment">// for players, this is done in the regular loop</span></div>
 <div class="line"><a name="l01252"></a><span class="lineno"> 1252</span>&#160;    <span class="keywordflow">if</span>(wasfreed(this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>))</div>
 <div class="line"><a name="l01253"></a><span class="lineno"> 1253</span>&#160;    {</div>
-<div class="line"><a name="l01254"></a><span class="lineno"> 1254</span>&#160;        <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l01254"></a><span class="lineno"> 1254</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l01255"></a><span class="lineno"> 1255</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l01256"></a><span class="lineno"> 1256</span>&#160;    }</div>
 <div class="line"><a name="l01257"></a><span class="lineno"> 1257</span>&#160;    <a class="code" href="../../d5/dac/g__damage_8qc.html#afc5e9270d0757dc47de743b6bd4e33dc">Fire_ApplyEffect</a>(this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>);</div>
 <div class="line"><a name="l01258"></a><span class="lineno"> 1258</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d5/dac/g__damage_8qc.html#a8203a172d47f7017f4e4be49ed0cddb8">Fire_IsBurning</a>(this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>))</div>
 <div class="line"><a name="l01259"></a><span class="lineno"> 1259</span>&#160;    {</div>
 <div class="line"><a name="l01260"></a><span class="lineno"> 1260</span>&#160;        this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.fire_burner = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l01261"></a><span class="lineno"> 1261</span>&#160;        <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l01261"></a><span class="lineno"> 1261</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l01262"></a><span class="lineno"> 1262</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l01263"></a><span class="lineno"> 1263</span>&#160;    }</div>
 <div class="line"><a name="l01264"></a><span class="lineno"> 1264</span>&#160;    <a class="code" href="../../d5/dac/g__damage_8qc.html#abd4b4c82626ed46a05b72420db7257a1">Fire_ApplyDamage</a>(this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>);</div>
@@ -1530,7 +1530,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="ttc" id="progsdefs_8qc_html_a76cbf2692b28fb941eb2cf4b1a9bc3c5"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a76cbf2692b28fb941eb2cf4b1a9bc3c5">DEAD_NO</a></div><div class="ttdeci">float DEAD_NO</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00274">progsdefs.qc:274</a></div></div>
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="g__damage_8qc_html_abd4b4c82626ed46a05b72420db7257a1"><div class="ttname"><a href="../../d5/dac/g__damage_8qc.html#abd4b4c82626ed46a05b72420db7257a1">Fire_ApplyDamage</a></div><div class="ttdeci">void Fire_ApplyDamage(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l01193">g_damage.qc:1193</a></div></div>
-<div class="ttc" id="sv__vehicles_8qc_html_a42aece77fb15332fccf65dc5e1c1f8b1"><div class="ttname"><a href="../../da/d10/sv__vehicles_8qc.html#a42aece77fb15332fccf65dc5e1c1f8b1">vehicles_exit</a></div><div class="ttdeci">void vehicles_exit(entity vehic, bool eject)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/sv__vehicles_8qc_source.html#l00761">sv_vehicles.qc:761</a></div></div>
+<div class="ttc" id="sv__vehicles_8qc_html_a42aece77fb15332fccf65dc5e1c1f8b1"><div class="ttname"><a href="../../da/d10/sv__vehicles_8qc.html#a42aece77fb15332fccf65dc5e1c1f8b1">vehicles_exit</a></div><div class="ttdeci">void vehicles_exit(entity vehic, bool eject)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d10/sv__vehicles_8qc_source.html#l00762">sv_vehicles.qc:762</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_a7e750772aafa38fe4dada534e30b2ce6"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#a7e750772aafa38fe4dada534e30b2ce6">MIN_DAMAGEEXTRARADIUS</a></div><div class="ttdeci">const float MIN_DAMAGEEXTRARADIUS</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00096">defs.qh:96</a></div></div>
 <div class="ttc" id="scores_8qh_html"><div class="ttname"><a href="../../d3/dcd/scores_8qh.html">scores.qh</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a83f4d3f317a80e82e6b16ea61ea5efc3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a></div><div class="ttdeci">float sqrt(float f)</div></div>
@@ -1569,7 +1569,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/dac/g__damage_8qc.html">g_damage.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:50 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:09 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

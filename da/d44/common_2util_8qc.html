@@ -893,7 +893,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(it.netname, it.message);</div>
 <div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(it.netname);</div>
 <div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(it.message);</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            <span class="keyword">remove</span>(it);</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            <span class="keyword">delete</span>(it);</div>
 <div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;            ++j;</div>
 <div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;        }</div>
 <div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        <span class="keywordflow">else</span></div>
@@ -907,7 +907,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;        <span class="keywordflow">if</span>(cvar_type(e.netname))</div>
 <div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;        {</div>
 <div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(e.netname, e.message);</div>
-<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;            <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;            <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;            ++j;</div>
 <div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;        }</div>
 <div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;        <span class="keywordflow">else</span></div>
@@ -3157,7 +3157,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d3/dd0/self_8qh_source.html#l00090">vector</a>.</p>
 
-<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00616">vehicles_damage()</a>.</p>
+<p>Referenced by <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l00617">vehicles_damage()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> v = ((ent.absmin + ent.absmax) * 0.5);</div>
@@ -4516,7 +4516,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../da/d44/common_2util_8qc.html">util.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:55 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:14 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

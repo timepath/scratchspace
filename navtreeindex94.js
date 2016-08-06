@@ -1,5 +1,13 @@
 var NAVTREEINDEX94 =
 {
+"db/dc8/cl__controlpoint_8qc.html#a9609e7148b8b0f74528c01c5393d176a":[2,0,1,3,0,1,2,1],
+"db/dc8/cl__controlpoint_8qc.html#aaa7f81056bee0ea2f368b8b5eb79b0a0":[2,0,1,3,0,1,2,14],
+"db/dc8/cl__controlpoint_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b":[2,0,1,3,0,1,2,5],
+"db/dc8/cl__controlpoint_8qc.html#ab45736fb36b0b5641315be92b9747beb":[2,0,1,3,0,1,2,12],
+"db/dc8/cl__controlpoint_8qc.html#ab90f225bea84a591127d0c66257cf3e9":[2,0,1,3,0,1,2,0],
+"db/dc8/cl__controlpoint_8qc.html#ad43c3812e6d13e0518d9f8b8f463ffcf":[2,0,1,3,0,1,2,7],
+"db/dc8/cl__controlpoint_8qc.html#ae8da69f90cbd357d76d977b2fd3fb2af":[2,0,1,3,0,1,2,6],
+"db/dc8/cl__controlpoint_8qc.html#af89c4cb9409de9851068c36f8e27eae8":[2,0,1,3,0,1,2,2],
 "db/dc8/cl__controlpoint_8qc.html#affb5aa5736b5506a83143017f811ffcb":[2,0,1,3,0,1,2,9],
 "db/dc8/cl__controlpoint_8qc_source.html":[2,0,1,3,0,1,2],
 "db/dc9/xonotic_2listbox_8qc.html":[2,0,5,4,176],
@@ -241,13 +249,5 @@ var NAVTREEINDEX94 =
 "db/de2/classXonoticScreenshotViewerDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,214,71],
 "db/de2/classXonoticScreenshotViewerDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,214,7],
 "db/de2/classXonoticScreenshotViewerDialog.html#a74f893912c6d360e0f978930ab36e54b":[1,0,214,22],
-"db/de2/classXonoticScreenshotViewerDialog.html#a75ed632b863011c76005b529a2ea5c88":[1,0,214,74],
-"db/de2/classXonoticScreenshotViewerDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,214,59],
-"db/de2/classXonoticScreenshotViewerDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,214,14],
-"db/de2/classXonoticScreenshotViewerDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,214,90],
-"db/de2/classXonoticScreenshotViewerDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,214,78],
-"db/de2/classXonoticScreenshotViewerDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,214,77],
-"db/de2/classXonoticScreenshotViewerDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,214,42],
-"db/de2/classXonoticScreenshotViewerDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,214,35],
-"db/de2/classXonoticScreenshotViewerDialog.html#a83d451f5a956b00086480097f3ee061b":[1,0,214,88]
+"db/de2/classXonoticScreenshotViewerDialog.html#a75ed632b863011c76005b529a2ea5c88":[1,0,214,74]
 };

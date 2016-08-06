@@ -1255,7 +1255,7 @@ $(document).ready(function(){initNavTree('d2/de9/havocbot_8qc_source.html','../.
 <div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;                {</div>
 <div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;                    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Warning: can&#39;t walk to the personal waypoint located at &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(this.<a class="code" href="../../d8/d39/havocbot_8qh.html#a37a6f4cc58e1b06440022f0c80b8bef9">havocbot_personal_waypoint</a>.origin),<span class="stringliteral">&quot;\n&quot;</span>);</div>
 <div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;                    this.<a class="code" href="../../d1/da9/bot_8qh.html#a21c2137f2c6aae7645f244993966261d">aistatus</a> &amp;= ~<a class="code" href="../../d1/da9/bot_8qh.html#a757992960a2e691d8d3883e64acb3bc3">AI_STATUS_WAYPOINT_PERSONAL_LINKING</a>;</div>
-<div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;                    <span class="keyword">remove</span>(this.<a class="code" href="../../d8/d39/havocbot_8qh.html#a37a6f4cc58e1b06440022f0c80b8bef9">havocbot_personal_waypoint</a>);</div>
+<div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;                    <span class="keyword">delete</span>(this.<a class="code" href="../../d8/d39/havocbot_8qh.html#a37a6f4cc58e1b06440022f0c80b8bef9">havocbot_personal_waypoint</a>);</div>
 <div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;                    <span class="keywordflow">return</span> <a class="code" href="../../d8/d14/scripting_8qh.html#a71bfad281d18b766827ca0e083cdc45a">CMD_STATUS_ERROR</a>;</div>
 <div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;                }</div>
 <div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;                <span class="keywordflow">else</span></div>
@@ -1278,7 +1278,7 @@ $(document).ready(function(){initNavTree('d2/de9/havocbot_8qc_source.html','../.
 <div class="line"><a name="l01171"></a><span class="lineno"> 1171</span>&#160;        {</div>
 <div class="line"><a name="l01172"></a><span class="lineno"> 1172</span>&#160;            <span class="comment">// Step 5: Waypoint reached</span></div>
 <div class="line"><a name="l01173"></a><span class="lineno"> 1173</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>, <span class="stringliteral">&quot;&#39;s personal waypoint reached\n&quot;</span>);</div>
-<div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160;            <span class="keyword">remove</span>(this.<a class="code" href="../../d8/d39/havocbot_8qh.html#a37a6f4cc58e1b06440022f0c80b8bef9">havocbot_personal_waypoint</a>);</div>
+<div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160;            <span class="keyword">delete</span>(this.<a class="code" href="../../d8/d39/havocbot_8qh.html#a37a6f4cc58e1b06440022f0c80b8bef9">havocbot_personal_waypoint</a>);</div>
 <div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160;            this.<a class="code" href="../../d1/da9/bot_8qh.html#a21c2137f2c6aae7645f244993966261d">aistatus</a> &amp;= ~AI_STATUS_WAYPOINT_PERSONAL_REACHED;</div>
 <div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/d14/scripting_8qh.html#a7486b01a2f8bcdc795620492866d7480">CMD_STATUS_FINISHED</a>;</div>
 <div class="line"><a name="l01177"></a><span class="lineno"> 1177</span>&#160;        }</div>
@@ -1620,7 +1620,7 @@ $(document).ready(function(){initNavTree('d2/de9/havocbot_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_2237e285bffd6ead6b5088a82ff285a6.html">havocbot</a></li><li class="navelem"><a class="el" href="../../d2/de9/havocbot_8qc.html">havocbot.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:50 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:09 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

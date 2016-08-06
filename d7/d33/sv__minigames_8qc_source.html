@@ -134,7 +134,7 @@ $(document).ready(function(){initNavTree('d7/d33/sv__minigames_8qc_source.html',
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:minigame:part:&quot;</span>,minigame_session.netname,<span class="stringliteral">&quot;:&quot;</span>,</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7">etof</a>(player)),<span class="stringliteral">&quot;:&quot;</span>,player.netname));</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        minigame_session.minigame_players = p.list_next;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keyword">remove</span> ( <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a> );</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keyword">delete</span> ( <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a> );</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <a class="code" href="../../d7/d33/sv__minigames_8qc.html#a4d6b42df9791a27b66f0da64c6ace473">player_clear_minigame</a>(player);</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    }</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <span class="keywordflow">else</span></div>
@@ -147,7 +147,7 @@ $(document).ready(function(){initNavTree('d7/d33/sv__minigames_8qc_source.html',
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:minigame:part:&quot;</span>,minigame_session.netname,<span class="stringliteral">&quot;:&quot;</span>,</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                    <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7">etof</a>(player)),<span class="stringliteral">&quot;:&quot;</span>,player.netname));</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;                p.list_next = e.list_next;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                <a class="code" href="../../d7/d33/sv__minigames_8qc.html#a4d6b42df9791a27b66f0da64c6ace473">player_clear_minigame</a>(player);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            }</div>
@@ -260,7 +260,7 @@ $(document).ready(function(){initNavTree('d7/d33/sv__minigames_8qc_source.html',
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <a class="code" href="../../d7/d33/sv__minigames_8qc.html#afb6583c98aeab02e85aea955226119fb">minigame_resend</a>(minigame_session);</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    }</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordflow">else</span> { <span class="keyword">remove</span>(player_pointer); }</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;    <span class="keywordflow">else</span> { <span class="keyword">delete</span>(player_pointer); }</div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;:minigame:join&quot;</span>,(mgteam?<span class="stringliteral">&quot;&quot;</span>:<span class="stringliteral">&quot;fail&quot;</span>),<span class="stringliteral">&quot;:&quot;</span>,minigame_session.netname,<span class="stringliteral">&quot;:&quot;</span>,</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7">etof</a>(player)),<span class="stringliteral">&quot;:&quot;</span>,player.netname));</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
@@ -343,7 +343,7 @@ $(document).ready(function(){initNavTree('d7/d33/sv__minigames_8qc_source.html',
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="keywordflow">if</span> ( e.minigame_autoclean )</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        {</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;SV Auto-cleaned: &quot;</span>,<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3b90997eb01a44ab00ec2bbbacbaf3e7">etof</a>(e)), <span class="stringliteral">&quot; (&quot;</span>,e.classname,<span class="stringliteral">&quot;)\n&quot;</span>);</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        }</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
@@ -351,11 +351,11 @@ $(document).ready(function(){initNavTree('d7/d33/sv__minigames_8qc_source.html',
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    {</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        p = e.list_next;</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        <a class="code" href="../../d7/d33/sv__minigames_8qc.html#a4d6b42df9791a27b66f0da64c6ace473">player_clear_minigame</a>(e.minigame_players);</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    }</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(minigame_session.netname);</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keyword">remove</span>(minigame_session);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keyword">delete</span>(minigame_session);</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;}</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
 <div class="line"><a name="l00254"></a><span class="lineno"><a class="line" href="../../d3/df9/sv__minigames_8qh.html#a9f07dda7618fa1c23b18601f1058c147">  254</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d33/sv__minigames_8qc.html#a9f07dda7618fa1c23b18601f1058c147">end_minigames</a>()</div>
@@ -580,7 +580,7 @@ $(document).ready(function(){initNavTree('d7/d33/sv__minigames_8qc_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../d7/d33/sv__minigames_8qc.html">sv_minigames.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:48 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:06 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

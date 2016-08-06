@@ -266,15 +266,15 @@ Functions</h2></td></tr>
 <div class="line"><a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">			entity</a> it = <a class="code" href="../../de/d09/linkedlist_8qh.html#a78187759e816c05bdc0b7b1c76462315">LL_POP</a>(_ll); \</div>
 <div class="line">            if (!it) continue; \</div>
 <div class="line">            dtor \</div>
-<div class="line">            <a class="code" href="../../d8/de2/menudefs_8qc.html#af3888cc9887070d06c39681f9e6bf677">remove</a>(it); \</div>
+<div class="line">            <a class="code" href="../../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f">delete</a>(it); \</div>
 <div class="line">        } \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="log_8qh_html_a98b360dc9fac616757f41f728705e8e0"><div class="ttname"><a href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a></div><div class="ttdeci">#define assert(expr,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00005">log.qh:5</a></div></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+<div class="ttc" id="oo_8qh_html_a86ccfd529156b9cfc4dadf9b824e690f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f">delete</a></div><div class="ttdeci">#define delete(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00080">oo.qh:80</a></div></div>
 <div class="ttc" id="linkedlist_8qh_html_a78187759e816c05bdc0b7b1c76462315"><div class="ttname"><a href="../../de/d09/linkedlist_8qh.html#a78187759e816c05bdc0b7b1c76462315">LL_POP</a></div><div class="ttdeci">entity LL_POP(LinkedList this)</div><div class="ttdoc">Pop from tail. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00034">linkedlist.qh:34</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_af3888cc9887070d06c39681f9e6bf677"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#af3888cc9887070d06c39681f9e6bf677">remove</a></div><div class="ttdeci">void remove(entity e)</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00050">50</a> of file <a class="el" href="../../de/d09/linkedlist_8qh_source.html">linkedlist.qh</a>.</p>
 
@@ -341,16 +341,16 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> \</div>
 <div class="line">    { <a class="code" href="../../de/d09/linkedlist_8qh.html#acd06e79f63713052c4524c26942ca23d">\</a></div>
-<div class="line"><a class="code" href="../../de/d09/linkedlist_8qh.html#acd06e79f63713052c4524c26942ca23d">		LL_CLEAR_2</a>(<span class="keyword">this</span>, dtor); <a class="code" href="../../d8/de2/menudefs_8qc.html#af3888cc9887070d06c39681f9e6bf677">\</a></div>
-<div class="line"><a class="code" href="../../d8/de2/menudefs_8qc.html#af3888cc9887070d06c39681f9e6bf677">		remove</a>(<span class="keyword">this</span>); <a class="code" href="../../d3/dd0/self_8qh.html#a8484d4f5e006ca0f417b35001c23b862">\</a></div>
+<div class="line"><a class="code" href="../../de/d09/linkedlist_8qh.html#acd06e79f63713052c4524c26942ca23d">		LL_CLEAR_2</a>(<span class="keyword">this</span>, dtor); <a class="code" href="../../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f">\</a></div>
+<div class="line"><a class="code" href="../../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f">		delete</a>(<span class="keyword">this</span>); <a class="code" href="../../d3/dd0/self_8qh.html#a8484d4f5e006ca0f417b35001c23b862">\</a></div>
 <div class="line"><a class="code" href="../../d3/dd0/self_8qh.html#a8484d4f5e006ca0f417b35001c23b862">		this</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; \</div>
 <div class="line">    } <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
 <div class="ttc" id="macro_8qh_html_a6ea20bb10289e56e9a2af562401dad73"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a></div><div class="ttdeci">#define MACRO_BEGIN</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00005">macro.qh:5</a></div></div>
 <div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+<div class="ttc" id="oo_8qh_html_a86ccfd529156b9cfc4dadf9b824e690f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a86ccfd529156b9cfc4dadf9b824e690f">delete</a></div><div class="ttdeci">#define delete(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00080">oo.qh:80</a></div></div>
 <div class="ttc" id="self_8qh_html_a8484d4f5e006ca0f417b35001c23b862"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a8484d4f5e006ca0f417b35001c23b862">this</a></div><div class="ttdeci">entity this</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00070">self.qh:70</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00016">post.qh:16</a></div></div>
 <div class="ttc" id="linkedlist_8qh_html_acd06e79f63713052c4524c26942ca23d"><div class="ttname"><a href="../../de/d09/linkedlist_8qh.html#acd06e79f63713052c4524c26942ca23d">LL_CLEAR_2</a></div><div class="ttdeci">#define LL_CLEAR_2(this, dtor)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00050">linkedlist.qh:50</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_af3888cc9887070d06c39681f9e6bf677"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#af3888cc9887070d06c39681f9e6bf677">remove</a></div><div class="ttdeci">void remove(entity e)</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../de/d09/linkedlist_8qh_source.html#l00067">67</a> of file <a class="el" href="../../de/d09/linkedlist_8qh_source.html">linkedlist.qh</a>.</p>
 
@@ -470,7 +470,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../de/d6d/classLinkedListNode.html">LinkedListNode</a> <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a> = n.<a class="code" href="../../de/d6d/classLinkedListNode.html#ae94d5c367767bac43f3adac8278cb1c4">ll_prev</a>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">if</span> (prev) (this.ll_tail = <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a>).ll_next = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">else</span> this.ll_head = this.ll_tail = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">remove</span>(n);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">delete</span>(n);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> e;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="ttc" id="log_8qh_html_a98b360dc9fac616757f41f728705e8e0"><div class="ttname"><a href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a></div><div class="ttdeci">#define assert(expr,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00005">log.qh:5</a></div></div>
@@ -547,7 +547,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../de/d09/linkedlist_8qh.html">linkedlist.qh</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:57 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:16 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

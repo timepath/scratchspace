@@ -1,5 +1,13 @@
 var NAVTREEINDEX95 =
 {
+"db/de2/classXonoticScreenshotViewerDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,214,59],
+"db/de2/classXonoticScreenshotViewerDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,214,14],
+"db/de2/classXonoticScreenshotViewerDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,214,90],
+"db/de2/classXonoticScreenshotViewerDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,214,78],
+"db/de2/classXonoticScreenshotViewerDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,214,77],
+"db/de2/classXonoticScreenshotViewerDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,214,42],
+"db/de2/classXonoticScreenshotViewerDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,214,35],
+"db/de2/classXonoticScreenshotViewerDialog.html#a83d451f5a956b00086480097f3ee061b":[1,0,214,88],
 "db/de2/classXonoticScreenshotViewerDialog.html#a9443c58c4ce1056c33ad5539feccaf46":[1,0,214,55],
 "db/de2/classXonoticScreenshotViewerDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,214,67],
 "db/de2/classXonoticScreenshotViewerDialog.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,214,76],
@@ -241,13 +249,5 @@ var NAVTREEINDEX95 =
 "dc/d03/keycodes_8qc.html#ae7924c1c5011d5be08300330a417361d":[2,0,2,0,2,65],
 "dc/d03/keycodes_8qc.html#ae7bca8ce11a095c970eff0bef020351c":[2,0,2,0,2,70],
 "dc/d03/keycodes_8qc.html#aec92bb85d0ee55a5a45377b4c662418d":[2,0,2,0,2,18],
-"dc/d03/keycodes_8qc.html#aece1a6f03e8d26a76e3747e29d1abb2a":[2,0,2,0,2,14],
-"dc/d03/keycodes_8qc.html#aeebff7df5d0d1d79a3d8b2856414cc70":[2,0,2,0,2,85],
-"dc/d03/keycodes_8qc.html#af074886208511cff0f4bca7ca250ba65":[2,0,2,0,2,58],
-"dc/d03/keycodes_8qc.html#af118a71129728590f76055eddda3dde8":[2,0,2,0,2,76],
-"dc/d03/keycodes_8qc.html#af1c0a4d6d89a40588934cbace9aae7eb":[2,0,2,0,2,98],
-"dc/d03/keycodes_8qc.html#af7e5935b694fa8429aae6128f20063d2":[2,0,2,0,2,19],
-"dc/d03/keycodes_8qc.html#af9a59921a1c3c03c9814912c3a763638":[2,0,2,0,2,12],
-"dc/d03/keycodes_8qc.html#af9fa25bd740a24515cec59e27d7d1c33":[2,0,2,0,2,78],
-"dc/d03/keycodes_8qc.html#afa9f0978c95ac19103c36d1de02cbc70":[2,0,2,0,2,1]
+"dc/d03/keycodes_8qc.html#aece1a6f03e8d26a76e3747e29d1abb2a":[2,0,2,0,2,14]
 };

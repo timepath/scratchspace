@@ -1,5 +1,13 @@
 var NAVTREEINDEX116 =
 {
+"de/dcb/classMageSpike.html#a6cf7fae6c0116c7d59414a7b1ab474e5":[1,0,61,23],
+"de/dcb/classMageSpike.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,61,21],
+"de/dcb/classMageSpike.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,61,6],
+"de/dcb/classMageSpike.html#a6e855d1e44fb3e0730f446b8e7f16409":[1,0,61,30],
+"de/dcb/classMageSpike.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,61,0],
+"de/dcb/classMageSpike.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,61,33],
+"de/dcb/classMageSpike.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,61,24],
+"de/dcb/classMageSpike.html#a80fa9a65e19370473a29baebc04d0626":[1,0,61,2],
 "de/dcb/classMageSpike.html#a8acb91e35e239c72604a1067304cc3b5":[1,0,61,25],
 "de/dcb/classMageSpike.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,61,4],
 "de/dcb/classMageSpike.html#a9b179e6663f5bc79649d313a16125617":[1,0,61,26],
@@ -241,13 +249,5 @@ var NAVTREEINDEX116 =
 "de/dfa/common_2weapons_2all_8qc.html#a6e455edb328362e8ea7fc75757394379":[2,0,1,16,4,19],
 "de/dfa/common_2weapons_2all_8qc.html#a71ed1489c649f0e0d3e068e7e32aed35":[2,0,1,16,4,21],
 "de/dfa/common_2weapons_2all_8qc.html#a7444bff240ad3f518a5cc595e9bc8d15":[2,0,1,16,4,16],
-"de/dfa/common_2weapons_2all_8qc.html#a79fb53e58c432f7bb94bc2e881f4c2b6":[2,0,1,16,4,22],
-"de/dfa/common_2weapons_2all_8qc.html#a7e417e677b59a2ee9a37169a615c5e42":[2,0,1,16,4,24],
-"de/dfa/common_2weapons_2all_8qc.html#a908d57b826ca581e66255d228e1a7666":[2,0,1,16,4,6],
-"de/dfa/common_2weapons_2all_8qc.html#aa2f60df3d2c42afc5a315bca65cf4fe3":[2,0,1,16,4,17],
-"de/dfa/common_2weapons_2all_8qc.html#aafd24a334088de3d7fef309914d49101":[2,0,1,16,4,0],
-"de/dfa/common_2weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee":[2,0,1,16,4,3],
-"de/dfa/common_2weapons_2all_8qc.html#acb6d8a69c18135cd85a99ff515fe5bf6":[2,0,1,16,4,9],
-"de/dfa/common_2weapons_2all_8qc.html#ae30fe9ade465e4a7521545f11c61f6fc":[2,0,1,16,4,20],
-"de/dfa/common_2weapons_2all_8qc.html#ae81c8fe2b3e2692445a310dc6e221c3c":[2,0,1,16,4,25]
+"de/dfa/common_2weapons_2all_8qc.html#a79fb53e58c432f7bb94bc2e881f4c2b6":[2,0,1,16,4,22]
 };

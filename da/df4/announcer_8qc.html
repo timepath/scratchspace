@@ -259,7 +259,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordflow">if</span>(roundstarttime == -1)</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="../../d4/df2/common_2notifications_2all_8qc.html#a4533800e729b98bacf130e45337d6e50">Local_Notification</a>(MSG_CENTER, CENTER_COUNTDOWN_ROUNDSTOP);</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <a class="code" href="../../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a">announcer_countdown</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
@@ -275,7 +275,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="../../d4/df2/common_2notifications_2all_8qc.html#a4533800e729b98bacf130e45337d6e50">Local_Notification</a>(MSG_CENTER, CENTER_COUNTDOWN_BEGIN);</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="../../d4/df2/common_2notifications_2all_8qc.html#a4533800e729b98bacf130e45337d6e50">Local_Notification</a>(MSG_MULTI, MULTI_COUNTDOWN_BEGIN);</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="../../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a">announcer_countdown</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
@@ -365,7 +365,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;            <a class="code" href="../../d4/dbb/centerprint_8qc.html#abc0e0c0ccaa1f1bdffc809ea2f74e0f5">centerprint_kill</a>(<a class="code" href="../../da/dd5/enumclass_8qh.html#a7339abefe19e4109853567ae9664cf04">ORDINAL</a>(CPID_ROUND));</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a">announcer_countdown</a>)</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            {</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <span class="keyword">remove</span>(<a class="code" href="../../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a">announcer_countdown</a>);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                <span class="keyword">delete</span>(<a class="code" href="../../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a">announcer_countdown</a>);</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                <a class="code" href="../../da/df4/announcer_8qc.html#a29c65c24f9c6fda6b20f531230bb877a">announcer_countdown</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;            }</div>
 <div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        }</div>
@@ -616,7 +616,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../da/df4/announcer_8qc.html">announcer.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:51 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:10 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

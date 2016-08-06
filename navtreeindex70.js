@@ -1,5 +1,13 @@
 var NAVTREEINDEX70 =
 {
+"d8/da8/classXonoticServerCreateTab.html#a331c55a30b4bc22951a251062508326b":[1,0,215,11],
+"d8/da8/classXonoticServerCreateTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,215,21],
+"d8/da8/classXonoticServerCreateTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,215,37],
+"d8/da8/classXonoticServerCreateTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,215,1],
+"d8/da8/classXonoticServerCreateTab.html#a3b91594765e71f8d62f26f854fab26f4":[1,0,215,90],
+"d8/da8/classXonoticServerCreateTab.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,215,69],
+"d8/da8/classXonoticServerCreateTab.html#a4869983b8dc750584479ade5447c8413":[1,0,215,12],
+"d8/da8/classXonoticServerCreateTab.html#a4ad8d403de20048384fe85b379309436":[1,0,215,72],
 "d8/da8/classXonoticServerCreateTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,215,41],
 "d8/da8/classXonoticServerCreateTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,215,19],
 "d8/da8/classXonoticServerCreateTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,215,25],
@@ -241,13 +249,5 @@ var NAVTREEINDEX70 =
 "d8/dc1/sv__monsters_8qh.html#a037cce37ed3ddce0d13829cabb6216ca":[2,0,1,8,9,10],
 "d8/dc1/sv__monsters_8qh.html#a06c45626bd5b1f16f1a6f66d7d7a3cad":[2,0,1,8,9,2],
 "d8/dc1/sv__monsters_8qh.html#a10ca618a2194c7dd0b8e722730859c14":[2,0,1,8,9,11],
-"d8/dc1/sv__monsters_8qh.html#a13c832506cac26065a468274572e4e37":[2,0,1,8,9,0],
-"d8/dc1/sv__monsters_8qh.html#a14003dc713ba221ddab6bdbbc785abfa":[2,0,1,8,9,34],
-"d8/dc1/sv__monsters_8qh.html#a170809cf3435df92a29373db1d660682":[2,0,1,8,9,38],
-"d8/dc1/sv__monsters_8qh.html#a1d734f67571d6c89c8f175c941f2ae9a":[2,0,1,8,9,22],
-"d8/dc1/sv__monsters_8qh.html#a1f414c0969b6c1295fe5532e26907520":[2,0,1,8,9,64],
-"d8/dc1/sv__monsters_8qh.html#a287fcf4b75e1081ea18d19728d01306d":[2,0,1,8,9,30],
-"d8/dc1/sv__monsters_8qh.html#a29d21890b47bfd20356f52c4f570dd1c":[2,0,1,8,9,36],
-"d8/dc1/sv__monsters_8qh.html#a2c02e8f23a42bd08e8dae3393efa8f2f":[2,0,1,8,9,16],
-"d8/dc1/sv__monsters_8qh.html#a2de98900259279eb280460869e2552f8":[2,0,1,8,9,54]
+"d8/dc1/sv__monsters_8qh.html#a13c832506cac26065a468274572e4e37":[2,0,1,8,9,0]
 };

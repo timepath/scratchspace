@@ -1,5 +1,13 @@
 var NAVTREEINDEX85 =
 {
+"da/dc1/classXonoticAudioSettingsTab.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,124,14],
+"da/dc1/classXonoticAudioSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,124,88],
+"da/dc1/classXonoticAudioSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,124,85],
+"da/dc1/classXonoticAudioSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,124,75],
+"da/dc1/classXonoticAudioSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,124,74],
+"da/dc1/classXonoticAudioSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,124,41],
+"da/dc1/classXonoticAudioSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,124,34],
+"da/dc1/classXonoticAudioSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,124,67],
 "da/dc1/classXonoticAudioSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,124,65],
 "da/dc1/classXonoticAudioSettingsTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,124,50],
 "da/dc1/classXonoticAudioSettingsTab.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,124,73],
@@ -241,13 +249,5 @@ var NAVTREEINDEX85 =
 "db/d07/teams_8qh.html#a60a132226a89386e69517d266e83be67":[2,0,1,43,19],
 "db/d07/teams_8qh.html#a6a105d471d84967e4f141610777507da":[2,0,1,43,6],
 "db/d07/teams_8qh.html#a700d838c6711603d833d9c54cdfb7fe6":[2,0,1,43,49],
-"db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56":[2,0,1,43,47],
-"db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d":[2,0,1,43,37],
-"db/d07/teams_8qh.html#a79c60f633029beb7c4ceed0ab13725ef":[2,0,1,43,38],
-"db/d07/teams_8qh.html#a801d5d7bec102c3573e8a3ca8781236c":[2,0,1,43,21],
-"db/d07/teams_8qh.html#a8044b8f8baa7b9e0ddb6c6ef7dba7922":[2,0,1,43,18],
-"db/d07/teams_8qh.html#a8d03f41980a641a39e8cdafc391b4a53":[2,0,1,43,33],
-"db/d07/teams_8qh.html#a90f7679eff041d6909daf6ec8811d800":[2,0,1,43,7],
-"db/d07/teams_8qh.html#a94d54dcd91f274b0cf14942028160419":[2,0,1,43,48],
-"db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd":[2,0,1,43,46]
+"db/d07/teams_8qh.html#a72db51a685e97d7d76a082746041fa56":[2,0,1,43,47]
 };

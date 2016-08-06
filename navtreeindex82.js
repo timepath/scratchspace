@@ -1,5 +1,13 @@
 var NAVTREEINDEX82 =
 {
+"da/d53/cl__client_8qc.html#a616f8875b0e8641acc7d4a19a0824be2":[2,0,6,17,60],
+"da/d53/cl__client_8qc.html#a62b8839530824d20596d155faefe0411":[2,0,6,17,45],
+"da/d53/cl__client_8qc.html#a63b8eac90f2650512291bfaa482f9732":[2,0,6,17,23],
+"da/d53/cl__client_8qc.html#a6762be978fd49a3727236251c8d4702a":[2,0,6,17,39],
+"da/d53/cl__client_8qc.html#a6828e314f91bec7a1445f0be1b00d7c0":[2,0,6,17,68],
+"da/d53/cl__client_8qc.html#a6cef62638b11789ffd94aa2caa8a83f0":[2,0,6,17,50],
+"da/d53/cl__client_8qc.html#a796e7f6d76eff169d587d849ed8c29f0":[2,0,6,17,72],
+"da/d53/cl__client_8qc.html#a81497331b22f9248fec442b8f1889f6c":[2,0,6,17,4],
 "da/d53/cl__client_8qc.html#a85c92f8d62dbd468b7fd55f41b7eda21":[2,0,6,17,18],
 "da/d53/cl__client_8qc.html#a86d11ca9bae40e7268a22973fe720d53":[2,0,6,17,34],
 "da/d53/cl__client_8qc.html#a8dd80f958cebe7a215c3ebfd7895e623":[2,0,6,17,71],
@@ -241,13 +249,5 @@ var NAVTREEINDEX82 =
 "da/d94/classXonoticSettingsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,219,3],
 "da/d94/classXonoticSettingsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,219,78],
 "da/d94/classXonoticSettingsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,219,76],
-"da/d94/classXonoticSettingsDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,219,37],
-"da/d94/classXonoticSettingsDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,219,15],
-"da/d94/classXonoticSettingsDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,219,6],
-"da/d94/classXonoticSettingsDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,219,67],
-"da/d94/classXonoticSettingsDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,219,58],
-"da/d94/classXonoticSettingsDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,219,63],
-"da/d94/classXonoticSettingsDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,219,62],
-"da/d94/classXonoticSettingsDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,219,64],
-"da/d94/classXonoticSettingsDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,219,4]
+"da/d94/classXonoticSettingsDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,219,37]
 };

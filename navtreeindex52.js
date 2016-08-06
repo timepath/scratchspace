@@ -1,5 +1,13 @@
 var NAVTREEINDEX52 =
 {
+"d6/d93/g__subs_8qh.html#acfc05d721470c3c19835fe5d5bc5a3e9":[2,0,6,34,48],
+"d6/d93/g__subs_8qh.html#ad04a1d90929cbe7578fa5038ab825698":[2,0,6,34,45],
+"d6/d93/g__subs_8qh.html#ad0806fe42eadae7a1a7a48660cbbd755":[2,0,6,34,28],
+"d6/d93/g__subs_8qh.html#ad351eda3d83e3ac892325b85272f5f1b":[2,0,6,34,37],
+"d6/d93/g__subs_8qh.html#ad6b999617407d6b8cc64860a447b4cb4":[2,0,6,34,8],
+"d6/d93/g__subs_8qh.html#addd517c7794686f85d035a434be1b7ac":[2,0,6,34,13],
+"d6/d93/g__subs_8qh.html#ade6067d4eee255157e9f7eff9b226639":[2,0,6,34,2],
+"d6/d93/g__subs_8qh.html#adf72da94012ed6f3ee8d3d25a6634e2b":[2,0,6,34,17],
 "d6/d93/g__subs_8qh.html#ae2572b5fa7a3e76a4ff54cd41a55cf04":[2,0,6,34,33],
 "d6/d93/g__subs_8qh.html#aebccc6fb4b4825ccb7f6eff7c3cc4bd2":[2,0,6,34,5],
 "d6/d93/g__subs_8qh.html#aed4a887bf49c3fd7b1567a05ac05015e":[2,0,6,34,34],
@@ -241,13 +249,5 @@ var NAVTREEINDEX52 =
 "d6/dd1/classXonoticHUDCenterprintDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,159,63],
 "d6/dd1/classXonoticHUDCenterprintDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,159,62],
 "d6/dd1/classXonoticHUDCenterprintDialog.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,159,86],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,159,64],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,159,4],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,159,32],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,159,10],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,159,38],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,159,43],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,159,18],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,159,8],
-"d6/dd1/classXonoticHUDCenterprintDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,159,11]
+"d6/dd1/classXonoticHUDCenterprintDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,159,64]
 };

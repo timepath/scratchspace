@@ -1,5 +1,13 @@
 var NAVTREEINDEX61 =
 {
+"d7/da7/server_2autocvars_8qh.html#aa9bb7e6add74bf568efce2e3b789e169":[2,0,6,12,14],
+"d7/da7/server_2autocvars_8qh.html#aa9e7a4f18735c4e718d8c0a94dd52c6d":[2,0,6,12,140],
+"d7/da7/server_2autocvars_8qh.html#aaa96092206d2a88b60eb47be1460a2ac":[2,0,6,12,391],
+"d7/da7/server_2autocvars_8qh.html#aaadbf19a682702f958447c77e582bf9c":[2,0,6,12,443],
+"d7/da7/server_2autocvars_8qh.html#aaaed169479ef3f4a58896e29e9af6575":[2,0,6,12,85],
+"d7/da7/server_2autocvars_8qh.html#aab597cecfb65556579256ad951a7298a":[2,0,6,12,476],
+"d7/da7/server_2autocvars_8qh.html#aab5e1aa7961a5d05d69c2cbae193668a":[2,0,6,12,248],
+"d7/da7/server_2autocvars_8qh.html#aabad191bec6429c7aac1ccfe3b2f8251":[2,0,6,12,155],
 "d7/da7/server_2autocvars_8qh.html#aabf2b9e2ed828a992815c32f51315d2a":[2,0,6,12,191],
 "d7/da7/server_2autocvars_8qh.html#aacb56c8dead287cd3ae2b789a40c6e28":[2,0,6,12,344],
 "d7/da7/server_2autocvars_8qh.html#aad5d5df3f0c67567f44b212b74cb3318":[2,0,6,12,231],
@@ -241,13 +249,5 @@ var NAVTREEINDEX61 =
 "d7/dac/classXonoticMutatorsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,194,35],
 "d7/dac/classXonoticMutatorsDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,194,45],
 "d7/dac/classXonoticMutatorsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,194,1],
-"d7/dac/classXonoticMutatorsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,194,68],
-"d7/dac/classXonoticMutatorsDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,194,66],
-"d7/dac/classXonoticMutatorsDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,194,12],
-"d7/dac/classXonoticMutatorsDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,194,39],
-"d7/dac/classXonoticMutatorsDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,194,17],
-"d7/dac/classXonoticMutatorsDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,194,46],
-"d7/dac/classXonoticMutatorsDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,194,23],
-"d7/dac/classXonoticMutatorsDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,194,31],
-"d7/dac/classXonoticMutatorsDialog.html#a5642b28738273ad7e63da202f78ccb64":[1,0,194,49]
+"d7/dac/classXonoticMutatorsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,194,68]
 };

@@ -117,7 +117,7 @@ $(document).ready(function(){initNavTree('d8/d88/keylock_8qc_source.html','../..
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> t;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">for</span>(t = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (t = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(t, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, s)); )</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">remove</span>(t);</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">delete</span>(t);</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
 <div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="../../d8/d88/keylock_8qc.html#a9d744747a2cc9d20b3f786e635fa3c76">   21</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d8/d88/keylock_8qc.html#a9d744747a2cc9d20b3f786e635fa3c76">trigger_keylock_touch</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d3/dd0/self_8qh.html#ab00c8adb7cf42f84d6d530532c46fa57">toucher</a>)</div>
@@ -176,7 +176,7 @@ $(document).ready(function(){initNavTree('d8/d88/keylock_8qc_source.html','../..
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70">killtarget</a>)</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;            <a class="code" href="../../d8/d88/keylock_8qc.html#aedab72402ed81e3b45d4e61d16ceb2fe">trigger_keylock_kill</a>(this.<a class="code" href="../../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70">killtarget</a>);</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
@@ -223,7 +223,7 @@ $(document).ready(function(){initNavTree('d8/d88/keylock_8qc_source.html','../..
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(trigger_keylock)</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;{</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">if</span>(!this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordflow">if</span>(!this.<a class="code" href="../../db/d2f/subs_8qh.html#a6cd088ee55afdde918610024676b0d4d">itemkeys</a>) { <span class="keyword">delete</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="comment">// set unlocked message</span></div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
@@ -344,7 +344,7 @@ $(document).ready(function(){initNavTree('d8/d88/keylock_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../dir_68c7af0e850d11bf6ba23fecbd658357.html">trigger</a></li><li class="navelem"><a class="el" href="../../d8/d88/keylock_8qc.html">keylock.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:48 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:07 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

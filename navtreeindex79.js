@@ -1,5 +1,13 @@
 var NAVTREEINDEX79 =
 {
+"d9/deb/classXonoticHUDTimerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,177,3],
+"d9/deb/classXonoticHUDTimerDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,177,79],
+"d9/deb/classXonoticHUDTimerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,177,77],
+"d9/deb/classXonoticHUDTimerDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,177,37],
+"d9/deb/classXonoticHUDTimerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,177,15],
+"d9/deb/classXonoticHUDTimerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,177,6],
+"d9/deb/classXonoticHUDTimerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,177,67],
+"d9/deb/classXonoticHUDTimerDialog.html#a17bad9d112b85ece0d0689b233838245":[1,0,177,58],
 "d9/deb/classXonoticHUDTimerDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,177,63],
 "d9/deb/classXonoticHUDTimerDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,177,62],
 "d9/deb/classXonoticHUDTimerDialog.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,177,86],
@@ -241,13 +249,5 @@ var NAVTREEINDEX79 =
 "da/d10/sv__vehicles_8qc.html#ae4ad6ead0893944940ce66bd17ca9375":[2,0,1,15,7,21],
 "da/d10/sv__vehicles_8qc.html#af017ca12b4899519b7181466443f37b0":[2,0,1,15,7,41],
 "da/d10/sv__vehicles_8qc.html#af3487605a196c9df59ed3a8f0c8c6a04":[2,0,1,15,7,13],
-"da/d10/sv__vehicles_8qc.html#afa4811f20052d3c43e4b1ef5463d88f8":[2,0,1,15,7,9],
-"da/d10/sv__vehicles_8qc.html#afcba25c827d948daf47134038eb3b300":[2,0,1,15,7,5],
-"da/d10/sv__vehicles_8qc.html#afd879692d8ef40010a2dddb2080a722f":[2,0,1,15,7,24],
-"da/d10/sv__vehicles_8qc_source.html":[2,0,1,15,7],
-"da/d11/arc_8qc.html":[2,0,1,16,0,2],
-"da/d11/arc_8qc.html#a06407765d83bb6f589ad86eb7ac15afb":[2,0,1,16,0,2,20],
-"da/d11/arc_8qc.html#a092be77d864c2356cb5f3e62a7093e26":[2,0,1,16,0,2,15],
-"da/d11/arc_8qc.html#a0cf969d1d467b545bfc44c649af05a10":[2,0,1,16,0,2,8],
-"da/d11/arc_8qc.html#a1dcb06ff4e5566639d7ca000d9429928":[2,0,1,16,0,2,9]
+"da/d10/sv__vehicles_8qc.html#afa4811f20052d3c43e4b1ef5463d88f8":[2,0,1,15,7,9]
 };

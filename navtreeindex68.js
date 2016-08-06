@@ -1,5 +1,13 @@
 var NAVTREEINDEX68 =
 {
+"d8/d35/classXonoticHUDChatDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,160,48],
+"d8/d35/classXonoticHUDChatDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,160,81],
+"d8/d35/classXonoticHUDChatDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,160,40],
+"d8/d35/classXonoticHUDChatDialog.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,160,71],
+"d8/d35/classXonoticHUDChatDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,160,53],
+"d8/d35/classXonoticHUDChatDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,160,84],
+"d8/d35/classXonoticHUDChatDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,160,20],
+"d8/d35/classXonoticHUDChatDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,160,52],
 "d8/d35/classXonoticHUDChatDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,160,44],
 "d8/d35/classXonoticHUDChatDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,160,88],
 "d8/d35/classXonoticHUDChatDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,160,60],
@@ -241,13 +249,5 @@ var NAVTREEINDEX68 =
 "d8/d8f/classXonoticInputBox.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,181,45],
 "d8/d8f/classXonoticInputBox.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,181,86],
 "d8/d8f/classXonoticInputBox.html#a26ec06a9191e41af49b584f7547d1145":[1,0,181,64],
-"d8/d8f/classXonoticInputBox.html#a27b635e0916726012b7e8c4dca05064e":[1,0,181,28],
-"d8/d8f/classXonoticInputBox.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,181,1],
-"d8/d8f/classXonoticInputBox.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,181,4],
-"d8/d8f/classXonoticInputBox.html#a351e5549cfe2bf3848fc89bb4eb0a162":[1,0,181,68],
-"d8/d8f/classXonoticInputBox.html#a3bedbfe8c37eeb3978a77e35efad2b8b":[1,0,181,60],
-"d8/d8f/classXonoticInputBox.html#a3d68e131cfd8c5d8fa5f644c68e56b14":[1,0,181,58],
-"d8/d8f/classXonoticInputBox.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,181,61],
-"d8/d8f/classXonoticInputBox.html#a3fd0ed15d74f86687a6c62507f75e2af":[1,0,181,50],
-"d8/d8f/classXonoticInputBox.html#a45f759b623e14092aa0ccdaa6eb76be2":[1,0,181,42]
+"d8/d8f/classXonoticInputBox.html#a27b635e0916726012b7e8c4dca05064e":[1,0,181,28]
 };

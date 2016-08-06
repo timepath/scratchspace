@@ -994,7 +994,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;{</div>
 <div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;    <span class="keywordflow">if</span> (!wp) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;    <span class="keywordflow">if</span> (wp.owner) wp.owner.(wp.owned_by_field) = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;    <span class="keyword">remove</span>(wp);</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;    <span class="keyword">delete</span>(wp);</div>
 <div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;}</div>
 <div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;</div>
 <div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;<span class="keywordtype">void</span> WaypointSprite_Disown(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> wp, <span class="keywordtype">float</span> fadetime)</div>
@@ -1127,7 +1127,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div class="line"><a name="l01021"></a><span class="lineno"> 1021</span>&#160;    <span class="keywordflow">if</span> (own)</div>
 <div class="line"><a name="l01022"></a><span class="lineno"> 1022</span>&#160;    {</div>
 <div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;        <span class="keywordflow">if</span> (own.(ownfield))</div>
-<div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;            <span class="keyword">remove</span>(own.(ownfield));</div>
+<div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;            <span class="keyword">delete</span>(own.(ownfield));</div>
 <div class="line"><a name="l01025"></a><span class="lineno"> 1025</span>&#160;        own.(ownfield) = wp;</div>
 <div class="line"><a name="l01026"></a><span class="lineno"> 1026</span>&#160;        wp.owned_by_field = ownfield;</div>
 <div class="line"><a name="l01027"></a><span class="lineno"> 1027</span>&#160;    }</div>
@@ -1387,7 +1387,7 @@ $(document).ready(function(){initNavTree('db/dc5/waypointsprites_8qc_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_4573854e5f122b3a76229eff451e1727.html">waypoints</a></li><li class="navelem"><a class="el" href="../../db/dc5/waypointsprites_8qc.html">waypointsprites.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:48 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:07 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

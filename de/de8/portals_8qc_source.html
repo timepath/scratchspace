@@ -525,7 +525,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        <a class="code" href="../../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e">fixedmakevectors</a>(portal.mangle);</div>
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        <a class="code" href="../../d0/df5/sound_8qh.html#aeb598ce864f72a1d490d550e1a10c32a">sound</a>(portal, <a class="code" href="../../d0/df5/sound_8qh.html#a4051c5328d378b063ec0779a9c9a75c3">CH_SHOTS</a>, SND_PORTO_EXPLODE, <a class="code" href="../../d0/df5/sound_8qh.html#a353d870104b3e8ae2a5fc5584279c735">VOL_BASE</a>, <a class="code" href="../../d0/df5/sound_8qh.html#ab7d311180e6c1130c970d08fe9b6c638">ATTEN_NORM</a>);</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        Send_Effect(EFFECT_ROCKET_EXPLODE, portal.origin + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * 16, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * 1024, 4);</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        <span class="keyword">remove</span>(portal);</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        <span class="keyword">delete</span>(portal);</div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    }</div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    {</div>
@@ -749,7 +749,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;</div>
 <div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../de/de8/portals_8qc.html#a70d3c5762b853cf70d6cdba04a545d1b">Portal_FindSafeOrigin</a>(portal))</div>
 <div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;    {</div>
-<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;        <span class="keyword">remove</span>(portal);</div>
+<div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;        <span class="keyword">delete</span>(portal);</div>
 <div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;    }</div>
 <div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;</div>
@@ -922,7 +922,7 @@ $(document).ready(function(){initNavTree('de/de8/portals_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../de/de8/portals_8qc.html">portals.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:50 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:09 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

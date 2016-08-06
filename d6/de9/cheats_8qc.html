@@ -478,7 +478,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;                        tracebox(e.origin, e.mins, e.maxs, e.origin, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, e);</div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;                        <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9709fd6a18e9d6bafb5a0e9d8ba42c9e">trace_startsolid</a>)</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;                        {</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                            <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;                            <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;                            <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;cannot make stuff there (no space)\n&quot;</span>);</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;                        }</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;                        <span class="keywordflow">else</span></div>
@@ -594,13 +594,13 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;                <a class="code" href="../../dc/d95/random_8qc.html#a95527c538e7d69ffdd2779998fdabb42">RandomSelection_Add</a>(e, 0, <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>, 1, 1 / <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(e.origin + (e.mins + e.maxs) * 0.5 - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>));</div>
 <div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>)</div>
 <div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;            {</div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;                <span class="keyword">remove</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.killindicator.killindicator);</div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;                <span class="keyword">remove</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.killindicator);</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;                <span class="keyword">delete</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.killindicator.killindicator);</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;                <span class="keyword">delete</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.killindicator);</div>
 <div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.aiment)</div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;                    <span class="keyword">remove</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.aiment);</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;                    <span class="keyword">delete</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.aiment);</div>
 <div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.enemy)</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;                    <span class="keyword">remove</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.enemy);</div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;                <span class="keyword">remove</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>);</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;                    <span class="keyword">delete</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.enemy);</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;                <span class="keyword">delete</span>(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>);</div>
 <div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;            }</div>
 <div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;            <a class="code" href="../../d6/de9/cheats_8qc.html#a30dfb2e8033210719c190a020d8705b4">DID_CHEAT</a>();</div>
 <div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;            <span class="keywordflow">break</span>;</div>
@@ -718,15 +718,15 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;drag_clear&quot;</span>:</div>
 <div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;            <a class="code" href="../../d6/de9/cheats_8qc.html#a37f479ec45150654c5d4d7db942024f2">IS_CHEAT</a>(<span class="keyword">this</span>, 0, argc, 0);</div>
 <div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;            <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;dragbox_box&quot;</span>)); )</div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;                <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;                <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;            <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;dragbox_corner_1&quot;</span>)); )</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;                <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;                <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;            <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;dragbox_corner_2&quot;</span>)); )</div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;                <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;                <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;            <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;dragpoint&quot;</span>)); )</div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;                <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;                <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;            <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(e, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a>, <span class="stringliteral">&quot;drag_digit&quot;</span>)); )</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;                <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;                <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;            <a class="code" href="../../d6/de9/cheats_8qc.html#a30dfb2e8033210719c190a020d8705b4">DID_CHEAT</a>();</div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;god&quot;</span>:</div>
@@ -789,7 +789,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
 <div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;            e.target = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1);</div>
 <div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;            <a class="code" href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a>(e, <span class="keyword">this</span>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;            <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;            <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;            <a class="code" href="../../d6/de9/cheats_8qc.html#a30dfb2e8033210719c190a020d8705b4">DID_CHEAT</a>();</div>
 <div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;killtarget&quot;</span>:</div>
@@ -797,7 +797,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e2 = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
 <div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;            e2.killtarget = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(1);</div>
 <div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;            <a class="code" href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a>(e2, <span class="keyword">this</span>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;            <span class="keyword">remove</span>(e2);</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;            <span class="keyword">delete</span>(e2);</div>
 <div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;            <a class="code" href="../../d6/de9/cheats_8qc.html#a30dfb2e8033210719c190a020d8705b4">DID_CHEAT</a>();</div>
 <div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;teleporttotarget&quot;</span>:</div>
@@ -809,7 +809,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;            <span class="keywordflow">if</span>(!wasfreed(ent))</div>
 <div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;            {</div>
 <div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;                <a class="code" href="../../d0/d6b/teleporters_8qc.html#a883996b20943d07115cb929039dd0956">Simple_TeleportPlayer</a>(ent, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;                <span class="keyword">remove</span>(ent);</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;                <span class="keyword">delete</span>(ent);</div>
 <div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;                <a class="code" href="../../d6/de9/cheats_8qc.html#a30dfb2e8033210719c190a020d8705b4">DID_CHEAT</a>();</div>
 <div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;            }</div>
 <div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;            <span class="keywordflow">break</span>;</div>
@@ -1124,7 +1124,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                    <a class="code" href="../../d8/de2/menudefs_8qc.html#a4ae54ed78d55acc008e6fcf8c72e779f">sprint</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;Emergency teleport used info_autoscreenshot location\n&quot;</span>);</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                    setorigin(<span class="keyword">this</span>, e.origin);</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;                    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a> = e.angles;</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                    <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                    <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                    <span class="comment">// should we? this.angles_x = -this.angles_x;</span></div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                    this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a9ec7a11196339892b02dbe371da1ee26">fixangle</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
@@ -1158,7 +1158,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            e2 = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;            setorigin(e2, e.origin);</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            <a class="code" href="../../d5/dac/g__damage_8qc.html#a377b547a7053468290f13dffb6342b89">RadiusDamage</a>(e2, <span class="keyword">this</span>, 1000, 0, 128, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, 500, DEATH_CHEAT.m_id, e);</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <span class="keyword">remove</span>(e2);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <span class="keyword">delete</span>(e2);</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;404 Sportsmanship not found.\n&quot;</span>);</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            <a class="code" href="../../d6/de9/cheats_8qc.html#a30dfb2e8033210719c190a020d8705b4">DID_CHEAT</a>();</div>
@@ -2823,7 +2823,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d6/de9/cheats_8qc.html">cheats.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:07:00 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:19 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

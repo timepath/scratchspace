@@ -1,5 +1,13 @@
 var NAVTREEINDEX86 =
 {
+"db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d":[2,0,1,43,37],
+"db/d07/teams_8qh.html#a79c60f633029beb7c4ceed0ab13725ef":[2,0,1,43,38],
+"db/d07/teams_8qh.html#a801d5d7bec102c3573e8a3ca8781236c":[2,0,1,43,21],
+"db/d07/teams_8qh.html#a8044b8f8baa7b9e0ddb6c6ef7dba7922":[2,0,1,43,18],
+"db/d07/teams_8qh.html#a8d03f41980a641a39e8cdafc391b4a53":[2,0,1,43,33],
+"db/d07/teams_8qh.html#a90f7679eff041d6909daf6ec8811d800":[2,0,1,43,7],
+"db/d07/teams_8qh.html#a94d54dcd91f274b0cf14942028160419":[2,0,1,43,48],
+"db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd":[2,0,1,43,46],
 "db/d07/teams_8qh.html#aa3d6cc5893db93228eebe2c913555b55":[2,0,1,43,26],
 "db/d07/teams_8qh.html#aa417cabfc2bf10d554c0dee7aa17a991":[2,0,1,43,24],
 "db/d07/teams_8qh.html#aa6ee472ee546c802674773aa4ccefa5e":[2,0,1,43,39],
@@ -241,13 +249,5 @@ var NAVTREEINDEX86 =
 "db/d29/classXonoticRegisteredSettingsList.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,205,35],
 "db/d29/classXonoticRegisteredSettingsList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,205,41],
 "db/d29/classXonoticRegisteredSettingsList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,205,46],
-"db/d29/classXonoticRegisteredSettingsList.html#ad5d1cdac716ff1e23439fd8465450f21":[1,0,205,30],
-"db/d29/classXonoticRegisteredSettingsList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,205,73],
-"db/d29/classXonoticRegisteredSettingsList.html#adbc65a2089ef3278a098c80685b4b8a3":[1,0,205,49],
-"db/d29/classXonoticRegisteredSettingsList.html#add07f2289a86f54ca2b1a757980173fa":[1,0,205,70],
-"db/d29/classXonoticRegisteredSettingsList.html#adf6570252bd8253846cff233496c7c6e":[1,0,205,80],
-"db/d29/classXonoticRegisteredSettingsList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,205,32],
-"db/d29/classXonoticRegisteredSettingsList.html#ae12edc8e1e9ebfe15080baa10f4f92a2":[1,0,205,9],
-"db/d29/classXonoticRegisteredSettingsList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,205,78],
-"db/d29/classXonoticRegisteredSettingsList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,205,38]
+"db/d29/classXonoticRegisteredSettingsList.html#ad5d1cdac716ff1e23439fd8465450f21":[1,0,205,30]
 };

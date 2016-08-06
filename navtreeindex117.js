@@ -1,5 +1,13 @@
 var NAVTREEINDEX117 =
 {
+"de/dfa/common_2weapons_2all_8qc.html#a7e417e677b59a2ee9a37169a615c5e42":[2,0,1,16,4,24],
+"de/dfa/common_2weapons_2all_8qc.html#a908d57b826ca581e66255d228e1a7666":[2,0,1,16,4,6],
+"de/dfa/common_2weapons_2all_8qc.html#aa2f60df3d2c42afc5a315bca65cf4fe3":[2,0,1,16,4,17],
+"de/dfa/common_2weapons_2all_8qc.html#aafd24a334088de3d7fef309914d49101":[2,0,1,16,4,0],
+"de/dfa/common_2weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee":[2,0,1,16,4,3],
+"de/dfa/common_2weapons_2all_8qc.html#acb6d8a69c18135cd85a99ff515fe5bf6":[2,0,1,16,4,9],
+"de/dfa/common_2weapons_2all_8qc.html#ae30fe9ade465e4a7521545f11c61f6fc":[2,0,1,16,4,20],
+"de/dfa/common_2weapons_2all_8qc.html#ae81c8fe2b3e2692445a310dc6e221c3c":[2,0,1,16,4,25],
 "de/dfa/common_2weapons_2all_8qc_source.html":[2,0,1,16,4],
 "df/d00/common_2notifications_2all_8inc.html":[2,0,1,10,2],
 "df/d00/common_2notifications_2all_8inc.html#a03596b8dc6babb2fbf63f29f3b434c46":[2,0,1,10,2,45],
@@ -241,13 +249,5 @@ var NAVTREEINDEX117 =
 "df/d26/classXonoticGameSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,154,84],
 "df/d26/classXonoticGameSettingsTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,154,42],
 "df/d26/classXonoticGameSettingsTab.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,154,74],
-"df/d26/classXonoticGameSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,154,47],
-"df/d26/classXonoticGameSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,154,56],
-"df/d26/classXonoticGameSettingsTab.html#ad2bbf58768380843ac337880b629bb17":[1,0,154,86],
-"df/d26/classXonoticGameSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,154,72],
-"df/d26/classXonoticGameSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,154,21],
-"df/d26/classXonoticGameSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,154,53],
-"df/d26/classXonoticGameSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,154,94],
-"df/d26/classXonoticGameSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,154,63],
-"df/d26/classXonoticGameSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,154,17]
+"df/d26/classXonoticGameSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,154,47]
 };

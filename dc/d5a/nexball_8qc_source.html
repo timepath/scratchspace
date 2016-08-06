@@ -560,7 +560,7 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;{</div>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d9e/mapinfo_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959">g_nexball</a>)</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    {</div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    }</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> = this.<a class="code" href="../../d1/d93/pp_8qc.html#a9cfbb269728dc4185236d28be58d9eab">cnt</a> + 1;</div>
@@ -634,7 +634,7 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;</div>
 <div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;<span class="keywordtype">void</span> SpawnBall(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;{</div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d9e/mapinfo_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959">g_nexball</a>) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d9e/mapinfo_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959">g_nexball</a>) { <span class="keyword">delete</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
 <div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;</div>
 <div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;<span class="comment">//  balls += 4; // using the remaining bits to count balls will leave more than the max edict count, so it&#39;s fine</span></div>
 <div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;</div>
@@ -731,7 +731,7 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;</div>
 <div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;<span class="keywordtype">void</span> SpawnGoal(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;{</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d9e/mapinfo_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959">g_nexball</a>) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d9e/mapinfo_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959">g_nexball</a>) { <span class="keyword">delete</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
 <div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;</div>
 <div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0">EXACTTRIGGER_INIT</a>;</div>
 <div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;</div>
@@ -868,7 +868,7 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;                GiveBall(attacker, toucher.ballcarried);</div>
 <div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;            }</div>
 <div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;        }</div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;    <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;    <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;}</div>
 <div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;</div>
 <div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;<span class="keywordtype">void</span> W_Nexball_Attack(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor, <span class="keywordtype">float</span> t)</div>
@@ -944,328 +944,329 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;</div>
 <div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;    missile.effects = <a class="code" href="../../d3/dfc/csqcmodel__hooks_8qh.html#a8aa154f912334f398e2b99b9c8d0412a">EF_BRIGHTFIELD</a> | <a class="code" href="../../de/d5e/dpextensions_8qc.html#a7ef46523bf1f305084e2ca69db4f24ee">EF_LOWPRECISION</a>;</div>
 <div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;    missile.flags = <a class="code" href="../../dc/dc7/projectile_8qh.html#a1377cbecee41e6bb05e56a90280ff3eb">FL_PROJECTILE</a>;</div>
-<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;</div>
-<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;    <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a930c053bef0a4c6cddca21bd46cc40a0">CSQCProjectile</a>(missile, <span class="keyword">true</span>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a2ca316db28f9444e2cc9f63bf0286bc9">PROJECTILE_ELECTRO</a>, <span class="keyword">true</span>);</div>
-<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;}</div>
-<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;</div>
-<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;<span class="keywordtype">bool</span> ball_customize(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client)</div>
-<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;{</div>
-<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;    <span class="keywordflow">if</span>(!this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>)</div>
-<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    {</div>
-<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> &amp;= ~<a class="code" href="../../d4/d92/csqc__constants_8qh.html#aab2f9f4c62011e52fa7f5fda67b7eb67">EF_FLAME</a>;</div>
-<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;        this.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> = 1;</div>
-<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a8f449f6d685c66917146e83e94085a4b">setcefc</a>(<span class="keyword">this</span>, <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>);</div>
-<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;    }</div>
-<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;</div>
-<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;    <span class="keywordflow">if</span>(client == this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>)</div>
-<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;    {</div>
-<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;        this.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> = autocvar_g_nexball_viewmodel_scale;</div>
-<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>)</div>
-<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;            this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> |= <a class="code" href="../../d4/d92/csqc__constants_8qh.html#aab2f9f4c62011e52fa7f5fda67b7eb67">EF_FLAME</a>;</div>
-<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;            this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> &amp;= ~<a class="code" href="../../d4/d92/csqc__constants_8qh.html#aab2f9f4c62011e52fa7f5fda67b7eb67">EF_FLAME</a>;</div>
-<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;    }</div>
-<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;    {</div>
-<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> &amp;= ~<a class="code" href="../../d4/d92/csqc__constants_8qh.html#aab2f9f4c62011e52fa7f5fda67b7eb67">EF_FLAME</a>;</div>
-<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;        this.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> = 1;</div>
-<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;    }</div>
-<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;</div>
-<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;}</div>
-<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;</div>
-<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, wr_think, <span class="keywordtype">void</span>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a> thiswep, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor, .<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> weaponentity, <span class="keywordtype">int</span> fire))</div>
-<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;{</div>
-<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, thiswep);</div>
-<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;    <span class="keywordflow">if</span>(fire &amp; 1)</div>
-<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">false</span>, autocvar_g_balance_nexball_primary_refire))</div>
-<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;            <span class="keywordflow">if</span>(autocvar_g_nexball_basketball_meter)</div>
-<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;            {</div>
-<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;                <span class="keywordflow">if</span>(actor.ballcarried &amp;&amp; !actor.metertime)</div>
-<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;                    actor.metertime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;                    <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, autocvar_g_balance_nexball_primary_animtime, <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
-<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;            }</div>
-<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;            {</div>
-<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;                W_Nexball_Attack(actor, -1);</div>
-<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;                <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, autocvar_g_balance_nexball_primary_animtime, <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
-<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;            }</div>
-<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;    <span class="keywordflow">if</span>(fire &amp; 2)</div>
-<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">true</span>, autocvar_g_balance_nexball_secondary_refire))</div>
-<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;        {</div>
-<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;            W_Nexball_Attack2(actor);</div>
-<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;            <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE2, autocvar_g_balance_nexball_secondary_animtime, <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
-<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;        }</div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;</div>
-<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;    <span class="keywordflow">if</span>(!(fire &amp; 1) &amp;&amp; actor.metertime &amp;&amp; actor.ballcarried)</div>
-<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;    {</div>
-<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;        W_Nexball_Attack(actor, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - actor.metertime);</div>
-<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;        <span class="comment">// DropBall or stealing will set metertime back to 0</span></div>
-<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;        <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, autocvar_g_balance_nexball_primary_animtime, <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
-<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;    }</div>
-<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;}</div>
-<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;</div>
-<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, wr_setup, <span class="keywordtype">void</span>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor))</div>
-<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;{</div>
-<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;    <span class="comment">//weapon_setup(WEP_PORTO.m_id);</span></div>
-<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;}</div>
-<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;</div>
-<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, wr_checkammo1, <span class="keywordtype">bool</span>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor))</div>
-<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;{</div>
-<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;}</div>
-<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;</div>
-<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, wr_checkammo2, <span class="keywordtype">bool</span>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor))</div>
-<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;{</div>
-<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;}</div>
-<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;</div>
-<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;<span class="keywordtype">void</span> nb_DropBall(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player)</div>
-<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;{</div>
-<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;    <span class="keywordflow">if</span>(player.ballcarried &amp;&amp; <a class="code" href="../../d2/d9e/mapinfo_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959">g_nexball</a>)</div>
-<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;        DropBall(player.ballcarried, player.origin, player.velocity);</div>
-<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;}</div>
-<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;</div>
-<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, <a class="code" href="../../da/d53/cl__client_8qc.html#ade766288e98d9de45e646c8212f6f14a">ClientDisconnect</a>)</div>
-<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;{</div>
-<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;</div>
-<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;    nb_DropBall(player);</div>
-<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;}</div>
-<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;</div>
-<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, PlayerDies)</div>
-<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;{</div>
-<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;</div>
-<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;    nb_DropBall(frag_target);</div>
-<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;}</div>
-<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;</div>
-<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, MakePlayerObserver)</div>
-<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;{</div>
-<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;</div>
-<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;    nb_DropBall(player);</div>
-<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;}</div>
-<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;</div>
-<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, <a class="code" href="../../da/d53/cl__client_8qc.html#ac4842064b7f7b032f654e24f1fa5a155">PlayerPreThink</a>)</div>
-<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;{</div>
-<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;</div>
-<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;    makevectors(player.v_angle);</div>
-<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;    <span class="keywordflow">if</span>(nexball_mode &amp; NBM_BASKETBALL)</div>
-<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;    {</div>
-<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;        <span class="keywordflow">if</span>(player.ballcarried)</div>
-<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;        {</div>
-<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;            <span class="comment">// &#39;view ball&#39;</span></div>
-<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;            player.ballcarried.velocity = player.velocity;</div>
-<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a8f449f6d685c66917146e83e94085a4b">setcefc</a>(player.ballcarried, ball_customize);</div>
-<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;</div>
-<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> org = player.origin + player.view_ofs +</div>
-<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;                      <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * autocvar_g_nexball_viewmodel_offset.x +</div>
-<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;                      <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a> * autocvar_g_nexball_viewmodel_offset.y +</div>
-<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;                      <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a> * autocvar_g_nexball_viewmodel_offset.z;</div>
-<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;            setorigin(player.ballcarried, org);</div>
-<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;</div>
-<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;            <span class="comment">// &#39;safe passing&#39;</span></div>
-<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;            <span class="keywordflow">if</span>(autocvar_g_nexball_safepass_maxdist)</div>
-<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;            {</div>
-<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;                <span class="keywordflow">if</span>(player.ballcarried.wait &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &amp;&amp; player.ballcarried.enemy)</div>
-<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;                {</div>
-<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;                    <span class="comment">//centerprint(player, sprintf(&quot;Lost lock on %s&quot;, player.ballcarried.enemy.netname));</span></div>
-<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;                    player.ballcarried.enemy = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;                }</div>
-<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;</div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a44ed93b6aaca72d222ce263898d152b4">IL_PUSH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a60e662b2259d5b4ff290afd4566a17dd">g_projectiles</a>, missile);</div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;    <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a930c053bef0a4c6cddca21bd46cc40a0">CSQCProjectile</a>(missile, <span class="keyword">true</span>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a2ca316db28f9444e2cc9f63bf0286bc9">PROJECTILE_ELECTRO</a>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;}</div>
+<div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;</div>
+<div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;<span class="keywordtype">bool</span> ball_customize(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client)</div>
+<div class="line"><a name="l00846"></a><span class="lineno">  846</span>&#160;{</div>
+<div class="line"><a name="l00847"></a><span class="lineno">  847</span>&#160;    <span class="keywordflow">if</span>(!this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>)</div>
+<div class="line"><a name="l00848"></a><span class="lineno">  848</span>&#160;    {</div>
+<div class="line"><a name="l00849"></a><span class="lineno">  849</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> &amp;= ~<a class="code" href="../../d4/d92/csqc__constants_8qh.html#aab2f9f4c62011e52fa7f5fda67b7eb67">EF_FLAME</a>;</div>
+<div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;        this.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> = 1;</div>
+<div class="line"><a name="l00851"></a><span class="lineno">  851</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a8f449f6d685c66917146e83e94085a4b">setcefc</a>(<span class="keyword">this</span>, <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>);</div>
+<div class="line"><a name="l00852"></a><span class="lineno">  852</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00853"></a><span class="lineno">  853</span>&#160;    }</div>
+<div class="line"><a name="l00854"></a><span class="lineno">  854</span>&#160;</div>
+<div class="line"><a name="l00855"></a><span class="lineno">  855</span>&#160;    <span class="keywordflow">if</span>(client == this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>)</div>
+<div class="line"><a name="l00856"></a><span class="lineno">  856</span>&#160;    {</div>
+<div class="line"><a name="l00857"></a><span class="lineno">  857</span>&#160;        this.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> = autocvar_g_nexball_viewmodel_scale;</div>
+<div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9bdd141f634714eab30642bf42f63862">enemy</a>)</div>
+<div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;            this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> |= <a class="code" href="../../d4/d92/csqc__constants_8qh.html#aab2f9f4c62011e52fa7f5fda67b7eb67">EF_FLAME</a>;</div>
+<div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;            this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> &amp;= ~<a class="code" href="../../d4/d92/csqc__constants_8qh.html#aab2f9f4c62011e52fa7f5fda67b7eb67">EF_FLAME</a>;</div>
+<div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;    }</div>
+<div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;    {</div>
+<div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> &amp;= ~<a class="code" href="../../d4/d92/csqc__constants_8qh.html#aab2f9f4c62011e52fa7f5fda67b7eb67">EF_FLAME</a>;</div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;        this.<a class="code" href="../../d1/d8d/wall_8qc.html#a1d28dec57cce925ad92342891bd71e7c">scale</a> = 1;</div>
+<div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;    }</div>
+<div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;</div>
+<div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00870"></a><span class="lineno">  870</span>&#160;}</div>
+<div class="line"><a name="l00871"></a><span class="lineno">  871</span>&#160;</div>
+<div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, wr_think, <span class="keywordtype">void</span>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a> thiswep, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor, .<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> weaponentity, <span class="keywordtype">int</span> fire))</div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;{</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, thiswep);</div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;    <span class="keywordflow">if</span>(fire &amp; 1)</div>
+<div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">false</span>, autocvar_g_balance_nexball_primary_refire))</div>
+<div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;            <span class="keywordflow">if</span>(autocvar_g_nexball_basketball_meter)</div>
+<div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;            {</div>
+<div class="line"><a name="l00879"></a><span class="lineno">  879</span>&#160;                <span class="keywordflow">if</span>(actor.ballcarried &amp;&amp; !actor.metertime)</div>
+<div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;                    actor.metertime = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;                    <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, autocvar_g_balance_nexball_primary_animtime, <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
+<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;            }</div>
+<div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;            {</div>
+<div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;                W_Nexball_Attack(actor, -1);</div>
+<div class="line"><a name="l00887"></a><span class="lineno">  887</span>&#160;                <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, autocvar_g_balance_nexball_primary_animtime, <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
+<div class="line"><a name="l00888"></a><span class="lineno">  888</span>&#160;            }</div>
+<div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;    <span class="keywordflow">if</span>(fire &amp; 2)</div>
+<div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a>(thiswep, actor, weaponentity, <span class="keyword">true</span>, autocvar_g_balance_nexball_secondary_refire))</div>
+<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;        {</div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;            W_Nexball_Attack2(actor);</div>
+<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;            <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE2, autocvar_g_balance_nexball_secondary_animtime, <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;        }</div>
+<div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;</div>
+<div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;    <span class="keywordflow">if</span>(!(fire &amp; 1) &amp;&amp; actor.metertime &amp;&amp; actor.ballcarried)</div>
+<div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;    {</div>
+<div class="line"><a name="l00898"></a><span class="lineno">  898</span>&#160;        W_Nexball_Attack(actor, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - actor.metertime);</div>
+<div class="line"><a name="l00899"></a><span class="lineno">  899</span>&#160;        <span class="comment">// DropBall or stealing will set metertime back to 0</span></div>
+<div class="line"><a name="l00900"></a><span class="lineno">  900</span>&#160;        <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a>(actor, weaponentity, WFRAME_FIRE1, autocvar_g_balance_nexball_primary_animtime, <a class="code" href="../../d5/d26/server_2defs_8qh.html#a66ca3d9dc1f3bc5a039abad59d986d40">w_ready</a>);</div>
+<div class="line"><a name="l00901"></a><span class="lineno">  901</span>&#160;    }</div>
+<div class="line"><a name="l00902"></a><span class="lineno">  902</span>&#160;}</div>
+<div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;</div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, wr_setup, <span class="keywordtype">void</span>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor))</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;{</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;    <span class="comment">//weapon_setup(WEP_PORTO.m_id);</span></div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;}</div>
+<div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;</div>
+<div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, wr_checkammo1, <span class="keywordtype">bool</span>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor))</div>
+<div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;{</div>
+<div class="line"><a name="l00912"></a><span class="lineno">  912</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00913"></a><span class="lineno">  913</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00914"></a><span class="lineno">  914</span>&#160;}</div>
+<div class="line"><a name="l00915"></a><span class="lineno">  915</span>&#160;</div>
+<div class="line"><a name="l00916"></a><span class="lineno">  916</span>&#160;<a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, wr_checkammo2, <span class="keywordtype">bool</span>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor))</div>
+<div class="line"><a name="l00917"></a><span class="lineno">  917</span>&#160;{</div>
+<div class="line"><a name="l00918"></a><span class="lineno">  918</span>&#160;    <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../dc/d30/classBallStealer.html">BallStealer</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00919"></a><span class="lineno">  919</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00920"></a><span class="lineno">  920</span>&#160;}</div>
+<div class="line"><a name="l00921"></a><span class="lineno">  921</span>&#160;</div>
+<div class="line"><a name="l00922"></a><span class="lineno">  922</span>&#160;<span class="keywordtype">void</span> nb_DropBall(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player)</div>
+<div class="line"><a name="l00923"></a><span class="lineno">  923</span>&#160;{</div>
+<div class="line"><a name="l00924"></a><span class="lineno">  924</span>&#160;    <span class="keywordflow">if</span>(player.ballcarried &amp;&amp; <a class="code" href="../../d2/d9e/mapinfo_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959">g_nexball</a>)</div>
+<div class="line"><a name="l00925"></a><span class="lineno">  925</span>&#160;        DropBall(player.ballcarried, player.origin, player.velocity);</div>
+<div class="line"><a name="l00926"></a><span class="lineno">  926</span>&#160;}</div>
+<div class="line"><a name="l00927"></a><span class="lineno">  927</span>&#160;</div>
+<div class="line"><a name="l00928"></a><span class="lineno">  928</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, <a class="code" href="../../da/d53/cl__client_8qc.html#ade766288e98d9de45e646c8212f6f14a">ClientDisconnect</a>)</div>
+<div class="line"><a name="l00929"></a><span class="lineno">  929</span>&#160;{</div>
+<div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;</div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;    nb_DropBall(player);</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;}</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, PlayerDies)</div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;{</div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;</div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;    nb_DropBall(frag_target);</div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;}</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;</div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, MakePlayerObserver)</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;{</div>
+<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;</div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;    nb_DropBall(player);</div>
+<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;}</div>
+<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;</div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, <a class="code" href="../../da/d53/cl__client_8qc.html#ac4842064b7f7b032f654e24f1fa5a155">PlayerPreThink</a>)</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;{</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;    makevectors(player.v_angle);</div>
+<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;    <span class="keywordflow">if</span>(nexball_mode &amp; NBM_BASKETBALL)</div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;    {</div>
+<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;        <span class="keywordflow">if</span>(player.ballcarried)</div>
+<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;        {</div>
+<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;            <span class="comment">// &#39;view ball&#39;</span></div>
+<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;            player.ballcarried.velocity = player.velocity;</div>
+<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a8f449f6d685c66917146e83e94085a4b">setcefc</a>(player.ballcarried, ball_customize);</div>
+<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;</div>
+<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;            <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> org = player.origin + player.view_ofs +</div>
+<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;                      <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a> * autocvar_g_nexball_viewmodel_offset.x +</div>
+<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;                      <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a> * autocvar_g_nexball_viewmodel_offset.y +</div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;                      <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a> * autocvar_g_nexball_viewmodel_offset.z;</div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;            setorigin(player.ballcarried, org);</div>
+<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;</div>
+<div class="line"><a name="l00969"></a><span class="lineno">  969</span>&#160;            <span class="comment">// &#39;safe passing&#39;</span></div>
+<div class="line"><a name="l00970"></a><span class="lineno">  970</span>&#160;            <span class="keywordflow">if</span>(autocvar_g_nexball_safepass_maxdist)</div>
+<div class="line"><a name="l00971"></a><span class="lineno">  971</span>&#160;            {</div>
+<div class="line"><a name="l00972"></a><span class="lineno">  972</span>&#160;                <span class="keywordflow">if</span>(player.ballcarried.wait &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &amp;&amp; player.ballcarried.enemy)</div>
+<div class="line"><a name="l00973"></a><span class="lineno">  973</span>&#160;                {</div>
+<div class="line"><a name="l00974"></a><span class="lineno">  974</span>&#160;                    <span class="comment">//centerprint(player, sprintf(&quot;Lost lock on %s&quot;, player.ballcarried.enemy.netname));</span></div>
+<div class="line"><a name="l00975"></a><span class="lineno">  975</span>&#160;                    player.ballcarried.enemy = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00976"></a><span class="lineno">  976</span>&#160;                }</div>
 <div class="line"><a name="l00977"></a><span class="lineno">  977</span>&#160;</div>
-<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;                <span class="comment">//tracebox(player.origin + player.view_ofs, &#39;-2 -2 -2&#39;, &#39;2 2 2&#39;, player.origin + player.view_ofs + v_forward * autocvar_g_nexball_safepass_maxdist);</span></div>
-<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;                <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a8292725ec840a49d42ef6453aaf838f6">crosshair_trace</a>(player);</div>
-<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;                <span class="keywordflow">if</span>( <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a> &amp;&amp;</div>
-<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;                    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a>) &amp;&amp;</div>
-<div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;                    !<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a>) &amp;&amp;</div>
-<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;                    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a>.team == player.team &amp;&amp;</div>
-<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;                    <a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a>.origin - player.origin, &lt;=, autocvar_g_nexball_safepass_maxdist) )</div>
-<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;                {</div>
-<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;</div>
-<div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;                    <span class="comment">//if(player.ballcarried.enemy != trace_ent)</span></div>
-<div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160;                    <span class="comment">//  centerprint(player, sprintf(&quot;Locked to %s&quot;, trace_ent.netname));</span></div>
-<div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;                    player.ballcarried.enemy = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a>;</div>
-<div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160;                    player.ballcarried.wait = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + autocvar_g_nexball_safepass_holdtime;</div>
-<div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160;</div>
+<div class="line"><a name="l00978"></a><span class="lineno">  978</span>&#160;</div>
+<div class="line"><a name="l00979"></a><span class="lineno">  979</span>&#160;                <span class="comment">//tracebox(player.origin + player.view_ofs, &#39;-2 -2 -2&#39;, &#39;2 2 2&#39;, player.origin + player.view_ofs + v_forward * autocvar_g_nexball_safepass_maxdist);</span></div>
+<div class="line"><a name="l00980"></a><span class="lineno">  980</span>&#160;                <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a8292725ec840a49d42ef6453aaf838f6">crosshair_trace</a>(player);</div>
+<div class="line"><a name="l00981"></a><span class="lineno">  981</span>&#160;                <span class="keywordflow">if</span>( <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a> &amp;&amp;</div>
+<div class="line"><a name="l00982"></a><span class="lineno">  982</span>&#160;                    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834">IS_CLIENT</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a>) &amp;&amp;</div>
+<div class="line"><a name="l00983"></a><span class="lineno">  983</span>&#160;                    !<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a>) &amp;&amp;</div>
+<div class="line"><a name="l00984"></a><span class="lineno">  984</span>&#160;                    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a>.team == player.team &amp;&amp;</div>
+<div class="line"><a name="l00985"></a><span class="lineno">  985</span>&#160;                    <a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a>.origin - player.origin, &lt;=, autocvar_g_nexball_safepass_maxdist) )</div>
+<div class="line"><a name="l00986"></a><span class="lineno">  986</span>&#160;                {</div>
+<div class="line"><a name="l00987"></a><span class="lineno">  987</span>&#160;</div>
+<div class="line"><a name="l00988"></a><span class="lineno">  988</span>&#160;                    <span class="comment">//if(player.ballcarried.enemy != trace_ent)</span></div>
+<div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;                    <span class="comment">//  centerprint(player, sprintf(&quot;Locked to %s&quot;, trace_ent.netname));</span></div>
+<div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160;                    player.ballcarried.enemy = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a>;</div>
+<div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160;                    player.ballcarried.wait = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + autocvar_g_nexball_safepass_holdtime;</div>
 <div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;</div>
-<div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;                }</div>
-<div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;            }</div>
-<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;        }</div>
-<div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160;        {</div>
-<div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;            .entity weaponentity = <a class="code" href="../../dc/d1c/weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[0]; <span class="comment">// TODO</span></div>
-<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;            <span class="keywordflow">if</span>(player.(weaponentity).weapons)</div>
-<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;            {</div>
-<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;                player.weapons = player.(weaponentity).<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9">weapons</a>;</div>
-<div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;                <a class="code" href="../../dc/de5/classWeapon.html">Weapon</a> w = WEP_NEXBALL;</div>
-<div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;                w.<a class="code" href="../../dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62">wr_resetplayer</a>(w, player);</div>
-<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;                <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(player).m_switchweapon = player.(weaponentity).m_switchweapon;</div>
-<div class="line"><a name="l01005"></a><span class="lineno"> 1005</span>&#160;                <a class="code" href="../../d2/d62/selection_8qc.html#a3d86139f61154a7d12857020f2dddcf0">W_SwitchWeapon</a>(player, <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(player).m_switchweapon);</div>
-<div class="line"><a name="l01006"></a><span class="lineno"> 1006</span>&#160;</div>
-<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;                player.(weaponentity).<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9">weapons</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160;            }</div>
-<div class="line"><a name="l01009"></a><span class="lineno"> 1009</span>&#160;        }</div>
-<div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;</div>
-<div class="line"><a name="l01011"></a><span class="lineno"> 1011</span>&#160;    }</div>
-<div class="line"><a name="l01012"></a><span class="lineno"> 1012</span>&#160;</div>
-<div class="line"><a name="l01013"></a><span class="lineno"> 1013</span>&#160;    nexball_setstatus(player);</div>
-<div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160;}</div>
-<div class="line"><a name="l01015"></a><span class="lineno"> 1015</span>&#160;</div>
-<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, <a class="code" href="../../da/d53/cl__client_8qc.html#a1565df9f317d13a6dda4f158fe18478d">SpectateCopy</a>)</div>
-<div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160;{</div>
-<div class="line"><a name="l01018"></a><span class="lineno"> 1018</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spectatee = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l01019"></a><span class="lineno"> 1019</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l01020"></a><span class="lineno"> 1020</span>&#160;</div>
-<div class="line"><a name="l01021"></a><span class="lineno"> 1021</span>&#160;    client.metertime = spectatee.metertime;</div>
-<div class="line"><a name="l01022"></a><span class="lineno"> 1022</span>&#160;}</div>
-<div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;</div>
-<div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, PlayerSpawn)</div>
-<div class="line"><a name="l01025"></a><span class="lineno"> 1025</span>&#160;{</div>
-<div class="line"><a name="l01026"></a><span class="lineno"> 1026</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l01027"></a><span class="lineno"> 1027</span>&#160;</div>
-<div class="line"><a name="l01028"></a><span class="lineno"> 1028</span>&#160;    player.metertime = 0;</div>
-<div class="line"><a name="l01029"></a><span class="lineno"> 1029</span>&#160;    .entity weaponentity = <a class="code" href="../../dc/d1c/weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[0];</div>
-<div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160;    player.(weaponentity).<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9">weapons</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l01031"></a><span class="lineno"> 1031</span>&#160;</div>
-<div class="line"><a name="l01032"></a><span class="lineno"> 1032</span>&#160;    <span class="keywordflow">if</span> (nexball_mode &amp; NBM_BASKETBALL)</div>
-<div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;        player.weapons |= <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(NEXBALL);</div>
-<div class="line"><a name="l01034"></a><span class="lineno"> 1034</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l01035"></a><span class="lineno"> 1035</span>&#160;        player.weapons = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l01036"></a><span class="lineno"> 1036</span>&#160;</div>
-<div class="line"><a name="l01037"></a><span class="lineno"> 1037</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01038"></a><span class="lineno"> 1038</span>&#160;}</div>
-<div class="line"><a name="l01039"></a><span class="lineno"> 1039</span>&#160;</div>
-<div class="line"><a name="l01040"></a><span class="lineno"> 1040</span>&#160;.float stat_sv_airspeedlimit_nonqw;</div>
-<div class="line"><a name="l01041"></a><span class="lineno"> 1041</span>&#160;.float stat_sv_maxspeed;</div>
-<div class="line"><a name="l01042"></a><span class="lineno"> 1042</span>&#160;</div>
-<div class="line"><a name="l01043"></a><span class="lineno"> 1043</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, PlayerPhysics)</div>
-<div class="line"><a name="l01044"></a><span class="lineno"> 1044</span>&#160;{</div>
-<div class="line"><a name="l01045"></a><span class="lineno"> 1045</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;</div>
-<div class="line"><a name="l01047"></a><span class="lineno"> 1047</span>&#160;    <span class="keywordflow">if</span>(player.ballcarried)</div>
-<div class="line"><a name="l01048"></a><span class="lineno"> 1048</span>&#160;    {</div>
-<div class="line"><a name="l01049"></a><span class="lineno"> 1049</span>&#160;        player.stat_sv_airspeedlimit_nonqw *= autocvar_g_nexball_basketball_carrier_highspeed;</div>
-<div class="line"><a name="l01050"></a><span class="lineno"> 1050</span>&#160;        player.stat_sv_maxspeed *= autocvar_g_nexball_basketball_carrier_highspeed;</div>
-<div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;    }</div>
-<div class="line"><a name="l01052"></a><span class="lineno"> 1052</span>&#160;}</div>
-<div class="line"><a name="l01053"></a><span class="lineno"> 1053</span>&#160;</div>
-<div class="line"><a name="l01054"></a><span class="lineno"> 1054</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, ForbidThrowCurrentWeapon)</div>
-<div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;{</div>
-<div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;</div>
-<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(player).m_weapon == WEP_NEXBALL;</div>
-<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;}</div>
-<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;</div>
-<div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, ForbidDropCurrentWeapon)</div>
-<div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;{</div>
-<div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;</div>
-<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(player).m_weapon == WEP_MORTAR; <span class="comment">// TODO: what is this for?</span></div>
-<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;}</div>
-<div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;</div>
-<div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, FilterItem)</div>
-<div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;{</div>
-<div class="line"><a name="l01070"></a><span class="lineno"> 1070</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l01071"></a><span class="lineno"> 1071</span>&#160;</div>
-<div class="line"><a name="l01072"></a><span class="lineno"> 1072</span>&#160;    <span class="keywordflow">if</span>(item.classname == <span class="stringliteral">&quot;droppedweapon&quot;</span>)</div>
-<div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;    <span class="keywordflow">if</span>(item.weapon == WEP_NEXBALL.m_id)</div>
-<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;</div>
-<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;}</div>
-<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;</div>
-<div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, ItemTouch)</div>
-<div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160;{</div>
-<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> toucher = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;</div>
-<div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;    <span class="keywordflow">if</span>(item.weapon &amp;&amp; toucher.ballcarried)</div>
-<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc6126af1d45847bc59afa0aa3216b04a9c5e9086f06ed095b2a2e86617459fb4">MUT_ITEMTOUCH_RETURN</a>; <span class="comment">// no new weapons for you, mister!</span></div>
-<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;</div>
-<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc6126af1d45847bc59afa0aa3216b04afae122758cc06d2452f6817e998671dd">MUT_ITEMTOUCH_CONTINUE</a>;</div>
-<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;}</div>
-<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;</div>
-<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, GetTeamCount)</div>
-<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;{</div>
-<div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <span class="keywordtype">string</span>) = <span class="stringliteral">&quot;nexball_team&quot;</span>;</div>
-<div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;}</div>
-<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;</div>
-<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, WantWeapon)</div>
-<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;{</div>
-<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <span class="keywordtype">float</span>) = 0; <span class="comment">// weapon is set a few lines later, apparently</span></div>
-<div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;}</div>
-<div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;</div>
-<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, DropSpecialItems)</div>
-<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;{</div>
-<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;</div>
-<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;    <span class="keywordflow">if</span>(frag_target.ballcarried)</div>
-<div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;        DropBall(frag_target.ballcarried, frag_target.origin, frag_target.velocity);</div>
-<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;</div>
-<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;}</div>
-<div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;</div>
-<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, SendWaypoint)</div>
-<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;{</div>
-<div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <span class="keywordtype">int</span>) &amp;= ~0x80;</div>
-<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;}</div>
-<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;</div>
-<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;<a class="code" href="../../db/d38/base_8qh.html#a34fe2a48e1aba3b8dcca44eb4bb02177">REGISTER_MUTATOR</a>(nb, <a class="code" href="../../d2/d9e/mapinfo_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959">g_nexball</a>)</div>
-<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;{</div>
-<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992">MUTATOR_ONADD</a></div>
-<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;    {</div>
-<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778">g_nexball_meter_period</a> = autocvar_g_nexball_meter_period;</div>
-<div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778">g_nexball_meter_period</a> &lt;= 0)</div>
-<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;            <a class="code" href="../../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778">g_nexball_meter_period</a> = 2; <span class="comment">// avoid division by zero etc. due to silly users</span></div>
-<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778">g_nexball_meter_period</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778">g_nexball_meter_period</a> * 32) / 32; <span class="comment">//Round to 1/32ths to send as a byte multiplied by 32</span></div>
-<div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;</div>
-<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;        <span class="comment">// General settings</span></div>
-<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;        <span class="comment">/*</span></div>
-<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;<span class="comment">        CVTOV(g_nexball_football_boost_forward);   //100</span></div>
-<div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;<span class="comment">        CVTOV(g_nexball_football_boost_up);     //200</span></div>
-<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;<span class="comment">        CVTOV(g_nexball_delay_idle);               //10</span></div>
-<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;<span class="comment">        CVTOV(g_nexball_football_physics);       //0</span></div>
-<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;<span class="comment">        */</span></div>
-<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#ace84bb9485d6470a12441cca242fa3e0">radar_showennemies</a> = autocvar_g_nexball_radar_showallplayers;</div>
-<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;</div>
-<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, nb_delayedinit, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a2562d3f5a88de435b499fd5b3b67c175">INITPRIO_GAMETYPE</a>);</div>
-<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;        WEP_NEXBALL.spawnflags &amp;= ~<a class="code" href="../../dc/d1c/weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a>;</div>
-<div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;</div>
-<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;        <a class="code" href="../../d9/d8e/gamemode__assault_8qc.html#ae1c3e008f1694a4a8d288f0708893574">ActivateTeamplay</a>();</div>
-<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;        <a class="code" href="../../db/dcc/g__world_8qc.html#a246b8f5baa8038cddf08ecc9adf5b17c">SetLimits</a>(autocvar_g_nexball_goallimit, autocvar_g_nexball_goalleadlimit, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a044e0af0cd49790e1cfe2203ec6e5a8d">autocvar_timelimit_override</a>, -1);</div>
-<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#a82bd246c33cb412dec913e65a81b461c">have_team_spawns</a> = -1; <span class="comment">// request team spawns</span></div>
-<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;    }</div>
-<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;</div>
-<div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a18b6800f2d1093efff7a7c8fcdae7f40">MUTATOR_ONROLLBACK_OR_REMOVE</a></div>
-<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;    {</div>
-<div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;        WEP_NEXBALL.spawnflags |= <a class="code" href="../../dc/d1c/weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a>;</div>
-<div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;        <span class="comment">// we actually cannot roll back nb_delayedinit here</span></div>
-<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;        <span class="comment">// BUT: we don&#39;t need to! If this gets called, adding always</span></div>
-<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;        <span class="comment">// succeeds.</span></div>
-<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;    }</div>
-<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;</div>
-<div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e">MUTATOR_ONREMOVE</a></div>
-<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;    {</div>
-<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;This is a game type and it cannot be removed at runtime.&quot;</span>);</div>
-<div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;        <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;    }</div>
-<div class="line"><a name="l01156"></a><span class="lineno"> 1156</span>&#160;</div>
-<div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;}</div>
-<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;</div>
-<div class="line"><a name="l01160"></a><span class="lineno"> 1160</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l01161"></a><span class="lineno"> 1161</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;</div>
+<div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;                }</div>
+<div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;            }</div>
+<div class="line"><a name="l00996"></a><span class="lineno">  996</span>&#160;        }</div>
+<div class="line"><a name="l00997"></a><span class="lineno">  997</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;        {</div>
+<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;            .entity weaponentity = <a class="code" href="../../dc/d1c/weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[0]; <span class="comment">// TODO</span></div>
+<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;            <span class="keywordflow">if</span>(player.(weaponentity).weapons)</div>
+<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;            {</div>
+<div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;                player.weapons = player.(weaponentity).<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9">weapons</a>;</div>
+<div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;                <a class="code" href="../../dc/de5/classWeapon.html">Weapon</a> w = WEP_NEXBALL;</div>
+<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;                w.<a class="code" href="../../dc/de5/classWeapon.html#af2dd6917e731b30d5b03d35c72d60b62">wr_resetplayer</a>(w, player);</div>
+<div class="line"><a name="l01005"></a><span class="lineno"> 1005</span>&#160;                <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(player).m_switchweapon = player.(weaponentity).m_switchweapon;</div>
+<div class="line"><a name="l01006"></a><span class="lineno"> 1006</span>&#160;                <a class="code" href="../../d2/d62/selection_8qc.html#a3d86139f61154a7d12857020f2dddcf0">W_SwitchWeapon</a>(player, <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(player).m_switchweapon);</div>
+<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;</div>
+<div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160;                player.(weaponentity).<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9">weapons</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l01009"></a><span class="lineno"> 1009</span>&#160;            }</div>
+<div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;        }</div>
+<div class="line"><a name="l01011"></a><span class="lineno"> 1011</span>&#160;</div>
+<div class="line"><a name="l01012"></a><span class="lineno"> 1012</span>&#160;    }</div>
+<div class="line"><a name="l01013"></a><span class="lineno"> 1013</span>&#160;</div>
+<div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160;    nexball_setstatus(player);</div>
+<div class="line"><a name="l01015"></a><span class="lineno"> 1015</span>&#160;}</div>
+<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;</div>
+<div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, <a class="code" href="../../da/d53/cl__client_8qc.html#a1565df9f317d13a6dda4f158fe18478d">SpectateCopy</a>)</div>
+<div class="line"><a name="l01018"></a><span class="lineno"> 1018</span>&#160;{</div>
+<div class="line"><a name="l01019"></a><span class="lineno"> 1019</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> spectatee = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l01020"></a><span class="lineno"> 1020</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l01021"></a><span class="lineno"> 1021</span>&#160;</div>
+<div class="line"><a name="l01022"></a><span class="lineno"> 1022</span>&#160;    client.metertime = spectatee.metertime;</div>
+<div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;}</div>
+<div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;</div>
+<div class="line"><a name="l01025"></a><span class="lineno"> 1025</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, PlayerSpawn)</div>
+<div class="line"><a name="l01026"></a><span class="lineno"> 1026</span>&#160;{</div>
+<div class="line"><a name="l01027"></a><span class="lineno"> 1027</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l01028"></a><span class="lineno"> 1028</span>&#160;</div>
+<div class="line"><a name="l01029"></a><span class="lineno"> 1029</span>&#160;    player.metertime = 0;</div>
+<div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160;    .entity weaponentity = <a class="code" href="../../dc/d1c/weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[0];</div>
+<div class="line"><a name="l01031"></a><span class="lineno"> 1031</span>&#160;    player.(weaponentity).<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9">weapons</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l01032"></a><span class="lineno"> 1032</span>&#160;</div>
+<div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;    <span class="keywordflow">if</span> (nexball_mode &amp; NBM_BASKETBALL)</div>
+<div class="line"><a name="l01034"></a><span class="lineno"> 1034</span>&#160;        player.weapons |= <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a48b13233ca80bcbcab0f3c4c6a099658">WEPSET</a>(NEXBALL);</div>
+<div class="line"><a name="l01035"></a><span class="lineno"> 1035</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l01036"></a><span class="lineno"> 1036</span>&#160;        player.weapons = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l01037"></a><span class="lineno"> 1037</span>&#160;</div>
+<div class="line"><a name="l01038"></a><span class="lineno"> 1038</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01039"></a><span class="lineno"> 1039</span>&#160;}</div>
+<div class="line"><a name="l01040"></a><span class="lineno"> 1040</span>&#160;</div>
+<div class="line"><a name="l01041"></a><span class="lineno"> 1041</span>&#160;.float stat_sv_airspeedlimit_nonqw;</div>
+<div class="line"><a name="l01042"></a><span class="lineno"> 1042</span>&#160;.float stat_sv_maxspeed;</div>
+<div class="line"><a name="l01043"></a><span class="lineno"> 1043</span>&#160;</div>
+<div class="line"><a name="l01044"></a><span class="lineno"> 1044</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, PlayerPhysics)</div>
+<div class="line"><a name="l01045"></a><span class="lineno"> 1045</span>&#160;{</div>
+<div class="line"><a name="l01046"></a><span class="lineno"> 1046</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l01047"></a><span class="lineno"> 1047</span>&#160;</div>
+<div class="line"><a name="l01048"></a><span class="lineno"> 1048</span>&#160;    <span class="keywordflow">if</span>(player.ballcarried)</div>
+<div class="line"><a name="l01049"></a><span class="lineno"> 1049</span>&#160;    {</div>
+<div class="line"><a name="l01050"></a><span class="lineno"> 1050</span>&#160;        player.stat_sv_airspeedlimit_nonqw *= autocvar_g_nexball_basketball_carrier_highspeed;</div>
+<div class="line"><a name="l01051"></a><span class="lineno"> 1051</span>&#160;        player.stat_sv_maxspeed *= autocvar_g_nexball_basketball_carrier_highspeed;</div>
+<div class="line"><a name="l01052"></a><span class="lineno"> 1052</span>&#160;    }</div>
+<div class="line"><a name="l01053"></a><span class="lineno"> 1053</span>&#160;}</div>
+<div class="line"><a name="l01054"></a><span class="lineno"> 1054</span>&#160;</div>
+<div class="line"><a name="l01055"></a><span class="lineno"> 1055</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, ForbidThrowCurrentWeapon)</div>
+<div class="line"><a name="l01056"></a><span class="lineno"> 1056</span>&#160;{</div>
+<div class="line"><a name="l01057"></a><span class="lineno"> 1057</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l01058"></a><span class="lineno"> 1058</span>&#160;</div>
+<div class="line"><a name="l01059"></a><span class="lineno"> 1059</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(player).m_weapon == WEP_NEXBALL;</div>
+<div class="line"><a name="l01060"></a><span class="lineno"> 1060</span>&#160;}</div>
+<div class="line"><a name="l01061"></a><span class="lineno"> 1061</span>&#160;</div>
+<div class="line"><a name="l01062"></a><span class="lineno"> 1062</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, ForbidDropCurrentWeapon)</div>
+<div class="line"><a name="l01063"></a><span class="lineno"> 1063</span>&#160;{</div>
+<div class="line"><a name="l01064"></a><span class="lineno"> 1064</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l01065"></a><span class="lineno"> 1065</span>&#160;</div>
+<div class="line"><a name="l01066"></a><span class="lineno"> 1066</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(player).m_weapon == WEP_MORTAR; <span class="comment">// TODO: what is this for?</span></div>
+<div class="line"><a name="l01067"></a><span class="lineno"> 1067</span>&#160;}</div>
+<div class="line"><a name="l01068"></a><span class="lineno"> 1068</span>&#160;</div>
+<div class="line"><a name="l01069"></a><span class="lineno"> 1069</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, FilterItem)</div>
+<div class="line"><a name="l01070"></a><span class="lineno"> 1070</span>&#160;{</div>
+<div class="line"><a name="l01071"></a><span class="lineno"> 1071</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l01072"></a><span class="lineno"> 1072</span>&#160;</div>
+<div class="line"><a name="l01073"></a><span class="lineno"> 1073</span>&#160;    <span class="keywordflow">if</span>(item.classname == <span class="stringliteral">&quot;droppedweapon&quot;</span>)</div>
+<div class="line"><a name="l01074"></a><span class="lineno"> 1074</span>&#160;    <span class="keywordflow">if</span>(item.weapon == WEP_NEXBALL.m_id)</div>
+<div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;</div>
+<div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;}</div>
+<div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;</div>
+<div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, ItemTouch)</div>
+<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;{</div>
+<div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> toucher = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;</div>
+<div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;    <span class="keywordflow">if</span>(item.weapon &amp;&amp; toucher.ballcarried)</div>
+<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc6126af1d45847bc59afa0aa3216b04a9c5e9086f06ed095b2a2e86617459fb4">MUT_ITEMTOUCH_RETURN</a>; <span class="comment">// no new weapons for you, mister!</span></div>
+<div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;</div>
+<div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#abc6126af1d45847bc59afa0aa3216b04afae122758cc06d2452f6817e998671dd">MUT_ITEMTOUCH_CONTINUE</a>;</div>
+<div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;}</div>
+<div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;</div>
+<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, GetTeamCount)</div>
+<div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;{</div>
+<div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <span class="keywordtype">string</span>) = <span class="stringliteral">&quot;nexball_team&quot;</span>;</div>
+<div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;}</div>
+<div class="line"><a name="l01096"></a><span class="lineno"> 1096</span>&#160;</div>
+<div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, WantWeapon)</div>
+<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;{</div>
+<div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <span class="keywordtype">float</span>) = 0; <span class="comment">// weapon is set a few lines later, apparently</span></div>
+<div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;}</div>
+<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;</div>
+<div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, DropSpecialItems)</div>
+<div class="line"><a name="l01104"></a><span class="lineno"> 1104</span>&#160;{</div>
+<div class="line"><a name="l01105"></a><span class="lineno"> 1105</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l01106"></a><span class="lineno"> 1106</span>&#160;</div>
+<div class="line"><a name="l01107"></a><span class="lineno"> 1107</span>&#160;    <span class="keywordflow">if</span>(frag_target.ballcarried)</div>
+<div class="line"><a name="l01108"></a><span class="lineno"> 1108</span>&#160;        DropBall(frag_target.ballcarried, frag_target.origin, frag_target.velocity);</div>
+<div class="line"><a name="l01109"></a><span class="lineno"> 1109</span>&#160;</div>
+<div class="line"><a name="l01110"></a><span class="lineno"> 1110</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l01111"></a><span class="lineno"> 1111</span>&#160;}</div>
+<div class="line"><a name="l01112"></a><span class="lineno"> 1112</span>&#160;</div>
+<div class="line"><a name="l01113"></a><span class="lineno"> 1113</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(nb, SendWaypoint)</div>
+<div class="line"><a name="l01114"></a><span class="lineno"> 1114</span>&#160;{</div>
+<div class="line"><a name="l01115"></a><span class="lineno"> 1115</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <span class="keywordtype">int</span>) &amp;= ~0x80;</div>
+<div class="line"><a name="l01116"></a><span class="lineno"> 1116</span>&#160;}</div>
+<div class="line"><a name="l01117"></a><span class="lineno"> 1117</span>&#160;</div>
+<div class="line"><a name="l01118"></a><span class="lineno"> 1118</span>&#160;<a class="code" href="../../db/d38/base_8qh.html#a34fe2a48e1aba3b8dcca44eb4bb02177">REGISTER_MUTATOR</a>(nb, <a class="code" href="../../d2/d9e/mapinfo_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959">g_nexball</a>)</div>
+<div class="line"><a name="l01119"></a><span class="lineno"> 1119</span>&#160;{</div>
+<div class="line"><a name="l01120"></a><span class="lineno"> 1120</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992">MUTATOR_ONADD</a></div>
+<div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;    {</div>
+<div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778">g_nexball_meter_period</a> = autocvar_g_nexball_meter_period;</div>
+<div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778">g_nexball_meter_period</a> &lt;= 0)</div>
+<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;            <a class="code" href="../../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778">g_nexball_meter_period</a> = 2; <span class="comment">// avoid division by zero etc. due to silly users</span></div>
+<div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778">g_nexball_meter_period</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778">g_nexball_meter_period</a> * 32) / 32; <span class="comment">//Round to 1/32ths to send as a byte multiplied by 32</span></div>
+<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;</div>
+<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;        <span class="comment">// General settings</span></div>
+<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;        <span class="comment">/*</span></div>
+<div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;<span class="comment">        CVTOV(g_nexball_football_boost_forward);   //100</span></div>
+<div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;<span class="comment">        CVTOV(g_nexball_football_boost_up);     //200</span></div>
+<div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;<span class="comment">        CVTOV(g_nexball_delay_idle);               //10</span></div>
+<div class="line"><a name="l01132"></a><span class="lineno"> 1132</span>&#160;<span class="comment">        CVTOV(g_nexball_football_physics);       //0</span></div>
+<div class="line"><a name="l01133"></a><span class="lineno"> 1133</span>&#160;<span class="comment">        */</span></div>
+<div class="line"><a name="l01134"></a><span class="lineno"> 1134</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#ace84bb9485d6470a12441cca242fa3e0">radar_showennemies</a> = autocvar_g_nexball_radar_showallplayers;</div>
+<div class="line"><a name="l01135"></a><span class="lineno"> 1135</span>&#160;</div>
+<div class="line"><a name="l01136"></a><span class="lineno"> 1136</span>&#160;        <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, nb_delayedinit, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a2562d3f5a88de435b499fd5b3b67c175">INITPRIO_GAMETYPE</a>);</div>
+<div class="line"><a name="l01137"></a><span class="lineno"> 1137</span>&#160;        WEP_NEXBALL.spawnflags &amp;= ~<a class="code" href="../../dc/d1c/weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a>;</div>
+<div class="line"><a name="l01138"></a><span class="lineno"> 1138</span>&#160;</div>
+<div class="line"><a name="l01139"></a><span class="lineno"> 1139</span>&#160;        <a class="code" href="../../d9/d8e/gamemode__assault_8qc.html#ae1c3e008f1694a4a8d288f0708893574">ActivateTeamplay</a>();</div>
+<div class="line"><a name="l01140"></a><span class="lineno"> 1140</span>&#160;        <a class="code" href="../../db/dcc/g__world_8qc.html#a246b8f5baa8038cddf08ecc9adf5b17c">SetLimits</a>(autocvar_g_nexball_goallimit, autocvar_g_nexball_goalleadlimit, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a044e0af0cd49790e1cfe2203ec6e5a8d">autocvar_timelimit_override</a>, -1);</div>
+<div class="line"><a name="l01141"></a><span class="lineno"> 1141</span>&#160;        <a class="code" href="../../d5/d26/server_2defs_8qh.html#a82bd246c33cb412dec913e65a81b461c">have_team_spawns</a> = -1; <span class="comment">// request team spawns</span></div>
+<div class="line"><a name="l01142"></a><span class="lineno"> 1142</span>&#160;    }</div>
+<div class="line"><a name="l01143"></a><span class="lineno"> 1143</span>&#160;</div>
+<div class="line"><a name="l01144"></a><span class="lineno"> 1144</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a18b6800f2d1093efff7a7c8fcdae7f40">MUTATOR_ONROLLBACK_OR_REMOVE</a></div>
+<div class="line"><a name="l01145"></a><span class="lineno"> 1145</span>&#160;    {</div>
+<div class="line"><a name="l01146"></a><span class="lineno"> 1146</span>&#160;        WEP_NEXBALL.spawnflags |= <a class="code" href="../../dc/d1c/weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a>;</div>
+<div class="line"><a name="l01147"></a><span class="lineno"> 1147</span>&#160;        <span class="comment">// we actually cannot roll back nb_delayedinit here</span></div>
+<div class="line"><a name="l01148"></a><span class="lineno"> 1148</span>&#160;        <span class="comment">// BUT: we don&#39;t need to! If this gets called, adding always</span></div>
+<div class="line"><a name="l01149"></a><span class="lineno"> 1149</span>&#160;        <span class="comment">// succeeds.</span></div>
+<div class="line"><a name="l01150"></a><span class="lineno"> 1150</span>&#160;    }</div>
+<div class="line"><a name="l01151"></a><span class="lineno"> 1151</span>&#160;</div>
+<div class="line"><a name="l01152"></a><span class="lineno"> 1152</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e">MUTATOR_ONREMOVE</a></div>
+<div class="line"><a name="l01153"></a><span class="lineno"> 1153</span>&#160;    {</div>
+<div class="line"><a name="l01154"></a><span class="lineno"> 1154</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;This is a game type and it cannot be removed at runtime.&quot;</span>);</div>
+<div class="line"><a name="l01155"></a><span class="lineno"> 1155</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l01156"></a><span class="lineno"> 1156</span>&#160;    }</div>
+<div class="line"><a name="l01157"></a><span class="lineno"> 1157</span>&#160;</div>
+<div class="line"><a name="l01158"></a><span class="lineno"> 1158</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l01159"></a><span class="lineno"> 1159</span>&#160;}</div>
+<div class="line"><a name="l01160"></a><span class="lineno"> 1160</span>&#160;</div>
+<div class="line"><a name="l01161"></a><span class="lineno"> 1161</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01162"></a><span class="lineno"> 1162</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="subs_8qh_html_ace018e22065252376fce6931dfe4f729"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729">state</a></div><div class="ttdeci">float state</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00020">subs.qh:20</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="tracing_8qh_html_afec432a376f4b4dea6f8aba2ee81e6d0"><div class="ttname"><a href="../../d4/d3f/tracing_8qh.html#afec432a376f4b4dea6f8aba2ee81e6d0">W_SetupProjVelocity_Basic</a></div><div class="ttdeci">#define W_SetupProjVelocity_Basic(ent, pspeed, pspread)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d3f/tracing_8qh_source.html#l00028">tracing.qh:28</a></div></div>
@@ -1322,6 +1323,7 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div class="ttc" id="csprogsdefs_8qc_html_ac9ad78cdc39949f5f716a5eda584f5e6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a></div><div class="ttdeci">string model</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00108">csprogsdefs.qc:108</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a9a82a4d363a39e85151eaec7a4f8dae2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a></div><div class="ttdeci">string precache_sound(string sample)</div></div>
 <div class="ttc" id="teleporters_8qh_html_a798f63d3b40c416811743d9bfc9b1d28"><div class="ttname"><a href="../../dd/d2d/teleporters_8qh.html#a798f63d3b40c416811743d9bfc9b1d28">pusher</a></div><div class="ttdeci">entity pusher</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d2d/teleporters_8qh_source.html#l00004">teleporters.qh:4</a></div></div>
+<div class="ttc" id="intrusivelist_8qh_html_a44ed93b6aaca72d222ce263898d152b4"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a44ed93b6aaca72d222ce263898d152b4">IL_PUSH</a></div><div class="ttdeci">entity IL_PUSH(IntrusiveList this, entity it)</div><div class="ttdoc">Push to tail. </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00049">intrusivelist.qh:49</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a2562d3f5a88de435b499fd5b3b67c175"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a2562d3f5a88de435b499fd5b3b67c175">INITPRIO_GAMETYPE</a></div><div class="ttdeci">const int INITPRIO_GAMETYPE</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00008">miscfunctions.qh:8</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a2159f6bc562457d558effab8f13f1603"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a></div><div class="ttdeci">entity trace_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00040">csprogsdefs.qc:40</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab0df318f2dece7f798ff4061cd67f9d2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a></div><div class="ttdeci">string vtos(vector v)</div></div>
@@ -1347,8 +1349,9 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div class="ttc" id="csprogsdefs_8qc_html_a016975064cec162b7970af4b7a35149b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a></div><div class="ttdeci">vector v_up</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">csprogsdefs.qc:31</a></div></div>
 <div class="ttc" id="classBallStealer_html"><div class="ttname"><a href="../../dc/d30/classBallStealer.html">BallStealer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d69/weapon_8qc_source.html#l00004">weapon.qc:4</a></div></div>
 <div class="ttc" id="jumppads_8qc_html_a314c2ab38cad8dd0cbe7622152bb918d"><div class="ttname"><a href="../../d2/d9b/jumppads_8qc.html#a314c2ab38cad8dd0cbe7622152bb918d">trigger_push_calculatevelocity</a></div><div class="ttdeci">vector trigger_push_calculatevelocity(vector org, entity tgt, float ht)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9b/jumppads_8qc_source.html#l00033">jumppads.qc:33</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_a60e662b2259d5b4ff290afd4566a17dd"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a60e662b2259d5b4ff290afd4566a17dd">g_projectiles</a></div><div class="ttdeci">IntrusiveList g_projectiles</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00462">defs.qh:462</a></div></div>
 <div class="ttc" id="framework_8qc_html_aef346455b3c2def821423a45227b45dd"><div class="ttname"><a href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a></div><div class="ttdeci">void LOG_TRACE(string s,...)</div></div>
-<div class="ttc" id="weaponsystem_8qc_html_a3eef678d2a46dc639f684d226fae3906"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a></div><div class="ttdeci">bool weapon_prepareattack(Weapon thiswep, entity actor,.entity weaponentity, bool secondary, float attacktime)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00313">weaponsystem.qc:313</a></div></div>
+<div class="ttc" id="weaponsystem_8qc_html_a3eef678d2a46dc639f684d226fae3906"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906">weapon_prepareattack</a></div><div class="ttdeci">bool weapon_prepareattack(Weapon thiswep, entity actor,.entity weaponentity, bool secondary, float attacktime)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00312">weaponsystem.qc:312</a></div></div>
 <div class="ttc" id="sound_8qh_html_a02d399de90e89d49743d68b975d01376"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a02d399de90e89d49743d68b975d01376">CH_TRIGGER</a></div><div class="ttdeci">const int CH_TRIGGER</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00013">sound.qh:13</a></div></div>
 <div class="ttc" id="weapon_8qh_html_a56bca5a7cf9c3b914cb389ba09f8999c"><div class="ttname"><a href="../../dc/d1c/weapon_8qh.html#a56bca5a7cf9c3b914cb389ba09f8999c">WS_READY</a></div><div class="ttdeci">const int WS_READY</div><div class="ttdoc">idle frame </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00035">weapon.qh:35</a></div></div>
 <div class="ttc" id="gamemode__assault_8qc_html_ae1c3e008f1694a4a8d288f0708893574"><div class="ttname"><a href="../../d9/d8e/gamemode__assault_8qc.html#ae1c3e008f1694a4a8d288f0708893574">ActivateTeamplay</a></div><div class="ttdeci">void ActivateTeamplay()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4f/teamplay_8qc_source.html#l00040">teamplay.qc:40</a></div></div>
@@ -1393,7 +1396,7 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div class="ttc" id="server_2miscfunctions_8qc_html_a8292725ec840a49d42ef6453aaf838f6"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a8292725ec840a49d42ef6453aaf838f6">crosshair_trace</a></div><div class="ttdeci">void crosshair_trace(entity pl)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00032">miscfunctions.qc:32</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_af141085479aafa94cfa6b3fa30a9eaf6"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#af141085479aafa94cfa6b3fa30a9eaf6">autocvar_sv_eventlog</a></div><div class="ttdeci">bool autocvar_sv_eventlog</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00347">autocvars.qh:347</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8b85fda1f4e4157ff583a91373b2f71"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a></div><div class="ttdeci">float rint(float f)</div></div>
-<div class="ttc" id="weaponsystem_8qc_html_a2c942b58576428eb5b55f9d6ca107a49"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a></div><div class="ttdeci">void weapon_thinkf(entity actor,.entity weaponentity, WFRAME fr, float t, void(Weapon thiswep, entity actor,.entity weaponentity, int fire) func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00329">weaponsystem.qc:329</a></div></div>
+<div class="ttc" id="weaponsystem_8qc_html_a2c942b58576428eb5b55f9d6ca107a49"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49">weapon_thinkf</a></div><div class="ttdeci">void weapon_thinkf(entity actor,.entity weaponentity, WFRAME fr, float t, void(Weapon thiswep, entity actor,.entity weaponentity, int fire) func)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00328">weaponsystem.qc:328</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a842a5256688a7c19f56df63e5d585d05"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a842a5256688a7c19f56df63e5d585d05">items</a></div><div class="ttdeci">float items</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00145">progsdefs.qc:145</a></div></div>
 <div class="ttc" id="cl__client_8qc_html_a1565df9f317d13a6dda4f158fe18478d"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#a1565df9f317d13a6dda4f158fe18478d">SpectateCopy</a></div><div class="ttdeci">void SpectateCopy(entity this, entity spectatee)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01577">cl_client.qc:1577</a></div></div>
 <div class="ttc" id="sound_8qh_html_ab3244e946a9d251f139b92bca26b13a3"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#ab3244e946a9d251f139b92bca26b13a3">_sound</a></div><div class="ttdeci">#define _sound(e, c, s, v, a)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00051">sound.qh:51</a></div></div>
@@ -1439,7 +1442,7 @@ $(document).ready(function(){initNavTree('dc/d5a/nexball_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_c814fee23757456cb4490b5d684bd5e6.html">nexball</a></li><li class="navelem"><a class="el" href="../../dc/d5a/nexball_8qc.html">nexball.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:47 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:06 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

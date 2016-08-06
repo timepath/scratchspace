@@ -249,7 +249,7 @@ $(document).ready(function(){initNavTree('dc/d3d/csqcmodel__hooks_8qc_source.htm
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        _setmodel(e, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8">cvar_defstring</a>(<span class="stringliteral">&quot;_cl_playermodel&quot;</span>));</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#af22afe9c8dd79fac4885d503e655c026">forceplayermodels_goodmodel</a> = e.model;</div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#aedd3f6c98d17e753cfed401b112ca22c">forceplayermodels_goodmodelindex</a> = e.modelindex;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    }</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="comment">// first, try finding it from the server</span></div>
@@ -282,7 +282,7 @@ $(document).ready(function(){initNavTree('dc/d3d/csqcmodel__hooks_8qc_source.htm
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#accd8d6503887bb55560749ae4c2216fa">forceplayermodels_model</a> = e.model;</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#ab1b361b285ae78a2468e680bf9b76524">forceplayermodels_modelindex</a> = e.modelindex;</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a504d2f48a0fe6edc24a2563a071c9608">forceplayermodels_skin</a> = <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a58e0021b7723d4801d1fa2a44a00b105">autocvar__cl_playerskin</a>;</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;        <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    }</div>
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a81aca95f2f2489e79387af7b9eb4d31d">autocvar_cl_forcemyplayermodel</a> != <span class="stringliteral">&quot;&quot;</span> &amp;&amp; <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a81aca95f2f2489e79387af7b9eb4d31d">autocvar_cl_forcemyplayermodel</a> != <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a1bd92a536c5f5a353c528a891ba39b20">forceplayermodels_mymodel</a>)</div>
@@ -292,7 +292,7 @@ $(document).ready(function(){initNavTree('dc/d3d/csqcmodel__hooks_8qc_source.htm
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#aaedad82d1b7beb08b7544cd8b939c92f">forceplayermodels_myisgoodmodel</a> = <a class="code" href="../../d5/df2/common_2util_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff">fexists</a>(e.model);</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;        <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a1bd92a536c5f5a353c528a891ba39b20">forceplayermodels_mymodel</a> = e.model;</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a7503ea49fcdc9d45df61562eb8987e60">forceplayermodels_mymodelindex</a> = e.modelindex;</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keyword">remove</span>(e);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keyword">delete</span>(e);</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    }</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    <span class="comment">// apply it</span></div>
@@ -1037,7 +1037,7 @@ $(document).ready(function(){initNavTree('dc/d3d/csqcmodel__hooks_8qc_source.htm
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc.html">csqcmodel_hooks.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:46 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:05 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

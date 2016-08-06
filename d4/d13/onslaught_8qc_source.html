@@ -658,7 +658,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;            setmodel_fixsize(this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>, MDL_ONS_CP_PAD1);</div>
 <div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;        <span class="comment">//setsize(this, &#39;-32 -32 0&#39;, &#39;32 32 8&#39;);</span></div>
 <div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;</div>
-<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;        <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;    }</div>
 <div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;</div>
 <div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;    this.SendFlags |= <a class="code" href="../../d4/d93/cl__controlpoint_8qh.html#a71fedd372003f8a38071cb6c5ee68e35">CPSF_STATUS</a>;</div>
@@ -926,7 +926,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;<span class="keywordtype">void</span> ons_ControlPoint_Reset(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;{</div>
 <div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a588ddcbfad5363fccd2936b8db1e3307">goalentity</a>)</div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;        <span class="keyword">remove</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a588ddcbfad5363fccd2936b8db1e3307">goalentity</a>);</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;        <span class="keyword">delete</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a588ddcbfad5363fccd2936b8db1e3307">goalentity</a>);</div>
 <div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;</div>
 <div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;    this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a588ddcbfad5363fccd2936b8db1e3307">goalentity</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> = 0;</div>
@@ -2022,7 +2022,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l01923"></a><span class="lineno"> 1923</span>&#160;{</div>
 <div class="line"><a name="l01924"></a><span class="lineno"> 1924</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> own = this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>;</div>
 <div class="line"><a name="l01925"></a><span class="lineno"> 1925</span>&#160;</div>
-<div class="line"><a name="l01926"></a><span class="lineno"> 1926</span>&#160;    <span class="keywordflow">if</span>(!own) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l01926"></a><span class="lineno"> 1926</span>&#160;    <span class="keywordflow">if</span>(!own) { <span class="keyword">delete</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
 <div class="line"><a name="l01927"></a><span class="lineno"> 1927</span>&#160;</div>
 <div class="line"><a name="l01928"></a><span class="lineno"> 1928</span>&#160;    <span class="keywordflow">if</span>(own.targetname)</div>
 <div class="line"><a name="l01929"></a><span class="lineno"> 1929</span>&#160;    {</div>
@@ -2035,7 +2035,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l01936"></a><span class="lineno"> 1936</span>&#160;        }</div>
 <div class="line"><a name="l01937"></a><span class="lineno"> 1937</span>&#160;    }</div>
 <div class="line"><a name="l01938"></a><span class="lineno"> 1938</span>&#160;</div>
-<div class="line"><a name="l01939"></a><span class="lineno"> 1939</span>&#160;    <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l01939"></a><span class="lineno"> 1939</span>&#160;    <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l01940"></a><span class="lineno"> 1940</span>&#160;}</div>
 <div class="line"><a name="l01941"></a><span class="lineno"> 1941</span>&#160;</div>
 <div class="line"><a name="l01942"></a><span class="lineno"> 1942</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(ons, MonsterSpawn)</div>
@@ -2051,7 +2051,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l01952"></a><span class="lineno"> 1952</span>&#160;{</div>
 <div class="line"><a name="l01953"></a><span class="lineno"> 1953</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> own = this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>;</div>
 <div class="line"><a name="l01954"></a><span class="lineno"> 1954</span>&#160;</div>
-<div class="line"><a name="l01955"></a><span class="lineno"> 1955</span>&#160;    <span class="keywordflow">if</span>(!own) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l01955"></a><span class="lineno"> 1955</span>&#160;    <span class="keywordflow">if</span>(!own) { <span class="keyword">delete</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
 <div class="line"><a name="l01956"></a><span class="lineno"> 1956</span>&#160;</div>
 <div class="line"><a name="l01957"></a><span class="lineno"> 1957</span>&#160;    <span class="keywordflow">if</span>(own.targetname)</div>
 <div class="line"><a name="l01958"></a><span class="lineno"> 1958</span>&#160;    {</div>
@@ -2065,7 +2065,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l01966"></a><span class="lineno"> 1966</span>&#160;        }</div>
 <div class="line"><a name="l01967"></a><span class="lineno"> 1967</span>&#160;    }</div>
 <div class="line"><a name="l01968"></a><span class="lineno"> 1968</span>&#160;</div>
-<div class="line"><a name="l01969"></a><span class="lineno"> 1969</span>&#160;    <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l01969"></a><span class="lineno"> 1969</span>&#160;    <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l01970"></a><span class="lineno"> 1970</span>&#160;}</div>
 <div class="line"><a name="l01971"></a><span class="lineno"> 1971</span>&#160;</div>
 <div class="line"><a name="l01972"></a><span class="lineno"> 1972</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(ons, TurretSpawn)</div>
@@ -2277,7 +2277,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l02178"></a><span class="lineno"> 2178</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l02179"></a><span class="lineno"> 2179</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(onslaught_link)</div>
 <div class="line"><a name="l02180"></a><span class="lineno"> 2180</span>&#160;{</div>
-<div class="line"><a name="l02181"></a><span class="lineno"> 2181</span>&#160;    <span class="keywordflow">if</span>(!g_onslaught) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l02181"></a><span class="lineno"> 2181</span>&#160;    <span class="keywordflow">if</span>(!g_onslaught) { <span class="keyword">delete</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
 <div class="line"><a name="l02182"></a><span class="lineno"> 2182</span>&#160;</div>
 <div class="line"><a name="l02183"></a><span class="lineno"> 2183</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> == <span class="stringliteral">&quot;&quot;</span> || this.<a class="code" href="../../db/d2f/subs_8qh.html#a21f638b0048b6516d7e8b2773d3e8cb3">target2</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l02184"></a><span class="lineno"> 2184</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;target and target2 must be set\n&quot;</span>);</div>
@@ -2302,7 +2302,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l02203"></a><span class="lineno"> 2203</span>&#160;</div>
 <div class="line"><a name="l02204"></a><span class="lineno"> 2204</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(onslaught_controlpoint)</div>
 <div class="line"><a name="l02205"></a><span class="lineno"> 2205</span>&#160;{</div>
-<div class="line"><a name="l02206"></a><span class="lineno"> 2206</span>&#160;    <span class="keywordflow">if</span>(!g_onslaught) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l02206"></a><span class="lineno"> 2206</span>&#160;    <span class="keywordflow">if</span>(!g_onslaught) { <span class="keyword">delete</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
 <div class="line"><a name="l02207"></a><span class="lineno"> 2207</span>&#160;</div>
 <div class="line"><a name="l02208"></a><span class="lineno"> 2208</span>&#160;    ons_ControlPoint_Setup(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l02209"></a><span class="lineno"> 2209</span>&#160;}</div>
@@ -2318,7 +2318,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l02219"></a><span class="lineno"> 2219</span>&#160;<span class="comment"> */</span></div>
 <div class="line"><a name="l02220"></a><span class="lineno"> 2220</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(onslaught_generator)</div>
 <div class="line"><a name="l02221"></a><span class="lineno"> 2221</span>&#160;{</div>
-<div class="line"><a name="l02222"></a><span class="lineno"> 2222</span>&#160;    <span class="keywordflow">if</span>(!g_onslaught) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l02222"></a><span class="lineno"> 2222</span>&#160;    <span class="keywordflow">if</span>(!g_onslaught) { <span class="keyword">delete</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
 <div class="line"><a name="l02223"></a><span class="lineno"> 2223</span>&#160;    <span class="keywordflow">if</span>(!this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a>) { <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;team must be set&quot;</span>); }</div>
 <div class="line"><a name="l02224"></a><span class="lineno"> 2224</span>&#160;</div>
 <div class="line"><a name="l02225"></a><span class="lineno"> 2225</span>&#160;    ons_GeneratorSetup(<span class="keyword">this</span>);</div>
@@ -2585,7 +2585,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_485953d51457a9f079ff3eef255d57d0.html">onslaught</a></li><li class="navelem"><a class="el" href="../../d4/d13/onslaught_8qc.html">onslaught.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:48 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:06 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

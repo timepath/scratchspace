@@ -451,7 +451,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        }</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <span class="keywordflow">if</span> (it.team_saved) it.team = it.team_saved;</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        <span class="keywordflow">if</span> (it.flags &amp; <a class="code" href="../../dc/dc7/projectile_8qh.html#a1377cbecee41e6bb05e56a90280ff3eb">FL_PROJECTILE</a>) <span class="keyword">remove</span>(it);  <span class="comment">// remove any projectiles left</span></div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        <span class="keywordflow">if</span> (it.flags &amp; <a class="code" href="../../dc/dc7/projectile_8qh.html#a1377cbecee41e6bb05e56a90280ff3eb">FL_PROJECTILE</a>) <span class="keyword">delete</span>(it);  <span class="comment">// remove any projectiles left</span></div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    });</div>
 <div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;</div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    <span class="comment">// Waypoints and assault start come LAST</span></div>
@@ -499,7 +499,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    <a class="code" href="../../d7/d16/server_2command_2vote_8qh.html#aac1c8bfc2334457dda05c5f27388dac4">restart_mapalreadyrestarted</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    <a class="code" href="../../d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f">reset_map</a>(<span class="keyword">true</span>);</div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#a584dd2db99794927527b7a4cec056bf1">Score_ClearAll</a>();</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;}</div>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;</div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;<span class="comment">// Forces a restart of the game without actually reloading the map // this is a mess...</span></div>
@@ -1445,7 +1445,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d1/dad/server_2command_2vote_8qc.html">vote.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:47 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:05 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

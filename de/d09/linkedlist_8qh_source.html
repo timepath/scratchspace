@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('de/d09/linkedlist_8qh_source.html','..
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    LinkedListNode <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a> = n.<a class="code" href="../../de/d6d/classLinkedListNode.html#ae94d5c367767bac43f3adac8278cb1c4">ll_prev</a>;</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">if</span> (prev) (this.ll_tail = <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a>).ll_next = NULL;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">else</span> this.ll_head = this.ll_tail = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">remove</span>(n);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">delete</span>(n);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> e;</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;}</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
@@ -158,7 +158,7 @@ $(document).ready(function(){initNavTree('de/d09/linkedlist_8qh_source.html','..
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor">            entity it = LL_POP(_ll); \</span></div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">            if (!it) continue; \</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">            dtor \</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">            remove(it); \</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">            delete(it); \</span></div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">        } \</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span></div>
@@ -169,7 +169,7 @@ $(document).ready(function(){initNavTree('de/d09/linkedlist_8qh_source.html','..
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">    MACRO_BEGIN \</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor">    { \</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">        LL_CLEAR_2(this, dtor); \</span></div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">        remove(this); \</span></div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor">        delete(this); \</span></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="preprocessor">        this = NULL; \</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="preprocessor">    } MACRO_END</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor"></span></div>
@@ -205,7 +205,7 @@ $(document).ready(function(){initNavTree('de/d09/linkedlist_8qh_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../de/d09/linkedlist_8qh.html">linkedlist.qh</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:49 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:08 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

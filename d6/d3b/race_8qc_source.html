@@ -1012,7 +1012,7 @@ $(document).ready(function(){initNavTree('d6/d3b/race_8qc_source.html','../../')
 <div class="line"><a name="l00905"></a><span class="lineno"><a class="line" href="../../d6/d3b/race_8qc.html#a6875d9a76e72fefc380a22b30485cd5c">  905</a></span>&#160;<a class="code" href="../../d6/d3b/race_8qc.html#a696329dda631e76ee7c5542c9fabc8a5">spawnfunc</a>(trigger_race_checkpoint)</div>
 <div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;{</div>
 <div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> o;</div>
-<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790">g_race</a> &amp;&amp; !<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b">g_cts</a>) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l00908"></a><span class="lineno">  908</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790">g_race</a> &amp;&amp; !<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b">g_cts</a>) { <span class="keyword">delete</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
 <div class="line"><a name="l00909"></a><span class="lineno">  909</span>&#160;</div>
 <div class="line"><a name="l00910"></a><span class="lineno">  910</span>&#160;    <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0">EXACTTRIGGER_INIT</a>;</div>
 <div class="line"><a name="l00911"></a><span class="lineno">  911</span>&#160;</div>
@@ -1060,7 +1060,7 @@ $(document).ready(function(){initNavTree('d6/d3b/race_8qc_source.html','../../')
 <div class="line"><a name="l00953"></a><span class="lineno"><a class="line" href="../../d6/d3b/race_8qc.html#a696329dda631e76ee7c5542c9fabc8a5">  953</a></span>&#160;<a class="code" href="../../d6/d3b/race_8qc.html#a696329dda631e76ee7c5542c9fabc8a5">spawnfunc</a>(target_checkpoint) <span class="comment">// defrag entity</span></div>
 <div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;{</div>
 <div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> o;</div>
-<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790">g_race</a> &amp;&amp; !<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b">g_cts</a>) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790">g_race</a> &amp;&amp; !<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b">g_cts</a>) { <span class="keyword">delete</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
 <div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;    <a class="code" href="../../d6/d3b/race_8qc.html#a70fbde94d1d32b56ca60fda6a5c34e83">defrag_ents</a> = 1;</div>
 <div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;</div>
 <div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;    <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0">EXACTTRIGGER_INIT</a>;</div>
@@ -1138,7 +1138,7 @@ $(document).ready(function(){initNavTree('d6/d3b/race_8qc_source.html','../../')
 <div class="line"><a name="l01031"></a><span class="lineno"> 1031</span>&#160;</div>
 <div class="line"><a name="l01032"></a><span class="lineno"><a class="line" href="../../d6/d3b/race_8qc.html#a444f99036a4815e64e2ffabf6552555a"> 1032</a></span>&#160;<a class="code" href="../../d6/d3b/race_8qc.html#a696329dda631e76ee7c5542c9fabc8a5">spawnfunc</a>(info_player_race)</div>
 <div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;{</div>
-<div class="line"><a name="l01034"></a><span class="lineno"> 1034</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790">g_race</a> &amp;&amp; !<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b">g_cts</a>) { <span class="keyword">remove</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l01034"></a><span class="lineno"> 1034</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790">g_race</a> &amp;&amp; !<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b">g_cts</a>) { <span class="keyword">delete</span>(<span class="keyword">this</span>); <span class="keywordflow">return</span>; }</div>
 <div class="line"><a name="l01035"></a><span class="lineno"> 1035</span>&#160;    ++<a class="code" href="../../d4/d1b/race_8qh.html#a0cf3c746a02d8f934c12691dadca5d3e">race_spawns</a>;</div>
 <div class="line"><a name="l01036"></a><span class="lineno"> 1036</span>&#160;    spawnfunc_info_player_deathmatch(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l01037"></a><span class="lineno"> 1037</span>&#160;</div>
@@ -1480,7 +1480,7 @@ $(document).ready(function(){initNavTree('d6/d3b/race_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d6/d3b/race_8qc.html">race.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:50 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:09 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

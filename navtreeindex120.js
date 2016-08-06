@@ -1,5 +1,13 @@
 var NAVTREEINDEX120 =
 {
+"df/d78/classPhaserTurretAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,78,19],
+"df/d78/classPhaserTurretAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,78,13],
+"df/d78/classPhaserTurretAttack.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,78,7],
+"df/d78/classPhaserTurretAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,78,21],
+"df/d78/classPhaserTurretAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,78,6],
+"df/d78/classPhaserTurretAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,78,0],
+"df/d78/classPhaserTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,78,33],
+"df/d78/classPhaserTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,78,24],
 "df/d78/classPhaserTurretAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,78,2],
 "df/d78/classPhaserTurretAttack.html#a8acb91e35e239c72604a1067304cc3b5":[1,0,78,25],
 "df/d78/classPhaserTurretAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,78,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX120 =
 "df/d9b/menu_2xonotic_2util_8qc.html#a725ecdf92e06cd25767619de5dca391d":[2,0,5,4,228,13],
 "df/d9b/menu_2xonotic_2util_8qc.html#a77ed10f968fe9aaa9581ed37184d3fd2":[2,0,5,4,228,50],
 "df/d9b/menu_2xonotic_2util_8qc.html#a7851f2ca9627c1234d96987723c7b627":[2,0,5,4,228,41],
-"df/d9b/menu_2xonotic_2util_8qc.html#a7a28b2aedbcabdb5e69a23eaf843e669":[2,0,5,4,228,27],
-"df/d9b/menu_2xonotic_2util_8qc.html#a801a64b2ebc811764cb4dccac3058542":[2,0,5,4,228,64],
-"df/d9b/menu_2xonotic_2util_8qc.html#a8023eceb6ea151f2fb45174f594a1f1b":[2,0,5,4,228,26],
-"df/d9b/menu_2xonotic_2util_8qc.html#a82447e0f7e130724a65ab538355408fc":[2,0,5,4,228,53],
-"df/d9b/menu_2xonotic_2util_8qc.html#a86cb046821701d82ae80ecd5c2c147b1":[2,0,5,4,228,30],
-"df/d9b/menu_2xonotic_2util_8qc.html#a8b9db99b866e3e51444533334ab63eb3":[2,0,5,4,228,65],
-"df/d9b/menu_2xonotic_2util_8qc.html#a8eb356644d69441dba461bca0bb3ab9e":[2,0,5,4,228,11],
-"df/d9b/menu_2xonotic_2util_8qc.html#a8ec8f4772028effaca28ae7b1fd6fc90":[2,0,5,4,228,14],
-"df/d9b/menu_2xonotic_2util_8qc.html#a8ef15205d6127cbc8982e7ba27203db1":[2,0,5,4,228,45]
+"df/d9b/menu_2xonotic_2util_8qc.html#a7a28b2aedbcabdb5e69a23eaf843e669":[2,0,5,4,228,27]
 };

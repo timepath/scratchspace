@@ -152,7 +152,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;Done rebuiling mapinfos.\n&quot;</span>);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <a class="code" href="../../d3/d46/mapinfo_8qc.html#a4054b1cf8cc3d1ce500244cc55e2ff73">MapInfo_FilterGametype</a>(<a class="code" href="../../d3/d46/mapinfo_8qc.html#a52c2a072a4bb9586ee6efd008defdc3d">MapInfo_CurrentGametype</a>(), <a class="code" href="../../d3/d46/mapinfo_8qc.html#aa0fb5eb1f47d9c23f29b3c79dcfee38c">MapInfo_CurrentFeatures</a>(), <a class="code" href="../../d3/d46/mapinfo_8qc.html#a3891360f84aed0d6a78c32293c8e619a">MapInfo_RequiredFlags</a>(), <a class="code" href="../../d3/d46/mapinfo_8qc.html#aa07df33666844ce0a81d2ca55a986041">MapInfo_ForbiddenFlags</a>(), 0);</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keyword">remove</span>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="keyword">delete</span>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    {</div>
@@ -937,7 +937,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;                    <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;bone not found\n&quot;</span>);</div>
 <div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;                }</div>
 <div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;</div>
-<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;                <span class="keyword">remove</span>(tmp_entity);</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;                <span class="keyword">delete</span>(tmp_entity);</div>
 <div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;                <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;            }</div>
 <div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;        }</div>
@@ -996,7 +996,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l00889"></a><span class="lineno">  889</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;model &quot;</span>, tmp_entity.model, <span class="stringliteral">&quot; frame &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(f1), <span class="stringliteral">&quot; animtime &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(n / t1), <span class="stringliteral">&quot;/s\n&quot;</span>);</div>
 <div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;                <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;model &quot;</span>, tmp_entity.model, <span class="stringliteral">&quot; frame &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(f2), <span class="stringliteral">&quot; animtime &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(n / t2), <span class="stringliteral">&quot;/s\n&quot;</span>);</div>
 <div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;</div>
-<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;                <span class="keyword">remove</span>(tmp_entity);</div>
+<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;                <span class="keyword">delete</span>(tmp_entity);</div>
 <div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;                <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;            }</div>
 <div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;        }</div>
@@ -2214,7 +2214,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d3/df2/sv__cmd_8qc.html">sv_cmd.qc</a></li>
-    <li class="footer">Generated on Sat Aug 6 2016 06:06:50 for Xonotic by
+    <li class="footer">Generated on Sat Aug 6 2016 07:09:09 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

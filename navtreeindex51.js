@@ -1,5 +1,13 @@
 var NAVTREEINDEX51 =
 {
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,150,18],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,150,8],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,150,11],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,150,19],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,150,35],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,150,1],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a40643e9611c16672a13b051daf682d99":[1,0,150,13],
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,150,65],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a4869983b8dc750584479ade5447c8413":[1,0,150,12],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,150,67],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,150,39],
@@ -241,13 +249,5 @@ var NAVTREEINDEX51 =
 "d6/d93/g__subs_8qh.html#aa5f39279e0925de5c1c079d5ca52dff7":[2,0,6,34,26],
 "d6/d93/g__subs_8qh.html#aa76db7e9f787898ce270d6f9aa6bd3c0":[2,0,6,34,41],
 "d6/d93/g__subs_8qh.html#ab98375d0b27a874a6dfb67d8ec295610":[2,0,6,34,23],
-"d6/d93/g__subs_8qh.html#acdef7a1fd863a6d3770c1268cb06add3":[2,0,6,34,9],
-"d6/d93/g__subs_8qh.html#acfc05d721470c3c19835fe5d5bc5a3e9":[2,0,6,34,48],
-"d6/d93/g__subs_8qh.html#ad04a1d90929cbe7578fa5038ab825698":[2,0,6,34,45],
-"d6/d93/g__subs_8qh.html#ad0806fe42eadae7a1a7a48660cbbd755":[2,0,6,34,28],
-"d6/d93/g__subs_8qh.html#ad351eda3d83e3ac892325b85272f5f1b":[2,0,6,34,37],
-"d6/d93/g__subs_8qh.html#ad6b999617407d6b8cc64860a447b4cb4":[2,0,6,34,8],
-"d6/d93/g__subs_8qh.html#addd517c7794686f85d035a434be1b7ac":[2,0,6,34,13],
-"d6/d93/g__subs_8qh.html#ade6067d4eee255157e9f7eff9b226639":[2,0,6,34,2],
-"d6/d93/g__subs_8qh.html#adf72da94012ed6f3ee8d3d25a6634e2b":[2,0,6,34,17]
+"d6/d93/g__subs_8qh.html#acdef7a1fd863a6d3770c1268cb06add3":[2,0,6,34,9]
 };

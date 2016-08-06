@@ -1,5 +1,13 @@
 var NAVTREEINDEX87 =
 {
+"db/d29/classXonoticRegisteredSettingsList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,205,73],
+"db/d29/classXonoticRegisteredSettingsList.html#adbc65a2089ef3278a098c80685b4b8a3":[1,0,205,49],
+"db/d29/classXonoticRegisteredSettingsList.html#add07f2289a86f54ca2b1a757980173fa":[1,0,205,70],
+"db/d29/classXonoticRegisteredSettingsList.html#adf6570252bd8253846cff233496c7c6e":[1,0,205,80],
+"db/d29/classXonoticRegisteredSettingsList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,205,32],
+"db/d29/classXonoticRegisteredSettingsList.html#ae12edc8e1e9ebfe15080baa10f4f92a2":[1,0,205,9],
+"db/d29/classXonoticRegisteredSettingsList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,205,78],
+"db/d29/classXonoticRegisteredSettingsList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,205,38],
 "db/d29/classXonoticRegisteredSettingsList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,205,14],
 "db/d29/classXonoticRegisteredSettingsList.html#ae8f438486f0f50ec12428b9fa2cd9828":[1,0,205,62],
 "db/d29/classXonoticRegisteredSettingsList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,205,58],
@@ -241,13 +249,5 @@ var NAVTREEINDEX87 =
 "db/d38/classXonoticSliderCheckBox.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,223,23],
 "db/d38/classXonoticSliderCheckBox.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,223,21],
 "db/d38/classXonoticSliderCheckBox.html#af3a830d70442467db88dc9e6085943aa":[1,0,223,53],
-"db/d38/classXonoticSliderCheckBox.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,223,20],
-"db/d38/classXonoticSliderCheckBox.html#afb90bc3092e246316443d58db872e306":[1,0,223,52],
-"db/d38/classXonoticSliderCheckBox.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,223,71],
-"db/d38/classXonoticSliderCheckBox.html#aff20d1ead9e7a482eca46d913e6986a1":[1,0,223,82],
-"db/d3a/location_8qc.html":[2,0,1,13,2,5],
-"db/d3a/location_8qc_source.html":[2,0,1,13,2,5],
-"db/d3c/classArc.html":[1,0,3],
-"db/d3c/classArc.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,3,17],
-"db/d3c/classArc.html#a208658ab5d31e9cd86fb5256c4864d75":[1,0,3,31]
+"db/d38/classXonoticSliderCheckBox.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,223,20]
 };
