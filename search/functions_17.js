@@ -220,6 +220,7 @@ var searchData=
   ['writeint72_5ft',['WriteInt72_t',['../d5/df2/common_2util_8qh.html#a9a2c07d888c3e827160ba146f85aa8e3',1,'WriteInt72_t(float dest, vector val):&#160;net.qh'],['../dd/d69/net_8qh.html#ae23b45c2b40b944fd5bc0b729395c6c7',1,'WriteInt72_t(float dst, vector val):&#160;net.qh']]],
   ['writelong',['WriteLong',['../d8/de2/menudefs_8qc.html#a439a4e0c5d0e5923bf5aba17eaae0d09',1,'menudefs.qc']]],
   ['writeshort',['WriteShort',['../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35',1,'menudefs.qc']]],
+  ['writespectators',['WriteSpectators',['../da/d53/cl__client_8qc.html#a199cb8defbbeacacf578f7c12b16004f',1,'cl_client.qc']]],
   ['writestring',['WriteString',['../d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516',1,'menudefs.qc']]],
   ['writetofile',['writetofile',['../d8/de2/menudefs_8qc.html#a2aee0d075fe82d19d22d5bb33ce5b3be',1,'menudefs.qc']]]
 ];

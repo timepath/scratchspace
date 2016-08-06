@@ -1,5 +1,12 @@
 var NAVTREEINDEX117 =
 {
+"de/dfa/common_2weapons_2all_8qc.html#a5f8f672e8335b2e06ac57a8be36e2b66":[2,0,1,16,4,2],
+"de/dfa/common_2weapons_2all_8qc.html#a66424748bad8c2bf6beda9b93b5f12d5":[2,0,1,16,4,12],
+"de/dfa/common_2weapons_2all_8qc.html#a68c8b4f04f6cf4bd80ef078f2bea8d16":[2,0,1,16,4,18],
+"de/dfa/common_2weapons_2all_8qc.html#a6a9b42410f2d888f52a11253a2165203":[2,0,1,16,4,11],
+"de/dfa/common_2weapons_2all_8qc.html#a6e455edb328362e8ea7fc75757394379":[2,0,1,16,4,19],
+"de/dfa/common_2weapons_2all_8qc.html#a71ed1489c649f0e0d3e068e7e32aed35":[2,0,1,16,4,21],
+"de/dfa/common_2weapons_2all_8qc.html#a7444bff240ad3f518a5cc595e9bc8d15":[2,0,1,16,4,16],
 "de/dfa/common_2weapons_2all_8qc.html#a79fb53e58c432f7bb94bc2e881f4c2b6":[2,0,1,16,4,22],
 "de/dfa/common_2weapons_2all_8qc.html#a7e417e677b59a2ee9a37169a615c5e42":[2,0,1,16,4,24],
 "de/dfa/common_2weapons_2all_8qc.html#a908d57b826ca581e66255d228e1a7666":[2,0,1,16,4,6],
@@ -242,12 +249,5 @@ var NAVTREEINDEX117 =
 "df/d26/classXonoticGameSettingsTab.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,154,75],
 "df/d26/classXonoticGameSettingsTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,154,34],
 "df/d26/classXonoticGameSettingsTab.html#ac585f4f082ba25f5afde74ec79f6d1ae":[1,0,154,83],
-"df/d26/classXonoticGameSettingsTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,154,1],
-"df/d26/classXonoticGameSettingsTab.html#ac796b6edd217daadfcc335ebd76bd92f":[1,0,154,55],
-"df/d26/classXonoticGameSettingsTab.html#ac93b2ee211898db4139802e6abbd8c4b":[1,0,154,64],
-"df/d26/classXonoticGameSettingsTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,154,23],
-"df/d26/classXonoticGameSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,154,28],
-"df/d26/classXonoticGameSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,154,84],
-"df/d26/classXonoticGameSettingsTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,154,42],
-"df/d26/classXonoticGameSettingsTab.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,154,74]
+"df/d26/classXonoticGameSettingsTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,154,1]
 };

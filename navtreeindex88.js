@@ -1,5 +1,12 @@
 var NAVTREEINDEX88 =
 {
+"db/d38/classXonoticSliderCheckBox.html#adbc9c7a2abdfe228f668df9a9fec0726":[1,0,223,22],
+"db/d38/classXonoticSliderCheckBox.html#adf2dea57b2330e856350cd2169500f8d":[1,0,223,2],
+"db/d38/classXonoticSliderCheckBox.html#ae1cf122fc3d11f21e5376b353f4c5170":[1,0,223,41],
+"db/d38/classXonoticSliderCheckBox.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,223,23],
+"db/d38/classXonoticSliderCheckBox.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,223,21],
+"db/d38/classXonoticSliderCheckBox.html#af3a830d70442467db88dc9e6085943aa":[1,0,223,53],
+"db/d38/classXonoticSliderCheckBox.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,223,20],
 "db/d38/classXonoticSliderCheckBox.html#afb90bc3092e246316443d58db872e306":[1,0,223,52],
 "db/d38/classXonoticSliderCheckBox.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,223,71],
 "db/d38/classXonoticSliderCheckBox.html#aff20d1ead9e7a482eca46d913e6986a1":[1,0,223,82],
@@ -242,12 +249,5 @@ var NAVTREEINDEX88 =
 "db/d5a/classXonoticHUDPowerupsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,170,1],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,170,68],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,170,66],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,170,12],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,170,39],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,170,17],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a4c2787fe5cc312a96d728a6382b9333c":[1,0,170,72],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,170,46],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,170,23],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,170,31],
-"db/d5a/classXonoticHUDPowerupsDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,170,55]
+"db/d5a/classXonoticHUDPowerupsDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,170,12]
 };

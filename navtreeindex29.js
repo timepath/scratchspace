@@ -1,5 +1,8 @@
 var NAVTREEINDEX29 =
 {
+"d3/df9/sv__minigames_8qh.html#a3aa2a51b87b7c756617de798836d4be5":[2,0,1,6,10,15],
+"d3/df9/sv__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82":[2,0,1,6,10,14],
+"d3/df9/sv__minigames_8qh.html#a4d095007340d2f63138e93c1705dc92c":[2,0,1,6,10,11],
 "d3/df9/sv__minigames_8qh.html#a524d14ba3717c12b77821c1fd959d8a0":[2,0,1,6,10,16],
 "d3/df9/sv__minigames_8qh.html#a74218137bad93bffe275b29d43f7553f":[2,0,1,6,10,2],
 "d3/df9/sv__minigames_8qh.html#a74dcf1598d80771318e50a18b62bb63c":[2,0,1,6,10,8],
@@ -246,8 +249,5 @@ var NAVTREEINDEX29 =
 "d4/d0b/classDevastator.html#ab2c4731e7a1ac2f95747cf9626a4cc53":[1,0,21,26],
 "d4/d0b/classDevastator.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,21,8],
 "d4/d0b/classDevastator.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,21,34],
-"d4/d0b/classDevastator.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,21,5],
-"d4/d0b/classDevastator.html#ac64bdfa8449e2a1843d8c52665fb7c66":[1,0,21,29],
-"d4/d0b/classDevastator.html#acaff8d70088d8455009a62ef33f04777":[1,0,21,28],
-"d4/d0b/classDevastator.html#acda85fa11993057f5b32ad9c048165c7":[1,0,21,30]
+"d4/d0b/classDevastator.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,21,5]
 };

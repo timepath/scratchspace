@@ -514,6 +514,7 @@ var server_2autocvars_8qh =
     [ "autocvar_sv_ready_restart_after_countdown", "d7/da7/server_2autocvars_8qh.html#a0de2fb0c2ac1156e1d2253ad3f595e28", null ],
     [ "autocvar_sv_ready_restart_repeatable", "d7/da7/server_2autocvars_8qh.html#acb8a55c425caf01ab5fddc4697aa732b", null ],
     [ "autocvar_sv_servermodelsonly", "d7/da7/server_2autocvars_8qh.html#a2f922a52027cffacd40223e47d919229", null ],
+    [ "autocvar_sv_showspectators", "d7/da7/server_2autocvars_8qh.html#afab6009f0cf0755d3c04db3dc857b498", null ],
     [ "autocvar_sv_spectate", "d7/da7/server_2autocvars_8qh.html#a4582f43ca3fd1deed36d5de154683148", null ],
     [ "autocvar_sv_spectator_speed_multiplier", "d7/da7/server_2autocvars_8qh.html#ad173c6a99d7b4720c5b91bfacfbb1de8", null ],
     [ "autocvar_sv_status_privacy", "d7/da7/server_2autocvars_8qh.html#a6d88dc8a38831a2d92b47d6b5745e4cb", null ],

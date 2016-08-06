@@ -148,6 +148,7 @@ var searchData=
   ['num_5fnearest_5fentities',['NUM_NEAREST_ENTITIES',['../dc/d73/server_2miscfunctions_8qh.html#aef022c04c63946dd9efc31db4b657cdb',1,'miscfunctions.qh']]],
   ['num_5fplayerskins_5fteamplay',['NUM_PLAYERSKINS_TEAMPLAY',['../d9/de7/server_2constants_8qh.html#aa31964dc3bcc2c24be6b0ddf511c41f9',1,'constants.qh']]],
   ['num_5fspectator',['NUM_SPECTATOR',['../db/d07/teams_8qh.html#a41d770fecb49af6ce941da2667000651',1,'teams.qh']]],
+  ['num_5fspectators',['num_spectators',['../d0/d2a/client_2main_8qh.html#ab0bfc0c4d266d509b89d4a6b2b0127c4',1,'main.qh']]],
   ['num_5fssdirs',['NUM_SSDIRS',['../d4/d0d/client_2mapvoting_8qc.html#aa9a69df73a5ddee4fc0cdef5fd79ce20',1,'mapvoting.qc']]],
   ['num_5fteam_5f1',['NUM_TEAM_1',['../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473',1,'teams.qh']]],
   ['num_5fteam_5f2',['NUM_TEAM_2',['../db/d07/teams_8qh.html#a40336e02d08573c7903caa457ebc180f',1,'teams.qh']]],

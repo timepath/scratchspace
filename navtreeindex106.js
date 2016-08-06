@@ -1,5 +1,12 @@
 var NAVTREEINDEX106 =
 {
+"dd/d73/common_2effects_2all_8inc.html#a4c6ad74f5aa68e1dc5a68297613ea234":[2,0,1,2,3,2],
+"dd/d73/common_2effects_2all_8inc.html#a904a47399d8bb4012737cf20bd670853":[2,0,1,2,3,5],
+"dd/d73/common_2effects_2all_8inc.html#ae5430fc43016d59081a9edc8ed86bc7b":[2,0,1,2,3,1],
+"dd/d73/common_2effects_2all_8inc.html#af7139c4648cb139695b96ab918e50422":[2,0,1,2,3,3],
+"dd/d73/common_2effects_2all_8inc_source.html":[2,0,1,2,3],
+"dd/d73/mutators_2mutator_2cloaked_2module_8inc.html":[2,0,1,9,0,5,3],
+"dd/d73/mutators_2mutator_2cloaked_2module_8inc_source.html":[2,0,1,9,0,5,3],
 "dd/d76/func_2include_8qc.html":[2,0,1,13,0,12],
 "dd/d76/func_2include_8qc_source.html":[2,0,1,13,0,12],
 "dd/d77/ecs_2systems_2physics_8qc.html":[2,0,3,2,5],
@@ -100,8 +107,8 @@ var NAVTREEINDEX106 =
 "dd/d85/sortlist_8qc.html#a652c86b37dd42d03c9e82ee0d8e1cfd8":[2,0,4,48,0],
 "dd/d85/sortlist_8qc_source.html":[2,0,4,48],
 "dd/d87/effectinfo_8qc.html":[2,0,1,2,8],
-"dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[2,0,1,2,8,13],
 "dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[2,0,1,2,8,12],
+"dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[2,0,1,2,8,13],
 "dd/d87/effectinfo_8qc.html#a140b69e0765f293f2d0545beefa583c7":[2,0,1,2,8,17],
 "dd/d87/effectinfo_8qc.html#a196e029eb2adc9808b1e6928e3e1ce23":[2,0,1,2,8,19],
 "dd/d87/effectinfo_8qc.html#a331bcf6c0483f2f74b9ebc3f52b11560":[2,0,1,2,8,21],
@@ -109,8 +116,8 @@ var NAVTREEINDEX106 =
 "dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802":[2,0,1,2,8,7],
 "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862":[2,0,1,2,8,2],
 "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840":[2,0,1,2,8,5],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,10],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,9],
 "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6":[2,0,1,2,8,14],
 "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e":[2,0,1,2,8,16],
@@ -242,12 +249,5 @@ var NAVTREEINDEX106 =
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,157,41],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,157,34],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,157,66],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,157,64],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,157,50],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,157,72],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,157,55],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#aa1abab97698c6f13909d1791611312cb":[1,0,157,58],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,157,46],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,157,5],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,157,9]
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,157,64]
 };

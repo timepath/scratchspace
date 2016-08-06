@@ -1,5 +1,12 @@
 var NAVTREEINDEX84 =
 {
+"da/d9c/classXonoticMonsterToolsDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,191,52],
+"da/d9c/classXonoticMonsterToolsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,191,44],
+"da/d9c/classXonoticMonsterToolsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,191,88],
+"da/d9c/classXonoticMonsterToolsDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,191,60],
+"da/d9c/classXonoticMonsterToolsDialog.html#aee6327bec629fa284d4ecbc834c563da":[1,0,191,13],
+"da/d9c/classXonoticMonsterToolsDialog.html#af1aab403dc54575707fd57991312b201":[1,0,191,36],
+"da/d9c/classXonoticMonsterToolsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,191,16],
 "da/d9c/classXonoticMonsterToolsDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,191,28],
 "da/d9c/classXonoticMonsterToolsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,191,2],
 "da/d9c/classXonoticMonsterToolsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,191,26],
@@ -242,12 +249,5 @@ var NAVTREEINDEX84 =
 "da/dc1/classXonoticAudioSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,124,31],
 "da/dc1/classXonoticAudioSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,124,44],
 "da/dc1/classXonoticAudioSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,124,84],
-"da/dc1/classXonoticAudioSettingsTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,124,36],
-"da/dc1/classXonoticAudioSettingsTab.html#a5e98dc8a860c812481bf478f796b706d":[1,0,124,49],
-"da/dc1/classXonoticAudioSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,124,6],
-"da/dc1/classXonoticAudioSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,124,54],
-"da/dc1/classXonoticAudioSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,124,42],
-"da/dc1/classXonoticAudioSettingsTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,124,7],
-"da/dc1/classXonoticAudioSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,124,77],
-"da/dc1/classXonoticAudioSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,124,56]
+"da/dc1/classXonoticAudioSettingsTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,124,36]
 };

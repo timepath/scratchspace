@@ -1,5 +1,8 @@
 var NAVTREEINDEX7 =
 {
+"d1/d2a/waypoints_8qh.html#afbc645a72165769cc7868fc2772397c9":[2,0,6,0,12,70],
+"d1/d2a/waypoints_8qh.html#afefbc8e9e4269359534b8f4b253ddeb7":[2,0,6,0,12,11],
+"d1/d2a/waypoints_8qh_source.html":[2,0,6,0,12],
 "d1/d2b/classFusionReactor.html":[1,0,33],
 "d1/d2b/classFusionReactor.html#a04343b3ac0a31ef2bdf1e465123cc877":[1,0,33,15],
 "d1/d2b/classFusionReactor.html#a11b3c2663cb778f6d0540895ffd5ca10":[1,0,33,13],
@@ -246,8 +249,5 @@ var NAVTREEINDEX7 =
 "d1/d39/classXonoticTeamSelectDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,228,92],
 "d1/d39/classXonoticTeamSelectDialog.html#aed38b19c3b924d6b4c614ecc08429a7c":[1,0,228,36],
 "d1/d39/classXonoticTeamSelectDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,228,60],
-"d1/d39/classXonoticTeamSelectDialog.html#aef3bd1b0481a676e68f04f96cda8ed85":[1,0,228,86],
-"d1/d39/classXonoticTeamSelectDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,228,16],
-"d1/d39/classXonoticTeamSelectDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,228,28],
-"d1/d39/classXonoticTeamSelectDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,228,2]
+"d1/d39/classXonoticTeamSelectDialog.html#aef3bd1b0481a676e68f04f96cda8ed85":[1,0,228,86]
 };

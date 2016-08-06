@@ -281,6 +281,7 @@ var searchData=
   ['cosine_5finterpolate',['Cosine_Interpolate',['../df/d4c/server_2pathlib_2main_8qc.html#a82021c86aa11a1ba2191eeed1b72bad9',1,'main.qc']]],
   ['count_5ffill',['count_fill',['../d7/de1/counting_8qh.html#adeacb6e219c97cfdfe6d429786a1fd02',1,'counting.qh']]],
   ['count_5fordinal',['count_ordinal',['../d7/de1/counting_8qh.html#af1015767343e4d592f051c16a8be2a9e',1,'counting.qh']]],
+  ['countspectators',['CountSpectators',['../da/d53/cl__client_8qc.html#a21041e5d38139f4b7da1e1eb951aba0d',1,'cl_client.qc']]],
   ['coverage',['coverage',['../d4/d0c/csprogsdefs_8qc.html#a5ad0f1b19b4f15304e35584c821ef092',1,'coverage():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#a5ad0f1b19b4f15304e35584c821ef092',1,'coverage():&#160;dpextensions.qc'],['../d8/de2/menudefs_8qc.html#a5ad0f1b19b4f15304e35584c821ef092',1,'coverage():&#160;menudefs.qc']]],
   ['cpicon_5fchangeteam',['cpicon_changeteam',['../db/dc8/cl__controlpoint_8qc.html#ab90f225bea84a591127d0c66257cf3e9',1,'cl_controlpoint.qc']]],
   ['cpicon_5fconstruct',['cpicon_construct',['../db/dc8/cl__controlpoint_8qc.html#a9609e7148b8b0f74528c01c5393d176a',1,'cl_controlpoint.qc']]],

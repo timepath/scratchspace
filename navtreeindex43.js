@@ -1,5 +1,8 @@
 var NAVTREEINDEX43 =
 {
+"d5/d42/common_2effects_2qc_2all_8qh_source.html":[2,0,1,2,0,4],
+"d5/d43/plasma_8qc.html":[2,0,1,14,0,24],
+"d5/d43/plasma_8qc.html#a52e9a662b56d02ef45e4759d6b82a625":[2,0,1,14,0,24,1],
 "d5/d43/plasma_8qc.html#ad9b88151ae52fa7be5716c0a3a75c202":[2,0,1,14,0,24,2],
 "d5/d43/plasma_8qc_source.html":[2,0,1,14,0,24],
 "d5/d45/keybinder_8qh.html":[2,0,5,4,173],
@@ -246,8 +249,5 @@ var NAVTREEINDEX43 =
 "d5/d6c/classXonoticHUDSkinList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,176,29],
 "d5/d6c/classXonoticHUDSkinList.html#a7421caed59efe7a25154f1b6c9b83dfd":[1,0,176,5],
 "d5/d6c/classXonoticHUDSkinList.html#a764e355b65af202e87289c596432c780":[1,0,176,60],
-"d5/d6c/classXonoticHUDSkinList.html#a7b13cdc101cd55528465440586a004f6":[1,0,176,57],
-"d5/d6c/classXonoticHUDSkinList.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,176,11],
-"d5/d6c/classXonoticHUDSkinList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,176,73],
-"d5/d6c/classXonoticHUDSkinList.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,176,83]
+"d5/d6c/classXonoticHUDSkinList.html#a7b13cdc101cd55528465440586a004f6":[1,0,176,57]
 };

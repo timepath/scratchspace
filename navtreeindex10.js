@@ -1,5 +1,8 @@
 var NAVTREEINDEX10 =
 {
+"d1/d70/classXonoticSoundList.html#aa222b2225d48027d39c79565f3400a5f":[1,0,224,22],
+"d1/d70/classXonoticSoundList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,224,36],
+"d1/d70/classXonoticSoundList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,224,6],
 "d1/d70/classXonoticSoundList.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,224,70],
 "d1/d70/classXonoticSoundList.html#aaaeedf953b133eda5657f8cb5feab2c7":[1,0,224,74],
 "d1/d70/classXonoticSoundList.html#aaf7eda70074417cfc7a32b8e34b5f1ad":[1,0,224,46],
@@ -246,8 +249,5 @@ var NAVTREEINDEX10 =
 "d1/d8d/wall_8qc.html#ac20990484cf12bfc4d141db226f8d379":[2,0,0,33,0],
 "d1/d8d/wall_8qc.html#ace58b882b2e9a121393dfbad5ac558c8":[2,0,0,33,1],
 "d1/d8d/wall_8qc_source.html":[2,0,0,33],
-"d1/d8e/dialog__multiplayer__media_8qc.html":[2,0,5,4,98],
-"d1/d8e/dialog__multiplayer__media_8qc.html#a048e9d55578bbd55fa3acb96f76ad670":[2,0,5,4,98,0],
-"d1/d8e/dialog__multiplayer__media_8qc.html#a9b6759dd6c363a3e76d2c6914d4e0fd5":[2,0,5,4,98,1],
-"d1/d8e/dialog__multiplayer__media_8qc_source.html":[2,0,5,4,98]
+"d1/d8e/dialog__multiplayer__media_8qc.html":[2,0,5,4,98]
 };

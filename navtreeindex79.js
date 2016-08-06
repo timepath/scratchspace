@@ -1,5 +1,10 @@
 var NAVTREEINDEX79 =
 {
+"d9/de9/classListBox.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,56,25],
+"d9/de9/classListBox.html#af9d941569d16ba17cec674b89df93ad0":[1,0,56,18],
+"d9/deb/classXonoticHUDTimerDialog.html":[1,0,177],
+"d9/deb/classXonoticHUDTimerDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,177,21],
+"d9/deb/classXonoticHUDTimerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,177,29],
 "d9/deb/classXonoticHUDTimerDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,177,3],
 "d9/deb/classXonoticHUDTimerDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,177,79],
 "d9/deb/classXonoticHUDTimerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,177,77],
@@ -244,10 +249,5 @@ var NAVTREEINDEX79 =
 "da/d10/sv__vehicles_8qc.html#ac5f4b60f4f1bce9de8e73d862f42beff":[2,0,1,15,7,22],
 "da/d10/sv__vehicles_8qc.html#acb307a79d42b2864e9d2a2781dccf1f0":[2,0,1,15,7,11],
 "da/d10/sv__vehicles_8qc.html#ad3ffec386d757806619974c310f81a71":[2,0,1,15,7,36],
-"da/d10/sv__vehicles_8qc.html#ad8fab4bff1fd3bd8871f5141c39085ad":[2,0,1,15,7,30],
-"da/d10/sv__vehicles_8qc.html#adcd2f4aae690f6a2f0f947ec75b03fe0":[2,0,1,15,7,19],
-"da/d10/sv__vehicles_8qc.html#ae4ad6ead0893944940ce66bd17ca9375":[2,0,1,15,7,21],
-"da/d10/sv__vehicles_8qc.html#af017ca12b4899519b7181466443f37b0":[2,0,1,15,7,41],
-"da/d10/sv__vehicles_8qc.html#af3487605a196c9df59ed3a8f0c8c6a04":[2,0,1,15,7,13],
-"da/d10/sv__vehicles_8qc.html#afa4811f20052d3c43e4b1ef5463d88f8":[2,0,1,15,7,9]
+"da/d10/sv__vehicles_8qc.html#ad8fab4bff1fd3bd8871f5141c39085ad":[2,0,1,15,7,30]
 };

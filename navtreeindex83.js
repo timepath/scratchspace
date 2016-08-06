@@ -1,5 +1,12 @@
 var NAVTREEINDEX83 =
 {
+"da/d94/classXonoticSettingsDialog.html":[1,0,219],
+"da/d94/classXonoticSettingsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,219,21],
+"da/d94/classXonoticSettingsDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,219,29],
+"da/d94/classXonoticSettingsDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,219,3],
+"da/d94/classXonoticSettingsDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,219,78],
+"da/d94/classXonoticSettingsDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,219,76],
+"da/d94/classXonoticSettingsDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,219,37],
 "da/d94/classXonoticSettingsDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,219,15],
 "da/d94/classXonoticSettingsDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,219,6],
 "da/d94/classXonoticSettingsDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,219,67],
@@ -242,12 +249,5 @@ var NAVTREEINDEX83 =
 "da/d9c/classXonoticMonsterToolsDialog.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,191,71],
 "da/d9c/classXonoticMonsterToolsDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,191,53],
 "da/d9c/classXonoticMonsterToolsDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,191,84],
-"da/d9c/classXonoticMonsterToolsDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,191,20],
-"da/d9c/classXonoticMonsterToolsDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,191,52],
-"da/d9c/classXonoticMonsterToolsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,191,44],
-"da/d9c/classXonoticMonsterToolsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,191,88],
-"da/d9c/classXonoticMonsterToolsDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,191,60],
-"da/d9c/classXonoticMonsterToolsDialog.html#aee6327bec629fa284d4ecbc834c563da":[1,0,191,13],
-"da/d9c/classXonoticMonsterToolsDialog.html#af1aab403dc54575707fd57991312b201":[1,0,191,36],
-"da/d9c/classXonoticMonsterToolsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,191,16]
+"da/d9c/classXonoticMonsterToolsDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,191,20]
 };
