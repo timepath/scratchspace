@@ -15,6 +15,5 @@ var gamemode__assault_8qc =
     [ "havocbot_ast_target", "d9/d8e/gamemode__assault_8qc.html#a8854e134a0d692c1377eb61d2e4b6c73", null ],
     [ "havocbot_attack_time", "d9/d8e/gamemode__assault_8qc.html#a90b02641f0c7d1b01f7998fe398c95c1", null ],
     [ "havocbot_role_flags", "d9/d8e/gamemode__assault_8qc.html#a0ac3d078a3d265b901ef367a940be615", null ],
-    [ "SP_ASSAULT_OBJECTIVES", "d9/d8e/gamemode__assault_8qc.html#a3871efe40bc4d5734eb545ef4a5db769", null ],
     [ "ST_ASSAULT_OBJECTIVES", "d9/d8e/gamemode__assault_8qc.html#aa63969d6de82cd5d06f291e89e140ca4", null ]
 ];

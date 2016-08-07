@@ -19,6 +19,6 @@ var g__damage_8qc =
     [ "RadiusDamage", "d5/dac/g__damage_8qc.html#a377b547a7053468290f13dffb6342b89", null ],
     [ "RadiusDamageForSource", "d5/dac/g__damage_8qc.html#ac0534ca58f7521ce132a0694ffeb629a", null ],
     [ "Unfreeze", "d5/dac/g__damage_8qc.html#a705ff21e2e789e10d1eeb3bd16f97c86", null ],
-    [ "UpdateFrags", "d5/dac/g__damage_8qc.html#a82dca72f39db8edb61a18ed8f3cef721", null ],
+    [ "UpdateFrags", "d5/dac/g__damage_8qc.html#a7e53366415188b2157d76a7250422580", null ],
     [ "buffs", "d5/dac/g__damage_8qc.html#a8f32afee7a8e742e18a6a8fae0844699", null ]
 ];

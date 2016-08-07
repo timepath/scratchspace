@@ -30,7 +30,7 @@ var server_2defs_8qh =
     [ "SUB_DontUseTargets", "d5/d26/server_2defs_8qh.html#a867a4a5f27063de0e88ac03b187dc928", null ],
     [ "SUB_UseTargets", "d5/d26/server_2defs_8qh.html#a3905086b3426d8a7b89fe8eff17368c6", null ],
     [ "tracebox_hits_trigger_hurt", "d5/d26/server_2defs_8qh.html#a099ad087f6b1981b1c6333cf4a62334a", null ],
-    [ "UpdateFrags", "d5/d26/server_2defs_8qh.html#a82dca72f39db8edb61a18ed8f3cef721", null ],
+    [ "UpdateFrags", "d5/d26/server_2defs_8qh.html#a7e53366415188b2157d76a7250422580", null ],
     [ "void", "d5/d26/server_2defs_8qh.html#a024986e78fb6fbfa53a715e84f8e1156", null ],
     [ "void", "d5/d26/server_2defs_8qh.html#aa161c81b4029a6e3572de07692542739", null ],
     [ "void", "d5/d26/server_2defs_8qh.html#a101b6cf59e13f6e8a43e45d2a44f5692", null ],

@@ -36,6 +36,7 @@ var searchData=
   ['register_5fregistry',['REGISTER_REGISTRY',['../d2/d5e/registry_8qh.html#a9a50560d358790fd046b58cc5fbfd467',1,'registry.qh']]],
   ['register_5fregistry_5f1',['REGISTER_REGISTRY_1',['../d2/d5e/registry_8qh.html#a22431b2b1aed12e24fddd95a45978e12',1,'registry.qh']]],
   ['register_5fregistry_5f2',['REGISTER_REGISTRY_2',['../d2/d5e/registry_8qh.html#ac4c9c0b24cb29eddb2adbd8523852149',1,'registry.qh']]],
+  ['register_5fsp',['REGISTER_SP',['../d0/d8b/common_2constants_8qh.html#a62738bb8ca547d47c1dd44ee6b2feb41',1,'constants.qh']]],
   ['register_5fstat',['REGISTER_STAT',['../d0/ddd/lib_2stats_8qh.html#ab65391ba6c1b90dcad0eb1f846c0a054',1,'stats.qh']]],
   ['register_5fstat_5f2',['REGISTER_STAT_2',['../d0/ddd/lib_2stats_8qh.html#a0b0131c4067d628042068387ab92aae0',1,'stats.qh']]],
   ['register_5fstat_5f3',['REGISTER_STAT_3',['../d0/ddd/lib_2stats_8qh.html#a64a221f623435bb5fce96cf78954e0f3',1,'stats.qh']]],

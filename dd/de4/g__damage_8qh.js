@@ -20,7 +20,7 @@ var g__damage_8qh =
     [ "RadiusDamage", "dd/de4/g__damage_8qh.html#a377b547a7053468290f13dffb6342b89", null ],
     [ "RadiusDamageForSource", "dd/de4/g__damage_8qh.html#ac0534ca58f7521ce132a0694ffeb629a", null ],
     [ "Unfreeze", "dd/de4/g__damage_8qh.html#a705ff21e2e789e10d1eeb3bd16f97c86", null ],
-    [ "UpdateFrags", "dd/de4/g__damage_8qh.html#a82dca72f39db8edb61a18ed8f3cef721", null ],
+    [ "UpdateFrags", "dd/de4/g__damage_8qh.html#a7e53366415188b2157d76a7250422580", null ],
     [ "W_SwitchWeapon_Force", "dd/de4/g__damage_8qh.html#a4a226b5967df0ab0c198fb5eebef802f", null ],
     [ "checkrules_firstblood", "dd/de4/g__damage_8qh.html#a8e4883f896a53ad8a08175e49d6b19ba", null ],
     [ "damage_attacker", "dd/de4/g__damage_8qh.html#ae1c09e012c6db95a17add951eb4d42e2", null ],

@@ -6,7 +6,5 @@ var gamemode__lms_8qc =
     [ "LMS_NewPlayerLives", "d7/db3/gamemode__lms_8qc.html#a25114f90621533d4d5bee24ebf2003f4", null ],
     [ "REGISTER_MUTATOR", "d7/db3/gamemode__lms_8qc.html#afed8449b5528e6053255d5591013eb6a", null ],
     [ "lms_lowest_lives", "d7/db3/gamemode__lms_8qc.html#a5159121140b227cc1ff7ca5c0df2db3c", null ],
-    [ "lms_next_place", "d7/db3/gamemode__lms_8qc.html#a3b402990441e283d88548bf3a4cfd0f3", null ],
-    [ "SP_LMS_LIVES", "d7/db3/gamemode__lms_8qc.html#a84bcdf570fcb44bbfd86d0144d9e7d40", null ],
-    [ "SP_LMS_RANK", "d7/db3/gamemode__lms_8qc.html#ac9ab3a9494c7cb93a753689c0a7e5ad3", null ]
+    [ "lms_next_place", "d7/db3/gamemode__lms_8qc.html#a3b402990441e283d88548bf3a4cfd0f3", null ]
 ];

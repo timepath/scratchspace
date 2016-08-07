@@ -14,7 +14,7 @@ var scoreboard_8qc =
     [ "HUD_DrawScoreboardAccuracyStats", "d3/d07/scoreboard_8qc.html#a28438a2b4a4ec746d8a39d56378953d7", null ],
     [ "HUD_DrawScoreboardRankings", "d3/d07/scoreboard_8qc.html#af876a4e0a7f1a38627b0bc2bcc65bb0a", null ],
     [ "HUD_FixScoreboardColumnWidth", "d3/d07/scoreboard_8qc.html#ac53d2ee840ea1d68645a5235a415ff31", null ],
-    [ "HUD_GetField", "d3/d07/scoreboard_8qc.html#abe28ba5bf2942a63bfc239943c3b22d1", null ],
+    [ "HUD_GetField", "d3/d07/scoreboard_8qc.html#a3ff55ced148dd7636347862ab28778cd", null ],
     [ "HUD_InitScores", "d3/d07/scoreboard_8qc.html#aae3133344c21e8d0e1f4a8a5ee4ed147", null ],
     [ "HUD_PrintScoreboardItem", "d3/d07/scoreboard_8qc.html#a7d0311aff51c8cc863a2780ad5252a7e", null ],
     [ "HUD_Scoreboard_MakeTable", "d3/d07/scoreboard_8qc.html#a3776e29ccb2025e35a9a32975814bd99", null ],
