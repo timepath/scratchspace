@@ -322,11 +322,11 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">void</span> sys_##sys##_update(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <span class="keywordtype">float</span> dt); <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">\</a></div>
-<div class="line"><a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">	float</a> autocvar_xon_sys_##sys##_dt = ((frameLimit) ? (1 / (frameLimit)) : 0); <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">\</a></div>
-<div class="line"><a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">	float</a> autocvar_xon_sys_##sys##_minfps = (1 / (1 / (minfps)))</div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">void</span> sys_##sys##_update(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <span class="keywordtype">float</span> dt); <a class="code" href="../../df/dae/player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">\</a></div>
+<div class="line"><a class="code" href="../../df/dae/player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">	float</a> autocvar_xon_sys_##sys##_dt = ((frameLimit) ? (1 / (frameLimit)) : 0); <a class="code" href="../../df/dae/player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">\</a></div>
+<div class="line"><a class="code" href="../../df/dae/player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">	float</a> autocvar_xon_sys_##sys##_minfps = (1 / (1 / (minfps)))</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="player_8qh_html_a996565d330a3e29229f2e3f0ea92b0bf"><div class="ttname"><a href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">float</a></div><div class="ttdeci">float(entity) PlayerPhysplug</div></div>
+<div class="ttc" id="player_8qh_html_a55d134b99f8513bc6f0bf5af7a06dfde"><div class="ttname"><a href="../../df/dae/player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">float</a></div><div class="ttdeci">float(entity, float) PlayerPhysplug</div></div>
 </div><!-- fragment -->
 <p>framelimit 0 is no limit, interpolation does not apply framerate below minfps will result in less than 100% speed </p>
 
@@ -348,11 +348,11 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">MACRO_BEGIN \</div>
-<div class="line">    static <span class="keywordtype">float</span> t = 0; <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">\</a></div>
-<div class="line"><a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">	float</a> dt = autocvar_xon_sys_##sys##_dt; <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">\</a></div>
-<div class="line"><a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">	float</a> minfps = autocvar_xon_sys_##sys##_minfps; \</div>
-<div class="line">    static <span class="keywordtype">float</span> accumulator = 0; <a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">\</a></div>
-<div class="line"><a class="code" href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">	float</a> a = 0; \</div>
+<div class="line">    static <span class="keywordtype">float</span> t = 0; <a class="code" href="../../df/dae/player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">\</a></div>
+<div class="line"><a class="code" href="../../df/dae/player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">	float</a> dt = autocvar_xon_sys_##sys##_dt; <a class="code" href="../../df/dae/player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">\</a></div>
+<div class="line"><a class="code" href="../../df/dae/player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">	float</a> minfps = autocvar_xon_sys_##sys##_minfps; \</div>
+<div class="line">    static <span class="keywordtype">float</span> accumulator = 0; <a class="code" href="../../df/dae/player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">\</a></div>
+<div class="line"><a class="code" href="../../df/dae/player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">	float</a> a = 0; \</div>
 <div class="line">    if (dt) { \</div>
 <div class="line">        accumulator += <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a>, 1 / (minfps)); \</div>
 <div class="line">    } <span class="keywordflow">else</span> { \</div>
@@ -370,10 +370,10 @@ Macros</h2></td></tr>
 <div class="line">    if (!a) a = accumulator / dt; \</div>
 <div class="line">    <a class="code" href="../../dc/dba/__lib_8qh.html#a5b9578d4b80c7bc21c918fc1e9a09e1e">FOREACH_COMPONENT</a>(sys, com_<span class="preprocessor">##sys##_interpolate(it, a)); \</span></div>
 <div class="line"><span class="preprocessor">    MACRO_END</span></div>
-<div class="ttc" id="player_8qh_html_a996565d330a3e29229f2e3f0ea92b0bf"><div class="ttname"><a href="../../df/dae/player_8qh.html#a996565d330a3e29229f2e3f0ea92b0bf">float</a></div><div class="ttdeci">float(entity) PlayerPhysplug</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a491da4d42d2639395d76dcf8d9d1dff4"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a></div><div class="ttdeci">float frametime</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00017">csprogsdefs.qc:17</a></div></div>
 <div class="ttc" id="__lib_8qh_html_a5b9578d4b80c7bc21c918fc1e9a09e1e"><div class="ttname"><a href="../../dc/dba/__lib_8qh.html#a5b9578d4b80c7bc21c918fc1e9a09e1e">FOREACH_COMPONENT</a></div><div class="ttdeci">#define FOREACH_COMPONENT(com, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dba/__lib_8qh_source.html#l00008">_lib.qh:8</a></div></div>
+<div class="ttc" id="player_8qh_html_a55d134b99f8513bc6f0bf5af7a06dfde"><div class="ttname"><a href="../../df/dae/player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">float</a></div><div class="ttdeci">float(entity, float) PlayerPhysplug</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../dc/dba/__lib_8qh_source.html#l00034">34</a> of file <a class="el" href="../../dc/dba/__lib_8qh_source.html">_lib.qh</a>.</p>
@@ -388,7 +388,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_eafb92770fbc727220bdaa0b1292f771.html">ecs</a></li><li class="navelem"><a class="el" href="../../dc/dba/__lib_8qh.html">_lib.qh</a></li>
-    <li class="footer">Generated on Sun Aug 7 2016 05:19:20 for Xonotic by
+    <li class="footer">Generated on Sun Aug 7 2016 05:25:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

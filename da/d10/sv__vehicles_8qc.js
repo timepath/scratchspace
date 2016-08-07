@@ -4,7 +4,7 @@ var sv__vehicles_8qc =
     [ "SendAuxiliaryXhair", "da/d10/sv__vehicles_8qc.html#a7a2ae1bbb066508dbcaeb617e1c6b887", null ],
     [ "shieldhit_think", "da/d10/sv__vehicles_8qc.html#a591286be998a76b02e9182e2d7a9f746", null ],
     [ "UpdateAuxiliaryXhair", "da/d10/sv__vehicles_8qc.html#a65279814c8a6144755ab92a4f3ba98ba", null ],
-    [ "vehicle_addplayerslot", "da/d10/sv__vehicles_8qc.html#a9aa8057daa73c290bd01303f9ad93e87", null ],
+    [ "vehicle_addplayerslot", "da/d10/sv__vehicles_8qc.html#a5d8be50f437a5297b86adcbac596068e", null ],
     [ "vehicle_aimturret", "da/d10/sv__vehicles_8qc.html#afcba25c827d948daf47134038eb3b300", null ],
     [ "vehicle_altitude", "da/d10/sv__vehicles_8qc.html#a7603bc6f68126501fdc865782f0dda98", null ],
     [ "vehicle_impulse", "da/d10/sv__vehicles_8qc.html#a6c29d6869bf163f03ba023875281f720", null ],

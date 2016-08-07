@@ -524,7 +524,7 @@ var searchData=
   ['turret_5fchangeteam',['turret_changeteam',['../dd/d43/cl__turrets_8qc.html#a181aadf6b8196e68aec17f8def47adda',1,'cl_turrets.qc']]],
   ['turret_5fcheckpoint_5finit',['turret_checkpoint_init',['../df/d18/checkpoint_8qc.html#aa879299cb4ab99983269eec00ffc6927',1,'checkpoint.qc']]],
   ['turret_5fcheckpoint_5fuse',['turret_checkpoint_use',['../df/d18/checkpoint_8qc.html#a4a455a6158f7e74eb2d4a4e30e831818',1,'checkpoint.qc']]],
-  ['turret_5fconstruct',['turret_construct',['../dd/d43/cl__turrets_8qc.html#a298a91076de46ead5e7b74c00bb541d3',1,'cl_turrets.qc']]],
+  ['turret_5fconstruct',['turret_construct',['../dd/d43/cl__turrets_8qc.html#a8a5aa44dc52f648c1cbbb4bcce5d119a',1,'cl_turrets.qc']]],
   ['turret_5fcount',['turret_count',['../df/d28/sv__turrets_8qh.html#a41a4c89629d95f8ea2a8654d986b877f',1,'sv_turrets.qh']]],
   ['turret_5fdie',['turret_die',['../dd/d43/cl__turrets_8qc.html#a3b700ba20a1e659f0f6012249ae62afd',1,'cl_turrets.qc']]],
   ['turret_5fdo_5fupdates',['turret_do_updates',['../df/d28/sv__turrets_8qh.html#aeecd9275b04ef56133834fe9ec106c3d',1,'sv_turrets.qh']]],
