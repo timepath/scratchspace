@@ -1,6 +1,5 @@
 var csprogsdefs_8qh =
 [
-    [ "CSPROGSDEFS_H", "da/dde/csprogsdefs_8qh.html#ab531f8d426c12945172229a5f63f09b8", null ],
     [ "false", "da/dde/csprogsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727", null ],
     [ "FALSE", "da/dde/csprogsdefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1", null ],
     [ "particleeffectnum", "da/dde/csprogsdefs_8qh.html#a2975aa3861dc843a19aa644cbca0990c", null ],

@@ -1,6 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"d1/dd1/classSettingSource.html#af6c7bbbf77c27320823a9a96dcfa2124":[1,0,97,3],
 "d1/dd2/lib_2draw_8qh.html":[2,0,4,16],
 "d1/dd2/lib_2draw_8qh_source.html":[2,0,4,16],
 "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html":[2,0,1,9,0,2,4],
@@ -249,5 +248,6 @@ var NAVTREEINDEX13 =
 "d2/d06/server_2command_2common_8qh.html#ae1000c8fd84aaa25b59021b596b1ff00":[2,0,6,1,9,22],
 "d2/d06/server_2command_2common_8qh.html#ae66fc6fd930bdae0c43bec6315e4e909":[2,0,6,1,9,28],
 "d2/d06/server_2command_2common_8qh.html#aeb66fd9ff298b82d93e8f139d80463bc":[2,0,6,1,9,15],
-"d2/d06/server_2command_2common_8qh.html#aedf91dab889fba563d3808503f2f9144":[2,0,6,1,9,55]
+"d2/d06/server_2command_2common_8qh.html#aedf91dab889fba563d3808503f2f9144":[2,0,6,1,9,55],
+"d2/d06/server_2command_2common_8qh.html#aeeadfac7208672d563e45d629e536edd":[2,0,6,1,9,16]
 };

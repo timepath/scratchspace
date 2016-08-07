@@ -8,7 +8,6 @@ var lib_2warpzone_2common_8qh =
     [ "BITXOR_ASSIGN", "d7/d71/lib_2warpzone_2common_8qh.html#af237b225c4ce5816d3d14362818addab", null ],
     [ "EXACTTRIGGER_INIT", "d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0", null ],
     [ "EXACTTRIGGER_TOUCH", "d7/d71/lib_2warpzone_2common_8qh.html#a14f4fc2c65ce6e5be0cc8b508e29139f", null ],
-    [ "LIB_WARPZONE_COMMON_H", "d7/d71/lib_2warpzone_2common_8qh.html#accccbdb4dd610515fee8656ef7fc0076", null ],
     [ "MOVE_NOTHING", "d7/d71/lib_2warpzone_2common_8qh.html#a95651aade7f0b90307b17d55ba25c953", null ],
     [ "move_out_of_solid", "d7/d71/lib_2warpzone_2common_8qh.html#ad79e0cb00b3240d020116c16914e8bb7", null ],
     [ "WarpZone_trace_callback_t", "d7/d71/lib_2warpzone_2common_8qh.html#a50229a0e711943ac139248bf1c0d3093", null ],

@@ -30,7 +30,6 @@ var searchData=
   ['diff_5fteam',['DIFF_TEAM',['../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b',1,'teams.qh']]],
   ['dotproduct',['dotproduct',['../de/dcb/vector_8qh.html#ae8d8b31974c50cca8b60d3734bc00dac',1,'vector.qh']]],
   ['dp_5fcsqc_5fentity_5fremove_5fis_5fb0rked',['DP_CSQC_ENTITY_REMOVE_IS_B0RKED',['../df/d30/client_2main_8qc.html#a829c94418af5c1e25d9beef673e25f94',1,'main.qc']]],
-  ['dpextensions_5fh',['DPEXTENSIONS_H',['../d3/d9e/dpextensions_8qh.html#a0ffd72974d24a1b26b10eb7ad3f78c9f',1,'dpextensions.qh']]],
   ['dprint2',['dprint2',['../db/da0/log_8qh.html#a14f8d12a0e12508f13be68fcb2cb5caa',1,'log.qh']]],
   ['draw_5fbeginboldfont',['draw_beginBoldFont',['../d8/db6/client_2miscfunctions_8qh.html#a7f890d7494e947f551852879f6df17f6',1,'draw_beginBoldFont():&#160;miscfunctions.qh'],['../d9/d62/menu_2draw_8qh.html#a7f890d7494e947f551852879f6df17f6',1,'draw_beginBoldFont():&#160;draw.qh']]],
   ['draw_5fendboldfont',['draw_endBoldFont',['../d8/db6/client_2miscfunctions_8qh.html#ac2144fdd7c0ebd4bbcaaa8aaddd45561',1,'draw_endBoldFont():&#160;miscfunctions.qh'],['../d9/d62/menu_2draw_8qh.html#ac2144fdd7c0ebd4bbcaaa8aaddd45561',1,'draw_endBoldFont():&#160;draw.qh']]],

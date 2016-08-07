@@ -1,15 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"d8/da6/interpolate_8qh.html#aeee86c725ebe42a649cdfeb3150d7acf":[2,0,4,0,8,1],
-"d8/da6/interpolate_8qh.html#af1c60cbbf6fa15c25a08bad25dd7f23b":[2,0,4,0,8,11],
-"d8/da6/interpolate_8qh.html#af7b5d3033d38549c00ab5e033e858911":[2,0,4,0,8,16],
-"d8/da6/interpolate_8qh_source.html":[2,0,4,0,8],
-"d8/da8/classXonoticServerCreateTab.html":[1,0,215],
-"d8/da8/classXonoticServerCreateTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,215,23],
-"d8/da8/classXonoticServerCreateTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,215,31],
-"d8/da8/classXonoticServerCreateTab.html#a086d32c9694472250922d42417bc8d66":[1,0,215,3],
-"d8/da8/classXonoticServerCreateTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,215,74],
-"d8/da8/classXonoticServerCreateTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,215,83],
 "d8/da8/classXonoticServerCreateTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,215,80],
 "d8/da8/classXonoticServerCreateTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,215,39],
 "d8/da8/classXonoticServerCreateTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,215,15],
@@ -249,5 +239,15 @@ var NAVTREEINDEX70 =
 "d8/db8/classCrylink.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,18,20],
 "d8/db8/classCrylink.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,18,15],
 "d8/db8/classCrylink.html#afae852aee04f756c5dea8e4339aacc1b":[1,0,18,33],
-"d8/dbb/lib_2matrix_2__mod_8inc.html":[2,0,4,1,0]
+"d8/dbb/lib_2matrix_2__mod_8inc.html":[2,0,4,1,0],
+"d8/dbb/lib_2matrix_2__mod_8inc_source.html":[2,0,4,1,0],
+"d8/dbb/mutators_2mutator_2weaponarena__random_2module_8inc.html":[2,0,1,9,0,32,2],
+"d8/dbb/mutators_2mutator_2weaponarena__random_2module_8inc_source.html":[2,0,1,9,0,32,2],
+"d8/dbf/dialog__hudpanel__quickmenu_8qc.html":[2,0,5,4,68],
+"d8/dbf/dialog__hudpanel__quickmenu_8qc.html#a9f95265a206d226c4179c86779feb483":[2,0,5,4,68,0],
+"d8/dbf/dialog__hudpanel__quickmenu_8qc_source.html":[2,0,5,4,68],
+"d8/dc0/progsdefs_8qh.html":[2,0,2,7],
+"d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c":[2,0,2,7,4],
+"d8/dc0/progsdefs_8qh.html#a41f9c5fb8b08eb5dc3edce4dcb37fee7":[2,0,2,7,5],
+"d8/dc0/progsdefs_8qh.html#a65e9886d74aaee76545e83dd09011727":[2,0,2,7,0]
 };

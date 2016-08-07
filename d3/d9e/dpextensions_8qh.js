@@ -4,7 +4,6 @@ var dpextensions_8qh =
     [ "argv_start_index", "d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2", null ],
     [ "buf_create", "d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c", null ],
     [ "chr2str", "d3/d9e/dpextensions_8qh.html#ae2a42f6d1c36b2c22e0cd67f761f2313", null ],
-    [ "DPEXTENSIONS_H", "d3/d9e/dpextensions_8qh.html#a0ffd72974d24a1b26b10eb7ad3f78c9f", null ],
     [ "gettagindex", "d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8", null ],
     [ "particleeffectnum", "d3/d9e/dpextensions_8qh.html#a2975aa3861dc843a19aa644cbca0990c", null ],
     [ "pointparticles", "d3/d9e/dpextensions_8qh.html#ac8847014472662de37600e592b86ec1f", null ],

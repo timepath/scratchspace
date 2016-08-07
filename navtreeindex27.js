@@ -1,10 +1,5 @@
 var NAVTREEINDEX27 =
 {
-"d3/dbe/classSlider.html#ab675ec042310789f103f55f083fdc66b":[1,0,101,34],
-"d3/dbe/classSlider.html#ab7241599cf98fe1957a482fca1dd8840":[1,0,101,37],
-"d3/dbe/classSlider.html#ab85c0b5ed0a24372b4cceec3f4b51063":[1,0,101,35],
-"d3/dbe/classSlider.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,101,53],
-"d3/dbe/classSlider.html#ac40c387fa816abb4367ff86fe85c386e":[1,0,101,25],
 "d3/dbe/classSlider.html#ac6094922668d013ada3893854eec6b0f":[1,0,101,9],
 "d3/dbe/classSlider.html#acd339ed42a2f51ac07364931d53de5a1":[1,0,101,66],
 "d3/dbe/classSlider.html#ad4d071551452575b555a59dbf590de0e":[1,0,101,26],
@@ -206,8 +201,8 @@ var NAVTREEINDEX27 =
 "d3/dd0/self_8qh.html#a15aa1aefc40b6101fd278636531103d1":[2,0,4,46,5],
 "d3/dd0/self_8qh.html#a203e953e46ef05b0373f8bccaeb5378c":[2,0,4,46,18],
 "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,46,13],
-"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,46,15],
 "d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,46,14],
+"d3/dd0/self_8qh.html#a211343b9c64dbd216c5bbd6c1409f11d":[2,0,4,46,15],
 "d3/dd0/self_8qh.html#a259aac00ed43fd7ac58196b770963525":[2,0,4,46,7],
 "d3/dd0/self_8qh.html#a29c098c7bd67a60d2dd9d94db782aaa6":[2,0,4,46,0],
 "d3/dd0/self_8qh.html#a2b1765bb8990e0e47100da7778e225d8":[2,0,4,46,25],
@@ -249,5 +244,10 @@ var NAVTREEINDEX27 =
 "d3/dd4/dialog__multiplayer__media__screenshot_8qh.html":[2,0,5,4,109],
 "d3/dd4/dialog__multiplayer__media__screenshot_8qh.html#ad2d931e8e2f2b55df36156c1737b77f7":[2,0,5,4,109,1],
 "d3/dd4/dialog__multiplayer__media__screenshot_8qh_source.html":[2,0,5,4,109],
-"d3/dd5/bd_8qc.html":[2,0,1,6,0,3]
+"d3/dd5/bd_8qc.html":[2,0,1,6,0,3],
+"d3/dd5/bd_8qc.html#a00294fc04d92634474be9f0c4a790cf9":[2,0,1,6,0,3,42],
+"d3/dd5/bd_8qc.html#a051007cbf0daa912a5c4622f5f1b47d3":[2,0,1,6,0,3,23],
+"d3/dd5/bd_8qc.html#a05dec46dde45e134efd1d17b8fe4bc58":[2,0,1,6,0,3,52],
+"d3/dd5/bd_8qc.html#a07c06eb3b7ba1dd490c5f09cb01909ce":[2,0,1,6,0,3,34],
+"d3/dd5/bd_8qc.html#a09566807d755f082682716c0c59020b2":[2,0,1,6,0,3,17]
 };

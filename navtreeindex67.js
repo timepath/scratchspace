@@ -1,14 +1,5 @@
 var NAVTREEINDEX67 =
 {
-"d8/d12/classRaptor.html#ab0033bb43b823ae364fcaa9f6d73c520":[1,0,90,5],
-"d8/d12/classRaptor.html#ab8a521e4c2b1360fd8ffff369ece2428":[1,0,90,21],
-"d8/d12/classRaptor.html#abb0248cf77d78ec72661662614263acf":[1,0,90,26],
-"d8/d12/classRaptor.html#acd61673a42237365d55777d092f5f5ad":[1,0,90,10],
-"d8/d12/classRaptor.html#ad29884a3f395ad9d49c4eceab06a2957":[1,0,90,4],
-"d8/d12/classRaptor.html#adf8a07b9a784db9eebebaede75458935":[1,0,90,23],
-"d8/d12/classRaptor.html#ae6f993d40a8c3fe356e149ef15eeb11c":[1,0,90,14],
-"d8/d12/classRaptor.html#ae8af7e33ae6e2e1f8115315cbfe1f5b1":[1,0,90,19],
-"d8/d12/classRaptor.html#af1e7a9d937de540345fea6c3f4058b0f":[1,0,90,27],
 "d8/d12/classRaptor.html#af6f42dcff19b7fb5b76462a7d5848b97":[1,0,90,7],
 "d8/d12/classRaptor.html#afd0b0a53c33686b2c18a083f282d1761":[1,0,90,24],
 "d8/d12/shotgun_8qc.html":[2,0,1,16,0,18],
@@ -249,5 +240,14 @@ var NAVTREEINDEX67 =
 "d8/d35/classXonoticHUDChatDialog.html#a54e38d6145b42b9d72d2deb494602ae4":[1,0,160,61],
 "d8/d35/classXonoticHUDChatDialog.html#a588c2bad65ee0a1e6478f7d9fda23d06":[1,0,160,50],
 "d8/d35/classXonoticHUDChatDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,160,55],
-"d8/d35/classXonoticHUDChatDialog.html#a67d95732d49da439095483530aca8804":[1,0,160,42]
+"d8/d35/classXonoticHUDChatDialog.html#a67d95732d49da439095483530aca8804":[1,0,160,42],
+"d8/d35/classXonoticHUDChatDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,160,69],
+"d8/d35/classXonoticHUDChatDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,160,7],
+"d8/d35/classXonoticHUDChatDialog.html#a727c1efac58ec243364c8c2b923fcca4":[1,0,160,49],
+"d8/d35/classXonoticHUDChatDialog.html#a7453656a14957adc4aed76a2ed789bda":[1,0,160,83],
+"d8/d35/classXonoticHUDChatDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,160,57],
+"d8/d35/classXonoticHUDChatDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,160,14],
+"d8/d35/classXonoticHUDChatDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,160,85],
+"d8/d35/classXonoticHUDChatDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,160,75],
+"d8/d35/classXonoticHUDChatDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,160,41]
 };

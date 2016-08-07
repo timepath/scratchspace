@@ -1,6 +1,5 @@
 var NAVTREEINDEX15 =
 {
-"d2/d42/classXonoticUserbindEditDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,232,70],
 "d2/d42/classXonoticUserbindEditDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,232,12],
 "d2/d42/classXonoticUserbindEditDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,232,40],
 "d2/d42/classXonoticUserbindEditDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,232,17],
@@ -249,5 +248,6 @@ var NAVTREEINDEX15 =
 "d2/d76/server_2mapvoting_8qc.html#ad8b6271f8144b3c1cdf309c335545feb":[2,0,6,41,27],
 "d2/d76/server_2mapvoting_8qc.html#ad8e7318090c69b42daeafcac79871f41":[2,0,6,41,29],
 "d2/d76/server_2mapvoting_8qc.html#ada5ec3ec4ce51c78c0d223341d530c45":[2,0,6,41,42],
-"d2/d76/server_2mapvoting_8qc.html#ada6ce51a0ca57de830c4d42c8b639c51":[2,0,6,41,33]
+"d2/d76/server_2mapvoting_8qc.html#ada6ce51a0ca57de830c4d42c8b639c51":[2,0,6,41,33],
+"d2/d76/server_2mapvoting_8qc.html#ae506e95f8873824304a1f765f616231f":[2,0,6,41,19]
 };

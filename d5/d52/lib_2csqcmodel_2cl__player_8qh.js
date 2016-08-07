@@ -1,6 +1,5 @@
 var lib_2csqcmodel_2cl__player_8qh =
 [
-    [ "LIB_CSQCMODEL_CL_PLAYER_H", "d5/d52/lib_2csqcmodel_2cl__player_8qh.html#acef0f6a8c9defcc9ba14d42ab7cfcb16", null ],
     [ "CSQCPlayer_IsLocalPlayer", "d5/d52/lib_2csqcmodel_2cl__player_8qh.html#abb92d212381ae01e0c68ab2aabfc5c32", null ],
     [ "CSQCPlayer_PostUpdate", "d5/d52/lib_2csqcmodel_2cl__player_8qh.html#a2508d0697a6df1f5a5bb055d65fbce19", null ],
     [ "CSQCPlayer_PreUpdate", "d5/d52/lib_2csqcmodel_2cl__player_8qh.html#a44b94ae8a56cc8086aff2ed6b0b9161f", null ],

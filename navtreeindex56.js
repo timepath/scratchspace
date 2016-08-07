@@ -1,12 +1,5 @@
 var NAVTREEINDEX56 =
 {
-"d7/d13/classXonoticHUDAmmoDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,158,53],
-"d7/d13/classXonoticHUDAmmoDialog.html#ad4b6509b543cad0281f4aa1dc91c7ac8":[1,0,158,50],
-"d7/d13/classXonoticHUDAmmoDialog.html#ad8f3ec4d9eb909085950cd3cc628042d":[1,0,158,13],
-"d7/d13/classXonoticHUDAmmoDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,158,84],
-"d7/d13/classXonoticHUDAmmoDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,158,20],
-"d7/d13/classXonoticHUDAmmoDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,158,52],
-"d7/d13/classXonoticHUDAmmoDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,158,44],
 "d7/d13/classXonoticHUDAmmoDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,158,88],
 "d7/d13/classXonoticHUDAmmoDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,158,60],
 "d7/d13/classXonoticHUDAmmoDialog.html#af1aab403dc54575707fd57991312b201":[1,0,158,36],
@@ -249,5 +242,12 @@ var NAVTREEINDEX56 =
 "d7/d39/classXonoticVideoSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,234,74],
 "d7/d39/classXonoticVideoSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,234,41],
 "d7/d39/classXonoticVideoSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,234,34],
-"d7/d39/classXonoticVideoSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,234,66]
+"d7/d39/classXonoticVideoSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,234,66],
+"d7/d39/classXonoticVideoSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,234,64],
+"d7/d39/classXonoticVideoSettingsTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,234,50],
+"d7/d39/classXonoticVideoSettingsTab.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,234,73],
+"d7/d39/classXonoticVideoSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,234,55],
+"d7/d39/classXonoticVideoSettingsTab.html#aa1abab97698c6f13909d1791611312cb":[1,0,234,58],
+"d7/d39/classXonoticVideoSettingsTab.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,234,46],
+"d7/d39/classXonoticVideoSettingsTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,234,5]
 };

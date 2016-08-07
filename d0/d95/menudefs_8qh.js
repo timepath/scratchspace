@@ -5,7 +5,6 @@ var menudefs_8qh =
     [ "false", "d0/d95/menudefs_8qh.html#a65e9886d74aaee76545e83dd09011727", null ],
     [ "FALSE", "d0/d95/menudefs_8qh.html#aa93f0eb578d23995850d61f7d61c55c1", null ],
     [ "localcmd", "d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3", null ],
-    [ "MENUDEFS_H", "d0/d95/menudefs_8qh.html#ad6de0e0a47f016163aefcf1b8fe0ac0d", null ],
     [ "spawn", "d0/d95/menudefs_8qh.html#ac5decd6a5d0583f4fd91499fc239da65", null ],
     [ "str2chr", "d0/d95/menudefs_8qh.html#a03da3a537f9764333e85cbed8b52f4e4", null ],
     [ "strcasecmp", "d0/d95/menudefs_8qh.html#ac99ec3f1036620727a68aa8c25a8963c", null ],

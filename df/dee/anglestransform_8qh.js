@@ -3,7 +3,6 @@ var anglestransform_8qh =
     [ "fixedmakevectors", "df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e", null ],
     [ "fixedvectoangles", "df/dee/anglestransform_8qh.html#ab16e50b7b9398057b0e28c85b20d6ca5", null ],
     [ "fixedvectoangles2", "df/dee/anglestransform_8qh.html#a7306b623ecb07a5c62ec3d5b3094e1b7", null ],
-    [ "LIB_WARPZONE_ANGLETRANSFORM_H", "df/dee/anglestransform_8qh.html#a08ad53e0e6e6d6eb325e356041487557", null ],
     [ "POSITIVE_PITCH_IS_DOWN", "df/dee/anglestransform_8qh.html#a0909075e90b39b50ba4d318a27871c4c", null ],
     [ "AnglesTransform_Apply", "df/dee/anglestransform_8qh.html#a6eef2b5d1dcd28a89fa2ab3146011775", null ],
     [ "AnglesTransform_ApplyToAngles", "df/dee/anglestransform_8qh.html#ae62e4ce9337df904e78bc661778ba4e0", null ],

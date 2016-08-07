@@ -1,6 +1,5 @@
 var mathlib_8qh =
 [
-    [ "LIB_WARPZONE_MATHLIB_H", "d9/df7/mathlib_8qh.html#a2fa8277d31bd808e7d885d5c811a6e5b", null ],
     [ "M_PI", "d9/df7/mathlib_8qh.html#ae71449b1cc6e6250b91f539153a7a0d3", null ],
     [ "acosh", "d9/df7/mathlib_8qh.html#aade379f07edc972d85b579897aa7c4dd", null ],
     [ "asinh", "d9/df7/mathlib_8qh.html#aef571c82bdcb93921bb4ee524c2c4a2a", null ],
