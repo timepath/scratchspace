@@ -1,16 +1,5 @@
 var NAVTREEINDEX33 =
 {
-"d4/d17/classVortex.html#af7d0bca2ffb78c66e07a3b836757fa58":[1,0,116,26],
-"d4/d18/iter_8qh.html":[2,0,4,23],
-"d4/d18/iter_8qh.html#a06916c247b5917377f087f9e493265c1":[2,0,4,23,43],
-"d4/d18/iter_8qh.html#a06e81ec5bd716fed71d2dd0850a1dcae":[2,0,4,23,32],
-"d4/d18/iter_8qh.html#a0af8f151fe0e039c64f075b2317ba6ad":[2,0,4,23,35],
-"d4/d18/iter_8qh.html#a1559f27780f99ffd8d0f5a2d504afcb8":[2,0,4,23,34],
-"d4/d18/iter_8qh.html#a15c28a9b2a7ccd7dc2d2b23bf7ab563c":[2,0,4,23,52],
-"d4/d18/iter_8qh.html#a16ed318717b51d5252bf353ff7090b9f":[2,0,4,23,49],
-"d4/d18/iter_8qh.html#a1affaa764f07300f1acd7935ce30fe50":[2,0,4,23,47],
-"d4/d18/iter_8qh.html#a268bcbda68d3c4d6caf3af6e5ac88f08":[2,0,4,23,15],
-"d4/d18/iter_8qh.html#a2785e03085908282b1a27dbcaac4a5ac":[2,0,4,23,31],
 "d4/d18/iter_8qh.html#a28183416d3fc1db7856f3b4129f38c65":[2,0,4,23,37],
 "d4/d18/iter_8qh.html#a28ec46b0f40c7772c6bf141b6d981ece":[2,0,4,23,39],
 "d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa":[2,0,4,23,40],
@@ -249,5 +238,16 @@ var NAVTREEINDEX33 =
 "d4/d3b/classXonoticBigButton.html#a8324a7ba04b2ccc4938803dd15528b4a":[1,0,125,24],
 "d4/d3b/classXonoticBigButton.html#a8894e7ce2ef345979ef91af7035cc80b":[1,0,125,42],
 "d4/d3b/classXonoticBigButton.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,125,59],
-"d4/d3b/classXonoticBigButton.html#a8b3010fc463034904b21d7d6da17a127":[1,0,125,58]
+"d4/d3b/classXonoticBigButton.html#a8b3010fc463034904b21d7d6da17a127":[1,0,125,58],
+"d4/d3b/classXonoticBigButton.html#a91496430c97151830db0169a7c482e82":[1,0,125,55],
+"d4/d3b/classXonoticBigButton.html#a928f38e3f890c641e0c91571b3fdc360":[1,0,125,68],
+"d4/d3b/classXonoticBigButton.html#a95e3e1c82a75a5ee33b08f1da84c05bd":[1,0,125,31],
+"d4/d3b/classXonoticBigButton.html#a98e9b29dfe2a91ddb3b653eee1003b2f":[1,0,125,45],
+"d4/d3b/classXonoticBigButton.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,125,61],
+"d4/d3b/classXonoticBigButton.html#a99459ab62c745d1a8e9e5c65a15294e0":[1,0,125,38],
+"d4/d3b/classXonoticBigButton.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,125,27],
+"d4/d3b/classXonoticBigButton.html#aa7f27de3ff5b3d20ac6122783d29ad40":[1,0,125,48],
+"d4/d3b/classXonoticBigButton.html#aa8b22bde0938470cf0f0cb989e0c95e3":[1,0,125,37],
+"d4/d3b/classXonoticBigButton.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,125,6],
+"d4/d3b/classXonoticBigButton.html#aaefd5f78048ffbfdf0e45b630c4b5a4b":[1,0,125,46]
 };

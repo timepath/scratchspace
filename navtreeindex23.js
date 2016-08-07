@@ -1,16 +1,5 @@
 var NAVTREEINDEX23 =
 {
-"d3/d46/mapinfo_8qc.html#a53227eb055bce2f2d9197dbfd3541c78":[2,0,1,32,55],
-"d3/d46/mapinfo_8qc.html#a5b0d0801a2b5ccc42d4ca786a115c948":[2,0,1,32,43],
-"d3/d46/mapinfo_8qc.html#a6408b61e1787a146de1419ab4b87b742":[2,0,1,32,9],
-"d3/d46/mapinfo_8qc.html#a6718c6cd677f3f70d71fe5079e86ade9":[2,0,1,32,4],
-"d3/d46/mapinfo_8qc.html#a68300db7d97bc431f5774e80ac5adcc6":[2,0,1,32,10],
-"d3/d46/mapinfo_8qc.html#a70228e0dbbf11fdb038ceeaa97ef95d9":[2,0,1,32,6],
-"d3/d46/mapinfo_8qc.html#a70ce1094a7b3d4e54f0e8f78b7c11499":[2,0,1,32,35],
-"d3/d46/mapinfo_8qc.html#a7cbd9edfae5695f0f3e239701462b6d9":[2,0,1,32,15],
-"d3/d46/mapinfo_8qc.html#a7d438f7d5d7ddae6e68365b0cb30ae9a":[2,0,1,32,18],
-"d3/d46/mapinfo_8qc.html#a7fca0108ab929491063fbd26c86dbd6f":[2,0,1,32,32],
-"d3/d46/mapinfo_8qc.html#a802a9dfeae2a8991ff7b3dbf754abb66":[2,0,1,32,0],
 "d3/d46/mapinfo_8qc.html#a8376e1f3ab6210a25a34c278e6308070":[2,0,1,32,14],
 "d3/d46/mapinfo_8qc.html#a909ab91933ee8b125ca839d26c3116d2":[2,0,1,32,48],
 "d3/d46/mapinfo_8qc.html#a99eaeaa292df03c1333d95546ca3eeb8":[2,0,1,32,2],
@@ -249,5 +238,16 @@ var NAVTREEINDEX23 =
 "d3/d52/classXonoticResetDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,206,48],
 "d3/d52/classXonoticResetDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,206,81],
 "d3/d52/classXonoticResetDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,206,40],
-"d3/d52/classXonoticResetDialog.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,206,71]
+"d3/d52/classXonoticResetDialog.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,206,71],
+"d3/d52/classXonoticResetDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,206,53],
+"d3/d52/classXonoticResetDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,206,84],
+"d3/d52/classXonoticResetDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,206,20],
+"d3/d52/classXonoticResetDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,206,52],
+"d3/d52/classXonoticResetDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,206,44],
+"d3/d52/classXonoticResetDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,206,88],
+"d3/d52/classXonoticResetDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,206,60],
+"d3/d52/classXonoticResetDialog.html#af1aab403dc54575707fd57991312b201":[1,0,206,36],
+"d3/d52/classXonoticResetDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,206,16],
+"d3/d52/classXonoticResetDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,206,28],
+"d3/d52/classXonoticResetDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,206,2]
 };

@@ -167,7 +167,7 @@ $(document).ready(function(){initNavTree('d1/dc2/bugrigs_8qc_source.html','../..
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keywordtype">void</span> RaceCarPhysics(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="keywordtype">void</span> RaceCarPhysics(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <span class="keywordtype">float</span> dt)</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;{</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="comment">// using this move type for &quot;big rigs&quot;</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="comment">// the engine does not push the entity!</span></div>
@@ -221,35 +221,35 @@ $(document).ready(function(){initNavTree('d1/dc2/bugrigs_8qc_source.html','../..
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        {</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">if</span> (myspeed &gt; 0)</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            {</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                myspeed = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, myspeed - PHYS_INPUT_TIMELENGTH * (PHYS_BUGRIGS_FRICTION_FLOOR(<span class="keyword">this</span>) - PHYS_BUGRIGS_FRICTION_BRAKE(<span class="keyword">this</span>) * accel));</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                myspeed = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, myspeed - dt * (PHYS_BUGRIGS_FRICTION_FLOOR(<span class="keyword">this</span>) - PHYS_BUGRIGS_FRICTION_BRAKE(<span class="keyword">this</span>) * accel));</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;            }</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;            {</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                <span class="keywordflow">if</span> (!PHYS_BUGRIGS_REVERSE_SPEEDING(<span class="keyword">this</span>))</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                    myspeed = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(0, myspeed + PHYS_INPUT_TIMELENGTH * PHYS_BUGRIGS_FRICTION_FLOOR(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                    myspeed = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(0, myspeed + dt * PHYS_BUGRIGS_FRICTION_FLOOR(<span class="keyword">this</span>));</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            }</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        }</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        {</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;            <span class="keywordflow">if</span> (myspeed &gt;= 0)</div>
 <div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;            {</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                myspeed = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, myspeed - PHYS_INPUT_TIMELENGTH * PHYS_BUGRIGS_FRICTION_FLOOR(<span class="keyword">this</span>));</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;                myspeed = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, myspeed - dt * PHYS_BUGRIGS_FRICTION_FLOOR(<span class="keyword">this</span>));</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            }</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            {</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;                <span class="keywordflow">if</span> (PHYS_BUGRIGS_REVERSE_STOPPING(<span class="keyword">this</span>))</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;                    myspeed = 0;</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                    myspeed = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(0, myspeed + PHYS_INPUT_TIMELENGTH * (PHYS_BUGRIGS_FRICTION_FLOOR(<span class="keyword">this</span>) + PHYS_BUGRIGS_FRICTION_BRAKE(<span class="keyword">this</span>) * accel));</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;                    myspeed = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(0, myspeed + dt * (PHYS_BUGRIGS_FRICTION_FLOOR(<span class="keyword">this</span>) + PHYS_BUGRIGS_FRICTION_BRAKE(<span class="keyword">this</span>) * accel));</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;            }</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        }</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        <span class="comment">// terminal velocity = velocity at which 50 == accelfactor, that is, 1549 units/sec</span></div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="comment">//MAXIMA: friction(v) := PHYS_BUGRIGS_FRICTION_FLOOR(this);</span></div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        this.angles_y += steer * PHYS_INPUT_TIMELENGTH * steerfactor; <span class="comment">// apply steering</span></div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;        this.angles_y += steer * dt * steerfactor; <span class="comment">// apply steering</span></div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;        makevectors(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>); <span class="comment">// new forward direction!</span></div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        myspeed += accel * accelfactor * PHYS_INPUT_TIMELENGTH;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        myspeed += accel * accelfactor * dt;</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        rigvel = myspeed * v_forward + <span class="stringliteral">&#39;0 0 1&#39;</span> * upspeed;</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    }</div>
@@ -260,13 +260,13 @@ $(document).ready(function(){initNavTree('d1/dc2/bugrigs_8qc_source.html','../..
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <span class="comment">// responsiveness factor for steering and acceleration</span></div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordtype">float</span> f = 1 / (1 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, myspeed / PHYS_BUGRIGS_SPEED_REF(<span class="keyword">this</span>)), PHYS_BUGRIGS_SPEED_POW(<span class="keyword">this</span>)));</div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="keywordtype">float</span> steerfactor = -myspeed * f;</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        this.angles_y += steer * PHYS_INPUT_TIMELENGTH * steerfactor; <span class="comment">// apply steering</span></div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;        this.angles_y += steer * dt * steerfactor; <span class="comment">// apply steering</span></div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;</div>
 <div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;        rigvel = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a>;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        makevectors(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>); <span class="comment">// new forward direction!</span></div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    }</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    rigvel *= <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, 1 - <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(rigvel) * PHYS_BUGRIGS_FRICTION_AIR(<span class="keyword">this</span>) * PHYS_INPUT_TIMELENGTH);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    rigvel *= <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, 1 - <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(rigvel) * PHYS_BUGRIGS_FRICTION_AIR(<span class="keyword">this</span>) * dt);</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="comment">//MAXIMA: airfriction(v) := v * v * PHYS_BUGRIGS_FRICTION_AIR(this);</span></div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    <span class="comment">//MAXIMA: total_acceleration(v) := accel(v) - friction(v) - airfriction(v);</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="comment">//MAXIMA: solve(total_acceleration(v) = 0, v);</span></div>
@@ -276,7 +276,7 @@ $(document).ready(function(){initNavTree('d1/dc2/bugrigs_8qc_source.html','../..
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> rigvel_xy, neworigin, up;</div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="keywordtype">float</span> mt;</div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        rigvel_z -= PHYS_INPUT_TIMELENGTH * PHYS_GRAVITY(<span class="keyword">this</span>); <span class="comment">// 4x gravity plays better</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;        rigvel_z -= dt * PHYS_GRAVITY(<span class="keyword">this</span>); <span class="comment">// 4x gravity plays better</span></div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;        rigvel_xy = <a class="code" href="../../de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910">vec2</a>(rigvel);</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;</div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">if</span> (PHYS_BUGRIGS_CAR_JUMPING(<span class="keyword">this</span>))</div>
@@ -289,10 +289,10 @@ $(document).ready(function(){initNavTree('d1/dc2/bugrigs_8qc_source.html','../..
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;</div>
 <div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        <span class="comment">// BUG RIGS: align the move to the surface instead of doing collision testing</span></div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        <span class="comment">// can we move?</span></div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        tracebox(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">mins</a>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a972054a34285ccf8530071c879723230">maxs</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> + rigvel_xy * PHYS_INPUT_TIMELENGTH, mt, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        tracebox(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">mins</a>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a972054a34285ccf8530071c879723230">maxs</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> + rigvel_xy * dt, mt, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <span class="comment">// align to surface</span></div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        tracebox(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">mins</a>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a972054a34285ccf8530071c879723230">maxs</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> - up + <span class="stringliteral">&#39;0 0 1&#39;</span> * rigvel_z * PHYS_INPUT_TIMELENGTH, mt, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        tracebox(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">mins</a>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a972054a34285ccf8530071c879723230">maxs</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> - up + <span class="stringliteral">&#39;0 0 1&#39;</span> * rigvel_z * dt, mt, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;</div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a> &lt; 0.5)</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        {</div>
@@ -320,12 +320,12 @@ $(document).ready(function(){initNavTree('d1/dc2/bugrigs_8qc_source.html','../..
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <a class="code" href="../../d4/dd7/movetypes_8qh.html#abe20324d138f110c779274c157be381f">UNSET_ONGROUND</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        }</div>
 <div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a> = (neworigin - this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>) * (1.0 / PHYS_INPUT_TIMELENGTH);</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a> = (neworigin - this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>) * (1.0 / dt);</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a5b834d2f3b730660e13fbf6180071669">MOVETYPE_NOCLIP</a>);</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    }</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    {</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        rigvel_z -= PHYS_INPUT_TIMELENGTH * PHYS_GRAVITY(<span class="keyword">this</span>); <span class="comment">// 4x gravity plays better</span></div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        rigvel_z -= dt * PHYS_GRAVITY(<span class="keyword">this</span>); <span class="comment">// 4x gravity plays better</span></div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a> = rigvel;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0438992800fc2c9d52f6bafe99e50ebd">MOVETYPE_FLY</a>);</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    }</div>
@@ -358,7 +358,7 @@ $(document).ready(function(){initNavTree('d1/dc2/bugrigs_8qc_source.html','../..
 <div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="comment">// smooth the angles</span></div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> vf1, vu1, smoothangles;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    makevectors(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>);</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordtype">float</span> f = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, PHYS_INPUT_TIMELENGTH * PHYS_BUGRIGS_ANGLE_SMOOTHING(<span class="keyword">this</span>), 1);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordtype">float</span> f = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, dt * PHYS_BUGRIGS_ANGLE_SMOOTHING(<span class="keyword">this</span>), 1);</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    <span class="keywordflow">if</span> (f == 0)</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        f = 1;</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    vf1 = v_forward * f;</div>
@@ -377,47 +377,48 @@ $(document).ready(function(){initNavTree('d1/dc2/bugrigs_8qc_source.html','../..
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(bugrigs, PM_Physics)</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;{</div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    <span class="keywordflow">if</span>(!PHYS_BUGRIGS(player) || !<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(player)) { <span class="keywordflow">return</span>; }</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="preprocessor"></span>    player.angles = player.bugrigs_prevangles;</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    RaceCarPhysics(player);</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;}</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(bugrigs, PlayerPhysics)</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;{</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="keywordflow">if</span>(!PHYS_BUGRIGS(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>))) { <span class="keywordflow">return</span>; }</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    player.bugrigs_prevangles = player.angles;</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="preprocessor"></span>}</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(bugrigs, <a class="code" href="../../da/d53/cl__client_8qc.html#a54fdd4fa0492ab020e0a35c817a8f472">ClientConnect</a>)</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;{</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <a class="code" href="../../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c">stuffcmd</a>(player, <span class="stringliteral">&quot;cl_cmd settemp chase_active 1\n&quot;</span>);</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;}</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(bugrigs, BuildMutatorsString)</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;{</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>), <span class="stringliteral">&quot;:bugrigs&quot;</span>);</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;}</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(bugrigs, BuildMutatorsPrettyString)</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;{</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>), <span class="stringliteral">&quot;, Bug rigs&quot;</span>);</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;}</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <span class="keywordtype">float</span> dt = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <span class="keywordtype">float</span>);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <span class="keywordflow">if</span>(!PHYS_BUGRIGS(player) || !<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(player)) { <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="preprocessor"></span>    player.angles = player.bugrigs_prevangles;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    RaceCarPhysics(player, dt);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;}</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(bugrigs, PlayerPhysics)</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;{</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="keywordflow">if</span>(!PHYS_BUGRIGS(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>))) { <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    player.bugrigs_prevangles = player.angles;</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="preprocessor"></span>}</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(bugrigs, <a class="code" href="../../da/d53/cl__client_8qc.html#a54fdd4fa0492ab020e0a35c817a8f472">ClientConnect</a>)</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;{</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    <a class="code" href="../../d8/dc0/progsdefs_8qh.html#a0177ce011f923c213b22d01b2b8a103c">stuffcmd</a>(player, <span class="stringliteral">&quot;cl_cmd settemp chase_active 1\n&quot;</span>);</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;}</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(bugrigs, BuildMutatorsString)</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;{</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>), <span class="stringliteral">&quot;:bugrigs&quot;</span>);</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;}</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(bugrigs, BuildMutatorsPrettyString)</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;{</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>), <span class="stringliteral">&quot;, Bug rigs&quot;</span>);</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;}</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
 <div class="ttc" id="antilag_8qh_html"><div class="ttname"><a href="../../d0/dd2/antilag_8qh.html">antilag.qh</a></div></div>
@@ -450,7 +451,7 @@ $(document).ready(function(){initNavTree('d1/dc2/bugrigs_8qc_source.html','../..
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 <div class="ttc" id="vector_8qh_html_ae0030538506d12cd8ee388d004234910"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#ae0030538506d12cd8ee388d004234910">vec2</a></div><div class="ttdeci">#define vec2(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00097">vector.qh:97</a></div></div>
 <div class="ttc" id="player_8qc_html_a7f20db878a70709abd841bf5873d578a"><div class="ttname"><a href="../../dc/ddd/player_8qc.html#a7f20db878a70709abd841bf5873d578a">racecar_angle</a></div><div class="ttdeci">float racecar_angle(float forward, float down)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/ddd/player_8qc_source.html#l00495">player.qc:495</a></div></div>
-<div class="ttc" id="cl__client_8qc_html_a54fdd4fa0492ab020e0a35c817a8f472"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#a54fdd4fa0492ab020e0a35c817a8f472">ClientConnect</a></div><div class="ttdeci">void ClientConnect(entity this)</div><div class="ttdoc"> ClientConnect </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01054">cl_client.qc:1054</a></div></div>
+<div class="ttc" id="cl__client_8qc_html_a54fdd4fa0492ab020e0a35c817a8f472"><div class="ttname"><a href="../../da/d53/cl__client_8qc.html#a54fdd4fa0492ab020e0a35c817a8f472">ClientConnect</a></div><div class="ttdeci">void ClientConnect(entity this)</div><div class="ttdoc"> ClientConnect </div><div class="ttdef"><b>Definition:</b> <a href="../../da/d53/cl__client_8qc_source.html#l01053">cl_client.qc:1053</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_af57e9ae316e98938da93ca401931db54"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#af57e9ae316e98938da93ca401931db54">trace_plane_normal</a></div><div class="ttdeci">vector trace_plane_normal</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00038">csprogsdefs.qc:38</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aa1f190a348c0675e2f35688de429bef6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a></div><div class="ttdeci">vector angles</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00104">csprogsdefs.qc:104</a></div></div>
 <div class="ttc" id="base_8qh_html_a1003ef6b08686c5c841fc6a4e8428992"><div class="ttname"><a href="../../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992">MUTATOR_ONADD</a></div><div class="ttdeci">#define MUTATOR_ONADD</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00287">base.qh:287</a></div></div>
@@ -466,7 +467,7 @@ $(document).ready(function(){initNavTree('d1/dc2/bugrigs_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_e993fb9997d93070d173d259a752cf4d.html">bugrigs</a></li><li class="navelem"><a class="el" href="../../d1/dc2/bugrigs_8qc.html">bugrigs.qc</a></li>
-    <li class="footer">Generated on Sun Aug 7 2016 03:22:41 for Xonotic by
+    <li class="footer">Generated on Sun Aug 7 2016 05:19:11 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

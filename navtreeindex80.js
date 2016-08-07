@@ -1,10 +1,5 @@
 var NAVTREEINDEX80 =
 {
-"da/d10/sv__vehicles_8qc.html#a452c33c882494e0ba872809229f9f769":[2,0,1,15,7,10],
-"da/d10/sv__vehicles_8qc.html#a4bd38526315a441269cae0d44943d01d":[2,0,1,15,7,31],
-"da/d10/sv__vehicles_8qc.html#a4dafdad030ed16fd1dfd22d4e854fcda":[2,0,1,15,7,32],
-"da/d10/sv__vehicles_8qc.html#a591286be998a76b02e9182e2d7a9f746":[2,0,1,15,7,2],
-"da/d10/sv__vehicles_8qc.html#a59fc9c57ccdb2ff45e767dadd8aa8aa9":[2,0,1,15,7,42],
 "da/d10/sv__vehicles_8qc.html#a5c938575dbcb274a8ec0ac03ebd61fa0":[2,0,1,15,7,33],
 "da/d10/sv__vehicles_8qc.html#a65279814c8a6144755ab92a4f3ba98ba":[2,0,1,15,7,3],
 "da/d10/sv__vehicles_8qc.html#a6c29d6869bf163f03ba023875281f720":[2,0,1,15,7,7],
@@ -249,5 +244,10 @@ var NAVTREEINDEX80 =
 "da/d2a/classXonoticDecibelsSlider.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,142,60],
 "da/d2a/classXonoticDecibelsSlider.html#a7e34e8b0ce4cf44d7fa4b02a1353d0dd":[1,0,142,26],
 "da/d2a/classXonoticDecibelsSlider.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,142,62],
-"da/d2a/classXonoticDecibelsSlider.html#a868bbf91a5aa2de1bba5c969df478316":[1,0,142,39]
+"da/d2a/classXonoticDecibelsSlider.html#a868bbf91a5aa2de1bba5c969df478316":[1,0,142,39],
+"da/d2a/classXonoticDecibelsSlider.html#a8894e7ce2ef345979ef91af7035cc80b":[1,0,142,45],
+"da/d2a/classXonoticDecibelsSlider.html#a896da94f4d9e857ff8d0124b6621a802":[1,0,142,80],
+"da/d2a/classXonoticDecibelsSlider.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,142,59],
+"da/d2a/classXonoticDecibelsSlider.html#a8c417c95c040a29cf9f83ee606f161ce":[1,0,142,22],
+"da/d2a/classXonoticDecibelsSlider.html#a8c568c803f49400fd0165b69f82d4161":[1,0,142,57]
 };

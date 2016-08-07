@@ -1,12 +1,5 @@
 var NAVTREEINDEX79 =
 {
-"d9/de9/classListBox.html#a955acbbda432fb19399292cbac96e0af":[1,0,56,47],
-"d9/de9/classListBox.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,56,56],
-"d9/de9/classListBox.html#aa089b7b1be6d628383e60c872a900c79":[1,0,56,46],
-"d9/de9/classListBox.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,56,32],
-"d9/de9/classListBox.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,56,4],
-"d9/de9/classListBox.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,56,58],
-"d9/de9/classListBox.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,56,60],
 "d9/de9/classListBox.html#ab3f469c0e787273cc3e91b5c7d49c0a3":[1,0,56,19],
 "d9/de9/classListBox.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,56,54],
 "d9/de9/classListBox.html#ac6094922668d013ada3893854eec6b0f":[1,0,56,17],
@@ -223,6 +216,8 @@ var NAVTREEINDEX79 =
 "d9/dfb/radarmap_8qc.html#adc1efb9d2a0a9b5161c489b4e9b30f48":[2,0,6,1,12,4],
 "d9/dfb/radarmap_8qc.html#af86397b50cb66751dcb0b3051305b4bd":[2,0,6,1,12,11],
 "d9/dfb/radarmap_8qc_source.html":[2,0,6,1,12],
+"d9/dfd/server_2bot_2default_2__mod_8inc.html":[2,0,6,0,0,1],
+"d9/dfd/server_2bot_2default_2__mod_8inc_source.html":[2,0,6,0,0,1],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html":[2,0,1,9,0,2,2],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a2d2a096950143f69fe15206eefa4d0eb":[2,0,1,9,0,2,2,2],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#a2dd0f3f919c755f75d4b34e310c90256":[2,0,1,9,0,2,2,13],
@@ -249,5 +244,10 @@ var NAVTREEINDEX79 =
 "da/d10/sv__vehicles_8qc.html#a273647a01e01dd4856fb4c6d2eec0c49":[2,0,1,15,7,27],
 "da/d10/sv__vehicles_8qc.html#a28ca0412edf1ec78fe58cdca1b263a88":[2,0,1,15,7,35],
 "da/d10/sv__vehicles_8qc.html#a2bce3d35334f0f1d42dcfb694b1df6af":[2,0,1,15,7,40],
-"da/d10/sv__vehicles_8qc.html#a42aece77fb15332fccf65dc5e1c1f8b1":[2,0,1,15,7,15]
+"da/d10/sv__vehicles_8qc.html#a42aece77fb15332fccf65dc5e1c1f8b1":[2,0,1,15,7,15],
+"da/d10/sv__vehicles_8qc.html#a452c33c882494e0ba872809229f9f769":[2,0,1,15,7,10],
+"da/d10/sv__vehicles_8qc.html#a4bd38526315a441269cae0d44943d01d":[2,0,1,15,7,31],
+"da/d10/sv__vehicles_8qc.html#a4dafdad030ed16fd1dfd22d4e854fcda":[2,0,1,15,7,32],
+"da/d10/sv__vehicles_8qc.html#a591286be998a76b02e9182e2d7a9f746":[2,0,1,15,7,2],
+"da/d10/sv__vehicles_8qc.html#a59fc9c57ccdb2ff45e767dadd8aa8aa9":[2,0,1,15,7,42]
 };

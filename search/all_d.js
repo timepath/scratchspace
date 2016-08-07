@@ -962,7 +962,7 @@ var searchData=
   ['mut_5fspecprev_5freturn',['MUT_SPECPREV_RETURN',['../d6/ddd/server_2mutators_2events_8qh.html#a61dadd085c1777f559549e05962b2c9ea0b818567cf927d275b053840c0f01fb6',1,'events.qh']]],
   ['mutator',['Mutator',['../d2/dcc/classMutator.html',1,'Mutator'],['../d2/dcc/classMutator.html#adc060c9b91ac7921303125de0dabf3b0',1,'Mutator::Mutator()']]],
   ['mutator_2eqh',['mutator.qh',['../d0/d9c/mutator_8qh.html',1,'']]],
-  ['mutator_5fadd',['Mutator_Add',['../db/d38/base_8qh.html#ad0c8701a1d3e78230bdc90ea4b28f20c',1,'Mutator_Add(Mutator mut):&#160;base.qh'],['../db/d38/base_8qh.html#a5178cf581e5fb50250bb701b16410c8c',1,'MUTATOR_ADD():&#160;base.qh']]],
+  ['mutator_5fadd',['MUTATOR_ADD',['../db/d38/base_8qh.html#a5178cf581e5fb50250bb701b16410c8c',1,'MUTATOR_ADD():&#160;base.qh'],['../db/d38/base_8qh.html#ad0c8701a1d3e78230bdc90ea4b28f20c',1,'Mutator_Add(Mutator mut):&#160;base.qh']]],
   ['mutator_5fadding',['MUTATOR_ADDING',['../db/d38/base_8qh.html#a06fc87d81c62e9abb8790b6e5713c55ba018a8cf882e94485709abcc1be988a01',1,'base.qh']]],
   ['mutator_5fbuffs_5fh',['MUTATOR_BUFFS_H',['../d4/d0f/buffs_8qc.html#afcb0f6eb399a5d1fba6572a3b69049e5',1,'buffs.qc']]],
   ['mutator_5fcallhook',['MUTATOR_CALLHOOK',['../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75',1,'base.qh']]],

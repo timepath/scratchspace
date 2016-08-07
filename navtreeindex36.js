@@ -1,16 +1,5 @@
 var NAVTREEINDEX36 =
 {
-"d4/d67/classXonoticScreenshotImage.html#a8382390d42e5cb884e99721f8316dab0":[1,0,212,39],
-"d4/d67/classXonoticScreenshotImage.html#a8b21e5939eeacdcdd0d48af03f27f91c":[1,0,212,13],
-"d4/d67/classXonoticScreenshotImage.html#a91281c571825c19d5e6c3d22f462e0c4":[1,0,212,38],
-"d4/d67/classXonoticScreenshotImage.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,212,35],
-"d4/d67/classXonoticScreenshotImage.html#aa1bcc51f720a434e07164da44586fb06":[1,0,212,16],
-"d4/d67/classXonoticScreenshotImage.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,212,5],
-"d4/d67/classXonoticScreenshotImage.html#ab39424689fedf95a2ae89e52bb12d7c5":[1,0,212,2],
-"d4/d67/classXonoticScreenshotImage.html#ab5fc85464d60d355588bce324d3df6da":[1,0,212,12],
-"d4/d67/classXonoticScreenshotImage.html#ab6480e1fe1f3eed5568c59a859abc9cd":[1,0,212,50],
-"d4/d67/classXonoticScreenshotImage.html#ab9f53ba31d7aebc313bcfd3f677add53":[1,0,212,51],
-"d4/d67/classXonoticScreenshotImage.html#aba512e196285bb4464fc76b59e391161":[1,0,212,47],
 "d4/d67/classXonoticScreenshotImage.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,212,34],
 "d4/d67/classXonoticScreenshotImage.html#ac6094922668d013ada3893854eec6b0f":[1,0,212,11],
 "d4/d67/classXonoticScreenshotImage.html#ac783a223d75bf1d08a090ff8891725cc":[1,0,212,43],
@@ -249,5 +238,16 @@ var NAVTREEINDEX36 =
 "d4/d90/skin-customizables_8inc.html#a44c85ee4f460b5d5c913d4eaa1f9d96b":[2,0,5,18,165],
 "d4/d90/skin-customizables_8inc.html#a472e30c4132e2fa86a2ec3525be71bd6":[2,0,5,18,10],
 "d4/d90/skin-customizables_8inc.html#a48f6370393fb36e9fee3a6bbb43b7b29":[2,0,5,18,13],
-"d4/d90/skin-customizables_8inc.html#a4bc758604769ac338d794e120410118c":[2,0,5,18,113]
+"d4/d90/skin-customizables_8inc.html#a4bc758604769ac338d794e120410118c":[2,0,5,18,113],
+"d4/d90/skin-customizables_8inc.html#a4c809eedbad7fc3469125015030df94a":[2,0,5,18,70],
+"d4/d90/skin-customizables_8inc.html#a4db26692344c8c06c8c87aea7976bd52":[2,0,5,18,157],
+"d4/d90/skin-customizables_8inc.html#a4dc8389857f5052e7dfbd887df81d4ba":[2,0,5,18,133],
+"d4/d90/skin-customizables_8inc.html#a4fb48465af02d019234b947776b2efbe":[2,0,5,18,147],
+"d4/d90/skin-customizables_8inc.html#a55ea77612fd7a31de8777713fa3611d9":[2,0,5,18,138],
+"d4/d90/skin-customizables_8inc.html#a56a689a7a84e1dfb45f59e34c361a33b":[2,0,5,18,74],
+"d4/d90/skin-customizables_8inc.html#a582499057033a46a3781b4aa791b61b1":[2,0,5,18,53],
+"d4/d90/skin-customizables_8inc.html#a590f811d76db84e95a01ba24938edc34":[2,0,5,18,38],
+"d4/d90/skin-customizables_8inc.html#a604288ff2741eb7f83d33f819b6b2cc3":[2,0,5,18,51],
+"d4/d90/skin-customizables_8inc.html#a607760f313abab523852d85905ab7c82":[2,0,5,18,44],
+"d4/d90/skin-customizables_8inc.html#a61432646af104d166800052428dc3593":[2,0,5,18,93]
 };

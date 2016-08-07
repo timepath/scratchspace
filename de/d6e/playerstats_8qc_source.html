@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">if</span>((e.crypto_idfp != <span class="stringliteral">&quot;&quot;</span>) &amp;&amp; (e.cvar_cl_allow_uidtracking == 1))</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        { s = e.crypto_idfp; }</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(e))</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        { s = sprintf(<span class="stringliteral">&quot;bot#%g#%s&quot;</span>, <a class="code" href="../../d1/da9/bot_8qh.html#a8467c850cba8957cd36040241ed1e68b">skill</a>, e.cleanname); }</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        { s = sprintf(<span class="stringliteral">&quot;bot#%g#%s&quot;</span>, <a class="code" href="../../db/d15/api_8qh.html#a8467c850cba8957cd36040241ed1e68b">skill</a>, e.cleanname); }</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordflow">if</span>((s == <span class="stringliteral">&quot;&quot;</span>) || <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, playerstats_id, s)) <span class="comment">// already have one of the ID - next one can&#39;t be tracked then!</span></div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
@@ -1169,6 +1169,7 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="ttc" id="urllib_8qh_html_af602e253bfc56fa7bdb973e558c606e8"><div class="ttname"><a href="../../dc/dbb/urllib_8qh.html#af602e253bfc56fa7bdb973e558c606e8">URL_READY_CANWRITE</a></div><div class="ttdeci">const float URL_READY_CANWRITE</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dbb/urllib_8qh_source.html#l00015">urllib.qh:15</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="scores_8qh_html_a0cf85aa93c9a2c5aa8f70c877d9d42dc"><div class="ttname"><a href="../../d3/dcd/scores_8qh.html#a0cf85aa93c9a2c5aa8f70c877d9d42dc">scoreboard_pos</a></div><div class="ttdeci">float scoreboard_pos</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dcd/scores_8qh_source.html#l00006">scores.qh:6</a></div></div>
+<div class="ttc" id="api_8qh_html_a8467c850cba8957cd36040241ed1e68b"><div class="ttname"><a href="../../db/d15/api_8qh.html#a8467c850cba8957cd36040241ed1e68b">skill</a></div><div class="ttdeci">float skill</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00021">api.qh:21</a></div></div>
 <div class="ttc" id="statslist_8qh_html_a805ce8fff65b47ff491afbce6f9fbf0c"><div class="ttname"><a href="../../d5/d73/statslist_8qh.html#a805ce8fff65b47ff491afbce6f9fbf0c">statslist</a></div><div class="ttdeci">entity statslist</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d73/statslist_8qh_source.html#l00023">statslist.qh:23</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_af289ce9e49626ec727198c2d334299bd"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#af289ce9e49626ec727198c2d334299bd">modname</a></div><div class="ttdeci">string modname</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00414">defs.qh:414</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
@@ -1217,14 +1218,13 @@ $(document).ready(function(){initNavTree('de/d6e/playerstats_8qc_source.html','.
 <div class="ttc" id="common_2constants_8qh_html_a40128d49216e2a2f57a563ecf9be33be"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a40128d49216e2a2f57a563ecf9be33be">SERVERFLAG_PLAYERSTATS</a></div><div class="ttdeci">const int SERVERFLAG_PLAYERSTATS</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00303">constants.qh:303</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a6f8c7ef6ee4a4d851aaa5fd1789eab9a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a></div><div class="ttdeci">const string cvar_string(string name)</div></div>
 <div class="ttc" id="progsdefs_8qc_html_a230b823d612df01afcfecc0f4a611b90"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a230b823d612df01afcfecc0f4a611b90">frags</a></div><div class="ttdeci">float frags</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00138">progsdefs.qc:138</a></div></div>
-<div class="ttc" id="bot_8qh_html_a8467c850cba8957cd36040241ed1e68b"><div class="ttname"><a href="../../d1/da9/bot_8qh.html#a8467c850cba8957cd36040241ed1e68b">skill</a></div><div class="ttdeci">float skill</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/da9/bot_8qh_source.html#l00023">bot.qh:23</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../de/d6e/playerstats_8qc.html">playerstats.qc</a></li>
-    <li class="footer">Generated on Sun Aug 7 2016 03:22:41 for Xonotic by
+    <li class="footer">Generated on Sun Aug 7 2016 05:19:12 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

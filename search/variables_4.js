@@ -118,7 +118,7 @@ var searchData=
   ['drag_5flastcnt',['drag_lastcnt',['../d6/de9/cheats_8qc.html#addaa80f08a1814656fc04b113d1bdc3e',1,'cheats.qc']]],
   ['dragdistance',['dragdistance',['../d6/de9/cheats_8qc.html#a5bf256913f364a79d21892198533d829',1,'cheats.qc']]],
   ['dragentity',['dragentity',['../d6/de9/cheats_8qc.html#a5f3faa59bd505c237969c4587107e2c2',1,'cheats.qc']]],
-  ['draggedby',['draggedby',['../d8/d39/havocbot_8qh.html#a89a8ce33ea9c558226ae97e322fc4f1f',1,'draggedby():&#160;havocbot.qh'],['../d6/de9/cheats_8qc.html#a89a8ce33ea9c558226ae97e322fc4f1f',1,'draggedby():&#160;cheats.qc']]],
+  ['draggedby',['draggedby',['../da/d4e/sv__monsters_8qc.html#a89a8ce33ea9c558226ae97e322fc4f1f',1,'draggedby():&#160;sv_monsters.qc'],['../d8/d39/havocbot_8qh.html#a89a8ce33ea9c558226ae97e322fc4f1f',1,'draggedby():&#160;havocbot.qh'],['../d6/de9/cheats_8qc.html#a89a8ce33ea9c558226ae97e322fc4f1f',1,'draggedby():&#160;cheats.qc']]],
   ['draggravity',['draggravity',['../d6/de9/cheats_8qc.html#a5acd843dd9cb396aa362b67e81d0f69c',1,'cheats.qc']]],
   ['draglocalangle',['draglocalangle',['../d6/de9/cheats_8qc.html#a313b3b9f61ae2f20d8e22190bfba86d5',1,'cheats.qc']]],
   ['draglocalvector',['draglocalvector',['../d6/de9/cheats_8qc.html#abf690db48ff84b0c056187a5c58bd53d',1,'cheats.qc']]],

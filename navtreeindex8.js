@@ -1,11 +1,5 @@
 var NAVTREEINDEX8 =
 {
-"d1/d39/classXonoticTeamSelectDialog.html#a5ce7ef53482942749b25240c18242781":[1,0,228,83],
-"d1/d39/classXonoticTeamSelectDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,228,55],
-"d1/d39/classXonoticTeamSelectDialog.html#a67d95732d49da439095483530aca8804":[1,0,228,42],
-"d1/d39/classXonoticTeamSelectDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,228,69],
-"d1/d39/classXonoticTeamSelectDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,228,7],
-"d1/d39/classXonoticTeamSelectDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,228,57],
 "d1/d39/classXonoticTeamSelectDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,228,14],
 "d1/d39/classXonoticTeamSelectDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,228,89],
 "d1/d39/classXonoticTeamSelectDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,228,75],
@@ -249,5 +243,11 @@ var NAVTREEINDEX8 =
 "d1/d55/classXonoticHUDModIconsDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,167,65],
 "d1/d55/classXonoticHUDModIconsDialog.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,167,74],
 "d1/d55/classXonoticHUDModIconsDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,167,70],
-"d1/d55/classXonoticHUDModIconsDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,167,56]
+"d1/d55/classXonoticHUDModIconsDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,167,56],
+"d1/d55/classXonoticHUDModIconsDialog.html#aa1abab97698c6f13909d1791611312cb":[1,0,167,59],
+"d1/d55/classXonoticHUDModIconsDialog.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,167,47],
+"d1/d55/classXonoticHUDModIconsDialog.html#aa8547126f9d511ee7064e3cc59258015":[1,0,167,13],
+"d1/d55/classXonoticHUDModIconsDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,167,9],
+"d1/d55/classXonoticHUDModIconsDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,167,24],
+"d1/d55/classXonoticHUDModIconsDialog.html#aac89f49a6042ab5dff62c0faadb3cbe8":[1,0,167,54]
 };

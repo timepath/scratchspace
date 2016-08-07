@@ -1,16 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"d4/d0a/classXonoticMiscSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,190,16],
-"d4/d0a/classXonoticMiscSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,190,48],
-"d4/d0a/classXonoticMiscSettingsTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,190,28],
-"d4/d0a/classXonoticMiscSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,190,2],
-"d4/d0a/classXonoticMiscSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,190,26],
-"d4/d0a/classXonoticMiscSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,190,30],
-"d4/d0a/classXonoticMiscSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,190,81],
-"d4/d0b/classDevastator.html":[1,0,21],
-"d4/d0b/classDevastator.html#a0857557df1839208d8571e233839ce44":[1,0,21,22],
-"d4/d0b/classDevastator.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,21,17],
-"d4/d0b/classDevastator.html#a19a210e233d5ac3c2563487f1b763bec":[1,0,21,23],
 "d4/d0b/classDevastator.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,21,16],
 "d4/d0b/classDevastator.html#a2a08d4720054afa2ccaf726bb1e343a0":[1,0,21,21],
 "d4/d0b/classDevastator.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,21,14],
@@ -249,5 +238,16 @@ var NAVTREEINDEX30 =
 "d4/d0c/csprogsdefs_8qc.html#a69ac044af95e1e9f3354c06cfbf21671":[2,0,2,0,0,376],
 "d4/d0c/csprogsdefs_8qc.html#a69b6501c8873fc3fa7971d79a388d89a":[2,0,2,0,0,210],
 "d4/d0c/csprogsdefs_8qc.html#a69c9eb3ca6934e0eb8d613724716089d":[2,0,2,0,0,444],
-"d4/d0c/csprogsdefs_8qc.html#a6cb8951dea8851db0585ba2abc9892d6":[2,0,2,0,0,437]
+"d4/d0c/csprogsdefs_8qc.html#a6cb8951dea8851db0585ba2abc9892d6":[2,0,2,0,0,437],
+"d4/d0c/csprogsdefs_8qc.html#a6df2f94c258e986652c71c376fd05b1a":[2,0,2,0,0,474],
+"d4/d0c/csprogsdefs_8qc.html#a6edb8cdc901410ce8fec373ba28b51ab":[2,0,2,0,0,391],
+"d4/d0c/csprogsdefs_8qc.html#a6f145fadea40da7c8305e5d8ec0df120":[2,0,2,0,0,4],
+"d4/d0c/csprogsdefs_8qc.html#a70168abffc1dac212ac51e59cfe0dd23":[2,0,2,0,0,221],
+"d4/d0c/csprogsdefs_8qc.html#a703f735d53470032996a46377f1c49df":[2,0,2,0,0,425],
+"d4/d0c/csprogsdefs_8qc.html#a70db4daa190eb97492636bf734991ff3":[2,0,2,0,0,254],
+"d4/d0c/csprogsdefs_8qc.html#a70ebb471d90a92b3923ed9a01b624465":[2,0,2,0,0,464],
+"d4/d0c/csprogsdefs_8qc.html#a70f94fd867ceb09905d0b9cd440d49cc":[2,0,2,0,0,331],
+"d4/d0c/csprogsdefs_8qc.html#a711341a1f6f49a54000d6b2c3123a114":[2,0,2,0,0,143],
+"d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180":[2,0,2,0,0,495],
+"d4/d0c/csprogsdefs_8qc.html#a7152df3cc26231d937051a4dcd2755d0":[2,0,2,0,0,74]
 };

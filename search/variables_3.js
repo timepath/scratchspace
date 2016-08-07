@@ -143,7 +143,7 @@ var searchData=
   ['cl_5ffollowmodel_5fofs',['cl_followmodel_ofs',['../d3/d05/hud_8qh.html#ab2cb1e725575444f3ef84ce79d829e21',1,'hud.qh']]],
   ['cl_5ffollowmodel_5ftime',['cl_followmodel_time',['../d3/d05/hud_8qh.html#aece57edbc5f9ecfed6ecd8b7daa99ea0',1,'hud.qh']]],
   ['classname',['classname',['../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec',1,'classname():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec',1,'classname():&#160;progsdefs.qc'],['../db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec',1,'classname():&#160;oo.qh']]],
-  ['cleanname',['cleanname',['../d1/da9/bot_8qh.html#ad3f7bd315ecf5bb0f4037153d6b46441',1,'bot.qh']]],
+  ['cleanname',['cleanname',['../db/d15/api_8qh.html#ad3f7bd315ecf5bb0f4037153d6b46441',1,'cleanname():&#160;api.qh'],['../d1/da9/bot_8qh.html#ad3f7bd315ecf5bb0f4037153d6b46441',1,'cleanname():&#160;bot.qh']]],
   ['clearbutton',['clearButton',['../d1/dec/classInputBox.html#a45f759b623e14092aa0ccdaa6eb76be2',1,'InputBox::clearButton()'],['../d4/d3f/classXonoticKeyBinder.html#a4d770ff57d7f0b08e5048a59b2eaa459',1,'XonoticKeyBinder::clearButton()']]],
   ['clicktime',['clickTime',['../d1/d19/classButton.html#a1a55e3b961b4986ce5dda62bd05b8ec5',1,'Button']]],
   ['client_5facceptable',['CLIENT_ACCEPTABLE',['../d2/d06/server_2command_2common_8qh.html#a5c185c29d2562dbb7655e4ae96e134e6',1,'common.qh']]],

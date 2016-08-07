@@ -36,7 +36,6 @@ var bot_8qh =
     [ "bot_attack", "d1/da9/bot_8qh.html#a890f919c9da949bb818e995a7f6c31b5", null ],
     [ "bot_canfire", "d1/da9/bot_8qh.html#acc9fbf8cff322bb2d7c1218fb1a68829", null ],
     [ "bot_config_loaded", "d1/da9/bot_8qh.html#a400d981a6a9a77f9c4eb7e29f4ef72d5", null ],
-    [ "bot_custom_weapon", "d1/da9/bot_8qh.html#aa53626d502a369b6b64ef02e58a4dd16", null ],
     [ "bot_cvar_nextthink", "d1/da9/bot_8qh.html#aa6de3c8f55c98f9162f0a3b0eda8368d", null ],
     [ "bot_distance_close", "d1/da9/bot_8qh.html#ad5228d8ec6b21564d2e5975704e5b314", null ],
     [ "bot_distance_far", "d1/da9/bot_8qh.html#a493a7ca15fef3ce8162e01791d1291c4", null ],
@@ -59,9 +58,6 @@ var bot_8qh =
     [ "bot_strategytoken", "d1/da9/bot_8qh.html#a40cbdaa8b825c5406a87822a7963350d", null ],
     [ "bot_strategytoken_taken", "d1/da9/bot_8qh.html#ab31e8158d2ea3bd17d8189070c6b1821", null ],
     [ "bot_thinkskill", "d1/da9/bot_8qh.html#a71ae11eda4dae935ac32bf339c0227b3", null ],
-    [ "bot_weapons_close", "d1/da9/bot_8qh.html#a5d8f6b09a3c22f5461a5cc63cb663198", null ],
-    [ "bot_weapons_far", "d1/da9/bot_8qh.html#a52606451f4e3182f48937fafcf3d2142", null ],
-    [ "bot_weapons_mid", "d1/da9/bot_8qh.html#a07cae87e1e2224dbffc8847e445d2c1e", null ],
     [ "bot_weaponskill", "d1/da9/bot_8qh.html#a399a310a4a26584b59f3ef40127b97af", null ],
     [ "botframe_nextdangertime", "d1/da9/bot_8qh.html#aa655e08bba8a4ae326d3ad7f287a3859", null ],
     [ "botframe_nextthink", "d1/da9/bot_8qh.html#a5bac57dfedbda837115854494eba1157", null ],
@@ -73,6 +69,5 @@ var bot_8qh =
     [ "nextbot", "d1/da9/bot_8qh.html#a0760ea09ba9263d4068ae99c1df1f1da", null ],
     [ "playermodel_freeme", "d1/da9/bot_8qh.html#a3f7afc27089f83892326dc9f6cc968ab", null ],
     [ "playerskin_freeme", "d1/da9/bot_8qh.html#aabcec630a918fbcf2229c6446fb8a199", null ],
-    [ "skill", "d1/da9/bot_8qh.html#a8467c850cba8957cd36040241ed1e68b", null ],
     [ "totalfrags_lastcheck", "d1/da9/bot_8qh.html#a2df3fd98b441083c48fd50cf49ac0f17", null ]
 ];

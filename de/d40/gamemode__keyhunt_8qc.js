@@ -12,7 +12,5 @@ var gamemode__keyhunt_8qc =
     [ "autocvar_g_keyhunt_point_leadlimit", "de/d40/gamemode__keyhunt_8qc.html#ab5aa34fabae7071003592233558cc9fc", null ],
     [ "autocvar_g_keyhunt_team_spawns", "de/d40/gamemode__keyhunt_8qc.html#a63927129b40fcc3e1664b7cf9fb7480d", null ],
     [ "kh_next", "de/d40/gamemode__keyhunt_8qc.html#a0411010ca825838d10464f8da5825df9", null ],
-    [ "kh_tracking_enabled", "de/d40/gamemode__keyhunt_8qc.html#a2bbdc8edf10660c2d7d2308b82b39a26", null ],
-    [ "kh_worldkeylist", "de/d40/gamemode__keyhunt_8qc.html#a045a92c5195f8abf1d884beab42bc3f9", null ],
-    [ "kh_worldkeynext", "de/d40/gamemode__keyhunt_8qc.html#abb611131b031308c318e295ec74a375f", null ]
+    [ "kh_tracking_enabled", "de/d40/gamemode__keyhunt_8qc.html#a2bbdc8edf10660c2d7d2308b82b39a26", null ]
 ];

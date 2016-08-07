@@ -1,16 +1,5 @@
 var NAVTREEINDEX26 =
 {
-"d3/dab/dialog__uid2name_8qh_source.html":[2,0,5,4,163],
-"d3/dab/player__skeleton_8qc.html":[2,0,0,22],
-"d3/dab/player__skeleton_8qc.html#a0cdd10c9377413ff463d7ed749b362d0":[2,0,0,22,5],
-"d3/dab/player__skeleton_8qc.html#a431b38d84a957df7a962ad2fc61f1435":[2,0,0,22,0],
-"d3/dab/player__skeleton_8qc.html#a475bb5589ccf136fb7b89c04120c832b":[2,0,0,22,4],
-"d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293":[2,0,0,22,9],
-"d3/dab/player__skeleton_8qc.html#a7510df630df322df48a246e7d6a71826":[2,0,0,22,8],
-"d3/dab/player__skeleton_8qc.html#a7c80ef0cb8dccd72a620b9804160551f":[2,0,0,22,7],
-"d3/dab/player__skeleton_8qc.html#a7fe1291d377b2605a93fc789d164c073":[2,0,0,22,2],
-"d3/dab/player__skeleton_8qc.html#a9bd774b8fe11972d76dc2036e9d4af1f":[2,0,0,22,3],
-"d3/dab/player__skeleton_8qc.html#ae30bcd640df03cd117eb6491db7bf50b":[2,0,0,22,6],
 "d3/dab/player__skeleton_8qc.html#ae34e60c32bc60eebb73851ebe508b3ed":[2,0,0,22,1],
 "d3/dab/player__skeleton_8qc_source.html":[2,0,0,22],
 "d3/db2/classXonoticListBox.html":[1,0,186],
@@ -249,5 +238,16 @@ var NAVTREEINDEX26 =
 "d3/dbe/classSlider.html#a8894e7ce2ef345979ef91af7035cc80b":[1,0,101,42],
 "d3/dbe/classSlider.html#a896da94f4d9e857ff8d0124b6621a802":[1,0,101,74],
 "d3/dbe/classSlider.html#a8a2bc534da630cd8dddc0aa9bc8df491":[1,0,101,54],
-"d3/dbe/classSlider.html#a8c417c95c040a29cf9f83ee606f161ce":[1,0,101,19]
+"d3/dbe/classSlider.html#a8c417c95c040a29cf9f83ee606f161ce":[1,0,101,19],
+"d3/dbe/classSlider.html#a8c568c803f49400fd0165b69f82d4161":[1,0,101,52],
+"d3/dbe/classSlider.html#a8ea1a59334f7770ce251a2f95a266fe3":[1,0,101,23],
+"d3/dbe/classSlider.html#a8f04cd9252d82b0da453b439558cd2e6":[1,0,101,18],
+"d3/dbe/classSlider.html#a988e29ab41a7d5b537a2abb5019991c5":[1,0,101,47],
+"d3/dbe/classSlider.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,101,56],
+"d3/dbe/classSlider.html#a99f113cbca6d20b18128c10c6d236867":[1,0,101,58],
+"d3/dbe/classSlider.html#a9c04727d8b4f644f96fad98456d78dd9":[1,0,101,79],
+"d3/dbe/classSlider.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,101,29],
+"d3/dbe/classSlider.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,101,5],
+"d3/dbe/classSlider.html#aab962e4869bd5c3c4450423804ccc657":[1,0,101,44],
+"d3/dbe/classSlider.html#ab675ec042310789f103f55f083fdc66b":[1,0,101,34]
 };

@@ -1,16 +1,5 @@
 var NAVTREEINDEX22 =
 {
-"d3/d10/classXonoticCrosshairPicker.html#a7f649af1f46d7b3110a5f546ce6a10a7":[1,0,138,25],
-"d3/d10/classXonoticCrosshairPicker.html#a96bb839275a1a00b50d13e67bcad8c25":[1,0,138,15],
-"d3/d10/classXonoticCrosshairPicker.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,138,34],
-"d3/d10/classXonoticCrosshairPicker.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,138,7],
-"d3/d10/classXonoticCrosshairPicker.html#aa8e554a35b9fe070e037a0b6a3e8351b":[1,0,138,26],
-"d3/d10/classXonoticCrosshairPicker.html#abe9554032aaa1f46b12ec16fe98bb326":[1,0,138,2],
-"d3/d10/classXonoticCrosshairPicker.html#abf45e466d6bdd7bf3d9a18decd85b3e3":[1,0,138,14],
-"d3/d10/classXonoticCrosshairPicker.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,138,33],
-"d3/d10/classXonoticCrosshairPicker.html#ac450f105398648a8932ca545e510ebcb":[1,0,138,32],
-"d3/d10/classXonoticCrosshairPicker.html#ac6094922668d013ada3893854eec6b0f":[1,0,138,11],
-"d3/d10/classXonoticCrosshairPicker.html#acd24b0a08873c8bfd9a04e8c2905b3cc":[1,0,138,31],
 "d3/d10/classXonoticCrosshairPicker.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,138,22],
 "d3/d10/classXonoticCrosshairPicker.html#ad71eeb6583cea8aa38e8ef1cc2f34718":[1,0,138,20],
 "d3/d10/classXonoticCrosshairPicker.html#adb75de8c448487ab259097879941191e":[1,0,138,39],
@@ -249,5 +238,16 @@ var NAVTREEINDEX22 =
 "d3/d46/mapinfo_8qc.html#a4c0e831add5d3d38dc1c6acb57beabd4":[2,0,1,32,27],
 "d3/d46/mapinfo_8qc.html#a51a356e1e4cfa91adc4b65bd3ebb1e55":[2,0,1,32,24],
 "d3/d46/mapinfo_8qc.html#a52c2a072a4bb9586ee6efd008defdc3d":[2,0,1,32,22],
-"d3/d46/mapinfo_8qc.html#a52d7de04a91f2719a995565171513e26":[2,0,1,32,37]
+"d3/d46/mapinfo_8qc.html#a52d7de04a91f2719a995565171513e26":[2,0,1,32,37],
+"d3/d46/mapinfo_8qc.html#a53227eb055bce2f2d9197dbfd3541c78":[2,0,1,32,55],
+"d3/d46/mapinfo_8qc.html#a5b0d0801a2b5ccc42d4ca786a115c948":[2,0,1,32,43],
+"d3/d46/mapinfo_8qc.html#a6408b61e1787a146de1419ab4b87b742":[2,0,1,32,9],
+"d3/d46/mapinfo_8qc.html#a6718c6cd677f3f70d71fe5079e86ade9":[2,0,1,32,4],
+"d3/d46/mapinfo_8qc.html#a68300db7d97bc431f5774e80ac5adcc6":[2,0,1,32,10],
+"d3/d46/mapinfo_8qc.html#a70228e0dbbf11fdb038ceeaa97ef95d9":[2,0,1,32,6],
+"d3/d46/mapinfo_8qc.html#a70ce1094a7b3d4e54f0e8f78b7c11499":[2,0,1,32,35],
+"d3/d46/mapinfo_8qc.html#a7cbd9edfae5695f0f3e239701462b6d9":[2,0,1,32,15],
+"d3/d46/mapinfo_8qc.html#a7d438f7d5d7ddae6e68365b0cb30ae9a":[2,0,1,32,18],
+"d3/d46/mapinfo_8qc.html#a7fca0108ab929491063fbd26c86dbd6f":[2,0,1,32,32],
+"d3/d46/mapinfo_8qc.html#a802a9dfeae2a8991ff7b3dbf754abb66":[2,0,1,32,0]
 };

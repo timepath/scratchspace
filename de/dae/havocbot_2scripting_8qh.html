@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>Xonotic: server/bot/havocbot/scripting.qh File Reference</title>
+<title>Xonotic: server/bot/default/havocbot/scripting.qh File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('de/dae/havocbot_2scripting_8qh.html','
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d0b/havocbot_2scripting_8qh__dep__incl.svg" width="147" height="203"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d0b/havocbot_2scripting_8qh__dep__incl.svg" width="160" height="384"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div>
@@ -138,18 +138,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00015">15</a> of file <a class="el" href="../../d6/d27/scripting_8qc_source.html">scripting.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00017">17</a> of file <a class="el" href="../../d6/d27/scripting_8qc_source.html">scripting.qc</a>.</p>
 
 <p>References <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00376">bot_clientdisconnect()</a>, <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00621">bot_cmd_if()</a>, <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00066">bot_dequeuecommand()</a>, and <a class="el" href="../../d6/d27/scripting_8qc_source.html#l01146">bot_resetqueues()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keywordflow">if</span>(!bot.bot_cmdqueuebuf_allocated)</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    buf_del(bot.bot_cmdqueuebuf);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    bot.bot_cmdqueuebuf_allocated = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;bot &quot;</span>, bot.netname, <span class="stringliteral">&quot; queue cleared\n&quot;</span>);</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d2/dc0/bot_8qc_source.html#l00378">bot_clientdisconnect()</a>, <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00623">bot_cmd_if()</a>, <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00068">bot_dequeuecommand()</a>, and <a class="el" href="../../d6/d27/scripting_8qc_source.html#l01148">bot_resetqueues()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">if</span>(!bot.bot_cmdqueuebuf_allocated)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    buf_del(bot.bot_cmdqueuebuf);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    bot.bot_cmdqueuebuf_allocated = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;bot &quot;</span>, bot.netname, <span class="stringliteral">&quot; queue cleared\n&quot;</span>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
 <div class="ttc" id="framework_8qc_html_aef346455b3c2def821423a45227b45dd"><div class="ttname"><a href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a></div><div class="ttdeci">void LOG_TRACE(string s,...)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -167,7 +167,7 @@ Functions</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/dae/havocbot_2scripting_8qh_a6893523d5caad3e47941ebb88916a721_icgraph.svg" width="100%" height="470"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/dae/havocbot_2scripting_8qh_a6893523d5caad3e47941ebb88916a721_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -179,8 +179,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_2237e285bffd6ead6b5088a82ff285a6.html">havocbot</a></li><li class="navelem"><a class="el" href="../../de/dae/havocbot_2scripting_8qh.html">scripting.qh</a></li>
-    <li class="footer">Generated on Sun Aug 7 2016 03:22:54 for Xonotic by
+    <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../dir_f18d5dd12b54ecfc26193d6b0c017e06.html">havocbot</a></li><li class="navelem"><a class="el" href="../../de/dae/havocbot_2scripting_8qh.html">scripting.qh</a></li>
+    <li class="footer">Generated on Sun Aug 7 2016 05:19:24 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

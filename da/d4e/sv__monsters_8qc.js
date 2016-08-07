@@ -47,5 +47,6 @@ var sv__monsters_8qc =
     [ "Monster_ValidTarget", "da/d4e/sv__monsters_8qc.html#ac60117141e788b4429111dfa51fe263c", null ],
     [ "monsters_setstatus", "da/d4e/sv__monsters_8qc.html#aebb34e80bc4aafcc88ae983d13b34668", null ],
     [ "void", "da/d4e/sv__monsters_8qc.html#a92348bb8acd7a6d2f24300c06a45f6f6", null ],
+    [ "draggedby", "da/d4e/sv__monsters_8qc.html#a89a8ce33ea9c558226ae97e322fc4f1f", null ],
     [ "skin_for_monstersound", "da/d4e/sv__monsters_8qc.html#accde0cec931f1d0e128eb90ad7145b5f", null ]
 ];

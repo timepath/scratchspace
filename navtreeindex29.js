@@ -1,16 +1,5 @@
 var NAVTREEINDEX29 =
 {
-"d3/df2/sv__cmd_8qc.html#aa1208343b51973d6b01b43baf6b6e315":[2,0,6,1,14,34],
-"d3/df2/sv__cmd_8qc.html#aa17e13457142fca0dc5398e51a64c03b":[2,0,6,1,14,47],
-"d3/df2/sv__cmd_8qc.html#aa914aff26a3c4545c098c00e4f892f1e":[2,0,6,1,14,27],
-"d3/df2/sv__cmd_8qc.html#ab24bbdaa1c0d0c31ecee1f5c505bcef9":[2,0,6,1,14,12],
-"d3/df2/sv__cmd_8qc.html#ab4e7a142847a19cd703eebd5e51763e0":[2,0,6,1,14,35],
-"d3/df2/sv__cmd_8qc.html#ab63113f5edd9dea6fc1d817d630c02cc":[2,0,6,1,14,60],
-"d3/df2/sv__cmd_8qc.html#ab7e7147e01ed8e2a705fc2f96038078b":[2,0,6,1,14,51],
-"d3/df2/sv__cmd_8qc.html#ab8fdd59f80b6f2eb4b52c3f2e12b81e1":[2,0,6,1,14,57],
-"d3/df2/sv__cmd_8qc.html#abc21ede44cff03957537b33b578ba97e":[2,0,6,1,14,20],
-"d3/df2/sv__cmd_8qc.html#ac1960621664a65a481e3a5f14df2ebcb":[2,0,6,1,14,48],
-"d3/df2/sv__cmd_8qc.html#ac4ca8236b3e74613aebfa11427b18fa2":[2,0,6,1,14,30],
 "d3/df2/sv__cmd_8qc.html#ac546b5fbda683819da963337f2f2d78b":[2,0,6,1,14,36],
 "d3/df2/sv__cmd_8qc.html#ac67a2222572c5a11627958dc46b17a7c":[2,0,6,1,14,15],
 "d3/df2/sv__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,6,1,14,1],
@@ -249,5 +238,16 @@ var NAVTREEINDEX29 =
 "d4/d0a/classXonoticMiscSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,190,20],
 "d4/d0a/classXonoticMiscSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,190,51],
 "d4/d0a/classXonoticMiscSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,190,88],
-"d4/d0a/classXonoticMiscSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,190,59]
+"d4/d0a/classXonoticMiscSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,190,59],
+"d4/d0a/classXonoticMiscSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,190,16],
+"d4/d0a/classXonoticMiscSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,190,48],
+"d4/d0a/classXonoticMiscSettingsTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,190,28],
+"d4/d0a/classXonoticMiscSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,190,2],
+"d4/d0a/classXonoticMiscSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,190,26],
+"d4/d0a/classXonoticMiscSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,190,30],
+"d4/d0a/classXonoticMiscSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,190,81],
+"d4/d0b/classDevastator.html":[1,0,21],
+"d4/d0b/classDevastator.html#a0857557df1839208d8571e233839ce44":[1,0,21,22],
+"d4/d0b/classDevastator.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,21,17],
+"d4/d0b/classDevastator.html#a19a210e233d5ac3c2563487f1b763bec":[1,0,21,23]
 };

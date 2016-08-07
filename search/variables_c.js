@@ -74,7 +74,7 @@ var searchData=
   ['lasthud',['lasthud',['../d6/dd3/view_8qc.html#a6e4d296c1be24ece0c9f31af036cea71',1,'view.qc']]],
   ['lastposition',['lastposition',['../d1/d9a/navigation_8qc.html#a8d6a0f0ac45f6a0962897835e79bd533',1,'navigation.qc']]],
   ['lastpushtime',['lastpushtime',['../d3/ddc/impulse_8qh.html#a8b056e96f854ff4877bca912be5b37e0',1,'impulse.qh']]],
-  ['lastteleporttime',['lastteleporttime',['../df/dd4/navigation_8qh.html#a23f3b5acdc184dfba5e4bae385dca5e0',1,'navigation.qh']]],
+  ['lastteleporttime',['lastteleporttime',['../db/d15/api_8qh.html#a23f3b5acdc184dfba5e4bae385dca5e0',1,'lastteleporttime():&#160;api.qh'],['../df/dd4/navigation_8qh.html#a23f3b5acdc184dfba5e4bae385dca5e0',1,'lastteleporttime():&#160;navigation.qh']]],
   ['lastv_5fangle',['lastV_angle',['../d2/d06/server_2command_2common_8qh.html#a8070e25d85ec6f38a2817edfd8ae6398',1,'common.qh']]],
   ['latency_5fcnt',['latency_cnt',['../db/dcc/g__world_8qc.html#a96536d95b1e8120e296cc667b543bb0b',1,'g_world.qc']]],
   ['latency_5fsum',['latency_sum',['../db/dcc/g__world_8qc.html#aea3ddd39032ad2c1530fc705053048e2',1,'g_world.qc']]],

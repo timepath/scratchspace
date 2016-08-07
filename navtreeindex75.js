@@ -1,12 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"d9/d4a/dialog__hudpanel__quickmenu_8qh.html":[2,0,5,4,69],
-"d9/d4a/dialog__hudpanel__quickmenu_8qh_source.html":[2,0,5,4,69],
-"d9/d50/mutators_2mutator_2overkill_2module_8inc.html":[2,0,1,9,0,18,3],
-"d9/d50/mutators_2mutator_2overkill_2module_8inc_source.html":[2,0,1,9,0,18,3],
-"d9/d50/server_2mutators_2mutator_2__mod_8qh.html":[2,0,6,2,0,1],
-"d9/d50/server_2mutators_2mutator_2__mod_8qh_source.html":[2,0,6,2,0,1],
-"d9/d51/intrusivelist_8qh.html":[2,0,4,22],
 "d9/d51/intrusivelist_8qh.html#a03533687dbcda21ca9480b3e4b13fb34":[2,0,4,22,12],
 "d9/d51/intrusivelist_8qh.html#a035daed01ee70616c76c574092b9e66d":[2,0,4,22,13],
 "d9/d51/intrusivelist_8qh.html#a216380637a63d5b22d7db4ccaa575eac":[2,0,4,22,7],
@@ -249,5 +242,12 @@ var NAVTREEINDEX75 =
 "d9/d65/common_2mutators_2mutator_2new__toys_2__mod_8qh_source.html":[2,0,1,9,0,16,1],
 "d9/d67/common_2gamemodes_2__mod_8inc.html":[2,0,1,3,1],
 "d9/d67/common_2gamemodes_2__mod_8inc_source.html":[2,0,1,3,1],
-"d9/d67/turret_8qh.html":[2,0,1,14,12]
+"d9/d67/turret_8qh.html":[2,0,1,14,12],
+"d9/d67/turret_8qh.html#a02f4425939723a8f3fcc0cf7b6f2cef0":[2,0,1,14,12,92],
+"d9/d67/turret_8qh.html#a0a361d9783482bb833eaee8f7a495778":[2,0,1,14,12,62],
+"d9/d67/turret_8qh.html#a0a5ba228ea10877a8767fb0cbb1b4a5f":[2,0,1,14,12,49],
+"d9/d67/turret_8qh.html#a0a9cdc73840412292168070aa88028c4":[2,0,1,14,12,96],
+"d9/d67/turret_8qh.html#a0d102afb12aa277b4ed0f115a3fea952":[2,0,1,14,12,37],
+"d9/d67/turret_8qh.html#a18df068610050c4bba9a48c21f2ece04":[2,0,1,14,12,24],
+"d9/d67/turret_8qh.html#a1b17700f4b482d033a42877d84068f1b":[2,0,1,14,12,76]
 };

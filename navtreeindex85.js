@@ -1,9 +1,5 @@
 var NAVTREEINDEX85 =
 {
-"da/dc1/classXonoticAudioSettingsTab.html#a17bad9d112b85ece0d0689b233838245":[1,0,124,57],
-"da/dc1/classXonoticAudioSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,124,63],
-"da/dc1/classXonoticAudioSettingsTab.html#a1ac6ee1e1a7fc5bc8247348b269fd503":[1,0,124,43],
-"da/dc1/classXonoticAudioSettingsTab.html#a253df954a75f54d7f8ff1edfdb3c2e13":[1,0,124,87],
 "da/dc1/classXonoticAudioSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,124,64],
 "da/dc1/classXonoticAudioSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,124,4],
 "da/dc1/classXonoticAudioSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,124,32],
@@ -249,5 +245,9 @@ var NAVTREEINDEX85 =
 "da/df9/classMortar.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,69,5],
 "da/df9/classMortar.html#ad033f23932f202bddd926ed5b366336c":[1,0,69,27],
 "da/df9/classMortar.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,69,1],
-"da/df9/classMortar.html#ad2ad3a0ab18588886161063482b892a4":[1,0,69,29]
+"da/df9/classMortar.html#ad2ad3a0ab18588886161063482b892a4":[1,0,69,29],
+"da/df9/classMortar.html#ad45a44046f1c6a48964c4111a123273e":[1,0,69,21],
+"da/df9/classMortar.html#ae3ee5674f8d5232b46d606bff0062696":[1,0,69,22],
+"da/df9/classMortar.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,69,20],
+"da/df9/classMortar.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,69,15]
 };
