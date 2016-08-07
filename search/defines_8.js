@@ -2,7 +2,6 @@ var searchData=
 [
   ['handle',['HANDLE',['../d3/db6/projectile_8qc.html#aa212ff44982cb3d66e1a0eff0bea547e',1,'projectile.qc']]],
   ['hasfatalfailure',['HasFatalFailure',['../d4/d5b/test_8qh.html#a2ac5f12da3a0321245eba5e58b3b9c90',1,'test.qh']]],
-  ['health_5fh',['HEALTH_H',['../da/d6a/health_8qh.html#ada078a7207d729f4b48c5619365810d8',1,'health.qh']]],
   ['heapify',['heapify',['../db/def/sort_8qh.html#adbcf7bdce2adadeafd5773ee731de221',1,'sort.qh']]],
   ['hexdigit_5fto_5fdec',['HEXDIGIT_TO_DEC',['../d2/db4/string_8qh.html#a70bd37e05eeb11fdb4e3cfff09c6187e',1,'string.qh']]],
   ['hexdigit_5fto_5fdec_5fraw',['HEXDIGIT_TO_DEC_RAW',['../d2/db4/string_8qh.html#ad8357713efe469506842ff9e841e90ce',1,'string.qh']]],

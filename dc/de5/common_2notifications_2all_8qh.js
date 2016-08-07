@@ -20,7 +20,6 @@ var common_2notifications_2all_8qh =
     [ "NOTIF_ARGUMENT_LIST", "dc/de5/common_2notifications_2all_8qh.html#aff1c0bce3b503f7c350fd83ea7e750cf", null ],
     [ "NOTIF_HIT_MAX", "dc/de5/common_2notifications_2all_8qh.html#aba2a9e3d451edebbfc657d9859796e03", null ],
     [ "NOTIF_HIT_UNKNOWN", "dc/de5/common_2notifications_2all_8qh.html#ab1f0c8ae8fa2d3675712f495bef6dbb8", null ],
-    [ "NOTIFICATIONS_H", "dc/de5/common_2notifications_2all_8qh.html#aa6422f6ea3ade321d3b82957ae8d0f1d", null ],
     [ "SPREE_ITEM", "dc/de5/common_2notifications_2all_8qh.html#a06a1edf2081934e5cb8188d0419f55e7", null ],
     [ "Notification", "dc/de5/common_2notifications_2all_8qh.html#aa46580df20165dd8315928c81936292e", null ],
     [ "BUFF_NAME", "dc/de5/common_2notifications_2all_8qh.html#a7c73e9ee5f2498f85e04b5adaafef6b3", null ],

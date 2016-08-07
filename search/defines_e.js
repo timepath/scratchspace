@@ -13,8 +13,7 @@ var searchData=
   ['name_5fteam_5f3',['NAME_TEAM_3',['../db/d07/teams_8qh.html#a8044b8f8baa7b9e0ddb6c6ef7dba7922',1,'teams.qh']]],
   ['name_5fteam_5f4',['NAME_TEAM_4',['../db/d07/teams_8qh.html#a60a132226a89386e69517d266e83be67',1,'teams.qh']]],
   ['net_5fhandle',['NET_HANDLE',['../dd/d69/net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded',1,'net.qh']]],
-  ['net_5fnotice_5fh',['NET_NOTICE_H',['../dd/da3/net__notice_8qh.html#acfe1d4c1a64bdb00970c84a23bf6daaf',1,'net_notice.qh']]],
-  ['new',['NEW',['../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48',1,'NEW():&#160;oo.qh'],['../db/d0a/oo_8qh.html#ab92f7aae1a80b93313256ec9a7389ed1',1,'new():&#160;oo.qh']]],
+  ['new',['new',['../db/d0a/oo_8qh.html#ab92f7aae1a80b93313256ec9a7389ed1',1,'new():&#160;oo.qh'],['../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48',1,'NEW():&#160;oo.qh']]],
   ['new_5fpure',['new_pure',['../db/d0a/oo_8qh.html#a877e0a39ad14492c2c20bcda5b20abe9',1,'oo.qh']]],
   ['normal_5for_5fgentle',['normal_or_gentle',['../d5/df2/common_2util_8qh.html#a1c34ac0e3175e3a3ecfc1737e3324eec',1,'util.qh']]],
   ['notif_5fadd_5fautocvar',['NOTIF_ADD_AUTOCVAR',['../dc/de5/common_2notifications_2all_8qh.html#ad2b8722fdafe31ea859ef47f5d621664',1,'all.qh']]],
@@ -25,7 +24,6 @@ var searchData=
   ['notif_5fwrite_5fentity',['NOTIF_WRITE_ENTITY',['../d4/df2/common_2notifications_2all_8qc.html#a3ccd497f947ede2917e49908cf39a161',1,'all.qc']]],
   ['notif_5fwrite_5fentity_5fchoice',['NOTIF_WRITE_ENTITY_CHOICE',['../d4/df2/common_2notifications_2all_8qc.html#ab8d04f070f34f2c33b526d29809f4d4e',1,'all.qc']]],
   ['notif_5fwrite_5fhardcoded',['NOTIF_WRITE_HARDCODED',['../d4/df2/common_2notifications_2all_8qc.html#ad02f8d427504ef14b91645e337035578',1,'all.qc']]],
-  ['notifications_5fh',['NOTIFICATIONS_H',['../dc/de5/common_2notifications_2all_8qh.html#aa6422f6ea3ade321d3b82957ae8d0f1d',1,'all.qh']]],
   ['null',['NULL',['../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4',1,'post.qh']]],
   ['num_5furl_5fid',['NUM_URL_ID',['../dc/dbb/urllib_8qh.html#abf84ff552af3dfefffcddd52dd89a647',1,'urllib.qh']]]
 ];

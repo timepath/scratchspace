@@ -1,6 +1,5 @@
 var common_2stats_8qh =
 [
-    [ "STATS_H", "d7/d5c/common_2stats_8qh.html#a61e845bc0532143e8d808a9dd0f81b08", null ],
     [ "REGISTER_STAT", "d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08", null ],
     [ "autocvar_sv_gameplayfix_nogravityonground", "d7/d5c/common_2stats_8qh.html#af79aea212cd212293b11203367c6a5b3", null ],
     [ "MAX_CL_STATS", "d7/d5c/common_2stats_8qh.html#addc676e25f2065875621b35f9daadb18", null ],

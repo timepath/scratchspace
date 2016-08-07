@@ -8,7 +8,6 @@ var common_2deathtypes_2all_8qh =
     [ "DEATH_ISVEHICLE", "db/dab/common_2deathtypes_2all_8qh.html#a9fa337907adcd92c324cbd78fbb4514e", null ],
     [ "DEATH_ISWEAPON", "db/dab/common_2deathtypes_2all_8qh.html#a3d2a6e3591b346acd119e615627b5f5b", null ],
     [ "DEATH_WEAPONOF", "db/dab/common_2deathtypes_2all_8qh.html#ad5aa4530e732a8bb74be927221610971", null ],
-    [ "DEATHTYPES_ALL_H", "db/dab/common_2deathtypes_2all_8qh.html#a458ac134010513212126d1e65bc5f2e0", null ],
     [ "Deathtypes_from", "db/dab/common_2deathtypes_2all_8qh.html#ab02fffb66632ecbfb66201c5e5c86203", null ],
     [ "REGISTER_DEATHTYPE", "db/dab/common_2deathtypes_2all_8qh.html#a511a8cb366fb4918f14fab9d9ba50557", null ],
     [ "Deathtype_Name", "db/dab/common_2deathtypes_2all_8qh.html#ab228bbc4e90e596f0f88f2556ee96c59", null ],

@@ -38,7 +38,6 @@ var common_2weapons_2all_8qh =
     [ "W_UPDATE_NONE", "de/d81/common_2weapons_2all_8qh.html#af57099c1bb2aa4418d53246e5e9a6dde", null ],
     [ "W_UPDATE_PRI", "de/d81/common_2weapons_2all_8qh.html#ad46a5a7b01502f163965fa182c08dc68", null ],
     [ "W_UPDATE_SEC", "de/d81/common_2weapons_2all_8qh.html#a3a83fb171190023db3979c62de8f0c4a", null ],
-    [ "WEAPONS_ALL_H", "de/d81/common_2weapons_2all_8qh.html#aaf80ce850365890a810956e287569277", null ],
     [ "Weapons_from", "de/d81/common_2weapons_2all_8qh.html#a1f0a48799ac85436679ce72c5a670052", null ],
     [ "WEP_CVAR", "de/d81/common_2weapons_2all_8qh.html#af06dc0500e6eb6447e03b35bb1aa39e0", null ],
     [ "WEP_CVAR_BOTH", "de/d81/common_2weapons_2all_8qh.html#a40f31bae85309ff6f5689eb8b5f53043", null ],

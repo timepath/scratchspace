@@ -1,6 +1,5 @@
 var jumppads_8qh =
 [
-    [ "T_JUMPPADS_H", "d9/de7/jumppads_8qh.html#af7b9c319b1f78770389b65ebfe36656c", null ],
     [ "trigger_push_calculatevelocity", "d9/de7/jumppads_8qh.html#a314c2ab38cad8dd0cbe7622152bb918d", null ],
     [ "trigger_push_findtarget", "d9/de7/jumppads_8qh.html#a66ad79d10244774bb2ebf5c354538d26", null ],
     [ "trigger_push_touch", "d9/de7/jumppads_8qh.html#affeed36a4bfbccc789a223127cd20da4", null ],

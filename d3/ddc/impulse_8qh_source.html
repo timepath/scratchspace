@@ -105,27 +105,24 @@ $(document).ready(function(){initNavTree('d3/ddc/impulse_8qh_source.html','../..
 <div class="title">impulse.qh</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d3/ddc/impulse_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef TRIGGER_IMPULSE_H</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="../../d3/ddc/impulse_8qh.html#a0b05e0e722229a0828a4fdbd482fae7d">    2</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TRIGGER_IMPULSE_H</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// tZorks trigger impulse / gravity</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../d3/ddc/impulse_8qh.html#a5050a760c11da521cd4aee6336f6529f">    5</a></span>&#160;.float <a class="code" href="../../d3/ddc/impulse_8qh.html#a5050a760c11da521cd4aee6336f6529f">radius</a>;</div>
-<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../d3/ddc/impulse_8qh.html#ac37c534efda2a140f52238e2c4eb31a4">    6</a></span>&#160;.float <a class="code" href="../../d3/ddc/impulse_8qh.html#ac37c534efda2a140f52238e2c4eb31a4">falloff</a>;</div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d3/ddc/impulse_8qh.html#a2c1c8f9331368f38bfc3eaee260b59a6">    7</a></span>&#160;.float <a class="code" href="../../d3/ddc/impulse_8qh.html#a2c1c8f9331368f38bfc3eaee260b59a6">strength</a>;</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="../../d3/ddc/impulse_8qh.html#a8b056e96f854ff4877bca912be5b37e0">    8</a></span>&#160;.float <a class="code" href="../../d3/ddc/impulse_8qh.html#a8b056e96f854ff4877bca912be5b37e0">lastpushtime</a>;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="ttc" id="impulse_8qh_html_a2c1c8f9331368f38bfc3eaee260b59a6"><div class="ttname"><a href="../../d3/ddc/impulse_8qh.html#a2c1c8f9331368f38bfc3eaee260b59a6">strength</a></div><div class="ttdeci">float strength</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddc/impulse_8qh_source.html#l00007">impulse.qh:7</a></div></div>
-<div class="ttc" id="impulse_8qh_html_ac37c534efda2a140f52238e2c4eb31a4"><div class="ttname"><a href="../../d3/ddc/impulse_8qh.html#ac37c534efda2a140f52238e2c4eb31a4">falloff</a></div><div class="ttdeci">float falloff</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddc/impulse_8qh_source.html#l00006">impulse.qh:6</a></div></div>
-<div class="ttc" id="impulse_8qh_html_a8b056e96f854ff4877bca912be5b37e0"><div class="ttname"><a href="../../d3/ddc/impulse_8qh.html#a8b056e96f854ff4877bca912be5b37e0">lastpushtime</a></div><div class="ttdeci">float lastpushtime</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddc/impulse_8qh_source.html#l00008">impulse.qh:8</a></div></div>
-<div class="ttc" id="impulse_8qh_html_a5050a760c11da521cd4aee6336f6529f"><div class="ttname"><a href="../../d3/ddc/impulse_8qh.html#a5050a760c11da521cd4aee6336f6529f">radius</a></div><div class="ttdeci">float radius</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddc/impulse_8qh_source.html#l00005">impulse.qh:5</a></div></div>
+<a href="../../d3/ddc/impulse_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="comment">// tZorks trigger impulse / gravity</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno"><a class="line" href="../../d3/ddc/impulse_8qh.html#a5050a760c11da521cd4aee6336f6529f">    4</a></span>&#160;.float <a class="code" href="../../d3/ddc/impulse_8qh.html#a5050a760c11da521cd4aee6336f6529f">radius</a>;</div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../d3/ddc/impulse_8qh.html#ac37c534efda2a140f52238e2c4eb31a4">    5</a></span>&#160;.float <a class="code" href="../../d3/ddc/impulse_8qh.html#ac37c534efda2a140f52238e2c4eb31a4">falloff</a>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="../../d3/ddc/impulse_8qh.html#a2c1c8f9331368f38bfc3eaee260b59a6">    6</a></span>&#160;.float <a class="code" href="../../d3/ddc/impulse_8qh.html#a2c1c8f9331368f38bfc3eaee260b59a6">strength</a>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d3/ddc/impulse_8qh.html#a8b056e96f854ff4877bca912be5b37e0">    7</a></span>&#160;.float <a class="code" href="../../d3/ddc/impulse_8qh.html#a8b056e96f854ff4877bca912be5b37e0">lastpushtime</a>;</div>
+<div class="ttc" id="impulse_8qh_html_a2c1c8f9331368f38bfc3eaee260b59a6"><div class="ttname"><a href="../../d3/ddc/impulse_8qh.html#a2c1c8f9331368f38bfc3eaee260b59a6">strength</a></div><div class="ttdeci">float strength</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddc/impulse_8qh_source.html#l00006">impulse.qh:6</a></div></div>
+<div class="ttc" id="impulse_8qh_html_ac37c534efda2a140f52238e2c4eb31a4"><div class="ttname"><a href="../../d3/ddc/impulse_8qh.html#ac37c534efda2a140f52238e2c4eb31a4">falloff</a></div><div class="ttdeci">float falloff</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddc/impulse_8qh_source.html#l00005">impulse.qh:5</a></div></div>
+<div class="ttc" id="impulse_8qh_html_a8b056e96f854ff4877bca912be5b37e0"><div class="ttname"><a href="../../d3/ddc/impulse_8qh.html#a8b056e96f854ff4877bca912be5b37e0">lastpushtime</a></div><div class="ttdeci">float lastpushtime</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddc/impulse_8qh_source.html#l00007">impulse.qh:7</a></div></div>
+<div class="ttc" id="impulse_8qh_html_a5050a760c11da521cd4aee6336f6529f"><div class="ttname"><a href="../../d3/ddc/impulse_8qh.html#a5050a760c11da521cd4aee6336f6529f">radius</a></div><div class="ttdeci">float radius</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/ddc/impulse_8qh_source.html#l00004">impulse.qh:4</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../dir_68c7af0e850d11bf6ba23fecbd658357.html">trigger</a></li><li class="navelem"><a class="el" href="../../d3/ddc/impulse_8qh.html">impulse.qh</a></li>
-    <li class="footer">Generated on Sun Aug 7 2016 10:22:36 for Xonotic by
+    <li class="footer">Generated on Sun Aug 7 2016 11:51:05 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

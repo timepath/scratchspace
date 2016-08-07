@@ -1,7 +1,6 @@
 var player_8qh =
 [
     [ "BUFFS_STAT", "df/dae/player_8qh.html#a6f91fe72ae285d61537e8d41d600c127", null ],
-    [ "COMMON_PHYSICS_H", "df/dae/player_8qh.html#ae267860546058b8f3dc7e95f3cf6e791", null ],
     [ "GAMEPLAYFIX_DOWNTRACEONGROUND", "df/dae/player_8qh.html#a355ad000887bfbb3fa387376ce9116ef", null ],
     [ "GAMEPLAYFIX_EASIERWATERJUMP", "df/dae/player_8qh.html#a86866b9ab036632e4b60c4dc204e1347", null ],
     [ "GAMEPLAYFIX_STEPDOWN", "df/dae/player_8qh.html#a29a88512a529238f210bd12531cf3859", null ],

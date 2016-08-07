@@ -1,6 +1,5 @@
 var campaign__common_8qh =
 [
-    [ "CAMPAIGN_COMMON_H", "d7/d13/campaign__common_8qh.html#ae32299137236365469e693921fcbdee2", null ],
     [ "CAMPAIGN_MAX_ENTRIES", "d7/d13/campaign__common_8qh.html#a741735ba63f01d1145221581ba8e4803", null ],
     [ "CampaignFile_Load", "d7/d13/campaign__common_8qh.html#ae2f904eeb0bb4119ac6be954bf3223d3", null ],
     [ "CampaignFile_Unload", "d7/d13/campaign__common_8qh.html#a60eb1da8586e91aa4e5ba36eb255b903", null ],

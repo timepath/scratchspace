@@ -1,7 +1,6 @@
 var common_2items_2item_8qh =
 [
     [ "GameItem", "d0/d9a/classGameItem.html", "d0/d9a/classGameItem" ],
-    [ "GAMEITEM_H", "d7/d7c/common_2items_2item_8qh.html#ab529d7dce0a6c6047f598d45769b67ee", null ],
     [ "ITEM_HANDLE", "d7/d7c/common_2items_2item_8qh.html#ae7615b4e3cf65501fdd057a3b418d795", null ],
     [ "IT_25HP", "d7/d7c/common_2items_2item_8qh.html#aef700bb44050a793f050457d34440288", null ],
     [ "IT_5HP", "d7/d7c/common_2items_2item_8qh.html#af7c0a54d97c46f745049b7588336031b", null ],

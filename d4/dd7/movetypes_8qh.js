@@ -1,7 +1,6 @@
 var movetypes_8qh =
 [
     [ "IS_ONGROUND", "d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27", null ],
-    [ "MOVETYPES_H", "d4/dd7/movetypes_8qh.html#ad8976868c33ae538cca4184641b21a1e", null ],
     [ "SET_ONGROUND", "d4/dd7/movetypes_8qh.html#a93e881dd105ced1c6ce1873530933eaf", null ],
     [ "UNSET_ONGROUND", "d4/dd7/movetypes_8qh.html#abe20324d138f110c779274c157be381f", null ],
     [ "_Movetype_CheckVelocity", "d4/dd7/movetypes_8qh.html#a339edb79ca2ee708f1d39819496794bf", null ],

@@ -9,7 +9,6 @@ var subs_8qh =
     [ "SUB_THINK", "db/d2f/subs_8qh.html#a4d8f1dc81695f45393a0ce3187009187", null ],
     [ "SUB_THUNK", "db/d2f/subs_8qh.html#a27c279a6b66803c24a7eb10a405d9287", null ],
     [ "SUB_VELOCITY", "db/d2f/subs_8qh.html#ab47be80c13bfc40b31ee65f43c3d4363", null ],
-    [ "SUBS_H", "db/d2f/subs_8qh.html#a45eb43f1dba1d0f2c0f2f6eb4a7bd5cc", null ],
     [ "SUB_SetFade", "db/d2f/subs_8qh.html#aaee12b410e85192641c50f8eeeef532f", null ],
     [ "SUB_VanishOrRemove", "db/d2f/subs_8qh.html#ad0806fe42eadae7a1a7a48660cbbd755", null ],
     [ "void", "db/d2f/subs_8qh.html#aea0b7edf80fc3a7aead17f2b38dc050c", null ],

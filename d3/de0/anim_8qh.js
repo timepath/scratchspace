@@ -1,6 +1,5 @@
 var anim_8qh =
 [
-    [ "ANIM_H", "d3/de0/anim_8qh.html#a79b00ef7741d79a3879389c29ad80657", null ],
     [ "setanim", "d3/de0/anim_8qh.html#ad5a4f9a480359f7986bbcf7405c3a59d", null ],
     [ "updateanim", "d3/de0/anim_8qh.html#a91371dfd91834ffb784d34ea01f5e261", null ],
     [ "anim_set", "d3/de0/anim_8qh.html#a772713e6e892a6e8fe40076d9c0b68cd", null ],

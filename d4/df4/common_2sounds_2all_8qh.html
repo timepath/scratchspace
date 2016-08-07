@@ -136,8 +136,6 @@ Macros</h2></td></tr>
 <tr class="separator:a95b575d77a4c36658bf10f40dd84893d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae03a43610e8d839002569e42781aec08"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df4/common_2sounds_2all_8qh.html#ae03a43610e8d839002569e42781aec08">SOUND</a>(<a class="el" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, path)</td></tr>
 <tr class="separator:ae03a43610e8d839002569e42781aec08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30e4f32194d3e5daccdffea6c207b58e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df4/common_2sounds_2all_8qh.html#a30e4f32194d3e5daccdffea6c207b58e">SOUNDS_ALL_H</a></td></tr>
-<tr class="separator:a30e4f32194d3e5daccdffea6c207b58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afcb37e681cce76b7bca64122718de10f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/df4/common_2sounds_2all_8qh.html#afcb37e681cce76b7bca64122718de10f">Sounds_from</a>(i)&#160;&#160;&#160;_Sounds_from(i, SND_Null)</td></tr>
 <tr class="separator:afcb37e681cce76b7bca64122718de10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -164,7 +162,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="deprecated"><dt><b><a class="el" href="../../da/d58/deprecated.html#_deprecated000003">Deprecated:</a></b></dt><dd>Used in places where a string is required for legacy reasons, prefer using SND_id constants instead </dd></dl>
 
-<p>Definition at line <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00015">15</a> of file <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html">all.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00014">14</a> of file <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html">all.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d2/d62/selection_8qc_source.html#l00043">client_hasweapon()</a>, <a class="el" href="../../d6/d9c/door_8qc_source.html#l00157">door_check_keys()</a>, <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00200">FireRailgunBullet()</a>, <a class="el" href="../../d6/dd3/view_8qc_source.html#l00806">HitSound()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01035">Monster_Damage()</a>, <a class="el" href="../../d3/db6/projectile_8qc_source.html#l00185">NET_HANDLE()</a>, <a class="el" href="../../d7/da4/item__key_8qc_source.html#l00155">spawnfunc()</a>, <a class="el" href="../../d6/d57/triggers_8qc_source.html#l00185">SUB_UseTargets()</a>, <a class="el" href="../../d0/d6b/teleporters_8qc_source.html#l00070">TeleportPlayer()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00693">W_Reload()</a>.</p>
 
@@ -195,28 +193,14 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">string</span> SND_##<a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>##_get() { <span class="keywordflow">return</span> path; } <a class="code" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">\</a></div>
 <div class="line"><a class="code" href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">    REGISTER</a>(Sounds, <a class="code" href="../../d4/df4/common_2sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a>, <a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>, <a class="code" href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a>, <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../df/d49/classSound.html">Sound</a>, SND_##<a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>##_get))</div>
-<div class="ttc" id="common_2sounds_2all_8qh_html_a95b575d77a4c36658bf10f40dd84893d"><div class="ttname"><a href="../../d4/df4/common_2sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a></div><div class="ttdeci">#define SND(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00015">all.qh:15</a></div></div>
+<div class="ttc" id="common_2sounds_2all_8qh_html_a95b575d77a4c36658bf10f40dd84893d"><div class="ttname"><a href="../../d4/df4/common_2sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a></div><div class="ttdeci">#define SND(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00014">all.qh:14</a></div></div>
 <div class="ttc" id="registry_8qh_html_a212380bd462d6af1e068ef2e15844466"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a212380bd462d6af1e068ef2e15844466">REGISTER</a></div><div class="ttdeci">#define REGISTER(...)</div><div class="ttdoc">Register a new entity with a registry. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00066">registry.qh:66</a></div></div>
 <div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00113">oo.qh:113</a></div></div>
-<div class="ttc" id="effect_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de6/effect_8qh_source.html#l00020">effect.qh:20</a></div></div>
-<div class="ttc" id="classSound_html"><div class="ttname"><a href="../../df/d49/classSound.html">Sound</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00096">sound.qh:96</a></div></div>
+<div class="ttc" id="effect_8qh_html_aad966617e7e050bedbead762727808a5"><div class="ttname"><a href="../../d5/de6/effect_8qh.html#aad966617e7e050bedbead762727808a5">m_id</a></div><div class="ttdeci">int m_id</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de6/effect_8qh_source.html#l00019">effect.qh:19</a></div></div>
+<div class="ttc" id="classSound_html"><div class="ttname"><a href="../../df/d49/classSound.html">Sound</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00095">sound.qh:95</a></div></div>
 <div class="ttc" id="menu_8qh_html_a8ccf841cb59e451791bcb2e1ac4f1edc"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a></div><div class="ttdeci">string name</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00030">menu.qh:30</a></div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00010">10</a> of file <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html">all.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a30e4f32194d3e5daccdffea6c207b58e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define SOUNDS_ALL_H</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00002">2</a> of file <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html">all.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00009">9</a> of file <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html">all.qh</a>.</p>
 
 </div>
 </div>
@@ -234,7 +218,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00007">7</a> of file <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html">all.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00006">6</a> of file <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html">all.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/dc5/common_2sounds_2all_8inc_source.html#l00262">SND_GIB_SPLAT_RANDOM()</a>, <a class="el" href="../../d7/dc5/common_2sounds_2all_8inc_source.html#l00038">SND_GRENADE_BOUNCE_RANDOM()</a>, <a class="el" href="../../d7/dc5/common_2sounds_2all_8inc_source.html#l00050">SND_HAGEXP_RANDOM()</a>, <a class="el" href="../../d7/dc5/common_2sounds_2all_8inc_source.html#l00073">SND_NEXWHOOSH_RANDOM()</a>, and <a class="el" href="../../d7/dc5/common_2sounds_2all_8inc_source.html#l00081">SND_RIC_RANDOM()</a>.</p>
 
@@ -255,12 +239,12 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00017">17</a> of file <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html">all.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00016">16</a> of file <a class="el" href="../../d4/df4/common_2sounds_2all_8qh_source.html">all.qh</a>.</p>
 
 <p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                 {</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Sounds, <span class="keyword">true</span>, it.sound_precache(it));</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                 {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Sounds, <span class="keyword">true</span>, it.sound_precache(it));</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -297,7 +281,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_d3b239bf2277a27bae01166a36b5b35f.html">sounds</a></li><li class="navelem"><a class="el" href="../../d4/df4/common_2sounds_2all_8qh.html">all.qh</a></li>
-    <li class="footer">Generated on Sun Aug 7 2016 10:22:40 for Xonotic by
+    <li class="footer">Generated on Sun Aug 7 2016 11:51:08 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

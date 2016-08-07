@@ -6,7 +6,6 @@ var sound_8qh =
     [ "sound", "d0/df5/sound_8qh.html#aeb598ce864f72a1d490d550e1a10c32a", null ],
     [ "sound8", "d0/df5/sound_8qh.html#abf2bac2315ef900096b8a098b1abd15f", null ],
     [ "Sound_fixpath", "d0/df5/sound_8qh.html#a2e54c7df70c48267e1b7e0568776ba0b", null ],
-    [ "SOUND_H", "d0/df5/sound_8qh.html#abd9a4c21bcfb1e13af9948a03421c06c", null ],
     [ "tryext", "d0/df5/sound_8qh.html#a03b0aea621721da3d1c54e3dcc99e4c8", null ],
     [ "ATTEN_IDLE", "d0/df5/sound_8qh.html#adac39d0ed99391c139261058f3bf93b3", null ],
     [ "ATTEN_LARGE", "d0/df5/sound_8qh.html#afb6fcbf07aa2ed49e154e3921ebef32d", null ],

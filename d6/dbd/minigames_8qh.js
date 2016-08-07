@@ -1,6 +1,5 @@
 var minigames_8qh =
 [
-    [ "MINIGAMES_H", "d6/dbd/minigames_8qh.html#abaa8ee727aabba8b7108aa81abdef5c7", null ],
     [ "int", "d6/dbd/minigames_8qh.html#ab3b59a3d24f070e1a5d682f36e45dff6", null ],
     [ "minigame_count_players", "d6/dbd/minigames_8qh.html#a50da88a37fb88826817f7d669b24c423", null ],
     [ "minigame_get_descriptor", "d6/dbd/minigames_8qh.html#abb2f72c4f1307f3e774ad15b4235abb2", null ],

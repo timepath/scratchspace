@@ -1,6 +1,5 @@
 var swamp_8qh =
 [
-    [ "TRIGGER_SWAMP_H", "da/d96/swamp_8qh.html#a07ca578a9e90873404fe20e8f92b846c", null ],
     [ "in_swamp", "da/d96/swamp_8qh.html#acfe94a307f0eed212930a06acc6a8a96", null ],
     [ "swamp_interval", "da/d96/swamp_8qh.html#a8773a15cbc36038a74cc581f6aecf76e", null ],
     [ "swamp_slowdown", "da/d96/swamp_8qh.html#a72409ccf4513611408270e2c17712b3d", null ],

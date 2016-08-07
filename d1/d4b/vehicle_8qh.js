@@ -1,7 +1,6 @@
 var vehicle_8qh =
 [
     [ "Vehicle", "dc/d23/classVehicle.html", "dc/d23/classVehicle" ],
-    [ "VEHICLE_H", "d1/d4b/vehicle_8qh.html#a1f16716522bcf99b0e69ab234192ecbf", null ],
     [ "tur_head", "d1/d4b/vehicle_8qh.html#ac541faa688eeead026348ad699585d0c", null ],
     [ "VHF_DEATHEJECT", "d1/d4b/vehicle_8qh.html#af7a5fa4de96188e946ef3c2025735fc4", null ],
     [ "VHF_DMGHEADROLL", "d1/d4b/vehicle_8qh.html#aaf79b031fa1457c27aa9aeff5cd97ab2", null ],

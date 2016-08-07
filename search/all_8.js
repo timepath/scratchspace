@@ -60,7 +60,6 @@ var searchData=
   ['health_2eqh',['health.qh',['../da/d6a/health_8qh.html',1,'']]],
   ['health_5fbeforedamage',['health_beforedamage',['../d3/d05/hud_8qh.html#a4033974b42602b7fbff1a4aa58f4416d',1,'hud.qh']]],
   ['health_5fdamagetime',['health_damagetime',['../d3/d05/hud_8qh.html#a2982986ff1c2298617d3aaa202839199',1,'hud.qh']]],
-  ['health_5fh',['HEALTH_H',['../da/d6a/health_8qh.html#ada078a7207d729f4b48c5619365810d8',1,'health.qh']]],
   ['healtharmor_2eqc',['healtharmor.qc',['../de/d66/healtharmor_8qc.html',1,'']]],
   ['healtharmor_2eqh',['healtharmor.qh',['../d4/d51/healtharmor_8qh.html',1,'']]],
   ['healtharmor_5fapplydamage',['healtharmor_applydamage',['../da/d44/common_2util_8qc.html#a420bd0f71297ebd957cd3e60d9531658',1,'healtharmor_applydamage(float a, float armorblock, int deathtype, float damage):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#a420bd0f71297ebd957cd3e60d9531658',1,'healtharmor_applydamage(float a, float armorblock, int deathtype, float damage):&#160;util.qc']]],

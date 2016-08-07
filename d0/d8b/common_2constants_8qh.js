@@ -1,6 +1,5 @@
 var common_2constants_8qh =
 [
-    [ "CONSTANTS_H", "d0/d8b/common_2constants_8qh.html#ac7a36608ac7b2450d147e32c12ef6182", null ],
     [ "IS_DECREASING", "d0/d8b/common_2constants_8qh.html#a1310f6ab1eb47643385baab1b3227603", null ],
     [ "IS_INCREASING", "d0/d8b/common_2constants_8qh.html#ae215b84a51e681283b184a26daf59073", null ],
     [ "MAX_SCORE", "d0/d8b/common_2constants_8qh.html#aa27bf8c0d78735062b3cf41d2a618b30", null ],

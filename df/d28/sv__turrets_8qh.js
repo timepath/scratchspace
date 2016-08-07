@@ -1,6 +1,5 @@
 var sv__turrets_8qh =
 [
-    [ "SV_TURRETS_H", "df/d28/sv__turrets_8qh.html#ac14a89f9f770acfe2c1072507f53b0af", null ],
     [ "bool", "df/d28/sv__turrets_8qh.html#ae3691f9f56c3c032bf818304ab4baf22", null ],
     [ "float", "df/d28/sv__turrets_8qh.html#ae1ff9191021b805b8017bb279c14af4b", null ],
     [ "float", "df/d28/sv__turrets_8qh.html#a15df8a6498e96a76f4a5e0213150f6a8", null ],

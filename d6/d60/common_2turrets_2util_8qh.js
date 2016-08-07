@@ -1,6 +1,5 @@
 var common_2turrets_2util_8qh =
 [
-    [ "TURRETS_UTIL_H", "d6/d60/common_2turrets_2util_8qh.html#aba79eebf28aaffc06ded49ffecbaf6ff", null ],
     [ "anglemods", "d6/d60/common_2turrets_2util_8qh.html#a74e3390452e67698b03637a6f3f38f4e", null ],
     [ "angleofs", "d6/d60/common_2turrets_2util_8qh.html#a520b5ef01deabe77ef3b0376e65875df", null ],
     [ "angleofs3", "d6/d60/common_2turrets_2util_8qh.html#a1887814f18af2259bf4a563c9ce69565", null ],

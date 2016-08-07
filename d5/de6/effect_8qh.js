@@ -1,6 +1,5 @@
 var effect_8qh =
 [
-    [ "EFFECT_H", "d5/de6/effect_8qh.html#a3ee25d65f718701530fa718bbdf9eb86", null ],
     [ "particleeffectnum", "d5/de6/effect_8qh.html#ad034cd35facd32141085cb646c5e064e", null ],
     [ "Create_Effect_Entity", "d5/de6/effect_8qh.html#a8255f5ccd27b089c7d137606af837793", null ],
     [ "eent_eff_name", "d5/de6/effect_8qh.html#a46db24a17d0cf6f794aa1269529663d0", null ],

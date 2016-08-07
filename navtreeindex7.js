@@ -1,13 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"d1/d2a/waypoints_8qh.html#aa21af0cc87b5bad942368ea4b059d95e":[2,0,6,0,0,14,29],
-"d1/d2a/waypoints_8qh.html#aa7235fe49c3c0a9202aa7562f869ba96":[2,0,6,0,0,14,43],
-"d1/d2a/waypoints_8qh.html#aa9934a14c64f838c41354a8395354542":[2,0,6,0,0,14,92],
-"d1/d2a/waypoints_8qh.html#aab164ee392b5c403e32390e58807707f":[2,0,6,0,0,14,20],
-"d1/d2a/waypoints_8qh.html#aab8e9f36fd32862eeeca82673307f46a":[2,0,6,0,0,14,65],
-"d1/d2a/waypoints_8qh.html#aad1048069313c8cbabe03cb259173378":[2,0,6,0,0,14,26],
-"d1/d2a/waypoints_8qh.html#ab22960e558407158cad0c8d2332a1572":[2,0,6,0,0,14,37],
-"d1/d2a/waypoints_8qh.html#ab2a2dd3491a840bc01bc757c4a53fb20":[2,0,6,0,0,14,46],
 "d1/d2a/waypoints_8qh.html#ab34f7a15ca9eb4899a266cf5bead4efb":[2,0,6,0,0,14,15],
 "d1/d2a/waypoints_8qh.html#ab425a543c58fb2e6f5ab441d30f5cd7c":[2,0,6,0,0,14,7],
 "d1/d2a/waypoints_8qh.html#ab56e0bc4fca680594272d3eb7795f625":[2,0,6,0,0,14,83],
@@ -249,5 +241,13 @@ var NAVTREEINDEX7 =
 "d1/d39/classXonoticTeamSelectDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,228,69],
 "d1/d39/classXonoticTeamSelectDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,228,7],
 "d1/d39/classXonoticTeamSelectDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,228,57],
-"d1/d39/classXonoticTeamSelectDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,228,14]
+"d1/d39/classXonoticTeamSelectDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,228,14],
+"d1/d39/classXonoticTeamSelectDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,228,89],
+"d1/d39/classXonoticTeamSelectDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,228,75],
+"d1/d39/classXonoticTeamSelectDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,228,41],
+"d1/d39/classXonoticTeamSelectDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,228,34],
+"d1/d39/classXonoticTeamSelectDialog.html#a8db4c93367b033dedff8f2c395706e5e":[1,0,228,50],
+"d1/d39/classXonoticTeamSelectDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,228,65],
+"d1/d39/classXonoticTeamSelectDialog.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,228,74],
+"d1/d39/classXonoticTeamSelectDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,228,70]
 };

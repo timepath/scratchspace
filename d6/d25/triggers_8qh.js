@@ -1,7 +1,6 @@
 var triggers_8qh =
 [
     [ "IFTARGETED", "d6/d25/triggers_8qh.html#a636484386e31b6bf4361c83fb77f1b65", null ],
-    [ "TRIGGERS_H", "d6/d25/triggers_8qh.html#a0381fc4144e773bae95ae9af5e77aa5b", null ],
     [ "FixSize", "d6/d25/triggers_8qh.html#ae3b2b9ab5e59b7825352e92ec024f767", null ],
     [ "antiwall_flag", "d6/d25/triggers_8qh.html#a39f89c7165f3fe4cb77a64df7d722ed3", null ],
     [ "atten", "d6/d25/triggers_8qh.html#a0d6814c3343b8821d1f3efd623adf053", null ],

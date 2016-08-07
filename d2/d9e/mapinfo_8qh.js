@@ -13,7 +13,6 @@ var mapinfo_8qh =
     [ "IS_GAMETYPE", "d2/d9e/mapinfo_8qh.html#a8b3b6528d28eae213a819ebc13bd3cae", null ],
     [ "LOG_MAPWARN", "d2/d9e/mapinfo_8qh.html#a8658440f8782a0d5aeca350a45c01f9c", null ],
     [ "LOG_MAPWARNF", "d2/d9e/mapinfo_8qh.html#a2318d55b9c518ececddfca61842cd5b8", null ],
-    [ "MAPINFO_H", "d2/d9e/mapinfo_8qh.html#a1ef7e3e065264552c45e89639e52c0f4", null ],
     [ "MAPINFO_SETTEMP_ACL_SYSTEM", "d2/d9e/mapinfo_8qh.html#accb514cfc60d2b316dc66862aa6089ee", null ],
     [ "MAPINFO_SETTEMP_ACL_USER", "d2/d9e/mapinfo_8qh.html#a143ae9a972e236a600ee064e49bd2d75", null ],
     [ "REGISTER_GAMETYPE", "d2/d9e/mapinfo_8qh.html#aee231bc77eb9672755179ff03fb5fe21", null ],

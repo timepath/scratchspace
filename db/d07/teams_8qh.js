@@ -31,7 +31,6 @@ var teams_8qh =
     [ "Team_NumberToColoredFullName", "db/d07/teams_8qh.html#ae0e4a7d1b3b18f694a7498bc9019d637", null ],
     [ "Team_NumberToFullName", "db/d07/teams_8qh.html#a566bc38c723c83db64b29a0a3a0a138e", null ],
     [ "TeamByColor", "db/d07/teams_8qh.html#ac413002acb046e7e7c82f421f5927750", null ],
-    [ "TEAMS_H", "db/d07/teams_8qh.html#aaddc1db3fa46cdea7cd8e0506c662817", null ],
     [ "Static_Team_ColorName", "db/d07/teams_8qh.html#ab62a8f5d76670c9a0f07b2bf860f3ef9", null ],
     [ "Team_ColorCode", "db/d07/teams_8qh.html#a8d03f41980a641a39e8cdafc391b4a53", null ],
     [ "Team_ColorName", "db/d07/teams_8qh.html#aa74c7673bc954e453a8779de1b9f9884", null ],

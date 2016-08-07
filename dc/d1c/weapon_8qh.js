@@ -3,7 +3,6 @@ var weapon_8qh =
     [ "OffhandWeapon", "d0/dbc/classOffhandWeapon.html", "d0/dbc/classOffhandWeapon" ],
     [ "Weapon", "dc/de5/classWeapon.html", "dc/de5/classWeapon" ],
     [ "WeaponPickup", "d8/def/classWeaponPickup.html", "d8/def/classWeaponPickup" ],
-    [ "WEAPON_H", "dc/d1c/weapon_8qh.html#a115499de63e2c52e0566ebe714248166", null ],
     [ "GetAmmoPicture", "dc/d1c/weapon_8qh.html#a908d57b826ca581e66255d228e1a7666", null ],
     [ "W_FixWeaponOrder", "dc/d1c/weapon_8qh.html#acb6d8a69c18135cd85a99ff515fe5bf6", null ],
     [ "W_FixWeaponOrder_AllowIncomplete", "dc/d1c/weapon_8qh.html#a07ee4c440c94f2f2ec9997912dfde9e9", null ],

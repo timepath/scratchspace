@@ -2,7 +2,6 @@ var turret_8qh =
 [
     [ "Turret", "d2/d3d/classTurret.html", "d2/d3d/classTurret" ],
     [ "ammo_flags", "d9/d67/turret_8qh.html#affa742d4eca50b31c02ccd236a563b6b", null ],
-    [ "TURRET_H", "d9/d67/turret_8qh.html#a8260d5c80f93cf11259b98c8f8b04328", null ],
     [ "aim_flags", "d9/d67/turret_8qh.html#acafef71d6e1f2d40cbc621dab5df3846", null ],
     [ "anim_start_time", "d9/d67/turret_8qh.html#a7847760f5ddaabc4effb0c7f184809af", null ],
     [ "damage_flags", "d9/d67/turret_8qh.html#aba6e4da100ed92cc4a7a40c56871af49", null ],

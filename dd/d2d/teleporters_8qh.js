@@ -1,6 +1,5 @@
 var teleporters_8qh =
 [
-    [ "T_TELEPORTERS_H", "dd/d2d/teleporters_8qh.html#a9696bb78a5df12ebbbcc6302d17f30f1", null ],
     [ "TELEPORT_FLAGS_PORTAL", "dd/d2d/teleporters_8qh.html#aa22d61b694cf898cdef663544a972ef7", null ],
     [ "TELEPORT_FLAGS_TELEPORTER", "dd/d2d/teleporters_8qh.html#a5daecf64276e6826577ae7b897f02943", null ],
     [ "TELEPORT_FLAGS_WARPZONE", "dd/d2d/teleporters_8qh.html#a8191bdd7dbc71b40f3a90cfa4b41dee8", null ],

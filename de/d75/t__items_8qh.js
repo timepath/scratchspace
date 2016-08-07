@@ -1,6 +1,5 @@
 var t__items_8qh =
 [
-    [ "T_ITEMS_H", "de/d75/t__items_8qh.html#afd04d39459d8be708b46e92d07ae7f8e", null ],
     [ "AMMO_COUNT", "de/d75/t__items_8qh.html#a609d4e275d044b04314d1e6e20bd6621", null ],
     [ "fade_end", "de/d75/t__items_8qh.html#a0ae1b54e0a7968da8ad5a9cdb72038df", null ],
     [ "fade_start", "de/d75/t__items_8qh.html#a01afd0d1a091e3feeaacacebb74b6433", null ],

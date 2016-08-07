@@ -3,7 +3,6 @@ var sv__monsters_8qh =
     [ "_MSOUND", "d8/dc1/sv__monsters_8qh.html#a13c832506cac26065a468274572e4e37", null ],
     [ "ALLMONSTERSOUNDS", "d8/dc1/sv__monsters_8qh.html#a00f7225b4726715e1bf03d67aae9e1b1", null ],
     [ "MONSTER_SKILLMOD", "d8/dc1/sv__monsters_8qh.html#a06c45626bd5b1f16f1a6f66d7d7a3cad", null ],
-    [ "SV_MONSTERS_H", "d8/dc1/sv__monsters_8qh.html#a6f77fa70fc39e1bba8cb1c8ca8089fd4", null ],
     [ "Monster_Attack_Leap", "d8/dc1/sv__monsters_8qh.html#aeaede679c81cd462e3dee27a4982374f", null ],
     [ "Monster_Attack_Melee", "d8/dc1/sv__monsters_8qh.html#a4d3d85283bd5ddf40164418a5f43d27d", null ],
     [ "Monster_Delay", "d8/dc1/sv__monsters_8qh.html#a02694937ddf3dc6935c9ac7db73a7668", null ],

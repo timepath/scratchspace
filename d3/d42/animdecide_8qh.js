@@ -2,7 +2,6 @@ var animdecide_8qh =
 [
     [ "Animation", "d0/d5d/classAnimation.html", "d0/d5d/classAnimation" ],
     [ "Animations_from", "d3/d42/animdecide_8qh.html#a4a6cedced9be70c50161cc5359da08c6", null ],
-    [ "ANIMDECIDE_H", "d3/d42/animdecide_8qh.html#a9d4165bd31df75e1fc1a45273785d386", null ],
     [ "ReadAnimation", "d3/d42/animdecide_8qh.html#a81cf40f2ec96a5416603dac69b49417a", null ],
     [ "REGISTER_ANIMATION", "d3/d42/animdecide_8qh.html#a7a2ccb2c125986dd4cbad525477c65e7", null ],
     [ "WriteAnimation", "d3/d42/animdecide_8qh.html#a55a56b72171661156906a8058ae2507e", null ],

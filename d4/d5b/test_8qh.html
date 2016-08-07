@@ -124,7 +124,7 @@ $(document).ready(function(){initNavTree('d4/d5b/test_8qh.html','../../');});
 Macros</h2></td></tr>
 <tr class="memitem:ac6f58a531e739779b344b72f6ecbd44c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5b/test_8qh.html#ac6f58a531e739779b344b72f6ecbd44c">_TEST_ASSERT</a>(statement)</td></tr>
 <tr class="separator:ac6f58a531e739779b344b72f6ecbd44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a091e16c53287b9120c8aee844f56d938"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5b/test_8qh.html#a091e16c53287b9120c8aee844f56d938">ADD_FAILURE</a>(msg)&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { ++<a class="el" href="../../d4/d5b/test_8qh.html#a12e1c7e92c9ec827464886f9dc604532">TEST_failed</a>; <a class="el" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(msg); } <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td></tr>
+<tr class="memitem:a091e16c53287b9120c8aee844f56d938"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5b/test_8qh.html#a091e16c53287b9120c8aee844f56d938">ADD_FAILURE</a>(msg)&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { ++<a class="el" href="../../d4/d5b/test_8qh.html#a12e1c7e92c9ec827464886f9dc604532">TEST_failed</a>; <a class="el" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a>(msg); } <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td></tr>
 <tr class="memdesc:a091e16c53287b9120c8aee844f56d938"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a failure, but continue.  <a href="#a091e16c53287b9120c8aee844f56d938">More...</a><br/></td></tr>
 <tr class="separator:a091e16c53287b9120c8aee844f56d938"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad806a5e5813ea769dc2edbb5f6e3949d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d5b/test_8qh.html#ad806a5e5813ea769dc2edbb5f6e3949d">ASSERT_EQ</a>(expected, actual)&#160;&#160;&#160;<a class="el" href="../../d4/d5b/test_8qh.html#ac6f58a531e739779b344b72f6ecbd44c">_TEST_ASSERT</a>(<a class="el" href="../../d4/d5b/test_8qh.html#a54f62905f0ed7afee01774ac278cf6cf">EXPECT_EQ</a>(expected, actual))</td></tr>
@@ -231,7 +231,7 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">msg</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { ++<a class="el" href="../../d4/d5b/test_8qh.html#a12e1c7e92c9ec827464886f9dc604532">TEST_failed</a>; <a class="el" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(msg); } <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td>
+          <td>&#160;&#160;&#160;<a class="el" href="../../d3/dc9/macro_8qh.html#a6ea20bb10289e56e9a2af562401dad73">MACRO_BEGIN</a> { ++<a class="el" href="../../d4/d5b/test_8qh.html#a12e1c7e92c9ec827464886f9dc604532">TEST_failed</a>; <a class="el" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a>(msg); } <a class="el" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -713,8 +713,8 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d4/d5b/test_8qh.html#ae421a0351124e19b8e868e8d3e95e953">EXPECT_NO_FATAL_FAILURE__</a>(statement, { <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">\</a></div>
-<div class="line"><a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">		LOG_WARNINGF</a>( \</div>
+<b>Value:</b><div class="fragment"><div class="line"><a class="code" href="../../d4/d5b/test_8qh.html#ae421a0351124e19b8e868e8d3e95e953">EXPECT_NO_FATAL_FAILURE__</a>(statement, { <a class="code" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">\</a></div>
+<div class="line"><a class="code" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">		LOG_WARNF</a>( \</div>
 <div class="line">            <span class="stringliteral">&quot;  Actual: %d fatal failures\n&quot;</span> \</div>
 <div class="line">            <span class="stringliteral">&quot;Expected: no fatal failures\n&quot;</span>, \</div>
 <div class="line">            <a class="code" href="../../d4/d5b/test_8qh.html#adc706e3e005ae6c27856d272e397435d">TEST_fatal</a> - TEST_prevfatal \</div>
@@ -722,7 +722,7 @@ Variables</h2></td></tr>
 <div class="line"><a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">		LAMBDA</a>(then); \</div>
 <div class="line">    })</div>
 <div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
-<div class="ttc" id="log_8qh_html_afb0f2cb26657c7c79f0509c1bddfa7ce"><div class="ttname"><a href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a></div><div class="ttdeci">#define LOG_WARNINGF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00057">log.qh:57</a></div></div>
+<div class="ttc" id="log_8qh_html_a0a03b23b2bda32603235b3849e76e8e9"><div class="ttname"><a href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a></div><div class="ttdeci">#define LOG_WARNF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00057">log.qh:57</a></div></div>
 <div class="ttc" id="test_8qh_html_adc706e3e005ae6c27856d272e397435d"><div class="ttname"><a href="../../d4/d5b/test_8qh.html#adc706e3e005ae6c27856d272e397435d">TEST_fatal</a></div><div class="ttdeci">int TEST_fatal</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d5b/test_8qh_source.html#l00070">test.qh:70</a></div></div>
 <div class="ttc" id="test_8qh_html_ae421a0351124e19b8e868e8d3e95e953"><div class="ttname"><a href="../../d4/d5b/test_8qh.html#ae421a0351124e19b8e868e8d3e95e953">EXPECT_NO_FATAL_FAILURE__</a></div><div class="ttdeci">#define EXPECT_NO_FATAL_FAILURE__(statement, then)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d5b/test_8qh_source.html#l00080">test.qh:80</a></div></div>
 </div><!-- fragment -->
@@ -1066,7 +1066,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d4/d5b/test_8qh.html">test.qh</a></li>
-    <li class="footer">Generated on Sun Aug 7 2016 10:22:49 for Xonotic by
+    <li class="footer">Generated on Sun Aug 7 2016 11:51:14 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

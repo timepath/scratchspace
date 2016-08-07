@@ -52,7 +52,7 @@ var searchData=
   ['race_5fnet_5fspeed_5faward_5fbest',['RACE_NET_SPEED_AWARD_BEST',['../d0/d8b/common_2constants_8qh.html#a7c57475270a5b14d01a30017470e56e5',1,'constants.qh']]],
   ['race_5fnextbestname',['race_nextbestname',['../d9/d08/client_2defs_8qh.html#a51a8f1491a8b21741c0c6640b8e5019a',1,'defs.qh']]],
   ['race_5fnextbesttime',['race_nextbesttime',['../d9/d08/client_2defs_8qh.html#a7c0e0c424208978a5874199fe6d1ba92',1,'defs.qh']]],
-  ['race_5fnextcheckpoint',['race_nextcheckpoint',['../d9/d08/client_2defs_8qh.html#a0b4615ea21a02f161b88ff31b62a84f3',1,'race_nextcheckpoint():&#160;defs.qh'],['../d6/d3b/race_8qc.html#a8a2538ef381890c5e7f7fe836e1fedaa',1,'race_NextCheckpoint(float f):&#160;race.qc'],['../d4/d1b/race_8qh.html#a8a2538ef381890c5e7f7fe836e1fedaa',1,'race_NextCheckpoint(float f):&#160;race.qc']]],
+  ['race_5fnextcheckpoint',['race_NextCheckpoint',['../d6/d3b/race_8qc.html#a8a2538ef381890c5e7f7fe836e1fedaa',1,'race_NextCheckpoint(float f):&#160;race.qc'],['../d4/d1b/race_8qh.html#a8a2538ef381890c5e7f7fe836e1fedaa',1,'race_NextCheckpoint(float f):&#160;race.qc'],['../d9/d08/client_2defs_8qh.html#a0b4615ea21a02f161b88ff31b62a84f3',1,'race_nextcheckpoint():&#160;defs.qh']]],
   ['race_5fothercheckpoint',['race_othercheckpoint',['../d9/d08/client_2defs_8qh.html#a14abf018ab4921e4b200f31e6cb05a64',1,'defs.qh']]],
   ['race_5fothercheckpointdelta',['race_othercheckpointdelta',['../d9/d08/client_2defs_8qh.html#a72abba51d925066d5b85f6b761aec740',1,'defs.qh']]],
   ['race_5fothercheckpointenemy',['race_othercheckpointenemy',['../d9/d08/client_2defs_8qh.html#a09dc0cdd80d17bcd22209b6c4c3e953a',1,'defs.qh']]],
@@ -181,7 +181,6 @@ var searchData=
   ['raptor',['Raptor',['../d8/d12/classRaptor.html',1,'']]],
   ['raptor_2eqc',['raptor.qc',['../d6/d02/raptor_8qc.html',1,'']]],
   ['raptor_2eqh',['raptor.qh',['../d4/da1/raptor_8qh.html',1,'']]],
-  ['raptor_5fh',['RAPTOR_H',['../d4/da1/raptor_8qh.html#af08388847aed50c7f030589717ad4d67',1,'raptor.qh']]],
   ['raptor_5fweapons_2eqc',['raptor_weapons.qc',['../de/df3/raptor__weapons_8qc.html',1,'']]],
   ['raptor_5fweapons_2eqh',['raptor_weapons.qh',['../d7/d75/raptor__weapons_8qh.html',1,'']]],
   ['raptorbomb',['RaptorBomb',['../d4/da9/classRaptorBomb.html',1,'']]],
@@ -482,7 +481,6 @@ var searchData=
   ['rsm_5fflare',['RSM_FLARE',['../d4/da1/raptor_8qh.html#ada3eae228e0436bf15e221954eef4746',1,'raptor.qh']]],
   ['rsm_5flast',['RSM_LAST',['../d4/da1/raptor_8qh.html#a67cfe678d0f7049b74c622c371cd0f64',1,'raptor.qh']]],
   ['rubble_2eqh',['rubble.qh',['../d0/de2/rubble_8qh.html',1,'']]],
-  ['rubble_5fh',['RUBBLE_H',['../d0/de2/rubble_8qh.html#a255905f1134e2bcb3813c9dd3ea46cce',1,'rubble.qh']]],
   ['run_5fall_5ftests',['RUN_ALL_TESTS',['../da/dc7/test_8qc.html#a38ec02a1e85890fafd3d82e28cf0f0ee',1,'RUN_ALL_TESTS():&#160;test.qc'],['../d4/d5b/test_8qh.html#a38ec02a1e85890fafd3d82e28cf0f0ee',1,'RUN_ALL_TESTS():&#160;test.qc']]],
   ['running_5fguns_2eqc',['running_guns.qc',['../d9/d3c/running__guns_8qc.html',1,'']]]
 ];

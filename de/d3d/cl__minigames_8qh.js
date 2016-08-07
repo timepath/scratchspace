@@ -1,6 +1,5 @@
 var cl__minigames_8qh =
 [
-    [ "CL_MINIGAMES_H", "de/d3d/cl__minigames_8qh.html#a84704e4701c69a3a700d577c7b1caeb1", null ],
     [ "FOREACH_MINIGAME_ENTITY", "de/d3d/cl__minigames_8qh.html#acb1eb2cf269d4b57f8d9a3350ef514f7", null ],
     [ "minigame_cmd", "de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0", null ],
     [ "minigame_hud_fitsqare", "de/d3d/cl__minigames_8qh.html#a7276ca5834cd946d0c493571cdb279e4", null ],

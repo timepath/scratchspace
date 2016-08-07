@@ -1,6 +1,5 @@
 var platforms_8qh =
 [
-    [ "PLATFORMS_H", "d0/d1a/platforms_8qh.html#adce17feff57f2dedeb6186c9aa0a4562", null ],
     [ "plat_center_touch", "d0/d1a/platforms_8qh.html#af1745ccc6ccfebfccc05a1bc9839b1f4", null ],
     [ "plat_crush", "d0/d1a/platforms_8qh.html#a6c6317fd5daed89f2a4fd761565a5714", null ],
     [ "plat_go_down", "d0/d1a/platforms_8qh.html#a9574d891d234463bb42d94f88607b988", null ],

@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('d4/d54/map_8qh_source.html','../../');
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="keywordtype">int</span> fh = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(filename, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a77d7a3d55152ac3ec644710da1e05b7d">FILE_WRITE</a>);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">if</span> (fh &lt; 0)</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;^1Can&#39;t write DB to %s\n&quot;</span>, filename);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a>(<span class="stringliteral">&quot;^1Can&#39;t write DB to %s\n&quot;</span>, filename);</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    }</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df">fputs</a>(fh, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../d4/d54/map_8qh.html#a86b85b0f5f2ae1b4d98314c75f14e1de">DB_BUCKETS</a>), <span class="stringliteral">&quot;\n&quot;</span>));</div>
@@ -226,7 +226,7 @@ $(document).ready(function(){initNavTree('d4/d54/map_8qh_source.html','../../');
 <div class="ttc" id="int_8qh_html"><div class="ttname"><a href="../../de/d0d/int_8qh.html">int.qh</a></div></div>
 <div class="ttc" id="map_8qh_html_ac9eefc4b70d421cb3e606c88900499d5"><div class="ttname"><a href="../../d4/d54/map_8qh.html#ac9eefc4b70d421cb3e606c88900499d5">db_load</a></div><div class="ttdeci">int db_load(string filename)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00031">map.qh:31</a></div></div>
 <div class="ttc" id="int_8qh_html_ab65936840a5b666cc6c87399e9b80802"><div class="ttname"><a href="../../de/d0d/int_8qh.html#ab65936840a5b666cc6c87399e9b80802">stoi</a></div><div class="ttdeci">#define stoi(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d0d/int_8qh_source.html#l00004">int.qh:4</a></div></div>
-<div class="ttc" id="log_8qh_html_afb0f2cb26657c7c79f0509c1bddfa7ce"><div class="ttname"><a href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a></div><div class="ttdeci">#define LOG_WARNINGF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00057">log.qh:57</a></div></div>
+<div class="ttc" id="log_8qh_html_a0a03b23b2bda32603235b3849e76e8e9"><div class="ttname"><a href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a></div><div class="ttdeci">#define LOG_WARNF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00057">log.qh:57</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a1a78b46b9db5c0d6fcee5be7697afa09"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09">fclose</a></div><div class="ttdeci">void fclose(float fhandle)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a9b88d1543a84de9785952d34dedb754c"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c">buf_create</a></div><div class="ttdeci">#define buf_create</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00063">dpextensions.qh:63</a></div></div>
@@ -251,7 +251,7 @@ $(document).ready(function(){initNavTree('d4/d54/map_8qh_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d4/d54/map_8qh.html">map.qh</a></li>
-    <li class="footer">Generated on Sun Aug 7 2016 10:22:36 for Xonotic by
+    <li class="footer">Generated on Sun Aug 7 2016 11:51:05 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

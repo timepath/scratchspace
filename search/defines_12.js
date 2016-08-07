@@ -2,7 +2,6 @@ var searchData=
 [
   ['race_5frecord',['RACE_RECORD',['../d5/df2/common_2util_8qh.html#ae9037dc83bdcfd223a3560fe1da7d345',1,'util.qh']]],
   ['radaricons_5ffrom',['RadarIcons_from',['../d9/dc6/common_2mutators_2mutator_2waypoints_2all_8qh.html#a40dcb143f36ec5266d8d271f3f43296c',1,'all.qh']]],
-  ['raptor_5fh',['RAPTOR_H',['../d4/da1/raptor_8qh.html#af08388847aed50c7f030589717ad4d67',1,'raptor.qh']]],
   ['read_5fbyte',['Read_byte',['../dd/d69/net_8qh.html#a47b6d4ca93431fbacadc241fa409ea8d',1,'net.qh']]],
   ['read_5ffloat',['Read_float',['../dd/d69/net_8qh.html#a0864f785d699a546374eb69ec29e69fd',1,'net.qh']]],
   ['read_5fint',['Read_int',['../dd/d69/net_8qh.html#ad661cd848d0c4cf8b93ab4f27f5bd329',1,'net.qh']]],
@@ -82,6 +81,5 @@ var searchData=
   ['round_5fhandler_5fcountdownrunning',['round_handler_CountdownRunning',['../db/d20/round__handler_8qh.html#af448ee5d5b9bb1bb462abc0bc0ae3b79',1,'round_handler.qh']]],
   ['round_5fhandler_5fgetendtime',['round_handler_GetEndTime',['../db/d20/round__handler_8qh.html#a3333ca7666a86449c9cce2487a77bd4f',1,'round_handler.qh']]],
   ['round_5fhandler_5fisactive',['round_handler_IsActive',['../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0',1,'round_handler.qh']]],
-  ['round_5fhandler_5fisroundstarted',['round_handler_IsRoundStarted',['../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2',1,'round_handler.qh']]],
-  ['rubble_5fh',['RUBBLE_H',['../d0/de2/rubble_8qh.html#a255905f1134e2bcb3813c9dd3ea46cce',1,'rubble.qh']]]
+  ['round_5fhandler_5fisroundstarted',['round_handler_IsRoundStarted',['../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2',1,'round_handler.qh']]]
 ];

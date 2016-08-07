@@ -268,8 +268,8 @@ $(document).ready(function(){initNavTree('dd/d69/net_8qh_source.html','../../');
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        }</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        g_buf_i--;</div>
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keywordtype">int</span> expected = <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(buf);</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">if</span> (g_buf_i &gt; expected) <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;Underflow: %d&quot;</span>, g_buf_i - expected);</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="keywordflow">if</span> (g_buf_i &lt; expected) <a class="code" href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a>(<span class="stringliteral">&quot;Overrflow: %d&quot;</span>, expected - g_buf_i);</div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">if</span> (g_buf_i &gt; expected) <a class="code" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a>(<span class="stringliteral">&quot;Underflow: %d&quot;</span>, g_buf_i - expected);</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;        <span class="keywordflow">if</span> (g_buf_i &lt; expected) <a class="code" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a>(<span class="stringliteral">&quot;Overrflow: %d&quot;</span>, expected - g_buf_i);</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    }</div>
 <div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;</div>
 <div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -511,7 +511,7 @@ $(document).ready(function(){initNavTree('dd/d69/net_8qh_source.html','../../');
 <div class="ttc" id="yenc_8qh_html_a99af444acc00b3c6c194d21b7150b1e7"><div class="ttname"><a href="../../df/d58/yenc_8qh.html#a99af444acc00b3c6c194d21b7150b1e7">ydec_single</a></div><div class="ttdeci">#define ydec_single(stringiter, ret)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d58/yenc_8qh_source.html#l00031">yenc.qh:31</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
 <div class="ttc" id="registry_8qh_html_a36b2225ea780a288a9b908c86d90e1e8"><div class="ttname"><a href="../../d2/d5e/registry_8qh.html#a36b2225ea780a288a9b908c86d90e1e8">REGISTRY_SORT</a></div><div class="ttdeci">#define REGISTRY_SORT(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d5e/registry_8qh_source.html#l00107">registry.qh:107</a></div></div>
-<div class="ttc" id="log_8qh_html_afb0f2cb26657c7c79f0509c1bddfa7ce"><div class="ttname"><a href="../../db/da0/log_8qh.html#afb0f2cb26657c7c79f0509c1bddfa7ce">LOG_WARNINGF</a></div><div class="ttdeci">#define LOG_WARNINGF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00057">log.qh:57</a></div></div>
+<div class="ttc" id="log_8qh_html_a0a03b23b2bda32603235b3849e76e8e9"><div class="ttname"><a href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a></div><div class="ttdeci">#define LOG_WARNF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00057">log.qh:57</a></div></div>
 <div class="ttc" id="sort_8qh_html"><div class="ttname"><a href="../../db/def/sort_8qh.html">sort.qh</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="log_8qh_html_a71b8a8e07b40d653781549b17a63409e"><div class="ttname"><a href="../../db/da0/log_8qh.html#a71b8a8e07b40d653781549b17a63409e">LOG_SEVEREF</a></div><div class="ttdeci">#define LOG_SEVEREF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00053">log.qh:53</a></div></div>
@@ -552,7 +552,7 @@ $(document).ready(function(){initNavTree('dd/d69/net_8qh_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dd/d69/net_8qh.html">net.qh</a></li>
-    <li class="footer">Generated on Sun Aug 7 2016 10:22:37 for Xonotic by
+    <li class="footer">Generated on Sun Aug 7 2016 11:51:05 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

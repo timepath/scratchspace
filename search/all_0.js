@@ -90,7 +90,7 @@ var searchData=
   ['_5flog_5finfo',['_LOG_INFO',['../db/da0/log_8qh.html#a3caa127144a5a0555ec67cbe5cc25157',1,'log.qh']]],
   ['_5flog_5fsevere',['_LOG_SEVERE',['../db/da0/log_8qh.html#a129f74b8c76f3d2309de5401b03e1740',1,'log.qh']]],
   ['_5flog_5ftrace',['_LOG_TRACE',['../db/da0/log_8qh.html#a3f7c14310ac3369c03bd59ce32c522dc',1,'log.qh']]],
-  ['_5flog_5fwarning',['_LOG_WARNING',['../db/da0/log_8qh.html#a6036708e95585a17b5728ccf076fecdd',1,'log.qh']]],
+  ['_5flog_5fwarn',['_LOG_WARN',['../db/da0/log_8qh.html#a4b98ae52cfbec41608b27ff0c8414495',1,'log.qh']]],
   ['_5fmapinfo_5fcache_5factive',['_MapInfo_Cache_Active',['../d3/d46/mapinfo_8qc.html#ab5c5929c7aa77b026c06a6665867a6ac',1,'mapinfo.qc']]],
   ['_5fmapinfo_5fcache_5fbuf_5findextomapdata',['_MapInfo_Cache_Buf_IndexToMapData',['../d3/d46/mapinfo_8qc.html#aa71618f0ec93770d5cdb60c5f7891704',1,'mapinfo.qc']]],
   ['_5fmapinfo_5fcache_5fdb_5fnametoindex',['_MapInfo_Cache_DB_NameToIndex',['../d3/d46/mapinfo_8qc.html#a2574a56df0c60d3dd7b90bbf2b91ec75',1,'mapinfo.qc']]],

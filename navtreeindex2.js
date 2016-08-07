@@ -1,7 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"d0/d41/menu_8qh.html#ad50eb18b35a97f59eaef032c0e1d3a3c":[2,0,5,16,29],
-"d0/d41/menu_8qh.html#af05e65b7ed2971dbb3d251e98ea078a2":[2,0,5,16,32],
 "d0/d41/menu_8qh.html#afe418d3958ee73c74bbc4c279e8b0609":[2,0,5,16,12],
 "d0/d41/menu_8qh_source.html":[2,0,5,16],
 "d0/d41/spawnpoints_8qc.html":[2,0,6,60],
@@ -245,9 +243,11 @@ var NAVTREEINDEX2 =
 "d0/d7c/dialog__settings__user__languagewarning_8qh.html":[2,0,5,4,153],
 "d0/d7c/dialog__settings__user__languagewarning_8qh_source.html":[2,0,5,4,153],
 "d0/d7f/bumblebee_8qh.html":[2,0,1,15,0,3],
-"d0/d7f/bumblebee_8qh.html#a2a30908b7090502e80cc5103f2a16c1d":[2,0,1,15,0,3,0],
 "d0/d7f/bumblebee_8qh_source.html":[2,0,1,15,0,3],
 "d0/d80/credits_8qc.html":[2,0,5,4,26],
 "d0/d80/credits_8qc.html#a0113c50ccba1bb75dca70b82f414c721":[2,0,5,4,26,8],
-"d0/d80/credits_8qc.html#a01541f5ea1f0a01f81e0d11971f9635a":[2,0,5,4,26,10]
+"d0/d80/credits_8qc.html#a01541f5ea1f0a01f81e0d11971f9635a":[2,0,5,4,26,10],
+"d0/d80/credits_8qc.html#a279b7db9bc19d4f54e6be6c5b3bdca7a":[2,0,5,4,26,13],
+"d0/d80/credits_8qc.html#a32480b87731fe49f3cbbdff15c597f7c":[2,0,5,4,26,3],
+"d0/d80/credits_8qc.html#a562b7ed176e0f1f11db809c27de0e9c7":[2,0,5,4,26,1]
 };

@@ -105,27 +105,24 @@ $(document).ready(function(){initNavTree('d9/dbd/turrets_2config_8qh_source.html
 <div class="title">config.qh</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d9/dbd/turrets_2config_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef TURRETS_CONFIG_H</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno"><a class="line" href="../../d9/dbd/turrets_2config_8qh.html#aecfde73c96bbaf3e37720b7029ec60c9">    2</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define TURRETS_CONFIG_H</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../de/d4a/turrets_2config_8qc.html#a686bcea74a2d69e1ca5ee58acd7158a9">Dump_Turret_Settings</a>();</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keywordtype">float</span> tur_config_file;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="keywordtype">float</span> tur_config_alsoprint;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> MAX_TUR_CONFIG = 256;</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keywordtype">float</span> TUR_CONFIG_COUNT;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="keywordtype">string</span> tur_config_queue[MAX_TUR_CONFIG];</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#define TUR_CONFIG_WRITETOFILE(a) { \</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">    fputs(tur_config_file, a); \</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">    if(tur_config_alsoprint) { LOG_INFO(a); } }</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif</span></div>
+<a href="../../d9/dbd/turrets_2config_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../de/d4a/turrets_2config_8qc.html#a686bcea74a2d69e1ca5ee58acd7158a9">Dump_Turret_Settings</a>();</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keywordtype">float</span> tur_config_file;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="keywordtype">float</span> tur_config_alsoprint;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="keyword">const</span> <span class="keywordtype">int</span> MAX_TUR_CONFIG = 256;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="keywordtype">float</span> TUR_CONFIG_COUNT;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="keywordtype">string</span> tur_config_queue[MAX_TUR_CONFIG];</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#define TUR_CONFIG_WRITETOFILE(a) { \</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">    fputs(tur_config_file, a); \</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">    if(tur_config_alsoprint) { LOG_INFO(a); } }</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="turrets_2config_8qc_html_a686bcea74a2d69e1ca5ee58acd7158a9"><div class="ttname"><a href="../../de/d4a/turrets_2config_8qc.html#a686bcea74a2d69e1ca5ee58acd7158a9">Dump_Turret_Settings</a></div><div class="ttdeci">void Dump_Turret_Settings()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4a/turrets_2config_8qc_source.html#l00028">config.qc:28</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -133,7 +130,7 @@ $(document).ready(function(){initNavTree('d9/dbd/turrets_2config_8qh_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../d9/dbd/turrets_2config_8qh.html">config.qh</a></li>
-    <li class="footer">Generated on Sun Aug 7 2016 10:22:36 for Xonotic by
+    <li class="footer">Generated on Sun Aug 7 2016 11:51:05 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

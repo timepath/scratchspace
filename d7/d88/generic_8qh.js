@@ -2,7 +2,6 @@ var generic_8qh =
 [
     [ "CMD_Write", "d7/d88/generic_8qh.html#af0eb97f601abbc0ce58b80fdeb8b14cf", null ],
     [ "CMD_Write_Alias", "d7/d88/generic_8qh.html#a44c76290bfaf0ae7ebacd68341676cdd", null ],
-    [ "COMMAND_GENERIC_H", "d7/d88/generic_8qh.html#a32254f041d851f254faaa604ab2682a4", null ],
     [ "Curl_URI_Get_Callback", "d7/d88/generic_8qh.html#a802e2fce290ef7ee78e2c5272017a500", null ],
     [ "GenericCommand", "d7/d88/generic_8qh.html#afc2258d0a6214950261d6dc3d0e4ad06", null ],
     [ "GenericCommand_macro_command", "d7/d88/generic_8qh.html#a4f11464afe3db58f51d8198dd57a703f", null ],

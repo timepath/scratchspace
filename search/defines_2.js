@@ -29,6 +29,5 @@ var searchData=
   ['buff_5fspawnfuncs',['BUFF_SPAWNFUNCS',['../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3',1,'all.qh']]],
   ['buffs_5fall_5fh',['BUFFS_ALL_H',['../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a880b0fdd8b412a192b746d44bb00841d',1,'all.qh']]],
   ['buffs_5ffrom',['Buffs_from',['../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a973bc70bb709b2a072ba5f1132c9c5e0',1,'all.qh']]],
-  ['buffs_5fstat',['BUFFS_STAT',['../df/dae/player_8qh.html#a6f91fe72ae285d61537e8d41d600c127',1,'player.qh']]],
-  ['bumblebee_5fh',['BUMBLEBEE_H',['../d0/d7f/bumblebee_8qh.html#a2a30908b7090502e80cc5103f2a16c1d',1,'bumblebee.qh']]]
+  ['buffs_5fstat',['BUFFS_STAT',['../df/dae/player_8qh.html#a6f91fe72ae285d61537e8d41d600c127',1,'player.qh']]]
 ];

@@ -1,6 +1,5 @@
 var globalsound_8qh =
 [
-    [ "GLOBALSOUND_H", "df/d6e/globalsound_8qh.html#a8ae2622788e04675b7cd21bb0583d679", null ],
     [ "GlobalSounds_from", "df/d6e/globalsound_8qh.html#a5fb0865b819461b71d03295bc3e263c0", null ],
     [ "PlayerSounds_from", "df/d6e/globalsound_8qh.html#a1f8a6acaa0307f5e57ea172ca84b785a", null ],
     [ "REGISTER_GLOBALSOUND", "df/d6e/globalsound_8qh.html#a517599a91541c3857c18c659742f96af", null ],
