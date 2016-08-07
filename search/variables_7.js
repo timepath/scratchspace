@@ -82,7 +82,7 @@ var searchData=
   ['gameover',['gameover',['../d5/d26/server_2defs_8qh.html#a3ba73e1a51134c9d261efef0d3e07723',1,'defs.qh']]],
   ['gamestart_5fsv_5fcheats',['gamestart_sv_cheats',['../d6/de9/cheats_8qc.html#ae9d36814925a74febb4ea1d621c300a5',1,'cheats.qc']]],
   ['gamestatus',['gamestatus',['../d0/d41/menu_8qh.html#ab0b9556c1dc022e3830284c4c1725582',1,'menu.qh']]],
-  ['gametype',['gametype',['../d0/d2a/client_2main_8qh.html#a6b01d68b86a91c9201ba7088b284f43f',1,'gametype():&#160;main.qh'],['../d1/d91/t__quake3_8qc.html#a2b5940622e65c2f4e246f117173ec146',1,'gametype():&#160;t_quake3.qc']]],
+  ['gametype',['gametype',['../d0/d2a/client_2main_8qh.html#a796761bb60e941804441ef425b24d86c',1,'gametype():&#160;main.qh'],['../d1/d91/t__quake3_8qc.html#a2b5940622e65c2f4e246f117173ec146',1,'gametype():&#160;t_quake3.qc']]],
   ['gametype_5fdescription',['gametype_description',['../d1/d6b/classGametype.html#a06a80d0cfc8f2242a83dba5a200ab453',1,'Gametype']]],
   ['gametypefilter',['gametypefilter',['../d3/d4f/sv__main_8qc.html#a3091fb79d4fcf740c1042eb85822efe2',1,'sv_main.qc']]],
   ['gametypevote',['gametypevote',['../d4/d0d/client_2mapvoting_8qc.html#af7c6ecec79249608330dcc9872b1fdbd',1,'gametypevote():&#160;mapvoting.qc'],['../d3/d53/server_2mapvoting_8qh.html#af7c6ecec79249608330dcc9872b1fdbd',1,'gametypevote():&#160;mapvoting.qh']]],

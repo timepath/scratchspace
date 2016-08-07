@@ -572,7 +572,6 @@ var searchData=
   ['complain_5fweapon_5ftype',['complain_weapon_type',['../d3/d05/hud_8qh.html#a2bdb63339c09a4badd45dadf8e00ff07',1,'hud.qh']]],
   ['component',['COMPONENT',['../dc/dba/__lib_8qh.html#ac7b148be2b822d48094ff4d4f4039de6',1,'COMPONENT():&#160;_lib.qh'],['../d5/da2/components_2input_8qh.html#a476b6e4b0565eff51dfe2cc36575275e',1,'COMPONENT(in):&#160;input.qh'],['../dd/d59/ecs_2components_2physics_8qh.html#abca635cd315860e52c30b0e81fda3652',1,'COMPONENT(phys):&#160;physics.qh']]],
   ['compressshortvector',['compressShortVector',['../da/d44/common_2util_8qc.html#a203e7643d1362e5a90883ab7d31b9892',1,'compressShortVector(vector vec):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#a203e7643d1362e5a90883ab7d31b9892',1,'compressShortVector(vector vec):&#160;util.qc']]],
-  ['compressshortvector_5finit',['compressShortVector_init',['../da/d44/common_2util_8qc.html#aba1ed9cc7b8faa302f1b88bd977dafe7',1,'compressShortVector_init():&#160;util.qc'],['../d5/df2/common_2util_8qh.html#aba1ed9cc7b8faa302f1b88bd977dafe7',1,'compressShortVector_init():&#160;util.qc']]],
   ['compressshotorigin',['compressShotOrigin',['../da/d44/common_2util_8qc.html#a77d276d801f4e93f46fefac297900ea7',1,'compressShotOrigin(vector v):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#a77d276d801f4e93f46fefac297900ea7',1,'compressShotOrigin(vector v):&#160;util.qc']]],
   ['condensefactor',['condenseFactor',['../d3/d1b/classLabel.html#a566e9a0ddc6c84014a671a939f8d35fd',1,'Label']]],
   ['config_2eqc',['config.qc',['../de/d4a/turrets_2config_8qc.html',1,'']]],

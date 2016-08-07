@@ -181,7 +181,7 @@ $(document).ready(function(){initNavTree('d6/d03/server_2mutators_2all_8qc_sourc
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/d63/server_2mutators_2all_8qh.html">all.qh</a>&quot;</span></div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;</div>
 <div class="line"><a name="l00076"></a><span class="lineno"><a class="line" href="../../d6/d03/server_2mutators_2all_8qc.html#a4a1b2c67efe3e51722db4bc1edde07ef">   76</a></span>&#160;<a class="code" href="../../d6/d03/server_2mutators_2all_8qc.html#a4a1b2c67efe3e51722db4bc1edde07ef">STATIC_INIT_LATE</a>(<a class="code" href="../../d1/d6b/classGametype.html">Gametype</a>) {</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="../../d1/d6b/classGametype.html">Gametype</a> g = <a class="code" href="../../d3/d46/mapinfo_8qc.html#a5b0d0801a2b5ccc42d4ca786a115c948">MapInfo_Type</a>(<a class="code" href="../../d3/d46/mapinfo_8qc.html#a52c2a072a4bb9586ee6efd008defdc3d">MapInfo_CurrentGametype</a>());</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <a class="code" href="../../d1/d6b/classGametype.html">Gametype</a> g = <a class="code" href="../../d3/d46/mapinfo_8qc.html#a799a2e72317c8785c4b259a1c568548e">MapInfo_CurrentGametype</a>();</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    <span class="keywordflow">if</span> (g) {</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">string</span> _s = g.<a class="code" href="../../d1/d6b/classGametype.html#a0ffadef8b6b557baf00f1df17b4f2294">m_mutators</a>; _s != <span class="stringliteral">&quot;&quot;</span>; _s = <a class="code" href="../../d2/db4/string_8qh.html#a20e463732b6df287bf0a3108a223fe06">cdr</a>(_s)) {</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            <span class="keywordtype">string</span> s = <a class="code" href="../../d2/db4/string_8qh.html#a766f4b81552e758f7ca3655399355c07">car</a>(_s);</div>
@@ -213,16 +213,15 @@ $(document).ready(function(){initNavTree('d6/d03/server_2mutators_2all_8qc_sourc
 <div class="ttc" id="csqcmodel__settings_8qh_html"><div class="ttname"><a href="../../d1/d20/csqcmodel__settings_8qh.html">csqcmodel_settings.qh</a></div></div>
 <div class="ttc" id="common_2stats_8qh_html"><div class="ttname"><a href="../../d7/d5c/common_2stats_8qh.html">stats.qh</a></div></div>
 <div class="ttc" id="common_2command_2command_8qh_html"><div class="ttname"><a href="../../d9/da1/common_2command_2command_8qh.html">command.qh</a></div></div>
+<div class="ttc" id="mapinfo_8qc_html_a799a2e72317c8785c4b259a1c568548e"><div class="ttname"><a href="../../d3/d46/mapinfo_8qc.html#a799a2e72317c8785c4b259a1c568548e">MapInfo_CurrentGametype</a></div><div class="ttdeci">Gametype MapInfo_CurrentGametype()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d46/mapinfo_8qc_source.html#l01228">mapinfo.qc:1228</a></div></div>
 <div class="ttc" id="common_2util_8qh_html"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html">util.qh</a></div></div>
 <div class="ttc" id="sv__monsters_8qh_html"><div class="ttname"><a href="../../d8/dc1/sv__monsters_8qh.html">sv_monsters.qh</a></div></div>
 <div class="ttc" id="weapons_2config_8qh_html"><div class="ttname"><a href="../../d2/d3b/weapons_2config_8qh.html">config.qh</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html">mapinfo.qh</a></div></div>
 <div class="ttc" id="string_8qh_html_a20e463732b6df287bf0a3108a223fe06"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a20e463732b6df287bf0a3108a223fe06">cdr</a></div><div class="ttdeci">string cdr(string s)</div><div class="ttdoc">returns all but first word </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00138">string.qh:138</a></div></div>
 <div class="ttc" id="lib_2csqcmodel_2common_8qh_html"><div class="ttname"><a href="../../d5/df7/lib_2csqcmodel_2common_8qh.html">common.qh</a></div></div>
-<div class="ttc" id="mapinfo_8qc_html_a5b0d0801a2b5ccc42d4ca786a115c948"><div class="ttname"><a href="../../d3/d46/mapinfo_8qc.html#a5b0d0801a2b5ccc42d4ca786a115c948">MapInfo_Type</a></div><div class="ttdeci">Gametype MapInfo_Type(int t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d46/mapinfo_8qc_source.html#l00686">mapinfo.qc:686</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html">constants.qh</a></div></div>
 <div class="ttc" id="sv__turrets_8qh_html"><div class="ttname"><a href="../../df/d28/sv__turrets_8qh.html">sv_turrets.qh</a></div></div>
-<div class="ttc" id="mapinfo_8qc_html_a52c2a072a4bb9586ee6efd008defdc3d"><div class="ttname"><a href="../../d3/d46/mapinfo_8qc.html#a52c2a072a4bb9586ee6efd008defdc3d">MapInfo_CurrentGametype</a></div><div class="ttdeci">int MapInfo_CurrentGametype()</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d46/mapinfo_8qc_source.html#l01236">mapinfo.qc:1236</a></div></div>
 <div class="ttc" id="common_2notifications_2all_8qh_html"><div class="ttname"><a href="../../dc/de5/common_2notifications_2all_8qh.html">all.qh</a></div></div>
 <div class="ttc" id="teams_8qh_html"><div class="ttname"><a href="../../db/d07/teams_8qh.html">teams.qh</a></div></div>
 <div class="ttc" id="net__notice_8qh_html"><div class="ttname"><a href="../../dd/da3/net__notice_8qh.html">net_notice.qh</a></div></div>
@@ -241,7 +240,7 @@ $(document).ready(function(){initNavTree('d6/d03/server_2mutators_2all_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/d03/server_2mutators_2all_8qc.html">all.qc</a></li>
-    <li class="footer">Generated on Sun Aug 7 2016 05:25:18 for Xonotic by
+    <li class="footer">Generated on Sun Aug 7 2016 09:44:59 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

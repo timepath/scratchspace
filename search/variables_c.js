@@ -69,7 +69,7 @@ var searchData=
   ['lastfeatures',['lastFeatures',['../d3/d86/classXonoticMapList.html#a92887eafe2a3b490c42ed78749554fe9',1,'XonoticMapList']]],
   ['lastfiredweapon',['lastfiredweapon',['../d8/d39/havocbot_8qh.html#a396af7f920857814ff544952f4482e04',1,'havocbot.qh']]],
   ['lastflags',['lastflags',['../df/dae/player_8qh.html#a1334a71146999f9285f3d037c7f9a404',1,'player.qh']]],
-  ['lastgametype',['lastGametype',['../d3/d86/classXonoticMapList.html#afa93562a6d5a45e9438b6ad6e93767d1',1,'XonoticMapList']]],
+  ['lastgametype',['lastGametype',['../d3/d86/classXonoticMapList.html#a2e93d9b7b80f44e96bc3e98805719c81',1,'XonoticMapList']]],
   ['lastground',['lastground',['../df/dae/player_8qh.html#ab803f80764072efe357d4f09fa570bd9',1,'lastground():&#160;player.qh'],['../d3/d62/gamemode_8qh.html#ab803f80764072efe357d4f09fa570bd9',1,'lastground():&#160;gamemode.qh'],['../d3/d4f/sv__main_8qc.html#ab803f80764072efe357d4f09fa570bd9',1,'lastground():&#160;sv_main.qc']]],
   ['lasthud',['lasthud',['../d6/dd3/view_8qc.html#a6e4d296c1be24ece0c9f31af036cea71',1,'view.qc']]],
   ['lastposition',['lastposition',['../d1/d9a/navigation_8qc.html#a8d6a0f0ac45f6a0962897835e79bd533',1,'navigation.qc']]],

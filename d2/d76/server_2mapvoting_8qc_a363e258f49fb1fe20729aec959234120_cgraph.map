@@ -1,49 +1,40 @@
 <map id="GameTypeVote_AddVotable" name="GameTypeVote_AddVotable">
-<area shape="rect" id="node2" href="$d2/d76/server_2mapvoting_8qc.html#a9a22f1960db9109b9401b645a25995bc" title="GameTypeVote_Availability\lStatus" alt="" coords="241,107,423,148"/>
-<area shape="rect" id="node47" href="$d2/d76/server_2mapvoting_8qc.html#a5975fb6a0f157c1c88a012afaa691e98" title="Returns the gamtype ID from its name, if type_name isn&#39;t a real gametype it checks for sv_vote_gamety..." alt="" coords="675,56,895,82"/>
-<area shape="rect" id="node48" href="$d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db" title="strzone" alt="" coords="299,173,365,200"/>
-<area shape="rect" id="node3" href="$d3/d46/mapinfo_8qc.html#aad3b4f68fa5e399723f816c437136dad" title="MapInfo_Type_FromString" alt="" coords="968,56,1144,82"/>
-<area shape="rect" id="node4" href="$d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a" title="cvar_string" alt="" coords="1254,56,1341,82"/>
-<area shape="rect" id="node5" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="1270,740,1325,766"/>
-<area shape="rect" id="node6" href="$d3/d46/mapinfo_8qc.html#a7fca0108ab929491063fbd26c86dbd6f" title="MapInfo_Get_ByName" alt="" coords="472,410,627,437"/>
-<area shape="rect" id="node7" href="$d3/d46/mapinfo_8qc.html#a4bf8e96219e7fccdf9006f4d5fbe0d1e" title="MapInfo_Get_ByName\l_NoFallbacks" alt="" coords="708,906,863,947"/>
-<area shape="rect" id="node34" href="$d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488" title="cvar" alt="" coords="1274,537,1321,564"/>
-<area shape="rect" id="node38" href="$d3/d46/mapinfo_8qc.html#a68300db7d97bc431f5774e80ac5adcc6" title="_MapInfo_Map_ApplyGametypeEx" alt="" coords="944,385,1168,412"/>
-<area shape="rect" id="node8" href="$d3/d46/mapinfo_8qc.html#aa9ca9ac0e216e46f3ce3426b584a7c60" title="MapInfo_Cache_Retrieve" alt="" coords="971,2108,1141,2134"/>
-<area shape="rect" id="node10" href="$d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a" title="stof" alt="" coords="1275,2006,1319,2033"/>
-<area shape="rect" id="node11" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="1270,1753,1325,1780"/>
-<area shape="rect" id="node12" href="$d3/d46/mapinfo_8qc.html#af88daf7b5e44f0eb2017e760e06848ad" title="_MapInfo_Map_Reset" alt="" coords="981,537,1131,564"/>
-<area shape="rect" id="node13" href="$d3/d46/mapinfo_8qc.html#a6718c6cd677f3f70d71fe5079e86ade9" title="_MapInfo_Generate" alt="" coords="988,1474,1124,1501"/>
-<area shape="rect" id="node14" href="$d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78" title="fgets" alt="" coords="1272,1246,1323,1273"/>
-<area shape="rect" id="node16" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="1589,1525,1643,1552"/>
-<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="1579,917,1653,944"/>
-<area shape="rect" id="node18" href="$d2/db4/string_8qh.html#a766f4b81552e758f7ca3655399355c07" title="returns first word " alt="" coords="1459,790,1499,817"/>
-<area shape="rect" id="node19" href="$d2/db4/string_8qh.html#a20e463732b6df287bf0a3108a223fe06" title="returns all but first word " alt="" coords="1459,1044,1499,1070"/>
-<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="1275,1905,1319,1932"/>
-<area shape="rect" id="node26" href="$d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09" title="fclose" alt="" coords="1269,1804,1326,1830"/>
-<area shape="rect" id="node27" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="1031,588,1081,614"/>
-<area shape="rect" id="node28" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1033,638,1079,665"/>
-<area shape="rect" id="node29" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="1023,841,1089,868"/>
-<area shape="rect" id="node30" href="$d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78" title="argv" alt="" coords="1033,892,1079,918"/>
-<area shape="rect" id="node31" href="$d3/d46/mapinfo_8qc.html#a2e14ca300b05c38e142969284e000b8f" title="MapInfo_Type_ToString" alt="" coords="1217,233,1378,260"/>
-<area shape="rect" id="node32" href="$d3/d46/mapinfo_8qc.html#a70228e0dbbf11fdb038ceeaa97ef95d9" title="_MapInfo_GetDefaultEx" alt="" coords="1216,486,1379,513"/>
-<area shape="rect" id="node33" href="$d5/df2/common_2util_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff" title="fexists" alt="" coords="1025,1753,1087,1780"/>
-<area shape="rect" id="node35" href="$d3/d46/mapinfo_8qc.html#a6408b61e1787a146de1419ab4b87b742" title="_MapInfo_Map_ApplyGametype" alt="" coords="952,740,1160,766"/>
-<area shape="rect" id="node40" href="$d3/d46/mapinfo_8qc.html#a11cccf2aa8a2cd574781fcd4193fb1d0" title="_MapInfo_Parse_Settemp" alt="" coords="969,1044,1143,1070"/>
-<area shape="rect" id="node41" href="$d5/df2/common_2util_8qh.html#a0304bd2b494c1405dc2a4971dcbc480c" title="cvar_value_issafe" alt="" coords="1234,1854,1361,1881"/>
-<area shape="rect" id="node44" href="$d3/d46/mapinfo_8qc.html#a19fa8a681ff6d9d11aed982b211fc26a" title="MapInfo_isRedundant" alt="" coords="981,1525,1131,1552"/>
-<area shape="rect" id="node45" href="$d3/d46/mapinfo_8qc.html#a7d438f7d5d7ddae6e68365b0cb30ae9a" title="MapInfo_Cache_Store" alt="" coords="980,2057,1132,2084"/>
-<area shape="rect" id="node9" href="$d5/df2/common_2util_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b" title="db_get" alt="" coords="1267,2108,1328,2134"/>
-<area shape="rect" id="node15" href="$d3/d46/mapinfo_8qc.html#a909ab91933ee8b125ca839d26c3116d2" title="unquote" alt="" coords="1445,1525,1513,1552"/>
-<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f" title="stov" alt="" coords="1274,1500,1321,1526"/>
-<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df" title="min" alt="" coords="1276,1550,1319,1577"/>
-<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="1274,1398,1321,1425"/>
-<area shape="rect" id="node23" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="1274,1449,1321,1476"/>
-<area shape="rect" id="node24" href="$d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd" title="LOG_TRACE" alt="" coords="1427,1196,1530,1222"/>
-<area shape="rect" id="node36" href="$d3/d46/mapinfo_8qc.html#a3c14bc600611e2cbcda7a1dd41fd8894" title="_MapInfo_GetDefault" alt="" coords="1224,689,1371,716"/>
-<area shape="rect" id="node37" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="1261,588,1333,614"/>
-<area shape="rect" id="node39" href="$d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8" title="cvar_defstring" alt="" coords="1245,334,1349,361"/>
-<area shape="rect" id="node42" href="$da/d44/common_2util_8qc.html#a46c92afa65e4bfbf80594927f615bd86" title="matchacl" alt="" coords="1260,942,1335,969"/>
-<area shape="rect" id="node43" href="$da/d44/common_2util_8qc.html#ac77daa35318f74748eb10eda07e7dd49" title="cvar_settemp" alt="" coords="1247,1196,1348,1222"/>
-<area shape="rect" id="node46" href="$d5/df2/common_2util_8qh.html#ae5419c646d89ed2845be766723b0cb6f" title="db_put" alt="" coords="1267,2057,1328,2084"/>
+<area shape="rect" id="node2" href="$d2/d76/server_2mapvoting_8qc.html#a9a22f1960db9109b9401b645a25995bc" title="GameTypeVote_Availability\lStatus" alt="" coords="259,1163,442,1205"/>
+<area shape="rect" id="node38" href="$d2/d76/server_2mapvoting_8qc.html#a97fb409a53c174303f0b37ce776e6e0a" title="Returns the gamtype ID from its name, if type_name isn&#39;t a real gametype it checks for sv_vote_gamety..." alt="" coords="241,1251,461,1277"/>
+<area shape="rect" id="node39" href="$d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db" title="strzone" alt="" coords="318,1301,383,1328"/>
+<area shape="rect" id="node3" href="$d3/d46/mapinfo_8qc.html#a7323b63f0d7fb28a98629b5a71a55d47" title="MapInfo_Type_FromString" alt="" coords="509,1221,685,1248"/>
+<area shape="rect" id="node4" href="$d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a" title="cvar_string" alt="" coords="1047,1221,1134,1248"/>
+<area shape="rect" id="node5" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="1249,1019,1303,1045"/>
+<area shape="rect" id="node6" href="$d3/d46/mapinfo_8qc.html#a9cc35822d7092a68a55f423e099d1f4d" title="MapInfo_Get_ByName" alt="" coords="520,461,675,488"/>
+<area shape="rect" id="node7" href="$d3/d46/mapinfo_8qc.html#af0e17d22af224e2485dc3cfd98d9c1b8" title="MapInfo_Get_ByName\l_NoFallbacks" alt="" coords="768,682,923,723"/>
+<area shape="rect" id="node34" href="$d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488" title="cvar" alt="" coords="1067,5,1114,32"/>
+<area shape="rect" id="node35" href="$d3/d46/mapinfo_8qc.html#a228aae99dca217947bfb85d518097f4c" title="_MapInfo_Map_ApplyGametypeEx" alt="" coords="733,233,957,260"/>
+<area shape="rect" id="node8" href="$d3/d46/mapinfo_8qc.html#aa9ca9ac0e216e46f3ce3426b584a7c60" title="MapInfo_Cache_Retrieve" alt="" coords="1005,917,1176,944"/>
+<area shape="rect" id="node11" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="1249,765,1303,792"/>
+<area shape="rect" id="node12" href="$d3/d46/mapinfo_8qc.html#af88daf7b5e44f0eb2017e760e06848ad" title="_MapInfo_Map_Reset" alt="" coords="1015,1069,1166,1096"/>
+<area shape="rect" id="node13" href="$d3/d46/mapinfo_8qc.html#a6718c6cd677f3f70d71fe5079e86ade9" title="_MapInfo_Generate" alt="" coords="1023,461,1159,488"/>
+<area shape="rect" id="node16" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="1386,487,1441,513"/>
+<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="1376,183,1451,209"/>
+<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="1254,715,1298,741"/>
+<area shape="rect" id="node26" href="$d8/de2/menudefs_8qc.html#a1a78b46b9db5c0d6fcee5be7697afa09" title="fclose" alt="" coords="1247,816,1305,843"/>
+<area shape="rect" id="node27" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="1065,563,1116,589"/>
+<area shape="rect" id="node28" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1067,613,1114,640"/>
+<area shape="rect" id="node29" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="1058,664,1123,691"/>
+<area shape="rect" id="node30" href="$d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78" title="argv" alt="" coords="1067,715,1114,741"/>
+<area shape="rect" id="node31" href="$d3/d46/mapinfo_8qc.html#a3f161ef2731e7a99667785631c18ae4b" title="MapInfo_Type_ToString" alt="" coords="1010,309,1171,336"/>
+<area shape="rect" id="node32" href="$d3/d46/mapinfo_8qc.html#a88aceb7375d732871e33861c7efd281c" title="_MapInfo_GetDefaultEx" alt="" coords="1009,360,1172,387"/>
+<area shape="rect" id="node33" href="$d5/df2/common_2util_8qh.html#a3dbce76248787cf57ad2ba8c8b4d1aff" title="fexists" alt="" coords="1060,816,1121,843"/>
+<area shape="rect" id="node9" href="$d5/df2/common_2util_8qh.html#a670fd3f9a229fc1532145c01a4d2b15b" title="db_get" alt="" coords="1245,917,1307,944"/>
+<area shape="rect" id="node10" href="$d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a" title="stof" alt="" coords="1254,867,1298,893"/>
+<area shape="rect" id="node14" href="$d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78" title="fgets" alt="" coords="1251,613,1301,640"/>
+<area shape="rect" id="node15" href="$d3/d46/mapinfo_8qc.html#a909ab91933ee8b125ca839d26c3116d2" title="unquote" alt="" coords="1242,309,1310,336"/>
+<area shape="rect" id="node18" href="$d2/db4/string_8qh.html#a766f4b81552e758f7ca3655399355c07" title="returns first word " alt="" coords="1256,107,1296,133"/>
+<area shape="rect" id="node19" href="$d2/db4/string_8qh.html#a20e463732b6df287bf0a3108a223fe06" title="returns all but first word " alt="" coords="1256,259,1296,285"/>
+<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#a65fcee980f5a018b481188a84ead405f" title="stov" alt="" coords="1253,360,1299,387"/>
+<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df" title="min" alt="" coords="1255,411,1297,437"/>
+<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="1253,461,1299,488"/>
+<area shape="rect" id="node23" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="1253,512,1299,539"/>
+<area shape="rect" id="node24" href="$d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd" title="LOG_TRACE" alt="" coords="1225,563,1327,589"/>
+<area shape="rect" id="node36" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="1055,157,1127,184"/>
+<area shape="rect" id="node37" href="$d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8" title="cvar_defstring" alt="" coords="1039,208,1143,235"/>
 </map>

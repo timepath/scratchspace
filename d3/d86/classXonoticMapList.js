@@ -68,7 +68,7 @@ var classXonoticMapList =
     [ "lastClickedItem", "d3/d86/classXonoticMapList.html#a18456fc3d44b3528c7595c73f42a8acc", null ],
     [ "lastClickedTime", "d3/d86/classXonoticMapList.html#ac7bb2899505cda435bebb004940f97a4", null ],
     [ "lastFeatures", "d3/d86/classXonoticMapList.html#a92887eafe2a3b490c42ed78749554fe9", null ],
-    [ "lastGametype", "d3/d86/classXonoticMapList.html#afa93562a6d5a45e9438b6ad6e93767d1", null ],
+    [ "lastGametype", "d3/d86/classXonoticMapList.html#a2e93d9b7b80f44e96bc3e98805719c81", null ],
     [ "mouseMoveOffset", "d3/d86/classXonoticMapList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea", null ],
     [ "needScrollToItem", "d3/d86/classXonoticMapList.html#a825196c0b9ebd9d5f045961ae7852921", null ],
     [ "nItems", "d3/d86/classXonoticMapList.html#ac43fc57c675f684f20b2ef93556109d2", null ],

@@ -39,7 +39,7 @@ var client_2main_8qh =
     [ "g_radaricons", "d0/d2a/client_2main_8qh.html#a8fc29337858d2211c4eb14675f08994f", null ],
     [ "g_radarlinks", "d0/d2a/client_2main_8qh.html#a8f9b7f72557a124c4bdacb09cadec22b", null ],
     [ "g_trueaim_minrange", "d0/d2a/client_2main_8qh.html#a03cabea65bbb5dff4c8ffa4657e18a46", null ],
-    [ "gametype", "d0/d2a/client_2main_8qh.html#a6b01d68b86a91c9201ba7088b284f43f", null ],
+    [ "gametype", "d0/d2a/client_2main_8qh.html#a796761bb60e941804441ef425b24d86c", null ],
     [ "gotscores", "d0/d2a/client_2main_8qh.html#a9992832874454ccdbd566d5a84017df3", null ],
     [ "grecordholder", "d0/d2a/client_2main_8qh.html#a73ebcacb07f95089fb8a7e440c8cdfc1", null ],
     [ "grecordtime", "d0/d2a/client_2main_8qh.html#a208eb700ebf0004c052acb8dfb602deb", null ],

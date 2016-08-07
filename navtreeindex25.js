@@ -1,5 +1,6 @@
 var NAVTREEINDEX25 =
 {
+"d3/d83/classXonoticHUDHealthArmorDialog.html#aea92e346f334a6cf1ba7ad7048e7c33d":[1,0,164,13],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,164,60],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#af1aab403dc54575707fd57991312b201":[1,0,164,36],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,164,16],
@@ -31,6 +32,7 @@ var NAVTREEINDEX25 =
 "d3/d86/classXonoticMapList.html#a2c2c3e58568da402d6d5dad7ff758181":[1,0,188,42],
 "d3/d86/classXonoticMapList.html#a2c3a7ab0bbe89f31c3510b0ce5b292cb":[1,0,188,52],
 "d3/d86/classXonoticMapList.html#a2ceabdc0e34586372447c3a3913fe4bf":[1,0,188,95],
+"d3/d86/classXonoticMapList.html#a2e93d9b7b80f44e96bc3e98805719c81":[1,0,188,68],
 "d3/d86/classXonoticMapList.html#a319082d05f1c9ac87a108b226216d222":[1,0,188,49],
 "d3/d86/classXonoticMapList.html#a346d3fd09bc071dc7877bd8506aa103c":[1,0,188,28],
 "d3/d86/classXonoticMapList.html#a405b285a76ac127664593c89281a5b63":[1,0,188,55],
@@ -108,7 +110,6 @@ var NAVTREEINDEX25 =
 "d3/d86/classXonoticMapList.html#af5e4b27e1621cf3e742b7c683df68b70":[1,0,188,89],
 "d3/d86/classXonoticMapList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,188,32],
 "d3/d86/classXonoticMapList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,188,22],
-"d3/d86/classXonoticMapList.html#afa93562a6d5a45e9438b6ad6e93767d1":[1,0,188,68],
 "d3/d8b/common_2triggers_2trigger_2__mod_8inc.html":[2,0,1,13,3,0],
 "d3/d8b/common_2triggers_2trigger_2__mod_8inc_source.html":[2,0,1,13,3,0],
 "d3/d92/roles_8qh.html":[2,0,6,0,0,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX25 =
 "d3/dab/player__skeleton_8qc.html#a7510df630df322df48a246e7d6a71826":[2,0,0,22,8],
 "d3/dab/player__skeleton_8qc.html#a7c80ef0cb8dccd72a620b9804160551f":[2,0,0,22,7],
 "d3/dab/player__skeleton_8qc.html#a7fe1291d377b2605a93fc789d164c073":[2,0,0,22,2],
-"d3/dab/player__skeleton_8qc.html#a9bd774b8fe11972d76dc2036e9d4af1f":[2,0,0,22,3],
-"d3/dab/player__skeleton_8qc.html#ae30bcd640df03cd117eb6491db7bf50b":[2,0,0,22,6]
+"d3/dab/player__skeleton_8qc.html#a9bd774b8fe11972d76dc2036e9d4af1f":[2,0,0,22,3]
 };
