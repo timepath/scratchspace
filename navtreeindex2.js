@@ -1,7 +1,7 @@
 var NAVTREEINDEX2 =
 {
-"d0/d41/menu_8qh.html#afe418d3958ee73c74bbc4c279e8b0609":[2,0,5,16,12],
-"d0/d41/menu_8qh_source.html":[2,0,5,16],
+"d0/d41/menu_8qh.html#afe418d3958ee73c74bbc4c279e8b0609":[2,0,5,17,12],
+"d0/d41/menu_8qh_source.html":[2,0,5,17],
 "d0/d41/spawnpoints_8qc.html":[2,0,6,60],
 "d0/d41/spawnpoints_8qc.html#a05516b4d7d5dd71f11c6dfc8ce8c4b9e":[2,0,6,60,7],
 "d0/d41/spawnpoints_8qc.html#a096b1f0cea2bbec0f0786ec43da82e1c":[2,0,6,60,8],

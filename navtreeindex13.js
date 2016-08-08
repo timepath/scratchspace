@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a880b0fdd8b412a192b746d44bb00841d":[2,0,1,9,0,2,4,4],
+"d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a973bc70bb709b2a072ba5f1132c9c5e0":[2,0,1,9,0,2,4,5],
 "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a9997ae86c804cc3f269fd9e5e897085f":[2,0,1,9,0,2,4,2],
 "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a9ee2e76ff0775c133acd38e490bf692b":[2,0,1,9,0,2,4,6],
 "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3":[2,0,1,9,0,2,4,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "d2/d06/server_2command_2common_8qh_source.html":[2,0,6,1,9],
 "d2/d0c/gamemode__tdm_8qc.html":[2,0,6,2,0,26],
 "d2/d0c/gamemode__tdm_8qc.html#a11e21a31b2f69dd95efd4f0e941bd2a7":[2,0,6,2,0,26,4],
-"d2/d0c/gamemode__tdm_8qc.html#a1bc3d79be87a962cf8e3f128f1d2d680":[2,0,6,2,0,26,3],
-"d2/d0c/gamemode__tdm_8qc.html#a68e834a3a3064a2d84cab268b1238110":[2,0,6,2,0,26,1],
-"d2/d0c/gamemode__tdm_8qc.html#a70d44798fc6568965f3bc5796fefcbec":[2,0,6,2,0,26,0]
+"d2/d0c/gamemode__tdm_8qc.html#a1bc3d79be87a962cf8e3f128f1d2d680":[2,0,6,2,0,26,3]
 };

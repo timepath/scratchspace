@@ -1,5 +1,7 @@
 var NAVTREEINDEX12 =
 {
+"d1/dad/server_2command_2vote_8qc.html#a8646fbc325b5110f96dbc1a8b324fc5f":[2,0,6,1,16,33],
+"d1/dad/server_2command_2vote_8qc.html#a8877f3141a92ab947b3801df066ce3bb":[2,0,6,1,16,8],
 "d1/dad/server_2command_2vote_8qc.html#a8adef0cb0c9dffb0348ed5fb19cdbebf":[2,0,6,1,16,39],
 "d1/dad/server_2command_2vote_8qc.html#a8d0cf9c8d0f4eb8f266513eabf8a64ed":[2,0,6,1,16,31],
 "d1/dad/server_2command_2vote_8qc.html#a8d1f0d6bff6c0f65f7f206d4445d0f56":[2,0,6,1,16,5],
@@ -14,9 +16,9 @@ var NAVTREEINDEX12 =
 "d1/dad/server_2command_2vote_8qc.html#aaa71782429a29dc1281807e966deaf7a":[2,0,6,1,16,32],
 "d1/dad/server_2command_2vote_8qc.html#aab1e8a5bcb59d84dc544b44f98bfd267":[2,0,6,1,16,29],
 "d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f":[2,0,6,1,16,14],
-"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,0],
 "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,1],
+"d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba":[2,0,6,1,16,2],
 "d1/dad/server_2command_2vote_8qc.html#ac42f429ba6ba4289fa7af9310f40a0a4":[2,0,6,1,16,13],
 "d1/dad/server_2command_2vote_8qc.html#aeb5a1f746f1d97c3cc25df64e6b0ef68":[2,0,6,1,16,6],
 "d1/dad/server_2command_2vote_8qc.html#afa3842ee6c4c5d4bf93d915d2a3bfe2b":[2,0,6,1,16,16],
@@ -247,7 +249,5 @@ var NAVTREEINDEX12 =
 "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a5fd3b877c71ac6bbfce55c1a8cc9ca9d":[2,0,1,9,0,2,4,1],
 "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a657cfc8f3f11519664ca91e2d258bc88":[2,0,1,9,0,2,4,9],
 "d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a73b233ccac900843bd13f88a0141258e":[2,0,1,9,0,2,4,10],
-"d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a8190fe059652ad70566f7ca75badd794":[2,0,1,9,0,2,4,8],
-"d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a880b0fdd8b412a192b746d44bb00841d":[2,0,1,9,0,2,4,4],
-"d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a973bc70bb709b2a072ba5f1132c9c5e0":[2,0,1,9,0,2,4,5]
+"d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a8190fe059652ad70566f7ca75badd794":[2,0,1,9,0,2,4,8]
 };

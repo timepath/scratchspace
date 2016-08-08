@@ -1,5 +1,9 @@
 var NAVTREEINDEX105 =
 {
+"dd/d36/classXonoticGameViewSettingsTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,156,40],
+"dd/d36/classXonoticGameViewSettingsTab.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,156,70],
+"dd/d36/classXonoticGameViewSettingsTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,156,45],
+"dd/d36/classXonoticGameViewSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,156,52],
 "dd/d36/classXonoticGameViewSettingsTab.html#ad23bc56b9c1a50defb67b76f0f31c8fd":[1,0,156,49],
 "dd/d36/classXonoticGameViewSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,156,68],
 "dd/d36/classXonoticGameViewSettingsTab.html#adbe18561ee7c3ecfdf2d30a3f825d44b":[1,0,156,13],
@@ -96,8 +100,8 @@ var NAVTREEINDEX105 =
 "dd/d59/modicons_8qc.html#a90abcb5dfd155425638f8823221e96a7":[2,0,0,1,0,16,39],
 "dd/d59/modicons_8qc.html#a90b00643b4f9e53be543cdb107e4d527":[2,0,0,1,0,16,26],
 "dd/d59/modicons_8qc.html#a9245f9b7b4151715d667f06cbaf831cd":[2,0,0,1,0,16,8],
-"dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,2],
 "dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,0],
+"dd/d59/modicons_8qc.html#a9ab1add14a5864cbf3f1f3638afed1a4":[2,0,0,1,0,16,2],
 "dd/d59/modicons_8qc.html#a9fba4055eb7a12732e45c9864109ce0a":[2,0,0,1,0,16,44],
 "dd/d59/modicons_8qc.html#aa2761d2fc316710b016af9c352e83ee5":[2,0,0,1,0,16,29],
 "dd/d59/modicons_8qc.html#aa31974f3ee04983fc466c46abdbe5625":[2,0,0,1,0,16,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX105 =
 "dd/d70/pathlib_8qh.html#aa3c9c0ed0d1db934e264c644c83979b3":[2,0,6,3,15,15],
 "dd/d70/pathlib_8qh.html#aa96406bb9db6a09e54828c46b76cacd2":[2,0,6,3,15,1],
 "dd/d70/pathlib_8qh.html#aabbee0e66842898fe87a404644cf6da3":[2,0,6,3,15,60],
-"dd/d70/pathlib_8qh.html#aad8ca0515e4e3ac2b6a0e88673eff495":[2,0,6,3,15,77],
-"dd/d70/pathlib_8qh.html#aae54e100a6691b764778eafdd7dec48a":[2,0,6,3,15,31],
-"dd/d70/pathlib_8qh.html#ab026cf9817ed5e8a03ffc84cbcc0db85":[2,0,6,3,15,59],
-"dd/d70/pathlib_8qh.html#ab225807f1152a941f4befa2b67bb76eb":[2,0,6,3,15,66],
-"dd/d70/pathlib_8qh.html#ab3ea6d01ed822e19e2539c99ff4b502e":[2,0,6,3,15,4]
+"dd/d70/pathlib_8qh.html#aad8ca0515e4e3ac2b6a0e88673eff495":[2,0,6,3,15,77]
 };

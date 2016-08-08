@@ -17,6 +17,7 @@ var dir_baddde578d762c90c1d949a22a636838 =
       [ "Item", "d0/dae/classItem.html", "d0/dae/classItem" ]
     ] ],
     [ "matrix.qc", "d7/d74/menu_2matrix_8qc.html", "d7/d74/menu_2matrix_8qc" ],
+    [ "matrix.qh", "d7/db7/menu_2matrix_8qh.html", null ],
     [ "menu.qc", "df/dc2/menu_8qc.html", "df/dc2/menu_8qc" ],
     [ "menu.qh", "d0/d41/menu_8qh.html", "d0/d41/menu_8qh" ],
     [ "progs.inc", "d3/d70/menu_2progs_8inc.html", null ],

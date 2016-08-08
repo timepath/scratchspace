@@ -1,5 +1,9 @@
 var NAVTREEINDEX74 =
 {
+"d9/d2b/common_2turrets_2all_8qc.html":[2,0,1,14,3],
+"d9/d2b/common_2turrets_2all_8qc.html#aafd24a334088de3d7fef309914d49101":[2,0,1,14,3,0],
+"d9/d2b/common_2turrets_2all_8qc_source.html":[2,0,1,14,3],
+"d9/d2d/dialog__settings__game__model_8qc.html":[2,0,5,4,134],
 "d9/d2d/dialog__settings__game__model_8qc.html#a3bc78e9a0f18de27f46e9111a30884a5":[2,0,5,4,134,1],
 "d9/d2d/dialog__settings__game__model_8qc.html#a74a9590aa3277b647d54c780cbfd3dbb":[2,0,5,4,134,2],
 "d9/d2d/dialog__settings__game__model_8qc.html#ae3352ff05cd68a276d35c458baa79048":[2,0,5,4,134,0],
@@ -245,9 +249,5 @@ var NAVTREEINDEX74 =
 "d9/d58/classXonoticResolutionSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,207,98],
 "d9/d58/classXonoticResolutionSlider.html#a03b39828cfca5042da326cc07cc8f7b4":[1,0,207,60],
 "d9/d58/classXonoticResolutionSlider.html#a049908527e1af488d7acf53ac64090a1":[1,0,207,85],
-"d9/d58/classXonoticResolutionSlider.html#a0532ad63a21ab0ee3d87bed20ce60394":[1,0,207,57],
-"d9/d58/classXonoticResolutionSlider.html#a08c5bf54e17d5e9d3f5e3f35612f60a7":[1,0,207,71],
-"d9/d58/classXonoticResolutionSlider.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,207,83],
-"d9/d58/classXonoticResolutionSlider.html#a0b7c22b4ba0234561575e01ef7f17fc6":[1,0,207,62],
-"d9/d58/classXonoticResolutionSlider.html#a0c478135eb70f406c6a0b87529556e98":[1,0,207,26]
+"d9/d58/classXonoticResolutionSlider.html#a0532ad63a21ab0ee3d87bed20ce60394":[1,0,207,57]
 };

@@ -107,11 +107,20 @@ $(document).ready(function(){initNavTree('d7/d74/menu_2matrix_8qc.html','../../'
 <div class="title">matrix.qc File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
+<div class="textblock"><code>#include &quot;<a class="el" href="../../d7/db7/menu_2matrix_8qh_source.html">matrix.qh</a>&quot;</code><br/>
+</div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for matrix.qc:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/de0/menu_2matrix_8qc__incl.svg" width="120" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> This graph shows which files directly or indirectly include this file:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../da/d99/menu_2matrix_8qc__dep__incl.svg" width="120" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -148,56 +157,56 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d7/d74/menu_2matrix_8qc_source.html#l00001">1</a> of file <a class="el" href="../../d7/d74/menu_2matrix_8qc_source.html">matrix.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d7/d74/menu_2matrix_8qc_source.html#l00003">3</a> of file <a class="el" href="../../d7/d74/menu_2matrix_8qc_source.html">matrix.qc</a>.</p>
 
 <p>References <a class="el" href="../../d6/dce/json_8qc_source.html#l00262">json_get()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/d44/lib_2matrix_2matrix_8qc_source.html#l00045">MX_Messages_()</a>, and <a class="el" href="../../d0/d44/lib_2matrix_2matrix_8qc_source.html#l00089">MX_Sync_()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;{</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    <span class="keywordtype">string</span> type = <a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(ancestor, <span class="stringliteral">&quot;.type&quot;</span>));</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    <span class="keywordflow">switch</span> (type) {</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;m.typing&quot;</span>: {</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;            <span class="keywordtype">string</span> arr = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(ancestor, <span class="stringliteral">&quot;.content.user_ids&quot;</span>);</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, n = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, sprintf(<span class="stringliteral">&quot;%s.length&quot;</span>, arr))); i &lt; n; ++i) {</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;                <span class="keywordtype">string</span> s = <a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, sprintf(<span class="stringliteral">&quot;%s.%d&quot;</span>, arr, i));</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a>(<span class="stringliteral">&quot;\{1}&quot;</span>, s, <span class="stringliteral">&quot; is typing...\n&quot;</span>);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;            }</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        }</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;m.room.message&quot;</span>: {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;            <span class="keywordtype">string</span> msgtype = <a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(ancestor, <span class="stringliteral">&quot;.content.msgtype&quot;</span>));</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            <span class="keywordflow">switch</span> (msgtype) {</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&quot;m.text&quot;</span>: {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                    <span class="keywordtype">string</span> sender = <a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(ancestor, <span class="stringliteral">&quot;.sender&quot;</span>));</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                    <span class="keywordtype">string</span> body = <a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(ancestor, <span class="stringliteral">&quot;.content.body&quot;</span>));</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                    <span class="keywordflow">if</span> (body) <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a>(<span class="stringliteral">&quot;\{1}&quot;</span>, sender, <span class="stringliteral">&quot;: &quot;</span>, body, <span class="stringliteral">&quot;\n&quot;</span>);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                    <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                }</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            }</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        }</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordtype">string</span> type = <a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(ancestor, <span class="stringliteral">&quot;.type&quot;</span>));</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">switch</span> (type) {</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;m.typing&quot;</span>: {</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;            <span class="keywordtype">string</span> arr = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(ancestor, <span class="stringliteral">&quot;.content.user_ids&quot;</span>);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, n = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, sprintf(<span class="stringliteral">&quot;%s.length&quot;</span>, arr))); i &lt; n; ++i) {</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                <span class="keywordtype">string</span> s = <a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, sprintf(<span class="stringliteral">&quot;%s.%d&quot;</span>, arr, i));</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a>(<span class="stringliteral">&quot;\{1}&quot;</span>, s, <span class="stringliteral">&quot; is typing...\n&quot;</span>);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            }</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        }</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;m.room.message&quot;</span>: {</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <span class="keywordtype">string</span> msgtype = <a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(ancestor, <span class="stringliteral">&quot;.content.msgtype&quot;</span>));</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;            <span class="keywordflow">switch</span> (msgtype) {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keywordflow">case</span> <span class="stringliteral">&quot;m.text&quot;</span>: {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                    <span class="keywordtype">string</span> sender = <a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(ancestor, <span class="stringliteral">&quot;.sender&quot;</span>));</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                    <span class="keywordtype">string</span> body = <a class="code" href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a>(buf, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(ancestor, <span class="stringliteral">&quot;.content.body&quot;</span>));</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                    <span class="keywordflow">if</span> (body) <a class="code" href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a>(<span class="stringliteral">&quot;\{1}&quot;</span>, sender, <span class="stringliteral">&quot;: &quot;</span>, body, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                    <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                }</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            }</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    }</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
 <div class="ttc" id="menudefs_8qc_html_acf9c719e766113bad854907e87812e98"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98">print</a></div><div class="ttdeci">void print(string text,...)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="json_8qc_html_aaa6acc35c43d8361cdab2c035e1f57c8"><div class="ttname"><a href="../../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8">json_get</a></div><div class="ttdeci">string json_get(int buf, string key)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dce/json_8qc_source.html#l00262">json.qc:262</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d74/menu_2matrix_8qc_af5102d8297bde7ad33c004e9f81e6e3b_cgraph.svg" width="222" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d7/d74/menu_2matrix_8qc_af5102d8297bde7ad33c004e9f81e6e3b_icgraph.svg" width="635" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -211,7 +220,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../d7/d74/menu_2matrix_8qc.html">matrix.qc</a></li>
-    <li class="footer">Generated on Sun Aug 7 2016 11:51:13 for Xonotic by
+    <li class="footer">Generated on Mon Aug 8 2016 03:44:40 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

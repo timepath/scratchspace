@@ -1,5 +1,9 @@
 var NAVTREEINDEX67 =
 {
+"d8/d14/scripting_8qh.html#a8ef8ae2b28eca5b395b6b34cd734f891":[2,0,6,0,0,12,36],
+"d8/d14/scripting_8qh.html#a9603613dd32e5b227cfaff1e41ac2930":[2,0,6,0,0,12,4],
+"d8/d14/scripting_8qh.html#a9673931408dc9f1aaaceebd2a0635860":[2,0,6,0,0,12,47],
+"d8/d14/scripting_8qh.html#a999c06331b307b29da705b52c9848998":[2,0,6,0,0,12,15],
 "d8/d14/scripting_8qh.html#a9a7a41b335ef73deaaa4bd0e4f0030f2":[2,0,6,0,0,12,33],
 "d8/d14/scripting_8qh.html#aa07a9868fab3260fe5b51d912fd0568c":[2,0,6,0,0,12,35],
 "d8/d14/scripting_8qh.html#aa0fb88975a6df607154b75a95a2aba26":[2,0,6,0,0,12,14],
@@ -96,9 +100,9 @@ var NAVTREEINDEX67 =
 "d8/d1b/ps_8qc.html#af9ac2e9c7f028072120baef71c275473":[2,0,1,6,0,8,9],
 "d8/d1b/ps_8qc_source.html":[2,0,1,6,0,8],
 "d8/d1d/cmd_8qc.html":[2,0,6,1,6],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,6,2],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,6,0],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,6,1],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,6,2],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,6,3],
 "d8/d1d/cmd_8qc.html#a0702129e58317d01f1e8a8f6d9d75ed9":[2,0,6,1,6,17],
 "d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665":[2,0,6,1,6,26],
@@ -245,9 +249,5 @@ var NAVTREEINDEX67 =
 "d8/d35/classXonoticHUDChatDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,160,16],
 "d8/d35/classXonoticHUDChatDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,160,28],
 "d8/d35/classXonoticHUDChatDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,160,2],
-"d8/d35/classXonoticHUDChatDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,160,26],
-"d8/d35/classXonoticHUDChatDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,160,30],
-"d8/d35/classXonoticHUDChatDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,160,82],
-"d8/d39/classXonoticGametypeList.html":[1,0,155],
-"d8/d39/classXonoticGametypeList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,155,7]
+"d8/d35/classXonoticHUDChatDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,160,26]
 };

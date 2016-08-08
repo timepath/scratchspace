@@ -1,5 +1,9 @@
 var NAVTREEINDEX124 =
 {
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a8f04cd9252d82b0da453b439558cd2e6":[1,0,210,27],
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,210,73],
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a99f113cbca6d20b18128c10c6d236867":[1,0,210,75],
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a9c04727d8b4f644f96fad98456d78dd9":[1,0,210,97],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a9db73c915b3dace3a88f396a2824a071":[1,0,210,62],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a9e2c4bf741bd04d166a2c21130d15b0b":[1,0,210,33],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,210,43],
@@ -153,8 +157,8 @@ var NAVTREEINDEX124 =
 "functions_d.html":[1,3,0,4],
 "functions_e.html":[1,3,0,5],
 "functions_f.html":[1,3,0,6],
-"functions_func.html":[1,3,1,0],
 "functions_func.html":[1,3,1],
+"functions_func.html":[1,3,1,0],
 "functions_func_a.html":[1,3,1,1],
 "functions_func_b.html":[1,3,1,2],
 "functions_func_c.html":[1,3,1,3],
@@ -191,8 +195,8 @@ var NAVTREEINDEX124 =
 "functions_t.html":[1,3,0,18],
 "functions_u.html":[1,3,0,19],
 "functions_v.html":[1,3,0,20],
-"functions_vars.html":[1,3,2],
 "functions_vars.html":[1,3,2,0],
+"functions_vars.html":[1,3,2],
 "functions_vars_b.html":[1,3,2,1],
 "functions_vars_c.html":[1,3,2,2],
 "functions_vars_d.html":[1,3,2,3],
@@ -226,8 +230,8 @@ var NAVTREEINDEX124 =
 "globals_b.html":[2,1,0,2],
 "globals_c.html":[2,1,0,3],
 "globals_d.html":[2,1,0,4],
-"globals_defs.html":[2,1,5],
 "globals_defs.html":[2,1,5,0],
+"globals_defs.html":[2,1,5],
 "globals_defs_a.html":[2,1,5,1],
 "globals_defs_b.html":[2,1,5,2],
 "globals_defs_c.html":[2,1,5,3],
@@ -245,9 +249,5 @@ var NAVTREEINDEX124 =
 "globals_defs_o.html":[2,1,5,15],
 "globals_defs_p.html":[2,1,5,16],
 "globals_defs_q.html":[2,1,5,17],
-"globals_defs_r.html":[2,1,5,18],
-"globals_defs_s.html":[2,1,5,19],
-"globals_defs_t.html":[2,1,5,20],
-"globals_defs_u.html":[2,1,5,21],
-"globals_defs_v.html":[2,1,5,22]
+"globals_defs_r.html":[2,1,5,18]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX52 =
 {
+"d6/d8f/score_8qc.html#a3387bdde90e0919a72de4abf197b1881":[2,0,0,1,0,32,2],
+"d6/d8f/score_8qc.html#a8266d5d080761ce457b269fd0a6a22c1":[2,0,0,1,0,32,1],
 "d6/d8f/score_8qc.html#af299e2a5219b4b963a923527b78ed9a7":[2,0,0,1,0,32,0],
 "d6/d8f/score_8qc_source.html":[2,0,0,1,0,32],
 "d6/d92/classClientState.html":[1,0,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX52 =
 "d6/dbf/maplist_8qh.html#aaaa78078daa37c70d24c60050c1df44b":[2,0,5,4,181,3],
 "d6/dbf/maplist_8qh.html#ae748f862222e209d8709137d29929d2c":[2,0,5,4,181,2],
 "d6/dbf/maplist_8qh.html#afd80d28ef88d1f66c8ac990be4ded96d":[2,0,5,4,181,6],
-"d6/dbf/maplist_8qh.html#afd87bfe54f2f033ab0047e24d8e18e26":[2,0,5,4,181,4],
-"d6/dbf/maplist_8qh_source.html":[2,0,5,4,181],
-"d6/dc8/secret_8qh.html":[2,0,1,13,3,28]
+"d6/dbf/maplist_8qh.html#afd87bfe54f2f033ab0047e24d8e18e26":[2,0,5,4,181,4]
 };

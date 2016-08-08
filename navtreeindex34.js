@@ -1,5 +1,7 @@
 var NAVTREEINDEX34 =
 {
+"d4/d3c/radarmap_8qh_source.html":[2,0,6,1,13],
+"d4/d3d/common_2sounds_2__mod_8qh.html":[2,0,1,12,1],
 "d4/d3d/common_2sounds_2__mod_8qh_source.html":[2,0,1,12,1],
 "d4/d3f/classXonoticKeyBinder.html":[1,0,183],
 "d4/d3f/classXonoticKeyBinder.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,183,41],
@@ -247,7 +249,5 @@ var NAVTREEINDEX34 =
 "d4/d55/classXonoticCreditsList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,137,42],
 "d4/d55/classXonoticCreditsList.html#a955acbbda432fb19399292cbac96e0af":[1,0,137,50],
 "d4/d55/classXonoticCreditsList.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,137,60],
-"d4/d55/classXonoticCreditsList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,137,49],
-"d4/d55/classXonoticCreditsList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,137,34],
-"d4/d55/classXonoticCreditsList.html#aa826bb0f5ee16ec5345b791680e84aee":[1,0,137,37]
+"d4/d55/classXonoticCreditsList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,137,49]
 };
