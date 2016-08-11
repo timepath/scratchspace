@@ -531,53 +531,53 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> label_size = <span class="stringliteral">&#39;1 1 0&#39;</span> * <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(weapon_size.x, weapon_size.y) * <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a9028be13dbb6a28b9b42bca46d9d1895">autocvar_hud_panel_weapons_label_scale</a>, 1);</div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> noncurrent_size = weapon_size * <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0.01, <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ae4e420b9936bf5feaee2ba34e406571e">autocvar_hud_panel_weapons_noncurrent_scale</a>, 1);</div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keywordtype">float</span> noncurrent_alpha = <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a> * <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#af23525913b5f147f4396067dbdb8618b">autocvar_hud_panel_weapons_noncurrent_alpha</a>, 1);</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <span class="keywordtype">bool</span> isCurrent;</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> weapon_pos_current = <span class="stringliteral">&#39;-1 0 0&#39;</span>;</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;    <span class="keywordflow">if</span>(weapon_pos_current.x == -1)</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;        weapon_pos_current = <a class="code" href="../../d3/d05/hud_8qh.html#ac5cc557740a2a6794b516dd4e2251f60">panel_pos</a>;</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;</div>
-<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    <span class="keywordtype">float</span> switch_speed;</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ad93983d9cab730300762ecc87bfff9d9">autocvar_hud_panel_weapons_selection_speed</a> &lt;= 0 || <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a769abd3dde029fd8e62ae71c8a6ae258">autocvar__hud_configure</a>)</div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;        switch_speed = 999;</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;        switch_speed = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ad93983d9cab730300762ecc87bfff9d9">autocvar_hud_panel_weapons_selection_speed</a>;</div>
-<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> radius_size = weapon_size * (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a147f9cdd944b995aacae62bf8fb0968f">autocvar_hud_panel_weapons_selection_radius</a> + 1);</div>
-<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <span class="keywordflow">if</span>(!panel_switchweapon)</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;        panel_switchweapon = <a class="code" href="../../d0/d2a/client_2main_8qh.html#aaf44eb7aebb994f1b83798166625d6cb">switchweapon</a>;</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    <span class="comment">// draw background behind currently selected weapon</span></div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <span class="comment">// do it earlier to make sure bg is drawn behind every weapon icons while it&#39;s moving</span></div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    <span class="keywordflow">if</span>(panel_switchweapon)</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;        <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a5f87d96201a18d416dd0271dccb8ef0f">drawpic_aspect_skin</a>(weapon_pos_current, <span class="stringliteral">&quot;weapon_current_bg&quot;</span>, weapon_size, <span class="stringliteral">&#39;1 1 1&#39;</span>, <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt;= <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a210d22e4f59e0b2747412af9978f0f00">WEP_LAST</a>-<a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a90d55a6f4174a92f4c7740dba8e236df">WEP_FIRST</a>; ++i)</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    {</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        <span class="comment">// retrieve information about the current weapon to be drawn</span></div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it = <a class="code" href="../../d4/def/weapons_8qc.html#ad404b083c61c0b18b47d75dd1906b30e">weaponorder</a>[i];</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        weapon_id = it.impulse;</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        <span class="comment">// skip if this weapon doesn&#39;t exist</span></div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;        <span class="keywordflow">if</span>(!it || weapon_id &lt; 0) { <span class="keywordflow">continue</span>; }</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;        <span class="comment">// skip this weapon if we don&#39;t own it (and onlyowned is enabled)-- or if weapons_complainbubble is showing for this weapon</span></div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#af5c55b643fed92432991310621dd68af">autocvar_hud_panel_weapons_onlyowned</a>)</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        {</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;            <span class="keywordflow">if</span> (!((weapons_stat &amp; <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af64f4486ae6141a10160958a5e9a70b4">WepSet_FromWeapon</a>(it)) || (it.m_id == <a class="code" href="../../d3/d05/hud_8qh.html#a9cdf68f686befe840b9930cebe9c66a9">complain_weapon</a>)))</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        }</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        {</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;            <span class="keywordflow">if</span> (it.spawnflags &amp; <a class="code" href="../../dc/d1c/weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a> &amp;&amp; !(weapons_stat &amp; <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af64f4486ae6141a10160958a5e9a70b4">WepSet_FromWeapon</a>(it)))</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        }</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        <span class="comment">// figure out the drawing position of weapon</span></div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        weapon_pos = (<a class="code" href="../../d3/d05/hud_8qh.html#ac5cc557740a2a6794b516dd4e2251f60">panel_pos</a> + <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a> * column * weapon_size.x + <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> * row * weapon_size.y);</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        <span class="comment">// update position of the currently selected weapon</span></div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        isCurrent = (it == panel_switchweapon);</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        <span class="keywordflow">if</span>(isCurrent)</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <span class="keyword">static</span> <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> weapon_pos_current = <span class="stringliteral">&#39;-1 0 0&#39;</span>;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordflow">if</span>(weapon_pos_current.x == -1)</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        weapon_pos_current = <a class="code" href="../../d3/d05/hud_8qh.html#ac5cc557740a2a6794b516dd4e2251f60">panel_pos</a>;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;    <span class="keywordtype">float</span> switch_speed;</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ad93983d9cab730300762ecc87bfff9d9">autocvar_hud_panel_weapons_selection_speed</a> &lt;= 0 || <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a769abd3dde029fd8e62ae71c8a6ae258">autocvar__hud_configure</a>)</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;        switch_speed = 999;</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;        switch_speed = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ad93983d9cab730300762ecc87bfff9d9">autocvar_hud_panel_weapons_selection_speed</a>;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> radius_size = weapon_size * (<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a147f9cdd944b995aacae62bf8fb0968f">autocvar_hud_panel_weapons_selection_radius</a> + 1);</div>
+<div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;</div>
+<div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#aaf44eb7aebb994f1b83798166625d6cb">switchweapon</a> == WEP_Null)</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;        panel_switchweapon = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!panel_switchweapon)</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;        panel_switchweapon = <a class="code" href="../../d0/d2a/client_2main_8qh.html#aaf44eb7aebb994f1b83798166625d6cb">switchweapon</a>;</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;</div>
+<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <span class="comment">// draw background behind currently selected weapon</span></div>
+<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    <span class="comment">// do it earlier to make sure bg is drawn behind every weapon icons while it&#39;s moving</span></div>
+<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    <span class="keywordflow">if</span>(panel_switchweapon)</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;        <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a5f87d96201a18d416dd0271dccb8ef0f">drawpic_aspect_skin</a>(weapon_pos_current, <span class="stringliteral">&quot;weapon_current_bg&quot;</span>, weapon_size, <span class="stringliteral">&#39;1 1 1&#39;</span>, <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt;= <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a210d22e4f59e0b2747412af9978f0f00">WEP_LAST</a>-<a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#a90d55a6f4174a92f4c7740dba8e236df">WEP_FIRST</a>; ++i)</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    {</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;        <span class="comment">// retrieve information about the current weapon to be drawn</span></div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it = <a class="code" href="../../d4/def/weapons_8qc.html#ad404b083c61c0b18b47d75dd1906b30e">weaponorder</a>[i];</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;        weapon_id = it.impulse;</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;</div>
+<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;        <span class="comment">// skip if this weapon doesn&#39;t exist</span></div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;        <span class="keywordflow">if</span>(!it || weapon_id &lt; 0) { <span class="keywordflow">continue</span>; }</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;        <span class="comment">// skip this weapon if we don&#39;t own it (and onlyowned is enabled)-- or if weapons_complainbubble is showing for this weapon</span></div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#af5c55b643fed92432991310621dd68af">autocvar_hud_panel_weapons_onlyowned</a>)</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;        {</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;            <span class="keywordflow">if</span> (!((weapons_stat &amp; <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af64f4486ae6141a10160958a5e9a70b4">WepSet_FromWeapon</a>(it)) || (it.m_id == <a class="code" href="../../d3/d05/hud_8qh.html#a9cdf68f686befe840b9930cebe9c66a9">complain_weapon</a>)))</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        }</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        {</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;            <span class="keywordflow">if</span> (it.spawnflags &amp; <a class="code" href="../../dc/d1c/weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a> &amp;&amp; !(weapons_stat &amp; <a class="code" href="../../de/d81/common_2weapons_2all_8qh.html#af64f4486ae6141a10160958a5e9a70b4">WepSet_FromWeapon</a>(it)))</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        }</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;        <span class="comment">// figure out the drawing position of weapon</span></div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        weapon_pos = (<a class="code" href="../../d3/d05/hud_8qh.html#ac5cc557740a2a6794b516dd4e2251f60">panel_pos</a> + <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a> * column * weapon_size.x + <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> * row * weapon_size.y);</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        <span class="comment">// update position of the currently selected weapon</span></div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;        <span class="keywordflow">if</span>(it == panel_switchweapon)</div>
 <div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        {</div>
 <div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;            <span class="keywordflow">if</span>(weapon_pos_current.y &gt; weapon_pos.y)</div>
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;                weapon_pos_current.y = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(weapon_pos.y, weapon_pos_current.y - switch_speed * (weapon_pos_current.y - weapon_pos.y));</div>
@@ -1033,7 +1033,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d4/def/weapons_8qc.html">weapons.qc</a></li>
-    <li class="footer">Generated on Mon Aug 8 2016 14:13:27 for Xonotic by
+    <li class="footer">Generated on Thu Aug 11 2016 12:30:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
