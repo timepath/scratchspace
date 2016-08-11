@@ -5,6 +5,7 @@ var infomessages_8qc =
     [ "img_select", "df/d21/infomessages_8qc.html#ae47a4e840ff3bb34af0bb26f0cdf9810", null ],
     [ "InfoMessages_drawstring", "df/d21/infomessages_8qc.html#a7854c8f2dc9b65b6d10fc18b713b87c6", null ],
     [ "stringwidth_colors", "df/d21/infomessages_8qc.html#af74c7e53de726f384aa8ad37571c783a", null ],
+    [ "autocvar_hud_panel_infomessages_group0", "df/d21/infomessages_8qc.html#a7e53e2a607b198713b184d00f9004616", null ],
     [ "autocvar_hud_panel_infomessages_group_fadetime", "df/d21/infomessages_8qc.html#a136d53754af4a701e9cf50e042fdb681", null ],
     [ "autocvar_hud_panel_infomessages_group_time", "df/d21/infomessages_8qc.html#adecaa1d4a4e69349bc85620d7b43993a", null ],
     [ "IMG_COUNT", "df/d21/infomessages_8qc.html#abe6c17d7df92bfbd29be434f9d09e5f4", null ],

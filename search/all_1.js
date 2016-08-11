@@ -1397,6 +1397,7 @@ var searchData=
   ['autocvar_5fhud_5fpanel_5finfomessages',['autocvar_hud_panel_infomessages',['../d7/db4/client_2autocvars_8qh.html#a2de169fcdff52148b20b383ee23c154c',1,'autocvars.qh']]],
   ['autocvar_5fhud_5fpanel_5finfomessages_5fdynamichud',['autocvar_hud_panel_infomessages_dynamichud',['../d7/db4/client_2autocvars_8qh.html#a7d73591d24e4235cf0122660d9add83a',1,'autocvars.qh']]],
   ['autocvar_5fhud_5fpanel_5finfomessages_5fflip',['autocvar_hud_panel_infomessages_flip',['../d7/db4/client_2autocvars_8qh.html#ac081b7a6994295088b7aae6d4dbc22ad',1,'autocvars.qh']]],
+  ['autocvar_5fhud_5fpanel_5finfomessages_5fgroup0',['autocvar_hud_panel_infomessages_group0',['../df/d21/infomessages_8qc.html#a7e53e2a607b198713b184d00f9004616',1,'infomessages.qc']]],
   ['autocvar_5fhud_5fpanel_5finfomessages_5fgroup_5ffadetime',['autocvar_hud_panel_infomessages_group_fadetime',['../df/d21/infomessages_8qc.html#a136d53754af4a701e9cf50e042fdb681',1,'infomessages.qc']]],
   ['autocvar_5fhud_5fpanel_5finfomessages_5fgroup_5ftime',['autocvar_hud_panel_infomessages_group_time',['../df/d21/infomessages_8qc.html#adecaa1d4a4e69349bc85620d7b43993a',1,'infomessages.qc']]],
   ['autocvar_5fhud_5fpanel_5fitemstime_5fdynamichud',['autocvar_hud_panel_itemstime_dynamichud',['../d7/db4/client_2autocvars_8qh.html#a4bdd75fefb56a93d3ba0f2f477fc4215',1,'autocvars.qh']]],

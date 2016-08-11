@@ -146,14 +146,14 @@ var NAVTREEINDEX =
 "de/d81/common_2weapons_2all_8qh.html#a694c89643db7b2eade8de9b26c697bdf",
 "de/dab/classObserver.html#a5706b0334f1257f47411b95fd40e8a5f",
 "de/de7/classXonoticHUDItemsTimeDialog.html#ae088b9d9402b18315ea3c87ce8ada086",
-"df/d26/classXonoticGameSettingsTab.html#a0d96e89f7233de42b6cf100f08608c64",
-"df/d30/client_2main_8qc.html#a9b635841c31e627a3854f61176533152",
-"df/d6e/globalsound_8qh.html#a361ab5f1d50af3c1fb9c5353781b262a",
-"df/d97/menu_2xonotic_2util_8qh.html#a26806fad571ec451328ac79c060cd921",
-"df/dae/player_8qh.html#aeb860272089ca58c254feaccffc494c8",
-"df/dd4/navigation_8qh.html#a75221be7d8873635bc580f7f8bec5d40",
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a8f04cd9252d82b0da453b439558cd2e6",
-"globals_defs_s.html"
+"df/d26/classXonoticGameSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728",
+"df/d30/client_2main_8qc.html#a9a0b42398a104ebdd5b99b02df23747d",
+"df/d6e/globalsound_8qh.html#a2b564a6d34ef92bf3abe7fc6c104ce0f",
+"df/d97/menu_2xonotic_2util_8qh.html#a0ecc182d931f638095b163ce20b85b86",
+"df/dae/player_8qh.html#aea182bf63f444cfd93df2b6a193525e7",
+"df/dd4/navigation_8qh.html#a7321522f2776bd0f37ff29ad85ffbff8",
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#a8c568c803f49400fd0165b69f82d4161",
+"globals_defs_r.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
