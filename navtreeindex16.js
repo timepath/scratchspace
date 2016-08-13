@@ -1,5 +1,10 @@
 var NAVTREEINDEX16 =
 {
+"d2/d76/teamplay_8qh.html":[2,0,6,75],
+"d2/d76/teamplay_8qh.html#a00a259cdb2e894c98ce9a0d027fbee31":[2,0,6,75,16],
+"d2/d76/teamplay_8qh.html#a03beeb550118f87341e3c16c53300a6d":[2,0,6,75,10],
+"d2/d76/teamplay_8qh.html#a113b95feba1c451c0a411ec54eb29eab":[2,0,6,75,11],
+"d2/d76/teamplay_8qh.html#a1c2f7834133551081d9200888112ba6e":[2,0,6,75,8],
 "d2/d76/teamplay_8qh.html#a25599ad73603f2e4e2b78726400732c8":[2,0,6,75,7],
 "d2/d76/teamplay_8qh.html#a2942f2ae0d82c47009843cae3069508a":[2,0,6,75,5],
 "d2/d76/teamplay_8qh.html#a373ac0ded9ef3174275a0d82d32d6def":[2,0,6,75,15],
@@ -244,10 +249,5 @@ var NAVTREEINDEX16 =
 "d2/db1/movetypes_8qc.html#a3863efa2a85eff29702da92d456dcacb":[2,0,1,11,0,4,15],
 "d2/db1/movetypes_8qc.html#a3a364c3e846cd4c30141d749061c8086":[2,0,1,11,0,4,20],
 "d2/db1/movetypes_8qc.html#a3c23c2da17712d95e32cd500f6e10216":[2,0,1,11,0,4,1],
-"d2/db1/movetypes_8qc.html#a404eb7082eca010c791fd562af86dc95":[2,0,1,11,0,4,31],
-"d2/db1/movetypes_8qc.html#a49dc89e672be0a131f3c6d719bd4661e":[2,0,1,11,0,4,11],
-"d2/db1/movetypes_8qc.html#a4d9aed2230dec24015d4998217dcaf3e":[2,0,1,11,0,4,0],
-"d2/db1/movetypes_8qc.html#a5d8752cb083834295aec3d6409b06775":[2,0,1,11,0,4,28],
-"d2/db1/movetypes_8qc.html#a6009d9f3f5a7a64dfc68eead773bcca0":[2,0,1,11,0,4,30],
-"d2/db1/movetypes_8qc.html#a6044b8f4b841a8ebeeb91a2653290b70":[2,0,1,11,0,4,26]
+"d2/db1/movetypes_8qc.html#a404eb7082eca010c791fd562af86dc95":[2,0,1,11,0,4,31]
 };

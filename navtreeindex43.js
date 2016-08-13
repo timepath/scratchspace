@@ -1,5 +1,10 @@
 var NAVTREEINDEX43 =
 {
+"d5/d3b/slider__particles_8qh_source.html":[2,0,5,4,209],
+"d5/d42/common_2effects_2qc_2all_8qh.html":[2,0,1,2,0,4],
+"d5/d42/common_2effects_2qc_2all_8qh_source.html":[2,0,1,2,0,4],
+"d5/d43/plasma_8qc.html":[2,0,1,14,0,24],
+"d5/d43/plasma_8qc.html#a52e9a662b56d02ef45e4759d6b82a625":[2,0,1,14,0,24,1],
 "d5/d43/plasma_8qc.html#ad9b88151ae52fa7be5716c0a3a75c202":[2,0,1,14,0,24,2],
 "d5/d43/plasma_8qc_source.html":[2,0,1,14,0,24],
 "d5/d45/keybinder_8qh.html":[2,0,5,4,173],
@@ -244,10 +249,5 @@ var NAVTREEINDEX43 =
 "d5/d6c/classXonoticHUDSkinList.html#a7b13cdc101cd55528465440586a004f6":[1,0,176,57],
 "d5/d6c/classXonoticHUDSkinList.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,176,11],
 "d5/d6c/classXonoticHUDSkinList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,176,73],
-"d5/d6c/classXonoticHUDSkinList.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,176,83],
-"d5/d6c/classXonoticHUDSkinList.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,176,71],
-"d5/d6c/classXonoticHUDSkinList.html#a82217d761797df8a2e65054eab910734":[1,0,176,10],
-"d5/d6c/classXonoticHUDSkinList.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,176,67],
-"d5/d6c/classXonoticHUDSkinList.html#a84f6def940e220b9fdae72c21a7441ac":[1,0,176,33],
-"d5/d6c/classXonoticHUDSkinList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,176,45]
+"d5/d6c/classXonoticHUDSkinList.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,176,83]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX79 =
 {
+"d9/deb/classXonoticHUDTimerDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,177,68],
+"d9/deb/classXonoticHUDTimerDialog.html#a47c8ecd01d72fa43b89c93f32d5907f7":[1,0,177,66],
+"d9/deb/classXonoticHUDTimerDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,177,12],
+"d9/deb/classXonoticHUDTimerDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,177,39],
 "d9/deb/classXonoticHUDTimerDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,177,17],
 "d9/deb/classXonoticHUDTimerDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,177,46],
 "d9/deb/classXonoticHUDTimerDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,177,23],
@@ -245,9 +249,5 @@ var NAVTREEINDEX79 =
 "da/d11/arc_8qc.html#aada6c43396d5be158b794f179d6ebda4":[2,0,1,16,0,2,23],
 "da/d11/arc_8qc.html#ab810654c6ea794f1aecf0c797f879889":[2,0,1,16,0,2,6],
 "da/d11/arc_8qc.html#adfe4581ad00a9f3b5d2010f6834c6471":[2,0,1,16,0,2,4],
-"da/d11/arc_8qc.html#ae22aabeef8fdc958b44b6d23e8624bdb":[2,0,1,16,0,2,17],
-"da/d11/arc_8qc.html#af0b4c8eaeea9b1fca2115fab39683032":[2,0,1,16,0,2,7],
-"da/d11/arc_8qc.html#afb4b38a6b84893e5b7897d7a8ea9e35b":[2,0,1,16,0,2,21],
-"da/d11/arc_8qc_source.html":[2,0,1,16,0,2],
-"da/d13/classShockwave.html":[1,0,99]
+"da/d11/arc_8qc.html#ae22aabeef8fdc958b44b6d23e8624bdb":[2,0,1,16,0,2,17]
 };

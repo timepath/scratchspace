@@ -1,5 +1,9 @@
 var NAVTREEINDEX104 =
 {
+"dc/df7/classXonoticCvarsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,141,16],
+"dc/df7/classXonoticCvarsDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,141,28],
+"dc/df7/classXonoticCvarsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,141,2],
+"dc/df7/classXonoticCvarsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,141,26],
 "dc/df7/classXonoticCvarsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,141,30],
 "dc/df7/classXonoticCvarsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,141,81],
 "dc/dff/anticheat_8qh.html":[2,0,6,9],
@@ -157,10 +161,10 @@ var NAVTREEINDEX104 =
 "dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921":[2,0,6,1,4,6],
 "dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324":[2,0,6,1,4,7],
 "dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1":[2,0,6,1,4,8],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,4,3],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,4,2],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,4,0],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,4,1],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,4,3],
 "dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0":[2,0,6,1,4,11],
 "dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca":[2,0,6,1,4,12],
 "dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114":[2,0,6,1,4,9],
@@ -245,9 +249,5 @@ var NAVTREEINDEX104 =
 "dd/d36/classXonoticGameViewSettingsTab.html#abfb6794849d49c78c50807275e5c3056":[1,0,156,36],
 "dd/d36/classXonoticGameViewSettingsTab.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,156,71],
 "dd/d36/classXonoticGameViewSettingsTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,156,33],
-"dd/d36/classXonoticGameViewSettingsTab.html#ac585f4f082ba25f5afde74ec79f6d1ae":[1,0,156,79],
-"dd/d36/classXonoticGameViewSettingsTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,156,0],
-"dd/d36/classXonoticGameViewSettingsTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,156,22],
-"dd/d36/classXonoticGameViewSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,156,27],
-"dd/d36/classXonoticGameViewSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,156,80]
+"dd/d36/classXonoticGameViewSettingsTab.html#ac585f4f082ba25f5afde74ec79f6d1ae":[1,0,156,79]
 };

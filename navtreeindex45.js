@@ -1,5 +1,10 @@
 var NAVTREEINDEX45 =
 {
+"d5/d95/classXonoticDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,147,34],
+"d5/d95/classXonoticDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,147,65],
+"d5/d95/classXonoticDialog.html#a990854e3f6b366077f779d6d5f48aa72":[1,0,147,73],
+"d5/d95/classXonoticDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,147,70],
+"d5/d95/classXonoticDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,147,56],
 "d5/d95/classXonoticDialog.html#aa159f566ac6fbcac38235794af37f876":[1,0,147,13],
 "d5/d95/classXonoticDialog.html#aa1abab97698c6f13909d1791611312cb":[1,0,147,59],
 "d5/d95/classXonoticDialog.html#aa3afba1996c2ae2a709b75e26319f28a":[1,0,147,47],
@@ -244,10 +249,5 @@ var NAVTREEINDEX45 =
 "d5/dd1/playerdemo_8qh.html#a02e65930a3cde44f6090c6b36092b760":[2,0,6,48,5],
 "d5/dd1/playerdemo_8qh.html#a17bfbc8583f15f6d9ae68585c97ee733":[2,0,6,48,4],
 "d5/dd1/playerdemo_8qh.html#a1fa063f9cf66faacc25f038cba4fe736":[2,0,6,48,0],
-"d5/dd1/playerdemo_8qh.html#a3d6b65b19141e5215083447705deb88c":[2,0,6,48,3],
-"d5/dd1/playerdemo_8qh.html#aa7ba77e08f91cab469856c07cd0c5f10":[2,0,6,48,2],
-"d5/dd1/playerdemo_8qh.html#afb0d1f5e5d9d7cb7bf08e5407382caa2":[2,0,6,48,1],
-"d5/dd1/playerdemo_8qh_source.html":[2,0,6,48],
-"d5/dd4/cl__vehicles_8qh.html":[2,0,1,15,6],
-"d5/dd4/cl__vehicles_8qh.html#a105b9fc7eff65f2e2be4e4c6724a1a02":[2,0,1,15,6,3]
+"d5/dd1/playerdemo_8qh.html#a3d6b65b19141e5215083447705deb88c":[2,0,6,48,3]
 };

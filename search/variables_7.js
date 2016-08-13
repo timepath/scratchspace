@@ -7,6 +7,7 @@ var searchData=
   ['g_5finstagib',['g_instagib',['../d5/d26/server_2defs_8qh.html#a2bd71e8090c09dc399620eacd69b6e73',1,'defs.qh']]],
   ['g_5finvasion',['g_invasion',['../d5/d1f/gamemode__invasion_8qc.html#a1da95251eb07c840640be54b71e94ecb',1,'gamemode_invasion.qc']]],
   ['g_5fjetpack',['g_jetpack',['../d5/d26/server_2defs_8qh.html#a3bc1238ebb2ffbad59083120a2fafef8',1,'defs.qh']]],
+  ['g_5fmagic_5fstats_5fhole',['g_magic_stats_hole',['../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06',1,'stats.qh']]],
   ['g_5fmaplistcache',['g_maplistCache',['../d3/d86/classXonoticMapList.html#a8bea154a283e7cbcbb9401bdc563fb15',1,'XonoticMapList']]],
   ['g_5fmines',['g_mines',['../d5/d26/server_2defs_8qh.html#a09b90b074ff2e0e4a884221e80215fc6',1,'defs.qh']]],
   ['g_5fmonsters',['g_monsters',['../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2',1,'defs.qh']]],
