@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"de/d81/common_2weapons_2all_8qh.html#a52d11bb94eb9a1a95efc29ef6bc53243":[2,0,1,16,5,12],
 "de/d81/common_2weapons_2all_8qh.html#a55c1f203ec4d2bf0831cdeeeab21e736":[2,0,1,16,5,56],
 "de/d81/common_2weapons_2all_8qh.html#a583e81eb753ad8bf4d1992217cd71617":[2,0,1,16,5,69],
 "de/d81/common_2weapons_2all_8qh.html#a5ac40c7a1ac2d8bf44dfd73aaca2a3df":[2,0,1,16,5,55],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "de/dab/classObserver.html#a19c43f80a38a332a6f694783df3c9835":[1,0,74,0],
 "de/dab/classObserver.html#a22032ccc0d6a0e1b5c8d152fa5d5258e":[1,0,74,20],
 "de/dab/classObserver.html#a245f8bb48c3369a423dd2ea0888b3425":[1,0,74,12],
-"de/dab/classObserver.html#a2578f01ea21860399662d52a97ad9ce2":[1,0,74,11],
-"de/dab/classObserver.html#a2dae84a754cf7b77999839bf5891ca42":[1,0,74,9]
+"de/dab/classObserver.html#a2578f01ea21860399662d52a97ad9ce2":[1,0,74,11]
 };

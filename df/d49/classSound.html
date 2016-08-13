@@ -211,7 +211,7 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/df5/sound_8qh_source.html#l00104">104</a> of file <a class="el" href="../../d0/df5/sound_8qh_source.html">sound.qh</a>.</p>
 
-<p>References <a class="el" href="../../d0/df5/sound_8qh.html#aec464353d86f7bb348f0d54f9a88cd99">extensions</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00057">LOG_WARNF</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, and <a class="el" href="../../d0/df5/sound_8qh.html#a03b0aea621721da3d1c54e3dcc99e4c8">tryext</a>.</p>
+<p>References <a class="el" href="../../d0/df5/sound_8qh.html#aec464353d86f7bb348f0d54f9a88cd99">extensions</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00059">LOG_WARNF</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, and <a class="el" href="../../d0/df5/sound_8qh.html#a03b0aea621721da3d1c54e3dcc99e4c8">tryext</a>.</p>
 <div class="fragment"><div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    {</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;        <span class="keywordflow">if</span> (base == <span class="stringliteral">&quot;&quot;</span>) <span class="keywordflow">return</span> <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
@@ -224,14 +224,14 @@ Public Attributes</h2></td></tr>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<span class="preprocessor">            </span></div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define tryext(ext) { string s = strcat(base, &quot;.&quot; #ext); if (fexists(strcat(&quot;sound/&quot;, s))) return s; }</span></div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../d0/df5/sound_8qh.html#aec464353d86f7bb348f0d54f9a88cd99">extensions</a>(<a class="code" href="../../d0/df5/sound_8qh.html#a03b0aea621721da3d1c54e3dcc99e4c8">tryext</a>);</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a>(<span class="stringliteral">&quot;Missing sound: \&quot;%s\&quot;\n&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;sound/&quot;</span>, base));</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a>(<span class="stringliteral">&quot;Missing sound: \&quot;%s\&quot;&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;sound/&quot;</span>, base));</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<span class="preprocessor">        #undef tryext</span></div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #undef extensions</span></div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">return</span> <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<span class="preprocessor"></span>    }</div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
-<div class="ttc" id="log_8qh_html_a0a03b23b2bda32603235b3849e76e8e9"><div class="ttname"><a href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a></div><div class="ttdeci">#define LOG_WARNF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00057">log.qh:57</a></div></div>
+<div class="ttc" id="log_8qh_html_a0a03b23b2bda32603235b3849e76e8e9"><div class="ttname"><a href="../../db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9">LOG_WARNF</a></div><div class="ttdeci">#define LOG_WARNF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00059">log.qh:59</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="sound_8qh_html_a03b0aea621721da3d1c54e3dcc99e4c8"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a03b0aea621721da3d1c54e3dcc99e4c8">tryext</a></div><div class="ttdeci">#define tryext(ext)</div></div>
 <div class="ttc" id="sound_8qh_html_aec464353d86f7bb348f0d54f9a88cd99"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#aec464353d86f7bb348f0d54f9a88cd99">extensions</a></div><div class="ttdeci">#define extensions(x)</div></div>
@@ -366,7 +366,7 @@ Public Attributes</h2></td></tr>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../df/d49/classSound.html">Sound</a>, <span class="keyword">this</span>);</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="keywordtype">string</span> s = <a class="code" href="../../d0/df5/sound_8qh.html#a2e54c7df70c48267e1b7e0568776ba0b">Sound_fixpath</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">if</span> (!s) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <a class="code" href="../../d4/d1a/static_8qh.html#ab279e29e266542bf7d82bd05f898d8a8">profile</a>(sprintf(<span class="stringliteral">&quot;precache_sound(\&quot;%s\&quot;)\n&quot;</span>, s));</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <a class="code" href="../../d4/d1a/static_8qh.html#ab279e29e266542bf7d82bd05f898d8a8">profile</a>(sprintf(<span class="stringliteral">&quot;precache_sound(\&quot;%s\&quot;)&quot;</span>, s));</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a>(s);</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
 <div class="ttc" id="sound_8qh_html_a2e54c7df70c48267e1b7e0568776ba0b"><div class="ttname"><a href="../../d0/df5/sound_8qh.html#a2e54c7df70c48267e1b7e0568776ba0b">Sound_fixpath</a></div><div class="ttdeci">#define Sound_fixpath(this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/df5/sound_8qh_source.html#l00103">sound.qh:103</a></div></div>
@@ -426,7 +426,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/d49/classSound.html">Sound</a></li>
-    <li class="footer">Generated on Sat Aug 13 2016 07:08:00 for Xonotic by
+    <li class="footer">Generated on Sat Aug 13 2016 11:20:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

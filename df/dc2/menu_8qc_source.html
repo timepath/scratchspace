@@ -344,7 +344,7 @@ $(document).ready(function(){initNavTree('df/dc2/menu_8qc_source.html','../../')
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../df/dc2/menu_8qc.html#af45c1de90370c65b114f68310329e241">mouseButtonsPressed</a> &lt; 0)</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        {</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            <a class="code" href="../../df/dc2/menu_8qc.html#af45c1de90370c65b114f68310329e241">mouseButtonsPressed</a> = 0;</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Warning: released an already released button\n&quot;</span>);</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Warning: released an already released button&quot;</span>);</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        }</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    }</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">if</span> (key == <a class="code" href="../../dc/d03/keycodes_8qc.html#a74207bee082d70156fbe6076a5d38bfd">K_ALT</a>) <a class="code" href="../../df/dc2/menu_8qc.html#a0e43e450c2b32d735e9f913b0ca37423">menuShiftState</a> &amp;= ~<a class="code" href="../../d3/d05/hud_8qh.html#a4688e688e3649a241a2b522bacda97af">S_ALT</a>;</div>
@@ -393,7 +393,7 @@ $(document).ready(function(){initNavTree('df/dc2/menu_8qc_source.html','../../')
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../df/dc2/menu_8qc.html#af45c1de90370c65b114f68310329e241">mouseButtonsPressed</a> &gt; 10)</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        {</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            <a class="code" href="../../df/dc2/menu_8qc.html#af45c1de90370c65b114f68310329e241">mouseButtonsPressed</a> = 10;</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Warning: pressed an already pressed button\n&quot;</span>);</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Warning: pressed an already pressed button&quot;</span>);</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        }</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    }</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordflow">if</span> (key == <a class="code" href="../../dc/d03/keycodes_8qc.html#a74207bee082d70156fbe6076a5d38bfd">K_ALT</a>) <a class="code" href="../../df/dc2/menu_8qc.html#a0e43e450c2b32d735e9f913b0ca37423">menuShiftState</a> |= <a class="code" href="../../d3/d05/hud_8qh.html#a4688e688e3649a241a2b522bacda97af">S_ALT</a>;</div>
@@ -1209,7 +1209,7 @@ $(document).ready(function(){initNavTree('df/dc2/menu_8qc_source.html','../../')
 <div class="ttc" id="menu_8qc_html_a20b42797c858fb65d0be0a49c5dab4c7"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a20b42797c858fb65d0be0a49c5dab4c7">menuTooltipOrigin</a></div><div class="ttdeci">vector menuTooltipOrigin</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00411">menu.qc:411</a></div></div>
 <div class="ttc" id="pre_8qh_html_a0c5e59a7caaa02f887d077eaa467f209"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a></div><div class="ttdeci">#define error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00006">pre.qh:6</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
-<div class="ttc" id="log_8qh_html_ab709d1a9c4f30481019dd95e67a4f9f5"><div class="ttname"><a href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a></div><div class="ttdeci">#define LOG_INFOF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00061">log.qh:61</a></div></div>
+<div class="ttc" id="log_8qh_html_ab709d1a9c4f30481019dd95e67a4f9f5"><div class="ttname"><a href="../../db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5">LOG_INFOF</a></div><div class="ttdeci">#define LOG_INFOF(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00063">log.qh:63</a></div></div>
 <div class="ttc" id="menu_8qc_html_a1608b56b536a09ac713a62165c41dbac"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a1608b56b536a09ac713a62165c41dbac">conheight_s</a></div><div class="ttdeci">float conheight_s</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00036">menu.qc:36</a></div></div>
 <div class="ttc" id="menu_8qh_html_a3cd39adc5a015bbc00182b0adf0aea8a"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a3cd39adc5a015bbc00182b0adf0aea8a">GAME_DEVELOPER</a></div><div class="ttdeci">const int GAME_DEVELOPER</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00013">menu.qh:13</a></div></div>
 <div class="ttc" id="dpextensions_8qh_html_adf1bc71dd76ed8f9578de181202015d2"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index</a></div><div class="ttdeci">#define argv_start_index</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00027">dpextensions.qh:27</a></div></div>
@@ -1311,7 +1311,7 @@ $(document).ready(function(){initNavTree('df/dc2/menu_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../df/dc2/menu_8qc.html">menu.qc</a></li>
-    <li class="footer">Generated on Sat Aug 13 2016 07:07:46 for Xonotic by
+    <li class="footer">Generated on Sat Aug 13 2016 11:20:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

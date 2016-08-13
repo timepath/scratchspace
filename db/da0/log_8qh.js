@@ -6,6 +6,7 @@ var log_8qh =
     [ "_LOG", "db/da0/log_8qh.html#ab4d8a0056ca3db0691ad1d55cbd76fe0", null ],
     [ "_LOG_DEBUG", "db/da0/log_8qh.html#a5fd496d0ac3b596309d4b9f3428c2622", null ],
     [ "_LOG_FATAL", "db/da0/log_8qh.html#a6a22381a4dadac3410d2caae6765d47e", null ],
+    [ "_LOG_HEADER", "db/da0/log_8qh.html#ab2423a393b7c6b63ec81336eaf88ee4a", null ],
     [ "_LOG_INFO", "db/da0/log_8qh.html#a3caa127144a5a0555ec67cbe5cc25157", null ],
     [ "_LOG_SEVERE", "db/da0/log_8qh.html#a129f74b8c76f3d2309de5401b03e1740", null ],
     [ "_LOG_TRACE", "db/da0/log_8qh.html#a3f7c14310ac3369c03bd59ce32c522dc", null ],
@@ -32,7 +33,7 @@ var log_8qh =
     [ "LOG_TRACEF", "db/da0/log_8qh.html#a2872337768358857f71a83488272df5b", null ],
     [ "LOG_WARN", "db/da0/log_8qh.html#add82efa459e0af380b68522c29b9fd44", null ],
     [ "LOG_WARNF", "db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9", null ],
-    [ "string", "db/da0/log_8qh.html#a783e71e7dacc20b8e32f104ba5958162", null ],
+    [ "string", "db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7", null ],
     [ "autocvar_developer", "db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8", null ],
     [ "autocvar_prvm_backtraceforwarnings", "db/da0/log_8qh.html#a8d782ca78c0d8d5edc5f0f03086528f1", null ]
 ];

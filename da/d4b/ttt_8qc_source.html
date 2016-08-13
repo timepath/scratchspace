@@ -528,7 +528,7 @@ $(document).ready(function(){initNavTree('da/d4b/ttt_8qc_source.html','../../');
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        f &lt;&lt;= 1;</div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    }</div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(sprintf(<span class="stringliteral">&quot;TTT AI: selected %x from %x\n&quot;</span>,</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(sprintf(<span class="stringliteral">&quot;TTT AI: selected %x from %x&quot;</span>,</div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#a32be35647dc9e998a1420a75ae306409">RandomSelection_chosen_float</a>, piecemask) );</div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d55/random_8qh.html#a32be35647dc9e998a1420a75ae306409">RandomSelection_chosen_float</a>;</div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;}</div>
@@ -546,7 +546,7 @@ $(document).ready(function(){initNavTree('da/d4b/ttt_8qc_source.html','../../');
 <div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    r |= ttt_ai_1of3(piecemask,TTT_AI_POSFLAG_A3,TTT_AI_POSFLAG_B3,TTT_AI_POSFLAG_C3);</div>
 <div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    r |= ttt_ai_1of3(piecemask,TTT_AI_POSFLAG_A1,TTT_AI_POSFLAG_B2,TTT_AI_POSFLAG_C3);</div>
 <div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    r |= ttt_ai_1of3(piecemask,TTT_AI_POSFLAG_A3,TTT_AI_POSFLAG_B2,TTT_AI_POSFLAG_C1);</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(sprintf(<span class="stringliteral">&quot;TTT AI: possible 3 in a rows in %x: %x (%x)\n&quot;</span>,piecemask,r, r&amp;piecemask_free));</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(sprintf(<span class="stringliteral">&quot;TTT AI: possible 3 in a rows in %x: %x (%x)&quot;</span>,piecemask,r, r&amp;piecemask_free));</div>
 <div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;    r &amp;= piecemask_free;</div>
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <span class="keywordflow">return</span> ttt_ai_random(r);</div>
 <div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;}</div>
@@ -559,15 +559,15 @@ $(document).ready(function(){initNavTree('da/d4b/ttt_8qc_source.html','../../');
 <div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;{</div>
 <div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;    <span class="keywordtype">int</span> move = 0;</div>
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;</div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;TTT AI: checking winning move\n&quot;</span>);</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;TTT AI: checking winning move&quot;</span>);</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;    <span class="keywordflow">if</span> (( move = ttt_ai_block3(piecemask_self,piecemask_free) ))</div>
 <div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <span class="keywordflow">return</span> ttt_ai_piece_flag2pos(move); <span class="comment">// place winning move</span></div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;TTT AI: checking opponent&#39;s winning move\n&quot;</span>);</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;TTT AI: checking opponent&#39;s winning move&quot;</span>);</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;    <span class="keywordflow">if</span> (( move = ttt_ai_block3(piecemask_opponent,piecemask_free) ))</div>
 <div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;        <span class="keywordflow">return</span> ttt_ai_piece_flag2pos(move); <span class="comment">// block opponent</span></div>
 <div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;</div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;TTT AI: random move\n&quot;</span>);</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;TTT AI: random move&quot;</span>);</div>
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    <span class="keywordflow">return</span> ttt_ai_piece_flag2pos(ttt_ai_random(piecemask_free));</div>
 <div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;}</div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;</div>
@@ -617,12 +617,12 @@ $(document).ready(function(){initNavTree('da/d4b/ttt_8qc_source.html','../../');
 <div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;        }</div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;</div>
 <div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;        <span class="comment">// TODO multiple AI difficulties</span></div>
-<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(sprintf(<span class="stringliteral">&quot;TTT AI: self: %x opponent: %x free: %x\n&quot;</span>,</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(sprintf(<span class="stringliteral">&quot;TTT AI: self: %x opponent: %x free: %x&quot;</span>,</div>
 <div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;                piecemask_self, piecemask_opponent, piecemask_free));</div>
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;        pos = ttt_ai_choose_simple(piecemask_self, piecemask_opponent, piecemask_free);</div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;TTT AI: chosen move: &quot;</span>,pos,<span class="stringliteral">&quot;\n\n&quot;</span>);</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;TTT AI: chosen move: &quot;</span>, pos);</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;        <span class="keywordflow">if</span> ( !pos )</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Tic Tac Toe AI has derped!\n&quot;</span>);</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Tic Tac Toe AI has derped!&quot;</span>);</div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;            <a class="code" href="../../da/d4b/ttt_8qc.html#a2497c595a152ce86acc72100fbf9ec2d">ttt_move</a>(minigame,aiplayer,pos);</div>
 <div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    }</div>
@@ -891,7 +891,7 @@ $(document).ready(function(){initNavTree('da/d4b/ttt_8qc_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../dir_f3c5fe65fc7d6f300d22d67107da5495.html">minigame</a></li><li class="navelem"><a class="el" href="../../da/d4b/ttt_8qc.html">ttt.qc</a></li>
-    <li class="footer">Generated on Sat Aug 13 2016 07:07:44 for Xonotic by
+    <li class="footer">Generated on Sat Aug 13 2016 11:20:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

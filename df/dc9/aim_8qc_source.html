@@ -449,12 +449,12 @@ $(document).ready(function(){initNavTree('df/dc9/aim_8qc_source.html','../../');
 <div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;    shotspeedupward *= <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a0a6487bdb823099d34918347cb076f98">W_WeaponSpeedFactor</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keywordflow">if</span> (!shotspeed)</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    {</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;bot_aim: WARNING: weapon &quot;</span>, <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(<span class="keyword">this</span>).m_weapon.m_name, <span class="stringliteral">&quot; shotspeed is zero!\n&quot;</span>);</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;bot_aim: WARNING: weapon &quot;</span>, <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(<span class="keyword">this</span>).m_weapon.m_name, <span class="stringliteral">&quot; shotspeed is zero!&quot;</span>);</div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        shotspeed = 1000000;</div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    }</div>
 <div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keywordflow">if</span> (!maxshottime)</div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    {</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;bot_aim: WARNING: weapon &quot;</span>, <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(<span class="keyword">this</span>).m_weapon.m_name, <span class="stringliteral">&quot; maxshottime is zero!\n&quot;</span>);</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;bot_aim: WARNING: weapon &quot;</span>, <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(<span class="keyword">this</span>).m_weapon.m_name, <span class="stringliteral">&quot; maxshottime is zero!&quot;</span>);</div>
 <div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        maxshottime = 1;</div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    }</div>
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    makevectors(this.<a class="code" href="../../d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293">v_angle</a>);</div>
@@ -652,7 +652,7 @@ $(document).ready(function(){initNavTree('df/dc9/aim_8qc_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../df/dc9/aim_8qc.html">aim.qc</a></li>
-    <li class="footer">Generated on Sat Aug 13 2016 07:07:46 for Xonotic by
+    <li class="footer">Generated on Sat Aug 13 2016 11:20:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

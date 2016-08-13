@@ -920,7 +920,7 @@ $(document).ready(function(){initNavTree('d3/def/sv__turrets_8qc_source.html','.
 <div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;<span class="comment">    */</span></div>
 <div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;</div>
 <div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;<span class="preprocessor">#ifdef TURRET_DEBUG_TARGETSELECT</span></div>
-<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Target:&quot;</span>,e_target.netname,<span class="stringliteral">&quot; is a valid target for &quot;</span>,e_turret.netname,<span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Target:&quot;</span>,e_target.netname,<span class="stringliteral">&quot; is a valid target for &quot;</span>,e_turret.netname);</div>
 <div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;    <span class="keywordflow">return</span> 1;</div>
@@ -1267,7 +1267,7 @@ $(document).ready(function(){initNavTree('d3/def/sv__turrets_8qc_source.html','.
 <div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;<span class="keywordtype">void</span> turret_use(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> trigger)</div>
 <div class="line"><a name="l01177"></a><span class="lineno"> 1177</span>&#160;{</div>
-<div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Turret &quot;</span>,this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>, <span class="stringliteral">&quot; used by &quot;</span>, actor.classname, <span class="stringliteral">&quot;\n&quot;</span>);</div>
+<div class="line"><a name="l01178"></a><span class="lineno"> 1178</span>&#160;    <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Turret &quot;</span>,this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>, <span class="stringliteral">&quot; used by &quot;</span>, actor.classname);</div>
 <div class="line"><a name="l01179"></a><span class="lineno"> 1179</span>&#160;</div>
 <div class="line"><a name="l01180"></a><span class="lineno"> 1180</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> = actor.team;</div>
 <div class="line"><a name="l01181"></a><span class="lineno"> 1181</span>&#160;</div>
@@ -1453,7 +1453,7 @@ $(document).ready(function(){initNavTree('d3/def/sv__turrets_8qc_source.html','.
 <div class="line"><a name="l01361"></a><span class="lineno"> 1361</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#a1a72475c9a77225463fc38559463c578">tur_defend</a> == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l01362"></a><span class="lineno"> 1362</span>&#160;        {</div>
 <div class="line"><a name="l01363"></a><span class="lineno"> 1363</span>&#160;            this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l01364"></a><span class="lineno"> 1364</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Turret has invalid defendpoint!\n&quot;</span>);</div>
+<div class="line"><a name="l01364"></a><span class="lineno"> 1364</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Turret has invalid defendpoint!&quot;</span>);</div>
 <div class="line"><a name="l01365"></a><span class="lineno"> 1365</span>&#160;        }</div>
 <div class="line"><a name="l01366"></a><span class="lineno"> 1366</span>&#160;    }</div>
 <div class="line"><a name="l01367"></a><span class="lineno"> 1367</span>&#160;</div>
@@ -1755,7 +1755,7 @@ $(document).ready(function(){initNavTree('d3/def/sv__turrets_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../d3/def/sv__turrets_8qc.html">sv_turrets.qc</a></li>
-    <li class="footer">Generated on Sat Aug 13 2016 07:07:45 for Xonotic by
+    <li class="footer">Generated on Sat Aug 13 2016 11:20:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

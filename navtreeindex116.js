@@ -1,5 +1,6 @@
 var NAVTREEINDEX116 =
 {
+"de/dab/classObserver.html#a2dae84a754cf7b77999839bf5891ca42":[1,0,74,9],
 "de/dab/classObserver.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012":[1,0,74,16],
 "de/dab/classObserver.html#a348fa10d11efdf527c16c2c6e1a018f1":[1,0,74,5],
 "de/dab/classObserver.html#a450645e61c136826f09940a1334c7f34":[1,0,74,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX116 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,166,27],
 "de/de7/classXonoticHUDItemsTimeDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,166,48],
 "de/de7/classXonoticHUDItemsTimeDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,166,81],
-"de/de7/classXonoticHUDItemsTimeDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,166,40],
-"de/de7/classXonoticHUDItemsTimeDialog.html#ad0ffab0c2a4089154bc04e434c67a148":[1,0,166,71]
+"de/de7/classXonoticHUDItemsTimeDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,166,40]
 };

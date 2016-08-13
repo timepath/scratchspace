@@ -1,5 +1,6 @@
 var NAVTREEINDEX109 =
 {
+"dd/db3/classXonoticQuitDialog.html#ac585f4f082ba25f5afde74ec79f6d1ae":[1,0,203,80],
 "dd/db3/classXonoticQuitDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,203,0],
 "dd/db3/classXonoticQuitDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,203,22],
 "dd/db3/classXonoticQuitDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,203,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX109 =
 "dd/def/dialog__settings__input__userbind_8qc.html#a32c465ca5715f92a2335f8067b539aea":[2,0,5,4,142,1],
 "dd/def/dialog__settings__input__userbind_8qc.html#a737ab79b48f62178e515a7842873bbbe":[2,0,5,4,142,2],
 "dd/def/dialog__settings__input__userbind_8qc.html#aa82632934f25109e4d110818af4b509c":[2,0,5,4,142,0],
-"dd/def/dialog__settings__input__userbind_8qc_source.html":[2,0,5,4,142],
-"dd/df1/registry__net_8qh.html":[2,0,4,44]
+"dd/def/dialog__settings__input__userbind_8qc_source.html":[2,0,5,4,142]
 };

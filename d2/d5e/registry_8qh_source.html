@@ -241,7 +241,7 @@ $(document).ready(function(){initNavTree('d2/d5e/registry_8qh_source.html','../.
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="preprocessor">        FOREACH(id, true, s = strcat(s, join, it.registered_id)); \</span></div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;<span class="preprocessor">        s = substring(s, strlen(join), -1); \</span></div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;<span class="preprocessor">        string h = REGISTRY_HASH(id) = strzone(digest_hex(algo, s)); \</span></div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor">        LOG_DEBUGF(#id &quot;: %s\n[%s]\n&quot;, h, s); \</span></div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;<span class="preprocessor">        LOG_DEBUGF(#id &quot;: %s\n[%s]&quot;, h, s); \</span></div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor">    } \</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="preprocessor">    void Registry_check(string r, string sv) \</span></div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="preprocessor">    { \</span></div>
@@ -250,7 +250,7 @@ $(document).ready(function(){initNavTree('d2/d5e/registry_8qh_source.html','../.
 <div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="preprocessor">            string cl = REGISTRY_HASH(id); \</span></div>
 <div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="preprocessor">            if (cl != sv) \</span></div>
 <div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="preprocessor">            { \</span></div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor">                LOG_FATALF(&quot;client/server mismatch (%s).\nCL: %s\nSV: %s\n&quot;, r, cl, sv); \</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="preprocessor">                LOG_FATALF(&quot;client/server mismatch (%s).\nCL: %s\nSV: %s&quot;, r, cl, sv); \</span></div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="preprocessor">            } \</span></div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="preprocessor">        } \</span></div>
 <div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="preprocessor">    } \</span></div>
@@ -284,7 +284,7 @@ $(document).ready(function(){initNavTree('d2/d5e/registry_8qh_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d2/d5e/registry_8qh.html">registry.qh</a></li>
-    <li class="footer">Generated on Sat Aug 13 2016 07:07:46 for Xonotic by
+    <li class="footer">Generated on Sat Aug 13 2016 11:20:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
