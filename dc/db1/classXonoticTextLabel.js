@@ -1,5 +1,10 @@
 var classXonoticTextLabel =
 [
+    [ "ATTRIB", "dc/db1/classXonoticTextLabel.html#a7edc1888395b65fc0bbc556d68d0e173", null ],
+    [ "ATTRIB", "dc/db1/classXonoticTextLabel.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5", null ],
+    [ "ATTRIB", "dc/db1/classXonoticTextLabel.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
+    [ "ATTRIB", "dc/db1/classXonoticTextLabel.html#ab1ec655ecda8414e0ed22a5f621dbfaa", null ],
+    [ "ATTRIB", "dc/db1/classXonoticTextLabel.html#afdcf1fb79903f747cda494b27206526b", null ],
     [ "configureLabel", "dc/db1/classXonoticTextLabel.html#a2e93b1dadbb72eb68b3501286ff568c9", null ],
     [ "configureXonoticTextLabel", "dc/db1/classXonoticTextLabel.html#ae3aaefe7fac0a6ad898f2b39be8a10a4", null ],
     [ "describe", "dc/db1/classXonoticTextLabel.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
@@ -29,7 +34,6 @@ var classXonoticTextLabel =
     [ "alpha", "dc/db1/classXonoticTextLabel.html#a2a63bce142da028d2669935610bf5cf3", null ],
     [ "colorL", "dc/db1/classXonoticTextLabel.html#a20862a0ad0266d3060b177cdccb9de0c", null ],
     [ "condenseFactor", "dc/db1/classXonoticTextLabel.html#a566e9a0ddc6c84014a671a939f8d35fd", null ],
-    [ "currentText", "dc/db1/classXonoticTextLabel.html#a8894e7ce2ef345979ef91af7035cc80b", null ],
     [ "disabled", "dc/db1/classXonoticTextLabel.html#a967932f68a90eef8c0919e94d334aee1", null ],
     [ "disabledAlpha", "dc/db1/classXonoticTextLabel.html#a133460fe33371274a7cd46a6aa9a9013", null ],
     [ "focusable", "dc/db1/classXonoticTextLabel.html#a754eb52c935d65ccbe2c852e115f4408", null ],
@@ -43,13 +47,9 @@ var classXonoticTextLabel =
     [ "origin", "dc/db1/classXonoticTextLabel.html#ac0368d6c19820c8225ee9484ddbbe715", null ],
     [ "overrideCondenseFactor", "dc/db1/classXonoticTextLabel.html#a8a2bc534da630cd8dddc0aa9bc8df491", null ],
     [ "overrideRealOrigin", "dc/db1/classXonoticTextLabel.html#a7d1408b9e9f3e1ee27eba82b14215234", null ],
-    [ "parent", "dc/db1/classXonoticTextLabel.html#a990854e3f6b366077f779d6d5f48aa72", null ],
     [ "preferredFocusPriority", "dc/db1/classXonoticTextLabel.html#a7f475a142ac6b96a1c71aecb16730322", null ],
     [ "realFontSize", "dc/db1/classXonoticTextLabel.html#a49c0048429f458532d6fe50c5efcbcd4", null ],
     [ "realOrigin", "dc/db1/classXonoticTextLabel.html#a09945bf5832d3eace250f8bdcf77ca5b", null ],
     [ "recalcPos", "dc/db1/classXonoticTextLabel.html#afc04c73de4b6ffcc3cecbfba4df5c57a", null ],
-    [ "size", "dc/db1/classXonoticTextLabel.html#afc9428d371ed63dd0316db5558e81d30", null ],
-    [ "text", "dc/db1/classXonoticTextLabel.html#a1cada7f613ee05baf72eac545644d9d7", null ],
-    [ "textEntity", "dc/db1/classXonoticTextLabel.html#a17551f8ea91a998bfdeb18609c45d978", null ],
-    [ "tooltip", "dc/db1/classXonoticTextLabel.html#a253df954a75f54d7f8ff1edfdb3c2e13", null ]
+    [ "size", "dc/db1/classXonoticTextLabel.html#afc9428d371ed63dd0316db5558e81d30", null ]
 ];

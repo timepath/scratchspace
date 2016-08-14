@@ -1,5 +1,10 @@
 var classFusionReactor =
 [
+    [ "ATTRIB", "d1/d2b/classFusionReactor.html#af0d1789cf260770caa9002a133a661d7", null ],
+    [ "ATTRIB", "d1/d2b/classFusionReactor.html#a34980e66ed09a68af3e3fa9e204a18ca", null ],
+    [ "ATTRIB", "d1/d2b/classFusionReactor.html#a3f55a0540df468e6f0406b2907921e9a", null ],
+    [ "ATTRIB", "d1/d2b/classFusionReactor.html#ae1a47aa50246561c44f593e7af3ad1ce", null ],
+    [ "ATTRIB", "d1/d2b/classFusionReactor.html#aeeb1a28cda1a5dae7141feea2887475f", null ],
     [ "describe", "d1/d2b/classFusionReactor.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d1/d2b/classFusionReactor.html#a138adca099fbd117101fe56edb53d8aa", null ],
     [ "tr_config", "d1/d2b/classFusionReactor.html#ab9ce986163a0f0e24e84166491f0fe7f", null ],
@@ -9,7 +14,6 @@ var classFusionReactor =
     [ "tr_think", "d1/d2b/classFusionReactor.html#ac0a380f4b08bad88d17a175d4f648795", null ],
     [ "head_model", "d1/d2b/classFusionReactor.html#aa32bd67d8b7c6dcd5c587f18c111227f", null ],
     [ "m_id", "d1/d2b/classFusionReactor.html#a3144102787442a58055180121b5e9536", null ],
-    [ "m_weapon", "d1/d2b/classFusionReactor.html#ae28f06ae15cb40a2b8fc7c48e7685856", null ],
     [ "maxs", "d1/d2b/classFusionReactor.html#a7852485d468379b9f0dd2334ccdcd7ef", null ],
     [ "mdl", "d1/d2b/classFusionReactor.html#afaad3bd0ee22bdc2bad0d5ccd45bbf6e", null ],
     [ "mins", "d1/d2b/classFusionReactor.html#a323e21fa2374710870ebead449e6e73c", null ],

@@ -1,5 +1,7 @@
 var classHunterKillerAttack =
 [
+    [ "ATTRIB", "d4/d56/classHunterKillerAttack.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d4/d56/classHunterKillerAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d4/d56/classHunterKillerAttack.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d4/d56/classHunterKillerAttack.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d4/d56/classHunterKillerAttack.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classHunterKillerAttack =
     [ "m_id", "d4/d56/classHunterKillerAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d4/d56/classHunterKillerAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d4/d56/classHunterKillerAttack.html#acb2c8b283e96f05859e34cfd49480d08", null ],
-    [ "m_pickup", "d4/d56/classHunterKillerAttack.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d4/d56/classHunterKillerAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d4/d56/classHunterKillerAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],
     [ "netname", "d4/d56/classHunterKillerAttack.html#a568b2fd60480df75309111a091b920bf", null ],

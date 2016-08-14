@@ -1,5 +1,7 @@
 var classHLAC =
 [
+    [ "ATTRIB", "d4/d41/classHLAC.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d4/d41/classHLAC.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d4/d41/classHLAC.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d4/d41/classHLAC.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d4/d41/classHLAC.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classHLAC =
     [ "m_id", "d4/d41/classHLAC.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d4/d41/classHLAC.html#a2c122afdab63ad7e1be0b7ec6af4d779", null ],
     [ "m_name", "d4/d41/classHLAC.html#a8c5ff42176257cb27b56c6bd041b4189", null ],
-    [ "m_pickup", "d4/d41/classHLAC.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d4/d41/classHLAC.html#a2e4cbca1595e4e60763ce1a6e29653cf", null ],
     [ "model2", "d4/d41/classHLAC.html#a1c8b63221f6bd54bc757ff99e2b0bdc4", null ],
     [ "netname", "d4/d41/classHLAC.html#ab3b14ad273ae0864d59246f62985d8b6", null ],

@@ -1,5 +1,7 @@
 var classWyvernAttack =
 [
+    [ "ATTRIB", "de/d8c/classWyvernAttack.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "de/d8c/classWyvernAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "de/d8c/classWyvernAttack.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "de/d8c/classWyvernAttack.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "de/d8c/classWyvernAttack.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classWyvernAttack =
     [ "m_id", "de/d8c/classWyvernAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "de/d8c/classWyvernAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "de/d8c/classWyvernAttack.html#ae1b596b707d1f678083f3e5265cabf81", null ],
-    [ "m_pickup", "de/d8c/classWyvernAttack.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "de/d8c/classWyvernAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "de/d8c/classWyvernAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],
     [ "netname", "de/d8c/classWyvernAttack.html#ad42abb7cec7712239288a5802bc28a6a", null ],

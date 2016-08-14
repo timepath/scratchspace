@@ -148,7 +148,7 @@ Macros</h2></td></tr>
 <tr class="separator:a79c666691830269e5a19df328d53d840"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaecb26dfba6432e9f66a487881c0837b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b">FIELDS</a>(<a class="el" href="../../dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b">MY</a>)</td></tr>
 <tr class="separator:aaecb26dfba6432e9f66a487881c0837b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b8c5c4e402229375c8d89ebb4205802"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(f, type, val)&#160;&#160;&#160;<a class="el" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(<a class="el" href="../../de/d95/classEffectInfo.html">EffectInfo</a>, effectinfo_##f, type, val)</td></tr>
+<tr class="memitem:a6b8c5c4e402229375c8d89ebb4205802"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802">MY</a>(f, type, val)&#160;&#160;&#160;<a class="el" href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">ATTRIB</a>(<a class="el" href="../../de/d95/classEffectInfo.html">EffectInfo</a>, effectinfo_##f, type, val);</td></tr>
 <tr class="separator:a6b8c5c4e402229375c8d89ebb4205802"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f50f3a9d3a2eeb76c14e09ee395601b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b">MY</a>(f)&#160;&#160;&#160;this.effectinfo_##f</td></tr>
 <tr class="separator:a7f50f3a9d3a2eeb76c14e09ee395601b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -327,7 +327,7 @@ Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../db/d0a/oo_8qh.html#a381644ce1564409db8c6a582aaf9316f">ATTRIB</a>(<a class="el" href="../../de/d95/classEffectInfo.html">EffectInfo</a>, effectinfo_##f, type, val)</td>
+          <td></td><td>&#160;&#160;&#160;<a class="el" href="../../db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15">ATTRIB</a>(<a class="el" href="../../de/d95/classEffectInfo.html">EffectInfo</a>, effectinfo_##f, type, val);</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -579,7 +579,7 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line">[[accumulate]] <span class="keywordtype">void</span> effectinfo_##<a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>(<a class="code" href="../../d2/d52/classEffectInfoGroup.html">EffectInfoGroup</a> <a class="code" href="../../d7/d8a/animhost_8qc.html#a51d0693fdc1dd0c84341d4220a0b33ca">parent</a>, <a class="code" href="../../de/d95/classEffectInfo.html">EffectInfo</a> <span class="keyword">this</span>) { parent = EFFECTINFO_##<a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>; parent.children[parent.<a class="code" href="../../d2/d52/classEffectInfoGroup.html#a043e791cec10eac21aad429adc6edb40">children_count</a>++] = <span class="keyword">this</span> = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../de/d95/classEffectInfo.html">EffectInfo</a>, #name); } \</div>
+<b>Value:</b><div class="fragment"><div class="line">[[accumulate]] <span class="keywordtype">void</span> effectinfo_##<a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>(<a class="code" href="../../d2/d52/classEffectInfoGroup.html">EffectInfoGroup</a> <a class="code" href="../../d7/d8a/animhost_8qc.html#a51d0693fdc1dd0c84341d4220a0b33ca">parent</a>, <a class="code" href="../../de/d95/classEffectInfo.html">EffectInfo</a> <span class="keyword">this</span>) { parent = EFFECTINFO_##<a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>; parent.<a class="code" href="../../d2/d52/classEffectInfoGroup.html#a332c226baeefa3825b96abe8221f3a22">children</a>[parent.<a class="code" href="../../d2/d52/classEffectInfoGroup.html#a043e791cec10eac21aad429adc6edb40">children_count</a>++] = <span class="keyword">this</span> = <a class="code" href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a>(<a class="code" href="../../de/d95/classEffectInfo.html">EffectInfo</a>, #name); } \</div>
 <div class="line">    [[accumulate]] <span class="keywordtype">void</span> effectinfo_##<a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>(<a class="code" href="../../d2/d52/classEffectInfoGroup.html">EffectInfoGroup</a> <a class="code" href="../../d7/d8a/animhost_8qc.html#a51d0693fdc1dd0c84341d4220a0b33ca">parent</a>, <a class="code" href="../../de/d95/classEffectInfo.html">EffectInfo</a> <span class="keyword">this</span>)</div>
 <div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00113">oo.qh:113</a></div></div>
 <div class="ttc" id="animhost_8qc_html_a51d0693fdc1dd0c84341d4220a0b33ca"><div class="ttname"><a href="../../d7/d8a/animhost_8qc.html#a51d0693fdc1dd0c84341d4220a0b33ca">parent</a></div><div class="ttdeci">entity parent</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d8a/animhost_8qc_source.html#l00007">animhost.qc:7</a></div></div>
@@ -587,6 +587,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="classEffectInfoGroup_html"><div class="ttname"><a href="../../d2/d52/classEffectInfoGroup.html">EffectInfoGroup</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00229">effectinfo.qc:229</a></div></div>
 <div class="ttc" id="menu_8qh_html_a8ccf841cb59e451791bcb2e1ac4f1edc"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a></div><div class="ttdeci">string name</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00030">menu.qh:30</a></div></div>
 <div class="ttc" id="classEffectInfo_html"><div class="ttname"><a href="../../de/d95/classEffectInfo.html">EffectInfo</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00140">effectinfo.qc:140</a></div></div>
+<div class="ttc" id="classEffectInfoGroup_html_a332c226baeefa3825b96abe8221f3a22"><div class="ttname"><a href="../../d2/d52/classEffectInfoGroup.html#a332c226baeefa3825b96abe8221f3a22">EffectInfoGroup::children</a></div><div class="ttdeci">EffectInfo children[16]</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d87/effectinfo_8qc_source.html#l00230">effectinfo.qc:230</a></div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../dd/d87/effectinfo_8qc_source.html#l00336">336</a> of file <a class="el" href="../../dd/d87/effectinfo_8qc_source.html">effectinfo.qc</a>.</p>
 
@@ -860,7 +861,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_f54d74b0e9ac4c004ab42fc4ec4fcb87.html">effects</a></li><li class="navelem"><a class="el" href="../../dd/d87/effectinfo_8qc.html">effectinfo.qc</a></li>
-    <li class="footer">Generated on Sun Aug 14 2016 02:46:21 for Xonotic by
+    <li class="footer">Generated on Sun Aug 14 2016 05:41:11 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

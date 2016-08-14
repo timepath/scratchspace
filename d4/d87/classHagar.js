@@ -1,5 +1,7 @@
 var classHagar =
 [
+    [ "ATTRIB", "d4/d87/classHagar.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d4/d87/classHagar.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d4/d87/classHagar.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d4/d87/classHagar.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d4/d87/classHagar.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classHagar =
     [ "m_id", "d4/d87/classHagar.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d4/d87/classHagar.html#a02a6c5f375375967112aca976c008b99", null ],
     [ "m_name", "d4/d87/classHagar.html#a11327b484b6a3417024bef2a1c91c653", null ],
-    [ "m_pickup", "d4/d87/classHagar.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d4/d87/classHagar.html#aff52b16f5e232f9aaec1b24ae8cf43b8", null ],
     [ "model2", "d4/d87/classHagar.html#a09a0dc1abbc14dadf57cdd074a981066", null ],
     [ "netname", "d4/d87/classHagar.html#a72da9b92c7eee757c86106118f2ec1b5", null ],

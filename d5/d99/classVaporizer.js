@@ -1,5 +1,7 @@
 var classVaporizer =
 [
+    [ "ATTRIB", "d5/d99/classVaporizer.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d5/d99/classVaporizer.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d5/d99/classVaporizer.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d5/d99/classVaporizer.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d5/d99/classVaporizer.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classVaporizer =
     [ "m_id", "d5/d99/classVaporizer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d5/d99/classVaporizer.html#a7095462abbfa455e3adaed21dd639fa1", null ],
     [ "m_name", "d5/d99/classVaporizer.html#a408b94a88d25caa17cafa9a1abefc462", null ],
-    [ "m_pickup", "d5/d99/classVaporizer.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d5/d99/classVaporizer.html#a7ee206484c7c3f48a7b32aca00ab22b3", null ],
     [ "model2", "d5/d99/classVaporizer.html#a3af421ab69c4ea7c789a44551fe77eb4", null ],
     [ "netname", "d5/d99/classVaporizer.html#a20cc8617856e3fbdcff8458e12ed24b3", null ],

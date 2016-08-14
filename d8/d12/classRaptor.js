@@ -1,6 +1,10 @@
 var classRaptor =
 [
-    [ "bool", "d8/d12/classRaptor.html#a477d6d3a09b10fa5118ef9725fb7fd41", null ],
+    [ "ATTRIB", "d8/d12/classRaptor.html#afb51af177de217b40bf0f926fb5ff0bb", null ],
+    [ "ATTRIB", "d8/d12/classRaptor.html#a8ce2a1db2b82992926802c8ce6d7d22b", null ],
+    [ "ATTRIB", "d8/d12/classRaptor.html#a84feb55c1ef028f0176592c458dc6c0e", null ],
+    [ "ATTRIB", "d8/d12/classRaptor.html#a269c42fb128fc5d56fac3abb21fbcdca", null ],
+    [ "ATTRIB", "d8/d12/classRaptor.html#a70e84502249082a3676988cfb618baf5", null ],
     [ "describe", "d8/d12/classRaptor.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d8/d12/classRaptor.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "vr_crosshair", "d8/d12/classRaptor.html#a58f0c04e5979c92f1d5329627cbf1331", null ],

@@ -1,5 +1,7 @@
 var classBlaster =
 [
+    [ "ATTRIB", "d7/d32/classBlaster.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d7/d32/classBlaster.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d7/d32/classBlaster.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d7/d32/classBlaster.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d7/d32/classBlaster.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classBlaster =
     [ "m_id", "d7/d32/classBlaster.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d7/d32/classBlaster.html#a40be23c6ef8218a58f543e06bc1f95e3", null ],
     [ "m_name", "d7/d32/classBlaster.html#a81dae4670fcc0e3fe0e0648f8816719f", null ],
-    [ "m_pickup", "d7/d32/classBlaster.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d7/d32/classBlaster.html#a48d1c8644fbabc4e8d57762dc590e2f8", null ],
     [ "model2", "d7/d32/classBlaster.html#a8467f0efb78cb00d04f432e950388dcf", null ],
     [ "netname", "d7/d32/classBlaster.html#a92d67b6f85170073ab4e6a0dcd8d0fd7", null ],

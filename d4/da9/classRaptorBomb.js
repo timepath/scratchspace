@@ -1,5 +1,7 @@
 var classRaptorBomb =
 [
+    [ "ATTRIB", "d4/da9/classRaptorBomb.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d4/da9/classRaptorBomb.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d4/da9/classRaptorBomb.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d4/da9/classRaptorBomb.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d4/da9/classRaptorBomb.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classRaptorBomb =
     [ "m_id", "d4/da9/classRaptorBomb.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d4/da9/classRaptorBomb.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d4/da9/classRaptorBomb.html#aa59000c5ef6f34576d79073e505c22d0", null ],
-    [ "m_pickup", "d4/da9/classRaptorBomb.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d4/da9/classRaptorBomb.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d4/da9/classRaptorBomb.html#a2ccedc667a5772b3d2c7579255c96da7", null ],
     [ "netname", "d4/da9/classRaptorBomb.html#ac18cdfd90d2ace31935d28130c75e814", null ],

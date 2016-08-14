@@ -1,5 +1,7 @@
 var classElectro =
 [
+    [ "ATTRIB", "dc/d6c/classElectro.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "dc/d6c/classElectro.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "dc/d6c/classElectro.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "dc/d6c/classElectro.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "dc/d6c/classElectro.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classElectro =
     [ "m_id", "dc/d6c/classElectro.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "dc/d6c/classElectro.html#a7515e207aca6eb6f7637656cd171cdd2", null ],
     [ "m_name", "dc/d6c/classElectro.html#a945961c4c41d49c8e3f94312947604b5", null ],
-    [ "m_pickup", "dc/d6c/classElectro.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "dc/d6c/classElectro.html#a4604acb234d9ecadf3d03804c09f82c3", null ],
     [ "model2", "dc/d6c/classElectro.html#a3c36074d9020783cd496dd52b2a60a72", null ],
     [ "netname", "dc/d6c/classElectro.html#af6ec8ca9d9a56799ee01bd3609f134e2", null ],

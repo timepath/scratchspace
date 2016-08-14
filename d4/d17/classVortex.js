@@ -1,5 +1,7 @@
 var classVortex =
 [
+    [ "ATTRIB", "d4/d17/classVortex.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d4/d17/classVortex.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d4/d17/classVortex.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d4/d17/classVortex.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d4/d17/classVortex.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classVortex =
     [ "m_id", "d4/d17/classVortex.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d4/d17/classVortex.html#abfce3f573742b8b29c3afe3205669b9b", null ],
     [ "m_name", "d4/d17/classVortex.html#af7d0bca2ffb78c66e07a3b836757fa58", null ],
-    [ "m_pickup", "d4/d17/classVortex.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d4/d17/classVortex.html#a4a7a378f402d2a24a72bd93c565d53f9", null ],
     [ "model2", "d4/d17/classVortex.html#a158f36c4de5936f233a77ff66f6fe910", null ],
     [ "netname", "d4/d17/classVortex.html#a5aeb444609121008d9fceaf964badf7c", null ],

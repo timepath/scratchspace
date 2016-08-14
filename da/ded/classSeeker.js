@@ -1,5 +1,7 @@
 var classSeeker =
 [
+    [ "ATTRIB", "da/ded/classSeeker.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "da/ded/classSeeker.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "da/ded/classSeeker.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "da/ded/classSeeker.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "da/ded/classSeeker.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classSeeker =
     [ "m_id", "da/ded/classSeeker.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "da/ded/classSeeker.html#ac8fdc2b1292faa8fcecd4261e507863c", null ],
     [ "m_name", "da/ded/classSeeker.html#a266faeea429eb025691b83856e8e1185", null ],
-    [ "m_pickup", "da/ded/classSeeker.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "da/ded/classSeeker.html#a0b3794fed2b4d3aa28518570269fa99d", null ],
     [ "model2", "da/ded/classSeeker.html#a92563cdb776fe17baaecf31b617b0f3f", null ],
     [ "netname", "da/ded/classSeeker.html#aa61ca89b6d3155640a19c2ce8dcf4740", null ],

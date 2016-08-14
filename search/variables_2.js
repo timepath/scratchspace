@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['backgroundimage',['backgroundImage',['../dc/d06/classDialog.html#a3c982e9f0a22c38f840b3310e324ebea',1,'Dialog::backgroundImage()'],['../de/d9c/classTab.html#ac3be5265f8fd20caa82eeb834c15f6be',1,'Tab::backgroundImage()'],['../d5/d95/classXonoticDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea',1,'XonoticDialog::backgroundImage()'],['../d3/dce/classXonoticTab.html#a1ac6ee1e1a7fc5bc8247348b269fd503',1,'XonoticTab::backgroundImage()']]],
+  ['backgroundimage',['backgroundImage',['../d5/d95/classXonoticDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea',1,'XonoticDialog']]],
   ['ballcarried',['ballcarried',['../d5/d26/server_2defs_8qh.html#a137a4251a46a5fea7db7d4f16b190dcb',1,'defs.qh']]],
   ['ballistics_5fdensity',['ballistics_density',['../d5/d26/server_2defs_8qh.html#a4fb2fb54df1e968eb7ecb8cc92f0f3ec',1,'defs.qh']]],
   ['ban_5fchecked',['ban_checked',['../d6/d95/ipban_8qc.html#a0cc14f1baeb0997f35d7d929b2836628',1,'ipban.qc']]],
@@ -276,8 +276,6 @@ var searchData=
   ['button_5fzoom',['button_zoom',['../d0/d2a/client_2main_8qh.html#a61a267473fc7421049cd4780baa4985b',1,'main.qh']]],
   ['buttonchat',['buttonchat',['../de/d5e/dpextensions_8qc.html#a8e56e01487186083a668c11a820f3c7b',1,'dpextensions.qc']]],
   ['buttonleftoftext',['buttonLeftOfText',['../d1/d19/classButton.html#a4985255a6e0984252ab7ccedd6347d5b',1,'Button']]],
-  ['buttonnext',['buttonNext',['../d4/d91/classXonoticCampaignList.html#a81e8842788db29e40bdbe498a1494be8',1,'XonoticCampaignList']]],
-  ['buttonprev',['buttonPrev',['../d4/d91/classXonoticCampaignList.html#ab4d49833930a1611ffedbc74c6f261fe',1,'XonoticCampaignList']]],
   ['buttons_5fold',['buttons_old',['../df/dae/player_8qh.html#aeb860272089ca58c254feaccffc494c8',1,'player.qh']]],
   ['buttonuse',['buttonuse',['../de/d5e/dpextensions_8qc.html#a950504efbc7fcc04ca8c7d6965357f6d',1,'dpextensions.qc']]]
 ];

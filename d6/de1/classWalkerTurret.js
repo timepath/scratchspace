@@ -1,5 +1,10 @@
 var classWalkerTurret =
 [
+    [ "ATTRIB", "d6/de1/classWalkerTurret.html#af0d1789cf260770caa9002a133a661d7", null ],
+    [ "ATTRIB", "d6/de1/classWalkerTurret.html#a34980e66ed09a68af3e3fa9e204a18ca", null ],
+    [ "ATTRIB", "d6/de1/classWalkerTurret.html#a3f55a0540df468e6f0406b2907921e9a", null ],
+    [ "ATTRIB", "d6/de1/classWalkerTurret.html#ae1a47aa50246561c44f593e7af3ad1ce", null ],
+    [ "ATTRIB", "d6/de1/classWalkerTurret.html#aeeb1a28cda1a5dae7141feea2887475f", null ],
     [ "describe", "d6/de1/classWalkerTurret.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d6/de1/classWalkerTurret.html#a138adca099fbd117101fe56edb53d8aa", null ],
     [ "tr_config", "d6/de1/classWalkerTurret.html#ab9ce986163a0f0e24e84166491f0fe7f", null ],

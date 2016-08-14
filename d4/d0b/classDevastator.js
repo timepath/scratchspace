@@ -1,5 +1,7 @@
 var classDevastator =
 [
+    [ "ATTRIB", "d4/d0b/classDevastator.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d4/d0b/classDevastator.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d4/d0b/classDevastator.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d4/d0b/classDevastator.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d4/d0b/classDevastator.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classDevastator =
     [ "m_id", "d4/d0b/classDevastator.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d4/d0b/classDevastator.html#a7c2d39b73432ab96b1268d78614dfdc1", null ],
     [ "m_name", "d4/d0b/classDevastator.html#ab2c4731e7a1ac2f95747cf9626a4cc53", null ],
-    [ "m_pickup", "d4/d0b/classDevastator.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d4/d0b/classDevastator.html#acaff8d70088d8455009a62ef33f04777", null ],
     [ "model2", "d4/d0b/classDevastator.html#ac64bdfa8449e2a1843d8c52665fb7c66", null ],
     [ "netname", "d4/d0b/classDevastator.html#acda85fa11993057f5b32ad9c048165c7", null ],

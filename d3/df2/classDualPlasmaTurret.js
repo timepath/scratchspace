@@ -1,5 +1,10 @@
 var classDualPlasmaTurret =
 [
+    [ "ATTRIB", "d3/df2/classDualPlasmaTurret.html#af0d1789cf260770caa9002a133a661d7", null ],
+    [ "ATTRIB", "d3/df2/classDualPlasmaTurret.html#a34980e66ed09a68af3e3fa9e204a18ca", null ],
+    [ "ATTRIB", "d3/df2/classDualPlasmaTurret.html#a3f55a0540df468e6f0406b2907921e9a", null ],
+    [ "ATTRIB", "d3/df2/classDualPlasmaTurret.html#ae1a47aa50246561c44f593e7af3ad1ce", null ],
+    [ "ATTRIB", "d3/df2/classDualPlasmaTurret.html#aeeb1a28cda1a5dae7141feea2887475f", null ],
     [ "describe", "d3/df2/classDualPlasmaTurret.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d3/df2/classDualPlasmaTurret.html#a138adca099fbd117101fe56edb53d8aa", null ],
     [ "tr_config", "d3/df2/classDualPlasmaTurret.html#ab9ce986163a0f0e24e84166491f0fe7f", null ],

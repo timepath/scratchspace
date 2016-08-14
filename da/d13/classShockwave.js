@@ -1,5 +1,7 @@
 var classShockwave =
 [
+    [ "ATTRIB", "da/d13/classShockwave.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "da/d13/classShockwave.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "da/d13/classShockwave.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "da/d13/classShockwave.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "da/d13/classShockwave.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classShockwave =
     [ "m_id", "da/d13/classShockwave.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "da/d13/classShockwave.html#ae3f0c4cbbf202d44f9a32b733f1b2353", null ],
     [ "m_name", "da/d13/classShockwave.html#a08e28f6756548152ade6d1744dcfab9b", null ],
-    [ "m_pickup", "da/d13/classShockwave.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "da/d13/classShockwave.html#a9e3d41334eb7d60e9d458393bf5f35f1", null ],
     [ "model2", "da/d13/classShockwave.html#a269f0ca4851658a4830dfa93ed46948f", null ],
     [ "netname", "da/d13/classShockwave.html#a7495a799cf73beef58b25f94e4052af3", null ],

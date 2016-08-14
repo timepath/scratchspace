@@ -1,5 +1,7 @@
 var classArc =
 [
+    [ "ATTRIB", "db/d3c/classArc.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "db/d3c/classArc.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "db/d3c/classArc.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "db/d3c/classArc.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "db/d3c/classArc.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classArc =
     [ "m_id", "db/d3c/classArc.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "db/d3c/classArc.html#a31fbe8e3abd6f9b3eacf335eb2209ddb", null ],
     [ "m_name", "db/d3c/classArc.html#a97df2fcca62083efe293f759373b2e98", null ],
-    [ "m_pickup", "db/d3c/classArc.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "db/d3c/classArc.html#ab8aeb9c30f5600afc253dc5ba84ad31e", null ],
     [ "model2", "db/d3c/classArc.html#a4aedf849ba0c9526f1df8794c3f1b789", null ],
     [ "netname", "db/d3c/classArc.html#a5cce6d68e04263a7014a76f356ae2094", null ],

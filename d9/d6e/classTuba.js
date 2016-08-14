@@ -1,5 +1,7 @@
 var classTuba =
 [
+    [ "ATTRIB", "d9/d6e/classTuba.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d9/d6e/classTuba.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d9/d6e/classTuba.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d9/d6e/classTuba.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d9/d6e/classTuba.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classTuba =
     [ "m_id", "d9/d6e/classTuba.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d9/d6e/classTuba.html#a41e81660913ef4d5ba62c17b6d553a25", null ],
     [ "m_name", "d9/d6e/classTuba.html#a7b3d8a053c1a4a908b0916aa37c84305", null ],
-    [ "m_pickup", "d9/d6e/classTuba.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d9/d6e/classTuba.html#ac986eddf81cf219bfb9525ce64afcb2b", null ],
     [ "model2", "d9/d6e/classTuba.html#a8eb191107981e96ab6eaa3b4bc447c53", null ],
     [ "netname", "d9/d6e/classTuba.html#aa37db6ee5c020ead91edf3bd3e5fd503", null ],

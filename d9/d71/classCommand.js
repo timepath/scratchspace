@@ -1,8 +1,8 @@
 var classCommand =
 [
+    [ "ATTRIB", "d9/d71/classCommand.html#a0f2cd8b45baa552bdb284ad6cc0e5e99", null ],
+    [ "ATTRIB", "d9/d71/classCommand.html#a12e2c9c862d73b0477fd4ac4cf677ea2", null ],
     [ "describe", "d9/d71/classCommand.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d9/d71/classCommand.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
-    [ "m_invokecmd", "d9/d71/classCommand.html#ac64931fa59dc71e81befc2854c7d0108", null ],
-    [ "m_description", "d9/d71/classCommand.html#a118761aa1fbdd44adbf8db13101eeefc", null ],
-    [ "m_name", "d9/d71/classCommand.html#af0105dd32ef8d8e0035631fc3a6ba9b6", null ]
+    [ "m_invokecmd", "d9/d71/classCommand.html#ac64931fa59dc71e81befc2854c7d0108", null ]
 ];

@@ -5,5 +5,7 @@ var classNade =
     [ "m_color", "d9/d61/classNade.html#a9268e47f75c2ef74b711e08258a87145", null ],
     [ "m_icon", "d9/d61/classNade.html#a2cbabf91d3612f19128e291d57b74118", null ],
     [ "m_id", "d9/d61/classNade.html#aa031abe4994e73bbcdd7e294f69b7222", null ],
-    [ "m_name", "d9/d61/classNade.html#afdabcbdbf8942855db3f96c0fb4e90e2", null ]
+    [ "m_name", "d9/d61/classNade.html#afdabcbdbf8942855db3f96c0fb4e90e2", null ],
+    [ "m_projectile", "d9/d61/classNade.html#ab407aade8d23ad03f4d5ee97f200af31", null ],
+    [ "m_trail", "d9/d61/classNade.html#a71cedfb07b146629ab02aa4a1877f5a5", null ]
 ];

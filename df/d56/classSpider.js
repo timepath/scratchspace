@@ -1,5 +1,6 @@
 var classSpider =
 [
+    [ "ATTRIB", "df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793", null ],
     [ "describe", "df/d56/classSpider.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "df/d56/classSpider.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "mr_anim", "df/d56/classSpider.html#a98fd6d803cf7376820bb26fcbca5adbd", null ],

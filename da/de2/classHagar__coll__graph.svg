@@ -46,7 +46,7 @@ if (edges && edges.length) {
         </defs>
 
 <script type="text/javascript">
-var viewWidth = 640;
+var viewWidth = 565;
 var viewHeight = 244;
 var sectionId = 'dynsection-1';
 </script>
@@ -56,155 +56,143 @@ var sectionId = 'dynsection-1';
 <title>Hagar</title>
 <!-- Node1 -->
 <g id="node1" class="node"><title>Node1</title>
-<polygon fill="#bfbfbf" stroke="black" points="215.167,-0.5 215.167,-19.5 258.167,-19.5 258.167,-0.5 215.167,-0.5"/>
-<text text-anchor="middle" x="236.667" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Hagar</text>
+<polygon fill="#bfbfbf" stroke="black" points="224.029,-0.5 224.029,-19.5 267.029,-19.5 267.029,-0.5 224.029,-0.5"/>
+<text text-anchor="middle" x="245.529" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">Hagar</text>
 </g>
 <!-- Node2 -->
 <g id="node2" class="node"><title>Node2</title>
 <g id="a_node2"><a xlink:href="../../dc/de5/classWeapon.html" target="_top" xlink:title="fields which are explicitly/manually set are marked with &quot;M&quot;, fields set automatically are marked wit...">
-<polygon fill="none" stroke="black" points="277.167,-86.5 277.167,-105.5 330.167,-105.5 330.167,-86.5 277.167,-86.5"/>
-<text text-anchor="middle" x="303.667" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00">Weapon</text>
+<polygon fill="none" stroke="black" points="172.029,-86.5 172.029,-105.5 225.029,-105.5 225.029,-86.5 172.029,-86.5"/>
+<text text-anchor="middle" x="198.529" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00">Weapon</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node1 -->
 <g id="edge1" class="edge"><title>Node2&#45;&gt;Node1</title>
-<path fill="none" stroke="midnightblue" d="M290.166,-78.0732C276.102,-60.4411 254.621,-33.5092 243.647,-19.7518"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="287.777,-80.6916 296.749,-86.3269 293.25,-76.3267 287.777,-80.6916"/>
+<path fill="none" stroke="midnightblue" d="M208.273,-77.5856C218.142,-59.9481 233.005,-33.383 240.633,-19.7518"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="205.211,-75.891 203.382,-86.3269 211.319,-79.3091 205.211,-75.891"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node"><title>Node3</title>
 <g id="a_node3"><a xlink:href="../../d8/d4b/classObject.html" target="_top" xlink:title="Object">
-<polygon fill="none" stroke="black" points="113.167,-216.5 113.167,-235.5 158.167,-235.5 158.167,-216.5 113.167,-216.5"/>
-<text text-anchor="middle" x="135.667" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">Object</text>
+<polygon fill="none" stroke="black" points="123.029,-216.5 123.029,-235.5 168.029,-235.5 168.029,-216.5 123.029,-216.5"/>
+<text text-anchor="middle" x="145.529" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">Object</text>
 </a>
 </g>
 </g>
 <!-- Node3&#45;&gt;Node2 -->
 <g id="edge2" class="edge"><title>Node3&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M153.661,-209.649C157.967,-205.888 162.517,-201.84 166.667,-198 192.735,-173.882 194.446,-162.184 223.667,-142 239.374,-131.15 245.981,-133.276 262.667,-124 272.798,-118.368 283.736,-111.1 291.764,-105.524"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="151.132,-207.209 145.854,-216.396 155.709,-212.506 151.132,-207.209"/>
-</g>
-<!-- Node9 -->
-<g id="node9" class="node"><title>Node9</title>
-<g id="a_node9"><a xlink:href="../../d6/d18/classModel.html" target="_top" xlink:title="Model">
-<polygon fill="none" stroke="black" points="78.1669,-86.5 78.1669,-105.5 121.167,-105.5 121.167,-86.5 78.1669,-86.5"/>
-<text text-anchor="middle" x="99.6669" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00">Model</text>
-</a>
-</g>
-</g>
-<!-- Node3&#45;&gt;Node9 -->
-<g id="edge11" class="edge"><title>Node3&#45;&gt;Node9</title>
-<path fill="none" stroke="midnightblue" d="M104.829,-211.175C99.9486,-207.598 95.5632,-203.239 92.6669,-198 75.8278,-167.543 89.2241,-123.78 96.1587,-105.514"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="102.997,-214.158 113.335,-216.476 106.699,-208.217 102.997,-214.158"/>
-</g>
-<!-- Node4 -->
-<g id="node4" class="node"><title>Node4</title>
-<polygon fill="none" stroke="#bfbfbf" points="201.167,-216.5 201.167,-235.5 242.167,-235.5 242.167,-216.5 201.167,-216.5"/>
-<text text-anchor="middle" x="221.667" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">string</text>
-</g>
-<!-- Node4&#45;&gt;Node1 -->
-<g id="edge8" class="edge"><title>Node4&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M218.105,-206.259C213.081,-176.625 205.492,-117.253 214.667,-68 218.008,-50.0639 226.791,-30.4987 232.195,-19.5902"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="214.712,-207.171 219.925,-216.395 221.602,-205.934 214.712,-207.171"/>
-<text text-anchor="middle" x="241.167" y="-115.5" font-family="Helvetica,sans-Serif" font-size="10.00"> netname</text>
-<text text-anchor="middle" x="241.167" y="-104.5" font-family="Helvetica,sans-Serif" font-size="10.00">w_crosshair</text>
-<text text-anchor="middle" x="241.167" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00">model2</text>
-<text text-anchor="middle" x="241.167" y="-82.5" font-family="Helvetica,sans-Serif" font-size="10.00">mdl</text>
-<text text-anchor="middle" x="241.167" y="-71.5" font-family="Helvetica,sans-Serif" font-size="10.00">m_name</text>
-</g>
-<!-- Node4&#45;&gt;Node2 -->
-<g id="edge3" class="edge"><title>Node4&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M225.207,-206.371C229.229,-188.644 237.069,-161.812 250.667,-142 261.049,-126.873 277.787,-113.845 289.673,-105.756"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="221.748,-205.81 223.136,-216.314 228.601,-207.237 221.748,-205.81"/>
-<text text-anchor="middle" x="277.167" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00"> netname</text>
-<text text-anchor="middle" x="277.167" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">w_crosshair</text>
-<text text-anchor="middle" x="277.167" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">model2</text>
-<text text-anchor="middle" x="277.167" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">mdl</text>
-<text text-anchor="middle" x="277.167" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00">m_name</text>
-</g>
-<!-- Node5 -->
-<g id="node5" class="node"><title>Node5</title>
-<polygon fill="none" stroke="#bfbfbf" points="294.167,-216.5 294.167,-235.5 335.167,-235.5 335.167,-216.5 294.167,-216.5"/>
-<text text-anchor="middle" x="314.667" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">entity</text>
-</g>
-<!-- Node5&#45;&gt;Node2 -->
-<g id="edge4" class="edge"><title>Node5&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M313.037,-206.029C310.611,-177.803 306.15,-125.892 304.399,-105.522"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="309.567,-206.538 313.911,-216.202 316.542,-205.939 309.567,-206.538"/>
-<text text-anchor="middle" x="334.167" y="-173" font-family="Helvetica,sans-Serif" font-size="10.00"> m_model</text>
-<text text-anchor="middle" x="334.167" y="-162" font-family="Helvetica,sans-Serif" font-size="10.00">m_pickup</text>
-</g>
-<!-- Node6 -->
-<g id="node6" class="node"><title>Node6</title>
-<polygon fill="none" stroke="#bfbfbf" points="555.667,-216.5 555.667,-235.5 599.667,-235.5 599.667,-216.5 555.667,-216.5"/>
-<text text-anchor="middle" x="577.667" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">vector</text>
-</g>
-<!-- Node6&#45;&gt;Node1 -->
-<g id="edge9" class="edge"><title>Node6&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M593.11,-208.566C595.391,-205.284 597.397,-201.7 598.667,-198 606.744,-174.458 605.02,-166.064 598.667,-142 589.014,-105.436 587.546,-89.8318 556.667,-68 508.056,-33.6311 322.189,-17.195 258.348,-12.4786"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="590.322,-206.447 586.753,-216.423 595.764,-210.851 590.322,-206.447"/>
-<text text-anchor="middle" x="613.167" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00"> wpcolor</text>
-</g>
-<!-- Node6&#45;&gt;Node2 -->
-<g id="edge5" class="edge"><title>Node6&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M562.627,-208.773C544.316,-189.974 511.61,-159.367 477.667,-142 429.056,-117.129 365.595,-105.232 330.303,-100.195"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="560.334,-211.439 569.768,-216.261 565.4,-206.609 560.334,-211.439"/>
-<text text-anchor="middle" x="573.167" y="-173" font-family="Helvetica,sans-Serif" font-size="10.00"> weapons</text>
-<text text-anchor="middle" x="573.167" y="-162" font-family="Helvetica,sans-Serif" font-size="10.00">wpcolor</text>
-</g>
-<!-- Node7 -->
-<g id="node7" class="node"><title>Node7</title>
-<polygon fill="none" stroke="#bfbfbf" points="416.167,-216.5 416.167,-235.5 451.167,-235.5 451.167,-216.5 416.167,-216.5"/>
-<text text-anchor="middle" x="433.667" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">float</text>
-</g>
-<!-- Node7&#45;&gt;Node1 -->
-<g id="edge13" class="edge"><title>Node7&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M460.187,-212.472C465.594,-208.623 470.57,-203.826 473.667,-198 485.348,-176.022 486.312,-163.437 473.667,-142 425.777,-60.8105 307.525,-26.4404 258.502,-15.3537"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="458.253,-209.552 451.544,-217.753 461.902,-215.526 458.253,-209.552"/>
-<text text-anchor="middle" x="506.667" y="-99" font-family="Helvetica,sans-Serif" font-size="10.00"> w_crosshair_size</text>
-<text text-anchor="middle" x="506.667" y="-88" font-family="Helvetica,sans-Serif" font-size="10.00">bot_pickupbasevalue</text>
-</g>
-<!-- Node7&#45;&gt;Node2 -->
-<g id="edge6" class="edge"><title>Node7&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M406.491,-215.3C397.668,-211.084 388.422,-205.387 381.667,-198 363.509,-178.145 374.679,-163.623 358.667,-142 347.507,-126.929 330.21,-113.891 317.998,-105.784"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="405.193,-218.551 415.761,-219.302 407.968,-212.125 405.193,-218.551"/>
-<text text-anchor="middle" x="427.667" y="-173" font-family="Helvetica,sans-Serif" font-size="10.00"> w_crosshair_size</text>
-<text text-anchor="middle" x="427.667" y="-162" font-family="Helvetica,sans-Serif" font-size="10.00">bot_pickupbasevalue</text>
+<path fill="none" stroke="midnightblue" d="M153.075,-206.776C164.689,-178.728 186.491,-126.073 195.001,-105.522"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="149.764,-205.624 149.172,-216.202 156.232,-208.302 149.764,-205.624"/>
 </g>
 <!-- Node8 -->
 <g id="node8" class="node"><title>Node8</title>
-<polygon fill="none" stroke="#bfbfbf" points="24.1669,-216.5 24.1669,-235.5 53.1669,-235.5 53.1669,-216.5 24.1669,-216.5"/>
-<text text-anchor="middle" x="38.6669" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">int</text>
+<g id="a_node8"><a xlink:href="../../d6/d18/classModel.html" target="_top" xlink:title="Model">
+<polygon fill="none" stroke="black" points="111.029,-86.5 111.029,-105.5 154.029,-105.5 154.029,-86.5 111.029,-86.5"/>
+<text text-anchor="middle" x="132.529" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00">Model</text>
+</a>
+</g>
+</g>
+<!-- Node3&#45;&gt;Node8 -->
+<g id="edge10" class="edge"><title>Node3&#45;&gt;Node8</title>
+<path fill="none" stroke="midnightblue" d="M143.603,-206.029C140.736,-177.803 135.464,-125.892 133.395,-105.522"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="140.143,-206.607 144.636,-216.202 147.107,-205.9 140.143,-206.607"/>
+</g>
+<!-- Node4 -->
+<g id="node4" class="node"><title>Node4</title>
+<polygon fill="none" stroke="#bfbfbf" points="221.029,-216.5 221.029,-235.5 262.029,-235.5 262.029,-216.5 221.029,-216.5"/>
+<text text-anchor="middle" x="241.529" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">string</text>
+</g>
+<!-- Node4&#45;&gt;Node1 -->
+<g id="edge7" class="edge"><title>Node4&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M272.222,-216.892C288.759,-211.837 306.739,-204.982 311.529,-198 325.61,-177.477 324.614,-163.172 311.529,-142 302.125,-126.783 286.824,-137.872 275.529,-124 249.642,-92.2044 245.93,-40.2302 245.515,-19.7183"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="270.869,-213.64 262.243,-219.792 272.822,-220.362 270.869,-213.64"/>
+<text text-anchor="middle" x="302.029" y="-115.5" font-family="Helvetica,sans-Serif" font-size="10.00"> netname</text>
+<text text-anchor="middle" x="302.029" y="-104.5" font-family="Helvetica,sans-Serif" font-size="10.00">w_crosshair</text>
+<text text-anchor="middle" x="302.029" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00">model2</text>
+<text text-anchor="middle" x="302.029" y="-82.5" font-family="Helvetica,sans-Serif" font-size="10.00">mdl</text>
+<text text-anchor="middle" x="302.029" y="-71.5" font-family="Helvetica,sans-Serif" font-size="10.00">m_name</text>
+</g>
+<!-- Node4&#45;&gt;Node2 -->
+<g id="edge3" class="edge"><title>Node4&#45;&gt;Node2</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M211.758,-215.005C204.166,-210.957 196.92,-205.432 192.529,-198 174.839,-168.055 188.103,-124.012 195.021,-105.593"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="210.469,-218.264 221.019,-219.237 213.379,-211.897 210.469,-218.264"/>
+<text text-anchor="middle" x="219.029" y="-189.5" font-family="Helvetica,sans-Serif" font-size="10.00"> netname</text>
+<text text-anchor="middle" x="219.029" y="-178.5" font-family="Helvetica,sans-Serif" font-size="10.00">w_crosshair</text>
+<text text-anchor="middle" x="219.029" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00">model2</text>
+<text text-anchor="middle" x="219.029" y="-156.5" font-family="Helvetica,sans-Serif" font-size="10.00">mdl</text>
+<text text-anchor="middle" x="219.029" y="-145.5" font-family="Helvetica,sans-Serif" font-size="10.00">m_name</text>
+</g>
+<!-- Node5 -->
+<g id="node5" class="node"><title>Node5</title>
+<polygon fill="none" stroke="#bfbfbf" points="286.529,-216.5 286.529,-235.5 330.529,-235.5 330.529,-216.5 286.529,-216.5"/>
+<text text-anchor="middle" x="308.529" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">vector</text>
+</g>
+<!-- Node5&#45;&gt;Node1 -->
+<g id="edge8" class="edge"><title>Node5&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M325.666,-208.422C328.066,-205.207 330.173,-201.684 331.529,-198 336.175,-185.382 329.665,-70.0563 328.529,-68 315.257,-43.9783 287.047,-27.9822 267.212,-19.2027"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="322.893,-206.276 318.944,-216.107 328.162,-210.884 322.893,-206.276"/>
+<text text-anchor="middle" x="351.029" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00"> wpcolor</text>
+</g>
+<!-- Node5&#45;&gt;Node2 -->
+<g id="edge4" class="edge"><title>Node5&#45;&gt;Node2</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M296.794,-207.953C284.664,-190.73 264.831,-163.646 245.529,-142 233.5,-128.509 218.148,-114.304 208.326,-105.547"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="294.098,-210.207 302.688,-216.41 299.841,-206.205 294.098,-210.207"/>
+<text text-anchor="middle" x="311.029" y="-173" font-family="Helvetica,sans-Serif" font-size="10.00"> weapons</text>
+<text text-anchor="middle" x="311.029" y="-162" font-family="Helvetica,sans-Serif" font-size="10.00">wpcolor</text>
+</g>
+<!-- Node6 -->
+<g id="node6" class="node"><title>Node6</title>
+<polygon fill="none" stroke="#bfbfbf" points="419.029,-216.5 419.029,-235.5 454.029,-235.5 454.029,-216.5 419.029,-216.5"/>
+<text text-anchor="middle" x="436.529" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">float</text>
+</g>
+<!-- Node6&#45;&gt;Node1 -->
+<g id="edge12" class="edge"><title>Node6&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M463.049,-212.472C468.456,-208.623 473.433,-203.826 476.529,-198 488.21,-176.022 487.888,-164.146 476.529,-142 434.239,-59.5432 315.953,-25.8117 267.079,-15.1238"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="461.115,-209.552 454.407,-217.753 464.765,-215.526 461.115,-209.552"/>
+<text text-anchor="middle" x="510.529" y="-99" font-family="Helvetica,sans-Serif" font-size="10.00"> w_crosshair_size</text>
+<text text-anchor="middle" x="510.529" y="-88" font-family="Helvetica,sans-Serif" font-size="10.00">bot_pickupbasevalue</text>
+</g>
+<!-- Node6&#45;&gt;Node2 -->
+<g id="edge5" class="edge"><title>Node6&#45;&gt;Node2</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M409.535,-213.447C401.109,-209.211 392.057,-203.97 384.529,-198 358.846,-177.63 364.931,-158.368 336.529,-142 298.54,-120.106 280.201,-140.382 239.529,-124 228.303,-119.478 216.916,-111.665 209.001,-105.604"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="408.134,-216.656 418.668,-217.788 411.139,-210.334 408.134,-216.656"/>
+<text text-anchor="middle" x="430.529" y="-173" font-family="Helvetica,sans-Serif" font-size="10.00"> w_crosshair_size</text>
+<text text-anchor="middle" x="430.529" y="-162" font-family="Helvetica,sans-Serif" font-size="10.00">bot_pickupbasevalue</text>
+</g>
+<!-- Node7 -->
+<g id="node7" class="node"><title>Node7</title>
+<polygon fill="none" stroke="#bfbfbf" points="2.02933,-216.5 2.02933,-235.5 31.0293,-235.5 31.0293,-216.5 2.02933,-216.5"/>
+<text text-anchor="middle" x="16.5293" y="-223.5" font-family="Helvetica,sans-Serif" font-size="10.00">int</text>
+</g>
+<!-- Node7&#45;&gt;Node1 -->
+<g id="edge13" class="edge"><title>Node7&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M7.32144,-207.049C6.16685,-204.093 5.16824,-201.011 4.52933,-198 -0.637395,-173.653 -1.94597,-166.032 4.52933,-142 14.4257,-105.272 17.5343,-91.3925 47.5293,-68 101.264,-26.0934 184.668,-14.9921 223.83,-12.0548"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="4.21545,-208.673 11.5516,-216.317 10.5835,-205.767 4.21545,-208.673"/>
+<text text-anchor="middle" x="74.5293" y="-104.5" font-family="Helvetica,sans-Serif" font-size="10.00"> ammo_field</text>
+<text text-anchor="middle" x="74.5293" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00">impulse</text>
+<text text-anchor="middle" x="74.5293" y="-82.5" font-family="Helvetica,sans-Serif" font-size="10.00">spawnflags</text>
+</g>
+<!-- Node7&#45;&gt;Node2 -->
+<g id="edge6" class="edge"><title>Node7&#45;&gt;Node2</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M31.842,-209.286C54.6997,-185.889 95.5055,-144.368 99.5293,-142 124.627,-127.232 136.448,-136.951 162.529,-124 172.326,-119.135 182.174,-111.517 189.087,-105.611"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="29.3367,-206.842 24.8574,-216.444 34.3465,-211.731 29.3367,-206.842"/>
+<text text-anchor="middle" x="126.529" y="-184" font-family="Helvetica,sans-Serif" font-size="10.00"> ammo_field</text>
+<text text-anchor="middle" x="126.529" y="-173" font-family="Helvetica,sans-Serif" font-size="10.00">impulse</text>
+<text text-anchor="middle" x="126.529" y="-162" font-family="Helvetica,sans-Serif" font-size="10.00">spawnflags</text>
+<text text-anchor="middle" x="126.529" y="-151" font-family="Helvetica,sans-Serif" font-size="10.00">m_id</text>
+</g>
+<!-- Node7&#45;&gt;Node8 -->
+<g id="edge11" class="edge"><title>Node7&#45;&gt;Node8</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M11.2388,-206.399C7.2687,-188.3 4.49857,-160.847 17.5293,-142 28.4722,-126.173 80.6082,-110.417 110.79,-102.414"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="7.89614,-207.458 13.7352,-216.299 14.6836,-205.746 7.89614,-207.458"/>
+<text text-anchor="middle" x="30.0293" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_id</text>
 </g>
 <!-- Node8&#45;&gt;Node1 -->
-<g id="edge14" class="edge"><title>Node8&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M28.4137,-207.53C11.4687,-176.117 -17.4736,-109.51 14.6669,-68 39.3326,-36.1437 163.883,-19.0198 214.864,-13.2539"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="25.4545,-209.409 33.4011,-216.416 31.5587,-205.983 25.4545,-209.409"/>
-<text text-anchor="middle" x="41.6669" y="-104.5" font-family="Helvetica,sans-Serif" font-size="10.00"> ammo_field</text>
-<text text-anchor="middle" x="41.6669" y="-93.5" font-family="Helvetica,sans-Serif" font-size="10.00">impulse</text>
-<text text-anchor="middle" x="41.6669" y="-82.5" font-family="Helvetica,sans-Serif" font-size="10.00">spawnflags</text>
-</g>
-<!-- Node8&#45;&gt;Node2 -->
-<g id="edge7" class="edge"><title>Node8&#45;&gt;Node2</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M62.7215,-214.635C70.5006,-210.373 78.6596,-204.815 84.6669,-198 102.572,-177.686 86.9658,-158.196 108.667,-142 163.893,-100.785 197.919,-147.587 262.667,-124 274.198,-119.799 285.73,-111.781 293.612,-105.57"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="60.9774,-211.593 53.5912,-219.189 64.102,-217.857 60.9774,-211.593"/>
-<text text-anchor="middle" x="135.667" y="-184" font-family="Helvetica,sans-Serif" font-size="10.00"> ammo_field</text>
-<text text-anchor="middle" x="135.667" y="-173" font-family="Helvetica,sans-Serif" font-size="10.00">impulse</text>
-<text text-anchor="middle" x="135.667" y="-162" font-family="Helvetica,sans-Serif" font-size="10.00">spawnflags</text>
-<text text-anchor="middle" x="135.667" y="-151" font-family="Helvetica,sans-Serif" font-size="10.00">m_id</text>
-</g>
-<!-- Node8&#45;&gt;Node9 -->
-<g id="edge12" class="edge"><title>Node8&#45;&gt;Node9</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M39.4778,-206.406C40.9133,-188.884 44.8597,-162.355 55.6669,-142 63.5577,-127.138 77.8775,-113.872 88.0359,-105.661"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="35.9799,-206.265 38.8503,-216.464 42.9663,-206.701 35.9799,-206.265"/>
-<text text-anchor="middle" x="68.1669" y="-167.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_id</text>
-</g>
-<!-- Node9&#45;&gt;Node1 -->
-<g id="edge10" class="edge"><title>Node9&#45;&gt;Node1</title>
-<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M110.412,-77.9449C119.244,-65.2318 132.848,-48.3462 148.667,-38 168.996,-24.7041 196.207,-17.6785 214.962,-14.1646"/>
-<polygon fill="#9a32cd" stroke="#9a32cd" points="107.473,-76.0435 104.861,-86.3113 113.306,-79.9136 107.473,-76.0435"/>
-<text text-anchor="middle" x="170.167" y="-41.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_model</text>
+<g id="edge9" class="edge"><title>Node8&#45;&gt;Node1</title>
+<path fill="none" stroke="#9a32cd" stroke-dasharray="5,2" d="M143.166,-77.5092C151.48,-65.0727 164.034,-48.7347 178.529,-38 192.135,-27.9242 210.023,-20.9668 223.893,-16.6408"/>
+<polygon fill="#9a32cd" stroke="#9a32cd" points="140.11,-75.791 137.672,-86.1016 146.008,-79.5616 140.11,-75.791"/>
+<text text-anchor="middle" x="200.029" y="-41.5" font-family="Helvetica,sans-Serif" font-size="10.00"> m_model</text>
 </g>
 </g>
 </svg>

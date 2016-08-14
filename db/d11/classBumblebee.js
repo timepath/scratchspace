@@ -1,6 +1,10 @@
 var classBumblebee =
 [
-    [ "bool", "db/d11/classBumblebee.html#a477d6d3a09b10fa5118ef9725fb7fd41", null ],
+    [ "ATTRIB", "db/d11/classBumblebee.html#afb51af177de217b40bf0f926fb5ff0bb", null ],
+    [ "ATTRIB", "db/d11/classBumblebee.html#a8ce2a1db2b82992926802c8ce6d7d22b", null ],
+    [ "ATTRIB", "db/d11/classBumblebee.html#a84feb55c1ef028f0176592c458dc6c0e", null ],
+    [ "ATTRIB", "db/d11/classBumblebee.html#a269c42fb128fc5d56fac3abb21fbcdca", null ],
+    [ "ATTRIB", "db/d11/classBumblebee.html#a70e84502249082a3676988cfb618baf5", null ],
     [ "describe", "db/d11/classBumblebee.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "db/d11/classBumblebee.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "vr_crosshair", "db/d11/classBumblebee.html#a58f0c04e5979c92f1d5329627cbf1331", null ],

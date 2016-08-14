@@ -339,7 +339,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a356100fb9799e6f8e2754365f6994cb8">g_pickup_weapons_anyway</a>)</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        this.pickup_anyway = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <a class="code" href="../../d0/d9a/classGameItem.html">GameItem</a> def = wpn.<a class="code" href="../../dc/de5/classWeapon.html#ad033f23932f202bddd926ed5b366336c">m_pickup</a>;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <a class="code" href="../../d0/d9a/classGameItem.html">GameItem</a> def = wpn.m_pickup;</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    _StartItem(</div>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="keyword">this</span>,</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;        this.itemdef = def,</div>
@@ -369,7 +369,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="classWeapon_html_aab2b3881586e5099d6daf41cb4d9eefa"><div class="ttname"><a href="../../dc/de5/classWeapon.html#aab2b3881586e5099d6daf41cb4d9eefa">Weapon::wr_init</a></div><div class="ttdeci">virtual void wr_init()</div><div class="ttdoc">(BOTH) precaches models/sounds used by this weapon, also sets up weapon properties ...</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00098">weapon.qh:98</a></div></div>
 <div class="ttc" id="weapon_8qh_html_a8291d5f4c89b48b838806f5f916d137e"><div class="ttname"><a href="../../dc/d1c/weapon_8qh.html#a8291d5f4c89b48b838806f5f916d137e">WEP_FLAG_SUPERWEAPON</a></div><div class="ttdeci">const int WEP_FLAG_SUPERWEAPON</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00192">weapon.qh:192</a></div></div>
 <div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
-<div class="ttc" id="classWeapon_html_ad033f23932f202bddd926ed5b366336c"><div class="ttname"><a href="../../dc/de5/classWeapon.html#ad033f23932f202bddd926ed5b366336c">Weapon::m_pickup</a></div><div class="ttdeci">entity m_pickup</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00085">weapon.qh:85</a></div></div>
 <div class="ttc" id="classGameItem_html"><div class="ttname"><a href="../../d0/d9a/classGameItem.html">GameItem</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d7c/common_2items_2item_8qh_source.html#l00041">item.qh:41</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
 <div class="ttc" id="classWeapon_html_a94b9194f95513e0ad7c17da8a7fda0e0"><div class="ttname"><a href="../../dc/de5/classWeapon.html#a94b9194f95513e0ad7c17da8a7fda0e0">Weapon::netname</a></div><div class="ttdeci">string netname</div><div class="ttdoc">M: refname : reference name name. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00081">weapon.qh:81</a></div></div>
@@ -420,7 +419,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../dc/dab/spawning_8qc.html">spawning.qc</a></li>
-    <li class="footer">Generated on Sun Aug 14 2016 02:46:29 for Xonotic by
+    <li class="footer">Generated on Sun Aug 14 2016 05:41:20 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

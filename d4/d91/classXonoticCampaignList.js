@@ -1,5 +1,12 @@
 var classXonoticCampaignList =
 [
+    [ "ATTRIB", "d4/d91/classXonoticCampaignList.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
+    [ "ATTRIB", "d4/d91/classXonoticCampaignList.html#afdcf1fb79903f747cda494b27206526b", null ],
+    [ "ATTRIB", "d4/d91/classXonoticCampaignList.html#aa238898377f1dad94767871f6f50034d", null ],
+    [ "ATTRIB", "d4/d91/classXonoticCampaignList.html#a1ab867d9350e07bd8a1563f33aba2795", null ],
+    [ "ATTRIB", "d4/d91/classXonoticCampaignList.html#aa0be1afcee01b4904e9b7ccc15674b53", null ],
+    [ "ATTRIB", "d4/d91/classXonoticCampaignList.html#a7220148bc67f3eba8e2913f68292c43b", null ],
+    [ "ATTRIB", "d4/d91/classXonoticCampaignList.html#a40f1628a9c5f15fc2f6a42ad55371f0b", null ],
     [ "campaignGo", "d4/d91/classXonoticCampaignList.html#a424bae23a67a4f098e6ebcdd1ede4a9b", null ],
     [ "clickListBoxItem", "d4/d91/classXonoticCampaignList.html#a235355aace741c77462c66d35b2c5e2a", null ],
     [ "configureListBox", "d4/d91/classXonoticCampaignList.html#aef11ec27595d8d03f6c30b95ce718571", null ],
@@ -40,8 +47,6 @@ var classXonoticCampaignList =
     [ "updateControlTopBottom", "d4/d91/classXonoticCampaignList.html#aa3a7b0f57548daae5b460ea630d4a18c", null ],
     [ "allowFocusSound", "d4/d91/classXonoticCampaignList.html#ae2a6d9e91d8187d1c6bd65f8c0333452", null ],
     [ "alphaBG", "d4/d91/classXonoticCampaignList.html#a2976526ce80a74f7269a4e7532b396da", null ],
-    [ "buttonNext", "d4/d91/classXonoticCampaignList.html#a81e8842788db29e40bdbe498a1494be8", null ],
-    [ "buttonPrev", "d4/d91/classXonoticCampaignList.html#ab4d49833930a1611ffedbc74c6f261fe", null ],
     [ "campaignGlob", "d4/d91/classXonoticCampaignList.html#a157385f4c4a8c6ed6a4e1056cd53599d", null ],
     [ "campaignIndex", "d4/d91/classXonoticCampaignList.html#a7aa9bc0f38b494509defeec9363be079", null ],
     [ "checkMarkOrigin", "d4/d91/classXonoticCampaignList.html#a4804aa2cbf278cdc2b156750a5ccf6d4", null ],
@@ -60,7 +65,6 @@ var classXonoticCampaignList =
     [ "controlBottom", "d4/d91/classXonoticCampaignList.html#a151e0ec9dca93787cd82446a1b2e5ffa", null ],
     [ "controlTop", "d4/d91/classXonoticCampaignList.html#ad5cc191f2221873ca858a9fb66cbb54e", null ],
     [ "controlWidth", "d4/d91/classXonoticCampaignList.html#a405b285a76ac127664593c89281a5b63", null ],
-    [ "cvarName", "d4/d91/classXonoticCampaignList.html#ad88520089935e9bf48f2cd6a12104a9b", null ],
     [ "dragScrollPos", "d4/d91/classXonoticCampaignList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3", null ],
     [ "emptyLineHeight", "d4/d91/classXonoticCampaignList.html#a2b2f90f331d59f5f3f24a6e2c2774306", null ],
     [ "focusable", "d4/d91/classXonoticCampaignList.html#adbc65a2089ef3278a098c80685b4b8a3", null ],
@@ -70,14 +74,12 @@ var classXonoticCampaignList =
     [ "fontSize", "d4/d91/classXonoticCampaignList.html#a764e355b65af202e87289c596432c780", null ],
     [ "itemAbsSize", "d4/d91/classXonoticCampaignList.html#a913c6db26d030bd0675e029b5c8f624e", null ],
     [ "itemHeight", "d4/d91/classXonoticCampaignList.html#a4d3358b1156e79dcddeef82ac14d821d", null ],
-    [ "labelTitle", "d4/d91/classXonoticCampaignList.html#af825b9cd400a2008d95d51f30ff44aaa", null ],
     [ "lastClickedItem", "d4/d91/classXonoticCampaignList.html#a18456fc3d44b3528c7595c73f42a8acc", null ],
     [ "lastClickedTime", "d4/d91/classXonoticCampaignList.html#ac7bb2899505cda435bebb004940f97a4", null ],
     [ "mouseMoveOffset", "d4/d91/classXonoticCampaignList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea", null ],
     [ "needScrollToItem", "d4/d91/classXonoticCampaignList.html#a825196c0b9ebd9d5f045961ae7852921", null ],
     [ "nItems", "d4/d91/classXonoticCampaignList.html#ac43fc57c675f684f20b2ef93556109d2", null ],
     [ "origin", "d4/d91/classXonoticCampaignList.html#ac028b30e293c97056979e2fa0bb88ff6", null ],
-    [ "parent", "d4/d91/classXonoticCampaignList.html#a990854e3f6b366077f779d6d5f48aa72", null ],
     [ "preferredFocusPriority", "d4/d91/classXonoticCampaignList.html#a7f475a142ac6b96a1c71aecb16730322", null ],
     [ "pressed", "d4/d91/classXonoticCampaignList.html#aaa9e0cdecc6804ca569e30acba123c25", null ],
     [ "pressOffset", "d4/d91/classXonoticCampaignList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275", null ],
@@ -93,6 +95,5 @@ var classXonoticCampaignList =
     [ "selectionDoesntMatter", "d4/d91/classXonoticCampaignList.html#a7c163168fb6b267f1b6a0c7be61ebde8", null ],
     [ "size", "d4/d91/classXonoticCampaignList.html#a230ddb1a3db4e3db29b3c2e1590dd22e", null ],
     [ "src", "d4/d91/classXonoticCampaignList.html#ae1baefc0a227b8e5ba2da3a75da9f583", null ],
-    [ "tolerance", "d4/d91/classXonoticCampaignList.html#a2aed9b007db3378480b691b9a52f3a7e", null ],
-    [ "tooltip", "d4/d91/classXonoticCampaignList.html#a253df954a75f54d7f8ff1edfdb3c2e13", null ]
+    [ "tolerance", "d4/d91/classXonoticCampaignList.html#a2aed9b007db3378480b691b9a52f3a7e", null ]
 ];

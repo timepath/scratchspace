@@ -1,6 +1,10 @@
 var classVehicle =
 [
-    [ "bool", "dc/d23/classVehicle.html#a477d6d3a09b10fa5118ef9725fb7fd41", null ],
+    [ "ATTRIB", "dc/d23/classVehicle.html#afb51af177de217b40bf0f926fb5ff0bb", null ],
+    [ "ATTRIB", "dc/d23/classVehicle.html#a8ce2a1db2b82992926802c8ce6d7d22b", null ],
+    [ "ATTRIB", "dc/d23/classVehicle.html#a84feb55c1ef028f0176592c458dc6c0e", null ],
+    [ "ATTRIB", "dc/d23/classVehicle.html#a269c42fb128fc5d56fac3abb21fbcdca", null ],
+    [ "ATTRIB", "dc/d23/classVehicle.html#a70e84502249082a3676988cfb618baf5", null ],
     [ "describe", "dc/d23/classVehicle.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "dc/d23/classVehicle.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "vr_crosshair", "dc/d23/classVehicle.html#a58f0c04e5979c92f1d5329627cbf1331", null ],
@@ -16,16 +20,12 @@ var classVehicle =
     [ "head_model", "dc/d23/classVehicle.html#a172a3ade8bb12e9ae30989346d96b805", null ],
     [ "height", "dc/d23/classVehicle.html#a3e2c6217c2d926d32eea5373f962aaf7", null ],
     [ "hud_model", "dc/d23/classVehicle.html#a094dc470383a4158c584ddf7b130dc67", null ],
-    [ "m_icon", "dc/d23/classVehicle.html#a65fd46a7aa8cac2e976813c40ca65946", null ],
     [ "maxs", "dc/d23/classVehicle.html#a9c75379eddbbd87ea4583662c42ee38b", null ],
     [ "mdl", "dc/d23/classVehicle.html#abb1c8e87e338a15e04ad6d865c607ccd", null ],
     [ "mins", "dc/d23/classVehicle.html#a7df63222c64af8c74c58dcdc060e59be", null ],
     [ "model", "dc/d23/classVehicle.html#a61799a3b07bd7ad2a07d61af510f91f0", null ],
     [ "netname", "dc/d23/classVehicle.html#ad0d7332b9e716a4014a052f2888c40a6", null ],
     [ "spawnflags", "dc/d23/classVehicle.html#ad4d7eff9ce6407c3defd47bc6a846e22", null ],
-    [ "tag_head", "dc/d23/classVehicle.html#a0ae56be045d93d0f3cb83e80505e05e3", null ],
-    [ "tag_hud", "dc/d23/classVehicle.html#a2f2c03e898645dcb17acac65bb2da826", null ],
-    [ "tag_view", "dc/d23/classVehicle.html#a82cab3e056898f83cbca5da793974fc6", null ],
     [ "vehicle_name", "dc/d23/classVehicle.html#a92a108265b0945ccc1ce009f78249456", null ],
     [ "vehicleid", "dc/d23/classVehicle.html#af1e7a9d937de540345fea6c3f4058b0f", null ],
     [ "view_ofs", "dc/d23/classVehicle.html#ae40c833951cc07e56b0be1a06386348d", null ]

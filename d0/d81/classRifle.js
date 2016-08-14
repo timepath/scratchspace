@@ -1,5 +1,7 @@
 var classRifle =
 [
+    [ "ATTRIB", "d0/d81/classRifle.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d0/d81/classRifle.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d0/d81/classRifle.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d0/d81/classRifle.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d0/d81/classRifle.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classRifle =
     [ "m_id", "d0/d81/classRifle.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d0/d81/classRifle.html#ae5a8b21ae1800f42fefba6bba9221367", null ],
     [ "m_name", "d0/d81/classRifle.html#a114db77fd45b97efe2ca431d3d2f6c3b", null ],
-    [ "m_pickup", "d0/d81/classRifle.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d0/d81/classRifle.html#a24cb9d80ab139b942d7c90d93e55e0b5", null ],
     [ "model2", "d0/d81/classRifle.html#a81d93745e5d0f0d0f1967b4a4eaeda16", null ],
     [ "netname", "d0/d81/classRifle.html#a09d7b8e803d5c13073726f90cc548434", null ],

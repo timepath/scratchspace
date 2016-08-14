@@ -1,5 +1,7 @@
 var classRaptorCannon =
 [
+    [ "ATTRIB", "d6/d01/classRaptorCannon.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d6/d01/classRaptorCannon.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d6/d01/classRaptorCannon.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d6/d01/classRaptorCannon.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d6/d01/classRaptorCannon.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classRaptorCannon =
     [ "m_id", "d6/d01/classRaptorCannon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d6/d01/classRaptorCannon.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d6/d01/classRaptorCannon.html#a3774cd570d9ebc5b4d96dbcfac13b2fe", null ],
-    [ "m_pickup", "d6/d01/classRaptorCannon.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d6/d01/classRaptorCannon.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d6/d01/classRaptorCannon.html#a2ccedc667a5772b3d2c7579255c96da7", null ],
     [ "netname", "d6/d01/classRaptorCannon.html#a275b0f23dbdadc6a13db38a807b17928", null ],

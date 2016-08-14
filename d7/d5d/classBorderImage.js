@@ -1,5 +1,12 @@
 var classBorderImage =
 [
+    [ "ATTRIB", "d7/d5d/classBorderImage.html#ad4b3c0025031b23a47fce9c4d7684eaf", null ],
+    [ "ATTRIB", "d7/d5d/classBorderImage.html#a7edc1888395b65fc0bbc556d68d0e173", null ],
+    [ "ATTRIB", "d7/d5d/classBorderImage.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5", null ],
+    [ "ATTRIB", "d7/d5d/classBorderImage.html#a2e9ff076f1076390435faad16d17d149", null ],
+    [ "ATTRIB", "d7/d5d/classBorderImage.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
+    [ "ATTRIB", "d7/d5d/classBorderImage.html#ab1ec655ecda8414e0ed22a5f621dbfaa", null ],
+    [ "ATTRIB", "d7/d5d/classBorderImage.html#afdcf1fb79903f747cda494b27206526b", null ],
     [ "configureBorderImage", "d7/d5d/classBorderImage.html#a2d7014dbee1dec74b4d7707d8e7ef45b", null ],
     [ "configureLabel", "d7/d5d/classBorderImage.html#a2e93b1dadbb72eb68b3501286ff568c9", null ],
     [ "describe", "d7/d5d/classBorderImage.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
@@ -29,11 +36,9 @@ var classBorderImage =
     [ "alpha", "d7/d5d/classBorderImage.html#a694b7bae9c3b1c4ac503e040aad68f07", null ],
     [ "borderHeight", "d7/d5d/classBorderImage.html#ae3a0d2430404bafd299039790f1f2e8d", null ],
     [ "borderVec", "d7/d5d/classBorderImage.html#ae4803ed86e67529f033607c7c5f0de11", null ],
-    [ "closeButton", "d7/d5d/classBorderImage.html#ad3f3e36b10bbd38e96af5301a0ecee5b", null ],
     [ "color", "d7/d5d/classBorderImage.html#a45c05cedd768d6a3a2c8090350073e2a", null ],
     [ "colorL", "d7/d5d/classBorderImage.html#a20862a0ad0266d3060b177cdccb9de0c", null ],
     [ "condenseFactor", "d7/d5d/classBorderImage.html#a566e9a0ddc6c84014a671a939f8d35fd", null ],
-    [ "currentText", "d7/d5d/classBorderImage.html#a8894e7ce2ef345979ef91af7035cc80b", null ],
     [ "disabled", "d7/d5d/classBorderImage.html#a967932f68a90eef8c0919e94d334aee1", null ],
     [ "disabledAlpha", "d7/d5d/classBorderImage.html#ac7432c7cf4b727b14ad696b443ea11c9", null ],
     [ "focusable", "d7/d5d/classBorderImage.html#a754eb52c935d65ccbe2c852e115f4408", null ],
@@ -48,7 +53,6 @@ var classBorderImage =
     [ "origin", "d7/d5d/classBorderImage.html#ac0368d6c19820c8225ee9484ddbbe715", null ],
     [ "overrideCondenseFactor", "d7/d5d/classBorderImage.html#a8a2bc534da630cd8dddc0aa9bc8df491", null ],
     [ "overrideRealOrigin", "d7/d5d/classBorderImage.html#a3b8b07fbba51c5165bf764582fc42e03", null ],
-    [ "parent", "d7/d5d/classBorderImage.html#a990854e3f6b366077f779d6d5f48aa72", null ],
     [ "preferredFocusPriority", "d7/d5d/classBorderImage.html#a7f475a142ac6b96a1c71aecb16730322", null ],
     [ "realFontSize", "d7/d5d/classBorderImage.html#a49c0048429f458532d6fe50c5efcbcd4", null ],
     [ "realFontSize_Nexposeed", "d7/d5d/classBorderImage.html#a0f59f20762372be1d8a05998ddf580b6", null ],
@@ -58,10 +62,6 @@ var classBorderImage =
     [ "saveRelOrigin", "d7/d5d/classBorderImage.html#a55fa87b5349ef30c674d5a13b2018ae1", null ],
     [ "saveRelSize", "d7/d5d/classBorderImage.html#ac68d6c5ca71bf698d8ee488f4280cb2d", null ],
     [ "size", "d7/d5d/classBorderImage.html#afc9428d371ed63dd0316db5558e81d30", null ],
-    [ "src", "d7/d5d/classBorderImage.html#aae130b2d072515fadb99a1f82b46369c", null ],
-    [ "text", "d7/d5d/classBorderImage.html#a1cada7f613ee05baf72eac545644d9d7", null ],
-    [ "textEntity", "d7/d5d/classBorderImage.html#a17551f8ea91a998bfdeb18609c45d978", null ],
-    [ "tooltip", "d7/d5d/classBorderImage.html#a253df954a75f54d7f8ff1edfdb3c2e13", null ],
     [ "zoomedOutTitleBar", "d7/d5d/classBorderImage.html#a9b064c18f17ec60a3d7fc0a9e6c42055", null ],
     [ "zoomedOutTitleBarPosition", "d7/d5d/classBorderImage.html#ad6c25fd4b03416c6d4af79c7a9d5dde2", null ]
 ];

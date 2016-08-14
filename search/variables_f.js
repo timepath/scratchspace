@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['object',['object',['../d0/d5d/classAnimation.html#a49792e436b64a7ee84cd1d78545916f7',1,'Animation']]],
   ['offhand_5fhook',['OFFHAND_HOOK',['../dd/df1/weapons_2weapon_2hook_8qc.html#a26c1ac788f42d8ea1729fee825f749fd',1,'hook.qc']]],
   ['offset_5fcursor',['OFFSET_CURSOR',['../d0/d2a/client_2main_8qh.html#abe02bc8f982ce063f9878f9beae11f1b',1,'main.qh']]],
   ['offvalue',['offValue',['../db/d38/classXonoticSliderCheckBox.html#a4e5f3b4dda55b50588c4fb421585cf94',1,'XonoticSliderCheckBox']]],
@@ -25,10 +24,6 @@ var searchData=
   ['oldskin',['oldskin',['../d8/dc1/sv__monsters_8qh.html#a86d0c5966652246bba6931f125ae4970',1,'sv_monsters.qh']]],
   ['oldtarget2',['oldtarget2',['../d8/dc1/sv__monsters_8qh.html#ad0709bca80c35f0cb1ecd6e07d68d46a',1,'sv_monsters.qh']]],
   ['oldvelocity',['oldvelocity',['../d5/d26/server_2defs_8qh.html#a3e22c8ced0d427b277b14fc646a0d2e3',1,'defs.qh']]],
-  ['onchangeentity',['onChangeEntity',['../db/d29/classXonoticRegisteredSettingsList.html#afd4972c47bec7ede5c184b38af83c24f',1,'XonoticRegisteredSettingsList::onChangeEntity()'],['../d8/d8f/classXonoticInputBox.html#a351e5549cfe2bf3848fc89bb4eb0a162',1,'XonoticInputBox::onChangeEntity()']]],
-  ['onclickcommand',['onClickCommand',['../d9/dca/classXonoticCommandButton.html#a219794f05db5fb4f09f9f9d747ef8d71',1,'XonoticCommandButton']]],
-  ['onclickentity',['onClickEntity',['../d1/d19/classButton.html#a7a1038bd3af206bf3b68b49e728329ec',1,'Button']]],
-  ['onenterentity',['onEnterEntity',['../d8/d8f/classXonoticInputBox.html#a5aefa9259558eb377f5f7dd46f610852',1,'XonoticInputBox']]],
   ['onlinebanlist_5frequestwaiting',['OnlineBanList_RequestWaiting',['../d6/d95/ipban_8qc.html#a0dc48623cdc782ca4db211ec8064a04c',1,'ipban.qc']]],
   ['onlinebanlist_5fservers',['OnlineBanList_Servers',['../d6/d95/ipban_8qc.html#ad2acccbd539f2f6ae71ec9cb385fb87a',1,'ipban.qc']]],
   ['onlinebanlist_5ftimeout',['OnlineBanList_Timeout',['../d6/d95/ipban_8qc.html#ab505a8d0f45567050fccefe47203c6a7',1,'ipban.qc']]],

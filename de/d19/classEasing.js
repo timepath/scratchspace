@@ -1,5 +1,7 @@
 var classEasing =
 [
+    [ "ATTRIB", "de/d19/classEasing.html#a69375f9ee5dc1a0a7975d4cc5295c826", null ],
+    [ "ATTRIB", "de/d19/classEasing.html#a689e8f596580507473b40b0ec845db12", null ],
     [ "calcValue", "de/d19/classEasing.html#afe3aec81d866360b96939a59b2bb2ea8", null ],
     [ "configureAnimation", "de/d19/classEasing.html#a40b67a793158c23b585259d981179aa9", null ],
     [ "describe", "de/d19/classEasing.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
@@ -23,8 +25,6 @@ var classEasing =
     [ "delta", "de/d19/classEasing.html#a9f9c4e94a10b4f97d68803af1462343d", null ],
     [ "duration", "de/d19/classEasing.html#a66cc7333638f071b0401072ba95c55fd", null ],
     [ "finished", "de/d19/classEasing.html#ab0505df849ecb968a213407ff2046c94", null ],
-    [ "m_framenames", "de/d19/classEasing.html#a4395ba01d99aa43ae61b1fc3872afa0d", null ],
-    [ "object", "de/d19/classEasing.html#a49792e436b64a7ee84cd1d78545916f7", null ],
     [ "return", "de/d19/classEasing.html#a9b86cc8c21e6c4051880c253d767d2c7", null ],
     [ "startTime", "de/d19/classEasing.html#a448e8f93422b8022dd7ffabe52cd7d6b", null ],
     [ "startValue", "de/d19/classEasing.html#abd28f8bfa1bd4589a123994dea274c33", null ],

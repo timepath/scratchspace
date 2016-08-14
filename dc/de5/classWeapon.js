@@ -1,5 +1,7 @@
 var classWeapon =
 [
+    [ "ATTRIB", "dc/de5/classWeapon.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "dc/de5/classWeapon.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "dc/de5/classWeapon.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "dc/de5/classWeapon.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "dc/de5/classWeapon.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -25,9 +27,7 @@ var classWeapon =
     [ "bot_pickupbasevalue", "dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84", null ],
     [ "impulse", "dc/de5/classWeapon.html#a07bb940405dd6a1cc59526ddca74c1b7", null ],
     [ "m_id", "dc/de5/classWeapon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "dc/de5/classWeapon.html#a2b82d1cf8787609f92b074e19775af58", null ],
     [ "m_name", "dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206", null ],
-    [ "m_pickup", "dc/de5/classWeapon.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "dc/de5/classWeapon.html#a7125c4dfb606547a2f8d9ea97f72fbc9", null ],
     [ "model2", "dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55", null ],
     [ "netname", "dc/de5/classWeapon.html#a94b9194f95513e0ad7c17da8a7fda0e0", null ],

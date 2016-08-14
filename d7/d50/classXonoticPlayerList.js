@@ -1,5 +1,8 @@
 var classXonoticPlayerList =
 [
+    [ "ATTRIB", "d7/d50/classXonoticPlayerList.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
+    [ "ATTRIB", "d7/d50/classXonoticPlayerList.html#afdcf1fb79903f747cda494b27206526b", null ],
+    [ "ATTRIB", "d7/d50/classXonoticPlayerList.html#aa0be1afcee01b4904e9b7ccc15674b53", null ],
     [ "clickListBoxItem", "d7/d50/classXonoticPlayerList.html#a235355aace741c77462c66d35b2c5e2a", null ],
     [ "configureListBox", "d7/d50/classXonoticPlayerList.html#aef11ec27595d8d03f6c30b95ce718571", null ],
     [ "configureXonoticListBox", "d7/d50/classXonoticPlayerList.html#a587f2e00755e6097a7d4ab5547c06014", null ],
@@ -64,7 +67,6 @@ var classXonoticPlayerList =
     [ "needScrollToItem", "d7/d50/classXonoticPlayerList.html#a825196c0b9ebd9d5f045961ae7852921", null ],
     [ "nItems", "d7/d50/classXonoticPlayerList.html#ac43fc57c675f684f20b2ef93556109d2", null ],
     [ "origin", "d7/d50/classXonoticPlayerList.html#aa9f7ba743f881ca8762691b0cea3b5e3", null ],
-    [ "parent", "d7/d50/classXonoticPlayerList.html#a990854e3f6b366077f779d6d5f48aa72", null ],
     [ "playerList", "d7/d50/classXonoticPlayerList.html#aafc05036b0c10670bc5dedaf3ab08d2d", null ],
     [ "preferredFocusPriority", "d7/d50/classXonoticPlayerList.html#a7f475a142ac6b96a1c71aecb16730322", null ],
     [ "pressed", "d7/d50/classXonoticPlayerList.html#aaa9e0cdecc6804ca569e30acba123c25", null ],
@@ -80,6 +82,5 @@ var classXonoticPlayerList =
     [ "selectionDoesntMatter", "d7/d50/classXonoticPlayerList.html#a990de2246a82ea68b9774233dac0f268", null ],
     [ "size", "d7/d50/classXonoticPlayerList.html#a230ddb1a3db4e3db29b3c2e1590dd22e", null ],
     [ "src", "d7/d50/classXonoticPlayerList.html#ae1baefc0a227b8e5ba2da3a75da9f583", null ],
-    [ "tolerance", "d7/d50/classXonoticPlayerList.html#a2aed9b007db3378480b691b9a52f3a7e", null ],
-    [ "tooltip", "d7/d50/classXonoticPlayerList.html#a253df954a75f54d7f8ff1edfdb3c2e13", null ]
+    [ "tolerance", "d7/d50/classXonoticPlayerList.html#a2aed9b007db3378480b691b9a52f3a7e", null ]
 ];

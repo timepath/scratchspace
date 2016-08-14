@@ -1,5 +1,6 @@
 var classZombie =
 [
+    [ "ATTRIB", "d7/d8c/classZombie.html#a1b84dbe029d909c54678e27a659c4793", null ],
     [ "describe", "d7/d8c/classZombie.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d7/d8c/classZombie.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "mr_anim", "d7/d8c/classZombie.html#a98fd6d803cf7376820bb26fcbca5adbd", null ],

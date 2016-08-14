@@ -1,5 +1,12 @@
 var classXonoticKeyBinder =
 [
+    [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
+    [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#aa68fe8d02e938469d5cd5e4bd81e6653", null ],
+    [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#a738368b93a59c54eae78f744a3ced870", null ],
+    [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#a13609a330433433b9dd3530506132650", null ],
+    [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#aa06527dceffa3a23d331de29474ffc42", null ],
+    [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#afdcf1fb79903f747cda494b27206526b", null ],
+    [ "ATTRIB", "d4/d3f/classXonoticKeyBinder.html#aa0be1afcee01b4904e9b7ccc15674b53", null ],
     [ "clickListBoxItem", "d4/d3f/classXonoticKeyBinder.html#a235355aace741c77462c66d35b2c5e2a", null ],
     [ "configureListBox", "d4/d3f/classXonoticKeyBinder.html#aef11ec27595d8d03f6c30b95ce718571", null ],
     [ "configureXonoticKeyBinder", "d4/d3f/classXonoticKeyBinder.html#aacda3211d8032ec2ef4adf7d65f40c03", null ],
@@ -40,7 +47,6 @@ var classXonoticKeyBinder =
     [ "updateControlTopBottom", "d4/d3f/classXonoticKeyBinder.html#aa3a7b0f57548daae5b460ea630d4a18c", null ],
     [ "allowFocusSound", "d4/d3f/classXonoticKeyBinder.html#ae2a6d9e91d8187d1c6bd65f8c0333452", null ],
     [ "alphaBG", "d4/d3f/classXonoticKeyBinder.html#a2976526ce80a74f7269a4e7532b396da", null ],
-    [ "clearButton", "d4/d3f/classXonoticKeyBinder.html#a4d770ff57d7f0b08e5048a59b2eaa459", null ],
     [ "color", "d4/d3f/classXonoticKeyBinder.html#a05ef0873600f2c890e8a631fc38e2f90", null ],
     [ "color2", "d4/d3f/classXonoticKeyBinder.html#ad2b74f1dbd77d65495482e707a252e84", null ],
     [ "colorBG", "d4/d3f/classXonoticKeyBinder.html#a865c3e581a8ad897c1d408dea60aa6ba", null ],
@@ -62,14 +68,12 @@ var classXonoticKeyBinder =
     [ "inMouseHandler", "d4/d3f/classXonoticKeyBinder.html#ace673e8b281e48e94dc93e581580389b", null ],
     [ "itemAbsSize", "d4/d3f/classXonoticKeyBinder.html#ad77e32004130154cab38df0030a152d8", null ],
     [ "itemHeight", "d4/d3f/classXonoticKeyBinder.html#a4d3358b1156e79dcddeef82ac14d821d", null ],
-    [ "keyGrabButton", "d4/d3f/classXonoticKeyBinder.html#a0d15443b7835903a119198ec83874330", null ],
     [ "lastClickedItem", "d4/d3f/classXonoticKeyBinder.html#a18456fc3d44b3528c7595c73f42a8acc", null ],
     [ "lastClickedTime", "d4/d3f/classXonoticKeyBinder.html#ac7bb2899505cda435bebb004940f97a4", null ],
     [ "mouseMoveOffset", "d4/d3f/classXonoticKeyBinder.html#aeb9c63a9b0297dfd15f5a894b7e4bcea", null ],
     [ "needScrollToItem", "d4/d3f/classXonoticKeyBinder.html#a825196c0b9ebd9d5f045961ae7852921", null ],
     [ "nItems", "d4/d3f/classXonoticKeyBinder.html#ac43fc57c675f684f20b2ef93556109d2", null ],
     [ "origin", "d4/d3f/classXonoticKeyBinder.html#a11a8209afcff1a9a74262609d1b92646", null ],
-    [ "parent", "d4/d3f/classXonoticKeyBinder.html#a990854e3f6b366077f779d6d5f48aa72", null ],
     [ "preferredFocusPriority", "d4/d3f/classXonoticKeyBinder.html#a7f475a142ac6b96a1c71aecb16730322", null ],
     [ "pressed", "d4/d3f/classXonoticKeyBinder.html#aaa9e0cdecc6804ca569e30acba123c25", null ],
     [ "pressOffset", "d4/d3f/classXonoticKeyBinder.html#a7bd18d461fe2e5e1ce4a84dc29ab6275", null ],
@@ -85,8 +89,5 @@ var classXonoticKeyBinder =
     [ "selectionDoesntMatter", "d4/d3f/classXonoticKeyBinder.html#a7c163168fb6b267f1b6a0c7be61ebde8", null ],
     [ "size", "d4/d3f/classXonoticKeyBinder.html#a230ddb1a3db4e3db29b3c2e1590dd22e", null ],
     [ "src", "d4/d3f/classXonoticKeyBinder.html#ae1baefc0a227b8e5ba2da3a75da9f583", null ],
-    [ "tolerance", "d4/d3f/classXonoticKeyBinder.html#a2aed9b007db3378480b691b9a52f3a7e", null ],
-    [ "tooltip", "d4/d3f/classXonoticKeyBinder.html#a253df954a75f54d7f8ff1edfdb3c2e13", null ],
-    [ "userbindEditButton", "d4/d3f/classXonoticKeyBinder.html#a0b2084ac55f70a21ff5941173b1f59d4", null ],
-    [ "userbindEditDialog", "d4/d3f/classXonoticKeyBinder.html#ab52303f5ca9032deb275684f4075b28d", null ]
+    [ "tolerance", "d4/d3f/classXonoticKeyBinder.html#a2aed9b007db3378480b691b9a52f3a7e", null ]
 ];

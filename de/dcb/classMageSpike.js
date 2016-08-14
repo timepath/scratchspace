@@ -1,5 +1,7 @@
 var classMageSpike =
 [
+    [ "ATTRIB", "de/dcb/classMageSpike.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "de/dcb/classMageSpike.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "de/dcb/classMageSpike.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "de/dcb/classMageSpike.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "de/dcb/classMageSpike.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classMageSpike =
     [ "m_id", "de/dcb/classMageSpike.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "de/dcb/classMageSpike.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "de/dcb/classMageSpike.html#a9b179e6663f5bc79649d313a16125617", null ],
-    [ "m_pickup", "de/dcb/classMageSpike.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "de/dcb/classMageSpike.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "de/dcb/classMageSpike.html#a2ccedc667a5772b3d2c7579255c96da7", null ],
     [ "netname", "de/dcb/classMageSpike.html#a6e855d1e44fb3e0730f446b8e7f16409", null ],

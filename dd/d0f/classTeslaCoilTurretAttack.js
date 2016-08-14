@@ -1,5 +1,7 @@
 var classTeslaCoilTurretAttack =
 [
+    [ "ATTRIB", "dd/d0f/classTeslaCoilTurretAttack.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "dd/d0f/classTeslaCoilTurretAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "dd/d0f/classTeslaCoilTurretAttack.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "dd/d0f/classTeslaCoilTurretAttack.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "dd/d0f/classTeslaCoilTurretAttack.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classTeslaCoilTurretAttack =
     [ "m_id", "dd/d0f/classTeslaCoilTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "dd/d0f/classTeslaCoilTurretAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "dd/d0f/classTeslaCoilTurretAttack.html#a57fec894b524d7d09d2396cdf8a37a58", null ],
-    [ "m_pickup", "dd/d0f/classTeslaCoilTurretAttack.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "dd/d0f/classTeslaCoilTurretAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "dd/d0f/classTeslaCoilTurretAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],
     [ "netname", "dd/d0f/classTeslaCoilTurretAttack.html#abb0fb58ffbc9dd30e89b0f5612b9c5e2", null ],

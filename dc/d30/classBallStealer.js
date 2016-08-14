@@ -1,5 +1,7 @@
 var classBallStealer =
 [
+    [ "ATTRIB", "dc/d30/classBallStealer.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "dc/d30/classBallStealer.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "dc/d30/classBallStealer.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "dc/d30/classBallStealer.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "dc/d30/classBallStealer.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classBallStealer =
     [ "m_id", "dc/d30/classBallStealer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "dc/d30/classBallStealer.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "dc/d30/classBallStealer.html#a2de91a875b1647471606be4b098e84ce", null ],
-    [ "m_pickup", "dc/d30/classBallStealer.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "dc/d30/classBallStealer.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "dc/d30/classBallStealer.html#a2ccedc667a5772b3d2c7579255c96da7", null ],
     [ "netname", "dc/d30/classBallStealer.html#a7bf13b7929125975c829f24488628560", null ],

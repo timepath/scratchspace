@@ -1,5 +1,7 @@
 var classRocketPropelledChainsaw =
 [
+    [ "ATTRIB", "d1/d00/classRocketPropelledChainsaw.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d1/d00/classRocketPropelledChainsaw.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d1/d00/classRocketPropelledChainsaw.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d1/d00/classRocketPropelledChainsaw.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d1/d00/classRocketPropelledChainsaw.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classRocketPropelledChainsaw =
     [ "m_id", "d1/d00/classRocketPropelledChainsaw.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d1/d00/classRocketPropelledChainsaw.html#af85135132f79424215f5b6afc3653627", null ],
     [ "m_name", "d1/d00/classRocketPropelledChainsaw.html#a64d463ef4aeb6be8ab123a3ddb6fbdbe", null ],
-    [ "m_pickup", "d1/d00/classRocketPropelledChainsaw.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d1/d00/classRocketPropelledChainsaw.html#a68aaa8b4eda0ead11ec38541ef78a3da", null ],
     [ "model2", "d1/d00/classRocketPropelledChainsaw.html#a824547908f0501c27a69060e316215ca", null ],
     [ "netname", "d1/d00/classRocketPropelledChainsaw.html#ab4d6b2476ee52bfa172b8f29825ad7f2", null ],

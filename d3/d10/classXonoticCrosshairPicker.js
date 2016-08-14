@@ -1,5 +1,7 @@
 var classXonoticCrosshairPicker =
 [
+    [ "ATTRIB", "d3/d10/classXonoticCrosshairPicker.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
+    [ "ATTRIB", "d3/d10/classXonoticCrosshairPicker.html#afdcf1fb79903f747cda494b27206526b", null ],
     [ "cellDraw", "d3/d10/classXonoticCrosshairPicker.html#a7d52ecadb5d2057da681ad7586110af2", null ],
     [ "cellIsValid", "d3/d10/classXonoticCrosshairPicker.html#a2964a9c889f0e6167b81e4e621c194d9", null ],
     [ "cellSelect", "d3/d10/classXonoticCrosshairPicker.html#abe9554032aaa1f46b12ec16fe98bb326", null ],
@@ -34,12 +36,10 @@ var classXonoticCrosshairPicker =
     [ "focusedCellAlpha", "d3/d10/classXonoticCrosshairPicker.html#acd24b0a08873c8bfd9a04e8c2905b3cc", null ],
     [ "focusedCellTime", "d3/d10/classXonoticCrosshairPicker.html#ac450f105398648a8932ca545e510ebcb", null ],
     [ "origin", "d3/d10/classXonoticCrosshairPicker.html#ac0368d6c19820c8225ee9484ddbbe715", null ],
-    [ "parent", "d3/d10/classXonoticCrosshairPicker.html#a990854e3f6b366077f779d6d5f48aa72", null ],
     [ "preferredFocusPriority", "d3/d10/classXonoticCrosshairPicker.html#a7f475a142ac6b96a1c71aecb16730322", null ],
     [ "pressedCell", "d3/d10/classXonoticCrosshairPicker.html#a0295170719b329b2b1786ec96dfe390e", null ],
     [ "realCellSize", "d3/d10/classXonoticCrosshairPicker.html#a70f832f511ac0fb8f0519637f49ef4ee", null ],
     [ "rows", "d3/d10/classXonoticCrosshairPicker.html#af44cf8144598496d9f0af4e8a5dca4ed", null ],
     [ "selectedCell", "d3/d10/classXonoticCrosshairPicker.html#adb75de8c448487ab259097879941191e", null ],
-    [ "size", "d3/d10/classXonoticCrosshairPicker.html#afc9428d371ed63dd0316db5558e81d30", null ],
-    [ "tooltip", "d3/d10/classXonoticCrosshairPicker.html#a253df954a75f54d7f8ff1edfdb3c2e13", null ]
+    [ "size", "d3/d10/classXonoticCrosshairPicker.html#afc9428d371ed63dd0316db5558e81d30", null ]
 ];

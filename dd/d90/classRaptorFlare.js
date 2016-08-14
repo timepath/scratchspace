@@ -1,5 +1,7 @@
 var classRaptorFlare =
 [
+    [ "ATTRIB", "dd/d90/classRaptorFlare.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "dd/d90/classRaptorFlare.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "dd/d90/classRaptorFlare.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "dd/d90/classRaptorFlare.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "dd/d90/classRaptorFlare.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classRaptorFlare =
     [ "m_id", "dd/d90/classRaptorFlare.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "dd/d90/classRaptorFlare.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "dd/d90/classRaptorFlare.html#a1571e947669fddff894ceabfe3cdab9b", null ],
-    [ "m_pickup", "dd/d90/classRaptorFlare.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "dd/d90/classRaptorFlare.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "dd/d90/classRaptorFlare.html#a2ccedc667a5772b3d2c7579255c96da7", null ],
     [ "netname", "dd/d90/classRaptorFlare.html#ab85fabb72654d058fc379853e1decee4", null ],

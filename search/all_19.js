@@ -11,7 +11,6 @@ var searchData=
   ['yellowowned',['yellowowned',['../d2/d76/teamplay_8qh.html#a5525e5377aba5749c85149eb70c21118',1,'teamplay.qh']]],
   ['yenc_2eqh',['yenc.qh',['../df/d58/yenc_8qh.html',1,'']]],
   ['yenc_5fsingle',['yenc_single',['../df/d58/yenc_8qh.html#a01877237296c3e64e52b9674f5d326bf',1,'yenc.qh']]],
-  ['yesstring',['yesString',['../d4/d09/classXonoticCheckBoxString.html#a7582bd195b4302169c2f1ac96dd68b29',1,'XonoticCheckBoxString']]],
   ['yesvalue',['yesValue',['../de/d42/classXonoticCheckBox.html#a9e1f7bf3a25745cda8ff61979486d3db',1,'XonoticCheckBox']]],
   ['yinvert',['yinvert',['../de/dcb/vector_8qh.html#a96d9291d4b314f99be2ca91347a70577',1,'vector.qh']]],
   ['ymax',['ymax',['../d4/d2b/scoreboard_8qh.html#acee1a082369857c7ee64924a0d9bc706',1,'scoreboard.qh']]],

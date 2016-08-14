@@ -1,5 +1,7 @@
 var classFireball =
 [
+    [ "ATTRIB", "d1/dd1/classFireball.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d1/dd1/classFireball.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d1/dd1/classFireball.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d1/dd1/classFireball.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d1/dd1/classFireball.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classFireball =
     [ "m_id", "d1/dd1/classFireball.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d1/dd1/classFireball.html#a752e83d25e3e5924f96705e5851c6cbf", null ],
     [ "m_name", "d1/dd1/classFireball.html#a2dfd166425af0e8e7e79d69521c772ab", null ],
-    [ "m_pickup", "d1/dd1/classFireball.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d1/dd1/classFireball.html#ac4b2b4b4ad590844a6dd17e0bf33c58f", null ],
     [ "model2", "d1/dd1/classFireball.html#a5b593deca3425852248db9449ad10f6b", null ],
     [ "netname", "d1/dd1/classFireball.html#a81c05e86a2fadc1580ac5ce708e92965", null ],

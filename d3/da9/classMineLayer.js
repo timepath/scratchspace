@@ -1,5 +1,7 @@
 var classMineLayer =
 [
+    [ "ATTRIB", "d3/da9/classMineLayer.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d3/da9/classMineLayer.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d3/da9/classMineLayer.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d3/da9/classMineLayer.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d3/da9/classMineLayer.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classMineLayer =
     [ "m_id", "d3/da9/classMineLayer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d3/da9/classMineLayer.html#a507f53c14bb28174e43cc38cd13511c8", null ],
     [ "m_name", "d3/da9/classMineLayer.html#af922e49df9b6ab1700cdb2d3f3bbb9d5", null ],
-    [ "m_pickup", "d3/da9/classMineLayer.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d3/da9/classMineLayer.html#a0495da57f2ea15799bb58ca5ce313c9a", null ],
     [ "model2", "d3/da9/classMineLayer.html#a35cd64372114dee923ac53b97c0fdd1b", null ],
     [ "netname", "d3/da9/classMineLayer.html#a48654b25dcdfdb4970026a7537133937", null ],

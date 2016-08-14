@@ -1,5 +1,8 @@
 var classXonoticCreditsList =
 [
+    [ "ATTRIB", "d4/d55/classXonoticCreditsList.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
+    [ "ATTRIB", "d4/d55/classXonoticCreditsList.html#afdcf1fb79903f747cda494b27206526b", null ],
+    [ "ATTRIB", "d4/d55/classXonoticCreditsList.html#aa0be1afcee01b4904e9b7ccc15674b53", null ],
     [ "clickListBoxItem", "d4/d55/classXonoticCreditsList.html#a235355aace741c77462c66d35b2c5e2a", null ],
     [ "configureListBox", "d4/d55/classXonoticCreditsList.html#aef11ec27595d8d03f6c30b95ce718571", null ],
     [ "configureXonoticCreditsList", "d4/d55/classXonoticCreditsList.html#a7b3c00bea963010b6b271e8ca03dba34", null ],
@@ -60,7 +63,6 @@ var classXonoticCreditsList =
     [ "needScrollToItem", "d4/d55/classXonoticCreditsList.html#a825196c0b9ebd9d5f045961ae7852921", null ],
     [ "nItems", "d4/d55/classXonoticCreditsList.html#ac43fc57c675f684f20b2ef93556109d2", null ],
     [ "origin", "d4/d55/classXonoticCreditsList.html#a11a8209afcff1a9a74262609d1b92646", null ],
-    [ "parent", "d4/d55/classXonoticCreditsList.html#a990854e3f6b366077f779d6d5f48aa72", null ],
     [ "preferredFocusPriority", "d4/d55/classXonoticCreditsList.html#a7f475a142ac6b96a1c71aecb16730322", null ],
     [ "pressed", "d4/d55/classXonoticCreditsList.html#aaa9e0cdecc6804ca569e30acba123c25", null ],
     [ "pressOffset", "d4/d55/classXonoticCreditsList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275", null ],
@@ -76,6 +78,5 @@ var classXonoticCreditsList =
     [ "selectionDoesntMatter", "d4/d55/classXonoticCreditsList.html#a12d009502f8cea2a7c8086fab4327e55", null ],
     [ "size", "d4/d55/classXonoticCreditsList.html#a230ddb1a3db4e3db29b3c2e1590dd22e", null ],
     [ "src", "d4/d55/classXonoticCreditsList.html#ae1baefc0a227b8e5ba2da3a75da9f583", null ],
-    [ "tolerance", "d4/d55/classXonoticCreditsList.html#a2aed9b007db3378480b691b9a52f3a7e", null ],
-    [ "tooltip", "d4/d55/classXonoticCreditsList.html#a253df954a75f54d7f8ff1edfdb3c2e13", null ]
+    [ "tolerance", "d4/d55/classXonoticCreditsList.html#a2aed9b007db3378480b691b9a52f3a7e", null ]
 ];

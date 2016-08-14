@@ -1,6 +1,8 @@
 var classAnimHost =
 [
     [ "addAnim", "d3/d78/classAnimHost.html#a17baecdbb5c3793fd271a3b76dc02716", null ],
+    [ "ATTRIB", "d3/d78/classAnimHost.html#ad7466dbd9d52db0fd9423f8dcdc581bf", null ],
+    [ "ATTRIB", "d3/d78/classAnimHost.html#a1138a9b635e88f56850b424f5d1860b5", null ],
     [ "describe", "d3/d78/classAnimHost.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d3/d78/classAnimHost.html#aa8bfcd32a594bb7d38143dce8b4ba8cf", null ],
     [ "finishAllAnim", "d3/d78/classAnimHost.html#a3f0e2aad6d307e591a6390d1af802c43", null ],
@@ -12,7 +14,5 @@ var classAnimHost =
     [ "resumeObjAnim", "d3/d78/classAnimHost.html#a2208a428918ae8e59d2024f84b097e5f", null ],
     [ "stopAllAnim", "d3/d78/classAnimHost.html#a41be8c228d406abfcbc5997d2c51f8b4", null ],
     [ "stopObjAnim", "d3/d78/classAnimHost.html#a611b97a946849909036482a693e653dd", null ],
-    [ "tickAll", "d3/d78/classAnimHost.html#aaf9b31867a942f931e42b05e369881d9", null ],
-    [ "firstChild", "d3/d78/classAnimHost.html#a84ab36ba36b86dc7dcfc34b3447884d7", null ],
-    [ "lastChild", "d3/d78/classAnimHost.html#afef8a0197f59f2eeaccda8f8e43110ce", null ]
+    [ "tickAll", "d3/d78/classAnimHost.html#aaf9b31867a942f931e42b05e369881d9", null ]
 ];

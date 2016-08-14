@@ -1,5 +1,8 @@
 var classXonoticImage =
 [
+    [ "ATTRIB", "d3/d51/classXonoticImage.html#aa28bfec786130828925f060468e44e7b", null ],
+    [ "ATTRIB", "d3/d51/classXonoticImage.html#a360189a0cc2fb81a094ccd37afd1749d", null ],
+    [ "ATTRIB", "d3/d51/classXonoticImage.html#afdcf1fb79903f747cda494b27206526b", null ],
     [ "configureImage", "d3/d51/classXonoticImage.html#ad996b1a100e82b7c67c5cbed7a92792d", null ],
     [ "configureXonoticImage", "d3/d51/classXonoticImage.html#a42ac52ea9a7c05dda9b626643852a806", null ],
     [ "describe", "d3/d51/classXonoticImage.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
@@ -32,13 +35,10 @@ var classXonoticImage =
     [ "imgOrigin", "d3/d51/classXonoticImage.html#a00e73292d4ce1cafcb4784f83be1b991", null ],
     [ "imgSize", "d3/d51/classXonoticImage.html#a14a70e4aca7423cedef3601c877a74bb", null ],
     [ "origin", "d3/d51/classXonoticImage.html#ac0368d6c19820c8225ee9484ddbbe715", null ],
-    [ "parent", "d3/d51/classXonoticImage.html#a990854e3f6b366077f779d6d5f48aa72", null ],
     [ "preferredFocusPriority", "d3/d51/classXonoticImage.html#a7f475a142ac6b96a1c71aecb16730322", null ],
     [ "size", "d3/d51/classXonoticImage.html#afc9428d371ed63dd0316db5558e81d30", null ],
-    [ "src", "d3/d51/classXonoticImage.html#af852e8680d5278d8ffb730f8b9526a64", null ],
     [ "start_coords", "d3/d51/classXonoticImage.html#ac783a223d75bf1d08a090ff8891725cc", null ],
     [ "start_zoomOffset", "d3/d51/classXonoticImage.html#a068a1780eb0731d56ea37a4b4e50e1a3", null ],
-    [ "tooltip", "d3/d51/classXonoticImage.html#a253df954a75f54d7f8ff1edfdb3c2e13", null ],
     [ "zoomBox", "d3/d51/classXonoticImage.html#a280ae0d20bfef08fecaea7b49d98a3c5", null ],
     [ "zoomFactor", "d3/d51/classXonoticImage.html#aba512e196285bb4464fc76b59e391161", null ],
     [ "zoomLimitedByTheBox", "d3/d51/classXonoticImage.html#adba055bca57bf312ebd7270010f720e4", null ],

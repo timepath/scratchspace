@@ -1,5 +1,7 @@
 var classEWheelAttack =
 [
+    [ "ATTRIB", "d1/dc3/classEWheelAttack.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d1/dc3/classEWheelAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d1/dc3/classEWheelAttack.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d1/dc3/classEWheelAttack.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d1/dc3/classEWheelAttack.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classEWheelAttack =
     [ "m_id", "d1/dc3/classEWheelAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d1/dc3/classEWheelAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d1/dc3/classEWheelAttack.html#affb7df26d5cf18c594772961a8bbfed8", null ],
-    [ "m_pickup", "d1/dc3/classEWheelAttack.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d1/dc3/classEWheelAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d1/dc3/classEWheelAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],
     [ "netname", "d1/dc3/classEWheelAttack.html#a91000726a389f25f3105a1f06559a38d", null ],

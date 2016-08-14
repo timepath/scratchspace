@@ -1,5 +1,7 @@
 var classMortar =
 [
+    [ "ATTRIB", "da/df9/classMortar.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "da/df9/classMortar.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "da/df9/classMortar.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "da/df9/classMortar.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "da/df9/classMortar.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classMortar =
     [ "m_id", "da/df9/classMortar.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "da/df9/classMortar.html#a80c04684a109d339a5bcc467a46b5740", null ],
     [ "m_name", "da/df9/classMortar.html#a87121a1185d52cf6a47fc9a2deabbaca", null ],
-    [ "m_pickup", "da/df9/classMortar.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "da/df9/classMortar.html#a7aae7b7b226fd7ff7f8a0fb60d68a29f", null ],
     [ "model2", "da/df9/classMortar.html#ad2ad3a0ab18588886161063482b892a4", null ],
     [ "netname", "da/df9/classMortar.html#a2a49c39bc010c7336ad6c42789aba32a", null ],

@@ -1,5 +1,7 @@
 var classHeavyMachineGun =
 [
+    [ "ATTRIB", "d9/dce/classHeavyMachineGun.html#aa519f8da1618f4afa74f7d924f839f77", null ],
+    [ "ATTRIB", "d9/dce/classHeavyMachineGun.html#a4488d7a9b2e25d11548b9e8a110ba11d", null ],
     [ "describe", "d9/dce/classHeavyMachineGun.html#a6f6d430c1456b7b9b3b128967e920acb", null ],
     [ "display", "d9/dce/classHeavyMachineGun.html#ad155218ce1844b7f3ce8cf880721d08f", null ],
     [ "wr_aim", "d9/dce/classHeavyMachineGun.html#a80fa9a65e19370473a29baebc04d0626", null ],
@@ -27,7 +29,6 @@ var classHeavyMachineGun =
     [ "m_id", "d9/dce/classHeavyMachineGun.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
     [ "m_model", "d9/dce/classHeavyMachineGun.html#a8b2502e1f83928622209331f0b0e2d7a", null ],
     [ "m_name", "d9/dce/classHeavyMachineGun.html#ae85b2effcc32d78fd14e287c3e5d1224", null ],
-    [ "m_pickup", "d9/dce/classHeavyMachineGun.html#ad033f23932f202bddd926ed5b366336c", null ],
     [ "mdl", "d9/dce/classHeavyMachineGun.html#a4e88463eabddbf3af3b1aba6f6b40391", null ],
     [ "model2", "d9/dce/classHeavyMachineGun.html#af7a8449346f3b6d1f5b3bcd3c8b52745", null ],
     [ "netname", "d9/dce/classHeavyMachineGun.html#aadd112062e32d5a08abe57b3fd863b27", null ],
