@@ -490,8 +490,8 @@ $(document).ready(function(){initNavTree('d7/d15/hud_8qc_source.html','../../');
 <div class="line"><a name="l00383"></a><span class="lineno"><a class="line" href="../../d3/d05/hud_8qh.html#a2cb9eb667b5191a841d4fb82824b7cca">  383</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d7/d15/hud_8qc.html#a2cb9eb667b5191a841d4fb82824b7cca">HUD_Reset</a>()</div>
 <div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;{</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    <span class="comment">// reset gametype specific icons</span></div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a796761bb60e941804441ef425b24d86c">gametype</a> == MAPINFO_TYPE_CTF)</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        <a class="code" href="../../dd/d59/modicons_8qc.html#a1ff8857749f1a94eeef8d6311ffa25e4">HUD_Mod_CTF_Reset</a>();</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a796761bb60e941804441ef425b24d86c">gametype</a>.m_modicons_reset)</div>
+<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        <a class="code" href="../../d0/d2a/client_2main_8qh.html#a796761bb60e941804441ef425b24d86c">gametype</a>.m_modicons_reset();</div>
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;}</div>
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
 <div class="line"><a name="l00390"></a><span class="lineno"><a class="line" href="../../d7/d15/hud_8qc.html#a059bf1ec85f2c301ebd508746966ffaa">  390</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d7/d15/hud_8qc.html#a059bf1ec85f2c301ebd508746966ffaa">autocvar_hud_dynamic_shake</a> = 1;</div>
@@ -809,7 +809,6 @@ $(document).ready(function(){initNavTree('d7/d15/hud_8qc_source.html','../../');
 <div class="ttc" id="hud_8qc_html_a30a9e84c413165ede06e60d7198bbb58"><div class="ttname"><a href="../../d7/d15/hud_8qc.html#a30a9e84c413165ede06e60d7198bbb58">DrawNumIcon_expanding</a></div><div class="ttdeci">void DrawNumIcon_expanding(vector myPos, vector mySize, float x, string icon, bool vertical, int icon_right_align, vector color, float theAlpha, float fadelerp)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d15/hud_8qc_source.html#l00252">hud.qc:252</a></div></div>
 <div class="ttc" id="hud_8qh_html_a32a70cb2be7a73e945f36286dbf15990"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a32a70cb2be7a73e945f36286dbf15990">hud_skin_prev</a></div><div class="ttdeci">string hud_skin_prev</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00116">hud.qh:116</a></div></div>
 <div class="ttc" id="hud_8qh_html_a8d63953584b31803c114c8c7377ee277"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a8d63953584b31803c114c8c7377ee277">hud_scale_center</a></div><div class="ttdeci">vector hud_scale_center</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00181">hud.qh:181</a></div></div>
-<div class="ttc" id="modicons_8qc_html_a1ff8857749f1a94eeef8d6311ffa25e4"><div class="ttname"><a href="../../dd/d59/modicons_8qc.html#a1ff8857749f1a94eeef8d6311ffa25e4">HUD_Mod_CTF_Reset</a></div><div class="ttdeci">void HUD_Mod_CTF_Reset()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d59/modicons_8qc_source.html#l00104">modicons.qc:104</a></div></div>
 <div class="ttc" id="hud_8qh_html_a20c296dff48d5c4541d84a57d0434913"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a20c296dff48d5c4541d84a57d0434913">hud_configure_prev</a></div><div class="ttdeci">float hud_configure_prev</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00102">hud.qh:102</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="common_2vehicles_2all_8qh_html_a0f88c632289b79fbf9690fbdbbf780a4"><div class="ttname"><a href="../../dd/d0c/common_2vehicles_2all_8qh.html#a0f88c632289b79fbf9690fbdbbf780a4">Vehicles_from</a></div><div class="ttdeci">#define Vehicles_from(i)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d0c/common_2vehicles_2all_8qh_source.html#l00006">all.qh:6</a></div></div>
@@ -888,7 +887,7 @@ $(document).ready(function(){initNavTree('d7/d15/hud_8qc_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../d7/d15/hud_8qc.html">hud.qc</a></li>
-    <li class="footer">Generated on Sun Aug 14 2016 09:13:27 for Xonotic by
+    <li class="footer">Generated on Sun Aug 14 2016 11:50:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

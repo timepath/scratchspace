@@ -1,5 +1,11 @@
 var NAVTREEINDEX7 =
 {
+"d1/d2a/waypoints_8qh.html#a1c9098e20437b7b8c103976caa196a93":[2,0,6,0,0,14,52],
+"d1/d2a/waypoints_8qh.html#a224b750f53c0f31d71c94f7ff100400b":[2,0,6,0,0,14,98],
+"d1/d2a/waypoints_8qh.html#a23473f47d4e36dc8695155c8d6fbc191":[2,0,6,0,0,14,51],
+"d1/d2a/waypoints_8qh.html#a24be66220685357fff549b8842569278":[2,0,6,0,0,14,58],
+"d1/d2a/waypoints_8qh.html#a27c15f467473c8b66bbe47b52366414b":[2,0,6,0,0,14,82],
+"d1/d2a/waypoints_8qh.html#a29df2054b82a9b74de8dfdcb3f8fba4b":[2,0,6,0,0,14,32],
 "d1/d2a/waypoints_8qh.html#a2a2070b0735106df54655cb2cd3c0fdd":[2,0,6,0,0,14,68],
 "d1/d2a/waypoints_8qh.html#a2cabb3d9570a666cb2e5b887e3fe03bb":[2,0,6,0,0,14,80],
 "d1/d2a/waypoints_8qh.html#a2dbb793d93e9b5f7500d782f0abd2baa":[2,0,6,0,0,14,72],
@@ -243,11 +249,5 @@ var NAVTREEINDEX7 =
 "d1/d37/classClient.html#ac7d2f552e4ce0768198744f31d7deb25":[1,0,17,16],
 "d1/d37/classClient.html#acae2b38889ee923ef5cab012e05aaac5":[1,0,17,7],
 "d1/d37/classClient.html#acfba4844d0d0cb5ed2c07f876f2b9647":[1,0,17,15],
-"d1/d37/classClient.html#ae355958a385e61face4d5c090fd1b4ec":[1,0,17,5],
-"d1/d37/classClient.html#ae51af7aa6b8f591496a8f6a4a87a14bf":[1,0,17,0],
-"d1/d37/classClient.html#af04000dc778c4b1b0ec980ea3541b0f8":[1,0,17,20],
-"d1/d37/common_2gamemodes_2all_8qh.html":[2,0,1,3,5],
-"d1/d37/common_2gamemodes_2all_8qh.html#a5ff05673e1d1b6cec9f33e33f2141831":[2,0,1,3,5,0],
-"d1/d37/common_2gamemodes_2all_8qh_source.html":[2,0,1,3,5],
-"d1/d39/classXonoticTeamSelectDialog.html":[1,0,243]
+"d1/d37/classClient.html#ae355958a385e61face4d5c090fd1b4ec":[1,0,17,5]
 };

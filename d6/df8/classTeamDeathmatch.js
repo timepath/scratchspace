@@ -10,7 +10,11 @@ var classTeamDeathmatch =
     [ "describe", "d6/df8/classTeamDeathmatch.html#ae6f43fb252cffabdcb79a863987a5683", null ],
     [ "display", "d6/df8/classTeamDeathmatch.html#a51550ad7b1e68706e89c9a555aa42b22", null ],
     [ "gametype_init", "d6/df8/classTeamDeathmatch.html#aef3a65f4987590d66b653b91180860ca", null ],
+    [ "m_generate_mapinfo", "d6/df8/classTeamDeathmatch.html#a689c2a1afc56d93f77ebdebad6b168bf", null ],
+    [ "m_isAlwaysSupported", "d6/df8/classTeamDeathmatch.html#aa73ef351412f677fbb3a8e30c495f34e", null ],
+    [ "m_isTwoBaseMode", "d6/df8/classTeamDeathmatch.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "d6/df8/classTeamDeathmatch.html#a70e3413650e02e5936bfacca40904d26", null ],
+    [ "m_setTeams", "d6/df8/classTeamDeathmatch.html#a5fffc4f52a5bc0abc31e336889718a89", null ],
     [ "items", "d6/df8/classTeamDeathmatch.html#ab19cc492a58b50138d04d98c704e61c7", null ],
     [ "m_id", "d6/df8/classTeamDeathmatch.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "team", "d6/df8/classTeamDeathmatch.html#ac244649c1cd58705b097a03e9e3b3b40", null ]

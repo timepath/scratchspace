@@ -155,6 +155,12 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a51550ad7b1e68706e89c9a555aa42b22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef3a65f4987590d66b653b91180860ca"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d6b/classGametype.html#aef3a65f4987590d66b653b91180860ca">gametype_init</a> ()</td></tr>
 <tr class="separator:aef3a65f4987590d66b653b91180860ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a408c0cd2467d1aeb2687a4a686f0c2cf"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d26/classInvasion.html#a408c0cd2467d1aeb2687a4a686f0c2cf">m_generate_mapinfo</a> ()</td></tr>
+<tr class="separator:a408c0cd2467d1aeb2687a4a686f0c2cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7880c3511ceeabb277b860085f1073ee"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d6b/classGametype.html#a7880c3511ceeabb277b860085f1073ee">m_isAlwaysSupported</a> ()</td></tr>
+<tr class="separator:a7880c3511ceeabb277b860085f1073ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49421edfc295cc8be1fd857804ec5e57"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d6b/classGametype.html#a49421edfc295cc8be1fd857804ec5e57">m_isTwoBaseMode</a> ()</td></tr>
+<tr class="separator:a49421edfc295cc8be1fd857804ec5e57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a31e39a092f4e1d7a09ba996bb208cd33"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d26/classInvasion.html#a31e39a092f4e1d7a09ba996bb208cd33">m_parse_mapinfo</a> ()</td></tr>
 <tr class="separator:a31e39a092f4e1d7a09ba996bb208cd33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -171,7 +177,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00269">269</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00463">463</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a30e2f8cacd6237a9a760e7415a66ea6f"></a>
 <div class="memitem">
@@ -194,11 +200,11 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00270">270</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;    {</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;        this.<a class="code" href="../../d1/d6b/classGametype.html#aef3a65f4987590d66b653b91180860ca">gametype_init</a>(<span class="keyword">this</span>, _(<span class="stringliteral">&quot;Invasion&quot;</span>),<span class="stringliteral">&quot;inv&quot;</span>,<span class="stringliteral">&quot;g_invasion&quot;</span>,<span class="keyword">false</span>,<span class="stringliteral">&quot;&quot;</span>,<span class="stringliteral">&quot;pointlimit=50 teams=0&quot;</span>,_(<span class="stringliteral">&quot;Survive against waves of monsters&quot;</span>));</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    }</div>
-<div class="ttc" id="classGametype_html_aef3a65f4987590d66b653b91180860ca"><div class="ttname"><a href="../../d1/d6b/classGametype.html#aef3a65f4987590d66b653b91180860ca">Gametype::gametype_init</a></div><div class="ttdeci">virtual void gametype_init()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00048">mapinfo.qh:48</a></div></div>
+<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00464">464</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;    {</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        this.<a class="code" href="../../d1/d6b/classGametype.html#aef3a65f4987590d66b653b91180860ca">gametype_init</a>(<span class="keyword">this</span>, _(<span class="stringliteral">&quot;Invasion&quot;</span>),<span class="stringliteral">&quot;inv&quot;</span>,<span class="stringliteral">&quot;g_invasion&quot;</span>,<span class="keyword">false</span>,<span class="stringliteral">&quot;&quot;</span>,<span class="stringliteral">&quot;pointlimit=50 teams=0&quot;</span>,_(<span class="stringliteral">&quot;Survive against waves of monsters&quot;</span>));</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;    }</div>
+<div class="ttc" id="classGametype_html_aef3a65f4987590d66b653b91180860ca"><div class="ttname"><a href="../../d1/d6b/classGametype.html#aef3a65f4987590d66b653b91180860ca">Gametype::gametype_init</a></div><div class="ttdeci">virtual void gametype_init()</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00078">mapinfo.qh:78</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -476,15 +482,15 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d8/d4b/classObject.html#a6f6d430c1456b7b9b3b128967e920acb">Object</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00036">36</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00066">66</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
 
 <p>References <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">TC</a>.</p>
-<div class="fragment"><div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d1/d6b/classGametype.html">Gametype</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">return</span> this.gametype_description;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d1/d6b/classGametype.html">Gametype</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="keywordflow">return</span> this.gametype_description;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    }</div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">_all.inc:56</a></div></div>
-<div class="ttc" id="classGametype_html"><div class="ttname"><a href="../../d1/d6b/classGametype.html">Gametype</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00013">mapinfo.qh:13</a></div></div>
+<div class="ttc" id="classGametype_html"><div class="ttname"><a href="../../d1/d6b/classGametype.html">Gametype</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00027">mapinfo.qh:27</a></div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -511,18 +517,18 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d8/d4b/classObject.html#aa8bfcd32a594bb7d38143dce8b4ba8cf">Object</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00042">42</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00072">72</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
 
-<p>References <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00082">mdl</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00007">message</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">TC</a>.</p>
-<div class="fragment"><div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d1/d6b/classGametype.html">Gametype</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        returns(this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;gametype_&quot;</span>, this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a8b1ec103accfa735fef1463c0883ccde">mdl</a>));</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    }</div>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, and <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">TC</a>.</p>
+<div class="fragment"><div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    {</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a>(<a class="code" href="../../d1/d6b/classGametype.html">Gametype</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        returns(this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;gametype_&quot;</span>, this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a8b1ec103accfa735fef1463c0883ccde">mdl</a>));</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    }</div>
 <div class="ttc" id="client_2defs_8qh_html_ae1ed0d7a6f352c7ee3ad978429822c6f"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a></div><div class="ttdeci">string message</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00007">defs.qh:7</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a8b1ec103accfa735fef1463c0883ccde"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a8b1ec103accfa735fef1463c0883ccde">mdl</a></div><div class="ttdeci">string mdl</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00082">defs.qh:82</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">_all.inc:56</a></div></div>
-<div class="ttc" id="classGametype_html"><div class="ttname"><a href="../../d1/d6b/classGametype.html">Gametype</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00013">mapinfo.qh:13</a></div></div>
+<div class="ttc" id="classGametype_html"><div class="ttname"><a href="../../d1/d6b/classGametype.html">Gametype</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00027">mapinfo.qh:27</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -557,29 +563,29 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00048">48</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00078">78</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
 
-<p>References <a class="el" href="../../d2/db4/string_8qh_source.html#l00145">cons()</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00145">items</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00011">m_flags</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00010">MAPINFO_TYPE_ALL</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00082">mdl</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00007">message</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>, and <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00027">team</a>.</p>
-<div class="fragment"><div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a> = g_name;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a8b1ec103accfa735fef1463c0883ccde">mdl</a> = sname;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = hname;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        this.<a class="code" href="../../d1/d6b/classGametype.html#ac244649c1cd58705b097a03e9e3b3b40">team</a> = gteamplay;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        this.m_mutators = <a class="code" href="../../d2/db4/string_8qh.html#a48c1e587c8b1f8f085a25f0a6ea14774">cons</a>(sname, mutators);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        this.model2 = defaults;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        this.gametype_description = gdescription;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="comment">// same as `1 &lt;&lt; m_id`</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <a class="code" href="../../d2/d9e/mapinfo_8qh.html#a761dda3143115915c8b2ad4c1321ca09">MAPINFO_TYPE_ALL</a> |= this.<a class="code" href="../../d1/d6b/classGametype.html#ab19cc492a58b50138d04d98c704e61c7">items</a> = this.<a class="code" href="../../d2/d9e/mapinfo_8qh.html#acf88a9269a6bde0e77d6d64102d824ad">m_flags</a> = (<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a761dda3143115915c8b2ad4c1321ca09">MAPINFO_TYPE_ALL</a> + 1);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
+<p>References <a class="el" href="../../d2/db4/string_8qh_source.html#l00145">cons()</a>, <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00025">m_flags</a>, and <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00024">MAPINFO_TYPE_ALL</a>.</p>
+<div class="fragment"><div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    {</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a> = g_name;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a8b1ec103accfa735fef1463c0883ccde">mdl</a> = sname;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = hname;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        this.<a class="code" href="../../d1/d6b/classGametype.html#ac244649c1cd58705b097a03e9e3b3b40">team</a> = gteamplay;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        this.m_mutators = <a class="code" href="../../d2/db4/string_8qh.html#a48c1e587c8b1f8f085a25f0a6ea14774">cons</a>(sname, mutators);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        this.model2 = defaults;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        this.gametype_description = gdescription;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <span class="comment">// same as `1 &lt;&lt; m_id`</span></div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <a class="code" href="../../d2/d9e/mapinfo_8qh.html#a761dda3143115915c8b2ad4c1321ca09">MAPINFO_TYPE_ALL</a> |= this.<a class="code" href="../../d1/d6b/classGametype.html#ab19cc492a58b50138d04d98c704e61c7">items</a> = this.<a class="code" href="../../d2/d9e/mapinfo_8qh.html#acf88a9269a6bde0e77d6d64102d824ad">m_flags</a> = (<a class="code" href="../../d2/d9e/mapinfo_8qh.html#a761dda3143115915c8b2ad4c1321ca09">MAPINFO_TYPE_ALL</a> + 1);</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
 <div class="ttc" id="client_2defs_8qh_html_ae1ed0d7a6f352c7ee3ad978429822c6f"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a></div><div class="ttdeci">string message</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00007">defs.qh:7</a></div></div>
-<div class="ttc" id="mapinfo_8qh_html_a761dda3143115915c8b2ad4c1321ca09"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#a761dda3143115915c8b2ad4c1321ca09">MAPINFO_TYPE_ALL</a></div><div class="ttdeci">int MAPINFO_TYPE_ALL</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00010">mapinfo.qh:10</a></div></div>
-<div class="ttc" id="mapinfo_8qh_html_acf88a9269a6bde0e77d6d64102d824ad"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#acf88a9269a6bde0e77d6d64102d824ad">m_flags</a></div><div class="ttdeci">int m_flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00011">mapinfo.qh:11</a></div></div>
+<div class="ttc" id="mapinfo_8qh_html_a761dda3143115915c8b2ad4c1321ca09"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#a761dda3143115915c8b2ad4c1321ca09">MAPINFO_TYPE_ALL</a></div><div class="ttdeci">int MAPINFO_TYPE_ALL</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00024">mapinfo.qh:24</a></div></div>
+<div class="ttc" id="mapinfo_8qh_html_acf88a9269a6bde0e77d6d64102d824ad"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#acf88a9269a6bde0e77d6d64102d824ad">m_flags</a></div><div class="ttdeci">int m_flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00025">mapinfo.qh:25</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a8b1ec103accfa735fef1463c0883ccde"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a8b1ec103accfa735fef1463c0883ccde">mdl</a></div><div class="ttdeci">string mdl</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00082">defs.qh:82</a></div></div>
-<div class="ttc" id="classGametype_html_ac244649c1cd58705b097a03e9e3b3b40"><div class="ttname"><a href="../../d1/d6b/classGametype.html#ac244649c1cd58705b097a03e9e3b3b40">Gametype::team</a></div><div class="ttdeci">bool team</div><div class="ttdoc">does this gametype support teamplay? </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00024">mapinfo.qh:24</a></div></div>
+<div class="ttc" id="classGametype_html_ac244649c1cd58705b097a03e9e3b3b40"><div class="ttname"><a href="../../d1/d6b/classGametype.html#ac244649c1cd58705b097a03e9e3b3b40">Gametype::team</a></div><div class="ttdeci">bool team</div><div class="ttdoc">does this gametype support teamplay? </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00038">mapinfo.qh:38</a></div></div>
 <div class="ttc" id="powerups_8qc_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00009">powerups.qc:9</a></div></div>
 <div class="ttc" id="string_8qh_html_a48c1e587c8b1f8f085a25f0a6ea14774"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a48c1e587c8b1f8f085a25f0a6ea14774">cons</a></div><div class="ttdeci">string cons(string a, string b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00145">string.qh:145</a></div></div>
-<div class="ttc" id="classGametype_html_ab19cc492a58b50138d04d98c704e61c7"><div class="ttname"><a href="../../d1/d6b/classGametype.html#ab19cc492a58b50138d04d98c704e61c7">Gametype::items</a></div><div class="ttdeci">int items</div><div class="ttdoc">game type ID </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00016">mapinfo.qh:16</a></div></div>
+<div class="ttc" id="classGametype_html_ab19cc492a58b50138d04d98c704e61c7"><div class="ttname"><a href="../../d1/d6b/classGametype.html#ab19cc492a58b50138d04d98c704e61c7">Gametype::items</a></div><div class="ttdeci">int items</div><div class="ttdoc">game type ID </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00030">mapinfo.qh:30</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -591,6 +597,101 @@ Public Attributes</h2></td></tr>
 </div>
 </p>
 
+</div>
+</div>
+<a class="anchor" id="a408c0cd2467d1aeb2687a4a686f0c2cf"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> Invasion::m_generate_mapinfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d1/d6b/classGametype.html#a689c2a1afc56d93f77ebdebad6b168bf">Gametype</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00477">477</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
+
+<p>References <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00025">m_flags</a>, and <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00018">MapInfo_Map_supportedGametypes</a>.</p>
+<div class="fragment"><div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    {</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;        <span class="keywordflow">if</span>(v == <span class="stringliteral">&quot;invasion_spawnpoint&quot;</span>)</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;            <a class="code" href="../../d2/d9e/mapinfo_8qh.html#afcb443b1e3edbb3edcf3a37cbb06c77f">MapInfo_Map_supportedGametypes</a> |= this.<a class="code" href="../../d2/d9e/mapinfo_8qh.html#acf88a9269a6bde0e77d6d64102d824ad">m_flags</a>;</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;    }</div>
+<div class="ttc" id="mapinfo_8qh_html_acf88a9269a6bde0e77d6d64102d824ad"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#acf88a9269a6bde0e77d6d64102d824ad">m_flags</a></div><div class="ttdeci">int m_flags</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00025">mapinfo.qh:25</a></div></div>
+<div class="ttc" id="mapinfo_8qh_html_afcb443b1e3edbb3edcf3a37cbb06c77f"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#afcb443b1e3edbb3edcf3a37cbb06c77f">MapInfo_Map_supportedGametypes</a></div><div class="ttdeci">int MapInfo_Map_supportedGametypes</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00018">mapinfo.qh:18</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a7880c3511ceeabb277b860085f1073ee"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> Gametype::m_isAlwaysSupported </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d0/d55/classKeepaway.html#a0052330236514ac452a3cb3cc049142c">Keepaway</a>, <a class="el" href="../../d1/de2/classFreezeTag.html#a9f678d47ed56b6147ac135ca3a9584cc">FreezeTag</a>, <a class="el" href="../../d8/dcc/classKeyHunt.html#a4b9840a3c603c77c47ab8e60ffc27573">KeyHunt</a>, <a class="el" href="../../da/def/classClanArena.html#a4109ad22533b3aee7521df4dc36a516b">ClanArena</a>, <a class="el" href="../../d6/df8/classTeamDeathmatch.html#aa73ef351412f677fbb3a8e30c495f34e">TeamDeathmatch</a>, <a class="el" href="../../d3/d09/classLastManStanding.html#ad065be50a7274d5df865cdd249203cf7">LastManStanding</a>, and <a class="el" href="../../d8/dd3/classDeathmatch.html#a80e71727ec0d6bf7fd74ab184070697c">Deathmatch</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00061">61</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a49421edfc295cc8be1fd857804ec5e57"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> Gametype::m_isTwoBaseMode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../dd/de4/classNexBall.html#a4c6fae1d276282a1c1fe6aa742c0fd2f">NexBall</a>, <a class="el" href="../../d1/dd9/classAssault.html#a65fde0898ee352c5aa47a652577029f1">Assault</a>, <a class="el" href="../../da/dd1/classCaptureTheFlag.html#a6a4ef0b5fd8bae0ab59aeab09a26c2e7">CaptureTheFlag</a>, and <a class="el" href="../../dd/dd0/classRace.html#a13397714cb41912d55bd54c4eddf76f5">Race</a>.</p>
+
+<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00057">57</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    {</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a31e39a092f4e1d7a09ba996bb208cd33"></a>
@@ -616,17 +717,17 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d1/d6b/classGametype.html#a87258d972a8b677bc431c763afd6e0fb">Gametype</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00274">274</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00468">468</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    {</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <span class="keywordflow">switch</span> (k) {</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <span class="keywordflow">case</span> <span class="stringliteral">&quot;teams&quot;</span>:</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;g_invasion_teams&quot;</span>, v);</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        }</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;    {</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;        <span class="keywordflow">switch</span> (k) {</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;            <span class="keywordflow">case</span> <span class="stringliteral">&quot;teams&quot;</span>:</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;g_invasion_teams&quot;</span>, v);</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;        }</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;    }</div>
 <div class="ttc" id="menudefs_8qc_html_a0b350379da8a7002dee40a3598bf33c3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a></div><div class="ttdeci">void cvar_set(string name, string value)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -662,7 +763,7 @@ Public Attributes</h2></td></tr>
 
 <p>game type ID </p>
 
-<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00016">16</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00030">30</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
 
 </div>
 </div>
@@ -684,9 +785,9 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00014">14</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00028">28</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l01309">MapInfo_LoadMapSettings_SaveGameType()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l01227">MapInfo_LoadMapSettings_SaveGameType()</a>.</p>
 
 </div>
 </div>
@@ -710,9 +811,9 @@ Public Attributes</h2></td></tr>
 
 <p>does this gametype support teamplay? </p>
 
-<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00024">24</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html#l00038">38</a> of file <a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">mapinfo.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00607">_MapInfo_GetTeamPlayBool()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d46/mapinfo_8qc_source.html#l00525">_MapInfo_GetTeamPlayBool()</a>.</p>
 
 </div>
 </div>
@@ -725,7 +826,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d2/d26/classInvasion.html">Invasion</a></li>
-    <li class="footer">Generated on Sun Aug 14 2016 09:13:42 for Xonotic by
+    <li class="footer">Generated on Sun Aug 14 2016 11:51:13 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

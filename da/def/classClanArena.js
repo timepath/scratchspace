@@ -10,7 +10,11 @@ var classClanArena =
     [ "describe", "da/def/classClanArena.html#ae6f43fb252cffabdcb79a863987a5683", null ],
     [ "display", "da/def/classClanArena.html#a51550ad7b1e68706e89c9a555aa42b22", null ],
     [ "gametype_init", "da/def/classClanArena.html#aef3a65f4987590d66b653b91180860ca", null ],
+    [ "m_generate_mapinfo", "da/def/classClanArena.html#a689c2a1afc56d93f77ebdebad6b168bf", null ],
+    [ "m_isAlwaysSupported", "da/def/classClanArena.html#a4109ad22533b3aee7521df4dc36a516b", null ],
+    [ "m_isTwoBaseMode", "da/def/classClanArena.html#a49421edfc295cc8be1fd857804ec5e57", null ],
     [ "m_parse_mapinfo", "da/def/classClanArena.html#aca750e744e5d1a4d337de74f06a92468", null ],
+    [ "m_setTeams", "da/def/classClanArena.html#a2fc71291259528295ec77875fe2a16f8", null ],
     [ "items", "da/def/classClanArena.html#ab19cc492a58b50138d04d98c704e61c7", null ],
     [ "m_id", "da/def/classClanArena.html#a353db82280437c3b38f0ad1934a7d666", null ],
     [ "team", "da/def/classClanArena.html#ac244649c1cd58705b097a03e9e3b3b40", null ]

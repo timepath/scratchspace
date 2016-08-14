@@ -2,7 +2,6 @@ var searchData=
 [
   ['uid2name_5fdialog',['uid2name_dialog',['../d9/d08/client_2defs_8qh.html#aefcc49bccd6f180d68d17fd01a7fed66',1,'defs.qh']]],
   ['unaccounted_5fdamage',['unaccounted_damage',['../d6/dd3/view_8qc.html#a1de1360295996dacb39d141955580aac',1,'view.qc']]],
-  ['unused_5ffloat',['unused_float',['../d5/df2/common_2util_8qh.html#a1958e486526856851d6fee198bca493c',1,'util.qh']]],
   ['update_5fbinary',['UPDATE_BINARY',['../d6/d11/progsdefs_8qc.html#a311bb1da46769c6fa0c11d7b01626439',1,'progsdefs.qc']]],
   ['update_5fgeneral',['UPDATE_GENERAL',['../d6/d11/progsdefs_8qc.html#a63f72bb1bbec3ac3b2f89509acb5d2ca',1,'progsdefs.qc']]],
   ['update_5fstatic',['UPDATE_STATIC',['../d6/d11/progsdefs_8qc.html#abe09fbedb7ab79dbd0ddd4c9d5316f50',1,'progsdefs.qc']]],

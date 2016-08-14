@@ -147,7 +147,6 @@ var common_2util_8qh =
     [ "skeleton_bones", "d5/df2/common_2util_8qh.html#a3eb1a527c8d4aa62f58e0e69c2bc8633", null ],
     [ "TIME_DECIMALS", "d5/df2/common_2util_8qh.html#abbaaeb3f374eaa19bf75019e91650c35", null ],
     [ "TIME_FACTOR", "d5/df2/common_2util_8qh.html#aa8904900a33e1de28193b6d5e53fd0b0", null ],
-    [ "unused_float", "d5/df2/common_2util_8qh.html#a1958e486526856851d6fee198bca493c", null ],
     [ "XENCODE_LEN", "d5/df2/common_2util_8qh.html#a7bba22581c48edeef1bc42f981cc0913", null ],
     [ "XENCODE_MAX", "d5/df2/common_2util_8qh.html#afe9803761e7a65ee75a3e9bd5b37af4e", null ]
 ];
