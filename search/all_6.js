@@ -282,6 +282,7 @@ var searchData=
   ['freeze',['Freeze',['../d5/dac/g__damage_8qc.html#a2d30d51fdeb3f05c8ade32e74ca54a7c',1,'Freeze(entity targ, float freeze_time, float frozen_type, float show_waypoint):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#a2d30d51fdeb3f05c8ade32e74ca54a7c',1,'Freeze(entity targ, float freeze_time, float frozen_type, float show_waypoint):&#160;g_damage.qc']]],
   ['freeze_5fang',['freeze_ang',['../d6/dd3/view_8qc.html#a5d847bd803d71b7de33dbe41c29bc99c',1,'view.qc']]],
   ['freeze_5forg',['freeze_org',['../d6/dd3/view_8qc.html#a7f8a43236e09b4c3ce63af7218a9ae96',1,'view.qc']]],
+  ['freezetag',['FreezeTag',['../d1/de2/classFreezeTag.html',1,'FreezeTag'],['../d1/de2/classFreezeTag.html#ad5f1233d3e17b179710ce940bed9c99e',1,'FreezeTag::FreezeTag()']]],
   ['freezetag_5ffrozen_5ftime',['freezetag_frozen_time',['../db/d26/gamemode__freezetag_8qc.html#aab6e5dd351a36e1a298791aceb0a13a3',1,'gamemode_freezetag.qc']]],
   ['freezetag_5ffrozen_5ftimeout',['freezetag_frozen_timeout',['../db/d26/gamemode__freezetag_8qc.html#a5c7d231b29848dbe9e992548d57958bb',1,'gamemode_freezetag.qc']]],
   ['freezetag_5finitialize',['freezetag_Initialize',['../db/d26/gamemode__freezetag_8qc.html#a93dbe70f6f5e8c7e42c436e77d0d3348',1,'gamemode_freezetag.qc']]],

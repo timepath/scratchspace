@@ -68,6 +68,7 @@ var searchData=
   ['free_5fskeleton_5ffrom_5fframes',['free_skeleton_from_frames',['../d3/dab/player__skeleton_8qc.html#ae34e60c32bc60eebb73851ebe508b3ed',1,'free_skeleton_from_frames(entity e):&#160;player_skeleton.qc'],['../d0/ddf/player__skeleton_8qh.html#ae34e60c32bc60eebb73851ebe508b3ed',1,'free_skeleton_from_frames(entity e):&#160;player_skeleton.qc']]],
   ['freepic',['freepic',['../d8/de2/menudefs_8qc.html#acb693031fd387043042ba41d785ab049',1,'menudefs.qc']]],
   ['freeze',['Freeze',['../d5/dac/g__damage_8qc.html#a2d30d51fdeb3f05c8ade32e74ca54a7c',1,'Freeze(entity targ, float freeze_time, float frozen_type, float show_waypoint):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#a2d30d51fdeb3f05c8ade32e74ca54a7c',1,'Freeze(entity targ, float freeze_time, float frozen_type, float show_waypoint):&#160;g_damage.qc']]],
+  ['freezetag',['FreezeTag',['../d1/de2/classFreezeTag.html#ad5f1233d3e17b179710ce940bed9c99e',1,'FreezeTag']]],
   ['freezetag_5finitialize',['freezetag_Initialize',['../db/d26/gamemode__freezetag_8qc.html#a93dbe70f6f5e8c7e42c436e77d0d3348',1,'gamemode_freezetag.qc']]],
   ['frexp',['frexp',['../df/d38/mathlib_8qc.html#a4b66818c1ca439713053dd5cace18ce3',1,'frexp(float x):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a4b66818c1ca439713053dd5cace18ce3',1,'frexp(float x):&#160;mathlib.qc']]],
   ['fromdecibelofsquare',['fromDecibelOfSquare',['../d8/db3/slider__decibels_8qc.html#a8069769b4af3b799387654e5dc25302e',1,'slider_decibels.qc']]],

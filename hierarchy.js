@@ -35,7 +35,23 @@ var hierarchy =
           [ "WeaponPickup", "d8/def/classWeaponPickup.html", null ]
         ] ]
       ] ],
-      [ "Gametype", "d1/d6b/classGametype.html", null ],
+      [ "Gametype", "d1/d6b/classGametype.html", [
+        [ "Assault", "d1/dd9/classAssault.html", null ],
+        [ "CaptureTheFlag", "da/dd1/classCaptureTheFlag.html", null ],
+        [ "ClanArena", "da/def/classClanArena.html", null ],
+        [ "Deathmatch", "d8/dd3/classDeathmatch.html", null ],
+        [ "Domination", "d2/d88/classDomination.html", null ],
+        [ "FreezeTag", "d1/de2/classFreezeTag.html", null ],
+        [ "Invasion", "d2/d26/classInvasion.html", null ],
+        [ "Keepaway", "d0/d55/classKeepaway.html", null ],
+        [ "KeyHunt", "d8/dcc/classKeyHunt.html", null ],
+        [ "LastManStanding", "d3/d09/classLastManStanding.html", null ],
+        [ "NexBall", "dd/de4/classNexBall.html", null ],
+        [ "Onslaught", "d0/dab/classOnslaught.html", null ],
+        [ "Race", "dd/dd0/classRace.html", null ],
+        [ "RaceCTS", "d6/d96/classRaceCTS.html", null ],
+        [ "TeamDeathmatch", "d6/df8/classTeamDeathmatch.html", null ]
+      ] ],
       [ "IntrusiveList", "d1/d74/classIntrusiveList.html", null ],
       [ "Inventory", "dd/d7a/classInventory.html", null ],
       [ "Item", "d0/dae/classItem.html", [

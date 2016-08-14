@@ -114,6 +114,7 @@ var searchData=
   ['new_5ftoys_2eqc',['new_toys.qc',['../d3/d7d/new__toys_8qc.html',1,'']]],
   ['newscreenshottime',['newScreenshotTime',['../dc/d44/classXonoticScreenshotList.html#afba2495a8947783d736f8e52941caf49',1,'XonoticScreenshotList']]],
   ['newslideshowscreenshottime',['newSlideShowScreenshotTime',['../dc/d44/classXonoticScreenshotList.html#aed94b3db2a0523bdec1f984b774d042d',1,'XonoticScreenshotList']]],
+  ['nexball',['NexBall',['../dd/de4/classNexBall.html',1,'NexBall'],['../dd/de4/classNexBall.html#ac604c69f4377f2ec7894592403d28148',1,'NexBall::NexBall()']]],
   ['nexball_2eqc',['nexball.qc',['../dc/d5a/nexball_8qc.html',1,'']]],
   ['nexball_2eqh',['nexball.qh',['../de/d26/nexball_8qh.html',1,'']]],
   ['nexposee',['Nexposee',['../d8/d95/classNexposee.html',1,'']]],

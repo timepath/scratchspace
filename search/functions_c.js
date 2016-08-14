@@ -10,6 +10,7 @@ var searchData=
   ['lag_5fupdate',['lag_update',['../df/dc9/aim_8qc.html#aa2a75c4116c382f9f9edc90c26e69155',1,'lag_update(entity this):&#160;aim.qc'],['../d3/d5a/aim_8qh.html#aa2a75c4116c382f9f9edc90c26e69155',1,'lag_update(entity this):&#160;aim.qc']]],
   ['language_5ffilename',['language_filename',['../d0/dfe/i18n_8qh.html#afc249e655b212b61d409a3400c7371fb',1,'i18n.qh']]],
   ['languageparameter',['languageParameter',['../d3/dba/classXonoticLanguageList.html#a0fd436f57c4f662390be6b6baffebe5d',1,'XonoticLanguageList']]],
+  ['lastmanstanding',['LastManStanding',['../d3/d09/classLastManStanding.html#a533f6a18d70593e6534bd43cba356d00',1,'LastManStanding']]],
   ['lazy',['Lazy',['../d3/dde/classLazy.html#a8e68957fd15a62a0f197fda172dbb405',1,'Lazy']]],
   ['ldexp',['ldexp',['../df/d38/mathlib_8qc.html#a90381e2538fbcc8e6c1f75b1831c7846',1,'ldexp(float x, int e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a90381e2538fbcc8e6c1f75b1831c7846',1,'ldexp(float x, int e):&#160;mathlib.qc']]],
   ['leanmodel_5fofs',['leanmodel_ofs',['../d6/dd3/view_8qc.html#ac864cc822088f051704ed70a2f89224a',1,'view.qc']]],
