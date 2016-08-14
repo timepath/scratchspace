@@ -2089,7 +2089,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00420">420</a> of file <a class="el" href="../../d1/d9a/navigation_8qc_source.html">navigation.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01013">botframe_deleteuselesswaypoints()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00787">botframe_showwaypointlinks()</a>, and <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00489">IMPULSE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l01013">botframe_deleteuselesswaypoints()</a>, <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00787">botframe_showwaypointlinks()</a>, and <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00492">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;{</div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> wp = <a class="code" href="../../d1/d9a/navigation_8qc.html#a7c86526c739a1f7981b2eec764ed58dc">navigation_findnearestwaypoint_withdist_except</a>(ent, walkfromwp, 1050, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756">autocvar_g_waypointeditor_auto</a>)</div>
@@ -2254,7 +2254,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00497">497</a> of file <a class="el" href="../../d1/d9a/navigation_8qc_source.html">navigation.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00511">IMPULSE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00514">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;{</div>
 <div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;    <span class="keywordtype">float</span> cost, cost2;</div>
 <div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a7ea82552101f041fad7635b3ed036a84">vector</a> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
@@ -3019,7 +3019,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00307">307</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00489">IMPULSE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00492">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;{</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <span class="comment">// tell all linked waypoints that they need to relink</span></div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="../../d7/dc4/waypoints_8qc.html#a7b401ce3982d2ff32e2581b69ce746b5">waypoint_schedulerelink</a>(e.wp00);</div>
@@ -3086,7 +3086,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00615">615</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00505">IMPULSE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00508">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;{</div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    <span class="keywordtype">string</span> filename = sprintf(<span class="stringliteral">&quot;maps/%s.waypoints&quot;</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4fccb4c5121d362961fa9a53c164a3df">mapname</a>);</div>
 <div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    <span class="keywordtype">int</span> file = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9">fopen</a>(filename, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a77d7a3d55152ac3ec644710da1e05b7d">FILE_WRITE</a>);</div>
@@ -3166,7 +3166,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00262">262</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00482">IMPULSE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00485">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;{</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    <span class="keywordflow">if</span> (wp == <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>)</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        <span class="keywordflow">return</span>;</div>
@@ -3240,7 +3240,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00357">357</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00499">IMPULSE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00502">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;{</div>
 <div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <a class="code" href="../../d1/d2a/waypoints_8qh.html#a099eeed09ef5dff2c3c5a507f4f6f1b2">relink_total</a> = <a class="code" href="../../d1/d2a/waypoints_8qh.html#a96eea87743be9af285b8c13978359ded">relink_walkculled</a> = <a class="code" href="../../d1/d2a/waypoints_8qh.html#aad1048069313c8cbabe03cb259173378">relink_pvsculled</a> = <a class="code" href="../../d1/d2a/waypoints_8qh.html#a82fd4651ef125d725feb3a6a01f0ebf4">relink_lengthculled</a> = 0;</div>
 <div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aff439bd5f2dcecaf112d934029e0fb85">g_waypoints</a>, <span class="keyword">true</span>,</div>
@@ -3300,7 +3300,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d7/dc4/waypoints_8qc_source.html#l00020">20</a> of file <a class="el" href="../../d7/dc4/waypoints_8qc_source.html">waypoints.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00482">IMPULSE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00485">IMPULSE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keywordflow">if</span>(!(f &amp; <a class="code" href="../../db/d15/api_8qh.html#a16465cf087c71e05a2a1cefaaa09093f">WAYPOINTFLAG_PERSONAL</a>))</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
@@ -3629,7 +3629,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d15/api_8qh_source.html#l00023">23</a> of file <a class="el" href="../../db/d15/api_8qh_source.html">api.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00839">havocbot_chooseenemy()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01287">Monster_Spawn()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00479">PutClientInServer()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00218">PutObserverInServer()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01110">vehicle_initialize()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01061">vehicles_spawn()</a>.</p>
+<p>Referenced by <a class="el" href="../../d2/de9/havocbot_8qc_source.html#l00839">havocbot_chooseenemy()</a>, <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l01291">Monster_Spawn()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00479">PutClientInServer()</a>, <a class="el" href="../../da/d53/cl__client_8qc_source.html#l00218">PutObserverInServer()</a>, <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01110">vehicle_initialize()</a>, and <a class="el" href="../../da/d10/sv__vehicles_8qc_source.html#l01061">vehicles_spawn()</a>.</p>
 
 </div>
 </div>
@@ -3985,7 +3985,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d15/api_8qh_source.html#l00005">5</a> of file <a class="el" href="../../db/d15/api_8qh_source.html">api.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00489">IMPULSE()</a>, and <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01025">navigation_unstuck()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/d44/cl__impulse_8qc_source.html#l00492">IMPULSE()</a>, and <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l01025">navigation_unstuck()</a>.</p>
 
 </div>
 </div>
@@ -5031,7 +5031,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../db/d15/api_8qh.html">api.qh</a></li>
-    <li class="footer">Generated on Sat Aug 13 2016 17:42:08 for Xonotic by
+    <li class="footer">Generated on Sun Aug 14 2016 02:46:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
