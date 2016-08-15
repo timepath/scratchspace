@@ -1,5 +1,9 @@
 var NAVTREEINDEX96 =
 {
+"db/dc4/classXonoticRadioButton.html#a35c1d238b3144ea59ecdaf0e1ec7e07a":[1,0,219,50],
+"db/dc4/classXonoticRadioButton.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,219,10],
+"db/dc4/classXonoticRadioButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,219,81],
+"db/dc4/classXonoticRadioButton.html#a3b9eba7370ce35fbe1485b43d38e56cf":[1,0,219,39],
 "db/dc4/classXonoticRadioButton.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,219,72],
 "db/dc4/classXonoticRadioButton.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,219,75],
 "db/dc4/classXonoticRadioButton.html#a45efe0293355aed9332fac357124c984":[1,0,219,18],
@@ -69,8 +73,8 @@ var NAVTREEINDEX96 =
 "db/dc4/movelib_8qh.html":[2,0,1,11,5],
 "db/dc4/movelib_8qh.html#aa514946bfa921bfcd0f67fb31fe9ac7a":[2,0,1,11,5,0],
 "db/dc4/movelib_8qh_source.html":[2,0,1,11,5],
-"db/dc5/waypointsprites_8qc.html":[2,0,1,9,0,31,5],
-"db/dc5/waypointsprites_8qc_source.html":[2,0,1,9,0,31,5],
+"db/dc5/waypointsprites_8qc.html":[2,0,1,9,0,32,5],
+"db/dc5/waypointsprites_8qc_source.html":[2,0,1,9,0,32,5],
 "db/dc8/cl__controlpoint_8qc.html":[2,0,1,3,0,1,2],
 "db/dc8/cl__controlpoint_8qc.html#a163e03ef7146952b01f9ecbf3f144828":[2,0,1,3,0,1,2,15],
 "db/dc8/cl__controlpoint_8qc.html#a166d83216aec800e561b87dbdb863acc":[2,0,1,3,0,1,2,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX96 =
 "db/ddb/classXonoticCvarList.html#a85505fa55d068c43d98d17eed6b3fe12":[1,0,155,58],
 "db/ddb/classXonoticCvarList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,155,53],
 "db/ddb/classXonoticCvarList.html#a86a11cd3d337aaa2a5355e5e04c469cd":[1,0,155,57],
-"db/ddb/classXonoticCvarList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,155,27],
-"db/ddb/classXonoticCvarList.html#a8c539467e3831f5420d97206cf918cf8":[1,0,155,32],
-"db/ddb/classXonoticCvarList.html#a905b47b262dc68eda970bc0afd24f243":[1,0,155,85],
-"db/ddb/classXonoticCvarList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,155,55],
-"db/ddb/classXonoticCvarList.html#a955acbbda432fb19399292cbac96e0af":[1,0,155,68]
+"db/ddb/classXonoticCvarList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,155,27]
 };

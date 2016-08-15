@@ -1,5 +1,13 @@
 var NAVTREEINDEX117 =
 {
+"de/d7a/classXonoticHUDScoreDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,190,13],
+"de/d7a/classXonoticHUDScoreDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,190,61],
+"de/d7a/classXonoticHUDScoreDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,190,30],
+"de/d7a/classXonoticHUDScoreDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,190,6],
+"de/d7a/classXonoticHUDScoreDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,190,46],
+"de/d7a/classXonoticHUDScoreDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,190,56],
+"de/d7a/classXonoticHUDScoreDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,190,1],
+"de/d7a/classXonoticHUDScoreDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,190,12],
 "de/d7a/classXonoticHUDScoreDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,190,74],
 "de/d7a/classXonoticHUDScoreDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,190,23],
 "de/d7a/classXonoticHUDScoreDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,190,50],
@@ -199,8 +207,8 @@ var NAVTREEINDEX117 =
 "de/d8c/classWyvernAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,138,17],
 "de/d8c/item_2image_8qh.html":[2,0,5,2,13],
 "de/d8c/item_2image_8qh_source.html":[2,0,5,2,13],
-"de/d8d/weaponarena__random_8qc.html":[2,0,1,9,0,32,3],
-"de/d8d/weaponarena__random_8qc_source.html":[2,0,1,9,0,32,3],
+"de/d8d/weaponarena__random_8qc.html":[2,0,1,9,0,33,3],
+"de/d8d/weaponarena__random_8qc_source.html":[2,0,1,9,0,33,3],
 "de/d8f/common_2gamemodes_2gamemode_2__mod_8inc.html":[2,0,1,3,0,2],
 "de/d8f/common_2gamemodes_2gamemode_2__mod_8inc_source.html":[2,0,1,3,0,2],
 "de/d94/slider__particles_8qc.html":[2,0,5,4,208],
@@ -241,13 +249,5 @@ var NAVTREEINDEX117 =
 "de/d9b/steerlib_8qc.html#ad3cbbeff1080bbc6ade7cbbc5994f59a":[2,0,6,62,14],
 "de/d9b/steerlib_8qc.html#ad53432e8bb5cca74d3b4d782bba722ff":[2,0,6,62,16],
 "de/d9b/steerlib_8qc.html#ae53256d91c2d2383808e9ea5d70cf34e":[2,0,6,62,4],
-"de/d9b/steerlib_8qc_source.html":[2,0,6,62],
-"de/d9c/classTab.html":[1,0,122],
-"de/d9c/classTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,122,34],
-"de/d9c/classTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,122,13],
-"de/d9c/classTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,122,42],
-"de/d9c/classTab.html#a086d32c9694472250922d42417bc8d66":[1,0,122,3],
-"de/d9c/classTab.html#a11574f926044e338cc7521ef87900777":[1,0,122,75],
-"de/d9c/classTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,122,79],
-"de/d9c/classTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,122,50]
+"de/d9b/steerlib_8qc_source.html":[2,0,6,62]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX76 =
 {
+"d9/d37/classXonoticScreenshotBrowserTab.html#a67d95732d49da439095483530aca8804":[1,0,226,60],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,226,24],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a72c0e76156762fbda152032add5f1630":[1,0,226,20],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a7326329e73b9b153fde68543eeb27c96":[1,0,226,87],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,226,86],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,226,10],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,226,70],
@@ -60,10 +64,10 @@ var NAVTREEINDEX76 =
 "d9/d39/wyvern_8qc_source.html":[2,0,1,8,0,5],
 "d9/d3b/lib_2warpzone_2__mod_8inc.html":[2,0,4,2,0],
 "d9/d3b/lib_2warpzone_2__mod_8inc_source.html":[2,0,4,2,0],
-"d9/d3c/common_2mutators_2mutator_2rocketminsta_2__mod_8inc.html":[2,0,1,9,0,23,0],
-"d9/d3c/common_2mutators_2mutator_2rocketminsta_2__mod_8inc_source.html":[2,0,1,9,0,23,0],
-"d9/d3c/running__guns_8qc.html":[2,0,1,9,0,24,3],
-"d9/d3c/running__guns_8qc_source.html":[2,0,1,9,0,24,3],
+"d9/d3c/common_2mutators_2mutator_2rocketminsta_2__mod_8inc.html":[2,0,1,9,0,24,0],
+"d9/d3c/common_2mutators_2mutator_2rocketminsta_2__mod_8inc_source.html":[2,0,1,9,0,24,0],
+"d9/d3c/running__guns_8qc.html":[2,0,1,9,0,25,3],
+"d9/d3c/running__guns_8qc_source.html":[2,0,1,9,0,25,3],
 "d9/d40/dialog__settings__audio_8qh.html":[2,0,5,4,121],
 "d9/d40/dialog__settings__audio_8qh.html#a9897d4b9ae8916a24d87fccc5defa1fa":[2,0,5,4,121,1],
 "d9/d40/dialog__settings__audio_8qh_source.html":[2,0,5,4,121],
@@ -80,8 +84,8 @@ var NAVTREEINDEX76 =
 "d9/d47/cvarlist_8qh_source.html":[2,0,5,4,33],
 "d9/d4a/dialog__hudpanel__quickmenu_8qh.html":[2,0,5,4,69],
 "d9/d4a/dialog__hudpanel__quickmenu_8qh_source.html":[2,0,5,4,69],
-"d9/d50/mutators_2mutator_2overkill_2module_8inc.html":[2,0,1,9,0,18,3],
-"d9/d50/mutators_2mutator_2overkill_2module_8inc_source.html":[2,0,1,9,0,18,3],
+"d9/d50/mutators_2mutator_2overkill_2module_8inc.html":[2,0,1,9,0,19,3],
+"d9/d50/mutators_2mutator_2overkill_2module_8inc_source.html":[2,0,1,9,0,19,3],
 "d9/d50/server_2mutators_2mutator_2__mod_8qh.html":[2,0,6,2,0,1],
 "d9/d50/server_2mutators_2mutator_2__mod_8qh_source.html":[2,0,6,2,0,1],
 "d9/d51/intrusivelist_8qh.html":[2,0,4,22],
@@ -245,9 +249,5 @@ var NAVTREEINDEX76 =
 "d9/d5b/struct_8qh.html#a32b88cd9195e3af603b935fd5d1314cf":[2,0,4,54,0],
 "d9/d5b/struct_8qh.html#a40dd2d644869e0946b673d0035a65823":[2,0,4,54,5],
 "d9/d5b/struct_8qh.html#a6b1e742b66728c25469b42a91ba6aaf2":[2,0,4,54,8],
-"d9/d5b/struct_8qh.html#a78a561d3b6074284aa947f7fbe5228fe":[2,0,4,54,9],
-"d9/d5b/struct_8qh.html#a824a1f6f02faf1d034bb1b02739e0c66":[2,0,4,54,3],
-"d9/d5b/struct_8qh.html#a83fcb50c0a3a7a42f774c0b771146879":[2,0,4,54,7],
-"d9/d5b/struct_8qh.html#a8bb321528bb4230b0a63c68888f42df2":[2,0,4,54,1],
-"d9/d5b/struct_8qh.html#a93996208007de6effc7114e56a7e65f4":[2,0,4,54,6]
+"d9/d5b/struct_8qh.html#a78a561d3b6074284aa947f7fbe5228fe":[2,0,4,54,9]
 };

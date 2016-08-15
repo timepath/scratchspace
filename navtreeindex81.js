@@ -1,5 +1,9 @@
 var NAVTREEINDEX81 =
 {
+"d9/df7/mathlib_8qh.html#a486a2dd576a38dc807ef5eeb0c29fc95":[2,0,4,2,9,53],
+"d9/df7/mathlib_8qh.html#a4b66818c1ca439713053dd5cace18ce3":[2,0,4,2,9,18],
+"d9/df7/mathlib_8qh.html#a4b7f0bec5cd190751b78da2b59172644":[2,0,4,2,9,59],
+"d9/df7/mathlib_8qh.html#a4e1e146a0a48b54f5d9adfbcd0311a3c":[2,0,4,2,9,8],
 "d9/df7/mathlib_8qh.html#a5188ac0e3af95b0956c6abeafb74fda9":[2,0,4,2,9,44],
 "d9/df7/mathlib_8qh.html#a5e1af78e18149340bcf4f1ebcf767998":[2,0,4,2,9,7],
 "d9/df7/mathlib_8qh.html#a5e50a8b2a2fc25c87fb8e70f7388b0ec":[2,0,4,2,9,40],
@@ -77,8 +81,8 @@ var NAVTREEINDEX81 =
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#afcff6c22eb8bc57e19bb78d6200318b1":[2,0,1,9,0,2,2,8],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc.html#affc47b0cc8d3babeb395799cb08dbd8a":[2,0,1,9,0,2,2,4],
 "da/d07/common_2mutators_2mutator_2buffs_2all_8inc_source.html":[2,0,1,9,0,2,2],
-"da/d0b/common_2mutators_2mutator_2rocketflying_2__mod_8qh.html":[2,0,1,9,0,22,1],
-"da/d0b/common_2mutators_2mutator_2rocketflying_2__mod_8qh_source.html":[2,0,1,9,0,22,1],
+"da/d0b/common_2mutators_2mutator_2rocketflying_2__mod_8qh.html":[2,0,1,9,0,23,1],
+"da/d0b/common_2mutators_2mutator_2rocketflying_2__mod_8qh_source.html":[2,0,1,9,0,23,1],
 "da/d10/sv__vehicles_8qc.html":[2,0,1,15,7],
 "da/d10/sv__vehicles_8qc.html#a018387a690e307f5cc7fb250212d7eb5":[2,0,1,15,7,14],
 "da/d10/sv__vehicles_8qc.html#a092be05e296a14ac0cb1e22b3e0786d8":[2,0,1,15,7,23],
@@ -233,8 +237,8 @@ var NAVTREEINDEX81 =
 "da/d1d/mainwindow_8qc.html#a1ead6224d662a11e80d74b913e8db41f":[2,0,5,4,178,0],
 "da/d1d/mainwindow_8qc.html#a906f272ebdf9a21d99b8d95e184866f3":[2,0,5,4,178,1],
 "da/d1d/mainwindow_8qc_source.html":[2,0,5,4,178],
-"da/d1e/mutators_2mutator_2nix_2module_8inc.html":[2,0,1,9,0,17,2],
-"da/d1e/mutators_2mutator_2nix_2module_8inc_source.html":[2,0,1,9,0,17,2],
+"da/d1e/mutators_2mutator_2nix_2module_8inc.html":[2,0,1,9,0,18,2],
+"da/d1e/mutators_2mutator_2nix_2module_8inc_source.html":[2,0,1,9,0,18,2],
 "da/d1e/phaser__weapon_8qc.html":[2,0,1,14,0,22],
 "da/d1e/phaser__weapon_8qc_source.html":[2,0,1,14,0,22],
 "da/d20/spawnfunc_8qh.html":[2,0,4,50],
@@ -245,9 +249,5 @@ var NAVTREEINDEX81 =
 "da/d20/spawnfunc_8qh.html#a4de816e6692271520f0bd3d32a2760cc":[2,0,4,50,1],
 "da/d20/spawnfunc_8qh.html#a6cb61ff4c2475d5c45d023b3d550a99a":[2,0,4,50,13],
 "da/d20/spawnfunc_8qh.html#a6db22713f1e01f024520460c92911ade":[2,0,4,50,8],
-"da/d20/spawnfunc_8qh.html#a82f4dd939d49e3dbc4926a5823ffb0c8":[2,0,4,50,4],
-"da/d20/spawnfunc_8qh.html#a88ddff5232ca6a3ebf1e0c263da3576b":[2,0,4,50,6],
-"da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153":[2,0,4,50,9],
-"da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd":[2,0,4,50,12],
-"da/d20/spawnfunc_8qh.html#aa84e4fe4fa33b1c501a7b73363c7cc2f":[2,0,4,50,7]
+"da/d20/spawnfunc_8qh.html#a82f4dd939d49e3dbc4926a5823ffb0c8":[2,0,4,50,4]
 };

@@ -1,5 +1,13 @@
 var NAVTREEINDEX120 =
 {
+"df/d05/cl__model_8qh.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,3,1],
+"df/d05/cl__model_8qh.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,3,2],
+"df/d05/cl__model_8qh.html#af18d4ea88acf4a4ed7a6df9c083e9e0c":[2,0,4,0,3,10],
+"df/d05/cl__model_8qh.html#af60c1d5a9c42d0889bfd60c6197556cd":[2,0,4,0,3,8],
+"df/d05/cl__model_8qh.html#afc57f52a541c51325b7adac5c1c42904":[2,0,4,0,3,5],
+"df/d05/cl__model_8qh_source.html":[2,0,4,0,3],
+"df/d05/t__quake_8qh.html":[2,0,6,71],
+"df/d05/t__quake_8qh_source.html":[2,0,6,71],
 "df/d07/cl__generator_8qc.html":[2,0,1,3,0,1,4],
 "df/d07/cl__generator_8qc.html#a163e03ef7146952b01f9ecbf3f144828":[2,0,1,3,0,1,4,10],
 "df/d07/cl__generator_8qc.html#a17113ca9f8dc87e435cd5941bfcb71f2":[2,0,1,3,0,1,4,2],
@@ -238,16 +246,8 @@ var NAVTREEINDEX120 =
 "df/d27/classXonoticPicker.html#af9acf6d00c179c136dd3c4c84028cc6e":[1,0,212,9],
 "df/d27/classXonoticPicker.html#afc9428d371ed63dd0316db5558e81d30":[1,0,212,40],
 "df/d27/classXonoticPicker.html#afdcf1fb79903f747cda494b27206526b":[1,0,212,1],
-"df/d27/common_2mutators_2mutator_2__mod_8inc.html":[2,0,1,9,0,33],
-"df/d27/common_2mutators_2mutator_2__mod_8inc_source.html":[2,0,1,9,0,33],
+"df/d27/common_2mutators_2mutator_2__mod_8inc.html":[2,0,1,9,0,34],
+"df/d27/common_2mutators_2mutator_2__mod_8inc_source.html":[2,0,1,9,0,34],
 "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html":[2,0,5,4,111],
-"df/d27/dialog__multiplayer__media__screenshot__viewer_8qh_source.html":[2,0,5,4,111],
-"df/d28/menu_2xonotic_2button_8qc.html":[2,0,5,4,6],
-"df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[2,0,5,4,6,2],
-"df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[2,0,5,4,6,1],
-"df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9":[2,0,5,4,6,0],
-"df/d28/menu_2xonotic_2button_8qc_source.html":[2,0,5,4,6],
-"df/d28/sv__turrets_8qh.html":[2,0,1,14,10],
-"df/d28/sv__turrets_8qh.html#a0577e32e3f20aa8ba4749eef48714d18":[2,0,1,14,10,19],
-"df/d28/sv__turrets_8qh.html#a07c4c1a4a7cb4c2974e3f73f6c395d5c":[2,0,1,14,10,20]
+"df/d27/dialog__multiplayer__media__screenshot__viewer_8qh_source.html":[2,0,5,4,111]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX41 =
 {
+"d4/dbb/centerprint_8qc.html#a6f15884e789c286c92a8955c0e786774":[2,0,0,1,0,4,11],
+"d4/dbb/centerprint_8qc.html#a74299ff84675028efceb8c2884c15f25":[2,0,0,1,0,4,15],
 "d4/dbb/centerprint_8qc.html#a8d0d6d4e6323ad44d931e396a7bfe747":[2,0,0,1,0,4,9],
 "d4/dbb/centerprint_8qc.html#a9731fa8afb1ec882df990e68002ace34":[2,0,0,1,0,4,5],
 "d4/dbb/centerprint_8qc.html#a9928c68069e10dc8f7ac42789981eec6":[2,0,0,1,0,4,12],
@@ -36,8 +38,8 @@ var NAVTREEINDEX41 =
 "d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,20,7],
 "d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,20,6],
 "d4/dcc/skin_8qh_source.html":[2,0,5,20],
-"d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc.html":[2,0,1,9,0,22,0],
-"d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc_source.html":[2,0,1,9,0,22,0],
+"d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc.html":[2,0,1,9,0,23,0],
+"d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc_source.html":[2,0,1,9,0,23,0],
 "d4/dce/weapons_8qh.html":[2,0,0,1,0,41],
 "d4/dce/weapons_8qh_source.html":[2,0,0,1,0,41],
 "d4/dd1/spawnpoints_8qh.html":[2,0,6,61],
@@ -121,8 +123,8 @@ var NAVTREEINDEX41 =
 "d4/dda/soundlist_8qh.html#ad632576d21cb4fc888d153a8565b0cb1":[2,0,5,4,217,5],
 "d4/dda/soundlist_8qh.html#af50b0ed8dccaa8291ca24f628a62be8a":[2,0,5,4,217,3],
 "d4/dda/soundlist_8qh_source.html":[2,0,5,4,217],
-"d4/ddb/common_2mutators_2mutator_2invincibleproj_2__mod_8qh.html":[2,0,1,9,0,11,1],
-"d4/ddb/common_2mutators_2mutator_2invincibleproj_2__mod_8qh_source.html":[2,0,1,9,0,11,1],
+"d4/ddb/common_2mutators_2mutator_2invincibleproj_2__mod_8qh.html":[2,0,1,9,0,12,1],
+"d4/ddb/common_2mutators_2mutator_2invincibleproj_2__mod_8qh_source.html":[2,0,1,9,0,12,1],
 "d4/ddc/monster_8qh.html":[2,0,1,8,5],
 "d4/ddc/monster_8qh.html#a03669798945c0fdbc043eb2d895667ee":[2,0,1,8,5,19],
 "d4/ddc/monster_8qh.html#a17d171a5ed6a63bd2ce3ef6094748668":[2,0,1,8,5,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX41 =
 "d4/df4/common_2sounds_2all_8qh.html":[2,0,1,12,4],
 "d4/df4/common_2sounds_2all_8qh.html#a231a974f625598ff7bc1c3af7644b026":[2,0,1,12,4,4],
 "d4/df4/common_2sounds_2all_8qh.html#a81bc2d94213d22271252a8bed7e9887d":[2,0,1,12,4,3],
-"d4/df4/common_2sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d":[2,0,1,12,4,0],
-"d4/df4/common_2sounds_2all_8qh.html#ae03a43610e8d839002569e42781aec08":[2,0,1,12,4,1],
-"d4/df4/common_2sounds_2all_8qh.html#afcb37e681cce76b7bca64122718de10f":[2,0,1,12,4,2]
+"d4/df4/common_2sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d":[2,0,1,12,4,0]
 };

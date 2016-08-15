@@ -1,5 +1,7 @@
 var NAVTREEINDEX26 =
 {
+"d3/d86/classXonoticMapList.html#a5b3ff67303f0c81b36c52c6f94a31f00":[1,0,203,42],
+"d3/d86/classXonoticMapList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,203,21],
 "d3/d86/classXonoticMapList.html#a60b086378934fd56f9d0b9950567c1bd":[1,0,203,85],
 "d3/d86/classXonoticMapList.html#a641f872727863e8855dc19cb17031fda":[1,0,203,71],
 "d3/d86/classXonoticMapList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,203,35],
@@ -141,10 +143,10 @@ var NAVTREEINDEX26 =
 "d3/d9e/dpextensions_8qh_source.html":[2,0,2,2],
 "d3/da1/common_2monsters_2monster_2__mod_8qh.html":[2,0,1,8,0,1],
 "d3/da1/common_2monsters_2monster_2__mod_8qh_source.html":[2,0,1,8,0,1],
-"d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh.html":[2,0,1,9,0,19,1],
-"d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh_source.html":[2,0,1,9,0,19,1],
-"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh.html":[2,0,1,9,0,20,1],
-"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh_source.html":[2,0,1,9,0,20,1],
+"d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh.html":[2,0,1,9,0,20,1],
+"d3/da2/common_2mutators_2mutator_2physical__items_2__mod_8qh_source.html":[2,0,1,9,0,20,1],
+"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh.html":[2,0,1,9,0,21,1],
+"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh_source.html":[2,0,1,9,0,21,1],
 "d3/da9/classMineLayer.html":[1,0,73],
 "d3/da9/classMineLayer.html#a0495da57f2ea15799bb58ca5ce313c9a":[1,0,73,29],
 "d3/da9/classMineLayer.html#a0bd25e8922366620f95386d9be824e77":[1,0,73,36],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "d3/db2/classXonoticListBox.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,201,70],
 "d3/db2/classXonoticListBox.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,201,61],
 "d3/db2/classXonoticListBox.html#a82217d761797df8a2e65054eab910734":[1,0,201,12],
-"d3/db2/classXonoticListBox.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,201,58],
-"d3/db2/classXonoticListBox.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,201,41],
-"d3/db2/classXonoticListBox.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,201,16]
+"d3/db2/classXonoticListBox.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,201,58]
 };

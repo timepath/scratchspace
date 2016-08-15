@@ -1,5 +1,7 @@
 var NAVTREEINDEX59 =
 {
+"d7/d50/classXonoticPlayerList.html#abf29109da76ef680ef0dbb5f8ffed5ee":[1,0,214,34],
+"d7/d50/classXonoticPlayerList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,214,65],
 "d7/d50/classXonoticPlayerList.html#ac6094922668d013ada3893854eec6b0f":[1,0,214,22],
 "d7/d50/classXonoticPlayerList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,214,62],
 "d7/d50/classXonoticPlayerList.html#acc39a417d17b87d076c2b719407f4f59":[1,0,214,73],
@@ -137,12 +139,12 @@ var NAVTREEINDEX59 =
 "d7/d66/classStringSource.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,121,5],
 "d7/d66/classStringSource.html#aaf40f07cb25d36179e3c05c500e982f0":[1,0,121,4],
 "d7/d66/classStringSource.html#ac27a0b7fbb81f2a42cd209e5807edd72":[1,0,121,10],
-"d7/d66/mutators_2mutator_2nades_2module_8inc.html":[2,0,1,9,0,15,3],
-"d7/d66/mutators_2mutator_2nades_2module_8inc_source.html":[2,0,1,9,0,15,3],
+"d7/d66/mutators_2mutator_2nades_2module_8inc.html":[2,0,1,9,0,16,3],
+"d7/d66/mutators_2mutator_2nades_2module_8inc_source.html":[2,0,1,9,0,16,3],
 "d7/d6a/common_2physics_2__mod_8inc.html":[2,0,1,11,1],
 "d7/d6a/common_2physics_2__mod_8inc_source.html":[2,0,1,11,1],
-"d7/d6e/mutators_2mutator_2midair_2module_8inc.html":[2,0,1,9,0,13,3],
-"d7/d6e/mutators_2mutator_2midair_2module_8inc_source.html":[2,0,1,9,0,13,3],
+"d7/d6e/mutators_2mutator_2midair_2module_8inc.html":[2,0,1,9,0,14,3],
+"d7/d6e/mutators_2mutator_2midair_2module_8inc_source.html":[2,0,1,9,0,14,3],
 "d7/d71/common_2effects_2qc_2all_8inc.html":[2,0,1,2,0,2],
 "d7/d71/common_2effects_2qc_2all_8inc_source.html":[2,0,1,2,0,2],
 "d7/d71/lib_2warpzone_2common_8qh.html":[2,0,4,2,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX59 =
 "d7/d73/path__waypoint_8qc_source.html":[2,0,6,3,13],
 "d7/d74/menu_2matrix_8qc.html":[2,0,5,14],
 "d7/d74/menu_2matrix_8qc.html#af5102d8297bde7ad33c004e9f81e6e3b":[2,0,5,14,0],
-"d7/d74/menu_2matrix_8qc_source.html":[2,0,5,14],
-"d7/d75/raptor__weapons_8qh.html":[2,0,1,15,0,12],
-"d7/d75/raptor__weapons_8qh.html#a044e3aa9b70170069e32f4c5e606b389":[2,0,1,15,0,12,9]
+"d7/d74/menu_2matrix_8qc_source.html":[2,0,5,14]
 };

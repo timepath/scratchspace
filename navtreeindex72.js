@@ -1,5 +1,7 @@
 var NAVTREEINDEX72 =
 {
+"d8/db6/client_2miscfunctions_8qh.html#afe434522c381a2b1f92dddefd27e2538":[2,0,0,21,67],
+"d8/db6/client_2miscfunctions_8qh_source.html":[2,0,0,21],
 "d8/db6/server_2command_2__mod_8inc.html":[2,0,6,1,0],
 "d8/db6/server_2command_2__mod_8inc_source.html":[2,0,6,1,0],
 "d8/db8/classCrylink.html":[1,0,21],
@@ -42,8 +44,8 @@ var NAVTREEINDEX72 =
 "d8/db8/classCrylink.html#afae852aee04f756c5dea8e4339aacc1b":[1,0,21,34],
 "d8/dbb/lib_2matrix_2__mod_8inc.html":[2,0,4,1,0],
 "d8/dbb/lib_2matrix_2__mod_8inc_source.html":[2,0,4,1,0],
-"d8/dbb/mutators_2mutator_2weaponarena__random_2module_8inc.html":[2,0,1,9,0,32,2],
-"d8/dbb/mutators_2mutator_2weaponarena__random_2module_8inc_source.html":[2,0,1,9,0,32,2],
+"d8/dbb/mutators_2mutator_2weaponarena__random_2module_8inc.html":[2,0,1,9,0,33,2],
+"d8/dbb/mutators_2mutator_2weaponarena__random_2module_8inc_source.html":[2,0,1,9,0,33,2],
 "d8/dbf/dialog__hudpanel__quickmenu_8qc.html":[2,0,5,4,68],
 "d8/dbf/dialog__hudpanel__quickmenu_8qc.html#a9f95265a206d226c4179c86779feb483":[2,0,5,4,68,0],
 "d8/dbf/dialog__hudpanel__quickmenu_8qc_source.html":[2,0,5,4,68],
@@ -126,8 +128,8 @@ var NAVTREEINDEX72 =
 "d8/dc1/sv__monsters_8qh.html#af65188818bc9bf87f3058a3b9dd5ffad":[2,0,1,8,9,55],
 "d8/dc1/sv__monsters_8qh.html#af6fd9a6f6a7602ea1bf37921cb674a67":[2,0,1,8,9,27],
 "d8/dc1/sv__monsters_8qh_source.html":[2,0,1,8,9],
-"d8/dc5/nix_8qc.html":[2,0,1,9,0,17,3],
-"d8/dc5/nix_8qc_source.html":[2,0,1,9,0,17,3],
+"d8/dc5/nix_8qc.html":[2,0,1,9,0,18,3],
+"d8/dc5/nix_8qc_source.html":[2,0,1,9,0,18,3],
 "d8/dcc/classKeyHunt.html":[1,0,60],
 "d8/dcc/classKeyHunt.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,60,1],
 "d8/dcc/classKeyHunt.html#a353db82280437c3b38f0ad1934a7d666":[1,0,60,16],
@@ -215,8 +217,8 @@ var NAVTREEINDEX72 =
 "d8/dd3/classShotgun.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,114,22],
 "d8/dd3/classShotgun.html#aeb57e7d1c2df7e55dc272a0fb6140444":[1,0,114,23],
 "d8/dd3/classShotgun.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,114,17],
-"d8/dd4/rocketflying_8qc.html":[2,0,1,9,0,22,3],
-"d8/dd4/rocketflying_8qc_source.html":[2,0,1,9,0,22,3],
+"d8/dd4/rocketflying_8qc.html":[2,0,1,9,0,23,3],
+"d8/dd4/rocketflying_8qc_source.html":[2,0,1,9,0,23,3],
 "d8/dd7/shownames_8qh.html":[2,0,0,26],
 "d8/dd7/shownames_8qh.html#a42e7f03b56b56a4f5049a08fbc36097e":[2,0,0,26,2],
 "d8/dd7/shownames_8qh.html#a9ccf8f67a13521356d76071fce9be7c6":[2,0,0,26,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX72 =
 "d8/de2/menudefs_8qc.html#a13eb9050b0b640e3679a4bb05ed2207c":[2,0,2,0,3,169],
 "d8/de2/menudefs_8qc.html#a15433f7569b9361acf17695cf9df7ecd":[2,0,2,0,3,94],
 "d8/de2/menudefs_8qc.html#a15d574b8ffae2507cd2f976fbc8b169e":[2,0,2,0,3,15],
-"d8/de2/menudefs_8qc.html#a172b18b47dac1c8d6d3a405d3e8ba9d7":[2,0,2,0,3,267],
-"d8/de2/menudefs_8qc.html#a1822755cdada8e7259a6e06f7596a6b1":[2,0,2,0,3,224],
-"d8/de2/menudefs_8qc.html#a189158f8c2db3797e9bb00cc53e80988":[2,0,2,0,3,34]
+"d8/de2/menudefs_8qc.html#a172b18b47dac1c8d6d3a405d3e8ba9d7":[2,0,2,0,3,267]
 };

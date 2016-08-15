@@ -1,13 +1,13 @@
 var NAVTREEINDEX17 =
 {
-"d2/d94/instagib_8qc.html":[2,0,1,9,0,10,2],
-"d2/d94/instagib_8qc.html#afde76cacdc12d0515c3515bffea80c01":[2,0,1,9,0,10,2,0],
-"d2/d94/instagib_8qc_source.html":[2,0,1,9,0,10,2],
+"d2/d94/instagib_8qc.html":[2,0,1,9,0,11,2],
+"d2/d94/instagib_8qc.html#afde76cacdc12d0515c3515bffea80c01":[2,0,1,9,0,11,2,0],
+"d2/d94/instagib_8qc_source.html":[2,0,1,9,0,11,2],
 "d2/d94/xonotic_2tab_8qc.html":[2,0,5,4,220],
 "d2/d94/xonotic_2tab_8qc.html#a13fe5728a418b314ab87bb874e42231d":[2,0,5,4,220,0],
 "d2/d94/xonotic_2tab_8qc_source.html":[2,0,5,4,220],
-"d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc.html":[2,0,1,9,0,9,0],
-"d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc_source.html":[2,0,1,9,0,9,0],
+"d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc.html":[2,0,1,9,0,10,0],
+"d2/d98/common_2mutators_2mutator_2hook_2__mod_8inc_source.html":[2,0,1,9,0,10,0],
 "d2/d9b/common_2effects_2qc_2__mod_8qh.html":[2,0,1,2,0,1],
 "d2/d9b/common_2effects_2qc_2__mod_8qh_source.html":[2,0,1,2,0,1],
 "d2/d9b/jumppads_8qc.html":[2,0,1,13,3,14],

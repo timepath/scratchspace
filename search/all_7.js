@@ -452,6 +452,7 @@ var searchData=
   ['givevalue',['GiveValue',['../d5/d52/bits_8qh.html#a14952d302edb3ee6edbf529dfb78c635',1,'bits.qh']]],
   ['gl_5fcheckextension',['GL_CheckExtension',['../df/d9b/menu_2xonotic_2util_8qc.html#a6b30e54c431ef41c6bca8ad5930e6670',1,'GL_CheckExtension(string ext):&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#a6b30e54c431ef41c6bca8ad5930e6670',1,'GL_CheckExtension(string ext):&#160;util.qc']]],
   ['gl_5fhave_5ftexturecompression',['GL_Have_TextureCompression',['../df/d9b/menu_2xonotic_2util_8qc.html#ada73b695059752dc4c9de93567017ca8',1,'GL_Have_TextureCompression():&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#ada73b695059752dc4c9de93567017ca8',1,'GL_Have_TextureCompression():&#160;util.qc']]],
+  ['globalforces_2eqc',['globalforces.qc',['../dc/dc4/globalforces_8qc.html',1,'']]],
   ['globalsound_2eqc',['globalsound.qc',['../d9/d45/globalsound_8qc.html',1,'']]],
   ['globalsound_2eqh',['globalsound.qh',['../df/d6e/globalsound_8qh.html',1,'']]],
   ['globalsounds_5ffrom',['GlobalSounds_from',['../df/d6e/globalsound_8qh.html#a5fb0865b819461b71d03295bc3e263c0',1,'globalsound.qh']]],

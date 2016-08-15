@@ -1,5 +1,7 @@
 var NAVTREEINDEX74 =
 {
+"d8/de2/menudefs_8qc.html#afa1339a9821a14fdbaa610abaac80ef3":[2,0,2,0,3,44],
+"d8/de2/menudefs_8qc.html#afa418d884ddb50796a9cf1f4ce34d3e1":[2,0,2,0,3,257],
 "d8/de2/menudefs_8qc.html#afb0841005d1d566305334864caecd81a":[2,0,2,0,3,222],
 "d8/de2/menudefs_8qc.html#afc3879feef2a889d470d0510ce993b64":[2,0,2,0,3,78],
 "d8/de2/menudefs_8qc_source.html":[2,0,2,0,3],
@@ -201,8 +203,8 @@ var NAVTREEINDEX74 =
 "d8/dfe/classPlasmaDualAttack.html#aef0b48ef9e2bfaa3a1db1d0e1b4fdec8":[1,0,93,28],
 "d8/dfe/classPlasmaDualAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,93,17],
 "d8/dfe/classPlasmaDualAttack.html#afba05a26a4843e2b4b22d4ad9c7ff03f":[1,0,93,25],
-"d8/dfe/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8qh.html":[2,0,1,9,0,26,1],
-"d8/dfe/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8qh_source.html":[2,0,1,9,0,26,1],
+"d8/dfe/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8qh.html":[2,0,1,9,0,27,1],
+"d8/dfe/common_2mutators_2mutator_2spawn__near__teammate_2__mod_8qh_source.html":[2,0,1,9,0,27,1],
 "d8/dfe/vectormamamam_8qc.html":[2,0,1,13,0,24],
 "d8/dfe/vectormamamam_8qc_source.html":[2,0,1,13,0,24],
 "d9/d01/rotating_8qc.html":[2,0,1,13,0,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX74 =
 "d9/d08/client_2defs_8qh.html#a6b17a65dd7a85e465430a85ae6a3cdcf":[2,0,0,15,0],
 "d9/d08/client_2defs_8qh.html#a6f43436dba652760ff17d18ed5bdf975":[2,0,0,15,23],
 "d9/d08/client_2defs_8qh.html#a72abba51d925066d5b85f6b761aec740":[2,0,0,15,31],
-"d9/d08/client_2defs_8qh.html#a74fe90e74c5e7ae1ab56ba8cfe58c4c4":[2,0,0,15,77],
-"d9/d08/client_2defs_8qh.html#a766f0b1708b74792c765d71219cd1a04":[2,0,0,15,40],
-"d9/d08/client_2defs_8qh.html#a7c0e0c424208978a5874199fe6d1ba92":[2,0,0,15,28]
+"d9/d08/client_2defs_8qh.html#a74fe90e74c5e7ae1ab56ba8cfe58c4c4":[2,0,0,15,77]
 };

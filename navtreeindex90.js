@@ -1,5 +1,9 @@
 var NAVTREEINDEX90 =
 {
+"db/d38/classXonoticSliderCheckBox.html#a1a55e3b961b4986ce5dda62bd05b8ec5":[1,0,238,48],
+"db/d38/classXonoticSliderCheckBox.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,238,31],
+"db/d38/classXonoticSliderCheckBox.html#a1f71e31fd265ca4fba4bccee3a807b09":[1,0,238,36],
+"db/d38/classXonoticSliderCheckBox.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,238,54],
 "db/d38/classXonoticSliderCheckBox.html#a21fdc6c151d9e721da87eaaa8a04e3f9":[1,0,238,9],
 "db/d38/classXonoticSliderCheckBox.html#a22ef5ac27f9f844bb1cb269ccb417594":[1,0,238,38],
 "db/d38/classXonoticSliderCheckBox.html#a257f9c325381f4b29b5c7acbaa0ba5ae":[1,0,238,24],
@@ -113,8 +117,8 @@ var NAVTREEINDEX90 =
 "db/d3c/classArc.html#ae0a509098068a29d9ef781b063c35d0e":[1,0,3,24],
 "db/d3c/classArc.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,3,22],
 "db/d3c/classArc.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,3,17],
-"db/d40/common_2mutators_2mutator_2nades_2__mod_8inc.html":[2,0,1,9,0,15,0],
-"db/d40/common_2mutators_2mutator_2nades_2__mod_8inc_source.html":[2,0,1,9,0,15,0],
+"db/d40/common_2mutators_2mutator_2nades_2__mod_8inc.html":[2,0,1,9,0,16,0],
+"db/d40/common_2mutators_2mutator_2nades_2__mod_8inc_source.html":[2,0,1,9,0,16,0],
 "db/d46/dialog__multiplayer__create_8qh.html":[2,0,5,4,89],
 "db/d46/dialog__multiplayer__create_8qh.html#a94bcd6120df81d66b7301391e876efe9":[2,0,5,4,89,1],
 "db/d46/dialog__multiplayer__create_8qh_source.html":[2,0,5,4,89],
@@ -245,9 +249,5 @@ var NAVTREEINDEX90 =
 "db/d59/classXonoticPlayList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,216,61],
 "db/d59/classXonoticPlayList.html#aa0be1afcee01b4904e9b7ccc15674b53":[1,0,216,3],
 "db/d59/classXonoticPlayList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,216,43],
-"db/d59/classXonoticPlayList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,216,10],
-"db/d59/classXonoticPlayList.html#aaa201eb324b2213df041c2f3c5195db6":[1,0,216,34],
-"db/d59/classXonoticPlayList.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,216,74],
-"db/d59/classXonoticPlayList.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,216,76],
-"db/d59/classXonoticPlayList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,216,80]
+"db/d59/classXonoticPlayList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,216,10]
 };

@@ -1,5 +1,9 @@
 var NAVTREEINDEX86 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,231,105],
+"da/db7/classXonoticServerInfoDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,231,47],
+"da/db7/classXonoticServerInfoDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,231,43],
+"da/db7/classXonoticServerInfoDialog.html#a775b994db16fbbf0a4e1976eff4c1220":[1,0,231,38],
 "da/db7/classXonoticServerInfoDialog.html#a78f05ec0093af63d1784953979e3f4ed":[1,0,231,111],
 "da/db7/classXonoticServerInfoDialog.html#a79d46dd44f1e634863416b79a3960b89":[1,0,231,98],
 "da/db7/classXonoticServerInfoDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,231,96],
@@ -245,9 +249,5 @@ var NAVTREEINDEX86 =
 "da/dd7/common_2turrets_2__mod_8inc_source.html":[2,0,1,14,1],
 "da/ddd/dialog__singleplayer__winner_8qh.html":[2,0,5,4,159],
 "da/ddd/dialog__singleplayer__winner_8qh_source.html":[2,0,5,4,159],
-"da/ddd/ipban_8qh.html":[2,0,6,38],
-"da/ddd/ipban_8qh.html#a00561ab100b941912528ea8344521047":[2,0,6,38,1],
-"da/ddd/ipban_8qh.html#a9f85e5fa39fffae8c1b39c3f413dfb89":[2,0,6,38,3],
-"da/ddd/ipban_8qh.html#ac01ce020dcc014d515c2b39dc5a09260":[2,0,6,38,2],
-"da/ddd/ipban_8qh.html#ad7174054ad76d672732a64c0a20d658e":[2,0,6,38,5]
+"da/ddd/ipban_8qh.html":[2,0,6,38]
 };

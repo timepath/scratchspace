@@ -1,5 +1,13 @@
 var NAVTREEINDEX112 =
 {
+"dd/de4/g__damage_8qh.html":[2,0,6,26],
+"dd/de4/g__damage_8qh.html#a006d9006c9dbfcddaab4e8379e581301":[2,0,6,26,30],
+"dd/de4/g__damage_8qh.html#a06cd718b9ac0e28276f5f1b932fc96c5":[2,0,6,26,43],
+"dd/de4/g__damage_8qh.html#a06d441877a7cb716320e5b143e30826b":[2,0,6,26,45],
+"dd/de4/g__damage_8qh.html#a1e3b2f601afaa75fbe6749c4931d1367":[2,0,6,26,48],
+"dd/de4/g__damage_8qh.html#a20087508f7a406698c20adf80e55aeba":[2,0,6,26,32],
+"dd/de4/g__damage_8qh.html#a23d73461c891095705d9e88dcbf0b164":[2,0,6,26,47],
+"dd/de4/g__damage_8qh.html#a24aaf696797544264665df5f05253d1c":[2,0,6,26,11],
 "dd/de4/g__damage_8qh.html#a2d30d51fdeb3f05c8ade32e74ca54a7c":[2,0,6,26,9],
 "dd/de4/g__damage_8qh.html#a30b6dcb0a5e148d3961cad10abdaf5af":[2,0,6,26,15],
 "dd/de4/g__damage_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9":[2,0,6,26,40],
@@ -194,8 +202,8 @@ var NAVTREEINDEX112 =
 "dd/dfd/markdown_8qh.html#a1b6611f21ed581b0671b233878aebbbb":[2,0,4,30,0],
 "dd/dfd/markdown_8qh.html#a77f267f37e2a269275b232a573a1ca50":[2,0,4,30,1],
 "dd/dfd/markdown_8qh_source.html":[2,0,4,30],
-"dd/dff/mutators_2mutator_2superspec_2module_8inc.html":[2,0,1,9,0,27,2],
-"dd/dff/mutators_2mutator_2superspec_2module_8inc_source.html":[2,0,1,9,0,27,2],
+"dd/dff/mutators_2mutator_2superspec_2module_8inc.html":[2,0,1,9,0,28,2],
+"dd/dff/mutators_2mutator_2superspec_2module_8inc_source.html":[2,0,1,9,0,28,2],
 "de/d03/effectinfo__vehicles_8inc.html":[2,0,1,2,18],
 "de/d03/effectinfo__vehicles_8inc.html#a0dcc260899337c6ad319554dad716f68":[2,0,1,2,18,16],
 "de/d03/effectinfo__vehicles_8inc.html#a0e2648e059e3fccd639a6cb2d3081168":[2,0,1,2,18,26],
@@ -241,13 +249,5 @@ var NAVTREEINDEX112 =
 "de/d09/linkedlist_8qh.html#aabcd34bd83546d80452d9af104864f3e":[2,0,4,26,8],
 "de/d09/linkedlist_8qh.html#aba68dac02d2aa7fea2c34beda839b108":[2,0,4,26,3],
 "de/d09/linkedlist_8qh.html#accc6c5d3ab06c26b8e5408db31cf0247":[2,0,4,26,10],
-"de/d09/linkedlist_8qh.html#acd06e79f63713052c4524c26942ca23d":[2,0,4,26,6],
-"de/d09/linkedlist_8qh.html#ad7288ed22aca7a8878a40423e7ba62e1":[2,0,4,26,5],
-"de/d09/linkedlist_8qh.html#ae661d2fd5b18437505433ab79fae5ce0":[2,0,4,26,14],
-"de/d09/linkedlist_8qh_source.html":[2,0,4,26],
-"de/d0d/int_8qh.html":[2,0,4,21],
-"de/d0d/int_8qh.html#ab65936840a5b666cc6c87399e9b80802":[2,0,4,21,2],
-"de/d0d/int_8qh.html#ad0a2a81b9a9d0396a40a45d23c83d647":[2,0,4,21,1],
-"de/d0d/int_8qh.html#ad77a5a11dca20b65e1953044f7652057":[2,0,4,21,0],
-"de/d0d/int_8qh_source.html":[2,0,4,21]
+"de/d09/linkedlist_8qh.html#acd06e79f63713052c4524c26942ca23d":[2,0,4,26,6]
 };

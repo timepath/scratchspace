@@ -1,5 +1,7 @@
 var NAVTREEINDEX50 =
 {
+"d6/d1a/classMainWindow.html#a57d47c9d391f762811bece4a6dfd2305":[1,0,72,21],
+"d6/d1a/classMainWindow.html#a60a0f0e87fb591e8822ca68d90588b8d":[1,0,72,32],
 "d6/d1a/classMainWindow.html#a664a226b5d87a63e5af7adede821a776":[1,0,72,0],
 "d6/d1a/classMainWindow.html#a67d95732d49da439095483530aca8804":[1,0,72,62],
 "d6/d1a/classMainWindow.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,72,29],
@@ -237,8 +239,8 @@ var NAVTREEINDEX50 =
 "d6/d29/anticheat_8qc.html#ae83a5f627cf095e98d8f8977e0063f12":[2,0,6,8,40],
 "d6/d29/anticheat_8qc.html#afe42434a2bf9329e45ce2740e0d56d98":[2,0,6,8,37],
 "d6/d29/anticheat_8qc_source.html":[2,0,6,8],
-"d6/d2a/common_2mutators_2mutator_2weaponarena__random_2__mod_8inc.html":[2,0,1,9,0,32,0],
-"d6/d2a/common_2mutators_2mutator_2weaponarena__random_2__mod_8inc_source.html":[2,0,1,9,0,32,0],
+"d6/d2a/common_2mutators_2mutator_2weaponarena__random_2__mod_8inc.html":[2,0,1,9,0,33,0],
+"d6/d2a/common_2mutators_2mutator_2weaponarena__random_2__mod_8inc_source.html":[2,0,1,9,0,33,0],
 "d6/d2f/func_2include_8qh.html":[2,0,1,13,0,13],
 "d6/d2f/func_2include_8qh_source.html":[2,0,1,13,0,13],
 "d6/d30/dialog__teamselect_8qc.html":[2,0,5,4,160],
@@ -247,7 +249,5 @@ var NAVTREEINDEX50 =
 "d6/d30/dialog__teamselect_8qc.html#aef68d50cc290b76e2c8fc62888560c00":[2,0,5,4,160,2],
 "d6/d30/dialog__teamselect_8qc.html#af1c89445ad12552325475410a8cc2902":[2,0,5,4,160,0],
 "d6/d30/dialog__teamselect_8qc_source.html":[2,0,5,4,160],
-"d6/d35/debug_8qc.html":[2,0,6,3,5],
-"d6/d35/debug_8qc.html#a2e17e1231733cc77477d3ba0e0c7cbfe":[2,0,6,3,5,2],
-"d6/d35/debug_8qc.html#a442a44dd3f4c13eaeae17434cb02ab67":[2,0,6,3,5,1]
+"d6/d35/debug_8qc.html":[2,0,6,3,5]
 };

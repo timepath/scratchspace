@@ -1,5 +1,13 @@
 var NAVTREEINDEX125 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,187,11],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,187,40],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,187,3],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,187,83],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,187,81],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,187,48],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,187,26],
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,187,17],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,187,73],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,187,70],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,187,69],
@@ -202,10 +210,10 @@ var NAVTREEINDEX125 =
 "df/dee/anglestransform_8qh.html#ae62e4ce9337df904e78bc661778ba4e0":[2,0,4,2,3,5],
 "df/dee/anglestransform_8qh.html#af64b5ad6d44b097e630186f854137e5d":[2,0,4,2,3,8],
 "df/dee/anglestransform_8qh_source.html":[2,0,4,2,3],
-"df/df1/common_2mutators_2mutator_2instagib_2__mod_8inc.html":[2,0,1,9,0,10,0],
-"df/df1/common_2mutators_2mutator_2instagib_2__mod_8inc_source.html":[2,0,1,9,0,10,0],
-"df/df1/common_2mutators_2mutator_2touchexplode_2__mod_8inc.html":[2,0,1,9,0,28,0],
-"df/df1/common_2mutators_2mutator_2touchexplode_2__mod_8inc_source.html":[2,0,1,9,0,28,0],
+"df/df1/common_2mutators_2mutator_2instagib_2__mod_8inc.html":[2,0,1,9,0,11,0],
+"df/df1/common_2mutators_2mutator_2instagib_2__mod_8inc_source.html":[2,0,1,9,0,11,0],
+"df/df1/common_2mutators_2mutator_2touchexplode_2__mod_8inc.html":[2,0,1,9,0,29,0],
+"df/df1/common_2mutators_2mutator_2touchexplode_2__mod_8inc_source.html":[2,0,1,9,0,29,0],
 "df/df2/breakable_8qh.html":[2,0,1,13,0,4],
 "df/df2/breakable_8qh_source.html":[2,0,1,13,0,4],
 "df/df3/common_2items_2__mod_8qh.html":[2,0,1,5,2],
@@ -241,13 +249,5 @@ var NAVTREEINDEX125 =
 "df/df6/classXonoticSlider.html#a40134d685fe2f30e682c4fefed882e7e":[1,0,237,62],
 "df/df6/classXonoticSlider.html#a410bd8073e04005466f95ec4936a3328":[1,0,237,83],
 "df/df6/classXonoticSlider.html#a4507944a16d2de8fd3aff6bf8767f1e4":[1,0,237,81],
-"df/df6/classXonoticSlider.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,237,23],
-"df/df6/classXonoticSlider.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,237,71],
-"df/df6/classXonoticSlider.html#a4e7cbd246f6764a75dc6408bae7bb571":[1,0,237,77],
-"df/df6/classXonoticSlider.html#a5443afd02f77fd76625a075a627901ff":[1,0,237,41],
-"df/df6/classXonoticSlider.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,237,51],
-"df/df6/classXonoticSlider.html#a5abdf5d7baca995f1d94ccf79b2538bb":[1,0,237,78],
-"df/df6/classXonoticSlider.html#a5eb816d08bd102111b268f794d42d695":[1,0,237,44],
-"df/df6/classXonoticSlider.html#a6cb020ef9e5705c39d3737e27ef31efe":[1,0,237,86],
-"df/df6/classXonoticSlider.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,237,12]
+"df/df6/classXonoticSlider.html#a467f0a445a24590fdd3a41b012424a1e":[1,0,237,23]
 };

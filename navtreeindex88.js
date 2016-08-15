@@ -1,5 +1,9 @@
 var NAVTREEINDEX88 =
 {
+"db/d0a/oo_8qh.html#abe72a6bafb55848ec9cd7f81a6de3c29":[2,0,4,36,53],
+"db/d0a/oo_8qh.html#aca6a31739dd717cb79d534d0632daa71":[2,0,4,36,7],
+"db/d0a/oo_8qh.html#acffd6df7afe44df47e0cf29a0d2d5899":[2,0,4,36,8],
+"db/d0a/oo_8qh.html#ad094b04d5b4b69676ba867afec134c73":[2,0,4,36,21],
 "db/d0a/oo_8qh.html#ad312499c578788933fd022f7249ab698":[2,0,4,36,49],
 "db/d0a/oo_8qh.html#ad4a35676db934db865f1a6798a3488f2":[2,0,4,36,50],
 "db/d0a/oo_8qh.html#ad51fa825f9684ce664ad4ca0b3131f5b":[2,0,4,36,58],
@@ -193,8 +197,8 @@ var NAVTREEINDEX88 =
 "db/d18/ent__cs_8qh.html#ae6585fb3de9317e0c002610dcea97105":[2,0,1,31,2],
 "db/d18/ent__cs_8qh.html#af17dfd90e88595249957c1539ebe1c17":[2,0,1,31,0],
 "db/d18/ent__cs_8qh_source.html":[2,0,1,31],
-"db/d1e/mutators_2mutator_2hook_2module_8inc.html":[2,0,1,9,0,9,3],
-"db/d1e/mutators_2mutator_2hook_2module_8inc_source.html":[2,0,1,9,0,9,3],
+"db/d1e/mutators_2mutator_2hook_2module_8inc.html":[2,0,1,9,0,10,3],
+"db/d1e/mutators_2mutator_2hook_2module_8inc_source.html":[2,0,1,9,0,10,3],
 "db/d20/round__handler_8qh.html":[2,0,6,55],
 "db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0":[2,0,6,55,3],
 "db/d20/round__handler_8qh.html#a3333ca7666a86449c9cce2487a77bd4f":[2,0,6,55,2],
@@ -245,9 +249,5 @@ var NAVTREEINDEX88 =
 "db/d26/gamemode__freezetag_8qc.html#a4ade32017fb46793f5e1ff698e05989b":[2,0,6,2,0,14,6],
 "db/d26/gamemode__freezetag_8qc.html#a5c3fd51f9babdfe94b95378108bb0e2f":[2,0,6,2,0,14,5],
 "db/d26/gamemode__freezetag_8qc.html#a5c7d231b29848dbe9e992548d57958bb":[2,0,6,2,0,14,11],
-"db/d26/gamemode__freezetag_8qc.html#a64d08325f0339534e219ec14103c2757":[2,0,6,2,0,14,4],
-"db/d26/gamemode__freezetag_8qc.html#a93dbe70f6f5e8c7e42c436e77d0d3348":[2,0,6,2,0,14,1],
-"db/d26/gamemode__freezetag_8qc.html#aa6539dc2fe101f47fdac71e3ed17e482":[2,0,6,2,0,14,13],
-"db/d26/gamemode__freezetag_8qc.html#aaa13a46cb43eaeeec707e1630d149734":[2,0,6,2,0,14,9],
-"db/d26/gamemode__freezetag_8qc.html#aab6e5dd351a36e1a298791aceb0a13a3":[2,0,6,2,0,14,10]
+"db/d26/gamemode__freezetag_8qc.html#a64d08325f0339534e219ec14103c2757":[2,0,6,2,0,14,4]
 };

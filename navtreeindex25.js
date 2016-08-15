@@ -71,8 +71,8 @@ var NAVTREEINDEX25 =
 "d3/d64/sv__model_8qh.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,11,1],
 "d3/d64/sv__model_8qh.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,11,2],
 "d3/d64/sv__model_8qh_source.html":[2,0,4,0,11],
-"d3/d68/common_2mutators_2mutator_2melee__only_2__mod_8qh.html":[2,0,1,9,0,12,1],
-"d3/d68/common_2mutators_2mutator_2melee__only_2__mod_8qh_source.html":[2,0,1,9,0,12,1],
+"d3/d68/common_2mutators_2mutator_2melee__only_2__mod_8qh.html":[2,0,1,9,0,13,1],
+"d3/d68/common_2mutators_2mutator_2melee__only_2__mod_8qh_source.html":[2,0,1,9,0,13,1],
 "d3/d68/relay_8qc.html":[2,0,1,13,3,23],
 "d3/d68/relay_8qc_source.html":[2,0,1,13,3,23],
 "d3/d69/menu_2xonotic_2campaign_8qc.html":[2,0,5,4,8],
@@ -121,8 +121,10 @@ var NAVTREEINDEX25 =
 "d3/d78/mlrs__weapon_8qh.html":[2,0,1,14,0,20],
 "d3/d78/mlrs__weapon_8qh.html#af9b071956bbf39470526c535695f01e5":[2,0,1,14,0,20,1],
 "d3/d78/mlrs__weapon_8qh_source.html":[2,0,1,14,0,20],
-"d3/d7d/new__toys_8qc.html":[2,0,1,9,0,16,3],
-"d3/d7d/new__toys_8qc_source.html":[2,0,1,9,0,16,3],
+"d3/d7c/common_2mutators_2mutator_2globalforces_2__mod_8qh.html":[2,0,1,9,0,9,1],
+"d3/d7c/common_2mutators_2mutator_2globalforces_2__mod_8qh_source.html":[2,0,1,9,0,9,1],
+"d3/d7d/new__toys_8qc.html":[2,0,1,9,0,17,3],
+"d3/d7d/new__toys_8qc_source.html":[2,0,1,9,0,17,3],
 "d3/d83/classXonoticHUDHealthArmorDialog.html":[1,0,179],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,179,32],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,179,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX25 =
 "d3/d86/classXonoticMapList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,203,72],
 "d3/d86/classXonoticMapList.html#a565f8d33b46815606f1860162d71339a":[1,0,203,28],
 "d3/d86/classXonoticMapList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,203,11],
-"d3/d86/classXonoticMapList.html#a5a592418d202df087794904b673f731b":[1,0,203,3],
-"d3/d86/classXonoticMapList.html#a5b3ff67303f0c81b36c52c6f94a31f00":[1,0,203,42],
-"d3/d86/classXonoticMapList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,203,21]
+"d3/d86/classXonoticMapList.html#a5a592418d202df087794904b673f731b":[1,0,203,3]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX75 =
 {
+"d9/d08/client_2defs_8qh.html#a766f0b1708b74792c765d71219cd1a04":[2,0,0,15,40],
+"d9/d08/client_2defs_8qh.html#a7c0e0c424208978a5874199fe6d1ba92":[2,0,0,15,28],
 "d9/d08/client_2defs_8qh.html#a7e750772aafa38fe4dada534e30b2ce6":[2,0,0,15,16],
 "d9/d08/client_2defs_8qh.html#a8036e7ff202b8dfa10a7e15e849bebe7":[2,0,0,15,62],
 "d9/d08/client_2defs_8qh.html#a82645f320a8fba7eaad8f57fa5cd66cd":[2,0,0,15,65],
@@ -41,12 +43,12 @@ var NAVTREEINDEX75 =
 "d9/d08/client_2defs_8qh.html#af181b46d8560f88b6a4612ac35d57a46":[2,0,0,15,64],
 "d9/d08/client_2defs_8qh.html#af388c4e5001dfa76a890f8f07c52f8ab":[2,0,0,15,20],
 "d9/d08/client_2defs_8qh_source.html":[2,0,0,15],
-"d9/d09/common_2mutators_2mutator_2waypoints_2__mod_8inc.html":[2,0,1,9,0,31,0],
-"d9/d09/common_2mutators_2mutator_2waypoints_2__mod_8inc_source.html":[2,0,1,9,0,31,0],
-"d9/d09/spawn__near__teammate_8qc.html":[2,0,1,9,0,26,3],
-"d9/d09/spawn__near__teammate_8qc_source.html":[2,0,1,9,0,26,3],
-"d9/d0b/invincibleproj_8qc.html":[2,0,1,9,0,11,2],
-"d9/d0b/invincibleproj_8qc_source.html":[2,0,1,9,0,11,2],
+"d9/d09/common_2mutators_2mutator_2waypoints_2__mod_8inc.html":[2,0,1,9,0,32,0],
+"d9/d09/common_2mutators_2mutator_2waypoints_2__mod_8inc_source.html":[2,0,1,9,0,32,0],
+"d9/d09/spawn__near__teammate_8qc.html":[2,0,1,9,0,27,3],
+"d9/d09/spawn__near__teammate_8qc_source.html":[2,0,1,9,0,27,3],
+"d9/d0b/invincibleproj_8qc.html":[2,0,1,9,0,12,2],
+"d9/d0b/invincibleproj_8qc_source.html":[2,0,1,9,0,12,2],
 "d9/d0d/centerprint_8qh.html":[2,0,0,1,0,5],
 "d9/d0d/centerprint_8qh_source.html":[2,0,0,1,0,5],
 "d9/d0d/common_2weapons_2all_8inc.html":[2,0,1,16,3],
@@ -63,6 +65,8 @@ var NAVTREEINDEX75 =
 "d9/d0f/statslist_8qc.html#ab2c81bed70cd3beefee5b736dc5ef79c":[2,0,5,4,218,2],
 "d9/d0f/statslist_8qc.html#ad3d4581fc2bf1a064f93e3e008b70109":[2,0,5,4,218,3],
 "d9/d0f/statslist_8qc_source.html":[2,0,5,4,218],
+"d9/d11/common_2mutators_2mutator_2globalforces_2__mod_8inc.html":[2,0,1,9,0,9,0],
+"d9/d11/common_2mutators_2mutator_2globalforces_2__mod_8inc_source.html":[2,0,1,9,0,9,0],
 "d9/d12/dialog__hudpanel__modicons_8qc.html":[2,0,5,4,58],
 "d9/d12/dialog__hudpanel__modicons_8qc.html#ac73511dfa791a5caeb005cdde13be83b":[2,0,5,4,58,0],
 "d9/d12/dialog__hudpanel__modicons_8qc_source.html":[2,0,5,4,58],
@@ -245,9 +249,5 @@ var NAVTREEINDEX75 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,226,92],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,226,54],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,226,23],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,226,68],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a67d95732d49da439095483530aca8804":[1,0,226,60],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,226,24],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a72c0e76156762fbda152032add5f1630":[1,0,226,20],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a7326329e73b9b153fde68543eeb27c96":[1,0,226,87]
+"d9/d37/classXonoticScreenshotBrowserTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,226,68]
 };

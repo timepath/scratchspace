@@ -1,8 +1,10 @@
 var NAVTREEINDEX70 =
 {
-"d8/d59/waypointsprites_8qh.html#a2a10f4f3932f9b83f847f3e3d7c325ab":[2,0,1,9,0,31,6,1],
-"d8/d59/waypointsprites_8qh.html#a49469669e047e5a5ad97eebc968736c2":[2,0,1,9,0,31,6,0],
-"d8/d59/waypointsprites_8qh_source.html":[2,0,1,9,0,31,6],
+"d8/d58/calculations_8qc_source.html":[2,0,1,16,6],
+"d8/d59/waypointsprites_8qh.html":[2,0,1,9,0,32,6],
+"d8/d59/waypointsprites_8qh.html#a2a10f4f3932f9b83f847f3e3d7c325ab":[2,0,1,9,0,32,6,1],
+"d8/d59/waypointsprites_8qh.html#a49469669e047e5a5ad97eebc968736c2":[2,0,1,9,0,32,6,0],
+"d8/d59/waypointsprites_8qh_source.html":[2,0,1,9,0,32,6],
 "d8/d61/picker_8qh.html":[2,0,5,4,185],
 "d8/d61/picker_8qh.html#a31daa00a20ea0b0228b3a664c8e90483":[2,0,5,4,185,1],
 "d8/d61/picker_8qh_source.html":[2,0,5,4,185],
@@ -222,8 +224,8 @@ var NAVTREEINDEX70 =
 "d8/d9c/common_2monsters_2all_8qh.html#ac66047740ae2b6d154a084851aa85def":[2,0,1,8,4,4],
 "d8/d9c/common_2monsters_2all_8qh.html#aea1bf99cd5fe53ce09b24dd2731d7d2f":[2,0,1,8,4,1],
 "d8/d9c/common_2monsters_2all_8qh_source.html":[2,0,1,8,4],
-"d8/d9e/common_2mutators_2mutator_2physical__items_2__mod_8inc.html":[2,0,1,9,0,19,0],
-"d8/d9e/common_2mutators_2mutator_2physical__items_2__mod_8inc_source.html":[2,0,1,9,0,19,0],
+"d8/d9e/common_2mutators_2mutator_2physical__items_2__mod_8inc.html":[2,0,1,9,0,20,0],
+"d8/d9e/common_2mutators_2mutator_2physical__items_2__mod_8inc_source.html":[2,0,1,9,0,20,0],
 "d8/da4/classInputContainer.html":[1,0,53],
 "d8/da4/classInputContainer.html#a01627abafc724fbbbb330e46f8331911":[1,0,53,23],
 "d8/da4/classInputContainer.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,53,10],
@@ -247,7 +249,5 @@ var NAVTREEINDEX70 =
 "d8/da4/classInputContainer.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,53,11],
 "d8/da4/classInputContainer.html#a7b13cdc101cd55528465440586a004f6":[1,0,53,41],
 "d8/da4/classInputContainer.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,53,17],
-"d8/da4/classInputContainer.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,53,44],
-"d8/da4/classInputContainer.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,53,40],
-"d8/da4/classInputContainer.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,53,13]
+"d8/da4/classInputContainer.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,53,44]
 };
