@@ -1,5 +1,9 @@
 var NAVTREEINDEX124 =
 {
+"df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e":[2,0,6,66,2],
+"df/d9b/sys-post_8qh_source.html":[2,0,6,66],
+"df/da0/server_2mutators_2__mod_8inc.html":[2,0,6,2,1],
+"df/da0/server_2mutators_2__mod_8inc_source.html":[2,0,6,2,1],
 "df/da5/hk__weapon_8qh.html":[2,0,1,14,0,14],
 "df/da5/hk__weapon_8qh.html#a27198ad0c1cad8c8119ecefa9f52db07":[2,0,1,14,0,14,1],
 "df/da5/hk__weapon_8qh_source.html":[2,0,1,14,0,14],
@@ -245,9 +249,5 @@ var NAVTREEINDEX124 =
 "df/dc9/aim_8qc.html#aa2a75c4116c382f9f9edc90c26e69155":[2,0,6,0,0,3,7],
 "df/dc9/aim_8qc.html#aa602bcd33a8abc9d07da72550ab3a103":[2,0,6,0,0,3,5],
 "df/dc9/aim_8qc.html#ad4de8218b0a1e5dc7eefc6af34c6593e":[2,0,6,0,0,3,0],
-"df/dc9/aim_8qc.html#af8050ab8c527644541f6663b6ea42874":[2,0,6,0,0,3,2],
-"df/dc9/aim_8qc_source.html":[2,0,6,0,0,3],
-"df/dc9/classXonoticHUDQuickMenuDialog.html":[1,0,187],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a000f3638d922b82463076be4a08d981f":[1,0,187,59],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,187,32]
+"df/dc9/aim_8qc.html#af8050ab8c527644541f6663b6ea42874":[2,0,6,0,0,3,2]
 };
