@@ -1,12 +1,5 @@
 var NAVTREEINDEX102 =
 {
-"dc/d73/server_2miscfunctions_8qh.html#ac13258650e090ab52f585d1cde30336e":[2,0,6,46,91],
-"dc/d73/server_2miscfunctions_8qh.html#ac2904d796f47df37207fdc383265d2c7":[2,0,6,46,153],
-"dc/d73/server_2miscfunctions_8qh.html#ac300f1843627f4956ab0088d6bff8b7e":[2,0,6,46,8],
-"dc/d73/server_2miscfunctions_8qh.html#ac433d8a77c8e0fd925838e06e2c68bb5":[2,0,6,46,113],
-"dc/d73/server_2miscfunctions_8qh.html#ac6baed8b5083b7d5b173f877cddee253":[2,0,6,46,46],
-"dc/d73/server_2miscfunctions_8qh.html#ac72bb29eb754a1f916513b1957b241e6":[2,0,6,46,105],
-"dc/d73/server_2miscfunctions_8qh.html#aca7c673e6d637dd16b6a9bbcc3f73a63":[2,0,6,46,151],
 "dc/d73/server_2miscfunctions_8qh.html#ace7df6683218f57b03b02f4473ac7ccf":[2,0,6,46,89],
 "dc/d73/server_2miscfunctions_8qh.html#acf4322a92b1a4367d26558e30af33ca5":[2,0,6,46,104],
 "dc/d73/server_2miscfunctions_8qh.html#ad0bd67642d9bbaab1a6e4ba3d34d747e":[2,0,6,46,108],
@@ -249,5 +242,12 @@ var NAVTREEINDEX102 =
 "dc/da0/classXonoticMapInfoDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,202,56],
 "dc/da0/classXonoticMapInfoDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,202,84],
 "dc/da0/classXonoticMapInfoDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,202,88],
-"dc/da0/classXonoticMapInfoDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,202,77]
+"dc/da0/classXonoticMapInfoDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,202,77],
+"dc/da0/classXonoticMapInfoDialog.html#aa62b1e4218dd5190a95be8294cdde1ff":[1,0,202,8],
+"dc/da0/classXonoticMapInfoDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,202,26],
+"dc/da0/classXonoticMapInfoDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,202,30],
+"dc/da0/classXonoticMapInfoDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,202,20],
+"dc/da0/classXonoticMapInfoDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,202,46],
+"dc/da0/classXonoticMapInfoDialog.html#aafc6d23621454f6035f3cfc7ee1c24f8":[1,0,202,9],
+"dc/da0/classXonoticMapInfoDialog.html#ab56dbab5cdab8372198af99efb00ff37":[1,0,202,15]
 };

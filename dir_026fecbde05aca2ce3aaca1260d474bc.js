@@ -34,6 +34,8 @@ var dir_026fecbde05aca2ce3aaca1260d474bc =
     [ "radar.qh", "d4/d1b/radar_8qh.html", null ],
     [ "score.qc", "d6/d8f/score_8qc.html", "d6/d8f/score_8qc" ],
     [ "score.qh", "d6/db8/score_8qh.html", null ],
+    [ "scoreboard.qc", "d3/d07/scoreboard_8qc.html", "d3/d07/scoreboard_8qc" ],
+    [ "scoreboard.qh", "d4/d2b/scoreboard_8qh.html", "d4/d2b/scoreboard_8qh" ],
     [ "timer.qc", "d5/dfa/timer_8qc.html", "d5/dfa/timer_8qc" ],
     [ "timer.qh", "d9/d76/timer_8qh.html", null ],
     [ "vote.qc", "df/d1f/client_2hud_2panel_2vote_8qc.html", "df/d1f/client_2hud_2panel_2vote_8qc" ],

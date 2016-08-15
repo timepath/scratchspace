@@ -1,12 +1,5 @@
 var NAVTREEINDEX95 =
 {
-"db/db1/classXonoticHUDRaceTimerDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,188,65],
-"db/db1/classXonoticHUDRaceTimerDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,188,20],
-"db/db1/classXonoticHUDRaceTimerDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,188,10],
-"db/db1/classXonoticHUDRaceTimerDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,188,35],
-"db/db1/classXonoticHUDRaceTimerDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,188,36],
-"db/db1/classXonoticHUDRaceTimerDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,188,5],
-"db/db1/classXonoticHUDRaceTimerDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,188,89],
 "db/db1/classXonoticHUDRaceTimerDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,188,78],
 "db/db1/classXonoticHUDRaceTimerDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,188,44],
 "db/db1/classXonoticHUDRaceTimerDialog.html#ac235b9f3b3dee91bf877e55658bcaa71":[1,0,188,24],
@@ -249,5 +242,12 @@ var NAVTREEINDEX95 =
 "db/dc4/classXonoticRadioButton.html#a257f9c325381f4b29b5c7acbaa0ba5ae":[1,0,219,27],
 "db/dc4/classXonoticRadioButton.html#a27b635e0916726012b7e8c4dca05064e":[1,0,219,45],
 "db/dc4/classXonoticRadioButton.html#a29ef318627232b8879b7e81131f937f7":[1,0,219,4],
-"db/dc4/classXonoticRadioButton.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,219,17]
+"db/dc4/classXonoticRadioButton.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,219,17],
+"db/dc4/classXonoticRadioButton.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,219,21],
+"db/dc4/classXonoticRadioButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,219,86],
+"db/dc4/classXonoticRadioButton.html#a354a031906c09ac4036868f07a659ef5":[1,0,219,62],
+"db/dc4/classXonoticRadioButton.html#a35c1d238b3144ea59ecdaf0e1ec7e07a":[1,0,219,50],
+"db/dc4/classXonoticRadioButton.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,219,10],
+"db/dc4/classXonoticRadioButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,219,81],
+"db/dc4/classXonoticRadioButton.html#a3b9eba7370ce35fbe1485b43d38e56cf":[1,0,219,39]
 };

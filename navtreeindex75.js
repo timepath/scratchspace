@@ -1,12 +1,5 @@
 var NAVTREEINDEX75 =
 {
-"d9/d08/client_2defs_8qh.html#a6a685bb087beb5881b139f7ea6497e67":[2,0,0,15,4],
-"d9/d08/client_2defs_8qh.html#a6b17a65dd7a85e465430a85ae6a3cdcf":[2,0,0,15,0],
-"d9/d08/client_2defs_8qh.html#a6f43436dba652760ff17d18ed5bdf975":[2,0,0,15,23],
-"d9/d08/client_2defs_8qh.html#a72abba51d925066d5b85f6b761aec740":[2,0,0,15,31],
-"d9/d08/client_2defs_8qh.html#a74fe90e74c5e7ae1ab56ba8cfe58c4c4":[2,0,0,15,77],
-"d9/d08/client_2defs_8qh.html#a766f0b1708b74792c765d71219cd1a04":[2,0,0,15,40],
-"d9/d08/client_2defs_8qh.html#a7c0e0c424208978a5874199fe6d1ba92":[2,0,0,15,28],
 "d9/d08/client_2defs_8qh.html#a7e750772aafa38fe4dada534e30b2ce6":[2,0,0,15,16],
 "d9/d08/client_2defs_8qh.html#a8036e7ff202b8dfa10a7e15e849bebe7":[2,0,0,15,62],
 "d9/d08/client_2defs_8qh.html#a82645f320a8fba7eaad8f57fa5cd66cd":[2,0,0,15,65],
@@ -129,8 +122,8 @@ var NAVTREEINDEX75 =
 "d9/d1d/pressedkeys_8qc_source.html":[2,0,0,1,0,24],
 "d9/d22/gamemode__cts_8qh.html":[2,0,6,2,0,9],
 "d9/d22/gamemode__cts_8qh_source.html":[2,0,6,2,0,9],
-"d9/d28/client_2hud_2panel_2vote_8qh.html":[2,0,0,1,0,37],
-"d9/d28/client_2hud_2panel_2vote_8qh_source.html":[2,0,0,1,0,37],
+"d9/d28/client_2hud_2panel_2vote_8qh.html":[2,0,0,1,0,39],
+"d9/d28/client_2hud_2panel_2vote_8qh_source.html":[2,0,0,1,0,39],
 "d9/d28/porto_8qc.html":[2,0,1,16,0,14],
 "d9/d28/porto_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,14,1],
 "d9/d28/porto_8qc.html#aa3a215ab9ec8c4e8b6cde70c1f82d7fa":[2,0,1,16,0,14,2],
@@ -249,5 +242,12 @@ var NAVTREEINDEX75 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,226,41],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,226,49],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a53de8355052b658819638577356cc8f3":[1,0,226,61],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,226,92]
+"d9/d37/classXonoticScreenshotBrowserTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,226,92],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,226,54],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,226,23],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,226,68],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a67d95732d49da439095483530aca8804":[1,0,226,60],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,226,24],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a72c0e76156762fbda152032add5f1630":[1,0,226,20],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a7326329e73b9b153fde68543eeb27c96":[1,0,226,87]
 };

@@ -1,12 +1,5 @@
 var NAVTREEINDEX72 =
 {
-"d8/db6/client_2miscfunctions_8qh.html#af50992ec9f2e9611b555b1986b1d0c13":[2,0,0,21,39],
-"d8/db6/client_2miscfunctions_8qh.html#af51ffe2b6a299102846ea3cb80677406":[2,0,0,21,52],
-"d8/db6/client_2miscfunctions_8qh.html#af98fdc6dc4f7c3096e2d2cbd74853de8":[2,0,0,21,29],
-"d8/db6/client_2miscfunctions_8qh.html#afc198f5b8ad430fd865a828902319624":[2,0,0,21,22],
-"d8/db6/client_2miscfunctions_8qh.html#afca582b58637cfce855d26f6cb2a75e6":[2,0,0,21,17],
-"d8/db6/client_2miscfunctions_8qh.html#afe434522c381a2b1f92dddefd27e2538":[2,0,0,21,67],
-"d8/db6/client_2miscfunctions_8qh_source.html":[2,0,0,21],
 "d8/db6/server_2command_2__mod_8inc.html":[2,0,6,1,0],
 "d8/db6/server_2command_2__mod_8inc_source.html":[2,0,6,1,0],
 "d8/db8/classCrylink.html":[1,0,21],
@@ -224,11 +217,11 @@ var NAVTREEINDEX72 =
 "d8/dd3/classShotgun.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,114,17],
 "d8/dd4/rocketflying_8qc.html":[2,0,1,9,0,22,3],
 "d8/dd4/rocketflying_8qc_source.html":[2,0,1,9,0,22,3],
-"d8/dd7/shownames_8qh.html":[2,0,0,28],
-"d8/dd7/shownames_8qh.html#a42e7f03b56b56a4f5049a08fbc36097e":[2,0,0,28,2],
-"d8/dd7/shownames_8qh.html#a9ccf8f67a13521356d76071fce9be7c6":[2,0,0,28,1],
-"d8/dd7/shownames_8qh.html#abdb9252ec914d8d0f9b3b8d220f3f106":[2,0,0,28,0],
-"d8/dd7/shownames_8qh_source.html":[2,0,0,28],
+"d8/dd7/shownames_8qh.html":[2,0,0,26],
+"d8/dd7/shownames_8qh.html#a42e7f03b56b56a4f5049a08fbc36097e":[2,0,0,26,2],
+"d8/dd7/shownames_8qh.html#a9ccf8f67a13521356d76071fce9be7c6":[2,0,0,26,1],
+"d8/dd7/shownames_8qh.html#abdb9252ec914d8d0f9b3b8d220f3f106":[2,0,0,26,0],
+"d8/dd7/shownames_8qh_source.html":[2,0,0,26],
 "d8/de1/gamemode__keyhunt_8qh.html":[2,0,6,2,0,21],
 "d8/de1/gamemode__keyhunt_8qh_source.html":[2,0,6,2,0,21],
 "d8/de2/menudefs_8qc.html":[2,0,2,0,3],
@@ -249,5 +242,12 @@ var NAVTREEINDEX72 =
 "d8/de2/menudefs_8qc.html#a0cc8b1ede41f91bf0c08a2934e14543a":[2,0,2,0,3,49],
 "d8/de2/menudefs_8qc.html#a0ce40c01bc21c8f8105678e96965d799":[2,0,2,0,3,153],
 "d8/de2/menudefs_8qc.html#a0cf8e250a53e789d9036e7e9222ee920":[2,0,2,0,3,243],
-"d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78":[2,0,2,0,3,47]
+"d8/de2/menudefs_8qc.html#a0e7ecefd4e3af6c242077b24445e5f78":[2,0,2,0,3,47],
+"d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516":[2,0,2,0,3,21],
+"d8/de2/menudefs_8qc.html#a13eb9050b0b640e3679a4bb05ed2207c":[2,0,2,0,3,169],
+"d8/de2/menudefs_8qc.html#a15433f7569b9361acf17695cf9df7ecd":[2,0,2,0,3,94],
+"d8/de2/menudefs_8qc.html#a15d574b8ffae2507cd2f976fbc8b169e":[2,0,2,0,3,15],
+"d8/de2/menudefs_8qc.html#a172b18b47dac1c8d6d3a405d3e8ba9d7":[2,0,2,0,3,267],
+"d8/de2/menudefs_8qc.html#a1822755cdada8e7259a6e06f7596a6b1":[2,0,2,0,3,224],
+"d8/de2/menudefs_8qc.html#a189158f8c2db3797e9bb00cc53e80988":[2,0,2,0,3,34]
 };

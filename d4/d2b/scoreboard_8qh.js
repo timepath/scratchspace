@@ -1,16 +1,11 @@
 var scoreboard_8qh =
 [
-    [ "Cmd_HUD_SetFields", "d4/d2b/scoreboard_8qh.html#ab1c4873eb74bb40144fda6867c9abcf8", null ],
-    [ "HUD_DrawScoreboard", "d4/d2b/scoreboard_8qh.html#ab60ffe946c4c5bcfe944603871475f20", null ],
-    [ "HUD_InitScores", "d4/d2b/scoreboard_8qh.html#aae3133344c21e8d0e1f4a8a5ee4ed147", null ],
-    [ "HUD_UpdatePlayerPos", "d4/d2b/scoreboard_8qh.html#afa6a91cdc1d904ebfc156a4f73e131e8", null ],
-    [ "HUD_UpdateTeamPos", "d4/d2b/scoreboard_8qh.html#a1afe47f60fd7ce12e41eb4de6fc46777", null ],
-    [ "HUD_WouldDrawScoreboard", "d4/d2b/scoreboard_8qh.html#acba8a7468e53f4ea09069c1ff1c98ccb", null ],
-    [ "sbwidth", "d4/d2b/scoreboard_8qh.html#aa011ac87f5f8d9dcccb605d956608ecb", null ],
+    [ "Cmd_Scoreboard_SetFields", "d4/d2b/scoreboard_8qh.html#a060d8cf986add1adc43a26de43c408d0", null ],
+    [ "Scoreboard_Draw", "d4/d2b/scoreboard_8qh.html#a74fe9da906a0dda510849ac57116bba3", null ],
+    [ "Scoreboard_InitScores", "d4/d2b/scoreboard_8qh.html#a5b2b75e2e6c4267b05ae1cb44c20329f", null ],
+    [ "Scoreboard_UpdatePlayerPos", "d4/d2b/scoreboard_8qh.html#ab0ef91e08e1fc55cee817e45234d543e", null ],
+    [ "Scoreboard_UpdateTeamPos", "d4/d2b/scoreboard_8qh.html#acbbc03b93a5e6007c8655e4bc66a1a38", null ],
+    [ "Scoreboard_WouldDraw", "d4/d2b/scoreboard_8qh.html#a537006916502a6eb48c5e9c2bdd91a25", null ],
     [ "scoreboard_active", "d4/d2b/scoreboard_8qh.html#aca2d065f1b6a15ae45712fdfbf3cacde", null ],
-    [ "scoreboard_fade_alpha", "d4/d2b/scoreboard_8qh.html#aa6b8f97cefad819218cd7aef293559ea", null ],
-    [ "xmax", "d4/d2b/scoreboard_8qh.html#a9c42f51718ed192ed1841a53d2b0e507", null ],
-    [ "xmin", "d4/d2b/scoreboard_8qh.html#a058f249a5e6d20724cb0784b40a183e8", null ],
-    [ "ymax", "d4/d2b/scoreboard_8qh.html#acee1a082369857c7ee64924a0d9bc706", null ],
-    [ "ymin", "d4/d2b/scoreboard_8qh.html#a5c6190dc7aa1bd7aafb9592a64f7046d", null ]
+    [ "scoreboard_fade_alpha", "d4/d2b/scoreboard_8qh.html#aa6b8f97cefad819218cd7aef293559ea", null ]
 ];

@@ -1,12 +1,5 @@
 var NAVTREEINDEX82 =
 {
-"da/d20/spawnfunc_8qh.html#a6cb61ff4c2475d5c45d023b3d550a99a":[2,0,4,50,13],
-"da/d20/spawnfunc_8qh.html#a6db22713f1e01f024520460c92911ade":[2,0,4,50,8],
-"da/d20/spawnfunc_8qh.html#a82f4dd939d49e3dbc4926a5823ffb0c8":[2,0,4,50,4],
-"da/d20/spawnfunc_8qh.html#a88ddff5232ca6a3ebf1e0c263da3576b":[2,0,4,50,6],
-"da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153":[2,0,4,50,9],
-"da/d20/spawnfunc_8qh.html#aa4a06d71be717f7c6f93ac9d936fe1cd":[2,0,4,50,12],
-"da/d20/spawnfunc_8qh.html#aa84e4fe4fa33b1c501a7b73363c7cc2f":[2,0,4,50,7],
 "da/d20/spawnfunc_8qh.html#ab4eb66deff727f2822c9d56d85d71d61":[2,0,4,50,15],
 "da/d20/spawnfunc_8qh.html#ab76cf6e2005f73caa6f26550a642fdb0":[2,0,4,50,5],
 "da/d20/spawnfunc_8qh.html#aba58f0f254a7470e43b0294be317a734":[2,0,4,50,10],
@@ -249,5 +242,12 @@ var NAVTREEINDEX82 =
 "da/d46/classMLRSTurret.html#a3f55a0540df468e6f0406b2907921e9a":[1,0,74,2],
 "da/d46/classMLRSTurret.html#a56e07d5aa23850f9cc9cd5eaa68f0880":[1,0,74,8],
 "da/d46/classMLRSTurret.html#a5b530f68578bcfcd53c0fd19cac6f737":[1,0,74,16],
-"da/d46/classMLRSTurret.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,74,5]
+"da/d46/classMLRSTurret.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,74,5],
+"da/d46/classMLRSTurret.html#a71748ee7490f869a1ef40df4e23342a2":[1,0,74,15],
+"da/d46/classMLRSTurret.html#a8256a3c636aa9bb0b605192c7aa0abb9":[1,0,74,14],
+"da/d46/classMLRSTurret.html#a8880f997d0d5579a4c07412b8343d4f3":[1,0,74,12],
+"da/d46/classMLRSTurret.html#a9cbd0273110d224aa83170c43e29f691":[1,0,74,10],
+"da/d46/classMLRSTurret.html#ab51103697656de906079b6537d3800bc":[1,0,74,9],
+"da/d46/classMLRSTurret.html#ab9ce986163a0f0e24e84166491f0fe7f":[1,0,74,7],
+"da/d46/classMLRSTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,74,11]
 };

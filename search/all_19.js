@@ -13,7 +13,7 @@ var searchData=
   ['yenc_5fsingle',['yenc_single',['../df/d58/yenc_8qh.html#a01877237296c3e64e52b9674f5d326bf',1,'yenc.qh']]],
   ['yesvalue',['yesValue',['../de/d42/classXonoticCheckBox.html#a9e1f7bf3a25745cda8ff61979486d3db',1,'XonoticCheckBox']]],
   ['yinvert',['yinvert',['../de/dcb/vector_8qh.html#a96d9291d4b314f99be2ca91347a70577',1,'vector.qh']]],
-  ['ymax',['ymax',['../d4/d2b/scoreboard_8qh.html#acee1a082369857c7ee64924a0d9bc706',1,'scoreboard.qh']]],
-  ['ymin',['ymin',['../d4/d2b/scoreboard_8qh.html#a5c6190dc7aa1bd7aafb9592a64f7046d',1,'scoreboard.qh']]],
+  ['ymax',['ymax',['../dd/d1a/client_2mapvoting_8qh.html#acee1a082369857c7ee64924a0d9bc706',1,'mapvoting.qh']]],
+  ['ymin',['ymin',['../dd/d1a/client_2mapvoting_8qh.html#a5c6190dc7aa1bd7aafb9592a64f7046d',1,'mapvoting.qh']]],
   ['yoda',['yoda',['../dd/de4/g__damage_8qh.html#a1e3b2f601afaa75fbe6749c4931d1367',1,'g_damage.qh']]]
 ];
