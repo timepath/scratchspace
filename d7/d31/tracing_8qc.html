@@ -350,32 +350,35 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;</div>
 <div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;        <span class="keywordtype">float</span> dist_taken = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a3224290657dfac7894324fe6537d0cc7">autocvar_g_ballistics_mindistance</a>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> - start));</div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;        solid_penetration_left *= (dist_taken / maxdist);</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;</div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;        <span class="comment">// Only show effect when going through a player (invisible otherwise)</span></div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;        <span class="keywordflow">if</span> (hit &amp;&amp; (hit.solid != <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80973079ff043c7890bc2db4af6896c4">SOLID_BSP</a>))</div>
-<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> - start, &gt;, 4))</div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;                <a class="code" href="../../da/dde/csprogsdefs_8qh.html#aae5b07ffeb72dbbe7675fda4e3a35a30">trailparticles</a>(<span class="keyword">this</span>, <a class="code" href="../../d4/d3f/tracing_8qh.html#adb01a7fe8a972f768dac9c50fcd5911b">fireBullet_trace_callback_eff</a>, start, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>);</div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;</div>
-<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;        start = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>;</div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;</div>
-<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;        <span class="keywordflow">if</span>(hit.solid == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80973079ff043c7890bc2db4af6896c4">SOLID_BSP</a>)</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;            <a class="code" href="../../dd/de4/g__damage_8qh.html#af1915ea9d450669a5a0672749148448f">Damage_DamageInfo</a>(start, 0, 0, 0, <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(1, force) * <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(dir) * -solid_penetration_left, dtype, 0, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;    }</div>
-<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;</div>
-<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;    <span class="keywordflow">if</span>(lag)</div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    {</div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != <span class="keyword">this</span>, <a class="code" href="../../d4/dd8/antilag_8qc.html#ae0fbe788776aa76ba7139d692e9c7adb">antilag_restore</a>(it, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it)));</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2">g_monsters</a>, it != <span class="keyword">this</span>,</div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;        {</div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;            <a class="code" href="../../d4/dd8/antilag_8qc.html#ae0fbe788776aa76ba7139d692e9c7adb">antilag_restore</a>(it, it);</div>
-<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;        });</div>
-<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;    }</div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;</div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;    <span class="comment">// restore shooter solid type</span></div>
-<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">this</span>)</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#afa78924af8a2d7996779f1f92cf6afcb">dphitcontentsmask</a> = oldsolid;</div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;}</div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;        <span class="comment">// fraction_used_of_what_is_left = dist_taken / maxdist</span></div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;        <span class="comment">// solid_penetration_left = solid_penetration_left - solid_penetration_left * fraction_used_of_what_is_left</span></div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;        solid_penetration_left *= 1 - dist_taken / maxdist;</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;        solid_penetration_left = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(solid_penetration_left, 0);</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;        <span class="comment">// Only show effect when going through a player (invisible otherwise)</span></div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;        <span class="keywordflow">if</span> (hit &amp;&amp; (hit.solid != <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80973079ff043c7890bc2db4af6896c4">SOLID_BSP</a>))</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> - start, &gt;, 4))</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;                <a class="code" href="../../da/dde/csprogsdefs_8qh.html#aae5b07ffeb72dbbe7675fda4e3a35a30">trailparticles</a>(<span class="keyword">this</span>, <a class="code" href="../../d4/d3f/tracing_8qh.html#adb01a7fe8a972f768dac9c50fcd5911b">fireBullet_trace_callback_eff</a>, start, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>);</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;        start = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>;</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;        <span class="keywordflow">if</span>(hit.solid == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80973079ff043c7890bc2db4af6896c4">SOLID_BSP</a>)</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;            <a class="code" href="../../dd/de4/g__damage_8qh.html#af1915ea9d450669a5a0672749148448f">Damage_DamageInfo</a>(start, 0, 0, 0, <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(1, force) * <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(dir) * -solid_penetration_left, dtype, 0, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;    }</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;    <span class="keywordflow">if</span>(lag)</div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;    {</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != <span class="keyword">this</span>, <a class="code" href="../../d4/dd8/antilag_8qc.html#ae0fbe788776aa76ba7139d692e9c7adb">antilag_restore</a>(it, <a class="code" href="../../db/d9f/state_8qh.html#afdb90637f8a711359249291ee3b3fde6">CS</a>(it)));</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#ae5508e0d25e38548579e9905cbe3fce2">g_monsters</a>, it != <span class="keyword">this</span>,</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;        {</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;            <a class="code" href="../../d4/dd8/antilag_8qc.html#ae0fbe788776aa76ba7139d692e9c7adb">antilag_restore</a>(it, it);</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;        });</div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;    }</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;    <span class="comment">// restore shooter solid type</span></div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;    <span class="keywordflow">if</span>(<span class="keyword">this</span>)</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#afa78924af8a2d7996779f1f92cf6afcb">dphitcontentsmask</a> = oldsolid;</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00157">intrusivelist.qh:157</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a77a8bd38bace6ec11761fa36b4f7dceb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a></div><div class="ttdeci">entity world</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">csprogsdefs.qc:15</a></div></div>
@@ -1260,7 +1263,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d7/d31/tracing_8qc.html">tracing.qc</a></li>
-    <li class="footer">Generated on Mon Aug 15 2016 20:38:12 for Xonotic by
+    <li class="footer">Generated on Tue Aug 16 2016 01:57:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
