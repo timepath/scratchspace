@@ -787,7 +787,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00471">CSQCModel_Effects_PostUpdate()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00350">CSQCPlayer_AnimDecide_PostUpdate()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00324">CSQCPlayer_FallbackFrame_PostUpdate()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00119">CSQCPlayer_ModelAppearance_PostUpdate()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00094">entnum</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00017">isplayermodel</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00021">maxclients</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00108">model</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/dc9/cl__model_8qc_source.html#l00218">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/dc9/cl__model_8qc_source.html#l00226">NET_HANDLE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;{</div>
 <div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;    <span class="comment">// is it a player model? (shared state)</span></div>
 <div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;    this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#a17a6c58f046d5ba0a992704a55bee50e">isplayermodel</a> = (<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>, 0, 14) == <span class="stringliteral">&quot;models/player/&quot;</span> || <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>, 0, 17) == <span class="stringliteral">&quot;models/ok_player/&quot;</span> || (<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>, 0, 16) == <span class="stringliteral">&quot;models/monsters/&quot;</span> &amp;&amp; (this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a> &gt;= 1 &amp;&amp; this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abcb4010392e87a7a2a9cb79a5c300085">entnum</a> &lt;= <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a>)));</div>
@@ -1079,7 +1079,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00464">CSQCModel_Effects_PreUpdate()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00315">CSQCPlayer_FallbackFrame_PreUpdate()</a>, <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00112">CSQCPlayer_ModelAppearance_PreUpdate()</a>, <a class="el" href="../../d8/da6/interpolate_8qh_source.html#l00033">IFLAG_V_ANGLE_X</a>, <a class="el" href="../../d8/da6/interpolate_8qh_source.html#l00024">iflags</a>, and <a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc_source.html#l00017">isplayermodel</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/dc9/cl__model_8qc_source.html#l00218">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/dc9/cl__model_8qc_source.html#l00226">NET_HANDLE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;{</div>
 <div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;    <span class="comment">// interpolate v_angle</span></div>
 <div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    this.<a class="code" href="../../d8/da6/interpolate_8qh.html#af7b5d3033d38549c00ab5e033e858911">iflags</a> |= <a class="code" href="../../d8/da6/interpolate_8qh.html#a2853daa5f3757edf33a7f0498ae6c62a">IFLAG_V_ANGLE_X</a>;</div>
@@ -2611,7 +2611,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dc/d3d/csqcmodel__hooks_8qc.html">csqcmodel_hooks.qc</a></li>
-    <li class="footer">Generated on Wed Aug 17 2016 07:19:25 for Xonotic by
+    <li class="footer">Generated on Thu Aug 18 2016 22:11:14 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
