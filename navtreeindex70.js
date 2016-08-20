@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"d8/d58/calculations_8qc_source.html":[2,0,1,16,6],
 "d8/d59/waypointsprites_8qh.html":[2,0,1,9,0,32,6],
 "d8/d59/waypointsprites_8qh.html#a2a10f4f3932f9b83f847f3e3d7c325ab":[2,0,1,9,0,32,6,1],
 "d8/d59/waypointsprites_8qh.html#a49469669e047e5a5ad97eebc968736c2":[2,0,1,9,0,32,6,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "d8/da4/classInputContainer.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,53,11],
 "d8/da4/classInputContainer.html#a7b13cdc101cd55528465440586a004f6":[1,0,53,41],
 "d8/da4/classInputContainer.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,53,17],
-"d8/da4/classInputContainer.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,53,44],
-"d8/da4/classInputContainer.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,53,40]
+"d8/da4/classInputContainer.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,53,44]
 };

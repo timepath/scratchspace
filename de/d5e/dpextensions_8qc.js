@@ -283,6 +283,8 @@ var dpextensions_8qc =
     [ "MOVETYPE_FLY_WORLDONLY", "de/d5e/dpextensions_8qc.html#a157f290d237888185d191a0c3613c93a", null ],
     [ "MOVETYPE_FOLLOW", "de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c", null ],
     [ "MOVETYPE_PHYSICS", "de/d5e/dpextensions_8qc.html#a6c78486734f990ba33e168dfcef2d000", null ],
+    [ "MOVETYPE_USER_FIRST", "de/d5e/dpextensions_8qc.html#a3079b6194bc5d792e2fef59d61890458", null ],
+    [ "MOVETYPE_USER_LAST", "de/d5e/dpextensions_8qc.html#ac3004c0f5bacd4e5083958531a6bb6d7", null ],
     [ "netaddress", "de/d5e/dpextensions_8qc.html#a641e386b435fdca0da26a9bddcdd4e93", null ],
     [ "nodrawtoclient", "de/d5e/dpextensions_8qc.html#ac1fb05d3c6a591820f88db501d2617fb", null ],
     [ "pflags", "de/d5e/dpextensions_8qc.html#a4f7b26d5c4fe063f9240aa140cd88449", null ],

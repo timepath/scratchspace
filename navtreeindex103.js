@@ -1,5 +1,8 @@
 var NAVTREEINDEX103 =
 {
+"dc/da0/classXonoticMapInfoDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,202,77],
+"dc/da0/classXonoticMapInfoDialog.html#aa62b1e4218dd5190a95be8294cdde1ff":[1,0,202,8],
+"dc/da0/classXonoticMapInfoDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,202,26],
 "dc/da0/classXonoticMapInfoDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,202,30],
 "dc/da0/classXonoticMapInfoDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,202,20],
 "dc/da0/classXonoticMapInfoDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,202,46],
@@ -246,8 +249,5 @@ var NAVTREEINDEX103 =
 "dc/dc7/projectile_8qh.html":[2,0,0,3,3],
 "dc/dc7/projectile_8qh.html#a0425d4c4b6b30c19a7f206ec3b83406b":[2,0,0,3,3,4],
 "dc/dc7/projectile_8qh.html#a07d63755334d8ccb23787ee7001d16d1":[2,0,0,3,3,5],
-"dc/dc7/projectile_8qh.html#a1377cbecee41e6bb05e56a90280ff3eb":[2,0,0,3,3,9],
-"dc/dc7/projectile_8qh.html#a3ca3553902e7242b1d6557434ef2634d":[2,0,0,3,3,3],
-"dc/dc7/projectile_8qh.html#a66ebaab056a734dac49a78d19be21d71":[2,0,0,3,3,8],
-"dc/dc7/projectile_8qh.html#a6ac54cd80224a0c91171e2c86bc45da5":[2,0,0,3,3,0]
+"dc/dc7/projectile_8qh.html#a1377cbecee41e6bb05e56a90280ff3eb":[2,0,0,3,3,9]
 };
