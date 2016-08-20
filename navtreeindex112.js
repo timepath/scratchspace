@@ -1,5 +1,14 @@
 var NAVTREEINDEX112 =
 {
+"dd/de4/classNexBall.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,82,1],
+"dd/de4/classNexBall.html#a353db82280437c3b38f0ad1934a7d666":[1,0,82,15],
+"dd/de4/classNexBall.html#a4c6fae1d276282a1c1fe6aa742c0fd2f":[1,0,82,12],
+"dd/de4/classNexBall.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,82,8],
+"dd/de4/classNexBall.html#a7880c3511ceeabb277b860085f1073ee":[1,0,82,11],
+"dd/de4/classNexBall.html#a87258d972a8b677bc431c763afd6e0fb":[1,0,82,13],
+"dd/de4/classNexBall.html#ab02be6e489dfa45ea57a34d69e11f3ee":[1,0,82,2],
+"dd/de4/classNexBall.html#ab19cc492a58b50138d04d98c704e61c7":[1,0,82,14],
+"dd/de4/classNexBall.html#abbe0dcc134dc4c964b25c5b4ddf31ac9":[1,0,82,4],
 "dd/de4/classNexBall.html#abe7ac36d45328cbf84f92247f78711c7":[1,0,82,3],
 "dd/de4/classNexBall.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,82,16],
 "dd/de4/classNexBall.html#ac604c69f4377f2ec7894592403d28148":[1,0,82,0],
@@ -240,14 +249,5 @@ var NAVTREEINDEX112 =
 "de/d03/effectinfo__vehicles_8inc.html#ac400aa8ee91fbf58d232b054bf71ccfc":[2,0,1,2,18,14],
 "de/d03/effectinfo__vehicles_8inc.html#ac961401b6f0cc30200921eb62850049c":[2,0,1,2,18,31],
 "de/d03/effectinfo__vehicles_8inc.html#ae5026a9e5d4558e80df30bc9935272b8":[2,0,1,2,18,25],
-"de/d03/effectinfo__vehicles_8inc.html#af4ae827da11365d6eeb89fdf9008d854":[2,0,1,2,18,8],
-"de/d03/effectinfo__vehicles_8inc.html#af5426ccc2c16d160ba5e1e334f3aab02":[2,0,1,2,18,18],
-"de/d03/effectinfo__vehicles_8inc.html#af75d60a6fe9f14a3eb8ab5ca174d8850":[2,0,1,2,18,9],
-"de/d03/effectinfo__vehicles_8inc.html#af9671b0328a8366ba77040d48a78cac9":[2,0,1,2,18,28],
-"de/d03/effectinfo__vehicles_8inc_source.html":[2,0,1,2,18],
-"de/d09/linkedlist_8qh.html":[2,0,4,26],
-"de/d09/linkedlist_8qh.html#a08e4d23cbcd37a4f692e83dd58acf874":[2,0,4,26,7],
-"de/d09/linkedlist_8qh.html#a34653d18434b71c75519450a30851848":[2,0,4,26,4],
-"de/d09/linkedlist_8qh.html#a678dda6863e659830db0b5e6b5a0d69b":[2,0,4,26,9],
-"de/d09/linkedlist_8qh.html#a78187759e816c05bdc0b7b1c76462315":[2,0,4,26,13]
+"de/d03/effectinfo__vehicles_8inc.html#af4ae827da11365d6eeb89fdf9008d854":[2,0,1,2,18,8]
 };

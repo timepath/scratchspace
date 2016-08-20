@@ -1,5 +1,14 @@
 var NAVTREEINDEX98 =
 {
+"dc/d03/keycodes_8qc.html#a0dc473cb8c301fb0a309cec61ac19277":[2,0,2,0,2,41],
+"dc/d03/keycodes_8qc.html#a0e041b894d511186a2483be639b1083e":[2,0,2,0,2,74],
+"dc/d03/keycodes_8qc.html#a0f0808e633434e694703f78999e6d7ba":[2,0,2,0,2,3],
+"dc/d03/keycodes_8qc.html#a10304901f40a73c5354e430ada9ed6d3":[2,0,2,0,2,67],
+"dc/d03/keycodes_8qc.html#a121399b2cef4ae588679f661aa796de1":[2,0,2,0,2,95],
+"dc/d03/keycodes_8qc.html#a14c35db547affb7694db5f4fa67461cf":[2,0,2,0,2,94],
+"dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2":[2,0,2,0,2,115],
+"dc/d03/keycodes_8qc.html#a17046050badc8680b2ec0485bbf0940e":[2,0,2,0,2,10],
+"dc/d03/keycodes_8qc.html#a18d401e4e1ce2696f3a6f13e1b4779f4":[2,0,2,0,2,52],
 "dc/d03/keycodes_8qc.html#a18e8e351212a90df7b3945f19725b9ba":[2,0,2,0,2,4],
 "dc/d03/keycodes_8qc.html#a1a82defc3782e7b976db43068da6f8e5":[2,0,2,0,2,26],
 "dc/d03/keycodes_8qc.html#a1ae027adccf9031d3bac96c46306ce02":[2,0,2,0,2,108],
@@ -240,14 +249,5 @@ var NAVTREEINDEX98 =
 "dc/d16/classXonoticMediaTab.html#a4ad8d403de20048384fe85b379309436":[1,0,204,75],
 "dc/d16/classXonoticMediaTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,204,54],
 "dc/d16/classXonoticMediaTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,204,32],
-"dc/d16/classXonoticMediaTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,204,38],
-"dc/d16/classXonoticMediaTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,204,46],
-"dc/d16/classXonoticMediaTab.html#a53de8355052b658819638577356cc8f3":[1,0,204,58],
-"dc/d16/classXonoticMediaTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,204,89],
-"dc/d16/classXonoticMediaTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,204,51],
-"dc/d16/classXonoticMediaTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,204,21],
-"dc/d16/classXonoticMediaTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,204,65],
-"dc/d16/classXonoticMediaTab.html#a67d95732d49da439095483530aca8804":[1,0,204,57],
-"dc/d16/classXonoticMediaTab.html#a6860743fd23ff11ea28bdde3793c37bc":[1,0,204,28],
-"dc/d16/classXonoticMediaTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,204,22]
+"dc/d16/classXonoticMediaTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,204,38]
 };

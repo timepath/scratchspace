@@ -68,6 +68,7 @@ var searchData=
   ['anim_5fset',['anim_set',['../d9/db3/anim_8qc.html#a772713e6e892a6e8fe40076d9c0b68cd',1,'anim_set(entity e, vector anim, bool looping, bool override, bool restart):&#160;anim.qc'],['../d3/de0/anim_8qh.html#a772713e6e892a6e8fe40076d9c0b68cd',1,'anim_set(entity e, vector anim, bool looping, bool override, bool restart):&#160;anim.qc']]],
   ['anim_5fupdate',['anim_update',['../d9/db3/anim_8qc.html#a421df7f2fe541d4a113e626456fb3cae',1,'anim_update(entity e):&#160;anim.qc'],['../d3/de0/anim_8qh.html#a421df7f2fe541d4a113e626456fb3cae',1,'anim_update(entity e):&#160;anim.qc']]],
   ['anim_5fvec',['anim_vec',['../d3/d42/animdecide_8qh.html#ad816e3692e22e86c2911ffc2f8270258',1,'animdecide.qh']]],
+  ['animatedompoint',['AnimateDomPoint',['../d2/dbb/gamemode__domination_8qh.html#ad0b46dc01448bf8b7cefa962469cefc9',1,'gamemode_domination.qh']]],
   ['animdecide_5fgetloweranim',['animdecide_getloweranim',['../d0/d51/animdecide_8qc.html#a63715f9e60d81b2000caed07779d2e86',1,'animdecide.qc']]],
   ['animdecide_5fgetupperanim',['animdecide_getupperanim',['../d0/d51/animdecide_8qc.html#ab79df131f3a5b990857d607040d5cc84',1,'animdecide.qc']]],
   ['animdecide_5fload_5fif_5fneeded',['animdecide_load_if_needed',['../d0/d51/animdecide_8qc.html#a8f38a0cd62ac216ff6478af869780fb3',1,'animdecide_load_if_needed(entity e):&#160;animdecide.qc'],['../d3/d42/animdecide_8qh.html#a8f38a0cd62ac216ff6478af869780fb3',1,'animdecide_load_if_needed(entity e):&#160;animdecide.qc']]],

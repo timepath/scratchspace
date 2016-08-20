@@ -14,5 +14,6 @@ var triggers_8qh =
     [ "SF_TRIGGER_UPDATE", "d6/d25/triggers_8qh.html#acb5733778c53a327bc760b3ef16f5dcb", null ],
     [ "SPAWNFLAG_NOMESSAGE", "d6/d25/triggers_8qh.html#a0486d0e503c446e5fe55fdaf7890a25f", null ],
     [ "SPAWNFLAG_NOTOUCH", "d6/d25/triggers_8qh.html#a5cae2d94b2259706085b22a13d2f6519", null ],
+    [ "sub_target_used", "d6/d25/triggers_8qh.html#ad436493b25a31e8a63b532fe3b98fa5b", null ],
     [ "volume", "d6/d25/triggers_8qh.html#a016abda2855c77dcc1630f9d2f9f8d18", null ]
 ];

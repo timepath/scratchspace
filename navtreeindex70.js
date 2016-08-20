@@ -1,5 +1,14 @@
 var NAVTREEINDEX70 =
 {
+"d8/d58/calculations_8qc.html":[2,0,1,16,6],
+"d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7":[2,0,1,16,6,0],
+"d8/d58/calculations_8qc.html#a183c3a3b3707f51936ec7dc51576de8f":[2,0,1,16,6,5],
+"d8/d58/calculations_8qc.html#a3f9e19a2c62edec6ce25b02fd20c7fcd":[2,0,1,16,6,6],
+"d8/d58/calculations_8qc.html#a468e15dca4d551cc26cf33a97de62650":[2,0,1,16,6,2],
+"d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad":[2,0,1,16,6,3],
+"d8/d58/calculations_8qc.html#a4a34221f79cad0b72ecf3df3f930bda9":[2,0,1,16,6,1],
+"d8/d58/calculations_8qc.html#a8c505b0c356899393ec20a52c48b7c7f":[2,0,1,16,6,4],
+"d8/d58/calculations_8qc.html#a96c44222346f73d873d8100b8a36fb5e":[2,0,1,16,6,7],
 "d8/d58/calculations_8qc_source.html":[2,0,1,16,6],
 "d8/d59/waypointsprites_8qh.html":[2,0,1,9,0,32,6],
 "d8/d59/waypointsprites_8qh.html#a2a10f4f3932f9b83f847f3e3d7c325ab":[2,0,1,9,0,32,6,1],
@@ -240,14 +249,5 @@ var NAVTREEINDEX70 =
 "d8/da4/classInputContainer.html#a331c55a30b4bc22951a251062508326b":[1,0,53,15],
 "d8/da4/classInputContainer.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,53,5],
 "d8/da4/classInputContainer.html#a362e89e4a7d913cf830c56fc477456be":[1,0,53,36],
-"d8/da4/classInputContainer.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,53,1],
-"d8/da4/classInputContainer.html#a4869983b8dc750584479ade5447c8413":[1,0,53,16],
-"d8/da4/classInputContainer.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,53,19],
-"d8/da4/classInputContainer.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,53,25],
-"d8/da4/classInputContainer.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,53,33],
-"d8/da4/classInputContainer.html#a67d95732d49da439095483530aca8804":[1,0,53,39],
-"d8/da4/classInputContainer.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,53,11],
-"d8/da4/classInputContainer.html#a7b13cdc101cd55528465440586a004f6":[1,0,53,41],
-"d8/da4/classInputContainer.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,53,17],
-"d8/da4/classInputContainer.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,53,44]
+"d8/da4/classInputContainer.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,53,1]
 };

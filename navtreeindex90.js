@@ -1,5 +1,14 @@
 var NAVTREEINDEX90 =
 {
+"db/d38/classKeyframe.html#af44315fcdb5187461a08ef44a82676fd":[1,0,59,14],
+"db/d38/classXonoticSliderCheckBox.html":[1,0,238],
+"db/d38/classXonoticSliderCheckBox.html#a08cda08ecde39493de593ab7695e404b":[1,0,238,44],
+"db/d38/classXonoticSliderCheckBox.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,238,77],
+"db/d38/classXonoticSliderCheckBox.html#a10cf88734594fed24be93889407c0bda":[1,0,238,25],
+"db/d38/classXonoticSliderCheckBox.html#a10f084ce6991717bfb4153928818feba":[1,0,238,22],
+"db/d38/classXonoticSliderCheckBox.html#a11a99dd0d7e621888583908e0be2cd66":[1,0,238,6],
+"db/d38/classXonoticSliderCheckBox.html#a1384d244201f945385ed59b53e4aee96":[1,0,238,43],
+"db/d38/classXonoticSliderCheckBox.html#a1843cffe68026c89cf96ecda515f33cf":[1,0,238,5],
 "db/d38/classXonoticSliderCheckBox.html#a1a55e3b961b4986ce5dda62bd05b8ec5":[1,0,238,48],
 "db/d38/classXonoticSliderCheckBox.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,238,31],
 "db/d38/classXonoticSliderCheckBox.html#a1f71e31fd265ca4fba4bccee3a807b09":[1,0,238,36],
@@ -240,14 +249,5 @@ var NAVTREEINDEX90 =
 "db/d59/classXonoticPlayList.html#a82217d761797df8a2e65054eab910734":[1,0,216,14],
 "db/d59/classXonoticPlayList.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,216,69],
 "db/d59/classXonoticPlayList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,216,48],
-"db/d59/classXonoticPlayList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,216,18],
-"db/d59/classXonoticPlayList.html#a8b0c7c59f375267ec674d93d6b93e60f":[1,0,216,51],
-"db/d59/classXonoticPlayList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,216,50],
-"db/d59/classXonoticPlayList.html#a955acbbda432fb19399292cbac96e0af":[1,0,216,62],
-"db/d59/classXonoticPlayList.html#a96bac23d629c5caa926fa84461c1be73":[1,0,216,27],
-"db/d59/classXonoticPlayList.html#a98f6c708a17cda439f260699cc20dc50":[1,0,216,33],
-"db/d59/classXonoticPlayList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,216,61],
-"db/d59/classXonoticPlayList.html#aa0be1afcee01b4904e9b7ccc15674b53":[1,0,216,3],
-"db/d59/classXonoticPlayList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,216,43],
-"db/d59/classXonoticPlayList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,216,10]
+"db/d59/classXonoticPlayList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,216,18]
 };

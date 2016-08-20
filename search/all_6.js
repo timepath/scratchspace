@@ -187,7 +187,7 @@ var searchData=
   ['for_5feach_5ftag',['FOR_EACH_TAG',['../d5/df2/common_2util_8qh.html#ac0876743b1cf4d7f7616da7de910cd02',1,'util.qh']]],
   ['foralldescendants',['forAllDescendants',['../df/d9b/menu_2xonotic_2util_8qc.html#aabecb2186198cee293ff99e8806ea85e',1,'forAllDescendants(entity root, void(entity, entity) funcPre, void(entity, entity) funcPost, entity pass):&#160;util.qc'],['../df/d97/menu_2xonotic_2util_8qh.html#aabecb2186198cee293ff99e8806ea85e',1,'forAllDescendants(entity root, void(entity, entity) funcPre, void(entity, entity) funcPost, entity pass):&#160;util.qc']]],
   ['forbiddencharacters',['forbiddenCharacters',['../d1/dec/classInputBox.html#af0b2a007742ef271489811940814f6ac',1,'InputBox']]],
-  ['forbidweaponuse',['forbidWeaponUse',['../d5/de0/weaponsystem_8qc.html#a1798aef9c3263ffc0fb53a9741fc3ab9',1,'forbidWeaponUse(entity player):&#160;weaponsystem.qc'],['../da/db7/weaponsystem_8qh.html#aa37b568e14f970efdb768a661eeea96e',1,'forbidWeaponUse(entity player):&#160;weaponsystem.qc']]],
+  ['forbidweaponuse',['forbidWeaponUse',['../d5/de0/weaponsystem_8qc.html#a1798aef9c3263ffc0fb53a9741fc3ab9',1,'forbidWeaponUse(entity player):&#160;weaponsystem.qc'],['../da/db7/weaponsystem_8qh.html#a1798aef9c3263ffc0fb53a9741fc3ab9',1,'forbidWeaponUse(entity player):&#160;weaponsystem.qc']]],
   ['force_5fretouch',['force_retouch',['../d6/d11/progsdefs_8qc.html#a7a3bc08d5f68a347b14c9db5b1a3aa2e',1,'progsdefs.qc']]],
   ['forcedaspect',['forcedAspect',['../d8/d00/classImage.html#ae138f23d4495900be0ede2783c05a714',1,'Image']]],
   ['forcefog',['forcefog',['../df/d30/client_2main_8qc.html#ac6d66624aeafa1c2684b5931d82b2008',1,'main.qc']]],

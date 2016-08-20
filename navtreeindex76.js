@@ -1,5 +1,14 @@
 var NAVTREEINDEX76 =
 {
+"d9/d37/classXonoticScreenshotBrowserTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,226,57],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,226,34],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,226,41],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,226,49],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a53de8355052b658819638577356cc8f3":[1,0,226,61],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,226,92],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,226,54],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,226,23],
+"d9/d37/classXonoticScreenshotBrowserTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,226,68],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a67d95732d49da439095483530aca8804":[1,0,226,60],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,226,24],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a72c0e76156762fbda152032add5f1630":[1,0,226,20],
@@ -240,14 +249,5 @@ var NAVTREEINDEX76 =
 "d9/d58/classXonoticResolutionSlider.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,222,36],
 "d9/d58/classXonoticResolutionSlider.html#af9fddf9420dfbf92a4fb716acfaa260c":[1,0,222,59],
 "d9/d58/classXonoticResolutionSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,222,89],
-"d9/d58/classXonoticResolutionSlider.html#afc9428d371ed63dd0316db5558e81d30":[1,0,222,91],
-"d9/d58/classXonoticResolutionSlider.html#afdcf1fb79903f747cda494b27206526b":[1,0,222,8],
-"d9/d58/classXonoticResolutionSlider.html#afffeff4df8e2074a17dc285c275222c8":[1,0,222,30],
-"d9/d5b/struct_8qh.html":[2,0,4,54],
-"d9/d5b/struct_8qh.html#a24da1c7bb252aec3a056ee5222ea5d19":[2,0,4,54,4],
-"d9/d5b/struct_8qh.html#a2d9dd32e190fba7ca9ef205d7c81205a":[2,0,4,54,11],
-"d9/d5b/struct_8qh.html#a32b88cd9195e3af603b935fd5d1314cf":[2,0,4,54,0],
-"d9/d5b/struct_8qh.html#a40dd2d644869e0946b673d0035a65823":[2,0,4,54,5],
-"d9/d5b/struct_8qh.html#a6b1e742b66728c25469b42a91ba6aaf2":[2,0,4,54,8],
-"d9/d5b/struct_8qh.html#a78a561d3b6074284aa947f7fbe5228fe":[2,0,4,54,9]
+"d9/d58/classXonoticResolutionSlider.html#afc9428d371ed63dd0316db5558e81d30":[1,0,222,91]
 };

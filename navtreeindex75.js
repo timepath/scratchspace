@@ -1,5 +1,14 @@
 var NAVTREEINDEX75 =
 {
+"d9/d08/client_2defs_8qh.html#a5523d7b1ba2514ca9b4de2e79a39e200":[2,0,0,15,52],
+"d9/d08/client_2defs_8qh.html#a6232594d721a53f175ee0fea3643c286":[2,0,0,15,17],
+"d9/d08/client_2defs_8qh.html#a625a66e92b24850b15f246b42891aa55":[2,0,0,15,9],
+"d9/d08/client_2defs_8qh.html#a67234b7e3097a12ec7d56566276b1295":[2,0,0,15,18],
+"d9/d08/client_2defs_8qh.html#a6a685bb087beb5881b139f7ea6497e67":[2,0,0,15,4],
+"d9/d08/client_2defs_8qh.html#a6b17a65dd7a85e465430a85ae6a3cdcf":[2,0,0,15,0],
+"d9/d08/client_2defs_8qh.html#a6f43436dba652760ff17d18ed5bdf975":[2,0,0,15,23],
+"d9/d08/client_2defs_8qh.html#a72abba51d925066d5b85f6b761aec740":[2,0,0,15,31],
+"d9/d08/client_2defs_8qh.html#a74fe90e74c5e7ae1ab56ba8cfe58c4c4":[2,0,0,15,77],
 "d9/d08/client_2defs_8qh.html#a766f0b1708b74792c765d71219cd1a04":[2,0,0,15,40],
 "d9/d08/client_2defs_8qh.html#a7c0e0c424208978a5874199fe6d1ba92":[2,0,0,15,28],
 "d9/d08/client_2defs_8qh.html#a7e750772aafa38fe4dada534e30b2ce6":[2,0,0,15,16],
@@ -240,14 +249,5 @@ var NAVTREEINDEX75 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#a430e6dbb572337604ad04c0a27fa88c3":[1,0,226,81],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,226,18],
 "d9/d37/classXonoticScreenshotBrowserTab.html#a4869983b8dc750584479ade5447c8413":[1,0,226,29],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a4ad8d403de20048384fe85b379309436":[1,0,226,78],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,226,57],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,226,34],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,226,41],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,226,49],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a53de8355052b658819638577356cc8f3":[1,0,226,61],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,226,92],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,226,54],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,226,23],
-"d9/d37/classXonoticScreenshotBrowserTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,226,68]
+"d9/d37/classXonoticScreenshotBrowserTab.html#a4ad8d403de20048384fe85b379309436":[1,0,226,78]
 };

@@ -46,7 +46,7 @@ var client_2main_8qh =
     [ "health", "d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5", null ],
     [ "HOOK_END", "d0/d2a/client_2main_8qh.html#aaa81abb1276b7f54d1f113399e1bdb2c", null ],
     [ "HOOK_START", "d0/d2a/client_2main_8qh.html#a65867ce8ec783d680bc9ba6a7cdbb6ba", null ],
-    [ "hud", "d0/d2a/client_2main_8qh.html#a04bfa317fa7144f8b3cc6bf9a793fa3e", null ],
+    [ "hud", "d0/d2a/client_2main_8qh.html#aa8422ed61064cfd6ef67f7ead72114e2", null ],
     [ "hud_fontsize", "d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549", null ],
     [ "MAX_SBT_FIELDS", "d0/d2a/client_2main_8qh.html#a9bf722ae68431773c4bde7eebad02446", null ],
     [ "MAX_SPECTATORS", "d0/d2a/client_2main_8qh.html#afe961ffd5f538ba62097d9a39f91e1a4", null ],

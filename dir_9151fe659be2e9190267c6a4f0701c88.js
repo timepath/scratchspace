@@ -13,7 +13,7 @@ var dir_9151fe659be2e9190267c6a4f0701c88 =
     [ "gamemode_deathmatch.qc", "dd/d7b/gamemode__deathmatch_8qc.html", "dd/d7b/gamemode__deathmatch_8qc" ],
     [ "gamemode_deathmatch.qh", "d1/dc9/gamemode__deathmatch_8qh.html", null ],
     [ "gamemode_domination.qc", "dc/d80/gamemode__domination_8qc.html", "dc/d80/gamemode__domination_8qc" ],
-    [ "gamemode_domination.qh", "d2/dbb/gamemode__domination_8qh.html", null ],
+    [ "gamemode_domination.qh", "d2/dbb/gamemode__domination_8qh.html", "d2/dbb/gamemode__domination_8qh" ],
     [ "gamemode_freezetag.qc", "db/d26/gamemode__freezetag_8qc.html", "db/d26/gamemode__freezetag_8qc" ],
     [ "gamemode_freezetag.qh", "d8/d89/gamemode__freezetag_8qh.html", null ],
     [ "gamemode_invasion.qc", "d5/d1f/gamemode__invasion_8qc.html", "d5/d1f/gamemode__invasion_8qc" ],

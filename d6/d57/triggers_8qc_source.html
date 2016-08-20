@@ -270,134 +270,147 @@ $(document).ready(function(){initNavTree('d6/d57/triggers_8qc_source.html','../.
 <div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;}</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;<span class="comment">/*</span></div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment">==============================</span></div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment">SUB_UseTargets</span></div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="comment">the global &quot;activator&quot; should be set to the entity that initiated the firing.</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="comment">If this.delay is set, a DelayedUse entity will be created that will actually</span></div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="comment">do the SUB_UseTargets after that many seconds have passed.</span></div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment">Centerprints any this.message to the activator.</span></div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="comment">Removes all entities with a targetname that match this.killtarget,</span></div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="comment">and removes them, so some events can remove other triggers.</span></div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="comment">Search for (string)targetname in all entities that</span></div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="comment">match (string)this.target and call their .use function</span></div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="comment"></span></div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="comment">==============================</span></div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00185"></a><span class="lineno"><a class="line" href="../../d5/d26/server_2defs_8qh.html#a3905086b3426d8a7b89fe8eff17368c6">  185</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> trigger)</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;{</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;<span class="comment">// check for a delay</span></div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;<span class="comment">/*</span></div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;<span class="comment">==============================</span></div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;<span class="comment">SUB_UseTargets</span></div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;<span class="comment">the global &quot;activator&quot; should be set to the entity that initiated the firing.</span></div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;<span class="comment">If this.delay is set, a DelayedUse entity will be created that will actually</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;<span class="comment">do the SUB_UseTargets after that many seconds have passed.</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;<span class="comment">Centerprints any this.message to the activator.</span></div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;<span class="comment">Removes all entities with a targetname that match this.killtarget,</span></div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;<span class="comment">and removes them, so some events can remove other triggers.</span></div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;<span class="comment">Search for (string)targetname in all entities that</span></div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;<span class="comment">match (string)this.target and call their .use function</span></div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;<span class="comment"></span></div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;<span class="comment">==============================</span></div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;</div>
+<div class="line"><a name="l00187"></a><span class="lineno"><a class="line" href="../../d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282">  187</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282">SUB_UseTargets_Ex</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> trigger, <span class="keywordtype">bool</span> preventReuse)</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;{</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../db/d2f/subs_8qh.html#abdc33cf25e725134a9b48e79c7031bcf">delay</a>)</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    {</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="comment">// create a temp object to fire at a later time</span></div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> t = <span class="keyword">new</span>(DelayedUse);</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        t.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + this.<a class="code" href="../../db/d2f/subs_8qh.html#abdc33cf25e725134a9b48e79c7031bcf">delay</a>;</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(t, <a class="code" href="../../d6/d57/triggers_8qc.html#a1c58d77ea3f4858ed96288710690cf98">DelayThink</a>);</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        t.enemy = actor;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        t.message = this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a>;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        t.killtarget = this.<a class="code" href="../../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70">killtarget</a>;</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        t.target = this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        t.target2 = this.<a class="code" href="../../db/d2f/subs_8qh.html#a21f638b0048b6516d7e8b2773d3e8cb3">target2</a>;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        t.target3 = this.<a class="code" href="../../db/d2f/subs_8qh.html#ad661941c9b74fdf7c70621dd454de4d6">target3</a>;</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        t.target4 = this.<a class="code" href="../../db/d2f/subs_8qh.html#ab615cf80c934c52fa8bdd27f8eaa5094">target4</a>;</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    }</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordtype">string</span> s;</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;<span class="comment">// check for a delay</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../db/d2f/subs_8qh.html#abdc33cf25e725134a9b48e79c7031bcf">delay</a>)</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    {</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="comment">// create a temp object to fire at a later time</span></div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> t = <span class="keyword">new</span>(DelayedUse);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        t.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + this.<a class="code" href="../../db/d2f/subs_8qh.html#abdc33cf25e725134a9b48e79c7031bcf">delay</a>;</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(t, <a class="code" href="../../d6/d57/triggers_8qc.html#a1c58d77ea3f4858ed96288710690cf98">DelayThink</a>);</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        t.enemy = actor;</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        t.message = this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a>;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        t.killtarget = this.<a class="code" href="../../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70">killtarget</a>;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        t.target = this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        t.target2 = this.<a class="code" href="../../db/d2f/subs_8qh.html#a21f638b0048b6516d7e8b2773d3e8cb3">target2</a>;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;        t.target3 = this.<a class="code" href="../../db/d2f/subs_8qh.html#ad661941c9b74fdf7c70621dd454de4d6">target3</a>;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        t.target4 = this.<a class="code" href="../../db/d2f/subs_8qh.html#ab615cf80c934c52fa8bdd27f8eaa5094">target4</a>;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="comment">// print the message</span></div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordtype">string</span> s;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(<span class="keyword">this</span>)</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(actor) &amp;&amp; this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(actor))</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    {</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f">centerprint</a>(actor, this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a>);</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896">play2</a>(actor, <a class="code" href="../../d4/df4/common_2sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a>(TALK));</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    }</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="comment">// kill the killtagets</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="comment">// print the message</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">if</span>(<span class="keyword">this</span>)</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(actor) &amp;&amp; this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(actor))</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f">centerprint</a>(actor, this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a>);</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896">play2</a>(actor, <a class="code" href="../../d4/df4/common_2sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a>(TALK));</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    }</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    s = this.<a class="code" href="../../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70">killtarget</a>;</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <span class="keywordflow">if</span> (s != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    {</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> t = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (t = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(t, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, s)); )</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            <span class="keyword">delete</span>(t);</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    }</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="comment">// fire targets</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="comment">// kill the killtagets</span></div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    s = this.<a class="code" href="../../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70">killtarget</a>;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;    <span class="keywordflow">if</span> (s != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    {</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> t = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (t = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(t, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, s)); )</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="keyword">delete</span>(t);</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    }</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="comment">//</span></div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c">target_random</a>)</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;        <a class="code" href="../../dc/d95/random_8qc.html#a2d70d358bbf6aa8252f2aebc596d67c1">RandomSelection_Init</a>();</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 4; ++i)</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    {</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <span class="keywordflow">switch</span>(i)</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        {</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;            <span class="keywordflow">case</span> 0: s = this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>; <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            <span class="keywordflow">case</span> 1: s = this.<a class="code" href="../../db/d2f/subs_8qh.html#a21f638b0048b6516d7e8b2773d3e8cb3">target2</a>; <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <span class="keywordflow">case</span> 2: s = this.<a class="code" href="../../db/d2f/subs_8qh.html#ad661941c9b74fdf7c70621dd454de4d6">target3</a>; <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            <span class="keywordflow">case</span> 3: s = this.<a class="code" href="../../db/d2f/subs_8qh.html#ab615cf80c934c52fa8bdd27f8eaa5094">target4</a>; <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        }</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;        <span class="keywordflow">if</span> (s != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        {</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            <span class="comment">// Flag to set func_clientwall state</span></div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            <span class="comment">// 1 == deactivate, 2 == activate, 0 == do nothing</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <span class="keywordtype">int</span> aw_flag = this.<a class="code" href="../../d6/d25/triggers_8qh.html#a39f89c7165f3fe4cb77a64df7d722ed3">antiwall_flag</a>;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> t = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (t = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(t, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, s)); )</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            {</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;                <span class="keywordflow">if</span>(t.use)</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;                {</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                    <span class="keywordflow">if</span>(this.<a class="code" href="../../db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c">target_random</a>)</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                    {</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                        <a class="code" href="../../dc/d95/random_8qc.html#a95527c538e7d69ffdd2779998fdabb42">RandomSelection_Add</a>(t, 0, <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>, 1, 0);</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                    }</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                    {</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                        <span class="keywordflow">if</span> (t.classname == <span class="stringliteral">&quot;func_clientwall&quot;</span> || t.classname == <span class="stringliteral">&quot;func_clientillusionary&quot;</span>)</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                            t.antiwall_flag = aw_flag;</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                        t.use(t, actor, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;                    }</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                }</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;            }</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        }</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    }</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c">target_random</a> &amp;&amp; <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>)</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.use(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>, actor, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;}</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="comment">// fire targets</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="comment">//</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c">target_random</a>)</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <a class="code" href="../../dc/d95/random_8qc.html#a2d70d358bbf6aa8252f2aebc596d67c1">RandomSelection_Init</a>();</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordflow">for</span>(<span class="keywordtype">int</span> i = 0; i &lt; 4; ++i)</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    {</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <span class="keywordflow">switch</span>(i)</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        {</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            <span class="keywordflow">case</span> 0: s = this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a>; <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            <span class="keywordflow">case</span> 1: s = this.<a class="code" href="../../db/d2f/subs_8qh.html#a21f638b0048b6516d7e8b2773d3e8cb3">target2</a>; <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <span class="keywordflow">case</span> 2: s = this.<a class="code" href="../../db/d2f/subs_8qh.html#ad661941c9b74fdf7c70621dd454de4d6">target3</a>; <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            <span class="keywordflow">case</span> 3: s = this.<a class="code" href="../../db/d2f/subs_8qh.html#ab615cf80c934c52fa8bdd27f8eaa5094">target4</a>; <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        }</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="keywordflow">if</span> (s != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        {</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            <span class="comment">// Flag to set func_clientwall state</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            <span class="comment">// 1 == deactivate, 2 == activate, 0 == do nothing</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            <span class="keywordtype">int</span> aw_flag = this.<a class="code" href="../../d6/d25/triggers_8qh.html#a39f89c7165f3fe4cb77a64df7d722ed3">antiwall_flag</a>;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            <span class="keywordflow">for</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> t = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>; (t = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(t, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, s)); )</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;                <span class="keywordflow">if</span>(t.use &amp;&amp; (t.sub_target_used != <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> || !preventReuse))</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;                {</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;                    <span class="keywordflow">if</span>(this.<a class="code" href="../../db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c">target_random</a>)</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;                    {</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;                        <a class="code" href="../../dc/d95/random_8qc.html#a95527c538e7d69ffdd2779998fdabb42">RandomSelection_Add</a>(t, 0, <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>, 1, 0);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;                    }</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;                    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;                    {</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;                        <span class="keywordflow">if</span> (t.classname == <span class="stringliteral">&quot;func_clientwall&quot;</span> || t.classname == <span class="stringliteral">&quot;func_clientillusionary&quot;</span>)</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;                            t.antiwall_flag = aw_flag;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                        t.use(t, actor, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;                        <span class="keywordflow">if</span>(preventReuse)</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;                            t.sub_target_used = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;                    }</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                }</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        }</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    }</div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;</div>
-<div class="line"><a name="l00278"></a><span class="lineno"><a class="line" href="../../d6/d57/triggers_8qc.html#af35303edb77219011687ee071d968f01">  278</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d57/triggers_8qc.html#af35303edb77219011687ee071d968f01">SUB_UseTargets_self</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;{</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    <a class="code" href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;}</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c">target_random</a> &amp;&amp; <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>)</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    {</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.use(<a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>, actor, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;        <span class="keywordflow">if</span>(preventReuse)</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>.sub_target_used = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    }</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;}</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;</div>
+<div class="line"><a name="l00286"></a><span class="lineno"><a class="line" href="../../d5/d26/server_2defs_8qh.html#a3905086b3426d8a7b89fe8eff17368c6">  286</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> trigger) { <a class="code" href="../../d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282">SUB_UseTargets_Ex</a>(<span class="keyword">this</span>, actor, trigger, <span class="keyword">false</span>); }</div>
+<div class="line"><a name="l00287"></a><span class="lineno"><a class="line" href="../../d6/d57/triggers_8qc.html#a60ab99c7fe3155c9f0ad190a38d3bfbe">  287</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d57/triggers_8qc.html#a60ab99c7fe3155c9f0ad190a38d3bfbe">SUB_UseTargets_PreventReuse</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> actor, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> trigger) { <a class="code" href="../../d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282">SUB_UseTargets_Ex</a>(<span class="keyword">this</span>, actor, trigger, <span class="keyword">true</span>); }</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;</div>
+<div class="line"><a name="l00289"></a><span class="lineno"><a class="line" href="../../d6/d57/triggers_8qc.html#af35303edb77219011687ee071d968f01">  289</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d6/d57/triggers_8qc.html#af35303edb77219011687ee071d968f01">SUB_UseTargets_self</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;{</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <a class="code" href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_aa90038262dd0464a4c251487bc5efc9f"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f">centerprint</a></div><div class="ttdeci">void centerprint(string text,...)</div></div>
-<div class="ttc" id="triggers_8qc_html_af35303edb77219011687ee071d968f01"><div class="ttname"><a href="../../d6/d57/triggers_8qc.html#af35303edb77219011687ee071d968f01">SUB_UseTargets_self</a></div><div class="ttdeci">void SUB_UseTargets_self(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/triggers_8qc_source.html#l00278">triggers.qc:278</a></div></div>
+<div class="ttc" id="triggers_8qc_html_af35303edb77219011687ee071d968f01"><div class="ttname"><a href="../../d6/d57/triggers_8qc.html#af35303edb77219011687ee071d968f01">SUB_UseTargets_self</a></div><div class="ttdeci">void SUB_UseTargets_self(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/triggers_8qc_source.html#l00289">triggers.qc:289</a></div></div>
 <div class="ttc" id="triggers_8qc_html_ae3b2b9ab5e59b7825352e92ec024f767"><div class="ttname"><a href="../../d6/d57/triggers_8qc.html#ae3b2b9ab5e59b7825352e92ec024f767">FixSize</a></div><div class="ttdeci">void FixSize(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/triggers_8qc_source.html#l00011">triggers.qc:11</a></div></div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="subs_8qh_html_af2b304d9b9b25fa0534674b9ac37850c"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c">target_random</a></div><div class="ttdeci">float target_random</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00044">subs.qh:44</a></div></div>
 <div class="ttc" id="common_2sounds_2all_8qh_html_a95b575d77a4c36658bf10f40dd84893d"><div class="ttname"><a href="../../d4/df4/common_2sounds_2all_8qh.html#a95b575d77a4c36658bf10f40dd84893d">SND</a></div><div class="ttdeci">#define SND(id)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/df4/common_2sounds_2all_8qh_source.html#l00014">all.qh:14</a></div></div>
+<div class="ttc" id="triggers_8qc_html_a60ab99c7fe3155c9f0ad190a38d3bfbe"><div class="ttname"><a href="../../d6/d57/triggers_8qc.html#a60ab99c7fe3155c9f0ad190a38d3bfbe">SUB_UseTargets_PreventReuse</a></div><div class="ttdeci">void SUB_UseTargets_PreventReuse(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/triggers_8qc_source.html#l00287">triggers.qc:287</a></div></div>
 <div class="ttc" id="triggers_8qc_html_a1c58d77ea3f4858ed96288710690cf98"><div class="ttname"><a href="../../d6/d57/triggers_8qc.html#a1c58d77ea3f4858ed96288710690cf98">DelayThink</a></div><div class="ttdeci">void DelayThink(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/triggers_8qc_source.html#l00005">triggers.qc:5</a></div></div>
 <div class="ttc" id="subs_8qh_html_a83afc76376dea8d690e2221698636c70"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70">killtarget</a></div><div class="ttdeci">string killtarget</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00035">subs.qh:35</a></div></div>
 <div class="ttc" id="lib_2warpzone_2common_8qh_html_a1e0289363c17167532b3a975d9658ee0"><div class="ttname"><a href="../../d7/d71/lib_2warpzone_2common_8qh.html#a1e0289363c17167532b3a975d9658ee0">EXACTTRIGGER_INIT</a></div><div class="ttdeci">#define EXACTTRIGGER_INIT</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00114">common.qh:114</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a18041cde62044b96045c275f98c7d3a7"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a></div><div class="ttdeci">string noise</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00209">progsdefs.qc:209</a></div></div>
 <div class="ttc" id="cl__minigames_8qc_html_ac03fadfb499a7d7775c099e7d03c2bb2"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#ac03fadfb499a7d7775c099e7d03c2bb2">ReadString</a></div><div class="ttdeci">#define ReadString</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/cl__minigames_8qc_source.html#l00158">cl_minigames.qc:158</a></div></div>
+<div class="ttc" id="triggers_8qc_html_aecde2ff58098fdd6d2d87d27dfea8282"><div class="ttname"><a href="../../d6/d57/triggers_8qc.html#aecde2ff58098fdd6d2d87d27dfea8282">SUB_UseTargets_Ex</a></div><div class="ttdeci">void SUB_UseTargets_Ex(entity this, entity actor, entity trigger, bool preventReuse)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/triggers_8qc_source.html#l00187">triggers.qc:187</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abd23315350cd01304b6bd77c4c5c07e6"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6">WriteByte</a></div><div class="ttdeci">void WriteByte(float data, float dest, float desto)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a2f3957a8a9e7c1c19755835bb81af37c"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a2f3957a8a9e7c1c19755835bb81af37c">modelindex</a></div><div class="ttdeci">float modelindex</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00091">csprogsdefs.qc:91</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
@@ -406,7 +419,7 @@ $(document).ready(function(){initNavTree('d6/d57/triggers_8qc_source.html','../.
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a3ad01a00f1af9d663eb5c97259434896"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896">play2</a></div><div class="ttdeci">void play2(entity e, string filename)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a972054a34285ccf8530071c879723230"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a972054a34285ccf8530071c879723230">maxs</a></div><div class="ttdeci">vector maxs</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00113">csprogsdefs.qc:113</a></div></div>
-<div class="ttc" id="triggers_8qc_html_a3905086b3426d8a7b89fe8eff17368c6"><div class="ttname"><a href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a></div><div class="ttdeci">void SUB_UseTargets(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/triggers_8qc_source.html#l00185">triggers.qc:185</a></div></div>
+<div class="ttc" id="triggers_8qc_html_a3905086b3426d8a7b89fe8eff17368c6"><div class="ttname"><a href="../../d6/d57/triggers_8qc.html#a3905086b3426d8a7b89fe8eff17368c6">SUB_UseTargets</a></div><div class="ttdeci">void SUB_UseTargets(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/triggers_8qc_source.html#l00286">triggers.qc:286</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a7bb594d808e357274edee331b5ed2d35"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35">WriteShort</a></div><div class="ttdeci">void WriteShort(float data, float dest, float desto)</div></div>
 <div class="ttc" id="triggers_8qc_html_a867a4a5f27063de0e88ac03b187dc928"><div class="ttname"><a href="../../d6/d57/triggers_8qc.html#a867a4a5f27063de0e88ac03b187dc928">SUB_DontUseTargets</a></div><div class="ttdeci">void SUB_DontUseTargets(entity this, entity actor, entity trigger)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d57/triggers_8qc_source.html#l00001">triggers.qc:1</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8199bbcd6c88dc1fa294a1a0020ec3d5"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a></div><div class="ttdeci">float effects</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00111">csprogsdefs.qc:111</a></div></div>
@@ -444,7 +457,7 @@ $(document).ready(function(){initNavTree('d6/d57/triggers_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../d6/d57/triggers_8qc.html">triggers.qc</a></li>
-    <li class="footer">Generated on Sat Aug 20 2016 13:02:49 for Xonotic by
+    <li class="footer">Generated on Sat Aug 20 2016 13:35:52 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

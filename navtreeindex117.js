@@ -1,5 +1,14 @@
 var NAVTREEINDEX117 =
 {
+"de/d7a/classXonoticHUDScoreDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,190,81],
+"de/d7a/classXonoticHUDScoreDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,190,48],
+"de/d7a/classXonoticHUDScoreDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,190,26],
+"de/d7a/classXonoticHUDScoreDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,190,17],
+"de/d7a/classXonoticHUDScoreDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,190,73],
+"de/d7a/classXonoticHUDScoreDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,190,70],
+"de/d7a/classXonoticHUDScoreDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,190,69],
+"de/d7a/classXonoticHUDScoreDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,190,7],
+"de/d7a/classXonoticHUDScoreDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,190,71],
 "de/d7a/classXonoticHUDScoreDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,190,4],
 "de/d7a/classXonoticHUDScoreDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,190,43],
 "de/d7a/classXonoticHUDScoreDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,190,21],
@@ -240,14 +249,5 @@ var NAVTREEINDEX117 =
 "de/d9a/item_8qc.html#af10a456226e2bd11255baff142ec9bc1":[2,0,5,12,1],
 "de/d9a/item_8qc_source.html":[2,0,5,12],
 "de/d9b/steerlib_8qc.html":[2,0,6,62],
-"de/d9b/steerlib_8qc.html#a0b43def7c545a6306fed7b03b85dfeda":[2,0,6,62,10],
-"de/d9b/steerlib_8qc.html#a0d43b60b0c297167b1277c8237474c07":[2,0,6,62,17],
-"de/d9b/steerlib_8qc.html#a150ff1bca4bff561b5ced20e2e3b87d7":[2,0,6,62,0],
-"de/d9b/steerlib_8qc.html#a196be7e1d9851ab01449a7b5aeaa2b00":[2,0,6,62,11],
-"de/d9b/steerlib_8qc.html#a202933833eafdba803e5bb95b59049eb":[2,0,6,62,15],
-"de/d9b/steerlib_8qc.html#a214ccd5833a11d86b31b43e1ae55bd6e":[2,0,6,62,2],
-"de/d9b/steerlib_8qc.html#a25a4050d3645babd83636cab43dbbc91":[2,0,6,62,7],
-"de/d9b/steerlib_8qc.html#a3286ddc4822f6220e31567e2af55c83e":[2,0,6,62,13],
-"de/d9b/steerlib_8qc.html#a4c7faca73bde4e58d50b9f2366402a65":[2,0,6,62,1],
-"de/d9b/steerlib_8qc.html#a57d9255fc5763edbd5242c93b4b43cd5":[2,0,6,62,6]
+"de/d9b/steerlib_8qc.html#a0b43def7c545a6306fed7b03b85dfeda":[2,0,6,62,10]
 };

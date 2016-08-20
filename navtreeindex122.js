@@ -1,5 +1,14 @@
 var NAVTREEINDEX122 =
 {
+"df/d56/classSpider.html":[1,0,118],
+"df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,118,0],
+"df/d56/classSpider.html#a24b4136b7b62e15cc5df0c04289434ca":[1,0,118,6],
+"df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,118,15],
+"df/d56/classSpider.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,118,13],
+"df/d56/classSpider.html#a66aaeae0f48e09bfdf2f3c546e6375b2":[1,0,118,10],
+"df/d56/classSpider.html#a6dcca2c26e36342b5286873a74793cae":[1,0,118,4],
+"df/d56/classSpider.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,118,1],
+"df/d56/classSpider.html#a78bac4eaa186fb8ccfdeafe7375ee0dc":[1,0,118,14],
 "df/d56/classSpider.html#a84829255027bd85cf33ef0418ef5c975":[1,0,118,7],
 "df/d56/classSpider.html#a98fd6d803cf7376820bb26fcbca5adbd":[1,0,118,3],
 "df/d56/classSpider.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,118,2],
@@ -240,14 +249,5 @@ var NAVTREEINDEX122 =
 "df/d7d/tests_8qh_source.html":[2,0,6,77],
 "df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc.html":[2,0,1,9,0,2,0],
 "df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc_source.html":[2,0,1,9,0,2,0],
-"df/d87/menu_2mutators_2__mod_8qh.html":[2,0,5,3,1],
-"df/d87/menu_2mutators_2__mod_8qh_source.html":[2,0,5,3,1],
-"df/d89/hurt_8qc.html":[2,0,1,13,3,9],
-"df/d89/hurt_8qc_source.html":[2,0,1,13,3,9],
-"df/d8c/cl__cmd_8qc.html":[2,0,0,0,4],
-"df/d8c/cl__cmd_8qc.html#a01a144926d280170380a5da597e573dc":[2,0,0,0,4,40],
-"df/d8c/cl__cmd_8qc.html#a08467d55e8f32d8f69efe2011e00f340":[2,0,0,0,4,28],
-"df/d8c/cl__cmd_8qc.html#a176783735cb19cc02e72e6fb9cfa39a9":[2,0,0,0,4,36],
-"df/d8c/cl__cmd_8qc.html#a1ac18fad9472856fdc8826c4e4a87bbe":[2,0,0,0,4,9],
-"df/d8c/cl__cmd_8qc.html#a1d2657033c7343e97c079ba5b3a24e66":[2,0,0,0,4,34]
+"df/d87/menu_2mutators_2__mod_8qh.html":[2,0,5,3,1]
 };

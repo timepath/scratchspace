@@ -1,5 +1,14 @@
 var NAVTREEINDEX89 =
 {
+"db/d26/gamemode__freezetag_8qc.html#a04c8661fa0aa1a7cd957c6b739de6cde":[2,0,6,2,0,14,14],
+"db/d26/gamemode__freezetag_8qc.html#a11612d2d3283f7606005578fa997f2be":[2,0,6,2,0,14,0],
+"db/d26/gamemode__freezetag_8qc.html#a135a5720e453dd7582a0e9b98e739cb9":[2,0,6,2,0,14,2],
+"db/d26/gamemode__freezetag_8qc.html#a17e55bd8fb82ddd763d5fd3d506fdc5d":[2,0,6,2,0,14,8],
+"db/d26/gamemode__freezetag_8qc.html#a22c1b1fa2cc3380d509007bc888e137c":[2,0,6,2,0,14,7],
+"db/d26/gamemode__freezetag_8qc.html#a4ade32017fb46793f5e1ff698e05989b":[2,0,6,2,0,14,6],
+"db/d26/gamemode__freezetag_8qc.html#a5c3fd51f9babdfe94b95378108bb0e2f":[2,0,6,2,0,14,5],
+"db/d26/gamemode__freezetag_8qc.html#a5c7d231b29848dbe9e992548d57958bb":[2,0,6,2,0,14,11],
+"db/d26/gamemode__freezetag_8qc.html#a64d08325f0339534e219ec14103c2757":[2,0,6,2,0,14,4],
 "db/d26/gamemode__freezetag_8qc.html#a93dbe70f6f5e8c7e42c436e77d0d3348":[2,0,6,2,0,14,1],
 "db/d26/gamemode__freezetag_8qc.html#aa6539dc2fe101f47fdac71e3ed17e482":[2,0,6,2,0,14,13],
 "db/d26/gamemode__freezetag_8qc.html#aaa13a46cb43eaeeec707e1630d149734":[2,0,6,2,0,14,9],
@@ -240,14 +249,5 @@ var NAVTREEINDEX89 =
 "db/d38/classKeyframe.html#ad4e50d0614ee1bcd1cde28fca9d141f5":[1,0,59,31],
 "db/d38/classKeyframe.html#ad761cf905a85fc06b01ff951df4571b4":[1,0,59,24],
 "db/d38/classKeyframe.html#adfa57fc40f43ee504208262bbbc7c14e":[1,0,59,19],
-"db/d38/classKeyframe.html#ae5ec27b5e1379289711f0a6622b2e3d1":[1,0,59,11],
-"db/d38/classKeyframe.html#af44315fcdb5187461a08ef44a82676fd":[1,0,59,14],
-"db/d38/classXonoticSliderCheckBox.html":[1,0,238],
-"db/d38/classXonoticSliderCheckBox.html#a08cda08ecde39493de593ab7695e404b":[1,0,238,44],
-"db/d38/classXonoticSliderCheckBox.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,238,77],
-"db/d38/classXonoticSliderCheckBox.html#a10cf88734594fed24be93889407c0bda":[1,0,238,25],
-"db/d38/classXonoticSliderCheckBox.html#a10f084ce6991717bfb4153928818feba":[1,0,238,22],
-"db/d38/classXonoticSliderCheckBox.html#a11a99dd0d7e621888583908e0be2cd66":[1,0,238,6],
-"db/d38/classXonoticSliderCheckBox.html#a1384d244201f945385ed59b53e4aee96":[1,0,238,43],
-"db/d38/classXonoticSliderCheckBox.html#a1843cffe68026c89cf96ecda515f33cf":[1,0,238,5]
+"db/d38/classKeyframe.html#ae5ec27b5e1379289711f0a6622b2e3d1":[1,0,59,11]
 };

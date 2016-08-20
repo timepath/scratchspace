@@ -2,7 +2,7 @@ var weaponsystem_8qh =
 [
     [ "CL_SpawnWeaponentity", "da/db7/weaponsystem_8qh.html#aa6d337210081fd47ddca43564d7bf9c3", null ],
     [ "CL_Weapon_GetShotOrg", "da/db7/weaponsystem_8qh.html#ad315ff4e6ee9693a54edb0d18efc9245", null ],
-    [ "forbidWeaponUse", "da/db7/weaponsystem_8qh.html#aa37b568e14f970efdb768a661eeea96e", null ],
+    [ "forbidWeaponUse", "da/db7/weaponsystem_8qh.html#a1798aef9c3263ffc0fb53a9741fc3ab9", null ],
     [ "W_AttachToShotorg", "da/db7/weaponsystem_8qh.html#a813254341767de735265a1836478ad03", null ],
     [ "W_DecreaseAmmo", "da/db7/weaponsystem_8qh.html#aa0bce870282286c681f4e9988c2ba474", null ],
     [ "W_DropEvent", "da/db7/weaponsystem_8qh.html#a3033c57fa01b0d86245be740694ca2d6", null ],

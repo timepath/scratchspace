@@ -1,5 +1,14 @@
 var NAVTREEINDEX86 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,231,87],
+"da/db7/classXonoticServerInfoDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,231,64],
+"da/db7/classXonoticServerInfoDialog.html#a4ee2e27fd5a7c6a28e299d2e21caf470":[1,0,231,35],
+"da/db7/classXonoticServerInfoDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,231,72],
+"da/db7/classXonoticServerInfoDialog.html#a55a22c072cdbe2543666d410c14a6a3d":[1,0,231,27],
+"da/db7/classXonoticServerInfoDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,231,94],
+"da/db7/classXonoticServerInfoDialog.html#a67d95732d49da439095483530aca8804":[1,0,231,83],
+"da/db7/classXonoticServerInfoDialog.html#a699e3a7064faebff370c107d6e377cd4":[1,0,231,37],
+"da/db7/classXonoticServerInfoDialog.html#a6a87d4a4708f74e44086802f81c5ad32":[1,0,231,22],
 "da/db7/classXonoticServerInfoDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,231,105],
 "da/db7/classXonoticServerInfoDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,231,47],
 "da/db7/classXonoticServerInfoDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,231,43],
@@ -75,6 +84,7 @@ var NAVTREEINDEX86 =
 "da/db7/triggers_2trigger_2viewloc_8qh_source.html":[2,0,1,13,3,33],
 "da/db7/weaponsystem_8qh.html":[2,0,6,4,21],
 "da/db7/weaponsystem_8qh.html#a0a6487bdb823099d34918347cb076f98":[2,0,6,4,21,9],
+"da/db7/weaponsystem_8qh.html#a1798aef9c3263ffc0fb53a9741fc3ab9":[2,0,6,4,21,2],
 "da/db7/weaponsystem_8qh.html#a20be965c42ea2fe958748c6971f93a78":[2,0,6,4,21,6],
 "da/db7/weaponsystem_8qh.html#a2c942b58576428eb5b55f9d6ca107a49":[2,0,6,4,21,13],
 "da/db7/weaponsystem_8qh.html#a3033c57fa01b0d86245be740694ca2d6":[2,0,6,4,21,5],
@@ -86,7 +96,6 @@ var NAVTREEINDEX86 =
 "da/db7/weaponsystem_8qh.html#a813254341767de735265a1836478ad03":[2,0,6,4,21,3],
 "da/db7/weaponsystem_8qh.html#a9bcd792c8ccabbcc22484eb7872f70b8":[2,0,6,4,21,7],
 "da/db7/weaponsystem_8qh.html#aa0bce870282286c681f4e9988c2ba474":[2,0,6,4,21,4],
-"da/db7/weaponsystem_8qh.html#aa37b568e14f970efdb768a661eeea96e":[2,0,6,4,21,2],
 "da/db7/weaponsystem_8qh.html#aa6d337210081fd47ddca43564d7bf9c3":[2,0,6,4,21,0],
 "da/db7/weaponsystem_8qh.html#aa9037cea3d518282ee50064ec34e3c4a":[2,0,6,4,21,8],
 "da/db7/weaponsystem_8qh.html#aaf88c2158300a1bec1d14a44351fe55e":[2,0,6,4,21,11],
@@ -240,14 +249,5 @@ var NAVTREEINDEX86 =
 "da/dd5/enumclass_8qh.html":[2,0,4,17],
 "da/dd5/enumclass_8qh.html#a10f4c592b56e8ae136d22fc7a9cd22f0":[2,0,4,17,5],
 "da/dd5/enumclass_8qh.html#a7339abefe19e4109853567ae9664cf04":[2,0,4,17,4],
-"da/dd5/enumclass_8qh.html#a93090b9631c9cca1cb2e94328e2889ed":[2,0,4,17,3],
-"da/dd5/enumclass_8qh.html#ab9035c4cdfdbaa88cf7ec5cc33a5c6f8":[2,0,4,17,0],
-"da/dd5/enumclass_8qh.html#ac13d792e49df3610c3a5b5d37f98ba4b":[2,0,4,17,2],
-"da/dd5/enumclass_8qh.html#aff68acbe705eabfb48461c1875991505":[2,0,4,17,1],
-"da/dd5/enumclass_8qh_source.html":[2,0,4,17],
-"da/dd7/common_2turrets_2__mod_8inc.html":[2,0,1,14,1],
-"da/dd7/common_2turrets_2__mod_8inc_source.html":[2,0,1,14,1],
-"da/ddd/dialog__singleplayer__winner_8qh.html":[2,0,5,4,159],
-"da/ddd/dialog__singleplayer__winner_8qh_source.html":[2,0,5,4,159],
-"da/ddd/ipban_8qh.html":[2,0,6,38]
+"da/dd5/enumclass_8qh.html#a93090b9631c9cca1cb2e94328e2889ed":[2,0,4,17,3]
 };

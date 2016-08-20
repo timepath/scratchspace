@@ -1,5 +1,14 @@
 var NAVTREEINDEX81 =
 {
+"d9/df7/mathlib_8qh.html#a2c088dd908a4230be42abbb91a9c9e76":[2,0,4,2,9,20],
+"d9/df7/mathlib_8qh.html#a2ebcd12a3f554326958712eb4e298eec":[2,0,4,2,9,6],
+"d9/df7/mathlib_8qh.html#a2ec1b285fafa6bf8681c85f58be62129":[2,0,4,2,9,11],
+"d9/df7/mathlib_8qh.html#a31d5e179730ae44e1dbc74c1535f392e":[2,0,4,2,9,16],
+"d9/df7/mathlib_8qh.html#a33cc346251c94cdf1e0f3cfdd1627124":[2,0,4,2,9,26],
+"d9/df7/mathlib_8qh.html#a368fab4964efe1287d1cdc33ad339c6c":[2,0,4,2,9,46],
+"d9/df7/mathlib_8qh.html#a37105d1bf9bfe3d740f678512919e1b5":[2,0,4,2,9,50],
+"d9/df7/mathlib_8qh.html#a3f2452dce1214eabb9f499048c9703cd":[2,0,4,2,9,63],
+"d9/df7/mathlib_8qh.html#a44b0ea5e419670a7106eed20ff311cd1":[2,0,4,2,9,42],
 "d9/df7/mathlib_8qh.html#a486a2dd576a38dc807ef5eeb0c29fc95":[2,0,4,2,9,53],
 "d9/df7/mathlib_8qh.html#a4b66818c1ca439713053dd5cace18ce3":[2,0,4,2,9,18],
 "d9/df7/mathlib_8qh.html#a4b7f0bec5cd190751b78da2b59172644":[2,0,4,2,9,59],
@@ -240,14 +249,5 @@ var NAVTREEINDEX81 =
 "da/d1e/mutators_2mutator_2nix_2module_8inc.html":[2,0,1,9,0,18,2],
 "da/d1e/mutators_2mutator_2nix_2module_8inc_source.html":[2,0,1,9,0,18,2],
 "da/d1e/phaser__weapon_8qc.html":[2,0,1,14,0,22],
-"da/d1e/phaser__weapon_8qc_source.html":[2,0,1,14,0,22],
-"da/d20/spawnfunc_8qh.html":[2,0,4,50],
-"da/d20/spawnfunc_8qh.html#a09349a71324a154b90ff0ed86d833a14":[2,0,4,50,0],
-"da/d20/spawnfunc_8qh.html#a0b9d427233f1fc585de8da601a0d3f38":[2,0,4,50,3],
-"da/d20/spawnfunc_8qh.html#a19f19ce6180312d0bcdafcc71e46a559":[2,0,4,50,2],
-"da/d20/spawnfunc_8qh.html#a22a827dfea3ecd79bc8935e7fdcfb300":[2,0,4,50,14],
-"da/d20/spawnfunc_8qh.html#a4de816e6692271520f0bd3d32a2760cc":[2,0,4,50,1],
-"da/d20/spawnfunc_8qh.html#a6cb61ff4c2475d5c45d023b3d550a99a":[2,0,4,50,13],
-"da/d20/spawnfunc_8qh.html#a6db22713f1e01f024520460c92911ade":[2,0,4,50,8],
-"da/d20/spawnfunc_8qh.html#a82f4dd939d49e3dbc4926a5823ffb0c8":[2,0,4,50,4]
+"da/d1e/phaser__weapon_8qc_source.html":[2,0,1,14,0,22]
 };

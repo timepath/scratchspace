@@ -674,6 +674,9 @@ $(document).ready(function(){initNavTree('globals_e.html','');});
 <li>EV_ForbidThrowCurrentWeapon
 : <a class="el" href="d6/ddd/server_2mutators_2events_8qh.html#aa9f463b9c72b6ecd4168a6d80073cceb">events.qh</a>
 </li>
+<li>EV_ForbidWeaponUse
+: <a class="el" href="d6/ddd/server_2mutators_2events_8qh.html#a3c1330bd14d70ce54c36e80af99c40bd">events.qh</a>
+</li>
 <li>EV_FormatMessage
 : <a class="el" href="d6/ddd/server_2mutators_2events_8qh.html#ac46571784f213f11afe4fbc884818d0e">events.qh</a>
 </li>
@@ -757,6 +760,9 @@ $(document).ready(function(){initNavTree('globals_e.html','');});
 </li>
 <li>EV_MonsterSpawn
 : <a class="el" href="d6/ddd/server_2mutators_2events_8qh.html#a9ee27eb8eedcc7b8195124d0cc9bfb5e">events.qh</a>
+</li>
+<li>EV_MonsterValidTarget
+: <a class="el" href="d6/ddd/server_2mutators_2events_8qh.html#a8555d1fb5cd1d669bb2ed97356e44f86">events.qh</a>
 </li>
 <li>EV_NO_ARGS
 : <a class="el" href="d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6">events.qh</a>
@@ -989,9 +995,9 @@ $(document).ready(function(){initNavTree('globals_e.html','');});
 <li>EVAL_spawnfunc
 : <a class="el" href="da/d20/spawnfunc_8qh.html#a19f19ce6180312d0bcdafcc71e46a559">spawnfunc.qh</a>
 </li>
-<li>EVENT()
-: <a class="el" href="d2/d6e/ecs_2events_2physics_8qh.html#a35060f36c00aa78b244b62f0b285ee78">physics.qh</a>
-, <a class="el" href="dc/dba/__lib_8qh.html#ab1202c917075250869e00a74b1a33446">_lib.qh</a>
+<li>EVENT
+: <a class="el" href="dc/dba/__lib_8qh.html#ab1202c917075250869e00a74b1a33446">_lib.qh</a>
+, <a class="el" href="d2/d6e/ecs_2events_2physics_8qh.html#a35060f36c00aa78b244b62f0b285ee78">physics.qh</a>
 </li>
 <li>eventchase_current_distance
 : <a class="el" href="d6/dd3/view_8qc.html#af31c00efdf68afa9ed92369b83bfbcc0">view.qc</a>
@@ -1065,8 +1071,8 @@ $(document).ready(function(){initNavTree('globals_e.html','');});
 : <a class="el" href="d8/d58/calculations_8qc.html#a468e15dca4d551cc26cf33a97de62650">calculations.qc</a>
 </li>
 <li>expm1()
-: <a class="el" href="df/d38/mathlib_8qc.html#a2ec1b285fafa6bf8681c85f58be62129">mathlib.qc</a>
-, <a class="el" href="d9/df7/mathlib_8qh.html#a2ec1b285fafa6bf8681c85f58be62129">mathlib.qh</a>
+: <a class="el" href="d9/df7/mathlib_8qh.html#a2ec1b285fafa6bf8681c85f58be62129">mathlib.qh</a>
+, <a class="el" href="df/d38/mathlib_8qc.html#a2ec1b285fafa6bf8681c85f58be62129">mathlib.qc</a>
 </li>
 <li>ExponentialFalloff()
 : <a class="el" href="d0/d79/math_8qh.html#a7f03c0168ed8d9fb9878df24c6093ab9">math.qh</a>
@@ -1085,12 +1091,12 @@ $(document).ready(function(){initNavTree('globals_e.html','');});
 : <a class="el" href="de/d81/common_2weapons_2all_8qh.html#ac967d1c85168c751a9a718d36ffb4a20">all.qh</a>
 </li>
 <li>EXTRA_HIGH
-: <a class="el" href="d4/d92/csqc__constants_8qh.html#a6c3eef2a7b7e1bcd593bededeffb0224">csqc_constants.qh</a>
-, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a86080a54549de88321690bf0fbc6cccf">csprogsdefs.qc</a>
+: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a86080a54549de88321690bf0fbc6cccf">csprogsdefs.qc</a>
+, <a class="el" href="d4/d92/csqc__constants_8qh.html#a6c3eef2a7b7e1bcd593bededeffb0224">csqc_constants.qh</a>
 </li>
 <li>EXTRA_LOW
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a7b932d4cb9407f147647b02496291481">csprogsdefs.qc</a>
-, <a class="el" href="d4/d92/csqc__constants_8qh.html#a55e1f529c16d0d78a54bf1684455b69b">csqc_constants.qh</a>
+: <a class="el" href="d4/d92/csqc__constants_8qh.html#a55e1f529c16d0d78a54bf1684455b69b">csqc_constants.qh</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a7b932d4cb9407f147647b02496291481">csprogsdefs.qc</a>
 </li>
 <li>eY
 : <a class="el" href="de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">vector.qh</a>
@@ -1104,7 +1110,7 @@ $(document).ready(function(){initNavTree('globals_e.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sat Aug 20 2016 13:03:09 for Xonotic by
+    <li class="footer">Generated on Sat Aug 20 2016 13:36:11 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

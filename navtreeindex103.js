@@ -1,5 +1,14 @@
 var NAVTREEINDEX103 =
 {
+"dc/da0/classXonoticMapInfoDialog.html#a7ba5841077caddad52073f89c39ffb7a":[1,0,202,34],
+"dc/da0/classXonoticMapInfoDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,202,35],
+"dc/da0/classXonoticMapInfoDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,202,99],
+"dc/da0/classXonoticMapInfoDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,202,91],
+"dc/da0/classXonoticMapInfoDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,202,90],
+"dc/da0/classXonoticMapInfoDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,202,63],
+"dc/da0/classXonoticMapInfoDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,202,56],
+"dc/da0/classXonoticMapInfoDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,202,84],
+"dc/da0/classXonoticMapInfoDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,202,88],
 "dc/da0/classXonoticMapInfoDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,202,77],
 "dc/da0/classXonoticMapInfoDialog.html#aa62b1e4218dd5190a95be8294cdde1ff":[1,0,202,8],
 "dc/da0/classXonoticMapInfoDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,202,26],
@@ -240,14 +249,5 @@ var NAVTREEINDEX103 =
 "dc/dc6/server_2miscfunctions_8qc.html#ad793e10b99d7b9cc268469692be69fd8":[2,0,6,45,13],
 "dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3":[2,0,6,45,16],
 "dc/dc6/server_2miscfunctions_8qc.html#adac48834b44f2430043098916e291251":[2,0,6,45,37],
-"dc/dc6/server_2miscfunctions_8qc.html#adb60a180886d4dfa682f79bf827c5ce4":[2,0,6,45,27],
-"dc/dc6/server_2miscfunctions_8qc.html#ae468daae6c8d2aaa2b30a3ad700809d1":[2,0,6,45,65],
-"dc/dc6/server_2miscfunctions_8qc.html#ae60e63a20482389086630191d5d8d336":[2,0,6,45,68],
-"dc/dc6/server_2miscfunctions_8qc.html#ae79a7e9cd4d8835118ccb584fe645e6f":[2,0,6,45,0],
-"dc/dc6/server_2miscfunctions_8qc.html#af695d661864cdf0f78273b0a8717a1e9":[2,0,6,45,1],
-"dc/dc6/server_2miscfunctions_8qc_source.html":[2,0,6,45],
-"dc/dc7/projectile_8qh.html":[2,0,0,3,3],
-"dc/dc7/projectile_8qh.html#a0425d4c4b6b30c19a7f206ec3b83406b":[2,0,0,3,3,4],
-"dc/dc7/projectile_8qh.html#a07d63755334d8ccb23787ee7001d16d1":[2,0,0,3,3,5],
-"dc/dc7/projectile_8qh.html#a1377cbecee41e6bb05e56a90280ff3eb":[2,0,0,3,3,9]
+"dc/dc6/server_2miscfunctions_8qc.html#adb60a180886d4dfa682f79bf827c5ce4":[2,0,6,45,27]
 };

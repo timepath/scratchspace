@@ -1,5 +1,14 @@
 var NAVTREEINDEX109 =
 {
+"dd/d87/effectinfo_8qc.html#ad425a0ea2148626349dd03800e90f7b6":[2,0,1,2,8,3],
+"dd/d87/effectinfo_8qc.html#ae328f1e3b2e9b1cfb1b78938f44f8173":[2,0,1,2,8,22],
+"dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf":[2,0,1,2,8,11],
+"dd/d87/effectinfo_8qc_source.html":[2,0,1,2,8],
+"dd/d89/menu_2mutators_2__mod_8inc.html":[2,0,5,3,0],
+"dd/d89/menu_2mutators_2__mod_8inc_source.html":[2,0,5,3,0],
+"dd/d8a/dialog__settings__game__hudconfirm_8qh.html":[2,0,5,4,131],
+"dd/d8a/dialog__settings__game__hudconfirm_8qh_source.html":[2,0,5,4,131],
+"dd/d8b/sys-pre_8qh.html":[2,0,6,67],
 "dd/d8b/sys-pre_8qh.html#a0c0bbf4dba535c4665b7ed0f51b0abbc":[2,0,6,67,17],
 "dd/d8b/sys-pre_8qh.html#a0d27ea6bfcb93303d6fada5560bd3c51":[2,0,6,67,13],
 "dd/d8b/sys-pre_8qh.html#a1112c2e77939aff99ea33249bf2992fd":[2,0,6,67,15],
@@ -240,14 +249,5 @@ var NAVTREEINDEX109 =
 "dd/d9a/classXonoticSandboxToolsDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,224,16],
 "dd/d9a/classXonoticSandboxToolsDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,224,33],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,224,38],
-"dd/d9a/classXonoticSandboxToolsDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,224,58],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,224,84],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,224,51],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,224,63],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ad4591fffa6f80a35e913c114f77dbf74":[1,0,224,86],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,224,87],
-"dd/d9a/classXonoticSandboxToolsDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,224,31],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,224,62],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,224,55],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ae40f58ec03244abd18fec51832808378":[1,0,224,90]
+"dd/d9a/classXonoticSandboxToolsDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,224,58]
 };

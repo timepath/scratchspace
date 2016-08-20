@@ -335,6 +335,7 @@ var searchData=
   ['strength_5ffinished',['strength_finished',['../d5/d26/server_2defs_8qh.html#a0ec5aa05174d4862f21277da2eeeea98',1,'defs.qh']]],
   ['string_5fnull',['string_null',['../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91',1,'nil.qh']]],
   ['style',['style',['../de/d5e/dpextensions_8qc.html#a2ff8b7b8c248963bd9d58f6215f56a3d',1,'dpextensions.qc']]],
+  ['sub_5ftarget_5fused',['sub_target_used',['../d6/d25/triggers_8qh.html#ad436493b25a31e8a63b532fe3b98fa5b',1,'triggers.qh']]],
   ['superweapons_5ffinished',['superweapons_finished',['../d5/d26/server_2defs_8qh.html#a8689f2bf666f3c481d8a00a3253cd6df',1,'defs.qh']]],
   ['sv_5fautotaunt',['sv_autotaunt',['../dc/d73/server_2miscfunctions_8qh.html#a1203527db9e7396b56e86233d13e12e8',1,'miscfunctions.qh']]],
   ['sv_5fclones',['sv_clones',['../d5/d26/server_2defs_8qh.html#aa67674d07a79fc8a0d5f198664a2e69d',1,'defs.qh']]],
