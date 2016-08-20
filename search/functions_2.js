@@ -48,7 +48,7 @@ var searchData=
   ['bd_5funfill_5frecurse',['bd_unfill_recurse',['../d3/dd5/bd_8qc.html#a051007cbf0daa912a5c4622f5f1b47d3',1,'bd.qc']]],
   ['bd_5fvalid_5ftile',['bd_valid_tile',['../d3/dd5/bd_8qc.html#af8908b11ae2be6959a2a5b95d323cdc7',1,'bd.qc']]],
   ['beamsweep',['beamsweep',['../de/d9b/steerlib_8qc.html#a4c7faca73bde4e58d50b9f2366402a65',1,'steerlib.qc']]],
-  ['beamsweep_5fbadpoint',['beamsweep_badpoint',['../de/d9b/steerlib_8qc.html#a214ccd5833a11d86b31b43e1ae55bd6e',1,'steerlib.qc']]],
+  ['beamsweep_5fbadpoint',['beamsweep_badpoint',['../de/d9b/steerlib_8qc.html#ab47edf95e569e49061261d32d29feff3',1,'steerlib.qc']]],
   ['bezier_5fquadratic_5fgetderivative',['bezier_quadratic_getderivative',['../d5/df2/common_2util_8qh.html#ad5f87f24a87b46ae9582acbef302844d',1,'bezier_quadratic_getderivative(vector a, vector p, vector b, float t):&#160;math.qh'],['../d0/d79/math_8qh.html#a9b467740a92a31e38f97070aba962007',1,'bezier_quadratic_getderivative(vector a, vector b, vector c, float t):&#160;math.qh']]],
   ['bezier_5fquadratic_5fgetpoint',['bezier_quadratic_getpoint',['../d5/df2/common_2util_8qh.html#ac9186939df762efbb10b93c85a41f5d1',1,'bezier_quadratic_getpoint(vector a, vector p, vector b, float t):&#160;math.qh'],['../d0/d79/math_8qh.html#a6fb832920bde74b332c2f20d1a99a4c5',1,'bezier_quadratic_getpoint(vector a, vector b, vector c, float t):&#160;math.qh']]],
   ['bgmscript_5finit',['BGMScript_Init',['../d0/d0f/bgmscript_8qc.html#af2c58a58457c6bc59bf55dcfe20d856d',1,'bgmscript.qc']]],

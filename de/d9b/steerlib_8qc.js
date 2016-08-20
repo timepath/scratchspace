@@ -2,7 +2,7 @@ var steerlib_8qc =
 [
     [ "steerlib_push", "de/d9b/steerlib_8qc.html#a150ff1bca4bff561b5ced20e2e3b87d7", null ],
     [ "beamsweep", "de/d9b/steerlib_8qc.html#a4c7faca73bde4e58d50b9f2366402a65", null ],
-    [ "beamsweep_badpoint", "de/d9b/steerlib_8qc.html#a214ccd5833a11d86b31b43e1ae55bd6e", null ],
+    [ "beamsweep_badpoint", "de/d9b/steerlib_8qc.html#ab47edf95e569e49061261d32d29feff3", null ],
     [ "steerlib_arrive", "de/d9b/steerlib_8qc.html#a7d70f1fc6e595b1f4051af9d788d7791", null ],
     [ "steerlib_attract", "de/d9b/steerlib_8qc.html#ae53256d91c2d2383808e9ea5d70cf34e", null ],
     [ "steerlib_attract2", "de/d9b/steerlib_8qc.html#aa285512e4bcd6a3b28eefa0a85558042", null ],
