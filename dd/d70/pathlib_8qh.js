@@ -1,5 +1,6 @@
 var pathlib_8qh =
 [
+    [ "DEBUGPATHING", "dd/d70/pathlib_8qh.html#ac484531f596092c0ab17f29b14dbeab4", null ],
     [ "inwater", "dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3", null ],
     [ "buildpath_nodefilter", "dd/d70/pathlib_8qh.html#aa96406bb9db6a09e54828c46b76cacd2", null ],
     [ "pathlib_cost", "dd/d70/pathlib_8qh.html#a3abe1da285638119249062cdf82135c8", null ],

@@ -23,6 +23,7 @@ var searchData=
   ['hud_5fpanel_5fgetcolorteam',['HUD_Panel_GetColorTeam',['../d3/d05/hud_8qh.html#aa1fdf5d622b0623ce43d1a980e4815d4',1,'hud.qh']]],
   ['hud_5fpanel_5fgetfgalpha',['HUD_Panel_GetFgAlpha',['../d3/d05/hud_8qh.html#acd9504e56fb6225977ae13c70ba73789',1,'hud.qh']]],
   ['hud_5fpanel_5fgetpadding',['HUD_Panel_GetPadding',['../d3/d05/hud_8qh.html#a611c5a4dcd2431118e0c0848884e417f',1,'hud.qh']]],
+  ['hud_5fpanel_5fitemstime_5fhidelarge',['hud_panel_itemstime_hidelarge',['../d4/d90/itemstime_8qc.html#a4cbc88dbc4104198634bfdd9597de191',1,'itemstime.qc']]],
   ['hud_5fpanel_5fscalepossize',['HUD_Panel_ScalePosSize',['../d3/d05/hud_8qh.html#ade8db832be902e407bfbf623a69dbe77',1,'hud.qh']]],
   ['hud_5fpanel_5fupdatecvars',['HUD_Panel_UpdateCvars',['../d3/d05/hud_8qh.html#a840afaa2a334ccee0e850c2240a2b993',1,'hud.qh']]],
   ['hud_5fpanel_5fupdatepossize',['HUD_Panel_UpdatePosSize',['../d3/d05/hud_8qh.html#a6795706920a11c7b9423a789b5be5e44',1,'hud.qh']]],

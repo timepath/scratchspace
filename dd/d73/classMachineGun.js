@@ -27,7 +27,6 @@ var classMachineGun =
     [ "bot_pickupbasevalue", "dd/d73/classMachineGun.html#ad60581174addffcd546196db2e2e8c56", null ],
     [ "impulse", "dd/d73/classMachineGun.html#af92e2de4a5160754eb3fba3193b01f36", null ],
     [ "m_id", "dd/d73/classMachineGun.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "dd/d73/classMachineGun.html#a812b652f5f0179eb927f537022a43ee5", null ],
     [ "m_name", "dd/d73/classMachineGun.html#a328fa9cbf860e91182057847dea9aa97", null ],
     [ "mdl", "dd/d73/classMachineGun.html#ae061f597f731f3a49ca8aecbd33a2713", null ],
     [ "model2", "dd/d73/classMachineGun.html#a9159b466879abe9b0896a8489e1473d8", null ],

@@ -27,7 +27,6 @@ var classRaptorBomb =
     [ "bot_pickupbasevalue", "d4/da9/classRaptorBomb.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d4/da9/classRaptorBomb.html#ae99fad3a1cbbfab6c5829f2abe011f50", null ],
     [ "m_id", "d4/da9/classRaptorBomb.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d4/da9/classRaptorBomb.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d4/da9/classRaptorBomb.html#aa59000c5ef6f34576d79073e505c22d0", null ],
     [ "mdl", "d4/da9/classRaptorBomb.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d4/da9/classRaptorBomb.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

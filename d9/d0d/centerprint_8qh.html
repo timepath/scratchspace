@@ -101,6 +101,8 @@ $(document).ready(function(){initNavTree('d9/d0d/centerprint_8qh.html','../../')
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">centerprint.qh File Reference</div>  </div>
 </div><!--header-->
@@ -119,18 +121,84 @@ $(document).ready(function(){initNavTree('d9/d0d/centerprint_8qh.html','../../')
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d5/d5a/centerprint_8qh__dep__incl.svg" width="450" height="336"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d5/d5a/centerprint_8qh__dep__incl.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </div>
 <p><a href="../../d9/d0d/centerprint_8qh_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a6d4ddf3b0f648c4df6f12d0deae225b9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d0d/centerprint_8qh.html#a6d4ddf3b0f648c4df6f12d0deae225b9">reset_centerprint_messages</a> ()</td></tr>
+<tr class="separator:a6d4ddf3b0f648c4df6f12d0deae225b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a6d4ddf3b0f648c4df6f12d0deae225b9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> reset_centerprint_messages </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00105">105</a> of file <a class="el" href="../../d4/dbb/centerprint_8qc_source.html">centerprint.qc</a>.</p>
+
+<p>References <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00014">centerprint_expire_time</a>, <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00007">CENTERPRINT_MAX_MSGS</a>, <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00011">centerprint_messages</a>, <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00012">centerprint_msgID</a>, <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00013">centerprint_time</a>, <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone()</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/d79/notifications_2all_8qc_source.html#l00159">Destroy_All_Notifications()</a>, and <a class="el" href="../../d4/dbb/centerprint_8qc_source.html#l00118">HUD_CenterPrint()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;{</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i=0; i&lt;<a class="code" href="../../d4/dbb/centerprint_8qc.html#a5be6e00909736f69f4aad176a30b23fb">CENTERPRINT_MAX_MSGS</a>; ++i)</div>
+<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <a class="code" href="../../d4/dbb/centerprint_8qc.html#aa9d2eefefc2163d347abb0eda6205b69">centerprint_expire_time</a>[i] = 0;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <a class="code" href="../../d4/dbb/centerprint_8qc.html#a9d429dfaf1247cbecc4b4fd149899e03">centerprint_time</a>[i] = 1;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <a class="code" href="../../d4/dbb/centerprint_8qc.html#a082f8fc86d27131931e4c0b867b5daa0">centerprint_msgID</a>[i] = 0;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d4/dbb/centerprint_8qc.html#a8d0d6d4e6323ad44d931e396a7bfe747">centerprint_messages</a>[i])</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(<a class="code" href="../../d4/dbb/centerprint_8qc.html#a8d0d6d4e6323ad44d931e396a7bfe747">centerprint_messages</a>[i]);</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        <a class="code" href="../../d4/dbb/centerprint_8qc.html#a8d0d6d4e6323ad44d931e396a7bfe747">centerprint_messages</a>[i] = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    }</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;}</div>
+<div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
+<div class="ttc" id="centerprint_8qc_html_a5be6e00909736f69f4aad176a30b23fb"><div class="ttname"><a href="../../d4/dbb/centerprint_8qc.html#a5be6e00909736f69f4aad176a30b23fb">CENTERPRINT_MAX_MSGS</a></div><div class="ttdeci">const int CENTERPRINT_MAX_MSGS</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbb/centerprint_8qc_source.html#l00007">centerprint.qc:7</a></div></div>
+<div class="ttc" id="centerprint_8qc_html_a9d429dfaf1247cbecc4b4fd149899e03"><div class="ttname"><a href="../../d4/dbb/centerprint_8qc.html#a9d429dfaf1247cbecc4b4fd149899e03">centerprint_time</a></div><div class="ttdeci">float centerprint_time[CENTERPRINT_MAX_MSGS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbb/centerprint_8qc_source.html#l00013">centerprint.qc:13</a></div></div>
+<div class="ttc" id="centerprint_8qc_html_a082f8fc86d27131931e4c0b867b5daa0"><div class="ttname"><a href="../../d4/dbb/centerprint_8qc.html#a082f8fc86d27131931e4c0b867b5daa0">centerprint_msgID</a></div><div class="ttdeci">int centerprint_msgID[CENTERPRINT_MAX_MSGS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbb/centerprint_8qc_source.html#l00012">centerprint.qc:12</a></div></div>
+<div class="ttc" id="centerprint_8qc_html_aa9d2eefefc2163d347abb0eda6205b69"><div class="ttname"><a href="../../d4/dbb/centerprint_8qc.html#aa9d2eefefc2163d347abb0eda6205b69">centerprint_expire_time</a></div><div class="ttdeci">float centerprint_expire_time[CENTERPRINT_MAX_MSGS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbb/centerprint_8qc_source.html#l00014">centerprint.qc:14</a></div></div>
+<div class="ttc" id="centerprint_8qc_html_a8d0d6d4e6323ad44d931e396a7bfe747"><div class="ttname"><a href="../../d4/dbb/centerprint_8qc.html#a8d0d6d4e6323ad44d931e396a7bfe747">centerprint_messages</a></div><div class="ttdeci">string centerprint_messages[CENTERPRINT_MAX_MSGS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dbb/centerprint_8qc_source.html#l00011">centerprint.qc:11</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d0d/centerprint_8qh_a6d4ddf3b0f648c4df6f12d0deae225b9_cgraph.svg" width="326" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d9/d0d/centerprint_8qh_a6d4ddf3b0f648c4df6f12d0deae225b9_icgraph.svg" width="416" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d9/d0d/centerprint_8qh.html">centerprint.qh</a></li>
-    <li class="footer">Generated on Sun Aug 21 2016 06:34:50 for Xonotic by
+    <li class="footer">Generated on Sun Aug 21 2016 07:36:21 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

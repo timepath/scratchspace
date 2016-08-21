@@ -27,7 +27,6 @@ var classPortoLaunch =
     [ "bot_pickupbasevalue", "d2/dd3/classPortoLaunch.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d2/dd3/classPortoLaunch.html#a72c52c99bf51ebd4f752c41306ada77e", null ],
     [ "m_id", "d2/dd3/classPortoLaunch.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d2/dd3/classPortoLaunch.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d2/dd3/classPortoLaunch.html#aee06d804b79a36342d785f6c4d445056", null ],
     [ "mdl", "d2/dd3/classPortoLaunch.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d2/dd3/classPortoLaunch.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

@@ -27,7 +27,6 @@ var classTeslaCoilTurretAttack =
     [ "bot_pickupbasevalue", "dd/d0f/classTeslaCoilTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "dd/d0f/classTeslaCoilTurretAttack.html#ae55baa4968bc26696f50174e6d0cb215", null ],
     [ "m_id", "dd/d0f/classTeslaCoilTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "dd/d0f/classTeslaCoilTurretAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "dd/d0f/classTeslaCoilTurretAttack.html#a57fec894b524d7d09d2396cdf8a37a58", null ],
     [ "mdl", "dd/d0f/classTeslaCoilTurretAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "dd/d0f/classTeslaCoilTurretAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

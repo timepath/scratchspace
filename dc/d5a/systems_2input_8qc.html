@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('dc/d5a/systems_2input_8qc.html','../..
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:af69d77679d9f7d414bdecd06694f6120"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d5a/systems_2input_8qc.html#af69d77679d9f7d414bdecd06694f6120">sys_in_update</a> (<a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#a8484d4f5e006ca0f417b35001c23b862">this</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> dt)</td></tr>
+<tr class="memitem:af69d77679d9f7d414bdecd06694f6120"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d5a/systems_2input_8qc.html#af69d77679d9f7d414bdecd06694f6120">sys_in_update</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> dt)</td></tr>
 <tr class="separator:af69d77679d9f7d414bdecd06694f6120"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -140,7 +140,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> sys_in_update </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d18/iter_8qh.html#a296b291cfa78d814c5fb8785f43885aa">entity</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
           <td class="paramname"><em>this</em>, </td>
         </tr>
         <tr>
@@ -159,16 +159,16 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/d5a/systems_2input_8qc_source.html#l00003">3</a> of file <a class="el" href="../../dc/d5a/systems_2input_8qc_source.html">input.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/da2/components_2input_8qh_source.html#l00007">com_in_crouch</a>, <a class="el" href="../../d5/da2/components_2input_8qh_source.html#l00006">com_in_jump</a>, <a class="el" href="../../df/dae/player_8qh_source.html#l00103">PHYS_INPUT_BUTTON_CROUCH</a>, and <a class="el" href="../../df/dae/player_8qh_source.html#l00100">PHYS_INPUT_BUTTON_JUMP</a>.</p>
+<p>References <a class="el" href="../../d5/da2/components_2input_8qh_source.html#l00007">com_in_crouch</a>, <a class="el" href="../../d5/da2/components_2input_8qh_source.html#l00006">com_in_jump</a>, <a class="el" href="../../de/d70/common_2physics_2player_8qh_source.html#l00103">PHYS_INPUT_BUTTON_CROUCH</a>, and <a class="el" href="../../de/d70/common_2physics_2player_8qh_source.html#l00100">PHYS_INPUT_BUTTON_JUMP</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d77/ecs_2systems_2physics_8qc_source.html#l00009">sys_phys_update()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    this.<a class="code" href="../../d5/da2/components_2input_8qh.html#abd0cd7f2b97898f62f11595bd949e59e">com_in_jump</a> = <a class="code" href="../../df/dae/player_8qh.html#a3fe11e0eaa42c3b7557cd166b338ba6f">PHYS_INPUT_BUTTON_JUMP</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    this.<a class="code" href="../../d5/da2/components_2input_8qh.html#ab11443ea6ed13e4217b70c106f5671aa">com_in_crouch</a> = <a class="code" href="../../df/dae/player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9">PHYS_INPUT_BUTTON_CROUCH</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    this.<a class="code" href="../../d5/da2/components_2input_8qh.html#abd0cd7f2b97898f62f11595bd949e59e">com_in_jump</a> = <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a3fe11e0eaa42c3b7557cd166b338ba6f">PHYS_INPUT_BUTTON_JUMP</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    this.<a class="code" href="../../d5/da2/components_2input_8qh.html#ab11443ea6ed13e4217b70c106f5671aa">com_in_crouch</a> = <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9">PHYS_INPUT_BUTTON_CROUCH</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
-<div class="ttc" id="player_8qh_html_a0a98773cc29db37e636391cbdfd2aef9"><div class="ttname"><a href="../../df/dae/player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9">PHYS_INPUT_BUTTON_CROUCH</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_CROUCH(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dae/player_8qh_source.html#l00103">player.qh:103</a></div></div>
+<div class="ttc" id="common_2physics_2player_8qh_html_a3fe11e0eaa42c3b7557cd166b338ba6f"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#a3fe11e0eaa42c3b7557cd166b338ba6f">PHYS_INPUT_BUTTON_JUMP</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_JUMP(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00100">player.qh:100</a></div></div>
+<div class="ttc" id="common_2physics_2player_8qh_html_a0a98773cc29db37e636391cbdfd2aef9"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9">PHYS_INPUT_BUTTON_CROUCH</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_CROUCH(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00103">player.qh:103</a></div></div>
 <div class="ttc" id="components_2input_8qh_html_abd0cd7f2b97898f62f11595bd949e59e"><div class="ttname"><a href="../../d5/da2/components_2input_8qh.html#abd0cd7f2b97898f62f11595bd949e59e">com_in_jump</a></div><div class="ttdeci">bool com_in_jump</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da2/components_2input_8qh_source.html#l00006">input.qh:6</a></div></div>
-<div class="ttc" id="player_8qh_html_a3fe11e0eaa42c3b7557cd166b338ba6f"><div class="ttname"><a href="../../df/dae/player_8qh.html#a3fe11e0eaa42c3b7557cd166b338ba6f">PHYS_INPUT_BUTTON_JUMP</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_JUMP(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dae/player_8qh_source.html#l00100">player.qh:100</a></div></div>
 <div class="ttc" id="components_2input_8qh_html_ab11443ea6ed13e4217b70c106f5671aa"><div class="ttname"><a href="../../d5/da2/components_2input_8qh.html#ab11443ea6ed13e4217b70c106f5671aa">com_in_crouch</a></div><div class="ttdeci">bool com_in_crouch</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/da2/components_2input_8qh_source.html#l00007">input.qh:7</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -189,7 +189,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_eafb92770fbc727220bdaa0b1292f771.html">ecs</a></li><li class="navelem"><a class="el" href="../../dir_a0827c396b757bc3d0a72db5249edcce.html">systems</a></li><li class="navelem"><a class="el" href="../../dc/d5a/systems_2input_8qc.html">input.qc</a></li>
-    <li class="footer">Generated on Sun Aug 21 2016 06:34:54 for Xonotic by
+    <li class="footer">Generated on Sun Aug 21 2016 07:36:26 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -27,7 +27,6 @@ var classElectro =
     [ "bot_pickupbasevalue", "dc/d6c/classElectro.html#ab23bedb49b0c3c08b34346e22100aced", null ],
     [ "impulse", "dc/d6c/classElectro.html#ab3fe632d56cc6297d21df094350f77d9", null ],
     [ "m_id", "dc/d6c/classElectro.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "dc/d6c/classElectro.html#a7515e207aca6eb6f7637656cd171cdd2", null ],
     [ "m_name", "dc/d6c/classElectro.html#a945961c4c41d49c8e3f94312947604b5", null ],
     [ "mdl", "dc/d6c/classElectro.html#a4604acb234d9ecadf3d03804c09f82c3", null ],
     [ "model2", "dc/d6c/classElectro.html#a3c36074d9020783cd496dd52b2a60a72", null ],

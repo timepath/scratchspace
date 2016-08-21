@@ -1,7 +1,6 @@
 var searchData=
 [
   ['_5f_5finit_5fdedicated_5fserver_5fshutdown',['__init_dedicated_server_shutdown',['../db/dcc/g__world_8qc.html#a8f7565a7318ba27627a5f2d17d044172',1,'g_world.qc']]],
-  ['_5f_5fshowpath2_5fthink',['__showpath2_think',['../d6/d35/debug_8qc.html#abd3a279dc0aef6c7967ff1206a51bc48',1,'debug.qc']]],
   ['_5f_5fshutdown',['__shutdown',['../d4/d1a/static_8qh.html#ab1a0d2960b8f7d71249e8f6b38c00fa1',1,'static.qh']]],
   ['_5f_5fspawn',['__spawn',['../db/d0a/oo_8qh.html#a186a598b3718eb17a3e2fadd94952be3',1,'oo.qh']]],
   ['_5f_5fstatic_5finit',['__static_init',['../d4/d1a/static_8qh.html#a4a74736bb3c8c0a01f67f3c43a4bcd0b',1,'static.qh']]],
@@ -58,5 +57,5 @@ var searchData=
   ['_5fshufflewords_5fswapfunc',['_shufflewords_swapfunc',['../d2/db4/string_8qh.html#ad2c5b5ff8e9f43181265688791c6312e',1,'string.qh']]],
   ['_5fsound_5ffixpath',['_Sound_fixpath',['../df/d49/classSound.html#ab00e99633c0c7e997a4745557395263a',1,'Sound']]],
   ['_5fspawn',['_spawn',['../db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4',1,'oo.qh']]],
-  ['_5fwepset_5ffromweapon',['_WepSet_FromWeapon',['../de/dfa/common_2weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee',1,'_WepSet_FromWeapon(int a):&#160;all.qc'],['../de/d81/common_2weapons_2all_8qh.html#afa58eea7e5b202d3baf065ef2d96e0f0',1,'_WepSet_FromWeapon(int i):&#160;all.qc']]]
+  ['_5fwepset_5ffromweapon',['_WepSet_FromWeapon',['../d0/d2b/weapons_2all_8qc.html#ac488a6a33857371997637a3a97424aee',1,'_WepSet_FromWeapon(int a):&#160;all.qc'],['../d0/ddd/weapons_2all_8qh.html#afa58eea7e5b202d3baf065ef2d96e0f0',1,'_WepSet_FromWeapon(int i):&#160;all.qc']]]
 ];

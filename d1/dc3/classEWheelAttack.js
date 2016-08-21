@@ -27,7 +27,6 @@ var classEWheelAttack =
     [ "bot_pickupbasevalue", "d1/dc3/classEWheelAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d1/dc3/classEWheelAttack.html#ae4f58daa33d41cd909d978c3696c03c0", null ],
     [ "m_id", "d1/dc3/classEWheelAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d1/dc3/classEWheelAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d1/dc3/classEWheelAttack.html#affb7df26d5cf18c594772961a8bbfed8", null ],
     [ "mdl", "d1/dc3/classEWheelAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d1/dc3/classEWheelAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

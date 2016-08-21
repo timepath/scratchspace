@@ -27,7 +27,6 @@ var classPhaserTurretAttack =
     [ "bot_pickupbasevalue", "df/d78/classPhaserTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "df/d78/classPhaserTurretAttack.html#a1a2252a143498242cad4e2db6dae22a7", null ],
     [ "m_id", "df/d78/classPhaserTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "df/d78/classPhaserTurretAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "df/d78/classPhaserTurretAttack.html#ad48f3b862a6f2efac50459f4612fab93", null ],
     [ "mdl", "df/d78/classPhaserTurretAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "df/d78/classPhaserTurretAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

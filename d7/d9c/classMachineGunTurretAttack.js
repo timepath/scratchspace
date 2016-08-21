@@ -27,7 +27,6 @@ var classMachineGunTurretAttack =
     [ "bot_pickupbasevalue", "d7/d9c/classMachineGunTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d7/d9c/classMachineGunTurretAttack.html#aa9e90b51714f8caeca87b700faa158ee", null ],
     [ "m_id", "d7/d9c/classMachineGunTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d7/d9c/classMachineGunTurretAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d7/d9c/classMachineGunTurretAttack.html#ad7ccf84103c0dc50c2c00625f8fab823", null ],
     [ "mdl", "d7/d9c/classMachineGunTurretAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d7/d9c/classMachineGunTurretAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

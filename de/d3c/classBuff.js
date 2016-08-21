@@ -1,6 +1,5 @@
 var classBuff =
 [
-    [ "ATTRIB", "de/d3c/classBuff.html#a4293e3017b2436e9eefccebc9efb41eb", null ],
     [ "ATTRIB", "de/d3c/classBuff.html#a6131dbf54f626ebf2c9d610833da9fb5", null ],
     [ "ATTRIB", "de/d3c/classBuff.html#a727d6f42f79f0bd5ffc674423645471c", null ],
     [ "ATTRIB", "de/d3c/classBuff.html#a7d8cf6b7a18644fba549fe489903901d", null ],
@@ -15,7 +14,6 @@ var classBuff =
     [ "m_name", "de/d3c/classBuff.html#a3445f4448c754d719f534e2faf836587", null ],
     [ "m_prettyName", "de/d3c/classBuff.html#a3d14d4cb044305bc9fd86dcd9533a0a0", null ],
     [ "m_skin", "de/d3c/classBuff.html#a6fd8937234d938625d77485fac4c8275", null ],
-    [ "m_sound", "de/d3c/classBuff.html#af547c59d1be5db346c59b7f816a841d3", null ],
     [ "m_sprite", "de/d3c/classBuff.html#a8e3462df86520a2bb887ee9997f5ed54", null ],
     [ "m_waypointblink", "de/d3c/classBuff.html#a48b78d497828537731feaa167c8af4f1", null ]
 ];

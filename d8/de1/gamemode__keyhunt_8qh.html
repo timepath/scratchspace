@@ -101,6 +101,11 @@ $(document).ready(function(){initNavTree('d8/de1/gamemode__keyhunt_8qh.html','..
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#define-members">Macros</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">gamemode_keyhunt.qh File Reference</div>  </div>
 </div><!--header-->
@@ -124,13 +129,572 @@ $(document).ready(function(){initNavTree('d8/de1/gamemode__keyhunt_8qh.html','..
 </div>
 </div>
 <p><a href="../../d8/de1/gamemode__keyhunt_8qh_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:aa5133eefef59c4cbe046575fa6ad9e05"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#aa5133eefef59c4cbe046575fa6ad9e05">autocvar_g_keyhunt_point_limit</a>&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(&quot;g_keyhunt_point_limit&quot;)</td></tr>
+<tr class="separator:aa5133eefef59c4cbe046575fa6ad9e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac9fba35b1682c6c203245cd8bb4b840"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#aac9fba35b1682c6c203245cd8bb4b840">FOR_EACH_KH_KEY</a>(v)&#160;&#160;&#160;for(v = <a class="el" href="../../db/d15/api_8qh.html#a045a92c5195f8abf1d884beab42bc3f9">kh_worldkeylist</a>; v; v = <a class="el" href="../../de/d40/gamemode__keyhunt_8qc.html#abb611131b031308c318e295ec74a375f">v.kh_worldkeynext</a> )</td></tr>
+<tr class="separator:aac9fba35b1682c6c203245cd8bb4b840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a35ea76303f252b2625dbba87a3e6103a"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#a35ea76303f252b2625dbba87a3e6103a">kh_Think_t</a> ) = <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(</td></tr>
+<tr class="separator:a35ea76303f252b2625dbba87a3e6103a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a531e55e732864eae875e27be2261f406"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#a531e55e732864eae875e27be2261f406">kh_Controller_SetThink</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> t, <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#a35ea76303f252b2625dbba87a3e6103a">kh_Think_t</a> func)</td></tr>
+<tr class="separator:a531e55e732864eae875e27be2261f406"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac072ac85d73eb7dc83d6faeca9757648"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#ac072ac85d73eb7dc83d6faeca9757648">kh_Initialize</a> ()</td></tr>
+<tr class="separator:ac072ac85d73eb7dc83d6faeca9757648"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23c6a4a8ae9da6a50ca2b533c38876f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#a23c6a4a8ae9da6a50ca2b533c38876f7">kh_Key_AllOwnedByWhichTeam</a> ()</td></tr>
+<tr class="separator:a23c6a4a8ae9da6a50ca2b533c38876f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad10ed989b4f6a7ccbba89f62fc1705ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#ad10ed989b4f6a7ccbba89f62fc1705ac">kh_StartRound</a> ()</td></tr>
+<tr class="separator:ad10ed989b4f6a7ccbba89f62fc1705ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c7fe8777db5311111214e415999eb42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#a9c7fe8777db5311111214e415999eb42">REGISTER_MUTATOR</a> (kh, <a class="el" href="../../dd/d54/bool_8qh.html#a4bd6d4d04b1126eefee5484b1521c6f9">false</a>)</td></tr>
+<tr class="separator:a9c7fe8777db5311111214e415999eb42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ab5aa34fabae7071003592233558cc9fc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#ab5aa34fabae7071003592233558cc9fc">autocvar_g_keyhunt_point_leadlimit</a></td></tr>
+<tr class="separator:ab5aa34fabae7071003592233558cc9fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63927129b40fcc3e1664b7cf9fb7480d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#a63927129b40fcc3e1664b7cf9fb7480d">autocvar_g_keyhunt_team_spawns</a></td></tr>
+<tr class="separator:a63927129b40fcc3e1664b7cf9fb7480d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0411010ca825838d10464f8da5825df9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#a0411010ca825838d10464f8da5825df9">kh_next</a></td></tr>
+<tr class="separator:a0411010ca825838d10464f8da5825df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bbdc8edf10660c2d7d2308b82b39a26"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#a2bbdc8edf10660c2d7d2308b82b39a26">kh_tracking_enabled</a></td></tr>
+<tr class="separator:a2bbdc8edf10660c2d7d2308b82b39a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a class="anchor" id="aa5133eefef59c4cbe046575fa6ad9e05"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define autocvar_g_keyhunt_point_limit&#160;&#160;&#160;<a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(&quot;g_keyhunt_point_limit&quot;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00005">5</a> of file <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html">gamemode_keyhunt.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00010">REGISTER_MUTATOR()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aac9fba35b1682c6c203245cd8bb4b840"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define FOR_EACH_KH_KEY</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">v</td><td>)</td>
+          <td>&#160;&#160;&#160;for(v = <a class="el" href="../../db/d15/api_8qh.html#a045a92c5195f8abf1d884beab42bc3f9">kh_worldkeylist</a>; v; v = <a class="el" href="../../de/d40/gamemode__keyhunt_8qc.html#abb611131b031308c318e295ec74a375f">v.kh_worldkeynext</a> )</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00040">40</a> of file <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html">gamemode_keyhunt.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00504">kh_FinishRound()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00783">kh_Key_AllOwnedByWhichTeam()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00297">kh_Key_AssignTo()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00669">kh_Key_Think()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00584">kh_LoserTeam()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00118">kh_update_state()</a>, and <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00521">kh_WinnerTeam()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a class="anchor" id="a35ea76303f252b2625dbba87a3e6103a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using kh_Think_t =  <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>(</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00049">49</a> of file <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html">gamemode_keyhunt.qh</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a531e55e732864eae875e27be2261f406"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> kh_Controller_SetThink </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html#a35ea76303f252b2625dbba87a3e6103a">kh_Think_t</a>&#160;</td>
+          <td class="paramname"><em>func</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00148">148</a> of file <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html">gamemode_keyhunt.qc</a>.</p>
+
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00071">kh_controller</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00147">kh_Controller_Thinkfunc</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+
+<p>Referenced by <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00504">kh_FinishRound()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00997">kh_Initialize()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00929">kh_StartRound()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00874">kh_WaitForPlayers()</a>, and <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l01339">MUTATOR_HOOKFUNCTION()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;{</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#aaa6ac186f9d9e6408724cba22fbf8a42">kh_Controller_Thinkfunc</a> = func;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04">kh_controller</a>.cnt = <a class="code" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a>(t);</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordflow">if</span>(t == 0)</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04">kh_controller</a>.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>; <span class="comment">// force</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;}</div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_aaa6ac186f9d9e6408724cba22fbf8a42"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#aaa6ac186f9d9e6408724cba22fbf8a42">kh_Controller_Thinkfunc</a></div><div class="ttdeci">var kh_Think_t kh_Controller_Thinkfunc</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00147">gamemode_keyhunt.qc:147</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a22f100d9039928edd4e410c7d68858e7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a></div><div class="ttdeci">float ceil(float f)</div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_ae7b3c1654fc9ec41e20d7489ae761a04"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04">kh_controller</a></div><div class="ttdeci">entity kh_controller</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00071">gamemode_keyhunt.qc:71</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/de1/gamemode__keyhunt_8qh_a531e55e732864eae875e27be2261f406_cgraph.svg" width="262" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/de1/gamemode__keyhunt_8qh_a531e55e732864eae875e27be2261f406_icgraph.svg" width="100%" height="574"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ac072ac85d73eb7dc83d6faeca9757648"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> kh_Initialize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00997">997</a> of file <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html">gamemode_keyhunt.qc</a>.</p>
+
+<p>References <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00020">autocvar_g_keyhunt_teams</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00021">autocvar_g_keyhunt_teams_override</a>, <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00071">kh_controller</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00148">kh_Controller_SetThink()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00156">kh_Controller_Think()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00082">kh_key_carried</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00082">kh_key_dropped</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00085">kh_ScoreRules()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00073">kh_teams</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00874">kh_WaitForPlayers()</a>, <a class="el" href="../../da/d5e/common_2models_2model_8qh_source.html#l00003">setmodel</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn()</a>, and <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00004">teams</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00010">REGISTER_MUTATOR()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00998"></a><span class="lineno">  998</span>&#160;{</div>
+<div class="line"><a name="l00999"></a><span class="lineno">  999</span>&#160;    <span class="comment">// setup variables</span></div>
+<div class="line"><a name="l01000"></a><span class="lineno"> 1000</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a> = <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a3eb7a2cc61d68e5aed599a04b3e12c09">autocvar_g_keyhunt_teams_override</a>;</div>
+<div class="line"><a name="l01001"></a><span class="lineno"> 1001</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a> &lt; 2)</div>
+<div class="line"><a name="l01002"></a><span class="lineno"> 1002</span>&#160;        <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a> = <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a156442bbbc74cd3203c1327d916c9d9a">autocvar_g_keyhunt_teams</a>;</div>
+<div class="line"><a name="l01003"></a><span class="lineno"> 1003</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(2, <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a>, 4);</div>
+<div class="line"><a name="l01004"></a><span class="lineno"> 1004</span>&#160;</div>
+<div class="line"><a name="l01005"></a><span class="lineno"> 1005</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a> = 0;</div>
+<div class="line"><a name="l01006"></a><span class="lineno"> 1006</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a> &gt;= 1) teams |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(0);</div>
+<div class="line"><a name="l01007"></a><span class="lineno"> 1007</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a> &gt;= 2) teams |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(1);</div>
+<div class="line"><a name="l01008"></a><span class="lineno"> 1008</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a> &gt;= 3) teams |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(2);</div>
+<div class="line"><a name="l01009"></a><span class="lineno"> 1009</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a> &gt;= 4) teams |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(3);</div>
+<div class="line"><a name="l01010"></a><span class="lineno"> 1010</span>&#160;</div>
+<div class="line"><a name="l01011"></a><span class="lineno"> 1011</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a> = <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a>; <span class="comment">// now set it?</span></div>
+<div class="line"><a name="l01012"></a><span class="lineno"> 1012</span>&#160;</div>
+<div class="line"><a name="l01013"></a><span class="lineno"> 1013</span>&#160;    <span class="comment">// make a KH entity for controlling the game</span></div>
+<div class="line"><a name="l01014"></a><span class="lineno"> 1014</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04">kh_controller</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
+<div class="line"><a name="l01015"></a><span class="lineno"> 1015</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(<a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04">kh_controller</a>, <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a416281629c18b21a1b7b31732c9bcc56">kh_Controller_Think</a>);</div>
+<div class="line"><a name="l01016"></a><span class="lineno"> 1016</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a531e55e732864eae875e27be2261f406">kh_Controller_SetThink</a>(0, <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#acf9057b87b552cb3a114c36616cc86c5">kh_WaitForPlayers</a>);</div>
+<div class="line"><a name="l01017"></a><span class="lineno"> 1017</span>&#160;</div>
+<div class="line"><a name="l01018"></a><span class="lineno"> 1018</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(<a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04">kh_controller</a>, MDL_KH_KEY);</div>
+<div class="line"><a name="l01019"></a><span class="lineno"> 1019</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a43687397ea9aebb48552c56225cf855b">kh_key_dropped</a> = <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04">kh_controller</a>.modelindex;</div>
+<div class="line"><a name="l01020"></a><span class="lineno"> 1020</span>&#160;    <span class="comment">/*</span></div>
+<div class="line"><a name="l01021"></a><span class="lineno"> 1021</span>&#160;<span class="comment">    dprint(vtos(kh_controller.mins));</span></div>
+<div class="line"><a name="l01022"></a><span class="lineno"> 1022</span>&#160;<span class="comment">    dprint(vtos(kh_controller.maxs));</span></div>
+<div class="line"><a name="l01023"></a><span class="lineno"> 1023</span>&#160;<span class="comment">    dprint(&quot;\n&quot;);</span></div>
+<div class="line"><a name="l01024"></a><span class="lineno"> 1024</span>&#160;<span class="comment">    */</span></div>
+<div class="line"><a name="l01025"></a><span class="lineno"> 1025</span>&#160;<span class="preprocessor">#ifdef KH_PLAYER_USE_CARRIEDMODEL</span></div>
+<div class="line"><a name="l01026"></a><span class="lineno"> 1026</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(<a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04">kh_controller</a>, MDL_KH_KEY_CARRIED);</div>
+<div class="line"><a name="l01027"></a><span class="lineno"> 1027</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1c7a12d19d25199f7272683375d04785">kh_key_carried</a> = <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04">kh_controller</a>.modelindex;</div>
+<div class="line"><a name="l01028"></a><span class="lineno"> 1028</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l01029"></a><span class="lineno"> 1029</span>&#160;<span class="preprocessor"></span>    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1c7a12d19d25199f7272683375d04785">kh_key_carried</a> = <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a43687397ea9aebb48552c56225cf855b">kh_key_dropped</a>;</div>
+<div class="line"><a name="l01030"></a><span class="lineno"> 1030</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l01031"></a><span class="lineno"> 1031</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l01032"></a><span class="lineno"> 1032</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04">kh_controller</a>.model = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l01033"></a><span class="lineno"> 1033</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04">kh_controller</a>.modelindex = 0;</div>
+<div class="line"><a name="l01034"></a><span class="lineno"> 1034</span>&#160;</div>
+<div class="line"><a name="l01035"></a><span class="lineno"> 1035</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a2d785f20712986ad16b564ca933f19e8">kh_ScoreRules</a>(<a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a>);</div>
+<div class="line"><a name="l01036"></a><span class="lineno"> 1036</span>&#160;}</div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a1c7a12d19d25199f7272683375d04785"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a1c7a12d19d25199f7272683375d04785">kh_key_carried</a></div><div class="ttdeci">float kh_key_carried</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00082">gamemode_keyhunt.qc:82</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a60338c2153150633178af678cf3ca57c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a></div><div class="ttdeci">entity spawn(void)</div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a3eb7a2cc61d68e5aed599a04b3e12c09"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a3eb7a2cc61d68e5aed599a04b3e12c09">autocvar_g_keyhunt_teams_override</a></div><div class="ttdeci">int autocvar_g_keyhunt_teams_override</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00021">gamemode_keyhunt.qc:21</a></div></div>
+<div class="ttc" id="client_2miscfunctions_8qh_html_aae60b6f90eba2f5a0dc702b382500b0f"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a></div><div class="ttdeci">entity teams</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00004">miscfunctions.qh:4</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a1dd66dfaf96ae19363cf58cc70cdaa53"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a></div><div class="ttdeci">float kh_teams</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00073">gamemode_keyhunt.qc:73</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_ae7b3c1654fc9ec41e20d7489ae761a04"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04">kh_controller</a></div><div class="ttdeci">entity kh_controller</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00071">gamemode_keyhunt.qc:71</a></div></div>
+<div class="ttc" id="bits_8qh_html_a3a8ea58898cb58fc96013383d39f482c"><div class="ttname"><a href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a></div><div class="ttdeci">#define BIT(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d52/bits_8qh_source.html#l00005">bits.qh:5</a></div></div>
+<div class="ttc" id="common_2models_2model_8qh_html_afcd7089918b04edc6747ce58850b51ae"><div class="ttname"><a href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a></div><div class="ttdeci">#define setmodel(e, m)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5e/common_2models_2model_8qh_source.html#l00003">model.qh:3</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a43687397ea9aebb48552c56225cf855b"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a43687397ea9aebb48552c56225cf855b">kh_key_dropped</a></div><div class="ttdeci">float kh_key_dropped</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00082">gamemode_keyhunt.qc:82</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a416281629c18b21a1b7b31732c9bcc56"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a416281629c18b21a1b7b31732c9bcc56">kh_Controller_Think</a></div><div class="ttdeci">void kh_Controller_Think(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00156">gamemode_keyhunt.qc:156</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a2d785f20712986ad16b564ca933f19e8"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a2d785f20712986ad16b564ca933f19e8">kh_ScoreRules</a></div><div class="ttdeci">void kh_ScoreRules(int teams)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00085">gamemode_keyhunt.qc:85</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a531e55e732864eae875e27be2261f406"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a531e55e732864eae875e27be2261f406">kh_Controller_SetThink</a></div><div class="ttdeci">void kh_Controller_SetThink(float t, kh_Think_t func)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00148">gamemode_keyhunt.qc:148</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
+<div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a156442bbbc74cd3203c1327d916c9d9a"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a156442bbbc74cd3203c1327d916c9d9a">autocvar_g_keyhunt_teams</a></div><div class="ttdeci">int autocvar_g_keyhunt_teams</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00020">gamemode_keyhunt.qc:20</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_acf9057b87b552cb3a114c36616cc86c5"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#acf9057b87b552cb3a114c36616cc86c5">kh_WaitForPlayers</a></div><div class="ttdeci">void kh_WaitForPlayers()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00874">gamemode_keyhunt.qc:874</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/de1/gamemode__keyhunt_8qh_ac072ac85d73eb7dc83d6faeca9757648_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-5-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-5-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/de1/gamemode__keyhunt_8qh_ac072ac85d73eb7dc83d6faeca9757648_icgraph.svg" width="315" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a23c6a4a8ae9da6a50ca2b533c38876f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> kh_Key_AllOwnedByWhichTeam </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00783">783</a> of file <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html">gamemode_keyhunt.qc</a>.</p>
+
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00040">FOR_EACH_KH_KEY</a>, and <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00073">kh_teams</a>.</p>
+
+<p>Referenced by <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l01083">havocbot_role_kh_carrier()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l01110">havocbot_role_kh_defense()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l01193">havocbot_role_kh_freelancer()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l01151">havocbot_role_kh_offense()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00297">kh_Key_AssignTo()</a>, and <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00669">kh_Key_Think()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;{</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> key;</div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;    <span class="keywordtype">float</span> teem;</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;    <span class="keywordtype">float</span> keys;</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;    teem = -1;</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;    keys = <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a>;</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;    <a class="code" href="../../d8/de1/gamemode__keyhunt_8qh.html#aac9fba35b1682c6c203245cd8bb4b840">FOR_EACH_KH_KEY</a>(key)</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;    {</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;        <span class="keywordflow">if</span>(!key.owner)</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;        <span class="keywordflow">if</span>(teem == -1)</div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;            teem = key.team;</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(teem != key.team)</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;        --keys;</div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;    }</div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;    <span class="keywordflow">if</span>(keys != 0)</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;    <span class="keywordflow">return</span> teem;</div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;}</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a1dd66dfaf96ae19363cf58cc70cdaa53"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a></div><div class="ttdeci">float kh_teams</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00073">gamemode_keyhunt.qc:73</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qh_html_aac9fba35b1682c6c203245cd8bb4b840"><div class="ttname"><a href="../../d8/de1/gamemode__keyhunt_8qh.html#aac9fba35b1682c6c203245cd8bb4b840">FOR_EACH_KH_KEY</a></div><div class="ttdeci">#define FOR_EACH_KH_KEY(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00040">gamemode_keyhunt.qh:40</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-6-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-6-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/de1/gamemode__keyhunt_8qh_a23c6a4a8ae9da6a50ca2b533c38876f7_cgraph.svg" width="331" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-7-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-7-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/de1/gamemode__keyhunt_8qh_a23c6a4a8ae9da6a50ca2b533c38876f7_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="ad10ed989b4f6a7ccbba89f62fc1705ac"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> kh_StartRound </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00929">929</a> of file <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html">gamemode_keyhunt.qc</a>.</p>
+
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00272">game_starttime</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00856">kh_CheckPlayers()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00148">kh_Controller_SetThink()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00730">kh_Key_Spawn()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00873">KH_READY_TEAMS_OK</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00060">kh_Team_ByID()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00073">kh_teams</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00874">kh_WaitForPlayers()</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00016">NULL</a>, <a class="el" href="../../de/d70/common_2physics_2player_8qh_source.html#l00117">PHYS_INPUT_BUTTON_CHAT</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00003">players</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+
+<p>Referenced by <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00504">kh_FinishRound()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00874">kh_WaitForPlayers()</a>, and <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l01339">MUTATOR_HOOKFUNCTION()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00930"></a><span class="lineno">  930</span>&#160;{</div>
+<div class="line"><a name="l00931"></a><span class="lineno">  931</span>&#160;    <span class="keywordtype">float</span> i, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a44b5ea3f2e11df716c1affcd1cff5bef">players</a>, teem;</div>
+<div class="line"><a name="l00932"></a><span class="lineno">  932</span>&#160;</div>
+<div class="line"><a name="l00933"></a><span class="lineno">  933</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; <a class="code" href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a>)</div>
+<div class="line"><a name="l00934"></a><span class="lineno">  934</span>&#160;    {</div>
+<div class="line"><a name="l00935"></a><span class="lineno">  935</span>&#160;        <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a531e55e732864eae875e27be2261f406">kh_Controller_SetThink</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a> - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + 0.1, <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#acf9057b87b552cb3a114c36616cc86c5">kh_WaitForPlayers</a>);</div>
+<div class="line"><a name="l00936"></a><span class="lineno">  936</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00937"></a><span class="lineno">  937</span>&#160;    }</div>
+<div class="line"><a name="l00938"></a><span class="lineno">  938</span>&#160;</div>
+<div class="line"><a name="l00939"></a><span class="lineno">  939</span>&#160;    <span class="keywordtype">float</span> p1 = <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1d862e4d3c2f36737b3480108d1f2e0e">kh_CheckPlayers</a>(0), p2 = <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1d862e4d3c2f36737b3480108d1f2e0e">kh_CheckPlayers</a>(1), p3 = <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1d862e4d3c2f36737b3480108d1f2e0e">kh_CheckPlayers</a>(2), p4 = <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1d862e4d3c2f36737b3480108d1f2e0e">kh_CheckPlayers</a>(3);</div>
+<div class="line"><a name="l00940"></a><span class="lineno">  940</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a2cc2a8144b32c6ba5f8676ac9d7f97b4">KH_READY_TEAMS_OK</a>())</div>
+<div class="line"><a name="l00941"></a><span class="lineno">  941</span>&#160;    {</div>
+<div class="line"><a name="l00942"></a><span class="lineno">  942</span>&#160;        <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a531e55e732864eae875e27be2261f406">kh_Controller_SetThink</a>(1, <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#acf9057b87b552cb3a114c36616cc86c5">kh_WaitForPlayers</a>);</div>
+<div class="line"><a name="l00943"></a><span class="lineno">  943</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00944"></a><span class="lineno">  944</span>&#160;    }</div>
+<div class="line"><a name="l00945"></a><span class="lineno">  945</span>&#160;</div>
+<div class="line"><a name="l00946"></a><span class="lineno">  946</span>&#160;    Kill_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_CENTER, CPID_KEYHUNT);</div>
+<div class="line"><a name="l00947"></a><span class="lineno">  947</span>&#160;    Kill_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_CENTER, CPID_KEYHUNT_OTHER);</div>
+<div class="line"><a name="l00948"></a><span class="lineno">  948</span>&#160;</div>
+<div class="line"><a name="l00949"></a><span class="lineno">  949</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt; <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a>; ++i)</div>
+<div class="line"><a name="l00950"></a><span class="lineno">  950</span>&#160;    {</div>
+<div class="line"><a name="l00951"></a><span class="lineno">  951</span>&#160;        teem = <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a26e842c69259395a21fa8ddaefed7bf3">kh_Team_ByID</a>(i);</div>
+<div class="line"><a name="l00952"></a><span class="lineno">  952</span>&#160;        players = 0;</div>
+<div class="line"><a name="l00953"></a><span class="lineno">  953</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> my_player = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00954"></a><span class="lineno">  954</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00955"></a><span class="lineno">  955</span>&#160;            <span class="keywordflow">if</span>(!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(it) &amp;&amp; !<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a507eb34316e1e6ce99a3dc40abe68474">PHYS_INPUT_BUTTON_CHAT</a>(it) &amp;&amp; it.team == teem)</div>
+<div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;            {</div>
+<div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;                ++players;</div>
+<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * players &lt;= 1)</div>
+<div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;                    my_player = it;</div>
+<div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;            }</div>
+<div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;        ));</div>
+<div class="line"><a name="l00962"></a><span class="lineno">  962</span>&#160;        <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a0cc4d42896731a9e2d7621b4df9f416f">kh_Key_Spawn</a>(my_player, 360 * i / kh_teams, i);</div>
+<div class="line"><a name="l00963"></a><span class="lineno">  963</span>&#160;    }</div>
+<div class="line"><a name="l00964"></a><span class="lineno">  964</span>&#160;</div>
+<div class="line"><a name="l00965"></a><span class="lineno">  965</span>&#160;    <a class="code" href="../../d8/de1/gamemode__keyhunt_8qh.html#a2bbdc8edf10660c2d7d2308b82b39a26">kh_tracking_enabled</a> = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00966"></a><span class="lineno">  966</span>&#160;    Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_CENTER, CENTER_KEYHUNT_SCAN, <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a377e16d6b18b0f9d8b2c44af81493f94">autocvar_g_balance_keyhunt_delay_tracking</a>);</div>
+<div class="line"><a name="l00967"></a><span class="lineno">  967</span>&#160;    <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a531e55e732864eae875e27be2261f406">kh_Controller_SetThink</a>(<a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a377e16d6b18b0f9d8b2c44af81493f94">autocvar_g_balance_keyhunt_delay_tracking</a>, <a class="code" href="../../de/d40/gamemode__keyhunt_8qc.html#a01168130e438e9531191f89bb420d650">kh_EnableTrackingDevice</a>);</div>
+<div class="line"><a name="l00968"></a><span class="lineno">  968</span>&#160;}</div>
+<div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
+<div class="ttc" id="common_2physics_2player_8qh_html_a507eb34316e1e6ce99a3dc40abe68474"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#a507eb34316e1e6ce99a3dc40abe68474">PHYS_INPUT_BUTTON_CHAT</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_CHAT(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00117">player.qh:117</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a2cc2a8144b32c6ba5f8676ac9d7f97b4"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a2cc2a8144b32c6ba5f8676ac9d7f97b4">KH_READY_TEAMS_OK</a></div><div class="ttdeci">#define KH_READY_TEAMS_OK()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00873">gamemode_keyhunt.qc:873</a></div></div>
+<div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
+<div class="ttc" id="client_2miscfunctions_8qh_html_a44b5ea3f2e11df716c1affcd1cff5bef"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a44b5ea3f2e11df716c1affcd1cff5bef">players</a></div><div class="ttdeci">entity players</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00003">miscfunctions.qh:3</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a1dd66dfaf96ae19363cf58cc70cdaa53"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a1dd66dfaf96ae19363cf58cc70cdaa53">kh_teams</a></div><div class="ttdeci">float kh_teams</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00073">gamemode_keyhunt.qc:73</a></div></div>
+<div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a26e842c69259395a21fa8ddaefed7bf3"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a26e842c69259395a21fa8ddaefed7bf3">kh_Team_ByID</a></div><div class="ttdeci">float kh_Team_ByID(float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00060">gamemode_keyhunt.qc:60</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a1d862e4d3c2f36737b3480108d1f2e0e"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a1d862e4d3c2f36737b3480108d1f2e0e">kh_CheckPlayers</a></div><div class="ttdeci">float kh_CheckPlayers(float num)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00856">gamemode_keyhunt.qc:856</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_aa33d72fb2a85a0541437b8cc6cc5b8e8"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a></div><div class="ttdeci">float game_starttime</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00272">defs.qh:272</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a377e16d6b18b0f9d8b2c44af81493f94"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a377e16d6b18b0f9d8b2c44af81493f94">autocvar_g_balance_keyhunt_delay_tracking</a></div><div class="ttdeci">float autocvar_g_balance_keyhunt_delay_tracking</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00007">gamemode_keyhunt.qc:7</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a0cc4d42896731a9e2d7621b4df9f416f"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a0cc4d42896731a9e2d7621b4df9f416f">kh_Key_Spawn</a></div><div class="ttdeci">void kh_Key_Spawn(entity initial_owner, float _angle, float i)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00730">gamemode_keyhunt.qc:730</a></div></div>
+<div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00016">post.qh:16</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a531e55e732864eae875e27be2261f406"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a531e55e732864eae875e27be2261f406">kh_Controller_SetThink</a></div><div class="ttdeci">void kh_Controller_SetThink(float t, kh_Think_t func)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00148">gamemode_keyhunt.qc:148</a></div></div>
+<div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qh_html_a2bbdc8edf10660c2d7d2308b82b39a26"><div class="ttname"><a href="../../d8/de1/gamemode__keyhunt_8qh.html#a2bbdc8edf10660c2d7d2308b82b39a26">kh_tracking_enabled</a></div><div class="ttdeci">float kh_tracking_enabled</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00045">gamemode_keyhunt.qh:45</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_acf9057b87b552cb3a114c36616cc86c5"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#acf9057b87b552cb3a114c36616cc86c5">kh_WaitForPlayers</a></div><div class="ttdeci">void kh_WaitForPlayers()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00874">gamemode_keyhunt.qc:874</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qc_html_a01168130e438e9531191f89bb420d650"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a01168130e438e9531191f89bb420d650">kh_EnableTrackingDevice</a></div><div class="ttdeci">void kh_EnableTrackingDevice()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00921">gamemode_keyhunt.qc:921</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_a663ea6aa3c4923b3e065cf91cc319f1b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a></div><div class="ttdeci">float random(void)</div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-8-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-8-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/de1/gamemode__keyhunt_8qh_ad10ed989b4f6a7ccbba89f62fc1705ac_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+<p><div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-9-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-9-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/de1/gamemode__keyhunt_8qh_ad10ed989b4f6a7ccbba89f62fc1705ac_icgraph.svg" width="100%" height="537"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<a class="anchor" id="a9c7fe8777db5311111214e415999eb42"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">REGISTER_MUTATOR </td>
+          <td>(</td>
+          <td class="paramtype">kh&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/d54/bool_8qh.html#a4bd6d4d04b1126eefee5484b1521c6f9">false</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00010">10</a> of file <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html">gamemode_keyhunt.qh</a>.</p>
+
+<p>References <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00040">ActivateTeamplay()</a>, <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00006">autocvar_g_keyhunt_point_leadlimit</a>, <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00005">autocvar_g_keyhunt_point_limit</a>, <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00007">autocvar_g_keyhunt_team_spawns</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00368">autocvar_timelimit_override</a>, <a class="el" href="../../d2/d77/pre_8qh_source.html#l00006">error</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00228">have_team_spawns</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00997">kh_Initialize()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00286">MUTATOR_ONADD</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00287">MUTATOR_ONREMOVE</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00288">MUTATOR_ONROLLBACK_OR_REMOVE</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00566">SetLimits()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992">MUTATOR_ONADD</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; 1) <span class="comment">// game loads at time 1</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;            <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;This is a game type and it cannot be added at runtime.&quot;</span>);</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <a class="code" href="../../d8/de1/gamemode__keyhunt_8qh.html#ac072ac85d73eb7dc83d6faeca9757648">kh_Initialize</a>();</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../d8/d0f/gamemode__assault_8qh.html#ae1c3e008f1694a4a8d288f0708893574">ActivateTeamplay</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../db/dcc/g__world_8qc.html#a246b8f5baa8038cddf08ecc9adf5b17c">SetLimits</a>(<a class="code" href="../../d8/de1/gamemode__keyhunt_8qh.html#aa5133eefef59c4cbe046575fa6ad9e05">autocvar_g_keyhunt_point_limit</a>, <a class="code" href="../../d8/de1/gamemode__keyhunt_8qh.html#ab5aa34fabae7071003592233558cc9fc">autocvar_g_keyhunt_point_leadlimit</a>, <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a044e0af0cd49790e1cfe2203ec6e5a8d">autocvar_timelimit_override</a>, -1);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de1/gamemode__keyhunt_8qh.html#a63927129b40fcc3e1664b7cf9fb7480d">autocvar_g_keyhunt_team_spawns</a>)</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <a class="code" href="../../d5/d26/server_2defs_8qh.html#a82bd246c33cb412dec913e65a81b461c">have_team_spawns</a> = -1; <span class="comment">// request team spawns</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a18b6800f2d1093efff7a7c8fcdae7f40">MUTATOR_ONROLLBACK_OR_REMOVE</a></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="comment">// we actually cannot roll back kh_Initialize here</span></div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="comment">// BUT: we don&#39;t need to! If this gets called, adding always</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="comment">// succeeds.</span></div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e">MUTATOR_ONREMOVE</a></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    {</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a>(<span class="stringliteral">&quot;This is a game type and it cannot be removed at runtime.&quot;</span>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    }</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
+<div class="ttc" id="gamemode__keyhunt_8qh_html_ac072ac85d73eb7dc83d6faeca9757648"><div class="ttname"><a href="../../d8/de1/gamemode__keyhunt_8qh.html#ac072ac85d73eb7dc83d6faeca9757648">kh_Initialize</a></div><div class="ttdeci">void kh_Initialize()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00997">gamemode_keyhunt.qc:997</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qh_html_ab5aa34fabae7071003592233558cc9fc"><div class="ttname"><a href="../../d8/de1/gamemode__keyhunt_8qh.html#ab5aa34fabae7071003592233558cc9fc">autocvar_g_keyhunt_point_leadlimit</a></div><div class="ttdeci">int autocvar_g_keyhunt_point_leadlimit</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00006">gamemode_keyhunt.qh:6</a></div></div>
+<div class="ttc" id="base_8qh_html_a18b6800f2d1093efff7a7c8fcdae7f40"><div class="ttname"><a href="../../db/d38/base_8qh.html#a18b6800f2d1093efff7a7c8fcdae7f40">MUTATOR_ONROLLBACK_OR_REMOVE</a></div><div class="ttdeci">#define MUTATOR_ONROLLBACK_OR_REMOVE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00288">base.qh:288</a></div></div>
+<div class="ttc" id="pre_8qh_html_a0c5e59a7caaa02f887d077eaa467f209"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a></div><div class="ttdeci">#define error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00006">pre.qh:6</a></div></div>
+<div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_a82bd246c33cb412dec913e65a81b461c"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a82bd246c33cb412dec913e65a81b461c">have_team_spawns</a></div><div class="ttdeci">float have_team_spawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00228">defs.qh:228</a></div></div>
+<div class="ttc" id="base_8qh_html_ac878b5fd9ca1fd639fca3f72e12c582e"><div class="ttname"><a href="../../db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e">MUTATOR_ONREMOVE</a></div><div class="ttdeci">#define MUTATOR_ONREMOVE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00287">base.qh:287</a></div></div>
+<div class="ttc" id="gamemode__assault_8qh_html_ae1c3e008f1694a4a8d288f0708893574"><div class="ttname"><a href="../../d8/d0f/gamemode__assault_8qh.html#ae1c3e008f1694a4a8d288f0708893574">ActivateTeamplay</a></div><div class="ttdeci">void ActivateTeamplay()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d4f/teamplay_8qc_source.html#l00040">teamplay.qc:40</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qh_html_a63927129b40fcc3e1664b7cf9fb7480d"><div class="ttname"><a href="../../d8/de1/gamemode__keyhunt_8qh.html#a63927129b40fcc3e1664b7cf9fb7480d">autocvar_g_keyhunt_team_spawns</a></div><div class="ttdeci">bool autocvar_g_keyhunt_team_spawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00007">gamemode_keyhunt.qh:7</a></div></div>
+<div class="ttc" id="g__world_8qc_html_a246b8f5baa8038cddf08ecc9adf5b17c"><div class="ttname"><a href="../../db/dcc/g__world_8qc.html#a246b8f5baa8038cddf08ecc9adf5b17c">SetLimits</a></div><div class="ttdeci">void SetLimits(int fraglimit_override, int leadlimit_override, float timelimit_override, float qualifying_override)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l00566">g_world.qc:566</a></div></div>
+<div class="ttc" id="gamemode__keyhunt_8qh_html_aa5133eefef59c4cbe046575fa6ad9e05"><div class="ttname"><a href="../../d8/de1/gamemode__keyhunt_8qh.html#aa5133eefef59c4cbe046575fa6ad9e05">autocvar_g_keyhunt_point_limit</a></div><div class="ttdeci">#define autocvar_g_keyhunt_point_limit</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00005">gamemode_keyhunt.qh:5</a></div></div>
+<div class="ttc" id="server_2autocvars_8qh_html_a044e0af0cd49790e1cfe2203ec6e5a8d"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a044e0af0cd49790e1cfe2203ec6e5a8d">autocvar_timelimit_override</a></div><div class="ttdeci">#define autocvar_timelimit_override</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00368">autocvars.qh:368</a></div></div>
+<div class="ttc" id="base_8qh_html_a1003ef6b08686c5c841fc6a4e8428992"><div class="ttname"><a href="../../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992">MUTATOR_ONADD</a></div><div class="ttdeci">#define MUTATOR_ONADD</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00286">base.qh:286</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-10" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-10-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-10-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-10-content" class="dyncontent" style="display:none;">
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/de1/gamemode__keyhunt_8qh_a9c7fe8777db5311111214e415999eb42_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+</div>
+</div>
+</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="ab5aa34fabae7071003592233558cc9fc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> autocvar_g_keyhunt_point_leadlimit</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00006">6</a> of file <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html">gamemode_keyhunt.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00010">REGISTER_MUTATOR()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a63927129b40fcc3e1664b7cf9fb7480d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d48/lib_2net_8qh.html#a57f79e19435bd395df28fcca5f9a248e">bool</a> autocvar_g_keyhunt_team_spawns</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00007">7</a> of file <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html">gamemode_keyhunt.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00010">REGISTER_MUTATOR()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a0411010ca825838d10464f8da5825df9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> kh_next</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00046">46</a> of file <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html">gamemode_keyhunt.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2bbdc8edf10660c2d7d2308b82b39a26"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> kh_tracking_enabled</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00045">45</a> of file <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html">gamemode_keyhunt.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l01054">havocbot_goalrating_kh()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00921">kh_EnableTrackingDevice()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00107">kh_Key_waypointsprite_visible_for_player()</a>, and <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00098">kh_KeyCarrier_waypointsprite_visible_for_player()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../d8/de1/gamemode__keyhunt_8qh.html">gamemode_keyhunt.qh</a></li>
-    <li class="footer">Generated on Sun Aug 21 2016 06:34:59 for Xonotic by
+    <li class="footer">Generated on Sun Aug 21 2016 07:36:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

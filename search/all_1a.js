@@ -3,7 +3,7 @@ var searchData=
   ['zctx',['ZCTX',['../d0/dfe/i18n_8qh.html#abe83f5e144bb4898da325814307c1f74',1,'i18n.qh']]],
   ['zombie',['Zombie',['../d7/d8c/classZombie.html',1,'']]],
   ['zombie_2eqc',['zombie.qc',['../da/d70/zombie_8qc.html',1,'']]],
-  ['zombie_5fh',['ZOMBIE_H',['../da/d70/zombie_8qc.html#a5b7ca7413e417ad894686442483bc683',1,'zombie.qc']]],
+  ['zombie_2eqh',['zombie.qh',['../d9/d17/zombie_8qh.html',1,'']]],
   ['zoombox',['zoomBox',['../d8/d00/classImage.html#a280ae0d20bfef08fecaea7b49d98a3c5',1,'Image']]],
   ['zoomedouttitlebar',['zoomedOutTitleBar',['../d7/d5d/classBorderImage.html#a9b064c18f17ec60a3d7fc0a9e6c42055',1,'BorderImage::zoomedOutTitleBar()'],['../dc/d06/classDialog.html#a7c7e80231d41f67692ab5f902d127416',1,'Dialog::zoomedOutTitleBar()'],['../d5/d95/classXonoticDialog.html#abc010fe38766fa00ef4860e680f92d18',1,'XonoticDialog::zoomedOutTitleBar()']]],
   ['zoomedouttitlebarposition',['zoomedOutTitleBarPosition',['../d7/d5d/classBorderImage.html#ad6c25fd4b03416c6d4af79c7a9d5dde2',1,'BorderImage::zoomedOutTitleBarPosition()'],['../dc/d06/classDialog.html#ae2279441e0a816efc4208a9f93c2a46f',1,'Dialog::zoomedOutTitleBarPosition()'],['../d5/d95/classXonoticDialog.html#ae40f58ec03244abd18fec51832808378',1,'XonoticDialog::zoomedOutTitleBarPosition()']]],
@@ -15,6 +15,6 @@ var searchData=
   ['zoomscript_5fcaught',['zoomscript_caught',['../d6/dd3/view_8qc.html#a4b0031b0355fc84d1100bd449180d885',1,'view.qc']]],
   ['zoomsnaptothebox',['zoomSnapToTheBox',['../d8/d00/classImage.html#ab9f53ba31d7aebc313bcfd3f677add53',1,'Image']]],
   ['zoomstate',['zoomstate',['../d5/d26/server_2defs_8qh.html#a3a65dbc5256a8c96990ef250af2a1dd5',1,'defs.qh']]],
-  ['zoomstate_5fset',['zoomstate_set',['../da/d53/cl__client_8qc.html#a5b6fdfd29020d840be5d04d7a4fe9cf6',1,'cl_client.qc']]],
+  ['zoomstate_5fset',['zoomstate_set',['../df/dd7/server_2client_8qc.html#a5b6fdfd29020d840be5d04d7a4fe9cf6',1,'client.qc']]],
   ['zoomtime',['zoomTime',['../d8/d00/classImage.html#a17ad45daebe710a3c8bd4bea33facf3d',1,'Image']]]
 ];

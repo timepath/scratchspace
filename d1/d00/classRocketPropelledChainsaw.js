@@ -27,7 +27,6 @@ var classRocketPropelledChainsaw =
     [ "bot_pickupbasevalue", "d1/d00/classRocketPropelledChainsaw.html#a0e17fba9d21c708010df3418d29ec17a", null ],
     [ "impulse", "d1/d00/classRocketPropelledChainsaw.html#a1586a881dc6ffa8db62d262dd64ab579", null ],
     [ "m_id", "d1/d00/classRocketPropelledChainsaw.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d1/d00/classRocketPropelledChainsaw.html#af85135132f79424215f5b6afc3653627", null ],
     [ "m_name", "d1/d00/classRocketPropelledChainsaw.html#a64d463ef4aeb6be8ab123a3ddb6fbdbe", null ],
     [ "mdl", "d1/d00/classRocketPropelledChainsaw.html#a68aaa8b4eda0ead11ec38541ef78a3da", null ],
     [ "model2", "d1/d00/classRocketPropelledChainsaw.html#a824547908f0501c27a69060e316215ca", null ],

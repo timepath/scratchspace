@@ -105,11 +105,11 @@ $(document).ready(function(){initNavTree('d6/d1c/weapons_2config_8qc_source.html
 <div class="title">config.qc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d6/d1c/weapons_2config_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#if defined(CSQC)</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#elif defined(MENUQC)</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#elif defined(SVQC)</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #include &quot;../util.qh&quot;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">    #include &quot;config.qh&quot;</span></div>
+<a href="../../d6/d1c/weapons_2config_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d2/d3b/weapons_2config_8qh.html">config.qh</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#if defined(CSQC)</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#elif defined(MENUQC)</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#elif defined(SVQC)</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #include &quot;../util.qh&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">    #include &quot;all.qh&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span></div>
@@ -149,7 +149,7 @@ $(document).ready(function(){initNavTree('d6/d1c/weapons_2config_8qc_source.html
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="stringliteral">&quot;// {{{ #%d: %s%s\n&quot;</span>,</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            i,</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            it.m_name,</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            ((it.spawnflags &amp; <a class="code" href="../../dc/d1c/weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a>) ? <span class="stringliteral">&quot; (MUTATOR WEAPON)&quot;</span> : <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            ((it.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a>) ? <span class="stringliteral">&quot; (MUTATOR WEAPON)&quot;</span> : <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        ));</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> x = 0; x &lt;= WEP_CONFIG_COUNT; ++x) { WEP_CONFIG_WRITETOFILE(wep_config_queue[x]); }</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        WEP_CONFIG_WRITETOFILE(<span class="stringliteral">&quot;// }}}\n&quot;</span>);</div>
@@ -171,12 +171,13 @@ $(document).ready(function(){initNavTree('d6/d1c/weapons_2config_8qc_source.html
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="weapons_2config_8qc_html_accb173662eea2523d629cb8f7381ec51"><div class="ttname"><a href="../../d6/d1c/weapons_2config_8qc.html#accb173662eea2523d629cb8f7381ec51">W_Config_Queue_Compare</a></div><div class="ttdeci">float W_Config_Queue_Compare(int root, int child, entity pass)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d1c/weapons_2config_8qc_source.html#l00020">config.qc:20</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="weapons_2config_8qh_html"><div class="ttname"><a href="../../d2/d3b/weapons_2config_8qh.html">config.qh</a></div></div>
 <div class="ttc" id="dpextensions_8qh_html_a6b5d9a1031ac2602e31df1ba551bfafe"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a6b5d9a1031ac2602e31df1ba551bfafe">strcmp</a></div><div class="ttdeci">#define strcmp</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00051">dpextensions.qh:51</a></div></div>
 <div class="ttc" id="weapons_2config_8qc_html_a171f7fe10ce3530bccc733d80a50c7e6"><div class="ttname"><a href="../../d6/d1c/weapons_2config_8qc.html#a171f7fe10ce3530bccc733d80a50c7e6">W_Config_Queue_Swap</a></div><div class="ttdeci">void W_Config_Queue_Swap(int root, int child, entity pass)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d1c/weapons_2config_8qc_source.html#l00013">config.qc:13</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00016">post.qh:16</a></div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
+<div class="ttc" id="weapons_2weapon_8qh_html_a9819105ec0356c90ff7591d2ae6276e2"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a></div><div class="ttdeci">const int WEP_FLAG_MUTATORBLOCKED</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00188">weapon.qh:188</a></div></div>
 <div class="ttc" id="effectinfo__ctf_8inc_html_a73709cb0008f2faa193bce8415f41a95"><div class="ttname"><a href="../../d7/d16/effectinfo__ctf_8inc.html#a73709cb0008f2faa193bce8415f41a95">pass</a></div><div class="ttdeci">#define pass(name, colormin, colormax)</div></div>
-<div class="ttc" id="weapon_8qh_html_a9819105ec0356c90ff7591d2ae6276e2"><div class="ttname"><a href="../../dc/d1c/weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a></div><div class="ttdeci">const int WEP_FLAG_MUTATORBLOCKED</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d1c/weapon_8qh_source.html#l00193">weapon.qh:193</a></div></div>
 <div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 <div class="ttc" id="weapons_2config_8qc_html_a77363565e51ceb80f230ad7020747f23"><div class="ttname"><a href="../../d6/d1c/weapons_2config_8qc.html#a77363565e51ceb80f230ad7020747f23">Dump_Weapon_Settings</a></div><div class="ttdeci">void Dump_Weapon_Settings()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d1c/weapons_2config_8qc_source.html#l00025">config.qc:25</a></div></div>
 <div class="ttc" id="sort_8qh_html_a45075ab7a5511838f438adb5ede68752"><div class="ttname"><a href="../../db/def/sort_8qh.html#a45075ab7a5511838f438adb5ede68752">heapsort</a></div><div class="ttdeci">void heapsort(int n, swapfunc_t swap, comparefunc_t cmp, entity pass)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/def/sort_8qh_source.html#l00008">sort.qh:8</a></div></div>
@@ -186,7 +187,7 @@ $(document).ready(function(){initNavTree('d6/d1c/weapons_2config_8qc_source.html
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_67782cf2b73ff31781b25ce4541674e7.html">weapons</a></li><li class="navelem"><a class="el" href="../../d6/d1c/weapons_2config_8qc.html">config.qc</a></li>
-    <li class="footer">Generated on Sun Aug 21 2016 06:34:47 for Xonotic by
+    <li class="footer">Generated on Sun Aug 21 2016 07:36:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

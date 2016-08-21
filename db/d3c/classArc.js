@@ -27,7 +27,6 @@ var classArc =
     [ "bot_pickupbasevalue", "db/d3c/classArc.html#ae0a509098068a29d9ef781b063c35d0e", null ],
     [ "impulse", "db/d3c/classArc.html#a3ed4692aa1b8bf1d283184288bc8a70a", null ],
     [ "m_id", "db/d3c/classArc.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "db/d3c/classArc.html#a31fbe8e3abd6f9b3eacf335eb2209ddb", null ],
     [ "m_name", "db/d3c/classArc.html#a97df2fcca62083efe293f759373b2e98", null ],
     [ "mdl", "db/d3c/classArc.html#ab8aeb9c30f5600afc253dc5ba84ad31e", null ],
     [ "model2", "db/d3c/classArc.html#a4aedf849ba0c9526f1df8794c3f1b789", null ],

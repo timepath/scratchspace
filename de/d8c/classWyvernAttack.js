@@ -27,7 +27,6 @@ var classWyvernAttack =
     [ "bot_pickupbasevalue", "de/d8c/classWyvernAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "de/d8c/classWyvernAttack.html#aae53bfd12b74695cc9f3d8841c483345", null ],
     [ "m_id", "de/d8c/classWyvernAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "de/d8c/classWyvernAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "de/d8c/classWyvernAttack.html#ae1b596b707d1f678083f3e5265cabf81", null ],
     [ "mdl", "de/d8c/classWyvernAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "de/d8c/classWyvernAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

@@ -138,8 +138,8 @@ $(document).ready(function(){initNavTree('de/d09/linkedlist_8qh_source.html','..
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">if</span> (!this.ll_tail) <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    LinkedListNode n = this.ll_tail;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    entity e = n.ll_data;</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    LinkedListNode <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a> = n.ll_prev;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">if</span> (prev) (this.ll_tail = <a class="code" href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a>).ll_next = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    LinkedListNode <a class="code" href="../../d0/d6e/impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a> = n.ll_prev;</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">if</span> (prev) (this.ll_tail = <a class="code" href="../../d0/d6e/impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a>).ll_next = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    <span class="keywordflow">else</span> this.ll_head = this.ll_tail = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">delete</span>(n);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">return</span> e;</div>
@@ -188,6 +188,7 @@ $(document).ready(function(){initNavTree('de/d09/linkedlist_8qh_source.html','..
 <div class="ttc" id="oo_8qh_html_a010cbf44b643792be835db056600fc48"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48">NEW</a></div><div class="ttdeci">#define NEW(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00113">oo.qh:113</a></div></div>
 <div class="ttc" id="oo_8qh_html_a5e938649bc2ae6899e63c87b35dc388a"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a5e938649bc2ae6899e63c87b35dc388a">CLASS</a></div><div class="ttdeci">#define CLASS(cname, base)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00174">oo.qh:174</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="impulses_2all_8qh_html_a5ea3f8c3f8afcd9e2839d3c46973d866"><div class="ttname"><a href="../../d0/d6e/impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a></div><div class="ttdeci">prev</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d6e/impulses_2all_8qh_source.html#l00057">all.qh:57</a></div></div>
 <div class="ttc" id="classLinkedList_html"><div class="ttname"><a href="../../d7/dde/classLinkedList.html">LinkedList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00009">linkedlist.qh:9</a></div></div>
 <div class="ttc" id="classLinkedListNode_html"><div class="ttname"><a href="../../de/d6d/classLinkedListNode.html">LinkedListNode</a></div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00003">linkedlist.qh:3</a></div></div>
 <div class="ttc" id="linkedlist_8qh_html_ae661d2fd5b18437505433ab79fae5ce0"><div class="ttname"><a href="../../de/d09/linkedlist_8qh.html#ae661d2fd5b18437505433ab79fae5ce0">LL_PUSH</a></div><div class="ttdeci">entity LL_PUSH(LinkedList this, entity e)</div><div class="ttdoc">Push to tail. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00021">linkedlist.qh:21</a></div></div>
@@ -195,14 +196,13 @@ $(document).ready(function(){initNavTree('de/d09/linkedlist_8qh_source.html','..
 <div class="ttc" id="linkedlist_8qh_html_a78187759e816c05bdc0b7b1c76462315"><div class="ttname"><a href="../../de/d09/linkedlist_8qh.html#a78187759e816c05bdc0b7b1c76462315">LL_POP</a></div><div class="ttdeci">entity LL_POP(LinkedList this)</div><div class="ttdoc">Pop from tail. </div><div class="ttdef"><b>Definition:</b> <a href="../../de/d09/linkedlist_8qh_source.html#l00034">linkedlist.qh:34</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00016">post.qh:16</a></div></div>
 <div class="ttc" id="oo_8qh_html_a71373c33560dcca984e1c21df4fa1d5f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a71373c33560dcca984e1c21df4fa1d5f">ENDCLASS</a></div><div class="ttdeci">#define ENDCLASS(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00273">oo.qh:273</a></div></div>
-<div class="ttc" id="common_2impulses_2all_8qh_html_a5ea3f8c3f8afcd9e2839d3c46973d866"><div class="ttname"><a href="../../de/d64/common_2impulses_2all_8qh.html#a5ea3f8c3f8afcd9e2839d3c46973d866">prev</a></div><div class="ttdeci">prev</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d64/common_2impulses_2all_8qh_source.html#l00057">all.qh:57</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../de/d09/linkedlist_8qh.html">linkedlist.qh</a></li>
-    <li class="footer">Generated on Sun Aug 21 2016 06:34:47 for Xonotic by
+    <li class="footer">Generated on Sun Aug 21 2016 07:36:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

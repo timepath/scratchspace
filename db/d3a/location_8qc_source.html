@@ -105,29 +105,31 @@ $(document).ready(function(){initNavTree('db/d3a/location_8qc_source.html','../.
 <div class="title">location.qc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../db/d3a/location_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> target_push_init(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(target_location)</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;{</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;target_location&quot;</span>;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <span class="comment">// location name in netname</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="comment">// eventually support: count, teamgame selectors, line of sight?</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    target_push_init(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(info_location)</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;target_location&quot;</span>;</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>;</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    target_push_init(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#endif</span></div>
+<a href="../../db/d3a/location_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../df/dd9/location_8qh.html">location.qh</a>&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> target_push_init(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(target_location)</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;target_location&quot;</span>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="comment">// location name in netname</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <span class="comment">// eventually support: count, teamgame selectors, line of sight?</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    target_push_init(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;}</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(info_location)</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;{</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;target_location&quot;</span>;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = this.<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    target_push_init(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="client_2defs_8qh_html_ae1ed0d7a6f352c7ee3ad978429822c6f"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a></div><div class="ttdeci">string message</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00007">defs.qh:7</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">csprogsdefs.qc:107</a></div></div>
+<div class="ttc" id="location_8qh_html"><div class="ttname"><a href="../../df/dd9/location_8qh.html">location.qh</a></div></div>
 <div class="ttc" id="powerups_8qc_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00009">powerups.qc:9</a></div></div>
 <div class="ttc" id="spawnfunc_8qh_html_a9ad7f6cd69a76791c4b63b9c09126153"><div class="ttname"><a href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a></div><div class="ttdeci">#define spawnfunc(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d20/spawnfunc_8qh_source.html#l00197">spawnfunc.qh:197</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -136,7 +138,7 @@ $(document).ready(function(){initNavTree('db/d3a/location_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../dir_8f7bbfa534619ac6e56630cebd000349.html">target</a></li><li class="navelem"><a class="el" href="../../db/d3a/location_8qc.html">location.qc</a></li>
-    <li class="footer">Generated on Sun Aug 21 2016 06:34:47 for Xonotic by
+    <li class="footer">Generated on Sun Aug 21 2016 07:36:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -101,6 +101,8 @@ $(document).ready(function(){initNavTree('d1/dc9/gamemode__deathmatch_8qh.html',
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">gamemode_deathmatch.qh File Reference</div>  </div>
 </div><!--header-->
@@ -124,13 +126,77 @@ $(document).ready(function(){initNavTree('d1/dc9/gamemode__deathmatch_8qh.html',
 </div>
 </div>
 <p><a href="../../d1/dc9/gamemode__deathmatch_8qh_source.html">Go to the source code of this file.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:a26b37d54f61938acc3c95c460522cb62"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dc9/gamemode__deathmatch_8qh.html#a26b37d54f61938acc3c95c460522cb62">REGISTER_MUTATOR</a> (dm, <a class="el" href="../../dd/d54/bool_8qh.html#a4bd6d4d04b1126eefee5484b1521c6f9">false</a>)</td></tr>
+<tr class="separator:a26b37d54f61938acc3c95c460522cb62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a26b37d54f61938acc3c95c460522cb62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">REGISTER_MUTATOR </td>
+          <td>(</td>
+          <td class="paramtype">dm&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/d54/bool_8qh.html#a4bd6d4d04b1126eefee5484b1521c6f9">false</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d1/dc9/gamemode__deathmatch_8qh_source.html#l00005">5</a> of file <a class="el" href="../../d1/dc9/gamemode__deathmatch_8qh_source.html">gamemode_deathmatch.qh</a>.</p>
+
+<p>References <a class="el" href="../../d2/d77/pre_8qh_source.html#l00006">error</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00286">MUTATOR_ONADD</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00287">MUTATOR_ONREMOVE</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00288">MUTATOR_ONROLLBACK_OR_REMOVE</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<div class="fragment"><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992">MUTATOR_ONADD</a></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; 1) <span class="comment">// game loads at time 1</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;            <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;This is a game type and it cannot be added at runtime.&quot;</span>);</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    }</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a18b6800f2d1093efff7a7c8fcdae7f40">MUTATOR_ONROLLBACK_OR_REMOVE</a></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="comment">// we actually cannot roll back dm_Initialize here</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="comment">// BUT: we don&#39;t need to! If this gets called, adding always</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="comment">// succeeds.</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e">MUTATOR_ONREMOVE</a></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;This is a game type and it cannot be removed at runtime.&quot;</span>);</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> -1;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+<div class="ttc" id="base_8qh_html_a18b6800f2d1093efff7a7c8fcdae7f40"><div class="ttname"><a href="../../db/d38/base_8qh.html#a18b6800f2d1093efff7a7c8fcdae7f40">MUTATOR_ONROLLBACK_OR_REMOVE</a></div><div class="ttdeci">#define MUTATOR_ONROLLBACK_OR_REMOVE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00288">base.qh:288</a></div></div>
+<div class="ttc" id="pre_8qh_html_a0c5e59a7caaa02f887d077eaa467f209"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a></div><div class="ttdeci">#define error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00006">pre.qh:6</a></div></div>
+<div class="ttc" id="base_8qh_html_ac878b5fd9ca1fd639fca3f72e12c582e"><div class="ttname"><a href="../../db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e">MUTATOR_ONREMOVE</a></div><div class="ttdeci">#define MUTATOR_ONREMOVE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00287">base.qh:287</a></div></div>
+<div class="ttc" id="base_8qh_html_a1003ef6b08686c5c841fc6a4e8428992"><div class="ttname"><a href="../../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992">MUTATOR_ONADD</a></div><div class="ttdeci">#define MUTATOR_ONADD</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00286">base.qh:286</a></div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
+</div><!-- fragment -->
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../d1/dc9/gamemode__deathmatch_8qh.html">gamemode_deathmatch.qh</a></li>
-    <li class="footer">Generated on Sun Aug 21 2016 06:34:59 for Xonotic by
+    <li class="footer">Generated on Sun Aug 21 2016 07:36:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

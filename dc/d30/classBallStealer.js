@@ -27,7 +27,6 @@ var classBallStealer =
     [ "bot_pickupbasevalue", "dc/d30/classBallStealer.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "dc/d30/classBallStealer.html#acee4dee25e04bfa56f7ae916df042298", null ],
     [ "m_id", "dc/d30/classBallStealer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "dc/d30/classBallStealer.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "dc/d30/classBallStealer.html#a2de91a875b1647471606be4b098e84ce", null ],
     [ "mdl", "dc/d30/classBallStealer.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "dc/d30/classBallStealer.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

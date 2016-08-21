@@ -27,7 +27,6 @@ var classDevastator =
     [ "bot_pickupbasevalue", "d4/d0b/classDevastator.html#a0857557df1839208d8571e233839ce44", null ],
     [ "impulse", "d4/d0b/classDevastator.html#a19a210e233d5ac3c2563487f1b763bec", null ],
     [ "m_id", "d4/d0b/classDevastator.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d4/d0b/classDevastator.html#a7c2d39b73432ab96b1268d78614dfdc1", null ],
     [ "m_name", "d4/d0b/classDevastator.html#ab2c4731e7a1ac2f95747cf9626a4cc53", null ],
     [ "mdl", "d4/d0b/classDevastator.html#acaff8d70088d8455009a62ef33f04777", null ],
     [ "model2", "d4/d0b/classDevastator.html#ac64bdfa8449e2a1843d8c52665fb7c66", null ],

@@ -27,7 +27,6 @@ var classShockwave =
     [ "bot_pickupbasevalue", "da/d13/classShockwave.html#a2ae6f5266386213cc74fc9905aff71ba", null ],
     [ "impulse", "da/d13/classShockwave.html#a6a2ecbec331fdeefcb8ed171bab217b8", null ],
     [ "m_id", "da/d13/classShockwave.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "da/d13/classShockwave.html#ae3f0c4cbbf202d44f9a32b733f1b2353", null ],
     [ "m_name", "da/d13/classShockwave.html#a08e28f6756548152ade6d1744dcfab9b", null ],
     [ "mdl", "da/d13/classShockwave.html#a9e3d41334eb7d60e9d458393bf5f35f1", null ],
     [ "model2", "da/d13/classShockwave.html#a269f0ca4851658a4830dfa93ed46948f", null ],

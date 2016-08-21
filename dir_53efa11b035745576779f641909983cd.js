@@ -7,7 +7,7 @@ var dir_53efa11b035745576779f641909983cd =
     [ "bigcommandbutton.qc", "d7/d0d/bigcommandbutton_8qc.html", "d7/d0d/bigcommandbutton_8qc" ],
     [ "bigcommandbutton.qh", "d2/d88/bigcommandbutton_8qh.html", "d2/d88/bigcommandbutton_8qh" ],
     [ "button.qc", "df/d28/menu_2xonotic_2button_8qc.html", "df/d28/menu_2xonotic_2button_8qc" ],
-    [ "button.qh", "dc/df6/xonotic_2button_8qh.html", "dc/df6/xonotic_2button_8qh" ],
+    [ "button.qh", "d3/dd1/menu_2xonotic_2button_8qh.html", "d3/dd1/menu_2xonotic_2button_8qh" ],
     [ "campaign.qc", "d3/d69/menu_2xonotic_2campaign_8qc.html", "d3/d69/menu_2xonotic_2campaign_8qc" ],
     [ "campaign.qh", "d7/d01/menu_2xonotic_2campaign_8qh.html", "d7/d01/menu_2xonotic_2campaign_8qh" ],
     [ "charmap.qc", "d0/dad/charmap_8qc.html", "d0/dad/charmap_8qc" ],

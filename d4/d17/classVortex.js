@@ -27,7 +27,6 @@ var classVortex =
     [ "bot_pickupbasevalue", "d4/d17/classVortex.html#add8cf89912c6ce63565d432a3bb26726", null ],
     [ "impulse", "d4/d17/classVortex.html#ad70d80ed739c82b4eecd022ec4fbcc25", null ],
     [ "m_id", "d4/d17/classVortex.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d4/d17/classVortex.html#abfce3f573742b8b29c3afe3205669b9b", null ],
     [ "m_name", "d4/d17/classVortex.html#af7d0bca2ffb78c66e07a3b836757fa58", null ],
     [ "mdl", "d4/d17/classVortex.html#a4a7a378f402d2a24a72bd93c565d53f9", null ],
     [ "model2", "d4/d17/classVortex.html#a158f36c4de5936f233a77ff66f6fe910", null ],

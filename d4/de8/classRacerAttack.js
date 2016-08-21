@@ -27,7 +27,6 @@ var classRacerAttack =
     [ "bot_pickupbasevalue", "d4/de8/classRacerAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d4/de8/classRacerAttack.html#af96bae3c7665f6c8e08cec21eeee93d5", null ],
     [ "m_id", "d4/de8/classRacerAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d4/de8/classRacerAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d4/de8/classRacerAttack.html#aff35604b8ecf473f4c6f2c69cf544ece", null ],
     [ "mdl", "d4/de8/classRacerAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d4/de8/classRacerAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

@@ -27,7 +27,6 @@ var classBlaster =
     [ "bot_pickupbasevalue", "d7/d32/classBlaster.html#a1c8437833108d8e5fee3535929d05f32", null ],
     [ "impulse", "d7/d32/classBlaster.html#a17f155a849bf1aad1fb6f97232996be9", null ],
     [ "m_id", "d7/d32/classBlaster.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d7/d32/classBlaster.html#a40be23c6ef8218a58f543e06bc1f95e3", null ],
     [ "m_name", "d7/d32/classBlaster.html#a81dae4670fcc0e3fe0e0648f8816719f", null ],
     [ "mdl", "d7/d32/classBlaster.html#a48d1c8644fbabc4e8d57762dc590e2f8", null ],
     [ "model2", "d7/d32/classBlaster.html#a8467f0efb78cb00d04f432e950388dcf", null ],

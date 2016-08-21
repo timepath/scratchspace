@@ -27,7 +27,6 @@ var classMortar =
     [ "bot_pickupbasevalue", "da/df9/classMortar.html#ae3ee5674f8d5232b46d606bff0062696", null ],
     [ "impulse", "da/df9/classMortar.html#a5e3c7bacb56dd317d41889834992a504", null ],
     [ "m_id", "da/df9/classMortar.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "da/df9/classMortar.html#a80c04684a109d339a5bcc467a46b5740", null ],
     [ "m_name", "da/df9/classMortar.html#a87121a1185d52cf6a47fc9a2deabbaca", null ],
     [ "mdl", "da/df9/classMortar.html#a7aae7b7b226fd7ff7f8a0fb60d68a29f", null ],
     [ "model2", "da/df9/classMortar.html#ad2ad3a0ab18588886161063482b892a4", null ],

@@ -27,7 +27,6 @@ var classMLRSTurretAttack =
     [ "bot_pickupbasevalue", "da/d1d/classMLRSTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "da/d1d/classMLRSTurretAttack.html#a6a45b8b8496e0827216ad10cc845245f", null ],
     [ "m_id", "da/d1d/classMLRSTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "da/d1d/classMLRSTurretAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "da/d1d/classMLRSTurretAttack.html#a116d6ce0c61ad0fc8a56c596c39a06a1", null ],
     [ "mdl", "da/d1d/classMLRSTurretAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "da/d1d/classMLRSTurretAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

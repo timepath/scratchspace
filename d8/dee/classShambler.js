@@ -9,7 +9,6 @@ var classShambler =
     [ "mr_precache", "d8/dee/classShambler.html#a24b4136b7b62e15cc5df0c04289434ca", null ],
     [ "mr_setup", "d8/dee/classShambler.html#a84829255027bd85cf33ef0418ef5c975", null ],
     [ "mr_think", "d8/dee/classShambler.html#adc5acc9cbff0fdce03b8253cfa102777", null ],
-    [ "m_model", "d8/dee/classShambler.html#a1fdd527ed51ad47bec36febd9ca8db0b", null ],
     [ "maxs", "d8/dee/classShambler.html#a4e6a851ed388a1e0c36e488e71700e42", null ],
     [ "mins", "d8/dee/classShambler.html#abe718357dafde994438cf9ad43e2501a", null ],
     [ "monster_name", "d8/dee/classShambler.html#a4a2c59dabf3657267baf502b542a1976", null ],

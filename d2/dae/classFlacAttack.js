@@ -27,7 +27,6 @@ var classFlacAttack =
     [ "bot_pickupbasevalue", "d2/dae/classFlacAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d2/dae/classFlacAttack.html#ab9c453f403eb3a72a3b38f38dc9887d8", null ],
     [ "m_id", "d2/dae/classFlacAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d2/dae/classFlacAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d2/dae/classFlacAttack.html#ac574227aef8404644d434c4152dbd8ff", null ],
     [ "mdl", "d2/dae/classFlacAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d2/dae/classFlacAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

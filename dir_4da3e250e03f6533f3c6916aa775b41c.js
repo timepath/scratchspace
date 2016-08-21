@@ -13,6 +13,7 @@ var dir_4da3e250e03f6533f3c6916aa775b41c =
     [ "hook", "dir_e417185ead5e4d3394b43f6ad6b9840f.html", "dir_e417185ead5e4d3394b43f6ad6b9840f" ],
     [ "instagib", "dir_37818b0dce32e02a5f5a4a96cf829288.html", "dir_37818b0dce32e02a5f5a4a96cf829288" ],
     [ "invincibleproj", "dir_605ca3db3b03821e840695b3f16c646d.html", "dir_605ca3db3b03821e840695b3f16c646d" ],
+    [ "itemstime", "dir_b71dc7689c9bf51e87a7e1d497744d3c.html", "dir_b71dc7689c9bf51e87a7e1d497744d3c" ],
     [ "melee_only", "dir_955cc29256ddce4e0fe4a772b823ba02.html", "dir_955cc29256ddce4e0fe4a772b823ba02" ],
     [ "midair", "dir_4ac90a8637fec137e2b7c4c5edbccddf.html", "dir_4ac90a8637fec137e2b7c4c5edbccddf" ],
     [ "multijump", "dir_0c3ec26f6592f749c61a1603936c4614.html", "dir_0c3ec26f6592f749c61a1603936c4614" ],
@@ -35,6 +36,5 @@ var dir_4da3e250e03f6533f3c6916aa775b41c =
     [ "waypoints", "dir_4573854e5f122b3a76229eff451e1727.html", "dir_4573854e5f122b3a76229eff451e1727" ],
     [ "weaponarena_random", "dir_ecf5b0e552eaccd491bf62d16a91d83a.html", "dir_ecf5b0e552eaccd491bf62d16a91d83a" ],
     [ "_mod.inc", "df/d27/common_2mutators_2mutator_2__mod_8inc.html", null ],
-    [ "_mod.qh", "d2/d47/common_2mutators_2mutator_2__mod_8qh.html", null ],
-    [ "itemstime.qc", "d4/d90/itemstime_8qc.html", null ]
+    [ "_mod.qh", "d2/d47/common_2mutators_2mutator_2__mod_8qh.html", null ]
 ];

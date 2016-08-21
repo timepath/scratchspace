@@ -27,7 +27,6 @@ var classTuba =
     [ "bot_pickupbasevalue", "d9/d6e/classTuba.html#ac6f60d2aeb3466eb5209d3dfec04dba1", null ],
     [ "impulse", "d9/d6e/classTuba.html#a9dd907b43e440c55a9dab9417721931f", null ],
     [ "m_id", "d9/d6e/classTuba.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d9/d6e/classTuba.html#a41e81660913ef4d5ba62c17b6d553a25", null ],
     [ "m_name", "d9/d6e/classTuba.html#a7b3d8a053c1a4a908b0916aa37c84305", null ],
     [ "mdl", "d9/d6e/classTuba.html#ac986eddf81cf219bfb9525ce64afcb2b", null ],
     [ "model2", "d9/d6e/classTuba.html#a8eb191107981e96ab6eaa3b4bc447c53", null ],

@@ -27,7 +27,6 @@ var classSpiderAttack =
     [ "bot_pickupbasevalue", "da/da9/classSpiderAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "da/da9/classSpiderAttack.html#a5b503f0f107f88c425bdf4d5096b00bf", null ],
     [ "m_id", "da/da9/classSpiderAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "da/da9/classSpiderAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "da/da9/classSpiderAttack.html#a066947bb269fd604de64212bba222ef2", null ],
     [ "mdl", "da/da9/classSpiderAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "da/da9/classSpiderAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

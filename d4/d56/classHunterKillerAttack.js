@@ -27,7 +27,6 @@ var classHunterKillerAttack =
     [ "bot_pickupbasevalue", "d4/d56/classHunterKillerAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d4/d56/classHunterKillerAttack.html#aa36ecc5309350e9d779b15456bd862bf", null ],
     [ "m_id", "d4/d56/classHunterKillerAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d4/d56/classHunterKillerAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d4/d56/classHunterKillerAttack.html#acb2c8b283e96f05859e34cfd49480d08", null ],
     [ "mdl", "d4/d56/classHunterKillerAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d4/d56/classHunterKillerAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

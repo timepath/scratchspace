@@ -27,7 +27,6 @@ var classPlasmaAttack =
     [ "bot_pickupbasevalue", "db/dfa/classPlasmaAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "db/dfa/classPlasmaAttack.html#afba05a26a4843e2b4b22d4ad9c7ff03f", null ],
     [ "m_id", "db/dfa/classPlasmaAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "db/dfa/classPlasmaAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "db/dfa/classPlasmaAttack.html#a853b558fa5b7811a959533e7eb513d0b", null ],
     [ "mdl", "db/dfa/classPlasmaAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "db/dfa/classPlasmaAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

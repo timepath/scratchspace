@@ -1,7 +1,6 @@
 var monster_8qh =
 [
     [ "Monster", "d1/d5c/classMonster.html", "d1/d5c/classMonster" ],
-    [ "animfixfps", "d4/ddc/monster_8qh.html#afb8bc3000982cfa33e8babf4ee2209ce", null ],
     [ "bool", "d4/ddc/monster_8qh.html#a34e0b86a39a5f12d53567ff4d47f32e2", null ],
     [ "anim_blockend", "d4/ddc/monster_8qh.html#a7afcb38a100fb8e77c1825d6cd699e68", null ],
     [ "anim_blockstart", "d4/ddc/monster_8qh.html#aa6213aab925aad32c42da8964c504d14", null ],

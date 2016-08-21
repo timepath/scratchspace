@@ -27,7 +27,6 @@ var classPlasmaDualAttack =
     [ "bot_pickupbasevalue", "d8/dfe/classPlasmaDualAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d8/dfe/classPlasmaDualAttack.html#afba05a26a4843e2b4b22d4ad9c7ff03f", null ],
     [ "m_id", "d8/dfe/classPlasmaDualAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d8/dfe/classPlasmaDualAttack.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d8/dfe/classPlasmaDualAttack.html#aef0b48ef9e2bfaa3a1db1d0e1b4fdec8", null ],
     [ "mdl", "d8/dfe/classPlasmaDualAttack.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d8/dfe/classPlasmaDualAttack.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

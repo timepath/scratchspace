@@ -9,7 +9,6 @@ var classZombie =
     [ "mr_precache", "d7/d8c/classZombie.html#a24b4136b7b62e15cc5df0c04289434ca", null ],
     [ "mr_setup", "d7/d8c/classZombie.html#a84829255027bd85cf33ef0418ef5c975", null ],
     [ "mr_think", "d7/d8c/classZombie.html#adc5acc9cbff0fdce03b8253cfa102777", null ],
-    [ "m_model", "d7/d8c/classZombie.html#a1d6cd9a000cea14bc478f5d5fde8d6f9", null ],
     [ "maxs", "d7/d8c/classZombie.html#a1ba63a75dea75edecef1783de5cc6ab2", null ],
     [ "mins", "d7/d8c/classZombie.html#a38664e77107bb689c542a964ed7c40b7", null ],
     [ "monster_name", "d7/d8c/classZombie.html#a2472eebe5368d2d6028d67f034387301", null ],

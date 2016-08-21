@@ -9,7 +9,6 @@ var classMage =
     [ "mr_precache", "d0/d28/classMage.html#a24b4136b7b62e15cc5df0c04289434ca", null ],
     [ "mr_setup", "d0/d28/classMage.html#a84829255027bd85cf33ef0418ef5c975", null ],
     [ "mr_think", "d0/d28/classMage.html#adc5acc9cbff0fdce03b8253cfa102777", null ],
-    [ "m_model", "d0/d28/classMage.html#a36b72b7fa32a944c91fb0f577fbb833b", null ],
     [ "maxs", "d0/d28/classMage.html#adb0966b0d70278461f15af5b9279a164", null ],
     [ "mins", "d0/d28/classMage.html#acd579d6253366eb105c03c4a2bc541de", null ],
     [ "monster_name", "d0/d28/classMage.html#a98ac0625966577f6873d0ca2e901180e", null ],

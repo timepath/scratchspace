@@ -106,57 +106,21 @@ $(document).ready(function(){initNavTree('dd/d7b/gamemode__deathmatch_8qc_source
 </div><!--header-->
 <div class="contents">
 <a href="../../dd/d7b/gamemode__deathmatch_8qc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="../../d1/dc9/gamemode__deathmatch_8qh.html">gamemode_deathmatch.qh</a>&quot;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#ifndef GAMEMODE_DEATHMATCH_H</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../dd/d7b/gamemode__deathmatch_8qc.html#a7a0c1af364565e718c758dc9511ca085">    3</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define GAMEMODE_DEATHMATCH_H</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="../../dd/d7b/gamemode__deathmatch_8qc.html#a26b37d54f61938acc3c95c460522cb62">    5</a></span>&#160;<a class="code" href="../../dd/d7b/gamemode__deathmatch_8qc.html#a26b37d54f61938acc3c95c460522cb62">REGISTER_MUTATOR</a>(dm, <span class="keyword">false</span>)</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992">MUTATOR_ONADD</a></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; 1) <span class="comment">// game loads at time 1</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;            <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;This is a game type and it cannot be added at runtime.&quot;</span>);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    }</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a18b6800f2d1093efff7a7c8fcdae7f40">MUTATOR_ONROLLBACK_OR_REMOVE</a></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="comment">// we actually cannot roll back dm_Initialize here</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="comment">// BUT: we don&#39;t need to! If this gets called, adding always</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="comment">// succeeds.</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    }</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e">MUTATOR_ONREMOVE</a></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    {</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;This is a game type and it cannot be removed at runtime.&quot;</span>);</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="keywordflow">return</span> -1;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">#ifdef IMPLEMENTATION</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor"></span><a class="code" href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a>(dm, Scores_CountFragsRemaining)</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;{</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="comment">// announce remaining frags</span></div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
+<div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../dd/d7b/gamemode__deathmatch_8qc.html#ad356c4d5c61d4e93477ee5ca03ec4884">    3</a></span>&#160;<a class="code" href="../../dd/d7b/gamemode__deathmatch_8qc.html#ad356c4d5c61d4e93477ee5ca03ec4884">MUTATOR_HOOKFUNCTION</a>(dm, Scores_CountFragsRemaining)</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="comment">// announce remaining frags</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;}</div>
 <div class="ttc" id="gamemode__deathmatch_8qh_html"><div class="ttname"><a href="../../d1/dc9/gamemode__deathmatch_8qh.html">gamemode_deathmatch.qh</a></div></div>
-<div class="ttc" id="base_8qh_html_a18b6800f2d1093efff7a7c8fcdae7f40"><div class="ttname"><a href="../../db/d38/base_8qh.html#a18b6800f2d1093efff7a7c8fcdae7f40">MUTATOR_ONROLLBACK_OR_REMOVE</a></div><div class="ttdeci">#define MUTATOR_ONROLLBACK_OR_REMOVE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00289">base.qh:289</a></div></div>
-<div class="ttc" id="cl__minigames_8qc_html_a773e99859421bd3313ccb6d4266033ed"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#a773e99859421bd3313ccb6d4266033ed">MUTATOR_HOOKFUNCTION</a></div><div class="ttdeci">MUTATOR_HOOKFUNCTION(minigames, HUD_Command)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/cl__minigames_8qc_source.html#l00390">cl_minigames.qc:390</a></div></div>
-<div class="ttc" id="gamemode__deathmatch_8qc_html_a26b37d54f61938acc3c95c460522cb62"><div class="ttname"><a href="../../dd/d7b/gamemode__deathmatch_8qc.html#a26b37d54f61938acc3c95c460522cb62">REGISTER_MUTATOR</a></div><div class="ttdeci">REGISTER_MUTATOR(dm, false)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7b/gamemode__deathmatch_8qc_source.html#l00005">gamemode_deathmatch.qc:5</a></div></div>
-<div class="ttc" id="pre_8qh_html_a0c5e59a7caaa02f887d077eaa467f209"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a></div><div class="ttdeci">#define error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00006">pre.qh:6</a></div></div>
-<div class="ttc" id="base_8qh_html_ac878b5fd9ca1fd639fca3f72e12c582e"><div class="ttname"><a href="../../db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e">MUTATOR_ONREMOVE</a></div><div class="ttdeci">#define MUTATOR_ONREMOVE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00288">base.qh:288</a></div></div>
-<div class="ttc" id="base_8qh_html_a1003ef6b08686c5c841fc6a4e8428992"><div class="ttname"><a href="../../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992">MUTATOR_ONADD</a></div><div class="ttdeci">#define MUTATOR_ONADD</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00287">base.qh:287</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
+<div class="ttc" id="gamemode__deathmatch_8qc_html_ad356c4d5c61d4e93477ee5ca03ec4884"><div class="ttname"><a href="../../dd/d7b/gamemode__deathmatch_8qc.html#ad356c4d5c61d4e93477ee5ca03ec4884">MUTATOR_HOOKFUNCTION</a></div><div class="ttdeci">MUTATOR_HOOKFUNCTION(dm, Scores_CountFragsRemaining)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7b/gamemode__deathmatch_8qc_source.html#l00003">gamemode_deathmatch.qc:3</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../dd/d7b/gamemode__deathmatch_8qc.html">gamemode_deathmatch.qc</a></li>
-    <li class="footer">Generated on Sun Aug 21 2016 06:34:49 for Xonotic by
+    <li class="footer">Generated on Sun Aug 21 2016 07:36:20 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

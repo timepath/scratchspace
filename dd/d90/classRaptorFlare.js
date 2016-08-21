@@ -27,7 +27,6 @@ var classRaptorFlare =
     [ "bot_pickupbasevalue", "dd/d90/classRaptorFlare.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "dd/d90/classRaptorFlare.html#a89098fa5b38ab331dd66ef986bd2cacc", null ],
     [ "m_id", "dd/d90/classRaptorFlare.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "dd/d90/classRaptorFlare.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "dd/d90/classRaptorFlare.html#a1571e947669fddff894ceabfe3cdab9b", null ],
     [ "mdl", "dd/d90/classRaptorFlare.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "dd/d90/classRaptorFlare.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

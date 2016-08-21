@@ -27,7 +27,6 @@ var classHagar =
     [ "bot_pickupbasevalue", "d4/d87/classHagar.html#aa73cd57b3321d3f2fea34b4e62dbd7b6", null ],
     [ "impulse", "d4/d87/classHagar.html#a766b99c641b6edf45fc811b21747a8f5", null ],
     [ "m_id", "d4/d87/classHagar.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d4/d87/classHagar.html#a02a6c5f375375967112aca976c008b99", null ],
     [ "m_name", "d4/d87/classHagar.html#a11327b484b6a3417024bef2a1c91c653", null ],
     [ "mdl", "d4/d87/classHagar.html#aff52b16f5e232f9aaec1b24ae8cf43b8", null ],
     [ "model2", "d4/d87/classHagar.html#a09a0dc1abbc14dadf57cdd074a981066", null ],

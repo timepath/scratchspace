@@ -27,7 +27,6 @@ var classFireball =
     [ "bot_pickupbasevalue", "d1/dd1/classFireball.html#a6d2c84f0a32544542dfbb29f8a078ef6", null ],
     [ "impulse", "d1/dd1/classFireball.html#af6941bfadd7f32ced9be9b65094f2925", null ],
     [ "m_id", "d1/dd1/classFireball.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d1/dd1/classFireball.html#a752e83d25e3e5924f96705e5851c6cbf", null ],
     [ "m_name", "d1/dd1/classFireball.html#a2dfd166425af0e8e7e79d69521c772ab", null ],
     [ "mdl", "d1/dd1/classFireball.html#ac4b2b4b4ad590844a6dd17e0bf33c58f", null ],
     [ "model2", "d1/dd1/classFireball.html#a5b593deca3425852248db9449ad10f6b", null ],

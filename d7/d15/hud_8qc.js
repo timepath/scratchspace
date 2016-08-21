@@ -2,6 +2,7 @@ var hud_8qc =
 [
     [ "calc_followmodel_ofs", "d7/d15/hud_8qc.html#a431d7c5844117b08d49e16c53095b9ea", null ],
     [ "CSQC_BUMBLE_GUN_HUD", "d7/d15/hud_8qc.html#aeb5a957125115e4514fce07b3ce1382e", null ],
+    [ "CSQCModel_server2csqc", "d7/d15/hud_8qc.html#a73d0507b397c6e606b96e5008de41cb4", null ],
     [ "DrawNumIcon", "d7/d15/hud_8qc.html#ab759ef9e1fd17c4db35cda4c2c81185e", null ],
     [ "DrawNumIcon_expanding", "d7/d15/hud_8qc.html#a30a9e84c413165ede06e60d7198bbb58", null ],
     [ "Hud_Dynamic_Frame", "d7/d15/hud_8qc.html#ad7ec85390e221721fcceeff66b7f663f", null ],
@@ -9,6 +10,7 @@ var hud_8qc =
     [ "HUD_GetRowCount", "d7/d15/hud_8qc.html#aa2a5280f52a32d302277253736cc04bb", null ],
     [ "HUD_GetTableSize_BestItemAR", "d7/d15/hud_8qc.html#abed4aa2c37e69cf8b4fdeab69c7e0076", null ],
     [ "HUD_Main", "d7/d15/hud_8qc.html#a8e30e71e308ccc423418bb41350e3e05", null ],
+    [ "HUD_Minigame_Showpanels", "d7/d15/hud_8qc.html#aebe761a14e69337b71709a90371dd057", null ],
     [ "HUD_Panel_CheckFlags", "d7/d15/hud_8qc.html#a85147ac974f6be1f49ce5d6051eb10ab", null ],
     [ "HUD_Panel_Draw", "d7/d15/hud_8qc.html#a477579f205512e6fa5cda9053148bb69", null ],
     [ "HUD_Panel_DrawHighlight", "d7/d15/hud_8qc.html#af418523148eadb307130a0533421e586", null ],

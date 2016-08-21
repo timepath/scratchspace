@@ -15,7 +15,6 @@ var searchData=
   ['bitset_5fassign',['BITSET_ASSIGN',['../d7/d71/lib_2warpzone_2common_8qh.html#a291fdc4bb7f7020fe81291cd0e43aec6',1,'common.qh']]],
   ['bitxor',['BITXOR',['../d7/d71/lib_2warpzone_2common_8qh.html#aeddccd5915d0704cb965477446707db5',1,'common.qh']]],
   ['bitxor_5fassign',['BITXOR_ASSIGN',['../d7/d71/lib_2warpzone_2common_8qh.html#af237b225c4ce5816d3d14362818addab',1,'common.qh']]],
-  ['blocked',['blocked',['../d3/dd0/self_8qh.html#a1414ee28d5dec4598fa8d1919254248b',1,'self.qh']]],
   ['bool',['bool',['../d4/dfb/lib_2__all_8inc.html#abb452686968e48b67397da5f97445f5b',1,'_all.inc']]],
   ['boolean',['boolean',['../dd/d54/bool_8qh.html#a8b6d61ae40e2024b8c201bf4f433986c',1,'bool.qh']]],
   ['bot_5fexec_5fstatus_5fidle',['BOT_EXEC_STATUS_IDLE',['../d8/d14/scripting_8qh.html#a506fa9981c1de20287892b18f89c8dad',1,'scripting.qh']]],
@@ -24,10 +23,11 @@ var searchData=
   ['bprintf',['bprintf',['../d5/df2/common_2util_8qh.html#af6b5f7d19eecec1c5243980c998216a6',1,'util.qh']]],
   ['bt_5fcvar_5fset',['bt_cvar_set',['../db/da0/log_8qh.html#ac3d6e7493c5d9f48b1eff4ccd469507d',1,'log.qh']]],
   ['buf_5fcreate',['buf_create',['../d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c',1,'buf_create():&#160;dpextensions.qh'],['../d0/d95/menudefs_8qh.html#a9b88d1543a84de9785952d34dedb754c',1,'buf_create():&#160;menudefs.qh']]],
-  ['buff_5fspawnfunc',['BUFF_SPAWNFUNC',['../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a5fd3b877c71ac6bbfce55c1a8cc9ca9d',1,'all.qh']]],
-  ['buff_5fspawnfunc_5fq3ta_5fcompat',['BUFF_SPAWNFUNC_Q3TA_COMPAT',['../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a9997ae86c804cc3f269fd9e5e897085f',1,'all.qh']]],
-  ['buff_5fspawnfuncs',['BUFF_SPAWNFUNCS',['../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3',1,'all.qh']]],
-  ['buffs_5fall_5fh',['BUFFS_ALL_H',['../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a880b0fdd8b412a192b746d44bb00841d',1,'all.qh']]],
-  ['buffs_5ffrom',['Buffs_from',['../d1/dd4/common_2mutators_2mutator_2buffs_2all_8qh.html#a973bc70bb709b2a072ba5f1132c9c5e0',1,'all.qh']]],
-  ['buffs_5fstat',['BUFFS_STAT',['../df/dae/player_8qh.html#a6f91fe72ae285d61537e8d41d600c127',1,'player.qh']]]
+  ['buff_5fonadd',['BUFF_ONADD',['../d2/dac/sv__buffs_8qc.html#a8a4a5cd8a94e69dcd4a753bb7eece163',1,'sv_buffs.qc']]],
+  ['buff_5fonrem',['BUFF_ONREM',['../d2/dac/sv__buffs_8qc.html#a46844ec3711dd4b9f71323d503cd5556',1,'sv_buffs.qc']]],
+  ['buff_5fspawnfunc',['BUFF_SPAWNFUNC',['../d6/d85/buffs_8qh.html#a5fd3b877c71ac6bbfce55c1a8cc9ca9d',1,'buffs.qh']]],
+  ['buff_5fspawnfunc_5fq3ta_5fcompat',['BUFF_SPAWNFUNC_Q3TA_COMPAT',['../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f',1,'buffs.qh']]],
+  ['buff_5fspawnfuncs',['BUFF_SPAWNFUNCS',['../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3',1,'buffs.qh']]],
+  ['buffs_5ffrom',['Buffs_from',['../d6/d85/buffs_8qh.html#a973bc70bb709b2a072ba5f1132c9c5e0',1,'buffs.qh']]],
+  ['buffs_5fstat',['BUFFS_STAT',['../de/d70/common_2physics_2player_8qh.html#a6f91fe72ae285d61537e8d41d600c127',1,'player.qh']]]
 ];

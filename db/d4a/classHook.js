@@ -28,7 +28,6 @@ var classHook =
     [ "bot_pickupbasevalue", "db/d4a/classHook.html#a4db172fd5de18e582c2aefcd7124087b", null ],
     [ "impulse", "db/d4a/classHook.html#aa36489e999607ea0c02344e86f0349cc", null ],
     [ "m_id", "db/d4a/classHook.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "db/d4a/classHook.html#a2c44b961a7555cb177d539f60d10d904", null ],
     [ "m_name", "db/d4a/classHook.html#a8295741ee9b8a02375d724d1a5c08a00", null ],
     [ "mdl", "db/d4a/classHook.html#ab0e92b71baa0432b2ba02172122fcd3e", null ],
     [ "model2", "db/d4a/classHook.html#a82a0db5347dd6f81d181dd0d444eb61f", null ],

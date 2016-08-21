@@ -27,7 +27,6 @@ var classMineLayer =
     [ "bot_pickupbasevalue", "d3/da9/classMineLayer.html#a81f22076374063c0ac3a8bdb2e35ca3b", null ],
     [ "impulse", "d3/da9/classMineLayer.html#ac72896c0e96c0f0bf6c088cb153ca74e", null ],
     [ "m_id", "d3/da9/classMineLayer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d3/da9/classMineLayer.html#a507f53c14bb28174e43cc38cd13511c8", null ],
     [ "m_name", "d3/da9/classMineLayer.html#af922e49df9b6ab1700cdb2d3f3bbb9d5", null ],
     [ "mdl", "d3/da9/classMineLayer.html#a0495da57f2ea15799bb58ca5ce313c9a", null ],
     [ "model2", "d3/da9/classMineLayer.html#a35cd64372114dee923ac53b97c0fdd1b", null ],

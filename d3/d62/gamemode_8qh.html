@@ -107,32 +107,81 @@ $(document).ready(function(){initNavTree('d3/d62/gamemode_8qh.html','../../');})
 <div class="title">gamemode.qh File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;<a class="el" href="../../d1/d30/cl__client_8qh_source.html">server/cl_client.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d7/d95/server_2cl__player_8qh_source.html">server/cl_player.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d4/dd3/cl__impulse_8qh_source.html">server/cl_impulse.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d3/dca/cheats_8qh_source.html">server/cheats.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../dd/de4/g__damage_8qh_source.html">server/g_damage.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d7/d97/g__world_8qh_source.html">server/g_world.qh</a>&gt;</code><br/>
+<div class="textblock"><code>#include &lt;<a class="el" href="../../d7/d97/g__world_8qh_source.html">server/g_world.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../db/d20/round__handler_8qh_source.html">server/round_handler.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d3/dcd/scores_8qh_source.html">server/scores.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d6/d4e/scores__rules_8qh_source.html">server/scores_rules.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d2/d76/teamplay_8qh_source.html">server/teamplay.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../db/d15/api_8qh_source.html">server/bot/api.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d7/d16/server_2command_2vote_8qh_source.html">server/command/vote.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d8/d9c/common_2monsters_2all_8qh_source.html">common/monsters/all.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html">server/command/common.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d4/d3f/tracing_8qh_source.html">server/weapons/tracing.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../da/db7/weaponsystem_8qh_source.html">server/weapons/weaponsystem.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../df/dae/player_8qh_source.html">common/physics/player.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d5/d42/common_2effects_2qc_2all_8qh_source.html">common/effects/qc/all.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../db/dab/common_2deathtypes_2all_8qh_source.html">common/deathtypes/all.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../dc/de5/common_2notifications_2all_8qh_source.html">common/notifications/all.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../dd/d2d/teleporters_8qh_source.html">common/triggers/teleporters.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../db/d2f/subs_8qh_source.html">common/triggers/subs.qh</a>&gt;</code><br/>
+<code>#include &quot;<a class="el" href="../../d0/d9c/mutator_8qh_source.html">mutator.qh</a>&quot;</code><br/>
+<code>#include &lt;<a class="el" href="../../df/dee/anglestransform_8qh_source.html">lib/warpzone/anglestransform.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html">lib/warpzone/common.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d3/d9b/util__server_8qh_source.html">lib/warpzone/util_server.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d7/dd4/server_8qh_source.html">lib/warpzone/server.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d0/d8b/common_2constants_8qh_source.html">common/constants.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../d7/d5c/common_2stats_8qh_source.html">common/stats.qh</a>&gt;</code><br/>
 <code>#include &lt;<a class="el" href="../../db/d07/teams_8qh_source.html">common/teams.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d7/dd4/server_8qh_source.html">lib/warpzone/server.qh</a>&gt;</code><br/>
-<code>#include &lt;<a class="el" href="../../d3/d9b/util__server_8qh_source.html">lib/warpzone/util_server.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d5/df2/common_2util_8qh_source.html">common/util.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d9/df2/common_2command_2__mod_8qh_source.html">common/command/_mod.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dd/da3/net__notice_8qh_source.html">common/net_notice.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d3/d42/animdecide_8qh_source.html">common/animdecide.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../df/d52/monsters_2all_8qh_source.html">common/monsters/all.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d8/dc1/sv__monsters_8qh_source.html">common/monsters/sv_monsters.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d0/de9/monsters_2spawn_8qh_source.html">common/monsters/spawn.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d2/d3b/weapons_2config_8qh_source.html">common/weapons/config.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d7/d7a/common_2weapons_2__all_8qh_source.html">common/weapons/_all.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d3/d2d/accuracy_8qh_source.html">server/weapons/accuracy.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d1/dba/server_2weapons_2common_8qh_source.html">server/weapons/common.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d9/d35/csqcprojectile_8qh_source.html">server/weapons/csqcprojectile.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dc/d8b/hitplot_8qh_source.html">server/weapons/hitplot.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d8/d6b/selection_8qh_source.html">server/weapons/selection.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d3/d93/spawning_8qh_source.html">server/weapons/spawning.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../de/d58/throwing_8qh_source.html">server/weapons/throwing.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d4/d3f/tracing_8qh_source.html">server/weapons/tracing.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d9/df0/weaponstats_8qh_source.html">server/weapons/weaponstats.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../da/db7/weaponsystem_8qh_source.html">server/weapons/weaponsystem.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../de/d75/t__items_8qh_source.html">common/t_items.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html">server/autocvars.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d9/de7/server_2constants_8qh_source.html">server/constants.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d5/d26/server_2defs_8qh_source.html">server/defs.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dc/d8f/notifications_2all_8qh_source.html">common/notifications/all.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d9/d4f/deathtypes_2all_8qh_source.html">common/deathtypes/all.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../df/d28/sv__turrets_8qh_source.html">common/turrets/sv_turrets.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../db/d83/vehicles_2all_8qh_source.html">common/vehicles/all.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dd/d66/server_2campaign_8qh_source.html">server/campaign.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d7/d13/campaign__common_8qh_source.html">common/campaign_common.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d2/d9e/mapinfo_8qh_source.html">common/mapinfo.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d2/d06/server_2command_2common_8qh_source.html">server/command/common.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../de/dbd/banning_8qh_source.html">server/command/banning.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d4/d3c/radarmap_8qh_source.html">server/command/radarmap.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d7/d16/server_2command_2vote_8qh_source.html">server/command/vote.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d2/de3/getreplies_8qh_source.html">server/command/getreplies.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d8/d4c/cmd_8qh_source.html">server/command/cmd.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d2/dcc/sv__cmd_8qh_source.html">server/command/sv_cmd.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d1/d20/csqcmodel__settings_8qh_source.html">common/csqcmodel_settings.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d5/df7/lib_2csqcmodel_2common_8qh_source.html">lib/csqcmodel/common.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d3/d64/sv__model_8qh_source.html">lib/csqcmodel/sv_model.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dc/dff/anticheat_8qh_source.html">server/anticheat.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d3/dca/cheats_8qh_source.html">server/cheats.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../db/daf/playerstats_8qh_source.html">common/playerstats.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d2/d21/portals_8qh_source.html">server/portals.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d7/de1/g__hook_8qh_source.html">server/g_hook.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d4/dd1/spawnpoints_8qh_source.html">server/spawnpoints.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d3/d53/server_2mapvoting_8qh_source.html">server/mapvoting.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../da/ddd/ipban_8qh_source.html">server/ipban.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d0/dd2/antilag_8qh_source.html">server/antilag.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d5/dd1/playerdemo_8qh_source.html">server/playerdemo.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d5/d8f/item__key_8qh_source.html">server/item_key.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dd/d70/pathlib_8qh_source.html">server/pathlib/pathlib.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d8/de2/server_2client_8qh_source.html">server/client.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../da/dc1/server_2player_8qh_source.html">server/player.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d3/dd1/server_2impulse_8qh_source.html">server/impulse.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dd/de4/g__damage_8qh_source.html">server/g_damage.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../db/d15/api_8qh_source.html">server/bot/api.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../d2/d9b/server_2command_2__mod_8qh_source.html">server/command/_mod.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../de/d70/common_2physics_2player_8qh_source.html">common/physics/player.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dd/d40/effects_2qc_2all_8qh_source.html">common/effects/qc/all.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../dd/d2d/teleporters_8qh_source.html">common/triggers/teleporters.qh</a>&gt;</code><br/>
+<code>#include &lt;<a class="el" href="../../db/d2f/subs_8qh_source.html">common/triggers/subs.qh</a>&gt;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for gamemode.qh:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -186,7 +235,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00039">39</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00103">103</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00097">CA_CheckTeams()</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00006">CA_count_alive_players()</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00026">CA_GetWinnerTeam()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00041">freezetag_CheckTeams()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00017">freezetag_count_alive_players()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00075">freezetag_getWinnerTeam()</a>.</p>
 
 </div>
 </div>
@@ -200,7 +251,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00041">41</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00105">105</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
 
 </div>
 </div>
@@ -214,7 +265,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00037">37</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00101">101</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
 
 </div>
 </div>
@@ -228,7 +279,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00039">39</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00103">103</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00097">CA_CheckTeams()</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00006">CA_count_alive_players()</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00026">CA_GetWinnerTeam()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00041">freezetag_CheckTeams()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00017">freezetag_count_alive_players()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00075">freezetag_getWinnerTeam()</a>.</p>
 
 </div>
 </div>
@@ -242,7 +295,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00043">43</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00107">107</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
 
 </div>
 </div>
@@ -256,7 +309,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00039">39</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00103">103</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00097">CA_CheckTeams()</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00006">CA_count_alive_players()</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00026">CA_GetWinnerTeam()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00041">freezetag_CheckTeams()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00017">freezetag_count_alive_players()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00075">freezetag_getWinnerTeam()</a>.</p>
 
 </div>
 </div>
@@ -270,7 +325,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00040">40</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00104">104</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
 
 </div>
 </div>
@@ -284,7 +339,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00038">38</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00102">102</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00097">CA_CheckTeams()</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00006">CA_count_alive_players()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00041">freezetag_CheckTeams()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00017">freezetag_count_alive_players()</a>.</p>
 
 </div>
 </div>
@@ -298,7 +355,9 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00039">39</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00103">103</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00097">CA_CheckTeams()</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00006">CA_count_alive_players()</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00026">CA_GetWinnerTeam()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00041">freezetag_CheckTeams()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00017">freezetag_count_alive_players()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00075">freezetag_getWinnerTeam()</a>.</p>
 
 </div>
 </div>
@@ -312,7 +371,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00042">42</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00106">106</a> of file <a class="el" href="../../d3/d62/gamemode_8qh_source.html">gamemode.qh</a>.</p>
 
 </div>
 </div>
@@ -322,7 +381,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d3/d62/gamemode_8qh.html">gamemode.qh</a></li>
-    <li class="footer">Generated on Sun Aug 21 2016 06:34:59 for Xonotic by
+    <li class="footer">Generated on Sun Aug 21 2016 07:36:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

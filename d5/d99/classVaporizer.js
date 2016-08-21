@@ -27,7 +27,6 @@ var classVaporizer =
     [ "bot_pickupbasevalue", "d5/d99/classVaporizer.html#a1b01884770cf782e1003225a352033dd", null ],
     [ "impulse", "d5/d99/classVaporizer.html#a12b0ba95c9e30c47108c50ac2f2b3901", null ],
     [ "m_id", "d5/d99/classVaporizer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d5/d99/classVaporizer.html#a7095462abbfa455e3adaed21dd639fa1", null ],
     [ "m_name", "d5/d99/classVaporizer.html#a408b94a88d25caa17cafa9a1abefc462", null ],
     [ "mdl", "d5/d99/classVaporizer.html#a7ee206484c7c3f48a7b32aca00ab22b3", null ],
     [ "model2", "d5/d99/classVaporizer.html#a3af421ab69c4ea7c789a44551fe77eb4", null ],

@@ -27,7 +27,6 @@ var classRaptorCannon =
     [ "bot_pickupbasevalue", "d6/d01/classRaptorCannon.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d6/d01/classRaptorCannon.html#a08b28d3fda93d7058ef45040eb566872", null ],
     [ "m_id", "d6/d01/classRaptorCannon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d6/d01/classRaptorCannon.html#a8acb91e35e239c72604a1067304cc3b5", null ],
     [ "m_name", "d6/d01/classRaptorCannon.html#a3774cd570d9ebc5b4d96dbcfac13b2fe", null ],
     [ "mdl", "d6/d01/classRaptorCannon.html#aa0a5f1de6ba7228907295012902a136a", null ],
     [ "model2", "d6/d01/classRaptorCannon.html#a2ccedc667a5772b3d2c7579255c96da7", null ],

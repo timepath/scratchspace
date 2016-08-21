@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['scoreteam',['ScoreTeam',['../d0/d8b/common_2constants_8qh.html#a3369f48f67ca00aed944e7884e354ba0',1,'constants.qh']]],
-  ['spawn_5fevalfunc_5ft',['spawn_evalfunc_t',['../d5/d26/server_2defs_8qh.html#a5f15c96eff24340165e9e43c1e64a499',1,'defs.qh']]],
-  ['stream',['Stream',['../dd/d69/net_8qh.html#a0bb8b8c115905df16cbe81f7431e671a',1,'net.qh']]],
-  ['swapfunc_5ft',['swapfunc_t',['../db/def/sort_8qh.html#ad8f0562632e6f98768f7b9201e0fe51e',1,'sort.qh']]]
+  ['textlengthuptolength_5flenfunction_5ft',['textLengthUpToLength_lenFunction_t',['../d5/df2/common_2util_8qh.html#ad0749a19efcd793d906512a9ab0fb724',1,'util.qh']]],
+  ['textlengthuptowidth_5fwidthfunction_5ft',['textLengthUpToWidth_widthFunction_t',['../d5/df2/common_2util_8qh.html#ab6ce70197d8d30a9bf214de04e868e61',1,'util.qh']]]
 ];

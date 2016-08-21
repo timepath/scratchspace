@@ -27,7 +27,6 @@ var classRifle =
     [ "bot_pickupbasevalue", "d0/d81/classRifle.html#a62733317377efccb19770f9b187ae35c", null ],
     [ "impulse", "d0/d81/classRifle.html#a410842e36facf9d2068da07c63b7f0c1", null ],
     [ "m_id", "d0/d81/classRifle.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d0/d81/classRifle.html#ae5a8b21ae1800f42fefba6bba9221367", null ],
     [ "m_name", "d0/d81/classRifle.html#a114db77fd45b97efe2ca431d3d2f6c3b", null ],
     [ "mdl", "d0/d81/classRifle.html#a24cb9d80ab139b942d7c90d93e55e0b5", null ],
     [ "model2", "d0/d81/classRifle.html#a81d93745e5d0f0d0f1967b4a4eaeda16", null ],

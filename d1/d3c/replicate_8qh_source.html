@@ -107,16 +107,16 @@ $(document).ready(function(){initNavTree('d1/d3c/replicate_8qh_source.html','../
 <div class="contents">
 <a href="../../d1/d3c/replicate_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#pragma once</span></div>
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifndef MENUQC</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#af6967d3010cf381a4e779760b57a960c">   12</a></span>&#160;<span class="preprocessor">    #define REPLICATE(...) EVAL_REPLICATE(OVERLOAD(REPLICATE, __VA_ARGS__))</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#a07c05cb7034d9bf23e5fd877ab8d20a4">   13</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define EVAL_REPLICATE(...) __VA_ARGS__</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">    #define REPLICATE(...) EVAL_REPLICATE(OVERLOAD(REPLICATE, __VA_ARGS__))</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define EVAL_REPLICATE(...) __VA_ARGS__</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#a2b1bdacc972d8a53bdbe820b3fabd706">   15</a></span>&#160;    [[accumulate]] <span class="keywordtype">void</span> <a class="code" href="../../d1/d3c/replicate_8qh.html#a2b1bdacc972d8a53bdbe820b3fabd706">ReplicateVars</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <span class="keywordtype">string</span> thisname, <span class="keywordtype">int</span> i) {}</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    [[accumulate]] <span class="keywordtype">void</span> ReplicateVars(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <span class="keywordtype">string</span> thisname, <span class="keywordtype">int</span> i) {}</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#a1cef10b732646019314765043d29fcd7">   17</a></span>&#160;<span class="preprocessor">    #define REPLICATE_3(fld, type, var) REPLICATE_4(fld, type, var, )</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#a5b37786d25d121fc3f2ced3a1a3c124d">   18</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REPLICATE_4(fld, type, var, func) REPLICATE_##type(fld, var, func)</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#ac4f089b7a8bea09134cb584a97e7f9bc">   19</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REPLICATE_string(fld, var, func) \</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">    #define REPLICATE_3(fld, type, var) REPLICATE_4(fld, type, var, )</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REPLICATE_4(fld, type, var, func) REPLICATE_##type(fld, var, func)</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REPLICATE_string(fld, var, func) \</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">        REPLICATE_7(fld, string, var, , \</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">    { if (field) strunzone(field); field = strzone(it); }, \</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">    { if (field) strunzone(field); field = string_null; }, \</span></div>
@@ -129,9 +129,9 @@ $(document).ready(function(){initNavTree('d1/d3c/replicate_8qh_source.html','../
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<span class="preprocessor">            field = strzone(s); \</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">        } \</span></div>
 <div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">    })</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#a304db5c611fb8b7b6546e188dc4ef35d">   32</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REPLICATE_float(fld, var, func) REPLICATE_7(fld, float, var, func,  { field = stof(it); },          , )</span></div>
-<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#ac4dcb811fc75783114c63db151c40bc9">   33</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REPLICATE_bool(fld, var, func) REPLICATE_7(fld, bool, var, func,   { field = boolean(stoi(it)); }, , )</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d1/d3c/replicate_8qh.html#a2c9841723c4440e11d7e2b6321bcb120">   34</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REPLICATE_int(fld, var, func) REPLICATE_7(fld, int, var, func,    { field = stoi(it); },          , )</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REPLICATE_float(fld, var, func) REPLICATE_7(fld, float, var, func,  { field = stof(it); },          , )</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REPLICATE_bool(fld, var, func) REPLICATE_7(fld, bool, var, func,   { field = boolean(stoi(it)); }, , )</span></div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;<span class="preprocessor"></span><span class="preprocessor">    #define REPLICATE_int(fld, var, func) REPLICATE_7(fld, int, var, func,    { field = stoi(it); },          , )</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<span class="preprocessor">    #if defined(SVQC)</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #define REPLICATE_7(fld, type, var, func, create, destroy, after) \</span></div>
@@ -162,14 +162,13 @@ $(document).ready(function(){initNavTree('d1/d3c/replicate_8qh_source.html','../
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="replicate_8qh_html_a2b1bdacc972d8a53bdbe820b3fabd706"><div class="ttname"><a href="../../d1/d3c/replicate_8qh.html#a2b1bdacc972d8a53bdbe820b3fabd706">ReplicateVars</a></div><div class="ttdeci">void ReplicateVars(entity this, string thisname, int i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d3c/replicate_8qh_source.html#l00015">replicate.qh:15</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d1/d3c/replicate_8qh.html">replicate.qh</a></li>
-    <li class="footer">Generated on Sun Aug 21 2016 06:34:47 for Xonotic by
+    <li class="footer">Generated on Sun Aug 21 2016 07:36:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

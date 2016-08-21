@@ -1,6 +1,5 @@
 var sv__generator_8qh =
 [
-    [ "GENERATOR_H", "d5/d0a/sv__generator_8qh.html#a645690cfb9a3a9d36e5b8ead2953583b", null ],
     [ "generator_send", "d5/d0a/sv__generator_8qh.html#a8cc2a1b0e51e60f0e3609fbb9f14303e", null ],
     [ "GENERATOR_MAX", "d5/d0a/sv__generator_8qh.html#a30a6eafcda0de600eba335d8fd3945ff", null ],
     [ "GENERATOR_MIN", "d5/d0a/sv__generator_8qh.html#a1b56872c0cd07a007df32af23809fa7d", null ],

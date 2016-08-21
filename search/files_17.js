@@ -1,7 +1,9 @@
 var searchData=
 [
   ['walk_2eqc',['walk.qc',['../de/d57/walk_8qc.html',1,'']]],
+  ['walk_2eqh',['walk.qh',['../de/d2b/walk_8qh.html',1,'']]],
   ['walker_2eqc',['walker.qc',['../db/d5c/walker_8qc.html',1,'']]],
+  ['walker_2eqh',['walker.qh',['../dc/d36/walker_8qh.html',1,'']]],
   ['walker_5fweapon_2eqc',['walker_weapon.qc',['../df/d71/walker__weapon_8qc.html',1,'']]],
   ['walker_5fweapon_2eqh',['walker_weapon.qh',['../d3/dd9/walker__weapon_8qh.html',1,'']]],
   ['wall_2eqc',['wall.qc',['../d1/d8d/wall_8qc.html',1,'']]],
@@ -11,8 +13,8 @@ var searchData=
   ['waypointsprites_2eqc',['waypointsprites.qc',['../db/dc5/waypointsprites_8qc.html',1,'']]],
   ['waypointsprites_2eqh',['waypointsprites.qh',['../d8/d59/waypointsprites_8qh.html',1,'']]],
   ['weapon_2eqc',['weapon.qc',['../dc/d69/weapon_8qc.html',1,'']]],
-  ['weapon_2eqh',['weapon.qh',['../dc/d1c/weapon_8qh.html',1,'']]],
-  ['weaponarena_5frandom_2eqc',['weaponarena_random.qc',['../de/d8d/weaponarena__random_8qc.html',1,'']]],
+  ['weapon_2eqh',['weapon.qh',['../da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh.html',1,'']]],
+  ['weapon_2eqh',['weapon.qh',['../d2/d1c/weapons_2weapon_8qh.html',1,'']]],
   ['weaponarenacheckbox_2eqc',['weaponarenacheckbox.qc',['../d1/df3/weaponarenacheckbox_8qc.html',1,'']]],
   ['weaponarenacheckbox_2eqh',['weaponarenacheckbox.qh',['../d5/d16/weaponarenacheckbox_8qh.html',1,'']]],
   ['weapons_2eqc',['weapons.qc',['../d4/def/weapons_8qc.html',1,'']]],
@@ -23,5 +25,6 @@ var searchData=
   ['weaponstats_2eqh',['weaponstats.qh',['../d9/df0/weaponstats_8qh.html',1,'']]],
   ['weaponsystem_2eqc',['weaponsystem.qc',['../d5/de0/weaponsystem_8qc.html',1,'']]],
   ['weaponsystem_2eqh',['weaponsystem.qh',['../da/db7/weaponsystem_8qh.html',1,'']]],
-  ['wyvern_2eqc',['wyvern.qc',['../d9/d39/wyvern_8qc.html',1,'']]]
+  ['wyvern_2eqc',['wyvern.qc',['../d9/d39/wyvern_8qc.html',1,'']]],
+  ['wyvern_2eqh',['wyvern.qh',['../dd/d94/wyvern_8qh.html',1,'']]]
 ];

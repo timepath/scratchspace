@@ -106,37 +106,53 @@ $(document).ready(function(){initNavTree('df/d16/common_2triggers_2trigger_2__mo
 </div><!--header-->
 <div class="contents">
 <a href="../../df/d16/common_2triggers_2trigger_2__mod_8qh.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="comment">// generated file; do not modify</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/counter.qh&gt;</span></div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/delay.qh&gt;</span></div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/disablerelay.qh&gt;</span></div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/flipflop.qh&gt;</span></div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/gamestart.qh&gt;</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/gravity.qh&gt;</span></div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/heal.qh&gt;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/hurt.qh&gt;</span></div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/ddc/impulse_8qh.html">common/triggers/trigger/impulse.qh</a>&gt;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d3/d9c/counter_8qh.html">common/triggers/trigger/counter.qh</a>&gt;</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d8/d03/delay_8qh.html">common/triggers/trigger/delay.qh</a>&gt;</span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/d9c/disablerelay_8qh.html">common/triggers/trigger/disablerelay.qh</a>&gt;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/d37/flipflop_8qh.html">common/triggers/trigger/flipflop.qh</a>&gt;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d4/d08/gamestart_8qh.html">common/triggers/trigger/gamestart.qh</a>&gt;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d2/d3d/gravity_8qh.html">common/triggers/trigger/gravity.qh</a>&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/d9d/heal_8qh.html">common/triggers/trigger/heal.qh</a>&gt;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/ddc/hurt_8qh.html">common/triggers/trigger/hurt.qh</a>&gt;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../df/d4a/common_2triggers_2trigger_2impulse_8qh.html">common/triggers/trigger/impulse.qh</a>&gt;</span></div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d5/d5f/trigger_2include_8qh.html">common/triggers/trigger/include.qh</a>&gt;</span></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/de7/jumppads_8qh.html">common/triggers/trigger/jumppads.qh</a>&gt;</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d1/d4c/keylock_8qh.html">common/triggers/trigger/keylock.qh</a>&gt;</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/magicear.qh&gt;</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/monoflop.qh&gt;</span></div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/d70/magicear_8qh.html">common/triggers/trigger/magicear.qh</a>&gt;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d0/de4/monoflop_8qh.html">common/triggers/trigger/monoflop.qh</a>&gt;</span></div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../dc/d12/multi_8qh.html">common/triggers/trigger/multi.qh</a>&gt;</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/multivibrator.qh&gt;</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/relay.qh&gt;</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/relay_activators.qh&gt;</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/relay_if.qh&gt;</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/relay_teamcheck.qh&gt;</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d9/d98/multivibrator_8qh.html">common/triggers/trigger/multivibrator.qh</a>&gt;</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../de/d63/relay_8qh.html">common/triggers/trigger/relay.qh</a>&gt;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/de3/relay__activators_8qh.html">common/triggers/trigger/relay_activators.qh</a>&gt;</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/dea/relay__if_8qh.html">common/triggers/trigger/relay_if.qh</a>&gt;</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../df/d9e/relay__teamcheck_8qh.html">common/triggers/trigger/relay_teamcheck.qh</a>&gt;</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d6/dc8/secret_8qh.html">common/triggers/trigger/secret.qh</a>&gt;</span></div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/d96/swamp_8qh.html">common/triggers/trigger/swamp.qh</a>&gt;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;common/triggers/trigger/teleport.qh&gt;</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../d7/de4/teleport_8qh.html">common/triggers/trigger/teleport.qh</a>&gt;</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../da/db7/triggers_2trigger_2viewloc_8qh.html">common/triggers/trigger/viewloc.qh</a>&gt;</span></div>
+<div class="ttc" id="relay__activators_8qh_html"><div class="ttname"><a href="../../d7/de3/relay__activators_8qh.html">relay_activators.qh</a></div></div>
+<div class="ttc" id="relay__teamcheck_8qh_html"><div class="ttname"><a href="../../df/d9e/relay__teamcheck_8qh.html">relay_teamcheck.qh</a></div></div>
+<div class="ttc" id="gamestart_8qh_html"><div class="ttname"><a href="../../d4/d08/gamestart_8qh.html">gamestart.qh</a></div></div>
+<div class="ttc" id="delay_8qh_html"><div class="ttname"><a href="../../d8/d03/delay_8qh.html">delay.qh</a></div></div>
+<div class="ttc" id="heal_8qh_html"><div class="ttname"><a href="../../d0/d9d/heal_8qh.html">heal.qh</a></div></div>
+<div class="ttc" id="relay_8qh_html"><div class="ttname"><a href="../../de/d63/relay_8qh.html">relay.qh</a></div></div>
 <div class="ttc" id="jumppads_8qh_html"><div class="ttname"><a href="../../d9/de7/jumppads_8qh.html">jumppads.qh</a></div></div>
 <div class="ttc" id="keylock_8qh_html"><div class="ttname"><a href="../../d1/d4c/keylock_8qh.html">keylock.qh</a></div></div>
+<div class="ttc" id="multivibrator_8qh_html"><div class="ttname"><a href="../../d9/d98/multivibrator_8qh.html">multivibrator.qh</a></div></div>
+<div class="ttc" id="common_2triggers_2trigger_2impulse_8qh_html"><div class="ttname"><a href="../../df/d4a/common_2triggers_2trigger_2impulse_8qh.html">impulse.qh</a></div></div>
+<div class="ttc" id="counter_8qh_html"><div class="ttname"><a href="../../d3/d9c/counter_8qh.html">counter.qh</a></div></div>
 <div class="ttc" id="multi_8qh_html"><div class="ttname"><a href="../../dc/d12/multi_8qh.html">multi.qh</a></div></div>
+<div class="ttc" id="teleport_8qh_html"><div class="ttname"><a href="../../d7/de4/teleport_8qh.html">teleport.qh</a></div></div>
+<div class="ttc" id="disablerelay_8qh_html"><div class="ttname"><a href="../../da/d9c/disablerelay_8qh.html">disablerelay.qh</a></div></div>
 <div class="ttc" id="triggers_2trigger_2viewloc_8qh_html"><div class="ttname"><a href="../../da/db7/triggers_2trigger_2viewloc_8qh.html">viewloc.qh</a></div></div>
+<div class="ttc" id="monoflop_8qh_html"><div class="ttname"><a href="../../d0/de4/monoflop_8qh.html">monoflop.qh</a></div></div>
+<div class="ttc" id="gravity_8qh_html"><div class="ttname"><a href="../../d2/d3d/gravity_8qh.html">gravity.qh</a></div></div>
 <div class="ttc" id="trigger_2include_8qh_html"><div class="ttname"><a href="../../d5/d5f/trigger_2include_8qh.html">include.qh</a></div></div>
-<div class="ttc" id="impulse_8qh_html"><div class="ttname"><a href="../../d3/ddc/impulse_8qh.html">impulse.qh</a></div></div>
+<div class="ttc" id="flipflop_8qh_html"><div class="ttname"><a href="../../d6/d37/flipflop_8qh.html">flipflop.qh</a></div></div>
+<div class="ttc" id="relay__if_8qh_html"><div class="ttname"><a href="../../d6/dea/relay__if_8qh.html">relay_if.qh</a></div></div>
+<div class="ttc" id="magicear_8qh_html"><div class="ttname"><a href="../../d6/d70/magicear_8qh.html">magicear.qh</a></div></div>
 <div class="ttc" id="secret_8qh_html"><div class="ttname"><a href="../../d6/dc8/secret_8qh.html">secret.qh</a></div></div>
+<div class="ttc" id="hurt_8qh_html"><div class="ttname"><a href="../../d7/ddc/hurt_8qh.html">hurt.qh</a></div></div>
 <div class="ttc" id="swamp_8qh_html"><div class="ttname"><a href="../../da/d96/swamp_8qh.html">swamp.qh</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -144,7 +160,7 @@ $(document).ready(function(){initNavTree('df/d16/common_2triggers_2trigger_2__mo
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../dir_68c7af0e850d11bf6ba23fecbd658357.html">trigger</a></li><li class="navelem"><a class="el" href="../../df/d16/common_2triggers_2trigger_2__mod_8qh.html">_mod.qh</a></li>
-    <li class="footer">Generated on Sun Aug 21 2016 06:34:45 for Xonotic by
+    <li class="footer">Generated on Sun Aug 21 2016 07:36:15 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -18,8 +18,6 @@ var vector_8qh =
     [ "boxesoverlap", "de/dcb/vector_8qh.html#a3385b15af8ffd7f5c33d2fbb3a9eb237", null ],
     [ "boxinsidebox", "de/dcb/vector_8qh.html#afc1de7548641f25cb9f3cde38c9ffba9", null ],
     [ "dist_point_line", "de/dcb/vector_8qh.html#ad0ae47bfef31e48d06125b2b2194ba50", null ],
-    [ "get_corner_position", "de/dcb/vector_8qh.html#a924138b089b9ec886046e355aaf46db1", null ],
-    [ "NearestPointOnBox", "de/dcb/vector_8qh.html#a12c555ed0908eefc70c198614713c854", null ],
     [ "randompos", "de/dcb/vector_8qh.html#afa1e5c0be263a77e0c71292ab0a4dd74", null ],
     [ "reflect", "de/dcb/vector_8qh.html#ab167fa7c81f4d5f3092673b05f07c8a3", null ],
     [ "rotate", "de/dcb/vector_8qh.html#af51ffe2b6a299102846ea3cb80677406", null ],

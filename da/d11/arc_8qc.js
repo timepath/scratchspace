@@ -2,26 +2,5 @@ var arc_8qc =
 [
     [ "Arc", "db/d3c/classArc.html", "db/d3c/classArc" ],
     [ "X", "da/d11/arc_8qc.html#a3736dca67d4dece311571a78b7922f63", null ],
-    [ "REGISTER_WEAPON", "da/d11/arc_8qc.html#a9fb7260238a7e686b0bdeed933077ef7", null ],
-    [ "ARC_BT_BURST_HEAL", "da/d11/arc_8qc.html#a857d9532b6c0b1495c548f673bed0b1d", null ],
-    [ "ARC_BT_BURST_HIT", "da/d11/arc_8qc.html#adfe4581ad00a9f3b5d2010f6834c6471", null ],
-    [ "ARC_BT_BURST_MISS", "da/d11/arc_8qc.html#aa1c2bc277fff2e9b73ddc4a29eac365d", null ],
-    [ "ARC_BT_BURST_WALL", "da/d11/arc_8qc.html#ab810654c6ea794f1aecf0c797f879889", null ],
-    [ "ARC_BT_BURSTMASK", "da/d11/arc_8qc.html#af0b4c8eaeea9b1fca2115fab39683032", null ],
-    [ "ARC_BT_HEAL", "da/d11/arc_8qc.html#a0cf969d1d467b545bfc44c649af05a10", null ],
-    [ "ARC_BT_HIT", "da/d11/arc_8qc.html#a1dcb06ff4e5566639d7ca000d9429928", null ],
-    [ "ARC_BT_MISS", "da/d11/arc_8qc.html#a97004c7c8eab7862b363ce6fb52377c4", null ],
-    [ "ARC_BT_WALL", "da/d11/arc_8qc.html#a616affa7ee5fcbef9a3dbd83a450c6cf", null ],
-    [ "ARC_MAX_SEGMENTS", "da/d11/arc_8qc.html#a4cab4f6212185629097adc317474931d", null ],
-    [ "ARC_SF_BEAMDIR", "da/d11/arc_8qc.html#a2d5148d7d8703c7ef1a28e6ac7a89779", null ],
-    [ "ARC_SF_BEAMTYPE", "da/d11/arc_8qc.html#a662304e940e2b0c3f887674498652eb4", null ],
-    [ "ARC_SF_LOCALMASK", "da/d11/arc_8qc.html#a092be77d864c2356cb5f3e62a7093e26", null ],
-    [ "ARC_SF_SETTINGS", "da/d11/arc_8qc.html#a342fcaf8e11a844b1aff8d8204910f06", null ],
-    [ "ARC_SF_START", "da/d11/arc_8qc.html#ae22aabeef8fdc958b44b6d23e8624bdb", null ],
-    [ "ARC_SF_WANTDIR", "da/d11/arc_8qc.html#a23c29954636de13b3c3873f81dcd5b44", null ],
-    [ "arc_shotorigin", "da/d11/arc_8qc.html#a5e978dc38bcbfc8f747e9678ab1e8a85", null ],
-    [ "beam_dir", "da/d11/arc_8qc.html#a06407765d83bb6f589ad86eb7ac15afb", null ],
-    [ "beam_start", "da/d11/arc_8qc.html#afb4b38a6b84893e5b7897d7a8ea9e35b", null ],
-    [ "beam_type", "da/d11/arc_8qc.html#a316f86636ff070ffbd433b22f23dc8d9", null ],
-    [ "beam_wantdir", "da/d11/arc_8qc.html#aada6c43396d5be158b794f179d6ebda4", null ]
+    [ "REGISTER_WEAPON", "da/d11/arc_8qc.html#a9fb7260238a7e686b0bdeed933077ef7", null ]
 ];

@@ -9,7 +9,6 @@ var classWyvern =
     [ "mr_precache", "d1/d93/classWyvern.html#a24b4136b7b62e15cc5df0c04289434ca", null ],
     [ "mr_setup", "d1/d93/classWyvern.html#a84829255027bd85cf33ef0418ef5c975", null ],
     [ "mr_think", "d1/d93/classWyvern.html#adc5acc9cbff0fdce03b8253cfa102777", null ],
-    [ "m_model", "d1/d93/classWyvern.html#a97879a5d08a661c01a7e35ebb46d1c0f", null ],
     [ "maxs", "d1/d93/classWyvern.html#a9c66adcb362b389fd10443830e1900fd", null ],
     [ "mins", "d1/d93/classWyvern.html#a51ab90242c3ec664d84d17f3bda6d4b7", null ],
     [ "monster_name", "d1/d93/classWyvern.html#a18ac98fe25872d77635b782147c6fb9b", null ],

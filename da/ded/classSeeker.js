@@ -27,7 +27,6 @@ var classSeeker =
     [ "bot_pickupbasevalue", "da/ded/classSeeker.html#aa2346884e39312c506a4dc501439286a", null ],
     [ "impulse", "da/ded/classSeeker.html#a17100988ab3f606059c96ecc44e8a3b0", null ],
     [ "m_id", "da/ded/classSeeker.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "da/ded/classSeeker.html#ac8fdc2b1292faa8fcecd4261e507863c", null ],
     [ "m_name", "da/ded/classSeeker.html#a266faeea429eb025691b83856e8e1185", null ],
     [ "mdl", "da/ded/classSeeker.html#a0b3794fed2b4d3aa28518570269fa99d", null ],
     [ "model2", "da/ded/classSeeker.html#a92563cdb776fe17baaecf31b617b0f3f", null ],

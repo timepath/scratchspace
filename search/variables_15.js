@@ -36,5 +36,5 @@ var searchData=
   ['url_5fwbufpos',['url_wbufpos',['../d6/d38/urllib_8qc.html#ab036a2a5fbdea1feebad565380d92638',1,'urllib.qc']]],
   ['use_5fvortex_5fchargepool',['use_vortex_chargepool',['../d6/dd3/view_8qc.html#a4dde50b10f1ffcdb861ea635e67e4fe5',1,'view.qc']]],
   ['usedownaschecked',['useDownAsChecked',['../dd/df9/classCheckBox.html#aff20d1ead9e7a482eca46d913e6986a1',1,'CheckBox::useDownAsChecked()'],['../d1/d33/classXonoticColorButton.html#a9faf7db1c7cbe6f1f35a5103d70dad01',1,'XonoticColorButton::useDownAsChecked()']]],
-  ['usekeypressed',['usekeypressed',['../da/d53/cl__client_8qc.html#a4a953fc8590535e314187086ee49e2b4',1,'cl_client.qc']]]
+  ['usekeypressed',['usekeypressed',['../df/dd7/server_2client_8qc.html#a4a953fc8590535e314187086ee49e2b4',1,'client.qc']]]
 ];

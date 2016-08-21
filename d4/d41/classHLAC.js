@@ -27,7 +27,6 @@ var classHLAC =
     [ "bot_pickupbasevalue", "d4/d41/classHLAC.html#a8d201e202dfd220a70d7f46ba13f8970", null ],
     [ "impulse", "d4/d41/classHLAC.html#a3193f6fcbcac6098952b55d1e09825d8", null ],
     [ "m_id", "d4/d41/classHLAC.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd", null ],
-    [ "m_model", "d4/d41/classHLAC.html#a2c122afdab63ad7e1be0b7ec6af4d779", null ],
     [ "m_name", "d4/d41/classHLAC.html#a8c5ff42176257cb27b56c6bd041b4189", null ],
     [ "mdl", "d4/d41/classHLAC.html#a2e4cbca1595e4e60763ce1a6e29653cf", null ],
     [ "model2", "d4/d41/classHLAC.html#a1c8b63221f6bd54bc757ff99e2b0bdc4", null ],
