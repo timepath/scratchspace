@@ -1,5 +1,7 @@
 var NAVTREEINDEX115 =
 {
+"dd/da6/classXonoticCreditsDialog.html#af1aab403dc54575707fd57991312b201":[1,0,151,48],
+"dd/da6/classXonoticCreditsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,151,28],
 "dd/da6/classXonoticCreditsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,151,16],
 "dd/da6/classXonoticCreditsDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,151,40],
 "dd/da6/classXonoticCreditsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,151,2],
@@ -189,13 +191,13 @@ var NAVTREEINDEX115 =
 "dd/dd3/common_2monsters_2__all_8qh.html":[2,0,1,8,2],
 "dd/dd3/common_2monsters_2__all_8qh_source.html":[2,0,1,8,2],
 "dd/dd5/sv__model_8qc.html":[2,0,4,0,14],
-"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,14,7],
 "dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,14,6],
+"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,14,7],
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,14,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,14,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,14,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,14,0],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,14,1],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,14,0],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,14,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,14,12],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,14,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX115 =
 "dd/de3/racer_8qc.html":[2,0,1,15,0,6],
 "dd/de3/racer_8qc_source.html":[2,0,1,15,0,6],
 "dd/de4/classNexBall.html":[1,0,82],
-"dd/de4/classNexBall.html#a05902969438e3b8f98943e7e8b5a20fb":[1,0,82,10],
-"dd/de4/classNexBall.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,82,1],
-"dd/de4/classNexBall.html#a353db82280437c3b38f0ad1934a7d666":[1,0,82,15]
+"dd/de4/classNexBall.html#a05902969438e3b8f98943e7e8b5a20fb":[1,0,82,10]
 };

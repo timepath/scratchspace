@@ -1,5 +1,7 @@
 var NAVTREEINDEX47 =
 {
+"d5/d73/classXonoticEffectsSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,163,21],
+"d5/d73/classXonoticEffectsSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,163,65],
 "d5/d73/classXonoticEffectsSettingsTab.html#a65d611fa5a76b32db66d315a9bd9c877":[1,0,163,61],
 "d5/d73/classXonoticEffectsSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,163,57],
 "d5/d73/classXonoticEffectsSettingsTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,163,22],
@@ -247,7 +249,5 @@ var NAVTREEINDEX47 =
 "d5/d99/classVaporizer.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,129,13],
 "d5/d99/classVaporizer.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,129,0],
 "d5/d99/classVaporizer.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,129,14],
-"d5/d99/classVaporizer.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,129,12],
-"d5/d99/classVaporizer.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,129,5],
-"d5/d99/classVaporizer.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,129,10]
+"d5/d99/classVaporizer.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,129,12]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX118 =
 {
+"de/d3d/cl__minigames_8qh.html#ac2cd35412f7acb8a32e8fdfb670b7558":[2,0,1,6,4,20],
+"de/d3d/cl__minigames_8qh.html#acb1eb2cf269d4b57f8d9a3350ef514f7":[2,0,1,6,4,0],
 "de/d3d/cl__minigames_8qh.html#ae6f3121e64bf13d1f759fdcea23cf6d3":[2,0,1,6,4,27],
 "de/d3d/cl__minigames_8qh.html#af4ac269f89c21103a9eea35b0310414a":[2,0,1,6,4,14],
 "de/d3d/cl__minigames_8qh_source.html":[2,0,1,6,4],
@@ -240,14 +242,12 @@ var NAVTREEINDEX118 =
 "de/d4e/bugrigs_8qh_source.html":[2,0,1,9,0,3,3],
 "de/d4f/teamplay_8qc.html":[2,0,6,75],
 "de/d4f/teamplay_8qc.html#a03beeb550118f87341e3c16c53300a6d":[2,0,6,75,10],
-"de/d4f/teamplay_8qc.html#a113b95feba1c451c0a411ec54eb29eab":[2,0,6,75,11],
+"de/d4f/teamplay_8qc.html#a113b95feba1c451c0a411ec54eb29eab":[2,0,6,75,12],
 "de/d4f/teamplay_8qc.html#a1c2f7834133551081d9200888112ba6e":[2,0,6,75,8],
 "de/d4f/teamplay_8qc.html#a25599ad73603f2e4e2b78726400732c8":[2,0,6,75,7],
 "de/d4f/teamplay_8qc.html#a2942f2ae0d82c47009843cae3069508a":[2,0,6,75,5],
-"de/d4f/teamplay_8qc.html#a373ac0ded9ef3174275a0d82d32d6def":[2,0,6,75,16],
-"de/d4f/teamplay_8qc.html#a3bdfe5e750a8a5e86992d4f95eca7585":[2,0,6,75,15],
-"de/d4f/teamplay_8qc.html#a50d3aefd0207c123d11252f5fdddcf0d":[2,0,6,75,13],
-"de/d4f/teamplay_8qc.html#a521eb2e16efc843dcba746b6964d3515":[2,0,6,75,14],
-"de/d4f/teamplay_8qc.html#a56ec2606774cb524ffec45087d474bca":[2,0,6,75,4],
-"de/d4f/teamplay_8qc.html#a5f4692aa7896daea45fe2a5b380ca559":[2,0,6,75,2]
+"de/d4f/teamplay_8qc.html#a373ac0ded9ef3174275a0d82d32d6def":[2,0,6,75,17],
+"de/d4f/teamplay_8qc.html#a3bdfe5e750a8a5e86992d4f95eca7585":[2,0,6,75,16],
+"de/d4f/teamplay_8qc.html#a50d3aefd0207c123d11252f5fdddcf0d":[2,0,6,75,14],
+"de/d4f/teamplay_8qc.html#a521eb2e16efc843dcba746b6964d3515":[2,0,6,75,15]
 };

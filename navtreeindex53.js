@@ -1,5 +1,7 @@
 var NAVTREEINDEX53 =
 {
+"d6/d3b/race_8qc.html#ae05ef2b5b27ff3e99decabbc4410e718":[2,0,6,53,20],
+"d6/d3b/race_8qc.html#ae0c5dbe57d8a837df10255bee683ff10":[2,0,6,53,6],
 "d6/d3b/race_8qc.html#ae0d09d4e517c88ca30552c90e3068557":[2,0,6,53,5],
 "d6/d3b/race_8qc.html#ae46f2d5c185099b321f4a6dc9649c5f3":[2,0,6,53,54],
 "d6/d3b/race_8qc.html#ae61f2a2c6a18fa5904028f07c4b72d3a":[2,0,6,53,32],
@@ -247,7 +249,5 @@ var NAVTREEINDEX53 =
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,165,33],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,165,23],
 "d6/d78/classXonoticGameCrosshairSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,165,26],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,165,17],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,165,34],
-"d6/d78/classXonoticGameCrosshairSettingsTab.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,165,8]
+"d6/d78/classXonoticGameCrosshairSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,165,17]
 };

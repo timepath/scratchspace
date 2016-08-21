@@ -1,5 +1,7 @@
 var NAVTREEINDEX80 =
 {
+"d9/d2f/classXonoticNexposee.html#aacc81abdcc3d6864b64ee83eba26ce31":[1,0,210,45],
+"d9/d2f/classXonoticNexposee.html#abf0808de77ea3c1f9800d1e1eaad1d1a":[1,0,210,27],
 "d9/d2f/classXonoticNexposee.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,210,50],
 "d9/d2f/classXonoticNexposee.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,210,39],
 "d9/d2f/classXonoticNexposee.html#acb80e7a9f22bfbf6b7a09ee6d15e54e9":[1,0,210,21],
@@ -222,7 +224,6 @@ var NAVTREEINDEX80 =
 "d9/d51/intrusivelist_8qh.html#a89c02ec879b899460586cc9b10dcd53b":[2,0,4,23,26],
 "d9/d51/intrusivelist_8qh.html#a8d0604a8ca08041157451b424fc64587":[2,0,4,23,2],
 "d9/d51/intrusivelist_8qh.html#a97884b126dcb3fe665662d49630706ba":[2,0,4,23,24],
-"d9/d51/intrusivelist_8qh.html#a9ed4ec64eea2bff8c11b03c706a4ed82":[2,0,4,23,3],
 "d9/d51/intrusivelist_8qh.html#aa7671d5c8d80c460446fbffc94049ce6":[2,0,4,23,16],
 "d9/d51/intrusivelist_8qh.html#aae319013cee87779072164f4a1f0cc5d":[2,0,4,23,11],
 "d9/d51/intrusivelist_8qh.html#ab50e28b8e779e245fa30c59b49e41732":[2,0,4,23,21],
@@ -232,6 +233,7 @@ var NAVTREEINDEX80 =
 "d9/d51/intrusivelist_8qh.html#ae285478b4b1315fc05243da0339ca21d":[2,0,4,23,25],
 "d9/d51/intrusivelist_8qh.html#ae83efbd223b35d8e67997d7d1c50d5c9":[2,0,4,23,17],
 "d9/d51/intrusivelist_8qh.html#af22a6c5f40b1535dbb07a0d21b847955":[2,0,4,23,23],
+"d9/d51/intrusivelist_8qh.html#af2a6bb146a6142ec734e73d5fc3a40a0":[2,0,4,23,3],
 "d9/d51/intrusivelist_8qh.html#af4dfb811c6e3de883cab16b277df86a7":[2,0,4,23,8],
 "d9/d51/intrusivelist_8qh.html#af6e5516028d5974dd5d21e8619290df9":[2,0,4,23,5],
 "d9/d51/intrusivelist_8qh.html#afc7e9984be9b77faab3e6bed045fa472":[2,0,4,23,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX80 =
 "d9/d52/slider__resolution_8qc.html#a80f7abf2a4e89461d56d6796ca0e9270":[2,0,5,4,212,3],
 "d9/d52/slider__resolution_8qc.html#a816f13fdb701fffcf78fd51ecfad9b59":[2,0,5,4,212,2],
 "d9/d52/slider__resolution_8qc.html#a97444750f2615c95ab4e1b9bd0d0d7f6":[2,0,5,4,212,6],
-"d9/d52/slider__resolution_8qc.html#abbceec00ae26a7823355990f90fc6106":[2,0,5,4,212,8],
-"d9/d52/slider__resolution_8qc_source.html":[2,0,5,4,212],
-"d9/d55/xonotic_2dialog_8qc.html":[2,0,5,4,38]
+"d9/d52/slider__resolution_8qc.html#abbceec00ae26a7823355990f90fc6106":[2,0,5,4,212,8]
 };

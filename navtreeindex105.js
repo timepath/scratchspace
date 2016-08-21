@@ -1,5 +1,7 @@
 var NAVTREEINDEX105 =
 {
+"dc/d42/client_2commands_2__mod_8inc.html":[2,0,0,0,0],
+"dc/d42/client_2commands_2__mod_8inc_source.html":[2,0,0,0,0],
 "dc/d43/keycodes_8qh.html":[2,0,2,3],
 "dc/d43/keycodes_8qh_source.html":[2,0,2,3],
 "dc/d44/classXonoticScreenshotList.html":[1,0,228],
@@ -247,7 +249,5 @@ var NAVTREEINDEX105 =
 "dc/d73/server_2miscfunctions_8qh.html#a29c235bed1ff0287066a442759cbfe3a":[2,0,6,45,6],
 "dc/d73/server_2miscfunctions_8qh.html#a2b15d3cd9b73fd2b53dc8b2d66317e5a":[2,0,6,45,23],
 "dc/d73/server_2miscfunctions_8qh.html#a2de10fb010f38dc7ef051696ee9a940a":[2,0,6,45,52],
-"dc/d73/server_2miscfunctions_8qh.html#a2e3c003c625949b96cb14cbe09c82e6a":[2,0,6,45,78],
-"dc/d73/server_2miscfunctions_8qh.html#a2e8ffb1b4a38d66e186817e84d6f6c7c":[2,0,6,45,77],
-"dc/d73/server_2miscfunctions_8qh.html#a2f3f7e33fb5bc60212a8074ff9b80595":[2,0,6,45,3]
+"dc/d73/server_2miscfunctions_8qh.html#a2e3c003c625949b96cb14cbe09c82e6a":[2,0,6,45,78]
 };

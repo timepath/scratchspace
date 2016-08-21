@@ -7,5 +7,6 @@ var pre_8qh =
     [ "movetogoal", "d2/d77/pre_8qh.html#a1679ad392df727b7e742394acce4ca8e", null ],
     [ "objerror", "d2/d77/pre_8qh.html#a1a131a8f1813cd654a56e745f531fff1", null ],
     [ "remove", "d2/d77/pre_8qh.html#a21c8e4427c0616d11bc8e6bb66141a73", null ],
+    [ "setcolor", "d2/d77/pre_8qh.html#ae4e6e2f3aae182e05b8706a3d80ebb5a", null ],
     [ "walkmove", "d2/d77/pre_8qh.html#ad4c7d5cf3db03e818d037012f8be2d23", null ]
 ];

@@ -666,11 +666,11 @@ $(document).ready(function(){initNavTree('d7/d15/hud_8qc_source.html','../../');
 <div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;        {</div>
 <div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;            <span class="keywordtype">string</span> hud_dock_color = <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a8d71e9d115efa2c726953526299185af">autocvar_hud_dock_color</a>;</div>
 <div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;            <span class="keywordflow">if</span>(hud_dock_color == <span class="stringliteral">&quot;shirt&quot;</span>) {</div>
-<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;                f = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(getplayerkeyvalue(<a class="code" href="../../d3/d05/hud_8qh.html#aa6cd1f5aed53c71ba5032f77e3f90da9">current_player</a>, <span class="stringliteral">&quot;colors&quot;</span>));</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;                f = entcs_GetClientColors(<a class="code" href="../../d3/d05/hud_8qh.html#aa6cd1f5aed53c71ba5032f77e3f90da9">current_player</a>);</div>
 <div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;                color = <a class="code" href="../../de/d11/color_8qh.html#a34bf2b7bb0a03d25672d3f956f0a23a4">colormapPaletteColor</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(f / 16), 0);</div>
 <div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;            }</div>
 <div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(hud_dock_color == <span class="stringliteral">&quot;pants&quot;</span>) {</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;                f = <a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(getplayerkeyvalue(<a class="code" href="../../d3/d05/hud_8qh.html#aa6cd1f5aed53c71ba5032f77e3f90da9">current_player</a>, <span class="stringliteral">&quot;colors&quot;</span>));</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;                f = entcs_GetClientColors(<a class="code" href="../../d3/d05/hud_8qh.html#aa6cd1f5aed53c71ba5032f77e3f90da9">current_player</a>);</div>
 <div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;                color = <a class="code" href="../../de/d11/color_8qh.html#a34bf2b7bb0a03d25672d3f956f0a23a4">colormapPaletteColor</a>(f % 16, 1);</div>
 <div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;            }</div>
 <div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;            <span class="keywordflow">else</span></div>
@@ -894,7 +894,7 @@ $(document).ready(function(){initNavTree('d7/d15/hud_8qc_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../d7/d15/hud_8qc.html">hud.qc</a></li>
-    <li class="footer">Generated on Sun Aug 21 2016 07:36:16 for Xonotic by
+    <li class="footer">Generated on Sun Aug 21 2016 09:28:57 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

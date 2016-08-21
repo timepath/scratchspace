@@ -1,5 +1,7 @@
 var NAVTREEINDEX39 =
 {
+"d4/d87/dialog__settings__audio_8qc.html":[2,0,5,4,120],
+"d4/d87/dialog__settings__audio_8qc.html#a9897d4b9ae8916a24d87fccc5defa1fa":[2,0,5,4,120,0],
 "d4/d87/dialog__settings__audio_8qc.html#adcafbc93d8765f378e35d8e650160da6":[2,0,5,4,120,1],
 "d4/d87/dialog__settings__audio_8qc_source.html":[2,0,5,4,120],
 "d4/d8a/fireball_8qh.html":[2,0,1,16,0,13],
@@ -247,7 +249,5 @@ var NAVTREEINDEX39 =
 "d4/d91/classXonoticCampaignList.html#a8f8381468815348113668e46f85aef4d":[1,0,143,16],
 "d4/d91/classXonoticCampaignList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,143,55],
 "d4/d91/classXonoticCampaignList.html#a913c6db26d030bd0675e029b5c8f624e":[1,0,143,72],
-"d4/d91/classXonoticCampaignList.html#a955acbbda432fb19399292cbac96e0af":[1,0,143,70],
-"d4/d91/classXonoticCampaignList.html#a95a118f5875639816c61136b54a8fa5e":[1,0,143,57],
-"d4/d91/classXonoticCampaignList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,143,69]
+"d4/d91/classXonoticCampaignList.html#a955acbbda432fb19399292cbac96e0af":[1,0,143,70]
 };

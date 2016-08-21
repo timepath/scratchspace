@@ -1,5 +1,7 @@
 var NAVTREEINDEX113 =
 {
+"dd/d7a/serverlist_8qh_source.html":[2,0,5,4,201],
+"dd/d7b/gamemode__deathmatch_8qc.html":[2,0,6,2,0,10],
 "dd/d7b/gamemode__deathmatch_8qc.html#ad356c4d5c61d4e93477ee5ca03ec4884":[2,0,6,2,0,10,0],
 "dd/d7b/gamemode__deathmatch_8qc_source.html":[2,0,6,2,0,10],
 "dd/d7f/triggers_2target_2spawn_8qc.html":[2,0,1,13,2,10],
@@ -28,9 +30,9 @@ var NAVTREEINDEX113 =
 "dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802":[2,0,1,2,8,7],
 "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862":[2,0,1,2,8,2],
 "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840":[2,0,1,2,8,5],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,10],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,9],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,10],
 "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6":[2,0,1,2,8,14],
 "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e":[2,0,1,2,8,16],
 "dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b":[2,0,1,2,8,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX113 =
 "dd/d9a/classXonoticSandboxToolsDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,224,61],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,224,30],
 "dd/d9a/classXonoticSandboxToolsDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,224,6],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,224,46],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,224,56],
-"dd/d9a/classXonoticSandboxToolsDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,224,1]
+"dd/d9a/classXonoticSandboxToolsDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,224,46]
 };

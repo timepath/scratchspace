@@ -1,5 +1,7 @@
 var NAVTREEINDEX45 =
 {
+"d5/d26/server_2defs_8qh.html#a8689f2bf666f3c481d8a00a3253cd6df":[2,0,6,21,249],
+"d5/d26/server_2defs_8qh.html#a86d4e5c510b3a22124dd14dcdac8d6fd":[2,0,6,21,186],
 "d5/d26/server_2defs_8qh.html#a86f30ff24960af4693d4a86513b4bccb":[2,0,6,21,245],
 "d5/d26/server_2defs_8qh.html#a8950eaef157205481307c2bb7babf122":[2,0,6,21,21],
 "d5/d26/server_2defs_8qh.html#a89be764c91e75275cfe35cb4b8d5117d":[2,0,6,21,261],
@@ -247,7 +249,5 @@ var NAVTREEINDEX45 =
 "d5/d53/classXonoticCharmap.html#afc9428d371ed63dd0316db5558e81d30":[1,0,144,44],
 "d5/d53/classXonoticCharmap.html#afdcf1fb79903f747cda494b27206526b":[1,0,144,2],
 "d5/d53/dialog__settings__game__messages_8qh.html":[2,0,5,4,133],
-"d5/d53/dialog__settings__game__messages_8qh.html#a4f015fd96ce82d447f113cef1c9e62ef":[2,0,5,4,133,2],
-"d5/d53/dialog__settings__game__messages_8qh.html#ad03b9295aeb89d2a5633bfde7c357a26":[2,0,5,4,133,1],
-"d5/d53/dialog__settings__game__messages_8qh_source.html":[2,0,5,4,133]
+"d5/d53/dialog__settings__game__messages_8qh.html#a4f015fd96ce82d447f113cef1c9e62ef":[2,0,5,4,133,2]
 };

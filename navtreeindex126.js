@@ -1,5 +1,8 @@
 var NAVTREEINDEX126 =
 {
+"df/d4f/ladder_8qh_source.html":[2,0,1,13,0,21],
+"df/d50/flac_8qh.html":[2,0,1,14,0,7],
+"df/d50/flac_8qh.html#a81b732b7e35e86fa834e33a94a11ef89":[2,0,1,14,0,7,1],
 "df/d50/flac_8qh_source.html":[2,0,1,14,0,7],
 "df/d52/monsters_2all_8qh.html":[2,0,1,8,6],
 "df/d52/monsters_2all_8qh.html#a0b2f787d93c2afd7ece3a0d0d080e94d":[2,0,1,8,6,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX126 =
 "df/d78/classPhaserTurretAttack.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,90,8],
 "df/d78/classPhaserTurretAttack.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,90,2],
 "df/d78/classPhaserTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,90,33],
-"df/d78/classPhaserTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,90,26],
-"df/d78/classPhaserTurretAttack.html#a80fa9a65e19370473a29baebc04d0626":[1,0,90,4],
-"df/d78/classPhaserTurretAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,90,6],
-"df/d78/classPhaserTurretAttack.html#aa0a5f1de6ba7228907295012902a136a":[1,0,90,28]
+"df/d78/classPhaserTurretAttack.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,90,26]
 };

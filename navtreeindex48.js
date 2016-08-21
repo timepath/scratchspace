@@ -1,5 +1,7 @@
 var NAVTREEINDEX48 =
 {
+"d5/d99/classVaporizer.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,129,5],
+"d5/d99/classVaporizer.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,129,10],
 "d5/d99/classVaporizer.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,129,34],
 "d5/d99/classVaporizer.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,129,7],
 "d5/d99/classVaporizer.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,129,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX48 =
 "d5/dd7/gamemode__race_8qc_source.html":[2,0,6,2,0,24],
 "d5/ddf/playerlist_8qh.html":[2,0,5,4,187],
 "d5/ddf/playerlist_8qh.html#a78c6468eb705f16613a2e365dfdd7a1d":[2,0,5,4,187,1],
-"d5/ddf/playerlist_8qh_source.html":[2,0,5,4,187],
-"d5/de0/pickup_8qc.html":[2,0,1,5,0,10],
-"d5/de0/pickup_8qc_source.html":[2,0,1,5,0,10]
+"d5/ddf/playerlist_8qh_source.html":[2,0,5,4,187]
 };

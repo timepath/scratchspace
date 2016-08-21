@@ -1,5 +1,7 @@
 var NAVTREEINDEX108 =
 {
+"dc/da9/gamemode__ca_8qc.html#a0492a20050a72a4530f1ddf7da1c030d":[2,0,6,2,0,4,29],
+"dc/da9/gamemode__ca_8qc.html#a0904e2f361cd45eac92a816349982d6a":[2,0,6,2,0,4,12],
 "dc/da9/gamemode__ca_8qc.html#a0bcc926b730567827a73c7f77a44d189":[2,0,6,2,0,4,22],
 "dc/da9/gamemode__ca_8qc.html#a1871cb713ef5ce4f63a2c9a29e2df144":[2,0,6,2,0,4,14],
 "dc/da9/gamemode__ca_8qc.html#a21d4c910fed34af5230fe9023e6c91b6":[2,0,6,2,0,4,5],
@@ -247,7 +249,5 @@ var NAVTREEINDEX108 =
 "dc/dcf/tabcontroller_8qc.html#a548d8829f5cada91bec8a3c59f603103":[2,0,5,4,222,3],
 "dc/dcf/tabcontroller_8qc.html#a7870388047ff74874722f872abba13ff":[2,0,5,4,222,1],
 "dc/dcf/tabcontroller_8qc_source.html":[2,0,5,4,222],
-"dc/dd8/dialog__settings__game__view_8qh.html":[2,0,5,4,137],
-"dc/dd8/dialog__settings__game__view_8qh.html#a350c9edae9e123f0bc2ee43ff045a257":[2,0,5,4,137,1],
-"dc/dd8/dialog__settings__game__view_8qh.html#ad2c0275b75acbfb7f440c6f86cbaa4b2":[2,0,5,4,137,2]
+"dc/dd8/dialog__settings__game__view_8qh.html":[2,0,5,4,137]
 };

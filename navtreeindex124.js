@@ -1,5 +1,8 @@
 var NAVTREEINDEX124 =
 {
+"de/de8/portals_8qc.html#afb9c655ff00c5556b90c9b759154bace":[2,0,6,50,28],
+"de/de8/portals_8qc.html#affc66b6e12996b9964dd8fdb004dc738":[2,0,6,50,21],
+"de/de8/portals_8qc_source.html":[2,0,6,50],
 "de/df3/chat_8qh.html":[2,0,0,1,0,7],
 "de/df3/chat_8qh_source.html":[2,0,0,1,0,7],
 "de/df3/raptor__weapons_8qc.html":[2,0,1,15,0,12],
@@ -246,8 +249,5 @@ var NAVTREEINDEX124 =
 "df/d27/classXonoticPicker.html#a731ef2d8cdb302ddcd41f3ed9e6a2be0":[1,0,212,22],
 "df/d27/classXonoticPicker.html#a7b13cdc101cd55528465440586a004f6":[1,0,212,30],
 "df/d27/classXonoticPicker.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,212,10],
-"df/d27/classXonoticPicker.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,212,35],
-"df/d27/classXonoticPicker.html#a9045c7416f25ec440214c672d0bafc0d":[1,0,212,38],
-"df/d27/classXonoticPicker.html#a96bb839275a1a00b50d13e67bcad8c25":[1,0,212,16],
-"df/d27/classXonoticPicker.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,212,8]
+"df/d27/classXonoticPicker.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,212,35]
 };

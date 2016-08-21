@@ -11,6 +11,7 @@ var teamplay_8qc =
     [ "JoinBestTeam", "de/d4f/teamplay_8qc.html#a1c2f7834133551081d9200888112ba6e", null ],
     [ "LogTeamchange", "de/d4f/teamplay_8qc.html#af954f9f806424a8cb8467d9372d8049e", null ],
     [ "PlayerValue", "de/d4f/teamplay_8qc.html#a03beeb550118f87341e3c16c53300a6d", null ],
+    [ "setcolor", "de/d4f/teamplay_8qc.html#aad4cb62bd1f6b12bec2a35ac31385cd3", null ],
     [ "SetPlayerColors", "de/d4f/teamplay_8qc.html#a113b95feba1c451c0a411ec54eb29eab", null ],
     [ "SetPlayerTeam", "de/d4f/teamplay_8qc.html#ac136f59a979d6dd099a07e254408aed3", null ],
     [ "ShufflePlayerOutOfTeam", "de/d4f/teamplay_8qc.html#a50d3aefd0207c123d11252f5fdddcf0d", null ],
