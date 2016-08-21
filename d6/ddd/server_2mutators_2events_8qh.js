@@ -14,6 +14,7 @@ var server_2mutators_2events_8qh =
     [ "EV_ClientConnect", "d6/ddd/server_2mutators_2events_8qh.html#a8781ab354ccdd744fe23a5a4456ff603", null ],
     [ "EV_ClientDisconnect", "d6/ddd/server_2mutators_2events_8qh.html#ac26d1bf16687fbedf2d43b8035f5587d", null ],
     [ "EV_ClientKill", "d6/ddd/server_2mutators_2events_8qh.html#a45ffe38f673bd70d5c3d7ffcfbc65c33", null ],
+    [ "EV_CopyBody", "d6/ddd/server_2mutators_2events_8qh.html#a0c042ea3a7cc0f41fcaafa0b80651ac9", null ],
     [ "EV_CustomizeWaypoint", "d6/ddd/server_2mutators_2events_8qh.html#ad46350e6bb8eca159cda8bf73639f40e", null ],
     [ "EV_DropSpecialItems", "d6/ddd/server_2mutators_2events_8qh.html#a9cb0474e6bc45820d78b5d55f9f7b512", null ],
     [ "EV_EditProjectile", "d6/ddd/server_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea", null ],
@@ -213,6 +214,7 @@ var server_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a575511b76cbaccd34b25544522dc4189", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#adc988234d12ab905cfc6ccf48be12325", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#aac5f40e0440c0d379bb7b53071ff36d6", null ],
+    [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#aa23cbe266895ab63dc32086beaa5e18b", null ],
     [ "void", "d6/ddd/server_2mutators_2events_8qh.html#a9ba9e011846397de4e801455435e5a88", null ],
     [ "get_cvars_f", "d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2", null ],
     [ "get_cvars_s", "d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f", null ]

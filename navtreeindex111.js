@@ -1,5 +1,7 @@
 var NAVTREEINDEX111 =
 {
+"dd/db3/classXonoticQuitDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,218,48],
+"dd/db3/classXonoticQuitDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,218,26],
 "dd/db3/classXonoticQuitDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,218,17],
 "dd/db3/classXonoticQuitDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,218,73],
 "dd/db3/classXonoticQuitDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,218,70],
@@ -138,13 +140,13 @@ var NAVTREEINDEX111 =
 "dd/dd0/classRace.html#aef3a65f4987590d66b653b91180860ca":[1,0,99,9],
 "dd/dd0/classRace.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,99,5],
 "dd/dd5/sv__model_8qc.html":[2,0,4,0,10],
-"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,10,6],
 "dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,10,7],
+"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,10,6],
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,10,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,10,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,10,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,10,1],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,10,0],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,10,1],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,10,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,10,12],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,10,2],
@@ -247,7 +249,5 @@ var NAVTREEINDEX111 =
 "dd/de3/racer_8qc.html":[2,0,1,15,0,6],
 "dd/de3/racer_8qc.html#a435c1051f806ec86e0a57e2e1d351de2":[2,0,1,15,0,6,2],
 "dd/de3/racer_8qc.html#a6852bb85ceb4fb78354bea705958c8ce":[2,0,1,15,0,6,1],
-"dd/de3/racer_8qc_source.html":[2,0,1,15,0,6],
-"dd/de4/classNexBall.html":[1,0,82],
-"dd/de4/classNexBall.html#a05902969438e3b8f98943e7e8b5a20fb":[1,0,82,10]
+"dd/de3/racer_8qc_source.html":[2,0,1,15,0,6]
 };

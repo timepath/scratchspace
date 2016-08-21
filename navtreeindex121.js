@@ -1,5 +1,7 @@
 var NAVTREEINDEX121 =
 {
+"df/d27/classXonoticPicker.html#a9045c7416f25ec440214c672d0bafc0d":[1,0,212,38],
+"df/d27/classXonoticPicker.html#a96bb839275a1a00b50d13e67bcad8c25":[1,0,212,16],
 "df/d27/classXonoticPicker.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,212,8],
 "df/d27/classXonoticPicker.html#aa8e554a35b9fe070e037a0b6a3e8351b":[1,0,212,27],
 "df/d27/classXonoticPicker.html#abf45e466d6bdd7bf3d9a18decd85b3e3":[1,0,212,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX121 =
 "df/d50/mutators_2mutator_2breakablehook_2module_8inc_source.html":[2,0,1,9,0,1,3],
 "df/d54/dialog__settings__game__hud_8qh.html":[2,0,5,4,129],
 "df/d54/dialog__settings__game__hud_8qh.html#a2b7967e17d4cfccff3c1f979de1d2515":[2,0,5,4,129,3],
-"df/d54/dialog__settings__game__hud_8qh.html#a8355ef57cfbd4b0b0a510b61df465435":[2,0,5,4,129,1],
-"df/d54/dialog__settings__game__hud_8qh.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,129,2],
-"df/d54/dialog__settings__game__hud_8qh_source.html":[2,0,5,4,129]
+"df/d54/dialog__settings__game__hud_8qh.html#a8355ef57cfbd4b0b0a510b61df465435":[2,0,5,4,129,1]
 };

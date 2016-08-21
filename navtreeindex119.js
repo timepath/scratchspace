@@ -1,5 +1,7 @@
 var NAVTREEINDEX119 =
 {
+"de/dcb/vector_8qh.html#aa70255a5968cc612e91c1aec32e41344":[2,0,4,60,13],
+"de/dcb/vector_8qh.html#ab167fa7c81f4d5f3092673b05f07c8a3":[2,0,4,60,21],
 "de/dcb/vector_8qh.html#abd8e65ab96a0f1779abeccc7054702f0":[2,0,4,60,33],
 "de/dcb/vector_8qh.html#abe5699c7c17a0a7fb6aacdae9e6b1ef1":[2,0,4,60,29],
 "de/dcb/vector_8qh.html#aca67feefb841ea2808381b207ea4cc42":[2,0,4,60,30],
@@ -247,7 +249,5 @@ var NAVTREEINDEX119 =
 "df/d00/common_2notifications_2all_8inc.html#aab9c3a88fd3eb159f019aac642462055":[2,0,1,10,2,30],
 "df/d00/common_2notifications_2all_8inc.html#ab99fd8f2e2d09e15500b2ec4b6bafd0d":[2,0,1,10,2,38],
 "df/d00/common_2notifications_2all_8inc.html#aba66a830c406d8094895583a68344033":[2,0,1,10,2,10],
-"df/d00/common_2notifications_2all_8inc.html#abbdcdc532430d53d73781858abcc6009":[2,0,1,10,2,17],
-"df/d00/common_2notifications_2all_8inc.html#abccb503718f2002302ac8650ba2965c6":[2,0,1,10,2,31],
-"df/d00/common_2notifications_2all_8inc.html#ac7fc46ed784549b1acd2fd0f1b188140":[2,0,1,10,2,32]
+"df/d00/common_2notifications_2all_8inc.html#abbdcdc532430d53d73781858abcc6009":[2,0,1,10,2,17]
 };

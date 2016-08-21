@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"de/d7a/classXonoticHUDScoreDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,190,3],
+"de/d7a/classXonoticHUDScoreDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,190,83],
 "de/d7a/classXonoticHUDScoreDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,190,81],
 "de/d7a/classXonoticHUDScoreDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,190,48],
 "de/d7a/classXonoticHUDScoreDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,190,26],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "de/d9a/item_8qc.html":[2,0,5,12],
 "de/d9a/item_8qc.html#a2884065abdd89fe2349ff849e8f0d338":[2,0,5,12,0],
 "de/d9a/item_8qc.html#af10a456226e2bd11255baff142ec9bc1":[2,0,5,12,1],
-"de/d9a/item_8qc_source.html":[2,0,5,12],
-"de/d9b/steerlib_8qc.html":[2,0,6,62],
-"de/d9b/steerlib_8qc.html#a0b43def7c545a6306fed7b03b85dfeda":[2,0,6,62,10]
+"de/d9a/item_8qc_source.html":[2,0,5,12]
 };

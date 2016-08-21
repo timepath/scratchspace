@@ -1,5 +1,7 @@
 var NAVTREEINDEX78 =
 {
+"d9/d7e/include_8qh.html":[2,0,1,13,7],
+"d9/d7e/include_8qh_source.html":[2,0,1,13,7],
 "d9/d7f/gibs_8qc.html":[2,0,1,2,0,7],
 "d9/d7f/gibs_8qc_source.html":[2,0,1,2,0,7],
 "d9/d85/classXonoticHUDEngineInfoDialog.html":[1,0,177],
@@ -247,7 +249,5 @@ var NAVTREEINDEX78 =
 "d9/db3/classXonoticGameModelSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,168,80],
 "d9/db3/classXonoticGameModelSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,168,79],
 "d9/db3/classXonoticGameModelSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,168,56],
-"d9/db3/classXonoticGameModelSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,168,49],
-"d9/db3/classXonoticGameModelSettingsTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,168,74],
-"d9/db3/classXonoticGameModelSettingsTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,168,73]
+"d9/db3/classXonoticGameModelSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,168,49]
 };

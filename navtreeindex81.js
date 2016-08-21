@@ -1,5 +1,7 @@
 var NAVTREEINDEX81 =
 {
+"d9/df7/mathlib_8qh.html#a2af75f227c66609ef95f0bec5a99a536":[2,0,4,2,9,39],
+"d9/df7/mathlib_8qh.html#a2b779d5089ff8362eb9b3d362083de19":[2,0,4,2,9,48],
 "d9/df7/mathlib_8qh.html#a2c088dd908a4230be42abbb91a9c9e76":[2,0,4,2,9,20],
 "d9/df7/mathlib_8qh.html#a2ebcd12a3f554326958712eb4e298eec":[2,0,4,2,9,6],
 "d9/df7/mathlib_8qh.html#a2ec1b285fafa6bf8681c85f58be62129":[2,0,4,2,9,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX81 =
 "da/d1d/mainwindow_8qc.html#a906f272ebdf9a21d99b8d95e184866f3":[2,0,5,4,178,1],
 "da/d1d/mainwindow_8qc_source.html":[2,0,5,4,178],
 "da/d1e/mutators_2mutator_2nix_2module_8inc.html":[2,0,1,9,0,18,2],
-"da/d1e/mutators_2mutator_2nix_2module_8inc_source.html":[2,0,1,9,0,18,2],
-"da/d1e/phaser__weapon_8qc.html":[2,0,1,14,0,22],
-"da/d1e/phaser__weapon_8qc_source.html":[2,0,1,14,0,22]
+"da/d1e/mutators_2mutator_2nix_2module_8inc_source.html":[2,0,1,9,0,18,2]
 };

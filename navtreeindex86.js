@@ -1,5 +1,7 @@
 var NAVTREEINDEX86 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,231,80],
+"da/db7/classXonoticServerInfoDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,231,57],
 "da/db7/classXonoticServerInfoDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,231,87],
 "da/db7/classXonoticServerInfoDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,231,64],
 "da/db7/classXonoticServerInfoDialog.html#a4ee2e27fd5a7c6a28e299d2e21caf470":[1,0,231,35],
@@ -247,7 +249,5 @@ var NAVTREEINDEX86 =
 "da/dd4/g__models_8qh.html":[2,0,6,32],
 "da/dd4/g__models_8qh_source.html":[2,0,6,32],
 "da/dd5/enumclass_8qh.html":[2,0,4,17],
-"da/dd5/enumclass_8qh.html#a10f4c592b56e8ae136d22fc7a9cd22f0":[2,0,4,17,5],
-"da/dd5/enumclass_8qh.html#a7339abefe19e4109853567ae9664cf04":[2,0,4,17,4],
-"da/dd5/enumclass_8qh.html#a93090b9631c9cca1cb2e94328e2889ed":[2,0,4,17,3]
+"da/dd5/enumclass_8qh.html#a10f4c592b56e8ae136d22fc7a9cd22f0":[2,0,4,17,5]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"df/d54/dialog__settings__game__hud_8qh.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,129,2],
+"df/d54/dialog__settings__game__hud_8qh_source.html":[2,0,5,4,129],
 "df/d56/classSpider.html":[1,0,118],
 "df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,118,0],
 "df/d56/classSpider.html#a24b4136b7b62e15cc5df0c04289434ca":[1,0,118,6],
@@ -247,7 +249,5 @@ var NAVTREEINDEX122 =
 "df/d7d/dialog__multiplayer__create__mapinfo_8qc_source.html":[2,0,5,4,90],
 "df/d7d/tests_8qh.html":[2,0,6,77],
 "df/d7d/tests_8qh_source.html":[2,0,6,77],
-"df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc.html":[2,0,1,9,0,2,0],
-"df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc_source.html":[2,0,1,9,0,2,0],
-"df/d87/menu_2mutators_2__mod_8qh.html":[2,0,5,3,1]
+"df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc.html":[2,0,1,9,0,2,0]
 };
