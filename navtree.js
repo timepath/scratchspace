@@ -158,9 +158,9 @@ var NAVTREEINDEX =
 "df/d78/classPhaserTurretAttack.html#a80fa9a65e19370473a29baebc04d0626",
 "df/d9b/menu_2xonotic_2util_8qc.html#a6e36adc024085ee8849b2a7af97aa488",
 "df/dc9/classXonoticHUDQuickMenuDialog.html#a360189a0cc2fb81a094ccd37afd1749d",
-"df/de0/checkbox__slider__invalid_8qh.html",
-"dir_038facabb326e47524555c6946dd7e55.html",
-"globals_q.html"
+"df/dd9/location_8qh_source.html",
+"dir_026fecbde05aca2ce3aaca1260d474bc.html",
+"globals_p.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
