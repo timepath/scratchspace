@@ -1,5 +1,7 @@
 var NAVTREEINDEX113 =
 {
+"dd/d77/item_2nexposee_8qh.html#a0b8e9ae66114a55aad562219c7649f19":[2,0,5,2,25,9],
+"dd/d77/item_2nexposee_8qh.html#a0cfe8533c42f7b5a11c996f76413a84d":[2,0,5,2,25,1],
 "dd/d77/item_2nexposee_8qh.html#a4cb410b54f522789f043c8cdd262b357":[2,0,5,2,25,7],
 "dd/d77/item_2nexposee_8qh.html#a5c77c92b2a85c35612682dd10fa47945":[2,0,5,2,25,5],
 "dd/d77/item_2nexposee_8qh.html#a77820f2816a50a29d9437a0377722467":[2,0,5,2,25,11],
@@ -70,8 +72,6 @@ var NAVTREEINDEX113 =
 "dd/d7b/gamemode__deathmatch_8qc.html":[2,0,6,2,0,10],
 "dd/d7b/gamemode__deathmatch_8qc.html#ad356c4d5c61d4e93477ee5ca03ec4884":[2,0,6,2,0,10,0],
 "dd/d7b/gamemode__deathmatch_8qc_source.html":[2,0,6,2,0,10],
-"dd/d7f/triggers_2target_2spawn_8qc.html":[2,0,1,13,2,10],
-"dd/d7f/triggers_2target_2spawn_8qc_source.html":[2,0,1,13,2,10],
 "dd/d82/magicear_8qc.html":[2,0,1,13,3,26],
 "dd/d82/magicear_8qc_source.html":[2,0,1,13,3,26],
 "dd/d85/client_2hud_2panel_2ammo_8qc.html":[2,0,0,1,0,2],
@@ -87,8 +87,8 @@ var NAVTREEINDEX113 =
 "dd/d85/sortlist_8qc.html#a652c86b37dd42d03c9e82ee0d8e1cfd8":[2,0,4,50,0],
 "dd/d85/sortlist_8qc_source.html":[2,0,4,50],
 "dd/d87/effectinfo_8qc.html":[2,0,1,2,8],
-"dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[2,0,1,2,8,12],
 "dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[2,0,1,2,8,13],
+"dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927":[2,0,1,2,8,12],
 "dd/d87/effectinfo_8qc.html#a140b69e0765f293f2d0545beefa583c7":[2,0,1,2,8,17],
 "dd/d87/effectinfo_8qc.html#a196e029eb2adc9808b1e6928e3e1ce23":[2,0,1,2,8,19],
 "dd/d87/effectinfo_8qc.html#a331bcf6c0483f2f74b9ebc3f52b11560":[2,0,1,2,8,21],
@@ -96,9 +96,9 @@ var NAVTREEINDEX113 =
 "dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802":[2,0,1,2,8,7],
 "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862":[2,0,1,2,8,2],
 "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840":[2,0,1,2,8,5],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,9],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,10],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,9],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
 "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6":[2,0,1,2,8,14],
 "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e":[2,0,1,2,8,16],
 "dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b":[2,0,1,2,8,6],
@@ -179,8 +179,6 @@ var NAVTREEINDEX113 =
 "dd/d90/classRaptorFlare.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,107,22],
 "dd/d90/classRaptorFlare.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,107,24],
 "dd/d90/classRaptorFlare.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,107,17],
-"dd/d92/triggers_2target_2spawn_8qh.html":[2,0,1,13,2,11],
-"dd/d92/triggers_2target_2spawn_8qh_source.html":[2,0,1,13,2,11],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html":[1,0,172],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,172,37],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,172,16],
@@ -249,5 +247,7 @@ var NAVTREEINDEX113 =
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#ac1e9d00250380e2ce03d78c10beaed12":[1,0,172,70],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,172,0],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,172,38],
-"dd/d93/classXonoticGameWeaponsSettingsTab.html#acbd82b7a63f2b61b30ee78ff840f1e22":[1,0,172,52]
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#acbd82b7a63f2b61b30ee78ff840f1e22":[1,0,172,52],
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,172,43],
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,172,86]
 };

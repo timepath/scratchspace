@@ -1,5 +1,7 @@
 var NAVTREEINDEX42 =
 {
+"d4/da5/classXonoticBigCommandButton.html#a95e3e1c82a75a5ee33b08f1da84c05bd":[1,0,141,43],
+"d4/da5/classXonoticBigCommandButton.html#a98e9b29dfe2a91ddb3b653eee1003b2f":[1,0,141,55],
 "d4/da5/classXonoticBigCommandButton.html#a99459ab62c745d1a8e9e5c65a15294e0":[1,0,141,49],
 "d4/da5/classXonoticBigCommandButton.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,141,39],
 "d4/da5/classXonoticBigCommandButton.html#aa7f27de3ff5b3d20ac6122783d29ad40":[1,0,141,59],
@@ -219,20 +221,17 @@ var NAVTREEINDEX42 =
 "d4/dbd/fusionreactor_8qh.html":[2,0,1,14,0,11],
 "d4/dbd/fusionreactor_8qh.html#a9498c7debd94c5abd11c71b8c538b6be":[2,0,1,14,0,11,1],
 "d4/dbd/fusionreactor_8qh_source.html":[2,0,1,14,0,11],
-"d4/dcb/monsters_2spawn_8qc.html":[2,0,1,8,8],
-"d4/dcb/monsters_2spawn_8qc.html#a6d9ad964837b7b9cbcd971dcab774b49":[2,0,1,8,8,0],
-"d4/dcb/monsters_2spawn_8qc_source.html":[2,0,1,8,8],
 "d4/dcc/skin_8qh.html":[2,0,5,21],
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,5,21,4],
 "d4/dcc/skin_8qh.html#a44d9292db37de6dd7fdce41bf81b807f":[2,0,5,21,5],
-"d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,21,0],
 "d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,21,1],
-"d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,21,3],
+"d4/dcc/skin_8qh.html#a474148ecc760c0fa67739c3f8f473e77":[2,0,5,21,0],
 "d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,21,2],
+"d4/dcc/skin_8qh.html#a5c4e36f7f5cd75481d3b5e2a58c5467c":[2,0,5,21,3],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,21,8],
 "d4/dcc/skin_8qh.html#a8ebe3c9dc31cd3d11c0932fd86f8ecb9":[2,0,5,21,9],
-"d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,21,7],
 "d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,21,6],
+"d4/dcc/skin_8qh.html#abb33ab3d3c457764dcf4a9c8298040a7":[2,0,5,21,7],
 "d4/dcc/skin_8qh_source.html":[2,0,5,21],
 "d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc.html":[2,0,1,9,0,24,0],
 "d4/dce/common_2mutators_2mutator_2rocketflying_2__mod_8inc_source.html":[2,0,1,9,0,24,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX42 =
 "d4/dd1/spawnpoints_8qh_source.html":[2,0,6,62],
 "d4/dd2/vectormamamam_8qh.html":[2,0,1,13,0,37],
 "d4/dd2/vectormamamam_8qh_source.html":[2,0,1,13,0,37],
-"d4/dd3/common_2minigames_2__mod_8inc.html":[2,0,1,6,1]
+"d4/dd3/common_2minigames_2__mod_8inc.html":[2,0,1,6,1],
+"d4/dd3/common_2minigames_2__mod_8inc_source.html":[2,0,1,6,1]
 };
