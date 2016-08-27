@@ -11,7 +11,6 @@ var hud_8qc =
     [ "HUD_GetTableSize_BestItemAR", "d7/d15/hud_8qc.html#abed4aa2c37e69cf8b4fdeab69c7e0076", null ],
     [ "HUD_Main", "d7/d15/hud_8qc.html#a8e30e71e308ccc423418bb41350e3e05", null ],
     [ "HUD_Minigame_Showpanels", "d7/d15/hud_8qc.html#aebe761a14e69337b71709a90371dd057", null ],
-    [ "HUD_Panel_CheckFlags", "d7/d15/hud_8qc.html#a85147ac974f6be1f49ce5d6051eb10ab", null ],
     [ "HUD_Panel_Draw", "d7/d15/hud_8qc.html#a477579f205512e6fa5cda9053148bb69", null ],
     [ "HUD_Panel_DrawHighlight", "d7/d15/hud_8qc.html#af418523148eadb307130a0533421e586", null ],
     [ "HUD_Panel_DrawProgressBar", "d7/d15/hud_8qc.html#a41b7823d1cc3d0f46d9780fadf782eba", null ],

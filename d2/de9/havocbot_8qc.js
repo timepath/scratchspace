@@ -7,6 +7,7 @@ var havocbot_8qc =
     [ "havocbot_chooseweapon", "d2/de9/havocbot_8qc.html#a272bc3411c4379be26087da9b54f818e", null ],
     [ "havocbot_chooseweapon_checkreload", "d2/de9/havocbot_8qc.html#af01988bc8215d487c1e907826243cd2e", null ],
     [ "havocbot_dodge", "d2/de9/havocbot_8qc.html#a8ed5fd4e5d6f286c17a895c7d269c607", null ],
+    [ "havocbot_gettarget", "d2/de9/havocbot_8qc.html#aafb530d767cc0dfb9cc3ce3c1cea4f0e", null ],
     [ "havocbot_keyboard_movement", "d2/de9/havocbot_8qc.html#a6942c73e794b5ae39ea6211ae7f22d0f", null ],
     [ "havocbot_moveto", "d2/de9/havocbot_8qc.html#a220d6282b351b7a69e7ee1bfce73098f", null ],
     [ "havocbot_moveto_refresh_route", "d2/de9/havocbot_8qc.html#ab54a79fe42ba8680d17f5a0e7449cb83", null ],

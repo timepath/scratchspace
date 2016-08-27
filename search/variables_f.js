@@ -47,7 +47,6 @@ var searchData=
   ['ons_5fovertime_5fdamagedelay',['ons_overtime_damagedelay',['../d7/dd0/sv__onslaught_8qh.html#aae070ab121f6ef048c190ae84f2f882c',1,'sv_onslaught.qh']]],
   ['ons_5fspawn_5fby',['ons_spawn_by',['../d7/dd0/sv__onslaught_8qh.html#a62cbb170bbfeec4295f50d47b5b2bb37',1,'sv_onslaught.qh']]],
   ['ons_5fstalecpnext',['ons_stalecpnext',['../d7/dd0/sv__onslaught_8qh.html#a077872340fe21710a4f26ce7d9b5fd2f',1,'sv_onslaught.qh']]],
-  ['ons_5fstalegeneratornext',['ons_stalegeneratornext',['../d7/dd0/sv__onslaught_8qh.html#a466d5cf6fe015138d60ba4a54c8e92ed',1,'sv_onslaught.qh']]],
   ['ons_5fstalelinknext',['ons_stalelinknext',['../d7/dd0/sv__onslaught_8qh.html#af656061e927ae783f4300139dc699bf1',1,'sv_onslaught.qh']]],
   ['ons_5fstalemate',['ons_stalemate',['../d7/dd0/sv__onslaught_8qh.html#a5b68d076e8c95387a77d53ccfdb6ab49',1,'sv_onslaught.qh']]],
   ['ons_5ftoucher',['ons_toucher',['../d7/dd0/sv__onslaught_8qh.html#a5febebda1effaf226f026ce8c18f08a4',1,'sv_onslaught.qh']]],

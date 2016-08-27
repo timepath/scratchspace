@@ -1,7 +1,5 @@
 var common_2physics_2player_8qc =
 [
-    [ "unstick_offsets", "d2/d0a/common_2physics_2player_8qc.html#a0bae2396e15bfe72eabb4ba4d483ae5f", null ],
-    [ "X", "d2/d0a/common_2physics_2player_8qc.html#a98850282951fb3829f495570259362a2", null ],
     [ "AdjustAirAccelQW", "d2/d0a/common_2physics_2player_8qc.html#ab81c95b0e30aff82122c0e5688564397", null ],
     [ "CheckPlayerJump", "d2/d0a/common_2physics_2player_8qc.html#a3e975b1ebc6b2bf9066537dd0842faa8", null ],
     [ "CheckWaterJump", "d2/d0a/common_2physics_2player_8qc.html#abb6ca34452c1369173a1515f92dd8764", null ],
@@ -18,7 +16,6 @@ var common_2physics_2player_8qc =
     [ "PM_check_nickspam", "d2/d0a/common_2physics_2player_8qc.html#a3149e17d521bed0872a4dcbce7c2e318", null ],
     [ "PM_check_punch", "d2/d0a/common_2physics_2player_8qc.html#a8678504c5372b92cf7512e341387148b", null ],
     [ "PM_check_specialcommand", "d2/d0a/common_2physics_2player_8qc.html#a9eee2f2f5f376f53befdf1537abe179d", null ],
-    [ "PM_ClientMovement_Unstick", "d2/d0a/common_2physics_2player_8qc.html#ad98ee7de5610b116cf3ced94e1af0ae5", null ],
     [ "PM_ClientMovement_UpdateStatus", "d2/d0a/common_2physics_2player_8qc.html#a4a64191d2aeb497ecc6ec081d6813f8a", null ],
     [ "PM_Footsteps", "d2/d0a/common_2physics_2player_8qc.html#af720710e7d9c6e243358bd74cac5e70e", null ],
     [ "PM_jetpack", "d2/d0a/common_2physics_2player_8qc.html#a10d29c17a791cc0b24daadc3fe02e56c", null ],

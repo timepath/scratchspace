@@ -369,7 +369,6 @@ var client_2autocvars_8qh =
     [ "autocvar_hud_panel_update_interval", "d7/db4/client_2autocvars_8qh.html#a917f2de6a2004ec3ca4cdf5a7dab8fc2", null ],
     [ "autocvar_hud_panel_vote", "d7/db4/client_2autocvars_8qh.html#a8644883983c4c00ab8b1c64ee9b4386b", null ],
     [ "autocvar_hud_panel_vote_alreadyvoted_alpha", "d7/db4/client_2autocvars_8qh.html#ad5404a803dd706cc16474e56093e0c52", null ],
-    [ "autocvar_hud_panel_vote_bg_alpha", "d7/db4/client_2autocvars_8qh.html#a4b0163a8a12208d256cfc5ad9b0c4361", null ],
     [ "autocvar_hud_panel_vote_dynamichud", "d7/db4/client_2autocvars_8qh.html#acdb9ad7c05758bb747ca671c2ba1ccf4", null ],
     [ "autocvar_hud_panel_weapons", "d7/db4/client_2autocvars_8qh.html#a126fa9bc41f730d0326ef29952aa8947", null ],
     [ "autocvar_hud_panel_weapons_accuracy", "d7/db4/client_2autocvars_8qh.html#a7334ef3466bb6d60c25669d627e516d7", null ],

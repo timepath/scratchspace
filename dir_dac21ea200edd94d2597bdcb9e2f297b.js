@@ -9,7 +9,7 @@ var dir_dac21ea200edd94d2597bdcb9e2f297b =
     [ "button.qc", "da/dfc/common_2triggers_2func_2button_8qc.html", null ],
     [ "button.qh", "df/d94/common_2triggers_2func_2button_8qh.html", null ],
     [ "conveyor.qc", "da/d7d/conveyor_8qc.html", "da/d7d/conveyor_8qc" ],
-    [ "conveyor.qh", "d2/d36/conveyor_8qh.html", null ],
+    [ "conveyor.qh", "d2/d36/conveyor_8qh.html", "d2/d36/conveyor_8qh" ],
     [ "door.qc", "d6/d9c/door_8qc.html", "d6/d9c/door_8qc" ],
     [ "door.qh", "dd/d5e/door_8qh.html", "dd/d5e/door_8qh" ],
     [ "door_rotating.qc", "d8/d34/door__rotating_8qc.html", null ],

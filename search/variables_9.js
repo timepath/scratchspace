@@ -48,7 +48,6 @@ var searchData=
   ['in_5fswamp',['in_swamp',['../da/d96/swamp_8qh.html#acfe94a307f0eed212930a06acc6a8a96',1,'swamp.qh']]],
   ['inactive',['inactive',['../d4/db7/wall_8qh.html#ac6b9339527d76074ab576ec555ec5987',1,'inactive():&#160;wall.qh'],['../d5/d26/server_2defs_8qh.html#ac6b9339527d76074ab576ec555ec5987',1,'inactive():&#160;defs.qh']]],
   ['independent_5fplayers',['independent_players',['../d5/d26/server_2defs_8qh.html#a1a96238519dd8043d47e2c96aea837d1',1,'defs.qh']]],
-  ['init_5ffor_5fplayer_5fneeded',['init_for_player_needed',['../d5/d26/server_2defs_8qh.html#a72e1e355ffeebdff7a9fb2f7aa958422',1,'defs.qh']]],
   ['initialize_5fentity_5ffirst',['initialize_entity_first',['../dc/d73/server_2miscfunctions_8qh.html#a0cad781d981cf76e1f633a6ffddfd621',1,'miscfunctions.qh']]],
   ['initialize_5fentity_5fnext',['initialize_entity_next',['../dc/d73/server_2miscfunctions_8qh.html#ac433d8a77c8e0fd925838e06e2c68bb5',1,'miscfunctions.qh']]],
   ['initialize_5fentity_5forder',['initialize_entity_order',['../dc/d73/server_2miscfunctions_8qh.html#a29328c1f4dfc8e0c658d3bd6e28a740d',1,'miscfunctions.qh']]],

@@ -11,8 +11,10 @@ var server_2client_8qh =
     [ "ClientState_attach", "d8/de2/server_2client_8qh.html#afc32312bf25df126b18e078bedab7837", null ],
     [ "play_countdown", "d8/de2/server_2client_8qh.html#a06fa68229b5a8bf0f5931e23bc3612b6", null ],
     [ "Spectate", "d8/de2/server_2client_8qh.html#acd1560ca258ee21a90fd35530c8127b0", null ],
+    [ "STATIC_INIT", "d8/de2/server_2client_8qh.html#adb6811cf23b61f86e3887a680ada4875", null ],
     [ "c1", "d8/de2/server_2client_8qh.html#a7fea4d2f6f3c31b60301494b136558af", null ],
     [ "c2", "d8/de2/server_2client_8qh.html#a0fe1885b4d10c978f52619ab968adadc", null ],
     [ "c3", "d8/de2/server_2client_8qh.html#a1b932a1e2adf36a4506e7470f831da40", null ],
-    [ "c4", "d8/de2/server_2client_8qh.html#a374cc32da17a4d3fea4faa48066ea8bc", null ]
+    [ "c4", "d8/de2/server_2client_8qh.html#a374cc32da17a4d3fea4faa48066ea8bc", null ],
+    [ "g_players", "d8/de2/server_2client_8qh.html#aa8f4a01a47bb4c0a14e796683451d2a8", null ]
 ];

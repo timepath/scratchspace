@@ -1,7 +1,7 @@
 var cl__controlpoint_8qc =
 [
     [ "cpicon_changeteam", "db/dc8/cl__controlpoint_8qc.html#ab90f225bea84a591127d0c66257cf3e9", null ],
-    [ "cpicon_construct", "db/dc8/cl__controlpoint_8qc.html#a9609e7148b8b0f74528c01c5393d176a", null ],
+    [ "cpicon_construct", "db/dc8/cl__controlpoint_8qc.html#a806d079ce631c8bfa0605a5e1276ef7d", null ],
     [ "cpicon_damage", "db/dc8/cl__controlpoint_8qc.html#af89c4cb9409de9851068c36f8e27eae8", null ],
     [ "cpicon_draw", "db/dc8/cl__controlpoint_8qc.html#a608237ac61b914079eaa29b74ba470ef", null ],
     [ "NET_HANDLE", "db/dc8/cl__controlpoint_8qc.html#a624e1c87dc3d056c489b4ac441de3631", null ],

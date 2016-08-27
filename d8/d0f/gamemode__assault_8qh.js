@@ -1,6 +1,5 @@
 var gamemode__assault_8qh =
 [
-    [ "ActivateTeamplay", "d8/d0f/gamemode__assault_8qh.html#ae1c3e008f1694a4a8d288f0708893574", null ],
     [ "assault_ScoreRules", "d8/d0f/gamemode__assault_8qh.html#af9ce8a13c37efdd85ac68f7b16bd7ac9", null ],
     [ "REGISTER_MUTATOR", "d8/d0f/gamemode__assault_8qh.html#a5753f4b0d3f0961028891e42b2d2f2ee", null ],
     [ "target_objective_decrease_activate", "d8/d0f/gamemode__assault_8qh.html#aae75592036bbad8155a2c2b1f82aa17c", null ],

@@ -290,7 +290,7 @@ var searchData=
   ['countspectators',['CountSpectators',['../df/dd7/server_2client_8qc.html#a21041e5d38139f4b7da1e1eb951aba0d',1,'client.qc']]],
   ['coverage',['coverage',['../d4/d0c/csprogsdefs_8qc.html#a5ad0f1b19b4f15304e35584c821ef092',1,'coverage():&#160;csprogsdefs.qc'],['../de/d5e/dpextensions_8qc.html#a5ad0f1b19b4f15304e35584c821ef092',1,'coverage():&#160;dpextensions.qc'],['../d8/de2/menudefs_8qc.html#a5ad0f1b19b4f15304e35584c821ef092',1,'coverage():&#160;menudefs.qc']]],
   ['cpicon_5fchangeteam',['cpicon_changeteam',['../db/dc8/cl__controlpoint_8qc.html#ab90f225bea84a591127d0c66257cf3e9',1,'cl_controlpoint.qc']]],
-  ['cpicon_5fconstruct',['cpicon_construct',['../db/dc8/cl__controlpoint_8qc.html#a9609e7148b8b0f74528c01c5393d176a',1,'cl_controlpoint.qc']]],
+  ['cpicon_5fconstruct',['cpicon_construct',['../db/dc8/cl__controlpoint_8qc.html#a806d079ce631c8bfa0605a5e1276ef7d',1,'cl_controlpoint.qc']]],
   ['cpicon_5fdamage',['cpicon_damage',['../db/dc8/cl__controlpoint_8qc.html#af89c4cb9409de9851068c36f8e27eae8',1,'cl_controlpoint.qc']]],
   ['cpicon_5fdraw',['cpicon_draw',['../db/dc8/cl__controlpoint_8qc.html#a608237ac61b914079eaa29b74ba470ef',1,'cl_controlpoint.qc']]],
   ['cpicon_5fsend',['cpicon_send',['../de/d4d/sv__controlpoint_8qc.html#a82df6e0da0f9ef689ce91cd247f56513',1,'sv_controlpoint.qc']]],
