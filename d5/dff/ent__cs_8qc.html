@@ -131,6 +131,11 @@ $(document).ready(function(){initNavTree('d5/dff/ent__cs_8qc.html','../../');});
 Macros</h2></td></tr>
 <tr class="memitem:a86abe4fefe199def2e7bbd2e2fe63385"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dff/ent__cs_8qc.html#a86abe4fefe199def2e7bbd2e2fe63385">ENTCS_NETPROPS</a>(PROP)</td></tr>
 <tr class="separator:a86abe4fefe199def2e7bbd2e2fe63385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a010b8f628edd49273a243ca7f5b7c734"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dff/ent__cs_8qc.html#a010b8f628edd49273a243ca7f5b7c734">ENTCS_SET_MUTABLE_STRING</a>(var, x)</td></tr>
+<tr class="memdesc:a010b8f628edd49273a243ca7f5b7c734"><td class="mdescLeft">&#160;</td><td class="mdescRight">the engine player name strings are mutable!  <a href="#a010b8f628edd49273a243ca7f5b7c734">More...</a><br/></td></tr>
+<tr class="separator:a010b8f628edd49273a243ca7f5b7c734"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6306e7d46fd8823fc00fcec67b6b3f6e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/dff/ent__cs_8qc.html#a6306e7d46fd8823fc00fcec67b6b3f6e">ENTCS_SET_NORMAL</a>(var, x)</td></tr>
+<tr class="separator:a6306e7d46fd8823fc00fcec67b6b3f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a86abe4fefe199def2e7bbd2e2fe63385"></a>
@@ -147,7 +152,76 @@ Macros</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00004">4</a> of file <a class="el" href="../../d5/dff/ent__cs_8qc_source.html">ent_cs.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00014">14</a> of file <a class="el" href="../../d5/dff/ent__cs_8qc_source.html">ent_cs.qc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a010b8f628edd49273a243ca7f5b7c734"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ENTCS_SET_MUTABLE_STRING</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">var, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">MACRO_BEGIN \</div>
+<div class="line">    if (var) <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(var); \</div>
+<div class="line">    var = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(x); \</div>
+<div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
+<div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
+<div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+<div class="ttc" id="menudefs_8qc_html_ab64c3a0e7d347975b8b7a5cd17ab0113"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a></div><div class="ttdeci">void strunzone(string s)</div></div>
+</div><!-- fragment -->
+<p>the engine player name strings are mutable! </p>
+
+<p>Definition at line <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00008">8</a> of file <a class="el" href="../../d5/dff/ent__cs_8qc_source.html">ent_cs.qc</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a6306e7d46fd8823fc00fcec67b6b3f6e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define ENTCS_SET_NORMAL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">var, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">x&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">MACRO_BEGIN \</div>
+<div class="line">    var = x; <a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">\</a></div>
+<div class="line"><a class="code" href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div>
+<div class="ttc" id="macro_8qh_html_a24d643fdd618bef1cd183c98cc2e8201"><div class="ttname"><a href="../../d3/dc9/macro_8qh.html#a24d643fdd618bef1cd183c98cc2e8201">MACRO_END</a></div><div class="ttdeci">#define MACRO_END</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dc9/macro_8qh_source.html#l00006">macro.qh:6</a></div></div>
+</div><!-- fragment -->
+<p>Definition at line <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00003">3</a> of file <a class="el" href="../../d5/dff/ent__cs_8qc_source.html">ent_cs.qc</a>.</p>
 
 </div>
 </div>
@@ -157,7 +231,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../d5/dff/ent__cs_8qc.html">ent_cs.qc</a></li>
-    <li class="footer">Generated on Sun Aug 28 2016 08:47:48 for Xonotic by
+    <li class="footer">Generated on Sun Aug 28 2016 12:33:49 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
