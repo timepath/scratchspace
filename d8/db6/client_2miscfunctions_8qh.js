@@ -54,6 +54,7 @@ var client_2miscfunctions_8qh =
     [ "RemoveTeam", "d8/db6/client_2miscfunctions_8qh.html#aecc11bf0c8cdf3c47928f7d68fb58af4", null ],
     [ "rotate", "d8/db6/client_2miscfunctions_8qh.html#af51ffe2b6a299102846ea3cb80677406", null ],
     [ "stringwidth", "d8/db6/client_2miscfunctions_8qh.html#aac033ec101163a655b47a24ceb78bad5", null ],
+    [ "update_mousepos", "d8/db6/client_2miscfunctions_8qh.html#a08d24097586a6fc4539ce644d1c66e54", null ],
     [ "_drawpic_imgaspect", "d8/db6/client_2miscfunctions_8qh.html#ab1e5cdfb10e7511d7ea2a24d315f3d99", null ],
     [ "_drawpic_imgsize", "d8/db6/client_2miscfunctions_8qh.html#a2eea62bf8306544a15e579c7c29a5bcb", null ],
     [ "_drawpic_oldsz", "d8/db6/client_2miscfunctions_8qh.html#a673f61ff01cc5269bd8d55af6e0966de", null ],

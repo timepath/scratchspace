@@ -8,6 +8,7 @@ var searchData=
   ['unquote',['unquote',['../d3/d46/mapinfo_8qc.html#a909ab91933ee8b125ca839d26c3116d2',1,'mapinfo.qc']]],
   ['unsetmovetypefollow',['UnsetMovetypeFollow',['../dc/dc6/server_2miscfunctions_8qc.html#a9634e44df040223a44cd0063ac141c9f',1,'miscfunctions.qc']]],
   ['update',['update',['../d0/d5d/classAnimation.html#a4318baf0b0735e7da87b2c6d3d3a2705',1,'Animation']]],
+  ['update_5fmousepos',['update_mousepos',['../dc/d98/client_2miscfunctions_8qc.html#a08d24097586a6fc4539ce644d1c66e54',1,'update_mousepos():&#160;miscfunctions.qc'],['../d8/db6/client_2miscfunctions_8qh.html#a08d24097586a6fc4539ce644d1c66e54',1,'update_mousepos():&#160;miscfunctions.qc']]],
   ['updateaspect',['updateAspect',['../d8/d00/classImage.html#a603f8717f8a19f57c6441bafc59779a9',1,'Image']]],
   ['updateauxiliaryxhair',['UpdateAuxiliaryXhair',['../da/d10/sv__vehicles_8qc.html#a65279814c8a6144755ab92a4f3ba98ba',1,'sv_vehicles.qc']]],
   ['updatechatbubble',['UpdateChatBubble',['../df/dd7/server_2client_8qc.html#a616f8875b0e8641acc7d4a19a0824be2',1,'client.qc']]],

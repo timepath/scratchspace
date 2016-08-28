@@ -35,5 +35,6 @@ var client_2miscfunctions_8qc =
     [ "RemovePlayer", "dc/d98/client_2miscfunctions_8qc.html#a1ff2ab6f40ef91103b3fd8a9e083b4ca", null ],
     [ "RemoveTeam", "dc/d98/client_2miscfunctions_8qc.html#aecc11bf0c8cdf3c47928f7d68fb58af4", null ],
     [ "stringwidth", "dc/d98/client_2miscfunctions_8qc.html#aac033ec101163a655b47a24ceb78bad5", null ],
+    [ "update_mousepos", "dc/d98/client_2miscfunctions_8qc.html#a08d24097586a6fc4539ce644d1c66e54", null ],
     [ "URI_Get_Callback", "dc/d98/client_2miscfunctions_8qc.html#adca84d1c7403379d372fc6e45bbf5130", null ]
 ];
