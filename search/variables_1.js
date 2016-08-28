@@ -510,7 +510,6 @@ var searchData=
   ['autocvar_5fcrosshair_5fsize',['autocvar_crosshair_size',['../d7/db4/client_2autocvars_8qh.html#a2ed9376a0bd02afd3b12d471ac7afae6',1,'autocvars.qh']]],
   ['autocvar_5fdeveloper',['autocvar_developer',['../db/da0/log_8qh.html#a3cc65b2fa189a69394b7ee11b1a40de8',1,'log.qh']]],
   ['autocvar_5fdeveloper_5fcsqcentities',['autocvar_developer_csqcentities',['../d7/db4/client_2autocvars_8qh.html#a1308ede3375f6db0058360f8133fa27e',1,'autocvars.qh']]],
-  ['autocvar_5fdeveloper_5fmapper',['autocvar_developer_mapper',['../d2/d9e/mapinfo_8qh.html#a6d7c823858c610098c2355c7c5e90725',1,'mapinfo.qh']]],
   ['autocvar_5fekg',['autocvar_ekg',['../d7/db4/client_2autocvars_8qh.html#ac6ce93e67a20b4848e89230aca3acaf9',1,'autocvar_ekg():&#160;autocvars.qh'],['../d7/da7/server_2autocvars_8qh.html#a3f308d8962ec38aa20908b6a8d62496e',1,'autocvar_ekg():&#160;autocvars.qh']]],
   ['autocvar_5ffov',['autocvar_fov',['../d7/db4/client_2autocvars_8qh.html#adb22eab503c5f59c25e7582afb477b4b',1,'autocvars.qh']]],
   ['autocvar_5fg_5fallow_5foldvortexbeam',['autocvar_g_allow_oldvortexbeam',['../d7/da7/server_2autocvars_8qh.html#ad72cbea4955bee5db1df37deb3dd4e67',1,'autocvars.qh']]],
