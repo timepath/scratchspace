@@ -39,7 +39,6 @@ var client_2mapvoting_8qc =
     [ "mv_flags_start", "d4/d0d/client_2mapvoting_8qc.html#a45d814217734adf57e72f4a352cc75d7", null ],
     [ "mv_maps", "d4/d0d/client_2mapvoting_8qc.html#a14ae6b8b6a8d3cf82cf23c30cd847ec0", null ],
     [ "mv_mouse_selection", "d4/d0d/client_2mapvoting_8qc.html#a748c2c7f43e2077f5f044eb3c6fd19be", null ],
-    [ "mv_mousepos", "d4/d0d/client_2mapvoting_8qc.html#ab2d495b1163fc9195cab36183ab11dfb", null ],
     [ "mv_num_maps", "d4/d0d/client_2mapvoting_8qc.html#afc42b7e84553443a0d327e4cad45f162", null ],
     [ "mv_ownvote", "d4/d0d/client_2mapvoting_8qc.html#a9e185dd08b2c3b9bc966efd8246d7b45", null ],
     [ "mv_pics", "d4/d0d/client_2mapvoting_8qc.html#afad81141b0355a860158f3dc0ea66a59", null ],
