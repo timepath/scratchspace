@@ -1,74 +1,76 @@
 <map id="kh_Initialize" name="kh_Initialize">
-<area shape="rect" id="node2" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="185,5,242,32"/>
-<area shape="rect" id="node3" href="$de/d40/gamemode__keyhunt_8qc.html#a531e55e732864eae875e27be2261f406" title="kh_Controller_SetThink" alt="" coords="1425,139,1583,165"/>
-<area shape="rect" id="node5" href="$de/d40/gamemode__keyhunt_8qc.html#a416281629c18b21a1b7b31732c9bcc56" title="kh_Controller_Think" alt="" coords="144,233,283,260"/>
-<area shape="rect" id="node6" href="$de/d40/gamemode__keyhunt_8qc.html#acf9057b87b552cb3a114c36616cc86c5" title="kh_WaitForPlayers" alt="" coords="331,208,464,235"/>
-<area shape="rect" id="node13" href="$d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" title="spawn" alt="" coords="891,1537,951,1564"/>
-<area shape="rect" id="node60" href="$de/d40/gamemode__keyhunt_8qc.html#a2d785f20712986ad16b564ca933f19e8" title="kh_ScoreRules" alt="" coords="1051,1627,1162,1653"/>
-<area shape="rect" id="node4" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="1685,139,1728,165"/>
-<area shape="rect" id="node7" href="$de/d40/gamemode__keyhunt_8qc.html#a1d862e4d3c2f36737b3480108d1f2e0e" title="kh_CheckPlayers" alt="" coords="669,157,795,184"/>
-<area shape="rect" id="node9" href="$de/d40/gamemode__keyhunt_8qc.html#ad10ed989b4f6a7ccbba89f62fc1705ac" title="kh_StartRound" alt="" coords="512,259,621,285"/>
-<area shape="rect" id="node8" href="$de/d40/gamemode__keyhunt_8qc.html#a26e842c69259395a21fa8ddaefed7bf3" title="kh_Team_ByID" alt="" coords="1238,208,1351,235"/>
-<area shape="rect" id="node10" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="2274,588,2329,615"/>
-<area shape="rect" id="node11" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="889,411,954,437"/>
-<area shape="rect" id="node12" href="$de/d40/gamemode__keyhunt_8qc.html#a0cc4d42896731a9e2d7621b4df9f416f" title="kh_Key_Spawn" alt="" coords="675,664,789,691"/>
-<area shape="rect" id="node14" href="$de/d40/gamemode__keyhunt_8qc.html#a9e35427c8f0e83a5c727245d92ac36f1" title="kh_Key_Touch" alt="" coords="867,740,976,767"/>
-<area shape="rect" id="node30" href="$de/d40/gamemode__keyhunt_8qc.html#a53b6f32f3cf7da87a548e0d8dd30b89a" title="kh_Key_AssignTo" alt="" coords="1643,411,1771,437"/>
-<area shape="rect" id="node39" href="$de/d40/gamemode__keyhunt_8qc.html#a37649830a26962d6bd939ecf9c50c8e2" title="kh_Key_Think" alt="" coords="869,1069,974,1096"/>
-<area shape="rect" id="node55" href="$db/d07/teams_8qh.html#a40887618c0a56497f855f5631aa428d9" title="Team_ColorRGB" alt="" coords="1233,1525,1356,1552"/>
-<area shape="rect" id="node56" href="$de/d40/gamemode__keyhunt_8qc.html#ab09b2a45564a2580feb3d8bb70541fbd" title="kh_Key_Damage" alt="" coords="860,1171,983,1197"/>
-<area shape="rect" id="node58" href="$de/d40/gamemode__keyhunt_8qc.html#a0c6350cfc34e360495df99e59a8eed4a" title="key_reset" alt="" coords="1255,411,1334,437"/>
-<area shape="rect" id="node59" href="$de/d40/gamemode__keyhunt_8qc.html#a1b01b2398e4c5c9a3be53d4a6d56b040" title="kh_Key_waypointsprite\l_visible_for_player" alt="" coords="843,462,1000,503"/>
-<area shape="rect" id="node15" href="$de/d40/gamemode__keyhunt_8qc.html#a91ba0798840e5d63b72bd8e54ddcd92c" title="kh_Key_Collect" alt="" coords="1049,791,1164,817"/>
-<area shape="rect" id="node16" href="$de/d40/gamemode__keyhunt_8qc.html#a24fba324c185ddf090d87683b01a02ce" title="kh_Scores_Event" alt="" coords="1232,816,1357,843"/>
-<area shape="rect" id="node28" href="$d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4" title="Adds a score to the player&#39;s scores. " alt="" coords="1443,1019,1565,1045"/>
-<area shape="rect" id="node17" href="$d5/d26/server_2defs_8qh.html#a7e53366415188b2157d76a7250422580" title="UpdateFrags" alt="" coords="1455,867,1553,893"/>
-<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="1679,1221,1734,1248"/>
-<area shape="rect" id="node19" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="1685,1019,1729,1045"/>
-<area shape="rect" id="node20" href="$dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3" title="GameLogEcho" alt="" coords="1450,765,1558,792"/>
-<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="1671,715,1743,741"/>
-<area shape="rect" id="node22" href="$db/d9b/server_2player_8qc.html#a0390f6703ace29f61655694b8821d84a" title="print(), but only print if the server is not local " alt="" coords="1651,968,1762,995"/>
-<area shape="rect" id="node24" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="1679,765,1734,792"/>
-<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="1681,816,1732,843"/>
-<area shape="rect" id="node26" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="1679,867,1734,893"/>
-<area shape="rect" id="node27" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="1669,917,1744,944"/>
-<area shape="rect" id="node23" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="1914,968,1961,995"/>
-<area shape="rect" id="node29" href="$d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d" title="pow" alt="" coords="2122,1120,2169,1147"/>
-<area shape="rect" id="node31" href="$de/d40/gamemode__keyhunt_8qc.html#a23c6a4a8ae9da6a50ca2b533c38876f7" title="kh_Key_AllOwnedByWhichTeam" alt="" coords="1830,563,2045,589"/>
-<area shape="rect" id="node32" href="$de/d40/gamemode__keyhunt_8qc.html#a5b49f203806993cfa8819cea2b46cb58" title="kh_Key_Detach" alt="" coords="1880,309,1995,336"/>
-<area shape="rect" id="node36" href="$de/d40/gamemode__keyhunt_8qc.html#ac424bffde3e5ff6093b81edd08b9f690" title="kh_Key_Attach" alt="" coords="1882,360,1993,387"/>
-<area shape="rect" id="node37" href="$de/d40/gamemode__keyhunt_8qc.html#a923cf23a4a0359014c786bb93ce02cc4" title="kh_KeyCarrier_waypointsprite\l_visible_for_player" alt="" coords="1839,243,2035,285"/>
-<area shape="rect" id="node38" href="$de/d40/gamemode__keyhunt_8qc.html#af0b0677c2ea223d7b4b626fa9e83ccd7" title="kh_update_state" alt="" coords="1878,512,1997,539"/>
-<area shape="rect" id="node33" href="$d9/d51/intrusivelist_8qh.html#a44ed93b6aaca72d222ce263898d152b4" title="Push to tail. " alt="" coords="2106,141,2185,168"/>
-<area shape="rect" id="node35" href="$d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78" title="set_movetype" alt="" coords="2093,309,2197,336"/>
-<area shape="rect" id="node34" href="$d9/d51/intrusivelist_8qh.html#a03533687dbcda21ca9480b3e4b13fb34" title="IL_CONTAINS" alt="" coords="2246,141,2357,168"/>
-<area shape="rect" id="node40" href="$de/d40/gamemode__keyhunt_8qc.html#a0fb6a850ac4f7e08bc0a9c0eadec8e1b" title="kh_LoserTeam" alt="" coords="1053,968,1161,995"/>
-<area shape="rect" id="node48" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1265,1424,1324,1451"/>
-<area shape="rect" id="node49" href="$de/d40/gamemode__keyhunt_8qc.html#a020f625203fb41668b95be99c0038fab" title="kh_WinnerTeam" alt="" coords="1048,1171,1165,1197"/>
-<area shape="rect" id="node41" href="$dc/d95/random_8qc.html#aef59b07d8db47f04e76ec7a7be4047f1" title="DistributeEvenly_Init" alt="" coords="1223,1019,1366,1045"/>
-<area shape="rect" id="node43" href="$dc/d95/random_8qc.html#a7e1cd659f19903a270d90839587d91ee" title="DistributeEvenly_Get" alt="" coords="1221,1120,1368,1147"/>
-<area shape="rect" id="node45" href="$dc/d73/server_2miscfunctions_8qh.html#aa5a5ed1fd369382ba21cb76e5803fdf3" title="play2all" alt="" coords="1261,1069,1328,1096"/>
-<area shape="rect" id="node46" href="$de/d40/gamemode__keyhunt_8qc.html#afd18b0575ca03a9b7f7226e0775ac61f" title="kh_FinishRound" alt="" coords="1237,613,1353,640"/>
-<area shape="rect" id="node42" href="$d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd" title="LOG_TRACE" alt="" coords="1453,1120,1555,1147"/>
-<area shape="rect" id="node44" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1481,1171,1527,1197"/>
-<area shape="rect" id="node47" href="$de/d40/gamemode__keyhunt_8qc.html#a8aa5874d9ea7c9f4d142264272180abe" title="kh_Key_Remove" alt="" coords="1443,512,1565,539"/>
-<area shape="rect" id="node50" href="$d2/d79/scores_8qc.html#a95c06d8a35e1db6d343a7c883241444c" title="Adds a score to both the player and the team. " alt="" coords="1217,1171,1373,1197"/>
-<area shape="rect" id="node53" href="$de/d40/gamemode__keyhunt_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3" title="nades_GiveBonus" alt="" coords="1231,1373,1359,1400"/>
-<area shape="rect" id="node54" href="$de/d40/gamemode__keyhunt_8qc.html#ab83c57c90987c6f9bb333b5d6d1aeb58" title="kh_AttachedOrigin" alt="" coords="1230,1323,1359,1349"/>
-<area shape="rect" id="node51" href="$d2/d79/scores_8qc.html#a394bf84d67f07e376beeff4a5c6ed94c" title="Adds a score to the player&#39;s team&#39;s scores. " alt="" coords="1445,1272,1563,1299"/>
-<area shape="rect" id="node52" href="$d2/d79/scores_8qc.html#a2f5738674b5f6bac88679dd31ac2de9e" title="Adds a score to the given team. " alt="" coords="1854,1221,2021,1248"/>
-<area shape="rect" id="node57" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="1083,1436,1130,1463"/>
-<area shape="rect" id="node61" href="$d5/d14/scores__rules_8qc.html#ac67defd12e305443ab1cf4266ca03c8f" title="ScoreRules_basics" alt="" coords="1227,1627,1362,1653"/>
-<area shape="rect" id="node62" href="$d2/d79/scores_8qc.html#a601d5f667de9976b2a1ca7f6fc6051de" title="Set the label of a player score item, as well as the scoring flags. " alt="" coords="1436,1627,1572,1669"/>
-<area shape="rect" id="node63" href="$d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882" title="Set the label of a team score item, as well as the scoring flags. " alt="" coords="1436,1562,1572,1603"/>
-<area shape="rect" id="node64" href="$d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05" title="ScoreRules_basics_end" alt="" coords="1213,1728,1376,1755"/>
-<area shape="rect" id="node65" href="$d2/d79/scores_8qc.html#a51f0d41043a05b6682f5322b3f338abd" title="ScoreInfo_Init" alt="" coords="1453,1707,1555,1733"/>
-<area shape="rect" id="node66" href="$d2/d79/scores_8qc.html#a8fe097dffad5360aea8e78c7fe249d32" title="ScoreInfo_SendEntity" alt="" coords="1632,1707,1781,1733"/>
-<area shape="rect" id="node69" href="$d2/d79/scores_8qc.html#a5db481005e2c63c868c58b15537638a0" title="TeamScore_Spawn" alt="" coords="1639,1648,1775,1675"/>
-<area shape="rect" id="node67" href="$d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516" title="WriteString" alt="" coords="1894,1699,1981,1725"/>
-<area shape="rect" id="node68" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="2105,1749,2185,1776"/>
-<area shape="rect" id="node70" href="$d2/d79/scores_8qc.html#afada77c7b9046dc439737459f196231a" title="TeamScore_SendEntity" alt="" coords="1857,1648,2017,1675"/>
-<area shape="rect" id="node71" href="$d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15" title="eprint" alt="" coords="2118,1648,2173,1675"/>
-<area shape="rect" id="node72" href="$d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35" title="WriteShort" alt="" coords="2103,1699,2187,1725"/>
-<area shape="rect" id="node73" href="$d8/de2/menudefs_8qc.html#a52cb9ee43a3668c53bee4ff715da8260" title="WriteChar" alt="" coords="2105,1597,2186,1624"/>
+<area shape="rect" id="node2" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="185,56,242,83"/>
+<area shape="rect" id="node3" href="$de/d40/gamemode__keyhunt_8qc.html#a531e55e732864eae875e27be2261f406" title="kh_Controller_SetThink" alt="" coords="1425,183,1583,209"/>
+<area shape="rect" id="node5" href="$de/d40/gamemode__keyhunt_8qc.html#a416281629c18b21a1b7b31732c9bcc56" title="kh_Controller_Think" alt="" coords="144,397,283,424"/>
+<area shape="rect" id="node6" href="$de/d40/gamemode__keyhunt_8qc.html#acf9057b87b552cb3a114c36616cc86c5" title="kh_WaitForPlayers" alt="" coords="331,372,464,399"/>
+<area shape="rect" id="node14" href="$d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c" title="spawn" alt="" coords="891,1323,951,1349"/>
+<area shape="rect" id="node62" href="$de/d40/gamemode__keyhunt_8qc.html#a2d785f20712986ad16b564ca933f19e8" title="kh_ScoreRules" alt="" coords="1051,1551,1162,1577"/>
+<area shape="rect" id="node4" href="$d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7" title="ceil" alt="" coords="1685,183,1728,209"/>
+<area shape="rect" id="node7" href="$de/d40/gamemode__keyhunt_8qc.html#a1d862e4d3c2f36737b3480108d1f2e0e" title="kh_CheckPlayers" alt="" coords="669,309,795,336"/>
+<area shape="rect" id="node10" href="$de/d40/gamemode__keyhunt_8qc.html#ad10ed989b4f6a7ccbba89f62fc1705ac" title="kh_StartRound" alt="" coords="512,397,621,424"/>
+<area shape="rect" id="node8" href="$de/d40/gamemode__keyhunt_8qc.html#a26e842c69259395a21fa8ddaefed7bf3" title="kh_Team_ByID" alt="" coords="1238,259,1351,285"/>
+<area shape="rect" id="node9" href="$d5/d14/scores__rules_8qc.html#ae01e878023ee1a5ecc45cc3d62c3895f" title="NumTeams" alt="" coords="2100,563,2191,589"/>
+<area shape="rect" id="node11" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="2274,461,2329,488"/>
+<area shape="rect" id="node12" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="889,1165,954,1192"/>
+<area shape="rect" id="node13" href="$de/d40/gamemode__keyhunt_8qc.html#a0cc4d42896731a9e2d7621b4df9f416f" title="kh_Key_Spawn" alt="" coords="675,848,789,875"/>
+<area shape="rect" id="node15" href="$de/d40/gamemode__keyhunt_8qc.html#a9e35427c8f0e83a5c727245d92ac36f1" title="kh_Key_Touch" alt="" coords="867,1008,976,1035"/>
+<area shape="rect" id="node31" href="$de/d40/gamemode__keyhunt_8qc.html#a53b6f32f3cf7da87a548e0d8dd30b89a" title="kh_Key_AssignTo" alt="" coords="1643,259,1771,285"/>
+<area shape="rect" id="node41" href="$de/d40/gamemode__keyhunt_8qc.html#a37649830a26962d6bd939ecf9c50c8e2" title="kh_Key_Think" alt="" coords="869,848,974,875"/>
+<area shape="rect" id="node57" href="$db/d07/teams_8qh.html#a40887618c0a56497f855f5631aa428d9" title="Team_ColorRGB" alt="" coords="1233,1424,1356,1451"/>
+<area shape="rect" id="node58" href="$de/d40/gamemode__keyhunt_8qc.html#ab09b2a45564a2580feb3d8bb70541fbd" title="kh_Key_Damage" alt="" coords="860,740,983,767"/>
+<area shape="rect" id="node60" href="$de/d40/gamemode__keyhunt_8qc.html#a0c6350cfc34e360495df99e59a8eed4a" title="key_reset" alt="" coords="1255,360,1334,387"/>
+<area shape="rect" id="node61" href="$de/d40/gamemode__keyhunt_8qc.html#a1b01b2398e4c5c9a3be53d4a6d56b040" title="kh_Key_waypointsprite\l_visible_for_player" alt="" coords="843,899,1000,941"/>
+<area shape="rect" id="node16" href="$de/d40/gamemode__keyhunt_8qc.html#a91ba0798840e5d63b72bd8e54ddcd92c" title="kh_Key_Collect" alt="" coords="1049,1011,1164,1037"/>
+<area shape="rect" id="node17" href="$de/d40/gamemode__keyhunt_8qc.html#a24fba324c185ddf090d87683b01a02ce" title="kh_Scores_Event" alt="" coords="1232,1221,1357,1248"/>
+<area shape="rect" id="node29" href="$d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4" title="Adds a score to the player&#39;s scores. " alt="" coords="1443,1069,1565,1096"/>
+<area shape="rect" id="node18" href="$d5/d26/server_2defs_8qh.html#a7e53366415188b2157d76a7250422580" title="UpdateFrags" alt="" coords="1455,1171,1553,1197"/>
+<area shape="rect" id="node19" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="1679,1373,1734,1400"/>
+<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="1685,1019,1729,1045"/>
+<area shape="rect" id="node21" href="$dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3" title="GameLogEcho" alt="" coords="1450,1221,1558,1248"/>
+<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="1671,1323,1743,1349"/>
+<area shape="rect" id="node23" href="$db/d9b/server_2player_8qc.html#a0390f6703ace29f61655694b8821d84a" title="print(), but only print if the server is not local " alt="" coords="1651,1069,1762,1096"/>
+<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#a5231f4ff2813f7de782b67d25a9e4cf9" title="fopen" alt="" coords="1679,1120,1734,1147"/>
+<area shape="rect" id="node26" href="$d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df" title="fputs" alt="" coords="1681,1171,1732,1197"/>
+<area shape="rect" id="node27" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="1679,1221,1734,1248"/>
+<area shape="rect" id="node28" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="1669,1272,1744,1299"/>
+<area shape="rect" id="node24" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="1914,1069,1961,1096"/>
+<area shape="rect" id="node30" href="$d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d" title="pow" alt="" coords="2122,816,2169,843"/>
+<area shape="rect" id="node32" href="$de/d40/gamemode__keyhunt_8qc.html#a23c6a4a8ae9da6a50ca2b533c38876f7" title="kh_Key_AllOwnedByWhichTeam" alt="" coords="1830,461,2045,488"/>
+<area shape="rect" id="node33" href="$de/d40/gamemode__keyhunt_8qc.html#a5b49f203806993cfa8819cea2b46cb58" title="kh_Key_Detach" alt="" coords="1880,124,1995,151"/>
+<area shape="rect" id="node37" href="$de/d40/gamemode__keyhunt_8qc.html#ac424bffde3e5ff6093b81edd08b9f690" title="kh_Key_Attach" alt="" coords="1882,192,1993,219"/>
+<area shape="rect" id="node39" href="$de/d40/gamemode__keyhunt_8qc.html#a923cf23a4a0359014c786bb93ce02cc4" title="kh_KeyCarrier_waypointsprite\l_visible_for_player" alt="" coords="1839,243,2035,285"/>
+<area shape="rect" id="node40" href="$de/d40/gamemode__keyhunt_8qc.html#af0b0677c2ea223d7b4b626fa9e83ccd7" title="kh_update_state" alt="" coords="1878,360,1997,387"/>
+<area shape="rect" id="node34" href="$d9/d51/intrusivelist_8qh.html#a44ed93b6aaca72d222ce263898d152b4" title="Push to tail. " alt="" coords="2106,5,2185,32"/>
+<area shape="rect" id="node36" href="$d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78" title="set_movetype" alt="" coords="2093,157,2197,184"/>
+<area shape="rect" id="node35" href="$d9/d51/intrusivelist_8qh.html#a03533687dbcda21ca9480b3e4b13fb34" title="IL_CONTAINS" alt="" coords="2246,5,2357,32"/>
+<area shape="rect" id="node38" href="$d9/d51/intrusivelist_8qh.html#a5a0a1c75d41d69b06a84854967fe9c14" title="Remove any element, anywhere in the list. " alt="" coords="2096,259,2195,285"/>
+<area shape="rect" id="node42" href="$de/d40/gamemode__keyhunt_8qc.html#a0fb6a850ac4f7e08bc0a9c0eadec8e1b" title="kh_LoserTeam" alt="" coords="1053,827,1161,853"/>
+<area shape="rect" id="node50" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1265,1069,1324,1096"/>
+<area shape="rect" id="node51" href="$de/d40/gamemode__keyhunt_8qc.html#a020f625203fb41668b95be99c0038fab" title="kh_WinnerTeam" alt="" coords="1048,1064,1165,1091"/>
+<area shape="rect" id="node43" href="$dc/d95/random_8qc.html#aef59b07d8db47f04e76ec7a7be4047f1" title="DistributeEvenly_Init" alt="" coords="1223,917,1366,944"/>
+<area shape="rect" id="node45" href="$dc/d95/random_8qc.html#a7e1cd659f19903a270d90839587d91ee" title="DistributeEvenly_Get" alt="" coords="1221,816,1368,843"/>
+<area shape="rect" id="node47" href="$dc/d73/server_2miscfunctions_8qh.html#aa5a5ed1fd369382ba21cb76e5803fdf3" title="play2all" alt="" coords="1261,1019,1328,1045"/>
+<area shape="rect" id="node48" href="$de/d40/gamemode__keyhunt_8qc.html#afd18b0575ca03a9b7f7226e0775ac61f" title="kh_FinishRound" alt="" coords="1237,563,1353,589"/>
+<area shape="rect" id="node44" href="$d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd" title="LOG_TRACE" alt="" coords="1453,917,1555,944"/>
+<area shape="rect" id="node46" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1481,816,1527,843"/>
+<area shape="rect" id="node49" href="$de/d40/gamemode__keyhunt_8qc.html#a8aa5874d9ea7c9f4d142264272180abe" title="kh_Key_Remove" alt="" coords="1443,360,1565,387"/>
+<area shape="rect" id="node52" href="$d2/d79/scores_8qc.html#a95c06d8a35e1db6d343a7c883241444c" title="Adds a score to both the player and the team. " alt="" coords="1217,1171,1373,1197"/>
+<area shape="rect" id="node55" href="$de/d40/gamemode__keyhunt_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3" title="nades_GiveBonus" alt="" coords="1231,1323,1359,1349"/>
+<area shape="rect" id="node56" href="$de/d40/gamemode__keyhunt_8qc.html#ab83c57c90987c6f9bb333b5d6d1aeb58" title="kh_AttachedOrigin" alt="" coords="1230,1272,1359,1299"/>
+<area shape="rect" id="node53" href="$d2/d79/scores_8qc.html#a394bf84d67f07e376beeff4a5c6ed94c" title="Adds a score to the player&#39;s team&#39;s scores. " alt="" coords="1445,968,1563,995"/>
+<area shape="rect" id="node54" href="$d2/d79/scores_8qc.html#a2f5738674b5f6bac88679dd31ac2de9e" title="Adds a score to the given team. " alt="" coords="1854,867,2021,893"/>
+<area shape="rect" id="node59" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="1083,715,1130,741"/>
+<area shape="rect" id="node63" href="$d5/d14/scores__rules_8qc.html#ac67defd12e305443ab1cf4266ca03c8f" title="ScoreRules_basics" alt="" coords="1227,1525,1362,1552"/>
+<area shape="rect" id="node64" href="$d2/d79/scores_8qc.html#a601d5f667de9976b2a1ca7f6fc6051de" title="Set the label of a player score item, as well as the scoring flags. " alt="" coords="1436,1525,1572,1566"/>
+<area shape="rect" id="node65" href="$d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882" title="Set the label of a team score item, as well as the scoring flags. " alt="" coords="1436,1459,1572,1501"/>
+<area shape="rect" id="node66" href="$d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05" title="ScoreRules_basics_end" alt="" coords="1213,1829,1376,1856"/>
+<area shape="rect" id="node67" href="$d2/d79/scores_8qc.html#a51f0d41043a05b6682f5322b3f338abd" title="ScoreInfo_Init" alt="" coords="1453,1829,1555,1856"/>
+<area shape="rect" id="node68" href="$d2/d79/scores_8qc.html#a8fe097dffad5360aea8e78c7fe249d32" title="ScoreInfo_SendEntity" alt="" coords="1632,1931,1781,1957"/>
+<area shape="rect" id="node71" href="$d2/d79/scores_8qc.html#a5db481005e2c63c868c58b15537638a0" title="TeamScore_Spawn" alt="" coords="1639,1829,1775,1856"/>
+<area shape="rect" id="node69" href="$d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516" title="WriteString" alt="" coords="1894,1931,1981,1957"/>
+<area shape="rect" id="node70" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="2105,1981,2185,2008"/>
+<area shape="rect" id="node72" href="$d2/d79/scores_8qc.html#afada77c7b9046dc439737459f196231a" title="TeamScore_SendEntity" alt="" coords="1857,1880,2017,1907"/>
+<area shape="rect" id="node73" href="$d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15" title="eprint" alt="" coords="2118,1829,2173,1856"/>
+<area shape="rect" id="node74" href="$d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35" title="WriteShort" alt="" coords="2103,1880,2187,1907"/>
+<area shape="rect" id="node75" href="$d8/de2/menudefs_8qc.html#a52cb9ee43a3668c53bee4ff715da8260" title="WriteChar" alt="" coords="2105,1931,2186,1957"/>
 </map>
