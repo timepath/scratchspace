@@ -1441,32 +1441,32 @@ $(document).ready(function(){initNavTree('db/dcc/g__world_8qc_source.html','../.
 <div class="line"><a name="l01334"></a><span class="lineno"> 1334</span>&#160;<span class="comment">    local   float cyc;</span></div>
 <div class="line"><a name="l01335"></a><span class="lineno"> 1335</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l01336"></a><span class="lineno"> 1336</span>&#160;<span class="comment">// look for info_intermission first</span></div>
-<div class="line"><a name="l01337"></a><span class="lineno"> 1337</span>&#160;<span class="comment">    spot = find (NULL, classname, &quot;info_intermission&quot;);</span></div>
+<div class="line"><a name="l01337"></a><span class="lineno"> 1337</span>&#160;<span class="comment">    spot = find(NULL, classname, &quot;info_intermission&quot;);</span></div>
 <div class="line"><a name="l01338"></a><span class="lineno"> 1338</span>&#160;<span class="comment">    if (spot)</span></div>
 <div class="line"><a name="l01339"></a><span class="lineno"> 1339</span>&#160;<span class="comment">    {   // pick a random one</span></div>
 <div class="line"><a name="l01340"></a><span class="lineno"> 1340</span>&#160;<span class="comment">        cyc = random() * 4;</span></div>
 <div class="line"><a name="l01341"></a><span class="lineno"> 1341</span>&#160;<span class="comment">        while (cyc &gt; 1)</span></div>
 <div class="line"><a name="l01342"></a><span class="lineno"> 1342</span>&#160;<span class="comment">        {</span></div>
-<div class="line"><a name="l01343"></a><span class="lineno"> 1343</span>&#160;<span class="comment">            spot = find (spot, classname, &quot;info_intermission&quot;);</span></div>
+<div class="line"><a name="l01343"></a><span class="lineno"> 1343</span>&#160;<span class="comment">            spot = find(spot, classname, &quot;info_intermission&quot;);</span></div>
 <div class="line"><a name="l01344"></a><span class="lineno"> 1344</span>&#160;<span class="comment">            if (!spot)</span></div>
-<div class="line"><a name="l01345"></a><span class="lineno"> 1345</span>&#160;<span class="comment">                spot = find (spot, classname, &quot;info_intermission&quot;);</span></div>
+<div class="line"><a name="l01345"></a><span class="lineno"> 1345</span>&#160;<span class="comment">                spot = find(spot, classname, &quot;info_intermission&quot;);</span></div>
 <div class="line"><a name="l01346"></a><span class="lineno"> 1346</span>&#160;<span class="comment">            cyc = cyc - 1;</span></div>
 <div class="line"><a name="l01347"></a><span class="lineno"> 1347</span>&#160;<span class="comment">        }</span></div>
 <div class="line"><a name="l01348"></a><span class="lineno"> 1348</span>&#160;<span class="comment">        return spot;</span></div>
 <div class="line"><a name="l01349"></a><span class="lineno"> 1349</span>&#160;<span class="comment">    }</span></div>
 <div class="line"><a name="l01350"></a><span class="lineno"> 1350</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l01351"></a><span class="lineno"> 1351</span>&#160;<span class="comment">// then look for the start position</span></div>
-<div class="line"><a name="l01352"></a><span class="lineno"> 1352</span>&#160;<span class="comment">    spot = find (NULL, classname, &quot;info_player_start&quot;);</span></div>
+<div class="line"><a name="l01352"></a><span class="lineno"> 1352</span>&#160;<span class="comment">    spot = find(NULL, classname, &quot;info_player_start&quot;);</span></div>
 <div class="line"><a name="l01353"></a><span class="lineno"> 1353</span>&#160;<span class="comment">    if (spot)</span></div>
 <div class="line"><a name="l01354"></a><span class="lineno"> 1354</span>&#160;<span class="comment">        return spot;</span></div>
 <div class="line"><a name="l01355"></a><span class="lineno"> 1355</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l01356"></a><span class="lineno"> 1356</span>&#160;<span class="comment">// testinfo_player_start is only found in regioned levels</span></div>
-<div class="line"><a name="l01357"></a><span class="lineno"> 1357</span>&#160;<span class="comment">    spot = find (NULL, classname, &quot;testplayerstart&quot;);</span></div>
+<div class="line"><a name="l01357"></a><span class="lineno"> 1357</span>&#160;<span class="comment">    spot = find(NULL, classname, &quot;testplayerstart&quot;);</span></div>
 <div class="line"><a name="l01358"></a><span class="lineno"> 1358</span>&#160;<span class="comment">    if (spot)</span></div>
 <div class="line"><a name="l01359"></a><span class="lineno"> 1359</span>&#160;<span class="comment">        return spot;</span></div>
 <div class="line"><a name="l01360"></a><span class="lineno"> 1360</span>&#160;<span class="comment"></span></div>
 <div class="line"><a name="l01361"></a><span class="lineno"> 1361</span>&#160;<span class="comment">// then look for the start position</span></div>
-<div class="line"><a name="l01362"></a><span class="lineno"> 1362</span>&#160;<span class="comment">    spot = find (NULL, classname, &quot;info_player_deathmatch&quot;);</span></div>
+<div class="line"><a name="l01362"></a><span class="lineno"> 1362</span>&#160;<span class="comment">    spot = find(NULL, classname, &quot;info_player_deathmatch&quot;);</span></div>
 <div class="line"><a name="l01363"></a><span class="lineno"> 1363</span>&#160;<span class="comment">    if (spot)</span></div>
 <div class="line"><a name="l01364"></a><span class="lineno"> 1364</span>&#160;<span class="comment">        return spot;</span></div>
 <div class="line"><a name="l01365"></a><span class="lineno"> 1365</span>&#160;<span class="comment"></span></div>
@@ -2714,7 +2714,7 @@ $(document).ready(function(){initNavTree('db/dcc/g__world_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/dcc/g__world_8qc.html">g_world.qc</a></li>
-    <li class="footer">Generated on Mon Aug 29 2016 10:19:02 for Xonotic by
+    <li class="footer">Generated on Mon Aug 29 2016 12:30:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
