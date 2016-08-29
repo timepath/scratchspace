@@ -2548,8 +2548,8 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        n = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a>(neworder);</div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;        <span class="keywordflow">for</span>(w = <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>; w &gt;= from; --w)</div>
 <div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;        {</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;            <span class="keywordtype">float</span> wflags = <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a1f0a48799ac85436679ce72c5a670052">Weapons_from</a>(w).spawnflags;</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;            <span class="keywordflow">if</span>(wflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818">WEP_FLAG_HIDDEN</a> &amp;&amp; wflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a> &amp;&amp; !(wflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#afd9eb87fc6f209d68b1ad956d3a72a74">WEP_FLAG_NORMAL</a>))</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;            <span class="keywordtype">int</span> wflags = <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a1f0a48799ac85436679ce72c5a670052">Weapons_from</a>(w).spawnflags;</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;            <span class="keywordflow">if</span>((wflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818">WEP_FLAG_HIDDEN</a>) &amp;&amp; (wflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a>) &amp;&amp; !(wflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#afd9eb87fc6f209d68b1ad956d3a72a74">WEP_FLAG_NORMAL</a>))</div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;                <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;            <span class="keywordflow">for</span>(i = 0; i &lt; n; ++i)</div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;                <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78">argv</a>(i)) == w)</div>
@@ -6096,7 +6096,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../d5/df2/common_2util_8qh.html">util.qh</a></li>
-    <li class="footer">Generated on Mon Aug 29 2016 09:59:36 for Xonotic by
+    <li class="footer">Generated on Mon Aug 29 2016 10:19:08 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
