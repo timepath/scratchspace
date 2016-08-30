@@ -1,5 +1,6 @@
 var NAVTREEINDEX98 =
 {
+"db/d7f/effectinfo_8inc.html#a6e949591d40b5868bc6e940d39966021":[2,0,1,2,7,88],
 "db/d7f/effectinfo_8inc.html#a6ecc05894a01b5b46914fc84e112ace5":[2,0,1,2,7,245],
 "db/d7f/effectinfo_8inc.html#a6f1a555884b25d01e22f073085403bef":[2,0,1,2,7,103],
 "db/d7f/effectinfo_8inc.html#a6f2350116f8fce935028f67597e31eda":[2,0,1,2,7,120],
@@ -248,6 +249,5 @@ var NAVTREEINDEX98 =
 "db/d84/stardust_8qh_source.html":[2,0,1,13,0,33],
 "db/d8b/nmm_8qc.html":[2,0,1,6,0,7],
 "db/d8b/nmm_8qc.html#a029242ae74de359a88e724493a1af20e":[2,0,1,6,0,7,10],
-"db/d8b/nmm_8qc.html#a096523ae0e820f62b9c5224d5c668e0d":[2,0,1,6,0,7,25],
-"db/d8b/nmm_8qc.html#a107026e7cb039fd927c8a3d86fc63234":[2,0,1,6,0,7,18]
+"db/d8b/nmm_8qc.html#a096523ae0e820f62b9c5224d5c668e0d":[2,0,1,6,0,7,25]
 };
