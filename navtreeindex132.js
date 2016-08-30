@@ -1,5 +1,6 @@
 var NAVTREEINDEX132 =
 {
+"globals_defs_b.html":[2,1,5,2],
 "globals_defs_c.html":[2,1,5,3],
 "globals_defs_d.html":[2,1,5,4],
 "globals_defs_e.html":[2,1,5,5],
