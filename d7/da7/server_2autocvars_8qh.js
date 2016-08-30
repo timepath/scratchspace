@@ -198,7 +198,6 @@ var server_2autocvars_8qh =
     [ "autocvar_g_monsters_drop_time", "d7/da7/server_2autocvars_8qh.html#aab5e1aa7961a5d05d69c2cbae193668a", null ],
     [ "autocvar_g_monsters_edit", "d7/da7/server_2autocvars_8qh.html#aa135850afcf431b0b49b42c35b0fdb43", null ],
     [ "autocvar_g_monsters_healthbars", "d7/da7/server_2autocvars_8qh.html#a98bb709326887ec1b9033d32daae679a", null ],
-    [ "autocvar_g_monsters_ignoretraces", "d7/da7/server_2autocvars_8qh.html#aa579bfd8cad5950bec08736d61096842", null ],
     [ "autocvar_g_monsters_lineofsight", "d7/da7/server_2autocvars_8qh.html#a9f8de8cb60bb99b65264ae9701424aee", null ],
     [ "autocvar_g_monsters_max", "d7/da7/server_2autocvars_8qh.html#a4bc577692a6c3340e87878b8f72eac27", null ],
     [ "autocvar_g_monsters_max_perplayer", "d7/da7/server_2autocvars_8qh.html#aee215b53f2fd1d3c2d20c75b21ec207a", null ],

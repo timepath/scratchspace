@@ -1,6 +1,5 @@
 var NAVTREEINDEX90 =
 {
-"da/d9c/classXonoticMonsterToolsDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,206,25],
 "da/d9c/classXonoticMonsterToolsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,206,88],
 "da/d9c/classXonoticMonsterToolsDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,206,80],
 "da/d9c/classXonoticMonsterToolsDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,206,79],
@@ -249,5 +248,6 @@ var NAVTREEINDEX90 =
 "da/db8/pressedkeys_8qh_source.html":[2,0,0,1,0,25],
 "da/db9/common_2minigames_2minigame_2__mod_8qh.html":[2,0,1,6,0,1],
 "da/db9/common_2minigames_2minigame_2__mod_8qh_source.html":[2,0,1,6,0,1],
-"da/dbc/sv__globalforces_8qc.html":[2,0,1,9,0,9,2]
+"da/dbc/sv__globalforces_8qc.html":[2,0,1,9,0,9,2],
+"da/dbc/sv__globalforces_8qc.html#a151729e96468ce6ad51bf033f3f4b5e9":[2,0,1,9,0,9,2,4]
 };

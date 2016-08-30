@@ -1,6 +1,5 @@
 var NAVTREEINDEX106 =
 {
-"dc/d6c/classElectro.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,32,11],
 "dc/d6c/classElectro.html#a4337268c8cad6836bae8efd4a8835070":[1,0,32,21],
 "dc/d6c/classElectro.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,32,1],
 "dc/d6c/classElectro.html#a4604acb234d9ecadf3d03804c09f82c3":[1,0,32,28],
@@ -249,5 +248,6 @@ var NAVTREEINDEX106 =
 "dc/d8b/hitplot_8qh.html#afefeefdf1f300b0f0950a7dc3f31d39b":[2,0,6,4,9,1],
 "dc/d8b/hitplot_8qh_source.html":[2,0,6,4,9],
 "dc/d8f/notifications_2all_8qh.html":[2,0,1,10,4],
-"dc/d8f/notifications_2all_8qh.html#a0053a57475c19acbd921be8f2dab3cb0":[2,0,1,10,4,39]
+"dc/d8f/notifications_2all_8qh.html#a0053a57475c19acbd921be8f2dab3cb0":[2,0,1,10,4,39],
+"dc/d8f/notifications_2all_8qh.html#a017d9b7182b3c3e003294567ce5ff1f2":[2,0,1,10,4,58]
 };
