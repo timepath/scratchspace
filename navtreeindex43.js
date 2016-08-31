@@ -1,8 +1,5 @@
 var NAVTREEINDEX43 =
 {
-"d4/dd6/minelayer_8qc.html#a4ea001ea7bc3c5f29f7c98be8b5b2bde":[2,0,1,16,0,22,2],
-"d4/dd6/minelayer_8qc_source.html":[2,0,1,16,0,22],
-"d4/dd7/movetypes_8qh.html":[2,0,1,11,0,6],
 "d4/dd7/movetypes_8qh.html#a08001d7539f498833d366bf73fe26e65":[2,0,1,11,0,6,8],
 "d4/dd7/movetypes_8qh.html#a0c3c32b8e67737d63dbf704612d6b22c":[2,0,1,11,0,6,15],
 "d4/dd7/movetypes_8qh.html#a251727549d9304470e0bc547573eabcf":[2,0,1,11,0,6,12],
@@ -249,5 +246,8 @@ var NAVTREEINDEX43 =
 "d4/df9/sv__rocketflying_8qh_source.html":[2,0,1,9,0,24,3],
 "d4/dfb/lib_2__all_8inc.html":[2,0,4,3],
 "d4/dfb/lib_2__all_8inc.html#a0286756d17c84fdf4ea3cbfb02afcccd":[2,0,4,3,19],
-"d4/dfb/lib_2__all_8inc.html#a046921b096faba016150b5e82bda924f":[2,0,4,3,6]
+"d4/dfb/lib_2__all_8inc.html#a046921b096faba016150b5e82bda924f":[2,0,4,3,6],
+"d4/dfb/lib_2__all_8inc.html#a0a90766cdd36285925006c2a954fc8c2":[2,0,4,3,9],
+"d4/dfb/lib_2__all_8inc.html#a519d201f3a65bf5df77f1b0c03125b27":[2,0,4,3,18],
+"d4/dfb/lib_2__all_8inc.html#a52c2de75e535dc3464ebed96906120bc":[2,0,4,3,3]
 };

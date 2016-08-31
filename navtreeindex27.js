@@ -1,8 +1,5 @@
 var NAVTREEINDEX27 =
 {
-"d3/d73/gamemode__ctf_8qc.html#afb2c59bc3b1ee0e0518cc645b93ddaff":[2,0,6,2,0,6,28],
-"d3/d73/gamemode__ctf_8qc.html#afe47e50b88a1c1cd6e88bbec6ab3fc53":[2,0,6,2,0,6,37],
-"d3/d73/gamemode__ctf_8qc.html#afed4d3a24a50b50e05de100f031897a9":[2,0,6,2,0,6,116],
 "d3/d73/gamemode__ctf_8qc_source.html":[2,0,6,2,0,6],
 "d3/d77/shotgun_8qh.html":[2,0,1,16,0,35],
 "d3/d77/shotgun_8qh_source.html":[2,0,1,16,0,35],
@@ -249,5 +246,8 @@ var NAVTREEINDEX27 =
 "d3/d9c/counter_8qh.html":[2,0,1,13,3,3],
 "d3/d9c/counter_8qh_source.html":[2,0,1,13,3,3],
 "d3/d9c/plasma__dual_8qc.html":[2,0,1,14,0,34],
-"d3/d9c/plasma__dual_8qc_source.html":[2,0,1,14,0,34]
+"d3/d9c/plasma__dual_8qc_source.html":[2,0,1,14,0,34],
+"d3/d9d/bgmscript_8qh.html":[2,0,0,12],
+"d3/d9d/bgmscript_8qh.html#a60140a7d269e136822cf5ca494cc7d42":[2,0,0,12,0],
+"d3/d9d/bgmscript_8qh.html#a9120ce405f8dde05592f4869794f8fee":[2,0,0,12,1]
 };
