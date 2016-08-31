@@ -1,15 +1,15 @@
 var gamemode__invasion_8qc =
 [
     [ "Invasion_CheckPlayers", "d5/d1f/gamemode__invasion_8qc.html#a35de3f2be39ff6f7899b385b0a766984", null ],
-    [ "Invasion_CheckWinner", "d5/d1f/gamemode__invasion_8qc.html#a0cc2a0dbe4298d76427439f357b5ae23", null ],
+    [ "Invasion_CheckWinner", "d5/d1f/gamemode__invasion_8qc.html#aca840f4cbd32c801017e724fa0399374", null ],
     [ "invasion_DelayedInit", "d5/d1f/gamemode__invasion_8qc.html#a236fd86093117aeb98743e15f440f9d3", null ],
     [ "invasion_Initialize", "d5/d1f/gamemode__invasion_8qc.html#a25529cc1c6aba9e850432cf8d26a5e93", null ],
-    [ "invasion_PickMonster", "d5/d1f/gamemode__invasion_8qc.html#a29ca360b17edef793ad156737d28d812", null ],
+    [ "invasion_PickMonster", "d5/d1f/gamemode__invasion_8qc.html#a353e92643016415c27a22fb3d3964807", null ],
     [ "invasion_PickSpawn", "d5/d1f/gamemode__invasion_8qc.html#af1c26a21c8bbaace311d588711b4b53c", null ],
     [ "Invasion_RoundStart", "d5/d1f/gamemode__invasion_8qc.html#a40575f9d24ff7fadf4285df2f29013d6", null ],
     [ "invasion_ScoreRules", "d5/d1f/gamemode__invasion_8qc.html#a87b629a39304c9f39c67e401071851d8", null ],
     [ "invasion_SpawnChosenMonster", "d5/d1f/gamemode__invasion_8qc.html#a22fee24ee369a9b96b574f26ec9f9ab3", null ],
-    [ "invasion_SpawnMonsters", "d5/d1f/gamemode__invasion_8qc.html#ac1638633f4da1a28f12acdc96dfbc7df", null ],
+    [ "invasion_SpawnMonsters", "d5/d1f/gamemode__invasion_8qc.html#af8f2b47bd3440a92ec9100cf6dd2c870", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#af6e0b5fcea42fd38e53ec64e7d61d276", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#ac69a96fe006e801e880bda74a60045dd", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#a38ec24050be5cd166c819bb0da5b5c51", null ],

@@ -203,31 +203,31 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00469">469</a> of file <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html">gamemode_invasion.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00464">464</a> of file <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html">gamemode_invasion.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00015">autocvar_g_invasion_zombies_only</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../df/d52/monsters_2all_8qh_source.html#l00007">get_monsterinfo</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00852">InitializeEntity()</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00008">INITPRIO_GAMETYPE</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00440">invasion_DelayedInit()</a>, <a class="el" href="../../df/d52/monsters_2all_8qh_source.html#l00010">MON_FIRST</a>, <a class="el" href="../../df/d52/monsters_2all_8qh_source.html#l00011">MON_LAST</a>, <a class="el" href="../../d4/ddc/monster_8qh_source.html#l00005">MONSTER_TYPE_FLY</a>, <a class="el" href="../../d4/ddc/monster_8qh_source.html#l00006">MONSTER_TYPE_SWIM</a>, <a class="el" href="../../d4/ddc/monster_8qh_source.html#l00052">Monster::mr_precache()</a>, and <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>.</p>
+<p>References <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00015">autocvar_g_invasion_zombies_only</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../df/d52/monsters_2all_8qh_source.html#l00007">get_monsterinfo</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00852">InitializeEntity()</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00008">INITPRIO_GAMETYPE</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00435">invasion_DelayedInit()</a>, <a class="el" href="../../df/d52/monsters_2all_8qh_source.html#l00010">MON_FIRST</a>, <a class="el" href="../../df/d52/monsters_2all_8qh_source.html#l00011">MON_LAST</a>, <a class="el" href="../../d4/ddc/monster_8qh_source.html#l00005">MONSTER_TYPE_FLY</a>, <a class="el" href="../../d4/ddc/monster_8qh_source.html#l00006">MONSTER_TYPE_SWIM</a>, <a class="el" href="../../d4/ddc/monster_8qh_source.html#l00052">Monster::mr_precache()</a>, and <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00011">REGISTER_MUTATOR()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;{</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d1f/gamemode__invasion_8qc.html#adb135781f311cfeda2846cb4a8f3cc53">autocvar_g_invasion_zombies_only</a>) {</div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;        <a class="code" href="../../d1/d5c/classMonster.html">Monster</a> mon = MON_ZOMBIE;</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;        mon.<a class="code" href="../../d1/d5c/classMonster.html#a24b4136b7b62e15cc5df0c04289434ca">mr_precache</a>(mon);</div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;    } <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;    {</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;        <span class="keywordtype">float</span> i;</div>
-<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> mon;</div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;        <span class="keywordflow">for</span>(i = <a class="code" href="../../df/d52/monsters_2all_8qh.html#a0b2f787d93c2afd7ece3a0d0d080e94d">MON_FIRST</a>; i &lt;= <a class="code" href="../../df/d52/monsters_2all_8qh.html#aea1bf99cd5fe53ce09b24dd2731d7d2f">MON_LAST</a>; ++i)</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;        {</div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;            mon = <a class="code" href="../../df/d52/monsters_2all_8qh.html#a7d311198c146ff1e3743667c4a347303">get_monsterinfo</a>(i);</div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;            <span class="keywordflow">if</span>((mon.spawnflags &amp; <a class="code" href="../../d4/ddc/monster_8qh.html#a6cd57dceeadd45826b77b7d56c18a4ab">MONSTER_TYPE_FLY</a>) || (mon.spawnflags &amp; <a class="code" href="../../d4/ddc/monster_8qh.html#ae582b1562514303afe897121156e60ee">MONSTER_TYPE_SWIM</a>))</div>
-<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;                <span class="keywordflow">continue</span>; <span class="comment">// flying/swimming monsters not yet supported</span></div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;</div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;            mon.mr_precache(mon);</div>
-<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;        }</div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;    }</div>
-<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d5/d1f/gamemode__invasion_8qc.html#a236fd86093117aeb98743e15f440f9d3">invasion_DelayedInit</a>, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a2562d3f5a88de435b499fd5b3b67c175">INITPRIO_GAMETYPE</a>);</div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;{</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d1f/gamemode__invasion_8qc.html#adb135781f311cfeda2846cb4a8f3cc53">autocvar_g_invasion_zombies_only</a>) {</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;        <a class="code" href="../../d1/d5c/classMonster.html">Monster</a> mon = MON_ZOMBIE;</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;        mon.<a class="code" href="../../d1/d5c/classMonster.html#a24b4136b7b62e15cc5df0c04289434ca">mr_precache</a>(mon);</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;    } <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;    {</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;        <span class="keywordtype">float</span> i;</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> mon;</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;        <span class="keywordflow">for</span>(i = <a class="code" href="../../df/d52/monsters_2all_8qh.html#a0b2f787d93c2afd7ece3a0d0d080e94d">MON_FIRST</a>; i &lt;= <a class="code" href="../../df/d52/monsters_2all_8qh.html#aea1bf99cd5fe53ce09b24dd2731d7d2f">MON_LAST</a>; ++i)</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;        {</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;            mon = <a class="code" href="../../df/d52/monsters_2all_8qh.html#a7d311198c146ff1e3743667c4a347303">get_monsterinfo</a>(i);</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;            <span class="keywordflow">if</span>((mon.spawnflags &amp; <a class="code" href="../../d4/ddc/monster_8qh.html#a6cd57dceeadd45826b77b7d56c18a4ab">MONSTER_TYPE_FLY</a>) || (mon.spawnflags &amp; <a class="code" href="../../d4/ddc/monster_8qh.html#ae582b1562514303afe897121156e60ee">MONSTER_TYPE_SWIM</a>))</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;                <span class="keywordflow">continue</span>; <span class="comment">// flying/swimming monsters not yet supported</span></div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;            mon.mr_precache(mon);</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;        }</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;    }</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d5/d1f/gamemode__invasion_8qc.html#a236fd86093117aeb98743e15f440f9d3">invasion_DelayedInit</a>, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a2562d3f5a88de435b499fd5b3b67c175">INITPRIO_GAMETYPE</a>);</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;}</div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_a048269a249dd2d958fa3ebbccb21c877"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a></div><div class="ttdeci">void InitializeEntity(entity e, void(entity this) func, float order)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00852">miscfunctions.qc:852</a></div></div>
 <div class="ttc" id="classMonster_html_a24b4136b7b62e15cc5df0c04289434ca"><div class="ttname"><a href="../../d1/d5c/classMonster.html#a24b4136b7b62e15cc5df0c04289434ca">Monster::mr_precache</a></div><div class="ttdeci">virtual void mr_precache()</div><div class="ttdoc">(BOTH) precaches models/sounds used by this monster </div><div class="ttdef"><b>Definition:</b> <a href="../../d4/ddc/monster_8qh_source.html#l00052">monster.qh:52</a></div></div>
 <div class="ttc" id="gamemode__invasion_8qc_html_adb135781f311cfeda2846cb4a8f3cc53"><div class="ttname"><a href="../../d5/d1f/gamemode__invasion_8qc.html#adb135781f311cfeda2846cb4a8f3cc53">autocvar_g_invasion_zombies_only</a></div><div class="ttdeci">bool autocvar_g_invasion_zombies_only</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00015">gamemode_invasion.qc:15</a></div></div>
@@ -239,7 +239,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="monsters_2all_8qh_html_a7d311198c146ff1e3743667c4a347303"><div class="ttname"><a href="../../df/d52/monsters_2all_8qh.html#a7d311198c146ff1e3743667c4a347303">get_monsterinfo</a></div><div class="ttdeci">#define get_monsterinfo(i)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d52/monsters_2all_8qh_source.html#l00007">all.qh:7</a></div></div>
 <div class="ttc" id="monster_8qh_html_ae582b1562514303afe897121156e60ee"><div class="ttname"><a href="../../d4/ddc/monster_8qh.html#ae582b1562514303afe897121156e60ee">MONSTER_TYPE_SWIM</a></div><div class="ttdeci">const int MONSTER_TYPE_SWIM</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/ddc/monster_8qh_source.html#l00006">monster.qh:6</a></div></div>
-<div class="ttc" id="gamemode__invasion_8qc_html_a236fd86093117aeb98743e15f440f9d3"><div class="ttname"><a href="../../d5/d1f/gamemode__invasion_8qc.html#a236fd86093117aeb98743e15f440f9d3">invasion_DelayedInit</a></div><div class="ttdeci">void invasion_DelayedInit(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00440">gamemode_invasion.qc:440</a></div></div>
+<div class="ttc" id="gamemode__invasion_8qc_html_a236fd86093117aeb98743e15f440f9d3"><div class="ttname"><a href="../../d5/d1f/gamemode__invasion_8qc.html#a236fd86093117aeb98743e15f440f9d3">invasion_DelayedInit</a></div><div class="ttdeci">void invasion_DelayedInit(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00435">gamemode_invasion.qc:435</a></div></div>
 <div class="ttc" id="monsters_2all_8qh_html_a0b2f787d93c2afd7ece3a0d0d080e94d"><div class="ttname"><a href="../../df/d52/monsters_2all_8qh.html#a0b2f787d93c2afd7ece3a0d0d080e94d">MON_FIRST</a></div><div class="ttdeci">const int MON_FIRST</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d52/monsters_2all_8qh_source.html#l00010">all.qh:10</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -290,7 +290,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00011">11</a> of file <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html">gamemode_invasion.qh</a>.</p>
 
-<p>References <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00040">ActivateTeamplay()</a>, <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00005">autocvar_g_invasion_point_limit</a>, <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00007">autocvar_g_invasion_team_spawns</a>, <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00006">autocvar_g_invasion_teams</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00258">autocvar_leadlimit_override</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00368">autocvar_timelimit_override</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00588">cvar_settemp()</a>, <a class="el" href="../../d2/d77/pre_8qh_source.html#l00006">error</a>, <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00008">g_invasion</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00228">have_team_spawns</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00469">invasion_Initialize()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00286">MUTATOR_ONADD</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00287">MUTATOR_ONREMOVE</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00288">MUTATOR_ONROLLBACK_OR_REMOVE</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00568">SetLimits()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../de/d4f/teamplay_8qc_source.html#l00040">ActivateTeamplay()</a>, <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00005">autocvar_g_invasion_point_limit</a>, <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00007">autocvar_g_invasion_team_spawns</a>, <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00006">autocvar_g_invasion_teams</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00258">autocvar_leadlimit_override</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00368">autocvar_timelimit_override</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00588">cvar_settemp()</a>, <a class="el" href="../../d2/d77/pre_8qh_source.html#l00006">error</a>, <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00008">g_invasion</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00228">have_team_spawns</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00464">invasion_Initialize()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00286">MUTATOR_ONADD</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00287">MUTATOR_ONREMOVE</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00288">MUTATOR_ONROLLBACK_OR_REMOVE</a>, <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00568">SetLimits()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 <div class="fragment"><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;{</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992">MUTATOR_ONADD</a></div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    {</div>
@@ -337,7 +337,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="gamemode__invasion_8qh_html_a8feb7f4ef377845e3185b586e825b5d2"><div class="ttname"><a href="../../da/dd2/gamemode__invasion_8qh.html#a8feb7f4ef377845e3185b586e825b5d2">autocvar_g_invasion_teams</a></div><div class="ttdeci">int autocvar_g_invasion_teams</div><div class="ttdef"><b>Definition:</b> <a href="../../da/dd2/gamemode__invasion_8qh_source.html#l00006">gamemode_invasion.qh:6</a></div></div>
 <div class="ttc" id="base_8qh_html_ac878b5fd9ca1fd639fca3f72e12c582e"><div class="ttname"><a href="../../db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e">MUTATOR_ONREMOVE</a></div><div class="ttdeci">#define MUTATOR_ONREMOVE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00287">base.qh:287</a></div></div>
 <div class="ttc" id="g__world_8qc_html_a246b8f5baa8038cddf08ecc9adf5b17c"><div class="ttname"><a href="../../db/dcc/g__world_8qc.html#a246b8f5baa8038cddf08ecc9adf5b17c">SetLimits</a></div><div class="ttdeci">void SetLimits(int fraglimit_override, int leadlimit_override, float timelimit_override, float qualifying_override)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l00568">g_world.qc:568</a></div></div>
-<div class="ttc" id="gamemode__invasion_8qh_html_a25529cc1c6aba9e850432cf8d26a5e93"><div class="ttname"><a href="../../da/dd2/gamemode__invasion_8qh.html#a25529cc1c6aba9e850432cf8d26a5e93">invasion_Initialize</a></div><div class="ttdeci">void invasion_Initialize()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00469">gamemode_invasion.qc:469</a></div></div>
+<div class="ttc" id="gamemode__invasion_8qh_html_a25529cc1c6aba9e850432cf8d26a5e93"><div class="ttname"><a href="../../da/dd2/gamemode__invasion_8qh.html#a25529cc1c6aba9e850432cf8d26a5e93">invasion_Initialize</a></div><div class="ttdeci">void invasion_Initialize()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00464">gamemode_invasion.qc:464</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a044e0af0cd49790e1cfe2203ec6e5a8d"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a044e0af0cd49790e1cfe2203ec6e5a8d">autocvar_timelimit_override</a></div><div class="ttdeci">#define autocvar_timelimit_override</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00368">autocvars.qh:368</a></div></div>
 <div class="ttc" id="base_8qh_html_a1003ef6b08686c5c841fc6a4e8428992"><div class="ttname"><a href="../../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992">MUTATOR_ONADD</a></div><div class="ttdeci">#define MUTATOR_ONADD</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00286">base.qh:286</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
@@ -384,7 +384,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00006">6</a> of file <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html">gamemode_invasion.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00440">invasion_DelayedInit()</a>, and <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00011">REGISTER_MUTATOR()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00435">invasion_DelayedInit()</a>, and <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00011">REGISTER_MUTATOR()</a>.</p>
 
 </div>
 </div>
@@ -430,7 +430,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00053">53</a> of file <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html">gamemode_invasion.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00248">Invasion_RoundStart()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00277">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00243">Invasion_RoundStart()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00272">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -446,7 +446,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00050">50</a> of file <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html">gamemode_invasion.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00440">invasion_DelayedInit()</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00248">Invasion_RoundStart()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00067">invasion_SpawnChosenMonster()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00435">invasion_DelayedInit()</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00243">Invasion_RoundStart()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00062">invasion_SpawnChosenMonster()</a>.</p>
 
 </div>
 </div>
@@ -462,7 +462,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00048">48</a> of file <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html">gamemode_invasion.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00248">Invasion_RoundStart()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00330">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00243">Invasion_RoundStart()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00325">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -478,7 +478,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00056">56</a> of file <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html">gamemode_invasion.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00248">Invasion_RoundStart()</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00067">invasion_SpawnChosenMonster()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00277">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00243">Invasion_RoundStart()</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00062">invasion_SpawnChosenMonster()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00272">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -494,7 +494,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00058">58</a> of file <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html">gamemode_invasion.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00248">Invasion_RoundStart()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00300">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00243">Invasion_RoundStart()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00295">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -510,7 +510,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00051">51</a> of file <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html">gamemode_invasion.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00248">Invasion_RoundStart()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00277">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00243">Invasion_RoundStart()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00272">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -526,7 +526,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00047">47</a> of file <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html">gamemode_invasion.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00248">Invasion_RoundStart()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00300">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00243">Invasion_RoundStart()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00295">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -542,7 +542,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00049">49</a> of file <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html">gamemode_invasion.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00440">invasion_DelayedInit()</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00248">Invasion_RoundStart()</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00067">invasion_SpawnChosenMonster()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00368">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00435">invasion_DelayedInit()</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00243">Invasion_RoundStart()</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00062">invasion_SpawnChosenMonster()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00363">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -558,7 +558,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00055">55</a> of file <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html">gamemode_invasion.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00440">invasion_DelayedInit()</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00248">Invasion_RoundStart()</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00067">invasion_SpawnChosenMonster()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00420">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00435">invasion_DelayedInit()</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00243">Invasion_RoundStart()</a>, <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00062">invasion_SpawnChosenMonster()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00415">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -574,7 +574,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html#l00060">60</a> of file <a class="el" href="../../da/dd2/gamemode__invasion_8qh_source.html">gamemode_invasion.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00431">invasion_ScoreRules()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00277">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00426">invasion_ScoreRules()</a>, and <a class="el" href="../../d5/d1f/gamemode__invasion_8qc_source.html#l00272">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -584,7 +584,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../da/dd2/gamemode__invasion_8qh.html">gamemode_invasion.qh</a></li>
-    <li class="footer">Generated on Tue Aug 30 2016 19:35:13 for Xonotic by
+    <li class="footer">Generated on Wed Aug 31 2016 01:36:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
