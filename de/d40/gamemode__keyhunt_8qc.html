@@ -1936,7 +1936,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00415">415</a> of file <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html">gamemode_keyhunt.qc</a>.</p>
 
-<p>References <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00122">ITEM_DAMAGE_NEEDKILL</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00060">owner</a>, <a class="el" href="../../d9/de7/jumppads_8qh_source.html#l00006">pushltime</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00027">team</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
+<p>References <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00122">ITEM_DAMAGE_NEEDKILL</a>, <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00060">owner</a>, <a class="el" href="../../d9/de7/jumppads_8qh_source.html#l00006">pushltime</a>, <a class="el" href="../../d9/d08/client_2defs_8qh_source.html#l00027">team</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00732">kh_Key_Spawn()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;{</div>
@@ -1949,7 +1949,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        <span class="comment">// immediately return is bad</span></div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        <span class="comment">// maybe start a shorter countdown?</span></div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    }</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(force) &lt;= 0)</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <span class="keywordflow">if</span>(force == <span class="stringliteral">&#39;0 0 0&#39;</span>)</div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; this.<a class="code" href="../../d9/de7/jumppads_8qh.html#aea48339798453aef3726fe26f97a9bc2">pushltime</a>)</div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(attacker))</div>
@@ -1957,27 +1957,16 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="jumppads_8qh_html_aea48339798453aef3726fe26f97a9bc2"><div class="ttname"><a href="../../d9/de7/jumppads_8qh.html#aea48339798453aef3726fe26f97a9bc2">pushltime</a></div><div class="ttdeci">float pushltime</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de7/jumppads_8qh_source.html#l00006">jumppads.qh:6</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00060">main.qh:60</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a2f3f7e33fb5bc60212a8074ff9b80595"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a2f3f7e33fb5bc60212a8074ff9b80595">ITEM_DAMAGE_NEEDKILL</a></div><div class="ttdeci">#define ITEM_DAMAGE_NEEDKILL(dt)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00122">miscfunctions.qh:122</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-37" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+  <img id="dynsection-37-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-37-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-37-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_ab09b2a45564a2580feb3d8bb70541fbd_cgraph.svg" width="230" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
-<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_ab09b2a45564a2580feb3d8bb70541fbd_icgraph.svg" width="100%" height="493"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2058,21 +2047,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2defs_8qh_html_a21516c4e202f0fa473d6b010d8b651b5"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5">g_items</a></div><div class="ttdeci">IntrusiveList g_items</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00449">defs.qh:449</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a34941b35fd7f0059f923c9805739c9a5"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a34941b35fd7f0059f923c9805739c9a5">DAMAGE_YES</a></div><div class="ttdeci">float DAMAGE_YES</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00283">progsdefs.qc:283</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-39-content" class="dyncontent" style="display:none;">
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a5b49f203806993cfa8819cea2b46cb58_cgraph.svg" width="438" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-40-content" class="dyncontent" style="display:none;">
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a5b49f203806993cfa8819cea2b46cb58_icgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2151,21 +2140,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_ad1c00e8ad6e212784393b3d28787f481"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#ad1c00e8ad6e212784393b3d28787f481">autocvar_g_balance_keyhunt_dropvelocity</a></div><div class="ttdeci">float autocvar_g_balance_keyhunt_dropvelocity</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00008">gamemode_keyhunt.qc:8</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_abc0e012c94ed572a5872822390265cec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a></div><div class="ttdeci">vector v_forward</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">csprogsdefs.qc:31</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-40" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-40-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-40-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-41-content" class="dyncontent" style="display:none;">
+<div id="dynsection-40-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_ad739070280b4ac5432bf5f6f5a7f1e30_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-41" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-41-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-41-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-42-content" class="dyncontent" style="display:none;">
+<div id="dynsection-41-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_ad739070280b4ac5432bf5f6f5a7f1e30_icgraph.svg" width="382" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2229,21 +2218,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="scores_8qc_html_aebb89cf706a7b2fe6037e3ab4e56dfe4"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a></div><div class="ttdeci">float PlayerScore_Add(entity player, PlayerScoreField scorefield, float score)</div><div class="ttdoc">Adds a score to the player&#39;s scores. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00321">scores.qc:321</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_abc0e012c94ed572a5872822390265cec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a></div><div class="ttdeci">vector v_forward</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">csprogsdefs.qc:31</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-42" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-42-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-42-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-43-content" class="dyncontent" style="display:none;">
+<div id="dynsection-42-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a3195fb7f198ff78955159887597a2a3b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-43" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-43-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-43-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-44-content" class="dyncontent" style="display:none;">
+<div id="dynsection-43-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a3195fb7f198ff78955159887597a2a3b_icgraph.svg" width="390" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2306,21 +2295,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_a53b6f32f3cf7da87a548e0d8dd30b89a"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a53b6f32f3cf7da87a548e0d8dd30b89a">kh_Key_AssignTo</a></div><div class="ttdeci">void kh_Key_AssignTo(entity key, entity player)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00299">gamemode_keyhunt.qc:299</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-44" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-44-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-44-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-45-content" class="dyncontent" style="display:none;">
+<div id="dynsection-44-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a8aa5874d9ea7c9f4d142264272180abe_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-45" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-45-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-45-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-46-content" class="dyncontent" style="display:none;">
+<div id="dynsection-45-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a8aa5874d9ea7c9f4d142264272180abe_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2446,21 +2435,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a34941b35fd7f0059f923c9805739c9a5"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a34941b35fd7f0059f923c9805739c9a5">DAMAGE_YES</a></div><div class="ttdeci">float DAMAGE_YES</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00283">progsdefs.qc:283</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-46" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-46-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-46-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-47-content" class="dyncontent" style="display:none;">
+<div id="dynsection-46-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a0cc4d42896731a9e2d7621b4df9f416f_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-47" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-47-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-47-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-48-content" class="dyncontent" style="display:none;">
+<div id="dynsection-47-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a0cc4d42896731a9e2d7621b4df9f416f_icgraph.svg" width="100%" height="493"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2573,21 +2562,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_aa465e46bf7aed2129743d3e31e498590"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#aa465e46bf7aed2129743d3e31e498590">siren_time</a></div><div class="ttdeci">float siren_time</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00051">gamemode_keyhunt.qc:51</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_abc0e012c94ed572a5872822390265cec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a></div><div class="ttdeci">vector v_forward</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">csprogsdefs.qc:31</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-48" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-48-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-48-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-49-content" class="dyncontent" style="display:none;">
+<div id="dynsection-48-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a37649830a26962d6bd939ecf9c50c8e2_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-49" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-49-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-49-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-50-content" class="dyncontent" style="display:none;">
+<div id="dynsection-49-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a37649830a26962d6bd939ecf9c50c8e2_icgraph.svg" width="100%" height="480"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2659,21 +2648,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-51-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-50-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-50-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-51-content" class="dyncontent" style="display:none;">
+<div id="dynsection-50-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a9e35427c8f0e83a5c727245d92ac36f1_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-52" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-52-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-52-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-51-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-51-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-52-content" class="dyncontent" style="display:none;">
+<div id="dynsection-51-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a9e35427c8f0e83a5c727245d92ac36f1_icgraph.svg" width="100%" height="493"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2728,11 +2717,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00060">main.qh:60</a></div></div>
 <div class="ttc" id="gamemode__keyhunt_8qh_html_a2bbdc8edf10660c2d7d2308b82b39a26"><div class="ttname"><a href="../../d8/de1/gamemode__keyhunt_8qh.html#a2bbdc8edf10660c2d7d2308b82b39a26">kh_tracking_enabled</a></div><div class="ttdeci">float kh_tracking_enabled</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00045">gamemode_keyhunt.qh:45</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-53" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-53-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-53-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-52" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-52-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-52-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-53-content" class="dyncontent" style="display:none;">
+<div id="dynsection-52-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a1b01b2398e4c5c9a3be53d4a6d56b040_icgraph.svg" width="100%" height="493"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2786,11 +2775,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="teams_8qh_html_ab3cad6bbbe99c12c662ec0c90e30095b"><div class="ttname"><a href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a></div><div class="ttdeci">#define DIFF_TEAM(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00178">teams.qh:178</a></div></div>
 <div class="ttc" id="gamemode__keyhunt_8qh_html_a2bbdc8edf10660c2d7d2308b82b39a26"><div class="ttname"><a href="../../d8/de1/gamemode__keyhunt_8qh.html#a2bbdc8edf10660c2d7d2308b82b39a26">kh_tracking_enabled</a></div><div class="ttdeci">float kh_tracking_enabled</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00045">gamemode_keyhunt.qh:45</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-54" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-54-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-54-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-53" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-53-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-53-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-54-content" class="dyncontent" style="display:none;">
+<div id="dynsection-53-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a923cf23a4a0359014c786bb93ce02cc4_icgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2937,21 +2926,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="scores_8qc_html_aebb89cf706a7b2fe6037e3ab4e56dfe4"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a></div><div class="ttdeci">float PlayerScore_Add(entity player, PlayerScoreField scorefield, float score)</div><div class="ttdoc">Adds a score to the player&#39;s scores. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00321">scores.qc:321</a></div></div>
 <div class="ttc" id="random_8qc_html_aef59b07d8db47f04e76ec7a7be4047f1"><div class="ttname"><a href="../../dc/d95/random_8qc.html#aef59b07d8db47f04e76ec7a7be4047f1">DistributeEvenly_Init</a></div><div class="ttdeci">void DistributeEvenly_Init(float amount, float totalweight)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d95/random_8qc_source.html#l00037">random.qc:37</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-55-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-55-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-54" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-54-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-54-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-55-content" class="dyncontent" style="display:none;">
+<div id="dynsection-54-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a0fb6a850ac4f7e08bc0a9c0eadec8e1b_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-56" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-56-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-56-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-55-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-55-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-56-content" class="dyncontent" style="display:none;">
+<div id="dynsection-55-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a0fb6a850ac4f7e08bc0a9c0eadec8e1b_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2999,21 +2988,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="scores_8qc_html_afc148f5f21c7b4c29db8ffeabfb26882"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882">ScoreInfo_SetLabel_TeamScore</a></div><div class="ttdeci">void ScoreInfo_SetLabel_TeamScore(float i, string label, float scoreflags)</div><div class="ttdoc">Set the label of a team score item, as well as the scoring flags. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00168">scores.qc:168</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_a53ce0bd9e239ad22d6552f5e8914946f"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a53ce0bd9e239ad22d6552f5e8914946f">SFL_LOWER_IS_BETTER</a></div><div class="ttdeci">const int SFL_LOWER_IS_BETTER</div><div class="ttdoc">Lower scores are better (e.g. </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00093">constants.qh:93</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-57-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-57-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-56" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-56-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-56-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-57-content" class="dyncontent" style="display:none;">
+<div id="dynsection-56-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a2d785f20712986ad16b564ca933f19e8_cgraph.svg" width="100%" height="531"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-58" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-58-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-58-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-57" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-57-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-57-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-58-content" class="dyncontent" style="display:none;">
+<div id="dynsection-57-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a2d785f20712986ad16b564ca933f19e8_icgraph.svg" width="475" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -3103,21 +3092,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2miscfunctions_8qc_html_ad8252ef534185c1cbbde32e65a01a5b3"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#ad8252ef534185c1cbbde32e65a01a5b3">GameLogEcho</a></div><div class="ttdeci">void GameLogEcho(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00071">miscfunctions.qc:71</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_af141085479aafa94cfa6b3fa30a9eaf6"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#af141085479aafa94cfa6b3fa30a9eaf6">autocvar_sv_eventlog</a></div><div class="ttdeci">bool autocvar_sv_eventlog</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00292">autocvars.qh:292</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-59-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-59-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-58" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-58-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-58-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-59-content" class="dyncontent" style="display:none;">
+<div id="dynsection-58-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a24fba324c185ddf090d87683b01a02ce_cgraph.svg" width="550" height="392"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-60" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-60-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-60-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-59" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-59-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-59-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-60-content" class="dyncontent" style="display:none;">
+<div id="dynsection-59-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a24fba324c185ddf090d87683b01a02ce_icgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3205,21 +3194,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_a01168130e438e9531191f89bb420d650"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a01168130e438e9531191f89bb420d650">kh_EnableTrackingDevice</a></div><div class="ttdeci">void kh_EnableTrackingDevice()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00923">gamemode_keyhunt.qc:923</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a663ea6aa3c4923b3e065cf91cc319f1b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a></div><div class="ttdeci">float random(void)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-61-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-61-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-60" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-60-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-60-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-61-content" class="dyncontent" style="display:none;">
+<div id="dynsection-60-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_ad10ed989b4f6a7ccbba89f62fc1705ac_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-62" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-62-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-62-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-61" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-61-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-61-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-62-content" class="dyncontent" style="display:none;">
+<div id="dynsection-61-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_ad10ed989b4f6a7ccbba89f62fc1705ac_icgraph.svg" width="100%" height="508"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3258,11 +3247,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="teams_8qh_html_aeac93e2aec3cb5b1350d5e003caab473"><div class="ttname"><a href="../../db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473">NUM_TEAM_1</a></div><div class="ttdeci">const int NUM_TEAM_1</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00016">teams.qh:16</a></div></div>
 <div class="ttc" id="teams_8qh_html_a9fd5fa5c63a948398af68af5629e40bd"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a9fd5fa5c63a948398af68af5629e40bd">NUM_TEAM_3</a></div><div class="ttdeci">const int NUM_TEAM_3</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00018">teams.qh:18</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-63-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-63-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-62" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-62-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-62-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-63-content" class="dyncontent" style="display:none;">
+<div id="dynsection-62-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a26e842c69259395a21fa8ddaefed7bf3_icgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3318,21 +3307,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_a0476dbfc79dac7770dfaa5c8d780a87d"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a></div><div class="ttdeci">float pow(float a, float b)</div></div>
 <div class="ttc" id="gamemode__keyhunt_8qh_html_aac9fba35b1682c6c203245cd8bb4b840"><div class="ttname"><a href="../../d8/de1/gamemode__keyhunt_8qh.html#aac9fba35b1682c6c203245cd8bb4b840">FOR_EACH_KH_KEY</a></div><div class="ttdeci">#define FOR_EACH_KH_KEY(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00040">gamemode_keyhunt.qh:40</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-64" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-64-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-64-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-63" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-63-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-63-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-64-content" class="dyncontent" style="display:none;">
+<div id="dynsection-63-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_af0b0677c2ea223d7b4b626fa9e83ccd7_cgraph.svg" width="235" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-65" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-65-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-65-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-64" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-64-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-64-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-65-content" class="dyncontent" style="display:none;">
+<div id="dynsection-64-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_af0b0677c2ea223d7b4b626fa9e83ccd7_icgraph.svg" width="100%" height="575"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3417,21 +3406,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 <div class="ttc" id="bool_8qh_html_a8b6d61ae40e2024b8c201bf4f433986c"><div class="ttname"><a href="../../dd/d54/bool_8qh.html#a8b6d61ae40e2024b8c201bf4f433986c">boolean</a></div><div class="ttdeci">#define boolean(value)</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d54/bool_8qh_source.html#l00009">bool.qh:9</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-66" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-66-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-66-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-65" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-65-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-65-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-66-content" class="dyncontent" style="display:none;">
+<div id="dynsection-65-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_acf9057b87b552cb3a114c36616cc86c5_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-67" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-67-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-67-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-66" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-66-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-66-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-67-content" class="dyncontent" style="display:none;">
+<div id="dynsection-66-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_acf9057b87b552cb3a114c36616cc86c5_icgraph.svg" width="100%" height="475"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3544,21 +3533,21 @@ Variables</h2></td></tr>
 <div class="ttc" id="teams_8qh_html_a40887618c0a56497f855f5631aa428d9"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a40887618c0a56497f855f5631aa428d9">Team_ColorRGB</a></div><div class="ttdeci">vector Team_ColorRGB(float teamid)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00074">teams.qh:74</a></div></div>
 <div class="ttc" id="random_8qc_html_aef59b07d8db47f04e76ec7a7be4047f1"><div class="ttname"><a href="../../dc/d95/random_8qc.html#aef59b07d8db47f04e76ec7a7be4047f1">DistributeEvenly_Init</a></div><div class="ttdeci">void DistributeEvenly_Init(float amount, float totalweight)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d95/random_8qc_source.html#l00037">random.qc:37</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-68" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-68-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-68-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-67" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-67-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-67-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-68-content" class="dyncontent" style="display:none;">
+<div id="dynsection-67-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a020f625203fb41668b95be99c0038fab_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-<p><div id="dynsection-69" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-69-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-69-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-68" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-68-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-68-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-69-content" class="dyncontent" style="display:none;">
+<div id="dynsection-68-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a020f625203fb41668b95be99c0038fab_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3602,11 +3591,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_ad739070280b4ac5432bf5f6f5a7f1e30"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#ad739070280b4ac5432bf5f6f5a7f1e30">kh_Key_DropAll</a></div><div class="ttdeci">void kh_Key_DropAll(entity player, float suicide)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00831">gamemode_keyhunt.qc:831</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-70" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-70-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-70-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-69" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-69-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-69-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-70-content" class="dyncontent" style="display:none;">
+<div id="dynsection-69-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a0762849f04090d517155ac123bbcd625_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3650,11 +3639,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_ad739070280b4ac5432bf5f6f5a7f1e30"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#ad739070280b4ac5432bf5f6f5a7f1e30">kh_Key_DropAll</a></div><div class="ttdeci">void kh_Key_DropAll(entity player, float suicide)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00831">gamemode_keyhunt.qc:831</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-71" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-71-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-71-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-70" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-70-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-70-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-71-content" class="dyncontent" style="display:none;">
+<div id="dynsection-70-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a5670db2c42b623b46c4c99c047aae8a4_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3705,11 +3694,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_ad739070280b4ac5432bf5f6f5a7f1e30"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#ad739070280b4ac5432bf5f6f5a7f1e30">kh_Key_DropAll</a></div><div class="ttdeci">void kh_Key_DropAll(entity player, float suicide)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00831">gamemode_keyhunt.qc:831</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-72" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-72-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-72-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-71" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-71-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-71-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-72-content" class="dyncontent" style="display:none;">
+<div id="dynsection-71-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_ab90915c91bbf202de5b5cac26e5a1a92_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3760,11 +3749,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_add3d94e02afcfb9d4cdd8e12adcb7663"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#add3d94e02afcfb9d4cdd8e12adcb7663">kh_HandleFrags</a></div><div class="ttdeci">float kh_HandleFrags(entity attacker, entity targ, float f)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00972">gamemode_keyhunt.qc:972</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-73" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-73-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-73-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-72" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-72-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-72-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-73-content" class="dyncontent" style="display:none;">
+<div id="dynsection-72-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a6fe67f771aca69146e2bfb5bcce53ef0_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3804,11 +3793,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01286"></a><span class="lineno"> 1286</span>&#160;}</div>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_a8b7a8051b363358a9e65fe55b263a7d7"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a8b7a8051b363358a9e65fe55b263a7d7">kh_finalize</a></div><div class="ttdeci">void kh_finalize()</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l01040">gamemode_keyhunt.qc:1040</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-74" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-74-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-74-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-73" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-73-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-73-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-74-content" class="dyncontent" style="display:none;">
+<div id="dynsection-73-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_af0205f884b65245c59767ebaf4ac57d0_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -3893,11 +3882,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-75" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-75-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-75-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-74" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-74-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-74-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-75-content" class="dyncontent" style="display:none;">
+<div id="dynsection-74-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a3913dec8e96fffe66f01a6d876757981_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -3950,11 +3939,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="base_8qh_html_ae802749af56eba2b7d9d38cddd3f9596"><div class="ttname"><a href="../../db/d38/base_8qh.html#ae802749af56eba2b7d9d38cddd3f9596">MUTATOR_RETURNVALUE</a></div><div class="ttdeci">#define MUTATOR_RETURNVALUE</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00291">base.qh:291</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-76" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-76-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-76-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-75" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-75-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-75-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-76-content" class="dyncontent" style="display:none;">
+<div id="dynsection-75-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a0c4b3f90846ae47f1373f5abf1e6cf11_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -4013,11 +4002,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a663ea6aa3c4923b3e065cf91cc319f1b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a></div><div class="ttdeci">float random(void)</div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-77" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-77-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-77-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-76" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-76-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-76-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-77-content" class="dyncontent" style="display:none;">
+<div id="dynsection-76-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a99489a4e3940f96c042720774c32948d_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -4061,11 +4050,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_ad739070280b4ac5432bf5f6f5a7f1e30"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#ad739070280b4ac5432bf5f6f5a7f1e30">kh_Key_DropAll</a></div><div class="ttdeci">void kh_Key_DropAll(entity player, float suicide)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00831">gamemode_keyhunt.qc:831</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-78" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-78-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-78-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-77" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-77-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-77-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-78-content" class="dyncontent" style="display:none;">
+<div id="dynsection-77-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a1dd11ec1fa8a05da68e873c0bf78e3cf_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -4109,11 +4098,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_a531e55e732864eae875e27be2261f406"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a531e55e732864eae875e27be2261f406">kh_Controller_SetThink</a></div><div class="ttdeci">void kh_Controller_SetThink(float t, kh_Think_t func)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00148">gamemode_keyhunt.qc:148</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-79" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-79-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-79-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-78" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-78-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-78-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-79-content" class="dyncontent" style="display:none;">
+<div id="dynsection-78-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_ace346d591bd46596d2f80f111b3ea948_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -4147,11 +4136,11 @@ Variables</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00523">kh_WinnerTeam()</a>.</p>
 
-<p><div id="dynsection-80" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-80-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-80-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-79" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-79-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-79-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-80-content" class="dyncontent" style="display:none;">
+<div id="dynsection-79-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a6787cb86b4d6cd7f96bcf069a5a9f6d3_icgraph.svg" width="100%" height="442"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -4886,7 +4875,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../de/d40/gamemode__keyhunt_8qc.html">gamemode_keyhunt.qc</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 01:36:25 for Xonotic by
+    <li class="footer">Generated on Wed Aug 31 2016 08:26:04 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

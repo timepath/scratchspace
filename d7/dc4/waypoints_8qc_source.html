@@ -141,7 +141,7 @@ $(document).ready(function(){initNavTree('d7/dc4/waypoints_8qc_source.html','../
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    w.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a3973fdf525463133ef775c885b63b989">SOLID_TRIGGER</a>;</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    setorigin(w, (m1 + m2) * 0.5);</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    setsize(w, m1 - w.origin, m2 - w.origin);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(w.size) &gt; 0)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">if</span> (w.size)</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        w.wpisbox = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keywordflow">if</span>(!w.wpisbox)</div>
@@ -387,7 +387,7 @@ $(document).ready(function(){initNavTree('d7/dc4/waypoints_8qc_source.html','../
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;    }</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        wp.model = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    wp.wpisbox = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(wp.size) &gt; 0;</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    wp.wpisbox = <a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(wp.size, &gt;, 0);</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    wp.enemy = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="keywordflow">if</span> (!(wp.wpflags &amp; <a class="code" href="../../db/d15/api_8qh.html#a16465cf087c71e05a2a1cefaaa09093f">WAYPOINTFLAG_PERSONAL</a>))</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        wp.owner = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
@@ -1347,7 +1347,7 @@ $(document).ready(function(){initNavTree('d7/dc4/waypoints_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../d7/dc4/waypoints_8qc.html">waypoints.qc</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 01:36:12 for Xonotic by
+    <li class="footer">Generated on Wed Aug 31 2016 08:25:49 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

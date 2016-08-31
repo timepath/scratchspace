@@ -530,7 +530,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        <span class="comment">// immediately return is bad</span></div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;        <span class="comment">// maybe start a shorter countdown?</span></div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    }</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(force) &lt;= 0)</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <span class="keywordflow">if</span>(force == <span class="stringliteral">&#39;0 0 0&#39;</span>)</div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt; this.<a class="code" href="../../d9/de7/jumppads_8qh.html#aea48339798453aef3726fe26f97a9bc2">pushltime</a>)</div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(attacker))</div>
@@ -1521,7 +1521,6 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div class="ttc" id="effectinfo_8qc_html_af1209ce3d4344049c1084fab900909cf"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a></div><div class="ttdeci">#define p(f, type, default)</div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_aa5a5ed1fd369382ba21cb76e5803fdf3"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#aa5a5ed1fd369382ba21cb76e5803fdf3">play2all</a></div><div class="ttdeci">void play2all(string samp)</div></div>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_a8aa5874d9ea7c9f4d142264272180abe"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#a8aa5874d9ea7c9f4d142264272180abe">kh_Key_Remove</a></div><div class="ttdeci">void kh_Key_Remove(entity key)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00474">gamemode_keyhunt.qc:474</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="client_2main_8qh_html_a4b5ad32527ff137c4517b10088cba1ef"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a></div><div class="ttdeci">entity owner</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00060">main.qh:60</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a22f100d9039928edd4e410c7d68858e7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a></div><div class="ttdeci">float ceil(float f)</div></div>
 <div class="ttc" id="server_2client_8qc_html_ade766288e98d9de45e646c8212f6f14a"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#ade766288e98d9de45e646c8212f6f14a">ClientDisconnect</a></div><div class="ttdeci">ClientDisconnect(this)</div></div>
@@ -1662,7 +1661,7 @@ $(document).ready(function(){initNavTree('de/d40/gamemode__keyhunt_8qc_source.ht
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../de/d40/gamemode__keyhunt_8qc.html">gamemode_keyhunt.qc</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 01:36:12 for Xonotic by
+    <li class="footer">Generated on Wed Aug 31 2016 08:25:49 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

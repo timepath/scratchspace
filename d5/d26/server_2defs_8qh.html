@@ -1557,7 +1557,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;</div>
 <div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;    <span class="comment">// apply push</span></div>
 <div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;    <span class="keywordflow">if</span> (targ.damageforcescale)</div>
-<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(force))</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;    <span class="keywordflow">if</span> (force)</div>
 <div class="line"><a name="l00843"></a><span class="lineno">  843</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(targ) || <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= targ.spawnshieldtime || targ == attacker)</div>
 <div class="line"><a name="l00844"></a><span class="lineno">  844</span>&#160;    {</div>
 <div class="line"><a name="l00845"></a><span class="lineno">  845</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> farce = <a class="code" href="../../d8/d58/calculations_8qc.html#a4a34221f79cad0b72ecf3df3f930bda9">damage_explosion_calcpush</a>(targ.damageforcescale * force, targ.velocity, <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ad4c54fe7c7268e8dde54369fd7b20cbc">autocvar_g_balance_damagepush_speedfactor</a>);</div>
@@ -1581,7 +1581,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;        <a class="code" href="../../d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b">UpdateCSQCProjectile</a>(targ);</div>
 <div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;    }</div>
 <div class="line"><a name="l00865"></a><span class="lineno">  865</span>&#160;    <span class="comment">// apply damage</span></div>
-<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;    <span class="keywordflow">if</span> (damage != 0 || (targ.damageforcescale &amp;&amp; <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(force)))</div>
+<div class="line"><a name="l00866"></a><span class="lineno">  866</span>&#160;    <span class="keywordflow">if</span> (damage != 0 || (targ.damageforcescale &amp;&amp; force))</div>
 <div class="line"><a name="l00867"></a><span class="lineno">  867</span>&#160;    <span class="keywordflow">if</span> (targ.event_damage)</div>
 <div class="line"><a name="l00868"></a><span class="lineno">  868</span>&#160;        targ.event_damage (targ, inflictor, attacker, damage, deathtype, hitloc, force);</div>
 <div class="line"><a name="l00869"></a><span class="lineno">  869</span>&#160;</div>
@@ -7068,7 +7068,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/d26/server_2defs_8qh.html">defs.qh</a></li>
-    <li class="footer">Generated on Wed Aug 31 2016 01:36:13 for Xonotic by
+    <li class="footer">Generated on Wed Aug 31 2016 08:25:50 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
