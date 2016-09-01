@@ -14,6 +14,7 @@ var hud_8qc =
     [ "HUD_Panel_Draw", "d7/d15/hud_8qc.html#a477579f205512e6fa5cda9053148bb69", null ],
     [ "HUD_Panel_DrawHighlight", "d7/d15/hud_8qc.html#af418523148eadb307130a0533421e586", null ],
     [ "HUD_Panel_DrawProgressBar", "d7/d15/hud_8qc.html#a41b7823d1cc3d0f46d9780fadf782eba", null ],
+    [ "HUD_Panel_LoadCvars", "d7/d15/hud_8qc.html#a4c101d8ec9a9f35a6a6cbbb05faa99e6", null ],
     [ "HUD_Reset", "d7/d15/hud_8qc.html#a2cb9eb667b5191a841d4fb82824b7cca", null ],
     [ "Hud_Shake_Update", "d7/d15/hud_8qc.html#a346ca21750dc6c018430ab766d945da0", null ],
     [ "HUD_Vehicle", "d7/d15/hud_8qc.html#a769cb2e43233e88dc29540614e7a4e03", null ],
