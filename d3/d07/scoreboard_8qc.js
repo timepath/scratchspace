@@ -52,9 +52,11 @@ var scoreboard_8qc =
     [ "autocvar_hud_panel_scoreboard_table_highlight_alpha_self", "d3/d07/scoreboard_8qc.html#aaf870062442b80e096e897517f9b9d5b", null ],
     [ "average_accuracy", "d3/d07/scoreboard_8qc.html#aaa5eb41e22d77cd3026131224c82308b", null ],
     [ "hud_fontsize_str", "d3/d07/scoreboard_8qc.html#ac127f6ed3538bb0ccfa2d65f6b0dbeca", null ],
+    [ "MAX_SBT_FIELDS", "d3/d07/scoreboard_8qc.html#a9bf722ae68431773c4bde7eebad02446", null ],
     [ "sbt_bg_alpha", "d3/d07/scoreboard_8qc.html#a3a68b1fd493c3f1878a66045de127feb", null ],
     [ "sbt_fg_alpha", "d3/d07/scoreboard_8qc.html#aa3df8ec29f084a228e11bfbfd0ca8b17", null ],
     [ "sbt_fg_alpha_self", "d3/d07/scoreboard_8qc.html#a9d81d772d01432be10b3e0ba39213361", null ],
+    [ "sbt_field", "d3/d07/scoreboard_8qc.html#a56cf0d8832755535e18ca5b3d3142651", null ],
     [ "sbt_field_icon0", "d3/d07/scoreboard_8qc.html#af08dddb7e0f048a812d7e0d0627062a1", null ],
     [ "sbt_field_icon0_rgb", "d3/d07/scoreboard_8qc.html#adae35053409c3444a7a34d2013f61696", null ],
     [ "sbt_field_icon1", "d3/d07/scoreboard_8qc.html#a604740d3f9685b2d18506506b804202f", null ],
@@ -62,10 +64,13 @@ var scoreboard_8qc =
     [ "sbt_field_icon2", "d3/d07/scoreboard_8qc.html#a87da8393de417bca4fd272ebddf0c212", null ],
     [ "sbt_field_icon2_rgb", "d3/d07/scoreboard_8qc.html#a30816933a780a5d60eb2216b392b72e8", null ],
     [ "sbt_field_rgb", "d3/d07/scoreboard_8qc.html#a121d98b895c90510088e47725f76255b", null ],
+    [ "sbt_field_size", "d3/d07/scoreboard_8qc.html#a156943ed2b0d4043dcf314a140579208", null ],
+    [ "sbt_field_title", "d3/d07/scoreboard_8qc.html#aefb3131e2dbe58f49b38429aea2965b0", null ],
     [ "sbt_fixcolumnwidth_iconlen", "d3/d07/scoreboard_8qc.html#a19f3341473f7d1700f101c03ffcf28be", null ],
     [ "sbt_fixcolumnwidth_len", "d3/d07/scoreboard_8qc.html#aaf5cd5494661624974d09657b6428ff2", null ],
     [ "sbt_fixcolumnwidth_marginlen", "d3/d07/scoreboard_8qc.html#a2fc88dc1a1263cd0c6e847cadfd3dd3c", null ],
     [ "sbt_highlight", "d3/d07/scoreboard_8qc.html#aeb5b8d7517335ac69d17ab2814ddb793", null ],
     [ "sbt_highlight_alpha", "d3/d07/scoreboard_8qc.html#a94ddd037ffb67797e205f1daf4e394d9", null ],
-    [ "sbt_highlight_alpha_self", "d3/d07/scoreboard_8qc.html#a1ef885e2eef24ceb79a125ac81b8fef0", null ]
+    [ "sbt_highlight_alpha_self", "d3/d07/scoreboard_8qc.html#a1ef885e2eef24ceb79a125ac81b8fef0", null ],
+    [ "sbt_num_fields", "d3/d07/scoreboard_8qc.html#a1d5dfa661227f35bf953ae3740062648", null ]
 ];

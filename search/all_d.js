@@ -430,7 +430,7 @@ var searchData=
   ['max_5fkeybinds',['MAX_KEYBINDS',['../df/d75/keybinder_8qc.html#abeb43a2ba74e131149bca30e59f10e5c',1,'keybinder.qc']]],
   ['max_5fkeys_5fper_5ffunction',['MAX_KEYS_PER_FUNCTION',['../df/d75/keybinder_8qc.html#a136765a2f9eec2b238e1d2d831048343',1,'keybinder.qc']]],
   ['max_5frpn_5fstack',['MAX_RPN_STACK',['../d4/db4/rpn_8qh.html#afafe3dbc1f1e8c61511ba4b223719ec4',1,'rpn.qh']]],
-  ['max_5fsbt_5ffields',['MAX_SBT_FIELDS',['../d0/d2a/client_2main_8qh.html#a9bf722ae68431773c4bde7eebad02446',1,'main.qh']]],
+  ['max_5fsbt_5ffields',['MAX_SBT_FIELDS',['../d3/d07/scoreboard_8qc.html#a9bf722ae68431773c4bde7eebad02446',1,'scoreboard.qc']]],
   ['max_5fshot_5fdistance',['MAX_SHOT_DISTANCE',['../d2/d1c/weapons_2weapon_8qh.html#a9fa363812785dc498d10c39607bbbb9d',1,'weapon.qh']]],
   ['max_5fspectators',['MAX_SPECTATORS',['../d0/d2a/client_2main_8qh.html#afe961ffd5f538ba62097d9a39f91e1a4',1,'main.qh']]],
   ['max_5fteamradar_5ftimes',['MAX_TEAMRADAR_TIMES',['../d0/d84/teamradar_8qh.html#a1d39c142e0d9f64f317c11702a020571',1,'teamradar.qh']]],
