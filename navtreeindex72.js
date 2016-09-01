@@ -1,5 +1,9 @@
 var NAVTREEINDEX72 =
 {
+"d8/d35/classXonoticHUDChatDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,175,37],
+"d8/d35/classXonoticHUDChatDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,175,41],
+"d8/d35/classXonoticHUDChatDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,175,85],
+"d8/d35/classXonoticHUDChatDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,175,8],
 "d8/d39/classXonoticGametypeList.html":[1,0,170],
 "d8/d39/classXonoticGametypeList.html#a00b3d9b37ac094d901936a08da5804f1":[1,0,170,10],
 "d8/d39/classXonoticGametypeList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,170,42],
@@ -208,9 +212,9 @@ var NAVTREEINDEX72 =
 "d8/d79/notifications_2all_8qc.html#a4533800e729b98bacf130e45337d6e50":[2,0,1,10,3,42],
 "d8/d79/notifications_2all_8qc.html#a48d522da6e6f6f53c7b2a9c658d81506":[2,0,1,10,3,34],
 "d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,10,3,4],
-"d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,10,3,5],
 "d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,10,3,6],
 "d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,10,3,7],
+"d8/d79/notifications_2all_8qc.html#a558086ef17cfe7006ee3ce6c2aafe854":[2,0,1,10,3,5],
 "d8/d79/notifications_2all_8qc.html#a682b66e5aae4a02b19ba825760896610":[2,0,1,10,3,36],
 "d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,10,3,20],
 "d8/d79/notifications_2all_8qc.html#a7fa7eccc65003c296afeaf0ac09de29a":[2,0,1,10,3,21],
@@ -245,9 +249,5 @@ var NAVTREEINDEX72 =
 "d8/d79/notifications_2all_8qc_source.html":[2,0,1,10,3],
 "d8/d7f/sv__dodging_8qh.html":[2,0,1,9,0,7,3],
 "d8/d7f/sv__dodging_8qh_source.html":[2,0,1,9,0,7,3],
-"d8/d86/command_8qc.html":[2,0,4,1,2],
-"d8/d86/command_8qc.html#a8011943c633419e1e39634df6e77b6d0":[2,0,4,1,2,0],
-"d8/d86/command_8qc_source.html":[2,0,4,1,2],
-"d8/d88/keylock_8qc.html":[2,0,1,13,3,24],
-"d8/d88/keylock_8qc.html#a1f7801877acc75d67d14be456bf88ac8":[2,0,1,13,3,24,2]
+"d8/d86/command_8qc.html":[2,0,4,1,2]
 };

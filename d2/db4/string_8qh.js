@@ -4,6 +4,8 @@ var string_8qh =
     [ "endsWith", "d2/db4/string_8qh.html#a17ef0c21cbd07ec53d7dee826fa3814d", null ],
     [ "HEXDIGIT_TO_DEC", "d2/db4/string_8qh.html#a70bd37e05eeb11fdb4e3cfff09c6187e", null ],
     [ "HEXDIGIT_TO_DEC_RAW", "d2/db4/string_8qh.html#ad8357713efe469506842ff9e841e90ce", null ],
+    [ "IS_DIGIT", "d2/db4/string_8qh.html#a5d094027c5b25aa2cb2dd91cffdf0437", null ],
+    [ "IS_HEXDIGIT", "d2/db4/string_8qh.html#abcc29d17efe4fff029717d5a8ed99c3e", null ],
     [ "startsWith", "d2/db4/string_8qh.html#a97b9c9eb2587047924a05f9f0df6903f", null ],
     [ "strhasword", "d2/db4/string_8qh.html#a836225e275d6595a6f0e1b644ea8ba30", null ],
     [ "_shufflewords_swapfunc", "d2/db4/string_8qh.html#ad2c5b5ff8e9f43181265688791c6312e", null ],
@@ -42,5 +44,7 @@ var string_8qh =
     [ "autocvar_hud_colorset_kill_2", "d2/db4/string_8qh.html#a5c6eb5838adaa734d5323d32a74bb273", null ],
     [ "autocvar_hud_colorset_kill_3", "d2/db4/string_8qh.html#ae8ae7c04f671913062fe7bc5d76646c4", null ],
     [ "ColorTranslateMode", "d2/db4/string_8qh.html#aac3cd57f894ce5c2be1d74aee3fe2f13", null ],
-    [ "HEXDIGITS", "d2/db4/string_8qh.html#abf1feb469f1b23e7c603927c8deba515", null ]
+    [ "DIGITS", "d2/db4/string_8qh.html#a3666b550a6b7dd5708c32be524c0f95e", null ],
+    [ "HEXDIGITS", "d2/db4/string_8qh.html#abf1feb469f1b23e7c603927c8deba515", null ],
+    [ "HEXDIGITS_MINSET", "d2/db4/string_8qh.html#a45179cf8fb9f4d304391f64565c60436", null ]
 ];

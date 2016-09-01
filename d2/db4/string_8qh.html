@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('d2/db4/string_8qh.html','../../');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
 Macros</h2></td></tr>
-<tr class="memitem:ab9cc51225f98703626978ab0de95744b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#ab9cc51225f98703626978ab0de95744b">DEC_TO_HEXDIGIT</a>(d)&#160;&#160;&#160;(<a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="el" href="../../d2/db4/string_8qh.html#abf1feb469f1b23e7c603927c8deba515">HEXDIGITS</a>, (d), 1))</td></tr>
+<tr class="memitem:ab9cc51225f98703626978ab0de95744b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#ab9cc51225f98703626978ab0de95744b">DEC_TO_HEXDIGIT</a>(d)&#160;&#160;&#160;(<a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="el" href="../../d2/db4/string_8qh.html#a45179cf8fb9f4d304391f64565c60436">HEXDIGITS_MINSET</a>, (d), 1))</td></tr>
 <tr class="separator:ab9cc51225f98703626978ab0de95744b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17ef0c21cbd07ec53d7dee826fa3814d"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#a17ef0c21cbd07ec53d7dee826fa3814d">endsWith</a>(<a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, suffix)&#160;&#160;&#160;(<a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a> = suffix, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, -<a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(<a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a>), -1) == <a class="el" href="../../d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add">_endsWith_suffix</a>)</td></tr>
 <tr class="separator:a17ef0c21cbd07ec53d7dee826fa3814d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -141,6 +141,10 @@ Macros</h2></td></tr>
 <tr class="separator:a70bd37e05eeb11fdb4e3cfff09c6187e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8357713efe469506842ff9e841e90ce"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#ad8357713efe469506842ff9e841e90ce">HEXDIGIT_TO_DEC_RAW</a>(d)&#160;&#160;&#160;(<a class="el" href="../../d0/d95/menudefs_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(<a class="el" href="../../d2/db4/string_8qh.html#abf1feb469f1b23e7c603927c8deba515">HEXDIGITS</a>, (d), 0))</td></tr>
 <tr class="separator:ad8357713efe469506842ff9e841e90ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d094027c5b25aa2cb2dd91cffdf0437"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#a5d094027c5b25aa2cb2dd91cffdf0437">IS_DIGIT</a>(d)&#160;&#160;&#160;(<a class="el" href="../../d0/d95/menudefs_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(<a class="el" href="../../d2/db4/string_8qh.html#a3666b550a6b7dd5708c32be524c0f95e">DIGITS</a>, (d), 0) &gt;= 0)</td></tr>
+<tr class="separator:a5d094027c5b25aa2cb2dd91cffdf0437"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcc29d17efe4fff029717d5a8ed99c3e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#abcc29d17efe4fff029717d5a8ed99c3e">IS_HEXDIGIT</a>(d)&#160;&#160;&#160;(<a class="el" href="../../d0/d95/menudefs_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(<a class="el" href="../../d2/db4/string_8qh.html#a45179cf8fb9f4d304391f64565c60436">HEXDIGITS_MINSET</a>, (d), 0) &gt;= 0)</td></tr>
+<tr class="separator:abcc29d17efe4fff029717d5a8ed99c3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97b9c9eb2587047924a05f9f0df6903f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#a97b9c9eb2587047924a05f9f0df6903f">startsWith</a>(haystack, needle)&#160;&#160;&#160;(<a class="el" href="../../d0/d95/menudefs_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(haystack, needle, 0) == 0)</td></tr>
 <tr class="separator:a97b9c9eb2587047924a05f9f0df6903f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a836225e275d6595a6f0e1b644ea8ba30"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#a836225e275d6595a6f0e1b644ea8ba30">strhasword</a>(s, w)&#160;&#160;&#160;(<a class="el" href="../../d0/d95/menudefs_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(<a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(&quot; &quot;, s, &quot; &quot;), <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(&quot; &quot;, w, &quot; &quot;), 0) &gt;= 0)</td></tr>
@@ -229,8 +233,12 @@ Variables</h2></td></tr>
 <tr class="separator:ae8ae7c04f671913062fe7bc5d76646c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aac3cd57f894ce5c2be1d74aee3fe2f13"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#aac3cd57f894ce5c2be1d74aee3fe2f13">ColorTranslateMode</a></td></tr>
 <tr class="separator:aac3cd57f894ce5c2be1d74aee3fe2f13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3666b550a6b7dd5708c32be524c0f95e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#a3666b550a6b7dd5708c32be524c0f95e">DIGITS</a> = &quot;0123456789&quot;</td></tr>
+<tr class="separator:a3666b550a6b7dd5708c32be524c0f95e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf1feb469f1b23e7c603927c8deba515"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#abf1feb469f1b23e7c603927c8deba515">HEXDIGITS</a> = &quot;0123456789ABCDEF0123456789abcdef&quot;</td></tr>
 <tr class="separator:abf1feb469f1b23e7c603927c8deba515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45179cf8fb9f4d304391f64565c60436"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/db4/string_8qh.html#a45179cf8fb9f4d304391f64565c60436">HEXDIGITS_MINSET</a> = &quot;0123456789ABCDEFabcdef&quot;</td></tr>
+<tr class="separator:a45179cf8fb9f4d304391f64565c60436"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="ab9cc51225f98703626978ab0de95744b"></a>
@@ -242,12 +250,12 @@ Variables</h2></td></tr>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">d</td><td>)</td>
-          <td>&#160;&#160;&#160;(<a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="el" href="../../d2/db4/string_8qh.html#abf1feb469f1b23e7c603927c8deba515">HEXDIGITS</a>, (d), 1))</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(<a class="el" href="../../d2/db4/string_8qh.html#a45179cf8fb9f4d304391f64565c60436">HEXDIGITS_MINSET</a>, (d), 1))</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/db4/string_8qh_source.html#l00345">345</a> of file <a class="el" href="../../d2/db4/string_8qh_source.html">string.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/db4/string_8qh_source.html#l00346">346</a> of file <a class="el" href="../../d2/db4/string_8qh_source.html">string.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d11/color_8qh_source.html#l00169">rgb_to_hexcolor()</a>.</p>
 
@@ -297,7 +305,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/db4/string_8qh_source.html#l00344">344</a> of file <a class="el" href="../../d2/db4/string_8qh_source.html">string.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/db4/string_8qh_source.html#l00345">345</a> of file <a class="el" href="../../d2/db4/string_8qh_source.html">string.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d3/dd8/item_2inputbox_8qc_source.html#l00178">InputBox_draw()</a>.</p>
 
@@ -317,7 +325,47 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/db4/string_8qh_source.html#l00343">343</a> of file <a class="el" href="../../d2/db4/string_8qh_source.html">string.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/db4/string_8qh_source.html#l00344">344</a> of file <a class="el" href="../../d2/db4/string_8qh_source.html">string.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5d094027c5b25aa2cb2dd91cffdf0437"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IS_DIGIT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">d</td><td>)</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="../../d0/d95/menudefs_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(<a class="el" href="../../d2/db4/string_8qh.html#a3666b550a6b7dd5708c32be524c0f95e">DIGITS</a>, (d), 0) &gt;= 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/db4/string_8qh_source.html#l00350">350</a> of file <a class="el" href="../../d2/db4/string_8qh_source.html">string.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/d27/scripting_8qc_source.html#l00587">bot_cmd_eval()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00781">find_last_color_code()</a>, <a class="el" href="../../d6/d4c/colorpicker_8qc_source.html#l00059">XonoticColorpicker_mouseDrag()</a>, and <a class="el" href="../../d6/d74/serverlist_8qc_source.html#l00807">XonoticServerList_drawListBoxItem()</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="abcc29d17efe4fff029717d5a8ed99c3e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define IS_HEXDIGIT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">d</td><td>)</td>
+          <td>&#160;&#160;&#160;(<a class="el" href="../../d0/d95/menudefs_8qh.html#a2ac3100017ecf2236493ea038c4d2083">strstrofs</a>(<a class="el" href="../../d2/db4/string_8qh.html#a45179cf8fb9f4d304391f64565c60436">HEXDIGITS_MINSET</a>, (d), 0) &gt;= 0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/db4/string_8qh_source.html#l00347">347</a> of file <a class="el" href="../../d2/db4/string_8qh_source.html">string.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00781">find_last_color_code()</a>, <a class="el" href="../../da/d44/common_2util_8qc_source.html#l00673">skipIncompleteTag()</a>, and <a class="el" href="../../d6/d4c/colorpicker_8qc_source.html#l00059">XonoticColorpicker_mouseDrag()</a>.</p>
 
 </div>
 </div>
@@ -1905,12 +1953,40 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a3666b550a6b7dd5708c32be524c0f95e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> DIGITS = &quot;0123456789&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/db4/string_8qh_source.html#l00349">349</a> of file <a class="el" href="../../d2/db4/string_8qh_source.html">string.qh</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="abf1feb469f1b23e7c603927c8deba515"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">const <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> HEXDIGITS = &quot;0123456789ABCDEF0123456789abcdef&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d2/db4/string_8qh_source.html#l00343">343</a> of file <a class="el" href="../../d2/db4/string_8qh_source.html">string.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a45179cf8fb9f4d304391f64565c60436"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> HEXDIGITS_MINSET = &quot;0123456789ABCDEFabcdef&quot;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1925,7 +2001,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d2/db4/string_8qh.html">string.qh</a></li>
-    <li class="footer">Generated on Thu Sep 1 2016 11:59:37 for Xonotic by
+    <li class="footer">Generated on Thu Sep 1 2016 13:48:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
