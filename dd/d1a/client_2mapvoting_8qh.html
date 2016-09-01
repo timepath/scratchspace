@@ -465,16 +465,16 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00889">889</a> of file <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html">mapvoting.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00902">902</a> of file <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html">mapvoting.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00012">mv_pics</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00015">mv_preview</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00883">NET_HANDLE()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00890"></a><span class="lineno">  890</span>&#160;{</div>
-<div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;    <span class="keywordtype">int</span> type = ReadByte();</div>
-<div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;    <a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#ae7f67e048d198d67d53009526eb9fcb6">mv_preview</a>[type] = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;    <a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#afad81141b0355a860158f3dc0ea66a59">mv_pics</a>[type] = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(ReadPicture());</div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00896">NET_HANDLE()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00903"></a><span class="lineno">  903</span>&#160;{</div>
+<div class="line"><a name="l00904"></a><span class="lineno">  904</span>&#160;    <span class="keywordtype">int</span> type = ReadByte();</div>
+<div class="line"><a name="l00905"></a><span class="lineno">  905</span>&#160;    <a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#ae7f67e048d198d67d53009526eb9fcb6">mv_preview</a>[type] = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00906"></a><span class="lineno">  906</span>&#160;    <a class="code" href="../../d4/d0d/client_2mapvoting_8qc.html#afad81141b0355a860158f3dc0ea66a59">mv_pics</a>[type] = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(ReadPicture());</div>
+<div class="line"><a name="l00907"></a><span class="lineno">  907</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ae06db7c87845d853670a09a1d487b1db"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a></div><div class="ttdeci">string strzone(string s)</div></div>
 <div class="ttc" id="client_2mapvoting_8qc_html_ae7f67e048d198d67d53009526eb9fcb6"><div class="ttname"><a href="../../d4/d0d/client_2mapvoting_8qc.html#ae7f67e048d198d67d53009526eb9fcb6">mv_preview</a></div><div class="ttdeci">float mv_preview[MAPVOTE_COUNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00015">mapvoting.qc:15</a></div></div>
 <div class="ttc" id="client_2mapvoting_8qc_html_afad81141b0355a860158f3dc0ea66a59"><div class="ttname"><a href="../../d4/d0d/client_2mapvoting_8qc.html#afad81141b0355a860158f3dc0ea66a59">mv_pics</a></div><div class="ttdeci">string mv_pics[MAPVOTE_COUNT]</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00012">mapvoting.qc:12</a></div></div>
@@ -514,7 +514,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dd/d1a/client_2mapvoting_8qh_source.html#l00012">12</a> of file <a class="el" href="../../dd/d1a/client_2mapvoting_8qh_source.html">mapvoting.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00680">HUD_Minigame_Mouse()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00579">HUD_QuickMenu()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00053">HUD_Radar_InputEvent()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00123">HUD_Radar_Mouse()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00016">HUD_Radar_Show_Maximized()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00322">MapVote_Draw()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00634">MapVote_Init()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00764">MapVote_InputEvent()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00195">QuickMenu_Close()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00417">QuickMenu_InputEvent()</a>, and <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00488">QuickMenu_Mouse()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00680">HUD_Minigame_Mouse()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00579">HUD_QuickMenu()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00053">HUD_Radar_InputEvent()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00123">HUD_Radar_Mouse()</a>, <a class="el" href="../../d0/d83/radar_8qc_source.html#l00016">HUD_Radar_Show_Maximized()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00322">MapVote_Draw()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00647">MapVote_Init()</a>, <a class="el" href="../../d4/d0d/client_2mapvoting_8qc_source.html#l00777">MapVote_InputEvent()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00195">QuickMenu_Close()</a>, <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00417">QuickMenu_InputEvent()</a>, and <a class="el" href="../../d8/d19/quickmenu_8qc_source.html#l00488">QuickMenu_Mouse()</a>.</p>
 
 </div>
 </div>
@@ -588,7 +588,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dd/d1a/client_2mapvoting_8qh.html">mapvoting.qh</a></li>
-    <li class="footer">Generated on Thu Sep 1 2016 11:28:12 for Xonotic by
+    <li class="footer">Generated on Thu Sep 1 2016 11:59:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
