@@ -427,7 +427,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    wep.owner = wep.enemy = own;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    wep.flags |= <a class="code" href="../../d9/de7/server_2constants_8qh.html#ada13fe5056a6799820233daa42d28c4c">FL_TOSSED</a>;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    wep.colormap = own.colormap;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    wep.glowmod = weaponentity_glowmod(info, own.clientcolors);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    wep.glowmod = weaponentity_glowmod(info, own, own.clientcolors);</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3033c57fa01b0d86245be740694ca2d6">W_DropEvent</a>(wr_drop,own,wpn,wep);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
@@ -683,7 +683,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../df/d64/throwing_8qc.html">throwing.qc</a></li>
-    <li class="footer">Generated on Thu Sep 1 2016 16:29:00 for Xonotic by
+    <li class="footer">Generated on Fri Sep 2 2016 13:59:00 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
