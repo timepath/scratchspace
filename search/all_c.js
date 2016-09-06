@@ -113,7 +113,6 @@ var searchData=
   ['ldexp',['ldexp',['../df/d38/mathlib_8qc.html#a90381e2538fbcc8e6c1f75b1831c7846',1,'ldexp(float x, int e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a90381e2538fbcc8e6c1f75b1831c7846',1,'ldexp(float x, int e):&#160;mathlib.qc']]],
   ['leaderfrags',['leaderfrags',['../db/dcc/g__world_8qc.html#ad2d2ac4fdacfc3e3274e8caa25ddfe95',1,'g_world.qc']]],
   ['leanmodel_5fofs',['leanmodel_ofs',['../d6/dd3/view_8qc.html#ac864cc822088f051704ed70a2f89224a',1,'view.qc']]],
-  ['leavespectatormode',['LeaveSpectatorMode',['../df/dd7/server_2client_8qc.html#aed95c4f937b43adeae79015825661efd',1,'client.qc']]],
   ['leavesubitem',['leaveSubitem',['../d0/d7b/classContainer.html#a01627abafc724fbbbb330e46f8331911',1,'Container']]],
   ['lefty',['lefty',['../dd/daa/g__lights_8qc.html#a7f0dca1501ccdc6104ddb56d787a7847',1,'g_lights.qc']]],
   ['legacy_5fimpulse',['LEGACY_IMPULSE',['../d0/d6e/impulses_2all_8qh.html#a9f83e65e9f79887eddc2b6b17740882c',1,'all.qh']]],

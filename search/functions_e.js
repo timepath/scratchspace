@@ -57,7 +57,7 @@ var searchData=
   ['nix_5fcanchooseweapon',['NIX_CanChooseWeapon',['../d7/d39/sv__nix_8qc.html#a7bcb5b58de02894dfb32251eb9de36d3',1,'sv_nix.qc']]],
   ['nix_5fchoosenextweapon',['NIX_ChooseNextWeapon',['../d7/d39/sv__nix_8qc.html#a7855e69af6ee0d89fe8ad835500790b2',1,'sv_nix.qc']]],
   ['nix_5fgivecurrentweapon',['NIX_GiveCurrentWeapon',['../d7/d39/sv__nix_8qc.html#a71c80b0c1234dc67733b6ae5b492b009',1,'sv_nix.qc']]],
-  ['njoinallowed',['nJoinAllowed',['../df/dd7/server_2client_8qc.html#aef16dc092f69453b716c91d06060d635',1,'nJoinAllowed(entity this, entity ignore):&#160;client.qc'],['../d5/d26/server_2defs_8qh.html#aef16dc092f69453b716c91d06060d635',1,'nJoinAllowed(entity this, entity ignore):&#160;client.qc']]],
+  ['njoinallowed',['nJoinAllowed',['../df/dd7/server_2client_8qc.html#a7ffadf58adc998f1bedeafa971290500',1,'nJoinAllowed(entity this, entity ignore):&#160;client.qc'],['../d5/d26/server_2defs_8qh.html#aef16dc092f69453b716c91d06060d635',1,'nJoinAllowed(entity this, entity ignore):&#160;client.qc']]],
   ['nmm_5ffind_5ftile',['nmm_find_tile',['../db/d8b/nmm_8qc.html#ac98982c288f04e732c1ae519231e97e1',1,'nmm.qc']]],
   ['nmm_5fin_5fmill',['nmm_in_mill',['../db/d8b/nmm_8qc.html#a2206240fb1943a6294b2c2af95dede4e',1,'nmm.qc']]],
   ['nmm_5fin_5fmill_5fstring',['nmm_in_mill_string',['../db/d8b/nmm_8qc.html#a5aecc3b86ad9955fd5234b08633c78ab',1,'nmm.qc']]],

@@ -25,6 +25,9 @@ var cmd_8qc =
     [ "ClientCommand_tell", "d8/d1d/cmd_8qc.html#a3d1bdadba458e2cd6009730d19b950f2", null ],
     [ "ClientCommand_voice", "d8/d1d/cmd_8qc.html#ab4d685ca2854b26db03cb4f2c6103cd4", null ],
     [ "ClientKill_TeamChange", "d8/d1d/cmd_8qc.html#a97b74d9774c1336d930dd5a88961726e", null ],
+    [ "Join", "d8/d1d/cmd_8qc.html#a77ba4c685ebf7e80884df5fb16f6e587", null ],
+    [ "joinAllowed", "d8/d1d/cmd_8qc.html#a5f32182c9463bf8c77afb1502ade553c", null ],
     [ "SV_ParseClientCommand", "d8/d1d/cmd_8qc.html#a67c2dd926692b0635c83bcef05983b3b", null ],
-    [ "SV_ParseClientCommand_floodcheck", "d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665", null ]
+    [ "SV_ParseClientCommand_floodcheck", "d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665", null ],
+    [ "team_selected", "d8/d1d/cmd_8qc.html#ab71754893182e8830b826e9e9692db91", null ]
 ];

@@ -159,6 +159,8 @@ Functions</h2></td></tr>
 <tr class="separator:a7fa79dd40d067b1966cc3fe622b6b6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab265c26ec7f7395df1af250e97417a95"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html#ab265c26ec7f7395df1af250e97417a95">MUTATOR_HOOKFUNCTION</a> (ca, PlayerSpawn)</td></tr>
 <tr class="separator:ab265c26ec7f7395df1af250e97417a95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa76a46ad7fa24ebe1dacda1938cf9eff"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html#aa76a46ad7fa24ebe1dacda1938cf9eff">MUTATOR_HOOKFUNCTION</a> (ca, ForbidSpawn)</td></tr>
+<tr class="separator:aa76a46ad7fa24ebe1dacda1938cf9eff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0904e2f361cd45eac92a816349982d6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html#a0904e2f361cd45eac92a816349982d6a">MUTATOR_HOOKFUNCTION</a> (ca, <a class="el" href="../../df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951">PutClientInServer</a>)</td></tr>
 <tr class="separator:a0904e2f361cd45eac92a816349982d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68cfbed0dd6691f32898af0004979af5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html#a68cfbed0dd6691f32898af0004979af5">MUTATOR_HOOKFUNCTION</a> (ca, reset_map_players)</td></tr>
@@ -173,8 +175,6 @@ Functions</h2></td></tr>
 <tr class="separator:ac73da9272696ca850eb2cdb3cac648cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2e5f949760406559a8cd92dedf000da"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html#af2e5f949760406559a8cd92dedf000da">MUTATOR_HOOKFUNCTION</a> (ca, <a class="el" href="../../df/dd7/server_2client_8qc.html#a159c579f136a76f2364b031fd3246182">ClientDisconnect</a>)</td></tr>
 <tr class="separator:af2e5f949760406559a8cd92dedf000da"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a329253c56360293a5571d482978fb567"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html#a329253c56360293a5571d482978fb567">MUTATOR_HOOKFUNCTION</a> (ca, ForbidPlayerScore_Clear)</td></tr>
-<tr class="separator:a329253c56360293a5571d482978fb567"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a90943780d16e333920321c1bf3d9b4a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html#a90943780d16e333920321c1bf3d9b4a1">MUTATOR_HOOKFUNCTION</a> (ca, MakePlayerObserver)</td></tr>
 <tr class="separator:a90943780d16e333920321c1bf3d9b4a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58d86918f8e9f0081e7638658e88af7c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html#a58d86918f8e9f0081e7638658e88af7c">MUTATOR_HOOKFUNCTION</a> (ca, ForbidThrowCurrentWeapon)</td></tr>
@@ -618,23 +618,23 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00222">222</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00234">234</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00177">SAME_TEAM</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00236">ca_LastPlayerForTeam_Notify()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;{</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> last_pl = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != <span class="keyword">this</span>, {</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(it))</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(<span class="keyword">this</span>, it))</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="keywordflow">if</span> (!last_pl)</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            last_pl = it;</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    });</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    <span class="keywordflow">return</span> last_pl;</div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00248">ca_LastPlayerForTeam_Notify()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;{</div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> last_pl = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != <span class="keyword">this</span>, {</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;        <span class="keywordflow">if</span> (!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(it))</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(<span class="keyword">this</span>, it))</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <span class="keywordflow">if</span> (!last_pl)</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            last_pl = it;</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    });</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    <span class="keywordflow">return</span> last_pl;</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
@@ -678,24 +678,24 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00236">236</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00248">248</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
-<p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00222">ca_LastPlayerForTeam()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00020">round_handler_IsActive</a>, and <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00023">round_handler_IsRoundStarted</a>.</p>
+<p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00234">ca_LastPlayerForTeam()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00020">round_handler_IsActive</a>, and <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00023">round_handler_IsRoundStarted</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00247">MUTATOR_HOOKFUNCTION()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;{</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a>())</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2">round_handler_IsRoundStarted</a>())</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    {</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> pl = <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#aac9833bdaf8c42ee876679860b8976bf">ca_LastPlayerForTeam</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <span class="keywordflow">if</span> (pl)</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            Send_Notification(NOTIF_ONE, pl, MSG_CENTER, CENTER_ALONE);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    }</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00259">MUTATOR_HOOKFUNCTION()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;{</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a>())</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2">round_handler_IsRoundStarted</a>())</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    {</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> pl = <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#aac9833bdaf8c42ee876679860b8976bf">ca_LastPlayerForTeam</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">if</span> (pl)</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            Send_Notification(NOTIF_ONE, pl, MSG_CENTER, CENTER_ALONE);</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    }</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;}</div>
 <div class="ttc" id="round__handler_8qh_html_a329096694bbb90b286bf875e4f7ee0b0"><div class="ttname"><a href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a></div><div class="ttdeci">#define round_handler_IsActive()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d20/round__handler_8qh_source.html#l00020">round_handler.qh:20</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="round__handler_8qh_html_a94a1d9264bb698d7c097277562e2dfe2"><div class="ttname"><a href="../../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2">round_handler_IsRoundStarted</a></div><div class="ttdeci">#define round_handler_IsRoundStarted()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d20/round__handler_8qh_source.html#l00023">round_handler.qh:23</a></div></div>
-<div class="ttc" id="gamemode__ca_8qc_html_aac9833bdaf8c42ee876679860b8976bf"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#aac9833bdaf8c42ee876679860b8976bf">ca_LastPlayerForTeam</a></div><div class="ttdeci">entity ca_LastPlayerForTeam(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00222">gamemode_ca.qc:222</a></div></div>
+<div class="ttc" id="gamemode__ca_8qc_html_aac9833bdaf8c42ee876679860b8976bf"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#aac9833bdaf8c42ee876679860b8976bf">ca_LastPlayerForTeam</a></div><div class="ttdeci">entity ca_LastPlayerForTeam(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00234">gamemode_ca.qc:234</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-11" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-11-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -786,7 +786,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00177">SAME_TEAM</a>, and <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00005">STR_PLAYER</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00381">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00388">MUTATOR_HOOKFUNCTION()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;{</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(start, player)) <span class="keywordflow">return</span> start;</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;    <span class="comment">// continue from current player</span></div>
@@ -881,6 +881,59 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aa76a46ad7fa24ebe1dacda1938cf9eff"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKFUNCTION </td>
+          <td>(</td>
+          <td class="paramtype">ca&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForbidSpawn&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00169">169</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+
+<p>References <a class="el" href="../../da/d45/gamemode__ca_8qh_source.html#l00015">allowed_to_spawn</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
+<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="comment">// spectators / observers that weren&#39;t playing can join; they are</span></div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <span class="comment">// immediately forced to observe in the PutClientInServer hook</span></div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <span class="comment">// this way they are put in a team and can play in the next round</span></div>
+<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../da/d45/gamemode__ca_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7">allowed_to_spawn</a> &amp;&amp; player.caplayer)</div>
+<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;}</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
+<div class="ttc" id="gamemode__ca_8qh_html_a37c746e1bfefa9fd71b65c4435f95ed7"><div class="ttname"><a href="../../da/d45/gamemode__ca_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7">allowed_to_spawn</a></div><div class="ttdeci">bool allowed_to_spawn</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/gamemode__ca_8qh_source.html#l00015">gamemode_ca.qh:15</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_aa76a46ad7fa24ebe1dacda1938cf9eff_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
+</div>
+</div>
 <a class="anchor" id="a0904e2f361cd45eac92a816349982d6a"></a>
 <div class="memitem">
 <div class="memproto">
@@ -905,22 +958,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00169">169</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00181">181</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../da/d45/gamemode__ca_8qh_source.html#l00015">allowed_to_spawn</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;</div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../da/d45/gamemode__ca_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7">allowed_to_spawn</a> &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(player)) <span class="comment">// this is true even when player is trying to join</span></div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    {</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <a class="code" href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE</a>(<a class="code" href="../../de/dab/classObserver.html">Observer</a>, player);</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        <span class="keywordflow">if</span> (player.jointime != <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &amp;&amp; !player.caplayer) <span class="comment">// not when connecting</span></div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;        {</div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            player.caplayer = 0.5;</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;            Send_Notification(NOTIF_ONE_ONLY, player, MSG_INFO, INFO_CA_JOIN_LATE);</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        }</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    }</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;{</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;</div>
+<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../da/d45/gamemode__ca_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7">allowed_to_spawn</a> &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(player)) <span class="comment">// this is true even when player is trying to join</span></div>
+<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    {</div>
+<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        <a class="code" href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE</a>(<a class="code" href="../../de/dab/classObserver.html">Observer</a>, player);</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keywordflow">if</span> (player.jointime != <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &amp;&amp; !player.caplayer) <span class="comment">// not when connecting</span></div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        {</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            player.caplayer = 0.5;</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            Send_Notification(NOTIF_ONE_ONLY, player, MSG_INFO, INFO_CA_JOIN_LATE);</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        }</div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;    }</div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="server_2client_8qc_html_a9e0748b2f44617a221a03deb1fb93e80"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE</a></div><div class="ttdeci">TRANSMUTE(Player, this)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
@@ -929,11 +982,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="gamemode__ca_8qh_html_a37c746e1bfefa9fd71b65c4435f95ed7"><div class="ttname"><a href="../../da/d45/gamemode__ca_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7">allowed_to_spawn</a></div><div class="ttdeci">bool allowed_to_spawn</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/gamemode__ca_8qh_source.html#l00015">gamemode_ca.qh:15</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-17" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-17-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-17-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-17-content" class="dyncontent" style="display:none;">
+<div id="dynsection-18-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_a0904e2f361cd45eac92a816349982d6a_cgraph.svg" width="371" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -965,37 +1018,37 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00184">184</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00196">196</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00015">IS_BOT_CLIENT</a>, <a class="el" href="../../df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a">PutClientInServer()</a>, and <a class="el" href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;{</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, {</div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        it.killcount = 0;</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        <span class="keywordflow">if</span> (!it.caplayer &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(it))</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        {</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            it.team = -1;</div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            it.caplayer = 1;</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        }</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="keywordflow">if</span> (it.caplayer)</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        {</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;            <a class="code" href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE</a>(<a class="code" href="../../d2/d4b/classPlayer.html">Player</a>, it);</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;            it.caplayer = 1;</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            <a class="code" href="../../df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a">PutClientInServer</a>(it);</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        }</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    });</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;{</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, {</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        it.killcount = 0;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <span class="keywordflow">if</span> (!it.caplayer &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(it))</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;        {</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            it.team = -1;</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            it.caplayer = 1;</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        }</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">if</span> (it.caplayer)</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        {</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            <a class="code" href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE</a>(<a class="code" href="../../d2/d4b/classPlayer.html">Player</a>, it);</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            it.caplayer = 1;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            <a class="code" href="../../df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a">PutClientInServer</a>(it);</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;        }</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    });</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;}</div>
 <div class="ttc" id="server_2client_8qc_html_a9e0748b2f44617a221a03deb1fb93e80"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE</a></div><div class="ttdeci">TRANSMUTE(Player, this)</div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_afff35aba15a6e110ae0fe9e4a8d1a0f6"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a></div><div class="ttdeci">#define IS_BOT_CLIENT(v)</div><div class="ttdoc">want: (IS_CLIENT(v) &amp;&amp; !IS_REAL_CLIENT(v)) </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00015">_all.qh:15</a></div></div>
 <div class="ttc" id="server_2client_8qc_html_adc12a5d0f9848861e80fbee0c890d64a"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a">PutClientInServer</a></div><div class="ttdeci">PutClientInServer(this)</div></div>
 <div class="ttc" id="classPlayer_html"><div class="ttname"><a href="../../d2/d4b/classPlayer.html">Player</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00074">client.qh:74</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-18" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-18-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-18-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-18-content" class="dyncontent" style="display:none;">
+<div id="dynsection-19-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_a68cfbed0dd6691f32898af0004979af5_cgraph.svg" width="390" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1027,25 +1080,25 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00203">203</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00215">215</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;{</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <a class="code" href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE</a>(<a class="code" href="../../de/dab/classObserver.html">Observer</a>, player);</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;{</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <a class="code" href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE</a>(<a class="code" href="../../de/dab/classObserver.html">Observer</a>, player);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;}</div>
 <div class="ttc" id="server_2client_8qc_html_a9e0748b2f44617a221a03deb1fb93e80"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80">TRANSMUTE</a></div><div class="ttdeci">TRANSMUTE(Player, this)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="classObserver_html"><div class="ttname"><a href="../../de/dab/classObserver.html">Observer</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00060">client.qh:60</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-19" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-19-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-19-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-19-content" class="dyncontent" style="display:none;">
+<div id="dynsection-20-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_a1871cb713ef5ce4f63a2c9a29e2df144_cgraph.svg" width="371" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1077,13 +1130,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00211">211</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00223">223</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../da/d45/gamemode__ca_8qh_source.html#l00015">allowed_to_spawn</a>.</p>
-<div class="fragment"><div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;{</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <a class="code" href="../../da/d45/gamemode__ca_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7">allowed_to_spawn</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;{</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;    <a class="code" href="../../da/d45/gamemode__ca_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7">allowed_to_spawn</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;}</div>
 <div class="ttc" id="gamemode__ca_8qh_html_a37c746e1bfefa9fd71b65c4435f95ed7"><div class="ttname"><a href="../../da/d45/gamemode__ca_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7">allowed_to_spawn</a></div><div class="ttdeci">bool allowed_to_spawn</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/gamemode__ca_8qh_source.html#l00015">gamemode_ca.qh:15</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -1118,12 +1171,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00217">217</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00229">229</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../da/d45/gamemode__ca_8qh_source.html#l00014">ca_teams</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;{</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">float</span>) = <a class="code" href="../../da/d45/gamemode__ca_8qh.html#a83007e99e8d51b00452624bbadaae22a">ca_teams</a>;</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;{</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">float</span>) = <a class="code" href="../../da/d45/gamemode__ca_8qh.html#a83007e99e8d51b00452624bbadaae22a">ca_teams</a>;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;}</div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="gamemode__ca_8qh_html_a83007e99e8d51b00452624bbadaae22a"><div class="ttname"><a href="../../da/d45/gamemode__ca_8qh.html#a83007e99e8d51b00452624bbadaae22a">ca_teams</a></div><div class="ttdeci">int ca_teams</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/gamemode__ca_8qh_source.html#l00014">gamemode_ca.qh:14</a></div></div>
 </div><!-- fragment -->
@@ -1153,32 +1206,32 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00247">247</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00259">259</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
-<p>References <a class="el" href="../../da/d45/gamemode__ca_8qh_source.html#l00015">allowed_to_spawn</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00236">ca_LastPlayerForTeam_Notify()</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00032">eliminatedPlayers</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d9/de7/server_2constants_8qh_source.html#l00014">RESPAWN_SILENT</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00061">warmup_stage</a>.</p>
-<div class="fragment"><div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;{</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a5e4b504c009a02034583fc4cb216afd2">ca_LastPlayerForTeam_Notify</a>(frag_target);</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../da/d45/gamemode__ca_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7">allowed_to_spawn</a>)</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        frag_target.respawn_flags =  <a class="code" href="../../d9/de7/server_2constants_8qh.html#a1face232aebba576519417144cd5362e">RESPAWN_SILENT</a>;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>)</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a9a5d758c3f0baae25a5df42278c834c7">eliminatedPlayers</a>.SendFlags |= 1;</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;}</div>
+<p>References <a class="el" href="../../da/d45/gamemode__ca_8qh_source.html#l00015">allowed_to_spawn</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00248">ca_LastPlayerForTeam_Notify()</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00032">eliminatedPlayers</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d9/de7/server_2constants_8qh_source.html#l00014">RESPAWN_SILENT</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00061">warmup_stage</a>.</p>
+<div class="fragment"><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;{</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a5e4b504c009a02034583fc4cb216afd2">ca_LastPlayerForTeam_Notify</a>(frag_target);</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../da/d45/gamemode__ca_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7">allowed_to_spawn</a>)</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;        frag_target.respawn_flags =  <a class="code" href="../../d9/de7/server_2constants_8qh.html#a1face232aebba576519417144cd5362e">RESPAWN_SILENT</a>;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>)</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a9a5d758c3f0baae25a5df42278c834c7">eliminatedPlayers</a>.SendFlags |= 1;</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a9a5d758c3f0baae25a5df42278c834c7"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a9a5d758c3f0baae25a5df42278c834c7">eliminatedPlayers</a></div><div class="ttdeci">entity eliminatedPlayers</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00032">miscfunctions.qh:32</a></div></div>
 <div class="ttc" id="server_2constants_8qh_html_a1face232aebba576519417144cd5362e"><div class="ttname"><a href="../../d9/de7/server_2constants_8qh.html#a1face232aebba576519417144cd5362e">RESPAWN_SILENT</a></div><div class="ttdeci">const int RESPAWN_SILENT</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de7/server_2constants_8qh_source.html#l00014">constants.qh:14</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_af6088979e4328d96a754cc483d1672d9"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a></div><div class="ttdeci">float warmup_stage</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00061">main.qh:61</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="gamemode__ca_8qh_html_a37c746e1bfefa9fd71b65c4435f95ed7"><div class="ttname"><a href="../../da/d45/gamemode__ca_8qh.html#a37c746e1bfefa9fd71b65c4435f95ed7">allowed_to_spawn</a></div><div class="ttdeci">bool allowed_to_spawn</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d45/gamemode__ca_8qh_source.html#l00015">gamemode_ca.qh:15</a></div></div>
-<div class="ttc" id="gamemode__ca_8qc_html_a5e4b504c009a02034583fc4cb216afd2"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#a5e4b504c009a02034583fc4cb216afd2">ca_LastPlayerForTeam_Notify</a></div><div class="ttdeci">void ca_LastPlayerForTeam_Notify(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00236">gamemode_ca.qc:236</a></div></div>
+<div class="ttc" id="gamemode__ca_8qc_html_a5e4b504c009a02034583fc4cb216afd2"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#a5e4b504c009a02034583fc4cb216afd2">ca_LastPlayerForTeam_Notify</a></div><div class="ttdeci">void ca_LastPlayerForTeam_Notify(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00248">gamemode_ca.qc:248</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-20" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-20-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-20-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-20-content" class="dyncontent" style="display:none;">
+<div id="dynsection-21-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_ac73da9272696ca850eb2cdb3cac648cf_cgraph.svg" width="100%" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1210,61 +1263,30 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00259">259</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00271">271</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
-<p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00236">ca_LastPlayerForTeam_Notify()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;{</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">if</span> (player.caplayer == 1)</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;        <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a5e4b504c009a02034583fc4cb216afd2">ca_LastPlayerForTeam_Notify</a>(player);</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;}</div>
+<p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00248">ca_LastPlayerForTeam_Notify()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
+<div class="fragment"><div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;{</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <span class="keywordflow">if</span> (player.caplayer == 1)</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;        <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a5e4b504c009a02034583fc4cb216afd2">ca_LastPlayerForTeam_Notify</a>(player);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
-<div class="ttc" id="gamemode__ca_8qc_html_a5e4b504c009a02034583fc4cb216afd2"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#a5e4b504c009a02034583fc4cb216afd2">ca_LastPlayerForTeam_Notify</a></div><div class="ttdeci">void ca_LastPlayerForTeam_Notify(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00236">gamemode_ca.qc:236</a></div></div>
+<div class="ttc" id="gamemode__ca_8qc_html_a5e4b504c009a02034583fc4cb216afd2"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#a5e4b504c009a02034583fc4cb216afd2">ca_LastPlayerForTeam_Notify</a></div><div class="ttdeci">void ca_LastPlayerForTeam_Notify(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00248">gamemode_ca.qc:248</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-21" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-21-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-21-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-21-content" class="dyncontent" style="display:none;">
+<div id="dynsection-22-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_af2e5f949760406559a8cd92dedf000da_cgraph.svg" width="100%" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
 
-</div>
-</div>
-<a class="anchor" id="a329253c56360293a5571d482978fb567"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">MUTATOR_HOOKFUNCTION </td>
-          <td>(</td>
-          <td class="paramtype">ca&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ForbidPlayerScore_Clear&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00268">268</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;{</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;}</div>
-</div><!-- fragment -->
 </div>
 </div>
 <a class="anchor" id="a90943780d16e333920321c1bf3d9b4a1"></a>
@@ -1291,38 +1313,37 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00273">273</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00280">280</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
-<p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00236">ca_LastPlayerForTeam_Notify()</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00032">eliminatedPlayers</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00288">FRAGS_LMS_LOSER</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00287">FRAGS_SPECTATOR</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00061">warmup_stage</a>.</p>
-<div class="fragment"><div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;{</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(player))</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a5e4b504c009a02034583fc4cb216afd2">ca_LastPlayerForTeam_Notify</a>(player);</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="keywordflow">if</span> (player.killindicator_teamchange == -2)</div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;        player.caplayer = 0;</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="keywordflow">if</span> (player.caplayer)</div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        player.frags = <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae2502553257cc9ab52b97b8529cd3dc0">FRAGS_LMS_LOSER</a>;</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        player.frags = <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae0ab871c8cc78d5f023578c0969de0fe">FRAGS_SPECTATOR</a>;</div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>)</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;        <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a9a5d758c3f0baae25a5df42278c834c7">eliminatedPlayers</a>.SendFlags |= 1;</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;  <span class="comment">// prevent team reset</span></div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;}</div>
+<p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00248">ca_LastPlayerForTeam_Notify()</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00032">eliminatedPlayers</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00288">FRAGS_LMS_LOSER</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d0/d2a/client_2main_8qh_source.html#l00061">warmup_stage</a>.</p>
+<div class="fragment"><div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;{</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(player))</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;        <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a5e4b504c009a02034583fc4cb216afd2">ca_LastPlayerForTeam_Notify</a>(player);</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="keywordflow">if</span> (player.killindicator_teamchange == -2) <span class="comment">// player wants to spectate</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;        player.caplayer = 0;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    <span class="keywordflow">if</span> (player.caplayer)</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;        player.frags = <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae2502553257cc9ab52b97b8529cd3dc0">FRAGS_LMS_LOSER</a>;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>)</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;        <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a9a5d758c3f0baae25a5df42278c834c7">eliminatedPlayers</a>.SendFlags |= 1;</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordflow">if</span> (!player.caplayer)</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;  <span class="comment">// allow team reset</span></div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;  <span class="comment">// prevent team reset</span></div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a9a5d758c3f0baae25a5df42278c834c7"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a9a5d758c3f0baae25a5df42278c834c7">eliminatedPlayers</a></div><div class="ttdeci">entity eliminatedPlayers</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00032">miscfunctions.qh:32</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_af6088979e4328d96a754cc483d1672d9"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a></div><div class="ttdeci">float warmup_stage</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00061">main.qh:61</a></div></div>
-<div class="ttc" id="common_2constants_8qh_html_ae0ab871c8cc78d5f023578c0969de0fe"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae0ab871c8cc78d5f023578c0969de0fe">FRAGS_SPECTATOR</a></div><div class="ttdeci">const int FRAGS_SPECTATOR</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00287">constants.qh:287</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
 <div class="ttc" id="common_2constants_8qh_html_ae2502553257cc9ab52b97b8529cd3dc0"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae2502553257cc9ab52b97b8529cd3dc0">FRAGS_LMS_LOSER</a></div><div class="ttdeci">const int FRAGS_LMS_LOSER</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00288">constants.qh:288</a></div></div>
-<div class="ttc" id="gamemode__ca_8qc_html_a5e4b504c009a02034583fc4cb216afd2"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#a5e4b504c009a02034583fc4cb216afd2">ca_LastPlayerForTeam_Notify</a></div><div class="ttdeci">void ca_LastPlayerForTeam_Notify(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00236">gamemode_ca.qc:236</a></div></div>
+<div class="ttc" id="gamemode__ca_8qc_html_a5e4b504c009a02034583fc4cb216afd2"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#a5e4b504c009a02034583fc4cb216afd2">ca_LastPlayerForTeam_Notify</a></div><div class="ttdeci">void ca_LastPlayerForTeam_Notify(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00248">gamemode_ca.qc:248</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-22-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-22-content" class="dyncontent" style="display:none;">
+<div id="dynsection-23-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_a90943780d16e333920321c1bf3d9b4a1_cgraph.svg" width="100%" height="382"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1354,10 +1375,10 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00290">290</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;{</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00297">297</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;{</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1391,13 +1412,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00295">295</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00302">302</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;{</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <span class="keywordtype">float</span>) = 0; <span class="comment">// score will be given to the winner team when the round ends</span></div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;{</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <span class="keywordtype">float</span>) = 0; <span class="comment">// score will be given to the winner team when the round ends</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;}</div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -1426,20 +1447,20 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00301">301</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00308">308</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, <a class="el" href="../../d7/d7c/common_2items_2item_8qh_source.html#l00037">IT_UNLIMITED_AMMO</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00220">start_ammo_cells</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00222">start_ammo_fuel</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00218">start_ammo_nails</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00221">start_ammo_plasma</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00219">start_ammo_rockets</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00217">start_ammo_shells</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00224">start_armorvalue</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00223">start_health</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00216">start_items</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00232">warmup_start_ammo_cells</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00234">warmup_start_ammo_fuel</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00230">warmup_start_ammo_nails</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00233">warmup_start_ammo_plasma</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00231">warmup_start_ammo_rockets</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00229">warmup_start_ammo_shells</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00236">warmup_start_armorvalue</a>, and <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00235">warmup_start_health</a>.</p>
-<div class="fragment"><div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;{</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3f595687f904e846427f62493b2604a7">start_items</a>       &amp;= ~<a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#aa08f773cdabdb2324207d3f5e5c2e720">IT_UNLIMITED_AMMO</a>;</div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c">start_health</a>       = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a963375e0503f2f80f21fa12935491751">warmup_start_health</a>       = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_health&quot;</span>);</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#abc0cbf2fbfbde8f4185ad29d8fb4bccc">start_armorvalue</a>   = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#af6809e3d242e489cae57b2d01d952e31">warmup_start_armorvalue</a>   = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_armor&quot;</span>);</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a32e9dc7397ed2efb16728c179619f055">start_ammo_shells</a>  = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3864dd00e6d914869ec70d29a30001a6">warmup_start_ammo_shells</a>  = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_shells&quot;</span>);</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#afa5b6b9b11e103384aea86a33686e3b5">start_ammo_nails</a>   = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a4fec95089b2ad5e082110cce0cf1c675">warmup_start_ammo_nails</a>   = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_nails&quot;</span>);</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#aa6cd6a7f0551ed5aaa6edcf165bb57ce">start_ammo_rockets</a> = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a34150498ceb2cfaa7494e6edbbddba51">warmup_start_ammo_rockets</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_rockets&quot;</span>);</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a86850d40c80e49615e642ecadbac799a">start_ammo_cells</a>   = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a281a1d8106f02c4e9aa8208da1747e1b">warmup_start_ammo_cells</a>   = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_cells&quot;</span>);</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a45de322f5684f06494c7386de6c06da0">start_ammo_plasma</a>  = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a8c9367e376b1fe800979f7f3c3460a5f">warmup_start_ammo_plasma</a>  = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_plasma&quot;</span>);</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3c72b53854b08604a60086ad28dca2fb">start_ammo_fuel</a>    = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ad191ebfe2ae9f209e0284fdf4c5e520f">warmup_start_ammo_fuel</a>    = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_fuel&quot;</span>);</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;{</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3f595687f904e846427f62493b2604a7">start_items</a>       &amp;= ~<a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#aa08f773cdabdb2324207d3f5e5c2e720">IT_UNLIMITED_AMMO</a>;</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c">start_health</a>       = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a963375e0503f2f80f21fa12935491751">warmup_start_health</a>       = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_health&quot;</span>);</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#abc0cbf2fbfbde8f4185ad29d8fb4bccc">start_armorvalue</a>   = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#af6809e3d242e489cae57b2d01d952e31">warmup_start_armorvalue</a>   = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_armor&quot;</span>);</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a32e9dc7397ed2efb16728c179619f055">start_ammo_shells</a>  = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3864dd00e6d914869ec70d29a30001a6">warmup_start_ammo_shells</a>  = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_shells&quot;</span>);</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#afa5b6b9b11e103384aea86a33686e3b5">start_ammo_nails</a>   = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a4fec95089b2ad5e082110cce0cf1c675">warmup_start_ammo_nails</a>   = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_nails&quot;</span>);</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#aa6cd6a7f0551ed5aaa6edcf165bb57ce">start_ammo_rockets</a> = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a34150498ceb2cfaa7494e6edbbddba51">warmup_start_ammo_rockets</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_rockets&quot;</span>);</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a86850d40c80e49615e642ecadbac799a">start_ammo_cells</a>   = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a281a1d8106f02c4e9aa8208da1747e1b">warmup_start_ammo_cells</a>   = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_cells&quot;</span>);</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a45de322f5684f06494c7386de6c06da0">start_ammo_plasma</a>  = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a8c9367e376b1fe800979f7f3c3460a5f">warmup_start_ammo_plasma</a>  = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_plasma&quot;</span>);</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3c72b53854b08604a60086ad28dca2fb">start_ammo_fuel</a>    = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ad191ebfe2ae9f209e0284fdf4c5e520f">warmup_start_ammo_fuel</a>    = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_fuel&quot;</span>);</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_ae84d9f519729f73eb438f6bf342bed2c"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c">start_health</a></div><div class="ttdeci">float start_health</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00223">miscfunctions.qh:223</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a963375e0503f2f80f21fa12935491751"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a963375e0503f2f80f21fa12935491751">warmup_start_health</a></div><div class="ttdeci">float warmup_start_health</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00235">miscfunctions.qh:235</a></div></div>
@@ -1460,11 +1481,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a4fec95089b2ad5e082110cce0cf1c675"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a4fec95089b2ad5e082110cce0cf1c675">warmup_start_ammo_nails</a></div><div class="ttdeci">float warmup_start_ammo_nails</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00230">miscfunctions.qh:230</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a3c72b53854b08604a60086ad28dca2fb"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a3c72b53854b08604a60086ad28dca2fb">start_ammo_fuel</a></div><div class="ttdeci">float start_ammo_fuel</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00222">miscfunctions.qh:222</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-23-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-23-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-23-content" class="dyncontent" style="display:none;">
+<div id="dynsection-24-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_ad8e642ba2d775126476b045f74c1eec0_cgraph.svg" width="312" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1496,37 +1517,37 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00314">314</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00321">321</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../db/d07/teams_8qh_source.html#l00177">SAME_TEAM</a>.</p>
-<div class="fragment"><div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;{</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_attacker = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;    <span class="keywordtype">float</span> frag_deathtype = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(3, <span class="keywordtype">float</span>);</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <span class="keywordtype">float</span> frag_damage = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(4, <span class="keywordtype">float</span>);</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="keywordtype">float</span> frag_mirrordamage = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(5, <span class="keywordtype">float</span>);</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(frag_target))</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(frag_target))</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <span class="keywordflow">if</span> (frag_target == frag_attacker || <a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(frag_target, frag_attacker) || frag_deathtype == DEATH_FALL.m_id)</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        frag_damage = 0;</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    frag_mirrordamage = 0;</div>
+<div class="fragment"><div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;{</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_attacker = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;    <span class="keywordtype">float</span> frag_deathtype = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(3, <span class="keywordtype">float</span>);</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;    <span class="keywordtype">float</span> frag_damage = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(4, <span class="keywordtype">float</span>);</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;    <span class="keywordtype">float</span> frag_mirrordamage = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(5, <span class="keywordtype">float</span>);</div>
 <div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(4, <span class="keywordtype">float</span>) = frag_damage;</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(5, <span class="keywordtype">float</span>) = frag_mirrordamage;</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;}</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(frag_target))</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(frag_target))</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;    <span class="keywordflow">if</span> (frag_target == frag_attacker || <a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(frag_target, frag_attacker) || frag_deathtype == DEATH_FALL.m_id)</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        frag_damage = 0;</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;    frag_mirrordamage = 0;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(4, <span class="keywordtype">float</span>) = frag_damage;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(5, <span class="keywordtype">float</span>) = frag_mirrordamage;</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="teams_8qh_html_a20256da9a327868240f1e864e6051ad4"><div class="ttname"><a href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a></div><div class="ttdeci">#define SAME_TEAM(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00177">teams.qh:177</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-24" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-24-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-24-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-24-content" class="dyncontent" style="display:none;">
+<div id="dynsection-25-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_aa28dfc9db6244b7126ac4c2b6e06c544_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1558,30 +1579,30 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00333">333</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00340">340</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00188">autocvar_g_pickup_items</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00192">autocvar_g_powerups</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/de7/server_2constants_8qh_source.html#l00004">FL_POWERUP</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;{</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a776a92402884c6d5200afa82479528f3">autocvar_g_powerups</a> &lt;= 0)</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <span class="keywordflow">if</span> (item.flags &amp; <a class="code" href="../../d9/de7/server_2constants_8qh.html#a95a618e2261242b570b19cf5a54b84fd">FL_POWERUP</a>)</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a1c09a2abd5202dd36b8a4c5d5f5388ff">autocvar_g_pickup_items</a> &lt;= 0)</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;{</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> item = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a776a92402884c6d5200afa82479528f3">autocvar_g_powerups</a> &lt;= 0)</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;    <span class="keywordflow">if</span> (item.flags &amp; <a class="code" href="../../d9/de7/server_2constants_8qh.html#a95a618e2261242b570b19cf5a54b84fd">FL_POWERUP</a>)</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a1c09a2abd5202dd36b8a4c5d5f5388ff">autocvar_g_pickup_items</a> &lt;= 0)</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;}</div>
 <div class="ttc" id="server_2autocvars_8qh_html_a776a92402884c6d5200afa82479528f3"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a776a92402884c6d5200afa82479528f3">autocvar_g_powerups</a></div><div class="ttdeci">int autocvar_g_powerups</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00192">autocvars.qh:192</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a1c09a2abd5202dd36b8a4c5d5f5388ff"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a1c09a2abd5202dd36b8a4c5d5f5388ff">autocvar_g_pickup_items</a></div><div class="ttdeci">int autocvar_g_pickup_items</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00188">autocvars.qh:188</a></div></div>
 <div class="ttc" id="server_2constants_8qh_html_a95a618e2261242b570b19cf5a54b84fd"><div class="ttname"><a href="../../d9/de7/server_2constants_8qh.html#a95a618e2261242b570b19cf5a54b84fd">FL_POWERUP</a></div><div class="ttdeci">const int FL_POWERUP</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de7/server_2constants_8qh_source.html#l00004">constants.qh:4</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-25" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-25-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-25-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-25-content" class="dyncontent" style="display:none;">
+<div id="dynsection-26-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_a460a5eb6335bdd644c8d732081d3e8dd_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1613,21 +1634,21 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00345">345</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00352">352</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00003">autocvar_g_ca_damage2score_multiplier</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max()</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00347">PlayerTeamScore_Add()</a>, and <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00231">ST_SCORE</a>.</p>
-<div class="fragment"><div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;{</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_attacker = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    <span class="keywordtype">float</span> frag_damage = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(7, <span class="keywordtype">float</span>);</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    <span class="keywordtype">float</span> damage_take = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(4, <span class="keywordtype">float</span>);</div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    <span class="keywordtype">float</span> damage_save = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(5, <span class="keywordtype">float</span>);</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="keywordtype">float</span> excess = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, frag_damage - damage_take - damage_save);</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <span class="keywordflow">if</span> (frag_target != frag_attacker &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(frag_attacker))</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        <a class="code" href="../../d2/d79/scores_8qc.html#a95c06d8a35e1db6d343a7c883241444c">PlayerTeamScore_Add</a>(frag_attacker, SP_SCORE, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a8282504222d03bb68483776381c31a5a">ST_SCORE</a>, (frag_damage - excess) * <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#ad975355c5fb8c137be07cbbe2741c7d0">autocvar_g_ca_damage2score_multiplier</a>);</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;{</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_attacker = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordtype">float</span> frag_damage = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(7, <span class="keywordtype">float</span>);</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordtype">float</span> damage_take = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(4, <span class="keywordtype">float</span>);</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    <span class="keywordtype">float</span> damage_save = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(5, <span class="keywordtype">float</span>);</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    <span class="keywordtype">float</span> excess = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(0, frag_damage - damage_take - damage_save);</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;</div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordflow">if</span> (frag_target != frag_attacker &amp;&amp; <a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(frag_attacker))</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;        <a class="code" href="../../d2/d79/scores_8qc.html#a95c06d8a35e1db6d343a7c883241444c">PlayerTeamScore_Add</a>(frag_attacker, SP_SCORE, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a8282504222d03bb68483776381c31a5a">ST_SCORE</a>, (frag_damage - excess) * <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#ad975355c5fb8c137be07cbbe2741c7d0">autocvar_g_ca_damage2score_multiplier</a>);</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="common_2constants_8qh_html_a8282504222d03bb68483776381c31a5a"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a8282504222d03bb68483776381c31a5a">ST_SCORE</a></div><div class="ttdeci">const int ST_SCORE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00231">constants.qh:231</a></div></div>
@@ -1636,11 +1657,11 @@ Variables</h2></td></tr>
 <div class="ttc" id="scores_8qc_html_a95c06d8a35e1db6d343a7c883241444c"><div class="ttname"><a href="../../d2/d79/scores_8qc.html#a95c06d8a35e1db6d343a7c883241444c">PlayerTeamScore_Add</a></div><div class="ttdeci">float PlayerTeamScore_Add(entity player, PlayerScoreField pscorefield, float tscorefield, float score)</div><div class="ttdoc">Adds a score to both the player and the team. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d79/scores_8qc_source.html#l00347">scores.qc:347</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-26" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-26-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-26-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-26-content" class="dyncontent" style="display:none;">
+<div id="dynsection-27-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_a7c59d0476162aac4db1d921f44c103d3_cgraph.svg" width="100%" height="461"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -1672,11 +1693,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00359">359</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;{</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;    <span class="comment">// no regeneration in CA</span></div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00366">366</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;{</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="comment">// no regeneration in CA</span></div>
+<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1704,11 +1725,11 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00365">365</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
-<div class="fragment"><div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;{</div>
-<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;    <span class="comment">// announce remaining frags</span></div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;}</div>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00372">372</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;{</div>
+<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    <span class="comment">// announce remaining frags</span></div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1736,27 +1757,27 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00371">371</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00378">378</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00004">autocvar_g_ca_spectate_enemies</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00178">DIFF_TEAM</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;{</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;</div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a> &amp;&amp; client.caplayer)</div>
-<div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(targ, client))</div>
-<div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;{</div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a> &amp;&amp; client.caplayer)</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(targ, client))</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="teams_8qh_html_ab3cad6bbbe99c12c662ec0c90e30095b"><div class="ttname"><a href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a></div><div class="ttdeci">#define DIFF_TEAM(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00178">teams.qh:178</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="gamemode__ca_8qc_html_a48f46043ca7339670815fd1fbb1f6711"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a></div><div class="ttdeci">bool autocvar_g_ca_spectate_enemies</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00004">gamemode_ca.qc:4</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-27" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-27-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-27-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-27-content" class="dyncontent" style="display:none;">
+<div id="dynsection-28-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_a0492a20050a72a4530f1ddf7da1c030d_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1788,29 +1809,29 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00381">381</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00388">388</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00004">autocvar_g_ca_spectate_enemies</a>, <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00143">CA_SpectateNext()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;{</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a> &amp;&amp; client.caplayer)</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    {</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;        <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>) = <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a7fa79dd40d067b1966cc3fe622b6b6f8">CA_SpectateNext</a>(client, targ);</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    }</div>
-<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;{</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a> &amp;&amp; client.caplayer)</div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    {</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;        <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>) = <a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a7fa79dd40d067b1966cc3fe622b6b6f8">CA_SpectateNext</a>(client, targ);</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    }</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="gamemode__ca_8qc_html_a7fa79dd40d067b1966cc3fe622b6b6f8"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#a7fa79dd40d067b1966cc3fe622b6b6f8">CA_SpectateNext</a></div><div class="ttdeci">entity CA_SpectateNext(entity player, entity start)</div><div class="ttdoc">Returns next available player to spectate if g_ca_spectate_enemies == 0. </div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00143">gamemode_ca.qc:143</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="gamemode__ca_8qc_html_a48f46043ca7339670815fd1fbb1f6711"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a></div><div class="ttdeci">bool autocvar_g_ca_spectate_enemies</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00004">gamemode_ca.qc:4</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-28" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-28-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-28-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-28-content" class="dyncontent" style="display:none;">
+<div id="dynsection-29-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_a25ac49cf19797d8a0d8133617f0ff1e2_cgraph.svg" width="496" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1842,44 +1863,44 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00393">393</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00400">400</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
-<p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00004">autocvar_g_ca_spectate_enemies</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00178">DIFF_TEAM</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00718">MUT_SPECPREV_FOUND</a>, and <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00717">MUT_SPECPREV_RETURN</a>.</p>
-<div class="fragment"><div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;{</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> first = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a> &amp;&amp; client.caplayer)</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    {</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        <span class="keywordflow">do</span> { targ = targ.chain; }</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;        <span class="keywordflow">while</span>(targ &amp;&amp; <a class="code" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(targ, client));</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;        <span class="keywordflow">if</span> (!targ)</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        {</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;            <span class="keywordflow">for</span> (targ = first; targ &amp;&amp; <a class="code" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(targ, client); targ = targ.chain);</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;            <span class="keywordflow">if</span> (targ == client.enemy)</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a61dadd085c1777f559549e05962b2c9ea0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a>;</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        }</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    }</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>) = targ;</div>
+<p>References <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00004">autocvar_g_ca_spectate_enemies</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00178">DIFF_TEAM</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00726">MUT_SPECPREV_FOUND</a>, and <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00725">MUT_SPECPREV_RETURN</a>.</p>
+<div class="fragment"><div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;{</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> client = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> first = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a> &amp;&amp; client.caplayer)</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    {</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;        <span class="keywordflow">do</span> { targ = targ.chain; }</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        <span class="keywordflow">while</span>(targ &amp;&amp; <a class="code" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(targ, client));</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;        <span class="keywordflow">if</span> (!targ)</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;        {</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;            <span class="keywordflow">for</span> (targ = first; targ &amp;&amp; <a class="code" href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a>(targ, client); targ = targ.chain);</div>
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a61dadd085c1777f559549e05962b2c9eadbb1898d9ed2292ba439603e3ecb0d78">MUT_SPECPREV_FOUND</a>;</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;}</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;            <span class="keywordflow">if</span> (targ == client.enemy)</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a61dadd085c1777f559549e05962b2c9ea0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a>;</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        }</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    }</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>) = targ;</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a61dadd085c1777f559549e05962b2c9eadbb1898d9ed2292ba439603e3ecb0d78">MUT_SPECPREV_FOUND</a>;</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="teams_8qh_html_ab3cad6bbbe99c12c662ec0c90e30095b"><div class="ttname"><a href="../../db/d07/teams_8qh.html#ab3cad6bbbe99c12c662ec0c90e30095b">DIFF_TEAM</a></div><div class="ttdeci">#define DIFF_TEAM(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d07/teams_8qh_source.html#l00178">teams.qh:178</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a61dadd085c1777f559549e05962b2c9ea0b818567cf927d275b053840c0f01fb6"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a61dadd085c1777f559549e05962b2c9ea0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00717">events.qh:717</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a61dadd085c1777f559549e05962b2c9eadbb1898d9ed2292ba439603e3ecb0d78"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a61dadd085c1777f559549e05962b2c9eadbb1898d9ed2292ba439603e3ecb0d78">MUT_SPECPREV_FOUND</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00718">events.qh:718</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_a61dadd085c1777f559549e05962b2c9ea0b818567cf927d275b053840c0f01fb6"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a61dadd085c1777f559549e05962b2c9ea0b818567cf927d275b053840c0f01fb6">MUT_SPECPREV_RETURN</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00725">events.qh:725</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_a61dadd085c1777f559549e05962b2c9eadbb1898d9ed2292ba439603e3ecb0d78"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a61dadd085c1777f559549e05962b2c9eadbb1898d9ed2292ba439603e3ecb0d78">MUT_SPECPREV_FOUND</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00726">events.qh:726</a></div></div>
 <div class="ttc" id="gamemode__ca_8qc_html_a48f46043ca7339670815fd1fbb1f6711"><div class="ttname"><a href="../../dc/da9/gamemode__ca_8qc.html#a48f46043ca7339670815fd1fbb1f6711">autocvar_g_ca_spectate_enemies</a></div><div class="ttdeci">bool autocvar_g_ca_spectate_enemies</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/da9/gamemode__ca_8qc_source.html#l00004">gamemode_ca.qc:4</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-29" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-29-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-29-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-29-content" class="dyncontent" style="display:none;">
+<div id="dynsection-30-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_a341c18c2939d45f705c9aa31abc7e02c_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1917,17 +1938,17 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00418">418</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00425">425</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00017">IS_REAL_CLIENT</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;{</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), {</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) || it.caplayer == 1)</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;            ++<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;        ++<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <span class="keywordtype">int</span>);</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    });</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;{</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it), {</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) || it.caplayer == 1)</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;            ++<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;        ++<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    });</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
@@ -1959,35 +1980,35 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00428">428</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00435">435</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00325">autocvar_sv_spectate</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00011">IS_OBSERVER</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00010">IS_SPEC</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00736">MUT_SPECCMD_CONTINUE</a>, and <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00738">MUT_SPECCMD_FORCE</a>.</p>
-<div class="fragment"><div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;{</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    <span class="keywordflow">if</span> (player.caplayer)</div>
-<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;    {</div>
-<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;        <span class="comment">// they&#39;re going to spec, we can do other checks</span></div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a4582f43ca3fd1deed36d5de154683148">autocvar_sv_spectate</a> &amp;&amp; (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a>(player) || <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a14e7b447f7917f8ac7e0198ee25b2bc2">IS_OBSERVER</a>(player)))</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;            Send_Notification(NOTIF_ONE_ONLY, player, MSG_INFO, INFO_CA_LEAVE);</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a6bdf812d9a913a38cdb3aaebad56c89a">MUT_SPECCMD_FORCE</a>;</div>
-<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;    }</div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;</div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a8168d5d80f0fe8ae36ce88761b83f3b9">MUT_SPECCMD_CONTINUE</a>;</div>
-<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;}</div>
+<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00325">autocvar_sv_spectate</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00011">IS_OBSERVER</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00010">IS_SPEC</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00744">MUT_SPECCMD_CONTINUE</a>, and <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00746">MUT_SPECCMD_FORCE</a>.</p>
+<div class="fragment"><div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;{</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    <span class="keywordflow">if</span> (player.caplayer)</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    {</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;        <span class="comment">// they&#39;re going to spec, we can do other checks</span></div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a4582f43ca3fd1deed36d5de154683148">autocvar_sv_spectate</a> &amp;&amp; (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a>(player) || <a class="code" href="../../d9/ddc/server_2__all_8qh.html#a14e7b447f7917f8ac7e0198ee25b2bc2">IS_OBSERVER</a>(player)))</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;            Send_Notification(NOTIF_ONE_ONLY, player, MSG_INFO, INFO_CA_LEAVE);</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a6bdf812d9a913a38cdb3aaebad56c89a">MUT_SPECCMD_FORCE</a>;</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    }</div>
+<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a8168d5d80f0fe8ae36ce88761b83f3b9">MUT_SPECCMD_CONTINUE</a>;</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;}</div>
 <div class="ttc" id="server_2autocvars_8qh_html_a4582f43ca3fd1deed36d5de154683148"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a4582f43ca3fd1deed36d5de154683148">autocvar_sv_spectate</a></div><div class="ttdeci">int autocvar_sv_spectate</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00325">autocvars.qh:325</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_a14e7b447f7917f8ac7e0198ee25b2bc2"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#a14e7b447f7917f8ac7e0198ee25b2bc2">IS_OBSERVER</a></div><div class="ttdeci">#define IS_OBSERVER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00011">_all.qh:11</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a726ca809ffd3d67ab4b8476646f26635a8168d5d80f0fe8ae36ce88761b83f3b9"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a8168d5d80f0fe8ae36ce88761b83f3b9">MUT_SPECCMD_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00736">events.qh:736</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_a726ca809ffd3d67ab4b8476646f26635a8168d5d80f0fe8ae36ce88761b83f3b9"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a8168d5d80f0fe8ae36ce88761b83f3b9">MUT_SPECCMD_CONTINUE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00744">events.qh:744</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_a267d55f1e2caab1f644733587acbc378"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#a267d55f1e2caab1f644733587acbc378">IS_SPEC</a></div><div class="ttdeci">#define IS_SPEC(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00010">_all.qh:10</a></div></div>
-<div class="ttc" id="server_2mutators_2events_8qh_html_a726ca809ffd3d67ab4b8476646f26635a6bdf812d9a913a38cdb3aaebad56c89a"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a6bdf812d9a913a38cdb3aaebad56c89a">MUT_SPECCMD_FORCE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00738">events.qh:738</a></div></div>
+<div class="ttc" id="server_2mutators_2events_8qh_html_a726ca809ffd3d67ab4b8476646f26635a6bdf812d9a913a38cdb3aaebad56c89a"><div class="ttname"><a href="../../d6/ddd/server_2mutators_2events_8qh.html#a726ca809ffd3d67ab4b8476646f26635a6bdf812d9a913a38cdb3aaebad56c89a">MUT_SPECCMD_FORCE</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00746">events.qh:746</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-30" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-30-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-30-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-30-content" class="dyncontent" style="display:none;">
+<div id="dynsection-31-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_a22cac621876382946392419c63ede0bf_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2019,12 +2040,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00443">443</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00450">450</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;{</div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <span class="keywordtype">bool</span>) = <span class="keyword">true</span>; <span class="comment">// all weapons</span></div>
-<div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;{</div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <span class="keywordtype">bool</span>) = <span class="keyword">true</span>; <span class="comment">// all weapons</span></div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;}</div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -2053,22 +2074,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00448">448</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00455">455</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;{</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    <span class="keywordflow">return</span> player.caplayer == 1;</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;{</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <span class="keywordflow">return</span> player.caplayer == 1;</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-31" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-31-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-31-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-31-content" class="dyncontent" style="display:none;">
+<div id="dynsection-32-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_a26d65c5d5e9c15c4e38bd2347ca6eccc_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2100,13 +2121,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00455">455</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00462">462</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;{</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    <span class="comment">// most weapons arena</span></div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;0&quot;</span> || <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;&quot;</span>) <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <span class="stringliteral">&quot;most&quot;</span>;</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;{</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;    <span class="comment">// most weapons arena</span></div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;0&quot;</span> || <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;&quot;</span>) <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <span class="stringliteral">&quot;most&quot;</span>;</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;}</div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -2127,11 +2148,11 @@ Variables</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00055">CA_CheckWinner()</a>.</p>
 
-<p><div id="dynsection-32" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-32-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-32-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-33" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-33-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-33-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-32-content" class="dyncontent" style="display:none;">
+<div id="dynsection-33-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/da9/gamemode__ca_8qc_a515ca2e64da8af7b2b59470a6697db65_icgraph.svg" width="496" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -2152,7 +2173,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00003">3</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00345">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00352">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -2168,7 +2189,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00004">4</a> of file <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html">gamemode_ca.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00371">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../dc/da9/gamemode__ca_8qc_source.html#l00378">MUTATOR_HOOKFUNCTION()</a>.</p>
 
 </div>
 </div>
@@ -2178,7 +2199,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../dc/da9/gamemode__ca_8qc.html">gamemode_ca.qc</a></li>
-    <li class="footer">Generated on Sat Sep 3 2016 19:02:22 for Xonotic by
+    <li class="footer">Generated on Tue Sep 6 2016 09:17:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
