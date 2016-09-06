@@ -10,6 +10,7 @@ var menu_2xonotic_2util_8qh =
     [ "GameType_GetIcon", "df/d97/menu_2xonotic_2util_8qh.html#a8eb356644d69441dba461bca0bb3ab9e", null ],
     [ "GameType_GetID", "df/d97/menu_2xonotic_2util_8qh.html#ac6c520fee2821354ba05f7742fb8406a", null ],
     [ "GameType_GetName", "df/d97/menu_2xonotic_2util_8qh.html#a725ecdf92e06cd25767619de5dca391d", null ],
+    [ "GameType_GetTotalCount", "df/d97/menu_2xonotic_2util_8qh.html#a517b27749d96f207b1041606cc2f5fd4", null ],
     [ "getCvarsMulti", "df/d97/menu_2xonotic_2util_8qh.html#a8ec8f4772028effaca28ae7b1fd6fc90", null ],
     [ "getFadedAlpha", "df/d97/menu_2xonotic_2util_8qh.html#ab82c9c370db86ec43c7e9ef75a7fff6c", null ],
     [ "GL_CheckExtension", "df/d97/menu_2xonotic_2util_8qh.html#a6b30e54c431ef41c6bca8ad5930e6670", null ],

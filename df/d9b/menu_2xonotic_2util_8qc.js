@@ -2,7 +2,10 @@ var menu_2xonotic_2util_8qc =
 [
     [ "GAMETYPE", "df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb", null ],
     [ "GAMETYPE", "df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a", null ],
+    [ "GAMETYPE", "df/d9b/menu_2xonotic_2util_8qc.html#a9ec6ea7efcd66f0d5031d001a132b0cb", null ],
+    [ "GAMETYPE", "df/d9b/menu_2xonotic_2util_8qc.html#ad3ffa7817b6a89da410b8dc940eb7e1a", null ],
     [ "GAMETYPES", "df/d9b/menu_2xonotic_2util_8qc.html#a31610cece5e7eefa4bd93e2a89fe9001", null ],
+    [ "HIDDEN_GAMETYPES", "df/d9b/menu_2xonotic_2util_8qc.html#ad18fa120b3ff7def2f7c47a178855468", null ],
     [ "CheckSendCvars", "df/d9b/menu_2xonotic_2util_8qc.html#ab1a12c6efcea09204c8c4461ca36efff", null ],
     [ "clearTooltip", "df/d9b/menu_2xonotic_2util_8qc.html#ad765c653d11adeb645af29a3beb33556", null ],
     [ "dialog_hudpanel_common_notoggle", "df/d9b/menu_2xonotic_2util_8qc.html#a9067be9a9e9972655717d9552a0f2af9", null ],
@@ -14,6 +17,7 @@ var menu_2xonotic_2util_8qc =
     [ "GameType_GetIcon", "df/d9b/menu_2xonotic_2util_8qc.html#a8eb356644d69441dba461bca0bb3ab9e", null ],
     [ "GameType_GetID", "df/d9b/menu_2xonotic_2util_8qc.html#a0146272636324af38d85f06953d0ab19", null ],
     [ "GameType_GetName", "df/d9b/menu_2xonotic_2util_8qc.html#a725ecdf92e06cd25767619de5dca391d", null ],
+    [ "GameType_GetTotalCount", "df/d9b/menu_2xonotic_2util_8qc.html#a517b27749d96f207b1041606cc2f5fd4", null ],
     [ "getCvarsMulti", "df/d9b/menu_2xonotic_2util_8qc.html#a8ec8f4772028effaca28ae7b1fd6fc90", null ],
     [ "getFadedAlpha", "df/d9b/menu_2xonotic_2util_8qc.html#ab82c9c370db86ec43c7e9ef75a7fff6c", null ],
     [ "GL_CheckExtension", "df/d9b/menu_2xonotic_2util_8qc.html#a6b30e54c431ef41c6bca8ad5930e6670", null ],
