@@ -1,7 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"db/d7f/effectinfo_8inc.html#a6a6fc01924af22aab8692e0726ac22c8":[2,0,1,2,7,366],
-"db/d7f/effectinfo_8inc.html#a6aaa685b964c5143a1ab182d66785c49":[2,0,1,2,7,101],
 "db/d7f/effectinfo_8inc.html#a6ba018328b399a6ecb78769e405bb64b":[2,0,1,2,7,295],
 "db/d7f/effectinfo_8inc.html#a6d378f5d6a519f186bc581785a385042":[2,0,1,2,7,218],
 "db/d7f/effectinfo_8inc.html#a6d3f1d1770b6ca080a6033aebb58abf4":[2,0,1,2,7,279],
@@ -249,5 +247,7 @@ var NAVTREEINDEX98 =
 "db/d83/vehicles_2all_8qh.html":[2,0,1,15,6],
 "db/d83/vehicles_2all_8qh.html#a0f88c632289b79fbf9690fbdbbf780a4":[2,0,1,15,6,2],
 "db/d83/vehicles_2all_8qh.html#a5ef00da087d222982ad759b7d833bf2a":[2,0,1,15,6,0],
-"db/d83/vehicles_2all_8qh.html#a843f91db6cb5c1a06a4229c8458972fd":[2,0,1,15,6,4]
+"db/d83/vehicles_2all_8qh.html#a843f91db6cb5c1a06a4229c8458972fd":[2,0,1,15,6,4],
+"db/d83/vehicles_2all_8qh.html#aba69863fdadd40453198f72acc1ef4ca":[2,0,1,15,6,1],
+"db/d83/vehicles_2all_8qh.html#ad7b767b681081740ab1ad4b2e2cb613c":[2,0,1,15,6,3]
 };

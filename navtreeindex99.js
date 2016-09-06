@@ -1,7 +1,5 @@
 var NAVTREEINDEX99 =
 {
-"db/d83/vehicles_2all_8qh.html#aba69863fdadd40453198f72acc1ef4ca":[2,0,1,15,6,1],
-"db/d83/vehicles_2all_8qh.html#ad7b767b681081740ab1ad4b2e2cb613c":[2,0,1,15,6,3],
 "db/d83/vehicles_2all_8qh_source.html":[2,0,1,15,6],
 "db/d84/stardust_8qh.html":[2,0,1,13,0,33],
 "db/d84/stardust_8qh_source.html":[2,0,1,13,0,33],
@@ -249,5 +247,7 @@ var NAVTREEINDEX99 =
 "db/db1/classXonoticHUDRaceTimerDialog.html#af9ed10146aeca307fa96027ecb5d8852":[1,0,188,68],
 "db/db1/classXonoticHUDRaceTimerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,188,37],
 "db/db1/classXonoticHUDRaceTimerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,188,41],
-"db/db1/classXonoticHUDRaceTimerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,188,85]
+"db/db1/classXonoticHUDRaceTimerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,188,85],
+"db/db1/classXonoticHUDRaceTimerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,188,8],
+"db/db4/classTextSlider.html":[1,0,126]
 };

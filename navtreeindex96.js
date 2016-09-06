@@ -1,7 +1,5 @@
 var NAVTREEINDEX96 =
 {
-"db/d59/classXonoticPlayList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,216,24],
-"db/d59/classXonoticPlayList.html#afa2fda0688ef3dfdc143963a9366a71b":[1,0,216,53],
 "db/d59/classXonoticPlayList.html#afdcf1fb79903f747cda494b27206526b":[1,0,216,2],
 "db/d5a/classXonoticHUDPowerupsDialog.html":[1,0,185],
 "db/d5a/classXonoticHUDPowerupsDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,185,32],
@@ -249,5 +247,7 @@ var NAVTREEINDEX96 =
 "db/d63/classXonoticColorpicker.html#afc9428d371ed63dd0316db5558e81d30":[1,0,148,39],
 "db/d63/classXonoticColorpicker.html#afdcf1fb79903f747cda494b27206526b":[1,0,148,3],
 "db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc.html":[2,0,1,9,0,31,0],
-"db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc_source.html":[2,0,1,9,0,31,0]
+"db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc_source.html":[2,0,1,9,0,31,0],
+"db/d73/campaign__setup_8qc.html":[2,0,1,27],
+"db/d73/campaign__setup_8qc.html#aaa64dc89313bcf520b231ef1f80bee48":[2,0,1,27,0]
 };
