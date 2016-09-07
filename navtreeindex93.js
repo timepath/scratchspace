@@ -1,6 +1,5 @@
 var NAVTREEINDEX93 =
 {
-"db/d11/classBumblebee.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,10,0],
 "db/d11/classBumblebee.html#afc7d7ad9b88461bdf5d8a182847ba11d":[1,0,10,29],
 "db/d12/common_2effects_2qc_2__mod_8inc.html":[2,0,1,2,0,0],
 "db/d12/common_2effects_2qc_2__mod_8inc_source.html":[2,0,1,2,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX93 =
 "db/d29/classXonoticRegisteredSettingsList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,220,63],
 "db/d29/classXonoticRegisteredSettingsList.html#a565f8d33b46815606f1860162d71339a":[1,0,220,27],
 "db/d29/classXonoticRegisteredSettingsList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,220,12],
-"db/d29/classXonoticRegisteredSettingsList.html#a5ba34a106025be4faae9dff6ae9e763d":[1,0,220,74]
+"db/d29/classXonoticRegisteredSettingsList.html#a5ba34a106025be4faae9dff6ae9e763d":[1,0,220,74],
+"db/d29/classXonoticRegisteredSettingsList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,220,22]
 };

@@ -1,6 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"dc/d3d/container_8qc.html#adb7d6b268475a9b0d9cbd2e7823e7fbc":[2,0,5,2,8,5],
 "dc/d3d/container_8qc.html#adc93ab2bc5f25bdc8eefb6dd4f6b2270":[2,0,5,2,8,24],
 "dc/d3d/container_8qc.html#ae4bad6802b9c1482d78e5c166e7e3add":[2,0,5,2,8,9],
 "dc/d3d/container_8qc.html#aeb61dbefd999daae23915818c75f17fa":[2,0,5,2,8,16],
@@ -249,5 +248,6 @@ var NAVTREEINDEX105 =
 "dc/d62/playerdemo_8qc_source.html":[2,0,6,48],
 "dc/d69/weapon_8qc.html":[2,0,1,3,0,0,4],
 "dc/d69/weapon_8qc_source.html":[2,0,1,3,0,0,4],
-"dc/d6c/classElectro.html":[1,0,32]
+"dc/d6c/classElectro.html":[1,0,32],
+"dc/d6c/classElectro.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,32,19]
 };
