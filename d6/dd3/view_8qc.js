@@ -31,7 +31,6 @@ var view_8qc =
     [ "leanmodel_ofs", "d6/dd3/view_8qc.html#ac864cc822088f051704ed70a2f89224a", null ],
     [ "Porto_Draw", "d6/dd3/view_8qc.html#a4fe9505f7e0a1f7a3179aab307ce75c2", null ],
     [ "PostInit", "d6/dd3/view_8qc.html#a46ab77a8e6731f82b57ed43c3fe5eeea", null ],
-    [ "Scoreboard_WouldDraw", "d6/dd3/view_8qc.html#a537006916502a6eb48c5e9c2bdd91a25", null ],
     [ "STATIC_INIT", "d6/dd3/view_8qc.html#aad138647b7b080e01f58c54f03749d2a", null ],
     [ "STATIC_INIT", "d6/dd3/view_8qc.html#afb99b54101eefd6e50142f259eb5456d", null ],
     [ "TrueAim_Init", "d6/dd3/view_8qc.html#a468fbc523e176ec4adf829a18606b5f6", null ],

@@ -41,7 +41,7 @@ var searchData=
   ['scheduledrespawntime',['scheduledrespawntime',['../d5/d26/server_2defs_8qh.html#aa00e400d1ae9e5f5eb61c16a340a084b',1,'defs.qh']]],
   ['score',['score',['../d3/d05/hud_8qh.html#acb01d1b87c477a5435bec969d9e43d1c',1,'hud.qh']]],
   ['score_5fdummyfield',['score_dummyfield',['../d2/d79/scores_8qc.html#a8e807c4df57178861998ce12ab265fe7',1,'scores.qc']]],
-  ['scoreboard_5factive',['scoreboard_active',['../d4/d2b/scoreboard_8qh.html#aca2d065f1b6a15ae45712fdfbf3cacde',1,'scoreboard.qh']]],
+  ['scoreboard_5factive',['scoreboard_active',['../d4/d2b/scoreboard_8qh.html#a9e07478dc906c451cdaf11df6a458786',1,'scoreboard.qh']]],
   ['scoreboard_5fbottom',['scoreboard_bottom',['../d3/d05/hud_8qh.html#ad53d36ceae0de8723447c0b440bf358f',1,'hud.qh']]],
   ['scoreboard_5ffade_5falpha',['scoreboard_fade_alpha',['../d4/d2b/scoreboard_8qh.html#aa6b8f97cefad819218cd7aef293559ea',1,'scoreboard.qh']]],
   ['scoreboard_5fpos',['scoreboard_pos',['../d3/dcd/scores_8qh.html#a0cf85aa93c9a2c5aa8f70c877d9d42dc',1,'scores.qh']]],

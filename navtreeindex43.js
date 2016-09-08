@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"d4/dd6/minelayer_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,22,1],
 "d4/dd6/minelayer_8qc.html#a4ea001ea7bc3c5f29f7c98be8b5b2bde":[2,0,1,16,0,22,2],
 "d4/dd6/minelayer_8qc_source.html":[2,0,1,16,0,22],
 "d4/dd7/movetypes_8qh.html":[2,0,1,11,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "d4/df9/sv__rocketflying_8qh.html":[2,0,1,9,0,24,3],
 "d4/df9/sv__rocketflying_8qh_source.html":[2,0,1,9,0,24,3],
 "d4/dfb/lib_2__all_8inc.html":[2,0,4,3],
-"d4/dfb/lib_2__all_8inc.html#a0286756d17c84fdf4ea3cbfb02afcccd":[2,0,4,3,19],
-"d4/dfb/lib_2__all_8inc.html#a046921b096faba016150b5e82bda924f":[2,0,4,3,6]
+"d4/dfb/lib_2__all_8inc.html#a0286756d17c84fdf4ea3cbfb02afcccd":[2,0,4,3,19]
 };

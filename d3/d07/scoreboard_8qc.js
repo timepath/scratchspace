@@ -23,7 +23,7 @@ var scoreboard_8qc =
     [ "Scoreboard_UpdatePlayerPos", "d3/d07/scoreboard_8qc.html#a5b15607a446ae96262cea7fdb2efc57d", null ],
     [ "Scoreboard_UpdatePlayerTeams", "d3/d07/scoreboard_8qc.html#a786ae1643fa32d62926c79d548105082", null ],
     [ "Scoreboard_UpdateTeamPos", "d3/d07/scoreboard_8qc.html#acbbc03b93a5e6007c8655e4bc66a1a38", null ],
-    [ "Scoreboard_WouldDraw", "d3/d07/scoreboard_8qc.html#a537006916502a6eb48c5e9c2bdd91a25", null ],
+    [ "Scoreboard_WouldDraw", "d3/d07/scoreboard_8qc.html#a18f2a8b645ab4cc7fc09a25e3a932757", null ],
     [ "SetTeam", "d3/d07/scoreboard_8qc.html#a95a7f9e58fa1b8d656428ebe5cdfa689", null ],
     [ "TranslateScoresLabel", "d3/d07/scoreboard_8qc.html#a85799dd1dce34699edbffd4e9500277a", null ],
     [ "autocvar_hud_fontsize", "d3/d07/scoreboard_8qc.html#a437e0aadde9f34dc17e06f6b2a4cb1e3", null ],

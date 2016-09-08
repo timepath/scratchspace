@@ -1,6 +1,5 @@
 var NAVTREEINDEX99 =
 {
-"db/d84/stardust_8qh_source.html":[2,0,1,13,0,33],
 "db/d8b/nmm_8qc.html":[2,0,1,6,0,7],
 "db/d8b/nmm_8qc.html#a029242ae74de359a88e724493a1af20e":[2,0,1,6,0,7,10],
 "db/d8b/nmm_8qc.html#a096523ae0e820f62b9c5224d5c668e0d":[2,0,1,6,0,7,25],
@@ -249,5 +248,6 @@ var NAVTREEINDEX99 =
 "db/db1/classXonoticHUDRaceTimerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,188,8],
 "db/db4/classTextSlider.html":[1,0,126],
 "db/db4/classTextSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,126,87],
-"db/db4/classTextSlider.html#a03b39828cfca5042da326cc07cc8f7b4":[1,0,126,58]
+"db/db4/classTextSlider.html#a03b39828cfca5042da326cc07cc8f7b4":[1,0,126,58],
+"db/db4/classTextSlider.html#a0532ad63a21ab0ee3d87bed20ce60394":[1,0,126,57]
 };

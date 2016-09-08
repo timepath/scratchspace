@@ -1,6 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"da/db8/pressedkeys_8qh_source.html":[2,0,0,1,0,25],
 "da/db9/common_2minigames_2minigame_2__mod_8qh.html":[2,0,1,6,0,1],
 "da/db9/common_2minigames_2minigame_2__mod_8qh_source.html":[2,0,1,6,0,1],
 "da/dbc/sv__globalforces_8qc.html":[2,0,1,9,0,9,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX91 =
 "da/ded/classSeeker.html#a6ef51387db20a968542626c5e2843b14":[1,0,110,32],
 "da/ded/classSeeker.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,110,2],
 "da/ded/classSeeker.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,110,26],
-"da/ded/classSeeker.html#a80fa9a65e19370473a29baebc04d0626":[1,0,110,4]
+"da/ded/classSeeker.html#a80fa9a65e19370473a29baebc04d0626":[1,0,110,4],
+"da/ded/classSeeker.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,110,6]
 };

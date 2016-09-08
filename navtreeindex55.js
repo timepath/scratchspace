@@ -1,5 +1,6 @@
 var NAVTREEINDEX55 =
 {
+"d6/d7d/classEWheel.html#af0d1789cf260770caa9002a133a661d7":[1,0,33,0],
 "d6/d7d/classEWheel.html#af262437347438c0a8b4216dce8c30f3a":[1,0,33,16],
 "d6/d7d/dialog__multiplayer__create__mutators_8qh.html":[2,0,5,4,93],
 "d6/d7d/dialog__multiplayer__create__mutators_8qh_source.html":[2,0,5,4,93],
@@ -28,7 +29,6 @@ var NAVTREEINDEX55 =
 "d6/d8f/ecs_2components_2__mod_8qh.html":[2,0,3,0,1],
 "d6/d8f/ecs_2components_2__mod_8qh_source.html":[2,0,3,0,1],
 "d6/d8f/score_8qc.html":[2,0,0,1,0,32],
-"d6/d8f/score_8qc.html#a786ae1643fa32d62926c79d548105082":[2,0,0,1,0,32,2],
 "d6/d8f/score_8qc.html#a8266d5d080761ce457b269fd0a6a22c1":[2,0,0,1,0,32,1],
 "d6/d8f/score_8qc.html#af299e2a5219b4b963a923527b78ed9a7":[2,0,0,1,0,32,0],
 "d6/d8f/score_8qc_source.html":[2,0,0,1,0,32],
