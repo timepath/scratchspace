@@ -1,6 +1,5 @@
 var NAVTREEINDEX92 =
 {
-"da/ded/classSeeker.html#a80fa9a65e19370473a29baebc04d0626":[1,0,110,4],
 "da/ded/classSeeker.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,110,6],
 "da/ded/classSeeker.html#a92563cdb776fe17baaecf31b617b0f3f":[1,0,110,29],
 "da/ded/classSeeker.html#aa2346884e39312c506a4dc501439286a":[1,0,110,24],
@@ -249,5 +248,6 @@ var NAVTREEINDEX92 =
 "db/d11/classBumblebee.html#af1e7a9d937de540345fea6c3f4058b0f":[1,0,10,31],
 "db/d11/classBumblebee.html#af6f42dcff19b7fb5b76462a7d5848b97":[1,0,10,11],
 "db/d11/classBumblebee.html#af7289e6ce9c0c39635159c491c7d622a":[1,0,10,17],
-"db/d11/classBumblebee.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,10,0]
+"db/d11/classBumblebee.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,10,0],
+"db/d11/classBumblebee.html#afc7d7ad9b88461bdf5d8a182847ba11d":[1,0,10,29]
 };

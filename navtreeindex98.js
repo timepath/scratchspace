@@ -1,6 +1,5 @@
 var NAVTREEINDEX98 =
 {
-"db/d7f/effectinfo_8inc.html#a6d378f5d6a519f186bc581785a385042":[2,0,1,2,7,218],
 "db/d7f/effectinfo_8inc.html#a6d3f1d1770b6ca080a6033aebb58abf4":[2,0,1,2,7,279],
 "db/d7f/effectinfo_8inc.html#a6d5eddd1d3ccd41e3266638f1d067f15":[2,0,1,2,7,348],
 "db/d7f/effectinfo_8inc.html#a6dd5d0d5a29257abaa2fdb418f0b760f":[2,0,1,2,7,271],
@@ -249,5 +248,6 @@ var NAVTREEINDEX98 =
 "db/d83/vehicles_2all_8qh.html#a843f91db6cb5c1a06a4229c8458972fd":[2,0,1,15,6,4],
 "db/d83/vehicles_2all_8qh.html#aba69863fdadd40453198f72acc1ef4ca":[2,0,1,15,6,1],
 "db/d83/vehicles_2all_8qh.html#ad7b767b681081740ab1ad4b2e2cb613c":[2,0,1,15,6,3],
-"db/d83/vehicles_2all_8qh_source.html":[2,0,1,15,6]
+"db/d83/vehicles_2all_8qh_source.html":[2,0,1,15,6],
+"db/d84/stardust_8qh.html":[2,0,1,13,0,33]
 };

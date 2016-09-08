@@ -1,6 +1,5 @@
 var NAVTREEINDEX106 =
 {
-"dc/d6c/classElectro.html#a214db91c3bc64f24e17c4c4bfb99999b":[1,0,32,31],
 "dc/d6c/classElectro.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,32,18],
 "dc/d6c/classElectro.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,32,16],
 "dc/d6c/classElectro.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,32,20],
@@ -249,5 +248,6 @@ var NAVTREEINDEX106 =
 "dc/d80/gamemode__domination_8qc_source.html":[2,0,6,2,0,12],
 "dc/d8b/hitplot_8qh.html":[2,0,6,4,9],
 "dc/d8b/hitplot_8qh.html#a0dec3059937cd4f1b051bffe2632a6a6":[2,0,6,4,9,3],
-"dc/d8b/hitplot_8qh.html#a1259adbf5d9e7d7fe5e34ccf5213b5c8":[2,0,6,4,9,0]
+"dc/d8b/hitplot_8qh.html#a1259adbf5d9e7d7fe5e34ccf5213b5c8":[2,0,6,4,9,0],
+"dc/d8b/hitplot_8qh.html#af89d7006f01671e454d80a1a1c5569cd":[2,0,6,4,9,2]
 };
