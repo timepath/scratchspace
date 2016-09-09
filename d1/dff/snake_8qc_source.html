@@ -782,168 +782,171 @@ $(document).ready(function(){initNavTree('d1/dff/snake_8qc_source.html','../../'
 <div class="line"><a name="l00675"></a><span class="lineno">  675</span>&#160;<span class="keywordtype">void</span> snake_hud_status(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> pos, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> mySize)</div>
 <div class="line"><a name="l00676"></a><span class="lineno">  676</span>&#160;{</div>
 <div class="line"><a name="l00677"></a><span class="lineno">  677</span>&#160;    <a class="code" href="../../d3/d05/hud_8qh.html#a9c748beadf89bffd404bd0fdc340f825">HUD_Panel_DrawBg</a>();</div>
-<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ts;</div>
-<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;    ts = <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a14e89872347ae0a8a8837044d3a4e843">minigame_drawstring_wrapped</a>(mySize_x,pos,<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>.descriptor.message,</div>
-<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;        <a class="code" href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a> * 2, <span class="stringliteral">&#39;0.25 0.47 0.72&#39;</span>, <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>,0.5);</div>
-<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;    ts_y += hud_fontsize_y;</div>
-<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;    pos_y += ts_y;</div>
-<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;    mySize_y -= ts_y;</div>
-<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;</div>
-<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> player_fontsize = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a> * 1.75;</div>
-<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    ts_y = ( mySize_y - <a class="code" href="../../d1/dff/snake_8qc.html#a9abb7fa040b3fefbf50305b5470044ae">SNAKE_TEAMS</a>*player_fontsize_y ) / <a class="code" href="../../d1/dff/snake_8qc.html#a9abb7fa040b3fefbf50305b5470044ae">SNAKE_TEAMS</a>;</div>
-<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;    ts_x = mySize_x;</div>
-<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> mypos;</div>
-<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;</div>
-<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
-<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;    <a class="code" href="../../de/d3d/cl__minigames_8qh.html#acb1eb2cf269d4b57f8d9a3350ef514f7">FOREACH_MINIGAME_ENTITY</a>(e)</div>
-<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;    {</div>
-<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;        <span class="keywordflow">if</span> ( e.classname == <span class="stringliteral">&quot;minigame_player&quot;</span> )</div>
-<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;        {</div>
-<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;            mypos = pos;</div>
-<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;            mypos_y  += (e.team-1) * (player_fontsize_y + ts_y);</div>
-<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;</div>
-<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#a189158f8c2db3797e9bb00cc53e80988">drawfill</a>(mypos, ts, snake_teamcolor(e.team), 0.25, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a465bbb3367ce5d2f9b2a44b199cea7ce">DRAWFLAG_ADDITIVE</a>);</div>
-<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;</div>
-<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;            <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a02caccc9afc8eec2f9c7ed6fc85eac95">minigame_drawcolorcodedstring_trunc</a>(mySize_x,mypos,</div>
-<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;                entcs_GetName(e.minigame_playerslot-1),</div>
-<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;                player_fontsize, <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
-<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;</div>
-<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ae8ecd1beaa4d05a475bf27bbf7e0868c">drawstring</a>(mypos+<a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a>*player_fontsize_y,<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(e.snake_score),<span class="stringliteral">&#39;48 48 0&#39;</span> * (<a class="code" href="../../d1/dff/snake_8qc.html#a9abb7fa040b3fefbf50305b5470044ae">SNAKE_TEAMS</a> * 0.1),</div>
-<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;                       <span class="stringliteral">&#39;0.7 0.84 1&#39;</span>, <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;            <a class="code" href="../../d8/de2/menudefs_8qc.html#ae8ecd1beaa4d05a475bf27bbf7e0868c">drawstring</a>(mypos+(<a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a>*player_fontsize_y) + (<a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a>*player_fontsize_x),<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;1UP: &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>.snake_lives[e.team])),<span class="stringliteral">&#39;48 48 0&#39;</span> * (<a class="code" href="../../d1/dff/snake_8qc.html#a9abb7fa040b3fefbf50305b5470044ae">SNAKE_TEAMS</a> * 0.1),</div>
-<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;                             <span class="stringliteral">&#39;1 0.44 0.54&#39;</span>, <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
+<div class="line"><a name="l00678"></a><span class="lineno">  678</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ts = <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a14e89872347ae0a8a8837044d3a4e843">minigame_drawstring_wrapped</a>(mySize.x, pos, <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>.descriptor.message,</div>
+<div class="line"><a name="l00679"></a><span class="lineno">  679</span>&#160;        <a class="code" href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a> * 2, <span class="stringliteral">&#39;0.25 0.47 0.72&#39;</span>, <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>,0.5);</div>
+<div class="line"><a name="l00680"></a><span class="lineno">  680</span>&#160;    ts.y += <a class="code" href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a>.y;</div>
+<div class="line"><a name="l00681"></a><span class="lineno">  681</span>&#160;    pos.y += ts.y;</div>
+<div class="line"><a name="l00682"></a><span class="lineno">  682</span>&#160;    mySize.y -= ts.y;</div>
+<div class="line"><a name="l00683"></a><span class="lineno">  683</span>&#160;</div>
+<div class="line"><a name="l00684"></a><span class="lineno">  684</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> player_fontsize = <a class="code" href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a> * 1.75;</div>
+<div class="line"><a name="l00685"></a><span class="lineno">  685</span>&#160;    ts.y = player_fontsize.y + (mySize.y - <a class="code" href="../../d1/dff/snake_8qc.html#a9abb7fa040b3fefbf50305b5470044ae">SNAKE_TEAMS</a> * player_fontsize.y) / <a class="code" href="../../d1/dff/snake_8qc.html#a9abb7fa040b3fefbf50305b5470044ae">SNAKE_TEAMS</a>;</div>
+<div class="line"><a name="l00686"></a><span class="lineno">  686</span>&#160;    ts.x = mySize_x;</div>
+<div class="line"><a name="l00687"></a><span class="lineno">  687</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> mypos;</div>
+<div class="line"><a name="l00688"></a><span class="lineno">  688</span>&#160;</div>
+<div class="line"><a name="l00689"></a><span class="lineno">  689</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e;</div>
+<div class="line"><a name="l00690"></a><span class="lineno">  690</span>&#160;    <a class="code" href="../../de/d3d/cl__minigames_8qh.html#acb1eb2cf269d4b57f8d9a3350ef514f7">FOREACH_MINIGAME_ENTITY</a>(e)</div>
+<div class="line"><a name="l00691"></a><span class="lineno">  691</span>&#160;    {</div>
+<div class="line"><a name="l00692"></a><span class="lineno">  692</span>&#160;        <span class="keywordflow">if</span> ( e.classname == <span class="stringliteral">&quot;minigame_player&quot;</span> )</div>
+<div class="line"><a name="l00693"></a><span class="lineno">  693</span>&#160;        {</div>
+<div class="line"><a name="l00694"></a><span class="lineno">  694</span>&#160;            mypos = pos + <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> * (e.team - 1) * ts.y;</div>
+<div class="line"><a name="l00695"></a><span class="lineno">  695</span>&#160;</div>
+<div class="line"><a name="l00696"></a><span class="lineno">  696</span>&#160;            if (e == <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a>)</div>
+<div class="line"><a name="l00697"></a><span class="lineno">  697</span>&#160;            {</div>
+<div class="line"><a name="l00698"></a><span class="lineno">  698</span>&#160;                <span class="keyword">const</span> <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> hl_size = <span class="stringliteral">&#39;1 1 0&#39;</span>;</div>
+<div class="line"><a name="l00699"></a><span class="lineno">  699</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a189158f8c2db3797e9bb00cc53e80988">drawfill</a>(mypos + hl_size, ts - 2 * hl_size, snake_teamcolor(e.team), 0.25 * <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a465bbb3367ce5d2f9b2a44b199cea7ce">DRAWFLAG_ADDITIVE</a>);</div>
+<div class="line"><a name="l00700"></a><span class="lineno">  700</span>&#160;                <a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#a6d052d69b73c05b41ab3c1636778baa7">drawborderlines</a>(hl_size.x, mypos + hl_size, ts - 2 * hl_size, snake_teamcolor(e.team), <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
+<div class="line"><a name="l00701"></a><span class="lineno">  701</span>&#160;            }</div>
+<div class="line"><a name="l00702"></a><span class="lineno">  702</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#a189158f8c2db3797e9bb00cc53e80988">drawfill</a>(mypos, ts, snake_teamcolor(e.team), 0.25 * <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a465bbb3367ce5d2f9b2a44b199cea7ce">DRAWFLAG_ADDITIVE</a>);</div>
+<div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;</div>
+<div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;            <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a02caccc9afc8eec2f9c7ed6fc85eac95">minigame_drawcolorcodedstring_trunc</a>(mySize.x - <a class="code" href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a>.x * 0.5, mypos + <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a> * <a class="code" href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a>.x * 0.25,</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;                entcs_GetName(e.minigame_playerslot - 1),</div>
+<div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;                player_fontsize, <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
 <div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;</div>
-<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;            <span class="keywordflow">if</span> ( e == <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a> )</div>
-<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;                <a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#a6d052d69b73c05b41ab3c1636778baa7">drawborderlines</a>(1, mypos, ts, snake_teamcolor(e.team), 1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
-<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;        }</div>
-<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;    }</div>
-<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;}</div>
-<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;</div>
-<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;<span class="comment">// Turn a set of flags into a help message</span></div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;<span class="keywordtype">string</span> snake_turn_to_string(<span class="keywordtype">int</span> turnflags)</div>
-<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;{</div>
-<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;    <span class="keywordflow">if</span> ( turnflags &amp; <a class="code" href="../../d1/dff/snake_8qc.html#aecb19acb70b3088269af38c33dfa7449">SNAKE_TURN_LOSS</a> )</div>
-<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;        <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;Game over!&quot;</span>);</div>
-<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;</div>
-<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keywordflow">if</span> ( turnflags &amp; <a class="code" href="../../d1/dff/snake_8qc.html#a6b52870a5db8b425e7b0aaed741749ca">SNAKE_TURN_WIN</a> )</div>
-<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;    {</div>
-<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;        <span class="keywordflow">if</span> ( (turnflags&amp;<a class="code" href="../../d1/dff/snake_8qc.html#a0562258e226f79ca307ba9236e464524">SNAKE_TURN_TEAM</a>) != <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a>.team )</div>
-<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;            <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;You ran out of lives!&quot;</span>);</div>
-<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;        <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;You win!&quot;</span>);</div>
-<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;    }</div>
-<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;</div>
-<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>.snake_lives[<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a>.team] &lt;= 0)</div>
-<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;        <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;You ran out of lives!&quot;</span>);</div>
+<div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;            mypos.y += player_fontsize.y;</div>
+<div class="line"><a name="l00710"></a><span class="lineno">  710</span>&#160;            <a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#a0ded0b9dc55f9f344b7b5f7fc9a487b8">drawstring_aspect</a>(mypos, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(e.snake_score), ts - <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> * player_fontsize.y - <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a> * ts.x * (3 / 4),</div>
+<div class="line"><a name="l00711"></a><span class="lineno">  711</span>&#160;                                <span class="stringliteral">&#39;0.7 0.84 1&#39;</span>, <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
+<div class="line"><a name="l00712"></a><span class="lineno">  712</span>&#160;            <a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#a0ded0b9dc55f9f344b7b5f7fc9a487b8">drawstring_aspect</a>(mypos + <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a> * ts.x * (1 / 4), <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<span class="stringliteral">&quot;1UP: &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>.snake_lives[e.team])), ts - <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> * player_fontsize.y - <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a> * ts.x * (1 / 4),</div>
+<div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;                                <span class="stringliteral">&#39;1 0.44 0.54&#39;</span>, <a class="code" href="../../d3/d05/hud_8qh.html#a2671d9cf07f1ce849bb5d039d7f27b7e">panel_fg_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>);</div>
+<div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;        }</div>
+<div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;    }</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;}</div>
+<div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;</div>
+<div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;<span class="comment">// Turn a set of flags into a help message</span></div>
+<div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;<span class="keywordtype">string</span> snake_turn_to_string(<span class="keywordtype">int</span> turnflags)</div>
+<div class="line"><a name="l00720"></a><span class="lineno">  720</span>&#160;{</div>
+<div class="line"><a name="l00721"></a><span class="lineno">  721</span>&#160;    <span class="keywordflow">if</span> ( turnflags &amp; <a class="code" href="../../d1/dff/snake_8qc.html#aecb19acb70b3088269af38c33dfa7449">SNAKE_TURN_LOSS</a> )</div>
+<div class="line"><a name="l00722"></a><span class="lineno">  722</span>&#160;        <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;Game over!&quot;</span>);</div>
+<div class="line"><a name="l00723"></a><span class="lineno">  723</span>&#160;</div>
+<div class="line"><a name="l00724"></a><span class="lineno">  724</span>&#160;    <span class="keywordflow">if</span> ( turnflags &amp; <a class="code" href="../../d1/dff/snake_8qc.html#a6b52870a5db8b425e7b0aaed741749ca">SNAKE_TURN_WIN</a> )</div>
+<div class="line"><a name="l00725"></a><span class="lineno">  725</span>&#160;    {</div>
+<div class="line"><a name="l00726"></a><span class="lineno">  726</span>&#160;        <span class="keywordflow">if</span> ( (turnflags&amp;<a class="code" href="../../d1/dff/snake_8qc.html#a0562258e226f79ca307ba9236e464524">SNAKE_TURN_TEAM</a>) != <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a>.team )</div>
+<div class="line"><a name="l00727"></a><span class="lineno">  727</span>&#160;            <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;You ran out of lives!&quot;</span>);</div>
+<div class="line"><a name="l00728"></a><span class="lineno">  728</span>&#160;        <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;You win!&quot;</span>);</div>
+<div class="line"><a name="l00729"></a><span class="lineno">  729</span>&#160;    }</div>
 <div class="line"><a name="l00730"></a><span class="lineno">  730</span>&#160;</div>
-<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;    <span class="keywordflow">if</span> ( (<a class="code" href="../../d1/dff/snake_8qc.html#a488c48e403cf1638d1f0f4204adf57bf">snake_find_head</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>, <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a>.team)).snake_dir == <span class="stringliteral">&#39;0 0 0&#39;</span> )</div>
-<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;        <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;Press an arrow key to begin the game&quot;</span>);</div>
+<div class="line"><a name="l00731"></a><span class="lineno">  731</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>.snake_lives[<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a>.team] &lt;= 0)</div>
+<div class="line"><a name="l00732"></a><span class="lineno">  732</span>&#160;        <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;You ran out of lives!&quot;</span>);</div>
 <div class="line"><a name="l00733"></a><span class="lineno">  733</span>&#160;</div>
-<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    <span class="keywordflow">if</span> ( turnflags &amp; <a class="code" href="../../d1/dff/snake_8qc.html#a663840eb5422a6478cffdd91b66bf656">SNAKE_TURN_MOVE</a> )</div>
-<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;        <span class="keywordflow">if</span>(snake_wrap)</div>
-<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;            <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;Avoid the snake&#39;s body, collect the mice!&quot;</span>);</div>
-<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;            <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;Avoid the screen edges and the snake&#39;s body, collect the mice!&quot;</span>);</div>
-<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;</div>
-<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;}</div>
+<div class="line"><a name="l00734"></a><span class="lineno">  734</span>&#160;    <span class="keywordflow">if</span> ( (<a class="code" href="../../d1/dff/snake_8qc.html#a488c48e403cf1638d1f0f4204adf57bf">snake_find_head</a>(<a class="code" href="../../de/d3d/cl__minigames_8qh.html#a4a6481e5c8235c4691bee88fac8beb82">active_minigame</a>, <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a>.team)).snake_dir == <span class="stringliteral">&#39;0 0 0&#39;</span> )</div>
+<div class="line"><a name="l00735"></a><span class="lineno">  735</span>&#160;        <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;Press an arrow key to begin the game&quot;</span>);</div>
+<div class="line"><a name="l00736"></a><span class="lineno">  736</span>&#160;</div>
+<div class="line"><a name="l00737"></a><span class="lineno">  737</span>&#160;    <span class="keywordflow">if</span> ( turnflags &amp; <a class="code" href="../../d1/dff/snake_8qc.html#a663840eb5422a6478cffdd91b66bf656">SNAKE_TURN_MOVE</a> )</div>
+<div class="line"><a name="l00738"></a><span class="lineno">  738</span>&#160;        <span class="keywordflow">if</span>(snake_wrap)</div>
+<div class="line"><a name="l00739"></a><span class="lineno">  739</span>&#160;            <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;Avoid the snake&#39;s body, collect the mice!&quot;</span>);</div>
+<div class="line"><a name="l00740"></a><span class="lineno">  740</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00741"></a><span class="lineno">  741</span>&#160;            <span class="keywordflow">return</span> _(<span class="stringliteral">&quot;Avoid the screen edges and the snake&#39;s body, collect the mice!&quot;</span>);</div>
 <div class="line"><a name="l00742"></a><span class="lineno">  742</span>&#160;</div>
-<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;<span class="comment">// Make the correct move</span></div>
-<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;<span class="keywordtype">void</span> snake_set_direction(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> minigame, <span class="keywordtype">int</span> dx, <span class="keywordtype">int</span> dy)</div>
-<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;{</div>
-<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;    <span class="comment">//if ( minigame.minigame_flags == SNAKE_TURN_MOVE )</span></div>
-<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;    <span class="comment">//{</span></div>
-<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;        <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a>(<span class="stringliteral">&quot;move &quot;</span>,<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(dx), <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(dy));</div>
-<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;    <span class="comment">//}</span></div>
-<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;}</div>
-<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;</div>
-<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;<span class="comment">// Required function, handle client events</span></div>
-<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;<span class="keywordtype">int</span> snake_client_event(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> minigame, <span class="keywordtype">string</span> event, ...)</div>
-<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;{</div>
-<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;    <span class="keywordflow">switch</span>(event)</div>
-<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;    {</div>
-<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;activate&quot;</span>:</div>
-<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;        {</div>
-<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;            minigame.message = snake_turn_to_string(minigame.minigame_flags);</div>
-<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;        }</div>
-<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;key_pressed&quot;</span>:</div>
-<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;        {</div>
-<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;            <span class="comment">//if((minigame.minigame_flags &amp; SNAKE_TURN_TEAM) == minigame_self.team)</span></div>
-<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;            {</div>
-<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;                <span class="keywordflow">switch</span> ( ...(0,<span class="keywordtype">int</span>) )</div>
-<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;                {</div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a403b2744d5225398d9265452c17f2fc4">K_RIGHTARROW</a>:</div>
-<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a0dba53b3a8039bb806db85ad78ff014d">K_KP_RIGHTARROW</a>:</div>
-<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;                        snake_set_direction(minigame, 1, 0);</div>
-<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a8d480915019f20bd0ccf39ccde1d16a3">K_LEFTARROW</a>:</div>
-<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a74257d5c4efdfa386e8c09a7353d112c">K_KP_LEFTARROW</a>:</div>
-<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;                        snake_set_direction(minigame, -1, 0);</div>
-<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2">K_UPARROW</a>:</div>
-<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a57ebf01258da3313cffa73c0d51d462f">K_KP_UPARROW</a>:</div>
-<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;                        snake_set_direction(minigame, 0, 1);</div>
-<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a315e227218f29accc4cd092b941cafaa">K_DOWNARROW</a>:</div>
-<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a87a896b1715cbb9e686fdf31c8162eed">K_KP_DOWNARROW</a>:</div>
-<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;                        snake_set_direction(minigame, 0, -1);</div>
-<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;                }</div>
-<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;            }</div>
-<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;</div>
-<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;        }</div>
-<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;network_receive&quot;</span>:</div>
-<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;        {</div>
-<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> sent = ...(0,<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;            <span class="keywordtype">int</span> sf = ...(1,<a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">int</a>);</div>
-<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;            <span class="keywordflow">if</span> ( sent.classname == <span class="stringliteral">&quot;minigame&quot;</span> )</div>
-<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;            {</div>
-<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;                <span class="keywordflow">if</span> ( sf &amp; MINIG_SF_UPDATE )</div>
-<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;                {</div>
-<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;                    snake_wrap = ReadByte();</div>
-<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;                    sent.message = snake_turn_to_string(sent.minigame_flags);</div>
-<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;                    <span class="comment">//if ( sent.minigame_flags &amp; minigame_self.team )</span></div>
-<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;                        <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a0e95d808ea50b0343ffb6f1b6d5ae445">minigame_prompt</a>();</div>
-<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;                }</div>
-<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;            }</div>
-<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(sent.classname == <span class="stringliteral">&quot;minigame_board_piece&quot;</span>)</div>
-<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;            {</div>
-<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;                <span class="keywordflow">if</span>(sf &amp; MINIG_SF_UPDATE)</div>
-<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;                {</div>
-<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;                    <span class="keywordtype">int</span> letter = ReadByte();</div>
-<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;                    <span class="keywordtype">int</span> number = ReadByte();</div>
-<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;                    <span class="keywordflow">if</span>(sent.netname) { <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(sent.netname); }</div>
-<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;                    sent.netname = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d3/dbf/minigames_8qc.html#adbfd9d3db8c920f23ecda1e18d9a65ab">minigame_tile_buildname</a>(letter, number));</div>
-<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;</div>
-<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;                    sent.cnt = ReadByte();</div>
-<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;                    sent.snake_tail = ReadByte();</div>
+<div class="line"><a name="l00743"></a><span class="lineno">  743</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00744"></a><span class="lineno">  744</span>&#160;}</div>
+<div class="line"><a name="l00745"></a><span class="lineno">  745</span>&#160;</div>
+<div class="line"><a name="l00746"></a><span class="lineno">  746</span>&#160;<span class="comment">// Make the correct move</span></div>
+<div class="line"><a name="l00747"></a><span class="lineno">  747</span>&#160;<span class="keywordtype">void</span> snake_set_direction(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> minigame, <span class="keywordtype">int</span> dx, <span class="keywordtype">int</span> dy)</div>
+<div class="line"><a name="l00748"></a><span class="lineno">  748</span>&#160;{</div>
+<div class="line"><a name="l00749"></a><span class="lineno">  749</span>&#160;    <span class="comment">//if ( minigame.minigame_flags == SNAKE_TURN_MOVE )</span></div>
+<div class="line"><a name="l00750"></a><span class="lineno">  750</span>&#160;    <span class="comment">//{</span></div>
+<div class="line"><a name="l00751"></a><span class="lineno">  751</span>&#160;        <a class="code" href="../../de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0">minigame_cmd</a>(<span class="stringliteral">&quot;move &quot;</span>,<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(dx), <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(dy));</div>
+<div class="line"><a name="l00752"></a><span class="lineno">  752</span>&#160;    <span class="comment">//}</span></div>
+<div class="line"><a name="l00753"></a><span class="lineno">  753</span>&#160;}</div>
+<div class="line"><a name="l00754"></a><span class="lineno">  754</span>&#160;</div>
+<div class="line"><a name="l00755"></a><span class="lineno">  755</span>&#160;<span class="comment">// Required function, handle client events</span></div>
+<div class="line"><a name="l00756"></a><span class="lineno">  756</span>&#160;<span class="keywordtype">int</span> snake_client_event(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> minigame, <span class="keywordtype">string</span> event, ...)</div>
+<div class="line"><a name="l00757"></a><span class="lineno">  757</span>&#160;{</div>
+<div class="line"><a name="l00758"></a><span class="lineno">  758</span>&#160;    <span class="keywordflow">switch</span>(event)</div>
+<div class="line"><a name="l00759"></a><span class="lineno">  759</span>&#160;    {</div>
+<div class="line"><a name="l00760"></a><span class="lineno">  760</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;activate&quot;</span>:</div>
+<div class="line"><a name="l00761"></a><span class="lineno">  761</span>&#160;        {</div>
+<div class="line"><a name="l00762"></a><span class="lineno">  762</span>&#160;            minigame.message = snake_turn_to_string(minigame.minigame_flags);</div>
+<div class="line"><a name="l00763"></a><span class="lineno">  763</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00764"></a><span class="lineno">  764</span>&#160;        }</div>
+<div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;key_pressed&quot;</span>:</div>
+<div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;        {</div>
+<div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;            <span class="comment">//if((minigame.minigame_flags &amp; SNAKE_TURN_TEAM) == minigame_self.team)</span></div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;            {</div>
+<div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;                <span class="keywordflow">switch</span> ( ...(0,<span class="keywordtype">int</span>) )</div>
+<div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;                {</div>
+<div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a403b2744d5225398d9265452c17f2fc4">K_RIGHTARROW</a>:</div>
+<div class="line"><a name="l00772"></a><span class="lineno">  772</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a0dba53b3a8039bb806db85ad78ff014d">K_KP_RIGHTARROW</a>:</div>
+<div class="line"><a name="l00773"></a><span class="lineno">  773</span>&#160;                        snake_set_direction(minigame, 1, 0);</div>
+<div class="line"><a name="l00774"></a><span class="lineno">  774</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00775"></a><span class="lineno">  775</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a8d480915019f20bd0ccf39ccde1d16a3">K_LEFTARROW</a>:</div>
+<div class="line"><a name="l00776"></a><span class="lineno">  776</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a74257d5c4efdfa386e8c09a7353d112c">K_KP_LEFTARROW</a>:</div>
+<div class="line"><a name="l00777"></a><span class="lineno">  777</span>&#160;                        snake_set_direction(minigame, -1, 0);</div>
+<div class="line"><a name="l00778"></a><span class="lineno">  778</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00779"></a><span class="lineno">  779</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2">K_UPARROW</a>:</div>
+<div class="line"><a name="l00780"></a><span class="lineno">  780</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a57ebf01258da3313cffa73c0d51d462f">K_KP_UPARROW</a>:</div>
+<div class="line"><a name="l00781"></a><span class="lineno">  781</span>&#160;                        snake_set_direction(minigame, 0, 1);</div>
+<div class="line"><a name="l00782"></a><span class="lineno">  782</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00783"></a><span class="lineno">  783</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a315e227218f29accc4cd092b941cafaa">K_DOWNARROW</a>:</div>
+<div class="line"><a name="l00784"></a><span class="lineno">  784</span>&#160;                    <span class="keywordflow">case</span> <a class="code" href="../../dc/d03/keycodes_8qc.html#a87a896b1715cbb9e686fdf31c8162eed">K_KP_DOWNARROW</a>:</div>
+<div class="line"><a name="l00785"></a><span class="lineno">  785</span>&#160;                        snake_set_direction(minigame, 0, -1);</div>
+<div class="line"><a name="l00786"></a><span class="lineno">  786</span>&#160;                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00787"></a><span class="lineno">  787</span>&#160;                }</div>
+<div class="line"><a name="l00788"></a><span class="lineno">  788</span>&#160;            }</div>
+<div class="line"><a name="l00789"></a><span class="lineno">  789</span>&#160;</div>
+<div class="line"><a name="l00790"></a><span class="lineno">  790</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00791"></a><span class="lineno">  791</span>&#160;        }</div>
+<div class="line"><a name="l00792"></a><span class="lineno">  792</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;network_receive&quot;</span>:</div>
+<div class="line"><a name="l00793"></a><span class="lineno">  793</span>&#160;        {</div>
+<div class="line"><a name="l00794"></a><span class="lineno">  794</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> sent = ...(0,<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00795"></a><span class="lineno">  795</span>&#160;            <span class="keywordtype">int</span> sf = ...(1,<a class="code" href="../../d4/dfb/lib_2__all_8inc.html#ae88a82478e3818cade3f598c25437904">int</a>);</div>
+<div class="line"><a name="l00796"></a><span class="lineno">  796</span>&#160;            <span class="keywordflow">if</span> ( sent.classname == <span class="stringliteral">&quot;minigame&quot;</span> )</div>
+<div class="line"><a name="l00797"></a><span class="lineno">  797</span>&#160;            {</div>
+<div class="line"><a name="l00798"></a><span class="lineno">  798</span>&#160;                <span class="keywordflow">if</span> ( sf &amp; MINIG_SF_UPDATE )</div>
+<div class="line"><a name="l00799"></a><span class="lineno">  799</span>&#160;                {</div>
+<div class="line"><a name="l00800"></a><span class="lineno">  800</span>&#160;                    snake_wrap = ReadByte();</div>
+<div class="line"><a name="l00801"></a><span class="lineno">  801</span>&#160;                    sent.message = snake_turn_to_string(sent.minigame_flags);</div>
+<div class="line"><a name="l00802"></a><span class="lineno">  802</span>&#160;                    <span class="comment">//if ( sent.minigame_flags &amp; minigame_self.team )</span></div>
+<div class="line"><a name="l00803"></a><span class="lineno">  803</span>&#160;                        <a class="code" href="../../d4/db7/cl__minigames_8qc.html#a0e95d808ea50b0343ffb6f1b6d5ae445">minigame_prompt</a>();</div>
+<div class="line"><a name="l00804"></a><span class="lineno">  804</span>&#160;                }</div>
+<div class="line"><a name="l00805"></a><span class="lineno">  805</span>&#160;            }</div>
+<div class="line"><a name="l00806"></a><span class="lineno">  806</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span>(sent.classname == <span class="stringliteral">&quot;minigame_board_piece&quot;</span>)</div>
+<div class="line"><a name="l00807"></a><span class="lineno">  807</span>&#160;            {</div>
+<div class="line"><a name="l00808"></a><span class="lineno">  808</span>&#160;                <span class="keywordflow">if</span>(sf &amp; MINIG_SF_UPDATE)</div>
+<div class="line"><a name="l00809"></a><span class="lineno">  809</span>&#160;                {</div>
+<div class="line"><a name="l00810"></a><span class="lineno">  810</span>&#160;                    <span class="keywordtype">int</span> letter = ReadByte();</div>
+<div class="line"><a name="l00811"></a><span class="lineno">  811</span>&#160;                    <span class="keywordtype">int</span> number = ReadByte();</div>
+<div class="line"><a name="l00812"></a><span class="lineno">  812</span>&#160;                    <span class="keywordflow">if</span>(sent.netname) { <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(sent.netname); }</div>
+<div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;                    sent.netname = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d3/dbf/minigames_8qc.html#adbfd9d3db8c920f23ecda1e18d9a65ab">minigame_tile_buildname</a>(letter, number));</div>
 <div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;</div>
-<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;                    <span class="keywordtype">int</span> dx = ReadByte();</div>
-<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;                    <span class="keywordtype">int</span> dy = ReadByte();</div>
+<div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;                    sent.cnt = ReadByte();</div>
+<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;                    sent.snake_tail = ReadByte();</div>
 <div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;</div>
-<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;                    <span class="keywordflow">if</span>(dx == 2) dx = -1;</div>
-<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;                    <span class="keywordflow">if</span>(dy == 2) dy = -1;</div>
+<div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;                    <span class="keywordtype">int</span> dx = ReadByte();</div>
+<div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;                    <span class="keywordtype">int</span> dy = ReadByte();</div>
 <div class="line"><a name="l00820"></a><span class="lineno">  820</span>&#160;</div>
-<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;                    sent.snake_dir_x = dx;</div>
-<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;                    sent.snake_dir_y = dy;</div>
-<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;                    sent.snake_dir_z = 0;</div>
-<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;                }</div>
-<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;            }</div>
-<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( sent.classname == <span class="stringliteral">&quot;minigame_player&quot;</span> &amp;&amp; (sf &amp; <a class="code" href="../../d1/dff/snake_8qc.html#ad482a5fa38319617f6c3b4432467cf54">SNAKE_SF_PLAYERSCORE</a> ) )</div>
-<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;            {</div>
-<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;                sent.snake_score = ReadLong();</div>
-<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;                minigame.snake_lives[sent.team] = ReadByte();</div>
-<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;            }</div>
-<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;</div>
-<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;        }</div>
-<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;    }</div>
-<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;</div>
-<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;}</div>
+<div class="line"><a name="l00821"></a><span class="lineno">  821</span>&#160;                    <span class="keywordflow">if</span>(dx == 2) dx = -1;</div>
+<div class="line"><a name="l00822"></a><span class="lineno">  822</span>&#160;                    <span class="keywordflow">if</span>(dy == 2) dy = -1;</div>
+<div class="line"><a name="l00823"></a><span class="lineno">  823</span>&#160;</div>
+<div class="line"><a name="l00824"></a><span class="lineno">  824</span>&#160;                    sent.snake_dir_x = dx;</div>
+<div class="line"><a name="l00825"></a><span class="lineno">  825</span>&#160;                    sent.snake_dir_y = dy;</div>
+<div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;                    sent.snake_dir_z = 0;</div>
+<div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;                }</div>
+<div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;            }</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> ( sent.classname == <span class="stringliteral">&quot;minigame_player&quot;</span> &amp;&amp; (sf &amp; <a class="code" href="../../d1/dff/snake_8qc.html#ad482a5fa38319617f6c3b4432467cf54">SNAKE_SF_PLAYERSCORE</a> ) )</div>
+<div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;            {</div>
+<div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;                sent.snake_score = ReadLong();</div>
+<div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;                minigame.snake_lives[sent.team] = ReadByte();</div>
+<div class="line"><a name="l00833"></a><span class="lineno">  833</span>&#160;            }</div>
+<div class="line"><a name="l00834"></a><span class="lineno">  834</span>&#160;</div>
+<div class="line"><a name="l00835"></a><span class="lineno">  835</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00836"></a><span class="lineno">  836</span>&#160;        }</div>
+<div class="line"><a name="l00837"></a><span class="lineno">  837</span>&#160;    }</div>
 <div class="line"><a name="l00838"></a><span class="lineno">  838</span>&#160;</div>
-<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00839"></a><span class="lineno">  839</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00840"></a><span class="lineno">  840</span>&#160;}</div>
+<div class="line"><a name="l00841"></a><span class="lineno">  841</span>&#160;</div>
+<div class="line"><a name="l00842"></a><span class="lineno">  842</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="snake_8qc_html_ae6a0bfcc50cf2e20cbf4e624b1489ce9"><div class="ttname"><a href="../../d1/dff/snake_8qc.html#ae6a0bfcc50cf2e20cbf4e624b1489ce9">snake_move</a></div><div class="ttdeci">void snake_move(entity minigame, entity player, string dxs, string dys)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dff/snake_8qc_source.html#l00365">snake.qc:365</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_a0dba53b3a8039bb806db85ad78ff014d"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a0dba53b3a8039bb806db85ad78ff014d">K_KP_RIGHTARROW</a></div><div class="ttdeci">float K_KP_RIGHTARROW</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00060">keycodes.qc:60</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_a1657e5be2a616c50eedf52dede110ae2"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a1657e5be2a616c50eedf52dede110ae2">K_UPARROW</a></div><div class="ttdeci">float K_UPARROW</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00015">keycodes.qc:15</a></div></div>
@@ -964,7 +967,6 @@ $(document).ready(function(){initNavTree('d1/dff/snake_8qc_source.html','../../'
 <div class="ttc" id="snake_8qc_html_a17f4e125f173137d085df415ed38cd60"><div class="ttname"><a href="../../d1/dff/snake_8qc.html#a17f4e125f173137d085df415ed38cd60">snake_find_piece</a></div><div class="ttdeci">entity snake_find_piece(entity minig, string tile)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dff/snake_8qc_source.html#l00051">snake.qc:51</a></div></div>
 <div class="ttc" id="cl__minigames_8qc_html_a7106641b219836128248d423976191df"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#a7106641b219836128248d423976191df">minigame_hud_denormalize_size</a></div><div class="ttdeci">vector minigame_hud_denormalize_size(vector v, vector pos, vector mySize)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/cl__minigames_8qc_source.html#l00023">cl_minigames.qc:23</a></div></div>
 <div class="ttc" id="snake_8qc_html_a6d31ff4122e37c9b4b627efd8420616a"><div class="ttname"><a href="../../d1/dff/snake_8qc.html#a6d31ff4122e37c9b4b627efd8420616a">snake_lost_teams</a></div><div class="ttdeci">int snake_lost_teams</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dff/snake_8qc_source.html#l00037">snake.qc:37</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_ae8ecd1beaa4d05a475bf27bbf7e0868c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ae8ecd1beaa4d05a475bf27bbf7e0868c">drawstring</a></div><div class="ttdeci">float drawstring(vector position, string text, vector scale, vector rgb, float alpha, float flag)</div></div>
 <div class="ttc" id="snake_8qc_html_af7c89701ee296f1659231350dd5e24e4"><div class="ttname"><a href="../../d1/dff/snake_8qc.html#af7c89701ee296f1659231350dd5e24e4">autocvar_sv_minigames_snake_delay_multiplier</a></div><div class="ttdeci">float autocvar_sv_minigames_snake_delay_multiplier</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dff/snake_8qc_source.html#l00022">snake.qc:22</a></div></div>
 <div class="ttc" id="snake_8qc_html_aab4567473a56a8b5f5eb3e3eba3c662a"><div class="ttname"><a href="../../d1/dff/snake_8qc.html#aab4567473a56a8b5f5eb3e3eba3c662a">snake_setup_pieces</a></div><div class="ttdeci">void snake_setup_pieces(entity minigame)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dff/snake_8qc_source.html#l00194">snake.qc:194</a></div></div>
 <div class="ttc" id="keycodes_8qc_html_a315e227218f29accc4cd092b941cafaa"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a315e227218f29accc4cd092b941cafaa">K_DOWNARROW</a></div><div class="ttdeci">float K_DOWNARROW</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00016">keycodes.qc:16</a></div></div>
@@ -1044,6 +1046,7 @@ $(document).ready(function(){initNavTree('d1/dff/snake_8qc_source.html','../../'
 <div class="ttc" id="cl__minigames_8qc_html_a02caccc9afc8eec2f9c7ed6fc85eac95"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#a02caccc9afc8eec2f9c7ed6fc85eac95">minigame_drawcolorcodedstring_trunc</a></div><div class="ttdeci">void minigame_drawcolorcodedstring_trunc(float maxwidth, vector pos, string text, vector fontsize, float theAlpha, int drawflags)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/cl__minigames_8qc_source.html#l00351">cl_minigames.qc:351</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a48f386cb348d88d4ae961d010fe8b549"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549">hud_fontsize</a></div><div class="ttdeci">vector hud_fontsize</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00024">main.qh:24</a></div></div>
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
+<div class="ttc" id="client_2miscfunctions_8qc_html_a0ded0b9dc55f9f344b7b5f7fc9a487b8"><div class="ttname"><a href="../../dc/d98/client_2miscfunctions_8qc.html#a0ded0b9dc55f9f344b7b5f7fc9a487b8">drawstring_aspect</a></div><div class="ttdeci">void drawstring_aspect(vector pos, string text, vector sz, vector color, float theAlpha, float drawflag)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00303">miscfunctions.qc:303</a></div></div>
 <div class="ttc" id="snake_8qc_html_ae86aced3acbb8cdf1381872554098740"><div class="ttname"><a href="../../d1/dff/snake_8qc.html#ae86aced3acbb8cdf1381872554098740">minigame_setup_snake</a></div><div class="ttdeci">void minigame_setup_snake(entity minigame, int pteam)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dff/snake_8qc_source.html#l00169">snake.qc:169</a></div></div>
 <div class="ttc" id="cl__minigames_8qc_html_a3f50d48603ccc5c4949bf5d84b0daa78"><div class="ttname"><a href="../../d4/db7/cl__minigames_8qc.html#a3f50d48603ccc5c4949bf5d84b0daa78">minigame_hud_simpleboard</a></div><div class="ttdeci">void minigame_hud_simpleboard(vector pos, vector mySize, string board_texture)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/db7/cl__minigames_8qc_source.html#l00004">cl_minigames.qc:4</a></div></div>
 <div class="ttc" id="cl__minigames_8qh_html_a21f5bb06a7918082bde123983e52097b"><div class="ttname"><a href="../../de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b">minigame_self</a></div><div class="ttdeci">entity minigame_self</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d3d/cl__minigames_8qh_source.html#l00085">cl_minigames.qh:85</a></div></div>
@@ -1061,7 +1064,7 @@ $(document).ready(function(){initNavTree('d1/dff/snake_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../dir_f3c5fe65fc7d6f300d22d67107da5495.html">minigame</a></li><li class="navelem"><a class="el" href="../../d1/dff/snake_8qc.html">snake.qc</a></li>
-    <li class="footer">Generated on Thu Sep 8 2016 15:12:07 for Xonotic by
+    <li class="footer">Generated on Fri Sep 9 2016 12:07:30 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
