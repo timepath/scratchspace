@@ -20,7 +20,7 @@ var sv__onslaught_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#acdbc147f58aa71c52025d345f5148b94", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#a23925223ae748d91aa5afac60d73dfde", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#ab7605909625a2540be9c13415706209d", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#a398cabbf08d832a4eb2379e916bcdfb6", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#a7e5334a2fe5726f6dece5bb21e8a37de", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#a0ecbce96eab77cec8cddc6ec6effb537", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#a60075dce221d6912949ccf44eea03465", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#ac987891f2cb3533a6913344b85bec3ca", null ],

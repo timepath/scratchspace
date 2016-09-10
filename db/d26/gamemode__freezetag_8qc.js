@@ -27,7 +27,7 @@ var gamemode__freezetag_8qc =
     [ "MUTATOR_HOOKFUNCTION", "db/d26/gamemode__freezetag_8qc.html#a01beca66d3167bb15f74df1a0fbdd7ae", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/d26/gamemode__freezetag_8qc.html#aecaf603575690431620b9b72705509d4", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/d26/gamemode__freezetag_8qc.html#a9585f0e44add58348bbe9349d76f1c63", null ],
-    [ "MUTATOR_HOOKFUNCTION", "db/d26/gamemode__freezetag_8qc.html#a27790edaf59d267cf4b78270bc321971", null ],
+    [ "MUTATOR_HOOKFUNCTION", "db/d26/gamemode__freezetag_8qc.html#a54228db2da14d29d031a06d013dfe284", null ],
     [ "MUTATOR_HOOKFUNCTION", "db/d26/gamemode__freezetag_8qc.html#a153c91976b34fdfc0da213b379584027", null ],
     [ "nades_Clear", "db/d26/gamemode__freezetag_8qc.html#a883dcd3e4f90a547637b26c3beaea8ed", null ],
     [ "nades_GiveBonus", "db/d26/gamemode__freezetag_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3", null ],

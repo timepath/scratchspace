@@ -20,7 +20,7 @@ var gamemode__domination_8qc =
     [ "dompointtouch", "dc/d80/gamemode__domination_8qc.html#a34aa4d09cecb85b43c0b02c2354bf412", null ],
     [ "havocbot_goalrating_controlpoints", "dc/d80/gamemode__domination_8qc.html#a68192842a7b8fe572f40f71cc5ef40af", null ],
     [ "havocbot_role_dom", "dc/d80/gamemode__domination_8qc.html#a230f4c816ca32cde83181d896a8b09d4", null ],
-    [ "MUTATOR_HOOKFUNCTION", "dc/d80/gamemode__domination_8qc.html#a3747391688e361f933e909c79c1022e7", null ],
+    [ "MUTATOR_HOOKFUNCTION", "dc/d80/gamemode__domination_8qc.html#a5fdc0f6686480a237384c776b913b4fe", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d80/gamemode__domination_8qc.html#ad784e17cc4faa6219328ab0a01afdbff", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d80/gamemode__domination_8qc.html#a06d43b9aefe82dfa89a891dfe3fc6839", null ],
     [ "MUTATOR_HOOKFUNCTION", "dc/d80/gamemode__domination_8qc.html#a2b67f0f55e05c135132ea7db8e350004", null ],

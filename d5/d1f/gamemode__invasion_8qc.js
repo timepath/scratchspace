@@ -22,7 +22,7 @@ var gamemode__invasion_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#a008001822cf0758a7351f712319d04ee", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#a5ec4ad1d0fe5d0597f6afe9cc1dad6e1", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#a55e505d58e17d9e6ffaa3c8dc1504ba3", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#ab097570e2a3dcde42e3597955ec69220", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#acc7ba8f3d8b5001bc95de55f3503d13b", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#aa7feab4c62a1d17aad373f4874b3ca35", null ],
     [ "spawnfunc", "d5/d1f/gamemode__invasion_8qc.html#a15b6d7bdf25c342d02f9cd4f94c3a44f", null ],
     [ "STATIC_INIT", "d5/d1f/gamemode__invasion_8qc.html#a7c054a0d0c4d535eedfb3da39cfedf67", null ],
