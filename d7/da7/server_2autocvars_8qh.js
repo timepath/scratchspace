@@ -114,6 +114,7 @@ var server_2autocvars_8qh =
     [ "autocvar_g_ballistics_density_corpse", "d7/da7/server_2autocvars_8qh.html#acaef55b5ad29447ab3e577e01084f512", null ],
     [ "autocvar_g_ballistics_density_player", "d7/da7/server_2autocvars_8qh.html#aef53febc1debb3052157621e56189628", null ],
     [ "autocvar_g_ballistics_mindistance", "d7/da7/server_2autocvars_8qh.html#a3224290657dfac7894324fe6537d0cc7", null ],
+    [ "autocvar_g_ballistics_penetrate_clips", "d7/da7/server_2autocvars_8qh.html#ac69c8de005b835ee2211eb1c75999f31", null ],
     [ "autocvar_g_ban_default_bantime", "d7/da7/server_2autocvars_8qh.html#ad351a5b10dd698f9d4bc03bc2547328c", null ],
     [ "autocvar_g_ban_default_masksize", "d7/da7/server_2autocvars_8qh.html#ade7c91d7a953c8eb6d8a172aee7fa66f", null ],
     [ "autocvar_g_ban_sync_interval", "d7/da7/server_2autocvars_8qh.html#ab21eca3696a13953239bad5e0373031f", null ],
