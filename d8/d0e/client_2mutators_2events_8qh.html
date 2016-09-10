@@ -135,6 +135,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a622e3f3fc74d161682435c58f1d2f046"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a622e3f3fc74d161682435c58f1d2f046">EV_CSQC_ConsoleCommand</a>(i, o)</td></tr>
 <tr class="memdesc:a622e3f3fc74d161682435c58f1d2f046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a client command is parsed NOTE: hooks MUST start with if (MUTATOR_RETURNVALUE) return false; NOTE: return true if you handled the command, return false to continue handling NOTE: THESE HOOKS MUST NEVER EVER CALL <a class="el" href="../../d8/de2/menudefs_8qc.html#adbf0a401c10df5580b133d71bc6d8ff4">tokenize()</a> // example: <a class="el" href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION(foo, CSQC_ConsoleCommand)</a> { if (MUTATOR_RETURNVALUE) return false; // command was already handled string cmd_name = <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV(0, string)</a>; int cmd_argc = <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV(1, int)</a>; if (cmd_name == "echocvar" &amp;&amp; cmd_argc &gt;= 2) { print(<a class="el" href="../../dd/d8b/sys-pre_8qh.html#a188b943b091c9db9933d90e430e0333b">cvar_string(argv(1))</a>, "\n"); return true; } if (cmd_name == "echostring" &amp;&amp; cmd_argc &gt;= 2) { print(substring(cmd_string, <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>, argv_end_index(-1) - <a class="el" href="../../d3/d9e/dpextensions_8qh.html#adf1bc71dd76ed8f9578de181202015d2">argv_start_index(1)</a>), "\n"); return true; } return false; }.  <a href="#a622e3f3fc74d161682435c58f1d2f046">More...</a><br/></td></tr>
 <tr class="separator:a622e3f3fc74d161682435c58f1d2f046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79c78c4cc1c599f059e0e01c80a649c9"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a79c78c4cc1c599f059e0e01c80a649c9">EV_CustomizeEventchase</a>(i, o)</td></tr>
+<tr class="memdesc:a79c78c4cc1c599f059e0e01c80a649c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">allow customizing 3rd person mode effect  <a href="#a79c78c4cc1c599f059e0e01c80a649c9">More...</a><br/></td></tr>
+<tr class="separator:a79c78c4cc1c599f059e0e01c80a649c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a190dc70f275de005ee3ce2dc186cbce8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a190dc70f275de005ee3ce2dc186cbce8">EV_DrawGrapplingHook</a>(i, o)</td></tr>
 <tr class="memdesc:a190dc70f275de005ee3ce2dc186cbce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the grapple hook, allows changing hook texture and colour.  <a href="#a190dc70f275de005ee3ce2dc186cbce8">More...</a><br/></td></tr>
 <tr class="separator:a190dc70f275de005ee3ce2dc186cbce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,6 +206,8 @@ Functions</h2></td></tr>
 <tr class="separator:a92781151132f7412b7c84847ce3d1c17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a69446f0eb13157f302745a4c585e12f9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a69446f0eb13157f302745a4c585e12f9">MUTATOR_HOOKABLE</a> (<a class="el" href="../../d6/dd3/view_8qc.html#aaedfb15dac0fc5308e64d3b3d58cf76f">WantEventchase</a>, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a5f415751211eff012cb012a3eac97df7">EV_WantEventchase</a>)</td></tr>
 <tr class="separator:a69446f0eb13157f302745a4c585e12f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3f1898dea1bf48499b6a581a715650a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#ab3f1898dea1bf48499b6a581a715650a">MUTATOR_HOOKABLE</a> (CustomizeEventchase, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a79c78c4cc1c599f059e0e01c80a649c9">EV_CustomizeEventchase</a>)</td></tr>
+<tr class="separator:ab3f1898dea1bf48499b6a581a715650a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6b47b89e6463e31696a9279c61580bb5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a6b47b89e6463e31696a9279c61580bb5">MUTATOR_HOOKABLE</a> (<a class="el" href="../../df/d71/announcer_8qh.html#a74359ed785035246489934d025ae3278">AnnouncerOption</a>, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a25bfd691414ad6357c67077eb7917f73">EV_AnnouncerOption</a>)</td></tr>
 <tr class="separator:a6b47b89e6463e31696a9279c61580bb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a64f317bd33fb04787a360e3f881d6bda"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a64f317bd33fb04787a360e3f881d6bda">MUTATOR_HOOKABLE</a> (Ent_Init, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6">EV_NO_ARGS</a>)</td></tr>
@@ -251,7 +256,7 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">  i(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \ o(<span class="keywordtype">string</span>, MUTATOR_ARGV_0_string) \</div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00091">91</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00100">100</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -286,6 +291,42 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a79c78c4cc1c599f059e0e01c80a649c9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_CustomizeEventchase</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"> i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \</div>
+<div class="line">    <span class="comment">/* current_view_origin_override */</span> o(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_0_vector) \</div>
+<div class="line">    <span class="comment">/* view_offset_override */</span> o(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_1_vector) \</div>
+<div class="line">    <span class="comment">/* chase_distance_override */</span> o(<span class="keywordtype">float</span>, MUTATOR_ARGV_0_float) \</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
+</div><!-- fragment -->
+<p>allow customizing 3rd person mode effect </p>
+
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00092">92</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a190dc70f275de005ee3ce2dc186cbce8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -317,7 +358,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Draw the grapple hook, allows changing hook texture and colour. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00129">129</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00138">138</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -409,7 +450,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Called when an entity is updated (either by SVQC networking or PVS) </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00140">140</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00149">149</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -468,7 +509,7 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00123">123</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00132">132</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -499,7 +540,7 @@ Functions</h2></td></tr>
 <div class="line">     o(<span class="keywordtype">float</span>, MUTATOR_ARGV_1_float) \</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 </div><!-- fragment -->
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00099">99</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00108">108</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -531,7 +572,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Return true to not draw any vortex beam. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00108">108</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00117">117</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -713,7 +754,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Return true to not draw any impact effect. </p>
 
-<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00115">115</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00124">124</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -1032,6 +1073,32 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab3f1898dea1bf48499b6a581a715650a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype">CustomizeEventchase&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a79c78c4cc1c599f059e0e01c80a649c9">EV_CustomizeEventchase</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a6b47b89e6463e31696a9279c61580bb5"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1300,7 +1367,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_08b4cf75afed9a7734ab4c2d9f3e6fae.html">mutators</a></li><li class="navelem"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Sat Sep 10 2016 15:25:24 for Xonotic by
+    <li class="footer">Generated on Sat Sep 10 2016 21:16:08 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

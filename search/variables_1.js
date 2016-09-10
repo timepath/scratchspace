@@ -342,8 +342,6 @@ var searchData=
   ['autocvar_5fcl_5feffects_5flightningarc_5fsimple',['autocvar_cl_effects_lightningarc_simple',['../d7/db4/client_2autocvars_8qh.html#aa5008df3770265a934568963d32460ed',1,'autocvars.qh']]],
   ['autocvar_5fcl_5feventchase_5fdeath',['autocvar_cl_eventchase_death',['../d7/db4/client_2autocvars_8qh.html#aa7f213de6d935cc8bc3f26e367a3abdf',1,'autocvars.qh']]],
   ['autocvar_5fcl_5feventchase_5fdistance',['autocvar_cl_eventchase_distance',['../d7/db4/client_2autocvars_8qh.html#a8cd45e1195aec030971d0c76c5c809b1',1,'autocvars.qh']]],
-  ['autocvar_5fcl_5feventchase_5fgenerator_5fdistance',['autocvar_cl_eventchase_generator_distance',['../d7/db4/client_2autocvars_8qh.html#a412852f7ded90987b483682d272d306f',1,'autocvars.qh']]],
-  ['autocvar_5fcl_5feventchase_5fgenerator_5fviewoffset',['autocvar_cl_eventchase_generator_viewoffset',['../d7/db4/client_2autocvars_8qh.html#a2fd39a14111d680312baca9e0a016f73',1,'autocvars.qh']]],
   ['autocvar_5fcl_5feventchase_5fmaxs',['autocvar_cl_eventchase_maxs',['../d7/db4/client_2autocvars_8qh.html#ad8968b416783abc8262468960dba598e',1,'autocvars.qh']]],
   ['autocvar_5fcl_5feventchase_5fmins',['autocvar_cl_eventchase_mins',['../d7/db4/client_2autocvars_8qh.html#a681bff6e624baf3af2f0334052bd2ca8',1,'autocvars.qh']]],
   ['autocvar_5fcl_5feventchase_5fspeed',['autocvar_cl_eventchase_speed',['../d7/db4/client_2autocvars_8qh.html#a03a38164b52dbfea40d0d73ef61de13b',1,'autocvars.qh']]],
