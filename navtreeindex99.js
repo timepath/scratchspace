@@ -1,5 +1,12 @@
 var NAVTREEINDEX99 =
 {
+"db/d83/vehicles_2all_8qh.html#a5ef00da087d222982ad759b7d833bf2a":[2,0,1,15,6,0],
+"db/d83/vehicles_2all_8qh.html#a843f91db6cb5c1a06a4229c8458972fd":[2,0,1,15,6,4],
+"db/d83/vehicles_2all_8qh.html#aba69863fdadd40453198f72acc1ef4ca":[2,0,1,15,6,1],
+"db/d83/vehicles_2all_8qh.html#ad7b767b681081740ab1ad4b2e2cb613c":[2,0,1,15,6,3],
+"db/d83/vehicles_2all_8qh_source.html":[2,0,1,15,6],
+"db/d84/stardust_8qh.html":[2,0,1,13,0,33],
+"db/d84/stardust_8qh_source.html":[2,0,1,13,0,33],
 "db/d8b/nmm_8qc.html":[2,0,1,6,0,7],
 "db/d8b/nmm_8qc.html#a029242ae74de359a88e724493a1af20e":[2,0,1,6,0,7,10],
 "db/d8b/nmm_8qc.html#a096523ae0e820f62b9c5224d5c668e0d":[2,0,1,6,0,7,25],
@@ -242,12 +249,5 @@ var NAVTREEINDEX99 =
 "db/db1/classXonoticHUDRaceTimerDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,188,39],
 "db/db1/classXonoticHUDRaceTimerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,188,2],
 "db/db1/classXonoticHUDRaceTimerDialog.html#af9ed10146aeca307fa96027ecb5d8852":[1,0,188,68],
-"db/db1/classXonoticHUDRaceTimerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,188,37],
-"db/db1/classXonoticHUDRaceTimerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,188,41],
-"db/db1/classXonoticHUDRaceTimerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,188,85],
-"db/db1/classXonoticHUDRaceTimerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,188,8],
-"db/db4/classTextSlider.html":[1,0,126],
-"db/db4/classTextSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,126,87],
-"db/db4/classTextSlider.html#a03b39828cfca5042da326cc07cc8f7b4":[1,0,126,58],
-"db/db4/classTextSlider.html#a0532ad63a21ab0ee3d87bed20ce60394":[1,0,126,57]
+"db/db1/classXonoticHUDRaceTimerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,188,37]
 };

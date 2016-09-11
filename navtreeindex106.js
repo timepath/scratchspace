@@ -1,5 +1,12 @@
 var NAVTREEINDEX106 =
 {
+"dc/d62/playerdemo_8qc_source.html":[2,0,6,48],
+"dc/d69/weapon_8qc.html":[2,0,1,3,0,0,4],
+"dc/d69/weapon_8qc_source.html":[2,0,1,3,0,0,4],
+"dc/d6c/classElectro.html":[1,0,32],
+"dc/d6c/classElectro.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,32,19],
+"dc/d6c/classElectro.html#a214db91c3bc64f24e17c4c4bfb99999b":[1,0,32,31],
+"dc/d6c/classElectro.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,32,18],
 "dc/d6c/classElectro.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,32,16],
 "dc/d6c/classElectro.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,32,20],
 "dc/d6c/classElectro.html#a3c36074d9020783cd496dd52b2a60a72":[1,0,32,29],
@@ -242,12 +249,5 @@ var NAVTREEINDEX106 =
 "dc/d80/gamemode__domination_8qc.html#ad784e17cc4faa6219328ab0a01afdbff":[2,0,6,2,0,12,21],
 "dc/d80/gamemode__domination_8qc.html#adc294e89142ff08f47d57c2df72c0bc9":[2,0,6,2,0,12,38],
 "dc/d80/gamemode__domination_8qc.html#ae2bad2494b8ccaf3e085a9b85a46a300":[2,0,6,2,0,12,15],
-"dc/d80/gamemode__domination_8qc.html#ae336684bd379b3fd72cf71faa9f5d694":[2,0,6,2,0,12,36],
-"dc/d80/gamemode__domination_8qc.html#afec360257e066a7453c9839395aac3c8":[2,0,6,2,0,12,0],
-"dc/d80/gamemode__domination_8qc_source.html":[2,0,6,2,0,12],
-"dc/d8b/hitplot_8qh.html":[2,0,6,4,9],
-"dc/d8b/hitplot_8qh.html#a0dec3059937cd4f1b051bffe2632a6a6":[2,0,6,4,9,3],
-"dc/d8b/hitplot_8qh.html#a1259adbf5d9e7d7fe5e34ccf5213b5c8":[2,0,6,4,9,0],
-"dc/d8b/hitplot_8qh.html#af89d7006f01671e454d80a1a1c5569cd":[2,0,6,4,9,2],
-"dc/d8b/hitplot_8qh.html#afefeefdf1f300b0f0950a7dc3f31d39b":[2,0,6,4,9,1]
+"dc/d80/gamemode__domination_8qc.html#ae336684bd379b3fd72cf71faa9f5d694":[2,0,6,2,0,12,36]
 };
