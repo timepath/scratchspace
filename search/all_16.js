@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['v_5fangle',['v_angle',['../d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293',1,'v_angle():&#160;player_skeleton.qc'],['../d1/d20/csqcmodel__settings_8qh.html#a5730a5d99021203efb546d3b48f7b293',1,'v_angle():&#160;csqcmodel_settings.qh'],['../d6/d11/progsdefs_8qc.html#a5730a5d99021203efb546d3b48f7b293',1,'v_angle():&#160;progsdefs.qc'],['../d8/da6/interpolate_8qh.html#a5730a5d99021203efb546d3b48f7b293',1,'v_angle():&#160;interpolate.qh']]],
+  ['v_5fangle',['v_angle',['../d1/d20/csqcmodel__settings_8qh.html#a5730a5d99021203efb546d3b48f7b293',1,'v_angle():&#160;csqcmodel_settings.qh'],['../d6/d11/progsdefs_8qc.html#a5730a5d99021203efb546d3b48f7b293',1,'v_angle():&#160;progsdefs.qc'],['../d8/da6/interpolate_8qh.html#a5730a5d99021203efb546d3b48f7b293',1,'v_angle():&#160;interpolate.qh']]],
   ['v_5fangle_5fold',['v_angle_old',['../de/d70/common_2physics_2player_8qh.html#a363f777d30bb51c67376300a5d7f49be',1,'player.qh']]],
+  ['v_5fangle_5fsave_5fx',['v_angle_save_x',['../d3/dab/player__skeleton_8qc.html#a103f4dc65583cd958fee3006db624b87',1,'player_skeleton.qc']]],
+  ['v_5fangle_5fx',['v_angle_x',['../d3/dab/player__skeleton_8qc.html#a7a347d1dcbc13b5b02f82b0265c65403',1,'player_skeleton.qc']]],
   ['v_5fflipped',['v_flipped',['../d0/d84/teamradar_8qh.html#a2fbb0e049b8ff112c5308d22b6f416e9',1,'teamradar.qh']]],
   ['v_5fforward',['v_forward',['../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec',1,'v_forward():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#abc0e012c94ed572a5872822390265cec',1,'v_forward():&#160;progsdefs.qc']]],
   ['v_5fright',['v_right',['../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd',1,'v_right():&#160;csprogsdefs.qc'],['../d6/d11/progsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd',1,'v_right():&#160;progsdefs.qc']]],

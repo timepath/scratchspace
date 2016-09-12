@@ -1,5 +1,6 @@
 var NAVTREEINDEX100 =
 {
+"db/db1/classXonoticHUDRaceTimerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,188,37],
 "db/db1/classXonoticHUDRaceTimerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,188,41],
 "db/db1/classXonoticHUDRaceTimerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,188,85],
 "db/db1/classXonoticHUDRaceTimerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,188,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX100 =
 "db/dc4/classXonoticRadioButton.html#a7e5da022638f9a7158ac368d08e1255e":[1,0,219,38],
 "db/dc4/classXonoticRadioButton.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,219,0],
 "db/dc4/classXonoticRadioButton.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,219,80],
-"db/dc4/classXonoticRadioButton.html#a857ed24e31370bf4647b75c0e53aabeb":[1,0,219,57],
-"db/dc4/classXonoticRadioButton.html#a886e4df91aff3f4b1bda33666f8174d6":[1,0,219,87]
+"db/dc4/classXonoticRadioButton.html#a857ed24e31370bf4647b75c0e53aabeb":[1,0,219,57]
 };

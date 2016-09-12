@@ -146,20 +146,25 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
 
 <h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
 <li>v_angle
-: <a class="el" href="d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293">player_skeleton.qc</a>
-, <a class="el" href="d1/d20/csqcmodel__settings_8qh.html#a5730a5d99021203efb546d3b48f7b293">csqcmodel_settings.qh</a>
-, <a class="el" href="d8/da6/interpolate_8qh.html#a5730a5d99021203efb546d3b48f7b293">interpolate.qh</a>
+: <a class="el" href="d1/d20/csqcmodel__settings_8qh.html#a5730a5d99021203efb546d3b48f7b293">csqcmodel_settings.qh</a>
 , <a class="el" href="d6/d11/progsdefs_8qc.html#a5730a5d99021203efb546d3b48f7b293">progsdefs.qc</a>
+, <a class="el" href="d8/da6/interpolate_8qh.html#a5730a5d99021203efb546d3b48f7b293">interpolate.qh</a>
 </li>
 <li>v_angle_old
 : <a class="el" href="de/d70/common_2physics_2player_8qh.html#a363f777d30bb51c67376300a5d7f49be">player.qh</a>
+</li>
+<li>v_angle_save_x
+: <a class="el" href="d3/dab/player__skeleton_8qc.html#a103f4dc65583cd958fee3006db624b87">player_skeleton.qc</a>
+</li>
+<li>v_angle_x
+: <a class="el" href="d3/dab/player__skeleton_8qc.html#a7a347d1dcbc13b5b02f82b0265c65403">player_skeleton.qc</a>
 </li>
 <li>v_flipped
 : <a class="el" href="d0/d84/teamradar_8qh.html#a2fbb0e049b8ff112c5308d22b6f416e9">teamradar.qh</a>
 </li>
 <li>v_forward
-: <a class="el" href="d6/d11/progsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">progsdefs.qc</a>
-, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">csprogsdefs.qc</a>
+: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">csprogsdefs.qc</a>
+, <a class="el" href="d6/d11/progsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">progsdefs.qc</a>
 </li>
 <li>v_right
 : <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">csprogsdefs.qc</a>
@@ -214,9 +219,9 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
 : <a class="el" href="d6/d11/progsdefs_8qc.html#a8198cc56e0d5c089df0fe500436a533f">progsdefs.qc</a>
 </li>
 <li>VEC_HULL_MAX
-: <a class="el" href="d4/d92/csqc__constants_8qh.html#aa689452c5c16f85223faa80d29f01060">csqc_constants.qh</a>
+: <a class="el" href="d6/d11/progsdefs_8qc.html#a350af5b459189bbe8cac915ba426874b">progsdefs.qc</a>
+, <a class="el" href="d4/d92/csqc__constants_8qh.html#aa689452c5c16f85223faa80d29f01060">csqc_constants.qh</a>
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#a350af5b459189bbe8cac915ba426874b">csprogsdefs.qc</a>
-, <a class="el" href="d6/d11/progsdefs_8qc.html#a350af5b459189bbe8cac915ba426874b">progsdefs.qc</a>
 </li>
 <li>VEC_HULL_MIN
 : <a class="el" href="d4/d92/csqc__constants_8qh.html#a13bb669d9edcf92ecb053c4e52def090">csqc_constants.qh</a>
@@ -288,8 +293,8 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
 , <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ad62cbd9ca8f8c3d37fdff181832473f3">csprogsdefs.qc</a>
 </li>
 <li>VF_DRAWCROSSHAIR
-: <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ac7daddf6c2ee44a4429b55a90e9dae0e">csprogsdefs.qc</a>
-, <a class="el" href="d4/d92/csqc__constants_8qh.html#a1ba408e21d06fec874a81a7dd690840b">csqc_constants.qh</a>
+: <a class="el" href="d4/d92/csqc__constants_8qh.html#a1ba408e21d06fec874a81a7dd690840b">csqc_constants.qh</a>
+, <a class="el" href="d4/d0c/csprogsdefs_8qc.html#ac7daddf6c2ee44a4429b55a90e9dae0e">csprogsdefs.qc</a>
 </li>
 <li>VF_DRAWENGINEHUD
 : <a class="el" href="d4/d92/csqc__constants_8qh.html#ac5a44537c84a9294bee739215b975e62">csqc_constants.qh</a>
@@ -644,7 +649,7 @@ $(document).ready(function(){initNavTree('globals_vars_v.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Sep 11 2016 18:20:01 for Xonotic by
+    <li class="footer">Generated on Mon Sep 12 2016 12:50:11 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"db/d63/classXonoticColorpicker.html#afdcf1fb79903f747cda494b27206526b":[1,0,148,3],
 "db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc.html":[2,0,1,9,0,31,0],
 "db/d67/common_2mutators_2mutator_2vampire_2__mod_8inc_source.html":[2,0,1,9,0,31,0],
 "db/d73/campaign__setup_8qc.html":[2,0,1,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "db/d7f/effectinfo_8inc.html#a6615eb83025159892ae6176c1ca8267d":[2,0,1,2,7,373],
 "db/d7f/effectinfo_8inc.html#a6662b1b2335ed7790b9abe979cdfd140":[2,0,1,2,7,251],
 "db/d7f/effectinfo_8inc.html#a68464b94ec2df7ebd0a63582725b32c1":[2,0,1,2,7,122],
-"db/d7f/effectinfo_8inc.html#a6892a2d53ceb1974830e1aa6b5ebb581":[2,0,1,2,7,374],
-"db/d7f/effectinfo_8inc.html#a6922702602fa874b94f411da90e2b8c3":[2,0,1,2,7,112]
+"db/d7f/effectinfo_8inc.html#a6892a2d53ceb1974830e1aa6b5ebb581":[2,0,1,2,7,374]
 };

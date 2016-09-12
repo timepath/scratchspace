@@ -101,10 +101,11 @@ var NAVTREEINDEX28 =
 "d3/dab/dialog__uid2name_8qh_source.html":[2,0,5,4,163],
 "d3/dab/player__skeleton_8qc.html":[2,0,0,23],
 "d3/dab/player__skeleton_8qc.html#a0cdd10c9377413ff463d7ed749b362d0":[2,0,0,23,5],
+"d3/dab/player__skeleton_8qc.html#a103f4dc65583cd958fee3006db624b87":[2,0,0,23,9],
 "d3/dab/player__skeleton_8qc.html#a431b38d84a957df7a962ad2fc61f1435":[2,0,0,23,0],
 "d3/dab/player__skeleton_8qc.html#a475bb5589ccf136fb7b89c04120c832b":[2,0,0,23,4],
-"d3/dab/player__skeleton_8qc.html#a5730a5d99021203efb546d3b48f7b293":[2,0,0,23,9],
 "d3/dab/player__skeleton_8qc.html#a7510df630df322df48a246e7d6a71826":[2,0,0,23,8],
+"d3/dab/player__skeleton_8qc.html#a7a347d1dcbc13b5b02f82b0265c65403":[2,0,0,23,10],
 "d3/dab/player__skeleton_8qc.html#a7c80ef0cb8dccd72a620b9804160551f":[2,0,0,23,7],
 "d3/dab/player__skeleton_8qc.html#a7fe1291d377b2605a93fc789d164c073":[2,0,0,23,2],
 "d3/dab/player__skeleton_8qc.html#a9bd774b8fe11972d76dc2036e9d4af1f":[2,0,0,23,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d3/dba/classXonoticLanguageList.html#a7b13cdc101cd55528465440586a004f6":[1,0,199,59],
 "d3/dba/classXonoticLanguageList.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,199,14],
 "d3/dba/classXonoticLanguageList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,199,75],
-"d3/dba/classXonoticLanguageList.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,199,84],
-"d3/dba/classXonoticLanguageList.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,199,73]
+"d3/dba/classXonoticLanguageList.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,199,84]
 };

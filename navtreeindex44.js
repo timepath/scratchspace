@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"d4/df8/sv__touchexplode_8qc.html#ab2da020259852f12fecd17406af3f1cc":[2,0,1,9,0,30,2,4],
 "d4/df8/sv__touchexplode_8qc.html#aee22c52bdd9324ade054f74e10dd5b81":[2,0,1,9,0,30,2,3],
 "d4/df8/sv__touchexplode_8qc.html#afda6710b7209f4510fcdf238cc39c40b":[2,0,1,9,0,30,2,2],
 "d4/df8/sv__touchexplode_8qc_source.html":[2,0,1,9,0,30,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003":[2,0,6,21,174],
 "d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9":[2,0,6,21,10],
 "d5/d26/server_2defs_8qh.html#a5294a01cfccb2161bd3ab24c65e30778":[2,0,6,21,144],
-"d5/d26/server_2defs_8qh.html#a52958e5f9d90f62063dca39b9c584a67":[2,0,6,21,123],
-"d5/d26/server_2defs_8qh.html#a5320d5d56b57e2f1ffa6e137f496d2ef":[2,0,6,21,243]
+"d5/d26/server_2defs_8qh.html#a52958e5f9d90f62063dca39b9c584a67":[2,0,6,21,123]
 };
