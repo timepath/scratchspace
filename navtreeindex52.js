@@ -1,5 +1,6 @@
 var NAVTREEINDEX52 =
 {
+"d6/d1a/classMainWindow.html#a97b4525da5b97bc6a8da6889f0f10732":[1,0,72,10],
 "d6/d1a/classMainWindow.html#a9d8006ceb7047b2888170a128d54b5af":[1,0,72,14],
 "d6/d1a/classMainWindow.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,72,64],
 "d6/d1a/classMainWindow.html#aa19246ed962edd276063a2f76ab3974e":[1,0,72,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX52 =
 "d6/d37/flipflop_8qh.html":[2,0,1,13,3,9],
 "d6/d37/flipflop_8qh_source.html":[2,0,1,13,3,9],
 "d6/d38/urllib_8qc.html":[2,0,4,60],
-"d6/d38/urllib_8qc.html#a13d7537265eadfc81572f905fb71df3e":[2,0,4,60,20],
-"d6/d38/urllib_8qc.html#a14414a82016a6f9866c913f54c1ba7f8":[2,0,4,60,6]
+"d6/d38/urllib_8qc.html#a13d7537265eadfc81572f905fb71df3e":[2,0,4,60,20]
 };

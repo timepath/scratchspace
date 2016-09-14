@@ -48,6 +48,7 @@ var scoreboard_8qc =
     [ "autocvar_hud_panel_scoreboard_pos", "d3/d07/scoreboard_8qc.html#a817a37b1781c3e19814cae6eaa3b83a2", null ],
     [ "autocvar_hud_panel_scoreboard_respawntime_decimals", "d3/d07/scoreboard_8qc.html#a8334d135eb2ab47a6b716444247f34a8", null ],
     [ "autocvar_hud_panel_scoreboard_size", "d3/d07/scoreboard_8qc.html#a0015ad41a0711879cd9096d4cda0ab3b", null ],
+    [ "autocvar_hud_panel_scoreboard_spectators_aligned", "d3/d07/scoreboard_8qc.html#a6c99617f8d4adb4cd0de989583f36d2e", null ],
     [ "autocvar_hud_panel_scoreboard_spectators_showping", "d3/d07/scoreboard_8qc.html#a4109effdb21027025c460fb725045f74", null ],
     [ "autocvar_hud_panel_scoreboard_table_bg_alpha", "d3/d07/scoreboard_8qc.html#a7126ad7799dfc104042c7ec8baef7e04", null ],
     [ "autocvar_hud_panel_scoreboard_table_bg_scale", "d3/d07/scoreboard_8qc.html#a8cf61fd66e3aa8d5174eb669865b8264", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX128 =
 {
+"df/d92/classXonoticWinnerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,252,8],
 "df/d94/common_2triggers_2func_2button_8qh.html":[2,0,1,13,0,7],
 "df/d94/common_2triggers_2func_2button_8qh_source.html":[2,0,1,13,0,7],
 "df/d97/menu_2xonotic_2util_8qh.html":[2,0,5,4,229],
@@ -248,6 +249,5 @@ var NAVTREEINDEX128 =
 "df/dc2/menu_8qc.html#a844e5015c7d134d4dc7a682948215763":[2,0,5,17,13],
 "df/dc2/menu_8qc.html#a8478e5889ac71a1dafba755d9d2c041c":[2,0,5,17,14],
 "df/dc2/menu_8qc.html#a84cc3a524e6c987e53265442b1444dda":[2,0,5,17,47],
-"df/dc2/menu_8qc.html#a864c5b19ca30f7c22f12f0d7ebd55084":[2,0,5,17,22],
-"df/dc2/menu_8qc.html#a8da6c8bc0aa9a3708398bdbd5774de2b":[2,0,5,17,51]
+"df/dc2/menu_8qc.html#a864c5b19ca30f7c22f12f0d7ebd55084":[2,0,5,17,22]
 };

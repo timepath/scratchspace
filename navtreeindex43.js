@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"d4/dd1/spawnpoints_8qh.html#ac6bf8417de66cc27e1aad493335d2901":[2,0,6,62,1],
 "d4/dd1/spawnpoints_8qh_source.html":[2,0,6,62],
 "d4/dd2/vectormamamam_8qh.html":[2,0,1,13,0,37],
 "d4/dd2/vectormamamam_8qh_source.html":[2,0,1,13,0,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "d4/df8/sv__touchexplode_8qc.html#a0228a9d2666d52bfede21f623057a28c":[2,0,1,9,0,30,2,7],
 "d4/df8/sv__touchexplode_8qc.html#a1f57f0e89cdacbd3eea423c74aab783e":[2,0,1,9,0,30,2,6],
 "d4/df8/sv__touchexplode_8qc.html#a2cf518db3522b3c9f9a50a64d199656d":[2,0,1,9,0,30,2,0],
-"d4/df8/sv__touchexplode_8qc.html#a8dcb3e7f9e67cb4cd164f35b3aca50eb":[2,0,1,9,0,30,2,1],
-"d4/df8/sv__touchexplode_8qc.html#aa5b8411a2fbe2ecc99fd2f84a95cb9a8":[2,0,1,9,0,30,2,5]
+"d4/df8/sv__touchexplode_8qc.html#a8dcb3e7f9e67cb4cd164f35b3aca50eb":[2,0,1,9,0,30,2,1]
 };

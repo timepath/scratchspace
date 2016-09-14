@@ -1,5 +1,6 @@
 var NAVTREEINDEX90 =
 {
+"da/d9c/classXonoticMonsterToolsDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,206,28],
 "da/d9c/classXonoticMonsterToolsDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,206,57],
 "da/d9c/classXonoticMonsterToolsDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,206,34],
 "da/d9c/classXonoticMonsterToolsDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,206,42],
@@ -248,6 +249,5 @@ var NAVTREEINDEX90 =
 "da/db7/weaponsystem_8qh.html#a3eef678d2a46dc639f684d226fae3906":[2,0,6,4,21,10],
 "da/db7/weaponsystem_8qh.html#a460ba8ea4c78b7617eade17eb383d86b":[2,0,6,4,21,14],
 "da/db7/weaponsystem_8qh.html#a47ef99cc9d2abc943896ed64a5a1d5e6":[2,0,6,4,21,12],
-"da/db7/weaponsystem_8qh.html#a813254341767de735265a1836478ad03":[2,0,6,4,21,3],
-"da/db7/weaponsystem_8qh.html#a9bcd792c8ccabbcc22484eb7872f70b8":[2,0,6,4,21,7]
+"da/db7/weaponsystem_8qh.html#a813254341767de735265a1836478ad03":[2,0,6,4,21,3]
 };

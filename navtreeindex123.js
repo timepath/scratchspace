@@ -1,5 +1,6 @@
 var NAVTREEINDEX123 =
 {
+"de/d9c/classTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,122,84],
 "de/d9c/classTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,122,10],
 "de/da3/impulses_2all_8qc.html":[2,0,1,4,2],
 "de/da3/impulses_2all_8qc_source.html":[2,0,1,4,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX123 =
 "de/de7/classXonoticHUDItemsTimeDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,181,45],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,181,72],
 "de/de7/classXonoticHUDItemsTimeDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,181,76],
-"de/de7/classXonoticHUDItemsTimeDialog.html#a9f718a75f860a4ba336858d1b93c906b":[1,0,181,82],
-"de/de7/classXonoticHUDItemsTimeDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,181,65]
+"de/de7/classXonoticHUDItemsTimeDialog.html#a9f718a75f860a4ba336858d1b93c906b":[1,0,181,82]
 };

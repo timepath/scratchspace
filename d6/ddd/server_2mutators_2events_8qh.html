@@ -374,9 +374,9 @@ Macros</h2></td></tr>
 <tr class="memitem:aa2ce07ff9ff52dd9c190634742cc504c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aa2ce07ff9ff52dd9c190634742cc504c">EV_VehicleExit</a>(i, o)</td></tr>
 <tr class="memdesc:aa2ce07ff9ff52dd9c190634742cc504c"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a player exits a vehicle allows mutators to set special settings in this event  <a href="#aa2ce07ff9ff52dd9c190634742cc504c">More...</a><br/></td></tr>
 <tr class="separator:aa2ce07ff9ff52dd9c190634742cc504c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5029f92fbab1060636ef8c5379021834"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a5029f92fbab1060636ef8c5379021834">EV_VehicleSpawn</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d53/server_2impulse_8qc.html#a766a58a103676d6a17b6ccfb904a6f24">vehicle</a> */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
-<tr class="memdesc:a5029f92fbab1060636ef8c5379021834"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a vehicle initializes return true to remove the vehicle  <a href="#a5029f92fbab1060636ef8c5379021834">More...</a><br/></td></tr>
-<tr class="separator:a5029f92fbab1060636ef8c5379021834"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9477616cdf13b0f7df55f631b22cf589"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a9477616cdf13b0f7df55f631b22cf589">EV_VehicleInit</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d4/d53/server_2impulse_8qc.html#a766a58a103676d6a17b6ccfb904a6f24">vehicle</a> */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
+<tr class="memdesc:a9477616cdf13b0f7df55f631b22cf589"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a vehicle initializes return false to remove the vehicle  <a href="#a9477616cdf13b0f7df55f631b22cf589">More...</a><br/></td></tr>
+<tr class="separator:a9477616cdf13b0f7df55f631b22cf589"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb987800997fcc9d6e5ff435d09acc32"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#acb987800997fcc9d6e5ff435d09acc32">EV_VehicleTouch</a>(i, o)</td></tr>
 <tr class="memdesc:acb987800997fcc9d6e5ff435d09acc32"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a player touches a vehicle return true to stop player from entering the vehicle  <a href="#acb987800997fcc9d6e5ff435d09acc32">More...</a><br/></td></tr>
 <tr class="separator:acb987800997fcc9d6e5ff435d09acc32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -549,8 +549,8 @@ Functions</h2></td></tr>
 <tr class="separator:a0105146f13551bf05601d7c1db11618c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a225e26b05992bd5a6a5e24315cdab844"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a225e26b05992bd5a6a5e24315cdab844">MUTATOR_HOOKABLE</a> (HelpMePing, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#afe20c125db97db321cc1f17bef523b20">EV_HelpMePing</a>)</td></tr>
 <tr class="separator:a225e26b05992bd5a6a5e24315cdab844"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13f250ae892ac02c4ba599afb5fae319"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a13f250ae892ac02c4ba599afb5fae319">MUTATOR_HOOKABLE</a> (VehicleSpawn, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a5029f92fbab1060636ef8c5379021834">EV_VehicleSpawn</a>)</td></tr>
-<tr class="separator:a13f250ae892ac02c4ba599afb5fae319"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7a03386f02595325cd75c1f51ece220"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aa7a03386f02595325cd75c1f51ece220">MUTATOR_HOOKABLE</a> (VehicleInit, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a9477616cdf13b0f7df55f631b22cf589">EV_VehicleInit</a>)</td></tr>
+<tr class="separator:aa7a03386f02595325cd75c1f51ece220"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a148802c5a66be5ec47b70bcb88426606"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a148802c5a66be5ec47b70bcb88426606">MUTATOR_HOOKABLE</a> (VehicleEnter, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ab8607a32f2fcdce8d759e6dc24e0bbf6">EV_VehicleEnter</a>)</td></tr>
 <tr class="separator:a148802c5a66be5ec47b70bcb88426606"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f798d2c24bc1812407fee6329783713"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a7f798d2c24bc1812407fee6329783713">MUTATOR_HOOKABLE</a> (VehicleTouch, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#acb987800997fcc9d6e5ff435d09acc32">EV_VehicleTouch</a>)</td></tr>
@@ -3436,12 +3436,12 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5029f92fbab1060636ef8c5379021834"></a>
+<a class="anchor" id="a9477616cdf13b0f7df55f631b22cf589"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define EV_VehicleSpawn</td>
+          <td class="memname">#define EV_VehicleInit</td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname">i, </td>
@@ -3460,7 +3460,7 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>called when a vehicle initializes return true to remove the vehicle </p>
+<p>called when a vehicle initializes return false to remove the vehicle </p>
 
 <p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00534">534</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
@@ -5405,20 +5405,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a13f250ae892ac02c4ba599afb5fae319"></a>
+<a class="anchor" id="aa7a03386f02595325cd75c1f51ece220"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">MUTATOR_HOOKABLE </td>
           <td>(</td>
-          <td class="paramtype">VehicleSpawn&#160;</td>
+          <td class="paramtype">VehicleInit&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a5029f92fbab1060636ef8c5379021834">EV_VehicleSpawn</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a9477616cdf13b0f7df55f631b22cf589">EV_VehicleInit</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -6686,7 +6686,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Mon Sep 12 2016 14:08:58 for Xonotic by
+    <li class="footer">Generated on Wed Sep 14 2016 18:15:53 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"dc/d62/playerdemo_8qc.html#ac870df37ef4f23e3b7aaf053318ec803":[2,0,6,48,7],
 "dc/d62/playerdemo_8qc.html#afb0d1f5e5d9d7cb7bf08e5407382caa2":[2,0,6,48,3],
 "dc/d62/playerdemo_8qc_source.html":[2,0,6,48],
 "dc/d69/weapon_8qc.html":[2,0,1,3,0,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "dc/d80/gamemode__domination_8qc.html#acc57927d29b5d68c14431543dad3f3ae":[2,0,6,2,0,12,24],
 "dc/d80/gamemode__domination_8qc.html#ad0b46dc01448bf8b7cefa962469cefc9":[2,0,6,2,0,12,2],
 "dc/d80/gamemode__domination_8qc.html#ad784e17cc4faa6219328ab0a01afdbff":[2,0,6,2,0,12,21],
-"dc/d80/gamemode__domination_8qc.html#adc294e89142ff08f47d57c2df72c0bc9":[2,0,6,2,0,12,38],
-"dc/d80/gamemode__domination_8qc.html#ae2bad2494b8ccaf3e085a9b85a46a300":[2,0,6,2,0,12,15]
+"dc/d80/gamemode__domination_8qc.html#adc294e89142ff08f47d57c2df72c0bc9":[2,0,6,2,0,12,38]
 };
