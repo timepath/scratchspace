@@ -9,6 +9,7 @@ var g__damage_8qc =
     [ "Fire_ApplyEffect", "d5/dac/g__damage_8qc.html#afc5e9270d0757dc47de743b6bd4e33dc", null ],
     [ "Fire_IsBurning", "d5/dac/g__damage_8qc.html#a8203a172d47f7017f4e4be49ed0cddb8", null ],
     [ "fireburner_think", "d5/dac/g__damage_8qc.html#ac8e7365380b51642cac52fd3e70733aa", null ],
+    [ "frag_centermessage_override", "d5/dac/g__damage_8qc.html#ac6e64d0173ea3a8b8ac2f97dba0add11", null ],
     [ "Freeze", "d5/dac/g__damage_8qc.html#a2d30d51fdeb3f05c8ade32e74ca54a7c", null ],
     [ "GiveFrags", "d5/dac/g__damage_8qc.html#a8b8e7316613eee6bbf528c646d82128f", null ],
     [ "Ice_Think", "d5/dac/g__damage_8qc.html#a24aaf696797544264665df5f05253d1c", null ],

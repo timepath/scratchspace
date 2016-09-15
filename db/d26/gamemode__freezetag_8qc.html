@@ -192,6 +192,8 @@ Functions</h2></td></tr>
 <tr class="separator:a54228db2da14d29d031a06d013dfe284"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a153c91976b34fdfc0da213b379584027"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d26/gamemode__freezetag_8qc.html#a153c91976b34fdfc0da213b379584027">MUTATOR_HOOKFUNCTION</a> (ft, SetWeaponArena)</td></tr>
 <tr class="separator:a153c91976b34fdfc0da213b379584027"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a739c1a42bb0065bedbf6b64fe4a81ffa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d26/gamemode__freezetag_8qc.html#a739c1a42bb0065bedbf6b64fe4a81ffa">MUTATOR_HOOKFUNCTION</a> (ft, FragCenterMessage)</td></tr>
+<tr class="separator:a739c1a42bb0065bedbf6b64fe4a81ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a883dcd3e4f90a547637b26c3beaea8ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d26/gamemode__freezetag_8qc.html#a883dcd3e4f90a547637b26c3beaea8ed">nades_Clear</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>)</td></tr>
 <tr class="separator:a883dcd3e4f90a547637b26c3beaea8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6787cb86b4d6cd7f96bcf069a5a9f6d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d26/gamemode__freezetag_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3">nades_GiveBonus</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> player, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> <a class="el" href="../../d3/d05/hud_8qh.html#acb01d1b87c477a5435bec969d9e43d1c">score</a>)</td></tr>
@@ -341,7 +343,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>, <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00103">bluealive</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00039">FREEZETAG_ALIVE_TEAMS_OK</a>, <a class="el" href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00045">freezetag_teams</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00103">pinkalive</a>, <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00103">redalive</a>, <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00102">total_players</a>, and <a class="el" href="../../d3/d62/gamemode_8qh_source.html#l00103">yellowalive</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00568">freezetag_Initialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00581">freezetag_Initialize()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;{</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keyword">static</span> <span class="keywordtype">float</span> prev_missing_teams_mask;</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a9e9a8521c54e924036535cec46d0ea10">FREEZETAG_ALIVE_TEAMS_OK</a>())</div>
@@ -413,7 +415,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../dc/d8f/notifications_2all_8qh_source.html#l00077">APP_TEAM_NUM</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00005">autocvar_g_freezetag_round_timelimit</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00008">autocvar_g_freezetag_warmup</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00038">FREEZETAG_ALIVE_TEAMS</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00075">freezetag_getWinnerTeam()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc.html#a883dcd3e4f90a547637b26c3beaea8ed">nades_Clear()</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00024">round_handler_GetEndTime</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00066">round_handler_Init()</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00231">ST_SCORE</a>, <a class="el" href="../../d2/d79/scores_8qc_source.html#l00097">TeamScore_AddToTeam()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00568">freezetag_Initialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00581">freezetag_Initialize()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;{</div>
 <div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d20/round__handler_8qh.html#a3333ca7666a86449c9cce2487a77bd4f">round_handler_GetEndTime</a>() &gt; 0 &amp;&amp; <a class="code" href="../../db/d20/round__handler_8qh.html#a3333ca7666a86449c9cce2487a77bd4f">round_handler_GetEndTime</a>() - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt;= 0)</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    {</div>
@@ -579,7 +581,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00185">185</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
-<p>References <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00003">autocvar_g_freezetag_frozen_maxtime</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00515">Freeze()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00167">freezetag_Add_Score()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00017">freezetag_count_alive_players()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00003">autocvar_g_freezetag_frozen_maxtime</a>, <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00527">Freeze()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00167">freezetag_Add_Score()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00017">freezetag_count_alive_players()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00333">MUTATOR_HOOKFUNCTION()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;{</div>
@@ -599,7 +601,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="gamemode__freezetag_8qc_html_a3d98e12186be74e89930885ca4b6c4c5"><div class="ttname"><a href="../../db/d26/gamemode__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5">freezetag_count_alive_players</a></div><div class="ttdeci">void freezetag_count_alive_players()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d26/gamemode__freezetag_8qc_source.html#l00017">gamemode_freezetag.qc:17</a></div></div>
 <div class="ttc" id="gamemode__freezetag_8qc_html_a93cb74d10f623856d7c09250f69f4aac"><div class="ttname"><a href="../../db/d26/gamemode__freezetag_8qc.html#a93cb74d10f623856d7c09250f69f4aac">freezetag_Add_Score</a></div><div class="ttdeci">void freezetag_Add_Score(entity targ, entity attacker)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d26/gamemode__freezetag_8qc_source.html#l00167">gamemode_freezetag.qc:167</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
-<div class="ttc" id="g__damage_8qc_html_a2d30d51fdeb3f05c8ade32e74ca54a7c"><div class="ttname"><a href="../../d5/dac/g__damage_8qc.html#a2d30d51fdeb3f05c8ade32e74ca54a7c">Freeze</a></div><div class="ttdeci">void Freeze(entity targ, float freeze_time, float frozen_type, float show_waypoint)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00515">g_damage.qc:515</a></div></div>
+<div class="ttc" id="g__damage_8qc_html_a2d30d51fdeb3f05c8ade32e74ca54a7c"><div class="ttname"><a href="../../d5/dac/g__damage_8qc.html#a2d30d51fdeb3f05c8ade32e74ca54a7c">Freeze</a></div><div class="ttdeci">void Freeze(entity targ, float freeze_time, float frozen_type, float show_waypoint)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00527">g_damage.qc:527</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -698,31 +700,31 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00568">568</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00581">581</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
 <p>References <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00005">autocvar_g_freezetag_round_timelimit</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00006">autocvar_g_freezetag_teams</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00007">autocvar_g_freezetag_teams_override</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00008">autocvar_g_freezetag_warmup</a>, <a class="el" href="../../d5/d52/bits_8qh_source.html#l00005">BIT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00947">EliminatedPlayers_Init()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00041">freezetag_CheckTeams()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00103">freezetag_CheckWinner()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00208">freezetag_isEliminated()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00010">freezetag_ScoreRules()</a>, <a class="el" href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00045">freezetag_teams</a>, <a class="el" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null()</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00066">round_handler_Init()</a>, <a class="el" href="../../db/dfc/round__handler_8qc_source.html#l00084">round_handler_Spawn()</a>, and <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00004">teams</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00010">REGISTER_MUTATOR()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;{</div>
-<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;    <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> = <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a94b9e018bd0196f2a9aa0144797a046a">autocvar_g_freezetag_teams_override</a>;</div>
-<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> &lt; 2)</div>
-<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;        <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> = <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ac844ab0639b216a9a5ad4e220c6ff3cf">autocvar_g_freezetag_teams</a>;</div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(2, <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a>, 4);</div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;</div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a> = 0;</div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> &gt;= 1) teams |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(0);</div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> &gt;= 2) teams |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(1);</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> &gt;= 3) teams |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(2);</div>
-<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> &gt;= 4) teams |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(3);</div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;</div>
-<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;    <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> = <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a>; <span class="comment">// now set it?</span></div>
-<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a81cb8cf59439fb9ea8fecac73e5b5cfe">freezetag_ScoreRules</a>(<a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a>);</div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;</div>
-<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    <a class="code" href="../../db/dfc/round__handler_8qc.html#afa84ad6fb073b0cf1cbae7eb74f70e4c">round_handler_Spawn</a>(<a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ac023231c075589006f85b64807335440">freezetag_CheckTeams</a>, <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ab892780a2f94f5ca8d59d558efb23329">freezetag_CheckWinner</a>, <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>);</div>
-<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;    <a class="code" href="../../db/dfc/round__handler_8qc.html#a35bf06efb917c323c9e026476ca62978">round_handler_Init</a>(5, <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#aa4afe01babcb5b2c19b341f5d3e6d6ef">autocvar_g_freezetag_warmup</a>, <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ae3960f48d8c0d090b0eb6ce705f38ee8">autocvar_g_freezetag_round_timelimit</a>);</div>
-<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;</div>
-<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#aa721e0361c092a5999388d9ce9c707ce">EliminatedPlayers_Init</a>(<a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#aa2f9e02510c1dfd9bf88a8fd6a476f41">freezetag_isEliminated</a>);</div>
-<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;{</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;    <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> = <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a94b9e018bd0196f2a9aa0144797a046a">autocvar_g_freezetag_teams_override</a>;</div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> &lt; 2)</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;        <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> = <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ac844ab0639b216a9a5ad4e220c6ff3cf">autocvar_g_freezetag_teams</a>;</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;    <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(2, <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a>, 4);</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;    <span class="keywordtype">int</span> <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a> = 0;</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> &gt;= 1) teams |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(0);</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> &gt;= 2) teams |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(1);</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> &gt;= 3) teams |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(2);</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> &gt;= 4) teams |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(3);</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;    <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a> = <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a>; <span class="comment">// now set it?</span></div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;    <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a81cb8cf59439fb9ea8fecac73e5b5cfe">freezetag_ScoreRules</a>(<a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a>);</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;    <a class="code" href="../../db/dfc/round__handler_8qc.html#afa84ad6fb073b0cf1cbae7eb74f70e4c">round_handler_Spawn</a>(<a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ac023231c075589006f85b64807335440">freezetag_CheckTeams</a>, <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ab892780a2f94f5ca8d59d558efb23329">freezetag_CheckWinner</a>, <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>);</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    <a class="code" href="../../db/dfc/round__handler_8qc.html#a35bf06efb917c323c9e026476ca62978">round_handler_Init</a>(5, <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#aa4afe01babcb5b2c19b341f5d3e6d6ef">autocvar_g_freezetag_warmup</a>, <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ae3960f48d8c0d090b0eb6ce705f38ee8">autocvar_g_freezetag_round_timelimit</a>);</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;</div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#aa721e0361c092a5999388d9ce9c707ce">EliminatedPlayers_Init</a>(<a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#aa2f9e02510c1dfd9bf88a8fd6a476f41">freezetag_isEliminated</a>);</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;}</div>
 <div class="ttc" id="gamemode__freezetag_8qc_html_aa4afe01babcb5b2c19b341f5d3e6d6ef"><div class="ttname"><a href="../../db/d26/gamemode__freezetag_8qc.html#aa4afe01babcb5b2c19b341f5d3e6d6ef">autocvar_g_freezetag_warmup</a></div><div class="ttdeci">float autocvar_g_freezetag_warmup</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d26/gamemode__freezetag_8qc_source.html#l00008">gamemode_freezetag.qc:8</a></div></div>
 <div class="ttc" id="gamemode__freezetag_8qc_html_ac023231c075589006f85b64807335440"><div class="ttname"><a href="../../db/d26/gamemode__freezetag_8qc.html#ac023231c075589006f85b64807335440">freezetag_CheckTeams</a></div><div class="ttdeci">float freezetag_CheckTeams()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d26/gamemode__freezetag_8qc_source.html#l00041">gamemode_freezetag.qc:41</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_aa721e0361c092a5999388d9ce9c707ce"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#aa721e0361c092a5999388d9ce9c707ce">EliminatedPlayers_Init</a></div><div class="ttdeci">void EliminatedPlayers_Init(float(entity) isEliminated_func)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00947">miscfunctions.qc:947</a></div></div>
@@ -780,7 +782,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, and <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00568">freezetag_Initialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00581">freezetag_Initialize()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;{</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(e) &amp;&amp; (STAT(FROZEN, e) == 1 || <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(e)))</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
@@ -935,7 +937,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d2/d79/scores_8qc_source.html#l00152">ScoreInfo_SetLabel_PlayerScore()</a>, <a class="el" href="../../d5/d14/scores__rules_8qc_source.html#l00024">ScoreRules_basics()</a>, <a class="el" href="../../d5/d14/scores__rules_8qc_source.html#l00052">ScoreRules_basics_end()</a>, and <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00122">SFL_SORT_PRIO_PRIMARY</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00568">freezetag_Initialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00581">freezetag_Initialize()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;{</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d5/d14/scores__rules_8qc.html#ac67defd12e305443ab1cf4266ca03c8f">ScoreRules_basics</a>(<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#aae60b6f90eba2f5a0dc702b382500b0f">teams</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>, <a class="code" href="../../d0/d8b/common_2constants_8qh.html#aeada6745e1a86301721bd800dc3b869a">SFL_SORT_PRIO_PRIMARY</a>, <span class="keyword">true</span>); <span class="comment">// SFL_SORT_PRIO_PRIMARY</span></div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#a601d5f667de9976b2a1ca7f6fc6051de">ScoreInfo_SetLabel_PlayerScore</a>(SP_FREEZETAG_REVIVALS, <span class="stringliteral">&quot;revivals&quot;</span>, 0);</div>
@@ -985,7 +987,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00200">200</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00041">freezetag_frozen_time</a>, <a class="el" href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00042">freezetag_frozen_timeout</a>, and <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00557">Unfreeze()</a>.</p>
+<p>References <a class="el" href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00041">freezetag_frozen_time</a>, <a class="el" href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00042">freezetag_frozen_timeout</a>, and <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00569">Unfreeze()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00309">ft_RemovePlayer()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00333">MUTATOR_HOOKFUNCTION()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;{</div>
@@ -994,7 +996,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <a class="code" href="../../d5/dac/g__damage_8qc.html#a705ff21e2e789e10d1eeb3bd16f97c86">Unfreeze</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;}</div>
-<div class="ttc" id="g__damage_8qc_html_a705ff21e2e789e10d1eeb3bd16f97c86"><div class="ttname"><a href="../../d5/dac/g__damage_8qc.html#a705ff21e2e789e10d1eeb3bd16f97c86">Unfreeze</a></div><div class="ttdeci">void Unfreeze(entity targ)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00557">g_damage.qc:557</a></div></div>
+<div class="ttc" id="g__damage_8qc_html_a705ff21e2e789e10d1eeb3bd16f97c86"><div class="ttname"><a href="../../d5/dac/g__damage_8qc.html#a705ff21e2e789e10d1eeb3bd16f97c86">Unfreeze</a></div><div class="ttdeci">void Unfreeze(entity targ)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l00569">g_damage.qc:569</a></div></div>
 <div class="ttc" id="gamemode__freezetag_8qh_html_a5c7d231b29848dbe9e992548d57958bb"><div class="ttname"><a href="../../d8/d89/gamemode__freezetag_8qh.html#a5c7d231b29848dbe9e992548d57958bb">freezetag_frozen_timeout</a></div><div class="ttdeci">float freezetag_frozen_timeout</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00042">gamemode_freezetag.qh:42</a></div></div>
 <div class="ttc" id="gamemode__freezetag_8qh_html_aab6e5dd351a36e1a298791aceb0a13a3"><div class="ttname"><a href="../../d8/d89/gamemode__freezetag_8qh.html#aab6e5dd351a36e1a298791aceb0a13a3">freezetag_frozen_time</a></div><div class="ttdeci">float freezetag_frozen_time</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00041">gamemode_freezetag.qh:41</a></div></div>
 </div><!-- fragment -->
@@ -1177,7 +1179,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00008">autocvar_bot_ai_strategyinterval</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00030">bot_strategytime</a>, <a class="el" href="../../db/deb/roles_8qc_source.html#l00121">havocbot_goalrating_enemyplayers()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00223">havocbot_goalrating_freeplayers()</a>, <a class="el" href="../../db/deb/roles_8qc_source.html#l00016">havocbot_goalrating_items()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00241">havocbot_role_ft_offense()</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00032">havocbot_role_timeout</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00971">navigation_goalrating_end()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00957">navigation_goalrating_start()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">origin</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00241">havocbot_role_ft_offense()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00541">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00241">havocbot_role_ft_offense()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00537">MUTATOR_HOOKFUNCTION()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;{</div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(<span class="keyword">this</span>))</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;        <span class="keywordflow">return</span>;</div>
@@ -1260,7 +1262,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00008">autocvar_bot_ai_strategyinterval</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00030">bot_strategytime</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../db/deb/roles_8qc_source.html#l00121">havocbot_goalrating_enemyplayers()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00223">havocbot_goalrating_freeplayers()</a>, <a class="el" href="../../db/deb/roles_8qc_source.html#l00016">havocbot_goalrating_items()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00275">havocbot_role_ft_freeing()</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00032">havocbot_role_timeout</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>, <a class="el" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00971">navigation_goalrating_end()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00957">navigation_goalrating_start()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">origin</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00177">SAME_TEAM</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00275">havocbot_role_ft_freeing()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00541">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00275">havocbot_role_ft_freeing()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00537">MUTATOR_HOOKFUNCTION()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;{</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(<span class="keyword">this</span>))</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        <span class="keywordflow">return</span>;</div>
@@ -1505,15 +1507,11 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;    }</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    {</div>
-<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(frag_target))</div>
-<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;            Send_Notification(NOTIF_ONE, frag_target, MSG_CENTER, CENTER_FREEZETAG_FROZEN, frag_attacker.netname);</div>
-<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(frag_attacker))</div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;            Send_Notification(NOTIF_ONE, frag_attacker, MSG_CENTER, CENTER_FREEZETAG_FREEZE, frag_target.netname);</div>
-<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_FREEZETAG_FREEZE, frag_target.netname, frag_attacker.netname);</div>
-<div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;    }</div>
-<div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160;</div>
-<div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;}</div>
+<div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;        Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_FREEZETAG_FREEZE, frag_target.netname, frag_attacker.netname);</div>
+<div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    }</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="round__handler_8qh_html_a329096694bbb90b286bf875e4f7ee0b0"><div class="ttname"><a href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a></div><div class="ttdeci">#define round_handler_IsActive()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d20/round__handler_8qh_source.html#l00020">round_handler.qh:20</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
@@ -1563,32 +1561,32 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00391">391</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00387">387</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00017">freezetag_count_alive_players()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00185">freezetag_Freeze()</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00020">round_handler_IsActive</a>, and <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00023">round_handler_IsRoundStarted</a>.</p>
-<div class="fragment"><div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;{</div>
-<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;</div>
-<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    <span class="keywordflow">if</span>(player.freezetag_frozen_timeout == -1) <span class="comment">// if PlayerSpawn is called by reset_map_players</span></div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>; <span class="comment">// do nothing, round is starting right now</span></div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    <span class="keywordflow">if</span>(player.freezetag_frozen_timeout == -2) <span class="comment">// player was dead</span></div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    {</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;        <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ac6cbd41d5275a595f81c748f405fef7a">freezetag_Freeze</a>(player, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    }</div>
-<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;</div>
-<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5">freezetag_count_alive_players</a>();</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;</div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a>())</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2">round_handler_IsRoundStarted</a>())</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    {</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        Send_Notification(NOTIF_ONE, player, MSG_CENTER, CENTER_FREEZETAG_SPAWN_LATE);</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;        <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ac6cbd41d5275a595f81c748f405fef7a">freezetag_Freeze</a>(player, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    }</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;{</div>
+<div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;    <span class="keywordflow">if</span>(player.freezetag_frozen_timeout == -1) <span class="comment">// if PlayerSpawn is called by reset_map_players</span></div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>; <span class="comment">// do nothing, round is starting right now</span></div>
+<div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;</div>
+<div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    <span class="keywordflow">if</span>(player.freezetag_frozen_timeout == -2) <span class="comment">// player was dead</span></div>
+<div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;    {</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;        <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ac6cbd41d5275a595f81c748f405fef7a">freezetag_Freeze</a>(player, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    }</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5">freezetag_count_alive_players</a>();</div>
+<div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;</div>
+<div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a>())</div>
+<div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2">round_handler_IsRoundStarted</a>())</div>
+<div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;    {</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;        Send_Notification(NOTIF_ONE, player, MSG_CENTER, CENTER_FREEZETAG_SPAWN_LATE);</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;        <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#ac6cbd41d5275a595f81c748f405fef7a">freezetag_Freeze</a>(player, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    }</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;}</div>
 <div class="ttc" id="round__handler_8qh_html_a329096694bbb90b286bf875e4f7ee0b0"><div class="ttname"><a href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a></div><div class="ttdeci">#define round_handler_IsActive()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d20/round__handler_8qh_source.html#l00020">round_handler.qh:20</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="gamemode__freezetag_8qc_html_a3d98e12186be74e89930885ca4b6c4c5"><div class="ttname"><a href="../../db/d26/gamemode__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5">freezetag_count_alive_players</a></div><div class="ttdeci">void freezetag_count_alive_players()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d26/gamemode__freezetag_8qc_source.html#l00017">gamemode_freezetag.qc:17</a></div></div>
@@ -1633,19 +1631,19 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00416">416</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00412">412</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
 <p>References <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00017">freezetag_count_alive_players()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>, and <a class="el" href="../../df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a">PutClientInServer()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;{</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        it.killcount = 0;</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        it.freezetag_frozen_timeout = -1;</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        <a class="code" href="../../df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a">PutClientInServer</a>(it);</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        it.freezetag_frozen_timeout = 0;</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    ));</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5">freezetag_count_alive_players</a>();</div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;{</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        it.killcount = 0;</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        it.freezetag_frozen_timeout = -1;</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;        <a class="code" href="../../df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a">PutClientInServer</a>(it);</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;        it.freezetag_frozen_timeout = 0;</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    ));</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5">freezetag_count_alive_players</a>();</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="gamemode__freezetag_8qc_html_a3d98e12186be74e89930885ca4b6c4c5"><div class="ttname"><a href="../../db/d26/gamemode__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5">freezetag_count_alive_players</a></div><div class="ttdeci">void freezetag_count_alive_players()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d26/gamemode__freezetag_8qc_source.html#l00017">gamemode_freezetag.qc:17</a></div></div>
 <div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
@@ -1694,13 +1692,13 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00428">428</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00424">424</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;{</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <span class="keywordtype">float</span>) = 0; <span class="comment">// no frags counted in Freeze Tag</span></div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;{</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(2, <span class="keywordtype">float</span>) = 0; <span class="comment">// no frags counted in Freeze Tag</span></div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;}</div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -1735,101 +1733,101 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00434">434</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00430">430</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
 <p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00074">autocvar_g_balance_pause_health_regen</a>, <a class="el" href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00049">autocvar_g_freezetag_revive_extra_size</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00080">boxesoverlap()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d5/d26/server_2defs_8qh_source.html#l00132">gameover</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00020">round_handler_IsActive</a>, <a class="el" href="../../db/d20/round__handler_8qh_source.html#l00023">round_handler_IsRoundStarted</a>, <a class="el" href="../../db/d07/teams_8qh_source.html#l00177">SAME_TEAM</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;{</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a3ba73e1a51134c9d261efef0d3e07723">gameover</a>)</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;</div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;</div>
-<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    <span class="keywordflow">if</span>(STAT(FROZEN, player) == 1)</div>
-<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    {</div>
-<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;        <span class="comment">// keep health = 1</span></div>
-<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;        player.pauseregen_finished = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ad3662de5cf14d2c41af014ee0928c91c">autocvar_g_balance_pause_health_regen</a>;</div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;{</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a3ba73e1a51134c9d261efef0d3e07723">gameover</a>)</div>
+<div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;</div>
+<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;    <span class="keywordflow">if</span>(STAT(FROZEN, player) == 1)</div>
+<div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;    {</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;        <span class="comment">// keep health = 1</span></div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;        player.pauseregen_finished = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../d7/da7/server_2autocvars_8qh.html#ad3662de5cf14d2c41af014ee0928c91c">autocvar_g_balance_pause_health_regen</a>;</div>
+<div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;    }</div>
+<div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;</div>
+<div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a>())</div>
+<div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2">round_handler_IsRoundStarted</a>())</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;</div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a>())</div>
-<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2">round_handler_IsRoundStarted</a>())</div>
-<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;</div>
-<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    <span class="keywordtype">int</span> n;</div>
-<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;</div>
-<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> o;</div>
-<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;    o = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <span class="comment">//if(STAT(FROZEN, player))</span></div>
-<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;    <span class="comment">//if(player.freezetag_frozen_timeout &gt; 0 &amp;&amp; time &lt; player.freezetag_frozen_timeout)</span></div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;        <span class="comment">//player.iceblock.alpha = ICE_MIN_ALPHA + (ICE_MAX_ALPHA - ICE_MIN_ALPHA) * (player.freezetag_frozen_timeout - time) / (player.freezetag_frozen_timeout - player.freezetag_frozen_time);</span></div>
-<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;</div>
-<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;    <span class="keywordflow">if</span>(player.freezetag_frozen_timeout &gt; 0 &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= player.freezetag_frozen_timeout)</div>
-<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;        n = -1;</div>
-<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;    {</div>
-<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> revive_extra_size = <span class="stringliteral">&#39;1 1 1&#39;</span> * <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#a5c3fd51f9babdfe94b95378108bb0e2f">autocvar_g_freezetag_revive_extra_size</a>;</div>
-<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;        n = 0;</div>
-<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != player, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;            <span class="keywordflow">if</span>(STAT(FROZEN, it) == 0)</div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;            <span class="keywordflow">if</span>(!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(it))</div>
-<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(it, player))</div>
-<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#a3385b15af8ffd7f5c33d2fbb3a9eb237">boxesoverlap</a>(player.absmin - revive_extra_size, player.absmax + revive_extra_size, it.absmin, it.absmax))</div>
-<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;            {</div>
-<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;                <span class="keywordflow">if</span>(!o)</div>
-<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;                    o = it;</div>
-<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;                <span class="keywordflow">if</span>(STAT(FROZEN, player) == 1)</div>
-<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;                    it.reviving = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;                ++n;</div>
-<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;            }</div>
-<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;        ));</div>
-<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;</div>
-<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;    }</div>
-<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;</div>
-<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;    <span class="keywordflow">if</span>(n &amp;&amp; STAT(FROZEN, player) == 1) <span class="comment">// OK, there is at least one teammate reviving us</span></div>
-<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;    {</div>
-<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;        player.revive_progress = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, player.revive_progress + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(1/60, <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#a17e55bd8fb82ddd763d5fd3d506fdc5d">autocvar_g_freezetag_revive_speed</a>), 1);</div>
-<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;        player.health = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(1, player.revive_progress * ((<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>) ? <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a963375e0503f2f80f21fa12935491751">warmup_start_health</a> : <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c">start_health</a>));</div>
-<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;</div>
-<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;        <span class="keywordflow">if</span>(player.revive_progress &gt;= 1)</div>
-<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;        {</div>
-<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;            <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#af1bed3fb86fc2e983e247cc0307a4107">freezetag_Unfreeze</a>(player);</div>
-<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;            <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5">freezetag_count_alive_players</a>();</div>
-<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;</div>
-<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;            <span class="keywordflow">if</span>(n == -1)</div>
-<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;            {</div>
-<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;                Send_Notification(NOTIF_ONE, player, MSG_CENTER, CENTER_FREEZETAG_AUTO_REVIVED, <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a6bad026909fd3ebf5a26bbcffe736ae0">autocvar_g_freezetag_frozen_maxtime</a>);</div>
-<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;                Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_FREEZETAG_AUTO_REVIVED, player.netname, <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a6bad026909fd3ebf5a26bbcffe736ae0">autocvar_g_freezetag_frozen_maxtime</a>);</div>
-<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;            }</div>
-<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;</div>
-<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;            <span class="comment">// EVERY team mate nearby gets a point (even if multiple!)</span></div>
-<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;            <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it.reviving, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;                <a class="code" href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a>(it, SP_FREEZETAG_REVIVALS, +1);</div>
-<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;                <a class="code" href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a>(it, SP_SCORE, +1);</div>
-<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;                <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3">nades_GiveBonus</a>(it,<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a2b7d5f525f50d50fb79b757a3dd73887">autocvar_g_nades_bonus_score_low</a>);</div>
-<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;            ));</div>
-<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;</div>
-<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;            Send_Notification(NOTIF_ONE, player, MSG_CENTER, CENTER_FREEZETAG_REVIVED, o.netname);</div>
-<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;            Send_Notification(NOTIF_ONE, o, MSG_CENTER, CENTER_FREEZETAG_REVIVE, player.netname);</div>
-<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;            Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_FREEZETAG_REVIVED, player.netname, o.netname);</div>
-<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;        }</div>
-<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;</div>
-<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it.reviving, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;            it.revive_progress = player.revive_progress;</div>
-<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;            it.reviving = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;        ));</div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;    }</div>
-<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!n &amp;&amp; STAT(FROZEN, player) == 1) <span class="comment">// only if no teammate is nearby will we reset</span></div>
-<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    {</div>
-<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;        player.revive_progress = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, player.revive_progress - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a681a7c1a8659414873074fec7482fabe">autocvar_g_freezetag_revive_clearspeed</a>, 1);</div>
-<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;        player.health = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(1, player.revive_progress * ((<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>) ? <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a963375e0503f2f80f21fa12935491751">warmup_start_health</a> : <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c">start_health</a>));</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;    <span class="keywordtype">int</span> n;</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;</div>
+<div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> o;</div>
+<div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;    o = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
+<div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160;    <span class="comment">//if(STAT(FROZEN, player))</span></div>
+<div class="line"><a name="l00452"></a><span class="lineno">  452</span>&#160;    <span class="comment">//if(player.freezetag_frozen_timeout &gt; 0 &amp;&amp; time &lt; player.freezetag_frozen_timeout)</span></div>
+<div class="line"><a name="l00453"></a><span class="lineno">  453</span>&#160;        <span class="comment">//player.iceblock.alpha = ICE_MIN_ALPHA + (ICE_MAX_ALPHA - ICE_MIN_ALPHA) * (player.freezetag_frozen_timeout - time) / (player.freezetag_frozen_timeout - player.freezetag_frozen_time);</span></div>
+<div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;</div>
+<div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    <span class="keywordflow">if</span>(player.freezetag_frozen_timeout &gt; 0 &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= player.freezetag_frozen_timeout)</div>
+<div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        n = -1;</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;    {</div>
+<div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> revive_extra_size = <span class="stringliteral">&#39;1 1 1&#39;</span> * <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#a5c3fd51f9babdfe94b95378108bb0e2f">autocvar_g_freezetag_revive_extra_size</a>;</div>
+<div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;        n = 0;</div>
+<div class="line"><a name="l00461"></a><span class="lineno">  461</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != player, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00462"></a><span class="lineno">  462</span>&#160;            <span class="keywordflow">if</span>(STAT(FROZEN, it) == 0)</div>
+<div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;            <span class="keywordflow">if</span>(!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(it))</div>
+<div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../db/d07/teams_8qh.html#a20256da9a327868240f1e864e6051ad4">SAME_TEAM</a>(it, player))</div>
+<div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/df2/common_2util_8qh.html#a3385b15af8ffd7f5c33d2fbb3a9eb237">boxesoverlap</a>(player.absmin - revive_extra_size, player.absmax + revive_extra_size, it.absmin, it.absmax))</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;            {</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;                <span class="keywordflow">if</span>(!o)</div>
+<div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;                    o = it;</div>
+<div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;                <span class="keywordflow">if</span>(STAT(FROZEN, player) == 1)</div>
+<div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;                    it.reviving = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00471"></a><span class="lineno">  471</span>&#160;                ++n;</div>
+<div class="line"><a name="l00472"></a><span class="lineno">  472</span>&#160;            }</div>
+<div class="line"><a name="l00473"></a><span class="lineno">  473</span>&#160;        ));</div>
+<div class="line"><a name="l00474"></a><span class="lineno">  474</span>&#160;</div>
+<div class="line"><a name="l00475"></a><span class="lineno">  475</span>&#160;    }</div>
+<div class="line"><a name="l00476"></a><span class="lineno">  476</span>&#160;</div>
+<div class="line"><a name="l00477"></a><span class="lineno">  477</span>&#160;    <span class="keywordflow">if</span>(n &amp;&amp; STAT(FROZEN, player) == 1) <span class="comment">// OK, there is at least one teammate reviving us</span></div>
+<div class="line"><a name="l00478"></a><span class="lineno">  478</span>&#160;    {</div>
+<div class="line"><a name="l00479"></a><span class="lineno">  479</span>&#160;        player.revive_progress = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, player.revive_progress + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(1/60, <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#a17e55bd8fb82ddd763d5fd3d506fdc5d">autocvar_g_freezetag_revive_speed</a>), 1);</div>
+<div class="line"><a name="l00480"></a><span class="lineno">  480</span>&#160;        player.health = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(1, player.revive_progress * ((<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>) ? <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a963375e0503f2f80f21fa12935491751">warmup_start_health</a> : <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c">start_health</a>));</div>
+<div class="line"><a name="l00481"></a><span class="lineno">  481</span>&#160;</div>
+<div class="line"><a name="l00482"></a><span class="lineno">  482</span>&#160;        <span class="keywordflow">if</span>(player.revive_progress &gt;= 1)</div>
+<div class="line"><a name="l00483"></a><span class="lineno">  483</span>&#160;        {</div>
+<div class="line"><a name="l00484"></a><span class="lineno">  484</span>&#160;            <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#af1bed3fb86fc2e983e247cc0307a4107">freezetag_Unfreeze</a>(player);</div>
+<div class="line"><a name="l00485"></a><span class="lineno">  485</span>&#160;            <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a3d98e12186be74e89930885ca4b6c4c5">freezetag_count_alive_players</a>();</div>
+<div class="line"><a name="l00486"></a><span class="lineno">  486</span>&#160;</div>
+<div class="line"><a name="l00487"></a><span class="lineno">  487</span>&#160;            <span class="keywordflow">if</span>(n == -1)</div>
+<div class="line"><a name="l00488"></a><span class="lineno">  488</span>&#160;            {</div>
+<div class="line"><a name="l00489"></a><span class="lineno">  489</span>&#160;                Send_Notification(NOTIF_ONE, player, MSG_CENTER, CENTER_FREEZETAG_AUTO_REVIVED, <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a6bad026909fd3ebf5a26bbcffe736ae0">autocvar_g_freezetag_frozen_maxtime</a>);</div>
+<div class="line"><a name="l00490"></a><span class="lineno">  490</span>&#160;                Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_FREEZETAG_AUTO_REVIVED, player.netname, <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a6bad026909fd3ebf5a26bbcffe736ae0">autocvar_g_freezetag_frozen_maxtime</a>);</div>
+<div class="line"><a name="l00491"></a><span class="lineno">  491</span>&#160;                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00492"></a><span class="lineno">  492</span>&#160;            }</div>
+<div class="line"><a name="l00493"></a><span class="lineno">  493</span>&#160;</div>
+<div class="line"><a name="l00494"></a><span class="lineno">  494</span>&#160;            <span class="comment">// EVERY team mate nearby gets a point (even if multiple!)</span></div>
+<div class="line"><a name="l00495"></a><span class="lineno">  495</span>&#160;            <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it.reviving, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00496"></a><span class="lineno">  496</span>&#160;                <a class="code" href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a>(it, SP_FREEZETAG_REVIVALS, +1);</div>
+<div class="line"><a name="l00497"></a><span class="lineno">  497</span>&#160;                <a class="code" href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a>(it, SP_SCORE, +1);</div>
+<div class="line"><a name="l00498"></a><span class="lineno">  498</span>&#160;                <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3">nades_GiveBonus</a>(it,<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a2b7d5f525f50d50fb79b757a3dd73887">autocvar_g_nades_bonus_score_low</a>);</div>
+<div class="line"><a name="l00499"></a><span class="lineno">  499</span>&#160;            ));</div>
+<div class="line"><a name="l00500"></a><span class="lineno">  500</span>&#160;</div>
+<div class="line"><a name="l00501"></a><span class="lineno">  501</span>&#160;            Send_Notification(NOTIF_ONE, player, MSG_CENTER, CENTER_FREEZETAG_REVIVED, o.netname);</div>
+<div class="line"><a name="l00502"></a><span class="lineno">  502</span>&#160;            Send_Notification(NOTIF_ONE, o, MSG_CENTER, CENTER_FREEZETAG_REVIVE, player.netname);</div>
+<div class="line"><a name="l00503"></a><span class="lineno">  503</span>&#160;            Send_Notification(NOTIF_ALL, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, MSG_INFO, INFO_FREEZETAG_REVIVED, player.netname, o.netname);</div>
+<div class="line"><a name="l00504"></a><span class="lineno">  504</span>&#160;        }</div>
+<div class="line"><a name="l00505"></a><span class="lineno">  505</span>&#160;</div>
+<div class="line"><a name="l00506"></a><span class="lineno">  506</span>&#160;        <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it.reviving, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00507"></a><span class="lineno">  507</span>&#160;            it.revive_progress = player.revive_progress;</div>
+<div class="line"><a name="l00508"></a><span class="lineno">  508</span>&#160;            it.reviving = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;        ));</div>
+<div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;    }</div>
+<div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!n &amp;&amp; STAT(FROZEN, player) == 1) <span class="comment">// only if no teammate is nearby will we reset</span></div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    {</div>
+<div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;        player.revive_progress = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, player.revive_progress - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a491da4d42d2639395d76dcf8d9d1dff4">frametime</a> * <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a681a7c1a8659414873074fec7482fabe">autocvar_g_freezetag_revive_clearspeed</a>, 1);</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;        player.health = <a class="code" href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a>(1, player.revive_progress * ((<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>) ? <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a963375e0503f2f80f21fa12935491751">warmup_start_health</a> : <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c">start_health</a>));</div>
+<div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    }</div>
+<div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!n &amp;&amp; !STAT(FROZEN, player))</div>
+<div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;    {</div>
+<div class="line"><a name="l00518"></a><span class="lineno">  518</span>&#160;        player.revive_progress = 0; <span class="comment">// thawing nobody</span></div>
 <div class="line"><a name="l00519"></a><span class="lineno">  519</span>&#160;    }</div>
-<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(!n &amp;&amp; !STAT(FROZEN, player))</div>
-<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    {</div>
-<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        player.revive_progress = 0; <span class="comment">// thawing nobody</span></div>
-<div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;    }</div>
-<div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;</div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;}</div>
+<div class="line"><a name="l00520"></a><span class="lineno">  520</span>&#160;</div>
+<div class="line"><a name="l00521"></a><span class="lineno">  521</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="round__handler_8qh_html_a329096694bbb90b286bf875e4f7ee0b0"><div class="ttname"><a href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a></div><div class="ttdeci">#define round_handler_IsActive()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d20/round__handler_8qh_source.html#l00020">round_handler.qh:20</a></div></div>
 <div class="ttc" id="gamemode__freezetag_8qc_html_a6bad026909fd3ebf5a26bbcffe736ae0"><div class="ttname"><a href="../../db/d26/gamemode__freezetag_8qc.html#a6bad026909fd3ebf5a26bbcffe736ae0">autocvar_g_freezetag_frozen_maxtime</a></div><div class="ttdeci">float autocvar_g_freezetag_frozen_maxtime</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d26/gamemode__freezetag_8qc_source.html#l00003">gamemode_freezetag.qc:3</a></div></div>
@@ -1897,20 +1895,20 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00528">528</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00524">524</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar()</a>, <a class="el" href="../../d7/d7c/common_2items_2item_8qh_source.html#l00037">IT_UNLIMITED_AMMO</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00220">start_ammo_cells</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00222">start_ammo_fuel</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00218">start_ammo_nails</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00221">start_ammo_plasma</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00219">start_ammo_rockets</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00217">start_ammo_shells</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00216">start_items</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00232">warmup_start_ammo_cells</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00234">warmup_start_ammo_fuel</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00230">warmup_start_ammo_nails</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00233">warmup_start_ammo_plasma</a>, <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00231">warmup_start_ammo_rockets</a>, and <a class="el" href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00229">warmup_start_ammo_shells</a>.</p>
-<div class="fragment"><div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;{</div>
-<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3f595687f904e846427f62493b2604a7">start_items</a> &amp;= ~<a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#aa08f773cdabdb2324207d3f5e5c2e720">IT_UNLIMITED_AMMO</a>;</div>
-<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    <span class="comment">//start_health       = warmup_start_health       = cvar(&quot;g_lms_start_health&quot;);</span></div>
-<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    <span class="comment">//start_armorvalue   = warmup_start_armorvalue   = cvar(&quot;g_lms_start_armor&quot;);</span></div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a32e9dc7397ed2efb16728c179619f055">start_ammo_shells</a>  = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3864dd00e6d914869ec70d29a30001a6">warmup_start_ammo_shells</a>  = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_shells&quot;</span>);</div>
-<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#afa5b6b9b11e103384aea86a33686e3b5">start_ammo_nails</a>   = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a4fec95089b2ad5e082110cce0cf1c675">warmup_start_ammo_nails</a>   = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_nails&quot;</span>);</div>
-<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#aa6cd6a7f0551ed5aaa6edcf165bb57ce">start_ammo_rockets</a> = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a34150498ceb2cfaa7494e6edbbddba51">warmup_start_ammo_rockets</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_rockets&quot;</span>);</div>
-<div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a86850d40c80e49615e642ecadbac799a">start_ammo_cells</a>   = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a281a1d8106f02c4e9aa8208da1747e1b">warmup_start_ammo_cells</a>   = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_cells&quot;</span>);</div>
-<div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a45de322f5684f06494c7386de6c06da0">start_ammo_plasma</a>  = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a8c9367e376b1fe800979f7f3c3460a5f">warmup_start_ammo_plasma</a>  = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_plasma&quot;</span>);</div>
-<div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3c72b53854b08604a60086ad28dca2fb">start_ammo_fuel</a>    = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ad191ebfe2ae9f209e0284fdf4c5e520f">warmup_start_ammo_fuel</a>    = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_fuel&quot;</span>);</div>
-<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;{</div>
+<div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3f595687f904e846427f62493b2604a7">start_items</a> &amp;= ~<a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#aa08f773cdabdb2324207d3f5e5c2e720">IT_UNLIMITED_AMMO</a>;</div>
+<div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;    <span class="comment">//start_health       = warmup_start_health       = cvar(&quot;g_lms_start_health&quot;);</span></div>
+<div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;    <span class="comment">//start_armorvalue   = warmup_start_armorvalue   = cvar(&quot;g_lms_start_armor&quot;);</span></div>
+<div class="line"><a name="l00529"></a><span class="lineno">  529</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a32e9dc7397ed2efb16728c179619f055">start_ammo_shells</a>  = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3864dd00e6d914869ec70d29a30001a6">warmup_start_ammo_shells</a>  = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_shells&quot;</span>);</div>
+<div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#afa5b6b9b11e103384aea86a33686e3b5">start_ammo_nails</a>   = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a4fec95089b2ad5e082110cce0cf1c675">warmup_start_ammo_nails</a>   = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_nails&quot;</span>);</div>
+<div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#aa6cd6a7f0551ed5aaa6edcf165bb57ce">start_ammo_rockets</a> = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a34150498ceb2cfaa7494e6edbbddba51">warmup_start_ammo_rockets</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_rockets&quot;</span>);</div>
+<div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a86850d40c80e49615e642ecadbac799a">start_ammo_cells</a>   = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a281a1d8106f02c4e9aa8208da1747e1b">warmup_start_ammo_cells</a>   = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_cells&quot;</span>);</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a45de322f5684f06494c7386de6c06da0">start_ammo_plasma</a>  = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a8c9367e376b1fe800979f7f3c3460a5f">warmup_start_ammo_plasma</a>  = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_plasma&quot;</span>);</div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;    <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#a3c72b53854b08604a60086ad28dca2fb">start_ammo_fuel</a>    = <a class="code" href="../../dc/d73/server_2miscfunctions_8qh.html#ad191ebfe2ae9f209e0284fdf4c5e520f">warmup_start_ammo_fuel</a>    = <a class="code" href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a>(<span class="stringliteral">&quot;g_lms_start_ammo_fuel&quot;</span>);</div>
+<div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_aa6cd6a7f0551ed5aaa6edcf165bb57ce"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#aa6cd6a7f0551ed5aaa6edcf165bb57ce">start_ammo_rockets</a></div><div class="ttdeci">float start_ammo_rockets</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00219">miscfunctions.qh:219</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qh_html_a86850d40c80e49615e642ecadbac799a"><div class="ttname"><a href="../../dc/d73/server_2miscfunctions_8qh.html#a86850d40c80e49615e642ecadbac799a">start_ammo_cells</a></div><div class="ttdeci">float start_ammo_cells</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d73/server_2miscfunctions_8qh_source.html#l00220">miscfunctions.qh:220</a></div></div>
@@ -1963,22 +1961,22 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00541">541</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00537">537</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00275">havocbot_role_ft_freeing()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00241">havocbot_role_ft_offense()</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;{</div>
-<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> bot = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
-<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;</div>
-<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(bot))</div>
-<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;    {</div>
-<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.5)</div>
-<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;            bot.havocbot_role = <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a9930fe7ce4013e24518d15e21ab3e9bc">havocbot_role_ft_freeing</a>;</div>
-<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;            bot.havocbot_role = <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a0d08e3438cf658395ecd4f920216502c">havocbot_role_ft_offense</a>;</div>
-<div class="line"><a name="l00551"></a><span class="lineno">  551</span>&#160;    }</div>
-<div class="line"><a name="l00552"></a><span class="lineno">  552</span>&#160;</div>
-<div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00538"></a><span class="lineno">  538</span>&#160;{</div>
+<div class="line"><a name="l00539"></a><span class="lineno">  539</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> bot = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00540"></a><span class="lineno">  540</span>&#160;</div>
+<div class="line"><a name="l00541"></a><span class="lineno">  541</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(bot))</div>
+<div class="line"><a name="l00542"></a><span class="lineno">  542</span>&#160;    {</div>
+<div class="line"><a name="l00543"></a><span class="lineno">  543</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.5)</div>
+<div class="line"><a name="l00544"></a><span class="lineno">  544</span>&#160;            bot.havocbot_role = <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a9930fe7ce4013e24518d15e21ab3e9bc">havocbot_role_ft_freeing</a>;</div>
+<div class="line"><a name="l00545"></a><span class="lineno">  545</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00546"></a><span class="lineno">  546</span>&#160;            bot.havocbot_role = <a class="code" href="../../db/d26/gamemode__freezetag_8qc.html#a0d08e3438cf658395ecd4f920216502c">havocbot_role_ft_offense</a>;</div>
+<div class="line"><a name="l00547"></a><span class="lineno">  547</span>&#160;    }</div>
+<div class="line"><a name="l00548"></a><span class="lineno">  548</span>&#160;</div>
+<div class="line"><a name="l00549"></a><span class="lineno">  549</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00550"></a><span class="lineno">  550</span>&#160;}</div>
 <div class="ttc" id="gamemode__freezetag_8qc_html_a0d08e3438cf658395ecd4f920216502c"><div class="ttname"><a href="../../db/d26/gamemode__freezetag_8qc.html#a0d08e3438cf658395ecd4f920216502c">havocbot_role_ft_offense</a></div><div class="ttdeci">void havocbot_role_ft_offense(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d26/gamemode__freezetag_8qc_source.html#l00241">gamemode_freezetag.qc:241</a></div></div>
 <div class="ttc" id="gamemode__freezetag_8qc_html_a9930fe7ce4013e24518d15e21ab3e9bc"><div class="ttname"><a href="../../db/d26/gamemode__freezetag_8qc.html#a9930fe7ce4013e24518d15e21ab3e9bc">havocbot_role_ft_freeing</a></div><div class="ttdeci">void havocbot_role_ft_freeing(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d26/gamemode__freezetag_8qc_source.html#l00275">gamemode_freezetag.qc:275</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
@@ -2028,12 +2026,12 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00556">556</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00552">552</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
 <p>References <a class="el" href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00045">freezetag_teams</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160;{</div>
-<div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">float</span>) = <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a>;</div>
-<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00553"></a><span class="lineno">  553</span>&#160;{</div>
+<div class="line"><a name="l00554"></a><span class="lineno">  554</span>&#160;    <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">float</span>) = <a class="code" href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a>;</div>
+<div class="line"><a name="l00555"></a><span class="lineno">  555</span>&#160;}</div>
 <div class="ttc" id="gamemode__freezetag_8qh_html_ad2d0b51189e597d9660333ef7650f86e"><div class="ttname"><a href="../../d8/d89/gamemode__freezetag_8qh.html#ad2d0b51189e597d9660333ef7650f86e">freezetag_teams</a></div><div class="ttdeci">float freezetag_teams</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d89/gamemode__freezetag_8qh_source.html#l00045">gamemode_freezetag.qh:45</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
@@ -2063,16 +2061,74 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00561">561</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00557">557</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
 <p>References <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
-<div class="fragment"><div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;{</div>
-<div class="line"><a name="l00563"></a><span class="lineno">  563</span>&#160;    <span class="comment">// most weapons arena</span></div>
-<div class="line"><a name="l00564"></a><span class="lineno">  564</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;0&quot;</span> || <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;        <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <span class="stringliteral">&quot;most&quot;</span>;</div>
-<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;{</div>
+<div class="line"><a name="l00559"></a><span class="lineno">  559</span>&#160;    <span class="comment">// most weapons arena</span></div>
+<div class="line"><a name="l00560"></a><span class="lineno">  560</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;0&quot;</span> || <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00561"></a><span class="lineno">  561</span>&#160;        <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <span class="keywordtype">string</span>) = <span class="stringliteral">&quot;most&quot;</span>;</div>
+<div class="line"><a name="l00562"></a><span class="lineno">  562</span>&#160;}</div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="a739c1a42bb0065bedbf6b64fe4a81ffa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKFUNCTION </td>
+          <td>(</td>
+          <td class="paramtype">ft&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FragCenterMessage&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00564">564</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
+
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00015">IS_BOT_CLIENT</a>, and <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>.</p>
+<div class="fragment"><div class="line"><a name="l00565"></a><span class="lineno">  565</span>&#160;{</div>
+<div class="line"><a name="l00566"></a><span class="lineno">  566</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_attacker = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00567"></a><span class="lineno">  567</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> frag_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(1, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
+<div class="line"><a name="l00568"></a><span class="lineno">  568</span>&#160;    <span class="comment">//float frag_deathtype = M_ARGV(2, float);</span></div>
+<div class="line"><a name="l00569"></a><span class="lineno">  569</span>&#160;    <span class="keywordtype">int</span> kill_count_to_attacker = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(3, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;    <span class="keywordtype">int</span> kill_count_to_target = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(4, <span class="keywordtype">int</span>);</div>
+<div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;</div>
+<div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;    <span class="keywordflow">if</span>(STAT(FROZEN, frag_target))</div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;        <span class="keywordflow">return</span>; <span class="comment">// target was already frozen, so this is just pushing them off the cliff</span></div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    Send_Notification(NOTIF_ONE, frag_attacker, MSG_CHOICE, CHOICE_FRAG_FREEZE, frag_target.netname, kill_count_to_attacker, (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(frag_target) ? -1 : frag_target.ping));</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    Send_Notification(NOTIF_ONE, frag_target, MSG_CHOICE, CHOICE_FRAGGED_FREEZE, frag_attacker.netname, kill_count_to_target, frag_attacker.health, frag_attacker.armorvalue, (<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a>(frag_attacker) ? -1 : frag_attacker.ping));</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;</div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;}</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
+<div class="ttc" id="server_2__all_8qh_html_afff35aba15a6e110ae0fe9e4a8d1a0f6"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6">IS_BOT_CLIENT</a></div><div class="ttdeci">#define IS_BOT_CLIENT(v)</div><div class="ttdoc">want: (IS_CLIENT(v) &amp;&amp; !IS_REAL_CLIENT(v)) </div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00015">_all.qh:15</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-38-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d26/gamemode__freezetag_8qc_a739c1a42bb0065bedbf6b64fe4a81ffa_cgraph.svg" width="320" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="a883dcd3e4f90a547637b26c3beaea8ed"></a>
@@ -2091,11 +2147,11 @@ Variables</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00103">freezetag_CheckWinner()</a>.</p>
 
-<p><div id="dynsection-38" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-38-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-38-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-39" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-39-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-39-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-38-content" class="dyncontent" style="display:none;">
+<div id="dynsection-39-content" class="dyncontent" style="display:none;">
 <div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../db/d26/gamemode__freezetag_8qc_a883dcd3e4f90a547637b26c3beaea8ed_icgraph.svg" width="100%" height="300"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
@@ -2188,7 +2244,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00005">5</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00103">freezetag_CheckWinner()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00568">freezetag_Initialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00103">freezetag_CheckWinner()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00581">freezetag_Initialize()</a>.</p>
 
 </div>
 </div>
@@ -2204,7 +2260,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00006">6</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00568">freezetag_Initialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00581">freezetag_Initialize()</a>.</p>
 
 </div>
 </div>
@@ -2220,7 +2276,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00007">7</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00568">freezetag_Initialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00581">freezetag_Initialize()</a>.</p>
 
 </div>
 </div>
@@ -2236,7 +2292,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00008">8</a> of file <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html">gamemode_freezetag.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00103">freezetag_CheckWinner()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00568">freezetag_Initialize()</a>.</p>
+<p>Referenced by <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00103">freezetag_CheckWinner()</a>, and <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00581">freezetag_Initialize()</a>.</p>
 
 </div>
 </div>
@@ -2246,7 +2302,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../db/d26/gamemode__freezetag_8qc.html">gamemode_freezetag.qc</a></li>
-    <li class="footer">Generated on Wed Sep 14 2016 18:16:03 for Xonotic by
+    <li class="footer">Generated on Thu Sep 15 2016 21:57:21 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

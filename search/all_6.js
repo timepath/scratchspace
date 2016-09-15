@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['f1',['f1',['../d9/d09/notifications_2all_8inc.html#ac7fc46ed784549b1acd2fd0f1b188140',1,'all.inc']]],
+  ['f1',['f1',['../d9/d09/notifications_2all_8inc.html#a5ffa0a2d76fd329d661bc07ed4e00e70',1,'all.inc']]],
   ['f2',['f2',['../d9/d09/notifications_2all_8inc.html#aa3a4d79ed24e4270f2709c15572bcb55',1,'all.inc']]],
   ['fabs',['fabs',['../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b',1,'menudefs.qc']]],
   ['facingwalltime',['facingwalltime',['../d8/d39/havocbot_8qh.html#a0855645f4ab503d266a248a6acbd9f4c',1,'havocbot.qh']]],
@@ -257,8 +257,9 @@ var searchData=
   ['fpclassify',['fpclassify',['../df/d38/mathlib_8qc.html#a8223697ad3d8f097dc729d1e854c8e77',1,'fpclassify(float x):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a8223697ad3d8f097dc729d1e854c8e77',1,'fpclassify(float x):&#160;mathlib.qc']]],
   ['fprintf',['fprintf',['../d5/df2/common_2util_8qh.html#a461e83c88c5ac01576ef0f8554408da3',1,'util.qh']]],
   ['fputs',['fputs',['../d8/de2/menudefs_8qc.html#a33a318a59e2648521862f24200a821df',1,'menudefs.qc']]],
-  ['frag_5fping',['frag_ping',['../d9/d09/notifications_2all_8inc.html#a9975a39906a6c5b8e458b3c3e91450b9',1,'all.inc']]],
-  ['frag_5fstats',['frag_stats',['../d9/d09/notifications_2all_8inc.html#a6994488616cc24e08e0dbe3bd5cdaaa0',1,'all.inc']]],
+  ['frag_5fcentermessage_5foverride',['frag_centermessage_override',['../d5/dac/g__damage_8qc.html#ac6e64d0173ea3a8b8ac2f97dba0add11',1,'g_damage.qc']]],
+  ['frag_5fping',['frag_ping',['../d9/d09/notifications_2all_8inc.html#ace9312d80092b317f20470828ec4df77',1,'all.inc']]],
+  ['frag_5fstats',['frag_stats',['../d9/d09/notifications_2all_8inc.html#a6d05b2e8b8256ea681e8c5a089a314ba',1,'all.inc']]],
   ['frags',['frags',['../d6/d11/progsdefs_8qc.html#a230b823d612df01afcfecc0f4a611b90',1,'progsdefs.qc']]],
   ['frags_5flms_5floser',['FRAGS_LMS_LOSER',['../d0/d8b/common_2constants_8qh.html#ae2502553257cc9ab52b97b8529cd3dc0',1,'constants.qh']]],
   ['frags_5fplayer',['FRAGS_PLAYER',['../d0/d8b/common_2constants_8qh.html#ab23f9aa261fdff0ab3357f75b4274718',1,'constants.qh']]],

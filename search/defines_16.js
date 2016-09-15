@@ -9,6 +9,7 @@ var searchData=
   ['veh_5flast',['VEH_LAST',['../db/d83/vehicles_2all_8qh.html#aba69863fdadd40453198f72acc1ef4ca',1,'all.qh']]],
   ['vehicles_5fall_5fc',['VEHICLES_ALL_C',['../da/d71/vehicles_2all_8qc.html#a73c313baec888c8737146375c6453289',1,'all.qc']]],
   ['vehicles_5ffrom',['Vehicles_from',['../db/d83/vehicles_2all_8qh.html#a0f88c632289b79fbf9690fbdbbf780a4',1,'all.qh']]],
+  ['verbose_5fmurder',['VERBOSE_MURDER',['../d9/d09/notifications_2all_8inc.html#a14884e977067962b47f3c5ea441f3476',1,'all.inc']]],
   ['vlen2',['vlen2',['../de/dcb/vector_8qh.html#a10b5386494e6b2a6633409d330bdf639',1,'vector.qh']]],
   ['vmul',['vmul',['../de/dcb/vector_8qh.html#a610f42e24d4a5d98977791c30d96a2f8',1,'vector.qh']]],
   ['vote_5fcommand',['VOTE_COMMAND',['../d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba',1,'VOTE_COMMAND():&#160;vote.qc'],['../d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba',1,'VOTE_COMMAND():&#160;vote.qc'],['../d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba',1,'VOTE_COMMAND():&#160;vote.qc']]],

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['f1',['f1',['../d9/d09/notifications_2all_8inc.html#ac7fc46ed784549b1acd2fd0f1b188140',1,'all.inc']]],
+  ['f1',['f1',['../d9/d09/notifications_2all_8inc.html#a5ffa0a2d76fd329d661bc07ed4e00e70',1,'all.inc']]],
   ['f2',['f2',['../d9/d09/notifications_2all_8inc.html#aa3a4d79ed24e4270f2709c15572bcb55',1,'all.inc']]],
   ['facingwalltime',['facingwalltime',['../d8/d39/havocbot_8qh.html#a0855645f4ab503d266a248a6acbd9f4c',1,'havocbot.qh']]],
   ['fade_5fend',['fade_end',['../d4/db7/wall_8qh.html#a0ae1b54e0a7968da8ad5a9cdb72038df',1,'fade_end():&#160;wall.qh'],['../de/d75/t__items_8qh.html#a0ae1b54e0a7968da8ad5a9cdb72038df',1,'fade_end():&#160;t_items.qh'],['../d5/d26/server_2defs_8qh.html#a0ae1b54e0a7968da8ad5a9cdb72038df',1,'fade_end():&#160;defs.qh']]],
@@ -127,8 +127,8 @@ var searchData=
   ['fp_5fnormal',['FP_NORMAL',['../d9/df7/mathlib_8qh.html#a9210adbf815652f2812bba9a6440dd93',1,'mathlib.qh']]],
   ['fp_5fsubnormal',['FP_SUBNORMAL',['../d9/df7/mathlib_8qh.html#ae870987185502a8c9a65acdde722fbae',1,'mathlib.qh']]],
   ['fp_5fzero',['FP_ZERO',['../d9/df7/mathlib_8qh.html#aef8fd13dfea3527597bd8678dda10c4c',1,'mathlib.qh']]],
-  ['frag_5fping',['frag_ping',['../d9/d09/notifications_2all_8inc.html#a9975a39906a6c5b8e458b3c3e91450b9',1,'all.inc']]],
-  ['frag_5fstats',['frag_stats',['../d9/d09/notifications_2all_8inc.html#a6994488616cc24e08e0dbe3bd5cdaaa0',1,'all.inc']]],
+  ['frag_5fping',['frag_ping',['../d9/d09/notifications_2all_8inc.html#ace9312d80092b317f20470828ec4df77',1,'all.inc']]],
+  ['frag_5fstats',['frag_stats',['../d9/d09/notifications_2all_8inc.html#a6d05b2e8b8256ea681e8c5a089a314ba',1,'all.inc']]],
   ['frags',['frags',['../d6/d11/progsdefs_8qc.html#a230b823d612df01afcfecc0f4a611b90',1,'progsdefs.qc']]],
   ['frags_5flms_5floser',['FRAGS_LMS_LOSER',['../d0/d8b/common_2constants_8qh.html#ae2502553257cc9ab52b97b8529cd3dc0',1,'constants.qh']]],
   ['frags_5fplayer',['FRAGS_PLAYER',['../d0/d8b/common_2constants_8qh.html#ab23f9aa261fdff0ab3357f75b4274718',1,'constants.qh']]],
