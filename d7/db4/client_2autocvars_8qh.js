@@ -86,7 +86,6 @@ var client_2autocvars_8qh =
     [ "autocvar_cl_hitsound_max_pitch", "d7/db4/client_2autocvars_8qh.html#a01441f40870fd4c27f9bf232dbd5ff59", null ],
     [ "autocvar_cl_hitsound_min_pitch", "d7/db4/client_2autocvars_8qh.html#a1e51f7fe670e7bfad0127315e74a5fa2", null ],
     [ "autocvar_cl_hitsound_nom_damage", "d7/db4/client_2autocvars_8qh.html#a9313b8d6c76e1bb650496cdca613ea66", null ],
-    [ "autocvar_cl_items_nofade", "d7/db4/client_2autocvars_8qh.html#a02877608910e19d794609f87fb01c9bb", null ],
     [ "autocvar_cl_lerpexcess", "d7/db4/client_2autocvars_8qh.html#a99f70c7a2491d57f4c24a02233f167bf", null ],
     [ "autocvar_cl_lockview", "d7/db4/client_2autocvars_8qh.html#ada52c6a0c52011defae30e3a28068fb7", null ],
     [ "autocvar_cl_loddistance1", "d7/db4/client_2autocvars_8qh.html#a5975b3f6bee146965bb1423e631dbd11", null ],

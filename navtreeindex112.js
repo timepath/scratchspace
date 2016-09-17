@@ -1,6 +1,5 @@
 var NAVTREEINDEX112 =
 {
-"dd/d36/classXonoticGameViewSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,171,7],
 "dd/d40/effects_2qc_2all_8qh.html":[2,0,1,2,0,4],
 "dd/d40/effects_2qc_2all_8qh_source.html":[2,0,1,2,0,4],
 "dd/d41/sv__hook_8qc.html":[2,0,1,9,0,10,2],
@@ -249,5 +248,6 @@ var NAVTREEINDEX112 =
 "dd/d70/pathlib_8qh.html#aff425f8ce77c4efd8c01d67105f88c54":[2,0,6,3,14,23],
 "dd/d70/pathlib_8qh.html#affea92ed68bc1ff87be96c141c3b24c5":[2,0,6,3,14,12],
 "dd/d70/pathlib_8qh_source.html":[2,0,6,3,14],
-"dd/d71/lib_2__mod_8inc.html":[2,0,4,4]
+"dd/d71/lib_2__mod_8inc.html":[2,0,4,4],
+"dd/d71/lib_2__mod_8inc_source.html":[2,0,4,4]
 };

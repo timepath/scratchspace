@@ -1,6 +1,5 @@
 var NAVTREEINDEX115 =
 {
-"dd/da3/classXonoticMusicPlayerTab.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,208,6],
 "dd/da3/classXonoticMusicPlayerTab.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,208,79],
 "dd/da3/classXonoticMusicPlayerTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,208,48],
 "dd/da3/classXonoticMusicPlayerTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,208,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX115 =
 "dd/db3/common_2mutators_2mutator_2running__guns_2__mod_8qh_source.html":[2,0,1,9,0,26,1],
 "dd/db5/sv__invincibleproj_8qh.html":[2,0,1,9,0,12,3],
 "dd/db5/sv__invincibleproj_8qh_source.html":[2,0,1,9,0,12,3],
-"dd/db7/sv__globalforces_8qh.html":[2,0,1,9,0,9,3]
+"dd/db7/sv__globalforces_8qh.html":[2,0,1,9,0,9,3],
+"dd/db7/sv__globalforces_8qh_source.html":[2,0,1,9,0,9,3]
 };
