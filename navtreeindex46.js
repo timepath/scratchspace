@@ -1,6 +1,5 @@
 var NAVTREEINDEX46 =
 {
-"d5/d4c/controlpoint_8qh.html":[2,0,1,3,0,1,7],
 "d5/d4c/controlpoint_8qh_source.html":[2,0,1,3,0,1,7],
 "d5/d4d/client_2__all_8qh.html":[2,0,0,5],
 "d5/d4d/client_2__all_8qh_source.html":[2,0,0,5],
@@ -249,5 +248,6 @@ var NAVTREEINDEX46 =
 "d5/d6c/classXonoticHUDSkinList.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,191,44],
 "d5/d6c/classXonoticHUDSkinList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,191,49],
 "d5/d6c/classXonoticHUDSkinList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,191,56],
-"d5/d6c/classXonoticHUDSkinList.html#ad8868d355da51082f1e8a5758ad2e26f":[1,0,191,31]
+"d5/d6c/classXonoticHUDSkinList.html#ad8868d355da51082f1e8a5758ad2e26f":[1,0,191,31],
+"d5/d6c/classXonoticHUDSkinList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,191,83]
 };

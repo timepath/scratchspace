@@ -1,6 +1,5 @@
 var NAVTREEINDEX131 =
 {
-"df/df8/door__secret_8qc_source.html":[2,0,1,13,0,14],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html":[1,0,225],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a00ce8a7a0cd0548f029a3014438586a8":[1,0,225,95],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#a03b39828cfca5042da326cc07cc8f7b4":[1,0,225,64],
@@ -249,5 +248,6 @@ var NAVTREEINDEX131 =
 "functions_func_v.html":[1,3,1,19],
 "functions_func_w.html":[1,3,1,20],
 "functions_func_x.html":[1,3,1,21],
-"functions_func_~.html":[1,3,1,22]
+"functions_func_~.html":[1,3,1,22],
+"functions_g.html":[1,3,0,7]
 };

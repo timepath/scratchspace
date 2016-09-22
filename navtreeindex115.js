@@ -1,6 +1,5 @@
 var NAVTREEINDEX115 =
 {
-"dd/da3/classXonoticMusicPlayerTab.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,208,79],
 "dd/da3/classXonoticMusicPlayerTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,208,48],
 "dd/da3/classXonoticMusicPlayerTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,208,0],
 "dd/da3/classXonoticMusicPlayerTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,208,37],
@@ -249,5 +248,6 @@ var NAVTREEINDEX115 =
 "dd/db5/sv__invincibleproj_8qh.html":[2,0,1,9,0,12,3],
 "dd/db5/sv__invincibleproj_8qh_source.html":[2,0,1,9,0,12,3],
 "dd/db7/sv__globalforces_8qh.html":[2,0,1,9,0,9,3],
-"dd/db7/sv__globalforces_8qh_source.html":[2,0,1,9,0,9,3]
+"dd/db7/sv__globalforces_8qh_source.html":[2,0,1,9,0,9,3],
+"dd/dc5/client_2weapons_2__mod_8inc.html":[2,0,0,3,0]
 };

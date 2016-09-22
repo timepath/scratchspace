@@ -1,6 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"da/db7/classXonoticServerInfoDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,231,116],
 "da/db7/classXonoticServerInfoDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,231,60],
 "da/db7/classXonoticServerInfoDialog.html#ae00aeee39286e0e19876f08a12aa4419":[1,0,231,34],
 "da/db7/classXonoticServerInfoDialog.html#ae058d0ee2888710d4600ab1a2d846a31":[1,0,231,40],
@@ -249,5 +248,6 @@ var NAVTREEINDEX91 =
 "da/ddd/ipban_8qh.html#ad7174054ad76d672732a64c0a20d658e":[2,0,6,37,5],
 "da/ddd/ipban_8qh.html#af092a83967ab9516490e44b5736a9fe3":[2,0,6,37,4],
 "da/ddd/ipban_8qh.html#af5400e642692dd6c542af18b03d9946f":[2,0,6,37,0],
-"da/ddd/ipban_8qh_source.html":[2,0,6,37]
+"da/ddd/ipban_8qh_source.html":[2,0,6,37],
+"da/dde/classOffhandHook.html":[1,0,86]
 };

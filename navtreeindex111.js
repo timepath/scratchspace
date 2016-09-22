@@ -1,6 +1,5 @@
 var NAVTREEINDEX111 =
 {
-"dd/d0a/classMachineGunTurret.html#a3f55a0540df468e6f0406b2907921e9a":[1,0,68,2],
 "dd/d0a/classMachineGunTurret.html#a56e07d5aa23850f9cc9cd5eaa68f0880":[1,0,68,8],
 "dd/d0a/classMachineGunTurret.html#a6b7ea20bce905b65ee654a87ab41b9fb":[1,0,68,14],
 "dd/d0a/classMachineGunTurret.html#a6d399b09e4c9806affbf61fa141690d9":[1,0,68,19],
@@ -136,10 +135,10 @@ var NAVTREEINDEX111 =
 "dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921":[2,0,6,1,2,6],
 "dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324":[2,0,6,1,2,7],
 "dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1":[2,0,6,1,2,8],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,3],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,2],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,3],
 "dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0":[2,0,6,1,2,11],
 "dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca":[2,0,6,1,2,12],
 "dd/d31/banning_8qc.html#aef90e766b88f13ff4894434a476e4114":[2,0,6,1,2,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX111 =
 "dd/d36/classXonoticGameViewSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,171,45],
 "dd/d36/classXonoticGameViewSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,171,86],
 "dd/d36/classXonoticGameViewSettingsTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,171,11],
-"dd/d36/classXonoticGameViewSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,171,7]
+"dd/d36/classXonoticGameViewSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,171,7],
+"dd/d40/effects_2qc_2all_8qh.html":[2,0,1,2,0,4]
 };

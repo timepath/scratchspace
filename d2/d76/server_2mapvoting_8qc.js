@@ -40,7 +40,6 @@ var server_2mapvoting_8qc =
     [ "mapvote_maps_pakfile", "d2/d76/server_2mapvoting_8qc.html#a495656e86a53136c9afa9297aab01ad9", null ],
     [ "mapvote_maps_screenshot_dir", "d2/d76/server_2mapvoting_8qc.html#a889b6555cc741464af7719d936e5f56b", null ],
     [ "mapvote_maps_suggested", "d2/d76/server_2mapvoting_8qc.html#a448c453f1f7295348407ec518a80f819", null ],
-    [ "mapvote_message", "d2/d76/server_2mapvoting_8qc.html#ae9217ed2127e035151ceefcdb8b98335", null ],
     [ "mapvote_nextthink", "d2/d76/server_2mapvoting_8qc.html#ad727391722401b4ddc25f2eb312bf743", null ],
     [ "mapvote_run", "d2/d76/server_2mapvoting_8qc.html#ada5ec3ec4ce51c78c0d223341d530c45", null ],
     [ "mapvote_screenshot_dirs", "d2/d76/server_2mapvoting_8qc.html#ad40e1bd245af44e5acd1370f316e1311", null ],

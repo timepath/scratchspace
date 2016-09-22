@@ -1,6 +1,5 @@
 var NAVTREEINDEX130 =
 {
-"df/dd4/navigation_8qh.html#ac04a7b9ea11337a93febd08c22ea7db7":[2,0,6,0,0,10,20],
 "df/dd4/navigation_8qh.html#ac4f53fe093adbbcbedc119132f5c28ea":[2,0,6,0,0,10,25],
 "df/dd4/navigation_8qh.html#ac9ef7022a35372b32e22129e5368ebde":[2,0,6,0,0,10,46],
 "df/dd4/navigation_8qh.html#acb97094f5c75ec8e9ea997107515207a":[2,0,6,0,0,10,50],
@@ -249,5 +248,6 @@ var NAVTREEINDEX130 =
 "df/df6/classXonoticSlider.html#afdcf1fb79903f747cda494b27206526b":[1,0,237,7],
 "df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh.html":[2,0,1,9,0,4,1],
 "df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh_source.html":[2,0,1,9,0,4,1],
-"df/df8/door__secret_8qc.html":[2,0,1,13,0,14]
+"df/df8/door__secret_8qc.html":[2,0,1,13,0,14],
+"df/df8/door__secret_8qc_source.html":[2,0,1,13,0,14]
 };
