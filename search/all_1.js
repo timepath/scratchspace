@@ -62,6 +62,8 @@ var searchData=
   ['addvalue',['addValue',['../db/db4/classTextSlider.html#a214c8d0b487b81321f6052ace4bae550',1,'TextSlider']]],
   ['addvalue_5ffps',['ADDVALUE_FPS',['../d9/d63/dialog__settings__misc_8qc.html#a2615f16c7c3d5972507a3da3154edbab',1,'dialog_settings_misc.qc']]],
   ['addvalue_5fminutes',['ADDVALUE_MINUTES',['../d7/de3/dialog__multiplayer__create_8qc.html#a0ce9ecfe6478cb8924f5b74b1e947193',1,'dialog_multiplayer_create.qc']]],
+  ['addvalue_5fspeed_5fkb',['ADDVALUE_SPEED_KB',['../d9/d63/dialog__settings__misc_8qc.html#a18cd64ce03e36053012a220c002625c8',1,'dialog_settings_misc.qc']]],
+  ['addvalue_5fspeed_5fmb',['ADDVALUE_SPEED_MB',['../d9/d63/dialog__settings__misc_8qc.html#a755b16317837b5f0e400be477cfcbd48',1,'dialog_settings_misc.qc']]],
   ['addwantedhostcachekey',['addwantedhostcachekey',['../d8/de2/menudefs_8qc.html#a6ddce2f8e86683b651371dab711a9092',1,'menudefs.qc']]],
   ['addwinners',['AddWinners',['../db/dcc/g__world_8qc.html#a665a3549db99a167e6d8e8e63e95e9d3',1,'g_world.qc']]],
   ['adjustairaccelqw',['AdjustAirAccelQW',['../d2/d0a/common_2physics_2player_8qc.html#ab81c95b0e30aff82122c0e5688564397',1,'AdjustAirAccelQW(float accelqw, float factor):&#160;player.qc'],['../de/d70/common_2physics_2player_8qh.html#ab81c95b0e30aff82122c0e5688564397',1,'AdjustAirAccelQW(float accelqw, float factor):&#160;player.qc']]],

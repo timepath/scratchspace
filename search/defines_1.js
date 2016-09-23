@@ -7,6 +7,8 @@ var searchData=
   ['add_5fto_5fw_5flist',['ADD_TO_W_LIST',['../df/d75/keybinder_8qc.html#a8b88a14dde16d0dd2ca22cff1ba7a2b7',1,'keybinder.qc']]],
   ['addvalue_5ffps',['ADDVALUE_FPS',['../d9/d63/dialog__settings__misc_8qc.html#a2615f16c7c3d5972507a3da3154edbab',1,'dialog_settings_misc.qc']]],
   ['addvalue_5fminutes',['ADDVALUE_MINUTES',['../d7/de3/dialog__multiplayer__create_8qc.html#a0ce9ecfe6478cb8924f5b74b1e947193',1,'dialog_multiplayer_create.qc']]],
+  ['addvalue_5fspeed_5fkb',['ADDVALUE_SPEED_KB',['../d9/d63/dialog__settings__misc_8qc.html#a18cd64ce03e36053012a220c002625c8',1,'dialog_settings_misc.qc']]],
+  ['addvalue_5fspeed_5fmb',['ADDVALUE_SPEED_MB',['../d9/d63/dialog__settings__misc_8qc.html#a755b16317837b5f0e400be477cfcbd48',1,'dialog_settings_misc.qc']]],
   ['al_5fdelete',['AL_DELETE',['../d2/d74/arraylist_8qh.html#a3b9ecc6d9bbbfbdf577e23dd6aea0116',1,'arraylist.qh']]],
   ['al_5feach',['AL_EACH',['../d2/d74/arraylist_8qh.html#a63e6a4e98d1309289f9458b6e79dfc1d',1,'arraylist.qh']]],
   ['al_5fgete',['AL_gete',['../d2/d74/arraylist_8qh.html#ae86e8c127c22a923fc84a576c6044cac',1,'arraylist.qh']]],
