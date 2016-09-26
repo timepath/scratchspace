@@ -1,5 +1,6 @@
 var NAVTREEINDEX81 =
 {
+"d9/d40/dialog__settings__audio_8qh_source.html":[2,0,5,4,121],
 "d9/d45/globalsound_8qc.html":[2,0,1,2,0,11],
 "d9/d45/globalsound_8qc_source.html":[2,0,1,2,0,11],
 "d9/d47/cvarlist_8qh.html":[2,0,5,4,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX81 =
 "d9/d5d/devastator_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,8,1],
 "d9/d5d/devastator_8qc_source.html":[2,0,1,16,0,8],
 "d9/d5e/target_2include_8qc.html":[2,0,1,13,2,4],
-"d9/d5e/target_2include_8qc_source.html":[2,0,1,13,2,4],
-"d9/d60/checkbox__string_8qc.html":[2,0,5,4,16]
+"d9/d5e/target_2include_8qc_source.html":[2,0,1,13,2,4]
 };

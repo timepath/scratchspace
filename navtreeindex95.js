@@ -1,5 +1,6 @@
 var NAVTREEINDEX95 =
 {
+"db/d38/classKeyframe.html#adfa57fc40f43ee504208262bbbc7c14e":[1,0,59,19],
 "db/d38/classKeyframe.html#ae5ec27b5e1379289711f0a6622b2e3d1":[1,0,59,11],
 "db/d38/classKeyframe.html#af44315fcdb5187461a08ef44a82676fd":[1,0,59,14],
 "db/d38/classXonoticSliderCheckBox.html":[1,0,238],
@@ -248,6 +249,5 @@ var NAVTREEINDEX95 =
 "db/d59/classXonoticPlayList.html#a82217d761797df8a2e65054eab910734":[1,0,216,14],
 "db/d59/classXonoticPlayList.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,216,69],
 "db/d59/classXonoticPlayList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,216,48],
-"db/d59/classXonoticPlayList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,216,18],
-"db/d59/classXonoticPlayList.html#a8b0c7c59f375267ec674d93d6b93e60f":[1,0,216,51]
+"db/d59/classXonoticPlayList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,216,18]
 };

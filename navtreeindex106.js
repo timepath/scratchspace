@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"dc/d56/cvarlist_8qc.html#af5cde358e9b2de1004e0cb902b395382":[2,0,5,4,32,15],
 "dc/d56/cvarlist_8qc.html#af8f11081ec07f426c6f01449e41789e1":[2,0,5,4,32,3],
 "dc/d56/cvarlist_8qc_source.html":[2,0,5,4,32],
 "dc/d5a/nexball_8qc.html":[2,0,1,3,0,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "dc/d7e/toss_8qc.html":[2,0,1,11,0,9],
 "dc/d7e/toss_8qc.html#ad040ac65da399e22d3850e1c1268984c":[2,0,1,11,0,9,0],
 "dc/d7e/toss_8qc_source.html":[2,0,1,11,0,9],
-"dc/d7f/server_2__mod_8inc.html":[2,0,6,7],
-"dc/d7f/server_2__mod_8inc_source.html":[2,0,6,7]
+"dc/d7f/server_2__mod_8inc.html":[2,0,6,7]
 };
