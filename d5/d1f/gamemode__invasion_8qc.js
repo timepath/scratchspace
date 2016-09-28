@@ -8,7 +8,7 @@ var gamemode__invasion_8qc =
     [ "invasion_PickSpawn", "d5/d1f/gamemode__invasion_8qc.html#af1c26a21c8bbaace311d588711b4b53c", null ],
     [ "Invasion_RoundStart", "d5/d1f/gamemode__invasion_8qc.html#a40575f9d24ff7fadf4285df2f29013d6", null ],
     [ "invasion_ScoreRules", "d5/d1f/gamemode__invasion_8qc.html#a87b629a39304c9f39c67e401071851d8", null ],
-    [ "invasion_SpawnChosenMonster", "d5/d1f/gamemode__invasion_8qc.html#a22fee24ee369a9b96b574f26ec9f9ab3", null ],
+    [ "invasion_SpawnChosenMonster", "d5/d1f/gamemode__invasion_8qc.html#af628003cf0a65a237d7cf48037ef69d2", null ],
     [ "invasion_SpawnMonsters", "d5/d1f/gamemode__invasion_8qc.html#af8f2b47bd3440a92ec9100cf6dd2c870", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#af6e0b5fcea42fd38e53ec64e7d61d276", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#ac69a96fe006e801e880bda74a60045dd", null ],
@@ -32,5 +32,6 @@ var gamemode__invasion_8qc =
     [ "autocvar_g_invasion_spawnpoint_spawn_delay", "d5/d1f/gamemode__invasion_8qc.html#a3416ec2b05671677afee7515f63ffb86", null ],
     [ "autocvar_g_invasion_warmup", "d5/d1f/gamemode__invasion_8qc.html#a43e52b9ec872b58162ad1b7f5d91fb26", null ],
     [ "autocvar_g_invasion_zombies_only", "d5/d1f/gamemode__invasion_8qc.html#adb135781f311cfeda2846cb4a8f3cc53", null ],
-    [ "g_invasion_spawns", "d5/d1f/gamemode__invasion_8qc.html#ad0172f050477dc1d65d9e21b5ae0bd3b", null ]
+    [ "g_invasion_spawns", "d5/d1f/gamemode__invasion_8qc.html#ad0172f050477dc1d65d9e21b5ae0bd3b", null ],
+    [ "spawnmob", "d5/d1f/gamemode__invasion_8qc.html#a6dc66623f06daa36544b6934c48d9291", null ]
 ];

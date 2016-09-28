@@ -1,5 +1,6 @@
 var NAVTREEINDEX114 =
 {
+"dd/d93/classXonoticGameWeaponsSettingsTab.html#a2a68bfffe46f7fe8f8cfc5ceab049e37":[1,0,172,29],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,172,34],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,172,24],
 "dd/d93/classXonoticGameWeaponsSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,172,27],
@@ -248,6 +249,5 @@ var NAVTREEINDEX114 =
 "dd/da3/classXonoticMusicPlayerTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,208,20],
 "dd/da3/classXonoticMusicPlayerTab.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,208,24],
 "dd/da3/classXonoticMusicPlayerTab.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,208,14],
-"dd/da3/classXonoticMusicPlayerTab.html#aaba311b07a1da9615b2d44e9b8c97149":[1,0,208,70],
-"dd/da3/classXonoticMusicPlayerTab.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,208,39]
+"dd/da3/classXonoticMusicPlayerTab.html#aaba311b07a1da9615b2d44e9b8c97149":[1,0,208,70]
 };

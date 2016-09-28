@@ -1,5 +1,6 @@
 var NAVTREEINDEX110 =
 {
+"dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206":[1,0,135,27],
 "dc/de5/classWeapon.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,135,11],
 "dc/de5/classWeapon.html#a4337268c8cad6836bae8efd4a8835070":[1,0,135,21],
 "dc/de5/classWeapon.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,135,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX110 =
 "dd/d0a/classMachineGunTurret.html":[1,0,68],
 "dd/d0a/classMachineGunTurret.html#a0a74e10de8728c3c411ec82531ea5bc6":[1,0,68,18],
 "dd/d0a/classMachineGunTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,68,6],
-"dd/d0a/classMachineGunTurret.html#a2982ed21729ec03d94d82f749fdb1e55":[1,0,68,16],
-"dd/d0a/classMachineGunTurret.html#a2daafacb55ed4d518d4189f435b7d95a":[1,0,68,20]
+"dd/d0a/classMachineGunTurret.html#a2982ed21729ec03d94d82f749fdb1e55":[1,0,68,16]
 };

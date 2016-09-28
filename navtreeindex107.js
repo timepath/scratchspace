@@ -1,5 +1,6 @@
 var NAVTREEINDEX107 =
 {
+"dc/d7f/server_2__mod_8inc.html":[2,0,6,7],
 "dc/d7f/server_2__mod_8inc_source.html":[2,0,6,7],
 "dc/d80/gamemode__domination_8qc.html":[2,0,6,2,0,12],
 "dc/d80/gamemode__domination_8qc.html#a06d43b9aefe82dfa89a891dfe3fc6839":[2,0,6,2,0,12,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX107 =
 "dc/d99/bumblebee__weapons_8qh.html#a04f49df01aa5f55708afa551a1704ff8":[2,0,1,15,0,5,5],
 "dc/d99/bumblebee__weapons_8qh.html#a165266d281b294135b7ea979c31c99ae":[2,0,1,15,0,5,4],
 "dc/d99/bumblebee__weapons_8qh.html#a2a46cf49c1629bdc89a55dc2c731ca3d":[2,0,1,15,0,5,3],
-"dc/d99/bumblebee__weapons_8qh.html#a2cae9e1b986831b1927ad69ed6fd1761":[2,0,1,15,0,5,1],
-"dc/d99/bumblebee__weapons_8qh.html#a979d38c7c79bed7106b40c5ffb71d37c":[2,0,1,15,0,5,0]
+"dc/d99/bumblebee__weapons_8qh.html#a2cae9e1b986831b1927ad69ed6fd1761":[2,0,1,15,0,5,1]
 };

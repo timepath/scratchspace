@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"dd/da3/classXonoticMusicPlayerTab.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,208,39],
 "dd/da3/classXonoticMusicPlayerTab.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,208,40],
 "dd/da3/classXonoticMusicPlayerTab.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,208,6],
 "dd/da3/classXonoticMusicPlayerTab.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,208,79],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "dd/db3/classXonoticQuitDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,218,8],
 "dd/db3/common_2mutators_2mutator_2running__guns_2__mod_8qh.html":[2,0,1,9,0,26,1],
 "dd/db3/common_2mutators_2mutator_2running__guns_2__mod_8qh_source.html":[2,0,1,9,0,26,1],
-"dd/db5/sv__invincibleproj_8qh.html":[2,0,1,9,0,12,3],
-"dd/db5/sv__invincibleproj_8qh_source.html":[2,0,1,9,0,12,3]
+"dd/db5/sv__invincibleproj_8qh.html":[2,0,1,9,0,12,3]
 };

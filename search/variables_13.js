@@ -220,6 +220,7 @@ var searchData=
   ['spawnflags_5fgold_5fkey',['SPAWNFLAGS_GOLD_KEY',['../dd/d5e/door_8qh.html#a719e6f009c974e863488d99b5cfb6532',1,'door.qh']]],
   ['spawnflags_5fsilver_5fkey',['SPAWNFLAGS_SILVER_KEY',['../dd/d5e/door_8qh.html#af18aa11384d1c77b108b6a386aa158f0',1,'door.qh']]],
   ['spawnfunc_5fchecked',['spawnfunc_checked',['../da/d20/spawnfunc_8qh.html#acf818192a10457d834cc057718d25ad3',1,'spawnfunc.qh']]],
+  ['spawnmob',['spawnmob',['../d5/d1f/gamemode__invasion_8qc.html#a6dc66623f06daa36544b6934c48d9291',1,'gamemode_invasion.qc']]],
   ['spawnpoint_5fnag',['spawnpoint_nag',['../d4/dd1/spawnpoints_8qh.html#ab4967b5a52be505fdfbe23d0d61b2aa1',1,'spawnpoints.qh']]],
   ['spawnpoint_5fprevorigin',['spawnpoint_prevorigin',['../d0/d41/spawnpoints_8qc.html#acfbd90447ab6c8bb55634c7936e20ece',1,'spawnpoints.qc']]],
   ['spawnpoint_5fscore',['spawnpoint_score',['../d4/dd1/spawnpoints_8qh.html#a693d893f5755f55200d6c320c814c6a4',1,'spawnpoints.qh']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"d7/df4/commandbutton_8qc.html#a987af68cda200c33e872603717d21f36":[2,0,5,4,24,0],
 "d7/df4/commandbutton_8qc.html#af650087d48ef70e13d7395bcfd876f25":[2,0,5,4,24,2],
 "d7/df4/commandbutton_8qc_source.html":[2,0,5,4,24],
 "d7/df7/lib_2warpzone_2__mod_8qh.html":[2,0,4,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "d8/d14/scripting_8qh.html#a72e47fcf4fcfe3d1e1fd7b169f577ede":[2,0,6,0,0,12,27],
 "d8/d14/scripting_8qh.html#a7486b01a2f8bcdc795620492866d7480":[2,0,6,0,0,12,5],
 "d8/d14/scripting_8qh.html#a75f85e8ba4be53cda6c91ef1028e7b01":[2,0,6,0,0,12,57],
-"d8/d14/scripting_8qh.html#a7f255d3265340de3fdea69e75bfeda51":[2,0,6,0,0,12,52],
-"d8/d14/scripting_8qh.html#a815417279eb3366ccb92e08f0616387c":[2,0,6,0,0,12,30]
+"d8/d14/scripting_8qh.html#a7f255d3265340de3fdea69e75bfeda51":[2,0,6,0,0,12,52]
 };
