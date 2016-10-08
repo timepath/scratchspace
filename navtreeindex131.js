@@ -1,5 +1,7 @@
 var NAVTREEINDEX131 =
 {
+"df/df6/classXonoticSlider.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,237,73],
+"df/df6/classXonoticSlider.html#afc9428d371ed63dd0316db5558e81d30":[1,0,237,75],
 "df/df6/classXonoticSlider.html#afdcf1fb79903f747cda494b27206526b":[1,0,237,7],
 "df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh.html":[2,0,1,9,0,4,1],
 "df/df8/common_2mutators_2mutator_2campcheck_2__mod_8qh_source.html":[2,0,1,9,0,4,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX131 =
 "functions_func_o.html":[1,3,1,13],
 "functions_func_p.html":[1,3,1,14],
 "functions_func_r.html":[1,3,1,15],
-"functions_func_s.html":[1,3,1,16],
-"functions_func_t.html":[1,3,1,17],
-"functions_func_u.html":[1,3,1,18]
+"functions_func_s.html":[1,3,1,16]
 };

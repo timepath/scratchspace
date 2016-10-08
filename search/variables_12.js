@@ -94,6 +94,7 @@ var searchData=
   ['randomselection_5fchosen_5fent',['RandomSelection_chosen_ent',['../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243',1,'random.qh']]],
   ['randomselection_5fchosen_5ffloat',['RandomSelection_chosen_float',['../db/d55/random_8qh.html#a32be35647dc9e998a1420a75ae306409',1,'random.qh']]],
   ['randomselection_5fchosen_5fstring',['RandomSelection_chosen_string',['../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36',1,'random.qh']]],
+  ['randomselection_5fchosen_5fvec',['RandomSelection_chosen_vec',['../db/d55/random_8qh.html#ab0a4a880a3543886477f951a6d30a908',1,'random.qh']]],
   ['randomselection_5ftotalweight',['RandomSelection_totalweight',['../db/d55/random_8qh.html#a552e08e5c3811a6e477b46d8419ecf3b',1,'random.qh']]],
   ['range_5ffar',['RANGE_FAR',['../d6/d11/progsdefs_8qc.html#a2451e7c002950dc3bd373f15e56418e0',1,'progsdefs.qc']]],
   ['range_5fmelee',['RANGE_MELEE',['../d6/d11/progsdefs_8qc.html#ab6076d5e79ac29fea088cfaedc27f743',1,'progsdefs.qc']]],

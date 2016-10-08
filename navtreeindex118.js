@@ -1,5 +1,7 @@
 var NAVTREEINDEX118 =
 {
+"de/d2a/spiderbot__weapons_8qh.html#a447fdafa6c7bfb7400e22d302d2dc5e4":[2,0,1,15,0,17,10],
+"de/d2a/spiderbot__weapons_8qh.html#a7b734ab45b78f426da2cf9af353b77e8":[2,0,1,15,0,17,13],
 "de/d2a/spiderbot__weapons_8qh.html#a7ff02630c80f0615c634ebfd0b8277b0":[2,0,1,15,0,17,1],
 "de/d2a/spiderbot__weapons_8qh.html#a879b38f53cf00679c86ea05870c48638":[2,0,1,15,0,17,2],
 "de/d2a/spiderbot__weapons_8qh.html#a952dd18f2801e174c6eaf8f957651c19":[2,0,1,15,0,17,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX118 =
 "de/d42/classXonoticCheckBox.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,145,16],
 "de/d42/classXonoticCheckBox.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,145,19],
 "de/d42/classXonoticCheckBox.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,145,83],
-"de/d42/classXonoticCheckBox.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,145,9],
-"de/d42/classXonoticCheckBox.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,145,77],
-"de/d42/classXonoticCheckBox.html#a3f01007bf18a2197c9214bc26a94ec74":[1,0,145,67]
+"de/d42/classXonoticCheckBox.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,145,9]
 };

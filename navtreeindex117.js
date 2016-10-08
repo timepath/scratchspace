@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"dd/df9/classCheckBox.html#a2ef25b55a20369adb80ff4bea792d590":[1,0,15,32],
+"dd/df9/classCheckBox.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,15,16],
 "dd/df9/classCheckBox.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,15,75],
 "dd/df9/classCheckBox.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,15,7],
 "dd/df9/classCheckBox.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,15,70],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "de/d2a/spiderbot__weapons_8qh.html#a2780e7467ab4b1f83fdd923333921ff1":[2,0,1,15,0,17,4],
 "de/d2a/spiderbot__weapons_8qh.html#a2a8aa88c2551dd5cfbd2fa67875fa370":[2,0,1,15,0,17,6],
 "de/d2a/spiderbot__weapons_8qh.html#a390a1a3c072cdc9e0f00818385348462":[2,0,1,15,0,17,12],
-"de/d2a/spiderbot__weapons_8qh.html#a438e8d96804741ccd045f164320807ed":[2,0,1,15,0,17,20],
-"de/d2a/spiderbot__weapons_8qh.html#a447fdafa6c7bfb7400e22d302d2dc5e4":[2,0,1,15,0,17,10],
-"de/d2a/spiderbot__weapons_8qh.html#a7b734ab45b78f426da2cf9af353b77e8":[2,0,1,15,0,17,13]
+"de/d2a/spiderbot__weapons_8qh.html#a438e8d96804741ccd045f164320807ed":[2,0,1,15,0,17,20]
 };
