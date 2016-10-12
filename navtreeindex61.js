@@ -1,5 +1,15 @@
 var NAVTREEINDEX61 =
 {
+"d7/d39/classXonoticVideoSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,249,75],
+"d7/d39/classXonoticVideoSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,249,54],
+"d7/d39/classXonoticVideoSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,249,32],
+"d7/d39/classXonoticVideoSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,249,38],
+"d7/d39/classXonoticVideoSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,249,46],
+"d7/d39/classXonoticVideoSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,249,58],
+"d7/d39/classXonoticVideoSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,249,89],
+"d7/d39/classXonoticVideoSettingsTab.html#a58fb684b9035dc506eb888f42bcc9641":[1,0,249,78],
+"d7/d39/classXonoticVideoSettingsTab.html#a5a3d22c773d87949ee6798ad5eba5885":[1,0,249,51],
+"d7/d39/classXonoticVideoSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,249,21],
 "d7/d39/classXonoticVideoSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,249,65],
 "d7/d39/classXonoticVideoSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,249,57],
 "d7/d39/classXonoticVideoSettingsTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,249,22],
@@ -239,15 +249,5 @@ var NAVTREEINDEX61 =
 "d7/d5c/common_2stats_8qh_source.html":[2,0,1,42],
 "d7/d5d/classBorderImage.html":[1,0,8],
 "d7/d5d/classBorderImage.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,8,56],
-"d7/d5d/classBorderImage.html#a0d5e751c0799c1235578d6a367005620":[1,0,8,45],
-"d7/d5d/classBorderImage.html#a0f59f20762372be1d8a05998ddf580b6":[1,0,8,55],
-"d7/d5d/classBorderImage.html#a10cf88734594fed24be93889407c0bda":[1,0,8,17],
-"d7/d5d/classBorderImage.html#a10f084ce6991717bfb4153928818feba":[1,0,8,14],
-"d7/d5d/classBorderImage.html#a1384d244201f945385ed59b53e4aee96":[1,0,8,32],
-"d7/d5d/classBorderImage.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,8,37],
-"d7/d5d/classBorderImage.html#a27b635e0916726012b7e8c4dca05064e":[1,0,8,29],
-"d7/d5d/classBorderImage.html#a281414e4fc17a2dd0764869efd80aaff":[1,0,8,44],
-"d7/d5d/classBorderImage.html#a2d7014dbee1dec74b4d7707d8e7ef45b":[1,0,8,7],
-"d7/d5d/classBorderImage.html#a2e93b1dadbb72eb68b3501286ff568c9":[1,0,8,8],
-"d7/d5d/classBorderImage.html#a2e9ff076f1076390435faad16d17d149":[1,0,8,3]
+"d7/d5d/classBorderImage.html#a0d5e751c0799c1235578d6a367005620":[1,0,8,45]
 };

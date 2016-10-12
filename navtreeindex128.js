@@ -1,5 +1,16 @@
 var NAVTREEINDEX128 =
 {
+"df/d92/classXonoticWinnerDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,252,50],
+"df/d92/classXonoticWinnerDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,252,28],
+"df/d92/classXonoticWinnerDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,252,57],
+"df/d92/classXonoticWinnerDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,252,34],
+"df/d92/classXonoticWinnerDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,252,42],
+"df/d92/classXonoticWinnerDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,252,64],
+"df/d92/classXonoticWinnerDialog.html#a67d95732d49da439095483530aca8804":[1,0,252,53],
+"df/d92/classXonoticWinnerDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,252,75],
+"df/d92/classXonoticWinnerDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,252,18],
+"df/d92/classXonoticWinnerDialog.html#a71dfe2b7e476fea9b91f6b6f4ff79bfc":[1,0,252,24],
+"df/d92/classXonoticWinnerDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,252,14],
 "df/d92/classXonoticWinnerDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,252,66],
 "df/d92/classXonoticWinnerDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,252,87],
 "df/d92/classXonoticWinnerDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,252,79],
@@ -238,16 +249,5 @@ var NAVTREEINDEX128 =
 "df/db0/powerups_8qc_source.html":[2,0,0,1,0,22],
 "df/db3/mlrs_8qc.html":[2,0,1,14,0,24],
 "df/db3/mlrs_8qc_source.html":[2,0,1,14,0,24],
-"df/db7/dialog__hudpanel__infomessages_8qc.html":[2,0,5,4,54],
-"df/db7/dialog__hudpanel__infomessages_8qc.html#a304017651328a5ba234a6885af156c40":[2,0,5,4,54,0],
-"df/db7/dialog__hudpanel__infomessages_8qc_source.html":[2,0,5,4,54],
-"df/db8/common_2mutators_2mutator_2sandbox_2__mod_8qh.html":[2,0,1,9,0,27,1],
-"df/db8/common_2mutators_2mutator_2sandbox_2__mod_8qh_source.html":[2,0,1,9,0,27,1],
-"df/db9/multivibrator_8qc.html":[2,0,1,13,3,32],
-"df/db9/multivibrator_8qc_source.html":[2,0,1,13,3,32],
-"df/dbd/dialog__settings__game__crosshair_8qc.html":[2,0,5,4,126],
-"df/dbd/dialog__settings__game__crosshair_8qc.html#a4f706d7ce46862c87a014b6423a463f3":[2,0,5,4,126,0],
-"df/dbd/dialog__settings__game__crosshair_8qc.html#a9b6483a184ad0561b8f8fdb359b5a761":[2,0,5,4,126,2],
-"df/dbd/dialog__settings__game__crosshair_8qc.html#ae9cf0d662c9dcada5b8c1aae7e361533":[2,0,5,4,126,1],
-"df/dbd/dialog__settings__game__crosshair_8qc_source.html":[2,0,5,4,126]
+"df/db7/dialog__hudpanel__infomessages_8qc.html":[2,0,5,4,54]
 };

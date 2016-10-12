@@ -1,5 +1,14 @@
 var NAVTREEINDEX97 =
 {
+"db/d5f/menu_2command_2__mod_8qh.html":[2,0,5,1,1],
+"db/d5f/menu_2command_2__mod_8qh_source.html":[2,0,5,1,1],
+"db/d63/classXonoticColorpicker.html":[1,0,148],
+"db/d63/classXonoticColorpicker.html#a00e73292d4ce1cafcb4784f83be1b991":[1,0,148,35],
+"db/d63/classXonoticColorpicker.html#a068a1780eb0731d56ea37a4b4e50e1a3":[1,0,148,41],
+"db/d63/classXonoticColorpicker.html#a0a44543db2c981ccbbfa48496f334de5":[1,0,148,9],
+"db/d63/classXonoticColorpicker.html#a0e724b01c100461a8abc1af3132da8c3":[1,0,148,45],
+"db/d63/classXonoticColorpicker.html#a10cf88734594fed24be93889407c0bda":[1,0,148,17],
+"db/d63/classXonoticColorpicker.html#a14a70e4aca7423cedef3601c877a74bb":[1,0,148,36],
 "db/d63/classXonoticColorpicker.html#a17ad45daebe710a3c8bd4bea33facf3d":[1,0,148,48],
 "db/d63/classXonoticColorpicker.html#a280ae0d20bfef08fecaea7b49d98a3c5":[1,0,148,42],
 "db/d63/classXonoticColorpicker.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,148,7],
@@ -240,14 +249,5 @@ var NAVTREEINDEX97 =
 "db/d7f/effectinfo_8inc.html#a40540c0f32eded914300761f19aebc24":[2,0,1,2,7,237],
 "db/d7f/effectinfo_8inc.html#a40afb51403889b15820030ce6948b593":[2,0,1,2,7,14],
 "db/d7f/effectinfo_8inc.html#a41112b632a7fa4cfb7df50215792ca8d":[2,0,1,2,7,70],
-"db/d7f/effectinfo_8inc.html#a4157aa148783c9366b1be8b7e1662b42":[2,0,1,2,7,322],
-"db/d7f/effectinfo_8inc.html#a435556134b897f09a098f8c6f3c93f3d":[2,0,1,2,7,149],
-"db/d7f/effectinfo_8inc.html#a435aa97250e68a01e07f0b031df80ffc":[2,0,1,2,7,266],
-"db/d7f/effectinfo_8inc.html#a43d948382ed4c00b7876ac1f16190d88":[2,0,1,2,7,99],
-"db/d7f/effectinfo_8inc.html#a43e8d4872fa413f95610b254777a6176":[2,0,1,2,7,297],
-"db/d7f/effectinfo_8inc.html#a441446767d2ae6d14df392f0f7c7b1a9":[2,0,1,2,7,323],
-"db/d7f/effectinfo_8inc.html#a445c489974d472d1fa49de5f792528ff":[2,0,1,2,7,213],
-"db/d7f/effectinfo_8inc.html#a45bc43608733690c5f9eb1da7c2c1368":[2,0,1,2,7,64],
-"db/d7f/effectinfo_8inc.html#a45d4aed744d77c299066263e2917a254":[2,0,1,2,7,378],
-"db/d7f/effectinfo_8inc.html#a45e5958ed2130fcbf5dff23e39c03f77":[2,0,1,2,7,25]
+"db/d7f/effectinfo_8inc.html#a4157aa148783c9366b1be8b7e1662b42":[2,0,1,2,7,322]
 };

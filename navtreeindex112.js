@@ -1,5 +1,14 @@
 var NAVTREEINDEX112 =
 {
+"dd/d36/classXonoticGameViewSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,171,91],
+"dd/d36/classXonoticGameViewSettingsTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,171,13],
+"dd/d36/classXonoticGameViewSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,171,68],
+"dd/d36/classXonoticGameViewSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,171,31],
+"dd/d36/classXonoticGameViewSettingsTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,171,5],
+"dd/d36/classXonoticGameViewSettingsTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,171,19],
+"dd/d36/classXonoticGameViewSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,171,60],
+"dd/d36/classXonoticGameViewSettingsTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,171,43],
+"dd/d36/classXonoticGameViewSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,171,2],
 "dd/d36/classXonoticGameViewSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,171,41],
 "dd/d36/classXonoticGameViewSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,171,45],
 "dd/d36/classXonoticGameViewSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,171,86],
@@ -240,14 +249,5 @@ var NAVTREEINDEX112 =
 "dd/d70/pathlib_8qh.html#ae0e777cd933a79b684bec767d4f84a6e":[2,0,6,3,14,8],
 "dd/d70/pathlib_8qh.html#ae378e0992eaba9407d5ac5562b277475":[2,0,6,3,14,29],
 "dd/d70/pathlib_8qh.html#ae528b3e11784e5c063865e475db8835c":[2,0,6,3,14,37],
-"dd/d70/pathlib_8qh.html#ae6dfae407763880c8a7c612c6b3bd348":[2,0,6,3,14,31],
-"dd/d70/pathlib_8qh.html#aec44d7d0a2236477b06c4a107a828232":[2,0,6,3,14,52],
-"dd/d70/pathlib_8qh.html#af04218a06b17265edbc734b786dc7ff3":[2,0,6,3,14,81],
-"dd/d70/pathlib_8qh.html#af3703694c58f7f7a40f3b02c55fe2e2e":[2,0,6,3,14,80],
-"dd/d70/pathlib_8qh.html#af4e15e8a943e57dc8e5780332d5a0d9d":[2,0,6,3,14,79],
-"dd/d70/pathlib_8qh.html#af8a5b93a257df77202ad0ece0336b25c":[2,0,6,3,14,36],
-"dd/d70/pathlib_8qh.html#afa78baf03140ce7921ef082fe373ef25":[2,0,6,3,14,28],
-"dd/d70/pathlib_8qh.html#afb09fb8f49636c9a1c01b7dc59495f3c":[2,0,6,3,14,40],
-"dd/d70/pathlib_8qh.html#afb459e5b1cb840dd02a19aa1124032dc":[2,0,6,3,14,48],
-"dd/d70/pathlib_8qh.html#afd52e5ceaf7beadfb6e6e7a370b40831":[2,0,6,3,14,27]
+"dd/d70/pathlib_8qh.html#ae6dfae407763880c8a7c612c6b3bd348":[2,0,6,3,14,31]
 };

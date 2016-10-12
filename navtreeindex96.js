@@ -1,5 +1,14 @@
 var NAVTREEINDEX96 =
 {
+"db/d59/classXonoticPlayList.html#a731ef2d8cdb302ddcd41f3ed9e6a2be0":[1,0,216,39],
+"db/d59/classXonoticPlayList.html#a764e355b65af202e87289c596432c780":[1,0,216,63],
+"db/d59/classXonoticPlayList.html#a7732280687051f06363adb5ccb0d9b2e":[1,0,216,52],
+"db/d59/classXonoticPlayList.html#a7b13cdc101cd55528465440586a004f6":[1,0,216,60],
+"db/d59/classXonoticPlayList.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,216,15],
+"db/d59/classXonoticPlayList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,216,75],
+"db/d59/classXonoticPlayList.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,216,84],
+"db/d59/classXonoticPlayList.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,216,73],
+"db/d59/classXonoticPlayList.html#a82217d761797df8a2e65054eab910734":[1,0,216,14],
 "db/d59/classXonoticPlayList.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,216,69],
 "db/d59/classXonoticPlayList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,216,48],
 "db/d59/classXonoticPlayList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,216,18],
@@ -240,14 +249,5 @@ var NAVTREEINDEX96 =
 "db/d5e/multijump_8qh_source.html":[2,0,1,9,0,16,3],
 "db/d5f/deathtypes_2all_8qc.html":[2,0,1,1,3],
 "db/d5f/deathtypes_2all_8qc.html#ab228bbc4e90e596f0f88f2556ee96c59":[2,0,1,1,3,0],
-"db/d5f/deathtypes_2all_8qc_source.html":[2,0,1,1,3],
-"db/d5f/menu_2command_2__mod_8qh.html":[2,0,5,1,1],
-"db/d5f/menu_2command_2__mod_8qh_source.html":[2,0,5,1,1],
-"db/d63/classXonoticColorpicker.html":[1,0,148],
-"db/d63/classXonoticColorpicker.html#a00e73292d4ce1cafcb4784f83be1b991":[1,0,148,35],
-"db/d63/classXonoticColorpicker.html#a068a1780eb0731d56ea37a4b4e50e1a3":[1,0,148,41],
-"db/d63/classXonoticColorpicker.html#a0a44543db2c981ccbbfa48496f334de5":[1,0,148,9],
-"db/d63/classXonoticColorpicker.html#a0e724b01c100461a8abc1af3132da8c3":[1,0,148,45],
-"db/d63/classXonoticColorpicker.html#a10cf88734594fed24be93889407c0bda":[1,0,148,17],
-"db/d63/classXonoticColorpicker.html#a14a70e4aca7423cedef3601c877a74bb":[1,0,148,36]
+"db/d5f/deathtypes_2all_8qc_source.html":[2,0,1,1,3]
 };

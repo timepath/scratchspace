@@ -1,5 +1,14 @@
 var NAVTREEINDEX115 =
 {
+"dd/da3/classXonoticMusicPlayerTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,208,80],
+"dd/da3/classXonoticMusicPlayerTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,208,56],
+"dd/da3/classXonoticMusicPlayerTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,208,49],
+"dd/da3/classXonoticMusicPlayerTab.html#a83c1a90f0453adad578ad30569df176f":[1,0,208,74],
+"dd/da3/classXonoticMusicPlayerTab.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,208,73],
+"dd/da3/classXonoticMusicPlayerTab.html#a981650806115f79eb5cdf557ec4cb989":[1,0,208,62],
+"dd/da3/classXonoticMusicPlayerTab.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,208,66],
+"dd/da3/classXonoticMusicPlayerTab.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,208,20],
+"dd/da3/classXonoticMusicPlayerTab.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,208,24],
 "dd/da3/classXonoticMusicPlayerTab.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,208,14],
 "dd/da3/classXonoticMusicPlayerTab.html#aaba311b07a1da9615b2d44e9b8c97149":[1,0,208,70],
 "dd/da3/classXonoticMusicPlayerTab.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,208,39],
@@ -240,14 +249,5 @@ var NAVTREEINDEX115 =
 "dd/db3/classXonoticQuitDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,218,9],
 "dd/db3/classXonoticQuitDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,218,67],
 "dd/db3/classXonoticQuitDialog.html#aeff76ecca42175bf48a2312421add4bd":[1,0,218,60],
-"dd/db3/classXonoticQuitDialog.html#af1aab403dc54575707fd57991312b201":[1,0,218,47],
-"dd/db3/classXonoticQuitDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,218,27],
-"dd/db3/classXonoticQuitDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,218,15],
-"dd/db3/classXonoticQuitDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,218,39],
-"dd/db3/classXonoticQuitDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,218,2],
-"dd/db3/classXonoticQuitDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,218,37],
-"dd/db3/classXonoticQuitDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,218,41],
-"dd/db3/classXonoticQuitDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,218,85],
-"dd/db3/classXonoticQuitDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,218,8],
-"dd/db3/common_2mutators_2mutator_2running__guns_2__mod_8qh.html":[2,0,1,9,0,26,1]
+"dd/db3/classXonoticQuitDialog.html#af1aab403dc54575707fd57991312b201":[1,0,218,47]
 };

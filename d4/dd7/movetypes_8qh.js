@@ -1,8 +1,11 @@
 var movetypes_8qh =
 [
     [ "IS_ONGROUND", "d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27", null ],
+    [ "IS_ONSLICK", "d4/dd7/movetypes_8qh.html#a76e41a3d5c8cd6e099813a44a9dac448", null ],
     [ "SET_ONGROUND", "d4/dd7/movetypes_8qh.html#a93e881dd105ced1c6ce1873530933eaf", null ],
+    [ "SET_ONSLICK", "d4/dd7/movetypes_8qh.html#af807bc4331e63459d44c2849dc998b8b", null ],
     [ "UNSET_ONGROUND", "d4/dd7/movetypes_8qh.html#abe20324d138f110c779274c157be381f", null ],
+    [ "UNSET_ONSLICK", "d4/dd7/movetypes_8qh.html#ab272cbf23bd04d5cc6181d3b4d61d0be", null ],
     [ "_Movetype_CheckVelocity", "d4/dd7/movetypes_8qh.html#a339edb79ca2ee708f1d39819496794bf", null ],
     [ "_Movetype_CheckWater", "d4/dd7/movetypes_8qh.html#a834192b869b1e5280ca268ef87a7bbe1", null ],
     [ "_Movetype_CheckWaterTransition", "d4/dd7/movetypes_8qh.html#aa9a451c248f6edd8b206c427c6c9eea5", null ],
@@ -22,6 +25,7 @@ var movetypes_8qh =
     [ "set_movetype", "d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78", null ],
     [ "void", "d4/dd7/movetypes_8qh.html#a591e49a1a9ef818948667335d5e6c76a", null ],
     [ "aiment", "d4/dd7/movetypes_8qh.html#a9d8f05707745e18415d786a00cd398e8", null ],
+    [ "FL_ONSLICK", "d4/dd7/movetypes_8qh.html#ab732e709f5cda6ca05a2af0b8d52ba29", null ],
     [ "groundentity", "d4/dd7/movetypes_8qh.html#a826b2c367250c9fb58a7ca50eb138cde", null ],
     [ "MAX_CLIP_PLANES", "d4/dd7/movetypes_8qh.html#a46c1d9c12616edadd00cc17892aa9006", null ],
     [ "move_didgravity", "d4/dd7/movetypes_8qh.html#adc76b474270aeb1261d12d16e6ec9fda", null ],

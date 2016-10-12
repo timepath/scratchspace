@@ -15,6 +15,7 @@ var common_2physics_2player_8qc =
     [ "PM_check_hitground", "d2/d0a/common_2physics_2player_8qc.html#a1013ea762d39fb23e720f32491799c47", null ],
     [ "PM_check_nickspam", "d2/d0a/common_2physics_2player_8qc.html#a3149e17d521bed0872a4dcbce7c2e318", null ],
     [ "PM_check_punch", "d2/d0a/common_2physics_2player_8qc.html#a8678504c5372b92cf7512e341387148b", null ],
+    [ "PM_check_slick", "d2/d0a/common_2physics_2player_8qc.html#aa07ff5a647ef888a320f1a95fb4336bf", null ],
     [ "PM_check_specialcommand", "d2/d0a/common_2physics_2player_8qc.html#a9eee2f2f5f376f53befdf1537abe179d", null ],
     [ "PM_ClientMovement_UpdateStatus", "d2/d0a/common_2physics_2player_8qc.html#a4a64191d2aeb497ecc6ec081d6813f8a", null ],
     [ "PM_Footsteps", "d2/d0a/common_2physics_2player_8qc.html#af720710e7d9c6e243358bd74cac5e70e", null ],

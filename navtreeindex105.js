@@ -1,5 +1,14 @@
 var NAVTREEINDEX105 =
 {
+"dc/d37/classXonoticHUDExitDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,178,36],
+"dc/d37/classXonoticHUDExitDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,178,5],
+"dc/d37/classXonoticHUDExitDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,178,89],
+"dc/d37/classXonoticHUDExitDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,178,78],
+"dc/d37/classXonoticHUDExitDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,178,44],
+"dc/d37/classXonoticHUDExitDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,178,0],
+"dc/d37/classXonoticHUDExitDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,178,16],
+"dc/d37/classXonoticHUDExitDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,178,33],
+"dc/d37/classXonoticHUDExitDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,178,38],
 "dc/d37/classXonoticHUDExitDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,178,58],
 "dc/d37/classXonoticHUDExitDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,178,84],
 "dc/d37/classXonoticHUDExitDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,178,51],
@@ -240,14 +249,5 @@ var NAVTREEINDEX105 =
 "dc/d56/cvarlist_8qc.html#a10ec4a764cb4b6a27f99d3f6bc699c89":[2,0,5,4,32,17],
 "dc/d56/cvarlist_8qc.html#a17e1ef447796f1f8218a82c65c4d1857":[2,0,5,4,32,14],
 "dc/d56/cvarlist_8qc.html#a1887a2da6825992ddb99acd7cbcc0388":[2,0,5,4,32,1],
-"dc/d56/cvarlist_8qc.html#a2dc6da21a409c3894feef366fa460eb2":[2,0,5,4,32,12],
-"dc/d56/cvarlist_8qc.html#a39f82a66971a7a85c801c09ca60e34f0":[2,0,5,4,32,5],
-"dc/d56/cvarlist_8qc.html#a3afb09be4df0236ad8b1247b9db22458":[2,0,5,4,32,0],
-"dc/d56/cvarlist_8qc.html#a5971da398283d35ee922ebc812fa0de7":[2,0,5,4,32,6],
-"dc/d56/cvarlist_8qc.html#a60d76081c4d98a35b10d52fe2b0251cd":[2,0,5,4,32,7],
-"dc/d56/cvarlist_8qc.html#a835d740822c3cebb0ab18e87ad5ad1c0":[2,0,5,4,32,18],
-"dc/d56/cvarlist_8qc.html#a90f6310a9c53f45daff834bad1b4846b":[2,0,5,4,32,2],
-"dc/d56/cvarlist_8qc.html#ab4a51be7c5169ef3e25c573a84135360":[2,0,5,4,32,4],
-"dc/d56/cvarlist_8qc.html#abb7ffab6e659dcb1601669e75e2a15d3":[2,0,5,4,32,11],
-"dc/d56/cvarlist_8qc.html#ad1e3f4ef6db904611e2e405f22040646":[2,0,5,4,32,8]
+"dc/d56/cvarlist_8qc.html#a2dc6da21a409c3894feef366fa460eb2":[2,0,5,4,32,12]
 };

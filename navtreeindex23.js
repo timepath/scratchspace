@@ -1,5 +1,6 @@
 var NAVTREEINDEX23 =
 {
+"d3/d07/scoreboard_8qc.html#aaf5cd5494661624974d09657b6428ff2":[2,0,0,1,0,34,75],
 "d3/d07/scoreboard_8qc.html#aaf870062442b80e096e897517f9b9d5b":[2,0,0,1,0,34,56],
 "d3/d07/scoreboard_8qc.html#ab68d3f55b27c12a82760019c80aef931":[2,0,0,1,0,34,6],
 "d3/d07/scoreboard_8qc.html#ab91b2fca2d12cc0ec9a509722fd461f9":[2,0,0,1,0,34,39],
@@ -248,6 +249,5 @@ var NAVTREEINDEX23 =
 "d3/d3d/shockwave_8qc.html#ae09e2d0740002cb9090be0e7de3954e9":[2,0,1,16,0,32,2],
 "d3/d3d/shockwave_8qc_source.html":[2,0,1,16,0,32],
 "d3/d3e/sv__hook_8qh.html":[2,0,1,9,0,10,3],
-"d3/d3e/sv__hook_8qh_source.html":[2,0,1,9,0,10,3],
-"d3/d3e/sv__spawn_8qh.html":[2,0,1,8,9]
+"d3/d3e/sv__hook_8qh_source.html":[2,0,1,9,0,10,3]
 };

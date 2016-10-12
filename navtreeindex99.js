@@ -1,5 +1,14 @@
 var NAVTREEINDEX99 =
 {
+"db/d7f/effectinfo_8inc.html#aec13aa18c81eb476d299e1305a7cf019":[2,0,1,2,7,11],
+"db/d7f/effectinfo_8inc.html#aec42fa12649d21d661bd3730fd8045a4":[2,0,1,2,7,60],
+"db/d7f/effectinfo_8inc.html#aec89683f7294b9a91083d23485208d10":[2,0,1,2,7,201],
+"db/d7f/effectinfo_8inc.html#aed6124d8cc0fb066a3394b0a88651830":[2,0,1,2,7,45],
+"db/d7f/effectinfo_8inc.html#aed6bfff2246bdda1d303a7205c1d88b2":[2,0,1,2,7,302],
+"db/d7f/effectinfo_8inc.html#aee412f2d2f389322fdd4e2d27b3a866b":[2,0,1,2,7,189],
+"db/d7f/effectinfo_8inc.html#aef68745a32914725fa08ad498c38352b":[2,0,1,2,7,353],
+"db/d7f/effectinfo_8inc.html#aef8d758822fa17d11ede32aa82e2ccba":[2,0,1,2,7,199],
+"db/d7f/effectinfo_8inc.html#aeff08119e4fba4242a59cdff1fd18f5e":[2,0,1,2,7,221],
 "db/d7f/effectinfo_8inc.html#af17352e09df984d6ac514098ea10b4ac":[2,0,1,2,7,40],
 "db/d7f/effectinfo_8inc.html#af1b4d3ac2045cc630aaba2c0799b3fb5":[2,0,1,2,7,224],
 "db/d7f/effectinfo_8inc.html#af21295da0ea13cf60c4d9ce0e84e0909":[2,0,1,2,7,154],
@@ -240,14 +249,5 @@ var NAVTREEINDEX99 =
 "db/db1/classXonoticHUDRaceTimerDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,188,12],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,188,74],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,188,23],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,188,50],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,188,28],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,188,57],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,188,34],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,188,42],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,188,64],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a67d95732d49da439095483530aca8804":[1,0,188,53],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a69e94627ebdd9065483e0489eb39910b":[1,0,188,82],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a6c7f4bc35b82f907bf4b96bef084f045":[1,0,188,75],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,188,18]
+"db/db1/classXonoticHUDRaceTimerDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,188,50]
 };
