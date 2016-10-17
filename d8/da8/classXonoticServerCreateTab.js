@@ -76,6 +76,7 @@ var classXonoticServerCreateTab =
     [ "firstColumn", "d8/da8/classXonoticServerCreateTab.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "d8/da8/classXonoticServerCreateTab.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "d8/da8/classXonoticServerCreateTab.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "d8/da8/classXonoticServerCreateTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "d8/da8/classXonoticServerCreateTab.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "d8/da8/classXonoticServerCreateTab.html#a2c0ed87871e549ba71839bff4f0f086c", null ],
     [ "isTabRoot", "d8/da8/classXonoticServerCreateTab.html#aaba311b07a1da9615b2d44e9b8c97149", null ],

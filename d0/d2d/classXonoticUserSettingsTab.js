@@ -68,6 +68,7 @@ var classXonoticUserSettingsTab =
     [ "firstColumn", "d0/d2d/classXonoticUserSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "d0/d2d/classXonoticUserSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "d0/d2d/classXonoticUserSettingsTab.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "d0/d2d/classXonoticUserSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "d0/d2d/classXonoticUserSettingsTab.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "d0/d2d/classXonoticUserSettingsTab.html#ad86fd7c4093f7845b6ed7cc904a06aa2", null ],
     [ "isTabRoot", "d0/d2d/classXonoticUserSettingsTab.html#aaba311b07a1da9615b2d44e9b8c97149", null ],

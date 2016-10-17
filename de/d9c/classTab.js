@@ -66,6 +66,7 @@ var classTab =
     [ "firstColumn", "de/d9c/classTab.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "de/d9c/classTab.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "de/d9c/classTab.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "de/d9c/classTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "de/d9c/classTab.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "de/d9c/classTab.html#ad325d6b1f6a25ab0b0d5e38bf7b9f34c", null ],
     [ "isTabRoot", "de/d9c/classTab.html#aaba311b07a1da9615b2d44e9b8c97149", null ],

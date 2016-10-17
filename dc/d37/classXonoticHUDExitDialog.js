@@ -67,6 +67,7 @@ var classXonoticHUDExitDialog =
     [ "firstColumn", "dc/d37/classXonoticHUDExitDialog.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "dc/d37/classXonoticHUDExitDialog.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "dc/d37/classXonoticHUDExitDialog.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "dc/d37/classXonoticHUDExitDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "dc/d37/classXonoticHUDExitDialog.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "dc/d37/classXonoticHUDExitDialog.html#a27399741282a2e811da475ebac4ea9ff", null ],
     [ "isTabRoot", "dc/d37/classXonoticHUDExitDialog.html#a1ee5500e91a1156be36f4ecf9e022018", null ],

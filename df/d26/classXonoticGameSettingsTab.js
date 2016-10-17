@@ -72,6 +72,7 @@ var classXonoticGameSettingsTab =
     [ "firstColumn", "df/d26/classXonoticGameSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "df/d26/classXonoticGameSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "df/d26/classXonoticGameSettingsTab.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "df/d26/classXonoticGameSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "df/d26/classXonoticGameSettingsTab.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "df/d26/classXonoticGameSettingsTab.html#ac93b2ee211898db4139802e6abbd8c4b", null ],
     [ "isTabRoot", "df/d26/classXonoticGameSettingsTab.html#aaba311b07a1da9615b2d44e9b8c97149", null ],

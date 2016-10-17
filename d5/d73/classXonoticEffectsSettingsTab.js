@@ -68,6 +68,7 @@ var classXonoticEffectsSettingsTab =
     [ "firstColumn", "d5/d73/classXonoticEffectsSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "d5/d73/classXonoticEffectsSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "d5/d73/classXonoticEffectsSettingsTab.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "d5/d73/classXonoticEffectsSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "d5/d73/classXonoticEffectsSettingsTab.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "d5/d73/classXonoticEffectsSettingsTab.html#afc52860717e88454d9c1eb3479b510f3", null ],
     [ "isTabRoot", "d5/d73/classXonoticEffectsSettingsTab.html#aaba311b07a1da9615b2d44e9b8c97149", null ],

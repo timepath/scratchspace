@@ -71,6 +71,7 @@ var classXonoticTeamSelectDialog =
     [ "firstColumn", "d1/d39/classXonoticTeamSelectDialog.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "d1/d39/classXonoticTeamSelectDialog.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "d1/d39/classXonoticTeamSelectDialog.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "d1/d39/classXonoticTeamSelectDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "d1/d39/classXonoticTeamSelectDialog.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "d1/d39/classXonoticTeamSelectDialog.html#ac9473d772a9004d4794db92383a4b571", null ],
     [ "isTabRoot", "d1/d39/classXonoticTeamSelectDialog.html#a1ee5500e91a1156be36f4ecf9e022018", null ],

@@ -69,6 +69,7 @@ var classXonoticProfileTab =
     [ "firstColumn", "dc/de2/classXonoticProfileTab.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "dc/de2/classXonoticProfileTab.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "dc/de2/classXonoticProfileTab.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "dc/de2/classXonoticProfileTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "dc/de2/classXonoticProfileTab.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "dc/de2/classXonoticProfileTab.html#a3f4c64a947374c0d57e8d2f2266164d7", null ],
     [ "isTabRoot", "dc/de2/classXonoticProfileTab.html#aaba311b07a1da9615b2d44e9b8c97149", null ],

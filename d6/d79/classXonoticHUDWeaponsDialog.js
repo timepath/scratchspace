@@ -67,6 +67,7 @@ var classXonoticHUDWeaponsDialog =
     [ "firstColumn", "d6/d79/classXonoticHUDWeaponsDialog.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "d6/d79/classXonoticHUDWeaponsDialog.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "d6/d79/classXonoticHUDWeaponsDialog.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "d6/d79/classXonoticHUDWeaponsDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "d6/d79/classXonoticHUDWeaponsDialog.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "d6/d79/classXonoticHUDWeaponsDialog.html#a22ebf03c2ef14246155b38b20522908c", null ],
     [ "isTabRoot", "d6/d79/classXonoticHUDWeaponsDialog.html#a1ee5500e91a1156be36f4ecf9e022018", null ],

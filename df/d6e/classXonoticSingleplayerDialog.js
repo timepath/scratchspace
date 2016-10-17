@@ -68,6 +68,7 @@ var classXonoticSingleplayerDialog =
     [ "firstColumn", "df/d6e/classXonoticSingleplayerDialog.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "df/d6e/classXonoticSingleplayerDialog.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "df/d6e/classXonoticSingleplayerDialog.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "df/d6e/classXonoticSingleplayerDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "df/d6e/classXonoticSingleplayerDialog.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "df/d6e/classXonoticSingleplayerDialog.html#a9bc4d4381adae0d3c9d66f3e68fbff8a", null ],
     [ "isTabRoot", "df/d6e/classXonoticSingleplayerDialog.html#a1ee5500e91a1156be36f4ecf9e022018", null ],

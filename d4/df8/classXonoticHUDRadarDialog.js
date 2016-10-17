@@ -67,6 +67,7 @@ var classXonoticHUDRadarDialog =
     [ "firstColumn", "d4/df8/classXonoticHUDRadarDialog.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "d4/df8/classXonoticHUDRadarDialog.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "d4/df8/classXonoticHUDRadarDialog.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "d4/df8/classXonoticHUDRadarDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "d4/df8/classXonoticHUDRadarDialog.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "d4/df8/classXonoticHUDRadarDialog.html#ae32afb34536c7546251d510d37b3c338", null ],
     [ "isTabRoot", "d4/df8/classXonoticHUDRadarDialog.html#a1ee5500e91a1156be36f4ecf9e022018", null ],

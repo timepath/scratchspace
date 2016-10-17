@@ -69,6 +69,7 @@ var classXonoticAudioSettingsTab =
     [ "firstColumn", "da/dc1/classXonoticAudioSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "da/dc1/classXonoticAudioSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "da/dc1/classXonoticAudioSettingsTab.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "da/dc1/classXonoticAudioSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "da/dc1/classXonoticAudioSettingsTab.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "da/dc1/classXonoticAudioSettingsTab.html#a0a075e4fc4c6b303109305e9cb52dd5e", null ],
     [ "isTabRoot", "da/dc1/classXonoticAudioSettingsTab.html#aaba311b07a1da9615b2d44e9b8c97149", null ],

@@ -134,6 +134,7 @@ var searchData=
   ['hidden_5fgametypes',['HIDDEN_GAMETYPES',['../df/d9b/menu_2xonotic_2util_8qc.html#ad18fa120b3ff7def2f7c47a178855468',1,'util.qc']]],
   ['hideall',['hideAll',['../d6/d1a/classModalController.html#a918765695e02e3fd2b1fd9d6a97ce8b5',1,'ModalController']]],
   ['hidechild',['hideChild',['../d6/d1a/classModalController.html#a17de24af1814ab04ff410d3321622ddb',1,'ModalController']]],
+  ['hidemenuonclose',['hideMenuOnClose',['../dc/d06/classDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf',1,'Dialog']]],
   ['hidenotify',['hideNotify',['../d0/d7b/classContainer.html#a4c0113eb24a54cdfcc6ced0f5a268ed7',1,'Container::hideNotify()'],['../d0/dae/classItem.html#ac6094922668d013ada3893854eec6b0f',1,'Item::hideNotify()'],['../db/ddb/classXonoticCvarList.html#a8c539467e3831f5420d97206cf918cf8',1,'XonoticCvarList::hideNotify()']]],
   ['highlightedaction',['highlightedAction',['../d3/d05/hud_8qh.html#a1e146f6ec9929f15840a7be6493b0fc5',1,'hud.qh']]],
   ['highlightedpanel',['highlightedPanel',['../d3/d05/hud_8qh.html#a0281fee5d685fdf391491312c58bd0b0',1,'hud.qh']]],

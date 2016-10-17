@@ -68,6 +68,7 @@ var classXonoticGameHUDSettingsTab =
     [ "firstColumn", "d1/d55/classXonoticGameHUDSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "d1/d55/classXonoticGameHUDSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "d1/d55/classXonoticGameHUDSettingsTab.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "d1/d55/classXonoticGameHUDSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "d1/d55/classXonoticGameHUDSettingsTab.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "d1/d55/classXonoticGameHUDSettingsTab.html#a7fcbcb26e15456b0eda6b355678105f7", null ],
     [ "isTabRoot", "d1/d55/classXonoticGameHUDSettingsTab.html#aaba311b07a1da9615b2d44e9b8c97149", null ],

@@ -67,6 +67,7 @@ var classXonoticMultiplayerDialog =
     [ "firstColumn", "d3/d01/classXonoticMultiplayerDialog.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "d3/d01/classXonoticMultiplayerDialog.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "d3/d01/classXonoticMultiplayerDialog.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "d3/d01/classXonoticMultiplayerDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "d3/d01/classXonoticMultiplayerDialog.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "d3/d01/classXonoticMultiplayerDialog.html#a855d73abdadca86a207f3786ebad42c2", null ],
     [ "isTabRoot", "d3/d01/classXonoticMultiplayerDialog.html#a1ee5500e91a1156be36f4ecf9e022018", null ],

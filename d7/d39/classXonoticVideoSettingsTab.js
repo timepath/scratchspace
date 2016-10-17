@@ -68,6 +68,7 @@ var classXonoticVideoSettingsTab =
     [ "firstColumn", "d7/d39/classXonoticVideoSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "d7/d39/classXonoticVideoSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "d7/d39/classXonoticVideoSettingsTab.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "d7/d39/classXonoticVideoSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "d7/d39/classXonoticVideoSettingsTab.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "d7/d39/classXonoticVideoSettingsTab.html#aadd9c346c46f7516b283639650e5f5cf", null ],
     [ "isTabRoot", "d7/d39/classXonoticVideoSettingsTab.html#aaba311b07a1da9615b2d44e9b8c97149", null ],

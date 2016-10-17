@@ -1,5 +1,17 @@
 var NAVTREEINDEX22 =
 {
+"d3/d01/classXonoticMultiplayerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,207,85],
+"d3/d01/classXonoticMultiplayerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,207,8],
+"d3/d05/classes_8inc.html":[2,0,5,9],
+"d3/d05/classes_8inc_source.html":[2,0,5,9],
+"d3/d05/hud_8qh.html":[2,0,0,1,4],
+"d3/d05/hud_8qh.html#a00cbad6ac1c2decf8f850fb8c712ffba":[2,0,0,1,4,39],
+"d3/d05/hud_8qh.html#a0160171124193a7ee2dd193882da4061":[2,0,0,1,4,36],
+"d3/d05/hud_8qh.html#a0271dc2cb812249454f2f348759a234c":[2,0,0,1,4,52],
+"d3/d05/hud_8qh.html#a0281fee5d685fdf391491312c58bd0b0":[2,0,0,1,4,73],
+"d3/d05/hud_8qh.html#a02abe4a5c60a60714232f7af2024e982":[2,0,0,1,4,115],
+"d3/d05/hud_8qh.html#a045e1064e3dfa1f43fb8e3823dba5127":[2,0,0,1,4,182],
+"d3/d05/hud_8qh.html#a0665196b8b35e0524f91bf87178d6f53":[2,0,0,1,4,43],
 "d3/d05/hud_8qh.html#a06d7feb0be3ff2d1678234b908c25e1f":[2,0,0,1,4,184],
 "d3/d05/hud_8qh.html#a07df182b9bbb79df7bfb31024349b5d6":[2,0,0,1,4,133],
 "d3/d05/hud_8qh.html#a0aa173dac76ebb2e4f085c3bd9a8fe4a":[2,0,0,1,4,139],
@@ -237,17 +249,5 @@ var NAVTREEINDEX22 =
 "d3/d07/scoreboard_8qc.html#a8255b834728e7b21dbd03c51898cccc3":[2,0,0,1,0,34,0],
 "d3/d07/scoreboard_8qc.html#a8334d135eb2ab47a6b716444247f34a8":[2,0,0,1,0,34,46],
 "d3/d07/scoreboard_8qc.html#a85799dd1dce34699edbffd4e9500277a":[2,0,0,1,0,34,26],
-"d3/d07/scoreboard_8qc.html#a87da8393de417bca4fd272ebddf0c212":[2,0,0,1,0,34,69],
-"d3/d07/scoreboard_8qc.html#a8827e611e2682061784beb73513e811b":[2,0,0,1,0,34,19],
-"d3/d07/scoreboard_8qc.html#a8cf61fd66e3aa8d5174eb669865b8264":[2,0,0,1,0,34,51],
-"d3/d07/scoreboard_8qc.html#a8dbf960bcfd2e2e9d94d08d4ed297aaf":[2,0,0,1,0,34,5],
-"d3/d07/scoreboard_8qc.html#a945e9931205171a7c7ee94146625c6e1":[2,0,0,1,0,34,9],
-"d3/d07/scoreboard_8qc.html#a94ddd037ffb67797e205f1daf4e394d9":[2,0,0,1,0,34,78],
-"d3/d07/scoreboard_8qc.html#a95a7f9e58fa1b8d656428ebe5cdfa689":[2,0,0,1,0,34,25],
-"d3/d07/scoreboard_8qc.html#a9bf722ae68431773c4bde7eebad02446":[2,0,0,1,0,34,60],
-"d3/d07/scoreboard_8qc.html#a9d81d772d01432be10b3e0ba39213361":[2,0,0,1,0,34,63],
-"d3/d07/scoreboard_8qc.html#a9de361ce67e82e49e91f0e3cf695c31d":[2,0,0,1,0,34,40],
-"d3/d07/scoreboard_8qc.html#aa3df8ec29f084a228e11bfbfd0ca8b17":[2,0,0,1,0,34,62],
-"d3/d07/scoreboard_8qc.html#aaa5eb41e22d77cd3026131224c82308b":[2,0,0,1,0,34,57],
-"d3/d07/scoreboard_8qc.html#aaf5cd5494661624974d09657b6428ff2":[2,0,0,1,0,34,75]
+"d3/d07/scoreboard_8qc.html#a87da8393de417bca4fd272ebddf0c212":[2,0,0,1,0,34,69]
 };

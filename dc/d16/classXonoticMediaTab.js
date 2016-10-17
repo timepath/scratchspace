@@ -68,6 +68,7 @@ var classXonoticMediaTab =
     [ "firstColumn", "dc/d16/classXonoticMediaTab.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "dc/d16/classXonoticMediaTab.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "dc/d16/classXonoticMediaTab.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "dc/d16/classXonoticMediaTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "dc/d16/classXonoticMediaTab.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "dc/d16/classXonoticMediaTab.html#ac725f2f5018960685d471cb264edaf9e", null ],
     [ "isTabRoot", "dc/d16/classXonoticMediaTab.html#aaba311b07a1da9615b2d44e9b8c97149", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"d0/d6e/impulses_2all_8qh.html#afbed77991fed8d2e7591bf29d25e4346":[2,0,1,4,3,5],
 "d0/d6e/impulses_2all_8qh.html#afd231f63eb3804e5b7ee7d12d186d620":[2,0,1,4,3,3],
 "d0/d6e/impulses_2all_8qh_source.html":[2,0,1,4,3],
 "d0/d70/server_2weapons_2__mod_8inc.html":[2,0,6,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX3 =
 "d0/d8b/common_2constants_8qh.html#a4bec948f47848ed35986ca695c61f431":[2,0,1,29,104],
 "d0/d8b/common_2constants_8qh.html#a506203949a0e816ee955ac65c34694f0":[2,0,1,29,33],
 "d0/d8b/common_2constants_8qh.html#a51d07f847feccf47908c33268d79f0c2":[2,0,1,29,97],
-"d0/d8b/common_2constants_8qh.html#a53ce0bd9e239ad22d6552f5e8914946f":[2,0,1,29,84],
-"d0/d8b/common_2constants_8qh.html#a5717a214044d7bac5f5981ffe8f8026e":[2,0,1,29,36]
+"d0/d8b/common_2constants_8qh.html#a53ce0bd9e239ad22d6552f5e8914946f":[2,0,1,29,84]
 };

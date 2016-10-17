@@ -68,6 +68,7 @@ var classXonoticGameModelSettingsTab =
     [ "firstColumn", "d9/db3/classXonoticGameModelSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66", null ],
     [ "focusable", "d9/db3/classXonoticGameModelSettingsTab.html#aa04e2c113f91606c442b3d67ccd4d876", null ],
     [ "focused", "d9/db3/classXonoticGameModelSettingsTab.html#a7b13cdc101cd55528465440586a004f6", null ],
+    [ "hideMenuOnClose", "d9/db3/classXonoticGameModelSettingsTab.html#a850f9c4ae95e201c6f4c6fc24cced5bf", null ],
     [ "intendedHeight", "d9/db3/classXonoticGameModelSettingsTab.html#aeddd1791da6fd6649a97730380336cf8", null ],
     [ "intendedWidth", "d9/db3/classXonoticGameModelSettingsTab.html#a0ba3980148fb6fa74ee499caa1da49b0", null ],
     [ "isTabRoot", "d9/db3/classXonoticGameModelSettingsTab.html#aaba311b07a1da9615b2d44e9b8c97149", null ],
