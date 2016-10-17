@@ -44,8 +44,7 @@ var NAVTREEINDEX15 =
 "d2/d0a/common_2physics_2player_8qc.html#a3e975b1ebc6b2bf9066537dd0842faa8":[2,0,1,11,6,1],
 "d2/d0a/common_2physics_2player_8qc.html#a497a408e59dc1f5697ed3f902dde1f3c":[2,0,1,11,6,22],
 "d2/d0a/common_2physics_2player_8qc.html#a4a64191d2aeb497ecc6ec081d6813f8a":[2,0,1,11,6,17],
-"d2/d0a/common_2physics_2player_8qc.html#a50fad2175f67c8ff6e31509e5b97114c":[2,0,1,11,6,26],
-"d2/d0a/common_2physics_2player_8qc.html#a69a11ccb74f088dd8f22b6745b33b944":[2,0,1,11,6,24],
+"d2/d0a/common_2physics_2player_8qc.html#a50fad2175f67c8ff6e31509e5b97114c":[2,0,1,11,6,25],
 "d2/d0a/common_2physics_2player_8qc.html#a6d4ff1e16f6c15c47a6787326251ee7a":[2,0,1,11,6,4],
 "d2/d0a/common_2physics_2player_8qc.html#a7f20db878a70709abd841bf5873d578a":[2,0,1,11,6,20],
 "d2/d0a/common_2physics_2player_8qc.html#a8678504c5372b92cf7512e341387148b":[2,0,1,11,6,14],
@@ -55,7 +54,7 @@ var NAVTREEINDEX15 =
 "d2/d0a/common_2physics_2player_8qc.html#ab81c95b0e30aff82122c0e5688564397":[2,0,1,11,6,0],
 "d2/d0a/common_2physics_2player_8qc.html#aba6bcdf9b4bf24fa41a76f0cca28fa9b":[2,0,1,11,6,21],
 "d2/d0a/common_2physics_2player_8qc.html#abb6ca34452c1369173a1515f92dd8764":[2,0,1,11,6,2],
-"d2/d0a/common_2physics_2player_8qc.html#ac97058ca049cfc4d464ba0c4a3f4ef74":[2,0,1,11,6,25],
+"d2/d0a/common_2physics_2player_8qc.html#ac97058ca049cfc4d464ba0c4a3f4ef74":[2,0,1,11,6,24],
 "d2/d0a/common_2physics_2player_8qc.html#aca339d8aaaae115a0d2ba340286b54e9":[2,0,1,11,6,6],
 "d2/d0a/common_2physics_2player_8qc.html#ad10529bb42f77b6fc63150656a85816d":[2,0,1,11,6,5],
 "d2/d0a/common_2physics_2player_8qc.html#ae011b0b8c9891eb366486a2b8c815940":[2,0,1,11,6,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX15 =
 "d2/d25/classXonoticDemoStartConfirmDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,160,33],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,160,38],
 "d2/d25/classXonoticDemoStartConfirmDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,160,58],
-"d2/d25/classXonoticDemoStartConfirmDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,160,83]
+"d2/d25/classXonoticDemoStartConfirmDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,160,83],
+"d2/d25/classXonoticDemoStartConfirmDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,160,51]
 };

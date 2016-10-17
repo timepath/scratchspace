@@ -1,6 +1,5 @@
 var NAVTREEINDEX70 =
 {
-"d7/de8/modalcontroller_8qh.html#abe72a6bafb55848ec9cd7f81a6de3c29":[2,0,5,2,23,6],
 "d7/de8/modalcontroller_8qh.html#ae6d4b13463473ae70d990fd07d4d93f2":[2,0,5,2,23,5],
 "d7/de8/modalcontroller_8qh_source.html":[2,0,5,2,23],
 "d7/dea/hagar_8qh.html":[2,0,1,16,0,15],
@@ -157,6 +156,7 @@ var NAVTREEINDEX70 =
 "d8/d0e/client_2mutators_2events_8qh.html#a92781151132f7412b7c84847ce3d1c17":[2,0,0,2,3,27],
 "d8/d0e/client_2mutators_2events_8qh.html#aa527a4f40097637a836e9fccc71642b6":[2,0,0,2,3,9],
 "d8/d0e/client_2mutators_2events_8qh.html#ab3f1898dea1bf48499b6a581a715650a":[2,0,0,2,3,29],
+"d8/d0e/client_2mutators_2events_8qh.html#abdcc8574bdcab88b68f782db00edacee":[2,0,0,2,3,40],
 "d8/d0e/client_2mutators_2events_8qh.html#ac565948f62c39b18ab0d5054823ec530":[2,0,0,2,3,14],
 "d8/d0e/client_2mutators_2events_8qh.html#ac737061002bfe98dfa7541ab5f58c5b5":[2,0,0,2,3,26],
 "d8/d0e/client_2mutators_2events_8qh.html#ad401df82de86be4f17b96f90e41f5171":[2,0,0,2,3,5],

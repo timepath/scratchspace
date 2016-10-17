@@ -151,10 +151,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00024">24</a> of file <a class="el" href="../../d3/de1/cl__physics_8qc_source.html">cl_physics.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00023">23</a> of file <a class="el" href="../../d3/de1/cl__physics_8qc_source.html">cl_physics.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d77/ecs_2systems_2physics_8qc_source.html#l00009">sys_phys_update()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;{}</div>
+<div class="fragment"><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;{}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -198,19 +198,17 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a> = myteam + 1; <span class="comment">// is this correct?</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a458adbf71d98283d6f38e5dbd6d0ebe7">PHYS_WATERJUMP_TIME</a>(<span class="keyword">this</span>) -= dt;</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    this.<a class="code" href="../../d2/d0a/common_2physics_2player_8qc.html#a69a11ccb74f088dd8f22b6745b33b944">oldmovement</a> = this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#a23fc255128837ca7ca9aa8362cdb3a4a">movement</a>;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#a23fc255128837ca7ca9aa8362cdb3a4a">movement</a> = PHYS_INPUT_MOVEVALUES(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a842a5256688a7c19f56df63e5d585d05">items</a> = STAT(ITEMS, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    this.spectatorspeed = STAT(SPECTATORSPEED, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">if</span> (!(<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a3fe11e0eaa42c3b7557cd166b338ba6f">PHYS_INPUT_BUTTON_JUMP</a>(<span class="keyword">this</span>))) <span class="comment">// !jump</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#ac2d0dcf4a4840539e0901c7254d34ecc">UNSET_JUMP_HELD</a>(<span class="keyword">this</span>);           <span class="comment">// canjump = true</span></div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <a class="code" href="../../d2/d0a/common_2physics_2player_8qc.html#a4a64191d2aeb497ecc6ec081d6813f8a">PM_ClientMovement_UpdateStatus</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;}</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#a23fc255128837ca7ca9aa8362cdb3a4a">movement</a> = PHYS_INPUT_MOVEVALUES(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a842a5256688a7c19f56df63e5d585d05">items</a> = STAT(ITEMS, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    this.spectatorspeed = STAT(SPECTATORSPEED, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordflow">if</span> (!(<a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a3fe11e0eaa42c3b7557cd166b338ba6f">PHYS_INPUT_BUTTON_JUMP</a>(<span class="keyword">this</span>))) <span class="comment">// !jump</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#ac2d0dcf4a4840539e0901c7254d34ecc">UNSET_JUMP_HELD</a>(<span class="keyword">this</span>);           <span class="comment">// canjump = true</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <a class="code" href="../../d2/d0a/common_2physics_2player_8qc.html#a4a64191d2aeb497ecc6ec081d6813f8a">PM_ClientMovement_UpdateStatus</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
 <div class="ttc" id="common_2physics_2player_8qh_html_a3fe11e0eaa42c3b7557cd166b338ba6f"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#a3fe11e0eaa42c3b7557cd166b338ba6f">PHYS_INPUT_BUTTON_JUMP</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_JUMP(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00103">player.qh:103</a></div></div>
 <div class="ttc" id="common_2physics_2player_8qc_html_a4a64191d2aeb497ecc6ec081d6813f8a"><div class="ttname"><a href="../../d2/d0a/common_2physics_2player_8qc.html#a4a64191d2aeb497ecc6ec081d6813f8a">PM_ClientMovement_UpdateStatus</a></div><div class="ttdeci">void PM_ClientMovement_UpdateStatus(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d0a/common_2physics_2player_8qc_source.html#l00091">player.qc:91</a></div></div>
 <div class="ttc" id="common_2physics_2player_8qh_html_ac2d0dcf4a4840539e0901c7254d34ecc"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#ac2d0dcf4a4840539e0901c7254d34ecc">UNSET_JUMP_HELD</a></div><div class="ttdeci">#define UNSET_JUMP_HELD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00158">player.qh:158</a></div></div>
 <div class="ttc" id="common_2physics_2player_8qh_html_a458adbf71d98283d6f38e5dbd6d0ebe7"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#a458adbf71d98283d6f38e5dbd6d0ebe7">PHYS_WATERJUMP_TIME</a></div><div class="ttdeci">#define PHYS_WATERJUMP_TIME(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00169">player.qh:169</a></div></div>
-<div class="ttc" id="common_2physics_2player_8qc_html_a69a11ccb74f088dd8f22b6745b33b944"><div class="ttname"><a href="../../d2/d0a/common_2physics_2player_8qc.html#a69a11ccb74f088dd8f22b6745b33b944">oldmovement</a></div><div class="ttdeci">vector oldmovement</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d0a/common_2physics_2player_8qc_source.html#l00673">player.qc:673</a></div></div>
 <div class="ttc" id="client_2defs_8qh_html_aa06d0157b918990856d6486cf60b16c2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#aa06d0157b918990856d6486cf60b16c2">team</a></div><div class="ttdeci">int team</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00027">defs.qh:27</a></div></div>
 <div class="ttc" id="dpextensions_8qc_html_a23fc255128837ca7ca9aa8362cdb3a4a"><div class="ttname"><a href="../../de/d5e/dpextensions_8qc.html#a23fc255128837ca7ca9aa8362cdb3a4a">movement</a></div><div class="ttdeci">vector movement</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d5e/dpextensions_8qc_source.html#l01663">dpextensions.qc:1663</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a842a5256688a7c19f56df63e5d585d05"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a842a5256688a7c19f56df63e5d585d05">items</a></div><div class="ttdeci">float items</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00145">progsdefs.qc:145</a></div></div>
@@ -251,10 +249,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00030">30</a> of file <a class="el" href="../../d3/de1/cl__physics_8qc_source.html">cl_physics.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00029">29</a> of file <a class="el" href="../../d3/de1/cl__physics_8qc_source.html">cl_physics.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d77/ecs_2systems_2physics_8qc_source.html#l00009">sys_phys_update()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{}</div>
+<div class="fragment"><div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -292,10 +290,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00022">22</a> of file <a class="el" href="../../d3/de1/cl__physics_8qc_source.html">cl_physics.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00021">21</a> of file <a class="el" href="../../d3/de1/cl__physics_8qc_source.html">cl_physics.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d77/ecs_2systems_2physics_8qc_source.html#l00009">sys_phys_update()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;{}</div>
+<div class="fragment"><div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;{}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -333,13 +331,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00016">16</a> of file <a class="el" href="../../d3/de1/cl__physics_8qc_source.html">cl_physics.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00015">15</a> of file <a class="el" href="../../d3/de1/cl__physics_8qc_source.html">cl_physics.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d77/ecs_2systems_2physics_8qc_source.html#l00009">sys_phys_update()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="comment">// no vehicle prediction</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d2a/client_2main_8qh.html#aa8422ed61064cfd6ef67f7ead72114e2">hud</a> != <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a839c489f06be0719ab5390cf2957d4c3">HUD_NORMAL</a>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;{</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="comment">// no vehicle prediction</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d0/d2a/client_2main_8qh.html#aa8422ed61064cfd6ef67f7ead72114e2">hud</a> != <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a839c489f06be0719ab5390cf2957d4c3">HUD_NORMAL</a>;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;}</div>
 <div class="ttc" id="common_2constants_8qh_html_a839c489f06be0719ab5390cf2957d4c3"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a839c489f06be0719ab5390cf2957d4c3">HUD_NORMAL</a></div><div class="ttdeci">const int HUD_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00083">constants.qh:83</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_aa8422ed61064cfd6ef67f7ead72114e2"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#aa8422ed61064cfd6ef67f7ead72114e2">hud</a></div><div class="ttdeci">int hud</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00102">main.qh:102</a></div></div>
 </div><!-- fragment -->
@@ -369,10 +367,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00026">26</a> of file <a class="el" href="../../d3/de1/cl__physics_8qc_source.html">cl_physics.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00025">25</a> of file <a class="el" href="../../d3/de1/cl__physics_8qc_source.html">cl_physics.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d77/ecs_2systems_2physics_8qc_source.html#l00009">sys_phys_update()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{}</div>
+<div class="fragment"><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;{}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-6" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-6-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -400,10 +398,10 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00028">28</a> of file <a class="el" href="../../d3/de1/cl__physics_8qc_source.html">cl_physics.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d3/de1/cl__physics_8qc_source.html#l00027">27</a> of file <a class="el" href="../../d3/de1/cl__physics_8qc_source.html">cl_physics.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../dd/d77/ecs_2systems_2physics_8qc_source.html#l00009">sys_phys_update()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;{}</div>
+<div class="fragment"><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;{}</div>
 </div><!-- fragment -->
 <p><div id="dynsection-7" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-7-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -423,7 +421,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_eafb92770fbc727220bdaa0b1292f771.html">ecs</a></li><li class="navelem"><a class="el" href="../../dir_a0827c396b757bc3d0a72db5249edcce.html">systems</a></li><li class="navelem"><a class="el" href="../../d3/de1/cl__physics_8qc.html">cl_physics.qc</a></li>
-    <li class="footer">Generated on Wed Oct 12 2016 23:07:21 for Xonotic by
+    <li class="footer">Generated on Mon Oct 17 2016 13:46:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
