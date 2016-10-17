@@ -1,5 +1,13 @@
 var NAVTREEINDEX71 =
 {
+"d8/d12/classRaptor.html#ab8a521e4c2b1360fd8ffff369ece2428":[1,0,104,25],
+"d8/d12/classRaptor.html#abb0248cf77d78ec72661662614263acf":[1,0,104,30],
+"d8/d12/classRaptor.html#acd61673a42237365d55777d092f5f5ad":[1,0,104,14],
+"d8/d12/classRaptor.html#ad29884a3f395ad9d49c4eceab06a2957":[1,0,104,8],
+"d8/d12/classRaptor.html#adf8a07b9a784db9eebebaede75458935":[1,0,104,27],
+"d8/d12/classRaptor.html#ae6f993d40a8c3fe356e149ef15eeb11c":[1,0,104,18],
+"d8/d12/classRaptor.html#ae8af7e33ae6e2e1f8115315cbfe1f5b1":[1,0,104,23],
+"d8/d12/classRaptor.html#af1e7a9d937de540345fea6c3f4058b0f":[1,0,104,31],
 "d8/d12/classRaptor.html#af6f42dcff19b7fb5b76462a7d5848b97":[1,0,104,11],
 "d8/d12/classRaptor.html#afb51af177de217b40bf0f926fb5ff0bb":[1,0,104,0],
 "d8/d12/classRaptor.html#afd0b0a53c33686b2c18a083f282d1761":[1,0,104,28],
@@ -241,13 +249,5 @@ var NAVTREEINDEX71 =
 "d8/d35/classXonoticHUDChatDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,175,61],
 "d8/d35/classXonoticHUDChatDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,175,30],
 "d8/d35/classXonoticHUDChatDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,175,6],
-"d8/d35/classXonoticHUDChatDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,175,46],
-"d8/d35/classXonoticHUDChatDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,175,56],
-"d8/d35/classXonoticHUDChatDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,175,1],
-"d8/d35/classXonoticHUDChatDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,175,12],
-"d8/d35/classXonoticHUDChatDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,175,75],
-"d8/d35/classXonoticHUDChatDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,175,23],
-"d8/d35/classXonoticHUDChatDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,175,50],
-"d8/d35/classXonoticHUDChatDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,175,28],
-"d8/d35/classXonoticHUDChatDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,175,57]
+"d8/d35/classXonoticHUDChatDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,175,46]
 };

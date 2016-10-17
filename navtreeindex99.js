@@ -1,5 +1,13 @@
 var NAVTREEINDEX99 =
 {
+"db/d7f/effectinfo_8inc.html#ac3d3a0b44ea1a2c6391a38b9cfda2b24":[2,0,1,2,7,58],
+"db/d7f/effectinfo_8inc.html#ac4e5464be9b435bed2159e3b2b93ee74":[2,0,1,2,7,129],
+"db/d7f/effectinfo_8inc.html#ac509f6a24d6f0670c7038c7db71fb526":[2,0,1,2,7,301],
+"db/d7f/effectinfo_8inc.html#ac604c7c30a4459db1856128ca650f03f":[2,0,1,2,7,30],
+"db/d7f/effectinfo_8inc.html#ac61635b92198b2ad5055fafc39684d0d":[2,0,1,2,7,272],
+"db/d7f/effectinfo_8inc.html#ac7c86f73a94943dee0c71ef96a1a7e6e":[2,0,1,2,7,39],
+"db/d7f/effectinfo_8inc.html#ac86351e28218236a4a9dfd91e05bc383":[2,0,1,2,7,138],
+"db/d7f/effectinfo_8inc.html#ac939d312aedb2ececd1cda8abe5c3a09":[2,0,1,2,7,183],
 "db/d7f/effectinfo_8inc.html#ac9d4a16956c2a0eebda51fac74b86797":[2,0,1,2,7,170],
 "db/d7f/effectinfo_8inc.html#acad0c16a962f053c9509a72f06a93829":[2,0,1,2,7,225],
 "db/d7f/effectinfo_8inc.html#acc2be3664d219ee4f4241b2b1da1c6ad":[2,0,1,2,7,136],
@@ -241,13 +249,5 @@ var NAVTREEINDEX99 =
 "db/da0/log_8qh.html#ab4d8a0056ca3db0691ad1d55cbd76fe0":[2,0,4,29,3],
 "db/da0/log_8qh.html#ab709d1a9c4f30481019dd95e67a4f9f5":[2,0,4,29,26],
 "db/da0/log_8qh.html#ac0728eb9b46661ff2f6b488856396d5c":[2,0,4,29,18],
-"db/da0/log_8qh.html#ac3d6e7493c5d9f48b1eff4ccd469507d":[2,0,4,29,15],
-"db/da0/log_8qh.html#ad2f8b948e71ddedcb93c360f01351de3":[2,0,4,29,22],
-"db/da0/log_8qh.html#ad777ba7b944cf9dc0f5ef7dbf390333e":[2,0,4,29,1],
-"db/da0/log_8qh.html#add82efa459e0af380b68522c29b9fd44":[2,0,4,29,31],
-"db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37":[2,0,4,29,16],
-"db/da0/log_8qh.html#afab8de1e69e3162b5564c0197bbc8ff8":[2,0,4,29,13],
-"db/da0/log_8qh_source.html":[2,0,4,29],
-"db/da4/common_2mutators_2mutator_2hook_2__mod_8qh.html":[2,0,1,9,0,10,1],
-"db/da4/common_2mutators_2mutator_2hook_2__mod_8qh_source.html":[2,0,1,9,0,10,1]
+"db/da0/log_8qh.html#ac3d6e7493c5d9f48b1eff4ccd469507d":[2,0,4,29,15]
 };
