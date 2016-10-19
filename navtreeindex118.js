@@ -1,5 +1,6 @@
 var NAVTREEINDEX118 =
 {
+"de/d19/classEasing.html#a66cc7333638f071b0401072ba95c55fd":[1,0,29,23],
 "de/d19/classEasing.html#a681618c20431795a27e0c8b9d6d10a85":[1,0,29,17],
 "de/d19/classEasing.html#a681da301527ef3577d25202f35f7c43f":[1,0,29,7],
 "de/d19/classEasing.html#a689e8f596580507473b40b0ec845db12":[1,0,29,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX118 =
 "de/d40/gamemode__keyhunt_8qc.html#a7478343cacd66fb2eabd82baa3697669":[2,0,6,2,0,20,86],
 "de/d40/gamemode__keyhunt_8qc.html#a80abadcd5cbf74fa395572ca65876637":[2,0,6,2,0,20,42],
 "de/d40/gamemode__keyhunt_8qc.html#a88305d2bfe2e2fa2ed5936c54aed07c7":[2,0,6,2,0,20,89],
-"de/d40/gamemode__keyhunt_8qc.html#a8aa5874d9ea7c9f4d142264272180abe":[2,0,6,2,0,20,23],
-"de/d40/gamemode__keyhunt_8qc.html#a8b7a8051b363358a9e65fe55b263a7d7":[2,0,6,2,0,20,10]
+"de/d40/gamemode__keyhunt_8qc.html#a8aa5874d9ea7c9f4d142264272180abe":[2,0,6,2,0,20,23]
 };

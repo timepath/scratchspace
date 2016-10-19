@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"d9/d6e/classTuba.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,127,22],
 "d9/d6e/classTuba.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,127,17],
 "d9/d6e/classTuba.html#af765598ed8e13079da67cd5058d93e37":[1,0,127,32],
 "d9/d71/classCommand.html":[1,0,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "d9/dad/xonotic_2radiobutton_8qc_source.html":[2,0,5,4,192],
 "d9/db3/anim_8qc.html":[2,0,1,20],
 "d9/db3/anim_8qc.html#a421df7f2fe541d4a113e626456fb3cae":[2,0,1,20,1],
-"d9/db3/anim_8qc.html#a772713e6e892a6e8fe40076d9c0b68cd":[2,0,1,20,0],
-"d9/db3/anim_8qc_source.html":[2,0,1,20]
+"d9/db3/anim_8qc.html#a772713e6e892a6e8fe40076d9c0b68cd":[2,0,1,20,0]
 };
