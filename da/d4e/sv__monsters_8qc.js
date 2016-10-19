@@ -38,7 +38,7 @@ var sv__monsters_8qc =
     [ "Monster_Sounds_Load", "da/d4e/sv__monsters_8qc.html#af761bd08661fe1804c63ce61e45d219b", null ],
     [ "Monster_Sounds_Precache", "da/d4e/sv__monsters_8qc.html#a81bb05b0b8ecc49aeed340310f95d698", null ],
     [ "Monster_Sounds_Update", "da/d4e/sv__monsters_8qc.html#a754a84678738128e92ef5ec2d7c7b4b8", null ],
-    [ "Monster_Spawn", "da/d4e/sv__monsters_8qc.html#a473e551b6c76c0037bbcfe0c4742b4e9", null ],
+    [ "Monster_Spawn", "da/d4e/sv__monsters_8qc.html#a1e264a94238b71678a588bef93292d8a", null ],
     [ "Monster_Spawn_Setup", "da/d4e/sv__monsters_8qc.html#ae8583f9bde31f60a7137868d603e2b58", null ],
     [ "Monster_Think", "da/d4e/sv__monsters_8qc.html#af743ad44b5406594d65a3cc6cc434503", null ],
     [ "Monster_Touch", "da/d4e/sv__monsters_8qc.html#a76ebe147579e46d75406196c26fe2089", null ],

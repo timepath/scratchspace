@@ -314,7 +314,7 @@ var searchData=
   ['monster_5fsounds_5fload',['Monster_Sounds_Load',['../da/d4e/sv__monsters_8qc.html#af761bd08661fe1804c63ce61e45d219b',1,'sv_monsters.qc']]],
   ['monster_5fsounds_5fprecache',['Monster_Sounds_Precache',['../da/d4e/sv__monsters_8qc.html#a81bb05b0b8ecc49aeed340310f95d698',1,'sv_monsters.qc']]],
   ['monster_5fsounds_5fupdate',['Monster_Sounds_Update',['../da/d4e/sv__monsters_8qc.html#a754a84678738128e92ef5ec2d7c7b4b8',1,'sv_monsters.qc']]],
-  ['monster_5fspawn',['Monster_Spawn',['../da/d4e/sv__monsters_8qc.html#a473e551b6c76c0037bbcfe0c4742b4e9',1,'Monster_Spawn(entity this, int mon_id):&#160;sv_monsters.qc'],['../d8/dc1/sv__monsters_8qh.html#a473e551b6c76c0037bbcfe0c4742b4e9',1,'Monster_Spawn(entity this, int mon_id):&#160;sv_monsters.qc']]],
+  ['monster_5fspawn',['Monster_Spawn',['../da/d4e/sv__monsters_8qc.html#a1e264a94238b71678a588bef93292d8a',1,'Monster_Spawn(entity this, bool check_appear, int mon_id):&#160;sv_monsters.qc'],['../d8/dc1/sv__monsters_8qh.html#a1e264a94238b71678a588bef93292d8a',1,'Monster_Spawn(entity this, bool check_appear, int mon_id):&#160;sv_monsters.qc']]],
   ['monster_5fspawn_5fsetup',['Monster_Spawn_Setup',['../da/d4e/sv__monsters_8qc.html#ae8583f9bde31f60a7137868d603e2b58',1,'sv_monsters.qc']]],
   ['monster_5fthink',['Monster_Think',['../da/d4e/sv__monsters_8qc.html#af743ad44b5406594d65a3cc6cc434503',1,'sv_monsters.qc']]],
   ['monster_5ftouch',['Monster_Touch',['../da/d4e/sv__monsters_8qc.html#a76ebe147579e46d75406196c26fe2089',1,'Monster_Touch(entity this, entity toucher):&#160;sv_monsters.qc'],['../d8/dc1/sv__monsters_8qh.html#a76ebe147579e46d75406196c26fe2089',1,'Monster_Touch(entity this, entity toucher):&#160;sv_monsters.qc']]],
