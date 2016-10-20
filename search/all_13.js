@@ -604,7 +604,7 @@ var searchData=
   ['spawning_2eqc',['spawning.qc',['../dc/dab/spawning_8qc.html',1,'']]],
   ['spawning_2eqh',['spawning.qh',['../d3/d93/spawning_8qh.html',1,'']]],
   ['spawnmob',['spawnmob',['../d5/d1f/gamemode__invasion_8qc.html#a6dc66623f06daa36544b6934c48d9291',1,'gamemode_invasion.qc']]],
-  ['spawnmonster',['spawnmonster',['../d8/d1c/sv__spawn_8qc.html#af64f11a7bf0f7e718b00f9f8c2a85401',1,'spawnmonster(string monster, int monster_id, entity spawnedby, entity own, vector orig, bool respwn, bool invincible, int moveflag):&#160;sv_spawn.qc'],['../d3/d3e/sv__spawn_8qh.html#af64f11a7bf0f7e718b00f9f8c2a85401',1,'spawnmonster(string monster, int monster_id, entity spawnedby, entity own, vector orig, bool respwn, bool invincible, int moveflag):&#160;sv_spawn.qc']]],
+  ['spawnmonster',['spawnmonster',['../d8/d1c/sv__spawn_8qc.html#a3a58c89b43048d5e0abc5bfd2ac985d5',1,'spawnmonster(entity e, string monster, int monster_id, entity spawnedby, entity own, vector orig, bool respwn, bool invincible, int moveflag):&#160;sv_spawn.qc'],['../d3/d3e/sv__spawn_8qh.html#a3a58c89b43048d5e0abc5bfd2ac985d5',1,'spawnmonster(entity e, string monster, int monster_id, entity spawnedby, entity own, vector orig, bool respwn, bool invincible, int moveflag):&#160;sv_spawn.qc']]],
   ['spawnpoint_5fnag',['spawnpoint_nag',['../d4/dd1/spawnpoints_8qh.html#ab4967b5a52be505fdfbe23d0d61b2aa1',1,'spawnpoints.qh']]],
   ['spawnpoint_5fprevorigin',['spawnpoint_prevorigin',['../d0/d41/spawnpoints_8qc.html#acfbd90447ab6c8bb55634c7936e20ece',1,'spawnpoints.qc']]],
   ['spawnpoint_5fscore',['spawnpoint_score',['../d4/dd1/spawnpoints_8qh.html#a693d893f5755f55200d6c320c814c6a4',1,'spawnpoints.qh']]],
