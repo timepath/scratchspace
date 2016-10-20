@@ -97,7 +97,7 @@ var searchData=
   ['_5fmapinfo_5fcache_5factive',['_MapInfo_Cache_Active',['../d3/d46/mapinfo_8qc.html#ab5c5929c7aa77b026c06a6665867a6ac',1,'mapinfo.qc']]],
   ['_5fmapinfo_5fcache_5fbuf_5findextomapdata',['_MapInfo_Cache_Buf_IndexToMapData',['../d3/d46/mapinfo_8qc.html#aa71618f0ec93770d5cdb60c5f7891704',1,'mapinfo.qc']]],
   ['_5fmapinfo_5fcache_5fdb_5fnametoindex',['_MapInfo_Cache_DB_NameToIndex',['../d3/d46/mapinfo_8qc.html#a2574a56df0c60d3dd7b90bbf2b91ec75',1,'mapinfo.qc']]],
-  ['_5fmapinfo_5fcheckmap',['_MapInfo_CheckMap',['../d3/d46/mapinfo_8qc.html#a0fe3d66c4b5dfc5f558e735ec8217b84',1,'mapinfo.qc']]],
+  ['_5fmapinfo_5fcheckmap',['_MapInfo_CheckMap',['../d3/d46/mapinfo_8qc.html#ab6ff1312fd2c85c03304ce5cd50ea4a0',1,'mapinfo.qc']]],
   ['_5fmapinfo_5ffiltered',['_MapInfo_filtered',['../d3/d46/mapinfo_8qc.html#af584d2bcf01597f08e2951d926c1ad33',1,'mapinfo.qc']]],
   ['_5fmapinfo_5ffiltered_5fallocated',['_MapInfo_filtered_allocated',['../d3/d46/mapinfo_8qc.html#ae71385f80780699b721c4e71253df113',1,'mapinfo.qc']]],
   ['_5fmapinfo_5ffiltergametype',['_MapInfo_FilterGametype',['../d3/d46/mapinfo_8qc.html#aebb56edd95a3122a4b338d4a8e22ff69',1,'_MapInfo_FilterGametype(int pGametype, int pFeatures, int pFlagsRequired, int pFlagsForbidden, bool pAbortOnGenerate):&#160;mapinfo.qc'],['../d2/d9e/mapinfo_8qh.html#afbf0c0f2f0a80e1ff6f24d0dfee51ca8',1,'_MapInfo_FilterGametype(int gametypeFlags, float features, float pFlagsRequired, float pFlagsForbidden, float pAbortOnGenerate):&#160;mapinfo.qh']]],
