@@ -102,7 +102,6 @@ var searchData=
   ['range_5fnear',['RANGE_NEAR',['../d6/d11/progsdefs_8qc.html#a79cc6016efdaffa2c11c0c2148bce7c3',1,'progsdefs.qc']]],
   ['rankings_5fcnt',['RANKINGS_CNT',['../d0/d8b/common_2constants_8qh.html#a2484ad7e0727cf4a5404649cad71c070',1,'constants.qh']]],
   ['rankings_5freceived_5fcnt',['RANKINGS_RECEIVED_CNT',['../d0/d2a/client_2main_8qh.html#a21101a6b514ed0aad419d464b62e4c64',1,'main.qh']]],
-  ['ranks',['ranks',['../d5/d26/server_2defs_8qh.html#ad3b79720429f6c6b4cf42b4f470f1916',1,'defs.qh']]],
   ['ready',['ready',['../d0/d2a/client_2main_8qh.html#a8f1a257495dcbeb0d62845e580d8d86d',1,'ready():&#160;main.qh'],['../d7/d16/server_2command_2vote_8qh.html#a8f1a257495dcbeb0d62845e580d8d86d',1,'ready():&#160;vote.qh']]],
   ['ready_5fwaiting',['ready_waiting',['../d0/d2a/client_2main_8qh.html#acf90c50afe774621facc0ca5fb22ff97',1,'main.qh']]],
   ['ready_5fwaiting_5ffor_5fme',['ready_waiting_for_me',['../d0/d2a/client_2main_8qh.html#abf9a4e6007548744ed279f6e5dd373d9',1,'main.qh']]],

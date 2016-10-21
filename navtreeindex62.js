@@ -1,13 +1,5 @@
 var NAVTREEINDEX62 =
 {
-"d7/d50/classXonoticPlayerList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,214,62],
-"d7/d50/classXonoticPlayerList.html#acc39a417d17b87d076c2b719407f4f59":[1,0,214,73],
-"d7/d50/classXonoticPlayerList.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,214,17],
-"d7/d50/classXonoticPlayerList.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,214,37],
-"d7/d50/classXonoticPlayerList.html#ad2b74f1dbd77d65495482e707a252e84":[1,0,214,42],
-"d7/d50/classXonoticPlayerList.html#ad5cc191f2221873ca858a9fb66cbb54e":[1,0,214,51],
-"d7/d50/classXonoticPlayerList.html#ad837b8706cf7ede26336c11ff615f3d9":[1,0,214,48],
-"d7/d50/classXonoticPlayerList.html#ad924e458ea4e11cfa81a9261cd7977ba":[1,0,214,77],
 "d7/d50/classXonoticPlayerList.html#adbc65a2089ef3278a098c80685b4b8a3":[1,0,214,54],
 "d7/d50/classXonoticPlayerList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,214,33],
 "d7/d50/classXonoticPlayerList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,214,81],
@@ -249,5 +241,13 @@ var NAVTREEINDEX62 =
 "d7/d75/raptor__weapons_8qh.html":[2,0,1,15,0,13],
 "d7/d75/raptor__weapons_8qh.html#a044e3aa9b70170069e32f4c5e606b389":[2,0,1,15,0,13,9],
 "d7/d75/raptor__weapons_8qh.html#a27afccbe85bc6affb33c55584f3004e9":[2,0,1,15,0,13,18],
-"d7/d75/raptor__weapons_8qh.html#a2a503f53a1045533a997f7551a5486a4":[2,0,1,15,0,13,3]
+"d7/d75/raptor__weapons_8qh.html#a2a503f53a1045533a997f7551a5486a4":[2,0,1,15,0,13,3],
+"d7/d75/raptor__weapons_8qh.html#a31912fd686b91bbc1c2f1e9e7007bb9c":[2,0,1,15,0,13,8],
+"d7/d75/raptor__weapons_8qh.html#a3c99bfae2653a52d0d06cc1ad37a5aa9":[2,0,1,15,0,13,11],
+"d7/d75/raptor__weapons_8qh.html#a414e0249b9aa75c0e139e42d0a73a5f3":[2,0,1,15,0,13,10],
+"d7/d75/raptor__weapons_8qh.html#a4284e7de9d079907bf8bf7de46fd7c92":[2,0,1,15,0,13,14],
+"d7/d75/raptor__weapons_8qh.html#a42efd269cf75f0f6e079e6e42de8e038":[2,0,1,15,0,13,21],
+"d7/d75/raptor__weapons_8qh.html#a44f7bff30838481ecd8df42ab3425573":[2,0,1,15,0,13,20],
+"d7/d75/raptor__weapons_8qh.html#a4cff44f5ec9265b0fa4b9e5cdc2a1f73":[2,0,1,15,0,13,15],
+"d7/d75/raptor__weapons_8qh.html#a4fd72d3d2b0af3ac5485c992805a15f6":[2,0,1,15,0,13,7]
 };

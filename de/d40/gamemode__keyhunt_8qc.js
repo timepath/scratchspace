@@ -69,7 +69,6 @@ var gamemode__keyhunt_8qc =
     [ "autocvar_g_keyhunt_teams_override", "de/d40/gamemode__keyhunt_8qc.html#a3eb7a2cc61d68e5aed599a04b3e12c09", null ],
     [ "kh_controller", "de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04", null ],
     [ "kh_Controller_Thinkfunc", "de/d40/gamemode__keyhunt_8qc.html#aaa6ac186f9d9e6408724cba22fbf8a42", null ],
-    [ "kh_cp_duration", "de/d40/gamemode__keyhunt_8qc.html#a343dfcec6a6963c939fe22688226dabf", null ],
     [ "kh_dropperteam", "de/d40/gamemode__keyhunt_8qc.html#a0379f7b84abbaca1fc37b8f9c632b2f1", null ],
     [ "kh_droptime", "de/d40/gamemode__keyhunt_8qc.html#a43d7ddb74b563712df682958fd2ab4d6", null ],
     [ "kh_interferemsg_team", "de/d40/gamemode__keyhunt_8qc.html#a8c97fa177143471ba0fea28b947e4527", null ],

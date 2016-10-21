@@ -1,13 +1,5 @@
 var NAVTREEINDEX55 =
 {
-"d6/d79/classXonoticHUDWeaponsDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,194,79],
-"d6/d79/classXonoticHUDWeaponsDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,194,44],
-"d6/d79/classXonoticHUDWeaponsDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,194,0],
-"d6/d79/classXonoticHUDWeaponsDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,194,16],
-"d6/d79/classXonoticHUDWeaponsDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,194,33],
-"d6/d79/classXonoticHUDWeaponsDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,194,38],
-"d6/d79/classXonoticHUDWeaponsDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,194,58],
-"d6/d79/classXonoticHUDWeaponsDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,194,85],
 "d6/d79/classXonoticHUDWeaponsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,194,51],
 "d6/d79/classXonoticHUDWeaponsDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,194,63],
 "d6/d79/classXonoticHUDWeaponsDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,194,88],
@@ -249,5 +241,13 @@ var NAVTREEINDEX55 =
 "d6/d9c/door_8qc.html#a8d938ad27fd52df3dcc1494048b0b852":[2,0,1,13,0,10,0],
 "d6/d9c/door_8qc.html#a9455efb74554e8dbaa1a0b4d365bf187":[2,0,1,13,0,10,22],
 "d6/d9c/door_8qc.html#a9b3dfef6f936841d5afaf00fe2875afa":[2,0,1,13,0,10,19],
-"d6/d9c/door_8qc.html#aac6d3628600265920c578a004ea7fab7":[2,0,1,13,0,10,12]
+"d6/d9c/door_8qc.html#aac6d3628600265920c578a004ea7fab7":[2,0,1,13,0,10,12],
+"d6/d9c/door_8qc.html#ab1bcfdc401011109dbfbec373e08244d":[2,0,1,13,0,10,5],
+"d6/d9c/door_8qc.html#ab45d7a6a8e7aa74534c866de88c80603":[2,0,1,13,0,10,14],
+"d6/d9c/door_8qc.html#abfbb3703193bb9d42361a8ee1a3f735a":[2,0,1,13,0,10,2],
+"d6/d9c/door_8qc.html#ac89ee5393ec1d28f59b822a7e4b35d9e":[2,0,1,13,0,10,15],
+"d6/d9c/door_8qc.html#ace748e7903e525e33c72f0a971a0bece":[2,0,1,13,0,10,13],
+"d6/d9c/door_8qc.html#ad0b1e3533df44b379cdf452f95983d31":[2,0,1,13,0,10,11],
+"d6/d9c/door_8qc.html#ad2038a961ab8ce526e889baf271b6104":[2,0,1,13,0,10,21],
+"d6/d9c/door_8qc.html#ae87674ba0b9d41767ee95397dabe1029":[2,0,1,13,0,10,3]
 };

@@ -1,17 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"d9/d6e/classTuba.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,127,22],
-"d9/d6e/classTuba.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,127,17],
-"d9/d6e/classTuba.html#af765598ed8e13079da67cd5058d93e37":[1,0,127,32],
-"d9/d71/classCommand.html":[1,0,19],
-"d9/d71/classCommand.html#a0f2cd8b45baa552bdb284ad6cc0e5e99":[1,0,19,0],
-"d9/d71/classCommand.html#a12e2c9c862d73b0477fd4ac4cf677ea2":[1,0,19,1],
-"d9/d71/classCommand.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,19,2],
-"d9/d71/classCommand.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,19,3],
-"d9/d71/classCommand.html#ac64931fa59dc71e81befc2854c7d0108":[1,0,19,4],
-"d9/d76/common_2__all_8inc.html":[2,0,1,17],
-"d9/d76/common_2__all_8inc.html#aa5815be584a2fd563b0fdf5a0a29a21f":[2,0,1,17,0],
-"d9/d76/common_2__all_8inc_source.html":[2,0,1,17],
 "d9/d76/timer_8qh.html":[2,0,0,1,0,37],
 "d9/d76/timer_8qh_source.html":[2,0,0,1,0,37],
 "d9/d7a/dialog__hudpanel__powerups_8qh.html":[2,0,5,4,65],
@@ -249,5 +237,17 @@ var NAVTREEINDEX83 =
 "d9/dad/xonotic_2radiobutton_8qc_source.html":[2,0,5,4,192],
 "d9/db3/anim_8qc.html":[2,0,1,20],
 "d9/db3/anim_8qc.html#a421df7f2fe541d4a113e626456fb3cae":[2,0,1,20,1],
-"d9/db3/anim_8qc.html#a772713e6e892a6e8fe40076d9c0b68cd":[2,0,1,20,0]
+"d9/db3/anim_8qc.html#a772713e6e892a6e8fe40076d9c0b68cd":[2,0,1,20,0],
+"d9/db3/anim_8qc_source.html":[2,0,1,20],
+"d9/db3/classXonoticGameModelSettingsTab.html":[1,0,168],
+"d9/db3/classXonoticGameModelSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,168,36],
+"d9/db3/classXonoticGameModelSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,168,15],
+"d9/db3/classXonoticGameModelSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,168,44],
+"d9/db3/classXonoticGameModelSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,168,10],
+"d9/db3/classXonoticGameModelSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,168,3],
+"d9/db3/classXonoticGameModelSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,168,78],
+"d9/db3/classXonoticGameModelSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,168,85],
+"d9/db3/classXonoticGameModelSettingsTab.html#a0ba3980148fb6fa74ee499caa1da49b0":[1,0,168,70],
+"d9/db3/classXonoticGameModelSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,168,82],
+"d9/db3/classXonoticGameModelSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,168,52]
 };

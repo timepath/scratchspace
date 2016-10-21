@@ -70,8 +70,6 @@ var server_2client_8qc =
     [ "chatbubbleentity", "df/dd7/server_2client_8qc.html#a0ea52ed96e6d3b34c2c0eac9ec813fe7", null ],
     [ "clientkill_nexttime", "df/dd7/server_2client_8qc.html#a1f7075729b16c7fb29ac863d1a4c1725", null ],
     [ "clientkilltime", "df/dd7/server_2client_8qc.html#a482f54a20df32f498a4c3cca6f372fee", null ],
-    [ "ebouncefactor", "df/dd7/server_2client_8qc.html#a0c56959f0c21dd9ec03f6760e1ac3b47", null ],
-    [ "ebouncestop", "df/dd7/server_2client_8qc.html#ad20ac17e57bbe7450cb858719ac5520d", null ],
     [ "FallbackPlayerModel", "df/dd7/server_2client_8qc.html#af5e87ff2e4692a9299766df3a8d949d7", null ],
     [ "frame", "df/dd7/server_2client_8qc.html#a6828e314f91bec7a1445f0be1b00d7c0", null ],
     [ "idlekick_lasttimeleft", "df/dd7/server_2client_8qc.html#abcb65a45d0fdc442693ce1ae87579b2a", null ],

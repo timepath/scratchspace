@@ -10,7 +10,6 @@ var gamemode__assault_8qh =
     [ "HAVOCBOT_AST_ROLE_DEFENSE", "d8/d0f/gamemode__assault_8qh.html#a7c876617d922cd16d5dab82fe6fce4e3", null ],
     [ "HAVOCBOT_AST_ROLE_NONE", "d8/d0f/gamemode__assault_8qh.html#af8389fdc85e65f8ba4b3d508404af1b1", null ],
     [ "HAVOCBOT_AST_ROLE_OFFENSE", "d8/d0f/gamemode__assault_8qh.html#a6c1be8aa70a07ec6b91cfb1050ddcbc8", null ],
-    [ "havocbot_ast_target", "d8/d0f/gamemode__assault_8qh.html#a8854e134a0d692c1377eb61d2e4b6c73", null ],
     [ "havocbot_attack_time", "d8/d0f/gamemode__assault_8qh.html#a90b02641f0c7d1b01f7998fe398c95c1", null ],
     [ "havocbot_role_flags", "d8/d0f/gamemode__assault_8qh.html#a0ac3d078a3d265b901ef367a940be615", null ],
     [ "ST_ASSAULT_OBJECTIVES", "d8/d0f/gamemode__assault_8qh.html#aa63969d6de82cd5d06f291e89e140ca4", null ]

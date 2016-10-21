@@ -102,8 +102,6 @@ var searchData=
   ['ons_5fowned_5fgenerators_5fok',['ONS_OWNED_GENERATORS_OK',['../d0/de4/sv__onslaught_8qc.html#aa085a181dec5164bf6bf421e17b95ffd',1,'sv_onslaught.qc']]],
   ['ons_5fscorerules',['ons_ScoreRules',['../d0/de4/sv__onslaught_8qc.html#a14d65ec90152a736bb77ef787a7048ce',1,'sv_onslaught.qc']]],
   ['ons_5fspawn_5fby',['ons_spawn_by',['../d7/dd0/sv__onslaught_8qh.html#a62cbb170bbfeec4295f50d47b5b2bb37',1,'sv_onslaught.qh']]],
-  ['ons_5fstalecpnext',['ons_stalecpnext',['../d7/dd0/sv__onslaught_8qh.html#a077872340fe21710a4f26ce7d9b5fd2f',1,'sv_onslaught.qh']]],
-  ['ons_5fstalelinknext',['ons_stalelinknext',['../d7/dd0/sv__onslaught_8qh.html#af656061e927ae783f4300139dc699bf1',1,'sv_onslaught.qh']]],
   ['ons_5fstalemate',['ons_stalemate',['../d7/dd0/sv__onslaught_8qh.html#a5b68d076e8c95387a77d53ccfdb6ab49',1,'sv_onslaught.qh']]],
   ['ons_5fteleport',['ons_Teleport',['../d0/de4/sv__onslaught_8qc.html#af7537b2e33b44f954f9d8ea03c6b9804',1,'sv_onslaught.qc']]],
   ['ons_5ftoucher',['ons_toucher',['../d7/dd0/sv__onslaught_8qh.html#a5febebda1effaf226f026ce8c18f08a4',1,'sv_onslaught.qh']]],

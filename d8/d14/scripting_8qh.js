@@ -59,6 +59,5 @@ var scripting_8qh =
     [ "BOT_CMD_WAIT_UNTIL", "d8/d14/scripting_8qh.html#a47b13db3838cb8a439476396a8cb9eba", null ],
     [ "BOT_CMD_WEND", "d8/d14/scripting_8qh.html#a75f85e8ba4be53cda6c91ef1028e7b01", null ],
     [ "BOT_CMD_WHILE", "d8/d14/scripting_8qh.html#acc8076bf722909625e01f92cf7d34856", null ],
-    [ "bot_cmds_initialized", "d8/d14/scripting_8qh.html#aee893b8c45acb57723bdf59ea42e8516", null ],
-    [ "is_bot_cmd", "d8/d14/scripting_8qh.html#ae88c894809a251bab93146628a6615a7", null ]
+    [ "bot_cmds_initialized", "d8/d14/scripting_8qh.html#aee893b8c45acb57723bdf59ea42e8516", null ]
 ];

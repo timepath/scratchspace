@@ -138,7 +138,6 @@ var searchData=
   ['keygrabber',['keyGrabber',['../d0/d41/menu_8qh.html#a5070a4bd9a225227fd5da0dcd7a754d0',1,'menu.qh']]],
   ['kh_5fcontroller',['kh_controller',['../de/d40/gamemode__keyhunt_8qc.html#ae7b3c1654fc9ec41e20d7489ae761a04',1,'gamemode_keyhunt.qc']]],
   ['kh_5fcontroller_5fthinkfunc',['kh_Controller_Thinkfunc',['../de/d40/gamemode__keyhunt_8qc.html#aaa6ac186f9d9e6408724cba22fbf8a42',1,'gamemode_keyhunt.qc']]],
-  ['kh_5fcp_5fduration',['kh_cp_duration',['../de/d40/gamemode__keyhunt_8qc.html#a343dfcec6a6963c939fe22688226dabf',1,'gamemode_keyhunt.qc']]],
   ['kh_5fdropperteam',['kh_dropperteam',['../de/d40/gamemode__keyhunt_8qc.html#a0379f7b84abbaca1fc37b8f9c632b2f1',1,'gamemode_keyhunt.qc']]],
   ['kh_5fdroptime',['kh_droptime',['../de/d40/gamemode__keyhunt_8qc.html#a43d7ddb74b563712df682958fd2ab4d6',1,'gamemode_keyhunt.qc']]],
   ['kh_5finterferemsg_5fteam',['kh_interferemsg_team',['../de/d40/gamemode__keyhunt_8qc.html#a8c97fa177143471ba0fea28b947e4527',1,'gamemode_keyhunt.qc']]],
@@ -166,7 +165,6 @@ var searchData=
   ['kh_5fworldkeynext',['kh_worldkeynext',['../db/d15/api_8qh.html#abb611131b031308c318e295ec74a375f',1,'kh_worldkeynext():&#160;api.qh'],['../de/d40/gamemode__keyhunt_8qc.html#abb611131b031308c318e295ec74a375f',1,'kh_worldkeynext():&#160;gamemode_keyhunt.qc']]],
   ['killcount',['killcount',['../d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003',1,'defs.qh']]],
   ['killed_5fmonsters',['killed_monsters',['../d6/d11/progsdefs_8qc.html#a36860577d5e193383858a6256d509ee1',1,'progsdefs.qc']]],
-  ['killer_5forigin',['killer_origin',['../d5/d26/server_2defs_8qh.html#aaf6a1390ff1690e6bc1aa7d336fde3b9',1,'defs.qh']]],
   ['killindicator',['killindicator',['../d5/d26/server_2defs_8qh.html#a59f3bedf42216e820a4817519548bd90',1,'defs.qh']]],
   ['killindicator_5fteamchange',['killindicator_teamchange',['../d5/d26/server_2defs_8qh.html#a8a0853bb3efdbe194336998d3d095d46',1,'defs.qh']]],
   ['killtarget',['killtarget',['../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70',1,'subs.qh']]]

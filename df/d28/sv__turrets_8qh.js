@@ -13,7 +13,6 @@ var sv__turrets_8qh =
     [ "turret_validate_target", "df/d28/sv__turrets_8qh.html#a53b1f94a93f57dc271b0377b8d314b5e", null ],
     [ "turrets_setframe", "df/d28/sv__turrets_8qh.html#aee867619d0b8d86bc0c22a766aee92fd", null ],
     [ "aim_firetolerance_dist", "df/d28/sv__turrets_8qh.html#ac2b03c802f630aa56642892c8646d1dd", null ],
-    [ "aim_idle", "df/d28/sv__turrets_8qh.html#a47b7498f4cae3f28f51e021ae03511d7", null ],
     [ "aim_maxpitch", "df/d28/sv__turrets_8qh.html#a87838cf5845f0422b419e6d57f068bca", null ],
     [ "aim_maxrotate", "df/d28/sv__turrets_8qh.html#a5a7e22048c6b86cb0269a4ccac9b1271", null ],
     [ "aim_speed", "df/d28/sv__turrets_8qh.html#a4cedf4740142f48c35b59cbaa9017f2b", null ],
