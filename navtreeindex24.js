@@ -1,5 +1,8 @@
 var NAVTREEINDEX24 =
 {
+"d3/d2e/languagelist_8qc.html#ae6e654e482bb14284015d9e156b6c9a2":[2,0,5,4,174,16],
+"d3/d2e/languagelist_8qc_source.html":[2,0,5,4,174],
+"d3/d2f/mlrs_8qh.html":[2,0,1,14,0,25],
 "d3/d2f/mlrs_8qh.html#a31f0c3fe6458a1d1998ac67de3637d83":[2,0,1,14,0,25,1],
 "d3/d2f/mlrs_8qh_source.html":[2,0,1,14,0,25],
 "d3/d34/monsters_2all_8qc.html":[2,0,1,8,3],
@@ -246,8 +249,5 @@ var NAVTREEINDEX24 =
 "d3/d4f/sv__main_8qc.html#af52ad31cde1568195e8358f65b9cb00e":[2,0,6,65,16],
 "d3/d4f/sv__main_8qc_source.html":[2,0,6,65],
 "d3/d51/classXonoticImage.html":[1,0,195],
-"d3/d51/classXonoticImage.html#a00e73292d4ce1cafcb4784f83be1b991":[1,0,195,32],
-"d3/d51/classXonoticImage.html#a068a1780eb0731d56ea37a4b4e50e1a3":[1,0,195,38],
-"d3/d51/classXonoticImage.html#a0a44543db2c981ccbbfa48496f334de5":[1,0,195,8],
-"d3/d51/classXonoticImage.html#a0e724b01c100461a8abc1af3132da8c3":[1,0,195,42]
+"d3/d51/classXonoticImage.html#a00e73292d4ce1cafcb4784f83be1b991":[1,0,195,32]
 };

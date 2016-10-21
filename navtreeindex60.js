@@ -1,5 +1,8 @@
 var NAVTREEINDEX60 =
 {
+"d7/d13/classXonoticHUDAmmoDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,173,61],
+"d7/d13/classXonoticHUDAmmoDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,173,30],
+"d7/d13/classXonoticHUDAmmoDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,173,6],
 "d7/d13/classXonoticHUDAmmoDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,173,46],
 "d7/d13/classXonoticHUDAmmoDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,173,56],
 "d7/d13/classXonoticHUDAmmoDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,173,1],
@@ -246,8 +249,5 @@ var NAVTREEINDEX60 =
 "d7/d33/sv__minigames_8qc.html#ae8b31c763b3c1ee1b4ee61fdbd657671":[2,0,1,6,9,2],
 "d7/d33/sv__minigames_8qc.html#afb6583c98aeab02e85aea955226119fb":[2,0,1,6,9,10],
 "d7/d33/sv__minigames_8qc_source.html":[2,0,1,6,9],
-"d7/d38/sv__main_8qh.html":[2,0,6,66],
-"d7/d38/sv__main_8qh_source.html":[2,0,6,66],
-"d7/d39/classXonoticVideoSettingsTab.html":[1,0,249],
-"d7/d39/classXonoticVideoSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,249,36]
+"d7/d38/sv__main_8qh.html":[2,0,6,66]
 };

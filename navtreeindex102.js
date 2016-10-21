@@ -1,5 +1,8 @@
 var NAVTREEINDEX102 =
 {
+"db/dd3/classCallback.html":[1,0,12],
+"db/dd3/classCallback.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,12,2],
+"db/dd3/classCallback.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,12,3],
 "db/dd3/classCallback.html#af8d4aab0572cc7fcf3dca4e1174faef8":[1,0,12,0],
 "db/dd3/classCallback.html#af99cb10117c292e3a495925c6692c412":[1,0,12,1],
 "db/dd3/dialog__settings__misc__reset_8qh.html":[2,0,5,4,149],
@@ -246,8 +249,5 @@ var NAVTREEINDEX102 =
 "db/df8/tesla_8qc_source.html":[2,0,1,14,0,38],
 "db/df9/door__secret_8qh.html":[2,0,1,13,0,15],
 "db/df9/door__secret_8qh_source.html":[2,0,1,13,0,15],
-"db/dfa/classPlasmaAttack.html":[1,0,92],
-"db/dfa/classPlasmaAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,92,32],
-"db/dfa/classPlasmaAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,92,19],
-"db/dfa/classPlasmaAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,92,18]
+"db/dfa/classPlasmaAttack.html":[1,0,92]
 };

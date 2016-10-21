@@ -1,5 +1,8 @@
 var NAVTREEINDEX42 =
 {
+"d4/da5/classXonoticBigCommandButton.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,141,18],
+"d4/da5/classXonoticBigCommandButton.html#a3409bbbe22eaafc14ae4c93fd01fe69e":[1,0,141,77],
+"d4/da5/classXonoticBigCommandButton.html#a35c95c1dceb759200caa51c7ec674e8e":[1,0,141,62],
 "d4/da5/classXonoticBigCommandButton.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,141,8],
 "d4/da5/classXonoticBigCommandButton.html#a36313fe90ee023b8bcae61c34aa204e5":[1,0,141,72],
 "d4/da5/classXonoticBigCommandButton.html#a3a88ebd44b9abf22558ee9a6cfaf03dd":[1,0,141,78],
@@ -181,8 +184,8 @@ var NAVTREEINDEX42 =
 "d4/db7/cl__minigames_8qc.html#a605390385ce9a045ef096e8d53b6d98b":[2,0,1,6,3,10],
 "d4/db7/cl__minigames_8qc.html#a668aa690502b071b56dfd97e425d8d3e":[2,0,1,6,3,35],
 "d4/db7/cl__minigames_8qc.html#a68129c07b3fb8f85a27d8d3239a21dae":[2,0,1,6,3,42],
-"d4/db7/cl__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,3,3],
 "d4/db7/cl__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,3,2],
+"d4/db7/cl__minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,3,3],
 "d4/db7/cl__minigames_8qc.html#a7106641b219836128248d423976191df":[2,0,1,6,3,28],
 "d4/db7/cl__minigames_8qc.html#a71b9a14278d7d6948c3c368942227a40":[2,0,1,6,3,7],
 "d4/db7/cl__minigames_8qc.html#a74fcaa9da40aa62de287463ceb0a2908":[2,0,1,6,3,21],
@@ -246,8 +249,5 @@ var NAVTREEINDEX42 =
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html":[2,0,5,4,110],
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a12019b0c4fbb4a2e2f900a43770ac1d9":[2,0,5,4,110,7],
 "d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a12922afc952041edc7e8846965840471":[2,0,5,4,110,0],
-"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a16297471f5289ac452149b1e62722571":[2,0,5,4,110,5],
-"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a2de01cb3b52aa5c251ca9c50aa4ee0dd":[2,0,5,4,110,10],
-"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a4e02519351dfb0b2f9e799546ef76cb9":[2,0,5,4,110,9],
-"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a5acf1fc34ec0861c448b6e2a938d2faa":[2,0,5,4,110,4]
+"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc.html#a16297471f5289ac452149b1e62722571":[2,0,5,4,110,5]
 };

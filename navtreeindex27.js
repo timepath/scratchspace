@@ -1,5 +1,8 @@
 var NAVTREEINDEX27 =
 {
+"d3/d73/gamemode__ctf_8qc.html#ad424d71334b5e8b02e1bda1a82718d7f":[2,0,6,2,0,6,124],
+"d3/d73/gamemode__ctf_8qc.html#ad57a66696ffcccefbcb985fcaa04ad42":[2,0,6,2,0,6,73],
+"d3/d73/gamemode__ctf_8qc.html#ad6f387be57f023cb48e24726f0c67352":[2,0,6,2,0,6,138],
 "d3/d73/gamemode__ctf_8qc.html#ad722f50277d143424ade42e5d62cf7f8":[2,0,6,2,0,6,53],
 "d3/d73/gamemode__ctf_8qc.html#add88ad7004dd39c20b7563d743bdfa2f":[2,0,6,2,0,6,95],
 "d3/d73/gamemode__ctf_8qc.html#adeb20a9aa1aa64106350c0d6c4753d80":[2,0,6,2,0,6,22],
@@ -246,8 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d86/classXonoticMapList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,203,31],
 "d3/d86/classXonoticMapList.html#afdcf1fb79903f747cda494b27206526b":[1,0,203,2],
 "d3/d88/bot__null_8qc.html":[2,0,6,0,1,2],
-"d3/d88/bot__null_8qc_source.html":[2,0,6,0,1,2],
-"d3/d8b/common_2triggers_2trigger_2__mod_8inc.html":[2,0,1,13,3,0],
-"d3/d8b/common_2triggers_2trigger_2__mod_8inc_source.html":[2,0,1,13,3,0],
-"d3/d92/roles_8qh.html":[2,0,6,0,0,0,5]
+"d3/d88/bot__null_8qc_source.html":[2,0,6,0,1,2]
 };

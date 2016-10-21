@@ -1,5 +1,8 @@
 var NAVTREEINDEX28 =
 {
+"d3/d8b/common_2triggers_2trigger_2__mod_8inc.html":[2,0,1,13,3,0],
+"d3/d8b/common_2triggers_2trigger_2__mod_8inc_source.html":[2,0,1,13,3,0],
+"d3/d92/roles_8qh.html":[2,0,6,0,0,0,5],
 "d3/d92/roles_8qh_source.html":[2,0,6,0,0,0,5],
 "d3/d93/item_2textslider_8qh.html":[2,0,5,2,33],
 "d3/d93/item_2textslider_8qh_source.html":[2,0,5,2,33],
@@ -246,8 +249,5 @@ var NAVTREEINDEX28 =
 "d3/dba/classXonoticLanguageList.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,199,19],
 "d3/dba/classXonoticLanguageList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,199,83],
 "d3/dba/classXonoticLanguageList.html#a4bed1a4701fb6f7680f98b79fbd967c2":[1,0,199,39],
-"d3/dba/classXonoticLanguageList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,199,64],
-"d3/dba/classXonoticLanguageList.html#a565f8d33b46815606f1860162d71339a":[1,0,199,21],
-"d3/dba/classXonoticLanguageList.html#a5732463811e3e75fa6b9ba7163a57731":[1,0,199,78],
-"d3/dba/classXonoticLanguageList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,199,6]
+"d3/dba/classXonoticLanguageList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,199,64]
 };

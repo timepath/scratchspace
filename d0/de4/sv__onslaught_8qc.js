@@ -2,6 +2,7 @@ var sv__onslaught_8qc =
 [
     [ "ONS_OWNED_GENERATORS", "d0/de4/sv__onslaught_8qc.html#a32276966b2981b593951bac548f72bd3", null ],
     [ "ONS_OWNED_GENERATORS_OK", "d0/de4/sv__onslaught_8qc.html#aa085a181dec5164bf6bf421e17b95ffd", null ],
+    [ "clientcamera_send", "d0/de4/sv__onslaught_8qc.html#a330d402bc81f9b3c18362a59ad76707a", null ],
     [ "FixSize", "d0/de4/sv__onslaught_8qc.html#ae3b2b9ab5e59b7825352e92ec024f767", null ],
     [ "havocbot_goalrating_ons_controlpoints_attack", "d0/de4/sv__onslaught_8qc.html#a2162e5e10c6371e662d77220d09fad9f", null ],
     [ "havocbot_goalrating_ons_generator_attack", "d0/de4/sv__onslaught_8qc.html#adf0ba2f0f5009398b9d71635f5b63151", null ],
@@ -29,6 +30,7 @@ var sv__onslaught_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#aa36d7b75cc377349fd9ec248fa04e76a", null ],
     [ "MUTATOR_HOOKFUNCTION", "d0/de4/sv__onslaught_8qc.html#a68423efa04acd40d2afcd7f40019594d", null ],
     [ "nades_Clear", "d0/de4/sv__onslaught_8qc.html#ab106e734b4687c7b25b43e1e81a5899d", null ],
+    [ "ons_camSetup", "d0/de4/sv__onslaught_8qc.html#a0f6b57a7dd7debf7ad21f843bf216a3c", null ],
     [ "ons_CaptureShield_Customize", "d0/de4/sv__onslaught_8qc.html#ae9c745cc2f400b7191a0a4bb71a3748c", null ],
     [ "ons_CaptureShield_Reset", "d0/de4/sv__onslaught_8qc.html#ae92bb822e0b1a545198eb5e60b54dc19", null ],
     [ "ons_CaptureShield_Spawn", "d0/de4/sv__onslaught_8qc.html#a12c18d9acaf5421b4c25663d6e54dd28", null ],
@@ -99,6 +101,7 @@ var sv__onslaught_8qc =
     [ "autocvar_g_onslaught_teleport_radius", "d0/de4/sv__onslaught_8qc.html#ae9ef1a8d8827405fab1fc59e5ca76c3a", null ],
     [ "autocvar_g_onslaught_teleport_wait", "d0/de4/sv__onslaught_8qc.html#ac8d91c5b570a6d087a903416d7eb5664", null ],
     [ "autocvar_g_onslaught_warmup", "d0/de4/sv__onslaught_8qc.html#a638f3bd792a5dfcfd4f5656cd12be3ef", null ],
+    [ "cam", "d0/de4/sv__onslaught_8qc.html#a9641ac13d9a9f9707f50e498b2be47c7", null ],
     [ "g_onslaught", "d0/de4/sv__onslaught_8qc.html#af104b8373280b1032136d1cb246eeb42", null ],
     [ "total_generators", "d0/de4/sv__onslaught_8qc.html#a626501f012b2eaf506e9ce8cb7056a7a", null ]
 ];

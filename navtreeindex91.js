@@ -1,5 +1,8 @@
 var NAVTREEINDEX91 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a775b994db16fbbf0a4e1976eff4c1220":[1,0,231,38],
+"da/db7/classXonoticServerInfoDialog.html#a78f05ec0093af63d1784953979e3f4ed":[1,0,231,112],
+"da/db7/classXonoticServerInfoDialog.html#a79d46dd44f1e634863416b79a3960b89":[1,0,231,99],
 "da/db7/classXonoticServerInfoDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,231,96],
 "da/db7/classXonoticServerInfoDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,231,54],
 "da/db7/classXonoticServerInfoDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,231,118],
@@ -246,8 +249,5 @@ var NAVTREEINDEX91 =
 "da/dd1/classCaptureTheFlag.html#ac244649c1cd58705b097a03e9e3b3b40":[1,0,14,17],
 "da/dd1/classCaptureTheFlag.html#ac949f50dbac754e88c67b57f63051039":[1,0,14,14],
 "da/dd1/classCaptureTheFlag.html#adbb1ea4b0d9dc015db2ab4faa9fe9023":[1,0,14,6],
-"da/dd1/classCaptureTheFlag.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,14,7],
-"da/dd1/classCaptureTheFlag.html#aef3a65f4987590d66b653b91180860ca":[1,0,14,9],
-"da/dd1/classCaptureTheFlag.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,14,5],
-"da/dd2/gamemode__invasion_8qh.html":[2,0,6,2,0,17]
+"da/dd1/classCaptureTheFlag.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,14,7]
 };

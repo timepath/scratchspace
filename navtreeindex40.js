@@ -1,5 +1,8 @@
 var NAVTREEINDEX40 =
 {
+"d4/d90/skin-customizables_8inc.html#ad921d925c498329ff5085f9883385170":[2,0,5,20,57],
+"d4/d90/skin-customizables_8inc.html#ad9eb65eac98cef5e712160bbc35614ea":[2,0,5,20,6],
+"d4/d90/skin-customizables_8inc.html#adde6d08d92ac97e29954312d3d9b5b85":[2,0,5,20,140],
 "d4/d90/skin-customizables_8inc.html#ae24388de01dfb5075f8f99a5d6d81227":[2,0,5,20,99],
 "d4/d90/skin-customizables_8inc.html#ae384e8a8bc174c28980d592539f80a09":[2,0,5,20,67],
 "d4/d90/skin-customizables_8inc.html#ae38fa993de44e3c61f06ebefd744c1c7":[2,0,5,20,16],
@@ -246,8 +249,5 @@ var NAVTREEINDEX40 =
 "d4/d93/classPickup.html#a7d8cf6b7a18644fba549fe489903901d":[1,0,91,2],
 "d4/d93/classPickup.html#a95e7f0cf091386e07ce2add2ab653934":[1,0,91,6],
 "d4/d93/classPickup.html#aaca9d5c571d73c2274a3356ef2fcdc53":[1,0,91,7],
-"d4/d93/classPickup.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,91,3],
-"d4/d93/classPickup.html#af5ba70dc7733727ceff5947cc5c0995a":[1,0,91,10],
-"d4/d94/classXonoticHUDVoteDialog.html":[1,0,193],
-"d4/d94/classXonoticHUDVoteDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,193,32]
+"d4/d93/classPickup.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,91,3]
 };

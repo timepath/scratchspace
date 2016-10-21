@@ -1,5 +1,8 @@
 var NAVTREEINDEX36 =
 {
+"d4/d2b/scoreboard_8qh.html#ab0ef91e08e1fc55cee817e45234d543e":[2,0,0,1,0,35,3],
+"d4/d2b/scoreboard_8qh.html#acbbc03b93a5e6007c8655e4bc66a1a38":[2,0,0,1,0,35,5],
+"d4/d2b/scoreboard_8qh_source.html":[2,0,0,1,0,35],
 "d4/d2e/ttt_8qh.html":[2,0,1,6,0,18],
 "d4/d2e/ttt_8qh_source.html":[2,0,1,6,0,18],
 "d4/d38/rainsnow_8qc.html":[2,0,1,13,0,28],
@@ -246,8 +249,5 @@ var NAVTREEINDEX36 =
 "d4/d41/classHLAC.html#ab3b14ad273ae0864d59246f62985d8b6":[1,0,47,30],
 "d4/d41/classHLAC.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,47,10],
 "d4/d41/classHLAC.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,47,34],
-"d4/d41/classHLAC.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,47,7],
-"d4/d41/classHLAC.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,47,3],
-"d4/d41/classHLAC.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,47,22],
-"d4/d41/classHLAC.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,47,17]
+"d4/d41/classHLAC.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,47,7]
 };

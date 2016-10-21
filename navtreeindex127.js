@@ -1,5 +1,8 @@
 var NAVTREEINDEX127 =
 {
+"df/d64/throwing_8qc_source.html":[2,0,6,4,14],
+"df/d69/sv__midair_8qh.html":[2,0,1,9,0,15,3],
+"df/d69/sv__midair_8qh_source.html":[2,0,1,9,0,15,3],
 "df/d6c/powerups_8qh.html":[2,0,0,1,0,23],
 "df/d6c/powerups_8qh.html#a0548d6d5f32ee93186047be9beff7348":[2,0,0,1,0,23,0],
 "df/d6c/powerups_8qh_source.html":[2,0,0,1,0,23],
@@ -246,8 +249,5 @@ var NAVTREEINDEX127 =
 "df/d8c/cl__cmd_8qc.html#a842da1e1b814366ffd55d4096c8123c1":[2,0,0,0,2,38],
 "df/d8c/cl__cmd_8qc.html#a8ee68a14511a9aca94752cff6863af16":[2,0,0,0,2,18],
 "df/d8c/cl__cmd_8qc.html#a99e723ab8b6ed89a42df35b13fc1681a":[2,0,0,0,2,21],
-"df/d8c/cl__cmd_8qc.html#aa2df3f3af02e1a866927650ec7c68d83":[2,0,0,0,2,11],
-"df/d8c/cl__cmd_8qc.html#aa8c9d0e3975e1022fb29e9f10d3bf6ba":[2,0,0,0,2,7],
-"df/d8c/cl__cmd_8qc.html#ab1c5f554f29bac879163c40cc284d949":[2,0,0,0,2,22],
-"df/d8c/cl__cmd_8qc.html#ab2acfe6a73bd0d158e3e9a62b9185725":[2,0,0,0,2,15]
+"df/d8c/cl__cmd_8qc.html#aa2df3f3af02e1a866927650ec7c68d83":[2,0,0,0,2,11]
 };

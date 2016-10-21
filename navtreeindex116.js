@@ -1,5 +1,8 @@
 var NAVTREEINDEX116 =
 {
+"dd/db3/classXonoticQuitDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,218,6],
+"dd/db3/classXonoticQuitDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,218,46],
+"dd/db3/classXonoticQuitDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,218,56],
 "dd/db3/classXonoticQuitDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,218,1],
 "dd/db3/classXonoticQuitDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,218,12],
 "dd/db3/classXonoticQuitDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,218,75],
@@ -131,10 +134,10 @@ var NAVTREEINDEX116 =
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,14,0],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,14,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,14,12],
-"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,14,2],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,14,3],
-"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,14,5],
+"dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,14,2],
 "dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,14,4],
+"dd/dd5/sv__model_8qc.html#ae10d3816f0f294de515bdd9189d1c6fe":[2,0,4,0,14,5],
 "dd/dd5/sv__model_8qc_source.html":[2,0,4,0,14],
 "dd/dd7/classRacer.html":[1,0,101],
 "dd/dd7/classRacer.html#a0143fe165e9d96006d3e1c71cba469b0":[1,0,101,10],
@@ -246,8 +249,5 @@ var NAVTREEINDEX116 =
 "dd/de4/g__damage_8qh.html#af1915ea9d450669a5a0672749148448f":[2,0,6,23,2],
 "dd/de4/g__damage_8qh.html#af8497f54dc2d95ad1364dc3996de30ee":[2,0,6,23,37],
 "dd/de4/g__damage_8qh.html#afc5e9270d0757dc47de743b6bd4e33dc":[2,0,6,23,6],
-"dd/de4/g__damage_8qh.html#aff28c78124853cc6ad4f9f330588e1d3":[2,0,6,23,13],
-"dd/de4/g__damage_8qh_source.html":[2,0,6,23],
-"dd/dee/functional_8qh.html":[2,0,4,20],
-"dd/dee/functional_8qh.html#a05d6aabb87d5b191a29be5186dbe1d8c":[2,0,4,20,2]
+"dd/de4/g__damage_8qh.html#aff28c78124853cc6ad4f9f330588e1d3":[2,0,6,23,13]
 };

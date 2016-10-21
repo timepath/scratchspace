@@ -1,5 +1,8 @@
 var NAVTREEINDEX99 =
 {
+"db/d7f/effectinfo_8inc.html#ac9d4a16956c2a0eebda51fac74b86797":[2,0,1,2,7,170],
+"db/d7f/effectinfo_8inc.html#acad0c16a962f053c9509a72f06a93829":[2,0,1,2,7,225],
+"db/d7f/effectinfo_8inc.html#acc2be3664d219ee4f4241b2b1da1c6ad":[2,0,1,2,7,136],
 "db/d7f/effectinfo_8inc.html#acc3a215b4ac07fcb9299286b44d3a0bc":[2,0,1,2,7,50],
 "db/d7f/effectinfo_8inc.html#acc428bf775c450d281c042afced73636":[2,0,1,2,7,130],
 "db/d7f/effectinfo_8inc.html#accae52a3bae99ab53b61ff68bba7163a":[2,0,1,2,7,294],
@@ -246,8 +249,5 @@ var NAVTREEINDEX99 =
 "db/da0/log_8qh.html#afab8de1e69e3162b5564c0197bbc8ff8":[2,0,4,29,13],
 "db/da0/log_8qh_source.html":[2,0,4,29],
 "db/da4/common_2mutators_2mutator_2hook_2__mod_8qh.html":[2,0,1,9,0,10,1],
-"db/da4/common_2mutators_2mutator_2hook_2__mod_8qh_source.html":[2,0,1,9,0,10,1],
-"db/da8/common_2gamemodes_2gamemode_2onslaught_2__mod_8inc.html":[2,0,1,3,0,1,0],
-"db/da8/common_2gamemodes_2gamemode_2onslaught_2__mod_8inc_source.html":[2,0,1,3,0,1,0],
-"db/dab/client_2hud_2__mod_8inc.html":[2,0,0,1,1]
+"db/da4/common_2mutators_2mutator_2hook_2__mod_8qh_source.html":[2,0,1,9,0,10,1]
 };
