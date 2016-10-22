@@ -1,5 +1,7 @@
 var NAVTREEINDEX11 =
 {
+"d1/d70/classXonoticSoundList.html#a7c163168fb6b267f1b6a0c7be61ebde8":[1,0,239,82],
+"d1/d70/classXonoticSoundList.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,239,71],
 "d1/d70/classXonoticSoundList.html#a808ac7bcf675bb1f0015a882c9711d20":[1,0,239,10],
 "d1/d70/classXonoticSoundList.html#a82217d761797df8a2e65054eab910734":[1,0,239,15],
 "d1/d70/classXonoticSoundList.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,239,68],
@@ -247,7 +249,5 @@ var NAVTREEINDEX11 =
 "d1/d84/p2mathlib_8qh.html#a0c3e47f87f19ea29e5322d70c8470d2f":[2,0,4,40,5],
 "d1/d84/p2mathlib_8qh.html#a0cb59434f9c9da300b7612a00dbac6bd":[2,0,4,40,0],
 "d1/d84/p2mathlib_8qh.html#a129e23a2218bbdb2c446e5cd60b43fb2":[2,0,4,40,2],
-"d1/d84/p2mathlib_8qh.html#a2ee015ce5b25f8b1ea2a246a2d374f9b":[2,0,4,40,1],
-"d1/d84/p2mathlib_8qh.html#a6e59da4f99ce576ea9e82655549b1e77":[2,0,4,40,7],
-"d1/d84/p2mathlib_8qh.html#a875d7a7b329786023ebc459d17bd8a65":[2,0,4,40,6]
+"d1/d84/p2mathlib_8qh.html#a2ee015ce5b25f8b1ea2a246a2d374f9b":[2,0,4,40,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"d7/d75/raptor__weapons_8qh.html#a4284e7de9d079907bf8bf7de46fd7c92":[2,0,1,15,0,13,14],
+"d7/d75/raptor__weapons_8qh.html#a42efd269cf75f0f6e079e6e42de8e038":[2,0,1,15,0,13,21],
 "d7/d75/raptor__weapons_8qh.html#a44f7bff30838481ecd8df42ab3425573":[2,0,1,15,0,13,20],
 "d7/d75/raptor__weapons_8qh.html#a4cff44f5ec9265b0fa4b9e5cdc2a1f73":[2,0,1,15,0,13,15],
 "d7/d75/raptor__weapons_8qh.html#a4fd72d3d2b0af3ac5485c992805a15f6":[2,0,1,15,0,13,7],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "d7/da4/classXonoticDemoList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,159,42],
 "d7/da4/classXonoticDemoList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,159,11],
 "d7/da4/classXonoticDemoList.html#aaa9e0cdecc6804ca569e30acba123c25":[1,0,159,71],
-"d7/da4/classXonoticDemoList.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,159,73],
-"d7/da4/classXonoticDemoList.html#ab570ac959de81c4d5aa1681b1e5f53b9":[1,0,159,77],
-"d7/da4/classXonoticDemoList.html#ab92d3108377dec753034fb3102714fd7":[1,0,159,40]
+"d7/da4/classXonoticDemoList.html#ab34080d64853f621aa5b5ea855bec97a":[1,0,159,73]
 };

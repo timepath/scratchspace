@@ -1,5 +1,7 @@
 var NAVTREEINDEX24 =
 {
+"d3/d2e/languagelist_8qc.html#ade6ff95976a6b086697397c769ab3d07":[2,0,5,4,174,15],
+"d3/d2e/languagelist_8qc.html#ae53e2ac0d6bd1a31c3dd204c35b1398d":[2,0,5,4,174,5],
 "d3/d2e/languagelist_8qc.html#ae6e654e482bb14284015d9e156b6c9a2":[2,0,5,4,174,16],
 "d3/d2e/languagelist_8qc_source.html":[2,0,5,4,174],
 "d3/d2f/mlrs_8qh.html":[2,0,1,14,0,25],
@@ -15,7 +17,7 @@ var NAVTREEINDEX24 =
 "d3/d3e/sv__hook_8qh.html":[2,0,1,9,0,10,3],
 "d3/d3e/sv__hook_8qh_source.html":[2,0,1,9,0,10,3],
 "d3/d3e/sv__spawn_8qh.html":[2,0,1,8,10],
-"d3/d3e/sv__spawn_8qh.html#a3a58c89b43048d5e0abc5bfd2ac985d5":[2,0,1,8,10,0],
+"d3/d3e/sv__spawn_8qh.html#a6cfe31b7427d7ec23125a64297039731":[2,0,1,8,10,0],
 "d3/d3e/sv__spawn_8qh_source.html":[2,0,1,8,10],
 "d3/d42/animdecide_8qh.html":[2,0,1,23],
 "d3/d42/animdecide_8qh.html#a071b6a93423a39766db46893c30f387b":[2,0,1,23,72],
@@ -247,7 +249,5 @@ var NAVTREEINDEX24 =
 "d3/d4f/sv__main_8qc.html#ad554e5161275ecc9b8656a805c57a010":[2,0,6,65,0],
 "d3/d4f/sv__main_8qc.html#aee5bad9e166722f0632eef86755836d0":[2,0,6,65,14],
 "d3/d4f/sv__main_8qc.html#af52ad31cde1568195e8358f65b9cb00e":[2,0,6,65,16],
-"d3/d4f/sv__main_8qc_source.html":[2,0,6,65],
-"d3/d51/classXonoticImage.html":[1,0,195],
-"d3/d51/classXonoticImage.html#a00e73292d4ce1cafcb4784f83be1b991":[1,0,195,32]
+"d3/d4f/sv__main_8qc_source.html":[2,0,6,65]
 };

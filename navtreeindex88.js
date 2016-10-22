@@ -1,5 +1,7 @@
 var NAVTREEINDEX88 =
 {
+"da/d45/gamemode__ca_8qh.html#abc82708949d45746dfb807463502eeac":[2,0,6,2,0,5,4],
+"da/d45/gamemode__ca_8qh.html#ac474faca339b17424d9d117497bae646":[2,0,6,2,0,5,15],
 "da/d45/gamemode__ca_8qh.html#acf0b6576fbdf4f980d45cf06651f117e":[2,0,6,2,0,5,13],
 "da/d45/gamemode__ca_8qh_source.html":[2,0,6,2,0,5],
 "da/d46/classMLRSTurret.html":[1,0,74],
@@ -247,7 +249,5 @@ var NAVTREEINDEX88 =
 "da/d6d/classXonoticPlayerModelSelector.html#adba055bca57bf312ebd7270010f720e4":[1,0,215,57],
 "da/d6d/classXonoticPlayerModelSelector.html#ae138f23d4495900be0ede2783c05a714":[1,0,215,43],
 "da/d6d/classXonoticPlayerModelSelector.html#aebdd8ac3c5c2c096b9bfedf6eb249bd5":[1,0,215,48],
-"da/d6d/classXonoticPlayerModelSelector.html#aee39b6c6efcb053dd86b823b7bbbac8a":[1,0,215,11],
-"da/d6d/classXonoticPlayerModelSelector.html#af88618c1f0dbd043b2eb97e89f2b9f27":[1,0,215,32],
-"da/d6d/classXonoticPlayerModelSelector.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,215,29]
+"da/d6d/classXonoticPlayerModelSelector.html#aee39b6c6efcb053dd86b823b7bbbac8a":[1,0,215,11]
 };

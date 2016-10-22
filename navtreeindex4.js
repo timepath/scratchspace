@@ -234,7 +234,9 @@ var NAVTREEINDEX4 =
 "d0/da3/mortar_8qc.html#adab4ea3747e0dc97c60d12466c420b75":[2,0,1,16,0,24,2],
 "d0/da3/mortar_8qc_source.html":[2,0,1,16,0,24],
 "d0/da4/damagetext_8qc.html":[2,0,1,9,0,6,2],
-"d0/da4/damagetext_8qc.html#a9752dd0b59e299da3ef1350f95b4aa7a":[2,0,1,9,0,6,2,0],
+"d0/da4/damagetext_8qc.html#a9752dd0b59e299da3ef1350f95b4aa7a":[2,0,1,9,0,6,2,2],
+"d0/da4/damagetext_8qc.html#adb19c2866cdfa31be4c7fb190e28f921":[2,0,1,9,0,6,2,1],
+"d0/da4/damagetext_8qc.html#aec79b6285984eef22af18f273205c4b2":[2,0,1,9,0,6,2,0],
 "d0/da4/damagetext_8qc_source.html":[2,0,1,9,0,6,2],
 "d0/da7/armor_8qc.html":[2,0,1,5,0,4],
 "d0/da7/armor_8qc_source.html":[2,0,1,5,0,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX4 =
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c":[2,0,1,9,0,2,2,0],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a74d448d70d5e55e54c85493f4b37c0df":[2,0,1,9,0,2,2,10],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a7511936b014064d695ad4438cd65eada":[2,0,1,9,0,2,2,11],
-"d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ab879a178631164ea00a4905ce8a3826c":[2,0,1,9,0,2,2,12],
-"d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ad54a43f9c7262e4c0a8f0efe0a2dfb00":[2,0,1,9,0,2,2,9],
-"d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ae2182ffd4aece1ab035baa6a64e7c442":[2,0,1,9,0,2,2,6]
+"d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ab879a178631164ea00a4905ce8a3826c":[2,0,1,9,0,2,2,12]
 };

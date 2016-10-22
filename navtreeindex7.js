@@ -1,5 +1,7 @@
 var NAVTREEINDEX7 =
 {
+"d1/d08/platforms_8qc.html#af53e48db51b43664a2d6ae7143b4c21b":[2,0,1,13,8,16],
+"d1/d08/platforms_8qc_source.html":[2,0,1,13,8],
 "d1/d0a/g__lights_8qh.html":[2,0,6,27],
 "d1/d0a/g__lights_8qh_source.html":[2,0,6,27],
 "d1/d11/hitplot_8qc.html":[2,0,6,4,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX7 =
 "d1/d2a/waypoints_8qh.html#ac764e32c571128b0b58a9a10cb3ef9d1":[2,0,6,0,0,14,2],
 "d1/d2a/waypoints_8qh.html#ac882054619e540c832a4ce6db4562982":[2,0,6,0,0,14,60],
 "d1/d2a/waypoints_8qh.html#ac8890a7c1df7195e7b3855268b954e59":[2,0,6,0,0,14,76],
-"d1/d2a/waypoints_8qh.html#aca0da90ccab6048c5421551ebb015f6a":[2,0,6,0,0,14,39],
-"d1/d2a/waypoints_8qh.html#acae5d9ecbf5fcc5f2e2c3bc8f4467d7c":[2,0,6,0,0,14,49],
-"d1/d2a/waypoints_8qh.html#ad12de12cc79497b6a505fe7e2c13523c":[2,0,6,0,0,14,93]
+"d1/d2a/waypoints_8qh.html#aca0da90ccab6048c5421551ebb015f6a":[2,0,6,0,0,14,39]
 };
