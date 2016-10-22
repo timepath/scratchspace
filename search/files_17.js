@@ -8,6 +8,8 @@ var searchData=
   ['walker_5fweapon_2eqh',['walker_weapon.qh',['../d3/dd9/walker__weapon_8qh.html',1,'']]],
   ['wall_2eqc',['wall.qc',['../d1/d8d/wall_8qc.html',1,'']]],
   ['wall_2eqh',['wall.qh',['../d4/db7/wall_8qh.html',1,'']]],
+  ['walljump_2eqc',['walljump.qc',['../d6/d57/walljump_8qc.html',1,'']]],
+  ['walljump_2eqh',['walljump.qh',['../d4/dba/walljump_8qh.html',1,'']]],
   ['waypoints_2eqc',['waypoints.qc',['../d7/dc4/waypoints_8qc.html',1,'']]],
   ['waypoints_2eqh',['waypoints.qh',['../d1/d2a/waypoints_8qh.html',1,'']]],
   ['waypointsprites_2eqc',['waypointsprites.qc',['../db/dc5/waypointsprites_8qc.html',1,'']]],
