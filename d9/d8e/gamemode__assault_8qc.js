@@ -38,8 +38,6 @@ var gamemode__assault_8qc =
     [ "target_objective_decrease_activate", "d9/d8e/gamemode__assault_8qc.html#aae75592036bbad8155a2c2b1f82aa17c", null ],
     [ "target_objective_decrease_findtarget", "d9/d8e/gamemode__assault_8qc.html#ae6b4d2c7f083a78d9284fe838a1d17dc", null ],
     [ "target_objective_spawn_evalfunc", "d9/d8e/gamemode__assault_8qc.html#aa2cf747a858e69977f9a8f0cbdced887", null ],
-    [ "vehicles_clearreturn", "d9/d8e/gamemode__assault_8qc.html#acb307a79d42b2864e9d2a2781dccf1f0", null ],
-    [ "vehicles_spawn", "d9/d8e/gamemode__assault_8qc.html#a9be836b28cd841ff63b259fe3291693e", null ],
     [ "WinningCondition_Assault", "d9/d8e/gamemode__assault_8qc.html#adc4d12f7dad0d3fca008c994bb1a7e73", null ],
     [ "sprite", "d9/d8e/gamemode__assault_8qc.html#a44f2d02591475477365d7f7ec9d55f3c", null ]
 ];
