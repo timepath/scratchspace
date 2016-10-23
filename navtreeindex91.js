@@ -1,5 +1,9 @@
 var NAVTREEINDEX91 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,231,1],
+"da/db7/classXonoticServerInfoDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,231,32],
+"da/db7/classXonoticServerInfoDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,231,105],
+"da/db7/classXonoticServerInfoDialog.html#a4869983b8dc750584479ade5447c8413":[1,0,231,52],
 "da/db7/classXonoticServerInfoDialog.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,231,80],
 "da/db7/classXonoticServerInfoDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,231,57],
 "da/db7/classXonoticServerInfoDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,231,87],
@@ -245,9 +249,5 @@ var NAVTREEINDEX91 =
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh.html":[2,0,1,3,0,0,5],
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh.html#a3db352ed2525ccc9b4fec62af48fd1ff":[2,0,1,3,0,0,5,1],
 "da/dcd/gamemodes_2gamemode_2nexball_2weapon_8qh_source.html":[2,0,1,3,0,0,5],
-"da/dcf/jetpack_8qc.html":[2,0,1,5,0,8],
-"da/dcf/jetpack_8qc_source.html":[2,0,1,5,0,8],
-"da/dd1/classCaptureTheFlag.html":[1,0,14],
-"da/dd1/classCaptureTheFlag.html#a1607fee5ff312589eb22131e314eef3d":[1,0,14,0],
-"da/dd1/classCaptureTheFlag.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,14,1]
+"da/dcf/jetpack_8qc.html":[2,0,1,5,0,8]
 };

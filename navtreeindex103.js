@@ -1,5 +1,9 @@
 var NAVTREEINDEX103 =
 {
+"db/df4/phaser__weapon_8qh.html#af020ecb932e64d90bbc980013cb9d3a2":[2,0,1,14,0,31,1],
+"db/df4/phaser__weapon_8qh_source.html":[2,0,1,14,0,31],
+"db/df7/colorpicker__string_8qc.html":[2,0,5,4,22],
+"db/df7/colorpicker__string_8qc.html#a1e66595b997db54e550aee7c540859e1":[2,0,5,4,22,5],
 "db/df7/colorpicker__string_8qc.html#a4295e1a543aa3694e2987c6731c226ad":[2,0,5,4,22,8],
 "db/df7/colorpicker__string_8qc.html#a52448411886373146acf4ced2fda7793":[2,0,5,4,22,3],
 "db/df7/colorpicker__string_8qc.html#a5655c6477084f26b12a3be1295c06d65":[2,0,5,4,22,4],
@@ -245,9 +249,5 @@ var NAVTREEINDEX103 =
 "dc/d06/classDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,26,44],
 "dc/d06/classDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,26,0],
 "dc/d06/classDialog.html#ac7a366c264efd1111261adb37ce64cac":[1,0,26,71],
-"dc/d06/classDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,26,33],
-"dc/d06/classDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,26,38],
-"dc/d06/classDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,26,81],
-"dc/d06/classDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,26,51],
-"dc/d06/classDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,26,60]
+"dc/d06/classDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,26,33]
 };

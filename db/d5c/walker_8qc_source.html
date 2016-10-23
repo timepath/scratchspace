@@ -677,77 +677,78 @@ $(document).ready(function(){initNavTree('db/d5c/walker_8qc_source.html','../../
 <div class="line"><a name="l00570"></a><span class="lineno">  570</span>&#160;    it.iscreature = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00571"></a><span class="lineno">  571</span>&#160;    it.teleportable = <a class="code" href="../../dd/d2d/teleporters_8qh.html#aa89586aff91c233165538a19c07e87d4">TELEPORT_NORMAL</a>;</div>
 <div class="line"><a name="l00572"></a><span class="lineno">  572</span>&#160;    it.damagedbycontents = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    it.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a484c1181c0ccb7b6488598a9f2ede6ef">SOLID_SLIDEBOX</a>;</div>
-<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;    it.takedamage = <a class="code" href="../../d6/d11/progsdefs_8qc.html#aa9ea10d4f0d0ed19674dae09c99d635b">DAMAGE_AIM</a>;</div>
-<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    <span class="keywordflow">if</span>(it.move_movetype != <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>)</div>
-<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    {</div>
-<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;        setorigin(it, it.origin);</div>
-<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;        tracebox(it.origin + <span class="stringliteral">&#39;0 0 128&#39;</span>, it.mins, it.maxs, it.origin - <span class="stringliteral">&#39;0 0 10000&#39;</span>, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, it);</div>
-<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;        setorigin(it, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> + <span class="stringliteral">&#39;0 0 4&#39;</span>);</div>
-<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;        it.pos1 = it.origin;</div>
-<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;        it.pos2 = it.angles;</div>
-<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;    }</div>
-<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(it, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>);</div>
-<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    it.idle_aim = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;    it.turret_firecheckfunc = walker_firecheck;</div>
-<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;</div>
-<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;    <span class="keywordflow">if</span> (it.target != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;    {</div>
-<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;        e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, it.target);</div>
-<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;        <span class="keywordflow">if</span> (!e)</div>
-<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;        {</div>
-<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Initital waypoint for walker does NOT exsist, fix your map!&quot;</span>);</div>
-<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;            it.target = <span class="stringliteral">&quot;&quot;</span>;</div>
-<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;        }</div>
-<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;</div>
-<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;        <span class="keywordflow">if</span> (e.classname != <span class="stringliteral">&quot;turret_checkpoint&quot;</span>)</div>
-<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Warning: not a turrret path&quot;</span>);</div>
-<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        {</div>
-<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;<span class="preprocessor">#ifdef WALKER_FANCYPATHING</span></div>
-<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;<span class="preprocessor"></span>            it.pathcurrent = WALKER_PATH(it, it.origin, e.origin);</div>
-<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;            it.pathgoal = e;</div>
-<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;<span class="preprocessor">#else</span></div>
-<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;<span class="preprocessor"></span>            it.pathcurrent = e;</div>
-<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;<span class="preprocessor"></span>        }</div>
-<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;    }</div>
-<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;}</div>
-<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;</div>
-<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;<span class="preprocessor">#endif // SVQC</span></div>
-<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef CSQC</span></div>
-<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/dc4/movelib_8qh.html">common/physics/movelib.qh</a>&gt;</span></div>
-<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;</div>
-<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;<span class="keywordtype">void</span> walker_draw(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;{</div>
-<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;    <span class="keywordtype">float</span> dt;</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;</div>
-<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    dt = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#aaa2abfa04cefcf14baf80ba2ec1eb96c">move_time</a>;</div>
-<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    this.move_time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    <span class="keywordflow">if</span>(dt &lt;= 0)</div>
-<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;</div>
-<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    <a class="code" href="../../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e">fixedmakevectors</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>);</div>
-<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    <a class="code" href="../../d4/d7a/movelib_8qc.html#aa514946bfa921bfcd0f67fb31fe9ac7a">movelib_groundalign4point</a>(<span class="keyword">this</span>, 300, 100, 0.25, 45);</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    setorigin(<span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a> * dt);</div>
-<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.angles += dt * this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.avelocity;</div>
-<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;</div>
-<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> &lt; 127)</div>
-<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.15)</div>
-<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;        te_spark(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + <span class="stringliteral">&#39;0 0 40&#39;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * 256 + <span class="stringliteral">&#39;0 0 256&#39;</span>, 16);</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;}</div>
-<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;</div>
-<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a>, tr_setup, <span class="keywordtype">void</span>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it))</div>
-<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        {</div>
-<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;            it.gravity      = 1;</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;            <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(it, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>);</div>
-<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            it.move_time        = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;            it.draw         = walker_draw;</div>
-<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;        }</div>
-<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;</div>
-<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;<span class="preprocessor">#endif // CSQC</span></div>
-<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00573"></a><span class="lineno">  573</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a44ed93b6aaca72d222ce263898d152b4">IL_PUSH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a570becfa48d2a2f3b0061334ed002c88">g_damagedbycontents</a>, it);</div>
+<div class="line"><a name="l00574"></a><span class="lineno">  574</span>&#160;    it.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a484c1181c0ccb7b6488598a9f2ede6ef">SOLID_SLIDEBOX</a>;</div>
+<div class="line"><a name="l00575"></a><span class="lineno">  575</span>&#160;    it.takedamage = <a class="code" href="../../d6/d11/progsdefs_8qc.html#aa9ea10d4f0d0ed19674dae09c99d635b">DAMAGE_AIM</a>;</div>
+<div class="line"><a name="l00576"></a><span class="lineno">  576</span>&#160;    <span class="keywordflow">if</span>(it.move_movetype != <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>)</div>
+<div class="line"><a name="l00577"></a><span class="lineno">  577</span>&#160;    {</div>
+<div class="line"><a name="l00578"></a><span class="lineno">  578</span>&#160;        setorigin(it, it.origin);</div>
+<div class="line"><a name="l00579"></a><span class="lineno">  579</span>&#160;        tracebox(it.origin + <span class="stringliteral">&#39;0 0 128&#39;</span>, it.mins, it.maxs, it.origin - <span class="stringliteral">&#39;0 0 10000&#39;</span>, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, it);</div>
+<div class="line"><a name="l00580"></a><span class="lineno">  580</span>&#160;        setorigin(it, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> + <span class="stringliteral">&#39;0 0 4&#39;</span>);</div>
+<div class="line"><a name="l00581"></a><span class="lineno">  581</span>&#160;        it.pos1 = it.origin;</div>
+<div class="line"><a name="l00582"></a><span class="lineno">  582</span>&#160;        it.pos2 = it.angles;</div>
+<div class="line"><a name="l00583"></a><span class="lineno">  583</span>&#160;    }</div>
+<div class="line"><a name="l00584"></a><span class="lineno">  584</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(it, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a31938f237dbe4b58beccf0af8ee3713f">MOVETYPE_WALK</a>);</div>
+<div class="line"><a name="l00585"></a><span class="lineno">  585</span>&#160;    it.idle_aim = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00586"></a><span class="lineno">  586</span>&#160;    it.turret_firecheckfunc = walker_firecheck;</div>
+<div class="line"><a name="l00587"></a><span class="lineno">  587</span>&#160;</div>
+<div class="line"><a name="l00588"></a><span class="lineno">  588</span>&#160;    <span class="keywordflow">if</span> (it.target != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00589"></a><span class="lineno">  589</span>&#160;    {</div>
+<div class="line"><a name="l00590"></a><span class="lineno">  590</span>&#160;        e = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, it.target);</div>
+<div class="line"><a name="l00591"></a><span class="lineno">  591</span>&#160;        <span class="keywordflow">if</span> (!e)</div>
+<div class="line"><a name="l00592"></a><span class="lineno">  592</span>&#160;        {</div>
+<div class="line"><a name="l00593"></a><span class="lineno">  593</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Initital waypoint for walker does NOT exsist, fix your map!&quot;</span>);</div>
+<div class="line"><a name="l00594"></a><span class="lineno">  594</span>&#160;            it.target = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00595"></a><span class="lineno">  595</span>&#160;        }</div>
+<div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;</div>
+<div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;        <span class="keywordflow">if</span> (e.classname != <span class="stringliteral">&quot;turret_checkpoint&quot;</span>)</div>
+<div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;Warning: not a turrret path&quot;</span>);</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;        {</div>
+<div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;<span class="preprocessor">#ifdef WALKER_FANCYPATHING</span></div>
+<div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;<span class="preprocessor"></span>            it.pathcurrent = WALKER_PATH(it, it.origin, e.origin);</div>
+<div class="line"><a name="l00603"></a><span class="lineno">  603</span>&#160;            it.pathgoal = e;</div>
+<div class="line"><a name="l00604"></a><span class="lineno">  604</span>&#160;<span class="preprocessor">#else</span></div>
+<div class="line"><a name="l00605"></a><span class="lineno">  605</span>&#160;<span class="preprocessor"></span>            it.pathcurrent = e;</div>
+<div class="line"><a name="l00606"></a><span class="lineno">  606</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00607"></a><span class="lineno">  607</span>&#160;<span class="preprocessor"></span>        }</div>
+<div class="line"><a name="l00608"></a><span class="lineno">  608</span>&#160;    }</div>
+<div class="line"><a name="l00609"></a><span class="lineno">  609</span>&#160;}</div>
+<div class="line"><a name="l00610"></a><span class="lineno">  610</span>&#160;</div>
+<div class="line"><a name="l00611"></a><span class="lineno">  611</span>&#160;<span class="preprocessor">#endif // SVQC</span></div>
+<div class="line"><a name="l00612"></a><span class="lineno">  612</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef CSQC</span></div>
+<div class="line"><a name="l00613"></a><span class="lineno">  613</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00614"></a><span class="lineno">  614</span>&#160;<span class="preprocessor">#include &lt;<a class="code" href="../../db/dc4/movelib_8qh.html">common/physics/movelib.qh</a>&gt;</span></div>
+<div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;</div>
+<div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;<span class="keywordtype">void</span> walker_draw(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;{</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;    <span class="keywordtype">float</span> dt;</div>
+<div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;</div>
+<div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;    dt = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#aaa2abfa04cefcf14baf80ba2ec1eb96c">move_time</a>;</div>
+<div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    this.move_time = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00622"></a><span class="lineno">  622</span>&#160;    <span class="keywordflow">if</span>(dt &lt;= 0)</div>
+<div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;</div>
+<div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;    <a class="code" href="../../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e">fixedmakevectors</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a>);</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    <a class="code" href="../../d4/d7a/movelib_8qc.html#aa514946bfa921bfcd0f67fb31fe9ac7a">movelib_groundalign4point</a>(<span class="keyword">this</span>, 300, 100, 0.25, 45);</div>
+<div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;    setorigin(<span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a> * dt);</div>
+<div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;    this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.angles += dt * this.<a class="code" href="../../df/d28/sv__turrets_8qh.html#ac541faa688eeead026348ad699585d0c">tur_head</a>.avelocity;</div>
+<div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;</div>
+<div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> &lt; 127)</div>
+<div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() &lt; 0.15)</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;        te_spark(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> + <span class="stringliteral">&#39;0 0 40&#39;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * 256 + <span class="stringliteral">&#39;0 0 256&#39;</span>, 16);</div>
+<div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;}</div>
+<div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;</div>
+<div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a926d5d6965300dccae308bb74a713894">METHOD</a>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a>, tr_setup, <span class="keywordtype">void</span>(<a class="code" href="../../d6/de1/classWalkerTurret.html">WalkerTurret</a> <span class="keyword">this</span>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> it))</div>
+<div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;        {</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;            it.gravity      = 1;</div>
+<div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;            <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(it, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a0666d534536ab23275b66cac3a50f00d">MOVETYPE_BOUNCE</a>);</div>
+<div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;            it.move_time        = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;            it.draw         = walker_draw;</div>
+<div class="line"><a name="l00641"></a><span class="lineno">  641</span>&#160;        }</div>
+<div class="line"><a name="l00642"></a><span class="lineno">  642</span>&#160;</div>
+<div class="line"><a name="l00643"></a><span class="lineno">  643</span>&#160;<span class="preprocessor">#endif // CSQC</span></div>
+<div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#endif</span></div>
 <div class="ttc" id="g__damage_8qc_html_a377b547a7053468290f13dffb6342b89"><div class="ttname"><a href="../../d5/dac/g__damage_8qc.html#a377b547a7053468290f13dffb6342b89">RadiusDamage</a></div><div class="ttdeci">float RadiusDamage(entity inflictor, entity attacker, float coredamage, float edgedamage, float rad, entity cantbe, entity mustbe, float forceintensity, int deathtype, entity directhitentity)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dac/g__damage_8qc_source.html#l01084">g_damage.qc:1084</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00110">main.qh:110</a></div></div>
 <div class="ttc" id="sv__turrets_8qh_html_a5bb0d9e6f4a0edd9ebd6c763dd6da6d8"><div class="ttname"><a href="../../df/d28/sv__turrets_8qh.html#a5bb0d9e6f4a0edd9ebd6c763dd6da6d8">tur_shotorg</a></div><div class="ttdeci">vector tur_shotorg</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d28/sv__turrets_8qh_source.html#l00013">sv_turrets.qh:13</a></div></div>
@@ -838,6 +839,7 @@ $(document).ready(function(){initNavTree('db/d5c/walker_8qc_source.html','../../
 <div class="ttc" id="csprogsdefs_8qc_html_a714da6649d97bc92a86a76f1be278180"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a></div><div class="ttdeci">vector velocity</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00103">csprogsdefs.qc:103</a></div></div>
 <div class="ttc" id="turret_8qh_html_a8e2d911c42f4438dbcc781cf99605bdb"><div class="ttname"><a href="../../d9/d67/turret_8qh.html#a8e2d911c42f4438dbcc781cf99605bdb">TNSF_MOVE</a></div><div class="ttdeci">const int TNSF_MOVE</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d67/turret_8qh_source.html#l00173">turret.qh:173</a></div></div>
 <div class="ttc" id="projectile_8qh_html_a1377cbecee41e6bb05e56a90280ff3eb"><div class="ttname"><a href="../../dc/dc7/projectile_8qh.html#a1377cbecee41e6bb05e56a90280ff3eb">FL_PROJECTILE</a></div><div class="ttdeci">const int FL_PROJECTILE</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc7/projectile_8qh_source.html#l00031">projectile.qh:31</a></div></div>
+<div class="ttc" id="server_2defs_8qh_html_a570becfa48d2a2f3b0061334ed002c88"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a570becfa48d2a2f3b0061334ed002c88">g_damagedbycontents</a></div><div class="ttdeci">IntrusiveList g_damagedbycontents</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00469">defs.qh:469</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aca94f7b0cad3ddee5f2a42a762e0eafa"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aca94f7b0cad3ddee5f2a42a762e0eafa">trace_fraction</a></div><div class="ttdeci">float trace_fraction</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00036">csprogsdefs.qc:36</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a663ea6aa3c4923b3e065cf91cc319f1b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a></div><div class="ttdeci">float random(void)</div></div>
 <div class="ttc" id="anglestransform_8qh_html_ad909cd543038da7934d379bcd931223e"><div class="ttname"><a href="../../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e">fixedmakevectors</a></div><div class="ttdeci">#define fixedmakevectors</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dee/anglestransform_8qh_source.html#l00008">anglestransform.qh:8</a></div></div>
@@ -857,7 +859,7 @@ $(document).ready(function(){initNavTree('db/d5c/walker_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9235eaa0c1d724c4ee31bc3cf0de8eae.html">turrets</a></li><li class="navelem"><a class="el" href="../../dir_fa2a09f1361e1aa682b62127b5a1aaea.html">turret</a></li><li class="navelem"><a class="el" href="../../db/d5c/walker_8qc.html">walker.qc</a></li>
-    <li class="footer">Generated on Sun Oct 23 2016 19:17:21 for Xonotic by
+    <li class="footer">Generated on Sun Oct 23 2016 22:18:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -1,5 +1,9 @@
 var NAVTREEINDEX123 =
 {
+"de/d8c/classWyvernAttack.html#ad42abb7cec7712239288a5802bc28a6a":[1,0,138,30],
+"de/d8c/classWyvernAttack.html#ae1b596b707d1f678083f3e5265cabf81":[1,0,138,27],
+"de/d8c/classWyvernAttack.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,138,22],
+"de/d8c/classWyvernAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,138,24],
 "de/d8c/classWyvernAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,138,17],
 "de/d8c/item_2image_8qh.html":[2,0,5,2,13],
 "de/d8c/item_2image_8qh_source.html":[2,0,5,2,13],
@@ -245,9 +249,5 @@ var NAVTREEINDEX123 =
 "de/dcb/classMageSpike.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,71,12],
 "de/dcb/classMageSpike.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,71,5],
 "de/dcb/classMageSpike.html#ab6b3de3714961aa2b53ec1354cda3b28":[1,0,71,31],
-"de/dcb/classMageSpike.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,71,10],
-"de/dcb/classMageSpike.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,71,34],
-"de/dcb/classMageSpike.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,71,7],
-"de/dcb/classMageSpike.html#ac59ca04ae3ae9de45817a65da1e606be":[1,0,71,35],
-"de/dcb/classMageSpike.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,71,3]
+"de/dcb/classMageSpike.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,71,10]
 };
