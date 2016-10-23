@@ -17,7 +17,7 @@ var gamemode__assault_8qc =
     [ "havocbot_role_ast_setrole", "d9/d8e/gamemode__assault_8qc.html#a64b24f77b9c2948dbeb0e81e75db2878", null ],
     [ "MUTATOR_HOOKFUNCTION", "d9/d8e/gamemode__assault_8qc.html#af0d9bb2aa28be0b27eefe95cd7a241b1", null ],
     [ "MUTATOR_HOOKFUNCTION", "d9/d8e/gamemode__assault_8qc.html#abdfae161ef5def6dabcef22529a4bd92", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d9/d8e/gamemode__assault_8qc.html#a962417f742321540f643df1071e21273", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d9/d8e/gamemode__assault_8qc.html#a57787b880780605526d954c2005c0746", null ],
     [ "MUTATOR_HOOKFUNCTION", "d9/d8e/gamemode__assault_8qc.html#a86884a333a7eaedc0cfa40e939cf1403", null ],
     [ "MUTATOR_HOOKFUNCTION", "d9/d8e/gamemode__assault_8qc.html#acd20103cbf056b66dc6ff0ef924b1cad", null ],
     [ "MUTATOR_HOOKFUNCTION", "d9/d8e/gamemode__assault_8qc.html#a1359c15ad97598375cefde049a83e6c0", null ],
