@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('d1/dd2/lib_2draw_8qh_source.html','../
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">    #include &quot;<a class="code" href="../../d0/dfe/i18n_8qh.html">i18n.qh</a>&quot;</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">    #include &quot;<a class="code" href="../../de/dcb/vector_8qh.html">vector.qh</a>&quot;</span></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">    #include &lt;<a class="code" href="../../d9/d08/client_2defs_8qh.html">client/defs.qh</a>&gt;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="keywordtype">float</span> vid_conwidth;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    <span class="keywordtype">void</span> Draw_CylindricLine(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> from, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a>, <span class="keywordtype">float</span> thickness, <span class="keywordtype">string</span> texture, <span class="keywordtype">float</span> aspect, <span class="keywordtype">float</span> shift, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb, <span class="keywordtype">float</span> theAlpha, <span class="keywordtype">float</span> drawflag, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> vieworg)</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
@@ -232,7 +232,7 @@ $(document).ready(function(){initNavTree('d1/dd2/lib_2draw_8qh_source.html','../
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../d3/d07/scoreboard_8qc.html#a361c30606aa485ea4467d43260e86b50">drawstringcenter</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> position, <span class="keywordtype">string</span> text, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> theScale, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb, <span class="keywordtype">float</span> theAlpha, <span class="keywordtype">int</span> flag)</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    {</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        position.x = 0.5 * (<a class="code" href="../../d9/d08/client_2defs_8qh.html#a20d555d9b4b63c3a86ea9c41ba74efd2">vid_conwidth</a> - 0.6025 * <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(text) * theScale.x);</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        position.x = 0.5 * (vid_conwidth - 0.6025 * <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(text) * theScale.x);</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        drawstring_builtin(position, text, theScale, rgb, theAlpha, flag);</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
@@ -244,7 +244,6 @@ $(document).ready(function(){initNavTree('d1/dd2/lib_2draw_8qh_source.html','../
 <div class="ttc" id="self_8qh_html_a3ee5c7e70cd5284b5c45bc842b27f911"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a3ee5c7e70cd5284b5c45bc842b27f911">to</a></div><div class="ttdeci">entity to</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/dd0/self_8qh_source.html#l00094">self.qh:94</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-<div class="ttc" id="client_2defs_8qh_html_a20d555d9b4b63c3a86ea9c41ba74efd2"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html#a20d555d9b4b63c3a86ea9c41ba74efd2">vid_conwidth</a></div><div class="ttdeci">float vid_conwidth</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d08/client_2defs_8qh_source.html#l00030">defs.qh:30</a></div></div>
 <div class="ttc" id="jumppads_8qh_html_a48083b65ac9a863566dc3e3fff09a5b4"><div class="ttname"><a href="../../d9/de7/jumppads_8qh.html#a48083b65ac9a863566dc3e3fff09a5b4">height</a></div><div class="ttdeci">float height</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/de7/jumppads_8qh_source.html#l00008">jumppads.qh:8</a></div></div>
 <div class="ttc" id="scoreboard_8qc_html_a361c30606aa485ea4467d43260e86b50"><div class="ttname"><a href="../../d3/d07/scoreboard_8qc.html#a361c30606aa485ea4467d43260e86b50">drawstringcenter</a></div><div class="ttdeci">void drawstringcenter(vector, string, vector, vector, float, float)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a274680f571a231ddf29421b93d434bfa"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a></div><div class="ttdeci">float strlen(string s)</div></div>
@@ -252,7 +251,6 @@ $(document).ready(function(){initNavTree('d1/dd2/lib_2draw_8qh_source.html','../
 <div class="ttc" id="vector_8qh_html_adce3aade2f97ac6fb4688fe0a7005d27"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a></div><div class="ttdeci">const vector eX</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00044">vector.qh:44</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a07c016e00e6f80d5012980202d770138"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a07c016e00e6f80d5012980202d770138">drawsubpic</a></div><div class="ttdeci">float drawsubpic(vector position, vector size, string pic, vector srcPosition, vector srcSize, vector rgb, float alpha, float flag)</div></div>
 <div class="ttc" id="vector_8qh_html_a484dbdf175fddaf431a0bdd8f3b802f5"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5">cross</a></div><div class="ttdeci">#define cross(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00026">vector.qh:26</a></div></div>
-<div class="ttc" id="client_2defs_8qh_html"><div class="ttname"><a href="../../d9/d08/client_2defs_8qh.html">defs.qh</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8f7213273f7de03df213240376ce9f4"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a></div><div class="ttdeci">vector normalize(vector v)</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
@@ -260,7 +258,7 @@ $(document).ready(function(){initNavTree('d1/dd2/lib_2draw_8qh_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d1/dd2/lib_2draw_8qh.html">draw.qh</a></li>
-    <li class="footer">Generated on Thu Oct 27 2016 04:57:11 for Xonotic by
+    <li class="footer">Generated on Thu Oct 27 2016 23:34:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

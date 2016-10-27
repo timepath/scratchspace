@@ -1,5 +1,7 @@
 var NAVTREEINDEX62 =
 {
+"d7/d50/classXonoticPlayerList.html#a990de2246a82ea68b9774233dac0f268":[1,0,214,79],
+"d7/d50/classXonoticPlayerList.html#aa089b7b1be6d628383e60c872a900c79":[1,0,214,56],
 "d7/d50/classXonoticPlayerList.html#aa0be1afcee01b4904e9b7ccc15674b53":[1,0,214,2],
 "d7/d50/classXonoticPlayerList.html#aa3a7b0f57548daae5b460ea630d4a18c":[1,0,214,38],
 "d7/d50/classXonoticPlayerList.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,214,8],
@@ -40,12 +42,12 @@ var NAVTREEINDEX62 =
 "d7/d5a/dialog__settings__user_8qh.html":[2,0,5,4,151],
 "d7/d5a/dialog__settings__user_8qh.html#a66f02ce333f6fc2ba9cfd196973b1295":[2,0,5,4,151,1],
 "d7/d5a/dialog__settings__user_8qh_source.html":[2,0,5,4,151],
-"d7/d5c/common_2stats_8qh.html":[2,0,1,42],
-"d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08":[2,0,1,42,0],
-"d7/d5c/common_2stats_8qh.html#addc676e25f2065875621b35f9daadb18":[2,0,1,42,2],
-"d7/d5c/common_2stats_8qh.html#ae813f754c6e1e144ad044d9c15ba1295":[2,0,1,42,3],
-"d7/d5c/common_2stats_8qh.html#af79aea212cd212293b11203367c6a5b3":[2,0,1,42,1],
-"d7/d5c/common_2stats_8qh_source.html":[2,0,1,42],
+"d7/d5c/common_2stats_8qh.html":[2,0,1,43],
+"d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08":[2,0,1,43,0],
+"d7/d5c/common_2stats_8qh.html#addc676e25f2065875621b35f9daadb18":[2,0,1,43,2],
+"d7/d5c/common_2stats_8qh.html#ae813f754c6e1e144ad044d9c15ba1295":[2,0,1,43,3],
+"d7/d5c/common_2stats_8qh.html#af79aea212cd212293b11203367c6a5b3":[2,0,1,43,1],
+"d7/d5c/common_2stats_8qh_source.html":[2,0,1,43],
 "d7/d5d/classBorderImage.html":[1,0,8],
 "d7/d5d/classBorderImage.html#a09945bf5832d3eace250f8bdcf77ca5b":[1,0,8,56],
 "d7/d5d/classBorderImage.html#a0d5e751c0799c1235578d6a367005620":[1,0,8,45],
@@ -247,7 +249,5 @@ var NAVTREEINDEX62 =
 "d7/d72/rpn_8qc.html#a91770b53b3c43e42b3291c2dbd21b6d2":[2,0,1,0,9,0],
 "d7/d72/rpn_8qc_source.html":[2,0,1,0,9],
 "d7/d73/path__waypoint_8qc.html":[2,0,6,3,12],
-"d7/d73/path__waypoint_8qc.html#a084a58dced236274ffe0f020313c81ad":[2,0,6,3,12,0],
-"d7/d73/path__waypoint_8qc.html#a1ad4e75de7ae224493629648d8a567ee":[2,0,6,3,12,2],
-"d7/d73/path__waypoint_8qc.html#a21bc50256b8cb037eea43c396892799a":[2,0,6,3,12,8]
+"d7/d73/path__waypoint_8qc.html#a084a58dced236274ffe0f020313c81ad":[2,0,6,3,12,0]
 };
