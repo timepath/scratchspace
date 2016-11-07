@@ -1,5 +1,6 @@
 var NAVTREEINDEX119 =
 {
+"de/d40/gamemode__keyhunt_8qc.html#a6787cb86b4d6cd7f96bcf069a5a9f6d3":[2,0,6,2,0,20,48],
 "de/d40/gamemode__keyhunt_8qc.html#a6d364be7b5020ccfac4b844398e7a1d9":[2,0,6,2,0,20,72],
 "de/d40/gamemode__keyhunt_8qc.html#a6fe67f771aca69146e2bfb5bcce53ef0":[2,0,6,2,0,20,40],
 "de/d40/gamemode__keyhunt_8qc.html#a722562627ce1efa8d20c753f0129b53a":[2,0,6,2,0,20,78],
@@ -248,6 +249,5 @@ var NAVTREEINDEX119 =
 "de/d57/walk_8qc_source.html":[2,0,1,11,0,11],
 "de/d58/throwing_8qh.html":[2,0,6,4,15],
 "de/d58/throwing_8qh.html#a05eb21093e88700cf4449c10e7cf4b1b":[2,0,6,4,15,4],
-"de/d58/throwing_8qh.html#a41af2888d1c8d83398fc0b007b8f2b25":[2,0,6,4,15,5],
-"de/d58/throwing_8qh.html#a4f3e2059bf4df2dedf5cce1c3e2350fa":[2,0,6,4,15,1]
+"de/d58/throwing_8qh.html#a41af2888d1c8d83398fc0b007b8f2b25":[2,0,6,4,15,5]
 };

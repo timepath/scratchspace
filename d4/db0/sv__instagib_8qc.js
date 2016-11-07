@@ -19,6 +19,7 @@ var sv__instagib_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a98a5d3098deab4f34f24ea7dc3b56e4a", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a5fa64edde0614ce7c8b815a0e8db8189", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#aafad48bca1589d40ec217379f654a3a6", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a70325d83f83a172194da6945baed5312", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#ab173e4c3454e8ec7fcb8999d8bb11b0d", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#aff26846759ffa8723de4116ec88ae982", null ],
     [ "MUTATOR_HOOKFUNCTION", "d4/db0/sv__instagib_8qc.html#a9f5f8d4b729eddfbd20b406ed9302690", null ],

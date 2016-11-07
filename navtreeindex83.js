@@ -1,5 +1,6 @@
 var NAVTREEINDEX83 =
 {
+"d9/d6e/classTuba.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,127,0],
 "d9/d6e/classTuba.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,127,14],
 "d9/d6e/classTuba.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,127,12],
 "d9/d6e/classTuba.html#aadf51e7fb4ada8bff51507cc383495e9":[1,0,127,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX83 =
 "d9/da8/dialog__settings__input__userbind_8qh.html":[2,0,5,4,143],
 "d9/da8/dialog__settings__input__userbind_8qh_source.html":[2,0,5,4,143],
 "d9/dad/xonotic_2radiobutton_8qc.html":[2,0,5,4,192],
-"d9/dad/xonotic_2radiobutton_8qc.html#a0dfcbd84caa25aaa08982bbfc704eede":[2,0,5,4,192,2],
-"d9/dad/xonotic_2radiobutton_8qc.html#a2ca6480e870cba291535f4c1a0e0b42e":[2,0,5,4,192,5]
+"d9/dad/xonotic_2radiobutton_8qc.html#a0dfcbd84caa25aaa08982bbfc704eede":[2,0,5,4,192,2]
 };
