@@ -1228,11 +1228,11 @@ $(document).ready(function(){initNavTree('d3/d07/scoreboard_8qc_source.html','..
 <div class="line"><a name="l01121"></a><span class="lineno"> 1121</span>&#160;        <span class="keywordtype">int</span> weapon_stats = <a class="code" href="../../d3/d05/hud_8qh.html#aa9be1b3968369f99fd49961627b9cd59">weapon_accuracy</a>[i - <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#a90d55a6f4174a92f4c7740dba8e236df">WEP_FIRST</a>];</div>
 <div class="line"><a name="l01122"></a><span class="lineno"> 1122</span>&#160;</div>
 <div class="line"><a name="l01123"></a><span class="lineno"> 1123</span>&#160;        <a class="code" href="../../d0/ddd/weapons_2all_8qh.html#ade7b3795466e850b0acb38ad649ea87b">WepSet</a> set = it.m_wepset;</div>
-<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;        <span class="keywordflow">if</span> (weapon_stats &lt; 0)</div>
+<div class="line"><a name="l01124"></a><span class="lineno"> 1124</span>&#160;        <span class="keywordflow">if</span> (weapon_stats &lt; 0 &amp;&amp; !((weapons_stat &amp; set) || (weapons_inmap &amp; set)))</div>
 <div class="line"><a name="l01125"></a><span class="lineno"> 1125</span>&#160;        {</div>
-<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;            <span class="keywordflow">if</span> (!(weapons_stat &amp; set) &amp;&amp; !(weapons_inmap &amp; set) &amp;&amp; ((it.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818">WEP_FLAG_HIDDEN</a>) || (it.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a>)))</div>
-<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;                nHidden += 1;</div>
-<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;            <span class="keywordflow">else</span> if (!((weapons_stat &amp; set) || (weapons_inmap &amp; set)))</div>
+<div class="line"><a name="l01126"></a><span class="lineno"> 1126</span>&#160;            <span class="keywordflow">if</span> (((it.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818">WEP_FLAG_HIDDEN</a>) || (it.spawnflags &amp; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2">WEP_FLAG_MUTATORBLOCKED</a>)))</div>
+<div class="line"><a name="l01127"></a><span class="lineno"> 1127</span>&#160;                ++nHidden;</div>
+<div class="line"><a name="l01128"></a><span class="lineno"> 1128</span>&#160;            <span class="keywordflow">else</span></div>
 <div class="line"><a name="l01129"></a><span class="lineno"> 1129</span>&#160;                ++disownedcnt;</div>
 <div class="line"><a name="l01130"></a><span class="lineno"> 1130</span>&#160;        }</div>
 <div class="line"><a name="l01131"></a><span class="lineno"> 1131</span>&#160;    });</div>
@@ -2022,7 +2022,7 @@ $(document).ready(function(){initNavTree('d3/d07/scoreboard_8qc_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d3/d07/scoreboard_8qc.html">scoreboard.qc</a></li>
-    <li class="footer">Generated on Mon Nov 7 2016 05:37:18 for Xonotic by
+    <li class="footer">Generated on Mon Nov 7 2016 11:01:13 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
