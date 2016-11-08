@@ -98,6 +98,7 @@ var searchData=
   ['traceon',['traceon',['../d8/de2/menudefs_8qc.html#a3d04ece4ccd821868c29a7d0b2dfd356',1,'menudefs.qc']]],
   ['tracewalk',['tracewalk',['../db/d15/api_8qh.html#a5774675c8d7c45691539c10cc13b4482',1,'tracewalk(entity e, vector start, vector m1, vector m2, vector end, float movemode):&#160;navigation.qc'],['../d1/d9a/navigation_8qc.html#a5774675c8d7c45691539c10cc13b4482',1,'tracewalk(entity e, vector start, vector m1, vector m2, vector end, float movemode):&#160;navigation.qc'],['../df/dd4/navigation_8qh.html#ac04a7b9ea11337a93febd08c22ea7db7',1,'tracewalk(entity e, vector start, vector m1, vector m2, vector end, float movemode):&#160;navigation.qc']]],
   ['train_5fnext',['train_next',['../de/d2e/train_8qc.html#a887ad93d45858763031e3816a1a0923d',1,'train_next(entity this):&#160;train.qc'],['../dd/daa/g__lights_8qc.html#a887ad93d45858763031e3816a1a0923d',1,'train_next(entity this):&#160;train.qc']]],
+  ['train_5fnext_5ffind',['train_next_find',['../de/d2e/train_8qc.html#a30d24da0513abca491c62e4a9edca12f',1,'train.qc']]],
   ['train_5fwait',['train_wait',['../de/d2e/train_8qc.html#a5b28eb19effb650df0babea0df07810f',1,'train.qc']]],
   ['translatescoreslabel',['TranslateScoresLabel',['../d3/d07/scoreboard_8qc.html#a85799dd1dce34699edbffd4e9500277a',1,'scoreboard.qc']]],
   ['transmute',['TRANSMUTE',['../df/dd7/server_2client_8qc.html#a9e0748b2f44617a221a03deb1fb93e80',1,'client.qc']]],

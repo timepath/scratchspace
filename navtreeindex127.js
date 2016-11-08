@@ -1,5 +1,7 @@
 var NAVTREEINDEX127 =
 {
+"df/d56/weapons_2all_8inc.html":[2,0,1,16,5],
+"df/d56/weapons_2all_8inc_source.html":[2,0,1,16,5],
 "df/d58/yenc_8qh.html":[2,0,4,63],
 "df/d58/yenc_8qh.html#a01877237296c3e64e52b9674f5d326bf":[2,0,4,63,1],
 "df/d58/yenc_8qh.html#a99af444acc00b3c6c194d21b7150b1e7":[2,0,4,63,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX127 =
 "df/d88/bobbing_8qh.html":[2,0,1,13,0,3],
 "df/d88/bobbing_8qh_source.html":[2,0,1,13,0,3],
 "df/d89/hurt_8qc.html":[2,0,1,13,3,16],
-"df/d89/hurt_8qc_source.html":[2,0,1,13,3,16],
-"df/d8c/cl__cmd_8qc.html":[2,0,0,0,2],
-"df/d8c/cl__cmd_8qc.html#a01a144926d280170380a5da597e573dc":[2,0,0,0,2,40]
+"df/d89/hurt_8qc_source.html":[2,0,1,13,3,16]
 };
