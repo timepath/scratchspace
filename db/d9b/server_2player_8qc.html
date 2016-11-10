@@ -1279,9 +1279,9 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00509"></a><span class="lineno">  509</span>&#160;    {</div>
 <div class="line"><a name="l00510"></a><span class="lineno">  510</span>&#160;        <a class="code" href="../../d6/d57/weaponstats_8qc.html#a92da13209374adaf40062e250635050f">WeaponStats_LogDamage</a>(awep.<a class="code" href="../../dc/de5/classWeapon.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd">m_id</a>, abot, <a class="code" href="../../db/d9f/state_8qh.html#a6228dce6d2ac6b96b7ebe5d2b44be40c">PS</a>(<span class="keyword">this</span>).m_weapon.m_id, vbot, dh + da);</div>
 <div class="line"><a name="l00511"></a><span class="lineno">  511</span>&#160;    }</div>
-<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <span class="keywordflow">if</span> (dh + da)</div>
+<div class="line"><a name="l00512"></a><span class="lineno">  512</span>&#160;    <span class="keywordflow">if</span> (damage)</div>
 <div class="line"><a name="l00513"></a><span class="lineno">  513</span>&#160;    {</div>
-<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;        <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(PlayerDamaged, attacker, <span class="keyword">this</span>, dh, da, hitloc, deathtype);</div>
+<div class="line"><a name="l00514"></a><span class="lineno">  514</span>&#160;        <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(PlayerDamaged, attacker, <span class="keyword">this</span>, dh, da, hitloc, deathtype, damage);</div>
 <div class="line"><a name="l00515"></a><span class="lineno">  515</span>&#160;    }</div>
 <div class="line"><a name="l00516"></a><span class="lineno">  516</span>&#160;</div>
 <div class="line"><a name="l00517"></a><span class="lineno">  517</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> &lt; 1)</div>
@@ -1969,7 +1969,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/d9b/server_2player_8qc.html">player.qc</a></li>
-    <li class="footer">Generated on Thu Nov 10 2016 16:19:31 for Xonotic by
+    <li class="footer">Generated on Thu Nov 10 2016 18:34:40 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -300,11 +300,13 @@ $(document).ready(function(){initNavTree('d7/d39/shownames_8qc_source.html','../
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            it.sameteam = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        }</div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordtype">bool</span> dead = entcs_IsDead(i) || entcs_IsSpectating(i);</div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keywordflow">if</span> (!it.csqcmodel_isdead) setorigin(it, entcs.origin);</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;        it.csqcmodel_isdead = dead;</div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <a class="code" href="../../d7/d39/shownames_8qc.html#ae84061a430077f6deea0123fa97d41b8">Draw_ShowNames</a>(it);</div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    });</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;}</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a796761bb60e941804441ef425b24d86c">gametype</a> == MAPINFO_TYPE_CA)</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            dead = (dead || entcs_IsEliminated(i));</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;        <span class="keywordflow">if</span> (!it.csqcmodel_isdead) setorigin(it, entcs.origin);</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;        it.csqcmodel_isdead = dead;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;        <a class="code" href="../../d7/d39/shownames_8qc.html#ae84061a430077f6deea0123fa97d41b8">Draw_ShowNames</a>(it);</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    });</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;}</div>
 <div class="ttc" id="log_8qh_html_a98b360dc9fac616757f41f728705e8e0"><div class="ttname"><a href="../../db/da0/log_8qh.html#a98b360dc9fac616757f41f728705e8e0">assert</a></div><div class="ttdeci">#define assert(expr,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00005">log.qh:5</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a279173e3892d2b1ac8f99b9943bc50e0"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a279173e3892d2b1ac8f99b9943bc50e0">autocvar_hud_shownames_crosshairdistance_time</a></div><div class="ttdeci">float autocvar_hud_shownames_crosshairdistance_time</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00379">autocvars.qh:379</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a615430decaa9e99ecead42215bc1405c"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a615430decaa9e99ecead42215bc1405c">ALPHA_MIN_VISIBLE</a></div><div class="ttdeci">const float ALPHA_MIN_VISIBLE</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00089">main.qh:89</a></div></div>
@@ -393,7 +395,7 @@ $(document).ready(function(){initNavTree('d7/d39/shownames_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d7/d39/shownames_8qc.html">shownames.qc</a></li>
-    <li class="footer">Generated on Thu Nov 10 2016 16:19:23 for Xonotic by
+    <li class="footer">Generated on Thu Nov 10 2016 18:34:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
