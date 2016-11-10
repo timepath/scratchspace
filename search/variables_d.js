@@ -355,7 +355,6 @@ var searchData=
   ['msg_5finit',['MSG_INIT',['../d8/de2/menudefs_8qc.html#acde1f829c4a246948bc5a9359b7148ae',1,'MSG_INIT():&#160;menudefs.qc'],['../d6/d11/progsdefs_8qc.html#acde1f829c4a246948bc5a9359b7148ae',1,'MSG_INIT():&#160;progsdefs.qc']]],
   ['msg_5fone',['MSG_ONE',['../d8/de2/menudefs_8qc.html#a2938cf8334c141eda70b56b31409d120',1,'MSG_ONE():&#160;menudefs.qc'],['../d6/d11/progsdefs_8qc.html#a2938cf8334c141eda70b56b31409d120',1,'MSG_ONE():&#160;progsdefs.qc']]],
   ['msle_5fbase_5fid',['msle_base_id',['../d3/dbf/minigames_8qc.html#a00ae9932d6ad92e4bd43f0c75058a410',1,'minigames.qc']]],
-  ['msnt_5fdeathloc',['msnt_deathloc',['../d2/d08/sv__spawn__near__teammate_8qc.html#aebc0eb8b4f009e208aa7b6452687a98b',1,'sv_spawn_near_teammate.qc']]],
   ['msnt_5flookat',['msnt_lookat',['../d2/d08/sv__spawn__near__teammate_8qc.html#a719320626f92829677573c6e6714dbae',1,'sv_spawn_near_teammate.qc']]],
   ['msnt_5ftimer',['msnt_timer',['../d2/d08/sv__spawn__near__teammate_8qc.html#ad23c797958622d4ed1b1e8ecedb0058f',1,'sv_spawn_near_teammate.qc']]],
   ['msound_5fdelay',['msound_delay',['../d8/dc1/sv__monsters_8qh.html#af65188818bc9bf87f3058a3b9dd5ffad',1,'sv_monsters.qh']]],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX127 =
 {
+"df/d56/classSpider.html#ac976b1b04137e90f280c650b5cc769c5":[1,0,118,10],
+"df/d56/classSpider.html#adc5acc9cbff0fdce03b8253cfa102777":[1,0,118,8],
+"df/d56/classSpider.html#af7f6c083a7f8a432a0579b3f03918174":[1,0,118,11],
 "df/d56/weapons_2all_8inc.html":[2,0,1,16,5],
 "df/d56/weapons_2all_8inc_source.html":[2,0,1,16,5],
 "df/d58/yenc_8qh.html":[2,0,4,63],
@@ -246,8 +249,5 @@ var NAVTREEINDEX127 =
 "df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc_source.html":[2,0,1,9,0,2,0],
 "df/d87/menu_2mutators_2__mod_8qh.html":[2,0,5,3,1],
 "df/d87/menu_2mutators_2__mod_8qh_source.html":[2,0,5,3,1],
-"df/d88/bobbing_8qh.html":[2,0,1,13,0,3],
-"df/d88/bobbing_8qh_source.html":[2,0,1,13,0,3],
-"df/d89/hurt_8qc.html":[2,0,1,13,3,16],
-"df/d89/hurt_8qc_source.html":[2,0,1,13,3,16]
+"df/d88/bobbing_8qh.html":[2,0,1,13,0,3]
 };

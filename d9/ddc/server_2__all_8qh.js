@@ -1,6 +1,7 @@
 var server_2__all_8qh =
 [
     [ "FOREACH_CLIENT", "d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582", null ],
+    [ "FOREACH_CLIENT_RANDOM", "d9/ddc/server_2__all_8qh.html#a23966e9853bfb39fe617977fe295109e", null ],
     [ "FOREACH_CLIENTSLOT", "d9/ddc/server_2__all_8qh.html#adf328897d1616cff8023e9639f6e68ec", null ],
     [ "IS_BOT_CLIENT", "d9/ddc/server_2__all_8qh.html#afff35aba15a6e110ae0fe9e4a8d1a0f6", null ],
     [ "IS_CLIENT", "d9/ddc/server_2__all_8qh.html#a7c35bdb2911d33730cc474d14c383834", null ],
@@ -13,6 +14,8 @@ var server_2__all_8qh =
     [ "IS_SPEC", "d9/ddc/server_2__all_8qh.html#a267d55f1e2caab1f644733587acbc378", null ],
     [ "IS_TURRET", "d9/ddc/server_2__all_8qh.html#a47d8b1eef57b889198dafb1269499995", null ],
     [ "IS_VEHICLE", "d9/ddc/server_2__all_8qh.html#ada2e50d916105b5a32d7c97d39d226d5", null ],
+    [ "_FCR_clients", "d9/ddc/server_2__all_8qh.html#af2b3401aa08996b8be87dbba0f942735", null ],
+    [ "_FCR_entered", "d9/ddc/server_2__all_8qh.html#ab20ae498b54b01e47c9e14f03e5f290d", null ],
     [ "maxclients", "d9/ddc/server_2__all_8qh.html#a897245da86d59176980f3c9901120524", null ],
     [ "STR_OBSERVER", "d9/ddc/server_2__all_8qh.html#a41d8294f77dc153830a7fb766d184826", null ],
     [ "STR_PLAYER", "d9/ddc/server_2__all_8qh.html#a6d7a69bf23135f01c35168a97594727b", null ],
