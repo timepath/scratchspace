@@ -1,5 +1,11 @@
 var NAVTREEINDEX28 =
 {
+"d3/d93/item_2textslider_8qh_source.html":[2,0,5,2,33],
+"d3/d93/spawning_8qh.html":[2,0,6,4,13],
+"d3/d93/spawning_8qh.html#a60096e5c98b3b608470b6130fce0b405":[2,0,6,4,13,1],
+"d3/d93/spawning_8qh.html#ac7b155ae9b6d6ccef4940bf9ef0b5dc9":[2,0,6,4,13,0],
+"d3/d93/spawning_8qh_source.html":[2,0,6,4,13],
+"d3/d95/physics_2movetypes_2follow_8qh.html":[2,0,1,11,0,4],
 "d3/d95/physics_2movetypes_2follow_8qh_source.html":[2,0,1,11,0,4],
 "d3/d99/dialog__settings__game__crosshair_8qh.html":[2,0,5,4,127],
 "d3/d99/dialog__settings__game__crosshair_8qh.html#a12ba5112be2814cdfc0d381545b430c6":[2,0,5,4,127,2],
@@ -243,11 +249,5 @@ var NAVTREEINDEX28 =
 "d3/dba/classXonoticLanguageList.html#a5732463811e3e75fa6b9ba7163a57731":[1,0,199,78],
 "d3/dba/classXonoticLanguageList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,199,6],
 "d3/dba/classXonoticLanguageList.html#a5d88666554075f63775ae96b0137e998":[1,0,199,12],
-"d3/dba/classXonoticLanguageList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,199,15],
-"d3/dba/classXonoticLanguageList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,199,29],
-"d3/dba/classXonoticLanguageList.html#a66fbfaefbaca13bd101eff3498d56a23":[1,0,199,69],
-"d3/dba/classXonoticLanguageList.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,199,7],
-"d3/dba/classXonoticLanguageList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,199,57],
-"d3/dba/classXonoticLanguageList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,199,30],
-"d3/dba/classXonoticLanguageList.html#a731ef2d8cdb302ddcd41f3ed9e6a2be0":[1,0,199,40]
+"d3/dba/classXonoticLanguageList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,199,15]
 };

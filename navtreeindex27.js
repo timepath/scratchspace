@@ -1,5 +1,11 @@
 var NAVTREEINDEX27 =
 {
+"d3/d73/gamemode__ctf_8qc.html#adeb20a9aa1aa64106350c0d6c4753d80":[2,0,6,2,0,6,22],
+"d3/d73/gamemode__ctf_8qc.html#adf49379e9cbcc6fd5ea47bf9b77d78cf":[2,0,6,2,0,6,31],
+"d3/d73/gamemode__ctf_8qc.html#adfbefb9bb66d83f7dc192409643c939c":[2,0,6,2,0,6,89],
+"d3/d73/gamemode__ctf_8qc.html#adfd5aae63b2a5d8d688ce876a62c794f":[2,0,6,2,0,6,69],
+"d3/d73/gamemode__ctf_8qc.html#ae035cdc4bdd6a63c63d3bff759227a31":[2,0,6,2,0,6,153],
+"d3/d73/gamemode__ctf_8qc.html#ae4da0b9f3b47d57388ba498d2baed651":[2,0,6,2,0,6,18],
 "d3/d73/gamemode__ctf_8qc.html#ae7166d51e1e58830fd1a43b93781b835":[2,0,6,2,0,6,30],
 "d3/d73/gamemode__ctf_8qc.html#ae75ed0eea09ad6d6a196ddf7ef2fd368":[2,0,6,2,0,6,106],
 "d3/d73/gamemode__ctf_8qc.html#ae9d4c5c3bba30d38533a6af9672332ec":[2,0,6,2,0,6,156],
@@ -243,11 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d8b/common_2triggers_2trigger_2__mod_8inc_source.html":[2,0,1,13,3,0],
 "d3/d92/roles_8qh.html":[2,0,6,0,0,0,5],
 "d3/d92/roles_8qh_source.html":[2,0,6,0,0,0,5],
-"d3/d93/item_2textslider_8qh.html":[2,0,5,2,33],
-"d3/d93/item_2textslider_8qh_source.html":[2,0,5,2,33],
-"d3/d93/spawning_8qh.html":[2,0,6,4,13],
-"d3/d93/spawning_8qh.html#a60096e5c98b3b608470b6130fce0b405":[2,0,6,4,13,1],
-"d3/d93/spawning_8qh.html#ac7b155ae9b6d6ccef4940bf9ef0b5dc9":[2,0,6,4,13,0],
-"d3/d93/spawning_8qh_source.html":[2,0,6,4,13],
-"d3/d95/physics_2movetypes_2follow_8qh.html":[2,0,1,11,0,4]
+"d3/d93/item_2textslider_8qh.html":[2,0,5,2,33]
 };

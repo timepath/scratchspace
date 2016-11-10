@@ -1,5 +1,11 @@
 var NAVTREEINDEX127 =
 {
+"df/d56/classSpider.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,118,1],
+"df/d56/classSpider.html#a78bac4eaa186fb8ccfdeafe7375ee0dc":[1,0,118,13],
+"df/d56/classSpider.html#a84829255027bd85cf33ef0418ef5c975":[1,0,118,7],
+"df/d56/classSpider.html#a98fd6d803cf7376820bb26fcbca5adbd":[1,0,118,3],
+"df/d56/classSpider.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,118,2],
+"df/d56/classSpider.html#abbd3a53ddd2019b6933a9e40910cfc58":[1,0,118,5],
 "df/d56/classSpider.html#ac976b1b04137e90f280c650b5cc769c5":[1,0,118,10],
 "df/d56/classSpider.html#adc5acc9cbff0fdce03b8253cfa102777":[1,0,118,8],
 "df/d56/classSpider.html#af7f6c083a7f8a432a0579b3f03918174":[1,0,118,11],
@@ -243,11 +249,5 @@ var NAVTREEINDEX127 =
 "df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#a81b771e7581da0653ae9997c03b7d3bc":[2,0,5,4,90,1],
 "df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#acce086669cf0b84947e048b16b4ead4a":[2,0,5,4,90,0],
 "df/d7d/dialog__multiplayer__create__mapinfo_8qc_source.html":[2,0,5,4,90],
-"df/d7d/tests_8qh.html":[2,0,6,78],
-"df/d7d/tests_8qh_source.html":[2,0,6,78],
-"df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc.html":[2,0,1,9,0,2,0],
-"df/d84/common_2mutators_2mutator_2buffs_2__mod_8inc_source.html":[2,0,1,9,0,2,0],
-"df/d87/menu_2mutators_2__mod_8qh.html":[2,0,5,3,1],
-"df/d87/menu_2mutators_2__mod_8qh_source.html":[2,0,5,3,1],
-"df/d88/bobbing_8qh.html":[2,0,1,13,0,3]
+"df/d7d/tests_8qh.html":[2,0,6,78]
 };
