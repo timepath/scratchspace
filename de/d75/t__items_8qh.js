@@ -16,6 +16,6 @@ var t__items_8qh =
     [ "ITS_ANIMATE1", "de/d75/t__items_8qh.html#ad9b35a774f0bfccba4c111337440614c", null ],
     [ "ITS_ANIMATE2", "de/d75/t__items_8qh.html#aee4b0b7614aee3f776ac69a353a07fda", null ],
     [ "ITS_AVAILABLE", "de/d75/t__items_8qh.html#aa2808085fda391f74e373ac68438458e", null ],
-    [ "ITS_POWERUP", "de/d75/t__items_8qh.html#a4f09c3fd00e0a9db40fce70fb0659ccf", null ],
+    [ "ITS_GLOW", "de/d75/t__items_8qh.html#a3e05a312afebcc9f7a167cf39a2517e3", null ],
     [ "ITS_STAYWEP", "de/d75/t__items_8qh.html#a0ce67fdd2e089834c018c3e19c6e70b7", null ]
 ];
