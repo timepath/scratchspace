@@ -33,6 +33,7 @@ var searchData=
   ['oldskin',['oldskin',['../d8/dc1/sv__monsters_8qh.html#a86d0c5966652246bba6931f125ae4970',1,'sv_monsters.qh']]],
   ['oldtarget2',['oldtarget2',['../d8/dc1/sv__monsters_8qh.html#ad0709bca80c35f0cb1ecd6e07d68d46a',1,'sv_monsters.qh']]],
   ['oldvelocity',['oldvelocity',['../d5/d26/server_2defs_8qh.html#a3e22c8ced0d427b277b14fc646a0d2e3',1,'defs.qh']]],
+  ['onground_5ftime',['onground_time',['../de/d75/t__items_8qh.html#a27e7c92dd78340273163a08a8d603977',1,'t_items.qh']]],
   ['onlinebanlist_5frequestwaiting',['OnlineBanList_RequestWaiting',['../d6/d95/ipban_8qc.html#a0dc48623cdc782ca4db211ec8064a04c',1,'ipban.qc']]],
   ['onlinebanlist_5fservers',['OnlineBanList_Servers',['../d6/d95/ipban_8qc.html#ad2acccbd539f2f6ae71ec9cb385fb87a',1,'ipban.qc']]],
   ['onlinebanlist_5ftimeout',['OnlineBanList_Timeout',['../d6/d95/ipban_8qc.html#ab505a8d0f45567050fccefe47203c6a7',1,'ipban.qc']]],

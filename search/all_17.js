@@ -143,7 +143,7 @@ var searchData=
   ['warmup_5fstart_5fammo_5fshells',['warmup_start_ammo_shells',['../dc/d73/server_2miscfunctions_8qh.html#a3864dd00e6d914869ec70d29a30001a6',1,'miscfunctions.qh']]],
   ['warmup_5fstart_5farmorvalue',['warmup_start_armorvalue',['../dc/d73/server_2miscfunctions_8qh.html#af6809e3d242e489cae57b2d01d952e31',1,'miscfunctions.qh']]],
   ['warmup_5fstart_5fhealth',['warmup_start_health',['../dc/d73/server_2miscfunctions_8qh.html#a963375e0503f2f80f21fa12935491751',1,'miscfunctions.qh']]],
-  ['warmup_5fstart_5fweapons',['WARMUP_START_WEAPONS',['../dc/d73/server_2miscfunctions_8qh.html#a29c235bed1ff0287066a442759cbfe3a',1,'WARMUP_START_WEAPONS():&#160;miscfunctions.qh'],['../dc/d73/server_2miscfunctions_8qh.html#aca7c673e6d637dd16b6a9bbcc3f73a63',1,'warmup_start_weapons():&#160;miscfunctions.qh']]],
+  ['warmup_5fstart_5fweapons',['warmup_start_weapons',['../dc/d73/server_2miscfunctions_8qh.html#aca7c673e6d637dd16b6a9bbcc3f73a63',1,'warmup_start_weapons():&#160;miscfunctions.qh'],['../dc/d73/server_2miscfunctions_8qh.html#a29c235bed1ff0287066a442759cbfe3a',1,'WARMUP_START_WEAPONS():&#160;miscfunctions.qh']]],
   ['warmup_5fstart_5fweapons_5fdefault',['warmup_start_weapons_default',['../dc/d73/server_2miscfunctions_8qh.html#aad7d23f1f5e223a2965f3b5e72011c83',1,'miscfunctions.qh']]],
   ['warmup_5fstart_5fweapons_5fdefaultmask',['warmup_start_weapons_defaultmask',['../dc/d73/server_2miscfunctions_8qh.html#ac2904d796f47df37207fdc383265d2c7',1,'miscfunctions.qh']]],
   ['warpzone_5faccumulator_5fadd',['WarpZone_Accumulator_Add',['../d1/d6a/lib_2warpzone_2common_8qc.html#af5e5f1b36ad17b8f9170a150aa5c8967',1,'common.qc']]],
