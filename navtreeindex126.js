@@ -1,5 +1,6 @@
 var NAVTREEINDEX126 =
 {
+"df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[2,0,5,4,6,1],
 "df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9":[2,0,5,4,6,0],
 "df/d28/menu_2xonotic_2button_8qc_source.html":[2,0,5,4,6],
 "df/d28/sv__turrets_8qh.html":[2,0,1,14,14],
@@ -248,6 +249,5 @@ var NAVTREEINDEX126 =
 "df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,118,0],
 "df/d56/classSpider.html#a24b4136b7b62e15cc5df0c04289434ca":[1,0,118,6],
 "df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,118,14],
-"df/d56/classSpider.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,118,12],
-"df/d56/classSpider.html#a66aaeae0f48e09bfdf2f3c546e6375b2":[1,0,118,9]
+"df/d56/classSpider.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,118,12]
 };

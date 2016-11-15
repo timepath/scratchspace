@@ -150,18 +150,18 @@ var NAVTREEINDEX =
 "de/d40/gamemode__keyhunt_8qc.html#a43687397ea9aebb48552c56225cf855b",
 "de/d57/server_2__all_8inc_source.html",
 "de/d5e/dpextensions_8qc.html#aa9f21bfa853c217396b2960855f9256d",
-"de/d70/common_2physics_2player_8qh.html#a3823e7faa5111ca7142b61cc6dfce354",
-"de/d8c/classWyvernAttack.html#a8adc0f68d514782dc8fe0a1d5af3b310",
-"de/dcb/classMageSpike.html#a6f6d430c1456b7b9b3b128967e920acb",
-"df/d05/t__quake_8qh.html",
-"df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9",
-"df/d56/classSpider.html#a6dcca2c26e36342b5286873a74793cae",
-"df/d7d/tests_8qh.html",
-"df/d9b/menu_2xonotic_2util_8qc.html#aabecb2186198cee293ff99e8806ea85e",
-"df/dc9/classXonoticHUDQuickMenuDialog.html#a7870c2467d71f42ddc904c2ad3690ae1",
-"df/dee/anglestransform_8qh.html#a7306b623ecb07a5c62ec3d5b3094e1b7",
-"dir_3766841665e01e37853b031527a51915.html",
-"globals_vars_h.html"
+"de/d70/common_2physics_2player_8qh.html#a3705f9a23aa6c7a0663dcabde7c8214e",
+"de/d8c/classWyvernAttack.html#a80fa9a65e19370473a29baebc04d0626",
+"de/dcb/classMageSpike.html#a6e855d1e44fb3e0730f446b8e7f16409",
+"df/d05/cl__model_8qh_source.html",
+"df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb",
+"df/d56/classSpider.html#a66aaeae0f48e09bfdf2f3c546e6375b2",
+"df/d7d/dialog__multiplayer__create__mapinfo_8qc_source.html",
+"df/d9b/menu_2xonotic_2util_8qc.html#aa958d5d2b2d14b4705a46d5474d9843e",
+"df/dc9/classXonoticHUDQuickMenuDialog.html#a72c0e76156762fbda152032add5f1630",
+"df/dee/anglestransform_8qh.html#a6eef2b5d1dcd28a89fa2ab3146011775",
+"dir_35b13da68f3b87ebd8e5efaf5a26acd6.html",
+"globals_vars_g.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
