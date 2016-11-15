@@ -1,11 +1,12 @@
 <map id="MUTATOR_HOOKFUNCTION" name="MUTATOR_HOOKFUNCTION">
 <area shape="rect" id="node2" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1127,271,1182,298"/>
-<area shape="rect" id="node3" href="$de/d40/gamemode__keyhunt_8qc.html#ad739070280b4ac5432bf5f6f5a7f1e30" title="kh_Key_DropAll" alt="" coords="259,600,375,627"/>
+<area shape="rect" id="node3" href="$de/d40/gamemode__keyhunt_8qc.html#ad739070280b4ac5432bf5f6f5a7f1e30" title="kh_Key_DropAll" alt="" coords="259,626,375,652"/>
 <area shape="rect" id="node4" href="$de/d40/gamemode__keyhunt_8qc.html#a53b6f32f3cf7da87a548e0d8dd30b89a" title="kh_Key_AssignTo" alt="" coords="460,398,588,424"/>
-<area shape="rect" id="node16" href="$de/d40/gamemode__keyhunt_8qc.html#a24fba324c185ddf090d87683b01a02ce" title="kh_Scores_Event" alt="" coords="461,676,587,703"/>
-<area shape="rect" id="node28" href="$d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4" title="Adds a score to the player&#39;s scores. " alt="" coords="719,600,841,627"/>
-<area shape="rect" id="node29" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="491,727,557,754"/>
-<area shape="rect" id="node30" href="$d7/d31/tracing_8qc.html#a01fdafeeb02668e5b55cce3baccf9d01" title="W_CalculateProjectileVelocity" alt="" coords="425,1132,623,1159"/>
+<area shape="rect" id="node16" href="$de/d40/gamemode__keyhunt_8qc.html#a24fba324c185ddf090d87683b01a02ce" title="kh_Scores_Event" alt="" coords="461,651,587,678"/>
+<area shape="rect" id="node28" href="$de/d40/gamemode__keyhunt_8qc.html#a26e842c69259395a21fa8ddaefed7bf3" title="kh_Team_ByID" alt="" coords="467,702,581,728"/>
+<area shape="rect" id="node29" href="$d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4" title="Adds a score to the player&#39;s scores. " alt="" coords="719,600,841,627"/>
+<area shape="rect" id="node30" href="$d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b" title="random" alt="" coords="491,752,557,779"/>
+<area shape="rect" id="node31" href="$d7/d31/tracing_8qc.html#a01fdafeeb02668e5b55cce3baccf9d01" title="W_CalculateProjectileVelocity" alt="" coords="425,1132,623,1159"/>
 <area shape="rect" id="node5" href="$de/d40/gamemode__keyhunt_8qc.html#a1acc2a31bfed7c384b5de6e4bc1e4c22" title="kh_Key_AllOwnedByWhichTeam" alt="" coords="673,195,887,222"/>
 <area shape="rect" id="node7" href="$de/d40/gamemode__keyhunt_8qc.html#ac424bffde3e5ff6093b81edd08b9f690" title="kh_Key_Attach" alt="" coords="725,322,835,348"/>
 <area shape="rect" id="node10" href="$de/d40/gamemode__keyhunt_8qc.html#a5b49f203806993cfa8819cea2b46cb58" title="kh_Key_Detach" alt="" coords="723,398,837,424"/>
@@ -28,12 +29,12 @@
 <area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa" title="strlen" alt="" coords="966,955,1021,982"/>
 <area shape="rect" id="node26" href="$d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b" title="substring" alt="" coords="956,1006,1031,1032"/>
 <area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#acf9c719e766113bad854907e87812e98" title="print" alt="" coords="1131,803,1178,830"/>
-<area shape="rect" id="node31" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1125,1107,1184,1134"/>
-<area shape="rect" id="node32" href="$d5/de0/weaponsystem_8qc.html#a0a6487bdb823099d34918347cb076f98" title="W_WeaponSpeedFactor" alt="" coords="698,1158,862,1184"/>
-<area shape="rect" id="node33" href="$d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4" title="normalize" alt="" coords="741,1208,819,1235"/>
-<area shape="rect" id="node34" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="757,1259,803,1286"/>
-<area shape="rect" id="node35" href="$da/d44/common_2util_8qc.html#abc3e5951852a453cfd754b340b898427" title="get_shotvelocity" alt="" coords="721,1107,839,1134"/>
-<area shape="rect" id="node36" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="965,1208,1022,1235"/>
-<area shape="rect" id="node37" href="$d5/df2/common_2util_8qh.html#aa8861d172bf3f5895e7d852a3c30174e" title="ax^2 + bx + c = 0 " alt="" coords="937,1158,1050,1184"/>
-<area shape="rect" id="node38" href="$d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3" title="sqrt" alt="" coords="1133,1158,1177,1184"/>
+<area shape="rect" id="node32" href="$d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e" title="vector" alt="" coords="1125,1107,1184,1134"/>
+<area shape="rect" id="node33" href="$d5/de0/weaponsystem_8qc.html#a0a6487bdb823099d34918347cb076f98" title="W_WeaponSpeedFactor" alt="" coords="698,1158,862,1184"/>
+<area shape="rect" id="node34" href="$d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4" title="normalize" alt="" coords="741,1208,819,1235"/>
+<area shape="rect" id="node35" href="$d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf" title="vlen" alt="" coords="757,1259,803,1286"/>
+<area shape="rect" id="node36" href="$da/d44/common_2util_8qc.html#abc3e5951852a453cfd754b340b898427" title="get_shotvelocity" alt="" coords="721,1107,839,1134"/>
+<area shape="rect" id="node37" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="965,1208,1022,1235"/>
+<area shape="rect" id="node38" href="$d5/df2/common_2util_8qh.html#aa8861d172bf3f5895e7d852a3c30174e" title="ax^2 + bx + c = 0 " alt="" coords="937,1158,1050,1184"/>
+<area shape="rect" id="node39" href="$d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3" title="sqrt" alt="" coords="1133,1158,1177,1184"/>
 </map>

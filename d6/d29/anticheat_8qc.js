@@ -1,7 +1,9 @@
 var anticheat_8qc =
 [
-    [ "ANTICHEAT_REGISTER_ONE_TO_PLAYERSTATS", "d6/d29/anticheat_8qc.html#a9dcfd0fb1d1d6bac5a005228545fd8e7", null ],
-    [ "ANTICHEATS", "d6/d29/anticheat_8qc.html#a9bc3e8d49f7c5cc7521a994c52efaf31", null ],
+    [ "ANTICHEAT_REGISTER_ONE", "d6/d29/anticheat_8qc.html#a7cd66344e9a16a0ff3056ed00c3260a5", null ],
+    [ "ANTICHEAT_REPORT_ONE", "d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155", null ],
+    [ "ANTICHEAT_REPORT_ONE", "d6/d29/anticheat_8qc.html#aa187b5dbf4c7d5f3e5756f0a62592155", null ],
+    [ "ANTICHEATS", "d6/d29/anticheat_8qc.html#af005d58f8a07dc80392412781f20c7de", null ],
     [ "anticheat_display", "d6/d29/anticheat_8qc.html#a658308a7c96c89624a5e2a4ed317454b", null ],
     [ "anticheat_endframe", "d6/d29/anticheat_8qc.html#ad52af0e13ac752967839101b3b1a9458", null ],
     [ "anticheat_fixangle", "d6/d29/anticheat_8qc.html#a068a96ae9ccf8a1fd9cd99e95d5e1c7e", null ],
@@ -9,8 +11,6 @@ var anticheat_8qc =
     [ "anticheat_physics", "d6/d29/anticheat_8qc.html#ab77a6f0f9b4de4381e9c1c2e79226f07", null ],
     [ "anticheat_prethink", "d6/d29/anticheat_8qc.html#ac65c3d43eac87f7fab001ec48f2cedfe", null ],
     [ "anticheat_register_to_playerstats", "d6/d29/anticheat_8qc.html#acc8fb1d445de6158b9a51ba1b566a820", null ],
-    [ "anticheat_report_one_to_eventlog", "d6/d29/anticheat_8qc.html#a6c36eb903e0b92d9a9171482e8a93d8e", null ],
-    [ "anticheat_report_one_to_playerstats", "d6/d29/anticheat_8qc.html#ad7665fcced82a6bbb8ff54f014e844a6", null ],
     [ "anticheat_report_to_eventlog", "d6/d29/anticheat_8qc.html#abbd5a2c9639d75d5ac7e98fbd60856ab", null ],
     [ "anticheat_report_to_playerstats", "d6/d29/anticheat_8qc.html#a73c8115f7960c486fe50a285959605e7", null ],
     [ "anticheat_spectatecopy", "d6/d29/anticheat_8qc.html#a8637d5f3a3ed106d36e9d7448931bd90", null ],
