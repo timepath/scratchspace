@@ -1,5 +1,11 @@
 var NAVTREEINDEX127 =
 {
+"df/d54/dialog__settings__game__hud_8qh_source.html":[2,0,5,4,129],
+"df/d56/classSpider.html":[1,0,118],
+"df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,118,0],
+"df/d56/classSpider.html#a24b4136b7b62e15cc5df0c04289434ca":[1,0,118,6],
+"df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,118,14],
+"df/d56/classSpider.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,118,12],
 "df/d56/classSpider.html#a66aaeae0f48e09bfdf2f3c546e6375b2":[1,0,118,9],
 "df/d56/classSpider.html#a6dcca2c26e36342b5286873a74793cae":[1,0,118,4],
 "df/d56/classSpider.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,118,1],
@@ -243,11 +249,5 @@ var NAVTREEINDEX127 =
 "df/d78/classPhaserTurretAttack.html#ad48f3b862a6f2efac50459f4612fab93":[1,0,90,27],
 "df/d78/classPhaserTurretAttack.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,90,22],
 "df/d78/classPhaserTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,90,24],
-"df/d78/classPhaserTurretAttack.html#ae7a4367569506c9c7bc4402342c0ebf5":[1,0,90,31],
-"df/d78/classPhaserTurretAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,90,17],
-"df/d7d/dialog__monstertools_8qh.html":[2,0,5,4,85],
-"df/d7d/dialog__monstertools_8qh_source.html":[2,0,5,4,85],
-"df/d7d/dialog__multiplayer__create__mapinfo_8qc.html":[2,0,5,4,90],
-"df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#a81b771e7581da0653ae9997c03b7d3bc":[2,0,5,4,90,1],
-"df/d7d/dialog__multiplayer__create__mapinfo_8qc.html#acce086669cf0b84947e048b16b4ead4a":[2,0,5,4,90,0]
+"df/d78/classPhaserTurretAttack.html#ae7a4367569506c9c7bc4402342c0ebf5":[1,0,90,31]
 };

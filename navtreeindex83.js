@@ -1,5 +1,10 @@
 var NAVTREEINDEX83 =
 {
+"d9/d6e/classTuba.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,127,2],
+"d9/d6e/classTuba.html#a768d3992198c4b743dbab2cff9529e99":[1,0,127,23],
+"d9/d6e/classTuba.html#a7b3d8a053c1a4a908b0916aa37c84305":[1,0,127,27],
+"d9/d6e/classTuba.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,127,26],
+"d9/d6e/classTuba.html#a80fa9a65e19370473a29baebc04d0626":[1,0,127,4],
 "d9/d6e/classTuba.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,127,6],
 "d9/d6e/classTuba.html#a8eb191107981e96ab6eaa3b4bc447c53":[1,0,127,29],
 "d9/d6e/classTuba.html#a9443a3ec591e599e13edc07d14c723b0":[1,0,127,35],
@@ -244,10 +249,5 @@ var NAVTREEINDEX83 =
 "d9/da1/vehicles_8qh_source.html":[2,0,1,15,13],
 "d9/da8/angle_8qc.html":[2,0,4,7],
 "d9/da8/angle_8qc.html#a1887814f18af2259bf4a563c9ce69565":[2,0,4,7,2],
-"d9/da8/angle_8qc.html#a200ba178c52cc153c9efce4b81ebc62d":[2,0,4,7,3],
-"d9/da8/angle_8qc.html#a2e94b888a871415479553d035d55317a":[2,0,4,7,4],
-"d9/da8/angle_8qc.html#a520b5ef01deabe77ef3b0376e65875df":[2,0,4,7,1],
-"d9/da8/angle_8qc.html#a74e3390452e67698b03637a6f3f38f4e":[2,0,4,7,0],
-"d9/da8/angle_8qc.html#a91b5bfdce1abf7d3ab4f5341923c3bda":[2,0,4,7,5],
-"d9/da8/angle_8qc.html#aa1f190a348c0675e2f35688de429bef6":[2,0,4,7,6]
+"d9/da8/angle_8qc.html#a200ba178c52cc153c9efce4b81ebc62d":[2,0,4,7,3]
 };

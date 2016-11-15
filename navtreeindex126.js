@@ -1,5 +1,11 @@
 var NAVTREEINDEX126 =
 {
+"df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html":[2,0,5,4,111],
+"df/d27/dialog__multiplayer__media__screenshot__viewer_8qh_source.html":[2,0,5,4,111],
+"df/d27/sv__weaponarena__random_8qh.html":[2,0,1,9,0,35,3],
+"df/d27/sv__weaponarena__random_8qh_source.html":[2,0,1,9,0,35,3],
+"df/d28/menu_2xonotic_2button_8qc.html":[2,0,5,4,6],
+"df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[2,0,5,4,6,2],
 "df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[2,0,5,4,6,1],
 "df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9":[2,0,5,4,6,0],
 "df/d28/menu_2xonotic_2button_8qc_source.html":[2,0,5,4,6],
@@ -243,11 +249,5 @@ var NAVTREEINDEX126 =
 "df/d54/dialog__settings__game__hud_8qh.html":[2,0,5,4,129],
 "df/d54/dialog__settings__game__hud_8qh.html#a2b7967e17d4cfccff3c1f979de1d2515":[2,0,5,4,129,3],
 "df/d54/dialog__settings__game__hud_8qh.html#a8355ef57cfbd4b0b0a510b61df465435":[2,0,5,4,129,1],
-"df/d54/dialog__settings__game__hud_8qh.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,129,2],
-"df/d54/dialog__settings__game__hud_8qh_source.html":[2,0,5,4,129],
-"df/d56/classSpider.html":[1,0,118],
-"df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,118,0],
-"df/d56/classSpider.html#a24b4136b7b62e15cc5df0c04289434ca":[1,0,118,6],
-"df/d56/classSpider.html#a335ec63a354289db6eafd843c042f85f":[1,0,118,14],
-"df/d56/classSpider.html#a486a46d7eb31dc495eaf5347ba1cb5de":[1,0,118,12]
+"df/d54/dialog__settings__game__hud_8qh.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,129,2]
 };

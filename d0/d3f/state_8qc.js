@@ -3,7 +3,7 @@ var state_8qc =
     [ "accuracy_free", "d0/d3f/state_8qc.html#a34f4025222e4edd5d1dcee5b90656bec", null ],
     [ "accuracy_init", "d0/d3f/state_8qc.html#a28f9af38c062e963a41ab42e2a60e12b", null ],
     [ "anticheat_init", "d0/d3f/state_8qc.html#a620f7cf1b6c95a9c13fb4ee6c0476309", null ],
-    [ "anticheat_report", "d0/d3f/state_8qc.html#a663362ec10d27e4a23160defbb3e9d3e", null ],
+    [ "anticheat_report_to_eventlog", "d0/d3f/state_8qc.html#abbd5a2c9639d75d5ac7e98fbd60856ab", null ],
     [ "bot_clientconnect", "d0/d3f/state_8qc.html#abd19370e4d61d3549dbbe44826531536", null ],
     [ "bot_clientdisconnect", "d0/d3f/state_8qc.html#ab10bcd46b240e1fd8154de39ddd5c40e", null ],
     [ "ClientData_Attach", "d0/d3f/state_8qc.html#ae1ed9a146c5c791944277a4ff2c890c6", null ],
