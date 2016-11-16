@@ -1,5 +1,6 @@
 var NAVTREEINDEX48 =
 {
+"d5/d95/classXonoticDialog.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,162,19],
 "d5/d95/classXonoticDialog.html#a331c55a30b4bc22951a251062508326b":[1,0,162,22],
 "d5/d95/classXonoticDialog.html#a341abe470ef9e332df40dc7223deff5a":[1,0,162,13],
 "d5/d95/classXonoticDialog.html#a34220a39bc829c66797558fbc1571d55":[1,0,162,61],
@@ -248,6 +249,5 @@ var NAVTREEINDEX48 =
 "d5/dc0/common_2minigames_2__mod_8qh_source.html":[2,0,1,6,2],
 "d5/dc1/sv__touchexplode_8qh.html":[2,0,1,9,0,30,3],
 "d5/dc1/sv__touchexplode_8qh_source.html":[2,0,1,9,0,30,3],
-"d5/dc3/t__halflife_8qc.html":[2,0,6,69],
-"d5/dc3/t__halflife_8qc.html#a0fc7890c64f67efed2d83078a65cc505":[2,0,6,69,9]
+"d5/dc3/t__halflife_8qc.html":[2,0,6,69]
 };

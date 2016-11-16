@@ -1,5 +1,6 @@
 var NAVTREEINDEX127 =
 {
+"df/d54/dialog__settings__game__hud_8qh.html#af81b029727019578b2f147a358bcdedf":[2,0,5,4,129,2],
 "df/d54/dialog__settings__game__hud_8qh_source.html":[2,0,5,4,129],
 "df/d56/classSpider.html":[1,0,118],
 "df/d56/classSpider.html#a1b84dbe029d909c54678e27a659c4793":[1,0,118,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX127 =
 "df/d78/classPhaserTurretAttack.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,90,3],
 "df/d78/classPhaserTurretAttack.html#ad48f3b862a6f2efac50459f4612fab93":[1,0,90,27],
 "df/d78/classPhaserTurretAttack.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,90,22],
-"df/d78/classPhaserTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,90,24],
-"df/d78/classPhaserTurretAttack.html#ae7a4367569506c9c7bc4402342c0ebf5":[1,0,90,31]
+"df/d78/classPhaserTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,90,24]
 };

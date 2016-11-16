@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"d8/d0f/gamemode__assault_8qh.html#ae3a79e8bfe6edb7284009e4102637da4":[2,0,6,2,0,3,4],
 "d8/d0f/gamemode__assault_8qh.html#aeec709ac24ea54914787f032f0bedc54":[2,0,6,2,0,3,3],
 "d8/d0f/gamemode__assault_8qh.html#af8389fdc85e65f8ba4b3d508404af1b1":[2,0,6,2,0,3,8],
 "d8/d0f/gamemode__assault_8qh.html#af9ce8a13c37efdd85ac68f7b16bd7ac9":[2,0,6,2,0,3,0],
@@ -175,9 +176,9 @@ var NAVTREEINDEX71 =
 "d8/d1c/sv__spawn_8qc_source.html":[2,0,1,8,9],
 "d8/d1d/cmd_8qc.html":[2,0,6,1,4],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,0],
+"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,2],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,1],
 "d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,3],
-"d8/d1d/cmd_8qc.html#a058e84918e39fe4124deec009336d4da":[2,0,6,1,4,2],
 "d8/d1d/cmd_8qc.html#a0702129e58317d01f1e8a8f6d9d75ed9":[2,0,6,1,4,17],
 "d8/d1d/cmd_8qc.html#a098fbb3a55e2991037cb6f12ef1e3665":[2,0,6,1,4,28],
 "d8/d1d/cmd_8qc.html#a0f2b9dadcca7d1430005c2ac984b79f4":[2,0,6,1,4,19],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "d8/d35/classXonoticHUDChatDialog.html":[1,0,175],
 "d8/d35/classXonoticHUDChatDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,175,32],
 "d8/d35/classXonoticHUDChatDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,175,11],
-"d8/d35/classXonoticHUDChatDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,175,40],
-"d8/d35/classXonoticHUDChatDialog.html#a05bf8a102832e7ef8e5899488314ce85":[1,0,175,83]
+"d8/d35/classXonoticHUDChatDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,175,40]
 };

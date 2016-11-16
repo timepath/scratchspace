@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"da/dc1/server_2player_8qh.html#aea48339798453aef3726fe26f97a9bc2":[2,0,6,47,17],
 "da/dc1/server_2player_8qh.html#aef50b8473159af9d6f77b966bc0cbe00":[2,0,6,47,4],
 "da/dc1/server_2player_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1":[2,0,6,47,8],
 "da/dc1/server_2player_8qh.html#af2cf7e359cda23b596ac40cda3f9ba87":[2,0,6,47,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "db/d07/teams_8qh.html#a566bc38c723c83db64b29a0a3a0a138e":[2,0,1,46,29],
 "db/d07/teams_8qh.html#a5bb78e43a543e34c0f27f447c65d62cc":[2,0,1,46,8],
 "db/d07/teams_8qh.html#a60a132226a89386e69517d266e83be67":[2,0,1,46,19],
-"db/d07/teams_8qh.html#a6a105d471d84967e4f141610777507da":[2,0,1,46,6],
-"db/d07/teams_8qh.html#a700d838c6711603d833d9c54cdfb7fe6":[2,0,1,46,48]
+"db/d07/teams_8qh.html#a6a105d471d84967e4f141610777507da":[2,0,1,46,6]
 };

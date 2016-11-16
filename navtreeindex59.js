@@ -1,5 +1,6 @@
 var NAVTREEINDEX59 =
 {
+"d6/ddd/server_2mutators_2events_8qh.html#ab2d7840b9319627ef1cf22c8382260d3":[2,0,6,2,3,161],
 "d6/ddd/server_2mutators_2events_8qh.html#ab3419a5ab4de419f2bb550089b2d935b":[2,0,6,2,3,66],
 "d6/ddd/server_2mutators_2events_8qh.html#ab4f9b593941b9be6ddd2a5ab310f6aee":[2,0,6,2,3,150],
 "d6/ddd/server_2mutators_2events_8qh.html#ab5ec01e4c3bdf36c0a791804447c4a67":[2,0,6,2,3,214],
@@ -248,6 +249,5 @@ var NAVTREEINDEX59 =
 "d7/d13/campaign__common_8qh.html#a5a3e386c064a6162729f64e2ee5263e2":[2,0,1,24,9],
 "d7/d13/campaign__common_8qh.html#a60eb1da8586e91aa4e5ba36eb255b903":[2,0,1,24,2],
 "d7/d13/campaign__common_8qh.html#a61903179131b13b8ac5a03f44137778b":[2,0,1,24,8],
-"d7/d13/campaign__common_8qh.html#a741735ba63f01d1145221581ba8e4803":[2,0,1,24,0],
-"d7/d13/campaign__common_8qh.html#a8b3642c3f26e338a0bfdc5d435852b0e":[2,0,1,24,3]
+"d7/d13/campaign__common_8qh.html#a741735ba63f01d1145221581ba8e4803":[2,0,1,24,0]
 };

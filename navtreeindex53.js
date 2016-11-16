@@ -1,5 +1,6 @@
 var NAVTREEINDEX53 =
 {
+"d6/d29/anticheat_8qc.html#a32cd644385c09f339412862eec0dd3ee":[2,0,6,9,36],
 "d6/d29/anticheat_8qc.html#a335752f7077bb4210825b4c48f77f452":[2,0,6,9,35],
 "d6/d29/anticheat_8qc.html#a37473a6b964d7b702746b3adee42b1d7":[2,0,6,9,21],
 "d6/d29/anticheat_8qc.html#a3e85f8830f95b5d7dd3efe020abc85e5":[2,0,6,9,30],
@@ -248,6 +249,5 @@ var NAVTREEINDEX53 =
 "d6/d66/classPhaserTurret.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,89,11],
 "d6/d66/classPhaserTurret.html#ac87e4290a49e9dbab3ee755b0543d095":[1,0,89,20],
 "d6/d66/classPhaserTurret.html#ac9326670d238b64d7b50b8b39a60c7d9":[1,0,89,15],
-"d6/d66/classPhaserTurret.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,89,3],
-"d6/d66/classPhaserTurret.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,89,4]
+"d6/d66/classPhaserTurret.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,89,3]
 };

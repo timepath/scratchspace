@@ -1,5 +1,6 @@
 var NAVTREEINDEX102 =
 {
+"db/dcc/g__world_8qc.html#aaf92ec79f8aec9319c8a513bd5577e48":[2,0,6,32,11],
 "db/dcc/g__world_8qc.html#ab4721c41868f8c9a5e7ac2bc6161b303":[2,0,6,32,35],
 "db/dcc/g__world_8qc.html#ab61dd957a2c44ebabe227060941cb391":[2,0,6,32,13],
 "db/dcc/g__world_8qc.html#ab6fe1d680f8a7a4c9b39c92861604ba8":[2,0,6,32,56],
@@ -248,6 +249,5 @@ var NAVTREEINDEX102 =
 "db/de8/effectinfo__gentle__particlegibs_8inc_source.html":[2,0,1,2,15],
 "db/deb/roles_8qc.html":[2,0,6,0,0,0,4],
 "db/deb/roles_8qc.html#a3e9df5e35d2e1a1d92cb47e72b572d4a":[2,0,6,0,0,0,4,3],
-"db/deb/roles_8qc.html#a4c36d9fcd24202f73d536c95f9bc634e":[2,0,6,0,0,0,4,7],
-"db/deb/roles_8qc.html#a4f33c76c5937f4781a5315a14158fd3f":[2,0,6,0,0,0,4,4]
+"db/deb/roles_8qc.html#a4c36d9fcd24202f73d536c95f9bc634e":[2,0,6,0,0,0,4,7]
 };

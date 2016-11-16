@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"d6/d99/effectinfo__buffs_8inc.html#aa8808d7c94d9c624a39e6e80b9bd90cd":[2,0,1,2,10,0],
 "d6/d99/effectinfo__buffs_8inc.html#ab3e4a1d3a3300c2ac4464502473239c2":[2,0,1,2,10,27],
 "d6/d99/effectinfo__buffs_8inc.html#ab6430f8dfe7cca3fa4c01168d1cfd452":[2,0,1,2,10,12],
 "d6/d99/effectinfo__buffs_8inc.html#ab71e503a718dfb3ee3c0f099a56e438b":[2,0,1,2,10,22],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "d6/dce/sounds_2all_8inc.html#a5dd27c2969bd597fe5535130b97429db":[2,0,1,12,2,112],
 "d6/dce/sounds_2all_8inc.html#a60c137af02da3d32b1fe7cf1c9c519f4":[2,0,1,12,2,144],
 "d6/dce/sounds_2all_8inc.html#a632f278f6333c63a6ab129feda86ed0b":[2,0,1,12,2,3],
-"d6/dce/sounds_2all_8inc.html#a6351a3df18998774b182441b6c3b5b43":[2,0,1,12,2,24],
-"d6/dce/sounds_2all_8inc.html#a63ad4cbc696188c8bbcae3e031200e18":[2,0,1,12,2,185]
+"d6/dce/sounds_2all_8inc.html#a6351a3df18998774b182441b6c3b5b43":[2,0,1,12,2,24]
 };

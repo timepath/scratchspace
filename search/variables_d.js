@@ -275,6 +275,7 @@ var searchData=
   ['monster_5ftype_5ffly',['MONSTER_TYPE_FLY',['../d4/ddc/monster_8qh.html#a6cd57dceeadd45826b77b7d56c18a4ab',1,'monster.qh']]],
   ['monster_5ftype_5fpassive',['MONSTER_TYPE_PASSIVE',['../d4/ddc/monster_8qh.html#a40ee9c36998d2b2723036db640b21655',1,'monster.qh']]],
   ['monster_5ftype_5fswim',['MONSTER_TYPE_SWIM',['../d4/ddc/monster_8qh.html#ae582b1562514303afe897121156e60ee',1,'monster.qh']]],
+  ['monster_5ftype_5fundead',['MONSTER_TYPE_UNDEAD',['../d4/ddc/monster_8qh.html#aa40ec74e22f504acfcf761a9d92dea73',1,'monster.qh']]],
   ['monsterflag_5fappear',['MONSTERFLAG_APPEAR',['../d8/dc1/sv__monsters_8qh.html#a6a58c17ada05b3b9fa5ea6b30bfcc4b6',1,'sv_monsters.qh']]],
   ['monsterflag_5ffly_5fvertical',['MONSTERFLAG_FLY_VERTICAL',['../d8/dc1/sv__monsters_8qh.html#adfaac5a027ceff5e2b8bc95ff8b615d3',1,'sv_monsters.qh']]],
   ['monsterflag_5finfront',['MONSTERFLAG_INFRONT',['../d8/dc1/sv__monsters_8qh.html#a42d30e7a608c26893d82843007381f98',1,'sv_monsters.qh']]],
