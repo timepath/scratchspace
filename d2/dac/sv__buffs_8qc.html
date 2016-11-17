@@ -2280,7 +2280,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00826"></a><span class="lineno">  826</span>&#160;    <span class="keywordflow">if</span>(player.buffs &amp; BUFF_MAGNET.m_itemid)</div>
 <div class="line"><a name="l00827"></a><span class="lineno">  827</span>&#160;    {</div>
 <div class="line"><a name="l00828"></a><span class="lineno">  828</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> pickup_size;</div>
-<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5">g_items</a>, it.classname != <span class="stringliteral">&quot;item_flag_team&quot;</span> &amp;&amp; it.classname != <span class="stringliteral">&quot;item_kh_key&quot;</span>,</div>
+<div class="line"><a name="l00829"></a><span class="lineno">  829</span>&#160;        <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5">g_items</a>, it.itemdef,</div>
 <div class="line"><a name="l00830"></a><span class="lineno">  830</span>&#160;        {</div>
 <div class="line"><a name="l00831"></a><span class="lineno">  831</span>&#160;            <span class="keywordflow">if</span>(it.buffs)</div>
 <div class="line"><a name="l00832"></a><span class="lineno">  832</span>&#160;                pickup_size = <span class="stringliteral">&#39;1 1 1&#39;</span> * <a class="code" href="../../d8/dd8/sv__buffs_8qh.html#aa72e5a5d1978e76508148f92c302a1b6">autocvar_g_buffs_magnet_range_buff</a>;</div>
@@ -2828,7 +2828,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_07eb8bb3d19ce8165a5aaf6eac26591d.html">buffs</a></li><li class="navelem"><a class="el" href="../../d2/dac/sv__buffs_8qc.html">sv_buffs.qc</a></li>
-    <li class="footer">Generated on Wed Nov 16 2016 17:06:06 for Xonotic by
+    <li class="footer">Generated on Thu Nov 17 2016 00:09:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
