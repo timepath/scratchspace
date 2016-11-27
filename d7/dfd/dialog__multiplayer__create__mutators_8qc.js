@@ -1,6 +1,5 @@
 var dialog__multiplayer__create__mutators_8qc =
 [
-    [ "AUTOCVAR", "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a5459e16ae45f8c8cce95a600c6713d4a", null ],
     [ "checkCompatibility_newtoys", "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a5f2f74238b73f04b830a5002e4fb1871", null ],
     [ "checkCompatibility_pinata", "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a88b4e0fbbc7d4a23ac65a74379f53e20", null ],
     [ "checkCompatibility_weaponarena_weapon", "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#ae4813be378a9cece542eb5c231852923", null ],

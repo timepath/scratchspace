@@ -22,6 +22,7 @@ var classBallStealer =
     [ "wr_suicidemessage", "dc/d30/classBallStealer.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "dc/d30/classBallStealer.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "dc/d30/classBallStealer.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "dc/d30/classBallStealer.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "dc/d30/classBallStealer.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "dc/d30/classBallStealer.html#a6df6ebff3e6de443f7a0134c518a8ffe", null ],
     [ "bot_pickupbasevalue", "dc/d30/classBallStealer.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],

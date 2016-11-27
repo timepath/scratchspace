@@ -22,6 +22,7 @@ var classRocketPropelledChainsaw =
     [ "wr_suicidemessage", "d1/d00/classRocketPropelledChainsaw.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "d1/d00/classRocketPropelledChainsaw.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d1/d00/classRocketPropelledChainsaw.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "d1/d00/classRocketPropelledChainsaw.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "d1/d00/classRocketPropelledChainsaw.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "d1/d00/classRocketPropelledChainsaw.html#ac42aecfb0869a72f6f96992ecd40e94e", null ],
     [ "bot_pickupbasevalue", "d1/d00/classRocketPropelledChainsaw.html#a0e17fba9d21c708010df3418d29ec17a", null ],

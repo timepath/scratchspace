@@ -22,6 +22,7 @@ var classHook =
     [ "wr_suicidemessage", "db/d4a/classHook.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "db/d4a/classHook.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "db/d4a/classHook.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "db/d4a/classHook.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "db/d4a/classHook.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_factor", "db/d4a/classHook.html#abf2fbef9b9e0a252ba8f0a2817b21872", null ],
     [ "ammo_field", "db/d4a/classHook.html#a7469701748d7472abd8805c4e9d8aaaa", null ],

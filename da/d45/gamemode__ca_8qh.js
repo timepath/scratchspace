@@ -11,7 +11,6 @@ var gamemode__ca_8qh =
     [ "autocvar_g_ca_point_limit", "da/d45/gamemode__ca_8qh.html#a7e89ab97ff878f4d69aac275d25995e7", null ],
     [ "autocvar_g_ca_round_timelimit", "da/d45/gamemode__ca_8qh.html#a38b1cbdbfc48fe83ca4f0506a070b83b", null ],
     [ "autocvar_g_ca_team_spawns", "da/d45/gamemode__ca_8qh.html#a614fba62227a145d401a8b5c9aac612f", null ],
-    [ "autocvar_g_ca_teams", "da/d45/gamemode__ca_8qh.html#a0db4d8ac28c4345487ce8759fe88ded7", null ],
     [ "autocvar_g_ca_teams_override", "da/d45/gamemode__ca_8qh.html#a326da87721b996b70f4abde42e83145e", null ],
     [ "autocvar_g_ca_warmup", "da/d45/gamemode__ca_8qh.html#acf0b6576fbdf4f980d45cf06651f117e", null ],
     [ "ca_teams", "da/d45/gamemode__ca_8qh.html#a83007e99e8d51b00452624bbadaae22a", null ],

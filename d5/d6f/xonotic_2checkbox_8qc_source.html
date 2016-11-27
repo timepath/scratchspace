@@ -109,28 +109,28 @@ $(document).ready(function(){initNavTree('d5/d6f/xonotic_2checkbox_8qc_source.ht
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;</div>
 <div class="line"><a name="l00003"></a><span class="lineno"><a class="line" href="../../d8/d76/xonotic_2checkbox_8qh.html#a7dc2985c3982e5fb466f48215abb8069">    3</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d5/d6f/xonotic_2checkbox_8qc.html#a10aa8dc6f022dcc1df8ef8b5153ac9d0">makeXonoticCheckBox_T</a>(<span class="keywordtype">float</span> isInverted, <span class="keywordtype">string</span> theCvar, <span class="keywordtype">string</span> theText, <span class="keywordtype">string</span> theTooltip)</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;{</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordtype">float</span> y, n;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    <span class="keywordtype">float</span> m, n;</div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;    <span class="keywordflow">if</span>(isInverted &gt; 1)</div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;    {</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        n = isInverted - 1;</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        y = -n;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        m = -n;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    }</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(isInverted &lt; -1)</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    {</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        n = isInverted + 1;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        y = -n;</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        m = -n;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    }</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(isInverted == 1)</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        n = 1;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        y = 0;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        m = 0;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    }</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        n = 0;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        y = 1;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        m = 1;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d6f/xonotic_2checkbox_8qc.html#ab0962d6e3ca24d502f661a5c4c1eb770">makeXonoticCheckBoxEx_T</a>(y, n, theCvar, theText, theTooltip);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/d6f/xonotic_2checkbox_8qc.html#ab0962d6e3ca24d502f661a5c4c1eb770">makeXonoticCheckBoxEx_T</a>(m, n, theCvar, theText, theTooltip);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
 <div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="../../df/d9b/menu_2xonotic_2util_8qc.html#ae6725ad239c958cb43c1254ea3be7554">   28</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <a class="code" href="../../d5/d6f/xonotic_2checkbox_8qc.html#abd68b3cdbcebff2b5d6fc9da7b430b76">makeXonoticCheckBox</a>(<span class="keywordtype">float</span> isInverted, <span class="keywordtype">string</span> theCvar, <span class="keywordtype">string</span> theText)</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;{</div>
@@ -216,7 +216,7 @@ $(document).ready(function(){initNavTree('d5/d6f/xonotic_2checkbox_8qc_source.ht
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d5/d6f/xonotic_2checkbox_8qc.html">checkbox.qc</a></li>
-    <li class="footer">Generated on Thu Nov 17 2016 00:09:12 for Xonotic by
+    <li class="footer">Generated on Sun Nov 27 2016 07:35:40 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

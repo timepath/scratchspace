@@ -22,6 +22,7 @@ var classFireball =
     [ "wr_suicidemessage", "d1/dd1/classFireball.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "d1/dd1/classFireball.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d1/dd1/classFireball.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "d1/dd1/classFireball.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "d1/dd1/classFireball.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "d1/dd1/classFireball.html#a768d3992198c4b743dbab2cff9529e99", null ],
     [ "bot_pickupbasevalue", "d1/dd1/classFireball.html#a6d2c84f0a32544542dfbb29f8a078ef6", null ],

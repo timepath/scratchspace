@@ -22,6 +22,7 @@ var classCrylink =
     [ "wr_suicidemessage", "d8/db8/classCrylink.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "d8/db8/classCrylink.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d8/db8/classCrylink.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "d8/db8/classCrylink.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "d8/db8/classCrylink.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "d8/db8/classCrylink.html#a78537f316460b0dc9e5843261a9bacd3", null ],
     [ "bot_pickupbasevalue", "d8/db8/classCrylink.html#a60dd8166f44e3fc48dbae45e8a90f874", null ],

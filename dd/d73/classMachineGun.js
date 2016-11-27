@@ -22,6 +22,7 @@ var classMachineGun =
     [ "wr_suicidemessage", "dd/d73/classMachineGun.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "dd/d73/classMachineGun.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "dd/d73/classMachineGun.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "dd/d73/classMachineGun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "dd/d73/classMachineGun.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "dd/d73/classMachineGun.html#ac95dda036bf0614977a5ec7461ce1a0d", null ],
     [ "bot_pickupbasevalue", "dd/d73/classMachineGun.html#ad60581174addffcd546196db2e2e8c56", null ],

@@ -496,15 +496,15 @@ $(document).ready(function(){initNavTree('dc/d98/client_2miscfunctions_8qc_sourc
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;</div>
 <div class="line"><a name="l00390"></a><span class="lineno"><a class="line" href="../../d8/db6/client_2miscfunctions_8qh.html#ab82e3b5481aefcca1ae05ea36128abef">  390</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#ab82e3b5481aefcca1ae05ea36128abef">DrawCircleClippedPic</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> centre, <span class="keywordtype">float</span> radi, <span class="keywordtype">string</span> pic, <span class="keywordtype">float</span> f, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> rgb, <span class="keywordtype">float</span> a, <span class="keywordtype">float</span> drawflag)</div>
 <div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;{</div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    <span class="keywordtype">float</span> x, y, q, d;</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    <span class="keywordtype">float</span> d;</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> ringsize, v, t;</div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;    ringsize = radi * <span class="stringliteral">&#39;1 1 0&#39;</span>;</div>
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160;</div>
-<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    x = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(f * 2 * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a>);</div>
-<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    y = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(f * 2 * M_PI);</div>
-<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    q = <a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(x) + <a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(y);</div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    x /= q;</div>
-<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    y /= q;</div>
+<div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;    <span class="keywordtype">float</span> co = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(f * 2 * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a>);</div>
+<div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;    <span class="keywordtype">float</span> si = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(f * 2 * M_PI);</div>
+<div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;    <span class="keywordtype">float</span> q = <a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(co) + <a class="code" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a>(si);</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;    co /= q;</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;    si /= q;</div>
 <div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;</div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;    <span class="keywordflow">if</span>(f &gt;= 1)</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160;    {</div>
@@ -637,8 +637,8 @@ $(document).ready(function(){initNavTree('dc/d98/client_2miscfunctions_8qc_sourc
 <div class="line"><a name="l00530"></a><span class="lineno">  530</span>&#160;    <span class="keywordflow">if</span>(d &gt; 0)</div>
 <div class="line"><a name="l00531"></a><span class="lineno">  531</span>&#160;    {</div>
 <div class="line"><a name="l00532"></a><span class="lineno">  532</span>&#160;            v = centre;         t = <span class="stringliteral">&#39;0.5 0.5 0&#39;</span>;</div>
-<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;            v.x += x * 0.5 * ringsize.x;    t += x * <span class="stringliteral">&#39;0.5 0.5 0&#39;</span>;</div>
-<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;            v.y += y * 0.5 * ringsize.y;    t += y * <span class="stringliteral">&#39;0.5 -0.5 0&#39;</span>;</div>
+<div class="line"><a name="l00533"></a><span class="lineno">  533</span>&#160;            v.x += co * 0.5 * ringsize.x;   t += co * <span class="stringliteral">&#39;0.5 0.5 0&#39;</span>;</div>
+<div class="line"><a name="l00534"></a><span class="lineno">  534</span>&#160;            v.y += si * 0.5 * ringsize.y;   t += si * <span class="stringliteral">&#39;0.5 -0.5 0&#39;</span>;</div>
 <div class="line"><a name="l00535"></a><span class="lineno">  535</span>&#160;            R_PolygonVertex(v, t, rgb, a);</div>
 <div class="line"><a name="l00536"></a><span class="lineno">  536</span>&#160;        R_EndPolygon();</div>
 <div class="line"><a name="l00537"></a><span class="lineno">  537</span>&#160;    }</div>
@@ -843,7 +843,7 @@ $(document).ready(function(){initNavTree('dc/d98/client_2miscfunctions_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dc/d98/client_2miscfunctions_8qc.html">miscfunctions.qc</a></li>
-    <li class="footer">Generated on Thu Nov 17 2016 00:09:10 for Xonotic by
+    <li class="footer">Generated on Sun Nov 27 2016 07:35:37 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

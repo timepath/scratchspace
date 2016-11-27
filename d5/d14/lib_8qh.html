@@ -322,10 +322,9 @@ Macros</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">void</span> sys_##sys##_update(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <span class="keywordtype">float</span> dt); <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">\</a></div>
-<div class="line"><a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">	float</a> autocvar_xon_sys_##sys##_dt = ((frameLimit) ? (1 / (frameLimit)) : 0); <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">\</a></div>
-<div class="line"><a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">	float</a> autocvar_xon_sys_##sys##_minfps = (1 / (1 / (minfps)))</div>
-<div class="ttc" id="common_2physics_2player_8qh_html_a55d134b99f8513bc6f0bf5af7a06dfde"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#a55d134b99f8513bc6f0bf5af7a06dfde">float</a></div><div class="ttdeci">float(entity, float) PlayerPhysplug</div></div>
+<b>Value:</b><div class="fragment"><div class="line"><span class="keywordtype">void</span> sys_##sys##_update(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>, <span class="keywordtype">float</span> dt); \</div>
+<div class="line">    noref <span class="keywordtype">float</span> autocvar_xon_sys_##sys##_dt = ((frameLimit) ? (1 / (frameLimit)) : 0); \</div>
+<div class="line">    noref <span class="keywordtype">float</span> autocvar_xon_sys_##sys##_minfps = (1 / (1 / (minfps)))</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 </div><!-- fragment -->
 <p>framelimit 0 is no limit, interpolation does not apply framerate below minfps will result in less than 100% speed </p>
@@ -388,7 +387,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_eafb92770fbc727220bdaa0b1292f771.html">ecs</a></li><li class="navelem"><a class="el" href="../../d5/d14/lib_8qh.html">lib.qh</a></li>
-    <li class="footer">Generated on Thu Nov 17 2016 00:09:20 for Xonotic by
+    <li class="footer">Generated on Sun Nov 27 2016 07:35:48 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

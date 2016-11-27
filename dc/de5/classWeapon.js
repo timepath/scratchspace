@@ -22,6 +22,7 @@ var classWeapon =
     [ "wr_suicidemessage", "dc/de5/classWeapon.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "dc/de5/classWeapon.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "dc/de5/classWeapon.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "dc/de5/classWeapon.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "dc/de5/classWeapon.html#a768d3992198c4b743dbab2cff9529e99", null ],
     [ "bot_pickupbasevalue", "dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84", null ],

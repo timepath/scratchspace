@@ -188,12 +188,12 @@ $(document).ready(function(){initNavTree('d0/d79/math_8qh_source.html','../../')
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;           + (b - a) * 2;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
-<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="../../d0/d79/math_8qh.html#aedb361548011f34164a8cd39ff6268a8">   85</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d0/d79/math_8qh.html#aedb361548011f34164a8cd39ff6268a8">cubic_speedfunc</a>(<span class="keywordtype">float</span> startspeedfactor, <span class="keywordtype">float</span> endspeedfactor, <span class="keywordtype">float</span> x)</div>
+<div class="line"><a name="l00085"></a><span class="lineno"><a class="line" href="../../d0/d79/math_8qh.html#ab749e3e330fc880590f606e9dae87c23">   85</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d0/d79/math_8qh.html#ab749e3e330fc880590f606e9dae87c23">cubic_speedfunc</a>(<span class="keywordtype">float</span> startspeedfactor, <span class="keywordtype">float</span> endspeedfactor, <span class="keywordtype">float</span> spd)</div>
 <div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;{</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    <span class="keywordflow">return</span> (((startspeedfactor + endspeedfactor - 2</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;             ) * x - 2 * startspeedfactor - endspeedfactor + 3</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            ) * x + startspeedfactor</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;           ) * x;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;             ) * spd - 2 * startspeedfactor - endspeedfactor + 3</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;            ) * spd + startspeedfactor</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;           ) * spd;</div>
 <div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;}</div>
 <div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
 <div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="../../d0/d79/math_8qh.html#a25833985b41f6fe0554f992bc1d4030e">   93</a></span>&#160;<span class="keywordtype">bool</span> <a class="code" href="../../d0/d79/math_8qh.html#a25833985b41f6fe0554f992bc1d4030e">cubic_speedfunc_is_sane</a>(<span class="keywordtype">float</span> startspeedfactor, <span class="keywordtype">float</span> endspeedfactor)</div>
@@ -299,54 +299,54 @@ $(document).ready(function(){initNavTree('d0/d79/math_8qh_source.html','../../')
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(2, e);</div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;}</div>
 <div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;</div>
-<div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="../../d0/d79/math_8qh.html#a95b0ada6450300a0342f5b901cb5e4e1">  198</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d0/d79/math_8qh.html#a95b0ada6450300a0342f5b901cb5e4e1">log2of</a>(<span class="keywordtype">float</span> x)</div>
+<div class="line"><a name="l00198"></a><span class="lineno"><a class="line" href="../../d0/d79/math_8qh.html#a1aa298be39cc3d2a197e80ed2430fb0a">  198</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d0/d79/math_8qh.html#a1aa298be39cc3d2a197e80ed2430fb0a">log2of</a>(<span class="keywordtype">float</span> e)</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;{</div>
 <div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <span class="comment">// NOTE: generated code</span></div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordflow">if</span> (x &gt; 2048)</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">if</span> (x &gt; 131072)</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            <span class="keywordflow">if</span> (x &gt; 1048576)</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                <span class="keywordflow">if</span> (x &gt; 4194304) <span class="keywordflow">return</span> 23;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordflow">if</span> (e &gt; 2048)</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;        <span class="keywordflow">if</span> (e &gt; 131072)</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            <span class="keywordflow">if</span> (e &gt; 1048576)</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;                <span class="keywordflow">if</span> (e &gt; 4194304) <span class="keywordflow">return</span> 23;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                    <span class="keywordflow">if</span> (x &gt; 2097152) <span class="keywordflow">return</span> 22;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;                    <span class="keywordflow">if</span> (e &gt; 2097152) <span class="keywordflow">return</span> 22;</div>
 <div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">return</span> 21;</div>
 <div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                <span class="keywordflow">if</span> (x &gt; 524288) <span class="keywordflow">return</span> 20;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;                <span class="keywordflow">if</span> (e &gt; 524288) <span class="keywordflow">return</span> 20;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                    <span class="keywordflow">if</span> (x &gt; 262144) <span class="keywordflow">return</span> 19;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;                    <span class="keywordflow">if</span> (e &gt; 262144) <span class="keywordflow">return</span> 19;</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">return</span> 18;</div>
 <div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="keywordflow">if</span> (x &gt; 16384)</div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                <span class="keywordflow">if</span> (x &gt; 65536) <span class="keywordflow">return</span> 17;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;            <span class="keywordflow">if</span> (e &gt; 16384)</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;                <span class="keywordflow">if</span> (e &gt; 65536) <span class="keywordflow">return</span> 17;</div>
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                    <span class="keywordflow">if</span> (x &gt; 32768) <span class="keywordflow">return</span> 16;</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;                    <span class="keywordflow">if</span> (e &gt; 32768) <span class="keywordflow">return</span> 16;</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">return</span> 15;</div>
 <div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                <span class="keywordflow">if</span> (x &gt; 8192) <span class="keywordflow">return</span> 14;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                <span class="keywordflow">if</span> (e &gt; 8192) <span class="keywordflow">return</span> 14;</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                    <span class="keywordflow">if</span> (x &gt; 4096) <span class="keywordflow">return</span> 13;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                    <span class="keywordflow">if</span> (e &gt; 4096) <span class="keywordflow">return</span> 13;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">return</span> 12;</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">if</span> (x &gt; 32)</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="keywordflow">if</span> (x &gt; 256)</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                <span class="keywordflow">if</span> (x &gt; 1024) <span class="keywordflow">return</span> 11;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <span class="keywordflow">if</span> (e &gt; 32)</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="keywordflow">if</span> (e &gt; 256)</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;                <span class="keywordflow">if</span> (e &gt; 1024) <span class="keywordflow">return</span> 11;</div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                    <span class="keywordflow">if</span> (x &gt; 512) <span class="keywordflow">return</span> 10;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                    <span class="keywordflow">if</span> (e &gt; 512) <span class="keywordflow">return</span> 10;</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">return</span> 9;</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                <span class="keywordflow">if</span> (x &gt; 128) <span class="keywordflow">return</span> 8;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;                <span class="keywordflow">if</span> (e &gt; 128) <span class="keywordflow">return</span> 8;</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                    <span class="keywordflow">if</span> (x &gt; 64) <span class="keywordflow">return</span> 7;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;                    <span class="keywordflow">if</span> (e &gt; 64) <span class="keywordflow">return</span> 7;</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">return</span> 6;</div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            <span class="keywordflow">if</span> (x &gt; 4)</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                <span class="keywordflow">if</span> (x &gt; 16) <span class="keywordflow">return</span> 5;</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            <span class="keywordflow">if</span> (e &gt; 4)</div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;                <span class="keywordflow">if</span> (e &gt; 16) <span class="keywordflow">return</span> 5;</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                    <span class="keywordflow">if</span> (x &gt; 8) <span class="keywordflow">return</span> 4;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;                    <span class="keywordflow">if</span> (e &gt; 8) <span class="keywordflow">return</span> 4;</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">return</span> 3;</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                <span class="keywordflow">if</span> (x &gt; 2) <span class="keywordflow">return</span> 2;</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;                <span class="keywordflow">if</span> (e &gt; 2) <span class="keywordflow">return</span> 2;</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                    <span class="keywordflow">if</span> (x &gt; 1) <span class="keywordflow">return</span> 1;</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;                    <span class="keywordflow">if</span> (e &gt; 1) <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;                    <span class="keywordflow">else</span> <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;}</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
@@ -403,9 +403,9 @@ $(document).ready(function(){initNavTree('d0/d79/math_8qh_source.html','../../')
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;}</div>
 <div class="ttc" id="math_8qh_html_a87ab6b8926bb5587a28d323202f59791"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a87ab6b8926bb5587a28d323202f59791">fsnap</a></div><div class="ttdeci">float fsnap(float val, float fsize)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00051">math.qh:51</a></div></div>
 <div class="ttc" id="math_8qh_html_a25833985b41f6fe0554f992bc1d4030e"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a25833985b41f6fe0554f992bc1d4030e">cubic_speedfunc_is_sane</a></div><div class="ttdeci">bool cubic_speedfunc_is_sane(float startspeedfactor, float endspeedfactor)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00093">math.qh:93</a></div></div>
+<div class="ttc" id="math_8qh_html_a1aa298be39cc3d2a197e80ed2430fb0a"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a1aa298be39cc3d2a197e80ed2430fb0a">log2of</a></div><div class="ttdeci">float log2of(float e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00198">math.qh:198</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="menudefs_8qc_html_aebeeec7a2529f36483e14f76b1871271"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271">max</a></div><div class="ttdeci">float max(float f,...)</div></div>
-<div class="ttc" id="math_8qh_html_a95b0ada6450300a0342f5b901cb5e4e1"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a95b0ada6450300a0342f5b901cb5e4e1">log2of</a></div><div class="ttdeci">float log2of(float x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00198">math.qh:198</a></div></div>
 <div class="ttc" id="math_8qh_html_ac60c376ef13d24ccf30e74b54bf373fd"><div class="ttname"><a href="../../d0/d79/math_8qh.html#ac60c376ef13d24ccf30e74b54bf373fd">vsnap</a></div><div class="ttdeci">vector vsnap(vector point, float fsize)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00056">math.qh:56</a></div></div>
 <div class="ttc" id="math_8qh_html_a9b467740a92a31e38f97070aba962007"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a9b467740a92a31e38f97070aba962007">bezier_quadratic_getderivative</a></div><div class="ttdeci">vector bezier_quadratic_getderivative(vector a, vector b, vector c, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00079">math.qh:79</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a22f100d9039928edd4e410c7d68858e7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a></div><div class="ttdeci">float ceil(float f)</div></div>
@@ -417,7 +417,6 @@ $(document).ready(function(){initNavTree('d0/d79/math_8qh_source.html','../../')
 <div class="ttc" id="math_8qh_html_a26a88fb303232c6dfa1541e00a40c19c"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a26a88fb303232c6dfa1541e00a40c19c">lerpv</a></div><div class="ttdeci">vector lerpv(float t0, vector v0, float t1, vector v1, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00067">math.qh:67</a></div></div>
 <div class="ttc" id="math_8qh_html_a6fb832920bde74b332c2f20d1a99a4c5"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a6fb832920bde74b332c2f20d1a99a4c5">bezier_quadratic_getpoint</a></div><div class="ttdeci">vector bezier_quadratic_getpoint(vector a, vector b, vector c, float t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00072">math.qh:72</a></div></div>
 <div class="ttc" id="math_8qh_html_a33a138639448659a130b2748753a3c35"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a33a138639448659a130b2748753a3c35">mean_evaluate</a></div><div class="ttdeci">float mean_evaluate(entity e,.float a,.float c, float mean)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00011">math.qh:11</a></div></div>
-<div class="ttc" id="math_8qh_html_aedb361548011f34164a8cd39ff6268a8"><div class="ttname"><a href="../../d0/d79/math_8qh.html#aedb361548011f34164a8cd39ff6268a8">cubic_speedfunc</a></div><div class="ttdeci">float cubic_speedfunc(float startspeedfactor, float endspeedfactor, float x)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00085">math.qh:85</a></div></div>
 <div class="ttc" id="math_8qh_html_a7f2164765c65fa68a46aee7be236157a"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a7f2164765c65fa68a46aee7be236157a">power2of</a></div><div class="ttdeci">float power2of(float e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00193">math.qh:193</a></div></div>
 <div class="ttc" id="math_8qh_html_aa8861d172bf3f5895e7d852a3c30174e"><div class="ttname"><a href="../../d0/d79/math_8qh.html#aa8861d172bf3f5895e7d852a3c30174e">solve_quadratic</a></div><div class="ttdeci">vector solve_quadratic(float a, float b, float c)</div><div class="ttdoc">ax^2 + bx + c = 0 </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00250">math.qh:250</a></div></div>
 <div class="ttc" id="math_8qh_html_a7f03c0168ed8d9fb9878df24c6093ab9"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a7f03c0168ed8d9fb9878df24c6093ab9">ExponentialFalloff</a></div><div class="ttdeci">float ExponentialFalloff(float mindist, float maxdist, float halflifedist, float d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00186">math.qh:186</a></div></div>
@@ -426,6 +425,7 @@ $(document).ready(function(){initNavTree('d0/d79/math_8qh_source.html','../../')
 <div class="ttc" id="math_8qh_html_a2b043480e166fa027fb2749365c66089"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a2b043480e166fa027fb2749365c66089">almost_in_bounds</a></div><div class="ttdeci">float almost_in_bounds(float a, float b, float c)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00179">math.qh:179</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_accccfae161879454243b3a8695a9bf3b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a></div><div class="ttdeci">float fabs(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a83f4d3f317a80e82e6b16ea61ea5efc3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a></div><div class="ttdeci">float sqrt(float f)</div></div>
+<div class="ttc" id="math_8qh_html_ab749e3e330fc880590f606e9dae87c23"><div class="ttname"><a href="../../d0/d79/math_8qh.html#ab749e3e330fc880590f606e9dae87c23">cubic_speedfunc</a></div><div class="ttdeci">float cubic_speedfunc(float startspeedfactor, float endspeedfactor, float spd)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00085">math.qh:85</a></div></div>
 <div class="ttc" id="math_8qh_html_ab73e1173470625c7c4ddd3623d6e0d17"><div class="ttname"><a href="../../d0/d79/math_8qh.html#ab73e1173470625c7c4ddd3623d6e0d17">mean_accumulate</a></div><div class="ttdeci">void mean_accumulate(entity e,.float a,.float c, float mean, float value, float weight)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00003">math.qh:3</a></div></div>
 <div class="ttc" id="math_8qh_html_a3beea75a8f5936cd10f1b7319347a884"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a3beea75a8f5936cd10f1b7319347a884">angc</a></div><div class="ttdeci">float angc(float a1, float a2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00033">math.qh:33</a></div></div>
 <div class="ttc" id="math_8qh_html_a075466721b3b3a7ed731ebddae51c610"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a075466721b3b3a7ed731ebddae51c610">almost_equals</a></div><div class="ttdeci">float almost_equals(float a, float b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00173">math.qh:173</a></div></div>
@@ -435,7 +435,7 @@ $(document).ready(function(){initNavTree('d0/d79/math_8qh_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d0/d79/math_8qh.html">math.qh</a></li>
-    <li class="footer">Generated on Thu Nov 17 2016 00:09:12 for Xonotic by
+    <li class="footer">Generated on Sun Nov 27 2016 07:35:40 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

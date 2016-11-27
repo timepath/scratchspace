@@ -22,6 +22,7 @@ var classHagar =
     [ "wr_suicidemessage", "d4/d87/classHagar.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "d4/d87/classHagar.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d4/d87/classHagar.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "d4/d87/classHagar.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "d4/d87/classHagar.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "d4/d87/classHagar.html#a229188580884f68236312a9bbf6f7c19", null ],
     [ "bot_pickupbasevalue", "d4/d87/classHagar.html#aa73cd57b3321d3f2fea34b4e62dbd7b6", null ],

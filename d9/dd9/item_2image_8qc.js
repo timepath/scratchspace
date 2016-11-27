@@ -6,7 +6,7 @@ var item_2image_8qc =
     [ "Image_draw", "d9/dd9/item_2image_8qc.html#a75270fd49e5246f060b0c49c114cf2ea", null ],
     [ "Image_initZoom", "d9/dd9/item_2image_8qc.html#a2bdf3be5584621344b2e6580ad34b9b7", null ],
     [ "Image_resizeNotify", "d9/dd9/item_2image_8qc.html#a9d7547d9c5636c12de1b5aeb005330ab", null ],
-    [ "Image_setZoom", "d9/dd9/item_2image_8qc.html#a6c9c2cef63b2fe82bb1b7497276d2153", null ],
+    [ "Image_setZoom", "d9/dd9/item_2image_8qc.html#ad5a8d11bdec537b2cb2828e84e6afd90", null ],
     [ "Image_toString", "d9/dd9/item_2image_8qc.html#a865f847831c6212aa43f749c408d8d3f", null ],
     [ "Image_updateAspect", "d9/dd9/item_2image_8qc.html#aa680b33955ecee311854fa8c624e10f1", null ]
 ];

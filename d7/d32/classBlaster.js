@@ -22,6 +22,7 @@ var classBlaster =
     [ "wr_suicidemessage", "d7/d32/classBlaster.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "d7/d32/classBlaster.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d7/d32/classBlaster.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "d7/d32/classBlaster.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "d7/d32/classBlaster.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "d7/d32/classBlaster.html#a768d3992198c4b743dbab2cff9529e99", null ],
     [ "bot_pickupbasevalue", "d7/d32/classBlaster.html#a1c8437833108d8e5fee3535929d05f32", null ],

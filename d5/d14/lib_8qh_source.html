@@ -130,8 +130,8 @@ $(document).ready(function(){initNavTree('d5/d14/lib_8qh_source.html','../../');
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;</div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../d5/d14/lib_8qh.html#a6e24df793b7133a1c8b5b008e70cea18">   29</a></span>&#160;<span class="preprocessor">#define SYSTEM(sys, frameLimit, minfps) \</span></div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;<span class="preprocessor">    void sys_##sys##_update(entity this, float dt); \</span></div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">    float autocvar_xon_sys_##sys##_dt = ((frameLimit) ? (1 / (frameLimit)) : 0); \</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">    float autocvar_xon_sys_##sys##_minfps = (1 / (1 / (minfps)))</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;<span class="preprocessor">    noref float autocvar_xon_sys_##sys##_dt = ((frameLimit) ? (1 / (frameLimit)) : 0); \</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;<span class="preprocessor">    noref float autocvar_xon_sys_##sys##_minfps = (1 / (1 / (minfps)))</span></div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;<span class="preprocessor"></span></div>
 <div class="line"><a name="l00034"></a><span class="lineno"><a class="line" href="../../d5/d14/lib_8qh.html#a487497b106c0a92ab24fdd92fde403f5">   34</a></span>&#160;<span class="preprocessor">#define SYSTEM_UPDATE(sys) \</span></div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<span class="preprocessor">    MACRO_BEGIN \</span></div>
@@ -163,7 +163,7 @@ $(document).ready(function(){initNavTree('d5/d14/lib_8qh_source.html','../../');
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_eafb92770fbc727220bdaa0b1292f771.html">ecs</a></li><li class="navelem"><a class="el" href="../../d5/d14/lib_8qh.html">lib.qh</a></li>
-    <li class="footer">Generated on Thu Nov 17 2016 00:09:12 for Xonotic by
+    <li class="footer">Generated on Sun Nov 27 2016 07:35:39 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

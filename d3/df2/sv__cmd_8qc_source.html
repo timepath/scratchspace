@@ -1435,7 +1435,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01328"></a><span class="lineno"> 1328</span>&#160;        {</div>
 <div class="line"><a name="l01329"></a><span class="lineno"> 1329</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
 <div class="line"><a name="l01330"></a><span class="lineno"> 1330</span>&#160;            {</div>
-<div class="line"><a name="l01331"></a><span class="lineno"> 1331</span>&#160;                <span class="keywordtype">float</span> x, t_teams, t_players, team_color;</div>
+<div class="line"><a name="l01331"></a><span class="lineno"> 1331</span>&#160;                <span class="keywordtype">float</span> t_teams, t_players, team_color;</div>
 <div class="line"><a name="l01332"></a><span class="lineno"> 1332</span>&#160;</div>
 <div class="line"><a name="l01333"></a><span class="lineno"> 1333</span>&#160;                <span class="comment">// count the total amount of players and total amount of teams</span></div>
 <div class="line"><a name="l01334"></a><span class="lineno"> 1334</span>&#160;                t_players = 0;</div>
@@ -1473,15 +1473,15 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="line"><a name="l01366"></a><span class="lineno"> 1366</span>&#160;                <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt;= t_teams; ++i)</div>
 <div class="line"><a name="l01367"></a><span class="lineno"> 1367</span>&#160;                {</div>
 <div class="line"><a name="l01368"></a><span class="lineno"> 1368</span>&#160;                    <span class="comment">// find out how many players to assign to this team</span></div>
-<div class="line"><a name="l01369"></a><span class="lineno"> 1369</span>&#160;                    x = (t_players / t_teams);</div>
-<div class="line"><a name="l01370"></a><span class="lineno"> 1370</span>&#160;                    x = ((i == 1) ? <a class="code" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a>(x) : <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(x));</div>
+<div class="line"><a name="l01369"></a><span class="lineno"> 1369</span>&#160;                    <span class="keywordtype">int</span> pnum = (t_players / t_teams);</div>
+<div class="line"><a name="l01370"></a><span class="lineno"> 1370</span>&#160;                    pnum = ((i == 1) ? <a class="code" href="../../d8/de2/menudefs_8qc.html#a22f100d9039928edd4e410c7d68858e7">ceil</a>(pnum) : <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(pnum));</div>
 <div class="line"><a name="l01371"></a><span class="lineno"> 1371</span>&#160;</div>
 <div class="line"><a name="l01372"></a><span class="lineno"> 1372</span>&#160;                    team_color = <a class="code" href="../../db/d07/teams_8qh.html#a74380f9b9488344d9f05f5e5113dc90d">Team_NumberToTeam</a>(i);</div>
 <div class="line"><a name="l01373"></a><span class="lineno"> 1373</span>&#160;</div>
 <div class="line"><a name="l01374"></a><span class="lineno"> 1374</span>&#160;                    <span class="comment">// sort through the random list of players made earlier</span></div>
 <div class="line"><a name="l01375"></a><span class="lineno"> 1375</span>&#160;                    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> z = 1; z &lt;= <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a1a3ca31bd4d3da8f4dc1931e82cb04b5">maxclients</a>; ++z)</div>
 <div class="line"><a name="l01376"></a><span class="lineno"> 1376</span>&#160;                    {</div>
-<div class="line"><a name="l01377"></a><span class="lineno"> 1377</span>&#160;                        <span class="keywordflow">if</span> (!(<a class="code" href="../../d2/dcc/sv__cmd_8qh.html#af54c1dbbabd0352b69b0e8dbdadc4410">shuffleteams_teams</a>[i] &gt;= x))</div>
+<div class="line"><a name="l01377"></a><span class="lineno"> 1377</span>&#160;                        <span class="keywordflow">if</span> (!(<a class="code" href="../../d2/dcc/sv__cmd_8qh.html#af54c1dbbabd0352b69b0e8dbdadc4410">shuffleteams_teams</a>[i] &gt;= pnum))</div>
 <div class="line"><a name="l01378"></a><span class="lineno"> 1378</span>&#160;                        {</div>
 <div class="line"><a name="l01379"></a><span class="lineno"> 1379</span>&#160;                            <span class="keywordflow">if</span> (!(<a class="code" href="../../d2/dcc/sv__cmd_8qh.html#a06f422dc96371fb4538e80c5a59bc7a1">shuffleteams_players</a>[z])) <span class="keywordflow">continue</span>;  <span class="comment">// not a player, move on to next random slot</span></div>
 <div class="line"><a name="l01380"></a><span class="lineno"> 1380</span>&#160;</div>
@@ -2157,7 +2157,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div class="ttc" id="g__world_8qc_html_a1330c9208470a4800fb84c8810728bcb"><div class="ttname"><a href="../../db/dcc/g__world_8qc.html#a1330c9208470a4800fb84c8810728bcb">GetMapname</a></div><div class="ttdeci">string GetMapname()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/dcc/g__world_8qc_source.html#l00943">g_world.qc:943</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_ae56738e160950dacfe06255371d69391"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#ae56738e160950dacfe06255371d69391">db_save</a></div><div class="ttdeci">void db_save(int db, string filename)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d54/map_8qh_source.html#l00007">map.qh:7</a></div></div>
 <div class="ttc" id="base_8qh_html_a293be81bad1a89950f06a4a593a8cb75"><div class="ttname"><a href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a></div><div class="ttdeci">#define MUTATOR_CALLHOOK(id,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00136">base.qh:136</a></div></div>
-<div class="ttc" id="server_2command_2vote_8qc_html_a033dd1158883a78b40100e1dd268815c"><div class="ttname"><a href="../../d1/dad/server_2command_2vote_8qc.html#a033dd1158883a78b40100e1dd268815c">ReadyRestart</a></div><div class="ttdeci">void ReadyRestart()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/server_2command_2vote_8qc_source.html#l00456">vote.qc:456</a></div></div>
+<div class="ttc" id="server_2command_2vote_8qc_html_a033dd1158883a78b40100e1dd268815c"><div class="ttname"><a href="../../d1/dad/server_2command_2vote_8qc.html#a033dd1158883a78b40100e1dd268815c">ReadyRestart</a></div><div class="ttdeci">void ReadyRestart()</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/dad/server_2command_2vote_8qc_source.html#l00465">vote.qc:465</a></div></div>
 <div class="ttc" id="banning_8qc_html_a2e1590577ece2a8d0b64ca0b13da71aa"><div class="ttname"><a href="../../dd/d31/banning_8qc.html#a2e1590577ece2a8d0b64ca0b13da71aa">BanCommand_macro_help</a></div><div class="ttdeci">void BanCommand_macro_help()</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d31/banning_8qc_source.html#l00275">banning.qc:275</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 <div class="ttc" id="weapons_2weapon_8qh_html_a6c083826b597734af72d573025ce48ad"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a></div><div class="ttdeci">entity weaponentities[MAX_WEAPONSLOTS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00011">weapon.qh:11</a></div></div>
@@ -2215,7 +2215,7 @@ $(document).ready(function(){initNavTree('d3/df2/sv__cmd_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d3/df2/sv__cmd_8qc.html">sv_cmd.qc</a></li>
-    <li class="footer">Generated on Thu Nov 17 2016 00:09:13 for Xonotic by
+    <li class="footer">Generated on Sun Nov 27 2016 07:35:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

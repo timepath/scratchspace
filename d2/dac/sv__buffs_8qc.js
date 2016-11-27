@@ -3,7 +3,7 @@ var sv__buffs_8qc =
     [ "BUFF_ONADD", "d2/dac/sv__buffs_8qc.html#a8a4a5cd8a94e69dcd4a753bb7eece163", null ],
     [ "BUFF_ONREM", "d2/dac/sv__buffs_8qc.html#a46844ec3711dd4b9f71323d503cd5556", null ],
     [ "buff_Customize", "d2/dac/sv__buffs_8qc.html#aa2b9baeed98377cf9f5add370f7d75e1", null ],
-    [ "buff_Inferno_CalculateTime", "d2/dac/sv__buffs_8qc.html#a38ae76673a44f0108fdf07bdd8a205ee", null ],
+    [ "buff_Inferno_CalculateTime", "d2/dac/sv__buffs_8qc.html#a1183e50710176e0bfc31e437155a9c40", null ],
     [ "buff_Init", "d2/dac/sv__buffs_8qc.html#a2beb52fe9d382c67291efeb79771e1ac", null ],
     [ "buff_Init_Compat", "d2/dac/sv__buffs_8qc.html#a931156166ad66356620ec9df0f4bda1c", null ],
     [ "buff_Medic_Heal", "d2/dac/sv__buffs_8qc.html#a580ace4ad7da9228b6b8c50bcbd158e7", null ],

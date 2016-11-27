@@ -22,6 +22,7 @@ var classArc =
     [ "wr_suicidemessage", "db/d3c/classArc.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "db/d3c/classArc.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "db/d3c/classArc.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "db/d3c/classArc.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "db/d3c/classArc.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "db/d3c/classArc.html#a42d86304ae83f5faa3fbcc9b1abc1896", null ],
     [ "bot_pickupbasevalue", "db/d3c/classArc.html#ae0a509098068a29d9ef781b063c35d0e", null ],

@@ -225,8 +225,6 @@ var searchData=
   ['spawnpoint_5fprevorigin',['spawnpoint_prevorigin',['../d0/d41/spawnpoints_8qc.html#acfbd90447ab6c8bb55634c7936e20ece',1,'spawnpoints.qc']]],
   ['spawnpoint_5fscore',['spawnpoint_score',['../d4/dd1/spawnpoints_8qh.html#a693d893f5755f55200d6c320c814c6a4',1,'spawnpoints.qh']]],
   ['spawnshieldtime',['spawnshieldtime',['../d5/d26/server_2defs_8qh.html#a818a3a01a056d7a1bd0318928eabb76e',1,'defs.qh']]],
-  ['specialcommand',['specialcommand',['../d2/d0a/common_2physics_2player_8qc.html#ac97058ca049cfc4d464ba0c4a3f4ef74',1,'player.qc']]],
-  ['specialcommand_5fpos',['specialcommand_pos',['../d2/d0a/common_2physics_2player_8qc.html#a50fad2175f67c8ff6e31509e5b97114c',1,'player.qc']]],
   ['species',['species',['../d5/d26/server_2defs_8qh.html#a3c3af8f5c6837dd97fdbd346a993f5b1',1,'defs.qh']]],
   ['species_5falien',['SPECIES_ALIEN',['../d0/d8b/common_2constants_8qh.html#ac9873a09c7ef06c4c0f6743f3971e9c2',1,'constants.qh']]],
   ['species_5fanimal',['SPECIES_ANIMAL',['../d0/d8b/common_2constants_8qh.html#a0aa16fb4b5a880866ece61e87fab71ed',1,'constants.qh']]],

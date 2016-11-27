@@ -1,13 +1,6 @@
 var common_2constants_8qh =
 [
     [ "SFL_ZERO_IS_WORST", "d0/d8b/common_2constants_8qh.html#ae7780da786465996b85f5e92850ca081", null ],
-    [ "autocvar_sv_player_crouch_maxs", "d0/d8b/common_2constants_8qh.html#a9d23fb279ad4c4cc7d076f851506506d", null ],
-    [ "autocvar_sv_player_crouch_mins", "d0/d8b/common_2constants_8qh.html#a2504c01d41b02b5f3e6c909cf322679e", null ],
-    [ "autocvar_sv_player_crouch_viewoffset", "d0/d8b/common_2constants_8qh.html#a02c9afc6b40acbf3dc785694d74e20a3", null ],
-    [ "autocvar_sv_player_headsize", "d0/d8b/common_2constants_8qh.html#ab9ade461f1928e028d42691ba2d46a7c", null ],
-    [ "autocvar_sv_player_maxs", "d0/d8b/common_2constants_8qh.html#a2656299c6d93e2dee5a8c033b507c00a", null ],
-    [ "autocvar_sv_player_mins", "d0/d8b/common_2constants_8qh.html#ac511fbd4552bdd074ac14e12e3b10235", null ],
-    [ "autocvar_sv_player_viewoffset", "d0/d8b/common_2constants_8qh.html#a19dba5f60c0eedd605af01e05cbd9890", null ],
     [ "CVAR_NOTIFY", "d0/d8b/common_2constants_8qh.html#a41096cc25be8ab3296e6336739be5cd1", null ],
     [ "CVAR_READONLY", "d0/d8b/common_2constants_8qh.html#a6b10d17bdc71386b0f8f5c3b421421d2", null ],
     [ "CVAR_SAVE", "d0/d8b/common_2constants_8qh.html#a2b88d9f66de4e6e3cb6e34733d940d44", null ],

@@ -22,6 +22,7 @@ var classVaporizer =
     [ "wr_suicidemessage", "d5/d99/classVaporizer.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "d5/d99/classVaporizer.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d5/d99/classVaporizer.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "d5/d99/classVaporizer.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "d5/d99/classVaporizer.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "d5/d99/classVaporizer.html#a6cf9614b4d575c2d88dc55fb5b913c60", null ],
     [ "bot_pickupbasevalue", "d5/d99/classVaporizer.html#a1b01884770cf782e1003225a352033dd", null ],

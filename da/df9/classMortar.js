@@ -22,6 +22,7 @@ var classMortar =
     [ "wr_suicidemessage", "da/df9/classMortar.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "da/df9/classMortar.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "da/df9/classMortar.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "da/df9/classMortar.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "da/df9/classMortar.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "da/df9/classMortar.html#ad45a44046f1c6a48964c4111a123273e", null ],
     [ "bot_pickupbasevalue", "da/df9/classMortar.html#ae3ee5674f8d5232b46d606bff0062696", null ],

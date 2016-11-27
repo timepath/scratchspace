@@ -166,7 +166,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00134">134</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00136">136</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a3d193f30f9a2d30e3bb270e8578a872a"></a>
 <div class="memitem">
@@ -190,23 +190,23 @@ Public Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00145">145</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00147">147</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 <p>References <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00067">Weapon::bot_pickupbasevalue</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00119">CONSTRUCT</a>, and <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00083">Weapon::m_name</a>.</p>
-<div class="fragment"><div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;                                        {</div>
-<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(<a class="code" href="../../d8/def/classWeaponPickup.html">WeaponPickup</a>);</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        this.m_weapon = w;</div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        this.m_name = w.<a class="code" href="../../dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206">m_name</a>;</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;<span class="preprocessor"></span>        this.m_model = w.m_model;</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="preprocessor"></span>        this.m_botvalue = w.<a class="code" href="../../dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84">bot_pickupbasevalue</a>;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="preprocessor"></span>    }</div>
+<div class="fragment"><div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;                                        {</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(<a class="code" href="../../d8/def/classWeaponPickup.html">WeaponPickup</a>);</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        this.m_weapon = w;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        this.m_name = w.<a class="code" href="../../dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206">m_name</a>;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;<span class="preprocessor"></span>        this.m_model = w.m_model;</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;<span class="preprocessor"></span>        this.m_botvalue = w.<a class="code" href="../../dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84">bot_pickupbasevalue</a>;</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="preprocessor"></span>    }</div>
 <div class="ttc" id="classWeapon_html_a3a4d6a06d493186e3a019b3e145a1206"><div class="ttname"><a href="../../dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206">Weapon::m_name</a></div><div class="ttdeci">string m_name</div><div class="ttdoc">M: wepname : human readable name. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00083">weapon.qh:83</a></div></div>
 <div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00119">oo.qh:119</a></div></div>
-<div class="ttc" id="classWeaponPickup_html"><div class="ttname"><a href="../../d8/def/classWeaponPickup.html">WeaponPickup</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00134">weapon.qh:134</a></div></div>
+<div class="ttc" id="classWeaponPickup_html"><div class="ttname"><a href="../../d8/def/classWeaponPickup.html">WeaponPickup</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00136">weapon.qh:136</a></div></div>
 <div class="ttc" id="classWeapon_html_addd49c0c8143efd59c6d28d2c7d54c84"><div class="ttname"><a href="../../dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84">Weapon::bot_pickupbasevalue</a></div><div class="ttdeci">float bot_pickupbasevalue</div><div class="ttdoc">M: rating : bot weapon priority. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00067">weapon.qh:67</a></div></div>
 </div><!-- fragment -->
 </div>
@@ -723,7 +723,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/def/classWeaponPickup.html">WeaponPickup</a></li>
-    <li class="footer">Generated on Thu Nov 17 2016 00:09:28 for Xonotic by
+    <li class="footer">Generated on Sun Nov 27 2016 07:35:58 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

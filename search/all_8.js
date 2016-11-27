@@ -223,7 +223,7 @@ var searchData=
   ['hud_5ffade_5falpha',['hud_fade_alpha',['../d3/d05/hud_8qh.html#a89290edd4e31fa4ebb4fffe0b765eeec',1,'hud.qh']]],
   ['hud_5ffontsize',['hud_fontsize',['../d0/d2a/client_2main_8qh.html#a48f386cb348d88d4ae961d010fe8b549',1,'main.qh']]],
   ['hud_5ffontsize_5fstr',['hud_fontsize_str',['../d3/d07/scoreboard_8qc.html#ac127f6ed3538bb0ccfa2d65f6b0dbeca',1,'scoreboard.qc']]],
-  ['hud_5fget_5fnum_5fcolor',['HUD_Get_Num_Color',['../d7/d15/hud_8qc.html#ac83f5e664b74ba1269627528078a7dbf',1,'HUD_Get_Num_Color(float x, float maxvalue):&#160;hud.qc'],['../d3/d05/hud_8qh.html#ac83f5e664b74ba1269627528078a7dbf',1,'HUD_Get_Num_Color(float x, float maxvalue):&#160;hud.qc']]],
+  ['hud_5fget_5fnum_5fcolor',['HUD_Get_Num_Color',['../d7/d15/hud_8qc.html#a5d06b2c0927a58902e9277944eaec891',1,'HUD_Get_Num_Color(float hp, float maxvalue):&#160;hud.qc'],['../d3/d05/hud_8qh.html#a5d06b2c0927a58902e9277944eaec891',1,'HUD_Get_Num_Color(float hp, float maxvalue):&#160;hud.qc']]],
   ['hud_5fgetfontsize',['HUD_GetFontsize',['../dc/d98/client_2miscfunctions_8qc.html#a885df1dd2a0efd39301d3593b307b9be',1,'HUD_GetFontsize(string cvarname):&#160;miscfunctions.qc'],['../d8/db6/client_2miscfunctions_8qh.html#a885df1dd2a0efd39301d3593b307b9be',1,'HUD_GetFontsize(string cvarname):&#160;miscfunctions.qc']]],
   ['hud_5fgetrowcount',['HUD_GetRowCount',['../d7/d15/hud_8qc.html#aa2a5280f52a32d302277253736cc04bb',1,'HUD_GetRowCount(int item_count, vector size, float item_aspect):&#160;hud.qc'],['../d3/d05/hud_8qh.html#aa2a5280f52a32d302277253736cc04bb',1,'HUD_GetRowCount(int item_count, vector size, float item_aspect):&#160;hud.qc']]],
   ['hud_5fgettablesize_5fbestitemar',['HUD_GetTableSize_BestItemAR',['../d7/d15/hud_8qc.html#abed4aa2c37e69cf8b4fdeab69c7e0076',1,'HUD_GetTableSize_BestItemAR(int item_count, vector psize, float item_aspect):&#160;hud.qc'],['../d3/d05/hud_8qh.html#abed4aa2c37e69cf8b4fdeab69c7e0076',1,'HUD_GetTableSize_BestItemAR(int item_count, vector psize, float item_aspect):&#160;hud.qc'],['../d4/d0d/client_2mapvoting_8qc.html#abed4aa2c37e69cf8b4fdeab69c7e0076',1,'HUD_GetTableSize_BestItemAR(int item_count, vector psize, float item_aspect):&#160;hud.qc']]],
@@ -386,5 +386,5 @@ var searchData=
   ['hunterkillerattack',['HunterKillerAttack',['../d4/d56/classHunterKillerAttack.html',1,'']]],
   ['hurt_2eqc',['hurt.qc',['../df/d89/hurt_8qc.html',1,'']]],
   ['hurt_2eqh',['hurt.qh',['../d7/ddc/hurt_8qh.html',1,'']]],
-  ['hypot',['hypot',['../df/d38/mathlib_8qc.html#a147f38d6e41f45de9b5e7c6f3dcac010',1,'hypot(float x, float y):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a147f38d6e41f45de9b5e7c6f3dcac010',1,'hypot(float x, float y):&#160;mathlib.qc']]]
+  ['hypot',['hypot',['../df/d38/mathlib_8qc.html#a6c941103cab43ce14def139f7a6a8efa',1,'hypot(float e, float f):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a6c941103cab43ce14def139f7a6a8efa',1,'hypot(float e, float f):&#160;mathlib.qc']]]
 ];

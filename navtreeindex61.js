@@ -1,16 +1,5 @@
 var NAVTREEINDEX61 =
 {
-"d7/d32/classBlaster.html#a92d67b6f85170073ab4e6a0dcd8d0fd7":[1,0,7,30],
-"d7/d32/classBlaster.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,7,13],
-"d7/d32/classBlaster.html#aa519f8da1618f4afa74f7d924f839f77":[1,0,7,0],
-"d7/d32/classBlaster.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,7,14],
-"d7/d32/classBlaster.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,7,12],
-"d7/d32/classBlaster.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,7,5],
-"d7/d32/classBlaster.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,7,10],
-"d7/d32/classBlaster.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,7,34],
-"d7/d32/classBlaster.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,7,7],
-"d7/d32/classBlaster.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,7,3],
-"d7/d32/classBlaster.html#ae49b4916a450e13269686bd9a27e2cd4":[1,0,7,22],
 "d7/d32/classBlaster.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,7,17],
 "d7/d33/sv__minigames_8qc.html":[2,0,1,6,9],
 "d7/d33/sv__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7":[2,0,1,6,9,0],
@@ -249,5 +238,16 @@ var NAVTREEINDEX61 =
 "d7/d50/classXonoticPlayerList.html#a70d0613e59075ccc0c1ed6f5fdb57fe3":[1,0,214,53],
 "d7/d50/classXonoticPlayerList.html#a71cb69b951223966c8f5e10b73fb81f0":[1,0,214,27],
 "d7/d50/classXonoticPlayerList.html#a731ef2d8cdb302ddcd41f3ed9e6a2be0":[1,0,214,36],
-"d7/d50/classXonoticPlayerList.html#a764e355b65af202e87289c596432c780":[1,0,214,58]
+"d7/d50/classXonoticPlayerList.html#a764e355b65af202e87289c596432c780":[1,0,214,58],
+"d7/d50/classXonoticPlayerList.html#a7b13cdc101cd55528465440586a004f6":[1,0,214,55],
+"d7/d50/classXonoticPlayerList.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,214,13],
+"d7/d50/classXonoticPlayerList.html#a7bd18d461fe2e5e1ce4a84dc29ab6275":[1,0,214,70],
+"d7/d50/classXonoticPlayerList.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,214,68],
+"d7/d50/classXonoticPlayerList.html#a82217d761797df8a2e65054eab910734":[1,0,214,12],
+"d7/d50/classXonoticPlayerList.html#a825196c0b9ebd9d5f045961ae7852921":[1,0,214,64],
+"d7/d50/classXonoticPlayerList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,214,43],
+"d7/d50/classXonoticPlayerList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,214,16],
+"d7/d50/classXonoticPlayerList.html#a907a9de83cff58891185cf8a4983d9d3":[1,0,214,11],
+"d7/d50/classXonoticPlayerList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,214,45],
+"d7/d50/classXonoticPlayerList.html#a92e2c8a9e14f2eefcb8a23df05566f71":[1,0,214,74]
 };

@@ -22,6 +22,7 @@ var classDevastator =
     [ "wr_suicidemessage", "d4/d0b/classDevastator.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "d4/d0b/classDevastator.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d4/d0b/classDevastator.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "d4/d0b/classDevastator.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "d4/d0b/classDevastator.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "d4/d0b/classDevastator.html#a2a08d4720054afa2ccaf726bb1e343a0", null ],
     [ "bot_pickupbasevalue", "d4/d0b/classDevastator.html#a0857557df1839208d8571e233839ce44", null ],

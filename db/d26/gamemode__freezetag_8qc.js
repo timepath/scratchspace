@@ -36,7 +36,6 @@ var gamemode__freezetag_8qc =
     [ "autocvar_g_freezetag_frozen_maxtime", "db/d26/gamemode__freezetag_8qc.html#a6bad026909fd3ebf5a26bbcffe736ae0", null ],
     [ "autocvar_g_freezetag_revive_clearspeed", "db/d26/gamemode__freezetag_8qc.html#a681a7c1a8659414873074fec7482fabe", null ],
     [ "autocvar_g_freezetag_round_timelimit", "db/d26/gamemode__freezetag_8qc.html#ae3960f48d8c0d090b0eb6ce705f38ee8", null ],
-    [ "autocvar_g_freezetag_teams", "db/d26/gamemode__freezetag_8qc.html#ac844ab0639b216a9a5ad4e220c6ff3cf", null ],
     [ "autocvar_g_freezetag_teams_override", "db/d26/gamemode__freezetag_8qc.html#a94b9e018bd0196f2a9aa0144797a046a", null ],
     [ "autocvar_g_freezetag_warmup", "db/d26/gamemode__freezetag_8qc.html#aa4afe01babcb5b2c19b341f5d3e6d6ef", null ]
 ];

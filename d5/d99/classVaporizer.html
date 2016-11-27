@@ -193,6 +193,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4337268c8cad6836bae8efd4a8835070"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/classWeapon.html#a4337268c8cad6836bae8efd4a8835070">wr_update</a> ()</td></tr>
 <tr class="memdesc:a4337268c8cad6836bae8efd4a8835070"><td class="mdescLeft">&#160;</td><td class="mdescRight">(SERVER) update cvar based properties  <a href="#a4337268c8cad6836bae8efd4a8835070">More...</a><br/></td></tr>
 <tr class="separator:a4337268c8cad6836bae8efd4a8835070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad5fa8697b6587ae95cc10ac0f09cb9a5"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5">wr_viewmodel</a> ()</td></tr>
+<tr class="memdesc:ad5fa8697b6587ae95cc10ac0f09cb9a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">(CLIENT) weapon specific view model  <a href="#ad5fa8697b6587ae95cc10ac0f09cb9a5">More...</a><br/></td></tr>
+<tr class="separator:ad5fa8697b6587ae95cc10ac0f09cb9a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae49b4916a450e13269686bd9a27e2cd4"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/de5/classWeapon.html#ae49b4916a450e13269686bd9a27e2cd4">wr_zoomreticle</a> ()</td></tr>
 <tr class="memdesc:ae49b4916a450e13269686bd9a27e2cd4"><td class="mdescLeft">&#160;</td><td class="mdescRight">(CLIENT) weapon specific zoom reticle  <a href="#ae49b4916a450e13269686bd9a27e2cd4">More...</a><br/></td></tr>
 <tr class="separator:ae49b4916a450e13269686bd9a27e2cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -391,12 +394,12 @@ Public Attributes</h2></td></tr>
 
 <p>Reimplemented from <a class="el" href="../../d8/d4b/classObject.html#aa8bfcd32a594bb7d38143dce8b4ba8cf">Object</a>.</p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00128">128</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00130">130</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string()</a>, and <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>.</p>
-<div class="fragment"><div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;                                                                                       {</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        returns(this.<a class="code" href="../../dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206">m_name</a>, this.<a class="code" href="../../dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55">model2</a> ? sprintf(<span class="stringliteral">&quot;/gfx/hud/%s/%s&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a>(<span class="stringliteral">&quot;menu_skin&quot;</span>), this.<a class="code" href="../../dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55">model2</a>) : <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>);</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    }</div>
+<div class="fragment"><div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;                                                                                       {</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        returns(this.<a class="code" href="../../dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206">m_name</a>, this.<a class="code" href="../../dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55">model2</a> ? sprintf(<span class="stringliteral">&quot;/gfx/hud/%s/%s&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#a6f8c7ef6ee4a4d851aaa5fd1789eab9a">cvar_string</a>(<span class="stringliteral">&quot;menu_skin&quot;</span>), this.<a class="code" href="../../dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55">model2</a>) : <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    }</div>
 <div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
 <div class="ttc" id="classWeapon_html_a3a4d6a06d493186e3a019b3e145a1206"><div class="ttname"><a href="../../dc/de5/classWeapon.html#a3a4d6a06d493186e3a019b3e145a1206">Weapon::m_name</a></div><div class="ttdeci">string m_name</div><div class="ttdoc">M: wepname : human readable name. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00083">weapon.qh:83</a></div></div>
 <div class="ttc" id="classWeapon_html_ac3654ccfe17641a9285de863a3cb9f55"><div class="ttname"><a href="../../dc/de5/classWeapon.html#ac3654ccfe17641a9285de863a3cb9f55">Weapon::model2</a></div><div class="ttdeci">string model2</div><div class="ttdoc">M: wepimg : &quot;weaponfoobar&quot; side view image file of weapon. </div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00079">weapon.qh:79</a></div></div>
@@ -573,8 +576,8 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) the weapon is dropped </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00123">123</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00125">125</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -601,8 +604,8 @@ Public Attributes</h2></td></tr>
 
 <p>(CLIENT) weapon specific glow </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00121">121</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;{ <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>; }</div>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00123">123</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;{ <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>; }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -780,8 +783,8 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) a weapon is picked up </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00125">125</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00127">127</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;{}</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -1039,9 +1042,52 @@ Public Attributes</h2></td></tr>
 
 <p>(SERVER) update cvar based properties </p>
 
-<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00127">127</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
-<div class="fragment"><div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;{}</div>
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00129">129</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+<div class="fragment"><div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;{}</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a class="anchor" id="ad5fa8697b6587ae95cc10ac0f09cb9a5"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../df/d9b/sys-post_8qh.html#a5e59e58d7ec3d5cf231cadc5da2b37fd">void</a> Weapon::wr_viewmodel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span><span class="mlabel">inherited</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>(CLIENT) weapon specific view model </p>
+
+<p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00121">121</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
+
+<p>References <a class="el" href="../../d1/df7/nil_8qh_source.html#l00009">string_null</a>.</p>
+
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l00286">viewmodel_draw()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;{ <span class="keywordflow">return</span> <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>; }</div>
+<div class="ttc" id="nil_8qh_html_a65f88f2259b9759aaa31319a73f48b91"><div class="ttname"><a href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a></div><div class="ttdeci">string string_null</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/df7/nil_8qh_source.html#l00009">nil.qh:9</a></div></div>
+</div><!-- fragment -->
+<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/de5/classWeapon_ad5fa8697b6587ae95cc10ac0f09cb9a5_icgraph.svg" width="528" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+</div>
+</div>
+</p>
+
 </div>
 </div>
 <a class="anchor" id="ae49b4916a450e13269686bd9a27e2cd4"></a>
@@ -1069,17 +1115,17 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00116">116</a> of file <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html">weapon.qh</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01396">CSQC_UpdateView()</a>.</p>
+<p>Referenced by <a class="el" href="../../d6/dd3/view_8qc_source.html#l01392">CSQC_UpdateView()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                                                      {</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="comment">// no weapon specific image for this weapon</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
 </div><!-- fragment -->
-<p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-14-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-15" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-15-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-15-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-14-content" class="dyncontent" style="display:none;">
+<div id="dynsection-15-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../dc/de5/classWeapon_ae49b4916a450e13269686bd9a27e2cd4_icgraph.svg" width="366" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -1299,7 +1345,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d5/d99/classVaporizer.html">Vaporizer</a></li>
-    <li class="footer">Generated on Thu Nov 17 2016 00:09:28 for Xonotic by
+    <li class="footer">Generated on Sun Nov 27 2016 07:35:58 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

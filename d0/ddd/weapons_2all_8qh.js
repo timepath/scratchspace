@@ -60,8 +60,6 @@ var weapons_2all_8qh =
     [ "X", "d0/ddd/weapons_2all_8qh.html#a8550782f15a8e7659d954fa47b2bedda", null ],
     [ "X", "d0/ddd/weapons_2all_8qh.html#a47bd548e7b040c0613c6dc95091ff071", null ],
     [ "X", "d0/ddd/weapons_2all_8qh.html#a72ada8bcae5a03d869b13e2dd134c27a", null ],
-    [ "X", "d0/ddd/weapons_2all_8qh.html#ade1a40bc53fcce8b2daa34ca9842b543", null ],
-    [ "X", "d0/ddd/weapons_2all_8qh.html#ab9b059e38c9ad2c871a918293912f79d", null ],
     [ "baseline", "d0/ddd/weapons_2all_8qh.html#a583e81eb753ad8bf4d1992217cd71617", null ],
     [ "baseline_target", "d0/ddd/weapons_2all_8qh.html#a89d257471035c7d46df502f13247a7b9", null ],
     [ "m_wepset", "d0/ddd/weapons_2all_8qh.html#a13afbcfd41d220ec131a3040b7b81909", null ],

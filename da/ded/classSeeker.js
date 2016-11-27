@@ -22,6 +22,7 @@ var classSeeker =
     [ "wr_suicidemessage", "da/ded/classSeeker.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "da/ded/classSeeker.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "da/ded/classSeeker.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "da/ded/classSeeker.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "da/ded/classSeeker.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "da/ded/classSeeker.html#a4fe779db2506a015632fa30924db6531", null ],
     [ "bot_pickupbasevalue", "da/ded/classSeeker.html#aa2346884e39312c506a4dc501439286a", null ],

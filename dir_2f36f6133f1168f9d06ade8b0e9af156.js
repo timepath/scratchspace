@@ -5,7 +5,7 @@ var dir_2f36f6133f1168f9d06ade8b0e9af156 =
     [ "bumblebee.qc", "d0/d99/bumblebee_8qc.html", null ],
     [ "bumblebee.qh", "d0/d7f/bumblebee_8qh.html", "d0/d7f/bumblebee_8qh" ],
     [ "bumblebee_weapons.qc", "dc/de7/bumblebee__weapons_8qc.html", null ],
-    [ "bumblebee_weapons.qh", "dc/d99/bumblebee__weapons_8qh.html", "dc/d99/bumblebee__weapons_8qh" ],
+    [ "bumblebee_weapons.qh", "dc/d99/bumblebee__weapons_8qh.html", null ],
     [ "racer.qc", "dd/de3/racer_8qc.html", null ],
     [ "racer.qh", "d6/dd3/racer_8qh.html", "d6/dd3/racer_8qh" ],
     [ "racer_weapon.qc", "d5/da5/racer__weapon_8qc.html", null ],
@@ -17,5 +17,5 @@ var dir_2f36f6133f1168f9d06ade8b0e9af156 =
     [ "spiderbot.qc", "dc/d76/spiderbot_8qc.html", null ],
     [ "spiderbot.qh", "d1/d52/spiderbot_8qh.html", "d1/d52/spiderbot_8qh" ],
     [ "spiderbot_weapons.qc", "d2/db8/spiderbot__weapons_8qc.html", null ],
-    [ "spiderbot_weapons.qh", "de/d2a/spiderbot__weapons_8qh.html", "de/d2a/spiderbot__weapons_8qh" ]
+    [ "spiderbot_weapons.qh", "de/d2a/spiderbot__weapons_8qh.html", null ]
 ];

@@ -22,6 +22,7 @@ var classShockwave =
     [ "wr_suicidemessage", "da/d13/classShockwave.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "da/d13/classShockwave.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "da/d13/classShockwave.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "da/d13/classShockwave.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "da/d13/classShockwave.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "da/d13/classShockwave.html#a768d3992198c4b743dbab2cff9529e99", null ],
     [ "bot_pickupbasevalue", "da/d13/classShockwave.html#a2ae6f5266386213cc74fc9905aff71ba", null ],

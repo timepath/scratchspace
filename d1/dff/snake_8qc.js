@@ -21,7 +21,6 @@ var snake_8qc =
     [ "autocvar_sv_minigames_snake_delay_initial", "d1/dff/snake_8qc.html#a5a9cd4c84436d375da118a121780b9ad", null ],
     [ "autocvar_sv_minigames_snake_delay_min", "d1/dff/snake_8qc.html#ae974b54f130b55219562cb045d0ec639", null ],
     [ "autocvar_sv_minigames_snake_delay_multiplier", "d1/dff/snake_8qc.html#af7c89701ee296f1659231350dd5e24e4", null ],
-    [ "autocvar_sv_minigames_snake_lives", "d1/dff/snake_8qc.html#af413eaa80b47f85d0464d6e216c28ef8", null ],
     [ "autocvar_sv_minigames_snake_wrap", "d1/dff/snake_8qc.html#a75465fe6dbd0153381e5f4d7b9715762", null ],
     [ "snake_delay", "d1/dff/snake_8qc.html#a601bbe1b4b2ea7a74ccd4ae8521e39fa", null ],
     [ "snake_dir", "d1/dff/snake_8qc.html#a5a754e0a7bef2623a785d71f6965b07d", null ],

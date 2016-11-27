@@ -22,6 +22,7 @@ var classRifle =
     [ "wr_suicidemessage", "d0/d81/classRifle.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "d0/d81/classRifle.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d0/d81/classRifle.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "d0/d81/classRifle.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "d0/d81/classRifle.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "d0/d81/classRifle.html#acefcd89fc6d58f21ff6b844132cd3f11", null ],
     [ "bot_pickupbasevalue", "d0/d81/classRifle.html#a62733317377efccb19770f9b187ae35c", null ],

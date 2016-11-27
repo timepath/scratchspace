@@ -22,6 +22,7 @@ var classElectro =
     [ "wr_suicidemessage", "dc/d6c/classElectro.html#a148f0ac2aabc8676f55a902b199eeed1", null ],
     [ "wr_think", "dc/d6c/classElectro.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "dc/d6c/classElectro.html#a4337268c8cad6836bae8efd4a8835070", null ],
+    [ "wr_viewmodel", "dc/d6c/classElectro.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
     [ "wr_zoomreticle", "dc/d6c/classElectro.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
     [ "ammo_field", "dc/d6c/classElectro.html#a542cefdc1731e512acff35af4117c5ae", null ],
     [ "bot_pickupbasevalue", "dc/d6c/classElectro.html#ab23bedb49b0c3c08b34346e22100aced", null ],

@@ -232,5 +232,5 @@ var searchData=
   ['pullnexposee',['pullNexposee',['../d8/d95/classNexposee.html#adca406fba3d8916bdda0c5dbd87c90da',1,'Nexposee']]],
   ['putclientinserver',['PutClientInServer',['../df/dd7/server_2client_8qc.html#adc12a5d0f9848861e80fbee0c890d64a',1,'PutClientInServer(this):&#160;client.qc'],['../df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951',1,'PutClientInServer(entity this):&#160;client.qc']]],
   ['putobserverinserver',['PutObserverInServer',['../df/dd7/server_2client_8qc.html#a5e3082357cac2361155d16ee49c91224',1,'PutObserverInServer(entity this):&#160;client.qc'],['../d3/df2/sv__cmd_8qc.html#a5e3082357cac2361155d16ee49c91224',1,'PutObserverInServer(entity this):&#160;client.qc']]],
-  ['pymod',['pymod',['../df/d38/mathlib_8qc.html#a052713cb4dd3553c149b5829a5f978af',1,'pymod(float x, float y):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a052713cb4dd3553c149b5829a5f978af',1,'pymod(float x, float y):&#160;mathlib.qc']]]
+  ['pymod',['pymod',['../df/d38/mathlib_8qc.html#af2ebfe97850db3a54400d8ae78b1461b',1,'pymod(float e, float f):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#af2ebfe97850db3a54400d8ae78b1461b',1,'pymod(float e, float f):&#160;mathlib.qc']]]
 ];

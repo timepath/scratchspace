@@ -139,7 +139,7 @@ var searchData=
   ['buf_5fsave',['buf_save',['../d5/df2/common_2util_8qh.html#a26991c68b0f5c46dc63ea3aa344364b1',1,'buf_save(int buf, string filename):&#160;util.qh'],['../d2/db4/string_8qh.html#a38be25a9861c0cbcabf5bb5bce2d3d4e',1,'buf_save(float buf, string pFilename):&#160;string.qh']]],
   ['buff_5fcustomize',['buff_Customize',['../d2/dac/sv__buffs_8qc.html#aa2b9baeed98377cf9f5add370f7d75e1',1,'sv_buffs.qc']]],
   ['buff_5ffirstfromflags',['buff_FirstFromFlags',['../d4/d0f/buffs_8qc.html#afd7d0f110617f66bd6efce062d5d16e7',1,'buff_FirstFromFlags(int _buffs):&#160;buffs.qc'],['../d5/dac/g__damage_8qc.html#afd7d0f110617f66bd6efce062d5d16e7',1,'buff_FirstFromFlags(int _buffs):&#160;buffs.qc']]],
-  ['buff_5finferno_5fcalculatetime',['buff_Inferno_CalculateTime',['../d2/dac/sv__buffs_8qc.html#a38ae76673a44f0108fdf07bdd8a205ee',1,'sv_buffs.qc']]],
+  ['buff_5finferno_5fcalculatetime',['buff_Inferno_CalculateTime',['../d2/dac/sv__buffs_8qc.html#a1183e50710176e0bfc31e437155a9c40',1,'sv_buffs.qc']]],
   ['buff_5finit',['buff_Init',['../d2/dac/sv__buffs_8qc.html#a2beb52fe9d382c67291efeb79771e1ac',1,'sv_buffs.qc']]],
   ['buff_5finit_5fcompat',['buff_Init_Compat',['../d2/dac/sv__buffs_8qc.html#a931156166ad66356620ec9df0f4bda1c',1,'sv_buffs.qc']]],
   ['buff_5fmedic_5fheal',['buff_Medic_Heal',['../d2/dac/sv__buffs_8qc.html#a580ace4ad7da9228b6b8c50bcbd158e7',1,'sv_buffs.qc']]],
