@@ -1,5 +1,7 @@
 var NAVTREEINDEX129 =
 {
+"df/da1/client_2__all_8inc_source.html":[2,0,0,4],
+"df/da5/hk__weapon_8qh.html":[2,0,1,14,0,19],
 "df/da5/hk__weapon_8qh.html#a27198ad0c1cad8c8119ecefa9f52db07":[2,0,1,14,0,19,1],
 "df/da5/hk__weapon_8qh_source.html":[2,0,1,14,0,19],
 "df/da7/generic_8qc.html":[2,0,1,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX129 =
 "df/dc9/classXonoticHUDQuickMenuDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,187,15],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,187,39],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,187,2],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,187,37],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,187,41],
-"df/dc9/classXonoticHUDQuickMenuDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,187,86]
+"df/dc9/classXonoticHUDQuickMenuDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,187,37]
 };

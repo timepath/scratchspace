@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"da/d1d/classMLRSTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c":[1,0,75,25],
+"da/d1d/classMLRSTurretAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,75,17],
 "da/d1d/mainwindow_8qc.html":[2,0,5,4,178],
 "da/d1d/mainwindow_8qc.html#a0d7d1629f65a255e16e302d73b331bb5":[2,0,5,4,178,2],
 "da/d1d/mainwindow_8qc.html#a1ead6224d662a11e80d74b913e8db41f":[2,0,5,4,178,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "da/d45/gamemode__ca_8qh.html#a99970939c2b6fdffb0cb6c3693fd94a5":[2,0,6,2,0,5,7],
 "da/d45/gamemode__ca_8qh.html#aacbcf72df7630d29c5323a6668918b8d":[2,0,6,2,0,5,2],
 "da/d45/gamemode__ca_8qh.html#abc82708949d45746dfb807463502eeac":[2,0,6,2,0,5,4],
-"da/d45/gamemode__ca_8qh.html#ac474faca339b17424d9d117497bae646":[2,0,6,2,0,5,14],
-"da/d45/gamemode__ca_8qh.html#acf0b6576fbdf4f980d45cf06651f117e":[2,0,6,2,0,5,12],
-"da/d45/gamemode__ca_8qh_source.html":[2,0,6,2,0,5]
+"da/d45/gamemode__ca_8qh.html#ac474faca339b17424d9d117497bae646":[2,0,6,2,0,5,14]
 };
