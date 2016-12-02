@@ -1,5 +1,6 @@
 var NAVTREEINDEX71 =
 {
+"d8/d12/shotgun_8qc.html":[2,0,1,16,0,34],
 "d8/d12/shotgun_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,34,1],
 "d8/d12/shotgun_8qc.html#a51afb043612b0929d78d6e88e0576d0e":[2,0,1,16,0,34,2],
 "d8/d12/shotgun_8qc_source.html":[2,0,1,16,0,34],
@@ -198,8 +199,8 @@ var NAVTREEINDEX71 =
 "d8/d29/playlist_8qc_source.html":[2,0,5,4,190],
 "d8/d2c/gamemode__lms_8qh.html":[2,0,6,2,0,23],
 "d8/d2c/gamemode__lms_8qh.html#a25114f90621533d4d5bee24ebf2003f4":[2,0,6,2,0,23,2],
-"d8/d2c/gamemode__lms_8qh.html#a3b402990441e283d88548bf3a4cfd0f3":[2,0,6,2,0,23,5],
 "d8/d2c/gamemode__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c":[2,0,6,2,0,23,4],
+"d8/d2c/gamemode__lms_8qh.html#a527fc9d748c9dc351af8068227b8ce32":[2,0,6,2,0,23,5],
 "d8/d2c/gamemode__lms_8qh.html#a6c7bc0da7745d3049dd2641ece20b3da":[2,0,6,2,0,23,0],
 "d8/d2c/gamemode__lms_8qh.html#aa7327441f669f21b871d3cd035f9c4e4":[2,0,6,2,0,23,1],
 "d8/d2c/gamemode__lms_8qh.html#afed8449b5528e6053255d5591013eb6a":[2,0,6,2,0,23,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX71 =
 "d8/d35/classXonoticHUDChatDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,175,34],
 "d8/d35/classXonoticHUDChatDialog.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,175,42],
 "d8/d35/classXonoticHUDChatDialog.html#a54e38d6145b42b9d72d2deb494602ae4":[1,0,175,69],
-"d8/d35/classXonoticHUDChatDialog.html#a588c2bad65ee0a1e6478f7d9fda23d06":[1,0,175,60],
-"d8/d35/classXonoticHUDChatDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,175,64]
+"d8/d35/classXonoticHUDChatDialog.html#a588c2bad65ee0a1e6478f7d9fda23d06":[1,0,175,60]
 };
