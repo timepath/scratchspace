@@ -549,33 +549,32 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../d6/db1/draw_8qc_source.html#l00287">draw_CenterText()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00044">eX</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00045">eY</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;{</div>
-<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    <span class="comment">// layout: Ping, Credits name, Map name, NP, TP, MP</span></div>
-<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    <span class="keywordtype">string</span> s;</div>
-<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    <span class="keywordtype">float</span> theAlpha;</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> theColor;</div>
-<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;</div>
-<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;    s = bufstr_get(me.bufferIndex, i);</div>
-<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;</div>
-<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 0, 2) == <span class="stringliteral">&quot;**&quot;</span>)</div>
-<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;    {</div>
-<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 2, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(s) - 2);</div>
-<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        theColor = SKINCOLOR_CREDITS_TITLE;</div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;        theAlpha = SKINALPHA_CREDITS_TITLE;</div>
-<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    }</div>
-<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 0, 1) == <span class="stringliteral">&quot;*&quot;</span>)</div>
-<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;    {</div>
-<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 1, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(s) - 1);</div>
-<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        theColor = SKINCOLOR_CREDITS_FUNCTION;</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;        theAlpha = SKINALPHA_CREDITS_FUNCTION;</div>
-<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    }</div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    {</div>
-<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        theColor = SKINCOLOR_CREDITS_PERSON;</div>
-<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;        theAlpha = SKINALPHA_CREDITS_PERSON;</div>
-<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;    }</div>
-<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;</div>
-<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;    <a class="code" href="../../d6/db1/draw_8qc.html#abb689f87717c7ad95d58db46ee9cf9b4">draw_CenterText</a>(me.realUpperMargin * <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> + 0.5 * <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a>, s, me.realFontSize, theColor, theAlpha, 0);</div>
-<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;}</div>
+<div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;    <span class="keywordtype">string</span> s;</div>
+<div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;    <span class="keywordtype">float</span> theAlpha;</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> theColor;</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;</div>
+<div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;    s = bufstr_get(me.bufferIndex, i);</div>
+<div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;</div>
+<div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 0, 2) == <span class="stringliteral">&quot;**&quot;</span>)</div>
+<div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;    {</div>
+<div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 2, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(s) - 2);</div>
+<div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;        theColor = SKINCOLOR_CREDITS_TITLE;</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;        theAlpha = SKINALPHA_CREDITS_TITLE;</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    }</div>
+<div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 0, 1) == <span class="stringliteral">&quot;*&quot;</span>)</div>
+<div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;    {</div>
+<div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;        s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a40f6c65c8bbcfa51df783f2809a2502b">substring</a>(s, 1, <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(s) - 1);</div>
+<div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;        theColor = SKINCOLOR_CREDITS_FUNCTION;</div>
+<div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;        theAlpha = SKINALPHA_CREDITS_FUNCTION;</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    }</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    {</div>
+<div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;        theColor = SKINCOLOR_CREDITS_PERSON;</div>
+<div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;        theAlpha = SKINALPHA_CREDITS_PERSON;</div>
+<div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160;    }</div>
+<div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;</div>
+<div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;    <a class="code" href="../../d6/db1/draw_8qc.html#abb689f87717c7ad95d58db46ee9cf9b4">draw_CenterText</a>(me.realUpperMargin * <a class="code" href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a> + 0.5 * <a class="code" href="../../de/dcb/vector_8qh.html#adce3aade2f97ac6fb4688fe0a7005d27">eX</a>, s, me.realFontSize, theColor, theAlpha, 0);</div>
+<div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;}</div>
 <div class="ttc" id="vector_8qh_html_a13163379d56e777f08a20fca27f20c2a"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a13163379d56e777f08a20fca27f20c2a">eY</a></div><div class="ttdeci">const vector eY</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00045">vector.qh:45</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="draw_8qc_html_abb689f87717c7ad95d58db46ee9cf9b4"><div class="ttname"><a href="../../d6/db1/draw_8qc.html#abb689f87717c7ad95d58db46ee9cf9b4">draw_CenterText</a></div><div class="ttdeci">void draw_CenterText(vector theOrigin, string theText, vector theSize, vector theColor, float theAlpha, float ICanHasKallerz)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/db1/draw_8qc_source.html#l00287">draw.qc:287</a></div></div>
@@ -631,13 +630,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d0/d80/credits_8qc_source.html#l00433">433</a> of file <a class="el" href="../../d0/d80/credits_8qc_source.html">credits.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d0/d80/credits_8qc_source.html#l00432">432</a> of file <a class="el" href="../../d0/d80/credits_8qc_source.html">credits.qc</a>.</p>
 
 <p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00279">SUPER</a>.</p>
-<div class="fragment"><div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;{</div>
-<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    me.scrolling = 0;</div>
-<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d4/d55/classXonoticCreditsList.html">XonoticCreditsList</a>).keyDown(me, key, ascii, shift);</div>
-<div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;{</div>
+<div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;    me.scrolling = 0;</div>
+<div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a>(<a class="code" href="../../d4/d55/classXonoticCreditsList.html">XonoticCreditsList</a>).keyDown(me, key, ascii, shift);</div>
+<div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;}</div>
 <div class="ttc" id="oo_8qh_html_a0548362dfb0591b7f8021160fe8c390f"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a0548362dfb0591b7f8021160fe8c390f">SUPER</a></div><div class="ttdeci">#define SUPER(cname)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00279">oo.qh:279</a></div></div>
 <div class="ttc" id="classXonoticCreditsList_html"><div class="ttname"><a href="../../d4/d55/classXonoticCreditsList.html">XonoticCreditsList</a></div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d48/credits_8qh_source.html#l00004">credits.qh:4</a></div></div>
 </div><!-- fragment -->
@@ -706,7 +705,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d0/d80/credits_8qc.html">credits.qc</a></li>
-    <li class="footer">Generated on Fri Dec 2 2016 18:09:31 for Xonotic by
+    <li class="footer">Generated on Mon Dec 5 2016 13:15:01 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

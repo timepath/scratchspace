@@ -157,6 +157,12 @@ Macros</h2></td></tr>
 <tr class="memitem:a5fb97dd8bfd59aa950d523869754f144"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a5fb97dd8bfd59aa950d523869754f144">EV_BuffTouch</a>(i, o)</td></tr>
 <tr class="memdesc:a5fb97dd8bfd59aa950d523869754f144"><td class="mdescLeft">&#160;</td><td class="mdescRight">called at when a buff is touched.  <a href="#a5fb97dd8bfd59aa950d523869754f144">More...</a><br/></td></tr>
 <tr class="separator:a5fb97dd8bfd59aa950d523869754f144"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafcddefe80488762f31d9da9017b455e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aafcddefe80488762f31d9da9017b455e">EV_ChatMessage</a>(i, o)</td></tr>
+<tr class="memdesc:aafcddefe80488762f31d9da9017b455e"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when sending a chat message, ret argument can be changed to prevent the message  <a href="#aafcddefe80488762f31d9da9017b455e">More...</a><br/></td></tr>
+<tr class="separator:aafcddefe80488762f31d9da9017b455e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a366621b165dbaf24170858cf223c26ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a366621b165dbaf24170858cf223c26ad">EV_ChatMessageTo</a>(i, o)</td></tr>
+<tr class="memdesc:a366621b165dbaf24170858cf223c26ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true to prevent sending a chat (private, team or regular) message from reaching a certain player  <a href="#a366621b165dbaf24170858cf223c26ad">More...</a><br/></td></tr>
+<tr class="separator:a366621b165dbaf24170858cf223c26ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abaeaadc966dd1c7a4603933ea73a85d7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#abaeaadc966dd1c7a4603933ea73a85d7">EV_CheckAllowedTeams</a>(i, o)</td></tr>
 <tr class="memdesc:abaeaadc966dd1c7a4603933ea73a85d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">allows adjusting allowed teams  <a href="#abaeaadc966dd1c7a4603933ea73a85d7">More...</a><br/></td></tr>
 <tr class="separator:abaeaadc966dd1c7a4603933ea73a85d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -655,6 +661,10 @@ Functions</h2></td></tr>
 <tr class="separator:aac5f40e0440c0d379bb7b53071ff36d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa23cbe266895ab63dc32086beaa5e18b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aa23cbe266895ab63dc32086beaa5e18b">MUTATOR_HOOKABLE</a> (<a class="el" href="../../da/dc1/server_2player_8qh.html#af2cf7e359cda23b596ac40cda3f9ba87">CopyBody</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a0c042ea3a7cc0f41fcaafa0b80651ac9">EV_CopyBody</a>)</td></tr>
 <tr class="separator:aa23cbe266895ab63dc32086beaa5e18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a040cfd2cfd82e7c135b6dfd608e3e213"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a040cfd2cfd82e7c135b6dfd608e3e213">MUTATOR_HOOKABLE</a> (ChatMessage, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aafcddefe80488762f31d9da9017b455e">EV_ChatMessage</a>)</td></tr>
+<tr class="separator:a040cfd2cfd82e7c135b6dfd608e3e213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68bcf35c1dbe30952b4e5c1467773706"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a68bcf35c1dbe30952b4e5c1467773706">MUTATOR_HOOKABLE</a> (ChatMessageTo, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a366621b165dbaf24170858cf223c26ad">EV_ChatMessageTo</a>)</td></tr>
+<tr class="separator:a68bcf35c1dbe30952b4e5c1467773706"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ba9e011846397de4e801455435e5a88"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a9ba9e011846397de4e801455435e5a88">void</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>) monster_loot</td></tr>
 <tr class="separator:a9ba9e011846397de4e801455435e5a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -947,6 +957,71 @@ Variables</h2></td></tr>
 <p>Called early, can edit buff properties. </p>
 
 <p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00683">683</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aafcddefe80488762f31d9da9017b455e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_ChatMessage</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"> i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \ i(<span class="keywordtype">int</span>, MUTATOR_ARGV_1_int) \</div>
+<div class="line">     o(<span class="keywordtype">int</span>, MUTATOR_ARGV_1_int) \</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+</div><!-- fragment -->
+<p>called when sending a chat message, ret argument can be changed to prevent the message </p>
+
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00896">896</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a366621b165dbaf24170858cf223c26ad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_ChatMessageTo</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"> i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \ i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_1_entity) \</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+</div><!-- fragment -->
+<p>return true to prevent sending a chat (private, team or regular) message from reaching a certain player </p>
+
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00904">904</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -6759,6 +6834,58 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a040cfd2cfd82e7c135b6dfd608e3e213"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype">ChatMessage&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aafcddefe80488762f31d9da9017b455e">EV_ChatMessage</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a68bcf35c1dbe30952b4e5c1467773706"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTATOR_HOOKABLE </td>
+          <td>(</td>
+          <td class="paramtype">ChatMessageTo&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a366621b165dbaf24170858cf223c26ad">EV_ChatMessageTo</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a9ba9e011846397de4e801455435e5a88"></a>
 <div class="memitem">
 <div class="memproto">
@@ -6814,7 +6941,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Fri Dec 2 2016 18:09:25 for Xonotic by
+    <li class="footer">Generated on Mon Dec 5 2016 13:14:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -9,6 +9,8 @@ var server_2mutators_2events_8qh =
     [ "EV_BotShouldAttack", "d6/ddd/server_2mutators_2events_8qh.html#a6387e22b41332282ac9bf8c743a774a9", null ],
     [ "EV_BuffModel_Customize", "d6/ddd/server_2mutators_2events_8qh.html#aace387db280fd4d72f74eeea6256fd14", null ],
     [ "EV_BuffTouch", "d6/ddd/server_2mutators_2events_8qh.html#a5fb97dd8bfd59aa950d523869754f144", null ],
+    [ "EV_ChatMessage", "d6/ddd/server_2mutators_2events_8qh.html#aafcddefe80488762f31d9da9017b455e", null ],
+    [ "EV_ChatMessageTo", "d6/ddd/server_2mutators_2events_8qh.html#a366621b165dbaf24170858cf223c26ad", null ],
     [ "EV_CheckAllowedTeams", "d6/ddd/server_2mutators_2events_8qh.html#abaeaadc966dd1c7a4603933ea73a85d7", null ],
     [ "EV_CheckRules_World", "d6/ddd/server_2mutators_2events_8qh.html#a5a8bfc10e30cbdd07af54384d7a83d88", null ],
     [ "EV_ClientCommand_Spectate", "d6/ddd/server_2mutators_2events_8qh.html#a2f426b1a0db90219fbfd9776ce2ee773", null ],
@@ -221,6 +223,8 @@ var server_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#adc988234d12ab905cfc6ccf48be12325", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#aac5f40e0440c0d379bb7b53071ff36d6", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#aa23cbe266895ab63dc32086beaa5e18b", null ],
+    [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a040cfd2cfd82e7c135b6dfd608e3e213", null ],
+    [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a68bcf35c1dbe30952b4e5c1467773706", null ],
     [ "void", "d6/ddd/server_2mutators_2events_8qh.html#a9ba9e011846397de4e801455435e5a88", null ],
     [ "get_cvars_f", "d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2", null ],
     [ "get_cvars_s", "d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f", null ]
