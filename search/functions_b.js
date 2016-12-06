@@ -44,13 +44,13 @@ var searchData=
   ['kh_5fkey_5ftouch',['kh_Key_Touch',['../de/d40/gamemode__keyhunt_8qc.html#a9e35427c8f0e83a5c727245d92ac36f1',1,'gamemode_keyhunt.qc']]],
   ['kh_5fkey_5fwaypointsprite_5fvisible_5ffor_5fplayer',['kh_Key_waypointsprite_visible_for_player',['../de/d40/gamemode__keyhunt_8qc.html#a1b01b2398e4c5c9a3be53d4a6d56b040',1,'gamemode_keyhunt.qc']]],
   ['kh_5fkeycarrier_5fwaypointsprite_5fvisible_5ffor_5fplayer',['kh_KeyCarrier_waypointsprite_visible_for_player',['../de/d40/gamemode__keyhunt_8qc.html#a923cf23a4a0359014c786bb93ce02cc4',1,'gamemode_keyhunt.qc']]],
-  ['kh_5floserteam',['kh_LoserTeam',['../de/d40/gamemode__keyhunt_8qc.html#a0fb6a850ac4f7e08bc0a9c0eadec8e1b',1,'gamemode_keyhunt.qc']]],
+  ['kh_5floserteam',['kh_LoserTeam',['../de/d40/gamemode__keyhunt_8qc.html#a30b7c67b8d46ae780725e7bd1236b269',1,'gamemode_keyhunt.qc']]],
   ['kh_5fscorerules',['kh_ScoreRules',['../de/d40/gamemode__keyhunt_8qc.html#a2d785f20712986ad16b564ca933f19e8',1,'gamemode_keyhunt.qc']]],
   ['kh_5fscores_5fevent',['kh_Scores_Event',['../de/d40/gamemode__keyhunt_8qc.html#a24fba324c185ddf090d87683b01a02ce',1,'gamemode_keyhunt.qc']]],
   ['kh_5fstartround',['kh_StartRound',['../de/d40/gamemode__keyhunt_8qc.html#ad10ed989b4f6a7ccbba89f62fc1705ac',1,'kh_StartRound():&#160;gamemode_keyhunt.qc'],['../d8/de1/gamemode__keyhunt_8qh.html#ad10ed989b4f6a7ccbba89f62fc1705ac',1,'kh_StartRound():&#160;gamemode_keyhunt.qc']]],
-  ['kh_5fteam_5fbyid',['kh_Team_ByID',['../de/d40/gamemode__keyhunt_8qc.html#a26e842c69259395a21fa8ddaefed7bf3',1,'gamemode_keyhunt.qc']]],
+  ['kh_5fteam_5fbyid',['kh_Team_ByID',['../de/d40/gamemode__keyhunt_8qc.html#a04faf2679fdcfe0ec94f5efedf316eef',1,'gamemode_keyhunt.qc']]],
   ['kh_5fupdate_5fstate',['kh_update_state',['../de/d40/gamemode__keyhunt_8qc.html#af0b0677c2ea223d7b4b626fa9e83ccd7',1,'gamemode_keyhunt.qc']]],
   ['kh_5fwaitforplayers',['kh_WaitForPlayers',['../de/d40/gamemode__keyhunt_8qc.html#acf9057b87b552cb3a114c36616cc86c5',1,'gamemode_keyhunt.qc']]],
-  ['kh_5fwinnerteam',['kh_WinnerTeam',['../de/d40/gamemode__keyhunt_8qc.html#a020f625203fb41668b95be99c0038fab',1,'gamemode_keyhunt.qc']]],
+  ['kh_5fwinnerteam',['kh_WinnerTeam',['../de/d40/gamemode__keyhunt_8qc.html#adc6f8b980a6e61293b34501088d91004',1,'gamemode_keyhunt.qc']]],
   ['killindicator_5fthink',['KillIndicator_Think',['../df/dd7/server_2client_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'KillIndicator_Think(entity this):&#160;client.qc'],['../d5/d69/gamemode__cts_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'KillIndicator_Think(entity this):&#160;client.qc']]]
 ];

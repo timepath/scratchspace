@@ -147,7 +147,7 @@ var NAVTREEINDEX =
 "dd/db3/classXonoticQuitDialog.html#a2c63df61f472ebeda80e1f553aec25f7",
 "dd/de4/g__damage_8qh.html#ade2887aa1376d34775f751d2a81565b0",
 "de/d19/classEasing.html#a689e8f596580507473b40b0ec845db12",
-"de/d40/gamemode__keyhunt_8qc.html#ad739070280b4ac5432bf5f6f5a7f1e30",
+"de/d40/gamemode__keyhunt_8qc.html#ad854fcb1e82836772a09f1203345400d",
 "de/d5e/dpextensions_8qc.html#a12edcbb3746e4929499aa915ca8ffd5f",
 "de/d5e/dpextensions_8qc.html#ace92e6ff43ade0a6ded4b955869dbc47",
 "de/d70/common_2physics_2player_8qh.html#a990efde6b185c6b204ae4c406bbe2460",
