@@ -25,7 +25,7 @@ var searchData=
   ['hud_5fpanel_5fgetfgalpha',['HUD_Panel_GetFgAlpha',['../d3/d05/hud_8qh.html#acd9504e56fb6225977ae13c70ba73789',1,'hud.qh']]],
   ['hud_5fpanel_5fgetpadding',['HUD_Panel_GetPadding',['../d3/d05/hud_8qh.html#a611c5a4dcd2431118e0c0848884e417f',1,'hud.qh']]],
   ['hud_5fpanel_5fgetpanelenabled',['Hud_Panel_GetPanelEnabled',['../d3/d05/hud_8qh.html#aa5b67d95a948188cd5be62b8aa709022',1,'hud.qh']]],
-  ['hud_5fpanel_5fitemstime_5fhidelarge',['hud_panel_itemstime_hidelarge',['../d4/d90/itemstime_8qc.html#a4cbc88dbc4104198634bfdd9597de191',1,'itemstime.qc']]],
+  ['hud_5fpanel_5fitemstime_5fhidebig',['hud_panel_itemstime_hidebig',['../d4/d90/itemstime_8qc.html#ad78a96fa5fc58e48add1fae6f405797b',1,'itemstime.qc']]],
   ['hud_5fpanel_5fscalepossize',['HUD_Panel_ScalePosSize',['../d3/d05/hud_8qh.html#ade8db832be902e407bfbf623a69dbe77',1,'hud.qh']]],
   ['hud_5fpanel_5fupdatepossize',['HUD_Panel_UpdatePosSize',['../d3/d05/hud_8qh.html#a6795706920a11c7b9423a789b5be5e44',1,'hud.qh']]],
   ['hud_5fpanel_5fupdatepossize_5fformenu',['HUD_Panel_UpdatePosSize_ForMenu',['../d3/d05/hud_8qh.html#adac89db202227f9c23d1fa4433607972',1,'hud.qh']]],

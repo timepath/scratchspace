@@ -1,5 +1,8 @@
 var NAVTREEINDEX70 =
 {
+"d7/de6/classXonoticWeaponarenaCheckBox.html#aaefd5f78048ffbfdf0e45b630c4b5a4b":[1,0,250,61],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#ab1ec655ecda8414e0ed22a5f621dbfaa":[1,0,250,10],
+"d7/de6/classXonoticWeaponarenaCheckBox.html#aba5218808d64a676ca69b4f43d6f523b":[1,0,250,39],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#ac0774bb98ca7dbc457a3028e9514c549":[1,0,250,53],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#ac5f9026e2b003b3ff4e0b4a55fd4f4f5":[1,0,250,2],
 "d7/de6/classXonoticWeaponarenaCheckBox.html#ac6094922668d013ada3893854eec6b0f":[1,0,250,23],
@@ -116,6 +119,7 @@ var NAVTREEINDEX70 =
 "d8/d0c/sv__overkill_8qc.html#a1913b4841f6921bcdd2a87f9588a07a2":[2,0,1,9,0,20,10,27],
 "d8/d0c/sv__overkill_8qc.html#a21a69562e4214012fcd467bd6ceeb58a":[2,0,1,9,0,20,10,30],
 "d8/d0c/sv__overkill_8qc.html#a2453184c9be35f8346480a1620742c5f":[2,0,1,9,0,20,10,40],
+"d8/d0c/sv__overkill_8qc.html#a2a3d29b3c539a2306243667a3f6d4a42":[2,0,1,9,0,20,10,35],
 "d8/d0c/sv__overkill_8qc.html#a2c11b6cdb518fd97e2bfbf21c9006c31":[2,0,1,9,0,20,10,1],
 "d8/d0c/sv__overkill_8qc.html#a35da7c6368e9601b8efff8c975740526":[2,0,1,9,0,20,10,28],
 "d8/d0c/sv__overkill_8qc.html#a3cafb7c9cb29ded0ba160de6eec79c34":[2,0,1,9,0,20,10,25],
@@ -136,9 +140,8 @@ var NAVTREEINDEX70 =
 "d8/d0c/sv__overkill_8qc.html#a7a67a821e2291c798c0b03162b43c966":[2,0,1,9,0,20,10,23],
 "d8/d0c/sv__overkill_8qc.html#a814e2c8a1451073c9d351181c9ef4bc1":[2,0,1,9,0,20,10,32],
 "d8/d0c/sv__overkill_8qc.html#a8532b92f962d7a7099ca7896da7743c9":[2,0,1,9,0,20,10,5],
-"d8/d0c/sv__overkill_8qc.html#a8a7cf91cbe2aacc0359eac8293565bcc":[2,0,1,9,0,20,10,34],
 "d8/d0c/sv__overkill_8qc.html#a8c34739cb15da34b18acf3a993117a64":[2,0,1,9,0,20,10,15],
-"d8/d0c/sv__overkill_8qc.html#aa2724857bc1c527fa9f4707a8be63f28":[2,0,1,9,0,20,10,35],
+"d8/d0c/sv__overkill_8qc.html#aa2724857bc1c527fa9f4707a8be63f28":[2,0,1,9,0,20,10,34],
 "d8/d0c/sv__overkill_8qc.html#aa469fe882d86cd05387ef9c28bcef3b3":[2,0,1,9,0,20,10,3],
 "d8/d0c/sv__overkill_8qc.html#aa8a594f8f4162fbd93610dd1adaf21d1":[2,0,1,9,0,20,10,29],
 "d8/d0c/sv__overkill_8qc.html#aa966f750315a503eacafe6adc6655795":[2,0,1,9,0,20,10,16],
@@ -246,8 +249,5 @@ var NAVTREEINDEX70 =
 "d8/d12/classRaptor.html#ab8a521e4c2b1360fd8ffff369ece2428":[1,0,104,25],
 "d8/d12/classRaptor.html#abb0248cf77d78ec72661662614263acf":[1,0,104,30],
 "d8/d12/classRaptor.html#acd61673a42237365d55777d092f5f5ad":[1,0,104,14],
-"d8/d12/classRaptor.html#ad29884a3f395ad9d49c4eceab06a2957":[1,0,104,8],
-"d8/d12/classRaptor.html#adf8a07b9a784db9eebebaede75458935":[1,0,104,27],
-"d8/d12/classRaptor.html#ae6f993d40a8c3fe356e149ef15eeb11c":[1,0,104,18],
-"d8/d12/classRaptor.html#ae8af7e33ae6e2e1f8115315cbfe1f5b1":[1,0,104,23]
+"d8/d12/classRaptor.html#ad29884a3f395ad9d49c4eceab06a2957":[1,0,104,8]
 };

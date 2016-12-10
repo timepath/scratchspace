@@ -1,5 +1,8 @@
 var NAVTREEINDEX88 =
 {
+"da/d45/gamemode__ca_8qh.html#a38b1cbdbfc48fe83ca4f0506a070b83b":[2,0,6,2,0,5,9],
+"da/d45/gamemode__ca_8qh.html#a4eb56906efb5c8da7820d434817d4a0e":[2,0,6,2,0,5,0],
+"da/d45/gamemode__ca_8qh.html#a4f5d0f31a6f4f35eb767deb39752f117":[2,0,6,2,0,5,15],
 "da/d45/gamemode__ca_8qh.html#a5474d0511a224439e6329941c45f1bd2":[2,0,6,2,0,5,1],
 "da/d45/gamemode__ca_8qh.html#a614fba62227a145d401a8b5c9aac612f":[2,0,6,2,0,5,10],
 "da/d45/gamemode__ca_8qh.html#a7e89ab97ff878f4d69aac275d25995e7":[2,0,6,2,0,5,8],
@@ -158,10 +161,10 @@ var NAVTREEINDEX88 =
 "da/d68/accuracy_8qc.html#addc590d48822d285d5025af942f6ef4e":[2,0,6,4,2,1],
 "da/d68/accuracy_8qc_source.html":[2,0,6,4,2],
 "da/d6a/health_8qh.html":[2,0,1,5,0,7],
-"da/d6a/health_8qh.html#a49e35cc684423eec12c55c8d664dce3f":[2,0,1,5,0,7,3],
 "da/d6a/health_8qh.html#a8332a98989b8a6eb4fd2fea78ad89b6c":[2,0,1,5,0,7,2],
 "da/d6a/health_8qh.html#a9b3e1f042959d6d9e1029907e90f9875":[2,0,1,5,0,7,4],
 "da/d6a/health_8qh.html#ac737cbf9e6474f8f4fc5b90d844a0d93":[2,0,1,5,0,7,1],
+"da/d6a/health_8qh.html#acd779843151eff7554015c3bc54b25b1":[2,0,1,5,0,7,3],
 "da/d6a/health_8qh_source.html":[2,0,1,5,0,7],
 "da/d6b/sv__superspec_8qc.html":[2,0,1,9,0,29,2],
 "da/d6b/sv__superspec_8qc.html#a0e09ade211672fbff42c37c935698ae6":[2,0,1,9,0,29,2,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX88 =
 "da/d6d/classXonoticPlayerModelSelector.html#ac6094922668d013ada3893854eec6b0f":[1,0,215,19],
 "da/d6d/classXonoticPlayerModelSelector.html#ac783a223d75bf1d08a090ff8891725cc":[1,0,215,52],
 "da/d6d/classXonoticPlayerModelSelector.html#acce3d31c96abedfae07be00fd07db27b":[1,0,215,37],
-"da/d6d/classXonoticPlayerModelSelector.html#ace6b33f60db102ae3b061eb3c0b93ec2":[1,0,215,28],
-"da/d6d/classXonoticPlayerModelSelector.html#ace8b22f52add8ae374842fe23968da68":[1,0,215,9],
-"da/d6d/classXonoticPlayerModelSelector.html#ad51b529ce0c95f4a5b0ed9820d600054":[1,0,215,50],
-"da/d6d/classXonoticPlayerModelSelector.html#ad7b2477ab4a07abbf34cc0cd3461253c":[1,0,215,25]
+"da/d6d/classXonoticPlayerModelSelector.html#ace6b33f60db102ae3b061eb3c0b93ec2":[1,0,215,28]
 };

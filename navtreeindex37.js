@@ -1,5 +1,8 @@
 var NAVTREEINDEX37 =
 {
+"d4/d4c/dialog__multiplayer__media__demo_8qc.html#ad6524e6857c35e9c7ec53fd037370d8d":[2,0,5,4,100,2],
+"d4/d4c/dialog__multiplayer__media__demo_8qc_source.html":[2,0,5,4,100],
+"d4/d4e/datasource_8qc.html":[2,0,5,4,34],
 "d4/d4e/datasource_8qc_source.html":[2,0,5,4,34],
 "d4/d51/healtharmor_8qh.html":[2,0,0,1,0,11],
 "d4/d51/healtharmor_8qh_source.html":[2,0,0,1,0,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX37 =
 "d4/d5f/classXonoticFirstRunDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,164,71],
 "d4/d5f/classXonoticFirstRunDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,164,8],
 "d4/d5f/classXonoticFirstRunDialog.html#a2602f8dcaee294ccbd9691fd7cc7ffd9":[1,0,164,79],
-"d4/d5f/classXonoticFirstRunDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,164,73],
-"d4/d5f/classXonoticFirstRunDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,164,4],
-"d4/d5f/classXonoticFirstRunDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,164,44],
-"d4/d5f/classXonoticFirstRunDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,164,22]
+"d4/d5f/classXonoticFirstRunDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,164,73]
 };

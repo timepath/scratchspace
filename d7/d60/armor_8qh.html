@@ -139,8 +139,8 @@ Functions</h2></td></tr>
 <tr class="separator:a7d0f1e130fbb2dfd4860e968a8fa4d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4598516d5f87c6d0111f4f7701cf6398"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d60/armor_8qh.html#a4598516d5f87c6d0111f4f7701cf6398">REGISTER_ITEM</a> (ArmorMedium, <a class="el" href="../../d5/df0/classArmor.html">Armor</a>)</td></tr>
 <tr class="separator:a4598516d5f87c6d0111f4f7701cf6398"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cd50b1cdabe9d14011ba1ea11fb2ad3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d60/armor_8qh.html#a1cd50b1cdabe9d14011ba1ea11fb2ad3">REGISTER_ITEM</a> (ArmorLarge, <a class="el" href="../../d5/df0/classArmor.html">Armor</a>)</td></tr>
-<tr class="separator:a1cd50b1cdabe9d14011ba1ea11fb2ad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d399007ec5b69e3d2aac39525dd5289"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d60/armor_8qh.html#a7d399007ec5b69e3d2aac39525dd5289">REGISTER_ITEM</a> (ArmorBig, <a class="el" href="../../d5/df0/classArmor.html">Armor</a>)</td></tr>
+<tr class="separator:a7d399007ec5b69e3d2aac39525dd5289"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a536a3e66cc4bdad34c8c894aafa7caf6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d60/armor_8qh.html#a536a3e66cc4bdad34c8c894aafa7caf6">REGISTER_ITEM</a> (ArmorMega, <a class="el" href="../../d5/df0/classArmor.html">Armor</a>)</td></tr>
 <tr class="separator:a536a3e66cc4bdad34c8c894aafa7caf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -241,14 +241,14 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 </div>
 </div>
-<a class="anchor" id="a1cd50b1cdabe9d14011ba1ea11fb2ad3"></a>
+<a class="anchor" id="a7d399007ec5b69e3d2aac39525dd5289"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">REGISTER_ITEM </td>
           <td>(</td>
-          <td class="paramtype">ArmorLarge&#160;</td>
+          <td class="paramtype">ArmorBig&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -268,15 +268,15 @@ Functions</h2></td></tr>
 <p>Definition at line <a class="el" href="../../d7/d60/armor_8qh_source.html#l00061">61</a> of file <a class="el" href="../../d7/d60/armor_8qh_source.html">armor.qh</a>.</p>
 
 <p>References <a class="el" href="../../d7/d61/misc_8qh_source.html#l00031">GET</a>, <a class="el" href="../../d7/d7c/common_2items_2item_8qh_source.html#l00023">IT_ARMOR</a>, and <a class="el" href="../../d2/d37/jetpack_8qh_source.html#l00011">m_itemid</a>.</p>
-<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                 {</div>
+<div class="fragment"><div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                               {</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span>    this.m_model                =   MDL_ArmorLarge_ITEM;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    this.m_sound                =   SND_ArmorLarge;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span>    this.m_model                =   MDL_ArmorBig_ITEM;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    this.m_sound                =   SND_ArmorBig;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor"></span>    this.m_name                 =   <span class="stringliteral">&quot;50 Armor&quot;</span>;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    this.m_icon                 =   <span class="stringliteral">&quot;armor&quot;</span>;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    this.m_color                =   <span class="stringliteral">&#39;0 1 0&#39;</span>;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    this.m_waypoint             =   _(<span class="stringliteral">&quot;Large armor&quot;</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    this.m_waypoint             =   _(<span class="stringliteral">&quot;Big armor&quot;</span>);</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor"></span>    this.m_botvalue             =   20000; <span class="comment">// FIXME: higher than BOT_PICKUP_RATING_HIGH?</span></div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    this.<a class="code" href="../../d2/d37/jetpack_8qh.html#a2c82e29d04f7365b5b7eb2210eeda604">m_itemid</a>               =   <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#ae2b65d0141ab9af9139eb46f4156849b">IT_ARMOR</a>;</div>
@@ -348,7 +348,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_e220edc87b29ed8f83fd5a560ddf76b2.html">items</a></li><li class="navelem"><a class="el" href="../../dir_eb421a12fa3ad96b2d69a2d89197bc6b.html">item</a></li><li class="navelem"><a class="el" href="../../d7/d60/armor_8qh.html">armor.qh</a></li>
-    <li class="footer">Generated on Sat Dec 10 2016 06:38:20 for Xonotic by
+    <li class="footer">Generated on Sat Dec 10 2016 12:09:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

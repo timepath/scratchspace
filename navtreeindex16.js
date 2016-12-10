@@ -1,5 +1,6 @@
 var NAVTREEINDEX16 =
 {
+"d2/d25/vehicles_8qc.html":[2,0,1,15,12],
 "d2/d25/vehicles_8qc_source.html":[2,0,1,15,12],
 "d2/d26/classInvasion.html":[1,0,55],
 "d2/d26/classInvasion.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,55,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX16 =
 "d2/d4b/classPlayer.html#a2578f01ea21860399662d52a97ad9ce2":[1,0,95,11],
 "d2/d4b/classPlayer.html#a2dae84a754cf7b77999839bf5891ca42":[1,0,95,9],
 "d2/d4b/classPlayer.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012":[1,0,95,16],
-"d2/d4b/classPlayer.html#a348fa10d11efdf527c16c2c6e1a018f1":[1,0,95,5],
-"d2/d4b/classPlayer.html#a486563026f66dc61e671c089890b2be9":[1,0,95,18]
+"d2/d4b/classPlayer.html#a348fa10d11efdf527c16c2c6e1a018f1":[1,0,95,5]
 };

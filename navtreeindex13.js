@@ -1,5 +1,6 @@
 var NAVTREEINDEX13 =
 {
+"d1/dae/targettrigger_8qc.html#a57bf4f9046742463827e6df38ce61e6b":[2,0,1,14,15,1],
 "d1/dae/targettrigger_8qc.html#a7a51aca34bd7d37e482beca731317bf5":[2,0,1,14,15,0],
 "d1/dae/targettrigger_8qc_source.html":[2,0,1,14,15],
 "d1/daf/common_2impulses_2__mod_8inc.html":[2,0,1,4,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX13 =
 "d1/ddc/toss_8qh_source.html":[2,0,1,11,0,10],
 "d1/de2/classFreezeTag.html":[1,0,38],
 "d1/de2/classFreezeTag.html#a1c3ad24ed170a3db98942e74803680f3":[1,0,38,13],
-"d1/de2/classFreezeTag.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,38,1],
-"d1/de2/classFreezeTag.html#a353db82280437c3b38f0ad1934a7d666":[1,0,38,16]
+"d1/de2/classFreezeTag.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,38,1]
 };

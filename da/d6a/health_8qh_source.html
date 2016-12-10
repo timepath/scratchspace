@@ -161,19 +161,19 @@ $(document).ready(function(){initNavTree('da/d6a/health_8qh_source.html','../../
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;<span class="preprocessor"></span>}</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor"></span><a class="code" href="../../dd/d65/models_2all_8qh.html#a684da11740152ec2a19925538503fb9a">MODEL</a>(HealthLarge_ITEM, <a class="code" href="../../d3/d1f/items_2all_8qc.html#a718980a67d03a2d6feb39aa9b06307cd">Item_Model</a>(<span class="stringliteral">&quot;g_h50.md3&quot;</span>));</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<a class="code" href="../../df/dc2/sounds_2all_8qh.html#ae03a43610e8d839002569e42781aec08">SOUND</a>(HealthLarge, <span class="stringliteral">&quot;misc/mediumhealth&quot;</span>);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<span class="preprocessor"></span><a class="code" href="../../dd/d65/models_2all_8qh.html#a684da11740152ec2a19925538503fb9a">MODEL</a>(HealthBig_ITEM, <a class="code" href="../../d3/d1f/items_2all_8qc.html#a718980a67d03a2d6feb39aa9b06307cd">Item_Model</a>(<span class="stringliteral">&quot;g_h50.md3&quot;</span>));</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<a class="code" href="../../df/dc2/sounds_2all_8qh.html#ae03a43610e8d839002569e42781aec08">SOUND</a>(HealthBig, <span class="stringliteral">&quot;misc/mediumhealth&quot;</span>);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../da/d6a/health_8qh.html#a49e35cc684423eec12c55c8d664dce3f">   61</a></span>&#160;<a class="code" href="../../da/d6a/health_8qh.html#ac737cbf9e6474f8f4fc5b90d844a0d93">REGISTER_ITEM</a>(HealthLarge, <a class="code" href="../../d5/d64/classHealth.html">Health</a>) {</div>
+<div class="line"><a name="l00061"></a><span class="lineno"><a class="line" href="../../da/d6a/health_8qh.html#acd779843151eff7554015c3bc54b25b1">   61</a></span>&#160;<a class="code" href="../../da/d6a/health_8qh.html#ac737cbf9e6474f8f4fc5b90d844a0d93">REGISTER_ITEM</a>(HealthBig, <a class="code" href="../../d5/d64/classHealth.html">Health</a>) {</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#ifdef GAMEQC</span></div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span>    this.m_model                =   MDL_HealthLarge_ITEM;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    this.m_sound                =   SND_HealthLarge;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span>    this.m_model                =   MDL_HealthBig_ITEM;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    this.m_sound                =   SND_HealthBig;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor"></span>    this.m_name                 =   <span class="stringliteral">&quot;50 Health&quot;</span>;</div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    this.m_icon                 =   <span class="stringliteral">&quot;health&quot;</span>;</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    this.m_color                =   <span class="stringliteral">&#39;1 0 0&#39;</span>;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    this.m_waypoint             =   _(<span class="stringliteral">&quot;Large health&quot;</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    this.m_waypoint             =   _(<span class="stringliteral">&quot;Big health&quot;</span>);</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;<span class="preprocessor"></span>    this.m_botvalue             =   <a class="code" href="../../de/dda/pickup_8qh.html#a570ba7d810a7e1fccaf88195270eec21">BOT_PICKUP_RATING_MID</a>;</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    this.<a class="code" href="../../d2/d37/jetpack_8qh.html#a2c82e29d04f7365b5b7eb2210eeda604">m_itemid</a>               =   <a class="code" href="../../d7/d7c/common_2items_2item_8qh.html#aef700bb44050a793f050457d34440288">IT_25HP</a>;</div>
@@ -232,7 +232,7 @@ $(document).ready(function(){initNavTree('da/d6a/health_8qh_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_e220edc87b29ed8f83fd5a560ddf76b2.html">items</a></li><li class="navelem"><a class="el" href="../../dir_eb421a12fa3ad96b2d69a2d89197bc6b.html">item</a></li><li class="navelem"><a class="el" href="../../da/d6a/health_8qh.html">health.qh</a></li>
-    <li class="footer">Generated on Sat Dec 10 2016 06:38:13 for Xonotic by
+    <li class="footer">Generated on Sat Dec 10 2016 12:09:22 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

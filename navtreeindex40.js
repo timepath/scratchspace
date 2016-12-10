@@ -1,5 +1,8 @@
 var NAVTREEINDEX40 =
 {
+"d4/d90/skin-customizables_8inc.html#afc92eac528950606dc238cba8892d5ea":[2,0,5,20,41],
+"d4/d90/skin-customizables_8inc_source.html":[2,0,5,20],
+"d4/d91/classXonoticCampaignList.html":[1,0,143],
 "d4/d91/classXonoticCampaignList.html#a03353d1ffe5d9c73b4ee54147dd268f4":[1,0,143,86],
 "d4/d91/classXonoticCampaignList.html#a05ef0873600f2c890e8a631fc38e2f90":[1,0,143,51],
 "d4/d91/classXonoticCampaignList.html#a1047817968d82f54687b5e2440af0eb8":[1,0,143,54],
@@ -246,8 +249,5 @@ var NAVTREEINDEX40 =
 "d4/d94/classXonoticHUDVoteDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,193,72],
 "d4/d94/classXonoticHUDVoteDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,193,4],
 "d4/d94/classXonoticHUDVoteDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,193,43],
-"d4/d94/classXonoticHUDVoteDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,193,21],
-"d4/d94/classXonoticHUDVoteDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,193,49],
-"d4/d94/classXonoticHUDVoteDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,193,54],
-"d4/d94/classXonoticHUDVoteDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,193,29]
+"d4/d94/classXonoticHUDVoteDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,193,21]
 };
