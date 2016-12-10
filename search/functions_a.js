@@ -8,5 +8,6 @@ var searchData=
   ['json_5fdel',['json_del',['../d6/dce/json_8qc.html#a8886d8f98e95f8f9fced0eb1b1da6b04',1,'json.qc']]],
   ['json_5fdump',['json_dump',['../d6/dce/json_8qc.html#ab02d7990ac4d64bc05810a1a8d8beb05',1,'json.qc']]],
   ['json_5fget',['json_get',['../d6/dce/json_8qc.html#aaa6acc35c43d8361cdab2c035e1f57c8',1,'json.qc']]],
-  ['json_5fparse',['json_parse',['../d6/dce/json_8qc.html#a3c17476779d0f2bb36ec7601ac57ae13',1,'json.qc']]]
+  ['json_5fparse',['json_parse',['../d6/dce/json_8qc.html#a3c17476779d0f2bb36ec7601ac57ae13',1,'json.qc']]],
+  ['jumppad_5fpush',['jumppad_push',['../d2/d9b/jumppads_8qc.html#ae9271783043a000e2b18d8be9543c580',1,'jumppads.qc']]]
 ];

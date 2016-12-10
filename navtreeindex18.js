@@ -65,9 +65,10 @@ var NAVTREEINDEX18 =
 "d2/d9b/common_2effects_2qc_2__mod_8qh.html":[2,0,1,2,0,1],
 "d2/d9b/common_2effects_2qc_2__mod_8qh_source.html":[2,0,1,2,0,1],
 "d2/d9b/jumppads_8qc.html":[2,0,1,13,3,22],
-"d2/d9b/jumppads_8qc.html#a314c2ab38cad8dd0cbe7622152bb918d":[2,0,1,13,3,22,0],
-"d2/d9b/jumppads_8qc.html#a66ad79d10244774bb2ebf5c354538d26":[2,0,1,13,3,22,1],
-"d2/d9b/jumppads_8qc.html#affeed36a4bfbccc789a223127cd20da4":[2,0,1,13,3,22,2],
+"d2/d9b/jumppads_8qc.html#a314c2ab38cad8dd0cbe7622152bb918d":[2,0,1,13,3,22,1],
+"d2/d9b/jumppads_8qc.html#a66ad79d10244774bb2ebf5c354538d26":[2,0,1,13,3,22,2],
+"d2/d9b/jumppads_8qc.html#ae9271783043a000e2b18d8be9543c580":[2,0,1,13,3,22,0],
+"d2/d9b/jumppads_8qc.html#affeed36a4bfbccc789a223127cd20da4":[2,0,1,13,3,22,3],
 "d2/d9b/jumppads_8qc_source.html":[2,0,1,13,3,22],
 "d2/d9b/server_2command_2__mod_8qh.html":[2,0,6,1,1],
 "d2/d9b/server_2command_2__mod_8qh_source.html":[2,0,6,1,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "d2/db1/movetypes_8qc.html#a14cb5c9b8cf5efc10f5e55f9ae63b556":[2,0,1,11,0,5,4],
 "d2/db1/movetypes_8qc.html#a1c681fcc84c5196534b06c2430e184ee":[2,0,1,11,0,5,9],
 "d2/db1/movetypes_8qc.html#a2ad725bc81de4f1ffff07adfb63a64c1":[2,0,1,11,0,5,14],
-"d2/db1/movetypes_8qc.html#a2facb9e1aeca6834f7b82e321442ed93":[2,0,1,11,0,5,27],
-"d2/db1/movetypes_8qc.html#a339edb79ca2ee708f1d39819496794bf":[2,0,1,11,0,5,3]
+"d2/db1/movetypes_8qc.html#a2facb9e1aeca6834f7b82e321442ed93":[2,0,1,11,0,5,27]
 };

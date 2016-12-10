@@ -1,5 +1,6 @@
 var NAVTREEINDEX85 =
 {
+"d9/dce/classHeavyMachineGun.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,44,27],
 "d9/dce/classHeavyMachineGun.html#a803460e7e4deb724606e893497dae343":[1,0,44,24],
 "d9/dce/classHeavyMachineGun.html#a80fa9a65e19370473a29baebc04d0626":[1,0,44,4],
 "d9/dce/classHeavyMachineGun.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,44,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX85 =
 "d9/deb/classXonoticHUDTimerDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,192,44],
 "d9/deb/classXonoticHUDTimerDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,192,0],
 "d9/deb/classXonoticHUDTimerDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,192,16],
-"d9/deb/classXonoticHUDTimerDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,192,33],
-"d9/deb/classXonoticHUDTimerDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,192,38]
+"d9/deb/classXonoticHUDTimerDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,192,33]
 };

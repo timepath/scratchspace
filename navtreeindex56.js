@@ -1,5 +1,6 @@
 var NAVTREEINDEX56 =
 {
+"d6/d99/effectinfo__buffs_8inc.html#af6321e79c85cf47dd20db3e7beacd4a3":[2,0,1,2,10,15],
 "d6/d99/effectinfo__buffs_8inc_source.html":[2,0,1,2,10],
 "d6/d9c/bd_8qh.html":[2,0,1,6,0,4],
 "d6/d9c/bd_8qh_source.html":[2,0,1,6,0,4],
@@ -248,6 +249,5 @@ var NAVTREEINDEX56 =
 "d6/dce/sounds_2all_8inc.html#a6a013ac913f4af023682c04831343157":[2,0,1,12,2,194],
 "d6/dce/sounds_2all_8inc.html#a6a5dfc1f024c6685ad1d158d89cb3114":[2,0,1,12,2,170],
 "d6/dce/sounds_2all_8inc.html#a6c492e572274ddf58bc1a119636fd22f":[2,0,1,12,2,40],
-"d6/dce/sounds_2all_8inc.html#a6d7f811f5d266851761c842de4641be2":[2,0,1,12,2,166],
-"d6/dce/sounds_2all_8inc.html#a6fe8a7ccb40b30c3c5371a3d1f6540e3":[2,0,1,12,2,145]
+"d6/dce/sounds_2all_8inc.html#a6d7f811f5d266851761c842de4641be2":[2,0,1,12,2,166]
 };
