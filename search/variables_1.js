@@ -188,6 +188,7 @@ var searchData=
   ['armorblockpercent',['armorblockpercent',['../d0/d2a/client_2main_8qh.html#a4f852f985cc39815380887599ba335b3',1,'main.qh']]],
   ['armortype',['armortype',['../d6/d11/progsdefs_8qc.html#af2dbe25d0785cb3d72bc6736b19c8df3',1,'progsdefs.qc']]],
   ['armorvalue',['armorvalue',['../d6/d11/progsdefs_8qc.html#a8f1fedffff0fe0b96c93d099a3aa02b9',1,'progsdefs.qc']]],
+  ['as_5fround',['as_round',['../d9/d8e/gamemode__assault_8qc.html#a72842c12d593cf3a8ab8639f0aab2f16',1,'gamemode_assault.qc']]],
   ['asf_5fall',['ASF_ALL',['../da/d6b/sv__superspec_8qc.html#af09af0d2356287dccd7f84040b2fff38',1,'sv_superspec.qc']]],
   ['asf_5fflag_5fgrab',['ASF_FLAG_GRAB',['../da/d6b/sv__superspec_8qc.html#abe8c42cdb38cecbf497b668d5f73fe52',1,'sv_superspec.qc']]],
   ['asf_5ffollowkiller',['ASF_FOLLOWKILLER',['../da/d6b/sv__superspec_8qc.html#a569b4c2f8567264c2dd27eab5f9efd1c',1,'sv_superspec.qc']]],

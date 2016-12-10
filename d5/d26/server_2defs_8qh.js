@@ -156,7 +156,6 @@ var server_2defs_8qh =
     [ "game_completion_ratio", "d5/d26/server_2defs_8qh.html#ade9e09fd1e749c3e7a7cead63b9561ef", null ],
     [ "game_starttime", "d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8", null ],
     [ "gamemode_name", "d5/d26/server_2defs_8qh.html#a28e18708dd262dd304c3371d071a5b18", null ],
-    [ "gameover", "d5/d26/server_2defs_8qh.html#a3ba73e1a51134c9d261efef0d3e07723", null ],
     [ "grab", "d5/d26/server_2defs_8qh.html#a6f34f8320d12028a7513dccc40735a24", null ],
     [ "hagar_load", "d5/d26/server_2defs_8qh.html#a044ccfadd8a43c3ffc642665a1ba6953", null ],
     [ "have_team_spawns", "d5/d26/server_2defs_8qh.html#a82bd246c33cb412dec913e65a81b461c", null ],

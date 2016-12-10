@@ -1,5 +1,8 @@
 var NAVTREEINDEX111 =
 {
+"dc/df7/classXonoticCvarsDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,156,18],
+"dc/df7/classXonoticCvarsDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,156,14],
+"dc/df7/classXonoticCvarsDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,156,66],
 "dc/df7/classXonoticCvarsDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,156,25],
 "dc/df7/classXonoticCvarsDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,156,88],
 "dc/df7/classXonoticCvarsDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,156,80],
@@ -208,8 +211,8 @@ var NAVTREEINDEX111 =
 "dd/d31/banning_8qc.html#a9079672ef2f7fb45bb47710c5d0f0921":[2,0,6,1,2,6],
 "dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324":[2,0,6,1,2,7],
 "dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1":[2,0,6,1,2,8],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,3],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,2],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,3],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
 "dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0":[2,0,6,1,2,11],
@@ -246,8 +249,5 @@ var NAVTREEINDEX111 =
 "dd/d36/classXonoticGameViewSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,171,73],
 "dd/d36/classXonoticGameViewSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,171,4],
 "dd/d36/classXonoticGameViewSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,171,47],
-"dd/d36/classXonoticGameViewSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,171,25],
-"dd/d36/classXonoticGameViewSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,171,53],
-"dd/d36/classXonoticGameViewSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,171,33],
-"dd/d36/classXonoticGameViewSettingsTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,171,23]
+"dd/d36/classXonoticGameViewSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,171,25]
 };

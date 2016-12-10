@@ -102,6 +102,7 @@ var searchData=
   ['appenditemcodes',['AppendItemcodes',['../d5/dac/g__damage_8qc.html#ade2887aa1376d34775f751d2a81565b0',1,'AppendItemcodes(string s, entity player):&#160;g_damage.qc'],['../dd/de4/g__damage_8qh.html#ade2887aa1376d34775f751d2a81565b0',1,'AppendItemcodes(string s, entity player):&#160;g_damage.qc']]],
   ['applyminmaxscaleangles',['ApplyMinMaxScaleAngles',['../d2/d11/g__subs_8qc.html#a1a4bbd8167f5c8536222892f98565b04',1,'ApplyMinMaxScaleAngles(entity e):&#160;g_subs.qc'],['../d6/d93/g__subs_8qh.html#a1a4bbd8167f5c8536222892f98565b04',1,'ApplyMinMaxScaleAngles(entity e):&#160;g_subs.qc']]],
   ['argv',['argv',['../d8/de2/menudefs_8qc.html#ae3e9d36eda7886f5fe58e5201291dd78',1,'menudefs.qc']]],
+  ['as_5fround_5fthink',['as_round_think',['../d9/d8e/gamemode__assault_8qc.html#a1b885e73fe6dcbd3d7e840f6c290091f',1,'gamemode_assault.qc']]],
   ['asinh',['asinh',['../df/d38/mathlib_8qc.html#ae637aa34c014f1cc17429b85ad4b7c07',1,'asinh(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#ae637aa34c014f1cc17429b85ad4b7c07',1,'asinh(float e):&#160;mathlib.qc']]],
   ['assault',['Assault',['../d1/dd9/classAssault.html#a1c0d7c47b4d6ca22c6b8c9c7120cc891',1,'Assault']]],
   ['assault_5fdecreaser_5fsprite_5fvisible',['assault_decreaser_sprite_visible',['../d9/d8e/gamemode__assault_8qc.html#a68693cbd8c35d4b2d6d0c23dc2f3bae7',1,'gamemode_assault.qc']]],

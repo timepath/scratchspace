@@ -1,5 +1,7 @@
 var gamemode__assault_8qc =
 [
+    [ "AS_ROUND_DELAY", "d9/d8e/gamemode__assault_8qc.html#af871928416586865fe82d33a9adf2a26", null ],
+    [ "as_round_think", "d9/d8e/gamemode__assault_8qc.html#a1b885e73fe6dcbd3d7e840f6c290091f", null ],
     [ "assault_decreaser_sprite_visible", "d9/d8e/gamemode__assault_8qc.html#a68693cbd8c35d4b2d6d0c23dc2f3bae7", null ],
     [ "assault_new_round", "d9/d8e/gamemode__assault_8qc.html#a04d93982d839a10d20cb7453aa9050bc", null ],
     [ "assault_objective_decrease_use", "d9/d8e/gamemode__assault_8qc.html#a93a0a9793bfaff896dfe01dcdf4d601f", null ],
@@ -39,5 +41,7 @@ var gamemode__assault_8qc =
     [ "target_objective_decrease_findtarget", "d9/d8e/gamemode__assault_8qc.html#ae6b4d2c7f083a78d9284fe838a1d17dc", null ],
     [ "target_objective_spawn_evalfunc", "d9/d8e/gamemode__assault_8qc.html#aa2cf747a858e69977f9a8f0cbdced887", null ],
     [ "WinningCondition_Assault", "d9/d8e/gamemode__assault_8qc.html#adc4d12f7dad0d3fca008c994bb1a7e73", null ],
+    [ "as_round", "d9/d8e/gamemode__assault_8qc.html#a72842c12d593cf3a8ab8639f0aab2f16", null ],
+    [ "ent_winning", "d9/d8e/gamemode__assault_8qc.html#a6f4edbea3efa7b76739a74aff758b159", null ],
     [ "sprite", "d9/d8e/gamemode__assault_8qc.html#a44f2d02591475477365d7f7ec9d55f3c", null ]
 ];

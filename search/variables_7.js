@@ -101,8 +101,6 @@ var searchData=
   ['game_5fisserver',['GAME_ISSERVER',['../d0/d41/menu_8qh.html#a7e2625cbc212e674f279dcf3a1dc6312',1,'menu.qh']]],
   ['game_5fstarttime',['game_starttime',['../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8',1,'defs.qh']]],
   ['gamemode_5fname',['gamemode_name',['../d5/d26/server_2defs_8qh.html#a28e18708dd262dd304c3371d071a5b18',1,'defs.qh']]],
-  ['gameover',['gameover',['../d5/d26/server_2defs_8qh.html#a3ba73e1a51134c9d261efef0d3e07723',1,'defs.qh']]],
-  ['gameover_5ftime',['gameover_time',['../d9/d08/client_2defs_8qh.html#a233512cf446d09e2a43a3a10f5abac07',1,'defs.qh']]],
   ['gamestart_5fsv_5fcheats',['gamestart_sv_cheats',['../d6/de9/cheats_8qc.html#ae9d36814925a74febb4ea1d621c300a5',1,'cheats.qc']]],
   ['gamestatus',['gamestatus',['../d0/d41/menu_8qh.html#ab0b9556c1dc022e3830284c4c1725582',1,'menu.qh']]],
   ['gametype',['gametype',['../d0/d2a/client_2main_8qh.html#a796761bb60e941804441ef425b24d86c',1,'gametype():&#160;main.qh'],['../d1/d91/t__quake3_8qc.html#a2b5940622e65c2f4e246f117173ec146',1,'gametype():&#160;t_quake3.qc']]],

@@ -199,8 +199,6 @@ var searchData=
   ['gamemode_5frace_2eqh',['gamemode_race.qh',['../d7/ddc/gamemode__race_8qh.html',1,'']]],
   ['gamemode_5ftdm_2eqc',['gamemode_tdm.qc',['../d2/d0c/gamemode__tdm_8qc.html',1,'']]],
   ['gamemode_5ftdm_2eqh',['gamemode_tdm.qh',['../d9/de0/gamemode__tdm_8qh.html',1,'']]],
-  ['gameover',['gameover',['../d5/d26/server_2defs_8qh.html#a3ba73e1a51134c9d261efef0d3e07723',1,'defs.qh']]],
-  ['gameover_5ftime',['gameover_time',['../d9/d08/client_2defs_8qh.html#a233512cf446d09e2a43a3a10f5abac07',1,'defs.qh']]],
   ['gameplayfix_5fdowntraceonground',['GAMEPLAYFIX_DOWNTRACEONGROUND',['../de/d70/common_2physics_2player_8qh.html#a355ad000887bfbb3fa387376ce9116ef',1,'player.qh']]],
   ['gameplayfix_5feasierwaterjump',['GAMEPLAYFIX_EASIERWATERJUMP',['../de/d70/common_2physics_2player_8qh.html#a86866b9ab036632e4b60c4dc204e1347',1,'player.qh']]],
   ['gameplayfix_5fstepdown',['GAMEPLAYFIX_STEPDOWN',['../de/d70/common_2physics_2player_8qh.html#a29a88512a529238f210bd12531cf3859',1,'player.qh']]],

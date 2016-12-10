@@ -1,5 +1,8 @@
 var NAVTREEINDEX126 =
 {
+"df/d28/sv__turrets_8qh.html#a708c17bef2ecf4d4856a9044821052d4":[2,0,1,14,14,36],
+"df/d28/sv__turrets_8qh.html#a74fa1d579600d49af13764cf92f21b64":[2,0,1,14,14,30],
+"df/d28/sv__turrets_8qh.html#a7da351a830557a1fb4b0908c9daf45f1":[2,0,1,14,14,68],
 "df/d28/sv__turrets_8qh.html#a87838cf5845f0422b419e6d57f068bca":[2,0,1,14,14,13],
 "df/d28/sv__turrets_8qh.html#a89e99560228fd7c358fb92c87144bfb0":[2,0,1,14,14,25],
 "df/d28/sv__turrets_8qh.html#a90b555cdf003b86e477a59efac8b4a14":[2,0,1,14,14,67],
@@ -246,8 +249,5 @@ var NAVTREEINDEX126 =
 "df/d64/throwing_8qc.html#a97f02d70ce7169f7c173a2b3cb3de2fc":[2,0,6,4,14,0],
 "df/d64/throwing_8qc_source.html":[2,0,6,4,14],
 "df/d69/sv__midair_8qh.html":[2,0,1,9,0,15,3],
-"df/d69/sv__midair_8qh_source.html":[2,0,1,9,0,15,3],
-"df/d6c/powerups_8qh.html":[2,0,0,1,0,23],
-"df/d6c/powerups_8qh.html#a0548d6d5f32ee93186047be9beff7348":[2,0,0,1,0,23,0],
-"df/d6c/powerups_8qh_source.html":[2,0,0,1,0,23]
+"df/d69/sv__midair_8qh_source.html":[2,0,1,9,0,15,3]
 };
