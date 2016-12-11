@@ -1,6 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"da/db7/classXonoticServerInfoDialog.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,231,57],
 "da/db7/classXonoticServerInfoDialog.html#a4d104c9fbab686c1330b98d05db10330":[1,0,231,87],
 "da/db7/classXonoticServerInfoDialog.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,231,64],
 "da/db7/classXonoticServerInfoDialog.html#a4ee2e27fd5a7c6a28e299d2e21caf470":[1,0,231,35],
@@ -249,5 +248,6 @@ var NAVTREEINDEX91 =
 "da/dd1/classCaptureTheFlag.html":[1,0,14],
 "da/dd1/classCaptureTheFlag.html#a1607fee5ff312589eb22131e314eef3d":[1,0,14,0],
 "da/dd1/classCaptureTheFlag.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,14,1],
-"da/dd1/classCaptureTheFlag.html#a353db82280437c3b38f0ad1934a7d666":[1,0,14,16]
+"da/dd1/classCaptureTheFlag.html#a353db82280437c3b38f0ad1934a7d666":[1,0,14,16],
+"da/dd1/classCaptureTheFlag.html#a503201efc30576e8c0d77715b14c7a09":[1,0,14,10]
 };
