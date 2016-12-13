@@ -26,6 +26,7 @@ var gamemode__ctf_8qc =
     [ "ctf_Handle_Retrieve", "d3/d73/gamemode__ctf_8qc.html#aeb39654f0dfbddb02784d6a1bd18fe11", null ],
     [ "ctf_Handle_Return", "d3/d73/gamemode__ctf_8qc.html#a7fdf9f8c96e3bc28c6cbde78c181a700", null ],
     [ "ctf_Handle_Throw", "d3/d73/gamemode__ctf_8qc.html#ac3752a0a10eae50c841c11564b380513", null ],
+    [ "ctf_Immediate_Return_Allowed", "d3/d73/gamemode__ctf_8qc.html#a9e6d0c5e09ede8ab31b69996388fd69f", null ],
     [ "ctf_Initialize", "d3/d73/gamemode__ctf_8qc.html#aab6870036ed34fe0117285be7ccc63d5", null ],
     [ "ctf_RemovePlayer", "d3/d73/gamemode__ctf_8qc.html#aa395d9b23fb8f306da8fba5841d0c960", null ],
     [ "ctf_Reset", "d3/d73/gamemode__ctf_8qc.html#afb2c59bc3b1ee0e0518cc645b93ddaff", null ],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX73 =
 {
+"d8/d76/xonotic_2checkbox_8qh_source.html":[2,0,5,4,13],
 "d8/d79/notifications_2all_8qc.html":[2,0,1,10,3],
 "d8/d79/notifications_2all_8qc.html#a0271f2897012f4c89692ef7cea9745da":[2,0,1,10,3,37],
 "d8/d79/notifications_2all_8qc.html#a133e943a6fbd569e8fe1c2e579c43e47":[2,0,1,10,3,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX73 =
 "d8/da4/classInputContainer.html#a086d32c9694472250922d42417bc8d66":[1,0,53,3],
 "d8/da4/classInputContainer.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,53,18],
 "d8/da4/classInputContainer.html#a21c7071e5024d898349acbe2717e16cc":[1,0,53,6],
-"d8/da4/classInputContainer.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,53,34],
-"d8/da4/classInputContainer.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,53,14]
+"d8/da4/classInputContainer.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,53,34]
 };
