@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"db/def/sort_8qh.html#a45075ab7a5511838f438adb5ede68752":[2,0,4,49,4],
 "db/def/sort_8qh.html#aa873e233b5a6e7f7869a3a554b2e075f":[2,0,4,49,5],
 "db/def/sort_8qh.html#acfadea3ab4515517029f36ef3dccb9a2":[2,0,4,49,2],
 "db/def/sort_8qh.html#ad8f0562632e6f98768f7b9201e0fe51e":[2,0,4,49,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX103 =
 "dc/d06/classDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,26,20],
 "dc/d06/classDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,26,10],
 "dc/d06/classDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,26,35],
-"dc/d06/classDialog.html#aade4a5316442e027933c0b7db0d7911f":[1,0,26,85],
-"dc/d06/classDialog.html#ab0e881d7112bc58e4284fabfcb02410d":[1,0,26,74]
+"dc/d06/classDialog.html#aade4a5316442e027933c0b7db0d7911f":[1,0,26,85]
 };

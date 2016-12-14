@@ -141,6 +141,9 @@ Macros</h2></td></tr>
 <tr class="memitem:a190dc70f275de005ee3ce2dc186cbce8"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a190dc70f275de005ee3ce2dc186cbce8">EV_DrawGrapplingHook</a>(i, o)</td></tr>
 <tr class="memdesc:a190dc70f275de005ee3ce2dc186cbce8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the grapple hook, allows changing hook texture and colour.  <a href="#a190dc70f275de005ee3ce2dc186cbce8">More...</a><br/></td></tr>
 <tr class="separator:a190dc70f275de005ee3ce2dc186cbce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a433a95d4c3ca47d030a5247dbc3d3a19"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a433a95d4c3ca47d030a5247dbc3d3a19">EV_DrawInfoMessages</a>(i, o)</td></tr>
+<tr class="memdesc:a433a95d4c3ca47d030a5247dbc3d3a19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when drawing info messages, allows adding new info messages.  <a href="#a433a95d4c3ca47d030a5247dbc3d3a19">More...</a><br/></td></tr>
+<tr class="separator:a433a95d4c3ca47d030a5247dbc3d3a19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ad70187358414cbaf8f2a0968c0fdea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea">EV_EditProjectile</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> id */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="memdesc:a1ad70187358414cbaf8f2a0968c0fdea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when a projectile's properties are being modified.  <a href="#a1ad70187358414cbaf8f2a0968c0fdea">More...</a><br/></td></tr>
 <tr class="separator:a1ad70187358414cbaf8f2a0968c0fdea"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -232,9 +235,8 @@ Functions</h2></td></tr>
 <tr class="memitem:abdcc8574bdcab88b68f782db00edacee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#abdcc8574bdcab88b68f782db00edacee">MUTATOR_HOOKABLE</a> (DrawScoreboard, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6">EV_NO_ARGS</a>)</td></tr>
 <tr class="memdesc:abdcc8574bdcab88b68f782db00edacee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return true to not draw scoreboard.  <a href="#abdcc8574bdcab88b68f782db00edacee">More...</a><br/></td></tr>
 <tr class="separator:abdcc8574bdcab88b68f782db00edacee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3821f9aa43756e94d37448a434683601"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a3821f9aa43756e94d37448a434683601">MUTATOR_HOOKABLE</a> (DrawInfoMessages, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6">EV_NO_ARGS</a>)</td></tr>
-<tr class="memdesc:a3821f9aa43756e94d37448a434683601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when drawing info messages, allows adding new info messages.  <a href="#a3821f9aa43756e94d37448a434683601">More...</a><br/></td></tr>
-<tr class="separator:a3821f9aa43756e94d37448a434683601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b28864eb4114e418d7ee3954282f208"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a6b28864eb4114e418d7ee3954282f208">MUTATOR_HOOKABLE</a> (DrawInfoMessages, <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a433a95d4c3ca47d030a5247dbc3d3a19">EV_DrawInfoMessages</a>)</td></tr>
+<tr class="separator:a6b28864eb4114e418d7ee3954282f208"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="a25bfd691414ad6357c67077eb7917f73"></a>
@@ -365,6 +367,38 @@ Functions</h2></td></tr>
 <p>Draw the grapple hook, allows changing hook texture and colour. </p>
 
 <p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00138">138</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a433a95d4c3ca47d030a5247dbc3d3a19"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_DrawInfoMessages</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line">                i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_0_vector) \          i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_1_vector) \</div>
+<div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
+</div><!-- fragment -->
+<p>Called when drawing info messages, allows adding new info messages. </p>
+
+<p>Definition at line <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html#l00162">162</a> of file <a class="el" href="../../d8/d0e/client_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -1395,7 +1429,7 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a3821f9aa43756e94d37448a434683601"></a>
+<a class="anchor" id="a6b28864eb4114e418d7ee3954282f208"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -1408,7 +1442,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6">EV_NO_ARGS</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html#a433a95d4c3ca47d030a5247dbc3d3a19">EV_DrawInfoMessages</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -1419,8 +1453,6 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Called when drawing info messages, allows adding new info messages. </p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -1429,7 +1461,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_08b4cf75afed9a7734ab4c2d9f3e6fae.html">mutators</a></li><li class="navelem"><a class="el" href="../../d8/d0e/client_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Wed Dec 14 2016 20:42:42 for Xonotic by
+    <li class="footer">Generated on Wed Dec 14 2016 21:04:27 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

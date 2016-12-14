@@ -1,5 +1,6 @@
 var NAVTREEINDEX114 =
 {
+"dd/d8a/dialog__settings__game__hudconfirm_8qh.html":[2,0,5,4,131],
 "dd/d8a/dialog__settings__game__hudconfirm_8qh_source.html":[2,0,5,4,131],
 "dd/d8b/sys-pre_8qh.html":[2,0,6,68],
 "dd/d8b/sys-pre_8qh.html#a0c0bbf4dba535c4665b7ed0f51b0abbc":[2,0,6,68,17],
@@ -248,6 +249,5 @@ var NAVTREEINDEX114 =
 "dd/d9a/classXonoticSandboxToolsDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,224,33],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,224,38],
 "dd/d9a/classXonoticSandboxToolsDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,224,58],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,224,85],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,224,51]
+"dd/d9a/classXonoticSandboxToolsDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,224,85]
 };
