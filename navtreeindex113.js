@@ -1,5 +1,8 @@
 var NAVTREEINDEX113 =
 {
+"dd/d6e/plat_8qc_source.html":[2,0,1,13,0,24],
+"dd/d70/pathlib_8qh.html":[2,0,6,3,14],
+"dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3":[2,0,6,3,14,1],
 "dd/d70/pathlib_8qh.html#a0576e617652793d2f11b3b32549170ca":[2,0,6,3,14,64],
 "dd/d70/pathlib_8qh.html#a06d2a473c8e47a4a9c565d013acfcd7b":[2,0,6,3,14,9],
 "dd/d70/pathlib_8qh.html#a0881ffe28801d90324af2eb500898d38":[2,0,6,3,14,58],
@@ -231,9 +234,9 @@ var NAVTREEINDEX113 =
 "dd/d87/effectinfo_8qc.html#a6b8c5c4e402229375c8d89ebb4205802":[2,0,1,2,8,7],
 "dd/d87/effectinfo_8qc.html#a7013a5ecacd9161fc18ab9ec50057862":[2,0,1,2,8,2],
 "dd/d87/effectinfo_8qc.html#a79c666691830269e5a19df328d53d840":[2,0,1,2,8,5],
+"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,10],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,8],
 "dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,9],
-"dd/d87/effectinfo_8qc.html#a7f50f3a9d3a2eeb76c14e09ee395601b":[2,0,1,2,8,10],
 "dd/d87/effectinfo_8qc.html#a98648a510e525da0904c11b9aa4bd4b6":[2,0,1,2,8,14],
 "dd/d87/effectinfo_8qc.html#aad6e2184a6caa4c54ace71341da9662e":[2,0,1,2,8,16],
 "dd/d87/effectinfo_8qc.html#aaecb26dfba6432e9f66a487881c0837b":[2,0,1,2,8,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX113 =
 "dd/d87/effectinfo_8qc_source.html":[2,0,1,2,8],
 "dd/d89/menu_2mutators_2__mod_8inc.html":[2,0,5,3,0],
 "dd/d89/menu_2mutators_2__mod_8inc_source.html":[2,0,5,3,0],
-"dd/d8a/dialog__settings__game__hudconfirm_8qh.html":[2,0,5,4,131],
-"dd/d8a/dialog__settings__game__hudconfirm_8qh_source.html":[2,0,5,4,131],
-"dd/d8b/sys-pre_8qh.html":[2,0,6,68],
-"dd/d8b/sys-pre_8qh.html#a0c0bbf4dba535c4665b7ed0f51b0abbc":[2,0,6,68,17]
+"dd/d8a/dialog__settings__game__hudconfirm_8qh.html":[2,0,5,4,131]
 };

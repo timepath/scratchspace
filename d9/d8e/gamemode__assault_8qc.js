@@ -26,6 +26,7 @@ var gamemode__assault_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d9/d8e/gamemode__assault_8qc.html#a0621c1e24e8a979d60d9a7617d84e7e5", null ],
     [ "MUTATOR_HOOKFUNCTION", "d9/d8e/gamemode__assault_8qc.html#a3ee50614e3830f95a0b8a9b4b4eaaaa2", null ],
     [ "MUTATOR_HOOKFUNCTION", "d9/d8e/gamemode__assault_8qc.html#ad70b8f5c789f8abf811ae934fd118bd7", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d9/d8e/gamemode__assault_8qc.html#affac51bf32b6ed4684b2b72da59bb66f", null ],
     [ "spawnfunc", "d9/d8e/gamemode__assault_8qc.html#ae0e300916d97354fbf4129971a5d3b4d", null ],
     [ "spawnfunc", "d9/d8e/gamemode__assault_8qc.html#a04e0263ea71bec2bee56db1ef877d059", null ],
     [ "spawnfunc", "d9/d8e/gamemode__assault_8qc.html#a5961aabd1db4d1af0897b34a7921952b", null ],

@@ -1,5 +1,8 @@
 var NAVTREEINDEX84 =
 {
+"d9/dad/xonotic_2radiobutton_8qc.html#ad6246d3b924142cee4128a6ab7d4bbd4":[2,0,5,4,192,1],
+"d9/dad/xonotic_2radiobutton_8qc_source.html":[2,0,5,4,192],
+"d9/db3/anim_8qc.html":[2,0,1,20],
 "d9/db3/anim_8qc.html#a421df7f2fe541d4a113e626456fb3cae":[2,0,1,20,1],
 "d9/db3/anim_8qc.html#a772713e6e892a6e8fe40076d9c0b68cd":[2,0,1,20,0],
 "d9/db3/anim_8qc_source.html":[2,0,1,20],
@@ -246,8 +249,5 @@ var NAVTREEINDEX84 =
 "d9/dce/classHeavyMachineGun.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,44,20],
 "d9/dce/classHeavyMachineGun.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,44,11],
 "d9/dce/classHeavyMachineGun.html#a4337268c8cad6836bae8efd4a8835070":[1,0,44,21],
-"d9/dce/classHeavyMachineGun.html#a433cc0989f98469131d0a53483b804eb":[1,0,44,25],
-"d9/dce/classHeavyMachineGun.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,44,1],
-"d9/dce/classHeavyMachineGun.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,44,15],
-"d9/dce/classHeavyMachineGun.html#a4c40bb8a3d6425143e1477bf42cfafed":[1,0,44,26]
+"d9/dce/classHeavyMachineGun.html#a433cc0989f98469131d0a53483b804eb":[1,0,44,25]
 };
