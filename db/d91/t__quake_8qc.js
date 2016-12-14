@@ -4,7 +4,7 @@ var t__quake_8qc =
     [ "spawnfunc", "db/d91/t__quake_8qc.html#a822ec2605e82db0fc56fb7798d1ce7d7", null ],
     [ "spawnfunc", "db/d91/t__quake_8qc.html#afa05d156bbfe1f471ef1a0f75033f361", null ],
     [ "spawnfunc", "db/d91/t__quake_8qc.html#a1e3cbf1063d168b51fc7277e1fb68e98", null ],
-    [ "spawnfunc", "db/d91/t__quake_8qc.html#a2cc0ce2e51e20d352549f96ce7c98dad", null ],
+    [ "spawnfunc", "db/d91/t__quake_8qc.html#a504a4c2d426b64eee43e0f2abe03dd39", null ],
     [ "spawnfunc", "db/d91/t__quake_8qc.html#afe3101cf9c60d4355d940b8e37b1bdad", null ],
     [ "spawnfunc", "db/d91/t__quake_8qc.html#abb2d4112cc8edd7d3592ba5ecf7931f8", null ],
     [ "spawnfunc", "db/d91/t__quake_8qc.html#a4e0ab3a310312732c19f5bbe224951d8", null ],

@@ -13,7 +13,7 @@ var t__quake3_8qc =
     [ "spawnfunc", "d1/d91/t__quake3_8qc.html#afe93d47c3383f9ef99fb4ceb408b2fbe", null ],
     [ "spawnfunc", "d1/d91/t__quake3_8qc.html#a279e07398abffcc71ea704a853c865c2", null ],
     [ "spawnfunc", "d1/d91/t__quake3_8qc.html#a53e6327a8202b7e6614002ba964adc41", null ],
-    [ "spawnfunc", "d1/d91/t__quake3_8qc.html#a2cc0ce2e51e20d352549f96ce7c98dad", null ],
+    [ "spawnfunc", "d1/d91/t__quake3_8qc.html#a504a4c2d426b64eee43e0f2abe03dd39", null ],
     [ "spawnfunc", "d1/d91/t__quake3_8qc.html#a30b072432885c063f1843cba7b30e6db", null ],
     [ "spawnfunc", "d1/d91/t__quake3_8qc.html#abb2d4112cc8edd7d3592ba5ecf7931f8", null ],
     [ "spawnfunc", "d1/d91/t__quake3_8qc.html#afe3101cf9c60d4355d940b8e37b1bdad", null ],
