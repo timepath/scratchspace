@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"d3/de3/classHellionAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,46,19],
 "d3/de3/classHellionAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,46,18],
 "d3/de3/classHellionAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,46,30],
 "d3/de3/classHellionAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,46,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "d4/d09/classXonoticCheckBoxString.html#a98e9b29dfe2a91ddb3b653eee1003b2f":[1,0,146,62],
 "d4/d09/classXonoticCheckBoxString.html#a9e6aab7037d243e3fe97dc8131177828":[1,0,146,45],
 "d4/d09/classXonoticCheckBoxString.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,146,21],
-"d4/d09/classXonoticCheckBoxString.html#aadf22fd0b74fa4a5192dcc33efa3386c":[1,0,146,51],
-"d4/d09/classXonoticCheckBoxString.html#aae2bc4f908afc77b4095838f729cd68b":[1,0,146,57]
+"d4/d09/classXonoticCheckBoxString.html#aadf22fd0b74fa4a5192dcc33efa3386c":[1,0,146,51]
 };
