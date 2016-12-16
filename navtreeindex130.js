@@ -1,5 +1,6 @@
 var NAVTREEINDEX130 =
 {
+"df/dc9/classXonoticHUDQuickMenuDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,187,0],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,187,16],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#ac8ff390cca131390f263bd3a63dffae0":[1,0,187,78],
 "df/dc9/classXonoticHUDQuickMenuDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,187,33],
@@ -248,6 +249,5 @@ var NAVTREEINDEX130 =
 "df/df1/common_2mutators_2mutator_2touchexplode_2__mod_8inc_source.html":[2,0,1,9,0,30,0],
 "df/df2/breakable_8qh.html":[2,0,1,13,0,5],
 "df/df2/breakable_8qh_source.html":[2,0,1,13,0,5],
-"df/df3/common_2items_2__mod_8qh.html":[2,0,1,5,2],
-"df/df3/common_2items_2__mod_8qh_source.html":[2,0,1,5,2]
+"df/df3/common_2items_2__mod_8qh.html":[2,0,1,5,2]
 };
