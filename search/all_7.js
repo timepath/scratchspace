@@ -469,7 +469,7 @@ var searchData=
   ['go',['go',['../da/d6d/classXonoticPlayerModelSelector.html#aba627b1d1be447e26c7c4495b20d6a20',1,'XonoticPlayerModelSelector']]],
   ['goal_5fnode',['goal_node',['../dd/d70/pathlib_8qh.html#a7a4bfc3e89444975d4a0c3226992e08f',1,'pathlib.qh']]],
   ['goalcounter',['goalcounter',['../d1/d9a/navigation_8qc.html#a31fe843e6e1518e0d392034d88c510e4',1,'navigation.qc']]],
-  ['goalcurrent',['goalcurrent',['../df/dd4/navigation_8qh.html#a6500a34a607c753143f189ab57849131',1,'navigation.qh']]],
+  ['goalcurrent',['goalcurrent',['../db/d15/api_8qh.html#a6500a34a607c753143f189ab57849131',1,'goalcurrent():&#160;api.qh'],['../df/dd4/navigation_8qh.html#a6500a34a607c753143f189ab57849131',1,'goalcurrent():&#160;navigation.qh']]],
   ['goalentity',['goalentity',['../d6/d11/progsdefs_8qc.html#a588ddcbfad5363fccd2936b8db1e3307',1,'progsdefs.qc']]],
   ['goalstack01',['goalstack01',['../df/dd4/navigation_8qh.html#afbfd2a73fbc366fec845703f28c51405',1,'navigation.qh']]],
   ['goalstack02',['goalstack02',['../df/dd4/navigation_8qh.html#ad6e360fe3e65dcd1110d4366a4dd0966',1,'navigation.qh']]],
