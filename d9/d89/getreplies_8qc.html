@@ -557,24 +557,21 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d9/d89/getreplies_8qc_source.html#l00287">287</a> of file <a class="el" href="../../d9/d89/getreplies_8qc_source.html">getreplies.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/d52/monsters_2all_8qh_source.html#l00007">get_monsterinfo</a>, <a class="el" href="../../df/d52/monsters_2all_8qh_source.html#l00010">MON_FIRST</a>, <a class="el" href="../../df/d52/monsters_2all_8qh_source.html#l00011">MON_LAST</a>, and <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>.</p>
+<p>References <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>.</p>
 
 <p>Referenced by <a class="el" href="../../db/dcc/g__world_8qc_source.html#l00596">spawnfunc()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;{</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordtype">string</span> monsterlist = <span class="stringliteral">&quot;&quot;</span>, col;</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordtype">string</span> monsterlist = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = <a class="code" href="../../df/d52/monsters_2all_8qh.html#a0b2f787d93c2afd7ece3a0d0d080e94d">MON_FIRST</a>; i &lt;= <a class="code" href="../../df/d52/monsters_2all_8qh.html#aea1bf99cd5fe53ce09b24dd2731d7d2f">MON_LAST</a>; ++i)</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Monsters, it != MON_Null,</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    {</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <span class="keywordflow">if</span> (i % 2) col = <span class="stringliteral">&quot;^2&quot;</span>; <span class="keywordflow">else</span> col = <span class="stringliteral">&quot;^3&quot;</span>;</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        monsterlist = sprintf(<span class="stringliteral">&quot;%s%s%s &quot;</span>, monsterlist, col, (<a class="code" href="../../df/d52/monsters_2all_8qh.html#a7d311198c146ff1e3743667c4a347303">get_monsterinfo</a>(i)).<a class="code" href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a>);</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    }</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <span class="keywordtype">string</span> col = ((i % 2) ? <span class="stringliteral">&quot;^2&quot;</span> : <span class="stringliteral">&quot;^3&quot;</span>);</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        monsterlist = sprintf(<span class="stringliteral">&quot;%s%s%s &quot;</span>, monsterlist, col, it.netname);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    });</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;    <span class="keywordflow">return</span> sprintf(<span class="stringliteral">&quot;^7Monsters available: %s\n&quot;</span>, monsterlist);</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;}</div>
-<div class="ttc" id="monsters_2all_8qh_html_aea1bf99cd5fe53ce09b24dd2731d7d2f"><div class="ttname"><a href="../../df/d52/monsters_2all_8qh.html#aea1bf99cd5fe53ce09b24dd2731d7d2f">MON_LAST</a></div><div class="ttdeci">#define MON_LAST</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d52/monsters_2all_8qh_source.html#l00011">all.qh:11</a></div></div>
-<div class="ttc" id="powerups_8qc_html_a32c4a483932ac5a2b0fcad13b0abdefa"><div class="ttname"><a href="../../df/db0/powerups_8qc.html#a32c4a483932ac5a2b0fcad13b0abdefa">netname</a></div><div class="ttdeci">string netname</div><div class="ttdef"><b>Definition:</b> <a href="../../df/db0/powerups_8qc_source.html#l00009">powerups.qc:9</a></div></div>
-<div class="ttc" id="monsters_2all_8qh_html_a7d311198c146ff1e3743667c4a347303"><div class="ttname"><a href="../../df/d52/monsters_2all_8qh.html#a7d311198c146ff1e3743667c4a347303">get_monsterinfo</a></div><div class="ttdeci">#define get_monsterinfo(i)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d52/monsters_2all_8qh_source.html#l00007">all.qh:7</a></div></div>
-<div class="ttc" id="monsters_2all_8qh_html_a0b2f787d93c2afd7ece3a0d0d080e94d"><div class="ttname"><a href="../../df/d52/monsters_2all_8qh.html#a0b2f787d93c2afd7ece3a0d0d080e94d">MON_FIRST</a></div><div class="ttdeci">const int MON_FIRST</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d52/monsters_2all_8qh_source.html#l00010">all.qh:10</a></div></div>
+<div class="ttc" id="iter_8qh_html_ac0b1b9656a2ffaf362532e68f3187ad5"><div class="ttname"><a href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a></div><div class="ttdeci">#define FOREACH(list, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d18/iter_8qh_source.html#l00020">iter.qh:20</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-8" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-8-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
@@ -740,7 +737,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d9/d89/getreplies_8qc.html">getreplies.qc</a></li>
-    <li class="footer">Generated on Sun Dec 18 2016 12:26:44 for Xonotic by
+    <li class="footer">Generated on Sun Dec 18 2016 12:45:23 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
