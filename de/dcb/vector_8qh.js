@@ -20,7 +20,7 @@ var vector_8qh =
     [ "dist_point_line", "de/dcb/vector_8qh.html#ad0ae47bfef31e48d06125b2b2194ba50", null ],
     [ "randompos", "de/dcb/vector_8qh.html#afa1e5c0be263a77e0c71292ab0a4dd74", null ],
     [ "reflect", "de/dcb/vector_8qh.html#ab167fa7c81f4d5f3092673b05f07c8a3", null ],
-    [ "rotate", "de/dcb/vector_8qh.html#af51ffe2b6a299102846ea3cb80677406", null ],
+    [ "Rotate", "de/dcb/vector_8qh.html#ad91aed42765e2e8c710999dfdcbac770", null ],
     [ "vec_epsilon", "de/dcb/vector_8qh.html#a49cc7ebcfeb37c05dbf47aed82b8c0a5", null ],
     [ "vec_reflect", "de/dcb/vector_8qh.html#ae07842a43fda046e42c04c0709a05774", null ],
     [ "vlen_maxnorm2d", "de/dcb/vector_8qh.html#a1b150f420429d9c4768f3c23e637fbe4", null ],

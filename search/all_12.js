@@ -443,7 +443,7 @@ var searchData=
   ['rootdialog',['rootDialog',['../de/d9c/classTab.html#a13b0a0399df080924e5a6dab3848052c',1,'Tab']]],
   ['rootdialog_2eqc',['rootdialog.qc',['../d0/dca/rootdialog_8qc.html',1,'']]],
   ['rootdialog_2eqh',['rootdialog.qh',['../d9/d85/rootdialog_8qh.html',1,'']]],
-  ['rotate',['rotate',['../d8/db6/client_2miscfunctions_8qh.html#af51ffe2b6a299102846ea3cb80677406',1,'rotate(vector v, float a):&#160;vector.qh'],['../de/dcb/vector_8qh.html#af51ffe2b6a299102846ea3cb80677406',1,'rotate(vector v, float a):&#160;vector.qh']]],
+  ['rotate',['Rotate',['../d8/db6/client_2miscfunctions_8qh.html#ad91aed42765e2e8c710999dfdcbac770',1,'Rotate(vector v, float a):&#160;vector.qh'],['../de/dcb/vector_8qh.html#ad91aed42765e2e8c710999dfdcbac770',1,'Rotate(vector v, float a):&#160;vector.qh']]],
   ['rotating_2eqc',['rotating.qc',['../d9/d01/rotating_8qc.html',1,'']]],
   ['rotating_2eqh',['rotating.qh',['../d0/dce/rotating_8qh.html',1,'']]],
   ['round_5fendtime',['round_endtime',['../db/d20/round__handler_8qh.html#af83ddd8c629ced0f8036d173746bf5d9',1,'round_handler.qh']]],
