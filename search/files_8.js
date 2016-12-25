@@ -2,6 +2,8 @@ var searchData=
 [
   ['hagar_2eqc',['hagar.qc',['../d9/d06/hagar_8qc.html',1,'']]],
   ['hagar_2eqh',['hagar.qh',['../d7/dea/hagar_8qh.html',1,'']]],
+  ['halflife_2eqc',['halflife.qc',['../dd/d36/halflife_8qc.html',1,'']]],
+  ['halflife_2eqh',['halflife.qh',['../d5/db4/halflife_8qh.html',1,'']]],
   ['havocbot_2eqc',['havocbot.qc',['../d2/de9/havocbot_8qc.html',1,'']]],
   ['havocbot_2eqh',['havocbot.qh',['../d8/d39/havocbot_8qh.html',1,'']]],
   ['heal_2eqc',['heal.qc',['../d4/d14/heal_8qc.html',1,'']]],

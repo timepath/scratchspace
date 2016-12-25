@@ -1,13 +1,7 @@
 var searchData=
 [
-  ['t_5fhalflife_2eqc',['t_halflife.qc',['../d5/dc3/t__halflife_8qc.html',1,'']]],
-  ['t_5fhalflife_2eqh',['t_halflife.qh',['../d1/df0/t__halflife_8qh.html',1,'']]],
   ['t_5fitems_2eqc',['t_items.qc',['../d4/d26/t__items_8qc.html',1,'']]],
   ['t_5fitems_2eqh',['t_items.qh',['../de/d75/t__items_8qh.html',1,'']]],
-  ['t_5fquake_2eqc',['t_quake.qc',['../db/d91/t__quake_8qc.html',1,'']]],
-  ['t_5fquake_2eqh',['t_quake.qh',['../df/d05/t__quake_8qh.html',1,'']]],
-  ['t_5fquake3_2eqc',['t_quake3.qc',['../d1/d91/t__quake3_8qc.html',1,'']]],
-  ['t_5fquake3_2eqh',['t_quake3.qh',['../d8/d94/t__quake3_8qh.html',1,'']]],
   ['tab_2eqc',['tab.qc',['../d8/de6/item_2tab_8qc.html',1,'']]],
   ['tab_2eqc',['tab.qc',['../d2/d94/xonotic_2tab_8qc.html',1,'']]],
   ['tab_2eqh',['tab.qh',['../de/d23/item_2tab_8qh.html',1,'']]],
