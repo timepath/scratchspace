@@ -119,9 +119,9 @@ $(document).ready(function(){initNavTree('d5/dff/ent__cs_8qc_source.html','../..
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;<span class="comment">// #define PROP(public, fld, set, sv, cl)</span></div>
 <div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="../../d5/dff/ent__cs_8qc.html#a4d3c6fb0e4164fea073f9d52a762a1b4">   14</a></span>&#160;<span class="preprocessor">#define ENTCS_NETPROPS(ent, PROP) PROP(false, sv_entnum, ENTCS_SET_NORMAL, {}, {}) </span><span class="comment">/* sentinel */</span><span class="preprocessor"> \</span></div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;<span class="preprocessor">    PROP(false, origin, ENTCS_SET_NORMAL, \</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">    { WriteShort(chan, ent.origin.x);  WriteShort(chan, ent.origin.y); \</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">      WriteShort(chan, ent.origin.z); }, \</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">    { ent.has_sv_origin = true; vector v; v.x = ReadShort(); v.y = ReadShort(); v.z = ReadShort(); setorigin(ent, v); }) \</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<span class="preprocessor">    { WriteCoord(chan, ent.origin.x);  WriteCoord(chan, ent.origin.y); \</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<span class="preprocessor">      WriteCoord(chan, ent.origin.z); }, \</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;<span class="preprocessor">    { ent.has_sv_origin = true; vector v; v.x = ReadCoord(); v.y = ReadCoord(); v.z = ReadCoord(); setorigin(ent, v); }) \</span></div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="preprocessor">    \</span></div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<span class="preprocessor">    PROP(false, angles_y, ENTCS_SET_NORMAL, \</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="preprocessor">    { WriteByte(chan, ent.angles.y / 360 * 256); }, \</span></div>
@@ -394,7 +394,7 @@ $(document).ready(function(){initNavTree('d5/dff/ent__cs_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../d5/dff/ent__cs_8qc.html">ent_cs.qc</a></li>
-    <li class="footer">Generated on Sat Dec 24 2016 02:10:47 for Xonotic by
+    <li class="footer">Generated on Sun Dec 25 2016 08:17:22 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
