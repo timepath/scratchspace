@@ -1,5 +1,13 @@
 var NAVTREEINDEX90 =
 {
+"da/d9b/classXonoticButton.html#ac99bbef7da50394f5ed0362e4e2181b1":[1,0,142,50],
+"da/d9b/classXonoticButton.html#ad3916b930a4e2a364ab072d2c3523edf":[1,0,142,4],
+"da/d9b/classXonoticButton.html#ad3fd3842dce4bfe4409e7be7b7d5e5ff":[1,0,142,23],
+"da/d9b/classXonoticButton.html#ad762a94c4a36ceed8f86976dd8132ddc":[1,0,142,61],
+"da/d9b/classXonoticButton.html#ad8b9115dc1d65ac99e74ae1a36f56d05":[1,0,142,37],
+"da/d9b/classXonoticButton.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,142,31],
+"da/d9b/classXonoticButton.html#aef17454d19baae5de77f47b1fb52deb1":[1,0,142,3],
+"da/d9b/classXonoticButton.html#aef528cc6ebaf47d40bccafc99a2e7d9c":[1,0,142,30],
 "da/d9b/classXonoticButton.html#af3a830d70442467db88dc9e6085943aa":[1,0,142,56],
 "da/d9b/classXonoticButton.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,142,29],
 "da/d9b/classXonoticButton.html#afc04c73de4b6ffcc3cecbfba4df5c57a":[1,0,142,71],
@@ -241,13 +249,5 @@ var NAVTREEINDEX90 =
 "da/db7/classXonoticServerInfoDialog.html#ab5705a0d84082385d0e3e594558bfb26":[1,0,231,14],
 "da/db7/classXonoticServerInfoDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,231,66],
 "da/db7/classXonoticServerInfoDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,231,7],
-"da/db7/classXonoticServerInfoDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,231,119],
-"da/db7/classXonoticServerInfoDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,231,108],
-"da/db7/classXonoticServerInfoDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,231,74],
-"da/db7/classXonoticServerInfoDialog.html#ac5d5e617a3011f275a27b858315f968c":[1,0,231,20],
-"da/db7/classXonoticServerInfoDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,231,0],
-"da/db7/classXonoticServerInfoDialog.html#ac80f00e0dfb46145f8c3429a4dd50e27":[1,0,231,36],
-"da/db7/classXonoticServerInfoDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,231,63],
-"da/db7/classXonoticServerInfoDialog.html#acc8822e94ea71e49dadf0703894d2ab4":[1,0,231,8],
-"da/db7/classXonoticServerInfoDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,231,68]
+"da/db7/classXonoticServerInfoDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,231,119]
 };

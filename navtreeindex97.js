@@ -1,5 +1,13 @@
 var NAVTREEINDEX97 =
 {
+"db/d5b/classXonoticGameMessageSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,167,2],
+"db/d5b/classXonoticGameMessageSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,167,42],
+"db/d5b/classXonoticGameMessageSettingsTab.html#afa4aee2a1e701b5eb9e1348fa619d60a":[1,0,167,6],
+"db/d5b/classXonoticGameMessageSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,167,46],
+"db/d5b/classXonoticGameMessageSettingsTab.html#afc78c52359f9e63ef944fe234555d51b":[1,0,167,85],
+"db/d5b/classXonoticGameMessageSettingsTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,167,88],
+"db/d5b/classXonoticGameMessageSettingsTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,167,12],
+"db/d5b/classXonoticGameMessageSettingsTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,167,8],
 "db/d5c/walker_8qc.html":[2,0,1,14,0,42],
 "db/d5c/walker_8qc_source.html":[2,0,1,14,0,42],
 "db/d5e/multijump_8qh.html":[2,0,1,9,0,16,3],
@@ -241,13 +249,5 @@ var NAVTREEINDEX97 =
 "db/d7f/effectinfo_8inc.html#a376e48aa2c9d23b2a50952d93a694d9a":[2,0,1,2,7,337],
 "db/d7f/effectinfo_8inc.html#a38469a388fd69083e4c2a979e604a849":[2,0,1,2,7,299],
 "db/d7f/effectinfo_8inc.html#a38c9b0a923fe4b7415108f0e3cb8fe09":[2,0,1,2,7,252],
-"db/d7f/effectinfo_8inc.html#a3abc2f8a9e7df1ed0e3045ee90f14020":[2,0,1,2,7,282],
-"db/d7f/effectinfo_8inc.html#a3ac81a166f1f164eb67166a24b6462cf":[2,0,1,2,7,188],
-"db/d7f/effectinfo_8inc.html#a3ae0e8fc65fce626b51fa1b0f6eb0e62":[2,0,1,2,7,327],
-"db/d7f/effectinfo_8inc.html#a3bf4c8e49c5444e7c1ea9a70f1743d1a":[2,0,1,2,7,86],
-"db/d7f/effectinfo_8inc.html#a3cb895b009b9d198fbc015acccb4768e":[2,0,1,2,7,147],
-"db/d7f/effectinfo_8inc.html#a3e368b093aa57c516bee2bb5fbe45425":[2,0,1,2,7,133],
-"db/d7f/effectinfo_8inc.html#a3e5003e47ad54ce83504e12307569aba":[2,0,1,2,7,203],
-"db/d7f/effectinfo_8inc.html#a3e7845d81ec98e70a6e3e53becaae2f5":[2,0,1,2,7,259],
-"db/d7f/effectinfo_8inc.html#a3fd261078b3848a9e6e539c6794dd249":[2,0,1,2,7,267]
+"db/d7f/effectinfo_8inc.html#a3abc2f8a9e7df1ed0e3045ee90f14020":[2,0,1,2,7,282]
 };

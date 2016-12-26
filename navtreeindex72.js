@@ -1,5 +1,11 @@
 var NAVTREEINDEX72 =
 {
+"d8/d35/classXonoticHUDChatDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,175,68],
+"d8/d35/classXonoticHUDChatDialog.html#af1aab403dc54575707fd57991312b201":[1,0,175,47],
+"d8/d35/classXonoticHUDChatDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,175,27],
+"d8/d35/classXonoticHUDChatDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,175,15],
+"d8/d35/classXonoticHUDChatDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,175,39],
+"d8/d35/classXonoticHUDChatDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,175,2],
 "d8/d35/classXonoticHUDChatDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,175,37],
 "d8/d35/classXonoticHUDChatDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,175,41],
 "d8/d35/classXonoticHUDChatDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,175,86],
@@ -191,6 +197,8 @@ var NAVTREEINDEX72 =
 "d8/d6d/viewloc_8qc.html":[2,0,1,49],
 "d8/d6d/viewloc_8qc.html#ad4224551c2b606237629fa6bd79384d8":[2,0,1,49,0],
 "d8/d6d/viewloc_8qc_source.html":[2,0,1,49],
+"d8/d76/wop_8qh.html":[2,0,6,2,9],
+"d8/d76/wop_8qh_source.html":[2,0,6,2,9],
 "d8/d76/xonotic_2checkbox_8qh.html":[2,0,5,4,13],
 "d8/d76/xonotic_2checkbox_8qh.html#a7dc2985c3982e5fb466f48215abb8069":[2,0,5,4,13,2],
 "d8/d76/xonotic_2checkbox_8qh.html#ac556c363097bb2c326f8681f5b38e28a":[2,0,5,4,13,4],
@@ -241,13 +249,5 @@ var NAVTREEINDEX72 =
 "d8/d79/notifications_2all_8qc.html#adccbc5e955002f3e2d26f36496349f2f":[2,0,1,10,3,28],
 "d8/d79/notifications_2all_8qc.html#ae93ed72c8bc25a3db70a3dce5a8070d9":[2,0,1,10,3,41],
 "d8/d79/notifications_2all_8qc.html#aebba04739a8cedbc68c1561271936be9":[2,0,1,10,3,35],
-"d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,10,3,24],
-"d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,10,3,25],
-"d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,10,3,26],
-"d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,10,3,27],
-"d8/d79/notifications_2all_8qc_source.html":[2,0,1,10,3],
-"d8/d7f/sv__dodging_8qh.html":[2,0,1,9,0,7,3],
-"d8/d7f/sv__dodging_8qh_source.html":[2,0,1,9,0,7,3],
-"d8/d86/command_8qc.html":[2,0,4,1,2],
-"d8/d86/command_8qc.html#a8011943c633419e1e39634df6e77b6d0":[2,0,4,1,2,0]
+"d8/d79/notifications_2all_8qc.html#af67c535b30bf75a5a2ce15aa89d233f4":[2,0,1,10,3,25]
 };

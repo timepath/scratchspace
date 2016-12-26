@@ -6,6 +6,8 @@ var searchData=
   ['g_5fctf',['g_ctf',['../d2/d9e/mapinfo_8qh.html#aa77f02606c529a3b5c515e57014f3354',1,'mapinfo.qh']]],
   ['g_5fcts',['g_cts',['../d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b',1,'mapinfo.qh']]],
   ['g_5ffreezetag',['g_freezetag',['../d2/d9e/mapinfo_8qh.html#a4b06a80f704bf3d55f6ec6d9c0be8554',1,'mapinfo.qh']]],
+  ['g_5fmajor',['G_MAJOR',['../dc/d9d/inventory_8qh.html#a519cda702e16726377d16a417239adb9',1,'inventory.qh']]],
+  ['g_5fminor',['G_MINOR',['../dc/d9d/inventory_8qh.html#ac29a75872c1cffa1f6b6ed4238df2e6b',1,'inventory.qh']]],
   ['g_5fmodel_5finit',['G_MODEL_INIT',['../d2/d37/g__models_8qc.html#ab459216fcebc7525f7d7926f3edde13d',1,'g_models.qc']]],
   ['g_5fnexball',['g_nexball',['../d2/d9e/mapinfo_8qh.html#ad1423d2fc9f9127b9aa25128dbf19959',1,'mapinfo.qh']]],
   ['g_5frace',['g_race',['../d2/d9e/mapinfo_8qh.html#a169002dfc8d1b07462cb4117bca41790',1,'mapinfo.qh']]],

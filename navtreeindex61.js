@@ -1,5 +1,11 @@
 var NAVTREEINDEX61 =
 {
+"d7/d39/classXonoticVideoSettingsTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,249,23],
+"d7/d39/classXonoticVideoSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,249,26],
+"d7/d39/classXonoticVideoSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,249,17],
+"d7/d39/classXonoticVideoSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,249,34],
+"d7/d39/classXonoticVideoSettingsTab.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,249,8],
+"d7/d39/classXonoticVideoSettingsTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,249,50],
 "d7/d39/classXonoticVideoSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,249,1],
 "d7/d39/classXonoticVideoSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,249,16],
 "d7/d39/classXonoticVideoSettingsTab.html#a4869983b8dc750584479ade5447c8413":[1,0,249,27],
@@ -243,11 +249,5 @@ var NAVTREEINDEX61 =
 "d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh.html":[2,0,5,4,105],
 "d7/d56/dialog__multiplayer__media__demo__timeconfirm_8qh_source.html":[2,0,5,4,105],
 "d7/d5a/dialog__settings__user_8qh.html":[2,0,5,4,151],
-"d7/d5a/dialog__settings__user_8qh.html#a66f02ce333f6fc2ba9cfd196973b1295":[2,0,5,4,151,1],
-"d7/d5a/dialog__settings__user_8qh_source.html":[2,0,5,4,151],
-"d7/d5c/common_2stats_8qh.html":[2,0,1,43],
-"d7/d5c/common_2stats_8qh.html#a27cfff2d2a108feef9eed7958c423a08":[2,0,1,43,0],
-"d7/d5c/common_2stats_8qh.html#addc676e25f2065875621b35f9daadb18":[2,0,1,43,2],
-"d7/d5c/common_2stats_8qh.html#ae813f754c6e1e144ad044d9c15ba1295":[2,0,1,43,3],
-"d7/d5c/common_2stats_8qh.html#af79aea212cd212293b11203367c6a5b3":[2,0,1,43,1]
+"d7/d5a/dialog__settings__user_8qh.html#a66f02ce333f6fc2ba9cfd196973b1295":[2,0,5,4,151,1]
 };

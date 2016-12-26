@@ -1,5 +1,11 @@
 var NAVTREEINDEX29 =
 {
+"d3/dba/classXonoticLanguageList.html#adc729cb212577420799522aa1a90ebec":[1,0,199,10],
+"d3/dba/classXonoticLanguageList.html#ae10a1742aaf81f987acb86e643a97f99":[1,0,199,37],
+"d3/dba/classXonoticLanguageList.html#ae1baefc0a227b8e5ba2da3a75da9f583":[1,0,199,86],
+"d3/dba/classXonoticLanguageList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,199,43],
+"d3/dba/classXonoticLanguageList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,199,16],
+"d3/dba/classXonoticLanguageList.html#aea983f2bc825fb658cf3b39af4738bf7":[1,0,199,79],
 "d3/dba/classXonoticLanguageList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,199,68],
 "d3/dba/classXonoticLanguageList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,199,36],
 "d3/dba/classXonoticLanguageList.html#aed05f75651928be9263a2073856f33cd":[1,0,199,81],
@@ -105,8 +111,8 @@ var NAVTREEINDEX29 =
 "d3/dbf/minigames_8qc.html#a50da88a37fb88826817f7d669b24c423":[2,0,1,6,7,2],
 "d3/dbf/minigames_8qc.html#a5568c7bdd5bad578cdc98deb0789b79c":[2,0,1,6,7,5],
 "d3/dbf/minigames_8qc.html#a6a7ba74fcc2a57d2d4d7aa64ab15d4c6":[2,0,1,6,7,14],
-"d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,7,1],
 "d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,7,0],
+"d3/dbf/minigames_8qc.html#a6be2a20449e478fbb913e1e53962e0ef":[2,0,1,6,7,1],
 "d3/dbf/minigames_8qc.html#a861b76acd237a6c594cb831085a9af9a":[2,0,1,6,7,4],
 "d3/dbf/minigames_8qc.html#ab50b72cd401e642ccfaa7614ac58d414":[2,0,1,6,7,9],
 "d3/dbf/minigames_8qc.html#ab62771fe024e72ee184cdef2774646f3":[2,0,1,6,7,13],
@@ -243,11 +249,5 @@ var NAVTREEINDEX29 =
 "d3/dce/classXonoticTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,241,0],
 "d3/dce/classXonoticTab.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,241,37],
 "d3/dce/classXonoticTab.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,241,42],
-"d3/dce/classXonoticTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,241,86],
-"d3/dce/classXonoticTab.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,241,55],
-"d3/dce/classXonoticTab.html#ad149e91b2fa7473fc46e28c4c602a397":[1,0,241,59],
-"d3/dce/classXonoticTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,241,64],
-"d3/dce/classXonoticTab.html#ad325d6b1f6a25ab0b0d5e38bf7b9f34c":[1,0,241,70],
-"d3/dce/classXonoticTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,241,77],
-"d3/dce/classXonoticTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,241,35]
+"d3/dce/classXonoticTab.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,241,86]
 };

@@ -1,5 +1,11 @@
 var NAVTREEINDEX27 =
 {
+"d3/d7a/effects_2qc_2all_8inc_source.html":[2,0,1,2,0,2],
+"d3/d7c/common_2mutators_2mutator_2globalforces_2__mod_8qh.html":[2,0,1,9,0,9,1],
+"d3/d7c/common_2mutators_2mutator_2globalforces_2__mod_8qh_source.html":[2,0,1,9,0,9,1],
+"d3/d7f/onslaught_8qh.html":[2,0,1,3,0,1,11],
+"d3/d7f/onslaught_8qh_source.html":[2,0,1,3,0,1,11],
+"d3/d83/classXonoticHUDHealthArmorDialog.html":[1,0,179],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,179,32],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,179,11],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,179,40],
@@ -243,11 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d9e/dpextensions_8qh.html#a641efecd69f65e25b5d456b08740e30a":[2,0,2,2,25],
 "d3/d9e/dpextensions_8qh.html#a6b5d9a1031ac2602e31df1ba551bfafe":[2,0,2,2,11],
 "d3/d9e/dpextensions_8qh.html#a7463baf5fb1b8c9bc859d5352d97313a":[2,0,2,2,14],
-"d3/d9e/dpextensions_8qh.html#a758e7e078dd3038c82e255ff8927975c":[2,0,2,2,17],
-"d3/d9e/dpextensions_8qh.html#a877cc20fbb3e2a65f2a97bfedc2cd723":[2,0,2,2,27],
-"d3/d9e/dpextensions_8qh.html#a8b4993380ac4865a1180ed7cf868adef":[2,0,2,2,30],
-"d3/d9e/dpextensions_8qh.html#a8c9c88ad2bece388fbac9c25143f7fa4":[2,0,2,2,23],
-"d3/d9e/dpextensions_8qh.html#a8e04e428d069682c44eefb3dd89d4acc":[2,0,2,2,20],
-"d3/d9e/dpextensions_8qh.html#a9b88d1543a84de9785952d34dedb754c":[2,0,2,2,2],
-"d3/d9e/dpextensions_8qh.html#aae5b07ffeb72dbbe7675fda4e3a35a30":[2,0,2,2,18]
+"d3/d9e/dpextensions_8qh.html#a758e7e078dd3038c82e255ff8927975c":[2,0,2,2,17]
 };

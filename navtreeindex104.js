@@ -1,5 +1,13 @@
 var NAVTREEINDEX104 =
 {
+"dc/d16/classXonoticMediaTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,204,17],
+"dc/d16/classXonoticMediaTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,204,34],
+"dc/d16/classXonoticMediaTab.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,204,8],
+"dc/d16/classXonoticMediaTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,204,50],
+"dc/d16/classXonoticMediaTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,204,1],
+"dc/d16/classXonoticMediaTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,204,16],
+"dc/d16/classXonoticMediaTab.html#a4869983b8dc750584479ade5447c8413":[1,0,204,27],
+"dc/d16/classXonoticMediaTab.html#a4ad8d403de20048384fe85b379309436":[1,0,204,76],
 "dc/d16/classXonoticMediaTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,204,54],
 "dc/d16/classXonoticMediaTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,204,32],
 "dc/d16/classXonoticMediaTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,204,38],
@@ -241,13 +249,5 @@ var NAVTREEINDEX104 =
 "dc/d37/classXonoticHUDExitDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,178,80],
 "dc/d37/classXonoticHUDExitDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,178,52],
 "dc/d37/classXonoticHUDExitDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,178,45],
-"dc/d37/classXonoticHUDExitDialog.html#a84e73e2057be50a7624ac7b177bbdf5d":[1,0,178,24],
-"dc/d37/classXonoticHUDExitDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,178,67],
-"dc/d37/classXonoticHUDExitDialog.html#a919d2d260993d5519e6e85def646d6ec":[1,0,178,87],
-"dc/d37/classXonoticHUDExitDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,178,73],
-"dc/d37/classXonoticHUDExitDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,178,77],
-"dc/d37/classXonoticHUDExitDialog.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,178,65],
-"dc/d37/classXonoticHUDExitDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,178,20],
-"dc/d37/classXonoticHUDExitDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,178,10],
-"dc/d37/classXonoticHUDExitDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,178,35]
+"dc/d37/classXonoticHUDExitDialog.html#a84e73e2057be50a7624ac7b177bbdf5d":[1,0,178,24]
 };
