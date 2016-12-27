@@ -118,7 +118,6 @@ var searchData=
   ['istypefrag',['istypefrag',['../d9/de7/jumppads_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9',1,'istypefrag():&#160;jumppads.qh'],['../dd/de4/g__damage_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9',1,'istypefrag():&#160;g_damage.qh'],['../da/dc1/server_2player_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9',1,'istypefrag():&#160;player.qh']]],
   ['it_5f25hp',['IT_25HP',['../d7/d7c/common_2items_2item_8qh.html#aef700bb44050a793f050457d34440288',1,'item.qh']]],
   ['it_5f5hp',['IT_5HP',['../d7/d7c/common_2items_2item_8qh.html#af7c0a54d97c46f745049b7588336031b',1,'item.qh']]],
-  ['it_5fammo',['IT_AMMO',['../d7/d7c/common_2items_2item_8qh.html#a146cb26bfa8f780cbf1ea96baf36b86c',1,'item.qh']]],
   ['it_5farmor',['IT_ARMOR',['../d7/d7c/common_2items_2item_8qh.html#ae2b65d0141ab9af9139eb46f4156849b',1,'item.qh']]],
   ['it_5farmor1',['IT_ARMOR1',['../d6/d11/progsdefs_8qc.html#aa8511b5866ea0ec316fb469b566eb1bf',1,'progsdefs.qc']]],
   ['it_5farmor2',['IT_ARMOR2',['../d6/d11/progsdefs_8qc.html#abab9dfeb509dc1c1f65bdc760d605c1b',1,'progsdefs.qc']]],

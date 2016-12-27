@@ -1,6 +1,5 @@
 var NAVTREEINDEX69 =
 {
-"d7/de1/g__hook_8qh.html#aa533d5a58d1d23a9a7b40fb83281a11c":[2,0,6,26,6],
 "d7/de1/g__hook_8qh_source.html":[2,0,6,26],
 "d7/de2/g__hook_8qc.html":[2,0,6,25],
 "d7/de2/g__hook_8qc.html#a0c406e8cc6d0504973d7ee4cb8fbb53a":[2,0,6,25,12],
@@ -249,5 +248,6 @@ var NAVTREEINDEX69 =
 "d7/df4/commandbutton_8qc_source.html":[2,0,5,4,24],
 "d7/df7/lib_2warpzone_2__mod_8qh.html":[2,0,4,2,1],
 "d7/df7/lib_2warpzone_2__mod_8qh_source.html":[2,0,4,2,1],
-"d7/dfd/dialog__multiplayer__create__mutators_8qc.html":[2,0,5,4,92]
+"d7/dfd/dialog__multiplayer__create__mutators_8qc.html":[2,0,5,4,92],
+"d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a16a3593e3ced6f0801bb7602f2b85953":[2,0,5,4,92,7]
 };

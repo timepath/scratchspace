@@ -4,7 +4,6 @@ var common_2items_2item_8qh =
     [ "ITEM_HANDLE", "d7/d7c/common_2items_2item_8qh.html#ae7615b4e3cf65501fdd057a3b418d795", null ],
     [ "IT_25HP", "d7/d7c/common_2items_2item_8qh.html#aef700bb44050a793f050457d34440288", null ],
     [ "IT_5HP", "d7/d7c/common_2items_2item_8qh.html#af7c0a54d97c46f745049b7588336031b", null ],
-    [ "IT_AMMO", "d7/d7c/common_2items_2item_8qh.html#a146cb26bfa8f780cbf1ea96baf36b86c", null ],
     [ "IT_ARMOR", "d7/d7c/common_2items_2item_8qh.html#ae2b65d0141ab9af9139eb46f4156849b", null ],
     [ "IT_ARMOR_SHARD", "d7/d7c/common_2items_2item_8qh.html#a904db53d8b41e63b49bfa1e7d79b93e4", null ],
     [ "IT_CELLS", "d7/d7c/common_2items_2item_8qh.html#aa4ab23383bc27d6c07993a0690291b28", null ],

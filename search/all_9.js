@@ -327,7 +327,6 @@ var searchData=
   ['isunordered',['isunordered',['../df/d38/mathlib_8qc.html#a8be76afcfbbcde7f6168466db0e03437',1,'isunordered(float e, float f):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a8be76afcfbbcde7f6168466db0e03437',1,'isunordered(float e, float f):&#160;mathlib.qc']]],
   ['it_5f25hp',['IT_25HP',['../d7/d7c/common_2items_2item_8qh.html#aef700bb44050a793f050457d34440288',1,'item.qh']]],
   ['it_5f5hp',['IT_5HP',['../d7/d7c/common_2items_2item_8qh.html#af7c0a54d97c46f745049b7588336031b',1,'item.qh']]],
-  ['it_5fammo',['IT_AMMO',['../d7/d7c/common_2items_2item_8qh.html#a146cb26bfa8f780cbf1ea96baf36b86c',1,'item.qh']]],
   ['it_5farmor',['IT_ARMOR',['../d7/d7c/common_2items_2item_8qh.html#ae2b65d0141ab9af9139eb46f4156849b',1,'item.qh']]],
   ['it_5farmor1',['IT_ARMOR1',['../dd/d8b/sys-pre_8qh.html#ac88570b9257cfe415b124e28ff547c34',1,'IT_ARMOR1():&#160;sys-pre.qh'],['../d6/d11/progsdefs_8qc.html#aa8511b5866ea0ec316fb469b566eb1bf',1,'IT_ARMOR1():&#160;progsdefs.qc']]],
   ['it_5farmor2',['IT_ARMOR2',['../dd/d8b/sys-pre_8qh.html#a8cd0740cb2a5488a155ae728e1a1a860',1,'IT_ARMOR2():&#160;sys-pre.qh'],['../d6/d11/progsdefs_8qc.html#abab9dfeb509dc1c1f65bdc760d605c1b',1,'IT_ARMOR2():&#160;progsdefs.qc']]],

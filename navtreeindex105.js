@@ -1,6 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"dc/d37/classXonoticHUDExitDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,178,67],
 "dc/d37/classXonoticHUDExitDialog.html#a919d2d260993d5519e6e85def646d6ec":[1,0,178,87],
 "dc/d37/classXonoticHUDExitDialog.html#a96015a1c89c1e162b571a8cdd7a211b4":[1,0,178,73],
 "dc/d37/classXonoticHUDExitDialog.html#a9d7b522cc231d6e1c83c955dc581fc58":[1,0,178,77],
@@ -249,5 +248,6 @@ var NAVTREEINDEX105 =
 "dc/d53/sv__cloaked_8qh.html":[2,0,1,9,0,5,3],
 "dc/d53/sv__cloaked_8qh_source.html":[2,0,1,9,0,5,3],
 "dc/d54/sv__vampirehook_8qh.html":[2,0,1,9,0,32,3],
-"dc/d54/sv__vampirehook_8qh_source.html":[2,0,1,9,0,32,3]
+"dc/d54/sv__vampirehook_8qh_source.html":[2,0,1,9,0,32,3],
+"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc.html":[2,0,1,3,0,0,0]
 };

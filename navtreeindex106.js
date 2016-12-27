@@ -1,6 +1,5 @@
 var NAVTREEINDEX106 =
 {
-"dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc.html":[2,0,1,3,0,0,0],
 "dc/d55/common_2gamemodes_2gamemode_2nexball_2__mod_8inc_source.html":[2,0,1,3,0,0,0],
 "dc/d56/cvarlist_8qc.html":[2,0,5,4,32],
 "dc/d56/cvarlist_8qc.html#a03af6344dc0fada817213f1c27aa4413":[2,0,5,4,32,9],
@@ -249,5 +248,6 @@ var NAVTREEINDEX106 =
 "dc/d73/server_2miscfunctions_8qh.html#ae29e06e5cb547b4c30dcb593cf967fdb":[2,0,6,46,39],
 "dc/d73/server_2miscfunctions_8qh.html#ae2af274123d9eb356c89a1d02c121820":[2,0,6,46,93],
 "dc/d73/server_2miscfunctions_8qh.html#ae60e63a20482389086630191d5d8d336":[2,0,6,46,57],
-"dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c":[2,0,6,46,136]
+"dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c":[2,0,6,46,136],
+"dc/d73/server_2miscfunctions_8qh.html#aea45965de304065385fea7d50cfe89d1":[2,0,6,46,118]
 };
