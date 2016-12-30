@@ -52,6 +52,7 @@ var sv__buffs_8qh =
     [ "buff_disability_effect_time", "d8/dd8/sv__buffs_8qh.html#ab9a322cecb553e53835315a23354ad27", null ],
     [ "buff_disability_time", "d8/dd8/sv__buffs_8qh.html#a4ebbb8c31b3e8787c4ebf7b51e722f76", null ],
     [ "buff_effect_delay", "d8/dd8/sv__buffs_8qh.html#aa46fd8af184f1f03943dbd39cd42c026", null ],
+    [ "buff_flight_oldgravity", "d8/dd8/sv__buffs_8qh.html#a01fa3fa61fba7504c73a675412ed7e07", null ],
     [ "buff_invisible_prev_alpha", "d8/dd8/sv__buffs_8qh.html#a5bbf97ae7f512d171a5d738d82f793f4", null ],
     [ "BUFF_MAX", "d8/dd8/sv__buffs_8qh.html#a03957de995522dc44980d0586c7743d1", null ],
     [ "buff_medic_healtime", "d8/dd8/sv__buffs_8qh.html#af5e6a1814015f1f8d2a3c648aa0c5912", null ],

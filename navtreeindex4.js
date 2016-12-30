@@ -221,6 +221,7 @@ var NAVTREEINDEX4 =
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a74d448d70d5e55e54c85493f4b37c0df":[2,0,1,9,0,2,2,10],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a7511936b014064d695ad4438cd65eada":[2,0,1,9,0,2,2,11],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ab879a178631164ea00a4905ce8a3826c":[2,0,1,9,0,2,2,12],
+"d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ac4deda165917acf34f1961ca9f40a9ae":[2,0,1,9,0,2,2,14],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ad54a43f9c7262e4c0a8f0efe0a2dfb00":[2,0,1,9,0,2,2,9],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ae2182ffd4aece1ab035baa6a64e7c442":[2,0,1,9,0,2,2,6],
 "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#aea320705273d3b0c79e1bd70c9af73f5":[2,0,1,9,0,2,2,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX4 =
 "d0/dab/classOnslaught.html#a353db82280437c3b38f0ad1934a7d666":[1,0,88,15],
 "d0/dab/classOnslaught.html#a49421edfc295cc8be1fd857804ec5e57":[1,0,88,12],
 "d0/dab/classOnslaught.html#a51550ad7b1e68706e89c9a555aa42b22":[1,0,88,8],
-"d0/dab/classOnslaught.html#a5f0ce14eb6b6b02b3442c725df15fb2c":[1,0,88,10],
-"d0/dab/classOnslaught.html#a76665059abee2c512f0ebd2af0251495":[1,0,88,0]
+"d0/dab/classOnslaught.html#a5f0ce14eb6b6b02b3442c725df15fb2c":[1,0,88,10]
 };

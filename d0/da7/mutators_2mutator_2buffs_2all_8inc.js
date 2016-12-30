@@ -13,5 +13,6 @@ var mutators_2mutator_2buffs_2all_8inc =
     [ "REGISTER_BUFF", "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a74d448d70d5e55e54c85493f4b37c0df", null ],
     [ "REGISTER_BUFF", "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a7511936b014064d695ad4438cd65eada", null ],
     [ "REGISTER_BUFF", "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ab879a178631164ea00a4905ce8a3826c", null ],
-    [ "REGISTER_BUFF", "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2dd0f3f919c755f75d4b34e310c90256", null ]
+    [ "REGISTER_BUFF", "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2dd0f3f919c755f75d4b34e310c90256", null ],
+    [ "REGISTER_BUFF", "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ac4deda165917acf34f1961ca9f40a9ae", null ]
 ];
