@@ -185,6 +185,9 @@ Macros</h2></td></tr>
 <tr class="memitem:ad46350e6bb8eca159cda8bf73639f40e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ad46350e6bb8eca159cda8bf73639f40e">EV_CustomizeWaypoint</a>(i, o)</td></tr>
 <tr class="memdesc:ad46350e6bb8eca159cda8bf73639f40e"><td class="mdescLeft">&#160;</td><td class="mdescRight">called every frame.  <a href="#ad46350e6bb8eca159cda8bf73639f40e">More...</a><br/></td></tr>
 <tr class="separator:ad46350e6bb8eca159cda8bf73639f40e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeef5a49760f1e9624699ed9769cc2b7a"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aeef5a49760f1e9624699ed9769cc2b7a">EV_Damage_Calculate</a>(i, o)</td></tr>
+<tr class="memdesc:aeef5a49760f1e9624699ed9769cc2b7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">called to adjust damage and force values which are applied to the player, used for e.g.  <a href="#aeef5a49760f1e9624699ed9769cc2b7a">More...</a><br/></td></tr>
+<tr class="separator:aeef5a49760f1e9624699ed9769cc2b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cb0474e6bc45820d78b5d55f9f7b512"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a9cb0474e6bc45820d78b5d55f9f7b512">EV_DropSpecialItems</a>(i, o)&#160;&#160;&#160;/** <a class="el" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> */ i(<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>, MUTATOR_ARGV_0_entity) \</td></tr>
 <tr class="separator:a9cb0474e6bc45820d78b5d55f9f7b512"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ad70187358414cbaf8f2a0968c0fdea"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a1ad70187358414cbaf8f2a0968c0fdea">EV_EditProjectile</a>(i, o)</td></tr>
@@ -294,9 +297,6 @@ Macros</h2></td></tr>
 <tr class="separator:aacd50c39b34d5ffdaa6630142c90cf26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ef9f867f92d08e48569a19cdb961c0f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a1ef9f867f92d08e48569a19cdb961c0f">EV_Player_ChangeTeam</a>(i, o)</td></tr>
 <tr class="separator:a1ef9f867f92d08e48569a19cdb961c0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f0dec13a4dc9336577dc70abd61b71f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a6f0dec13a4dc9336577dc70abd61b71f">EV_PlayerDamage_Calculate</a>(i, o)</td></tr>
-<tr class="memdesc:a6f0dec13a4dc9336577dc70abd61b71f"><td class="mdescLeft">&#160;</td><td class="mdescRight">called to adjust damage and force values which are applied to the player, used for e.g.  <a href="#a6f0dec13a4dc9336577dc70abd61b71f">More...</a><br/></td></tr>
-<tr class="separator:a6f0dec13a4dc9336577dc70abd61b71f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2a95050d7793afae56056b4b97a23aa"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ae2a95050d7793afae56056b4b97a23aa">EV_PlayerDamage_SplitHealthArmor</a>(i, o)</td></tr>
 <tr class="memdesc:ae2a95050d7793afae56056b4b97a23aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">called when a player gets damaged to e.g.  <a href="#ae2a95050d7793afae56056b4b97a23aa">More...</a><br/></td></tr>
 <tr class="separator:ae2a95050d7793afae56056b4b97a23aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -533,8 +533,8 @@ Functions</h2></td></tr>
 <tr class="separator:a5885e929edf0130e200eea743ed9acdd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f49e7f9ba82fc5b45a4f89a44b7fd95"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a7f49e7f9ba82fc5b45a4f89a44b7fd95">MUTATOR_HOOKABLE</a> (PlayerDamage_SplitHealthArmor, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ae2a95050d7793afae56056b4b97a23aa">EV_PlayerDamage_SplitHealthArmor</a>)</td></tr>
 <tr class="separator:a7f49e7f9ba82fc5b45a4f89a44b7fd95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c2a47006b64b1625b1338666fc225fa"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a6c2a47006b64b1625b1338666fc225fa">MUTATOR_HOOKABLE</a> (PlayerDamage_Calculate, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a6f0dec13a4dc9336577dc70abd61b71f">EV_PlayerDamage_Calculate</a>)</td></tr>
-<tr class="separator:a6c2a47006b64b1625b1338666fc225fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8dc1403277ff8d1fff42e122d9fa907"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ac8dc1403277ff8d1fff42e122d9fa907">MUTATOR_HOOKABLE</a> (Damage_Calculate, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aeef5a49760f1e9624699ed9769cc2b7a">EV_Damage_Calculate</a>)</td></tr>
+<tr class="separator:ac8dc1403277ff8d1fff42e122d9fa907"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af27df58ef83bea07a45d1d4b1f33b4d7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#af27df58ef83bea07a45d1d4b1f33b4d7">MUTATOR_HOOKABLE</a> (PlayerDamaged, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ada0890cbaa7e3d082c4e3e300d42bde3">EV_PlayerDamaged</a>)</td></tr>
 <tr class="separator:af27df58ef83bea07a45d1d4b1f33b4d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e68966f1464f680e0b4edbb62211982"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a6e68966f1464f680e0b4edbb62211982">MUTATOR_HOOKABLE</a> (<a class="el" href="../../da/db7/weaponsystem_8qh.html#aa0bce870282286c681f4e9988c2ba474">W_DecreaseAmmo</a>, <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a42be9e8fcc1d63954278ac53322e5690">EV_W_DecreaseAmmo</a>)</td></tr>
@@ -1281,6 +1281,40 @@ Variables</h2></td></tr>
 <p>customizes the waypoint for spectators </p>
 
 <p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00188">188</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aeef5a49760f1e9624699ed9769cc2b7a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define EV_Damage_Calculate</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">i, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">o&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Value:</b><div class="fragment"><div class="line"> i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \ i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_1_entity) \ i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_2_entity) \ i(<span class="keywordtype">float</span>,  MUTATOR_ARGV_3_float) \ i(<span class="keywordtype">float</span>,  MUTATOR_ARGV_4_float) \ o(<span class="keywordtype">float</span>,  MUTATOR_ARGV_4_float) \ i(<span class="keywordtype">float</span>,  MUTATOR_ARGV_5_float) \ o(<span class="keywordtype">float</span>,  MUTATOR_ARGV_5_float) \ i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_6_vector) \ o(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_6_vector) \</div>
+<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
+<div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
+</div><!-- fragment -->
+<p>called to adjust damage and force values which are applied to the player, used for e.g. </p>
+<p>strength damage/force multiplier i'm not sure if I should change this around slightly (Naming of the entities, and also how they're done in g_damage). </p>
+
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00354">354</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -2493,40 +2527,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 </div><!-- fragment -->
 <p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00872">872</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
-
-</div>
-</div>
-<a class="anchor" id="a6f0dec13a4dc9336577dc70abd61b71f"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define EV_PlayerDamage_Calculate</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">i, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">o&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<b>Value:</b><div class="fragment"><div class="line"> i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_0_entity) \ i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_1_entity) \ i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>, MUTATOR_ARGV_2_entity) \ i(<span class="keywordtype">float</span>,  MUTATOR_ARGV_3_float) \ i(<span class="keywordtype">float</span>,  MUTATOR_ARGV_4_float) \ o(<span class="keywordtype">float</span>,  MUTATOR_ARGV_4_float) \ i(<span class="keywordtype">float</span>,  MUTATOR_ARGV_5_float) \ o(<span class="keywordtype">float</span>,  MUTATOR_ARGV_5_float) \ i(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_6_vector) \ o(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>, MUTATOR_ARGV_6_vector) \</div>
-<div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
-</div><!-- fragment -->
-<p>called to adjust damage and force values which are applied to the player, used for e.g. </p>
-<p>strength damage/force multiplier i'm not sure if I should change this around slightly (Naming of the entities, and also how they're done in g_damage). </p>
-
-<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00354">354</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
 
 </div>
 </div>
@@ -5204,20 +5204,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6c2a47006b64b1625b1338666fc225fa"></a>
+<a class="anchor" id="ac8dc1403277ff8d1fff42e122d9fa907"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">MUTATOR_HOOKABLE </td>
           <td>(</td>
-          <td class="paramtype">PlayerDamage_Calculate&#160;</td>
+          <td class="paramtype">Damage_Calculate&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a6f0dec13a4dc9336577dc70abd61b71f">EV_PlayerDamage_Calculate</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#aeef5a49760f1e9624699ed9769cc2b7a">EV_Damage_Calculate</a>&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -7035,7 +7035,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Sat Dec 31 2016 01:08:51 for Xonotic by
+    <li class="footer">Generated on Sat Dec 31 2016 02:15:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

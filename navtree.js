@@ -87,7 +87,7 @@ var NAVTREEINDEX =
 "d6/daa/quickmenu_8qh.html#a83c6625cfcd8716e5e481969fa957f6f",
 "d6/dce/sounds_2all_8inc.html#aa44fb9415b215387ab8efecafd031666",
 "d6/dd3/view_8qc.html#a9d0f43fb3f42499c39944674e8f5a562",
-"d6/ddd/server_2mutators_2events_8qh.html#ad93be94942fac907d31640a1f755bcb0",
+"d6/ddd/server_2mutators_2events_8qh.html#ada0890cbaa7e3d082c4e3e300d42bde3",
 "d7/d13/classXonoticHUDAmmoDialog.html#a45ee93768f4f9d69250e880fe5ce6454",
 "d7/d39/classXonoticVideoSettingsTab.html#a09d90e607936c09918d9bad2674f57a1",
 "d7/d50/classXonoticPlayerList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea",

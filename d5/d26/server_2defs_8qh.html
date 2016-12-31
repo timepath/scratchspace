@@ -1409,7 +1409,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00713"></a><span class="lineno">  713</span>&#160;        }</div>
 <div class="line"><a name="l00714"></a><span class="lineno">  714</span>&#160;</div>
 <div class="line"><a name="l00715"></a><span class="lineno">  715</span>&#160;        <span class="comment">// should this be changed at all? If so, in what way?</span></div>
-<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;        <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(PlayerDamage_Calculate, inflictor, attacker, targ, deathtype, damage, mirrordamage, force);</div>
+<div class="line"><a name="l00716"></a><span class="lineno">  716</span>&#160;        <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(Damage_Calculate, inflictor, attacker, targ, deathtype, damage, mirrordamage, force);</div>
 <div class="line"><a name="l00717"></a><span class="lineno">  717</span>&#160;        damage = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(4, <span class="keywordtype">float</span>);</div>
 <div class="line"><a name="l00718"></a><span class="lineno">  718</span>&#160;        mirrordamage = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(5, <span class="keywordtype">float</span>);</div>
 <div class="line"><a name="l00719"></a><span class="lineno">  719</span>&#160;        force = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(6, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a>);</div>
@@ -2977,7 +2977,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00019">state</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00331">weapon_thinkf()</a>, and <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00035">WS_READY</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00165">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00664">W_ReloadedAndReady()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00424">W_WeaponFrame()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00331">weapon_thinkf()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d0c/sv__overkill_8qc_source.html#l00164">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00664">W_ReloadedAndReady()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00424">W_WeaponFrame()</a>, and <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00331">weapon_thinkf()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;{</div>
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span> = actor.(weaponentity);</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <span class="keywordflow">if</span> (<span class="keyword">this</span>) this.<a class="code" href="../../d5/de0/weaponsystem_8qc.html#a89f234133d3efe315836311cbf21c64b">state</a> = <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a56bca5a7cf9c3b914cb389ba09f8999c">WS_READY</a>;</div>
@@ -7013,7 +7013,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/d26/server_2defs_8qh.html">defs.qh</a></li>
-    <li class="footer">Generated on Sat Dec 31 2016 01:08:50 for Xonotic by
+    <li class="footer">Generated on Sat Dec 31 2016 02:15:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

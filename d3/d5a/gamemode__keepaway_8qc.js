@@ -17,7 +17,7 @@ var gamemode__keepaway_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#a486197576b92b805bf08b2055ed88e0c", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#a947e14f15617f6434aeeaeef914c62fb", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#aac10b6fca59a918f3708da8333b43a46", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#a0ee5c15e6d88a76c9971602d22291d69", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#a57a01a9749b9445093630d283f568984", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#add9a3756731cc193372ef5d5d4a08a19", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#a874de11742ef646678478f754fb9f9a3", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d5a/gamemode__keepaway_8qc.html#a45710b7e0f6e57e43d8b165101b31633", null ],

@@ -55,7 +55,7 @@ var gamemode__ctf_8qc =
     [ "havocbot_role_ctf_retriever", "d3/d73/gamemode__ctf_8qc.html#aaf62216da8080fc14fb92e1842c592e7", null ],
     [ "havocbot_role_ctf_setrole", "d3/d73/gamemode__ctf_8qc.html#ac225840895f5caf97112694a0a4ec3c6", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d73/gamemode__ctf_8qc.html#ad722f50277d143424ade42e5d62cf7f8", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d3/d73/gamemode__ctf_8qc.html#a8767e1375d14ec0303233c9ee015d96a", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d3/d73/gamemode__ctf_8qc.html#a389a5c545b7ddbc783ded98531f0cc95", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d73/gamemode__ctf_8qc.html#a1302d7a2b6b1a14904d2cd3d2cfb34f6", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d73/gamemode__ctf_8qc.html#a4ae53b8828ecee8774b39f18b361360b", null ],
     [ "MUTATOR_HOOKFUNCTION", "d3/d73/gamemode__ctf_8qc.html#a84e217ec8d3a0d610c08fca44308afda", null ],

@@ -27,7 +27,7 @@ var sv__buffs_8qc =
     [ "buffs_DelayedInit", "d2/dac/sv__buffs_8qc.html#a883c3faf0e935cd0bc1e0a69c9c7ba30", null ],
     [ "buffs_RemovePlayer", "d2/dac/sv__buffs_8qc.html#a45a27d1f17a26c99b6cddf9e71aa0e86", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a09dc2f94b9bcf8cf598659c981e22e32", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#ad4424bc84298270991120abbcc608c60", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a51cc0da527fca3055d279eff30a78a25", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a6e92b1bf44f3b75a475b5b603cfdadad", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a123712c5b50c241c9f91c0241e0d1287", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a33fb03db7408259e4fe833aed66214c6", null ],
