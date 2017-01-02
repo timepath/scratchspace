@@ -1,6 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"df/d27/classXonoticPicker.html#afdcf1fb79903f747cda494b27206526b":[1,0,212,1],
 "df/d27/common_2mutators_2mutator_2__mod_8inc.html":[2,0,1,9,0,36],
 "df/d27/common_2mutators_2mutator_2__mod_8inc_source.html":[2,0,1,9,0,36],
 "df/d27/dialog__multiplayer__media__screenshot__viewer_8qh.html":[2,0,5,4,111],
@@ -249,5 +248,6 @@ var NAVTREEINDEX126 =
 "df/d49/classSound.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,116,4],
 "df/d49/classSound.html#ab00e99633c0c7e997a4745557395263a":[1,0,116,1],
 "df/d49/classSound.html#ad3474b173c3cc7d35fa96a04929d0378":[1,0,116,5],
-"df/d4a/common_2triggers_2trigger_2impulse_8qh.html":[2,0,1,13,3,19]
+"df/d4a/common_2triggers_2trigger_2impulse_8qh.html":[2,0,1,13,3,19],
+"df/d4a/common_2triggers_2trigger_2impulse_8qh.html#a2c1c8f9331368f38bfc3eaee260b59a6":[2,0,1,13,3,19,3]
 };

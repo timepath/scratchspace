@@ -1,8 +1,5 @@
 var NAVTREEINDEX52 =
 {
-"d6/d1a/classMainWindow.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,72,67],
-"d6/d1a/classMainWindow.html#a85a064a31a698c09f5c424224ec42bfc":[1,0,72,12],
-"d6/d1a/classMainWindow.html#a890974fd1608e18604cdc5b674b96f47":[1,0,72,66],
 "d6/d1a/classMainWindow.html#a918765695e02e3fd2b1fd9d6a97ce8b5":[1,0,72,37],
 "d6/d1a/classMainWindow.html#a97b4525da5b97bc6a8da6889f0f10732":[1,0,72,10],
 "d6/d1a/classMainWindow.html#a9d8006ceb7047b2888170a128d54b5af":[1,0,72,14],
@@ -249,5 +246,8 @@ var NAVTREEINDEX52 =
 "d6/d30/dialog__teamselect_8qc_source.html":[2,0,5,4,160],
 "d6/d35/debug_8qc.html":[2,0,6,4,4],
 "d6/d35/debug_8qc_source.html":[2,0,6,4,4],
-"d6/d35/server_2bot_2default_2havocbot_2__mod_8inc.html":[2,0,6,0,0,0,0]
+"d6/d35/server_2bot_2default_2havocbot_2__mod_8inc.html":[2,0,6,0,0,0,0],
+"d6/d35/server_2bot_2default_2havocbot_2__mod_8inc_source.html":[2,0,6,0,0,0,0],
+"d6/d36/common_2mutators_2mutator_2touchexplode_2__mod_8qh.html":[2,0,1,9,0,30,1],
+"d6/d36/common_2mutators_2mutator_2touchexplode_2__mod_8qh_source.html":[2,0,1,9,0,30,1]
 };

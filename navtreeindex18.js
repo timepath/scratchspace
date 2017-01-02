@@ -1,5 +1,6 @@
 var NAVTREEINDEX18 =
 {
+"d2/d88/bigcommandbutton_8qh.html#ab6fcfa6962e1b0d79189bd54e072e73e":[2,0,5,4,5,1],
 "d2/d88/bigcommandbutton_8qh_source.html":[2,0,5,4,5],
 "d2/d88/classDomination.html":[1,0,27],
 "d2/d88/classDomination.html#a2ac8495c76fae9e766979da1f1c7d867":[1,0,27,1],
@@ -132,10 +133,10 @@ var NAVTREEINDEX18 =
 "d2/dac/sv__buffs_8qc.html#a09c4b52d69e637a711dddfc30de00505":[2,0,1,9,0,2,7,39],
 "d2/dac/sv__buffs_8qc.html#a09dc2f94b9bcf8cf598659c981e22e32":[2,0,1,9,0,2,7,26],
 "d2/dac/sv__buffs_8qc.html#a0c1e1125ba09776947b5b4e73d47e4e9":[2,0,1,9,0,2,7,38],
+"d2/dac/sv__buffs_8qc.html#a0f38f38cb2a21d68db8fa4402b5b9023":[2,0,1,9,0,2,7,2],
 "d2/dac/sv__buffs_8qc.html#a1183e50710176e0bfc31e437155a9c40":[2,0,1,9,0,2,7,7],
 "d2/dac/sv__buffs_8qc.html#a123712c5b50c241c9f91c0241e0d1287":[2,0,1,9,0,2,7,29],
 "d2/dac/sv__buffs_8qc.html#a201b7fd343d87ffc649c5f8657574fbc":[2,0,1,9,0,2,7,19],
-"d2/dac/sv__buffs_8qc.html#a23fc6cf1ccf682bc4487c0c081a442f8":[2,0,1,9,0,2,7,2],
 "d2/dac/sv__buffs_8qc.html#a2beb52fe9d382c67291efeb79771e1ac":[2,0,1,9,0,2,7,8],
 "d2/dac/sv__buffs_8qc.html#a2cf9b783310aee0fdbb30851e861e190":[2,0,1,9,0,2,7,15],
 "d2/dac/sv__buffs_8qc.html#a2f2a3a414348f4af9bd0536a440a15bf":[2,0,1,9,0,2,7,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX18 =
 "d2/db1/movetypes_8qc.html#a8ce6e27c196235e413e903d20b2ac126":[2,0,1,11,0,5,12],
 "d2/db1/movetypes_8qc.html#a8dcd542ddaaeda0037a8839d90497b1a":[2,0,1,11,0,5,2],
 "d2/db1/movetypes_8qc.html#a8eb028ddd5ef1d5b4fa30afe433e74ae":[2,0,1,11,0,5,6],
-"d2/db1/movetypes_8qc.html#a9dc4beb8296f404512228731929339d3":[2,0,1,11,0,5,22],
-"d2/db1/movetypes_8qc.html#a9eab855e43664a019197c6c63e17698b":[2,0,1,11,0,5,10]
+"d2/db1/movetypes_8qc.html#a9dc4beb8296f404512228731929339d3":[2,0,1,11,0,5,22]
 };

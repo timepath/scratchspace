@@ -2,7 +2,7 @@ var sv__buffs_8qc =
 [
     [ "BUFF_ONADD", "d2/dac/sv__buffs_8qc.html#a8a4a5cd8a94e69dcd4a753bb7eece163", null ],
     [ "BUFF_ONREM", "d2/dac/sv__buffs_8qc.html#a46844ec3711dd4b9f71323d503cd5556", null ],
-    [ "AUTOCVAR", "d2/dac/sv__buffs_8qc.html#a23fc6cf1ccf682bc4487c0c081a442f8", null ],
+    [ "AUTOCVAR", "d2/dac/sv__buffs_8qc.html#a0f38f38cb2a21d68db8fa4402b5b9023", null ],
     [ "buff_Available", "d2/dac/sv__buffs_8qc.html#a77fd18a78f1e4c215d54d855c7230851", null ],
     [ "buff_Customize", "d2/dac/sv__buffs_8qc.html#aa2b9baeed98377cf9f5add370f7d75e1", null ],
     [ "buff_Effect", "d2/dac/sv__buffs_8qc.html#a2f2a3a414348f4af9bd0536a440a15bf", null ],

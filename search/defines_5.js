@@ -108,6 +108,7 @@ var searchData=
   ['ev_5fplayerregen',['EV_PlayerRegen',['../d6/ddd/server_2mutators_2events_8qh.html#a3e0687b69fd05a4e44a14e17f718fe9f',1,'events.qh']]],
   ['ev_5fplayerspawn',['EV_PlayerSpawn',['../d6/ddd/server_2mutators_2events_8qh.html#ab6b4c97cdfbd6ee86d168ad813539a42',1,'events.qh']]],
   ['ev_5fplayerusekey',['EV_PlayerUseKey',['../d6/ddd/server_2mutators_2events_8qh.html#aa5be782076f01dacdeac41cf3f96c964',1,'events.qh']]],
+  ['ev_5fplayerweaponselect',['EV_PlayerWeaponSelect',['../d6/ddd/server_2mutators_2events_8qh.html#afe69b2efe677f326c263088347d8aa95',1,'events.qh']]],
   ['ev_5fplayhitsound',['EV_PlayHitsound',['../d6/ddd/server_2mutators_2events_8qh.html#a78652f5e6254efd7cad2cee3af313b3a',1,'events.qh']]],
   ['ev_5fpm_5fphysics',['EV_PM_Physics',['../d4/d95/common_2mutators_2events_8qh.html#a26df0038cd70de3a0c017c63d859ed35',1,'events.qh']]],
   ['ev_5fportalteleport',['EV_PortalTeleport',['../d6/ddd/server_2mutators_2events_8qh.html#a837927ac30e06ef04d57e04353dc05ac',1,'events.qh']]],

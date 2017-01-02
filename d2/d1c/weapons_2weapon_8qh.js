@@ -22,7 +22,6 @@ var weapons_2weapon_8qh =
     [ "ammo_plasma", "d2/d1c/weapons_2weapon_8qh.html#ac3d31d9a7ce998c3babc4632ef41907f", null ],
     [ "ammo_rockets", "d2/d1c/weapons_2weapon_8qh.html#acc258bdef877e65e97005690d5d4377b", null ],
     [ "ammo_shells", "d2/d1c/weapons_2weapon_8qh.html#a7f0f6109cd99633e526e2a2226501332", null ],
-    [ "MAX_SHOT_DISTANCE", "d2/d1c/weapons_2weapon_8qh.html#a9fa363812785dc498d10c39607bbbb9d", null ],
     [ "MAX_WEAPONSLOTS", "d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b", null ],
     [ "weaponentities", "d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad", null ],
     [ "weaponorder_byid", "d2/d1c/weapons_2weapon_8qh.html#a33a5fa56c7d71ec499a00d0ed547de24", null ],

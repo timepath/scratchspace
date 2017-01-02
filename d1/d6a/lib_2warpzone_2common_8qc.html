@@ -874,7 +874,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00123">chain</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a383c15fa728b566e1b925092ec618b1d">findchainfloat()</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00022">FOREACH_LIST</a>, <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00592">WarpZone_findradius_hit</a>, and <a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc_source.html#l00594">WarpZone_FindRadius_Recurse()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l02182">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02140">PlayerUseKey()</a>, and <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00895">RadiusDamageForSource()</a>.</p>
+<p>Referenced by <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l02182">MUTATOR_HOOKFUNCTION()</a>, <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l02142">PlayerUseKey()</a>, and <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00895">RadiusDamageForSource()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;{</div>
 <div class="line"><a name="l00662"></a><span class="lineno">  662</span>&#160;    <span class="comment">// FIXME: why can&#39;t we do this? (sometimes finds nothing, breaking explosions)</span></div>
 <div class="line"><a name="l00663"></a><span class="lineno">  663</span>&#160;    <span class="comment">// if (!warpzone_warpzones_exist &amp;&amp; !needlineofsight) return findradius(org, rad);</span></div>
@@ -2528,13 +2528,13 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;            }</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        }</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a> == wz)</div>
-<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        {</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;            <span class="comment">// FIXME can this check be removed? Do we really need it?</span></div>
-<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            <a class="code" href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a>(<span class="stringliteral">&quot;I transformed into the same zone again, wtf, aborting the trace&quot;</span>);</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a> = <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>;</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;            <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        }</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        <span class="comment">/*if(trace_ent == wz)</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="comment">        {</span></div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;<span class="comment">            // FIXME can this check be removed? Do we really need it?</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="comment">            LOG_TRACE(&quot;I transformed into the same zone again, wtf, aborting the trace&quot;);</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="comment">            trace_ent = NULL;</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="comment">            break;</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="comment">        }*/</span></div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        wz = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a2159f6bc562457d558effab8f13f1603">trace_ent</a>;</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a20c7d13c9bec3a7f85383560b20cbde0">WarpZone_trace_firstzone</a>)</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;            <a class="code" href="../../d7/d71/lib_2warpzone_2common_8qh.html#a20c7d13c9bec3a7f85383560b20cbde0">WarpZone_trace_firstzone</a> = wz;</div>
@@ -4223,7 +4223,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_58d953ef34ccfc4a49203206a34466c3.html">warpzone</a></li><li class="navelem"><a class="el" href="../../d1/d6a/lib_2warpzone_2common_8qc.html">common.qc</a></li>
-    <li class="footer">Generated on Sat Dec 31 2016 02:16:01 for Xonotic by
+    <li class="footer">Generated on Mon Jan 2 2017 09:28:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -20,6 +20,7 @@ var dir_97aefd0d527b934f1d99a682da8fe6a9 =
     [ "draw.qh", "d1/dd2/lib_2draw_8qh.html", null ],
     [ "enumclass.qh", "da/dd5/enumclass_8qh.html", "da/dd5/enumclass_8qh" ],
     [ "file.qh", "da/d30/file_8qh.html", "da/d30/file_8qh" ],
+    [ "float.qh", "d0/d58/float_8qh.html", "d0/d58/float_8qh" ],
     [ "functional.qh", "dd/dee/functional_8qh.html", "dd/dee/functional_8qh" ],
     [ "i18n.qh", "d0/dfe/i18n_8qh.html", "d0/dfe/i18n_8qh" ],
     [ "int.qh", "de/d0d/int_8qh.html", "de/d0d/int_8qh" ],
