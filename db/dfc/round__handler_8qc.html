@@ -477,8 +477,8 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    }</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (gameover)</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        gameover = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span> (game_stopped)</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        game_stopped = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d5/d26/server_2defs_8qh.html#abdc99ad43dd04e9cbb553b29c187b1e3">intermission_running</a>)</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
@@ -524,7 +524,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <span class="comment">// schedule a new round</span></div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            this.<a class="code" href="../../db/d2f/subs_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683">wait</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + this.<a class="code" href="../../db/d2f/subs_8qh.html#abdc33cf25e725134a9b48e79c7031bcf">delay</a>;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            gameover = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            game_stopped = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        {</div>
@@ -577,7 +577,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/dfc/round__handler_8qc.html">round_handler.qc</a></li>
-    <li class="footer">Generated on Wed Jan 4 2017 18:58:12 for Xonotic by
+    <li class="footer">Generated on Wed Jan 4 2017 19:15:58 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

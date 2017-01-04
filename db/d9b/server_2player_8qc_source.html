@@ -802,7 +802,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div class="line"><a name="l00703"></a><span class="lineno">  703</span>&#160;        teamsay = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00704"></a><span class="lineno">  704</span>&#160;    }</div>
 <div class="line"><a name="l00705"></a><span class="lineno">  705</span>&#160;</div>
-<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;    <span class="keywordflow">if</span>(gameover)</div>
+<div class="line"><a name="l00706"></a><span class="lineno">  706</span>&#160;    <span class="keywordflow">if</span>(game_stopped)</div>
 <div class="line"><a name="l00707"></a><span class="lineno">  707</span>&#160;        teamsay = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00708"></a><span class="lineno">  708</span>&#160;</div>
 <div class="line"><a name="l00709"></a><span class="lineno">  709</span>&#160;    <span class="keywordflow">if</span> (!source) {</div>
@@ -979,7 +979,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div class="line"><a name="l00880"></a><span class="lineno">  880</span>&#160;</div>
 <div class="line"><a name="l00881"></a><span class="lineno">  881</span>&#160;    <span class="keywordflow">if</span> (!privatesay &amp;&amp; source &amp;&amp; !<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(source))</div>
 <div class="line"><a name="l00882"></a><span class="lineno">  882</span>&#160;    {</div>
-<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;        <span class="keywordflow">if</span> (!gameover)</div>
+<div class="line"><a name="l00883"></a><span class="lineno">  883</span>&#160;        <span class="keywordflow">if</span> (!game_stopped)</div>
 <div class="line"><a name="l00884"></a><span class="lineno">  884</span>&#160;        <span class="keywordflow">if</span> (teamsay || (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a5b52a509cd75821ce7d2f2efb635c539">autocvar_g_chat_nospectators</a> == 1) || (<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a5b52a509cd75821ce7d2f2efb635c539">autocvar_g_chat_nospectators</a> == 2 &amp;&amp; !<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a>))</div>
 <div class="line"><a name="l00885"></a><span class="lineno">  885</span>&#160;            teamsay = -1; <span class="comment">// spectators</span></div>
 <div class="line"><a name="l00886"></a><span class="lineno">  886</span>&#160;    }</div>
@@ -1269,7 +1269,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div class="ttc" id="csprogsdefs_8qc_html_afa78924af8a2d7996779f1f92cf6afcb"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#afa78924af8a2d7996779f1f92cf6afcb">dphitcontentsmask</a></div><div class="ttdeci">float dphitcontentsmask</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l01118">csprogsdefs.qc:1118</a></div></div>
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="animdecide_8qh_html_a30e886a7589109e082ff44a6ce54cbff"><div class="ttname"><a href="../../d3/d42/animdecide_8qh.html#a30e886a7589109e082ff44a6ce54cbff">ANIMSTATE_DEAD1</a></div><div class="ttdeci">const int ANIMSTATE_DEAD1</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d42/animdecide_8qh_source.html#l00124">animdecide.qh:124</a></div></div>
-<div class="ttc" id="server_2client_8qc_html_ad782a8ecd5d72aefee13e592a4906f84"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#ad782a8ecd5d72aefee13e592a4906f84">ClientKill_Now_TeamChange</a></div><div class="ttdeci">void ClientKill_Now_TeamChange(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd7/server_2client_8qc_source.html#l00830">client.qc:830</a></div></div>
+<div class="ttc" id="server_2client_8qc_html_ad782a8ecd5d72aefee13e592a4906f84"><div class="ttname"><a href="../../df/dd7/server_2client_8qc.html#ad782a8ecd5d72aefee13e592a4906f84">ClientKill_Now_TeamChange</a></div><div class="ttdeci">void ClientKill_Now_TeamChange(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dd7/server_2client_8qc_source.html#l00829">client.qc:829</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_aa1f190a348c0675e2f35688de429bef6"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#aa1f190a348c0675e2f35688de429bef6">angles</a></div><div class="ttdeci">vector angles</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00104">csprogsdefs.qc:104</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_aaf6a15488255d175853227438f389670"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#aaf6a15488255d175853227438f389670">pauseregen_finished</a></div><div class="ttdeci">float pauseregen_finished</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00108">defs.qh:108</a></div></div>
 <div class="ttc" id="cheats_8qc_html_a36bf96c940a3b6132607309cb458fb50"><div class="ttname"><a href="../../d6/de9/cheats_8qc.html#a36bf96c940a3b6132607309cb458fb50">Drag_MoveDrag</a></div><div class="ttdeci">void Drag_MoveDrag(entity from, entity to)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/de9/cheats_8qc_source.html#l01033">cheats.qc:1033</a></div></div>
@@ -1314,7 +1314,7 @@ $(document).ready(function(){initNavTree('db/d9b/server_2player_8qc_source.html'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../db/d9b/server_2player_8qc.html">player.qc</a></li>
-    <li class="footer">Generated on Wed Jan 4 2017 18:57:57 for Xonotic by
+    <li class="footer">Generated on Wed Jan 4 2017 19:15:43 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -443,7 +443,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;{</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt;= <a class="code" href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a>)</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    {</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        <span class="keywordflow">if</span> (gameover)</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        <span class="keywordflow">if</span> (game_stopped)</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;            <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0">round_handler_IsActive</a>())</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;            <a class="code" href="../../db/dfc/round__handler_8qc.html#a9f9012d50d940fe62137392d78988b0f">round_handler_Reset</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a>);</div>
@@ -512,7 +512,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;<span class="comment">// Forces a restart of the game without actually reloading the map // this is a mess...</span></div>
 <div class="line"><a name="l00406"></a><span class="lineno"><a class="line" href="../../d7/d16/server_2command_2vote_8qh.html#a6b7b78c23e6cfd78e7d1e09d1e44ed9d">  406</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/dad/server_2command_2vote_8qc.html#a6b7b78c23e6cfd78e7d1e09d1e44ed9d">ReadyRestart_force</a>()</div>
 <div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;{</div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt;= <a class="code" href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a> &amp;&amp; gameover)</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt;= <a class="code" href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a> &amp;&amp; game_stopped)</div>
 <div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a687c7bf27ba894ccc52063de9fa79a38">bprint</a>(<span class="stringliteral">&quot;^1Server is restarting...\n&quot;</span>);</div>
@@ -571,7 +571,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;</div>
 <div class="line"><a name="l00465"></a><span class="lineno"><a class="line" href="../../d7/d97/g__world_8qh.html#a033dd1158883a78b40100e1dd268815c">  465</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d1/dad/server_2command_2vote_8qc.html#a033dd1158883a78b40100e1dd268815c">ReadyRestart</a>()</div>
 <div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;{</div>
-<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(ReadyRestart_Deny) || gameover || <a class="code" href="../../d4/d1b/race_8qh.html#ae526a80b21c7a500f4e86b074552fd2e">race_completing</a>) <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;restart\n&quot;</span>);</div>
+<div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(ReadyRestart_Deny) || game_stopped || <a class="code" href="../../d4/d1b/race_8qh.html#ae526a80b21c7a500f4e86b074552fd2e">race_completing</a>) <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;restart\n&quot;</span>);</div>
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;    <span class="keywordflow">else</span> <a class="code" href="../../d0/d95/menudefs_8qh.html#a3d23a92a3bb3bcbb467f1fa2bdaa54b3">localcmd</a>(<span class="stringliteral">&quot;\nsv_hook_gamerestart\n&quot;</span>);</div>
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;</div>
 <div class="line"><a name="l00470"></a><span class="lineno">  470</span>&#160;    <span class="comment">// Reset ALL scores, but only do that at the beginning of the countdown if sv_ready_restart_after_countdown is off!</span></div>
@@ -1449,7 +1449,7 @@ $(document).ready(function(){initNavTree('d1/dad/server_2command_2vote_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d1/dad/server_2command_2vote_8qc.html">vote.qc</a></li>
-    <li class="footer">Generated on Wed Jan 4 2017 18:57:55 for Xonotic by
+    <li class="footer">Generated on Wed Jan 4 2017 19:15:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

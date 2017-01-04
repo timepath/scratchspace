@@ -144,7 +144,7 @@ $(document).ready(function(){initNavTree('db/d47/sv__physics_8qc_source.html','.
 <div class="line"><a name="l00037"></a><span class="lineno"><a class="line" href="../../db/d47/sv__physics_8qc.html#aa4d68982e5ca4141554c3510a02fa0b2">   37</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../db/d47/sv__physics_8qc.html#aa4d68982e5ca4141554c3510a02fa0b2">sys_phys_pregame_hold</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;{</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(<span class="keyword">this</span>)) { <span class="keywordflow">return</span>; }</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">bool</span> allowed_to_move = (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= <a class="code" href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a> &amp;&amp; !gameover);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">bool</span> allowed_to_move = (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &gt;= <a class="code" href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a> &amp;&amp; !game_stopped);</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="keywordflow">if</span> (!allowed_to_move) {</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a714da6649d97bc92a86a76f1be278180">velocity</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a87a61c6894ded1456e2e4fee955bf7b1">MOVETYPE_NONE</a>);</div>
@@ -284,7 +284,7 @@ $(document).ready(function(){initNavTree('db/d47/sv__physics_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_eafb92770fbc727220bdaa0b1292f771.html">ecs</a></li><li class="navelem"><a class="el" href="../../dir_a0827c396b757bc3d0a72db5249edcce.html">systems</a></li><li class="navelem"><a class="el" href="../../db/d47/sv__physics_8qc.html">sv_physics.qc</a></li>
-    <li class="footer">Generated on Wed Jan 4 2017 18:57:58 for Xonotic by
+    <li class="footer">Generated on Wed Jan 4 2017 19:15:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

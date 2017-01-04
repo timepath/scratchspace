@@ -140,7 +140,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="../../dd/de4/g__damage_8qh.html#a8b8e7316613eee6bbf528c646d82128f">   33</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../d5/dac/g__damage_8qc.html#a8b8e7316613eee6bbf528c646d82128f">GiveFrags</a> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> attacker, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ, <span class="keywordtype">float</span> f, <span class="keywordtype">int</span> deathtype)</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;{</div>
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="comment">// TODO route through PlayerScores instead</span></div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">if</span>(gameover) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">if</span>(game_stopped) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">if</span>(f &lt; 0)</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    {</div>
@@ -730,7 +730,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;    mirrordamage = 0;</div>
 <div class="line"><a name="l00624"></a><span class="lineno">  624</span>&#160;    mirrorforce = 0;</div>
 <div class="line"><a name="l00625"></a><span class="lineno">  625</span>&#160;</div>
-<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    <span class="keywordflow">if</span> (gameover || targ.killcount == <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae0ab871c8cc78d5f023578c0969de0fe">FRAGS_SPECTATOR</a>)</div>
+<div class="line"><a name="l00626"></a><span class="lineno">  626</span>&#160;    <span class="keywordflow">if</span> (game_stopped || targ.killcount == <a class="code" href="../../d0/d8b/common_2constants_8qh.html#ae0ab871c8cc78d5f023578c0969de0fe">FRAGS_SPECTATOR</a>)</div>
 <div class="line"><a name="l00627"></a><span class="lineno">  627</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;</div>
 <div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    <a class="code" href="../../dd/de4/g__damage_8qh.html#a35bda3687a4ac3975ffa2bc088fc0cf1">damage_targ</a> = targ;</div>
@@ -1618,7 +1618,7 @@ $(document).ready(function(){initNavTree('d5/dac/g__damage_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d5/dac/g__damage_8qc.html">g_damage.qc</a></li>
-    <li class="footer">Generated on Wed Jan 4 2017 18:57:59 for Xonotic by
+    <li class="footer">Generated on Wed Jan 4 2017 19:15:45 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -554,7 +554,7 @@ Variables</h2></td></tr>
 <p>Referenced by <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00169">CL_SpawnWeaponentity()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;{</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">if</span> (gameover) this.<a class="code" href="../../d3/de0/anim_8qh.html#ad7dbdcadf9186d41f82055ffdd9f7534">frame</a> = this.anim_idle.x;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">if</span> (game_stopped) this.<a class="code" href="../../d3/de0/anim_8qh.html#ad7dbdcadf9186d41f82055ffdd9f7534">frame</a> = this.anim_idle.x;</div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    .entity weaponentity = this.<a class="code" href="../../da/db7/weaponsystem_8qh.html#ab77c36c89a03dbb675a9350144e5faec">weaponentity_fld</a>;</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a4b5ad32527ff137c4517b10088cba1ef">owner</a>.(weaponentity) != <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    {</div>
@@ -648,7 +648,7 @@ Variables</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160;{</div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; <a class="code" href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a> &amp;&amp; !<a class="code" href="../../d7/da7/server_2autocvars_8qh.html#a0de2fb0c2ac1156e1d2253ad3f595e28">autocvar_sv_ready_restart_after_countdown</a>) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;    <span class="keywordflow">if</span> (player.player_blocked) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    <span class="keywordflow">if</span> (gameover) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;    <span class="keywordflow">if</span> (game_stopped) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;    <span class="keywordflow">if</span> (STAT(FROZEN, player)) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    <span class="keywordflow">if</span> (player.weapon_blocked) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(ForbidWeaponUse, player)) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
@@ -2575,7 +2575,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d5/de0/weaponsystem_8qc.html">weaponsystem.qc</a></li>
-    <li class="footer">Generated on Wed Jan 4 2017 18:58:12 for Xonotic by
+    <li class="footer">Generated on Wed Jan 4 2017 19:15:58 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

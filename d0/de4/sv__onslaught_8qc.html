@@ -2122,7 +2122,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00026">autocvar_g_onslaught_teleport_radius</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">M_ARGV</a>, <a class="el" href="../../db/d38/base_8qh_source.html#l00291">MUTATOR_RETURNVALUE</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01529">ons_Nearest_ControlPoint()</a>, <a class="el" href="../../d8/dc0/progsdefs_8qh_source.html#l00023">stuffcmd</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 <div class="fragment"><div class="line"><a name="l02023"></a><span class="lineno"> 2023</span>&#160;{</div>
-<div class="line"><a name="l02024"></a><span class="lineno"> 2024</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d38/base_8qh.html#ae802749af56eba2b7d9d38cddd3f9596">MUTATOR_RETURNVALUE</a> || gameover) { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+<div class="line"><a name="l02024"></a><span class="lineno"> 2024</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../db/d38/base_8qh.html#ae802749af56eba2b7d9d38cddd3f9596">MUTATOR_RETURNVALUE</a> || game_stopped) <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l02025"></a><span class="lineno"> 2025</span>&#160;</div>
 <div class="line"><a name="l02026"></a><span class="lineno"> 2026</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> player = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(0, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a>);</div>
 <div class="line"><a name="l02027"></a><span class="lineno"> 2027</span>&#160;</div>
@@ -4401,9 +4401,9 @@ Variables</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00976">ons_GeneratorReset()</a>, and <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01029">ons_GeneratorSetup()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00872"></a><span class="lineno">  872</span>&#160;{</div>
-<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;    <span class="keywordflow">if</span>(damage &lt;= 0) { <span class="keywordflow">return</span>; }</div>
-<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a> || gameover) { <span class="keywordflow">return</span>; }</div>
-<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2">round_handler_IsRoundStarted</a>()) { <span class="keywordflow">return</span>; }</div>
+<div class="line"><a name="l00873"></a><span class="lineno">  873</span>&#160;    <span class="keywordflow">if</span>(damage &lt;= 0) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00874"></a><span class="lineno">  874</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#af6088979e4328d96a754cc483d1672d9">warmup_stage</a> || game_stopped) <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00875"></a><span class="lineno">  875</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2">round_handler_IsRoundStarted</a>()) <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00876"></a><span class="lineno">  876</span>&#160;</div>
 <div class="line"><a name="l00877"></a><span class="lineno">  877</span>&#160;    <span class="keywordflow">if</span> (attacker != <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00878"></a><span class="lineno">  878</span>&#160;    {</div>
@@ -4769,7 +4769,7 @@ Variables</h2></td></tr>
 <p>Referenced by <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l00976">ons_GeneratorReset()</a>, and <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01029">ons_GeneratorSetup()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00956"></a><span class="lineno">  956</span>&#160;{</div>
 <div class="line"><a name="l00957"></a><span class="lineno">  957</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9d4fb8ccfb13fa0bd762af0b2b50dcf6">nextthink</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> + <a class="code" href="../../d7/dd0/sv__onslaught_8qh.html#ada9d3f12330d59a4ff372049e859e567">GEN_THINKRATE</a>;</div>
-<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;    <span class="keywordflow">if</span> (!gameover)</div>
+<div class="line"><a name="l00958"></a><span class="lineno">  958</span>&#160;    <span class="keywordflow">if</span> (!game_stopped)</div>
 <div class="line"><a name="l00959"></a><span class="lineno">  959</span>&#160;    {</div>
 <div class="line"><a name="l00960"></a><span class="lineno">  960</span>&#160;        <span class="keywordflow">if</span>(!this.<a class="code" href="../../d7/dd0/sv__onslaught_8qh.html#a164067ce13ef274fa6d9741dbce0108b">isshielded</a> &amp;&amp; this.<a class="code" href="../../db/d2f/subs_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683">wait</a> &lt; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>)</div>
 <div class="line"><a name="l00961"></a><span class="lineno">  961</span>&#160;        {</div>
@@ -6807,7 +6807,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_485953d51457a9f079ff3eef255d57d0.html">onslaught</a></li><li class="navelem"><a class="el" href="../../d0/de4/sv__onslaught_8qc.html">sv_onslaught.qc</a></li>
-    <li class="footer">Generated on Wed Jan 4 2017 18:58:03 for Xonotic by
+    <li class="footer">Generated on Wed Jan 4 2017 19:15:49 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
