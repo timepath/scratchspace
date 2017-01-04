@@ -23,7 +23,7 @@ var classHLAC =
     [ "wr_think", "d4/d41/classHLAC.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d4/d41/classHLAC.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d4/d41/classHLAC.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d4/d41/classHLAC.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d4/d41/classHLAC.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d4/d41/classHLAC.html#a70bee941b117fa22793f1df01de7624b", null ],
     [ "bot_pickupbasevalue", "d4/d41/classHLAC.html#a8d201e202dfd220a70d7f46ba13f8970", null ],
     [ "impulse", "d4/d41/classHLAC.html#a3193f6fcbcac6098952b55d1e09825d8", null ],
@@ -35,6 +35,7 @@ var classHLAC =
     [ "spawnflags", "d4/d41/classHLAC.html#a17ffe1e608dbd9971fe1032cb2260e72", null ],
     [ "w_crosshair", "d4/d41/classHLAC.html#afbdabdb2e8772177265e1ea2078942a3", null ],
     [ "w_crosshair_size", "d4/d41/classHLAC.html#a8d4ee78e19da8207e3ecc454c868ebdf", null ],
+    [ "w_reticle", "d4/d41/classHLAC.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d4/d41/classHLAC.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d4/d41/classHLAC.html#aab6bd20badae67a3fa57609fdb783f9d", null ]
 ];

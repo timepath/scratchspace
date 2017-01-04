@@ -169,7 +169,6 @@ var searchData=
   ['restart_5fcountdown',['RESTART_COUNTDOWN',['../d7/d16/server_2command_2vote_8qh.html#a3e354316fb754e50ae83cf40fcbbadf3',1,'vote.qh']]],
   ['restart_5fmapalreadyrestarted',['restart_mapalreadyrestarted',['../d7/d16/server_2command_2vote_8qh.html#aac1c8bfc2334457dda05c5f27388dac4',1,'vote.qh']]],
   ['restriction',['restriction',['../d5/d26/server_2defs_8qh.html#a077a8c5ecb61207014e4ec35b41cec56',1,'defs.qh']]],
-  ['reticle_5fimage',['reticle_image',['../d6/dd3/view_8qc.html#a1988907f01f6e03580bf6b8921c2f01d',1,'view.qc']]],
   ['reticle_5ftype',['reticle_type',['../d6/dd3/view_8qc.html#a8e6e68292e567e79d51bb749a4f20edf',1,'view.qc']]],
   ['return',['return',['../d0/d5d/classAnimation.html#a9b86cc8c21e6c4051880c253d767d2c7',1,'Animation']]],
   ['revival_5ftime',['revival_time',['../d5/d26/server_2defs_8qh.html#a5320d5d56b57e2f1ffa6e137f496d2ef',1,'defs.qh']]],

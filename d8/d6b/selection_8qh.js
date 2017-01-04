@@ -1,17 +1,17 @@
 var selection_8qh =
 [
-    [ "w_getbestweapon", "d8/d6b/selection_8qh.html#a9939796cc50a72af43a8fa95e3aea85e", null ],
-    [ "client_hasweapon", "d8/d6b/selection_8qh.html#ae95331c3255f5341fd8851efbae687ca", null ],
+    [ "w_getbestweapon", "d8/d6b/selection_8qh.html#a460cc1f632ee31594d9df6ba1407a329", null ],
+    [ "client_hasweapon", "d8/d6b/selection_8qh.html#aba6ed323f0e8f5773f5d7de51e2d3411", null ],
     [ "Send_WeaponComplain", "d8/d6b/selection_8qh.html#a6f9b75f17639bb910d8445a136d4a837", null ],
-    [ "W_CycleWeapon", "d8/d6b/selection_8qh.html#a6fedfde6c12ac781e002cc5685732e16", null ],
-    [ "W_GetCycleWeapon", "d8/d6b/selection_8qh.html#ac803c34e0da06db53b9efb7e80bd1671", null ],
-    [ "W_LastWeapon", "d8/d6b/selection_8qh.html#a5a8a02c987945a7a69eedc13bd083e6d", null ],
-    [ "W_NextWeapon", "d8/d6b/selection_8qh.html#a803a77719fd2059fdc44048208121f14", null ],
-    [ "W_NextWeaponOnImpulse", "d8/d6b/selection_8qh.html#adba85a3a5af093eb8fe83c89b32d18af", null ],
-    [ "W_PreviousWeapon", "d8/d6b/selection_8qh.html#ab0ccdb2ebad8a41d22faf37b729e7fa4", null ],
-    [ "W_SwitchToOtherWeapon", "d8/d6b/selection_8qh.html#a32307104f9168ee9caba49c8a59099e3", null ],
-    [ "W_SwitchWeapon", "d8/d6b/selection_8qh.html#a4dff3960294957a155e699d044fc4266", null ],
-    [ "W_SwitchWeapon_Force", "d8/d6b/selection_8qh.html#a4a226b5967df0ab0c198fb5eebef802f", null ],
+    [ "W_CycleWeapon", "d8/d6b/selection_8qh.html#a6feb08ba7d01d611762b08aeb5dd7dd6", null ],
+    [ "W_GetCycleWeapon", "d8/d6b/selection_8qh.html#adf3e13e24e532932c0396c15ad5d1228", null ],
+    [ "W_LastWeapon", "d8/d6b/selection_8qh.html#ad4bf72dfdd0aaeca5bc1da4fb607fb3b", null ],
+    [ "W_NextWeapon", "d8/d6b/selection_8qh.html#a4bfcd3b0095e49cd611dd4f886c55fc8", null ],
+    [ "W_NextWeaponOnImpulse", "d8/d6b/selection_8qh.html#aa9ed52c05bcae706e07b86117f1165df", null ],
+    [ "W_PreviousWeapon", "d8/d6b/selection_8qh.html#a0f321b3257e4e705a6d2ad7ad4f00bdf", null ],
+    [ "W_SwitchToOtherWeapon", "d8/d6b/selection_8qh.html#ac84b5920c2121ae19b3e269c60244bfd", null ],
+    [ "W_SwitchWeapon", "d8/d6b/selection_8qh.html#a7e2426ae180c23d1a760ea0951ddd2f1", null ],
+    [ "W_SwitchWeapon_Force", "d8/d6b/selection_8qh.html#ab9daa12e545de1878a232e10317b0a0e", null ],
     [ "hasweapon_complain_spam", "d8/d6b/selection_8qh.html#aeffb5f5c575c97f12381045f6f091403", null ],
     [ "weaponcomplainindex", "d8/d6b/selection_8qh.html#a3daae79918286c9352ba30495957db79", null ]
 ];

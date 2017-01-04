@@ -4,8 +4,8 @@ var weaponsystem_8qh =
     [ "CL_Weapon_GetShotOrg", "da/db7/weaponsystem_8qh.html#ad315ff4e6ee9693a54edb0d18efc9245", null ],
     [ "forbidWeaponUse", "da/db7/weaponsystem_8qh.html#a1798aef9c3263ffc0fb53a9741fc3ab9", null ],
     [ "W_AttachToShotorg", "da/db7/weaponsystem_8qh.html#a813254341767de735265a1836478ad03", null ],
-    [ "W_DecreaseAmmo", "da/db7/weaponsystem_8qh.html#aa0bce870282286c681f4e9988c2ba474", null ],
-    [ "W_DropEvent", "da/db7/weaponsystem_8qh.html#a3033c57fa01b0d86245be740694ca2d6", null ],
+    [ "W_DecreaseAmmo", "da/db7/weaponsystem_8qh.html#a06b2f0eed9468ff1724e9d1e6995dbd2", null ],
+    [ "W_DropEvent", "da/db7/weaponsystem_8qh.html#a247df313dc346cd128c991a289157b06", null ],
     [ "W_Reload", "da/db7/weaponsystem_8qh.html#a20be965c42ea2fe958748c6971f93a78", null ],
     [ "W_WeaponFrame", "da/db7/weaponsystem_8qh.html#a9bcd792c8ccabbcc22484eb7872f70b8", null ],
     [ "W_WeaponRateFactor", "da/db7/weaponsystem_8qh.html#aa9037cea3d518282ee50064ec34e3c4a", null ],
@@ -16,5 +16,6 @@ var weaponsystem_8qh =
     [ "weapon_thinkf", "da/db7/weaponsystem_8qh.html#a2c942b58576428eb5b55f9d6ca107a49", null ],
     [ "internalteam", "da/db7/weaponsystem_8qh.html#a460ba8ea4c78b7617eade17eb383d86b", null ],
     [ "weapon_dropevent_item", "da/db7/weaponsystem_8qh.html#a359b963d3e3912a3abe4dcac224cf5f9", null ],
+    [ "weaponentity_fld", "da/db7/weaponsystem_8qh.html#ab77c36c89a03dbb675a9350144e5faec", null ],
     [ "weaponswapping", "da/db7/weaponsystem_8qh.html#a3b99ca2533dba372262408c438993ce3", null ]
 ];

@@ -23,7 +23,7 @@ var classFireball =
     [ "wr_think", "d1/dd1/classFireball.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d1/dd1/classFireball.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d1/dd1/classFireball.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d1/dd1/classFireball.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d1/dd1/classFireball.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d1/dd1/classFireball.html#a768d3992198c4b743dbab2cff9529e99", null ],
     [ "bot_pickupbasevalue", "d1/dd1/classFireball.html#a6d2c84f0a32544542dfbb29f8a078ef6", null ],
     [ "impulse", "d1/dd1/classFireball.html#af6941bfadd7f32ced9be9b65094f2925", null ],
@@ -35,6 +35,7 @@ var classFireball =
     [ "spawnflags", "d1/dd1/classFireball.html#a53a443c006f69d0f7f4e0f8f78f2f835", null ],
     [ "w_crosshair", "d1/dd1/classFireball.html#ac7174b509e6b9e5597f8f4b56589f2bb", null ],
     [ "w_crosshair_size", "d1/dd1/classFireball.html#aadf51e7fb4ada8bff51507cc383495e9", null ],
+    [ "w_reticle", "d1/dd1/classFireball.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d1/dd1/classFireball.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d1/dd1/classFireball.html#a08f282907b8847c86c673c62df52ea9b", null ]
 ];

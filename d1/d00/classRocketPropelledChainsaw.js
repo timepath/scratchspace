@@ -23,7 +23,7 @@ var classRocketPropelledChainsaw =
     [ "wr_think", "d1/d00/classRocketPropelledChainsaw.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d1/d00/classRocketPropelledChainsaw.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d1/d00/classRocketPropelledChainsaw.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d1/d00/classRocketPropelledChainsaw.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d1/d00/classRocketPropelledChainsaw.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d1/d00/classRocketPropelledChainsaw.html#ac42aecfb0869a72f6f96992ecd40e94e", null ],
     [ "bot_pickupbasevalue", "d1/d00/classRocketPropelledChainsaw.html#a0e17fba9d21c708010df3418d29ec17a", null ],
     [ "impulse", "d1/d00/classRocketPropelledChainsaw.html#a1586a881dc6ffa8db62d262dd64ab579", null ],
@@ -35,6 +35,7 @@ var classRocketPropelledChainsaw =
     [ "spawnflags", "d1/d00/classRocketPropelledChainsaw.html#a2deb8af53782d26a9706cda2334f2d4b", null ],
     [ "w_crosshair", "d1/d00/classRocketPropelledChainsaw.html#a42f1604749193cc581fcf6225e0b9b99", null ],
     [ "w_crosshair_size", "d1/d00/classRocketPropelledChainsaw.html#a46d85c5c829fb9de9af84ad955785cdf", null ],
+    [ "w_reticle", "d1/d00/classRocketPropelledChainsaw.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d1/d00/classRocketPropelledChainsaw.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d1/d00/classRocketPropelledChainsaw.html#aa0c56530ae769d50cfbe7588262db0f9", null ]
 ];

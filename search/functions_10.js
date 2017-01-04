@@ -223,7 +223,7 @@ var searchData=
   ['ps_5ffind_5fpiece',['ps_find_piece',['../d8/d1b/ps_8qc.html#a824bdde2bf66a70354ef02ff54892acb',1,'ps.qc']]],
   ['ps_5fmove',['ps_move',['../d8/d1b/ps_8qc.html#a7f44334ec7b2bb3d87584d9b80f1cbae',1,'ps.qc']]],
   ['ps_5fmove_5fpiece',['ps_move_piece',['../d8/d1b/ps_8qc.html#a9efe0e1355cfcd23ef738c9b56d563d7',1,'ps.qc']]],
-  ['ps_5fpush',['ps_push',['../d5/d7e/classPlayerState.html#a05df58443fdc2bd72343d69274afaf5f',1,'PlayerState']]],
+  ['ps_5fpush',['ps_push',['../d6/d92/classClientState.html#a796e5412ca7f00990187accb366124ba',1,'ClientState']]],
   ['ps_5fsetup_5fpieces',['ps_setup_pieces',['../d8/d1b/ps_8qc.html#a9f2b9181671dfb11973052ae98cf92fb',1,'ps.qc']]],
   ['ps_5ftile_5fblacklisted',['ps_tile_blacklisted',['../d8/d1b/ps_8qc.html#a76b2a55fb521e5d42242c6e0f5518111',1,'ps.qc']]],
   ['ps_5fvalid_5ftile',['ps_valid_tile',['../d8/d1b/ps_8qc.html#aa9830eaf1dd598d9517bdbc89b47029f',1,'ps.qc']]],

@@ -1,6 +1,6 @@
 var g__hook_8qc =
 [
-    [ "FireGrapplingHook", "d7/de2/g__hook_8qc.html#a24ddd0532ad743b2bd97e18a51c7e760", null ],
+    [ "FireGrapplingHook", "d7/de2/g__hook_8qc.html#ae2567f613b4799b5612e9c755231e62f", null ],
     [ "GrappleHookInit", "d7/de2/g__hook_8qc.html#a38e80451284a344ffa9c9976e3fe3e2b", null ],
     [ "GrapplingHook_Damage", "d7/de2/g__hook_8qc.html#adf62bf6571b52c7c878f9c8f6bc20802", null ],
     [ "GrapplingHook_Stop", "d7/de2/g__hook_8qc.html#a52c0efc43e29a365b4703fc1255502a5", null ],
@@ -8,7 +8,8 @@ var g__hook_8qc =
     [ "GrapplingHookSend", "d7/de2/g__hook_8qc.html#a4047a2243dce68b59b0b6b56e5ee17fd", null ],
     [ "GrapplingHookThink", "d7/de2/g__hook_8qc.html#adf8618e75e4ca34d6ec87bd20ef2657d", null ],
     [ "GrapplingHookTouch", "d7/de2/g__hook_8qc.html#a963fd687df2343a151d97df9af7d8667", null ],
-    [ "RemoveGrapplingHook", "d7/de2/g__hook_8qc.html#a5caabf7067e846f30e860f42354bbf10", null ],
+    [ "RemoveGrapplingHooks", "d7/de2/g__hook_8qc.html#a64ba7a609a960c8d06b3c23e6c4d80f4", null ],
+    [ "RemoveHook", "d7/de2/g__hook_8qc.html#a50f68d93243e10c5a552caae3c7a2413", null ],
     [ "autocvar_g_grappling_hook_tarzan", "d7/de2/g__hook_8qc.html#aa4b859107e1f5475260beefbf52e80b2", null ],
     [ "hook_end", "d7/de2/g__hook_8qc.html#ad84fdb946ff5005b86c373cca730a4eb", null ],
     [ "hook_length", "d7/de2/g__hook_8qc.html#a1519717f3a87a08db85ba2fc1d01f713", null ],

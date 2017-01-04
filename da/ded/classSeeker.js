@@ -23,7 +23,7 @@ var classSeeker =
     [ "wr_think", "da/ded/classSeeker.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "da/ded/classSeeker.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "da/ded/classSeeker.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "da/ded/classSeeker.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "da/ded/classSeeker.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "da/ded/classSeeker.html#a4fe779db2506a015632fa30924db6531", null ],
     [ "bot_pickupbasevalue", "da/ded/classSeeker.html#aa2346884e39312c506a4dc501439286a", null ],
     [ "impulse", "da/ded/classSeeker.html#a17100988ab3f606059c96ecc44e8a3b0", null ],
@@ -35,6 +35,7 @@ var classSeeker =
     [ "spawnflags", "da/ded/classSeeker.html#ab2fd8dce29a0622cb1b210d272eaf302", null ],
     [ "w_crosshair", "da/ded/classSeeker.html#a6ef51387db20a968542626c5e2843b14", null ],
     [ "w_crosshair_size", "da/ded/classSeeker.html#a2b65c340d4e4376caa0dc5bdca8c2b27", null ],
+    [ "w_reticle", "da/ded/classSeeker.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "da/ded/classSeeker.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "da/ded/classSeeker.html#ae26610a90258da2f6766e7dbb9ea8289", null ]
 ];

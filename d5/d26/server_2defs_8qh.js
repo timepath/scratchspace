@@ -13,7 +13,7 @@ var server_2defs_8qh =
     [ "weapons", "d5/d26/server_2defs_8qh.html#a5108056f1a74eab38bb6852c65ca6ea9", null ],
     [ "spawn_evalfunc_t", "d5/d26/server_2defs_8qh.html#a5f15c96eff24340165e9e43c1e64a499", null ],
     [ "checkSpectatorBlock", "d5/d26/server_2defs_8qh.html#a3cb890504a3e0218ed83a60fcba8b17c", null ],
-    [ "client_hasweapon", "d5/d26/server_2defs_8qh.html#ae95331c3255f5341fd8851efbae687ca", null ],
+    [ "client_hasweapon", "d5/d26/server_2defs_8qh.html#aba6ed323f0e8f5773f5d7de51e2d3411", null ],
     [ "ClientData_Touch", "d5/d26/server_2defs_8qh.html#adcfb83073eb66c355f220a7fc94a479d", null ],
     [ "Damage", "d5/d26/server_2defs_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6", null ],
     [ "FixClientCvars", "d5/d26/server_2defs_8qh.html#a63b8eac90f2650512291bfaa482f9732", null ],

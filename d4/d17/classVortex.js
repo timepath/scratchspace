@@ -23,7 +23,7 @@ var classVortex =
     [ "wr_think", "d4/d17/classVortex.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d4/d17/classVortex.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d4/d17/classVortex.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d4/d17/classVortex.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d4/d17/classVortex.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d4/d17/classVortex.html#abe6552be8395587204ec9e4a8a9bc873", null ],
     [ "bot_pickupbasevalue", "d4/d17/classVortex.html#add8cf89912c6ce63565d432a3bb26726", null ],
     [ "impulse", "d4/d17/classVortex.html#ad70d80ed739c82b4eecd022ec4fbcc25", null ],
@@ -35,6 +35,7 @@ var classVortex =
     [ "spawnflags", "d4/d17/classVortex.html#ab2c425a3a7e4969f8ef49dbe01fa4fdd", null ],
     [ "w_crosshair", "d4/d17/classVortex.html#aae90c5f91d3d02c37c4a62c47684659a", null ],
     [ "w_crosshair_size", "d4/d17/classVortex.html#af4e2227648a5cad1bc418229db570d13", null ],
+    [ "w_reticle", "d4/d17/classVortex.html#a335d0535a48550c7ffb96a0a0fc77c0d", null ],
     [ "weapons", "d4/d17/classVortex.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d4/d17/classVortex.html#a7a98b6f53b6194fa1f69a350b51051ee", null ]
 ];

@@ -23,7 +23,7 @@ var classPhaserTurretAttack =
     [ "wr_think", "df/d78/classPhaserTurretAttack.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "df/d78/classPhaserTurretAttack.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "df/d78/classPhaserTurretAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "df/d78/classPhaserTurretAttack.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "df/d78/classPhaserTurretAttack.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "df/d78/classPhaserTurretAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe", null ],
     [ "bot_pickupbasevalue", "df/d78/classPhaserTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "df/d78/classPhaserTurretAttack.html#a1a2252a143498242cad4e2db6dae22a7", null ],
@@ -35,6 +35,7 @@ var classPhaserTurretAttack =
     [ "spawnflags", "df/d78/classPhaserTurretAttack.html#ae7a4367569506c9c7bc4402342c0ebf5", null ],
     [ "w_crosshair", "df/d78/classPhaserTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3", null ],
     [ "w_crosshair_size", "df/d78/classPhaserTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d", null ],
+    [ "w_reticle", "df/d78/classPhaserTurretAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "df/d78/classPhaserTurretAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "df/d78/classPhaserTurretAttack.html#ac59ca04ae3ae9de45817a65da1e606be", null ]
 ];

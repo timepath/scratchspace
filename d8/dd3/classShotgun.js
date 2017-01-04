@@ -23,7 +23,7 @@ var classShotgun =
     [ "wr_think", "d8/dd3/classShotgun.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d8/dd3/classShotgun.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d8/dd3/classShotgun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d8/dd3/classShotgun.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d8/dd3/classShotgun.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d8/dd3/classShotgun.html#aeb57e7d1c2df7e55dc272a0fb6140444", null ],
     [ "bot_pickupbasevalue", "d8/dd3/classShotgun.html#a2a2c18e6c0451d1fe15a8bb2b4715b11", null ],
     [ "impulse", "d8/dd3/classShotgun.html#ab24caf167edfb003ad2ca937ffab003b", null ],
@@ -35,6 +35,7 @@ var classShotgun =
     [ "spawnflags", "d8/dd3/classShotgun.html#ad1755c7827376ddfa16c27048e681b37", null ],
     [ "w_crosshair", "d8/dd3/classShotgun.html#a05066a88debd4c8e355031e5498f6090", null ],
     [ "w_crosshair_size", "d8/dd3/classShotgun.html#ac25202922ce0eebb5ae67a140184b949", null ],
+    [ "w_reticle", "d8/dd3/classShotgun.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d8/dd3/classShotgun.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d8/dd3/classShotgun.html#a906b33b6bbdff003c26560c4401892b1", null ]
 ];

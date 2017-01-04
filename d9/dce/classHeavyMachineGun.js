@@ -23,7 +23,7 @@ var classHeavyMachineGun =
     [ "wr_think", "d9/dce/classHeavyMachineGun.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d9/dce/classHeavyMachineGun.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d9/dce/classHeavyMachineGun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d9/dce/classHeavyMachineGun.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d9/dce/classHeavyMachineGun.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d9/dce/classHeavyMachineGun.html#a803460e7e4deb724606e893497dae343", null ],
     [ "bot_pickupbasevalue", "d9/dce/classHeavyMachineGun.html#a433cc0989f98469131d0a53483b804eb", null ],
     [ "impulse", "d9/dce/classHeavyMachineGun.html#a4c40bb8a3d6425143e1477bf42cfafed", null ],
@@ -35,6 +35,7 @@ var classHeavyMachineGun =
     [ "spawnflags", "d9/dce/classHeavyMachineGun.html#a30bd81e8677a561e2a724ed9bc0d88c4", null ],
     [ "w_crosshair", "d9/dce/classHeavyMachineGun.html#abaa4e2242f0e72275df93fc037e6a01a", null ],
     [ "w_crosshair_size", "d9/dce/classHeavyMachineGun.html#a04ed213ae0921b52c6d9a30c386e71fb", null ],
+    [ "w_reticle", "d9/dce/classHeavyMachineGun.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d9/dce/classHeavyMachineGun.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d9/dce/classHeavyMachineGun.html#acddd7ae43827abdbe4fb326bad500ae9", null ]
 ];

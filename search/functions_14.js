@@ -114,7 +114,7 @@ var searchData=
   ['trigger_5frace_5fcheckpoint_5fspawn_5fevalfunc',['trigger_race_checkpoint_spawn_evalfunc',['../d6/d3b/race_8qc.html#a868d7c0472afd1cbb06a05f3e4b41a95',1,'race.qc']]],
   ['trigger_5frace_5fcheckpoint_5fverify',['trigger_race_checkpoint_verify',['../d6/d3b/race_8qc.html#af38e736fe67a1f8702b94c9de9ae9f88',1,'race.qc']]],
   ['trueaim_5finit',['TrueAim_Init',['../df/d30/client_2main_8qc.html#a468fbc523e176ec4adf829a18606b5f6',1,'TrueAim_Init():&#160;view.qc'],['../d6/dd3/view_8qc.html#a468fbc523e176ec4adf829a18606b5f6',1,'TrueAim_Init():&#160;view.qc']]],
-  ['trueaimcheck',['TrueAimCheck',['../d6/dd3/view_8qc.html#a83655180d646407237eedc1d08ccab3f',1,'view.qc']]],
+  ['trueaimcheck',['TrueAimCheck',['../d6/dd3/view_8qc.html#ada8e157cb058a1a9ae9141acda5a4d85',1,'view.qc']]],
   ['trunc',['trunc',['../df/d38/mathlib_8qc.html#a037789ddb4bd5a1a3e61d73c3de3ec0a',1,'trunc(float e):&#160;mathlib.qc'],['../d9/df7/mathlib_8qh.html#a037789ddb4bd5a1a3e61d73c3de3ec0a',1,'trunc(float e):&#160;mathlib.qc']]],
   ['ttt_5ffind_5fpiece',['ttt_find_piece',['../da/d4b/ttt_8qc.html#aa02c41396ba53a705bbbe1bf6d07ebf7',1,'ttt.qc']]],
   ['ttt_5fmove',['ttt_move',['../da/d4b/ttt_8qc.html#a2497c595a152ce86acc72100fbf9ec2d',1,'ttt.qc']]],

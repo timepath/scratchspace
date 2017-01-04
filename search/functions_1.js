@@ -42,6 +42,7 @@ var searchData=
   ['altstr_5fset',['altstr_set',['../d8/de2/menudefs_8qc.html#a7a6bfeb1c054af07c37420ed5d55b4cf',1,'menudefs.qc']]],
   ['ammo_5f9mmar',['ammo_9mmAR',['../dd/d36/halflife_8qc.html#a8e051b81df670556d7f1a977cd41e1fe',1,'halflife.qc']]],
   ['ammo_5fargrenades',['ammo_ARgrenades',['../dd/d36/halflife_8qc.html#adb7e2bed6760c9bee5db46ed79a963d2',1,'halflife.qc']]],
+  ['ammonamefromweaponentity',['AmmoNameFromWeaponentity',['../dc/dc6/server_2miscfunctions_8qc.html#a13384f04e903dfb2003aab8fb6eb7e5a',1,'miscfunctions.qc']]],
   ['angc',['angc',['../d0/d79/math_8qh.html#a3beea75a8f5936cd10f1b7319347a884',1,'angc(float a1, float a2):&#160;math.qh'],['../d6/d93/g__subs_8qh.html#a3beea75a8f5936cd10f1b7319347a884',1,'angc(float a1, float a2):&#160;math.qh']]],
   ['angle_5fsnap_5ff',['angle_snap_f',['../d6/df6/p2mathlib_8qc.html#a2ee015ce5b25f8b1ea2a246a2d374f9b',1,'angle_snap_f(float f, float increment):&#160;p2mathlib.qc'],['../d1/d84/p2mathlib_8qh.html#a2ee015ce5b25f8b1ea2a246a2d374f9b',1,'angle_snap_f(float f, float increment):&#160;p2mathlib.qc']]],
   ['angle_5fsnap_5fvec',['angle_snap_vec',['../d6/df6/p2mathlib_8qc.html#a129e23a2218bbdb2c446e5cd60b43fb2',1,'angle_snap_vec(vector v, float increment):&#160;p2mathlib.qc'],['../d1/d84/p2mathlib_8qh.html#a129e23a2218bbdb2c446e5cd60b43fb2',1,'angle_snap_vec(vector v, float increment):&#160;p2mathlib.qc']]],

@@ -27,6 +27,8 @@ var searchData=
   ['weaponstats_2eqh',['weaponstats.qh',['../d9/df0/weaponstats_8qh.html',1,'']]],
   ['weaponsystem_2eqc',['weaponsystem.qc',['../d5/de0/weaponsystem_8qc.html',1,'']]],
   ['weaponsystem_2eqh',['weaponsystem.qh',['../da/db7/weaponsystem_8qh.html',1,'']]],
+  ['wepent_2eqc',['wepent.qc',['../dd/df2/wepent_8qc.html',1,'']]],
+  ['wepent_2eqh',['wepent.qh',['../d0/d56/wepent_8qh.html',1,'']]],
   ['wop_2eqc',['wop.qc',['../dd/dcc/wop_8qc.html',1,'']]],
   ['wop_2eqh',['wop.qh',['../d8/d76/wop_8qh.html',1,'']]],
   ['wyvern_2eqc',['wyvern.qc',['../d9/d39/wyvern_8qc.html',1,'']]],

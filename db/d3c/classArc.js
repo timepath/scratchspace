@@ -23,7 +23,7 @@ var classArc =
     [ "wr_think", "db/d3c/classArc.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "db/d3c/classArc.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "db/d3c/classArc.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "db/d3c/classArc.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "db/d3c/classArc.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "db/d3c/classArc.html#a42d86304ae83f5faa3fbcc9b1abc1896", null ],
     [ "bot_pickupbasevalue", "db/d3c/classArc.html#ae0a509098068a29d9ef781b063c35d0e", null ],
     [ "impulse", "db/d3c/classArc.html#a3ed4692aa1b8bf1d283184288bc8a70a", null ],
@@ -35,6 +35,7 @@ var classArc =
     [ "spawnflags", "db/d3c/classArc.html#a208658ab5d31e9cd86fb5256c4864d75", null ],
     [ "w_crosshair", "db/d3c/classArc.html#ab9d7b14784b0a00aecaf78277f7fcd01", null ],
     [ "w_crosshair_size", "db/d3c/classArc.html#aca5d135f1a061005156a689cf8728a85", null ],
+    [ "w_reticle", "db/d3c/classArc.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "db/d3c/classArc.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "db/d3c/classArc.html#a86c22d48b4bf520b46b6ac6941fa18f3", null ]
 ];

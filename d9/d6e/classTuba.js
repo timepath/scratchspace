@@ -23,7 +23,7 @@ var classTuba =
     [ "wr_think", "d9/d6e/classTuba.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d9/d6e/classTuba.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d9/d6e/classTuba.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d9/d6e/classTuba.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d9/d6e/classTuba.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d9/d6e/classTuba.html#a768d3992198c4b743dbab2cff9529e99", null ],
     [ "bot_pickupbasevalue", "d9/d6e/classTuba.html#ac6f60d2aeb3466eb5209d3dfec04dba1", null ],
     [ "impulse", "d9/d6e/classTuba.html#a9dd907b43e440c55a9dab9417721931f", null ],
@@ -35,6 +35,7 @@ var classTuba =
     [ "spawnflags", "d9/d6e/classTuba.html#ab749c1f287dc519abd9ae98e0e1ea4d6", null ],
     [ "w_crosshair", "d9/d6e/classTuba.html#af765598ed8e13079da67cd5058d93e37", null ],
     [ "w_crosshair_size", "d9/d6e/classTuba.html#aadf51e7fb4ada8bff51507cc383495e9", null ],
+    [ "w_reticle", "d9/d6e/classTuba.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d9/d6e/classTuba.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d9/d6e/classTuba.html#a9443a3ec591e599e13edc07d14c723b0", null ]
 ];

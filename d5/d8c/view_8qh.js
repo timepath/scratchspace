@@ -1,4 +1,5 @@
 var view_8qh =
 [
-    [ "crosshair_getcolor", "d5/d8c/view_8qh.html#ae12e2fa9f814f4f88da1d5259fd4721f", null ]
+    [ "crosshair_getcolor", "d5/d8c/view_8qh.html#ae12e2fa9f814f4f88da1d5259fd4721f", null ],
+    [ "viewmodels", "d5/d8c/view_8qh.html#ae4043ba4831a9d580ebfc05793928b53", null ]
 ];

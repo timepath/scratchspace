@@ -1,15 +1,15 @@
 var selection_8qc =
 [
-    [ "client_hasweapon", "d2/d62/selection_8qc.html#ae95331c3255f5341fd8851efbae687ca", null ],
+    [ "client_hasweapon", "d2/d62/selection_8qc.html#aba6ed323f0e8f5773f5d7de51e2d3411", null ],
     [ "Send_WeaponComplain", "d2/d62/selection_8qc.html#a6f9b75f17639bb910d8445a136d4a837", null ],
-    [ "W_CycleWeapon", "d2/d62/selection_8qc.html#a6fedfde6c12ac781e002cc5685732e16", null ],
-    [ "W_GetCycleWeapon", "d2/d62/selection_8qc.html#ac803c34e0da06db53b9efb7e80bd1671", null ],
-    [ "W_LastWeapon", "d2/d62/selection_8qc.html#a5a8a02c987945a7a69eedc13bd083e6d", null ],
-    [ "W_NextWeapon", "d2/d62/selection_8qc.html#a1b013915f6f17a1d3b966beeb2ea3f70", null ],
-    [ "W_NextWeaponOnImpulse", "d2/d62/selection_8qc.html#adba85a3a5af093eb8fe83c89b32d18af", null ],
-    [ "W_PreviousWeapon", "d2/d62/selection_8qc.html#ab0ccdb2ebad8a41d22faf37b729e7fa4", null ],
-    [ "W_SwitchToOtherWeapon", "d2/d62/selection_8qc.html#a32307104f9168ee9caba49c8a59099e3", null ],
-    [ "W_SwitchWeapon", "d2/d62/selection_8qc.html#a3d86139f61154a7d12857020f2dddcf0", null ],
-    [ "W_SwitchWeapon_Force", "d2/d62/selection_8qc.html#a6e97a500c93d2f69145ddb449a5d28a1", null ],
+    [ "W_CycleWeapon", "d2/d62/selection_8qc.html#a6feb08ba7d01d611762b08aeb5dd7dd6", null ],
+    [ "W_GetCycleWeapon", "d2/d62/selection_8qc.html#adf3e13e24e532932c0396c15ad5d1228", null ],
+    [ "W_LastWeapon", "d2/d62/selection_8qc.html#ad4bf72dfdd0aaeca5bc1da4fb607fb3b", null ],
+    [ "W_NextWeapon", "d2/d62/selection_8qc.html#a5f709942f88a08901c4e7b646b2dee9b", null ],
+    [ "W_NextWeaponOnImpulse", "d2/d62/selection_8qc.html#aa9ed52c05bcae706e07b86117f1165df", null ],
+    [ "W_PreviousWeapon", "d2/d62/selection_8qc.html#a0f321b3257e4e705a6d2ad7ad4f00bdf", null ],
+    [ "W_SwitchToOtherWeapon", "d2/d62/selection_8qc.html#ac84b5920c2121ae19b3e269c60244bfd", null ],
+    [ "W_SwitchWeapon", "d2/d62/selection_8qc.html#ab8ebfddd0ba2d6a481fdfdf96bb05c51", null ],
+    [ "W_SwitchWeapon_Force", "d2/d62/selection_8qc.html#a26a298ee4ff7a3e0706b8892030ecf1a", null ],
     [ "Weapon_whereis", "d2/d62/selection_8qc.html#a8ebba9ca88508abccc39d23b9c40defd", null ]
 ];

@@ -23,7 +23,7 @@ var classElectro =
     [ "wr_think", "dc/d6c/classElectro.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "dc/d6c/classElectro.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "dc/d6c/classElectro.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "dc/d6c/classElectro.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "dc/d6c/classElectro.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "dc/d6c/classElectro.html#a542cefdc1731e512acff35af4117c5ae", null ],
     [ "bot_pickupbasevalue", "dc/d6c/classElectro.html#ab23bedb49b0c3c08b34346e22100aced", null ],
     [ "impulse", "dc/d6c/classElectro.html#ab3fe632d56cc6297d21df094350f77d9", null ],
@@ -35,6 +35,7 @@ var classElectro =
     [ "spawnflags", "dc/d6c/classElectro.html#a214db91c3bc64f24e17c4c4bfb99999b", null ],
     [ "w_crosshair", "dc/d6c/classElectro.html#a75900c7b0a9b5c9fa32bc6d4a7d2e1be", null ],
     [ "w_crosshair_size", "dc/d6c/classElectro.html#ae3457a5c4e0e0c7c6196b90eb96e5aa1", null ],
+    [ "w_reticle", "dc/d6c/classElectro.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "dc/d6c/classElectro.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "dc/d6c/classElectro.html#acb531bfd0ef2c4deb970cef50c66e3ae", null ]
 ];

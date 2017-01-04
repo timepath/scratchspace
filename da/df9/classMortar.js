@@ -23,7 +23,7 @@ var classMortar =
     [ "wr_think", "da/df9/classMortar.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "da/df9/classMortar.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "da/df9/classMortar.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "da/df9/classMortar.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "da/df9/classMortar.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "da/df9/classMortar.html#ad45a44046f1c6a48964c4111a123273e", null ],
     [ "bot_pickupbasevalue", "da/df9/classMortar.html#ae3ee5674f8d5232b46d606bff0062696", null ],
     [ "impulse", "da/df9/classMortar.html#a5e3c7bacb56dd317d41889834992a504", null ],
@@ -35,6 +35,7 @@ var classMortar =
     [ "spawnflags", "da/df9/classMortar.html#ab924a735e0fa3f4c070bf23f8f45bcbc", null ],
     [ "w_crosshair", "da/df9/classMortar.html#a17758b4384c3b674d680393f9abfae89", null ],
     [ "w_crosshair_size", "da/df9/classMortar.html#a3b87e226204dc544063f206fee5e6f06", null ],
+    [ "w_reticle", "da/df9/classMortar.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "da/df9/classMortar.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "da/df9/classMortar.html#a0df1d3a75a5959e8e463a363e22b99a9", null ]
 ];

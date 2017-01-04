@@ -363,7 +363,5 @@ var searchData=
   ['swamp_5finterval',['swamp_interval',['../d0/dda/swamp_8qc.html#a8773a15cbc36038a74cc581f6aecf76e',1,'swamp_interval():&#160;swamp.qc'],['../da/d96/swamp_8qh.html#a8773a15cbc36038a74cc581f6aecf76e',1,'swamp_interval():&#160;swamp.qh']]],
   ['swamp_5fslowdown',['swamp_slowdown',['../de/d70/common_2physics_2player_8qh.html#a72409ccf4513611408270e2c17712b3d',1,'swamp_slowdown():&#160;player.qh'],['../d0/dda/swamp_8qc.html#a72409ccf4513611408270e2c17712b3d',1,'swamp_slowdown():&#160;swamp.qc'],['../da/d96/swamp_8qh.html#a72409ccf4513611408270e2c17712b3d',1,'swamp_slowdown():&#160;swamp.qh']]],
   ['swampslug',['swampslug',['../d0/dda/swamp_8qc.html#a824536dd09d6161ba0f9df38979bd81c',1,'swampslug():&#160;swamp.qc'],['../da/d96/swamp_8qh.html#a824536dd09d6161ba0f9df38979bd81c',1,'swampslug():&#160;swamp.qh']]],
-  ['switchingweapon',['switchingweapon',['../d0/d2a/client_2main_8qh.html#a47b63517fd00c34583a3d27972f59dac',1,'main.qh']]],
-  ['switchweapon',['switchweapon',['../d0/d2a/client_2main_8qh.html#aaf44eb7aebb994f1b83798166625d6cb',1,'main.qh']]],
   ['sys_5fframetime',['sys_frametime',['../d2/d06/server_2command_2common_8qh.html#ab58184b20db3f9f0f708ec4522156ca2',1,'common.qh']]]
 ];

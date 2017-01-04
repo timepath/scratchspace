@@ -50,5 +50,6 @@ var server_2impulse_8qc =
     [ "X", "d4/d53/server_2impulse_8qc.html#a000f3768d67eb4aa34fdb961874c6ef7", null ],
     [ "X", "d4/d53/server_2impulse_8qc.html#a9484da2ccdc610a6c9651b912685a968", null ],
     [ "X", "d4/d53/server_2impulse_8qc.html#a3c6cfa6ad6a3a9ae995b486602718629", null ],
+    [ "autocvar_g_weaponswitch_debug", "d4/d53/server_2impulse_8qc.html#a7fa1b028c3f2a22fcf9dae6b1b016b17", null ],
     [ "vehicle", "d4/d53/server_2impulse_8qc.html#a766a58a103676d6a17b6ccfb904a6f24", null ]
 ];

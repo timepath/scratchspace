@@ -23,7 +23,7 @@ var classBallStealer =
     [ "wr_think", "dc/d30/classBallStealer.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "dc/d30/classBallStealer.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "dc/d30/classBallStealer.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "dc/d30/classBallStealer.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "dc/d30/classBallStealer.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "dc/d30/classBallStealer.html#a6df6ebff3e6de443f7a0134c518a8ffe", null ],
     [ "bot_pickupbasevalue", "dc/d30/classBallStealer.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "dc/d30/classBallStealer.html#acee4dee25e04bfa56f7ae916df042298", null ],
@@ -35,6 +35,7 @@ var classBallStealer =
     [ "spawnflags", "dc/d30/classBallStealer.html#abbfb3f4a8fc35838a546bdf4d7ee7799", null ],
     [ "w_crosshair", "dc/d30/classBallStealer.html#a01e7b060bcfa83adc60236efeca16fd3", null ],
     [ "w_crosshair_size", "dc/d30/classBallStealer.html#a79fc26acbd9b11c52f841a4f550dd52d", null ],
+    [ "w_reticle", "dc/d30/classBallStealer.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "dc/d30/classBallStealer.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "dc/d30/classBallStealer.html#ac59ca04ae3ae9de45817a65da1e606be", null ]
 ];

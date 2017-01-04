@@ -23,7 +23,7 @@ var classMLRSTurretAttack =
     [ "wr_think", "da/d1d/classMLRSTurretAttack.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "da/d1d/classMLRSTurretAttack.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "da/d1d/classMLRSTurretAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "da/d1d/classMLRSTurretAttack.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "da/d1d/classMLRSTurretAttack.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "da/d1d/classMLRSTurretAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe", null ],
     [ "bot_pickupbasevalue", "da/d1d/classMLRSTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "da/d1d/classMLRSTurretAttack.html#a6a45b8b8496e0827216ad10cc845245f", null ],
@@ -35,6 +35,7 @@ var classMLRSTurretAttack =
     [ "spawnflags", "da/d1d/classMLRSTurretAttack.html#aba777682d48840cc1c8f6a1b33290cc7", null ],
     [ "w_crosshair", "da/d1d/classMLRSTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3", null ],
     [ "w_crosshair_size", "da/d1d/classMLRSTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d", null ],
+    [ "w_reticle", "da/d1d/classMLRSTurretAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "da/d1d/classMLRSTurretAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "da/d1d/classMLRSTurretAttack.html#ac59ca04ae3ae9de45817a65da1e606be", null ]
 ];

@@ -23,7 +23,7 @@ var classMachineGun =
     [ "wr_think", "dd/d73/classMachineGun.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "dd/d73/classMachineGun.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "dd/d73/classMachineGun.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "dd/d73/classMachineGun.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "dd/d73/classMachineGun.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "dd/d73/classMachineGun.html#ac95dda036bf0614977a5ec7461ce1a0d", null ],
     [ "bot_pickupbasevalue", "dd/d73/classMachineGun.html#ad60581174addffcd546196db2e2e8c56", null ],
     [ "impulse", "dd/d73/classMachineGun.html#af92e2de4a5160754eb3fba3193b01f36", null ],
@@ -35,6 +35,7 @@ var classMachineGun =
     [ "spawnflags", "dd/d73/classMachineGun.html#a3d04f7a6bd20fe7b6090b4ef040c8283", null ],
     [ "w_crosshair", "dd/d73/classMachineGun.html#af7d6495e25b21a90a534b6a8d1321c27", null ],
     [ "w_crosshair_size", "dd/d73/classMachineGun.html#a5a74bd7bd031ea75c7c9dc244b2e127f", null ],
+    [ "w_reticle", "dd/d73/classMachineGun.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "dd/d73/classMachineGun.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "dd/d73/classMachineGun.html#a6e5ae444304018d7d189bb5f692715df", null ]
 ];

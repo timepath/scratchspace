@@ -23,7 +23,7 @@ var classShockwave =
     [ "wr_think", "da/d13/classShockwave.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "da/d13/classShockwave.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "da/d13/classShockwave.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "da/d13/classShockwave.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "da/d13/classShockwave.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "da/d13/classShockwave.html#a768d3992198c4b743dbab2cff9529e99", null ],
     [ "bot_pickupbasevalue", "da/d13/classShockwave.html#a2ae6f5266386213cc74fc9905aff71ba", null ],
     [ "impulse", "da/d13/classShockwave.html#a6a2ecbec331fdeefcb8ed171bab217b8", null ],
@@ -35,6 +35,7 @@ var classShockwave =
     [ "spawnflags", "da/d13/classShockwave.html#a46b8fbb0e0cdbe99f5d0af2fcd862af6", null ],
     [ "w_crosshair", "da/d13/classShockwave.html#a2cc907c7050437b5cb97d67587bba62c", null ],
     [ "w_crosshair_size", "da/d13/classShockwave.html#a8f3e2d89ff1bfae1334a5bf43011bbf7", null ],
+    [ "w_reticle", "da/d13/classShockwave.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "da/d13/classShockwave.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "da/d13/classShockwave.html#a63c4ff29db394bde747d09312ed69684", null ]
 ];

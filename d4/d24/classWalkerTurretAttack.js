@@ -23,7 +23,7 @@ var classWalkerTurretAttack =
     [ "wr_think", "d4/d24/classWalkerTurretAttack.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d4/d24/classWalkerTurretAttack.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d4/d24/classWalkerTurretAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d4/d24/classWalkerTurretAttack.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d4/d24/classWalkerTurretAttack.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d4/d24/classWalkerTurretAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe", null ],
     [ "bot_pickupbasevalue", "d4/d24/classWalkerTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d4/d24/classWalkerTurretAttack.html#ad6e136b07bb01011dc175472bcd35295", null ],
@@ -35,6 +35,7 @@ var classWalkerTurretAttack =
     [ "spawnflags", "d4/d24/classWalkerTurretAttack.html#a40162d58d008cdd30f19e5368a6e17af", null ],
     [ "w_crosshair", "d4/d24/classWalkerTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3", null ],
     [ "w_crosshair_size", "d4/d24/classWalkerTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d", null ],
+    [ "w_reticle", "d4/d24/classWalkerTurretAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d4/d24/classWalkerTurretAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d4/d24/classWalkerTurretAttack.html#ac59ca04ae3ae9de45817a65da1e606be", null ]
 ];

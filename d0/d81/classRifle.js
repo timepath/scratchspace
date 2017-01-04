@@ -23,7 +23,7 @@ var classRifle =
     [ "wr_think", "d0/d81/classRifle.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d0/d81/classRifle.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d0/d81/classRifle.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d0/d81/classRifle.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d0/d81/classRifle.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d0/d81/classRifle.html#acefcd89fc6d58f21ff6b844132cd3f11", null ],
     [ "bot_pickupbasevalue", "d0/d81/classRifle.html#a62733317377efccb19770f9b187ae35c", null ],
     [ "impulse", "d0/d81/classRifle.html#a410842e36facf9d2068da07c63b7f0c1", null ],
@@ -35,6 +35,7 @@ var classRifle =
     [ "spawnflags", "d0/d81/classRifle.html#aae8047f54bfa21cca6eedc3514c1487a", null ],
     [ "w_crosshair", "d0/d81/classRifle.html#ab896604f179116b89c13cf8449b18e12", null ],
     [ "w_crosshair_size", "d0/d81/classRifle.html#a1814f9f831862d698869cb6f3198a49e", null ],
+    [ "w_reticle", "d0/d81/classRifle.html#a9e623c812e0ecb906913320952e58c2d", null ],
     [ "weapons", "d0/d81/classRifle.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d0/d81/classRifle.html#a7cdfdb1aa5f889a6c27481251d07add2", null ]
 ];

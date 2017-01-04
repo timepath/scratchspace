@@ -2,8 +2,6 @@ var client_2defs_8qh =
 [
     [ "player_currententnum", "d9/d08/client_2defs_8qh.html#a6b17a65dd7a85e465430a85ae6a3cdcf", null ],
     [ "void", "d9/d08/client_2defs_8qh.html#aebfa8c1e2ab774881f79f23e10b0621c", null ],
-    [ "angles_held", "d9/d08/client_2defs_8qh.html#a4bfa967465f5b1fee34b8cdf7d5d72dc", null ],
-    [ "angles_held_status", "d9/d08/client_2defs_8qh.html#a8711461fe85ace2b79bf88148494d20a", null ],
     [ "bgmtime", "d9/d08/client_2defs_8qh.html#a6a685bb087beb5881b139f7ea6497e67", null ],
     [ "binddb", "d9/d08/client_2defs_8qh.html#a532ed2854fa3a567a32c62f7abfd7c55", null ],
     [ "ClientProgsDB", "d9/d08/client_2defs_8qh.html#a053cb927ddf4f1e7626ddfb245f0ef07", null ],

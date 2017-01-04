@@ -143,8 +143,8 @@ Functions</h2></td></tr>
 <tr class="separator:a183c3a3b3707f51936ec7dc51576de8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f9e19a2c62edec6ce25b02fd20c7fcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d58/calculations_8qc.html#a3f9e19a2c62edec6ce25b02fd20c7fcd">W_CalculateSpread</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> forward, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> spread, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> spreadfactor, <a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a> spreadstyle)</td></tr>
 <tr class="separator:a3f9e19a2c62edec6ce25b02fd20c7fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96c44222346f73d873d8100b8a36fb5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d58/calculations_8qc.html#a96c44222346f73d873d8100b8a36fb5e">W_GetGunAlignment</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> player)</td></tr>
-<tr class="separator:a96c44222346f73d873d8100b8a36fb5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3202e6e8fbf2ae7ae1bf47a1f55ea8f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d58/calculations_8qc.html#a3202e6e8fbf2ae7ae1bf47a1f55ea8f9">W_GunAlign</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>, <a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> preferred_align)</td></tr>
+<tr class="separator:a3202e6e8fbf2ae7ae1bf47a1f55ea8f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a class="anchor" id="a05d5746469bd0a51dfb4532b535793e7"></a>
@@ -175,7 +175,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00138">findperpendicular()</a>, and <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00157">W_CalculateSpread()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00138">findperpendicular()</a>, and <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00197">W_CalculateSpread()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;{</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> v - (v * <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>) * <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
@@ -227,7 +227,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00007">explosion_calcpush_getmultiplier()</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00068">LOG_INFOF</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00596">Damage()</a>, and <a class="el" href="../../da/dbc/sv__globalforces_8qc_source.html#l00017">MUTATOR_HOOKFUNCTION()</a>.</p>
+<p>Referenced by <a class="el" href="../../d5/dac/g__damage_8qc_source.html#l00617">Damage()</a>, and <a class="el" href="../../da/dbc/sv__globalforces_8qc_source.html#l00017">MUTATOR_HOOKFUNCTION()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;{</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;    <span class="comment">// if below 1, the formulas make no sense (and would cause superjumps)</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    <span class="keywordflow">if</span>(speedfactor &lt; 1)</div>
@@ -348,7 +348,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00075">cliptoplane()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize()</a>, <a class="el" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00157">W_CalculateSpread()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00197">W_CalculateSpread()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;{</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    p.x = v.z;</div>
@@ -423,7 +423,7 @@ Functions</h2></td></tr>
 
 <p>References <a class="el" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>, <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00080">solve_cubic_pq()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00157">W_CalculateSpread()</a>.</p>
+<p>Referenced by <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00197">W_CalculateSpread()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;{</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="comment">// y = 3*a*x + b</span></div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="comment">// x = (y - b) / 3a</span></div>
@@ -598,129 +598,129 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00157">157</a> of file <a class="el" href="../../d8/d58/calculations_8qc_source.html">calculations.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00197">197</a> of file <a class="el" href="../../d8/d58/calculations_8qc_source.html">calculations.qc</a>.</p>
 
 <p>References <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00075">cliptoplane()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos()</a>, <a class="el" href="../../de/dcb/vector_8qh_source.html#l00026">cross</a>, <a class="el" href="../../d2/d77/pre_8qh_source.html#l00006">error</a>, <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00138">findperpendicular()</a>, <a class="el" href="../../dc/d95/random_8qc_source.html#l00073">gsl_ran_gaussian()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00269">M_PI</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin()</a>, <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00123">solve_cubic_abcd()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d31/tracing_8qc_source.html#l00165">W_SetupProjVelocity_Explicit()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;{</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordtype">float</span> sigma;</div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v1 = <span class="stringliteral">&#39;0 0 0&#39;</span>, v2;</div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    <span class="keywordtype">float</span> dx, dy, r;</div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;    spread *= spreadfactor; <span class="comment">//g_weaponspreadfactor;</span></div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;    <span class="keywordflow">if</span>(spread &lt;= 0)</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">return</span> forward;</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;    <span class="keywordflow">switch</span>(spreadstyle)</div>
-<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;    {</div>
-<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;        <span class="keywordflow">case</span> 0:</div>
-<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160;        {</div>
-<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;            <span class="comment">// this is the baseline for the spread value!</span></div>
-<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;            <span class="comment">// standard deviation: sqrt(2/5)</span></div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;            <span class="comment">// density function: sqrt(1-r^2)</span></div>
-<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;            <span class="keywordflow">return</span> forward + <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * spread;</div>
-<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;        }</div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;        <span class="keywordflow">case</span> 1:</div>
-<div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;        {</div>
-<div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;            <span class="comment">// same thing, basically</span></div>
-<div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(forward + <a class="code" href="../../d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7">cliptoplane</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * spread, forward));</div>
-<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;        }</div>
-<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <span class="keywordflow">case</span> 2:</div>
-<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        {</div>
-<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;            <span class="comment">// circle spread... has at sigma=1 a standard deviation of sqrt(1/2)</span></div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;            sigma = spread * 0.89442719099991587855; <span class="comment">// match baseline stddev</span></div>
-<div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;            v1 = <a class="code" href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">findperpendicular</a>(forward);</div>
-<div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;            v2 = <a class="code" href="../../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5">cross</a>(forward, v1);</div>
-<div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            <span class="comment">// random point on unit circle</span></div>
-<div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2 * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a>;</div>
-<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;            dy = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(dx);</div>
-<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(dx);</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;            <span class="comment">// radius in our dist function</span></div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>();</div>
-<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(r);</div>
-<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(forward + (v1 * dx + v2 * dy) * r * sigma);</div>
-<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        }</div>
-<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <span class="keywordflow">case</span> 3: <span class="comment">// gauss 3d</span></div>
-<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        {</div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;            sigma = spread * 0.44721359549996; <span class="comment">// match baseline stddev</span></div>
-<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;            <span class="comment">// note: 2D gaussian has sqrt(2) times the stddev of 1D, so this factor is right</span></div>
-<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;            v1 = forward;</div>
-<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;            v1_x += <a class="code" href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a>(sigma);</div>
-<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;            v1_y += <a class="code" href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a>(sigma);</div>
-<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;            v1_z += <a class="code" href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a>(sigma);</div>
-<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;            <span class="keywordflow">return</span> v1;</div>
-<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        }</div>
-<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <span class="keywordflow">case</span> 4: <span class="comment">// gauss 2d</span></div>
-<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;        {</div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;            sigma = spread * 0.44721359549996; <span class="comment">// match baseline stddev</span></div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;            <span class="comment">// note: 2D gaussian has sqrt(2) times the stddev of 1D, so this factor is right</span></div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;            v1_x = <a class="code" href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a>(sigma);</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            v1_y = <a class="code" href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a>(sigma);</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            v1_z = <a class="code" href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a>(sigma);</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(forward + <a class="code" href="../../d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7">cliptoplane</a>(v1, forward));</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;        }</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        <span class="keywordflow">case</span> 5: <span class="comment">// 1-r</span></div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        {</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;            sigma = spread * 1.154700538379252; <span class="comment">// match baseline stddev</span></div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            v1 = <a class="code" href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">findperpendicular</a>(forward);</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            v2 = <a class="code" href="../../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5">cross</a>(forward, v1);</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;            <span class="comment">// random point on unit circle</span></div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2 * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a>;</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            dy = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(dx);</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(dx);</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            <span class="comment">// radius in our dist function</span></div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>();</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            r = <a class="code" href="../../d8/d58/calculations_8qc.html#a8c505b0c356899393ec20a52c48b7c7f">solve_cubic_abcd</a>(-2, 3, 0, -r) * <span class="stringliteral">&#39;0 1 0&#39;</span>;</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(forward + (v1 * dx + v2 * dy) * r * sigma);</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;        }</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;        <span class="keywordflow">case</span> 6: <span class="comment">// 1-r^2</span></div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;        {</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            sigma = spread * 1.095445115010332; <span class="comment">// match baseline stddev</span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            v1 = <a class="code" href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">findperpendicular</a>(forward);</div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            v2 = <a class="code" href="../../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5">cross</a>(forward, v1);</div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="comment">// random point on unit circle</span></div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2 * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a>;</div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;            dy = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(dx);</div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(dx);</div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            <span class="comment">// radius in our dist function</span></div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>();</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(1 - r);</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(1 - r);</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(forward + (v1 * dx + v2 * dy) * r * sigma);</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        }</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <span class="keywordflow">case</span> 7: <span class="comment">// (1-r) (2-r)</span></div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        {</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;            sigma = spread * 1.224744871391589; <span class="comment">// match baseline stddev</span></div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;            v1 = <a class="code" href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">findperpendicular</a>(forward);</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            v2 = <a class="code" href="../../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5">cross</a>(forward, v1);</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <span class="comment">// random point on unit circle</span></div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2 * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a>;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            dy = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(dx);</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(dx);</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            <span class="comment">// radius in our dist function</span></div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>();</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;            r = 1 - <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(r);</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;            r = 1 - <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(r);</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(forward + (v1 * dx + v2 * dy) * r * sigma);</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        }</div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="keywordflow">default</span>:</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;g_projectiles_spread_style must be 0 (sphere), 1 (flattened sphere), 2 (circle), 3 (gauss 3D), 4 (gauss plane), 5 (linear falloff), 6 (quadratic falloff), 7 (stronger falloff)!&quot;</span>);</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    }</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="comment">/*</span></div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="comment">     * how to derive falloff functions:</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;<span class="comment">     * rho(r) := (2-r) * (1-r);</span></div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;<span class="comment">     * a : 0;</span></div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;<span class="comment">     * b : 1;</span></div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="comment">     * rhor(r) := r * rho(r);</span></div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="comment">     * cr(t) := integrate(rhor(r), r, a, t);</span></div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="comment">     * scr(t) := integrate(rhor(r) * r^2, r, a, t);</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="comment">     * variance : scr(b) / cr(b);</span></div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="comment">     * solve(cr(r) = rand * cr(b), r), programmmode:false;</span></div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;<span class="comment">     * sqrt(0.4 / variance), numer;</span></div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;<span class="comment">     */</span></div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;{</div>
+<div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;    <span class="keywordtype">float</span> sigma;</div>
+<div class="line"><a name="l00200"></a><span class="lineno">  200</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v1 = <span class="stringliteral">&#39;0 0 0&#39;</span>, v2;</div>
+<div class="line"><a name="l00201"></a><span class="lineno">  201</span>&#160;    <span class="keywordtype">float</span> dx, dy, r;</div>
+<div class="line"><a name="l00202"></a><span class="lineno">  202</span>&#160;    spread *= spreadfactor; <span class="comment">//g_weaponspreadfactor;</span></div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    <span class="keywordflow">if</span>(spread &lt;= 0)</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="keywordflow">return</span> forward;</div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    <span class="keywordflow">switch</span>(spreadstyle)</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    {</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        <span class="keywordflow">case</span> 0:</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;        {</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;            <span class="comment">// this is the baseline for the spread value!</span></div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;            <span class="comment">// standard deviation: sqrt(2/5)</span></div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;            <span class="comment">// density function: sqrt(1-r^2)</span></div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;            <span class="keywordflow">return</span> forward + <a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * spread;</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;        }</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keywordflow">case</span> 1:</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        {</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;            <span class="comment">// same thing, basically</span></div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(forward + <a class="code" href="../../d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7">cliptoplane</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a>() * spread, forward));</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        }</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;        <span class="keywordflow">case</span> 2:</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;        {</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;            <span class="comment">// circle spread... has at sigma=1 a standard deviation of sqrt(1/2)</span></div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;            sigma = spread * 0.89442719099991587855; <span class="comment">// match baseline stddev</span></div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            v1 = <a class="code" href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">findperpendicular</a>(forward);</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;            v2 = <a class="code" href="../../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5">cross</a>(forward, v1);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;            <span class="comment">// random point on unit circle</span></div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2 * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a>;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;            dy = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(dx);</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(dx);</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="comment">// radius in our dist function</span></div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>();</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(r);</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(forward + (v1 * dx + v2 * dy) * r * sigma);</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;        }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;        <span class="keywordflow">case</span> 3: <span class="comment">// gauss 3d</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;        {</div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;            sigma = spread * 0.44721359549996; <span class="comment">// match baseline stddev</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;            <span class="comment">// note: 2D gaussian has sqrt(2) times the stddev of 1D, so this factor is right</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;            v1 = forward;</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;            v1_x += <a class="code" href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a>(sigma);</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;            v1_y += <a class="code" href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a>(sigma);</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;            v1_z += <a class="code" href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a>(sigma);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;            <span class="keywordflow">return</span> v1;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;        }</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        <span class="keywordflow">case</span> 4: <span class="comment">// gauss 2d</span></div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;        {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;            sigma = spread * 0.44721359549996; <span class="comment">// match baseline stddev</span></div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;            <span class="comment">// note: 2D gaussian has sqrt(2) times the stddev of 1D, so this factor is right</span></div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;            v1_x = <a class="code" href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a>(sigma);</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;            v1_y = <a class="code" href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a>(sigma);</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;            v1_z = <a class="code" href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a>(sigma);</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(forward + <a class="code" href="../../d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7">cliptoplane</a>(v1, forward));</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        }</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="keywordflow">case</span> 5: <span class="comment">// 1-r</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        {</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;            sigma = spread * 1.154700538379252; <span class="comment">// match baseline stddev</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;            v1 = <a class="code" href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">findperpendicular</a>(forward);</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;            v2 = <a class="code" href="../../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5">cross</a>(forward, v1);</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;            <span class="comment">// random point on unit circle</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2 * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a>;</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            dy = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(dx);</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(dx);</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            <span class="comment">// radius in our dist function</span></div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>();</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;            r = <a class="code" href="../../d8/d58/calculations_8qc.html#a8c505b0c356899393ec20a52c48b7c7f">solve_cubic_abcd</a>(-2, 3, 0, -r) * <span class="stringliteral">&#39;0 1 0&#39;</span>;</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(forward + (v1 * dx + v2 * dy) * r * sigma);</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        }</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="keywordflow">case</span> 6: <span class="comment">// 1-r^2</span></div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        {</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;            sigma = spread * 1.095445115010332; <span class="comment">// match baseline stddev</span></div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            v1 = <a class="code" href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">findperpendicular</a>(forward);</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            v2 = <a class="code" href="../../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5">cross</a>(forward, v1);</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;            <span class="comment">// random point on unit circle</span></div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2 * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a>;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;            dy = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(dx);</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(dx);</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;            <span class="comment">// radius in our dist function</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>();</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(1 - r);</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(1 - r);</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(forward + (v1 * dx + v2 * dy) * r * sigma);</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;        }</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;        <span class="keywordflow">case</span> 7: <span class="comment">// (1-r) (2-r)</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;        {</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;            sigma = spread * 1.224744871391589; <span class="comment">// match baseline stddev</span></div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;            v1 = <a class="code" href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">findperpendicular</a>(forward);</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;            v2 = <a class="code" href="../../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5">cross</a>(forward, v1);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;            <span class="comment">// random point on unit circle</span></div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 2 * <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a>;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;            dy = <a class="code" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin</a>(dx);</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;            dx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5b48ade84c6b8b9ccb89e94c5d95ae88">cos</a>(dx);</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;            <span class="comment">// radius in our dist function</span></div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;            r = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>();</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;            r = 1 - <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(r);</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;            r = 1 - <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(r);</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(forward + (v1 * dx + v2 * dy) * r * sigma);</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        }</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;            <a class="code" href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a>(<span class="stringliteral">&quot;g_projectiles_spread_style must be 0 (sphere), 1 (flattened sphere), 2 (circle), 3 (gauss 3D), 4 (gauss plane), 5 (linear falloff), 6 (quadratic falloff), 7 (stronger falloff)!&quot;</span>);</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    }</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;</div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;    <span class="keywordflow">return</span> <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;    <span class="comment">/*</span></div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;<span class="comment">     * how to derive falloff functions:</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;<span class="comment">     * rho(r) := (2-r) * (1-r);</span></div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;<span class="comment">     * a : 0;</span></div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;<span class="comment">     * b : 1;</span></div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="comment">     * rhor(r) := r * rho(r);</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="comment">     * cr(t) := integrate(rhor(r), r, a, t);</span></div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="comment">     * scr(t) := integrate(rhor(r) * r^2, r, a, t);</span></div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;<span class="comment">     * variance : scr(b) / cr(b);</span></div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<span class="comment">     * solve(cr(r) = rand * cr(b), r), programmmode:false;</span></div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;<span class="comment">     * sqrt(0.4 / variance), numer;</span></div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;<span class="comment">     */</span></div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_aa156cc8dd51c39572de799ab8a0dd8d0"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#aa156cc8dd51c39572de799ab8a0dd8d0">randomvec</a></div><div class="ttdeci">vector randomvec(void)</div></div>
 <div class="ttc" id="calculations_8qc_html_a05d5746469bd0a51dfb4532b535793e7"><div class="ttname"><a href="../../d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7">cliptoplane</a></div><div class="ttdeci">vector cliptoplane(vector v, vector p)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d58/calculations_8qc_source.html#l00075">calculations.qc:75</a></div></div>
 <div class="ttc" id="calculations_8qc_html_a483f7b35cfbed64a953d7b5143a58fad"><div class="ttname"><a href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">findperpendicular</a></div><div class="ttdeci">vector findperpendicular(vector v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d58/calculations_8qc_source.html#l00138">calculations.qc:138</a></div></div>
@@ -758,38 +758,43 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a96c44222346f73d873d8100b8a36fb5e"></a>
+<a class="anchor" id="a3202e6e8fbf2ae7ae1bf47a1f55ea8f9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> W_GetGunAlignment </td>
+          <td class="memname"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a> W_GunAlign </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
-          <td class="paramname"><em>player</em></td><td>)</td>
+          <td class="paramname"><em>this</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d95/menudefs_8qh.html#a5bbac504bf91a00131c151e971eb5b46">int</a>&#160;</td>
+          <td class="paramname"><em>preferred_align</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00147">147</a> of file <a class="el" href="../../d8/d58/calculations_8qc_source.html">calculations.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../d8/d58/calculations_8qc_source.html#l00179">179</a> of file <a class="el" href="../../d8/d58/calculations_8qc_source.html">calculations.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00345">FireGrapplingHook()</a>, and <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00138">GrapplingHookThink()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;{</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;    <span class="keywordtype">int</span> gunalign = STAT(GUNALIGN, player);</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordflow">if</span>(gunalign &lt; 1 || gunalign &gt; 4)</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        gunalign = 3; <span class="comment">// default value</span></div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    --gunalign;</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;    <span class="keywordflow">return</span> gunalign;</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00364">FireGrapplingHook()</a>, and <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00156">GrapplingHookThink()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    {</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <span class="keywordflow">return</span> this.m_gunalign &gt; 0 ? this.m_gunalign : preferred_align;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    }</div>
 </div><!-- fragment -->
 <p><div id="dynsection-14" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-14-trigger" src="../../closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d58/calculations_8qc_a96c44222346f73d873d8100b8a36fb5e_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d8/d58/calculations_8qc_a3202e6e8fbf2ae7ae1bf47a1f55ea8f9_icgraph.svg" width="100%" height="385"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -802,7 +807,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_67782cf2b73ff31781b25ce4541674e7.html">weapons</a></li><li class="navelem"><a class="el" href="../../d8/d58/calculations_8qc.html">calculations.qc</a></li>
-    <li class="footer">Generated on Tue Jan 3 2017 01:50:07 for Xonotic by
+    <li class="footer">Generated on Wed Jan 4 2017 07:22:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

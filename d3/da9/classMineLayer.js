@@ -23,7 +23,7 @@ var classMineLayer =
     [ "wr_think", "d3/da9/classMineLayer.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d3/da9/classMineLayer.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d3/da9/classMineLayer.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d3/da9/classMineLayer.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d3/da9/classMineLayer.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d3/da9/classMineLayer.html#a666e6a52c2ea425128db9dc219d64bd2", null ],
     [ "bot_pickupbasevalue", "d3/da9/classMineLayer.html#a81f22076374063c0ac3a8bdb2e35ca3b", null ],
     [ "impulse", "d3/da9/classMineLayer.html#ac72896c0e96c0f0bf6c088cb153ca74e", null ],
@@ -35,6 +35,7 @@ var classMineLayer =
     [ "spawnflags", "d3/da9/classMineLayer.html#a5ba0f7dd41ba2737fc52560ddf1ab558", null ],
     [ "w_crosshair", "d3/da9/classMineLayer.html#a6e7cf931640ad5920875b53d6aef94e5", null ],
     [ "w_crosshair_size", "d3/da9/classMineLayer.html#a106f2fdc7c16d0167b1f83e4d63569e9", null ],
+    [ "w_reticle", "d3/da9/classMineLayer.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d3/da9/classMineLayer.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d3/da9/classMineLayer.html#a0bd25e8922366620f95386d9be824e77", null ]
 ];

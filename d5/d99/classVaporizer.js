@@ -23,7 +23,7 @@ var classVaporizer =
     [ "wr_think", "d5/d99/classVaporizer.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d5/d99/classVaporizer.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d5/d99/classVaporizer.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d5/d99/classVaporizer.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d5/d99/classVaporizer.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d5/d99/classVaporizer.html#a6cf9614b4d575c2d88dc55fb5b913c60", null ],
     [ "bot_pickupbasevalue", "d5/d99/classVaporizer.html#a1b01884770cf782e1003225a352033dd", null ],
     [ "impulse", "d5/d99/classVaporizer.html#a12b0ba95c9e30c47108c50ac2f2b3901", null ],
@@ -35,6 +35,7 @@ var classVaporizer =
     [ "spawnflags", "d5/d99/classVaporizer.html#ae396ebf6662f399370dd387744ffbc58", null ],
     [ "w_crosshair", "d5/d99/classVaporizer.html#a98d7fef68d0f301e5a5dbab0a4906793", null ],
     [ "w_crosshair_size", "d5/d99/classVaporizer.html#a432315e873c28ba284538f78c22f55de", null ],
+    [ "w_reticle", "d5/d99/classVaporizer.html#ac6b3f33d3bc5bddbb2ecc8cf5d43653d", null ],
     [ "weapons", "d5/d99/classVaporizer.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d5/d99/classVaporizer.html#a7acecf71fe5accb2cc9d3098c0db7d91", null ]
 ];

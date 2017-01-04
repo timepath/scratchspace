@@ -23,7 +23,7 @@ var classMachineGunTurretAttack =
     [ "wr_think", "d7/d9c/classMachineGunTurretAttack.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d7/d9c/classMachineGunTurretAttack.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d7/d9c/classMachineGunTurretAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d7/d9c/classMachineGunTurretAttack.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d7/d9c/classMachineGunTurretAttack.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d7/d9c/classMachineGunTurretAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe", null ],
     [ "bot_pickupbasevalue", "d7/d9c/classMachineGunTurretAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d7/d9c/classMachineGunTurretAttack.html#aa9e90b51714f8caeca87b700faa158ee", null ],
@@ -35,6 +35,7 @@ var classMachineGunTurretAttack =
     [ "spawnflags", "d7/d9c/classMachineGunTurretAttack.html#ae194b82053f7fefe8dba64b54a40cc4c", null ],
     [ "w_crosshair", "d7/d9c/classMachineGunTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3", null ],
     [ "w_crosshair_size", "d7/d9c/classMachineGunTurretAttack.html#a79fc26acbd9b11c52f841a4f550dd52d", null ],
+    [ "w_reticle", "d7/d9c/classMachineGunTurretAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d7/d9c/classMachineGunTurretAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d7/d9c/classMachineGunTurretAttack.html#ac59ca04ae3ae9de45817a65da1e606be", null ]
 ];

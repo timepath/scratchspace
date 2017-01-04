@@ -23,7 +23,7 @@ var classMageSpike =
     [ "wr_think", "de/dcb/classMageSpike.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "de/dcb/classMageSpike.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "de/dcb/classMageSpike.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "de/dcb/classMageSpike.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "de/dcb/classMageSpike.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "de/dcb/classMageSpike.html#a6df6ebff3e6de443f7a0134c518a8ffe", null ],
     [ "bot_pickupbasevalue", "de/dcb/classMageSpike.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "de/dcb/classMageSpike.html#a6cf7fae6c0116c7d59414a7b1ab474e5", null ],
@@ -35,6 +35,7 @@ var classMageSpike =
     [ "spawnflags", "de/dcb/classMageSpike.html#ab6b3de3714961aa2b53ec1354cda3b28", null ],
     [ "w_crosshair", "de/dcb/classMageSpike.html#a01e7b060bcfa83adc60236efeca16fd3", null ],
     [ "w_crosshair_size", "de/dcb/classMageSpike.html#a79fc26acbd9b11c52f841a4f550dd52d", null ],
+    [ "w_reticle", "de/dcb/classMageSpike.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "de/dcb/classMageSpike.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "de/dcb/classMageSpike.html#ac59ca04ae3ae9de45817a65da1e606be", null ]
 ];

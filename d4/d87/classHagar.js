@@ -23,7 +23,7 @@ var classHagar =
     [ "wr_think", "d4/d87/classHagar.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d4/d87/classHagar.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d4/d87/classHagar.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d4/d87/classHagar.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d4/d87/classHagar.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d4/d87/classHagar.html#a229188580884f68236312a9bbf6f7c19", null ],
     [ "bot_pickupbasevalue", "d4/d87/classHagar.html#aa73cd57b3321d3f2fea34b4e62dbd7b6", null ],
     [ "impulse", "d4/d87/classHagar.html#a766b99c641b6edf45fc811b21747a8f5", null ],
@@ -35,6 +35,7 @@ var classHagar =
     [ "spawnflags", "d4/d87/classHagar.html#a95cc54fdb59419b65f2601da42fae469", null ],
     [ "w_crosshair", "d4/d87/classHagar.html#a5e8f6060761bb31dcb6c1de05569e01c", null ],
     [ "w_crosshair_size", "d4/d87/classHagar.html#a22952de3e49fe194111b6a0d76de86d4", null ],
+    [ "w_reticle", "d4/d87/classHagar.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d4/d87/classHagar.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d4/d87/classHagar.html#adcde8fd0f6fa50ab508ca98e0fa9bab5", null ]
 ];

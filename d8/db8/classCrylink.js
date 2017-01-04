@@ -23,7 +23,7 @@ var classCrylink =
     [ "wr_think", "d8/db8/classCrylink.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d8/db8/classCrylink.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d8/db8/classCrylink.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d8/db8/classCrylink.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d8/db8/classCrylink.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d8/db8/classCrylink.html#a78537f316460b0dc9e5843261a9bacd3", null ],
     [ "bot_pickupbasevalue", "d8/db8/classCrylink.html#a60dd8166f44e3fc48dbae45e8a90f874", null ],
     [ "impulse", "d8/db8/classCrylink.html#a357d71a93793fee25532c9c8eac42f23", null ],
@@ -35,6 +35,7 @@ var classCrylink =
     [ "spawnflags", "d8/db8/classCrylink.html#a7fa0bbbb084ffb8e97a9d2df198dc454", null ],
     [ "w_crosshair", "d8/db8/classCrylink.html#a71f665728d949ab406810aef09ad230e", null ],
     [ "w_crosshair_size", "d8/db8/classCrylink.html#afae852aee04f756c5dea8e4339aacc1b", null ],
+    [ "w_reticle", "d8/db8/classCrylink.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d8/db8/classCrylink.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d8/db8/classCrylink.html#a6d8606f6981133d83bc31403afbef709", null ]
 ];

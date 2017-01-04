@@ -50,5 +50,7 @@ var dir_bdd9a5d540de89e9fe90efdfc6973a4f =
     [ "util.qc", "da/d44/common_2util_8qc.html", "da/d44/common_2util_8qc" ],
     [ "util.qh", "d5/df2/common_2util_8qh.html", "d5/df2/common_2util_8qh" ],
     [ "viewloc.qc", "d8/d6d/viewloc_8qc.html", "d8/d6d/viewloc_8qc" ],
-    [ "viewloc.qh", "db/d53/viewloc_8qh.html", "db/d53/viewloc_8qh" ]
+    [ "viewloc.qh", "db/d53/viewloc_8qh.html", "db/d53/viewloc_8qh" ],
+    [ "wepent.qc", "dd/df2/wepent_8qc.html", "dd/df2/wepent_8qc" ],
+    [ "wepent.qh", "d0/d56/wepent_8qh.html", "d0/d56/wepent_8qh" ]
 ];

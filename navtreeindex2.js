@@ -1,8 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"d0/d41/menu_8qh.html#a3e374a67c6a18648e6d176792cb2cd3e":[2,0,5,18,26],
-"d0/d41/menu_8qh.html#a3fad09197ebe3127bdf711d1ff5ae831":[2,0,5,18,33],
-"d0/d41/menu_8qh.html#a4688e688e3649a241a2b522bacda97af":[2,0,5,18,31],
 "d0/d41/menu_8qh.html#a48ddbc4143946234b2a42d4cf1112dc4":[2,0,5,18,9],
 "d0/d41/menu_8qh.html#a491da4d42d2639395d76dcf8d9d1dff4":[2,0,5,18,14],
 "d0/d41/menu_8qh.html#a491eb50e99cd8d5994e8080026f200cb":[2,0,5,18,11],
@@ -136,6 +133,10 @@ var NAVTREEINDEX2 =
 "d0/d55/racer__weapon_8qh.html":[2,0,1,15,0,9],
 "d0/d55/racer__weapon_8qh.html#afa8bd1426082543d719ebd976b5ef246":[2,0,1,15,0,9,1],
 "d0/d55/racer__weapon_8qh_source.html":[2,0,1,15,0,9],
+"d0/d56/wepent_8qh.html":[2,0,1,52],
+"d0/d56/wepent_8qh.html#a007e97f904a08307b01bb1e9d9bb4441":[2,0,1,52,1],
+"d0/d56/wepent_8qh.html#a8fbefd5a9f018e75f7dc1339a202e225":[2,0,1,52,0],
+"d0/d56/wepent_8qh_source.html":[2,0,1,52],
 "d0/d58/ewheel__weapon_8qh.html":[2,0,1,14,0,5],
 "d0/d58/ewheel__weapon_8qh.html#ad28d60b4479123d68ab7d2f37b300cb1":[2,0,1,14,0,5,1],
 "d0/d58/ewheel__weapon_8qh_source.html":[2,0,1,14,0,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "d0/d72/lib_2warpzone_2client_8qc.html#a295339443c4957cce0bd0fe831cf64c8":[2,0,4,2,4,3],
 "d0/d72/lib_2warpzone_2client_8qc.html#a3ffef105e69ca5cd4e07ffeae58d80e8":[2,0,4,2,4,4],
 "d0/d72/lib_2warpzone_2client_8qc.html#a441061149623ecc221416e51bb17c337":[2,0,4,2,4,6],
-"d0/d72/lib_2warpzone_2client_8qc.html#a44e847786eb2ba1a67611972a2db2ed3":[2,0,4,2,4,14],
-"d0/d72/lib_2warpzone_2client_8qc.html#aac8a5f6387de169d2367b35c68131413":[2,0,4,2,4,2]
+"d0/d72/lib_2warpzone_2client_8qc.html#a44e847786eb2ba1a67611972a2db2ed3":[2,0,4,2,4,14]
 };

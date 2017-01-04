@@ -23,7 +23,7 @@ var classWeapon =
     [ "wr_think", "dc/de5/classWeapon.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "dc/de5/classWeapon.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "dc/de5/classWeapon.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "dc/de5/classWeapon.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "dc/de5/classWeapon.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "dc/de5/classWeapon.html#a768d3992198c4b743dbab2cff9529e99", null ],
     [ "bot_pickupbasevalue", "dc/de5/classWeapon.html#addd49c0c8143efd59c6d28d2c7d54c84", null ],
     [ "impulse", "dc/de5/classWeapon.html#a07bb940405dd6a1cc59526ddca74c1b7", null ],
@@ -35,6 +35,7 @@ var classWeapon =
     [ "spawnflags", "dc/de5/classWeapon.html#aaab6e67f316eebe5b5836499c84988cf", null ],
     [ "w_crosshair", "dc/de5/classWeapon.html#a4c93f155e978ff2356e110a617ab3c39", null ],
     [ "w_crosshair_size", "dc/de5/classWeapon.html#aadf51e7fb4ada8bff51507cc383495e9", null ],
+    [ "w_reticle", "dc/de5/classWeapon.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "dc/de5/classWeapon.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "dc/de5/classWeapon.html#a89d6c6ec494acffc4fa8fa1a8855f16d", null ]
 ];

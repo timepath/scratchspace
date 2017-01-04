@@ -8,8 +8,8 @@ var weaponsystem_8qc =
     [ "forbidWeaponUse", "d5/de0/weaponsystem_8qc.html#a1798aef9c3263ffc0fb53a9741fc3ab9", null ],
     [ "W_AttachToShotorg", "d5/de0/weaponsystem_8qc.html#a813254341767de735265a1836478ad03", null ],
     [ "w_clear", "d5/de0/weaponsystem_8qc.html#a6e2db8091b94c8cb9fa32263996e15b8", null ],
-    [ "W_DecreaseAmmo", "d5/de0/weaponsystem_8qc.html#aa0bce870282286c681f4e9988c2ba474", null ],
-    [ "W_DropEvent", "d5/de0/weaponsystem_8qc.html#a3033c57fa01b0d86245be740694ca2d6", null ],
+    [ "W_DecreaseAmmo", "d5/de0/weaponsystem_8qc.html#a06b2f0eed9468ff1724e9d1e6995dbd2", null ],
+    [ "W_DropEvent", "d5/de0/weaponsystem_8qc.html#a247df313dc346cd128c991a289157b06", null ],
     [ "w_ready", "d5/de0/weaponsystem_8qc.html#a66ca3d9dc1f3bc5a039abad59d986d40", null ],
     [ "W_Reload", "d5/de0/weaponsystem_8qc.html#a20be965c42ea2fe958748c6971f93a78", null ],
     [ "W_ReloadedAndReady", "d5/de0/weaponsystem_8qc.html#aa46bfb19e29f3b2eae7d29f5ae04b723", null ],
@@ -18,7 +18,7 @@ var weaponsystem_8qc =
     [ "W_WeaponSpeedFactor", "d5/de0/weaponsystem_8qc.html#a0a6487bdb823099d34918347cb076f98", null ],
     [ "weapon_prepareattack", "d5/de0/weaponsystem_8qc.html#a3eef678d2a46dc639f684d226fae3906", null ],
     [ "weapon_prepareattack_check", "d5/de0/weaponsystem_8qc.html#ab2f890a6e9e47bd09060607fa6ea4add", null ],
-    [ "weapon_prepareattack_checkammo", "d5/de0/weaponsystem_8qc.html#ab1051ecc5d2a6cf50ed74473d4d5d7d5", null ],
+    [ "weapon_prepareattack_checkammo", "d5/de0/weaponsystem_8qc.html#ac1e5d3a9a2d4fb2b5105efcb08fba822", null ],
     [ "weapon_prepareattack_do", "d5/de0/weaponsystem_8qc.html#a8333b89e537957bfd5529a40b6c3a19d", null ],
     [ "weapon_thinkf", "d5/de0/weaponsystem_8qc.html#a2c942b58576428eb5b55f9d6ca107a49", null ],
     [ "wframe_send", "d5/de0/weaponsystem_8qc.html#ad121c05ab5bd334ef01604c5db34c005", null ],
@@ -33,6 +33,8 @@ var weaponsystem_8qc =
     [ "reload_sound", "d5/de0/weaponsystem_8qc.html#a706914aae8991d2facc8fdc279b6d03f", null ],
     [ "reload_time", "d5/de0/weaponsystem_8qc.html#aba854498f89c2c066c049217f73085e8", null ],
     [ "state", "d5/de0/weaponsystem_8qc.html#a89f234133d3efe315836311cbf21c64b", null ],
-    [ "weapon_frametime", "d5/de0/weaponsystem_8qc.html#a7d720b0940dda54dfd6fb8e6217c9d53", null ],
-    [ "weaponentity_fld", "d5/de0/weaponsystem_8qc.html#ab77c36c89a03dbb675a9350144e5faec", null ]
+    [ "w_deadflag", "d5/de0/weaponsystem_8qc.html#a423b1c05b646405ace0c57f25b34d61d", null ],
+    [ "w_dmg", "d5/de0/weaponsystem_8qc.html#ada5ffcf75b37b6ff648313fb8e50ad3a", null ],
+    [ "w_weaponname", "d5/de0/weaponsystem_8qc.html#abda7adb1b3f237559d1373c8b6930e1e", null ],
+    [ "weapon_frametime", "d5/de0/weaponsystem_8qc.html#a7d720b0940dda54dfd6fb8e6217c9d53", null ]
 ];

@@ -23,7 +23,7 @@ var classEWheelAttack =
     [ "wr_think", "d1/dc3/classEWheelAttack.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d1/dc3/classEWheelAttack.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d1/dc3/classEWheelAttack.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d1/dc3/classEWheelAttack.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d1/dc3/classEWheelAttack.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d1/dc3/classEWheelAttack.html#a6df6ebff3e6de443f7a0134c518a8ffe", null ],
     [ "bot_pickupbasevalue", "d1/dc3/classEWheelAttack.html#ae61a44ce6f969cd494a30ebe7e8dd44c", null ],
     [ "impulse", "d1/dc3/classEWheelAttack.html#ae4f58daa33d41cd909d978c3696c03c0", null ],
@@ -35,6 +35,7 @@ var classEWheelAttack =
     [ "spawnflags", "d1/dc3/classEWheelAttack.html#ab5d5615537f66e3ed31e15cb47cc5616", null ],
     [ "w_crosshair", "d1/dc3/classEWheelAttack.html#a01e7b060bcfa83adc60236efeca16fd3", null ],
     [ "w_crosshair_size", "d1/dc3/classEWheelAttack.html#a79fc26acbd9b11c52f841a4f550dd52d", null ],
+    [ "w_reticle", "d1/dc3/classEWheelAttack.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d1/dc3/classEWheelAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d1/dc3/classEWheelAttack.html#ac59ca04ae3ae9de45817a65da1e606be", null ]
 ];

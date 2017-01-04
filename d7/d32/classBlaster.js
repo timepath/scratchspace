@@ -23,7 +23,7 @@ var classBlaster =
     [ "wr_think", "d7/d32/classBlaster.html#a32a28865e4c67cc786e85fdeb8273923", null ],
     [ "wr_update", "d7/d32/classBlaster.html#a4337268c8cad6836bae8efd4a8835070", null ],
     [ "wr_viewmodel", "d7/d32/classBlaster.html#ad5fa8697b6587ae95cc10ac0f09cb9a5", null ],
-    [ "wr_zoomreticle", "d7/d32/classBlaster.html#ae49b4916a450e13269686bd9a27e2cd4", null ],
+    [ "wr_zoom", "d7/d32/classBlaster.html#aa557f7e3a22e9b52192697ca3efcd48b", null ],
     [ "ammo_field", "d7/d32/classBlaster.html#a768d3992198c4b743dbab2cff9529e99", null ],
     [ "bot_pickupbasevalue", "d7/d32/classBlaster.html#a1c8437833108d8e5fee3535929d05f32", null ],
     [ "impulse", "d7/d32/classBlaster.html#a17f155a849bf1aad1fb6f97232996be9", null ],
@@ -35,6 +35,7 @@ var classBlaster =
     [ "spawnflags", "d7/d32/classBlaster.html#a57423e21298335220a0eec15c3536c28", null ],
     [ "w_crosshair", "d7/d32/classBlaster.html#a4492bc785b4f25852f81c60837c97a3c", null ],
     [ "w_crosshair_size", "d7/d32/classBlaster.html#a10c47300d4c1aafc412621ac3192a994", null ],
+    [ "w_reticle", "d7/d32/classBlaster.html#ad5415bf8852fce4b7aee2bb71fe284dd", null ],
     [ "weapons", "d7/d32/classBlaster.html#ac2c251078e8f3c2c9989c22cefe1d7e6", null ],
     [ "wpcolor", "d7/d32/classBlaster.html#a2d77314a674f60c71de27667cb5113ad", null ]
 ];
