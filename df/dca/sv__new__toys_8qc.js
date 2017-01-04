@@ -1,6 +1,5 @@
 var sv__new__toys_8qc =
 [
-    [ "MUTATOR_HOOKFUNCTION", "df/dca/sv__new__toys_8qc.html#a959ca4a93d877132cf96839cae1d2a49", null ],
     [ "MUTATOR_HOOKFUNCTION", "df/dca/sv__new__toys_8qc.html#a1c5c812f41099c0bb4a7a344e4889e94", null ],
     [ "MUTATOR_HOOKFUNCTION", "df/dca/sv__new__toys_8qc.html#a99408cf448faa50ccc92640c0d96c9c4", null ],
     [ "MUTATOR_HOOKFUNCTION", "df/dca/sv__new__toys_8qc.html#a937b44fd478bcbee4363c7e90fa2f06e", null ],
