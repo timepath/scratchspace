@@ -1,5 +1,6 @@
 var server_2command_2vote_8qc =
 [
+    [ "spectators_allowed", "d1/dad/server_2command_2vote_8qc.html#a01b48aa2eab17e008adc61a9a5234246", null ],
     [ "VOTE_COMMAND", "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba", null ],
     [ "VOTE_COMMAND", "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba", null ],
     [ "VOTE_COMMAND", "d1/dad/server_2command_2vote_8qc.html#ab9044c40adfd4f4dd00d594ff613bfba", null ],

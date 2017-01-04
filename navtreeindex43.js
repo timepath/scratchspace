@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"d4/dbc/dialog__multiplayer__media__screenshot__viewer_8qc_source.html":[2,0,5,4,110],
 "d4/dbd/fusionreactor_8qh.html":[2,0,1,14,0,11],
 "d4/dbd/fusionreactor_8qh.html#a9498c7debd94c5abd11c71b8c538b6be":[2,0,1,14,0,11,1],
 "d4/dbd/fusionreactor_8qh_source.html":[2,0,1,14,0,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "d4/df8/classXonoticHUDRadarDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,189,36],
 "d4/df8/classXonoticHUDRadarDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,189,5],
 "d4/df8/classXonoticHUDRadarDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,189,90],
-"d4/df8/classXonoticHUDRadarDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,189,79],
-"d4/df8/classXonoticHUDRadarDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,189,44]
+"d4/df8/classXonoticHUDRadarDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,189,79]
 };

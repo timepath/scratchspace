@@ -1,5 +1,6 @@
 var NAVTREEINDEX115 =
 {
+"dd/d9a/classXonoticSandboxToolsDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,224,10],
 "dd/d9a/classXonoticSandboxToolsDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,224,35],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ab0aeb8440abc4bd78c0023e48aaf0393":[1,0,224,81],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,224,36],
@@ -248,6 +249,5 @@ var NAVTREEINDEX115 =
 "dd/daa/g__lights_8qc.html#af2026bf6a55612104f3b9c739d77125f":[2,0,6,27,5],
 "dd/daa/g__lights_8qc.html#af2fa133f7e214360915d1ecac346c6ee":[2,0,6,27,2],
 "dd/daa/g__lights_8qc_source.html":[2,0,6,27],
-"dd/dac/dialog__hudsetup__exit_8qc.html":[2,0,5,4,82],
-"dd/dac/dialog__hudsetup__exit_8qc.html#a9402798b381818975e745a6b27052d0b":[2,0,5,4,82,0]
+"dd/dac/dialog__hudsetup__exit_8qc.html":[2,0,5,4,82]
 };
