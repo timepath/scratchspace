@@ -543,7 +543,7 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;        {</div>
 <div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;            <a class="code" href="../../d4/d3f/tracing_8qh.html#af3cb4ea16b3d71a76b55754ccd713632">fireBullet_last_hit</a> = hit;</div>
 <div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;            <a class="code" href="../../dd/de4/g__damage_8qh.html#a1e3b2f601afaa75fbe6749c4931d1367">yoda</a> = 0;</div>
-<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;            <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(FireBullet_Hit, <span class="keyword">this</span>, hit, start, end, damage);</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;            <a class="code" href="../../db/d38/base_8qh.html#a293be81bad1a89950f06a4a593a8cb75">MUTATOR_CALLHOOK</a>(FireBullet_Hit, <span class="keyword">this</span>, hit, start, end, damage, this.(weaponentity));</div>
 <div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;            damage = <a class="code" href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a>(4, <span class="keywordtype">float</span>);</div>
 <div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;            <span class="keywordtype">float</span> g = <a class="code" href="../../da/d68/accuracy_8qc.html#a8ad5119b525659cbc971123f303fa416">accuracy_isgooddamage</a>(<span class="keyword">this</span>, hit);</div>
 <div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;            <a class="code" href="../../d5/d26/server_2defs_8qh.html#ad1d833615f56d11e3c3a9facc944aaf6">Damage</a>(hit, <span class="keyword">this</span>, <span class="keyword">this</span>, damage * solid_penetration_left, dtype, start, force * dir * solid_penetration_left);</div>
@@ -748,7 +748,7 @@ $(document).ready(function(){initNavTree('d7/d31/tracing_8qc_source.html','../..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../d7/d31/tracing_8qc.html">tracing.qc</a></li>
-    <li class="footer">Generated on Wed Jan 4 2017 22:20:34 for Xonotic by
+    <li class="footer">Generated on Thu Jan 5 2017 18:13:02 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
