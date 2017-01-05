@@ -195,14 +195,14 @@ $(document).ready(function(){initNavTree('d9/d09/notifications_2all_8inc_source.
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;<span class="comment">*/</span></div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
 <div class="line"><a name="l00090"></a><span class="lineno"><a class="line" href="../../d9/d09/notifications_2all_8inc.html#a26f52497a8ee203ec0f906508a601668">   90</a></span>&#160;<span class="preprocessor">#define MULTITEAM_ANNCE2(prefix, default, sound, channel, volume, position) \</span></div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">    MSG_ANNCE_NOTIF(prefix##RED, default, sprintf(sound, strtolower(STATIC_NAME_TEAM_1)), channel, volume, position) \</span></div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">    MSG_ANNCE_NOTIF(prefix##BLUE, default, sprintf(sound, strtolower(STATIC_NAME_TEAM_2)), channel, volume, position)</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;<span class="preprocessor">    MSG_ANNCE_NOTIF(prefix##_RED, default, sprintf(sound, strtolower(STATIC_NAME_TEAM_1)), channel, volume, position) \</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;<span class="preprocessor">    MSG_ANNCE_NOTIF(prefix##_BLUE, default, sprintf(sound, strtolower(STATIC_NAME_TEAM_2)), channel, volume, position)</span></div>
 <div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="../../d9/d09/notifications_2all_8inc.html#a4e290b033debbc193045cf4d1d9781df">   93</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define MULTITEAM_ANNCE3(prefix, default, sound, channel, volume, position) \</span></div>
 <div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<span class="preprocessor">    MULTITEAM_ANNCE2(prefix, default, sound, channel, volume, position) \</span></div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">    MSG_ANNCE_NOTIF(prefix##YELLOW, default, sprintf(sound, strtolower(STATIC_NAME_TEAM_3)), channel, volume, position)</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;<span class="preprocessor">    MSG_ANNCE_NOTIF(prefix##_YELLOW, default, sprintf(sound, strtolower(STATIC_NAME_TEAM_3)), channel, volume, position)</span></div>
 <div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="../../d9/d09/notifications_2all_8inc.html#a4999d09c82da8a87278451404c37ea23">   96</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define MULTITEAM_ANNCE4(prefix, default, sound, channel, volume, position) \</span></div>
 <div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<span class="preprocessor">    MULTITEAM_ANNCE3(prefix, default, sound, channel, volume, position) \</span></div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">    MSG_ANNCE_NOTIF(prefix##PINK, default, sprintf(sound, strtolower(STATIC_NAME_TEAM_4)), channel, volume, position)</span></div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<span class="preprocessor">    MSG_ANNCE_NOTIF(prefix##_PINK, default, sprintf(sound, strtolower(STATIC_NAME_TEAM_4)), channel, volume, position)</span></div>
 <div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="../../d9/d09/notifications_2all_8inc.html#a8c506d96c388c6d8c2a85a73e00e4195">   99</a></span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define MULTITEAM_ANNCE(prefix, teams, default, sound, channel, volume, position) \</span></div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;<span class="preprocessor">    MULTITEAM_ANNCE##teams(prefix, default, sound, channel, volume, position)</span></div>
 <div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;<span class="preprocessor"></span></div>
@@ -872,7 +872,7 @@ $(document).ready(function(){initNavTree('d9/d09/notifications_2all_8inc_source.
 <div class="line"><a name="l00765"></a><span class="lineno">  765</span>&#160;<span class="preprocessor">    MSG_MULTI_NOTIF(prefix##_BLUE, default, anncepre##_BLUE, infopre##_BLUE, centerpre##_BLUE)</span></div>
 <div class="line"><a name="l00766"></a><span class="lineno">  766</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define MULTITEAM_MULTI3(prefix, default, anncepre, infopre, centerpre) \</span></div>
 <div class="line"><a name="l00767"></a><span class="lineno">  767</span>&#160;<span class="preprocessor">    MULTITEAM_MULTI2(prefix, default, anncepre, infopre, centerpre) \</span></div>
-<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;<span class="preprocessor">    MSG_MULTI_NOTIF(default, prefix##_YELLOW, anncepre##YELLOW, infopre##YELLOW, centerpre##YELLOW)</span></div>
+<div class="line"><a name="l00768"></a><span class="lineno">  768</span>&#160;<span class="preprocessor">    MSG_MULTI_NOTIF(prefix##_YELLOW, default, anncepre##YELLOW, infopre##YELLOW, centerpre##YELLOW)</span></div>
 <div class="line"><a name="l00769"></a><span class="lineno">  769</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define MULTITEAM_MULTI4(prefix, default, anncepre, infopre, centerpre) \</span></div>
 <div class="line"><a name="l00770"></a><span class="lineno">  770</span>&#160;<span class="preprocessor">    MULTITEAM_MULTI3(prefix, default, anncepre, infopre, centerpre) \</span></div>
 <div class="line"><a name="l00771"></a><span class="lineno">  771</span>&#160;<span class="preprocessor">    MSG_MULTI_NOTIF(prefix##_PINK, default, anncepre##PINK, infopre##PINK, centerpre##PINK)</span></div>
@@ -1184,7 +1184,7 @@ $(document).ready(function(){initNavTree('d9/d09/notifications_2all_8inc_source.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_cf234ab9b9033f681804c9de340d1a43.html">notifications</a></li><li class="navelem"><a class="el" href="../../d9/d09/notifications_2all_8inc.html">all.inc</a></li>
-    <li class="footer">Generated on Thu Jan 5 2017 18:12:59 for Xonotic by
+    <li class="footer">Generated on Thu Jan 5 2017 20:11:36 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
