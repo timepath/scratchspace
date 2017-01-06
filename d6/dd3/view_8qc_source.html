@@ -2060,7 +2060,7 @@ $(document).ready(function(){initNavTree('d6/dd3/view_8qc_source.html','../../')
 <div class="line"><a name="l01953"></a><span class="lineno"> 1953</span>&#160;</div>
 <div class="line"><a name="l01954"></a><span class="lineno"> 1954</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d7/db4/client_2autocvars_8qh.html#aeeeadd22f2da073e3020aa69a474ea5b">autocvar_cl_reticle</a>)</div>
 <div class="line"><a name="l01955"></a><span class="lineno"> 1955</span>&#160;    {</div>
-<div class="line"><a name="l01956"></a><span class="lineno"> 1956</span>&#160;        <span class="keywordtype">string</span> reticle_image = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l01956"></a><span class="lineno"> 1956</span>&#160;        <span class="keywordtype">string</span> reticle_image = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
 <div class="line"><a name="l01957"></a><span class="lineno"> 1957</span>&#160;        <span class="keywordtype">bool</span> wep_zoomed = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l01958"></a><span class="lineno"> 1958</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">int</span> slot = 0; slot &lt; <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a1a06fd8ed72be7defe5bbb2747963b1b">MAX_WEAPONSLOTS</a>; ++slot)</div>
 <div class="line"><a name="l01959"></a><span class="lineno"> 1959</span>&#160;        {</div>
@@ -2069,7 +2069,7 @@ $(document).ready(function(){initNavTree('d6/dd3/view_8qc_source.html','../../')
 <div class="line"><a name="l01962"></a><span class="lineno"> 1962</span>&#160;            <span class="keywordflow">if</span>(wep != WEP_Null &amp;&amp; wep.<a class="code" href="../../dc/de5/classWeapon.html#aa557f7e3a22e9b52192697ca3efcd48b">wr_zoom</a>)</div>
 <div class="line"><a name="l01963"></a><span class="lineno"> 1963</span>&#160;            {</div>
 <div class="line"><a name="l01964"></a><span class="lineno"> 1964</span>&#160;                <span class="keywordtype">bool</span> do_zoom = wep.<a class="code" href="../../dc/de5/classWeapon.html#aa557f7e3a22e9b52192697ca3efcd48b">wr_zoom</a>(wep, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l01965"></a><span class="lineno"> 1965</span>&#160;                <span class="keywordflow">if</span>(reticle_image == <span class="stringliteral">&quot;&quot;</span> &amp;&amp; wep.<a class="code" href="../../dc/de5/classWeapon.html#ad5415bf8852fce4b7aee2bb71fe284dd">w_reticle</a> &amp;&amp; wep.<a class="code" href="../../dc/de5/classWeapon.html#ad5415bf8852fce4b7aee2bb71fe284dd">w_reticle</a> != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l01965"></a><span class="lineno"> 1965</span>&#160;                <span class="keywordflow">if</span>(!reticle_image &amp;&amp; wep.<a class="code" href="../../dc/de5/classWeapon.html#ad5415bf8852fce4b7aee2bb71fe284dd">w_reticle</a> &amp;&amp; wep.<a class="code" href="../../dc/de5/classWeapon.html#ad5415bf8852fce4b7aee2bb71fe284dd">w_reticle</a> != <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l01966"></a><span class="lineno"> 1966</span>&#160;                    reticle_image = wep.<a class="code" href="../../dc/de5/classWeapon.html#ad5415bf8852fce4b7aee2bb71fe284dd">w_reticle</a>;</div>
 <div class="line"><a name="l01967"></a><span class="lineno"> 1967</span>&#160;                wep_zoomed += do_zoom;</div>
 <div class="line"><a name="l01968"></a><span class="lineno"> 1968</span>&#160;            }</div>
@@ -2085,7 +2085,7 @@ $(document).ready(function(){initNavTree('d6/dd3/view_8qc_source.html','../../')
 <div class="line"><a name="l01978"></a><span class="lineno"> 1978</span>&#160;        }</div>
 <div class="line"><a name="l01979"></a><span class="lineno"> 1979</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(wep_zoomed &amp;&amp; <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a1e9ffb81a8e9be39a5ccb879b197f048">autocvar_cl_reticle_weapon</a>)</div>
 <div class="line"><a name="l01980"></a><span class="lineno"> 1980</span>&#160;        {</div>
-<div class="line"><a name="l01981"></a><span class="lineno"> 1981</span>&#160;            <span class="keywordflow">if</span>(reticle_image != <span class="stringliteral">&quot;&quot;</span>) { <a class="code" href="../../d6/dd3/view_8qc.html#a8e6e68292e567e79d51bb749a4f20edf">reticle_type</a> = 2; }</div>
+<div class="line"><a name="l01981"></a><span class="lineno"> 1981</span>&#160;            <span class="keywordflow">if</span>(reticle_image) { <a class="code" href="../../d6/dd3/view_8qc.html#a8e6e68292e567e79d51bb749a4f20edf">reticle_type</a> = 2; }</div>
 <div class="line"><a name="l01982"></a><span class="lineno"> 1982</span>&#160;            <span class="keywordflow">else</span> { <a class="code" href="../../d6/dd3/view_8qc.html#a8e6e68292e567e79d51bb749a4f20edf">reticle_type</a> = 0; }</div>
 <div class="line"><a name="l01983"></a><span class="lineno"> 1983</span>&#160;        }</div>
 <div class="line"><a name="l01984"></a><span class="lineno"> 1984</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a61a267473fc7421049cd4780baa4985b">button_zoom</a> || <a class="code" href="../../d6/dd3/view_8qc.html#a4b0031b0355fc84d1100bd449180d885">zoomscript_caught</a>)</div>
@@ -3100,7 +3100,7 @@ $(document).ready(function(){initNavTree('d6/dd3/view_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d6/dd3/view_8qc.html">view.qc</a></li>
-    <li class="footer">Generated on Thu Jan 5 2017 20:11:36 for Xonotic by
+    <li class="footer">Generated on Fri Jan 6 2017 23:08:40 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
