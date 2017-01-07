@@ -10,6 +10,7 @@ var monster_8qh =
     [ "anim_spawn", "d4/ddc/monster_8qh.html#a22da290ba09d8030cffa80261b95c80e", null ],
     [ "anim_walk", "d4/ddc/monster_8qh.html#a991cb145376139e3c5a0d2153ddfad22", null ],
     [ "MON_FLAG_CRUSH", "d4/ddc/monster_8qh.html#a38b6d86317c1e21cac22f53d9eb13a91", null ],
+    [ "MON_FLAG_HIDDEN", "d4/ddc/monster_8qh.html#aaa50bf2484007a754c7dc791be7bcf83", null ],
     [ "MON_FLAG_MELEE", "d4/ddc/monster_8qh.html#a7ce9c973d3b64a80220cb65748110944", null ],
     [ "MON_FLAG_RANGED", "d4/ddc/monster_8qh.html#a77df305acce2cb23b01369affd324de7", null ],
     [ "MON_FLAG_RIDE", "d4/ddc/monster_8qh.html#a8b773a286a4cb9df810b2f07e4cc7a5c", null ],

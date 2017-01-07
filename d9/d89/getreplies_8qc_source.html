@@ -395,7 +395,7 @@ $(document).ready(function(){initNavTree('d9/d89/getreplies_8qc_source.html','..
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;{</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;    <span class="keywordtype">string</span> monsterlist = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Monsters, it != MON_Null,</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;    <a class="code" href="../../d4/d18/iter_8qh.html#ac0b1b9656a2ffaf362532e68f3187ad5">FOREACH</a>(Monsters, it != MON_Null &amp;&amp; !(it.spawnflags &amp; <a class="code" href="../../d4/ddc/monster_8qh.html#aaa50bf2484007a754c7dc791be7bcf83">MON_FLAG_HIDDEN</a>),</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    {</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;        <span class="keywordtype">string</span> col = ((i % 2) ? <span class="stringliteral">&quot;^2&quot;</span> : <span class="stringliteral">&quot;^3&quot;</span>);</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        monsterlist = sprintf(<span class="stringliteral">&quot;%s%s%s &quot;</span>, monsterlist, col, it.netname);</div>
@@ -406,6 +406,7 @@ $(document).ready(function(){initNavTree('d9/d89/getreplies_8qc_source.html','..
 <div class="ttc" id="counting_8qh_html_af1015767343e4d592f051c16a8be2a9e"><div class="ttname"><a href="../../d7/de1/counting_8qh.html#af1015767343e4d592f051c16a8be2a9e">count_ordinal</a></div><div class="ttdeci">string count_ordinal(int interval)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de1/counting_8qh_source.html#l00064">counting.qh:64</a></div></div>
 <div class="ttc" id="server_2defs_8qh_html_a6fd78c37e1e70f4587b10000e80e19d0"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a6fd78c37e1e70f4587b10000e80e19d0">TemporaryDB</a></div><div class="ttdeci">float TemporaryDB</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d26/server_2defs_8qh_source.html#l00221">defs.qh:221</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a2f6d3020689c0e872cfb455d0b2cbd4a"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a2f6d3020689c0e872cfb455d0b2cbd4a">stof</a></div><div class="ttdeci">float stof(string val,...)</div></div>
+<div class="ttc" id="monster_8qh_html_aaa50bf2484007a754c7dc791be7bcf83"><div class="ttname"><a href="../../d4/ddc/monster_8qh.html#aaa50bf2484007a754c7dc791be7bcf83">MON_FLAG_HIDDEN</a></div><div class="ttdeci">const int MON_FLAG_HIDDEN</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/ddc/monster_8qh_source.html#l00016">monster.qh:16</a></div></div>
 <div class="ttc" id="mapinfo_8qh_html_a0559c59a90e69f78061d34ecfa0afb7b"><div class="ttname"><a href="../../d2/d9e/mapinfo_8qh.html#a0559c59a90e69f78061d34ecfa0afb7b">g_cts</a></div><div class="ttdeci">#define g_cts</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d9e/mapinfo_8qh_source.html#l00179">mapinfo.qh:179</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_abbb0d86741e0056b6c04f7280c185d76"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a></div><div class="ttdeci">string ftos(float f)</div></div>
 <div class="ttc" id="getreplies_8qc_html_ab675a2d8b0cc42ec8fcc752a870143d7"><div class="ttname"><a href="../../d9/d89/getreplies_8qc.html#ab675a2d8b0cc42ec8fcc752a870143d7">getrankings</a></div><div class="ttdeci">string getrankings()</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d89/getreplies_8qc_source.html#l00039">getreplies.qc:39</a></div></div>
@@ -463,7 +464,7 @@ $(document).ready(function(){initNavTree('d9/d89/getreplies_8qc_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d9/d89/getreplies_8qc.html">getreplies.qc</a></li>
-    <li class="footer">Generated on Sat Jan 7 2017 13:55:33 for Xonotic by
+    <li class="footer">Generated on Sat Jan 7 2017 14:12:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

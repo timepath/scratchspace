@@ -1,5 +1,6 @@
 var NAVTREEINDEX76 =
 {
+"d8/dd8/sv__buffs_8qh.html#a3601407ee7387bbbce9cebcd529d9ebf":[2,0,1,9,0,2,8,42],
 "d8/dd8/sv__buffs_8qh.html#a39a49dfb13476e573dab25e06a90e563":[2,0,1,9,0,2,8,58],
 "d8/dd8/sv__buffs_8qh.html#a3a19f5b80ff5f5a3867d484cb5f79060":[2,0,1,9,0,2,8,8],
 "d8/dd8/sv__buffs_8qh.html#a3a7b8cb38386a1a5727768f91e22fabe":[2,0,1,9,0,2,8,5],
@@ -248,6 +249,5 @@ var NAVTREEINDEX76 =
 "d8/de2/menudefs_8qc.html#aa8c03f058fec0c574e1bba13327f5a5b":[2,0,2,0,3,177],
 "d8/de2/menudefs_8qc.html#aa90038262dd0464a4c251487bc5efc9f":[2,0,2,0,3,13],
 "d8/de2/menudefs_8qc.html#aa97859f65cf8759c19a944a8c7ec4464":[2,0,2,0,3,87],
-"d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88":[2,0,2,0,3,131],
-"d8/de2/menudefs_8qc.html#aabfa4a5dcbd2c36ccaa19e3580bd15d6":[2,0,2,0,3,95]
+"d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88":[2,0,2,0,3,131]
 };
