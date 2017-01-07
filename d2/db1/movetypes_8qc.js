@@ -18,7 +18,6 @@ var movetypes_8qc =
     [ "_Movetype_TestEntityPosition", "d2/db1/movetypes_8qc.html#a3863efa2a85eff29702da92d456dcacb", null ],
     [ "_Movetype_UnstickEntity", "d2/db1/movetypes_8qc.html#ab024873d80d2f0654e96629b7b47fd6a", null ],
     [ "_Movetype_WallFriction", "d2/db1/movetypes_8qc.html#ad797154b1325fa6f3b8aa5d2224d77b5", null ],
-    [ "makevectors_matrix", "d2/db1/movetypes_8qc.html#a74536ef04cdbfb276b0f4e5acb617e96", null ],
     [ "Movetype_Physics_MatchServer", "d2/db1/movetypes_8qc.html#a0c3c32b8e67737d63dbf704612d6b22c", null ],
     [ "Movetype_Physics_MatchTicrate", "d2/db1/movetypes_8qc.html#a3a364c3e846cd4c30141d749061c8086", null ],
     [ "Movetype_Physics_NoMatchServer", "d2/db1/movetypes_8qc.html#abc94399163b20fbffafbcdaeda0f8db5", null ],

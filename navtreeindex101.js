@@ -1,7 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"db/dbd/classXonoticHUDPressedKeysDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,186,20],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,186,10],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,186,35],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#ab9a0ee0a1b8e30791aa64a0bc788b033":[1,0,186,36],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#aba99b1ee929f1f634224a056ac4d8d40":[1,0,186,5],
@@ -249,5 +247,7 @@ var NAVTREEINDEX101 =
 "db/dd3/dialog__settings__misc__reset_8qh.html":[2,0,5,4,149],
 "db/dd3/dialog__settings__misc__reset_8qh_source.html":[2,0,5,4,149],
 "db/dd3/doublejump_8qc.html":[2,0,1,9,0,8,2],
-"db/dd3/doublejump_8qc_source.html":[2,0,1,9,0,8,2]
+"db/dd3/doublejump_8qc_source.html":[2,0,1,9,0,8,2],
+"db/dd7/dialog__multiplayer__media__musicplayer_8qh.html":[2,0,5,4,107],
+"db/dd7/dialog__multiplayer__media__musicplayer_8qh.html#ae82044ad6b56c5d7803a8922b42ac371":[2,0,5,4,107,1]
 };

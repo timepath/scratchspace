@@ -17,7 +17,6 @@ var movetypes_8qh =
     [ "_Movetype_PushEntityTrace", "d4/dd7/movetypes_8qh.html#a2ad725bc81de4f1ffff07adfb63a64c1", null ],
     [ "_Movetype_UnstickEntity", "d4/dd7/movetypes_8qh.html#a251727549d9304470e0bc547573eabcf", null ],
     [ "_Movetype_WallFriction", "d4/dd7/movetypes_8qh.html#ad797154b1325fa6f3b8aa5d2224d77b5", null ],
-    [ "makevectors_matrix", "d4/dd7/movetypes_8qh.html#a74536ef04cdbfb276b0f4e5acb617e96", null ],
     [ "Movetype_Physics_MatchServer", "d4/dd7/movetypes_8qh.html#a0c3c32b8e67737d63dbf704612d6b22c", null ],
     [ "Movetype_Physics_MatchTicrate", "d4/dd7/movetypes_8qh.html#a3a364c3e846cd4c30141d749061c8086", null ],
     [ "Movetype_Physics_NoMatchServer", "d4/dd7/movetypes_8qh.html#abc94399163b20fbffafbcdaeda0f8db5", null ],
