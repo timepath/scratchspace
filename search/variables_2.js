@@ -225,6 +225,7 @@ var searchData=
   ['buff_5fdisability_5feffect_5ftime',['buff_disability_effect_time',['../d8/dd8/sv__buffs_8qh.html#ab9a322cecb553e53835315a23354ad27',1,'sv_buffs.qh']]],
   ['buff_5fdisability_5ftime',['buff_disability_time',['../d8/dd8/sv__buffs_8qh.html#a4ebbb8c31b3e8787c4ebf7b51e722f76',1,'sv_buffs.qh']]],
   ['buff_5feffect_5fdelay',['buff_effect_delay',['../d8/dd8/sv__buffs_8qh.html#aa46fd8af184f1f03943dbd39cd42c026',1,'sv_buffs.qh']]],
+  ['buff_5fflight_5fcrouchheld',['buff_flight_crouchheld',['../d2/dac/sv__buffs_8qc.html#a88a6a9d42ed6ff5a7094ef51e75bd806',1,'sv_buffs.qc']]],
   ['buff_5fflight_5foldgravity',['buff_flight_oldgravity',['../d8/dd8/sv__buffs_8qh.html#a01fa3fa61fba7504c73a675412ed7e07',1,'sv_buffs.qh']]],
   ['buff_5finvisible_5fprev_5falpha',['buff_invisible_prev_alpha',['../d8/dd8/sv__buffs_8qh.html#a5bbf97ae7f512d171a5d738d82f793f4',1,'sv_buffs.qh']]],
   ['buff_5fmax',['BUFF_MAX',['../d8/dd8/sv__buffs_8qh.html#a03957de995522dc44980d0586c7743d1',1,'sv_buffs.qh']]],

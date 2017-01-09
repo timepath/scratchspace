@@ -1,5 +1,6 @@
 var NAVTREEINDEX34 =
 {
+"d4/d0c/csprogsdefs_8qc.html#aa69133a86297ec0599dca004ab62b450":[2,0,2,0,0,69],
 "d4/d0c/csprogsdefs_8qc.html#aa7249574d146ce44d5d625cd3f2c9d0e":[2,0,2,0,0,491],
 "d4/d0c/csprogsdefs_8qc.html#aa7538aeb0281b940f8ecec667499ae13":[2,0,2,0,0,48],
 "d4/d0c/csprogsdefs_8qc.html#aa783cf1b92adaf6bbf6853bbf8aebaa6":[2,0,2,0,0,347],
@@ -248,6 +249,5 @@ var NAVTREEINDEX34 =
 "d4/d12/racetimer_8qc_source.html":[2,0,0,1,0,28],
 "d4/d13/onslaught_8qc.html":[2,0,1,3,0,1,10],
 "d4/d13/onslaught_8qc_source.html":[2,0,1,3,0,1,10],
-"d4/d14/heal_8qc.html":[2,0,1,13,3,14],
-"d4/d14/heal_8qc_source.html":[2,0,1,13,3,14]
+"d4/d14/heal_8qc.html":[2,0,1,13,3,14]
 };
