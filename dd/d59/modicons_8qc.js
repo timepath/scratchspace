@@ -28,8 +28,6 @@ var modicons_8qc =
     [ "KH_SLOTS", "dd/d59/modicons_8qc.html#a2cb605ceee6ca6a073f52c3b7e63f23d", null ],
     [ "mod_active", "dd/d59/modicons_8qc.html#a90b00643b4f9e53be543cdb107e4d527", null ],
     [ "mod_alpha", "dd/d59/modicons_8qc.html#ae13a726d762420888cb0b5d600192aa7", null ],
-    [ "mod_change", "dd/d59/modicons_8qc.html#a10a39f7a7759a28a58420aedd806823e", null ],
-    [ "mod_prev", "dd/d59/modicons_8qc.html#aa2761d2fc316710b016af9c352e83ee5", null ],
     [ "neutralflag_prevframe", "dd/d59/modicons_8qc.html#a512502e64291f7365a8e33b557465eab", null ],
     [ "neutralflag_prevstatus", "dd/d59/modicons_8qc.html#ae5fe73e0d266cd8941ebdc7252019849", null ],
     [ "neutralflag_statuschange_time", "dd/d59/modicons_8qc.html#abbc271ee072031f5b5ca808991e63505", null ],
