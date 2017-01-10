@@ -120,7 +120,6 @@ var searchData=
   ['wcross_5fscale_5fprev',['wcross_scale_prev',['../d6/dd3/view_8qc.html#ad2bd4504a9ea1745f9182d7eb9f36795',1,'view.qc']]],
   ['weapon',['weapon',['../d6/d11/progsdefs_8qc.html#a39acec17768157c2081d9544b5bd854e',1,'progsdefs.qc']]],
   ['weapon_5faccuracy',['weapon_accuracy',['../d3/d05/hud_8qh.html#aa9be1b3968369f99fd49961627b9cd59',1,'hud.qh']]],
-  ['weapon_5fblocked',['weapon_blocked',['../d5/d26/server_2defs_8qh.html#abde03c92927933bb6bc0d7cc14ba7bdd',1,'defs.qh']]],
   ['weapon_5fdropevent_5fitem',['weapon_dropevent_item',['../da/db7/weaponsystem_8qh.html#a359b963d3e3912a3abe4dcac224cf5f9',1,'weaponsystem.qh']]],
   ['weapon_5feta_5flast',['weapon_eta_last',['../d6/dd3/view_8qc.html#a47febe7bbb36f06245b155ecafb11111',1,'view.qc']]],
   ['weapon_5fframetime',['weapon_frametime',['../d5/de0/weaponsystem_8qc.html#a7d720b0940dda54dfd6fb8e6217c9d53',1,'weaponsystem.qc']]],

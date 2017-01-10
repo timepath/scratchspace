@@ -291,7 +291,6 @@ var server_2defs_8qh =
     [ "warmup_stage", "d5/d26/server_2defs_8qh.html#af6088979e4328d96a754cc483d1672d9", null ],
     [ "wasplayer", "d5/d26/server_2defs_8qh.html#ab4e063f23a289dbd487ac3a04d5be465", null ],
     [ "watersound_finished", "d5/d26/server_2defs_8qh.html#a4559bb7f78065ba068480a3b6063db69", null ],
-    [ "weapon_blocked", "d5/d26/server_2defs_8qh.html#abde03c92927933bb6bc0d7cc14ba7bdd", null ],
     [ "weapon_load", "d5/d26/server_2defs_8qh.html#ac3abcfcfe52fe9dd6076f88d4930d6da", null ],
     [ "weapon_nextthink", "d5/d26/server_2defs_8qh.html#a114651a635db56741dc92c082059ffc7", null ],
     [ "weaponorder_byimpulse", "d5/d26/server_2defs_8qh.html#a29848d3b0f49c16a8f68744672ba7cdb", null ],

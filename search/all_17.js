@@ -349,7 +349,6 @@ var searchData=
   ['weapon2mode',['weapon2mode',['../d5/dd4/cl__vehicles_8qh.html#aa60049ea2d01943dd53fe6a3b3d53cd0',1,'cl_vehicles.qh']]],
   ['weapon_5f9mmar',['weapon_9mmAR',['../dd/d36/halflife_8qc.html#aafd1e4dccc6069bff907394ef3967d6f',1,'halflife.qc']]],
   ['weapon_5faccuracy',['weapon_accuracy',['../d3/d05/hud_8qh.html#aa9be1b3968369f99fd49961627b9cd59',1,'hud.qh']]],
-  ['weapon_5fblocked',['weapon_blocked',['../d5/d26/server_2defs_8qh.html#abde03c92927933bb6bc0d7cc14ba7bdd',1,'defs.qh']]],
   ['weapon_5fdefaultspawnfunc',['weapon_defaultspawnfunc',['../d5/d26/server_2defs_8qh.html#a60096e5c98b3b608470b6130fce0b405',1,'weapon_defaultspawnfunc(entity this, Weapon e):&#160;spawning.qc'],['../dc/dab/spawning_8qc.html#a60096e5c98b3b608470b6130fce0b405',1,'weapon_defaultspawnfunc(entity this, Weapon e):&#160;spawning.qc'],['../d3/d93/spawning_8qh.html#a60096e5c98b3b608470b6130fce0b405',1,'weapon_defaultspawnfunc(entity this, Weapon e):&#160;spawning.qc']]],
   ['weapon_5fdropevent_5fitem',['weapon_dropevent_item',['../da/db7/weaponsystem_8qh.html#a359b963d3e3912a3abe4dcac224cf5f9',1,'weaponsystem.qh']]],
   ['weapon_5feta_5flast',['weapon_eta_last',['../d6/dd3/view_8qc.html#a47febe7bbb36f06245b155ecafb11111',1,'view.qc']]],
