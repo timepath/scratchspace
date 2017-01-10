@@ -1,5 +1,11 @@
 var NAVTREEINDEX112 =
 {
+"dd/d36/classXonoticGameViewSettingsTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,171,23],
+"dd/d36/classXonoticGameViewSettingsTab.html#a331c55a30b4bc22951a251062508326b":[1,0,171,26],
+"dd/d36/classXonoticGameViewSettingsTab.html#a341abe470ef9e332df40dc7223deff5a":[1,0,171,17],
+"dd/d36/classXonoticGameViewSettingsTab.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,171,34],
+"dd/d36/classXonoticGameViewSettingsTab.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,171,8],
+"dd/d36/classXonoticGameViewSettingsTab.html#a362e89e4a7d913cf830c56fc477456be":[1,0,171,50],
 "dd/d36/classXonoticGameViewSettingsTab.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,171,1],
 "dd/d36/classXonoticGameViewSettingsTab.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,171,16],
 "dd/d36/classXonoticGameViewSettingsTab.html#a478d3a4bdad183448ce6f28eee937e24":[1,0,171,84],
@@ -243,11 +249,5 @@ var NAVTREEINDEX112 =
 "dd/d65/models_2all_8qh_source.html":[2,0,1,7,3],
 "dd/d66/server_2campaign_8qh.html":[2,0,6,16],
 "dd/d66/server_2campaign_8qh.html#a2b9cdced57d7a6f892650ad7eef8c702":[2,0,6,16,3],
-"dd/d66/server_2campaign_8qh.html#a741735ba63f01d1145221581ba8e4803":[2,0,6,16,0],
-"dd/d66/server_2campaign_8qh.html#a9005d473f777a8dcfd8b150459f5a295":[2,0,6,16,6],
-"dd/d66/server_2campaign_8qh.html#acddf5499bd25897be81172ad79345317":[2,0,6,16,2],
-"dd/d66/server_2campaign_8qh.html#aced14c1c4530221ef1ad4313dc1fde79":[2,0,6,16,1],
-"dd/d66/server_2campaign_8qh.html#ad13bdb6078e9ab062dd228765608aa7e":[2,0,6,16,4],
-"dd/d66/server_2campaign_8qh.html#ad8ea3590f20a926e4e5aa63baea184f8":[2,0,6,16,5],
-"dd/d66/server_2campaign_8qh.html#ae8fb1974e50628feeea5c9d5283cf18a":[2,0,6,16,7]
+"dd/d66/server_2campaign_8qh.html#a741735ba63f01d1145221581ba8e4803":[2,0,6,16,0]
 };

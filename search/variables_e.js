@@ -52,6 +52,7 @@ var searchData=
   ['nent_5fstring',['nent_string',['../dc/d8f/notifications_2all_8qh.html#a098f33782c1ffbb34976fed09dd0ecc4',1,'all.qh']]],
   ['nent_5fstringcount',['nent_stringcount',['../dc/d8f/notifications_2all_8qh.html#a2e9c3821a54540fceb7289bc8423a06d',1,'all.qh']]],
   ['nent_5fstrings',['nent_strings',['../dc/d8f/notifications_2all_8qh.html#a87810e4b368131287592ae2bae89bcea',1,'all.qh']]],
+  ['nent_5fteamnum',['nent_teamnum',['../dc/d8f/notifications_2all_8qh.html#a35a2c59a4e9c53bb6fb36392165a9f43',1,'all.qh']]],
   ['nent_5ftype',['nent_type',['../dc/d8f/notifications_2all_8qh.html#acfa74bcdf0f812eee11eb23f1cc28a0b',1,'all.qh']]],
   ['nent_5fvol',['nent_vol',['../dc/d8f/notifications_2all_8qh.html#aa6b3dacc97ec2b9e6385f68724f1d2a9',1,'all.qh']]],
   ['netaddress',['netaddress',['../d1/d37/classClient.html#ac7d2f552e4ce0768198744f31d7deb25',1,'Client::netaddress()'],['../de/d5e/dpextensions_8qc.html#a641e386b435fdca0da26a9bddcdd4e93',1,'netaddress():&#160;dpextensions.qc']]],

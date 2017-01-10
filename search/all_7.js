@@ -330,6 +330,7 @@ var searchData=
   ['get_5fmodel_5fparameters_5fweight',['get_model_parameters_weight',['../d5/df2/common_2util_8qh.html#a249698b97e7e0846920b8c4de52e6e71',1,'util.qh']]],
   ['get_5fmonster_5fmodel_5fdatafilename',['get_monster_model_datafilename',['../da/d4e/sv__monsters_8qc.html#a643606cd8a31b3d71a7bbd9f6911982c',1,'sv_monsters.qc']]],
   ['get_5fmonsterinfo',['get_monsterinfo',['../df/d52/monsters_2all_8qh.html#a7d311198c146ff1e3743667c4a347303',1,'all.qh']]],
+  ['get_5fnotif_5fcvarname',['Get_Notif_CvarName',['../dc/d8f/notifications_2all_8qh.html#af93df0f16e11ae81e1b913abfa5b24a7',1,'all.qh']]],
   ['get_5fnotif_5fent',['Get_Notif_Ent',['../dc/d8f/notifications_2all_8qh.html#a5880c6fc61675845e6b4159eec215879',1,'all.qh']]],
   ['get_5fnotif_5ftypename',['Get_Notif_TypeName',['../dc/d8f/notifications_2all_8qh.html#aac2b36f59983f5ae089d0e9c1f8831fb',1,'all.qh']]],
   ['get_5fshotvelocity',['get_shotvelocity',['../da/d44/common_2util_8qc.html#abc3e5951852a453cfd754b340b898427',1,'get_shotvelocity(vector myvel, vector mydir, float spd, float newton_style, float mi, float ma):&#160;util.qc'],['../d5/df2/common_2util_8qh.html#abc3e5951852a453cfd754b340b898427',1,'get_shotvelocity(vector myvel, vector mydir, float spd, float newton_style, float mi, float ma):&#160;util.qc']]],

@@ -34,7 +34,7 @@ var notifications_2all_8qc =
     [ "NOTIF_WRITE_HARDCODED", "d8/d79/notifications_2all_8qc.html#ad02f8d427504ef14b91645e337035578", null ],
     [ "SET_NOTIF_STRING", "d8/d79/notifications_2all_8qc.html#a97e96901a663794a2eee1391bcad5dae", null ],
     [ "VARITEM", "d8/d79/notifications_2all_8qc.html#a133e943a6fbd569e8fe1c2e579c43e47", null ],
-    [ "Create_Notification_Entity", "d8/d79/notifications_2all_8qc.html#a48d522da6e6f6f53c7b2a9c658d81506", null ],
+    [ "Create_Notification_Entity", "d8/d79/notifications_2all_8qc.html#aa886bea32ed1621e2429a04a1411b5ea", null ],
     [ "Create_Notification_Entity_Annce", "d8/d79/notifications_2all_8qc.html#aebba04739a8cedbc68c1561271936be9", null ],
     [ "Create_Notification_Entity_Choice", "d8/d79/notifications_2all_8qc.html#a682b66e5aae4a02b19ba825760896610", null ],
     [ "Create_Notification_Entity_InfoCenter", "d8/d79/notifications_2all_8qc.html#a0271f2897012f4c89692ef7cea9745da", null ],
