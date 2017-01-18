@@ -217,6 +217,7 @@ var searchData=
   ['invasion_5fcheckplayers',['Invasion_CheckPlayers',['../d5/d1f/gamemode__invasion_8qc.html#a35de3f2be39ff6f7899b385b0a766984',1,'gamemode_invasion.qc']]],
   ['invasion_5fcheckwinner',['Invasion_CheckWinner',['../d5/d1f/gamemode__invasion_8qc.html#aca840f4cbd32c801017e724fa0399374',1,'gamemode_invasion.qc']]],
   ['invasion_5fdelayedinit',['invasion_DelayedInit',['../d5/d1f/gamemode__invasion_8qc.html#a236fd86093117aeb98743e15f440f9d3',1,'gamemode_invasion.qc']]],
+  ['invasion_5fgetwaveentity',['invasion_GetWaveEntity',['../d5/d1f/gamemode__invasion_8qc.html#ac79cbfaf028dd4d0b78ab57047a6659a',1,'gamemode_invasion.qc']]],
   ['invasion_5finitialize',['invasion_Initialize',['../d5/d1f/gamemode__invasion_8qc.html#a25529cc1c6aba9e850432cf8d26a5e93',1,'invasion_Initialize():&#160;gamemode_invasion.qc'],['../da/dd2/gamemode__invasion_8qh.html#a25529cc1c6aba9e850432cf8d26a5e93',1,'invasion_Initialize():&#160;gamemode_invasion.qc']]],
   ['invasion_5fpickmonster',['invasion_PickMonster',['../d5/d1f/gamemode__invasion_8qc.html#a46f3f7674739c08409b0a00f4b10a1e5',1,'gamemode_invasion.qc']]],
   ['invasion_5fpickspawn',['invasion_PickSpawn',['../d5/d1f/gamemode__invasion_8qc.html#af1c26a21c8bbaace311d588711b4b53c',1,'gamemode_invasion.qc']]],

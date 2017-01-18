@@ -18,6 +18,7 @@ var searchData=
   ['g_5finstagib',['g_instagib',['../d5/d26/server_2defs_8qh.html#a2bd71e8090c09dc399620eacd69b6e73',1,'defs.qh']]],
   ['g_5finvasion',['g_invasion',['../da/dd2/gamemode__invasion_8qh.html#a1da95251eb07c840640be54b71e94ecb',1,'gamemode_invasion.qh']]],
   ['g_5finvasion_5fspawns',['g_invasion_spawns',['../d5/d1f/gamemode__invasion_8qc.html#ad0172f050477dc1d65d9e21b5ae0bd3b',1,'gamemode_invasion.qc']]],
+  ['g_5finvasion_5fwaves',['g_invasion_waves',['../d5/d1f/gamemode__invasion_8qc.html#a6313fca048197dd32dbfc016c61f27c7',1,'gamemode_invasion.qc']]],
   ['g_5fitems',['g_items',['../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5',1,'defs.qh']]],
   ['g_5fjetpack',['g_jetpack',['../d5/d26/server_2defs_8qh.html#a3bc1238ebb2ffbad59083120a2fafef8',1,'defs.qh']]],
   ['g_5fmagic_5fstats_5fhole',['g_magic_stats_hole',['../d0/ddd/lib_2stats_8qh.html#a617cae1f2bfb4419ae068dc89d7f2b06',1,'stats.qh']]],

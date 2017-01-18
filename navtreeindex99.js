@@ -1,5 +1,10 @@
 var NAVTREEINDEX99 =
 {
+"db/d7f/effectinfo_8inc.html#ac2cb4e8e6ec6f3968fb459d983ebdc1c":[2,0,1,2,7,344],
+"db/d7f/effectinfo_8inc.html#ac2fe3dba345548b4bc9db6a6982c050a":[2,0,1,2,7,195],
+"db/d7f/effectinfo_8inc.html#ac352683aa4e78a8fcc21aded10effb3c":[2,0,1,2,7,124],
+"db/d7f/effectinfo_8inc.html#ac3d3a0b44ea1a2c6391a38b9cfda2b24":[2,0,1,2,7,58],
+"db/d7f/effectinfo_8inc.html#ac4e5464be9b435bed2159e3b2b93ee74":[2,0,1,2,7,129],
 "db/d7f/effectinfo_8inc.html#ac509f6a24d6f0670c7038c7db71fb526":[2,0,1,2,7,301],
 "db/d7f/effectinfo_8inc.html#ac604c7c30a4459db1856128ca650f03f":[2,0,1,2,7,30],
 "db/d7f/effectinfo_8inc.html#ac61635b92198b2ad5055fafc39684d0d":[2,0,1,2,7,272],
@@ -244,10 +249,5 @@ var NAVTREEINDEX99 =
 "db/da8/common_2gamemodes_2gamemode_2onslaught_2__mod_8inc_source.html":[2,0,1,3,0,1,0],
 "db/dab/client_2hud_2__mod_8inc.html":[2,0,0,1,1],
 "db/dab/client_2hud_2__mod_8inc_source.html":[2,0,0,1,1],
-"db/daf/playerstats_8qh.html":[2,0,1,40],
-"db/daf/playerstats_8qh_source.html":[2,0,1,40],
-"db/db1/classXonoticHUDRaceTimerDialog.html":[1,0,188],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,188,32],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,188,11],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,188,40]
+"db/daf/playerstats_8qh.html":[2,0,1,40]
 };

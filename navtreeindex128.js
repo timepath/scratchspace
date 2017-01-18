@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"df/d6e/globalsound_8qh.html#a6d27dd45d58d423f7c352182ea854ef7":[2,0,1,2,0,12,8],
+"df/d6e/globalsound_8qh.html#a7022de3163c4d07ba4bc0547443ae346":[2,0,1,2,0,12,6],
 "df/d6e/globalsound_8qh.html#a78dd9b943c971af104535f3209dd8cfa":[2,0,1,2,0,12,22],
 "df/d6e/globalsound_8qh.html#a872c54b6fa8621ffcf201dfba700196a":[2,0,1,2,0,12,17],
 "df/d6e/globalsound_8qh.html#a8e39938ef99c4d1672b2aa03d96f023f":[2,0,1,2,0,12,10],
@@ -139,10 +141,10 @@ var NAVTREEINDEX128 =
 "df/d8c/cl__cmd_8qc.html#ac1a03af5c66e122f2e7ab5298a3df6f0":[2,0,0,0,2,33],
 "df/d8c/cl__cmd_8qc.html#ac6ad4f76e1fab870cd7b34e038a0a6c0":[2,0,0,0,2,14],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,2,20],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,2,30],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,2,27],
 "df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7":[2,0,0,0,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "df/d92/classXonoticWinnerDialog.html#af1aab403dc54575707fd57991312b201":[1,0,252,47],
 "df/d92/classXonoticWinnerDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,252,27],
 "df/d92/classXonoticWinnerDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,252,15],
-"df/d92/classXonoticWinnerDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,252,39],
-"df/d92/classXonoticWinnerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,252,2],
-"df/d92/classXonoticWinnerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,252,37]
+"df/d92/classXonoticWinnerDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,252,39]
 };

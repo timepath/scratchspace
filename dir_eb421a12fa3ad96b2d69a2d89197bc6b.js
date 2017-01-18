@@ -11,7 +11,9 @@ var dir_eb421a12fa3ad96b2d69a2d89197bc6b =
     [ "jetpack.qc", "da/dcf/jetpack_8qc.html", null ],
     [ "jetpack.qh", "d2/d37/jetpack_8qh.html", "d2/d37/jetpack_8qh" ],
     [ "pickup.qc", "d5/de0/pickup_8qc.html", null ],
-    [ "pickup.qh", "de/dda/pickup_8qh.html", "de/dda/pickup_8qh" ],
+    [ "pickup.qh", "de/dda/pickup_8qh.html", [
+      [ "Pickup", "d4/d93/classPickup.html", "d4/d93/classPickup" ]
+    ] ],
     [ "powerup.qc", "d8/d93/powerup_8qc.html", null ],
     [ "powerup.qh", "d6/d88/powerup_8qh.html", "d6/d88/powerup_8qh" ]
 ];

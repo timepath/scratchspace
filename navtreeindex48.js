@@ -1,5 +1,9 @@
 var NAVTREEINDEX48 =
 {
+"d5/d95/classXonoticDialog.html#a349613d24a99234384b0b7e3749bfc5c":[1,0,162,30],
+"d5/d95/classXonoticDialog.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,162,6],
+"d5/d95/classXonoticDialog.html#a362e89e4a7d913cf830c56fc477456be":[1,0,162,46],
+"d5/d95/classXonoticDialog.html#a39891566153cd1bb1f9e8cee0f9becdc":[1,0,162,56],
 "d5/d95/classXonoticDialog.html#a3ae677ab4e4b63f5422c15aec371e29f":[1,0,162,1],
 "d5/d95/classXonoticDialog.html#a43b9d7745d10b4011cd0da6047c07bf4":[1,0,162,12],
 "d5/d95/classXonoticDialog.html#a43fb32477dda33aabffb54ad7ae67ad4":[1,0,162,75],
@@ -245,9 +249,5 @@ var NAVTREEINDEX48 =
 "d5/dc0/common_2minigames_2__mod_8qh_source.html":[2,0,1,6,2],
 "d5/dc1/sv__touchexplode_8qh.html":[2,0,1,9,0,30,3],
 "d5/dc1/sv__touchexplode_8qh_source.html":[2,0,1,9,0,30,3],
-"d5/dc4/hook_8qh.html":[2,0,1,16,0,19],
-"d5/dc4/hook_8qh_source.html":[2,0,1,16,0,19],
-"d5/dc5/sv__cloaked_8qc.html":[2,0,1,9,0,5,2],
-"d5/dc5/sv__cloaked_8qc.html#a36b438ea8fc2069f3a3827446713175a":[2,0,1,9,0,5,2,1],
-"d5/dc5/sv__cloaked_8qc.html#a688ab8fe41cc545e36a3704df97d0878":[2,0,1,9,0,5,2,2]
+"d5/dc4/hook_8qh.html":[2,0,1,16,0,19]
 };

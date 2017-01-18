@@ -371,7 +371,7 @@ $(document).ready(function(){initNavTree('d7/d33/sv__minigames_8qc_source.html',
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;{</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <span class="keywordflow">if</span> ( !inviter || !inviter.active_minigame )</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Invalid minigame&quot;</span>;</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <span class="keywordflow">if</span> ( !<a class="code" href="../../de/d55/server_2command_2common_8qc.html#af89e91d25e1930737140b82c808de86f">VerifyClientEntity</a>(player, <span class="keyword">true</span>, <span class="keyword">false</span>) )</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    <span class="keywordflow">if</span> ( <a class="code" href="../../de/d55/server_2command_2common_8qc.html#af89e91d25e1930737140b82c808de86f">VerifyClientEntity</a>(player, <span class="keyword">true</span>, <span class="keyword">false</span>) &lt;= 0 )</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;Invalid player&quot;</span>;</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;    <span class="keywordflow">if</span> ( inviter == player )</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&quot;You can&#39;t invite yourself&quot;</span>;</div>
@@ -582,7 +582,7 @@ $(document).ready(function(){initNavTree('d7/d33/sv__minigames_8qc_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../d7/d33/sv__minigames_8qc.html">sv_minigames.qc</a></li>
-    <li class="footer">Generated on Thu Jan 12 2017 17:42:43 for Xonotic by
+    <li class="footer">Generated on Wed Jan 18 2017 07:07:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

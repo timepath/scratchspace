@@ -1,5 +1,10 @@
 var NAVTREEINDEX117 =
 {
+"dd/dd7/classRacer.html#a91f922352c8e6ca7b9b56617c530b8b4":[1,0,101,13],
+"dd/dd7/classRacer.html#a962d81e9c45a8f2ad1349065e65d098f":[1,0,101,12],
+"dd/dd7/classRacer.html#a96f9f5c3ac6195be77b33b68a49bed46":[1,0,101,16],
+"dd/dd7/classRacer.html#aa845af495e22a67910a5d1bc31f3b024":[1,0,101,28],
+"dd/dd7/classRacer.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,101,6],
 "dd/dd7/classRacer.html#aab19ad6372932909fc68ca4be7c84852":[1,0,101,25],
 "dd/dd7/classRacer.html#ab0033bb43b823ae364fcaa9f6d73c520":[1,0,101,9],
 "dd/dd7/classRacer.html#ab037b465a660d33ad5da033a210c2de0":[1,0,101,21],
@@ -244,10 +249,5 @@ var NAVTREEINDEX117 =
 "dd/dfa/gamemode__ctf_8qh_source.html":[2,0,6,3,0,7],
 "dd/dfd/markdown_8qh.html":[2,0,4,33],
 "dd/dfd/markdown_8qh.html#a009867d3feeddcbdadb413c7fb23bca8":[2,0,4,33,2],
-"dd/dfd/markdown_8qh.html#a1b6611f21ed581b0671b233878aebbbb":[2,0,4,33,0],
-"dd/dfd/markdown_8qh.html#a77f267f37e2a269275b232a573a1ca50":[2,0,4,33,1],
-"dd/dfd/markdown_8qh_source.html":[2,0,4,33],
-"de/d03/effectinfo__vehicles_8inc.html":[2,0,1,2,19],
-"de/d03/effectinfo__vehicles_8inc.html#a0dcc260899337c6ad319554dad716f68":[2,0,1,2,19,16],
-"de/d03/effectinfo__vehicles_8inc.html#a0e2648e059e3fccd639a6cb2d3081168":[2,0,1,2,19,26]
+"dd/dfd/markdown_8qh.html#a1b6611f21ed581b0671b233878aebbbb":[2,0,4,33,0]
 };

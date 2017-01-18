@@ -3,6 +3,7 @@ var gamemode__invasion_8qc =
     [ "Invasion_CheckPlayers", "d5/d1f/gamemode__invasion_8qc.html#a35de3f2be39ff6f7899b385b0a766984", null ],
     [ "Invasion_CheckWinner", "d5/d1f/gamemode__invasion_8qc.html#aca840f4cbd32c801017e724fa0399374", null ],
     [ "invasion_DelayedInit", "d5/d1f/gamemode__invasion_8qc.html#a236fd86093117aeb98743e15f440f9d3", null ],
+    [ "invasion_GetWaveEntity", "d5/d1f/gamemode__invasion_8qc.html#ac79cbfaf028dd4d0b78ab57047a6659a", null ],
     [ "invasion_Initialize", "d5/d1f/gamemode__invasion_8qc.html#a25529cc1c6aba9e850432cf8d26a5e93", null ],
     [ "invasion_PickMonster", "d5/d1f/gamemode__invasion_8qc.html#a46f3f7674739c08409b0a00f4b10a1e5", null ],
     [ "invasion_PickSpawn", "d5/d1f/gamemode__invasion_8qc.html#af1c26a21c8bbaace311d588711b4b53c", null ],
@@ -24,7 +25,9 @@ var gamemode__invasion_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#a55e505d58e17d9e6ffaa3c8dc1504ba3", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#acc7ba8f3d8b5001bc95de55f3503d13b", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d1f/gamemode__invasion_8qc.html#aa7feab4c62a1d17aad373f4874b3ca35", null ],
+    [ "spawnfunc", "d5/d1f/gamemode__invasion_8qc.html#a1f01536be6495b440a9b4ee2b8bd7e36", null ],
     [ "spawnfunc", "d5/d1f/gamemode__invasion_8qc.html#a15b6d7bdf25c342d02f9cd4f94c3a44f", null ],
+    [ "STATIC_INIT", "d5/d1f/gamemode__invasion_8qc.html#a3763755fd0135adfb270e31b47605c45", null ],
     [ "STATIC_INIT", "d5/d1f/gamemode__invasion_8qc.html#a7c054a0d0c4d535eedfb3da39cfedf67", null ],
     [ "autocvar_g_invasion_monster_count", "d5/d1f/gamemode__invasion_8qc.html#a5b35ee5d3ffe25e7f0c7026a502bcf20", null ],
     [ "autocvar_g_invasion_round_timelimit", "d5/d1f/gamemode__invasion_8qc.html#a4467a165bf84bd576e2b32724d02f080", null ],
@@ -33,5 +36,6 @@ var gamemode__invasion_8qc =
     [ "autocvar_g_invasion_warmup", "d5/d1f/gamemode__invasion_8qc.html#a43e52b9ec872b58162ad1b7f5d91fb26", null ],
     [ "autocvar_g_invasion_zombies_only", "d5/d1f/gamemode__invasion_8qc.html#adb135781f311cfeda2846cb4a8f3cc53", null ],
     [ "g_invasion_spawns", "d5/d1f/gamemode__invasion_8qc.html#ad0172f050477dc1d65d9e21b5ae0bd3b", null ],
+    [ "g_invasion_waves", "d5/d1f/gamemode__invasion_8qc.html#a6313fca048197dd32dbfc016c61f27c7", null ],
     [ "spawnmob", "d5/d1f/gamemode__invasion_8qc.html#a6dc66623f06daa36544b6934c48d9291", null ]
 ];

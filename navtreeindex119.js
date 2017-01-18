@@ -1,5 +1,10 @@
 var NAVTREEINDEX119 =
 {
+"de/d3d/cl__minigames_8qh.html#a7106641b219836128248d423976191df":[2,0,1,6,4,17],
+"de/d3d/cl__minigames_8qh.html#a7276ca5834cd946d0c493571cdb279e4":[2,0,1,6,4,2],
+"de/d3d/cl__minigames_8qh.html#a74fcaa9da40aa62de287463ceb0a2908":[2,0,1,6,4,12],
+"de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0":[2,0,1,6,4,1],
+"de/d3d/cl__minigames_8qh.html#a884351dcbf24abbf82f01d394ed6cbf4":[2,0,1,6,4,23],
 "de/d3d/cl__minigames_8qh.html#a99e723ab8b6ed89a42df35b13fc1681a":[2,0,1,6,4,7],
 "de/d3d/cl__minigames_8qh.html#a9ba4163f64eccb4bc6a3c4d86679558e":[2,0,1,6,4,14],
 "de/d3d/cl__minigames_8qh.html#aa5e0439843364cfdf2701a9992dac50e":[2,0,1,6,4,16],
@@ -244,10 +249,5 @@ var NAVTREEINDEX119 =
 "de/d4d/sv__controlpoint_8qc_source.html":[2,0,1,3,0,1,12],
 "de/d4e/bugrigs_8qh.html":[2,0,1,9,0,3,3],
 "de/d4e/bugrigs_8qh_source.html":[2,0,1,9,0,3,3],
-"de/d4f/teamplay_8qc.html":[2,0,6,70],
-"de/d4f/teamplay_8qc.html#a03beeb550118f87341e3c16c53300a6d":[2,0,6,70,10],
-"de/d4f/teamplay_8qc.html#a113b95feba1c451c0a411ec54eb29eab":[2,0,6,70,12],
-"de/d4f/teamplay_8qc.html#a1c2f7834133551081d9200888112ba6e":[2,0,6,70,8],
-"de/d4f/teamplay_8qc.html#a25599ad73603f2e4e2b78726400732c8":[2,0,6,70,7],
-"de/d4f/teamplay_8qc.html#a2942f2ae0d82c47009843cae3069508a":[2,0,6,70,5]
+"de/d4f/teamplay_8qc.html":[2,0,6,70]
 };

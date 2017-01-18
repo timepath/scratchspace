@@ -1,5 +1,10 @@
 var NAVTREEINDEX116 =
 {
+"dd/daa/g__lights_8qc.html#a93022eb264e220dee4abefd35bce904a":[2,0,6,27,10],
+"dd/daa/g__lights_8qc.html#aad8fca7eca998e2d0d22a0aef8d4d8ba":[2,0,6,27,13],
+"dd/daa/g__lights_8qc.html#abcd95c9f614d026130fa87d14cd76a21":[2,0,6,27,0],
+"dd/daa/g__lights_8qc.html#ac8ea0835fed584318b502c839ecbc271":[2,0,6,27,9],
+"dd/daa/g__lights_8qc.html#af2026bf6a55612104f3b9c739d77125f":[2,0,6,27,5],
 "dd/daa/g__lights_8qc.html#af2fa133f7e214360915d1ecac346c6ee":[2,0,6,27,2],
 "dd/daa/g__lights_8qc_source.html":[2,0,6,27],
 "dd/dac/dialog__hudsetup__exit_8qc.html":[2,0,5,4,82],
@@ -214,13 +219,13 @@ var NAVTREEINDEX116 =
 "dd/dd0/classRace.html#aef3a65f4987590d66b653b91180860ca":[1,0,99,9],
 "dd/dd0/classRace.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,99,5],
 "dd/dd5/sv__model_8qc.html":[2,0,4,0,14],
-"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,14,7],
 "dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,14,6],
+"dd/dd5/sv__model_8qc.html#a075440bd5f3803f15b4507c99d0c2bf9":[2,0,4,0,14,7],
 "dd/dd5/sv__model_8qc.html#a23e2c08e9f37dbd197f013e43f8685e6":[2,0,4,0,14,9],
 "dd/dd5/sv__model_8qc.html#a32aa4ddceceddfb68f9fc5fb066d9dd4":[2,0,4,0,14,8],
 "dd/dd5/sv__model_8qc.html#a575925a6844ef492ae305aeee6d670f4":[2,0,4,0,14,11],
-"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,14,0],
 "dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,14,1],
+"dd/dd5/sv__model_8qc.html#a5c003f56d18287ff05be93642b051a43":[2,0,4,0,14,0],
 "dd/dd5/sv__model_8qc.html#a83698e99b9dd18987d38067c56d56780":[2,0,4,0,14,10],
 "dd/dd5/sv__model_8qc.html#a9a237dac2198b9d62f46812fe57d4352":[2,0,4,0,14,12],
 "dd/dd5/sv__model_8qc.html#ad310536612eda29266d5b7fdb8312322":[2,0,4,0,14,2],
@@ -244,10 +249,5 @@ var NAVTREEINDEX116 =
 "dd/dd7/classRacer.html#a70e84502249082a3676988cfb618baf5":[1,0,101,4],
 "dd/dd7/classRacer.html#a7ab4ce7a1aed2746e0eaf5c15d29b279":[1,0,101,20],
 "dd/dd7/classRacer.html#a84feb55c1ef028f0176592c458dc6c0e":[1,0,101,2],
-"dd/dd7/classRacer.html#a8ce2a1db2b82992926802c8ce6d7d22b":[1,0,101,1],
-"dd/dd7/classRacer.html#a91f922352c8e6ca7b9b56617c530b8b4":[1,0,101,13],
-"dd/dd7/classRacer.html#a962d81e9c45a8f2ad1349065e65d098f":[1,0,101,12],
-"dd/dd7/classRacer.html#a96f9f5c3ac6195be77b33b68a49bed46":[1,0,101,16],
-"dd/dd7/classRacer.html#aa845af495e22a67910a5d1bc31f3b024":[1,0,101,28],
-"dd/dd7/classRacer.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,101,6]
+"dd/dd7/classRacer.html#a8ce2a1db2b82992926802c8ce6d7d22b":[1,0,101,1]
 };

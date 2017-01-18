@@ -1,5 +1,6 @@
 var notifications_2all_8qc =
 [
+    [ "AnnouncerFilename", "d8/d79/notifications_2all_8qc.html#a25751bb28251740f2cad87c43dd810dd", null ],
     [ "ARG_CASE", "d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866", null ],
     [ "ARG_CASE", "d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866", null ],
     [ "ARG_CASE", "d8/d79/notifications_2all_8qc.html#a35c7591f27f2223c2757bc69fad6a866", null ],
