@@ -287,54 +287,54 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../db/deb/roles_8qc_source.html#l00121">121</a> of file <a class="el" href="../../db/deb/roles_8qc_source.html">roles.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../db/deb/roles_8qc_source.html#l00109">109</a> of file <a class="el" href="../../db/deb/roles_8qc_source.html">roles.qc</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d9/d8e/gamemode__assault_8qc_source.html#l00477">havocbot_role_ast_defense()</a>, <a class="el" href="../../d9/d8e/gamemode__assault_8qc_source.html#l00443">havocbot_role_ast_offense()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l01913">havocbot_role_ctf_defense()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l01862">havocbot_role_ctf_middle()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00278">havocbot_role_ft_freeing()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00244">havocbot_role_ft_offense()</a>, <a class="el" href="../../d3/d5a/gamemode__keepaway_8qc_source.html#l00222">havocbot_role_ka_carrier()</a>, <a class="el" href="../../d3/d5a/gamemode__keepaway_8qc_source.html#l00245">havocbot_role_ka_collector()</a>, and <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01468">havocbot_role_ons_offense()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;{</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d74/cvars_8qh.html#a923b2fd64c9fb1f576d86737d2fad27d">autocvar_bot_nofire</a>)</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="comment">// don&#39;t chase players if we&#39;re under water</span></div>
-<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a796f7384a7accc4479668f27b307f3f1">waterlevel</a>&gt;<a class="code" href="../../d0/d8b/common_2constants_8qh.html#a23878f171fe94c2b5c31a13077e1c845">WATERLEVEL_WETFEET</a>)</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
-<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    <span class="keywordtype">int</span> t;</div>
+<div class="fragment"><div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;{</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d6/d74/cvars_8qh.html#a923b2fd64c9fb1f576d86737d2fad27d">autocvar_bot_nofire</a>)</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <span class="comment">// don&#39;t chase players if we&#39;re under water</span></div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a796f7384a7accc4479668f27b307f3f1">waterlevel</a>&gt;<a class="code" href="../../d0/d8b/common_2constants_8qh.html#a23878f171fe94c2b5c31a13077e1c845">WATERLEVEL_WETFEET</a>)</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    <span class="keywordtype">int</span> t;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../db/d15/api_8qh.html#afd690dd77bb57679ecc60a80e5f38edd">bot_shouldattack</a>(<span class="keyword">this</span>, it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;        <span class="comment">// TODO: Merge this logic with the bot_shouldattack function</span></div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(it.origin - org, &lt;, 100) || <a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(it.origin - org, &gt;, sradius))</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        <span class="comment">// rate only visible enemies</span></div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;        <span class="comment">/*</span></div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="comment">        traceline(this.origin + this.view_ofs, it.origin, MOVE_NOMONSTERS, this);</span></div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;<span class="comment">        if (trace_fraction &lt; 1 || trace_ent != it)</span></div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;<span class="comment">            continue;</span></div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<span class="comment">        */</span></div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; <a class="code" href="../../db/d15/api_8qh.html#afd690dd77bb57679ecc60a80e5f38edd">bot_shouldattack</a>(<span class="keyword">this</span>, it), <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        <span class="comment">// TODO: Merge this logic with the bot_shouldattack function</span></div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(it.origin - org, &lt;, 100) || <a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(it.origin - org, &gt;, sradius))</div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="comment">// rate only visible enemies</span></div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;        <span class="comment">/*</span></div>
-<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;<span class="comment">        traceline(this.origin + this.view_ofs, it.origin, MOVE_NOMONSTERS, this);</span></div>
-<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;<span class="comment">        if (trace_fraction &lt; 1 || trace_ent != it)</span></div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;<span class="comment">            continue;</span></div>
-<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;<span class="comment">        */</span></div>
-<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;</div>
-<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">if</span>((it.flags &amp; <a class="code" href="../../d6/d11/progsdefs_8qc.html#a793325baa6fde8a68e7111906b18144c">FL_INWATER</a>) || (it.flags &amp; <a class="code" href="../../d6/d11/progsdefs_8qc.html#acaf6c408a1a030bd74eeec93856d23f3">FL_PARTIALGROUND</a>))</div>
-<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keywordflow">if</span>((it.flags &amp; <a class="code" href="../../d6/d11/progsdefs_8qc.html#a793325baa6fde8a68e7111906b18144c">FL_INWATER</a>) || (it.flags &amp; <a class="code" href="../../d6/d11/progsdefs_8qc.html#acaf6c408a1a030bd74eeec93856d23f3">FL_PARTIALGROUND</a>))</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;        <span class="comment">// not falling</span></div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="../../d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27">IS_ONGROUND</a>(it))</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        {</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;            traceline(it.origin, it.origin + <span class="stringliteral">&#39;0 0 -1500&#39;</span>, <span class="keyword">true</span>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;            t = pointcontents(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> + <span class="stringliteral">&#39;0 0 1&#39;</span>);</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;            <span class="keywordflow">if</span>(t != <a class="code" href="../../d4/d92/csqc__constants_8qh.html#aebd6ea12b4eb1cbea6c45c2e7d6691a5">CONTENT_SOLID</a> )</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            <span class="keywordflow">if</span>(t == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a412e0449cfbae9626fca149614b8b574">CONTENT_WATER</a> || t == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a92cfd5b0d710d150ec4bb7e43f3f408b">CONTENT_SLIME</a> || t == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a9f0ff49de895bd9dc96abb8af825974d">CONTENT_LAVA</a>)</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a099ad087f6b1981b1c6333cf4a62334a">tracebox_hits_trigger_hurt</a>(it.origin, it.mins, it.maxs, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>))</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;        }</div>
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
-<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <span class="comment">// not falling</span></div>
-<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keywordflow">if</span>(!<a class="code" href="../../d4/dd7/movetypes_8qh.html#afcd99b2a90a921a7e3e7f52f8ac86a27">IS_ONGROUND</a>(it))</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        {</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;            traceline(it.origin, it.origin + <span class="stringliteral">&#39;0 0 -1500&#39;</span>, <span class="keyword">true</span>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            t = pointcontents(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> + <span class="stringliteral">&#39;0 0 1&#39;</span>);</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            <span class="keywordflow">if</span>(t != <a class="code" href="../../d4/d92/csqc__constants_8qh.html#aebd6ea12b4eb1cbea6c45c2e7d6691a5">CONTENT_SOLID</a> )</div>
-<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;            <span class="keywordflow">if</span>(t == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a412e0449cfbae9626fca149614b8b574">CONTENT_WATER</a> || t == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a92cfd5b0d710d150ec4bb7e43f3f408b">CONTENT_SLIME</a> || t == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a9f0ff49de895bd9dc96abb8af825974d">CONTENT_LAVA</a>)</div>
-<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a099ad087f6b1981b1c6333cf4a62334a">tracebox_hits_trigger_hurt</a>(it.origin, it.mins, it.maxs, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>))</div>
-<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;        }</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;</div>
-<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;        <span class="comment">// TODO: rate waypoints near the targeted player at that moment, instead of the player itself</span></div>
-<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="comment">//       adding a player as a goal seems to be quite dangerous, especially on space maps</span></div>
-<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <span class="comment">//       remove hack in navigation_poptouchedgoals() after performing this change</span></div>
-<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        t = (this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> + this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a8f1fedffff0fe0b96c93d099a3aa02b9">armorvalue</a> ) / (it.health + it.armorvalue );</div>
-<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <a class="code" href="../../db/d15/api_8qh.html#a956bb41e292b7dcbfaa013f178202584">navigation_routerating</a>(<span class="keyword">this</span>, it, t * ratingscale, 2000);</div>
-<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    ));</div>
-<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;}</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;        <span class="comment">// TODO: rate waypoints near the targeted player at that moment, instead of the player itself</span></div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="comment">//       adding a player as a goal seems to be quite dangerous, especially on space maps</span></div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="comment">//       remove hack in navigation_poptouchedgoals() after performing this change</span></div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        t = (this.<a class="code" href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a> + this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a8f1fedffff0fe0b96c93d099a3aa02b9">armorvalue</a> ) / (it.health + it.armorvalue );</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <a class="code" href="../../db/d15/api_8qh.html#a956bb41e292b7dcbfaa013f178202584">navigation_routerating</a>(<span class="keyword">this</span>, it, t * ratingscale, 2000);</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;    ));</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="client_2main_8qh_html_a735461fa6550997a7a0ad0cbc1802bd5"><div class="ttname"><a href="../../d0/d2a/client_2main_8qh.html#a735461fa6550997a7a0ad0cbc1802bd5">health</a></div><div class="ttdeci">float health</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d2a/client_2main_8qh_source.html#l00107">main.qh:107</a></div></div>
 <div class="ttc" id="progsdefs_8qc_html_a796f7384a7accc4479668f27b307f3f1"><div class="ttname"><a href="../../d6/d11/progsdefs_8qc.html#a796f7384a7accc4479668f27b307f3f1">waterlevel</a></div><div class="ttdeci">float waterlevel</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d11/progsdefs_8qc_source.html#l00181">progsdefs.qc:181</a></div></div>
@@ -410,112 +410,99 @@ Variables</h2></td></tr>
 <p>Referenced by <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l01035">havocbot_goalrating_kh()</a>, <a class="el" href="../../d9/d8e/gamemode__assault_8qc_source.html#l00477">havocbot_role_ast_defense()</a>, <a class="el" href="../../d9/d8e/gamemode__assault_8qc_source.html#l00443">havocbot_role_ast_offense()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l01913">havocbot_role_ctf_defense()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l01667">havocbot_role_ctf_escort()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l01862">havocbot_role_ctf_middle()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l01727">havocbot_role_ctf_offense()</a>, <a class="el" href="../../d3/d73/gamemode__ctf_8qc_source.html#l01809">havocbot_role_ctf_retriever()</a>, <a class="el" href="../../dc/d80/gamemode__domination_8qc_source.html#l00400">havocbot_role_dom()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00278">havocbot_role_ft_freeing()</a>, <a class="el" href="../../db/d26/gamemode__freezetag_8qc_source.html#l00244">havocbot_role_ft_offense()</a>, <a class="el" href="../../d3/d5a/gamemode__keepaway_8qc_source.html#l00222">havocbot_role_ka_carrier()</a>, and <a class="el" href="../../d3/d5a/gamemode__keepaway_8qc_source.html#l00245">havocbot_role_ka_collector()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;{</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    <span class="keywordtype">float</span> rating, d, discard, friend_distance, enemy_distance;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> o;</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> o = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    ratingscale = ratingscale * 0.0001; <span class="comment">// items are rated around 10000 already</span></div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a21516c4e202f0fa473d6b010d8b651b5">g_items</a>, it.bot_pickup,</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    {</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        o = (it.absmin + it.absmax) * 0.5;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        friend_distance = 10000; enemy_distance = 10000;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        rating = 0;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="keywordflow">if</span>(!it.solid || <a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(o - org, &gt;, sradius) || (it == this.<a class="code" href="../../d8/d39/havocbot_8qh.html#a2240a7c6b5dca92561126c36734701bf">ignoregoal</a> &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; this.<a class="code" href="../../d8/d39/havocbot_8qh.html#af097bc66957f78a84601ef1a8fa4b8eb">ignoregoaltime</a>) )</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="comment">// Check if the item can be picked up safely</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        <span class="keywordflow">if</span>(it.classname == <span class="stringliteral">&quot;droppedweapon&quot;</span>)</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        {</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            traceline(o, o + <span class="stringliteral">&#39;0 0 -1500&#39;</span>, <span class="keyword">true</span>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            d = pointcontents(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> + <span class="stringliteral">&#39;0 0 1&#39;</span>);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <span class="keywordflow">if</span>(d == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a412e0449cfbae9626fca149614b8b574">CONTENT_WATER</a> || d == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a92cfd5b0d710d150ec4bb7e43f3f408b">CONTENT_SLIME</a> || d == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a9f0ff49de895bd9dc96abb8af825974d">CONTENT_LAVA</a>)</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d5/d26/server_2defs_8qh.html#a099ad087f6b1981b1c6333cf4a62334a">tracebox_hits_trigger_hurt</a>(it.origin, it.mins, it.maxs, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a>))</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        }</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        {</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            <span class="comment">// Ignore items under water</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;            traceline(it.origin + it.maxs, it.origin + it.maxs, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, it);</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a6df2f94c258e986652c71c376fd05b1a">trace_dpstartcontents</a> &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a61ef20c1282edd183f7f83bb9f007dbd">DPCONTENTS_LIQUIDSMASK</a>)</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        }</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        {</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;            discard = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> picker = it;</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != <span class="keyword">this</span> &amp;&amp; !<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(it),</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            {</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;                d = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(it.origin - o); <span class="comment">// distance between player and item</span></div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                <span class="keywordflow">if</span> ( it.team == <span class="keyword">this</span>.team )</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                {</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                    <span class="keywordflow">if</span> ( !<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) || discard )</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                    <span class="keywordflow">if</span>( d &gt; friend_distance)</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                    friend_distance = d;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                    discard = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        rating = 0;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keywordflow">if</span>(!it.solid || <a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(o - org, &gt;, sradius) || (it == this.<a class="code" href="../../d8/d39/havocbot_8qh.html#a2240a7c6b5dca92561126c36734701bf">ignoregoal</a> &amp;&amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> &lt; this.<a class="code" href="../../d8/d39/havocbot_8qh.html#af097bc66957f78a84601ef1a8fa4b8eb">ignoregoaltime</a>) )</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="comment">// Check if the item can be picked up safely</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">if</span>(it.classname == <span class="stringliteral">&quot;droppedweapon&quot;</span>)</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            o = (it.absmin + it.absmax) * 0.5;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            traceline(o, o + <span class="stringliteral">&#39;0 0 -1500&#39;</span>, <span class="keyword">true</span>, <a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>);</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            d = pointcontents(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a93c78c5087546131c4eefb9b2d733adf">trace_endpos</a> + <span class="stringliteral">&#39;0 0 1&#39;</span>);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="keywordflow">if</span>(d == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a412e0449cfbae9626fca149614b8b574">CONTENT_WATER</a> || d == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a92cfd5b0d710d150ec4bb7e43f3f408b">CONTENT_SLIME</a> || d == <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a9f0ff49de895bd9dc96abb8af825974d">CONTENT_LAVA</a>)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;            <span class="comment">// this tracebox_hits_trigger_hurt call isn&#39;t needed:</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;            <span class="comment">// dropped weapons are removed as soon as they fall on a trigger_hurt</span></div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;            <span class="comment">// and can&#39;t be rated while they are in the air</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            <span class="comment">//if(tracebox_hits_trigger_hurt(it.origin, it.mins, it.maxs, trace_endpos))</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;            <span class="comment">//  continue;</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        }</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;            <span class="comment">// Ignore items under water</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;            traceline(it.origin + it.maxs, it.origin + it.maxs, <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a>, it);</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a6df2f94c258e986652c71c376fd05b1a">trace_dpstartcontents</a> &amp; <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a61ef20c1282edd183f7f83bb9f007dbd">DPCONTENTS_LIQUIDSMASK</a>)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        }</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d6/d11/progsdefs_8qc.html#acf8ea712d5467331fb750b33ab165013">teamplay</a>)</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        {</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            o = (it.absmin + it.absmax) * 0.5;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;            friend_distance = 10000; enemy_distance = 10000;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;            discard = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> picker = it;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<a class="code" href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a>(it) &amp;&amp; it != <span class="keyword">this</span> &amp;&amp; !<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(it),</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                d = <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(it.origin - o); <span class="comment">// distance between player and item</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                <span class="keywordflow">if</span> ( it.team == <span class="keyword">this</span>.team )</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                {</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                    <span class="keywordflow">if</span> ( !<a class="code" href="../../d9/ddc/server_2__all_8qh.html#a8069d572672171c56fdffd290ed4979d">IS_REAL_CLIENT</a>(it) || discard )</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                        <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                    <span class="keywordflow">if</span>( d &gt; friend_distance)</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                        <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                    <span class="keywordflow">if</span>( picker.health &amp;&amp; it.health &gt; <span class="keyword">this</span>.health )</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                        <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                    friend_distance = d;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                    discard = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                    <span class="keywordflow">if</span>( picker.armorvalue &amp;&amp; it.armorvalue &gt; <span class="keyword">this</span>.armorvalue)</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                        <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                    <span class="keywordflow">if</span> (picker.health &amp;&amp; it.health &gt; <span class="keyword">this</span>.health) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                    <span class="keywordflow">if</span> (picker.armorvalue &amp;&amp; it.armorvalue &gt; <span class="keyword">this</span>.armorvalue) <span class="keywordflow">continue</span>;</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                    <span class="keywordflow">if</span>( picker.weapons )</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                    <span class="keywordflow">if</span>( picker.weapons &amp; ~it.weapons )</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                    <span class="keywordflow">if</span> (picker.ammo_shells &amp;&amp; it.ammo_shells &gt; <span class="keyword">this</span>.ammo_shells)</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;                    <span class="keywordflow">if</span> (picker.ammo_nails &amp;&amp; it.ammo_nails &gt; <span class="keyword">this</span>.ammo_nails)</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                    <span class="keywordflow">if</span> (picker.ammo_rockets &amp;&amp; it.ammo_rockets &gt; <span class="keyword">this</span>.ammo_rockets)</div>
-<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    <span class="keywordflow">if</span> (picker.ammo_cells &amp;&amp; it.ammo_cells &gt; <span class="keyword">this</span>.ammo_cells)</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                        <span class="keywordflow">continue</span>;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                    <span class="keywordflow">if</span> (picker.ammo_plasma &amp;&amp; it.ammo_plasma &gt; <span class="keyword">this</span>.ammo_plasma)</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;                        <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                    <span class="keywordflow">if</span> (picker.weapons &amp;&amp; (picker.weapons &amp; ~it.weapons)) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                    <span class="keywordflow">if</span> (picker.ammo_shells &amp;&amp; it.ammo_shells &gt; <span class="keyword">this</span>.ammo_shells) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                    <span class="keywordflow">if</span> (picker.ammo_nails &amp;&amp; it.ammo_nails &gt; <span class="keyword">this</span>.ammo_nails) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;                    <span class="keywordflow">if</span> (picker.ammo_rockets &amp;&amp; it.ammo_rockets &gt; <span class="keyword">this</span>.ammo_rockets) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;                    <span class="keywordflow">if</span> (picker.ammo_cells &amp;&amp; it.ammo_cells &gt; <span class="keyword">this</span>.ammo_cells) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;                    <span class="keywordflow">if</span> (picker.ammo_plasma &amp;&amp; it.ammo_plasma &gt; <span class="keyword">this</span>.ammo_plasma) <span class="keywordflow">continue</span>;</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;                    discard = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;                }</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;                <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;                {</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;                    <span class="comment">// If enemy only track distances</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;                    <span class="comment">// TODO: track only if visible ?</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;                    <span class="keywordflow">if</span>( d &lt; enemy_distance )</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;                        enemy_distance = d;</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;                }</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;            });</div>
 <div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;                    discard = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;                }</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                {</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;                    <span class="comment">// If enemy only track distances</span></div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;                    <span class="comment">// TODO: track only if visible ?</span></div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;                    <span class="keywordflow">if</span>( d &lt; enemy_distance )</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;                        enemy_distance = d;</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;                }</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            });</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;            <span class="comment">// Rate the item only if no one needs it, or if an enemy is closer to it</span></div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;            <span class="keywordflow">if</span> ( (enemy_distance &lt; friend_distance &amp;&amp; <a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(o - org, &lt;, enemy_distance)) ||</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;                (friend_distance &gt; <a class="code" href="../../d6/d74/cvars_8qh.html#a54ee1e972503dca6cc8abacfe6655963">autocvar_bot_ai_friends_aware_pickup_radius</a> ) || !discard )</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;                rating = it.bot_pickupevalfunc(<span class="keyword">this</span>, it);</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        }</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;            rating = it.bot_pickupevalfunc(<span class="keyword">this</span>, it);</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        <span class="keywordflow">if</span>(rating &gt; 0)</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;            <a class="code" href="../../db/d15/api_8qh.html#a956bb41e292b7dcbfaa013f178202584">navigation_routerating</a>(<span class="keyword">this</span>, it, rating * ratingscale, 2000);</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    });</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;}</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;            <span class="comment">// Rate the item only if no one needs it, or if an enemy is closer to it</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;            <span class="keywordflow">if</span> ( (enemy_distance &lt; friend_distance &amp;&amp; <a class="code" href="../../de/dcb/vector_8qh.html#a1c6e194f67b0befe85d6613c75d44d30">vdist</a>(o - org, &lt;, enemy_distance)) ||</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;                (friend_distance &gt; <a class="code" href="../../d6/d74/cvars_8qh.html#a54ee1e972503dca6cc8abacfe6655963">autocvar_bot_ai_friends_aware_pickup_radius</a> ) || !discard )</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;                rating = it.bot_pickupevalfunc(<span class="keyword">this</span>, it);</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        }</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;            rating = it.bot_pickupevalfunc(<span class="keyword">this</span>, it);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">if</span>(rating &gt; 0)</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;            <a class="code" href="../../db/d15/api_8qh.html#a956bb41e292b7dcbfaa013f178202584">navigation_routerating</a>(<span class="keyword">this</span>, it, rating * ratingscale, 2000);</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    });</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;}</div>
 <div class="ttc" id="server_2__all_8qh_html_afa45c1f8f1c8482e9a67b8dae2341808"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#afa45c1f8f1c8482e9a67b8dae2341808">IS_PLAYER</a></div><div class="ttdeci">#define IS_PLAYER(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00009">_all.qh:9</a></div></div>
 <div class="ttc" id="intrusivelist_8qh_html_a600087f409537e4f96657c7c1b55bdfe"><div class="ttname"><a href="../../d9/d51/intrusivelist_8qh.html#a600087f409537e4f96657c7c1b55bdfe">IL_EACH</a></div><div class="ttdeci">#define IL_EACH(this, cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d51/intrusivelist_8qh_source.html#l00157">intrusivelist.qh:157</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="havocbot_8qh_html_a2240a7c6b5dca92561126c36734701bf"><div class="ttname"><a href="../../d8/d39/havocbot_8qh.html#a2240a7c6b5dca92561126c36734701bf">ignoregoal</a></div><div class="ttdeci">entity ignoregoal</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/d39/havocbot_8qh_source.html#l00026">havocbot.qh:26</a></div></div>
-<div class="ttc" id="server_2defs_8qh_html_a099ad087f6b1981b1c6333cf4a62334a"><div class="ttname"><a href="../../d5/d26/server_2defs_8qh.html#a099ad087f6b1981b1c6333cf4a62334a">tracebox_hits_trigger_hurt</a></div><div class="ttdeci">float tracebox_hits_trigger_hurt(vector start, vector mi, vector ma, vector end)</div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a43d4911c37299de085f3a00735956514"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a43d4911c37299de085f3a00735956514">MOVE_NORMAL</a></div><div class="ttdeci">const int MOVE_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00133">csqc_constants.qh:133</a></div></div>
@@ -714,7 +701,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01468">1468</a> of file <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html">sv_onslaught.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00008">autocvar_bot_ai_strategyinterval</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00030">bot_strategytime</a>, <a class="el" href="../../d7/dd0/sv__onslaught_8qh_source.html#l00103">havocbot_attack_time</a>, <a class="el" href="../../db/deb/roles_8qc_source.html#l00121">havocbot_goalrating_enemyplayers()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01293">havocbot_goalrating_ons_controlpoints_attack()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01412">havocbot_goalrating_ons_generator_attack()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01226">havocbot_goalrating_ons_offenseitems()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01513">havocbot_ons_reset_role()</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00032">havocbot_role_timeout</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00977">navigation_goalrating_end()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00963">navigation_goalrating_start()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">origin</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
+<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00008">autocvar_bot_ai_strategyinterval</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00030">bot_strategytime</a>, <a class="el" href="../../d7/dd0/sv__onslaught_8qh_source.html#l00103">havocbot_attack_time</a>, <a class="el" href="../../db/deb/roles_8qc_source.html#l00109">havocbot_goalrating_enemyplayers()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01293">havocbot_goalrating_ons_controlpoints_attack()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01412">havocbot_goalrating_ons_generator_attack()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01226">havocbot_goalrating_ons_offenseitems()</a>, <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01513">havocbot_ons_reset_role()</a>, <a class="el" href="../../db/d15/api_8qh_source.html#l00032">havocbot_role_timeout</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00977">navigation_goalrating_end()</a>, <a class="el" href="../../d1/d9a/navigation_8qc_source.html#l00963">navigation_goalrating_start()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">origin</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d0/de4/sv__onslaught_8qc_source.html#l01266">havocbot_role_ons_setrole()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01469"></a><span class="lineno"> 1469</span>&#160;{</div>
@@ -755,7 +742,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="api_8qh_html_ab6d01fa32a875613a62f92c12a06bddd"><div class="ttname"><a href="../../db/d15/api_8qh.html#ab6d01fa32a875613a62f92c12a06bddd">navigation_goalrating_end</a></div><div class="ttdeci">void navigation_goalrating_end(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d1/d9a/navigation_8qc_source.html#l00977">navigation.qc:977</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_a62bbc4ae3a7603843c7e998218476668"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#a62bbc4ae3a7603843c7e998218476668">autocvar_bot_ai_strategyinterval</a></div><div class="ttdeci">float autocvar_bot_ai_strategyinterval</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00008">autocvars.qh:8</a></div></div>
 <div class="ttc" id="sv__onslaught_8qh_html_a90b02641f0c7d1b01f7998fe398c95c1"><div class="ttname"><a href="../../d7/dd0/sv__onslaught_8qh.html#a90b02641f0c7d1b01f7998fe398c95c1">havocbot_attack_time</a></div><div class="ttdeci">float havocbot_attack_time</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/dd0/sv__onslaught_8qh_source.html#l00103">sv_onslaught.qh:103</a></div></div>
-<div class="ttc" id="sv__onslaught_8qh_html_a6456f6b6523f83904a00a909d0a87236"><div class="ttname"><a href="../../d7/dd0/sv__onslaught_8qh.html#a6456f6b6523f83904a00a909d0a87236">havocbot_goalrating_enemyplayers</a></div><div class="ttdeci">void havocbot_goalrating_enemyplayers(entity this, float ratingscale, vector org, float sradius)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/deb/roles_8qc_source.html#l00121">roles.qc:121</a></div></div>
+<div class="ttc" id="sv__onslaught_8qh_html_a6456f6b6523f83904a00a909d0a87236"><div class="ttname"><a href="../../d7/dd0/sv__onslaught_8qh.html#a6456f6b6523f83904a00a909d0a87236">havocbot_goalrating_enemyplayers</a></div><div class="ttdeci">void havocbot_goalrating_enemyplayers(entity this, float ratingscale, vector org, float sradius)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/deb/roles_8qc_source.html#l00109">roles.qc:109</a></div></div>
 <div class="ttc" id="api_8qh_html_abb9fe9ac1c121ea73835452718c090cd"><div class="ttname"><a href="../../db/d15/api_8qh.html#abb9fe9ac1c121ea73835452718c090cd">bot_strategytime</a></div><div class="ttdeci">float bot_strategytime</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d15/api_8qh_source.html#l00030">api.qh:30</a></div></div>
 <div class="ttc" id="sv__onslaught_8qc_html_adf0ba2f0f5009398b9d71635f5b63151"><div class="ttname"><a href="../../d0/de4/sv__onslaught_8qc.html#adf0ba2f0f5009398b9d71635f5b63151">havocbot_goalrating_ons_generator_attack</a></div><div class="ttdeci">bool havocbot_goalrating_ons_generator_attack(entity this, float ratingscale)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/de4/sv__onslaught_8qc_source.html#l01412">sv_onslaught.qc:1412</a></div></div>
 <div class="ttc" id="sv__onslaught_8qc_html_adfef4548e3d9f46f16f8a558b6b963b1"><div class="ttname"><a href="../../d0/de4/sv__onslaught_8qc.html#adfef4548e3d9f46f16f8a558b6b963b1">havocbot_goalrating_ons_offenseitems</a></div><div class="ttdeci">void havocbot_goalrating_ons_offenseitems(entity this, float ratingscale, vector org, float sradius)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/de4/sv__onslaught_8qc_source.html#l01226">sv_onslaught.qc:1226</a></div></div>
@@ -1798,7 +1785,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_485953d51457a9f079ff3eef255d57d0.html">onslaught</a></li><li class="navelem"><a class="el" href="../../d7/dd0/sv__onslaught_8qh.html">sv_onslaught.qh</a></li>
-    <li class="footer">Generated on Thu Jan 19 2017 00:22:56 for Xonotic by
+    <li class="footer">Generated on Fri Jan 20 2017 15:10:37 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
