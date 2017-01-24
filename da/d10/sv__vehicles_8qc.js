@@ -16,7 +16,7 @@ var sv__vehicles_8qc =
     [ "vehicles_damage", "da/d10/sv__vehicles_8qc.html#af3487605a196c9df59ed3a8f0c8c6a04", null ],
     [ "vehicles_enter", "da/d10/sv__vehicles_8qc.html#a018387a690e307f5cc7fb250212d7eb5", null ],
     [ "vehicles_exit", "da/d10/sv__vehicles_8qc.html#a42aece77fb15332fccf65dc5e1c1f8b1", null ],
-    [ "vehicles_findgoodexit", "da/d10/sv__vehicles_8qc.html#aaec5ffc5335e3c3c92862f4aca9b4732", null ],
+    [ "vehicles_findgoodexit", "da/d10/sv__vehicles_8qc.html#a579f95bc0e6d7b004872f69500c2df69", null ],
     [ "vehicles_force_fromtag_hover", "da/d10/sv__vehicles_8qc.html#a759888b66b4de44adeb83d2d5ec9b820", null ],
     [ "vehicles_force_fromtag_maglev", "da/d10/sv__vehicles_8qc.html#a959fbbba142d71875f6660116060fc61", null ],
     [ "vehicles_frame", "da/d10/sv__vehicles_8qc.html#adcd2f4aae690f6a2f0f947ec75b03fe0", null ],

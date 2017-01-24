@@ -89,7 +89,7 @@ var searchData=
   ['vehicles_5fdrawhud',['Vehicles_drawHUD',['../d0/dee/cl__vehicles_8qc.html#a4f2ec1d5fcb112720b7380b223f58f02',1,'cl_vehicles.qc']]],
   ['vehicles_5fenter',['vehicles_enter',['../da/d10/sv__vehicles_8qc.html#a018387a690e307f5cc7fb250212d7eb5',1,'vehicles_enter(entity pl, entity veh):&#160;sv_vehicles.qc'],['../df/dd7/server_2client_8qc.html#a018387a690e307f5cc7fb250212d7eb5',1,'vehicles_enter(entity pl, entity veh):&#160;sv_vehicles.qc']]],
   ['vehicles_5fexit',['vehicles_exit',['../da/d10/sv__vehicles_8qc.html#a42aece77fb15332fccf65dc5e1c1f8b1',1,'sv_vehicles.qc']]],
-  ['vehicles_5ffindgoodexit',['vehicles_findgoodexit',['../da/d10/sv__vehicles_8qc.html#aaec5ffc5335e3c3c92862f4aca9b4732',1,'sv_vehicles.qc']]],
+  ['vehicles_5ffindgoodexit',['vehicles_findgoodexit',['../da/d10/sv__vehicles_8qc.html#a579f95bc0e6d7b004872f69500c2df69',1,'sv_vehicles.qc']]],
   ['vehicles_5fforce_5ffromtag_5fhover',['vehicles_force_fromtag_hover',['../da/d10/sv__vehicles_8qc.html#a759888b66b4de44adeb83d2d5ec9b820',1,'sv_vehicles.qc']]],
   ['vehicles_5fforce_5ffromtag_5fmaglev',['vehicles_force_fromtag_maglev',['../da/d10/sv__vehicles_8qc.html#a959fbbba142d71875f6660116060fc61',1,'sv_vehicles.qc']]],
   ['vehicles_5fframe',['vehicles_frame',['../da/d10/sv__vehicles_8qc.html#adcd2f4aae690f6a2f0f947ec75b03fe0',1,'sv_vehicles.qc']]],
