@@ -283,7 +283,7 @@ $(document).ready(function(){initNavTree('d2/d76/server_2mapvoting_8qc_source.ht
 <div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;    pakfile = <a class="code" href="../../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91">string_null</a>;</div>
 <div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;    <span class="keywordflow">for</span>(i = 0; i &lt; <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a239c475b9087ec0c54c40cc0edf03f66">mapvote_screenshot_dirs_count</a>; ++i)</div>
 <div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    {</div>
-<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        mapfile = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#ad40e1bd245af44e5acd1370f316e1311">mapvote_screenshot_dirs</a>[i], <span class="stringliteral">&quot;/&quot;</span>, <a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#a9fbe464d44af6d8c08290e20aacca9c8">mapvote_maps</a>[i]);</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160;        mapfile = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d2/d76/server_2mapvoting_8qc.html#ad40e1bd245af44e5acd1370f316e1311">mapvote_screenshot_dirs</a>[i], <span class="stringliteral">&quot;/&quot;</span>, nextMap);</div>
 <div class="line"><a name="l00184"></a><span class="lineno">  184</span>&#160;        pakfile = whichpack(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(mapfile, <span class="stringliteral">&quot;.tga&quot;</span>));</div>
 <div class="line"><a name="l00185"></a><span class="lineno">  185</span>&#160;        <span class="keywordflow">if</span>(pakfile == <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00186"></a><span class="lineno">  186</span>&#160;            pakfile = whichpack(<a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(mapfile, <span class="stringliteral">&quot;.jpg&quot;</span>));</div>
@@ -1084,7 +1084,7 @@ $(document).ready(function(){initNavTree('d2/d76/server_2mapvoting_8qc_source.ht
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d2/d76/server_2mapvoting_8qc.html">mapvoting.qc</a></li>
-    <li class="footer">Generated on Fri Jan 27 2017 02:14:57 for Xonotic by
+    <li class="footer">Generated on Fri Jan 27 2017 07:14:08 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
