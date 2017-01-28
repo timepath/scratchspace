@@ -2303,7 +2303,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01412">1412</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00156">GrapplingHookThink()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00153">GrapplingHookThink()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01413"></a><span class="lineno"> 1413</span>&#160;{</div>
 <div class="line"><a name="l01414"></a><span class="lineno"> 1414</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l01415"></a><span class="lineno"> 1415</span>&#160;<span class="comment">    if(ent.move_movetype != MOVETYPE_FOLLOW)</span></div>
@@ -4047,7 +4047,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l00549">MOVETYPE_FOLLOW</a>, <a class="el" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00126">SOLID_NOT</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00324">GrapplingHookTouch()</a>.</p>
+<p>Referenced by <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00321">GrapplingHookTouch()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01395"></a><span class="lineno"> 1395</span>&#160;{</div>
 <div class="line"><a name="l01396"></a><span class="lineno"> 1396</span>&#160;    <span class="comment">// FIXME this may not be warpzone aware</span></div>
 <div class="line"><a name="l01397"></a><span class="lineno"> 1397</span>&#160;    <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(ent, <a class="code" href="../../de/d5e/dpextensions_8qc.html#a5a0f8717cd777d80ce32fe72439b199c">MOVETYPE_FOLLOW</a>); <span class="comment">// make the hole follow</span></div>
@@ -4898,7 +4898,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01098">1098</a> of file <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html">miscfunctions.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00092">RemoveHook()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00127">SOLID_TRIGGER</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01062">SUB_NoImpactCheck()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01095">SUB_OwnerCheck</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00040">trace_ent</a>, <a class="el" href="../../d0/dcd/csqcprojectile_8qc_source.html#l00100">UpdateCSQCProjectile()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc.html#ae468daae6c8d2aaa2b30a3ad700809d1">W_Crylink_Dequeue()</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00107">classname</a>, <a class="el" href="../../d7/de2/g__hook_8qc_source.html#l00090">RemoveHook()</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00127">SOLID_TRIGGER</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01062">SUB_NoImpactCheck()</a>, <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01095">SUB_OwnerCheck</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00040">trace_ent</a>, <a class="el" href="../../d0/dcd/csqcprojectile_8qc_source.html#l00100">UpdateCSQCProjectile()</a>, and <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc.html#ae468daae6c8d2aaa2b30a3ad700809d1">W_Crylink_Dequeue()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d2b/server_8qc_source.html#l00393">WarpZone_Projectile_Touch()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;{</div>
@@ -4930,14 +4930,14 @@ Variables</h2></td></tr>
 <div class="ttc" id="csqcprojectile_8qc_html_a041b0a1ddf8b3bfd790cadc39e07dc7b"><div class="ttname"><a href="../../d0/dcd/csqcprojectile_8qc.html#a041b0a1ddf8b3bfd790cadc39e07dc7b">UpdateCSQCProjectile</a></div><div class="ttdeci">void UpdateCSQCProjectile(entity e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dcd/csqcprojectile_8qc_source.html#l00100">csqcprojectile.qc:100</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_ae468daae6c8d2aaa2b30a3ad700809d1"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#ae468daae6c8d2aaa2b30a3ad700809d1">W_Crylink_Dequeue</a></div><div class="ttdeci">void W_Crylink_Dequeue(entity e)</div></div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_a91ea4b67745c35eca3b72b1c8c0fb8a6"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a91ea4b67745c35eca3b72b1c8c0fb8a6">SUB_NoImpactCheck</a></div><div class="ttdeci">bool SUB_NoImpactCheck(entity this, entity toucher)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l01062">miscfunctions.qc:1062</a></div></div>
-<div class="ttc" id="g__hook_8qc_html_a50f68d93243e10c5a552caae3c7a2413"><div class="ttname"><a href="../../d7/de2/g__hook_8qc.html#a50f68d93243e10c5a552caae3c7a2413">RemoveHook</a></div><div class="ttdeci">void RemoveHook(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de2/g__hook_8qc_source.html#l00092">g_hook.qc:92</a></div></div>
+<div class="ttc" id="g__hook_8qc_html_a50f68d93243e10c5a552caae3c7a2413"><div class="ttname"><a href="../../d7/de2/g__hook_8qc.html#a50f68d93243e10c5a552caae3c7a2413">RemoveHook</a></div><div class="ttdeci">void RemoveHook(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/de2/g__hook_8qc_source.html#l00090">g_hook.qc:90</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-84" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-84-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-84-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-84-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/server_2miscfunctions_8qc_a14781e74a33437af873581ed381d2397_cgraph.svg" width="100%" height="537"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../dc/dc6/server_2miscfunctions_8qc_a14781e74a33437af873581ed381d2397_cgraph.svg" width="100%" height="575"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -5147,7 +5147,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dc/dc6/server_2miscfunctions_8qc.html">miscfunctions.qc</a></li>
-    <li class="footer">Generated on Fri Jan 27 2017 07:14:14 for Xonotic by
+    <li class="footer">Generated on Sat Jan 28 2017 07:56:18 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
