@@ -1,5 +1,6 @@
 var NAVTREEINDEX96 =
 {
+"db/d55/campaign__file_8qc_source.html":[2,0,1,25],
 "db/d55/random_8qh.html":[2,0,4,45],
 "db/d55/random_8qh.html#a218e10c5750eadf78eef5f816a554f12":[2,0,4,45,11],
 "db/d55/random_8qh.html#a2d70d358bbf6aa8252f2aebc596d67c1":[2,0,4,45,10],
@@ -248,6 +249,5 @@ var NAVTREEINDEX96 =
 "db/d5b/classXonoticGameMessageSettingsTab.html#a7c7e80231d41f67692ab5f902d127416":[1,0,167,92],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,167,91],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,167,82],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,167,81],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a82ca3e4f11e4c7508b2c0b928d29f4cf":[1,0,167,71]
+"db/d5b/classXonoticGameMessageSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,167,81]
 };

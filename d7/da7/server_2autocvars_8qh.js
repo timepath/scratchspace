@@ -368,6 +368,7 @@ var server_2autocvars_8qh =
     [ "autocvar_g_waypointeditor", "d7/da7/server_2autocvars_8qh.html#ab7c9b0a0e2167a533222cb4da7518def", null ],
     [ "autocvar_g_waypoints_for_items", "d7/da7/server_2autocvars_8qh.html#ae72da1f8004d8b75a946f9c00e1abe6c", null ],
     [ "autocvar_g_weapon_throwable", "d7/da7/server_2autocvars_8qh.html#a04798e251224631c0c5ad6f02881f64f", null ],
+    [ "autocvar_g_weaponswitch_debug", "d7/da7/server_2autocvars_8qh.html#a7fa1b028c3f2a22fcf9dae6b1b016b17", null ],
     [ "autocvar_g_xonoticversion", "d7/da7/server_2autocvars_8qh.html#a19942ca5ac896842568cf8bfaf21eab6", null ],
     [ "autocvar_gameversion", "d7/da7/server_2autocvars_8qh.html#adfd8dc048b0bac1ee66e09e0f41d58c2", null ],
     [ "autocvar_gameversion_max", "d7/da7/server_2autocvars_8qh.html#affa1f57c9adfa3456693c3b31a53c8b1", null ],

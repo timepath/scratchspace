@@ -146,6 +146,7 @@ var searchData=
   ['weapontime',['weapontime',['../d3/d05/hud_8qh.html#ad5b3e0dc298f23f9aea300bb0e6efc6e',1,'hud.qh']]],
   ['wep_5ffirst',['WEP_FIRST',['../d0/ddd/weapons_2all_8qh.html#a90d55a6f4174a92f4c7740dba8e236df',1,'all.qh']]],
   ['wep_5fflag_5fcanclimb',['WEP_FLAG_CANCLIMB',['../d2/d1c/weapons_2weapon_8qh.html#a110a94ff60352bf5502a014f3bc56209',1,'weapon.qh']]],
+  ['wep_5fflag_5fdualwield',['WEP_FLAG_DUALWIELD',['../d2/d1c/weapons_2weapon_8qh.html#aa14261a0af883da3631846ba5fd3555d',1,'weapon.qh']]],
   ['wep_5fflag_5fhidden',['WEP_FLAG_HIDDEN',['../d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818',1,'weapon.qh']]],
   ['wep_5fflag_5fmutatorblocked',['WEP_FLAG_MUTATORBLOCKED',['../d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2',1,'weapon.qh']]],
   ['wep_5fflag_5fnormal',['WEP_FLAG_NORMAL',['../d2/d1c/weapons_2weapon_8qh.html#afd9eb87fc6f209d68b1ad956d3a72a74',1,'weapon.qh']]],

@@ -26,6 +26,7 @@ var weapons_2weapon_8qh =
     [ "weaponentities", "d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad", null ],
     [ "weaponorder_byid", "d2/d1c/weapons_2weapon_8qh.html#a33a5fa56c7d71ec499a00d0ed547de24", null ],
     [ "WEP_FLAG_CANCLIMB", "d2/d1c/weapons_2weapon_8qh.html#a110a94ff60352bf5502a014f3bc56209", null ],
+    [ "WEP_FLAG_DUALWIELD", "d2/d1c/weapons_2weapon_8qh.html#aa14261a0af883da3631846ba5fd3555d", null ],
     [ "WEP_FLAG_HIDDEN", "d2/d1c/weapons_2weapon_8qh.html#acc68544d7beb97a08e0a2c0bab42d818", null ],
     [ "WEP_FLAG_MUTATORBLOCKED", "d2/d1c/weapons_2weapon_8qh.html#a9819105ec0356c90ff7591d2ae6276e2", null ],
     [ "WEP_FLAG_NORMAL", "d2/d1c/weapons_2weapon_8qh.html#afd9eb87fc6f209d68b1ad956d3a72a74", null ],

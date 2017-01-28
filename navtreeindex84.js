@@ -1,5 +1,6 @@
 var NAVTREEINDEX84 =
 {
+"d9/db3/classXonoticGameModelSettingsTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,168,25],
 "d9/db3/classXonoticGameModelSettingsTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,168,53],
 "d9/db3/classXonoticGameModelSettingsTab.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,168,33],
 "d9/db3/classXonoticGameModelSettingsTab.html#a2ef394e5bd7269e1ee23d4cf2a5d6f0e":[1,0,168,23],
@@ -248,6 +249,5 @@ var NAVTREEINDEX84 =
 "d9/dce/classHeavyMachineGun.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,44,10],
 "d9/dce/classHeavyMachineGun.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,44,36],
 "d9/dce/classHeavyMachineGun.html#ac4f204e4f73afae2ccb97d5c7bbd7752":[1,0,44,7],
-"d9/dce/classHeavyMachineGun.html#acddd7ae43827abdbe4fb326bad500ae9":[1,0,44,37],
-"d9/dce/classHeavyMachineGun.html#ad155218ce1844b7f3ce8cf880721d08f":[1,0,44,3]
+"d9/dce/classHeavyMachineGun.html#acddd7ae43827abdbe4fb326bad500ae9":[1,0,44,37]
 };
