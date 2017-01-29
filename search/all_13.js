@@ -612,7 +612,7 @@ var searchData=
   ['spawnpoints_2eqc',['spawnpoints.qc',['../d0/d41/spawnpoints_8qc.html',1,'']]],
   ['spawnpoints_2eqh',['spawnpoints.qh',['../d4/dd1/spawnpoints_8qh.html',1,'']]],
   ['spawnshieldtime',['spawnshieldtime',['../d5/d26/server_2defs_8qh.html#a818a3a01a056d7a1bd0318928eabb76e',1,'defs.qh']]],
-  ['spawnthrownweapon',['SpawnThrownWeapon',['../df/d64/throwing_8qc.html#abf105b95108ef725a278aa85e8084812',1,'SpawnThrownWeapon(entity this, vector org, float w,.entity weaponentity):&#160;throwing.qc'],['../de/d58/throwing_8qh.html#abf105b95108ef725a278aa85e8084812',1,'SpawnThrownWeapon(entity this, vector org, float w,.entity weaponentity):&#160;throwing.qc']]],
+  ['spawnthrownweapon',['SpawnThrownWeapon',['../df/d64/throwing_8qc.html#a3b40c07507228066f600ea2861c78c88',1,'SpawnThrownWeapon(entity this, vector org, Weapon wep,.entity weaponentity):&#160;throwing.qc'],['../de/d58/throwing_8qh.html#a3b40c07507228066f600ea2861c78c88',1,'SpawnThrownWeapon(entity this, vector org, Weapon wep,.entity weaponentity):&#160;throwing.qc']]],
   ['speaker_2eqc',['speaker.qc',['../d5/d06/speaker_8qc.html',1,'']]],
   ['speaker_2eqh',['speaker.qh',['../d4/d48/speaker_8qh.html',1,'']]],
   ['species',['species',['../d5/d26/server_2defs_8qh.html#a3c3af8f5c6837dd97fdbd346a993f5b1',1,'defs.qh']]],
