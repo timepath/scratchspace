@@ -28,7 +28,7 @@ var searchData=
   ['race_5fsendrankings',['race_SendRankings',['../d6/d3b/race_8qc.html#a2b2a6102f551e81871f8b1e030a2e9e0',1,'race_SendRankings(float pos, float prevpos, float del, float msg):&#160;race.qc'],['../d4/d1b/race_8qh.html#a2b2a6102f551e81871f8b1e030a2e9e0',1,'race_SendRankings(float pos, float prevpos, float del, float msg):&#160;race.qc']]],
   ['race_5fsendstatus',['race_SendStatus',['../d6/d3b/race_8qc.html#ad90d8836aa743a1c7d24b4e5cfa67017',1,'race.qc']]],
   ['race_5fsendtime',['race_SendTime',['../d6/d3b/race_8qc.html#a67d4330e2cc2507d55de968501e8de67',1,'race.qc']]],
-  ['race_5fsettime',['race_setTime',['../d6/d3b/race_8qc.html#ab63b3f030b81cc07f9f02edfcf12d07f',1,'race.qc']]],
+  ['race_5fsettime',['race_setTime',['../d6/d3b/race_8qc.html#ad40c8cd52859377201760075057590a0',1,'race_setTime(string map, float t, string myuid, string mynetname, entity e, bool showmessage):&#160;race.qc'],['../d4/d1b/race_8qh.html#ad40c8cd52859377201760075057590a0',1,'race_setTime(string map, float t, string myuid, string mynetname, entity e, bool showmessage):&#160;race.qc']]],
   ['race_5fshowtime',['race_showTime',['../dd/d59/modicons_8qc.html#ac3feccee341c58ff935a2148dbed66b5',1,'modicons.qc']]],
   ['race_5fstartcompleting',['race_StartCompleting',['../d6/d3b/race_8qc.html#a98ec5468ec6281fade27fb92541c7174',1,'race_StartCompleting():&#160;race.qc'],['../d4/d1b/race_8qh.html#a98ec5468ec6281fade27fb92541c7174',1,'race_StartCompleting():&#160;race.qc']]],
   ['race_5fwaypointsprite_5fvisible_5ffor_5fplayer',['race_waypointsprite_visible_for_player',['../d6/d3b/race_8qc.html#a8988550efefbbf06b299ca30e0abd002',1,'race.qc']]],

@@ -89,7 +89,7 @@ var searchData=
   ['race_5fsendstatus',['race_SendStatus',['../d6/d3b/race_8qc.html#ad90d8836aa743a1c7d24b4e5cfa67017',1,'race.qc']]],
   ['race_5fsendtime',['race_SendTime',['../d6/d3b/race_8qc.html#a67d4330e2cc2507d55de968501e8de67',1,'race.qc']]],
   ['race_5fserver_5frecord',['race_server_record',['../d9/d08/client_2defs_8qh.html#a2b02c8d668beb71aaba3c151039d326e',1,'defs.qh']]],
-  ['race_5fsettime',['race_setTime',['../d6/d3b/race_8qc.html#ab63b3f030b81cc07f9f02edfcf12d07f',1,'race.qc']]],
+  ['race_5fsettime',['race_setTime',['../d6/d3b/race_8qc.html#ad40c8cd52859377201760075057590a0',1,'race_setTime(string map, float t, string myuid, string mynetname, entity e, bool showmessage):&#160;race.qc'],['../d4/d1b/race_8qh.html#ad40c8cd52859377201760075057590a0',1,'race_setTime(string map, float t, string myuid, string mynetname, entity e, bool showmessage):&#160;race.qc']]],
   ['race_5fshowtime',['race_showTime',['../dd/d59/modicons_8qc.html#ac3feccee341c58ff935a2148dbed66b5',1,'modicons.qc']]],
   ['race_5fspawns',['race_spawns',['../d4/d1b/race_8qh.html#a0cf3c746a02d8f934c12691dadca5d3e',1,'race.qh']]],
   ['race_5fspeedaward',['race_speedaward',['../d9/d08/client_2defs_8qh.html#af18029dc3e4270b4bd78ce61838c36b6',1,'defs.qh']]],

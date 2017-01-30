@@ -40,5 +40,5 @@ var cl__cmd_8qc =
     [ "LocalCommand_sendcvar", "df/d8c/cl__cmd_8qc.html#aefa88bf5523ddb9a16c2de624306cd11", null ],
     [ "QuickMenu_Close", "df/d8c/cl__cmd_8qc.html#a842da1e1b814366ffd55d4096c8123c1", null ],
     [ "QuickMenu_IsOpened", "df/d8c/cl__cmd_8qc.html#a83c6625cfcd8716e5e481969fa957f6f", null ],
-    [ "QuickMenu_Open", "df/d8c/cl__cmd_8qc.html#a01a144926d280170380a5da597e573dc", null ]
+    [ "QuickMenu_Open", "df/d8c/cl__cmd_8qc.html#a51c446db94a7b8cfe9997f4c92f84bb0", null ]
 ];

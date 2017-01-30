@@ -17,6 +17,7 @@ var race_8qh =
     [ "race_send_speedaward_alltimebest", "d4/d1b/race_8qh.html#aa77a445ff7257d62eb6cfed505be32cc", null ],
     [ "race_SendNextCheckpoint", "d4/d1b/race_8qh.html#a426a0faee53298e0416f0af105270b20", null ],
     [ "race_SendRankings", "d4/d1b/race_8qh.html#a2b2a6102f551e81871f8b1e030a2e9e0", null ],
+    [ "race_setTime", "d4/d1b/race_8qh.html#ad40c8cd52859377201760075057590a0", null ],
     [ "race_StartCompleting", "d4/d1b/race_8qh.html#a98ec5468ec6281fade27fb92541c7174", null ],
     [ "STATIC_INIT", "d4/d1b/race_8qh.html#a20f130b5dc3608fb7738ab51bd0fd3ba", null ],
     [ "g_race_qualifying", "d4/d1b/race_8qh.html#a7e260fe5773769b74b068a6483ddb83d", null ],

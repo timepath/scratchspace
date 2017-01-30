@@ -1,5 +1,8 @@
 var NAVTREEINDEX27 =
 {
+"d3/d73/gamemode__ctf_8qc_source.html":[2,0,6,3,0,6],
+"d3/d77/shotgun_8qh.html":[2,0,1,16,0,35],
+"d3/d77/shotgun_8qh_source.html":[2,0,1,16,0,35],
 "d3/d78/classAnimHost.html":[1,0,2],
 "d3/d78/classAnimHost.html#a1138a9b635e88f56850b424f5d1860b5":[1,0,2,2],
 "d3/d78/classAnimHost.html#a17baecdbb5c3793fd271a3b76dc02716":[1,0,2,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX27 =
 "d3/d9c/plasma__dual_8qc.html":[2,0,1,14,0,34],
 "d3/d9c/plasma__dual_8qc_source.html":[2,0,1,14,0,34],
 "d3/d9d/bgmscript_8qh.html":[2,0,0,12],
-"d3/d9d/bgmscript_8qh.html#a60140a7d269e136822cf5ca494cc7d42":[2,0,0,12,0],
-"d3/d9d/bgmscript_8qh.html#a9120ce405f8dde05592f4869794f8fee":[2,0,0,12,1],
-"d3/d9d/bgmscript_8qh_source.html":[2,0,0,12],
-"d3/d9e/common_2items_2item_2ammo_8qc.html":[2,0,1,5,0,2]
+"d3/d9d/bgmscript_8qh.html#a60140a7d269e136822cf5ca494cc7d42":[2,0,0,12,0]
 };

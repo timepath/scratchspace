@@ -968,6 +968,7 @@ var searchData=
   ['ctf_5fpink_5fflag_5fcarrying',['CTF_PINK_FLAG_CARRYING',['../dd/dfa/gamemode__ctf_8qh.html#a0fd5a4bd352b634d88fc19d84afb28aa',1,'gamemode_ctf.qh']]],
   ['ctf_5fpink_5fflag_5flost',['CTF_PINK_FLAG_LOST',['../dd/dfa/gamemode__ctf_8qh.html#aca93cf8f2153ac4a9d2260d28116e7c3',1,'gamemode_ctf.qh']]],
   ['ctf_5fpink_5fflag_5ftaken',['CTF_PINK_FLAG_TAKEN',['../dd/dfa/gamemode__ctf_8qh.html#a46918a34b610a8df6f5be3746b3905f0',1,'gamemode_ctf.qh']]],
+  ['ctf_5frecord',['CTF_RECORD',['../d5/df2/common_2util_8qh.html#a47c2694cbc7dedf16ec1ebae633381a7',1,'util.qh']]],
   ['ctf_5fred_5fflag_5fcarrying',['CTF_RED_FLAG_CARRYING',['../dd/dfa/gamemode__ctf_8qh.html#a67302d0a60bce745be62baf8bf8e4c07',1,'gamemode_ctf.qh']]],
   ['ctf_5fred_5fflag_5flost',['CTF_RED_FLAG_LOST',['../dd/dfa/gamemode__ctf_8qh.html#a48e4c1d602d48508c55f4b0fcab6b7ad',1,'gamemode_ctf.qh']]],
   ['ctf_5fred_5fflag_5ftaken',['CTF_RED_FLAG_TAKEN',['../dd/dfa/gamemode__ctf_8qh.html#a6bf890e9a273fe1a8badcfe6707bb372',1,'gamemode_ctf.qh']]],

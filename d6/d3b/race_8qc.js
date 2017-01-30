@@ -29,7 +29,7 @@ var race_8qc =
     [ "race_SendRankings", "d6/d3b/race_8qc.html#a2b2a6102f551e81871f8b1e030a2e9e0", null ],
     [ "race_SendStatus", "d6/d3b/race_8qc.html#ad90d8836aa743a1c7d24b4e5cfa67017", null ],
     [ "race_SendTime", "d6/d3b/race_8qc.html#a67d4330e2cc2507d55de968501e8de67", null ],
-    [ "race_setTime", "d6/d3b/race_8qc.html#ab63b3f030b81cc07f9f02edfcf12d07f", null ],
+    [ "race_setTime", "d6/d3b/race_8qc.html#ad40c8cd52859377201760075057590a0", null ],
     [ "race_StartCompleting", "d6/d3b/race_8qc.html#a98ec5468ec6281fade27fb92541c7174", null ],
     [ "race_waypointsprite_visible_for_player", "d6/d3b/race_8qc.html#a8988550efefbbf06b299ca30e0abd002", null ],
     [ "race_writeTime", "d6/d3b/race_8qc.html#ae61f2a2c6a18fa5904028f07c4b72d3a", null ],

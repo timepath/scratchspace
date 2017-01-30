@@ -3,6 +3,7 @@ var common_2util_8qh =
     [ "APPEND_TO_STRING", "d5/df2/common_2util_8qh.html#a54e21b66f9e46eb48ef6962079a42196", null ],
     [ "bprintf", "d5/df2/common_2util_8qh.html#af6b5f7d19eecec1c5243980c998216a6", null ],
     [ "COMPARE_INCREASING", "d5/df2/common_2util_8qh.html#ab7e650e1fb3902c09e41a10c30e0158e", null ],
+    [ "CTF_RECORD", "d5/df2/common_2util_8qh.html#a47c2694cbc7dedf16ec1ebae633381a7", null ],
     [ "CTS_RECORD", "d5/df2/common_2util_8qh.html#a2ab892f127a1745ff993deeb083df749", null ],
     [ "fprintf", "d5/df2/common_2util_8qh.html#a461e83c88c5ac01576ef0f8554408da3", null ],
     [ "RACE_RECORD", "d5/df2/common_2util_8qh.html#ae9037dc83bdcfd223a3560fe1da7d345", null ],

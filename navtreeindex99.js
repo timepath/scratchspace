@@ -1,5 +1,10 @@
 var NAVTREEINDEX99 =
 {
+"db/d7f/effectinfo_8inc.html#ac0e05246ddc5690591c9eaa4b93065cb":[2,0,1,2,7,258],
+"db/d7f/effectinfo_8inc.html#ac11ce68ecb8983bccfc083e782a030a9":[2,0,1,2,7,277],
+"db/d7f/effectinfo_8inc.html#ac174e5a5c0373c8a6bd465472e1620cf":[2,0,1,2,7,38],
+"db/d7f/effectinfo_8inc.html#ac188a69e4f989dd9aa0404e66f0e20f4":[2,0,1,2,7,270],
+"db/d7f/effectinfo_8inc.html#ac20b8f5245ead4599382f1015b682055":[2,0,1,2,7,313],
 "db/d7f/effectinfo_8inc.html#ac28693364383c750f85f7b2a4b9afb9e":[2,0,1,2,7,316],
 "db/d7f/effectinfo_8inc.html#ac2cb4e8e6ec6f3968fb459d983ebdc1c":[2,0,1,2,7,344],
 "db/d7f/effectinfo_8inc.html#ac2fe3dba345548b4bc9db6a6982c050a":[2,0,1,2,7,195],
@@ -244,10 +249,5 @@ var NAVTREEINDEX99 =
 "db/da0/log_8qh.html#adf957bd592ac57cf436d7dcbcb9ebd37":[2,0,4,30,16],
 "db/da0/log_8qh.html#afab8de1e69e3162b5564c0197bbc8ff8":[2,0,4,30,13],
 "db/da0/log_8qh_source.html":[2,0,4,30],
-"db/da4/common_2mutators_2mutator_2hook_2__mod_8qh.html":[2,0,1,9,0,10,1],
-"db/da4/common_2mutators_2mutator_2hook_2__mod_8qh_source.html":[2,0,1,9,0,10,1],
-"db/da8/common_2gamemodes_2gamemode_2onslaught_2__mod_8inc.html":[2,0,1,3,0,1,0],
-"db/da8/common_2gamemodes_2gamemode_2onslaught_2__mod_8inc_source.html":[2,0,1,3,0,1,0],
-"db/dab/client_2hud_2__mod_8inc.html":[2,0,0,1,1],
-"db/dab/client_2hud_2__mod_8inc_source.html":[2,0,0,1,1]
+"db/da4/common_2mutators_2mutator_2hook_2__mod_8qh.html":[2,0,1,9,0,10,1]
 };

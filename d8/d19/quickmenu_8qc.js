@@ -21,7 +21,7 @@ var quickmenu_8qc =
     [ "QuickMenu_InputEvent", "d8/d19/quickmenu_8qc.html#a821dac3bfe5535e16dd2a4f1f40f099f", null ],
     [ "QuickMenu_IsOpened", "d8/d19/quickmenu_8qc.html#a83c6625cfcd8716e5e481969fa957f6f", null ],
     [ "QuickMenu_Mouse", "d8/d19/quickmenu_8qc.html#a1f4421c07ba36141f7788c052320dcaf", null ],
-    [ "QuickMenu_Open", "d8/d19/quickmenu_8qc.html#a01a144926d280170380a5da597e573dc", null ],
+    [ "QuickMenu_Open", "d8/d19/quickmenu_8qc.html#a51c446db94a7b8cfe9997f4c92f84bb0", null ],
     [ "QuickMenu_Page_ActiveEntry", "d8/d19/quickmenu_8qc.html#a0ca0f975072c824ef6f69c3820dab0e4", null ],
     [ "QuickMenu_Page_ClearEntry", "d8/d19/quickmenu_8qc.html#a46816c6fc535c6a13921c56e85c3ac25", null ],
     [ "QuickMenu_Page_Load", "d8/d19/quickmenu_8qc.html#a4d9e61d6cf6645a6d311f996df3d4216", null ],

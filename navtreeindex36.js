@@ -1,5 +1,9 @@
 var NAVTREEINDEX36 =
 {
+"d4/d3b/classXonoticBigButton.html#a1384d244201f945385ed59b53e4aee96":[1,0,140,39],
+"d4/d3b/classXonoticBigButton.html#a17586d0ed66d76f042dedade63f4addf":[1,0,140,28],
+"d4/d3b/classXonoticBigButton.html#a1a55e3b961b4986ce5dda62bd05b8ec5":[1,0,140,43],
+"d4/d3b/classXonoticBigButton.html#a1df833a5bface26f468e77e75b40ea4c":[1,0,140,29],
 "d4/d3b/classXonoticBigButton.html#a1f71e31fd265ca4fba4bccee3a807b09":[1,0,140,33],
 "d4/d3b/classXonoticBigButton.html#a20862a0ad0266d3060b177cdccb9de0c":[1,0,140,49],
 "d4/d3b/classXonoticBigButton.html#a21fdc6c151d9e721da87eaaa8a04e3f9":[1,0,140,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX36 =
 "d4/d48/notify_8qc_source.html":[2,0,0,1,0,18],
 "d4/d48/speaker_8qh.html":[2,0,1,13,2,13],
 "d4/d48/speaker_8qh_source.html":[2,0,1,13,2,13],
-"d4/d4c/corner_8qc.html":[2,0,1,13,1,2],
-"d4/d4c/corner_8qc_source.html":[2,0,1,13,1,2],
-"d4/d4c/dialog__multiplayer__media__demo_8qc.html":[2,0,5,4,100],
-"d4/d4c/dialog__multiplayer__media__demo_8qc.html#a3f9f2caf67aab8fc5b5de8a6127aae6a":[2,0,5,4,100,4],
-"d4/d4c/dialog__multiplayer__media__demo_8qc.html#a65d685f1b5403e58720176cd5f77f71e":[2,0,5,4,100,1]
+"d4/d4c/corner_8qc.html":[2,0,1,13,1,2]
 };

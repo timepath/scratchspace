@@ -1,5 +1,10 @@
 var NAVTREEINDEX93 =
 {
+"db/d07/teams_8qh.html#adbc0074001363ddef68675aac96a3599":[2,0,1,46,5],
+"db/d07/teams_8qh.html#ae0e4a7d1b3b18f694a7498bc9019d637":[2,0,1,46,28],
+"db/d07/teams_8qh.html#ae812354355770545470af6b1acb70845":[2,0,1,46,9],
+"db/d07/teams_8qh.html#aeac93e2aec3cb5b1350d5e003caab473":[2,0,1,46,43],
+"db/d07/teams_8qh_source.html":[2,0,1,46],
 "db/d0a/oo_8qh.html":[2,0,4,39],
 "db/d0a/oo_8qh.html#a010cbf44b643792be835db056600fc48":[2,0,4,39,30],
 "db/d0a/oo_8qh.html#a03d0921d898298e87795339eefa7ba6d":[2,0,4,39,9],
@@ -244,10 +249,5 @@ var NAVTREEINDEX93 =
 "db/d20/round__handler_8qh.html":[2,0,6,57],
 "db/d20/round__handler_8qh.html#a329096694bbb90b286bf875e4f7ee0b0":[2,0,6,57,3],
 "db/d20/round__handler_8qh.html#a3333ca7666a86449c9cce2487a77bd4f":[2,0,6,57,2],
-"db/d20/round__handler_8qh.html#a3387fe2472922fb6b655760d89d52952":[2,0,6,57,0],
-"db/d20/round__handler_8qh.html#a35bf06efb917c323c9e026476ca62978":[2,0,6,57,6],
-"db/d20/round__handler_8qh.html#a515cacf33539a9c94c6545fb9b468602":[2,0,6,57,7],
-"db/d20/round__handler_8qh.html#a5d09b4d9aa95f1a7381e5c901a21587e":[2,0,6,57,16],
-"db/d20/round__handler_8qh.html#a93f5351605cf126e17ef8b0c965834f9":[2,0,6,57,15],
-"db/d20/round__handler_8qh.html#a94a1d9264bb698d7c097277562e2dfe2":[2,0,6,57,4]
+"db/d20/round__handler_8qh.html#a3387fe2472922fb6b655760d89d52952":[2,0,6,57,0]
 };
