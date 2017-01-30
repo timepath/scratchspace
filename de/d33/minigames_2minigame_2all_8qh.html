@@ -113,14 +113,13 @@ $(document).ready(function(){initNavTree('de/d33/minigames_2minigame_2all_8qh.ht
 <code>#include &quot;<a class="el" href="../../d7/de3/pong_8qc_source.html">pong.qc</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../d8/d1b/ps_8qc_source.html">ps.qc</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../d1/d93/pp_8qc_source.html">pp.qc</a>&quot;</code><br/>
-<code>#include &quot;<a class="el" href="../../d1/dff/snake_8qc_source.html">snake.qc</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="../../d3/dd5/bd_8qc_source.html">bd.qc</a>&quot;</code><br/>
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="../../closed.png" alt="+"/> Include dependency graph for all.qh:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/daa/minigames_2minigame_2all_8qh__incl.svg" width="663" height="203"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../dd/daa/minigames_2minigame_2all_8qh__incl.svg" width="563" height="203"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </div><div class="textblock"><div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -180,7 +179,7 @@ Macros</h2></td></tr>
 <p>Note: As of now, flags are sent as a single byte</p>
 <p>Even for non-networked entities, the system provides a system to remove automatically unneeded entities when the minigame is over, the requirement is that .owner is set to the minigame session entity and .minigame_autoclean is true. Set up automatic entity read/write functionality To ensure that everything is handled automatically, spawn on the server using msle_spawn Syntax: MSLE(classname,Field...) \ classname: Identifier used to recognize the type of the entity (must be set as .classname on the sent entities) Field... : List of FIELD calls <a class="el" href="../../d7/d33/sv__minigames_8qc.html#a30966b6e84ff9a906617d02e463d35e7">FIELD(sendflags, Type, field)</a> sendflags: Send flags that signal when this field has to be sent Type : Type of the entity field. Used to determine WriteX/ReadX functions. Follows a list of accepted values Byte Char Short Long Coord Angle String Note: strzoned on client Float Note: implemented as Write/Read Coord Vector Note: implemented as Write/Read Coord on _x _y _z Vector2D Note: implemented as Write/Read Coord on _x _y Note: classname and netname are always sent MSLE stands for Minigame Simple Linked Entity </p>
 
-<p>Definition at line <a class="el" href="../../de/d33/minigames_2minigame_2all_8qh_source.html#l00101">101</a> of file <a class="el" href="../../de/d33/minigames_2minigame_2all_8qh_source.html">all.qh</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d33/minigames_2minigame_2all_8qh_source.html#l00100">100</a> of file <a class="el" href="../../de/d33/minigames_2minigame_2all_8qh_source.html">all.qh</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d7/d33/sv__minigames_8qc_source.html#l00062">minigame_SendEntity()</a>, <a class="el" href="../../d3/dbf/minigames_8qc_source.html#l00112">msle_classname()</a>, <a class="el" href="../../d3/dbf/minigames_8qc_source.html#l00101">msle_id()</a>, and <a class="el" href="../../d4/db7/cl__minigames_8qc_source.html#l00179">NET_HANDLE()</a>.</p>
 
@@ -192,7 +191,7 @@ Macros</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_7f837aa7f5b26719e62f8d5679eb0405.html">minigames</a></li><li class="navelem"><a class="el" href="../../dir_f3c5fe65fc7d6f300d22d67107da5495.html">minigame</a></li><li class="navelem"><a class="el" href="../../de/d33/minigames_2minigame_2all_8qh.html">all.qh</a></li>
-    <li class="footer">Generated on Mon Jan 30 2017 04:52:46 for Xonotic by
+    <li class="footer">Generated on Mon Jan 30 2017 11:58:02 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

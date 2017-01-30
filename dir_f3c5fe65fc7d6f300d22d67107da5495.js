@@ -15,8 +15,6 @@ var dir_f3c5fe65fc7d6f300d22d67107da5495 =
     [ "pp.qh", "d6/db1/pp_8qh.html", null ],
     [ "ps.qc", "d8/d1b/ps_8qc.html", "d8/d1b/ps_8qc" ],
     [ "ps.qh", "d4/d5e/ps_8qh.html", null ],
-    [ "snake.qc", "d1/dff/snake_8qc.html", "d1/dff/snake_8qc" ],
-    [ "snake.qh", "db/db5/snake_8qh.html", null ],
     [ "ttt.qc", "da/d4b/ttt_8qc.html", "da/d4b/ttt_8qc" ],
     [ "ttt.qh", "d4/d2e/ttt_8qh.html", null ]
 ];
