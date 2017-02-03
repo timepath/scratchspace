@@ -1,5 +1,6 @@
 var NAVTREEINDEX28 =
 {
+"d3/da2/common_2mutators_2mutator_2pinata_2__mod_8qh_source.html":[2,0,1,9,0,22,1],
 "d3/da9/classMineLayer.html":[1,0,73],
 "d3/da9/classMineLayer.html#a0495da57f2ea15799bb58ca5ce313c9a":[1,0,73,29],
 "d3/da9/classMineLayer.html#a0bd25e8922366620f95386d9be824e77":[1,0,73,37],
@@ -248,6 +249,5 @@ var NAVTREEINDEX28 =
 "d3/dbd/dialog__firstrun_8qc.html":[2,0,5,4,42],
 "d3/dbd/dialog__firstrun_8qc.html#a543ea137d7c256f4c31c0c37f9c905f8":[2,0,5,4,42,0],
 "d3/dbd/dialog__firstrun_8qc.html#a60f77e8c6fbba2ed1675fb85e95e291a":[2,0,5,4,42,1],
-"d3/dbd/dialog__firstrun_8qc.html#af14c0e82df6c85f775189f7b91226253":[2,0,5,4,42,2],
-"d3/dbd/dialog__firstrun_8qc_source.html":[2,0,5,4,42]
+"d3/dbd/dialog__firstrun_8qc.html#af14c0e82df6c85f775189f7b91226253":[2,0,5,4,42,2]
 };

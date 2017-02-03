@@ -1,5 +1,6 @@
 var NAVTREEINDEX102 =
 {
+"db/ddb/classXonoticCvarList.html#a58dc85316d0b51cd21acd518930cc578":[1,0,155,59],
 "db/ddb/classXonoticCvarList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,155,25],
 "db/ddb/classXonoticCvarList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,155,36],
 "db/ddb/classXonoticCvarList.html#a65253f3ac21bfcd270aaeefce4d9ac0d":[1,0,155,44],
@@ -248,6 +249,5 @@ var NAVTREEINDEX102 =
 "db/dfb/sv__new__toys_8qh_source.html":[2,0,1,9,0,18,3],
 "db/dfc/round__handler_8qc.html":[2,0,6,56],
 "db/dfc/round__handler_8qc.html#a35bf06efb917c323c9e026476ca62978":[2,0,6,56,1],
-"db/dfc/round__handler_8qc.html#a515cacf33539a9c94c6545fb9b468602":[2,0,6,56,2],
-"db/dfc/round__handler_8qc.html#a9f9012d50d940fe62137392d78988b0f":[2,0,6,56,3]
+"db/dfc/round__handler_8qc.html#a515cacf33539a9c94c6545fb9b468602":[2,0,6,56,2]
 };

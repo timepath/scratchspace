@@ -1,5 +1,6 @@
 var NAVTREEINDEX126 =
 {
+"df/d28/menu_2xonotic_2button_8qc.html":[2,0,5,4,6],
 "df/d28/menu_2xonotic_2button_8qc.html#a5cdb73eae84b296b83b99d0c2d8e9aa5":[2,0,5,4,6,2],
 "df/d28/menu_2xonotic_2button_8qc.html#a72620f04a2403e2eb73a5f210a9c60eb":[2,0,5,4,6,1],
 "df/d28/menu_2xonotic_2button_8qc.html#afa967f603e7a2d29dbd5badcc42997f9":[2,0,5,4,6,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX126 =
 "df/d4a/common_2triggers_2trigger_2impulse_8qh.html#ac37c534efda2a140f52238e2c4eb31a4":[2,0,1,13,3,19,0],
 "df/d4a/common_2triggers_2trigger_2impulse_8qh_source.html":[2,0,1,13,3,19],
 "df/d4a/dialog__hudpanel__chat_8qh.html":[2,0,5,4,49],
-"df/d4a/dialog__hudpanel__chat_8qh_source.html":[2,0,5,4,49],
-"df/d4c/server_2pathlib_2main_8qc.html":[2,0,6,4,8]
+"df/d4a/dialog__hudpanel__chat_8qh_source.html":[2,0,5,4,49]
 };

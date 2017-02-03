@@ -1,5 +1,6 @@
 var NAVTREEINDEX92 =
 {
+"da/dd5/enumclass_8qh.html#aff68acbe705eabfb48461c1875991505":[2,0,4,18,1],
 "da/dd5/enumclass_8qh_source.html":[2,0,4,18],
 "da/dd7/common_2turrets_2__mod_8inc.html":[2,0,1,14,3],
 "da/dd7/common_2turrets_2__mod_8inc_source.html":[2,0,1,14,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15":[2,0,4,39,5],
 "db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996":[2,0,4,39,51],
 "db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4":[2,0,4,39,45],
-"db/d0a/oo_8qh.html#aace0c7293aa8214ab7b12cc485520af7":[2,0,4,39,13],
-"db/d0a/oo_8qh.html#ab7246f79454bf896b228c49914b8decb":[2,0,4,39,57]
+"db/d0a/oo_8qh.html#aace0c7293aa8214ab7b12cc485520af7":[2,0,4,39,13]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX70 =
 {
+"d7/df7/lib_2warpzone_2__mod_8qh.html":[2,0,4,2,1],
 "d7/df7/lib_2warpzone_2__mod_8qh_source.html":[2,0,4,2,1],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html":[2,0,5,4,92],
 "d7/dfd/dialog__multiplayer__create__mutators_8qc.html#a16a3593e3ced6f0801bb7602f2b85953":[2,0,5,4,92,7],
@@ -248,6 +249,5 @@ var NAVTREEINDEX70 =
 "d8/d14/scripting_8qh.html#ab67baa1ea1f9c2ed4b7bf4abc41a735e":[2,0,6,0,0,12,8],
 "d8/d14/scripting_8qh.html#ab77590220a6986879310726d8ffeee00":[2,0,6,0,0,12,40],
 "d8/d14/scripting_8qh.html#abad1d3e4714ca1832aab73ee2b8862ea":[2,0,6,0,0,12,7],
-"d8/d14/scripting_8qh.html#abc0e3ba6ec9f6041f1cc77674ed2e11b":[2,0,6,0,0,12,25],
-"d8/d14/scripting_8qh.html#ac32ca2f1c291ea412cdee2a78d26fe24":[2,0,6,0,0,12,39]
+"d8/d14/scripting_8qh.html#abc0e3ba6ec9f6041f1cc77674ed2e11b":[2,0,6,0,0,12,25]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX91 =
 {
+"da/db7/classXonoticServerInfoDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,231,0],
 "da/db7/classXonoticServerInfoDialog.html#ac80f00e0dfb46145f8c3429a4dd50e27":[1,0,231,36],
 "da/db7/classXonoticServerInfoDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,231,63],
 "da/db7/classXonoticServerInfoDialog.html#acc8822e94ea71e49dadf0703894d2ab4":[1,0,231,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX91 =
 "da/dd5/enumclass_8qh.html#a7339abefe19e4109853567ae9664cf04":[2,0,4,18,4],
 "da/dd5/enumclass_8qh.html#a93090b9631c9cca1cb2e94328e2889ed":[2,0,4,18,3],
 "da/dd5/enumclass_8qh.html#ab9035c4cdfdbaa88cf7ec5cc33a5c6f8":[2,0,4,18,0],
-"da/dd5/enumclass_8qh.html#ac13d792e49df3610c3a5b5d37f98ba4b":[2,0,4,18,2],
-"da/dd5/enumclass_8qh.html#aff68acbe705eabfb48461c1875991505":[2,0,4,18,1]
+"da/dd5/enumclass_8qh.html#ac13d792e49df3610c3a5b5d37f98ba4b":[2,0,4,18,2]
 };

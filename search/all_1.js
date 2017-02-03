@@ -1004,6 +1004,7 @@ var searchData=
   ['autocvar_5fg_5fctf_5freverse',['autocvar_g_ctf_reverse',['../d3/d73/gamemode__ctf_8qc.html#afb288e4a718e0685ba63b26ce4033232',1,'gamemode_ctf.qc']]],
   ['autocvar_5fg_5fctf_5fscore_5fcapture',['autocvar_g_ctf_score_capture',['../d3/d73/gamemode__ctf_8qc.html#a5bdd4dc5aa3571b7a8edc5ddae348da2',1,'gamemode_ctf.qc']]],
   ['autocvar_5fg_5fctf_5fscore_5fcapture_5fassist',['autocvar_g_ctf_score_capture_assist',['../d3/d73/gamemode__ctf_8qc.html#ad6f387be57f023cb48e24726f0c67352',1,'gamemode_ctf.qc']]],
+  ['autocvar_5fg_5fctf_5fscore_5fignore_5ffields',['autocvar_g_ctf_score_ignore_fields',['../d3/d73/gamemode__ctf_8qc.html#a4d42d38ca7fe4ae17691800dc89abc9d',1,'gamemode_ctf.qc']]],
   ['autocvar_5fg_5fctf_5fscore_5fkill',['autocvar_g_ctf_score_kill',['../d3/d73/gamemode__ctf_8qc.html#aad76042b2c02d94e949b92c8491ab443',1,'gamemode_ctf.qc']]],
   ['autocvar_5fg_5fctf_5fscore_5fpenalty_5fdrop',['autocvar_g_ctf_score_penalty_drop',['../d3/d73/gamemode__ctf_8qc.html#a919fd175c5550b09a92d1ec2608fa108',1,'gamemode_ctf.qc']]],
   ['autocvar_5fg_5fctf_5fscore_5fpenalty_5freturned',['autocvar_g_ctf_score_penalty_returned',['../d3/d73/gamemode__ctf_8qc.html#a9e83c0e3d42ac970c93fed32eee9ae3a',1,'gamemode_ctf.qc']]],

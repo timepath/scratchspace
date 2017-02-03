@@ -945,7 +945,7 @@ var searchData=
   ['mutator_5fonadd',['MUTATOR_ONADD',['../db/d38/base_8qh.html#a1003ef6b08686c5c841fc6a4e8428992',1,'base.qh']]],
   ['mutator_5fonremove',['MUTATOR_ONREMOVE',['../db/d38/base_8qh.html#ac878b5fd9ca1fd639fca3f72e12c582e',1,'base.qh']]],
   ['mutator_5fonrollback_5for_5fremove',['MUTATOR_ONROLLBACK_OR_REMOVE',['../db/d38/base_8qh.html#a18b6800f2d1093efff7a7c8fcdae7f40',1,'base.qh']]],
-  ['mutator_5fremove',['Mutator_Remove',['../db/d38/base_8qh.html#a11e9723189e645f9d7e5280d85a9b4bf',1,'Mutator_Remove(Mutator mut):&#160;base.qh'],['../db/d38/base_8qh.html#a0c4d517c990aee134e074f3421ccb9ef',1,'MUTATOR_REMOVE():&#160;base.qh']]],
+  ['mutator_5fremove',['MUTATOR_REMOVE',['../db/d38/base_8qh.html#a0c4d517c990aee134e074f3421ccb9ef',1,'MUTATOR_REMOVE():&#160;base.qh'],['../db/d38/base_8qh.html#a11e9723189e645f9d7e5280d85a9b4bf',1,'Mutator_Remove(Mutator mut):&#160;base.qh']]],
   ['mutator_5fremoving',['MUTATOR_REMOVING',['../db/d38/base_8qh.html#a06fc87d81c62e9abb8790b6e5713c55ba5ef677e4616b7d438b64ce2712c881ba',1,'base.qh']]],
   ['mutator_5freturnvalue',['MUTATOR_RETURNVALUE',['../db/d38/base_8qh.html#ae802749af56eba2b7d9d38cddd3f9596',1,'base.qh']]],
   ['mutator_5frolling_5fback',['MUTATOR_ROLLING_BACK',['../db/d38/base_8qh.html#a06fc87d81c62e9abb8790b6e5713c55ba9086c46eca164ce22be0b6e9e9ef72aa',1,'base.qh']]],
