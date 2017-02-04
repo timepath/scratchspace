@@ -28,6 +28,7 @@ var sv__buffs_8qh =
     [ "autocvar_g_buffs_medic_rot", "d8/dd8/sv__buffs_8qh.html#a828910a7801d1c3d437b0d8d70fd951c", null ],
     [ "autocvar_g_buffs_medic_survive_chance", "d8/dd8/sv__buffs_8qh.html#a69d630a96d401be98e66245c07c18b8d", null ],
     [ "autocvar_g_buffs_medic_survive_health", "d8/dd8/sv__buffs_8qh.html#a3ffd0865f6c4b086ad045b6ee81d28d6", null ],
+    [ "autocvar_g_buffs_pickup_delay", "d8/dd8/sv__buffs_8qh.html#a8c530690d13a1995fecf385267515016", null ],
     [ "autocvar_g_buffs_random_lifetime", "d8/dd8/sv__buffs_8qh.html#af47dcf7ea0d68f44a7894a2001c8186c", null ],
     [ "autocvar_g_buffs_random_location", "d8/dd8/sv__buffs_8qh.html#a7f35986c1be4e916c6d5d52c72a40be3", null ],
     [ "autocvar_g_buffs_random_location_attempts", "d8/dd8/sv__buffs_8qh.html#a28a469e184b148e580f41a6122017b8d", null ],
@@ -58,6 +59,7 @@ var sv__buffs_8qh =
     [ "buff_medic_healtime", "d8/dd8/sv__buffs_8qh.html#af5e6a1814015f1f8d2a3c648aa0c5912", null ],
     [ "BUFF_MIN", "d8/dd8/sv__buffs_8qh.html#aae701057346d25da5248646e0898e5ff", null ],
     [ "buff_model", "d8/dd8/sv__buffs_8qh.html#a14f4e75f961cd8672b251062ae26870b", null ],
+    [ "buff_shield", "d8/dd8/sv__buffs_8qh.html#a028d0aff7513914b039f9a16bc1ed86b", null ],
     [ "buff_waypoint", "d8/dd8/sv__buffs_8qh.html#a39a49dfb13476e573dab25e06a90e563", null ],
     [ "cvar_cl_buffs_autoreplace", "d8/dd8/sv__buffs_8qh.html#a9d0381c8b0a4cc43a743b4f23741763b", null ],
     [ "oldbuffs", "d8/dd8/sv__buffs_8qh.html#aa2020d7221cd6658db0d83786f8a9e7d", null ]

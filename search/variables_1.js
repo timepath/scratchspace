@@ -648,6 +648,7 @@ var searchData=
   ['autocvar_5fg_5fbuffs_5fmedic_5frot',['autocvar_g_buffs_medic_rot',['../d8/dd8/sv__buffs_8qh.html#a828910a7801d1c3d437b0d8d70fd951c',1,'sv_buffs.qh']]],
   ['autocvar_5fg_5fbuffs_5fmedic_5fsurvive_5fchance',['autocvar_g_buffs_medic_survive_chance',['../d8/dd8/sv__buffs_8qh.html#a69d630a96d401be98e66245c07c18b8d',1,'sv_buffs.qh']]],
   ['autocvar_5fg_5fbuffs_5fmedic_5fsurvive_5fhealth',['autocvar_g_buffs_medic_survive_health',['../d8/dd8/sv__buffs_8qh.html#a3ffd0865f6c4b086ad045b6ee81d28d6',1,'sv_buffs.qh']]],
+  ['autocvar_5fg_5fbuffs_5fpickup_5fdelay',['autocvar_g_buffs_pickup_delay',['../d8/dd8/sv__buffs_8qh.html#a8c530690d13a1995fecf385267515016',1,'sv_buffs.qh']]],
   ['autocvar_5fg_5fbuffs_5frandom_5flifetime',['autocvar_g_buffs_random_lifetime',['../d8/dd8/sv__buffs_8qh.html#af47dcf7ea0d68f44a7894a2001c8186c',1,'sv_buffs.qh']]],
   ['autocvar_5fg_5fbuffs_5frandom_5flocation',['autocvar_g_buffs_random_location',['../d8/dd8/sv__buffs_8qh.html#a7f35986c1be4e916c6d5d52c72a40be3',1,'sv_buffs.qh']]],
   ['autocvar_5fg_5fbuffs_5frandom_5flocation_5fattempts',['autocvar_g_buffs_random_location_attempts',['../d8/dd8/sv__buffs_8qh.html#a28a469e184b148e580f41a6122017b8d',1,'sv_buffs.qh']]],

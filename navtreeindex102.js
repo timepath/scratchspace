@@ -1,5 +1,7 @@
 var NAVTREEINDEX102 =
 {
+"db/ddb/classXonoticCvarList.html#a5723e7c38f187fcf01bc9a71a1e826a9":[1,0,155,5],
+"db/ddb/classXonoticCvarList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,155,16],
 "db/ddb/classXonoticCvarList.html#a58dc85316d0b51cd21acd518930cc578":[1,0,155,59],
 "db/ddb/classXonoticCvarList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,155,25],
 "db/ddb/classXonoticCvarList.html#a650ef3402824944f01d3df19cc2d497e":[1,0,155,36],
@@ -247,7 +249,5 @@ var NAVTREEINDEX102 =
 "db/dfa/classPlasmaAttack.html#afba05a26a4843e2b4b22d4ad9c7ff03f":[1,0,92,26],
 "db/dfb/sv__new__toys_8qh.html":[2,0,1,9,0,18,3],
 "db/dfb/sv__new__toys_8qh_source.html":[2,0,1,9,0,18,3],
-"db/dfc/round__handler_8qc.html":[2,0,6,56],
-"db/dfc/round__handler_8qc.html#a35bf06efb917c323c9e026476ca62978":[2,0,6,56,1],
-"db/dfc/round__handler_8qc.html#a515cacf33539a9c94c6545fb9b468602":[2,0,6,56,2]
+"db/dfc/round__handler_8qc.html":[2,0,6,56]
 };

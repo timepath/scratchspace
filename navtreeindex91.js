@@ -1,5 +1,7 @@
 var NAVTREEINDEX91 =
 {
+"da/db7/classXonoticServerInfoDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,231,74],
+"da/db7/classXonoticServerInfoDialog.html#ac5d5e617a3011f275a27b858315f968c":[1,0,231,20],
 "da/db7/classXonoticServerInfoDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,231,0],
 "da/db7/classXonoticServerInfoDialog.html#ac80f00e0dfb46145f8c3429a4dd50e27":[1,0,231,36],
 "da/db7/classXonoticServerInfoDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,231,63],
@@ -247,7 +249,5 @@ var NAVTREEINDEX91 =
 "da/dd5/enumclass_8qh.html":[2,0,4,18],
 "da/dd5/enumclass_8qh.html#a10f4c592b56e8ae136d22fc7a9cd22f0":[2,0,4,18,5],
 "da/dd5/enumclass_8qh.html#a7339abefe19e4109853567ae9664cf04":[2,0,4,18,4],
-"da/dd5/enumclass_8qh.html#a93090b9631c9cca1cb2e94328e2889ed":[2,0,4,18,3],
-"da/dd5/enumclass_8qh.html#ab9035c4cdfdbaa88cf7ec5cc33a5c6f8":[2,0,4,18,0],
-"da/dd5/enumclass_8qh.html#ac13d792e49df3610c3a5b5d37f98ba4b":[2,0,4,18,2]
+"da/dd5/enumclass_8qh.html#a93090b9631c9cca1cb2e94328e2889ed":[2,0,4,18,3]
 };
