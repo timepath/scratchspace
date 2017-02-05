@@ -57,5 +57,6 @@ var mapinfo_8qc =
     [ "_MapInfo_globcount", "d3/d46/mapinfo_8qc.html#a2559fdcff9a74917098b62465a9fd3f6", null ],
     [ "_MapInfo_globhandle", "d3/d46/mapinfo_8qc.html#a53227eb055bce2f2d9197dbfd3541c78", null ],
     [ "_MapInfo_globopen", "d3/d46/mapinfo_8qc.html#a0b27177a0f6dc1d8a84867b3ad610a82", null ],
-    [ "_MapInfo_Map_worldspawn_music", "d3/d46/mapinfo_8qc.html#a9bddb69c4bc8833ed7bb18fc8429ec03", null ]
+    [ "_MapInfo_Map_worldspawn_music", "d3/d46/mapinfo_8qc.html#a9bddb69c4bc8833ed7bb18fc8429ec03", null ],
+    [ "autocvar_g_mapinfo_ignore_warnings", "d3/d46/mapinfo_8qc.html#a461e3272bbfe43c0b5f8f29b9d4391ad", null ]
 ];

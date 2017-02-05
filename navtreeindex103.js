@@ -1,5 +1,7 @@
 var NAVTREEINDEX103 =
 {
+"db/dfb/sv__new__toys_8qh_source.html":[2,0,1,9,0,18,3],
+"db/dfc/round__handler_8qc.html":[2,0,6,56],
 "db/dfc/round__handler_8qc.html#a35bf06efb917c323c9e026476ca62978":[2,0,6,56,1],
 "db/dfc/round__handler_8qc.html#a515cacf33539a9c94c6545fb9b468602":[2,0,6,56,2],
 "db/dfc/round__handler_8qc.html#a9f9012d50d940fe62137392d78988b0f":[2,0,6,56,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX103 =
 "dc/d16/classXonoticMediaTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,204,12],
 "dc/d16/classXonoticMediaTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,204,73],
 "dc/d16/classXonoticMediaTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,204,4],
-"dc/d16/classXonoticMediaTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,204,47],
-"dc/d16/classXonoticMediaTab.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,204,25],
-"dc/d16/classXonoticMediaTab.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,204,53]
+"dc/d16/classXonoticMediaTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,204,47]
 };

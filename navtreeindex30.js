@@ -1,5 +1,6 @@
 var NAVTREEINDEX30 =
 {
+"d3/dce/classXonoticTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,241,41],
 "d3/dce/classXonoticTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,241,45],
 "d3/dce/classXonoticTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,241,87],
 "d3/dce/classXonoticTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,241,11],
@@ -248,6 +249,5 @@ var NAVTREEINDEX30 =
 "d3/dea/lib_2matrix_2__mod_8qh.html":[2,0,4,1,1],
 "d3/dea/lib_2matrix_2__mod_8qh_source.html":[2,0,4,1,1],
 "d3/deb/dialog__multiplayer__media_8qh.html":[2,0,5,4,99],
-"d3/deb/dialog__multiplayer__media_8qh.html#a048e9d55578bbd55fa3acb96f76ad670":[2,0,5,4,99,1],
-"d3/deb/dialog__multiplayer__media_8qh_source.html":[2,0,5,4,99]
+"d3/deb/dialog__multiplayer__media_8qh.html#a048e9d55578bbd55fa3acb96f76ad670":[2,0,5,4,99,1]
 };

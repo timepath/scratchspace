@@ -1,5 +1,7 @@
 var NAVTREEINDEX93 =
 {
+"db/d0a/oo_8qh.html#aa5c79a538e305f192747da0e028b5c15":[2,0,4,39,5],
+"db/d0a/oo_8qh.html#aa6129200bc08749d8ec263f44ca6b996":[2,0,4,39,51],
 "db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4":[2,0,4,39,45],
 "db/d0a/oo_8qh.html#aace0c7293aa8214ab7b12cc485520af7":[2,0,4,39,13],
 "db/d0a/oo_8qh.html#ab7246f79454bf896b228c49914b8decb":[2,0,4,39,57],
@@ -247,7 +249,5 @@ var NAVTREEINDEX93 =
 "db/d25/common_2physics_2movetypes_2__mod_8inc.html":[2,0,1,11,0,0],
 "db/d25/common_2physics_2movetypes_2__mod_8inc_source.html":[2,0,1,11,0,0],
 "db/d26/gamemode__freezetag_8qc.html":[2,0,6,3,0,14],
-"db/d26/gamemode__freezetag_8qc.html#a01beca66d3167bb15f74df1a0fbdd7ae":[2,0,6,3,0,14,24],
-"db/d26/gamemode__freezetag_8qc.html#a0d08e3438cf658395ecd4f920216502c":[2,0,6,3,0,14,17],
-"db/d26/gamemode__freezetag_8qc.html#a153c91976b34fdfc0da213b379584027":[2,0,6,3,0,14,28]
+"db/d26/gamemode__freezetag_8qc.html#a01beca66d3167bb15f74df1a0fbdd7ae":[2,0,6,3,0,14,24]
 };

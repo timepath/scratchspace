@@ -1,5 +1,7 @@
 var NAVTREEINDEX106 =
 {
+"dc/d52/dialog__multiplayer__create__mapinfo_8qh.html":[2,0,5,4,91],
+"dc/d52/dialog__multiplayer__create__mapinfo_8qh_source.html":[2,0,5,4,91],
 "dc/d53/sv__cloaked_8qh.html":[2,0,1,9,0,5,3],
 "dc/d53/sv__cloaked_8qh_source.html":[2,0,1,9,0,5,3],
 "dc/d54/sv__vampirehook_8qh.html":[2,0,1,9,0,32,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX106 =
 "dc/d73/server_2miscfunctions_8qh.html#ae2af274123d9eb356c89a1d02c121820":[2,0,6,46,84],
 "dc/d73/server_2miscfunctions_8qh.html#ae60e63a20482389086630191d5d8d336":[2,0,6,46,57],
 "dc/d73/server_2miscfunctions_8qh.html#ae84d9f519729f73eb438f6bf342bed2c":[2,0,6,46,127],
-"dc/d73/server_2miscfunctions_8qh.html#aea45965de304065385fea7d50cfe89d1":[2,0,6,46,109],
-"dc/d73/server_2miscfunctions_8qh.html#aeced667ffe85ea71e364b6a76cf62ff2":[2,0,6,46,66],
-"dc/d73/server_2miscfunctions_8qh.html#aee24e1640413f4be6fcceee071d83b89":[2,0,6,46,77]
+"dc/d73/server_2miscfunctions_8qh.html#aea45965de304065385fea7d50cfe89d1":[2,0,6,46,109]
 };
