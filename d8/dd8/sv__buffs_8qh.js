@@ -8,6 +8,7 @@ var sv__buffs_8qh =
     [ "autocvar_g_buffs_disability_slowtime", "d8/dd8/sv__buffs_8qh.html#a3a7b8cb38386a1a5727768f91e22fabe", null ],
     [ "autocvar_g_buffs_disability_speed", "d8/dd8/sv__buffs_8qh.html#afb0251b7484313d359a74447018fe070", null ],
     [ "autocvar_g_buffs_disability_weaponspeed", "d8/dd8/sv__buffs_8qh.html#aba42e8684b75b6487f469036d376e973", null ],
+    [ "autocvar_g_buffs_drop", "d8/dd8/sv__buffs_8qh.html#ae83ceb60d9cd8deb909ceb3ef6e14e91", null ],
     [ "autocvar_g_buffs_effects", "d8/dd8/sv__buffs_8qh.html#a3a19f5b80ff5f5a3867d484cb5f79060", null ],
     [ "autocvar_g_buffs_inferno_burntime_factor", "d8/dd8/sv__buffs_8qh.html#a9a7786d9386aa54f7402850e457fce40", null ],
     [ "autocvar_g_buffs_inferno_burntime_min_time", "d8/dd8/sv__buffs_8qh.html#a2a9b9cdf8543c98190a01b95c634d4c9", null ],

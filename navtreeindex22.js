@@ -1,5 +1,6 @@
 var NAVTREEINDEX22 =
 {
+"d3/d05/hud_8qh.html#a5d86a1997a442c698d453e215ca32568":[2,0,0,1,4,57],
 "d3/d05/hud_8qh.html#a5ff072dc76b8ee671ef47ebc1cee86d8":[2,0,0,1,4,87],
 "d3/d05/hud_8qh.html#a611c5a4dcd2431118e0c0848884e417f":[2,0,0,1,4,8],
 "d3/d05/hud_8qh.html#a615729042fc097a6f33a5fdb985388df":[2,0,0,1,4,46],
@@ -248,6 +249,5 @@ var NAVTREEINDEX22 =
 "d3/d0d/classHellion.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,45,4],
 "d3/d0d/classHellion.html#af0d1789cf260770caa9002a133a661d7":[1,0,45,0],
 "d3/d0f/dialog__hudpanel__timer_8qc.html":[2,0,5,4,76],
-"d3/d0f/dialog__hudpanel__timer_8qc.html#a96f8200bf3f24902a133023702f3e43a":[2,0,5,4,76,0],
-"d3/d0f/dialog__hudpanel__timer_8qc_source.html":[2,0,5,4,76]
+"d3/d0f/dialog__hudpanel__timer_8qc.html#a96f8200bf3f24902a133023702f3e43a":[2,0,5,4,76,0]
 };

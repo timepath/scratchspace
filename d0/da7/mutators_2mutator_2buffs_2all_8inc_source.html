@@ -105,135 +105,148 @@ $(document).ready(function(){initNavTree('d0/da7/mutators_2mutator_2buffs_2all_8
 <div class="title">all.inc</div>  </div>
 </div><!--header-->
 <div class="contents">
-<a href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">    1</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(AMMO) {</div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Ammo&quot;</span>);</div>
-<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    this.m_name = <span class="stringliteral">&quot;ammo&quot;</span>;</div>
-<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    this.m_skin = 3;</div>
-<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.76 1 0.1&#39;</span>;</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;}</div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(<a class="code" href="../../d3/d05/hud_8qh.html#a0271dc2cb812249454f2f348759a234c">ammo</a>, BUFF_AMMO)</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(ammoregen, BUFF_AMMO)</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a41b6701b1c6e96e3043c0019b527226c">   10</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(RESISTANCE) {</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Resistance&quot;</span>);</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    this.m_name = <span class="stringliteral">&quot;resistance&quot;</span>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    this.m_skin = 0;</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.36 1 0.07&#39;</span>;</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;}</div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(resistance, BUFF_RESISTANCE)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(resistance, BUFF_RESISTANCE)</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
-<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2d2a096950143f69fe15206eefa4d0eb">   19</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(SPEED) {</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Speed&quot;</span>);</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    this.m_name = <span class="stringliteral">&quot;speed&quot;</span>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    this.m_skin = 9;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.1 1 0.84&#39;</span>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(<a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>, BUFF_SPEED)</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(haste, BUFF_SPEED)</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(scout, BUFF_SPEED)</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
-<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a434f7ac5499cca8d6d40d3cefb516368">   29</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(MEDIC) {</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Medic&quot;</span>);</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    this.m_name = <span class="stringliteral">&quot;medic&quot;</span>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    this.m_skin = 1;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0.12 0&#39;</span>;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(medic, BUFF_MEDIC)</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(doubler, BUFF_MEDIC)</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(medic, BUFF_MEDIC)</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#affc47b0cc8d3babeb395799cb08dbd8a">   39</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(BASH) {</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Bash&quot;</span>);</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    this.m_name = <span class="stringliteral">&quot;bash&quot;</span>;</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    this.m_skin = 5;</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0.39 0&#39;</span>;</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;}</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(bash, BUFF_BASH)</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2e21b54419051837a5fcf6f7f1999a5c">   47</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(VAMPIRE) {</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Vampire&quot;</span>);</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    this.m_name = <span class="stringliteral">&quot;vampire&quot;</span>;</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    this.m_skin = 2;</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0 0.24&#39;</span>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;}</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(vampire, BUFF_VAMPIRE)</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
-<div class="line"><a name="l00055"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ae2182ffd4aece1ab035baa6a64e7c442">   55</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(DISABILITY) {</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Disability&quot;</span>);</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    this.m_name = <span class="stringliteral">&quot;disability&quot;</span>;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    this.m_skin = 7;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.94 0.3 1&#39;</span>;</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;}</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(disability, BUFF_DISABILITY)</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
-<div class="line"><a name="l00063"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#aea320705273d3b0c79e1bd70c9af73f5">   63</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(VENGEANCE) {</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Vengeance&quot;</span>);</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    this.m_name = <span class="stringliteral">&quot;vengeance&quot;</span>;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    this.m_skin = 15;</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0.23 0.61&#39;</span>;</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(vengeance, BUFF_VENGEANCE)</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
-<div class="line"><a name="l00071"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#afcff6c22eb8bc57e19bb78d6200318b1">   71</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(JUMP) {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Jump&quot;</span>);</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    this.m_name = <span class="stringliteral">&quot;jump&quot;</span>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    this.m_skin = 10;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.24 0.78 1&#39;</span>;</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;}</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(jump, BUFF_JUMP)</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;</div>
-<div class="line"><a name="l00079"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ad54a43f9c7262e4c0a8f0efe0a2dfb00">   79</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(INVISIBLE) {</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Invisible&quot;</span>);</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    this.m_name = <span class="stringliteral">&quot;invisible&quot;</span>;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    this.m_skin = 12;</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.5 0.5 1&#39;</span>;</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(invisible, BUFF_INVISIBLE)</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(invis, BUFF_INVISIBLE)</div>
-<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;</div>
-<div class="line"><a name="l00088"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a74d448d70d5e55e54c85493f4b37c0df">   88</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(INFERNO) {</div>
-<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Inferno&quot;</span>);</div>
-<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    this.m_name = <span class="stringliteral">&quot;inferno&quot;</span>;</div>
-<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;    this.m_skin = 16;</div>
-<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0.62 0&#39;</span>;</div>
-<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;}</div>
-<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(inferno, BUFF_INFERNO)</div>
-<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;</div>
-<div class="line"><a name="l00096"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a7511936b014064d695ad4438cd65eada">   96</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(SWAPPER) {</div>
-<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Swapper&quot;</span>);</div>
-<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;    this.m_name = <span class="stringliteral">&quot;swapper&quot;</span>;</div>
-<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    this.m_skin = 17;</div>
-<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.63 0.36 1&#39;</span>;</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;}</div>
-<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(swapper, BUFF_SWAPPER)</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;</div>
-<div class="line"><a name="l00104"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ab879a178631164ea00a4905ce8a3826c">  104</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(MAGNET) {</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Magnet&quot;</span>);</div>
-<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;    this.m_name = <span class="stringliteral">&quot;magnet&quot;</span>;</div>
-<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;    this.m_skin = 18;</div>
-<div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0.95 0.18&#39;</span>;</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;}</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(magnet, BUFF_MAGNET)</div>
-<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;</div>
-<div class="line"><a name="l00112"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2dd0f3f919c755f75d4b34e310c90256">  112</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(LUCK) {</div>
-<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Luck&quot;</span>);</div>
-<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    this.m_name = <span class="stringliteral">&quot;luck&quot;</span>;</div>
-<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;    this.m_skin = 19;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0.23 0.44&#39;</span>;</div>
-<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;}</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(luck, BUFF_LUCK)</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;</div>
-<div class="line"><a name="l00120"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ac4deda165917acf34f1961ca9f40a9ae">  120</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(FLIGHT) {</div>
-<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Flight&quot;</span>);</div>
-<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;    this.m_name = <span class="stringliteral">&quot;flight&quot;</span>;</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    this.m_skin = 11;</div>
-<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.23 0.44 1&#39;</span>;</div>
-<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;}</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(flight, BUFF_FLIGHT)</div>
+<a href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno"><a class="line" href="../../d6/d85/buffs_8qh.html#a529a82989f56f66e5eff2624e62fcea3">    1</a></span>&#160;<span class="keywordtype">string</span> <a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a529a82989f56f66e5eff2624e62fcea3">Buff_UndeprecateName</a>(<span class="keywordtype">string</span> buffname)</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;{</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    <span class="keywordflow">switch</span>(buffname)</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    {</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;ammoregen&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;ammo&quot;</span>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;haste&quot;</span>: <span class="keywordflow">case</span> <span class="stringliteral">&quot;scout&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;speed&quot;</span>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;doubler&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;medic&quot;</span>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;invis&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;invisible&quot;</span>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">default</span>: <span class="keywordflow">return</span> buffname;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    }</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;</div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">   13</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(AMMO) {</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Ammo&quot;</span>);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    this.m_name = <span class="stringliteral">&quot;ammo&quot;</span>;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    this.m_skin = 3;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.76 1 0.1&#39;</span>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;}</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(<a class="code" href="../../d3/d05/hud_8qh.html#a0271dc2cb812249454f2f348759a234c">ammo</a>, BUFF_AMMO)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(ammoregen, BUFF_AMMO)</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;</div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a41b6701b1c6e96e3043c0019b527226c">   22</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(RESISTANCE) {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Resistance&quot;</span>);</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    this.m_name = <span class="stringliteral">&quot;resistance&quot;</span>;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    this.m_skin = 0;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.36 1 0.07&#39;</span>;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;}</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(resistance, BUFF_RESISTANCE)</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(resistance, BUFF_RESISTANCE)</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2d2a096950143f69fe15206eefa4d0eb">   31</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(SPEED) {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Speed&quot;</span>);</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    this.m_name = <span class="stringliteral">&quot;speed&quot;</span>;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    this.m_skin = 9;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.1 1 0.84&#39;</span>;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;}</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(<a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>, BUFF_SPEED)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(haste, BUFF_SPEED)</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(scout, BUFF_SPEED)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;</div>
+<div class="line"><a name="l00041"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a434f7ac5499cca8d6d40d3cefb516368">   41</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(MEDIC) {</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Medic&quot;</span>);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    this.m_name = <span class="stringliteral">&quot;medic&quot;</span>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;    this.m_skin = 1;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0.12 0&#39;</span>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;}</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(medic, BUFF_MEDIC)</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(doubler, BUFF_MEDIC)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(medic, BUFF_MEDIC)</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;</div>
+<div class="line"><a name="l00051"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#affc47b0cc8d3babeb395799cb08dbd8a">   51</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(BASH) {</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Bash&quot;</span>);</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    this.m_name = <span class="stringliteral">&quot;bash&quot;</span>;</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    this.m_skin = 5;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0.39 0&#39;</span>;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;}</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(bash, BUFF_BASH)</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
+<div class="line"><a name="l00059"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2e21b54419051837a5fcf6f7f1999a5c">   59</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(VAMPIRE) {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Vampire&quot;</span>);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    this.m_name = <span class="stringliteral">&quot;vampire&quot;</span>;</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    this.m_skin = 2;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0 0.24&#39;</span>;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(vampire, BUFF_VAMPIRE)</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;</div>
+<div class="line"><a name="l00067"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ae2182ffd4aece1ab035baa6a64e7c442">   67</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(DISABILITY) {</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Disability&quot;</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    this.m_name = <span class="stringliteral">&quot;disability&quot;</span>;</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    this.m_skin = 7;</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.94 0.3 1&#39;</span>;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;}</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(disability, BUFF_DISABILITY)</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#aea320705273d3b0c79e1bd70c9af73f5">   75</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(VENGEANCE) {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Vengeance&quot;</span>);</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    this.m_name = <span class="stringliteral">&quot;vengeance&quot;</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    this.m_skin = 15;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0.23 0.61&#39;</span>;</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;}</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(vengeance, BUFF_VENGEANCE)</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;</div>
+<div class="line"><a name="l00083"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#afcff6c22eb8bc57e19bb78d6200318b1">   83</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(JUMP) {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Jump&quot;</span>);</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    this.m_name = <span class="stringliteral">&quot;jump&quot;</span>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    this.m_skin = 10;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.24 0.78 1&#39;</span>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;}</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(jump, BUFF_JUMP)</div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;</div>
+<div class="line"><a name="l00091"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ad54a43f9c7262e4c0a8f0efe0a2dfb00">   91</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(INVISIBLE) {</div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Invisible&quot;</span>);</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    this.m_name = <span class="stringliteral">&quot;invisible&quot;</span>;</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    this.m_skin = 12;</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.5 0.5 1&#39;</span>;</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;}</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(invisible, BUFF_INVISIBLE)</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a>(invis, BUFF_INVISIBLE)</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;</div>
+<div class="line"><a name="l00100"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a74d448d70d5e55e54c85493f4b37c0df">  100</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(INFERNO) {</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Inferno&quot;</span>);</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;    this.m_name = <span class="stringliteral">&quot;inferno&quot;</span>;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    this.m_skin = 16;</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0.62 0&#39;</span>;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;}</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(inferno, BUFF_INFERNO)</div>
+<div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;</div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a7511936b014064d695ad4438cd65eada">  108</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(SWAPPER) {</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Swapper&quot;</span>);</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    this.m_name = <span class="stringliteral">&quot;swapper&quot;</span>;</div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    this.m_skin = 17;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.63 0.36 1&#39;</span>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;}</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(swapper, BUFF_SWAPPER)</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;</div>
+<div class="line"><a name="l00116"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ab879a178631164ea00a4905ce8a3826c">  116</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(MAGNET) {</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Magnet&quot;</span>);</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    this.m_name = <span class="stringliteral">&quot;magnet&quot;</span>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    this.m_skin = 18;</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0.95 0.18&#39;</span>;</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;}</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(magnet, BUFF_MAGNET)</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;</div>
+<div class="line"><a name="l00124"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2dd0f3f919c755f75d4b34e310c90256">  124</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(LUCK) {</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Luck&quot;</span>);</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    this.m_name = <span class="stringliteral">&quot;luck&quot;</span>;</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    this.m_skin = 19;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    this.m_color = <span class="stringliteral">&#39;1 0.23 0.44&#39;</span>;</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;}</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(luck, BUFF_LUCK)</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;</div>
+<div class="line"><a name="l00132"></a><span class="lineno"><a class="line" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#ac4deda165917acf34f1961ca9f40a9ae">  132</a></span>&#160;<a class="code" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a>(FLIGHT) {</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    this.m_prettyName = _(<span class="stringliteral">&quot;Flight&quot;</span>);</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    this.m_name = <span class="stringliteral">&quot;flight&quot;</span>;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    this.m_skin = 11;</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    this.m_color = <span class="stringliteral">&#39;0.23 0.44 1&#39;</span>;</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;}</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;<a class="code" href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a>(flight, BUFF_FLIGHT)</div>
 <div class="ttc" id="subs_8qh_html_a7f7e4724cf57d59513b39c5ecc81adc8"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a></div><div class="ttdeci">float speed</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00028">subs.qh:28</a></div></div>
+<div class="ttc" id="mutators_2mutator_2buffs_2all_8inc_html_a529a82989f56f66e5eff2624e62fcea3"><div class="ttname"><a href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a529a82989f56f66e5eff2624e62fcea3">Buff_UndeprecateName</a></div><div class="ttdeci">string Buff_UndeprecateName(string buffname)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc_source.html#l00001">all.inc:1</a></div></div>
 <div class="ttc" id="buffs_8qh_html_a9997ae86c804cc3f269fd9e5e897085f"><div class="ttname"><a href="../../d6/d85/buffs_8qh.html#a9997ae86c804cc3f269fd9e5e897085f">BUFF_SPAWNFUNC_Q3TA_COMPAT</a></div><div class="ttdeci">#define BUFF_SPAWNFUNC_Q3TA_COMPAT(o, r)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d85/buffs_8qh_source.html#l00064">buffs.qh:64</a></div></div>
-<div class="ttc" id="mutators_2mutator_2buffs_2all_8inc_html_a540742e9b79646aefce62ff50913508c"><div class="ttname"><a href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a></div><div class="ttdeci">REGISTER_BUFF(AMMO)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc_source.html#l00001">all.inc:1</a></div></div>
+<div class="ttc" id="mutators_2mutator_2buffs_2all_8inc_html_a540742e9b79646aefce62ff50913508c"><div class="ttname"><a href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c">REGISTER_BUFF</a></div><div class="ttdeci">REGISTER_BUFF(AMMO)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc_source.html#l00013">all.inc:13</a></div></div>
 <div class="ttc" id="buffs_8qh_html_acf5cd2c3999b8d6a63ff62b00a9c13d3"><div class="ttname"><a href="../../d6/d85/buffs_8qh.html#acf5cd2c3999b8d6a63ff62b00a9c13d3">BUFF_SPAWNFUNCS</a></div><div class="ttdeci">#define BUFF_SPAWNFUNCS(e, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d85/buffs_8qh_source.html#l00063">buffs.qh:63</a></div></div>
 <div class="ttc" id="hud_8qh_html_a0271dc2cb812249454f2f348759a234c"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#a0271dc2cb812249454f2f348759a234c">ammo</a></div><div class="ttdeci">ammo</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00208">hud.qh:208</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
@@ -242,7 +255,7 @@ $(document).ready(function(){initNavTree('d0/da7/mutators_2mutator_2buffs_2all_8
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_07eb8bb3d19ce8165a5aaf6eac26591d.html">buffs</a></li><li class="navelem"><a class="el" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc.html">all.inc</a></li>
-    <li class="footer">Generated on Wed Feb 8 2017 18:02:36 for Xonotic by
+    <li class="footer">Generated on Thu Feb 9 2017 15:54:22 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

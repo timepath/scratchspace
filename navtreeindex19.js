@@ -1,5 +1,6 @@
 var NAVTREEINDEX19 =
 {
+"d2/db4/string_8qh.html#a7ae19107e234f5979441dd1a0572e957":[2,0,4,56,31],
 "d2/db4/string_8qh.html#a827d2f0d9478bc900e8d6dbaad405add":[2,0,4,56,33],
 "d2/db4/string_8qh.html#a836225e275d6595a6f0e1b644ea8ba30":[2,0,4,56,7],
 "d2/db4/string_8qh.html#a9623fe6650855d318e539830fc71fca9":[2,0,4,56,38],
@@ -248,6 +249,5 @@ var NAVTREEINDEX19 =
 "d2/dcc/classMutator.html":[1,0,80],
 "d2/dcc/classMutator.html#a09a37679634d01a8afa9f583b27ab664":[1,0,80,6],
 "d2/dcc/classMutator.html#a6e741c039b26ac7ce25ab38efe71a7c9":[1,0,80,3],
-"d2/dcc/classMutator.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,80,4],
-"d2/dcc/classMutator.html#a938ca89c9122771183bba8bd7c513635":[1,0,80,2]
+"d2/dcc/classMutator.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,80,4]
 };

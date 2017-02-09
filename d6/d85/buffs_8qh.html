@@ -152,6 +152,8 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a529a82989f56f66e5eff2624e62fcea3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d85/buffs_8qh.html#a529a82989f56f66e5eff2624e62fcea3">Buff_UndeprecateName</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> buffname)</td></tr>
+<tr class="separator:a529a82989f56f66e5eff2624e62fcea3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a03c0b2cbc8a5193a423a14bff9fdbc26"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d85/buffs_8qh.html#a03c0b2cbc8a5193a423a14bff9fdbc26">REGISTER_BUFF</a> (Null)</td></tr>
 <tr class="separator:a03c0b2cbc8a5193a423a14bff9fdbc26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73b233ccac900843bd13f88a0141258e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d85/buffs_8qh.html#a73b233ccac900843bd13f88a0141258e">STATIC_INIT</a> (REGISTER_BUFFS)</td></tr>
@@ -287,6 +289,34 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a class="anchor" id="a529a82989f56f66e5eff2624e62fcea3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> Buff_UndeprecateName </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td>
+          <td class="paramname"><em>buffname</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc_source.html#l00001">1</a> of file <a class="el" href="../../d0/da7/mutators_2mutator_2buffs_2all_8inc_source.html">all.inc</a>.</p>
+<div class="fragment"><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;{</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;    <span class="keywordflow">switch</span>(buffname)</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;    {</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;ammoregen&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;ammo&quot;</span>;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;haste&quot;</span>: <span class="keywordflow">case</span> <span class="stringliteral">&quot;scout&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;speed&quot;</span>;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;doubler&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;medic&quot;</span>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keywordflow">case</span> <span class="stringliteral">&quot;invis&quot;</span>: <span class="keywordflow">return</span> <span class="stringliteral">&quot;invisible&quot;</span>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">default</span>: <span class="keywordflow">return</span> buffname;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;    }</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;}</div>
+</div><!-- fragment -->
+</div>
+</div>
 <a class="anchor" id="a03c0b2cbc8a5193a423a14bff9fdbc26"></a>
 <div class="memitem">
 <div class="memproto">
@@ -350,7 +380,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_07eb8bb3d19ce8165a5aaf6eac26591d.html">buffs</a></li><li class="navelem"><a class="el" href="../../d6/d85/buffs_8qh.html">buffs.qh</a></li>
-    <li class="footer">Generated on Wed Feb 8 2017 18:02:44 for Xonotic by
+    <li class="footer">Generated on Thu Feb 9 2017 15:54:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

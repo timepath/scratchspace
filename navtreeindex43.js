@@ -1,5 +1,6 @@
 var NAVTREEINDEX43 =
 {
+"d4/dd6/minelayer_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,22,1],
 "d4/dd6/minelayer_8qc.html#a4ea001ea7bc3c5f29f7c98be8b5b2bde":[2,0,1,16,0,22,2],
 "d4/dd6/minelayer_8qc_source.html":[2,0,1,16,0,22],
 "d4/dd7/movetypes_8qh.html":[2,0,1,11,0,6],
@@ -248,6 +249,5 @@ var NAVTREEINDEX43 =
 "d4/df8/sv__touchexplode_8qc.html#a8dcb3e7f9e67cb4cd164f35b3aca50eb":[2,0,1,9,0,30,2,1],
 "d4/df8/sv__touchexplode_8qc.html#aa5b8411a2fbe2ecc99fd2f84a95cb9a8":[2,0,1,9,0,30,2,5],
 "d4/df8/sv__touchexplode_8qc.html#ab2da020259852f12fecd17406af3f1cc":[2,0,1,9,0,30,2,4],
-"d4/df8/sv__touchexplode_8qc.html#aee22c52bdd9324ade054f74e10dd5b81":[2,0,1,9,0,30,2,3],
-"d4/df8/sv__touchexplode_8qc.html#afda6710b7209f4510fcdf238cc39c40b":[2,0,1,9,0,30,2,2]
+"d4/df8/sv__touchexplode_8qc.html#aee22c52bdd9324ade054f74e10dd5b81":[2,0,1,9,0,30,2,3]
 };

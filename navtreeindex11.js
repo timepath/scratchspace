@@ -1,5 +1,6 @@
 var NAVTREEINDEX11 =
 {
+"d1/d70/classXonoticSoundList.html#a865c3e581a8ad897c1d408dea60aa6ba":[1,0,239,46],
 "d1/d70/classXonoticSoundList.html#a871b7c9437cb64eb7515939f085e4c14":[1,0,239,19],
 "d1/d70/classXonoticSoundList.html#a9115a3c2185e2fe3fac88d2a50f12875":[1,0,239,48],
 "d1/d70/classXonoticSoundList.html#a955acbbda432fb19399292cbac96e0af":[1,0,239,60],
@@ -248,6 +249,5 @@ var NAVTREEINDEX11 =
 "d1/d84/p2mathlib_8qh.html#a9201e3955f6431a4d4d766c0379d9909":[2,0,4,41,3],
 "d1/d84/p2mathlib_8qh.html#adc7a5707e259b7dde7430e2aaddde6c5":[2,0,4,41,4],
 "d1/d84/p2mathlib_8qh_source.html":[2,0,4,41],
-"d1/d8a/client_2weapons_2__mod_8qh.html":[2,0,0,3,1],
-"d1/d8a/client_2weapons_2__mod_8qh_source.html":[2,0,0,3,1]
+"d1/d8a/client_2weapons_2__mod_8qh.html":[2,0,0,3,1]
 };

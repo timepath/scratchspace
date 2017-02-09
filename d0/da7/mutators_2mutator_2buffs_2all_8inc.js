@@ -1,5 +1,6 @@
 var mutators_2mutator_2buffs_2all_8inc =
 [
+    [ "Buff_UndeprecateName", "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a529a82989f56f66e5eff2624e62fcea3", null ],
     [ "REGISTER_BUFF", "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a540742e9b79646aefce62ff50913508c", null ],
     [ "REGISTER_BUFF", "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a41b6701b1c6e96e3043c0019b527226c", null ],
     [ "REGISTER_BUFF", "d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a2d2a096950143f69fe15206eefa4d0eb", null ],

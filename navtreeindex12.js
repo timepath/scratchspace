@@ -1,5 +1,6 @@
 var NAVTREEINDEX12 =
 {
+"d1/d8a/client_2weapons_2__mod_8qh_source.html":[2,0,0,3,1],
 "d1/d8c/common_2triggers_2func_2__mod_8inc.html":[2,0,1,13,0,0],
 "d1/d8c/common_2triggers_2func_2__mod_8inc_source.html":[2,0,1,13,0,0],
 "d1/d8d/wall_8qc.html":[2,0,0,32],
@@ -248,6 +249,5 @@ var NAVTREEINDEX12 =
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,161,72],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,161,4],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,161,43],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,161,21],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,161,49]
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,161,21]
 };

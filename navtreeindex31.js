@@ -1,5 +1,6 @@
 var NAVTREEINDEX31 =
 {
+"d3/deb/dialog__multiplayer__media_8qh.html#a048e9d55578bbd55fa3acb96f76ad670":[2,0,5,4,99,1],
 "d3/deb/dialog__multiplayer__media_8qh_source.html":[2,0,5,4,99],
 "d3/def/sv__turrets_8qc.html":[2,0,1,14,13],
 "d3/def/sv__turrets_8qc_source.html":[2,0,1,14,13],
@@ -248,6 +249,5 @@ var NAVTREEINDEX31 =
 "d4/d0a/classXonoticMiscSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,205,72],
 "d4/d0a/classXonoticMiscSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,205,12],
 "d4/d0a/classXonoticMiscSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,205,73],
-"d4/d0a/classXonoticMiscSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,205,4],
-"d4/d0a/classXonoticMiscSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,205,47]
+"d4/d0a/classXonoticMiscSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,205,4]
 };

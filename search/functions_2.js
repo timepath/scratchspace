@@ -156,6 +156,7 @@ var searchData=
   ['buff_5fspawnreplacement',['buff_SpawnReplacement',['../d2/dac/sv__buffs_8qc.html#a2cf9b783310aee0fdbb30851e861e190',1,'sv_buffs.qc']]],
   ['buff_5fthink',['buff_Think',['../d2/dac/sv__buffs_8qc.html#a012236acf2fd257ecc57309d396d2908',1,'sv_buffs.qc']]],
   ['buff_5ftouch',['buff_Touch',['../d2/dac/sv__buffs_8qc.html#ac5ea9db4f8861b0eff5190ab80cd83eb',1,'sv_buffs.qc']]],
+  ['buff_5fundeprecatename',['Buff_UndeprecateName',['../d0/da7/mutators_2mutator_2buffs_2all_8inc.html#a529a82989f56f66e5eff2624e62fcea3',1,'Buff_UndeprecateName(string buffname):&#160;all.inc'],['../d6/d85/buffs_8qh.html#a529a82989f56f66e5eff2624e62fcea3',1,'Buff_UndeprecateName(string buffname):&#160;all.inc']]],
   ['buff_5fvengeance_5fdelayeddamage',['buff_Vengeance_DelayedDamage',['../d2/dac/sv__buffs_8qc.html#a9a53749a5ee7c8cade90a3cdb201c643',1,'sv_buffs.qc']]],
   ['buff_5fwaypoint_5freset',['buff_Waypoint_Reset',['../d2/dac/sv__buffs_8qc.html#a201b7fd343d87ffc649c5f8657574fbc',1,'sv_buffs.qc']]],
   ['buff_5fwaypoint_5fspawn',['buff_Waypoint_Spawn',['../d2/dac/sv__buffs_8qc.html#af41febcb8b97a071549120768e720661',1,'sv_buffs.qc']]],

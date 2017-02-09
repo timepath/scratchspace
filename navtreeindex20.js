@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"d2/dcc/classMutator.html#a938ca89c9122771183bba8bd7c513635":[1,0,80,2],
 "d2/dcc/classMutator.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,80,5],
 "d2/dcc/classMutator.html#adc060c9b91ac7921303125de0dabf3b0":[1,0,80,0],
 "d2/dcc/classMutator.html#aee392280d273f7fc4b90978563aa6f3c":[1,0,80,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX20 =
 "d2/dec/classXonoticServerList.html#a5713f90b33bb6b7fef6ef1eb9241d4ee":[1,0,232,5],
 "d2/dec/classXonoticServerList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,232,17],
 "d2/dec/classXonoticServerList.html#a5b9cac916f26d42ccc95594fcef61549":[1,0,232,10],
-"d2/dec/classXonoticServerList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,232,27],
-"d2/dec/classXonoticServerList.html#a624fef11142afaaabb589b5f9748e3ba":[1,0,232,81]
+"d2/dec/classXonoticServerList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,232,27]
 };

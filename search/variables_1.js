@@ -628,6 +628,7 @@ var searchData=
   ['autocvar_5fg_5fbuffs_5fdisability_5fslowtime',['autocvar_g_buffs_disability_slowtime',['../d8/dd8/sv__buffs_8qh.html#a3a7b8cb38386a1a5727768f91e22fabe',1,'sv_buffs.qh']]],
   ['autocvar_5fg_5fbuffs_5fdisability_5fspeed',['autocvar_g_buffs_disability_speed',['../d8/dd8/sv__buffs_8qh.html#afb0251b7484313d359a74447018fe070',1,'sv_buffs.qh']]],
   ['autocvar_5fg_5fbuffs_5fdisability_5fweaponspeed',['autocvar_g_buffs_disability_weaponspeed',['../d8/dd8/sv__buffs_8qh.html#aba42e8684b75b6487f469036d376e973',1,'sv_buffs.qh']]],
+  ['autocvar_5fg_5fbuffs_5fdrop',['autocvar_g_buffs_drop',['../d8/dd8/sv__buffs_8qh.html#ae83ceb60d9cd8deb909ceb3ef6e14e91',1,'sv_buffs.qh']]],
   ['autocvar_5fg_5fbuffs_5feffects',['autocvar_g_buffs_effects',['../d8/dd8/sv__buffs_8qh.html#a3a19f5b80ff5f5a3867d484cb5f79060',1,'sv_buffs.qh']]],
   ['autocvar_5fg_5fbuffs_5finferno_5fburntime_5ffactor',['autocvar_g_buffs_inferno_burntime_factor',['../d8/dd8/sv__buffs_8qh.html#a9a7786d9386aa54f7402850e457fce40',1,'sv_buffs.qh']]],
   ['autocvar_5fg_5fbuffs_5finferno_5fburntime_5fmin_5ftime',['autocvar_g_buffs_inferno_burntime_min_time',['../d8/dd8/sv__buffs_8qh.html#a2a9b9cdf8543c98190a01b95c634d4c9',1,'sv_buffs.qh']]],

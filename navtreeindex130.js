@@ -1,5 +1,8 @@
 var NAVTREEINDEX130 =
 {
+"df/dc3/common_2triggers_2trigger_2impulse_8qc.html#a98fefedc5aee88bee4b1e0574f1fa8bf":[2,0,1,13,3,18,1],
+"df/dc3/common_2triggers_2trigger_2impulse_8qc_source.html":[2,0,1,13,3,18],
+"df/dc7/ewheel__weapon_8qc.html":[2,0,1,14,0,4],
 "df/dc7/ewheel__weapon_8qc_source.html":[2,0,1,14,0,4],
 "df/dc9/aim_8qc.html":[2,0,6,0,0,3],
 "df/dc9/aim_8qc.html#a0a9f57cfe39f89603a6d3fc82738c957":[2,0,6,0,0,3,6],
@@ -246,8 +249,5 @@ var NAVTREEINDEX130 =
 "df/dd7/server_2client_8qc.html#a77ba4c685ebf7e80884df5fb16f6e587":[2,0,6,19,27],
 "df/dd7/server_2client_8qc.html#a796e7f6d76eff169d587d849ed8c29f0":[2,0,6,19,75],
 "df/dd7/server_2client_8qc.html#a7ffadf58adc998f1bedeafa971290500":[2,0,6,19,30],
-"df/dd7/server_2client_8qc.html#a81497331b22f9248fec442b8f1889f6c":[2,0,6,19,4],
-"df/dd7/server_2client_8qc.html#a85c92f8d62dbd468b7fd55f41b7eda21":[2,0,6,19,18],
-"df/dd7/server_2client_8qc.html#a86d11ca9bae40e7268a22973fe720d53":[2,0,6,19,36],
-"df/dd7/server_2client_8qc.html#a8dd80f958cebe7a215c3ebfd7895e623":[2,0,6,19,74]
+"df/dd7/server_2client_8qc.html#a81497331b22f9248fec442b8f1889f6c":[2,0,6,19,4]
 };
