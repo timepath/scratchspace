@@ -2311,7 +2311,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l02014"></a><span class="lineno"> 2014</span>&#160;                <span class="keywordflow">switch</span>(<a class="code" href="../../d6/dd3/view_8qc.html#a8e6e68292e567e79d51bb749a4f20edf">reticle_type</a>)</div>
 <div class="line"><a name="l02015"></a><span class="lineno"> 2015</span>&#160;                {</div>
 <div class="line"><a name="l02016"></a><span class="lineno"> 2016</span>&#160;                    <span class="keywordflow">case</span> 1: <a class="code" href="../../d8/de2/menudefs_8qc.html#aa466300ee80f2134cac8e75a7364ca31">drawpic</a>(reticle_pos, <span class="stringliteral">&quot;gfx/reticle_normal&quot;</span>, reticle_size, <span class="stringliteral">&#39;1 1 1&#39;</span>, f * <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#ab6c9a0903e0f0d3a7264bca6f92c0c2b">autocvar_cl_reticle_normal_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>); <span class="keywordflow">break</span>;</div>
-<div class="line"><a name="l02017"></a><span class="lineno"> 2017</span>&#160;                    <span class="keywordflow">case</span> 2: <a class="code" href="../../d8/de2/menudefs_8qc.html#aa466300ee80f2134cac8e75a7364ca31">drawpic</a>(reticle_pos, reticle_image, reticle_size, <span class="stringliteral">&#39;1 1 1&#39;</span>, f * <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a488de198c5428eaa24bf0dd7a6d2c9a1">autocvar_cl_reticle_weapon_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>); <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l02017"></a><span class="lineno"> 2017</span>&#160;                    <span class="keywordflow">case</span> 2: <span class="keywordflow">if</span>(reticle_image) <a class="code" href="../../d8/de2/menudefs_8qc.html#aa466300ee80f2134cac8e75a7364ca31">drawpic</a>(reticle_pos, reticle_image, reticle_size, <span class="stringliteral">&#39;1 1 1&#39;</span>, f * <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a488de198c5428eaa24bf0dd7a6d2c9a1">autocvar_cl_reticle_weapon_alpha</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a0b04e01c228e625bb2627bee15484910">DRAWFLAG_NORMAL</a>); <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l02018"></a><span class="lineno"> 2018</span>&#160;                }</div>
 <div class="line"><a name="l02019"></a><span class="lineno"> 2019</span>&#160;            }</div>
 <div class="line"><a name="l02020"></a><span class="lineno"> 2020</span>&#160;        }</div>
@@ -6579,7 +6579,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d6/dd3/view_8qc.html">view.qc</a></li>
-    <li class="footer">Generated on Fri Feb 10 2017 04:21:09 for Xonotic by
+    <li class="footer">Generated on Fri Feb 10 2017 13:15:14 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
