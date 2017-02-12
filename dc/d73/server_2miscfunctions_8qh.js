@@ -36,7 +36,7 @@ var server_2miscfunctions_8qh =
     [ "play2", "dc/d73/server_2miscfunctions_8qh.html#a3ad01a00f1af9d663eb5c97259434896", null ],
     [ "play2all", "dc/d73/server_2miscfunctions_8qh.html#aa5a5ed1fd369382ba21cb76e5803fdf3", null ],
     [ "play2team", "dc/d73/server_2miscfunctions_8qh.html#a410e46f892e7f134035c4afe149f8f27", null ],
-    [ "playername", "dc/d73/server_2miscfunctions_8qh.html#a1abfae15913cf4aed2d840b2f387f379", null ],
+    [ "playername", "dc/d73/server_2miscfunctions_8qh.html#a1889ccb32094735b4d97fbbb1ac4631b", null ],
     [ "precache", "dc/d73/server_2miscfunctions_8qh.html#a98a446c0272a8ef358d2113f9694a14a", null ],
     [ "precache_all_playermodels", "dc/d73/server_2miscfunctions_8qh.html#a5ea7bf591f44cf22ed52a48b1aa4f012", null ],
     [ "readlevelcvars", "dc/d73/server_2miscfunctions_8qh.html#ae29e06e5cb547b4c30dcb593cf967fdb", null ],
