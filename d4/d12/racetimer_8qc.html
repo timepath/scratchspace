@@ -359,7 +359,7 @@ Functions</h2></td></tr>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d12/racetimer_8qc_ab9a7c1bca2d8d5e98402f03d1997b9ca_cgraph.svg" width="560" height="524"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d12/racetimer_8qc_ab9a7c1bca2d8d5e98402f03d1997b9ca_cgraph.svg" width="560" height="575"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -410,7 +410,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d4/d12/racetimer_8qc_source.html#l00008">8</a> of file <a class="el" href="../../d4/d12/racetimer_8qc_source.html">racetimer.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/df2/common_2util_8qh.html#a8bc370cd891ba6f37167668cf84f9a67">ftos_decimals()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">TC</a>, <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00059">TIME_DECIMALS</a>, <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00065">TIME_ENCODE</a>, and <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00061">TIME_ENCODED_TOSTRING</a>.</p>
+<p>References <a class="el" href="../../d2/db4/string_8qh_source.html#l00070">ColorTranslateRGB()</a>, <a class="el" href="../../d5/df2/common_2util_8qh.html#a8bc370cd891ba6f37167668cf84f9a67">ftos_decimals()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat()</a>, <a class="el" href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">TC</a>, <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00059">TIME_DECIMALS</a>, <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00065">TIME_ENCODE</a>, and <a class="el" href="../../d5/df2/common_2util_8qh_source.html#l00061">TIME_ENCODED_TOSTRING</a>.</p>
 
 <p>Referenced by <a class="el" href="../../d4/d12/racetimer_8qc_source.html#l00077">HUD_RaceTimer()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;{</div>
@@ -478,13 +478,14 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(theirname == <span class="stringliteral">&quot;&quot;</span>)</div>
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(col, sprintf(<span class="stringliteral">&quot;%s (%s)&quot;</span>, cpname, timestr));</div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(col, sprintf(<span class="stringliteral">&quot;%s (%s %s)&quot;</span>, cpname, timestr, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(theirname, col, lapstr)));</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(col, sprintf(<span class="stringliteral">&quot;%s (%s %s)&quot;</span>, cpname, timestr, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d2/db4/string_8qh.html#a3488e2c949b50525d4581b92a1a32e60">ColorTranslateRGB</a>(theirname), col, lapstr)));</div>
 <div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;}</div>
 <div class="ttc" id="common_2util_8qh_html_a704c498a020ee983a4c8e851a2d42a78"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a704c498a020ee983a4c8e851a2d42a78">TIME_ENCODED_TOSTRING</a></div><div class="ttdeci">#define TIME_ENCODED_TOSTRING(n)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00061">util.qh:61</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a6307fb8c8358ecb4245f4c98e2423ee4"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a6307fb8c8358ecb4245f4c98e2423ee4">TIME_ENCODE</a></div><div class="ttdeci">#define TIME_ENCODE(t)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00065">util.qh:65</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad76dc2b2895cd23f21e008f12a686158"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a></div><div class="ttdeci">string strcat(string s1, string s2,...)</div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">_all.inc:56</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_a8bc370cd891ba6f37167668cf84f9a67"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a8bc370cd891ba6f37167668cf84f9a67">ftos_decimals</a></div><div class="ttdeci">string ftos_decimals(float number, float decimals)</div></div>
+<div class="ttc" id="string_8qh_html_a3488e2c949b50525d4581b92a1a32e60"><div class="ttname"><a href="../../d2/db4/string_8qh.html#a3488e2c949b50525d4581b92a1a32e60">ColorTranslateRGB</a></div><div class="ttdeci">string ColorTranslateRGB(string s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00070">string.qh:70</a></div></div>
 <div class="ttc" id="common_2util_8qh_html_abbaaeb3f374eaa19bf75019e91650c35"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#abbaaeb3f374eaa19bf75019e91650c35">TIME_DECIMALS</a></div><div class="ttdeci">const float TIME_DECIMALS</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/df2/common_2util_8qh_source.html#l00059">util.qh:59</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -492,7 +493,7 @@ Functions</h2></td></tr>
 <div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d12/racetimer_8qc_acf3c4bd6bb979c6b7e14f32742cd71dd_cgraph.svg" width="283" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d4/d12/racetimer_8qc_acf3c4bd6bb979c6b7e14f32742cd71dd_cgraph.svg" width="315" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -515,7 +516,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d4/d12/racetimer_8qc.html">racetimer.qc</a></li>
-    <li class="footer">Generated on Sun Feb 12 2017 00:31:41 for Xonotic by
+    <li class="footer">Generated on Sun Feb 12 2017 01:30:11 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
