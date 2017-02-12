@@ -864,7 +864,7 @@ Variables</h2></td></tr>
 <div id="dynsection-13-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-13-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d06/server_2command_2common_8qh_a774fd3d3251f86be8bd4429f74424adb_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d06/server_2command_2common_8qh_a774fd3d3251f86be8bd4429f74424adb_cgraph.svg" width="100%" height="556"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -906,7 +906,7 @@ Variables</h2></td></tr>
 <div id="dynsection-14-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-14-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d06/server_2command_2common_8qh_aeb66fd9ff298b82d93e8f139d80463bc_cgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d06/server_2command_2common_8qh_aeb66fd9ff298b82d93e8f139d80463bc_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -2156,7 +2156,7 @@ Variables</h2></td></tr>
 <div id="dynsection-45-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-45-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d06/server_2command_2common_8qh_adec5beea0eb482cca311241bfea7f9b4_cgraph.svg" width="520" height="291"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d06/server_2command_2common_8qh_adec5beea0eb482cca311241bfea7f9b4_cgraph.svg" width="100%" height="518"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -2303,7 +2303,7 @@ Variables</h2></td></tr>
 <div id="dynsection-47-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-47-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d06/server_2command_2common_8qh_a5bd0a78f0037b83dc55a9c9c7ecb9848_cgraph.svg" width="595" height="418"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../d2/d06/server_2command_2common_8qh_a5bd0a78f0037b83dc55a9c9c7ecb9848_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -2470,13 +2470,14 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00025">25</a> of file <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html">common.qc</a>.</p>
 
-<p>References <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00064">admin_name()</a>.</p>
+<p>References <a class="el" href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00064">admin_name()</a>, and <a class="el" href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00161">playername()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00646">CommonCommand_timein()</a>, <a class="el" href="../../de/d55/server_2command_2common_8qc_source.html#l00701">CommonCommand_timeout()</a>, <a class="el" href="../../d3/df2/sv__cmd_8qc_source.html#l01395">GameCommand_stuffto()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00748">VoteCommand_call()</a>, <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00832">VoteCommand_master()</a>, and <a class="el" href="../../d1/dad/server_2command_2vote_8qc_source.html#l00145">VoteStop()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;{</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">if</span> (caller) <span class="keywordflow">return</span> caller.netname;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="keywordflow">if</span> (caller) <span class="keywordflow">return</span> <a class="code" href="../../dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe">playername</a>(caller, <span class="keyword">false</span>);</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">return</span> <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a4e69debd65c39578e6ce4356e7354839">admin_name</a>();  <span class="comment">// ((autocvar_sv_adminnick != &quot;&quot;) ? autocvar_sv_adminnick : autocvar_hostname);</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;}</div>
+<div class="ttc" id="client_2miscfunctions_8qc_html_a7818c3bb6c4bd63ffb9cf8ad1e23f8fe"><div class="ttname"><a href="../../dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe">playername</a></div><div class="ttdeci">string playername(string thename, float teamid)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d98/client_2miscfunctions_8qc_source.html#l00161">miscfunctions.qc:161</a></div></div>
 <div class="ttc" id="server_2miscfunctions_8qc_html_a4e69debd65c39578e6ce4356e7354839"><div class="ttname"><a href="../../dc/dc6/server_2miscfunctions_8qc.html#a4e69debd65c39578e6ce4356e7354839">admin_name</a></div><div class="ttdeci">string admin_name()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/dc6/server_2miscfunctions_8qc_source.html#l00064">miscfunctions.qc:64</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-51" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2484,7 +2485,7 @@ Variables</h2></td></tr>
 <div id="dynsection-51-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-51-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d06/server_2command_2common_8qh_af86ebd442e5bd6b2d6b51ce1276847b6_cgraph.svg" width="267" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../d2/d06/server_2command_2common_8qh_af86ebd442e5bd6b2d6b51ce1276847b6_cgraph.svg" width="440" height="114"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -3546,7 +3547,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_8a87120786ccfc907eed32da78bf9505.html">command</a></li><li class="navelem"><a class="el" href="../../d2/d06/server_2command_2common_8qh.html">common.qh</a></li>
-    <li class="footer">Generated on Sun Feb 12 2017 07:04:54 for Xonotic by
+    <li class="footer">Generated on Sun Feb 12 2017 07:42:17 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
