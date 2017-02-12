@@ -2634,7 +2634,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l01170"></a><span class="lineno"> 1170</span>&#160;                <a class="code" href="../../d8/de2/menudefs_8qc.html#ab64c3a0e7d347975b8b7a5cd17ab0113">strunzone</a>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a73ebcacb07f95089fb8a7e440c8cdfc1">grecordholder</a>[pos-1]);</div>
 <div class="line"><a name="l01171"></a><span class="lineno"> 1171</span>&#160;            <a class="code" href="../../d0/d2a/client_2main_8qh.html#a73ebcacb07f95089fb8a7e440c8cdfc1">grecordholder</a>[pos-1] = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d4/db7/cl__minigames_8qc.html#ac03fadfb499a7d7775c099e7d03c2bb2">ReadString</a>());</div>
 <div class="line"><a name="l01172"></a><span class="lineno"> 1172</span>&#160;            <a class="code" href="../../d0/d2a/client_2main_8qh.html#a208eb700ebf0004c052acb8dfb602deb">grecordtime</a>[pos-1] = ReadInt24_t();</div>
-<div class="line"><a name="l01173"></a><span class="lineno"> 1173</span>&#160;            <span class="keywordflow">if</span>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a73ebcacb07f95089fb8a7e440c8cdfc1">grecordholder</a>[pos-1] == entcs_GetName(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a58ed33525b1e1a9e60f989f03f488503">player_localnum</a>))</div>
+<div class="line"><a name="l01173"></a><span class="lineno"> 1173</span>&#160;            <span class="keywordflow">if</span>(strdecolorize(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a73ebcacb07f95089fb8a7e440c8cdfc1">grecordholder</a>[pos-1]) == strdecolorize(entcs_GetName(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a58ed33525b1e1a9e60f989f03f488503">player_localnum</a>)))</div>
 <div class="line"><a name="l01174"></a><span class="lineno"> 1174</span>&#160;                <a class="code" href="../../d9/d08/client_2defs_8qh.html#a01abf7b3e592cec08aab4327a3d18cc3">race_myrank</a> = pos;</div>
 <div class="line"><a name="l01175"></a><span class="lineno"> 1175</span>&#160;            <span class="keywordflow">break</span>;</div>
 <div class="line"><a name="l01176"></a><span class="lineno"> 1176</span>&#160;        <span class="keywordflow">case</span> <a class="code" href="../../d5/d08/net__linked_8qh.html#a5b202eff03c220285a469372bca5ffc5">RACE_NET_SERVER_STATUS</a>:</div>
@@ -3421,7 +3421,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../df/d30/client_2main_8qc.html">main.qc</a></li>
-    <li class="footer">Generated on Sun Feb 12 2017 02:33:49 for Xonotic by
+    <li class="footer">Generated on Sun Feb 12 2017 03:18:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
