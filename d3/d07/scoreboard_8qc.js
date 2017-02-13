@@ -16,6 +16,7 @@ var scoreboard_8qc =
     [ "Scoreboard_DrawOthers", "d3/d07/scoreboard_8qc.html#ac12dde29fbf9350b0c56e6a803073a92", null ],
     [ "Scoreboard_FixColumnWidth", "d3/d07/scoreboard_8qc.html#a36a31aac666698e313d2f8ac1f6f27ed", null ],
     [ "Scoreboard_GetField", "d3/d07/scoreboard_8qc.html#a688eb9831da6cf8bd965645e3d417943", null ],
+    [ "Scoreboard_GetName", "d3/d07/scoreboard_8qc.html#aede2e6f0f25dfc903c78bb06f7be0fbe", null ],
     [ "Scoreboard_initFieldSizes", "d3/d07/scoreboard_8qc.html#a789b5756e8bf6b37f3b5312562ec974c", null ],
     [ "Scoreboard_InitScores", "d3/d07/scoreboard_8qc.html#a5b2b75e2e6c4267b05ae1cb44c20329f", null ],
     [ "Scoreboard_MakeTable", "d3/d07/scoreboard_8qc.html#a7c39c9361e93dd735561011ae5207b25", null ],

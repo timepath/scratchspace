@@ -1,5 +1,6 @@
 var NAVTREEINDEX106 =
 {
+"dc/d4c/pong_8qh.html":[2,0,1,6,0,10],
 "dc/d4c/pong_8qh_source.html":[2,0,1,6,0,10],
 "dc/d4f/dialog__hudpanel__radar_8qh.html":[2,0,5,4,73],
 "dc/d4f/dialog__hudpanel__radar_8qh_source.html":[2,0,5,4,73],
@@ -248,6 +249,5 @@ var NAVTREEINDEX106 =
 "dc/d73/server_2miscfunctions_8qh.html#adb0c9d5f168232cba75dd2dbdb093831":[2,0,6,46,86],
 "dc/d73/server_2miscfunctions_8qh.html#adb60a180886d4dfa682f79bf827c5ce4":[2,0,6,46,29],
 "dc/d73/server_2miscfunctions_8qh.html#adba1cb8eef73dcbafa3b88f35c28ffbf":[2,0,6,46,89],
-"dc/d73/server_2miscfunctions_8qh.html#ae29e06e5cb547b4c30dcb593cf967fdb":[2,0,6,46,39],
-"dc/d73/server_2miscfunctions_8qh.html#ae2af274123d9eb356c89a1d02c121820":[2,0,6,46,84]
+"dc/d73/server_2miscfunctions_8qh.html#ae29e06e5cb547b4c30dcb593cf967fdb":[2,0,6,46,39]
 };

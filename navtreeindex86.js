@@ -1,5 +1,6 @@
 var NAVTREEINDEX86 =
 {
+"d9/df7/mathlib_8qh.html#a139f746835216f57f1e806999b218879":[2,0,4,2,9,20],
 "d9/df7/mathlib_8qh.html#a158886f22ae8ba0b159e605acf44ca8d":[2,0,4,2,9,67],
 "d9/df7/mathlib_8qh.html#a171dc5214a5ab4f34af050a2ba282658":[2,0,4,2,9,24],
 "d9/df7/mathlib_8qh.html#a1773a44b229521bc3921582f6d39cbfd":[2,0,4,2,9,8],
@@ -248,6 +249,5 @@ var NAVTREEINDEX86 =
 "da/d20/spawnfunc_8qh.html#acf818192a10457d834cc057718d25ad3":[2,0,4,53,16],
 "da/d20/spawnfunc_8qh_source.html":[2,0,4,53],
 "da/d21/dialog__hudpanel__pressedkeys_8qc.html":[2,0,5,4,66],
-"da/d21/dialog__hudpanel__pressedkeys_8qc.html#a50ac86a8aff6a80ee0e343981f9027b8":[2,0,5,4,66,0],
-"da/d21/dialog__hudpanel__pressedkeys_8qc_source.html":[2,0,5,4,66]
+"da/d21/dialog__hudpanel__pressedkeys_8qc.html#a50ac86a8aff6a80ee0e343981f9027b8":[2,0,5,4,66,0]
 };

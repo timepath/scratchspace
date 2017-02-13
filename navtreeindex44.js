@@ -1,5 +1,6 @@
 var NAVTREEINDEX44 =
 {
+"d4/df8/sv__touchexplode_8qc.html#aee22c52bdd9324ade054f74e10dd5b81":[2,0,1,9,0,30,2,3],
 "d4/df8/sv__touchexplode_8qc.html#afda6710b7209f4510fcdf238cc39c40b":[2,0,1,9,0,30,2,2],
 "d4/df8/sv__touchexplode_8qc_source.html":[2,0,1,9,0,30,2],
 "d4/df9/sv__rocketflying_8qh.html":[2,0,1,9,0,24,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX44 =
 "d5/d26/server_2defs_8qh.html#a3fd2d994c3cac42100d3818ec0dd1095":[2,0,6,22,111],
 "d5/d26/server_2defs_8qh.html#a407d3e93d4ccecee0692a04a1feee5b6":[2,0,6,22,100],
 "d5/d26/server_2defs_8qh.html#a419ab93e1e949922dba4a85c64a2f131":[2,0,6,22,105],
-"d5/d26/server_2defs_8qh.html#a41fa1b446e3bb2f0e5320753d6c76ce1":[2,0,6,22,62],
-"d5/d26/server_2defs_8qh.html#a424cdec2e704031834c5827181d1c676":[2,0,6,22,229]
+"d5/d26/server_2defs_8qh.html#a41fa1b446e3bb2f0e5320753d6c76ce1":[2,0,6,22,62]
 };
