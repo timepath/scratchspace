@@ -33,6 +33,7 @@ var quake3_8qc =
     [ "spawnfunc", "df/d42/quake3_8qc.html#a1e58f91ba9d3bb30d931aae6c774383e", null ],
     [ "spawnfunc", "df/d42/quake3_8qc.html#aeef370963dd54a0561fe2c257a5ca79d", null ],
     [ "spawnfunc", "df/d42/quake3_8qc.html#a1476ee0498a3900b1d622081d4d7e5db", null ],
+    [ "spawnfunc", "df/d42/quake3_8qc.html#a59fd013b2e7a81c868b43ac3ce43d564", null ],
     [ "spawnfunc", "df/d42/quake3_8qc.html#ae6af28f0406185d406556f691af0f8f2", null ],
     [ "spawnfunc", "df/d42/quake3_8qc.html#a4dd02ae75f61d8a4517454c8e6f82f1e", null ],
     [ "spawnfunc", "df/d42/quake3_8qc.html#a4d0d09d3511c598ce082f7bccc525ea3", null ],

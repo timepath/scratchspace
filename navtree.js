@@ -155,13 +155,13 @@ var NAVTREEINDEX =
 "de/dcb/classMageSpike.html#a148f0ac2aabc8676f55a902b199eeed1",
 "df/d05/cl__model_8qh.html#a075440bd5f3803f15b4507c99d0c2bf9",
 "df/d27/classXonoticPicker.html#afc9428d371ed63dd0316db5558e81d30",
-"df/d4a/common_2triggers_2trigger_2impulse_8qh.html",
-"df/d75/keybinder_8qc.html#a8b88a14dde16d0dd2ca22cff1ba7a2b7",
-"df/d97/menu_2xonotic_2util_8qh.html#ada73b695059752dc4c9de93567017ca8",
-"df/dc3/common_2triggers_2trigger_2impulse_8qc.html#a873c8e624175533b64830ab7bffea92b",
-"df/dd7/server_2client_8qc.html#a81497331b22f9248fec442b8f1889f6c",
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aafecc9299a80c35e84220bee81f1e3ff",
-"globals_defs_u.html"
+"df/d49/classSound.html#ad3474b173c3cc7d35fa96a04929d0378",
+"df/d75/keybinder_8qc.html#a8a4e76d61ea24d2bf22adf37d2bea543",
+"df/d97/menu_2xonotic_2util_8qh.html#ada089929e2d22881f9aba7db23de0141",
+"df/dc3/common_2triggers_2trigger_2impulse_8qc.html#a774d6096af92988390354cb8d9b0f428",
+"df/dd7/server_2client_8qc.html#a7ffadf58adc998f1bedeafa971290500",
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aa8f585367ffe7378369f1b539ee67dbc",
+"globals_defs_t.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
