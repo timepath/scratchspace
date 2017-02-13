@@ -1,5 +1,7 @@
 var NAVTREEINDEX108 =
 {
+"dc/d98/client_2miscfunctions_8qc.html#a6caf2e0c66aa3cfa4a63689e650de692":[2,0,0,21,31],
+"dc/d98/client_2miscfunctions_8qc.html#a6d052d69b73c05b41ab3c1636778baa7":[2,0,0,21,5],
 "dc/d98/client_2miscfunctions_8qc.html#a7818c3bb6c4bd63ffb9cf8ad1e23f8fe":[2,0,0,21,25],
 "dc/d98/client_2miscfunctions_8qc.html#a83450b42c92a0e2b70458b403babf766":[2,0,0,21,0],
 "dc/d98/client_2miscfunctions_8qc.html#a86f3b2cd373f7b6bdcc0b20556046294":[2,0,0,21,8],
@@ -247,7 +249,5 @@ var NAVTREEINDEX108 =
 "dc/db5/dialog__multiplayer__join__serverinfo_8qc.html#a567cd2b4d67b6bc962b9aaa65762971c":[2,0,5,4,96,2],
 "dc/db5/dialog__multiplayer__join__serverinfo_8qc.html#a56ee037407a7ee76f8ba10b509d09177":[2,0,5,4,96,0],
 "dc/db5/dialog__multiplayer__join__serverinfo_8qc.html#ad3b1c860ed1678dcc598ca80ff61eb26":[2,0,5,4,96,1],
-"dc/db5/dialog__multiplayer__join__serverinfo_8qc_source.html":[2,0,5,4,96],
-"dc/db9/utility_8qh.html":[2,0,6,4,16],
-"dc/db9/utility_8qh.html#a87ab6b8926bb5587a28d323202f59791":[2,0,6,4,16,0]
+"dc/db5/dialog__multiplayer__join__serverinfo_8qc_source.html":[2,0,5,4,96]
 };

@@ -10,6 +10,7 @@ var gamemode__cts_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d5/d69/gamemode__cts_8qc.html#a5471fc5c9b0a3da53c323c4f14ab3cfc", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d69/gamemode__cts_8qc.html#afcc761ec5d37bff059a0739d34f96a7a", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d69/gamemode__cts_8qc.html#a3ac72324ed619c6db0947c5757caa66c", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d5/d69/gamemode__cts_8qc.html#a23fcf3af0b75028001aa25628d8a4076", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d69/gamemode__cts_8qc.html#a911c5e2dffd8ad9a50d06e4d65fbdfcf", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d69/gamemode__cts_8qc.html#a120c9ac84851892b043448221bb11872", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/d69/gamemode__cts_8qc.html#a51b423f8aceb9324fbc153df573d85ac", null ],

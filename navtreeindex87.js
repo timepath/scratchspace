@@ -1,5 +1,7 @@
 var NAVTREEINDEX87 =
 {
+"da/d20/spawnfunc_8qh_source.html":[2,0,4,53],
+"da/d21/dialog__hudpanel__pressedkeys_8qc.html":[2,0,5,4,66],
 "da/d21/dialog__hudpanel__pressedkeys_8qc.html#a50ac86a8aff6a80ee0e343981f9027b8":[2,0,5,4,66,0],
 "da/d21/dialog__hudpanel__pressedkeys_8qc_source.html":[2,0,5,4,66],
 "da/d21/hudskinlist_8qc.html":[2,0,5,4,166],
@@ -247,7 +249,5 @@ var NAVTREEINDEX87 =
 "da/d46/classMLRSTurret.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,74,4],
 "da/d46/classMLRSTurret.html#af0d1789cf260770caa9002a133a661d7":[1,0,74,0],
 "da/d46/picker_8qc.html":[2,0,5,4,184],
-"da/d46/picker_8qc.html#a132ba96da5ba28448b61e42c019312a9":[2,0,5,4,184,12],
-"da/d46/picker_8qc.html#a31daa00a20ea0b0228b3a664c8e90483":[2,0,5,4,184,0],
-"da/d46/picker_8qc.html#a382a506870e86943c234ec726e664984":[2,0,5,4,184,1]
+"da/d46/picker_8qc.html#a132ba96da5ba28448b61e42c019312a9":[2,0,5,4,184,12]
 };

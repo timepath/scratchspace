@@ -756,7 +756,7 @@ var searchData=
   ['autocvar_5ffov',['autocvar_fov',['../d7/db4/client_2autocvars_8qh.html#adb22eab503c5f59c25e7582afb477b4b',1,'autocvars.qh']]],
   ['autocvar_5ffraglimit',['autocvar_fraglimit',['../d7/da7/server_2autocvars_8qh.html#a8a6d4e01c1bf7ee60bff698bfb70b9b6',1,'autocvars.qh']]],
   ['autocvar_5ffraglimit_5foverride',['autocvar_fraglimit_override',['../d7/da7/server_2autocvars_8qh.html#a99bc9bfac428a066d85ba0e8bef60b7d',1,'autocvars.qh']]],
-  ['autocvar_5fg_5fallow_5fcheckpoints',['autocvar_g_allow_checkpoints',['../d6/de9/cheats_8qc.html#a01881b5a20f0b9258777a05de0e7f45c',1,'cheats.qc']]],
+  ['autocvar_5fg_5fallow_5fcheckpoints',['autocvar_g_allow_checkpoints',['../d7/da7/server_2autocvars_8qh.html#a01881b5a20f0b9258777a05de0e7f45c',1,'autocvars.qh']]],
   ['autocvar_5fg_5fallow_5foldvortexbeam',['autocvar_g_allow_oldvortexbeam',['../d7/da7/server_2autocvars_8qh.html#ad72cbea4955bee5db1df37deb3dd4e67',1,'autocvars.qh']]],
   ['autocvar_5fg_5fantilag',['autocvar_g_antilag',['../d7/da7/server_2autocvars_8qh.html#aeffee9458d2c270024cec552c5a66190',1,'autocvars.qh']]],
   ['autocvar_5fg_5fantilag_5fnudge',['autocvar_g_antilag_nudge',['../d7/da7/server_2autocvars_8qh.html#aaaed169479ef3f4a58896e29e9af6575',1,'autocvars.qh']]],

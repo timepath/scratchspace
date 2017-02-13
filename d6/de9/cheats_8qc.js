@@ -27,7 +27,6 @@ var cheats_8qc =
     [ "DragBox_Think", "d6/de9/cheats_8qc.html#a2fcc7654979b1be3219cf09be9f64812", null ],
     [ "info_autoscreenshot_findtarget", "d6/de9/cheats_8qc.html#a62bc88be90a8739d8745f255f67a3784", null ],
     [ "spawnfunc", "d6/de9/cheats_8qc.html#a580c3216a921599702196e2319b0369a", null ],
-    [ "autocvar_g_allow_checkpoints", "d6/de9/cheats_8qc.html#a01881b5a20f0b9258777a05de0e7f45c", null ],
     [ "drag_lastcnt", "d6/de9/cheats_8qc.html#addaa80f08a1814656fc04b113d1bdc3e", null ],
     [ "dragdistance", "d6/de9/cheats_8qc.html#a5bf256913f364a79d21892198533d829", null ],
     [ "dragentity", "d6/de9/cheats_8qc.html#a5f3faa59bd505c237969c4587107e2c2", null ],

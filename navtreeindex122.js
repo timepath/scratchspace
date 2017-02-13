@@ -1,5 +1,7 @@
 var NAVTREEINDEX122 =
 {
+"de/d70/common_2physics_2player_8qh.html#a11d9c9e85f9f60c7c44094d0f69f8f69":[2,0,1,11,7,20],
+"de/d70/common_2physics_2player_8qh.html#a1334a71146999f9285f3d037c7f9a404":[2,0,1,11,7,86],
 "de/d70/common_2physics_2player_8qh.html#a13e34b83c43f2a76344e78d654886731":[2,0,1,11,7,34],
 "de/d70/common_2physics_2player_8qh.html#a1465200abf88b22609d4cb4badf408a8":[2,0,1,11,7,51],
 "de/d70/common_2physics_2player_8qh.html#a1b0a438d266d9ef604392b0c167dae00":[2,0,1,11,7,68],
@@ -247,7 +249,5 @@ var NAVTREEINDEX122 =
 "de/d8c/classWyvernAttack.html":[1,0,138],
 "de/d8c/classWyvernAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,138,33],
 "de/d8c/classWyvernAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,138,19],
-"de/d8c/classWyvernAttack.html#a16ceef67c41097efd03c34fd26c40791":[1,0,138,32],
-"de/d8c/classWyvernAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,138,18],
-"de/d8c/classWyvernAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,138,30]
+"de/d8c/classWyvernAttack.html#a16ceef67c41097efd03c34fd26c40791":[1,0,138,32]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX124 =
 {
+"de/dc5/dialog__settings__effects_8qh_source.html":[2,0,5,4,123],
+"de/dcb/classMageSpike.html":[1,0,71],
 "de/dcb/classMageSpike.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,71,33],
 "de/dcb/classMageSpike.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,71,19],
 "de/dcb/classMageSpike.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,71,18],
@@ -247,7 +249,5 @@ var NAVTREEINDEX124 =
 "df/d00/sv__rocketminsta_8qc.html#a30fd30284f143ca24b319468fd0a0b0b":[2,0,1,9,0,25,2,0],
 "df/d00/sv__rocketminsta_8qc.html#a60f0bea353a8c82d3029eec7db935e74":[2,0,1,9,0,25,2,2],
 "df/d00/sv__rocketminsta_8qc.html#af117505b73d3fe91e1f7d13bd5a5a1bf":[2,0,1,9,0,25,2,1],
-"df/d00/sv__rocketminsta_8qc_source.html":[2,0,1,9,0,25,2],
-"df/d02/electro_8qh.html":[2,0,1,16,0,11],
-"df/d02/electro_8qh_source.html":[2,0,1,16,0,11]
+"df/d00/sv__rocketminsta_8qc_source.html":[2,0,1,9,0,25,2]
 };
