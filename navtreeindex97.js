@@ -1,5 +1,6 @@
 var NAVTREEINDEX97 =
 {
+"db/d5b/classXonoticGameMessageSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,167,36],
 "db/d5b/classXonoticGameMessageSettingsTab.html#adef013d607169a04d589883de0501c09":[1,0,167,29],
 "db/d5b/classXonoticGameMessageSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,167,64],
 "db/d5b/classXonoticGameMessageSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,167,93],
@@ -248,6 +249,5 @@ var NAVTREEINDEX97 =
 "db/d7f/effectinfo_8inc.html#a2b5d9e1d3be4bfbba280f9e78f7c4d5c":[2,0,1,2,7,48],
 "db/d7f/effectinfo_8inc.html#a2bbacca15525b1904ae0e4abe66f9074":[2,0,1,2,7,137],
 "db/d7f/effectinfo_8inc.html#a2f757a6a091a5c78f14142714b99a7e1":[2,0,1,2,7,248],
-"db/d7f/effectinfo_8inc.html#a30d6ce3a7956688f7a0a54e934ed0d12":[2,0,1,2,7,257],
-"db/d7f/effectinfo_8inc.html#a30e7aa91d760db30635722a0dbabd78a":[2,0,1,2,7,78]
+"db/d7f/effectinfo_8inc.html#a30d6ce3a7956688f7a0a54e934ed0d12":[2,0,1,2,7,257]
 };
