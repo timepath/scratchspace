@@ -35,7 +35,6 @@ var sv__instagib_8qc =
     [ "autocvar_g_instagib_ammo_convert_cells", "d4/db0/sv__instagib_8qc.html#a1286f970b5765b4dbbc76d9fd9ecefc3", null ],
     [ "autocvar_g_instagib_ammo_convert_rockets", "d4/db0/sv__instagib_8qc.html#af9001132951b56cd5f5c292620d5ad9b", null ],
     [ "autocvar_g_instagib_ammo_convert_shells", "d4/db0/sv__instagib_8qc.html#a9eb0468be58d5c218ee83eb6fec9bb9a", null ],
-    [ "autocvar_g_instagib_ammo_drop", "d4/db0/sv__instagib_8qc.html#a763620e2ca9a858f49f7569e29ccfcc1", null ],
     [ "autocvar_g_instagib_extralives", "d4/db0/sv__instagib_8qc.html#a2d7bbdfa38ab999cc346103fcae515da", null ],
     [ "autocvar_g_instagib_speed_highspeed", "d4/db0/sv__instagib_8qc.html#ad1fd29211b9a3896b05bd64a4d7f746b", null ],
     [ "instagib_needammo", "d4/db0/sv__instagib_8qc.html#a554958a3958a9d1c380533878187ce8c", null ],

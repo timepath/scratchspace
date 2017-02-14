@@ -317,7 +317,6 @@ var searchData=
   ['str_5fplayer',['STR_PLAYER',['../d9/ddc/server_2__all_8qh.html#a6d7a69bf23135f01c35168a97594727b',1,'_all.qh']]],
   ['str_5fspectator',['STR_SPECTATOR',['../d9/ddc/server_2__all_8qh.html#a165d1782a494d02c02e51cd5f2161567',1,'_all.qh']]],
   ['strength',['strength',['../df/d4a/common_2triggers_2trigger_2impulse_8qh.html#a2c1c8f9331368f38bfc3eaee260b59a6',1,'impulse.qh']]],
-  ['strength_5ffinished',['strength_finished',['../d5/d26/server_2defs_8qh.html#a0ec5aa05174d4862f21277da2eeeea98',1,'defs.qh']]],
   ['string_5fnull',['string_null',['../d1/df7/nil_8qh.html#a65f88f2259b9759aaa31319a73f48b91',1,'nil.qh']]],
   ['style',['style',['../de/d5e/dpextensions_8qc.html#a2ff8b7b8c248963bd9d58f6215f56a3d',1,'dpextensions.qc']]],
   ['sub_5ftarget_5fused',['sub_target_used',['../d6/d25/triggers_8qh.html#ad436493b25a31e8a63b532fe3b98fa5b',1,'triggers.qh']]],

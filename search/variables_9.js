@@ -92,7 +92,6 @@ var searchData=
   ['inventory_5fgroups_5fmajor',['Inventory_groups_major',['../dc/d9d/inventory_8qh.html#a6cbc7eee7f07178ed928e8a0e372d653',1,'inventory.qh']]],
   ['inventory_5fgroups_5fminor',['Inventory_groups_minor',['../dc/d9d/inventory_8qh.html#a64247a1cab15bcca142d91356c9b5a6f',1,'inventory.qh']]],
   ['inverted',['inverted',['../db/d38/classXonoticSliderCheckBox.html#aa01a173776bd8cd643fbdf9fed30efba',1,'XonoticSliderCheckBox']]],
-  ['invincible_5ffinished',['invincible_finished',['../d5/d26/server_2defs_8qh.html#ad72ac967fff2b7aa6853058d8d510023',1,'defs.qh']]],
   ['iorigin1',['iorigin1',['../d7/d06/interpolate_8qc.html#a755e5b096c1fbd561b614e6f860d612c',1,'interpolate.qc']]],
   ['iorigin2',['iorigin2',['../dc/dc7/projectile_8qh.html#a94378845a3c4417c9029635f61ec46c6',1,'iorigin2():&#160;projectile.qh'],['../d7/d06/interpolate_8qc.html#ad7284f196cee2ed5c0b57d8a050fee93',1,'iorigin2():&#160;interpolate.qc']]],
   ['ipaddressboxfocused',['ipAddressBoxFocused',['../d2/dec/classXonoticServerList.html#a3507737669a3f8c5a665381119f54754',1,'XonoticServerList']]],

@@ -234,7 +234,6 @@ var searchData=
   ['inventory_5fnew',['Inventory_new',['../d0/d3f/state_8qc.html#aa1a946175f717b382d97902b506dd23b',1,'state.qc']]],
   ['inverted',['inverted',['../db/d38/classXonoticSliderCheckBox.html#aa01a173776bd8cd643fbdf9fed30efba',1,'XonoticSliderCheckBox']]],
   ['invertlengthlog',['invertLengthLog',['../da/d44/common_2util_8qc.html#afbccfaabcc4c584455aa3a16fa07d7cd',1,'util.qc']]],
-  ['invincible_5ffinished',['invincible_finished',['../d5/d26/server_2defs_8qh.html#ad72ac967fff2b7aa6853058d8d510023',1,'defs.qh']]],
   ['invite_5fminigame',['invite_minigame',['../d7/d33/sv__minigames_8qc.html#ad8020a414daf2b7cd018d5e8bc4f5e6e',1,'invite_minigame(entity inviter, entity player):&#160;sv_minigames.qc'],['../d3/df9/sv__minigames_8qh.html#ad8020a414daf2b7cd018d5e8bc4f5e6e',1,'invite_minigame(entity inviter, entity player):&#160;sv_minigames.qc']]],
   ['inwater',['inwater',['../dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3',1,'pathlib.qh']]],
   ['iorigin1',['iorigin1',['../d7/d06/interpolate_8qc.html#a755e5b096c1fbd561b614e6f860d612c',1,'interpolate.qc']]],
