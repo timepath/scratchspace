@@ -1,5 +1,12 @@
 var NAVTREEINDEX131 =
 {
+"df/dd7/server_2client_8qc.html#abb43661b53918e8dd74994ad785b876f":[2,0,6,19,54],
+"df/dd7/server_2client_8qc.html#abcb65a45d0fdc442693ce1ae87579b2a":[2,0,6,19,72],
+"df/dd7/server_2client_8qc.html#ac4842064b7f7b032f654e24f1fa5a155":[2,0,6,19,39],
+"df/dd7/server_2client_8qc.html#ac4f7e6fc7e9a311d90c6379198d0bd9c":[2,0,6,19,52],
+"df/dd7/server_2client_8qc.html#ac8cee1fb565123245189b49f1ab94951":[2,0,6,19,43],
+"df/dd7/server_2client_8qc.html#acd1560ca258ee21a90fd35530c8127b0":[2,0,6,19,56],
+"df/dd7/server_2client_8qc.html#ad4e6ef235cc1911ad7654ecd808ff4c1":[2,0,6,19,17],
 "df/dd7/server_2client_8qc.html#ad782a8ecd5d72aefee13e592a4906f84":[2,0,6,19,19],
 "df/dd7/server_2client_8qc.html#ad9d369ba8098cf9cc8ded4f0b4974c76":[2,0,6,19,25],
 "df/dd7/server_2client_8qc.html#adbc32bfd245aaa7838b6c425d30c279d":[2,0,6,19,59],
@@ -242,12 +249,5 @@ var NAVTREEINDEX131 =
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#adebd46165082ac743d9d0f1fc3d450cb":[1,0,225,90],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#adede979c8ff99e3f66d5b08bfd9ce25b":[1,0,225,36],
 "df/dfd/classXonoticScoreboardFadeTimeSlider.html#ae0f14c5bc830037cfd38773a50ca20d9":[1,0,225,58],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ae36c978d138b97307b37a555afc4ae96":[1,0,225,97],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ae5407b63f7c63a88c9da16169b46694f":[1,0,225,48],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ae7a169abde25f6d0c42837b1b201f11a":[1,0,225,91],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ae7ad12c455973e01e6ffaaa65114ed32":[1,0,225,29],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ae8ee3415d580757cf4b8434973484ead":[1,0,225,60],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aeb77597d24e1461bf90096f4cc61a0d8":[1,0,225,3],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aee2cbda558f107d41e8baa3ace6cba27":[1,0,225,38],
-"df/dfd/classXonoticScoreboardFadeTimeSlider.html#aee9fee5e1e798ea7d1b0905bc107ed8c":[1,0,225,101]
+"df/dfd/classXonoticScoreboardFadeTimeSlider.html#ae36c978d138b97307b37a555afc4ae96":[1,0,225,97]
 };

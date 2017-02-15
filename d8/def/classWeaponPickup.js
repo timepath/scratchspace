@@ -1,6 +1,7 @@
 var classWeaponPickup =
 [
     [ "WeaponPickup", "d8/def/classWeaponPickup.html#a3d193f30f9a2d30e3bb270e8578a872a", null ],
+    [ "ATTRIB", "d8/def/classWeaponPickup.html#a131314e6fbddcf466baaf7ffa08f96ab", null ],
     [ "ATTRIB", "d8/def/classWeaponPickup.html#a6131dbf54f626ebf2c9d610833da9fb5", null ],
     [ "ATTRIB", "d8/def/classWeaponPickup.html#a727d6f42f79f0bd5ffc674423645471c", null ],
     [ "ATTRIB", "d8/def/classWeaponPickup.html#a7d8cf6b7a18644fba549fe489903901d", null ],

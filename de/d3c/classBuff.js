@@ -1,5 +1,6 @@
 var classBuff =
 [
+    [ "ATTRIB", "de/d3c/classBuff.html#a131314e6fbddcf466baaf7ffa08f96ab", null ],
     [ "ATTRIB", "de/d3c/classBuff.html#a6131dbf54f626ebf2c9d610833da9fb5", null ],
     [ "ATTRIB", "de/d3c/classBuff.html#a727d6f42f79f0bd5ffc674423645471c", null ],
     [ "ATTRIB", "de/d3c/classBuff.html#a7d8cf6b7a18644fba549fe489903901d", null ],
