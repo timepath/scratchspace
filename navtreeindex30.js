@@ -1,5 +1,7 @@
 var NAVTREEINDEX30 =
 {
+"d3/dce/classXonoticTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,241,19],
+"d3/dce/classXonoticTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,241,60],
 "d3/dce/classXonoticTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,241,43],
 "d3/dce/classXonoticTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,241,2],
 "d3/dce/classXonoticTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,241,41],
@@ -247,7 +249,5 @@ var NAVTREEINDEX30 =
 "d3/de3/classHellionAttack.html#ae62f1cba1ccfea629e7c0869efa8e6bd":[1,0,46,26],
 "d3/de3/classHellionAttack.html#af2dd6917e731b30d5b03d35c72d60b62":[1,0,46,17],
 "d3/de9/damageeffects_8qh.html":[2,0,1,2,0,8],
-"d3/de9/damageeffects_8qh_source.html":[2,0,1,2,0,8],
-"d3/dea/lib_2matrix_2__mod_8qh.html":[2,0,4,1,1],
-"d3/dea/lib_2matrix_2__mod_8qh_source.html":[2,0,4,1,1]
+"d3/de9/damageeffects_8qh_source.html":[2,0,1,2,0,8]
 };

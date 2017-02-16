@@ -235,6 +235,8 @@ var NAVTREEINDEX26 =
 "d3/d78/mlrs__weapon_8qh_source.html":[2,0,1,14,0,27],
 "d3/d7a/effects_2qc_2all_8inc.html":[2,0,1,2,0,2],
 "d3/d7a/effects_2qc_2all_8inc_source.html":[2,0,1,2,0,2],
+"d3/d7a/levelwarp_8qh.html":[2,0,1,13,2,7],
+"d3/d7a/levelwarp_8qh_source.html":[2,0,1,13,2,7],
 "d3/d7c/common_2mutators_2mutator_2globalforces_2__mod_8qh.html":[2,0,1,9,0,9,1],
 "d3/d7c/common_2mutators_2mutator_2globalforces_2__mod_8qh_source.html":[2,0,1,9,0,9,1],
 "d3/d7f/onslaught_8qh.html":[2,0,1,3,0,1,11],
@@ -247,7 +249,5 @@ var NAVTREEINDEX26 =
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a086d32c9694472250922d42417bc8d66":[1,0,179,3],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a08e6ce81a16d07d673ce1def6d64e1ce":[1,0,179,84],
 "d3/d83/classXonoticHUDHealthArmorDialog.html#a095903b901a0054ba8e31567c1d53d2c":[1,0,179,87],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,179,82],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,179,48],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,179,26]
+"d3/d83/classXonoticHUDHealthArmorDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,179,82]
 };

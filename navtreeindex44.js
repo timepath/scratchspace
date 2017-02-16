@@ -1,5 +1,7 @@
 var NAVTREEINDEX44 =
 {
+"d4/df8/sv__touchexplode_8qc.html#aa5b8411a2fbe2ecc99fd2f84a95cb9a8":[2,0,1,9,0,30,2,5],
+"d4/df8/sv__touchexplode_8qc.html#ab2da020259852f12fecd17406af3f1cc":[2,0,1,9,0,30,2,4],
 "d4/df8/sv__touchexplode_8qc.html#aee22c52bdd9324ade054f74e10dd5b81":[2,0,1,9,0,30,2,3],
 "d4/df8/sv__touchexplode_8qc.html#afda6710b7209f4510fcdf238cc39c40b":[2,0,1,9,0,30,2,2],
 "d4/df8/sv__touchexplode_8qc_source.html":[2,0,1,9,0,30,2],
@@ -57,8 +59,8 @@ var NAVTREEINDEX44 =
 "d5/d05/xonotic_2dialog_8qh.html":[2,0,5,4,39],
 "d5/d05/xonotic_2dialog_8qh.html#a2f5c24df66604b59586902a5b11c2a6f":[2,0,5,4,39,1],
 "d5/d05/xonotic_2dialog_8qh_source.html":[2,0,5,4,39],
-"d5/d06/speaker_8qc.html":[2,0,1,13,2,12],
-"d5/d06/speaker_8qc_source.html":[2,0,1,13,2,12],
+"d5/d06/speaker_8qc.html":[2,0,1,13,2,14],
+"d5/d06/speaker_8qc_source.html":[2,0,1,13,2,14],
 "d5/d08/net__linked_8qh.html":[2,0,1,36],
 "d5/d08/net__linked_8qh.html#a25b594820a0403cf196033288cb86a4c":[2,0,1,36,1],
 "d5/d08/net__linked_8qh.html#a42f9db68e1c9a1c28b606b9fb0c9b760":[2,0,1,36,9],
@@ -247,7 +249,5 @@ var NAVTREEINDEX44 =
 "d5/d26/server_2defs_8qh.html#a3f775d6a53134f0c94c2e40d938ade10":[2,0,6,22,30],
 "d5/d26/server_2defs_8qh.html#a3fd2d994c3cac42100d3818ec0dd1095":[2,0,6,22,111],
 "d5/d26/server_2defs_8qh.html#a407d3e93d4ccecee0692a04a1feee5b6":[2,0,6,22,100],
-"d5/d26/server_2defs_8qh.html#a419ab93e1e949922dba4a85c64a2f131":[2,0,6,22,105],
-"d5/d26/server_2defs_8qh.html#a41fa1b446e3bb2f0e5320753d6c76ce1":[2,0,6,22,62],
-"d5/d26/server_2defs_8qh.html#a424cdec2e704031834c5827181d1c676":[2,0,6,22,228]
+"d5/d26/server_2defs_8qh.html#a419ab93e1e949922dba4a85c64a2f131":[2,0,6,22,105]
 };

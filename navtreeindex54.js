@@ -1,5 +1,7 @@
 var NAVTREEINDEX54 =
 {
+"d6/d74/cvars_8qh.html#adb0413a50e75ae2d3f52007abb7879e4":[2,0,6,0,0,8,0],
+"d6/d74/cvars_8qh.html#ae06c19398d657622c766e13e94a8b8da":[2,0,6,0,0,8,46],
 "d6/d74/cvars_8qh.html#ae0cd8130a5c94da77970f2ccbb414ce6":[2,0,6,0,0,8,2],
 "d6/d74/cvars_8qh.html#ae10b3dc3d25c07f42f719ce415789923":[2,0,6,0,0,8,45],
 "d6/d74/cvars_8qh.html#ae6e26bee1ea5342888ff27219c843999":[2,0,6,0,0,8,36],
@@ -247,7 +249,5 @@ var NAVTREEINDEX54 =
 "d6/d79/classXonoticHUDWeaponsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,194,86],
 "d6/d79/classXonoticHUDWeaponsDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,194,8],
 "d6/d7a/common_2mutators_2mutator_2waypoints_2__mod_8qh.html":[2,0,1,9,0,34,1],
-"d6/d7a/common_2mutators_2mutator_2waypoints_2__mod_8qh_source.html":[2,0,1,9,0,34,1],
-"d6/d7d/classEWheel.html":[1,0,33],
-"d6/d7d/classEWheel.html#a138adca099fbd117101fe56edb53d8aa":[1,0,33,6]
+"d6/d7a/common_2mutators_2mutator_2waypoints_2__mod_8qh_source.html":[2,0,1,9,0,34,1]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX91 =
 {
+"da/db7/classXonoticServerInfoDialog.html#aa6ee31e73e04f62f66ffeae22b04a831":[1,0,231,45],
+"da/db7/classXonoticServerInfoDialog.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,231,49],
 "da/db7/classXonoticServerInfoDialog.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,231,28],
 "da/db7/classXonoticServerInfoDialog.html#aabcdbf6dee5587f47a9e39cedfb625c6":[1,0,231,65],
 "da/db7/classXonoticServerInfoDialog.html#ab0f5da918d5772e40bc79148bdd525a1":[1,0,231,25],
@@ -197,8 +199,8 @@ var NAVTREEINDEX91 =
 "da/dc1/server_2player_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1":[2,0,6,48,8],
 "da/dc1/server_2player_8qh.html#af2cf7e359cda23b596ac40cda3f9ba87":[2,0,6,48,3],
 "da/dc1/server_2player_8qh_source.html":[2,0,6,48],
-"da/dc5/voicescript_8qc.html":[2,0,1,13,2,14],
-"da/dc5/voicescript_8qc_source.html":[2,0,1,13,2,14],
+"da/dc5/voicescript_8qc.html":[2,0,1,13,2,16],
+"da/dc5/voicescript_8qc_source.html":[2,0,1,13,2,16],
 "da/dc7/test_8qc.html":[2,0,4,58],
 "da/dc7/test_8qc.html#a13b0b89cb467cf0d1a2ee9a711ed9eba":[2,0,4,58,2],
 "da/dc7/test_8qc.html#a38ec02a1e85890fafd3d82e28cf0f0ee":[2,0,4,58,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX91 =
 "da/dd2/gamemode__invasion_8qh.html#aee2b9768513ba6b7935a33986f7621f1":[2,0,6,3,0,17,13],
 "da/dd2/gamemode__invasion_8qh.html#af804eb68afaef63774e2ce8375d96be2":[2,0,6,3,0,17,6],
 "da/dd2/gamemode__invasion_8qh_source.html":[2,0,6,3,0,17],
-"da/dd4/effectinfo__onslaught_8inc.html":[2,0,1,2,18],
-"da/dd4/effectinfo__onslaught_8inc.html#a14b4a86f4eded9aa2eeeda854eb487aa":[2,0,1,2,18,0],
-"da/dd4/effectinfo__onslaught_8inc.html#a4e5a6caa9b19fed08ede67c0d60971e6":[2,0,1,2,18,3]
+"da/dd4/effectinfo__onslaught_8inc.html":[2,0,1,2,18]
 };

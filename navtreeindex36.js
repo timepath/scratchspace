@@ -1,5 +1,7 @@
 var NAVTREEINDEX36 =
 {
+"d4/d3b/classXonoticBigButton.html#a7b13cdc101cd55528465440586a004f6":[1,0,140,55],
+"d4/d3b/classXonoticBigButton.html#a7ba277f3c886c7d391915d273fede63c":[1,0,140,61],
 "d4/d3b/classXonoticBigButton.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,140,19],
 "d4/d3b/classXonoticBigButton.html#a7d1408b9e9f3e1ee27eba82b14215234":[1,0,140,67],
 "d4/d3b/classXonoticBigButton.html#a7edc1888395b65fc0bbc556d68d0e173":[1,0,140,0],
@@ -208,8 +210,8 @@ var NAVTREEINDEX36 =
 "d4/d48/notify_8qc.html#a3f24d1601ce9eaa70aa03b90c969a568":[2,0,0,1,0,18,1],
 "d4/d48/notify_8qc.html#a5d98db16bef14acf08a94e5eaec24a26":[2,0,0,1,0,18,0],
 "d4/d48/notify_8qc_source.html":[2,0,0,1,0,18],
-"d4/d48/speaker_8qh.html":[2,0,1,13,2,13],
-"d4/d48/speaker_8qh_source.html":[2,0,1,13,2,13],
+"d4/d48/speaker_8qh.html":[2,0,1,13,2,15],
+"d4/d48/speaker_8qh_source.html":[2,0,1,13,2,15],
 "d4/d4c/corner_8qc.html":[2,0,1,13,1,2],
 "d4/d4c/corner_8qc_source.html":[2,0,1,13,1,2],
 "d4/d4c/dialog__multiplayer__media__demo_8qc.html":[2,0,5,4,100],
@@ -247,7 +249,5 @@ var NAVTREEINDEX36 =
 "d4/d53/server_2impulse_8qc.html#a5e4ba27f9e1c6d3d6517552ac9b45ec5":[2,0,6,35,37],
 "d4/d53/server_2impulse_8qc.html#a64c532f3e479ab94a138bdb8c3d8c05a":[2,0,6,35,41],
 "d4/d53/server_2impulse_8qc.html#a6b05c4a89758bb0fef746223af6db745":[2,0,6,35,31],
-"d4/d53/server_2impulse_8qc.html#a6f3c4721d51695ce7ebf7e0dc232b665":[2,0,6,35,32],
-"d4/d53/server_2impulse_8qc.html#a766a58a103676d6a17b6ccfb904a6f24":[2,0,6,35,50],
-"d4/d53/server_2impulse_8qc.html#a7789ba6a28989a7957d6d2106dd8fe2b":[2,0,6,35,35]
+"d4/d53/server_2impulse_8qc.html#a6f3c4721d51695ce7ebf7e0dc232b665":[2,0,6,35,32]
 };

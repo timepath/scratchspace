@@ -6,6 +6,8 @@ var dir_8f7bbfa534619ac6e56630cebd000349 =
     [ "changelevel.qh", "dd/d1f/changelevel_8qh.html", null ],
     [ "include.qc", "d9/d5e/target_2include_8qc.html", null ],
     [ "include.qh", "dc/d38/target_2include_8qh.html", null ],
+    [ "levelwarp.qc", "de/d94/levelwarp_8qc.html", null ],
+    [ "levelwarp.qh", "d3/d7a/levelwarp_8qh.html", null ],
     [ "location.qc", "db/d3a/location_8qc.html", null ],
     [ "location.qh", "df/dd9/location_8qh.html", null ],
     [ "music.qc", "d8/dae/music_8qc.html", null ],
