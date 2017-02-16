@@ -4646,7 +4646,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;            .entity weaponentity = <a class="code" href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a>[slot];</div>
 <div class="line"><a name="l00656"></a><span class="lineno">  656</span>&#160;            <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> oldwep = this.(weaponentity);</div>
 <div class="line"><a name="l00657"></a><span class="lineno">  657</span>&#160;            <a class="code" href="../../d5/de0/weaponsystem_8qc.html#ab0182526137001da7d750d97f9cba4e0">CL_SpawnWeaponentity</a>(<span class="keyword">this</span>, weaponentity);</div>
-<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;            <span class="keywordflow">if</span>(oldwep)</div>
+<div class="line"><a name="l00658"></a><span class="lineno">  658</span>&#160;            <span class="keywordflow">if</span>(oldwep &amp;&amp; oldwep.owner == <span class="keyword">this</span>)</div>
 <div class="line"><a name="l00659"></a><span class="lineno">  659</span>&#160;                this.(weaponentity).m_gunalign = oldwep.m_gunalign;</div>
 <div class="line"><a name="l00660"></a><span class="lineno">  660</span>&#160;        }</div>
 <div class="line"><a name="l00661"></a><span class="lineno">  661</span>&#160;        this.<a class="code" href="../../d1/d8d/wall_8qc.html#ab1551d8043c2aa4410fb7dbb1fe3be7b">alpha</a> = <a class="code" href="../../d5/d26/server_2defs_8qh.html#a826f0e158cb9a92eed3ef9ed90127c2a">default_player_alpha</a>;</div>
@@ -7082,7 +7082,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../df/dd7/server_2client_8qc.html">client.qc</a></li>
-    <li class="footer">Generated on Thu Feb 16 2017 06:02:02 for Xonotic by
+    <li class="footer">Generated on Thu Feb 16 2017 07:20:06 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
