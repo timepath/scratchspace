@@ -51,6 +51,7 @@ var bot_8qh =
     [ "bot_nextthink", "d1/da9/bot_8qh.html#a49f0ddb4fe9cf28cf6727a2b3983d0c5", null ],
     [ "bot_offsetskill", "d1/da9/bot_8qh.html#aa6f71aeaf2f8d85499b16b4ff2254c3e", null ],
     [ "bot_pickup", "d1/da9/bot_8qh.html#abf2e0c402be07b19ea7a795ce51a0dd1", null ],
+    [ "bot_pickup_respawning", "d1/da9/bot_8qh.html#aac5937f90e81c63d690bb88cc2ede6fd", null ],
     [ "bot_pickupbasevalue", "d1/da9/bot_8qh.html#a87c1f7ede0fd44092542afd7e9e2c3d7", null ],
     [ "bot_pingskill", "d1/da9/bot_8qh.html#a239d741d29158aa382893d3fbac7f00e", null ],
     [ "bot_preferredcolors", "d1/da9/bot_8qh.html#ab454a200327d3ee63d039c814b6967e1", null ],

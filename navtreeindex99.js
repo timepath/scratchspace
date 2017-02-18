@@ -1,5 +1,17 @@
 var NAVTREEINDEX99 =
 {
+"db/d7f/effectinfo_8inc.html#ac9d4a16956c2a0eebda51fac74b86797":[2,0,1,2,7,170],
+"db/d7f/effectinfo_8inc.html#acad0c16a962f053c9509a72f06a93829":[2,0,1,2,7,225],
+"db/d7f/effectinfo_8inc.html#acc2be3664d219ee4f4241b2b1da1c6ad":[2,0,1,2,7,136],
+"db/d7f/effectinfo_8inc.html#acc3a215b4ac07fcb9299286b44d3a0bc":[2,0,1,2,7,50],
+"db/d7f/effectinfo_8inc.html#acc428bf775c450d281c042afced73636":[2,0,1,2,7,130],
+"db/d7f/effectinfo_8inc.html#accae52a3bae99ab53b61ff68bba7163a":[2,0,1,2,7,294],
+"db/d7f/effectinfo_8inc.html#accb016a039a53ac3201ef4a7af4b7d25":[2,0,1,2,7,210],
+"db/d7f/effectinfo_8inc.html#acd1be520c6f7997698f8512ea3281d5c":[2,0,1,2,7,280],
+"db/d7f/effectinfo_8inc.html#acdba90a603f64accd60e241ce4b73609":[2,0,1,2,7,47],
+"db/d7f/effectinfo_8inc.html#ace2f2eb8fa3abc018fb3084a17161d64":[2,0,1,2,7,243],
+"db/d7f/effectinfo_8inc.html#aceaef505de3578b9fe04a46a6317626d":[2,0,1,2,7,341],
+"db/d7f/effectinfo_8inc.html#ad15e2560d41ff0d706b5f4d0feacacf6":[2,0,1,2,7,356],
 "db/d7f/effectinfo_8inc.html#ad328d75d304aef713f184c225684f13f":[2,0,1,2,7,369],
 "db/d7f/effectinfo_8inc.html#ad7338809a934bfdd2ccf7fa1a30cad42":[2,0,1,2,7,104],
 "db/d7f/effectinfo_8inc.html#ad759694773246b7ef862441ef7f32901":[2,0,1,2,7,198],
@@ -237,17 +249,5 @@ var NAVTREEINDEX99 =
 "db/db1/classXonoticHUDRaceTimerDialog.html#a0baa2cfa6c3436df40cd12a3166d9e7d":[1,0,188,82],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a0e4b1a8ba11fd32348e435bb6e2bdf5d":[1,0,188,59],
 "db/db1/classXonoticHUDRaceTimerDialog.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,188,48],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,188,26],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,188,17],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,188,74],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,188,71],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a1c99834aa928bd039ef9e623eb735f8b":[1,0,188,87],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,188,70],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,188,7],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,188,72],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,188,4],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,188,43],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,188,21],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,188,49],
-"db/db1/classXonoticHUDRaceTimerDialog.html#a28ad745f4e37424ed1de68453b24cc29":[1,0,188,60]
+"db/db1/classXonoticHUDRaceTimerDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,188,26]
 };

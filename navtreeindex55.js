@@ -1,5 +1,17 @@
 var NAVTREEINDEX55 =
 {
+"d6/d79/classXonoticHUDWeaponsDialog.html#af1aab403dc54575707fd57991312b201":[1,0,194,47],
+"d6/d79/classXonoticHUDWeaponsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,194,27],
+"d6/d79/classXonoticHUDWeaponsDialog.html#af26f23c4d774c01fadc35c66f1503c99":[1,0,194,81],
+"d6/d79/classXonoticHUDWeaponsDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,194,15],
+"d6/d79/classXonoticHUDWeaponsDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,194,39],
+"d6/d79/classXonoticHUDWeaponsDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,194,2],
+"d6/d79/classXonoticHUDWeaponsDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,194,37],
+"d6/d79/classXonoticHUDWeaponsDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,194,41],
+"d6/d79/classXonoticHUDWeaponsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,194,86],
+"d6/d79/classXonoticHUDWeaponsDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,194,8],
+"d6/d7a/common_2mutators_2mutator_2waypoints_2__mod_8qh.html":[2,0,1,9,0,34,1],
+"d6/d7a/common_2mutators_2mutator_2waypoints_2__mod_8qh_source.html":[2,0,1,9,0,34,1],
 "d6/d7d/classEWheel.html":[1,0,33],
 "d6/d7d/classEWheel.html#a138adca099fbd117101fe56edb53d8aa":[1,0,33,6],
 "d6/d7d/classEWheel.html#a3144102787442a58055180121b5e9536":[1,0,33,13],
@@ -237,17 +249,5 @@ var NAVTREEINDEX55 =
 "d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4":[2,0,2,5,0],
 "d6/da0/post_8qh_source.html":[2,0,2,5],
 "d6/da3/client_2hud_2__mod_8qh.html":[2,0,0,1,2],
-"d6/da3/client_2hud_2__mod_8qh_source.html":[2,0,0,1,2],
-"d6/da5/common_2mutators_2mutator_2campcheck_2__mod_8inc.html":[2,0,1,9,0,4,0],
-"d6/da5/common_2mutators_2mutator_2campcheck_2__mod_8inc_source.html":[2,0,1,9,0,4,0],
-"d6/daa/quickmenu_8qh.html":[2,0,0,1,0,27],
-"d6/daa/quickmenu_8qh.html#a0bd4a6e2118246c42f7315210420b033":[2,0,0,1,0,27,0],
-"d6/daa/quickmenu_8qh.html#a1f4421c07ba36141f7788c052320dcaf":[2,0,0,1,0,27,2],
-"d6/daa/quickmenu_8qh.html#a83c6625cfcd8716e5e481969fa957f6f":[2,0,0,1,0,27,1],
-"d6/daa/quickmenu_8qh_source.html":[2,0,0,1,0,27],
-"d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc.html":[2,0,5,4,102],
-"d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc.html#a6197d9880184a1d95737aa7d06cafddb":[2,0,5,4,102,1],
-"d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc.html#a77ee16d94e3fbc983db0f218e1192b29":[2,0,5,4,102,0],
-"d6/dac/dialog__multiplayer__media__demo__startconfirm_8qc_source.html":[2,0,5,4,102],
-"d6/db1/draw_8qc.html":[2,0,5,10]
+"d6/da3/client_2hud_2__mod_8qh_source.html":[2,0,0,1,2]
 };

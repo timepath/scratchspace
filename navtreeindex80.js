@@ -1,5 +1,16 @@
 var NAVTREEINDEX80 =
 {
+"d9/d12/models_2all_8inc.html#af9fb9d8bf9d5183f1336b3e0ada8e0ad":[2,0,1,7,2,207],
+"d9/d12/models_2all_8inc.html#afa83d2c40dc519366dc5a042c3335c11":[2,0,1,7,2,204],
+"d9/d12/models_2all_8inc.html#afac6ef4ed9b95d12947a889cb329c0d9":[2,0,1,7,2,209],
+"d9/d12/models_2all_8inc.html#afc2f8885e71282d7038cc7a742d52b4c":[2,0,1,7,2,220],
+"d9/d12/models_2all_8inc.html#afc60670ef06d08fbcef34ef691937b0d":[2,0,1,7,2,65],
+"d9/d12/models_2all_8inc.html#afcb9943bcb2edf42e04da39534d937aa":[2,0,1,7,2,104],
+"d9/d12/models_2all_8inc.html#afd0618a7e22e00144a40b8665dba8eba":[2,0,1,7,2,70],
+"d9/d12/models_2all_8inc.html#afd3c906c7041f07f72faafcc25aa1065":[2,0,1,7,2,228],
+"d9/d12/models_2all_8inc.html#afd852ff2bd3549af8b52f95b2e17dc04":[2,0,1,7,2,101],
+"d9/d12/models_2all_8inc_source.html":[2,0,1,7,2],
+"d9/d17/zombie_8qh.html":[2,0,1,8,0,11],
 "d9/d17/zombie_8qh.html#a56bbf0adb61f21f9d836135c39f86f86":[2,0,1,8,0,11,1],
 "d9/d17/zombie_8qh_source.html":[2,0,1,8,0,11],
 "d9/d18/components_2input_8qc.html":[2,0,3,0,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX80 =
 "d9/d37/classXonoticScreenshotBrowserTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,226,46],
 "d9/d37/classXonoticScreenshotBrowserTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,226,2],
 "d9/d37/classXonoticScreenshotBrowserTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,226,44],
-"d9/d37/classXonoticScreenshotBrowserTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,226,48],
-"d9/d37/classXonoticScreenshotBrowserTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,226,91],
-"d9/d37/classXonoticScreenshotBrowserTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,226,13],
-"d9/d37/classXonoticScreenshotBrowserTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,226,9],
-"d9/d39/wyvern_8qc.html":[2,0,1,8,0,8],
-"d9/d39/wyvern_8qc_source.html":[2,0,1,8,0,8],
-"d9/d3b/lib_2warpzone_2__mod_8inc.html":[2,0,4,2,0],
-"d9/d3b/lib_2warpzone_2__mod_8inc_source.html":[2,0,4,2,0],
-"d9/d3c/common_2mutators_2mutator_2rocketminsta_2__mod_8inc.html":[2,0,1,9,0,25,0],
-"d9/d3c/common_2mutators_2mutator_2rocketminsta_2__mod_8inc_source.html":[2,0,1,9,0,25,0],
-"d9/d40/dialog__settings__audio_8qh.html":[2,0,5,4,121],
-"d9/d40/dialog__settings__audio_8qh.html#a9897d4b9ae8916a24d87fccc5defa1fa":[2,0,5,4,121,1]
+"d9/d37/classXonoticScreenshotBrowserTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,226,48]
 };

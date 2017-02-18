@@ -1,5 +1,16 @@
 var NAVTREEINDEX84 =
 {
+"d9/db3/classXonoticGameModelSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,168,54],
+"d9/db3/classXonoticGameModelSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,168,32],
+"d9/db3/classXonoticGameModelSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,168,38],
+"d9/db3/classXonoticGameModelSettingsTab.html#a4e8674c37078db5c00618a2715a1f9a8":[1,0,168,91],
+"d9/db3/classXonoticGameModelSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,168,46],
+"d9/db3/classXonoticGameModelSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,168,58],
+"d9/db3/classXonoticGameModelSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,168,89],
+"d9/db3/classXonoticGameModelSettingsTab.html#a61040128f2010ca07df3feea474545a6":[1,0,168,88],
+"d9/db3/classXonoticGameModelSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,168,21],
+"d9/db3/classXonoticGameModelSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,168,65],
+"d9/db3/classXonoticGameModelSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,168,57],
 "d9/db3/classXonoticGameModelSettingsTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,168,22],
 "d9/db3/classXonoticGameModelSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,168,18],
 "d9/db3/classXonoticGameModelSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,168,83],
@@ -238,16 +249,5 @@ var NAVTREEINDEX84 =
 "d9/dd0/effectinfo__gentle__morphed_8inc.html":[2,0,1,2,14],
 "d9/dd0/effectinfo__gentle__morphed_8inc.html#a06cde1e52b5c014815fe0740b0b727eb":[2,0,1,2,14,3],
 "d9/dd0/effectinfo__gentle__morphed_8inc.html#a4905e74e3caa1afc3e4b3591074ba709":[2,0,1,2,14,2],
-"d9/dd0/effectinfo__gentle__morphed_8inc.html#a5d5b2ca84c850820f57b44d44624a73c":[2,0,1,2,14,0],
-"d9/dd0/effectinfo__gentle__morphed_8inc.html#ad82077a2a0d938c18a58ef322bfd0a16":[2,0,1,2,14,1],
-"d9/dd0/effectinfo__gentle__morphed_8inc_source.html":[2,0,1,2,14],
-"d9/dd1/common_2items_2item_2__mod_8qh.html":[2,0,1,5,0,1],
-"d9/dd1/common_2items_2item_2__mod_8qh_source.html":[2,0,1,5,0,1],
-"d9/dd4/plasma__weapon_8qc.html":[2,0,1,14,0,36],
-"d9/dd4/plasma__weapon_8qc_source.html":[2,0,1,14,0,36],
-"d9/dd9/item_2image_8qc.html":[2,0,5,2,12],
-"d9/dd9/item_2image_8qc.html#a1c12419f14cb6f7e805a6fa64a798edd":[2,0,5,2,12,0],
-"d9/dd9/item_2image_8qc.html#a2bdf3be5584621344b2e6580ad34b9b7":[2,0,5,2,12,4],
-"d9/dd9/item_2image_8qc.html#a5600b57fadcdc3bcc393b52b1a787dc4":[2,0,5,2,12,2],
-"d9/dd9/item_2image_8qc.html#a75270fd49e5246f060b0c49c114cf2ea":[2,0,5,2,12,3]
+"d9/dd0/effectinfo__gentle__morphed_8inc.html#a5d5b2ca84c850820f57b44d44624a73c":[2,0,1,2,14,0]
 };

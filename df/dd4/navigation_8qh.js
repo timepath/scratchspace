@@ -74,5 +74,7 @@ var navigation_8qh =
     [ "navigation_testtracewalk", "df/dd4/navigation_8qh.html#af06975b950299b57e060d609ddb50b23", null ],
     [ "nearestwaypoint", "df/dd4/navigation_8qh.html#a57aebfdaf806fba9b970fd6a5e9d9a8b", null ],
     [ "nearestwaypointtimeout", "df/dd4/navigation_8qh.html#a4c86184e4fc608ec47e05f5170a57d13", null ],
-    [ "stepheightvec", "df/dd4/navigation_8qh.html#a7720e59946f1e4d81ce4c7c9e2a87663", null ]
+    [ "stepheightvec", "df/dd4/navigation_8qh.html#a7720e59946f1e4d81ce4c7c9e2a87663", null ],
+    [ "wp_goal_prev0", "df/dd4/navigation_8qh.html#ae565ce397dc526f3fa4ad25852f525b1", null ],
+    [ "wp_goal_prev1", "df/dd4/navigation_8qh.html#a0f68108e83349581fc7039aadaaa0742", null ]
 ];

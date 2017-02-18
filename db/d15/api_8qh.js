@@ -19,6 +19,7 @@ var api_8qh =
     [ "float", "db/d15/api_8qh.html#a95b45fc474f2967a0523f86cd63668ba", null ],
     [ "havocbot_goalrating_enemyplayers", "db/d15/api_8qh.html#a6456f6b6523f83904a00a909d0a87236", null ],
     [ "havocbot_goalrating_items", "db/d15/api_8qh.html#a3e9df5e35d2e1a1d92cb47e72b572d4a", null ],
+    [ "havocbot_goalrating_waypoints", "db/d15/api_8qh.html#a0375becf8030b1b6159611d74c885238", null ],
     [ "navigation_clearroute", "db/d15/api_8qh.html#aa51b44c16bb8770ff694c1a9f30cd28e", null ],
     [ "navigation_findnearestwaypoint", "db/d15/api_8qh.html#a1e85d59acc7aee165d5cb268454a594c", null ],
     [ "navigation_goalrating_end", "db/d15/api_8qh.html#ab6d01fa32a875613a62f92c12a06bddd", null ],

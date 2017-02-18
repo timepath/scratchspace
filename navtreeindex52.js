@@ -1,5 +1,17 @@
 var NAVTREEINDEX52 =
 {
+"d6/d1a/classMainWindow.html#a746410ea39f1849396441365b18a8ef9":[1,0,72,46],
+"d6/d1a/classMainWindow.html#a7b13cdc101cd55528465440586a004f6":[1,0,72,65],
+"d6/d1a/classMainWindow.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,72,35],
+"d6/d1a/classMainWindow.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,72,67],
+"d6/d1a/classMainWindow.html#a85a064a31a698c09f5c424224ec42bfc":[1,0,72,12],
+"d6/d1a/classMainWindow.html#a890974fd1608e18604cdc5b674b96f47":[1,0,72,66],
+"d6/d1a/classMainWindow.html#a918765695e02e3fd2b1fd9d6a97ce8b5":[1,0,72,37],
+"d6/d1a/classMainWindow.html#a97b4525da5b97bc6a8da6889f0f10732":[1,0,72,10],
+"d6/d1a/classMainWindow.html#a9d8006ceb7047b2888170a128d54b5af":[1,0,72,14],
+"d6/d1a/classMainWindow.html#aa04e2c113f91606c442b3d67ccd4d876":[1,0,72,64],
+"d6/d1a/classMainWindow.html#aa19246ed962edd276063a2f76ab3974e":[1,0,72,16],
+"d6/d1a/classMainWindow.html#aa21c9f979bb00fd1ab5a2df2841286c2":[1,0,72,6],
 "d6/d1a/classMainWindow.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,72,31],
 "d6/d1a/classMainWindow.html#aaa7e8781584ebccb3c1856ea539cf5bd":[1,0,72,25],
 "d6/d1a/classMainWindow.html#aaba6f25ff796d00806af908719eacda6":[1,0,72,7],
@@ -237,17 +249,5 @@ var NAVTREEINDEX52 =
 "d6/d30/dialog__teamselect_8qc.html#abc28b8cb59bb4b64932491e1b742f5e5":[2,0,5,4,160,3],
 "d6/d30/dialog__teamselect_8qc.html#aef68d50cc290b76e2c8fc62888560c00":[2,0,5,4,160,2],
 "d6/d30/dialog__teamselect_8qc.html#af1c89445ad12552325475410a8cc2902":[2,0,5,4,160,0],
-"d6/d30/dialog__teamselect_8qc_source.html":[2,0,5,4,160],
-"d6/d35/debug_8qc.html":[2,0,6,4,4],
-"d6/d35/debug_8qc_source.html":[2,0,6,4,4],
-"d6/d35/server_2bot_2default_2havocbot_2__mod_8inc.html":[2,0,6,0,0,0,0],
-"d6/d35/server_2bot_2default_2havocbot_2__mod_8inc_source.html":[2,0,6,0,0,0,0],
-"d6/d36/common_2mutators_2mutator_2touchexplode_2__mod_8qh.html":[2,0,1,9,0,30,1],
-"d6/d36/common_2mutators_2mutator_2touchexplode_2__mod_8qh_source.html":[2,0,1,9,0,30,1],
-"d6/d36/misc_2include_8qc.html":[2,0,1,13,1,6],
-"d6/d36/misc_2include_8qc_source.html":[2,0,1,13,1,6],
-"d6/d37/flipflop_8qh.html":[2,0,1,13,3,9],
-"d6/d37/flipflop_8qh_source.html":[2,0,1,13,3,9],
-"d6/d38/urllib_8qc.html":[2,0,4,61],
-"d6/d38/urllib_8qc.html#a13d7537265eadfc81572f905fb71df3e":[2,0,4,61,20]
+"d6/d30/dialog__teamselect_8qc_source.html":[2,0,5,4,160]
 };

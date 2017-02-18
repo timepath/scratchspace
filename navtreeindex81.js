@@ -1,5 +1,16 @@
 var NAVTREEINDEX81 =
 {
+"d9/d37/classXonoticScreenshotBrowserTab.html#afc9428d371ed63dd0316db5558e81d30":[1,0,226,91],
+"d9/d37/classXonoticScreenshotBrowserTab.html#afdcf1fb79903f747cda494b27206526b":[1,0,226,13],
+"d9/d37/classXonoticScreenshotBrowserTab.html#affb21e8cf7cb91e1fd1f33b726fc4c94":[1,0,226,9],
+"d9/d39/wyvern_8qc.html":[2,0,1,8,0,8],
+"d9/d39/wyvern_8qc_source.html":[2,0,1,8,0,8],
+"d9/d3b/lib_2warpzone_2__mod_8inc.html":[2,0,4,2,0],
+"d9/d3b/lib_2warpzone_2__mod_8inc_source.html":[2,0,4,2,0],
+"d9/d3c/common_2mutators_2mutator_2rocketminsta_2__mod_8inc.html":[2,0,1,9,0,25,0],
+"d9/d3c/common_2mutators_2mutator_2rocketminsta_2__mod_8inc_source.html":[2,0,1,9,0,25,0],
+"d9/d40/dialog__settings__audio_8qh.html":[2,0,5,4,121],
+"d9/d40/dialog__settings__audio_8qh.html#a9897d4b9ae8916a24d87fccc5defa1fa":[2,0,5,4,121,1],
 "d9/d40/dialog__settings__audio_8qh_source.html":[2,0,5,4,121],
 "d9/d45/globalsound_8qc.html":[2,0,1,2,0,11],
 "d9/d45/globalsound_8qc_source.html":[2,0,1,2,0,11],
@@ -238,16 +249,5 @@ var NAVTREEINDEX81 =
 "d9/d5b/struct_8qh.html#a93996208007de6effc7114e56a7e65f4":[2,0,4,57,6],
 "d9/d5b/struct_8qh.html#a94daeade56dea5f5261e96be85885c4b":[2,0,4,57,13],
 "d9/d5b/struct_8qh.html#a972d42febb1600df113e5fbffa6d5cb5":[2,0,4,57,10],
-"d9/d5b/struct_8qh.html#a9f2fa4fb4d8db2c082e6662fdab9db89":[2,0,4,57,2],
-"d9/d5b/struct_8qh.html#aae61c44e2c43f3afd1bfc12fd8e5d9dc":[2,0,4,57,16],
-"d9/d5b/struct_8qh.html#adafb5b9eaab979b8a7f36b5953f503b1":[2,0,4,57,14],
-"d9/d5b/struct_8qh.html#ae69c432837297969610c02ae676df3ef":[2,0,4,57,15],
-"d9/d5b/struct_8qh.html#af129c03c7f8ba74cb5a55dc4c2bbc571":[2,0,4,57,12],
-"d9/d5b/struct_8qh_source.html":[2,0,4,57],
-"d9/d5d/devastator_8qc.html":[2,0,1,16,0,8],
-"d9/d5d/devastator_8qc.html#a10084ac62f4ccb9c9d1180c5db5d573d":[2,0,1,16,0,8,2],
-"d9/d5d/devastator_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,8,1],
-"d9/d5d/devastator_8qc_source.html":[2,0,1,16,0,8],
-"d9/d5e/target_2include_8qc.html":[2,0,1,13,2,4],
-"d9/d5e/target_2include_8qc_source.html":[2,0,1,13,2,4]
+"d9/d5b/struct_8qh.html#a9f2fa4fb4d8db2c082e6662fdab9db89":[2,0,4,57,2]
 };

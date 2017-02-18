@@ -1,5 +1,17 @@
 var NAVTREEINDEX63 =
 {
+"d7/d76/dialog__settings__game__model_8qh.html#ae3352ff05cd68a276d35c458baa79048":[2,0,5,4,135,1],
+"d7/d76/dialog__settings__game__model_8qh_source.html":[2,0,5,4,135],
+"d7/d79/laser_8qc.html":[2,0,1,13,1,8],
+"d7/d79/laser_8qc_source.html":[2,0,1,13,1,8],
+"d7/d7a/common_2weapons_2__all_8qh.html":[2,0,1,16,2],
+"d7/d7a/common_2weapons_2__all_8qh_source.html":[2,0,1,16,2],
+"d7/d7b/turrets_2turret_2machinegun_8qc.html":[2,0,1,14,0,20],
+"d7/d7b/turrets_2turret_2machinegun_8qc_source.html":[2,0,1,14,0,20],
+"d7/d7c/common_2items_2item_8qh.html":[2,0,1,5,6],
+"d7/d7c/common_2items_2item_8qh.html#a1e585e63d0c165fe1edf0f2559075de0":[2,0,1,5,6,15],
+"d7/d7c/common_2items_2item_8qh.html#a2274753e40504da52eab0d26cf69d623":[2,0,1,5,6,26],
+"d7/d7c/common_2items_2item_8qh.html#a2b00ad5f160e65a5882024625f9fbebf":[2,0,1,5,6,12],
 "d7/d7c/common_2items_2item_8qh.html#a2b69c3e71b54c58b92f68569a449b6c7":[2,0,1,5,6,11],
 "d7/d7c/common_2items_2item_8qh.html#a2c80e68c8b9e464f9706d0917ed7af65":[2,0,1,5,6,21],
 "d7/d7c/common_2items_2item_8qh.html#a3f6f6a8713fbbbba4ade21d07fe704ff":[2,0,1,5,6,13],
@@ -237,17 +249,5 @@ var NAVTREEINDEX63 =
 "d7/da4/classXonoticDemoList.html#ae2a6d9e91d8187d1c6bd65f8c0333452":[1,0,159,43],
 "d7/da4/classXonoticDemoList.html#ae34be9a0d7d98d5f0ee153f8f0094988":[1,0,159,19],
 "d7/da4/classXonoticDemoList.html#aeb9c63a9b0297dfd15f5a894b7e4bcea":[1,0,159,66],
-"d7/da4/classXonoticDemoList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,159,35],
-"d7/da4/classXonoticDemoList.html#aed05f75651928be9263a2073856f33cd":[1,0,159,78],
-"d7/da4/classXonoticDemoList.html#aef11ec27595d8d03f6c30b95ce718571":[1,0,159,5],
-"d7/da4/classXonoticDemoList.html#af39fee588a3f590a8e03164e282a7f6c":[1,0,159,38],
-"d7/da4/classXonoticDemoList.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,159,33],
-"d7/da4/classXonoticDemoList.html#af9d941569d16ba17cec674b89df93ad0":[1,0,159,26],
-"d7/da4/classXonoticDemoList.html#afdcf1fb79903f747cda494b27206526b":[1,0,159,2],
-"d7/da4/item__key_8qc.html":[2,0,6,39],
-"d7/da4/item__key_8qc.html#a13dfe4baca34c1692bbd1d2e3d53e716":[2,0,6,39,6],
-"d7/da4/item__key_8qc.html#aa62c6db3ad5ca8078fc7cee2feef5388":[2,0,6,39,4],
-"d7/da4/item__key_8qc.html#ad0d10fa31b8387b451d1fef3ce76e604":[2,0,6,39,2],
-"d7/da4/item__key_8qc.html#ade59d3b32b090329971fe3438b1fbc57":[2,0,6,39,0],
-"d7/da4/item__key_8qc.html#af3a13762fb065eb4a038e6a3e897007e":[2,0,6,39,3]
+"d7/da4/classXonoticDemoList.html#aece3f50bf763d9500bdbdebae62810af":[1,0,159,35]
 };

@@ -1,5 +1,6 @@
 var NAVTREEINDEX20 =
 {
+"d2/dcc/classMutator.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,80,4],
 "d2/dcc/classMutator.html#a938ca89c9122771183bba8bd7c513635":[1,0,80,2],
 "d2/dcc/classMutator.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,80,5],
 "d2/dcc/classMutator.html#adc060c9b91ac7921303125de0dabf3b0":[1,0,80,0],
@@ -196,10 +197,13 @@ var NAVTREEINDEX20 =
 "d2/de9/havocbot_8qc.html#a111ec0233d8b5c4d728312b1f98a8962":[2,0,6,0,0,0,2,3],
 "d2/de9/havocbot_8qc.html#a220d6282b351b7a69e7ee1bfce73098f":[2,0,6,0,0,0,2,9],
 "d2/de9/havocbot_8qc.html#a2ffe0266a701ab73cc9cf497b75012e8":[2,0,6,0,0,0,2,11],
+"d2/de9/havocbot_8qc.html#a4f9f1d0da19f3437c39ba32a3d4818c2":[2,0,6,0,0,0,2,14],
+"d2/de9/havocbot_8qc.html#a546358603f551b4d7324345757c1e8bd":[2,0,6,0,0,0,2,15],
 "d2/de9/havocbot_8qc.html#a6907660d101acdfc13c217f1e8b8b062":[2,0,6,0,0,0,2,4],
 "d2/de9/havocbot_8qc.html#a6942c73e794b5ae39ea6211ae7f22d0f":[2,0,6,0,0,0,2,8],
-"d2/de9/havocbot_8qc.html#a7f7e4724cf57d59513b39c5ecc81adc8":[2,0,6,0,0,0,2,14],
+"d2/de9/havocbot_8qc.html#a7f7e4724cf57d59513b39c5ecc81adc8":[2,0,6,0,0,0,2,17],
 "d2/de9/havocbot_8qc.html#a8ed5fd4e5d6f286c17a895c7d269c607":[2,0,6,0,0,0,2,6],
+"d2/de9/havocbot_8qc.html#aa55e9e7ca08b9d19532c89e59131ef22":[2,0,6,0,0,0,2,16],
 "d2/de9/havocbot_8qc.html#aafb530d767cc0dfb9cc3ce3c1cea4f0e":[2,0,6,0,0,0,2,7],
 "d2/de9/havocbot_8qc.html#ab3e758f3cf17a456e7ea2a980aba0e5a":[2,0,6,0,0,0,2,1],
 "d2/de9/havocbot_8qc.html#ab54a79fe42ba8680d17f5a0e7449cb83":[2,0,6,0,0,0,2,10],
@@ -245,9 +249,5 @@ var NAVTREEINDEX20 =
 "d2/dec/classXonoticServerList.html#a5118a41db09f8b23d9491fb4af37a646":[1,0,232,25],
 "d2/dec/classXonoticServerList.html#a5155901d6364350cdfe961a554edbd77":[1,0,232,31],
 "d2/dec/classXonoticServerList.html#a55846e9fdc3b7dbef1944fdaf7382534":[1,0,232,112],
-"d2/dec/classXonoticServerList.html#a565f8d33b46815606f1860162d71339a":[1,0,232,32],
-"d2/dec/classXonoticServerList.html#a5713f90b33bb6b7fef6ef1eb9241d4ee":[1,0,232,5],
-"d2/dec/classXonoticServerList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,232,17],
-"d2/dec/classXonoticServerList.html#a5b9cac916f26d42ccc95594fcef61549":[1,0,232,10],
-"d2/dec/classXonoticServerList.html#a5fca5af9a40c2ff81c0d7ad755034517":[1,0,232,27]
+"d2/dec/classXonoticServerList.html#a565f8d33b46815606f1860162d71339a":[1,0,232,32]
 };

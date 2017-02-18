@@ -1,5 +1,9 @@
 var NAVTREEINDEX22 =
 {
+"d3/d05/hud_8qh.html#a5aa4c12564945756f55e7074a2a02cde":[2,0,0,1,4,76],
+"d3/d05/hud_8qh.html#a5ac8deafe7bbfd89bc5200cb5d1cde26":[2,0,0,1,4,118],
+"d3/d05/hud_8qh.html#a5d06b2c0927a58902e9277944eaec891":[2,0,0,1,4,19],
+"d3/d05/hud_8qh.html#a5d38628b7b19dcb6c4447be6f883d546":[2,0,0,1,4,160],
 "d3/d05/hud_8qh.html#a5d86a1997a442c698d453e215ca32568":[2,0,0,1,4,57],
 "d3/d05/hud_8qh.html#a5ff072dc76b8ee671ef47ebc1cee86d8":[2,0,0,1,4,87],
 "d3/d05/hud_8qh.html#a611c5a4dcd2431118e0c0848884e417f":[2,0,0,1,4,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX22 =
 "d3/d0d/classHellion.html#abeacba5ce7352965440eef7dd97cc53c":[1,0,45,14],
 "d3/d0d/classHellion.html#ac0a380f4b08bad88d17a175d4f648795":[1,0,45,11],
 "d3/d0d/classHellion.html#ae1a47aa50246561c44f593e7af3ad1ce":[1,0,45,3],
-"d3/d0d/classHellion.html#ae8e7f7175f66dffa32dfb5e560b5bff7":[1,0,45,15],
-"d3/d0d/classHellion.html#aed9f0784a77f4ca2da5cc42f617cf0e1":[1,0,45,18],
-"d3/d0d/classHellion.html#aeeb1a28cda1a5dae7141feea2887475f":[1,0,45,4],
-"d3/d0d/classHellion.html#af0d1789cf260770caa9002a133a661d7":[1,0,45,0],
-"d3/d0f/dialog__hudpanel__timer_8qc.html":[2,0,5,4,76]
+"d3/d0d/classHellion.html#ae8e7f7175f66dffa32dfb5e560b5bff7":[1,0,45,15]
 };

@@ -1,5 +1,17 @@
 var NAVTREEINDEX98 =
 {
+"db/d7f/effectinfo_8inc.html#a23fae20bc91a64db27f9f73aad234b3c":[2,0,1,2,7,102],
+"db/d7f/effectinfo_8inc.html#a24841af0c7e36f8cab8cf4eb0445e8b5":[2,0,1,2,7,164],
+"db/d7f/effectinfo_8inc.html#a24ba3ddb2a839a2b73d22828344a0b1c":[2,0,1,2,7,108],
+"db/d7f/effectinfo_8inc.html#a2511a2160c91dc3c468e7910a08a315a":[2,0,1,2,7,77],
+"db/d7f/effectinfo_8inc.html#a264f56b40a04826f7ee4113e8e9fcc0b":[2,0,1,2,7,119],
+"db/d7f/effectinfo_8inc.html#a2670b57bc65da56db957b90d691aec11":[2,0,1,2,7,5],
+"db/d7f/effectinfo_8inc.html#a2676931fa858749234d540b348ec7111":[2,0,1,2,7,205],
+"db/d7f/effectinfo_8inc.html#a2742f04fbbdb9b3f6c7cd57c8b67074a":[2,0,1,2,7,81],
+"db/d7f/effectinfo_8inc.html#a2758ea7cd5131a7781e54910c316b820":[2,0,1,2,7,343],
+"db/d7f/effectinfo_8inc.html#a291fa2a0d4c5b87cdc47f27ee717ed28":[2,0,1,2,7,113],
+"db/d7f/effectinfo_8inc.html#a2ae93913da7a9ba93a236bf67820d2f5":[2,0,1,2,7,0],
+"db/d7f/effectinfo_8inc.html#a2b3de5868558a27a4187e50cb0eb0263":[2,0,1,2,7,184],
 "db/d7f/effectinfo_8inc.html#a2b5d9e1d3be4bfbba280f9e78f7c4d5c":[2,0,1,2,7,48],
 "db/d7f/effectinfo_8inc.html#a2bbacca15525b1904ae0e4abe66f9074":[2,0,1,2,7,137],
 "db/d7f/effectinfo_8inc.html#a2f757a6a091a5c78f14142714b99a7e1":[2,0,1,2,7,248],
@@ -237,17 +249,5 @@ var NAVTREEINDEX98 =
 "db/d7f/effectinfo_8inc.html#ac61635b92198b2ad5055fafc39684d0d":[2,0,1,2,7,272],
 "db/d7f/effectinfo_8inc.html#ac7c86f73a94943dee0c71ef96a1a7e6e":[2,0,1,2,7,39],
 "db/d7f/effectinfo_8inc.html#ac86351e28218236a4a9dfd91e05bc383":[2,0,1,2,7,138],
-"db/d7f/effectinfo_8inc.html#ac939d312aedb2ececd1cda8abe5c3a09":[2,0,1,2,7,183],
-"db/d7f/effectinfo_8inc.html#ac9d4a16956c2a0eebda51fac74b86797":[2,0,1,2,7,170],
-"db/d7f/effectinfo_8inc.html#acad0c16a962f053c9509a72f06a93829":[2,0,1,2,7,225],
-"db/d7f/effectinfo_8inc.html#acc2be3664d219ee4f4241b2b1da1c6ad":[2,0,1,2,7,136],
-"db/d7f/effectinfo_8inc.html#acc3a215b4ac07fcb9299286b44d3a0bc":[2,0,1,2,7,50],
-"db/d7f/effectinfo_8inc.html#acc428bf775c450d281c042afced73636":[2,0,1,2,7,130],
-"db/d7f/effectinfo_8inc.html#accae52a3bae99ab53b61ff68bba7163a":[2,0,1,2,7,294],
-"db/d7f/effectinfo_8inc.html#accb016a039a53ac3201ef4a7af4b7d25":[2,0,1,2,7,210],
-"db/d7f/effectinfo_8inc.html#acd1be520c6f7997698f8512ea3281d5c":[2,0,1,2,7,280],
-"db/d7f/effectinfo_8inc.html#acdba90a603f64accd60e241ce4b73609":[2,0,1,2,7,47],
-"db/d7f/effectinfo_8inc.html#ace2f2eb8fa3abc018fb3084a17161d64":[2,0,1,2,7,243],
-"db/d7f/effectinfo_8inc.html#aceaef505de3578b9fe04a46a6317626d":[2,0,1,2,7,341],
-"db/d7f/effectinfo_8inc.html#ad15e2560d41ff0d706b5f4d0feacacf6":[2,0,1,2,7,356]
+"db/d7f/effectinfo_8inc.html#ac939d312aedb2ececd1cda8abe5c3a09":[2,0,1,2,7,183]
 };

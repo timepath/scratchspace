@@ -14,5 +14,8 @@ var havocbot_8qc =
     [ "havocbot_movetogoal", "d2/de9/havocbot_8qc.html#a2ffe0266a701ab73cc9cf497b75012e8", null ],
     [ "havocbot_resetgoal", "d2/de9/havocbot_8qc.html#a0d0be8094adea24042b95c19b346a99b", null ],
     [ "havocbot_setupbot", "d2/de9/havocbot_8qc.html#afb882bcf6c4a44e801e4fb9eafbbf1f4", null ],
+    [ "goalcurrent_distance", "d2/de9/havocbot_8qc.html#a4f9f1d0da19f3437c39ba32a3d4818c2", null ],
+    [ "goalcurrent_distance_time", "d2/de9/havocbot_8qc.html#a546358603f551b4d7324345757c1e8bd", null ],
+    [ "goalcurrent_prev", "d2/de9/havocbot_8qc.html#aa55e9e7ca08b9d19532c89e59131ef22", null ],
     [ "speed", "d2/de9/havocbot_8qc.html#a7f7e4724cf57d59513b39c5ecc81adc8", null ]
 ];
