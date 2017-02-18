@@ -1541,7 +1541,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00989"></a><span class="lineno">  989</span>&#160;    {</div>
 <div class="line"><a name="l00990"></a><span class="lineno">  990</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> gc_min = this.<a class="code" href="../../db/d15/api_8qh.html#a6500a34a607c753143f189ab57849131">goalcurrent</a>.absmin;</div>
 <div class="line"><a name="l00991"></a><span class="lineno">  991</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> gc_max = this.<a class="code" href="../../db/d15/api_8qh.html#a6500a34a607c753143f189ab57849131">goalcurrent</a>.absmax;</div>
-<div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../db/d15/api_8qh.html#a6500a34a607c753143f189ab57849131">goalcurrent</a>.classname == <span class="stringliteral">&quot;waypoint&quot;</span>)</div>
+<div class="line"><a name="l00992"></a><span class="lineno">  992</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../db/d15/api_8qh.html#a6500a34a607c753143f189ab57849131">goalcurrent</a>.classname == <span class="stringliteral">&quot;waypoint&quot;</span> &amp;&amp; !<span class="keyword">this</span>.goalcurrent.wpisbox)</div>
 <div class="line"><a name="l00993"></a><span class="lineno">  993</span>&#160;        {</div>
 <div class="line"><a name="l00994"></a><span class="lineno">  994</span>&#160;            gc_min = this.<a class="code" href="../../db/d15/api_8qh.html#a6500a34a607c753143f189ab57849131">goalcurrent</a>.origin - <span class="stringliteral">&#39;1 1 1&#39;</span> * 12;</div>
 <div class="line"><a name="l00995"></a><span class="lineno">  995</span>&#160;            gc_max = this.<a class="code" href="../../db/d15/api_8qh.html#a6500a34a607c753143f189ab57849131">goalcurrent</a>.origin + <span class="stringliteral">&#39;1 1 1&#39;</span> * 12;</div>
@@ -3590,7 +3590,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../df/dd4/navigation_8qh.html">navigation.qh</a></li>
-    <li class="footer">Generated on Sat Feb 18 2017 11:29:36 for Xonotic by
+    <li class="footer">Generated on Sat Feb 18 2017 23:39:47 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
