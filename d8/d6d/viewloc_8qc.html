@@ -156,51 +156,54 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;{</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../da/db7/triggers_2trigger_2viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb">viewloc</a>)</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> old_movement = this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#a23fc255128837ca7ca9aa8362cdb3a4a">movement</a>;</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        this.movement_x = old_movement_y;</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        this.movement_y = 0;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">if</span>(this.movement_x &lt; 0)</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            this.movement_x = -this.movement_x;</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../da/db7/triggers_2trigger_2viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb">viewloc</a>.goalentity == <span class="keyword">this</span>.viewloc.enemy)</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="keywordflow">return</span>; <span class="comment">// we can&#39;t side-scroll in this case</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> old_movement = this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#a23fc255128837ca7ca9aa8362cdb3a4a">movement</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        this.movement_x = old_movement_y;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        this.movement_y = 0;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> level_start, level_end;</div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        level_start = this.<a class="code" href="../../da/db7/triggers_2trigger_2viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb">viewloc</a>.enemy.origin;</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        level_end = this.<a class="code" href="../../da/db7/triggers_2trigger_2viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb">viewloc</a>.goalentity.origin;</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> forward, backward;</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        forward = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(level_end - level_start));</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        backward = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(level_start - level_end));</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        <span class="keywordflow">if</span>(this.movement_x &lt; 0) <span class="comment">// left</span></div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            this.angles_y = backward_y;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        <span class="keywordflow">if</span>(this.movement_x &gt; 0) <span class="comment">// right</span></div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            this.angles_y = forward_y;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">if</span>(old_movement_x &gt; 0)</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;<span class="preprocessor"></span>            input_angles_x =</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor"></span>            this.v_angle_x = this.angles_x = -50;</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(old_movement_x &lt; 0)</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor"></span>            input_angles_x =</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor"></span>            this.v_angle_x = this.angles_x = 50;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="comment">//if(!PHYS_INPUT_BUTTON_CROUCH(this) &amp;&amp; !IS_DUCKED(this))</span></div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor"></span>            <span class="comment">//PHYS_INPUT_BUTTON_CROUCH(this) = (old_movement_x &lt; 0);</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;            <span class="keywordflow">if</span> (old_movement.x &lt; 0)</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;                <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9">PHYS_INPUT_BUTTON_CROUCH</a>(<span class="keyword">this</span>) = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor">#elif defined(CSQC)</span></div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor"></span>            <span class="keywordflow">if</span> (old_movement.x &lt; 0)</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            {</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;                <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9b4df34712d864a85d033150c6825801">input_buttons</a> |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(4);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;                this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a07834aee511d1ccd48492759bd5873e2">flags</a> |= <a class="code" href="../../d9/dba/cl__player_8qh.html#a8efa3dff8614ab3d6a00736ec8580a18">FL_DUCKED</a>;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            }</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="comment">//else { input_buttons &amp;= ~16; this.flags &amp;= ~FL_DUCKED; }</span></div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor"></span>    }</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;}</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordflow">if</span>(this.movement_x &lt; 0)</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            this.movement_x = -this.movement_x;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> level_start, level_end;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        level_start = this.<a class="code" href="../../da/db7/triggers_2trigger_2viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb">viewloc</a>.enemy.origin;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        level_end = this.<a class="code" href="../../da/db7/triggers_2trigger_2viewloc_8qh.html#adef07fb4d6a7630451fd22476846cfeb">viewloc</a>.goalentity.origin;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> forward, backward;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        forward = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(level_end - level_start));</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        backward = <a class="code" href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(level_start - level_end));</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        <span class="keywordflow">if</span>(this.movement_x &lt; 0) <span class="comment">// left</span></div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            this.angles_y = backward_y;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        <span class="keywordflow">if</span>(this.movement_x &gt; 0) <span class="comment">// right</span></div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            this.angles_y = forward_y;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">if</span>(old_movement_x &gt; 0)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;<span class="preprocessor"></span>            input_angles_x =</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;<span class="preprocessor"></span>            this.v_angle_x = this.angles_x = -50;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(old_movement_x &lt; 0)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">#ifdef CSQC</span></div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"></span>            input_angles_x =</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor"></span>            this.v_angle_x = this.angles_x = 50;</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="comment">//if(!PHYS_INPUT_BUTTON_CROUCH(this) &amp;&amp; !IS_DUCKED(this))</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;<span class="preprocessor"></span>            <span class="comment">//PHYS_INPUT_BUTTON_CROUCH(this) = (old_movement_x &lt; 0);</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;            <span class="keywordflow">if</span> (old_movement.x &lt; 0)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;                <a class="code" href="../../de/d70/common_2physics_2player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9">PHYS_INPUT_BUTTON_CROUCH</a>(<span class="keyword">this</span>) = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;<span class="preprocessor">#elif defined(CSQC)</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;<span class="preprocessor"></span>            <span class="keywordflow">if</span> (old_movement.x &lt; 0)</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;            {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a9b4df34712d864a85d033150c6825801">input_buttons</a> |= <a class="code" href="../../d5/d52/bits_8qh.html#a3a8ea58898cb58fc96013383d39f482c">BIT</a>(4);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a07834aee511d1ccd48492759bd5873e2">flags</a> |= <a class="code" href="../../d9/dba/cl__player_8qh.html#a8efa3dff8614ab3d6a00736ec8580a18">FL_DUCKED</a>;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="comment">//else { input_buttons &amp;= ~16; this.flags &amp;= ~FL_DUCKED; }</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;<span class="preprocessor"></span>    }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;}</div>
 <div class="ttc" id="common_2physics_2player_8qh_html_a0a98773cc29db37e636391cbdfd2aef9"><div class="ttname"><a href="../../de/d70/common_2physics_2player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9">PHYS_INPUT_BUTTON_CROUCH</a></div><div class="ttdeci">#define PHYS_INPUT_BUTTON_CROUCH(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d70/common_2physics_2player_8qh_source.html#l00106">player.qh:106</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9b4df34712d864a85d033150c6825801"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9b4df34712d864a85d033150c6825801">input_buttons</a></div><div class="ttdeci">float input_buttons</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00062">csprogsdefs.qc:62</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a822ea10e75a853993f2fa21149d76f4c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a></div><div class="ttdeci">vector vectoangles(vector v)</div></div>
@@ -240,7 +243,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../d8/d6d/viewloc_8qc.html">viewloc.qc</a></li>
-    <li class="footer">Generated on Mon Feb 20 2017 14:01:18 for Xonotic by
+    <li class="footer">Generated on Mon Feb 20 2017 14:23:19 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
