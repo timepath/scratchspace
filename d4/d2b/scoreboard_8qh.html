@@ -586,7 +586,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00372">Cmd_Scoreboard_SetFields()</a>, <a class="el" href="../../d4/d18/iter_8qh_source.html#l00020">FOREACH</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../d3/d05/hud_8qh_source.html#l00090">ps_primary</a>, <a class="el" href="../../d3/d05/hud_8qh_source.html#l00090">ps_secondary</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00070">SFL_SORT_PRIO_MASK</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00069">SFL_SORT_PRIO_PRIMARY</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00068">SFL_SORT_PRIO_SECONDARY</a>, <a class="el" href="../../d3/d05/hud_8qh_source.html#l00091">ts_primary</a>, and <a class="el" href="../../d3/d05/hud_8qh_source.html#l00091">ts_secondary</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00937">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00939">NET_HANDLE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;{</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    <span class="keywordtype">int</span> i, f;</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
@@ -666,7 +666,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00003">players</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00193">Scoreboard_ComparePlayerScores()</a>, and <a class="el" href="../../dd/d50/sortlist_8qh_source.html#l00014">SORT_SWAP</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00391">NET_HANDLE()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00290">Playerchecker_Think()</a>, and <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00150">Scoreboard_UpdatePlayerTeams()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00393">NET_HANDLE()</a>, <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00292">Playerchecker_Think()</a>, and <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00150">Scoreboard_UpdatePlayerTeams()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;{</div>
 <div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> ent;</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    <span class="keywordflow">for</span>(ent = player.sort_next; ent &amp;&amp; <a class="code" href="../../d3/d07/scoreboard_8qc.html#a7396887b795263e2550e0336c507d697">Scoreboard_ComparePlayerScores</a>(player, ent); ent = player.sort_next)</div>
@@ -792,7 +792,7 @@ Variables</h2></td></tr>
 
 <p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d3/d07/scoreboard_8qc_source.html#l00250">Scoreboard_CompareTeamScores()</a>, <a class="el" href="../../dd/d50/sortlist_8qh_source.html#l00014">SORT_SWAP</a>, and <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00004">teams</a>.</p>
 
-<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00448">NET_HANDLE()</a>.</p>
+<p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00450">NET_HANDLE()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;{</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> ent;</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;    <span class="keywordflow">for</span>(ent = Team.sort_next; ent &amp;&amp; <a class="code" href="../../d3/d07/scoreboard_8qc.html#a945e9931205171a7c7ee94146625c6e1">Scoreboard_CompareTeamScores</a>(Team, ent); ent = Team.sort_next)</div>
@@ -940,7 +940,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../dir_ed4f60597e07802ebc30a81f2c583d1a.html">hud</a></li><li class="navelem"><a class="el" href="../../dir_026fecbde05aca2ce3aaca1260d474bc.html">panel</a></li><li class="navelem"><a class="el" href="../../d4/d2b/scoreboard_8qh.html">scoreboard.qh</a></li>
-    <li class="footer">Generated on Sun Feb 19 2017 11:02:25 for Xonotic by
+    <li class="footer">Generated on Mon Feb 20 2017 04:46:11 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
