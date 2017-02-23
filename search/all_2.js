@@ -417,7 +417,7 @@ var searchData=
   ['buff_5fmin',['BUFF_MIN',['../d8/dd8/sv__buffs_8qh.html#aae701057346d25da5248646e0898e5ff',1,'sv_buffs.qh']]],
   ['buff_5fmodel',['buff_model',['../d8/dd8/sv__buffs_8qh.html#a14f4e75f961cd8672b251062ae26870b',1,'sv_buffs.qh']]],
   ['buff_5fname',['BUFF_NAME',['../d4/d0f/buffs_8qc.html#a7c73e9ee5f2498f85e04b5adaafef6b3',1,'BUFF_NAME(int i):&#160;buffs.qc'],['../dc/d8f/notifications_2all_8qh.html#a7c73e9ee5f2498f85e04b5adaafef6b3',1,'BUFF_NAME(int i):&#160;buffs.qc']]],
-  ['buff_5fnewtype',['buff_NewType',['../d2/dac/sv__buffs_8qc.html#a94ef499a8939aedf9941969e8c473e30',1,'sv_buffs.qc']]],
+  ['buff_5fnewtype',['buff_NewType',['../d2/dac/sv__buffs_8qc.html#a17744acb131e0f820b44f1f944585458',1,'sv_buffs.qc']]],
   ['buff_5fonadd',['BUFF_ONADD',['../d2/dac/sv__buffs_8qc.html#a8a4a5cd8a94e69dcd4a753bb7eece163',1,'sv_buffs.qc']]],
   ['buff_5fonrem',['BUFF_ONREM',['../d2/dac/sv__buffs_8qc.html#a46844ec3711dd4b9f71323d503cd5556',1,'sv_buffs.qc']]],
   ['buff_5freset',['buff_Reset',['../d2/dac/sv__buffs_8qc.html#a93f94a15769e9293139e6b4de56ba024',1,'sv_buffs.qc']]],

@@ -152,7 +152,7 @@ var searchData=
   ['buff_5finit_5fcompat',['buff_Init_Compat',['../d2/dac/sv__buffs_8qc.html#a931156166ad66356620ec9df0f4bda1c',1,'sv_buffs.qc']]],
   ['buff_5fmedic_5fheal',['buff_Medic_Heal',['../d2/dac/sv__buffs_8qc.html#a580ace4ad7da9228b6b8c50bcbd158e7',1,'sv_buffs.qc']]],
   ['buff_5fname',['BUFF_NAME',['../d4/d0f/buffs_8qc.html#a7c73e9ee5f2498f85e04b5adaafef6b3',1,'BUFF_NAME(int i):&#160;buffs.qc'],['../dc/d8f/notifications_2all_8qh.html#a7c73e9ee5f2498f85e04b5adaafef6b3',1,'BUFF_NAME(int i):&#160;buffs.qc']]],
-  ['buff_5fnewtype',['buff_NewType',['../d2/dac/sv__buffs_8qc.html#a94ef499a8939aedf9941969e8c473e30',1,'sv_buffs.qc']]],
+  ['buff_5fnewtype',['buff_NewType',['../d2/dac/sv__buffs_8qc.html#a17744acb131e0f820b44f1f944585458',1,'sv_buffs.qc']]],
   ['buff_5freset',['buff_Reset',['../d2/dac/sv__buffs_8qc.html#a93f94a15769e9293139e6b4de56ba024',1,'sv_buffs.qc']]],
   ['buff_5frespawn',['buff_Respawn',['../d2/dac/sv__buffs_8qc.html#ac3a9c64550a39cfc51178c1579d3184a',1,'sv_buffs.qc']]],
   ['buff_5fsetcooldown',['buff_SetCooldown',['../d2/dac/sv__buffs_8qc.html#a8cfd2fa0bf92d9ac8af75178b55c6ec7',1,'sv_buffs.qc']]],

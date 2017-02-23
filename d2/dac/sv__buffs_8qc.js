@@ -11,7 +11,7 @@ var sv__buffs_8qc =
     [ "buff_Init", "d2/dac/sv__buffs_8qc.html#a2beb52fe9d382c67291efeb79771e1ac", null ],
     [ "buff_Init_Compat", "d2/dac/sv__buffs_8qc.html#a931156166ad66356620ec9df0f4bda1c", null ],
     [ "buff_Medic_Heal", "d2/dac/sv__buffs_8qc.html#a580ace4ad7da9228b6b8c50bcbd158e7", null ],
-    [ "buff_NewType", "d2/dac/sv__buffs_8qc.html#a94ef499a8939aedf9941969e8c473e30", null ],
+    [ "buff_NewType", "d2/dac/sv__buffs_8qc.html#a17744acb131e0f820b44f1f944585458", null ],
     [ "buff_Reset", "d2/dac/sv__buffs_8qc.html#a93f94a15769e9293139e6b4de56ba024", null ],
     [ "buff_Respawn", "d2/dac/sv__buffs_8qc.html#ac3a9c64550a39cfc51178c1579d3184a", null ],
     [ "buff_SetCooldown", "d2/dac/sv__buffs_8qc.html#a8cfd2fa0bf92d9ac8af75178b55c6ec7", null ],
