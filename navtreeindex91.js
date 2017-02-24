@@ -1,5 +1,10 @@
 var NAVTREEINDEX91 =
 {
+"da/db7/classXonoticServerInfoDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,231,109],
+"da/db7/classXonoticServerInfoDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,231,82],
+"da/db7/classXonoticServerInfoDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,231,75],
+"da/db7/classXonoticServerInfoDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,231,97],
+"da/db7/classXonoticServerInfoDialog.html#a888a5db23075b8ce59802cb9bd3c7af5":[1,0,231,6],
 "da/db7/classXonoticServerInfoDialog.html#a892990d6025ca6d817ebc07521cee922":[1,0,231,116],
 "da/db7/classXonoticServerInfoDialog.html#a89b8313739d904cb7b7b43bd10ae911e":[1,0,231,19],
 "da/db7/classXonoticServerInfoDialog.html#a89df6338f4e105645d340fa17a325a4d":[1,0,231,39],
@@ -244,10 +249,5 @@ var NAVTREEINDEX91 =
 "da/dd2/gamemode__invasion_8qh.html":[2,0,6,3,0,17],
 "da/dd2/gamemode__invasion_8qh.html#a1696c31cdbb3e088d0e4cea7f69b0b5d":[2,0,6,3,0,17,10],
 "da/dd2/gamemode__invasion_8qh.html#a1da95251eb07c840640be54b71e94ecb":[2,0,6,3,0,17,5],
-"da/dd2/gamemode__invasion_8qh.html#a25529cc1c6aba9e850432cf8d26a5e93":[2,0,6,3,0,17,1],
-"da/dd2/gamemode__invasion_8qh.html#a4642768c1d09d22d4cbc0238fcc856e1":[2,0,6,3,0,17,11],
-"da/dd2/gamemode__invasion_8qh.html#a67bdbdbda35d6b76102987c1042da7a6":[2,0,6,3,0,17,16],
-"da/dd2/gamemode__invasion_8qh.html#a6879a53e956f0f1fd079b3015609a852":[2,0,6,3,0,17,2],
-"da/dd2/gamemode__invasion_8qh.html#a6fc6f76a4d2ee54e9cd0d1ca72be7c49":[2,0,6,3,0,17,15],
-"da/dd2/gamemode__invasion_8qh.html#a7cba69b159edf1270ece04ffef70fb5c":[2,0,6,3,0,17,9]
+"da/dd2/gamemode__invasion_8qh.html#a25529cc1c6aba9e850432cf8d26a5e93":[2,0,6,3,0,17,1]
 };

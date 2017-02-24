@@ -1,5 +1,10 @@
 var NAVTREEINDEX89 =
 {
+"da/d71/vehicles_2all_8qc.html#a73c313baec888c8737146375c6453289":[2,0,1,15,5,1],
+"da/d71/vehicles_2all_8qc.html#aafd24a334088de3d7fef309914d49101":[2,0,1,15,5,0],
+"da/d71/vehicles_2all_8qc_source.html":[2,0,1,15,5],
+"da/d73/tesla__weapon_8qc.html":[2,0,1,14,0,40],
+"da/d73/tesla__weapon_8qc_source.html":[2,0,1,14,0,40],
 "da/d79/dialog__hudpanel__ammo_8qh.html":[2,0,5,4,45],
 "da/d79/dialog__hudpanel__ammo_8qh_source.html":[2,0,5,4,45],
 "da/d7c/plasma_8qh.html":[2,0,1,14,0,33],
@@ -244,10 +249,5 @@ var NAVTREEINDEX89 =
 "da/d9b/classXonoticButton.html#a551caf43464ecebace012d2b272c7bad":[1,0,142,11],
 "da/d9b/classXonoticButton.html#a56159c764874bed976add81f81298c31":[1,0,142,44],
 "da/d9b/classXonoticButton.html#a566e9a0ddc6c84014a671a939f8d35fd":[1,0,142,49],
-"da/d9b/classXonoticButton.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,142,34],
-"da/d9b/classXonoticButton.html#a6813d8f5f29ba927022b34737e3dc22a":[1,0,142,25],
-"da/d9b/classXonoticButton.html#a6c1cc42796dfc8787fb58ce0945fb6ea":[1,0,142,26],
-"da/d9b/classXonoticButton.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,142,14],
-"da/d9b/classXonoticButton.html#a7642beed5a82948e21add31abf4a4b0a":[1,0,142,33],
-"da/d9b/classXonoticButton.html#a7b13cdc101cd55528465440586a004f6":[1,0,142,54]
+"da/d9b/classXonoticButton.html#a649334a248a7a13fbcbe5e97f655f5f6":[1,0,142,34]
 };

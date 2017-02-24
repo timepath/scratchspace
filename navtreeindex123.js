@@ -1,5 +1,10 @@
 var NAVTREEINDEX123 =
 {
+"de/d8c/classWyvernAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,138,18],
+"de/d8c/classWyvernAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,138,30],
+"de/d8c/classWyvernAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,138,16],
+"de/d8c/classWyvernAttack.html#a32a28865e4c67cc786e85fdeb8273923":[1,0,138,20],
+"de/d8c/classWyvernAttack.html#a3f5c941ed9146dd8594ea21f553073e4":[1,0,138,11],
 "de/d8c/classWyvernAttack.html#a4337268c8cad6836bae8efd4a8835070":[1,0,138,21],
 "de/d8c/classWyvernAttack.html#a4488d7a9b2e25d11548b9e8a110ba11d":[1,0,138,1],
 "de/d8c/classWyvernAttack.html#a47d8efef719d62b54a5d0b1b66ab6286":[1,0,138,15],
@@ -244,10 +249,5 @@ var NAVTREEINDEX123 =
 "de/dc3/teamradar_8qc.html#ad80e64c27e436b0f60d695353d84b3d6":[2,0,0,28,7],
 "de/dc3/teamradar_8qc.html#ae039c2e84a848ec82816975aa2658438":[2,0,0,28,5],
 "de/dc3/teamradar_8qc.html#ae9ba6e1072e311a7403fa46bf7091a79":[2,0,0,28,2],
-"de/dc3/teamradar_8qc_source.html":[2,0,0,28],
-"de/dc5/dialog__settings__effects_8qh.html":[2,0,5,4,123],
-"de/dc5/dialog__settings__effects_8qh.html#a8ace980a9aa0b9448962d11b51ad3f3e":[2,0,5,4,123,1],
-"de/dc5/dialog__settings__effects_8qh_source.html":[2,0,5,4,123],
-"de/dcb/classMageSpike.html":[1,0,71],
-"de/dcb/classMageSpike.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,71,33]
+"de/dc3/teamradar_8qc_source.html":[2,0,0,28]
 };

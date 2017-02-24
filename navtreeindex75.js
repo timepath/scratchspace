@@ -1,5 +1,10 @@
 var NAVTREEINDEX75 =
 {
+"d8/db8/classCrylink.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,21,8],
+"d8/db8/classCrylink.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,21,2],
+"d8/db8/classCrylink.html#a71f665728d949ab406810aef09ad230e":[1,0,21,33],
+"d8/db8/classCrylink.html#a78537f316460b0dc9e5843261a9bacd3":[1,0,21,24],
+"d8/db8/classCrylink.html#a7b2ba51cb1e5fcfd1d023c3710d0f28a":[1,0,21,29],
 "d8/db8/classCrylink.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,21,27],
 "d8/db8/classCrylink.html#a7fa0bbbb084ffb8e97a9d2df198dc454":[1,0,21,32],
 "d8/db8/classCrylink.html#a80fa9a65e19370473a29baebc04d0626":[1,0,21,4],
@@ -244,10 +249,5 @@ var NAVTREEINDEX75 =
 "d8/dd8/sv__buffs_8qh.html#a39a49dfb13476e573dab25e06a90e563":[2,0,1,9,0,2,8,62],
 "d8/dd8/sv__buffs_8qh.html#a3a19f5b80ff5f5a3867d484cb5f79060":[2,0,1,9,0,2,8,9],
 "d8/dd8/sv__buffs_8qh.html#a3a7b8cb38386a1a5727768f91e22fabe":[2,0,1,9,0,2,8,5],
-"d8/dd8/sv__buffs_8qh.html#a3ffd0865f6c4b086ad045b6ee81d28d6":[2,0,1,9,0,2,8,28],
-"d8/dd8/sv__buffs_8qh.html#a4ebbb8c31b3e8787c4ebf7b51e722f76":[2,0,1,9,0,2,8,53],
-"d8/dd8/sv__buffs_8qh.html#a4f705b3f26c151e66101524ff51a2ba1":[2,0,1,9,0,2,8,34],
-"d8/dd8/sv__buffs_8qh.html#a58a89c904b6bf799b0c3c671826eac08":[2,0,1,9,0,2,8,37],
-"d8/dd8/sv__buffs_8qh.html#a5bbf97ae7f512d171a5d738d82f793f4":[2,0,1,9,0,2,8,56],
-"d8/dd8/sv__buffs_8qh.html#a5d94bfd45a28170325dca3b01a1c480a":[2,0,1,9,0,2,8,15]
+"d8/dd8/sv__buffs_8qh.html#a3ffd0865f6c4b086ad045b6ee81d28d6":[2,0,1,9,0,2,8,28]
 };
