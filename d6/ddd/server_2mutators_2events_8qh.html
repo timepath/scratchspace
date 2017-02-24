@@ -678,8 +678,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a8b187cf36085c0900515fe6b766a566e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a8b187cf36085c0900515fe6b766a566e">MUTATOR_HOOKABLE</a> (ReadyRestart_Deny, <a class="el" href="../../d4/d95/common_2mutators_2events_8qh.html#a0aaba201f9bc806bffbf6ecfcd32bdd6">EV_NO_ARGS</a>)</td></tr>
 <tr class="memdesc:a8b187cf36085c0900515fe6b766a566e"><td class="mdescLeft">&#160;</td><td class="mdescRight">return true to just restart the match, for modes that don't support readyrestart  <a href="#a8b187cf36085c0900515fe6b766a566e">More...</a><br/></td></tr>
 <tr class="separator:a8b187cf36085c0900515fe6b766a566e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ba9e011846397de4e801455435e5a88"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a9ba9e011846397de4e801455435e5a88">void</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../d3/dd0/self_8qh.html#ac6e5c7e9cf195be4b7295953f6e59113">this</a>) monster_loot</td></tr>
-<tr class="separator:a9ba9e011846397de4e801455435e5a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -687,6 +685,8 @@ Variables</h2></td></tr>
 <tr class="separator:a2da559e70e6e6c7251e3121fc7550aa2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae3b8b03a5f420f0d22bd451c4292b99f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f">get_cvars_s</a></td></tr>
 <tr class="separator:ae3b8b03a5f420f0d22bd451c4292b99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b05b0b07f8bfac621be16b7588af844"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html#a3b05b0b07f8bfac621be16b7588af844">monster_loot</a></td></tr>
+<tr class="separator:a3b05b0b07f8bfac621be16b7588af844"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a class="anchor" id="ac7945d063c38522d5bd947d1151a13f6"></a>
@@ -7048,22 +7048,6 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a9ba9e011846397de4e801455435e5a88"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a>&#160;</td>
-          <td class="paramname"><em>this</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Variable Documentation</h2>
 <a class="anchor" id="a2da559e70e6e6c7251e3121fc7550aa2"></a>
 <div class="memitem">
@@ -7097,13 +7081,29 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a3b05b0b07f8bfac621be16b7588af844"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> monster_loot</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Definition at line <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html#l00297">297</a> of file <a class="el" href="../../d6/ddd/server_2mutators_2events_8qh_source.html">events.qh</a>.</p>
+
+<p>Referenced by <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00032">monster_dropitem()</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../d6/ddd/server_2mutators_2events_8qh.html">events.qh</a></li>
-    <li class="footer">Generated on Fri Feb 24 2017 01:54:06 for Xonotic by
+    <li class="footer">Generated on Fri Feb 24 2017 10:26:00 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

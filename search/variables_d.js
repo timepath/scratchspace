@@ -250,6 +250,7 @@ var searchData=
   ['monster_5fface',['monster_face',['../d8/dc1/sv__monsters_8qh.html#a838da60dd8e52d7a4224ddc76c76c0c5',1,'sv_monsters.qh']]],
   ['monster_5ffollow',['monster_follow',['../d8/dc1/sv__monsters_8qh.html#a2e34ebdf7a40307b2e0f2f99b9a2bef6',1,'sv_monsters.qh']]],
   ['monster_5flifetime',['monster_lifetime',['../d8/dc1/sv__monsters_8qh.html#af6fd9a6f6a7602ea1bf37921cb674a67',1,'sv_monsters.qh']]],
+  ['monster_5floot',['monster_loot',['../d6/ddd/server_2mutators_2events_8qh.html#a3b05b0b07f8bfac621be16b7588af844',1,'events.qh']]],
   ['monster_5fmove_5fenemy',['MONSTER_MOVE_ENEMY',['../d8/dc1/sv__monsters_8qh.html#a39265a291582ecec76146c1352a0f36d',1,'sv_monsters.qh']]],
   ['monster_5fmove_5ffollow',['MONSTER_MOVE_FOLLOW',['../d8/dc1/sv__monsters_8qh.html#a287fcf4b75e1081ea18d19728d01306d',1,'sv_monsters.qh']]],
   ['monster_5fmove_5fnomove',['MONSTER_MOVE_NOMOVE',['../d8/dc1/sv__monsters_8qh.html#aec1e29825310819882d3a698fbdcdcb1',1,'sv_monsters.qh']]],
