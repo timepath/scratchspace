@@ -236,7 +236,7 @@ var searchData=
   ['localsound',['localsound',['../d8/de2/menudefs_8qc.html#aa0df35bc4fc34d5184f9b16a252f1ec3',1,'menudefs.qc']]],
   ['location_2eqc',['location.qc',['../db/d3a/location_8qc.html',1,'']]],
   ['location_2eqh',['location.qh',['../df/dd9/location_8qh.html',1,'']]],
-  ['location_5fisok',['location_isok',['../dd/d1e/utility_8qc.html#a985cae414a4425efc147021bad7f022e',1,'utility.qc']]],
+  ['location_5fisok',['location_isok',['../dd/d1e/utility_8qc.html#aac192e0597d8df992d4963e6d8ddf503',1,'location_isok(vector point, bool waterok, bool air_isok):&#160;utility.qc'],['../dc/db9/utility_8qh.html#aac192e0597d8df992d4963e6d8ddf503',1,'location_isok(vector point, bool waterok, bool air_isok):&#160;utility.qc']]],
   ['lockedselecteditem',['lockedSelectedItem',['../d2/dec/classXonoticServerList.html#ac74328a1d9e5cf5040523008475a4b13',1,'XonoticServerList']]],
   ['lockteams',['lockteams',['../d5/d26/server_2defs_8qh.html#ac9a5c917d5f6eb50b1aa1b333de61a88',1,'defs.qh']]],
   ['lod_5fcustomize',['LOD_customize',['../d2/d11/g__subs_8qc.html#a85b02a7cb75cdb9e471532f35097b3cc',1,'LOD_customize(entity this, entity client):&#160;g_subs.qc'],['../d6/d93/g__subs_8qh.html#a85b02a7cb75cdb9e471532f35097b3cc',1,'LOD_customize(entity this, entity client):&#160;g_subs.qc']]],

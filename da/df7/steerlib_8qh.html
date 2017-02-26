@@ -165,19 +165,19 @@ Variables</h2></td></tr>
 
 <p>Pull toward a point, The further away, the stronger the pull. </p>
 
-<p>Definition at line <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00029">29</a> of file <a class="el" href="../../de/d9b/steerlib_8qc_source.html">steerlib.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00030">30</a> of file <a class="el" href="../../de/d9b/steerlib_8qc_source.html">steerlib.qc</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">origin</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
 
-<p>Referenced by <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00177">steerlib_flock()</a>, <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00203">steerlib_flock2d()</a>, and <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00234">steerlib_swarm()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;{</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    <span class="keywordtype">float</span> distance;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> direction;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    distance = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0.001,<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> - point),maximal_distance);</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    direction = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(point - this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>);</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">return</span>  direction * (distance / maximal_distance);</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
+<p>Referenced by <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00178">steerlib_flock()</a>, <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00204">steerlib_flock2d()</a>, and <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00235">steerlib_swarm()</a>.</p>
+<div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <span class="keywordtype">float</span> distance;</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> direction;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    distance = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0.001,<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> - point),maximal_distance);</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    direction = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(point - this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>);</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="keywordflow">return</span>  direction * (distance / maximal_distance);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
@@ -248,24 +248,24 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00053">53</a> of file <a class="el" href="../../de/d9b/steerlib_8qc_source.html">steerlib.qc</a>.</p>
+<p>Definition at line <a class="el" href="../../de/d9b/steerlib_8qc_source.html#l00054">54</a> of file <a class="el" href="../../de/d9b/steerlib_8qc_source.html">steerlib.qc</a>.</p>
 
 <p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">origin</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../da/d4e/sv__monsters_8qc_source.html#l00694">Monster_Move()</a>.</p>
-<div class="fragment"><div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;{</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    <span class="keywordtype">float</span> distance;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> direction;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <span class="keywordtype">float</span> influense;</div>
-<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    distance  = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0.00001,<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> - point),max_distance);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    direction = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(point - this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    influense = 1 - (distance / max_distance);</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    influense = min_influense + (influense * (max_influense - min_influense));</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">return</span>  direction * influense;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;}</div>
+<div class="fragment"><div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;{</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <span class="keywordtype">float</span> distance;</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> direction;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="keywordtype">float</span> influense;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    distance  = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0.00001,<a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a> - point),max_distance);</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;    direction = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a>(point - this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    influense = 1 - (distance / max_distance);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    influense = min_influense + (influense * (max_influense - min_influense));</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    <span class="keywordflow">return</span>  direction * influense;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
@@ -317,7 +317,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../da/df7/steerlib_8qh.html">steerlib.qh</a></li>
-    <li class="footer">Generated on Sun Feb 26 2017 13:05:07 for Xonotic by
+    <li class="footer">Generated on Sun Feb 26 2017 13:58:31 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

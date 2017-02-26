@@ -1,5 +1,6 @@
 var NAVTREEINDEX111 =
 {
+"dc/df7/classXonoticCvarsDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,156,31],
 "dc/df7/classXonoticCvarsDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,156,62],
 "dc/df7/classXonoticCvarsDialog.html#ae108ba434fc5bd069e7c700ffda3697f":[1,0,156,82],
 "dc/df7/classXonoticCvarsDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,156,55],
@@ -130,7 +131,7 @@ var NAVTREEINDEX111 =
 "dd/d1d/spider_8qh_source.html":[2,0,1,8,0,7],
 "dd/d1e/utility_8qc.html":[2,0,6,4,15],
 "dd/d1e/utility_8qc.html#a517c09617f635a9198cded1ac0b7565d":[2,0,6,4,15,5],
-"dd/d1e/utility_8qc.html#a985cae414a4425efc147021bad7f022e":[2,0,6,4,15,0],
+"dd/d1e/utility_8qc.html#aac192e0597d8df992d4963e6d8ddf503":[2,0,6,4,15,0],
 "dd/d1e/utility_8qc.html#ad7e0fa93ffe2ec3f34de96e7f86b90af":[2,0,6,4,15,1],
 "dd/d1e/utility_8qc.html#ae378e0992eaba9407d5ac5562b277475":[2,0,6,4,15,3],
 "dd/d1e/utility_8qc.html#af9eb582898cab4e22bace1c7afba0f66":[2,0,6,4,15,4],
@@ -178,8 +179,8 @@ var NAVTREEINDEX111 =
 "dd/d31/banning_8qc.html#ab06757f76f67988cdb9bc8b461249324":[2,0,6,1,2,7],
 "dd/d31/banning_8qc.html#aba67cceb5fd8064ebdfc75158f7e9ac1":[2,0,6,1,2,8],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,3],
-"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,1],
+"dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,0],
 "dd/d31/banning_8qc.html#abd311bbd5558b135609b2bb2651317ae":[2,0,6,1,2,2],
 "dd/d31/banning_8qc.html#ad6f39c7b5f08dca03286f322a3d5ebc0":[2,0,6,1,2,11],
 "dd/d31/banning_8qc.html#ae97a573397acb70dbe8fe34e943591ca":[2,0,6,1,2,12],
@@ -248,6 +249,5 @@ var NAVTREEINDEX111 =
 "dd/d36/classXonoticGameViewSettingsTab.html#a7cde915f25624c041f7ad3f2e954b302":[1,0,171,90],
 "dd/d36/classXonoticGameViewSettingsTab.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,171,81],
 "dd/d36/classXonoticGameViewSettingsTab.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,171,80],
-"dd/d36/classXonoticGameViewSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,171,56],
-"dd/d36/classXonoticGameViewSettingsTab.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,171,49]
+"dd/d36/classXonoticGameViewSettingsTab.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,171,56]
 };
