@@ -5,6 +5,7 @@ var math_8qh =
     [ "MEAN_DECLARE", "d0/d79/math_8qh.html#a2451f68a55948c105f085b057964046b", null ],
     [ "MEAN_EVALUATE", "d0/d79/math_8qh.html#a909baf136adbe1583e95ad9c3fcb3faa", null ],
     [ "almost_equals", "d0/d79/math_8qh.html#a075466721b3b3a7ed731ebddae51c610", null ],
+    [ "almost_equals_eps", "d0/d79/math_8qh.html#a675a15aa7b6315a05b422e444c7fc391", null ],
     [ "almost_in_bounds", "d0/d79/math_8qh.html#a2b043480e166fa027fb2749365c66089", null ],
     [ "angc", "d0/d79/math_8qh.html#a3beea75a8f5936cd10f1b7319347a884", null ],
     [ "bezier_quadratic_getderivative", "d0/d79/math_8qh.html#a9b467740a92a31e38f97070aba962007", null ],

@@ -141,7 +141,8 @@ var NAVTREEINDEX2 =
 "d0/d58/ewheel__weapon_8qh.html#ad28d60b4479123d68ab7d2f37b300cb1":[2,0,1,14,0,5,1],
 "d0/d58/ewheel__weapon_8qh_source.html":[2,0,1,14,0,5],
 "d0/d58/float_8qh.html":[2,0,4,20],
-"d0/d58/float_8qh.html#a86232f8ca6f2e3cb31772ea282250909":[2,0,4,20,0],
+"d0/d58/float_8qh.html#a86232f8ca6f2e3cb31772ea282250909":[2,0,4,20,1],
+"d0/d58/float_8qh.html#aa23a993f6d3b9cc60332a3a6dc5d26e1":[2,0,4,20,0],
 "d0/d58/float_8qh_source.html":[2,0,4,20],
 "d0/d5c/bot__null_8qh.html":[2,0,6,0,1,3],
 "d0/d5c/bot__null_8qh_source.html":[2,0,6,0,1,3],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "d0/d72/lib_2warpzone_2client_8qc.html#a274e545688e9b9fd16d9ecef34d7a074":[2,0,4,2,4,13],
 "d0/d72/lib_2warpzone_2client_8qc.html#a295339443c4957cce0bd0fe831cf64c8":[2,0,4,2,4,3],
 "d0/d72/lib_2warpzone_2client_8qc.html#a3ffef105e69ca5cd4e07ffeae58d80e8":[2,0,4,2,4,4],
-"d0/d72/lib_2warpzone_2client_8qc.html#a441061149623ecc221416e51bb17c337":[2,0,4,2,4,6],
-"d0/d72/lib_2warpzone_2client_8qc.html#a44e847786eb2ba1a67611972a2db2ed3":[2,0,4,2,4,14]
+"d0/d72/lib_2warpzone_2client_8qc.html#a441061149623ecc221416e51bb17c337":[2,0,4,2,4,6]
 };

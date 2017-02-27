@@ -1,5 +1,7 @@
 var NAVTREEINDEX13 =
 {
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,161,4],
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,161,43],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,161,21],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,161,49],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,161,54],
@@ -247,7 +249,5 @@ var NAVTREEINDEX13 =
 "d1/de2/classFreezeTag.html#af9790aef5af3ed2134fefcb9d01c19b2":[1,0,38,14],
 "d1/de2/classFreezeTag.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,38,5],
 "d1/de4/common_2mutators_2mutator_2dodging_2__mod_8inc.html":[2,0,1,9,0,7,0],
-"d1/de4/common_2mutators_2mutator_2dodging_2__mod_8inc_source.html":[2,0,1,9,0,7,0],
-"d1/de6/demolist_8qh.html":[2,0,5,4,37],
-"d1/de6/demolist_8qh.html#a135f1c46b5a65c4d123af0007cff3189":[2,0,5,4,37,3]
+"d1/de4/common_2mutators_2mutator_2dodging_2__mod_8inc_source.html":[2,0,1,9,0,7,0]
 };

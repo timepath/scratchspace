@@ -34,6 +34,7 @@ var searchData=
   ['admin_5fname',['admin_name',['../dc/dc6/server_2miscfunctions_8qc.html#a4e69debd65c39578e6ce4356e7354839',1,'admin_name():&#160;miscfunctions.qc'],['../dc/d73/server_2miscfunctions_8qh.html#a4e69debd65c39578e6ce4356e7354839',1,'admin_name():&#160;miscfunctions.qc']]],
   ['aim_5fvec',['aim_vec',['../d6/df6/p2mathlib_8qc.html#a0cb59434f9c9da300b7612a00dbac6bd',1,'aim_vec(vector origin, vector target):&#160;p2mathlib.qc'],['../d1/d84/p2mathlib_8qh.html#a0cb59434f9c9da300b7612a00dbac6bd',1,'aim_vec(vector origin, vector target):&#160;p2mathlib.qc']]],
   ['almost_5fequals',['almost_equals',['../d5/df2/common_2util_8qh.html#a075466721b3b3a7ed731ebddae51c610',1,'almost_equals(float a, float b):&#160;math.qh'],['../d0/d79/math_8qh.html#a075466721b3b3a7ed731ebddae51c610',1,'almost_equals(float a, float b):&#160;math.qh']]],
+  ['almost_5fequals_5feps',['almost_equals_eps',['../d0/d79/math_8qh.html#a675a15aa7b6315a05b422e444c7fc391',1,'math.qh']]],
   ['almost_5fin_5fbounds',['almost_in_bounds',['../d5/df2/common_2util_8qh.html#a2b043480e166fa027fb2749365c66089',1,'almost_in_bounds(float a, float b, float c):&#160;math.qh'],['../d0/d79/math_8qh.html#a2b043480e166fa027fb2749365c66089',1,'almost_in_bounds(float a, float b, float c):&#160;math.qh']]],
   ['altstr_5fcount',['altstr_count',['../d8/de2/menudefs_8qc.html#a4ec68a57a7ac06e3f1c2375c45e20b6d',1,'menudefs.qc']]],
   ['altstr_5fget',['altstr_get',['../d8/de2/menudefs_8qc.html#ae4649afa01702fa16073a6cb40713cf2',1,'menudefs.qc']]],
