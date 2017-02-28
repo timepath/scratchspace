@@ -147,13 +147,13 @@ $(document).ready(function(){initNavTree('d2/de9/havocbot_8qc_source.html','../.
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        }</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        {</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordflow">if</span> (!this.<a class="code" href="../../d9/de7/jumppads_8qh.html#aeb124e9cd9ff6aa1d896e02a10fc6ff9">jumppadcount</a>)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;            <span class="keywordflow">if</span> (!this.<a class="code" href="../../d9/de7/jumppads_8qh.html#aeb124e9cd9ff6aa1d896e02a10fc6ff9">jumppadcount</a> &amp;&amp; !STAT(FROZEN, <span class="keyword">this</span>))</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;                this.havocbot_role(<span class="keyword">this</span>); <span class="comment">// little too far down the rabbit hole</span></div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="comment">// TODO: tracewalk() should take care of this job (better path finding under water)</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">// if we don&#39;t have a goal and we&#39;re under water look for a waypoint near the &quot;shore&quot; and push it</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">if</span>(!(<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(<span class="keyword">this</span>)))</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="keywordflow">if</span>(!(<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(<span class="keyword">this</span>) || STAT(FROZEN, <span class="keyword">this</span>)))</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="keywordflow">if</span>(!this.<a class="code" href="../../db/d15/api_8qh.html#a6500a34a607c753143f189ab57849131">goalcurrent</a>)</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="keywordflow">if</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a796f7384a7accc4479668f27b307f3f1">waterlevel</a> == <a class="code" href="../../d0/d8b/common_2constants_8qh.html#a1bda5514df56d211a94a6953fe0dab27">WATERLEVEL_SWIMMING</a> || (this.<a class="code" href="../../d1/da9/bot_8qh.html#a21c2137f2c6aae7645f244993966261d">aistatus</a> &amp; <a class="code" href="../../d1/da9/bot_8qh.html#ae9c030d8a817cb131e4c95fba34faaa6">AI_STATUS_OUT_WATER</a>))</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        {</div>
@@ -190,7 +190,7 @@ $(document).ready(function(){initNavTree('d2/de9/havocbot_8qc_source.html','../.
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <a class="code" href="../../d1/da9/bot_8qh.html#ab31e8158d2ea3bd17d8189070c6b1821">bot_strategytoken_taken</a> = <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;</div>
-<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(<span class="keyword">this</span>))</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a>(<span class="keyword">this</span>) || STAT(FROZEN, <span class="keyword">this</span>))</div>
 <div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="keywordflow">return</span>;</div>
 <div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
 <div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;    <a class="code" href="../../d2/de9/havocbot_8qc.html#a111ec0233d8b5c4d728312b1f98a8962">havocbot_chooseenemy</a>(<span class="keyword">this</span>);</div>
@@ -1740,7 +1740,7 @@ $(document).ready(function(){initNavTree('d2/de9/havocbot_8qc_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_7318b2fb7c051dcf4be3004ea6618cfd.html">bot</a></li><li class="navelem"><a class="el" href="../../dir_dbac0b98ebc23b841c7da477f5de39ea.html">default</a></li><li class="navelem"><a class="el" href="../../dir_f18d5dd12b54ecfc26193d6b0c017e06.html">havocbot</a></li><li class="navelem"><a class="el" href="../../d2/de9/havocbot_8qc.html">havocbot.qc</a></li>
-    <li class="footer">Generated on Tue Feb 28 2017 13:06:08 for Xonotic by
+    <li class="footer">Generated on Tue Feb 28 2017 15:43:25 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
