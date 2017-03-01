@@ -292,31 +292,20 @@ Public Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d8/de2/server_2client_8qh_source.html#l00052">52</a> of file <a class="el" href="../../d8/de2/server_2client_8qh_source.html">client.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00119">CONSTRUCT</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8">cvar_defstring()</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00030">name</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l01606">netaddress</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>, and <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l02379">playermodel</a>.</p>
+<p>References <a class="el" href="../../db/d0a/oo_8qh_source.html#l00119">CONSTRUCT</a>, <a class="el" href="../../d0/d41/menu_8qh_source.html#l00030">name</a>, <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l01606">netaddress</a>, <a class="el" href="../../df/db0/powerups_8qc_source.html#l00009">netname</a>, and <a class="el" href="../../de/d5e/dpextensions_8qc_source.html#l02379">playermodel</a>.</p>
 <div class="fragment"><div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;                                     {</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a>(<a class="code" href="../../d1/d37/classClient.html">Client</a>);</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        this.<a class="code" href="../../d1/d37/classClient.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012">netname</a> = <a class="code" href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a>;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        this.<a class="code" href="../../d1/d37/classClient.html#ac7d2f552e4ce0768198744f31d7deb25">netaddress</a> = <span class="stringliteral">&quot;local&quot;</span>;</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        this.<a class="code" href="../../d1/d37/classClient.html#a486563026f66dc61e671c089890b2be9">playermodel</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8">cvar_defstring</a>(<span class="stringliteral">&quot;sv_defaultplayermodel&quot;</span>);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        this.<a class="code" href="../../d1/d37/classClient.html#a486563026f66dc61e671c089890b2be9">playermodel</a> = <span class="stringliteral">&quot;models/player/megaerebus.iqm&quot;</span>;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    }</div>
 <div class="ttc" id="oo_8qh_html_afcdf0c6d046663533e611fbce35ebdde"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#afcdf0c6d046663533e611fbce35ebdde">CONSTRUCT</a></div><div class="ttdeci">#define CONSTRUCT(cname,...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00119">oo.qh:119</a></div></div>
 <div class="ttc" id="classClient_html_a486563026f66dc61e671c089890b2be9"><div class="ttname"><a href="../../d1/d37/classClient.html#a486563026f66dc61e671c089890b2be9">Client::playermodel</a></div><div class="ttdeci">string playermodel</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00016">client.qh:16</a></div></div>
 <div class="ttc" id="classClient_html"><div class="ttname"><a href="../../d1/d37/classClient.html">Client</a></div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00008">client.qh:8</a></div></div>
 <div class="ttc" id="classClient_html_ac7d2f552e4ce0768198744f31d7deb25"><div class="ttname"><a href="../../d1/d37/classClient.html#ac7d2f552e4ce0768198744f31d7deb25">Client::netaddress</a></div><div class="ttdeci">string netaddress</div><div class="ttdoc">Client IP. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00015">client.qh:15</a></div></div>
 <div class="ttc" id="classClient_html_a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012"><div class="ttname"><a href="../../d1/d37/classClient.html#a2ef8ad9a9f3b9b0ddaa5ab6bc44f9012">Client::netname</a></div><div class="ttdeci">string netname</div><div class="ttdoc">Client name. </div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de2/server_2client_8qh_source.html#l00010">client.qh:10</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_ad9529df35f16daeafe8583b1ab2b42b8"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad9529df35f16daeafe8583b1ab2b42b8">cvar_defstring</a></div><div class="ttdeci">const string cvar_defstring(string name)</div></div>
 <div class="ttc" id="menu_8qh_html_a8ccf841cb59e451791bcb2e1ac4f1edc"><div class="ttname"><a href="../../d0/d41/menu_8qh.html#a8ccf841cb59e451791bcb2e1ac4f1edc">name</a></div><div class="ttdeci">string name</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d41/menu_8qh_source.html#l00030">menu.qh:30</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../d1/d37/classClient_a62ec00483394e1de13111094b221921d_cgraph.svg" width="262" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-</div>
-</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -363,11 +352,11 @@ Public Attributes</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_a47b9823939aa0a157d1bede7847cb488"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a47b9823939aa0a157d1bede7847cb488">cvar</a></div><div class="ttdeci">float cvar(string name)</div></div>
 <div class="ttc" id="lib_2__all_8inc_html_ac5b95b40a9c1a86e0b29ab83c500ce9b"><div class="ttname"><a href="../../d4/dfb/lib_2__all_8inc.html#ac5b95b40a9c1a86e0b29ab83c500ce9b">TC</a></div><div class="ttdeci">#define TC(T, sym)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/dfb/lib_2__all_8inc_source.html#l00056">_all.inc:56</a></div></div>
 </div><!-- fragment -->
-<p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<p><div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><iframe scrolling="no" frameborder="0" src="../../d8/d4b/classObject_a6f6d430c1456b7b9b3b128967e920acb_cgraph.svg" width="224" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
@@ -752,7 +741,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d1/d37/classClient.html">Client</a></li>
-    <li class="footer">Generated on Wed Mar 1 2017 12:53:44 for Xonotic by
+    <li class="footer">Generated on Wed Mar 1 2017 16:04:55 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
