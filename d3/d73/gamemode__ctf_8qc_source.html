@@ -703,7 +703,7 @@ $(document).ready(function(){initNavTree('d3/d73/gamemode__ctf_8qc_source.html',
 <div class="line"><a name="l00596"></a><span class="lineno">  596</span>&#160;    }</div>
 <div class="line"><a name="l00597"></a><span class="lineno">  597</span>&#160;</div>
 <div class="line"><a name="l00598"></a><span class="lineno">  598</span>&#160;    <span class="comment">// scoring</span></div>
-<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;    <a class="code" href="../../d3/dcd/scores_8qh.html#a44db80abc726d6330522fa5382f1b6e3">PlayerTeamScore_AddScore</a>(player, ((flag.score_capture) ? flag.score_capture : <a class="code" href="../../d3/d73/gamemode__ctf_8qc.html#a5bdd4dc5aa3571b7a8edc5ddae348da2">autocvar_g_ctf_score_capture</a>));</div>
+<div class="line"><a name="l00599"></a><span class="lineno">  599</span>&#160;    <a class="code" href="../../d3/dcd/scores_8qh.html#a44db80abc726d6330522fa5382f1b6e3">PlayerTeamScore_AddScore</a>(player, ((enemy_flag.score_capture) ? enemy_flag.score_capture : <a class="code" href="../../d3/d73/gamemode__ctf_8qc.html#a5bdd4dc5aa3571b7a8edc5ddae348da2">autocvar_g_ctf_score_capture</a>));</div>
 <div class="line"><a name="l00600"></a><span class="lineno">  600</span>&#160;    <a class="code" href="../../d2/d79/scores_8qc.html#a95c06d8a35e1db6d343a7c883241444c">PlayerTeamScore_Add</a>(player, SP_CTF_CAPS, ST_CTF_CAPS, 1);</div>
 <div class="line"><a name="l00601"></a><span class="lineno">  601</span>&#160;</div>
 <div class="line"><a name="l00602"></a><span class="lineno">  602</span>&#160;    old_time = <a class="code" href="../../d2/d79/scores_8qc.html#aebb89cf706a7b2fe6037e3ab4e56dfe4">PlayerScore_Add</a>(player, SP_CTF_CAPTIME, 0);</div>
@@ -722,7 +722,7 @@ $(document).ready(function(){initNavTree('d3/d73/gamemode__ctf_8qc_source.html',
 <div class="line"><a name="l00615"></a><span class="lineno">  615</span>&#160;        <span class="keywordflow">if</span>(flag.speedrunning) { <a class="code" href="../../d3/d73/gamemode__ctf_8qc.html#aa01f814e4ab6e29b53dbf54585f7268e">ctf_FakeTimeLimit</a>(player, -1); }</div>
 <div class="line"><a name="l00616"></a><span class="lineno">  616</span>&#160;</div>
 <div class="line"><a name="l00617"></a><span class="lineno">  617</span>&#160;        <span class="keywordflow">if</span>((enemy_flag.ctf_dropper) &amp;&amp; (player != enemy_flag.ctf_dropper))</div>
-<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;            { <a class="code" href="../../d3/dcd/scores_8qh.html#a44db80abc726d6330522fa5382f1b6e3">PlayerTeamScore_AddScore</a>(enemy_flag.ctf_dropper, ((flag.score_assist) ? flag.score_assist : <a class="code" href="../../d3/d73/gamemode__ctf_8qc.html#ad6f387be57f023cb48e24726f0c67352">autocvar_g_ctf_score_capture_assist</a>)); }</div>
+<div class="line"><a name="l00618"></a><span class="lineno">  618</span>&#160;            { <a class="code" href="../../d3/dcd/scores_8qh.html#a44db80abc726d6330522fa5382f1b6e3">PlayerTeamScore_AddScore</a>(enemy_flag.ctf_dropper, ((enemy_flag.score_assist) ? enemy_flag.score_assist : <a class="code" href="../../d3/d73/gamemode__ctf_8qc.html#ad6f387be57f023cb48e24726f0c67352">autocvar_g_ctf_score_capture_assist</a>)); }</div>
 <div class="line"><a name="l00619"></a><span class="lineno">  619</span>&#160;    }</div>
 <div class="line"><a name="l00620"></a><span class="lineno">  620</span>&#160;</div>
 <div class="line"><a name="l00621"></a><span class="lineno">  621</span>&#160;    <span class="comment">// reset the flag</span></div>
@@ -3219,7 +3219,7 @@ $(document).ready(function(){initNavTree('d3/d73/gamemode__ctf_8qc_source.html',
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../d3/d73/gamemode__ctf_8qc.html">gamemode_ctf.qc</a></li>
-    <li class="footer">Generated on Fri Mar 3 2017 13:48:08 for Xonotic by
+    <li class="footer">Generated on Fri Mar 3 2017 14:40:28 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
