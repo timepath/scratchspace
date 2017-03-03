@@ -1,5 +1,6 @@
 var sv__vehicles_8qc =
 [
+    [ "AuxiliaryXhair_customize", "da/d10/sv__vehicles_8qc.html#a6b987341a742c056cd1dc5ce3320b8e5", null ],
     [ "CSQCVehicleSetup", "da/d10/sv__vehicles_8qc.html#a9c2cd7d7243400f5139194bea62aed42", null ],
     [ "SendAuxiliaryXhair", "da/d10/sv__vehicles_8qc.html#a7a2ae1bbb066508dbcaeb617e1c6b887", null ],
     [ "shieldhit_think", "da/d10/sv__vehicles_8qc.html#a591286be998a76b02e9182e2d7a9f746", null ],
