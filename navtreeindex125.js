@@ -1,6 +1,5 @@
 var NAVTREEINDEX125 =
 {
-"df/d00/sv__rocketminsta_8qc.html":[2,0,1,9,0,25,2],
 "df/d00/sv__rocketminsta_8qc.html#a30fd30284f143ca24b319468fd0a0b0b":[2,0,1,9,0,25,2,0],
 "df/d00/sv__rocketminsta_8qc.html#a60f0bea353a8c82d3029eec7db935e74":[2,0,1,9,0,25,2,2],
 "df/d00/sv__rocketminsta_8qc.html#af117505b73d3fe91e1f7d13bd5a5a1bf":[2,0,1,9,0,25,2,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX125 =
 "df/d27/classXonoticPicker.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,212,8],
 "df/d27/classXonoticPicker.html#aa8e554a35b9fe070e037a0b6a3e8351b":[1,0,212,27],
 "df/d27/classXonoticPicker.html#abf45e466d6bdd7bf3d9a18decd85b3e3":[1,0,212,15],
-"df/d27/classXonoticPicker.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,212,34]
+"df/d27/classXonoticPicker.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,212,34],
+"df/d27/classXonoticPicker.html#ac450f105398648a8932ca545e510ebcb":[1,0,212,33]
 };

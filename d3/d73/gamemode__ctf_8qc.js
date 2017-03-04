@@ -45,7 +45,6 @@ var gamemode__ctf_8qc =
     [ "havocbot_goalrating_ctf_enemybase", "d3/d73/gamemode__ctf_8qc.html#acc6da97a3395c239d273fcac0d1f6860", null ],
     [ "havocbot_goalrating_ctf_enemyflag", "d3/d73/gamemode__ctf_8qc.html#af46b4950f9b13693e72fa0f58d3a65fd", null ],
     [ "havocbot_goalrating_ctf_ourbase", "d3/d73/gamemode__ctf_8qc.html#ac9af78eec03d51dd3db901b6ddea5326", null ],
-    [ "havocbot_goalrating_ctf_ourflag", "d3/d73/gamemode__ctf_8qc.html#a90448e727ad68b79f7e163deef6bc7d4", null ],
     [ "havocbot_goalrating_ctf_ourstolenflag", "d3/d73/gamemode__ctf_8qc.html#a5989b4d779c7fd192b12e4319c7dbe16", null ],
     [ "havocbot_role_ctf_carrier", "d3/d73/gamemode__ctf_8qc.html#a6966825025f6c1bc275aeb723bc4600e", null ],
     [ "havocbot_role_ctf_defense", "d3/d73/gamemode__ctf_8qc.html#aa42d9c03c7f4264a216046effdabb1cd", null ],

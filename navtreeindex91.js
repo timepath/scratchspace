@@ -1,6 +1,5 @@
 var NAVTREEINDEX91 =
 {
-"da/db7/classXonoticServerInfoDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,231,54],
 "da/db7/classXonoticServerInfoDialog.html#a7bf0a42c694a1fc693fb736188ab688e":[1,0,231,118],
 "da/db7/classXonoticServerInfoDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,231,110],
 "da/db7/classXonoticServerInfoDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,231,109],
@@ -249,5 +248,6 @@ var NAVTREEINDEX91 =
 "da/dd1/classCaptureTheFlag.html#ae6f43fb252cffabdcb79a863987a5683":[1,0,14,7],
 "da/dd1/classCaptureTheFlag.html#aef3a65f4987590d66b653b91180860ca":[1,0,14,9],
 "da/dd1/classCaptureTheFlag.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,14,5],
-"da/dd2/gamemode__invasion_8qh.html":[2,0,6,3,0,17]
+"da/dd2/gamemode__invasion_8qh.html":[2,0,6,3,0,17],
+"da/dd2/gamemode__invasion_8qh.html#a1696c31cdbb3e088d0e4cea7f69b0b5d":[2,0,6,3,0,17,10]
 };
