@@ -477,7 +477,7 @@ $(document).ready(function(){initNavTree('d2/dac/sv__buffs_8qc_source.html','../
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;    <span class="comment">//this.gravity = 100;</span></div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160;    this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#a74486a486528a0aa8c3e94223a69e12d">color</a> = buff.m_color;</div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;    this.<a class="code" href="../../dc/d3d/csqcmodel__hooks_8qc.html#ab45736fb36b0b5641315be92b9747beb">glowmod</a> = <a class="code" href="../../d2/dac/sv__buffs_8qc.html#a888c41c0fac61de0e167b7a2166b4197">buff_GlowColor</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <a class="code" href="../../d2/dac/sv__buffs_8qc.html#a8cfd2fa0bf92d9ac8af75178b55c6ec7">buff_SetCooldown</a>(<span class="keyword">this</span>, <a class="code" href="../../d8/dd8/sv__buffs_8qh.html#a020006eca41a51b198f5c83e80f14207">autocvar_g_buffs_cooldown_activate</a> + <a class="code" href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a>);</div>
+<div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;    <a class="code" href="../../d2/dac/sv__buffs_8qc.html#a8cfd2fa0bf92d9ac8af75178b55c6ec7">buff_SetCooldown</a>(<span class="keyword">this</span>, <a class="code" href="../../d8/dd8/sv__buffs_8qh.html#a020006eca41a51b198f5c83e80f14207">autocvar_g_buffs_cooldown_activate</a> + (<a class="code" href="../../d5/d26/server_2defs_8qh.html#aa33d72fb2a85a0541437b8cc6cc5b8e8">game_starttime</a> - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>));</div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;    this.<a class="code" href="../../d8/dd8/sv__buffs_8qh.html#a68e2f63b038b36d103465d6e4d8b9f0c">buff_active</a> = !this.<a class="code" href="../../d8/dd8/sv__buffs_8qh.html#a0a86dfc1e5510608049adcd646ccc5e6">buff_activetime</a>;</div>
 <div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;    this.<a class="code" href="../../de/d5e/dpextensions_8qc.html#a4f7b26d5c4fe063f9240aa140cd88449">pflags</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#afe832d82b00bba67d5ec400a0d10642d">PFLAGS_FULLDYNAMIC</a>;</div>
 <div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;</div>
@@ -1414,7 +1414,7 @@ $(document).ready(function(){initNavTree('d2/dac/sv__buffs_8qc_source.html','../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_b67e4fc079c68e427acb7897e80486a7.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_4da3e250e03f6533f3c6916aa775b41c.html">mutator</a></li><li class="navelem"><a class="el" href="../../dir_07eb8bb3d19ce8165a5aaf6eac26591d.html">buffs</a></li><li class="navelem"><a class="el" href="../../d2/dac/sv__buffs_8qc.html">sv_buffs.qc</a></li>
-    <li class="footer">Generated on Sat Mar 4 2017 17:16:30 for Xonotic by
+    <li class="footer">Generated on Sat Mar 4 2017 17:35:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
