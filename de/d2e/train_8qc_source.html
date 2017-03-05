@@ -311,165 +311,167 @@ $(document).ready(function(){initNavTree('de/d2e/train_8qc_source.html','../../'
 <div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;    this.<a class="code" href="../../db/d2f/subs_8qh.html#a9d41047d3fee7ecd85d6bf1ac9b5ddf7">SUB_NEXTTHINK</a> = this.<a class="code" href="../../db/d2f/subs_8qh.html#a728be4639b636133686e0de05e1e3ead">SUB_LTIME</a> + 1;</div>
 <div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;    <a class="code" href="../../db/d2f/subs_8qh.html#a4d8f1dc81695f45393a0ce3187009187">SUB_THINK</a>(<span class="keyword">this</span>, <a class="code" href="../../de/d2e/train_8qc.html#a887ad93d45858763031e3816a1a0923d">train_next</a>);</div>
 <div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    this.<a class="code" href="../../da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c">use</a> = <a class="code" href="../../d1/df7/nil_8qh.html#a48cdb42ec925da155dd105031cac3f44">func_null</a>; <span class="comment">// not again</span></div>
-<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;}</div>
-<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;<span class="keywordtype">void</span> func_train_find(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;{</div>
-<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../de/d2e/train_8qc.html#a30d24da0513abca491c62e4a9edca12f">train_next_find</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> = targ.target;</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    this.<a class="code" href="../../db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c">target_random</a> = targ.target_random;</div>
-<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    <span class="comment">// save the future target for later</span></div>
-<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    this.<a class="code" href="../../de/d2e/train_8qc.html#a839f6ce75d45b4f2f5d942ab8800c6c9">future_target</a> = <a class="code" href="../../de/d2e/train_8qc.html#a30d24da0513abca491c62e4a9edca12f">train_next_find</a>(targ);</div>
-<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;func_train_find: no next target&quot;</span>);</div>
-<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <a class="code" href="../../db/d2f/subs_8qh.html#aa6ed87146346452bf95056180a61fe22">SUB_SETORIGIN</a>(<span class="keyword">this</span>, targ.origin - <span class="keyword">this</span>.view_ofs);</div>
-<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;</div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <span class="keywordflow">if</span>(!(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 4))</div>
-<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    {</div>
-<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#a9d41047d3fee7ecd85d6bf1ac9b5ddf7">SUB_NEXTTHINK</a> = this.<a class="code" href="../../db/d2f/subs_8qh.html#a728be4639b636133686e0de05e1e3ead">SUB_LTIME</a> + 1;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;        <a class="code" href="../../db/d2f/subs_8qh.html#a4d8f1dc81695f45393a0ce3187009187">SUB_THINK</a>(<span class="keyword">this</span>, <a class="code" href="../../de/d2e/train_8qc.html#a887ad93d45858763031e3816a1a0923d">train_next</a>);</div>
-<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    }</div>
-<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;</div>
-<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    train_link(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;}</div>
-<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;</div>
-<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="preprocessor">#endif</span></div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="preprocessor"></span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="comment">/*QUAKED spawnfunc_func_train (0 .5 .8) ?</span></div>
-<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="comment">Ridable platform, targets spawnfunc_path_corner path to follow.</span></div>
-<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="comment">speed : speed the train moves (can be overridden by each spawnfunc_path_corner)</span></div>
-<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="comment">target : targetname of first spawnfunc_path_corner (starts here)</span></div>
-<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
-<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="preprocessor"></span><a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(func_train)</div>
-<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;{</div>
-<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a> != <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a>);</div>
-<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;</div>
-<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
-<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;func_train without a target&quot;</span>);</div>
-<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keywordflow">if</span> (!this.<a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>)</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a> = 100;</div>
-<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;</div>
-<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d2/d11/g__subs_8qc.html#a36cdf81a62f8df66eff065eb38de7241">InitMovingBrushTrigger</a>(<span class="keyword">this</span>))</div>
-<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> |= <a class="code" href="../../de/d5e/dpextensions_8qc.html#a7ef46523bf1f305084e2ca69db4f24ee">EF_LOWPRECISION</a>;</div>
-<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;</div>
-<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 4)</div>
-<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;        this.<a class="code" href="../../da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c">use</a> = train_use;</div>
-<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;</div>
-<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 2)</div>
-<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;    {</div>
-<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        this.<a class="code" href="../../d2/dc2/subs_8qc.html#acfc05d721470c3c19835fe5d5bc5a3e9">platmovetype_turn</a> = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a62c3b9f9bf0fae21452c48c7c87265f7">view_ofs</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>; <span class="comment">// don&#39;t offset a rotating train, origin works differently now</span></div>
-<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    }</div>
-<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a62c3b9f9bf0fae21452c48c7c87265f7">view_ofs</a> = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">mins</a>;</div>
-<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;</div>
-<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    <span class="comment">// wait for targets to spawn</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(<span class="keyword">this</span>, func_train_find, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a>);</div>
-<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;</div>
-<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    setblocked(<span class="keyword">this</span>, <a class="code" href="../../d1/d08/platforms_8qc.html#a2e6fb73fa2429185a78a769de38b77e2">generic_plat_blocked</a>);</div>
-<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d0/d1a/platforms_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b">dmg</a> &amp;&amp; (this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> == <span class="stringliteral">&quot;&quot;</span>))</div>
-<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = <span class="stringliteral">&quot; was squished&quot;</span>;</div>
-<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d0/d1a/platforms_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b">dmg</a> &amp;&amp; (this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a067c6fc2c94c080c9e94a020c41f036e">message2</a> == <span class="stringliteral">&quot;&quot;</span>))</div>
-<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a067c6fc2c94c080c9e94a020c41f036e">message2</a> = <span class="stringliteral">&quot;was squished by&quot;</span>;</div>
-<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d0/d1a/platforms_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b">dmg</a> &amp;&amp; (!this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a0a919d55d52dbf66dcb1fe03efe8f1a8">dmgtime</a>))</div>
-<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a0a919d55d52dbf66dcb1fe03efe8f1a8">dmgtime</a> = 0.25;</div>
-<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    this.<a class="code" href="../../d0/d1a/platforms_8qh.html#ae6317bd7023aa44d18718aceb2606e7a">dmgtime2</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;</div>
-<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d1/d08/platforms_8qc.html#a7bf2368cce0141a263a0ce4c7937ce0f">set_platmovetype</a>(<span class="keyword">this</span>, this.<a class="code" href="../../db/d2f/subs_8qh.html#afaf503fe7190a8bf2d2f7e651f3e5d82">platmovetype</a>))</div>
-<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;        <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    this.<a class="code" href="../../d1/d08/platforms_8qc.html#ae5c9634cd6109293a715a03a275c3849">platmovetype_start_default</a> = this.<a class="code" href="../../db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36">platmovetype_start</a>;</div>
-<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;    this.<a class="code" href="../../d1/d08/platforms_8qc.html#a07409db9296025479f1667e272303afb">platmovetype_end_default</a> = this.<a class="code" href="../../db/d2f/subs_8qh.html#a935f045292d52ce58d7c2fbbf9fd6f47">platmovetype_end</a>;</div>
-<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;</div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    <span class="comment">// TODO make a reset function for this one</span></div>
-<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;}</div>
-<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;<span class="preprocessor">#elif defined(CSQC)</span></div>
-<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> train_draw(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
-<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;{</div>
-<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;    <span class="comment">//Movetype_Physics_NoMatchServer();</span></div>
-<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;    <a class="code" href="../../d2/db1/movetypes_8qc.html#a0c3c32b8e67737d63dbf704612d6b22c">Movetype_Physics_MatchServer</a>(<span class="keyword">this</span>, <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a3c9f8dbd6cef194cb719f959fac34f8a">autocvar_cl_projectiles_sloppy</a>);</div>
-<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;}</div>
-<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;</div>
-<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<a class="code" href="../../d9/d48/lib_2net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a>(ENT_CLIENT_TRAIN, <span class="keywordtype">bool</span> isnew)</div>
-<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;{</div>
-<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    <span class="keywordtype">float</span> sf = ReadByte();</div>
-<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;</div>
-<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordflow">if</span>(sf &amp; SF_TRIGGER_INIT)</div>
-<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    {</div>
-<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#afaf503fe7190a8bf2d2f7e651f3e5d82">platmovetype</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d4/db7/cl__minigames_8qc.html#ac03fadfb499a7d7775c099e7d03c2bb2">ReadString</a>());</div>
-<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;        this.<a class="code" href="../../d2/dc2/subs_8qc.html#acfc05d721470c3c19835fe5d5bc5a3e9">platmovetype_turn</a> = ReadByte();</div>
-<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> = ReadByte();</div>
-<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;</div>
-<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d4/db7/cl__minigames_8qc.html#ac03fadfb499a7d7775c099e7d03c2bb2">ReadString</a>());</div>
-<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;        _setmodel(<span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>);</div>
-<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;</div>
-<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        trigger_common_read(<span class="keyword">this</span>, <span class="keyword">true</span>);</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160;    <span class="keywordflow">if</span>(trigger.target2 &amp;&amp; trigger.target2 != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;        this.<a class="code" href="../../de/d2e/train_8qc.html#a839f6ce75d45b4f2f5d942ab8800c6c9">future_target</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a>(<a class="code" href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a63bce1d11afa658ec5e4b4f98ccfa511">targetname</a>, trigger.target2);</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;}</div>
+<div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;</div>
+<div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;<span class="keywordtype">void</span> func_train_find(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;{</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> targ = <a class="code" href="../../de/d2e/train_8qc.html#a30d24da0513abca491c62e4a9edca12f">train_next_find</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> = targ.target;</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;    this.<a class="code" href="../../db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c">target_random</a> = targ.target_random;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;    <span class="comment">// save the future target for later</span></div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;    this.<a class="code" href="../../de/d2e/train_8qc.html#a839f6ce75d45b4f2f5d942ab8800c6c9">future_target</a> = <a class="code" href="../../de/d2e/train_8qc.html#a30d24da0513abca491c62e4a9edca12f">train_next_find</a>(targ);</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;func_train_find: no next target&quot;</span>);</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    <a class="code" href="../../db/d2f/subs_8qh.html#aa6ed87146346452bf95056180a61fe22">SUB_SETORIGIN</a>(<span class="keyword">this</span>, targ.origin - <span class="keyword">this</span>.view_ofs);</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    <span class="keywordflow">if</span>(!(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 4))</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    {</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#a9d41047d3fee7ecd85d6bf1ac9b5ddf7">SUB_NEXTTHINK</a> = this.<a class="code" href="../../db/d2f/subs_8qh.html#a728be4639b636133686e0de05e1e3ead">SUB_LTIME</a> + 1;</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;        <a class="code" href="../../db/d2f/subs_8qh.html#a4d8f1dc81695f45393a0ce3187009187">SUB_THINK</a>(<span class="keyword">this</span>, <a class="code" href="../../de/d2e/train_8qc.html#a887ad93d45858763031e3816a1a0923d">train_next</a>);</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    }</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;    train_link(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;}</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;<span class="comment">/*QUAKED spawnfunc_func_train (0 .5 .8) ?</span></div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;<span class="comment">Ridable platform, targets spawnfunc_path_corner path to follow.</span></div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160;<span class="comment">speed : speed the train moves (can be overridden by each spawnfunc_path_corner)</span></div>
+<div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="comment">target : targetname of first spawnfunc_path_corner (starts here)</span></div>
+<div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="comment">*/</span></div>
+<div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="preprocessor">#ifdef SVQC</span></div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;<span class="preprocessor"></span><a class="code" href="../../da/d20/spawnfunc_8qh.html#a9ad7f6cd69a76791c4b63b9c09126153">spawnfunc</a>(func_train)</div>
+<div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;{</div>
+<div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a> != <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a9a82a4d363a39e85151eaec7a4f8dae2">precache_sound</a>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a18041cde62044b96045c275f98c7d3a7">noise</a>);</div>
+<div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;</div>
+<div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#afa8adf762827679f2bfa706be7144fe2">target</a> == <span class="stringliteral">&quot;&quot;</span>)</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a92abfb3919bea2ad0405516d4a4b652b">objerror</a>(<span class="keyword">this</span>, <span class="stringliteral">&quot;func_train without a target&quot;</span>);</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordflow">if</span> (!this.<a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a>)</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a> = 100;</div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;    <span class="keywordflow">if</span> (!<a class="code" href="../../d2/d11/g__subs_8qc.html#a36cdf81a62f8df66eff065eb38de7241">InitMovingBrushTrigger</a>(<span class="keyword">this</span>))</div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;    this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8199bbcd6c88dc1fa294a1a0020ec3d5">effects</a> |= <a class="code" href="../../de/d5e/dpextensions_8qc.html#a7ef46523bf1f305084e2ca69db4f24ee">EF_LOWPRECISION</a>;</div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;</div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 4)</div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        this.<a class="code" href="../../da/dde/csprogsdefs_8qh.html#aeda5446032a08fece73ec569b861a72c">use</a> = train_use;</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;</div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    <span class="keywordflow">if</span> (this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> &amp; 2)</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;    {</div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        this.<a class="code" href="../../d2/dc2/subs_8qc.html#acfc05d721470c3c19835fe5d5bc5a3e9">platmovetype_turn</a> = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a62c3b9f9bf0fae21452c48c7c87265f7">view_ofs</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>; <span class="comment">// don&#39;t offset a rotating train, origin works differently now</span></div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    }</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#a62c3b9f9bf0fae21452c48c7c87265f7">view_ofs</a> = this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a607694908d0ef2719bf5bbf4203ce987">mins</a>;</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;    <span class="comment">// wait for targets to spawn</span></div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;    <a class="code" href="../../dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877">InitializeEntity</a>(<span class="keyword">this</span>, func_train_find, <a class="code" href="../../d8/db6/client_2miscfunctions_8qh.html#a74a1891d4df9081e084d5d1235aac69a">INITPRIO_FINDTARGET</a>);</div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;</div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;    setblocked(<span class="keyword">this</span>, <a class="code" href="../../d1/d08/platforms_8qc.html#a2e6fb73fa2429185a78a769de38b77e2">generic_plat_blocked</a>);</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d0/d1a/platforms_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b">dmg</a> &amp;&amp; (this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> == <span class="stringliteral">&quot;&quot;</span>))</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;        this.<a class="code" href="../../d9/d08/client_2defs_8qh.html#ae1ed0d7a6f352c7ee3ad978429822c6f">message</a> = <span class="stringliteral">&quot; was squished&quot;</span>;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d0/d1a/platforms_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b">dmg</a> &amp;&amp; (this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a067c6fc2c94c080c9e94a020c41f036e">message2</a> == <span class="stringliteral">&quot;&quot;</span>))</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a067c6fc2c94c080c9e94a020c41f036e">message2</a> = <span class="stringliteral">&quot;was squished by&quot;</span>;</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    <span class="keywordflow">if</span>(this.<a class="code" href="../../d0/d1a/platforms_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b">dmg</a> &amp;&amp; (!this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a0a919d55d52dbf66dcb1fe03efe8f1a8">dmgtime</a>))</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a0a919d55d52dbf66dcb1fe03efe8f1a8">dmgtime</a> = 0.25;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    this.<a class="code" href="../../d0/d1a/platforms_8qh.html#ae6317bd7023aa44d18718aceb2606e7a">dmgtime2</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;</div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;    <span class="keywordflow">if</span>(!<a class="code" href="../../d1/d08/platforms_8qc.html#a7bf2368cce0141a263a0ce4c7937ce0f">set_platmovetype</a>(<span class="keyword">this</span>, this.<a class="code" href="../../db/d2f/subs_8qh.html#afaf503fe7190a8bf2d2f7e651f3e5d82">platmovetype</a>))</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;        <span class="keywordflow">return</span>;</div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;    this.<a class="code" href="../../d1/d08/platforms_8qc.html#ae5c9634cd6109293a715a03a275c3849">platmovetype_start_default</a> = this.<a class="code" href="../../db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36">platmovetype_start</a>;</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;    this.<a class="code" href="../../d1/d08/platforms_8qc.html#a07409db9296025479f1667e272303afb">platmovetype_end_default</a> = this.<a class="code" href="../../db/d2f/subs_8qh.html#a935f045292d52ce58d7c2fbbf9fd6f47">platmovetype_end</a>;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;    <span class="comment">// TODO make a reset function for this one</span></div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;}</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;<span class="preprocessor">#elif defined(CSQC)</span></div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="preprocessor"></span><span class="keywordtype">void</span> train_draw(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span>)</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;{</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;    <span class="comment">//Movetype_Physics_NoMatchServer();</span></div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;    <a class="code" href="../../d2/db1/movetypes_8qc.html#a0c3c32b8e67737d63dbf704612d6b22c">Movetype_Physics_MatchServer</a>(<span class="keyword">this</span>, <a class="code" href="../../d7/db4/client_2autocvars_8qh.html#a3c9f8dbd6cef194cb719f959fac34f8a">autocvar_cl_projectiles_sloppy</a>);</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;}</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;<a class="code" href="../../d9/d48/lib_2net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a>(ENT_CLIENT_TRAIN, <span class="keywordtype">bool</span> isnew)</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;{</div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;    <span class="keywordtype">float</span> sf = ReadByte();</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;    <span class="keywordflow">if</span>(sf &amp; SF_TRIGGER_INIT)</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;    {</div>
+<div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#afaf503fe7190a8bf2d2f7e651f3e5d82">platmovetype</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d4/db7/cl__minigames_8qc.html#ac03fadfb499a7d7775c099e7d03c2bb2">ReadString</a>());</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;        this.<a class="code" href="../../d2/dc2/subs_8qc.html#acfc05d721470c3c19835fe5d5bc5a3e9">platmovetype_turn</a> = ReadByte();</div>
+<div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;        this.<a class="code" href="../../d6/d11/progsdefs_8qc.html#ad290212f87c2157a878ffc0947b60251">spawnflags</a> = ReadByte();</div>
+<div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d4/db7/cl__minigames_8qc.html#ac03fadfb499a7d7775c099e7d03c2bb2">ReadString</a>());</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        _setmodel(<span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ac9ad78cdc39949f5f716a5eda584f5e6">model</a>);</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;</div>
-<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#a6bd7359933bff3359b4e7e3c826e5259">curvetarget</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d4/db7/cl__minigames_8qc.html#ac03fadfb499a7d7775c099e7d03c2bb2">ReadString</a>());</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;        trigger_common_read(<span class="keyword">this</span>, <span class="keyword">true</span>);</div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;</div>
-<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        this.pos1_x = ReadCoord();</div>
-<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        this.pos1_y = ReadCoord();</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        this.pos1_z = ReadCoord();</div>
-<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        this.pos2_x = ReadCoord();</div>
-<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        this.pos2_y = ReadCoord();</div>
-<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        this.pos2_z = ReadCoord();</div>
-<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;</div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        this.size_x = ReadCoord();</div>
-<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;        this.size_y = ReadCoord();</div>
-<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        this.size_z = ReadCoord();</div>
-<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;</div>
-<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        this.view_ofs_x = ReadCoord();</div>
-<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;        this.view_ofs_y = ReadCoord();</div>
-<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        this.view_ofs_z = ReadCoord();</div>
-<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;</div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        this.mangle_x = ReadAngle();</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        this.mangle_y = ReadAngle();</div>
-<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        this.mangle_z = ReadAngle();</div>
-<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;</div>
-<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a> = ReadShort();</div>
-<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;        this.<a class="code" href="../../d9/de7/jumppads_8qh.html#a48083b65ac9a863566dc3e3fff09a5b4">height</a> = ReadShort();</div>
-<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46">lip</a> = ReadByte();</div>
-<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729">state</a> = ReadByte();</div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683">wait</a> = ReadByte();</div>
-<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;</div>
-<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        this.<a class="code" href="../../d0/d1a/platforms_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b">dmg</a> = ReadShort();</div>
-<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a0a919d55d52dbf66dcb1fe03efe8f1a8">dmgtime</a> = ReadByte();</div>
-<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;</div>
-<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;func_train&quot;</span>;</div>
-<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d">solid</a> = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80973079ff043c7890bc2db4af6896c4">SOLID_BSP</a>;</div>
-<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a576248ac976402e69bbf6dad03623ae3">MOVETYPE_PUSH</a>);</div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a14769f9d8ebf5bb5c99f1cddeb99f567">drawmask</a> = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a8e6aea49b9bc341cc7a3e4bec79f866f">MASK_NORMAL</a>;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        this.draw = train_draw;</div>
-<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        <span class="keywordflow">if</span> (isnew) <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a44ed93b6aaca72d222ce263898d152b4">IL_PUSH</a>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a316bdc2bc1d8268a59af7a495015b438">g_drawables</a>, <span class="keyword">this</span>);</div>
-<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        this.entremove = trigger_remove_generic;</div>
-<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;</div>
-<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d1/d08/platforms_8qc.html#a7bf2368cce0141a263a0ce4c7937ce0f">set_platmovetype</a>(<span class="keyword">this</span>, this.<a class="code" href="../../db/d2f/subs_8qh.html#afaf503fe7190a8bf2d2f7e651f3e5d82">platmovetype</a>))</div>
-<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;        {</div>
-<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;            this.<a class="code" href="../../d1/d08/platforms_8qc.html#ae5c9634cd6109293a715a03a275c3849">platmovetype_start_default</a> = this.<a class="code" href="../../db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36">platmovetype_start</a>;</div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;            this.<a class="code" href="../../d1/d08/platforms_8qc.html#a07409db9296025479f1667e272303afb">platmovetype_end_default</a> = this.<a class="code" href="../../db/d2f/subs_8qh.html#a935f045292d52ce58d7c2fbbf9fd6f47">platmovetype_end</a>;</div>
-<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;        }</div>
-<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;</div>
-<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        <span class="comment">// everything is set up by the time the train is linked, we shouldn&#39;t need this</span></div>
-<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;        <span class="comment">//func_train_find();</span></div>
-<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;</div>
-<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        <span class="comment">// but we will need these</span></div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;        <a class="code" href="../../de/d2e/train_8qc.html#a887ad93d45858763031e3816a1a0923d">train_next</a>(<span class="keyword">this</span>);</div>
-<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;</div>
-<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a576248ac976402e69bbf6dad03623ae3">MOVETYPE_PUSH</a>);</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;        this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#aaa2abfa04cefcf14baf80ba2ec1eb96c">move_time</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
-<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;    }</div>
-<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;</div>
-<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    <span class="keywordflow">if</span>(sf &amp; <a class="code" href="../../d6/d25/triggers_8qh.html#a24375c2a9667f57a7623db3b06f59e62">SF_TRIGGER_RESET</a>)</div>
-<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;    {</div>
-<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;        <span class="comment">// TODO: make a reset function for trains</span></div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    }</div>
-<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;</div>
-<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;}</div>
-<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;</div>
-<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;<span class="preprocessor">#endif</span></div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#a6bd7359933bff3359b4e7e3c826e5259">curvetarget</a> = <a class="code" href="../../d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db">strzone</a>(<a class="code" href="../../d4/db7/cl__minigames_8qc.html#ac03fadfb499a7d7775c099e7d03c2bb2">ReadString</a>());</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;        this.pos1_x = ReadCoord();</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;        this.pos1_y = ReadCoord();</div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        this.pos1_z = ReadCoord();</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;        this.pos2_x = ReadCoord();</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;        this.pos2_y = ReadCoord();</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;        this.pos2_z = ReadCoord();</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        this.size_x = ReadCoord();</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;        this.size_y = ReadCoord();</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;        this.size_z = ReadCoord();</div>
+<div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;</div>
+<div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;        this.view_ofs_x = ReadCoord();</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;        this.view_ofs_y = ReadCoord();</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;        this.view_ofs_z = ReadCoord();</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;</div>
+<div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;        this.mangle_x = ReadAngle();</div>
+<div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;        this.mangle_y = ReadAngle();</div>
+<div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;        this.mangle_z = ReadAngle();</div>
+<div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;</div>
+<div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#a7f7e4724cf57d59513b39c5ecc81adc8">speed</a> = ReadShort();</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;        this.<a class="code" href="../../d9/de7/jumppads_8qh.html#a48083b65ac9a863566dc3e3fff09a5b4">height</a> = ReadShort();</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#a6d667edce7a9dc7b78542157f7f7dc46">lip</a> = ReadByte();</div>
+<div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729">state</a> = ReadByte();</div>
+<div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;        this.<a class="code" href="../../db/d2f/subs_8qh.html#ae6ce7348eeca30f09a3ea4aca0a44683">wait</a> = ReadByte();</div>
+<div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160;</div>
+<div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;        this.<a class="code" href="../../d0/d1a/platforms_8qh.html#a4ce2ef217f7c0232dcec8323dccf928b">dmg</a> = ReadShort();</div>
+<div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;        this.<a class="code" href="../../d5/d26/server_2defs_8qh.html#a0a919d55d52dbf66dcb1fe03efe8f1a8">dmgtime</a> = ReadByte();</div>
+<div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = <span class="stringliteral">&quot;func_train&quot;</span>;</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#ad0d5c347a4c7522f7f86e5baf496663d">solid</a> = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80973079ff043c7890bc2db4af6896c4">SOLID_BSP</a>;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a576248ac976402e69bbf6dad03623ae3">MOVETYPE_PUSH</a>);</div>
+<div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;        this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a14769f9d8ebf5bb5c99f1cddeb99f567">drawmask</a> = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a8e6aea49b9bc341cc7a3e4bec79f866f">MASK_NORMAL</a>;</div>
+<div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;        this.draw = train_draw;</div>
+<div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;        <span class="keywordflow">if</span> (isnew) <a class="code" href="../../d9/d51/intrusivelist_8qh.html#a44ed93b6aaca72d222ce263898d152b4">IL_PUSH</a>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a316bdc2bc1d8268a59af7a495015b438">g_drawables</a>, <span class="keyword">this</span>);</div>
+<div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;        this.entremove = trigger_remove_generic;</div>
+<div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;        <span class="keywordflow">if</span>(<a class="code" href="../../d1/d08/platforms_8qc.html#a7bf2368cce0141a263a0ce4c7937ce0f">set_platmovetype</a>(<span class="keyword">this</span>, this.<a class="code" href="../../db/d2f/subs_8qh.html#afaf503fe7190a8bf2d2f7e651f3e5d82">platmovetype</a>))</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;        {</div>
+<div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;            this.<a class="code" href="../../d1/d08/platforms_8qc.html#ae5c9634cd6109293a715a03a275c3849">platmovetype_start_default</a> = this.<a class="code" href="../../db/d2f/subs_8qh.html#a55a2aa61ac179c70d964948e8b4a5a36">platmovetype_start</a>;</div>
+<div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;            this.<a class="code" href="../../d1/d08/platforms_8qc.html#a07409db9296025479f1667e272303afb">platmovetype_end_default</a> = this.<a class="code" href="../../db/d2f/subs_8qh.html#a935f045292d52ce58d7c2fbbf9fd6f47">platmovetype_end</a>;</div>
+<div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160;        }</div>
+<div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;</div>
+<div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;        <span class="comment">// everything is set up by the time the train is linked, we shouldn&#39;t need this</span></div>
+<div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;        <span class="comment">//func_train_find();</span></div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;        <span class="comment">// but we will need these</span></div>
+<div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;        <a class="code" href="../../de/d2e/train_8qc.html#a887ad93d45858763031e3816a1a0923d">train_next</a>(<span class="keyword">this</span>);</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;</div>
+<div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;        <a class="code" href="../../d4/dd7/movetypes_8qh.html#a8bf89be84cb481d218ff41140eacff78">set_movetype</a>(<span class="keyword">this</span>, <a class="code" href="../../d6/d11/progsdefs_8qc.html#a576248ac976402e69bbf6dad03623ae3">MOVETYPE_PUSH</a>);</div>
+<div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;        this.<a class="code" href="../../d4/dd7/movetypes_8qh.html#aaa2abfa04cefcf14baf80ba2ec1eb96c">move_time</a> = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
+<div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;    }</div>
+<div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;    <span class="keywordflow">if</span>(sf &amp; <a class="code" href="../../d6/d25/triggers_8qh.html#a24375c2a9667f57a7623db3b06f59e62">SF_TRIGGER_RESET</a>)</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    {</div>
+<div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;        <span class="comment">// TODO: make a reset function for trains</span></div>
+<div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;    }</div>
+<div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160;</div>
+<div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;}</div>
+<div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="subs_8qh_html_ace018e22065252376fce6931dfe4f729"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#ace018e22065252376fce6931dfe4f729">state</a></div><div class="ttdeci">float state</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00019">subs.qh:19</a></div></div>
 <div class="ttc" id="client_2autocvars_8qh_html_a3c9f8dbd6cef194cb719f959fac34f8a"><div class="ttname"><a href="../../d7/db4/client_2autocvars_8qh.html#a3c9f8dbd6cef194cb719f959fac34f8a">autocvar_cl_projectiles_sloppy</a></div><div class="ttdeci">bool autocvar_cl_projectiles_sloppy</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/db4/client_2autocvars_8qh_source.html#l00063">autocvars.qh:63</a></div></div>
 <div class="ttc" id="subs_8qh_html_af2b304d9b9b25fa0534674b9ac37850c"><div class="ttname"><a href="../../db/d2f/subs_8qh.html#af2b304d9b9b25fa0534674b9ac37850c">target_random</a></div><div class="ttdeci">float target_random</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d2f/subs_8qh_source.html#l00044">subs.qh:44</a></div></div>
@@ -570,7 +572,7 @@ $(document).ready(function(){initNavTree('de/d2e/train_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9e8726a02a3962faa203c954d33096ce.html">triggers</a></li><li class="navelem"><a class="el" href="../../dir_dac21ea200edd94d2597bdcb9e2f297b.html">func</a></li><li class="navelem"><a class="el" href="../../de/d2e/train_8qc.html">train.qc</a></li>
-    <li class="footer">Generated on Sat Mar 4 2017 20:09:22 for Xonotic by
+    <li class="footer">Generated on Sun Mar 5 2017 18:16:54 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
