@@ -140,11 +140,13 @@ var NAVTREEINDEX66 =
 "d7/dac/classXonoticMutatorsDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,209,86],
 "d7/dac/classXonoticMutatorsDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,209,9],
 "d7/dac/menu_2mutators_2events_8qh.html":[2,0,5,3,2],
-"d7/dac/menu_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12":[2,0,5,3,2,4],
-"d7/dac/menu_2mutators_2events_8qh.html#a18e2555b1288e09549e1a9666d2179b7":[2,0,5,3,2,1],
-"d7/dac/menu_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776":[2,0,5,3,2,3],
-"d7/dac/menu_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51":[2,0,5,3,2,2],
-"d7/dac/menu_2mutators_2events_8qh.html#af07547c358b616af655bf0c55ff812b4":[2,0,5,3,2,0],
+"d7/dac/menu_2mutators_2events_8qh.html#a041e3be1db40295659f495926cf77a12":[2,0,5,3,2,6],
+"d7/dac/menu_2mutators_2events_8qh.html#a0c16dc103706d889b12ff7c66400866f":[2,0,5,3,2,0],
+"d7/dac/menu_2mutators_2events_8qh.html#a18e2555b1288e09549e1a9666d2179b7":[2,0,5,3,2,2],
+"d7/dac/menu_2mutators_2events_8qh.html#a625c9b1bdc13469449c1fe6118a71776":[2,0,5,3,2,5],
+"d7/dac/menu_2mutators_2events_8qh.html#a6f2ca5fc85e299efa5ca946bd457c33b":[2,0,5,3,2,3],
+"d7/dac/menu_2mutators_2events_8qh.html#a899dc4fde1f5c9e9b44832cd3f263c51":[2,0,5,3,2,4],
+"d7/dac/menu_2mutators_2events_8qh.html#af07547c358b616af655bf0c55ff812b4":[2,0,5,3,2,1],
 "d7/dac/menu_2mutators_2events_8qh_source.html":[2,0,5,3,2],
 "d7/db1/common_2command_2__mod_8inc.html":[2,0,1,0,0],
 "d7/db1/common_2command_2__mod_8inc_source.html":[2,0,1,0,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX66 =
 "d7/db4/client_2autocvars_8qh.html#a1e51f7fe670e7bfad0127315e74a5fa2":[2,0,0,10,84],
 "d7/db4/client_2autocvars_8qh.html#a1e9ffb81a8e9be39a5ccb879b197f048":[2,0,0,10,104],
 "d7/db4/client_2autocvars_8qh.html#a1ea8a1e65071eda4af355081089da8b7":[2,0,0,10,300],
-"d7/db4/client_2autocvars_8qh.html#a1eaadf5597b6b37ab7a2fc2b76a38780":[2,0,0,10,179],
-"d7/db4/client_2autocvars_8qh.html#a20613542b79a253c38e345abab3afeda":[2,0,0,10,425],
-"d7/db4/client_2autocvars_8qh.html#a20674ad8f4c953ed805743cdf36b521a":[2,0,0,10,410]
+"d7/db4/client_2autocvars_8qh.html#a1eaadf5597b6b37ab7a2fc2b76a38780":[2,0,0,10,179]
 };

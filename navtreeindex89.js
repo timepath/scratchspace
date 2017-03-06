@@ -1,5 +1,7 @@
 var NAVTREEINDEX89 =
 {
+"da/d6d/classXonoticPlayerModelSelector.html#aff9563c36ca47597b17f595a5c77c80e":[1,0,215,33],
+"da/d6f/client_2mutators_2__mod_8qh.html":[2,0,0,2,1],
 "da/d6f/client_2mutators_2__mod_8qh_source.html":[2,0,0,2,1],
 "da/d70/common_2sounds_2__mod_8inc.html":[2,0,1,12,0],
 "da/d70/common_2sounds_2__mod_8inc_source.html":[2,0,1,12,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX89 =
 "da/d9b/classXonoticButton.html#a476349ed1a0d044310253e867c496c16":[1,0,142,43],
 "da/d9b/classXonoticButton.html#a47ec54ba5a75b70927a3e25a09e6d5ea":[1,0,142,17],
 "da/d9b/classXonoticButton.html#a4985255a6e0984252ab7ccedd6347d5b":[1,0,142,41],
-"da/d9b/classXonoticButton.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,142,69],
-"da/d9b/classXonoticButton.html#a4bc36460031aeb99fc60b108f2f22f19":[1,0,142,63],
-"da/d9b/classXonoticButton.html#a4cec67ef8bea911bbbe8e837e8c1f4fe":[1,0,142,72]
+"da/d9b/classXonoticButton.html#a49c0048429f458532d6fe50c5efcbcd4":[1,0,142,69]
 };

@@ -1,5 +1,7 @@
 var NAVTREEINDEX127 =
 {
+"df/d42/vaporizer_8qc.html":[2,0,1,16,0,38],
+"df/d42/vaporizer_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,38,1],
 "df/d42/vaporizer_8qc.html#ade59b6be72d74beb2c7a1b563156e396":[2,0,1,16,0,38,2],
 "df/d42/vaporizer_8qc_source.html":[2,0,1,16,0,38],
 "df/d44/dialog__settings__video_8qh.html":[2,0,5,4,155],
@@ -247,7 +249,5 @@ var NAVTREEINDEX127 =
 "df/d71/walker__weapon_8qc.html":[2,0,1,14,0,44],
 "df/d71/walker__weapon_8qc_source.html":[2,0,1,14,0,44],
 "df/d75/client_2commands_2__mod_8qh.html":[2,0,0,0,1],
-"df/d75/client_2commands_2__mod_8qh_source.html":[2,0,0,0,1],
-"df/d75/keybinder_8qc.html":[2,0,5,4,172],
-"df/d75/keybinder_8qc.html#a07b1c813a45195e732bdbb97ef390c78":[2,0,5,4,172,5]
+"df/d75/client_2commands_2__mod_8qh_source.html":[2,0,0,0,1]
 };

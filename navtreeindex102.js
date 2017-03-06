@@ -1,5 +1,7 @@
 var NAVTREEINDEX102 =
 {
+"db/dd3/dialog__settings__misc__reset_8qh.html":[2,0,5,4,149],
+"db/dd3/dialog__settings__misc__reset_8qh_source.html":[2,0,5,4,149],
 "db/dd3/doublejump_8qc.html":[2,0,1,9,0,8,2],
 "db/dd3/doublejump_8qc_source.html":[2,0,1,9,0,8,2],
 "db/dd7/dialog__multiplayer__media__musicplayer_8qh.html":[2,0,5,4,107],
@@ -247,7 +249,5 @@ var NAVTREEINDEX102 =
 "db/dfa/classPlasmaAttack.html":[1,0,92],
 "db/dfa/classPlasmaAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,92,33],
 "db/dfa/classPlasmaAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,92,19],
-"db/dfa/classPlasmaAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,92,18],
-"db/dfa/classPlasmaAttack.html#a2ccedc667a5772b3d2c7579255c96da7":[1,0,92,30],
-"db/dfa/classPlasmaAttack.html#a30558a4b50b31b3794b4b6b41acc8151":[1,0,92,16]
+"db/dfa/classPlasmaAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,92,18]
 };

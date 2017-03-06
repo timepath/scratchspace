@@ -44,6 +44,7 @@ var searchData=
   ['ev_5fclientconnect',['EV_ClientConnect',['../d6/ddd/server_2mutators_2events_8qh.html#a8781ab354ccdd744fe23a5a4456ff603',1,'events.qh']]],
   ['ev_5fclientdisconnect',['EV_ClientDisconnect',['../d6/ddd/server_2mutators_2events_8qh.html#ac26d1bf16687fbedf2d43b8035f5587d',1,'events.qh']]],
   ['ev_5fclientkill',['EV_ClientKill',['../d6/ddd/server_2mutators_2events_8qh.html#a45ffe38f673bd70d5c3d7ffcfbc65c33',1,'events.qh']]],
+  ['ev_5fconfiguredialogs',['EV_ConfigureDialogs',['../d7/dac/menu_2mutators_2events_8qh.html#a0c16dc103706d889b12ff7c66400866f',1,'events.qh']]],
   ['ev_5fcopybody',['EV_CopyBody',['../d6/ddd/server_2mutators_2events_8qh.html#a0c042ea3a7cc0f41fcaafa0b80651ac9',1,'events.qh']]],
   ['ev_5fcsqc_5fconsolecommand',['EV_CSQC_ConsoleCommand',['../d8/d0e/client_2mutators_2events_8qh.html#a622e3f3fc74d161682435c58f1d2f046',1,'events.qh']]],
   ['ev_5fcustomizeeventchase',['EV_CustomizeEventchase',['../d8/d0e/client_2mutators_2events_8qh.html#a79c78c4cc1c599f059e0e01c80a649c9',1,'events.qh']]],

@@ -1,5 +1,7 @@
 var NAVTREEINDEX126 =
 {
+"df/d27/classXonoticPicker.html#a9045c7416f25ec440214c672d0bafc0d":[1,0,212,38],
+"df/d27/classXonoticPicker.html#a96bb839275a1a00b50d13e67bcad8c25":[1,0,212,16],
 "df/d27/classXonoticPicker.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,212,8],
 "df/d27/classXonoticPicker.html#aa8e554a35b9fe070e037a0b6a3e8351b":[1,0,212,27],
 "df/d27/classXonoticPicker.html#abf45e466d6bdd7bf3d9a18decd85b3e3":[1,0,212,15],
@@ -247,7 +249,5 @@ var NAVTREEINDEX126 =
 "df/d42/quake3_8qc.html#afa05d156bbfe1f471ef1a0f75033f361":[2,0,6,2,6,4],
 "df/d42/quake3_8qc.html#afe3101cf9c60d4355d940b8e37b1bdad":[2,0,6,2,6,16],
 "df/d42/quake3_8qc.html#afe93d47c3383f9ef99fb4ceb408b2fbe":[2,0,6,2,6,10],
-"df/d42/quake3_8qc_source.html":[2,0,6,2,6],
-"df/d42/vaporizer_8qc.html":[2,0,1,16,0,38],
-"df/d42/vaporizer_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,38,1]
+"df/d42/quake3_8qc_source.html":[2,0,6,2,6]
 };
