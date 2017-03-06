@@ -16,6 +16,7 @@ var gamemode__race_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d5/dd7/gamemode__race_8qc.html#a02bcde94c04f24ea1782c35057913558", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/dd7/gamemode__race_8qc.html#a40e2dfc3d363c3bb950e0a77cc035419", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/dd7/gamemode__race_8qc.html#a78ac27d415c159bdf3b3604bb9e31aac", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d5/dd7/gamemode__race_8qc.html#a4b3d01eeb2b479b98ac9ff0419c71f6c", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/dd7/gamemode__race_8qc.html#afd8bb8bada4e4e94b04f9d0652cb62cc", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/dd7/gamemode__race_8qc.html#ad601e69c9fca1422bb42871196dba243", null ],
     [ "MUTATOR_HOOKFUNCTION", "d5/dd7/gamemode__race_8qc.html#afb9cfce39a940f7e0fd176fd1a159172", null ],

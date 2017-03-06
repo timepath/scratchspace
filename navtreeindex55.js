@@ -1,5 +1,7 @@
 var NAVTREEINDEX55 =
 {
+"d6/d79/classXonoticHUDWeaponsDialog.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,194,9],
+"d6/d79/classXonoticHUDWeaponsDialog.html#aeddd1791da6fd6649a97730380336cf8":[1,0,194,68],
 "d6/d79/classXonoticHUDWeaponsDialog.html#af180715517590aef938f01dbfd55f2e2":[1,0,194,59],
 "d6/d79/classXonoticHUDWeaponsDialog.html#af1aab403dc54575707fd57991312b201":[1,0,194,47],
 "d6/d79/classXonoticHUDWeaponsDialog.html#af1f678188fd60bb44625149bb25c9af5":[1,0,194,27],
@@ -247,7 +249,5 @@ var NAVTREEINDEX55 =
 "d6/d9d/common_2physics_2__mod_8qh.html":[2,0,1,11,2],
 "d6/d9d/common_2physics_2__mod_8qh_source.html":[2,0,1,11,2],
 "d6/da0/post_8qh.html":[2,0,2,5],
-"d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4":[2,0,2,5,0],
-"d6/da0/post_8qh_source.html":[2,0,2,5],
-"d6/da3/client_2hud_2__mod_8qh.html":[2,0,0,1,2]
+"d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4":[2,0,2,5,0]
 };

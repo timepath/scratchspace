@@ -1,5 +1,10 @@
 var NAVTREEINDEX126 =
 {
+"df/d27/classXonoticPicker.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,212,8],
+"df/d27/classXonoticPicker.html#aa8e554a35b9fe070e037a0b6a3e8351b":[1,0,212,27],
+"df/d27/classXonoticPicker.html#abf45e466d6bdd7bf3d9a18decd85b3e3":[1,0,212,15],
+"df/d27/classXonoticPicker.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,212,34],
+"df/d27/classXonoticPicker.html#ac450f105398648a8932ca545e510ebcb":[1,0,212,33],
 "df/d27/classXonoticPicker.html#ac6094922668d013ada3893854eec6b0f":[1,0,212,12],
 "df/d27/classXonoticPicker.html#acd24b0a08873c8bfd9a04e8c2905b3cc":[1,0,212,32],
 "df/d27/classXonoticPicker.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,212,23],
@@ -244,10 +249,5 @@ var NAVTREEINDEX126 =
 "df/d42/quake3_8qc.html#afe93d47c3383f9ef99fb4ceb408b2fbe":[2,0,6,2,6,10],
 "df/d42/quake3_8qc_source.html":[2,0,6,2,6],
 "df/d42/vaporizer_8qc.html":[2,0,1,16,0,38],
-"df/d42/vaporizer_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,38,1],
-"df/d42/vaporizer_8qc.html#ade59b6be72d74beb2c7a1b563156e396":[2,0,1,16,0,38,2],
-"df/d42/vaporizer_8qc_source.html":[2,0,1,16,0,38],
-"df/d44/dialog__settings__video_8qh.html":[2,0,5,4,155],
-"df/d44/dialog__settings__video_8qh.html#a614215adb02bc1f62559ee00ad9a5e16":[2,0,5,4,155,1],
-"df/d44/dialog__settings__video_8qh_source.html":[2,0,5,4,155]
+"df/d42/vaporizer_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,38,1]
 };

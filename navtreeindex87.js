@@ -1,5 +1,9 @@
 var NAVTREEINDEX87 =
 {
+"da/d1d/mainwindow_8qc.html#a0d7d1629f65a255e16e302d73b331bb5":[2,0,5,4,178,2],
+"da/d1d/mainwindow_8qc.html#a1ead6224d662a11e80d74b913e8db41f":[2,0,5,4,178,0],
+"da/d1d/mainwindow_8qc.html#a906f272ebdf9a21d99b8d95e184866f3":[2,0,5,4,178,1],
+"da/d1d/mainwindow_8qc_source.html":[2,0,5,4,178],
 "da/d1e/phaser__weapon_8qc.html":[2,0,1,14,0,30],
 "da/d1e/phaser__weapon_8qc_source.html":[2,0,1,14,0,30],
 "da/d20/spawnfunc_8qh.html":[2,0,4,53],
@@ -245,9 +249,5 @@ var NAVTREEINDEX87 =
 "da/d45/gamemode__ca_8qh.html#ac474faca339b17424d9d117497bae646":[2,0,6,3,0,5,14],
 "da/d45/gamemode__ca_8qh.html#acf0b6576fbdf4f980d45cf06651f117e":[2,0,6,3,0,5,12],
 "da/d45/gamemode__ca_8qh_source.html":[2,0,6,3,0,5],
-"da/d46/classMLRSTurret.html":[1,0,74],
-"da/d46/classMLRSTurret.html#a03d4853c63078454428091bf3f9b9020":[1,0,74,20],
-"da/d46/classMLRSTurret.html#a04af0adca775f0be06c8a836cc0ae6ba":[1,0,74,19],
-"da/d46/classMLRSTurret.html#a138adca099fbd117101fe56edb53d8aa":[1,0,74,6],
-"da/d46/classMLRSTurret.html#a3144102787442a58055180121b5e9536":[1,0,74,13]
+"da/d46/classMLRSTurret.html":[1,0,74]
 };

@@ -1,5 +1,10 @@
 var NAVTREEINDEX122 =
 {
+"de/d6d/classLinkedListNode.html#a9c15551c50a9dc894925e899bbe95bfe":[1,0,65,2],
+"de/d6d/classLinkedListNode.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,65,4],
+"de/d6e/playerstats_8qc.html":[2,0,1,39],
+"de/d6e/playerstats_8qc_source.html":[2,0,1,39],
+"de/d70/common_2physics_2player_8qh.html":[2,0,1,11,7],
 "de/d70/common_2physics_2player_8qh.html#a0a98773cc29db37e636391cbdfd2aef9":[2,0,1,11,7,33],
 "de/d70/common_2physics_2player_8qh.html#a100cd2ee90ef7069bdb2aaaa6e2b7812":[2,0,1,11,7,41],
 "de/d70/common_2physics_2player_8qh.html#a10ccd5b7ecc0d9b06e85dc2f917e8eca":[2,0,1,11,7,90],
@@ -244,10 +249,5 @@ var NAVTREEINDEX122 =
 "de/d82/classDataSource.html#aaf40f07cb25d36179e3c05c500e982f0":[1,0,23,1],
 "de/d82/classDataSource.html#ac27a0b7fbb81f2a42cd209e5807edd72":[1,0,23,7],
 "de/d8b/phaser_8qc.html":[2,0,1,14,0,28],
-"de/d8b/phaser_8qc_source.html":[2,0,1,14,0,28],
-"de/d8b/xonotic_2image_8qc.html":[2,0,5,4,168],
-"de/d8b/xonotic_2image_8qc.html#a342332e21b2ee36298df0c2c0f3f11a1":[2,0,5,4,168,0],
-"de/d8b/xonotic_2image_8qc.html#aec88164f7d8c789d9016b9f759dd96dc":[2,0,5,4,168,1],
-"de/d8b/xonotic_2image_8qc_source.html":[2,0,5,4,168],
-"de/d8c/classWyvernAttack.html":[1,0,138]
+"de/d8b/phaser_8qc_source.html":[2,0,1,14,0,28]
 };
