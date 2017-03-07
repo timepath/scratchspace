@@ -425,7 +425,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;</div>
 <div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;    <a class="code" href="../../dc/d95/random_8qc.html#a2d70d358bbf6aa8252f2aebc596d67c1">RandomSelection_Init</a>();</div>
 <div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    <span class="keywordflow">for</span>(spot = firstspot; spot; spot = spot.chain)</div>
-<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a49a2adfdf5f027b14f01add2097e6df7">RandomSelection_AddEnt</a>(spot, <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(lower, spot.spawnpoint_score.y, upper), exponent) * spot.cnt, (spot.spawnpoint_score.y &gt;= lower) * 0.5 + spot.spawnpoint_score.x);</div>
+<div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a49a2adfdf5f027b14f01add2097e6df7">RandomSelection_AddEnt</a>(spot, (<a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(lower, spot.spawnpoint_score.y, upper) ** exponent) * spot.cnt, (spot.spawnpoint_score.y &gt;= lower) * 0.5 + spot.spawnpoint_score.x);</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a>;</div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;}</div>
@@ -545,7 +545,6 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div class="ttc" id="pre_8qh_html_a0c5e59a7caaa02f887d077eaa467f209"><div class="ttname"><a href="../../d2/d77/pre_8qh.html#a0c5e59a7caaa02f887d077eaa467f209">error</a></div><div class="ttdeci">#define error</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d77/pre_8qh_source.html#l00006">pre.qh:6</a></div></div>
 <div class="ttc" id="race_8qh_html_a0cf3c746a02d8f934c12691dadca5d3e"><div class="ttname"><a href="../../d4/d1b/race_8qh.html#a0cf3c746a02d8f934c12691dadca5d3e">race_spawns</a></div><div class="ttdeci">float race_spawns</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d1b/race_8qh_source.html#l00013">race.qh:13</a></div></div>
 <div class="ttc" id="framework_8qc_html_aef346455b3c2def821423a45227b45dd"><div class="ttname"><a href="../../d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd">LOG_TRACE</a></div><div class="ttdeci">void LOG_TRACE(string s,...)</div></div>
-<div class="ttc" id="menudefs_8qc_html_a0476dbfc79dac7770dfaa5c8d780a87d"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a></div><div class="ttdeci">float pow(float a, float b)</div></div>
 <div class="ttc" id="random_8qh_html_a86198c138394780d6c34d63ee910c243"><div class="ttname"><a href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a></div><div class="ttdeci">entity RandomSelection_chosen_ent</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d55/random_8qh_source.html#l00005">random.qh:5</a></div></div>
 <div class="ttc" id="server_2autocvars_8qh_html_acee53e1c133799d16c8cc2975f415cbc"><div class="ttname"><a href="../../d7/da7/server_2autocvars_8qh.html#acee53e1c133799d16c8cc2975f415cbc">autocvar_r_showbboxes</a></div><div class="ttdeci">float autocvar_r_showbboxes</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/da7/server_2autocvars_8qh_source.html#l00266">autocvars.qh:266</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
@@ -598,7 +597,7 @@ $(document).ready(function(){initNavTree('d0/d41/spawnpoints_8qc_source.html','.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../d0/d41/spawnpoints_8qc.html">spawnpoints.qc</a></li>
-    <li class="footer">Generated on Mon Mar 6 2017 15:29:51 for Xonotic by
+    <li class="footer">Generated on Tue Mar 7 2017 01:49:46 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

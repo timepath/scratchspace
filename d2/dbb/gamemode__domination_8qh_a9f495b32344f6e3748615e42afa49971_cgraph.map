@@ -1,49 +1,48 @@
 <map id="REGISTER_MUTATOR" name="REGISTER_MUTATOR">
 <area shape="rect" id="node2" href="$de/d4f/teamplay_8qc.html#ae1c3e008f1694a4a8d288f0708893574" title="ActivateTeamplay" alt="" coords="219,5,346,32"/>
 <area shape="rect" id="node4" href="$d2/dbb/gamemode__domination_8qh.html#a8cec3b44ab39bf059c106e3d145e5091" title="dom_Initialize" alt="" coords="231,107,334,133"/>
-<area shape="rect" id="node47" href="$db/dcc/g__world_8qc.html#a246b8f5baa8038cddf08ecc9adf5b17c" title="SetLimits" alt="" coords="244,56,321,83"/>
+<area shape="rect" id="node46" href="$db/dcc/g__world_8qc.html#a246b8f5baa8038cddf08ecc9adf5b17c" title="SetLimits" alt="" coords="244,56,321,83"/>
 <area shape="rect" id="node3" href="$d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3" title="cvar_set" alt="" coords="419,5,491,32"/>
-<area shape="rect" id="node5" href="$dc/d80/gamemode__domination_8qc.html#a0fdb17e4b1e3d53180305c2e6e355276" title="dom_DelayedInit" alt="" coords="395,411,515,437"/>
-<area shape="rect" id="node46" href="$dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877" title="InitializeEntity" alt="" coords="1473,132,1577,159"/>
-<area shape="rect" id="node6" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="623,233,681,260"/>
-<area shape="rect" id="node7" href="$d5/d14/scores__rules_8qc.html#a838b897a9ae86e8bf932e57c356ec987" title="CheckAllowedTeams" alt="" coords="579,284,725,311"/>
-<area shape="rect" id="node8" href="$dc/d80/gamemode__domination_8qc.html#a420cfd858fb699d5d4906821588ef7ef" title="dom_spawnteams" alt="" coords="588,335,716,361"/>
-<area shape="rect" id="node12" href="$dc/d80/gamemode__domination_8qc.html#a5681c6357782fa9c334b9feb17d31e3b" title="Domination_CheckPlayers" alt="" coords="563,537,741,564"/>
-<area shape="rect" id="node13" href="$dc/d80/gamemode__domination_8qc.html#aa8cdb9644740194517aed238126ada10" title="Domination_CheckWinner" alt="" coords="565,385,739,412"/>
-<area shape="rect" id="node16" href="$db/dfc/round__handler_8qc.html#a35bf06efb917c323c9e026476ca62978" title="round_handler_Init" alt="" coords="829,436,957,463"/>
-<area shape="rect" id="node21" href="$dc/d80/gamemode__domination_8qc.html#a297339937e3dc9b75d0517a5dee742c5" title="Domination_RoundStart" alt="" coords="571,588,733,615"/>
-<area shape="rect" id="node22" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="631,639,673,665"/>
-<area shape="rect" id="node23" href="$d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd" title="LOG_TRACE" alt="" coords="601,183,703,209"/>
-<area shape="rect" id="node24" href="$db/dfc/round__handler_8qc.html#afa84ad6fb073b0cf1cbae7eb74f70e4c" title="round_handler_Spawn" alt="" coords="577,487,727,513"/>
-<area shape="rect" id="node31" href="$dc/d80/gamemode__domination_8qc.html#a6c0bc2c93d1ab55d4a6a4340f66e42b5" title="ScoreRules_dom" alt="" coords="591,757,713,784"/>
-<area shape="rect" id="node9" href="$dc/d80/gamemode__domination_8qc.html#a6d94c2368afea0c0e4dd47b9b7609461" title="dom_spawnteam" alt="" coords="833,208,954,235"/>
-<area shape="rect" id="node10" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1669,461,1723,488"/>
-<area shape="rect" id="node11" href="$d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db" title="strzone" alt="" coords="1085,157,1150,184"/>
-<area shape="rect" id="node14" href="$dc/d80/gamemode__domination_8qc.html#a1f4f2534150a9e448612a2bdf0dc9b23" title="Domination_count_controlpoints" alt="" coords="789,385,997,412"/>
-<area shape="rect" id="node15" href="$dc/d80/gamemode__domination_8qc.html#aaa99f1d8d0a9efda0d76e0360081da91" title="Domination_GetWinnerTeam" alt="" coords="798,335,989,361"/>
-<area shape="rect" id="node19" href="$d2/d79/scores_8qc.html#a2f5738674b5f6bac88679dd31ac2de9e" title="Adds a score to the given team. " alt="" coords="810,284,977,311"/>
-<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b" title="fabs" alt="" coords="1094,360,1141,387"/>
-<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1094,411,1141,437"/>
-<area shape="rect" id="node20" href="$d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d" title="pow" alt="" coords="1094,309,1141,336"/>
-<area shape="rect" id="node25" href="$db/dfc/round__handler_8qc.html#addd3a61b04d2110fa066146acfbbf75b" title="round_handler_FirstThink" alt="" coords="809,563,977,589"/>
-<area shape="rect" id="node26" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="1094,563,1141,589"/>
-<area shape="rect" id="node27" href="$db/dfc/round__handler_8qc.html#abad08b2de126a7130c60aa81481278d0" title="round_handler_Think" alt="" coords="1046,613,1189,640"/>
-<area shape="rect" id="node28" href="$db/dfc/round__handler_8qc.html#a9f9012d50d940fe62137392d78988b0f" title="round_handler_Reset" alt="" coords="1453,613,1598,640"/>
-<area shape="rect" id="node29" href="$db/dfc/round__handler_8qc.html#a515cacf33539a9c94c6545fb9b468602" title="round_handler_Remove" alt="" coords="1238,563,1397,589"/>
-<area shape="rect" id="node30" href="$d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f" title="reset_map" alt="" coords="1276,664,1359,691"/>
-<area shape="rect" id="node32" href="$d2/d79/scores_8qc.html#a601d5f667de9976b2a1ca7f6fc6051de" title="Set the label of a player score item, as well as the scoring flags. " alt="" coords="1049,838,1185,879"/>
-<area shape="rect" id="node34" href="$d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882" title="Set the label of a team score item, as well as the scoring flags. " alt="" coords="1049,773,1185,814"/>
-<area shape="rect" id="node35" href="$d5/d14/scores__rules_8qc.html#ac67defd12e305443ab1cf4266ca03c8f" title="ScoreRules_basics" alt="" coords="826,808,961,835"/>
-<area shape="rect" id="node36" href="$d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05" title="ScoreRules_basics_end" alt="" coords="812,707,975,733"/>
-<area shape="rect" id="node33" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="1290,831,1345,857"/>
-<area shape="rect" id="node37" href="$d2/d79/scores_8qc.html#a51f0d41043a05b6682f5322b3f338abd" title="ScoreInfo_Init" alt="" coords="1066,715,1169,741"/>
-<area shape="rect" id="node38" href="$d2/d79/scores_8qc.html#a8fe097dffad5360aea8e78c7fe249d32" title="ScoreInfo_SendEntity" alt="" coords="1243,765,1392,792"/>
-<area shape="rect" id="node41" href="$d2/d79/scores_8qc.html#a5db481005e2c63c868c58b15537638a0" title="TeamScore_Spawn" alt="" coords="1249,715,1385,741"/>
-<area shape="rect" id="node39" href="$d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516" title="WriteString" alt="" coords="1482,765,1569,792"/>
-<area shape="rect" id="node40" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="1656,816,1736,843"/>
-<area shape="rect" id="node42" href="$d2/d79/scores_8qc.html#afada77c7b9046dc439737459f196231a" title="TeamScore_SendEntity" alt="" coords="1445,715,1605,741"/>
-<area shape="rect" id="node43" href="$d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15" title="eprint" alt="" coords="1669,765,1723,792"/>
-<area shape="rect" id="node44" href="$d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35" title="WriteShort" alt="" coords="1654,664,1738,691"/>
-<area shape="rect" id="node45" href="$d8/de2/menudefs_8qc.html#a52cb9ee43a3668c53bee4ff715da8260" title="WriteChar" alt="" coords="1655,715,1737,741"/>
-<area shape="rect" id="node48" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="433,56,477,83"/>
+<area shape="rect" id="node5" href="$dc/d80/gamemode__domination_8qc.html#a0fdb17e4b1e3d53180305c2e6e355276" title="dom_DelayedInit" alt="" coords="395,284,515,311"/>
+<area shape="rect" id="node45" href="$dc/dc6/server_2miscfunctions_8qc.html#a048269a249dd2d958fa3ebbccb21c877" title="InitializeEntity" alt="" coords="403,107,507,133"/>
+<area shape="rect" id="node6" href="$d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7" title="bound" alt="" coords="623,107,681,133"/>
+<area shape="rect" id="node7" href="$d5/d14/scores__rules_8qc.html#a838b897a9ae86e8bf932e57c356ec987" title="CheckAllowedTeams" alt="" coords="579,157,725,184"/>
+<area shape="rect" id="node8" href="$dc/d80/gamemode__domination_8qc.html#a420cfd858fb699d5d4906821588ef7ef" title="dom_spawnteams" alt="" coords="588,208,716,235"/>
+<area shape="rect" id="node12" href="$dc/d80/gamemode__domination_8qc.html#a5681c6357782fa9c334b9feb17d31e3b" title="Domination_CheckPlayers" alt="" coords="563,411,741,437"/>
+<area shape="rect" id="node13" href="$dc/d80/gamemode__domination_8qc.html#aa8cdb9644740194517aed238126ada10" title="Domination_CheckWinner" alt="" coords="565,259,739,285"/>
+<area shape="rect" id="node16" href="$db/dfc/round__handler_8qc.html#a35bf06efb917c323c9e026476ca62978" title="round_handler_Init" alt="" coords="829,309,957,336"/>
+<area shape="rect" id="node20" href="$dc/d80/gamemode__domination_8qc.html#a297339937e3dc9b75d0517a5dee742c5" title="Domination_RoundStart" alt="" coords="571,461,733,488"/>
+<area shape="rect" id="node21" href="$d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78" title="find" alt="" coords="631,512,673,539"/>
+<area shape="rect" id="node22" href="$d1/d07/framework_8qc.html#aef346455b3c2def821423a45227b45dd" title="LOG_TRACE" alt="" coords="601,56,703,83"/>
+<area shape="rect" id="node23" href="$db/dfc/round__handler_8qc.html#afa84ad6fb073b0cf1cbae7eb74f70e4c" title="round_handler_Spawn" alt="" coords="577,360,727,387"/>
+<area shape="rect" id="node30" href="$dc/d80/gamemode__domination_8qc.html#a6c0bc2c93d1ab55d4a6a4340f66e42b5" title="ScoreRules_dom" alt="" coords="591,605,713,632"/>
+<area shape="rect" id="node9" href="$dc/d80/gamemode__domination_8qc.html#a6d94c2368afea0c0e4dd47b9b7609461" title="dom_spawnteam" alt="" coords="833,107,954,133"/>
+<area shape="rect" id="node10" href="$d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464" title="entity" alt="" coords="1677,309,1731,336"/>
+<area shape="rect" id="node11" href="$d8/de2/menudefs_8qc.html#ae06db7c87845d853670a09a1d487b1db" title="strzone" alt="" coords="1085,56,1150,83"/>
+<area shape="rect" id="node14" href="$dc/d80/gamemode__domination_8qc.html#a1f4f2534150a9e448612a2bdf0dc9b23" title="Domination_count_controlpoints" alt="" coords="789,259,997,285"/>
+<area shape="rect" id="node15" href="$dc/d80/gamemode__domination_8qc.html#aaa99f1d8d0a9efda0d76e0360081da91" title="Domination_GetWinnerTeam" alt="" coords="798,208,989,235"/>
+<area shape="rect" id="node19" href="$d2/d79/scores_8qc.html#a2f5738674b5f6bac88679dd31ac2de9e" title="Adds a score to the given team. " alt="" coords="1446,208,1613,235"/>
+<area shape="rect" id="node17" href="$d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b" title="fabs" alt="" coords="1094,259,1141,285"/>
+<area shape="rect" id="node18" href="$d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802" title="floor" alt="" coords="1094,208,1141,235"/>
+<area shape="rect" id="node24" href="$db/dfc/round__handler_8qc.html#addd3a61b04d2110fa066146acfbbf75b" title="round_handler_FirstThink" alt="" coords="809,411,977,437"/>
+<area shape="rect" id="node25" href="$d8/de2/menudefs_8qc.html#aebeeec7a2529f36483e14f76b1871271" title="max" alt="" coords="1094,411,1141,437"/>
+<area shape="rect" id="node26" href="$db/dfc/round__handler_8qc.html#abad08b2de126a7130c60aa81481278d0" title="round_handler_Think" alt="" coords="1046,461,1189,488"/>
+<area shape="rect" id="node27" href="$db/dfc/round__handler_8qc.html#a9f9012d50d940fe62137392d78988b0f" title="round_handler_Reset" alt="" coords="1457,461,1602,488"/>
+<area shape="rect" id="node28" href="$db/dfc/round__handler_8qc.html#a515cacf33539a9c94c6545fb9b468602" title="round_handler_Remove" alt="" coords="1238,411,1397,437"/>
+<area shape="rect" id="node29" href="$d1/dad/server_2command_2vote_8qc.html#ab44a3a2f93e542242bc295411367283f" title="reset_map" alt="" coords="1276,512,1359,539"/>
+<area shape="rect" id="node31" href="$d2/d79/scores_8qc.html#a601d5f667de9976b2a1ca7f6fc6051de" title="Set the label of a player score item, as well as the scoring flags. " alt="" coords="1049,621,1185,662"/>
+<area shape="rect" id="node33" href="$d2/d79/scores_8qc.html#afc148f5f21c7b4c29db8ffeabfb26882" title="Set the label of a team score item, as well as the scoring flags. " alt="" coords="1049,686,1185,727"/>
+<area shape="rect" id="node34" href="$d5/d14/scores__rules_8qc.html#ac67defd12e305443ab1cf4266ca03c8f" title="ScoreRules_basics" alt="" coords="826,656,961,683"/>
+<area shape="rect" id="node35" href="$d5/d14/scores__rules_8qc.html#a70c01ecc880399b0cc5fa84520d93a05" title="ScoreRules_basics_end" alt="" coords="812,555,975,581"/>
+<area shape="rect" id="node32" href="$d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158" title="strcat" alt="" coords="1290,679,1345,705"/>
+<area shape="rect" id="node36" href="$d2/d79/scores_8qc.html#a51f0d41043a05b6682f5322b3f338abd" title="ScoreInfo_Init" alt="" coords="1066,563,1169,589"/>
+<area shape="rect" id="node37" href="$d2/d79/scores_8qc.html#a8fe097dffad5360aea8e78c7fe249d32" title="ScoreInfo_SendEntity" alt="" coords="1243,613,1392,640"/>
+<area shape="rect" id="node40" href="$d2/d79/scores_8qc.html#a5db481005e2c63c868c58b15537638a0" title="TeamScore_Spawn" alt="" coords="1249,563,1385,589"/>
+<area shape="rect" id="node38" href="$d8/de2/menudefs_8qc.html#a44e0d1ac6d9e4b633d85ad82f408f516" title="WriteString" alt="" coords="1486,613,1573,640"/>
+<area shape="rect" id="node39" href="$d8/de2/menudefs_8qc.html#abd23315350cd01304b6bd77c4c5c07e6" title="WriteByte" alt="" coords="1664,664,1744,691"/>
+<area shape="rect" id="node41" href="$d2/d79/scores_8qc.html#afada77c7b9046dc439737459f196231a" title="TeamScore_SendEntity" alt="" coords="1449,563,1609,589"/>
+<area shape="rect" id="node42" href="$d8/de2/menudefs_8qc.html#abc4199f59419099fba0efc7f78663e15" title="eprint" alt="" coords="1677,613,1731,640"/>
+<area shape="rect" id="node43" href="$d8/de2/menudefs_8qc.html#a7bb594d808e357274edee331b5ed2d35" title="WriteShort" alt="" coords="1662,512,1746,539"/>
+<area shape="rect" id="node44" href="$d8/de2/menudefs_8qc.html#a52cb9ee43a3668c53bee4ff715da8260" title="WriteChar" alt="" coords="1663,563,1745,589"/>
+<area shape="rect" id="node47" href="$d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76" title="ftos" alt="" coords="433,56,477,83"/>
 </map>

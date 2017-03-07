@@ -1177,7 +1177,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00849">849</a> of file <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html">gamemode_keyhunt.qc</a>.</p>
 
-<p>References <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00062">kh_Team_ByID()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00075">kh_teams</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>, <a class="el" href="../../d5/d14/scores__rules_8qc_source.html#l00010">NumTeams()</a>, <a class="el" href="../../de/d70/common_2physics_2player_8qh_source.html#l00120">PHYS_INPUT_BUTTON_CHAT</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00003">players</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow()</a>.</p>
+<p>References <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">IS_DEAD</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00009">IS_PLAYER</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00062">kh_Team_ByID()</a>, <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00075">kh_teams</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>, <a class="el" href="../../d5/d14/scores__rules_8qc_source.html#l00010">NumTeams()</a>, <a class="el" href="../../de/d70/common_2physics_2player_8qh_source.html#l00120">PHYS_INPUT_BUTTON_CHAT</a>, and <a class="el" href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00003">players</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00915">kh_StartRound()</a>, and <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00866">kh_WaitForPlayers()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00850"></a><span class="lineno">  850</span>&#160;{</div>
@@ -1191,7 +1191,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00858"></a><span class="lineno">  858</span>&#160;                ++players;</div>
 <div class="line"><a name="l00859"></a><span class="lineno">  859</span>&#160;        ));</div>
 <div class="line"><a name="l00860"></a><span class="lineno">  860</span>&#160;        <span class="keywordflow">if</span> (!players)</div>
-<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;            missing_teams |= <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(2, i);</div>
+<div class="line"><a name="l00861"></a><span class="lineno">  861</span>&#160;            missing_teams |= (2 ** i);</div>
 <div class="line"><a name="l00862"></a><span class="lineno">  862</span>&#160;    }</div>
 <div class="line"><a name="l00863"></a><span class="lineno">  863</span>&#160;    <span class="keywordflow">return</span> missing_teams;</div>
 <div class="line"><a name="l00864"></a><span class="lineno">  864</span>&#160;}</div>
@@ -1203,7 +1203,6 @@ Variables</h2></td></tr>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a44b5ea3f2e11df716c1affcd1cff5bef"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a44b5ea3f2e11df716c1affcd1cff5bef">players</a></div><div class="ttdeci">entity players</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00003">miscfunctions.qh:3</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
 <div class="ttc" id="gamemode__keyhunt_8qc_html_ad854fcb1e82836772a09f1203345400d"><div class="ttname"><a href="../../de/d40/gamemode__keyhunt_8qc.html#ad854fcb1e82836772a09f1203345400d">kh_teams</a></div><div class="ttdeci">int kh_teams</div><div class="ttdef"><b>Definition:</b> <a href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00075">gamemode_keyhunt.qc:75</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a0476dbfc79dac7770dfaa5c8d780a87d"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a></div><div class="ttdeci">float pow(float a, float b)</div></div>
 <div class="ttc" id="client_2miscfunctions_8qh_html_a30122e95b404a119ce026ed3b92d0944"><div class="ttname"><a href="../../d8/db6/client_2miscfunctions_8qh.html#a30122e95b404a119ce026ed3b92d0944">IS_DEAD</a></div><div class="ttdeci">#define IS_DEAD(s)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/db6/client_2miscfunctions_8qh_source.html#l00037">miscfunctions.qh:37</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-23" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -1211,7 +1210,7 @@ Variables</h2></td></tr>
 <div id="dynsection-23-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-23-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a07dca08446b5f2838519ee4dd1385467_cgraph.svg" width="323" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a07dca08446b5f2838519ee4dd1385467_cgraph.svg" width="323" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -3233,7 +3232,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00122">122</a> of file <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html">gamemode_keyhunt.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00040">FOR_EACH_KH_KEY</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow()</a>.</p>
+<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00040">FOR_EACH_KH_KEY</a>, <a class="el" href="../../d9/ddc/server_2__all_8qh_source.html#l00044">FOREACH_CLIENT</a>, and <a class="el" href="../../d7/d61/misc_8qh_source.html#l00034">LAMBDA</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00302">kh_Key_AssignTo()</a>, and <a class="el" href="../../de/d40/gamemode__keyhunt_8qc_source.html#l00473">kh_Key_Remove()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;{</div>
@@ -3246,7 +3245,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;            f = key.team;</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;            f = 30;</div>
-<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        s |= <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(32, key.count) * f;</div>
+<div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        s |= (32 ** key.count) * f;</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    }</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <a class="code" href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a>(<span class="keyword">true</span>, <a class="code" href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a>(it.kh_state = s));</div>
@@ -3254,14 +3253,13 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="../../d8/de1/gamemode__keyhunt_8qh.html#aac9fba35b1682c6c203245cd8bb4b840">FOR_EACH_KH_KEY</a>(key)</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    {</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;        <span class="keywordflow">if</span>(key.owner)</div>
-<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            key.owner.kh_state |= <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(32, key.count) * 31;</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;            key.owner.kh_state |= (32 ** key.count) * 31;</div>
 <div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    }</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    <span class="comment">//print(ftos((nextent(NULL)).kh_state), &quot;\n&quot;);</span></div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="misc_8qh_html_ac5b6c39ea3623a8baaa05c4cad644df1"><div class="ttname"><a href="../../d7/d61/misc_8qh.html#ac5b6c39ea3623a8baaa05c4cad644df1">LAMBDA</a></div><div class="ttdeci">#define LAMBDA(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../d7/d61/misc_8qh_source.html#l00034">misc.qh:34</a></div></div>
 <div class="ttc" id="server_2__all_8qh_html_ad6899d5b7306a3f21411585f6abaf582"><div class="ttname"><a href="../../d9/ddc/server_2__all_8qh.html#ad6899d5b7306a3f21411585f6abaf582">FOREACH_CLIENT</a></div><div class="ttdeci">#define FOREACH_CLIENT(cond, body)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/ddc/server_2__all_8qh_source.html#l00044">_all.qh:44</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a0476dbfc79dac7770dfaa5c8d780a87d"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a></div><div class="ttdeci">float pow(float a, float b)</div></div>
 <div class="ttc" id="gamemode__keyhunt_8qh_html_aac9fba35b1682c6c203245cd8bb4b840"><div class="ttname"><a href="../../d8/de1/gamemode__keyhunt_8qh.html#aac9fba35b1682c6c203245cd8bb4b840">FOR_EACH_KH_KEY</a></div><div class="ttdeci">#define FOR_EACH_KH_KEY(v)</div><div class="ttdef"><b>Definition:</b> <a href="../../d8/de1/gamemode__keyhunt_8qh_source.html#l00040">gamemode_keyhunt.qh:40</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-64" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -3269,7 +3267,7 @@ Variables</h2></td></tr>
 <div id="dynsection-64-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-64-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_af0b0677c2ea223d7b4b626fa9e83ccd7_cgraph.svg" width="235" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_af0b0677c2ea223d7b4b626fa9e83ccd7_cgraph.svg" width="235" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -3694,7 +3692,7 @@ Variables</h2></td></tr>
 <div id="dynsection-73-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-73-content" class="dyncontent" style="display:none;">
-<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a6fe67f771aca69146e2bfb5bcce53ef0_cgraph.svg" width="100%" height="600"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
+<div class="center"><div class="zoom"><iframe scrolling="no" frameborder="0" src="../../de/d40/gamemode__keyhunt_8qc_a6fe67f771aca69146e2bfb5bcce53ef0_cgraph.svg" width="100%" height="594"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe></div>
 </div>
 </div>
 </p>
@@ -4813,7 +4811,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_59526edd3ffea80c81ba0dd8a5822cc1.html">mutators</a></li><li class="navelem"><a class="el" href="../../dir_9151fe659be2e9190267c6a4f0701c88.html">mutator</a></li><li class="navelem"><a class="el" href="../../de/d40/gamemode__keyhunt_8qc.html">gamemode_keyhunt.qc</a></li>
-    <li class="footer">Generated on Mon Mar 6 2017 15:30:03 for Xonotic by
+    <li class="footer">Generated on Tue Mar 7 2017 01:49:58 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

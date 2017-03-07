@@ -629,7 +629,7 @@ $(document).ready(function(){initNavTree('d6/dd3/view_8qc_source.html','../../')
 <div class="line"><a name="l00522"></a><span class="lineno">  522</span>&#160;        <a class="code" href="../../d0/d2a/client_2main_8qh.html#af4992bb89ec3b089ce9e46f990866e13">current_zoomfraction</a> = (<a class="code" href="../../d0/d2a/client_2main_8qh.html#a1447fc57992a33af6be30d0f1be2e8e6">current_viewzoom</a> - 1) / (1/zoomfactor - 1);</div>
 <div class="line"><a name="l00523"></a><span class="lineno">  523</span>&#160;</div>
 <div class="line"><a name="l00524"></a><span class="lineno">  524</span>&#160;    <span class="keywordflow">if</span>(zoomsensitivity &lt; 1)</div>
-<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;        setsensitivityscale(<a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a1447fc57992a33af6be30d0f1be2e8e6">current_viewzoom</a>, 1 - zoomsensitivity));</div>
+<div class="line"><a name="l00525"></a><span class="lineno">  525</span>&#160;        setsensitivityscale(<a class="code" href="../../d0/d2a/client_2main_8qh.html#a1447fc57992a33af6be30d0f1be2e8e6">current_viewzoom</a> ** (1 - zoomsensitivity));</div>
 <div class="line"><a name="l00526"></a><span class="lineno">  526</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00527"></a><span class="lineno">  527</span>&#160;        setsensitivityscale(1);</div>
 <div class="line"><a name="l00528"></a><span class="lineno">  528</span>&#160;</div>
@@ -1842,7 +1842,7 @@ $(document).ready(function(){initNavTree('d6/dd3/view_8qc_source.html','../../')
 <div class="line"><a name="l01735"></a><span class="lineno"> 1735</span>&#160;</div>
 <div class="line"><a name="l01736"></a><span class="lineno"> 1736</span>&#160;        t = (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a> - blurtest_time0) / (blurtest_time1 - blurtest_time0);</div>
 <div class="line"><a name="l01737"></a><span class="lineno"> 1737</span>&#160;        r = t * blurtest_radius;</div>
-<div class="line"><a name="l01738"></a><span class="lineno"> 1738</span>&#160;        f = 1 / <a class="code" href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a>(t, blurtest_power) - 1;</div>
+<div class="line"><a name="l01738"></a><span class="lineno"> 1738</span>&#160;        f = 1 / (t ** blurtest_power) - 1;</div>
 <div class="line"><a name="l01739"></a><span class="lineno"> 1739</span>&#160;</div>
 <div class="line"><a name="l01740"></a><span class="lineno"> 1740</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;r_glsl_postprocess&quot;</span>, <span class="stringliteral">&quot;1&quot;</span>);</div>
 <div class="line"><a name="l01741"></a><span class="lineno"> 1741</span>&#160;        <a class="code" href="../../d8/de2/menudefs_8qc.html#a0b350379da8a7002dee40a3598bf33c3">cvar_set</a>(<span class="stringliteral">&quot;r_glsl_postprocess_uservec1&quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ad76dc2b2895cd23f21e008f12a686158">strcat</a>(<a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(r), <span class="stringliteral">&quot; &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#abbb0d86741e0056b6c04f7280c185d76">ftos</a>(f), <span class="stringliteral">&quot; 0 0&quot;</span>));</div>
@@ -2843,7 +2843,6 @@ $(document).ready(function(){initNavTree('d6/dd3/view_8qc_source.html','../../')
 <div class="ttc" id="view_8qc_html_a4b7669497f780ca53163f9d81bc9f401"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a4b7669497f780ca53163f9d81bc9f401">wcross_resolution_goal_prev</a></div><div class="ttdeci">float wcross_resolution_goal_prev</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00597">view.qc:597</a></div></div>
 <div class="ttc" id="hud_8qh_html_aee0c27fd0d4541d837825711f367c514"><div class="ttname"><a href="../../d3/d05/hud_8qh.html#aee0c27fd0d4541d837825711f367c514">myteamcolors</a></div><div class="ttdeci">vector myteamcolors</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d05/hud_8qh_source.html#l00110">hud.qh:110</a></div></div>
 <div class="ttc" id="view_8qc_html_a072a891c41a472dff4017d0afc9c64a0"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#a072a891c41a472dff4017d0afc9c64a0">current_position</a></div><div class="ttdeci">vector current_position</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l02301">view.qc:2301</a></div></div>
-<div class="ttc" id="menudefs_8qc_html_a0476dbfc79dac7770dfaa5c8d780a87d"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a0476dbfc79dac7770dfaa5c8d780a87d">pow</a></div><div class="ttdeci">float pow(float a, float b)</div></div>
 <div class="ttc" id="string_8qh_html_aac3cd57f894ce5c2be1d74aee3fe2f13"><div class="ttname"><a href="../../d2/db4/string_8qh.html#aac3cd57f894ce5c2be1d74aee3fe2f13">ColorTranslateMode</a></div><div class="ttdeci">int ColorTranslateMode</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/db4/string_8qh_source.html#l00068">string.qh:68</a></div></div>
 <div class="ttc" id="view_8qc_html_ac0eccd9b13288ed3d95f702c5021088b"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#ac0eccd9b13288ed3d95f702c5021088b">CSQC_Demo_Camera</a></div><div class="ttdeci">void CSQC_Demo_Camera()</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l02302">view.qc:2302</a></div></div>
 <div class="ttc" id="cl__cmd_8qc_html_ab1c5f554f29bac879163c40cc284d949"><div class="ttname"><a href="../../df/d8c/cl__cmd_8qc.html#ab1c5f554f29bac879163c40cc284d949">HUD_MinigameMenu_IsOpened</a></div><div class="ttdeci">bool HUD_MinigameMenu_IsOpened()</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/d4a/cl__minigames__hud_8qc_source.html#l00340">cl_minigames_hud.qc:340</a></div></div>
@@ -3099,7 +3098,7 @@ $(document).ready(function(){initNavTree('d6/dd3/view_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_db3a54907829b36871118d03417739cd.html">client</a></li><li class="navelem"><a class="el" href="../../d6/dd3/view_8qc.html">view.qc</a></li>
-    <li class="footer">Generated on Mon Mar 6 2017 15:29:48 for Xonotic by
+    <li class="footer">Generated on Tue Mar 7 2017 01:49:41 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
