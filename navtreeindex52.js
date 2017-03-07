@@ -1,5 +1,8 @@
 var NAVTREEINDEX52 =
 {
+"d6/d1a/classMainWindow.html#a560e582c512ed981e424009118cafeaa":[1,0,72,58],
+"d6/d1a/classMainWindow.html#a57d47c9d391f762811bece4a6dfd2305":[1,0,72,21],
+"d6/d1a/classMainWindow.html#a60a0f0e87fb591e8822ca68d90588b8d":[1,0,72,32],
 "d6/d1a/classMainWindow.html#a664a226b5d87a63e5af7adede821a776":[1,0,72,0],
 "d6/d1a/classMainWindow.html#a67d95732d49da439095483530aca8804":[1,0,72,62],
 "d6/d1a/classMainWindow.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,72,29],
@@ -246,8 +249,5 @@ var NAVTREEINDEX52 =
 "d6/d2a/common_2mutators_2mutator_2weaponarena__random_2__mod_8inc.html":[2,0,1,9,0,35,0],
 "d6/d2a/common_2mutators_2mutator_2weaponarena__random_2__mod_8inc_source.html":[2,0,1,9,0,35,0],
 "d6/d2f/func_2include_8qh.html":[2,0,1,13,0,19],
-"d6/d2f/func_2include_8qh_source.html":[2,0,1,13,0,19],
-"d6/d30/dialog__teamselect_8qc.html":[2,0,5,4,160],
-"d6/d30/dialog__teamselect_8qc.html#a4131cee70165ea73d71de76b0f544a73":[2,0,5,4,160,1],
-"d6/d30/dialog__teamselect_8qc.html#abc28b8cb59bb4b64932491e1b742f5e5":[2,0,5,4,160,3]
+"d6/d2f/func_2include_8qh_source.html":[2,0,1,13,0,19]
 };

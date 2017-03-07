@@ -1,5 +1,16 @@
 var NAVTREEINDEX112 =
 {
+"dd/d36/classXonoticGameViewSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,171,54],
+"dd/d36/classXonoticGameViewSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,171,32],
+"dd/d36/classXonoticGameViewSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,171,38],
+"dd/d36/classXonoticGameViewSettingsTab.html#a521275ee1c52f6503906d1e871cceb4c":[1,0,171,46],
+"dd/d36/classXonoticGameViewSettingsTab.html#a53de8355052b658819638577356cc8f3":[1,0,171,58],
+"dd/d36/classXonoticGameViewSettingsTab.html#a5881cc73deaf679e9b3ec7dc0bebb64c":[1,0,171,89],
+"dd/d36/classXonoticGameViewSettingsTab.html#a638c28512bda05f8b3d75fdb5c87f1d2":[1,0,171,21],
+"dd/d36/classXonoticGameViewSettingsTab.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,171,65],
+"dd/d36/classXonoticGameViewSettingsTab.html#a67d95732d49da439095483530aca8804":[1,0,171,57],
+"dd/d36/classXonoticGameViewSettingsTab.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,171,22],
+"dd/d36/classXonoticGameViewSettingsTab.html#a72c0e76156762fbda152032add5f1630":[1,0,171,18],
 "dd/d36/classXonoticGameViewSettingsTab.html#a764e47589af5180fb58efa8f40c4c948":[1,0,171,83],
 "dd/d36/classXonoticGameViewSettingsTab.html#a7ace596e5c9b5abc63836d73723bed02":[1,0,171,9],
 "dd/d36/classXonoticGameViewSettingsTab.html#a7b13cdc101cd55528465440586a004f6":[1,0,171,67],
@@ -238,16 +249,5 @@ var NAVTREEINDEX112 =
 "dd/d6d/hudskinlist_8qh.html":[2,0,5,4,167],
 "dd/d6d/hudskinlist_8qh.html#a0834771cb62f6a73c56a62c31ddb5f40":[2,0,5,4,167,6],
 "dd/d6d/hudskinlist_8qh.html#a0b3df13308d0a4e7cfd2533b4e6c6903":[2,0,5,4,167,5],
-"dd/d6d/hudskinlist_8qh.html#a12363157393141759d4502328392bbe3":[2,0,5,4,167,4],
-"dd/d6d/hudskinlist_8qh.html#a4c1818587158441809b721f75e7513db":[2,0,5,4,167,1],
-"dd/d6d/hudskinlist_8qh.html#a6c944483c123c794135739c4adabbf1c":[2,0,5,4,167,7],
-"dd/d6d/hudskinlist_8qh.html#af6621274846460272cf8f5cdf082da5f":[2,0,5,4,167,3],
-"dd/d6d/hudskinlist_8qh.html#af698d1283463851fb9e67807d6d34f7a":[2,0,5,4,167,2],
-"dd/d6d/hudskinlist_8qh_source.html":[2,0,5,4,167],
-"dd/d6e/plat_8qc.html":[2,0,1,13,0,24],
-"dd/d6e/plat_8qc_source.html":[2,0,1,13,0,24],
-"dd/d70/pathlib_8qh.html":[2,0,6,4,14],
-"dd/d70/pathlib_8qh.html#a018abfbcb97490c6b47e7e4c5484cec3":[2,0,6,4,14,1],
-"dd/d70/pathlib_8qh.html#a0576e617652793d2f11b3b32549170ca":[2,0,6,4,14,64],
-"dd/d70/pathlib_8qh.html#a06d2a473c8e47a4a9c565d013acfcd7b":[2,0,6,4,14,9]
+"dd/d6d/hudskinlist_8qh.html#a12363157393141759d4502328392bbe3":[2,0,5,4,167,4]
 };

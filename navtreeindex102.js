@@ -1,5 +1,16 @@
 var NAVTREEINDEX102 =
 {
+"db/dcc/g__world_8qc.html#afda7c0d2e9429b1eb3477891bc970dad":[2,0,6,33,72],
+"db/dcc/g__world_8qc_source.html":[2,0,6,33],
+"db/dd2/shambler_8qc.html":[2,0,1,8,0,4],
+"db/dd2/shambler_8qc_source.html":[2,0,1,8,0,4],
+"db/dd2/triggers_2misc_2follow_8qc.html":[2,0,1,13,1,4],
+"db/dd2/triggers_2misc_2follow_8qc_source.html":[2,0,1,13,1,4],
+"db/dd3/classCallback.html":[1,0,12],
+"db/dd3/classCallback.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,12,2],
+"db/dd3/classCallback.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,12,3],
+"db/dd3/classCallback.html#af8d4aab0572cc7fcf3dca4e1174faef8":[1,0,12,0],
+"db/dd3/classCallback.html#af99cb10117c292e3a495925c6692c412":[1,0,12,1],
 "db/dd3/dialog__settings__misc__reset_8qh.html":[2,0,5,4,149],
 "db/dd3/dialog__settings__misc__reset_8qh_source.html":[2,0,5,4,149],
 "db/dd3/doublejump_8qc.html":[2,0,1,9,0,8,2],
@@ -238,16 +249,5 @@ var NAVTREEINDEX102 =
 "db/df7/colorpicker__string_8qc.html#a5655c6477084f26b12a3be1295c06d65":[2,0,5,4,22,4],
 "db/df7/colorpicker__string_8qc.html#a674519a2325794456afd27a6c198d271":[2,0,5,4,22,2],
 "db/df7/colorpicker__string_8qc.html#ac089079e4c7d228aad0135be8da22610":[2,0,5,4,22,1],
-"db/df7/colorpicker__string_8qc.html#ac64e1f0e091335c86e6f64adb61e48f3":[2,0,5,4,22,7],
-"db/df7/colorpicker__string_8qc.html#adddeddac6ab0dc7ec36befe111ba9602":[2,0,5,4,22,0],
-"db/df7/colorpicker__string_8qc.html#ae8f08cb04b2436532cdfcd16f5204192":[2,0,5,4,22,6],
-"db/df7/colorpicker__string_8qc_source.html":[2,0,5,4,22],
-"db/df8/tesla_8qc.html":[2,0,1,14,0,38],
-"db/df8/tesla_8qc_source.html":[2,0,1,14,0,38],
-"db/df9/door__secret_8qh.html":[2,0,1,13,0,15],
-"db/df9/door__secret_8qh_source.html":[2,0,1,13,0,15],
-"db/dfa/classPlasmaAttack.html":[1,0,92],
-"db/dfa/classPlasmaAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,92,33],
-"db/dfa/classPlasmaAttack.html#a148f0ac2aabc8676f55a902b199eeed1":[1,0,92,19],
-"db/dfa/classPlasmaAttack.html#a21bcd9fcf5c2d266444cd181ac2dbafd":[1,0,92,18]
+"db/df7/colorpicker__string_8qc.html#ac64e1f0e091335c86e6f64adb61e48f3":[2,0,5,4,22,7]
 };

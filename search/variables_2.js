@@ -93,7 +93,7 @@ var searchData=
   ['bot_5fbadaimtime',['bot_badaimtime',['../d3/d5a/aim_8qh.html#a779480627ef81e2445f8fa5debf9b649',1,'aim.qh']]],
   ['bot_5fbarrier',['bot_barrier',['../d8/d14/scripting_8qh.html#a999c06331b307b29da705b52c9848998',1,'scripting.qh']]],
   ['bot_5fbarriertime',['bot_barriertime',['../d8/d14/scripting_8qh.html#ab60ec58fc647af4d0feb4a3e839a853d',1,'scripting.qh']]],
-  ['bot_5fbasewaypoint',['bot_basewaypoint',['../d7/dd0/sv__onslaught_8qh.html#a215452013844cd2f22ceee67858579d2',1,'sv_onslaught.qh']]],
+  ['bot_5fbasewaypoint',['bot_basewaypoint',['../db/d15/api_8qh.html#a215452013844cd2f22ceee67858579d2',1,'bot_basewaypoint():&#160;api.qh'],['../df/dd4/navigation_8qh.html#a215452013844cd2f22ceee67858579d2',1,'bot_basewaypoint():&#160;navigation.qh']]],
   ['bot_5fcanfire',['bot_canfire',['../d1/da9/bot_8qh.html#acc9fbf8cff322bb2d7c1218fb1a68829',1,'bot.qh']]],
   ['bot_5fcanruntogoal',['bot_canruntogoal',['../d8/d39/havocbot_8qh.html#a4bd3dc6fa096edc94481c4d71ab12232',1,'havocbot.qh']]],
   ['bot_5fchooseweapontime',['bot_chooseweapontime',['../d8/d39/havocbot_8qh.html#a86175c50be27e03f2f0ed6cef0d4c89f',1,'havocbot.qh']]],

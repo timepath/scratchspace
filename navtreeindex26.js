@@ -1,5 +1,8 @@
 var NAVTREEINDEX26 =
 {
+"d3/d62/gamemode_8qh.html#a4b82f3594ebb19e01348f179d0c7bd04":[2,0,6,3,4,0],
+"d3/d62/gamemode_8qh.html#a816e8b0a30b0fc5b02eac59c15c59fa6":[2,0,6,3,4,9],
+"d3/d62/gamemode_8qh.html#a94f7dfb485a988da25947983ebe8cd59":[2,0,6,3,4,3],
 "d3/d62/gamemode_8qh.html#a990a920632336f4aed89f1745434a203":[2,0,6,3,4,5],
 "d3/d62/gamemode_8qh.html#ab299853acad4e8210662b02ab2aef52b":[2,0,6,3,4,8],
 "d3/d62/gamemode_8qh.html#ab803f80764072efe357d4f09fa570bd9":[2,0,6,3,4,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX26 =
 "d3/d7c/common_2mutators_2mutator_2globalforces_2__mod_8qh_source.html":[2,0,1,9,0,9,1],
 "d3/d7f/onslaught_8qh.html":[2,0,1,3,0,1,11],
 "d3/d7f/onslaught_8qh_source.html":[2,0,1,3,0,1,11],
-"d3/d83/classXonoticHUDHealthArmorDialog.html":[1,0,179],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,179,32],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,179,11],
-"d3/d83/classXonoticHUDHealthArmorDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,179,40]
+"d3/d83/classXonoticHUDHealthArmorDialog.html":[1,0,179]
 };
