@@ -1,5 +1,7 @@
 var NAVTREEINDEX123 =
 {
+"de/d7a/classXonoticHUDScoreDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,190,86],
+"de/d7a/classXonoticHUDScoreDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,190,8],
 "de/d7e/common_2weapons_2__all_8inc.html":[2,0,1,16,1],
 "de/d7e/common_2weapons_2__all_8inc_source.html":[2,0,1,16,1],
 "de/d82/classDataSource.html":[1,0,23],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "de/dc0/crylink_8qc.html#a3736dca67d4dece311571a78b7922f63":[2,0,1,16,0,6,1],
 "de/dc0/crylink_8qc.html#af0871a3d0697ab210463d6ce888fdbac":[2,0,1,16,0,6,2],
 "de/dc0/crylink_8qc_source.html":[2,0,1,16,0,6],
-"de/dc2/multi_8qc.html":[2,0,1,13,3,30],
-"de/dc2/multi_8qc_source.html":[2,0,1,13,3,30],
-"de/dc2/sv__melee__only_8qc.html":[2,0,1,9,0,14,2]
+"de/dc2/multi_8qc.html":[2,0,1,13,3,30]
 };

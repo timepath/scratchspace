@@ -11,6 +11,7 @@ var client_2mutators_2events_8qh =
     [ "EV_GetModelParams", "d8/d0e/client_2mutators_2events_8qh.html#a0df2684a8ff65547eca9cec2701e1eec", null ],
     [ "EV_HUD_Command", "d8/d0e/client_2mutators_2events_8qh.html#a6cb59ab1d2677d7ef5909b496b1e578d", null ],
     [ "EV_HUD_Draw_overlay", "d8/d0e/client_2mutators_2events_8qh.html#aa527a4f40097637a836e9fccc71642b6", null ],
+    [ "EV_HUD_WriteCvars", "d8/d0e/client_2mutators_2events_8qh.html#abffd6b07b4921644650b5a52eff6be09", null ],
     [ "EV_Particles_VortexBeam", "d8/d0e/client_2mutators_2events_8qh.html#a73b29441aa587047a111602661a4cdf6", null ],
     [ "EV_Skeleton_CheckBones", "d8/d0e/client_2mutators_2events_8qh.html#a5e5156dd306c9a01e35a9e4d3c28f43e", null ],
     [ "EV_Skeleton_CheckModel", "d8/d0e/client_2mutators_2events_8qh.html#a05a15144a0c4454d3b267e709971ae65", null ],
@@ -42,5 +43,6 @@ var client_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#af6fe2b39621abade1069ae32c014b9e5", null ],
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#add96154c1ca22bc1b144c471cf89f66d", null ],
     [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#abdcc8574bdcab88b68f782db00edacee", null ],
-    [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a6b28864eb4114e418d7ee3954282f208", null ]
+    [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a6b28864eb4114e418d7ee3954282f208", null ],
+    [ "MUTATOR_HOOKABLE", "d8/d0e/client_2mutators_2events_8qh.html#a5c56e5b92171159a29f9ef25827368a0", null ]
 ];

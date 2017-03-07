@@ -1,5 +1,7 @@
 var NAVTREEINDEX112 =
 {
+"dd/d36/classXonoticGameViewSettingsTab.html#a4869983b8dc750584479ade5447c8413":[1,0,171,27],
+"dd/d36/classXonoticGameViewSettingsTab.html#a4ad8d403de20048384fe85b379309436":[1,0,171,76],
 "dd/d36/classXonoticGameViewSettingsTab.html#a4b449cff51f3165123ebaa87d2169e65":[1,0,171,54],
 "dd/d36/classXonoticGameViewSettingsTab.html#a4c0113eb24a54cdfcc6ced0f5a268ed7":[1,0,171,32],
 "dd/d36/classXonoticGameViewSettingsTab.html#a4d68c7e5f26b8a45b42be9f015bf5016":[1,0,171,38],
@@ -247,7 +249,5 @@ var NAVTREEINDEX112 =
 "dd/d66/server_2campaign_8qh.html#ae8fb1974e50628feeea5c9d5283cf18a":[2,0,6,16,7],
 "dd/d66/server_2campaign_8qh_source.html":[2,0,6,16],
 "dd/d6d/hudskinlist_8qh.html":[2,0,5,4,167],
-"dd/d6d/hudskinlist_8qh.html#a0834771cb62f6a73c56a62c31ddb5f40":[2,0,5,4,167,6],
-"dd/d6d/hudskinlist_8qh.html#a0b3df13308d0a4e7cfd2533b4e6c6903":[2,0,5,4,167,5],
-"dd/d6d/hudskinlist_8qh.html#a12363157393141759d4502328392bbe3":[2,0,5,4,167,4]
+"dd/d6d/hudskinlist_8qh.html#a0834771cb62f6a73c56a62c31ddb5f40":[2,0,5,4,167,6]
 };
