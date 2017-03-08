@@ -13,7 +13,7 @@ var searchData=
   ['navigation_5fbestgoal',['navigation_bestgoal',['../df/dd4/navigation_8qh.html#a86427b9b2e49b63f8b3995cbfd52297c',1,'navigation.qh']]],
   ['navigation_5fbestrating',['navigation_bestrating',['../df/dd4/navigation_8qh.html#aefce16eabab715c71ca6a2bf767ce123',1,'navigation.qh']]],
   ['navigation_5fdynamicgoal',['navigation_dynamicgoal',['../db/d15/api_8qh.html#a58006022b7f6d1b7131ed30b053c6165',1,'navigation_dynamicgoal():&#160;api.qh'],['../df/dd4/navigation_8qh.html#a58006022b7f6d1b7131ed30b053c6165',1,'navigation_dynamicgoal():&#160;navigation.qh']]],
-  ['navigation_5fhasgoals',['navigation_hasgoals',['../db/d15/api_8qh.html#a1fb87f53634bca7605c0ff2d865ec7b0',1,'navigation_hasgoals():&#160;api.qh'],['../df/dd4/navigation_8qh.html#a1fb87f53634bca7605c0ff2d865ec7b0',1,'navigation_hasgoals():&#160;navigation.qh']]],
+  ['navigation_5fhasgoals',['navigation_hasgoals',['../db/d15/api_8qh.html#a1fb87f53634bca7605c0ff2d865ec7b0',1,'api.qh']]],
   ['navigation_5fjetpack_5fgoal',['navigation_jetpack_goal',['../df/dd4/navigation_8qh.html#aa8e41d29b68198e4909aabe0bae81d4a',1,'navigation.qh']]],
   ['navigation_5fjetpack_5fpoint',['navigation_jetpack_point',['../df/dd4/navigation_8qh.html#a615bba1456ffbd7558be8e8585d10311',1,'navigation.qh']]],
   ['navigation_5ftesttracewalk',['navigation_testtracewalk',['../df/dd4/navigation_8qh.html#af06975b950299b57e060d609ddb50b23',1,'navigation.qh']]],
