@@ -22,7 +22,6 @@ var wop_8qc =
     [ "spawnfunc", "dd/dcc/wop_8qc.html#abb2d4112cc8edd7d3592ba5ecf7931f8", null ],
     [ "spawnfunc", "dd/dcc/wop_8qc.html#afe3101cf9c60d4355d940b8e37b1bdad", null ],
     [ "spawnfunc", "dd/dcc/wop_8qc.html#a78eb4fb1abdd7cd7f1d9e56c31ba1537", null ],
-    [ "spawnfunc", "dd/dcc/wop_8qc.html#ac34ef38846a8e21e43c4607dadb69e85", null ],
     [ "spawnfunc", "dd/dcc/wop_8qc.html#ae086c25a3c1674354b3c45b07ece4161", null ],
     [ "spawnfunc", "dd/dcc/wop_8qc.html#a7f1c57d569b5e461a02c048fbc4dce1f", null ],
     [ "spawnfunc", "dd/dcc/wop_8qc.html#a41e61c2de11ac4ff40fb40ec79e48825", null ],
@@ -42,8 +41,7 @@ var wop_8qc =
     [ "spawnfunc", "dd/dcc/wop_8qc.html#a4098a7bd57d257fbe655a6e6b637b595", null ],
     [ "spawnfunc", "dd/dcc/wop_8qc.html#a3c792fc1017f0b7b25086ce2e7b5f8b6", null ],
     [ "spawnfunc", "dd/dcc/wop_8qc.html#ae34082deafa31a9052a67f4033858e99", null ],
-    [ "spawnfunc", "dd/dcc/wop_8qc.html#a917895c77bd542c9ec042061ca75b63c", null ],
     [ "spawnfunc", "dd/dcc/wop_8qc.html#a18e418445b4eba7be5084be9a51df08c", null ],
-    [ "spawnfunc", "dd/dcc/wop_8qc.html#aa12fc5d403248c9ae46be88e5231da7f", null ],
-    [ "spawnfunc", "dd/dcc/wop_8qc.html#aa0f712a1c8f97a859c58e902f5f3d730", null ]
+    [ "spawnfunc", "dd/dcc/wop_8qc.html#aa0f712a1c8f97a859c58e902f5f3d730", null ],
+    [ "spawnfunc", "dd/dcc/wop_8qc.html#abbf181985d6fcc3089418609cd4c85f0", null ]
 ];
