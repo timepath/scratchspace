@@ -1,5 +1,6 @@
 var NAVTREEINDEX103 =
 {
+"db/df7/colorpicker__string_8qc.html#a674519a2325794456afd27a6c198d271":[2,0,5,4,22,2],
 "db/df7/colorpicker__string_8qc.html#ac089079e4c7d228aad0135be8da22610":[2,0,5,4,22,1],
 "db/df7/colorpicker__string_8qc.html#ac64e1f0e091335c86e6f64adb61e48f3":[2,0,5,4,22,7],
 "db/df7/colorpicker__string_8qc.html#adddeddac6ab0dc7ec36befe111ba9602":[2,0,5,4,22,0],
@@ -248,6 +249,5 @@ var NAVTREEINDEX103 =
 "dc/d06/classDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,26,81],
 "dc/d06/classDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,26,51],
 "dc/d06/classDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,26,60],
-"dc/d06/classDialog.html#ad29a94752d7b43e6e35ea49fd778ee77":[1,0,26,79],
-"dc/d06/classDialog.html#ad49fff2b656315b914f588311cf1f289":[1,0,26,84]
+"dc/d06/classDialog.html#ad29a94752d7b43e6e35ea49fd778ee77":[1,0,26,79]
 };
