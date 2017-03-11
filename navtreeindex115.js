@@ -1,13 +1,5 @@
 var NAVTREEINDEX115 =
 {
-"dd/d9a/classXonoticSandboxToolsDialog.html#abc010fe38766fa00ef4860e680f92d18":[1,0,224,90],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,224,79],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,224,44],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ac5657d1a88024e70ea47e22465fb6057":[1,0,224,59],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,224,0],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,224,16],
-"dd/d9a/classXonoticSandboxToolsDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,224,33],
-"dd/d9a/classXonoticSandboxToolsDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,224,38],
 "dd/d9a/classXonoticSandboxToolsDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,224,58],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,224,85],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,224,51],
@@ -249,5 +241,13 @@ var NAVTREEINDEX115 =
 "dd/dac/dialog__hudsetup__exit_8qc_source.html":[2,0,5,4,82],
 "dd/db0/sv__rocketflying_8qc.html":[2,0,1,9,0,24,2],
 "dd/db0/sv__rocketflying_8qc.html#a13915ad0ee78b445f550ece48ae3e808":[2,0,1,9,0,24,2,1],
-"dd/db0/sv__rocketflying_8qc.html#a14ac805a3ee973aa1b7aefab1c56dd85":[2,0,1,9,0,24,2,2]
+"dd/db0/sv__rocketflying_8qc.html#a14ac805a3ee973aa1b7aefab1c56dd85":[2,0,1,9,0,24,2,2],
+"dd/db0/sv__rocketflying_8qc.html#a45229b427d8c40beaf8a6848bd386a20":[2,0,1,9,0,24,2,0],
+"dd/db0/sv__rocketflying_8qc.html#ac5fa1a081425d6381a512dded791c845":[2,0,1,9,0,24,2,3],
+"dd/db0/sv__rocketflying_8qc_source.html":[2,0,1,9,0,24,2],
+"dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh.html":[2,0,1,9,0,15,1],
+"dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh_source.html":[2,0,1,9,0,15,1],
+"dd/db3/classXonoticQuitDialog.html":[1,0,218],
+"dd/db3/classXonoticQuitDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,218,32],
+"dd/db3/classXonoticQuitDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,218,11]
 };

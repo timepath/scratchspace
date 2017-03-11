@@ -1,17 +1,5 @@
 var NAVTREEINDEX122 =
 {
-"de/d68/accumulate_8qh.html#a402f916520763cc54bd64476d42b43ba":[2,0,4,6,4],
-"de/d68/accumulate_8qh.html#a63caa863ede3c6510744c01983e44648":[2,0,4,6,2],
-"de/d68/accumulate_8qh.html#ab58a9266e7719dbfd827c95412eb67be":[2,0,4,6,1],
-"de/d68/accumulate_8qh.html#ad2050ee846dff1123c50d269b32ed0d5":[2,0,4,6,0],
-"de/d68/accumulate_8qh.html#ade70a07ed0ace4db1fdea0a7cf3bb2d0":[2,0,4,6,5],
-"de/d68/accumulate_8qh_source.html":[2,0,4,6],
-"de/d69/delay_8qc.html":[2,0,1,13,3,4],
-"de/d69/delay_8qc_source.html":[2,0,1,13,3,4],
-"de/d6a/common_2turrets_2__all_8qh.html":[2,0,1,14,2],
-"de/d6a/common_2turrets_2__all_8qh_source.html":[2,0,1,14,2],
-"de/d6d/classLinkedListNode.html":[1,0,65],
-"de/d6d/classLinkedListNode.html#a04b4b63e53bc3441464c7d36e44f070c":[1,0,65,1],
 "de/d6d/classLinkedListNode.html#a25e225297eb66d8fa5d8368b9dd31d9a":[1,0,65,0],
 "de/d6d/classLinkedListNode.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,65,3],
 "de/d6d/classLinkedListNode.html#a9c15551c50a9dc894925e899bbe95bfe":[1,0,65,2],
@@ -249,5 +237,17 @@ var NAVTREEINDEX122 =
 "de/d7a/classXonoticHUDScoreDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,190,37],
 "de/d7a/classXonoticHUDScoreDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,190,41],
 "de/d7a/classXonoticHUDScoreDialog.html#afc6684260830101c451372e3a2e0b7f5":[1,0,190,60],
-"de/d7a/classXonoticHUDScoreDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,190,86]
+"de/d7a/classXonoticHUDScoreDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,190,86],
+"de/d7a/classXonoticHUDScoreDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,190,8],
+"de/d7e/common_2weapons_2__all_8inc.html":[2,0,1,16,1],
+"de/d7e/common_2weapons_2__all_8inc_source.html":[2,0,1,16,1],
+"de/d82/classDataSource.html":[1,0,23],
+"de/d82/classDataSource.html#a1bfb6b238d890bf4155028dc97cd230a":[1,0,23,5],
+"de/d82/classDataSource.html#a1ca30518a2e736ed25fb28222344771d":[1,0,23,3],
+"de/d82/classDataSource.html#a6113433aefe29a4e9977321048a26e18":[1,0,23,6],
+"de/d82/classDataSource.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,23,0],
+"de/d82/classDataSource.html#a9b20cefca0e6f285f67d0222f3a45465":[1,0,23,4],
+"de/d82/classDataSource.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,23,2],
+"de/d82/classDataSource.html#aaf40f07cb25d36179e3c05c500e982f0":[1,0,23,1],
+"de/d82/classDataSource.html#ac27a0b7fbb81f2a42cd209e5807edd72":[1,0,23,7]
 };

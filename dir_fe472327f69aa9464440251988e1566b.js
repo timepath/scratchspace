@@ -6,9 +6,9 @@ var dir_fe472327f69aa9464440251988e1566b =
     [ "all.qc", "d3/d34/monsters_2all_8qc.html", "d3/d34/monsters_2all_8qc" ],
     [ "all.qh", "df/d52/monsters_2all_8qh.html", "df/d52/monsters_2all_8qh" ],
     [ "monster.qh", "d4/ddc/monster_8qh.html", "d4/ddc/monster_8qh" ],
-    [ "spawner.qc", "de/d57/spawner_8qc.html", "de/d57/spawner_8qc" ],
     [ "sv_monsters.qc", "da/d4e/sv__monsters_8qc.html", "da/d4e/sv__monsters_8qc" ],
     [ "sv_monsters.qh", "d8/dc1/sv__monsters_8qh.html", "d8/dc1/sv__monsters_8qh" ],
     [ "sv_spawn.qc", "d8/d1c/sv__spawn_8qc.html", "d8/d1c/sv__spawn_8qc" ],
-    [ "sv_spawn.qh", "d3/d3e/sv__spawn_8qh.html", "d3/d3e/sv__spawn_8qh" ]
+    [ "sv_spawn.qh", "d3/d3e/sv__spawn_8qh.html", "d3/d3e/sv__spawn_8qh" ],
+    [ "sv_spawner.qc", "de/dbb/sv__spawner_8qc.html", "de/dbb/sv__spawner_8qc" ]
 ];

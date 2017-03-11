@@ -1,13 +1,5 @@
 var NAVTREEINDEX83 =
 {
-"d9/d7a/dialog__hudpanel__powerups_8qh.html":[2,0,5,4,65],
-"d9/d7a/dialog__hudpanel__powerups_8qh_source.html":[2,0,5,4,65],
-"d9/d7e/include_8qh.html":[2,0,1,13,7],
-"d9/d7e/include_8qh_source.html":[2,0,1,13,7],
-"d9/d7f/gibs_8qc.html":[2,0,1,2,0,9],
-"d9/d7f/gibs_8qc_source.html":[2,0,1,2,0,9],
-"d9/d85/classXonoticHUDEngineInfoDialog.html":[1,0,177],
-"d9/d85/classXonoticHUDEngineInfoDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,177,32],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,177,11],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a03348e0513a950651c6d1839568249fe":[1,0,177,78],
 "d9/d85/classXonoticHUDEngineInfoDialog.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,177,40],
@@ -249,5 +241,13 @@ var NAVTREEINDEX83 =
 "d9/db3/classXonoticGameModelSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,168,3],
 "d9/db3/classXonoticGameModelSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,168,78],
 "d9/db3/classXonoticGameModelSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,168,85],
-"d9/db3/classXonoticGameModelSettingsTab.html#a0ba3980148fb6fa74ee499caa1da49b0":[1,0,168,70]
+"d9/db3/classXonoticGameModelSettingsTab.html#a0ba3980148fb6fa74ee499caa1da49b0":[1,0,168,70],
+"d9/db3/classXonoticGameModelSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,168,82],
+"d9/db3/classXonoticGameModelSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,168,52],
+"d9/db3/classXonoticGameModelSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,168,30],
+"d9/db3/classXonoticGameModelSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,168,72],
+"d9/db3/classXonoticGameModelSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,168,12],
+"d9/db3/classXonoticGameModelSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,168,73],
+"d9/db3/classXonoticGameModelSettingsTab.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,168,4],
+"d9/db3/classXonoticGameModelSettingsTab.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,168,47]
 };
