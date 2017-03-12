@@ -231,10 +231,12 @@ var searchData=
   ['kh_5fworldkeylist',['kh_worldkeylist',['../db/d15/api_8qh.html#a045a92c5195f8abf1d884beab42bc3f9',1,'api.qh']]],
   ['kh_5fworldkeynext',['kh_worldkeynext',['../db/d15/api_8qh.html#abb611131b031308c318e295ec74a375f',1,'kh_worldkeynext():&#160;api.qh'],['../de/d40/gamemode__keyhunt_8qc.html#abb611131b031308c318e295ec74a375f',1,'kh_worldkeynext():&#160;gamemode_keyhunt.qc']]],
   ['kill_5fspree_5flist',['KILL_SPREE_LIST',['../dc/d8f/notifications_2all_8qh.html#a07d1d3059e023b686dd8b0d6efff3168',1,'all.qh']]],
+  ['kill_5ftime',['kill_time',['../d5/d26/server_2defs_8qh.html#a7ebf17d5b07bd64fc002c1418e75264d',1,'defs.qh']]],
   ['killcount',['killcount',['../d5/d26/server_2defs_8qh.html#a50ba36a04eb6221cae468ec44dbfc003',1,'defs.qh']]],
   ['killed_5fmonsters',['killed_monsters',['../d6/d11/progsdefs_8qc.html#a36860577d5e193383858a6256d509ee1',1,'progsdefs.qc']]],
   ['killindicator',['killindicator',['../d5/d26/server_2defs_8qh.html#a59f3bedf42216e820a4817519548bd90',1,'defs.qh']]],
   ['killindicator_5fteamchange',['killindicator_teamchange',['../d5/d26/server_2defs_8qh.html#a8a0853bb3efdbe194336998d3d095d46',1,'defs.qh']]],
   ['killindicator_5fthink',['KillIndicator_Think',['../df/dd7/server_2client_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'KillIndicator_Think(entity this):&#160;client.qc'],['../d5/d69/gamemode__cts_8qc.html#a07ed282ad92406a801203975b2c36ad4',1,'KillIndicator_Think(entity this):&#160;client.qc']]],
+  ['killsound',['killsound',['../d5/d26/server_2defs_8qh.html#ae6bd352ab3129bbecd9993d9f61c30d6',1,'defs.qh']]],
   ['killtarget',['killtarget',['../db/d2f/subs_8qh.html#a83afc76376dea8d690e2221698636c70',1,'subs.qh']]]
 ];

@@ -1,5 +1,8 @@
 var NAVTREEINDEX118 =
 {
+"de/d03/effectinfo__vehicles_8inc.html#a825f9d431c10a4167312612db025feb8":[2,0,1,2,19,22],
+"de/d03/effectinfo__vehicles_8inc.html#a85c16acf0e7c1349abc2bb45fb2f6b9e":[2,0,1,2,19,20],
+"de/d03/effectinfo__vehicles_8inc.html#a8a0bbf01005d983ee6a7d41871e43090":[2,0,1,2,19,19],
 "de/d03/effectinfo__vehicles_8inc.html#a90ad128c3e76dec7bb685eec376d0361":[2,0,1,2,19,11],
 "de/d03/effectinfo__vehicles_8inc.html#a933d6a505156b101e604416c70dd0cdc":[2,0,1,2,19,6],
 "de/d03/effectinfo__vehicles_8inc.html#a9646945fd98484fcb36021f6833edfba":[2,0,1,2,19,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX118 =
 "de/d3d/cl__minigames_8qh_source.html":[2,0,1,6,4],
 "de/d40/gamemode__keyhunt_8qc.html":[2,0,6,3,0,20],
 "de/d40/gamemode__keyhunt_8qc.html#a01168130e438e9531191f89bb420d650":[2,0,6,3,0,20,9],
-"de/d40/gamemode__keyhunt_8qc.html#a0411010ca825838d10464f8da5825df9":[2,0,6,3,0,20,84],
-"de/d40/gamemode__keyhunt_8qc.html#a04faf2679fdcfe0ec94f5efedf316eef":[2,0,6,3,0,20,33],
-"de/d40/gamemode__keyhunt_8qc.html#a05fc29853c73faa635782df0536b3812":[2,0,6,3,0,20,4],
-"de/d40/gamemode__keyhunt_8qc.html#a0762849f04090d517155ac123bbcd625":[2,0,6,3,0,20,37]
+"de/d40/gamemode__keyhunt_8qc.html#a0411010ca825838d10464f8da5825df9":[2,0,6,3,0,20,84]
 };
