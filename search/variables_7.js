@@ -37,6 +37,7 @@ var searchData=
   ['g_5fplayers',['g_players',['../d8/de2/server_2client_8qh.html#aa8f4a01a47bb4c0a14e796683451d2a8',1,'client.qh']]],
   ['g_5fprojectiles',['g_projectiles',['../d5/d26/server_2defs_8qh.html#a60e662b2259d5b4ff290afd4566a17dd',1,'defs.qh']]],
   ['g_5frace_5fqualifying',['g_race_qualifying',['../d4/d1b/race_8qh.html#a7e260fe5773769b74b068a6483ddb83d',1,'race.qh']]],
+  ['g_5frace_5ftargets',['g_race_targets',['../d6/d3b/race_8qc.html#abdf4da6eca66fb17b297c46c1609002d',1,'race.qc']]],
   ['g_5fracecheckpoints',['g_racecheckpoints',['../d4/d1b/race_8qh.html#a9d7e24848d765f91e40ef5bce965520a',1,'race.qh']]],
   ['g_5fradaricons',['g_radaricons',['../d0/d2a/client_2main_8qh.html#a8fc29337858d2211c4eb14675f08994f',1,'main.qh']]],
   ['g_5fradarlinks',['g_radarlinks',['../d0/d2a/client_2main_8qh.html#a8f9b7f72557a124c4bdacb09cadec22b',1,'main.qh']]],

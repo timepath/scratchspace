@@ -1,5 +1,7 @@
 var NAVTREEINDEX68 =
 {
+"d7/db4/client_2autocvars_8qh.html#ab4147952f83ee7f715fbb7798d9c1656":[2,0,0,10,435],
+"d7/db4/client_2autocvars_8qh.html#ab43f0fe3ed0fdbfa69e0de75cb2314db":[2,0,0,10,397],
 "d7/db4/client_2autocvars_8qh.html#ab46e6e0b0ffc797691a4f18a9c5d5445":[2,0,0,10,370],
 "d7/db4/client_2autocvars_8qh.html#ab49513b2e6448cff7679d5225f6ef204":[2,0,0,10,209],
 "d7/db4/client_2autocvars_8qh.html#ab5065cf02ff2261e4ab325c84d156238":[2,0,0,10,194],
@@ -247,7 +249,5 @@ var NAVTREEINDEX68 =
 "d7/ddc/gamemode__race_8qh.html#a5edf7aacc2c70ddbf9189864268228e5":[2,0,6,3,0,25,2],
 "d7/ddc/gamemode__race_8qh.html#a9994c316dce5b74ff9fc150f221cd08b":[2,0,6,3,0,25,1],
 "d7/ddc/gamemode__race_8qh_source.html":[2,0,6,3,0,25],
-"d7/ddc/hurt_8qh.html":[2,0,1,13,3,17],
-"d7/ddc/hurt_8qh_source.html":[2,0,1,13,3,17],
-"d7/dde/classLinkedList.html":[1,0,64]
+"d7/ddc/hurt_8qh.html":[2,0,1,13,3,17]
 };

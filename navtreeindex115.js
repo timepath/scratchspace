@@ -1,5 +1,7 @@
 var NAVTREEINDEX115 =
 {
+"dd/d9a/classXonoticSandboxToolsDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,224,33],
+"dd/d9a/classXonoticSandboxToolsDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,224,38],
 "dd/d9a/classXonoticSandboxToolsDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,224,58],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,224,85],
 "dd/d9a/classXonoticSandboxToolsDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,224,51],
@@ -247,7 +249,5 @@ var NAVTREEINDEX115 =
 "dd/db0/sv__rocketflying_8qc_source.html":[2,0,1,9,0,24,2],
 "dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh.html":[2,0,1,9,0,15,1],
 "dd/db2/common_2mutators_2mutator_2midair_2__mod_8qh_source.html":[2,0,1,9,0,15,1],
-"dd/db3/classXonoticQuitDialog.html":[1,0,218],
-"dd/db3/classXonoticQuitDialog.html#a01627abafc724fbbbb330e46f8331911":[1,0,218,32],
-"dd/db3/classXonoticQuitDialog.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,218,11]
+"dd/db3/classXonoticQuitDialog.html":[1,0,218]
 };
