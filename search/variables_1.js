@@ -1010,6 +1010,7 @@ var searchData=
   ['autocvar_5fg_5foverkill_5ffilter_5farmormedium',['autocvar_g_overkill_filter_armormedium',['../d8/d0c/sv__overkill_8qc.html#aa2724857bc1c527fa9f4707a8be63f28',1,'sv_overkill.qc']]],
   ['autocvar_5fg_5foverkill_5ffilter_5farmormega',['autocvar_g_overkill_filter_armormega',['../d8/d0c/sv__overkill_8qc.html#a2a3d29b3c539a2306243667a3f6d4a42',1,'sv_overkill.qc']]],
   ['autocvar_5fg_5foverkill_5ffilter_5fhealthmega',['autocvar_g_overkill_filter_healthmega',['../d8/d0c/sv__overkill_8qc.html#a783903b4a82333788defe89c0629b955',1,'sv_overkill.qc']]],
+  ['autocvar_5fg_5foverkill_5fitemwaypoints',['autocvar_g_overkill_itemwaypoints',['../d8/d0c/sv__overkill_8qc.html#a32804d520c2a33728a97813dceef84e5',1,'sv_overkill.qc']]],
   ['autocvar_5fg_5foverkill_5fpowerups_5freplace',['autocvar_g_overkill_powerups_replace',['../d8/d0c/sv__overkill_8qc.html#a4b808bb33716252fc07eb4d5a6b49431',1,'sv_overkill.qc']]],
   ['autocvar_5fg_5fphysical_5fitems',['autocvar_g_physical_items',['../d4/d85/sv__physical__items_8qc.html#a0a22c548a3475e9a379dc8a3137c4cf1',1,'sv_physical_items.qc']]],
   ['autocvar_5fg_5fphysical_5fitems_5fdamageforcescale',['autocvar_g_physical_items_damageforcescale',['../d4/d85/sv__physical__items_8qc.html#a4c102a73d6b2d482288e8f6f7a45c1bb',1,'sv_physical_items.qc']]],

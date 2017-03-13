@@ -170,9 +170,9 @@ $(document).ready(function(){initNavTree('de/d75/t__items_8qh_source.html','../.
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;<span class="keyword">const</span> <span class="keywordtype">float</span> ITEM_RESPAWN_TICKS = 10;</div>
 <div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#define ITEM_RESPAWNTIME(i)         ((i).respawntime + (crandom() * (i).respawntimejitter))</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#define ITEM_RESPAWNTIME(i)         ((i).respawntime + crandom() * (i).respawntimejitter)</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor"></span>    <span class="comment">// range: respawntime - respawntimejitter .. respawntime + respawntimejitter</span></div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#define ITEM_RESPAWNTIME_INITIAL(i) (ITEM_RESPAWN_TICKS + (random() * ((i).respawntime + (i).respawntimejitter - ITEM_RESPAWN_TICKS)))</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#define ITEM_RESPAWNTIME_INITIAL(i) (ITEM_RESPAWN_TICKS + random() * ((i).respawntime + (i).respawntimejitter - ITEM_RESPAWN_TICKS))</span></div>
 <div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;<span class="preprocessor"></span>    <span class="comment">// range: 10 .. respawntime + respawntimejitter</span></div>
 <div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
 <div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;.float <a class="code" href="../../db/deb/roles_8qc.html#a4c36d9fcd24202f73d536c95f9bc634e">max_armorvalue</a>;</div>
@@ -279,7 +279,7 @@ $(document).ready(function(){initNavTree('de/d75/t__items_8qh_source.html','../.
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../de/d75/t__items_8qh.html">t_items.qh</a></li>
-    <li class="footer">Generated on Mon Mar 13 2017 01:25:37 for Xonotic by
+    <li class="footer">Generated on Mon Mar 13 2017 21:32:44 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -18,6 +18,7 @@ var searchData=
   ['offset_5fcursor',['OFFSET_CURSOR',['../d0/d2a/client_2main_8qh.html#abe02bc8f982ce063f9878f9beae11f1b',1,'main.qh']]],
   ['offvalue',['offValue',['../db/d38/classXonoticSliderCheckBox.html#a4e5f3b4dda55b50588c4fb421585cf94',1,'XonoticSliderCheckBox']]],
   ['ok_5fdropitem',['ok_DropItem',['../d8/d0c/sv__overkill_8qc.html#af9ffca40bf7744bacacbc7b729c20241',1,'sv_overkill.qc']]],
+  ['ok_5fhandleitemwaypoints',['ok_HandleItemWaypoints',['../d8/d0c/sv__overkill_8qc.html#aceea9a161905a4152ef2093bd4c1c2d2',1,'sv_overkill.qc']]],
   ['ok_5finitialize',['ok_Initialize',['../d8/d0c/sv__overkill_8qc.html#a03452068b9a7bb16d129885c1b7a030e',1,'sv_overkill.qc']]],
   ['ok_5fitem',['ok_item',['../d8/d0c/sv__overkill_8qc.html#a45c2850f79fb413dfe83bd689f45115a',1,'sv_overkill.qc']]],
   ['ok_5flastwep',['ok_lastwep',['../d8/d0c/sv__overkill_8qc.html#a1f5b682ab4a4eb9896ca64778b726a80',1,'sv_overkill.qc']]],

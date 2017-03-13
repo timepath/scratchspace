@@ -1,5 +1,7 @@
 var NAVTREEINDEX63 =
 {
+"d7/d73/path__waypoint_8qc.html#ad7d448dbcb202de2cc23c9ae7e7be820":[2,0,6,4,12,3],
+"d7/d73/path__waypoint_8qc.html#ae0260159ff478d241312ac361f966e5f":[2,0,6,4,12,9],
 "d7/d73/path__waypoint_8qc_source.html":[2,0,6,4,12],
 "d7/d74/menu_2matrix_8qc.html":[2,0,5,15],
 "d7/d74/menu_2matrix_8qc.html#af5102d8297bde7ad33c004e9f81e6e3b":[2,0,5,15,0],
@@ -247,7 +249,5 @@ var NAVTREEINDEX63 =
 "d7/da4/classXonoticDemoList.html#ac43fc57c675f684f20b2ef93556109d2":[1,0,159,68],
 "d7/da4/classXonoticDemoList.html#ac5687437ed0bd24c3fb6221e93f95f42":[1,0,159,76],
 "d7/da4/classXonoticDemoList.html#ac6094922668d013ada3893854eec6b0f":[1,0,159,25],
-"d7/da4/classXonoticDemoList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,159,64],
-"d7/da4/classXonoticDemoList.html#acb2e365bf273a3ad53ffbebcea9f583b":[1,0,159,69],
-"d7/da4/classXonoticDemoList.html#acf6492d58bf101c44f3a7f36f95cb1b0":[1,0,159,21]
+"d7/da4/classXonoticDemoList.html#ac7bb2899505cda435bebb004940f97a4":[1,0,159,64]
 };

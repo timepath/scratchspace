@@ -45,6 +45,7 @@ var server_2mutators_2events_8qh =
     [ "EV_HelpMePing", "d6/ddd/server_2mutators_2events_8qh.html#afe20c125db97db321cc1f17bef523b20", null ],
     [ "EV_HideTeamNagger", "d6/ddd/server_2mutators_2events_8qh.html#a99f4606a965c024c8bbaaeb037d2bcbc", null ],
     [ "EV_Item_RespawnCountdown", "d6/ddd/server_2mutators_2events_8qh.html#adc52dae2b5152d14d8eb64a428daf66c", null ],
+    [ "EV_Item_ScheduleRespawn", "d6/ddd/server_2mutators_2events_8qh.html#a82ff6bfe2a2678f997c01acacff44bc2", null ],
     [ "EV_Item_Spawn", "d6/ddd/server_2mutators_2events_8qh.html#a2278a271dc682cad825a17e3542090d2", null ],
     [ "EV_ItemModel", "d6/ddd/server_2mutators_2events_8qh.html#a8ff5cb98cb85c48739131fc3f758d3cc", null ],
     [ "EV_ItemSound", "d6/ddd/server_2mutators_2events_8qh.html#a97911665e7ee74894294ebfa81ed4aae", null ],
@@ -237,6 +238,7 @@ var server_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a8b187cf36085c0900515fe6b766a566e", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a21032877d5bbc226b217b595858decd5", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#af09e782441aaa34d4a8a92a425d68508", null ],
+    [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a5f9b5667d7f2f727b9bbe231a117ea7c", null ],
     [ "get_cvars_f", "d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2", null ],
     [ "get_cvars_s", "d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f", null ],
     [ "monster_loot", "d6/ddd/server_2mutators_2events_8qh.html#a3b05b0b07f8bfac621be16b7588af844", null ]
