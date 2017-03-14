@@ -65,6 +65,7 @@ var server_2mutators_2events_8qh =
     [ "EV_PlayerDamage_SplitHealthArmor", "d6/ddd/server_2mutators_2events_8qh.html#ae2a95050d7793afae56056b4b97a23aa", null ],
     [ "EV_PlayerDamaged", "d6/ddd/server_2mutators_2events_8qh.html#ada0890cbaa7e3d082c4e3e300d42bde3", null ],
     [ "EV_PlayerDies", "d6/ddd/server_2mutators_2events_8qh.html#a41503423dd2a1ef8ea4eb70e616c536c", null ],
+    [ "EV_PlayerPhysics_UpdateStats", "d6/ddd/server_2mutators_2events_8qh.html#af557f5991dd0faf88c21b4f046959e56", null ],
     [ "EV_PlayerPowerups", "d6/ddd/server_2mutators_2events_8qh.html#a482123779c072195e5c0884525c98455", null ],
     [ "EV_PlayerPreThink", "d6/ddd/server_2mutators_2events_8qh.html#a42c0a68b117b0516f3f15dfe2904f9bf", null ],
     [ "EV_PlayerRegen", "d6/ddd/server_2mutators_2events_8qh.html#a3e0687b69fd05a4e44a14e17f718fe9f", null ],
@@ -239,6 +240,7 @@ var server_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a21032877d5bbc226b217b595858decd5", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#af09e782441aaa34d4a8a92a425d68508", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a5f9b5667d7f2f727b9bbe231a117ea7c", null ],
+    [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a06ab8cdbbf3d551b0c430022576a0091", null ],
     [ "get_cvars_f", "d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2", null ],
     [ "get_cvars_s", "d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f", null ],
     [ "monster_loot", "d6/ddd/server_2mutators_2events_8qh.html#a3b05b0b07f8bfac621be16b7588af844", null ]

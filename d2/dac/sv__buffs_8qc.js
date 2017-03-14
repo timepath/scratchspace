@@ -29,8 +29,8 @@ var sv__buffs_8qc =
     [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a09dc2f94b9bcf8cf598659c981e22e32", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a51cc0da527fca3055d279eff30a78a25", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a6e92b1bf44f3b75a475b5b603cfdadad", null ],
+    [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a1c3d7578ee206a6ff2b17f0ae11680a7", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a123712c5b50c241c9f91c0241e0d1287", null ],
-    [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a33fb03db7408259e4fe833aed66214c6", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a8c9b521904c227068c9caf89201bb300", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#aa78312bd62159314cb873fa3f929c644", null ],
     [ "MUTATOR_HOOKFUNCTION", "d2/dac/sv__buffs_8qc.html#a62d783735deb2f75391f2af3912cfa2b", null ],
@@ -52,8 +52,5 @@ var sv__buffs_8qc =
     [ "REPLICATE", "d2/dac/sv__buffs_8qc.html#aa29572fe821be9b2b28140848bff4f2a", null ],
     [ "buff_flight_crouchheld", "d2/dac/sv__buffs_8qc.html#a88a6a9d42ed6ff5a7094ef51e75bd806", null ],
     [ "buff_seencount", "d2/dac/sv__buffs_8qc.html#a671e9a86cffc00c52255ca6529b70a6f", null ],
-    [ "buff_time", "d2/dac/sv__buffs_8qc.html#a8d983d10c7bce9bf00b799cf5d464bc9", null ],
-    [ "stat_sv_airspeedlimit_nonqw", "d2/dac/sv__buffs_8qc.html#a995e86d280021c8000db55230fdd8d3e", null ],
-    [ "stat_sv_jumpvelocity", "d2/dac/sv__buffs_8qc.html#a7f037b69b3d417095a2856a010a12815", null ],
-    [ "stat_sv_maxspeed", "d2/dac/sv__buffs_8qc.html#a65e7d1969880edb647187cc3b4e726d3", null ]
+    [ "buff_time", "d2/dac/sv__buffs_8qc.html#a8d983d10c7bce9bf00b799cf5d464bc9", null ]
 ];

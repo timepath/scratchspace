@@ -1,6 +1,5 @@
 var NAVTREEINDEX102 =
 {
-"db/dcc/g__world_8qc.html#aeaaf91b0741ea44184722f5f0ae2dfc1":[2,0,6,33,75],
 "db/dcc/g__world_8qc.html#aefb6d1ffefd430b5824382dcee3c6bfe":[2,0,6,33,60],
 "db/dcc/g__world_8qc.html#af7053fbbaf3bf28ba21d75db78ce40c1":[2,0,6,33,63],
 "db/dcc/g__world_8qc.html#af8f462400b6e203393394085ab5bc7d1":[2,0,6,33,42],
@@ -249,5 +248,6 @@ var NAVTREEINDEX102 =
 "db/df4/phaser__weapon_8qh.html":[2,0,1,14,0,31],
 "db/df4/phaser__weapon_8qh.html#af020ecb932e64d90bbc980013cb9d3a2":[2,0,1,14,0,31,1],
 "db/df4/phaser__weapon_8qh_source.html":[2,0,1,14,0,31],
-"db/df7/colorpicker__string_8qc.html":[2,0,5,4,22]
+"db/df7/colorpicker__string_8qc.html":[2,0,5,4,22],
+"db/df7/colorpicker__string_8qc.html#a1e66595b997db54e550aee7c540859e1":[2,0,5,4,22,5]
 };
