@@ -86,5 +86,6 @@ var menu_2xonotic_2util_8qc =
     [ "parent", "df/d9b/menu_2xonotic_2util_8qc.html#a51d0693fdc1dd0c84341d4220a0b33ca", null ],
     [ "saveCvars_Callback_ent", "df/d9b/menu_2xonotic_2util_8qc.html#a1b968ba6a855fc7d32ebae37f69bc2ad", null ],
     [ "sendCvars", "df/d9b/menu_2xonotic_2util_8qc.html#a6f49f8031d110b45d49410895d3bbfb7", null ],
+    [ "show_propermenu", "df/d9b/menu_2xonotic_2util_8qc.html#a7724bfdbdf646912f8bbf8c95f545f93", null ],
     [ "winnerDialog", "df/d9b/menu_2xonotic_2util_8qc.html#a3a61ea33091b43730f8b686e78ecde5e", null ]
 ];
