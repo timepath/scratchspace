@@ -41,6 +41,7 @@ var server_2mutators_2events_8qh =
     [ "EV_GetRecords", "d6/ddd/server_2mutators_2events_8qh.html#a0523c1d6541bb2302acb5ee91beeae12", null ],
     [ "EV_GiveFragsForKill", "d6/ddd/server_2mutators_2events_8qh.html#a5e28f3d6debc6c4c382880dad8148788", null ],
     [ "EV_GrappleHookThink", "d6/ddd/server_2mutators_2events_8qh.html#a81fd9b86698cd59c3265ec9888804e0b", null ],
+    [ "EV_HavocBot_Aim", "d6/ddd/server_2mutators_2events_8qh.html#a50af8688b94f7351c9831c80170c1cf7", null ],
     [ "EV_HavocBot_ChooseRole", "d6/ddd/server_2mutators_2events_8qh.html#a2e5ca29424a1ddc89234552dadca2975", null ],
     [ "EV_HelpMePing", "d6/ddd/server_2mutators_2events_8qh.html#afe20c125db97db321cc1f17bef523b20", null ],
     [ "EV_HideTeamNagger", "d6/ddd/server_2mutators_2events_8qh.html#a99f4606a965c024c8bbaaeb037d2bcbc", null ],
@@ -241,6 +242,7 @@ var server_2mutators_2events_8qh =
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#af09e782441aaa34d4a8a92a425d68508", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a5f9b5667d7f2f727b9bbe231a117ea7c", null ],
     [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a06ab8cdbbf3d551b0c430022576a0091", null ],
+    [ "MUTATOR_HOOKABLE", "d6/ddd/server_2mutators_2events_8qh.html#a71bbf8e969ec569ac7aaf7e15e60654a", null ],
     [ "get_cvars_f", "d6/ddd/server_2mutators_2events_8qh.html#a2da559e70e6e6c7251e3121fc7550aa2", null ],
     [ "get_cvars_s", "d6/ddd/server_2mutators_2events_8qh.html#ae3b8b03a5f420f0d22bd451c4292b99f", null ],
     [ "monster_loot", "d6/ddd/server_2mutators_2events_8qh.html#a3b05b0b07f8bfac621be16b7588af844", null ]
