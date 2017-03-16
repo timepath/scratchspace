@@ -139,5 +139,6 @@ var api_8qh =
     [ "wp31mincost", "db/d15/api_8qh.html#aa9934a14c64f838c41354a8395354542", null ],
     [ "wpconsidered", "db/d15/api_8qh.html#ad12de12cc79497b6a505fe7e2c13523c", null ],
     [ "wpcost", "db/d15/api_8qh.html#aa1363c8d97096deb6665edfb0b3cddb6", null ],
-    [ "wpflags", "db/d15/api_8qh.html#af83a1360fecd0b8681055cd4ffb7a379", null ]
+    [ "wpflags", "db/d15/api_8qh.html#af83a1360fecd0b8681055cd4ffb7a379", null ],
+    [ "wphardwired", "db/d15/api_8qh.html#aea09f28dfbeae317d58a947fc51ee8ad", null ]
 ];

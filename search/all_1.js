@@ -1426,6 +1426,8 @@ var searchData=
   ['autocvar_5fg_5fvampirehook_5fteamheal',['autocvar_g_vampirehook_teamheal',['../d1/d24/sv__vampirehook_8qc.html#a8b1bad77102afcc51e7fab8414eda9a1',1,'sv_vampirehook.qc']]],
   ['autocvar_5fg_5fwaypointeditor',['autocvar_g_waypointeditor',['../d7/da7/server_2autocvars_8qh.html#ab7c9b0a0e2167a533222cb4da7518def',1,'autocvars.qh']]],
   ['autocvar_5fg_5fwaypointeditor_5fauto',['autocvar_g_waypointeditor_auto',['../d6/d74/cvars_8qh.html#a86f217891f6f79f282dfb6407961e756',1,'cvars.qh']]],
+  ['autocvar_5fg_5fwaypointeditor_5fsymmetrical',['autocvar_g_waypointeditor_symmetrical',['../d7/da7/server_2autocvars_8qh.html#aad952c6dc84c3b3079fadcaf229cba2d',1,'autocvars.qh']]],
+  ['autocvar_5fg_5fwaypointeditor_5fsymmetrical_5fcenter',['autocvar_g_waypointeditor_symmetrical_center',['../d7/da7/server_2autocvars_8qh.html#a0a642a20b5563d4ddfa771790b8aab11',1,'autocvars.qh']]],
   ['autocvar_5fg_5fwaypoints_5ffor_5fitems',['autocvar_g_waypoints_for_items',['../d7/da7/server_2autocvars_8qh.html#ae72da1f8004d8b75a946f9c00e1abe6c',1,'autocvars.qh']]],
   ['autocvar_5fg_5fweapon_5fstay',['autocvar_g_weapon_stay',['../d7/da7/server_2autocvars_8qh.html#a380d40d35f43be0054f545474db8e0dc',1,'autocvars.qh']]],
   ['autocvar_5fg_5fweapon_5fthrowable',['autocvar_g_weapon_throwable',['../d7/da7/server_2autocvars_8qh.html#a04798e251224631c0c5ad6f02881f64f',1,'autocvars.qh']]],

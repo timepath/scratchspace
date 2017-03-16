@@ -1,5 +1,8 @@
 var NAVTREEINDEX116 =
 {
+"dd/daa/g__lights_8qc.html#af2fa133f7e214360915d1ecac346c6ee":[2,0,6,27,2],
+"dd/daa/g__lights_8qc_source.html":[2,0,6,27],
+"dd/dac/dialog__hudsetup__exit_8qc.html":[2,0,5,4,82],
 "dd/dac/dialog__hudsetup__exit_8qc.html#a9402798b381818975e745a6b27052d0b":[2,0,5,4,82,0],
 "dd/dac/dialog__hudsetup__exit_8qc_source.html":[2,0,5,4,82],
 "dd/db0/sv__rocketflying_8qc.html":[2,0,1,9,0,24,2],
@@ -246,8 +249,5 @@ var NAVTREEINDEX116 =
 "dd/dd7/classRacer.html#aa845af495e22a67910a5d1bc31f3b024":[1,0,101,28],
 "dd/dd7/classRacer.html#aa8bfcd32a594bb7d38143dce8b4ba8cf":[1,0,101,6],
 "dd/dd7/classRacer.html#aab19ad6372932909fc68ca4be7c84852":[1,0,101,25],
-"dd/dd7/classRacer.html#ab0033bb43b823ae364fcaa9f6d73c520":[1,0,101,9],
-"dd/dd7/classRacer.html#ab037b465a660d33ad5da033a210c2de0":[1,0,101,21],
-"dd/dd7/classRacer.html#acd61673a42237365d55777d092f5f5ad":[1,0,101,14],
-"dd/dd7/classRacer.html#ace7232b444da4beecfe4266b0c433d6b":[1,0,101,22]
+"dd/dd7/classRacer.html#ab0033bb43b823ae364fcaa9f6d73c520":[1,0,101,9]
 };

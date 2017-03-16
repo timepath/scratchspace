@@ -1,5 +1,8 @@
 var NAVTREEINDEX118 =
 {
+"de/d03/effectinfo__vehicles_8inc.html#a2068c3a889f1167d8f91ae2f9eb9567a":[2,0,1,2,19,1],
+"de/d03/effectinfo__vehicles_8inc.html#a313092c0bc4e008c89d5a31e57edcb4e":[2,0,1,2,19,4],
+"de/d03/effectinfo__vehicles_8inc.html#a39e2f899d0ffa43ada4a0dded37d556b":[2,0,1,2,19,2],
 "de/d03/effectinfo__vehicles_8inc.html#a3aa5ea616e8c641f3b006339a72474dc":[2,0,1,2,19,21],
 "de/d03/effectinfo__vehicles_8inc.html#a46e862a491196deb252fb8dc23c8fd7c":[2,0,1,2,19,27],
 "de/d03/effectinfo__vehicles_8inc.html#a538a9c7cc44a15a7ec157c313d0c16ee":[2,0,1,2,19,23],
@@ -246,8 +249,5 @@ var NAVTREEINDEX118 =
 "de/d3d/cl__minigames_8qh.html#a74fcaa9da40aa62de287463ceb0a2908":[2,0,1,6,4,12],
 "de/d3d/cl__minigames_8qh.html#a82f7375b596eef1374f49d41e4b75ad0":[2,0,1,6,4,1],
 "de/d3d/cl__minigames_8qh.html#a884351dcbf24abbf82f01d394ed6cbf4":[2,0,1,6,4,23],
-"de/d3d/cl__minigames_8qh.html#a99e723ab8b6ed89a42df35b13fc1681a":[2,0,1,6,4,7],
-"de/d3d/cl__minigames_8qh.html#a9ba4163f64eccb4bc6a3c4d86679558e":[2,0,1,6,4,14],
-"de/d3d/cl__minigames_8qh.html#aa5e0439843364cfdf2701a9992dac50e":[2,0,1,6,4,16],
-"de/d3d/cl__minigames_8qh.html#aa7c51e568bb464476b384a5c725b048a":[2,0,1,6,4,9]
+"de/d3d/cl__minigames_8qh.html#a99e723ab8b6ed89a42df35b13fc1681a":[2,0,1,6,4,7]
 };

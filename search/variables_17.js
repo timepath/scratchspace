@@ -252,7 +252,7 @@ var searchData=
   ['wpcost',['wpcost',['../db/d15/api_8qh.html#aa1363c8d97096deb6665edfb0b3cddb6',1,'wpcost():&#160;api.qh'],['../d1/d2a/waypoints_8qh.html#aa1363c8d97096deb6665edfb0b3cddb6',1,'wpcost():&#160;waypoints.qh']]],
   ['wpfire',['wpfire',['../d1/d2a/waypoints_8qh.html#a5b4f1452a2b99b841103569645d7c726',1,'waypoints.qh']]],
   ['wpflags',['wpflags',['../db/d15/api_8qh.html#af83a1360fecd0b8681055cd4ffb7a379',1,'wpflags():&#160;api.qh'],['../d1/d2a/waypoints_8qh.html#af83a1360fecd0b8681055cd4ffb7a379',1,'wpflags():&#160;waypoints.qh']]],
-  ['wphardwired',['wphardwired',['../d1/d2a/waypoints_8qh.html#aea09f28dfbeae317d58a947fc51ee8ad',1,'waypoints.qh']]],
+  ['wphardwired',['wphardwired',['../db/d15/api_8qh.html#aea09f28dfbeae317d58a947fc51ee8ad',1,'wphardwired():&#160;api.qh'],['../d1/d2a/waypoints_8qh.html#aea09f28dfbeae317d58a947fc51ee8ad',1,'wphardwired():&#160;waypoints.qh']]],
   ['wpisbox',['wpisbox',['../d1/d2a/waypoints_8qh.html#a224b750f53c0f31d71c94f7ff100400b',1,'waypoints.qh']]],
   ['wplinked',['wplinked',['../d1/d2a/waypoints_8qh.html#a07fdac500a1bba141ea53aa5b3ce7325',1,'waypoints.qh']]],
   ['wpnearestpoint',['wpnearestpoint',['../d1/d2a/waypoints_8qh.html#a4de8c255cf3c36448dfb4b75b646c42d',1,'waypoints.qh']]],
