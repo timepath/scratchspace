@@ -132,7 +132,7 @@ $(document).ready(function(){initNavTree('da/d44/common_2util_8qc.html','../../'
 Functions</h2></td></tr>
 <tr class="memitem:a203e7643d1362e5a90883ab7d31b9892"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d44/common_2util_8qc.html#a203e7643d1362e5a90883ab7d31b9892">compressShortVector</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vec)</td></tr>
 <tr class="separator:a203e7643d1362e5a90883ab7d31b9892"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77d276d801f4e93f46fefac297900ea7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d44/common_2util_8qc.html#a77d276d801f4e93f46fefac297900ea7">compressShotOrigin</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> v)</td></tr>
+<tr class="memitem:a77d276d801f4e93f46fefac297900ea7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d44/common_2util_8qc.html#a77d276d801f4e93f46fefac297900ea7">compressShotOrigin</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>)</td></tr>
 <tr class="separator:a77d276d801f4e93f46fefac297900ea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac77daa35318f74748eb10eda07e7dd49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d44/common_2util_8qc.html#ac77daa35318f74748eb10eda07e7dd49">cvar_settemp</a> (<a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> tmp_cvar, <a class="el" href="../../df/d9b/sys-post_8qh.html#afc7056808582c678b6c0d2f7c42ae14e">string</a> tmp_value)</td></tr>
 <tr class="separator:ac77daa35318f74748eb10eda07e7dd49"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -324,27 +324,28 @@ Variables</h2></td></tr>
 
 <p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00752">ClientInit_misc()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01075"></a><span class="lineno"> 1075</span>&#160;{</div>
-<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;    <span class="keywordtype">float</span> rx = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(v.x * 2);</div>
-<div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;    <span class="keywordtype">float</span> ry = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(v.y * 4) + 128;</div>
-<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;    <span class="keywordtype">float</span> rz = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(v.z * 4) + 128;</div>
+<div class="line"><a name="l01076"></a><span class="lineno"> 1076</span>&#160;    <span class="keywordtype">float</span> rx = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(<a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>.x * 2);</div>
+<div class="line"><a name="l01077"></a><span class="lineno"> 1077</span>&#160;    <span class="keywordtype">float</span> ry = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(<a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>.y * 4) + 128;</div>
+<div class="line"><a name="l01078"></a><span class="lineno"> 1078</span>&#160;    <span class="keywordtype">float</span> rz = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(<a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>.z * 4) + 128;</div>
 <div class="line"><a name="l01079"></a><span class="lineno"> 1079</span>&#160;    <span class="keywordflow">if</span>(rx &gt; 255 || rx &lt; 0)</div>
 <div class="line"><a name="l01080"></a><span class="lineno"> 1080</span>&#160;    {</div>
-<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(<span class="stringliteral">&quot;shot origin &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(v), <span class="stringliteral">&quot; x out of bounds\n&quot;</span>);</div>
+<div class="line"><a name="l01081"></a><span class="lineno"> 1081</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(<span class="stringliteral">&quot;shot origin &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(<a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>), <span class="stringliteral">&quot; x out of bounds\n&quot;</span>);</div>
 <div class="line"><a name="l01082"></a><span class="lineno"> 1082</span>&#160;        rx = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, rx, 255);</div>
 <div class="line"><a name="l01083"></a><span class="lineno"> 1083</span>&#160;    }</div>
 <div class="line"><a name="l01084"></a><span class="lineno"> 1084</span>&#160;    <span class="keywordflow">if</span>(ry &gt; 255 || ry &lt; 0)</div>
 <div class="line"><a name="l01085"></a><span class="lineno"> 1085</span>&#160;    {</div>
-<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(<span class="stringliteral">&quot;shot origin &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(v), <span class="stringliteral">&quot; y out of bounds\n&quot;</span>);</div>
+<div class="line"><a name="l01086"></a><span class="lineno"> 1086</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(<span class="stringliteral">&quot;shot origin &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(<a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>), <span class="stringliteral">&quot; y out of bounds\n&quot;</span>);</div>
 <div class="line"><a name="l01087"></a><span class="lineno"> 1087</span>&#160;        ry = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, ry, 255);</div>
 <div class="line"><a name="l01088"></a><span class="lineno"> 1088</span>&#160;    }</div>
 <div class="line"><a name="l01089"></a><span class="lineno"> 1089</span>&#160;    <span class="keywordflow">if</span>(rz &gt; 255 || rz &lt; 0)</div>
 <div class="line"><a name="l01090"></a><span class="lineno"> 1090</span>&#160;    {</div>
-<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(<span class="stringliteral">&quot;shot origin &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(v), <span class="stringliteral">&quot; z out of bounds\n&quot;</span>);</div>
+<div class="line"><a name="l01091"></a><span class="lineno"> 1091</span>&#160;        <a class="code" href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a>(<span class="stringliteral">&quot;shot origin &quot;</span>, <a class="code" href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a>(<a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>), <span class="stringliteral">&quot; z out of bounds\n&quot;</span>);</div>
 <div class="line"><a name="l01092"></a><span class="lineno"> 1092</span>&#160;        rz = <a class="code" href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a>(0, rz, 255);</div>
 <div class="line"><a name="l01093"></a><span class="lineno"> 1093</span>&#160;    }</div>
 <div class="line"><a name="l01094"></a><span class="lineno"> 1094</span>&#160;    <span class="keywordflow">return</span> rx * 0x10000 + ry * 0x100 + rz;</div>
 <div class="line"><a name="l01095"></a><span class="lineno"> 1095</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_ab0df318f2dece7f798ff4061cd67f9d2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab0df318f2dece7f798ff4061cd67f9d2">vtos</a></div><div class="ttdeci">string vtos(vector v)</div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8b85fda1f4e4157ff583a91373b2f71"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a></div><div class="ttdeci">float rint(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 <div class="ttc" id="log_8qh_html_a754b3d074e0af4ad3c7b918dd77ecb2d"><div class="ttname"><a href="../../db/da0/log_8qh.html#a754b3d074e0af4ad3c7b918dd77ecb2d">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00079">log.qh:79</a></div></div>
@@ -651,17 +652,18 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../da/d44/common_2util_8qc_source.html#l01096">1096</a> of file <a class="el" href="../../da/d44/common_2util_8qc_source.html">util.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00050">v</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d30/client_2main_8qc_source.html#l00961">NET_HANDLE()</a>, and <a class="el" href="../../d6/dd3/view_8qc_source.html#l00639">TrueAimCheck()</a>.</p>
 <div class="fragment"><div class="line"><a name="l01097"></a><span class="lineno"> 1097</span>&#160;{</div>
-<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
+<div class="line"><a name="l01098"></a><span class="lineno"> 1098</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l01099"></a><span class="lineno"> 1099</span>&#160;    v.x = ((f &amp; 0xFF0000) / 0x10000) / 2;</div>
 <div class="line"><a name="l01100"></a><span class="lineno"> 1100</span>&#160;    v.y = ((f &amp; 0xFF00) / 0x100 - 128) / 4;</div>
 <div class="line"><a name="l01101"></a><span class="lineno"> 1101</span>&#160;    v.z = ((f &amp; 0xFF) - 128) / 4;</div>
-<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;    <span class="keywordflow">return</span> v;</div>
+<div class="line"><a name="l01102"></a><span class="lineno"> 1102</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l01103"></a><span class="lineno"> 1103</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -3561,7 +3563,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../da/d44/common_2util_8qc.html">util.qc</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:28 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:30 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

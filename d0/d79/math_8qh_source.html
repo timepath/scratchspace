@@ -360,7 +360,7 @@ $(document).ready(function(){initNavTree('d0/d79/math_8qh_source.html','../../')
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;</div>
 <div class="line"><a name="l00258"></a><span class="lineno"><a class="line" href="../../d0/d79/math_8qh.html#aa8861d172bf3f5895e7d852a3c30174e">  258</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d0/d79/math_8qh.html#aa8861d172bf3f5895e7d852a3c30174e">solve_quadratic</a>(<span class="keywordtype">float</span> a, <span class="keywordtype">float</span> b, <span class="keywordtype">float</span> c)</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;{</div>
-<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;    <span class="keywordtype">float</span> D;</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;    v = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;    <span class="keywordflow">if</span> (a == 0)</div>
@@ -407,7 +407,7 @@ $(document).ready(function(){initNavTree('d0/d79/math_8qh_source.html','../../')
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;            v.z = 0;</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;        }</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;    }</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="keywordflow">return</span> v;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;}</div>
 <div class="ttc" id="math_8qh_html_a87ab6b8926bb5587a28d323202f59791"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a87ab6b8926bb5587a28d323202f59791">fsnap</a></div><div class="ttdeci">float fsnap(float val, float fsize)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00053">math.qh:53</a></div></div>
 <div class="ttc" id="math_8qh_html_a25833985b41f6fe0554f992bc1d4030e"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a25833985b41f6fe0554f992bc1d4030e">cubic_speedfunc_is_sane</a></div><div class="ttdeci">bool cubic_speedfunc_is_sane(float startspeedfactor, float endspeedfactor)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00095">math.qh:95</a></div></div>
@@ -428,6 +428,7 @@ $(document).ready(function(){initNavTree('d0/d79/math_8qh_source.html','../../')
 <div class="ttc" id="math_8qh_html_a7f2164765c65fa68a46aee7be236157a"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a7f2164765c65fa68a46aee7be236157a">power2of</a></div><div class="ttdeci">float power2of(float e)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00201">math.qh:201</a></div></div>
 <div class="ttc" id="math_8qh_html_aa8861d172bf3f5895e7d852a3c30174e"><div class="ttname"><a href="../../d0/d79/math_8qh.html#aa8861d172bf3f5895e7d852a3c30174e">solve_quadratic</a></div><div class="ttdeci">vector solve_quadratic(float a, float b, float c)</div><div class="ttdoc">ax^2 + bx + c = 0 </div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00258">math.qh:258</a></div></div>
 <div class="ttc" id="math_8qh_html_a7f03c0168ed8d9fb9878df24c6093ab9"><div class="ttname"><a href="../../d0/d79/math_8qh.html#a7f03c0168ed8d9fb9878df24c6093ab9">ExponentialFalloff</a></div><div class="ttdeci">float ExponentialFalloff(float mindist, float maxdist, float halflifedist, float d)</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d79/math_8qh_source.html#l00194">math.qh:194</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8b85fda1f4e4157ff583a91373b2f71"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a></div><div class="ttdeci">float rint(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a3846d117b360dccec575f96988cf3bb7"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a3846d117b360dccec575f96988cf3bb7">bound</a></div><div class="ttdeci">float bound(float min, float value, float max)</div></div>
 <div class="ttc" id="float_8qh_html"><div class="ttname"><a href="../../d0/d58/float_8qh.html">float.qh</a></div></div>
@@ -445,7 +446,7 @@ $(document).ready(function(){initNavTree('d0/d79/math_8qh_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d0/d79/math_8qh.html">math.qh</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:20 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:23 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

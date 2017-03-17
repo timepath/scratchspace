@@ -151,7 +151,7 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a7620840c6a2c2d6e4d5a0ceca8b7a840"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de8/portals_8qc.html#a7620840c6a2c2d6e4d5a0ceca8b7a840">PlayerEdgeDistance</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a>, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> v)</td></tr>
+<tr class="memitem:a7620840c6a2c2d6e4d5a0ceca8b7a840"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d9b/sys-post_8qh.html#ad25226175d6bc852afc9a7b2e5ddf313">float</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de8/portals_8qc.html#a7620840c6a2c2d6e4d5a0ceca8b7a840">PlayerEdgeDistance</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a361269ba428266fe2be4cea56e214156">entity</a> <a class="el" href="../../dd/d87/effectinfo_8qc.html#a0f8918eaef6ea5bfa92a971bf4445927">p</a>, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> <a class="el" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>)</td></tr>
 <tr class="separator:a7620840c6a2c2d6e4d5a0ceca8b7a840"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a088684099ef22cff92da827e28df7407"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/de8/portals_8qc.html#a088684099ef22cff92da827e28df7407">Portal_ApplyTransformToPlayerAngle</a> (<a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> transform, <a class="el" href="../../d6/d11/progsdefs_8qc.html#a508e25c7dcd97dfa0c27d3b18d1b8381">vector</a> vangle)</td></tr>
 <tr class="separator:a088684099ef22cff92da827e28df7407"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -271,20 +271,21 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/de8/portals_8qc_source.html#l00030">30</a> of file <a class="el" href="../../de/de8/portals_8qc_source.html">portals.qc</a>.</p>
 
-<p>References <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00050">v</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/de8/portals_8qc_source.html#l00105">Portal_TeleportPlayer()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;{</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> vbest;</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span>(v.x &lt; 0) vbest.x = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.mins.x; <span class="keywordflow">else</span> vbest.x = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.maxs.x;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">if</span>(v.y &lt; 0) vbest.y = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.mins.y; <span class="keywordflow">else</span> vbest.y = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.maxs.y;</div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">if</span>(v.z &lt; 0) vbest.z = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.mins.z; <span class="keywordflow">else</span> vbest.z = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.maxs.z;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>.x &lt; 0) vbest.x = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.mins.x; <span class="keywordflow">else</span> vbest.x = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.maxs.x;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>.y &lt; 0) vbest.y = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.mins.y; <span class="keywordflow">else</span> vbest.y = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.maxs.y;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    <span class="keywordflow">if</span>(<a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>.z &lt; 0) vbest.z = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.mins.z; <span class="keywordflow">else</span> vbest.z = <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>.maxs.z;</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">return</span> vbest * v;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keywordflow">return</span> vbest * <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;}</div>
 <div class="ttc" id="effectinfo_8qc_html_af1209ce3d4344049c1084fab900909cf"><div class="ttname"><a href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a></div><div class="ttdeci">#define p(f, type, default)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -994,7 +995,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/de8/portals_8qc_source.html#l00207">207</a> of file <a class="el" href="../../de/de8/portals_8qc_source.html">portals.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/dee/anglestransform_8qh_source.html#l00008">fixedmakevectors</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00110">move_out_of_solid</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00263">PL_MAX_CONST</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00264">PL_MIN_CONST</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00022">SAFERNUDGE</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_forward</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../df/dee/anglestransform_8qh_source.html#l00008">fixedmakevectors</a>, <a class="el" href="../../db/da0/log_8qh_source.html#l00067">LOG_INFO</a>, <a class="el" href="../../d7/d71/lib_2warpzone_2common_8qh_source.html#l00110">move_out_of_solid</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00263">PL_MAX_CONST</a>, <a class="el" href="../../d0/d8b/common_2constants_8qh_source.html#l00264">PL_MIN_CONST</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00022">SAFERNUDGE</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_forward</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/de8/portals_8qc_source.html#l00622">Portal_Spawn()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;{</div>
@@ -1012,7 +1013,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<span class="preprocessor"></span>        <span class="keywordflow">return</span> 0;</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;    }</div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;    portal.portal_safe_origin = portal.origin;</div>
-<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    setorigin(portal, o);</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(portal, o);</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;    <span class="keywordflow">return</span> 1;</div>
 <div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;}</div>
 <div class="ttc" id="common_2constants_8qh_html_ae735c3b4d1ab1d9ef277732a76b77579"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#ae735c3b4d1ab1d9ef277732a76b77579">PL_MAX_CONST</a></div><div class="ttdeci">const vector PL_MAX_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00263">constants.qh:263</a></div></div>
@@ -1020,6 +1021,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="log_8qh_html_a378e28bfcb78d17285210d6bbb70a083"><div class="ttname"><a href="../../db/da0/log_8qh.html#a378e28bfcb78d17285210d6bbb70a083">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/da0/log_8qh_source.html#l00067">log.qh:67</a></div></div>
 <div class="ttc" id="portals_8qc_html_af51e97ef8f515bed3c13cace5e347339"><div class="ttname"><a href="../../de/de8/portals_8qc.html#af51e97ef8f515bed3c13cace5e347339">SAFERNUDGE</a></div><div class="ttdeci">const vector SAFERNUDGE</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de8/portals_8qc_source.html#l00022">portals.qc:22</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
 <div class="ttc" id="common_2constants_8qh_html_a1152f65c7a1285be22940ded1706fdbb"><div class="ttname"><a href="../../d0/d8b/common_2constants_8qh.html#a1152f65c7a1285be22940ded1706fdbb">PL_MIN_CONST</a></div><div class="ttdeci">const vector PL_MIN_CONST</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/d8b/common_2constants_8qh_source.html#l00264">constants.qh:264</a></div></div>
 <div class="ttc" id="anglestransform_8qh_html_ad909cd543038da7934d379bcd931223e"><div class="ttname"><a href="../../df/dee/anglestransform_8qh.html#ad909cd543038da7934d379bcd931223e">fixedmakevectors</a></div><div class="ttdeci">#define fixedmakevectors</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dee/anglestransform_8qh_source.html#l00008">anglestransform.qh:8</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_abc0e012c94ed572a5872822390265cec"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#abc0e012c94ed572a5872822390265cec">v_forward</a></div><div class="ttdeci">vector v_forward</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">csprogsdefs.qc:31</a></div></div>
@@ -1029,7 +1031,7 @@ Variables</h2></td></tr>
 <div id="dynsection-22-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-22-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/de8/portals_8qc_a70d3c5762b853cf70d6cdba04a545d1b_cgraph.svg" width="267" height="38"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../de/de8/portals_8qc_a70d3c5762b853cf70d6cdba04a545d1b_cgraph.svg" width="280" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1649,7 +1651,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/de8/portals_8qc_source.html#l00622">622</a> of file <a class="el" href="../../de/de8/portals_8qc_source.html">portals.qc</a>.</p>
 
-<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00078">autocvar_g_balance_portal_health</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00079">autocvar_g_balance_portal_lifetime</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00284">DAMAGE_AIM</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../df/dee/anglestransform_8qh_source.html#l00008">fixedmakevectors</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00501">Portal_Customize()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00431">Portal_Damage()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00207">Portal_FindSafeOrigin()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00337">Portal_MakeWaitingPortal()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00455">Portal_Think()</a>, <a class="el" href="../../da/d5e/common_2models_2model_8qh_source.html#l00003">setmodel</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_forward</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_right</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_up</a>.</p>
+<p>References <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00078">autocvar_g_balance_portal_health</a>, <a class="el" href="../../d7/da7/server_2autocvars_8qh_source.html#l00079">autocvar_g_balance_portal_lifetime</a>, <a class="el" href="../../d6/d11/progsdefs_8qc_source.html#l00284">DAMAGE_AIM</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../df/dee/anglestransform_8qh_source.html#l00008">fixedmakevectors</a>, <a class="el" href="../../d6/da0/post_8qh_source.html#l00017">NULL</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00501">Portal_Customize()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00431">Portal_Damage()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00207">Portal_FindSafeOrigin()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00337">Portal_MakeWaitingPortal()</a>, <a class="el" href="../../de/de8/portals_8qc_source.html#l00455">Portal_Think()</a>, <a class="el" href="../../da/d5e/common_2models_2model_8qh_source.html#l00003">setmodel</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_forward</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_right</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">v_up</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/de8/portals_8qc_source.html#l00659">Portal_SpawnInPortalAtTrace()</a>, and <a class="el" href="../../de/de8/portals_8qc_source.html#l00679">Portal_SpawnOutPortalAtTrace()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00623"></a><span class="lineno">  623</span>&#160;{</div>
@@ -1661,7 +1663,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;</div>
 <div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    portal = <span class="keyword">new</span>(portal);</div>
 <div class="line"><a name="l00631"></a><span class="lineno">  631</span>&#160;    portal.aiment = own;</div>
-<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    setorigin(portal, org);</div>
+<div class="line"><a name="l00632"></a><span class="lineno">  632</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(portal, org);</div>
 <div class="line"><a name="l00633"></a><span class="lineno">  633</span>&#160;    portal.mangle = ang;</div>
 <div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;    portal.angles = ang;</div>
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    portal.angles_x = -portal.angles.x; <span class="comment">// is a bmodel</span></div>
@@ -1697,6 +1699,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a016975064cec162b7970af4b7a35149b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a016975064cec162b7970af4b7a35149b">v_up</a></div><div class="ttdeci">vector v_up</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">csprogsdefs.qc:31</a></div></div>
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8f1a4afecc1d18c8149c7662c8f1addd"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8f1a4afecc1d18c8149c7662c8f1addd">v_right</a></div><div class="ttdeci">vector v_right</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00031">csprogsdefs.qc:31</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="portals_8qc_html_a094624b4f82802e6d53a8b12f370727f"><div class="ttname"><a href="../../de/de8/portals_8qc.html#a094624b4f82802e6d53a8b12f370727f">Portal_Think</a></div><div class="ttdeci">void Portal_Think(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/de8/portals_8qc_source.html#l00455">portals.qc:455</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
@@ -2433,12 +2436,12 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../de/de8/portals_8qc_source.html#l00227">227</a> of file <a class="el" href="../../de/de8/portals_8qc_source.html">portals.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00050">v</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../de/de8/portals_8qc_source.html#l00443">Portal_Think_TryTeleportPlayer()</a>, and <a class="el" href="../../de/de8/portals_8qc_source.html#l00252">Portal_Touch()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;{</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;    <span class="keywordtype">float</span> dist, distpersec, delta;</div>
-<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;</div>
 <div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;    dist = (eorg - porg) * pnorm;</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;    dist += <a class="code" href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a>(emins.x * pnorm.x, emaxs.x * pnorm.x);</div>
@@ -2453,7 +2456,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;    <span class="comment">// we don&#39;t need this check with solid portals, them being SOLID_BSP should suffice</span></div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;    delta = dist / distpersec;</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;    v = eorg - evel * delta - porg;</div>
-<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    v = v - pnorm * (pnorm * v);</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;    v = v - pnorm * (pnorm * <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>);</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a>(v) &lt; psize;</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;<span class="preprocessor">#else</span></div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">return</span> 1;</div>
@@ -2462,6 +2465,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="menudefs_8qc_html_a79d61ab0e4126e02af8bc36d432aedaf"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a79d61ab0e4126e02af8bc36d432aedaf">vlen</a></div><div class="ttdeci">float vlen(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab2ad6bdb33b4334fec83db0418cf72df"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab2ad6bdb33b4334fec83db0418cf72df">min</a></div><div class="ttdeci">float min(float f,...)</div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-54" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-54-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -2612,7 +2616,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../de/de8/portals_8qc.html">portals.qc</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:35 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:38 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

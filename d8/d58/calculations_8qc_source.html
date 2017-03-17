@@ -160,7 +160,7 @@ $(document).ready(function(){initNavTree('d8/d58/calculations_8qc_source.html','
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    <span class="comment">// find m so that</span></div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    <span class="comment">//   speedfactor * (1 + e) * m / (1 + m) == 1</span></div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    m = 1 / ((1 + 0) * speedfactor - 1);</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    v = explosion_calcpush(explosion_f * speedfactor, m, target_v, 1, 0);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;    <span class="comment">// the factor we then get is:</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    <span class="comment">//   1</span></div>
@@ -169,7 +169,7 @@ $(document).ready(function(){initNavTree('d8/d58/calculations_8qc_source.html','
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        target_v, target_v + v,</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        target_v * target_v, m * explosion_f * speedfactor * explosion_f * speedfactor, target_v * target_v + m * explosion_f * speedfactor * explosion_f * speedfactor,</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        (target_v + v) * (target_v + v));</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">return</span> v;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;<span class="preprocessor"></span>    <span class="keywordflow">return</span> explosion_f * <a class="code" href="../../d8/d58/calculations_8qc.html#a468e15dca4d551cc26cf33a97de62650">explosion_calcpush_getmultiplier</a>(explosion_f * speedfactor, target_v);</div>
 <div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;}</div>
@@ -179,14 +179,14 @@ $(document).ready(function(){initNavTree('d8/d58/calculations_8qc_source.html','
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;<span class="comment">//  Shot Spread Calculation</span></div>
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;<span class="comment">// =========================</span></div>
 <div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;</div>
-<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7">   75</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7">cliptoplane</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>)</div>
+<div class="line"><a name="l00075"></a><span class="lineno"><a class="line" href="../../d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7">   75</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d8/d58/calculations_8qc.html#a05d5746469bd0a51dfb4532b535793e7">cliptoplane</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>)</div>
 <div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;{</div>
 <div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    <span class="keywordflow">return</span> v - (v * <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>) * p;</div>
 <div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;}</div>
 <div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
 <div class="line"><a name="l00080"></a><span class="lineno"><a class="line" href="../../d8/d58/calculations_8qc.html#a183c3a3b3707f51936ec7dc51576de8f">   80</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d8/d58/calculations_8qc.html#a183c3a3b3707f51936ec7dc51576de8f">solve_cubic_pq</a>(<span class="keywordtype">float</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>, <span class="keywordtype">float</span> q)</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;{</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">float</span> D, u, v, a;</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    <span class="keywordtype">float</span> D, u, <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, a;</div>
 <div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    D = q*q/4.0 + p*p*p/27.0;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    <span class="keywordflow">if</span>(D &lt; 0)</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
@@ -224,7 +224,7 @@ $(document).ready(function(){initNavTree('d8/d58/calculations_8qc_source.html','
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="comment">// cardano</span></div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        u = <a class="code" href="../../df/d38/mathlib_8qc.html#a493b19ce4b88b88f8aec6a9ddab87759">cbrt</a>(-q/2.0 + <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(D));</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        v = <a class="code" href="../../df/d38/mathlib_8qc.html#a493b19ce4b88b88f8aec6a9ddab87759">cbrt</a>(-q/2.0 - <a class="code" href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a>(D));</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;1 1 1&#39;</span> * (u + v);</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;        <span class="keywordflow">return</span> <span class="stringliteral">&#39;1 1 1&#39;</span> * (u + <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>);</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;    }</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;}</div>
 <div class="line"><a name="l00123"></a><span class="lineno"><a class="line" href="../../d8/d58/calculations_8qc.html#a8c505b0c356899393ec20a52c48b7c7f">  123</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d8/d58/calculations_8qc.html#a8c505b0c356899393ec20a52c48b7c7f">solve_cubic_abcd</a>(<span class="keywordtype">float</span> a, <span class="keywordtype">float</span> b, <span class="keywordtype">float</span> c, <span class="keywordtype">float</span> d)</div>
@@ -232,17 +232,17 @@ $(document).ready(function(){initNavTree('d8/d58/calculations_8qc_source.html','
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    <span class="comment">// y = 3*a*x + b</span></div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    <span class="comment">// x = (y - b) / 3a</span></div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;    <span class="keywordtype">float</span> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>, q;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;    p = (9*a*c - 3*b*b);</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;    q = (27*a*a*d - 9*a*b*c + 2*b*b*b);</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    v = <a class="code" href="../../d8/d58/calculations_8qc.html#a183c3a3b3707f51936ec7dc51576de8f">solve_cubic_pq</a>(p, q);</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;    v = (v -  b * <span class="stringliteral">&#39;1 1 1&#39;</span>) * (1.0 / (3.0 * a));</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;    <span class="keywordflow">if</span>(a &lt; 0)</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        v += <span class="stringliteral">&#39;1 0 -1&#39;</span> * (v.z - v.x); <span class="comment">// swap x, z</span></div>
-<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">return</span> v;</div>
+<div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;}</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;</div>
-<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">  138</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">findperpendicular</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v)</div>
+<div class="line"><a name="l00138"></a><span class="lineno"><a class="line" href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">  138</a></span>&#160;<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d8/d58/calculations_8qc.html#a483f7b35cfbed64a953d7b5143a58fad">findperpendicular</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>)</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;{</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../dd/d87/effectinfo_8qc.html#af1209ce3d4344049c1084fab900909cf">p</a>;</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    p.x = v.z;</div>
@@ -442,6 +442,7 @@ $(document).ready(function(){initNavTree('d8/d58/calculations_8qc_source.html','
 <div class="ttc" id="common_2util_8qh_html_a4ff12e9437074f8ba09e275ff5084b7a"><div class="ttname"><a href="../../d5/df2/common_2util_8qh.html#a4ff12e9437074f8ba09e275ff5084b7a">gsl_ran_gaussian</a></div><div class="ttdeci">float gsl_ran_gaussian(float sigma)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d95/random_8qc_source.html#l00073">random.qc:73</a></div></div>
 <div class="ttc" id="mathlib_8qc_html_a493b19ce4b88b88f8aec6a9ddab87759"><div class="ttname"><a href="../../df/d38/mathlib_8qc.html#a493b19ce4b88b88f8aec6a9ddab87759">cbrt</a></div><div class="ttdeci">float cbrt(float e)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00123">mathlib.qc:123</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9fb8a895035d83abe9846f2a33470060"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a></div><div class="ttdeci">const float M_PI</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00269">csprogsdefs.qc:269</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 <div class="ttc" id="weapons_2weapon_8qh_html_a6c083826b597734af72d573025ce48ad"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a></div><div class="ttdeci">entity weaponentities[MAX_WEAPONSLOTS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00011">weapon.qh:11</a></div></div>
 <div class="ttc" id="vector_8qh_html_a484dbdf175fddaf431a0bdd8f3b802f5"><div class="ttname"><a href="../../de/dcb/vector_8qh.html#a484dbdf175fddaf431a0bdd8f3b802f5">cross</a></div><div class="ttdeci">#define cross(a, b)</div><div class="ttdef"><b>Definition:</b> <a href="../../de/dcb/vector_8qh_source.html#l00026">vector.qh:26</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a83f4d3f317a80e82e6b16ea61ea5efc3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a></div><div class="ttdeci">float sqrt(float f)</div></div>
@@ -454,7 +455,7 @@ $(document).ready(function(){initNavTree('d8/d58/calculations_8qc_source.html','
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_67782cf2b73ff31781b25ce4541674e7.html">weapons</a></li><li class="navelem"><a class="el" href="../../d8/d58/calculations_8qc.html">calculations.qc</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:20 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:22 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

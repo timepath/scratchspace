@@ -111,7 +111,7 @@ $(document).ready(function(){initNavTree('d9/da8/angle_8qc_source.html','../../'
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">/*</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">* Return a angle within +/- 360.</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">*/</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d9/da8/angle_8qc.html#a74e3390452e67698b03637a6f3f38f4e">    7</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d9/da8/angle_8qc.html#a74e3390452e67698b03637a6f3f38f4e">anglemods</a>(<span class="keywordtype">float</span> v)</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="../../d9/da8/angle_8qc.html#a74e3390452e67698b03637a6f3f38f4e">    7</a></span>&#160;<span class="keywordtype">float</span> <a class="code" href="../../d9/da8/angle_8qc.html#a74e3390452e67698b03637a6f3f38f4e">anglemods</a>(<span class="keywordtype">float</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>)</div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    v = v - 360 * <a class="code" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a>(v / 360);</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div>
@@ -120,7 +120,7 @@ $(document).ready(function(){initNavTree('d9/da8/angle_8qc_source.html','../../'
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span>(v &lt;= -180)</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="keywordflow">return</span> v + 360;</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">return</span> v;</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;}</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;<span class="comment">/*</span></div>
@@ -209,6 +209,7 @@ $(document).ready(function(){initNavTree('d9/da8/angle_8qc_source.html','../../'
 <div class="ttc" id="menudefs_8qc_html_a822ea10e75a853993f2fa21149d76f4c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a822ea10e75a853993f2fa21149d76f4c">vectoangles</a></div><div class="ttdeci">vector vectoangles(vector v)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="angle_8qc_html_a2e94b888a871415479553d035d55317a"><div class="ttname"><a href="../../d9/da8/angle_8qc.html#a2e94b888a871415479553d035d55317a">shortangle_v</a></div><div class="ttdeci">vector shortangle_v(vector ang1, vector ang2)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/angle_8qc_source.html#l00038">angle.qc:38</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8f7213273f7de03df213240376ce9f4"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8f7213273f7de03df213240376ce9f4">normalize</a></div><div class="ttdeci">vector normalize(vector v)</div></div>
 <div class="ttc" id="angle_8qc_html_abe72a6bafb55848ec9cd7f81a6de3c29"><div class="ttname"><a href="../../d9/da8/angle_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a></div><div class="ttdeci">vector origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/da8/angle_8qc_source.html#l00001">angle.qc:1</a></div></div>
@@ -219,7 +220,7 @@ $(document).ready(function(){initNavTree('d9/da8/angle_8qc_source.html','../../'
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../d9/da8/angle_8qc.html">angle.qc</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:20 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:23 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

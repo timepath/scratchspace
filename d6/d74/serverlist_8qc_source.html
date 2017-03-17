@@ -227,7 +227,7 @@ $(document).ready(function(){initNavTree('d6/d74/serverlist_8qc_source.html','..
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
 <div class="line"><a name="l00121"></a><span class="lineno"><a class="line" href="../../d6/d74/serverlist_8qc.html#ae85cc5fcfaf096dbc86d75ae3da708f3">  121</a></span>&#160;<span class="keywordtype">int</span> <a class="code" href="../../d6/d74/serverlist_8qc.html#ae85cc5fcfaf096dbc86d75ae3da708f3">CheckCategoryForEntry</a>(<span class="keywordtype">int</span> entry)</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;{</div>
-<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordtype">string</span> s, k, v, modtype = <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <span class="keywordtype">string</span> s, k, <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, modtype = <span class="stringliteral">&quot;&quot;</span>;</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    <span class="keywordtype">int</span> j, m, impure = 0, freeslots = 0, sflags = 0;</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;    s = <a class="code" href="../../d8/de2/menudefs_8qc.html#a5c6f925625583541ffb0df18500c1f73">gethostcachestring</a>(SLIST_FIELD_QCSTATUS, entry);</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    m = <a class="code" href="../../d3/d9e/dpextensions_8qh.html#a758e7e078dd3038c82e255ff8927975c">tokenizebyseparator</a>(s, <span class="stringliteral">&quot;:&quot;</span>);</div>
@@ -919,7 +919,7 @@ $(document).ready(function(){initNavTree('d6/d74/serverlist_8qc_source.html','..
 <div class="line"><a name="l00813"></a><span class="lineno">  813</span>&#160;    <span class="keywordtype">float</span> theAlpha;</div>
 <div class="line"><a name="l00814"></a><span class="lineno">  814</span>&#160;    <span class="keywordtype">bool</span> pure = <span class="keyword">false</span>, pure_available = <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00815"></a><span class="lineno">  815</span>&#160;    <span class="keywordtype">int</span> freeslots = -1, sflags = -1, j, m;</div>
-<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;    <span class="keywordtype">string</span> s, typestr, versionstr, k, v, <a class="code" href="../../d5/d26/server_2defs_8qh.html#af289ce9e49626ec727198c2d334299bd">modname</a>;</div>
+<div class="line"><a name="l00816"></a><span class="lineno">  816</span>&#160;    <span class="keywordtype">string</span> s, typestr, versionstr, k, <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, <a class="code" href="../../d5/d26/server_2defs_8qh.html#af289ce9e49626ec727198c2d334299bd">modname</a>;</div>
 <div class="line"><a name="l00817"></a><span class="lineno">  817</span>&#160;</div>
 <div class="line"><a name="l00818"></a><span class="lineno">  818</span>&#160;    <span class="comment">//printf(&quot;time: %f, i: %d, item: %d, nitems: %d\n&quot;, time, i, item, me.nItems);</span></div>
 <div class="line"><a name="l00819"></a><span class="lineno">  819</span>&#160;</div>
@@ -997,7 +997,7 @@ $(document).ready(function(){initNavTree('d6/d74/serverlist_8qc_source.html','..
 <div class="line"><a name="l00891"></a><span class="lineno">  891</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(k == <span class="stringliteral">&quot;F&quot;</span>)</div>
 <div class="line"><a name="l00892"></a><span class="lineno">  892</span>&#160;            sflags = <a class="code" href="../../de/d0d/int_8qh.html#ab65936840a5b666cc6c87399e9b80802">stoi</a>(v);</div>
 <div class="line"><a name="l00893"></a><span class="lineno">  893</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(k == <span class="stringliteral">&quot;M&quot;</span>)</div>
-<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;            modname = v;</div>
+<div class="line"><a name="l00894"></a><span class="lineno">  894</span>&#160;            modname = <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00895"></a><span class="lineno">  895</span>&#160;    }</div>
 <div class="line"><a name="l00896"></a><span class="lineno">  896</span>&#160;</div>
 <div class="line"><a name="l00897"></a><span class="lineno">  897</span>&#160;<span class="preprocessor">#ifdef COMPAT_NO_MOD_IS_XONOTIC</span></div>
@@ -1427,6 +1427,7 @@ $(document).ready(function(){initNavTree('d6/d74/serverlist_8qc_source.html','..
 <div class="ttc" id="dpextensions_8qh_html_a43f26093a7cb03b412dedf6c6b36eed8"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a43f26093a7cb03b412dedf6c6b36eed8">tokenize_console</a></div><div class="ttdeci">#define tokenize_console</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00024">dpextensions.qh:24</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_a15ded02541ac3c3ed244143f4199adab"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a15ded02541ac3c3ed244143f4199adab">XonoticServerList_setSelected</a></div><div class="ttdeci">void XonoticServerList_setSelected(entity me, int i)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00297">serverlist.qc:297</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_a799c01174ef48b12478bb43edec2e39b"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a799c01174ef48b12478bb43edec2e39b">XonoticServerList_getItemAtPos</a></div><div class="ttdeci">int XonoticServerList_getItemAtPos(entity me, float pos)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l01160">serverlist.qc:1160</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_ab2b8d1e36271519261d458ffe748f398"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#ab2b8d1e36271519261d458ffe748f398">cat_dioverride_string</a></div><div class="ttdeci">string cat_dioverride_string</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00141">serverlist.qh:141</a></div></div>
 <div class="ttc" id="serverlist_8qc_html_a0299a902125f81a656db3405d4cfca2d"><div class="ttname"><a href="../../d6/d74/serverlist_8qc.html#a0299a902125f81a656db3405d4cfca2d">XonoticServerList_draw</a></div><div class="ttdeci">void XonoticServerList_draw(entity me)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/d74/serverlist_8qc_source.html#l00413">serverlist.qc:413</a></div></div>
 <div class="ttc" id="serverlist_8qh_html_a66674bec022085770debb729f889e964"><div class="ttname"><a href="../../dd/d7a/serverlist_8qh.html#a66674bec022085770debb729f889e964">cat_enoverride</a></div><div class="ttdeci">float cat_enoverride</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d7a/serverlist_8qh_source.html#l00142">serverlist.qh:142</a></div></div>
@@ -1472,7 +1473,7 @@ $(document).ready(function(){initNavTree('d6/d74/serverlist_8qc_source.html','..
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../dir_53efa11b035745576779f641909983cd.html">xonotic</a></li><li class="navelem"><a class="el" href="../../d6/d74/serverlist_8qc.html">serverlist.qc</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:21 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:24 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

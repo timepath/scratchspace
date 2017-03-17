@@ -188,7 +188,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00169">169</a> of file <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html">weaponsystem.qc</a>.</p>
 
-<p>References <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00115">CL_ExteriorWeaponentity_Think()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00047">CL_Weaponentity_CustomizeEntityForClient()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00070">CL_Weaponentity_Think()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../da/d5e/common_2models_2model_8qh_source.html#l00003">setmodel</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00126">SOLID_NOT</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00011">weaponentities</a>.</p>
+<p>References <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00115">CL_ExteriorWeaponentity_Think()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00047">CL_Weaponentity_CustomizeEntityForClient()</a>, <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00070">CL_Weaponentity_Think()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../da/d5e/common_2models_2model_8qh_source.html#l00003">setmodel</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>, <a class="el" href="../../d4/d92/csqc__constants_8qh_source.html#l00126">SOLID_NOT</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">time</a>, and <a class="el" href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00011">weaponentities</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/dd7/server_2client_8qc_source.html#l00492">PutClientInServer()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;{</div>
@@ -196,7 +196,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    view.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>;</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    view.owner = actor;</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;    <a class="code" href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a>(view, MDL_Null);  <span class="comment">// precision set when changed</span></div>
-<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    setorigin(view, <span class="stringliteral">&#39;0 0 0&#39;</span>);</div>
+<div class="line"><a name="l00175"></a><span class="lineno">  175</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(view, <span class="stringliteral">&#39;0 0 0&#39;</span>);</div>
 <div class="line"><a name="l00176"></a><span class="lineno">  176</span>&#160;    view.weaponentity_fld = weaponentity;</div>
 <div class="line"><a name="l00177"></a><span class="lineno">  177</span>&#160;    <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(view, <a class="code" href="../../d5/de0/weaponsystem_8qc.html#a3f9b3f390008e2bc8f0cfdcd8ca141db">CL_Weaponentity_Think</a>);</div>
 <div class="line"><a name="l00178"></a><span class="lineno">  178</span>&#160;    view.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
@@ -211,7 +211,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00187"></a><span class="lineno">  187</span>&#160;        exterior.solid = <a class="code" href="../../d4/d92/csqc__constants_8qh.html#a80f88020d757084daf5da0a022f59e05">SOLID_NOT</a>;</div>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;        exterior.owner = actor;</div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        exterior.weaponentity_fld = weaponentity;</div>
-<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        setorigin(exterior, <span class="stringliteral">&#39;0 0 0&#39;</span>);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(exterior, <span class="stringliteral">&#39;0 0 0&#39;</span>);</div>
 <div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <a class="code" href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a>(exterior, <a class="code" href="../../d5/de0/weaponsystem_8qc.html#adaf855bb86ef53119fa756a62e6127be">CL_ExteriorWeaponentity_Think</a>);</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        exterior.nextthink = <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a>;</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;</div>
@@ -225,6 +225,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="weaponsystem_8qc_html_a3f9b3f390008e2bc8f0cfdcd8ca141db"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#a3f9b3f390008e2bc8f0cfdcd8ca141db">CL_Weaponentity_Think</a></div><div class="ttdeci">void CL_Weaponentity_Think(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00070">weaponsystem.qc:70</a></div></div>
 <div class="ttc" id="weaponsystem_8qc_html_aec5e2aede6ee988407e695b747aa1577"><div class="ttname"><a href="../../d5/de0/weaponsystem_8qc.html#aec5e2aede6ee988407e695b747aa1577">CL_Weaponentity_CustomizeEntityForClient</a></div><div class="ttdeci">bool CL_Weaponentity_CustomizeEntityForClient(entity this, entity client)</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/de0/weaponsystem_8qc_source.html#l00047">weaponsystem.qc:47</a></div></div>
 <div class="ttc" id="weapons_2weapon_8qh_html_a6c083826b597734af72d573025ce48ad"><div class="ttname"><a href="../../d2/d1c/weapons_2weapon_8qh.html#a6c083826b597734af72d573025ce48ad">weaponentities</a></div><div class="ttdeci">entity weaponentities[MAX_WEAPONSLOTS]</div><div class="ttdef"><b>Definition:</b> <a href="../../d2/d1c/weapons_2weapon_8qh_source.html#l00011">weapon.qh:11</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a8b8dfe2335a5bf90695960dc6a1c5d3b"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a8b8dfe2335a5bf90695960dc6a1c5d3b">time</a></div><div class="ttdeci">float time</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00016">csprogsdefs.qc:16</a></div></div>
 </div><!-- fragment -->
@@ -233,7 +234,7 @@ Variables</h2></td></tr>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/db7/weaponsystem_8qh_aa6d337210081fd47ddca43564d7bf9c3_cgraph.svg" width="550" height="218"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/db7/weaponsystem_8qh_aa6d337210081fd47ddca43564d7bf9c3_cgraph.svg" width="550" height="268"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -348,7 +349,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html#l00627">627</a> of file <a class="el" href="../../d5/de0/weaponsystem_8qc_source.html">weaponsystem.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00016">gettagindex</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../d3/d9e/dpextensions_8qh_source.html#l00016">gettagindex</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, and <a class="el" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00628"></a><span class="lineno">  628</span>&#160;{</div>
 <div class="line"><a name="l00629"></a><span class="lineno">  629</span>&#160;    flash.owner = actor;</div>
 <div class="line"><a name="l00630"></a><span class="lineno">  630</span>&#160;    flash.angles_z = <a class="code" href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a>() * 360;</div>
@@ -358,7 +359,7 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00634"></a><span class="lineno">  634</span>&#160;</div>
 <div class="line"><a name="l00635"></a><span class="lineno">  635</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8">gettagindex</a>(view, <span class="stringliteral">&quot;shot&quot;</span>)) setattachment(flash, view, <span class="stringliteral">&quot;shot&quot;</span>);</div>
 <div class="line"><a name="l00636"></a><span class="lineno">  636</span>&#160;    <span class="keywordflow">else</span> setattachment(flash, view, <span class="stringliteral">&quot;tag_shot&quot;</span>);</div>
-<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;    setorigin(flash, offset);</div>
+<div class="line"><a name="l00637"></a><span class="lineno">  637</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(flash, offset);</div>
 <div class="line"><a name="l00638"></a><span class="lineno">  638</span>&#160;</div>
 <div class="line"><a name="l00639"></a><span class="lineno">  639</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> xflash = <a class="code" href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a>();</div>
 <div class="line"><a name="l00640"></a><span class="lineno">  640</span>&#160;    <a class="code" href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity</a>(flash, xflash);</div>
@@ -368,19 +369,20 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00644"></a><span class="lineno">  644</span>&#160;    <span class="keywordflow">if</span> (view.oldorigin.x &gt; 0)</div>
 <div class="line"><a name="l00645"></a><span class="lineno">  645</span>&#160;    {</div>
 <div class="line"><a name="l00646"></a><span class="lineno">  646</span>&#160;        setattachment(xflash, exterior, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;        setorigin(xflash, view.oldorigin + offset);</div>
+<div class="line"><a name="l00647"></a><span class="lineno">  647</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(xflash, view.oldorigin + offset);</div>
 <div class="line"><a name="l00648"></a><span class="lineno">  648</span>&#160;    }</div>
 <div class="line"><a name="l00649"></a><span class="lineno">  649</span>&#160;    <span class="keywordflow">else</span></div>
 <div class="line"><a name="l00650"></a><span class="lineno">  650</span>&#160;    {</div>
 <div class="line"><a name="l00651"></a><span class="lineno">  651</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="../../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8">gettagindex</a>(exterior, <span class="stringliteral">&quot;shot&quot;</span>)) setattachment(xflash, exterior, <span class="stringliteral">&quot;shot&quot;</span>);</div>
 <div class="line"><a name="l00652"></a><span class="lineno">  652</span>&#160;        <span class="keywordflow">else</span> setattachment(xflash, exterior, <span class="stringliteral">&quot;tag_shot&quot;</span>);</div>
-<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;        setorigin(xflash, offset);</div>
+<div class="line"><a name="l00653"></a><span class="lineno">  653</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(xflash, offset);</div>
 <div class="line"><a name="l00654"></a><span class="lineno">  654</span>&#160;    }</div>
 <div class="line"><a name="l00655"></a><span class="lineno">  655</span>&#160;}</div>
 <div class="ttc" id="menudefs_8qc_html_a60338c2153150633178af678cf3ca57c"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a60338c2153150633178af678cf3ca57c">spawn</a></div><div class="ttdeci">entity spawn(void)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a1196d544e0b4dbb479f05cc4c6cc5516"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a1196d544e0b4dbb479f05cc4c6cc5516">copyentity</a></div><div class="ttdeci">void copyentity(entity src, entity dst)</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="dpextensions_8qh_html_a2b52021bdb54f8185679661d54611cd8"><div class="ttname"><a href="../../d3/d9e/dpextensions_8qh.html#a2b52021bdb54f8185679661d54611cd8">gettagindex</a></div><div class="ttdeci">#define gettagindex</div><div class="ttdef"><b>Definition:</b> <a href="../../d3/d9e/dpextensions_8qh_source.html#l00016">dpextensions.qh:16</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
 <div class="ttc" id="menudefs_8qc_html_a663ea6aa3c4923b3e065cf91cc319f1b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a663ea6aa3c4923b3e065cf91cc319f1b">random</a></div><div class="ttdeci">float random(void)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -388,7 +390,7 @@ Variables</h2></td></tr>
 <div id="dynsection-4-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-4-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/db7/weaponsystem_8qh_a813254341767de735265a1836478ad03_cgraph.svg" width="283" height="190"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../da/db7/weaponsystem_8qh_a813254341767de735265a1836478ad03_cgraph.svg" width="283" height="240"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1516,7 +1518,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_a670d2a6df59b34ddba61e40bf96dae9.html">weapons</a></li><li class="navelem"><a class="el" href="../../da/db7/weaponsystem_8qh.html">weaponsystem.qh</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:36 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:39 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

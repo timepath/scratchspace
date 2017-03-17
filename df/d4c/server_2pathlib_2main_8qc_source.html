@@ -161,7 +161,7 @@ $(document).ready(function(){initNavTree('df/d4c/server_2pathlib_2main_8qc_sourc
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    setsize(node, <span class="stringliteral">&#39;0 0 0&#39;</span>, <span class="stringliteral">&#39;0 0 0&#39;</span>);</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    setorigin(node, where);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(node, where);</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;<span class="preprocessor">#if DEBUGPATHING</span></div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;<span class="preprocessor"></span>    pathlib_showsquare(where, 1 ,15);</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -458,7 +458,7 @@ $(document).ready(function(){initNavTree('df/d4c/server_2pathlib_2main_8qc_sourc
 <div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    path.owner     = start;</div>
 <div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    path.path_next = <a class="code" href="../../d0/d6e/impulses_2all_8qh.html#acde7555eca71d1f823fbaf6f6a1f4670">next</a>;</div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;</div>
-<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    setorigin(path, where);</div>
+<div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(path, where);</div>
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160;</div>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;    <span class="keywordflow">if</span>(!next)</div>
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;        path.classname = <span class="stringliteral">&quot;path_end&quot;</span>;</div>
@@ -570,7 +570,7 @@ $(document).ready(function(){initNavTree('df/d4c/server_2pathlib_2main_8qc_sourc
 <div class="line"><a name="l00463"></a><span class="lineno">  463</span>&#160;</div>
 <div class="line"><a name="l00464"></a><span class="lineno">  464</span>&#160;        open           = <span class="keyword">new</span>(path_end);</div>
 <div class="line"><a name="l00465"></a><span class="lineno">  465</span>&#160;        open.owner     = open;</div>
-<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        setorigin(open, path.origin);</div>
+<div class="line"><a name="l00466"></a><span class="lineno">  466</span>&#160;        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(open, path.origin);</div>
 <div class="line"><a name="l00467"></a><span class="lineno">  467</span>&#160;</div>
 <div class="line"><a name="l00468"></a><span class="lineno">  468</span>&#160;        <a class="code" href="../../df/d4c/server_2pathlib_2main_8qc.html#a928781de46c90ca77a40c7ece2a97535">pathlib_cleanup</a>();</div>
 <div class="line"><a name="l00469"></a><span class="lineno">  469</span>&#160;</div>
@@ -746,6 +746,7 @@ $(document).ready(function(){initNavTree('df/d4c/server_2pathlib_2main_8qc_sourc
 <div class="ttc" id="pathlib_8qh_html_ad7de5bcdc8408ab70bbdd24a06e56c57"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#ad7de5bcdc8408ab70bbdd24a06e56c57">pathlib_bestcash_hits</a></div><div class="ttdeci">float pathlib_bestcash_hits</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00053">pathlib.qh:53</a></div></div>
 <div class="ttc" id="server_2pathlib_2main_8qc_html_ad4452966a687ba92bf4d168352ba5ed5"><div class="ttname"><a href="../../df/d4c/server_2pathlib_2main_8qc.html#ad4452966a687ba92bf4d168352ba5ed5">path_build</a></div><div class="ttdeci">entity path_build(entity next, vector where, entity prev, entity start)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d4c/server_2pathlib_2main_8qc_source.html#l00340">main.qc:340</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a5a51f82b0e067ae62972297351d205d2"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a5a51f82b0e067ae62972297351d205d2">gettime</a></div><div class="ttdeci">float gettime(void)</div></div>
+<div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
 <div class="ttc" id="self_8qh_html_a5d49dd594a11222e95b4160567acd000"><div class="ttname"><a href="../../d3/dd0/self_8qh.html#a5d49dd594a11222e95b4160567acd000">setthink</a></div><div class="ttdeci">#define setthink(e, f)</div></div>
 <div class="ttc" id="pathlib_8qh_html_a09965754c70dee3e4bd6cc3ab27ebdfa"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#a09965754c70dee3e4bd6cc3ab27ebdfa">pathlib_movecost_diag</a></div><div class="ttdeci">float pathlib_movecost_diag</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00057">pathlib.qh:57</a></div></div>
 <div class="ttc" id="pathlib_8qh_html_af04218a06b17265edbc734b786dc7ff3"><div class="ttname"><a href="../../dd/d70/pathlib_8qh.html#af04218a06b17265edbc734b786dc7ff3">tile_check_size</a></div><div class="ttdeci">float tile_check_size</div><div class="ttdef"><b>Definition:</b> <a href="../../dd/d70/pathlib_8qh_source.html#l00068">pathlib.qh:68</a></div></div>
@@ -767,7 +768,7 @@ $(document).ready(function(){initNavTree('df/d4c/server_2pathlib_2main_8qc_sourc
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_41e1742e44e2de38b3bc91f993fed282.html">server</a></li><li class="navelem"><a class="el" href="../../dir_038facabb326e47524555c6946dd7e55.html">pathlib</a></li><li class="navelem"><a class="el" href="../../df/d4c/server_2pathlib_2main_8qc.html">main.qc</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:17 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:20 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

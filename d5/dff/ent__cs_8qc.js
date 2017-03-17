@@ -1,6 +1,28 @@
 var ent__cs_8qc =
 [
-    [ "ENTCS_NETPROPS", "d5/dff/ent__cs_8qc.html#a4d3c6fb0e4164fea073f9d52a762a1b4", null ],
     [ "ENTCS_SET_MUTABLE_STRING", "d5/dff/ent__cs_8qc.html#a010b8f628edd49273a243ca7f5b7c734", null ],
-    [ "ENTCS_SET_NORMAL", "d5/dff/ent__cs_8qc.html#a6306e7d46fd8823fc00fcec67b6b3f6e", null ]
+    [ "ENTCS_SET_NORMAL", "d5/dff/ent__cs_8qc.html#a6306e7d46fd8823fc00fcec67b6b3f6e", null ],
+    [ "EntCSProps_from", "d5/dff/ent__cs_8qc.html#aeb8a809be23ded06cd67e783c3ab2bcc", null ],
+    [ "bool", "d5/dff/ent__cs_8qc.html#abddc8c0666aac37c58bf3dfd70737439", null ],
+    [ "ENTCS_PROP", "d5/dff/ent__cs_8qc.html#a8270ff1716b193a6116a6f17aa5154b0", null ],
+    [ "ENTCS_PROP", "d5/dff/ent__cs_8qc.html#a3081507e6ab893169ee1a5cb50d218f6", null ],
+    [ "ENTCS_PROP", "d5/dff/ent__cs_8qc.html#a862fe317fc41ba12d1ca8285fb3e553c", null ],
+    [ "ENTCS_PROP", "d5/dff/ent__cs_8qc.html#a3ca9f8ef3a127b7a78fdc4c579616253", null ],
+    [ "ENTCS_PROP", "d5/dff/ent__cs_8qc.html#a5c103f2e0392faffa43e379537466777", null ],
+    [ "setorigin", "d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8", null ],
+    [ "STATIC_INIT", "d5/dff/ent__cs_8qc.html#a38c6f68880542a1bcf0d6cee6e17943a", null ],
+    [ "void", "d5/dff/ent__cs_8qc.html#af3109085d66c319b94bb94209b3f92d2", null ],
+    [ "void", "d5/dff/ent__cs_8qc.html#aeba25bd4848439901edb068b5f827718", null ],
+    [ "void", "d5/dff/ent__cs_8qc.html#a12f6852eb93da8c1fba032b751d6ded6", null ],
+    [ "ENTCS_SET_MUTABLE_STRING", "d5/dff/ent__cs_8qc.html#ac960c2608598ffb56d78c40003dedc34", null ],
+    [ "ENTCS_SET_NORMAL", "d5/dff/ent__cs_8qc.html#a6b66bec340a4d48b6af634ef8887daa2", null ],
+    [ "false", "d5/dff/ent__cs_8qc.html#ae6c865df784842196d411c1466b01686", null ],
+    [ "frags", "d5/dff/ent__cs_8qc.html#a25e96bce6bfbe6aa5dffc5f44f7edbc7", null ],
+    [ "health", "d5/dff/ent__cs_8qc.html#ae2f10db0fed275ae9f323a3c41243971", null ],
+    [ "m_public", "d5/dff/ent__cs_8qc.html#a4d9f8f3fc6976dad79e966bcbb5a63f9", null ],
+    [ "netname", "d5/dff/ent__cs_8qc.html#aa3617b17b0191b4d9454096aff09e1fe", null ],
+    [ "origin", "d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3", null ],
+    [ "skin", "d5/dff/ent__cs_8qc.html#a4a71e1a0228e5137bd88f375acd8c15c", null ],
+    [ "true", "d5/dff/ent__cs_8qc.html#a1a24fc2eb8c1af6d06ac15bcec47f088", null ],
+    [ "v", "d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669", null ]
 ];

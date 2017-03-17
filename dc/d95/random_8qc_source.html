@@ -116,7 +116,7 @@ $(document).ready(function(){initNavTree('dc/d95/random_8qc_source.html','../../
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    <a class="code" href="../../db/d55/random_8qh.html#a218e10c5750eadf78eef5f816a554f12">RandomSelection_best_priority</a> = -1;</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;}</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;</div>
-<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../db/d55/random_8qh.html#a82430bf7854df5aaca467ac8eaa85d2c">   12</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/d95/random_8qc.html#a82430bf7854df5aaca467ac8eaa85d2c">RandomSelection_Add</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, <span class="keywordtype">float</span> f, <span class="keywordtype">string</span> s, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v, <span class="keywordtype">float</span> weight, <span class="keywordtype">float</span> priority)</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="../../db/d55/random_8qh.html#a82430bf7854df5aaca467ac8eaa85d2c">   12</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../dc/d95/random_8qc.html#a82430bf7854df5aaca467ac8eaa85d2c">RandomSelection_Add</a>(<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> e, <span class="keywordtype">float</span> f, <span class="keywordtype">string</span> s, <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>, <span class="keywordtype">float</span> weight, <span class="keywordtype">float</span> priority)</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="keywordflow">if</span> (priority &gt; <a class="code" href="../../db/d55/random_8qh.html#a218e10c5750eadf78eef5f816a554f12">RandomSelection_best_priority</a>)</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
@@ -124,7 +124,7 @@ $(document).ready(function(){initNavTree('dc/d95/random_8qc_source.html','../../
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a> = e;</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a32be35647dc9e998a1420a75ae306409">RandomSelection_chosen_float</a> = f;</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36">RandomSelection_chosen_string</a> = s;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#ab0a4a880a3543886477f951a6d30a908">RandomSelection_chosen_vec</a> = v;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#ab0a4a880a3543886477f951a6d30a908">RandomSelection_chosen_vec</a> = <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="../../db/d55/random_8qh.html#a552e08e5c3811a6e477b46d8419ecf3b">RandomSelection_totalweight</a> = weight;</div>
 <div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    }</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (priority == <a class="code" href="../../db/d55/random_8qh.html#a218e10c5750eadf78eef5f816a554f12">RandomSelection_best_priority</a>)</div>
@@ -135,7 +135,7 @@ $(document).ready(function(){initNavTree('dc/d95/random_8qc_source.html','../../
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#a86198c138394780d6c34d63ee910c243">RandomSelection_chosen_ent</a> = e;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#a32be35647dc9e998a1420a75ae306409">RandomSelection_chosen_float</a> = f;</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#a51879a4a245c602a28721b5596846f36">RandomSelection_chosen_string</a> = s;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#ab0a4a880a3543886477f951a6d30a908">RandomSelection_chosen_vec</a> = v;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <a class="code" href="../../db/d55/random_8qh.html#ab0a4a880a3543886477f951a6d30a908">RandomSelection_chosen_vec</a> = <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;        }</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    }</div>
 <div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;}</div>
@@ -213,7 +213,7 @@ $(document).ready(function(){initNavTree('dc/d95/random_8qc_source.html','../../
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
 <div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="../../db/d55/random_8qh.html#ac9374eebe45a9ddc064240323c12d086">  107</a></span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../dc/d95/random_8qc.html#ac9374eebe45a9ddc064240323c12d086">prandomvec</a>()</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;    {</div>
-<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <span class="keywordflow">do</span></div>
 <div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        {</div>
@@ -223,7 +223,7 @@ $(document).ready(function(){initNavTree('dc/d95/random_8qc_source.html','../../
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;        }</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;        <span class="keywordflow">while</span> (v * v &gt; 1);</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;</div>
-<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">return</span> v;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;    }</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;</div>
 <div class="line"><a name="l00122"></a><span class="lineno"><a class="line" href="../../db/d55/random_8qh.html#a68047c310b436d5b1125d0f0ca050c27">  122</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="../../dc/d95/random_8qc.html#a68047c310b436d5b1125d0f0ca050c27">psrandom</a>(<span class="keywordtype">float</span> seed)</div>
@@ -266,6 +266,7 @@ $(document).ready(function(){initNavTree('dc/d95/random_8qc_source.html','../../
 <div class="ttc" id="random_8qc_html_a68047c310b436d5b1125d0f0ca050c27"><div class="ttname"><a href="../../dc/d95/random_8qc.html#a68047c310b436d5b1125d0f0ca050c27">psrandom</a></div><div class="ttdeci">void psrandom(float seed)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d95/random_8qc_source.html#l00122">random.qc:122</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9fb8a895035d83abe9846f2a33470060"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a></div><div class="ttdeci">const float M_PI</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00269">csprogsdefs.qc:269</a></div></div>
 <div class="ttc" id="random_8qc_html_a82430bf7854df5aaca467ac8eaa85d2c"><div class="ttname"><a href="../../dc/d95/random_8qc.html#a82430bf7854df5aaca467ac8eaa85d2c">RandomSelection_Add</a></div><div class="ttdeci">void RandomSelection_Add(entity e, float f, string s, vector v, float weight, float priority)</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d95/random_8qc_source.html#l00012">random.qc:12</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a97b8e36976f1beb4970fe4ae7fb677fe"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a97b8e36976f1beb4970fe4ae7fb677fe">log</a></div><div class="ttdeci">float log(float f)</div></div>
 <div class="ttc" id="random_8qc_html_ac9374eebe45a9ddc064240323c12d086"><div class="ttname"><a href="../../dc/d95/random_8qc.html#ac9374eebe45a9ddc064240323c12d086">prandomvec</a></div><div class="ttdeci">vector prandomvec()</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d95/random_8qc_source.html#l00107">random.qc:107</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_a83f4d3f317a80e82e6b16ea61ea5efc3"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a83f4d3f317a80e82e6b16ea61ea5efc3">sqrt</a></div><div class="ttdeci">float sqrt(float f)</div></div>
@@ -283,7 +284,7 @@ $(document).ready(function(){initNavTree('dc/d95/random_8qc_source.html','../../
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dc/d95/random_8qc.html">random.qc</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:20 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:23 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

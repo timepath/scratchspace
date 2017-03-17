@@ -441,7 +441,7 @@ $(document).ready(function(){initNavTree('df/dc2/menu_8qc_source.html','../../')
 <div class="line"><a name="l00334"></a><span class="lineno"><a class="line" href="../../df/dc2/menu_8qc.html#abb122747ce3abb1b3feef039f875adbe">  334</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="../../df/dc2/menu_8qc.html#abb122747ce3abb1b3feef039f875adbe">drawBackground</a>(<span class="keywordtype">string</span> img, <span class="keywordtype">float</span> a, <span class="keywordtype">string</span> algn, <span class="keywordtype">float</span> force1)</div>
 <div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;{</div>
 <div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../d0/d41/menu_8qh.html#a4bd11f06d96b45bdf353de5f9acb0be1">main</a>.mainNexposee.ModalController_state == 0) <span class="keywordflow">return</span>;</div>
-<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
+<div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a> = <span class="stringliteral">&#39;0 0 0&#39;</span>;</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;    <span class="keywordtype">int</span> scalemode = <a class="code" href="../../df/dc2/menu_8qc.html#a99fb83031ce9923c84392b4e92f956b5a055065fdd48b49e5622c1d39b2528a99">SCALEMODE_CROP</a>;</div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0, l = 0; i &lt; <a class="code" href="../../d8/de2/menudefs_8qc.html#a274680f571a231ddf29421b93d434bfa">strlen</a>(algn); ++i)</div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;    {</div>
@@ -549,7 +549,7 @@ $(document).ready(function(){initNavTree('df/dc2/menu_8qc_source.html','../../')
 <div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;    avoidminus.z = 0;</div>
 <div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160;</div>
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;    <span class="comment">// bottom right</span></div>
-<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v = pos + avoidplus;</div>
+<div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a> = pos + avoidplus;</div>
 <div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;    <span class="keywordflow">if</span> (<a class="code" href="../../df/dc2/menu_8qc.html#a1937eff3e0fd72adb367d6c7822e0b33">m_testtooltipbox</a>(v)) <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;</div>
 <div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;    <span class="comment">// bottom center</span></div>
@@ -1251,6 +1251,7 @@ $(document).ready(function(){initNavTree('df/dc2/menu_8qc_source.html','../../')
 <div class="ttc" id="menudefs_8qc_html_a53c4a8e7afd17cad92bc00adba96bb78"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#a53c4a8e7afd17cad92bc00adba96bb78">find</a></div><div class="ttdeci">entity find(entity start,.string field, string match)</div></div>
 <div class="ttc" id="keycodes_8qc_html_a3555627cb4a3ca93d324f36fd94cff87"><div class="ttname"><a href="../../dc/d03/keycodes_8qc.html#a3555627cb4a3ca93d324f36fd94cff87">K_MOUSE1</a></div><div class="ttdeci">float K_MOUSE1</div><div class="ttdef"><b>Definition:</b> <a href="../../dc/d03/keycodes_8qc_source.html#l00129">keycodes.qc:129</a></div></div>
 <div class="ttc" id="slider__resolution_8qh_html"><div class="ttname"><a href="../../de/dde/slider__resolution_8qh.html">slider_resolution.qh</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 <div class="ttc" id="i18n_8qh_html_a18805774614f6b76795f1e6615f6f59c"><div class="ttname"><a href="../../d0/dfe/i18n_8qh.html#a18805774614f6b76795f1e6615f6f59c">prvm_language</a></div><div class="ttdeci">string prvm_language</div><div class="ttdef"><b>Definition:</b> <a href="../../d0/dfe/i18n_8qh_source.html#l00008">i18n.qh:8</a></div></div>
 <div class="ttc" id="menu_8qc_html_a8157138bc7577f81abbcbad8e57701a7"><div class="ttname"><a href="../../df/dc2/menu_8qc.html#a8157138bc7577f81abbcbad8e57701a7">vidwidth_s</a></div><div class="ttdeci">float vidwidth_s</div><div class="ttdef"><b>Definition:</b> <a href="../../df/dc2/menu_8qc_source.html#l00037">menu.qc:37</a></div></div>
 <div class="ttc" id="menu_2draw_8qh_html_af8bc78de646f77926ed2cc3a5f7c84d4"><div class="ttname"><a href="../../d9/d62/menu_2draw_8qh.html#af8bc78de646f77926ed2cc3a5f7c84d4">draw_alpha</a></div><div class="ttdeci">float draw_alpha</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d62/menu_2draw_8qh_source.html#l00009">draw.qh:9</a></div></div>
@@ -1312,7 +1313,7 @@ $(document).ready(function(){initNavTree('df/dc2/menu_8qc_source.html','../../')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_baddde578d762c90c1d949a22a636838.html">menu</a></li><li class="navelem"><a class="el" href="../../df/dc2/menu_8qc.html">menu.qc</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:20 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:23 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

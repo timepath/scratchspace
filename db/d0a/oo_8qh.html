@@ -1538,7 +1538,7 @@ Variables</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../db/d0a/oo_8qh_source.html#l00038">38</a> of file <a class="el" href="../../db/d0a/oo_8qh_source.html">oo.qh</a>.</p>
 
-<p>References <a class="el" href="../../db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4">_spawn()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00022">classname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">make_pure</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00024">sourceLoc</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00035">spawn_pure</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
+<p>References <a class="el" href="../../db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4">_spawn()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00022">classname</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00010">make_pure</a>, <a class="el" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin()</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00024">sourceLoc</a>, <a class="el" href="../../db/d0a/oo_8qh_source.html#l00035">spawn_pure</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00015">world</a>.</p>
 <div class="fragment"><div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;{</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a> <span class="keyword">this</span> = pure ? <a class="code" href="../../db/d0a/oo_8qh.html#a36118cf10a3e0ddef53ee10a2af4b519">spawn_pure</a>() : <a class="code" href="../../db/d0a/oo_8qh.html#aa90aa6b6b33b29c4b5568c7631b432e4">_spawn</a>();</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    this.<a class="code" href="../../db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec">classname</a> = _classname;</div>
@@ -1546,10 +1546,10 @@ Variables</h2></td></tr>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <span class="keywordflow">if</span> (pure) {</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <a class="code" href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a>(<span class="keyword">this</span>);</div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="preprocessor">        #ifdef CSQC</span></div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"></span>        setorigin(<span class="keyword">this</span>, (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.mins + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.maxs) * 0.5);</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(<span class="keyword">this</span>, (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.mins + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.maxs) * 0.5);</div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;<span class="preprocessor">        #endif</span></div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;<span class="preprocessor"></span><span class="preprocessor">        #ifdef SVQC</span></div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor"></span>        setorigin(<span class="keyword">this</span>, (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.mins + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.maxs) * 0.5);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;<span class="preprocessor"></span>        <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(<span class="keyword">this</span>, (<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.mins + <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a77a8bd38bace6ec11761fa36b4f7dceb">world</a>.maxs) * 0.5);</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">        #endif</span></div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;<span class="preprocessor"></span>    }</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
@@ -1561,13 +1561,14 @@ Variables</h2></td></tr>
 <div class="ttc" id="oo_8qh_html_a043f948e4e7baf6d377042db945de9ec"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a043f948e4e7baf6d377042db945de9ec">classname</a></div><div class="ttdeci">string classname</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00022">oo.qh:22</a></div></div>
 <div class="ttc" id="oo_8qh_html_a36118cf10a3e0ddef53ee10a2af4b519"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a36118cf10a3e0ddef53ee10a2af4b519">spawn_pure</a></div><div class="ttdeci">#define spawn_pure()</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00035">oo.qh:35</a></div></div>
 <div class="ttc" id="oo_8qh_html_a38b2e3be8bac16c7e501868868a5a2ff"><div class="ttname"><a href="../../db/d0a/oo_8qh.html#a38b2e3be8bac16c7e501868868a5a2ff">make_pure</a></div><div class="ttdeci">#define make_pure(e)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d0a/oo_8qh_source.html#l00010">oo.qh:10</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d0a/oo_8qh_a186a598b3718eb17a3e2fadd94952be3_cgraph.svg" width="200" height="88"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
+<div class="center"><iframe scrolling="no" frameborder="0" src="../../db/d0a/oo_8qh_a186a598b3718eb17a3e2fadd94952be3_cgraph.svg" width="206" height="139"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
 </div>
 </div>
 </p>
@@ -1906,7 +1907,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../db/d0a/oo_8qh.html">oo.qh</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:29 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:32 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

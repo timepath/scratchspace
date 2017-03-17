@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    this.origin_x = ReadCoord();</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    this.origin_y = ReadCoord();</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    this.origin_z = ReadCoord();</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    setorigin(<span class="keyword">this</span>, this.<a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a>);</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    <a class="code" href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a>(<span class="keyword">this</span>, this.<a class="code" href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a>);</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    this.angles_x = ReadAngle();</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    this.angles_y = ReadAngle();</div>
@@ -181,6 +181,7 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="ttc" id="csprogsdefs_8qc_html_acbb54a239d76062465dccbc6a6c6e464"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#acbb54a239d76062465dccbc6a6c6e464">entity</a></div><div class="ttdeci">entity() spawn</div></div>
 <div class="ttc" id="csqc__constants_8qh_html_a8e6aea49b9bc341cc7a3e4bec79f866f"><div class="ttname"><a href="../../d4/d92/csqc__constants_8qh.html#a8e6aea49b9bc341cc7a3e4bec79f866f">MASK_NORMAL</a></div><div class="ttdeci">const int MASK_NORMAL</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d92/csqc__constants_8qh_source.html#l00006">csqc_constants.qh:6</a></div></div>
 <div class="ttc" id="lib_2net_8qh_html_a2c87ee9a4aa12245bb6e80f321975ded"><div class="ttname"><a href="../../d9/d48/lib_2net_8qh.html#a2c87ee9a4aa12245bb6e80f321975ded">NET_HANDLE</a></div><div class="ttdeci">#define NET_HANDLE(id, param)</div><div class="ttdef"><b>Definition:</b> <a href="../../d9/d48/lib_2net_8qh_source.html#l00010">net.qh:10</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_a06dbc3a3eb5aaab80edf32ea607f1ef3"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a06dbc3a3eb5aaab80edf32ea607f1ef3">origin</a></div><div class="ttdeci">origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00048">ent_cs.qc:48</a></div></div>
 <div class="ttc" id="view_8qc_html_aaedfb15dac0fc5308e64d3b3d58cf76f"><div class="ttname"><a href="../../d6/dd3/view_8qc.html#aaedfb15dac0fc5308e64d3b3d58cf76f">WantEventchase</a></div><div class="ttdeci">bool WantEventchase(entity this)</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/dd3/view_8qc_source.html#l00758">view.qc:758</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="common_2models_2model_8qh_html_afcd7089918b04edc6747ce58850b51ae"><div class="ttname"><a href="../../da/d5e/common_2models_2model_8qh.html#afcd7089918b04edc6747ce58850b51ae">setmodel</a></div><div class="ttdeci">#define setmodel(e, m)</div><div class="ttdef"><b>Definition:</b> <a href="../../da/d5e/common_2models_2model_8qh_source.html#l00003">model.qh:3</a></div></div>
@@ -188,15 +189,15 @@ $(document).ready(function(){initNavTree('d4/d13/onslaught_8qc_source.html','../
 <div class="ttc" id="post_8qh_html_a070d2ce7b6bb7e5c05602aa8c308d0c4"><div class="ttname"><a href="../../d6/da0/post_8qh.html#a070d2ce7b6bb7e5c05602aa8c308d0c4">NULL</a></div><div class="ttdeci">#define NULL</div><div class="ttdef"><b>Definition:</b> <a href="../../d6/da0/post_8qh_source.html#l00017">post.qh:17</a></div></div>
 <div class="ttc" id="common_2mutators_2events_8qh_html_a0ca65845a9480e0058f0db84dd1ae70f"><div class="ttname"><a href="../../d4/d95/common_2mutators_2events_8qh.html#a0ca65845a9480e0058f0db84dd1ae70f">M_ARGV</a></div><div class="ttdeci">#define M_ARGV(x, type)</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d95/common_2mutators_2events_8qh_source.html#l00017">events.qh:17</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a14769f9d8ebf5bb5c99f1cddeb99f567"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a14769f9d8ebf5bb5c99f1cddeb99f567">drawmask</a></div><div class="ttdeci">float drawmask</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00095">csprogsdefs.qc:95</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_ac459a724c1fe031c6658fff554b12ea8"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#ac459a724c1fe031c6658fff554b12ea8">setorigin</a></div><div class="ttdeci">setorigin(ent, v)</div></div>
 <div class="ttc" id="base_8qh_html_a533b5d029770dd5128458c00517d6fc0"><div class="ttname"><a href="../../db/d38/base_8qh.html#a533b5d029770dd5128458c00517d6fc0">MUTATOR_HOOKFUNCTION</a></div><div class="ttdeci">#define MUTATOR_HOOKFUNCTION(...)</div><div class="ttdef"><b>Definition:</b> <a href="../../db/d38/base_8qh_source.html#l00298">base.qh:298</a></div></div>
-<div class="ttc" id="csprogsdefs_8qc_html_abe72a6bafb55848ec9cd7f81a6de3c29"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#abe72a6bafb55848ec9cd7f81a6de3c29">origin</a></div><div class="ttdeci">vector origin</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00101">csprogsdefs.qc:101</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_bdd9a5d540de89e9fe90efdfc6973a4f.html">common</a></li><li class="navelem"><a class="el" href="../../dir_9658490e6277b5140a6664b0ad39b8f9.html">gamemodes</a></li><li class="navelem"><a class="el" href="../../dir_2c8f0fc99d1cf2e0f6564f3405184140.html">gamemode</a></li><li class="navelem"><a class="el" href="../../dir_485953d51457a9f079ff3eef255d57d0.html">onslaught</a></li><li class="navelem"><a class="el" href="../../d4/d13/onslaught_8qc.html">onslaught.qc</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:18 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:21 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>

@@ -949,16 +949,17 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00077">77</a> of file <a class="el" href="../../df/d38/mathlib_8qc_source.html">mathlib.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00085">ilogb()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00085">ilogb()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00050">v</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;{</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;    v.z = 0;</div>
 <div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;    v.y = <a class="code" href="../../df/d38/mathlib_8qc.html#a139f746835216f57f1e806999b218879">ilogb</a>(e) + 1;</div>
 <div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;    v.x = e / (2 ** v.y);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">return</span> v;</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="mathlib_8qc_html_a139f746835216f57f1e806999b218879"><div class="ttname"><a href="../../df/d38/mathlib_8qc.html#a139f746835216f57f1e806999b218879">ilogb</a></div><div class="ttdeci">int ilogb(float e)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00085">mathlib.qc:85</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-22" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-22-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -1445,7 +1446,7 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00143">143</a> of file <a class="el" href="../../df/d38/mathlib_8qc_source.html">mathlib.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00216">copysign()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00017">isfinite()</a>, <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00143">lgamma()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a97b8e36976f1beb4970fe4ae7fb677fe">log()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00269">M_PI</a>, <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00220">nan()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00216">copysign()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor()</a>, <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00017">isfinite()</a>, <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00143">lgamma()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a97b8e36976f1beb4970fe4ae7fb677fe">log()</a>, <a class="el" href="../../d4/d0c/csprogsdefs_8qc_source.html#l00269">M_PI</a>, <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00220">nan()</a>, <a class="el" href="../../d8/de2/menudefs_8qc.html#aaabd4c5f172530d93a3b9c30a9e21b88">sin()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00050">v</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 
 <p>Referenced by <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00143">lgamma()</a>, and <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00170">tgamma()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;{</div>
@@ -1456,7 +1457,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../df/d38/mathlib_8qc.html#a2af75f227c66609ef95f0bec5a99a536">nan</a>(<span class="stringliteral">&quot;gamma&quot;</span>) * <span class="stringliteral">&#39;1 1 1&#39;</span>;</div>
 <div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    <span class="keywordflow">if</span>(e &lt; 0.1)</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    {</div>
-<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;        <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;        v = <a class="code" href="../../df/d38/mathlib_8qc.html#a659c66483cd7c3631f185f4fbd45affb">lgamma</a>(1.0 - e);</div>
 <div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="comment">// reflection formula:</span></div>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;        <span class="comment">// gamma(1-z) * gamma(z) = pi / sin(pi*z)</span></div>
@@ -1467,7 +1468,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">if</span>(v.z &lt; 0)</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;            v.y = -v.y;</div>
 <div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160;        v.z = 0;</div>
-<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keywordflow">return</span> v;</div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;    }</div>
 <div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;    <span class="keywordflow">if</span>(e &lt; 1.1)</div>
 <div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="../../df/d38/mathlib_8qc.html#a659c66483cd7c3631f185f4fbd45affb">lgamma</a>(e + 1) - <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a97b8e36976f1beb4970fe4ae7fb677fe">log</a>(e) * <span class="stringliteral">&#39;1 0 0&#39;</span>;</div>
@@ -1480,6 +1481,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a9fb8a895035d83abe9846f2a33470060"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a9fb8a895035d83abe9846f2a33470060">M_PI</a></div><div class="ttdeci">const float M_PI</div><div class="ttdef"><b>Definition:</b> <a href="../../d4/d0c/csprogsdefs_8qc_source.html#l00269">csprogsdefs.qc:269</a></div></div>
 <div class="ttc" id="mathlib_8qc_html_a2af75f227c66609ef95f0bec5a99a536"><div class="ttname"><a href="../../df/d38/mathlib_8qc.html#a2af75f227c66609ef95f0bec5a99a536">nan</a></div><div class="ttdeci">float nan(string tag)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00220">mathlib.qc:220</a></div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a97b8e36976f1beb4970fe4ae7fb677fe"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a97b8e36976f1beb4970fe4ae7fb677fe">log</a></div><div class="ttdeci">float log(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_accccfae161879454243b3a8695a9bf3b"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#accccfae161879454243b3a8695a9bf3b">fabs</a></div><div class="ttdeci">float fabs(float f)</div></div>
 <div class="ttc" id="menudefs_8qc_html_ad5a3e16aa960bd72d3ca37a618eea802"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ad5a3e16aa960bd72d3ca37a618eea802">floor</a></div><div class="ttdeci">float floor(float f)</div></div>
@@ -2078,15 +2080,16 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00207">207</a> of file <a class="el" href="../../df/d38/mathlib_8qc_source.html">mathlib.qc</a>.</p>
 
-<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00050">v</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00208"></a><span class="lineno">  208</span>&#160;{</div>
-<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v;</div>
+<div class="line"><a name="l00209"></a><span class="lineno">  209</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00210"></a><span class="lineno">  210</span>&#160;    v.z = 0;</div>
 <div class="line"><a name="l00211"></a><span class="lineno">  211</span>&#160;    v.y = <a class="code" href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a>(e / f);</div>
 <div class="line"><a name="l00212"></a><span class="lineno">  212</span>&#160;    v.x = e - f * v.y;</div>
-<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordflow">return</span> v;</div>
+<div class="line"><a name="l00213"></a><span class="lineno">  213</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a>;</div>
 <div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;}</div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 <div class="ttc" id="menudefs_8qc_html_ab8b85fda1f4e4157ff583a91373b2f71"><div class="ttname"><a href="../../d8/de2/menudefs_8qc.html#ab8b85fda1f4e4157ff583a91373b2f71">rint</a></div><div class="ttdeci">float rint(float f)</div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-50" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -2262,14 +2265,15 @@ Functions</h2></td></tr>
 
 <p>Definition at line <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00170">170</a> of file <a class="el" href="../../df/d38/mathlib_8qc_source.html">mathlib.qc</a>.</p>
 
-<p>References <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00064">exp()</a>, <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00143">lgamma()</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
+<p>References <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00064">exp()</a>, <a class="el" href="../../df/d38/mathlib_8qc_source.html#l00143">lgamma()</a>, <a class="el" href="../../d5/dff/ent__cs_8qc_source.html#l00050">v</a>, and <a class="el" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector()</a>.</p>
 <div class="fragment"><div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;{</div>
-<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> v = <a class="code" href="../../df/d38/mathlib_8qc.html#a659c66483cd7c3631f185f4fbd45affb">lgamma</a>(e);</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    <a class="code" href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a> <a class="code" href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a> = <a class="code" href="../../df/d38/mathlib_8qc.html#a659c66483cd7c3631f185f4fbd45affb">lgamma</a>(e);</div>
 <div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160;    <span class="keywordflow">return</span> <a class="code" href="../../df/d38/mathlib_8qc.html#a66f6ff0260855f272e4f24b7a3d724ea">exp</a>(v.x) * v.y;</div>
 <div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160;}</div>
 <div class="ttc" id="mathlib_8qc_html_a659c66483cd7c3631f185f4fbd45affb"><div class="ttname"><a href="../../df/d38/mathlib_8qc.html#a659c66483cd7c3631f185f4fbd45affb">lgamma</a></div><div class="ttdeci">vector lgamma(float e)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00143">mathlib.qc:143</a></div></div>
 <div class="ttc" id="mathlib_8qc_html_a66f6ff0260855f272e4f24b7a3d724ea"><div class="ttname"><a href="../../df/d38/mathlib_8qc.html#a66f6ff0260855f272e4f24b7a3d724ea">exp</a></div><div class="ttdeci">float exp(float e)</div><div class="ttdef"><b>Definition:</b> <a href="../../df/d38/mathlib_8qc_source.html#l00064">mathlib.qc:64</a></div></div>
 <div class="ttc" id="csprogsdefs_8qc_html_a4f0b78b1785821ba47129edb68e70f9e"><div class="ttname"><a href="../../d4/d0c/csprogsdefs_8qc.html#a4f0b78b1785821ba47129edb68e70f9e">vector</a></div><div class="ttdeci">vector(vector v) normalize</div></div>
+<div class="ttc" id="ent__cs_8qc_html_a97d29dd00b6beaea2033220877deb669"><div class="ttname"><a href="../../d5/dff/ent__cs_8qc.html#a97d29dd00b6beaea2033220877deb669">v</a></div><div class="ttdeci">vector v</div><div class="ttdef"><b>Definition:</b> <a href="../../d5/dff/ent__cs_8qc_source.html#l00050">ent_cs.qc:50</a></div></div>
 </div><!-- fragment -->
 <p><div id="dynsection-55" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-55-trigger" src="../../closed.png" alt="+"/> Here is the call graph for this function:</div>
@@ -2336,7 +2340,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li><li class="navelem"><a class="el" href="../../dir_58d953ef34ccfc4a49203206a34466c3.html">warpzone</a></li><li class="navelem"><a class="el" href="../../df/d38/mathlib_8qc.html">mathlib.qc</a></li>
-    <li class="footer">Generated on Thu Mar 16 2017 18:07:30 for Xonotic by
+    <li class="footer">Generated on Fri Mar 17 2017 13:37:33 for Xonotic by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="../../doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
   </ul>
