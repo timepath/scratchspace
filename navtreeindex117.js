@@ -1,5 +1,7 @@
 var NAVTREEINDEX117 =
 {
+"dd/dd7/classRacer.html#a5eac91242b08c3ebbd9aafc747c563ba":[1,0,101,17],
+"dd/dd7/classRacer.html#a61ea6a26997c4c9f310303db2d27fe61":[1,0,101,24],
 "dd/dd7/classRacer.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,101,5],
 "dd/dd7/classRacer.html#a70e84502249082a3676988cfb618baf5":[1,0,101,4],
 "dd/dd7/classRacer.html#a7ab4ce7a1aed2746e0eaf5c15d29b279":[1,0,101,20],
@@ -247,7 +249,5 @@ var NAVTREEINDEX117 =
 "dd/dfa/gamemode__ctf_8qh.html#a993277c6bdefc99a8548fc9952b8342e":[2,0,6,3,0,7,14],
 "dd/dfa/gamemode__ctf_8qh.html#aab7d882c24ab1f79cb82f34828f44ec9":[2,0,6,3,0,7,1],
 "dd/dfa/gamemode__ctf_8qh.html#ab1428c69c3b93dcad765e014b2bdd257":[2,0,6,3,0,7,2],
-"dd/dfa/gamemode__ctf_8qh.html#aca93cf8f2153ac4a9d2260d28116e7c3":[2,0,6,3,0,7,8],
-"dd/dfa/gamemode__ctf_8qh.html#ad2a992775d438b044afe5d9f501200ce":[2,0,6,3,0,7,4],
-"dd/dfa/gamemode__ctf_8qh.html#ad57b1082f4652e3c4e67b7b7804e09c7":[2,0,6,3,0,7,0]
+"dd/dfa/gamemode__ctf_8qh.html#aca93cf8f2153ac4a9d2260d28116e7c3":[2,0,6,3,0,7,8]
 };

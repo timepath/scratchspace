@@ -244,10 +244,10 @@ var NAVTREEINDEX91 =
 "da/dc1/dialog__hudpanel__modicons_8qh_source.html":[2,0,5,4,59],
 "da/dc1/server_2player_8qh.html":[2,0,6,48],
 "da/dc1/server_2player_8qh.html#a0390f6703ace29f61655694b8821d84a":[2,0,6,48,5],
-"da/dc1/server_2player_8qh.html#a1c410fc9bd28c7dc68df6706900a768e":[2,0,6,48,15],
+"da/dc1/server_2player_8qh.html#a1c410fc9bd28c7dc68df6706900a768e":[2,0,6,48,16],
 "da/dc1/server_2player_8qh.html#a1f636403184e26ea4190e989009ab0a1":[2,0,6,48,9],
 "da/dc1/server_2player_8qh.html#a2fb495970d5532052a094294e8082238":[2,0,6,48,6],
-"da/dc1/server_2player_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9":[2,0,6,48,14],
-"da/dc1/server_2player_8qh.html#a3ec86404101072a18190c63b450c508b":[2,0,6,48,11],
+"da/dc1/server_2player_8qh.html#a321a0cb3fe08db0b8fc10227895bb5b9":[2,0,6,48,15],
+"da/dc1/server_2player_8qh.html#a3ec86404101072a18190c63b450c508b":[2,0,6,48,12],
 "da/dc1/server_2player_8qh.html#a51c4a1afebc1206d7849ebd9f21e2f3b":[2,0,6,48,7]
 };

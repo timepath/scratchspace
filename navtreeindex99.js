@@ -1,5 +1,6 @@
 var NAVTREEINDEX99 =
 {
+"db/d7f/effectinfo_8inc.html#aad3857bc5a77e2d82197346b3512247b":[2,0,1,2,7,22],
 "db/d7f/effectinfo_8inc.html#ab0199c4ed725d53cb04524ac4a3210a5":[2,0,1,2,7,59],
 "db/d7f/effectinfo_8inc.html#ab0894bea2672f5c99a19283c25e46e17":[2,0,1,2,7,212],
 "db/d7f/effectinfo_8inc.html#ab11040668185ae4161245bd3ffa6dab2":[2,0,1,2,7,329],
@@ -226,10 +227,11 @@ var NAVTREEINDEX99 =
 "db/d9b/server_2player_8qc.html#a74a2991ad4b1aad6bfc27e899c563d29":[2,0,6,47,4],
 "db/d9b/server_2player_8qc.html#a7b50d8e84036f411ff923c7d63f7d88f":[2,0,6,47,9],
 "db/d9b/server_2player_8qc.html#a9d529760b279c19bb3b1d15c4da335d1":[2,0,6,47,0],
-"db/d9b/server_2player_8qc.html#abb0f165077ac886332b821ac30314b8a":[2,0,6,47,10],
+"db/d9b/server_2player_8qc.html#abb0f165077ac886332b821ac30314b8a":[2,0,6,47,11],
 "db/d9b/server_2player_8qc.html#aef50b8473159af9d6f77b966bc0cbe00":[2,0,6,47,2],
 "db/d9b/server_2player_8qc.html#af02653db703c3e3f494f19b4f6f8b8b1":[2,0,6,47,7],
 "db/d9b/server_2player_8qc.html#af2cf7e359cda23b596ac40cda3f9ba87":[2,0,6,47,1],
+"db/d9b/server_2player_8qc.html#af95438c9bb198a1d1c87af0260cc10a3":[2,0,6,47,10],
 "db/d9b/server_2player_8qc_source.html":[2,0,6,47],
 "db/d9d/common_2vehicles_2vehicle_2__mod_8qh.html":[2,0,1,15,0,1],
 "db/d9d/common_2vehicles_2vehicle_2__mod_8qh_source.html":[2,0,1,15,0,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX99 =
 "db/da0/log_8qh.html#a0a03b23b2bda32603235b3849e76e8e9":[2,0,4,30,32],
 "db/da0/log_8qh.html#a129f74b8c76f3d2309de5401b03e1740":[2,0,4,30,8],
 "db/da0/log_8qh.html#a13d54a54746c27ba1665ae15526b3d80":[2,0,4,30,24],
-"db/da0/log_8qh.html#a14f8d12a0e12508f13be68fcb2cb5caa":[2,0,4,30,20],
-"db/da0/log_8qh.html#a173881020b836d07fe6f2db242fbe0c7":[2,0,4,30,33],
-"db/da0/log_8qh.html#a2872337768358857f71a83488272df5b":[2,0,4,30,30]
+"db/da0/log_8qh.html#a14f8d12a0e12508f13be68fcb2cb5caa":[2,0,4,30,20]
 };

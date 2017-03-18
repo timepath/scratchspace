@@ -1,5 +1,7 @@
 var NAVTREEINDEX128 =
 {
+"df/d6e/globalsound_8qh.html#a174e24bd7d11e99d648c9333e3fb4adb":[2,0,1,2,0,12,25],
+"df/d6e/globalsound_8qh.html#a1757a961937623c2b340288ad97fddbb":[2,0,1,2,0,12,20],
 "df/d6e/globalsound_8qh.html#a1ec2f2eda1ed7f5dca01dafdda4e56f9":[2,0,1,2,0,12,18],
 "df/d6e/globalsound_8qh.html#a1f8a6acaa0307f5e57ea172ca84b785a":[2,0,1,2,0,12,1],
 "df/d6e/globalsound_8qh.html#a253fb1c445160cfbaf8be5e7b7d4ecc8":[2,0,1,2,0,12,26],
@@ -152,10 +154,10 @@ var NAVTREEINDEX128 =
 "df/d8c/cl__cmd_8qc.html#ac1a03af5c66e122f2e7ab5298a3df6f0":[2,0,0,0,2,33],
 "df/d8c/cl__cmd_8qc.html#ac6ad4f76e1fab870cd7b34e038a0a6c0":[2,0,0,0,2,14],
 "df/d8c/cl__cmd_8qc.html#ace6e22b7f453fe00f6629955c25e4fdc":[2,0,0,0,2,20],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
-"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,1],
 "df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,0],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,2],
+"df/d8c/cl__cmd_8qc.html#ad147636d9099395a473253cb65520f81":[2,0,0,0,2,3],
 "df/d8c/cl__cmd_8qc.html#ad966f981371e0b44769c51f16f4c02b7":[2,0,0,0,2,30],
 "df/d8c/cl__cmd_8qc.html#adbb663ad7fdfcb1e66eb6ae208b250fc":[2,0,0,0,2,27],
 "df/d8c/cl__cmd_8qc.html#ae174afbae94543b1db72d897e4595ee7":[2,0,0,0,2,4],
@@ -247,7 +249,5 @@ var NAVTREEINDEX128 =
 "df/d92/classXonoticWinnerDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,252,38],
 "df/d92/classXonoticWinnerDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,252,58],
 "df/d92/classXonoticWinnerDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,252,84],
-"df/d92/classXonoticWinnerDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,252,51],
-"df/d92/classXonoticWinnerDialog.html#ad0e2dd605dede88871a086b25be14420":[1,0,252,59],
-"df/d92/classXonoticWinnerDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,252,63]
+"df/d92/classXonoticWinnerDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,252,51]
 };

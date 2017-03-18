@@ -1,5 +1,7 @@
 var NAVTREEINDEX126 =
 {
+"df/d26/classXonoticGameSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,169,63],
+"df/d26/classXonoticGameSettingsTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,169,45],
 "df/d26/classXonoticGameSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,169,3],
 "df/d26/classXonoticGameSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,169,43],
 "df/d26/classXonoticGameSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,169,47],
@@ -247,7 +249,5 @@ var NAVTREEINDEX126 =
 "df/d42/quake3_8qc.html#a2b5940622e65c2f4e246f117173ec146":[2,0,6,2,6,43],
 "df/d42/quake3_8qc.html#a30b072432885c063f1843cba7b30e6db":[2,0,6,2,6,15],
 "df/d42/quake3_8qc.html#a30ec2cff6b0c52d858fdd8f0ed9ec59c":[2,0,6,2,6,23],
-"df/d42/quake3_8qc.html#a356cdc132874bc78fbf0d336b09bfef4":[2,0,6,2,6,18],
-"df/d42/quake3_8qc.html#a364f7b516d5ea74cfb729af8a9ff37b9":[2,0,6,2,6,12],
-"df/d42/quake3_8qc.html#a3f6c870596d153a0fee5eb30d3de3ec0":[2,0,6,2,6,10]
+"df/d42/quake3_8qc.html#a356cdc132874bc78fbf0d336b09bfef4":[2,0,6,2,6,18]
 };

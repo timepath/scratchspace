@@ -1,5 +1,7 @@
 var NAVTREEINDEX123 =
 {
+"de/d7a/classXonoticHUDScoreDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,190,88],
+"de/d7a/classXonoticHUDScoreDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,190,31],
 "de/d7a/classXonoticHUDScoreDialog.html#adefbdf08bd75e8fd9440a7fc10315cf9":[1,0,190,24],
 "de/d7a/classXonoticHUDScoreDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,190,62],
 "de/d7a/classXonoticHUDScoreDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,190,55],
@@ -247,7 +249,5 @@ var NAVTREEINDEX123 =
 "de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b":[2,0,6,1,3,0],
 "de/dbd/banning_8qh.html#a1a7772963018e41992c65dfbe12b63fe":[2,0,6,1,3,5],
 "de/dbd/banning_8qh.html#a2e1590577ece2a8d0b64ca0b13da71aa":[2,0,6,1,3,6],
-"de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe":[2,0,6,1,3,1],
-"de/dbd/banning_8qh.html#a808faa01ebcd03108b55a09f87bcabe5":[2,0,6,1,3,3],
-"de/dbd/banning_8qh.html#ab915b826ebbe3fa641b6dcf17dbe4fc3":[2,0,6,1,3,2]
+"de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe":[2,0,6,1,3,1]
 };

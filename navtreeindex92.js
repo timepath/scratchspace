@@ -1,16 +1,17 @@
 var NAVTREEINDEX92 =
 {
-"da/dc1/server_2player_8qh.html#a5a67bcf7261b3f7f78c6abc4ef614984":[2,0,6,48,12],
-"da/dc1/server_2player_8qh.html#a798f63d3b40c416811743d9bfc9b1d28":[2,0,6,48,16],
+"da/dc1/server_2player_8qh.html#a5a67bcf7261b3f7f78c6abc4ef614984":[2,0,6,48,13],
+"da/dc1/server_2player_8qh.html#a798f63d3b40c416811743d9bfc9b1d28":[2,0,6,48,17],
 "da/dc1/server_2player_8qh.html#a7b50d8e84036f411ff923c7d63f7d88f":[2,0,6,48,10],
 "da/dc1/server_2player_8qh.html#a9d529760b279c19bb3b1d15c4da335d1":[2,0,6,48,1],
 "da/dc1/server_2player_8qh.html#ab0ddbf3a176299c044cb3499225ee3d2":[2,0,6,48,0],
-"da/dc1/server_2player_8qh.html#abd30a605660c74c4236227e1c594535f":[2,0,6,48,13],
+"da/dc1/server_2player_8qh.html#abd30a605660c74c4236227e1c594535f":[2,0,6,48,14],
 "da/dc1/server_2player_8qh.html#ad782a8ecd5d72aefee13e592a4906f84":[2,0,6,48,2],
-"da/dc1/server_2player_8qh.html#aea48339798453aef3726fe26f97a9bc2":[2,0,6,48,17],
+"da/dc1/server_2player_8qh.html#aea48339798453aef3726fe26f97a9bc2":[2,0,6,48,18],
 "da/dc1/server_2player_8qh.html#aef50b8473159af9d6f77b966bc0cbe00":[2,0,6,48,4],
 "da/dc1/server_2player_8qh.html#af02653db703c3e3f494f19b4f6f8b8b1":[2,0,6,48,8],
 "da/dc1/server_2player_8qh.html#af2cf7e359cda23b596ac40cda3f9ba87":[2,0,6,48,3],
+"da/dc1/server_2player_8qh.html#af95438c9bb198a1d1c87af0260cc10a3":[2,0,6,48,11],
 "da/dc1/server_2player_8qh_source.html":[2,0,6,48],
 "da/dc5/voicescript_8qc.html":[2,0,1,13,2,16],
 "da/dc5/voicescript_8qc_source.html":[2,0,1,13,2,16],
@@ -248,6 +249,5 @@ var NAVTREEINDEX92 =
 "db/d07/teams_8qh.html#a223346a1d4096a7e7408d831b3ac8dd9":[2,0,1,46,40],
 "db/d07/teams_8qh.html#a22ac2527128c552cdd85081dea460dab":[2,0,1,46,15],
 "db/d07/teams_8qh.html#a354715ef150f6ade4d8f44a0bcebb808":[2,0,1,46,4],
-"db/d07/teams_8qh.html#a3560044092813a5af592e9bac4e0d6e0":[2,0,1,46,10],
-"db/d07/teams_8qh.html#a357988f2499b4c85f7f1091794e9e043":[2,0,1,46,17]
+"db/d07/teams_8qh.html#a3560044092813a5af592e9bac4e0d6e0":[2,0,1,46,10]
 };
