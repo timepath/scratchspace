@@ -1,6 +1,5 @@
 var NAVTREEINDEX30 =
 {
-"d3/dce/classXonoticTab.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,241,88],
 "d3/dce/classXonoticTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,241,13],
 "d3/dce/classXonoticTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,241,69],
 "d3/dce/classXonoticTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,241,31],
@@ -249,5 +248,6 @@ var NAVTREEINDEX30 =
 "d3/de3/classHellionAttack.html#aaad96449e7e4cdb5954638552a4dd985":[1,0,46,14],
 "d3/de3/classHellionAttack.html#aab2b3881586e5099d6daf41cb4d9eefa":[1,0,46,12],
 "d3/de3/classHellionAttack.html#ab1963e9f2e85c7c11304531a7a8e4313":[1,0,46,5],
-"d3/de3/classHellionAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,46,10]
+"d3/de3/classHellionAttack.html#ac24638b9ff1c4686778f8c890e5fb287":[1,0,46,10],
+"d3/de3/classHellionAttack.html#ac2c251078e8f3c2c9989c22cefe1d7e6":[1,0,46,36]
 };

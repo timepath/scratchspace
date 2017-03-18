@@ -1,15 +1,5 @@
 var NAVTREEINDEX125 =
 {
-"de/de7/classXonoticHUDItemsTimeDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,181,37],
-"de/de7/classXonoticHUDItemsTimeDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,181,41],
-"de/de7/classXonoticHUDItemsTimeDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,181,86],
-"de/de7/classXonoticHUDItemsTimeDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,181,8],
-"de/de8/portals_8qc.html":[2,0,6,51],
-"de/de8/portals_8qc.html#a048473a7db5811b50ee173c77ad557fd":[2,0,6,51,31],
-"de/de8/portals_8qc.html#a088684099ef22cff92da827e28df7407":[2,0,6,51,2],
-"de/de8/portals_8qc.html#a094624b4f82802e6d53a8b12f370727f":[2,0,6,51,26],
-"de/de8/portals_8qc.html#a0ca576360dad6d1ba5c16681b25f958a":[2,0,6,51,29],
-"de/de8/portals_8qc.html#a19a716fc7b82b007e67a749adb19b80e":[2,0,6,51,17],
 "de/de8/portals_8qc.html#a1da88f3fb3bff3b8ceb370e7e29d704a":[2,0,6,51,37],
 "de/de8/portals_8qc.html#a26d6a93407148508470bee4806bc5c2e":[2,0,6,51,10],
 "de/de8/portals_8qc.html#a3412839c6340e04a3ce633755c509b73":[2,0,6,51,20],
@@ -249,5 +239,15 @@ var NAVTREEINDEX125 =
 "df/d26/classXonoticGameSettingsTab.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,169,68],
 "df/d26/classXonoticGameSettingsTab.html#ad2bbf58768380843ac337880b629bb17":[1,0,169,92],
 "df/d26/classXonoticGameSettingsTab.html#ad991d2be28417ee9ed2433f582cd910e":[1,0,169,81],
-"df/d26/classXonoticGameSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,169,37]
+"df/d26/classXonoticGameSettingsTab.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,169,37],
+"df/d26/classXonoticGameSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,169,66],
+"df/d26/classXonoticGameSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,169,98],
+"df/d26/classXonoticGameSettingsTab.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,169,93],
+"df/d26/classXonoticGameSettingsTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,169,14],
+"df/d26/classXonoticGameSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,169,73],
+"df/d26/classXonoticGameSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,169,33],
+"df/d26/classXonoticGameSettingsTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,169,6],
+"df/d26/classXonoticGameSettingsTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,169,21],
+"df/d26/classXonoticGameSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,169,63],
+"df/d26/classXonoticGameSettingsTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,169,45]
 };

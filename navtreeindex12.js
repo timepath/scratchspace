@@ -1,6 +1,5 @@
 var NAVTREEINDEX12 =
 {
-"d1/d84/p2mathlib_8qh_source.html":[2,0,4,41],
 "d1/d8a/client_2weapons_2__mod_8qh.html":[2,0,0,3,1],
 "d1/d8a/client_2weapons_2__mod_8qh_source.html":[2,0,0,3,1],
 "d1/d8c/common_2triggers_2func_2__mod_8inc.html":[2,0,1,13,0,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX12 =
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,161,26],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a162142eae2e8322c0c7706d9aa97b29d":[1,0,161,17],
 "d1/db8/classXonoticDemoTimeConfirmDialog.html#a1734c2cadb53ab62f335c3df61eeb482":[1,0,161,74],
-"d1/db8/classXonoticDemoTimeConfirmDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,161,71]
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,161,71],
+"d1/db8/classXonoticDemoTimeConfirmDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,161,70]
 };

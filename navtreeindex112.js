@@ -1,15 +1,5 @@
 var NAVTREEINDEX112 =
 {
-"dd/d31/engineinfo_8qc.html#adffe31726c5e15929e4e9574771d5d98":[2,0,0,1,0,8,4],
-"dd/d31/engineinfo_8qc_source.html":[2,0,0,1,0,8],
-"dd/d36/classXonoticGameViewSettingsTab.html":[1,0,171],
-"dd/d36/classXonoticGameViewSettingsTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,171,36],
-"dd/d36/classXonoticGameViewSettingsTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,171,15],
-"dd/d36/classXonoticGameViewSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,171,44],
-"dd/d36/classXonoticGameViewSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,171,10],
-"dd/d36/classXonoticGameViewSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,171,3],
-"dd/d36/classXonoticGameViewSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,171,78],
-"dd/d36/classXonoticGameViewSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,171,85],
 "dd/d36/classXonoticGameViewSettingsTab.html#a0b8f11883d0cb27a89f64eb30f16e8b1":[1,0,171,70],
 "dd/d36/classXonoticGameViewSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,171,82],
 "dd/d36/classXonoticGameViewSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,171,52],
@@ -249,5 +239,15 @@ var NAVTREEINDEX112 =
 "dd/d5d/gamesettings_8qh.html":[2,0,5,12],
 "dd/d5d/gamesettings_8qh_source.html":[2,0,5,12],
 "dd/d5e/door_8qh.html":[2,0,1,13,0,11],
-"dd/d5e/door_8qh.html#a719e6f009c974e863488d99b5cfb6532":[2,0,1,13,0,11,5]
+"dd/d5e/door_8qh.html#a719e6f009c974e863488d99b5cfb6532":[2,0,1,13,0,11,5],
+"dd/d5e/door_8qh.html#a8e9c86ac648bfa776b10db0976ee4304":[2,0,1,13,0,11,4],
+"dd/d5e/door_8qh.html#aacc6cae9e0f967ad449b943bfc1526fc":[2,0,1,13,0,11,3],
+"dd/d5e/door_8qh.html#ad4ffa8916f7873ca52c6351cf0017ed3":[2,0,1,13,0,11,2],
+"dd/d5e/door_8qh.html#ae42ce4025618f0c563c4094835389764":[2,0,1,13,0,11,1],
+"dd/d5e/door_8qh.html#af18aa11384d1c77b108b6a386aa158f0":[2,0,1,13,0,11,6],
+"dd/d5e/door_8qh.html#af65f0d9d1981b2bc749e73257641dea3":[2,0,1,13,0,11,0],
+"dd/d5e/door_8qh_source.html":[2,0,1,13,0,11],
+"dd/d60/turrets_2all_8qc.html":[2,0,1,14,5],
+"dd/d60/turrets_2all_8qc.html#aafd24a334088de3d7fef309914d49101":[2,0,1,14,5,0],
+"dd/d60/turrets_2all_8qc_source.html":[2,0,1,14,5]
 };

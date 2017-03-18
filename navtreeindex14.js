@@ -1,6 +1,5 @@
 var NAVTREEINDEX14 =
 {
-"d1/de2/classFreezeTag.html#affdb854461a3463ccbe6c9d0bebf8bf1":[1,0,38,5],
 "d1/de4/common_2mutators_2mutator_2dodging_2__mod_8inc.html":[2,0,1,9,0,7,0],
 "d1/de4/common_2mutators_2mutator_2dodging_2__mod_8inc_source.html":[2,0,1,9,0,7,0],
 "d1/de6/demolist_8qh.html":[2,0,5,4,37],
@@ -249,5 +248,6 @@ var NAVTREEINDEX14 =
 "d2/d11/g__subs_8qc.html#a28dfa671bb87b15fe8ffd237fd6fb68b":[2,0,6,31,15],
 "d2/d11/g__subs_8qc.html#a36cdf81a62f8df66eff065eb38de7241":[2,0,6,31,2],
 "d2/d11/g__subs_8qc.html#a485e7432dec762bc92b88170f858a2b4":[2,0,6,31,9],
-"d2/d11/g__subs_8qc.html#a5edf83b72581bc3ed7f4b512f534fbfe":[2,0,6,31,16]
+"d2/d11/g__subs_8qc.html#a5edf83b72581bc3ed7f4b512f534fbfe":[2,0,6,31,16],
+"d2/d11/g__subs_8qc.html#a6544bf4e8216a7ad4cc54b109d84624f":[2,0,6,31,3]
 };

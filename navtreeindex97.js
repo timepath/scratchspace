@@ -1,13 +1,5 @@
 var NAVTREEINDEX97 =
 {
-"db/d5b/classXonoticGameMessageSettingsTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,167,45],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,167,11],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a086d32c9694472250922d42417bc8d66":[1,0,167,3],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,167,79],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a0af96ed6f6df2c3018beaa44070d3728":[1,0,167,86],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a13b0a0399df080924e5a6dab3848052c":[1,0,167,83],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a14de3864630eb95f7c02337cbeff9f31":[1,0,167,53],
-"db/d5b/classXonoticGameMessageSettingsTab.html#a15ad4d54eac1ac669152e86d7c08c174":[1,0,167,31],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a198d31b696946a3a688d2c943f509799":[1,0,167,73],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a21c7071e5024d898349acbe2717e16cc":[1,0,167,13],
 "db/d5b/classXonoticGameMessageSettingsTab.html#a263e6145393c6d11615034c31b7cb40e":[1,0,167,74],
@@ -249,5 +241,13 @@ var NAVTREEINDEX97 =
 "db/d76/classXonoticHUDNotificationDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,183,41],
 "db/d76/classXonoticHUDNotificationDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,183,86],
 "db/d76/classXonoticHUDNotificationDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,183,8],
-"db/d76/menu_2item_2__mod_8inc.html":[2,0,5,2,0]
+"db/d76/menu_2item_2__mod_8inc.html":[2,0,5,2,0],
+"db/d76/menu_2item_2__mod_8inc_source.html":[2,0,5,2,0],
+"db/d7b/lib_2csqcmodel_2model_8qh.html":[2,0,4,0,10],
+"db/d7b/lib_2csqcmodel_2model_8qh_source.html":[2,0,4,0,10],
+"db/d7f/effectinfo_8inc.html":[2,0,1,2,7],
+"db/d7f/effectinfo_8inc.html#a004bfb9d15c6566d8721383c79fafb52":[2,0,1,2,7,52],
+"db/d7f/effectinfo_8inc.html#a006ffb970f3878ab7ca59a21d92ac0fb":[2,0,1,2,7,193],
+"db/d7f/effectinfo_8inc.html#a008cf69987ebf11abead9d2cc848bf61":[2,0,1,2,7,63],
+"db/d7f/effectinfo_8inc.html#a00d7906a0b6ff5aa0a30d6f5402bc140":[2,0,1,2,7,293]
 };

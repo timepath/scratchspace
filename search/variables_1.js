@@ -274,6 +274,8 @@ var searchData=
   ['autocvar_5fbot_5fai_5fnavigation_5fjetpack_5fmindistance',['autocvar_bot_ai_navigation_jetpack_mindistance',['../d6/d74/cvars_8qh.html#a229137a2464bd4a792703113bad7865a',1,'cvars.qh']]],
   ['autocvar_5fbot_5fai_5fstrategyinterval',['autocvar_bot_ai_strategyinterval',['../d7/da7/server_2autocvars_8qh.html#a62bbc4ae3a7603843c7e998218476668',1,'autocvars.qh']]],
   ['autocvar_5fbot_5fai_5fthinkinterval',['autocvar_bot_ai_thinkinterval',['../d6/d74/cvars_8qh.html#a02d278ef0467d4b546da3ccd999e3188',1,'cvars.qh']]],
+  ['autocvar_5fbot_5fai_5ftimeitems',['autocvar_bot_ai_timeitems',['../d6/d74/cvars_8qh.html#a2c307e064b84e4027cdde9b649340566',1,'cvars.qh']]],
+  ['autocvar_5fbot_5fai_5ftimeitems_5fminrespawndelay',['autocvar_bot_ai_timeitems_minrespawndelay',['../d6/d74/cvars_8qh.html#adf8f18b03ddc6ccb80764bf431ab4400',1,'cvars.qh']]],
   ['autocvar_5fbot_5fai_5fweapon_5fcombo',['autocvar_bot_ai_weapon_combo',['../d6/d74/cvars_8qh.html#aa09a35fe1447540e422cd948b4d21e9e',1,'cvars.qh']]],
   ['autocvar_5fbot_5fai_5fweapon_5fcombo_5fthreshold',['autocvar_bot_ai_weapon_combo_threshold',['../d6/d74/cvars_8qh.html#ad598c59c3f1f1971d0fe11218dbff2e2',1,'cvars.qh']]],
   ['autocvar_5fbot_5fconfig_5ffile',['autocvar_bot_config_file',['../d6/d74/cvars_8qh.html#a83b105f967a0d08b7b710b9690cd7af3',1,'cvars.qh']]],

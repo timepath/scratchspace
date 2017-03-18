@@ -40,6 +40,8 @@ var cvars_8qh =
     [ "autocvar_bot_ai_navigation_jetpack", "d6/d74/cvars_8qh.html#ae9e61ba4af18b260c3743546797090b2", null ],
     [ "autocvar_bot_ai_navigation_jetpack_mindistance", "d6/d74/cvars_8qh.html#a229137a2464bd4a792703113bad7865a", null ],
     [ "autocvar_bot_ai_thinkinterval", "d6/d74/cvars_8qh.html#a02d278ef0467d4b546da3ccd999e3188", null ],
+    [ "autocvar_bot_ai_timeitems", "d6/d74/cvars_8qh.html#a2c307e064b84e4027cdde9b649340566", null ],
+    [ "autocvar_bot_ai_timeitems_minrespawndelay", "d6/d74/cvars_8qh.html#adf8f18b03ddc6ccb80764bf431ab4400", null ],
     [ "autocvar_bot_ai_weapon_combo", "d6/d74/cvars_8qh.html#aa09a35fe1447540e422cd948b4d21e9e", null ],
     [ "autocvar_bot_ai_weapon_combo_threshold", "d6/d74/cvars_8qh.html#ad598c59c3f1f1971d0fe11218dbff2e2", null ],
     [ "autocvar_bot_config_file", "d6/d74/cvars_8qh.html#a83b105f967a0d08b7b710b9690cd7af3", null ],

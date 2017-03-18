@@ -67,7 +67,6 @@ var searchData=
   ['cheatshutdown',['CheatShutdown',['../d6/de9/cheats_8qc.html#a04ede6834b82bb3efbfcd4961fbc6f54',1,'CheatShutdown():&#160;cheats.qc'],['../d3/dca/cheats_8qh.html#a04ede6834b82bb3efbfcd4961fbc6f54',1,'CheatShutdown():&#160;cheats.qc']]],
   ['check_5fclose_5fto_5fground',['check_close_to_ground',['../d5/da6/sv__dodging_8qc.html#a29b9ced05380bec8aad81eadcc9fa6d3',1,'sv_dodging.qc']]],
   ['check_5fclose_5fto_5fwall',['check_close_to_wall',['../d5/da6/sv__dodging_8qc.html#ac1eb9810c9ce04bedc9d02326ca375b9',1,'sv_dodging.qc']]],
-  ['check_5ftdeath',['check_tdeath',['../d0/d6b/teleporters_8qc.html#a7e3a2cb8aa503e73f2275673285dbf7d',1,'teleporters.qc']]],
   ['checkallowedteams',['CheckAllowedTeams',['../d5/d14/scores__rules_8qc.html#a838b897a9ae86e8bf932e57c356ec987',1,'CheckAllowedTeams(entity for_whom):&#160;teamplay.qc'],['../de/d4f/teamplay_8qc.html#a838b897a9ae86e8bf932e57c356ec987',1,'CheckAllowedTeams(entity for_whom):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a838b897a9ae86e8bf932e57c356ec987',1,'CheckAllowedTeams(entity for_whom):&#160;teamplay.qc']]],
   ['checkbox_5fclick',['CheckBox_Click',['../dd/df9/classCheckBox.html#a66dc7c080c86babb8a59f97e5a1e82fa',1,'CheckBox::CheckBox_Click()'],['../d0/dab/item_2checkbox_8qc.html#a636d94d040cf0ddeda12d71293638f63',1,'CheckBox_Click():&#160;checkbox.qc']]],
   ['checkbox_5fclick_5fredisplay',['CheckBox_Click_Redisplay',['../d1/d61/dialog__settings__input_8qc.html#a1f23bee2ae8169b44afceb091226cf7d',1,'dialog_settings_input.qc']]],

@@ -1,13 +1,5 @@
 var NAVTREEINDEX101 =
 {
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a198d31b696946a3a688d2c943f509799":[1,0,186,71],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a1ee5500e91a1156be36f4ecf9e022018":[1,0,186,70],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a21c7071e5024d898349acbe2717e16cc":[1,0,186,7],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a263e6145393c6d11615034c31b7cb40e":[1,0,186,72],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a26f6216a5e916933a6a55871d981a3a0":[1,0,186,4],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a26f7b52faa724cabcab984ce55f72c6d":[1,0,186,43],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a283eb2df585c5c99ff472200c895b8b2":[1,0,186,21],
-"db/dbd/classXonoticHUDPressedKeysDialog.html#a289ec6231666847ace132ba4ee48d6bf":[1,0,186,49],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a290a8ad2f11fb2cee74322cb5c7b98c9":[1,0,186,54],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a29fce91054e603d3a6fb075e2e56d4eb":[1,0,186,69],
 "db/dbd/classXonoticHUDPressedKeysDialog.html#a2c63df61f472ebeda80e1f553aec25f7":[1,0,186,29],
@@ -249,5 +241,13 @@ var NAVTREEINDEX101 =
 "db/dcc/g__world_8qc.html#a8dce5fe1733c12f65d15354bf9d4f3b0":[2,0,6,33,20],
 "db/dcc/g__world_8qc.html#a8de1beddd651b67787ba2753ea71d5b2":[2,0,6,33,1],
 "db/dcc/g__world_8qc.html#a8f7565a7318ba27627a5f2d17d044172":[2,0,6,33,4],
-"db/dcc/g__world_8qc.html#a95bbd6b9aa214a845cb50bbbb44cb939":[2,0,6,33,27]
+"db/dcc/g__world_8qc.html#a95bbd6b9aa214a845cb50bbbb44cb939":[2,0,6,33,27],
+"db/dcc/g__world_8qc.html#a96536d95b1e8120e296cc667b543bb0b":[2,0,6,33,61],
+"db/dcc/g__world_8qc.html#a979696d004a9ca8222f40058685320ad":[2,0,6,33,66],
+"db/dcc/g__world_8qc.html#a9b864391c3d6475f9345ccff9c19b7a3":[2,0,6,33,53],
+"db/dcc/g__world_8qc.html#aa8f9d7c732fe1401e1ee110adfafa840":[2,0,6,33,55],
+"db/dcc/g__world_8qc.html#aac7f083651dfcb99dbbd8afc5e339233":[2,0,6,33,50],
+"db/dcc/g__world_8qc.html#aaf92ec79f8aec9319c8a513bd5577e48":[2,0,6,33,11],
+"db/dcc/g__world_8qc.html#ab4721c41868f8c9a5e7ac2bc6161b303":[2,0,6,33,35],
+"db/dcc/g__world_8qc.html#ab61dd957a2c44ebabe227060941cb391":[2,0,6,33,13]
 };

@@ -1,15 +1,5 @@
 var NAVTREEINDEX126 =
 {
-"df/d26/classXonoticGameSettingsTab.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,169,66],
-"df/d26/classXonoticGameSettingsTab.html#ae2279441e0a816efc4208a9f93c2a46f":[1,0,169,98],
-"df/d26/classXonoticGameSettingsTab.html#ae26c80b6be24c0ef7d3e3c2e665aba2f":[1,0,169,93],
-"df/d26/classXonoticGameSettingsTab.html#aec6ad845fe7ee48971a8f2a67e2be94d":[1,0,169,14],
-"df/d26/classXonoticGameSettingsTab.html#aeddd1791da6fd6649a97730380336cf8":[1,0,169,73],
-"df/d26/classXonoticGameSettingsTab.html#af1f678188fd60bb44625149bb25c9af5":[1,0,169,33],
-"df/d26/classXonoticGameSettingsTab.html#af78e38312383bdc5363e9c76def216a8":[1,0,169,6],
-"df/d26/classXonoticGameSettingsTab.html#af7ff879638679c61596d3aba78e9f159":[1,0,169,21],
-"df/d26/classXonoticGameSettingsTab.html#af88a81fd25020e249716d851c0c127bf":[1,0,169,63],
-"df/d26/classXonoticGameSettingsTab.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,169,45],
 "df/d26/classXonoticGameSettingsTab.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,169,3],
 "df/d26/classXonoticGameSettingsTab.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,169,43],
 "df/d26/classXonoticGameSettingsTab.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,169,47],
@@ -249,5 +239,15 @@ var NAVTREEINDEX126 =
 "df/d42/quake3_8qc.html#a1476ee0498a3900b1d622081d4d7e5db":[2,0,6,2,6,35],
 "df/d42/quake3_8qc.html#a150f5bd0f1c8300bca00748f5222a9e6":[2,0,6,2,6,40],
 "df/d42/quake3_8qc.html#a17d41eb366a08937fdfa2669df7837be":[2,0,6,2,6,27],
-"df/d42/quake3_8qc.html#a1a8312b70d4902e29fc5614cd9ffe3e4":[2,0,6,2,6,5]
+"df/d42/quake3_8qc.html#a1a8312b70d4902e29fc5614cd9ffe3e4":[2,0,6,2,6,5],
+"df/d42/quake3_8qc.html#a1e3cbf1063d168b51fc7277e1fb68e98":[2,0,6,2,6,8],
+"df/d42/quake3_8qc.html#a1e58f91ba9d3bb30d931aae6c774383e":[2,0,6,2,6,33],
+"df/d42/quake3_8qc.html#a27dc7594c2d9042a4ad23720e36b0824":[2,0,6,2,6,28],
+"df/d42/quake3_8qc.html#a2a32fb2a267fbc4ae6764305111ec23c":[2,0,6,2,6,9],
+"df/d42/quake3_8qc.html#a2b5940622e65c2f4e246f117173ec146":[2,0,6,2,6,43],
+"df/d42/quake3_8qc.html#a30b072432885c063f1843cba7b30e6db":[2,0,6,2,6,15],
+"df/d42/quake3_8qc.html#a30ec2cff6b0c52d858fdd8f0ed9ec59c":[2,0,6,2,6,23],
+"df/d42/quake3_8qc.html#a356cdc132874bc78fbf0d336b09bfef4":[2,0,6,2,6,18],
+"df/d42/quake3_8qc.html#a364f7b516d5ea74cfb729af8a9ff37b9":[2,0,6,2,6,12],
+"df/d42/quake3_8qc.html#a3f6c870596d153a0fee5eb30d3de3ec0":[2,0,6,2,6,10]
 };

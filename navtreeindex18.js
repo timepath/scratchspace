@@ -1,6 +1,5 @@
 var NAVTREEINDEX18 =
 {
-"d2/d9b/common_2effects_2qc_2__mod_8qh.html":[2,0,1,2,0,1],
 "d2/d9b/common_2effects_2qc_2__mod_8qh_source.html":[2,0,1,2,0,1],
 "d2/d9b/jumppads_8qc.html":[2,0,1,13,3,22],
 "d2/d9b/jumppads_8qc.html#a314c2ab38cad8dd0cbe7622152bb918d":[2,0,1,13,3,22,1],
@@ -249,5 +248,6 @@ var NAVTREEINDEX18 =
 "d2/db4/string_8qh.html#a5c6eb5838adaa734d5323d32a74bb273":[2,0,4,56,41],
 "d2/db4/string_8qh.html#a5d094027c5b25aa2cb2dd91cffdf0437":[2,0,4,56,4],
 "d2/db4/string_8qh.html#a68ef171425eb4eb0bf70cf1715613c68":[2,0,4,56,26],
-"d2/db4/string_8qh.html#a6ac92254e62028f6b9f2b7ffdee2eb09":[2,0,4,56,16]
+"d2/db4/string_8qh.html#a6ac92254e62028f6b9f2b7ffdee2eb09":[2,0,4,56,16],
+"d2/db4/string_8qh.html#a70bd37e05eeb11fdb4e3cfff09c6187e":[2,0,4,56,2]
 };

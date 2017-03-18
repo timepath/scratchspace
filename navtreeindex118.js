@@ -1,15 +1,5 @@
 var NAVTREEINDEX118 =
 {
-"dd/dfa/gamemode__ctf_8qh.html#a61ab8bb51267bf553becd96893dc4ec6":[2,0,6,3,0,7,16],
-"dd/dfa/gamemode__ctf_8qh.html#a67302d0a60bce745be62baf8bf8e4c07":[2,0,6,3,0,7,10],
-"dd/dfa/gamemode__ctf_8qh.html#a6bf890e9a273fe1a8badcfe6707bb372":[2,0,6,3,0,7,12],
-"dd/dfa/gamemode__ctf_8qh.html#a6defd2424b3649131a0eb04d34fb3bb9":[2,0,6,3,0,7,3],
-"dd/dfa/gamemode__ctf_8qh.html#a993277c6bdefc99a8548fc9952b8342e":[2,0,6,3,0,7,14],
-"dd/dfa/gamemode__ctf_8qh.html#aab7d882c24ab1f79cb82f34828f44ec9":[2,0,6,3,0,7,1],
-"dd/dfa/gamemode__ctf_8qh.html#ab1428c69c3b93dcad765e014b2bdd257":[2,0,6,3,0,7,2],
-"dd/dfa/gamemode__ctf_8qh.html#aca93cf8f2153ac4a9d2260d28116e7c3":[2,0,6,3,0,7,8],
-"dd/dfa/gamemode__ctf_8qh.html#ad2a992775d438b044afe5d9f501200ce":[2,0,6,3,0,7,4],
-"dd/dfa/gamemode__ctf_8qh.html#ad57b1082f4652e3c4e67b7b7804e09c7":[2,0,6,3,0,7,0],
 "dd/dfa/gamemode__ctf_8qh.html#af927da7e4cfe45fe46c01fdf269db664":[2,0,6,3,0,7,6],
 "dd/dfa/gamemode__ctf_8qh_source.html":[2,0,6,3,0,7],
 "dd/dfd/markdown_8qh.html":[2,0,4,33],
@@ -249,5 +239,15 @@ var NAVTREEINDEX118 =
 "de/d3c/classBuff.html#acaa339ccb9cec6b5323ef674593d842f":[1,0,9,6],
 "de/d3c/classBuff.html#ad8a0be5e74b7a94d9b1d659e974a8975":[1,0,9,9],
 "de/d3c/classBuff.html#ae2837b4f6a5aa28b58e452b5e6f200a4":[1,0,9,4],
-"de/d3c/common_2notifications_2__mod_8qh.html":[2,0,1,10,1]
+"de/d3c/common_2notifications_2__mod_8qh.html":[2,0,1,10,1],
+"de/d3c/common_2notifications_2__mod_8qh_source.html":[2,0,1,10,1],
+"de/d3d/cl__minigames_8qh.html":[2,0,1,6,4],
+"de/d3d/cl__minigames_8qh.html#a02caccc9afc8eec2f9c7ed6fc85eac95":[2,0,1,6,4,11],
+"de/d3d/cl__minigames_8qh.html#a0e95d808ea50b0343ffb6f1b6d5ae445":[2,0,1,6,4,21],
+"de/d3d/cl__minigames_8qh.html#a14e89872347ae0a8a8837044d3a4e843":[2,0,1,6,4,15],
+"de/d3d/cl__minigames_8qh.html#a155215c6b736bc7e27879b9f0f4ca343":[2,0,1,6,4,4],
+"de/d3d/cl__minigames_8qh.html#a1976bbbabc165580c5791d26bc54639b":[2,0,1,6,4,5],
+"de/d3d/cl__minigames_8qh.html#a21f5bb06a7918082bde123983e52097b":[2,0,1,6,4,26],
+"de/d3d/cl__minigames_8qh.html#a3248db1aa7a2ca4c46e7cbe9e220b3f2":[2,0,1,6,4,10],
+"de/d3d/cl__minigames_8qh.html#a3b4976c5caa2806d8bf77936fb1173c1":[2,0,1,6,4,18]
 };

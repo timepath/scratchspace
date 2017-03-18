@@ -1,13 +1,5 @@
 var NAVTREEINDEX103 =
 {
-"db/de8/effectinfo__gentle__particlegibs_8inc.html#ad182bfc5aec87ce49d43bb47d7426e79":[2,0,1,2,15,1],
-"db/de8/effectinfo__gentle__particlegibs_8inc_source.html":[2,0,1,2,15],
-"db/deb/roles_8qc.html":[2,0,6,0,0,0,4],
-"db/deb/roles_8qc.html#a0375becf8030b1b6159611d74c885238":[2,0,6,0,0,0,4,5],
-"db/deb/roles_8qc.html#a0a29d835b1478b985f45d60e02d30c54":[2,0,6,0,0,0,4,0],
-"db/deb/roles_8qc.html#a3e9df5e35d2e1a1d92cb47e72b572d4a":[2,0,6,0,0,0,4,4],
-"db/deb/roles_8qc.html#a4c36d9fcd24202f73d536c95f9bc634e":[2,0,6,0,0,0,4,9],
-"db/deb/roles_8qc.html#a4f33c76c5937f4781a5315a14158fd3f":[2,0,6,0,0,0,4,6],
 "db/deb/roles_8qc.html#a5f878532d323f792b8b4c306d068cc0c":[2,0,6,0,0,0,4,1],
 "db/deb/roles_8qc.html#a6456f6b6523f83904a00a909d0a87236":[2,0,6,0,0,0,4,3],
 "db/deb/roles_8qc.html#ab1af65619c621606e2636b8a2fbbd18d":[2,0,6,0,0,0,4,2],
@@ -249,5 +241,13 @@ var NAVTREEINDEX103 =
 "dc/d06/classDialog.html#a64a0f52e339dddbb50541279aeb61f66":[1,0,26,61],
 "dc/d06/classDialog.html#a67d95732d49da439095483530aca8804":[1,0,26,53],
 "dc/d06/classDialog.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,26,18],
-"dc/d06/classDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,26,14]
+"dc/d06/classDialog.html#a72c0e76156762fbda152032add5f1630":[1,0,26,14],
+"dc/d06/classDialog.html#a7b13cdc101cd55528465440586a004f6":[1,0,26,63],
+"dc/d06/classDialog.html#a7bae0d38f79fe9ca14091c54f4cfa3e8":[1,0,26,25],
+"dc/d06/classDialog.html#a7c7e80231d41f67692ab5f902d127416":[1,0,26,86],
+"dc/d06/classDialog.html#a7d101a3ce1a64e28a2a16a48ec6e452c":[1,0,26,77],
+"dc/d06/classDialog.html#a7f475a142ac6b96a1c71aecb16730322":[1,0,26,76],
+"dc/d06/classDialog.html#a833f00ff24b15ddefcd092cb32ecf1c1":[1,0,26,52],
+"dc/d06/classDialog.html#a8385bf9f3f772df62fc92bc8740da633":[1,0,26,45],
+"dc/d06/classDialog.html#a850f9c4ae95e201c6f4c6fc24cced5bf":[1,0,26,64]
 };

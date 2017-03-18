@@ -1,14 +1,5 @@
 var subs_8qh =
 [
-    [ "SUB_ANGLES", "db/d2f/subs_8qh.html#a9653c5bb0c076e5f70c0cc6c929a6f64", null ],
-    [ "SUB_AVELOCITY", "db/d2f/subs_8qh.html#adcf63086873e438f3bae82956019fb45", null ],
-    [ "SUB_LTIME", "db/d2f/subs_8qh.html#a728be4639b636133686e0de05e1e3ead", null ],
-    [ "SUB_NEXTTHINK", "db/d2f/subs_8qh.html#a9d41047d3fee7ecd85d6bf1ac9b5ddf7", null ],
-    [ "SUB_ORIGIN", "db/d2f/subs_8qh.html#a9f85aca5c80190862939a954847e1616", null ],
-    [ "SUB_SETORIGIN", "db/d2f/subs_8qh.html#aa6ed87146346452bf95056180a61fe22", null ],
-    [ "SUB_THINK", "db/d2f/subs_8qh.html#a4d8f1dc81695f45393a0ce3187009187", null ],
-    [ "SUB_THUNK", "db/d2f/subs_8qh.html#a27c279a6b66803c24a7eb10a405d9287", null ],
-    [ "SUB_VELOCITY", "db/d2f/subs_8qh.html#ab47be80c13bfc40b31ee65f43c3d4363", null ],
     [ "SUB_SetFade", "db/d2f/subs_8qh.html#aaee12b410e85192641c50f8eeeef532f", null ],
     [ "SUB_VanishOrRemove", "db/d2f/subs_8qh.html#ad0806fe42eadae7a1a7a48660cbbd755", null ],
     [ "void", "db/d2f/subs_8qh.html#aea0b7edf80fc3a7aead17f2b38dc050c", null ],

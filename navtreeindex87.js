@@ -1,5 +1,6 @@
 var NAVTREEINDEX87 =
 {
+"da/d1b/plasma__dual_8qh_source.html":[2,0,1,14,0,35],
 "da/d1d/classMLRSTurretAttack.html":[1,0,75],
 "da/d1d/classMLRSTurretAttack.html#a01e7b060bcfa83adc60236efeca16fd3":[1,0,75,33],
 "da/d1d/classMLRSTurretAttack.html#a116d6ce0c61ad0fc8a56c596c39a06a1":[1,0,75,28],
@@ -248,6 +249,5 @@ var NAVTREEINDEX87 =
 "da/d44/common_2util_8qc.html#a660af060bf692b399b145963746ca2ff":[2,0,1,47,38],
 "da/d44/common_2util_8qc.html#a677a094fd6d0f7ef879620f611843302":[2,0,1,47,41],
 "da/d44/common_2util_8qc.html#a6ae03133beaeec492cebebfa5a815214":[2,0,1,47,7],
-"da/d44/common_2util_8qc.html#a6e565570901e86f89595330fe2e6f66f":[2,0,1,47,3],
-"da/d44/common_2util_8qc.html#a6edb7d236a88f9b1d07385306f43c1b4":[2,0,1,47,37]
+"da/d44/common_2util_8qc.html#a6e565570901e86f89595330fe2e6f66f":[2,0,1,47,3]
 };

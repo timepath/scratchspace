@@ -1,15 +1,5 @@
 var NAVTREEINDEX123 =
 {
-"de/d7a/classXonoticHUDScoreDialog.html#ac7550f84fc8660cd7a3921fbc016d51f":[1,0,190,16],
-"de/d7a/classXonoticHUDScoreDialog.html#acb8d0e4dab1db46676d930589dd395ee":[1,0,190,33],
-"de/d7a/classXonoticHUDScoreDialog.html#ace0cdd98be2a97d3b768f5d30a84395f":[1,0,190,38],
-"de/d7a/classXonoticHUDScoreDialog.html#acf16d604f022f585e58fb0b40fbce5d3":[1,0,190,58],
-"de/d7a/classXonoticHUDScoreDialog.html#ad007eff3cc3cb9d85a7d493ee2c0a948":[1,0,190,69],
-"de/d7a/classXonoticHUDScoreDialog.html#ad04bf35604bb84f7745bcc4975407a3e":[1,0,190,85],
-"de/d7a/classXonoticHUDScoreDialog.html#ad085f27355e3e19eeed2d2e9f9fba766":[1,0,190,51],
-"de/d7a/classXonoticHUDScoreDialog.html#ad218b9a475bfff7d8a719342afd0d40e":[1,0,190,63],
-"de/d7a/classXonoticHUDScoreDialog.html#ad926c5d044c949a32050d0613c8a280a":[1,0,190,88],
-"de/d7a/classXonoticHUDScoreDialog.html#adeb415e7eae9754fc0dc39f0f7fd938a":[1,0,190,31],
 "de/d7a/classXonoticHUDScoreDialog.html#adefbdf08bd75e8fd9440a7fc10315cf9":[1,0,190,24],
 "de/d7a/classXonoticHUDScoreDialog.html#ae088b9d9402b18315ea3c87ce8ada086":[1,0,190,62],
 "de/d7a/classXonoticHUDScoreDialog.html#ae254d8d25f9f2a6bab9292f13e90e9ea":[1,0,190,55],
@@ -249,5 +239,15 @@ var NAVTREEINDEX123 =
 "de/daf/common_2mutators_2mutator_2multijump_2__mod_8qh_source.html":[2,0,1,9,0,16,1],
 "de/db0/common_2mutators_2mutator_2new__toys_2__mod_8inc.html":[2,0,1,9,0,18,0],
 "de/db0/common_2mutators_2mutator_2new__toys_2__mod_8inc_source.html":[2,0,1,9,0,18,0],
-"de/dbb/sv__spawner_8qc.html":[2,0,1,8,10]
+"de/dbb/sv__spawner_8qc.html":[2,0,1,8,10],
+"de/dbb/sv__spawner_8qc.html#a1251dfcf5b3c88b4572dfc13273f6f39":[2,0,1,8,10,0],
+"de/dbb/sv__spawner_8qc.html#a3123c628538f58eb7dbc04b5f8435901":[2,0,1,8,10,1],
+"de/dbb/sv__spawner_8qc_source.html":[2,0,1,8,10],
+"de/dbd/banning_8qh.html":[2,0,6,1,3],
+"de/dbd/banning_8qh.html#a0e7455562aacf2de0c12a8445306ed5b":[2,0,6,1,3,0],
+"de/dbd/banning_8qh.html#a1a7772963018e41992c65dfbe12b63fe":[2,0,6,1,3,5],
+"de/dbd/banning_8qh.html#a2e1590577ece2a8d0b64ca0b13da71aa":[2,0,6,1,3,6],
+"de/dbd/banning_8qh.html#a756c765021c19ce2f9ac91dbc889bdfe":[2,0,6,1,3,1],
+"de/dbd/banning_8qh.html#a808faa01ebcd03108b55a09f87bcabe5":[2,0,6,1,3,3],
+"de/dbd/banning_8qh.html#ab915b826ebbe3fa641b6dcf17dbe4fc3":[2,0,6,1,3,2]
 };

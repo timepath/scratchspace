@@ -1,15 +1,5 @@
 var NAVTREEINDEX127 =
 {
-"df/d42/quake3_8qc.html#a1e3cbf1063d168b51fc7277e1fb68e98":[2,0,6,2,6,8],
-"df/d42/quake3_8qc.html#a1e58f91ba9d3bb30d931aae6c774383e":[2,0,6,2,6,33],
-"df/d42/quake3_8qc.html#a27dc7594c2d9042a4ad23720e36b0824":[2,0,6,2,6,28],
-"df/d42/quake3_8qc.html#a2a32fb2a267fbc4ae6764305111ec23c":[2,0,6,2,6,9],
-"df/d42/quake3_8qc.html#a2b5940622e65c2f4e246f117173ec146":[2,0,6,2,6,43],
-"df/d42/quake3_8qc.html#a30b072432885c063f1843cba7b30e6db":[2,0,6,2,6,15],
-"df/d42/quake3_8qc.html#a30ec2cff6b0c52d858fdd8f0ed9ec59c":[2,0,6,2,6,23],
-"df/d42/quake3_8qc.html#a356cdc132874bc78fbf0d336b09bfef4":[2,0,6,2,6,18],
-"df/d42/quake3_8qc.html#a364f7b516d5ea74cfb729af8a9ff37b9":[2,0,6,2,6,12],
-"df/d42/quake3_8qc.html#a3f6c870596d153a0fee5eb30d3de3ec0":[2,0,6,2,6,10],
 "df/d42/quake3_8qc.html#a3fd43e9a28dcc17f93a594aed0bf4d16":[2,0,6,2,6,26],
 "df/d42/quake3_8qc.html#a412a74ac84bc203944d5e566d8f49737":[2,0,6,2,6,2],
 "df/d42/quake3_8qc.html#a4dd02ae75f61d8a4517454c8e6f82f1e":[2,0,6,2,6,39],
@@ -249,5 +239,15 @@ var NAVTREEINDEX127 =
 "df/d6e/classXonoticSingleplayerDialog.html#af7ff879638679c61596d3aba78e9f159":[1,0,235,16],
 "df/d6e/classXonoticSingleplayerDialog.html#af8909d3583230bbdc07d3becc18b5c02":[1,0,235,40],
 "df/d6e/classXonoticSingleplayerDialog.html#af956ad3127e938bd3dd5cce6b4902564":[1,0,235,2],
-"df/d6e/classXonoticSingleplayerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,235,38]
+"df/d6e/classXonoticSingleplayerDialog.html#afa4350c363d52c715d3c0d024fa8a801":[1,0,235,38],
+"df/d6e/classXonoticSingleplayerDialog.html#afc5c2069a1c0ef87d3f86a8e521434ab":[1,0,235,42],
+"df/d6e/classXonoticSingleplayerDialog.html#afc9428d371ed63dd0316db5558e81d30":[1,0,235,86],
+"df/d6e/classXonoticSingleplayerDialog.html#afdcf1fb79903f747cda494b27206526b":[1,0,235,9],
+"df/d6e/common_2mutators_2__mod_8inc.html":[2,0,1,9,1],
+"df/d6e/common_2mutators_2__mod_8inc_source.html":[2,0,1,9,1],
+"df/d6e/globalsound_8qh.html":[2,0,1,2,0,12],
+"df/d6e/globalsound_8qh.html#a0115b049d32f08dfe7bb44d74939ac58":[2,0,1,2,0,12,11],
+"df/d6e/globalsound_8qh.html#a0f76411e16fb1a91bf97121690907cd7":[2,0,1,2,0,12,7],
+"df/d6e/globalsound_8qh.html#a174e24bd7d11e99d648c9333e3fb4adb":[2,0,1,2,0,12,25],
+"df/d6e/globalsound_8qh.html#a1757a961937623c2b340288ad97fddbb":[2,0,1,2,0,12,20]
 };

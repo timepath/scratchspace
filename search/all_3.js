@@ -235,7 +235,6 @@ var searchData=
   ['check_5fclose_5fto_5fground',['check_close_to_ground',['../d5/da6/sv__dodging_8qc.html#a29b9ced05380bec8aad81eadcc9fa6d3',1,'sv_dodging.qc']]],
   ['check_5fclose_5fto_5fwall',['check_close_to_wall',['../d5/da6/sv__dodging_8qc.html#ac1eb9810c9ce04bedc9d02326ca375b9',1,'sv_dodging.qc']]],
   ['check_5fmax_5fcount',['CHECK_MAX_COUNT',['../de/d68/accumulate_8qh.html#a63caa863ede3c6510744c01983e44648',1,'accumulate.qh']]],
-  ['check_5ftdeath',['check_tdeath',['../d0/d6b/teleporters_8qc.html#a7e3a2cb8aa503e73f2275673285dbf7d',1,'teleporters.qc']]],
   ['checkallowedteams',['CheckAllowedTeams',['../d5/d14/scores__rules_8qc.html#a838b897a9ae86e8bf932e57c356ec987',1,'CheckAllowedTeams(entity for_whom):&#160;teamplay.qc'],['../de/d4f/teamplay_8qc.html#a838b897a9ae86e8bf932e57c356ec987',1,'CheckAllowedTeams(entity for_whom):&#160;teamplay.qc'],['../d2/d76/teamplay_8qh.html#a838b897a9ae86e8bf932e57c356ec987',1,'CheckAllowedTeams(entity for_whom):&#160;teamplay.qc']]],
   ['checkbox',['CheckBox',['../dd/df9/classCheckBox.html',1,'']]],
   ['checkbox_2eqc',['checkbox.qc',['../d0/dab/item_2checkbox_8qc.html',1,'']]],

@@ -1,13 +1,5 @@
 var NAVTREEINDEX105 =
 {
-"dc/d30/classBallStealer.html#a683643b5c8cebf8291182b0c06802fa3":[1,0,6,9],
-"dc/d30/classBallStealer.html#a6df6ebff3e6de443f7a0134c518a8ffe":[1,0,6,24],
-"dc/d30/classBallStealer.html#a6e111d0b78e4f34ece57a4739dd0085a":[1,0,6,8],
-"dc/d30/classBallStealer.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,6,2],
-"dc/d30/classBallStealer.html#a79fc26acbd9b11c52f841a4f550dd52d":[1,0,6,34],
-"dc/d30/classBallStealer.html#a7bf13b7929125975c829f24488628560":[1,0,6,31],
-"dc/d30/classBallStealer.html#a7bfa8cea7d4fcbb0c04dd7a540a7e4dd":[1,0,6,27],
-"dc/d30/classBallStealer.html#a80fa9a65e19370473a29baebc04d0626":[1,0,6,4],
 "dc/d30/classBallStealer.html#a8adc0f68d514782dc8fe0a1d5af3b310":[1,0,6,6],
 "dc/d30/classBallStealer.html#aa0a5f1de6ba7228907295012902a136a":[1,0,6,29],
 "dc/d30/classBallStealer.html#aa33a9e234103d87be809a6c13d1061b2":[1,0,6,13],
@@ -249,5 +241,13 @@ var NAVTREEINDEX105 =
 "dc/d44/classXonoticScreenshotList.html#a3123a983ff5ac6561c146a36b7a58005":[1,0,228,13],
 "dc/d44/classXonoticScreenshotList.html#a32c12d321c71de26552ade694d28d97f":[1,0,228,2],
 "dc/d44/classXonoticScreenshotList.html#a346d3fd09bc071dc7877bd8506aa103c":[1,0,228,35],
-"dc/d44/classXonoticScreenshotList.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,228,0]
+"dc/d44/classXonoticScreenshotList.html#a360189a0cc2fb81a094ccd37afd1749d":[1,0,228,0],
+"dc/d44/classXonoticScreenshotList.html#a405b285a76ac127664593c89281a5b63":[1,0,228,61],
+"dc/d44/classXonoticScreenshotList.html#a41733322b55f13a3ff98a5832e8132b1":[1,0,228,44],
+"dc/d44/classXonoticScreenshotList.html#a44c242b1031fc5bf96f6f7d20fc185dc":[1,0,228,24],
+"dc/d44/classXonoticScreenshotList.html#a4be49d543d85613482474beeca3a9fbc":[1,0,228,90],
+"dc/d44/classXonoticScreenshotList.html#a4d3358b1156e79dcddeef82ac14d821d":[1,0,228,70],
+"dc/d44/classXonoticScreenshotList.html#a565f8d33b46815606f1860162d71339a":[1,0,228,25],
+"dc/d44/classXonoticScreenshotList.html#a587f2e00755e6097a7d4ab5547c06014":[1,0,228,10],
+"dc/d44/classXonoticScreenshotList.html#a5b2f7e41f7062f6bdfbfa52e07bd11bc":[1,0,228,17]
 };
