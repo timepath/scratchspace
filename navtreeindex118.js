@@ -1,5 +1,8 @@
 var NAVTREEINDEX118 =
 {
+"dd/df9/classCheckBox.html#afc947361280f23a08a6e543b7b00300f":[1,0,15,47],
+"dd/df9/classCheckBox.html#afdcf1fb79903f747cda494b27206526b":[1,0,15,10],
+"dd/df9/classCheckBox.html#aff20d1ead9e7a482eca46d913e6986a1":[1,0,15,77],
 "dd/df9/panel_8qh.html":[2,0,0,1,8],
 "dd/df9/panel_8qh_source.html":[2,0,0,1,8],
 "dd/dfa/gamemode__ctf_8qh.html":[2,0,6,3,0,7],
@@ -246,8 +249,5 @@ var NAVTREEINDEX118 =
 "de/d3c/classBuff.html#a3445f4448c754d719f534e2faf836587":[1,0,9,12],
 "de/d3c/classBuff.html#a3d14d4cb044305bc9fd86dcd9533a0a0":[1,0,9,13],
 "de/d3c/classBuff.html#a48b78d497828537731feaa167c8af4f1":[1,0,9,16],
-"de/d3c/classBuff.html#a4d7c612bb5824dca877279557c8e240f":[1,0,9,11],
-"de/d3c/classBuff.html#a6131dbf54f626ebf2c9d610833da9fb5":[1,0,9,1],
-"de/d3c/classBuff.html#a6815e793548a5b534973a237a97dc189":[1,0,9,10],
-"de/d3c/classBuff.html#a6f6d430c1456b7b9b3b128967e920acb":[1,0,9,5]
+"de/d3c/classBuff.html#a4d7c612bb5824dca877279557c8e240f":[1,0,9,11]
 };

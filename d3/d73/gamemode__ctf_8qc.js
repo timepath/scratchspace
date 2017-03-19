@@ -35,7 +35,7 @@ var gamemode__ctf_8qc =
     [ "ctf_ScoreRules", "d3/d73/gamemode__ctf_8qc.html#adf49379e9cbcc6fd5ea47bf9b77d78cf", null ],
     [ "ctf_SpawnTeam", "d3/d73/gamemode__ctf_8qc.html#a051dbf20540414d569d6b946f26ad64d", null ],
     [ "ctf_Stalemate_Customize", "d3/d73/gamemode__ctf_8qc.html#a7a47b33d1dbec111614579feb8646515", null ],
-    [ "havocbot_calculate_middlepoint", "d3/d73/gamemode__ctf_8qc.html#a7cb9fb2da0ade0ec76b4c85437b2226a", null ],
+    [ "havocbot_ctf_calculate_middlepoint", "d3/d73/gamemode__ctf_8qc.html#a3839fed84362d2b1fae76122755013d7", null ],
     [ "havocbot_ctf_find_enemy_flag", "d3/d73/gamemode__ctf_8qc.html#a097acab4da6934da3d5af50a5bbf23b7", null ],
     [ "havocbot_ctf_find_flag", "d3/d73/gamemode__ctf_8qc.html#a80b0f6a8c2fb2e78f75b54a357925450", null ],
     [ "havocbot_ctf_reset_role", "d3/d73/gamemode__ctf_8qc.html#afe47e50b88a1c1cd6e88bbec6ab3fc53", null ],

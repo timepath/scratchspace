@@ -19,6 +19,8 @@ var searchData=
   ['havocbot_5fkeyboard',['havocbot_keyboard',['../d8/d39/havocbot_8qh.html#af987fee1a1779099066890108560bcbd',1,'havocbot.qh']]],
   ['havocbot_5fkeyboardskill',['havocbot_keyboardskill',['../d8/d39/havocbot_8qh.html#a229e8c44fc467f7676a365e9d146e9a0',1,'havocbot.qh']]],
   ['havocbot_5fkeyboardtime',['havocbot_keyboardtime',['../d8/d39/havocbot_8qh.html#a0dd38baa0b2a0086f787d387c27fc733',1,'havocbot.qh']]],
+  ['havocbot_5fmiddlepoint',['havocbot_middlepoint',['../db/d15/api_8qh.html#a71afd5747d63dac2c452ae01b34a4799',1,'api.qh']]],
+  ['havocbot_5fmiddlepoint_5fradius',['havocbot_middlepoint_radius',['../db/d15/api_8qh.html#afb638ab54e65daf19d192f072dca00f9',1,'api.qh']]],
   ['havocbot_5fons_5frole_5fassistant',['HAVOCBOT_ONS_ROLE_ASSISTANT',['../d7/dd0/sv__onslaught_8qh.html#adaa9070c72f42370d85a38da35a03d2f',1,'sv_onslaught.qh']]],
   ['havocbot_5fons_5frole_5fdefense',['HAVOCBOT_ONS_ROLE_DEFENSE',['../d7/dd0/sv__onslaught_8qh.html#a09f42b82c6acb47c1c2aa86836eb6cca',1,'sv_onslaught.qh']]],
   ['havocbot_5fons_5frole_5fnone',['HAVOCBOT_ONS_ROLE_NONE',['../d7/dd0/sv__onslaught_8qh.html#a7fe86ecd018bac3db78f34ef6cfd9af9',1,'sv_onslaught.qh']]],

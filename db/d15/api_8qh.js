@@ -54,6 +54,8 @@ var api_8qh =
     [ "bot_weapons_mid", "db/d15/api_8qh.html#a07cae87e1e2224dbffc8847e445d2c1e", null ],
     [ "cleanname", "db/d15/api_8qh.html#ad3f7bd315ecf5bb0f4037153d6b46441", null ],
     [ "goalcurrent", "db/d15/api_8qh.html#a6500a34a607c753143f189ab57849131", null ],
+    [ "havocbot_middlepoint", "db/d15/api_8qh.html#a71afd5747d63dac2c452ae01b34a4799", null ],
+    [ "havocbot_middlepoint_radius", "db/d15/api_8qh.html#afb638ab54e65daf19d192f072dca00f9", null ],
     [ "havocbot_role_timeout", "db/d15/api_8qh.html#abfcd73ce6fd8da8e5ae1e3086f0763c8", null ],
     [ "isbot", "db/d15/api_8qh.html#acf6e5642e2a48bb69f631e9166056c87", null ],
     [ "kh_worldkeylist", "db/d15/api_8qh.html#a045a92c5195f8abf1d884beab42bc3f9", null ],

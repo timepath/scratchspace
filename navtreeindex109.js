@@ -1,5 +1,8 @@
 var NAVTREEINDEX109 =
 {
+"dc/da9/gamemode__ca_8qc.html#af2e5f949760406559a8cd92dedf000da":[2,0,6,3,0,4,19],
+"dc/da9/gamemode__ca_8qc.html#af8b2c69ed5f4b23ac47ad227f94d7243":[2,0,6,3,0,4,24],
+"dc/da9/gamemode__ca_8qc_source.html":[2,0,6,3,0,4],
 "dc/dab/spawning_8qc.html":[2,0,6,5,12],
 "dc/dab/spawning_8qc.html#a60096e5c98b3b608470b6130fce0b405":[2,0,6,5,12,1],
 "dc/dab/spawning_8qc.html#ac7b155ae9b6d6ccef4940bf9ef0b5dc9":[2,0,6,5,12,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX109 =
 "dc/de2/classXonoticProfileTab.html":[1,0,217],
 "dc/de2/classXonoticProfileTab.html#a01627abafc724fbbbb330e46f8331911":[1,0,217,37],
 "dc/de2/classXonoticProfileTab.html#a02991dfd170d86a5f788a27e24cbaf6f":[1,0,217,16],
-"dc/de2/classXonoticProfileTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,217,45],
-"dc/de2/classXonoticProfileTab.html#a04e6b3456ea346a0c1625485db6ba31b":[1,0,217,11],
-"dc/de2/classXonoticProfileTab.html#a086d32c9694472250922d42417bc8d66":[1,0,217,3],
-"dc/de2/classXonoticProfileTab.html#a09d90e607936c09918d9bad2674f57a1":[1,0,217,79]
+"dc/de2/classXonoticProfileTab.html#a03c2f82fa3cdcc6a3f2655e40705c23d":[1,0,217,45]
 };
