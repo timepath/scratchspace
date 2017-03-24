@@ -44,6 +44,6 @@ var base_8qh =
     [ "CBC_ORDER_EXCLUSIVE", "db/d38/base_8qh.html#a67c251f527a84b1ce3718ba6283e7bb4", null ],
     [ "CBC_ORDER_FIRST", "db/d38/base_8qh.html#a225e7365c1abfedcfce7f0c144972628", null ],
     [ "CBC_ORDER_LAST", "db/d38/base_8qh.html#a4aa0be358192aebe98876abc370873a6", null ],
-    [ "loaded_mutators", "db/d38/base_8qh.html#aef74da888eca2299ce74dd3aaa08b403", null ],
+    [ "m_added", "db/d38/base_8qh.html#a3672543d6db7ab55463e44032a219a96", null ],
     [ "mutator_log", "db/d38/base_8qh.html#a9d26825e4521eb3dbc2393da614663cc", null ]
 ];

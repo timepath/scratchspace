@@ -107,7 +107,6 @@ var searchData=
   ['liststats',['listStats',['../d0/d25/classXonoticStatsList.html#a251a14a740ca5ea4649d0fa4d956baa9',1,'XonoticStatsList']]],
   ['lms_5flowest_5flives',['lms_lowest_lives',['../d8/d2c/gamemode__lms_8qh.html#a5159121140b227cc1ff7ca5c0df2db3c',1,'gamemode_lms.qh']]],
   ['lms_5fspectate_5fwarning',['lms_spectate_warning',['../d8/d2c/gamemode__lms_8qh.html#a527fc9d748c9dc351af8068227b8ce32',1,'gamemode_lms.qh']]],
-  ['loaded_5fmutators',['loaded_mutators',['../db/d38/base_8qh.html#aef74da888eca2299ce74dd3aaa08b403',1,'base.qh']]],
   ['lockedselecteditem',['lockedSelectedItem',['../d2/dec/classXonoticServerList.html#ac74328a1d9e5cf5040523008475a4b13',1,'XonoticServerList']]],
   ['lockteams',['lockteams',['../d5/d26/server_2defs_8qh.html#ac9a5c917d5f6eb50b1aa1b333de61a88',1,'defs.qh']]],
   ['loddistance1',['loddistance1',['../d6/d93/g__subs_8qh.html#a58bdeda147960aeb6cb98119889233f5',1,'g_subs.qh']]],

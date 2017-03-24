@@ -3,6 +3,7 @@ var searchData=
   ['m_5f1_5fpi',['M_1_PI',['../d9/df7/mathlib_8qh.html#a5fa3b974793efe24eb30b003a927e4fa',1,'mathlib.qh']]],
   ['m_5f2_5fpi',['M_2_PI',['../d9/df7/mathlib_8qh.html#a08ad2397b802f2b2d6ad08a93b07b7aa',1,'mathlib.qh']]],
   ['m_5f2_5fsqrtpi',['M_2_SQRTPI',['../d9/df7/mathlib_8qh.html#a4b7f0bec5cd190751b78da2b59172644',1,'mathlib.qh']]],
+  ['m_5fadded',['m_added',['../db/d38/base_8qh.html#a3672543d6db7ab55463e44032a219a96',1,'base.qh']]],
   ['m_5falpha',['m_alpha',['../d5/de0/weaponsystem_8qc.html#ac3dc9d68570cfcacf32d6f0e7fcf2ed8',1,'weaponsystem.qc']]],
   ['m_5fblink',['m_blink',['../d9/d8c/classWaypoint.html#af3482425b308c3fb38fc4809dc1c103d',1,'Waypoint']]],
   ['m_5fcolor',['m_color',['../d0/d9a/classGameItem.html#a7d7a1817ddfcece5aa3e23c939a0097e',1,'GameItem::m_color()'],['../de/d3c/classBuff.html#ad8a0be5e74b7a94d9b1d659e974a8975',1,'Buff::m_color()'],['../d9/d61/classNade.html#a9268e47f75c2ef74b711e08258a87145',1,'Nade::m_color()'],['../d9/d8c/classWaypoint.html#a7a687a0ab5a9f2299f6a4b93862834fc',1,'Waypoint::m_color()']]],
