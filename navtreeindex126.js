@@ -1,5 +1,6 @@
 var NAVTREEINDEX126 =
 {
+"df/d26/classXonoticGameSettingsTab.html#ac0368d6c19820c8225ee9484ddbbe715":[1,0,169,83],
 "df/d26/classXonoticGameSettingsTab.html#ac13a9ba025e6a5f544526088cfb294e2":[1,0,169,50],
 "df/d26/classXonoticGameSettingsTab.html#ac648acd4d716ba6cd676f4e43345b85b":[1,0,169,1],
 "df/d26/classXonoticGameSettingsTab.html#ac796b6edd217daadfcc335ebd76bd92f":[1,0,169,67],
@@ -248,6 +249,5 @@ var NAVTREEINDEX126 =
 "df/d38/mathlib_8qc.html#ad67bb437fc83ec1ccf8342fbe2373c46":[2,0,4,2,8,15],
 "df/d38/mathlib_8qc.html#ae2bfb851ed8bf44903c10964cfc7c533":[2,0,4,2,8,16],
 "df/d38/mathlib_8qc.html#ae637aa34c014f1cc17429b85ad4b7c07":[2,0,4,2,8,1],
-"df/d38/mathlib_8qc.html#aee40956a333cb4e9f4853c0d4c35b468":[2,0,4,2,8,0],
-"df/d38/mathlib_8qc.html#af001a57040fecf1a4fcfe4506741cfe9":[2,0,4,2,8,26]
+"df/d38/mathlib_8qc.html#aee40956a333cb4e9f4853c0d4c35b468":[2,0,4,2,8,0]
 };
